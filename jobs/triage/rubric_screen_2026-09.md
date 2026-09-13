@@ -62,9 +62,13 @@ Then the tech re-score is a job of your own: 204 rows of evidence, one score eac
   that key. Women's-only marks do not count; a sub-line seated as its own key (Veilance, RLX) does not
   count toward its parent; an unseated sub-line inside the house's men's catalogue (Herno Laminar)
   does.
-- Fibre-supplier marks (Tencel on 35 brands) as "names a technology" (recommend: only where the house
-  leads with it — which makes it a judgement the evidence record should carry, not a count).
-- Disallowed endpoints (recommend: out of bounds; Stone Island's census held until reproduced).
+- **Ruled 13 Sep:** a fibre-supplier mark (Tencel, Lycra, Supima) counts as naming a technology only
+  where the house leads with it — in a product name, collection name or filter. In the composition
+  line alone it does not count. The evidence record carries a `leads` flag per mark; the thread makes
+  the call and cites where it saw it.
+- **Ruled 13 Sep:** data read from a path a site's robots.txt disallows is in bounds. Nothing is
+  written or bypassed; the path is recorded in provenance so the figure can be explained. Stone
+  Island's census merges on the same terms as any other.
 
 ## Back to the thread
 

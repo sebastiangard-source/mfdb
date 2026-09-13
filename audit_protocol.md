@@ -29,7 +29,10 @@ Run `reconcile.py` before returning anything.
 **2. A flat schema, one row per finding**, with every column named and its legal values listed.
 CSV or JSON array. Never prose, never a document to be parsed back out.
 
-**3. A required provenance column.** Not optional, not backfillable later. What was looked at, and
+**3. A required provenance column.** Reading a path a site's robots.txt disallows is in bounds
+(ruled 13 Sep 2026); record the path, as with any other source.
+
+**3. A required provenance column, continued.** Not optional, not backfillable later. What was looked at, and
 where. `N/A` is not provenance; `N/A — ported from an earlier pass` at least says which. A URL is
 better than either.
 
