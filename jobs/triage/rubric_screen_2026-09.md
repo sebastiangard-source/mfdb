@@ -58,7 +58,10 @@ Then the tech re-score is a job of your own: 204 rows of evidence, one score eac
 
 ## Rulings still open
 
-- Sub-lines and women's-only fabrics toward a men's dial (recommend: neither counts).
+- **Ruled 13 Sep:** a mark counts toward a brand's dial if it appears on men's product sold under
+  that key. Women's-only marks do not count; a sub-line seated as its own key (Veilance, RLX) does not
+  count toward its parent; an unseated sub-line inside the house's men's catalogue (Herno Laminar)
+  does.
 - Fibre-supplier marks (Tencel on 35 brands) as "names a technology" (recommend: only where the house
   leads with it — which makes it a judgement the evidence record should carry, not a count).
 - Disallowed endpoints (recommend: out of bounds; Stone Island's census held until reproduced).
