@@ -375,7 +375,7 @@
       "id": "fibre_pass_2026-09-14",
       "title": "Fibre pass — the range, measured for 197 brands",
       "kind": "fibre",
-      "state": "pilot_returned",
+      "state": "held",
       "created": "2026-09-13",
       "issued": "2026-09-13",
       "pilot": 8,
@@ -684,9 +684,19 @@
           "held": 8,
           "merged": 0,
           "triage": "jobs/triage/fibre_pass_2026-09-14_1.md"
+        },
+        {
+          "n": 2,
+          "file": "return__1_.csv",
+          "received": "2026-09-13",
+          "rows": 197,
+          "mergeable": 8,
+          "held": 0,
+          "merged": 0,
+          "triage": "jobs/triage/fibre_pass_2026-09-14_2.md"
         }
       ],
-      "blocked_on": "",
+      "blocked_on": "eight pilot rows restating on the spandex main-line ruling; rev3 issued",
       "note": "running in the Brand rubric screening thread from 13 Sep evening; pilot of 8 first"
     }
   ]

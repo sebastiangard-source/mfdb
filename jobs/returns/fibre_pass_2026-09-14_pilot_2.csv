@@ -1,0 +1,198 @@
+brand,styles_total,styles_with_composition,natural_pct,synthetic_pct,cellulosic_pct,spandex_styles,spandex_high_styles,shape,synthetic_categories,natural_categories,style_method,colourway_ratio,locale_dedup,feed_currency_rate,status,source,note
+Levi's,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Carhartt,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Lacoste,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Mack Weldon,232,231,59,33,8,153,96,one,"[""Accessories""]","[""Tops"",""Bottoms""]",handle,1267/232,none,1.0,complete,"https://mackweldon.com/collections/tops/products.json?limit=250 (plus /collections/bottoms, /collections/underwear, /collections/accessories; composition from each PDP's material-care accordion; read 13 Sep 2026)","Measured fresh 13 Sep 2026, not re-rendered. Four top-level collections reproduce exactly: Tops 97 + Bottoms 50 + Underwear 42 + Accessories 43 = 232 unique handles with zero overlap; 1267 colourways and 5974 variants confirmed to the unit. CORRECTION 1: only 1 style (covert-leather-belt) states no composition, not 13. Twelve of the supposed 13 do state one - it is rendered client-side into an Alpine x-html attribute and is absent from the server HTML (tech-cashmere-crew-neck-sweater = 'Exterior: 90% Merino Wool / 10% Cashmere | Interior: 60% Cotton / 40% Cooling Yarns'), or it uses a non-standard material word (6 accessories at 100% Recycled Poly Canvas / Neoprene / Recycled Industrial Twill). Verified against the live rendered DOM on tech-cashmere-crew-neck-sweater, airknitx-boxer-brief and stratus-active-short. CORRECTION 2: majority synthetic is 76, not 70 - the extra 6 are exactly those poly-canvas/neoprene/twill accessories. TIE RULE: 29 styles (12.5%) have an exact tie for top share across class lines - '47.5% Cotton / 47.5% Modal / 5% Spandex' recurs 12 times. First-listed wins here. Resolving ties to the non-natural side instead gives natural 113 / synthetic 78 / cellulosic 40. The brief's '104 (44.8%) if modal/TENCEL counted' reproduces under neither rule: synthetic+cellulosic is 94 (40.5%) first-listed, 118 (50.9%) tie-to-non-natural. SPANDEX: 153/96 counts elastane|spandex|lycra anywhere in the stated composition; first composition only gives 152/95. A further 9 styles say '5% Stretch' with no fibre named - counting those as elastane gives 162/105. Read percentages not words: tech-boot-sock is .5% Spandex and is correctly not high. SHAPE one: excluding Underwear and the 3 swim styles that sit inside Bottoms, the range is 117 natural / 57 synthetic / 12 cellulosic of 187 - cotton-led with a minority performance block, not two halves. Accessories is the only synthetic-led category and only 20-19. Underwear, had it counted, is also natural-led (20N/16S/6C), so the exclusion changes nothing. DENOMINATOR: /collections/all-mens-clothing confirmed at '182 items' and missing exactly 60 of the 232 - but it also carries 10 live men's styles that are in none of the four (ace-sweatshort, ace-straight-leg-sweatpant, silver-long-sleeve-button-up, tech-cashmere-v-neck-sweater, maverick-tech-chino-pleated-short, merino-fleece-shirt-jacket, 2-pack-airknit-polo, 2-pack-ace-sweatshorts-9, 2-pack-ace-cargo-short, terry-cloth-polo-shorts-set). The four therefore partition cleanly but do NOT exhaust the men's range: the true union is 242 (natural 145 / synthetic 78 / cellulosic 18 / none 1 = 60/32/8/0 pct; spandex 158/100). 232 kept as the agreed denominator. collections.json products_count (Tops 109, Bottoms 57, Underwear 53, Accessories 55) is inflated and must not be used. Composition read from the PDP material-care accordion, first listed part only."
+Charles Tyrwhitt,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Son of a Tailor,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Mott & Bow,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Banana Republic,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Everlane,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Alex Crane,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Industry of All Nations,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Marine Layer,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Cuts Clothing,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Bonobos,2821,2490,73,13,2,571,149,one,"[""Golf""]","[""Sweaters & Sweatshirts"", ""Pants & Jeans"", ""Outerwear""]",handle,2821/2821,none,not shopify,complete,https://bonobos.com/sitemap.xml,"CORRECTS THE PRIOR FIGURE ON COVERAGE. 2,490 of 2,821 (88.3%) state a fibre composition, not 1,512 of 2,821 (53.6%) - so this row is COMPLETE, not partial, and the 46.4%-state-none finding does not hold. Composition is a structured field, properties.fabric, inside the server-rendered __NEXT_DATA__ of every PDP; re-fetching a 60-product sample reproduced the stored value 60/60. The 331 that genuinely state nothing are overwhelmingly discontinued records left in the sitemap (isPurchasable false, empty properties), 21 of them dead outright (500/404), plus belts and leather goods that give a material but no percentages, and about ten legacy women's dresses. Cross-check that supports the prior pass's rate but not its denominator: 376 of 2,490 majority-synthetic = 15.1%, against the prior 244 of 1,512 = 16.1% - the same rate read over a smaller catalogue. SPANDEX, THE POINT OF THE PASS: 571 styles state elastane/spandex/Lycra/ROICA in the main composition and 149 of those are at 5%+. The comfort/performance divide the brief was written for is real and lopsided - 373 styles sit at 1-3% (216 of them at exactly 2%, the chino and denim default) against 99 at 8%+, which are the golf and tech-shell lines, topping out at 25%. 19 further styles state elastane only in a lining, contrast or rib and are excluded to keep the basis identical to the main-fibre rule (590 on the looser 'anywhere in the string' reading). READING THE PERCENTAGE, NOT THE WORD, MATTERED: '100% Cotton with Mechanical Stretch' and '100% Cotton twill' are natural and carry no elastane, while 'Stretch Washed Chinos' is 98/2; an early classifier that matched the word stretch mis-called 9 styles synthetic. The 'Jack Quaid Loves Weekday Warriors' banner is on 25 of 25 sampled pages - confirmed page furniture, and irrelevant here because nothing is read from page text. shape=one: a cotton house, 73% natural overall, with Golf the only synthetic-led category (75 of 103); Shorts & Swim is natural-led even before the swim exclusion. Category tags come from the site's own taxonomy where present (1,780 styles); 991 archived records carry no category at all, so those were bucketed from the product name - a category assignment only, never a fibre one. colourway_ratio 1.00 is genuine: colour is a variant inside one /products/<handle> record, one handle per style. Censused 13 Sep 2026 from the flat sitemap; Next.js, no Shopify feed."
+Vuori,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Rothy's,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Lululemon,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Alo,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Southern Tide,459,419,50,41,0,240,171,split,"[""Polo Shirts"",""Shorts"",""Outerwear"",""Pullover"",""Hoodie"",""Belt""]","[""T-Shirts"",""Sportshirts"",""Pants""]",handle,737/459,none,1.0,complete,"https://southerntide.com/collections/mens-clothing/products.json?limit=250 (paged to exhaustion, 2 pages; composition from each PDP's product__accordions-block; read 13 Sep 2026)","Measured fresh 13 Sep 2026. /collections/mens-clothing/products.json paged to exhaustion returns 459 and the storefront displays '459 Results'; collections.json's 550 confirmed stale. CORRECTION 1: the colourway ratio is NOT 1.00 on the measure used for Mack Weldon. 458 of 459 products carry a Color option and the distinct colour values total 737, so colourways/styles = 737/459 (1.61). It is 1.00 only on a listings/styles reading - 459 records = 459 styles because colour is a variant inside one record. The 'one polo had 55' figure is that polo's VARIANT count: team-colors-driver-spacedye-polo-shirt-1 is 11 colours x 5 sizes = 55 variants; the catalogue maximum is 11 colours, and total variants are 4207. CORRECTION 2: majority synthetic is 191 (42%), not 109 (24%). Hand-checked across a 12-style spread; the house is genuinely polyester/nylon-led in polos, shorts, outerwear and pullovers (Polo Shirts 13N/47S, Shorts 10N/24S, Outerwear 2N/15S). 109 looks like a substantial undercount. Composition coverage 419/459 is close to the brief's 417/459; the 40 that state none are 10 footwear, 12 non-apparel, 7 headwear, 6 accessories, 2 belts, 1 gift card, 1 cologne and 1 t-shirt. CELLULOSIC is a true measured 0, not an absence of looking: 41 styles contain rayon/viscose/modal/lyocell but it is always the second fibre (67% Cotton 30% Modal; 55% Linen 45% Rayon; 59% Cotton 30% Lyocell), never the majority. Zero cross-class ties anywhere in the catalogue. SPANDEX: 240/171 counts elastane|spandex|lycra in the stated composition. A further 10 styles say '3% Stretch', '7% Stretch' or '3% Comfort Stretch' with no fibre named - counting those as elastane gives 250/171. SHAPE split: excluding Swimwear (20, all synthetic) and Underwear (11), the range is 221 natural / 167 synthetic / 0 cellulosic of 428, and the halves are category-clean - T-Shirts 81N/7S, Sportshirts 58N/38S, Pants 18N/11S, Neckwear 6N/0S against Polo Shirts 13N/47S, Shorts 10N/24S, Outerwear 2N/15S, Pullover 6N/9S, Hoodie 1N/3S. Belt is synthetic-led on only 2 stated of 4 and is the weakest member of the synthetic list. EXTRACTOR: scoped to the PDP .product__accordions-block that states a composition, after rejecting the sunglasses' '100% UV protection blocks UVA and UVB rays' - real page furniture that a loose parser counts as a composition - and the marketing line '100% cotton styles to technical performance' that appears on every PDP. One genuine page error: shipwatch-stripe-coastal-breeze-performance-polo states 85% Softcool Nylon + 8% Spandex = 93%. Denominator includes 1 women's tee, 1 youth outerwear, a gift card and a cologne that the collection carries."
+Rhoback,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Criquet,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Taylor Stitch,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Outerknown,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Patagonia,518,515,32,68,0,166,116,split,"[""Bottoms"",""Jackets & Vests"",""Hats & Accessories"",""Fleece"",""Bags & Luggage"",""Boardshorts & Rashguards"",""Waders"",""Snow"",""Baselayers"",""Sweatshirts & Hoodies""]","[""Tops"",""Wetsuits"",""Socks""]",product_code,2102/518,none,not shopify,complete,https://www.patagonia.com/shop/mens,"Census 2026-09-13. Grid /shop/mens?start=N&sz=100 paged to 600: 562 .product-tile nodes (= the storefront counter exactly), 537 distinct base pids, 518 numeric. The 19 non-numeric are 10 Hestra + 8 Farm to Feet + 1 book (BK920) - so 562 = 518 + 25 duplicate colourway tiles + 19 third-party/book, confirming the given reconciliation. All 518 PDPs read, 0 errors. 3 state no composition (79385 Wild Idea Work Boots, 81660 Wader Repair Kit, 81755 Grip Studs kit) - reproduces the given 3. Counts: synthetic-main 350, natural 164, cellulosic 1 (52553 Tidal Threads, 100% TENCEL lyocell), none 3. Minor variance from the given 349: the class-sum rule also returns 350 here, and the category table matches last week's except Bottoms 102 vs 103, so this is one product of catalogue churn, not a rule difference. Natural includes Yulex natural rubber (all 17 wetsuits), cotton/hemp/wool/down/leather. SENSITIVITY: 11 styles are 50% recycled cotton / 50% recycled polyester tees; resolved to the first-listed fibre (natural) as on Arc'teryx - resolving them the other way gives 361 synthetic / 153 natural and flips Tops to synthetic-led. Spandex: 166 styles contain elastane/spandex/Lycra anywhere, 116 at >=5%; main-fabric line only, 100 and 67. XLANCE (elastolefin, 3 styles at 11-18%) excluded from the spandex count; including it gives 168/118. shape=split: a synthetic technical half (Jackets & Vests 78/94, Fleece 42/53, Bottoms 67/102, Bags 17/17, Snow 9/9, Baselayers 7/7) against a cotton/hemp half concentrated in Tops, the largest category, which is natural-led 58/115, plus 17 natural-rubber wetsuits; swim and underwear excluded from that verdict. PARSER, validated by hand: the composition is NOT camel-joined if you scope to [data-pdp-accordion-materials] and read li.pdp__content-feature as h3 label + p description; the bluesign/Fair Trade lines carry no percentage at all, so the 27-of-119 false-negative trap cannot fire - 90 real composition lines do contain certification words (Regenerative Organic Certified, OceanCycle) and are kept. Body chosen by label priority Body/Main body > Shell/H2No Standard shell > Exterior > Face > Upper > crown-and-bill > unlabelled; only the first slash-joined percentage chain is taken, stopping at a break marker whose tail contains another percentage (or/lined with/bonded to/;). All 955 parsed chains sum to exactly 100%; the only unclassified descriptor is Patagonia's own ""other fiber"" (8 occurrences, all at 4%). Site facts confirmed: credentials:'include' is required, and a same-origin hidden iframe resets the page-session volume limiter - 518 PDPs at concurrency 3 in ~45s with 0 failures and no reset needed. colourway_ratio counted from PDP swatches (grid swatches undercount at 1721)."
+Finisterre,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Rodd & Gunn,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Rowan,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Mizzen+Main,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+State & Liberty,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Rhone,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+J.Lindeberg,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+TravisMathew,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Malbon,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Redvanly,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+RLX,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+johnnie-O,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Percival,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Wax London,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Hiroshi Kato,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Sugar Cane,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Buck Mason,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Duck Head,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Wythe,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+AYR,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Alex Mill,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Robert Barakett,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Easy Mondays,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Indochino,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Proper Cloth,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Tecovas,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Patrick James,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Barbour,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Baracuta,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Filson,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+James Perse,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Y.Chroma,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Madhappy,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Kith,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Aimé Leon Dore,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Massimo Dutti,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Vineyard Vines,721,721,67,33,0,197,166,split,"[""mens-polos"", ""mens-headwear"", ""mens-outerwear"", ""mens-loungewear""]","[""mens-t-shirts"", ""mens-fashion-knits"", ""mens-belts""]",product_code,723/721,none,not shopify,complete,https://www.vineyardvines.com/sitemap_0.xml,"Re-measured 13 Sep 2026, not re-rendered from the prior pass. THREE CORRECTIONS to the prior figures. (1) 723 is listings, not styles: sitemap_0.xml holds 723 /product/mens-* URLs of which one is a soft-404 (200 OK, 'Oops, we couldn't find this page' - 1G013582 smu-performance-winstead-stripe-sankaty-polo) and one is a duplicate listing (product code 1F000121 appears as both .../1F000121.html and .../192926936447.html). 721 real styles. (2) Composition coverage is 721/721, not 719/723 - every live PDP carries a Fabric panel; 2 state materials in words without percentages (polyurethane slide, polyester flip-flop), both still classifiable. (3) Majority synthetic is 241/721 (33%), not 226/723 (31%). The 15-style gap is exactly the 10 olefin/rubber bungee belts plus the 5 'brrr(deg) recycled polyester' tees - the latter is a parser trap: the degree sign in the branded fibre name 'brrr(deg) recycled polyester' / 'brrr(deg) nylon' breaks a naive percent-fibre regex and silently drops the leading fibre. A sum-to-100 check on each first composition caught it (17 rows summed to 11%, 62% or 200%). SEPARATE CONTAMINATION, not corrected in these cells: 52 of the 721 are boys' styles sitting under /product/mens-* paths (slug and JSON-LD name both start 'Boys''), so the URL-path gender rule over-counts men's. Men's-only: 669 styles, natural 433 (65%), synthetic 236 (35%), cellulosic 0, spandex 190, spandex>=5% 159. Row is on the 723-basis for comparability with the rest of the pass. Composition is NOT in the JSON-LD description (that is a one-line marketing sentence); it is in the .long-description accordion under an h4 'Fabric'. Main fibre read from the first bulleted composition only (Upper:/Body:/Trim: are separate bullets). natural includes leather/suede/cowhide/straw as animal and plant fibres; rubber, olefin, polyurethane, EVA and TPR counted synthetic. cellulosic is genuinely 0: rayon/viscose/modal/lyocell/TENCEL appear in 14 first-compositions but never as the majority fibre. spandex counted across the whole composition block (any part); on the first composition alone the counts are identical (197/166). Furniture check: the most common fabric string is '100% cotton' at 246/721 (34%), so no single value dominates. Time: ~20 min."
+Polo Ralph Lauren,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+RRL,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+J.McLaughlin,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Ted Baker,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Scotch & Soda,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+NN07,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Samsøe Samsøe,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Les Deux,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Norse Projects,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Vollebak,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Stone Island,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+A Bathing Ape,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Canada Goose,247,247,49,51,0,10,8,split,"[""Lightweight Jackets"", ""Vests"", ""Parkas"", ""Rain & Wind"", ""Puffers"", ""Bombers"", ""Snow Goose"", ""Snow Pants""]","[""Tops"", ""Knitwear"", ""Bottoms""]",product_code,247/247,"per-market sitemaps (us, ca, ...) -> us/en only",not shopify,complete,https://www.canadagoose.com/us/sitemap-Custom_sitemap_0-Product-CanadaGooseUS.xml,"CORRECTS THE PRIOR FIGURE ON COVERAGE. Every men's garment states a composition: 247 of 247 (100%), not 152 of 248 (61%). The prior pass read the rendered DOM, where the Materials & Care panel is collapsed and its content never reaches document text - clicking it here still leaves no percentage in innerText. c_materialComposition sits in the page payload (__PRELOADED_STATE__) on every men's garment, so the 39% hole was a reading failure, not a disclosure gap; status is complete, not partial. Denominator: 247 men's garments = c_gender male (plus unisex filed under shop-mens), minus eyewear (19), footwear (10), bags (4) and home/book (3), minus worn accessories - hats, gloves, socks (22). Including those accessories gives 269, also 100% stated; all men's records incl. footwear/eyewear give 305. The prior 248 is this same core set +/-1 (42 sitemap URLs are dead 404s). Main fibre from the FIRST composition, accumulating pairs to 100% so a '100% Leather body with cuff 90% Wool' or 'Fleece: 100% Cotton / Down panels: 100% Polyamide' string cannot be summed across parts; 4 of 247 are CG's own malformed strings summing to 115-127% (61% recycled wool still leads, so the call is unaffected). 0 cellulosic-led and 0 without composition, so nat+syn = 100. SHAPE IS GENUINELY SPLIT: 126 synthetic-led against 121 natural-led - a synthetic outerwear half (parkas, puffers, bombers, lightweight, rain and wind, vests, snow) against a natural jersey-and-knit half (organic cotton tops and tees, merino knitwear, cotton bottoms). Spandex is small and barbell-shaped, not comfort stretch: 10 styles contain any elastane, 8 of them at 5%+ (2 at 2%, then 6, 6, 12, 12, 12, 12, 17, 30) - these are the four-way-stretch rain shells and the Clyne pullover, not stretch chinos. COLOURWAY RATIO CAVEAT: 247/247 is a true 1.00 because each record carries its colours as variants ('5 Colours' on one PDP), but CG issues separate style codes for logo-disc finishes (langford-parka-2052M / -2052MT / -2052MB); 63 of the 247 are such finish variants, collapsing to 159 distinct numeric style stems. Deduped to 159 the split is 48% natural / 52% synthetic and spandex is 7 / 5 - the story does not move. Censused 13 Sep 2026 from the US product sitemap (609 URLs, 567 live, 42 dead); site rate-limits XHR at 429 above ~8 concurrent, so the crawl was resumed at 4."
+Arc'teryx,204,188,16,76,0,94,78,one,"[""Shell Jackets"", ""Insulated Jackets"", ""Packs"", ""Climbing Gear"", ""Fleece"", ""Accessories"", ""Pants"", ""Shorts"", ""Base Layer""]","[""Shirts and Tops""]",product_code,558/204,none,not shopify,complete,https://arcteryx.com/us/en/c/mens,"Census 2026-09-13. /api/catalog.getProductListingPage (input json needs country+language+slug+url; limit caps at 200) -> totalCount 204, 204 unique ids, colourOptions sum 558 - reproduces the given 204/558 exactly. PDP via /_next/data/<buildId>/us/en/shop/<slug>.json, product.materials[] (labelled ""Body:"" / ""Self:"" lines). 16 state no composition = 13 footwear (qualitative Upper/Outsole only) + 3 Nu care products - reproduces the given 16. CORRECTION to the given 157: under rev2's rule (highest SINGLE fibre in the body line) synthetic-main is 155, not 157. 157 is exactly what the old rule (sum the synthetic CLASS >50%) returns; the two that flip are word-head-toque (48% wool/47% rPES/4% nylon/1% elastane) and color-block-toque-9931 (48/48/3/1). Counts: synthetic 155, natural 33, cellulosic 0, none 16. Natural includes goose down, goat leather, wool/merino, cotton. Cellulosic 0 although 3 styles contain 28% lyocell (Satoro merino, wool-led). Strict literal ""first line listed"" gives 152/36/0 - Arc'teryx's materials array is unordered (Gamma Pant lists Lining before Body), so the body/self/shell line is taken, per ""not the lining"". 4 cross-class 50/50 ties resolved to the first-listed fibre. Spandex read as a percentage, not a word: 94 styles contain elastane anywhere (78 at >=5%); restricted to the main fabric line it is 81 and 69. Elastane values run 1-28%. shape=one: 155 of 188 stated are synthetic-led and only Shirts and Tops is natural-led (13 of 21); per-category synthetic-led share Shell Jackets 27/27, Insulated 19/19, Packs 23/23, Climbing Gear 12/12, Fleece 15/19, Pants 9/13, Accessories 36/45, Base Layer 4/7, Shorts 4/5, Footwear 0/13 (no percentages). Parser validated by hand: all 22 distinct fibre descriptors classify, no unknowns; the only body line not summing to 100 is sabre-bib-pant-8924 at 200% (GORE-TEX membrane + backing), verdict unaffected."
+Vince,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Rails,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Club Monaco,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+PAIGE,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+AG,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Ksubi,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Purple,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Diesel,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Citizens of Humanity,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+AGOLDE,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Fidelity Denim,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Joe's Jeans,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Suitsupply,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Boggi Milano,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Hackett,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Eton,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Rakho,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Eleventy,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Borgo28,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Incotex,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Jack Victor,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Brooks Brothers,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+J.Press,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Sunspel,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Saint James,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Margaret Howell,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Reiss,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Sandro,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Isabel Marant,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Frame,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Theory,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Rag & Bone,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+John Varvatos,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Sid Mashburn,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Billy Reid,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+A.P.C.,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Luca Faloni,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+120% Lino,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Paul Smith,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Officine Générale,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Brax,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Hartford,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Our Legacy,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Auralee,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Ami Paris,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Boglioli,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Peserico,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Ring Jacket,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Drake's,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+John Smedley,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Gran Sasso,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Johnstons of Elgin,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Raffi,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+BOSS,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Corneliani,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Canali,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Thom Browne,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Burberry,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Herno,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Valstar,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Aspesi,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Paul & Shark,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Sease,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Moncler,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Ferragamo,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Giorgio Armani,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Missoni,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Etro,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Versace,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Dolce&Gabbana,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Fendi,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Valentino,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Saint Laurent,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Celine,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Givenchy,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Gucci,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Balenciaga,338,338,86,14,0,92,19,one,[],"[""T-shirts"", ""Sweatshirts & hoodies"", ""Pants""]",product_code,338/338,13 locales -> en-us only,not shopify,complete,https://www.balenciaga.com/en-us/men/ready-to-wear,"Re-measured 13 Sep 2026. CONFIRMS the prior synthetic figure exactly - 46 majority-synthetic on the Main material line - but on a denominator of 338, not 337: every one of the 338 styles states a composition, so styles_with_composition is 338/338 and the '1 states no composition' does not reproduce. CHANNEL CORRECTION: the prior pass used Search-UpdateGrid?cgid=men_rtw&sz=400, which balenciaga.com/robots.txt disallows twice (Disallow: /on/demandware.store/* and Disallow: *cgid=*). Censused instead by loading the allowed page /en-us/men/ready-to-wear and clicking its own 'load more' 26 times (13 per page); that yields 338 tiles, 338 unique data-pid and 338 unique PDP paths, matching the storefront's '338 Products'. TRAP HANDLED AND CONFIRMED LIVE: all 338 of 338 PDPs mention Tencel and Ecovero (packaging/sustainability accordion); 0 of 338 have either in the composition. A whole-page read would score cellulosic 100%. Second trap found: the composition is NOT under a single 'Main material:' label - 19 styles use 'Main material 1:/2:', 'Material 1:', 'Fabric 1:' or an unlabelled bare line, so a literal 'Main material:' regex reports 19 false no-composition rows. Read the first line of the second .c-product__detailinfo list instead (the first list is feature bullets). Third trap: the per-product category id is not in the PDP server HTML - every PDP returns the same nav value men_rtw_tshirts (338/338), and data-gtmproduct returns 'Ready-To-Wear' for all 338. Categories here are therefore bucketed from the site's own product names, not from a site category id - flagged as the weakest cell in this row. TIE WARNING: 14 styles tie for highest share in the first composition, 12 of them '50% cotton, 50% polyamide'. Resolved to the first-listed fibre (cotton, natural). Resolved the other way, synthetic would be 58/338 (17%) not 46/338 (14%). cellulosic is 2 styles (0.6%, both 100% viscose t-shirts), which rounds to 0 in an integer cell. spandex counted across all composition parts (main material, trimming, lining, embroidery): 92 styles, 19 at >=5%. On the Main material line alone it is 11 and 2 - the gap is the 'Trimming: 99% cotton, 1% elastane' neck tape on most jersey styles. shape is 'one': every category with more than one style is natural-led, so synthetic_categories is []. colourway_ratio is genuinely 1.00 - colour is a dwvar variant inside one record. Non-Shopify (Salesforce Commerce Cloud). Over the 45-min box: ~70 min, mostly re-deriving an allowed census channel after the robots.txt finding and the extension failing after the first call per tab."
+McQueen,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Maison Margiela,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Rick Owens,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Yohji Yamamoto,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Junya Watanabe,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Sacai,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Casablanca,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Jacquemus,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Prada,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Loewe,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+JW Anderson,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Dior,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Amiri,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Rhude,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Palm Angels,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Golden Goose,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Fear of God,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Bode,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Greg Lauren,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Visvim,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Tom Ford,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Ralph Lauren Purple Label,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Zegna,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Bottega Veneta,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Berluti,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Charvet,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Husbands,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Brioni,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Isaia,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+The Row,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Lemaire,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Jil Sander,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Acne Studios,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Dries Van Noten,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Wales Bonner,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+JiyongKim,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Brunello Cucinelli,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Fedeli,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+The Elder Statesman,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Hermès,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Rubinacci,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Kiton,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Cesare Attolini,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Zilli,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Stefano Ricci,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
