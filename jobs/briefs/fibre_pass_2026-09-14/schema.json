@@ -36,6 +36,11 @@
       "range": [0, 99999]
     },
     {
+      "name": "spandex_high_styles",
+      "type": "int",
+      "range": [0, 99999]
+    },
+    {
       "name": "shape",
       "type": "enum",
       "values": ["one", "split"]

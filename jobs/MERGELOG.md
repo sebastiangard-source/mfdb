@@ -411,3 +411,5 @@ Origin vocabulary normalised at merge: {'house_named->house': 2, 'blank->unclear
 - Duck Head: tech_evidence names=yes origin=licensed [census_204]
 - Merz b. Schwanen: tech_evidence names=yes origin=house [census_204]
 - Saint James: tech_evidence names=yes origin=house [census_204]
+
+## 2026-09-13 · ruling · Loro Piana fibre.x null -> 0 (earlier read: no spandex in any of 675 styles; null rendered as not-counted)

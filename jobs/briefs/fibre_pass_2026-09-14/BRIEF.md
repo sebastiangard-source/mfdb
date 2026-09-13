@@ -1,6 +1,6 @@
 # fibre_pass_2026-09-14 — Fibre pass — the range, measured for 197 brands
 
-**Revised 13 September after the pilot return.** Changes: a `status` column; `cellulosic_pct` and
+**Revised 13 September after the pilot return (rev2).** Changes: a `status` column; `cellulosic_pct` and
 `locale_dedup` columns; the time box; the null-vs-NC note on the seated seven; a rayon ruling pending.
 The pilot's eight rows are held, not rejected — they are half a record each, and `fibre` lands whole
 or not at all. Fill the other half from what you already hold where you can.
@@ -84,11 +84,15 @@ minutes; caught at the end they cost the pass.
   does not catch it; `locale_dedup` says what you removed (e.g. `4 locales → en-us only`, or `none`).
 - **Regenerated cellulosics — rayon, viscose, modal, lyocell/TENCEL, cupro, acetate — are neither
   natural nor synthetic.** Count them in `cellulosic_pct`. `natural_pct + synthetic_pct +
-  cellulosic_pct + (no composition) = 100`. Whether the map folds cellulosics into one side is a
-  ruling not yet taken; keeping them separate means the answer costs nothing later. PAIGE's
+  cellulosic_pct + (no composition) = 100`. **Ruled 13 Sep: cellulosics are a
+  third figure, neither natural nor synthetic.** The natural dial reads `natural_pct` alone. PAIGE's
   performance denim is 54% rayon — that row moves 44 points on the ruling.
-- **The seated seven carry `"x": null` for three houses.** In the page that renders as "not counted",
-  which is your `NC`, not zero. Treat those three as unmeasured for spandex; if you can count them
+- **Spandex is two counts.** `spandex_styles` = styles containing any elastane at all; `spandex_high_styles`
+  = styles at 5% or more. Comfort stretch (1–3% in chinos and denim) and performance stretch (8–12%) are
+  different facts about a house and one figure hides the difference. A house with none is `0`, not `NC`.
+- **The seated seven carry `"x": null` for two houses** (Merz b. Schwanen, Comme des Garçons; Loro Piana is
+  now `0`). In the page that renders as "not counted",
+  which is your `NC`, not zero. Treat those two as unmeasured for spandex; if you can count them
   while there, do.
 - **Composition coverage decides whether the row is a finding.** `styles_with_composition` over
   `styles_total` below about 60% means the percentages rest on a minority of the range — return the

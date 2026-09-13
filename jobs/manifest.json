@@ -165,7 +165,7 @@
       "writes": {},
       "returns": [],
       "blocked_on": "thread may hold spandex counts for 163 brands that never reached the build — chase",
-      "note": "superseded by fibre_pass_2026-09-14; its held spandex counts, if any, are requested as that brief's pilot"
+      "note": "closed: the 163 spandex counts were not found in any thread asked (three); spandex is measured inside fibre_pass_2026-09-14 instead"
     },
     {
       "id": "style_canon_2026-09",
@@ -615,6 +615,11 @@
           "range": [0, 99999]
         },
         {
+          "name": "spandex_high_styles",
+          "type": "int",
+          "range": [0, 99999]
+        },
+        {
           "name": "shape",
           "type": "enum",
           "values": ["one", "split"]
@@ -662,7 +667,9 @@
         "fibre.t": "styles_total",
         "fibre.n": "natural_pct",
         "fibre.s": "synthetic_pct",
+        "fibre.c": "cellulosic_pct",
         "fibre.x": "spandex_styles",
+        "fibre.xh": "spandex_high_styles",
         "fibre.sp": "shape",
         "fibre.sc": "synthetic_categories",
         "fibre.nc": "natural_categories"
