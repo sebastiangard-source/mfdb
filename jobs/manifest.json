@@ -1,0 +1,353 @@
+{
+  "jobs": [
+    {
+      "id": "seating_master_2026-09-13",
+      "title": "Seating master — 55 rows",
+      "kind": "seating",
+      "state": "issued",
+      "created": "2026-09-13",
+      "issued": "2026-09-13",
+      "pilot": 8,
+      "nc": "NC",
+      "brands": "all",
+      "schema": [
+        {
+          "name": "brand",
+          "type": "key"
+        },
+        {
+          "name": "source",
+          "type": "provenance"
+        },
+        {
+          "name": "note",
+          "type": "str"
+        }
+      ],
+      "writes": {},
+      "returns": [],
+      "blocked_on": "",
+      "note": "Stage 1's 21 sift verdicts come back first"
+    },
+    {
+      "id": "rubric_screen_origin_2026-09",
+      "title": "8 origin checks",
+      "kind": "rubric_screen",
+      "state": "drafted",
+      "created": "2026-09-13",
+      "issued": null,
+      "pilot": 8,
+      "nc": "NC",
+      "brands": "all",
+      "schema": [
+        {
+          "name": "brand",
+          "type": "key"
+        },
+        {
+          "name": "source",
+          "type": "provenance"
+        },
+        {
+          "name": "note",
+          "type": "str"
+        }
+      ],
+      "writes": {},
+      "returns": [],
+      "blocked_on": "",
+      "note": "not started"
+    },
+    {
+      "id": "rubric_screen_tech_2026-09",
+      "title": "36-brand tech screen",
+      "kind": "rubric_screen",
+      "state": "drafted",
+      "created": "2026-09-13",
+      "issued": null,
+      "pilot": 8,
+      "nc": "NC",
+      "brands": "all",
+      "schema": [
+        {
+          "name": "brand",
+          "type": "key"
+        },
+        {
+          "name": "source",
+          "type": "provenance"
+        },
+        {
+          "name": "note",
+          "type": "str"
+        }
+      ],
+      "writes": {},
+      "returns": [],
+      "blocked_on": "",
+      "note": "not started"
+    },
+    {
+      "id": "catalogue_capture_2026-09",
+      "title": "Catalogue capture, 181 brands",
+      "kind": "capture",
+      "state": "issued",
+      "created": "2026-09-13",
+      "issued": "2026-09-05",
+      "pilot": 8,
+      "nc": "NC",
+      "brands": "all",
+      "schema": [
+        {
+          "name": "brand",
+          "type": "key"
+        },
+        {
+          "name": "source",
+          "type": "provenance"
+        },
+        {
+          "name": "note",
+          "type": "str"
+        }
+      ],
+      "writes": {},
+      "returns": [],
+      "blocked_on": "",
+      "note": "64 of 181 done; browser permissions were the blocker"
+    },
+    {
+      "id": "fibre_pass_2026-09-11",
+      "title": "Fibre composition pass, 194 brands",
+      "kind": "fibre",
+      "state": "issued",
+      "created": "2026-09-13",
+      "issued": "2026-09-11",
+      "pilot": 8,
+      "nc": "NC",
+      "brands": "all",
+      "schema": [
+        {
+          "name": "brand",
+          "type": "key"
+        },
+        {
+          "name": "source",
+          "type": "provenance"
+        },
+        {
+          "name": "note",
+          "type": "str"
+        }
+      ],
+      "writes": {},
+      "returns": [],
+      "blocked_on": "thread may hold spandex counts for 163 brands that never reached the build — chase",
+      "note": ""
+    },
+    {
+      "id": "style_canon_2026-09",
+      "title": "Style canon — Ivy ruled; workwear, surf next",
+      "kind": "canon",
+      "state": "returned",
+      "created": "2026-09-13",
+      "issued": null,
+      "pilot": 8,
+      "nc": "NC",
+      "brands": "all",
+      "schema": [
+        {
+          "name": "brand",
+          "type": "key"
+        },
+        {
+          "name": "source",
+          "type": "provenance"
+        },
+        {
+          "name": "note",
+          "type": "str"
+        }
+      ],
+      "writes": {},
+      "returns": [],
+      "blocked_on": "",
+      "note": "Ivy returned and ruled"
+    },
+    {
+      "id": "named_looks_survey_2026-09",
+      "title": "Named looks survey",
+      "kind": "survey",
+      "state": "drafted",
+      "created": "2026-09-13",
+      "issued": null,
+      "pilot": 8,
+      "nc": "NC",
+      "brands": "all",
+      "schema": [
+        {
+          "name": "brand",
+          "type": "key"
+        },
+        {
+          "name": "source",
+          "type": "provenance"
+        },
+        {
+          "name": "note",
+          "type": "str"
+        }
+      ],
+      "writes": {},
+      "returns": [],
+      "blocked_on": "",
+      "note": "written, never issued"
+    },
+    {
+      "id": "link_test_2026-09",
+      "title": "Browser link test, 1,140 outbound links",
+      "kind": "links",
+      "state": "drafted",
+      "created": "2026-09-13",
+      "issued": null,
+      "pilot": 8,
+      "nc": "NC",
+      "brands": "all",
+      "schema": [
+        {
+          "name": "brand",
+          "type": "key"
+        },
+        {
+          "name": "source",
+          "type": "provenance"
+        },
+        {
+          "name": "note",
+          "type": "str"
+        }
+      ],
+      "writes": {},
+      "returns": [],
+      "blocked_on": "",
+      "note": "written, never run"
+    },
+    {
+      "id": "price_pass_2026-09",
+      "title": "Price pass, queues 3–5",
+      "kind": "price",
+      "state": "returned",
+      "created": "2026-09-13",
+      "issued": null,
+      "pilot": 8,
+      "nc": "NC",
+      "brands": "all",
+      "schema": [
+        {
+          "name": "brand",
+          "type": "key"
+        },
+        {
+          "name": "source",
+          "type": "provenance"
+        },
+        {
+          "name": "note",
+          "type": "str"
+        }
+      ],
+      "writes": {},
+      "returns": [],
+      "blocked_on": "non-USD price axis ruling",
+      "note": "50 of 204 checked; 47 non-USD figures held"
+    },
+    {
+      "id": "midatlantic_register_2026-09-12",
+      "title": "Mid-Atlantic register — 96 doors need a phone call",
+      "kind": "locations",
+      "state": "returned",
+      "created": "2026-09-13",
+      "issued": "2026-09-12",
+      "pilot": 8,
+      "nc": "NC",
+      "brands": "all",
+      "schema": [
+        {
+          "name": "brand",
+          "type": "key"
+        },
+        {
+          "name": "source",
+          "type": "provenance"
+        },
+        {
+          "name": "note",
+          "type": "str"
+        }
+      ],
+      "writes": {},
+      "returns": [],
+      "blocked_on": "",
+      "note": "desk work finished"
+    },
+    {
+      "id": "rubric_screen_golf_2026-09-14",
+      "title": "Golf dial screen — the top ten",
+      "kind": "rubric_screen",
+      "state": "drafted",
+      "created": "2026-09-13",
+      "issued": null,
+      "pilot": 4,
+      "nc": "NC",
+      "brands": [
+        "Criquet",
+        "Peter Millar",
+        "TravisMathew",
+        "Rhoback",
+        "Malbon",
+        "J.Lindeberg",
+        "Redvanly",
+        "RLX",
+        "johnnie-O"
+      ],
+      "schema": [
+        {
+          "name": "brand",
+          "type": "key"
+        },
+        {
+          "name": "golf_products",
+          "type": "int",
+          "range": [0, 9999]
+        },
+        {
+          "name": "total_products",
+          "type": "int",
+          "range": [0, 99999]
+        },
+        {
+          "name": "golf_pct",
+          "type": "int",
+          "range": [0, 100]
+        },
+        {
+          "name": "house_tech",
+          "type": "enum",
+          "values": ["owned", "licensed", "none", "unclear"]
+        },
+        {
+          "name": "source",
+          "type": "provenance"
+        },
+        {
+          "name": "note",
+          "type": "str"
+        }
+      ],
+      "writes": {},
+      "returns": [],
+      "blocked_on": "",
+      "note": "scaffolded as the worked example; not sent to anyone"
+    }
+  ]
+}

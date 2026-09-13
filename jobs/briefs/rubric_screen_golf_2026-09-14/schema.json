@@ -1,0 +1,37 @@
+{
+  "not_checked": "NC",
+  "columns": [
+    {
+      "name": "brand",
+      "type": "key"
+    },
+    {
+      "name": "golf_products",
+      "type": "int",
+      "range": [0, 9999]
+    },
+    {
+      "name": "total_products",
+      "type": "int",
+      "range": [0, 99999]
+    },
+    {
+      "name": "golf_pct",
+      "type": "int",
+      "range": [0, 100]
+    },
+    {
+      "name": "house_tech",
+      "type": "enum",
+      "values": ["owned", "licensed", "none", "unclear"]
+    },
+    {
+      "name": "source",
+      "type": "provenance"
+    },
+    {
+      "name": "note",
+      "type": "str"
+    }
+  ]
+}

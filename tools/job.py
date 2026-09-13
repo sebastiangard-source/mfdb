@@ -269,7 +269,7 @@ def check(args):
     cols = j['schema']
     keycol = next(c['name'] for c in cols if c['type'] == 'key')
     provcol = next(c['name'] for c in cols if c['type'] == 'provenance')
-    rows = list(csv.DictReader(open(path, encoding='utf8-sig')))
+    rows = list(csv.DictReader(open(path, encoding='utf-8-sig')))
     if not rows:
         sys.exit('empty return')
     expected = [c['name'] for c in cols]
@@ -390,7 +390,7 @@ def merge(args):
     if not j['writes']:
         sys.exit('job declares no writes — job.py writes ID path=column ... first')
     path = fn if os.path.exists(fn) else os.path.join(JOBS, 'triage', fn)
-    rows = list(csv.DictReader(open(path, encoding='utf8-sig')))
+    rows = list(csv.DictReader(open(path, encoding='utf-8-sig')))
     data = spec.load()
     ctype = {c['name']: c['type'] for c in j['schema']}
     keycol = next(c['name'] for c in j['schema'] if c['type'] == 'key')
