@@ -32,7 +32,7 @@ imposes on people, imposed on the files: **a source that is edited and a product
 ## The shape
 
 ```
-spectrum/
+mfdb/
   schema/fields.json       the field registry — one entry per field: const, path, type, range,
                            what absence means. Every tool reads it; nothing else lists dials.
   data/

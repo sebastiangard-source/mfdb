@@ -1,4 +1,4 @@
-# The Menswear Spectrum
+# mfdb — The Menswear Spectrum
 
 Source lives in `data/` and `app/template.html`. The page is built, not edited.
 
