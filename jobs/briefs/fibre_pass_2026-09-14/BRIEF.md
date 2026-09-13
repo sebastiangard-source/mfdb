@@ -1,5 +1,10 @@
 # fibre_pass_2026-09-14 — Fibre pass — the range, measured for 197 brands
 
+**Revised 13 September after the pilot return.** Changes: a `status` column; `cellulosic_pct` and
+`locale_dedup` columns; the time box; the null-vs-NC note on the seated seven; a rayon ruling pending.
+The pilot's eight rows are held, not rejected — they are half a record each, and `fibre` lands whole
+or not at all. Fill the other half from what you already hold where you can.
+
 **Issued** 2026-09-13 · **Kind** fibre · **Pilot** 8 rows first · **Returns to** the Spectrum thread
 
 Read `audit_protocol.md` before starting. This brief carries everything it requires.
@@ -47,9 +52,12 @@ minutes; caught at the end they cost the pass.
 ## Stop conditions
 
 - More than a third of the pilot returns nothing usable: stop, the brief is mis-aimed.
-- Any single brand takes more than 25 minutes: mark it `NC` with a note and move on.
 - A source that cannot be resolved (page 404s, locator caps at N): record what the widget
   itself says and do not fill from memory.
+- **Time box: 25 minutes on a Shopify house, 45 on anything else.** Past that, `NC` with a note.
+- **Where composition is structurally absent** (Stone Island behind a disallowed dialog; Rodd & Gunn
+  stating none on 94%; no first-party store), return `styles_total` and `styles_with_composition`,
+  the rest `NC`, `status` partial, and the reason. That is a finding.
 
 ## Known failure classes for this job — every one has fired before
 
@@ -71,9 +79,20 @@ minutes; caught at the end they cost the pass.
 - **`Shopify.currency.rate` ≠ 1.0 with USD active means the feed is shop-currency.** Record the rate in
   `feed_currency_rate` (e.g. `1.0`, `1.183`, `not shopify`). It is not a fibre fact, but it is free
   while you are there and it settles the price basis for the price thread.
+- **Locale and market duplication is a sixth encoding of the colourway problem.** Baracuta's 992
+  sitemap entries were 283 handles × 4 locales; Kith's feed hard-caps at 25,000. `colourway_ratio`
+  does not catch it; `locale_dedup` says what you removed (e.g. `4 locales → en-us only`, or `none`).
+- **Regenerated cellulosics — rayon, viscose, modal, lyocell/TENCEL, cupro, acetate — are neither
+  natural nor synthetic.** Count them in `cellulosic_pct`. `natural_pct + synthetic_pct +
+  cellulosic_pct + (no composition) = 100`. Whether the map folds cellulosics into one side is a
+  ruling not yet taken; keeping them separate means the answer costs nothing later. PAIGE's
+  performance denim is 54% rayon — that row moves 44 points on the ruling.
+- **The seated seven carry `"x": null` for three houses.** In the page that renders as "not counted",
+  which is your `NC`, not zero. Treat those three as unmeasured for spandex; if you can count them
+  while there, do.
 - **Composition coverage decides whether the row is a finding.** `styles_with_composition` over
   `styles_total` below about 60% means the percentages rest on a minority of the range — return the
-  numbers, mark `status` partial, and say so in the note. MAN–TLE at 54 of 131 was held for this.
+  numbers, set `status` to `partial`, and say why in the note. MAN–TLE at 54 of 131 was held for this.
 
 ## Columns
 

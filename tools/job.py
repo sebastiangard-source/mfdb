@@ -203,8 +203,10 @@ def materialise(j, data=None):
 def schema(args):
     jid, specs = args[0], args[1:]
     m = load_manifest(); j = job_of(m, jid)
+    if j['state'] not in ('drafted', 'issued', 'pilot_returned'):
+        sys.exit('schema is frozen once a full return is in; make a new job')
     if j['state'] != 'drafted':
-        sys.exit('schema is frozen once issued; make a new job')
+        print(f'amending the schema of an issued job — re-send jobs/briefs/{jid}/ and say what changed')
     cols = [{'name': 'brand', 'type': 'key'}]
     for s in specs:
         parts = s.split(':')
@@ -309,7 +311,7 @@ def check(args):
             if v == '':
                 why.append(f'{c["name"]} is blank — use {nc} if nobody looked')
                 continue
-            if c['name'] != 'note':
+            if c['name'] not in ('note', 'status'):
                 finding = True
             if t == 'int':
                 if not re.fullmatch(r'-?\d+', v):
@@ -328,6 +330,15 @@ def check(args):
         prov = (r.get(provcol) or '').strip()
         if finding and (not prov or prov.lower() in ('n/a', 'na', 'none', '-')):
             why.append('finding with no provenance')
+        # composite target: several columns land in one record object (fibre.*). A row
+        # that fills some of them would write a half-object the page cannot read.
+        wcols = list(j.get('writes', {}).values())
+        prefixes = {p.split('.')[0] for p in j.get('writes', {})}
+        if wcols and len(prefixes) == 1 and '.' in next(iter(j['writes'])):
+            missing = [c for c in wcols if (r.get(c) or '').strip() == nc]
+            if missing and len(missing) < len(wcols):
+                why.append(f'partial object: {", ".join(missing)} still {nc} — all of '
+                           f'{prefixes.pop()} lands together or not at all')
         if not finding:
             verdict.append((canon_name, 'SKIP', f'all {nc} — nobody looked'))
         elif why:
@@ -365,7 +376,8 @@ def check(args):
     j['returns'].append({'n': n, 'file': os.path.basename(path), 'received': TODAY, 'rows': len(rows),
                          'mergeable': counts['MERGE'], 'held': counts['HOLD'], 'merged': 0,
                          'triage': f'jobs/triage/{tag}.md'})
-    j['state'] = 'pilot_returned' if len(rows) <= j['pilot'] else 'returned'
+    worked = sum(1 for v in verdict if v[1] != 'SKIP')
+    j['state'] = 'pilot_returned' if worked <= j['pilot'] else 'returned'
     save_manifest(m)
     print('\n'.join(rep))
     if hard:

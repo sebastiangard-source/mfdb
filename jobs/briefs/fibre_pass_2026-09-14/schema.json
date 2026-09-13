@@ -8,12 +8,12 @@
     {
       "name": "styles_total",
       "type": "int",
-      "range": [1, 9999]
+      "range": [1, 99999]
     },
     {
       "name": "styles_with_composition",
       "type": "int",
-      "range": [0, 9999]
+      "range": [0, 99999]
     },
     {
       "name": "natural_pct",
@@ -26,9 +26,14 @@
       "range": [0, 100]
     },
     {
+      "name": "cellulosic_pct",
+      "type": "int",
+      "range": [0, 100]
+    },
+    {
       "name": "spandex_styles",
       "type": "int",
-      "range": [0, 9999]
+      "range": [0, 99999]
     },
     {
       "name": "shape",
@@ -53,8 +58,17 @@
       "type": "str"
     },
     {
+      "name": "locale_dedup",
+      "type": "str"
+    },
+    {
       "name": "feed_currency_rate",
       "type": "str"
+    },
+    {
+      "name": "status",
+      "type": "enum",
+      "values": ["complete", "partial"]
     },
     {
       "name": "source",

@@ -15,4 +15,4 @@ _12 jobs · rewritten 2026-09-13_
 | price_pass_2026-09 | returned |  | price |  | non-USD price axis ruling |
 | midatlantic_register_2026-09-12 | returned | 2026-09-12 | locations |  | desk work finished |
 | rubric_screen_golf_2026-09-14 | drafted |  | rubric_screen |  | scaffolded as the worked example; not sent to anyone |
-| fibre_pass_2026-09-14 | issued | 2026-09-13 | fibre |  | running in the Brand rubric screening thread from 13 Sep evening; pilot of 8 first |
+| fibre_pass_2026-09-14 | pilot_returned | 2026-09-13 | fibre | 0/197 | running in the Brand rubric screening thread from 13 Sep evening; pilot of 8 first |

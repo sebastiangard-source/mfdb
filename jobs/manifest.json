@@ -375,7 +375,7 @@
       "id": "fibre_pass_2026-09-14",
       "title": "Fibre pass — the range, measured for 197 brands",
       "kind": "fibre",
-      "state": "issued",
+      "state": "pilot_returned",
       "created": "2026-09-13",
       "issued": "2026-09-13",
       "pilot": 8,
@@ -587,12 +587,12 @@
         {
           "name": "styles_total",
           "type": "int",
-          "range": [1, 9999]
+          "range": [1, 99999]
         },
         {
           "name": "styles_with_composition",
           "type": "int",
-          "range": [0, 9999]
+          "range": [0, 99999]
         },
         {
           "name": "natural_pct",
@@ -605,9 +605,14 @@
           "range": [0, 100]
         },
         {
+          "name": "cellulosic_pct",
+          "type": "int",
+          "range": [0, 100]
+        },
+        {
           "name": "spandex_styles",
           "type": "int",
-          "range": [0, 9999]
+          "range": [0, 99999]
         },
         {
           "name": "shape",
@@ -632,8 +637,17 @@
           "type": "str"
         },
         {
+          "name": "locale_dedup",
+          "type": "str"
+        },
+        {
           "name": "feed_currency_rate",
           "type": "str"
+        },
+        {
+          "name": "status",
+          "type": "enum",
+          "values": ["complete", "partial"]
         },
         {
           "name": "source",
@@ -653,7 +667,18 @@
         "fibre.sc": "synthetic_categories",
         "fibre.nc": "natural_categories"
       },
-      "returns": [],
+      "returns": [
+        {
+          "n": 1,
+          "file": "return.csv",
+          "received": "2026-09-13",
+          "rows": 197,
+          "mergeable": 0,
+          "held": 8,
+          "merged": 0,
+          "triage": "jobs/triage/fibre_pass_2026-09-14_1.md"
+        }
+      ],
       "blocked_on": "",
       "note": "running in the Brand rubric screening thread from 13 Sep evening; pilot of 8 first"
     }

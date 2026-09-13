@@ -1,0 +1,198 @@
+brand,styles_total,styles_with_composition,natural_pct,synthetic_pct,spandex_styles,shape,synthetic_categories,natural_categories,style_method,colourway_ratio,feed_currency_rate,source,note
+Levi's,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Carhartt,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Lacoste,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Mack Weldon,232,219,NC,30,NC,NC,NC,NC,product_code,1267/232,NC,"https://mackweldon.com/collections (four top-level collections, 232/232 read 13 Sep 2026)",PRIOR PASS re-rendered. 70 of 232 majority synthetic on this project's rule; 104 (45%) if modal/TENCEL count as synthetic - the rule matters more than the measurement here. 13 state no composition. Site's own /collections/all-mens-clothing shows 182 and is missing 60 live products. natural_pct and spandex never measured.
+Charles Tyrwhitt,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Son of a Tailor,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Mott & Bow,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Banana Republic,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Everlane,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Alex Crane,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Industry of All Nations,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Marine Layer,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Cuts Clothing,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Bonobos,2821,1512,NC,9,NC,NC,NC,NC,handle,2821/2821,not shopify,"https://bonobos.com/sitemap.xml (2,821 product pages, census read 13 Sep 2026)","PARTIAL - COVERAGE BELOW THE BRIEF'S FLOOR. Only 1,512 of 2,821 (53.6%) state a fibre composition; the rest give construction and sometimes a mill but no percentages. 244 majority synthetic = 8.6% of all styles, 16.1% of those stating. The brief says to mark status partial, but neither schema.json nor the template has a status column - flagged in NOTE.md. natural_pct and spandex never measured."
+Vuori,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Rothy's,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Lululemon,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Alo,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Southern Tide,459,417,NC,24,NC,NC,NC,NC,handle,459/459,NC,"https://southerntide.com/collections/mens-clothing (products.json paged to exhaustion, 459/459 read 12 Sep 2026)","PRIOR PASS re-rendered. 109 of 459 majority synthetic (26% of the 417 that state a composition). colourway_ratio is 1.00 because colour is a variant inside one product - one polo carried 55 variants; the brief is right that 1.00 is suspicious, this is the benign case. Shopify collections.json reports 550 for the same collection and is stale. natural_pct and spandex never measured."
+Rhoback,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Criquet,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Taylor Stitch,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Outerknown,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Patagonia,518,515,NC,67,NC,NC,NC,NC,product_code,562/518,not shopify,"https://www.patagonia.com/shop/mens (grid paged to exhaustion, 518/518 read 13 Sep 2026)","PRIOR PASS re-rendered. 349 of 518 majority synthetic. colourway_ratio: the storefront counter says 562 = 518 + 25 colourway-level duplicate tiles for 7 Nano-Air styles already counted + 18 third-party goods (Hestra, Farm to Feet) + 1 book; the sitemap's 702 mens- URLs is unusable. 3 state no composition. natural_pct and spandex never measured."
+Finisterre,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Rodd & Gunn,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Rowan,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Mizzen+Main,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+State & Liberty,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Rhone,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+J.Lindeberg,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+TravisMathew,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Malbon,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Redvanly,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+RLX,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+johnnie-O,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Percival,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Wax London,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Hiroshi Kato,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Sugar Cane,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Buck Mason,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Duck Head,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Wythe,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+AYR,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Alex Mill,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Robert Barakett,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Easy Mondays,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Indochino,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Proper Cloth,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Tecovas,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Patrick James,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Barbour,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Baracuta,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Filson,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+James Perse,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Y.Chroma,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Madhappy,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Kith,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Aimé Leon Dore,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Massimo Dutti,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Vineyard Vines,723,719,NC,31,NC,NC,NC,NC,handle,723/723,not shopify,"https://www.vineyardvines.com/sitemap_0.xml (723 men's PDPs, census read 13 Sep 2026)","PRIOR PASS re-rendered. 226 of 723 majority synthetic. colourway_ratio 1.00: gender is in the URL path and colour is not a separate product. Fabric family sits in the URL slug, not the body copy (Sankaty is in 114 slugs and 7 descriptions) - relevant to any fibre extractor that reads descriptions only. natural_pct and spandex never measured."
+Polo Ralph Lauren,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+RRL,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+J.McLaughlin,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Ted Baker,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Scotch & Soda,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+NN07,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Samsøe Samsøe,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Les Deux,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Norse Projects,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Vollebak,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Stone Island,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+A Bathing Ape,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Canada Goose,248,152,NC,29,NC,NC,NC,NC,product_code,248/248,not shopify,"https://www.canadagoose.com/us/en/shop/mens (PDP census, 248/248 read 13 Sep 2026)","PRIOR PASS re-rendered, and the coverage warning applies: only 152 of 248 (61%) state a composition at all - just above the brief's 60% floor - concentrated in sweats (23 of 43) and outerwear (33 of 93). 73 of 248 majority synthetic, which is 48% of the 152 that state one. Composition is not in the rendered HTML; it lives in __PRELOADED_STATE__. natural_pct and spandex never measured."
+Arc'teryx,204,188,NC,77,NC,NC,NC,NC,product_code,558/204,not shopify,"https://arcteryx.com/us/en/c/mens (men's catalogue API, 204/204 read 13 Sep 2026)","PRIOR PASS, re-rendered into this schema - not a fibre pass. synthetic_pct is the share whose MAIN fibre is synthetic (157 of 204), measured with rayon/viscose/modal/lyocell counted as neither natural nor synthetic. natural_pct NC: never measured. spandex NC: never measured on any brand here. 16 styles state no composition, all footwear plus 3 care products."
+Vince,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Rails,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Club Monaco,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+PAIGE,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+AG,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Ksubi,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Purple,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Diesel,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Citizens of Humanity,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+AGOLDE,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Fidelity Denim,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Joe's Jeans,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Suitsupply,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Boggi Milano,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Hackett,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Eton,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Rakho,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Eleventy,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Borgo28,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Incotex,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Jack Victor,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Brooks Brothers,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+J.Press,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Sunspel,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Saint James,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Margaret Howell,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Reiss,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Sandro,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Isabel Marant,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Frame,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Theory,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Rag & Bone,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+John Varvatos,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Sid Mashburn,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Billy Reid,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+A.P.C.,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Luca Faloni,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+120% Lino,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Paul Smith,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Officine Générale,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Brax,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Hartford,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Our Legacy,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Auralee,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Ami Paris,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Boglioli,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Peserico,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Ring Jacket,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Drake's,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+John Smedley,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Gran Sasso,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Johnstons of Elgin,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Raffi,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+BOSS,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Corneliani,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Canali,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Thom Browne,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Burberry,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Herno,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Valstar,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Aspesi,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Paul & Shark,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Sease,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Moncler,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Ferragamo,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Giorgio Armani,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Missoni,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Etro,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Versace,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Dolce&Gabbana,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Fendi,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Valentino,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Saint Laurent,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Celine,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Givenchy,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Gucci,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Balenciaga,338,337,NC,14,NC,NC,NC,NC,product_code,338/338,not shopify,"https://www.balenciaga.com/en-us/men/ready-to-wear (SFCC grid, 338/338 read 13 Sep 2026)","PRIOR PASS re-rendered. 46 of 337 majority synthetic on the Main material line. colourway_ratio 1.00: colour is a dwvar variant. TRAP for a fibre extractor on this site: every product page's packaging note mentions Tencel and Ecovero shopping bags, so a whole-page read scores Tencel on 338 of 338 - count the Main material line only. natural_pct and spandex never measured."
+McQueen,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Maison Margiela,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Rick Owens,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Yohji Yamamoto,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Junya Watanabe,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Sacai,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Casablanca,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Jacquemus,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Prada,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Loewe,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+JW Anderson,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Dior,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Amiri,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Rhude,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Palm Angels,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Golden Goose,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Fear of God,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Bode,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Greg Lauren,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Visvim,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Tom Ford,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Ralph Lauren Purple Label,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Zegna,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Bottega Veneta,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Berluti,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Charvet,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Husbands,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Brioni,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Isaia,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+The Row,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Lemaire,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Jil Sander,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Acne Studios,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Dries Van Noten,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Wales Bonner,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+JiyongKim,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Brunello Cucinelli,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Fedeli,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+The Elder Statesman,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Hermès,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Rubinacci,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Kiton,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Cesare Attolini,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Zilli,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+Stefano Ricci,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
