@@ -85,5 +85,34 @@
     "o": [31, 455, 456],
     "s": [176, 216, 773]
   },
-  "addmen": true
+  "addmen": true,
+  "site": {
+    "domain": "moncler.com",
+    "platform": "salesforce_commerce",
+    "feed": "sitemap_products",
+    "feed_count": 5114,
+    "status": "live_store",
+    "checked": "2026-09-13"
+  },
+  "tech_evidence": {
+    "names": "yes",
+    "origin": "licensed",
+    "marks": [
+      "LICENSED: GORE-TEX(R) (incl. GORE-TEX INFINIUM(R) and 'WINDSTOPPER by GORE-TEX')",
+      "WINDSTOPPER(R)",
+      "Polartec(R) (incl. Polartec Power Grid(R), Polartec Alpha(R), Polartec Delta(R))",
+      "PrimaLoft(R)",
+      "CORDURA(R)",
+      "Teflon(R)",
+      "Alcantara(R)",
+      "Dermizax(R)",
+      "Dyneema(R)",
+      "OrthoLite(R)",
+      "Vibram(R)",
+      "RECCO(R)",
+      "YKK(R), Y"
+    ],
+    "source": "census",
+    "checked": "2026-09-12"
+  }
 }

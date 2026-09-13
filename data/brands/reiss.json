@@ -48,5 +48,22 @@
     "cities": [["Los Angeles", "CA", 1], ["Miami", "FL", 1], ["New York", "NY", 2]]
   },
   "cities": "Major metros · Nordstrom & Bloomingdale's",
-  "addmen": true
+  "addmen": true,
+  "site": {
+    "domain": "reiss.com",
+    "platform": "custom",
+    "feed": "sitemap_products",
+    "feed_count": 5591,
+    "status": "live_store",
+    "checked": "2026-09-13"
+  },
+  "tech_evidence": {
+    "names": "yes",
+    "origin": "both",
+    "marks": [
+      "HOUSE: Air-Water finish. LICENSED: TENCEL(tm). Generic/unbranded: technical fabric, water-repellent, elastane"
+    ],
+    "source": "census",
+    "checked": "2026-09-12"
+  }
 }

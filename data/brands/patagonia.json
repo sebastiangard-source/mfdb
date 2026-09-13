@@ -111,5 +111,32 @@
     ]
   },
   "addmen": true,
-  "addcloth": true
+  "addcloth": true,
+  "site": {
+    "domain": "patagonia.com",
+    "platform": "salesforce_commerce",
+    "feed": "sitemap_products",
+    "feed_count": 2119,
+    "status": "live_store",
+    "checked": "2026-09-13"
+  },
+  "tech_evidence": {
+    "names": "yes",
+    "origin": "both",
+    "marks": [
+      "Capilene",
+      "ECONYL",
+      "FullRange",
+      "H2No",
+      "HeiQ Pure",
+      "NetPlus",
+      "Pertex Quantum",
+      "PlumaFill",
+      "Polartec Power Grid",
+      "PrimaLoft Gold Eco",
+      "Synchilla"
+    ],
+    "source": "origin_8",
+    "checked": "2026-09-12"
+  }
 }

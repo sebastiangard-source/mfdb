@@ -74,3 +74,27 @@ Then the tech re-score is a job of your own: 204 rows of evidence, one score eac
 
 Four brands to add · the origin vocabulary pass · six missing evidence URLs · styles denominators on
 the depth table · the 451 marks classified · Patagonia · Stone Island held or reproduced. Then close.
+
+## Close-out — 13 September, second delivery
+
+All six items returned. Filed over the first delivery in `jobs/returns/rubric_screen_2026-09/`.
+
+- **Merged:** `site` (domain, platform, feed, count) for 204; `tech_evidence` (names / origin / marks /
+  source) for 204 — 152 yes · 48 no · 4 unclear. Both are data-only registry fields: lint checks them,
+  the page does not emit them, so the build is byte-identical to v3.7.0. Origin vocabulary was
+  normalised at merge (`house_named`→`house`; blanks → `none` on a no, `unclear` on a yes).
+- **Held:** the depth table — 71 of 96 carry a styles denominator, but 73 are partial because the
+  numerator was counted on colourway records; 23 rows are style-level and comparable. The marks index
+  — classified (207 supplier · 192 house · 178 noise · 11 unclear) but ~50 rows are harvester exhaust
+  and the source field was truncated at 300 characters, so counts are floors.
+- **Patagonia** finished: 518 of 518, 31 families, 59.5% naming.
+- **Stone Island:** the thread reproduced (a) on an allowed path before the in-bounds ruling reached it
+  — 174 of 618 (28.2%), 12 of 13 families within one record of the withdrawn census. Both reads are on
+  file. (c) is held regardless: the earlier 0% synthetic was a channel artefact, not a finding.
+- **Two ownership corrections for the top step:** TurboDry is NexTex's, not Mizzen+Main's; PUREPRESS is
+  Cotton Incorporated's, not Ralph Lauren's. Both matter to the 5-vs-4 line.
+- **Still open, mechanical:** eight rows across the two validation files carry no evidence URL;
+  `Ferragamo (men's)` remains in the flag-validation file. Neither was merged.
+
+Both jobs are closed. The tech re-score is the next job and it is yours: 204 rows of evidence, one
+score each.

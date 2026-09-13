@@ -15,79 +15,584 @@
     "         'not_assessed' = the build emits nothing and the UI reads the 99 sentinel",
     "         'not_represented' = the UI reads 0. A dial where 0 means 'no' and absence means 'no'",
     "         are different things and the doc string says which; see the 1,491-cell migration",
-    "note     a NOTES key exists for this dial"
+    "note     a NOTES key exists for this dial",
+    "const null = data-only: kept in the record, checked by lint, never emitted into the page"
   ],
   "fields": {
-    "band":       {"scope": "brand", "const": "DATA", "path": "band", "type": "str", "legal": ["premium", "accessible", "trueLux"], "absent": "required"},
-    "seat":       {"scope": "brand", "const": "DATA", "path": "seat", "type": "int", "absent": "required", "doc": "Position in the roster. Dense 1..N across all bands; the build asserts it."},
-    "dagger":     {"scope": "brand", "const": "DATA", "path": "dagger", "type": "int", "range": [0, 1], "absent": "required"},
-    "row_class":  {"scope": "brand", "const": "DATA", "path": "row_class", "type": "str", "absent": "optional", "doc": "Fourth DATA row slot: extra CSS class on the chip"},
-    "row_override":{"scope": "brand", "const": "DATA", "path": "row_override", "type": "str", "absent": "optional", "doc": "Fifth DATA row slot"},
-    "tech":       {"scope": "brand", "const": "DATA", "path": "focus.tech",    "type": "int", "range": [1, 5], "absent": "required", "note": true},
-    "comfort":    {"scope": "brand", "const": "DATA", "path": "focus.comfort", "type": "int", "range": [1, 5], "absent": "required", "note": true},
-    "craft":      {"scope": "brand", "const": "DATA", "path": "focus.craft",   "type": "int", "range": [1, 5], "absent": "required", "note": true},
-    "style":      {"scope": "brand", "const": "DATA", "path": "focus.style",   "type": "int", "range": [1, 5], "absent": "required", "note": true},
-
-    "denim":      {"scope": "brand", "const": "FAB", "path": "fabric.denim",    "type": "int", "range": [1, 5], "absent": "required", "note": true},
-    "cashmere":   {"scope": "brand", "const": "FAB", "path": "fabric.cashmere", "type": "int", "range": [1, 5], "absent": "required", "note": true},
-    "linen":      {"scope": "brand", "const": "FAB", "path": "fabric.linen",    "type": "int", "range": [1, 5], "absent": "required", "note": true},
-    "cotton":     {"scope": "brand", "const": "FAB", "path": "fabric.cotton",   "type": "int", "range": [1, 5], "absent": "required", "note": true},
-    "wool":       {"scope": "brand", "const": "FAB", "path": "fabric.wool",     "type": "int", "range": [1, 5], "absent": "required", "note": true},
-    "synth":      {"scope": "brand", "const": "FAB", "path": "fabric.synth",    "type": "int", "range": [1, 5], "absent": "required", "note": true},
-
-    "golf":     {"scope": "brand", "const": "GOLF",    "path": "dials.golf",    "type": "int", "range": [0, 5], "absent": "not_represented", "note": true, "register": true},
-    "status":   {"scope": "brand", "const": "STATUS",  "path": "dials.status",  "type": "int", "range": [0, 5], "absent": "not_represented", "note": true, "register": true},
-    "finbro":   {"scope": "brand", "const": "FINBRO",  "path": "dials.finbro",  "type": "int", "range": [0, 5], "absent": "not_represented", "note": true, "register": true},
-    "ivy":      {"scope": "brand", "const": "IVY",     "path": "dials.ivy",     "type": "int", "range": [0, 5], "absent": "not_represented", "note": true, "register": true},
-    "murica":   {"scope": "brand", "const": "MURICA",  "path": "dials.murica",  "type": "int", "range": [0, 5], "absent": "not_represented", "note": true, "register": true},
-    "ital":     {"scope": "brand", "const": "ITAL",    "path": "dials.ital",    "type": "int", "range": [0, 5], "absent": "not_represented", "note": true, "register": true},
-    "fren":     {"scope": "brand", "const": "FREN",    "path": "dials.fren",    "type": "int", "range": [0, 5], "absent": "not_represented", "note": true, "register": true},
-    "street":   {"scope": "brand", "const": "STREET",  "path": "dials.street",  "type": "int", "range": [0, 5], "absent": "not_represented", "note": true, "register": true},
-    "avant":    {"scope": "brand", "const": "AVANT",   "path": "dials.avant",   "type": "int", "range": [0, 5], "absent": "not_represented", "note": true, "register": true},
-    "prep":     {"scope": "brand", "const": "PREP",    "path": "dials.prep",    "type": "int", "range": [0, 5], "absent": "not_represented", "note": true, "register": true},
-    "weird":    {"scope": "brand", "const": "WEIRD",   "path": "dials.weird",   "type": "int", "range": [0, 5], "absent": "not_represented", "note": true, "register": true},
-    "boat":     {"scope": "brand", "const": "BOAT",    "path": "dials.boat",    "type": "int", "range": [0, 5], "absent": "not_represented", "note": true, "register": true},
-    "racquet":  {"scope": "brand", "const": "RACQUET", "path": "dials.racquet", "type": "int", "range": [0, 5], "absent": "not_represented", "note": true, "register": true},
-    "ski":      {"scope": "brand", "const": "SKI",     "path": "dials.ski",     "type": "int", "range": [0, 5], "absent": "not_represented", "note": true, "register": true},
-    "scandi":   {"scope": "brand", "const": "SCANDI",  "path": "dials.scandi",  "type": "int", "range": [0, 5], "absent": "not_represented", "note": true, "register": true},
-    "briish":   {"scope": "brand", "const": "BRIISH",  "path": "dials.briish",  "type": "int", "range": [0, 5], "absent": "not_represented", "note": true, "register": true},
-
-    "reach":    {"scope": "brand", "const": "REACH", "path": "dials.reach", "type": "int", "range": [1, 5], "absent": "required", "note": true},
-    "dur":      {"scope": "brand", "const": "DUR",   "path": "dials.dur",   "type": "int", "range": [1, 5], "absent": "required", "note": true},
-    "forg":     {"scope": "brand", "const": "FORG",  "path": "dials.forg",  "type": "int", "range": [1, 5], "absent": "required", "note": true},
-    "fuss":     {"scope": "brand", "const": "FUSS",     "path": "dials.fuss",     "type": "int", "range": [-3, 3], "absent": "not_assessed", "note": true, "bipolar": true},
-    "golffice": {"scope": "brand", "const": "GOLFFICE", "path": "dials.golffice", "type": "int", "range": [-3, 3], "absent": "not_assessed", "note": true, "bipolar": true},
-    "bruv":     {"scope": "brand", "const": "BRUV",     "path": "dials.bruv",     "type": "int", "range": [-3, 3], "absent": "not_assessed", "bipolar": true},
-    "sail":     {"scope": "brand", "const": "SAIL",     "path": "dials.sail",     "type": "int", "range": [-3, 3], "absent": "not_assessed", "bipolar": true},
-    "shoes":    {"scope": "brand", "const": "SHOES",    "path": "dials.shoes",    "type": "int", "range": [0, 5], "banned": [1, 2], "absent": "not_assessed", "note": true, "doc": "Tri-state: score, verified 0, or absent. 1 and 2 were assumed bands and are retired."},
-    "natural":  {"scope": "brand", "const": "NATURAL",  "path": "dials.natural",  "type": "int", "range": [0, 5], "absent": "not_assessed", "doc": "Measured from FIBRE counts, never authored."},
-
-    "why":      {"scope": "brand", "const": "WHY",    "path": "why",    "type": "str", "absent": "required"},
-    "origin":   {"scope": "brand", "const": "ORIGIN", "path": "origin", "type": "str", "absent": "required"},
-    "opview":   {"scope": "brand", "const": "OPVIEW", "path": "opview", "type": "str", "absent": "required"},
-    "cities":   {"scope": "brand", "const": "CITIES", "path": "cities", "type": "str", "absent": "required", "doc": "Prose. Being replaced by doors; do not extend."},
-    "say":      {"scope": "brand", "const": "SAY",    "path": "say",    "type": "str", "absent": "not_assessed", "doc": "Respelling, stress in caps. Absent = not judged, not judged easy."},
-    "shop":     {"scope": "brand", "const": "SHOP",   "path": "shop",   "type": "url", "absent": "optional"},
-    "notes":    {"scope": "brand", "const": "NOTES",  "path": "notes",  "type": "obj", "absent": "optional", "doc": "Keyed by dial name; every key must be a field with note: true"},
-    "chan":     {"scope": "brand", "const": "CHAN",   "path": "chan",   "type": "list", "legal": ["O", "D", "I", "W", "X"], "absent": "required"},
-    "conf":     {"scope": "brand", "const": "CONF",   "path": "conf",   "type": "str", "legal": ["L", "S", "M", "H", "G"], "absent": "optional"},
-    "forgv":    {"scope": "brand", "const": "FORGV",  "path": "forgv",  "type": "str", "absent": "optional"},
-    "forgc":    {"scope": "brand", "const": "FORGC",  "path": "forgc",  "type": "list", "len": 3, "range": [1, 5], "absent": "required"},
-    "shoelink": {"scope": "brand", "const": "SHOELINK", "path": "shoelink", "type": "obj", "keys": ["t", "u"], "absent": "optional"},
-    "fibre":    {"scope": "brand", "const": "FIBRE",  "path": "fibre",  "type": "fibre", "absent": "not_assessed"},
-    "doors":    {"scope": "brand", "const": "DOORS",  "path": "doors",  "type": "doors", "absent": "required"},
-    "region":   {"scope": "brand", "const": "REGION", "path": "region", "type": "obj", "keys": ["o", "s"], "absent": "optional", "doc": "Indices into places.json. To be replaced by place ids."},
-    "onething": {"scope": "brand", "const": "ONETHING", "path": "onething", "type": "onething", "absent": "required"},
-    "prices":   {"scope": "brand", "const": "PRICES", "path": "prices", "type": "prices", "absent": "required", "doc": "8 slots: T-shirt, Polo, Dress shirt, Jeans, Dress pants, Sweater, Outerwear, Shoes. Each [lo, hi], null = not a staple, '?' = not assessed."},
-    "price_checked": {"scope": "brand", "const": "PRICE_PASS", "path": "price_checked", "type": "bool", "absent": "optional", "doc": "Emitted as membership of the PRICE_PASS array"},
-    "addmen":   {"scope": "brand", "const": "ADDMEN",   "path": "addmen",   "type": "bool", "absent": "optional", "doc": "Emitted as membership of the ADDMEN Set"},
-    "addcloth": {"scope": "brand", "const": "ADDCLOTH", "path": "addcloth", "type": "bool", "absent": "optional", "doc": "Emitted as membership of the ADDCLOTH Set"},
-
-    "places":     {"scope": "global", "const": "PLACES",    "file": "places.json"},
-    "changelog":  {"scope": "global", "const": "CHANGELOG", "file": "changelog.json"},
-    "rubric":     {"scope": "global", "const": "RUBRIC",    "file": "rubric.json"},
-    "bands":      {"scope": "global", "const": "DATA",      "file": "bands.json", "doc": "Band name and range copy; membership comes from brand records"},
-    "settings":   {"scope": "global", "const": null,        "file": "settings.json", "doc": "STOCKED_REGION, REGION_NAME, VISIT_FORM, GROUPOF, PRICE_PASS_DATE, NOT_ASSESSED"}
+    "band": {
+      "scope": "brand",
+      "const": "DATA",
+      "path": "band",
+      "type": "str",
+      "legal": ["premium", "accessible", "trueLux"],
+      "absent": "required"
+    },
+    "seat": {
+      "scope": "brand",
+      "const": "DATA",
+      "path": "seat",
+      "type": "int",
+      "absent": "required",
+      "doc": "Position in the roster. Dense 1..N across all bands; the build asserts it."
+    },
+    "dagger": {
+      "scope": "brand",
+      "const": "DATA",
+      "path": "dagger",
+      "type": "int",
+      "range": [0, 1],
+      "absent": "required"
+    },
+    "row_class": {
+      "scope": "brand",
+      "const": "DATA",
+      "path": "row_class",
+      "type": "str",
+      "absent": "optional",
+      "doc": "Fourth DATA row slot: extra CSS class on the chip"
+    },
+    "row_override": {
+      "scope": "brand",
+      "const": "DATA",
+      "path": "row_override",
+      "type": "str",
+      "absent": "optional",
+      "doc": "Fifth DATA row slot"
+    },
+    "tech": {
+      "scope": "brand",
+      "const": "DATA",
+      "path": "focus.tech",
+      "type": "int",
+      "range": [1, 5],
+      "absent": "required",
+      "note": true
+    },
+    "comfort": {
+      "scope": "brand",
+      "const": "DATA",
+      "path": "focus.comfort",
+      "type": "int",
+      "range": [1, 5],
+      "absent": "required",
+      "note": true
+    },
+    "craft": {
+      "scope": "brand",
+      "const": "DATA",
+      "path": "focus.craft",
+      "type": "int",
+      "range": [1, 5],
+      "absent": "required",
+      "note": true
+    },
+    "style": {
+      "scope": "brand",
+      "const": "DATA",
+      "path": "focus.style",
+      "type": "int",
+      "range": [1, 5],
+      "absent": "required",
+      "note": true
+    },
+    "denim": {
+      "scope": "brand",
+      "const": "FAB",
+      "path": "fabric.denim",
+      "type": "int",
+      "range": [1, 5],
+      "absent": "required",
+      "note": true
+    },
+    "cashmere": {
+      "scope": "brand",
+      "const": "FAB",
+      "path": "fabric.cashmere",
+      "type": "int",
+      "range": [1, 5],
+      "absent": "required",
+      "note": true
+    },
+    "linen": {
+      "scope": "brand",
+      "const": "FAB",
+      "path": "fabric.linen",
+      "type": "int",
+      "range": [1, 5],
+      "absent": "required",
+      "note": true
+    },
+    "cotton": {
+      "scope": "brand",
+      "const": "FAB",
+      "path": "fabric.cotton",
+      "type": "int",
+      "range": [1, 5],
+      "absent": "required",
+      "note": true
+    },
+    "wool": {
+      "scope": "brand",
+      "const": "FAB",
+      "path": "fabric.wool",
+      "type": "int",
+      "range": [1, 5],
+      "absent": "required",
+      "note": true
+    },
+    "synth": {
+      "scope": "brand",
+      "const": "FAB",
+      "path": "fabric.synth",
+      "type": "int",
+      "range": [1, 5],
+      "absent": "required",
+      "note": true
+    },
+    "golf": {
+      "scope": "brand",
+      "const": "GOLF",
+      "path": "dials.golf",
+      "type": "int",
+      "range": [0, 5],
+      "absent": "not_represented",
+      "note": true,
+      "register": true
+    },
+    "status": {
+      "scope": "brand",
+      "const": "STATUS",
+      "path": "dials.status",
+      "type": "int",
+      "range": [0, 5],
+      "absent": "not_represented",
+      "note": true,
+      "register": true
+    },
+    "finbro": {
+      "scope": "brand",
+      "const": "FINBRO",
+      "path": "dials.finbro",
+      "type": "int",
+      "range": [0, 5],
+      "absent": "not_represented",
+      "note": true,
+      "register": true
+    },
+    "ivy": {
+      "scope": "brand",
+      "const": "IVY",
+      "path": "dials.ivy",
+      "type": "int",
+      "range": [0, 5],
+      "absent": "not_represented",
+      "note": true,
+      "register": true
+    },
+    "murica": {
+      "scope": "brand",
+      "const": "MURICA",
+      "path": "dials.murica",
+      "type": "int",
+      "range": [0, 5],
+      "absent": "not_represented",
+      "note": true,
+      "register": true
+    },
+    "ital": {
+      "scope": "brand",
+      "const": "ITAL",
+      "path": "dials.ital",
+      "type": "int",
+      "range": [0, 5],
+      "absent": "not_represented",
+      "note": true,
+      "register": true
+    },
+    "fren": {
+      "scope": "brand",
+      "const": "FREN",
+      "path": "dials.fren",
+      "type": "int",
+      "range": [0, 5],
+      "absent": "not_represented",
+      "note": true,
+      "register": true
+    },
+    "street": {
+      "scope": "brand",
+      "const": "STREET",
+      "path": "dials.street",
+      "type": "int",
+      "range": [0, 5],
+      "absent": "not_represented",
+      "note": true,
+      "register": true
+    },
+    "avant": {
+      "scope": "brand",
+      "const": "AVANT",
+      "path": "dials.avant",
+      "type": "int",
+      "range": [0, 5],
+      "absent": "not_represented",
+      "note": true,
+      "register": true
+    },
+    "prep": {
+      "scope": "brand",
+      "const": "PREP",
+      "path": "dials.prep",
+      "type": "int",
+      "range": [0, 5],
+      "absent": "not_represented",
+      "note": true,
+      "register": true
+    },
+    "weird": {
+      "scope": "brand",
+      "const": "WEIRD",
+      "path": "dials.weird",
+      "type": "int",
+      "range": [0, 5],
+      "absent": "not_represented",
+      "note": true,
+      "register": true
+    },
+    "boat": {
+      "scope": "brand",
+      "const": "BOAT",
+      "path": "dials.boat",
+      "type": "int",
+      "range": [0, 5],
+      "absent": "not_represented",
+      "note": true,
+      "register": true
+    },
+    "racquet": {
+      "scope": "brand",
+      "const": "RACQUET",
+      "path": "dials.racquet",
+      "type": "int",
+      "range": [0, 5],
+      "absent": "not_represented",
+      "note": true,
+      "register": true
+    },
+    "ski": {
+      "scope": "brand",
+      "const": "SKI",
+      "path": "dials.ski",
+      "type": "int",
+      "range": [0, 5],
+      "absent": "not_represented",
+      "note": true,
+      "register": true
+    },
+    "scandi": {
+      "scope": "brand",
+      "const": "SCANDI",
+      "path": "dials.scandi",
+      "type": "int",
+      "range": [0, 5],
+      "absent": "not_represented",
+      "note": true,
+      "register": true
+    },
+    "briish": {
+      "scope": "brand",
+      "const": "BRIISH",
+      "path": "dials.briish",
+      "type": "int",
+      "range": [0, 5],
+      "absent": "not_represented",
+      "note": true,
+      "register": true
+    },
+    "reach": {
+      "scope": "brand",
+      "const": "REACH",
+      "path": "dials.reach",
+      "type": "int",
+      "range": [1, 5],
+      "absent": "required",
+      "note": true
+    },
+    "dur": {
+      "scope": "brand",
+      "const": "DUR",
+      "path": "dials.dur",
+      "type": "int",
+      "range": [1, 5],
+      "absent": "required",
+      "note": true
+    },
+    "forg": {
+      "scope": "brand",
+      "const": "FORG",
+      "path": "dials.forg",
+      "type": "int",
+      "range": [1, 5],
+      "absent": "required",
+      "note": true
+    },
+    "fuss": {
+      "scope": "brand",
+      "const": "FUSS",
+      "path": "dials.fuss",
+      "type": "int",
+      "range": [-3, 3],
+      "absent": "not_assessed",
+      "note": true,
+      "bipolar": true
+    },
+    "golffice": {
+      "scope": "brand",
+      "const": "GOLFFICE",
+      "path": "dials.golffice",
+      "type": "int",
+      "range": [-3, 3],
+      "absent": "not_assessed",
+      "note": true,
+      "bipolar": true
+    },
+    "bruv": {
+      "scope": "brand",
+      "const": "BRUV",
+      "path": "dials.bruv",
+      "type": "int",
+      "range": [-3, 3],
+      "absent": "not_assessed",
+      "bipolar": true
+    },
+    "sail": {
+      "scope": "brand",
+      "const": "SAIL",
+      "path": "dials.sail",
+      "type": "int",
+      "range": [-3, 3],
+      "absent": "not_assessed",
+      "bipolar": true
+    },
+    "shoes": {
+      "scope": "brand",
+      "const": "SHOES",
+      "path": "dials.shoes",
+      "type": "int",
+      "range": [0, 5],
+      "banned": [1, 2],
+      "absent": "not_assessed",
+      "note": true,
+      "doc": "Tri-state: score, verified 0, or absent. 1 and 2 were assumed bands and are retired."
+    },
+    "natural": {
+      "scope": "brand",
+      "const": "NATURAL",
+      "path": "dials.natural",
+      "type": "int",
+      "range": [0, 5],
+      "absent": "not_assessed",
+      "doc": "Measured from FIBRE counts, never authored."
+    },
+    "why": {
+      "scope": "brand",
+      "const": "WHY",
+      "path": "why",
+      "type": "str",
+      "absent": "required"
+    },
+    "origin": {
+      "scope": "brand",
+      "const": "ORIGIN",
+      "path": "origin",
+      "type": "str",
+      "absent": "required"
+    },
+    "opview": {
+      "scope": "brand",
+      "const": "OPVIEW",
+      "path": "opview",
+      "type": "str",
+      "absent": "required"
+    },
+    "cities": {
+      "scope": "brand",
+      "const": "CITIES",
+      "path": "cities",
+      "type": "str",
+      "absent": "required",
+      "doc": "Prose. Being replaced by doors; do not extend."
+    },
+    "say": {
+      "scope": "brand",
+      "const": "SAY",
+      "path": "say",
+      "type": "str",
+      "absent": "not_assessed",
+      "doc": "Respelling, stress in caps. Absent = not judged, not judged easy."
+    },
+    "shop": {
+      "scope": "brand",
+      "const": "SHOP",
+      "path": "shop",
+      "type": "url",
+      "absent": "optional"
+    },
+    "notes": {
+      "scope": "brand",
+      "const": "NOTES",
+      "path": "notes",
+      "type": "obj",
+      "absent": "optional",
+      "doc": "Keyed by dial name; every key must be a field with note: true"
+    },
+    "chan": {
+      "scope": "brand",
+      "const": "CHAN",
+      "path": "chan",
+      "type": "list",
+      "legal": ["O", "D", "I", "W", "X"],
+      "absent": "required"
+    },
+    "conf": {
+      "scope": "brand",
+      "const": "CONF",
+      "path": "conf",
+      "type": "str",
+      "legal": ["L", "S", "M", "H", "G"],
+      "absent": "optional"
+    },
+    "forgv": {
+      "scope": "brand",
+      "const": "FORGV",
+      "path": "forgv",
+      "type": "str",
+      "absent": "optional"
+    },
+    "forgc": {
+      "scope": "brand",
+      "const": "FORGC",
+      "path": "forgc",
+      "type": "list",
+      "len": 3,
+      "range": [1, 5],
+      "absent": "required"
+    },
+    "shoelink": {
+      "scope": "brand",
+      "const": "SHOELINK",
+      "path": "shoelink",
+      "type": "obj",
+      "keys": ["t", "u"],
+      "absent": "optional"
+    },
+    "fibre": {
+      "scope": "brand",
+      "const": "FIBRE",
+      "path": "fibre",
+      "type": "fibre",
+      "absent": "not_assessed"
+    },
+    "doors": {
+      "scope": "brand",
+      "const": "DOORS",
+      "path": "doors",
+      "type": "doors",
+      "absent": "required"
+    },
+    "region": {
+      "scope": "brand",
+      "const": "REGION",
+      "path": "region",
+      "type": "obj",
+      "keys": ["o", "s"],
+      "absent": "optional",
+      "doc": "Indices into places.json. To be replaced by place ids."
+    },
+    "onething": {
+      "scope": "brand",
+      "const": "ONETHING",
+      "path": "onething",
+      "type": "onething",
+      "absent": "required"
+    },
+    "prices": {
+      "scope": "brand",
+      "const": "PRICES",
+      "path": "prices",
+      "type": "prices",
+      "absent": "required",
+      "doc": "8 slots: T-shirt, Polo, Dress shirt, Jeans, Dress pants, Sweater, Outerwear, Shoes. Each [lo, hi], null = not a staple, '?' = not assessed."
+    },
+    "price_checked": {
+      "scope": "brand",
+      "const": "PRICE_PASS",
+      "path": "price_checked",
+      "type": "bool",
+      "absent": "optional",
+      "doc": "Emitted as membership of the PRICE_PASS array"
+    },
+    "addmen": {
+      "scope": "brand",
+      "const": "ADDMEN",
+      "path": "addmen",
+      "type": "bool",
+      "absent": "optional",
+      "doc": "Emitted as membership of the ADDMEN Set"
+    },
+    "addcloth": {
+      "scope": "brand",
+      "const": "ADDCLOTH",
+      "path": "addcloth",
+      "type": "bool",
+      "absent": "optional",
+      "doc": "Emitted as membership of the ADDCLOTH Set"
+    },
+    "places": {
+      "scope": "global",
+      "const": "PLACES",
+      "file": "places.json"
+    },
+    "changelog": {
+      "scope": "global",
+      "const": "CHANGELOG",
+      "file": "changelog.json"
+    },
+    "rubric": {
+      "scope": "global",
+      "const": "RUBRIC",
+      "file": "rubric.json"
+    },
+    "bands": {
+      "scope": "global",
+      "const": "DATA",
+      "file": "bands.json",
+      "doc": "Band name and range copy; membership comes from brand records"
+    },
+    "settings": {
+      "scope": "global",
+      "const": null,
+      "file": "settings.json",
+      "doc": "STOCKED_REGION, REGION_NAME, VISIT_FORM, GROUPOF, PRICE_PASS_DATE, NOT_ASSESSED"
+    },
+    "site": {
+      "scope": "brand",
+      "const": null,
+      "path": "site",
+      "type": "obj",
+      "keys": ["domain", "platform", "feed", "feed_count", "status", "checked"],
+      "absent": "optional",
+      "doc": "Where the brand's own store is and how to read it. Data-only: not emitted into the page."
+    },
+    "tech_evidence": {
+      "scope": "brand",
+      "const": null,
+      "path": "tech_evidence",
+      "type": "obj",
+      "keys": ["names", "origin", "marks", "source", "checked"],
+      "absent": "not_assessed",
+      "doc": "Per-brand evidence the tech score is checked against. names: yes|no|unclear. origin: house|licensed|both|none|unclear. Not a dial, not shown. Ruling 13 Sep: a mark counts only on men's product sold under the key; supplier marks only where the house leads with them."
+    }
   },
   "price_slots": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants", "Sweater", "Outerwear", "Shoes"],
   "not_assessed_sentinel": 99

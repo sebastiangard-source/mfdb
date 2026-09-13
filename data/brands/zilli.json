@@ -53,5 +53,25 @@
     "n": 0,
     "cities": []
   },
-  "cities": "No US store on the brand's own locator, which lists 22 countries and not the United States"
+  "cities": "No US store on the brand's own locator, which lists 22 countries and not the United States",
+  "site": {
+    "domain": "en.zilli.com",
+    "platform": "custom",
+    "feed": "category_crawl",
+    "feed_count": 76,
+    "status": "live_store",
+    "checked": "2026-09-13"
+  },
+  "tech_evidence": {
+    "names": "yes",
+    "origin": "licensed",
+    "marks": [
+      "ZEISS(R) 9 products - LICENSED (sunglass lenses: 'fitted with exclusive ZEISS(R) lenses')",
+      "Brewed Protein(TM) 1 product - LICENSED (Spiber fibre, composition line '70% cashmere 30% Brewed Protein(TM) fiber', composition_only)",
+      "Alcantara 1 product - LICENSED (down jacket lining)",
+      "Goodyear 2 products"
+    ],
+    "source": "census",
+    "checked": "2026-09-12"
+  }
 }

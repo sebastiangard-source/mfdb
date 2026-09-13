@@ -46,5 +46,25 @@
     "cities": [["Aventura", "FL", 1]]
   },
   "cities": "Online · a single US store, down from a wider fleet",
-  "addmen": true
+  "addmen": true,
+  "site": {
+    "domain": "massimodutti.com",
+    "platform": "custom",
+    "feed": "category_crawl",
+    "feed_count": 580,
+    "status": "live_store",
+    "checked": "2026-09-13"
+  },
+  "tech_evidence": {
+    "names": "yes",
+    "origin": "licensed",
+    "marks": [
+      "Masters of FLAX FIBRE(R) / European Flax-Linen",
+      "REGENAGRI(R)",
+      "STARFIT(R)",
+      "'technical fabric'"
+    ],
+    "source": "census",
+    "checked": "2026-09-12"
+  }
 }

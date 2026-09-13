@@ -50,5 +50,22 @@
     "n": 0,
     "cities": []
   },
-  "cities": "Paris (Place Vendôme) · Bergdorf NYC"
+  "cities": "Paris (Place Vendôme) · Bergdorf NYC",
+  "site": {
+    "domain": "charvet.com",
+    "platform": "custom",
+    "feed": "none_found",
+    "feed_count": 0,
+    "status": "brand_site_no_shop",
+    "checked": "2026-09-13"
+  },
+  "tech_evidence": {
+    "names": "unclear",
+    "origin": "none",
+    "marks": [
+      "NOTHING - and there is nothing to look at. charvet.com is a single holding page. After stripping the inline SVG logo, the entire <body> is 444 bytes: one logo, a mailto:contact@charvet.com link and a link to instagram.com/charvet_official. document.body.innerText is 1 character. The site's own inter"
+    ],
+    "source": "census_followup",
+    "checked": "2026-09-12"
+  }
 }

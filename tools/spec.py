@@ -150,7 +150,7 @@ def consts(data):
         n = rec['name']
         for fname, f in BRAND_FIELDS.items():
             c = f['const']
-            if c == 'DATA':
+            if c == 'DATA' or c is None:
                 continue
             v = get(rec, f['path'])
             if v is None:

@@ -105,5 +105,27 @@
     "s": [176, 216, 773]
   },
   "addmen": true,
-  "addcloth": true
+  "addcloth": true,
+  "site": {
+    "domain": "shop.brunellocucinelli.com",
+    "platform": "salesforce_commerce",
+    "feed": "sitemap_products",
+    "feed_count": 3295,
+    "status": "live_store",
+    "checked": "2026-09-13"
+  },
+  "tech_evidence": {
+    "names": "yes",
+    "origin": "licensed",
+    "marks": [
+      "Thermore(R)",
+      "LYOCELL(TM)/TENCEL",
+      "FSC(R) (packaging boilerplate)",
+      "'technical fabric'",
+      "'membrane'",
+      "cupro (generic fibre)"
+    ],
+    "source": "census",
+    "checked": "2026-09-12"
+  }
 }
