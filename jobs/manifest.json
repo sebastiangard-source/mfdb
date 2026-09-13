@@ -33,7 +33,7 @@
       "id": "rubric_screen_origin_2026-09",
       "title": "8 origin checks",
       "kind": "rubric_screen",
-      "state": "drafted",
+      "state": "returned",
       "created": "2026-09-13",
       "issued": null,
       "pilot": 8,
@@ -54,15 +54,26 @@
         }
       ],
       "writes": {},
-      "returns": [],
+      "returns": [
+        {
+          "n": 1,
+          "file": "rubric_screen_2026-09/",
+          "received": "2026-09-13",
+          "rows": null,
+          "mergeable": 0,
+          "held": 0,
+          "merged": 0,
+          "triage": "jobs/triage/rubric_screen_2026-09.md"
+        }
+      ],
       "blocked_on": "",
-      "note": "not started"
+      "note": "10 files in jobs/returns/rubric_screen_2026-09; see triage"
     },
     {
       "id": "rubric_screen_tech_2026-09",
       "title": "36-brand tech screen",
       "kind": "rubric_screen",
-      "state": "drafted",
+      "state": "returned",
       "created": "2026-09-13",
       "issued": null,
       "pilot": 8,
@@ -83,9 +94,20 @@
         }
       ],
       "writes": {},
-      "returns": [],
+      "returns": [
+        {
+          "n": 1,
+          "file": "rubric_screen_2026-09/",
+          "received": "2026-09-13",
+          "rows": null,
+          "mergeable": 0,
+          "held": 0,
+          "merged": 0,
+          "triage": "jobs/triage/rubric_screen_2026-09.md"
+        }
+      ],
       "blocked_on": "",
-      "note": "not started"
+      "note": "10 files in jobs/returns/rubric_screen_2026-09; see triage"
     },
     {
       "id": "catalogue_capture_2026-09",
