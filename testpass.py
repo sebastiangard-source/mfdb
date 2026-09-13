@@ -758,6 +758,36 @@ with sync_playwright() as p:
     ck('label has a button role', pg.eval_on_selector('.dial[data-attr="prep"] .dl','e=>e.getAttribute("role")')=='button')
     ck('label reachable by tab', pg.eval_on_selector('.dial[data-attr="prep"] .dl','e=>e.getAttribute("tabindex")')=='0')
 
+    head('prev / next')
+    pg.set_viewport_size({'width':1400,'height':1000})
+    pg.goto(url+'#brand=Barbour'); pg.reload(); pg.wait_for_timeout(420)
+    nav = pg.evaluate("()=>{const n=document.querySelector('#detailBody .pg-nav'); return n? {prev:n.querySelector('.pg-prev')?.dataset.brand, next:n.querySelector('.pg-next')?.dataset.brand, at:n.querySelector('.pg-at').textContent} : null}")
+    ck('brand page carries a prev/next nav', nav is not None)
+    order = pg.evaluate("()=>[...document.querySelectorAll('.brand')].map(b=>b.textContent.trim())")
+    i = order.index('Barbour')
+    ck('brand next follows the spectrum order', nav and nav['next']==order[i+1], f"{nav and nav['next']} vs {order[i+1]}")
+    ck('brand prev follows the spectrum order', nav and nav['prev']==order[i-1], f"{nav and nav['prev']} vs {order[i-1]}")
+    ck('brand nav says where it is', nav and nav['at']==f'{i+1} of {len(order)}', nav and nav['at'])
+    pg.click('#detailBody .pg-nav a.pg-next'); pg.wait_for_timeout(250)
+    ck('clicking next opens the next brand', pg.evaluate("document.querySelector('#detailBody h2').textContent").startswith(order[i+1]))
+    ck('clicking next moves the hash', pg.evaluate('location.hash')=='#brand='+order[i+1].replace(' ','%20').replace("'", '%27'), pg.evaluate('location.hash'))
+    pg.keyboard.press('ArrowLeft'); pg.wait_for_timeout(250)
+    ck('arrow left goes back', pg.evaluate("document.querySelector('#detailBody h2').textContent").startswith('Barbour'))
+    first = order[0]
+    pg.goto(url+'#brand='+first.replace(' ','%20').replace("'", '%27')); pg.reload(); pg.wait_for_timeout(400)
+    ck('first brand has no prev link, only an end marker', pg.evaluate("()=>!document.querySelector('#detailBody .pg-nav a.pg-prev') && !!document.querySelector('#detailBody .pg-nav .pg-end')"))
+    # shops: open the first shop in the boutiques index and step
+    pg.goto(url+'#boutiques'); pg.reload(); pg.wait_for_timeout(500)
+    slugs = pg.evaluate("()=>[...document.querySelectorAll('#boBody a.shop-open')].map(a=>a.dataset.i)")
+    ck('boutiques index has shops', len(slugs)>2)
+    pg.click('#boBody a.shop-open'); pg.wait_for_timeout(300)
+    snav = pg.evaluate("()=>{const n=document.querySelector('#shopBody .pg-nav'); return n? {next:n.querySelector('.pg-next')?.dataset.shop, at:n.querySelector('.pg-at').textContent} : null}")
+    ck('stockist page carries a prev/next nav', snav is not None)
+    ck('stockist next follows the boutiques index order', snav and snav['next']==slugs[1], f"{snav and snav['next']} vs {slugs[1]}")
+    ck('stockist nav says where it is', snav and snav['at']==f'1 of {len(slugs)}', snav and snav['at'])
+    pg.keyboard.press('ArrowRight'); pg.wait_for_timeout(250)
+    ck('arrow right pages the stockist view, not the brand view', pg.evaluate("location.hash")=='#shop='+slugs[1], pg.evaluate('location.hash'))
+
     head('phone')
     # a real touch context, so pointer:coarse rules are exercised as on a phone
     pg2 = b.new_page(viewport={'width':390,'height':844}, is_mobile=True, has_touch=True); e2=[]

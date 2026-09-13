@@ -681,6 +681,15 @@
    The max() keeps it on screen when the window is narrower than the column. */
   #shopClose{position:fixed;top:18px;right:max(22px, calc(100vw - 792px));font-size:13px;background:#123B2B;color:#F2ECDD;
     border:0;border-radius:15px;padding:6px 15px;cursor:pointer;z-index:231}
+  /* Prev / next along the spectrum (brands) or the boutiques index (shops). One
+     component for both views; the order is derived from the page, never hand-kept. */
+  .pg-nav{display:flex;justify-content:space-between;align-items:center;gap:12px;max-width:760px;
+    margin:0 0 16px;font-size:12px;color:var(--ink-faint)}
+  .pg-nav a{color:var(--ink);text-decoration:none;padding:5px 11px;border-radius:13px;
+    background:rgba(18,59,43,.07);white-space:nowrap;max-width:44%;overflow:hidden;text-overflow:ellipsis}
+  .pg-nav a:hover{background:rgba(18,59,43,.15)}
+  .pg-nav .pg-at{flex:1;text-align:center}
+  .pg-nav span.pg-end{color:var(--ink-faint);padding:5px 11px}
   #regionView{display:none;position:fixed;inset:0;z-index:220;background:var(--cream,#F2ECDD);
     overflow:auto;padding:28px 32px 60px;font-family:Inter,system-ui,sans-serif}
   #regionView.show{display:block}
@@ -2013,6 +2022,40 @@ function stockistRowOld(name){
        + `<div class="shop-list">${links}</div>`;
 }
 let currentBrand = null;
+// ---- prev / next --------------------------------------------------------------
+// Brand order is the spectrum as drawn: DOM order of the chips, skipping any the
+// active filters have put out. If the current brand is itself filtered out (a deep
+// link into a filtered page) the full order is used so the buttons still work.
+function brandNeighbours(name){
+  const all = BRAND_ELS.map(b=>b.textContent.trim());
+  const vis = BRAND_ELS.filter(b=>!b.classList.contains("out")).map(b=>b.textContent.trim());
+  const list = vis.indexOf(name) >= 0 ? vis : all;
+  const i = list.indexOf(name);
+  return {prev:list[i-1], next:list[i+1], at:i+1, of:list.length, filtered:list===vis && vis.length!==all.length};
+}
+// Shop order is the boutiques index: states by name, then city, then shop name.
+// Derived by the same sort the index uses, so the two can never disagree.
+function shopOrder(){
+  const idx = PLACES.map((p,i)=>[p,i]).filter(([p])=>p.k==="s");
+  return idx.sort((a,b)=>(ST_NAME[a[0].s]||a[0].s).localeCompare(ST_NAME[b[0].s]||b[0].s)
+                        || a[0].c.localeCompare(b[0].c) || a[0].n.localeCompare(b[0].n))
+            .map(([,i])=>i);
+}
+function shopNeighbours(i){
+  const order = shopOrder(); const k = order.indexOf(i);
+  return {prev:order[k-1], next:order[k+1], at:k+1, of:order.length};
+}
+function navHTML(kind, n, label, key){
+  // kind: "brand" or "shop"; label(x) renders a name; key(x) is the data attribute value
+  const side = (x, cls, txt)=> x===undefined
+      ? `<span class="pg-end">${txt}</span>`
+      : `<a class="${cls}" data-${kind}="${esc(key(x))}" href="#${kind}=${encodeURIComponent(key(x))}">${txt}</a>`;
+  return `<nav class="pg-nav" aria-label="Previous and next ${kind}">`
+       + side(n.prev, "pg-prev", n.prev===undefined ? "start" : "\u2039 " + esc(label(n.prev)))
+       + `<span class="pg-at">${n.at} of ${n.of}${n.filtered ? " shown" : ""}</span>`
+       + side(n.next, "pg-next", n.next===undefined ? "end" : esc(label(n.next)) + " \u203a")
+       + `</nav>`;
+}
 function renderDetail(name){
   const el = BRAND_ELS.find(b=>b.textContent===name);
   currentBrand = name;
@@ -2025,6 +2068,7 @@ function renderDetail(name){
   detailBody.innerHTML = `
     <h2>${esc(name)}${sayHTML(name)}</h2>
     <p class="dv-sub">${esc(band)} &middot; diagnostic view &middot; 0 = register not represented</p>
+    ${navHTML("brand", brandNeighbours(name), x=>x, x=>x)}
     ${pricesHTML(name)}
     <h3>Attributes</h3>${chipsFor(el, ATTRKEYS, attrScored)}${notesFor(el, ATTRKEYS)}
     <h3>Fabrics</h3>${chipsFor(el, FKEYS, fabScored)}${notesFor(el, FKEYS)}${fibreLineHTML(name)}
@@ -2103,6 +2147,13 @@ detailBody.addEventListener("click", e=>{
   btn.setAttribute("aria-expanded", open ? "true" : "false");
 });
 document.getElementById("detailClose").addEventListener("click", closeDetail);
+detailBody.addEventListener("click", e=>{
+  const a = e.target.closest(".pg-nav a[data-brand]");
+  if(!a) return;
+  e.preventDefault(); e.stopPropagation();
+  renderDetail(a.dataset.brand);
+  history.replaceState(null,"","#brand="+encodeURIComponent(a.dataset.brand));
+});
 document.addEventListener("keydown", e=>{
   // The dial explainer stacks above the brand card, so Escape must peel one
   // layer at a time; without this both handlers fire and both overlays close.
@@ -2292,6 +2343,7 @@ function renderShop(ref){
       `<h2>${esc(p.n)}</h2>`
     + `<p class="sv-sub">${esc(p.c)}, ${esc(p.s)} \u00b7 ${esc(p.t || "stockist")}`
     + (p.bt ? ` \u00b7 ${p.bt} brands carried` : "") + `</p>`
+    + navHTML("shop", shopNeighbours(i), j=>PLACES[j].n, j=>shopSlug(PLACES[j]))
     + `<h3>Where</h3>`
     + `<p><a class="shop-link" href="${placeMapUrl(p)}" target="_blank" rel="noopener">`
     + `${esc(p.a ? p.a + ", " + p.c + " " + p.s + " " + p.z : p.c + " " + p.s)}</a>`
@@ -2338,6 +2390,24 @@ function closeShop(){
   }
 }
 document.getElementById("shopClose").addEventListener("click", closeShop);
+shopBody.addEventListener("click", e=>{
+  const a = e.target.closest(".pg-nav a[data-shop]");
+  if(!a) return;
+  e.preventDefault(); e.stopPropagation();
+  renderShop(a.dataset.shop);
+  history.replaceState(null,"","#shop="+a.dataset.shop);
+});
+// Arrow keys page whichever of the two views is on top (the shop view sits above the
+// brand view). Ignored while typing in a field.
+document.addEventListener("keydown", e=>{
+  if(e.key!=="ArrowLeft" && e.key!=="ArrowRight") return;
+  if(e.target.closest("input,textarea,select")) return;
+  const view = shopView.classList.contains("show") ? shopBody
+             : detailView.classList.contains("show") ? detailBody : null;
+  if(!view) return;
+  const a = view.querySelector(e.key==="ArrowRight" ? ".pg-nav a.pg-next" : ".pg-nav a.pg-prev");
+  if(a){ e.preventDefault(); a.click(); }
+});
 document.addEventListener("click", e=>{
   const a = e.target.closest(".shop-open");
   if(!a) return;

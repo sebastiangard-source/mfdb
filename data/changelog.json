@@ -1,5 +1,14 @@
 [
   {
+    "v": "3.7.0",
+    "d": "13 September 2026",
+    "lede": "Brand and stockist pages page along the spectrum, and the site is built from data rather than edited by hand.",
+    "items": [
+      "<b>Previous and next on every brand page and every stockist page.</b> A brand page steps along the spectrum in the order the chips are drawn, skipping anything the active filters have put out, and says where it is (“48 of 204”, or “12 of 31 shown” under a filter). A stockist page steps through the boutiques index — by state, then city, then name. The arrow keys do the same.",
+      "<b>The page is now a build.</b> The 204 brand records, the 807 places, the rubric and the changelog live in a data folder, one file per brand, checked by a registry that says what every field is and what its absence means. The page you are reading is assembled from them. Nothing about what it shows changed; a lot about how it can change did."
+    ]
+  },
+  {
     "v": "3.6.0",
     "d": "12 September 2026",
     "lede": "The register reaches New Jersey, Pennsylvania and Delaware, and the region it describes is now the Northeast.",
