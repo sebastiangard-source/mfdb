@@ -1,0 +1,6 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/$USER/public_html/mfdb
+    - mkdir -p $DEPLOYPATH
+    - /bin/cp index.html $DEPLOYPATH/index.new.html
+    - /bin/mv -f $DEPLOYPATH/index.new.html $DEPLOYPATH/index.html
