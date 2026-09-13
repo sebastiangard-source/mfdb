@@ -1,6 +1,6 @@
 # Job board — derived from jobs/manifest.json by job.py; do not edit
 
-_11 jobs · rewritten 2026-09-13_
+_12 jobs · rewritten 2026-09-13_
 
 | job | state | issued | kind | merged/returned | blocked on / note |
 |---|---|---|---|---|---|
@@ -15,3 +15,4 @@ _11 jobs · rewritten 2026-09-13_
 | price_pass_2026-09 | returned |  | price |  | non-USD price axis ruling |
 | midatlantic_register_2026-09-12 | returned | 2026-09-12 | locations |  | desk work finished |
 | rubric_screen_golf_2026-09-14 | drafted |  | rubric_screen |  | scaffolded as the worked example; not sent to anyone |
+| fibre_pass_2026-09-14 | issued | 2026-09-13 | fibre |  |  |

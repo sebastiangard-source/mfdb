@@ -1,0 +1,68 @@
+{
+  "not_checked": "NC",
+  "columns": [
+    {
+      "name": "brand",
+      "type": "key"
+    },
+    {
+      "name": "styles_total",
+      "type": "int",
+      "range": [1, 9999]
+    },
+    {
+      "name": "styles_with_composition",
+      "type": "int",
+      "range": [0, 9999]
+    },
+    {
+      "name": "natural_pct",
+      "type": "int",
+      "range": [0, 100]
+    },
+    {
+      "name": "synthetic_pct",
+      "type": "int",
+      "range": [0, 100]
+    },
+    {
+      "name": "spandex_styles",
+      "type": "int",
+      "range": [0, 9999]
+    },
+    {
+      "name": "shape",
+      "type": "enum",
+      "values": ["one", "split"]
+    },
+    {
+      "name": "synthetic_categories",
+      "type": "json"
+    },
+    {
+      "name": "natural_categories",
+      "type": "json"
+    },
+    {
+      "name": "style_method",
+      "type": "enum",
+      "values": ["product_code", "title_dedup", "handle", "manual"]
+    },
+    {
+      "name": "colourway_ratio",
+      "type": "str"
+    },
+    {
+      "name": "feed_currency_rate",
+      "type": "str"
+    },
+    {
+      "name": "source",
+      "type": "provenance"
+    },
+    {
+      "name": "note",
+      "type": "str"
+    }
+  ]
+}
