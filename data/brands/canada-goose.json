@@ -1,0 +1,77 @@
+{
+  "name": "Canada Goose",
+  "band": "accessible",
+  "seat": 77,
+  "dagger": 1,
+  "focus": {
+    "tech": 3,
+    "comfort": 3,
+    "craft": 3,
+    "style": 2
+  },
+  "fabric": {
+    "denim": 1,
+    "cashmere": 1,
+    "linen": 1,
+    "cotton": 1,
+    "wool": 2,
+    "synth": 4
+  },
+  "dials": {
+    "reach": 4,
+    "dur": 4,
+    "forg": 2,
+    "fuss": 2,
+    "status": 4,
+    "finbro": 4,
+    "street": 2,
+    "ski": 2
+  },
+  "why": "Arctic-spec down, made in Canada, now a global status shell.",
+  "origin": "Founded as Metro Sportswear by Sam Tick, Toronto, 1957 — Arctic workwear before it was fashion.",
+  "opview": "“Live in the open” — the house line.",
+  "chan": ["O", "D"],
+  "conf": "S",
+  "forgc": [2, 3, 1],
+  "shop": "https://www.canadagoose.com/us/en/search?q=",
+  "onething": {
+    "p": "Expedition parka",
+    "u": "https://www.canadagoose.com/us/en/search?q=Expedition%20parka%20men",
+    "n": "verified ✓"
+  },
+  "prices": [[80, 125], [125, 175], null, null, [200, 300], "?", "?", "?"],
+  "notes": {
+    "synth": "Arctic-spec technical shells, made in Canada",
+    "status": "the arm patch as school-run signal",
+    "finbro": "analyst winter armor on the walk from the subway"
+  },
+  "doors": {
+    "c": "full",
+    "n": 19,
+    "cities": [
+      ["Anchorage", "AK", 1],
+      ["Atlanta", "GA", 1],
+      ["Bellevue", "WA", 1],
+      ["Bloomington", "MN", 1],
+      ["Boston", "MA", 1],
+      ["Chicago", "IL", 1],
+      ["Costa Mesa", "CA", 1],
+      ["Denver", "CO", 1],
+      ["East Rutherford", "NJ", 1],
+      ["Honolulu", "HI", 1],
+      ["King of Prussia", "PA", 1],
+      ["Las Vegas", "NV", 2],
+      ["Los Angeles", "CA", 1],
+      ["New York", "NY", 2],
+      ["Oak Brook", "IL", 1],
+      ["Short Hills", "NJ", 1],
+      ["Troy", "MI", 1]
+    ]
+  },
+  "cities": "50+ stores — most major metros · dept stores",
+  "region": {
+    "o": [],
+    "s": [74, 244, 773, 782]
+  },
+  "addmen": true
+}

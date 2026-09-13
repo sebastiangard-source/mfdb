@@ -1,0 +1,94 @@
+{
+  "name": "Prada",
+  "band": "trueLux",
+  "seat": 167,
+  "dagger": 0,
+  "focus": {
+    "tech": 2,
+    "comfort": 2,
+    "craft": 4,
+    "style": 5
+  },
+  "fabric": {
+    "denim": 1,
+    "cashmere": 2,
+    "linen": 1,
+    "cotton": 2,
+    "wool": 3,
+    "synth": 4
+  },
+  "dials": {
+    "reach": 4,
+    "dur": 3,
+    "forg": 2,
+    "fuss": 2,
+    "shoes": 4,
+    "status": 5,
+    "ital": 4,
+    "street": 2,
+    "avant": 4,
+    "weird": 3,
+    "ski": 2
+  },
+  "why": "Intellectual luxury — Re-Nylon and the ugly-beautiful.",
+  "origin": "Mario Prada's Milan leather goods, 1913; transformed by granddaughter Miuccia from 1978.",
+  "opview": "Miuccia: “Ugly is attractive, ugly is exciting.”",
+  "chan": ["O", "D", "X"],
+  "conf": "S",
+  "forgc": [2, 2, 1],
+  "shop": "https://www.prada.com/us/en/search.html?q=",
+  "onething": {
+    "p": "Re-Nylon overshirt",
+    "u": "https://www.ssense.com/en-us/men/designers/prada",
+    "n": "Use this: https://www.prada.com/us/en/p/re-nylon-shirt/SC548_1WQ8_F0002_S_212"
+  },
+  "prices": [[825, 1590], [1070, 1920], [1070, 2700], [1700, 1900], [1350, 2150], "?", "?", "?"],
+  "shoelink": {
+    "t": "loafer",
+    "u": "https://www.prada.com/us/en/search.html?q=loafer"
+  },
+  "notes": {
+    "synth": "Re-Nylon — technical fabric as luxury icon",
+    "avant": "ugly-beautiful as an intellectual position",
+    "ital": "Milan, and a leather goods shop in the Galleria Vittorio Emanuele long before ready-to-wear. The Italianness is intellectual rather than decorative — the nylon was a Milanese provocation.",
+    "status": "Intellectual status. The nylon triangle costs more than it looks like it should, and knowing that is the point of it."
+  },
+  "doors": {
+    "c": "full",
+    "n": 33,
+    "cities": [
+      ["Aspen", "CO", 1],
+      ["Atlanta", "GA", 1],
+      ["Aventura", "FL", 1],
+      ["Bal Harbour", "FL", 1],
+      ["Bellevue", "WA", 1],
+      ["Beverly Hills", "CA", 1],
+      ["Canoga Park", "CA", 1],
+      ["Chicago", "IL", 1],
+      ["Costa Mesa", "CA", 1],
+      ["Dallas", "TX", 1],
+      ["East Hampton", "NY", 1],
+      ["Honolulu", "HI", 3],
+      ["Houston", "TX", 1],
+      ["Las Vegas", "NV", 4],
+      ["Los Angeles", "CA", 1],
+      ["Manhasset", "NY", 1],
+      ["McLean", "VA", 1],
+      ["Miami", "FL", 1],
+      ["New York", "NY", 3],
+      ["Orlando", "FL", 1],
+      ["San Diego", "CA", 1],
+      ["Santa Clara", "CA", 1],
+      ["Scottsdale", "AZ", 1],
+      ["Short Hills", "NJ", 1],
+      ["Troy", "MI", 1],
+      ["Wailea", "HI", 1]
+    ]
+  },
+  "cities": "Boutiques in most metros · dept stores",
+  "region": {
+    "o": [298, 332, 474, 475, 476],
+    "s": []
+  },
+  "addmen": true
+}

@@ -1,0 +1,57 @@
+{
+  "name": "Missoni",
+  "band": "trueLux",
+  "seat": 147,
+  "dagger": 1,
+  "focus": {
+    "tech": 1,
+    "comfort": 3,
+    "craft": 4,
+    "style": 4
+  },
+  "fabric": {
+    "denim": 1,
+    "cashmere": 3,
+    "linen": 2,
+    "cotton": 2,
+    "wool": 3,
+    "synth": 1
+  },
+  "dials": {
+    "reach": 2,
+    "dur": 2,
+    "forg": 3,
+    "fuss": 2,
+    "status": 3,
+    "ital": 4,
+    "ski": 2
+  },
+  "why": "The knit as fashion house — space-dye zigzags since 1953.",
+  "origin": "Ottavio — a 1948 Olympic hurdler — and Rosita Missoni, 1953; knitwear as a fashion house.",
+  "opview": "Positions the knit — the zigzag — as a fashion house's entire language.",
+  "chan": ["O", "D"],
+  "conf": "L",
+  "forgc": [4, 2, 1],
+  "shop": "https://www.missoni.com/en-us/search?q=",
+  "onething": {
+    "p": "Zigzag piqué polo",
+    "u": "https://www.missoni.com/en-us/polo-in-cotton-pique-with-zig-zag-motif-light-blue-BS26S202BJ00R0S72QA.html",
+    "n": "direct — cotton piqué with the zigzag motif; not a knit, renamed accordingly"
+  },
+  "prices": [[460, 710], [550, 1240], [500, 2230], [670, 710], [694, 740], "?", "?", "?"],
+  "notes": {
+    "ital": "The zigzag is a knitting technique, not a print — worked out at Sumirago by a family that came to fashion from athletics. Colour as the house's entire vocabulary."
+  },
+  "doors": {
+    "c": "full",
+    "n": 4,
+    "cities": [["Aventura", "FL", 1], ["Las Vegas", "NV", 1], ["Miami", "FL", 1], ["New York", "NY", 1]]
+  },
+  "cities": "NYC & Miami · dept stores",
+  "region": {
+    "o": [454],
+    "s": []
+  },
+  "addmen": true,
+  "addcloth": true
+}

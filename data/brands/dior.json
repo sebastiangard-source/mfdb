@@ -1,0 +1,84 @@
+{
+  "name": "Dior",
+  "band": "trueLux",
+  "seat": 170,
+  "dagger": 0,
+  "focus": {
+    "tech": 1,
+    "comfort": 1,
+    "craft": 4,
+    "style": 5
+  },
+  "fabric": {
+    "denim": 2,
+    "cashmere": 2,
+    "linen": 1,
+    "cotton": 2,
+    "wool": 3,
+    "synth": 1
+  },
+  "dials": {
+    "reach": 4,
+    "dur": 3,
+    "forg": 1,
+    "fuss": 1,
+    "shoes": 3,
+    "status": 5,
+    "fren": 5,
+    "ski": 2
+  },
+  "why": "Parisian grandeur in menswear translation.",
+  "origin": "Christian Dior, Paris, 1947 — the New Look; menswear as its grand translation.",
+  "opview": "Positions itself as Parisian grandeur, translated for men.",
+  "chan": ["O", "D"],
+  "conf": "S",
+  "forgc": [1, 2, 1],
+  "shop": "https://www.dior.com/en_us/fashion/search/",
+  "onething": {
+    "p": "CD Icon knit",
+    "u": "https://www.dior.com/en_us/fashion",
+    "n": "Dior sells direct only — no Mr Porter; link is the men’s fashion hub, best-guess piece"
+  },
+  "prices": [[610, 1600], [1700, 2050], [770, 2100], [1150, 1800], [650, 1300], "?", "?", "?"],
+  "shoelink": {
+    "t": "sneaker",
+    "u": "https://www.dior.com/en_us/fashion/search/sneaker"
+  },
+  "notes": {
+    "fren": "Avenue Montaigne, which is close to the most French address a menswear house can have. The couture inheritance is the whole of the register.",
+    "status": "Couture-house pricing applied to a sweatshirt, and the name does the work without help. The status is inherited from the women's house and spent on menswear.",
+    "reach": "fourteen of its thirty-six US boutiques sell no menswear, read from each store page’s own categories rather than from its prose. The map counts the twenty-two that do"
+  },
+  "doors": {
+    "c": "full",
+    "n": 22,
+    "cities": [
+      ["Atlanta", "GA", 1],
+      ["Austin", "TX", 1],
+      ["Beverly Hills", "CA", 1],
+      ["Boston", "MA", 1],
+      ["Canoga Park", "CA", 1],
+      ["Chicago", "IL", 1],
+      ["Costa Mesa", "CA", 1],
+      ["Dallas", "TX", 1],
+      ["Honolulu", "HI", 2],
+      ["Houston", "TX", 1],
+      ["King of Prussia", "PA", 1],
+      ["Las Vegas", "NV", 1],
+      ["Miami", "FL", 1],
+      ["New York", "NY", 3],
+      ["Orlando", "FL", 1],
+      ["San Antonio", "TX", 1],
+      ["San Diego", "CA", 1],
+      ["Santa Clara", "CA", 1],
+      ["Troy", "MI", 1]
+    ]
+  },
+  "cities": "22 boutiques carrying menswear. Fourteen more sell womenswear only, including Manhasset and Greene Street",
+  "region": {
+    "o": [712, 713, 714, 715],
+    "s": []
+  },
+  "addmen": true,
+  "addcloth": true
+}

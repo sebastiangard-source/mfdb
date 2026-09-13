@@ -1,0 +1,89 @@
+{
+  "name": "Bottega Veneta",
+  "band": "trueLux",
+  "seat": 182,
+  "dagger": 0,
+  "focus": {
+    "tech": 1,
+    "comfort": 2,
+    "craft": 4,
+    "style": 5
+  },
+  "fabric": {
+    "denim": 2,
+    "cashmere": 3,
+    "linen": 2,
+    "cotton": 2,
+    "wool": 3,
+    "synth": 1
+  },
+  "dials": {
+    "reach": 4,
+    "dur": 3,
+    "forg": 2,
+    "fuss": 2,
+    "shoes": 3,
+    "status": 4,
+    "ital": 4
+  },
+  "why": "Intrecciato discretion — no logos, all hand.",
+  "origin": "Vicenza, 1966 — intrecciato weave in place of any logo.",
+  "opview": "“When your own initials are enough” — the historic house slogan.",
+  "say": "bot-TAY-ga VEN-eh-ta",
+  "chan": ["O", "D"],
+  "conf": "S",
+  "forgc": [2, 2, 2],
+  "shop": "https://www.bottegaveneta.com/en-us/search?q=",
+  "onething": {
+    "p": "Intrecciato card case",
+    "u": "https://www.bottegaveneta.com/en-us/search?q=Intrecciato%20card%20case",
+    "n": "verified ✓"
+  },
+  "prices": [[550, 950], [800, 1150], [1300, 1850], [900, 1250], [1100, 1600], "?", "?", "?"],
+  "shoelink": {
+    "t": "loafer",
+    "u": "https://www.bottegaveneta.com/en-us/search?q=loafer"
+  },
+  "notes": {
+    "ital": "Vicenza leatherworking, where intrecciato weaving began as a way to make thin hides strong. The house rule was famously that its own name should not appear on the product.",
+    "status": "No logo, by long-standing house policy — status legible only to people already inside it. The intrecciato is the signature precisely because it needs no name."
+  },
+  "doors": {
+    "c": "full",
+    "n": 36,
+    "cities": [
+      ["Aspen", "CO", 1],
+      ["Atlanta", "GA", 1],
+      ["Beverly Hills", "CA", 1],
+      ["Boston", "MA", 1],
+      ["Carmel-By-The-Sea", "CA", 1],
+      ["Chicago", "IL", 1],
+      ["Costa Mesa", "CA", 1],
+      ["Dallas", "TX", 1],
+      ["Honolulu", "HI", 2],
+      ["Houston", "TX", 1],
+      ["King of Prussia", "PA", 1],
+      ["Las Vegas", "NV", 4],
+      ["Los Angeles", "CA", 3],
+      ["Manhasset", "NY", 1],
+      ["McLean", "VA", 1],
+      ["Miami", "FL", 2],
+      ["New York City", "NY", 4],
+      ["Palm Beach", "FL", 1],
+      ["Palm Desert", "CA", 1],
+      ["San Diego", "CA", 1],
+      ["San Francisco", "CA", 1],
+      ["Santa Barbara", "CA", 1],
+      ["Scottsdale", "AZ", 1],
+      ["Seattle", "WA", 1],
+      ["Short Hills", "NJ", 1],
+      ["Wailea", "HI", 1]
+    ]
+  },
+  "cities": "Boutiques in major metros · dept stores",
+  "region": {
+    "o": [5, 322, 533, 534, 535, 536],
+    "s": [780]
+  },
+  "addmen": true
+}

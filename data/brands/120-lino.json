@@ -1,0 +1,75 @@
+{
+  "name": "120% Lino",
+  "band": "accessible",
+  "seat": 117,
+  "dagger": 1,
+  "focus": {
+    "tech": 1,
+    "comfort": 4,
+    "craft": 3,
+    "style": 3
+  },
+  "fabric": {
+    "denim": 1,
+    "cashmere": 2,
+    "linen": 5,
+    "cotton": 2,
+    "wool": 1,
+    "synth": 1
+  },
+  "dials": {
+    "reach": 2,
+    "dur": 2,
+    "forg": 3,
+    "fuss": 1,
+    "golffice": -1,
+    "shoes": 0,
+    "status": 2,
+    "ital": 5,
+    "boat": 4
+  },
+  "why": "The only all-linen house — born from a Camden Market blazer in 1980; garment-dyed Italian resort wear that follows summer around the map.",
+  "origin": "Alberto Peretto, 1980 — sparked by a white linen blazer found at Camden Market; all linen ever since.",
+  "opview": "Its CEO's boast: “there are no competitors that only sell linen products.”",
+  "say": "LEE-no",
+  "chan": ["O", "W"],
+  "conf": "S",
+  "forgc": [4, 2, 1],
+  "shop": "https://120percento.com/search?q=",
+  "onething": {
+    "p": "Garment-dyed linen shirt",
+    "u": "https://120percento.com/search?q=Garment-dyed%20linen%20shirt%20men",
+    "n": "men-filtered"
+  },
+  "prices": [[235, 235], null, [255, 375], null, [385, 415], [385, 385], [635, 895], null],
+  "price_checked": true,
+  "notes": {
+    "linen": "the category's only pure player — by its own CEO's boast, no competitor sells linen alone",
+    "comfort": "garment-dyed softness as the stated product",
+    "ital": "The name is a fabric specification, and the whole line follows from it. Linen from Italian spinners, cut loose, sold from the Sun Belt and the Ligurian coast — a single-fibre house rather than a designer who happens to use linen.",
+    "boat": "Linen cut for a coastline rather than a cabin. The register is the harbour town, not the passage."
+  },
+  "doors": {
+    "c": "full",
+    "n": 11,
+    "cities": [
+      ["Aventura", "FL", 1],
+      ["Bal Harbour", "FL", 1],
+      ["Charleston", "SC", 1],
+      ["Coral Gables", "FL", 1],
+      ["Key Biscayne", "FL", 1],
+      ["Miami", "FL", 1],
+      ["Nantucket", "MA", 1],
+      ["Naples", "FL", 1],
+      ["Palm Beach", "FL", 1],
+      ["San Juan", "PR", 1],
+      ["Wailea", "HI", 1]
+    ]
+  },
+  "cities": "Palm Beach, Miami, Naples FL · Beverly Hills, Palm Desert · Milan · online",
+  "region": {
+    "o": [118],
+    "s": []
+  },
+  "addmen": true
+}

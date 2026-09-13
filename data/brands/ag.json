@@ -1,0 +1,55 @@
+{
+  "name": "AG",
+  "band": "accessible",
+  "seat": 83,
+  "dagger": 1,
+  "focus": {
+    "tech": 2,
+    "comfort": 4,
+    "craft": 3,
+    "style": 3
+  },
+  "fabric": {
+    "denim": 5,
+    "cashmere": 1,
+    "linen": 2,
+    "cotton": 2,
+    "wool": 1,
+    "synth": 1
+  },
+  "dials": {
+    "reach": 4,
+    "dur": 3,
+    "forg": 2,
+    "fuss": -2,
+    "murica": 2,
+    "ital": 2
+  },
+  "why": "Adriano Goldschmied — the godfather of premium LA denim.",
+  "origin": "Adriano Goldschmied with Yul Ku, LA, 2000 — the godfather of premium denim under his own initials.",
+  "opview": "Positions the wash as where the craft lives.",
+  "chan": ["D", "O", "I"],
+  "conf": "L",
+  "forgc": [2, 3, 1],
+  "shop": "https://www.agjeans.com/search?q=",
+  "onething": {
+    "p": "Tellis jean",
+    "u": "https://www.agjeans.com/search?q=Tellis%20jean",
+    "n": "verified ✓"
+  },
+  "prices": [[60, 90], [100, 140], [140, 200], [190, 280], [160, 240], "?", "?", "?"],
+  "notes": {
+    "denim": "Adriano Goldschmied's own label — premium LA denim's godfather"
+  },
+  "doors": {
+    "c": "full",
+    "n": 7,
+    "cities": [["Houston", "TX", 1], ["New York", "NY", 4], ["Newport Beach", "CA", 1], ["Scottsdale", "AZ", 1]]
+  },
+  "cities": "Dept stores & denim boutiques · own shops in NY and Dallas",
+  "region": {
+    "o": [340, 341, 342, 343],
+    "s": [65, 73, 74, 131, 154, 192, 193, 194, 195, 229, 258, 774, 783, 806]
+  },
+  "addmen": true
+}

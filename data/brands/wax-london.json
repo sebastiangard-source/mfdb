@@ -1,0 +1,56 @@
+{
+  "name": "Wax London",
+  "band": "premium",
+  "seat": 40,
+  "dagger": 1,
+  "focus": {
+    "tech": 1,
+    "comfort": 3,
+    "craft": 3,
+    "style": 3
+  },
+  "fabric": {
+    "denim": 1,
+    "cashmere": 1,
+    "linen": 2,
+    "cotton": 3,
+    "wool": 2,
+    "synth": 1
+  },
+  "dials": {
+    "reach": 2,
+    "dur": 2,
+    "forg": 3,
+    "fuss": -1,
+    "bruv": -2,
+    "briish": 3
+  },
+  "why": "London texture-casual — corduroy, bouclé, and heavy cottons; the Whiting overshirt is a minor modern staple with real US wholesale traction.",
+  "origin": "London, mid-2010s — built on texture and Portuguese make; grew from markets to the dept-store floor inside a decade.",
+  "opview": "Texture as the signature — the fabrics do the talking.",
+  "chan": ["D", "X"],
+  "conf": "M",
+  "forgc": [4, 3, 1],
+  "shop": "https://www.waxlondon.com/search?q=",
+  "onething": {
+    "p": "Whiting overshirt",
+    "u": "https://www.waxlondon.com/search?q=whiting",
+    "n": "works"
+  },
+  "prices": [[70, 85], [85, 260], [150, 215], [185, 330], [165, 225], [235, 270], [220, 825], null],
+  "price_checked": true,
+  "notes": {
+    "cotton": "corduroy and heavy cotton — the texture-first thesis",
+    "craft": "Portuguese make, materials-led"
+  },
+  "doors": {
+    "c": "full",
+    "n": 0,
+    "cities": []
+  },
+  "cities": "Bloomingdale's & US wholesale · London roots",
+  "region": {
+    "o": [],
+    "s": [89, 246, 259, 287, 781, 786, 788]
+  }
+}

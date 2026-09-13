@@ -1,0 +1,55 @@
+{
+  "name": "Brax",
+  "band": "accessible",
+  "seat": 120,
+  "dagger": 0,
+  "focus": {
+    "tech": 4,
+    "comfort": 5,
+    "craft": 3,
+    "style": 2
+  },
+  "fabric": {
+    "denim": 4,
+    "cashmere": 1,
+    "linen": 3,
+    "cotton": 4,
+    "wool": 2,
+    "synth": 4
+  },
+  "dials": {
+    "reach": 2,
+    "dur": 3,
+    "forg": 4,
+    "fuss": 2,
+    "golf": 2,
+    "finbro": 2
+  },
+  "why": "A German trouser house that treats fit systems as the product; chinos and five-pockets in engineered stretch cloths, sold through independents.",
+  "origin": "Leineweber, Herford, Germany, 1888 — a trouser specialist that built out into full sportswear and still leads with the leg.",
+  "opview": "The house sells the fit before the fabric: named leg shapes carried season to season so a customer buys the same trouser again.",
+  "chan": ["W", "I"],
+  "conf": "L",
+  "forgc": [4, 4, 2],
+  "onething": {
+    "p": "Style CADIZ five-pocket",
+    "u": "https://www.brax.com/en/us/p/071833_7164120_05/style-cadiz",
+    "n": "verified — direct product page, $198. Cadiz is the house's straight-fit five-pocket and the clearest statement of what it does"
+  },
+  "prices": ["?", "?", "?", [198, 228], [198, 248], "?", "?", null],
+  "notes": {
+    "forg": "named fit systems — modern, regular, relaxed, slim, straight — carried consistently across the range",
+    "synth": "engineered stretch cloths are the house competence: HI-FLEX, FUSION FLEX, ULTRALIGHT",
+    "reach": "large in Europe, barely known in the US, which is where this map is looking"
+  },
+  "doors": {
+    "c": "full",
+    "n": 0,
+    "cities": []
+  },
+  "cities": "No US own retail established; reaches the US through specialty independents and its own US webshop",
+  "region": {
+    "o": [],
+    "s": [773, 774, 795, 801]
+  }
+}

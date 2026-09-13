@@ -1,0 +1,62 @@
+{
+  "name": "J.Press",
+  "band": "accessible",
+  "seat": 101,
+  "dagger": 1,
+  "focus": {
+    "tech": 1,
+    "comfort": 2,
+    "craft": 4,
+    "style": 3
+  },
+  "fabric": {
+    "denim": 1,
+    "cashmere": 1,
+    "linen": 1,
+    "cotton": 3,
+    "wool": 3,
+    "synth": 1
+  },
+  "dials": {
+    "reach": 2,
+    "dur": 4,
+    "forg": 4,
+    "fuss": 0,
+    "golffice": -3,
+    "status": 2,
+    "finbro": 2,
+    "ivy": 5,
+    "murica": 3,
+    "prep": 4,
+    "racquet": 5
+  },
+  "why": "The original campus clothier — the sack suit, the must-iron oxford, and the Shaggy Dog Shetland, sold essentially unchanged since 1902.",
+  "origin": "Jacobi Press, on the Yale campus, 1902 — owned since 1986 by Japan's Onward Kashiyama, which kept American Ivy alive when America lost interest.",
+  "opview": "Positions itself as the keeper of authentic American Ivy style — the same clothes, on principle.",
+  "chan": ["O", "W"],
+  "conf": "M",
+  "forgc": [4, 4, 3],
+  "shop": "https://jpressonline.com/search?q=",
+  "onething": {
+    "p": "Shaggy Dog sweater",
+    "u": "https://jpressonline.com/search?q=Shaggy%20Dog%20sweater",
+    "n": "verified ✓"
+  },
+  "prices": [[45, 75], [98, 145], [135, 185], [150, 225], [165, 295], "?", "?", "?"],
+  "notes": {
+    "ivy": "the source code — the same sack suit since 1902, canonized by the 1965 Japanese photo book Take Ivy",
+    "finbro": "the uniform of the finance bro's grandfather — law professors, old Washington, the bow-tie corner of the firm",
+    "prep": "The shop the Preppy Handbook actually names, still on the same streets. Where other brands reference the register, this one is a primary source for it.",
+    "racquet": "New Haven, and the squash-club register is close to native — the shop was built to dress the people who were already members. Little translation required."
+  },
+  "doors": {
+    "c": "full",
+    "n": 3,
+    "cities": [["New Haven", "CT", 1], ["New York", "NY", 1], ["Washington", "DC", 1]]
+  },
+  "cities": "New Haven (York St, since 1902) · NYC · Washington DC · more stores in Japan than America",
+  "region": {
+    "o": [188, 416],
+    "s": []
+  }
+}

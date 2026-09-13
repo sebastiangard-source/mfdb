@@ -1,0 +1,105 @@
+{
+  "name": "Hermès",
+  "band": "trueLux",
+  "seat": 198,
+  "dagger": 0,
+  "focus": {
+    "tech": 1,
+    "comfort": 3,
+    "craft": 5,
+    "style": 4
+  },
+  "fabric": {
+    "denim": 1,
+    "cashmere": 4,
+    "linen": 3,
+    "cotton": 3,
+    "wool": 3,
+    "synth": 1
+  },
+  "dials": {
+    "reach": 4,
+    "dur": 3,
+    "forg": 3,
+    "fuss": 3,
+    "sail": -1,
+    "shoes": 3,
+    "status": 5,
+    "finbro": 4,
+    "fren": 5,
+    "boat": 5,
+    "racquet": 4
+  },
+  "why": "The craft absolute — ateliers, no licensees, objects that outlive owners.",
+  "origin": "Thierry Hermès, Paris, 1837 — a harness workshop for carriages.",
+  "opview": "The house saying: “Our first client is the horse.”",
+  "say": "air-MEZ",
+  "chan": ["O"],
+  "conf": "S",
+  "forgc": [4, 3, 3],
+  "shop": "https://www.hermes.com/us/en/search/?s=",
+  "onething": {
+    "p": "The silk tie",
+    "u": "https://www.hermes.com/us/en/search/?s=The%20silk%20tie%20men",
+    "n": "verified ✓"
+  },
+  "prices": [[600, 1925], [740, 2375], [1400, 4750], null, [1150, 1850], "?", "?", "?"],
+  "shoelink": {
+    "t": "loafer",
+    "u": "https://www.hermes.com/us/en/search/?s=loafer"
+  },
+  "notes": {
+    "craft": "ateliers that rebuild decades-old pieces; no licensees, no wholesale",
+    "status": "the terminal status brand — waitlists as architecture",
+    "finbro": "the H belt as bonus-day announcement",
+    "fren": "French luxury's constitutional monarchy",
+    "racquet": "Grass and clay rather than a squash court behind a mahogany door. The register is a lawn in summer, and the house has the equestrian vocabulary to match.",
+    "boat": "Sailing sits inside a house that began with harnesses, so the register arrives through leather and craft rather than through marine function. Cashmere on deck, and someone else at the helm."
+  },
+  "doors": {
+    "c": "full",
+    "n": 36,
+    "cities": [
+      ["Aspen", "CO", 1],
+      ["Atlanta", "GA", 1],
+      ["Austin", "TX", 1],
+      ["Aventura", "FL", 1],
+      ["Bellevue", "WA", 1],
+      ["Beverly Hills", "CA", 1],
+      ["Boston", "MA", 1],
+      ["Chicago", "IL", 1],
+      ["Costa Mesa", "CA", 1],
+      ["Dallas", "TX", 1],
+      ["Denver", "CO", 1],
+      ["East Rutherford", "NJ", 1],
+      ["Garden City", "NY", 1],
+      ["Greenwich", "CT", 1],
+      ["Houston", "TX", 1],
+      ["King of Prussia", "PA", 1],
+      ["Las Vegas", "NV", 3],
+      ["Los Angeles", "CA", 1],
+      ["Miami", "FL", 1],
+      ["Naples", "FL", 1],
+      ["Nashville", "TN", 1],
+      ["New York", "NY", 2],
+      ["Orlando", "FL", 1],
+      ["Palm Beach", "FL", 1],
+      ["Palo Alto", "CA", 1],
+      ["Princeton", "NJ", 1],
+      ["San Diego", "CA", 1],
+      ["San Francisco", "CA", 1],
+      ["Scottsdale", "AZ", 1],
+      ["Short Hills", "NJ", 1],
+      ["Troy", "MI", 1],
+      ["Washington", "DC", 1],
+      ["Wilmette", "IL", 1]
+    ]
+  },
+  "cities": "~45 US boutiques — own stores only",
+  "region": {
+    "o": [163, 19, 301, 405, 406],
+    "s": []
+  },
+  "addmen": true,
+  "addcloth": true
+}

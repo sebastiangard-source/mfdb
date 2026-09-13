@@ -1,0 +1,52 @@
+{
+  "name": "Son of a Tailor",
+  "band": "premium",
+  "seat": 6,
+  "dagger": 1,
+  "focus": {
+    "tech": 4,
+    "comfort": 3,
+    "craft": 2,
+    "style": 2
+  },
+  "fabric": {
+    "denim": 1,
+    "cashmere": 1,
+    "linen": 1,
+    "cotton": 4,
+    "wool": 3,
+    "synth": 1
+  },
+  "dials": {
+    "reach": 1,
+    "dur": 2,
+    "forg": 4,
+    "fuss": 0,
+    "shoes": 0,
+    "scandi": 3
+  },
+  "why": "Copenhagen made-to-order knits; an algorithm and an owned Portuguese factory instead of inventory.",
+  "origin": "Jess Fleischer, Copenhagen, 2014 — made-to-order knits to end overproduction and bad fit at once.",
+  "opview": "States its mission as ending overproduction through made-to-order.",
+  "chan": ["W"],
+  "conf": "S",
+  "forgc": [2, 5, 5],
+  "shop": "https://www.sonofatailor.com/search?q=",
+  "onething": {
+    "p": "Cotton Hi-Neck T-Shirt",
+    "u": "https://www.sonofatailor.com/product/cotton-hi-neck-t-shirt",
+    "n": "their own copy calls the Hi-Neck 'our signature silhouette'"
+  },
+  "prices": [[75, 150], [230, 230], [195, 195], null, null, [195, 270], null, null],
+  "price_checked": true,
+  "notes": {
+    "tech": "algorithmic made-to-order patterns; zero inventory by design",
+    "cotton": "Supima as the core knit"
+  },
+  "doors": {
+    "c": "full",
+    "n": 0,
+    "cities": []
+  },
+  "cities": "Online only (made to order) · Copenhagen showroom"
+}

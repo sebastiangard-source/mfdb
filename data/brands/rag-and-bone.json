@@ -1,0 +1,84 @@
+{
+  "name": "Rag & Bone",
+  "band": "accessible",
+  "seat": 111,
+  "dagger": 0,
+  "focus": {
+    "tech": 2,
+    "comfort": 3,
+    "craft": 2,
+    "style": 4
+  },
+  "fabric": {
+    "denim": 4,
+    "cashmere": 2,
+    "linen": 1,
+    "cotton": 2,
+    "wool": 2,
+    "synth": 1
+  },
+  "dials": {
+    "reach": 4,
+    "dur": 3,
+    "forg": 2,
+    "fuss": -2,
+    "status": 2,
+    "briish": 2
+  },
+  "why": "New York denim-and-tailoring hybrid with British bones.",
+  "origin": "Marcus Wainwright and David Neville, NYC, 2002 — Brits with no fashion training, first jeans made in a Kentucky factory.",
+  "opview": "“Irreverent but respectful” — British bones, “downtown, not uptown.”",
+  "chan": ["O", "D", "X"],
+  "conf": "S",
+  "forgc": [2, 3, 1],
+  "shop": "https://www.rag-bone.com/search?q=",
+  "onething": {
+    "p": "Fit 2 Slim Jean",
+    "u": "https://www.rag-bone.com/p/fit-2-slim-jean-RX0225F2VJR.html",
+    "n": "works"
+  },
+  "prices": [[65, 110], [115, 248], [155, 395], [195, 295], [175, 275], "?", "?", "?"],
+  "doors": {
+    "c": "full",
+    "n": 38,
+    "cities": [
+      ["Aspen", "CO", 1],
+      ["Atlanta", "GA", 1],
+      ["Austin", "TX", 2],
+      ["Birmingham", "MI", 1],
+      ["Boston", "MA", 2],
+      ["Brooklyn", "NY", 1],
+      ["Charleston", "SC", 1],
+      ["Charlotte", "NC", 1],
+      ["Chicago", "IL", 1],
+      ["Dallas", "TX", 1],
+      ["Denver", "CO", 1],
+      ["East Hampton", "NY", 1],
+      ["East Rutherford", "NJ", 1],
+      ["Greenwich", "CT", 1],
+      ["Houston", "TX", 1],
+      ["Manhasset", "NY", 1],
+      ["Miami", "FL", 1],
+      ["Nashville", "TN", 1],
+      ["New York", "NY", 5],
+      ["Newport Beach", "CA", 1],
+      ["Pasadena", "CA", 1],
+      ["Philadelphia", "PA", 1],
+      ["Sag Harbor", "NY", 1],
+      ["San Francisco", "CA", 1],
+      ["Santa Clara", "CA", 1],
+      ["Scottsdale", "AZ", 1],
+      ["Tampa", "FL", 1],
+      ["Venice", "CA", 1],
+      ["Washington", "DC", 2],
+      ["West Hollywood", "CA", 1],
+      ["Wilmette", "IL", 1]
+    ]
+  },
+  "cities": "Own stores in major metros · dept stores",
+  "region": {
+    "o": [167, 37, 38, 282, 299, 333, 479, 480, 481, 482, 483, 542],
+    "s": [187, 192, 194, 781, 788]
+  },
+  "addmen": true
+}

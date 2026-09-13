@@ -1,0 +1,65 @@
+{
+  "name": "Frame",
+  "band": "accessible",
+  "seat": 109,
+  "dagger": 0,
+  "focus": {
+    "tech": 1,
+    "comfort": 4,
+    "craft": 1,
+    "style": 4
+  },
+  "fabric": {
+    "denim": 5,
+    "cashmere": 2,
+    "linen": 1,
+    "cotton": 2,
+    "wool": 1,
+    "synth": 1
+  },
+  "dials": {
+    "reach": 4,
+    "dur": 3,
+    "forg": 2,
+    "fuss": -2
+  },
+  "why": "Denim-founded LA-London contemporary.",
+  "origin": "Jens Grede and Erik Torstensson, London-LA, 2012 — denim-founded contemporary.",
+  "opview": "Positions denim as the foundation of a jet-set wardrobe.",
+  "chan": ["D", "O"],
+  "conf": "L",
+  "forgc": [2, 3, 1],
+  "shop": "https://frame-store.com/search?q=",
+  "onething": {
+    "p": "L'Homme jean",
+    "u": "https://frame-store.com/search?q=L%26apos%3BHomme%20jean%20men",
+    "n": "verified — search can’t filter to men; living with it"
+  },
+  "prices": [[98, 138], [128, 400], [248, 300], [208, 300], [180, 280], "?", "?", "?"],
+  "doors": {
+    "c": "full",
+    "n": 16,
+    "cities": [
+      ["Aspen", "CO", 1],
+      ["Austin", "TX", 1],
+      ["Boston", "MA", 1],
+      ["Dallas", "TX", 1],
+      ["Greenwich", "CT", 1],
+      ["Houston", "TX", 1],
+      ["Los Angeles", "CA", 1],
+      ["Malibu", "CA", 1],
+      ["New York", "NY", 3],
+      ["Palm Beach", "FL", 1],
+      ["Palo Alto", "CA", 1],
+      ["San Francisco", "CA", 1],
+      ["Scottsdale", "AZ", 1],
+      ["Washington", "DC", 1]
+    ]
+  },
+  "cities": "Dept stores nationwide · LA & NYC stores",
+  "region": {
+    "o": [162, 16, 397, 398, 399],
+    "s": [176, 192, 193, 216, 246, 781]
+  },
+  "addmen": true
+}

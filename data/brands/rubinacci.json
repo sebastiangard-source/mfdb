@@ -1,0 +1,54 @@
+{
+  "name": "Rubinacci",
+  "band": "trueLux",
+  "seat": 200,
+  "dagger": 1,
+  "focus": {
+    "tech": 1,
+    "comfort": 3,
+    "craft": 5,
+    "style": 5
+  },
+  "fabric": {
+    "denim": 1,
+    "cashmere": 3,
+    "linen": 3,
+    "cotton": 2,
+    "wool": 4,
+    "synth": 1
+  },
+  "dials": {
+    "reach": 1,
+    "dur": 4,
+    "forg": 3,
+    "fuss": 3,
+    "golffice": -3,
+    "status": 2,
+    "ital": 5,
+    "boat": 4,
+    "briish": 1
+  },
+  "why": "Naples' aristocratic tailoring house — three generations of drape.",
+  "origin": "Gennaro Rubinacci, Naples, 1932 — named his tailoring house 'London House' and softened English cloth into Neapolitan drape.",
+  "opview": "Positions Neapolitan drape as an aristocratic inheritance.",
+  "chan": ["O"],
+  "conf": "L",
+  "forgc": [2, 2, 5],
+  "onething": {
+    "p": "Gurkha trouser",
+    "u": "https://www.mrporter.com/en-us/mens/designer/rubinacci",
+    "n": "Use; https://www.marianorubinacci.com/en/collection/trousers/green-linen-manny-trousers-MANNYL-A2566/ and call them manny trousers"
+  },
+  "prices": [[150, 280], [180, 570], [280, 1940], null, [365, 710], "?", "?", "?"],
+  "notes": {
+    "wool": "Neapolitan drape from the London House lineage",
+    "ital": "London House in Naples, and the family's claim to have shaped the Neapolitan shoulder. The archive of vintage cloth is the house's real inheritance.",
+    "boat": "Coastal by geography rather than by design intent. The Neapolitan house sits on the water and always has."
+  },
+  "doors": {
+    "c": "full",
+    "n": 0,
+    "cities": []
+  },
+  "cities": "NYC (by appointment) · Naples, Milan, London"
+}

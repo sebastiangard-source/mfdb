@@ -1,0 +1,54 @@
+{
+  "name": "Charvet",
+  "band": "trueLux",
+  "seat": 184,
+  "dagger": 1,
+  "focus": {
+    "tech": 1,
+    "comfort": 2,
+    "craft": 5,
+    "style": 3
+  },
+  "fabric": {
+    "denim": 1,
+    "cashmere": 1,
+    "linen": 2,
+    "cotton": 5,
+    "wool": 2,
+    "synth": 1
+  },
+  "dials": {
+    "reach": 1,
+    "dur": 4,
+    "forg": 3,
+    "fuss": 3,
+    "golffice": -3,
+    "status": 2,
+    "finbro": 2,
+    "fren": 5
+  },
+  "why": "The world's first shirt shop — Place Vendôme since 1838.",
+  "origin": "Christofle Charvet, Paris, 1838 — the world's first dedicated shirt shop, still at 28 Place Vendôme.",
+  "opview": "Positions itself as pure accommodation: everything made to the client's wish, since 1838.",
+  "say": "shar-VAY",
+  "chan": ["D"],
+  "conf": "S",
+  "forgc": [2, 2, 5],
+  "onething": {
+    "p": "The poplin shirt",
+    "u": "https://www.mrporter.com/en-us/mens/designer/charvet",
+    "n": "MP designer page — search deep-links dead; verify; via Mr Porter"
+  },
+  "prices": [null, [450, 850], [595, 895], null, [500, 800], "?", "?", "?"],
+  "notes": {
+    "craft": "one shop at 28 Place Vendôme since 1838",
+    "cotton": "the first dedicated shirtmaker on earth; a fabric library in the tens of thousands of bolts",
+    "fren": "Place Vendôme since 1838 — the institution register"
+  },
+  "doors": {
+    "c": "full",
+    "n": 0,
+    "cities": []
+  },
+  "cities": "Paris (Place Vendôme) · Bergdorf NYC"
+}

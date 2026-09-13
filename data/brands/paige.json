@@ -1,0 +1,71 @@
+{
+  "name": "PAIGE",
+  "band": "accessible",
+  "seat": 82,
+  "dagger": 0,
+  "focus": {
+    "tech": 2,
+    "comfort": 4,
+    "craft": 2,
+    "style": 3
+  },
+  "fabric": {
+    "denim": 5,
+    "cashmere": 1,
+    "linen": 1,
+    "cotton": 1,
+    "wool": 1,
+    "synth": 2
+  },
+  "dials": {
+    "reach": 4,
+    "dur": 3,
+    "forg": 2,
+    "fuss": -2,
+    "murica": 2
+  },
+  "why": "LA denim — cut and washed locally — founded by a former fit model who knew every flaw of every fit.",
+  "origin": "Paige Adams-Geller, LA, 2004 — the fit model who founded her own denim house.",
+  "opview": "Adams-Geller frames denim as confidence engineering — the fit model who knew every flaw of every fit.",
+  "chan": ["D", "O", "I"],
+  "conf": "L",
+  "forgc": [2, 3, 1],
+  "shop": "https://www.paige.com/search?q=",
+  "onething": {
+    "p": "Federal jean",
+    "u": "https://paige.com/collection/men-slim-straight-fit",
+    "n": "men’s slim-straight collection, verified"
+  },
+  "prices": [[70, 100], [110, 160], [150, 220], [190, 270], [170, 250], "?", "?", "?"],
+  "notes": {
+    "denim": "premium LA denim, washed and finished locally"
+  },
+  "doors": {
+    "c": "full",
+    "n": 20,
+    "cities": [
+      ["Austin", "TX", 2],
+      ["Charleston", "SC", 1],
+      ["Houston", "TX", 1],
+      ["Los Angeles", "CA", 1],
+      ["Malibu", "CA", 1],
+      ["Manhattan Beach", "CA", 1],
+      ["Nashville", "TN", 1],
+      ["New York", "NY", 4],
+      ["Newport Beach", "CA", 1],
+      ["Pacific Palisades", "CA", 1],
+      ["Plano", "TX", 1],
+      ["San Diego", "CA", 1],
+      ["San Francisco", "CA", 1],
+      ["San Jose", "CA", 1],
+      ["Scottsdale", "AZ", 1],
+      ["Tampa", "FL", 1]
+    ]
+  },
+  "cities": "Dept stores nationwide · LA stores",
+  "region": {
+    "o": [459, 460, 461, 462],
+    "s": [131, 140, 192, 193, 287, 310, 320, 532, 773, 774, 793]
+  },
+  "addmen": true
+}

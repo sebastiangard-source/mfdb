@@ -1,0 +1,57 @@
+{
+  "name": "Herno",
+  "band": "trueLux",
+  "seat": 139,
+  "dagger": 1,
+  "focus": {
+    "tech": 2,
+    "comfort": 3,
+    "craft": 4,
+    "style": 3
+  },
+  "fabric": {
+    "denim": 1,
+    "cashmere": 2,
+    "linen": 2,
+    "cotton": 2,
+    "wool": 2,
+    "synth": 3
+  },
+  "dials": {
+    "reach": 2,
+    "dur": 3,
+    "forg": 2,
+    "fuss": 2,
+    "status": 2,
+    "ital": 5,
+    "ski": 2
+  },
+  "why": "Lake Maggiore technical elegance — the Italian raincoat perfected.",
+  "origin": "Giuseppe Marenzi, Lake Maggiore, 1948 — raincoats named for the river Erno.",
+  "opview": "Positions itself as elegance that works in the rain.",
+  "say": "EHR-no or HER-no",
+  "chan": ["O", "D", "I"],
+  "conf": "L",
+  "forgc": [2, 3, 2],
+  "shop": "https://www.herno.com/en-us/search?q=",
+  "onething": {
+    "p": "Laminar jacket",
+    "u": "https://us.herno.com/en/search-results?q=laminar%20jacket&amp;prefn1=customFilter17&amp;prefv1=Male",
+    "n": "us.herno.com with male-filter params — functional, not tracking; keep verbatim"
+  },
+  "prices": [[119, 255], [207, 655], [465, 465], null, [320, 430], "?", "?", "?"],
+  "notes": {
+    "ital": "Founded at Lesa on Lake Maggiore in 1948, making raincoats — the local water was soft enough for the finishing. Outerwear came later, and the lake is still the address."
+  },
+  "doors": {
+    "c": "full",
+    "n": 2,
+    "cities": [["New York", "NY", 2]]
+  },
+  "cities": "Philadelphia (Boyds), Red Bank NJ (Garmany), SF (Wilkes Bashford), Seattle (Mario's), Memphis (Oak Hall)",
+  "region": {
+    "o": [407, 408],
+    "s": [74, 131, 773, 774]
+  },
+  "addmen": true
+}

@@ -1,0 +1,100 @@
+{
+  "name": "Saint Laurent",
+  "band": "trueLux",
+  "seat": 153,
+  "dagger": 0,
+  "focus": {
+    "tech": 1,
+    "comfort": 1,
+    "craft": 3,
+    "style": 5
+  },
+  "fabric": {
+    "denim": 3,
+    "cashmere": 2,
+    "linen": 1,
+    "cotton": 2,
+    "wool": 3,
+    "synth": 1
+  },
+  "dials": {
+    "reach": 4,
+    "dur": 3,
+    "forg": 1,
+    "fuss": 0,
+    "shoes": 4,
+    "status": 5,
+    "fren": 5,
+    "street": 2,
+    "avant": 2
+  },
+  "why": "Rock tailoring — the skinny silhouette's home.",
+  "origin": "Yves Saint Laurent and Pierre Bergé, Paris, 1961 — after Dior, the smoking and the street.",
+  "opview": "“Fashions fade, style is eternal” — Yves' own law.",
+  "chan": ["O", "D"],
+  "conf": "S",
+  "forgc": [1, 2, 1],
+  "shop": "https://www.ysl.com/en-us/search?q=",
+  "onething": {
+    "p": "Wyatt boot",
+    "u": "https://www.ysl.com/en-us/search?q=Wyatt%20boot%20men",
+    "n": "works"
+  },
+  "prices": [[550, 620], [590, 1600], [1090, 2300], [550, 1180], [1250, 2250], "?", "?", "?"],
+  "shoelink": {
+    "t": "Wyatt boot",
+    "u": "https://www.ysl.com/en-us/search?q=Wyatt%20boot"
+  },
+  "notes": {
+    "fren": "the smoking, the boulevard, the eternal cool",
+    "status": "The most legible silhouette in luxury menswear — narrow, black, unmistakable from across a room. Status by outline rather than by logo."
+  },
+  "doors": {
+    "c": "full",
+    "n": 46,
+    "cities": [
+      ["Atlanta", "GA", 1],
+      ["Austin", "TX", 1],
+      ["Beverly Hills", "CA", 2],
+      ["Boston", "MA", 1],
+      ["Charlotte", "NC", 1],
+      ["Chicago", "IL", 1],
+      ["Costa Mesa", "CA", 1],
+      ["Dallas", "TX", 1],
+      ["Denver", "CO", 1],
+      ["East Rutherford", "NJ", 1],
+      ["Fort Worth", "TX", 1],
+      ["Glendale", "CA", 1],
+      ["Honolulu", "HI", 3],
+      ["Houston", "TX", 1],
+      ["Las Vegas", "NV", 4],
+      ["Los Angeles", "CA", 1],
+      ["Maui", "HI", 1],
+      ["McLean", "VA", 1],
+      ["Miami", "FL", 3],
+      ["Nashville", "TN", 1],
+      ["New York", "NY", 3],
+      ["Oak Brook", "IL", 1],
+      ["Orlando", "FL", 1],
+      ["Palm Beach", "FL", 1],
+      ["Philadelphia", "PA", 1],
+      ["Portland", "OR", 1],
+      ["Roseville", "CA", 1],
+      ["San Diego", "CA", 1],
+      ["San Francisco", "CA", 1],
+      ["San Jose", "CA", 1],
+      ["San Juan", "PR", 1],
+      ["Scottsdale", "AZ", 1],
+      ["Short Hills", "NJ", 1],
+      ["Tampa", "FL", 1],
+      ["The Woodlands", "TX", 1],
+      ["Troy", "MI", 1]
+    ]
+  },
+  "cities": "Boutiques in major metros · dept stores",
+  "region": {
+    "o": [616, 617, 618, 619],
+    "s": []
+  },
+  "addmen": true
+}

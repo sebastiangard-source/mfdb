@@ -1,0 +1,69 @@
+{
+  "name": "McQueen",
+  "band": "trueLux",
+  "seat": 158,
+  "dagger": 1,
+  "focus": {
+    "tech": 1,
+    "comfort": 1,
+    "craft": 4,
+    "style": 5
+  },
+  "fabric": {
+    "denim": 2,
+    "cashmere": 2,
+    "linen": 1,
+    "cotton": 2,
+    "wool": 3,
+    "synth": 1
+  },
+  "dials": {
+    "reach": 3,
+    "dur": 3,
+    "forg": 1,
+    "fuss": 1,
+    "shoes": 4,
+    "status": 3,
+    "avant": 4,
+    "briish": 4
+  },
+  "why": "Savile Row training weaponized into dark romance.",
+  "origin": "Lee Alexander McQueen, London, 1992 — Savile Row-trained at sixteen, then the dark romance.",
+  "opview": "Lee: “You've got to know the rules to break them.”",
+  "chan": ["O", "D"],
+  "conf": "L",
+  "forgc": [1, 2, 1],
+  "shop": "https://www.alexandermcqueen.com/en-us/search?q=",
+  "onething": {
+    "p": "Oversized sneaker",
+    "u": "https://www.alexandermcqueen.com/en-us/search?q=Oversized%20sneaker%20men",
+    "n": "verified ✓"
+  },
+  "prices": [[320, 740], [650, 1590], [650, 920], [650, 1160], [783, 1350], "?", "?", "?"],
+  "shoelink": {
+    "t": "Oversized sneaker",
+    "u": "https://www.alexandermcqueen.com/en-us/search?q=Oversized%20sneaker"
+  },
+  "notes": {
+    "avant": "Savile Row skills turned to dark theater"
+  },
+  "doors": {
+    "c": "full",
+    "n": 8,
+    "cities": [
+      ["Atlanta", "GA", 1],
+      ["Beverly Hills", "CA", 1],
+      ["Boston", "MA", 1],
+      ["Costa Mesa", "CA", 1],
+      ["Las Vegas", "NV", 2],
+      ["Miami", "FL", 1],
+      ["New York", "NY", 1]
+    ]
+  },
+  "cities": "NYC, LA, Vegas · dept stores",
+  "region": {
+    "o": [30, 453],
+    "s": []
+  },
+  "addmen": true
+}

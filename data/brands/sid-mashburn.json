@@ -1,0 +1,68 @@
+{
+  "name": "Sid Mashburn",
+  "band": "accessible",
+  "seat": 113,
+  "dagger": 1,
+  "focus": {
+    "tech": 1,
+    "comfort": 3,
+    "craft": 4,
+    "style": 5
+  },
+  "fabric": {
+    "denim": 2,
+    "cashmere": 2,
+    "linen": 3,
+    "cotton": 3,
+    "wool": 3,
+    "synth": 1
+  },
+  "dials": {
+    "reach": 1,
+    "dur": 3,
+    "forg": 3,
+    "fuss": 1,
+    "golffice": -2,
+    "golf": 2,
+    "status": 2,
+    "finbro": 2,
+    "ivy": 3,
+    "murica": 3,
+    "ital": 2,
+    "prep": 3,
+    "boat": 3,
+    "racquet": 3
+  },
+  "why": "The merchant-tailor's shop as a brand — curated ease in eight rooms.",
+  "origin": "Sid and Ann Mashburn, Atlanta, 2007 — a merchant-tailor's shop grown into a small empire of ease.",
+  "opview": "Sid's stated aim: make getting dressed easier and life a little better.",
+  "chan": ["O", "W"],
+  "conf": "S",
+  "forgc": [2, 3, 4],
+  "shop": "https://www.sidmashburn.com/search?q=",
+  "onething": {
+    "p": "Kincaid No. 1 suit",
+    "u": "https://www.sidmashburn.com/search?q=Kincaid%20No.%201%20suit",
+    "n": "Use this: https://shopmashburn.com/products/sid-mashburn-kincaid-no-3-jacket-persimmon-wheat-herringbone-linen-s79133"
+  },
+  "prices": [[55, 85], [95, 145], [125, 195], [165, 235], [165, 395], "?", "?", "?"],
+  "doors": {
+    "c": "full",
+    "n": 8,
+    "cities": [
+      ["Atlanta", "GA", 1],
+      ["Charlotte", "NC", 1],
+      ["Dallas", "TX", 1],
+      ["Houston", "TX", 1],
+      ["Nashville", "TN", 1],
+      ["New York", "NY", 1],
+      ["Santa Monica", "CA", 1],
+      ["Washington", "DC", 1]
+    ]
+  },
+  "cities": "Atlanta, Dallas, Houston, LA, NYC, Nashville, Charlotte, DC",
+  "region": {
+    "o": [495],
+    "s": [89, 124, 258, 783, 785]
+  }
+}

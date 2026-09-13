@@ -1,0 +1,65 @@
+{
+  "name": "RRL",
+  "band": "accessible",
+  "seat": 65,
+  "dagger": 1,
+  "focus": {
+    "tech": 1,
+    "comfort": 2,
+    "craft": 4,
+    "style": 4
+  },
+  "fabric": {
+    "denim": 4,
+    "cashmere": 1,
+    "linen": 1,
+    "cotton": 3,
+    "wool": 3,
+    "synth": 1
+  },
+  "dials": {
+    "reach": 2,
+    "dur": 4,
+    "forg": 2,
+    "fuss": -2,
+    "status": 2,
+    "murica": 5,
+    "street": 2
+  },
+  "why": "Ralph's Americana repro line — Japanese selvedge, sawtooth westerns, and 1930s patterns rebuilt obsessively; the deepest cut of the empire.",
+  "origin": "Named for Ralph and Ricky Lauren's RRL Ranch in Colorado, launched 1993 — the empire's museum wing, reproducing pre-war American workwear down to the stitch counts.",
+  "opview": "Positions itself as the real thing, remade — cowboy and workwear America preserved in cloth.",
+  "chan": ["O", "I"],
+  "conf": "M",
+  "forgc": [2, 3, 1],
+  "shop": "https://www.ralphlauren.com/search?q=",
+  "onething": {
+    "p": "Jungle Cloth Deck Jacket",
+    "u": "https://www.ralphlauren.com/search?q=RRL%20deck%20jacket",
+    "n": "works"
+  },
+  "prices": [[75, 195], [150, 250], [240, 450], [260, 390], [220, 380], "?", "?", "?"],
+  "notes": {
+    "denim": "Japanese selvedge repro — the denim-head's Ralph",
+    "murica": "the museum of American work and western wear",
+    "craft": "repro obsession — period patterns, stitch counts, hardware"
+  },
+  "doors": {
+    "c": "full",
+    "n": 7,
+    "cities": [
+      ["Atlanta", "GA", 1],
+      ["Brooklyn", "NY", 1],
+      ["East Hampton", "NY", 1],
+      ["Los Angeles", "CA", 1],
+      ["Malibu", "CA", 1],
+      ["Nashville", "TN", 1],
+      ["New York", "NY", 1]
+    ]
+  },
+  "cities": "Very few own shops — NY, LA, Atlanta · inside select Polo retail",
+  "region": {
+    "o": [627, 628, 629],
+    "s": []
+  }
+}

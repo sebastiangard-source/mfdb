@@ -1,0 +1,52 @@
+{
+  "name": "Reiss",
+  "band": "accessible",
+  "seat": 106,
+  "dagger": 0,
+  "focus": {
+    "tech": 1,
+    "comfort": 2,
+    "craft": 2,
+    "style": 4
+  },
+  "fabric": {
+    "denim": 1,
+    "cashmere": 2,
+    "linen": 2,
+    "cotton": 2,
+    "wool": 3,
+    "synth": 1
+  },
+  "dials": {
+    "reach": 3,
+    "dur": 3,
+    "forg": 2,
+    "fuss": 1,
+    "golffice": -2,
+    "finbro": 3,
+    "prep": 2,
+    "racquet": 2,
+    "briish": 3
+  },
+  "why": "British high-street-plus polish.",
+  "origin": "David Reiss, London, 1971 — from a Bishopsgate menswear shop to high-street-plus polish.",
+  "opview": "Positions itself as modern wardrobe staples with design intent.",
+  "say": "REESS",
+  "chan": ["O", "D"],
+  "conf": "L",
+  "forgc": [2, 3, 1],
+  "shop": "https://www.reiss.com/us/en/search?q=",
+  "onething": {
+    "p": "Merino polo",
+    "u": "https://www.reiss.com/us/en/search?q=Merino%20polo%20men",
+    "n": "Use this: https://www.reiss.com/us/en/search?w=merino%20polo"
+  },
+  "prices": [[55, 85], [95, 145], [120, 180], [150, 220], [150, 250], "?", "?", "?"],
+  "doors": {
+    "c": "full",
+    "n": 4,
+    "cities": [["Los Angeles", "CA", 1], ["Miami", "FL", 1], ["New York", "NY", 2]]
+  },
+  "cities": "Major metros · Nordstrom & Bloomingdale's",
+  "addmen": true
+}

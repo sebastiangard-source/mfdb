@@ -1,0 +1,59 @@
+{
+  "name": "Eton",
+  "band": "accessible",
+  "seat": 94,
+  "dagger": 1,
+  "focus": {
+    "tech": 1,
+    "comfort": 2,
+    "craft": 3,
+    "style": 3
+  },
+  "fabric": {
+    "denim": 1,
+    "cashmere": 1,
+    "linen": 1,
+    "cotton": 4,
+    "wool": 1,
+    "synth": 1
+  },
+  "dials": {
+    "reach": 2,
+    "dur": 3,
+    "forg": 3,
+    "fuss": -2,
+    "golffice": -3,
+    "shoes": 0,
+    "finbro": 3,
+    "prep": 2,
+    "scandi": 2
+  },
+  "why": "The Swedish dress-shirt specialist since 1928 — the Incotex principle applied to shirts; the quality anchor of every department-store shirt wall.",
+  "origin": "Annie and David Pettersson, Gånghester, Sweden, 1928 — a tailoring workshop turned shirt house; renamed for Eton after the war, exporting Swedish precision ever since.",
+  "opview": "One garment, perfected — the house line on why it makes only shirts.",
+  "chan": ["O", "D", "I", "X"],
+  "conf": "M",
+  "forgc": [2, 4, 2],
+  "shop": "https://www.etonshirts.com/us/search?q=",
+  "onething": {
+    "p": "Signature twill dress shirt",
+    "u": "https://www.etonshirts.com/us/search?q=signature+twill",
+    "n": "best-guess link — verify"
+  },
+  "prices": [[130, 250], [170, 450], [250, 550], null, null, [350, 695], [495, 1495], null],
+  "price_checked": true,
+  "notes": {
+    "cotton": "signature twills and poplins — the shirt wall's benchmark",
+    "finbro": "the banker's shirt — non-iron done at quality"
+  },
+  "doors": {
+    "c": "full",
+    "n": 2,
+    "cities": [["New York", "NY", 2]]
+  },
+  "cities": "Dept & specialty nationwide · one own shop",
+  "region": {
+    "o": [677, 678],
+    "s": [51, 74, 131, 176, 187, 216, 221, 229, 247, 255, 773, 774]
+  }
+}

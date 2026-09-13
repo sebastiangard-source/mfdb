@@ -1,0 +1,67 @@
+{
+  "name": "Ralph Lauren Purple Label",
+  "band": "trueLux",
+  "seat": 180,
+  "dagger": 1,
+  "focus": {
+    "tech": 1,
+    "comfort": 3,
+    "craft": 4,
+    "style": 4
+  },
+  "fabric": {
+    "denim": 1,
+    "cashmere": 3,
+    "linen": 1,
+    "cotton": 2,
+    "wool": 4,
+    "synth": 1
+  },
+  "dials": {
+    "reach": 2,
+    "dur": 3,
+    "forg": 3,
+    "fuss": 3,
+    "status": 3,
+    "finbro": 3,
+    "ivy": 3,
+    "murica": 3,
+    "ital": 3,
+    "prep": 2,
+    "racquet": 5
+  },
+  "why": "The summit of the empire — Italian-made tailoring and cashmere under the gold script; Ralph competing with the houses he once dreamed of.",
+  "origin": "Launched 1994 as the empire's luxury peak — tailored in Italy by the same workshops as the great houses.",
+  "opview": "Positions itself as the best of everything Ralph ever imagined.",
+  "chan": ["O", "D"],
+  "conf": "M",
+  "forgc": [2, 3, 4],
+  "shop": "https://www.ralphlauren.com/search?q=",
+  "onething": {
+    "p": "Cashmere polo coat",
+    "u": "https://www.ralphlauren.com/search?q=Purple%20Label%20cashmere",
+    "n": "Works"
+  },
+  "prices": [
+    [250, 350],
+    [395, 1695],
+    [395, 895],
+    [795, 1495],
+    [595, 895],
+    [995, 2295],
+    [2295, 8995],
+    [395, 7500]
+  ],
+  "price_checked": true,
+  "notes": {
+    "wool": "Italian tailoring with house-of-Kiton ambitions",
+    "ital": "American dream, Italian make — the Todd Snyder pattern at the summit",
+    "racquet": "The club version of the club — the highest room in the building, in the softest cloth available. Where Polo dresses the tournament, Purple Label dresses the committee."
+  },
+  "doors": {
+    "c": "full",
+    "n": 0,
+    "cities": []
+  },
+  "cities": "RL flagships · top dept stores"
+}

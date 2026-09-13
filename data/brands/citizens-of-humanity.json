@@ -1,0 +1,54 @@
+{
+  "name": "Citizens of Humanity",
+  "band": "accessible",
+  "seat": 87,
+  "dagger": 1,
+  "focus": {
+    "tech": 1,
+    "comfort": 3,
+    "craft": 3,
+    "style": 3
+  },
+  "fabric": {
+    "denim": 5,
+    "cashmere": 1,
+    "linen": 1,
+    "cotton": 1,
+    "wool": 1,
+    "synth": 1
+  },
+  "dials": {
+    "reach": 3,
+    "dur": 3,
+    "forg": 2,
+    "fuss": -2,
+    "murica": 2
+  },
+  "why": "Vertical LA denim — owns its laundries; the wash is the craft.",
+  "origin": "Jérôme Dahan, LA, 2003 — vertical denim with its own laundries.",
+  "opview": "Positions vertical ownership — its own laundries — as the craft.",
+  "chan": ["D", "I"],
+  "conf": "L",
+  "forgc": [2, 3, 1],
+  "shop": "https://citizensofhumanity.com/search?q=",
+  "onething": {
+    "p": "London jean",
+    "u": "https://citizensofhumanity.com/search?q=London+jean+men",
+    "n": ""
+  },
+  "prices": [[55, 85], [95, 135], [140, 190], [190, 280], [160, 230], "?", "?", "?"],
+  "notes": {
+    "denim": "owns its LA laundries — the wash is the craft"
+  },
+  "doors": {
+    "c": "full",
+    "n": 1,
+    "cities": [["Aspen", "CO", 1]]
+  },
+  "cities": "Dept stores & denim boutiques nationwide",
+  "region": {
+    "o": [],
+    "s": [154, 192, 532, 788]
+  },
+  "addmen": true
+}

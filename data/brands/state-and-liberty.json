@@ -1,0 +1,103 @@
+{
+  "name": "State & Liberty",
+  "band": "premium",
+  "seat": 31,
+  "dagger": 0,
+  "focus": {
+    "tech": 3,
+    "comfort": 4,
+    "craft": 1,
+    "style": 2
+  },
+  "fabric": {
+    "denim": 1,
+    "cashmere": 1,
+    "linen": 1,
+    "cotton": 1,
+    "wool": 2,
+    "synth": 4
+  },
+  "dials": {
+    "reach": 2,
+    "dur": 3,
+    "forg": 2,
+    "fuss": 2,
+    "golffice": 0,
+    "shoes": 0,
+    "golf": 2,
+    "finbro": 4,
+    "murica": 2,
+    "racquet": 1
+  },
+  "why": "Athletic-fit dress shirts in warp-knit performance fabric.",
+  "origin": "Founded by hockey players in 2015 — dress shirts cut for athletic builds in warp-knit fabric.",
+  "opview": "States it outright: dress shirts for athletic builds.",
+  "chan": ["O", "W"],
+  "conf": "L",
+  "forgc": [1, 4, 1],
+  "shop": "https://stateandliberty.com/search?q=",
+  "onething": {
+    "p": "Athletic-fit dress shirt",
+    "u": "https://stateandliberty.com/search?q=dress%20shirt",
+    "n": "restored from the earlier draft; link is site search — verify"
+  },
+  "prices": [[38, 72], [92, 108], [105, 150], [138, 138], [150, 245], [92, 250], [225, 285], null],
+  "price_checked": true,
+  "notes": {
+    "synth": "warp-knit performance dress shirts",
+    "finbro": "dress shirts cut for the analyst who lifts",
+    "tech": "no named technology and no technical filter on a complete read — it competes on a performance fabric it neither names nor owns"
+  },
+  "doors": {
+    "c": "full",
+    "n": 45,
+    "cities": [
+      ["Alexandria", "VA", 1],
+      ["Ann Arbor", "MI", 1],
+      ["Bellevue", "WA", 1],
+      ["Birmingham", "MI", 1],
+      ["Boston", "MA", 1],
+      ["Charleston", "SC", 1],
+      ["Chicago", "IL", 1],
+      ["Cincinnati", "OH", 1],
+      ["Columbus", "OH", 1],
+      ["Dallas", "TX", 1],
+      ["Dedham", "MA", 1],
+      ["Denver", "CO", 2],
+      ["Edina", "MN", 1],
+      ["El Segundo", "CA", 1],
+      ["Fort Lauderdale", "FL", 1],
+      ["Greenville", "SC", 1],
+      ["Greenwich", "CT", 1],
+      ["Houston", "TX", 2],
+      ["Indianapolis", "IN", 1],
+      ["Kansas City", "MO", 1],
+      ["La Jolla", "CA", 1],
+      ["Lexington", "KY", 1],
+      ["Los Angeles", "CA", 1],
+      ["Lynnfield", "MA", 1],
+      ["Miami", "FL", 1],
+      ["Milwaukee", "WI", 1],
+      ["Nashville", "TN", 2],
+      ["New Orleans", "LA", 1],
+      ["New York", "NY", 2],
+      ["Newport Beach", "CA", 1],
+      ["Omaha", "NE", 1],
+      ["Philadelphia", "PA", 1],
+      ["Pittsburgh", "PA", 1],
+      ["Roseville", "CA", 1],
+      ["Salt Lake City", "UT", 1],
+      ["Scottsdale", "AZ", 1],
+      ["Tampa", "FL", 1],
+      ["Walnut Creek", "CA", 1],
+      ["Washington", "DC", 1],
+      ["Westlake", "OH", 1],
+      ["Westport", "CT", 1]
+    ]
+  },
+  "cities": "~10 cities — Boston, NYC, Chicago, Detroit & more",
+  "region": {
+    "o": [170, 210, 42, 80, 110, 496, 497],
+    "s": []
+  }
+}

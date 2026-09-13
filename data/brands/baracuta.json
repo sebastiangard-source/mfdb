@@ -1,0 +1,53 @@
+{
+  "name": "Baracuta",
+  "band": "premium",
+  "seat": 55,
+  "dagger": 1,
+  "focus": {
+    "tech": 1,
+    "comfort": 3,
+    "craft": 3,
+    "style": 3
+  },
+  "fabric": {
+    "denim": 1,
+    "cashmere": 1,
+    "linen": 1,
+    "cotton": 3,
+    "wool": 2,
+    "synth": 2
+  },
+  "dials": {
+    "reach": 2,
+    "dur": 3,
+    "forg": 2,
+    "fuss": -1,
+    "bruv": -3,
+    "ivy": 3,
+    "street": 2,
+    "briish": 5
+  },
+  "why": "Manchester, 1937 — the G9 Harrington is the archetype: Fraser tartan lining, umbrella-vent back, worn by Elvis, McQueen, and every mod since.",
+  "origin": "The Miller brothers, Manchester, 1937 — rainwear makers whose ninth golf jacket (G9) became the Harrington; the Fraser tartan lining is licensed from the clan.",
+  "opview": "Positions the G9 as the original — every other Harrington is a copy.",
+  "chan": ["D", "I"],
+  "conf": "M",
+  "forgc": [2, 3, 1],
+  "shop": "https://www.baracuta.com/search?q=",
+  "onething": {
+    "p": "G9 Harrington",
+    "u": "https://fr.baracuta.com/en/collections/g9-harrington-jacket",
+    "n": "verified — the house's own G9 Harrington collection. €399, made in the UK, in eight colours; the Fraser tartan lining is woven in Coolmax. The wider G9 page carries the suede, leather, denim and ripstop cuts of the same jacket"
+  },
+  "prices": [[110, 180], [140, 300], [135, 380], null, [175, 250], "?", "?", "?"],
+  "notes": {
+    "ivy": "the Harrington entered the Ivy wardrobe through golf and never left",
+    "cotton": "the G9 cloth — poplin outside, tartan inside"
+  },
+  "doors": {
+    "c": "full",
+    "n": 0,
+    "cities": []
+  },
+  "cities": "Own London store · dept & specialty in US"
+}

@@ -1,0 +1,65 @@
+{
+  "name": "Theory",
+  "band": "accessible",
+  "seat": 110,
+  "dagger": 0,
+  "focus": {
+    "tech": 2,
+    "comfort": 3,
+    "craft": 2,
+    "style": 4
+  },
+  "fabric": {
+    "denim": 1,
+    "cashmere": 2,
+    "linen": 2,
+    "cotton": 2,
+    "wool": 4,
+    "synth": 1
+  },
+  "dials": {
+    "reach": 4,
+    "dur": 3,
+    "forg": 2,
+    "fuss": 2,
+    "golffice": -2,
+    "finbro": 3
+  },
+  "why": "Urban uniform tailoring; the Good Wool supply chain.",
+  "origin": "Andrew Rosen and Elie Tahari, NYC, 1997 — the urban uniform in stretch wool.",
+  "opview": "Positions itself as the urban uniform, solved.",
+  "chan": ["O", "D", "X"],
+  "conf": "S",
+  "forgc": [2, 3, 2],
+  "shop": "https://www.theory.com/search?q=",
+  "onething": {
+    "p": "Sylvain shirt",
+    "u": "https://www.theory.com/search?q=Sylvain%20shirt%20men",
+    "n": "works"
+  },
+  "prices": [[60, 195], [105, 214], [145, 225], [175, 255], [175, 285], "?", "?", "?"],
+  "notes": {
+    "wool": "the Good Wool traceable supply chain"
+  },
+  "doors": {
+    "c": "full",
+    "n": 13,
+    "cities": [
+      ["Atlanta", "GA", 1],
+      ["Brentwood", "CA", 1],
+      ["Greenwich", "CT", 1],
+      ["Manhasset", "NY", 1],
+      ["New York", "NY", 5],
+      ["Palm Beach", "FL", 1],
+      ["Philadelphia", "PA", 1],
+      ["San Francisco", "CA", 1],
+      ["Westport", "CT", 1]
+    ]
+  },
+  "cities": "Nationwide — own stores & dept stores",
+  "region": {
+    "o": [172, 211, 334, 508, 509, 510, 511, 512],
+    "s": [192, 203, 781]
+  },
+  "addmen": true
+}

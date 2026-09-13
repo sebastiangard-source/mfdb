@@ -1,0 +1,90 @@
+{
+  "name": "Versace",
+  "band": "trueLux",
+  "seat": 149,
+  "dagger": 1,
+  "focus": {
+    "tech": 1,
+    "comfort": 2,
+    "craft": 4,
+    "style": 5
+  },
+  "fabric": {
+    "denim": 2,
+    "cashmere": 2,
+    "linen": 2,
+    "cotton": 2,
+    "wool": 2,
+    "synth": 1
+  },
+  "dials": {
+    "reach": 4,
+    "dur": 3,
+    "forg": 1,
+    "fuss": 0,
+    "shoes": 3,
+    "status": 5,
+    "ital": 4,
+    "street": 3,
+    "weird": 2
+  },
+  "why": "Maximalist glamour — Medusa-stamped silk and gold.",
+  "origin": "Gianni Versace, Milan, 1978 — Calabrian dressmaker's son turned maximalist.",
+  "opview": "Gianni: “I don't believe in good taste.”",
+  "say": "ver-SAH-cheh",
+  "chan": ["O", "D", "X"],
+  "conf": "L",
+  "forgc": [1, 2, 1],
+  "shop": "https://www.versace.com/us/en/search?q=",
+  "onething": {
+    "p": "Barocco silk shirt",
+    "u": "https://www.versace.com/us/en/search?q=Barocco%20silk%20shirt%20men",
+    "n": "Use this: https://www.versace.com/us/en/men/clothing/shirts/barocco-silk-shirt-blue/1003926-1A13557_5UH90.html"
+  },
+  "prices": [[425, 1225], [495, 1125], [1175, 1990], [850, 1175], [1375, 1390], "?", "?", "?"],
+  "shoelink": {
+    "t": "shoes",
+    "u": "https://www.versace.com/us/en/search?q=shoes"
+  },
+  "notes": {
+    "ital": "Calabrian by birth and Milanese by address, and the Medusa comes from the Magna Graecia ruins Gianni grew up among. Southern Italy read as ornament.",
+    "status": "Status as volume. The Medusa is not subtle, has never tried to be, and the wearer is not asking to be read quietly."
+  },
+  "doors": {
+    "c": "full",
+    "n": 26,
+    "cities": [
+      ["Atlanta", "GA", 1],
+      ["Austin", "TX", 1],
+      ["Bal Harbour", "FL", 1],
+      ["Beverly Hills", "CA", 1],
+      ["Boston", "MA", 1],
+      ["Canoga Park", "CA", 1],
+      ["Costa Mesa", "CA", 1],
+      ["Dallas", "TX", 1],
+      ["Houston", "TX", 1],
+      ["King of Prussia", "PA", 1],
+      ["Las Vegas", "NV", 2],
+      ["Los Angeles", "CA", 1],
+      ["Manhasset", "NY", 1],
+      ["McLean", "VA", 1],
+      ["Miami", "FL", 1],
+      ["New York", "NY", 2],
+      ["Orlando", "FL", 1],
+      ["Palm Beach", "FL", 1],
+      ["San Diego", "CA", 1],
+      ["Santa Clara", "CA", 1],
+      ["Scottsdale", "AZ", 1],
+      ["Short Hills", "NJ", 1],
+      ["Tampa", "FL", 1],
+      ["Troy", "MI", 1]
+    ]
+  },
+  "cities": "Boutiques in major metros · dept stores",
+  "region": {
+    "o": [46, 335, 519, 520],
+    "s": []
+  },
+  "addmen": true,
+  "addcloth": true
+}

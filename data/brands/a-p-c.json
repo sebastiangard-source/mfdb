@@ -1,0 +1,63 @@
+{
+  "name": "A.P.C.",
+  "band": "accessible",
+  "seat": 115,
+  "dagger": 0,
+  "focus": {
+    "tech": 1,
+    "comfort": 3,
+    "craft": 3,
+    "style": 5
+  },
+  "fabric": {
+    "denim": 5,
+    "cashmere": 1,
+    "linen": 2,
+    "cotton": 2,
+    "wool": 2,
+    "synth": 1
+  },
+  "dials": {
+    "reach": 3,
+    "dur": 3,
+    "forg": 2,
+    "fuss": -2,
+    "golffice": -1,
+    "status": 2,
+    "fren": 5
+  },
+  "why": "Parisian minimalism; the Petit Standard raw jean as modern reference.",
+  "origin": "Jean Touitou, Paris, 1987 — Atelier de Production et de Création; built around one product, the Petit Standard raw jean.",
+  "opview": "Touitou's position: clothes that age well beat clothes that impress fast.",
+  "chan": ["O", "D", "I"],
+  "conf": "L",
+  "forgc": [2, 3, 1],
+  "shop": "https://www.apc-us.com/search?q=",
+  "onething": {
+    "p": "Petit Standard jean",
+    "u": "https://www.apc-us.com/search?q=Petit%20Standard%20jean%20men",
+    "n": "men-filtered"
+  },
+  "prices": [[75, 115], [125, 185], [165, 245], [210, 320], [190, 290], "?", "?", "?"],
+  "notes": {
+    "denim": "the Petit Standard — modern raw denim's reference cut",
+    "fren": "the doctrine of effortlessness — clothes that refuse to try"
+  },
+  "doors": {
+    "c": "full",
+    "n": 7,
+    "cities": [
+      ["Brooklyn", "NY", 1],
+      ["Costa Mesa", "CA", 1],
+      ["Los Angeles", "CA", 2],
+      ["New York", "NY", 2],
+      ["San Francisco", "CA", 1]
+    ]
+  },
+  "cities": "NYC, LA, SF stores · dept & boutiques",
+  "region": {
+    "o": [272, 338, 339],
+    "s": [786]
+  },
+  "addmen": true
+}

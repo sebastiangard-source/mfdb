@@ -1,0 +1,81 @@
+{
+  "name": "Kiton",
+  "band": "trueLux",
+  "seat": 201,
+  "dagger": 0,
+  "focus": {
+    "tech": 1,
+    "comfort": 4,
+    "craft": 5,
+    "style": 4
+  },
+  "fabric": {
+    "denim": 1,
+    "cashmere": 4,
+    "linen": 3,
+    "cotton": 4,
+    "wool": 5,
+    "synth": 1
+  },
+  "dials": {
+    "reach": 2,
+    "dur": 4,
+    "forg": 3,
+    "fuss": 3,
+    "golffice": -3,
+    "sail": 3,
+    "shoes": 3,
+    "status": 3,
+    "finbro": 2,
+    "ital": 5,
+    "boat": 5,
+    "racquet": 4
+  },
+  "why": "Arzano's best-of-the-best-plus-one — a tailoring school and its own wool mill.",
+  "origin": "Ciro Paone, Arzano, 1968 — fifth-generation fabric merchant; named for the chiton of the ancient Greeks.",
+  "opview": "“Il meglio del meglio più uno” — the best of the best, plus one.",
+  "say": "KEE-ton",
+  "chan": ["O", "D", "I"],
+  "conf": "L",
+  "forgc": [2, 2, 5],
+  "shop": "https://www.kiton.com/en-us/search?q=",
+  "onething": {
+    "p": "Cashmere jacket",
+    "u": "https://us.kiton.com/collections/men/products/jacket-cashmere-ug89k0678g08",
+    "n": "verified — direct product on us.kiton.com; if the SKU sells out, fall back to /collections/men"
+  },
+  "prices": [[393, 1921], [613, 2048], [730, 1995], [902, 1921], [1295, 2935], "?", "?", "?"],
+  "shoelink": {
+    "t": "loafer",
+    "u": "https://www.kiton.com/en-us/search?q=loafer"
+  },
+  "notes": {
+    "craft": "an in-house tailoring school and roughly 25 hand-hours per garment",
+    "wool": "owns Lanificio Carlo Barbera, weaving its cloth in Biella since 2010",
+    "cotton": "hand-sewn Neapolitan shirting",
+    "ital": "Naples as the product — the fabric, the school, the hands",
+    "boat": "The deck of something you are driven to rather than something you drive. Neapolitan tailoring in the softest possible cloth, for a boat with a crew on it.",
+    "racquet": "The softest possible version of club dress, which places it at the tailoring end of the register rather than anywhere near a court."
+  },
+  "doors": {
+    "c": "full",
+    "n": 10,
+    "cities": [
+      ["Aspen", "CO", 1],
+      ["Bal Harbour", "FL", 1],
+      ["Houston", "TX", 1],
+      ["Las Vegas", "NV", 1],
+      ["Manhasset", "NY", 1],
+      ["Miami", "FL", 1],
+      ["New York", "NY", 2],
+      ["Palm Beach", "FL", 1],
+      ["San Francisco", "CA", 1]
+    ]
+  },
+  "cities": "NYC, Miami, Beverly Hills · Boyds, Mitchells, Wilkes Bashford, Garmany, Korshak, Mario's",
+  "region": {
+    "o": [328, 425, 426],
+    "s": [176, 216, 233, 773]
+  },
+  "addmen": true
+}

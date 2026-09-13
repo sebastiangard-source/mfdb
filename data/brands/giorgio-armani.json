@@ -1,0 +1,70 @@
+{
+  "name": "Giorgio Armani",
+  "band": "trueLux",
+  "seat": 146,
+  "dagger": 1,
+  "focus": {
+    "tech": 1,
+    "comfort": 3,
+    "craft": 4,
+    "style": 4
+  },
+  "fabric": {
+    "denim": 1,
+    "cashmere": 3,
+    "linen": 3,
+    "cotton": 2,
+    "wool": 4,
+    "synth": 1
+  },
+  "dials": {
+    "reach": 4,
+    "dur": 3,
+    "forg": 3,
+    "fuss": 3,
+    "golffice": -2,
+    "status": 3,
+    "ital": 4
+  },
+  "why": "The man who unstructured the jacket and softened power.",
+  "origin": "Giorgio Armani with Sergio Galeotti, Milan, 1975 — sold their car to fund the first collection.",
+  "opview": "“Elegance is not about being noticed, it's about being remembered.”",
+  "chan": ["O", "D", "X"],
+  "conf": "S",
+  "forgc": [3, 3, 3],
+  "shop": "https://www.armani.com/en-us/search?q=",
+  "onething": {
+    "p": "Deconstructed blazer",
+    "u": "https://www.neimanmarcus.com/p/giorgio-armani-mens-wool-viscose-deconstructed-blazer-prod272460286",
+    "n": "direct via Neiman Marcus — titled deconstructed blazer on the page itself"
+  },
+  "prices": [[375, 1025], [375, 925], [545, 2095], [675, 1395], [795, 1895], "?", "?", "?"],
+  "notes": {
+    "wool": "the unstructured jacket that changed tailoring",
+    "ital": "Armani took the structure out of the jacket in 1975 and defined what postwar Milan looked like. The Italianness is not ornament but proportion — the drape is the argument."
+  },
+  "doors": {
+    "c": "full",
+    "n": 12,
+    "cities": [
+      ["Beverly Hills", "CA", 1],
+      ["Boston", "MA", 1],
+      ["Chicago", "IL", 1],
+      ["Costa Mesa", "CA", 1],
+      ["Honolulu", "HI", 1],
+      ["Houston", "TX", 1],
+      ["Las Vegas", "NV", 2],
+      ["Miami", "FL", 1],
+      ["New York", "NY", 1],
+      ["San Francisco", "CA", 1],
+      ["Washington", "DC", 1]
+    ]
+  },
+  "cities": "Boutiques in major metros · dept stores",
+  "region": {
+    "o": [17, 400],
+    "s": []
+  },
+  "addmen": true,
+  "addcloth": true
+}

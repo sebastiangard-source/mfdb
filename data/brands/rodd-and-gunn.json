@@ -1,0 +1,65 @@
+{
+  "name": "Rodd & Gunn",
+  "band": "premium",
+  "seat": 28,
+  "dagger": 1,
+  "focus": {
+    "tech": 1,
+    "comfort": 3,
+    "craft": 2,
+    "style": 2
+  },
+  "fabric": {
+    "denim": 1,
+    "cashmere": 1,
+    "linen": 2,
+    "cotton": 3,
+    "wool": 2,
+    "synth": 1
+  },
+  "dials": {
+    "reach": 3,
+    "dur": 3,
+    "forg": 3,
+    "fuss": -1,
+    "prep": 2,
+    "boat": 2,
+    "briish": 2
+  },
+  "why": "New Zealand country-casual since 1946 — the gundog badge, merino knits, and washed cottons; the southern hemisphere's quiet entry on the American dept-store floor.",
+  "origin": "New Zealand, 1946 — a shirtmaker that became the national menswear brand; the English pointer logo has held since the beginning.",
+  "opview": "Purveyors of the New Zealand lifestyle — the house's own phrase.",
+  "chan": ["O", "D"],
+  "conf": "M",
+  "forgc": [4, 3, 1],
+  "shop": "https://www.roddandgunn.com/search?q=",
+  "onething": {
+    "p": "Merino crewneck",
+    "u": "https://www.roddandgunn.com/search?q=merino",
+    "n": "Use this: https://www.roddandgunn.com/us/Search-Show?q=merino&lang=en_US"
+  },
+  "prices": [[60, 90], [80, 120], [90, 140], [128, 178], [110, 160], "?", "?", "?"],
+  "notes": {
+    "wool": "NZ merino as the home-turf fiber"
+  },
+  "doors": {
+    "c": "full",
+    "n": 9,
+    "cities": [
+      ["Bellevue", "WA", 1],
+      ["Dallas", "TX", 1],
+      ["Greenwich", "CT", 1],
+      ["Mclean", "VA", 1],
+      ["Newport Beach", "CA", 1],
+      ["Palo Alto", "CA", 1],
+      ["San Diego", "CA", 1],
+      ["Santa Clara", "CA", 1],
+      ["Skokie", "IL", 1]
+    ]
+  },
+  "cities": "Bloomingdale's, Nordstrom & dept stores · own US stores growing",
+  "region": {
+    "o": [168],
+    "s": [73, 154, 192, 793]
+  }
+}

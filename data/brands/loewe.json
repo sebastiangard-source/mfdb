@@ -1,0 +1,82 @@
+{
+  "name": "Loewe",
+  "band": "trueLux",
+  "seat": 168,
+  "dagger": 0,
+  "focus": {
+    "tech": 1,
+    "comfort": 2,
+    "craft": 4,
+    "style": 5
+  },
+  "fabric": {
+    "denim": 2,
+    "cashmere": 2,
+    "linen": 2,
+    "cotton": 2,
+    "wool": 2,
+    "synth": 1
+  },
+  "dials": {
+    "reach": 3,
+    "dur": 3,
+    "forg": 2,
+    "fuss": 0,
+    "shoes": 3,
+    "status": 4,
+    "street": 2,
+    "avant": 4,
+    "weird": 4
+  },
+  "why": "Craft-surrealism on a Spanish leather foundation.",
+  "origin": "Madrid, 1846 — a leather workshop older than most countries' fashion industries.",
+  "opview": "Positions craft — the hand — as the essence of the house.",
+  "say": "loh-EV-ay",
+  "chan": ["O", "D"],
+  "conf": "L",
+  "forgc": [2, 2, 1],
+  "shop": "https://www.loewe.com/usa/en/search?q=",
+  "onething": {
+    "p": "Anagram pocket sweater",
+    "u": "https://www.loewe.com/usa/en/men/menswear/knitwear/anagram-pocket-sweater-in-cotton-blend/H526Y14KLS-2145.html",
+    "n": "direct product page, verified"
+  },
+  "prices": [[550, 750], [650, 650], [950, 2200], [1150, 1250], [990, 1990], "?", "?", "?"],
+  "shoelink": {
+    "t": "shoes",
+    "u": "https://www.loewe.com/usa/en/search?q=shoes"
+  },
+  "notes": {
+    "avant": "craft-surrealism — sculpture you can put your arm through",
+    "weird": "Jonathan Anderson's surrealism, where a bag looks like a pixel and a coat looks like something else entirely. Weird in the art-historical sense rather than the provocative one.",
+    "status": "Craft-signalling status — leatherwork and surrealism that read to a narrower and more informed room than a monogram would. Recognition here is a test the viewer passes."
+  },
+  "doors": {
+    "c": "full",
+    "n": 15,
+    "cities": [
+      ["Atlanta", "GA", 1],
+      ["Bal Harbour", "FL", 1],
+      ["Beverly Hills", "CA", 1],
+      ["Boston", "MA", 1],
+      ["Chicago", "IL", 1],
+      ["Costa Mesa", "CA", 1],
+      ["Dallas", "TX", 1],
+      ["East Hampton", "NY", 1],
+      ["Houston", "TX", 1],
+      ["Las Vegas", "NV", 1],
+      ["Miami", "FL", 1],
+      ["New York", "NY", 1],
+      ["Palm Beach", "FL", 1],
+      ["Santa Clara", "CA", 1],
+      ["Short Hills", "NJ", 1]
+    ]
+  },
+  "cities": "NYC, LA, Miami, Vegas · dept stores",
+  "region": {
+    "o": [24, 292, 432],
+    "s": []
+  },
+  "addmen": true,
+  "addcloth": true
+}

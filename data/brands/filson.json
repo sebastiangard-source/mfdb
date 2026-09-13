@@ -1,0 +1,69 @@
+{
+  "name": "Filson",
+  "band": "premium",
+  "seat": 56,
+  "dagger": 0,
+  "focus": {
+    "tech": 3,
+    "comfort": 3,
+    "craft": 5,
+    "style": 3
+  },
+  "fabric": {
+    "denim": 2,
+    "cashmere": 1,
+    "linen": 1,
+    "cotton": 4,
+    "wool": 4,
+    "synth": 2
+  },
+  "dials": {
+    "reach": 3,
+    "dur": 5,
+    "forg": 4,
+    "fuss": -1,
+    "murica": 5
+  },
+  "why": "Alaska Gold Rush outfitter, 1897 — Mackinaw wool and tin cloth, still repaired.",
+  "origin": "C.C. Filson, Seattle, 1897 — outfitting Gold Rush prospectors bound for the Klondike.",
+  "opview": "“Might as well have the best” — the founder's slogan since 1897.",
+  "chan": ["O", "I"],
+  "conf": "L",
+  "forgc": [4, 4, 1],
+  "shop": "https://www.filson.com/catalogsearch/result/?q=",
+  "onething": {
+    "p": "Mackinaw Cruiser",
+    "u": "https://www.filson.com/catalogsearch/result/?q=Mackinaw+Cruiser",
+    "n": "own-site search, not opened from this environment. Patented 1914 and the garment the rest of the line is measured against"
+  },
+  "prices": [[50, 85], [90, 130], [120, 180], [130, 180], [120, 180], "?", "?", "?"],
+  "notes": {
+    "wool": "Mackinaw wool since 1897",
+    "cotton": "oil-finish tin cloth",
+    "murica": "outfitted the Klondike — 'Might as well have the best' as frontier doctrine"
+  },
+  "doors": {
+    "c": "full",
+    "n": 12,
+    "cities": [
+      ["Boston", "MA", 1],
+      ["Chicago", "IL", 1],
+      ["Detroit", "MI", 1],
+      ["Edina", "MN", 1],
+      ["Los Angeles", "CA", 1],
+      ["Naperville", "IL", 1],
+      ["New York", "NY", 1],
+      ["Portland", "OR", 1],
+      ["San Francisco", "CA", 1],
+      ["Seattle", "WA", 2],
+      ["Washington", "DC", 1]
+    ]
+  },
+  "cities": "Seattle flagship + ~15 stores · Chicago (Mildblend), Boulder (Canoe Club)",
+  "region": {
+    "o": [15, 396],
+    "s": [244, 260, 782, 784, 788, 794, 803]
+  },
+  "addmen": true,
+  "addcloth": true
+}

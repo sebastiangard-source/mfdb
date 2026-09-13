@@ -1,0 +1,79 @@
+{
+  "name": "James Perse",
+  "band": "premium",
+  "seat": 57,
+  "dagger": 0,
+  "focus": {
+    "tech": 1,
+    "comfort": 5,
+    "craft": 2,
+    "style": 4
+  },
+  "fabric": {
+    "denim": 1,
+    "cashmere": 3,
+    "linen": 2,
+    "cotton": 4,
+    "wool": 1,
+    "synth": 1
+  },
+  "dials": {
+    "reach": 4,
+    "dur": 2,
+    "forg": 3,
+    "fuss": 0,
+    "status": 2,
+    "finbro": 2,
+    "murica": 3
+  },
+  "why": "LA luxe basics — Supima jersey as a lifestyle.",
+  "origin": "Founded 1994 in LA by James Perse — son of Maxfield's founder, raised on the shop floor of California luxury.",
+  "opview": "Positions itself as Californian casual luxury — Supima as lifestyle.",
+  "chan": ["O", "D"],
+  "conf": "L",
+  "forgc": [4, 3, 1],
+  "shop": "https://www.jamesperse.com/search?q=",
+  "onething": {
+    "p": "Short Sleeve Crew Neck",
+    "u": "https://www.jamesperse.com/products/short-sleeve-crew-neck-mlj3311-white",
+    "n": "direct product page — style MLJ3311, the house names it without the word tee"
+  },
+  "prices": [[60, 220], [55, 120], [140, 220], [185, 265], [175, 295], "?", "?", "?"],
+  "notes": {
+    "cotton": "luxe Supima jersey as the whole brand",
+    "comfort": "hand-first basics"
+  },
+  "doors": {
+    "c": "full",
+    "n": 24,
+    "cities": [
+      ["Aspen", "CO", 1],
+      ["Bal Harbour", "FL", 1],
+      ["Beverly Hills", "CA", 1],
+      ["Dallas", "TX", 1],
+      ["East Hampton", "NY", 1],
+      ["Greenwich", "CT", 1],
+      ["Larkspur", "CA", 1],
+      ["Las Vegas", "NV", 1],
+      ["Los Angeles", "CA", 1],
+      ["Malibu", "CA", 1],
+      ["Miami", "FL", 1],
+      ["New York", "NY", 4],
+      ["Newport Beach", "CA", 1],
+      ["Palm Beach", "FL", 1],
+      ["San Diego", "CA", 1],
+      ["Santa Barbara", "CA", 1],
+      ["Santa Monica", "CA", 1],
+      ["Scottsdale", "AZ", 1],
+      ["Studio City", "CA", 1],
+      ["West Hollywood", "CA", 1],
+      ["Wilmette", "IL", 1]
+    ]
+  },
+  "cities": "~40 stores — LA, NYC & resort markets · Nordstrom",
+  "region": {
+    "o": [165, 291, 418, 419, 420, 421],
+    "s": [176, 193, 216, 781]
+  },
+  "addmen": true
+}

@@ -1,0 +1,56 @@
+{
+  "name": "Purple",
+  "band": "accessible",
+  "seat": 85,
+  "dagger": 1,
+  "focus": {
+    "tech": 1,
+    "comfort": 2,
+    "craft": 2,
+    "style": 4
+  },
+  "fabric": {
+    "denim": 5,
+    "cashmere": 1,
+    "linen": 1,
+    "cotton": 1,
+    "wool": 1,
+    "synth": 1
+  },
+  "dials": {
+    "reach": 2,
+    "dur": 2,
+    "forg": 1,
+    "fuss": -2,
+    "bruv": 2,
+    "status": 3,
+    "murica": 2,
+    "street": 4
+  },
+  "why": "Blown-out washes and paint splatter — denim built for musicians and the culture around them.",
+  "origin": "LA, 2018 — blown-out washes and paint splatter, adopted fast by hip-hop.",
+  "opview": "Positions itself as denim for the culture.",
+  "chan": ["O", "D"],
+  "conf": "L",
+  "forgc": [1, 2, 1],
+  "shop": "https://purple-brand.com/search?q=",
+  "onething": {
+    "p": "P001 jean",
+    "u": "https://purple-brand.com/search?q=P001%20jean%20men",
+    "n": "works"
+  },
+  "prices": [[65, 110], null, [140, 220], [250, 400], [172, 350], "?", "?", "?"],
+  "notes": {
+    "street": "denim for the culture, adopted fast by hip-hop"
+  },
+  "doors": {
+    "c": "full",
+    "n": 2,
+    "cities": [["Houston", "TX", 1], ["New York", "NY", 1]]
+  },
+  "cities": "Dept stores & denim boutiques · one own shop in New York",
+  "region": {
+    "o": [],
+    "s": [781]
+  }
+}

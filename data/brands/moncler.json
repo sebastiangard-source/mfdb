@@ -1,0 +1,89 @@
+{
+  "name": "Moncler",
+  "band": "trueLux",
+  "seat": 144,
+  "dagger": 1,
+  "focus": {
+    "tech": 3,
+    "comfort": 3,
+    "craft": 4,
+    "style": 4
+  },
+  "fabric": {
+    "denim": 1,
+    "cashmere": 2,
+    "linen": 1,
+    "cotton": 1,
+    "wool": 2,
+    "synth": 4
+  },
+  "dials": {
+    "reach": 4,
+    "dur": 3,
+    "forg": 2,
+    "fuss": 2,
+    "status": 5,
+    "finbro": 4,
+    "ital": 3,
+    "fren": 3,
+    "street": 3,
+    "ski": 5
+  },
+  "why": "Alpine down turned luxury armor — laqué nylon as icon.",
+  "origin": "Monestier-de-Clermont, France, 1952 — alpine down equipment; the name abbreviates the village.",
+  "opview": "Ruffini's stated project: turn alpine equipment into global luxury energy.",
+  "say": "mon-CLAIR",
+  "chan": ["O", "D"],
+  "conf": "S",
+  "forgc": [2, 3, 1],
+  "shop": "https://www.moncler.com/en-us/search?text=",
+  "onething": {
+    "p": "Maya jacket",
+    "u": "https://www.moncler.com/en-us/men/outerwear/short-down-jackets/moncler-maya-hooded-short-down-jacket-black-L20911A5360068950999.html",
+    "n": "direct — the Maya in black, verified"
+  },
+  "prices": [[310, 450], [350, 770], [840, 1495], [752, 1230], [640, 820], "?", "?", "?"],
+  "notes": {
+    "synth": "laqué nylon down — the shell as status",
+    "status": "the badge on the sleeve — suburbia's most legible luxury object",
+    "finbro": "the managing director's ski trip, visible from across the lodge",
+    "fren": "the mirror case — born French-alpine, naturalized Italian",
+    "ski": "Grenoble, 1952, and the first jackets were built for alpine expeditions rather than for town. The Grenoble line keeps the claim current rather than historical."
+  },
+  "doors": {
+    "c": "full",
+    "n": 29,
+    "cities": [
+      ["Aspen", "CO", 2],
+      ["Atlanta", "GA", 1],
+      ["Austin", "TX", 1],
+      ["Aventura", "FL", 1],
+      ["Bal Harbour", "FL", 1],
+      ["Bellevue", "WA", 1],
+      ["Beverly Hills", "CA", 1],
+      ["Boca Raton", "FL", 1],
+      ["Boston", "MA", 1],
+      ["Chicago", "IL", 1],
+      ["Costa Mesa", "CA", 1],
+      ["Edina", "MN", 1],
+      ["Highland Park", "TX", 1],
+      ["Honolulu", "HI", 2],
+      ["Houston", "TX", 1],
+      ["King of Prussia", "PA", 1],
+      ["Las Vegas", "NV", 3],
+      ["Miami", "FL", 1],
+      ["New York", "NY", 2],
+      ["Oak Brook", "IL", 1],
+      ["San Francisco", "CA", 1],
+      ["Troy", "MI", 1],
+      ["Vail", "CO", 1],
+      ["Washington", "DC", 1]
+    ]
+  },
+  "cities": "Boutiques in ~20 metros · dept stores",
+  "region": {
+    "o": [31, 455, 456],
+    "s": [176, 216, 773]
+  },
+  "addmen": true
+}

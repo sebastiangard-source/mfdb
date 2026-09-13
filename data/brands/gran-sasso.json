@@ -1,0 +1,58 @@
+{
+  "name": "Gran Sasso",
+  "band": "accessible",
+  "seat": 131,
+  "dagger": 1,
+  "focus": {
+    "tech": 1,
+    "comfort": 3,
+    "craft": 4,
+    "style": 3
+  },
+  "fabric": {
+    "denim": 1,
+    "cashmere": 3,
+    "linen": 2,
+    "cotton": 3,
+    "wool": 4,
+    "synth": 1
+  },
+  "dials": {
+    "reach": 2,
+    "dur": 3,
+    "forg": 3,
+    "fuss": 2,
+    "golffice": -1,
+    "shoes": 0,
+    "ital": 4
+  },
+  "why": "Family knitwear factory in the Abruzzo mountains since 1952 — fully-fashioned merino, cashmere, and Sea Island polos; the forum canon's value pick for Italian knits.",
+  "origin": "The Di Stefano family, Sant'Egidio alla Vibrata, 1952 — named for the Gran Sasso massif above the factory; still family-run, everything knitted in-house in Italy.",
+  "opview": "Positions itself as the knitter's knitter — the factory as the brand.",
+  "chan": ["D", "I"],
+  "conf": "M",
+  "forgc": [4, 3, 1],
+  "onething": {
+    "p": "Merino crewneck",
+    "u": "https://www.nordstrom.com/sr?keyword=gran%20sasso",
+    "n": "via Nordstrom — best-guess link, verify"
+  },
+  "prices": [[230, 250], [400, 460], [390, 390], null, [540, 540], [380, 860], [920, 1330], [510, 670]],
+  "price_checked": true,
+  "notes": {
+    "wool": "fully-fashioned merino — the entry ticket to Italian knitwear",
+    "craft": "own factory in Abruzzo, family-run since 1952",
+    "cotton": "Sea Island polos at half the London price",
+    "ital": "An Abruzzo knitwear mill that is vertical from yarn to finished garment, which almost nothing else at its price is. Named for the mountain above the factory."
+  },
+  "doors": {
+    "c": "full",
+    "n": 0,
+    "cities": []
+  },
+  "cities": "Nordstrom & top specialty · no own US stores",
+  "region": {
+    "o": [],
+    "s": [74, 131, 176, 187, 203, 216, 229, 559, 773, 774]
+  }
+}

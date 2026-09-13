@@ -1,0 +1,80 @@
+{
+  "name": "Fendi",
+  "band": "trueLux",
+  "seat": 151,
+  "dagger": 1,
+  "focus": {
+    "tech": 1,
+    "comfort": 2,
+    "craft": 4,
+    "style": 4
+  },
+  "fabric": {
+    "denim": 1,
+    "cashmere": 3,
+    "linen": 1,
+    "cotton": 2,
+    "wool": 2,
+    "synth": 2
+  },
+  "dials": {
+    "reach": 3,
+    "dur": 3,
+    "forg": 2,
+    "fuss": 1,
+    "shoes": 3,
+    "status": 5,
+    "ital": 4,
+    "ski": 2
+  },
+  "why": "Roman fur-and-leather atelier turned full house.",
+  "origin": "Adele and Edoardo Fendi's Roman fur and leather workshop, 1925.",
+  "opview": "Positions Roman craftsmanship as theater.",
+  "chan": ["O", "D"],
+  "conf": "L",
+  "forgc": [2, 2, 1],
+  "shop": "https://www.fendi.com/us-en/search?q=",
+  "onething": {
+    "p": "FF monogram knit",
+    "u": "https://www.ssense.com/en-us/men/designers/fendi",
+    "n": "SSENSE designer page — MP search deep-links are dead"
+  },
+  "prices": [[630, 1170], [790, 930], [810, 2500], [1050, 1815], [864, 900], "?", "?", "?"],
+  "shoelink": {
+    "t": "shoes",
+    "u": "https://www.fendi.com/us-en/search?q=shoes"
+  },
+  "notes": {
+    "ital": "Roman before it is fashion — furriers on Via del Plebiscito from 1925, five sisters, and a double-F that Lagerfeld drew in a few seconds. The city is legible in the maximalism.",
+    "status": "The FF worn as ornament rather than concealed. Roman maximalism, and the status is in the visibility."
+  },
+  "doors": {
+    "c": "full",
+    "n": 20,
+    "cities": [
+      ["Atlanta", "GA", 1],
+      ["Aventura", "FL", 1],
+      ["Bal Harbour", "FL", 1],
+      ["Beverly Hills", "CA", 1],
+      ["Boston", "MA", 1],
+      ["Costa Mesa", "CA", 1],
+      ["Dallas", "TX", 1],
+      ["Honolulu", "HI", 1],
+      ["Houston", "TX", 1],
+      ["King of Prussia", "PA", 1],
+      ["Las Vegas", "NV", 3],
+      ["Manhasset", "NY", 1],
+      ["Miami", "FL", 1],
+      ["New York", "NY", 3],
+      ["Santa Clara", "CA", 1],
+      ["Short Hills", "NJ", 1]
+    ]
+  },
+  "cities": "Boutiques in major metros · dept stores",
+  "region": {
+    "o": [13, 325, 391, 392, 393],
+    "s": []
+  },
+  "addmen": true,
+  "addcloth": true
+}

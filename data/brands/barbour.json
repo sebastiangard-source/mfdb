@@ -1,0 +1,60 @@
+{
+  "name": "Barbour",
+  "band": "premium",
+  "seat": 54,
+  "dagger": 1,
+  "focus": {
+    "tech": 3,
+    "comfort": 3,
+    "craft": 5,
+    "style": 3
+  },
+  "fabric": {
+    "denim": 1,
+    "cashmere": 1,
+    "linen": 1,
+    "cotton": 3,
+    "wool": 2,
+    "synth": 2
+  },
+  "dials": {
+    "reach": 4,
+    "dur": 5,
+    "forg": 4,
+    "fuss": 3,
+    "status": 3,
+    "finbro": 3,
+    "ivy": 3,
+    "prep": 3,
+    "briish": 5
+  },
+  "why": "Waxed cotton since 1894 — the rewaxing service as heritage infrastructure.",
+  "origin": "John Barbour, South Shields, 1894 — oilcloth for sailors and dockworkers on the Tyne.",
+  "opview": "Positions its wax jackets as fit for purpose, rewaxable for life.",
+  "chan": ["D", "I", "O"],
+  "conf": "S",
+  "forgc": [4, 4, 1],
+  "shop": "https://www.barbour.com/us/search?q=",
+  "onething": {
+    "p": "Bedale",
+    "u": "https://www.barbour.com/us/search?q=Bedale",
+    "n": "own-site search, not opened from this environment. Bedale over Beaufort: the shorter cut is the one that left the moor, where Beaufort's length and game pocket still read as costume in a city"
+  },
+  "prices": [[50, 110], [85, 160], [100, 200], null, [145, 270], [120, 330], [165, 700], "?"],
+  "price_checked": true,
+  "notes": {
+    "craft": "waxed cotton since 1894 with a rewaxing service"
+  },
+  "doors": {
+    "c": "full",
+    "n": 3,
+    "cities": [["New York", "NY", 1], ["Princeton", "NJ", 1], ["Washington", "DC", 1]]
+  },
+  "cities": "Nationwide — dept stores & outdoor/country shops",
+  "region": {
+    "o": [683],
+    "s": [55, 65, 89, 90, 124, 133, 140, 144, 193, 227, 235, 255, 259, 532, 783, 784, 785, 794, 795, 804]
+  },
+  "addmen": true,
+  "addcloth": true
+}

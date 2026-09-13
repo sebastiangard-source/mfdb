@@ -1,0 +1,93 @@
+{
+  "name": "Suitsupply",
+  "band": "accessible",
+  "seat": 91,
+  "dagger": 1,
+  "focus": {
+    "tech": 1,
+    "comfort": 2,
+    "craft": 3,
+    "style": 4
+  },
+  "fabric": {
+    "denim": 1,
+    "cashmere": 2,
+    "linen": 3,
+    "cotton": 2,
+    "wool": 4,
+    "synth": 1
+  },
+  "dials": {
+    "reach": 4,
+    "dur": 3,
+    "forg": 3,
+    "fuss": 2,
+    "golffice": -2,
+    "finbro": 4,
+    "ital": 3
+  },
+  "why": "Amsterdam's full-canvas value engine — Vitale Barberis cloth at contest prices.",
+  "origin": "Fokke de Jong, Amsterdam, 2000 — founded out of law school on full-canvas value.",
+  "opview": "De Jong's stated game: Vitale Barberis cloth at prices the houses can't answer.",
+  "chan": ["O"],
+  "conf": "S",
+  "forgc": [2, 4, 5],
+  "shop": "https://suitsupply.com/en-us/search?q=",
+  "onething": {
+    "p": "Havana suit",
+    "u": "https://suitsupply.com/en-us/search?q=Havana%20suit",
+    "n": "works"
+  },
+  "prices": [[69, 229], [70, 110], [100, 140], [120, 170], [120, 200], "?", "?", "?"],
+  "notes": {
+    "wool": "Vitale Barberis Canonico cloth at full-canvas value prices",
+    "finbro": "the first-year banker's first real suit",
+    "ital": "a Dutch brand whose sales pitch is Italian cloth — Vitale Barberis Canonico, by name"
+  },
+  "doors": {
+    "c": "full",
+    "n": 40,
+    "cities": [
+      ["Atlanta", "GA", 1],
+      ["Austin", "TX", 1],
+      ["Bellevue", "WA", 1],
+      ["Boston", "MA", 1],
+      ["Brooklyn", "NY", 1],
+      ["Canoga Park", "CA", 1],
+      ["Chicago", "IL", 1],
+      ["Dallas", "TX", 1],
+      ["Denver", "CO", 1],
+      ["Edina", "MN", 1],
+      ["Garden City", "NY", 1],
+      ["Greenwich", "CT", 1],
+      ["Houston", "TX", 1],
+      ["King of Prussia", "PA", 1],
+      ["Las Vegas", "NV", 2],
+      ["Los Angeles", "CA", 2],
+      ["McLean", "VA", 1],
+      ["Miami", "FL", 1],
+      ["New York", "NY", 4],
+      ["Newport Beach", "CA", 1],
+      ["Orlando", "FL", 1],
+      ["Philadelphia", "PA", 1],
+      ["Plano", "TX", 1],
+      ["Salt Lake City", "UT", 1],
+      ["San Diego", "CA", 1],
+      ["San Francisco", "CA", 1],
+      ["San Jose", "CA", 1],
+      ["Scottsdale", "AZ", 1],
+      ["Seattle", "WA", 1],
+      ["Short Hills", "NJ", 1],
+      ["St. Louis", "MO", 1],
+      ["Tampa", "FL", 1],
+      ["The Woodlands", "TX", 1],
+      ["Troy", "MI", 1],
+      ["Washington", "DC", 1]
+    ]
+  },
+  "cities": "~50 US stores — most major metros",
+  "region": {
+    "o": [171, 43, 285, 305, 500, 501, 502, 503],
+    "s": []
+  }
+}

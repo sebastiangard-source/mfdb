@@ -1,0 +1,72 @@
+{
+  "name": "Stefano Ricci",
+  "band": "trueLux",
+  "seat": 204,
+  "dagger": 1,
+  "focus": {
+    "tech": 1,
+    "comfort": 2,
+    "craft": 4,
+    "style": 3
+  },
+  "fabric": {
+    "denim": 1,
+    "cashmere": 4,
+    "linen": 2,
+    "cotton": 4,
+    "wool": 3,
+    "synth": 1
+  },
+  "dials": {
+    "reach": 2,
+    "dur": 2,
+    "forg": 2,
+    "fuss": 2,
+    "sail": 3,
+    "shoes": 3,
+    "status": 3,
+    "finbro": 2,
+    "ital": 5,
+    "boat": 5
+  },
+  "why": "Florentine opulence — silk, crocodile, monumental shirting.",
+  "origin": "Stefano Ricci, Florence, 1972 — began with monumental silk ties.",
+  "opview": "Positions true luxury as handmade, Florentine, and unapologetic.",
+  "chan": ["O", "D"],
+  "conf": "L",
+  "forgc": [2, 2, 4],
+  "shop": "https://www.stefanoricci.com/en-us/search?q=",
+  "onething": {
+    "p": "The silk tie",
+    "u": "https://www.stefanoricci.com/en-us/search?q=The%20silk%20tie",
+    "n": "works"
+  },
+  "prices": [[569, 875], [1226, 1839], [900, 1500], [1094, 1398], [1100, 3650], "?", "?", "?"],
+  "shoelink": {
+    "t": "shoes",
+    "u": "https://www.stefanoricci.com/en-us/search?q=shoes"
+  },
+  "notes": {
+    "cotton": "monumental Florentine shirting",
+    "boat": "The same register as Zilli, in Florence, and equally unbothered about the distinction between a yacht and a stage.",
+    "ital": "Florence, with its own silk mill at Antico Setificio Fiorentino. Maximal Italian luxury, unembarrassed about it, and vertically integrated further than most houses three times its size."
+  },
+  "doors": {
+    "c": "full",
+    "n": 6,
+    "cities": [
+      ["Beverly Hills", "CA", 1],
+      ["Houston", "TX", 1],
+      ["Las Vegas", "NV", 1],
+      ["Miami", "FL", 1],
+      ["New York", "NY", 1],
+      ["Washington", "DC", 1]
+    ]
+  },
+  "cities": "NYC, Beverly Hills, Vegas · Philadelphia (Boyds), Neiman",
+  "region": {
+    "o": [498],
+    "s": [773]
+  },
+  "addcloth": true
+}

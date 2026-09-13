@@ -1,0 +1,97 @@
+{
+  "name": "Zegna",
+  "band": "trueLux",
+  "seat": 181,
+  "dagger": 0,
+  "focus": {
+    "tech": 3,
+    "comfort": 4,
+    "craft": 5,
+    "style": 4
+  },
+  "fabric": {
+    "denim": 1,
+    "cashmere": 4,
+    "linen": 4,
+    "cotton": 3,
+    "wool": 5,
+    "synth": 1
+  },
+  "dials": {
+    "reach": 4,
+    "dur": 3,
+    "forg": 3,
+    "fuss": 3,
+    "golffice": -3,
+    "sail": 2,
+    "shoes": 4,
+    "status": 3,
+    "finbro": 4,
+    "ital": 5,
+    "boat": 4,
+    "racquet": 4,
+    "ski": 1
+  },
+  "why": "The Biella mill itself — fiber to suit, Oasi-traceable.",
+  "origin": "Ermenegildo Zegna, Trivero, 1910 — a wool mill whose founder planted half a million trees around it.",
+  "opview": "Positions itself as fiber to suit — the mill as the maison.",
+  "say": "ZEN-ya",
+  "chan": ["O", "D", "X"],
+  "conf": "S",
+  "forgc": [2, 3, 4],
+  "shop": "https://www.zegna.com/us-en/search?q=",
+  "onething": {
+    "p": "Triple Stitch",
+    "u": "https://www.zegna.com/us-en/search?q=Triple%20Stitch",
+    "n": "Use this: https://www.zegna.com/us-en/product.grey-mlange-suede-triple-stitch-sneakers.22361729/"
+  },
+  "prices": [[495, 950], [495, 1690], [490, 795], [525, 875], [750, 1100], "?", "?", "?"],
+  "shoelink": {
+    "t": "Triple Stitch",
+    "u": "https://www.zegna.com/us-en/search?q=Triple%20Stitch"
+  },
+  "notes": {
+    "wool": "it is the Biella mill — fiber to finished suit",
+    "cashmere": "Oasi Cashmere traceability",
+    "linen": "Oasi Lino, field-to-fabric",
+    "finbro": "the MD suit — what the promotion is tailored in",
+    "ital": "The Trivero mill, and the Oasi Zegna above it — the family planted half a million trees on the mountain across the twentieth century. Few houses have altered their own landscape.",
+    "racquet": "Club dress rather than sportswear — the jacket you wear to the match, not the shirt you play it in.",
+    "boat": "Crewed-deck resort dress, cut in cloth the house wove itself. Comfortable rather than nautical."
+  },
+  "doors": {
+    "c": "full",
+    "n": 26,
+    "cities": [
+      ["Aspen", "CO", 1],
+      ["Atlanta", "GA", 1],
+      ["Bal Harbour", "FL", 1],
+      ["Beverly Hills", "CA", 1],
+      ["Boston", "MA", 1],
+      ["Chicago", "IL", 1],
+      ["Costa Mesa", "CA", 1],
+      ["Dallas", "TX", 1],
+      ["East Hamptons", "NY", 1],
+      ["Hackensack", "NJ", 1],
+      ["Honolulu", "HI", 1],
+      ["Houston", "TX", 1],
+      ["King of Prussia", "PA", 1],
+      ["Las Vegas", "NV", 1],
+      ["Manhasset", "NY", 1],
+      ["McLean", "VA", 1],
+      ["Miami", "FL", 1],
+      ["Montecito", "CA", 1],
+      ["New York", "NY", 3],
+      ["Palm Beach", "FL", 1],
+      ["Palo Alto", "CA", 1],
+      ["San Diego", "CA", 1],
+      ["Scottsdale", "AZ", 1],
+      ["Troy", "MI", 1]
+    ]
+  },
+  "cities": "The full circuit — Boyds, Mitchells, Mario's, Halls & more · own boutiques in six metros",
+  "region": {
+    "o": [671, 672, 673, 674, 675, 676],
+    "s": [176, 216, 773, 774]
+  }
+}

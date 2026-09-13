@@ -1,0 +1,94 @@
+{
+  "name": "Burberry",
+  "band": "trueLux",
+  "seat": 138,
+  "dagger": 0,
+  "focus": {
+    "tech": 2,
+    "comfort": 2,
+    "craft": 5,
+    "style": 4
+  },
+  "fabric": {
+    "denim": 1,
+    "cashmere": 3,
+    "linen": 1,
+    "cotton": 3,
+    "wool": 2,
+    "synth": 2
+  },
+  "dials": {
+    "reach": 4,
+    "dur": 3,
+    "forg": 2,
+    "fuss": 1,
+    "bruv": -2,
+    "status": 4,
+    "briish": 5
+  },
+  "why": "Gabardine's inventor — British outerwear heritage under fashion churn.",
+  "origin": "Thomas Burberry, Basingstoke, 1856 — a draper's apprentice who patented gabardine in 1888 and outfitted polar expeditions.",
+  "opview": "Positions protection itself — gabardine — as the founding luxury.",
+  "chan": ["O", "D", "X"],
+  "conf": "S",
+  "forgc": [2, 3, 2],
+  "shop": "https://us.burberry.com/search?search=",
+  "onething": {
+    "p": "Heritage trench",
+    "u": "https://us.burberry.com/search/?query=heritage%20trench%20men",
+    "n": ""
+  },
+  "prices": [[395, 690], [395, 690], [510, 795], [790, 1283], [650, 1200], "?", "?", "?"],
+  "notes": {
+    "craft": "invented gabardine; 160 years of outerwear",
+    "status": "The check is legible at fifty paces, which is the entire mechanism and also the house's recurring problem. Status that broad is hard to control once it escapes."
+  },
+  "doors": {
+    "c": "full",
+    "n": 43,
+    "cities": [
+      ["Atlanta", "GA", 1],
+      ["Austin", "TX", 1],
+      ["Aventura", "FL", 1],
+      ["Bellevue", "WA", 1],
+      ["Beverly Hills", "CA", 1],
+      ["Boston", "MA", 1],
+      ["Charlotte", "NC", 1],
+      ["Chicago", "IL", 2],
+      ["Costa Mesa", "CA", 1],
+      ["Dallas", "TX", 1],
+      ["Denver", "CO", 1],
+      ["Edina", "MN", 1],
+      ["Fort Worth", "TX", 1],
+      ["Garden City", "NY", 1],
+      ["Honolulu", "HI", 2],
+      ["Houston", "TX", 1],
+      ["King Of Prussia", "PA", 1],
+      ["Las Vegas", "NV", 3],
+      ["Los Angeles", "CA", 2],
+      ["Manhasset", "NY", 1],
+      ["Miami", "FL", 1],
+      ["Nashville", "TN", 1],
+      ["New York", "NY", 3],
+      ["Orlando", "FL", 1],
+      ["Paramus", "NJ", 1],
+      ["Pittsburgh", "PA", 1],
+      ["San Diego", "CA", 1],
+      ["San Francisco", "CA", 1],
+      ["Santa Clara", "CA", 1],
+      ["Scottsdale", "AZ", 1],
+      ["Short Hills", "NJ", 1],
+      ["Tampa", "FL", 1],
+      ["Troy", "MI", 1],
+      ["Tysons", "VA", 1],
+      ["Washington", "DC", 1],
+      ["White Plains", "NY", 1]
+    ]
+  },
+  "cities": "Major metros · dept stores",
+  "region": {
+    "o": [324, 375, 376, 377, 378, 555],
+    "s": []
+  },
+  "addmen": true
+}

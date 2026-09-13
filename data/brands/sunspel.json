@@ -1,0 +1,60 @@
+{
+  "name": "Sunspel",
+  "band": "accessible",
+  "seat": 102,
+  "dagger": 1,
+  "focus": {
+    "tech": 1,
+    "comfort": 4,
+    "craft": 5,
+    "style": 3
+  },
+  "fabric": {
+    "denim": 1,
+    "cashmere": 2,
+    "linen": 2,
+    "cotton": 5,
+    "wool": 2,
+    "synth": 1
+  },
+  "dials": {
+    "reach": 2,
+    "dur": 3,
+    "forg": 3,
+    "fuss": -2,
+    "golffice": -1,
+    "status": 2,
+    "ivy": 2,
+    "boat": 2,
+    "racquet": 4,
+    "briish": 5
+  },
+  "why": "Single-farm Supima and the 1950s Riviera mesh — 160 years of quiet cotton.",
+  "origin": "Thomas Hill, Nottingham, 1860 — fine cotton underthings that became quiet luxury.",
+  "opview": "Positions itself as quietly luxurious everyday cotton, 160 years running.",
+  "chan": ["O", "D", "I"],
+  "conf": "L",
+  "forgc": [4, 3, 1],
+  "shop": "https://us.sunspel.com/search?q=",
+  "onething": {
+    "p": "Riviera polo",
+    "u": "https://us.sunspel.com/search?q=Riviera%20polo%20men",
+    "n": "works"
+  },
+  "prices": [[85, 120], [125, 175], [165, 235], [195, 265], [165, 245], "?", "?", "?"],
+  "notes": {
+    "cotton": "Supima traceable to a single California farm, knitted into the 1950s Riviera mesh",
+    "racquet": "The Riviera mesh and a long British club lineage rather than any tennis programme. It reads courtside through association and cloth, not through kit."
+  },
+  "doors": {
+    "c": "full",
+    "n": 5,
+    "cities": [["Larkspur", "CA", 1], ["Los Angeles", "CA", 1], ["Montecito", "CA", 1], ["New York", "NY", 2]]
+  },
+  "cities": "NYC & LA · select dept & specialty",
+  "region": {
+    "o": [504, 505],
+    "s": [233]
+  },
+  "addmen": true
+}

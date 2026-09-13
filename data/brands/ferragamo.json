@@ -1,0 +1,95 @@
+{
+  "name": "Ferragamo",
+  "band": "trueLux",
+  "seat": 145,
+  "dagger": 0,
+  "focus": {
+    "tech": 1,
+    "comfort": 2,
+    "craft": 4,
+    "style": 3
+  },
+  "fabric": {
+    "denim": 1,
+    "cashmere": 2,
+    "linen": 2,
+    "cotton": 2,
+    "wool": 2,
+    "synth": 1
+  },
+  "dials": {
+    "reach": 4,
+    "dur": 3,
+    "forg": 2,
+    "fuss": 0,
+    "shoes": 4,
+    "status": 3,
+    "finbro": 4,
+    "ital": 4
+  },
+  "why": "Florentine leather house extended into wardrobe.",
+  "origin": "Salvatore Ferragamo, Florence, 1927 — home from Hollywood, where he was shoemaker to the stars.",
+  "opview": "‘Shoemaker to the stars’ — the founding epithet, extended to a wardrobe.",
+  "say": "fer-ra-GAH-mo",
+  "chan": ["O", "D"],
+  "conf": "S",
+  "forgc": [2, 2, 3],
+  "onething": {
+    "p": "Gancini loafer",
+    "u": "https://www.ferragamo.com/shop/us/en/men",
+    "n": "own site men’s hub; via Mr Porter"
+  },
+  "prices": [[430, 560], [460, 1890], [630, 1250], [1150, 1150], [890, 1390], [1250, 1990], [1690, 5100], "?"],
+  "price_checked": true,
+  "shoelink": {
+    "t": "Gancini loafer",
+    "u": "https://www.ferragamo.com/shop/us/en/men"
+  },
+  "notes": {
+    "finbro": "the banker loafer of record, with the tie heritage to match",
+    "ital": "Florence, and a shoemaker before a house. Tuscan leather runs through everything, and the archive in Palazzo Spini Feroni is a working reference rather than a museum."
+  },
+  "doors": {
+    "c": "full",
+    "n": 36,
+    "cities": [
+      ["Atlanta", "GA", 1],
+      ["Aventura", "FL", 1],
+      ["Bal Harbour", "FL", 1],
+      ["Beverly Hills", "CA", 1],
+      ["Boston", "MA", 1],
+      ["Canoga Park", "CA", 1],
+      ["Chicago", "IL", 1],
+      ["Costa Mesa", "CA", 1],
+      ["Dallas", "TX", 1],
+      ["Hackensack", "NJ", 1],
+      ["Honolulu", "HI", 1],
+      ["Houston", "TX", 1],
+      ["King of Prussia", "PA", 1],
+      ["Las Vegas", "NV", 3],
+      ["Los Angeles", "CA", 1],
+      ["Manhasset", "NY", 1],
+      ["McLean", "VA", 1],
+      ["Miami", "FL", 2],
+      ["Naples", "FL", 1],
+      ["New York", "NY", 2],
+      ["Orlando", "FL", 1],
+      ["Palm Beach", "FL", 1],
+      ["Palm Beach Gardens", "FL", 1],
+      ["Paramus", "NJ", 1],
+      ["San Diego", "CA", 1],
+      ["San Francisco", "CA", 1],
+      ["Santa Clara", "CA", 1],
+      ["Scottsdale", "AZ", 1],
+      ["Short Hills", "NJ", 1],
+      ["Troy", "MI", 1],
+      ["Washington", "DC", 1],
+      ["White Plains", "NY", 1]
+    ]
+  },
+  "cities": "Boutiques in major metros · dept stores",
+  "region": {
+    "o": [14, 326, 394, 395, 556],
+    "s": [203]
+  }
+}

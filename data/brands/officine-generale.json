@@ -1,0 +1,56 @@
+{
+  "name": "Officine Générale",
+  "band": "accessible",
+  "seat": 119,
+  "dagger": 1,
+  "focus": {
+    "tech": 1,
+    "comfort": 3,
+    "craft": 3,
+    "style": 5
+  },
+  "fabric": {
+    "denim": 1,
+    "cashmere": 2,
+    "linen": 3,
+    "cotton": 2,
+    "wool": 3,
+    "synth": 1
+  },
+  "dials": {
+    "reach": 2,
+    "dur": 2,
+    "forg": 3,
+    "fuss": 1,
+    "golffice": -2,
+    "fren": 5
+  },
+  "why": "Paris fair-priced wardrobe, mill-named fabrics.",
+  "origin": "Pierre Mahéo, Paris, 2012 — fair-priced wardrobe with mills on the label.",
+  "opview": "Mahéo's stated deal: honest make, named mills, fair price.",
+  "say": "oh-fee-SEEN zhay-nay-RAHL",
+  "chan": ["O", "D", "I"],
+  "conf": "L",
+  "forgc": [4, 3, 1],
+  "shop": "https://www.officinegenerale.com/search?q=",
+  "onething": {
+    "p": "Drew pleated trouser",
+    "u": "https://www.officinegenerale.com/search?q=Drew%20pleated%20trouser%20men",
+    "n": "verified ✓"
+  },
+  "prices": [[90, 195], [140, 200], [190, 345], [240, 340], [230, 340], "?", "?", "?"],
+  "notes": {
+    "fren": "the honest Parisian wardrobe — Frenchness with receipts"
+  },
+  "doors": {
+    "c": "full",
+    "n": 3,
+    "cities": [["Los Angeles", "CA", 1], ["New York", "NY", 1], ["Pacific Palisades", "CA", 1]]
+  },
+  "cities": "Paris stores · US dept & boutiques",
+  "region": {
+    "o": [458],
+    "s": [781]
+  },
+  "addmen": true
+}

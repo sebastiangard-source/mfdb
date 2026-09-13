@@ -1,0 +1,96 @@
+{
+  "name": "Lacoste",
+  "band": "premium",
+  "seat": 3,
+  "dagger": 1,
+  "focus": {
+    "tech": 2,
+    "comfort": 3,
+    "craft": 2,
+    "style": 3
+  },
+  "fabric": {
+    "denim": 1,
+    "cashmere": 1,
+    "linen": 1,
+    "cotton": 4,
+    "wool": 1,
+    "synth": 2
+  },
+  "dials": {
+    "reach": 5,
+    "dur": 3,
+    "forg": 4,
+    "fuss": -2,
+    "shoes": 3,
+    "golf": 3,
+    "status": 3,
+    "ivy": 2,
+    "fren": 4,
+    "street": 2,
+    "prep": 4,
+    "boat": 2,
+    "racquet": 2
+  },
+  "why": "The croc — Réné Lacoste invented the modern polo shirt in 1933, and the L.12.12 in petit piqué is still the archetype every polo descends from.",
+  "origin": "Réné Lacoste — 'the Crocodile,' world No. 1 tennis player — with knitter André Gillier, 1933; the L.12.12 code: L for Lacoste, 1 for petit piqué, 2 for short sleeves, 12 for the twelfth prototype.",
+  "opview": "The house still recites the code — the twelfth prototype was the one.",
+  "chan": ["O", "D", "W"],
+  "conf": "H",
+  "forgc": [4, 4, 1],
+  "shop": "https://www.lacoste.com/us/search?q=",
+  "onething": {
+    "p": "L.12.12 polo",
+    "u": "https://www.lacoste.com/us/search?q=L.12.12",
+    "n": "best-guess link — verify"
+  },
+  "prices": [[50, 70], [98, 125], [89, 210], null, [110, 155], "?", "?", "?"],
+  "shoelink": {
+    "t": "shoes",
+    "u": "https://www.lacoste.com/us/search?q=shoes"
+  },
+  "notes": {
+    "cotton": "petit piqué — the knit that made the polo breathe",
+    "fren": "French sporting royalty — tennis whites turned national uniform",
+    "golf": "a real tour presence for decades",
+    "status": "the croc — among the most legible logos alive",
+    "prep": "wrote itself into the Preppy Handbook in the Izod era, then spent thirty years walking back to France — held at 4 for the direction of travel"
+  },
+  "doors": {
+    "c": "full",
+    "n": 29,
+    "cities": [
+      ["Arlington", "VA", 1],
+      ["Atlanta", "GA", 1],
+      ["Aventura", "FL", 1],
+      ["Boca Raton", "FL", 1],
+      ["Charlotte", "NC", 1],
+      ["Cherry Hill", "NJ", 1],
+      ["Chicago", "IL", 1],
+      ["Dallas", "TX", 1],
+      ["Garden City", "NY", 1],
+      ["Glendale", "CA", 1],
+      ["Honolulu", "HI", 1],
+      ["Houston", "TX", 1],
+      ["King of Prussia", "PA", 1],
+      ["Las Vegas", "NV", 2],
+      ["Los Angeles", "CA", 1],
+      ["McAllen", "TX", 1],
+      ["Miami", "FL", 2],
+      ["NEW YORK", "NY", 2],
+      ["Orlando", "FL", 1],
+      ["Paramus", "NJ", 1],
+      ["Saint Louis", "MO", 1],
+      ["San Juan", "PR", 1],
+      ["Santa Clara", "CA", 1],
+      ["Schaumburg", "IL", 1],
+      ["Scottsdale", "AZ", 1],
+      ["costa mesa", "CA", 1]
+    ]
+  },
+  "cities": "28 full-price US stores — FL, CA, NY, TX lead; none in the Boston market · 15 outlets besides · dept & specialty",
+  "region": {
+    "o": [303, 428, 429],
+    "s": [64]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "name": "Kith",
+  "band": "premium",
+  "seat": 60,
+  "dagger": 0,
+  "focus": {
+    "tech": 2,
+    "comfort": 3,
+    "craft": 2,
+    "style": 5
+  },
+  "fabric": {
+    "denim": 2,
+    "cashmere": 2,
+    "linen": 1,
+    "cotton": 3,
+    "wool": 1,
+    "synth": 2
+  },
+  "dials": {
+    "reach": 2,
+    "dur": 2,
+    "forg": 3,
+    "fuss": -1,
+    "bruv": 3,
+    "shoes": 3,
+    "status": 3,
+    "ivy": 2,
+    "murica": 3,
+    "street": 5
+  },
+  "why": "Ronnie Fieg's retail theater — a house label atop a taste empire.",
+  "origin": "Ronnie Fieg, NYC, 2011 — a footwear savant's retail vision grown into a house label.",
+  "opview": "“Just Us” — Fieg's motto.",
+  "chan": ["O"],
+  "conf": "L",
+  "forgc": [5, 3, 1],
+  "shop": "https://kith.com/search?q=",
+  "onething": {
+    "p": "Williams hoodie",
+    "u": "https://kith.com/search?q=Williams%20hoodie%20men",
+    "n": "verified ✓"
+  },
+  "prices": [[55, 95], [95, 150], [130, 190], [160, 250], [140, 220], "?", "?", "?"],
+  "shoelink": {
+    "t": "shoes",
+    "u": "https://kith.com/search?q=shoes"
+  },
+  "notes": {
+    "cotton": "heavyweight house blanks",
+    "street": "the sneaker shop that became a house — retail theater as street institution"
+  },
+  "doors": {
+    "c": "full",
+    "n": 15,
+    "cities": [
+      ["Beverly Hills", "CA", 1],
+      ["Bridgehampton", "NY", 1],
+      ["Brooklyn", "NY", 3],
+      ["Chicago", "IL", 1],
+      ["Dallas", "TX", 1],
+      ["Honolulu", "HI", 1],
+      ["Malibu", "CA", 1],
+      ["Miami", "FL", 1],
+      ["Miami Beach", "FL", 1],
+      ["New York", "NY", 3],
+      ["West Hollywood", "CA", 1]
+    ]
+  },
+  "cities": "Own shops only — no wholesale · NYC, Brooklyn, Miami, LA & beyond",
+  "region": {
+    "o": [610, 611, 612, 613, 614, 615],
+    "s": []
+  },
+  "addmen": true
+}
