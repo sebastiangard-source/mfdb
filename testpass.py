@@ -404,7 +404,7 @@ with sync_playwright() as p:
     # Derived: this asserted 3 and went to 5 when the Mid-Atlantic shops gave more brands
     # a stockist. The invariant is that a card shows the line exactly when a record exists.
     want = pg.evaluate('''()=>[...document.querySelectorAll(".whycard")]
-      .filter(c=>{const n=c.innerText.split("\\n")[0].replace(/\\(.*\\)$/,"").trim();
+      .filter(c=>{const n=c.querySelector("h4").textContent.replace(/\\(.*\\)$/,"").trim();
                   return !!regionFigures(n);}).length''')
     ck('why cards carry it exactly where a record exists',
        sum(1 for x in wc if REGION_NAME in x)==want,
@@ -757,6 +757,18 @@ with sync_playwright() as p:
     ck('Space on a dial label opens it', pg.eval_on_selector('#dialView','e=>e.classList.contains("show")'))
     ck('label has a button role', pg.eval_on_selector('.dial[data-attr="prep"] .dl','e=>e.getAttribute("role")')=='button')
     ck('label reachable by tab', pg.eval_on_selector('.dial[data-attr="prep"] .dl','e=>e.getAttribute("tabindex")')=='0')
+
+    head('sheet opens at the top')
+    pg.set_viewport_size({'width':390,'height':844})
+    pg.goto(url); pg.reload(); pg.wait_for_timeout(500)
+    pg.click('.brand:has-text("Hiroshi Kato")'); pg.wait_for_timeout(300)
+    pg.evaluate("document.getElementById('hoverCard').scrollTop=400"); pg.wait_for_timeout(100)
+    pg.click('#hoverCard .hc-close'); pg.wait_for_timeout(200)
+    pg.click('.brand:has-text("Sugar Cane")'); pg.wait_for_timeout(300)
+    ck('a second card on the phone opens scrolled to the top', pg.evaluate("document.getElementById('hoverCard').scrollTop")==0)
+    ck('the card carries the details link in its header', pg.evaluate("!!document.querySelector('#hoverCard .hc-head a.detail-link')"))
+    ck('the header holds the close button beside the link', pg.evaluate("!!document.querySelector('#hoverCard .hc-head .hc-close')"))
+    ck('no card foot remains', pg.evaluate("!document.querySelector('#hoverCard .hc-foot')"))
 
     head('prev / next')
     pg.set_viewport_size({'width':1400,'height':1000})

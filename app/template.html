@@ -241,6 +241,7 @@
     border-top:1px solid rgba(0,0,0,.07);
     border-radius:0 0 9px 9px; pointer-events:none}
   #hoverCard h4{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:0 0 5px;color:var(--lf-green)}
+  .hc-head{display:flex;justify-content:space-between;align-items:center;gap:10px;margin:0 0 6px}
   #hoverCard .hc-scores{font-size:11px;letter-spacing:.04em;color:var(--ink-faint);margin:0 0 7px;font-variant-numeric:tabular-nums}
   #hoverCard p{margin:0;font-size:12.5px;line-height:1.55;color:var(--ink-soft)}
   #hoverCard .hc-note{margin-top:7px;font-size:12px;line-height:1.5;color:var(--ink-soft)}
@@ -560,8 +561,10 @@
       border-radius:16px 16px 0 0;box-shadow:0 -12px 40px rgba(18,45,32,.35);
       z-index:120;
     }
+    #hoverCard.show .hc-head{position:sticky;top:-14px;z-index:2;margin:-14px -17px 8px;padding:12px 17px 8px;
+      background:var(--linen,#F5EFE4)}
     #hoverCard.show .hc-close{
-      display:block;position:sticky;top:0;margin-left:auto;
+      display:block;margin-left:auto;
       background:var(--lf-green);color:#F2ECDD;border:none;border-radius:999px;
       width:30px;height:30px;font-size:15px;line-height:1;cursor:pointer;
     }
@@ -873,8 +876,10 @@
       max-width:none;width:auto;max-height:82vh;overflow-y:auto;
       border-radius:16px 16px 0 0;box-shadow:0 -12px 40px rgba(18,45,32,.35);z-index:120;
     }
+    #hoverCard.show .hc-head{position:sticky;top:-14px;z-index:2;margin:-14px -17px 8px;padding:12px 17px 8px;
+      background:var(--linen,#F5EFE4)}
     #hoverCard.show .hc-close{
-      display:block;position:sticky;top:0;margin-left:auto;
+      display:block;margin-left:auto;
       background:var(--lf-green);color:#F2ECDD;border:none;border-radius:999px;
       width:32px;height:32px;font-size:15px;line-height:1;cursor:pointer;
     }
@@ -1628,7 +1633,7 @@ function regionLineHTML(name, compact){
   return `<p class="whycity hc-region"><b>${REGION_NAME}:</b> ${bits.join(", ")} `
        + `across ${states} state${states===1?"":"s"} ${tail}${gap}</p>`;
 }
-function hoverCardHTML(el){
+function hoverCardHTML(el, withClose){
   const name = el.textContent;
   const strong = FKEYS.filter(k=>+el.dataset[k]>=4);
   const sc = traitLine(el);
@@ -1643,9 +1648,10 @@ function hoverCardHTML(el){
   const where = CITIES[name] ? `<p class="whycity">${CITIES[name]}</p>` : "";
   const origin = ORIGIN[name] ? `<p class="hc-note"><b>Origin:</b> ${ORIGIN[name]}</p>` : "";
   const opv = OPVIEW[name] ? `<p class="hc-note"><b>In their words:</b> ${OPVIEW[name]}</p>` : "";
-  return `<h4>${name}${sayHTML(name)}</h4>
+  return `<div class="hc-head">${detailLink(name)}${withClose ? '<button class="hc-close" aria-label="Close">\u00d7</button>' : ''}</div>
+    <h4>${name}${sayHTML(name)}</h4>
     <div class="hc-scores">${sc}</div>
-    <p>${WHY[name] || ""}</p>${origin}${opv}${shop}${where}${regionLineHTML(name, true)}${shoeLineHTML(name)}${pricesStripHTML(name)}${oneThingHTML(name)}<div class="hc-foot">${detailLink(name)}</div>`;
+    <p>${WHY[name] || ""}</p>${origin}${opv}${shop}${where}${regionLineHTML(name, true)}${shoeLineHTML(name)}${pricesStripHTML(name)}${oneThingHTML(name)}`;
 }
 // Remembered so the card can be put back against its brand after a scroll or a
 // resize. Placed once and left, it floated over the footer while its row moved on.
@@ -1710,6 +1716,10 @@ function showHoverCard(el){
     hoverCard.style.left = ""; hoverCard.style.top = "";
     hoverCard.style.maxHeight = ""; hoverCard.style.overflowY = "";
     hoverCard.classList.add("show");
+    // The sheet keeps the scroll position of the last card, so the next one opened
+    // part-way down with its name off the top. Reset after show — a hidden element
+    // has no scroll box, so resetting before is a no-op.
+    hoverCard.scrollTop = 0;
   } else {
     placeHoverCard(el);
   }
@@ -2069,6 +2079,10 @@ function renderDetail(name){
     <h2>${esc(name)}${sayHTML(name)}</h2>
     <p class="dv-sub">${esc(band)} &middot; diagnostic view &middot; 0 = register not represented</p>
     ${navHTML("brand", brandNeighbours(name), x=>x, x=>x)}
+    ${p(WHY[name])}
+    ${p(ORIGIN[name] ? "<b>Origin:</b> " + ORIGIN[name] : "")}
+    ${p(OPVIEW[name] ? "<b>In their words:</b> " + OPVIEW[name] : "")}
+    ${doorsHTML(name)}
     ${pricesHTML(name)}
     <h3>Attributes</h3>${chipsFor(el, ATTRKEYS, attrScored)}${notesFor(el, ATTRKEYS)}
     <h3>Fabrics</h3>${chipsFor(el, FKEYS, fabScored)}${notesFor(el, FKEYS)}${fibreLineHTML(name)}
@@ -2094,12 +2108,8 @@ function renderDetail(name){
              + `<span style="color:var(--ink-faint);font-size:11.5px">\u00b7 ${prov}</span><br>${link}`
              + (o.n ? `<br><span style="color:var(--ink-faint)">${esc(o.n)}</span>` : "")
              + `</p>`;})()}
-    <h3>Summary</h3>
-    ${p(WHY[name])}
-    ${p(ORIGIN[name] ? "<b>Origin:</b> " + ORIGIN[name] : "")}
-    ${p(OPVIEW[name] ? "<b>In their words:</b> " + OPVIEW[name] : "")}
-    ${p(CITIES[name] ? "<b>Where:</b> " + CITIES[name] : "")}
-    ${doorsHTML(name)}
+    <h3>Where</h3>
+    ${p(CITIES[name] ? CITIES[name] : "")}
     ${p("<b>Trait line:</b> " + (traitLine(el) || "(none — no dial at 4 or 5)"))}`;
   // A new brand starts at the top. Without this the overlay keeps the scroll
   // position of the brand you were just reading, so the next one opens midway down.
@@ -2685,7 +2695,7 @@ function renderWhy(active){
         });
       if(links.length) shop = `<p class="whyshop">Shop: ${links.join(" · ")}</p>`;
     }
-    return `<div class="whycard"><h4>${name}${sayHTML(name)}</h4><p>${why} It holds this cut on ${clauses.join("; ")}.</p>${shop}${where}${regionLineHTML(name, true)}${shoeLineHTML(name)}${pricesStripHTML(name)}${oneThingHTML(name)}<div class="hc-foot">${detailLink(name)}</div></div>`;
+    return `<div class="whycard"><div class="hc-head">${detailLink(name)}</div><h4>${name}${sayHTML(name)}</h4><p>${why} It holds this cut on ${clauses.join("; ")}.</p>${shop}${where}${regionLineHTML(name, true)}${shoeLineHTML(name)}${pricesStripHTML(name)}${oneThingHTML(name)}</div>`;
   }).join("");
   whyPanel.hidden = false;
 }
@@ -3092,12 +3102,13 @@ const hcEl = document.getElementById('hoverCard');
 document.querySelectorAll('.brand').forEach(b=>{
   b.addEventListener('click', (e)=>{
     if(b.classList.contains('out')) return;
-    hcEl.innerHTML = '<button class="hc-close" aria-label="Close">\u00d7</button>' + hoverCardHTML(b);
+    hcEl.innerHTML = hoverCardHTML(b, true);
     hcEl.dataset.brand = b.textContent.trim();
     document.querySelectorAll('.brand[aria-selected="true"]')
             .forEach(x=>x.setAttribute('aria-selected','false'));
     b.setAttribute('aria-selected','true');
     hcEl.classList.add('show','pinned');
+    hcEl.scrollTop = 0; // after show: a hidden element has no scroll box to reset
     // As a bottom sheet the CSS positions it. Anywhere else it has to be placed
     // against the brand, or it keeps whatever position it last had — which on a
     // landscape phone put it 1,982px down a 390px-tall window.
