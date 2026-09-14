@@ -100,7 +100,12 @@ with sync_playwright() as p:
     ck('all dial groups open by default',
        all(pg.eval_on_selector_all('.grp','e=>e.map(x=>x.open)')))
     ck('channel chips are gone', pg.eval_on_selector_all('.chip','e=>e.length')==0)
-    ck('golfiness dial is gone', pg.eval_on_selector_all('.dial[data-attr="golf"]','e=>e.length')==0)
+    # Removed once, restored 14 Sep: Golffice answers course-vs-office, not how much
+    # golf runs the brand, and both questions were being asked.
+    ck('golfiness dial is back, once, at the top of Culture',
+       pg.eval_on_selector_all('.dial[data-attr="golf"]','e=>e.length')==1 and
+       pg.eval_on_selector_all('.grp .gbody .dial','e=>e.map(x=>x.dataset.attr)').index('golf') ==
+       pg.eval_on_selector_all('.grp .gbody .dial','e=>e.map(x=>x.dataset.attr)').index('status')-1)
     ck('the four two-way dials sit in one row',
        pg.eval_on_selector_all('.birow .dial','e=>e.map(x=>x.dataset.attr)')==['fuss','golffice','bruv','sail'])
     ck('no two-way dial is left in a group',
@@ -769,6 +774,18 @@ with sync_playwright() as p:
     ck('the card carries the details link in its header', pg.evaluate("!!document.querySelector('#hoverCard .hc-head a.detail-link')"))
     ck('the header holds the close button beside the link', pg.evaluate("!!document.querySelector('#hoverCard .hc-head .hc-close')"))
     ck('no card foot remains', pg.evaluate("!document.querySelector('#hoverCard .hc-foot')"))
+
+    head('golfiness dial')
+    pg.set_viewport_size({'width':1400,'height':1000})
+    pg.goto(url); pg.reload(); pg.wait_for_timeout(500)
+    ck('golfiness dial is on the rail', pg.evaluate("!!document.querySelector('.dial[data-attr=\"golf\"] input[type=range]')"))
+    pg.evaluate("()=>{const d=document.querySelector('.dial[data-attr=\"golf\"] input[type=range]'); d.value=5; d.dispatchEvent(new Event('input',{bubbles:true})); d.dispatchEvent(new Event('change',{bubbles:true}));}")
+    pg.wait_for_timeout(300)
+    shown = pg.evaluate("[...document.querySelectorAll('.brand:not(.out)')].map(b=>b.textContent.trim())")
+    want = pg.evaluate("[...document.querySelectorAll('.brand')].filter(b=>+b.dataset.golf===5).map(b=>b.textContent.trim())")
+    ck('golfiness at 5 shows exactly the brands scored 5', sorted(shown)==sorted(want), f'{len(shown)} shown vs {len(want)} scored')
+    ck('golfiness at 5 shows the pro-shop natives', all(b in shown for b in ['Rhoback','Criquet','Malbon','Peter Millar']))
+    pg.evaluate("()=>{const d=document.querySelector('.dial[data-attr=\"golf\"] input[type=range]'); d.value=0; d.dispatchEvent(new Event('input',{bubbles:true})); d.dispatchEvent(new Event('change',{bubbles:true}));}")
 
     head('prev / next')
     pg.set_viewport_size({'width':1400,'height':1000})
