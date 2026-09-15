@@ -686,3 +686,22 @@ x/xh stored as % of styles (the seated seven's convention), not counts. NATURAL 
 - Lemaire: t 283->94 n/s/c 85/14/0->93/6/0 x/xh 2/0->5/1
 
 ## 2026-09-15 · register · Louie, South Weymouth added as place 807; 16 mapped brands gain it as a stockist [https://www.louiestyle.com/ Brands menu, 15 Sep]
+
+## 2026-09-15 · fibre_pass_2026-09-14 · cleanup round
+
+- Everlane: t 358->358 w 195->195 n/s/c 51/4/0->51/4/0 x/xh 13/4->13/4
+- Marine Layer: t 318->318 w 304->304 n/s/c 71/20/5->71/20/5 x/xh 30/5->30/5
+- Vuori: t 285->285 w 285->285 n/s/c 25/75/0->25/75/0 x/xh 67/49->67/49
+- Patagonia: t 518->518 w 515->515 n/s/c 32/67/0->32/67/0 x/xh 19/13->20/13
+- Rhone: t 454->454 w 384->384 n/s/c 14/68/3->14/68/3 x/xh 57/50->57/50
+- TravisMathew: t 1415->1415 w 1101->1101 n/s/c 39/37/2->39/37/2 x/xh 31/27->31/27
+- Malbon: t 256->256 w 244->244 n/s/c 41/52/2->41/52/2 x/xh 38/35->38/35
+- Redvanly: t 163->163 w 161->161 n/s/c 21/77/1->21/77/1 x/xh 89/87->89/87
+- Proper Cloth: t 4957->4918 w 4849->4811 n/s/c 93/3/2->93/3/2 x/xh 19/4->19/4
+- Baracuta: t 56->56 w 50->50 n/s/c 73/16/0->73/16/0 x/xh 4/0->4/0
+- Scotch & Soda: t 638->631 w 554->553 n/s/c 70/10/7->70/10/7 x/xh 19/1->19/1
+- Ksubi: t 353->498 w 319->441 n/s/c 85/4/1->83/4/2 x/xh 18/0->15/0
+- Brooks Brothers: t 1017->961 w 1008->955 n/s/c 93/6/0->93/6/0 x/xh 34/10->32/11
+- Sid Mashburn: t 300->289 w 299->289 n/s/c 99/1/0->99/1/0 x/xh 7/1->7/0
+- Zegna: t 386->383 w 385->382 n/s/c 98/1/1->98/1/1 x/xh 7/2->7/2
+- Scotch & Soda held by the thread (two composition sources disagree; needs one joint restatement). Hermès still denominator-only. Lululemon stretch still held.
