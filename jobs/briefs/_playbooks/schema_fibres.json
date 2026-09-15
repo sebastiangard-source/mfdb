@@ -1,0 +1,86 @@
+{
+  "not_checked": "NC",
+  "fibres": [
+    "cotton",
+    "wool",
+    "linen",
+    "silk",
+    "cashmere",
+    "hemp",
+    "alpaca",
+    "mohair",
+    "camel",
+    "vicuna",
+    "yak",
+    "leather",
+    "down",
+    "other-natural",
+    "viscose",
+    "modal",
+    "lyocell",
+    "cupro",
+    "acetate",
+    "triacetate",
+    "other-cellulosic",
+    "polyester",
+    "polyamide",
+    "elastane",
+    "acrylic",
+    "polypropylene",
+    "polyurethane",
+    "elastolefin",
+    "elastomultiester",
+    "other-synthetic",
+    "metal",
+    "glass",
+    "mineral",
+    "other"
+  ],
+  "columns": [
+    {
+      "name": "brand",
+      "type": "key"
+    },
+    {
+      "name": "fibre",
+      "type": "enum",
+      "values": "see fibres"
+    },
+    {
+      "name": "fibre_house",
+      "type": "str"
+    },
+    {
+      "name": "styles_leading",
+      "type": "int",
+      "range": [
+        0,
+        99999
+      ]
+    },
+    {
+      "name": "styles_any",
+      "type": "int",
+      "range": [
+        0,
+        99999
+      ]
+    },
+    {
+      "name": "median_pct",
+      "type": "int",
+      "range": [
+        0,
+        100
+      ]
+    },
+    {
+      "name": "source",
+      "type": "provenance"
+    },
+    {
+      "name": "note",
+      "type": "str"
+    }
+  ]
+}

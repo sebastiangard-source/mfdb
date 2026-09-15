@@ -12,10 +12,11 @@ two? The answer is a **count of styles**, and every figure has a URL behind it.
 
 ## What you return
 
-Three files: `return.csv`, one row per brand; `return_categories.csv`, one row per brand **per
-product category**, which is where the finding actually lives; and `NOTE.md` saying what you read,
-what you could not reach, what contradicted the brief, and what the brief got wrong. No summaries
-in place of data, no working files, no rebuilt tools.
+Four files: `return.csv`, one row per brand; `return_categories.csv`, one row per brand **per
+product category**, which is where the finding actually lives; `return_fibres.csv`, one row per
+brand **per fibre**, which says what the synthetic and cellulosic buckets are actually made of;
+and `NOTE.md` saying what you read, what you could not reach, what contradicted the brief, and
+what the brief got wrong. No summaries in place of data, no working files, no rebuilt tools.
 
 The brand row is the roll-up of its category rows: `styles_total` is their sum, the percentages
 are computed from them, and `shape`, `synthetic_categories` and `natural_categories` are read off
@@ -99,6 +100,9 @@ Reconcile at least two of feed, sitemap and the house's own listing count before
 - **The vendor field is not the boundary.** Arpenteur's 17 shoes are Paraboot and Veja under its own
   vendor string. Judge third-party goods by product code, name and collection.
 - **A product type is not a fibre.** J.Press's "College Silks" are 102 glass paperweights.
+- **Merchandising tiles arrive in a feed as products.** Tibi's `/products.json` carries 122
+  "Content Block" and "PDW" records, 24 of them with real category tags, so a category filter alone
+  does not remove them; catch them on title. Patagonia's colourway tiles are the same trap.
 - **Unbounded substring scope filters delete garments.** `/glove/` removed the "Gloverall Monty
   Duffle Coat"; `/tie/` a "Tie-Dye" shirt; `/bag/` two garments in colour "Shopping Bag Brown".
   Match on category, not on substrings of titles.
@@ -145,7 +149,7 @@ return the denominator with the rest `NC`; that is a finding.
   Detect the order per house and parse once; running both orders double-counts.
 - **Fibres are not always words.** Aspesi uses EU codes: `80%PL 20%PA`, `WS 100%`, `50%WY 50%WO`.
 - **Accents and misspellings are a coverage hole:** `élastane`, `ELASTHANE`, `Elastine`, `POLIAMYDE`,
-  `casmere`, `Vicuña` (which handed a 97% vicuña knit to silk). Match accent-folded; keep a list.
+  `casmere`, `Cashere`, `Vicuña` (which handed a 97% vicuña knit to silk). Match accent-folded; keep a list.
 - **Pre-strip fabric grades** — `Super 140's Wool` parses to the fibre "Super". But `100% SUPER
   GEELONG WOOL` is a wool type; take the fibre class by keyword inside the percentage chunk.
 - **Element boundaries split fields silently.** A `<br>` inside Boggi's field returned 984 of 989 as
@@ -184,7 +188,9 @@ house's own category label as it appears in its navigation or feed (`category_ho
 to one of the standard set (`category`):
 
 `tees-polos` · `shirts` · `knitwear` · `sweats` · `trousers` · `denim` · `shorts` · `tailoring`
-(suits, sport coats, blazers, waistcoats) · `outerwear` · `underwear-swim` · `other` (say what)
+(suits, sport coats, blazers, waistcoats) · `outerwear` · `underwear-swim` · `dresses` · `skirts` ·
+`jumpsuits` · `other` (say what). The last three exist for houses outside the men's map; on a men's
+row they are empty.
 
 One style, one category. Where the house's taxonomy overlaps (Stone Island lists anoraks under
 shirts and coats; Zegna has an `underwear-socks` node), assign by the garment, not by the first
@@ -197,7 +203,33 @@ synthetic-led while another is natural-led; `synthetic_categories` lists the syn
 categories by their house label; `natural_categories` the top three natural-led by style count.
 Underwear and swim are excluded from that verdict but present in the table.
 
-### 7. Compute and record
+### 7. Fibres — what the buckets are made of
+
+You already parse every fibre in every composition to find the leader. Keep the by-product. For
+each brand, one row per fibre that appears anywhere on a main fabric line, with:
+
+- `fibre` from the standard list below; `fibre_house` as the house writes it (`ELASTHANE`, `PL`,
+  `Cashere`, `TENCEL™ Lyocell`) so the mapping can be audited.
+- `styles_leading` — styles where this fibre has the highest share.
+- `styles_any` — styles where it appears at all on the main line.
+- `median_pct` — its median share across the styles where it appears.
+- `styles_with_composition` on the brand, so the two counts can be read as shares.
+
+Standard fibre list. **Do not collapse cellulosics into viscose**: modal and lyocell are different
+fibres with different provenance and hand, and the whole point of this file is to tell them apart.
+
+| class | fibres |
+|---|---|
+| natural | cotton · wool · linen · silk · cashmere · hemp · alpaca · mohair · camel · vicuña · yak · leather · down · other-natural (say what) |
+| cellulosic | viscose (incl. rayon, EcoVero) · modal · lyocell (incl. TENCEL) · cupro · acetate · triacetate · other-cellulosic |
+| synthetic | polyester · polyamide (nylon) · elastane (spandex, Lycra) · acrylic · polypropylene · polyurethane · elastolefin (XLANCE) · elastomultiester · other-synthetic (say what) |
+| other | metal · glass · mineral · other (say what) — should be scope leaks; report them |
+
+A fibre a house names by trademark — TENCEL, EcoVero, Lycra, Coolmax, Sorona — maps to its class
+fibre, with the trademark kept in `fibre_house`. A brand-named cloth ("Tropical Wool") is not a fibre
+and does not get a row; its composition does.
+
+### 8. Compute and record
 
 Percentages are of **all** styles in scope, undisclosed included; `styles_with_composition` carries
 coverage. Count the numerator and denominator on the **same style set** — Vuori's underwear moved
@@ -222,6 +254,14 @@ the rest.
 A worked block, Peter Millar: `tees-polos | Polos & shirts | 188 | 188 | 31 | 69 | 0 | 121 | 114`,
 `knitwear | Sweaters | 61 | 61 | 92 | 8 | 0 | 4 | 0`, `tailoring | Sport coats & suits | 27 | 27 |
 96 | 4 | 0 | 6 | 0` — three rows that say more than "46% natural, split" ever did.
+
+**`return_fibres.csv`** — one row per brand per fibre:
+`brand` · `fibre` (standard list) · `fibre_house` (as written; `;`-joined if several spellings) ·
+`styles_leading` · `styles_any` · `median_pct` · `source` · `note`.
+
+A worked block, Tibi (from the thread's own asides, to be replaced by the return): `polyester |
+Polyester | 349 | … `, `viscose | Viscose; Rayon | … | 65 | …`, `acetate | … | 59`, `lyocell |
+Lyocell; TENCEL™ | … | 27`.
 
 **`return.csv`** — one row per brand, the roll-up:
 `brand` (exactly as in `canonical_keys.txt`; run `reconcile.py` before returning) · `styles_total` ·
