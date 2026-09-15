@@ -1,0 +1,91 @@
+{
+  "not_checked": "NC",
+  "columns": [
+    {
+      "name": "brand",
+      "type": "key"
+    },
+    {
+      "name": "style_code",
+      "type": "str"
+    },
+    {
+      "name": "title",
+      "type": "str"
+    },
+    {
+      "name": "url",
+      "type": "url"
+    },
+    {
+      "name": "category",
+      "type": "enum",
+      "values": [
+        "tees-polos",
+        "shirts",
+        "knitwear",
+        "sweats",
+        "trousers",
+        "denim",
+        "shorts",
+        "tailoring",
+        "outerwear",
+        "underwear-swim",
+        "dresses",
+        "skirts",
+        "jumpsuits",
+        "other"
+      ]
+    },
+    {
+      "name": "category_house",
+      "type": "str"
+    },
+    {
+      "name": "lines",
+      "type": "str"
+    },
+    {
+      "name": "composition",
+      "type": "str"
+    },
+    {
+      "name": "lead_fibre",
+      "type": "str"
+    },
+    {
+      "name": "lead_pct",
+      "type": "int",
+      "range": [
+        0,
+        100
+      ]
+    },
+    {
+      "name": "elastane_pct",
+      "type": "int",
+      "range": [
+        0,
+        100
+      ]
+    },
+    {
+      "name": "pure",
+      "type": "enum",
+      "values": [
+        "natural",
+        "synthetic",
+        "cellulosic",
+        "blend"
+      ]
+    },
+    {
+      "name": "single_fibre",
+      "type": "str"
+    },
+    {
+      "name": "note",
+      "type": "str"
+    }
+  ]
+}

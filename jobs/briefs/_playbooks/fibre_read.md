@@ -12,11 +12,11 @@ two? The answer is a **count of styles**, and every figure has a URL behind it.
 
 ## What you return
 
-Five files: `return.csv`, one row per brand; `return_categories.csv`, one row per brand **per
-product category**, which is where the finding actually lives; `return_fibres.csv`, one row per
-brand **per fibre**, which says what the synthetic and cellulosic buckets are actually made of;
-`return_lines.csv`, one row per brand **per named line**, which finds the lines inside a house that
-are all one thing; and `NOTE.md` saying what you read, what you could not reach, what contradicted the brief, and
+Six files. `return_styles.csv`, one row **per style**, is the layer everything else is derived
+from and the one that must be kept: with it a house can be re-cut on any future rule without a page
+being re-read, and every aggregate can be checked against it. Then `return.csv`, one row per brand;
+`return_categories.csv`, one row per brand **per product category**; `return_fibres.csv`, one row
+per brand **per fibre**; `return_lines.csv`, one row per brand **per named line**; and `NOTE.md` saying what you read, what you could not reach, what contradicted the brief, and
 what the brief got wrong. No summaries in place of data, no working files, no rebuilt tools.
 
 The brand row is the roll-up of its category rows: `styles_total` is their sum, the percentages
@@ -254,7 +254,21 @@ Report the verdicts in `NOTE.md` as the headline: **which lines in this house ar
 which wholly synthetic, and how much of the range they account for.** That, not the brand average,
 is what a reader planning to walk in wants to know.
 
-### 9. Compute and record
+### 9. Styles — keep the layer underneath
+
+Every aggregate above is computed from a per-style table you already hold. Return it. One row per
+style, in scope, with: the house's style code; the title as written; the canonical product URL;
+the standard category and the house's label; the named lines it belongs to (`;`-joined, blank if
+none); the composition string exactly as the house wrote it; the parsed leading fibre and its
+share; the elastane share on the main line (0 if none); a `pure` flag — `natural` when every fibre
+on the main line is natural, `synthetic` or `cellulosic` likewise, `blend` otherwise; and
+`single_fibre` — the fibre name when the main line is 100% one fibre, else blank. Colourway
+records collapse to one row; the URL is the first colourway's.
+
+This file answers the questions the aggregates cannot: which garments are 100% cotton, which are
+all-natural at any blend, what sits behind a line or a category, and where to buy the thing.
+
+### 10. Compute and record
 
 Percentages are of **all** styles in scope, undisclosed included; `styles_with_composition` carries
 coverage. Count the numerator and denominator on the **same style set** — Vuori's underwear moved
@@ -287,6 +301,11 @@ A worked block, Peter Millar: `tees-polos | Polos & shirts | 188 | 188 | 31 | 69
 A worked block, Tibi (from the thread's own asides, to be replaced by the return): `polyester |
 Polyester | 349 | … `, `viscose | Viscose; Rayon | … | 65 | …`, `acetate | … | 59`, `lyocell |
 Lyocell; TENCEL™ | … | 27`.
+
+**`return_styles.csv`** — one row per style in scope:
+`brand` · `style_code` · `title` · `url` · `category` · `category_house` · `lines` · `composition`
+(as written) · `lead_fibre` (standard list) · `lead_pct` · `elastane_pct` · `pure`
+(`natural|synthetic|cellulosic|blend`) · `single_fibre` (standard fibre or blank) · `note`.
 
 **`return_lines.csv`** — one row per brand per named line with five or more styles:
 `brand` · `line` (the house's name for it) · `line_kind` (`sub-line|collection|fabric-family|fit-family`) ·
