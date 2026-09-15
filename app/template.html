@@ -2965,6 +2965,8 @@ function fibreLineHTML(name){
   if(f.c) bits.push(`${f.c}% cellulosic`);
   if(f.x != null){
     bits.push(f.xh != null && f.xh ? `stretch in ${f.x}%, performance stretch in ${f.xh}%` : `stretch in ${f.x}%`);
+  } else if(f.st === "partial"){
+    bits.push(`stretch not yet counted`);
   }
   let shape;
   const lead = f.s > f.n && f.s > (f.c||0) ? "synthetic" : (f.c||0) > f.n ? "cellulosic" : "natural";

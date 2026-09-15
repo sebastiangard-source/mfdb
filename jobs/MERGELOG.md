@@ -611,3 +611,76 @@ x/xh stored as % of styles (the seated seven's convention), not counts. NATURAL 
 - Stefano Ricci: fibre new t=999 w=993 n/s/c=94/4/1 x/xh=13/3% one [https://www.stefanoricci.com/en-us/sitemap_0-product.xml]
 
 - seated seven: w set to t*(n+s+c)/100, the coverage their earlier figures imply (the read did not record it); xh null = not counted
+
+## 2026-09-15 · fibre_pass_2026-09-14 · scope restatement (clothing only; named fibre counts; exclusive-of-elastic out; down = shell)
+
+68 records changed, 124 unchanged, held ['Hermès']. Lululemon: split restated, x/xh null — the thread could not recount elastane on the clothing-only denominator (Akamai wall); previous 74/63 was on the all-product basis.
+
+- Levi's: t 396->365 n/s/c 88/8/0->91/7/1 x/xh 10/1->10/1
+- Carhartt: t 1472->361 n/s/c 17/10/0->62/27/1 x/xh 14/2->37/5
+- Lacoste: t 992->894 n/s/c 71/27/2->70/28/2 x/xh 28/17->24/17
+- Mack Weldon: t 232->232 n/s/c 59/33/8->59/33/8 x/xh 69/41->69/41
+- Charles Tyrwhitt: t 566->473 n/s/c 93/2/0->94/2/0 x/xh 32/3->22/4
+- Banana Republic: t 535->378 n/s/c 80/4/0->95/3/0 x/xh 9/0->11/1
+- Everlane: t 372->358 n/s/c 50/5/0->51/4/0 x/xh 14/4->13/4
+- Marine Layer: t 334->318 n/s/c 70/20/5->71/20/5 x/xh 28/4->30/5
+- Vuori: t 369->285 n/s/c 24/73/0->25/75/0 x/xh 60/42->67/49
+- Lululemon: t 968->784 n/s/c 18/66/4->15/70/5 x/xh 74/63->None/None
+- Alo: t 199->196 n/s/c 39/36/6->39/36/7 x/xh 29/25->30/26
+- Southern Tide: t 459->459 n/s/c 50/41/0->50/41/0 x/xh 54/37->54/37
+- Criquet: t 50->44 n/s/c 60/28/0->68/27/0 x/xh 36/24->41/27
+- Taylor Stitch: t 120->105 n/s/c 97/2/0->98/2/0 x/xh 3/1->2/0
+- Outerknown: t 128->111 n/s/c 79/16/0->82/15/0 x/xh 9/8->12/7
+- Rodd & Gunn: t 269->249 n/s/c 93/2/0->97/2/0 x/xh 16/1->15/1
+- Rhone: t 529->454 n/s/c 13/64/2->14/68/3 x/xh 56/43->57/50
+- J.Lindeberg: t 1784->1467 n/s/c 35/57/6->34/59/7 x/xh 33/22->33/22
+- TravisMathew: t 1958->1415 n/s/c 35/34/2->39/37/2 x/xh 26/22->31/27
+- Malbon: t 398->256 n/s/c 36/40/1->41/52/2 x/xh 27/21->38/35
+- Redvanly: t 242->163 n/s/c 16/72/1->21/77/1 x/xh 61/59->89/87
+- RLX: t 75->70 n/s/c 35/56/5->34/60/6 x/xh 63/61->67/66
+- johnnie-O: t 452->450 n/s/c 24/70/1->24/70/1 x/xh 76/64->76/64
+- Percival: t 586->466 n/s/c 72/6/2->73/7/2 x/xh 10/2->8/0
+- Wax London: t 271->228 n/s/c 90/6/2->91/7/2 x/xh 14/2->12/2
+- Hiroshi Kato: t 140->138 n/s/c 94/0/0->95/0/0 x/xh 64/10->60/10
+- Buck Mason: t 197->179 n/s/c 66/2/2->66/2/2 x/xh 4/1->3/1
+- Duck Head: t 89->67 n/s/c 81/13/1->81/16/2 x/xh 36/10->30/7
+- Wythe: t 118->87 n/s/c 76/1/3->80/1/5 x/xh 4/0->0/0
+- AYR: t 76->73 n/s/c 97/3/0->97/3/0 x/xh 7/0->5/0
+- Alex Mill: t 55->54 n/s/c 98/0/0->100/0/0 x/xh 2/0->2/0
+- Robert Barakett: t 75->47 n/s/c 63/16/1->68/21/2 x/xh 15/4->21/6
+- Patrick James: t 273->268 n/s/c 93/6/1->93/6/1 x/xh 12/2->12/2
+- Barbour: t 172->148 n/s/c 76/23/1->73/26/1 x/xh 11/2->12/2
+- Baracuta: t 67->56 n/s/c 78/13/0->73/16/0 x/xh 3/0->4/0
+- James Perse: t 294->278 n/s/c 91/9/0->91/9/0 x/xh 20/6->22/6
+- Y.Chroma: t 38->37 n/s/c 66/31/0->65/32/0 x/xh 55/32->57/32
+- Madhappy: t 455->383 n/s/c 91/2/1->97/1/1 x/xh 1/1->1/1
+- Kith: t 1428->1153 n/s/c 67/25/7->66/25/8 x/xh 18/5->17/6
+- Aimé Leon Dore: t 150->119 n/s/c 82/17/0->81/18/0 x/xh 2/1->2/1
+- Massimo Dutti: t 494->494 n/s/c 94/5/1->94/5/1 x/xh 6/2->6/2
+- J.McLaughlin: t 178->127 n/s/c 94/3/1->94/4/1 x/xh 13/0->11/0
+- Ted Baker: t 484->484 n/s/c 59/14/9->59/14/9 x/xh 17/4->17/4
+- Scotch & Soda: t 642->638 n/s/c 69/10/7->70/10/7 x/xh 19/1->19/1
+- NN07: t 226->203 n/s/c 86/10/4->85/10/4 x/xh 21/2->20/2
+- Samsøe Samsøe: t 137->123 n/s/c 75/15/6->74/15/7 x/xh 15/3->15/3
+- Les Deux: t 385->342 n/s/c 65/32/2->64/34/2 x/xh 19/8->22/9
+- Norse Projects: t 168->147 n/s/c 84/9/0->83/10/0 x/xh 10/0->9/0
+- Vollebak: t 131->118 n/s/c 41/52/3->42/51/3 x/xh 36/24->35/25
+- Club Monaco: t 126->112 n/s/c 85/11/4->83/13/4 x/xh 34/10->37/11
+- Purple: t 809->768 n/s/c 84/11/1->86/10/1 x/xh 20/1->21/1
+- Eleventy: t —->321 n/s/c —/—/—->10/1/0 x/xh —/—->None/None
+- J.Press: t 985->638 n/s/c 94/2/0->90/4/0 x/xh 1/0->1/0
+- Sandro: t 345->345 n/s/c 67/10/23->67/10/23 x/xh 23/3->23/3
+- Theory: t 192->192 n/s/c 67/14/18->67/14/18 x/xh 38/14->38/14
+- Luca Faloni: t 91->91 n/s/c 95/1/0->99/1/0 x/xh 10/0->10/0
+- Peserico: t 241->210 n/s/c 89/4/1->91/4/2 x/xh 20/2->21/2
+- Valstar: t 207->201 n/s/c 87/12/0->87/12/0 x/xh 4/0->4/0
+- Aspesi: t 218->218 n/s/c 75/23/1->75/23/1 x/xh 12/4->12/4
+- Paul & Shark: t 582->515 n/s/c 84/11/4->84/12/4 x/xh 11/6->12/6
+- Sease: t 357->327 n/s/c 87/9/0->92/8/0 x/xh 12/6->12/6
+- Etro: t 587->422 n/s/c 85/7/5->89/5/4 x/xh 9/0->13/0
+- Golden Goose: t 217->217 n/s/c 87/9/4->87/9/4 x/xh 8/1->8/1
+- Husbands: t 113->89 n/s/c 94/6/0->92/8/0 x/xh 1/0->1/0
+- Brioni: t 826->507 n/s/c 89/5/2->94/2/2 x/xh 5/0->7/0
+- Isaia: t 319->277 n/s/c 70/1/0->69/1/0 x/xh 8/1->9/1
+- The Row: t 311->232 n/s/c 97/2/1->97/2/1 x/xh 1/0->1/0
+- Lemaire: t 283->94 n/s/c 85/14/0->93/6/0 x/xh 2/0->5/1

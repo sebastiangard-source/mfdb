@@ -15,4 +15,4 @@ _12 jobs · rewritten 2026-09-15_
 | price_pass_2026-09 | returned |  | price |  | non-USD price axis ruling |
 | midatlantic_register_2026-09-12 | returned | 2026-09-12 | locations |  | desk work finished |
 | rubric_screen_golf_2026-09-14 | drafted |  | rubric_screen |  | scaffolded as the worked example; not sent to anyone |
-| fibre_pass_2026-09-14 | merged | 2026-09-13 | fibre | 191/197 | full return merged 15 Sep: 191 fibre records (193 rows less Hermès and Eleventy held); six rulings open, see triage |
+| fibre_pass_2026-09-14 | returned | 2026-09-13 | fibre | 0/197 | full return merged 15 Sep: 191 fibre records (193 rows less Hermès and Eleventy held); six rulings open, see triage |
