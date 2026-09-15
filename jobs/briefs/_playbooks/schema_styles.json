@@ -43,15 +43,18 @@
     },
     {
       "name": "lines",
-      "type": "str"
+      "type": "str",
+      "doc": "`;`-joined names of the named lines the style sits in; `-` for none"
     },
     {
       "name": "composition",
-      "type": "str"
+      "type": "str",
+      "doc": "ND when the page was read and states no composition"
     },
     {
       "name": "lead_fibre",
-      "type": "str"
+      "type": "str",
+      "doc": "ND when the page was read and states no composition"
     },
     {
       "name": "lead_pct",
@@ -59,7 +62,8 @@
       "range": [
         0,
         100
-      ]
+      ],
+      "doc": "ND when the page was read and states no composition"
     },
     {
       "name": "elastane_pct",
@@ -67,7 +71,8 @@
       "range": [
         0,
         100
-      ]
+      ],
+      "doc": "ND when the page was read and states no composition"
     },
     {
       "name": "pure",
@@ -76,16 +81,55 @@
         "natural",
         "synthetic",
         "cellulosic",
-        "blend"
+        "blend",
+        "undisclosed"
       ]
     },
     {
       "name": "single_fibre",
-      "type": "str"
+      "type": "enum",
+      "values": [
+        "cotton",
+        "wool",
+        "linen",
+        "silk",
+        "cashmere",
+        "hemp",
+        "alpaca",
+        "mohair",
+        "camel",
+        "vicuna",
+        "yak",
+        "leather",
+        "down",
+        "other-natural",
+        "viscose",
+        "modal",
+        "lyocell",
+        "cupro",
+        "acetate",
+        "triacetate",
+        "other-cellulosic",
+        "polyester",
+        "polyamide",
+        "elastane",
+        "acrylic",
+        "polypropylene",
+        "polyurethane",
+        "elastolefin",
+        "elastomultiester",
+        "other-synthetic",
+        "metal",
+        "glass",
+        "mineral",
+        "other",
+        "-"
+      ]
     },
     {
       "name": "note",
       "type": "str"
     }
-  ]
+  ],
+  "undisclosed": "ND"
 }

@@ -261,8 +261,11 @@ style, in scope, with: the house's style code; the title as written; the canonic
 the standard category and the house's label; the named lines it belongs to (`;`-joined, blank if
 none); the composition string exactly as the house wrote it; the parsed leading fibre and its
 share; the elastane share on the main line (0 if none); a `pure` flag — `natural` when every fibre
-on the main line is natural, `synthetic` or `cellulosic` likewise, `blend` otherwise; and
-`single_fibre` — the fibre name when the main line is 100% one fibre, else blank. Colourway
+on the main line is natural, `synthetic` or `cellulosic` likewise, `blend` otherwise, and
+`undisclosed` when the page was read and states no composition (distinct from `NC`, which means
+nobody looked; the numeric columns carry `ND` for the same state); and `single_fibre` — the
+standard fibre name when the main line is 100% one fibre, else `-` (blank is never legal).
+`lines` is `-` for a style in no named line. Colourway
 records collapse to one row; the URL is the first colourway's.
 
 This file answers the questions the aggregates cannot: which garments are 100% cotton, which are
@@ -304,8 +307,9 @@ Lyocell; TENCEL™ | … | 27`.
 
 **`return_styles.csv`** — one row per style in scope:
 `brand` · `style_code` · `title` · `url` · `category` · `category_house` · `lines` · `composition`
-(as written) · `lead_fibre` (standard list) · `lead_pct` · `elastane_pct` · `pure`
-(`natural|synthetic|cellulosic|blend`) · `single_fibre` (standard fibre or blank) · `note`.
+(as written, or `ND` when the page states none) · `lead_fibre` (standard list, or `ND`) · `lead_pct` ·
+`elastane_pct` (`ND` with the above) · `pure` (`natural|synthetic|cellulosic|blend|undisclosed`) ·
+`single_fibre` (standard fibre or `-`) · `note`.
 
 **`return_lines.csv`** — one row per brand per named line with five or more styles:
 `brand` · `line` (the house's name for it) · `line_kind` (`sub-line|collection|fabric-family|fit-family`) ·
