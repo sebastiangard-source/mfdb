@@ -473,8 +473,19 @@ def release(args):
     if not rels or rels[-1]['sha256'] != sha:
         rels.append({'v': ver, 'sha256': sha, 'bytes': len(html), 'date': TODAY, 'brands': len(data.brands)})
         open(rel, 'w').write(spec.dump(rels))
-    print(f'\nRELEASE v{ver}  {len(html):,} bytes  sha256 {sha}\n'
-          f'deploy: upload dist/index.html as index.new.html, then rename.')
+    print(f'\nRELEASE v{ver}  {len(html):,} bytes  sha256 {sha}')
+    if '--deploy' in args:
+        # Only a build that has just passed every gate reaches the deploy branch.
+        import shutil, tempfile
+        wt = tempfile.mkdtemp()
+        subprocess.run(['git', 'worktree', 'add', '-q', wt, 'deploy'], cwd=spec.ROOT, check=True)
+        shutil.copy(os.path.join(dist, 'index.html'), os.path.join(wt, 'index.html'))
+        subprocess.run(['git', 'add', 'index.html'], cwd=wt, check=True)
+        subprocess.run(['git', '-c', 'user.name=mfdb', '-c', 'user.email=mfdb@local', 'commit', '-qm', f'deploy v{ver} {sha[:8]}'], cwd=wt)
+        subprocess.run(['git', 'push', '-q', 'origin', 'deploy'], cwd=wt, check=True)
+        subprocess.run(['git', 'worktree', 'remove', '--force', wt], cwd=spec.ROOT)
+        print(f'deploy branch updated: v{ver} {sha[:8]}')
+    print('upload dist/index.html to public_html/mfdb as index.new.html, then rename.')
 
 
 if __name__ == '__main__':
