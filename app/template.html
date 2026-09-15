@@ -619,6 +619,10 @@
     font-weight:500;letter-spacing:.03em;color:var(--lf-green);background:rgba(18,59,43,.09);vertical-align:2px;cursor:pointer}
   .bo-region:hover,.bo-region:focus-visible{background:rgba(18,59,43,.2);outline:none}
   .bo-all{color:var(--lf-green);text-decoration:none;border-bottom:1px solid rgba(18,59,43,.35)}
+  .bo-routes{margin:2px 0 10px;display:flex;flex-wrap:wrap;gap:8px}
+  .bo-route{display:inline-block;padding:6px 13px;border-radius:14px;font-size:12.5px;text-decoration:none;
+    background:var(--lf-green);color:#F2ECDD}
+  .bo-route:hover{opacity:.88}
   #boutiquesView .bo-row{display:block;flex:1 1 auto;min-width:0;padding:8px 0;
     text-decoration:none;color:var(--ink);text-transform:none;letter-spacing:0}
   /* Outlined, not filled: on an index of a hundred rows a hundred solid buttons
@@ -2241,6 +2245,26 @@ function regionFromSlug(slug){
   return null;
 }
 function boutiquesHash(){ return boRegion ? "#boutiques=" + regionSlug(boRegion) : "#boutiques"; }
+// A Google Maps directions URL through every shop in the list, in the order given.
+// Maps takes ten stops per route, so a bigger region is split into consecutive legs.
+// Order is by postcode, a rough geographic sort with no coordinates on file; the
+// reader can drag stops in Maps. A shop with no street address goes by name and town,
+// which Maps resolves for a business.
+function routeStop(p){
+  return [p.n, p.a, p.c + " " + p.s, p.z].filter(Boolean).join(", ");
+}
+function routeLinks(rows){
+  const ordered = rows.slice().sort((a,b)=>(a.z||"").localeCompare(b.z||"") || a.c.localeCompare(b.c));
+  const legs = [];
+  for(let i = 0; i < ordered.length; i += 10) legs.push(ordered.slice(i, i + 10));
+  return legs.map((leg, k)=>{
+    const url = "https://www.google.com/maps/dir/" + leg.map(p=>encodeURIComponent(routeStop(p))).join("/");
+    const label = legs.length === 1
+      ? `open as a route in Google Maps \u2014 ${leg.length} stops \u2197`
+      : `route ${k + 1} of ${legs.length} \u2014 ${leg[0].c} to ${leg[leg.length - 1].c}, ${leg.length} stops \u2197`;
+    return `<a class="bo-route" href="${url}" target="_blank" rel="noopener">${label}</a>`;
+  }).join(" ");
+}
 function renderBoutiques(region){
   boRegion = region || null;
   const all = PLACES.map((p,i)=>[p,i]).filter(([p])=>p.k==="s")
@@ -2252,6 +2276,7 @@ function renderBoutiques(region){
     ? `<h2>${esc(boRegion)}</h2>`
       + `<p class="bo-lead">${idx.length} of the index\u2019s ${all.length} shops, A to Z. `
       + `<a class="bo-all" href="#boutiques">show all ${all.length} \u2192</a></p>`
+      + `<p class="bo-routes">${routeLinks(idx.map(([p])=>p))}</p>`
     : `<h2>Boutiques \u2014 ${REGION_NAME}</h2>`
       + `<p class="bo-lead">${idx.length} independent shops carrying brands from the map, `
       + `across ${states.size} states, A to Z. ${withStory} have their story written up. `
