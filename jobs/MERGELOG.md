@@ -684,3 +684,5 @@ x/xh stored as % of styles (the seated seven's convention), not counts. NATURAL 
 - Isaia: t 319->277 n/s/c 70/1/0->69/1/0 x/xh 8/1->9/1
 - The Row: t 311->232 n/s/c 97/2/1->97/2/1 x/xh 1/0->1/0
 - Lemaire: t 283->94 n/s/c 85/14/0->93/6/0 x/xh 2/0->5/1
+
+## 2026-09-15 · register · Louie, South Weymouth added as place 807; 16 mapped brands gain it as a stockist [https://www.louiestyle.com/ Brands menu, 15 Sep]
