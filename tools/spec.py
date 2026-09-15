@@ -94,7 +94,8 @@ def _fmt(o, ind):
 
 
 class Data:
-    def __init__(self, brands, places, changelog, rubric, bands, settings):
+    def __init__(self, brands, places, changelog, rubric, bands, settings, regions=None):
+        self.regions = regions or {}
         self.brands = brands          # list of records, in seat order
         self.places = places
         self.changelog = changelog
@@ -125,7 +126,7 @@ def load():
     def g(name):
         return json.load(open(os.path.join(DATA, name), encoding='utf8'))
     return Data(recs, g('places.json'), g('changelog.json'), g('rubric.json'),
-                g('bands.json'), g('settings.json'))
+                g('bands.json'), g('settings.json'), g('regions.json'))
 
 
 def save_brand(rec):
@@ -194,6 +195,7 @@ def consts(data):
     out['PLACES'] = data.places
     out['CHANGELOG'] = data.changelog
     out['RUBRIC'] = data.rubric
+    out['SUBREGION'] = collections.OrderedDict((f'{st}|{c}', lab) for st, labs in data.regions.items() for lab, cities in labs.items() for c in cities)
     for k, v in data.settings.items():
         out[k] = v
     return out

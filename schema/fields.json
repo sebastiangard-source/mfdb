@@ -593,6 +593,12 @@
       "keys": ["names", "origin", "marks", "source", "checked"],
       "absent": "not_assessed",
       "doc": "Per-brand evidence the tech score is checked against. names: yes|no|unclear. origin: house|licensed|both|none|unclear. Not a dial, not shown. Ruling 13 Sep: a mark counts only on men's product sold under the key; supplier marks only where the house leads with them."
+    },
+    "regions": {
+      "scope": "global",
+      "const": "SUBREGION",
+      "file": "regions.json",
+      "doc": "state -> sub-region label -> cities. Emitted as SUBREGION keyed 'ST|City'. Lint: every shop's city must map; an unmapped city is a GAP, never an untagged row."
     }
   },
   "price_slots": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants", "Sweater", "Outerwear", "Shoes"],

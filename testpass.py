@@ -599,9 +599,12 @@ with sync_playwright() as p:
        pg.evaluate("()=>[...document.querySelectorAll('#boutiquesView .bo-report')]"
                    ".every(a=>{const p=PLACES.find(x=>x.k==='s'&&storeString(x)===a.dataset.store);"
                    "return p && a.getAttribute('href')===visitUrl(p);})"))
-    want_states = pg.evaluate("()=>new Set(PLACES.filter(p=>p.k==='s').map(p=>p.s)).size")
-    got_states = len(pg.eval_on_selector_all('#boutiquesView .rv-state','e=>e.map(x=>x.textContent)'))
-    ck('index is grouped by state', got_states==want_states, f'{got_states} of {want_states}')
+    # Grouped by state until 15 Sep; now one alphabetical list with a region tag per row,
+    # and the tag set must cover every sub-region the data declares for the shops shown.
+    want_regions = pg.evaluate("()=>new Set(PLACES.filter(p=>p.k==='s').map(p=>SUBREGION[p.s+'|'+p.c])).size")
+    got_regions = len(set(pg.eval_on_selector_all('#boutiquesView .bo-region','e=>e.map(x=>x.textContent)')))
+    ck('index tags every declared sub-region', got_regions==want_regions, f'{got_regions} of {want_regions}')
+    ck('index is no longer grouped by state', pg.eval_on_selector_all('#boutiquesView .rv-state','e=>e.length')==0)
     ck('index states the regional limit',
        'register has not reached' in pg.eval_on_selector('#boBody','e=>e.innerText'))
     pg.eval_on_selector('#boutiquesView .bo-row','e=>e.click()'); pg.wait_for_timeout(380)
@@ -835,6 +838,10 @@ with sync_playwright() as p:
     snav = pg.evaluate("()=>{const n=document.querySelector('#shopBody .pg-nav'); return n? {next:n.querySelector('.pg-next')?.dataset.shop, at:n.querySelector('.pg-at').textContent} : null}")
     ck('stockist page carries a prev/next nav', snav is not None)
     ck('stockist next follows the boutiques index order', snav and snav['next']==slugs[1], f"{snav and snav['next']} vs {slugs[1]}")
+    names = pg.evaluate("()=>[...document.querySelectorAll('#boBody .bo-name')].map(e=>e.firstChild.textContent.trim().toLowerCase())")
+    ck('boutiques index is alphabetical', names==sorted(names), f'{[n for n,m in zip(names,sorted(names)) if n!=m][:3]}')
+    ck('every boutique row carries a region tag', pg.evaluate("[...document.querySelectorAll('#boBody .bo-line')].every(l=>l.querySelector('.bo-region')?.textContent.trim())"))
+    ck('Louie is tagged South Shore', pg.evaluate("[...document.querySelectorAll('#boBody .bo-line')].find(l=>l.textContent.includes('Louie'))?.querySelector('.bo-region').textContent")=='South Shore')
     ck('stockist nav says where it is', snav and snav['at']==f'1 of {len(slugs)}', snav and snav['at'])
     pg.keyboard.press('ArrowRight'); pg.wait_for_timeout(250)
     ck('arrow right pages the stockist view, not the brand view', pg.evaluate("location.hash")=='#shop='+slugs[1], pg.evaluate('location.hash'))

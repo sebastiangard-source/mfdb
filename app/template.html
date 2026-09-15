@@ -615,6 +615,8 @@
   #boutiquesView .bo-line{display:flex;align-items:center;gap:14px;max-width:760px;
     border-bottom:1px solid rgba(0,0,0,.08)}
   #boutiquesView .bo-line:hover{background:rgba(18,59,43,.05)}
+  .bo-region{display:inline-block;margin-left:9px;padding:2px 8px;border-radius:10px;font-size:10.5px;
+    font-weight:500;letter-spacing:.03em;color:var(--lf-green);background:rgba(18,59,43,.09);vertical-align:2px}
   #boutiquesView .bo-row{display:block;flex:1 1 auto;min-width:0;padding:8px 0;
     text-decoration:none;color:var(--ink);text-transform:none;letter-spacing:0}
   /* Outlined, not filled: on an index of a hundred rows a hundred solid buttons
@@ -1885,6 +1887,7 @@ function applyDials(){
 /*@@ONETHING@@*/
 /*@@PRICES@@*/
 /*@@RUBRIC@@*/
+/*@@SUBREGION@@*/
 const REGLOOKUP = {sail:SAIL,bruv:BRUV,golf:GOLF,status:STATUS,finbro:FINBRO,ivy:IVY,murica:MURICA,
                    ital:ITAL,fren:FREN,street:STREET,avant:AVANT,prep:PREP,weird:WEIRD,boat:BOAT,racquet:RACQUET,ski:SKI,scandi:SCANDI,briish:BRIISH,fuss:FUSS,dur:DUR,forg:FORG,reach:REACH,shoes:SHOES,golffice:GOLFFICE};
 const ATTRKEYS = ["tech","comfort","craft","style"];
@@ -2048,8 +2051,7 @@ function brandNeighbours(name){
 // Derived by the same sort the index uses, so the two can never disagree.
 function shopOrder(){
   const idx = PLACES.map((p,i)=>[p,i]).filter(([p])=>p.k==="s");
-  return idx.sort((a,b)=>(ST_NAME[a[0].s]||a[0].s).localeCompare(ST_NAME[b[0].s]||b[0].s)
-                        || a[0].c.localeCompare(b[0].c) || a[0].n.localeCompare(b[0].n))
+  return idx.sort((a,b)=>a[0].n.localeCompare(b[0].n, "en", {sensitivity:"base"}) || a[0].c.localeCompare(b[0].c))
             .map(([,i])=>i);
 }
 function shopNeighbours(i){
@@ -2229,33 +2231,31 @@ document.addEventListener("keydown", e=>{
 // has not been reached rather than judged out.
 const boutiquesView = document.getElementById("boutiquesView");
 const boBody = document.getElementById("boBody");
+function subregionOf(p){ return SUBREGION[p.s + "|" + p.c] || (ST_NAME[p.s] || p.s); }
 function renderBoutiques(){
-  const idx = PLACES.map((p,i)=>[p,i]).filter(([p])=>p.k==="s");
-  const states = [...new Set(idx.map(([p])=>p.s))]
-                 .sort((a,b)=>(ST_NAME[a]||a).localeCompare(ST_NAME[b]||b));
+  const idx = PLACES.map((p,i)=>[p,i]).filter(([p])=>p.k==="s")
+                    .sort((a,b)=>a[0].n.localeCompare(b[0].n, "en", {sensitivity:"base"}) || a[0].c.localeCompare(b[0].c));
+  const states = new Set(idx.map(([p])=>p.s));
   const withStory = idx.filter(([p])=>p.o && p.o.s).length;
   boBody.innerHTML =
       `<h2>Boutiques \u2014 ${REGION_NAME}</h2>`
     + `<p class="bo-lead">${idx.length} independent shops carrying brands from the map, `
-    + `across ${states.length} states. ${withStory} have their story written up.</p>`
+    + `across ${states.size} states, A to Z. ${withStory} have their story written up.</p>`
     + `<p class="bo-caveat">Independent stockists only \u2014 no brand-owned stores and no department `
     + `stores. A shop outside ${REGION_NAME} is absent because the register has not reached it. `
     + `Brand lists say what a shop buys, not what is on the rack today.</p>`
-    + states.map(st=>{
-        const rows = idx.filter(([p])=>p.s===st)
-                        .sort((a,b)=>a[0].c.localeCompare(b[0].c) || a[0].n.localeCompare(b[0].n));
-        return `<div class="rv-state">${esc(ST_NAME[st]||st)}</div>` + rows.map(([p,i])=>{
-          const bits = [p.c, p.t, p.ub ? `${p.ub} universe brand${p.ub===1?"":"s"}` : ""]
-                       .filter(Boolean).map(esc).join(" \u00b7 ");
-          const slug = shopSlug(p);
-          // Two siblings on one line, not nested: an anchor cannot contain an anchor.
-          return `<div class="bo-line">`
-               + `<a class="bo-row shop-open" data-i="${slug}" href="#shop=${slug}">`
-               + `<span class="bo-name">${esc(p.n)}</span><div class="bo-meta">${bits}</div></a>`
-               + `<a class="bo-report visit-link" data-store="${esc(storeString(p))}" `
-               + `href="${visitUrl(p)}" target="_blank" rel="noopener" `
-               + `title="Report a visit to ${esc(p.n)}">report a visit \u2197</a></div>`;
-        }).join("");
+    + idx.map(([p,i])=>{
+        const bits = [`${p.c}, ${p.s}`, p.t, p.ub ? `${p.ub} universe brand${p.ub===1?"":"s"}` : ""]
+                     .filter(Boolean).map(esc).join(" \u00b7 ");
+        const slug = shopSlug(p);
+        // Two siblings on one line, not nested: an anchor cannot contain an anchor.
+        return `<div class="bo-line">`
+             + `<a class="bo-row shop-open" data-i="${slug}" href="#shop=${slug}">`
+             + `<span class="bo-name">${esc(p.n)}<span class="bo-region">${esc(subregionOf(p))}</span></span>`
+             + `<div class="bo-meta">${bits}</div></a>`
+             + `<a class="bo-report visit-link" data-store="${esc(storeString(p))}" `
+             + `href="${visitUrl(p)}" target="_blank" rel="noopener" `
+             + `title="Report a visit to ${esc(p.n)}">report a visit \u2197</a></div>`;
       }).join("");
   boutiquesView.scrollTop = 0;
   boutiquesView.classList.add("show");
@@ -2353,7 +2353,7 @@ function renderShop(ref){
   shopBody.innerHTML =
       `<h2>${esc(p.n)}</h2>`
     + `<p class="sv-sub">${esc(p.c)}, ${esc(p.s)} \u00b7 ${esc(p.t || "stockist")}`
-    + (p.bt ? ` \u00b7 ${p.bt} brands carried` : "") + `</p>`
+    + ` \u00b7 ${esc(subregionOf(p))}` + (p.bt ? ` \u00b7 ${p.bt} brands carried` : "") + `</p>`
     + navHTML("shop", shopNeighbours(i), j=>PLACES[j].n, j=>shopSlug(PLACES[j]))
     + `<h3>Where</h3>`
     + `<p><a class="shop-link" href="${placeMapUrl(p)}" target="_blank" rel="noopener">`
