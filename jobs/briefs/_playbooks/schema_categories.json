@@ -1,0 +1,107 @@
+{
+  "not_checked": "NC",
+  "categories": [
+    "tees-polos",
+    "shirts",
+    "knitwear",
+    "sweats",
+    "trousers",
+    "denim",
+    "shorts",
+    "tailoring",
+    "outerwear",
+    "underwear-swim",
+    "other"
+  ],
+  "columns": [
+    {
+      "name": "brand",
+      "type": "key"
+    },
+    {
+      "name": "category",
+      "type": "enum",
+      "values": [
+        "tees-polos",
+        "shirts",
+        "knitwear",
+        "sweats",
+        "trousers",
+        "denim",
+        "shorts",
+        "tailoring",
+        "outerwear",
+        "underwear-swim",
+        "other"
+      ]
+    },
+    {
+      "name": "category_house",
+      "type": "str"
+    },
+    {
+      "name": "styles",
+      "type": "int",
+      "range": [
+        0,
+        99999
+      ]
+    },
+    {
+      "name": "styles_with_composition",
+      "type": "int",
+      "range": [
+        0,
+        99999
+      ]
+    },
+    {
+      "name": "natural_pct",
+      "type": "int",
+      "range": [
+        0,
+        100
+      ]
+    },
+    {
+      "name": "synthetic_pct",
+      "type": "int",
+      "range": [
+        0,
+        100
+      ]
+    },
+    {
+      "name": "cellulosic_pct",
+      "type": "int",
+      "range": [
+        0,
+        100
+      ]
+    },
+    {
+      "name": "spandex_styles",
+      "type": "int",
+      "range": [
+        0,
+        99999
+      ]
+    },
+    {
+      "name": "spandex_high_styles",
+      "type": "int",
+      "range": [
+        0,
+        99999
+      ]
+    },
+    {
+      "name": "source",
+      "type": "provenance"
+    },
+    {
+      "name": "note",
+      "type": "str"
+    }
+  ]
+}

@@ -12,9 +12,14 @@ two? The answer is a **count of styles**, and every figure has a URL behind it.
 
 ## What you return
 
-Two files: `return.csv` in the schema at the end, one row per brand; and `NOTE.md` saying what you
-read, what you could not reach, what contradicted the brief, and what the brief got wrong. No
-summaries in place of data, no working files, no rebuilt tools.
+Three files: `return.csv`, one row per brand; `return_categories.csv`, one row per brand **per
+product category**, which is where the finding actually lives; and `NOTE.md` saying what you read,
+what you could not reach, what contradicted the brief, and what the brief got wrong. No summaries
+in place of data, no working files, no rebuilt tools.
+
+The brand row is the roll-up of its category rows: `styles_total` is their sum, the percentages
+are computed from them, and `shape`, `synthetic_categories` and `natural_categories` are read off
+the category table rather than judged. Build the categories first; the brand row falls out.
 
 **Never invent, never extrapolate, never fill from memory.** A cell nobody looked at is `NC`. An
 empty cell is an error. `0` means counted and found none.
@@ -172,7 +177,27 @@ return the denominator with the rest `NC`; that is a finding.
 - **Reproduce before you restate.** If an earlier figure exists, reproduce it on its own basis first;
   where you cannot, record both and say which is filed.
 
-### 6. Compute and record
+### 6. Categories — the breakdown the map wants
+
+Count every figure **per product category** and return one row per brand per category. Use the
+house's own category label as it appears in its navigation or feed (`category_house`) and map each
+to one of the standard set (`category`):
+
+`tees-polos` · `shirts` · `knitwear` · `sweats` · `trousers` · `denim` · `shorts` · `tailoring`
+(suits, sport coats, blazers, waistcoats) · `outerwear` · `underwear-swim` · `other` (say what)
+
+One style, one category. Where the house's taxonomy overlaps (Stone Island lists anoraks under
+shirts and coats; Zegna has an `underwear-socks` node), assign by the garment, not by the first
+menu it appears in, and say so in `note`. Where a house has no categories (a flat feed), assign
+from product type or title and set `category_house` to `derived`. A category with fewer than
+five styles still gets a row; the count is the finding.
+
+The brand row's `shape` is `split` when at least one category with ten or more styles is
+synthetic-led while another is natural-led; `synthetic_categories` lists the synthetic-led
+categories by their house label; `natural_categories` the top three natural-led by style count.
+Underwear and swim are excluded from that verdict but present in the table.
+
+### 7. Compute and record
 
 Percentages are of **all** styles in scope, undisclosed included; `styles_with_composition` carries
 coverage. Count the numerator and denominator on the **same style set** — Vuori's underwear moved
@@ -189,6 +214,16 @@ the rest.
 
 ## The schema
 
+**`return_categories.csv`** — one row per brand per category:
+`brand` · `category` (standard set above) · `category_house` (the house's own label, or `derived`) ·
+`styles` · `styles_with_composition` · `natural_pct` · `synthetic_pct` · `cellulosic_pct` (of
+`styles`) · `spandex_styles` · `spandex_high_styles` · `source` · `note`.
+
+A worked block, Peter Millar: `tees-polos | Polos & shirts | 188 | 188 | 31 | 69 | 0 | 121 | 114`,
+`knitwear | Sweaters | 61 | 61 | 92 | 8 | 0 | 4 | 0`, `tailoring | Sport coats & suits | 27 | 27 |
+96 | 4 | 0 | 6 | 0` — three rows that say more than "46% natural, split" ever did.
+
+**`return.csv`** — one row per brand, the roll-up:
 `brand` (exactly as in `canonical_keys.txt`; run `reconcile.py` before returning) · `styles_total` ·
 `styles_with_composition` · `natural_pct` · `synthetic_pct` · `cellulosic_pct` · `spandex_styles` ·
 `spandex_high_styles` · `shape` (`one|split`) · `synthetic_categories` (JSON) · `natural_categories`

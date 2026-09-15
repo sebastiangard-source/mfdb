@@ -24,7 +24,11 @@
       "const": "DATA",
       "path": "band",
       "type": "str",
-      "legal": ["premium", "accessible", "trueLux"],
+      "legal": [
+        "premium",
+        "accessible",
+        "trueLux"
+      ],
       "absent": "required"
     },
     "seat": {
@@ -40,7 +44,10 @@
       "const": "DATA",
       "path": "dagger",
       "type": "int",
-      "range": [0, 1],
+      "range": [
+        0,
+        1
+      ],
       "absent": "required"
     },
     "row_class": {
@@ -64,7 +71,10 @@
       "const": "DATA",
       "path": "focus.tech",
       "type": "int",
-      "range": [1, 5],
+      "range": [
+        1,
+        5
+      ],
       "absent": "required",
       "note": true
     },
@@ -73,7 +83,10 @@
       "const": "DATA",
       "path": "focus.comfort",
       "type": "int",
-      "range": [1, 5],
+      "range": [
+        1,
+        5
+      ],
       "absent": "required",
       "note": true
     },
@@ -82,7 +95,10 @@
       "const": "DATA",
       "path": "focus.craft",
       "type": "int",
-      "range": [1, 5],
+      "range": [
+        1,
+        5
+      ],
       "absent": "required",
       "note": true
     },
@@ -91,7 +107,10 @@
       "const": "DATA",
       "path": "focus.style",
       "type": "int",
-      "range": [1, 5],
+      "range": [
+        1,
+        5
+      ],
       "absent": "required",
       "note": true
     },
@@ -100,7 +119,10 @@
       "const": "FAB",
       "path": "fabric.denim",
       "type": "int",
-      "range": [1, 5],
+      "range": [
+        1,
+        5
+      ],
       "absent": "required",
       "note": true
     },
@@ -109,7 +131,10 @@
       "const": "FAB",
       "path": "fabric.cashmere",
       "type": "int",
-      "range": [1, 5],
+      "range": [
+        1,
+        5
+      ],
       "absent": "required",
       "note": true
     },
@@ -118,7 +143,10 @@
       "const": "FAB",
       "path": "fabric.linen",
       "type": "int",
-      "range": [1, 5],
+      "range": [
+        1,
+        5
+      ],
       "absent": "required",
       "note": true
     },
@@ -127,7 +155,10 @@
       "const": "FAB",
       "path": "fabric.cotton",
       "type": "int",
-      "range": [1, 5],
+      "range": [
+        1,
+        5
+      ],
       "absent": "required",
       "note": true
     },
@@ -136,7 +167,10 @@
       "const": "FAB",
       "path": "fabric.wool",
       "type": "int",
-      "range": [1, 5],
+      "range": [
+        1,
+        5
+      ],
       "absent": "required",
       "note": true
     },
@@ -145,7 +179,10 @@
       "const": "FAB",
       "path": "fabric.synth",
       "type": "int",
-      "range": [1, 5],
+      "range": [
+        1,
+        5
+      ],
       "absent": "required",
       "note": true
     },
@@ -154,7 +191,10 @@
       "const": "GOLF",
       "path": "dials.golf",
       "type": "int",
-      "range": [0, 5],
+      "range": [
+        0,
+        5
+      ],
       "absent": "not_represented",
       "note": true,
       "register": true
@@ -164,7 +204,10 @@
       "const": "STATUS",
       "path": "dials.status",
       "type": "int",
-      "range": [0, 5],
+      "range": [
+        0,
+        5
+      ],
       "absent": "not_represented",
       "note": true,
       "register": true
@@ -174,7 +217,10 @@
       "const": "FINBRO",
       "path": "dials.finbro",
       "type": "int",
-      "range": [0, 5],
+      "range": [
+        0,
+        5
+      ],
       "absent": "not_represented",
       "note": true,
       "register": true
@@ -184,7 +230,10 @@
       "const": "IVY",
       "path": "dials.ivy",
       "type": "int",
-      "range": [0, 5],
+      "range": [
+        0,
+        5
+      ],
       "absent": "not_represented",
       "note": true,
       "register": true
@@ -194,7 +243,10 @@
       "const": "MURICA",
       "path": "dials.murica",
       "type": "int",
-      "range": [0, 5],
+      "range": [
+        0,
+        5
+      ],
       "absent": "not_represented",
       "note": true,
       "register": true
@@ -204,7 +256,10 @@
       "const": "ITAL",
       "path": "dials.ital",
       "type": "int",
-      "range": [0, 5],
+      "range": [
+        0,
+        5
+      ],
       "absent": "not_represented",
       "note": true,
       "register": true
@@ -214,7 +269,10 @@
       "const": "FREN",
       "path": "dials.fren",
       "type": "int",
-      "range": [0, 5],
+      "range": [
+        0,
+        5
+      ],
       "absent": "not_represented",
       "note": true,
       "register": true
@@ -224,7 +282,10 @@
       "const": "STREET",
       "path": "dials.street",
       "type": "int",
-      "range": [0, 5],
+      "range": [
+        0,
+        5
+      ],
       "absent": "not_represented",
       "note": true,
       "register": true
@@ -234,7 +295,10 @@
       "const": "AVANT",
       "path": "dials.avant",
       "type": "int",
-      "range": [0, 5],
+      "range": [
+        0,
+        5
+      ],
       "absent": "not_represented",
       "note": true,
       "register": true
@@ -244,7 +308,10 @@
       "const": "PREP",
       "path": "dials.prep",
       "type": "int",
-      "range": [0, 5],
+      "range": [
+        0,
+        5
+      ],
       "absent": "not_represented",
       "note": true,
       "register": true
@@ -254,7 +321,10 @@
       "const": "WEIRD",
       "path": "dials.weird",
       "type": "int",
-      "range": [0, 5],
+      "range": [
+        0,
+        5
+      ],
       "absent": "not_represented",
       "note": true,
       "register": true
@@ -264,7 +334,10 @@
       "const": "BOAT",
       "path": "dials.boat",
       "type": "int",
-      "range": [0, 5],
+      "range": [
+        0,
+        5
+      ],
       "absent": "not_represented",
       "note": true,
       "register": true
@@ -274,7 +347,10 @@
       "const": "RACQUET",
       "path": "dials.racquet",
       "type": "int",
-      "range": [0, 5],
+      "range": [
+        0,
+        5
+      ],
       "absent": "not_represented",
       "note": true,
       "register": true
@@ -284,7 +360,10 @@
       "const": "SKI",
       "path": "dials.ski",
       "type": "int",
-      "range": [0, 5],
+      "range": [
+        0,
+        5
+      ],
       "absent": "not_represented",
       "note": true,
       "register": true
@@ -294,7 +373,10 @@
       "const": "SCANDI",
       "path": "dials.scandi",
       "type": "int",
-      "range": [0, 5],
+      "range": [
+        0,
+        5
+      ],
       "absent": "not_represented",
       "note": true,
       "register": true
@@ -304,7 +386,10 @@
       "const": "BRIISH",
       "path": "dials.briish",
       "type": "int",
-      "range": [0, 5],
+      "range": [
+        0,
+        5
+      ],
       "absent": "not_represented",
       "note": true,
       "register": true
@@ -314,7 +399,10 @@
       "const": "REACH",
       "path": "dials.reach",
       "type": "int",
-      "range": [1, 5],
+      "range": [
+        1,
+        5
+      ],
       "absent": "required",
       "note": true
     },
@@ -323,7 +411,10 @@
       "const": "DUR",
       "path": "dials.dur",
       "type": "int",
-      "range": [1, 5],
+      "range": [
+        1,
+        5
+      ],
       "absent": "required",
       "note": true
     },
@@ -332,7 +423,10 @@
       "const": "FORG",
       "path": "dials.forg",
       "type": "int",
-      "range": [1, 5],
+      "range": [
+        1,
+        5
+      ],
       "absent": "required",
       "note": true
     },
@@ -341,7 +435,10 @@
       "const": "FUSS",
       "path": "dials.fuss",
       "type": "int",
-      "range": [-3, 3],
+      "range": [
+        -3,
+        3
+      ],
       "absent": "not_assessed",
       "note": true,
       "bipolar": true
@@ -351,7 +448,10 @@
       "const": "GOLFFICE",
       "path": "dials.golffice",
       "type": "int",
-      "range": [-3, 3],
+      "range": [
+        -3,
+        3
+      ],
       "absent": "not_assessed",
       "note": true,
       "bipolar": true
@@ -361,7 +461,10 @@
       "const": "BRUV",
       "path": "dials.bruv",
       "type": "int",
-      "range": [-3, 3],
+      "range": [
+        -3,
+        3
+      ],
       "absent": "not_assessed",
       "bipolar": true
     },
@@ -370,7 +473,10 @@
       "const": "SAIL",
       "path": "dials.sail",
       "type": "int",
-      "range": [-3, 3],
+      "range": [
+        -3,
+        3
+      ],
       "absent": "not_assessed",
       "bipolar": true
     },
@@ -379,8 +485,14 @@
       "const": "SHOES",
       "path": "dials.shoes",
       "type": "int",
-      "range": [0, 5],
-      "banned": [1, 2],
+      "range": [
+        0,
+        5
+      ],
+      "banned": [
+        1,
+        2
+      ],
       "absent": "not_assessed",
       "note": true,
       "doc": "Tri-state: score, verified 0, or absent. 1 and 2 were assumed bands and are retired."
@@ -390,7 +502,10 @@
       "const": "NATURAL",
       "path": "dials.natural",
       "type": "int",
-      "range": [0, 5],
+      "range": [
+        0,
+        5
+      ],
       "absent": "derived",
       "doc": "Derived at build from fibre (see fibre). Not stored in records; lint rejects it if present."
     },
@@ -451,7 +566,13 @@
       "const": "CHAN",
       "path": "chan",
       "type": "list",
-      "legal": ["O", "D", "I", "W", "X"],
+      "legal": [
+        "O",
+        "D",
+        "I",
+        "W",
+        "X"
+      ],
       "absent": "required"
     },
     "conf": {
@@ -459,7 +580,13 @@
       "const": "CONF",
       "path": "conf",
       "type": "str",
-      "legal": ["L", "S", "M", "H", "G"],
+      "legal": [
+        "L",
+        "S",
+        "M",
+        "H",
+        "G"
+      ],
       "absent": "optional"
     },
     "forgv": {
@@ -475,7 +602,10 @@
       "path": "forgc",
       "type": "list",
       "len": 3,
-      "range": [1, 5],
+      "range": [
+        1,
+        5
+      ],
       "absent": "required"
     },
     "shoelink": {
@@ -483,7 +613,10 @@
       "const": "SHOELINK",
       "path": "shoelink",
       "type": "obj",
-      "keys": ["t", "u"],
+      "keys": [
+        "t",
+        "u"
+      ],
       "absent": "optional"
     },
     "fibre": {
@@ -492,7 +625,7 @@
       "path": "fibre",
       "type": "fibre",
       "absent": "not_assessed",
-      "doc": "Measured from the house's own product pages, styles not colourways, men's only. t styles counted (0 = counted, no men's clothing); w styles stating a composition; n/s/c = % of t whose main fibre is natural / synthetic / cellulosic (ruled 13 Sep: cellulosics a third figure); x = % of t with any elastane on the main fabric line; xh = % at 5%+ (0 = counted, none; absent = not counted); sp one|split; sc/nc category lists; st complete|partial. The natural dial is DERIVED at build: band of n/(n+s+c) when w/t >= 0.5, else not assessed. Never stored."
+      "doc": "Measured from the house's own product pages, styles not colourways, men's only. t styles counted (0 = counted, no men's clothing); w styles stating a composition; n/s/c = % of t whose main fibre is natural / synthetic / cellulosic (ruled 13 Sep: cellulosics a third figure); x = % of t with any elastane on the main fabric line; xh = % at 5%+ (0 = counted, none; absent = not counted); sp one|split; sc/nc category lists; st complete|partial. The natural dial is DERIVED at build: band of n/(n+s+c) when w/t >= 0.5, else not assessed. Never stored. cats (optional): list of {cat, house, t, w, n, s, c, x, xh} per product category, the standard set being tees-polos, shirts, knitwear, sweats, trousers, denim, shorts, tailoring, outerwear, underwear-swim, other; when present, t/n/s/c/sp/sc/nc must reconcile to it."
     },
     "doors": {
       "scope": "brand",
@@ -506,7 +639,10 @@
       "const": "REGION",
       "path": "region",
       "type": "obj",
-      "keys": ["o", "s"],
+      "keys": [
+        "o",
+        "s"
+      ],
       "absent": "optional",
       "doc": "Indices into places.json. To be replaced by place ids."
     },
@@ -581,7 +717,14 @@
       "const": null,
       "path": "site",
       "type": "obj",
-      "keys": ["domain", "platform", "feed", "feed_count", "status", "checked"],
+      "keys": [
+        "domain",
+        "platform",
+        "feed",
+        "feed_count",
+        "status",
+        "checked"
+      ],
       "absent": "optional",
       "doc": "Where the brand's own store is and how to read it. Data-only: not emitted into the page."
     },
@@ -590,7 +733,13 @@
       "const": null,
       "path": "tech_evidence",
       "type": "obj",
-      "keys": ["names", "origin", "marks", "source", "checked"],
+      "keys": [
+        "names",
+        "origin",
+        "marks",
+        "source",
+        "checked"
+      ],
       "absent": "not_assessed",
       "doc": "Per-brand evidence the tech score is checked against. names: yes|no|unclear. origin: house|licensed|both|none|unclear. Not a dial, not shown. Ruling 13 Sep: a mark counts only on men's product sold under the key; supplier marks only where the house leads with them."
     },
@@ -601,6 +750,15 @@
       "doc": "state -> sub-region label -> cities. Emitted as SUBREGION keyed 'ST|City'. Lint: every shop's city must map; an unmapped city is a GAP, never an untagged row."
     }
   },
-  "price_slots": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants", "Sweater", "Outerwear", "Shoes"],
+  "price_slots": [
+    "T-shirt",
+    "Polo",
+    "Dress shirt",
+    "Jeans",
+    "Dress pants",
+    "Sweater",
+    "Outerwear",
+    "Shoes"
+  ],
   "not_assessed_sentinel": 99
 }
