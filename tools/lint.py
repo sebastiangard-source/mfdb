@@ -157,8 +157,13 @@ for rec in data.brands:
                 if v.get('n') is not None and tot > v['n']:
                     fail('SHAPE', f'{n}: doors partial, {tot} verified against {v["n"]}')
         elif t == 'fibre':
-            if not isinstance(v, dict) or 't' not in v:
-                fail('SHAPE', f'{n}: fibre needs at least t')
+            need = ['t', 'w', 'n', 's', 'c', 'x', 'xh', 'sp', 'sc', 'nc', 'st']
+            if not isinstance(v, dict) or [k for k in need if k not in v]:
+                fail('SHAPE', f'{n}: fibre missing {[k for k in need if k not in (v or {})]}')
+            elif v['w'] > v['t'] or (v['x'] is not None and v['xh'] is not None and v['xh'] > v['x']) or not (99 <= v['n'] + v['s'] + v['c'] + (100 - round(100 * v['w'] / v['t']) if v['t'] else 0) <= 101 if v['t'] else True):
+                fail('RANGE', f'{n}: fibre figures do not reconcile (t={v["t"]} w={v["w"]} n/s/c={v["n"]}/{v["s"]}/{v["c"]} x/xh={v["x"]}/{v["xh"]})')
+            if get(rec, 'dials.natural') is not None:
+                fail('ORPHAN', f'{n}: dials.natural is stored; it is derived from fibre at build')
 
 for i, pl in enumerate(data.places):
     for k in ('n', 'c', 's'):

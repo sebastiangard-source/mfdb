@@ -23,7 +23,6 @@
     "forg": 3,
     "fuss": -1,
     "golffice": 0,
-    "natural": 3,
     "golf": 5,
     "status": 3,
     "finbro": 4,
@@ -56,12 +55,16 @@
   },
   "fibre": {
     "t": 473,
+    "w": 430,
     "n": 46,
     "s": 45,
+    "c": 0,
     "x": 42,
+    "xh": null,
     "sp": "split",
     "sc": ["Polos & shirts", "Pullovers & quarter-zips", "Shorts"],
-    "nc": ["Sweaters", "Sport coats & suits", "Accessories"]
+    "nc": ["Sweaters", "Sport coats & suits", "Accessories"],
+    "st": "complete"
   },
   "doors": {
     "c": "full",

@@ -391,8 +391,8 @@
       "path": "dials.natural",
       "type": "int",
       "range": [0, 5],
-      "absent": "not_assessed",
-      "doc": "Measured from FIBRE counts, never authored."
+      "absent": "derived",
+      "doc": "Derived at build from fibre (see fibre). Not stored in records; lint rejects it if present."
     },
     "why": {
       "scope": "brand",
@@ -492,7 +492,7 @@
       "path": "fibre",
       "type": "fibre",
       "absent": "not_assessed",
-      "doc": "Measured from the house's own product pages, styles not colourways. t styles, n % natural (cotton, wool, linen, silk, cashmere), s % synthetic, c % cellulosic (rayon, viscose, modal, lyocell, cupro, acetate — ruled 13 Sep: neither natural nor synthetic, a third figure), x count of styles containing any elastane (0 = counted, none; absent = not counted), xh count at 5% or more elastane, sp one|split, sc/nc category lists. The natural dial reads n alone."
+      "doc": "Measured from the house's own product pages, styles not colourways, men's only. t styles counted (0 = counted, no men's clothing); w styles stating a composition; n/s/c = % of t whose main fibre is natural / synthetic / cellulosic (ruled 13 Sep: cellulosics a third figure); x = % of t with any elastane on the main fabric line; xh = % at 5%+ (0 = counted, none; absent = not counted); sp one|split; sc/nc category lists; st complete|partial. The natural dial is DERIVED at build: band of n/(n+s+c) when w/t >= 0.5, else not assessed. Never stored."
     },
     "doors": {
       "scope": "brand",

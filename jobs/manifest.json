@@ -375,7 +375,7 @@
       "id": "fibre_pass_2026-09-14",
       "title": "Fibre pass — the range, measured for 197 brands",
       "kind": "fibre",
-      "state": "held",
+      "state": "merged",
       "created": "2026-09-13",
       "issued": "2026-09-13",
       "pilot": 8,
@@ -694,10 +694,20 @@
           "held": 0,
           "merged": 0,
           "triage": "jobs/triage/fibre_pass_2026-09-14_2.md"
+        },
+        {
+          "n": 3,
+          "file": "fibre_pass_2026-09-14_full.csv",
+          "received": "2026-09-15",
+          "rows": 197,
+          "mergeable": 193,
+          "held": 3,
+          "merged": 191,
+          "triage": "jobs/triage/fibre_pass_2026-09-14_3.md"
         }
       ],
-      "blocked_on": "eight pilot rows restating on the spandex main-line ruling; rev3 issued",
-      "note": "running in the Brand rubric screening thread from 13 Sep evening; pilot of 8 first"
+      "blocked_on": "",
+      "note": "full return merged 15 Sep: 191 fibre records (193 rows less Hermès and Eleventy held); six rulings open, see triage"
     }
   ]
 }

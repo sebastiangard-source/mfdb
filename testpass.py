@@ -33,21 +33,24 @@ with sync_playwright() as p:
          return scored.length===want.length && scored.every((x,i)=>x===want[i]);}'''),
        pg.evaluate('()=>Object.keys(NATURAL).length'))
     ck('an uncounted house reads not-assessed, never zero', pg.evaluate(
-       '''()=>[...document.querySelectorAll(".brand")].find(e=>e.textContent==="Barbour").dataset.natural''')=='99')
+       '''()=>[...document.querySelectorAll(".brand")].find(e=>e.textContent==="Hermès").dataset.natural''')=='99')
     pg.eval_on_selector('.dial[data-attr="natural"] input',
        "e=>{e.value=3;e.dispatchEvent(new Event('input',{bubbles:true}))}")
     pg.eval_on_selector('.dial[data-attr="tech"] input',
        "e=>{e.value=3;e.dispatchEvent(new Event('input',{bubbles:true}))}")
     pg.wait_for_timeout(550)
+    # Was exactly ['Peter Millar'] when seven brands were counted; with 195 the set is
+    # larger, and the invariant is that Peter Millar is in it and nothing uncounted is.
+    _pm = pg.eval_on_selector_all('.brand',"e=>e.filter(x=>!x.classList.contains('out')).map(x=>[x.textContent,x.dataset.natural])")
     ck('natural and tech together find the split house',
-       pg.eval_on_selector_all('.brand',"e=>e.filter(x=>!x.classList.contains('out')).map(x=>x.textContent)")==['Peter Millar'])
+       any(n=='Peter Millar' for n,_ in _pm) and all(v!='99' for _,v in _pm), f'{len(_pm)} shown')
     pg.goto(url+'#brand=Peter%20Millar'); pg.reload(); pg.wait_for_timeout(430)
     ck('a counted house states how its range divides',
        'Kept apart' in pg.eval_on_selector('#detailBody','e=>e.innerText'))
     _t = [l for l in pg.eval_on_selector('#detailBody','e=>e.innerText').split('\n') if l.strip()]
     ck('the range block sits inside Fabrics, above Registers',
        _t.index('FABRICS') < _t.index('THE RANGE') < _t.index('REGISTERS'))
-    pg.goto(url+'#brand=Barbour'); pg.reload(); pg.wait_for_timeout(400)
+    pg.goto(url+'#brand=Herm%C3%A8s'); pg.reload(); pg.wait_for_timeout(400)   # held short of a read
     ck('an uncounted house claims nothing',
        pg.eval_on_selector_all('#detailBody .fibre-line','e=>e.length')==0)
     pg.goto(url); pg.reload(); pg.wait_for_timeout(450)
@@ -786,6 +789,22 @@ with sync_playwright() as p:
     ck('golfiness at 5 shows exactly the brands scored 5', sorted(shown)==sorted(want), f'{len(shown)} shown vs {len(want)} scored')
     ck('golfiness at 5 shows the pro-shop natives', all(b in shown for b in ['Rhoback','Criquet','Malbon','Peter Millar']))
     pg.evaluate("()=>{const d=document.querySelector('.dial[data-attr=\"golf\"] input[type=range]'); d.value=0; d.dispatchEvent(new Event('input',{bubbles:true})); d.dispatchEvent(new Event('change',{bubbles:true}));}")
+
+    head('the range, measured')
+    pg.set_viewport_size({'width':1400,'height':1000})
+    pg.goto(url+'#brand=PAIGE'); pg.reload(); pg.wait_for_timeout(400)
+    fl = pg.evaluate("document.querySelector('#detailBody .fibre-line')?.innerText || ''")
+    ck('PAIGE range line carries the cellulosic figure', '34% cellulosic' in fl, fl[:80])
+    ck('PAIGE range line carries both stretch numbers', 'stretch in 55%' in fl and 'performance stretch in 2%' in fl, fl[:120])
+    pg.goto(url+'#brand=Carhartt'); pg.reload(); pg.wait_for_timeout(400)
+    fl = pg.evaluate("document.querySelector('#detailBody .fibre-line')?.innerText || ''")
+    ck('a low-coverage range line says how many state a composition', '27% state a composition' in fl, fl[-90:])
+    ck('a low-coverage house has no natural dial', pg.evaluate("[...document.querySelectorAll('.brand')].find(b=>b.textContent.trim()==='Carhartt').dataset.natural")=='99')
+    pg.goto(url+"#brand=Rothy%27s"); pg.reload(); pg.wait_for_timeout(400)
+    fl = pg.evaluate("document.querySelector('#detailBody .fibre-line')?.innerText || ''")
+    ck("Rothy's counted zero reads as a finding", 'no men' in fl and 'zero is the finding' in fl, fl[:80])
+    ck('natural dial derived for the seven at their old bands', pg.evaluate("[...document.querySelectorAll('.brand')].filter(b=>['J.Crew','Merz b. Schwanen','Todd Snyder','Loro Piana'].includes(b.textContent.trim())).every(b=>b.dataset.natural==='5')"))
+    ck('natural dial covers most of the map now', pg.evaluate("[...document.querySelectorAll('.brand')].filter(b=>b.dataset.natural!=='99').length")>=190)
 
     head('prev / next')
     pg.set_viewport_size({'width':1400,'height':1000})

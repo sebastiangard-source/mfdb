@@ -2956,19 +2956,39 @@ const PRSHORT = ["Tee","Polo","Shirt","Jeans","Pants","Knit","Outer","Shoes"];
 function fibreLineHTML(name){
   const f = FIBRE[name.trim()];
   if(!f) return "";
+  if(!f.t){
+    return `<div class="fibre-line"><span class="fb-lab">The range</span>`
+         + `<span class="fb-nums">no men\u2019s clothing</span>`
+         + `<span class="fb-src">counted on the brand\u2019s own pages \u2014 the zero is the finding</span></div>`;
+  }
   const bits = [`${f.n}% natural`, `${f.s}% synthetic`];
-  if(f.x != null) bits.push(`stretch in ${f.x}%`);
+  if(f.c) bits.push(`${f.c}% cellulosic`);
+  if(f.x != null){
+    bits.push(f.xh != null && f.xh ? `stretch in ${f.x}%, performance stretch in ${f.xh}%` : `stretch in ${f.x}%`);
+  }
   let shape;
-  if(f.sp === "split"){
+  const lead = f.s > f.n && f.s > (f.c||0) ? "synthetic" : (f.c||0) > f.n ? "cellulosic" : "natural";
+  if(f.sp === "split" && f.sc.length){
     shape = `Kept apart rather than blended \u2014 ${f.sc.join(", ")} run synthetic, `
           + `${f.nc.slice(0,2).join(" and ")} natural.`;
+  } else if(f.sp === "split"){
+    const other = (f.c||0) > f.s ? "cellulosic" : "synthetic";
+    shape = `Kept apart rather than blended \u2014 ${f.nc.slice(0,2).join(" and ")} natural, the rest ${other}.`;
+  } else if(lead === "synthetic"){
+    shape = `Synthetic throughout; no natural line beside it.`;
+  } else if(lead === "cellulosic"){
+    shape = `Cellulosic throughout \u2014 rayon, modal, lyocell \u2014 rather than cotton or polyester.`;
   } else {
     shape = `Natural throughout; no synthetic line beside it.`;
   }
+  const cov = f.w != null && f.t ? Math.round(100 * f.w / f.t) : 100;
+  const src = cov >= 95
+    ? `${f.t} styles counted on the brand\u2019s own pages`
+    : `${f.t} styles counted on the brand\u2019s own pages; ${cov}% state a composition, the shares are of all ${f.t}`;
   return `<div class="fibre-line"><span class="fb-lab">The range</span>`
        + `<span class="fb-nums">${bits.join(" \u00b7 ")}</span>`
        + `<span class="fb-shape">${shape}</span>`
-       + `<span class="fb-src">${f.t} styles counted on the brand\u2019s own pages</span></div>`;
+       + `<span class="fb-src">${src}</span></div>`;
 }
 function pricePassHTML(name){
   if(PRICE_PASS.indexOf(name.trim()) < 0) return "";

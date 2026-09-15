@@ -165,6 +165,19 @@ def consts(data):
                                       ('denim', 'cashmere', 'linen', 'cotton', 'wool', 'synth')]
             else:
                 by_const[c][n] = v
+    # NATURAL is derived from the fibre record, never authored. Band of the natural share
+    # among styles that state a composition; not assessed below 50% coverage or at t = 0.
+    nat = collections.OrderedDict()
+    for rec in data.brands:
+        f = rec.get('fibre')
+        if not f or not f.get('t') or f.get('w') is None or f['w'] / f['t'] < 0.5:
+            continue
+        disc = f['n'] + f['s'] + f.get('c', 0)
+        if not disc:
+            continue
+        share = 100 * f['n'] / disc
+        nat[rec['name']] = 5 if share >= 85 else 4 if share >= 65 else 3 if share >= 40 else 2 if share >= 20 else 1
+    by_const['NATURAL'] = nat
     for c, d in by_const.items():
         out[c] = d.get('__list__', d) if '__list__' in d else d
     # DATA: bands with rows in seat order

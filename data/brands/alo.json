@@ -191,5 +191,25 @@
     "marks": ["Airbrush (house)", "Airlift (house)", "Alosoft (house)"],
     "source": "flag_sample",
     "checked": "2026-09-12"
+  },
+  "fibre": {
+    "t": 199,
+    "w": 162,
+    "n": 39,
+    "s": 36,
+    "c": 6,
+    "x": 29,
+    "xh": 25,
+    "sp": "split",
+    "sc": [
+      "Outerwear:Jackets",
+      "Bottoms:Shorts",
+      "Bottoms:Pants",
+      "Tops:Long Sleeves",
+      "Tops:Tanks",
+      "Accessories:Cold Weather:Beanies"
+    ],
+    "nc": ["Outerwear:Coverups:Hoodies", "Tops:Short Sleeves", "Bottoms:Sweatpants"],
+    "st": "complete"
   }
 }

@@ -23,7 +23,6 @@
     "forg": 3,
     "fuss": 1,
     "shoes": 3,
-    "natural": 4,
     "status": 3,
     "street": 3,
     "avant": 5,
@@ -48,12 +47,16 @@
   },
   "fibre": {
     "t": 353,
+    "w": 349,
     "n": 78,
     "s": 21,
+    "c": 0,
     "x": null,
+    "xh": null,
     "sp": "split",
     "sc": ["Jackets", "Shorts"],
-    "nc": ["Tees", "Knitwear", "Shirts"]
+    "nc": ["Tees", "Knitwear", "Shirts"],
+    "st": "complete"
   },
   "doors": {
     "c": "full",

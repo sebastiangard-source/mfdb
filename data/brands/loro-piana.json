@@ -24,7 +24,6 @@
     "fuss": 3,
     "sail": -2,
     "shoes": 4,
-    "natural": 5,
     "golf": 2,
     "status": 5,
     "finbro": 5,
@@ -64,12 +63,16 @@
   },
   "fibre": {
     "t": 675,
+    "w": 580,
     "n": 86,
     "s": 0,
+    "c": 0,
     "x": 0,
+    "xh": null,
     "sp": "one",
     "sc": [],
-    "nc": ["Knitwear", "Outerwear & coats", "Trousers / denim / bermudas"]
+    "nc": ["Knitwear", "Outerwear & coats", "Trousers / denim / bermudas"],
+    "st": "complete"
   },
   "doors": {
     "c": "full",

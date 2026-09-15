@@ -23,7 +23,6 @@
     "forg": 4,
     "fuss": 0,
     "golffice": 0,
-    "natural": 4,
     "golf": 2,
     "status": 2,
     "finbro": 2,
@@ -51,12 +50,16 @@
   },
   "fibre": {
     "t": 403,
+    "w": 355,
     "n": 74,
     "s": 14,
+    "c": 0,
     "x": 27,
+    "xh": null,
     "sp": "split",
     "sc": ["Tailored"],
-    "nc": ["Knits (tees / henleys / polos)", "Hoodies & pullovers", "Bottoms"]
+    "nc": ["Knits (tees / henleys / polos)", "Hoodies & pullovers", "Bottoms"],
+    "st": "complete"
   },
   "doors": {
     "c": "full",

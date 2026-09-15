@@ -336,7 +336,9 @@ def check(args):
         prefixes = {p.split('.')[0] for p in j.get('writes', {})}
         if wcols and len(prefixes) == 1 and '.' in next(iter(j['writes'])):
             missing = [c for c in wcols if (r.get(c) or '').strip() == nc]
-            if missing and len(missing) < len(wcols):
+            if missing and len(missing) == len(wcols):
+                finding = False   # nothing that lands; provenance/status alone is a skip
+            elif missing:
                 why.append(f'partial object: {", ".join(missing)} still {nc} — all of '
                            f'{prefixes.pop()} lands together or not at all')
         if not finding:
