@@ -12,10 +12,11 @@ two? The answer is a **count of styles**, and every figure has a URL behind it.
 
 ## What you return
 
-Four files: `return.csv`, one row per brand; `return_categories.csv`, one row per brand **per
+Five files: `return.csv`, one row per brand; `return_categories.csv`, one row per brand **per
 product category**, which is where the finding actually lives; `return_fibres.csv`, one row per
 brand **per fibre**, which says what the synthetic and cellulosic buckets are actually made of;
-and `NOTE.md` saying what you read, what you could not reach, what contradicted the brief, and
+`return_lines.csv`, one row per brand **per named line**, which finds the lines inside a house that
+are all one thing; and `NOTE.md` saying what you read, what you could not reach, what contradicted the brief, and
 what the brief got wrong. No summaries in place of data, no working files, no rebuilt tools.
 
 The brand row is the roll-up of its category rows: `styles_total` is their sum, the percentages
@@ -229,7 +230,31 @@ A fibre a house names by trademark — TENCEL, EcoVero, Lycra, Coolmax, Sorona �
 fibre, with the trademark kept in `fibre_house`. A brand-named cloth ("Tropical Wool") is not a fibre
 and does not get a row; its composition does.
 
-### 8. Compute and record
+### 8. Lines — the parts of a house that are all one thing
+
+A category cut misses the way houses actually organise cloth: Peter Millar's Crown Sport is
+synthetic and its Crown Crafted is natural, and both run across polos, trousers and outerwear.
+Find the house's **named lines** and measure each one.
+
+A line is anything the house itself names and groups product under: a sub-line or sub-brand
+(Laminar, Linea Rossa, Veilance if unseated), a collection or series (Crown Sport, Summer Comfort,
+Tropical Wool, Heater Series), a fabric family it sells as a line (DreamKnit, Tour-fit), or a fit
+family that carries its own cloth. Read them from the navigation, collection handles, product-line
+tags and series names in titles. **A line the house has not named is not a line** — do not invent
+groupings from compositions.
+
+For each line with **five or more styles**: styles, coverage, the three shares, both stretch
+counts, and a `verdict`: `all-natural` when 90% or more of disclosed styles are natural-led;
+`all-synthetic` when 90% or more are synthetic-led; `all-cellulosic` likewise; otherwise `mixed`.
+A style can sit in more than one line (Crown Sport and Polos); the line table is not a partition
+and does not need to sum to the range. Say in the note how lines were identified and how many
+styles sit in none.
+
+Report the verdicts in `NOTE.md` as the headline: **which lines in this house are wholly natural,
+which wholly synthetic, and how much of the range they account for.** That, not the brand average,
+is what a reader planning to walk in wants to know.
+
+### 9. Compute and record
 
 Percentages are of **all** styles in scope, undisclosed included; `styles_with_composition` carries
 coverage. Count the numerator and denominator on the **same style set** — Vuori's underwear moved
@@ -262,6 +287,12 @@ A worked block, Peter Millar: `tees-polos | Polos & shirts | 188 | 188 | 31 | 69
 A worked block, Tibi (from the thread's own asides, to be replaced by the return): `polyester |
 Polyester | 349 | … `, `viscose | Viscose; Rayon | … | 65 | …`, `acetate | … | 59`, `lyocell |
 Lyocell; TENCEL™ | … | 27`.
+
+**`return_lines.csv`** — one row per brand per named line with five or more styles:
+`brand` · `line` (the house's name for it) · `line_kind` (`sub-line|collection|fabric-family|fit-family`) ·
+`how_identified` (`navigation|collection-handle|tag|title-series`) · `styles` · `styles_with_composition` ·
+`natural_pct` · `synthetic_pct` · `cellulosic_pct` · `spandex_styles` · `spandex_high_styles` ·
+`verdict` (`all-natural|all-synthetic|all-cellulosic|mixed`) · `source` · `note`.
 
 **`return.csv`** — one row per brand, the roll-up:
 `brand` (exactly as in `canonical_keys.txt`; run `reconcile.py` before returning) · `styles_total` ·

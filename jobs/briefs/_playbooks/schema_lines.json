@@ -1,0 +1,109 @@
+{
+  "not_checked": "NC",
+  "min_styles": 5,
+  "threshold_pct": 90,
+  "columns": [
+    {
+      "name": "brand",
+      "type": "key"
+    },
+    {
+      "name": "line",
+      "type": "str"
+    },
+    {
+      "name": "line_kind",
+      "type": "enum",
+      "values": [
+        "sub-line",
+        "collection",
+        "fabric-family",
+        "fit-family"
+      ]
+    },
+    {
+      "name": "how_identified",
+      "type": "enum",
+      "values": [
+        "navigation",
+        "collection-handle",
+        "tag",
+        "title-series"
+      ]
+    },
+    {
+      "name": "styles",
+      "type": "int",
+      "range": [
+        5,
+        99999
+      ]
+    },
+    {
+      "name": "styles_with_composition",
+      "type": "int",
+      "range": [
+        0,
+        99999
+      ]
+    },
+    {
+      "name": "natural_pct",
+      "type": "int",
+      "range": [
+        0,
+        100
+      ]
+    },
+    {
+      "name": "synthetic_pct",
+      "type": "int",
+      "range": [
+        0,
+        100
+      ]
+    },
+    {
+      "name": "cellulosic_pct",
+      "type": "int",
+      "range": [
+        0,
+        100
+      ]
+    },
+    {
+      "name": "spandex_styles",
+      "type": "int",
+      "range": [
+        0,
+        99999
+      ]
+    },
+    {
+      "name": "spandex_high_styles",
+      "type": "int",
+      "range": [
+        0,
+        99999
+      ]
+    },
+    {
+      "name": "verdict",
+      "type": "enum",
+      "values": [
+        "all-natural",
+        "all-synthetic",
+        "all-cellulosic",
+        "mixed"
+      ]
+    },
+    {
+      "name": "source",
+      "type": "provenance"
+    },
+    {
+      "name": "note",
+      "type": "str"
+    }
+  ]
+}
