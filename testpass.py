@@ -812,6 +812,14 @@ with sync_playwright() as p:
     ck('natural dial derived for the seven at their old bands', pg.evaluate("[...document.querySelectorAll('.brand')].filter(b=>['J.Crew','Merz b. Schwanen','Todd Snyder','Loro Piana'].includes(b.textContent.trim())).every(b=>b.dataset.natural==='5')"))
     ck('natural dial covers most of the map now', pg.evaluate("[...document.querySelectorAll('.brand')].filter(b=>b.dataset.natural!=='99').length")>=190)
 
+    head('lead line')
+    pg.set_viewport_size({'width':1400,'height':1000})
+    pg.goto(url); pg.reload(); pg.wait_for_timeout(500)
+    lines = pg.evaluate("[...document.querySelectorAll('.brand')].map(b=>traitLine(b))")
+    ck('every card lead line has one to three clauses', all(1 <= l.count(' · ')+1 <= 3 for l in lines), [l for l in lines if l.count(' · ')+1 > 3][:2])
+    ck('no lead line carries the filler clauses', not any(x in l for l in lines for x in ('national reach','works in both','sold everywhere','accommodating')))
+    ck('the page keeps the full trait line', pg.evaluate("typeof traitLineFull==='function'"))
+
     head('prev / next')
     pg.set_viewport_size({'width':1400,'height':1000})
     pg.goto(url+'#brand=Barbour'); pg.reload(); pg.wait_for_timeout(420)

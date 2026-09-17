@@ -1528,7 +1528,57 @@ hoverCard.setAttribute("aria-label","Brand summary"); hoverCard.setAttribute("ar
 document.body.appendChild(hoverCard);
 let hcShowT = null, hcHideT = null;
 function listWords(a){ return a.length<2 ? a.join("") : a.slice(0,-1).join(", ") + " and " + a[a.length-1]; }
+// The card lead line: three clauses at most — what the house leads with, what it is
+// made of, and the one register that most sets it apart. Reach, forgiveness and
+// course-or-office are true of nearly everyone and said nothing on a card; they stay on
+// the page, in traitLineFull, and reach only when a house is a hunt to find.
 function traitLine(el){
+  const AN = {tech:"technology", comfort:"comfort", craft:"craft", style:"style"};
+  const FN = {denim:"denim", cashmere:"cashmere", linen:"linen", cotton:"fine cotton", wool:"wool", synth:"performance fabric"};
+  const parts = [];
+  const top = Math.max(...Object.keys(AN).map(k=>+el.dataset[k]));
+  const lead = Object.keys(AN).filter(k=>+el.dataset[k]===top && top>=4).map(k=>AN[k]);
+  if(lead.length) parts.push(capital(listWords(lead)) + " first");
+  else parts.push("A quiet generalist");
+  const f5 = FKEYS.filter(k=>+el.dataset[k]===5).map(k=>FN[k]);
+  const f4 = FKEYS.filter(k=>+el.dataset[k]===4).map(k=>FN[k]);
+  if(f5.length)      parts.push("built on " + listWords(f5));
+  else if(f4.length) parts.push("leans on " + listWords(f4));
+  // One register, the most particular one first: a house that is avant or a pro-shop
+  // native is better described by that than by being deeply American.
+  const R = [
+    ["avant",  {5:"an argument with clothing itself", 4:"radical form, worn"}],
+    ["weird",  {5:"gloriously weird", 4:"a strong streak of strange"}],
+    ["golf",   {5:"a pro-shop native", 4:"a clubhouse staple"}],
+    ["boat",   {5:"dressed for a boat you do not drive", 4:"crewed-deck resort"}],
+    ["racquet",{5:"members-only squash club", 4:"whites-enforced club court"}],
+    ["ski",    {5:"the mountain is the brief", 4:"a serious ski programme"}],
+    ["ivy",    {5:"Ivy source material", 4:"a house of the Ivy revival"}],
+    ["prep",   {5:"the prep uniform itself", 4:"deeply preppy"}],
+    ["street", {5:"street source code", 4:"street-fluent"}],
+    ["ital",   {5:"Italy as the argument", 4:"deeply Italian"}],
+    ["fren",   {5:"France as the argument", 4:"deeply French"}],
+    ["briish", {5:"Britain as the argument", 4:"deeply British"}],
+    ["scandi", {5:"the Nordic register itself", 4:"deeply Scandinavian"}],
+    ["murica", {5:"an American icon", 4:"deeply American"}],
+    ["finbro", {5:"the finance uniform itself", 4:"finance-uniform standard issue"}],
+    ["status", {5:"maximum signal", 4:"high signal"}],
+    ["shoes",  {5:"a shoemaker first"}],
+    ["dur",    {5:"built to outlive you"}],
+    ["forg",   {5:"fits a wide range of bodies"}],
+    ["reach",  {1:"a hunt to find"}],
+  ];
+  let best = null, bestScore = -1;
+  for(const [k, words] of R){
+    const v = +el.dataset[k];
+    if(words[v] && (k==="reach" ? 5 : v) > bestScore){ best = words[v]; bestScore = (k==="reach" ? 5 : v); }
+    if(bestScore === 5 && k !== "reach") break;
+  }
+  if(best) parts.push(best);
+  return parts.join(" \u00b7 ");
+}
+function capital(t){ return t.charAt(0).toUpperCase() + t.slice(1); }
+function traitLineFull(el){
   const AN = {tech:"technology", comfort:"comfort", craft:"craft", style:"style"};
   const FN = {denim:"denim", cashmere:"cashmere", linen:"linen", cotton:"fine cotton", wool:"wool", synth:"performance fabric"};
   const parts = [];
@@ -2119,7 +2169,7 @@ function renderDetail(name){
              + `</p>`;})()}
     <h3>Where</h3>
     ${p(CITIES[name] ? CITIES[name] : "")}
-    ${p("<b>Trait line:</b> " + (traitLine(el) || "(none — no dial at 4 or 5)"))}`;
+    ${p("<b>Trait line:</b> " + (traitLineFull(el) || "(none — no dial at 4 or 5)"))}`;
   // A new brand starts at the top. Without this the overlay keeps the scroll
   // position of the brand you were just reading, so the next one opens midway down.
   detailView.scrollTop = 0;
