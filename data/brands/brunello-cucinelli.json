@@ -44,7 +44,16 @@
     "u": "https://shop.brunellocucinelli.com/en-us/men/ready-to-wear/knitwear/cashmere-sweater-with-half-zip-261M2200124C166C01.html",
     "n": ""
   },
-  "prices": [[400, 690], [770, 2000], [650, 2950], [780, 1270], [730, 2700], "?", "?", "?"],
+  "prices": [
+    [400, 690],
+    [770, 2000],
+    [650, 2950],
+    [780, 1270],
+    [730, 2700],
+    [1350, 4000],
+    [4600, 17900],
+    [1200, 1600]
+  ],
   "shoelink": {
     "t": "shoes",
     "u": "https://www.brunellocucinelli.com/en-us/search?q=shoes"
@@ -140,5 +149,6 @@
     "sc": ["beachwear"],
     "nc": ["pants", "knitwear", "coats-jackets"],
     "st": "complete"
-  }
+  },
+  "price_checked": true
 }

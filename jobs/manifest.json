@@ -340,22 +340,36 @@
         {
           "name": "golf_products",
           "type": "int",
-          "range": [0, 9999]
+          "range": [
+            0,
+            9999
+          ]
         },
         {
           "name": "total_products",
           "type": "int",
-          "range": [0, 99999]
+          "range": [
+            0,
+            99999
+          ]
         },
         {
           "name": "golf_pct",
           "type": "int",
-          "range": [0, 100]
+          "range": [
+            0,
+            100
+          ]
         },
         {
           "name": "house_tech",
           "type": "enum",
-          "values": ["owned", "licensed", "none", "unclear"]
+          "values": [
+            "owned",
+            "licensed",
+            "none",
+            "unclear"
+          ]
         },
         {
           "name": "source",
@@ -587,42 +601,66 @@
         {
           "name": "styles_total",
           "type": "int",
-          "range": [1, 99999]
+          "range": [
+            1,
+            99999
+          ]
         },
         {
           "name": "styles_with_composition",
           "type": "int",
-          "range": [0, 99999]
+          "range": [
+            0,
+            99999
+          ]
         },
         {
           "name": "natural_pct",
           "type": "int",
-          "range": [0, 100]
+          "range": [
+            0,
+            100
+          ]
         },
         {
           "name": "synthetic_pct",
           "type": "int",
-          "range": [0, 100]
+          "range": [
+            0,
+            100
+          ]
         },
         {
           "name": "cellulosic_pct",
           "type": "int",
-          "range": [0, 100]
+          "range": [
+            0,
+            100
+          ]
         },
         {
           "name": "spandex_styles",
           "type": "int",
-          "range": [0, 99999]
+          "range": [
+            0,
+            99999
+          ]
         },
         {
           "name": "spandex_high_styles",
           "type": "int",
-          "range": [0, 99999]
+          "range": [
+            0,
+            99999
+          ]
         },
         {
           "name": "shape",
           "type": "enum",
-          "values": ["one", "split"]
+          "values": [
+            "one",
+            "split"
+          ]
         },
         {
           "name": "synthetic_categories",
@@ -635,7 +673,12 @@
         {
           "name": "style_method",
           "type": "enum",
-          "values": ["product_code", "title_dedup", "handle", "manual"]
+          "values": [
+            "product_code",
+            "title_dedup",
+            "handle",
+            "manual"
+          ]
         },
         {
           "name": "colourway_ratio",
@@ -652,7 +695,10 @@
         {
           "name": "status",
           "type": "enum",
-          "values": ["complete", "partial"]
+          "values": [
+            "complete",
+            "partial"
+          ]
         },
         {
           "name": "source",
@@ -723,7 +769,7 @@
       "id": "price_pass_2026-09-18",
       "title": "Price pass — the three unread garments, and site-search URLs",
       "kind": "price",
-      "state": "issued",
+      "state": "pilot_returned",
       "created": "2026-09-18",
       "issued": "2026-09-18",
       "pilot": 8,
@@ -916,82 +962,130 @@
         {
           "name": "tee_low",
           "type": "int",
-          "range": [1, 99999]
+          "range": [
+            1,
+            99999
+          ]
         },
         {
           "name": "tee_high",
           "type": "int",
-          "range": [1, 99999]
+          "range": [
+            1,
+            99999
+          ]
         },
         {
           "name": "polo_low",
           "type": "int",
-          "range": [1, 99999]
+          "range": [
+            1,
+            99999
+          ]
         },
         {
           "name": "polo_high",
           "type": "int",
-          "range": [1, 99999]
+          "range": [
+            1,
+            99999
+          ]
         },
         {
           "name": "dress_shirt_low",
           "type": "int",
-          "range": [1, 99999]
+          "range": [
+            1,
+            99999
+          ]
         },
         {
           "name": "dress_shirt_high",
           "type": "int",
-          "range": [1, 99999]
+          "range": [
+            1,
+            99999
+          ]
         },
         {
           "name": "jeans_low",
           "type": "int",
-          "range": [1, 99999]
+          "range": [
+            1,
+            99999
+          ]
         },
         {
           "name": "jeans_high",
           "type": "int",
-          "range": [1, 99999]
+          "range": [
+            1,
+            99999
+          ]
         },
         {
           "name": "dress_pants_low",
           "type": "int",
-          "range": [1, 99999]
+          "range": [
+            1,
+            99999
+          ]
         },
         {
           "name": "dress_pants_high",
           "type": "int",
-          "range": [1, 99999]
+          "range": [
+            1,
+            99999
+          ]
         },
         {
           "name": "sweater_low",
           "type": "int",
-          "range": [1, 99999]
+          "range": [
+            1,
+            99999
+          ]
         },
         {
           "name": "sweater_high",
           "type": "int",
-          "range": [1, 99999]
+          "range": [
+            1,
+            99999
+          ]
         },
         {
           "name": "outerwear_low",
           "type": "int",
-          "range": [1, 99999]
+          "range": [
+            1,
+            99999
+          ]
         },
         {
           "name": "outerwear_high",
           "type": "int",
-          "range": [1, 99999]
+          "range": [
+            1,
+            99999
+          ]
         },
         {
           "name": "shoes_low",
           "type": "int",
-          "range": [1, 99999]
+          "range": [
+            1,
+            99999
+          ]
         },
         {
           "name": "shoes_high",
           "type": "int",
-          "range": [1, 99999]
+          "range": [
+            1,
+            99999
+          ]
         },
         {
           "name": "not_a_staple",
@@ -1008,12 +1102,23 @@
         {
           "name": "currency_basis",
           "type": "enum",
-          "values": ["USD", "EUR", "GBP", "JPY", "CAD", "other"]
+          "values": [
+            "USD",
+            "USD_landed",
+            "EUR",
+            "GBP",
+            "JPY",
+            "CAD",
+            "other"
+          ]
         },
         {
           "name": "status",
           "type": "enum",
-          "values": ["complete", "partial"]
+          "values": [
+            "complete",
+            "partial"
+          ]
         },
         {
           "name": "source",
@@ -1035,7 +1140,18 @@
         "prices.7": "shoes_low",
         "shop": "search_url"
       },
-      "returns": [],
+      "returns": [
+        {
+          "n": 1,
+          "file": "price_pass_2026-09-18_pilot.csv",
+          "received": "2026-09-18",
+          "rows": 8,
+          "mergeable": 7,
+          "held": 1,
+          "merged": 7,
+          "triage": "jobs/MERGELOG.md"
+        }
+      ],
       "blocked_on": ""
     },
     {
@@ -1047,7 +1163,9 @@
       "issued": "2026-09-18",
       "pilot": 1,
       "nc": "NC",
-      "brands": ["Golden Goose"],
+      "brands": [
+        "Golden Goose"
+      ],
       "schema": [
         {
           "name": "brand",

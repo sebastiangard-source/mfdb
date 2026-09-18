@@ -8,82 +8,130 @@
     {
       "name": "tee_low",
       "type": "int",
-      "range": [1, 99999]
+      "range": [
+        1,
+        99999
+      ]
     },
     {
       "name": "tee_high",
       "type": "int",
-      "range": [1, 99999]
+      "range": [
+        1,
+        99999
+      ]
     },
     {
       "name": "polo_low",
       "type": "int",
-      "range": [1, 99999]
+      "range": [
+        1,
+        99999
+      ]
     },
     {
       "name": "polo_high",
       "type": "int",
-      "range": [1, 99999]
+      "range": [
+        1,
+        99999
+      ]
     },
     {
       "name": "dress_shirt_low",
       "type": "int",
-      "range": [1, 99999]
+      "range": [
+        1,
+        99999
+      ]
     },
     {
       "name": "dress_shirt_high",
       "type": "int",
-      "range": [1, 99999]
+      "range": [
+        1,
+        99999
+      ]
     },
     {
       "name": "jeans_low",
       "type": "int",
-      "range": [1, 99999]
+      "range": [
+        1,
+        99999
+      ]
     },
     {
       "name": "jeans_high",
       "type": "int",
-      "range": [1, 99999]
+      "range": [
+        1,
+        99999
+      ]
     },
     {
       "name": "dress_pants_low",
       "type": "int",
-      "range": [1, 99999]
+      "range": [
+        1,
+        99999
+      ]
     },
     {
       "name": "dress_pants_high",
       "type": "int",
-      "range": [1, 99999]
+      "range": [
+        1,
+        99999
+      ]
     },
     {
       "name": "sweater_low",
       "type": "int",
-      "range": [1, 99999]
+      "range": [
+        1,
+        99999
+      ]
     },
     {
       "name": "sweater_high",
       "type": "int",
-      "range": [1, 99999]
+      "range": [
+        1,
+        99999
+      ]
     },
     {
       "name": "outerwear_low",
       "type": "int",
-      "range": [1, 99999]
+      "range": [
+        1,
+        99999
+      ]
     },
     {
       "name": "outerwear_high",
       "type": "int",
-      "range": [1, 99999]
+      "range": [
+        1,
+        99999
+      ]
     },
     {
       "name": "shoes_low",
       "type": "int",
-      "range": [1, 99999]
+      "range": [
+        1,
+        99999
+      ]
     },
     {
       "name": "shoes_high",
       "type": "int",
-      "range": [1, 99999]
+      "range": [
+        1,
+        99999
+      ]
     },
     {
       "name": "not_a_staple",
@@ -100,12 +148,23 @@
     {
       "name": "currency_basis",
       "type": "enum",
-      "values": ["USD", "EUR", "GBP", "JPY", "CAD", "other"]
+      "values": [
+        "USD",
+        "USD_landed",
+        "EUR",
+        "GBP",
+        "JPY",
+        "CAD",
+        "other"
+      ]
     },
     {
       "name": "status",
       "type": "enum",
-      "values": ["complete", "partial"]
+      "values": [
+        "complete",
+        "partial"
+      ]
     },
     {
       "name": "source",

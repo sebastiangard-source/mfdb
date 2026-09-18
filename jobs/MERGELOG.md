@@ -707,3 +707,33 @@ x/xh stored as % of styles (the seated seven's convention), not counts. NATURAL 
 - Scotch & Soda held by the thread (two composition sources disagree; needs one joint restatement). Hermès still denominator-only. Lululemon stretch still held.
 
 ## 2026-09-18 · places · 9 own-store town names normalised (East Hampton variants, New York variants) so they map to a region
+
+## 2026-09-18 · price_pass_2026-09-18 · pilot (7 of 8 merged)
+
+Held: [('Auralee', 'landed international USD, not US list')]
+
+- Todd Snyder: prices[sweater] '?' -> [198, 998]
+- Todd Snyder: prices[outerwear] '?' -> [398, 1298]
+- Todd Snyder: prices[shoes] '?' -> [368, 798]
+- Todd Snyder: price_checked -> true
+- J.Crew: prices[sweater] '?' -> [80, 298]
+- J.Crew: prices[outerwear] '?' -> [178, 898]
+- J.Crew: prices[shoes] '?' -> [168, 450]
+- J.Crew: price_checked -> true
+- Barbour: prices[shoes] '?' -> [195, 245]
+- Barbour: price_checked -> true
+- Polo Ralph Lauren: prices[sweater] '?' -> [130, 498]
+- Polo Ralph Lauren: prices[outerwear] '?' -> [185, 798]
+- Polo Ralph Lauren: prices[shoes] '?' -> [178, 548]
+- Polo Ralph Lauren: price_checked -> true
+- Saint James: prices[dress_shirt] '?' -> [195, 195]
+- Saint James: shop -> https://us.saint-james.com/search?q=
+- Saint James: price_checked -> true
+- Margaret Howell: prices[sweater] '?' -> [415, 640]
+- Margaret Howell: prices[outerwear] '?' -> [640, 1900]
+- Margaret Howell: prices[shoes] '?' -> None
+- Margaret Howell: price_checked -> true
+- Brunello Cucinelli: prices[sweater] '?' -> [1350, 4000]
+- Brunello Cucinelli: prices[outerwear] '?' -> [4600, 17900]
+- Brunello Cucinelli: prices[shoes] '?' -> [1200, 1600]
+- Brunello Cucinelli: price_checked -> true
