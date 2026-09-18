@@ -324,7 +324,7 @@ with sync_playwright() as p:
     for label,h,sel,second in [
         ('dial chip','#dial=prep','#dialBody .exl a',None),
         ('region panel','#region=Peter%20Millar','#regionView .shop-open','#shopBody .exl a'),
-        ('boutiques index','#boutiques','#boutiquesView .bo-row','#shopBody .exl a')]:
+        ('stores index','#stores=shop','#boutiquesView .bo-row.shop-open','#shopBody .exl a')]:
         pg.goto(url+h); pg.reload(); pg.wait_for_timeout(450)
         pg.eval_on_selector(sel,'e=>e.click()'); pg.wait_for_timeout(430)
         if second:
@@ -586,28 +586,28 @@ with sync_playwright() as p:
 
     head('boutiques index')
     pg.goto(url); pg.reload(); pg.wait_for_timeout(450)
-    ck('masthead reads Prices and Boutiques',
-       pg.eval_on_selector_all('.mastbtn','e=>e.map(x=>x.textContent)')==['Prices','Boutiques'])
+    ck('masthead reads Prices and Stores',
+       pg.eval_on_selector_all('.mastbtn','e=>e.map(x=>x.textContent)')==['Prices','Stores'])
     pg.eval_on_selector('#boutiquesBtn','e=>e.click()'); pg.wait_for_timeout(430)
-    ck('index opens with every stockist',
+    ck('index opens with every store of both kinds',
        pg.eval_on_selector_all('#boutiquesView .bo-row','e=>e.length')==
-       pg.evaluate("()=>PLACES.filter(p=>p.k==='s').length"))
-    ck('every boutique row offers a report action',
-       pg.eval_on_selector_all('#boutiquesView .bo-report','e=>e.length')==
-       pg.eval_on_selector_all('#boutiquesView .bo-line','e=>e.length'))
+       pg.evaluate("()=>PLACES.filter(p=>p.k==='s'||p.k==='o').length"))
+    ck('every independent shop row offers a report action',
+       pg.eval_on_selector_all('#boutiquesView .bo-report.visit-link','e=>e.length')==
+       pg.eval_on_selector_all('#boutiquesView .bo-line:not(.bo-own)','e=>e.length'))
     ck('it targets exactly what the shop page targets',
-       pg.evaluate("()=>[...document.querySelectorAll('#boutiquesView .bo-report')]"
+       pg.evaluate("()=>[...document.querySelectorAll('#boutiquesView .bo-report.visit-link')]"
                    ".every(a=>{const p=PLACES.find(x=>x.k==='s'&&storeString(x)===a.dataset.store);"
                    "return p && a.getAttribute('href')===visitUrl(p);})"))
     # Grouped by state until 15 Sep; now one alphabetical list with a region tag per row,
     # and the tag set must cover every sub-region the data declares for the shops shown.
-    want_regions = pg.evaluate("()=>new Set(PLACES.filter(p=>p.k==='s').map(p=>SUBREGION[p.s+'|'+p.c])).size")
+    want_regions = pg.evaluate("()=>new Set(PLACES.filter(p=>p.k==='s'||p.k==='o').map(p=>SUBREGION[p.s+'|'+p.c])).size")
     got_regions = len(set(pg.eval_on_selector_all('#boutiquesView .bo-region','e=>e.map(x=>x.textContent)')))
     ck('index tags every declared sub-region', got_regions==want_regions, f'{got_regions} of {want_regions}')
     ck('index is no longer grouped by state', pg.eval_on_selector_all('#boutiquesView .rv-state','e=>e.length')==0)
     ck('index states the regional limit',
        'register has not reached' in pg.eval_on_selector('#boBody','e=>e.innerText'))
-    pg.eval_on_selector('#boutiquesView .bo-row','e=>e.click()'); pg.wait_for_timeout(380)
+    pg.eval_on_selector('#boutiquesView .bo-row.shop-open','e=>e.click()'); pg.wait_for_timeout(380)
     ck('a row opens its shop page over the index',
        pg.eval_on_selector('#shopView','e=>e.classList.contains("show")') and
        pg.eval_on_selector('#boutiquesView','e=>e.classList.contains("show")'))
@@ -615,7 +615,7 @@ with sync_playwright() as p:
     ck('escape peels the shop and keeps the index',
        not pg.eval_on_selector('#shopView','e=>e.classList.contains("show")') and
        pg.eval_on_selector('#boutiquesView','e=>e.classList.contains("show")') and
-       pg.evaluate('location.hash')=='#boutiques')
+       pg.evaluate('location.hash').startswith('#stores'))
     pg.keyboard.press('Escape'); pg.wait_for_timeout(300)
     ck('second escape closes the index', pg.evaluate('location.hash')=='')
     pg.goto(url+'#boutiques'); pg.reload(); pg.wait_for_timeout(420)
@@ -862,7 +862,7 @@ with sync_playwright() as p:
     pg.goto(url+'#brand='+first.replace(' ','%20').replace("'", '%27')); pg.reload(); pg.wait_for_timeout(400)
     ck('first brand has no prev link, only an end marker', pg.evaluate("()=>!document.querySelector('#detailBody .pg-nav a.pg-prev') && !!document.querySelector('#detailBody .pg-nav .pg-end')"))
     # shops: open the first shop in the boutiques index and step
-    pg.goto(url+'#boutiques'); pg.reload(); pg.wait_for_timeout(500)
+    pg.goto(url+'#stores=shop'); pg.reload(); pg.wait_for_timeout(500)
     slugs = pg.evaluate("()=>[...document.querySelectorAll('#boBody a.shop-open')].map(a=>a.dataset.i)")
     ck('boutiques index has shops', len(slugs)>2)
     pg.click('#boBody a.shop-open'); pg.wait_for_timeout(300)
@@ -878,21 +878,31 @@ with sync_playwright() as p:
     pg.evaluate("shopView.classList.remove('show')")   # the prev/next check left a shop page open
     pg.click("#boBody .bo-region[data-region='South Shore']"); pg.wait_for_timeout(300)
     ck('tapping a region tag filters the index to that region', pg.evaluate("[...document.querySelectorAll('#boBody .bo-region')].every(e=>e.textContent==='South Shore') && document.querySelectorAll('#boBody .bo-line').length>=3"))
-    ck('the filtered index sets a shareable hash', pg.evaluate('location.hash')=='#boutiques=south-shore')
+    ck('the filtered index sets a shareable hash', pg.evaluate('location.hash')=='#stores=south-shore+shop')
     rl = pg.evaluate("[...document.querySelectorAll('#boBody a.bo-route')].map(a=>a.href)")
     ck('a region view offers a Google Maps route', len(rl)==1 and rl[0].startswith('https://www.google.com/maps/dir/'))
     ck('the route carries every shop in the region as a stop', rl and rl[0].count('/')-4==pg.evaluate("document.querySelectorAll('#boBody .bo-line').length"), rl and rl[0].count('/')-4)
     # Derived: the largest region by shop count, whatever it is this build.
     big = pg.evaluate("()=>{const c={}; PLACES.filter(p=>p.k==='s').forEach(p=>{const r=SUBREGION[p.s+'|'+p.c]; c[r]=(c[r]||0)+1}); const e=Object.entries(c).sort((a,b)=>b[1]-a[1])[0]; return [e[0], e[1]]}")
-    pg.goto(url+'#boutiques='+big[0].lower().replace(' ','-')); pg.reload(); pg.wait_for_timeout(500)
+    pg.goto(url+'#stores='+big[0].lower().replace(' ','-')+'+shop'); pg.reload(); pg.wait_for_timeout(500)
     rl2 = pg.evaluate("[...document.querySelectorAll('#boBody a.bo-route')].map(a=>a.href)")
     ck('the largest region splits into legs of at most ten', len(rl2)==-(-big[1]//10) and all(0 < h.count('/')-4 <= 10 for h in rl2), [h.count('/')-4 for h in rl2])
-    pg.goto(url+'#boutiques=south-shore'); pg.reload(); pg.wait_for_timeout(500)
+    pg.goto(url+'#stores=south-shore+shop'); pg.reload(); pg.wait_for_timeout(500)
     pg.click('#boBody a.bo-all'); pg.wait_for_timeout(300)
     ck('show all restores the whole index', pg.evaluate("document.querySelectorAll('#boBody .bo-line').length")==len(slugs))
-    pg.goto(url+'#boutiques=the-cape'); pg.reload(); pg.wait_for_timeout(500)
+    pg.click("#boBody button.bo-kind[data-kind='all']"); pg.wait_for_timeout(300)
+    nAll = pg.evaluate("document.querySelectorAll('#boBody .bo-line').length"); nOwn = pg.evaluate("document.querySelectorAll('#boBody .bo-line.bo-own').length")
+    ck('the All filter shows both kinds', nAll==pg.evaluate("PLACES.filter(p=>p.k==='s'||p.k==='o').length") and nOwn>0, f'{nAll} rows, {nOwn} own')
+    ck('a brand store row opens the brand page', pg.evaluate("document.querySelector('#boBody .bo-own a.bo-row').getAttribute('href').startsWith('#brand=')"))
+    pg.click("#boBody button.bo-kind[data-kind='own']"); pg.wait_for_timeout(300)
+    ck('Brand stores filter shows only own stores', pg.evaluate("[...document.querySelectorAll('#boBody .bo-line')].every(l=>l.classList.contains('bo-own'))") and pg.evaluate('location.hash')=='#stores=own')
+    ck('every store row of either kind carries a region tag', pg.evaluate("[...document.querySelectorAll('#boBody .bo-line')].every(l=>l.querySelector('.bo-region')?.textContent.trim())"))
+    pg.goto(url+'#boutiques'); pg.reload(); pg.wait_for_timeout(400)
+    ck('the old #boutiques hash still opens the index', pg.evaluate("boutiquesView.classList.contains('show')"))
+    pg.goto(url+'#stores=shop'); pg.reload(); pg.wait_for_timeout(500)
+    pg.goto(url+'#stores=the-cape+shop'); pg.reload(); pg.wait_for_timeout(500)
     ck('a region hash opens the index filtered', pg.evaluate("document.querySelector('#boBody h2').textContent")=='The Cape')
-    pg.goto(url+'#boutiques'); pg.reload(); pg.wait_for_timeout(500)
+    pg.goto(url+'#stores=shop'); pg.reload(); pg.wait_for_timeout(500)
     ck('Louie is tagged South Shore', pg.evaluate("[...document.querySelectorAll('#boBody .bo-line')].find(l=>l.textContent.includes('Louie'))?.querySelector('.bo-region').textContent")=='South Shore')
 
     head('phone')

@@ -705,3 +705,5 @@ x/xh stored as % of styles (the seated seven's convention), not counts. NATURAL 
 - Sid Mashburn: t 300->289 w 299->289 n/s/c 99/1/0->99/1/0 x/xh 7/1->7/0
 - Zegna: t 386->383 w 385->382 n/s/c 98/1/1->98/1/1 x/xh 7/2->7/2
 - Scotch & Soda held by the thread (two composition sources disagree; needs one joint restatement). Hermès still denominator-only. Lululemon stretch still held.
+
+## 2026-09-18 · places · 9 own-store town names normalised (East Hampton variants, New York variants) so they map to a region

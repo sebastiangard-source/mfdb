@@ -1,31 +1,51 @@
 {
   "MA": {
-    "Boston": ["Allston", "Boston", "Cambridge", "South Boston"],
-    "MetroWest": ["Concord", "Needham Hgts", "Newton", "Newton Centre"],
-    "North Shore": ["Danvers", "Newburyport", "Wenham"],
+    "Boston": ["Allston", "Boston", "Cambridge", "Chestnut Hill", "Somerville", "South Boston"],
+    "MetroWest": [
+      "Burlington",
+      "Concord",
+      "Dedham",
+      "Natick",
+      "Needham Hgts",
+      "Newton",
+      "Newton Centre",
+      "Wellesley"
+    ],
+    "North Shore": ["Danvers", "Lynnfield", "Manchester by the Sea", "Newburyport", "Peabody", "Wenham"],
     "Merrimack Valley": ["Andover", "Lowell"],
-    "South Shore": ["Braintree", "Hingham", "Norwell", "South Weymouth"],
-    "The Cape": ["Chatham", "Orleans", "Provincetown"],
-    "Martha's Vineyard": ["Edgartown", "Vineyard Haven"],
+    "South Shore": ["Braintree", "Foxborough", "Hingham", "Norwell", "South Weymouth"],
+    "The Cape": ["Chatham", "Hyannis", "Mashpee", "Orleans", "Osterville", "Provincetown"],
+    "Martha's Vineyard": ["Edgartown", "Oak Bluffs", "Vineyard Haven"],
     "Nantucket": ["Nantucket"],
     "South Coast": ["South Dartmouth", "Westport"],
     "Berkshires": ["Great Barrington", "Lenox"],
-    "Pioneer Valley": ["Northampton", "Springfield"]
+    "Pioneer Valley": ["Millbury", "Northampton", "Springfield"]
   },
   "CT": {
-    "Fairfield County": ["Bridgeport", "Darien", "Greenwich", "New Canaan", "Old Greenwich", "Ridgefield", "Westport"],
-    "New Haven": ["Guilford", "New Haven", "Orange"],
-    "Greater Hartford": ["Avon", "Hartford", "Meriden", "Vernon", "West Hartford"],
-    "Connecticut Shoreline": ["Deep River", "Essex", "Old Saybrook"],
-    "Litchfield Hills": ["New Preston"]
+    "Fairfield County": [
+      "Bridgeport",
+      "Danbury",
+      "Darien",
+      "Greenwich",
+      "New Canaan",
+      "Old Greenwich",
+      "Ridgefield",
+      "Southport",
+      "Westport"
+    ],
+    "New Haven": ["Guilford", "Milford", "New Haven", "Orange"],
+    "Greater Hartford": ["Avon", "Farmington", "Hartford", "Meriden", "South Windsor", "Vernon", "West Hartford"],
+    "Connecticut Shoreline": ["Deep River", "Essex", "Madison", "Mystic", "Old Saybrook"],
+    "Litchfield Hills": ["Litchfield", "New Preston"]
   },
   "ME": {
-    "Southern Maine": ["Kennebunk", "Kennebunkport", "Kittery", "Portland"],
+    "Southern Maine": ["Kennebunk", "Kennebunkport", "Kittery", "Portland", "South Portland", "Wells"],
     "Midcoast Maine": ["Rockport"]
   },
   "NH": {
     "Seacoast": ["Exeter", "Portsmouth"],
-    "Upper Valley": ["Hanover", "Lebanon"]
+    "Upper Valley": ["Hanover", "Lebanon"],
+    "Merrimack Valley NH": ["Salem"]
   },
   "NJ": {
     "Jersey Shore": ["Asbury Park", "Cape May", "Long Beach Township"],
@@ -34,12 +54,33 @@
   },
   "NY": {
     "New York City": ["Brooklyn", "New York"],
-    "Long Island": ["Bellport", "Garden City", "Locust Valley", "Lynbrook", "Manhasset", "Ocean Beach", "Woodbury"],
-    "Hamptons and North Fork": ["Greenport", "Sag Harbor"],
-    "Westchester": ["Katonah", "Larchmont"],
-    "Hudson Valley": ["Beacon", "Hudson", "Kingston", "Woodstock"],
-    "Capital Region": ["Albany", "Saratoga Springs"],
-    "Adirondacks": ["Saranac Lake"]
+    "Long Island": [
+      "Bellport",
+      "Elmont",
+      "Garden City",
+      "Huntington",
+      "Huntington Station",
+      "Locust Valley",
+      "Lynbrook",
+      "Manhasset",
+      "Ocean Beach",
+      "Woodbury"
+    ],
+    "Hamptons and North Fork": [
+      "Amagansett",
+      "Bridgehampton",
+      "East Hampton",
+      "Greenport",
+      "Sag Harbor",
+      "Southampton",
+      "Southold"
+    ],
+    "Westchester": ["Bedford", "Bronxville", "Katonah", "Larchmont", "Scarsdale", "White Plains", "Yonkers"],
+    "Hudson Valley": ["Beacon", "Hudson", "Kingston", "Millbrook", "Rhinebeck", "Woodstock"],
+    "Capital Region": ["Albany", "Latham", "Saratoga Springs"],
+    "Adirondacks": ["Saranac Lake"],
+    "Western New York": ["Amherst", "Buffalo", "Rochester", "Victor"],
+    "Central New York": ["Skaneateles", "Syracuse"]
   },
   "PA": {
     "Philadelphia": ["Philadelphia"],
@@ -52,7 +93,8 @@
   },
   "RI": {
     "Providence": ["Cranston", "East Greenwich", "Providence"],
-    "Newport County": ["Block Island", "Newport"]
+    "Newport County": ["Block Island", "Newport"],
+    "South County": ["Watch Hill"]
   },
   "VT": {
     "Champlain Valley": ["Burlington", "Shelburne", "Williston"],
