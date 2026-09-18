@@ -1,6 +1,10 @@
-# price_pass_2026-09-18 — Price pass — the three unread garments, and site-search URLs
+# price_pass_2026-09-18 — Price pass — the unread garments, and site-search URLs
 
-**Issued** not yet · **Kind** price · **Pilot** 8 rows first · **Returns to** the Spectrum thread
+**Rev 2, 18 September, after the thread's pre-pilot review.** Five rulings and four corrections below,
+in reply to the points raised. The protocol's second item 3 was mine — Sebastian's ruling of 13
+September on robots.txt, spliced in badly. It is real, and it is now written into item 3 properly.
+
+**Issued** 2026-09-18 · **Kind** price · **Pilot** 8 rows first · **Returns to** the Spectrum thread
 
 Read `audit_protocol.md` before starting. This brief carries everything it requires.
 If any instruction below would make you produce a confident wrong answer, stop and say so
@@ -9,19 +13,17 @@ the ones that said *done*.
 
 ## The job
 
-Read the three garments the earlier price pass never reached — **Sweater, Outerwear, Shoes** — for
-every brand in `worklist.csv`, from the brand's own US store at full price, and return the low and
-high of each as `[entry version, elevated-fabric version of the same staple]`. `worklist.csv` says
-which slots are open per brand (a few brands are missing an earlier slot too — read those as well),
-the brand's store domain and platform from the `site` record, and whether a site-search URL is on
-file. **For the 37 brands with no search URL, find one**: the URL of the brand's own search page
-with the query left empty, e.g. `https://www.toddsnyder.com/search?q=`, so a garment word can be
-appended. Test that it returns results.
+Read every garment slot that is still unread for each brand in `worklist.csv` — usually **Sweater,
+Outerwear and Shoes**, sometimes an earlier garment too, and for six brands all eight — from the
+brand's own store at full price, and return the low and high of each. The template says exactly what
+each row wants: **`NC` marks a cell to read; `SKIP` marks a cell that is not in scope for this brand
+because an earlier pass already holds it — leave `SKIP` as it is, never fill it.** The merge writes
+nothing for either token, so a `SKIP` can never overwrite a held record. **For the 37 brands with no
+search URL, find one**: the brand's own search page with the query left empty
+(`https://www.toddsnyder.com/search?q=`), tested to return results for `jeans`. Sixteen brands are
+on the worklist for the URL alone; their garment cells are all `SKIP`.
 
-A slot the brand does not sell is `NONE` in `not_a_staple` (list the slots) — a verified absence,
-different from `NC`. Where the store prices in a currency other than USD, return the figures and set
-`currency_basis`; do not convert. The Shopify rate rule from the fibre pass settles the basis:
-`Shopify.currency.rate` ≠ 1.0 with USD showing means the feed is in the shop currency.
+A slot the brand does not sell is `NONE` in `not_a_staple` (list the slots) — a verified absence.
 
 ## What to return
 
@@ -52,29 +54,19 @@ minutes; caught at the end they cost the pass.
 - A source that cannot be resolved (page 404s, locator caps at N): record what the widget
   itself says and do not fill from memory.
 
-## Definitions
-
-- **Sweater** — a knitted pullover or cardigan for men. Not a sweatshirt.
-- **Outerwear** — a jacket or coat, excluding blazers and sport coats (tailoring) and shirt-jackets.
-- **Shoes** — footwear the brand makes itself. Shoes it stocks from other makers are not its shoes;
-  judge by product code and what the brand says it makes, never by the vendor field.
-- **Low** is the entry version of the staple in the current main range; **high** is the elevated-
-  fabric version of the same staple (cashmere over merino, shearling over wool). Not the single
-  most expensive item in the category, and never a collaboration or a runway piece.
-- **Full price only.** Sale and outlet prices are not prices.
-
-## Failure classes for this job
-
-- **A locator or a category page shows the nearest N, not all of them.** Read the count the page
-  states before believing a list.
-- **The vendor field lies.** Stocked footwear appears under the brand's own vendor string at
-  Arpenteur, evan kinori, Malbon, Saint James and Ring Jacket.
-- **Markdowns wear the full-price field.** Check a second product before taking a figure.
-- **A search URL that returns a 200 and no results is a failure**, not a link. Test with `jeans`.
-
 ## Columns
 
 - `brand` — key
+- `tee_low` — int [1, 99999]
+- `tee_high` — int [1, 99999]
+- `polo_low` — int [1, 99999]
+- `polo_high` — int [1, 99999]
+- `dress_shirt_low` — int [1, 99999]
+- `dress_shirt_high` — int [1, 99999]
+- `jeans_low` — int [1, 99999]
+- `jeans_high` — int [1, 99999]
+- `dress_pants_low` — int [1, 99999]
+- `dress_pants_high` — int [1, 99999]
 - `sweater_low` — int [1, 99999]
 - `sweater_high` — int [1, 99999]
 - `outerwear_low` — int [1, 99999]
@@ -83,6 +75,7 @@ minutes; caught at the end they cost the pass.
 - `shoes_high` — int [1, 99999]
 - `not_a_staple` — str
 - `search_url` — url
+- `store_used` — url
 - `currency_basis` — enum one of ['USD', 'EUR', 'GBP', 'JPY', 'CAD', 'other']
 - `status` — enum one of ['complete', 'partial']
 - `source` — provenance

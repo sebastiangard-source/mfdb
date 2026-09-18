@@ -748,8 +748,11 @@
         "Finisterre",
         "Faherty",
         "Rodd & Gunn",
+        "Rowan",
         "Rhone",
         "J.Lindeberg",
+        "Malbon",
+        "Redvanly",
         "RLX",
         "johnnie-O",
         "Percival",
@@ -760,6 +763,8 @@
         "Wythe",
         "AYR",
         "Alex Mill",
+        "Easy Mondays",
+        "Indochino",
         "Tecovas",
         "Patrick James",
         "Barbour",
@@ -779,10 +784,12 @@
         "Ted Baker",
         "Scotch & Soda",
         "NN07",
+        "Samsøe Samsøe",
         "Les Deux",
         "Norse Projects",
         "Vollebak",
         "Stone Island",
+        "A Bathing Ape",
         "Canada Goose",
         "Arc'teryx",
         "Vince",
@@ -799,12 +806,16 @@
         "Joe's Jeans",
         "Suitsupply",
         "Boggi Milano",
+        "Hackett",
         "Rakho",
         "Eleventy",
+        "Borgo28",
+        "Incotex",
         "Brooks Brothers",
         "J.Press",
         "Sunspel",
         "Saint James",
+        "Merz b. Schwanen",
         "Margaret Howell",
         "Reiss",
         "Isabel Marant",
@@ -823,14 +834,17 @@
         "Ami Paris",
         "Todd Snyder",
         "Boglioli",
+        "Peserico",
         "Ring Jacket",
         "Drake's",
+        "Gran Sasso",
         "BOSS",
         "Corneliani",
         "Canali",
         "Thom Browne",
         "Burberry",
         "Herno",
+        "Valstar",
         "Aspesi",
         "Paul & Shark",
         "Sease",
@@ -838,6 +852,7 @@
         "Ferragamo",
         "Giorgio Armani",
         "Missoni",
+        "Etro",
         "Versace",
         "Dolce&Gabbana",
         "Fendi",
@@ -863,6 +878,7 @@
         "Amiri",
         "Rhude",
         "Palm Angels",
+        "Golden Goose",
         "Fear of God",
         "Bode",
         "Greg Lauren",
@@ -896,6 +912,56 @@
         {
           "name": "brand",
           "type": "key"
+        },
+        {
+          "name": "tee_low",
+          "type": "int",
+          "range": [1, 99999]
+        },
+        {
+          "name": "tee_high",
+          "type": "int",
+          "range": [1, 99999]
+        },
+        {
+          "name": "polo_low",
+          "type": "int",
+          "range": [1, 99999]
+        },
+        {
+          "name": "polo_high",
+          "type": "int",
+          "range": [1, 99999]
+        },
+        {
+          "name": "dress_shirt_low",
+          "type": "int",
+          "range": [1, 99999]
+        },
+        {
+          "name": "dress_shirt_high",
+          "type": "int",
+          "range": [1, 99999]
+        },
+        {
+          "name": "jeans_low",
+          "type": "int",
+          "range": [1, 99999]
+        },
+        {
+          "name": "jeans_high",
+          "type": "int",
+          "range": [1, 99999]
+        },
+        {
+          "name": "dress_pants_low",
+          "type": "int",
+          "range": [1, 99999]
+        },
+        {
+          "name": "dress_pants_high",
+          "type": "int",
+          "range": [1, 99999]
         },
         {
           "name": "sweater_low",
@@ -936,6 +1002,10 @@
           "type": "url"
         },
         {
+          "name": "store_used",
+          "type": "url"
+        },
+        {
           "name": "currency_basis",
           "type": "enum",
           "values": ["USD", "EUR", "GBP", "JPY", "CAD", "other"]
@@ -955,6 +1025,11 @@
         }
       ],
       "writes": {
+        "prices.0": "tee_low",
+        "prices.1": "polo_low",
+        "prices.2": "dress_shirt_low",
+        "prices.3": "jeans_low",
+        "prices.4": "dress_pants_low",
         "prices.5": "sweater_low",
         "prices.6": "outerwear_low",
         "prices.7": "shoes_low",

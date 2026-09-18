@@ -21,7 +21,7 @@ missing.** Those two pressures should not live in the same head.
 
 ## What every brief must specify
 
-**1. The canonical key list.** Brand names must match `canonical_keys.txt` exactly. 21 of the 186
+**1. The canonical key list.** Brand names must match `canonical_keys.txt` exactly. Two dozen of the 204
 carry punctuation or accents another thread renders differently — `J.McLaughlin`, `Dolce&Gabbana`,
 `Arc'teryx`, `Hermès`, `A.P.C.`. A mismatch does not error. It writes a row that displays nowhere.
 Run `reconcile.py` before returning anything.
@@ -29,10 +29,8 @@ Run `reconcile.py` before returning anything.
 **2. A flat schema, one row per finding**, with every column named and its legal values listed.
 CSV or JSON array. Never prose, never a document to be parsed back out.
 
-**3. A required provenance column.** Reading a path a site's robots.txt disallows is in bounds
-(ruled 13 Sep 2026); record the path, as with any other source.
-
-**3. A required provenance column, continued.** Not optional, not backfillable later. What was looked at, and
+**3. A required provenance column.** (Added 13 Sep 2026, Sebastian's ruling: reading a path a
+site's robots.txt disallows is in bounds; record the path, as with any other source.) Not optional, not backfillable later. What was looked at, and
 where. `N/A` is not provenance; `N/A — ported from an earlier pass` at least says which. A URL is
 better than either.
 

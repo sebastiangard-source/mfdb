@@ -172,8 +172,7 @@ def materialise(j, data=None):
         w = csv.writer(f)
         w.writerow(cols)
         for b in brands:
-            w.writerow([b] + [j['nc'] if c['type'] not in ('key', 'provenance') else ''
-                              for c in j['schema'][1:]])
+            w.writerow([b] + [j['nc'] for c in j['schema'][1:]])
     with open(os.path.join(d, 'schema.json'), 'w', encoding='utf8') as f:
         f.write(spec.dump({'not_checked': j['nc'], 'columns': j['schema']}))
     with open(os.path.join(d, 'canonical_keys.txt'), 'w', encoding='utf8') as f:
@@ -306,8 +305,8 @@ def check(args):
             t = c['type']
             if t in ('key', 'provenance'):
                 continue
-            if v == nc:
-                continue
+            if v == nc or v == 'SKIP':
+                continue   # NC: nobody looked. SKIP: not in scope for this brand — already held, not to be touched
             if v == '':
                 why.append(f'{c["name"]} is blank — use {nc} if nobody looked')
                 continue
@@ -328,7 +327,7 @@ def check(args):
                 except Exception:
                     why.append(f'{c["name"]} is not valid JSON')
         prov = (r.get(provcol) or '').strip()
-        if finding and (not prov or prov.lower() in ('n/a', 'na', 'none', '-')):
+        if finding and (not prov or prov.lower() in ('n/a', 'na', 'none', '-', nc.lower())):
             why.append('finding with no provenance')
         # composite target: several columns land in one record object (fibre.*). A row
         # that fills some of them would write a half-object the page cannot read.
@@ -414,7 +413,7 @@ def merge(args):
         rec = data.by_name[r[keycol]]
         for fpath, col in j['writes'].items():
             v = (r.get(col) or '').strip()
-            if v == j['nc'] or v == '':
+            if v == j['nc'] or v == 'SKIP' or v == '':
                 continue
             val = coerce(fpath, v, ctype[col])
             mm = re.fullmatch(r'(.+)\.(\d+)', fpath)

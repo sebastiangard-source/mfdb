@@ -6,6 +6,56 @@
       "type": "key"
     },
     {
+      "name": "tee_low",
+      "type": "int",
+      "range": [1, 99999]
+    },
+    {
+      "name": "tee_high",
+      "type": "int",
+      "range": [1, 99999]
+    },
+    {
+      "name": "polo_low",
+      "type": "int",
+      "range": [1, 99999]
+    },
+    {
+      "name": "polo_high",
+      "type": "int",
+      "range": [1, 99999]
+    },
+    {
+      "name": "dress_shirt_low",
+      "type": "int",
+      "range": [1, 99999]
+    },
+    {
+      "name": "dress_shirt_high",
+      "type": "int",
+      "range": [1, 99999]
+    },
+    {
+      "name": "jeans_low",
+      "type": "int",
+      "range": [1, 99999]
+    },
+    {
+      "name": "jeans_high",
+      "type": "int",
+      "range": [1, 99999]
+    },
+    {
+      "name": "dress_pants_low",
+      "type": "int",
+      "range": [1, 99999]
+    },
+    {
+      "name": "dress_pants_high",
+      "type": "int",
+      "range": [1, 99999]
+    },
+    {
       "name": "sweater_low",
       "type": "int",
       "range": [1, 99999]
@@ -41,6 +91,10 @@
     },
     {
       "name": "search_url",
+      "type": "url"
+    },
+    {
+      "name": "store_used",
       "type": "url"
     },
     {
