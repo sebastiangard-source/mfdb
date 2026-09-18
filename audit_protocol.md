@@ -93,3 +93,25 @@ Briefs from here have been wrong twice, and both times the audit thread was righ
   distribution.
 
 If a brief asks for something that will produce a confident wrong answer, say so before doing it.
+
+
+## Register relevance — ruled 18 September 2026
+
+A shop enters the register of independent stockists through one of two doors, and the row says which.
+
+**Door one — the business is clothing.** Selling clothes is what the shop does, and it has a men's
+line: a menswear specialist, a boutique, or a multigender shop with a real men's rail. Enters on a
+single mapped house's stockist list.
+
+**Door two — corroboration.** A shop that fails door one still enters if two or more mapped houses
+name it as a stockist, **and at least one of them sells clothing there** (not socks, caps or
+accessories alone). The Paper Store enters on Vineyard Vines and Southern Tide; a gift shop named
+by two sock makers does not. Corroboration counts a house only for the product it sells at that shop.
+
+**Never in the register, whichever door:** brand-owned doors (they go to `doors`), department stores
+and concessions, museum shops, club pro shops.
+
+Every shop row carries `houses` (how many mapped houses name it) and `door` (`clothing` or
+`corroborated`). A door-two shop can be promoted to door one after a visit. A single-house account
+that fails door one is recorded in `not_register.csv` with the house that named it, so it is not
+rediscovered and can enter when a second house names it.
