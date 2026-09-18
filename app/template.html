@@ -241,6 +241,8 @@
     border-top:1px solid rgba(0,0,0,.07);
     border-radius:0 0 9px 9px; pointer-events:none}
   #hoverCard h4{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:0 0 5px;color:var(--lf-green)}
+  .gl-link{color:inherit;text-decoration:none;border-bottom:1px dotted var(--ink-faint)}
+  .gl-link:hover{border-bottom-color:var(--ink);color:var(--ink)}
   .hc-head{display:flex;justify-content:space-between;align-items:center;gap:10px;margin:0 0 6px}
   #hoverCard .hc-scores{font-size:11px;letter-spacing:.04em;color:var(--ink-faint);margin:0 0 7px;font-variant-numeric:tabular-nums}
   #hoverCard p{margin:0;font-size:12.5px;line-height:1.55;color:var(--ink-soft)}
@@ -1716,7 +1718,7 @@ function hoverCardHTML(el, withClose){
   return `<div class="hc-head">${detailLink(name)}${withClose ? '<button class="hc-close" aria-label="Close">\u00d7</button>' : ''}</div>
     <h4>${name}${sayHTML(name)}</h4>
     <div class="hc-scores">${sc}</div>
-    <p>${WHY[name] || ""}</p>${origin}${opv}${shop}${where}${regionLineHTML(name, true)}${shoeLineHTML(name)}${pricesStripHTML(name)}${oneThingHTML(name)}`;
+    <p>${WHY[name] || ""}</p>${origin}${opv}${shop}${where}${regionLineHTML(name, true)}${pricesStripHTML(name)}${oneThingHTML(name)}`;
 }
 // Remembered so the card can be put back against its brand after a scroll or a
 // resize. Placed once and left, it floated over the footer while its row moved on.
@@ -2005,14 +2007,14 @@ function pricesHTML(name){
   const gl = PRTICKS.map(t=>`<span class="pr-gl" style="left:${prPos(t)}%"></span>`).join("");
   const axis = PRTICKS.map(t=>`<span style="left:${prPos(t)}%">$${t}</span>`).join("");
   const rows = p.map((r,i)=>{
-    if(r === "?") return `<div class="pr-row"><div class="pr-lab">${PRGARMENTS[i]}</div>`
+    if(r === "?") return `<div class="pr-row"><div class="pr-lab">${garmentLabel(name, i, PRGARMENTS[i], false)}</div>`
                 + `<div class="pr-track">${gl}</div>`
                 + `<div class="pr-val pr-unk">not assessed</div></div>`;
-    if(!r) return `<div class="pr-row"><div class="pr-lab">${PRGARMENTS[i]}</div>`
+    if(!r) return `<div class="pr-row"><div class="pr-lab">${garmentLabel(name, i, PRGARMENTS[i], false)}</div>`
                 + `<div class="pr-track">${gl}</div>`
                 + `<div class="pr-val pr-none">not a staple</div></div>`;
     const mid = Math.round((r[0]+r[1])/2);
-    return `<div class="pr-row"><div class="pr-lab">${PRGARMENTS[i]}</div>`
+    return `<div class="pr-row"><div class="pr-lab">${garmentLabel(name, i, PRGARMENTS[i], true)}</div>`
          + `<div class="pr-track">${gl}`
          + `<span class="pr-bar pg${i}" style="left:${prPos(r[0])}%;width:${prPos(r[1])-prPos(r[0])}%"></span>`
          + `<span class="pr-dot" style="left:${prPos(mid)}%"></span></div>`
@@ -2820,7 +2822,7 @@ function renderWhy(active){
         });
       if(links.length) shop = `<p class="whyshop">Shop: ${links.join(" · ")}</p>`;
     }
-    return `<div class="whycard"><div class="hc-head">${detailLink(name)}</div><h4>${name}${sayHTML(name)}</h4><p>${why} It holds this cut on ${clauses.join("; ")}.</p>${shop}${where}${regionLineHTML(name, true)}${shoeLineHTML(name)}${pricesStripHTML(name)}${oneThingHTML(name)}</div>`;
+    return `<div class="whycard"><div class="hc-head">${detailLink(name)}</div><h4>${name}${sayHTML(name)}</h4><p>${why} It holds this cut on ${clauses.join("; ")}.</p>${shop}${where}${regionLineHTML(name, true)}${pricesStripHTML(name)}${oneThingHTML(name)}</div>`;
   }).join("");
   whyPanel.hidden = false;
 }
@@ -3121,6 +3123,19 @@ function pricePassHTML(name){
   return '<span class="pv-ok" title="All eight garments opened and read on the '
        + 'brand\u2019s own site, ' + PRICE_PASS_DATE + '">checked</span>';
 }
+// A garment label links to the brand's own site search for that garment when a
+// search URL is on file and the garment is priced. The Shoes row uses the curated
+// shoe link where one exists, since the search term is often wrong for footwear.
+// No search URL, or an unpriced garment: the label stays plain text.
+const PRTERM = ["t-shirt","polo","dress shirt","jeans","dress pants","sweater","jacket","shoes"];
+function garmentLabel(name, i, text, priced){
+  const key = name.trim();
+  let url = null;
+  if(i === 7 && SHOELINK[key]) url = SHOELINK[key].u;
+  else if(priced && SHOP[key]) url = SHOP[key] + encodeURIComponent(PRTERM[i]);
+  if(!url) return text;
+  return `<a class="gl-link" href="${url}" target="_blank" rel="noopener" title="Search ${esc(key)} for ${PRTERM[i]}">${text}</a>`;
+}
 function pricesStripHTML(name){
   const p = PRICES[name.trim()];
   if(!p || !p.some(Array.isArray)) return "";
@@ -3133,7 +3148,7 @@ function pricesStripHTML(name){
         + ` style="left:${prPos(r[0])}%;width:${prPos(r[1])-prPos(r[0])}%"></span>`
       : "";
     return `<div class="hp-row"><div class="hp-name${has?"":(r==="?"?" hp-unk":" hp-none")}"`
-         + `${r==="?"?' title="not assessed"':""}>${PRSHORT[i]}</div>`
+         + `${r==="?"?' title="not assessed"':""}>${garmentLabel(name, i, PRSHORT[i], has)}</div>`
          + `<div class="hp-track">${gl}${bar}</div></div>`;
   }).join("");
   return `<div class="hc-prices"><span class="hp-lab">Prices</span>${pricePassHTML(name)}`

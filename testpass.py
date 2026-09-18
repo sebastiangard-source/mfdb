@@ -831,6 +831,18 @@ with sync_playwright() as p:
     ck('the last why card sits inside the document height, not a clipped box', pg.evaluate("()=>{const c=[...document.querySelectorAll('.whycard')].pop(); const r=c.getBoundingClientRect(); return r.bottom + window.scrollY <= document.documentElement.scrollHeight + 1}"))
     pg.evaluate("()=>{const d=document.querySelector('.dial[data-attr=\"avant\"] input[type=range]'); d.value=0; d.dispatchEvent(new Event('input',{bubbles:true})); d.dispatchEvent(new Event('change',{bubbles:true}));}")
 
+    head('garment labels shop')
+    pg.set_viewport_size({'width':1400,'height':1000})
+    pg.goto(url+'#brand=Todd%20Snyder'); pg.reload(); pg.wait_for_timeout(400)
+    links = pg.evaluate("[...document.querySelectorAll('#detailBody .pr-lab a.gl-link')].map(a=>[a.textContent, a.href])")
+    ck('priced garment labels link to the brand site search', len(links)==5 and all('toddsnyder' in h for _,h in links), links[:2])
+    ck('unpriced garment labels stay plain', pg.evaluate("[...document.querySelectorAll('#detailBody .pr-row')].filter(r=>r.textContent.includes('not assessed')).every(r=>!r.querySelector('a'))"))
+    pg.goto(url+'#brand=Tecovas'); pg.reload(); pg.wait_for_timeout(400)
+    ck('the Shoes label uses the curated shoe link where one exists', pg.evaluate("document.querySelectorAll('#detailBody .pr-row')[7].querySelector('a')?.href")=='https://www.tecovas.com/search?q=Cartwright%20boot')
+    pg.goto(url); pg.reload(); pg.wait_for_timeout(400); pg.hover('.brand:has-text("Todd Snyder")'); pg.wait_for_timeout(600)
+    ck('card garment labels link too', pg.evaluate("document.querySelectorAll('#hoverCard .hp-name a.gl-link').length")==5)
+    ck('the separate Shoes line is gone from the card', pg.evaluate("!document.querySelector('#hoverCard .hc-shoe')"))
+
     head('prev / next')
     pg.set_viewport_size({'width':1400,'height':1000})
     pg.goto(url+'#brand=Barbour'); pg.reload(); pg.wait_for_timeout(420)
