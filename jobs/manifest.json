@@ -1037,6 +1037,34 @@
       },
       "returns": [],
       "blocked_on": ""
+    },
+    {
+      "id": "stockist_great_put_on_2026-09-18",
+      "title": "The Great Put On — shop record and brand sift",
+      "kind": "stockist",
+      "state": "issued",
+      "created": "2026-09-18",
+      "issued": "2026-09-18",
+      "pilot": 1,
+      "nc": "NC",
+      "brands": ["Golden Goose"],
+      "schema": [
+        {
+          "name": "brand",
+          "type": "key"
+        },
+        {
+          "name": "source",
+          "type": "provenance"
+        },
+        {
+          "name": "note",
+          "type": "str"
+        }
+      ],
+      "writes": {},
+      "returns": [],
+      "blocked_on": ""
     }
   ]
 }

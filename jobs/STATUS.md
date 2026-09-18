@@ -1,6 +1,6 @@
 # Job board — derived from jobs/manifest.json by job.py; do not edit
 
-_13 jobs · rewritten 2026-09-18_
+_14 jobs · rewritten 2026-09-18_
 
 | job | state | issued | kind | merged/returned | blocked on / note |
 |---|---|---|---|---|---|
@@ -17,3 +17,4 @@ _13 jobs · rewritten 2026-09-18_
 | rubric_screen_golf_2026-09-14 | drafted |  | rubric_screen |  | scaffolded as the worked example; not sent to anyone |
 | fibre_pass_2026-09-14 | returned | 2026-09-13 | fibre | 0/197 | full return merged 15 Sep: 191 fibre records (193 rows less Hermès and Eleventy held); six rulings open, see triage |
 | price_pass_2026-09-18 | issued | 2026-09-18 | price |  |  |
+| stockist_great_put_on_2026-09-18 | issued | 2026-09-18 | stockist |  |  |
