@@ -77,7 +77,9 @@ with sync_playwright() as p:
        pg.eval_on_selector_all('#detailBody .pr-row','e=>e.length')==8)
     ck('a checked brand says so',
        pg.eval_on_selector_all('#detailBody .pv-ok','e=>e.length')==1)
-    pg.goto(url+'#brand=Buck%20Mason'); pg.reload(); pg.wait_for_timeout(400)
+    # Derived: the first brand with an unassessed slot, whichever it is this build.
+    _unc = pg.evaluate("Object.keys(PRICES).find(k=>PRICES[k].includes('?') && !PRICE_PASS.includes(k))")
+    pg.goto(url+'#brand='+_unc.replace(' ','%20').replace("'", '%27')); pg.reload(); pg.wait_for_timeout(400)
     ck('an unchecked brand does not',
        pg.eval_on_selector_all('#detailBody .pv-ok','e=>e.length')==0)
     pg.goto(url+'#prices'); pg.reload(); pg.wait_for_timeout(450)
