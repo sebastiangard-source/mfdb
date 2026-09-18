@@ -1,5 +1,44 @@
 # price_pass_2026-09-18 — Price pass — the unread garments, and site-search URLs
 
+**Rev 4, 18 September, after the full return — a short restatement round.** The full return is merged:
+128 brands' USD cells, 28 search URLs, and — on Sebastian's ruling today that native currencies are
+shown and never converted — the eleven JPY, EUR, GBP and duty-paid rows as well. What remains is
+below under *Rev 4 — the restatement round*. Rev 3's definitions stand, amended by four rulings.
+
+## Rev 4 — the restatement round
+
+Return one `return.csv` holding only the rows named here (same 23 columns, `SKIP` everywhere you
+are not restating), plus `NOTE.md`.
+
+1. **Four highs restate without fur or exotic skin.** Ruled: elevated means majority-cashmere blends,
+   silk, alpaca, mohair, vicuña and superfine wool; fur and exotic skins never. Stefano Ricci (mink
+   blouson, crocodile loafer), Loro Piana (vicuña bomber — vicuña the *fibre* counts; a vicuña-and-fur
+   piece does not; say which it was), Hermès (alligator loafer), Sid Mashburn (sharkskin loafer). Your
+   notes already carry the alternative figures; return them as the cells.
+2. **Fear of God's polo restates with ESSENTIALS in.** Ruled: a sub-line sold under the brand's name in
+   its own store counts (Ghost, Crown Crafted, Blue Tab, &Kin, ESSENTIALS); capsules, archive reissues
+   and collaborations do not. Check any other row where an agent excluded a sub-line and restate it.
+3. **Fedeli's two held slots** — read on the US storefront if one exists, else in EUR with the basis set.
+4. **The five browser-blocked houses** — Saint Laurent, Gucci, Balenciaga, Bottega Veneta, Celine.
+   Try a fresh browser profile with the extension off, or the site's own listing endpoints (Gucci and
+   Saint Laurent have paged JSON behind their category pages); a robots-disallowed path is in bounds.
+   If still unreadable, `NC` with the exact block recorded.
+5. **The eight search URLs.** Ruled: the test word is any garment word the brand sells — `knit`,
+   `shirt`, `jacket` — not `jeans`. Ring Jacket's `/p/search?keyword=` passes on `jacket`. Indochino
+   and Ferragamo have overlay-only search: return `NONE` in `search_url` with the reason; the labels
+   stay plain. Golden Goose: try the brand's `sneakers` and `jacket`.
+6. **Currency, going forward.** The test is two feed prices confirmed against the displayed US page on
+   the market path; the Shopify rate is a hint. Wave 1's rows are accepted as filed; spot-check ten
+   of them (your choice, US-based Shopify) and report any that move.
+7. **Store record corrections** — J.Lindeberg, Isaia, Kiton, Corneliani, Samsøe Samsøe, Hackett, Sugar
+   Cane domains; Canada Goose, Bonobos, Tecovas, J.McLaughlin, Rhoback, Suitsupply, Les Deux,
+   Vineyard Vines platforms — are taken from your note; nothing to do.
+
+Not needed: any row not named above. Madhappy and Cesare Attolini stay closed; Rakho, Comme des
+Garçons, Junya Watanabe and Charvet have no store and are recorded so.
+
+---
+
 **Rev 3, 18 September, after the pilot.** Rev 2 lost its Definitions and Failure classes to a bad
 edit on my side — the thread noticed and worked to rev 1 plus stated assumptions, which was right.
 Both sections are back below, with the thread's staple rules adopted and the pilot's rulings added.

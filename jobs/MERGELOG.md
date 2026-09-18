@@ -1298,3 +1298,46 @@ Held: [('Auralee', 'landed international USD, not US list')]
 - Kiton: prices[Shoes] '?' -> [1260, 2540]
 - Kiton: price_checked -> true
 - Zilli: shop -> https://en.zilli.com/search.php?search_query=
+
+## 2026-09-18 · ruling · rounding tie: earlier column wins. Peserico fibre n/c 91/2 -> 92/1
+
+## 2026-09-18 · ruling · native currency shown, never converted
+
+- Sugar Cane: prices[T-shirt] -> [8690, 15180, 'JPY']
+- Sugar Cane: prices[Polo] -> None
+- Sugar Cane: prices[Dress shirt] -> [11880, 29480, 'JPY']
+- Sugar Cane: prices[Jeans] -> [18480, 32780, 'JPY']
+- Sugar Cane: prices[Dress pants] -> None
+- Sugar Cane: prices[Sweater] -> None
+- Sugar Cane: prices[Outerwear] -> [25300, 275000, 'JPY']
+- Sugar Cane: prices[Shoes] -> None
+- Reiss: prices[Sweater] -> [175, 440, 'USD_landed']
+- Reiss: prices[Outerwear] -> [315, 785, 'USD_landed']
+- Reiss: prices[Shoes] -> [298, 355, 'USD_landed']
+- Officine Générale: prices[Sweater] -> [495, 495, 'USD_landed']
+- Officine Générale: prices[Outerwear] -> [995, 1890, 'USD_landed']
+- Officine Générale: prices[Shoes] -> None
+- Our Legacy: prices[Sweater] -> [420, 550, 'USD_landed']
+- Our Legacy: prices[Outerwear] -> [720, 2450, 'USD_landed']
+- Our Legacy: prices[Shoes] -> [550, 680, 'USD_landed']
+- Auralee: prices[Sweater] -> [534, 792, 'USD_landed']
+- Auralee: prices[Outerwear] -> [935, 4527, 'USD_landed']
+- Auralee: prices[Shoes] -> [1150, 1353, 'USD_landed']
+- Ring Jacket: prices[Sweater] -> [99000, 132000, 'JPY']
+- Ring Jacket: prices[Outerwear] -> [550000, 880000, 'JPY']
+- Ring Jacket: prices[Shoes] -> [82500, 220000, 'JPY']
+- Rick Owens: prices[Sweater] -> [560, 1905, 'USD_landed']
+- Rick Owens: prices[Outerwear] -> [2090, 3225, 'USD_landed']
+- Rick Owens: prices[Shoes] -> [935, 4725, 'USD_landed']
+- Husbands: prices[Sweater] -> [690, 690, 'USD_landed']
+- Husbands: prices[Outerwear] -> [2450, 3480, 'USD_landed']
+- Husbands: prices[Shoes] -> [720, 930, 'USD_landed']
+- Acne Studios: prices[Sweater] -> [580, 1300, 'USD_landed']
+- Acne Studios: prices[Outerwear] -> [800, 5100, 'USD_landed']
+- Acne Studios: prices[Shoes] -> [750, 850, 'USD_landed']
+- Wales Bonner: prices[Sweater] -> [595, 595, 'GBP']
+- Wales Bonner: prices[Outerwear] -> [750, 1500, 'GBP']
+- Wales Bonner: prices[Shoes] -> [485, 595, 'GBP']
+- Zilli: prices[Sweater] -> [750, 1320, 'EUR']
+- Zilli: prices[Outerwear] -> [1470, 8500, 'EUR']
+- Zilli: prices[Shoes] -> [870, 4320, 'EUR']

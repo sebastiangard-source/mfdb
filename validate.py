@@ -191,10 +191,10 @@ for b, v in D['PRICES'].items():
     for i, p in enumerate(v):
         if p is None:
             continue  # null = verified: brand does not make the garment
-        if p == '?':
-            continue  # "?" = not assessed. Distinct from a verified absence
-        if not isinstance(p, list) or len(p) != 2:
-            fail('SHAPE', f'PRICES "{b}" slot {i}: expected [low, high], null or "?"')
+        if p in ('?', 'np'):
+            continue  # "?" = not assessed; "np" = checked, none published. Both distinct from null
+        if not isinstance(p, list) or len(p) not in (2, 3):
+            fail('SHAPE', f'PRICES "{b}" slot {i}: expected [low, high], [low, high, CUR], null, "?" or "np"')
         elif p[0] > p[1]:
             fail('SHAPE', f'PRICES "{b}" slot {i}: low {p[0]} above high {p[1]}')
 

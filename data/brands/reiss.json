@@ -41,7 +41,16 @@
     "u": "https://www.reiss.com/us/en/search?q=Merino%20polo%20men",
     "n": "Use this: https://www.reiss.com/us/en/search?w=merino%20polo"
   },
-  "prices": [[55, 85], [95, 145], [120, 180], [150, 220], [150, 250], "?", "?", "?"],
+  "prices": [
+    [55, 85],
+    [95, 145],
+    [120, 180],
+    [150, 220],
+    [150, 250],
+    [175, 440, "USD_landed"],
+    [315, 785, "USD_landed"],
+    [298, 355, "USD_landed"]
+  ],
   "doors": {
     "c": "full",
     "n": 4,

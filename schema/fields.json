@@ -625,7 +625,7 @@
       "path": "fibre",
       "type": "fibre",
       "absent": "not_assessed",
-      "doc": "Measured from the house's own product pages, styles not colourways, men's only. t styles counted (0 = counted, no men's clothing); w styles stating a composition; n/s/c = % of t whose main fibre is natural / synthetic / cellulosic (ruled 13 Sep: cellulosics a third figure); x = % of t with any elastane on the main fabric line; xh = % at 5%+ (0 = counted, none; absent = not counted); sp one|split; sc/nc category lists; st complete|partial. The natural dial is DERIVED at build: band of n/(n+s+c) when w/t >= 0.5, else not assessed. Never stored. cats (optional): list of {cat, house, t, w, n, s, c, x, xh} per product category, the standard set being tees-polos, shirts, knitwear, sweats, trousers, denim, shorts, tailoring, outerwear, underwear-swim, other; when present, t/n/s/c/sp/sc/nc must reconcile to it."
+      "doc": "Measured from the house's own product pages, styles not colourways, men's only. t styles counted (0 = counted, no men's clothing); w styles stating a composition; n/s/c = % of t whose main fibre is natural / synthetic / cellulosic (ruled 13 Sep: cellulosics a third figure); x = % of t with any elastane on the main fabric line; xh = % at 5%+ (0 = counted, none; absent = not counted); sp one|split; sc/nc category lists; st complete|partial. The natural dial is DERIVED at build: band of n/(n+s+c) when w/t >= 0.5, else not assessed. Never stored. cats (optional): list of {cat, house, t, w, n, s, c, x, xh} per product category, the standard set being tees-polos, shirts, knitwear, sweats, trousers, denim, shorts, tailoring, outerwear, underwear-swim, other; when present, t/n/s/c/sp/sc/nc must reconcile to it. Rounding to 100: at an exact tie the earlier column wins (natural, synthetic, cellulosic)."
     },
     "doors": {
       "scope": "brand",
@@ -659,7 +659,7 @@
       "path": "prices",
       "type": "prices",
       "absent": "required",
-      "doc": "8 slots: T-shirt, Polo, Dress shirt, Jeans, Dress pants, Sweater, Outerwear, Shoes. Each [lo, hi], null = not a staple, '?' = not assessed."
+      "doc": "8 slots: T-shirt, Polo, Dress shirt, Jeans, Dress pants, Sweater, Outerwear, Shoes. Each [lo, hi] in USD; [lo, hi, \"JPY\"] (or EUR, GBP, USD_landed) for a native figure that never converts and draws no bar (ruled 18 Sep); null = does not make the garment; \"?\" = not assessed; \"np\" = checked, none published (ruled 18 Sep). Elevated fibre for a high: majority cashmere, silk, alpaca, mohair, vicuña, superfine wool; never fur or exotic skin. Sub-lines under the brand's name in its own store count; capsules, reissues and collaborations do not."
     },
     "price_checked": {
       "scope": "brand",

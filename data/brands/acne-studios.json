@@ -40,7 +40,16 @@
     "u": "https://www.acnestudios.com/us/en/search?q=Canada%20wool%20scarf%20men",
     "n": "men-filtered"
   },
-  "prices": [[320, 620], null, [510, 900], [540, 1200], [540, 1150], "?", "?", "?"],
+  "prices": [
+    [320, 620],
+    null,
+    [510, 900],
+    [540, 1200],
+    [540, 1150],
+    [580, 1300, "USD_landed"],
+    [800, 5100, "USD_landed"],
+    [750, 850, "USD_landed"]
+  ],
   "shoelink": {
     "t": "shoes",
     "u": "https://www.acnestudios.com/us/en/search?q=shoes"

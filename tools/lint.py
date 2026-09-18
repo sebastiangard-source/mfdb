@@ -101,10 +101,10 @@ for rec in data.brands:
                 fail('SHAPE', f'{n}: prices needs {len(slots)} slots')
                 continue
             for i, p in enumerate(v):
-                if p is None or p == '?':
+                if p is None or p in ('?', 'np'):
                     continue
-                if not isinstance(p, list) or len(p) != 2:
-                    fail('SHAPE', f'{n}: prices[{slots[i]}] must be [lo, hi], null or "?"')
+                if not isinstance(p, list) or len(p) not in (2, 3) or (len(p) == 3 and p[2] not in ('JPY', 'EUR', 'GBP', 'CAD', 'USD_landed')):
+                    fail('SHAPE', f'{n}: prices[{slots[i]}] must be [lo, hi], [lo, hi, CUR], null, "?" or "np"')
                 elif p[0] > p[1]:
                     fail('SHAPE', f'{n}: prices[{slots[i]}] low above high')
             if rec.get('price_checked') and '?' in v:
