@@ -168,11 +168,17 @@ def materialise(j, data=None):
     d = os.path.join(JOBS, 'briefs', j['id'])
     brands = data.names if j['brands'] == 'all' else j['brands']
     cols = [c['name'] for c in j['schema']]
-    with open(os.path.join(d, 'return_template.csv'), 'w', encoding='utf8', newline='') as f:
+    # A hand-built template (per-brand SKIP cells, say) survives re-materialisation once issued.
+    tpath = os.path.join(d, 'return_template.csv')
+    if os.path.exists(tpath) and j['state'] != 'drafted':
+        pass
+    else:
+      with open(tpath, 'w', encoding='utf8', newline='') as f:
         w = csv.writer(f)
         w.writerow(cols)
         for b in brands:
             w.writerow([b] + [j['nc'] for c in j['schema'][1:]])
+    if False: pass
     with open(os.path.join(d, 'schema.json'), 'w', encoding='utf8') as f:
         f.write(spec.dump({'not_checked': j['nc'], 'columns': j['schema']}))
     with open(os.path.join(d, 'canonical_keys.txt'), 'w', encoding='utf8') as f:
