@@ -820,6 +820,17 @@ with sync_playwright() as p:
     ck('no lead line carries the filler clauses', not any(x in l for l in lines for x in ('national reach','works in both','sold everywhere','accommodating')))
     ck('the page keeps the full trait line', pg.evaluate("typeof traitLineFull==='function'"))
 
+    head('why cards reachable on a phone')
+    pg.set_viewport_size({'width':390,'height':844})
+    pg.goto(url); pg.reload(); pg.wait_for_timeout(500)
+    pg.evaluate("()=>{const d=document.querySelector('.dial[data-attr=\"avant\"] input[type=range]'); d.value=5; d.dispatchEvent(new Event('input',{bubbles:true})); d.dispatchEvent(new Event('change',{bubbles:true}));}")
+    pg.wait_for_timeout(600)
+    shown = pg.evaluate("!document.getElementById('whyPanel').hidden && document.querySelectorAll('.whycard').length>0")
+    ck('dragging a dial to 5 on a phone shows why cards', shown)
+    ck('the why panel does not scroll inside itself on a phone', pg.evaluate("getComputedStyle(document.getElementById('whyPanel')).overflowY")!='auto')
+    ck('the last why card sits inside the document height, not a clipped box', pg.evaluate("()=>{const c=[...document.querySelectorAll('.whycard')].pop(); const r=c.getBoundingClientRect(); return r.bottom + window.scrollY <= document.documentElement.scrollHeight + 1}"))
+    pg.evaluate("()=>{const d=document.querySelector('.dial[data-attr=\"avant\"] input[type=range]'); d.value=0; d.dispatchEvent(new Event('input',{bubbles:true})); d.dispatchEvent(new Event('change',{bubbles:true}));}")
+
     head('prev / next')
     pg.set_viewport_size({'width':1400,'height':1000})
     pg.goto(url+'#brand=Barbour'); pg.reload(); pg.wait_for_timeout(420)

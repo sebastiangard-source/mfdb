@@ -1,5 +1,13 @@
 [
   {
+    "v": "3.10.7",
+    "d": "18 September 2026",
+    "lede": "The cards that appear while you drag a dial can be read to the end on a phone.",
+    "items": [
+      "<b>On a phone, the card panel no longer scrolls inside itself.</b> The inner scroll box was a fix for a desktop drag problem, and on a phone it trapped the cards: the page would not move past the panel and the bottom of a card could not be reached. The page now grows instead."
+    ]
+  },
+  {
     "v": "3.10.6",
     "d": "17 September 2026",
     "lede": "The card's lead line says three things, not ten.",
