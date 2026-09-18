@@ -2354,7 +2354,9 @@ function renderBoutiques(region, kind){
       + `<p class="bo-lead">${nShop} independent shops carrying brands from the map and ${nOwn} brand-owned stores, `
       + `across ${states.size} states, A to Z. Tap a region to see its stores together.</p>`)
     + `<div class="bo-kinds">${chips}</div>`
-    + (idx.length ? `<p class="bo-routes">${routeLinks(idx.map(([p])=>p))}</p>` : "");
+    // Routes belong to a region view. The whole index is 808 stores — 81 legs of ten —
+    // and a wall of route pills is not a route anyone will drive.
+    + (boRegion && idx.length ? `<p class="bo-routes">${routeLinks(idx.map(([p])=>p))}</p>` : "");
   boBody.innerHTML = head
     + `<p class="bo-caveat">Brand stores are the brand\u2019s own doors; independent shops are stockists. `
     + `No department stores or concessions. A store outside ${REGION_NAME} is absent because the register `

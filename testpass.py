@@ -881,6 +881,9 @@ with sync_playwright() as p:
     ck('the filtered index sets a shareable hash', pg.evaluate('location.hash')=='#stores=south-shore+shop')
     rl = pg.evaluate("[...document.querySelectorAll('#boBody a.bo-route')].map(a=>a.href)")
     ck('a region view offers a Google Maps route', len(rl)==1 and rl[0].startswith('https://www.google.com/maps/dir/'))
+    pg.goto(url+'#stores'); pg.reload(); pg.wait_for_timeout(400)
+    ck('the full index offers no route', pg.evaluate("document.querySelectorAll('#boBody a.bo-route').length")==0)
+    pg.goto(url+'#stores=south-shore+shop'); pg.reload(); pg.wait_for_timeout(400)
     ck('the route carries every shop in the region as a stop', rl and rl[0].count('/')-4==pg.evaluate("document.querySelectorAll('#boBody .bo-line').length"), rl and rl[0].count('/')-4)
     # Derived: the largest region by shop count, whatever it is this build.
     big = pg.evaluate("()=>{const c={}; PLACES.filter(p=>p.k==='s').forEach(p=>{const r=SUBREGION[p.s+'|'+p.c]; c[r]=(c[r]||0)+1}); const e=Object.entries(c).sort((a,b)=>b[1]-a[1])[0]; return [e[0], e[1]]}")
