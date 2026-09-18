@@ -44,7 +44,16 @@
     "u": "https://us.kiton.com/collections/men/products/jacket-cashmere-ug89k0678g08",
     "n": "verified — direct product on us.kiton.com; if the SKU sells out, fall back to /collections/men"
   },
-  "prices": [[393, 1921], [613, 2048], [730, 1995], [902, 1921], [1295, 2935], "?", "?", "?"],
+  "prices": [
+    [393, 1921],
+    [613, 2048],
+    [730, 1995],
+    [902, 1921],
+    [1295, 2935],
+    [1080, 5170],
+    [960, 15810],
+    [1260, 2540]
+  ],
   "shoelink": {
     "t": "loafer",
     "u": "https://www.kiton.com/en-us/search?q=loafer"
@@ -105,5 +114,6 @@
     "sc": ["swimwear"],
     "nc": ["jackets", "trousers", "outerwear"],
     "st": "complete"
-  }
+  },
+  "price_checked": true
 }

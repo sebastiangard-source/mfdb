@@ -737,3 +737,564 @@ Held: [('Auralee', 'landed international USD, not US list')]
 - Brunello Cucinelli: prices[outerwear] '?' -> [4600, 17900]
 - Brunello Cucinelli: prices[shoes] '?' -> [1200, 1600]
 - Brunello Cucinelli: price_checked -> true
+
+## 2026-09-18 · price_pass_2026-09-18 · full return
+
+128 brands changed, 28 search URLs, 33 range flags. Held: [('Sugar Cane', 'JPY'), ('Rakho', 'NC'), ('Reiss', 'USD_landed'), ('Sid Mashburn', 'fur/exotic in a high cell; restate without'), ('Officine Générale', 'USD_landed'), ('Our Legacy', 'USD_landed'), ('Auralee', 'USD_landed'), ('Ring Jacket', 'JPY'), ('Rick Owens', 'USD_landed'), ('Husbands', 'USD_landed'), ('Acne Studios', 'USD_landed'), ('Wales Bonner', 'GBP'), ('Hermès', 'fur/exotic in a high cell; restate without'), ('Loro Piana', 'fur/exotic in a high cell; restate without'), ('Zilli', 'EUR'), ('Stefano Ricci', 'fur/exotic in a high cell; restate without')]. Fear of God polo held (agent excluded ESSENTIALS against the default).
+
+- Levi's: prices[Sweater] '?' -> [70, 295]
+- Levi's: prices[Outerwear] '?' -> [90, 625]
+- Levi's: prices[Shoes] '?' -> None
+- Levi's: price_checked -> true
+- Carhartt: prices[Sweater] '?' -> [95, 95]
+- Carhartt: prices[Outerwear] '?' -> [100, 230]
+- Carhartt: prices[Shoes] '?' -> [95, 260]
+- Carhartt: price_checked -> true
+- Lacoste: prices[Sweater] '?' -> [98, 350]
+- Lacoste: prices[Outerwear] '?' -> [165, 580]
+- Lacoste: prices[Shoes] '?' -> [125, 125]
+- Lacoste: price_checked -> true
+- Banana Republic: prices[Sweater] '?' -> [90, 160]
+- Banana Republic: prices[Outerwear] '?' -> [298, 598]
+- Banana Republic: prices[Shoes] '?' -> [238, 238]
+- Banana Republic: price_checked -> true
+- Everlane: prices[Sweater] '?' -> [98, 198]
+- Everlane: prices[Outerwear] '?' -> [148, 398]
+- Everlane: prices[Shoes] '?' -> [148, 148]
+- Everlane: price_checked -> true
+- Industry of All Nations: prices[Sweater] '?' -> [300, 380]
+- Industry of All Nations: prices[Outerwear] '?' -> [180, 745]
+- Industry of All Nations: prices[Shoes] '?' -> [345, 345]
+- Industry of All Nations: price_checked -> true
+- Bonobos: prices[Sweater] '?' -> [99, 250]
+- Bonobos: prices[Outerwear] '?' -> [139, 299]
+- Bonobos: prices[Shoes] '?' -> None
+- Bonobos: price_checked -> true
+- Rothy's: prices[T-shirt] '?' -> None
+- Rothy's: prices[Polo] '?' -> None
+- Rothy's: prices[Dress shirt] '?' -> None
+- Rothy's: prices[Jeans] '?' -> None
+- Rothy's: prices[Dress pants] '?' -> None
+- Rothy's: prices[Sweater] '?' -> None
+- Rothy's: prices[Outerwear] '?' -> None
+- Rothy's: prices[Shoes] '?' -> [125, 185]
+- Rothy's: price_checked -> true
+- Lululemon: prices[Sweater] '?' -> [128, 168]
+- Lululemon: prices[Outerwear] '?' -> [138, 398]
+- Lululemon: prices[Shoes] '?' -> [58, 168]
+- Lululemon: price_checked -> true
+- Alo: prices[Sweater] '?' -> [188, 298]
+- Alo: prices[Outerwear] '?' -> [138, 398]
+- Alo: prices[Shoes] '?' -> [150, 295]
+- Alo: price_checked -> true
+- Southern Tide: prices[Sweater] '?' -> [158, 178]
+- Southern Tide: prices[Outerwear] '?' -> [168, 178]
+- Southern Tide: prices[Shoes] '?' -> [70, 70]
+- Southern Tide: price_checked -> true
+- Rhoback: prices[Sweater] '?' -> [128, 194]
+- Rhoback: prices[Outerwear] '?' -> [154, 248]
+- Rhoback: prices[Shoes] '?' -> None
+- Rhoback: price_checked -> true
+- Taylor Stitch: prices[Sweater] '?' -> [178, 218]
+- Taylor Stitch: prices[Outerwear] '?' -> [198, 1248]
+- Taylor Stitch: prices[Shoes] '?' -> None
+- Taylor Stitch: price_checked -> true
+- Outerknown: prices[Sweater] '?' -> [178, 348]
+- Outerknown: prices[Outerwear] '?' -> [298, 298]
+- Outerknown: prices[Shoes] '?' -> None
+- Outerknown: price_checked -> true
+- Patagonia: prices[Sweater] '?' -> [159, 209]
+- Patagonia: prices[Outerwear] '?' -> [119, 899]
+- Patagonia: prices[Shoes] '?' -> [449, 449]
+- Patagonia: price_checked -> true
+- Finisterre: prices[Sweater] '?' -> [160, 205]
+- Finisterre: prices[Outerwear] '?' -> [125, 385]
+- Finisterre: prices[Shoes] '?' -> None
+- Finisterre: price_checked -> true
+- Faherty: prices[Sweater] '?' -> [168, 398]
+- Faherty: prices[Outerwear] '?' -> [278, 1500]
+- Faherty: prices[Shoes] '?' -> [228, 228]
+- Faherty: price_checked -> true
+- Rodd & Gunn: prices[Sweater] '?' -> [128, 198]
+- Rodd & Gunn: prices[Outerwear] '?' -> [199, 798]
+- Rodd & Gunn: prices[Shoes] '?' -> [148, 198]
+- Rodd & Gunn: price_checked -> true
+- Rowan: shop -> https://forrowan.com/search?q=
+- Rhone: prices[Outerwear] '?' -> [178, 498]
+- J.Lindeberg: shop -> https://www.jlindebergusa.com/search?q=
+- J.Lindeberg: prices[T-shirt] '?' -> [50, 130]
+- J.Lindeberg: prices[Polo] '?' -> [90, 225]
+- J.Lindeberg: prices[Dress shirt] '?' -> [165, 165]
+- J.Lindeberg: prices[Jeans] '?' -> [215, 235]
+- J.Lindeberg: prices[Dress pants] '?' -> [130, 210]
+- J.Lindeberg: prices[Sweater] '?' -> [145, 325]
+- J.Lindeberg: prices[Outerwear] '?' -> [175, 830]
+- J.Lindeberg: prices[Shoes] '?' -> [180, 265]
+- J.Lindeberg: price_checked -> true
+- Malbon: shop -> https://malbon.com/search?q=
+- Redvanly: shop -> https://www.redvanly.com/search?q=
+- RLX: prices[Sweater] '?' -> [330, 430]
+- RLX: prices[Outerwear] '?' -> [265, 400]
+- RLX: prices[Shoes] '?' -> None
+- RLX: price_checked -> true
+- johnnie-O: prices[Sweater] '?' -> [198, 198]
+- johnnie-O: prices[Outerwear] '?' -> [248, 998]
+- johnnie-O: prices[Shoes] '?' -> [228, 248]
+- johnnie-O: price_checked -> true
+- Percival: prices[Sweater] '?' -> [210, 320]
+- Percival: prices[Outerwear] '?' -> [255, 795]
+- Percival: prices[Shoes] '?' -> None
+- Percival: price_checked -> true
+- Hiroshi Kato: prices[Sweater] '?' -> None
+- Hiroshi Kato: prices[Outerwear] '?' -> [358, 458]
+- Hiroshi Kato: prices[Shoes] '?' -> None
+- Hiroshi Kato: price_checked -> true
+- Buck Mason: prices[Sweater] '?' -> [178, 368]
+- Buck Mason: prices[Outerwear] '?' -> [298, 798]
+- Buck Mason: prices[Shoes] '?' -> None
+- Buck Mason: price_checked -> true
+- Duck Head: shop -> https://www.duckhead.com/search?q=
+- Duck Head: prices[Dress shirt] '?' -> [118, 148]
+- Duck Head: price_checked -> true
+- Wythe: prices[T-shirt] '?' -> [55, 78]
+- Wythe: prices[Polo] '?' -> [148, 148]
+- Wythe: prices[Dress shirt] '?' -> [160, 248]
+- Wythe: prices[Jeans] '?' -> None
+- Wythe: prices[Dress pants] '?' -> [248, 248]
+- Wythe: prices[Sweater] '?' -> [248, 368]
+- Wythe: prices[Outerwear] '?' -> [328, 1498]
+- Wythe: prices[Shoes] '?' -> [898, 1298]
+- Wythe: price_checked -> true
+- AYR: prices[Sweater] '?' -> [265, 595]
+- AYR: prices[Outerwear] '?' -> [395, 1400]
+- AYR: prices[Shoes] '?' -> None
+- AYR: price_checked -> true
+- Alex Mill: prices[Sweater] '?' -> [178, 358]
+- Alex Mill: prices[Outerwear] '?' -> [225, 275]
+- Alex Mill: prices[Shoes] '?' -> None
+- Alex Mill: price_checked -> true
+- Easy Mondays: shop -> https://easymondays.ca/search?q=
+- Tecovas: prices[Sweater] '?' -> [165, 195]
+- Tecovas: prices[Outerwear] '?' -> [165, 595]
+- Tecovas: prices[Shoes] '?' -> [185, 285]
+- Tecovas: price_checked -> true
+- Patrick James: prices[Sweater] '?' -> [138, 428]
+- Patrick James: prices[Outerwear] '?' -> [268, 698]
+- Patrick James: prices[Shoes] '?' -> [248, 248]
+- Patrick James: price_checked -> true
+- Baracuta: prices[Sweater] '?' -> [225, 400]
+- Baracuta: prices[Outerwear] '?' -> [405, 910]
+- Baracuta: prices[Shoes] '?' -> None
+- Baracuta: price_checked -> true
+- Filson: prices[Sweater] '?' -> [199, 699]
+- Filson: prices[Outerwear] '?' -> [189, 1199]
+- Filson: prices[Shoes] '?' -> None
+- Filson: price_checked -> true
+- James Perse: prices[Sweater] '?' -> [325, 595]
+- James Perse: prices[Outerwear] '?' -> [425, 1995]
+- James Perse: prices[Shoes] '?' -> [450, 1095]
+- James Perse: price_checked -> true
+- Y.Chroma: prices[Sweater] '?' -> [299, 499]
+- Y.Chroma: prices[Outerwear] '?' -> [775, 1249]
+- Y.Chroma: prices[Shoes] '?' -> None
+- Y.Chroma: price_checked -> true
+- Kith: prices[Sweater] '?' -> [150, 395]
+- Kith: prices[Outerwear] '?' -> [245, 1495]
+- Kith: prices[Shoes] '?' -> None
+- Kith: price_checked -> true
+- Aimé Leon Dore: prices[Sweater] '?' -> [300, 575]
+- Aimé Leon Dore: prices[Outerwear] '?' -> [300, 1300]
+- Aimé Leon Dore: prices[Shoes] '?' -> [395, 500]
+- Aimé Leon Dore: price_checked -> true
+- Massimo Dutti: prices[Sweater] '?' -> [100, 590]
+- Massimo Dutti: prices[Outerwear] '?' -> [180, 690]
+- Massimo Dutti: prices[Shoes] '?' -> [200, 320]
+- Massimo Dutti: price_checked -> true
+- Vineyard Vines: prices[Sweater] '?' -> [108, 328]
+- Vineyard Vines: prices[Outerwear] '?' -> [168, 228]
+- Vineyard Vines: prices[Shoes] '?' -> [43, 99]
+- Vineyard Vines: price_checked -> true
+- RRL: prices[Sweater] '?' -> [395, 1800]
+- RRL: prices[Outerwear] '?' -> [495, 2200]
+- RRL: prices[Shoes] '?' -> [195, 1400]
+- RRL: price_checked -> true
+- J.McLaughlin: prices[Sweater] '?' -> [298, 328]
+- J.McLaughlin: prices[Outerwear] '?' -> [348, 998]
+- J.McLaughlin: prices[Shoes] '?' -> [328, 565]
+- J.McLaughlin: price_checked -> true
+- Peter Millar: prices[Sweater] '?' -> [235, 998]
+- Peter Millar: prices[Outerwear] '?' -> [178, 1295]
+- Peter Millar: prices[Shoes] '?' -> [275, 395]
+- Peter Millar: price_checked -> true
+- Ted Baker: prices[Sweater] '?' -> [175, 450]
+- Ted Baker: prices[Outerwear] '?' -> [325, 875]
+- Ted Baker: prices[Shoes] '?' -> [190, 190]
+- Ted Baker: price_checked -> true
+- Scotch & Soda: prices[Sweater] '?' -> [98, 238]
+- Scotch & Soda: prices[Outerwear] '?' -> [248, 668]
+- Scotch & Soda: prices[Shoes] '?' -> [108, 108]
+- Scotch & Soda: price_checked -> true
+- NN07: prices[Sweater] '?' -> [210, 410]
+- NN07: prices[Outerwear] '?' -> [420, 1900]
+- NN07: prices[Shoes] '?' -> None
+- NN07: price_checked -> true
+- Samsøe Samsøe: shop -> https://www.samsoe.com/en-US/search?q=
+- Les Deux: shop -> https://lesdeux.us/search?q=
+- Les Deux: prices[T-shirt] '?' -> [49, 99]
+- Les Deux: prices[Polo] '?' -> [129, 189]
+- Les Deux: prices[Dress shirt] '?' -> [139, 189]
+- Les Deux: prices[Jeans] '?' -> [159, 219]
+- Les Deux: prices[Dress pants] '?' -> [139, 189]
+- Les Deux: prices[Sweater] '?' -> [149, 279]
+- Les Deux: prices[Outerwear] '?' -> [299, 829]
+- Les Deux: prices[Shoes] '?' -> [289, 289]
+- Les Deux: price_checked -> true
+- Norse Projects: prices[Sweater] '?' -> [270, 395]
+- Norse Projects: prices[Outerwear] '?' -> [338, 1600]
+- Norse Projects: prices[Shoes] '?' -> None
+- Norse Projects: price_checked -> true
+- Vollebak: prices[Sweater] '?' -> [395, 395]
+- Vollebak: prices[Outerwear] '?' -> [3295, 4295]
+- Vollebak: prices[Shoes] '?' -> None
+- Vollebak: price_checked -> true
+- Stone Island: prices[Sweater] '?' -> [420, 1425]
+- Stone Island: prices[Outerwear] '?' -> [900, 6250]
+- Stone Island: prices[Shoes] '?' -> [565, 600]
+- Stone Island: price_checked -> true
+- A Bathing Ape: shop -> https://us.bape.com/search?q=
+- Canada Goose: prices[Sweater] '?' -> [375, 575]
+- Canada Goose: prices[Outerwear] '?' -> [550, 2075]
+- Canada Goose: prices[Shoes] '?' -> [395, 850]
+- Canada Goose: price_checked -> true
+- Arc'teryx: prices[Sweater] '?' -> None
+- Arc'teryx: prices[Outerwear] '?' -> [180, 1200]
+- Arc'teryx: prices[Shoes] '?' -> [140, 280]
+- Arc'teryx: price_checked -> true
+- Vince: prices[Sweater] '?' -> [298, 398]
+- Vince: prices[Outerwear] '?' -> [498, 1598]
+- Vince: prices[Shoes] '?' -> [225, 298]
+- Vince: price_checked -> true
+- Rails: prices[Sweater] '?' -> [168, 248]
+- Rails: prices[Outerwear] '?' -> [198, 398]
+- Rails: prices[Shoes] '?' -> None
+- Rails: price_checked -> true
+- Club Monaco: prices[Sweater] '?' -> [128, 228]
+- Club Monaco: prices[Outerwear] '?' -> [328, 498]
+- Club Monaco: prices[Shoes] '?' -> [128, 128]
+- Club Monaco: price_checked -> true
+- PAIGE: prices[Sweater] '?' -> [229, 259]
+- PAIGE: prices[Outerwear] '?' -> [289, 929]
+- PAIGE: prices[Shoes] '?' -> [198, 428]
+- PAIGE: price_checked -> true
+- AG: prices[Sweater] '?' -> [185, 185]
+- AG: prices[Outerwear] '?' -> [245, 895]
+- AG: prices[Shoes] '?' -> None
+- AG: price_checked -> true
+- Ksubi: prices[Sweater] '?' -> [240, 240]
+- Ksubi: prices[Outerwear] '?' -> [420, 1000]
+- Ksubi: prices[Shoes] '?' -> None
+- Ksubi: price_checked -> true
+- Purple: prices[Sweater] '?' -> [350, 495]
+- Purple: prices[Outerwear] '?' -> [395, 1375]
+- Purple: prices[Shoes] '?' -> [345, 345]
+- Purple: price_checked -> true
+- Diesel: prices[Sweater] '?' -> [295, 495]
+- Diesel: prices[Outerwear] '?' -> [350, 1395]
+- Diesel: prices[Shoes] '?' -> [495, 595]
+- Diesel: price_checked -> true
+- Citizens of Humanity: prices[Sweater] '?' -> None
+- Citizens of Humanity: prices[Outerwear] '?' -> [328, 798]
+- Citizens of Humanity: prices[Shoes] '?' -> None
+- Citizens of Humanity: price_checked -> true
+- AGOLDE: prices[Sweater] '?' -> None
+- AGOLDE: prices[Outerwear] '?' -> [348, 995]
+- AGOLDE: prices[Shoes] '?' -> None
+- AGOLDE: price_checked -> true
+- Fidelity Denim: prices[Sweater] '?' -> None
+- Fidelity Denim: prices[Outerwear] '?' -> None
+- Fidelity Denim: prices[Shoes] '?' -> None
+- Fidelity Denim: price_checked -> true
+- Joe's Jeans: prices[Sweater] '?' -> [178, 358]
+- Joe's Jeans: prices[Outerwear] '?' -> [248, 998]
+- Joe's Jeans: prices[Shoes] '?' -> None
+- Joe's Jeans: price_checked -> true
+- Suitsupply: prices[Sweater] '?' -> [109, 269]
+- Suitsupply: prices[Outerwear] '?' -> [399, 699]
+- Suitsupply: prices[Shoes] '?' -> [249, 299]
+- Suitsupply: price_checked -> true
+- Boggi Milano: prices[Sweater] '?' -> [198, 368]
+- Boggi Milano: prices[Outerwear] '?' -> [848, 1048]
+- Boggi Milano: prices[Shoes] '?' -> [328, 448]
+- Boggi Milano: price_checked -> true
+- Hackett: shop -> https://www.hackett.com/uk/en_gb/search?q=
+- Eleventy: prices[Sweater] '?' -> [595, 1795]
+- Eleventy: prices[Outerwear] '?' -> [1195, 2995]
+- Eleventy: prices[Shoes] '?' -> [795, 995]
+- Eleventy: price_checked -> true
+- Borgo28: shop -> https://borgo28.com/search?q=
+- Borgo28: price_checked -> true
+- Incotex: shop -> https://www.slowear.com/en-us/search?q=
+- Brooks Brothers: prices[Sweater] '?' -> [148, 498]
+- Brooks Brothers: prices[Outerwear] '?' -> [198, 1298]
+- Brooks Brothers: prices[Shoes] '?' -> [150, 248]
+- Brooks Brothers: price_checked -> true
+- J.Press: prices[Sweater] '?' -> [138, 1495]
+- J.Press: prices[Outerwear] '?' -> [1295, 1950]
+- J.Press: prices[Shoes] '?' -> None
+- J.Press: price_checked -> true
+- Sunspel: prices[Sweater] '?' -> [275, 1295]
+- Sunspel: prices[Outerwear] '?' -> [415, 1595]
+- Sunspel: prices[Shoes] '?' -> [300, 300]
+- Sunspel: price_checked -> true
+- Merz b. Schwanen: shop -> https://www.merzbschwanen.com/search?q=
+- Merz b. Schwanen: price_checked -> true
+- Isabel Marant: prices[Sweater] '?' -> [440, 945]
+- Isabel Marant: prices[Outerwear] '?' -> [630, 3980]
+- Isabel Marant: prices[Shoes] '?' -> [785, 945]
+- Isabel Marant: price_checked -> true
+- Frame: prices[Sweater] '?' -> [398, 598]
+- Frame: prices[Outerwear] '?' -> [448, 1898]
+- Frame: prices[Shoes] '?' -> None
+- Frame: price_checked -> true
+- Theory: prices[Sweater] '?' -> [225, 345]
+- Theory: prices[Outerwear] '?' -> [325, 995]
+- Theory: prices[Shoes] '?' -> [395, 395]
+- Theory: price_checked -> true
+- Rag & Bone: prices[Sweater] '?' -> [238, 528]
+- Rag & Bone: prices[Outerwear] '?' -> [348, 998]
+- Rag & Bone: prices[Shoes] '?' -> [428, 428]
+- Rag & Bone: price_checked -> true
+- John Varvatos: prices[Sweater] '?' -> [198, 698]
+- John Varvatos: prices[Outerwear] '?' -> [398, 698]
+- John Varvatos: prices[Shoes] '?' -> [498, 598]
+- John Varvatos: price_checked -> true
+- Billy Reid: prices[Sweater] '?' -> [198, 448]
+- Billy Reid: prices[Outerwear] '?' -> [398, 1198]
+- Billy Reid: prices[Shoes] '?' -> [448, 448]
+- Billy Reid: price_checked -> true
+- A.P.C.: prices[Sweater] '?' -> [350, 650]
+- A.P.C.: prices[Outerwear] '?' -> [440, 1750]
+- A.P.C.: prices[Shoes] '?' -> [490, 490]
+- A.P.C.: price_checked -> true
+- Paul Smith: prices[Sweater] '?' -> [250, 725]
+- Paul Smith: prices[Outerwear] '?' -> [895, 2595]
+- Paul Smith: prices[Shoes] '?' -> [290, 595]
+- Paul Smith: price_checked -> true
+- Brax: shop -> https://www.brax.com/en/us/search?q=
+- Auralee: shop -> https://auralee.jp/item?freeword=
+- Ami Paris: prices[Sweater] '?' -> [430, 650]
+- Ami Paris: prices[Outerwear] '?' -> [680, 2650]
+- Ami Paris: prices[Shoes] '?' -> [730, 810]
+- Ami Paris: price_checked -> true
+- Boglioli: prices[Sweater] '?' -> [500, 1775]
+- Boglioli: prices[Outerwear] '?' -> [1210, 2450]
+- Boglioli: prices[Shoes] '?' -> None
+- Boglioli: price_checked -> true
+- Peserico: shop -> https://it.peserico.com/search?q=
+- Drake's: prices[Sweater] '?' -> [345, 1065]
+- Drake's: prices[Outerwear] '?' -> [755, 1995]
+- Drake's: prices[Shoes] '?' -> [575, 1065]
+- Drake's: price_checked -> true
+- Gran Sasso: shop -> https://shop.gransasso.it/en/search?q=
+- BOSS: prices[Sweater] '?' -> [159, 549]
+- Corneliani: prices[Sweater] '?' -> [595, 1125]
+- Corneliani: prices[Outerwear] '?' -> [1795, 1850]
+- Corneliani: prices[Shoes] '?' -> [595, 975]
+- Corneliani: price_checked -> true
+- Canali: prices[Sweater] '?' -> [625, 1195]
+- Canali: prices[Outerwear] '?' -> [1995, 8095]
+- Canali: prices[Shoes] '?' -> [625, 950]
+- Canali: price_checked -> true
+- Thom Browne: prices[Sweater] '?' -> [970, 1750]
+- Thom Browne: prices[Outerwear] '?' -> [1740, 5350]
+- Thom Browne: prices[Shoes] '?' -> [790, 1360]
+- Thom Browne: price_checked -> true
+- Burberry: prices[Sweater] '?' -> [885, 1395]
+- Burberry: prices[Outerwear] '?' -> [1495, 4450]
+- Burberry: prices[Shoes] '?' -> [920, 995]
+- Burberry: price_checked -> true
+- Herno: prices[Sweater] '?' -> [495, 870]
+- Herno: prices[Outerwear] '?' -> [1060, 2835]
+- Herno: prices[Shoes] '?' -> [555, 610]
+- Herno: price_checked -> true
+- Valstar: shop -> https://valstarmilano.com/en-us/search?q=
+- Aspesi: prices[Sweater] '?' -> [265, 775]
+- Aspesi: prices[Outerwear] '?' -> [475, 1365]
+- Aspesi: prices[Shoes] '?' -> None
+- Aspesi: price_checked -> true
+- Paul & Shark: prices[Sweater] '?' -> [350, 795]
+- Paul & Shark: prices[Outerwear] '?' -> [745, 3165]
+- Paul & Shark: prices[Shoes] '?' -> [410, 690]
+- Paul & Shark: price_checked -> true
+- Sease: prices[T-shirt] '?' -> [270, 1100]
+- Sease: prices[Polo] '?' -> [460, 650]
+- Sease: prices[Dress shirt] '?' -> [615, 985]
+- Sease: prices[Jeans] '?' -> [755, 755]
+- Sease: prices[Dress pants] '?' -> [815, 1400]
+- Sease: prices[Sweater] '?' -> [1050, 2300]
+- Sease: prices[Outerwear] '?' -> [3600, 6550]
+- Sease: prices[Shoes] '?' -> None
+- Sease: price_checked -> true
+- Moncler: prices[Sweater] '?' -> [795, 1085]
+- Moncler: prices[Outerwear] '?' -> [1435, 5410]
+- Moncler: prices[Shoes] '?' -> [335, 1050]
+- Moncler: price_checked -> true
+- Ferragamo: prices[Shoes] '?' -> [750, 2900]
+- Giorgio Armani: prices[Sweater] '?' -> [975, 2195]
+- Giorgio Armani: prices[Outerwear] '?' -> [1195, 9300]
+- Giorgio Armani: prices[Shoes] '?' -> [745, 1395]
+- Giorgio Armani: price_checked -> true
+- Missoni: prices[Sweater] '?' -> [880, 2130]
+- Missoni: prices[Outerwear] '?' -> [2220, 6440]
+- Missoni: prices[Shoes] '?' -> [415, 890]
+- Missoni: price_checked -> true
+- Etro: shop -> https://www.etro.com/us-en/search?q=
+- Versace: prices[Sweater] '?' -> [995, 1850]
+- Versace: prices[Outerwear] '?' -> [1850, 13490]
+- Versace: prices[Shoes] '?' -> [950, 1425]
+- Versace: price_checked -> true
+- Dolce&Gabbana: prices[Sweater] '?' -> [995, 2045]
+- Dolce&Gabbana: prices[Outerwear] '?' -> [2045, 13500]
+- Dolce&Gabbana: prices[Shoes] '?' -> [895, 1145]
+- Dolce&Gabbana: price_checked -> true
+- Fendi: prices[Sweater] '?' -> [1300, 2500]
+- Fendi: prices[Outerwear] '?' -> [3250, 7550]
+- Fendi: prices[Shoes] '?' -> [1050, 1150]
+- Fendi: price_checked -> true
+- Valentino: prices[Sweater] '?' -> [890, 2290]
+- Valentino: prices[Outerwear] '?' -> [2550, 4990]
+- Valentino: prices[Shoes] '?' -> [790, 1350]
+- Valentino: price_checked -> true
+- Givenchy: prices[Sweater] '?' -> [1100, 1450]
+- Givenchy: prices[Outerwear] '?' -> [1700, 6950]
+- Givenchy: prices[Shoes] '?' -> [970, 1020]
+- Givenchy: price_checked -> true
+- McQueen: prices[Sweater] '?' -> [1290, 1290]
+- McQueen: prices[Outerwear] '?' -> [1850, 6590]
+- McQueen: prices[Shoes] '?' -> [990, 990]
+- McQueen: price_checked -> true
+- Maison Margiela: prices[Sweater] '?' -> [960, 1730]
+- Maison Margiela: prices[Outerwear] '?' -> [3100, 6120]
+- Maison Margiela: prices[Shoes] '?' -> [1450, 2050]
+- Maison Margiela: price_checked -> true
+- Yohji Yamamoto: shop -> https://theshopyohjiyamamoto.com/search?q=
+- Yohji Yamamoto: prices[Sweater] '?' -> [520, 1080]
+- Yohji Yamamoto: prices[Outerwear] '?' -> [980, 5470]
+- Yohji Yamamoto: prices[Shoes] '?' -> [880, 1690]
+- Yohji Yamamoto: price_checked -> true
+- Sacai: shop -> https://www.sacai.jp/search?q=
+- Sacai: prices[Sweater] '?' -> [620, 620]
+- Sacai: prices[Outerwear] '?' -> [945, 3675]
+- Sacai: prices[Shoes] '?' -> [1000, 1000]
+- Sacai: price_checked -> true
+- Casablanca: prices[Sweater] '?' -> None
+- Casablanca: prices[Outerwear] '?' -> [755, 2435]
+- Casablanca: prices[Shoes] '?' -> [545, 545]
+- Casablanca: price_checked -> true
+- Jacquemus: prices[Sweater] '?' -> [590, 1150]
+- Jacquemus: prices[Outerwear] '?' -> [950, 5300]
+- Jacquemus: prices[Shoes] '?' -> [790, 950]
+- Jacquemus: price_checked -> true
+- Prada: prices[Sweater] '?' -> [1250, 4400]
+- Prada: prices[Outerwear] '?' -> [2300, 8900]
+- Prada: prices[Shoes] '?' -> [1020, 1320]
+- Prada: price_checked -> true
+- Loewe: prices[Sweater] '?' -> [990, 1500]
+- Loewe: prices[Outerwear] '?' -> [1950, 5990]
+- Loewe: prices[Shoes] '?' -> [950, 1200]
+- Loewe: price_checked -> true
+- JW Anderson: prices[Sweater] '?' -> [715, 1270]
+- JW Anderson: prices[Outerwear] '?' -> [910, 5610]
+- JW Anderson: prices[Shoes] '?' -> [590, 910]
+- JW Anderson: price_checked -> true
+- Dior: prices[Sweater] '?' -> [1500, 5400]
+- Dior: prices[Outerwear] '?' -> [2300, 7000]
+- Dior: prices[Shoes] '?' -> [870, 1500]
+- Dior: price_checked -> true
+- Amiri: prices[Sweater] '?' -> [950, 1150]
+- Amiri: prices[Outerwear] '?' -> [850, 3490]
+- Amiri: prices[Shoes] '?' -> [750, 890]
+- Amiri: price_checked -> true
+- Rhude: prices[Sweater] '?' -> None
+- Rhude: prices[Outerwear] '?' -> [720, 4110]
+- Rhude: prices[Shoes] '?' -> [495, 495]
+- Rhude: price_checked -> true
+- Palm Angels: prices[Sweater] '?' -> [405, 610]
+- Palm Angels: prices[Outerwear] '?' -> [610, 1095]
+- Palm Angels: prices[Shoes] '?' -> [225, 610]
+- Palm Angels: price_checked -> true
+- Fear of God: prices[Dress shirt] '?' -> [695, 875]
+- Fear of God: prices[Sweater] '?' -> [990, 1050]
+- Fear of God: prices[Outerwear] '?' -> [1150, 3850]
+- Fear of God: prices[Shoes] '?' -> [195, 1250]
+- Bode: prices[Sweater] '?' -> [600, 1600]
+- Bode: prices[Outerwear] '?' -> [570, 5000]
+- Bode: prices[Shoes] '?' -> [690, 1080]
+- Bode: price_checked -> true
+- Greg Lauren: shop -> https://greglauren.com/search?q=
+- Greg Lauren: prices[Sweater] '?' -> None
+- Greg Lauren: prices[Outerwear] '?' -> [1250, 3250]
+- Greg Lauren: prices[Shoes] '?' -> None
+- Greg Lauren: price_checked -> true
+- Visvim: shop -> https://shop.visvim.com/search?keywords=
+- Visvim: prices[Sweater] '?' -> [1280, 1490]
+- Visvim: prices[Outerwear] '?' -> [705, 8400]
+- Visvim: prices[Shoes] '?' -> [765, 2406]
+- Visvim: price_checked -> true
+- Tom Ford: prices[Sweater] '?' -> [1190, 3750]
+- Tom Ford: prices[Outerwear] '?' -> [1490, 10390]
+- Tom Ford: prices[Shoes] '?' -> [1290, 2350]
+- Tom Ford: price_checked -> true
+- Zegna: prices[Sweater] '?' -> [1150, 3990]
+- Zegna: prices[Outerwear] '?' -> [3250, 9990]
+- Zegna: prices[Shoes] '?' -> [1350, 1890]
+- Zegna: price_checked -> true
+- Brioni: prices[Sweater] '?' -> [945, 2095]
+- Brioni: prices[Outerwear] '?' -> [1995, 15000]
+- Brioni: prices[Shoes] '?' -> [995, 1750]
+- Brioni: price_checked -> true
+- Isaia: prices[Sweater] '?' -> [1250, 2495]
+- Isaia: prices[Outerwear] '?' -> [3500, 5795]
+- Isaia: prices[Shoes] '?' -> [1140, 1650]
+- Isaia: price_checked -> true
+- The Row: prices[Sweater] '?' -> [1250, 2100]
+- The Row: prices[Outerwear] '?' -> [2650, 14000]
+- The Row: prices[Shoes] '?' -> [990, 1990]
+- The Row: price_checked -> true
+- Lemaire: prices[Sweater] '?' -> [690, 690]
+- Lemaire: prices[Outerwear] '?' -> [1150, 3460]
+- Lemaire: prices[Shoes] '?' -> [970, 990]
+- Lemaire: price_checked -> true
+- Jil Sander: prices[Sweater] '?' -> [990, 1850]
+- Jil Sander: prices[Outerwear] '?' -> [1290, 6990]
+- Jil Sander: prices[Shoes] '?' -> [1150, 1490]
+- Jil Sander: price_checked -> true
+- Dries Van Noten: prices[Sweater] '?' -> [780, 975]
+- Dries Van Noten: prices[Outerwear] '?' -> [2270, 3550]
+- Dries Van Noten: prices[Shoes] '?' -> [1060, 1180]
+- Dries Van Noten: price_checked -> true
+- Wales Bonner: shop -> https://walesbonner.com/search?q=
+- JiyongKim: shop -> https://intl.jiyongkim.net/product/search.html?keyword=
+- JiyongKim: prices[T-shirt] '?' -> [100, 160]
+- JiyongKim: prices[Polo] '?' -> [190, 190]
+- JiyongKim: prices[Dress shirt] '?' -> [240, 640]
+- JiyongKim: prices[Jeans] '?' -> [615, 615]
+- JiyongKim: prices[Outerwear] '?' -> [615, 1655]
+- JiyongKim: price_checked -> true
+- Fedeli: shop -> https://www.fedelicashmere.com/en-usd/search?q=
+- Fedeli: prices[Sweater] '?' -> [420, 1750]
+- Fedeli: prices[Outerwear] '?' -> [3002, 4325]
+- The Elder Statesman: prices[Sweater] '?' -> [490, 2490]
+- The Elder Statesman: prices[Outerwear] '?' -> [1290, 3990]
+- The Elder Statesman: prices[Shoes] '?' -> None
+- The Elder Statesman: price_checked -> true
+- Rubinacci: shop -> https://www.marianorubinacci.com/en/search-results?searchterm=
+- Rubinacci: prices[Sweater] '?' -> [648, 648]
+- Rubinacci: prices[Outerwear] '?' -> [1896, 4740]
+- Rubinacci: prices[Shoes] '?' -> [660, 696]
+- Rubinacci: price_checked -> true
+- Kiton: prices[Sweater] '?' -> [1080, 5170]
+- Kiton: prices[Outerwear] '?' -> [960, 15810]
+- Kiton: prices[Shoes] '?' -> [1260, 2540]
+- Kiton: price_checked -> true
+- Zilli: shop -> https://en.zilli.com/search.php?search_query=

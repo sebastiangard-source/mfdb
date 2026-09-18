@@ -36,7 +36,7 @@
     "u": "https://citizensofhumanity.com/search?q=London+jean+men",
     "n": ""
   },
-  "prices": [[55, 85], [95, 135], [140, 190], [190, 280], [160, 230], "?", "?", "?"],
+  "prices": [[55, 85], [95, 135], [140, 190], [190, 280], [160, 230], null, [328, 798], null],
   "notes": {
     "denim": "owns its LA laundries — the wash is the craft"
   },
@@ -89,5 +89,7 @@
     "sc": [],
     "nc": ["Pants", "Tops", "Jackets"],
     "st": "complete"
-  }
+  },
+  "price_checked": true,
+  "price_range_only": ["Outerwear"]
 }

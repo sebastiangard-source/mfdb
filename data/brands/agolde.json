@@ -38,7 +38,7 @@
     "u": "https://agolde.com/search?q=90%26apos%3Bs%20straight%20jean%20men",
     "n": "men-filtered"
   },
-  "prices": [[60, 90], [118, 280], [150, 220], [190, 290], [170, 250], "?", "?", "?"],
+  "prices": [[60, 90], [118, 280], [150, 220], [190, 290], [170, 250], null, [348, 995], null],
   "notes": {
     "denim": "fashion-forward organic-cotton denim from the Citizens group"
   },
@@ -89,5 +89,7 @@
     "sc": [],
     "nc": ["Tops", "Pants", "Jackets"],
     "st": "complete"
-  }
+  },
+  "price_checked": true,
+  "price_range_only": ["Outerwear"]
 }

@@ -39,7 +39,16 @@
     "u": "https://www.ssense.com/en-us/men/designers/fendi",
     "n": "SSENSE designer page — MP search deep-links are dead"
   },
-  "prices": [[630, 1170], [790, 930], [810, 2500], [1050, 1815], [864, 900], "?", "?", "?"],
+  "prices": [
+    [630, 1170],
+    [790, 930],
+    [810, 2500],
+    [1050, 1815],
+    [864, 900],
+    [1300, 2500],
+    [3250, 7550],
+    [1050, 1150]
+  ],
   "shoelink": {
     "t": "shoes",
     "u": "https://www.fendi.com/us-en/search?q=shoes"
@@ -104,5 +113,6 @@
     "sc": ["swim"],
     "nc": ["outerwear", "pants and shorts", "tees and polos"],
     "st": "complete"
-  }
+  },
+  "price_checked": true
 }

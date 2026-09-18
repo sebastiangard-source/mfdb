@@ -41,7 +41,7 @@
     "u": "https://kith.com/search?q=Williams%20hoodie%20men",
     "n": "verified ✓"
   },
-  "prices": [[55, 95], [95, 150], [130, 190], [160, 250], [140, 220], "?", "?", "?"],
+  "prices": [[55, 95], [95, 150], [130, 190], [160, 250], [140, 220], [150, 395], [245, 1495], null],
   "shoelink": {
     "t": "shoes",
     "u": "https://kith.com/search?q=shoes"
@@ -109,5 +109,7 @@
     "sc": ["Jerseys"],
     "nc": ["Tees", "Sweats & Hoodies", "Outerwear"],
     "st": "complete"
-  }
+  },
+  "price_range_only": ["Sweater"],
+  "price_checked": true
 }

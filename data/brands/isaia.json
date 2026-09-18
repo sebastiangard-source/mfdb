@@ -41,7 +41,16 @@
     "u": "https://www.nordstrom.com/s/sanita-aquaspider-super-160s-wool-suit-regular-short-long/4622480",
     "n": "live at Nordstrom — Sanita is the cut (named for the Naples district), Aquaspider the trademarked wool"
   },
-  "prices": [[295, 375], [495, 1095], [695, 1525], [475, 730], [795, 1750], "?", "?", "?"],
+  "prices": [
+    [295, 375],
+    [495, 1095],
+    [695, 1525],
+    [475, 730],
+    [795, 1750],
+    [1250, 2495],
+    [3500, 5795],
+    [1140, 1650]
+  ],
   "notes": {
     "wool": "Aquaspider high-twist cloth",
     "ital": "Naples by way of Aversa, and the coral branch on the label is a local superstition against bad luck rather than a design motif. Soft shoulders, bright cloth, worn with visible pleasure.",
@@ -94,5 +103,6 @@
     "sc": ["Swimwear"],
     "nc": ["Knitwear", "Jacket", "Shirt"],
     "st": "complete"
-  }
+  },
+  "price_checked": true
 }

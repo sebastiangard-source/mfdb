@@ -37,7 +37,7 @@
     "u": "https://www.agjeans.com/search?q=Tellis%20jean",
     "n": "verified ✓"
   },
-  "prices": [[60, 90], [100, 140], [140, 200], [190, 280], [160, 240], "?", "?", "?"],
+  "prices": [[60, 90], [100, 140], [140, 200], [190, 280], [160, 240], [185, 185], [245, 895], null],
   "notes": {
     "denim": "Adriano Goldschmied's own label — premium LA denim's godfather"
   },
@@ -88,5 +88,7 @@
     "sc": [],
     "nc": ["jeans", "shirts & tops", "pants"],
     "st": "complete"
-  }
+  },
+  "price_checked": true,
+  "price_range_only": ["Sweater"]
 }

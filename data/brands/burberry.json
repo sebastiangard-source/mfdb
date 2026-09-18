@@ -38,7 +38,16 @@
     "u": "https://us.burberry.com/search/?query=heritage%20trench%20men",
     "n": ""
   },
-  "prices": [[395, 690], [395, 690], [510, 795], [790, 1283], [650, 1200], "?", "?", "?"],
+  "prices": [
+    [395, 690],
+    [395, 690],
+    [510, 795],
+    [790, 1283],
+    [650, 1200],
+    [885, 1395],
+    [1495, 4450],
+    [920, 995]
+  ],
   "notes": {
     "craft": "invented gabardine; 160 years of outerwear",
     "status": "The check is legible at fifty paces, which is the entire mechanism and also the house's recurring problem. Status that broad is hard to control once it escapes."
@@ -118,5 +127,6 @@
     "sc": ["puffers", "quilts", "activewear", "swimwear"],
     "nc": ["polos-t-shirts", "trousers-shorts", "blazers-tailored-trousers"],
     "st": "complete"
-  }
+  },
+  "price_checked": true
 }

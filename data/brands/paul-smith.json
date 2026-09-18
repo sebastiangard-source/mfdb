@@ -39,7 +39,7 @@
     "u": "https://www.paulsmith.com/search?q=Signature-stripe+socks",
     "n": "no locale segment, plus-encoded, verified"
   },
-  "prices": [[70, 120], [120, 250], [160, 250], [200, 320], [190, 320], "?", "?", "?"],
+  "prices": [[70, 120], [120, 250], [160, 250], [200, 320], [190, 320], [250, 725], [895, 2595], [290, 595]],
   "doors": {
     "c": "full",
     "n": 4,
@@ -78,5 +78,6 @@
     "sc": ["Swimwear", "Jersey", "Tops"],
     "nc": ["Knitwear", "Jackets", "Shirts"],
     "st": "complete"
-  }
+  },
+  "price_checked": true
 }

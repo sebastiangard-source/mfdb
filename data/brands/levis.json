@@ -39,7 +39,7 @@
     "u": "https://www.levi.com/US/en_US/search/501",
     "n": "restored from the earlier draft; link is site search — verify"
   },
-  "prices": [[20, 35], [30, 65], [50, 80], [60, 295], [60, 90], "?", "?", "?"],
+  "prices": [[20, 35], [30, 65], [50, 80], [60, 295], [60, 90], [70, 295], [90, 625], null],
   "notes": {
     "denim": "the original — the 1873 riveted patent",
     "murica": "the rivet is American scripture — the 501 is the national garment"
@@ -186,5 +186,6 @@
     "sc": [],
     "nc": ["Shirts & Tees", "Outerwear", "Jeans"],
     "st": "complete"
-  }
+  },
+  "price_checked": true
 }

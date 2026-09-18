@@ -38,7 +38,7 @@
     "u": "https://kato-brand.com/collections/pen-slim",
     "n": "real domain is kato-brand.com with hyphen — collection page for the Pen"
   },
-  "prices": [[60, 90], [90, 130], [120, 180], [240, 320], [160, 220], "?", "?", "?"],
+  "prices": [[60, 90], [90, 130], [120, 180], [240, 320], [160, 220], null, [358, 458], null],
   "notes": {
     "denim": "four-way stretch selvedge woven on vintage shuttle looms — the heresy that converts purists"
   },
@@ -79,5 +79,7 @@
     "sc": [],
     "nc": ["Jeans", "Shirts", "Pants"],
     "st": "complete"
-  }
+  },
+  "price_checked": true,
+  "price_range_only": ["Outerwear"]
 }

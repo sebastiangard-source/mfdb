@@ -39,7 +39,16 @@
     "u": "https://www.dior.com/en_us/fashion",
     "n": "Dior sells direct only — no Mr Porter; link is the men’s fashion hub, best-guess piece"
   },
-  "prices": [[610, 1600], [1700, 2050], [770, 2100], [1150, 1800], [650, 1300], "?", "?", "?"],
+  "prices": [
+    [610, 1600],
+    [1700, 2050],
+    [770, 2100],
+    [1150, 1800],
+    [650, 1300],
+    [1500, 5400],
+    [2300, 7000],
+    [870, 1500]
+  ],
   "shoelink": {
     "t": "sneaker",
     "u": "https://www.dior.com/en_us/fashion/search/sneaker"
@@ -115,5 +124,6 @@
     "sc": ["Beachwear"],
     "nc": ["Jackets", "Shirts", "Trousers"],
     "st": "complete"
-  }
+  },
+  "price_checked": true
 }

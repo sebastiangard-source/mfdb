@@ -39,7 +39,16 @@
     "u": "",
     "n": "Shark Lock is womenswear — covered wedge, 3.5in heel. The 4G is a mark rather than a garment, and no menswear piece has survived the recent changes of creative direction"
   },
-  "prices": [[650, 1250], [620, 1950], [820, 1700], [1050, 2000], [1050, 1300], "?", "?", "?"],
+  "prices": [
+    [650, 1250],
+    [620, 1950],
+    [820, 1700],
+    [1050, 2000],
+    [1050, 1300],
+    [1100, 1450],
+    [1700, 6950],
+    [970, 1020]
+  ],
   "shoelink": {
     "t": "shoes",
     "u": "https://www.givenchy.com/us/en-US/search?q=shoes"
@@ -96,5 +105,6 @@
     "sc": ["swimwear"],
     "nc": ["pants and shorts", "shirts", "bombers and blousons"],
     "st": "complete"
-  }
+  },
+  "price_checked": true
 }

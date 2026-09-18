@@ -43,7 +43,16 @@
     "u": "https://www.brioni.com/en/gb/pr/navy-blue-herringbone-super-150s-wool-brunico-suit-RA005DPBA294100",
     "n": ""
   },
-  "prices": [[495, 1050], [645, 1295], [675, 1695], [720, 995], [695, 2050], "?", "?", "?"],
+  "prices": [
+    [495, 1050],
+    [645, 1295],
+    [675, 1695],
+    [720, 995],
+    [695, 2050],
+    [945, 2095],
+    [1995, 15000],
+    [995, 1750]
+  ],
   "shoelink": {
     "t": "loafer",
     "u": "https://www.brioni.com/en-us/search?q=loafer"
@@ -101,5 +110,6 @@
     "sc": [],
     "nc": ["trousers", "shirts", "jackets"],
     "st": "complete"
-  }
+  },
+  "price_checked": true
 }

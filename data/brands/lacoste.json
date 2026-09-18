@@ -44,7 +44,7 @@
     "u": "https://www.lacoste.com/us/search?q=L.12.12",
     "n": "best-guess link — verify"
   },
-  "prices": [[50, 70], [98, 125], [89, 210], null, [110, 155], "?", "?", "?"],
+  "prices": [[50, 70], [98, 125], [89, 210], null, [110, 155], [98, 350], [165, 580], [125, 125]],
   "shoelink": {
     "t": "shoes",
     "u": "https://www.lacoste.com/us/search?q=shoes"
@@ -128,5 +128,7 @@
     "sc": ["clothing/jackets-coats", "clothing/matching-sets-1"],
     "nc": ["clothing/sweaters-sweatshirts", "clothing/t-shirts", "clothing/polos"],
     "st": "complete"
-  }
+  },
+  "price_range_only": ["Sweater", "Outerwear"],
+  "price_checked": true
 }

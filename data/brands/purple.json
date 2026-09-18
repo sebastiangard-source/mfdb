@@ -39,7 +39,7 @@
     "u": "https://purple-brand.com/search?q=P001%20jean%20men",
     "n": "works"
   },
-  "prices": [[65, 110], null, [140, 220], [250, 400], [172, 350], "?", "?", "?"],
+  "prices": [[65, 110], null, [140, 220], [250, 400], [172, 350], [350, 495], [395, 1375], [345, 345]],
   "notes": {
     "street": "denim for the culture, adopted fast by hip-hop"
   },
@@ -85,5 +85,7 @@
     "sc": ["Swimwear"],
     "nc": ["Denim", "Tees", "Shorts"],
     "st": "complete"
-  }
+  },
+  "price_range_only": ["Shoes"],
+  "price_checked": true
 }

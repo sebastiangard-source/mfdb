@@ -37,7 +37,7 @@
     "u": "https://rothys.com/collections/mens-shoes",
     "n": "named among the bestsellers in the brand’s own Amazon release; men’s collection page"
   },
-  "prices": ["?", "?", "?", "?", "?", "?", "?", "?"],
+  "prices": [null, null, null, null, null, null, null, [125, 185]],
   "shoelink": {
     "t": "men's shoes",
     "u": "https://rothys.com/search?q=men's%20shoes"
@@ -116,5 +116,6 @@
     "sc": [],
     "nc": [],
     "st": "complete"
-  }
+  },
+  "price_checked": true
 }

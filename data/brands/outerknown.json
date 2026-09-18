@@ -38,7 +38,7 @@
     "u": "https://www.outerknown.com/search?q=Blanket%20Shirt%20men",
     "n": "verified ✓"
   },
-  "prices": [[40, 60], [70, 100], [100, 150], [130, 200], [100, 160], "?", "?", "?"],
+  "prices": [[40, 60], [70, 100], [100, 150], [130, 200], [100, 160], [178, 348], [298, 298], null],
   "doors": {
     "c": "full",
     "n": 5,
@@ -83,5 +83,7 @@
     "sc": ["Swim Bottoms", "Active Tops", "Swim Tops"],
     "nc": ["Tees", "Woven Shirts", "Non-Denim Bottoms"],
     "st": "complete"
-  }
+  },
+  "price_checked": true,
+  "price_range_only": ["Sweater"]
 }

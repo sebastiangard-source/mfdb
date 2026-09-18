@@ -42,7 +42,16 @@
     "u": "https://www.ssense.com/en-us/men/designers/prada",
     "n": "Use this: https://www.prada.com/us/en/p/re-nylon-shirt/SC548_1WQ8_F0002_S_212"
   },
-  "prices": [[825, 1590], [1070, 1920], [1070, 2700], [1700, 1900], [1350, 2150], "?", "?", "?"],
+  "prices": [
+    [825, 1590],
+    [1070, 1920],
+    [1070, 2700],
+    [1700, 1900],
+    [1350, 2150],
+    [1250, 4400],
+    [2300, 8900],
+    [1020, 1320]
+  ],
   "shoelink": {
     "t": "loafer",
     "u": "https://www.prada.com/us/en/search.html?q=loafer"
@@ -118,5 +127,6 @@
     "sc": ["GIUBBOTTI (jackets)", "PIUMINI (down jackets)", "COSTUMI DA BAGNO (swimwear)"],
     "nc": ["MAGLIERIA (knitwear)", "CAMICIE (shirts)", "PANTALONI (trousers)"],
     "st": "complete"
-  }
+  },
+  "price_checked": true
 }

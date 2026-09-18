@@ -40,7 +40,16 @@
     "u": "https://www.therow.com/search?q=Cashmere%20crew%20men",
     "n": "works"
   },
-  "prices": [[350, 1190], null, [1100, 1950], [850, 1050], [950, 2950], "?", "?", "?"],
+  "prices": [
+    [350, 1190],
+    null,
+    [1100, 1950],
+    [850, 1050],
+    [950, 2950],
+    [1250, 2100],
+    [2650, 14000],
+    [990, 1990]
+  ],
   "notes": {
     "cashmere": "museum-grade knits",
     "wool": "tailoring at couture prices",
@@ -87,5 +96,6 @@
     "sc": [],
     "nc": ["PANTS", "SWEATERS", "JACKETS"],
     "st": "complete"
-  }
+  },
+  "price_checked": true
 }

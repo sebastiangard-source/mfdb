@@ -43,7 +43,16 @@
     "u": "https://www.thombrowne.com/en-us/search?q=4-Bar%20sweater%20men",
     "n": "Use this: https://www.thombrowne.com/products/cotton-crepe-4-bar-pullover-mka202a-00219-415"
   },
-  "prices": [[520, 760], [590, 1395], [790, 890], [850, 1128], [540, 1430], "?", "?", "?"],
+  "prices": [
+    [520, 760],
+    [590, 1395],
+    [790, 890],
+    [850, 1128],
+    [540, 1430],
+    [970, 1750],
+    [1740, 5350],
+    [790, 1360]
+  ],
   "shoelink": {
     "t": "longwing brogue",
     "u": "https://www.thombrowne.com/en-us/search?q=longwing%20brogue"
@@ -103,5 +112,6 @@
     "sc": ["downfill", "swim"],
     "nc": ["knitwear", "shirts", "sweats"],
     "st": "complete"
-  }
+  },
+  "price_checked": true
 }

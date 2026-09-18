@@ -38,7 +38,7 @@
     "u": "https://www.apc-us.com/search?q=Petit%20Standard%20jean%20men",
     "n": "men-filtered"
   },
-  "prices": [[75, 115], [125, 185], [165, 245], [210, 320], [190, 290], "?", "?", "?"],
+  "prices": [[75, 115], [125, 185], [165, 245], [210, 320], [190, 290], [350, 650], [440, 1750], [490, 490]],
   "notes": {
     "denim": "the Petit Standard — modern raw denim's reference cut",
     "fren": "the doctrine of effortlessness — clothes that refuse to try"
@@ -87,5 +87,7 @@
     "sc": [],
     "nc": ["T-shirts", "Jackets", "Knitwear"],
     "st": "complete"
-  }
+  },
+  "price_checked": true,
+  "price_range_only": ["Outerwear"]
 }

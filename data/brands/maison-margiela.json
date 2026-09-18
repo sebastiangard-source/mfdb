@@ -41,7 +41,16 @@
     "u": "https://www.maisonmargiela.com/en-us/search?q=Replica%20sneaker%20men",
     "n": "official name — reproduces the 1970s German Army Trainer (the forum nickname GAT); the Replica line is the house concept itself"
   },
-  "prices": [[520, 895], [780, 1255], [990, 1430], [1090, 1660], [1280, 1790], "?", "?", "?"],
+  "prices": [
+    [520, 895],
+    [780, 1255],
+    [990, 1430],
+    [1090, 1660],
+    [1280, 1790],
+    [960, 1730],
+    [3100, 6120],
+    [1450, 2050]
+  ],
   "shoelink": {
     "t": "Replica sneaker",
     "u": "https://www.maisonmargiela.com/en-us/search?q=Replica%20sneaker"
@@ -96,5 +105,7 @@
     "sc": [],
     "nc": ["jeans and trousers", "coats and jackets", "knitwear"],
     "st": "complete"
-  }
+  },
+  "price_range_only": ["Sweater"],
+  "price_checked": true
 }

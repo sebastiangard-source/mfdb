@@ -38,7 +38,16 @@
     "u": "https://www.driesvannoten.com/en-us/products/262-022203-4707",
     "n": "verified — direct product page, $325, five colourways. Earflaps, braided ties, the jacquard worked in wool. Seen in the Paris window: the house's pattern habit at its smallest scale, and the one piece where the colour is the whole argument rather than a garment carrying it"
   },
-  "prices": [[250, 375], [695, 850], [490, 875], [495, 750], [700, 1195], "?", "?", "?"],
+  "prices": [
+    [250, 375],
+    [695, 850],
+    [490, 875],
+    [495, 750],
+    [700, 1195],
+    [780, 975],
+    [2270, 3550],
+    [1060, 1180]
+  ],
   "doors": {
     "c": "full",
     "n": 2,
@@ -77,5 +86,7 @@
     "sc": ["Swimwear"],
     "nc": ["Pants", "T-shirts and Sweatshirts", "Shirts"],
     "st": "complete"
-  }
+  },
+  "price_checked": true,
+  "price_range_only": ["Sweater"]
 }

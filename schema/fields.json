@@ -748,6 +748,14 @@
       "const": "SUBREGION",
       "file": "regions.json",
       "doc": "state -> sub-region label -> cities. Emitted as SUBREGION keyed 'ST|City'. Lint: every shop's city must map; an unmapped city is a GAP, never an untagged row."
+    },
+    "price_range_only": {
+      "scope": "brand",
+      "const": null,
+      "path": "price_range_only",
+      "type": "list",
+      "absent": "optional",
+      "doc": "Garment slots whose [low, high] is the plain range of the category rather than the staple pair (entry version to elevated version). Set by the 18 Sep price pass. Data-only until the UI marks it."
     }
   },
   "price_slots": [

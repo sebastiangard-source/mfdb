@@ -37,7 +37,7 @@
     "u": "https://lesdeux.us/collections/clothing-hoodies-sweatshirts",
     "n": "heavyweight cotton jersey with the embroidered chest logo — the piece where the preppy-urban duality resolves into a garment. Named independently by three stockists rather than by the house, and the brand's own trending strip leads with polos and tees; replaces a null that had been inferred rather than checked. Collection page, no stable single-SKU URL established"
   },
-  "prices": ["?", "?", "?", "?", "?", "?", "?", "?"],
+  "prices": [[49, 99], [129, 189], [139, 189], [159, 219], [139, 189], [149, 279], [299, 829], [289, 289]],
   "notes": {
     "scandi": "Nordic by origin and by palette, but working a register the Copenhagen houses generally avoid, which is what holds it below the fives",
     "prep": "the preppy vocabulary read through Danish restraint — and the duality is literal: two founders, one preppy and entrepreneurial, one urban and creative, with the brand named for the pair",
@@ -80,5 +80,7 @@
     "sc": ["Pants", "Outerwear"],
     "nc": ["Shirts", "T-Shirts", "Hoodies & Sweatshirts"],
     "st": "complete"
-  }
+  },
+  "shop": "https://lesdeux.us/search?q=",
+  "price_checked": true
 }

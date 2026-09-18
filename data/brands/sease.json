@@ -41,7 +41,7 @@
     "u": "",
     "n": "signature piece — Sunrise fabric, a bio-nylon reworking of Solaro; link best-guess, verify"
   },
-  "prices": ["?", "?", "?", "?", "?", "?", "?", "?"],
+  "prices": [[270, 1100], [460, 650], [615, 985], [755, 755], [815, 1400], [1050, 2300], [3600, 6550], null],
   "notes": {
     "ski": "Founded on two kits, sailing and skiing, so the mountain is half the brief rather than a seasonal excursion. The stores follow the Alpine circuit.",
     "boat": "Sea is half the name. Technical sailing kit built to be used rather than resort wear that references it, which separates it from everything else at this end of the dial.",
@@ -94,5 +94,6 @@
     "sc": ["Swimwear"],
     "nc": ["Pants", "Knitwear", "Shirt"],
     "st": "complete"
-  }
+  },
+  "price_checked": true
 }

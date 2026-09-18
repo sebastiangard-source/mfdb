@@ -40,7 +40,16 @@
     "u": "https://www.dolcegabbana.com/en-us/search/?q=Martini%20fit",
     "n": "own-site search, not opened from this environment. A house-named cut, and it points at the alta sartoria underneath rather than at the spectacle on top"
   },
-  "prices": [[545, 1795], [995, 2045], [725, 2795], [804, 1395], [865, 1449], "?", "?", "?"],
+  "prices": [
+    [545, 1795],
+    [995, 2045],
+    [725, 2795],
+    [804, 1395],
+    [865, 1449],
+    [995, 2045],
+    [2045, 13500],
+    [895, 1145]
+  ],
   "shoelink": {
     "t": "shoes",
     "u": "https://www.dolcegabbana.com/en-us/search/?q=shoes"
@@ -116,5 +125,6 @@
     "sc": ["beachwear"],
     "nc": ["pants and shorts", "shirts", "sweaters and cardigans"],
     "st": "complete"
-  }
+  },
+  "price_checked": true
 }

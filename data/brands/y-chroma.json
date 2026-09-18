@@ -37,7 +37,7 @@
     "u": "https://www.ychroma.com/products/varial-shirt-cut-jacket",
     "n": "named best-selling in the brand’s own release; \"the replacement for a tired blazer\""
   },
-  "prices": [[95, 150], [130, 190], [180, 280], [200, 280], [180, 320], "?", "?", "?"],
+  "prices": [[95, 150], [130, 190], [180, 280], [200, 280], [180, 320], [299, 499], [775, 1249], null],
   "doors": {
     "c": "full",
     "n": 0,
@@ -71,5 +71,7 @@
     "sc": ["Outerwear", "Shorts"],
     "nc": ["Shirts", "Pants", "Knitwear"],
     "st": "complete"
-  }
+  },
+  "price_range_only": ["Sweater", "Outerwear"],
+  "price_checked": true
 }

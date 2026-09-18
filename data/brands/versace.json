@@ -41,7 +41,16 @@
     "u": "https://www.versace.com/us/en/search?q=Barocco%20silk%20shirt%20men",
     "n": "Use this: https://www.versace.com/us/en/men/clothing/shirts/barocco-silk-shirt-blue/1003926-1A13557_5UH90.html"
   },
-  "prices": [[425, 1225], [495, 1125], [1175, 1990], [850, 1175], [1375, 1390], "?", "?", "?"],
+  "prices": [
+    [425, 1225],
+    [495, 1125],
+    [1175, 1990],
+    [850, 1175],
+    [1375, 1390],
+    [995, 1850],
+    [1850, 13490],
+    [950, 1425]
+  ],
   "shoelink": {
     "t": "shoes",
     "u": "https://www.versace.com/us/en/search?q=shoes"
@@ -114,5 +123,6 @@
     "sc": ["swimwear"],
     "nc": ["knitwear", "t-shirts and polos", "denim"],
     "st": "complete"
-  }
+  },
+  "price_checked": true
 }

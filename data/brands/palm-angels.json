@@ -42,7 +42,7 @@
     "u": "https://www.palmangels.com/en-us/man/clothing/tracksuits/",
     "n": "tracksuits category page, verified"
   },
-  "prices": [[220, 390], [495, 600], [168, 595], [610, 610], [445, 745], "?", "?", "?"],
+  "prices": [[220, 390], [495, 600], [168, 595], [610, 610], [445, 745], [405, 610], [610, 1095], [225, 610]],
   "shoelink": {
     "t": "shoes",
     "u": "https://www.palmangels.com/search?q=shoes"
@@ -84,5 +84,7 @@
     "sc": ["Tracksuits", "Coats and jackets", "Swimwear", "Denim"],
     "nc": ["T-shirts and polos", "Sweatshirts and hoodies", "Knitwear"],
     "st": "complete"
-  }
+  },
+  "price_range_only": ["Sweater", "Outerwear", "Shoes"],
+  "price_checked": true
 }

@@ -41,7 +41,16 @@
     "u": "https://www.ssense.com/en-us/men/designers/visvim",
     "n": "works"
   },
-  "prices": [[396, 985], [639, 907], [955, 1967], [570, 1970], [760, 1792], "?", "?", "?"],
+  "prices": [
+    [396, 985],
+    [639, 907],
+    [955, 1967],
+    [570, 1970],
+    [760, 1792],
+    [1280, 1490],
+    [705, 8400],
+    [765, 2406]
+  ],
   "shoelink": {
     "t": "FBT",
     "u": "https://www.ssense.com/en-us/men/designers/visvim"
@@ -97,5 +106,8 @@
     "sc": [],
     "nc": ["cut and sew", "outerwear", "shirt"],
     "st": "complete"
-  }
+  },
+  "shop": "https://shop.visvim.com/search?keywords=",
+  "price_range_only": ["Outerwear", "Shoes"],
+  "price_checked": true
 }

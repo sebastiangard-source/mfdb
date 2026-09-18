@@ -39,7 +39,16 @@
     "u": "https://www.alexandermcqueen.com/en-us/search?q=Oversized%20sneaker%20men",
     "n": "verified ✓"
   },
-  "prices": [[320, 740], [650, 1590], [650, 920], [650, 1160], [783, 1350], "?", "?", "?"],
+  "prices": [
+    [320, 740],
+    [650, 1590],
+    [650, 920],
+    [650, 1160],
+    [783, 1350],
+    [1290, 1290],
+    [1850, 6590],
+    [990, 990]
+  ],
   "shoelink": {
     "t": "Oversized sneaker",
     "u": "https://www.alexandermcqueen.com/en-us/search?q=Oversized%20sneaker"
@@ -93,5 +102,7 @@
     "sc": ["puffer jackets", "windbreakers"],
     "nc": ["t-shirts", "shirts", "jackets"],
     "st": "complete"
-  }
+  },
+  "price_checked": true,
+  "price_range_only": ["Sweater"]
 }

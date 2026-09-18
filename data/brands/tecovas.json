@@ -38,7 +38,7 @@
     "u": "https://www.tecovas.com/search?q=Cartwright%20boot%20men",
     "n": "works"
   },
-  "prices": [[30, 45], [69, 95], [80, 120], [90, 140], [100, 140], "?", "?", "?"],
+  "prices": [[30, 45], [69, 95], [80, 120], [90, 140], [100, 140], [165, 195], [165, 595], [185, 285]],
   "shoelink": {
     "t": "Cartwright boot",
     "u": "https://www.tecovas.com/search?q=Cartwright%20boot"
@@ -158,5 +158,7 @@
     "sc": [],
     "nc": ["T-Shirts", "Button Downs", "Jeans"],
     "st": "complete"
-  }
+  },
+  "price_checked": true,
+  "price_range_only": ["Sweater"]
 }

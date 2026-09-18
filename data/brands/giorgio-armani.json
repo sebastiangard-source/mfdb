@@ -38,7 +38,16 @@
     "u": "https://www.neimanmarcus.com/p/giorgio-armani-mens-wool-viscose-deconstructed-blazer-prod272460286",
     "n": "direct via Neiman Marcus — titled deconstructed blazer on the page itself"
   },
-  "prices": [[375, 1025], [375, 925], [545, 2095], [675, 1395], [795, 1895], "?", "?", "?"],
+  "prices": [
+    [375, 1025],
+    [375, 925],
+    [545, 2095],
+    [675, 1395],
+    [795, 1895],
+    [975, 2195],
+    [1195, 9300],
+    [745, 1395]
+  ],
   "notes": {
     "wool": "the unstructured jacket that changed tailoring",
     "ital": "Armani took the structure out of the jacket in 1975 and defined what postwar Milan looked like. The Italianness is not ornament but proportion — the drape is the argument."
@@ -97,5 +106,6 @@
     "sc": ["Sweatshirts"],
     "nc": ["Shirts", "Trousers", "Knitwear"],
     "st": "complete"
-  }
+  },
+  "price_checked": true
 }

@@ -38,7 +38,7 @@
     "u": "https://www.ralphlauren.com/search?q=RRL%20deck%20jacket",
     "n": "works"
   },
-  "prices": [[75, 195], [150, 250], [240, 450], [260, 390], [220, 380], "?", "?", "?"],
+  "prices": [[75, 195], [150, 250], [240, 450], [260, 390], [220, 380], [395, 1800], [495, 2200], [195, 1400]],
   "notes": {
     "denim": "Japanese selvedge repro — the denim-head's Ralph",
     "murica": "the museum of American work and western wear",
@@ -89,5 +89,7 @@
     "sc": [],
     "nc": ["pants", "button-down-shirts", "jeans"],
     "st": "complete"
-  }
+  },
+  "price_range_only": ["Sweater", "Shoes"],
+  "price_checked": true
 }

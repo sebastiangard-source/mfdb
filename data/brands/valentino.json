@@ -38,7 +38,16 @@
     "u": "https://www.valentino.com/en-us/search?q=Rockstud%20Untitled%20sneaker",
     "n": "own-site search, not opened from this environment. Rockstud Untitled is the menswear arm of the stud motif, running across tee, shirt, shirt jacket and sneaker on Valentino's US site. The pyramid shape is drawn from the bugnato masonry of Roman palazzi"
   },
-  "prices": [[590, 790], [750, 1750], [950, 1750], [1150, 1550], [1100, 1350], "?", "?", "?"],
+  "prices": [
+    [590, 790],
+    [750, 1750],
+    [950, 1750],
+    [1150, 1550],
+    [1100, 1350],
+    [890, 2290],
+    [2550, 4990],
+    [790, 1350]
+  ],
   "shoelink": {
     "t": "shoes",
     "u": "https://www.valentino.com/en-us/search?q=shoes"
@@ -103,5 +112,6 @@
     "sc": ["beachwear"],
     "nc": ["t-shirts and sweatshirts", "pants and shorts", "coats and blazers"],
     "st": "complete"
-  }
+  },
+  "price_checked": true
 }

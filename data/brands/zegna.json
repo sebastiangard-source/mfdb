@@ -45,7 +45,16 @@
     "u": "https://www.zegna.com/us-en/search?q=Triple%20Stitch",
     "n": "Use this: https://www.zegna.com/us-en/product.grey-mlange-suede-triple-stitch-sneakers.22361729/"
   },
-  "prices": [[495, 950], [495, 1690], [490, 795], [525, 875], [750, 1100], "?", "?", "?"],
+  "prices": [
+    [495, 950],
+    [495, 1690],
+    [490, 795],
+    [525, 875],
+    [750, 1100],
+    [1150, 3990],
+    [3250, 9990],
+    [1350, 1890]
+  ],
   "shoelink": {
     "t": "Triple Stitch",
     "u": "https://www.zegna.com/us-en/search?q=Triple%20Stitch"
@@ -123,5 +132,6 @@
     "sc": ["beachwear"],
     "nc": ["shirts", "pants", "blazers"],
     "st": "complete"
-  }
+  },
+  "price_checked": true
 }

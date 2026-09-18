@@ -36,7 +36,7 @@
     "u": "https://www.rails.com/search?q=Lennox%20shirt%20men",
     "n": "works"
   },
-  "prices": [[60, 90], [100, 150], [150, 220], [180, 250], [150, 220], "?", "?", "?"],
+  "prices": [[60, 90], [100, 150], [150, 220], [180, 250], [150, 220], [168, 248], [198, 398], null],
   "notes": {
     "comfort": "a trade-secret Tencel blend; touch as corporate DNA"
   },
@@ -93,5 +93,7 @@
     "sc": [],
     "nc": ["shirts", "shorts", "pants"],
     "st": "complete"
-  }
+  },
+  "price_range_only": ["Outerwear"],
+  "price_checked": true
 }

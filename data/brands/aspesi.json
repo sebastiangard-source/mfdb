@@ -38,7 +38,7 @@
     "u": "https://www.aspesi.com/search?q=minifield",
     "n": "best-guess link — verify"
   },
-  "prices": [[110, 265], [159, 300], [250, 765], [282, 409], [249, 486], "?", "?", "?"],
+  "prices": [[110, 265], [159, 300], [250, 765], [282, 409], [249, 486], [265, 775], [475, 1365], null],
   "notes": {
     "synth": "the nylon field jackets — technical cloth in civilian silhouettes",
     "ital": "the Milanese bourgeois uniform, unbranded"
@@ -76,5 +76,7 @@
     "sc": ["giubbotti", "impermeabili", "gilet", "costumi da bagno"],
     "nc": ["camicie", "pantaloni", "maglie"],
     "st": "complete"
-  }
+  },
+  "price_checked": true,
+  "price_range_only": ["Outerwear"]
 }

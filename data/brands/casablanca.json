@@ -41,7 +41,7 @@
     "u": "https://casablancaparis.com/search?q=Silk%20Grand%20Prix%20shirt%20men",
     "n": "men-filtered"
   },
-  "prices": [[265, 795], [550, 725], [545, 1067], [780, 1055], [1000, 1140], "?", "?", "?"],
+  "prices": [[265, 795], [550, 725], [545, 1067], [780, 1055], [1000, 1140], null, [755, 2435], [545, 545]],
   "shoelink": {
     "t": "shoes",
     "u": "https://casablancaparis.com/search?q=shoes"
@@ -85,5 +85,6 @@
     "sc": ["SWIMWEAR"],
     "nc": ["KNITWEAR", "JERSEY", "T-SHIRTS"],
     "st": "complete"
-  }
+  },
+  "price_checked": true
 }

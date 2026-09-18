@@ -36,7 +36,7 @@
     "u": "https://www.filson.com/catalogsearch/result/?q=Mackinaw+Cruiser",
     "n": "own-site search, not opened from this environment. Patented 1914 and the garment the rest of the line is measured against"
   },
-  "prices": [[50, 85], [90, 130], [120, 180], [130, 180], [120, 180], "?", "?", "?"],
+  "prices": [[50, 85], [90, 130], [120, 180], [130, 180], [120, 180], [199, 699], [189, 1199], null],
   "notes": {
     "wool": "Mackinaw wool since 1897",
     "cotton": "oil-finish tin cloth",
@@ -107,5 +107,7 @@
     "sc": [],
     "nc": ["ShirtsTops", "Outerwear", "Bottoms"],
     "st": "complete"
-  }
+  },
+  "price_range_only": ["Sweater", "Outerwear"],
+  "price_checked": true
 }

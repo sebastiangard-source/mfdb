@@ -39,7 +39,16 @@
     "u": "https://www.jilsander.com/en-us/search?q=poplin%20shirt",
     "n": "own-site search, not opened from this environment. The placket, the cuff finish and the hand of the cloth do the work that no decoration is allowed to do. It has also outlasted three creative directors, which the tailoring has not"
   },
-  "prices": [[190, 550], [695, 1450], [850, 1990], [990, 1650], [1050, 1790], "?", "?", "?"],
+  "prices": [
+    [190, 550],
+    [695, 1450],
+    [850, 1990],
+    [990, 1650],
+    [1050, 1790],
+    [990, 1850],
+    [1290, 6990],
+    [1150, 1490]
+  ],
   "doors": {
     "c": "full",
     "n": 2,
@@ -78,5 +87,7 @@
     "sc": [],
     "nc": ["Knitwear and Sweatshirts", "Shirts", "Tops and T-Shirts"],
     "st": "complete"
-  }
+  },
+  "price_checked": true,
+  "price_range_only": ["Outerwear"]
 }

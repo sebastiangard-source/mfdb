@@ -41,7 +41,16 @@
     "u": "https://www.loewe.com/usa/en/men/menswear/knitwear/anagram-pocket-sweater-in-cotton-blend/H526Y14KLS-2145.html",
     "n": "direct product page, verified"
   },
-  "prices": [[550, 750], [650, 650], [950, 2200], [1150, 1250], [990, 1990], "?", "?", "?"],
+  "prices": [
+    [550, 750],
+    [650, 650],
+    [950, 2200],
+    [1150, 1250],
+    [990, 1990],
+    [990, 1500],
+    [1950, 5990],
+    [950, 1200]
+  ],
   "shoelink": {
     "t": "shoes",
     "u": "https://www.loewe.com/usa/en/search?q=shoes"
@@ -108,5 +117,6 @@
     "sc": [],
     "nc": ["coats-and-outerwear", "trousers-and-shorts", "shirts"],
     "st": "complete"
-  }
+  },
+  "price_checked": true
 }

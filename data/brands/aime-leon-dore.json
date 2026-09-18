@@ -44,7 +44,7 @@
     "u": "https://www.aimeleondore.com/search?q=Uniform%20cap",
     "n": "verified ✓"
   },
-  "prices": [[85, 150], [225, 295], [175, 275], [250, 280], [160, 260], "?", "?", "?"],
+  "prices": [[85, 150], [225, 295], [175, 275], [250, 280], [160, 260], [300, 575], [300, 1300], [395, 500]],
   "shoelink": {
     "t": "shoes",
     "u": "https://www.aimeleondore.com/search?q=shoes"
@@ -93,5 +93,7 @@
     "sc": ["Outerwear", "Shorts", "Swim"],
     "nc": ["Tees", "Sweatshirts", "Sweaters"],
     "st": "complete"
-  }
+  },
+  "price_range_only": ["Sweater", "Outerwear"],
+  "price_checked": true
 }

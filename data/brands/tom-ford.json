@@ -43,7 +43,16 @@
     "u": "https://www.tomfordfashion.com/search?q=Cashmere-silk%20polo",
     "n": "Use this: https://www.tomfordfashion.com/en-us/search?q=cashmere+silk+polo"
   },
-  "prices": [[350, 3990], [450, 1720], [790, 2070], [990, 1264], [790, 3320], "?", "?", "?"],
+  "prices": [
+    [350, 3990],
+    [450, 1720],
+    [790, 2070],
+    [990, 1264],
+    [790, 3320],
+    [1190, 3750],
+    [1490, 10390],
+    [1290, 2350]
+  ],
   "shoelink": {
     "t": "loafer",
     "u": "https://www.tomfordfashion.com/search?q=loafer"
@@ -101,5 +110,6 @@
     "sc": [],
     "nc": ["outerwear", "shirts", "pants"],
     "st": "complete"
-  }
+  },
+  "price_checked": true
 }

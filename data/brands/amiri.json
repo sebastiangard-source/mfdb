@@ -44,7 +44,7 @@
     "u": "https://www.amiri.com/search?q=MX1%20jean",
     "n": "verified ✓"
   },
-  "prices": [[225, 790], [315, 890], [590, 1290], [750, 1390], [790, 790], "?", "?", "?"],
+  "prices": [[225, 790], [315, 890], [590, 1290], [750, 1390], [790, 790], [950, 1150], [850, 3490], [750, 890]],
   "shoelink": {
     "t": "shoes",
     "u": "https://www.amiri.com/search?q=shoes"
@@ -110,5 +110,7 @@
     "sc": ["Swimwear", "Suits"],
     "nc": ["Tops", "Bottoms", "Outerwear"],
     "st": "complete"
-  }
+  },
+  "price_range_only": ["Outerwear"],
+  "price_checked": true
 }
