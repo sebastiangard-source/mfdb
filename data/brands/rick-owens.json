@@ -48,8 +48,8 @@
     [900, 1485],
     [735, 1575],
     [560, 1905, "USD_landed"],
-    [2090, 3225, "USD_landed"],
-    [935, 4725, "USD_landed"]
+    [1875, 3225, "USD_landed"],
+    null
   ],
   "shoelink": {
     "t": "Geobasket",
@@ -103,5 +103,6 @@
     "nc": ["bottoms", "outerwear", "t-shirts and shirts"],
     "st": "complete"
   },
-  "price_range_only": ["Shoes"]
+  "price_range_only": ["Shoes"],
+  "price_checked": true
 }

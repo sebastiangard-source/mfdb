@@ -43,7 +43,16 @@
     "u": "https://www.hermes.com/us/en/search/?s=The%20silk%20tie%20men",
     "n": "verified ✓"
   },
-  "prices": [[600, 1925], [740, 2375], [1400, 4750], null, [1150, 1850], "?", "?", "?"],
+  "prices": [
+    [600, 1925],
+    [740, 2375],
+    [1400, 4750],
+    null,
+    [1150, 1850],
+    [1200, 2825],
+    [3850, 8800],
+    [1100, 1925]
+  ],
   "shoelink": {
     "t": "loafer",
     "u": "https://www.hermes.com/us/en/search/?s=loafer"
@@ -118,5 +127,6 @@
     ],
     "source": "census_followup",
     "checked": "2026-09-12"
-  }
+  },
+  "price_checked": true
 }

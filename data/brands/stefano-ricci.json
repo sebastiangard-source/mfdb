@@ -41,7 +41,16 @@
     "u": "https://www.stefanoricci.com/en-us/search?q=The%20silk%20tie",
     "n": "works"
   },
-  "prices": [[569, 875], [1226, 1839], [900, 1500], [1094, 1398], [1100, 3650], "?", "?", "?"],
+  "prices": [
+    [569, 875],
+    [1226, 1839],
+    [900, 1500],
+    [1094, 1398],
+    [1100, 3650],
+    [1200, 3900],
+    [2450, 12300],
+    [1000, 2100]
+  ],
   "shoelink": {
     "t": "shoes",
     "u": "https://www.stefanoricci.com/en-us/search?q=shoes"
@@ -99,5 +108,6 @@
     "sc": ["luxury tech", "swimwear"],
     "nc": ["knitwear", "shirts", "outerwear"],
     "st": "complete"
-  }
+  },
+  "price_checked": true
 }

@@ -44,8 +44,8 @@
     [300, 450],
     [280, 450],
     [534, 792, "USD_landed"],
-    [935, 4527, "USD_landed"],
-    [1150, 1353, "USD_landed"]
+    [792, 5071, "USD_landed"],
+    [1078, 1353, "USD_landed"]
   ],
   "doors": {
     "c": "full",
@@ -85,5 +85,6 @@
     "nc": ["Outerwear/Jackets", "Shirts", "Trousers"],
     "st": "complete"
   },
-  "shop": "https://auralee.jp/item?freeword="
+  "shop": "https://auralee.jp/item?freeword=",
+  "price_checked": true
 }

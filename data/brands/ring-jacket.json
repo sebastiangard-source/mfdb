@@ -44,9 +44,9 @@
     [200, 300],
     [300, 500],
     [300, 450],
-    [99000, 132000, "JPY"],
-    [550000, 880000, "JPY"],
-    [82500, 220000, "JPY"]
+    [99000, 99000, "JPY"],
+    [385000, 440000, "JPY"],
+    null
   ],
   "notes": {
     "wool": "Osaka full-canvas make",
@@ -90,5 +90,7 @@
     "o": [],
     "s": [807]
   },
-  "price_range_only": ["Outerwear"]
+  "price_range_only": ["Outerwear"],
+  "shop": "https://www.ringjacket.co.jp/p/search?keyword=",
+  "price_checked": true
 }

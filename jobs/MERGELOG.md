@@ -1341,3 +1341,170 @@ Held: [('Auralee', 'landed international USD, not US list')]
 - Zilli: prices[Sweater] -> [750, 1320, 'EUR']
 - Zilli: prices[Outerwear] -> [1470, 8500, 'EUR']
 - Zilli: prices[Shoes] -> [870, 4320, 'EUR']
+
+## 2026-09-19 · price_pass_2026-09-18 · rev4 restatement + outerwear staple audit (99 brands)
+
+Held: [('Carhartt', 'sweater NONE — a house with no crewneck still makes sweaters; restate as range'), ('Southern Tide', 'sweater NONE — a house with no crewneck still makes sweaters; restate as range'), ('Rhoback', 'sweater NONE — a house with no crewneck still makes sweaters; restate as range'), ('Tecovas', 'sweater NONE — a house with no crewneck still makes sweaters; restate as range'), ('Y.Chroma', 'sweater NONE — a house with no crewneck still makes sweaters; restate as range'), ('Club Monaco', 'sweater NONE — a house with no crewneck still makes sweaters; restate as range'), ('Ksubi', 'sweater NONE — a house with no crewneck still makes sweaters; restate as range'), ('Wales Bonner', 'sweater NONE — a house with no crewneck still makes sweaters; restate as range'), ('Hermès', 'shoes: half a pair with nothing to merge into'), ('Loro Piana', 'outerwear: half a pair with nothing to merge into'), ('Stefano Ricci', 'outerwear: half a pair with nothing to merge into'), ('Stefano Ricci', 'shoes: half a pair with nothing to merge into')]
+
+- Levi's: prices[Outerwear] [90, 625] -> [90, 1200]
+- Carhartt: prices[Shoes] [95, 260] -> None
+- Lacoste: prices[Sweater] [98, 350] -> [98, 240]
+- Lacoste: prices[Outerwear] [165, 580] -> [165, 450]
+- Everlane: prices[Outerwear] [148, 398] -> [148, 348]
+- Everlane: prices[Shoes] [148, 148] -> None
+- Industry of All Nations: prices[Outerwear] [180, 745] -> [180, 595]
+- Bonobos: prices[Sweater] [99, 250] -> [99, 99]
+- Bonobos: prices[Outerwear] [139, 299] -> [199, 699]
+- Lululemon: prices[Shoes] [58, 168] -> [128, 158]
+- Alo: prices[Shoes] [150, 295] -> None
+- Southern Tide: prices[Shoes] [70, 70] -> None
+- Patagonia: prices[Shoes] [449, 449] -> None
+- Finisterre: prices[Sweater] [160, 205] -> [160, 165]
+- Rodd & Gunn: prices[Sweater] [128, 198] -> [128, 178]
+- J.Lindeberg: prices[Shoes] [180, 265] -> None
+- johnnie-O: prices[Shoes] [228, 248] -> [198, 248]
+- Percival: prices[Outerwear] [255, 795] -> [255, 730, 'USD_landed']
+- Wythe: prices[Shoes] [898, 1298] -> None
+- Alex Mill: prices[Outerwear] [225, 275] -> [250, 275]
+- Tecovas: prices[Outerwear] [165, 595] -> [295, 295]
+- Barbour: prices[Shoes] [195, 245] -> None
+- Baracuta: prices[Sweater] [225, 400] -> [225, 225]
+- Filson: prices[Sweater] [199, 699] -> [199, 259]
+- Filson: prices[Outerwear] [189, 1199] -> [199, 1199]
+- Y.Chroma: prices[Outerwear] [775, 1249] -> [399, 1249]
+- Kith: prices[Sweater] [150, 395] -> [175, 175]
+- Aimé Leon Dore: prices[Sweater] [300, 575] -> [300, 400]
+- Massimo Dutti: prices[Outerwear] [180, 690] -> [160, 690]
+- Vineyard Vines: prices[Sweater] [108, 328] -> [108, 108]
+- Vineyard Vines: prices[Outerwear] [168, 228] -> [168, 178]
+- Vineyard Vines: prices[Shoes] [43, 99] -> None
+- Polo Ralph Lauren: prices[Shoes] [178, 548] -> [168, 548]
+- RRL: prices[Sweater] [395, 1800] -> [395, 395]
+- RRL: prices[Shoes] [195, 1400] -> None
+- J.McLaughlin: prices[Outerwear] [348, 998] -> [898, 998]
+- Peter Millar: prices[Outerwear] [178, 1295] -> [278, 1398]
+- Peter Millar: prices[Shoes] [275, 395] -> [250, 395]
+- Ted Baker: prices[Sweater] [175, 450] -> [175, 295]
+- Scotch & Soda: prices[Sweater] [98, 238] -> [98, 198]
+- Scotch & Soda: prices[Outerwear] [248, 668] -> [178, 898]
+- Norse Projects: prices[Outerwear] [338, 1600] -> [395, 1600]
+- Stone Island: prices[Shoes] [565, 600] -> None
+- Canada Goose: prices[Shoes] [395, 850] -> None
+- Arc'teryx: prices[Shoes] [140, 280] -> None
+- Vince: prices[Sweater] [298, 398] -> [298, 448]
+- Rails: prices[Sweater] [168, 248] -> [168, 268]
+- Club Monaco: prices[Outerwear] [328, 498] -> [498, 498]
+- Club Monaco: prices[Shoes] [128, 128] -> None
+- PAIGE: prices[Sweater] [229, 259] -> [229, 249]
+- PAIGE: prices[Shoes] [198, 428] -> None
+- Purple: prices[Sweater] [350, 495] -> [350, 395]
+- Purple: prices[Outerwear] [395, 1375] -> [395, 1295]
+- Purple: prices[Shoes] [345, 345] -> None
+- Diesel: prices[Sweater] [295, 495] -> [295, 550]
+- Diesel: prices[Shoes] [495, 595] -> [250, 495]
+- Joe's Jeans: prices[Sweater] [178, 358] -> [278, 278]
+- Joe's Jeans: prices[Outerwear] [248, 998] -> [218, 998]
+- Boggi Milano: prices[Sweater] [198, 368] -> [198, 268]
+- Eleventy: prices[Shoes] [795, 995] -> [795, 1295]
+- Brooks Brothers: prices[Shoes] [150, 248] -> [199, 248]
+- Sunspel: prices[Shoes] [300, 300] -> [300, 365]
+- Margaret Howell: prices[Outerwear] [640, 1900] -> [645, 1900]
+- Reiss: prices[Shoes] [298, 355, 'USD_landed'] -> [230, 355, 'USD_landed']
+- Isabel Marant: prices[Sweater] [440, 945] -> [440, 880]
+- Isabel Marant: prices[Outerwear] [630, 3980] -> [630, 1990]
+- Isabel Marant: prices[Shoes] [785, 945] -> [880, 880]
+- Frame: prices[Outerwear] [448, 1898] -> [448, 1698]
+- Theory: prices[Outerwear] [325, 995] -> [365, 1295]
+- Theory: prices[Shoes] [395, 395] -> None
+- Sid Mashburn: prices[Outerwear] '?' -> [395, 1395]
+- Sid Mashburn: prices[Shoes] '?' -> [295, 595]
+- Billy Reid: prices[Outerwear] [398, 1198] -> [598, 1598]
+- A.P.C.: prices[Sweater] [350, 650] -> [350, 420]
+- Officine Générale: prices[Outerwear] [995, 1890, 'USD_landed'] -> [595, 1495, 'USD_landed']
+- Auralee: prices[Outerwear] [935, 4527, 'USD_landed'] -> [792, 5071, 'USD_landed']
+- Auralee: prices[Shoes] [1150, 1353, 'USD_landed'] -> [1078, 1353, 'USD_landed']
+- Ami Paris: prices[Sweater] [430, 650] -> [430, 690]
+- Ami Paris: prices[Shoes] [730, 810] -> [730, 730]
+- Todd Snyder: prices[Sweater] [198, 998] -> [248, 998]
+- Todd Snyder: prices[Shoes] [368, 798] -> [248, 798]
+- Boglioli: prices[Sweater] [500, 1775] -> [675, 1775]
+- Boglioli: prices[Outerwear] [1210, 2450] -> [900, 2550]
+- Ring Jacket: prices[Sweater] [99000, 132000, 'JPY'] -> [99000, 99000, 'JPY']
+- Ring Jacket: prices[Outerwear] [550000, 880000, 'JPY'] -> [385000, 440000, 'JPY']
+- Ring Jacket: prices[Shoes] [82500, 220000, 'JPY'] -> None
+- Ring Jacket: shop -> https://www.ringjacket.co.jp/p/search?keyword=
+- Drake's: prices[Outerwear] [755, 1995] -> [985, 2525]
+- Corneliani: prices[Outerwear] [1795, 1850] -> [1550, 4595]
+- Thom Browne: prices[Outerwear] [1740, 5350] -> [1650, 5350]
+- Herno: prices[Outerwear] [1060, 2835] -> [995, 1685]
+- Herno: prices[Shoes] [555, 610] -> None
+- Aspesi: prices[Outerwear] [475, 1365] -> [515, 1365]
+- Paul & Shark: prices[Outerwear] [745, 3165] -> [745, 1595]
+- Paul & Shark: prices[Shoes] [410, 690] -> None
+- Moncler: prices[Sweater] [795, 1085] -> [795, 1195]
+- Moncler: prices[Shoes] [335, 1050] -> None
+- Ferragamo: prices[Shoes] [750, 2900] -> [750, 1590]
+- Giorgio Armani: prices[Sweater] [975, 2195] -> [975, 4195]
+- Missoni: prices[Outerwear] [2220, 6440] -> [2450, 4790]
+- Missoni: prices[Shoes] [415, 890] -> None
+- Versace: prices[Outerwear] [1850, 13490] -> [1850, 6890]
+- Versace: prices[Shoes] [950, 1425] -> [795, 1425]
+- Dolce&Gabbana: prices[Sweater] [995, 2045] -> [995, 7045]
+- Dolce&Gabbana: prices[Outerwear] [2045, 13500] -> [1995, 2845]
+- Dolce&Gabbana: prices[Shoes] [895, 1145] -> [845, 1145]
+- Fendi: prices[Outerwear] [3250, 7550] -> [3250, 17350]
+- Fendi: prices[Shoes] [1050, 1150] -> [770, 1150]
+- Valentino: prices[Shoes] [790, 1350] -> [790, 1190]
+- Celine: prices[Sweater] '?' -> [1050, 1950]
+- Celine: prices[Outerwear] '?' -> [1500, 8700]
+- Celine: prices[Shoes] '?' -> [950, 1300]
+- Givenchy: prices[Sweater] [1100, 1450] -> [1100, 1700]
+- Givenchy: prices[Outerwear] [1700, 6950] -> [1650, 4900]
+- Givenchy: prices[Shoes] [970, 1020] -> [790, 1020]
+- Maison Margiela: prices[Sweater] [960, 1730] -> [560, 1730]
+- Maison Margiela: prices[Outerwear] [3100, 6120] -> [695, 6590]
+- Rick Owens: prices[Outerwear] [2090, 3225, 'USD_landed'] -> [1875, 3225, 'USD_landed']
+- Rick Owens: prices[Shoes] [935, 4725, 'USD_landed'] -> None
+- Yohji Yamamoto: prices[Outerwear] [980, 5470] -> [1790, 5190, 'USD_landed']
+- Yohji Yamamoto: prices[Shoes] [880, 1690] -> None
+- Casablanca: prices[Outerwear] [755, 2435] -> [970, 2435]
+- Casablanca: prices[Shoes] [545, 545] -> [515, 545]
+- Jacquemus: prices[Sweater] [590, 1150] -> [590, 850]
+- Jacquemus: prices[Outerwear] [950, 5300] -> [900, 5300]
+- Jacquemus: prices[Shoes] [790, 950] -> [590, 950]
+- Prada: prices[Outerwear] [2300, 8900] -> [2300, 7900]
+- Loewe: prices[Sweater] [990, 1500] -> [990, 1650]
+- Amiri: prices[Outerwear] [850, 3490] -> [1090, 2490]
+- Rhude: prices[Shoes] [495, 495] -> None
+- Palm Angels: prices[Shoes] [225, 610] -> None
+- Fear of God: prices[Polo] '?' -> [115, 165]
+- Fear of God: prices[Dress shirt] [695, 875] -> [135, 875]
+- Fear of God: prices[Sweater] [990, 1050] -> [175, 1050]
+- Fear of God: prices[Shoes] [195, 1250] -> None
+- Visvim: prices[Sweater] [1280, 1490] -> [1280, 2670]
+- Visvim: prices[Outerwear] [705, 8400] -> [1372, 2230]
+- Visvim: prices[Shoes] [765, 2406] -> [780, 1605]
+- Brioni: prices[Outerwear] [1995, 15000] -> [1995, 10400]
+- Isaia: prices[Sweater] [1250, 2495] -> [1250, 2295]
+- Lemaire: prices[Shoes] [970, 990] -> [890, 990]
+- Jil Sander: prices[Shoes] [1150, 1490] -> [1490, 1490]
+- Brunello Cucinelli: prices[Sweater] [1350, 4000] -> [1300, 4600]
+- Fedeli: prices[Sweater] [420, 1750] -> [420, 1752]
+- Fedeli: prices[Outerwear] [3002, 4325] -> [3005, 7843]
+- The Elder Statesman: prices[Sweater] [490, 2490] -> [1050, 2490]
+- Rubinacci: prices[Outerwear] [1896, 4740] -> [1896, 3120]
+- Kiton: prices[Shoes] [1260, 2540] -> [1260, 2530]
+- Zilli: prices[Sweater] [750, 1320, 'EUR'] -> [750, 1860, 'EUR']
+- Zilli: prices[Shoes] [870, 4320, 'EUR'] -> [870, 1380, 'EUR']
+
+- the four fur/exotic holds landed: full-return lows with rev4 highs
+- Hermès: prices[Sweater] -> [1200, 2825]
+- Hermès: prices[Outerwear] -> [3850, 8800]
+- Hermès: prices[Shoes] -> [1100, 1925]
+- Loro Piana: prices[Sweater] -> [1125, 5250]
+- Loro Piana: prices[Outerwear] -> [2770, 29000]
+- Loro Piana: prices[Shoes] -> [950, 2150]
+- Stefano Ricci: prices[Sweater] -> [1200, 3900]
+- Stefano Ricci: prices[Outerwear] -> [2450, 12300]
+- Stefano Ricci: prices[Shoes] -> [1000, 2100]
+- Sid Mashburn: prices[Sweater] -> [195, 450]

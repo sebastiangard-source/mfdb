@@ -42,7 +42,7 @@
     "u": "https://fearofgod.com/search?q=Essentials%20hoodie",
     "n": "verified ✓"
   },
-  "prices": [[295, 695], "?", [695, 875], [695, 695], [890, 1190], [990, 1050], [1150, 3850], [195, 1250]],
+  "prices": [[295, 695], [115, 165], [135, 875], [695, 695], [890, 1190], [175, 1050], [1150, 3850], null],
   "shoelink": {
     "t": "shoes",
     "u": "https://fearofgod.com/search?q=shoes"
@@ -87,5 +87,6 @@
     "nc": ["tops", "bottoms", "outerwear"],
     "st": "complete"
   },
-  "price_range_only": ["Sweater", "Shoes"]
+  "price_range_only": ["Sweater", "Shoes"],
+  "price_checked": true
 }
