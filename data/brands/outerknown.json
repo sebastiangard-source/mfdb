@@ -85,5 +85,14 @@
     "st": "complete"
   },
   "price_checked": true,
-  "price_range_only": ["Sweater"]
+  "price_range_only": ["Sweater"],
+  "garment_links": {
+    "T-shirt": "https://www.outerknown.com/collections/mens-tees-henleys",
+    "Polo": "https://www.outerknown.com/search?q=polo&f=extra.gender%3AMens",
+    "Dress shirt": "https://www.outerknown.com/collections/mens-shirts",
+    "Jeans": "https://www.outerknown.com/collections/mens-denim",
+    "Dress pants": "https://www.outerknown.com/collections/mens-pants",
+    "Sweater": "https://www.outerknown.com/collections/mens-sweaters-sweatshirts",
+    "Outerwear": "https://www.outerknown.com/collections/mens-outerwear"
+  }
 }

@@ -241,6 +241,13 @@
     border-top:1px solid rgba(0,0,0,.07);
     border-radius:0 0 9px 9px; pointer-events:none}
   #hoverCard h4{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:0 0 5px;color:var(--lf-green)}
+  .hp-native{position:absolute;left:0;top:-1px;font-size:10px;color:var(--ink-faint);white-space:nowrap}
+  .hp-np{font-style:italic}
+  .hp-tag,.pr-tag{display:inline-block;margin-left:5px;padding:0 5px;border-radius:7px;font-size:9px;letter-spacing:.04em;
+    color:var(--ink-faint);border:1px solid var(--ink-faint);vertical-align:1px;line-height:13px}
+  .hp-tag{position:absolute;right:-42px;top:-1px}
+  .hp-bar.hp-range,.pr-bar.pr-range{opacity:.55}
+  .pr-native{color:var(--ink-faint)}
   .gl-link{color:inherit;text-decoration:none;border-bottom:1px dotted var(--ink-faint)}
   .gl-link:hover{border-bottom-color:var(--ink);color:var(--ink)}
   .hc-head{display:flex;justify-content:space-between;align-items:center;gap:10px;margin:0 0 6px}
@@ -1958,6 +1965,8 @@ function applyDials(){
 /*@@PRICES@@*/
 /*@@RUBRIC@@*/
 /*@@SUBREGION@@*/
+/*@@GLINKS@@*/
+/*@@RANGEONLY@@*/
 const REGLOOKUP = {sail:SAIL,bruv:BRUV,golf:GOLF,status:STATUS,finbro:FINBRO,ivy:IVY,murica:MURICA,
                    ital:ITAL,fren:FREN,street:STREET,avant:AVANT,prep:PREP,weird:WEIRD,boat:BOAT,racquet:RACQUET,ski:SKI,scandi:SCANDI,briish:BRIISH,fuss:FUSS,dur:DUR,forg:FORG,reach:REACH,shoes:SHOES,golffice:GOLFFICE};
 const ATTRKEYS = ["tech","comfort","craft","style"];
@@ -2018,19 +2027,26 @@ function pricesHTML(name){
                 + `<div class="pr-val pr-unk">not assessed</div></div>`;
     if(!r) return `<div class="pr-row"><div class="pr-lab">${garmentLabel(name, i, PRGARMENTS[i], false)}</div>`
                 + `<div class="pr-track">${gl}</div>`
-                + `<div class="pr-val pr-none">not a staple</div></div>`;
+                + `<div class="pr-val pr-none">does not make it</div></div>`;
+    if(r === "np") return `<div class="pr-row"><div class="pr-lab">${garmentLabel(name, i, PRGARMENTS[i], false)}</div>`
+                + `<div class="pr-track">${gl}</div>`
+                + `<div class="pr-val pr-unk" title="checked: the brand publishes no price">none published</div></div>`;
+    if(r.length === 3) return `<div class="pr-row"><div class="pr-lab">${garmentLabel(name, i, PRGARMENTS[i], false)}</div>`
+                + `<div class="pr-track">${gl}</div>`
+                + `<div class="pr-val pr-native" title="read on the brand's own store in its currency; never converted">${priceText(r)}</div></div>`;
     const mid = Math.round((r[0]+r[1])/2);
+    const rng = isRangeCell(name, i);
     return `<div class="pr-row"><div class="pr-lab">${garmentLabel(name, i, PRGARMENTS[i], true)}</div>`
          + `<div class="pr-track">${gl}`
-         + `<span class="pr-bar pg${i}" style="left:${prPos(r[0])}%;width:${prPos(r[1])-prPos(r[0])}%"></span>`
+         + `<span class="pr-bar pg${i}${rng?" pr-range":""}" style="left:${prPos(r[0])}%;width:${prPos(r[1])-prPos(r[0])}%"></span>`
          + `<span class="pr-dot" style="left:${prPos(mid)}%"></span></div>`
-         + `<div class="pr-val">${r[0]===r[1]?`$${r[0]}`:`$${r[0]}\u2013${r[1]}`}</div></div>`;
+         + `<div class="pr-val">${priceText(r)}${rng?` <span class="pr-tag" title="the category's plain range, not the entry-to-elevated pair">range</span>`:""}</div></div>`;
   }).join("");
   return `<h3>Prices${pricePassHTML(name)}</h3><div class="pr-wrap"><div class="pr-axis">${axis}</div>${rows}`
-       + `<p class="pr-note">Approximate US full-price retail, mid-2026. Each bar runs from the `
-       + `entry version to the elevated-fabric version of the same staple; the dot is the `
-       + `midpoint. Log scale \u2014 each gridline doubles. Calibrated estimates for comparison, `
-       + `not quotes.</p></div>`;
+       + `<p class="pr-note">US full-price retail, read on the brand\u2019s own store in September 2026. A bar runs from the `
+       + `entry version to the elevated-fibre version of one staple; a bar marked <i>range</i> is the cheapest to `
+       + `dearest of the category, because the brand sells no such pair. A figure in another currency is shown as `
+       + `read and never converted. Log scale \u2014 each gridline doubles. Prices move; the note on file names the product.</p></div>`;
 }
 function doorsHTML(name){
   const d = DOORS[name.trim()] || {c:"none"};
@@ -3165,10 +3181,21 @@ function pricePassHTML(name){
 // shoe link where one exists, since the search term is often wrong for footwear.
 // No search URL, or an unpriced garment: the label stays plain text.
 const PRTERM = ["t-shirt","polo","dress shirt","jeans","dress pants","sweater","jacket","shoes"];
+const CURSYM = {JPY:"\u00a5", EUR:"\u20ac", GBP:"\u00a3", CAD:"CA$", USD_landed:"$"};
+function priceText(r){
+  // [lo, hi] in USD; [lo, hi, CUR] native and never converted
+  const cur = r[2]; const sym = cur ? (CURSYM[cur] || cur + " ") : "$";
+  const fmt = v => v.toLocaleString("en-US");
+  const t = r[0] === r[1] ? `${sym}${fmt(r[0])}` : `${sym}${fmt(r[0])}\u2013${fmt(r[1])}`;
+  return cur === "USD_landed" ? t + " landed" : t;
+}
+function isRangeCell(name, i){ const g = RANGEONLY[name.trim()]; return !!(g && g.includes(PRGARMENTS[i])); }
 function garmentLabel(name, i, text, priced){
   const key = name.trim();
   let url = null;
-  if(i === 7 && SHOELINK[key]) url = SHOELINK[key].u;
+  const gl = GLINKS[key];
+  if(gl && gl[PRGARMENTS[i]]) url = gl[PRGARMENTS[i]];          // the brand's own men's listing
+  else if(i === 7 && SHOELINK[key]) url = SHOELINK[key].u;
   else if(priced && SHOP[key]) url = SHOP[key] + encodeURIComponent(PRTERM[i]);
   if(!url) return text;
   return `<a class="gl-link" href="${url}" target="_blank" rel="noopener" title="Search ${esc(key)} for ${PRTERM[i]}">${text}</a>`;
@@ -3180,13 +3207,22 @@ function pricesStripHTML(name){
   const ax = [50,200,800].map(t=>`<span style="left:${prPos(t)}%">$${t}</span>`).join("");
   const rows = p.map((r,i)=>{
     const has = Array.isArray(r);
-    const bar = has
-      ? `<span class="hp-bar hp${i}" title="${PRGARMENTS[i]}: ${r[0]===r[1]?`$${r[0]}`:`$${r[0]}\u2013${r[1]}`}"`
-        + ` style="left:${prPos(r[0])}%;width:${prPos(r[1])-prPos(r[0])}%"></span>`
-      : "";
-    return `<div class="hp-row"><div class="hp-name${has?"":(r==="?"?" hp-unk":" hp-none")}"`
-         + `${r==="?"?' title="not assessed"':""}>${garmentLabel(name, i, PRSHORT[i], has)}</div>`
-         + `<div class="hp-track">${gl}${bar}</div></div>`;
+    const native = has && r.length === 3;
+    const rng = has && isRangeCell(name, i);
+    let track;
+    if(has && !native){
+      track = `<span class="hp-bar hp${i}${rng?" hp-range":""}" title="${PRGARMENTS[i]}: ${priceText(r)}${rng?" \u2014 range of the category, not one staple":""}"`
+            + ` style="left:${prPos(r[0])}%;width:${prPos(r[1])-prPos(r[0])}%"></span>`
+            + (rng ? `<span class="hp-tag" title="the category's plain range, not the entry-to-elevated pair">range</span>` : "");
+    } else if(native){
+      // A native figure draws no bar: it cannot share the dollar axis and is never converted.
+      track = `<span class="hp-native" title="read on the brand's own store in its currency, not converted">${priceText(r)}</span>`;
+    } else if(r === "np"){
+      track = `<span class="hp-native hp-np">none published</span>`;
+    } else track = "";
+    const title = r==="?" ? ' title="not assessed"' : r===null ? ' title="does not make it"' : r==="np" ? ' title="checked: the brand publishes no price"' : "";
+    return `<div class="hp-row"><div class="hp-name${has?"":(r==="?"?" hp-unk":" hp-none")}"${title}>${garmentLabel(name, i, PRSHORT[i], has && !native)}</div>`
+         + `<div class="hp-track">${gl}${track}</div></div>`;
   }).join("");
   return `<div class="hc-prices"><span class="hp-lab">Prices</span>${pricePassHTML(name)}`
        + rows + `<div class="hp-ax">${ax}</div></div>`;

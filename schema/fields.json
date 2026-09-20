@@ -751,11 +751,19 @@
     },
     "price_range_only": {
       "scope": "brand",
-      "const": null,
+      "const": "RANGEONLY",
       "path": "price_range_only",
       "type": "list",
       "absent": "optional",
       "doc": "Garment slots whose [low, high] is the plain range of the category rather than the staple pair (entry version to elevated version). Set by the 18 Sep price pass. Data-only until the UI marks it."
+    },
+    "garment_links": {
+      "scope": "brand",
+      "const": "GLINKS",
+      "path": "garment_links",
+      "type": "obj",
+      "absent": "optional",
+      "doc": "Per garment slot (T-shirt … Shoes), the URL of the brand's own men's listing for that garment; a slot absent = not found, the label falls back to site search. From garment_links_2026-09-19."
     }
   },
   "price_slots": [

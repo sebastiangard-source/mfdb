@@ -38,7 +38,7 @@
   "chan": ["O", "D"],
   "conf": "S",
   "forgc": [4, 3, 3],
-  "shop": "https://www.brunellocucinelli.com/en-us/search?q=",
+  "shop": "https://shop.brunellocucinelli.com/en-us/search?q=",
   "onething": {
     "p": "Cashmere half-zip",
     "u": "https://shop.brunellocucinelli.com/en-us/men/ready-to-wear/knitwear/cashmere-sweater-with-half-zip-261M2200124C166C01.html",
@@ -150,5 +150,15 @@
     "nc": ["pants", "knitwear", "coats-jackets"],
     "st": "complete"
   },
-  "price_checked": true
+  "price_checked": true,
+  "garment_links": {
+    "T-shirt": "https://shop.brunellocucinelli.com/en-us/men/ready-to-wear/t-shirts-polos/",
+    "Polo": "https://shop.brunellocucinelli.com/en-us/men/ready-to-wear/t-shirts-polos/",
+    "Dress shirt": "https://shop.brunellocucinelli.com/en-us/men/ready-to-wear/shirts/",
+    "Jeans": "https://shop.brunellocucinelli.com/en-us/men/ready-to-wear/denim/",
+    "Dress pants": "https://shop.brunellocucinelli.com/en-us/men/ready-to-wear/pants/",
+    "Sweater": "https://shop.brunellocucinelli.com/en-us/men/ready-to-wear/knitwear/",
+    "Outerwear": "https://shop.brunellocucinelli.com/en-us/men/ready-to-wear/coats-jackets/",
+    "Shoes": "https://shop.brunellocucinelli.com/en-us/men/shoes/"
+  }
 }

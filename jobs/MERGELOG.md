@@ -1508,3 +1508,16 @@ Held: [('Carhartt', 'sweater NONE — a house with no crewneck still makes sweat
 - Stefano Ricci: prices[Outerwear] -> [2450, 12300]
 - Stefano Ricci: prices[Shoes] -> [1000, 2100]
 - Sid Mashburn: prices[Sweater] -> [195, 450]
+
+## 2026-09-19 · garment_links pilot · 7 brands
+
+- Lululemon: 7 garment links
+- Faherty: 8 garment links
+- Outerknown: 7 garment links
+- Todd Snyder: 8 garment links
+- J.Crew: 8 garment links
+- Polo Ralph Lauren: 8 garment links
+- Brunello Cucinelli: 8 garment links
+- Brunello Cucinelli: shop -> shop.brunellocucinelli.com (corporate-site search 404s)
+
+## 2026-09-19 · correction · NONE misused for 'no loafer'/'no crewneck': 42 shoe cells and 6 sweater cells reset to '?' pending a range restatement (a house that sells shoes does not 'not make' shoes)

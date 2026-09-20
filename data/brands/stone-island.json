@@ -42,7 +42,7 @@
     "u": "https://www.stoneisland.com/en-us/search?q=Badge%20garment-dyed%20sweatshirt",
     "n": "Use this: https://www.stoneisland.com/en-us/?query=garment+dyed+sweatshirt"
   },
-  "prices": [[120, 190], [190, 280], [250, 350], [300, 450], [250, 400], [420, 1425], [900, 6250], null],
+  "prices": [[120, 190], [190, 280], [250, 350], [300, 450], [250, 400], [420, 1425], [900, 6250], "?"],
   "notes": {
     "tech": "the Osti garment-dye laboratory — prototype research as identity",
     "synth": "technical nylons and resin-dyed shells",
@@ -100,6 +100,5 @@
     "nc": ["Knitwear", "Pants & Shorts", "Fleecewear"],
     "st": "complete"
   },
-  "price_range_only": ["Shoes"],
-  "price_checked": true
+  "price_range_only": ["Shoes"]
 }
