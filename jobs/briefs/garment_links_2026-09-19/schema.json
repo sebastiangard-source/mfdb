@@ -1,0 +1,65 @@
+{
+  "not_checked": "NC",
+  "columns": [
+    {
+      "name": "brand",
+      "type": "key"
+    },
+    {
+      "name": "tee_url",
+      "type": "url",
+      "doc": "men's listing for this garment on the brand's own store; NONE if the brand does not make it; NC if not found"
+    },
+    {
+      "name": "polo_url",
+      "type": "url",
+      "doc": "men's listing for this garment on the brand's own store; NONE if the brand does not make it; NC if not found"
+    },
+    {
+      "name": "dress_shirt_url",
+      "type": "url",
+      "doc": "men's listing for this garment on the brand's own store; NONE if the brand does not make it; NC if not found"
+    },
+    {
+      "name": "jeans_url",
+      "type": "url",
+      "doc": "men's listing for this garment on the brand's own store; NONE if the brand does not make it; NC if not found"
+    },
+    {
+      "name": "dress_pants_url",
+      "type": "url",
+      "doc": "men's listing for this garment on the brand's own store; NONE if the brand does not make it; NC if not found"
+    },
+    {
+      "name": "sweater_url",
+      "type": "url",
+      "doc": "men's listing for this garment on the brand's own store; NONE if the brand does not make it; NC if not found"
+    },
+    {
+      "name": "outerwear_url",
+      "type": "url",
+      "doc": "men's listing for this garment on the brand's own store; NONE if the brand does not make it; NC if not found"
+    },
+    {
+      "name": "shoes_url",
+      "type": "url",
+      "doc": "men's listing for this garment on the brand's own store; NONE if the brand does not make it; NC if not found"
+    },
+    {
+      "name": "site_domain",
+      "type": "str"
+    },
+    {
+      "name": "search_url_on_file",
+      "type": "str"
+    },
+    {
+      "name": "source",
+      "type": "provenance"
+    },
+    {
+      "name": "note",
+      "type": "str"
+    }
+  ]
+}
