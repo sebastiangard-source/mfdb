@@ -858,6 +858,11 @@ with sync_playwright() as p:
     ck('garment labels use the brand\'s own men\'s listing where one is on file', pg.evaluate("document.querySelector('#detailBody .pr-row .gl-link').href")=='https://fahertybrand.com/collections/mens-t-shirts-henleys-polos' or 'fahertybrand.com/collections/' in pg.evaluate("document.querySelector('#detailBody .pr-row .gl-link').href"))
     pg.goto(url); pg.reload(); pg.wait_for_timeout(400); pg.hover('.brand:has-text("Ring Jacket")'); pg.wait_for_timeout(600)
     ck('the card draws a native figure instead of a bar', pg.evaluate("document.querySelectorAll('#hoverCard .hp-native').length")>0)
+    pg.goto(url+'#brand=Faherty'); pg.reload(); pg.wait_for_timeout(400)
+    ck('a brand with every garment linked to its own pages carries the own-pages mark', pg.evaluate("!!document.querySelector('#detailBody .pv-links')"))
+    pg.goto(url+'#brand=Barbour'); pg.reload(); pg.wait_for_timeout(400)
+    ck('a brand still on site search does not', pg.evaluate("!document.querySelector('#detailBody .pv-links')"))
+    ck('own-page labels and search labels are told apart', pg.evaluate("document.querySelector('#detailBody .gl-link:not(.gl-own)')?.title.includes('site search')"))
 
     head('prev / next')
     pg.set_viewport_size({'width':1400,'height':1000})

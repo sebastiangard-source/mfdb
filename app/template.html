@@ -248,6 +248,8 @@
   .hp-tag{position:absolute;right:-42px;top:-1px}
   .hp-bar.hp-range,.pr-bar.pr-range{opacity:.55}
   .pr-native{color:var(--ink-faint)}
+  .gl-link.gl-own{border-bottom-style:solid}
+  .pv-links{margin-left:6px}
   .gl-link{color:inherit;text-decoration:none;border-bottom:1px dotted var(--ink-faint)}
   .gl-link:hover{border-bottom-color:var(--ink);color:var(--ink)}
   .hc-head{display:flex;justify-content:space-between;align-items:center;gap:10px;margin:0 0 6px}
@@ -2042,7 +2044,7 @@ function pricesHTML(name){
          + `<span class="pr-dot" style="left:${prPos(mid)}%"></span></div>`
          + `<div class="pr-val">${priceText(r)}${rng?` <span class="pr-tag" title="the category's plain range, not the entry-to-elevated pair">range</span>`:""}</div></div>`;
   }).join("");
-  return `<h3>Prices${pricePassHTML(name)}</h3><div class="pr-wrap"><div class="pr-axis">${axis}</div>${rows}`
+  return `<h3>Prices${pricePassHTML(name)}${linksMarkHTML(name)}</h3><div class="pr-wrap"><div class="pr-axis">${axis}</div>${rows}`
        + `<p class="pr-note">US full-price retail, read on the brand\u2019s own store in September 2026. A bar runs from the `
        + `entry version to the elevated-fibre version of one staple; a bar marked <i>range</i> is the cheapest to `
        + `dearest of the category, because the brand sells no such pair. A figure in another currency is shown as `
@@ -3171,6 +3173,18 @@ function fibreLineHTML(name){
        + `<span class="fb-shape">${shape}</span>`
        + `<span class="fb-src">${src}</span></div>`;
 }
+// True when every priced garment of a brand links to its own men's listing rather than a
+// site search — the state the garment_links pass is filling in, brand by brand.
+function linksComplete(name){
+  const key = name.trim(); const p = PRICES[key]; const gl = GLINKS[key];
+  if(!p || !gl) return false;
+  return p.every((r,i)=>!(Array.isArray(r) && r.length===2) || !!gl[PRGARMENTS[i]]);
+}
+function linksMarkHTML(name){
+  return linksComplete(name)
+    ? '<span class="pv-ok pv-links" title="Every garment label opens the brand\u2019s own men\u2019s listing for that garment, read on 19 September">own pages</span>'
+    : "";
+}
 function pricePassHTML(name){
   if(PRICE_PASS.indexOf(name.trim()) < 0) return "";
   return '<span class="pv-ok" title="All eight garments opened and read on the '
@@ -3198,7 +3212,10 @@ function garmentLabel(name, i, text, priced){
   else if(i === 7 && SHOELINK[key]) url = SHOELINK[key].u;
   else if(priced && SHOP[key]) url = SHOP[key] + encodeURIComponent(PRTERM[i]);
   if(!url) return text;
-  return `<a class="gl-link" href="${url}" target="_blank" rel="noopener" title="Search ${esc(key)} for ${PRTERM[i]}">${text}</a>`;
+  const own = !!(gl && gl[PRGARMENTS[i]]);
+  const title = own ? `${esc(key)}\u2019s men\u2019s ${PRGARMENTS[i].toLowerCase()} page`
+              : (i === 7 && SHOELINK[key]) ? `${esc(key)} shoes` : `Search ${esc(key)} for ${PRTERM[i]} (site search; may mix genders)`;
+  return `<a class="gl-link${own?" gl-own":""}" href="${url}" target="_blank" rel="noopener" title="${title}">${text}</a>`;
 }
 function pricesStripHTML(name){
   const p = PRICES[name.trim()];
@@ -3224,7 +3241,7 @@ function pricesStripHTML(name){
     return `<div class="hp-row"><div class="hp-name${has?"":(r==="?"?" hp-unk":" hp-none")}"${title}>${garmentLabel(name, i, PRSHORT[i], has && !native)}</div>`
          + `<div class="hp-track">${gl}${track}</div></div>`;
   }).join("");
-  return `<div class="hc-prices"><span class="hp-lab">Prices</span>${pricePassHTML(name)}`
+  return `<div class="hc-prices"><span class="hp-lab">Prices</span>${pricePassHTML(name)}${linksMarkHTML(name)}`
        + rows + `<div class="hp-ax">${ax}</div></div>`;
 }
 
