@@ -1,6 +1,6 @@
 # Job board — derived from jobs/manifest.json by job.py; do not edit
 
-_15 jobs · rewritten 2026-09-20_
+_16 jobs · rewritten 2026-09-20_
 
 | job | state | issued | kind | merged/returned | blocked on / note |
 |---|---|---|---|---|---|
@@ -19,3 +19,4 @@ _15 jobs · rewritten 2026-09-20_
 | price_pass_2026-09-18 | issued | 2026-09-18 | price | 7/8 | rev4 restatement round issued 18 Sep: 4 fur/exotic highs, Fear of God polo, Fedeli, 5 blocked houses, 8 search URLs |
 | stockist_great_put_on_2026-09-18 | issued | 2026-09-18 | stockist |  |  |
 | garment_links_2026-09-19 | issued | 2026-09-19 | links |  | replaces search links on garment labels with men's listing URLs |
+| tech_rescore_2026-09-20 | issued | 2026-09-20 | rescore |  | proposal only; Sebastian rules per row |

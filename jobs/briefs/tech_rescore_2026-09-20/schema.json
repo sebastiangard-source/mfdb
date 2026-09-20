@@ -1,0 +1,96 @@
+{
+  "not_checked": "NC",
+  "columns": [
+    {
+      "name": "brand",
+      "type": "key"
+    },
+    {
+      "name": "proposed_tech",
+      "type": "int",
+      "range": [
+        1,
+        5
+      ]
+    },
+    {
+      "name": "current_tech",
+      "type": "int",
+      "range": [
+        1,
+        5
+      ]
+    },
+    {
+      "name": "rubric_step",
+      "type": "str",
+      "doc": "the sentence of the rubric the score rests on"
+    },
+    {
+      "name": "ownership",
+      "type": "enum",
+      "values": [
+        "house",
+        "licensed",
+        "both",
+        "none",
+        "unclear"
+      ]
+    },
+    {
+      "name": "depth_pct",
+      "type": "int",
+      "range": [
+        0,
+        100
+      ],
+      "doc": "share of men's clothing styles naming a technology, on a styles denominator"
+    },
+    {
+      "name": "depth_basis",
+      "type": "enum",
+      "values": [
+        "styles",
+        "colourways",
+        "sample",
+        "none"
+      ]
+    },
+    {
+      "name": "marks_counted",
+      "type": "str",
+      "doc": "; joined, each with owner in brackets and (leads) where the house leads with it"
+    },
+    {
+      "name": "marks_excluded",
+      "type": "str",
+      "doc": "marks seen and not counted, with why: women's-only, composition-line supplier, sub-brand seated separately, noise"
+    },
+    {
+      "name": "evidence_url",
+      "type": "url"
+    },
+    {
+      "name": "confidence",
+      "type": "enum",
+      "values": [
+        "H",
+        "M",
+        "L"
+      ]
+    },
+    {
+      "name": "reasoning",
+      "type": "str",
+      "doc": "two or three sentences a reader could check"
+    },
+    {
+      "name": "source",
+      "type": "provenance"
+    },
+    {
+      "name": "note",
+      "type": "str"
+    }
+  ]
+}
