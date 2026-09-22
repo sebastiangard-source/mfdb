@@ -2444,7 +2444,12 @@ function ownChipsHTML(owns){
     }
     // Expanded, the whole thing is one outlined capsule: the brand as the first segment
     // (tap to collapse), a Maps segment per town, and the brand page as the last.
-    const inner = doors.map(p=>`<a class="bo-seg bo-chip-map" href="${shopMapUrl(p)}" target="_blank" rel="noopener" title="${esc(b)}, ${esc(p.c)} \u2014 open in Maps">${esc(p.c)}</a>`).join("")
+    // Where a brand has several doors in one town, the town alone is three identical
+    // segments; add the street so each is a different door.
+    const townCount = {}; doors.forEach(p=>townCount[p.c]=(townCount[p.c]||0)+1);
+    const street = a => (a||"").split(",")[0].replace(/^\d+[A-Za-z]?\s+/, "").replace(/\s+(Unit|Suite|Ste|#).*$/i, "").trim();
+    const label = p => townCount[p.c] > 1 && street(p.a) ? `${esc(p.c)} \u00b7 ${esc(street(p.a))}` : esc(p.c);
+    const inner = doors.map(p=>`<a class="bo-seg bo-chip-map" href="${shopMapUrl(p)}" target="_blank" rel="noopener" title="${esc(b)}, ${esc(p.a||p.c)} \u2014 open in Maps">${label(p)}</a>`).join("")
       + `<a class="bo-seg bo-seg-page detail-link" data-brand="${esc(b)}" href="#brand=${encodeURIComponent(b)}" title="${esc(b)} brand page">brand page \u203a</a>`;
     return `<span class="bo-chipgroup"><button class="bo-chip bo-chip-multi" type="button" aria-expanded="false" title="${esc(b)} \u2014 ${esc(doors.map(p=>p.c).join(", "))}; tap to show each"><span class="bo-multi-name">${esc(b)}</span><b class="bo-multi-n">\u00d7${doors.length}</b><b class="bo-multi-x">\u00d7</b></button>`
          + `<span class="bo-chip-doors" hidden>${inner}</span></span>`;
