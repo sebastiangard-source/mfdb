@@ -684,9 +684,7 @@ with sync_playwright() as p:
        pg.eval_on_selector('#hoverCard','e=>{const b=e.getBoundingClientRect();return b.left>=-1&&b.right<=innerWidth+1}'))
     pg.set_viewport_size({'width':1257,'height':1000}); pg.wait_for_timeout(300)
     pg.keyboard.press('Escape'); pg.wait_for_timeout(250)
-    ck('the beta badge sits inside its dial pill',
-       pg.evaluate('''()=>{const d=document.querySelector('.dial[data-attr="shoes"]');
-         return d.querySelector('.proto').getBoundingClientRect().right <= d.getBoundingClientRect().right;}'''))
+    ck('no beta badge on any dial pill (removed 22 Sep)', pg.evaluate("document.querySelectorAll('.dial .proto').length")==0)
     ck('the masthead lines up with the rail',
        abs(pg.eval_on_selector('h1','e=>e.getBoundingClientRect().left')
            - pg.eval_on_selector('.legend','e=>e.getBoundingClientRect().left')) < 2)
@@ -891,6 +889,23 @@ with sync_playwright() as p:
     pg.goto(url+'#stores'); pg.reload(); pg.wait_for_timeout(500)
     ck('the chip strip names the region and says brand-owned', pg.evaluate("[...document.querySelectorAll('#boBody .bo-chips-lab')].every(l=>/^Brand-owned stores in .+/.test(l.textContent))"))
     ck('nothing on the page says bare brand store', pg.evaluate("!/\\bbrand stores?\\b(?!-)/i.test(document.getElementById('boBody').innerText.replace(/brand-owned/gi,''))"))
+
+    head('bug mail 21 Sep')
+    pg.set_viewport_size({'width':1400,'height':1000})
+    pg.goto(url+'#brand=Ralph%20Lauren%20Purple%20Label'); pg.reload(); pg.wait_for_timeout(400)
+    ck('every price bar sits inside its track', pg.evaluate("[...document.querySelectorAll('#detailBody .pr-bar')].every(b=>{const t=b.parentElement.getBoundingClientRect(), r=b.getBoundingClientRect(); return r.right<=t.right+1 && r.left>=t.left-1})"))
+    ck('the axis reaches past the dearest cell', pg.evaluate("document.querySelector('#detailBody .pr-axis')?.textContent.includes('12800') || document.querySelector('#detailBody .pr-wrap').textContent.includes('12800')"))
+    ck('no diagnostic-view subtitle', 'diagnostic view' not in pg.evaluate("document.getElementById('detailBody').innerText"))
+    ck('registers fold away by default', pg.evaluate("(()=>{const d=document.querySelector('#detailBody details.dv-fold'); return d && !d.open})()"))
+    txt = pg.evaluate("document.body.innerText")
+    ck('no beta marks anywhere', 'β' not in txt)
+    ck('the word rubric appears nowhere on the page', 'rubric' not in txt.lower())
+    ck('none of the flagged phrases survive', not any(x in txt for x in ('is the argument', 'heresy', 'passport is neither', 'score then asks')))
+    pg.goto(url); pg.reload(); pg.wait_for_timeout(500)
+    pg.evaluate("[...document.querySelectorAll('.brand')].find(b=>b.textContent.trim()==='Vuori').classList.add('hit')")
+    pg.click('.brand:has-text("Rothy\'s")'); pg.wait_for_timeout(300)
+    ck('picking a brand clears the search ring on another', pg.evaluate("document.querySelectorAll('.brand.hit').length")==0)
+    ck('footer line reads as briefed', 'Positioned on the spectrum by core item price' in pg.evaluate("document.body.innerText"))
 
     head('prev / next')
     pg.set_viewport_size({'width':1400,'height':1000})
