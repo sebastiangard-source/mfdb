@@ -894,6 +894,7 @@ with sync_playwright() as p:
     pg.set_viewport_size({'width':1400,'height':1000})
     pg.goto(url+'#brand=Ralph%20Lauren%20Purple%20Label'); pg.reload(); pg.wait_for_timeout(400)
     ck('every price bar sits inside its track', pg.evaluate("[...document.querySelectorAll('#detailBody .pr-bar')].every(b=>{const t=b.parentElement.getBoundingClientRect(), r=b.getBoundingClientRect(); return r.right<=t.right+1 && r.left>=t.left-1})"))
+    ck('the axis sits over the track, not the figures', pg.evaluate("(()=>{const a=document.querySelector('#detailBody .pr-axis').getBoundingClientRect(), t=document.querySelector('#detailBody .pr-track').getBoundingClientRect(); return Math.abs(a.left-t.left)<2 && Math.abs(a.right-t.right)<2})()"))
     ck('the axis reaches past the dearest cell', pg.evaluate("document.querySelector('#detailBody .pr-axis')?.textContent.includes('12800') || document.querySelector('#detailBody .pr-wrap').textContent.includes('12800')"))
     ck('no diagnostic-view subtitle', 'diagnostic view' not in pg.evaluate("document.getElementById('detailBody').innerText"))
     ck('registers fold away by default', pg.evaluate("(()=>{const d=document.querySelector('#detailBody details.dv-fold'); return d && !d.open})()"))
