@@ -635,10 +635,14 @@
   .bo-kinds{display:flex;gap:8px;margin:0}
   .bo-view{font:inherit;font-size:12px;padding:5px 12px;border-radius:14px;border:1px solid var(--hairline);background:transparent;color:var(--ink);cursor:pointer}
   .bo-view.on{background:var(--ink);color:var(--cream,#F2ECDD);border-color:var(--ink)}
-  .bo-state{font-family:'Prata',serif;font-weight:400;font-size:19px;margin:26px 0 4px;color:var(--lf-green)}
-  .bo-reg{font-size:13px;font-weight:600;margin:14px 0 4px;display:flex;align-items:baseline;gap:10px}
+  .bo-state{font-family:'Prata',serif;font-weight:400;font-size:26px;letter-spacing:-.01em;margin:40px 0 6px;
+    padding-bottom:6px;border-bottom:1px solid var(--lf-green);color:var(--lf-green);max-width:760px}
+  .bo-state:first-of-type{margin-top:22px}
+  .bo-reg{font-family:'Prata',serif;font-weight:400;font-size:18px;margin:24px 0 2px;display:flex;align-items:baseline;gap:10px;color:var(--ink)}
+  .bo-sec .bo-line{margin-left:14px;max-width:746px}
+  .bo-sec .bo-chips{margin-left:14px}
   .bo-reg a{color:var(--ink);text-decoration:none}.bo-reg a:hover{text-decoration:underline}
-  .bo-count{font-weight:400;font-size:11.5px;color:var(--ink-faint)}
+  .bo-count{font-family:'Inter',system-ui,sans-serif;font-weight:400;font-size:11.5px;color:var(--ink-faint)}
   .bo-chips{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin:14px 0 6px;padding-top:10px;border-top:1px dashed var(--hairline)}
   .bo-chips-lab{font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint);margin-right:6px}
   #boutiquesView .bo-chip.detail-link{text-transform:none;letter-spacing:0;font-weight:400;font-size:12px;color:var(--ink)}
@@ -669,7 +673,7 @@
     #boutiquesView .bo-name{white-space:normal;overflow-wrap:anywhere}
     #boutiquesView .bo-report{align-self:center}
   }
-  #boutiquesView .bo-name{font-weight:500;font-size:13.5px}
+  #boutiquesView .bo-name{font-weight:500;font-size:13.5px;letter-spacing:0}
   #boutiquesView .bo-meta{font-size:11.5px;color:var(--ink-faint);margin-top:2px}
   #boClose{position:fixed;top:18px;right:max(22px, calc(100vw - 792px));font-size:13px;
     background:#123B2B;color:#F2ECDD;border:0;border-radius:15px;padding:6px 15px;
