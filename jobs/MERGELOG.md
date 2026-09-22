@@ -1533,3 +1533,5 @@ Held: [('Carhartt', 'sweater NONE — a house with no crewneck still makes sweat
 - Sid Mashburn: site.domain shopmashburn.com -> shopmashburn.com
 
 ## 2026-09-22 · unseated · Club Monaco (seat vacated, 0 own-store places removed, region indices remapped). Bench entry added.
+
+## 2026-09-22 · register · Puritan Cape Cod Hyannis and Mashpee added (places [808, 809]); linked to the 15 brands the Chatham record carries
