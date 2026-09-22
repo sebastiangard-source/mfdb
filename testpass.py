@@ -606,7 +606,7 @@ with sync_playwright() as p:
     # and the tag set must cover every sub-region the data declares for the shops shown.
     want_regions = pg.evaluate("()=>new Set(PLACES.filter(p=>p.k==='s'||p.k==='o').map(p=>SUBREGION[p.s+'|'+p.c])).size")
     # in the by-region view the region is the section heading; in A-to-Z it is the row tag
-    got_regions = len(set(pg.eval_on_selector_all('#boutiquesView .bo-region, #boutiquesView h4.bo-reg a','e=>e.map(x=>x.textContent)')))
+    got_regions = len(set(pg.eval_on_selector_all('#boutiquesView .bo-region, #boutiquesView .bo-sec[data-region]','e=>e.map(x=>x.dataset.region||x.textContent)')))
     ck('index tags every declared sub-region', got_regions==want_regions, f'{got_regions} of {want_regions}')
     ck('index is no longer grouped by state', pg.eval_on_selector_all('#boutiquesView .rv-state','e=>e.length')==0)
     ck('index states the regional limit',
@@ -933,6 +933,10 @@ with sync_playwright() as p:
     pg.goto(url+'#stores'); pg.reload(); pg.wait_for_timeout(400)
     ck('the full index offers no route', pg.evaluate("document.querySelectorAll('#boBody a.bo-route').length")==0)
     ck('the default view is by region: state headings and region sections', pg.evaluate("document.querySelectorAll('#boBody .bo-state').length")>=8 and pg.evaluate("document.querySelectorAll('#boBody .bo-sec').length")>=40)
+    ck('regions open collapsed', pg.evaluate("[...document.querySelectorAll('#boBody .bo-secbody')].every(b=>b.hidden)"))
+    pg.click('#boBody .bo-sec:first-of-type button.bo-toggle'); pg.wait_for_timeout(200)
+    ck('tapping a region expands it in place', pg.evaluate("!document.querySelector('#boBody .bo-sec:first-of-type .bo-secbody').hidden"))
+    pg.evaluate("[...document.querySelectorAll('#boBody button.bo-toggle')].forEach(b=>{if(b.getAttribute('aria-expanded')==='false') b.click()})"); pg.wait_for_timeout(300)
     ck('brand stores are chips with counts, independents are rows', pg.evaluate("document.querySelectorAll('#boBody .bo-chip').length")>200 and pg.evaluate("document.querySelectorAll('#boBody .bo-line').length")==pg.evaluate("PLACES.filter(p=>p.k==='s').length"))
     ck('a Faherty chip carries its door count', pg.evaluate("[...document.querySelectorAll('#boBody button.bo-chip-multi')].some(c=>c.textContent.startsWith('Faherty') && /×\\d/.test(c.textContent))"))
     ck('an independent row leads with carried brands', pg.evaluate("[...document.querySelectorAll('#boBody .bo-line .bo-meta')].some(m=>m.textContent.includes('Barbour'))"))
@@ -992,7 +996,7 @@ with sync_playwright() as p:
     ck('phone: the slide transform is cleaned up',
        pg2.eval_on_selector('#hoverCard','e=>e.style.transform')=='')
     pg2.keyboard.press('Escape'); pg2.wait_for_timeout(350)
-    pg2.goto(url+'#boutiques'); pg2.wait_for_timeout(450)
+    pg2.goto(url+'#stores=shop+az'); pg2.wait_for_timeout(450)   # rows are visible in the A-to-Z view; the directory opens collapsed
     ck('phone: report actions are thumb-sized',
        pg2.eval_on_selector('#boutiquesView .bo-report','e=>e.getBoundingClientRect().height')>=36)
     ck('phone: the action holds its line while the name wraps',
