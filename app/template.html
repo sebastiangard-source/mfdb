@@ -630,7 +630,18 @@
     font-weight:500;letter-spacing:.03em;color:var(--lf-green);background:rgba(18,59,43,.09);vertical-align:2px;cursor:pointer}
   .bo-region:hover,.bo-region:focus-visible{background:rgba(18,59,43,.2);outline:none}
   .bo-all{color:var(--lf-green);text-decoration:none;border-bottom:1px solid rgba(18,59,43,.35)}
-  .bo-kinds{display:flex;gap:8px;margin:8px 0 10px}
+  .bo-tools{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center;margin:8px 0 10px}
+  #boSearch{font:inherit;font-size:13px;padding:6px 10px;border:1px solid var(--hairline);border-radius:14px;background:transparent;color:var(--ink);min-width:220px}
+  .bo-kinds{display:flex;gap:8px;margin:0}
+  .bo-view{font:inherit;font-size:12px;padding:5px 12px;border-radius:14px;border:1px solid var(--hairline);background:transparent;color:var(--ink);cursor:pointer}
+  .bo-view.on{background:var(--ink);color:var(--cream,#F2ECDD);border-color:var(--ink)}
+  .bo-state{font-family:'Prata',serif;font-weight:400;font-size:19px;margin:26px 0 4px;color:var(--lf-green)}
+  .bo-reg{font-size:13px;font-weight:600;margin:14px 0 4px;display:flex;align-items:baseline;gap:10px}
+  .bo-reg a{color:var(--ink);text-decoration:none}.bo-reg a:hover{text-decoration:underline}
+  .bo-count{font-weight:400;font-size:11.5px;color:var(--ink-faint)}
+  .bo-chips{display:flex;flex-wrap:wrap;gap:6px;margin:6px 0 4px}
+  .bo-chip{font-size:12px;padding:4px 10px;border-radius:12px;background:rgba(18,59,43,.07);color:var(--ink);text-decoration:none}
+  .bo-chip b{font-weight:500;margin-left:4px;color:var(--ink-faint)}.bo-chip:hover{background:rgba(18,59,43,.15)}
   .bo-kind{font:inherit;font-size:12px;padding:5px 12px;border-radius:14px;border:1px solid var(--hairline);background:transparent;color:var(--ink);cursor:pointer}
   .bo-kind.on{background:var(--lf-green);color:#F2ECDD;border-color:var(--lf-green)}
   #boutiquesView .bo-own .bo-row{font:inherit;letter-spacing:0;text-transform:none;color:inherit}
@@ -2347,60 +2358,116 @@ function routeLinks(rows){
   }).join(" ");
 }
 let boKind = "all";   // all | shop | own
+let boView = "region";  // region | az
+let boQuery = "";
+const ST_ORDER = ["MA","RI","CT","NH","VT","ME","NY","NJ","PA","DE"];
 function boutiquesHash(){
   const parts = [];
   if(boRegion) parts.push(regionSlug(boRegion));
   if(boKind !== "all") parts.push(boKind);
+  if(boView === "az") parts.push("az");
   return "#stores" + (parts.length ? "=" + parts.join("+") : "");
 }
-function renderBoutiques(region, kind){
+// Which mapped brands each independent shop carries, from the brands' own stockist lists.
+let CARRIED = null;
+function carriedBy(i){
+  if(!CARRIED){
+    CARRIED = {};
+    for(const [b, r] of Object.entries(REGION)) for(const j of (r.s || [])) (CARRIED[j] = CARRIED[j] || []).push(b);
+    for(const k in CARRIED) CARRIED[k].sort((a,b)=>a.localeCompare(b));
+  }
+  return CARRIED[i] || [];
+}
+function shopRowHTML(p, i, noTag){
+  const slug = shopSlug(p); const reg = subregionOf(p);
+  const carried = carriedBy(i);
+  const carry = carried.length
+    ? esc(carried.slice(0,3).join(", ")) + (carried.length > 3 ? ` +${carried.length - 3}` : "")
+    : (p.ub ? `${p.ub} universe brand${p.ub===1?"":"s"}` : "");
+  const bits = [`${p.c}, ${p.s}`, p.t].filter(Boolean).map(esc).concat(carry ? [carry] : []).join(" \u00b7 ");
+  const tag = noTag ? "" : `<span class="bo-region" role="link" tabindex="0" data-region="${esc(reg)}" title="All stores in ${esc(reg)}">${esc(reg)}</span>`;
+  return `<div class="bo-line">`
+       + `<a class="bo-row shop-open" data-i="${slug}" href="#shop=${slug}">`
+       + `<span class="bo-name">${esc(p.n)}${tag}</span><div class="bo-meta">${bits}</div></a>`
+       + `<a class="bo-report visit-link" data-store="${esc(storeString(p))}" href="${visitUrl(p)}" target="_blank" rel="noopener" title="Report a visit to ${esc(p.n)}">report a visit \u2197</a></div>`;
+}
+function ownChipsHTML(owns){
+  // one chip per brand, with the towns in the tooltip
+  const by = {};
+  for(const [p] of owns) (by[p.n] = by[p.n] || []).push(p.c);
+  return Object.keys(by).sort((a,b)=>a.localeCompare(b)).map(b=>{
+    const towns = by[b];
+    return `<a class="bo-chip detail-link" data-brand="${esc(b)}" href="#brand=${encodeURIComponent(b)}" title="${esc(b)} \u2014 ${esc(towns.join(", "))}">${esc(b)}${towns.length>1?`<b>\u00d7${towns.length}</b>`:""}</a>`;
+  }).join("");
+}
+function ownRowHTML(p){
+  const reg = subregionOf(p);
+  const tag = `<span class="bo-region" role="link" tabindex="0" data-region="${esc(reg)}" title="All stores in ${esc(reg)}">${esc(reg)}</span>`;
+  return `<div class="bo-line bo-own"><a class="bo-row detail-link" data-brand="${esc(p.n)}" href="#brand=${encodeURIComponent(p.n)}">`
+       + `<span class="bo-name">${esc(p.n)}${tag}</span><div class="bo-meta">${esc(p.c)}, ${esc(p.s)} \u00b7 brand store</div></a>`
+       + `<a class="bo-report" href="${shopMapUrl(p)}" target="_blank" rel="noopener" title="Open in Maps">map \u2197</a></div>`;
+}
+function matchesQuery(p){
+  if(!boQuery) return true;
+  const q = boQuery.toLowerCase();
+  return [p.n, p.c, p.s, ST_NAME[p.s] || "", subregionOf(p)].some(x=>String(x).toLowerCase().includes(q));
+}
+function renderBoutiques(region, kind, view){
   boRegion = region || null;
   boKind = kind || "all";
+  if(view) boView = view;
   const all = PLACES.map((p,i)=>[p,i]).filter(([p])=>p.k==="s" || p.k==="o")
                     .sort((a,b)=>a[0].n.localeCompare(b[0].n, "en", {sensitivity:"base"}) || a[0].c.localeCompare(b[0].c));
   const nShop = all.filter(([p])=>p.k==="s").length, nOwn = all.length - nShop;
   let idx = boRegion ? all.filter(([p])=>subregionOf(p)===boRegion) : all;
   if(boKind !== "all") idx = idx.filter(([p])=>p.k===(boKind==="shop"?"s":"o"));
+  idx = idx.filter(([p])=>matchesQuery(p));
   const states = new Set(idx.map(([p])=>p.s));
-  const chips = [["all","All"],["shop",`Independent shops`],["own",`Brand stores`]].map(([k,t])=>
+  const chips = [["all","All"],["shop","Independent shops"],["own","Brand stores"]].map(([k,t])=>
       `<button class="bo-kind${boKind===k?" on":""}" data-kind="${k}">${t}</button>`).join("");
+  const views = [["region","By region"],["az","A to Z"]].map(([k,t])=>
+      `<button class="bo-view${boView===k?" on":""}" data-view="${k}">${t}</button>`).join("");
   const head = (boRegion
     ? `<h2>${esc(boRegion)}</h2>`
-      + `<p class="bo-lead">${idx.length} of ${all.length} stores, A to Z. `
+      + `<p class="bo-lead">${idx.length} of ${all.length} stores. `
       + `<a class="bo-all" href="#stores">show all ${all.length} \u2192</a></p>`
     : `<h2>Stores \u2014 ${REGION_NAME}</h2>`
-      + `<p class="bo-lead">${nShop} independent shops carrying brands from the map and ${nOwn} brand-owned stores, `
-      + `across ${states.size} states, A to Z. Tap a region to see its stores together.</p>`)
-    + `<div class="bo-kinds">${chips}</div>`
-    // Routes belong to a region view. The whole index is 808 stores — 81 legs of ten —
-    // and a wall of route pills is not a route anyone will drive.
+      + `<p class="bo-lead">${nShop} independent shops carrying brands from the map and ${nOwn} brand-owned stores, across ${states.size} states.</p>`)
+    + `<div class="bo-tools"><input id="boSearch" type="search" placeholder="Name, town or region" value="${esc(boQuery)}" aria-label="Filter stores">`
+    + `<div class="bo-kinds">${chips}</div><div class="bo-kinds">${views}</div></div>`
     + (boRegion && idx.length ? `<p class="bo-routes">${routeLinks(idx.map(([p])=>p))}</p>` : "");
-  boBody.innerHTML = head
-    + `<p class="bo-caveat">Brand stores are the brand\u2019s own doors; independent shops are stockists. `
+  const caveat = `<p class="bo-caveat">Brand stores are the brand\u2019s own doors; independent shops are stockists. `
     + `No department stores or concessions. A store outside ${REGION_NAME} is absent because the register `
-    + `has not reached it. Brand lists say what a shop buys, not what is on the rack today.</p>`
-    + idx.map(([p,i])=>{
-        const own = p.k === "o";
-        const reg = subregionOf(p);
-        const bits = [`${p.c}, ${p.s}`, own ? "brand store" : p.t,
-                      (!own && p.ub) ? `${p.ub} universe brand${p.ub===1?"":"s"}` : ""]
-                     .filter(Boolean).map(esc).join(" \u00b7 ");
-        const tag = `<span class="bo-region" role="link" tabindex="0" data-region="${esc(reg)}" title="All stores in ${esc(reg)}">${esc(reg)}</span>`;
-        if(own){
-          // A brand store opens the brand's own page; there is no shop record behind it.
-          return `<div class="bo-line bo-own">`
-               + `<a class="bo-row detail-link" data-brand="${esc(p.n)}" href="#brand=${encodeURIComponent(p.n)}">`
-               + `<span class="bo-name">${esc(p.n)}${tag}</span><div class="bo-meta">${bits}</div></a>`
-               + `<a class="bo-report" href="${shopMapUrl(p)}" target="_blank" rel="noopener" title="Open in Maps">map \u2197</a></div>`;
-        }
-        const slug = shopSlug(p);
-        return `<div class="bo-line">`
-             + `<a class="bo-row shop-open" data-i="${slug}" href="#shop=${slug}">`
-             + `<span class="bo-name">${esc(p.n)}${tag}</span><div class="bo-meta">${bits}</div></a>`
-             + `<a class="bo-report visit-link" data-store="${esc(storeString(p))}" `
-             + `href="${visitUrl(p)}" target="_blank" rel="noopener" `
-             + `title="Report a visit to ${esc(p.n)}">report a visit \u2197</a></div>`;
+    + `has not reached it. Brand lists say what a shop buys, not what is on the rack today.</p>`;
+  let body;
+  if(boView === "az" || boRegion){
+    body = idx.map(([p,i])=>p.k==="o" ? ownRowHTML(p) : shopRowHTML(p, i)).join("");
+  } else {
+    // By region: state sections in a fixed order, regions A to Z within, independents as rows,
+    // brand stores as one chip per brand with a count.
+    const byState = {};
+    for(const [p,i] of idx) ((byState[p.s] = byState[p.s] || {})[subregionOf(p)] = byState[p.s][subregionOf(p)] || []).push([p,i]);
+    body = ST_ORDER.filter(st=>byState[st]).map(st=>{
+      const regs = Object.keys(byState[st]).sort((a,b)=>a.localeCompare(b));
+      return `<h3 class="bo-state">${esc(ST_NAME[st] || st)}</h3>` + regs.map(reg=>{
+        const rows = byState[st][reg];
+        const shops = rows.filter(([p])=>p.k==="s"), owns = rows.filter(([p])=>p.k==="o");
+        const count = [shops.length ? `${shops.length} independent shop${shops.length===1?"":"s"}` : "",
+                       owns.length ? `${owns.length} brand store${owns.length===1?"":"s"}` : ""].filter(Boolean).join(" \u00b7 ");
+        const slug = regionSlug(reg);
+        return `<section class="bo-sec"><h4 class="bo-reg"><a href="#stores=${slug}${boKind!=="all"?"+"+boKind:""}">${esc(reg)}</a>`
+             + `<span class="bo-count">${count}</span></h4>`
+             + shops.map(([p,i])=>shopRowHTML(p, i, true)).join("")
+             + (owns.length ? `<div class="bo-chips">${ownChipsHTML(owns)}</div>` : "")
+             + `</section>`;
       }).join("");
+    }).join("") || `<p class="bo-lead">Nothing matches.</p>`;
+  }
+  boBody.innerHTML = head + caveat + body;
+  const inp = document.getElementById("boSearch");
+  if(inp){
+    inp.addEventListener("input", ()=>{ boQuery = inp.value; const pos = inp.selectionStart; renderBoutiques(boRegion, boKind); const n2 = document.getElementById("boSearch"); n2.focus(); n2.setSelectionRange(pos,pos); });
+  }
   boutiquesView.scrollTop = 0;
   boutiquesView.classList.add("show");
 }
@@ -2411,18 +2478,28 @@ function closeBoutiques(){
 function routeBoutiques(){
   const m = /^#(?:stores|boutiques)(?:=(.+))?$/.exec(location.hash);
   if(!m) return false;
-  let region = null, kind = "all";
+  let region = null, kind = "all", view = "region";
   for(const part of (m[1] ? m[1].split("+") : [])){
     if(part === "shop" || part === "own") kind = part;
+    else if(part === "az") view = "az";
     else region = regionFromSlug(part);
   }
-  renderBoutiques(region, kind);
+  renderBoutiques(region, kind, view);
   return true;
 }
 boBody.addEventListener("click", e=>{
-  const b = e.target.closest("button.bo-kind");
+  const b = e.target.closest("button.bo-kind, button.bo-view");
   if(!b) return;
-  renderBoutiques(boRegion, b.dataset.kind); history.replaceState(null,"",boutiquesHash());
+  if(b.dataset.kind) renderBoutiques(boRegion, b.dataset.kind);
+  else renderBoutiques(boRegion, boKind, b.dataset.view);
+  history.replaceState(null,"",boutiquesHash());
+});
+// a region heading in the by-region view opens that region
+boBody.addEventListener("click", e=>{
+  const a = e.target.closest("h4.bo-reg a");
+  if(!a) return;
+  e.preventDefault();
+  renderBoutiques(a.textContent, boKind); history.replaceState(null,"",boutiquesHash());
 });
 // A region tag opens the index filtered to that region, from the index or from a shop page.
 // Capture phase: the tag sits inside the row's own open-shop anchor, whose delegate would
