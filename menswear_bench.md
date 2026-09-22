@@ -20,6 +20,13 @@ A brand can sit here indefinitely without that being a failure.
 
 ## Benched after assessment
 
+### Club Monaco
+**Unseated** 22 September 2026 · was seated, Accessible Luxury, 13 US stores
+The men's range is winding down: on the 21 September link read the men's pants page held one product,
+sold out and final sale, and the knitwear page one. A house with no men's rail to send a reader to
+cannot hold a seat. **What would change it:** a men's range that exists again on its own store.
+
+
 ### Autumn Cashmere
 **Benched** September 2026 · **Seen in** 3 register shops
 Trades heavily through off-price. The map's price bands describe full-price US retail, and a house

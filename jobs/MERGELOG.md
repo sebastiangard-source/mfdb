@@ -1531,3 +1531,5 @@ Held: [('Carhartt', 'sweater NONE — a house with no crewneck still makes sweat
 - Baracuta: site.domain baracuta.com -> us.baracuta.com
 - Peserico: site.domain it.peserico.com -> us.peserico.com
 - Sid Mashburn: site.domain shopmashburn.com -> shopmashburn.com
+
+## 2026-09-22 · unseated · Club Monaco (seat vacated, 0 own-store places removed, region indices remapped). Bench entry added.
