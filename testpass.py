@@ -877,7 +877,7 @@ with sync_playwright() as p:
     ck('a single-door pill is a Maps link', pg.evaluate("[...document.querySelectorAll('#boBody a.bo-chip-map')].every(a=>a.href.startsWith('https://www.google.com/maps/'))") and pg.evaluate("document.querySelectorAll('#boBody a.bo-chip-map').length")>0)
     pg.click('#boBody button.bo-chip-multi'); pg.wait_for_timeout(200)
     ck('a multi-door pill expands to one Maps pill per town', pg.evaluate("(()=>{const g=document.querySelector('#boBody .bo-chipgroup'); return !g.querySelector('.bo-chip-doors').hidden && g.querySelectorAll('a.bo-chip-map').length>=2})()"))
-    pg.click('#boBody .bo-chipgroup a.bo-chip-brand'); pg.wait_for_timeout(400)
+    pg.click('#boBody .bo-chipgroup a.bo-seg-page'); pg.wait_for_timeout(400)
     ck('a brand chip in the index opens the brand page on top', pg.evaluate("detailView.classList.contains('show') && !boutiquesView.classList.contains('show')"))
     pg.click('#detailClose'); pg.wait_for_timeout(400)
     ck('closing it returns to the Stores index with the filter intact', pg.evaluate("boutiquesView.classList.contains('show') && document.getElementById('boSearch').value")=='south shore' and pg.evaluate('location.hash').startswith('#stores'))
