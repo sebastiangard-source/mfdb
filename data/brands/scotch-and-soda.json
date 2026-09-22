@@ -29,7 +29,6 @@
   "chan": ["O", "X"],
   "conf": "G",
   "forgc": [3, 3, 1],
-  "shop": "https://www.scotch-soda.com/us/search?q=",
   "onething": {
     "p": "Ralston jean",
     "u": "https://scotchandsoda.com/collections/men-clothing-jeans",
@@ -76,5 +75,15 @@
     "st": "complete"
   },
   "price_range_only": ["Sweater"],
-  "price_checked": true
+  "price_checked": true,
+  "garment_links": {
+    "T-shirt": "https://www.scotchandsoda.com/collections/men-clothing-t-shirts-polos",
+    "Polo": "https://www.scotchandsoda.com/collections/men-clothing-t-shirts-polos",
+    "Dress shirt": "https://www.scotchandsoda.com/collections/men-clothing-shirts",
+    "Jeans": "https://www.scotchandsoda.com/collections/men-clothing-jeans",
+    "Dress pants": "https://www.scotchandsoda.com/collections/men-clothing-pants",
+    "Sweater": "https://www.scotchandsoda.com/collections/men-clothing-sweaters-cardigans",
+    "Outerwear": "https://www.scotchandsoda.com/collections/men-clothing-outerwear",
+    "Shoes": "https://www.scotchandsoda.com/collections/men-footwear"
+  }
 }

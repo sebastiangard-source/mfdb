@@ -64,12 +64,12 @@
   },
   "addmen": true,
   "site": {
-    "domain": "isabelmarant.com",
+    "domain": "us.isabelmarant.com",
     "platform": "shopify",
     "feed": "shopify_products_json",
     "feed_count": 1485,
     "status": "live_store",
-    "checked": "2026-09-13"
+    "checked": "2026-09-21"
   },
   "tech_evidence": {
     "names": "no",
@@ -92,5 +92,14 @@
     "st": "complete"
   },
   "price_checked": true,
-  "price_range_only": ["Outerwear"]
+  "price_range_only": ["Outerwear"],
+  "garment_links": {
+    "T-shirt": "https://us.isabelmarant.com/collections/marant-man-tee-shirts",
+    "Dress shirt": "https://us.isabelmarant.com/collections/marant-man-shirts",
+    "Jeans": "https://us.isabelmarant.com/collections/marant-man-denim",
+    "Dress pants": "https://us.isabelmarant.com/collections/marant-man-pants-shorts",
+    "Sweater": "https://us.isabelmarant.com/collections/marant-man-knitwear",
+    "Outerwear": "https://us.isabelmarant.com/collections/marant-man-coats-jackets",
+    "Shoes": "https://us.isabelmarant.com/collections/shoes-man"
+  }
 }

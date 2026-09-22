@@ -87,5 +87,14 @@
     "st": "complete"
   },
   "price_checked": true,
-  "price_range_only": ["Sweater"]
+  "price_range_only": ["Sweater"],
+  "garment_links": {
+    "T-shirt": "https://www.lemaire.fr/collections/men-jersey",
+    "Dress shirt": "https://www.lemaire.fr/collections/men-shirts",
+    "Jeans": "https://www.lemaire.fr/collections/men-denim",
+    "Dress pants": "https://www.lemaire.fr/collections/men-pants",
+    "Sweater": "https://www.lemaire.fr/collections/men-knitwear-and-jersey",
+    "Outerwear": "https://www.lemaire.fr/collections/men-coats",
+    "Shoes": "https://www.lemaire.fr/collections/men-shoes"
+  }
 }

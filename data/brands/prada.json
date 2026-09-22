@@ -36,7 +36,6 @@
   "chan": ["O", "D", "X"],
   "conf": "S",
   "forgc": [2, 2, 1],
-  "shop": "https://www.prada.com/us/en/search.html?q=",
   "onething": {
     "p": "Re-Nylon overshirt",
     "u": "https://www.ssense.com/en-us/men/designers/prada",
@@ -128,5 +127,15 @@
     "nc": ["MAGLIERIA (knitwear)", "CAMICIE (shirts)", "PANTALONI (trousers)"],
     "st": "complete"
   },
-  "price_checked": true
+  "price_checked": true,
+  "garment_links": {
+    "T-shirt": "https://www.prada.com/us/en/mens/ready-to-wear/t-shirts-and-polo-shirts/c/10142US",
+    "Polo": "https://www.prada.com/us/en/mens/ready-to-wear/t-shirts-and-polo-shirts/c/10142US",
+    "Dress shirt": "https://www.prada.com/us/en/mens/ready-to-wear/shirts/c/10138US",
+    "Jeans": "https://www.prada.com/us/en/mens/ready-to-wear/denim/c/10131US",
+    "Dress pants": "https://www.prada.com/us/en/mens/ready-to-wear/trousers-and-bermudas/c/10141US",
+    "Sweater": "https://www.prada.com/us/en/mens/ready-to-wear/knitwear/c/10134US",
+    "Outerwear": "https://www.prada.com/us/en/mens/ready-to-wear/jackets-and-coats/c/10132US",
+    "Shoes": "https://www.prada.com/us/en/mens/shoes/c/10149US"
+  }
 }

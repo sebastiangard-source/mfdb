@@ -35,7 +35,6 @@
   "chan": ["D", "I", "O"],
   "conf": "L",
   "forgc": [2, 3, 4],
-  "shop": "https://www.canali.com/en_us/search?q=",
   "onething": {
     "p": "Kei jacket",
     "u": "https://us.canali.com/collection/kei",
@@ -83,5 +82,15 @@
     "nc": ["Shirts", "Pants", "Suits"],
     "st": "complete"
   },
-  "price_checked": true
+  "price_checked": true,
+  "garment_links": {
+    "T-shirt": "https://us.canali.com/clothing/polos-and-t-shirts",
+    "Polo": "https://us.canali.com/clothing/polos-and-t-shirts",
+    "Dress shirt": "https://us.canali.com/clothing/shirts",
+    "Jeans": "https://us.canali.com/clothing/pants/denim",
+    "Dress pants": "https://us.canali.com/clothing/pants",
+    "Sweater": "https://us.canali.com/clothing/knitwear",
+    "Outerwear": "https://us.canali.com/clothing/jackets",
+    "Shoes": "https://us.canali.com/shoes"
+  }
 }

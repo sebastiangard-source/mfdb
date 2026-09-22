@@ -31,7 +31,6 @@
   "chan": ["O", "D"],
   "conf": "L",
   "forgc": [3, 3, 1],
-  "shop": "https://www.amiparis.com/us/search?q=",
   "onething": {
     "p": "Ami de Coeur crewneck sweater",
     "u": "https://www.amiparis.com/en-us/products/grey-wool-ami-de-coeur-crewneck-sweater-uks838018084",
@@ -81,5 +80,15 @@
     "st": "complete"
   },
   "price_checked": true,
-  "price_range_only": ["Outerwear"]
+  "price_range_only": ["Outerwear"],
+  "garment_links": {
+    "T-shirt": "https://www.amiparis.com/en-us/collections/men-t-shirts-and-polos",
+    "Polo": "https://www.amiparis.com/en-us/collections/men-t-shirts-and-polos",
+    "Dress shirt": "https://www.amiparis.com/en-us/collections/men-shirts",
+    "Jeans": "https://www.amiparis.com/en-us/collections/men-pants",
+    "Dress pants": "https://www.amiparis.com/en-us/collections/men-pants",
+    "Sweater": "https://www.amiparis.com/en-us/collections/men-sweaters-and-cardigans",
+    "Outerwear": "https://www.amiparis.com/en-us/collections/men-jackets-and-coats",
+    "Shoes": "https://www.amiparis.com/en-us/collections/men-sneakers"
+  }
 }

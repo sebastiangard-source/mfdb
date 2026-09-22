@@ -33,7 +33,6 @@
   "chan": ["O", "D", "I"],
   "conf": "L",
   "forgc": [2, 3, 2],
-  "shop": "https://www.herno.com/en-us/search?q=",
   "onething": {
     "p": "Laminar jacket",
     "u": "https://us.herno.com/en/search-results?q=laminar%20jacket&amp;prefn1=customFilter17&amp;prefv1=Male",
@@ -89,5 +88,13 @@
     "nc": ["T-shirts & Polo Shirts", "Trousers", "Sweaters & Cardigan"],
     "st": "complete"
   },
-  "price_range_only": ["Shoes"]
+  "price_range_only": ["Shoes"],
+  "garment_links": {
+    "T-shirt": "https://us.herno.com/en/men/clothing/t-shirts-and-polo-shirts/",
+    "Polo": "https://us.herno.com/en/men/clothing/t-shirts-and-polo-shirts/",
+    "Dress shirt": "https://us.herno.com/en/men/clothing/shirts/",
+    "Dress pants": "https://us.herno.com/en/men/clothing/trousers/",
+    "Sweater": "https://us.herno.com/en/men/clothing/sweaters-and-cardigan/",
+    "Outerwear": "https://us.herno.com/en/men/outerwear/"
+  }
 }

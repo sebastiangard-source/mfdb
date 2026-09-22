@@ -34,7 +34,6 @@
   "chan": ["O", "D", "I", "X"],
   "conf": "M",
   "forgc": [2, 4, 2],
-  "shop": "https://www.etonshirts.com/us/search?q=",
   "onething": {
     "p": "Signature twill dress shirt",
     "u": "https://www.etonshirts.com/us/search?q=signature+twill",
@@ -86,5 +85,12 @@
     "sc": [],
     "nc": ["Dress Shirts", "Casual Shirts", "Shirts (uncategorised)"],
     "st": "complete"
+  },
+  "garment_links": {
+    "T-shirt": "https://www.etonshirts.com/us/en/category/t-shirts",
+    "Polo": "https://www.etonshirts.com/us/en/category/polo-shirts",
+    "Dress shirt": "https://www.etonshirts.com/us/en/category/dress-shirts",
+    "Sweater": "https://www.etonshirts.com/us/en/category/knitwear",
+    "Outerwear": "https://www.etonshirts.com/us/en/category/coats-and-jackets"
   }
 }

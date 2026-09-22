@@ -37,7 +37,6 @@
   "chan": ["O", "D"],
   "conf": "L",
   "forgc": [1, 2, 1],
-  "shop": "https://www.thombrowne.com/en-us/search?q=",
   "onething": {
     "p": "4-Bar sweater",
     "u": "https://www.thombrowne.com/en-us/search?q=4-Bar%20sweater%20men",
@@ -113,5 +112,15 @@
     "nc": ["knitwear", "shirts", "sweats"],
     "st": "complete"
   },
-  "price_checked": true
+  "price_checked": true,
+  "garment_links": {
+    "T-shirt": "https://www.thombrowne.com/collections/mens-t-shirts-polos",
+    "Polo": "https://www.thombrowne.com/collections/mens-t-shirts-polos",
+    "Dress shirt": "https://www.thombrowne.com/collections/mens-shirting",
+    "Jeans": "https://www.thombrowne.com/collections/mens-pants",
+    "Dress pants": "https://www.thombrowne.com/collections/mens-pants",
+    "Sweater": "https://www.thombrowne.com/collections/mens-knitwear-sweaters",
+    "Outerwear": "https://www.thombrowne.com/collections/mens-outerwear",
+    "Shoes": "https://www.thombrowne.com/collections/mens-footwear"
+  }
 }

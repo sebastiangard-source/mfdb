@@ -32,7 +32,6 @@
   "chan": ["W", "I"],
   "conf": "S",
   "forgc": [3, 3, 1],
-  "shop": "https://katobrand.com/search?q=",
   "onething": {
     "p": "The Pen slim selvedge",
     "u": "https://kato-brand.com/collections/pen-slim",
@@ -81,5 +80,12 @@
     "st": "complete"
   },
   "price_checked": true,
-  "price_range_only": ["Outerwear"]
+  "price_range_only": ["Outerwear"],
+  "garment_links": {
+    "T-shirt": "https://kato-brand.com/collections/t-shirts",
+    "Dress shirt": "https://kato-brand.com/collections/shirts",
+    "Jeans": "https://kato-brand.com/collections/jeans",
+    "Dress pants": "https://kato-brand.com/collections/work-pants",
+    "Outerwear": "https://kato-brand.com/collections/jackets"
+  }
 }

@@ -32,7 +32,6 @@
   "chan": ["O", "D", "W"],
   "conf": "H",
   "forgc": [4, 5, 1],
-  "shop": "https://www.carhartt.com/search?q=",
   "onething": {
     "p": "Detroit Jacket",
     "u": "https://www.carhartt.com/product/103828/iconic-j01-duck-detroit-jacket",
@@ -151,5 +150,12 @@
     "nc": ["T-Shirts & Work Shirts", "Pants", "Hoodies & Sweatshirts"],
     "st": "complete"
   },
-  "price_range_only": ["Sweater", "Outerwear", "Shoes"]
+  "price_range_only": ["Sweater", "Outerwear", "Shoes"],
+  "garment_links": {
+    "T-shirt": "https://www.carhartt.com/c/men-t-shirt",
+    "Polo": "https://www.carhartt.com/c/men-polos",
+    "Dress shirt": "https://www.carhartt.com/c/men-shirts-buttons-down",
+    "Jeans": "https://www.carhartt.com/c/men-jeans",
+    "Outerwear": "https://www.carhartt.com/c/men-outerwear"
+  }
 }

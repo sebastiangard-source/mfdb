@@ -37,7 +37,6 @@
   "chan": ["D", "X"],
   "conf": "M",
   "forgc": [5, 3, 1],
-  "shop": "https://rhude.com/search?q=",
   "onething": {
     "p": "Traxedo pant",
     "u": "https://rhude.com/search?q=Traxedo%20pant",
@@ -90,5 +89,13 @@
     "nc": ["T-shirts", "Hoodies", "Pants"],
     "st": "complete"
   },
-  "price_range_only": ["Outerwear", "Shoes"]
+  "price_range_only": ["Outerwear", "Shoes"],
+  "garment_links": {
+    "T-shirt": "https://rh-ude.com/collections/tees-1",
+    "Polo": "https://rh-ude.com/collections/button-down-shirts",
+    "Dress shirt": "https://rh-ude.com/collections/button-down-shirts",
+    "Jeans": "https://rh-ude.com/collections/rtw-denim",
+    "Dress pants": "https://rh-ude.com/collections/pants",
+    "Outerwear": "https://rh-ude.com/collections/outerwear"
+  }
 }

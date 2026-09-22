@@ -35,7 +35,6 @@
   "chan": ["D", "I"],
   "conf": "L",
   "forgc": [2, 3, 4],
-  "shop": "https://www.corneliani.com/en/search?q=",
   "onething": {
     "p": "Identity Jacket",
     "u": "https://www.corneliani.com/en_us/identity-jacket",
@@ -83,5 +82,15 @@
     "nc": ["polos and t-shirts", "shirts", "trousers"],
     "st": "complete"
   },
-  "price_checked": true
+  "price_checked": true,
+  "garment_links": {
+    "T-shirt": "https://www.corneliani.com/en_us/mens-clothing/polos-and-t-shirts.html",
+    "Polo": "https://www.corneliani.com/en_us/mens-clothing/polos-and-t-shirts.html",
+    "Dress shirt": "https://www.corneliani.com/en_us/mens-clothing/shirts.html",
+    "Jeans": "https://www.corneliani.com/en_us/mens-clothing/jeans-sports-pants.html",
+    "Dress pants": "https://www.corneliani.com/en_us/mens-clothing/trousers.html",
+    "Sweater": "https://www.corneliani.com/en_us/mens-clothing/knitwear.html",
+    "Outerwear": "https://www.corneliani.com/en_us/mens-clothing/outerwear-coats.html",
+    "Shoes": "https://www.corneliani.com/en_us/mens-accessories-and-shoes/shoes.html"
+  }
 }

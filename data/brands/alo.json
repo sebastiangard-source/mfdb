@@ -205,5 +205,12 @@
     "nc": ["Outerwear:Coverups:Hoodies", "Tops:Short Sleeves", "Bottoms:Sweatpants"],
     "st": "complete"
   },
-  "price_range_only": ["Outerwear", "Shoes"]
+  "price_range_only": ["Outerwear", "Shoes"],
+  "garment_links": {
+    "T-shirt": "https://www.aloyoga.com/collections/tees-tanks",
+    "Polo": "https://www.aloyoga.com/search?q=polo&Gender=Men",
+    "Dress pants": "https://www.aloyoga.com/collections/mens-pants",
+    "Sweater": "https://www.aloyoga.com/collections/mens-sweaters",
+    "Outerwear": "https://www.aloyoga.com/collections/mens-jackets"
+  }
 }

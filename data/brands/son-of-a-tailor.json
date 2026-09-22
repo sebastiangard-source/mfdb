@@ -31,7 +31,6 @@
   "chan": ["W"],
   "conf": "S",
   "forgc": [2, 5, 5],
-  "shop": "https://www.sonofatailor.com/search?q=",
   "onething": {
     "p": "Cotton Hi-Neck T-Shirt",
     "u": "https://www.sonofatailor.com/product/cotton-hi-neck-t-shirt",
@@ -80,5 +79,11 @@
     "sc": [],
     "nc": ["T-Shirts", "Knitwear", "Polo Shirts"],
     "st": "complete"
+  },
+  "garment_links": {
+    "T-shirt": "https://www.sonofatailor.com/products/t-shirts",
+    "Polo": "https://www.sonofatailor.com/products/polo-shirts",
+    "Dress shirt": "https://www.sonofatailor.com/products/shirts",
+    "Sweater": "https://www.sonofatailor.com/products/knitwear"
   }
 }

@@ -36,7 +36,6 @@
   "chan": ["O", "D"],
   "conf": "L",
   "forgc": [4, 3, 1],
-  "shop": "https://www.stoneisland.com/en-us/search?q=",
   "onething": {
     "p": "Badge garment-dyed sweatshirt",
     "u": "https://www.stoneisland.com/en-us/search?q=Badge%20garment-dyed%20sweatshirt",
@@ -100,5 +99,12 @@
     "nc": ["Knitwear", "Pants & Shorts", "Fleecewear"],
     "st": "complete"
   },
-  "price_range_only": ["Shoes"]
+  "price_range_only": ["Shoes"],
+  "garment_links": {
+    "T-shirt": "https://www.stoneisland.com/en-us/collection/polos-and-t-shirts",
+    "Polo": "https://www.stoneisland.com/en-us/collection/polos-and-t-shirts",
+    "Dress pants": "https://www.stoneisland.com/en-us/collection/pants-and-shorts",
+    "Sweater": "https://www.stoneisland.com/en-us/collection/knitwear",
+    "Outerwear": "https://www.stoneisland.com/en-us/collection/coats-and-jackets"
+  }
 }

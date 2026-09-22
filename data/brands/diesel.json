@@ -35,7 +35,6 @@
   "chan": ["O", "D", "X"],
   "conf": "L",
   "forgc": [2, 3, 1],
-  "shop": "https://www.diesel.com/en/search/?q=",
   "onething": {
     "p": "D-Strukt jean",
     "u": "https://diesel.com/en-us/search-algolia?NA_NA_DieselUS__products__en_US%5Bquery%5D=d-struck",
@@ -101,5 +100,15 @@
     "nc": ["denim", "tshirts", "jackets"],
     "st": "complete"
   },
-  "price_checked": true
+  "price_checked": true,
+  "garment_links": {
+    "T-shirt": "https://www.diesel.com/en-us/man/tshirts/",
+    "Polo": "https://www.diesel.com/en-us/man/tshirts/",
+    "Dress shirt": "https://www.diesel.com/en-us/man/shirts/",
+    "Jeans": "https://www.diesel.com/en-us/man/denim/",
+    "Dress pants": "https://www.diesel.com/en-us/man/pants/",
+    "Sweater": "https://www.diesel.com/en-us/man/sweaters/",
+    "Outerwear": "https://www.diesel.com/en-us/man/jackets/",
+    "Shoes": "https://www.diesel.com/en-us/man/footwear/"
+  }
 }

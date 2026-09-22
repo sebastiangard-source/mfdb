@@ -32,7 +32,6 @@
   "chan": ["O", "D", "I"],
   "conf": "L",
   "forgc": [4, 2, 1],
-  "shop": "https://www.driesvannoten.com/search?q=",
   "onething": {
     "p": "Jacquard wool hat",
     "u": "https://www.driesvannoten.com/en-us/products/262-022203-4707",
@@ -88,5 +87,15 @@
     "st": "complete"
   },
   "price_checked": true,
-  "price_range_only": ["Sweater"]
+  "price_range_only": ["Sweater"],
+  "garment_links": {
+    "T-shirt": "https://www.driesvannoten.com/en-us/collections/men-t-shirts-sweatshirts",
+    "Polo": "https://www.driesvannoten.com/en-us/collections/men-t-shirts-sweatshirts",
+    "Dress shirt": "https://www.driesvannoten.com/en-us/collections/men-shirts",
+    "Jeans": "https://www.driesvannoten.com/en-us/collections/men-pants",
+    "Dress pants": "https://www.driesvannoten.com/en-us/collections/men-pants",
+    "Sweater": "https://www.driesvannoten.com/en-us/collections/men-knitwear",
+    "Outerwear": "https://www.driesvannoten.com/en-us/collections/men-coats-jackets",
+    "Shoes": "https://www.driesvannoten.com/en-us/collections/men-shoes"
+  }
 }

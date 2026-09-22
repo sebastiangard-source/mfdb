@@ -32,7 +32,6 @@
   "chan": ["O", "D", "X"],
   "conf": "L",
   "forgc": [1, 2, 1],
-  "shop": "https://www.valentino.com/en-us/search?q=",
   "onething": {
     "p": "Rockstud Untitled sneaker",
     "u": "https://www.valentino.com/en-us/search?q=Rockstud%20Untitled%20sneaker",
@@ -113,5 +112,15 @@
     "nc": ["t-shirts and sweatshirts", "pants and shorts", "coats and blazers"],
     "st": "complete"
   },
-  "price_checked": true
+  "price_checked": true,
+  "garment_links": {
+    "T-shirt": "https://www.valentino.com/en-us/men/ready-to-wear/t-shirts-and-sweatshirts",
+    "Polo": "https://www.valentino.com/en-us/men/ready-to-wear/t-shirts-and-sweatshirts",
+    "Dress shirt": "https://www.valentino.com/en-us/men/ready-to-wear/shirts",
+    "Jeans": "https://www.valentino.com/en-us/men/ready-to-wear/denim",
+    "Dress pants": "https://www.valentino.com/en-us/men/ready-to-wear/pants-and-shorts",
+    "Sweater": "https://www.valentino.com/en-us/men/ready-to-wear/knitwear",
+    "Outerwear": "https://www.valentino.com/en-us/men/ready-to-wear/outerwear",
+    "Shoes": "https://www.valentino.com/en-us/men/shoes"
+  }
 }

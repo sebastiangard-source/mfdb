@@ -33,7 +33,6 @@
   "chan": ["O"],
   "conf": "L",
   "forgc": [2, 4, 1],
-  "shop": "https://www.massimodutti.com/us/search?searchTerm=",
   "onething": {
     "p": "Suede overshirt",
     "u": "https://www.massimodutti.com/us/lightweight-suede-leather-overshirt-l03409478",
@@ -81,5 +80,15 @@
     "st": "complete"
   },
   "price_range_only": ["Outerwear"],
-  "price_checked": true
+  "price_checked": true,
+  "garment_links": {
+    "T-shirt": "https://www.massimodutti.com/us/men/t-shirts-n1369",
+    "Polo": "https://www.massimodutti.com/us/men/polos-n1407",
+    "Dress shirt": "https://www.massimodutti.com/us/men/shirts/formal-n1366",
+    "Jeans": "https://www.massimodutti.com/us/men/trousers/jeans-n1405",
+    "Dress pants": "https://www.massimodutti.com/us/men/trousers-n1399",
+    "Sweater": "https://www.massimodutti.com/us/men/jumpers-n1384",
+    "Outerwear": "https://www.massimodutti.com/us/men/jackets-n1372",
+    "Shoes": "https://www.massimodutti.com/us/men/shoes-n1420"
+  }
 }

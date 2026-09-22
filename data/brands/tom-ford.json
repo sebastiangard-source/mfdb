@@ -37,7 +37,6 @@
   "chan": ["O", "D"],
   "conf": "L",
   "forgc": [2, 2, 3],
-  "shop": "https://www.tomfordfashion.com/search?q=",
   "onething": {
     "p": "Cashmere-silk polo",
     "u": "https://www.tomfordfashion.com/search?q=Cashmere-silk%20polo",
@@ -111,5 +110,15 @@
     "nc": ["outerwear", "shirts", "pants"],
     "st": "complete"
   },
-  "price_checked": true
+  "price_checked": true,
+  "garment_links": {
+    "T-shirt": "https://www.tomfordfashion.com/en-us/men/ready-to-wear/polos-t-shirts/",
+    "Polo": "https://www.tomfordfashion.com/en-us/men/ready-to-wear/polos-t-shirts/",
+    "Dress shirt": "https://www.tomfordfashion.com/en-us/men/ready-to-wear/shirts/",
+    "Jeans": "https://www.tomfordfashion.com/en-us/men/ready-to-wear/denim/",
+    "Dress pants": "https://www.tomfordfashion.com/en-us/men/ready-to-wear/pants-shorts/",
+    "Sweater": "https://www.tomfordfashion.com/en-us/men/ready-to-wear/knitwear/",
+    "Outerwear": "https://www.tomfordfashion.com/en-us/men/ready-to-wear/outerwear/",
+    "Shoes": "https://www.tomfordfashion.com/en-us/men/shoes/"
+  }
 }

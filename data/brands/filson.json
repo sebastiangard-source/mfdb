@@ -30,7 +30,6 @@
   "chan": ["O", "I"],
   "conf": "L",
   "forgc": [4, 4, 1],
-  "shop": "https://www.filson.com/catalogsearch/result/?q=",
   "onething": {
     "p": "Mackinaw Cruiser",
     "u": "https://www.filson.com/catalogsearch/result/?q=Mackinaw+Cruiser",
@@ -109,5 +108,13 @@
     "st": "complete"
   },
   "price_range_only": ["Sweater", "Outerwear"],
-  "price_checked": true
+  "price_checked": true,
+  "garment_links": {
+    "T-shirt": "https://www.filson.com/collections/t-shirts",
+    "Dress shirt": "https://www.filson.com/collections/long-sleeve-shirts",
+    "Jeans": "https://www.filson.com/collections/jeans",
+    "Dress pants": "https://www.filson.com/collections/pants",
+    "Sweater": "https://www.filson.com/collections/sweaters",
+    "Outerwear": "https://www.filson.com/collections/outerwear"
+  }
 }

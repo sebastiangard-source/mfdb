@@ -38,7 +38,6 @@
   "chan": ["O", "D", "I"],
   "conf": "L",
   "forgc": [2, 2, 5],
-  "shop": "https://www.kiton.com/en-us/search?q=",
   "onething": {
     "p": "Cashmere jacket",
     "u": "https://us.kiton.com/collections/men/products/jacket-cashmere-ug89k0678g08",
@@ -88,12 +87,12 @@
   },
   "addmen": true,
   "site": {
-    "domain": "kiton.com",
+    "domain": "us.kiton.com",
     "platform": "shopify",
     "feed": "shopify_products_json",
     "feed_count": 1003,
     "status": "live_store",
-    "checked": "2026-09-13"
+    "checked": "2026-09-21"
   },
   "tech_evidence": {
     "names": "no",
@@ -115,5 +114,15 @@
     "nc": ["jackets", "trousers", "outerwear"],
     "st": "complete"
   },
-  "price_checked": true
+  "price_checked": true,
+  "garment_links": {
+    "T-shirt": "https://us.kiton.com/collections/men-polos-tshirts",
+    "Polo": "https://us.kiton.com/collections/men-polos-tshirts",
+    "Dress shirt": "https://us.kiton.com/collections/men-shirts",
+    "Jeans": "https://us.kiton.com/collections/men-jeans",
+    "Dress pants": "https://us.kiton.com/collections/men-pants",
+    "Sweater": "https://us.kiton.com/collections/men-knitwear",
+    "Outerwear": "https://us.kiton.com/collections/men-coat-jackets",
+    "Shoes": "https://us.kiton.com/collections/men-shoes"
+  }
 }

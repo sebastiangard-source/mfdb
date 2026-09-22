@@ -39,7 +39,6 @@
   "chan": ["O", "W"],
   "conf": "S",
   "forgc": [2, 3, 4],
-  "shop": "https://www.sidmashburn.com/search?q=",
   "onething": {
     "p": "Kincaid No. 1 suit",
     "u": "https://www.sidmashburn.com/search?q=Kincaid%20No.%201%20suit",
@@ -71,7 +70,7 @@
     "feed": "shopify_products_json",
     "feed_count": 3750,
     "status": "live_store",
-    "checked": "2026-09-13"
+    "checked": "2026-09-21"
   },
   "tech_evidence": {
     "names": "yes",
@@ -97,5 +96,15 @@
     "nc": ["Sport Shirts", "Sport Jackets", "Jeans"],
     "st": "complete"
   },
-  "price_checked": true
+  "price_checked": true,
+  "garment_links": {
+    "T-shirt": "https://shopmashburn.com/collections/sid-mashburn-polos-t-shirts",
+    "Polo": "https://shopmashburn.com/collections/sid-mashburn-the-polo-shop",
+    "Dress shirt": "https://shopmashburn.com/collections/sid-mashburn-shirts",
+    "Jeans": "https://shopmashburn.com/collections/sid-mashburn-jeans-5-pockets",
+    "Dress pants": "https://shopmashburn.com/collections/sid-mashburn-trousers",
+    "Sweater": "https://shopmashburn.com/collections/sid-mashburn-sweaters",
+    "Outerwear": "https://shopmashburn.com/collections/sid-mashburn-outerwear",
+    "Shoes": "https://shopmashburn.com/collections/sid-mashburn-shoes"
+  }
 }

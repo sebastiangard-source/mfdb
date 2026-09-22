@@ -33,7 +33,6 @@
   "chan": ["D", "I", "O"],
   "conf": "L",
   "forgc": [4, 3, 1],
-  "shop": "https://www.paulandshark.com/en-us/search?q=",
   "onething": {
     "p": "Typhoon 20000 jacket",
     "u": "https://www.paulandshark.com/en_US/typhoon-world/",
@@ -82,5 +81,14 @@
     "nc": ["knitwear", "shirts", "outerwear"],
     "st": "complete"
   },
-  "price_range_only": ["Shoes"]
+  "price_range_only": ["Shoes"],
+  "garment_links": {
+    "T-shirt": "https://www.paulandshark.com/en_US/men/fall-winter-collection/t-shirt/",
+    "Polo": "https://www.paulandshark.com/en_US/men/fall-winter-collection/polo-shirts/",
+    "Dress shirt": "https://www.paulandshark.com/en_US/men/fall-winter-collection/shirts/",
+    "Jeans": "https://www.paulandshark.com/en_US/men/fall-winter-collection/jeans-and-trousers/",
+    "Dress pants": "https://www.paulandshark.com/en_US/men/fall-winter-collection/jeans-and-trousers/",
+    "Sweater": "https://www.paulandshark.com/en_US/men/fall-winter-collection/knitwear/",
+    "Outerwear": "https://www.paulandshark.com/en_US/men/fall-winter-collection/outerwear/"
+  }
 }

@@ -86,5 +86,12 @@
     "nc": ["Denim", "Tees", "Shorts"],
     "st": "complete"
   },
-  "price_range_only": ["Shoes"]
+  "price_range_only": ["Shoes"],
+  "garment_links": {
+    "T-shirt": "https://purple-brand.com/collections/tees-t-shirts",
+    "Dress shirt": "https://purple-brand.com/collections/shirts",
+    "Jeans": "https://purple-brand.com/collections/denim",
+    "Sweater": "https://purple-brand.com/collections/sweaters",
+    "Outerwear": "https://purple-brand.com/collections/outerwear"
+  }
 }

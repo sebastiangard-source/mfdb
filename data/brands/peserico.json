@@ -68,12 +68,12 @@
     "s": []
   },
   "site": {
-    "domain": "it.peserico.com",
+    "domain": "us.peserico.com",
     "platform": "shopify",
     "feed": "shopify_products_json",
     "feed_count": 1905,
     "status": "live_store",
-    "checked": "2026-09-13"
+    "checked": "2026-09-21"
   },
   "tech_evidence": {
     "names": "yes",
@@ -95,5 +95,14 @@
     "nc": ["TROUSERS", "KNITWEAR", "OUTERWEAR"],
     "st": "complete"
   },
-  "shop": "https://it.peserico.com/search?q="
+  "shop": "https://it.peserico.com/search?q=",
+  "garment_links": {
+    "T-shirt": "https://us.peserico.com/collections/mens-t-shirts-polos",
+    "Dress shirt": "https://us.peserico.com/collections/mens-shirts",
+    "Jeans": "https://us.peserico.com/collections/denim-man",
+    "Dress pants": "https://us.peserico.com/collections/mens-trousers",
+    "Sweater": "https://us.peserico.com/collections/mens-knitwear",
+    "Outerwear": "https://us.peserico.com/collections/mens-outerwear",
+    "Shoes": "https://us.peserico.com/collections/mens-shoes"
+  }
 }

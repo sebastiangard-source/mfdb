@@ -52,12 +52,12 @@
   },
   "cities": "Own stores in Scandinavia; US reach through golf specialty and department stores",
   "site": {
-    "domain": "jlindeberg.com",
+    "domain": "www.jlindebergusa.com",
     "platform": "shopify",
     "feed": "shopify_products_json",
     "feed_count": 14757,
     "status": "live_store",
-    "checked": "2026-09-13"
+    "checked": "2026-09-21"
   },
   "tech_evidence": {
     "names": "yes",
@@ -91,5 +91,14 @@
     "st": "complete"
   },
   "shop": "https://www.jlindebergusa.com/search?q=",
-  "price_range_only": ["Shoes", "Outerwear", "Sweater"]
+  "price_range_only": ["Shoes", "Outerwear", "Sweater"],
+  "garment_links": {
+    "T-shirt": "https://www.jlindebergusa.com/collections/mens-fashion-tops-1",
+    "Polo": "https://www.jlindebergusa.com/collections/mens-golf-polos-tops",
+    "Dress shirt": "https://www.jlindebergusa.com/collections/mens-fashion-shirts-1",
+    "Jeans": "https://www.jlindebergusa.com/collections/mens-fashion-jeans-1",
+    "Dress pants": "https://www.jlindebergusa.com/collections/mens-fashion-pants-1",
+    "Sweater": "https://www.jlindebergusa.com/collections/mens-fashion-sweaters",
+    "Outerwear": "https://www.jlindebergusa.com/collections/mens-fashion-outerwear-1"
+  }
 }

@@ -33,7 +33,6 @@
   "chan": ["O", "D"],
   "conf": "L",
   "forgc": [2, 3, 2],
-  "shop": "https://www.paulsmith.com/us/search?q=",
   "onething": {
     "p": "Signature-stripe socks",
     "u": "https://www.paulsmith.com/search?q=Signature-stripe+socks",
@@ -79,5 +78,15 @@
     "nc": ["Knitwear", "Jackets", "Shirts"],
     "st": "complete"
   },
-  "price_checked": true
+  "price_checked": true,
+  "garment_links": {
+    "T-shirt": "https://www.paulsmith.com/mens/t-shirts",
+    "Polo": "https://www.paulsmith.com/mens/polo-shirts",
+    "Dress shirt": "https://www.paulsmith.com/mens/shirts/formal",
+    "Jeans": "https://www.paulsmith.com/mens/jeans",
+    "Dress pants": "https://www.paulsmith.com/mens/trousers/tailored-trousers",
+    "Sweater": "https://www.paulsmith.com/mens/knitwear",
+    "Outerwear": "https://www.paulsmith.com/mens/coats-jackets",
+    "Shoes": "https://www.paulsmith.com/mens/shoes"
+  }
 }

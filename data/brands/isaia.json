@@ -35,7 +35,6 @@
   "chan": ["O", "D", "I"],
   "conf": "L",
   "forgc": [2, 2, 5],
-  "shop": "https://www.isaia.it/en/search?q=",
   "onething": {
     "p": "Sanita Aquaspider suit",
     "u": "https://www.nordstrom.com/s/sanita-aquaspider-super-160s-wool-suit-regular-short-long/4622480",
@@ -75,12 +74,12 @@
     "s": [74, 131, 176, 216, 773, 774]
   },
   "site": {
-    "domain": "www.isaia.it",
+    "domain": "www.isaia.us",
     "platform": "shopify",
     "feed": "shopify_products_json",
     "feed_count": 341,
     "status": "live_store",
-    "checked": "2026-09-13"
+    "checked": "2026-09-21"
   },
   "tech_evidence": {
     "names": "yes",
@@ -104,5 +103,15 @@
     "nc": ["Knitwear", "Jacket", "Shirt"],
     "st": "complete"
   },
-  "price_checked": true
+  "price_checked": true,
+  "garment_links": {
+    "T-shirt": "https://www.isaia.us/collections/mens-polos-t-shirts",
+    "Polo": "https://www.isaia.us/collections/mens-polos-t-shirts",
+    "Dress shirt": "https://www.isaia.us/collections/mens-shirts",
+    "Jeans": "https://www.isaia.us/collections/mens-trousers-and-denim",
+    "Dress pants": "https://www.isaia.us/collections/mens-trousers",
+    "Sweater": "https://www.isaia.us/collections/mens-sweaters-knitwear",
+    "Outerwear": "https://www.isaia.us/collections/mens-outerwear",
+    "Shoes": "https://www.isaia.us/collections/mens-shoes"
+  }
 }

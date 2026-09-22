@@ -85,5 +85,13 @@
     "st": "complete"
   },
   "price_checked": true,
-  "price_range_only": ["Outerwear"]
+  "price_range_only": ["Outerwear"],
+  "garment_links": {
+    "T-shirt": "https://www.margarethowell.co.uk/collections/men-jersey",
+    "Dress shirt": "https://www.margarethowell.co.uk/collections/men-shirts-tops",
+    "Jeans": "https://www.margarethowell.co.uk/search?q=jeans&filter.p.m.custom.gender=Men",
+    "Dress pants": "https://www.margarethowell.co.uk/collections/men-trousers",
+    "Sweater": "https://www.margarethowell.co.uk/collections/men-knitwear",
+    "Outerwear": "https://www.margarethowell.co.uk/collections/men-jackets-coats"
+  }
 }

@@ -84,5 +84,12 @@
     "s": [807]
   },
   "price_checked": true,
-  "price_range_only": ["Sweater", "Outerwear"]
+  "price_range_only": ["Sweater", "Outerwear"],
+  "garment_links": {
+    "T-shirt": "https://www.ralphlauren.com/brands-men-rlx-cg/r/rlx?prefn1=CategoryCode&prefv1=T-Shirts",
+    "Polo": "https://www.ralphlauren.com/brands-men-rlx-cg/r/rlx?prefn1=CategoryCode&prefv1=Polo%20Shirts",
+    "Dress pants": "https://www.ralphlauren.com/brands-men-rlx-cg/r/rlx?prefn1=CategoryCode&prefv1=Pants",
+    "Sweater": "https://www.ralphlauren.com/brands-men-rlx-cg/r/rlx?prefn1=CategoryCode&prefv1=Sweaters",
+    "Outerwear": "https://www.ralphlauren.com/brands-men-rlx-cg/r/rlx?prefn1=CategoryCode&prefv1=Jackets%2C%20Coats%20%26%20Vests"
+  }
 }

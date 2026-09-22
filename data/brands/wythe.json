@@ -86,5 +86,13 @@
     "nc": ["Shirts", "Outerwear", "Pants"],
     "st": "complete"
   },
-  "price_range_only": ["Polo", "Shoes"]
+  "price_range_only": ["Polo", "Shoes"],
+  "garment_links": {
+    "T-shirt": "https://www.wythe.com/collections/t-shirts-tank-tops-and-sweatshirts",
+    "Polo": "https://www.wythe.com/collections/garment-dyed-polos",
+    "Dress shirt": "https://www.wythe.com/collections/oxford-cloth-button-downs",
+    "Dress pants": "https://www.wythe.com/collections/pants",
+    "Sweater": "https://www.wythe.com/collections/sweaters",
+    "Outerwear": "https://www.wythe.com/collections/coats-jackets"
+  }
 }

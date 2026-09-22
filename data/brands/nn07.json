@@ -32,7 +32,6 @@
   "chan": ["O", "D", "I"],
   "conf": "L",
   "forgc": [4, 3, 1],
-  "shop": "https://www.nn07.com/search?q=",
   "onething": {
     "p": "Gael jacket",
     "u": "https://www.nn07.com/search?q=Gael%20jacket",
@@ -77,5 +76,14 @@
     "nc": ["Shirt", "Pant", "Overshirt"],
     "st": "complete"
   },
-  "price_checked": true
+  "price_checked": true,
+  "garment_links": {
+    "T-shirt": "https://www.nn07.com/en/us/t-shirts/short-sleeve",
+    "Polo": "https://www.nn07.com/en/us/t-shirts/polos",
+    "Dress shirt": "https://www.nn07.com/en/us/shirts/classic",
+    "Jeans": "https://www.nn07.com/en/us/pants/jeans",
+    "Dress pants": "https://www.nn07.com/en/us/pants/dress",
+    "Sweater": "https://www.nn07.com/en/us/knitwear",
+    "Outerwear": "https://www.nn07.com/en/us/jackets"
+  }
 }

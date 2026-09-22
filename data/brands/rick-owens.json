@@ -35,7 +35,6 @@
   "chan": ["O", "D", "I"],
   "conf": "L",
   "forgc": [4, 2, 1],
-  "shop": "https://www.rickowens.eu/en/US/search?q=",
   "onething": {
     "p": "Geobasket",
     "u": "https://www.rickowens.eu/en/US/search?q=Geobasket%20men",
@@ -103,5 +102,13 @@
     "nc": ["bottoms", "outerwear", "t-shirts and shirts"],
     "st": "complete"
   },
-  "price_range_only": ["Shoes"]
+  "price_range_only": ["Shoes"],
+  "garment_links": {
+    "T-shirt": "https://www.rickowens.eu/en-us/collections/men-t-shirts",
+    "Dress shirt": "https://www.rickowens.eu/en-us/collections/mens-shirts",
+    "Jeans": "https://www.rickowens.eu/en-us/collections/men-pants",
+    "Dress pants": "https://www.rickowens.eu/en-us/collections/men-pants",
+    "Sweater": "https://www.rickowens.eu/en-us/collections/mens-knitwear",
+    "Outerwear": "https://www.rickowens.eu/en-us/collections/mens-outerwear"
+  }
 }

@@ -51,12 +51,12 @@
   },
   "cities": "Own London store · dept & specialty in US",
   "site": {
-    "domain": "baracuta.com",
+    "domain": "us.baracuta.com",
     "platform": "shopify",
     "feed": "shopify_products_json",
     "feed_count": 302,
     "status": "live_store",
-    "checked": "2026-09-13"
+    "checked": "2026-09-21"
   },
   "tech_evidence": {
     "names": "yes",
@@ -79,5 +79,13 @@
     "st": "complete"
   },
   "price_range_only": ["Sweater"],
-  "price_checked": true
+  "price_checked": true,
+  "garment_links": {
+    "T-shirt": "https://us.baracuta.com/collections/t-shirts",
+    "Polo": "https://us.baracuta.com/collections/polo-shirt",
+    "Dress shirt": "https://us.baracuta.com/collections/shirts",
+    "Dress pants": "https://us.baracuta.com/collections/trousers",
+    "Sweater": "https://us.baracuta.com/collections/sweaters-gilets",
+    "Outerwear": "https://us.baracuta.com/collections/outerwear"
+  }
 }

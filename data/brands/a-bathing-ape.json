@@ -95,5 +95,12 @@
     "nc": ["T-SHIRTS", "CUT AND SEWN", "PANTS"],
     "st": "partial"
   },
-  "shop": "https://us.bape.com/search?q="
+  "shop": "https://us.bape.com/search?q=",
+  "garment_links": {
+    "T-shirt": "https://us.bape.com/collections/mens-t-shirts",
+    "Dress shirt": "https://us.bape.com/collections/category-clothing-shirt/gender-men",
+    "Jeans": "https://us.bape.com/search?q=denim+pants&filter.p.m.product_ext.gender=MEN",
+    "Outerwear": "https://us.bape.com/collections/category-clothing-jacket/gender-men",
+    "Shoes": "https://us.bape.com/collections/category-clothing-footwear/gender-men"
+  }
 }

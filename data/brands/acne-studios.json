@@ -112,5 +112,14 @@
     "nc": ["Jeans", "T-Shirts", "Outerwear"],
     "st": "complete"
   },
-  "price_range_only": ["Outerwear"]
+  "price_range_only": ["Outerwear"],
+  "garment_links": {
+    "T-shirt": "https://www.acnestudios.com/us/en/man/t-shirts/",
+    "Dress shirt": "https://www.acnestudios.com/us/en/man/shirts/",
+    "Jeans": "https://www.acnestudios.com/us/en/man/jeans/",
+    "Dress pants": "https://www.acnestudios.com/us/en/man/trousers/",
+    "Sweater": "https://www.acnestudios.com/us/en/man/knitwear/",
+    "Outerwear": "https://www.acnestudios.com/us/en/man/outerwear/",
+    "Shoes": "https://www.acnestudios.com/us/en/man/shoes/"
+  }
 }

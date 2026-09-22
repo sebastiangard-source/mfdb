@@ -89,5 +89,12 @@
     "st": "complete"
   },
   "price_range_only": ["Sweater", "Outerwear"],
-  "price_checked": true
+  "price_checked": true,
+  "garment_links": {
+    "T-shirt": "https://finisterre.com/en-us/collections/mens-t-shirts",
+    "Dress shirt": "https://finisterre.com/en-us/collections/mens-shirts-polos",
+    "Dress pants": "https://finisterre.com/en-us/collections/mens-trousers-and-jeans",
+    "Sweater": "https://finisterre.com/en-us/collections/mens-knitwear",
+    "Outerwear": "https://finisterre.com/en-us/collections/mens-outerwear-jackets"
+  }
 }

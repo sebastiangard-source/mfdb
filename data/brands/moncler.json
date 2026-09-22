@@ -36,7 +36,6 @@
   "chan": ["O", "D"],
   "conf": "S",
   "forgc": [2, 3, 1],
-  "shop": "https://www.moncler.com/en-us/search?text=",
   "onething": {
     "p": "Maya jacket",
     "u": "https://www.moncler.com/en-us/men/outerwear/short-down-jackets/moncler-maya-hooded-short-down-jacket-black-L20911A5360068950999.html",
@@ -139,5 +138,13 @@
     "nc": ["Short Sleeve T-Shirts", "Shirt Jackets", "Trousers"],
     "st": "complete"
   },
-  "price_range_only": ["Shoes", "Sweater"]
+  "price_range_only": ["Shoes", "Sweater"],
+  "garment_links": {
+    "T-shirt": "https://www.moncler.com/en-us/men/ready-to-wear/polos-and-t-shirts",
+    "Polo": "https://www.moncler.com/en-us/men/ready-to-wear/polos-and-t-shirts",
+    "Dress shirt": "https://www.moncler.com/en-us/men/ready-to-wear/shirts",
+    "Dress pants": "https://www.moncler.com/en-us/men/ready-to-wear/pants-and-shorts",
+    "Sweater": "https://www.moncler.com/en-us/men/ready-to-wear/sweaters-and-cardigans",
+    "Outerwear": "https://www.moncler.com/en-us/men/outerwear"
+  }
 }

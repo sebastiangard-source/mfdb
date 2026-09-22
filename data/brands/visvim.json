@@ -109,5 +109,14 @@
   },
   "shop": "https://shop.visvim.com/search?keywords=",
   "price_range_only": ["Outerwear", "Shoes"],
-  "price_checked": true
+  "price_checked": true,
+  "garment_links": {
+    "T-shirt": "https://shop.visvim.com/men/mensclothing?item_category=Cut--AND--Sew",
+    "Dress shirt": "https://shop.visvim.com/men/mensclothing?item_category=Shirt",
+    "Jeans": "https://shop.visvim.com/men/mensclothing?item_category=Denim",
+    "Dress pants": "https://shop.visvim.com/men/mensclothing?item_category=Pants",
+    "Sweater": "https://shop.visvim.com/men/mensclothing?item_category=Knit",
+    "Outerwear": "https://shop.visvim.com/men/mensclothing?item_category=Outerwear",
+    "Shoes": "https://shop.visvim.com/men/mensfootwear"
+  }
 }

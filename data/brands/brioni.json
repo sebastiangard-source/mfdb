@@ -37,7 +37,6 @@
   "chan": ["O", "D"],
   "conf": "L",
   "forgc": [2, 2, 5],
-  "shop": "https://www.brioni.com/en-us/search?q=",
   "onething": {
     "p": "Brunico suit",
     "u": "https://www.brioni.com/en/gb/pr/navy-blue-herringbone-super-150s-wool-brunico-suit-RA005DPBA294100",
@@ -111,5 +110,15 @@
     "nc": ["trousers", "shirts", "jackets"],
     "st": "complete"
   },
-  "price_checked": true
+  "price_checked": true,
+  "garment_links": {
+    "T-shirt": "https://www.brioni.com/en/us/ca/polos-and-t-shirts",
+    "Polo": "https://www.brioni.com/en/us/ca/polos-and-t-shirts",
+    "Dress shirt": "https://www.brioni.com/en/us/ca/formal-shirts",
+    "Jeans": "https://www.brioni.com/en/us/ca/casual-trousers",
+    "Dress pants": "https://www.brioni.com/en/us/ca/formal-trousers",
+    "Sweater": "https://www.brioni.com/en/us/ca/knitwear",
+    "Outerwear": "https://www.brioni.com/en/us/ca/outerwear-and-coats",
+    "Shoes": "https://www.brioni.com/en/us/ca/shoes"
+  }
 }

@@ -1521,3 +1521,13 @@ Held: [('Carhartt', 'sweater NONE — a house with no crewneck still makes sweat
 - Brunello Cucinelli: shop -> shop.brunellocucinelli.com (corporate-site search 404s)
 
 ## 2026-09-19 · correction · NONE misused for 'no loafer'/'no crewneck': 42 shoe cells and 6 sweater cells reset to '?' pending a range restatement (a house that sells shoes does not 'not make' shoes)
+
+## 2026-09-22 · garment_links full return · 1270 links on 193 brands; 7 site domains corrected; 33 dead search URLs removed (labels fall back to plain text)
+
+- J.Lindeberg: site.domain jlindeberg.com -> www.jlindebergusa.com
+- Isaia: site.domain www.isaia.it -> www.isaia.us
+- Kiton: site.domain kiton.com -> us.kiton.com
+- Isabel Marant: site.domain isabelmarant.com -> us.isabelmarant.com
+- Baracuta: site.domain baracuta.com -> us.baracuta.com
+- Peserico: site.domain it.peserico.com -> us.peserico.com
+- Sid Mashburn: site.domain shopmashburn.com -> shopmashburn.com

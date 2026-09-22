@@ -38,7 +38,6 @@
   "chan": ["O", "W"],
   "conf": "S",
   "forgc": [5, 3, 1],
-  "shop": "https://www.aimeleondore.com/search?q=",
   "onething": {
     "p": "Uniform cap",
     "u": "https://www.aimeleondore.com/search?q=Uniform%20cap",
@@ -95,5 +94,12 @@
     "st": "complete"
   },
   "price_range_only": ["Sweater", "Outerwear"],
-  "price_checked": true
+  "price_checked": true,
+  "garment_links": {
+    "T-shirt": "https://www.aimeleondore.com/collections/tees",
+    "Dress shirt": "https://www.aimeleondore.com/collections/shirting",
+    "Dress pants": "https://www.aimeleondore.com/collections/pants",
+    "Sweater": "https://www.aimeleondore.com/collections/sweaters",
+    "Outerwear": "https://www.aimeleondore.com/collections/outerwear"
+  }
 }

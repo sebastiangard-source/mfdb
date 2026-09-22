@@ -34,7 +34,6 @@
   "chan": ["O", "I"],
   "conf": "L",
   "forgc": [4, 2, 1],
-  "shop": "https://www.ourlegacy.com/search?q=",
   "onething": {
     "p": "Borrowed BD shirt",
     "u": "https://www.ourlegacy.com/borrowed-bd-shortsleeve-black-clean-seersucker",
@@ -113,5 +112,14 @@
     "sc": ["shorts"],
     "nc": ["knitwear", "jersey", "jeans"],
     "st": "complete"
+  },
+  "garment_links": {
+    "T-shirt": "https://www.ourlegacy.com/mens/jersey",
+    "Dress shirt": "https://www.ourlegacy.com/mens/shirting",
+    "Jeans": "https://www.ourlegacy.com/mens/jeans",
+    "Dress pants": "https://www.ourlegacy.com/mens/trousers",
+    "Sweater": "https://www.ourlegacy.com/mens/knitwear",
+    "Outerwear": "https://www.ourlegacy.com/mens/outerwear",
+    "Shoes": "https://www.ourlegacy.com/footwear/mens-footwear"
   }
 }

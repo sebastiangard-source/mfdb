@@ -30,7 +30,6 @@
   "chan": ["D", "O", "I"],
   "conf": "L",
   "forgc": [2, 3, 1],
-  "shop": "https://www.paige.com/search?q=",
   "onething": {
     "p": "Federal jean",
     "u": "https://paige.com/collection/men-slim-straight-fit",
@@ -96,5 +95,14 @@
     "nc": ["non denim bottoms", "knit tops", "woven tops"],
     "st": "complete"
   },
-  "price_range_only": ["Sweater"]
+  "price_range_only": ["Sweater"],
+  "garment_links": {
+    "T-shirt": "https://paige.com/collection/men-tees",
+    "Polo": "https://paige.com/collection/men-shirts",
+    "Dress shirt": "https://paige.com/collection/men-shirts",
+    "Jeans": "https://paige.com/collection/men-denim",
+    "Dress pants": "https://paige.com/collection/men-pants",
+    "Sweater": "https://paige.com/collection/men-sweaters-and-sweatshirts",
+    "Outerwear": "https://paige.com/collection/men-jackets"
+  }
 }
