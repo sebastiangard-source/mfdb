@@ -645,6 +645,7 @@
   .bo-count{font-family:'Inter',system-ui,sans-serif;font-weight:400;font-size:11.5px;color:var(--ink-faint)}
   .bo-chips{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin:14px 0 6px;padding-top:10px;border-top:1px dashed var(--hairline)}
   .bo-chips-lab{font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint);margin-right:6px}
+  .bo-chips-lab i{font-style:normal;text-transform:none;letter-spacing:0}
   #boutiquesView .bo-chip.detail-link{text-transform:none;letter-spacing:0;font-weight:400;font-size:12px;color:var(--ink)}
   .bo-chip{font-size:12px;padding:4px 10px;border-radius:12px;background:rgba(18,59,43,.07);color:var(--ink);text-decoration:none}
   .bo-chip b{font-weight:500;margin-left:4px;color:var(--ink-faint)}.bo-chip:hover{background:rgba(18,59,43,.15)}
@@ -2439,11 +2440,11 @@ function ownChipsHTML(owns){
     const doors = by[b].slice().sort((x,y)=>x.c.localeCompare(y.c));
     if(doors.length === 1){
       const p = doors[0];
-      return `<a class="bo-chip bo-chip-map" href="${shopMapUrl(p)}" target="_blank" rel="noopener" title="${esc(b)}, ${esc(p.c)} \u2014 open in Maps">${esc(b)} \u00b7 ${esc(p.c)} \u2197</a>`;
+      return `<a class="bo-chip bo-chip-map" href="${shopMapUrl(p)}" target="_blank" rel="noopener" title="${esc(b)}, ${esc(p.c)} \u2014 open in Maps">${esc(b)} \u00b7 ${esc(p.c)}</a>`;
     }
     // Expanded, the whole thing is one outlined capsule: the brand as the first segment
     // (tap to collapse), a Maps segment per town, and the brand page as the last.
-    const inner = doors.map(p=>`<a class="bo-seg bo-chip-map" href="${shopMapUrl(p)}" target="_blank" rel="noopener" title="${esc(b)}, ${esc(p.c)} \u2014 open in Maps">${esc(p.c)} \u2197</a>`).join("")
+    const inner = doors.map(p=>`<a class="bo-seg bo-chip-map" href="${shopMapUrl(p)}" target="_blank" rel="noopener" title="${esc(b)}, ${esc(p.c)} \u2014 open in Maps">${esc(p.c)}</a>`).join("")
       + `<a class="bo-seg bo-seg-page detail-link" data-brand="${esc(b)}" href="#brand=${encodeURIComponent(b)}" title="${esc(b)} brand page">brand page \u203a</a>`;
     return `<span class="bo-chipgroup"><button class="bo-chip bo-chip-multi" type="button" aria-expanded="false" title="${esc(b)} \u2014 ${esc(doors.map(p=>p.c).join(", "))}; tap to show each"><span class="bo-multi-name">${esc(b)}</span><b class="bo-multi-n">\u00d7${doors.length}</b><b class="bo-multi-x">\u00d7</b></button>`
          + `<span class="bo-chip-doors" hidden>${inner}</span></span>`;
@@ -2478,8 +2479,8 @@ function renderBoutiques(region, kind, view){
       `<button class="bo-view${boView===k?" on":""}" data-view="${k}">${t}</button>`).join("");
   const head = (boRegion
     ? `<h2>${esc(boRegion)}</h2>`
-      + `<p class="bo-lead">${idx.length} of ${all.length} stores. `
-      + `<a class="bo-all" href="#stores">show all ${all.length} \u2192</a></p>`
+      + `<p class="bo-lead">${idx.length} store${idx.length===1?"":"s"} in ${esc(boRegion)}. `
+      + `<a class="bo-all" href="#stores">all ${all.length} stores in ${REGION_NAME} \u2192</a></p>`
     : `<h2>Stores \u2014 ${REGION_NAME}</h2>`
       + `<p class="bo-lead">${nShop} independent shops carrying brands from the map and ${nOwn} stores owned and run by the brands themselves, across ${states.size} state${states.size===1?"":"s"}.</p>`)
     + `<div class="bo-tools"><input id="boSearch" type="search" placeholder="Name, town or region" value="${esc(boQuery)}" aria-label="Filter stores">`
@@ -2507,7 +2508,7 @@ function renderBoutiques(region, kind, view){
         return `<section class="bo-sec"><h4 class="bo-reg"><a href="#stores=${slug}${boKind!=="all"?"+"+boKind:""}">${esc(reg)}</a>`
              + `<span class="bo-count">${count}</span></h4>`
              + shops.map(([p,i])=>shopRowHTML(p, i, true)).join("")
-             + (owns.length ? `<div class="bo-chips"><span class="bo-chips-lab">Brand-owned stores in ${esc(reg)}</span>${ownChipsHTML(owns)}</div>` : "")
+             + (owns.length ? `<div class="bo-chips"><span class="bo-chips-lab">Brand-owned stores in ${esc(reg)} <i>\u2014 tap one to open it in Maps</i></span>${ownChipsHTML(owns)}</div>` : "")
              + `</section>`;
       }).join("");
     }).join("") || `<p class="bo-lead">Nothing matches.</p>`;

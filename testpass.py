@@ -955,6 +955,8 @@ with sync_playwright() as p:
     pg.click("#boBody button.bo-kind[data-kind='own']"); pg.wait_for_timeout(300)
     ck('Brand stores filter shows only own stores', pg.evaluate("[...document.querySelectorAll('#boBody .bo-line')].every(l=>l.classList.contains('bo-own'))") and pg.evaluate('location.hash')=='#stores=own+az')
     ck('every store row of either kind carries a region tag', pg.evaluate("[...document.querySelectorAll('#boBody .bo-line')].every(l=>l.querySelector('.bo-region')?.textContent.trim())"))
+    pg.goto(url+'#stores=lehigh-valley'); pg.reload(); pg.wait_for_timeout(400)
+    ck('a region view counts its own stores, not the whole index', pg.evaluate("document.querySelector('#boBody .bo-lead').textContent").startswith('1 store in Lehigh Valley'))
     pg.goto(url+'#boutiques'); pg.reload(); pg.wait_for_timeout(400)
     ck('the old #boutiques hash still opens the index', pg.evaluate("boutiquesView.classList.contains('show')"))
     pg.goto(url+'#stores=shop+az'); pg.reload(); pg.wait_for_timeout(500)
