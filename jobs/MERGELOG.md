@@ -1537,3 +1537,5 @@ Held: [('Carhartt', 'sweater NONE — a house with no crewneck still makes sweat
 ## 2026-09-22 · register · Puritan Cape Cod Hyannis and Mashpee added (places [808, 809]); linked to the 15 brands the Chatham record carries
 
 ## 2026-09-22 · places · 32 duplicate brand-owned doors merged (same brand, town and street captured twice, once without a zip); region indices remapped
+
+## 2026-09-22 · places · Puritan Cape Cod Mashpee: 25 Steeple Street (from Sebastian)
