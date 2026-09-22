@@ -648,6 +648,12 @@
   #boutiquesView .bo-chip.detail-link{text-transform:none;letter-spacing:0;font-weight:400;font-size:12px;color:var(--ink)}
   .bo-chip{font-size:12px;padding:4px 10px;border-radius:12px;background:rgba(18,59,43,.07);color:var(--ink);text-decoration:none}
   .bo-chip b{font-weight:500;margin-left:4px;color:var(--ink-faint)}.bo-chip:hover{background:rgba(18,59,43,.15)}
+  button.bo-chip{font:inherit;font-size:12px;border:0;cursor:pointer}
+  .bo-chip-multi.open{background:var(--lf-green);color:#F2ECDD}.bo-chip-multi.open b{color:#F2ECDD}
+  .bo-chipgroup{display:inline-flex;flex-wrap:wrap;gap:6px;align-items:center}
+  .bo-chip-doors{display:inline-flex;flex-wrap:wrap;gap:6px;align-items:center;padding-left:2px}
+  .bo-chip-doors[hidden]{display:none}
+  #boutiquesView .bo-chip-brand.detail-link{font-size:12px;text-transform:none;letter-spacing:0;font-weight:500;color:var(--lf-green);text-decoration:underline;text-underline-offset:2px}
   .bo-kind{font:inherit;font-size:12px;padding:5px 12px;border-radius:14px;border:1px solid var(--hairline);background:transparent;color:var(--ink);cursor:pointer}
   .bo-kind.on{background:var(--lf-green);color:#F2ECDD;border-color:var(--lf-green)}
   #boutiquesView .bo-own .bo-row{font:inherit;letter-spacing:0;text-transform:none;color:inherit}
@@ -2419,12 +2425,20 @@ function shopRowHTML(p, i, noTag){
        + `<a class="bo-report visit-link" data-store="${esc(storeString(p))}" href="${visitUrl(p)}" target="_blank" rel="noopener" title="Report a visit to ${esc(p.n)}">report a visit \u2197</a></div>`;
 }
 function ownChipsHTML(owns){
-  // one chip per brand, with the towns in the tooltip
+  // One pill per brand. A single door links straight to Maps; several doors expand in
+  // place to one Maps pill per town, with the brand name linking to the brand page.
   const by = {};
-  for(const [p] of owns) (by[p.n] = by[p.n] || []).push(p.c);
+  for(const [p] of owns) (by[p.n] = by[p.n] || []).push(p);
   return Object.keys(by).sort((a,b)=>a.localeCompare(b)).map(b=>{
-    const towns = by[b];
-    return `<a class="bo-chip detail-link" data-brand="${esc(b)}" href="#brand=${encodeURIComponent(b)}" title="${esc(b)} \u2014 ${esc(towns.join(", "))}">${esc(b)}${towns.length>1?`<b>\u00d7${towns.length}</b>`:""}</a>`;
+    const doors = by[b].slice().sort((x,y)=>x.c.localeCompare(y.c));
+    if(doors.length === 1){
+      const p = doors[0];
+      return `<a class="bo-chip bo-chip-map" href="${shopMapUrl(p)}" target="_blank" rel="noopener" title="${esc(b)}, ${esc(p.c)} \u2014 open in Maps">${esc(b)} \u00b7 ${esc(p.c)} \u2197</a>`;
+    }
+    const inner = `<a class="bo-chip-brand detail-link" data-brand="${esc(b)}" href="#brand=${encodeURIComponent(b)}" title="${esc(b)} brand page">${esc(b)}</a>`
+      + doors.map(p=>`<a class="bo-chip bo-chip-map" href="${shopMapUrl(p)}" target="_blank" rel="noopener" title="${esc(b)}, ${esc(p.c)} \u2014 open in Maps">${esc(p.c)} \u2197</a>`).join("");
+    return `<span class="bo-chipgroup"><button class="bo-chip bo-chip-multi" type="button" aria-expanded="false" title="${esc(b)} \u2014 ${esc(doors.map(p=>p.c).join(", "))}; tap to show each">${esc(b)}<b>\u00d7${doors.length}</b></button>`
+         + `<span class="bo-chip-doors" hidden>${inner}</span></span>`;
   }).join("");
 }
 function ownRowHTML(p){
@@ -2520,6 +2534,13 @@ boBody.addEventListener("click", e=>{
   if(b.dataset.kind) renderBoutiques(boRegion, b.dataset.kind);
   else renderBoutiques(boRegion, boKind, b.dataset.view);
   history.replaceState(null,"",boutiquesHash());
+});
+// a multi-door pill expands to its towns; tapping it again collapses
+boBody.addEventListener("click", e=>{
+  const btn = e.target.closest("button.bo-chip-multi");
+  if(!btn) return;
+  const doors = btn.nextElementSibling; const open = doors.hidden;
+  doors.hidden = !open; btn.setAttribute("aria-expanded", open ? "true" : "false"); btn.classList.toggle("open", open);
 });
 // a region heading in the by-region view opens that region
 boBody.addEventListener("click", e=>{

@@ -594,7 +594,7 @@ with sync_playwright() as p:
     # by region: every independent shop is a row and every brand door is inside a chip's count
     ck('index opens with every store of both kinds',
        pg.eval_on_selector_all('#boutiquesView .bo-line','e=>e.length')==pg.evaluate("()=>PLACES.filter(p=>p.k==='s').length") and
-       pg.evaluate("[...document.querySelectorAll('#boutiquesView .bo-chip')].reduce((n,c)=>n+(+(c.querySelector('b')?.textContent.replace('×','')||1)),0)")==pg.evaluate("()=>PLACES.filter(p=>p.k==='o').length"))
+       pg.evaluate("[...document.querySelectorAll('#boutiquesView .bo-chips > a.bo-chip-map, #boutiquesView button.bo-chip-multi')].reduce((n,c)=>n+(+(c.querySelector('b')?.textContent.replace('×','')||1)),0)")==pg.evaluate("()=>PLACES.filter(p=>p.k==='o').length"))
     ck('every independent shop row offers a report action',
        pg.eval_on_selector_all('#boutiquesView .bo-report.visit-link','e=>e.length')==
        pg.eval_on_selector_all('#boutiquesView .bo-line:not(.bo-own)','e=>e.length'))
@@ -874,7 +874,10 @@ with sync_playwright() as p:
     pg.set_viewport_size({'width':1400,'height':1000})
     pg.goto(url+'#stores'); pg.reload(); pg.wait_for_timeout(500)
     pg.fill('#boSearch','south shore'); pg.wait_for_timeout(300)
-    pg.click('#boBody .bo-chip'); pg.wait_for_timeout(400)
+    ck('a single-door pill is a Maps link', pg.evaluate("[...document.querySelectorAll('#boBody a.bo-chip-map')].every(a=>a.href.startsWith('https://www.google.com/maps/'))") and pg.evaluate("document.querySelectorAll('#boBody a.bo-chip-map').length")>0)
+    pg.click('#boBody button.bo-chip-multi'); pg.wait_for_timeout(200)
+    ck('a multi-door pill expands to one Maps pill per town', pg.evaluate("(()=>{const g=document.querySelector('#boBody .bo-chipgroup'); return !g.querySelector('.bo-chip-doors').hidden && g.querySelectorAll('a.bo-chip-map').length>=2})()"))
+    pg.click('#boBody .bo-chipgroup a.bo-chip-brand'); pg.wait_for_timeout(400)
     ck('a brand chip in the index opens the brand page on top', pg.evaluate("detailView.classList.contains('show') && !boutiquesView.classList.contains('show')"))
     pg.click('#detailClose'); pg.wait_for_timeout(400)
     ck('closing it returns to the Stores index with the filter intact', pg.evaluate("boutiquesView.classList.contains('show') && document.getElementById('boSearch').value")=='south shore' and pg.evaluate('location.hash').startswith('#stores'))
@@ -928,7 +931,7 @@ with sync_playwright() as p:
     ck('the full index offers no route', pg.evaluate("document.querySelectorAll('#boBody a.bo-route').length")==0)
     ck('the default view is by region: state headings and region sections', pg.evaluate("document.querySelectorAll('#boBody .bo-state').length")>=8 and pg.evaluate("document.querySelectorAll('#boBody .bo-sec').length")>=40)
     ck('brand stores are chips with counts, independents are rows', pg.evaluate("document.querySelectorAll('#boBody .bo-chip').length")>200 and pg.evaluate("document.querySelectorAll('#boBody .bo-line').length")==pg.evaluate("PLACES.filter(p=>p.k==='s').length"))
-    ck('a Faherty chip carries its door count', pg.evaluate("[...document.querySelectorAll('#boBody .bo-chip')].some(c=>c.textContent.startsWith('Faherty') && /×\\d/.test(c.textContent))"))
+    ck('a Faherty chip carries its door count', pg.evaluate("[...document.querySelectorAll('#boBody button.bo-chip-multi')].some(c=>c.textContent.startsWith('Faherty') && /×\\d/.test(c.textContent))"))
     ck('an independent row leads with carried brands', pg.evaluate("[...document.querySelectorAll('#boBody .bo-line .bo-meta')].some(m=>m.textContent.includes('Barbour'))"))
     pg.fill('#boSearch','hingham'); pg.wait_for_timeout(300)
     ck('the filter box narrows the page', pg.evaluate("document.querySelectorAll('#boBody .bo-line').length")==2 and pg.evaluate("document.querySelectorAll('#boBody .bo-sec').length")==1)
