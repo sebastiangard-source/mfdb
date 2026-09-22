@@ -639,7 +639,8 @@
   .bo-reg{font-size:13px;font-weight:600;margin:14px 0 4px;display:flex;align-items:baseline;gap:10px}
   .bo-reg a{color:var(--ink);text-decoration:none}.bo-reg a:hover{text-decoration:underline}
   .bo-count{font-weight:400;font-size:11.5px;color:var(--ink-faint)}
-  .bo-chips{display:flex;flex-wrap:wrap;gap:6px;margin:6px 0 4px}
+  .bo-chips{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin:14px 0 6px;padding-top:10px;border-top:1px dashed var(--hairline)}
+  .bo-chips-lab{font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint);margin-right:6px}
   #boutiquesView .bo-chip.detail-link{text-transform:none;letter-spacing:0;font-weight:400;font-size:12px;color:var(--ink)}
   .bo-chip{font-size:12px;padding:4px 10px;border-radius:12px;background:rgba(18,59,43,.07);color:var(--ink);text-decoration:none}
   .bo-chip b{font-weight:500;margin-left:4px;color:var(--ink-faint)}.bo-chip:hover{background:rgba(18,59,43,.15)}
@@ -2237,6 +2238,7 @@ document.addEventListener("keydown", e=>{
 }, true);
 function closeDetail(){
   detailView.classList.remove("show");
+  if(detailReturn){ const back = detailReturn; detailReturn = null; back(); return; }
   if(location.hash.startsWith("#brand=")) history.replaceState(null,"",location.pathname+location.search);
 }
 detailBody.addEventListener("click", e=>{
@@ -2290,10 +2292,30 @@ function closeAbove(id){
     if(z > bz && el.classList.contains("show")) el.classList.remove("show");
   });
 }
+// What the brand page covered when it opened, so close returns the reader there.
+// Without this, opening a brand from the Stores index dismissed the index, and close
+// landed on the home page — "backing out all the way".
+let detailReturn = null;
+function rememberBelowDetail(){
+  const bo = boutiquesView.classList.contains("show");
+  const sh = typeof shopView !== "undefined" && shopView.classList.contains("show");
+  const rg = typeof regionView !== "undefined" && regionView.classList.contains("show");
+  if(!bo && !sh && !rg){ detailReturn = null; return; }
+  const state = {bo, sh, rg, region: boRegion, kind: boKind, view: boView, query: boQuery,
+                 shop: typeof lastShopSlug !== "undefined" ? lastShopSlug : null,
+                 regionBrand: typeof currentBrand !== "undefined" ? currentBrand : null};
+  detailReturn = ()=>{
+    if(state.bo){ boQuery = state.query; renderBoutiques(state.region, state.kind, state.view); }
+    if(state.sh && state.shop){ renderShop(state.shop); history.replaceState(null,"","#shop="+state.shop); }
+    else if(state.bo){ history.replaceState(null,"",boutiquesHash()); }
+    else if(state.rg && state.regionBrand){ renderRegion(state.regionBrand); history.replaceState(null,"","#region="+encodeURIComponent(state.regionBrand)); }
+  };
+}
 document.addEventListener("click", e=>{
   const a = e.target.closest("a.detail-link");
   if(!a) return;
   e.preventDefault(); e.stopPropagation();
+  rememberBelowDetail();
   // One overlay at a time: everything stacked above the brand card has to go, or the
   // card the click just asked for opens underneath and looks like nothing happened.
   // This was a hand-kept list and the boutiques index was never added to it, so a
@@ -2459,7 +2481,7 @@ function renderBoutiques(region, kind, view){
         return `<section class="bo-sec"><h4 class="bo-reg"><a href="#stores=${slug}${boKind!=="all"?"+"+boKind:""}">${esc(reg)}</a>`
              + `<span class="bo-count">${count}</span></h4>`
              + shops.map(([p,i])=>shopRowHTML(p, i, true)).join("")
-             + (owns.length ? `<div class="bo-chips">${ownChipsHTML(owns)}</div>` : "")
+             + (owns.length ? `<div class="bo-chips"><span class="bo-chips-lab">Brand stores here</span>${ownChipsHTML(owns)}</div>` : "")
              + `</section>`;
       }).join("");
     }).join("") || `<p class="bo-lead">Nothing matches.</p>`;
@@ -2601,7 +2623,9 @@ function shopByRef(ref){
 function brandsAt(i){
   return Object.keys(REGION).filter(b=>REGION[b].s.indexOf(i) >= 0).sort();
 }
+let lastShopSlug = null;
 function renderShop(ref){
+  lastShopSlug = ref;
   const i = shopByRef(String(ref));
   const p = PLACES[i];
   if(i < 0 || !p || p.k !== "s") return;
