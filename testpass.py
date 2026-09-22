@@ -882,7 +882,9 @@ with sync_playwright() as p:
     pg.click('#shopBody a.detail-link'); pg.wait_for_timeout(400)
     pg.click('#detailClose'); pg.wait_for_timeout(400)
     ck('closing a brand opened from a shop page returns to that shop page', pg.evaluate("shopView.classList.contains('show') && location.hash.startsWith('#shop=')"))
-    ck('the chip strip carries its label', pg.evaluate("!!document.querySelector('#boBody .bo-chips-lab')") or True)
+    pg.goto(url+'#stores'); pg.reload(); pg.wait_for_timeout(500)
+    ck('the chip strip names the region and says brand-owned', pg.evaluate("[...document.querySelectorAll('#boBody .bo-chips-lab')].every(l=>/^Brand-owned stores in .+/.test(l.textContent))"))
+    ck('nothing on the page says bare brand store', pg.evaluate("!/\\bbrand stores?\\b(?!-)/i.test(document.getElementById('boBody').innerText.replace(/brand-owned/gi,''))"))
 
     head('prev / next')
     pg.set_viewport_size({'width':1400,'height':1000})

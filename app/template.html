@@ -2431,7 +2431,7 @@ function ownRowHTML(p){
   const reg = subregionOf(p);
   const tag = `<span class="bo-region" role="link" tabindex="0" data-region="${esc(reg)}" title="All stores in ${esc(reg)}">${esc(reg)}</span>`;
   return `<div class="bo-line bo-own"><a class="bo-row detail-link" data-brand="${esc(p.n)}" href="#brand=${encodeURIComponent(p.n)}">`
-       + `<span class="bo-name">${esc(p.n)}${tag}</span><div class="bo-meta">${esc(p.c)}, ${esc(p.s)} \u00b7 brand store</div></a>`
+       + `<span class="bo-name">${esc(p.n)}${tag}</span><div class="bo-meta">${esc(p.c)}, ${esc(p.s)} \u00b7 brand-owned store</div></a>`
        + `<a class="bo-report" href="${shopMapUrl(p)}" target="_blank" rel="noopener" title="Open in Maps">map \u2197</a></div>`;
 }
 function matchesQuery(p){
@@ -2450,7 +2450,7 @@ function renderBoutiques(region, kind, view){
   if(boKind !== "all") idx = idx.filter(([p])=>p.k===(boKind==="shop"?"s":"o"));
   idx = idx.filter(([p])=>matchesQuery(p));
   const states = new Set(idx.map(([p])=>p.s));
-  const chips = [["all","All"],["shop","Independent shops"],["own","Brand stores"]].map(([k,t])=>
+  const chips = [["all","All"],["shop","Independent shops"],["own","Brand-owned stores"]].map(([k,t])=>
       `<button class="bo-kind${boKind===k?" on":""}" data-kind="${k}">${t}</button>`).join("");
   const views = [["region","By region"],["az","A to Z"]].map(([k,t])=>
       `<button class="bo-view${boView===k?" on":""}" data-view="${k}">${t}</button>`).join("");
@@ -2459,11 +2459,11 @@ function renderBoutiques(region, kind, view){
       + `<p class="bo-lead">${idx.length} of ${all.length} stores. `
       + `<a class="bo-all" href="#stores">show all ${all.length} \u2192</a></p>`
     : `<h2>Stores \u2014 ${REGION_NAME}</h2>`
-      + `<p class="bo-lead">${nShop} independent shops carrying brands from the map and ${nOwn} brand-owned stores, across ${states.size} state${states.size===1?"":"s"}.</p>`)
+      + `<p class="bo-lead">${nShop} independent shops carrying brands from the map and ${nOwn} stores owned and run by the brands themselves, across ${states.size} state${states.size===1?"":"s"}.</p>`)
     + `<div class="bo-tools"><input id="boSearch" type="search" placeholder="Name, town or region" value="${esc(boQuery)}" aria-label="Filter stores">`
     + `<div class="bo-kinds">${chips}</div><div class="bo-kinds">${views}</div></div>`
     + (boRegion && idx.length ? `<p class="bo-routes">${routeLinks(idx.map(([p])=>p))}</p>` : "");
-  const caveat = `<p class="bo-caveat">Brand stores are the brand\u2019s own doors; independent shops are stockists. `
+  const caveat = `<p class="bo-caveat">Brand-owned stores are run by the brand itself; independent shops are stockists that buy from many brands. `
     + `No department stores or concessions. A store outside ${REGION_NAME} is absent because the register `
     + `has not reached it. Brand lists say what a shop buys, not what is on the rack today.</p>`;
   let body;
@@ -2480,12 +2480,12 @@ function renderBoutiques(region, kind, view){
         const rows = byState[st][reg];
         const shops = rows.filter(([p])=>p.k==="s"), owns = rows.filter(([p])=>p.k==="o");
         const count = [shops.length ? `${shops.length} independent shop${shops.length===1?"":"s"}` : "",
-                       owns.length ? `${owns.length} brand store${owns.length===1?"":"s"}` : ""].filter(Boolean).join(" \u00b7 ");
+                       owns.length ? `${owns.length} brand-owned store${owns.length===1?"":"s"}` : ""].filter(Boolean).join(" \u00b7 ");
         const slug = regionSlug(reg);
         return `<section class="bo-sec"><h4 class="bo-reg"><a href="#stores=${slug}${boKind!=="all"?"+"+boKind:""}">${esc(reg)}</a>`
              + `<span class="bo-count">${count}</span></h4>`
              + shops.map(([p,i])=>shopRowHTML(p, i, true)).join("")
-             + (owns.length ? `<div class="bo-chips"><span class="bo-chips-lab">Brand stores here</span>${ownChipsHTML(owns)}</div>` : "")
+             + (owns.length ? `<div class="bo-chips"><span class="bo-chips-lab">Brand-owned stores in ${esc(reg)}</span>${ownChipsHTML(owns)}</div>` : "")
              + `</section>`;
       }).join("");
     }).join("") || `<p class="bo-lead">Nothing matches.</p>`;
