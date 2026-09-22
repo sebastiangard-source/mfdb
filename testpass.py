@@ -859,6 +859,8 @@ with sync_playwright() as p:
     ck('garment labels use the brand\'s own men\'s listing where one is on file', pg.evaluate("document.querySelector('#detailBody .pr-row .gl-link').href")=='https://fahertybrand.com/collections/mens-t-shirts-henleys-polos' or 'fahertybrand.com/collections/' in pg.evaluate("document.querySelector('#detailBody .pr-row .gl-link').href"))
     pg.goto(url); pg.reload(); pg.wait_for_timeout(400); pg.hover('.brand:has-text("Ring Jacket")'); pg.wait_for_timeout(600)
     ck('the card draws a native figure instead of a bar', pg.evaluate("document.querySelectorAll('#hoverCard .hp-native').length")>0)
+    ck('no range tag hangs off the card', pg.evaluate("!document.querySelector('#hoverCard .hp-tag')"))
+    ck('reach describes no zero', '0 =' not in pg.evaluate("document.querySelector('.dial[data-attr=\"reach\"] .dl').dataset.tip"))
     pg.goto(url+'#brand=Faherty'); pg.reload(); pg.wait_for_timeout(400)
     ck('a brand with every garment linked to its own pages says so in the note', 'every label opens' in pg.evaluate("document.querySelector('#detailBody .pv-note').textContent"))
     pg.goto(url); pg.reload(); pg.wait_for_timeout(400); pg.mouse.move(5,5); pg.wait_for_timeout(200); pg.hover('.brand:has-text("Faherty")'); pg.wait_for_timeout(600)
