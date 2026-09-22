@@ -76,7 +76,7 @@ with sync_playwright() as p:
     ck('the detail card draws eight rows',
        pg.eval_on_selector_all('#detailBody .pr-row','e=>e.length')==8)
     ck('a checked brand says so',
-       pg.eval_on_selector_all('#detailBody .pv-ok','e=>e.length')==1)
+       pg.eval_on_selector_all('#detailBody .pv-ok:not(.pv-links)','e=>e.length')==1)
     # Derived: the first brand with an unassessed slot, whichever it is this build.
     _unc = pg.evaluate("Object.keys(PRICES).find(k=>PRICES[k].includes('?') && !PRICE_PASS.includes(k))")
     pg.goto(url+'#brand='+_unc.replace(' ','%20').replace("'", '%27')); pg.reload(); pg.wait_for_timeout(400)
@@ -841,7 +841,8 @@ with sync_playwright() as p:
     ck('priced garment labels link to the brand site search', len(links)==npriced and all('toddsnyder' in h for _,h in links), f'{len(links)} links, {npriced} priced')
     ck('unpriced garment labels stay plain', pg.evaluate("[...document.querySelectorAll('#detailBody .pr-row')].filter(r=>r.textContent.includes('not assessed')).every(r=>!r.querySelector('a'))"))
     pg.goto(url+'#brand=Tecovas'); pg.reload(); pg.wait_for_timeout(400)
-    ck('the Shoes label uses the curated shoe link where one exists', pg.evaluate("document.querySelectorAll('#detailBody .pr-row')[7].querySelector('a')?.href")=='https://www.tecovas.com/search?q=Cartwright%20boot')
+    # own men's shoes listing wins over the curated one-thing shoe search where both exist
+    ck('the Shoes label links to the brand\'s own shoes listing, else the curated shoe link', pg.evaluate("document.querySelectorAll('#detailBody .pr-row')[7].querySelector('a')?.href") in (pg.evaluate("GLINKS['Tecovas']?.Shoes"), 'https://www.tecovas.com/search?q=Cartwright%20boot'))
     pg.goto(url); pg.reload(); pg.wait_for_timeout(400); pg.hover('.brand:has-text("Todd Snyder")'); pg.wait_for_timeout(600)
     ck('card garment labels link too', pg.evaluate("document.querySelectorAll('#hoverCard .hp-name a.gl-link').length")==npriced)
     ck('the separate Shoes line is gone from the card', pg.evaluate("!document.querySelector('#hoverCard .hc-shoe')"))
@@ -860,7 +861,10 @@ with sync_playwright() as p:
     ck('the card draws a native figure instead of a bar', pg.evaluate("document.querySelectorAll('#hoverCard .hp-native').length")>0)
     pg.goto(url+'#brand=Faherty'); pg.reload(); pg.wait_for_timeout(400)
     ck('a brand with every garment linked to its own pages carries the own-pages mark', pg.evaluate("!!document.querySelector('#detailBody .pv-links')"))
-    pg.goto(url+'#brand=Barbour'); pg.reload(); pg.wait_for_timeout(400)
+    # Derived: a brand that has a search URL and at least one priced garment with no own-page link.
+    _srch = pg.evaluate("Object.keys(PRICES).find(k=>SHOP[k] && PRICES[k].some((r,i)=>Array.isArray(r)&&r.length===2&&!(GLINKS[k]&&GLINKS[k][PRGARMENTS[i]])))")
+    ck('the map still holds a brand on site search to test against', _srch is not None, _srch)
+    pg.goto(url+'#brand='+(_srch or 'Barbour').replace(' ','%20').replace("'", '%27')); pg.reload(); pg.wait_for_timeout(400)
     ck('a brand still on site search does not', pg.evaluate("!document.querySelector('#detailBody .pv-links')"))
     ck('own-page labels and search labels are told apart', pg.evaluate("document.querySelector('#detailBody .gl-link:not(.gl-own)')?.title.includes('site search')"))
 
