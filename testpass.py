@@ -75,13 +75,13 @@ with sync_playwright() as p:
     pg.goto(url+'#brand=Golden%20Goose'); pg.reload(); pg.wait_for_timeout(420)
     ck('the detail card draws eight rows',
        pg.eval_on_selector_all('#detailBody .pr-row','e=>e.length')==8)
-    ck('a checked brand says so',
-       pg.eval_on_selector_all('#detailBody .pv-ok:not(.pv-links)','e=>e.length')==1)
+    ck('a checked brand says so in the note',
+       'all eight garments read' in pg.eval_on_selector('#detailBody .pv-note','e=>e.textContent'))
     # Derived: the first brand with an unassessed slot, whichever it is this build.
     _unc = pg.evaluate("Object.keys(PRICES).find(k=>PRICES[k].includes('?') && !PRICE_PASS.includes(k))")
     pg.goto(url+'#brand='+_unc.replace(' ','%20').replace("'", '%27')); pg.reload(); pg.wait_for_timeout(400)
     ck('an unchecked brand does not',
-       pg.eval_on_selector_all('#detailBody .pv-ok','e=>e.length')==0)
+       'all eight' not in pg.eval_on_selector('#detailBody .pv-note','e=>e.textContent'))
     pg.goto(url+'#prices'); pg.reload(); pg.wait_for_timeout(450)
     ck('the prices overlay offers all eight',
        len(pg.eval_on_selector_all('#pvG button','e=>e.map(x=>x.textContent)'))==9)
@@ -860,12 +860,18 @@ with sync_playwright() as p:
     pg.goto(url); pg.reload(); pg.wait_for_timeout(400); pg.hover('.brand:has-text("Ring Jacket")'); pg.wait_for_timeout(600)
     ck('the card draws a native figure instead of a bar', pg.evaluate("document.querySelectorAll('#hoverCard .hp-native').length")>0)
     pg.goto(url+'#brand=Faherty'); pg.reload(); pg.wait_for_timeout(400)
-    ck('a brand with every garment linked to its own pages carries the own-pages mark', pg.evaluate("!!document.querySelector('#detailBody .pv-links')"))
+    ck('a brand with every garment linked to its own pages says so in the note', 'every label opens' in pg.evaluate("document.querySelector('#detailBody .pv-note').textContent"))
+    pg.goto(url); pg.reload(); pg.wait_for_timeout(400); pg.mouse.move(5,5); pg.wait_for_timeout(200); pg.hover('.brand:has-text("Faherty")'); pg.wait_for_timeout(600)
+    _card = pg.evaluate("[document.querySelector('#hoverCard h4')?.textContent, !!document.querySelector('#hoverCard .hc-prices .pv-ok'), document.querySelector('#hoverCard .hp-gap')?.textContent||null]")
+    ck('a complete brand\'s card carries no price marks', _card[0] and _card[0].startswith('Faherty') and not _card[1] and _card[2] is None, _card)
     # Derived: a brand that has a search URL and at least one priced garment with no own-page link.
     _srch = pg.evaluate("Object.keys(PRICES).find(k=>SHOP[k] && PRICES[k].some((r,i)=>Array.isArray(r)&&r.length===2&&!(GLINKS[k]&&GLINKS[k][PRGARMENTS[i]])))")
     ck('the map still holds a brand on site search to test against', _srch is not None, _srch)
     pg.goto(url+'#brand='+(_srch or 'Barbour').replace(' ','%20').replace("'", '%27')); pg.reload(); pg.wait_for_timeout(400)
-    ck('a brand still on site search does not', pg.evaluate("!document.querySelector('#detailBody .pv-links')"))
+    ck('a brand still on site search does not', 'site search' in pg.evaluate("document.querySelector('#detailBody .pv-note').textContent"))
+    pg.goto(url); pg.reload(); pg.wait_for_timeout(400); pg.mouse.move(5,5); pg.wait_for_timeout(200); pg.hover('.brand:has-text("'+(_srch or 'Barbour')+'")'); pg.wait_for_timeout(600)
+    ck('an incomplete brand\'s card names what is missing', 'site search' in (pg.evaluate("document.querySelector('#hoverCard .hp-gap')?.textContent") or ''))
+    pg.goto(url+'#brand='+(_srch or 'Barbour').replace(' ','%20').replace("'", '%27')); pg.reload(); pg.wait_for_timeout(400)
     ck('own-page labels and search labels are told apart', pg.evaluate("document.querySelector('#detailBody .gl-link:not(.gl-own)')?.title.includes('site search')"))
 
     head('close returns to where you were')

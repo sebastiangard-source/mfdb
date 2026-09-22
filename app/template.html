@@ -250,6 +250,8 @@
   .pr-native{color:var(--ink-faint)}
   .gl-link.gl-own{border-bottom-style:solid}
   .pv-links{margin-left:6px}
+  .hp-gap{margin-left:8px;font-size:10px;color:var(--ink-faint);font-style:italic;letter-spacing:0;text-transform:none}
+  .pv-note{font-size:11.5px;color:var(--ink-faint);margin:-4px 0 10px}
   .gl-link{color:inherit;text-decoration:none;border-bottom:1px dotted var(--ink-faint)}
   .gl-link:hover{border-bottom-color:var(--ink);color:var(--ink)}
   .hc-head{display:flex;justify-content:space-between;align-items:center;gap:10px;margin:0 0 6px}
@@ -2086,7 +2088,7 @@ function pricesHTML(name){
          + `<span class="pr-dot" style="left:${prPos(mid)}%"></span></div>`
          + `<div class="pr-val">${priceText(r)}${rng?` <span class="pr-tag" title="the category's plain range, not the entry-to-elevated pair">range</span>`:""}</div></div>`;
   }).join("");
-  return `<h3>Prices${pricePassHTML(name)}${linksMarkHTML(name)}</h3><div class="pr-wrap"><div class="pr-axis">${axis}</div>${rows}`
+  return `<h3>Prices</h3>${priceNoteHTML(name)}<div class="pr-wrap"><div class="pr-axis">${axis}</div>${rows}`
        + `<p class="pr-note">US full-price retail, read on the brand\u2019s own store in September 2026. A bar runs from the `
        + `entry version to the elevated-fibre version of one staple; a bar marked <i>range</i> is the cheapest to `
        + `dearest of the category, because the brand sells no such pair. A figure in another currency is shown as `
@@ -3353,6 +3355,25 @@ function linksMarkHTML(name){
     ? '<span class="pv-ok pv-links" title="Every garment label opens the brand\u2019s own men\u2019s listing for that garment, read on 19 September">own pages</span>'
     : "";
 }
+// Card: say something only when something is missing. Page: one quiet sentence either way.
+function priceGapsHTML(name){
+  const key = name.trim(); const p = PRICES[key]; if(!p) return "";
+  const unread = p.filter(r=>r==="?").length;
+  const onSearch = p.some((r,i)=>Array.isArray(r) && r.length===2 && !(GLINKS[key] && GLINKS[key][PRGARMENTS[i]]));
+  const bits = [];
+  if(unread) bits.push(`${unread} garment${unread===1?"":"s"} not yet priced`);
+  if(onSearch) bits.push(`some labels open site search`);
+  return bits.length ? `<span class="hp-gap">${bits.join(" \u00b7 ")}</span>` : "";
+}
+function priceNoteHTML(name){
+  const key = name.trim(); const p = PRICES[key]; if(!p) return "";
+  const unread = p.filter(r=>r==="?").length;
+  const checked = PRICE_PASS.indexOf(key) >= 0;
+  const linked = linksComplete(key);
+  const a = unread ? `${8-unread} of eight garments read on the brand\u2019s own store` : `all eight garments read on the brand\u2019s own store${checked ? ", " + PRICE_PASS_DATE : ""}`;
+  const b = linked ? "every label opens the brand\u2019s own men\u2019s page" : "labels open the brand\u2019s own page where one is on file, otherwise its site search";
+  return `<p class="pv-note">${a}; ${b}.</p>`;
+}
 function pricePassHTML(name){
   if(PRICE_PASS.indexOf(name.trim()) < 0) return "";
   return '<span class="pv-ok" title="All eight garments opened and read on the '
@@ -3409,7 +3430,7 @@ function pricesStripHTML(name){
     return `<div class="hp-row"><div class="hp-name${has?"":(r==="?"?" hp-unk":" hp-none")}"${title}>${garmentLabel(name, i, PRSHORT[i], has && !native)}</div>`
          + `<div class="hp-track">${gl}${track}</div></div>`;
   }).join("");
-  return `<div class="hc-prices"><span class="hp-lab">Prices</span>${pricePassHTML(name)}${linksMarkHTML(name)}`
+  return `<div class="hc-prices"><span class="hp-lab">Prices</span>${priceGapsHTML(name)}`
        + rows + `<div class="hp-ax">${ax}</div></div>`;
 }
 
