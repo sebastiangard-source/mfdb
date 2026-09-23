@@ -1545,3 +1545,5 @@ Held: [('Carhartt', 'sweater NONE — a house with no crewneck still makes sweat
 ## 2026-09-23 · ruling · A Bathing Ape reach 4 -> 2 (eight own doors, no stockists, no department stores; note written)
 
 ## 2026-09-23 · ruling · band by measured price: BOSS trueLux -> accessible; Johnstons of Elgin accessible -> trueLux. Seats renumbered.
+
+## 2026-09-23 · visit · Watson's Style, Orleans: Levi's confirmed (added as stockist); Carhartt confirmed (already on file); Tommy Bahama confirmed (not on the map; seen register updated to 7 shops)
