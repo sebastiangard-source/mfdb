@@ -41,12 +41,13 @@
   "doors": {
     "c": "full",
     "n": 3,
-    "cities": [["San Francisco", "CA", 2], ["Seattle", "WA", 1]]
+    "cities": [["San Francisco", "CA", 2], ["Seattle", "WA", 1]],
+    "basis": "master 2026-08-29, pre-recapture"
   },
   "cities": "San Francisco (Valencia & Chestnut) · Seattle · online",
   "region": {
     "o": [],
-    "s": [246, 744, 761]
+    "s": [77, 119, 136]
   },
   "site": {
     "domain": "taylorstitch.com",

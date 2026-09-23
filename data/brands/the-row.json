@@ -58,11 +58,12 @@
   "doors": {
     "c": "full",
     "n": 3,
-    "cities": [["Amagansett", "NY", 1], ["Los Angeles", "CA", 1], ["New York", "NY", 1]]
+    "cities": [["Amagansett", "NY", 1], ["Los Angeles", "CA", 1], ["New York", "NY", 1]],
+    "basis": "master 2026-08-29, pre-recapture"
   },
   "cities": "NYC & LA · Bergdorf/Neiman · Seattle (Mario's)",
   "region": {
-    "o": [266, 505],
+    "o": [2715, 2716],
     "s": []
   },
   "addmen": true,

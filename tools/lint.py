@@ -16,6 +16,7 @@ rather than which line of an 800KB build is. The rules are the same five classes
 
 Exit 1 on ORPHAN / RANGE / SHAPE / GAP.
 """
+NE_STATES = {'MA','RI','CT','NH','VT','ME','NY','NJ','PA','DE'}
 import sys, os, collections
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import spec
@@ -167,7 +168,7 @@ for rec in data.brands:
 
 sub = {f'{st}|{c}' for st, labs in data.regions.items() for labs_, cities in [(None, sum(labs.values(), []))] for c in cities}
 for i, pl in enumerate(data.places):
-    if pl.get('k') in ('s', 'o') and f'{pl.get("s")}|{pl.get("c")}' not in sub:
+    if pl.get('k') in ('s', 'o') and pl.get('s') in NE_STATES and f'{pl.get("s")}|{pl.get("c")}' not in sub:
         fail('GAP', f'places[{i}] ({pl.get("n")!r}, {pl.get("c")} {pl.get("s")}): no sub-region in regions.json')
     for k in ('n', 'c', 's'):
         if not pl.get(k):

@@ -45,12 +45,13 @@
   "doors": {
     "c": "full",
     "n": 3,
-    "cities": [["Edgartown", "MA", 1], ["New York", "NY", 2]]
+    "cities": [["Edgartown", "MA", 1], ["New York", "NY", 2]],
+    "basis": "master 2026-08-29, pre-recapture"
   },
   "cities": "NYC stores · growing US retail",
   "region": {
-    "o": [84, 345, 346],
-    "s": [246, 259]
+    "o": [188, 189, 190],
+    "s": [77, 86]
   },
   "site": {
     "domain": "alexmill.com",

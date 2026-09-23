@@ -45,11 +45,12 @@
   "doors": {
     "c": "full",
     "n": 4,
-    "cities": [["Aventura", "FL", 1], ["Las Vegas", "NV", 1], ["Miami", "FL", 1], ["New York", "NY", 1]]
+    "cities": [["Aventura", "FL", 1], ["Las Vegas", "NV", 1], ["Miami", "FL", 1], ["New York", "NY", 1]],
+    "basis": "master 2026-08-29, pre-recapture"
   },
   "cities": "NYC & Miami · dept stores",
   "region": {
-    "o": [452],
+    "o": [2079],
     "s": []
   },
   "addmen": true,

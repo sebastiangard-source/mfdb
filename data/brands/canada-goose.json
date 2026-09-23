@@ -47,7 +47,7 @@
   },
   "doors": {
     "c": "full",
-    "n": 19,
+    "n": 18,
     "cities": [
       ["Anchorage", "AK", 1],
       ["Atlanta", "GA", 1],
@@ -60,18 +60,19 @@
       ["East Rutherford", "NJ", 1],
       ["Honolulu", "HI", 1],
       ["King of Prussia", "PA", 1],
-      ["Las Vegas", "NV", 2],
+      ["Las Vegas", "NV", 1],
       ["Los Angeles", "CA", 1],
       ["New York", "NY", 2],
       ["Oak Brook", "IL", 1],
       ["Short Hills", "NJ", 1],
       ["Troy", "MI", 1]
-    ]
+    ],
+    "basis": "recapture 2026-09"
   },
   "cities": "50+ stores — most major metros · dept stores",
   "region": {
-    "o": [],
-    "s": [74, 244, 741, 750]
+    "o": [679, 682, 683, 685, 686, 687],
+    "s": [11, 75, 116, 125]
   },
   "addmen": true,
   "site": {

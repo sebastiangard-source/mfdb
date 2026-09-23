@@ -39,7 +39,7 @@
   "prices": [null, null, [139, 199], null, [139, 599], [89, 119], [319, 819], "?"],
   "doors": {
     "c": "full",
-    "n": 47,
+    "n": 46,
     "cities": [
       ["Atlanta", "GA", 1],
       ["Austin", "TX", 1],
@@ -52,7 +52,6 @@
       ["Dallas", "TX", 1],
       ["Dedham", "MA", 1],
       ["Denver", "CO", 1],
-      ["Farmington", "CT", 1],
       ["Fort Worth", "TX", 1],
       ["Glendale", "CA", 1],
       ["Houston", "TX", 1],
@@ -86,11 +85,12 @@
       ["Troy", "MI", 1],
       ["Washington", "DC", 1],
       ["West Columbus", "OH", 1]
-    ]
+    ],
+    "basis": "recapture 2026-09"
   },
   "cities": "Showrooms in ~30 metros",
   "region": {
-    "o": [20, 21, 76, 286, 407, 408],
+    "o": [1222, 1223, 1224, 1225, 1231, 1232, 1234, 1235, 1236, 1241, 1242],
     "s": []
   },
   "site": {

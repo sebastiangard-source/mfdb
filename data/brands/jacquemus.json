@@ -53,11 +53,12 @@
   "doors": {
     "c": "full",
     "n": 3,
-    "cities": [["Montecito", "CA", 1], ["New York", "NY", 1], ["West Hollywood", "CA", 1]]
+    "cities": [["Montecito", "CA", 1], ["New York", "NY", 1], ["West Hollywood", "CA", 1]],
+    "basis": "master 2026-08-29, pre-recapture"
   },
   "cities": "NYC · dept stores",
   "region": {
-    "o": [415],
+    "o": [1276],
     "s": []
   },
   "addmen": true,

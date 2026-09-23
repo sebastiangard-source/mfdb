@@ -53,13 +53,13 @@
   },
   "doors": {
     "c": "full",
-    "n": 47,
+    "n": 45,
     "cities": [
       ["Aspen", "CO", 1],
       ["Atlanta", "GA", 1],
       ["Austin", "TX", 1],
       ["Bal Harbour", "FL", 1],
-      ["Beverly Hills", "CA", 2],
+      ["Beverly Hills", "CA", 1],
       ["Boca Raton", "FL", 1],
       ["Boston", "MA", 1],
       ["Canoga Park", "CA", 1],
@@ -67,7 +67,7 @@
       ["Charlotte", "NC", 1],
       ["Chicago", "IL", 1],
       ["Columbus", "OH", 1],
-      ["Costa Mesa", "CA", 2],
+      ["Costa Mesa", "CA", 1],
       ["Dallas", "TX", 1],
       ["Denver", "CO", 1],
       ["East Hampton", "NY", 1],
@@ -96,12 +96,13 @@
       ["Spring (The Woodlands)", "TX", 1],
       ["Tampa", "FL", 1],
       ["Troy", "MI", 1]
-    ]
+    ],
+    "basis": "recapture 2026-09"
   },
   "cities": "US stores pending the location register",
   "region": {
-    "o": [584, 585, 586, 587],
-    "s": [741, 748]
+    "o": [1075, 1079, 1082, 1083, 1084, 1087],
+    "s": [116, 123]
   },
   "site": {
     "domain": "www.goldengoose.com",

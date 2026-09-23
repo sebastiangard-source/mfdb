@@ -48,7 +48,7 @@
   },
   "doors": {
     "c": "full",
-    "n": 66,
+    "n": 65,
     "cities": [
       ["Alamo Heights", "TX", 1],
       ["Alpharetta", "GA", 1],
@@ -104,18 +104,18 @@
       ["Southlake", "TX", 1],
       ["St. Louis", "MO", 1],
       ["Tampa", "FL", 1],
-      ["Temecula", "CA", 1],
       ["The Woodlands", "TX", 1],
       ["Tigard", "OR", 1],
       ["Troy", "MI", 1],
       ["Tucson", "AZ", 1],
       ["Tulsa", "OK", 1],
       ["Waco", "TX", 1]
-    ]
+    ],
+    "basis": "recapture 2026-09"
   },
   "cities": "40+ stores — Texas-centric, expanding nationwide",
   "region": {
-    "o": [626, 627, 628],
+    "o": [2656, 2664, 2665, 2671, 2672],
     "s": []
   },
   "addmen": true,

@@ -1549,3 +1549,17 @@ Held: [('Carhartt', 'sweater NONE — a house with no crewneck still makes sweat
 ## 2026-09-23 · visit · Watson's Style, Orleans: Levi's confirmed (added as stockist); Carhartt confirmed (already on file); Tommy Bahama confirmed (not on the map; seen register updated to 7 shops)
 
 ## 2026-09-23 · correction · price_checked recomputed from provenance (45 original + 6 September full reads); 123 brands had been flagged on filled-not-read cells
+
+## 2026-09-23 · own doors · own_doors_final_2026-09-23 ingested: 3047 brand-owned doors nationally (2995 from the file, 52 kept from the NE capture for brands the file lacks); region.o remapped; recaptured brands' counts taken from the file; zero line applied. Skipped: {'Cremieux': 4, 'status:coming soon': 4, 'Purple Brand': 2}
+- Indochino: doors 47 -> 46 (recapture)
+- Tecovas: doors 66 -> 65 (recapture)
+- Madhappy: doors 9 -> 6 (recapture)
+- Canada Goose: doors 19 -> 18 (recapture)
+- Todd Snyder: doors 24 -> 22 (recapture)
+- Golden Goose: doors 47 -> 45 (recapture)
+
+- own doors: 12 town spellings normalised; 33 rows with no town dropped; 44 NJ/PA/DE towns mapped to regions
+
+- 33 townless door rows restored with the town read from the store name (Cucinelli); flagged cf on each
+
+- 41 Southern Tide rows carried full state names; normalised to codes

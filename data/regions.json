@@ -48,9 +48,36 @@
     "Merrimack Valley NH": ["Salem"]
   },
   "NJ": {
-    "Jersey Shore": ["Asbury Park", "Cape May", "Long Beach Township"],
+    "Jersey Shore": [
+      "Asbury Park",
+      "Avalon",
+      "Bay Head",
+      "Cape May",
+      "Freehold",
+      "Long Beach Township",
+      "Red Bank",
+      "Rumson",
+      "Sea Girt",
+      "Shrewsbury",
+      "Spring Lake"
+    ],
     "North Jersey": ["Livingston", "Maplewood", "Summit"],
-    "Somerset Hills": ["Far Hills", "Somerville"]
+    "Somerset Hills": ["Far Hills", "Somerville"],
+    "Bergen County": [
+      "Closter",
+      "East Rutherford",
+      "Edgewater",
+      "Hackensack",
+      "Ho-Ho-Kus",
+      "Montvale",
+      "Paramus",
+      "Wayne",
+      "Woodcliff Lake"
+    ],
+    "Essex and Morris": ["Chester", "Denville", "Millburn", "Morristown", "Short Hills", "Upper Montclair"],
+    "Central Jersey": ["Bridgewater", "Edison", "Princeton", "Westfield"],
+    "South Jersey": ["Cherry Hill", "Marlton"],
+    "Hudson Waterfront": ["Hoboken"]
   },
   "NY": {
     "New York City": ["Brooklyn", "New York"],
@@ -86,10 +113,12 @@
     "Philadelphia": ["Philadelphia"],
     "Main Line and Chester County": ["Kennett Square", "Malvern", "Newtown Square", "Phoenixville", "Wayne", "West Chester"],
     "Bucks County": ["Newtown"],
-    "Lehigh Valley": ["Allentown"],
-    "Pittsburgh": ["Greensburg", "Ligonier", "Pittsburgh", "Warrendale"],
+    "Lehigh Valley": ["Allentown", "Center Valley", "Whitehall"],
+    "Pittsburgh": ["Greensburg", "Ligonier", "Mount Lebanon", "Pittsburgh", "Sewickley", "Warrendale"],
     "Central Pennsylvania": ["Bedford", "Indiana", "Johnstown", "State College"],
-    "Northeast Pennsylvania": ["Scranton"]
+    "Northeast Pennsylvania": ["Scranton"],
+    "Main Line": ["Ardmore", "Dresher", "Glen Mills", "Haverford", "King of Prussia", "Warrington"],
+    "Lancaster County": ["Lancaster"]
   },
   "RI": {
     "Providence": ["Cranston", "East Greenwich", "Providence"],
@@ -100,5 +129,8 @@
     "Champlain Valley": ["Burlington", "Shelburne", "Williston"],
     "Stowe and Lamoille": ["Morristown", "Stowe"],
     "Central Vermont": ["Rutland", "Woodstock"]
+  },
+  "DE": {
+    "Northern Delaware": ["Greenville", "Newark"]
   }
 }

@@ -49,12 +49,13 @@
   "doors": {
     "c": "full",
     "n": 5,
-    "cities": [["Larkspur", "CA", 1], ["Los Angeles", "CA", 1], ["Montecito", "CA", 1], ["New York", "NY", 2]]
+    "cities": [["Larkspur", "CA", 1], ["Los Angeles", "CA", 1], ["Montecito", "CA", 1], ["New York", "NY", 2]],
+    "basis": "master 2026-08-29, pre-recapture"
   },
   "cities": "NYC & LA · select dept & specialty",
   "region": {
-    "o": [502, 503],
-    "s": [233, 775]
+    "o": [2628, 2629],
+    "s": [68, 150]
   },
   "addmen": true,
   "site": {

@@ -47,36 +47,13 @@
   "doors": {
     "c": "full",
     "n": 3,
-    "cities": [["New York", "NY", 1], ["Princeton", "NJ", 1], ["Washington", "DC", 1]]
+    "cities": [["New York", "NY", 1], ["Princeton", "NJ", 1], ["Washington", "DC", 1]],
+    "basis": "recapture 2026-09"
   },
   "cities": "Nationwide — dept stores & outdoor/country shops",
   "region": {
-    "o": [671],
-    "s": [
-      55,
-      65,
-      89,
-      90,
-      124,
-      133,
-      140,
-      144,
-      193,
-      227,
-      235,
-      255,
-      259,
-      530,
-      751,
-      752,
-      753,
-      762,
-      763,
-      772,
-      775,
-      776,
-      777
-    ]
+    "o": [413, 414],
+    "s": [6, 9, 12, 13, 21, 29, 33, 36, 53, 64, 69, 82, 86, 96, 126, 127, 128, 137, 138, 147, 150, 151, 152]
   },
   "addmen": true,
   "addcloth": true,

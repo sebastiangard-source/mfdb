@@ -83,7 +83,7 @@
       ["Chicago", "IL", 1],
       ["Costa Mesa", "CA", 1],
       ["Dallas", "TX", 1],
-      ["East Hampton Newtown Lane", "NY", 1],
+      ["East Hampton", "NY", 1],
       ["Houston", "TX", 1],
       ["Las Vegas City Center", "NV", 1],
       ["Las Vegas Wynn", "NV", 1],
@@ -93,9 +93,7 @@
       ["Montecito", "CA", 1],
       ["Naples", "FL", 1],
       ["Nashville", "TN", 1],
-      ["New York Gansevoort", "NY", 1],
-      ["New York Madison", "NY", 1],
-      ["New York Soho", "NY", 1],
+      ["New York", "NY", 3],
       ["Pacific Palisades", "CA", 1],
       ["Palm Beach", "FL", 1],
       ["Palo Alto", "CA", 1],
@@ -106,12 +104,13 @@
       ["Short Hills", "NJ", 1],
       ["Vail", "CO", 1],
       ["Washington", "DC", 1]
-    ]
+    ],
+    "basis": "recapture 2026-09"
   },
   "cities": "Thirty-four own boutiques — Rodeo Drive, Madison Avenue, Aspen, Carmel, Nantucket, Palm Beach — plus thirty concessions inside Saks and Neiman Marcus, which the map does not count as own stores",
   "region": {
-    "o": [6, 288, 321, 364, 365, 363],
-    "s": [176, 216, 741]
+    "o": [3187, 3188, 3191, 3192, 3193, 3194, 3195],
+    "s": [44, 60, 116]
   },
   "addmen": true,
   "addcloth": true,

@@ -45,11 +45,12 @@
   "doors": {
     "c": "full",
     "n": 3,
-    "cities": [["Aspen", "CO", 1], ["New York", "NY", 1], ["West Hollywood", "CA", 1]]
+    "cities": [["Aspen", "CO", 1], ["New York", "NY", 1], ["West Hollywood", "CA", 1]],
+    "basis": "master 2026-08-29, pre-recapture"
   },
   "cities": "LA store · Bergdorf & Nordstrom",
   "region": {
-    "o": [504],
+    "o": [2700],
     "s": []
   },
   "addmen": true,

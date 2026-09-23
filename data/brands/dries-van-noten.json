@@ -50,12 +50,13 @@
   "doors": {
     "c": "full",
     "n": 2,
-    "cities": [["Los Angeles", "CA", 1], ["New York", "NY", 1]]
+    "cities": [["Los Angeles", "CA", 1], ["New York", "NY", 1]],
+    "basis": "master 2026-08-29, pre-recapture"
   },
   "cities": "LA & NYC own stores · dept stores · Paris (Quai Malaquais)",
   "region": {
-    "o": [380],
-    "s": [748]
+    "o": [828],
+    "s": [123]
   },
   "addmen": true,
   "site": {

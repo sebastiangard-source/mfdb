@@ -51,12 +51,13 @@
   "doors": {
     "c": "full",
     "n": 2,
-    "cities": [["Los Angeles", "CA", 1], ["New York", "NY", 1]]
+    "cities": [["Los Angeles", "CA", 1], ["New York", "NY", 1]],
+    "basis": "master 2026-08-29, pre-recapture"
   },
   "cities": "NYC & LA shops · Santa Fe (Standard & Strange) · Nordstrom",
   "region": {
-    "o": [357],
-    "s": [750]
+    "o": [435],
+    "s": [125]
   },
   "addmen": true,
   "site": {

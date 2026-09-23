@@ -632,7 +632,8 @@
       "const": "DOORS",
       "path": "doors",
       "type": "doors",
-      "absent": "required"
+      "absent": "required",
+      "doc": " basis: 'recapture 2026-09' (count is the file's rows), 'master 2026-08-29, pre-recapture' (count inherited; addressed = rows on file), or 'positive zero'."
     },
     "region": {
       "scope": "brand",
@@ -688,7 +689,8 @@
     "places": {
       "scope": "global",
       "const": "PLACES",
-      "file": "places.json"
+      "file": "places.json",
+      "doc": " Own-door records (k=o) may carry bn (banner as the brand states it), v2 (venue), src (capture | master-2026-08-29: provenance grade), st (status when not open). National since 23 Sep 2026; only Northeast towns need a region mapping."
     },
     "changelog": {
       "scope": "global",

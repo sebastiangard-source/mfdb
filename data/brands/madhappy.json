@@ -46,21 +46,20 @@
   },
   "doors": {
     "c": "full",
-    "n": 9,
+    "n": 6,
     "cities": [
       ["Aspen", "CO", 1],
-      ["Chicago", "IL", 1],
       ["Costa Mesa", "CA", 1],
       ["East Hampton", "NY", 1],
       ["Malibu", "CA", 1],
-      ["Miami", "FL", 1],
-      ["New York", "NY", 2],
+      ["New York", "NY", 1],
       ["West Hollywood", "CA", 1]
-    ]
+    ],
+    "basis": "recapture 2026-09"
   },
   "cities": "Own shops in the resort and canyon towns · online",
   "region": {
-    "o": [630, 631],
+    "o": [2002, 2003],
     "s": []
   },
   "addmen": true,

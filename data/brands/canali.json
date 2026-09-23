@@ -47,12 +47,13 @@
   "doors": {
     "c": "full",
     "n": 4,
-    "cities": [["Beverly Hills", "CA", 1], ["Elmont", "NY", 1], ["Las Vegas", "NV", 1], ["New York", "NY", 1]]
+    "cities": [["Beverly Hills", "CA", 1], ["Elmont", "NY", 1], ["Las Vegas", "NV", 1], ["New York", "NY", 1]],
+    "basis": "recapture 2026-09"
   },
   "cities": "NYC, Beverly Hills, Vegas boutiques · the specialty circuit — Boyds, Mitchells, M Penner, Oak Hall",
   "region": {
-    "o": [667, 668],
-    "s": [51, 65, 74, 131, 176, 187, 203, 216, 229, 264, 318, 741, 742, 776, 777]
+    "o": [691, 692],
+    "s": [2, 9, 11, 27, 44, 49, 58, 60, 66, 89, 95, 116, 117, 151, 152]
   },
   "site": {
     "domain": "us.canali.com",

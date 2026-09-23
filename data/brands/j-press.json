@@ -52,11 +52,12 @@
   "doors": {
     "c": "full",
     "n": 3,
-    "cities": [["New Haven", "CT", 1], ["New York", "NY", 1], ["Washington", "DC", 1]]
+    "cities": [["New Haven", "CT", 1], ["New York", "NY", 1], ["Washington", "DC", 1]],
+    "basis": "master 2026-08-29, pre-recapture"
   },
   "cities": "New Haven (York St, since 1902) · NYC · Washington DC · more stores in Japan than America",
   "region": {
-    "o": [188, 414],
+    "o": [1503, 1505],
     "s": []
   },
   "site": {

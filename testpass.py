@@ -202,7 +202,7 @@ with sync_playwright() as p:
     # a brand outside the register must show nothing rather than an empty claim
     pg.goto(url+'#brand=Hackett'); pg.wait_for_timeout(330)
     t2 = pg.eval_on_selector('#detailBody','e=>e.innerText')
-    ck('no stockist row where the register has not reached', REGION_NAME not in t2)
+    ck('no stockist row where the register has not reached', 'shops in '+REGION_NAME not in t2 and 'stockist' not in t2.lower())
     ck('no zero-shop claim anywhere', '0 shops' not in t2 and '0 shops' not in t)
     pg.goto(url+'#brand=Jack%20Victor'); pg.wait_for_timeout(350)
     ck('regional row and button on the card', pg.eval_on_selector_all('.region-btn','e=>e.length')==1)
@@ -605,7 +605,7 @@ with sync_playwright() as p:
                    "return p && a.getAttribute('href')===visitUrl(p);})"))
     # Grouped by state until 15 Sep; now one alphabetical list with a region tag per row,
     # and the tag set must cover every sub-region the data declares for the shops shown.
-    want_regions = pg.evaluate("()=>new Set(PLACES.filter(p=>p.k==='s'||p.k==='o').map(p=>SUBREGION[p.s+'|'+p.c])).size")
+    want_regions = pg.evaluate("()=>new Set(PLACES.filter(p=>p.k==='s'||p.k==='o').map(p=>subregionOf(p))).size")
     # in the by-region view the region is the section heading; in A-to-Z it is the row tag
     got_regions = len(set(pg.eval_on_selector_all('#boutiquesView .bo-region, #boutiquesView .bo-sec[data-region]','e=>e.map(x=>x.dataset.region||x.textContent)')))
     ck('index tags every declared sub-region', got_regions==want_regions, f'{got_regions} of {want_regions}')
@@ -968,6 +968,15 @@ with sync_playwright() as p:
     _ex = pg.evaluate("document.querySelector('#detailBody .rub-inline[data-for=\"craft\"]').textContent")
     ck('a chip explainer names its dial and uses the plain text', _ex.lower().startswith('craft') and '5 =' not in _ex, _ex[:70])
 
+    head('stores nationally')
+    pg.set_viewport_size({'width':1400,'height':1000}); pg.goto(url+'#stores'); pg.reload(); pg.wait_for_timeout(800)
+    ck('the index covers every state', pg.evaluate("document.querySelectorAll('#boBody .bo-state').length")>=48)
+    ck('the Northeast comes first, then a divider, then the rest', pg.evaluate("(()=>{const h=[...document.querySelectorAll('#boBody .bo-state, #boBody .bo-divider')]; const i=h.findIndex(x=>x.classList.contains('bo-divider')); return i>=9 && h[0].textContent==='Massachusetts' && h[i+1].textContent==='Alabama'})()"))
+    ck('beyond the Northeast a section is a city', pg.evaluate("!!document.querySelector('#boBody .bo-sec[data-region=\"Scottsdale, AZ\"]')"))
+    ck('brand-owned doors are places with a town and, all but a couple, a street', pg.evaluate("PLACES.filter(p=>p.k==='o').every(p=>p.c && p.s)") and pg.evaluate("PLACES.filter(p=>p.k==='o' && !p.a).length")<=2)
+    ck('the count is national', pg.evaluate("PLACES.filter(p=>p.k==='o').length")>=3000)
+    ck('a brand with no US store says zero, not nothing', pg.evaluate("DOORS['Paul & Shark'] && DOORS['Paul & Shark'].n===0"))
+
     head('prev / next')
     pg.set_viewport_size({'width':1400,'height':1000})
     pg.goto(url+'#brand=Barbour'); pg.reload(); pg.wait_for_timeout(420)
@@ -1039,7 +1048,7 @@ with sync_playwright() as p:
     ck('Brand stores filter shows only own stores', pg.evaluate("[...document.querySelectorAll('#boBody .bo-line')].every(l=>l.classList.contains('bo-own'))") and pg.evaluate('location.hash')=='#stores=own+az')
     ck('every store row of either kind carries a region tag', pg.evaluate("[...document.querySelectorAll('#boBody .bo-line')].every(l=>l.querySelector('.bo-region')?.textContent.trim())"))
     pg.goto(url+'#stores=lehigh-valley'); pg.reload(); pg.wait_for_timeout(400)
-    ck('a region view counts its own stores, not the whole index', pg.evaluate("document.querySelector('#boBody .bo-lead').textContent").startswith('1 store in Lehigh Valley'))
+    ck('a region view counts its own stores, not the whole index', pg.evaluate("document.querySelector('#boBody .bo-lead').textContent").split(' in Lehigh Valley')[0].split(' ')[-1] in ('store','stores') and 'of ' not in pg.evaluate("document.querySelector('#boBody .bo-lead').textContent").split('.')[0])
     pg.goto(url+'#boutiques'); pg.reload(); pg.wait_for_timeout(400)
     ck('the old #boutiques hash still opens the index', pg.evaluate("boutiquesView.classList.contains('show')"))
     pg.goto(url+'#stores=shop+az'); pg.reload(); pg.wait_for_timeout(500)

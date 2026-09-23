@@ -44,12 +44,13 @@
   "doors": {
     "c": "full",
     "n": 7,
-    "cities": [["Houston", "TX", 1], ["New York", "NY", 4], ["Newport Beach", "CA", 1], ["Scottsdale", "AZ", 1]]
+    "cities": [["Houston", "TX", 1], ["New York", "NY", 4], ["Newport Beach", "CA", 1], ["Scottsdale", "AZ", 1]],
+    "basis": "master 2026-08-29, pre-recapture"
   },
   "cities": "Dept stores & denim boutiques · own shops in NY and Dallas",
   "region": {
-    "o": [338, 339, 340, 341],
-    "s": [65, 73, 74, 131, 154, 192, 193, 194, 195, 229, 258, 742, 751, 774, 776, 777]
+    "o": [181, 182, 183, 184],
+    "s": [9, 10, 11, 27, 41, 52, 53, 54, 55, 66, 85, 117, 126, 149, 151, 152]
   },
   "addmen": true,
   "site": {

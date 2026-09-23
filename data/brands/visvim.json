@@ -62,12 +62,13 @@
   "doors": {
     "c": "full",
     "n": 3,
-    "cities": [["Carmel-by-the-Sea", "CA", 1], ["Los Angeles", "CA", 1], ["Santa Fe", "NM", 1]]
+    "cities": [["Carmel-by-the-Sea", "CA", 1], ["Los Angeles", "CA", 1], ["Santa Fe", "NM", 1]],
+    "basis": "master 2026-08-29, pre-recapture"
   },
   "cities": "Boulder (Canoe Club) · Standard & Strange (Oakland, Santa Fe, NYC)",
   "region": {
     "o": [],
-    "s": [748]
+    "s": [123]
   },
   "site": {
     "domain": "shop.visvim.com",

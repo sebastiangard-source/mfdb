@@ -68,10 +68,9 @@
   },
   "doors": {
     "c": "full",
-    "n": 24,
+    "n": 22,
     "cities": [
       ["Atlanta", "GA", 1],
-      ["Austin", "TX", 1],
       ["Bal Harbour", "FL", 1],
       ["Boston", "MA", 1],
       ["Brooklyn", "NY", 1],
@@ -89,13 +88,13 @@
       ["Newport Beach", "CA", 1],
       ["San Francisco", "CA", 1],
       ["San Jose", "CA", 1],
-      ["Venice", "CA", 1],
-      ["Washington", "DC", 1]
-    ]
+      ["Venice", "CA", 1]
+    ],
+    "basis": "recapture 2026-09"
   },
   "cities": "~15 stores — NYC, Boston, Chicago, DC & more · Nordstrom",
   "region": {
-    "o": [638, 639, 640, 641, 642, 643, 644, 645, 646, 647],
+    "o": [2733, 2737, 2738, 2739, 2740, 2741, 2742, 2743, 2744, 2745],
     "s": []
   },
   "site": {

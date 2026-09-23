@@ -651,6 +651,7 @@
   .bo-state{font-family:'Prata',serif;font-weight:400;font-size:26px;letter-spacing:-.01em;margin:40px 0 6px;
     padding-bottom:6px;border-bottom:1px solid var(--lf-green);color:var(--lf-green);max-width:760px}
   .bo-state:first-of-type{margin-top:22px}
+  .bo-divider{font-family:'Inter',system-ui,sans-serif;font-weight:400;font-size:12.5px;color:var(--ink-faint);margin:44px 0 -10px;max-width:760px;padding-top:14px;border-top:1px dashed var(--hairline)}
   .bo-reg{font-family:'Prata',serif;font-weight:400;font-size:18px;margin:24px 0 2px;display:flex;align-items:baseline;gap:10px;color:var(--ink)}
   .bo-sec .bo-line{margin-left:14px;max-width:746px}
   .bo-sec .bo-chips{margin-left:14px}
@@ -2407,7 +2408,11 @@ document.addEventListener("keydown", e=>{
 // has not been reached rather than judged out.
 const boutiquesView = document.getElementById("boutiquesView");
 const boBody = document.getElementById("boBody");
-function subregionOf(p){ return SUBREGION[p.s + "|" + p.c] || (ST_NAME[p.s] || p.s); }
+const NE_STATES = new Set(["MA","RI","CT","NH","VT","ME","NY","NJ","PA","DE"]);
+function subregionOf(p){
+  if(NE_STATES.has(p.s)) return SUBREGION[p.s + "|" + p.c] || (ST_NAME[p.s] || p.s);
+  return p.c + ", " + p.s;   // beyond the register the city is the unit
+}
 let boRegion = null;   // a sub-region label, or null for the whole index
 function regionSlug(lab){ return lab.toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,""); }
 function regionFromSlug(slug){
@@ -2438,7 +2443,10 @@ let boKind = "all";   // all | shop | own
 let boView = "region";  // region | az
 let boQuery = "";
 const boOpen = new Set();   // regions the reader has expanded this session
-const ST_ORDER = ["MA","RI","CT","NH","VT","ME","NY","NJ","PA","DE"];
+function stateOrder(){
+  return ["MA","RI","CT","NH","VT","ME","NY","NJ","PA","DE"].concat(
+    Object.keys(ST_NAME).filter(k=>!NE_STATES.has(k)).sort((a,b)=>ST_NAME[a].localeCompare(ST_NAME[b])));
+}
 function boutiquesHash(){
   const parts = [];
   if(boRegion) parts.push(regionSlug(boRegion));
@@ -2469,7 +2477,7 @@ function shopRowHTML(p, i, noTag){
        + `<span class="bo-name">${esc(p.n)}${tag}</span><div class="bo-meta">${bits}</div></a>`
        + `<a class="bo-report visit-link" data-store="${esc(storeString(p))}" href="${visitUrl(p)}" target="_blank" rel="noopener" title="Report a visit to ${esc(p.n)}">report a visit \u2197</a></div>`;
 }
-function ownChipsHTML(owns){
+function ownChipsHTML(owns, cityMode){
   // One pill per brand. A single door links straight to Maps; several doors expand in
   // place to one Maps pill per town, with the brand name linking to the brand page.
   const by = {};
@@ -2478,7 +2486,7 @@ function ownChipsHTML(owns){
     const doors = by[b].slice().sort((x,y)=>x.c.localeCompare(y.c));
     if(doors.length === 1){
       const p = doors[0];
-      return `<a class="bo-chip bo-chip-map" href="${shopMapUrl(p)}" target="_blank" rel="noopener" title="${esc(b)}, ${esc(p.c)} \u2014 open in Maps">${esc(b)} \u00b7 ${esc(p.c)}</a>`;
+      return `<a class="bo-chip bo-chip-map" href="${shopMapUrl(p)}" target="_blank" rel="noopener" title="${esc(b)}, ${esc(p.a || p.c)} \u2014 open in Maps">${esc(b)}${cityMode ? "" : " \u00b7 " + esc(p.c)}</a>`;
     }
     // Expanded, the whole thing is one outlined capsule: the brand as the first segment
     // (tap to collapse), a Maps segment per town, and the brand page as the last.
@@ -2486,7 +2494,8 @@ function ownChipsHTML(owns){
     // segments; add the street so each is a different door.
     const townCount = {}; doors.forEach(p=>townCount[p.c]=(townCount[p.c]||0)+1);
     const street = a => (a||"").split(",")[0].replace(/^\d+[A-Za-z]?\s+/, "").replace(/\s+(Unit|Suite|Ste|#).*$/i, "").trim();
-    const label = p => townCount[p.c] > 1 && street(p.a) ? `${esc(p.c)} \u00b7 ${esc(street(p.a))}` : esc(p.c);
+    const label = p => cityMode ? (street(p.a) ? esc(street(p.a)) : esc(p.c))
+                     : (townCount[p.c] > 1 && street(p.a) ? `${esc(p.c)} \u00b7 ${esc(street(p.a))}` : esc(p.c));
     const inner = doors.map(p=>`<a class="bo-seg bo-chip-map" href="${shopMapUrl(p)}" target="_blank" rel="noopener" title="${esc(b)}, ${esc(p.a||p.c)} \u2014 open in Maps">${label(p)}</a>`).join("")
       + `<a class="bo-seg bo-seg-page detail-link" data-brand="${esc(b)}" href="#brand=${encodeURIComponent(b)}" title="${esc(b)} brand page">brand page \u203a</a>`;
     return `<span class="bo-chipgroup"><button class="bo-chip bo-chip-multi" type="button" aria-expanded="false" title="${esc(b)} \u2014 ${esc(doors.map(p=>p.c).join(", "))}; tap to show each"><span class="bo-multi-name">${esc(b)}</span><b class="bo-multi-n">\u00d7${doors.length}</b><b class="bo-multi-x">\u00d7</b></button>`
@@ -2524,14 +2533,14 @@ function renderBoutiques(region, kind, view){
     ? `<h2>${esc(boRegion)}</h2>`
       + `<p class="bo-lead">${idx.length} store${idx.length===1?"":"s"} in ${esc(boRegion)}. `
       + `<a class="bo-all" href="#stores">all ${all.length} stores in ${REGION_NAME} \u2192</a></p>`
-    : `<h2>Stores \u2014 ${REGION_NAME}</h2>`
-      + `<p class="bo-lead">${nShop} independent shops carrying brands from the map and ${nOwn} stores owned and run by the brands themselves, across ${states.size} state${states.size===1?"":"s"}.</p>`)
+    : `<h2>Stores</h2>`
+      + `<p class="bo-lead">${nOwn.toLocaleString()} stores owned and run by the brands themselves across ${states.size} states, and ${nShop} independent shops in ${REGION_NAME}, where the register has been walked so far.</p>`)
     + `<div class="bo-tools"><input id="boSearch" type="search" placeholder="Name, town or region" value="${esc(boQuery)}" aria-label="Filter stores">`
     + `<div class="bo-kinds">${chips}</div><div class="bo-kinds">${views}</div></div>`
     + (boRegion && idx.length ? `<p class="bo-routes">${routeLinks(idx.map(([p])=>p))}</p>` : "");
   const caveat = `<p class="bo-caveat">Brand-owned stores are run by the brand itself; independent shops are stockists that buy from many brands. `
-    + `No department stores or concessions. A store outside ${REGION_NAME} is absent because the register `
-    + `has not reached it. Brand lists say what a shop buys, not what is on the rack today.</p>`;
+    + `No department stores or concessions. An independent shop outside ${REGION_NAME} is absent because the register `
+    + `has not reached it; brand-owned stores are listed nationally. Brand lists say what a shop buys, not what is on the rack today.</p>`;
   let body;
   if(boView === "az" || boRegion){
     body = idx.map(([p,i])=>p.k==="o" ? ownRowHTML(p) : shopRowHTML(p, i)).join("");
@@ -2540,9 +2549,12 @@ function renderBoutiques(region, kind, view){
     // brand stores as one chip per brand with a count.
     const byState = {};
     for(const [p,i] of idx) ((byState[p.s] = byState[p.s] || {})[subregionOf(p)] = byState[p.s][subregionOf(p)] || []).push([p,i]);
-    body = ST_ORDER.filter(st=>byState[st]).map(st=>{
+    let firstBeyond = true;
+    body = stateOrder().filter(st=>byState[st]).map(st=>{
       const regs = Object.keys(byState[st]).sort((a,b)=>a.localeCompare(b));
-      return `<h3 class="bo-state">${esc(ST_NAME[st] || st)}</h3>` + regs.map(reg=>{
+      let lead = "";
+      if(!NE_STATES.has(st) && firstBeyond){ firstBeyond = false; lead = `<h3 class="bo-divider">Beyond ${REGION_NAME} \u2014 brand-owned stores only; the independent-shop register has not reached these states yet</h3>`; }
+      return lead + `<h3 class="bo-state">${esc(ST_NAME[st] || st)}</h3>` + regs.map(reg=>{
         const rows = byState[st][reg];
         const shops = rows.filter(([p])=>p.k==="s"), owns = rows.filter(([p])=>p.k==="o");
         const count = [shops.length ? `${shops.length} independent shop${shops.length===1?"":"s"}` : "",
@@ -2557,7 +2569,7 @@ function renderBoutiques(region, kind, view){
              + `<a class="bo-open" href="#stores=${slug}${boKind!=="all"?"+"+boKind:""}" title="Open ${esc(reg)} on its own, with a route">open \u203a</a></h4>`
              + `<div class="bo-secbody"${open?"":" hidden"}>`
              + shops.map(([p,i])=>shopRowHTML(p, i, true)).join("")
-             + (owns.length ? `<div class="bo-chips"><span class="bo-chips-lab">Brand-owned stores in ${esc(reg)} <i>\u2014 tap one to open it in Maps</i></span>${ownChipsHTML(owns)}</div>` : "")
+             + (owns.length ? `<div class="bo-chips"><span class="bo-chips-lab">Brand-owned stores in ${esc(reg)} <i>\u2014 tap one to open it in Maps</i></span>${ownChipsHTML(owns, !NE_STATES.has(st))}</div>` : "")
              + `</div></section>`;
       }).join("");
     }).join("") || `<p class="bo-lead">Nothing matches.</p>`;
@@ -2816,7 +2828,14 @@ addEventListener("load", routeShopFromHash);
 // reached New Jersey, Pennsylvania and Delaware in September 2026.
 const ST_NAME = {MA:"Massachusetts",CT:"Connecticut",RI:"Rhode Island",NH:"New Hampshire",
                  ME:"Maine",VT:"Vermont",NY:"New York",
-                 NJ:"New Jersey",PA:"Pennsylvania",DE:"Delaware"};
+                 NJ:"New Jersey",PA:"Pennsylvania",DE:"Delaware",
+                 AL:"Alabama",AK:"Alaska",AZ:"Arizona",AR:"Arkansas",CA:"California",CO:"Colorado",DC:"Washington, DC",
+                 FL:"Florida",GA:"Georgia",HI:"Hawaii",ID:"Idaho",IL:"Illinois",IN:"Indiana",IA:"Iowa",KS:"Kansas",
+                 KY:"Kentucky",LA:"Louisiana",MD:"Maryland",MI:"Michigan",MN:"Minnesota",MS:"Mississippi",MO:"Missouri",
+                 MT:"Montana",NE:"Nebraska",NV:"Nevada",NM:"New Mexico",NC:"North Carolina",ND:"North Dakota",OH:"Ohio",
+                 OK:"Oklahoma",OR:"Oregon",SC:"South Carolina",SD:"South Dakota",TN:"Tennessee",TX:"Texas",UT:"Utah",
+                 VA:"Virginia",WA:"Washington",WV:"West Virginia",WI:"Wisconsin",WY:"Wyoming",PR:"Puerto Rico"};
+
 const regionView = document.getElementById("regionView");
 const regionBody = document.getElementById("regionBody");
 function placeMapUrl(p){
