@@ -1,6 +1,6 @@
 # price_full_2026-09-23 — every price, every brand, once
 
-**Issued** 23 September 2026 · **Kind** price · **Pilot** 8 brands first · **Returns to** the Spectrum thread
+**Issued** 23 September 2026 · **Kind** price · **First eight rows returned early, no stop** · **Returns to** the Spectrum thread
 
 Read `audit_protocol.md` first. This brief supersedes every earlier price brief. It exists because the
 September pass read only the garments the map lacked; the five core garments on most brands are
@@ -83,10 +83,12 @@ this brief is that spec. Every batch is spot-checked against live pages before i
 `return.csv`. **Where the map already holds a figure (`worklist.csv`, `current_prices`), reproduce it
 before replacing it**, and where you cannot, say which was filed and why.
 
-Send the pilot first and stop: **Paul & Shark, Levi\u2019s, Peter Millar, Massimo Dutti, Fear of God,
-Loro Piana, Wythe, Isaia** \u2014 an inherited-price house the tier pass got wrong, a mass brand, a
-sub-line house, a low-price accessible house, a designer house at accessible prices, a house whose
-entry is already cashmere, a small DTC house, a non-US-domain house.
+Do the whole job. Return these eight rows first, **without stopping** \u2014 the check runs while you
+continue: **Paul & Shark, Levi\u2019s, Peter Millar, Massimo Dutti, Fear of God, Loro Piana, Wythe,
+Isaia** \u2014 an inherited-price house the tier pass got wrong, a mass brand, a sub-line house, a
+low-price accessible house, a designer house at accessible prices, a house whose entry is already
+cashmere, a small DTC house, a non-US-domain house. If the check finds a fault in the schema you
+will hear within the hour; otherwise carry on to 203.
 
 ## Time box
 
