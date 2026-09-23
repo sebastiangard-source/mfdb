@@ -5,4 +5,4 @@ Requested by Sebastian. The rail tooltips currently end with scale anchors ("5 =
 fabric", "1 = a trace", "5 = the maker and the brand are the same thing"). Remove the numeric anchors
 from every dial tooltip; keep the prose definition. Applies to all 35 dials. The anchors can stay in
 `rubric.json`, which the brand page and the rubric screens read; only the tooltip text changes.
-State: logged. Not started.
+State: done, v3.22.0 (23 Sep) — anchors removed and every tooltip cut to one or two sentences.
