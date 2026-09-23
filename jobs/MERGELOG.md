@@ -1543,3 +1543,5 @@ Held: [('Carhartt', 'sweater NONE — a house with no crewneck still makes sweat
 ## 2026-09-22 · copy · rubric text for ital, fren, briish, scandi, forg reworded (no 'X is the argument', no verbs on 'score'); Boglioli, Giorgio Armani, Hiroshi Kato notes/why reworded to match
 
 ## 2026-09-23 · ruling · A Bathing Ape reach 4 -> 2 (eight own doors, no stockists, no department stores; note written)
+
+## 2026-09-23 · ruling · band by measured price: BOSS trueLux -> accessible; Johnstons of Elgin accessible -> trueLux. Seats renumbered.
