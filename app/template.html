@@ -3409,7 +3409,9 @@ function priceNoteHTML(name){
   const unread = p.filter(r=>r==="?").length;
   const checked = PRICE_PASS.indexOf(key) >= 0;
   const linked = linksComplete(key);
-  const a = unread ? `${8-unread} of eight garments read on the brand\u2019s own store` : `all eight garments read on the brand\u2019s own store${checked ? ", " + PRICE_PASS_DATE : ""}`;
+  const a = checked ? `all eight garments read on the brand\u2019s own store`
+          : unread ? `${8-unread} of eight garments carry a figure; not all were read on the brand\u2019s own store this season`
+          : `figures for all eight garments; not all were read on the brand\u2019s own store this season`;
   const b = linked ? "every label opens the brand\u2019s own men\u2019s page" : "labels open the brand\u2019s own page where one is on file, otherwise its site search";
   return `<p class="pv-note">${a}; ${b}.</p>`;
 }

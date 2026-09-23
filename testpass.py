@@ -81,7 +81,8 @@ with sync_playwright() as p:
     _unc = pg.evaluate("Object.keys(PRICES).find(k=>PRICES[k].includes('?') && !PRICE_PASS.includes(k))")
     pg.goto(url+'#brand='+_unc.replace(' ','%20').replace("'", '%27')); pg.reload(); pg.wait_for_timeout(400)
     ck('an unchecked brand does not',
-       'all eight' not in pg.eval_on_selector('#detailBody .pv-note','e=>e.textContent'))
+       'all eight garments read' not in pg.eval_on_selector('#detailBody .pv-note','e=>e.textContent'))
+    ck('the read flag means read, not filled', pg.evaluate("Object.keys(PRICES).filter(k=>PRICE_PASS.includes(k)).length")<=60)
     pg.goto(url+'#prices'); pg.reload(); pg.wait_for_timeout(450)
     ck('the prices overlay offers all eight',
        len(pg.eval_on_selector_all('#pvG button','e=>e.map(x=>x.textContent)'))==9)
