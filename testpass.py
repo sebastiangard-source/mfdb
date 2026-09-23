@@ -957,6 +957,12 @@ with sync_playwright() as p:
     ck('the prices view fits a phone screen', pg.evaluate("document.getElementById('pricesView').scrollWidth")<=395)
     pg.set_viewport_size({'width':1400,'height':1000})
 
+    head('plain tooltips')
+    pg.set_viewport_size({'width':1400,'height':1000}); pg.goto(url); pg.reload(); pg.wait_for_timeout(400)
+    tips = pg.evaluate("[...document.querySelectorAll('.dial .dl')].map(e=>e.dataset.tip)")
+    ck('every dial tooltip is one or two sentences', all(1 <= len([x for x in t.replace('e.g.','eg').split('. ') if x.strip()]) <= 3 for t in tips), [t[:60] for t in tips if len(t.split('. '))>3][:2])
+    ck('no tooltip carries a scale anchor', not any(('1 =' in t or '5 =' in t or '3 =' in t or '−3' in t) for t in tips))
+
     head('prev / next')
     pg.set_viewport_size({'width':1400,'height':1000})
     pg.goto(url+'#brand=Barbour'); pg.reload(); pg.wait_for_timeout(420)
