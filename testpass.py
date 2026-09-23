@@ -962,6 +962,10 @@ with sync_playwright() as p:
     tips = pg.evaluate("[...document.querySelectorAll('.dial .dl')].map(e=>e.dataset.tip)")
     ck('every dial tooltip is one or two sentences', all(1 <= len([x for x in t.replace('e.g.','eg').split('. ') if x.strip()]) <= 3 for t in tips), [t[:60] for t in tips if len(t.split('. '))>3][:2])
     ck('no tooltip carries a scale anchor', not any(('1 =' in t or '5 =' in t or '3 =' in t or '−3' in t) for t in tips))
+    pg.goto(url+'#brand=Todd%20Snyder'); pg.reload(); pg.wait_for_timeout(400)
+    pg.click('#detailBody .chipd[data-k="craft"]'); pg.wait_for_timeout(200)
+    _ex = pg.evaluate("document.querySelector('#detailBody .rub-inline[data-for=\"craft\"]').textContent")
+    ck('a chip explainer names its dial and uses the plain text', _ex.lower().startswith('craft') and '5 =' not in _ex, _ex[:70])
 
     head('prev / next')
     pg.set_viewport_size({'width':1400,'height':1000})

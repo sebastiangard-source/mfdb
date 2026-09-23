@@ -2300,7 +2300,11 @@ detailBody.addEventListener("click", e=>{
   if(!box){
     box = document.createElement("div");
     box.className = "rub-inline"; box.dataset.for = k;
-    box.textContent = RUBRIC[k] || "No definition written for this dial.";
+    // Say which dial this is, then what it measures, in the same plain words the rail uses.
+    const dl = document.querySelector('.dial[data-attr="' + k + '"] .dl');
+    const name = btn.querySelector(".cd-n") ? btn.querySelector(".cd-n").textContent : (dl ? dl.textContent : k);
+    const tip = dl ? dl.dataset.tip : (RUBRIC[k] || "No definition written for this dial.");
+    box.innerHTML = '<b>' + esc(name.trim().replace(/\s*\d+$/, "")) + '</b> \u2014 ' + esc(tip) + ' ';
     const a = document.createElement("a");
     a.className = "dial-link"; a.dataset.k = k; a.href = "#dial=" + k;
     a.textContent = "what else scores here \u203a";
