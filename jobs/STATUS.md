@@ -1,6 +1,6 @@
 # Job board — derived from jobs/manifest.json by job.py; do not edit
 
-_16 jobs · rewritten 2026-09-22_
+_17 jobs · rewritten 2026-09-23_
 
 | job | state | issued | kind | merged/returned | blocked on / note |
 |---|---|---|---|---|---|
@@ -20,3 +20,4 @@ _16 jobs · rewritten 2026-09-22_
 | stockist_great_put_on_2026-09-18 | issued | 2026-09-18 | stockist |  |  |
 | garment_links_2026-09-19 | issued | 2026-09-19 | links |  | replaces search links on garment labels with men's listing URLs |
 | tech_rescore_2026-09-20 | issued | 2026-09-20 | rescore |  | proposal only; Sebastian rules per row |
+| price_full_2026-09-23 | issued | 2026-09-23 | price |  | supersedes every earlier price brief; all eight garments, all 203 brands, product and URL behind every figure |
