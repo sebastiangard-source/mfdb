@@ -975,6 +975,7 @@ with sync_playwright() as p:
     ck('beyond the Northeast a section is a city', pg.evaluate("!!document.querySelector('#boBody .bo-sec[data-region=\"Scottsdale, AZ\"]')"))
     ck('brand-owned doors are places with a town and, all but a couple, a street', pg.evaluate("PLACES.filter(p=>p.k==='o').every(p=>p.c && p.s)") and pg.evaluate("PLACES.filter(p=>p.k==='o' && !p.a).length")<=2)
     ck('the count is national', pg.evaluate("PLACES.filter(p=>p.k==='o').length")>=3000)
+    ck('New York City is split by neighbourhood', pg.evaluate("[...document.querySelectorAll('#boBody .bo-sec[data-region]')].filter(s=>s.dataset.region.startsWith('NYC ·')).length")>=15 and pg.evaluate("!document.querySelector('#boBody .bo-sec[data-region=\"New York City\"]')"))
     ck('a brand with no US store says zero, not nothing', pg.evaluate("DOORS['Paul & Shark'] && DOORS['Paul & Shark'].n===0"))
 
     head('prev / next')

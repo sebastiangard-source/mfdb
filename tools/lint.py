@@ -168,6 +168,8 @@ for rec in data.brands:
 
 sub = {f'{st}|{c}' for st, labs in data.regions.items() for labs_, cities in [(None, sum(labs.values(), []))] for c in cities}
 for i, pl in enumerate(data.places):
+    if pl.get('k') in ('s', 'o') and pl.get('s') == 'NY' and pl.get('c') in ('New York', 'Brooklyn') and not pl.get('h'):
+        fail('GAP', f"places[{i}] ({pl.get('n')!r}, {pl.get('c')} NY): a New York City record carries no neighbourhood")
     if pl.get('k') in ('s', 'o') and pl.get('s') in NE_STATES and f'{pl.get("s")}|{pl.get("c")}' not in sub:
         fail('GAP', f'places[{i}] ({pl.get("n")!r}, {pl.get("c")} {pl.get("s")}): no sub-region in regions.json')
     for k in ('n', 'c', 's'):

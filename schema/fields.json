@@ -690,7 +690,7 @@
       "scope": "global",
       "const": "PLACES",
       "file": "places.json",
-      "doc": " Own-door records (k=o) may carry bn (banner as the brand states it), v2 (venue), src (capture | master-2026-08-29: provenance grade), st (status when not open). National since 23 Sep 2026; only Northeast towns need a region mapping."
+      "doc": " Own-door records (k=o) may carry bn (banner as the brand states it), v2 (venue), src (capture | master-2026-08-29: provenance grade), st (status when not open). National since 23 Sep 2026; only Northeast towns need a region mapping. New York City records carry h, the neighbourhood (from ZIP, street where the ZIP is missing); the Stores page uses it as the region."
     },
     "changelog": {
       "scope": "global",

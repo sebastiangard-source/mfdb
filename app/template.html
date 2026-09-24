@@ -2410,6 +2410,7 @@ const boutiquesView = document.getElementById("boutiquesView");
 const boBody = document.getElementById("boBody");
 const NE_STATES = new Set(["MA","RI","CT","NH","VT","ME","NY","NJ","PA","DE"]);
 function subregionOf(p){
+  if(p.h) return "NYC \u00b7 " + p.h;   // New York City by neighbourhood
   if(NE_STATES.has(p.s)) return SUBREGION[p.s + "|" + p.c] || (ST_NAME[p.s] || p.s);
   return p.c + ", " + p.s;   // beyond the register the city is the unit
 }
