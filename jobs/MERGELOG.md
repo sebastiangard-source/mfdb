@@ -1563,3 +1563,7 @@ Held: [('Carhartt', 'sweater NONE — a house with no crewneck still makes sweat
 - 33 townless door rows restored with the town read from the store name (Cucinelli); flagged cf on each
 
 - 41 Southern Tide rows carried full state names; normalised to codes
+
+## 2026-09-26 · seated · Stefan Brandt (Accessible Luxury) on Sebastian's sighting at Richards, Greenwich and Maxwell & Co., Falmouth; both shops added (places 3200,3201); Falmouth mapped to The Cape
+
+- Richards, Greenwich was already on the register (21 brands); the duplicate I added is merged into it, Stefan Brandt linked there
