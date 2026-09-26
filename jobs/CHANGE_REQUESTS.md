@@ -12,3 +12,11 @@ Reach has never been audited: 203 scores, a definition written 21 Sep, 34 brands
 rests on things the map already holds — own US doors, independent stockists on the register,
 department-store channel, online-only — so a screen can propose the whole dial mechanically and
 Sebastian rules on the exceptions. Queue after the tech re-score. State: logged.
+
+## CR-3 · 26 Sep 2026 · Cotton dial screen
+The cotton dial is authored and unaudited, and its 5s mix two readings: houses built on a named
+cotton programme (Sunspel, Merz b. Schwanen, Proper Cloth, Charvet, Stefan Brandt) and houses that
+simply sell a lot of cotton (A Bathing Ape, Hackett, Duck Head). The fibre pass now measures the
+second reading — share of cotton-led styles, 198 brands — so the dial should mean only the first:
+a named fibre or signature cloth the reputation rests on. Screen: take the measured share as the
+floor, then a short read for the named-programme step. Queue after reach (CR-2). State: logged.
