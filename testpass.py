@@ -978,6 +978,15 @@ with sync_playwright() as p:
     ck('New York City is split by neighbourhood', pg.evaluate("[...document.querySelectorAll('#boBody .bo-sec[data-region]')].filter(s=>s.dataset.region.startsWith('NYC ·')).length")>=15 and pg.evaluate("!document.querySelector('#boBody .bo-sec[data-region=\"New York City\"]')"))
     ck('a brand with no US store says zero, not nothing', pg.evaluate("DOORS['Paul & Shark'] && DOORS['Paul & Shark'].n===0"))
 
+    head('touch: a tapped card stays')
+    ctx3 = b.new_context(viewport={'width':390,'height':844}, has_touch=True, is_mobile=True)
+    pg3 = ctx3.new_page(); pg3.goto(url); pg3.wait_for_timeout(500)
+    pg3.evaluate("()=>{const b=[...document.querySelectorAll('.brand')].find(x=>x.textContent.trim()==='Faherty'); b.scrollIntoView({block:'center'});}"); pg3.wait_for_timeout(200)
+    pg3.tap('.brand:has-text("Faherty")'); pg3.wait_for_timeout(700)
+    ck('touch: the card is pinned and shown 700ms after the tap', pg3.evaluate("hoverCard.classList.contains('pinned') && hoverCard.classList.contains('show')"))
+    ck('touch: the card is the pinned version, with its close button', pg3.evaluate("!!hoverCard.querySelector('.hc-close')"))
+    ctx3.close()
+
     head('prev / next')
     pg.set_viewport_size({'width':1400,'height':1000})
     pg.goto(url+'#brand=Barbour'); pg.reload(); pg.wait_for_timeout(420)

@@ -1,5 +1,13 @@
 [
   {
+    "v": "3.24.3",
+    "d": "26 September 2026",
+    "lede": "A tapped card stays open.",
+    "items": [
+      "<b>On a phone, tapping a brand sometimes opened its card and lost it a moment later.</b> A tap fires the hover events around its click, so the hover timer was re-rendering the card 160ms after the tap pinned it. The hover path now runs only for a pointer that can hover."
+    ]
+  },
+  {
     "v": "3.24.2",
     "d": "24 September 2026",
     "lede": "Greenwich is its own region.",

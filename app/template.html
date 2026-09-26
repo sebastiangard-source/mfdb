@@ -1878,18 +1878,27 @@ function hideHoverCard(){
   hoverCard.classList.remove("show");
   hoverCard.setAttribute("aria-hidden","true");
 }
+// The hover path is for a pointer that hovers. A tap on a phone fires synthetic
+// mouseover/mouseout around its click, so the hover timers ran on touch too: the
+// tap pinned a card, and 160ms later the hover timer re-rendered it as the unpinned
+// hover version — which on a phone read as the card opening and then vanishing.
+let lastPointer = "mouse";
+addEventListener("pointerdown", e=>{ lastPointer = e.pointerType || "mouse"; }, {capture:true, passive:true});
+const hoverCapable = ()=> lastPointer !== "touch" && !(window.matchMedia && matchMedia("(hover: none)").matches);
 document.addEventListener("mouseover", e=>{
+  if(!hoverCapable()) return;
   const b = e.target.closest(".brand");
   // a brand the filter has excluded is not a result — no card, no pin
   if(b && b.classList.contains("out")){ clearTimeout(hcShowT); hideHoverCard(); return; }
   if(b){
     clearTimeout(hcHideT); clearTimeout(hcShowT);
-    hcShowT = setTimeout(()=>showHoverCard(b), 160);
+    hcShowT = setTimeout(()=>{ if(!hoverCard.classList.contains("pinned")) showHoverCard(b); }, 160);
   } else if(e.target.closest("#hoverCard")){
     clearTimeout(hcHideT);
   }
 });
 document.addEventListener("mouseout", e=>{
+  if(!hoverCapable()) return;
   if(e.target.closest(".brand") || e.target.closest("#hoverCard")){
     clearTimeout(hcShowT);
     clearTimeout(hcHideT);
