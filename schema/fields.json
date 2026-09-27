@@ -795,6 +795,14 @@
       "absent": "optional",
       "doc": "{date, store, currency, status, sublines} for the full read. Repo only.",
       "const": null
+    },
+    "resale": {
+      "scope": "brand",
+      "const": "RESALE",
+      "path": "resale",
+      "type": "obj",
+      "absent": "optional",
+      "doc": "Secondhand listings for the brand's men's product: {vinted: {u, m, n}} — the Vinted men's URL, the method (brand filter | text search), and what the filter includes or excludes. From vinted_mens_search 27 Sep 2026."
     }
   },
   "price_slots": [

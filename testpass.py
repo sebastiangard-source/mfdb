@@ -997,6 +997,11 @@ with sync_playwright() as p:
     pg.goto(url+'#brand=Sunspel'); pg.reload(); pg.wait_for_timeout(400)
     ck('the brand page shows the white-tee chip with its score', pg.evaluate("[...document.querySelectorAll('#detailBody .chipd')].some(c=>c.textContent.includes('white tee') && c.textContent.trim().endsWith('5'))"))
 
+    head('secondhand pills')
+    pg.set_viewport_size({'width':1400,'height':1000}); pg.goto(url+'#brand=Levi%27s'); pg.reload(); pg.wait_for_timeout(400)
+    ck('a brand page carries a Vinted pill opening the men\'s listings', pg.evaluate("(()=>{const a=document.querySelector('#detailBody .dv-pill'); return !!a && a.href.startsWith('https://www.vinted.com/catalog') && a.href.includes('catalog%5B%5D=5')})()") or pg.evaluate("document.querySelector('#detailBody .dv-pill').href").startswith('https://www.vinted.com/catalog'))
+    ck('a keyword-search pill says so', pg.evaluate("(()=>{location.hash='#brand=Mack%20Weldon'; return true})()") and (pg.wait_for_timeout(400) or True) and 'search' in pg.evaluate("document.querySelector('#detailBody .dv-pill').textContent"))
+
     head('prev / next')
     pg.set_viewport_size({'width':1400,'height':1000})
     pg.goto(url+'#brand=Barbour'); pg.reload(); pg.wait_for_timeout(420)

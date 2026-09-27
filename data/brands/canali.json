@@ -171,5 +171,12 @@
     "sublines": "Canali Nuvola; Impeccabile; Canali Travel (all Canali-labelled lines in the main range)"
   },
   "price_checked": true,
-  "shop": "https://us.canali.com/<term>?_q=<term>&map=ft (VTEX full-text; the term is the path segment, so there is no empty-query base)"
+  "shop": "https://us.canali.com/<term>?_q=<term>&map=ft (VTEX full-text; the term is the path segment, so there is no empty-query base)",
+  "resale": {
+    "vinted": {
+      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=238464",
+      "m": "brand filter",
+      "n": ""
+    }
+  }
 }

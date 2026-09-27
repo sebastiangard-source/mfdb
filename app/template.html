@@ -252,6 +252,11 @@
   .pv-links{margin-left:6px}
   .hp-gap{margin-left:8px;font-size:10px;color:var(--ink-faint);font-style:italic;letter-spacing:0;text-transform:none}
   .pv-note{font-size:11.5px;color:var(--ink-faint);margin:-4px 0 10px}
+  #detailView .dv-pills{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin:6px 0 10px}
+  #detailView .dv-pills-lab{font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint);margin-right:4px}
+  #detailView .dv-pill{font-size:12px;padding:4px 11px;border-radius:12px;background:rgba(18,59,43,.07);color:var(--ink);text-decoration:none}
+  #detailView .dv-pill:hover{background:rgba(18,59,43,.15)}
+  #detailView .dv-pill i{font-style:normal;color:var(--ink-faint);margin-left:4px;font-size:11px}
   .gl-link{color:inherit;text-decoration:none;border-bottom:1px dotted var(--ink-faint)}
   .gl-link:hover{border-bottom-color:var(--ink);color:var(--ink)}
   .hc-head{display:flex;justify-content:space-between;align-items:center;gap:10px;margin:0 0 6px}
@@ -2045,6 +2050,7 @@ function applyDials(){
 /*@@SUBREGION@@*/
 /*@@GLINKS@@*/
 /*@@RANGEONLY@@*/
+/*@@RESALE@@*/
 const REGLOOKUP = {sail:SAIL,bruv:BRUV,golf:GOLF,status:STATUS,finbro:FINBRO,ivy:IVY,murica:MURICA,
                    ital:ITAL,fren:FREN,street:STREET,avant:AVANT,prep:PREP,weird:WEIRD,boat:BOAT,racquet:RACQUET,ski:SKI,scandi:SCANDI,briish:BRIISH,fuss:FUSS,dur:DUR,forg:FORG,reach:REACH,shoes:SHOES,whitet:WHITET,golffice:GOLFFICE};
 const ATTRKEYS = ["tech","comfort","craft","style"];
@@ -2233,6 +2239,17 @@ function navHTML(kind, n, label, key){
        + side(n.next, "pg-next", n.next===undefined ? "end" : esc(label(n.next)) + " \u203a")
        + `</nav>`;
 }
+// Secondhand: one pill per marketplace, opening the brand's men's listings there.
+function resaleHTML(name){
+  const r = RESALE[name.trim()]; if(!r) return "";
+  const pills = [];
+  if(r.vinted){
+    const tip = r.vinted.m === "brand filter" ? "Vinted \u2014 men\u2019s listings under the brand\u2019s own filter" + (r.vinted.n ? "; " + r.vinted.n : "")
+                                                : "Vinted \u2014 men\u2019s listings by keyword; the brand has no filter of its own";
+    pills.push(`<a class="dv-pill" href="${r.vinted.u}" target="_blank" rel="noopener" title="${esc(tip)}">Vinted${r.vinted.m === "text search" ? " <i>search</i>" : ""}</a>`);
+  }
+  return pills.length ? `<p class="dv-pills"><span class="dv-pills-lab">Secondhand</span>${pills.join("")}</p>` : "";
+}
 function renderDetail(name){
   const el = BRAND_ELS.find(b=>b.textContent===name);
   currentBrand = name;
@@ -2249,6 +2266,7 @@ function renderDetail(name){
     ${p(WHY[name])}
     ${p(ORIGIN[name] ? "<b>Origin:</b> " + ORIGIN[name] : "")}
     ${p(OPVIEW[name] ? "<b>In their words:</b> " + OPVIEW[name] : "")}
+    ${resaleHTML(name)}
     ${doorsHTML(name)}
     ${pricesHTML(name)}
     <h3>Attributes</h3>${chipsFor(el, ATTRKEYS, attrScored)}${notesFor(el, ATTRKEYS)}
