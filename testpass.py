@@ -1004,6 +1004,14 @@ with sync_playwright() as p:
     ck('a brand page carries a Vinted pill opening the men\'s listings', pg.evaluate("(()=>{const a=document.querySelector('#detailBody .dv-pill'); return !!a && a.href.startsWith('https://www.vinted.com/catalog') && a.href.includes('catalog%5B%5D=5')})()") or pg.evaluate("document.querySelector('#detailBody .dv-pill').href").startswith('https://www.vinted.com/catalog'))
     ck('a keyword-search pill says so', pg.evaluate("(()=>{location.hash='#brand=Mack%20Weldon'; return true})()") and (pg.wait_for_timeout(400) or True) and 'search' in pg.evaluate("document.querySelector('#detailBody .dv-pill').textContent"))
 
+    head('american spellings')
+    pg.set_viewport_size({'width':1400,'height':1000}); pg.goto(url); pg.reload(); pg.wait_for_timeout(400)
+    _brit = pg.evaluate("(()=>{const t=[...document.querySelectorAll('.dial .dl')].map(e=>e.dataset.tip).join(' ')+' '+document.body.innerText; return (t.match(/\\b(fibre|colour|centre|programme|neighbourhood|labelled|behaviour|catalogue|jewellery)s?\\b/gi)||[]).slice(0,5)})()")
+    ck('no British spellings in the rail tooltips or the visible page', len(_brit)==0, _brit)
+    pg.goto(url+'#brand=Loro%20Piana'); pg.reload(); pg.wait_for_timeout(400)
+    _b2 = pg.evaluate("(document.getElementById('detailBody').innerText.match(/\\b(fibre|colour|centre|programme)s?\\b/gi)||[]).slice(0,5)")
+    ck('nor on a brand page', len(_b2)==0, _b2)
+
     head('prev / next')
     pg.set_viewport_size({'width':1400,'height':1000})
     pg.goto(url+'#brand=Barbour'); pg.reload(); pg.wait_for_timeout(420)
