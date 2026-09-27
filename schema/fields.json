@@ -528,7 +528,8 @@
       "const": "OPVIEW",
       "path": "opview",
       "type": "str",
-      "absent": "required"
+      "absent": "optional",
+      "doc": "A real quotation from the brand, in its own words. Absent where the brand has said nothing worth quoting; never a paraphrase (rule of 27 Sep 2026)."
     },
     "cities": {
       "scope": "brand",

@@ -1023,6 +1023,13 @@ with sync_playwright() as p:
     pg.goto(url+'#brand=Patagonia'); pg.reload(); pg.wait_for_timeout(400)
     ck('a certified brand\'s page names the certified entity', 'Patagonia' in (pg.evaluate("document.querySelector('#detailBody .dv-cert')?.textContent") or ''))
 
+    head('plain copy')
+    pg.set_viewport_size({'width':1400,'height':1000}); pg.goto(url); pg.reload(); pg.wait_for_timeout(400)
+    _w = pg.evaluate("Object.values(WHY)")
+    ck('no lead line uses the old aphorism forms', not any('simulator' in w or 'the storefront' in w or w.endswith(' itself.') or ' is the ' in w[:40] for w in _w), [w for w in _w if ' is the ' in w[:40]][:2])
+    ck('every origin is a sentence with a place or a date, or says the facts are unpublished', all(any(ch.isdigit() for ch in o) or ' in ' in o or 'not published' in o for o in pg.evaluate("Object.values(ORIGIN)")))
+    ck('in-their-words is only ever a quotation', pg.evaluate("Object.values(OPVIEW).every(v=>!v || /^[\u201c\"]/.test(v.trim()))"))
+
     head('prev / next')
     pg.set_viewport_size({'width':1400,'height':1000})
     pg.goto(url+'#brand=Barbour'); pg.reload(); pg.wait_for_timeout(420)
