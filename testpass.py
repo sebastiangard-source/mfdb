@@ -34,8 +34,10 @@ with sync_playwright() as p:
        pg.evaluate('()=>Object.keys(NATURAL).length'))
     ck('an uncounted house reads not-assessed, never zero', pg.evaluate(
        '''()=>[...document.querySelectorAll(".brand")].find(e=>e.textContent==="Hermès").dataset.natural''')=='99')
+    # Peter Millar is 55% natural-led: a 2 on the re-cut bands (27 Sep), so the split-house
+    # filter is natural >= 2 with tech >= 3.
     pg.eval_on_selector('.dial[data-attr="natural"] input',
-       "e=>{e.value=3;e.dispatchEvent(new Event('input',{bubbles:true}))}")
+       "e=>{e.value=2;e.dispatchEvent(new Event('input',{bubbles:true}))}")
     pg.eval_on_selector('.dial[data-attr="tech"] input',
        "e=>{e.value=3;e.dispatchEvent(new Event('input',{bubbles:true}))}")
     pg.wait_for_timeout(550)

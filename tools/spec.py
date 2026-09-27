@@ -177,7 +177,9 @@ def consts(data):
         if not disc:
             continue
         share = 100 * f['n'] / disc
-        nat[rec['name']] = 5 if share >= 85 else 4 if share >= 65 else 3 if share >= 40 else 2 if share >= 20 else 1
+        # Bands re-cut 27 Sep 2026 on the measured distribution (median 89%): a 5 is an
+        # all-natural house, a 4 the ordinary good menswear brand. Was 85/65/40/20.
+        nat[rec['name']] = 5 if share >= 95 else 4 if share >= 85 else 3 if share >= 70 else 2 if share >= 45 else 1
     by_const['NATURAL'] = nat
     for c, d in by_const.items():
         out[c] = d.get('__list__', d) if '__list__' in d else d
