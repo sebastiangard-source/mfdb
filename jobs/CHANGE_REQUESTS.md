@@ -20,3 +20,9 @@ simply sell a lot of cotton (A Bathing Ape, Hackett, Duck Head). The fibre pass 
 second reading — share of cotton-led styles, 198 brands — so the dial should mean only the first:
 a named fibre or signature cloth the reputation rests on. Screen: take the measured share as the
 floor, then a short read for the named-programme step. Queue after reach (CR-2). State: logged.
+
+## CR-4 · 27 Sep 2026 · White-tee read
+The white-tee dial is seeded (169 brands at 2 on "sells a tee", 13 at 3, 8 at 4, 6 at 5). A read would
+settle steps 2-4 for each brand: is there a plain white tee, is it a named product with its own cloth
+or cut, is it a signature. Evidence is on the brand's own tee listing, which garment_links already
+holds for 193 brands. Queue with the price_full return, which reads the tee anyway. State: logged.

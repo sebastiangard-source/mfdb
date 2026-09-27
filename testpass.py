@@ -987,6 +987,16 @@ with sync_playwright() as p:
     ck('touch: the card is the pinned version, with its close button', pg3.evaluate("!!hoverCard.querySelector('.hc-close')"))
     ctx3.close()
 
+    head('white tee dial')
+    pg.set_viewport_size({'width':1400,'height':1000}); pg.goto(url); pg.reload(); pg.wait_for_timeout(400)
+    ck('the white-tee dial exists on the rail', pg.evaluate("!!document.querySelector('.dial[data-attr=\"whitet\"]')"))
+    pg.evaluate("()=>{const d=document.querySelector('.dial[data-attr=\"whitet\"] input[type=range]'); d.value=5; d.dispatchEvent(new Event('input',{bubbles:true})); d.dispatchEvent(new Event('change',{bubbles:true}));}"); pg.wait_for_timeout(500)
+    _wt = pg.evaluate("[...document.querySelectorAll('.brand')].filter(b=>!b.classList.contains('out')).map(b=>b.textContent.trim())")
+    ck('at 5 it selects the houses built on the tee', 'Sunspel' in _wt and 'Merz b. Schwanen' in _wt and len(_wt) <= 8, _wt)
+    pg.evaluate("()=>{const d=document.querySelector('.dial[data-attr=\"whitet\"] input[type=range]'); d.value=0; d.dispatchEvent(new Event('input',{bubbles:true})); d.dispatchEvent(new Event('change',{bubbles:true}));}")
+    pg.goto(url+'#brand=Sunspel'); pg.reload(); pg.wait_for_timeout(400)
+    ck('the brand page shows the white-tee chip with its score', pg.evaluate("[...document.querySelectorAll('#detailBody .chipd')].some(c=>c.textContent.includes('white tee') && c.textContent.trim().endsWith('5'))"))
+
     head('prev / next')
     pg.set_viewport_size({'width':1400,'height':1000})
     pg.goto(url+'#brand=Barbour'); pg.reload(); pg.wait_for_timeout(420)

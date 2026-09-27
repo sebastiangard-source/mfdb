@@ -100,7 +100,7 @@ NOTE_KEYS = {'tech', 'comfort', 'craft', 'style', 'denim', 'cashmere', 'linen',
              'cotton', 'wool', 'synth', 'golf', 'status', 'finbro', 'ivy',
              'murica', 'ital', 'fren', 'street', 'avant', 'prep', 'weird',
              'boat', 'racquet', 'ski', 'scandi', 'briish', 'fuss', 'dur', 'forg', 'reach', 'shoes',
-             'golffice'}
+             'golffice', 'whitet', 'natural'}
 
 CHAN_TOKENS = {'O', 'D', 'I', 'W', 'X'}
 CONF_VALUES = {'L', 'S', 'M', 'H', 'G'}

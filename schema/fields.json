@@ -766,6 +766,19 @@
       "type": "obj",
       "absent": "optional",
       "doc": "Per garment slot (T-shirt … Shoes), the URL of the brand's own men's listing for that garment; a slot absent = not found, the label falls back to site search. From garment_links_2026-09-19."
+    },
+    "whitet": {
+      "scope": "brand",
+      "const": "WHITET",
+      "path": "dials.whitet",
+      "type": "int",
+      "range": [
+        1,
+        5
+      ],
+      "absent": "not_assessed",
+      "note": true,
+      "doc": "White tee: how much the brand's plain white T-shirt is a reason to shop it. 1 = sells no plain white tee; 2 = sells one as a basic; 3 = the tee is a named, developed product; 4 = a signature, one of the things the brand is known for; 5 = a house built on it. Seeded 27 Sep 2026 from the price pass (NONE tee = 1, priced tee = 2) and a short defended list for 3-5; provisional until read."
     }
   },
   "price_slots": [
