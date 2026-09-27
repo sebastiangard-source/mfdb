@@ -42,12 +42,12 @@
     "n": "live at Nordstrom — Sanita is the cut (named for the Naples district), Aquaspider the trademarked wool"
   },
   "prices": [
-    [295, 375],
-    [495, 1095],
-    [695, 1525],
-    [475, 730],
-    [795, 1750],
-    [1250, 2295],
+    [595, 1550],
+    [575, 1795],
+    [595, 1150],
+    [750, 795],
+    [1075, 2375],
+    [1250, 1595],
     [3500, 5795],
     [1140, 1650]
   ],
@@ -115,5 +115,73 @@
     "Sweater": "https://www.isaia.us/collections/mens-sweaters-knitwear",
     "Outerwear": "https://www.isaia.us/collections/mens-outerwear",
     "Shoes": "https://www.isaia.us/collections/mens-shoes"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Cotton Sea Island T-Shirt",
+      "lu": "https://www.isaia.us/products/fw26-mcx154-000-j0419-t-shirt-cotton",
+      "hp": "T-Shirt (cashmere, code MG8025 YP002)",
+      "hu": "https://www.isaia.us/products/ss26-mg8025-000-yp002-t-shirt-cashmere",
+      "b": "pair"
+    },
+    "Polo": {
+      "lp": "Garment Dyed Cotton Piquet Short Sleeve Polo",
+      "lu": "https://www.isaia.us/products/ss26-mct471-000-jp004-polo-short-sleeves-cotton",
+      "hp": "Cashmere and Silk Open Collar Polo",
+      "hu": "https://www.isaia.us/products/ss26-mg8437-000-y0533-open-collar-polo-cashmere",
+      "b": "pair"
+    },
+    "Dress shirt": {
+      "lp": "MILANO MIX solid",
+      "lu": "https://www.isaia.us/products/ss26-mm10sc-000-km002-milano-mix-cotton",
+      "hp": "Mix Dress Shirt SOLID",
+      "hu": "https://www.isaia.us/products/fw26-ml10sc-000-c9150-mix-dress-shirt-cotton",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Comfort Cotton White \"Chiaja\" Denim",
+      "lu": "https://www.isaia.us/products/ss26-pnd005-000-djico-chiaja-cotton",
+      "hp": "Chiaja 5 Pocket Denim",
+      "hu": "https://www.isaia.us/products/fw26-pnd005-000-dj127-chiaja-cotton",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Cotton Gabardine Sanità Tailored Pants",
+      "lu": "https://www.isaia.us/products/ss26-007602-000-p9100-trouser-cotton",
+      "hp": "Cashmere Sanità Tailored Pants",
+      "hu": "https://www.isaia.us/products/ss26-007602-000-93251-trouser-cashmere",
+      "b": "pair"
+    },
+    "Sweater": {
+      "lp": "Filo Di Corallo Wool Crewneck Sweater",
+      "lu": "https://www.isaia.us/products/fw26-mg8013-000-yp005-crew-neck-wool",
+      "hp": "Cloud Touch Cashmere Crewneck Sweater",
+      "hu": "https://www.isaia.us/products/fw26-mg8396-000-y0531-crew-neck-cashmere",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Techno Cotton Silk Aqua Varsity Jacket",
+      "lu": "https://www.isaia.us/products/fw26-sw7308-000-80090-varsity-bomber-cotton",
+      "hp": "Cashmere Storm Quilted Varsity Bomber",
+      "hu": "https://www.isaia.us/products/fw26-sw7329-000-93561-quilted-varsity-bomber-cashmere",
+      "b": "pair"
+    },
+    "Shoes": {
+      "lp": "Unlined Penny Loafer",
+      "lu": "https://www.isaia.us/products/fw25-shc002-000-pls38-penny-loafer-calf",
+      "hp": "AMF Penny Loafer",
+      "hu": "https://www.isaia.us/products/fw24-shf020-000-pls37-penny-loafer-calf",
+      "b": "pair"
+    }
+  },
+  "price_range_only": ["Dress shirt", "Jeans"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.isaia.us/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true,
+  "shop": "https://www.isaia.us/search?q="
 }

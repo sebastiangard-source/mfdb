@@ -42,7 +42,7 @@
     "u": "https://rhoback.com/search?q=Performance%20Q-Zip%20men",
     "n": "works"
   },
-  "prices": [[35, 50], [70, 90], null, null, [90, 120], [128, 194], [154, 248], null],
+  "prices": [[58, 68], [94, 128], [118, 118], null, [134, 134], [184, 194], [154, 248], null],
   "notes": {
     "synth": "activewear polos as the whole line",
     "golf": "activewear polos whose natural habitat is the first tee",
@@ -90,12 +90,64 @@
     "nc": [],
     "st": "complete"
   },
-  "price_range_only": ["Sweater", "Outerwear"],
+  "price_range_only": ["T-shirt", "Polo", "Sweater", "Outerwear"],
   "garment_links": {
     "T-shirt": "https://rhoback.com/collections/mens-tops-tees",
     "Polo": "https://rhoback.com/collections/mens-tops-polos",
     "Dress pants": "https://rhoback.com/collections/mens-bottoms-pants",
     "Sweater": "https://rhoback.com/collections/mens-tops-sweaters",
     "Outerwear": "https://rhoback.com/collections/mens-tops-jackets-and-outerwear"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Tailwind Performance Tee - Solid Oxford Blue",
+      "lu": "https://rhoback.com/products/mens-tops-tailwind-performance-tee-solid-oxford-blue",
+      "hp": "Blitz Tech Tee 2.0 - Solid Shoal Blue",
+      "hu": "https://rhoback.com/products/mens-tops-blitz-tech-tee-2-0-solid-shoal-blue",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Blitz Tech Polo - Solid Fleet Navy",
+      "lu": "https://rhoback.com/products/blitz-tech-polo-solid-fleet-navy",
+      "hp": "Harbor Stretch Sweater Polo - Solid Ivory/Fleet Navy",
+      "hu": "https://rhoback.com/products/mens-tops-harbor-stretch-sweater-polo-solid-ivory-fleet-navy",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Tailwind Performance Sport Shirt - Heather Coastal Blue/Potomac Blue",
+      "lu": "https://rhoback.com/products/mens-tops-tailwind-performance-sport-shirt-heather-coastal-blue-potomac-blue",
+      "hp": "Tailwind Performance Sport Shirt - Heather Coastal Blue/Potomac Blue",
+      "hu": "https://rhoback.com/products/mens-tops-tailwind-performance-sport-shirt-heather-coastal-blue-potomac-blue",
+      "b": "single"
+    },
+    "Dress pants": {
+      "lp": "Preston Stretch-Cotton Pant - Solid Latte",
+      "lu": "https://rhoback.com/products/mens-bottoms-preston-stretch-cotton-pant-solid-latte",
+      "hp": "Preston Stretch-Cotton Pant - Solid Latte",
+      "hu": "https://rhoback.com/products/mens-bottoms-preston-stretch-cotton-pant-solid-latte",
+      "b": "single"
+    },
+    "Sweater": {
+      "lp": "Hogan Sweater Hoodie - Heather Evergreen",
+      "lu": "https://rhoback.com/products/mens-tops-hogan-sweater-hoodie-heather-evergreen",
+      "hp": "Hogan Q-Zip Sweater - Heather Evergreen",
+      "hu": "https://rhoback.com/products/mens-tops-hogan-q-zip-sweater-heather-evergreen",
+      "b": "range"
+    },
+    "Outerwear": {
+      "lp": "Brookline Lightweight Jacket - Solid Fleet Navy",
+      "lu": "https://rhoback.com/products/mens-tops-brookline-lightweight-jacket-solid-fleet-navy",
+      "hp": "Glide Down Jacket - Solid Midnight Black",
+      "hu": "https://rhoback.com/products/glide-down-jacket-solid-midnight-black",
+      "b": "range"
+    }
+  },
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://rhoback.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

@@ -43,13 +43,13 @@
     "n": "direct product page, verified"
   },
   "prices": [
-    [550, 750],
-    [650, 650],
-    [950, 2200],
-    [1150, 1250],
-    [990, 1990],
-    [990, 1650],
-    [1950, 5990],
+    [590, 790],
+    [650, 950],
+    [890, 1500],
+    [990, 1300],
+    [1150, 1990],
+    [990, 2500],
+    [1650, 7150],
     [950, 1200]
   ],
   "shoelink": {
@@ -130,5 +130,72 @@
     "Sweater": "https://www.loewe.com/usa/en/men/menswear/knitwear",
     "Outerwear": "https://www.loewe.com/usa/en/men/menswear/coats-and-outerwear",
     "Shoes": "https://www.loewe.com/usa/en/men/shoes"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Regular fit T-shirt in cotton",
+      "lu": "https://www.loewe.com/usa/en/men/menswear/t-shirts-and-polos/regular-fit-t-shirt-in-cotton/H526Y22X75-1100.html",
+      "hp": "T-shirt in cotton blend (cotton/viscose print)",
+      "hu": "https://www.loewe.com/usa/en/men/menswear/t-shirts-and-polos/t-shirt-in-cotton-blend/H526Y22XDO-5110.html",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Polo in cotton",
+      "lu": "https://www.loewe.com/usa/en/men/menswear/t-shirts-and-polos/polo-in-cotton/H526Y23J36-1100.html",
+      "hp": "Polo in cotton (triple-layered rib collar)",
+      "hu": "https://www.loewe.com/usa/en/men/menswear/t-shirts-and-polos/polo-in-cotton/H526Y23J31-2100.html",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Shirt in cotton (poplin, classic collar)",
+      "lu": "https://www.loewe.com/usa/en/men/menswear/shirts/shirt-in-cotton/H526Y05XBC-2100.html",
+      "hp": "Shirt in cotton (striped twill)",
+      "hu": "https://www.loewe.com/usa/en/men/menswear/shirts/shirt-in-cotton/H526Y05WHN-4985.html",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Jeans in denim",
+      "lu": "https://www.loewe.com/usa/en/men/menswear/denim/jeans-in-denim/H526Y11X94-1100.html",
+      "hp": "Jeans in denim (all-over LOEWE embroideries)",
+      "hu": "https://www.loewe.com/usa/en/men/menswear/denim/jeans-in-denim/H526Y11XAS-8798.html",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Wide leg trousers in cotton (gabardine)",
+      "lu": "https://www.loewe.com/usa/en/men/menswear/trousers-and-shorts/wide-leg-trousers-in-cotton/H526Y04X67-3430.html",
+      "hp": "Trousers in wool blend (tailoring)",
+      "hu": "https://www.loewe.com/usa/en/men/menswear/trousers-and-shorts/trousers-in-wool-blend/H526Y04WK4-5094.html",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Sweater in wool (round neck)",
+      "lu": "https://www.loewe.com/usa/en/men/menswear/knitwear/sweater-in-wool/H526Y14KH1-1130.html",
+      "hp": "Zip-up cardigan in cotton blend",
+      "hu": "https://www.loewe.com/usa/en/men/menswear/knitwear/zip-up-cardigan-in-cotton-blend/H526Y16KB1-5137.html",
+      "b": "range"
+    },
+    "Outerwear": {
+      "lp": "Zip-up jacket in cotton (chambray)",
+      "lu": "https://www.loewe.com/usa/en/men/menswear/coats-and-outerwear/zip-up-jacket-in-cotton/H526Y50X34-8798.html",
+      "hp": "Zip-up jacket in deerskin",
+      "hu": "https://www.loewe.com/usa/en/men/menswear/coats-and-outerwear/zip-up-jacket-in-deerskin/H526Y34LBD-3110.html",
+      "b": "pair"
+    },
+    "Shoes": {
+      "lp": "Flex loafer in suede",
+      "lu": "https://www.loewe.com/usa/en/men/shoes/loafers/flex-loafer-in-suede/MLFL290X01-3870.html",
+      "hp": "Bobine loafer in shiny calfskin",
+      "hu": "https://www.loewe.com/usa/en/men/shoes/loafers/bobine-loafer-in-shiny-calfskin/M815290X01-3110.html",
+      "b": "pair"
+    }
+  },
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants", "Sweater"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.loewe.com/usa/en/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

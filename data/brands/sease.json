@@ -36,13 +36,13 @@
   "chan": ["W"],
   "conf": "S",
   "forgc": [2, 3, 1],
-  "shop": "https://sease.it/en/search?q=",
+  "shop": "https://sease.it/en-us/search?q=",
   "onething": {
     "p": "Low Pressure Spray Top",
     "u": "",
     "n": "signature piece — Sunrise fabric, a bio-nylon reworking of Solaro; link best-guess, verify"
   },
-  "prices": [[270, 1100], [460, 650], [615, 985], [755, 755], [815, 1400], [1050, 2300], [3600, 6550], null],
+  "prices": [[270, 580], [460, 1400], [615, 985], [755, 755], [815, 1400], [1050, 2300], [1700, 7850], null],
   "notes": {
     "ski": "Founded on two kits, sailing and skiing, so the mountain is half the brief rather than a seasonal excursion. The stores follow the Alpine circuit.",
     "boat": "Sea is half the name. Technical sailing kit built to be used rather than resort wear that references it, which separates it from everything else at this end of the dial.",
@@ -106,5 +106,64 @@
     "Dress pants": "https://sease.it/en-us/collections/pants",
     "Sweater": "https://sease.it/en-us/collections/maglieria",
     "Outerwear": "https://sease.it/en-us/collections/outerwear-uomo"
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Ts Titus (White)",
+      "lu": "https://sease.it/en-us/products/ts-titus-white-ts035tj149x33",
+      "hp": "Runner T-Shirt (extra-fine virgin wool jersey, Midnight Blue)",
+      "hu": "https://sease.it/en-us/products/runner-t-shirt-midnight-blue-ts039tj014b62",
+      "b": "pair"
+    },
+    "Polo": {
+      "lp": "T-Shirt Crew Gd (short-sleeve polo, White)",
+      "lu": "https://sease.it/en-us/products/t-shirt-crew-gd-white-tp033tj197n14",
+      "hp": "Zipped Polo Woven (extra-fine raw virgin wool, short sleeve)",
+      "hu": "https://sease.it/en-us/products/zipped-polo-woven-driftwood-tp034tn517x34",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Camicia Classica Bd 2.0 (Sage Green)",
+      "lu": "https://sease.it/en-us/products/camicia-classica-bd-2-0-sage-green-si033tn466g53",
+      "hp": "Saharan Shirt (silk)",
+      "hu": "https://sease.it/en-us/products/saharan-shirt-military-green-si046tn542g34",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Urban Denim Pants",
+      "lu": "https://sease.it/en-us/products/urban-denim-pants-denim-blue-pd001tn708b82",
+      "hp": "Urban Denim Pants",
+      "hu": "https://sease.it/en-us/products/urban-denim-pants-denim-blue-pd001tn708b82",
+      "b": "single"
+    },
+    "Dress pants": {
+      "lp": "High Life 2.0 (stretch cotton, Warm White)",
+      "lu": "https://sease.it/en-us/products/high-life-2-0-warm-white-pt047tn548x33",
+      "hp": "High Life 2.0 (100% linen, Mid Blue)",
+      "hu": "https://sease.it/en-us/products/high-life-2-0-mid-blue-pt047tn052b15",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Round Neck Pocket (boucle cotton, Navy Blue)",
+      "lu": "https://sease.it/en-us/products/round-neck-pocket-navy-blue-kr078xg104b13",
+      "hp": "Dinghy Crew (100% cashmere, reversible)",
+      "hu": "https://sease.it/en-us/products/dinghy-crew-camel-kr081xg006x02",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Jib Set (reversible full-zip jacket)",
+      "lu": "https://sease.it/en-us/products/jib-set-mud-brown-oj040tn286x74",
+      "hp": "Leather Biker",
+      "hu": "https://sease.it/en-us/products/leather-biker-dark-brown-oj058tn547x65",
+      "b": "range"
+    }
+  },
+  "price_range_only": ["Polo", "Dress shirt", "Dress pants", "Outerwear"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://sease.it/en-us",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
   }
 }

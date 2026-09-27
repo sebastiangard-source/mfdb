@@ -36,7 +36,7 @@
     "u": "https://frame-store.com/search?q=L%26apos%3BHomme%20jean%20men",
     "n": "verified — search can’t filter to men; living with it"
   },
-  "prices": [[98, 138], [128, 400], [248, 300], [208, 300], [180, 280], [398, 598], [448, 1698], null],
+  "prices": [[98, 148], [128, 398], [248, 448], [228, 298], [498, 598], [398, 598], [448, 1698], null],
   "doors": {
     "c": "full",
     "n": 16,
@@ -103,5 +103,65 @@
   },
   "notes": {
     "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Light Cotton Tee -- White",
+      "lu": "https://frame-store.com/products/s-s-light-cotton-tee-white",
+      "hp": "Jacquard Stripe Tee -- Cream/Brown Stripe",
+      "hu": "https://frame-store.com/products/jacquard-stripe-tee-ms26jte008-crmb",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Washed Light Pique Polo -- Antique Cafe (compare-at; on sale $64)",
+      "lu": "https://frame-store.com/products/washed-light-pique-polo-antique-cafe",
+      "hp": "Superfine Polo Sweater -- Pale Yellow (short sleeve)",
+      "hu": "https://frame-store.com/products/superfine-s-s-polo-sweater-me26ksw008-paly",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Cotton Shirt -- Light Blue",
+      "lu": "https://frame-store.com/products/cotton-shirt-me26wsh025-ltbl",
+      "hp": "Stripe Shirt -- Beige Stripe",
+      "hu": "https://frame-store.com/products/stripe-shirt-mf26wsh002-bgst",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "L'Homme Slim -- Rinse",
+      "lu": "https://frame-store.com/products/lhomme-slim-rinse-1",
+      "hp": "Baggy Jean -- Dark Navy",
+      "hu": "https://frame-store.com/products/baggy-jean-m005dpa966-dknv",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Pinstripe Wide Leg Trousers -- Dark Grey",
+      "lu": "https://frame-store.com/products/pinstripe-wide-leg-trousers-dark-grey",
+      "hp": "Wide Leg Trousers -- Warm Mauve",
+      "hu": "https://frame-store.com/products/wide-leg-trousers-mf26wpa001-wmme",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Cable Sweater -- Cream",
+      "lu": "https://frame-store.com/products/cable-sweater-mf26ksw023-crea",
+      "hp": "Cashmere Crewneck Sweater -- Noir",
+      "hu": "https://frame-store.com/products/the-cashmere-crewneck-sweater-noir",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Denim Zip Trucker -- Breakpoint",
+      "lu": "https://frame-store.com/products/denim-zip-trucker-m014dja813-bkpt",
+      "hp": "Suede Trucker Jacket -- Oxford Beige",
+      "hu": "https://frame-store.com/products/suede-trucker-jacket-oxford-beige",
+      "b": "pair"
+    }
+  },
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://frame-store.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

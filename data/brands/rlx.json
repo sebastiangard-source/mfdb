@@ -41,7 +41,7 @@
     "u": "https://www.ralphlauren.com/search?q=RLX%20golf%20polo",
     "n": "Use this: https://www.ralphlauren.com/search?lang=en_US&rootLevelCat=&br=t&q=tour+golf+polo+men"
   },
-  "prices": [[70, 98], [98, 148], null, null, [128, 188], [330, 430], [265, 400], null],
+  "prices": [[75, 75], [120, 145], [175, 175], null, [175, 250], [175, 598], [265, 400], null],
   "notes": {
     "golf": "a real pro-shop presence — RLX Golf dresses tour players",
     "synth": "the family's technical wing",
@@ -86,12 +86,64 @@
     "o": [],
     "s": [150]
   },
-  "price_range_only": ["Sweater", "Outerwear"],
+  "price_range_only": ["Polo", "Dress pants", "Sweater", "Outerwear"],
   "garment_links": {
     "T-shirt": "https://www.ralphlauren.com/brands-men-rlx-cg/r/rlx?prefn1=CategoryCode&prefv1=T-Shirts",
     "Polo": "https://www.ralphlauren.com/brands-men-rlx-cg/r/rlx?prefn1=CategoryCode&prefv1=Polo%20Shirts",
     "Dress pants": "https://www.ralphlauren.com/brands-men-rlx-cg/r/rlx?prefn1=CategoryCode&prefv1=Pants",
     "Sweater": "https://www.ralphlauren.com/brands-men-rlx-cg/r/rlx?prefn1=CategoryCode&prefv1=Sweaters",
     "Outerwear": "https://www.ralphlauren.com/brands-men-rlx-cg/r/rlx?prefn1=CategoryCode&prefv1=Jackets%2C%20Coats%20%26%20Vests"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Performance Stretch Jersey T-Shirt",
+      "lu": "https://www.ralphlauren.com/men-clothing-t-shirts/performance-stretch-jersey-t-shirt/100083988.html",
+      "hp": "Performance Stretch Jersey T-Shirt",
+      "hu": "https://www.ralphlauren.com/men-clothing-t-shirts/performance-stretch-jersey-t-shirt/100083988.html",
+      "b": "single"
+    },
+    "Polo": {
+      "lp": "Classic Fit Performance Polo Shirt",
+      "lu": "https://www.ralphlauren.com/men-clothing-polo-shirts/classic-fit-performance-polo-shirt/100042569.html",
+      "hp": "Tailored Fit Polo Bear Performance Polo",
+      "hu": "https://www.ralphlauren.com/men-clothing-polo-shirts/tailored-fit-polo-bear-performance-polo/100097255.html",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Classic Fit Glen Plaid Performance Shirt",
+      "lu": "https://www.ralphlauren.com/men-clothing-button-down-shirts/classic-fit-glen-plaid-performance-shirt/100096098.html",
+      "hp": "Classic Fit Glen Plaid Performance Shirt",
+      "hu": "https://www.ralphlauren.com/men-clothing-button-down-shirts/classic-fit-glen-plaid-performance-shirt/100096098.html",
+      "b": "single"
+    },
+    "Dress pants": {
+      "lp": "Tailored Fit Performance Pant",
+      "lu": "https://www.ralphlauren.com/men-clothing-pants/tailored-fit-performance-pant/100058653.html",
+      "hp": "Performance Wool-Blend Trouser",
+      "hu": "https://www.ralphlauren.com/men-clothing-pants/performance-wool-blend-trouser/100080579.html",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Waffle-Knit Cotton Polo Sweater",
+      "lu": "https://www.ralphlauren.com/men-clothing-sweaters/waffle-knit-cotton-polo-sweater/100099805.html",
+      "hp": "Cashmere Mockneck Cardigan",
+      "hu": "https://www.ralphlauren.com/men-clothing-sweaters/cashmere-mockneck-cardigan/100097220.html",
+      "b": "range"
+    },
+    "Outerwear": {
+      "lp": "Lightweight Hooded Jacket",
+      "lu": "https://www.ralphlauren.com/men-clothing-jackets-coats-vests/lightweight-hooded-jacket/100056207.html",
+      "hp": "Reversible Flight Jacket",
+      "hu": "https://www.ralphlauren.com/men-clothing-jackets-coats-vests/reversible-flight-jacket/100096256.html",
+      "b": "range"
+    }
+  },
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.ralphlauren.com/brands-men-rlx-cg",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

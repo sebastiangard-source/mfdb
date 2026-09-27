@@ -42,7 +42,16 @@
     "u": "https://www.moncler.com/en-us/men/outerwear/short-down-jackets/moncler-maya-hooded-short-down-jacket-black-L20911A5360068950999.html",
     "n": "direct — the Maya in black, verified"
   },
-  "prices": [[310, 450], [350, 770], [840, 1495], [752, 1230], [640, 820], [795, 1195], [1435, 5410], "?"],
+  "prices": [
+    [335, 830],
+    [395, 825],
+    [840, 1250],
+    [855, 945],
+    [885, 1140],
+    [795, 1055],
+    [1045, 4195],
+    [335, 1050]
+  ],
   "notes": {
     "synth": "laqué nylon down — the shell as status",
     "status": "the badge on the sleeve — suburbia's most legible luxury object",
@@ -141,7 +150,7 @@
     "nc": ["Short Sleeve T-Shirts", "Shirt Jackets", "Trousers"],
     "st": "complete"
   },
-  "price_range_only": ["Shoes", "Sweater"],
+  "price_range_only": ["Polo", "Dress shirt", "Jeans", "Dress pants", "Outerwear", "Shoes"],
   "garment_links": {
     "T-shirt": "https://www.moncler.com/en-us/men/ready-to-wear/polos-and-t-shirts",
     "Polo": "https://www.moncler.com/en-us/men/ready-to-wear/polos-and-t-shirts",
@@ -149,5 +158,71 @@
     "Dress pants": "https://www.moncler.com/en-us/men/ready-to-wear/pants-and-shorts",
     "Sweater": "https://www.moncler.com/en-us/men/ready-to-wear/sweaters-and-cardigans",
     "Outerwear": "https://www.moncler.com/en-us/men/outerwear"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Tricolor-Trimmed Cotton T-Shirt",
+      "lu": "https://www.moncler.com/en-us/men/ready-to-wear/polos-and-t-shirts/tricolor-trimmed-cotton-t-shirt-black-L10918C7160087296999.html",
+      "hp": "Silk & Cotton T-Shirt (55% silk/45% cotton knit, short sleeves, filed under Short Sleeve T-Shirts)",
+      "hu": "https://www.moncler.com/en-us/men/ready-to-wear/polos-and-t-shirts/silk-and-cotton-tshirt-white-L10919C00017M6329034.html",
+      "b": "pair"
+    },
+    "Polo": {
+      "lp": "Logo Patch Cotton Piquet Polo Shirt (also Tricolor-Trimmed Cotton Piquet Polo Shirt, $395)",
+      "lu": "https://www.moncler.com/en-us/men/ready-to-wear/polos-and-t-shirts/logo-patch-cotton-piquet-polo-shirt-night-blue-L20918A000118455677X.html",
+      "hp": "Logo Cotton Knit Polo (100% cotton, short sleeves)",
+      "hu": "https://www.moncler.com/en-us/men/ready-to-wear/polos-and-t-shirts/logo-cotton-knit-polo-black-L20919A00003M1367999.html",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Cotton Shirt (100% cotton, collar, long sleeves, button closure)",
+      "lu": "https://www.moncler.com/en-us/men/ready-to-wear/shirts/cotton-shirt-light-blue-L20912F0005220838701.html",
+      "hp": "Chambray Long Sleeve Shirt (Grenoble; snap-button front)",
+      "hu": "https://www.moncler.com/en-us/men/ready-to-wear/shirts/chambray-long-sleeve-shirt-powder-blue-L10972F00002596RS715.html",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Straight Leg Denim Jeans (five-pocket)",
+      "lu": "https://www.moncler.com/en-us/men/ready-to-wear/pants-and-shorts/straight-leg-denim-jeans-denim-blue-L20912A0004459A0D720.html",
+      "hp": "Straight Leg Jeans (denim)",
+      "hu": "https://www.moncler.com/en-us/men/ready-to-wear/pants-and-shorts/straight-leg-jeans-sky-blue-L10912A00036599J374O.html",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Tailored Cotton Pants (98% cotton, 2% elastane)",
+      "lu": "https://www.moncler.com/en-us/men/ready-to-wear/pants-and-shorts/tailored-cotton-pants-white-ivory-L20912A00005598QH050.html",
+      "hp": "Tailored Pants (100% virgin wool)",
+      "hu": "https://www.moncler.com/en-us/men/ready-to-wear/pants-and-shorts/tailored-pants-black-L20912A0005054272999.html",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Logo Patch Cotton Sweater (crew neck, 100% cotton)",
+      "lu": "https://www.moncler.com/en-us/men/ready-to-wear/sweaters-and-cardigans/logo-patch-cotton-sweater-black-L10919C00014M1367999.html",
+      "hp": "Logo Wool Sweater (crew neck, 'extra fine wool', 100% virgin wool)",
+      "hu": "https://www.moncler.com/en-us/men/ready-to-wear/sweaters-and-cardigans/logo-wool-sweater-black-L20919C00031M1131999.html",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Grimpeurs Hooded Jacket (nylon windbreaker)",
+      "lu": "https://www.moncler.com/en-us/men/outerwear/windbreakers-and-raincoats/grimpeurs-hooded-jacket-brown-L10911A0009054155262.html",
+      "hp": "Allaine Long Padded Hooded Canvas Parka (Grenoble)",
+      "hu": "https://www.moncler.com/en-us/men/outerwear/long-down-jackets/allaine-long-padded-hooded-canvas-parka-olive-green-L20971C00001599C0838.html",
+      "b": "range"
+    },
+    "Shoes": {
+      "lp": "Basile Rubber Slides",
+      "lu": "https://www.moncler.com/en-us/men/shoes/sandals-and-sliders/basile-rubber-slides-black-L109A4C00040M2999999.html",
+      "hp": "Peak City Nubuck & Suede Ankle Boots",
+      "hu": "https://www.moncler.com/en-us/men/shoes/boots/peak-city-nubuck-and-suede-ankle-boots-khaki-L209A4F00070M6882235.html",
+      "b": "range"
+    }
+  },
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.moncler.com/en-us/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "Moncler Grenoble (Moncler Genius / House of Genius collaborations excluded)"
+  },
+  "price_checked": true
 }

@@ -32,13 +32,13 @@
   "chan": ["W"],
   "conf": "L",
   "forgc": [4, 3, 1],
-  "shop": "https://finisterre.com/search?q=",
+  "shop": "https://finisterre.com/en-us/search?q=",
   "onething": {
     "p": "Rainbird jacket",
     "u": "https://finisterre.com/search?q=Rainbird%20jacket",
     "n": "verified ✓"
   },
-  "prices": [[40, 60], [60, 90], [100, 155], [100, 140], [90, 130], [160, 165], [125, 385], null],
+  "prices": [[40, 72], null, [110, 145], null, [125, 125], [155, 205], [120, 385], null],
   "doors": {
     "c": "full",
     "n": 0,
@@ -90,7 +90,7 @@
     "nc": ["T-Shirts", "Knitwear", "Shirts"],
     "st": "complete"
   },
-  "price_range_only": ["Sweater", "Outerwear"],
+  "price_range_only": ["T-shirt", "Dress shirt", "Sweater", "Outerwear"],
   "garment_links": {
     "T-shirt": "https://finisterre.com/en-us/collections/mens-t-shirts",
     "Dress shirt": "https://finisterre.com/en-us/collections/mens-shirts-polos",
@@ -100,5 +100,50 @@
   },
   "notes": {
     "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Men's Harlyn T-shirt",
+      "lu": "https://finisterre.com/en-us/products/mens-organic-cotton-harlyn-tee-navy",
+      "hp": "Men's Solar UPF T-shirt",
+      "hu": "https://finisterre.com/en-us/products/mens-recycled-solar-upf-top-navy-marl",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Men's Portside Shirt",
+      "lu": "https://finisterre.com/en-us/products/mens-organic-cotton-portside-shirt-navy",
+      "hp": "Men's Upland Check Shirt",
+      "hu": "https://finisterre.com/en-us/products/mens-organic-upland-check-shirt-deep-sea-check",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Men's Rincon Straight Fit Chino",
+      "lu": "https://finisterre.com/en-us/products/mens-organic-cotton-rincon-straight-fit-chino-burnt-umber",
+      "hp": "Men's Rincon Straight Fit Chino",
+      "hu": "https://finisterre.com/en-us/products/mens-organic-cotton-rincon-straight-fit-chino-burnt-umber",
+      "b": "single"
+    },
+    "Sweater": {
+      "lp": "Men's Escall Crew Neck Knit Sweater",
+      "lu": "https://finisterre.com/en-us/products/mens-recycled-escall-crew-neck-knit-jumper-indigo",
+      "hp": "Men's Finisterre Mora 1/4 Zip Knit Jumper",
+      "hu": "https://finisterre.com/en-us/products/mens-wool-mora-quarter-zip-knit-jumper-earth",
+      "b": "range"
+    },
+    "Outerwear": {
+      "lp": "Men's Forecast Windbreaker Jacket",
+      "lu": "https://finisterre.com/en-us/products/mens-recycled-forecast-windbreaker-jacket-olive",
+      "hp": "Men's Surge Field Jacket",
+      "hu": "https://finisterre.com/en-us/products/mens-organic-cotton-surge-field-jacket-black",
+      "b": "range"
+    }
+  },
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://finisterre.com/en-us",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

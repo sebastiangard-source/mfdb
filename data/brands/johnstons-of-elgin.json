@@ -40,7 +40,7 @@
     "u": "https://johnstonsofelgin.com/en-us/search?q=Cashmere%20crew%20men",
     "n": "men-filtered"
   },
-  "prices": [[795, 795], [975, 1195], [1400, 3150], null, [2015, 2015], [725, 1795], [1970, 3835], null],
+  "prices": [[795, 795], [975, 995], null, null, [2015, 2015], [725, 1775], [1970, 3835], null],
   "price_checked": true,
   "notes": {
     "cashmere": "a vertically integrated Scottish mill since 1797 — fiber in, garment out",
@@ -89,5 +89,50 @@
     "Dress pants": "https://johnstonsofelgin.com/en-us/collections/mens-cashmere-joggers-trousers",
     "Sweater": "https://johnstonsofelgin.com/en-us/collections/mens-knitwear",
     "Outerwear": "https://johnstonsofelgin.com/en-us/collections/mens-outerwear"
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Boyd Light Brown Superfine Cashmere T-Shirt",
+      "lu": "https://johnstonsofelgin.com/en-us/products/boyd-brown-cashmere-t-shirt",
+      "hp": "Boyd Light Brown Superfine Cashmere T-Shirt",
+      "hu": "https://johnstonsofelgin.com/en-us/products/boyd-brown-cashmere-t-shirt",
+      "b": "single"
+    },
+    "Polo": {
+      "lp": "Fin Grey Superfine Cashmere Polo Shirt (short sleeve)",
+      "lu": "https://johnstonsofelgin.com/en-us/products/fin-grey-cashmere-polo-shirt-1",
+      "hp": "Mack Brown Superfine Cashmere Polo Shirt (short sleeve)",
+      "hu": "https://johnstonsofelgin.com/en-us/products/mack-brown-cashmere-polo-shirt",
+      "b": "pair"
+    },
+    "Dress pants": {
+      "lp": "Traquair Glen Urquhart Check Trousers",
+      "lu": "https://johnstonsofelgin.com/en-us/products/traquair-glen-urquhart-check-trousers",
+      "hp": "Traquair Glen Urquhart Check Trousers",
+      "hu": "https://johnstonsofelgin.com/en-us/products/traquair-glen-urquhart-check-trousers",
+      "b": "single"
+    },
+    "Sweater": {
+      "lp": "Craigie Navy Lambswool Jumper (crew neck)",
+      "lu": "https://johnstonsofelgin.com/en-us/products/craigie-brown-lambswool-jumper",
+      "hp": "MacDonald Dark Blue Aran Cable Cashmere Jumper (crew neck)",
+      "hu": "https://johnstonsofelgin.com/en-us/products/macdonald-dark-blue-aran-cable-cashmere-jumper",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "The Weavers Storm Heritage Gun Club Jacket",
+      "lu": "https://johnstonsofelgin.com/en-us/products/storm-heritage-gun-glen-the-weavers-jacket",
+      "hp": "Brodie Rust & Petrol Herringbone Wool Car Coat",
+      "hu": "https://johnstonsofelgin.com/en-us/products/mens-brodie-wool-car-coat-rust-petrol-herringbone",
+      "b": "range"
+    }
+  },
+  "price_range_only": ["Outerwear"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://johnstonsofelgin.com/en-us",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
   }
 }

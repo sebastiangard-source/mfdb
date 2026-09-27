@@ -37,13 +37,13 @@
   "chan": ["D", "X"],
   "conf": "M",
   "forgc": [3, 2, 1],
-  "shop": "https://www.jwanderson.com/search?q=",
+  "shop": "https://jwanderson.com/en-us/search?q=",
   "onething": {
     "p": "Anchor logo crewneck",
     "u": "https://www.jwanderson.com/search?q=anchor",
     "n": "the anchor is the house logo; the chain link is their loafer hardware, not a knit — verify link"
   },
-  "prices": [[170, 230], [275, 870], [480, 595], [595, 715], [440, 760], [715, 1270], [910, 5610], [590, 910]],
+  "prices": [[185, 310], [390, 390], [665, 790], [665, 1270], [910, 1080], [715, 1750], [910, 5610], [590, 910]],
   "shoelink": {
     "t": "shoes",
     "u": "https://www.jwanderson.com/search?q=shoes"
@@ -90,7 +90,7 @@
     "nc": ["KNITWEAR", "JERSEY SWEATSHIRTS", "DENIM TROUSERS"],
     "st": "complete"
   },
-  "price_range_only": ["Sweater"],
+  "price_range_only": ["T-shirt", "Dress shirt", "Jeans", "Dress pants", "Sweater"],
   "garment_links": {
     "T-shirt": "https://jwanderson.com/en-us/collections/mens-tops",
     "Polo": "https://jwanderson.com/en-us/collections/mens-tops",
@@ -100,5 +100,71 @@
     "Sweater": "https://jwanderson.com/en-us/collections/mens-knitwear",
     "Outerwear": "https://jwanderson.com/en-us/collections/mens-coats-jackets",
     "Shoes": "https://jwanderson.com/en-us/collections/mens-shoes"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Mens Embroidered Anchor T-Shirt in White",
+      "lu": "https://jwanderson.com/en-us/products/mens-embroidered-anchor-t-shirt-in-white",
+      "hp": "Mens 'JWA' Script T-Shirt in Plum",
+      "hu": "https://jwanderson.com/en-us/products/mens-jwa-script-t-shirt-in-plum",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Mens 'Man With Daisies' Short Sleeved Polo in Pale Yellow",
+      "lu": "https://jwanderson.com/en-us/products/mens-man-with-daisies-short-sleeved-polo-in-pale-yellow",
+      "hp": "Mens 'Man With Daisies' Short Sleeved Polo in Pale Yellow",
+      "hu": "https://jwanderson.com/en-us/products/mens-man-with-daisies-short-sleeved-polo-in-pale-yellow",
+      "b": "single"
+    },
+    "Dress shirt": {
+      "lp": "Mens Classic Shirt in White",
+      "lu": "https://jwanderson.com/en-us/products/mens-classic-shirt-in-white",
+      "hp": "Mens Striped Dress Shirt in Blue & Green",
+      "hu": "https://jwanderson.com/en-us/products/mens-striped-dress-shirt-in-blue-green",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Mens Straight Leg Denim Jeans in Beige",
+      "lu": "https://jwanderson.com/en-us/products/mens-straight-leg-jeans-in-beige",
+      "hp": "Mens Straight Leg Denim Jeans in Dark-Blue",
+      "hu": "https://jwanderson.com/en-us/products/mens-straight-leg-denim-jeans-in-dark-blue",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Mens Single Pleat Trousers in Black",
+      "lu": "https://jwanderson.com/en-us/products/mens-single-pleat-trousers-in-black",
+      "hp": "Mens Tailored Tuxedo Trousers in Black",
+      "hu": "https://jwanderson.com/en-us/products/mens-tailored-tuxedo-trousers-in-black",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Mens Cheveron Jumper in Ivory",
+      "lu": "https://jwanderson.com/en-us/products/mens-cheveron-jumper-in-ivory",
+      "hp": "Mens House Polo Cardigan in Chestnut Brown",
+      "hu": "https://jwanderson.com/en-us/products/mens-house-polo-cardigan-in-chestnut-brown",
+      "b": "range"
+    },
+    "Outerwear": {
+      "lp": "Mens Front Zip Blouson in Navy & Green",
+      "lu": "https://jwanderson.com/en-us/products/front-zip-blouson-navy-green",
+      "hp": "Mens Blouson Leather Jacket in Chocolate Brown",
+      "hu": "https://jwanderson.com/en-us/products/mens-blouson-leather-jacket-in-chocolate-brown",
+      "b": "pair"
+    },
+    "Shoes": {
+      "lp": "Mens Stitch Loafer in Black",
+      "lu": "https://jwanderson.com/en-us/products/mens-stitch-loafer-in-black",
+      "hp": "Mens Loafer Moccasins in Black",
+      "hu": "https://jwanderson.com/en-us/products/mens-loafer-moccasins-in-black",
+      "b": "pair"
+    }
+  },
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://jwanderson.com/en-us",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

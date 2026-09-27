@@ -39,7 +39,7 @@
     "u": "https://www.aloyoga.com/search?q=Accolade%20hoodie%20men",
     "n": "men-filtered"
   },
-  "prices": [[58, 98], [68, 98], null, null, [108, 158], [188, 298], [138, 398], "?"],
+  "prices": [[58, 188], [128, 168], [188, 198], null, [148, 148], [188, 388], [138, 398], [150, 295]],
   "notes": {
     "status": "celebrity seeding as distribution — the paparazzi uniform; the wordmark signals membership",
     "style": "athleisure styled as fashion — sets, monochrome, runway staging",
@@ -208,12 +208,71 @@
     "nc": ["Outerwear:Coverups:Hoodies", "Tops:Short Sleeves", "Bottoms:Sweatpants"],
     "st": "complete"
   },
-  "price_range_only": ["Outerwear", "Shoes"],
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Sweater", "Outerwear", "Shoes"],
   "garment_links": {
     "T-shirt": "https://www.aloyoga.com/collections/tees-tanks",
     "Polo": "https://www.aloyoga.com/search?q=polo&Gender=Men",
     "Dress pants": "https://www.aloyoga.com/collections/mens-pants",
     "Sweater": "https://www.aloyoga.com/collections/mens-sweaters",
     "Outerwear": "https://www.aloyoga.com/collections/mens-jackets"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Triumph Tee - Black",
+      "lu": "https://www.aloyoga.com/products/m1257r-triumph-tee-black",
+      "hp": "Cotton Cashmere Ever Soft Short Sleeve Crew - Black",
+      "hu": "https://www.aloyoga.com/products/m1288r-cotton-cashmere-ever-soft-short-sleeve-crew-black",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Coastline Knit Short Sleeve Polo - Black",
+      "lu": "https://www.aloyoga.com/products/m1275r-coastline-knit-short-sleeve-polo-black",
+      "hp": "Sports Club Sweater Knit Polo - Black",
+      "hu": "https://www.aloyoga.com/products/m1250r-sports-club-sweater-knit-polo-black",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Shift Knit Button Up Long Sleeve - Black",
+      "lu": "https://www.aloyoga.com/products/m3324r-shift-knit-button-up-long-sleeve-black",
+      "hp": "Linen Jersey Coastal Long Sleeve Button Up - Black",
+      "hu": "https://www.aloyoga.com/products/m3357p-linen-jersey-coastal-long-sleeve-button-up-black",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Suited Trouser - Black",
+      "lu": "https://www.aloyoga.com/products/m5016r-suited-trouser-black",
+      "hp": "Suited Trouser - Black",
+      "hu": "https://www.aloyoga.com/products/m5016r-suited-trouser-black",
+      "b": "single"
+    },
+    "Sweater": {
+      "lp": "Domain Rib Knit Crew Sweater - Black",
+      "lu": "https://www.aloyoga.com/products/m3271r-domain-rib-knit-crew-sweater-black",
+      "hp": "Wool Cashmere New Class 1/4 Zip Pullover - Black (men's)",
+      "hu": "https://www.aloyoga.com/products/u3056r-new-class-cashmere-1-4-zip-pullover-black-mens",
+      "b": "range"
+    },
+    "Outerwear": {
+      "lp": "Vantage Nylon Ripstop Track Jacket - Navy",
+      "lu": "https://www.aloyoga.com/products/m4166r-vantage-nylon-ripstop-track-jacket-navy",
+      "hp": "Stage Sweater Puffer - Black",
+      "hu": "https://www.aloyoga.com/products/m4182r-stage-sweater-puffer-black",
+      "b": "range"
+    },
+    "Shoes": {
+      "lp": "Unisex It Slide - Black",
+      "lu": "https://www.aloyoga.com/products/a0669u-unisex-it-slide-black",
+      "hp": "ALO Trail - Black",
+      "hu": "https://www.aloyoga.com/products/a0892u-alo-trail-black",
+      "b": "range"
+    }
+  },
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.aloyoga.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

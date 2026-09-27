@@ -34,13 +34,13 @@
   "chan": ["W"],
   "conf": "S",
   "forgc": [2, 3, 1],
-  "shop": "https://vollebak.com/search?q=",
+  "shop": "https://vollebak.com/en-us/search?q=",
   "onething": {
     "p": "For When All Hell Breaks Loose Jacket",
     "u": "https://vollebak.com/products/for-when-all-hell-breaks-loose-jacket",
     "n": "verified ✓"
   },
-  "prices": [[110, 160], [145, 220], [250, 380], [400, 600], [295, 495], [395, 395], [3295, 4295], null],
+  "prices": [[145, 395], [495, 495], [345, 495], [595, 595], [495, 895], [495, 995], [795, 5995], null],
   "notes": {
     "tech": "names no technology and holds the dial anyway: the material is the name. Graphene, aramid, ceramic, aerogel and copper garments, with Dyneema and Schoeller licensed alongside",
     "synth": "engineered materials as the entire catalog",
@@ -89,5 +89,65 @@
     "Dress pants": "https://vollebak.com/en-us/collections/pants",
     "Sweater": "https://vollebak.com/en-us/collections/knitwear",
     "Outerwear": "https://vollebak.com/en-us/collections/coats-jackets"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "100 Year T Shirt. Black edition",
+      "lu": "https://vollebak.com/en-us/products/100-year-t-shirt-black-edition",
+      "hp": "Shielding T Shirt",
+      "hu": "https://vollebak.com/en-us/products/shielding-t-shirt",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Knitted Algae Polo",
+      "lu": "https://vollebak.com/en-us/products/knitted-algae-polo",
+      "hp": "Knitted Algae Polo",
+      "hu": "https://vollebak.com/en-us/products/knitted-algae-polo",
+      "b": "single"
+    },
+    "Dress shirt": {
+      "lp": "Cymatic Shirt. White edition",
+      "lu": "https://vollebak.com/en-us/products/cymatic-shirt-white-edition",
+      "hp": "Planet Earth Shirt 2. Black edition",
+      "hu": "https://vollebak.com/en-us/products/planet-earth-shirt-2-black-edition",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Indestructible Jeans. Black edition",
+      "lu": "https://vollebak.com/en-us/products/indestructible-jeans",
+      "hp": "Indestructible Jeans. Black edition",
+      "hu": "https://vollebak.com/en-us/products/indestructible-jeans",
+      "b": "single"
+    },
+    "Dress pants": {
+      "lp": "Planet Earth Suit Pants. Navy edition",
+      "lu": "https://vollebak.com/en-us/products/planet-earth-suit-pants-navy-edition",
+      "hp": "The Graphene Suit Pants",
+      "hu": "https://vollebak.com/en-us/products/the-graphene-suit-pants",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Antarctic Sweater. Navy edition",
+      "lu": "https://vollebak.com/en-us/products/antarctic-sweater-navy-edition",
+      "hp": "Planet Earth Cardigan. Black edition",
+      "hu": "https://vollebak.com/en-us/products/planet-earth-cardigan-black-edition",
+      "b": "range"
+    },
+    "Outerwear": {
+      "lp": "Carbon Fibre + Dyneema® Jacket",
+      "lu": "https://vollebak.com/en-us/products/carbon-fibre-dyneema-shell",
+      "hp": "Thermal Cloaking Jacket. Metal edition",
+      "hu": "https://vollebak.com/en-us/products/thermal-cloaking-jacket-metal-edition",
+      "b": "range"
+    }
+  },
+  "price_range_only": ["T-shirt", "Dress shirt", "Dress pants", "Sweater", "Outerwear"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://vollebak.com/en-us",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

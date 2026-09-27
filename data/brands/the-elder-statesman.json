@@ -39,7 +39,7 @@
     "u": "https://www.elder-statesman.com/search?q=Hand-dyed%20hoodie%20men",
     "n": "works"
   },
-  "prices": [[250, 450], [495, 1695], [600, 2113], null, [495, 895], [1050, 2490], [1290, 3990], null],
+  "prices": [[390, 990], [890, 1290], [690, 1690], [690, 690], [990, 1490], [990, 1990], [1290, 2690], null],
   "notes": {
     "cashmere": "hand-loomed and hand-dyed in Los Angeles",
     "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional"
@@ -84,7 +84,7 @@
     "nc": ["Sweaters", "Tops", "Pants"],
     "st": "complete"
   },
-  "price_range_only": ["Outerwear"],
+  "price_range_only": ["Dress shirt", "Dress pants", "Outerwear"],
   "garment_links": {
     "T-shirt": "https://elder-statesman.com/collections/mens-tees-tanks",
     "Polo": "https://elder-statesman.com/collections/mens-shirts-polos",
@@ -92,5 +92,64 @@
     "Dress pants": "https://elder-statesman.com/collections/mens-pants-shorts",
     "Sweater": "https://elder-statesman.com/collections/mens-sweaters",
     "Outerwear": "https://elder-statesman.com/collections/mens-outerwear-jackets"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Short Sleeve Boxy Tee (93% cotton, 7% cashmere)",
+      "lu": "https://www.elder-statesman.com/products/boxy-tee-s-s-ecru",
+      "hp": "Scout Stripe Knit Tee (100% cashmere)",
+      "hu": "https://www.elder-statesman.com/products/scout-stripe-knit-tee-sand-tigerlily",
+      "b": "pair"
+    },
+    "Polo": {
+      "lp": "Ultralight Polo S/S (53% wool, 24% silk, 23% linen)",
+      "lu": "https://www.elder-statesman.com/products/libeccio-polo-s-s-ecru",
+      "hp": "Superlight Plaid Polo S/S (100% cashmere)",
+      "hu": "https://www.elder-statesman.com/products/superlight-plaid-polo-s-s-nero-navy-canvas",
+      "b": "pair"
+    },
+    "Dress shirt": {
+      "lp": "Summer Weave Pocket Shirt (100% cotton)",
+      "lu": "https://www.elder-statesman.com/products/summer-weave-pocket-shirt-twilight-chevron",
+      "hp": "Nimbus Button-Up (63% cashmere, 37% cotton)",
+      "hu": "https://www.elder-statesman.com/products/nimbus-button-up-beige",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Hunter Baggy Jean",
+      "lu": "https://www.elder-statesman.com/products/hunter-baggy-jean-wenge",
+      "hp": "Hunter Baggy Jean",
+      "hu": "https://www.elder-statesman.com/products/hunter-baggy-jean-wenge",
+      "b": "single"
+    },
+    "Dress pants": {
+      "lp": "Cashmina Studio Pant (wool/cashmere)",
+      "lu": "https://www.elder-statesman.com/products/cashmina-studio-pant-black",
+      "hp": "Cashmina Norm Pant (50% cashmere, 50% wool)",
+      "hu": "https://www.elder-statesman.com/products/cashmina-norm-pant-silver",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Wren Crew (53% wool, 24% silk, 23% linen)",
+      "lu": "https://www.elder-statesman.com/products/libeccio-wren-crew-grey",
+      "hp": "Airspun Dume Crew (100% cashmere)",
+      "hu": "https://www.elder-statesman.com/products/airspun-dume-crew-white",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Waffle Cord Bomber (cotton)",
+      "lu": "https://www.elder-statesman.com/products/waffle-cord-bomber-cypress",
+      "hp": "Cashlite Café Jacket (cashmere/silk/wool herringbone)",
+      "hu": "https://www.elder-statesman.com/products/cashlite-cafe-jacket-twilight-herring",
+      "b": "range"
+    }
+  },
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.elder-statesman.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

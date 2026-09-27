@@ -42,7 +42,7 @@
     "u": "https://criquetshirts.com/collections/the-players-shirt",
     "n": "verified ✓ — the shirt the brand was built on; collection page"
   },
-  "prices": [[58, 98], [98, 158], [124, 168], null, [148, 148], null, [218, 349], null],
+  "prices": [[58, 64], [98, 158], [154, 168], null, [148, 154], null, [218, 218], null],
   "price_checked": true,
   "notes": {
     "golf": "Golf is the whole premise rather than a category the brand entered — the Players Shirt is a 1970s tour polo rebuilt, and everything else follows from it.",
@@ -94,5 +94,50 @@
     "Dress shirt": "https://criquetshirts.com/collections/button-down-shirts",
     "Dress pants": "https://criquetshirts.com/collections/comfort-canvas-pants",
     "Outerwear": "https://criquetshirts.com/collections/jackets-and-outerwear"
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Slub Graphic T-Shirt - Lions Badge - Vintage Indigo",
+      "lu": "https://criquetshirts.com/products/slub-graphic-t-shirt-lions-badge-vintage-indigo",
+      "hp": "Slub Cotton Pocket T-Shirt - Natural",
+      "hu": "https://criquetshirts.com/products/slub-cotton-short-sleeve-t-shirt-natural",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Classic Players Shirt - Navy Microstripe",
+      "lu": "https://criquetshirts.com/products/classic-players-shirt-navy-microstripe",
+      "hp": "Houndstooth Long Sleeve Players Shirt - Dark Slate",
+      "hu": "https://criquetshirts.com/products/houndstooth-long-sleeve-players-shirt-dark-slate",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Double Cloth Flannel Pearl Snap - Boyd Plaid - Navy",
+      "lu": "https://criquetshirts.com/products/double-cloth-flannel-pearl-snap-boyd-plaid-navy",
+      "hp": "Chambray Pearl Snap - Medium Wash",
+      "hu": "https://criquetshirts.com/products/chambray-pearl-snap-medium-wash",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Anytime Pants - Stone",
+      "lu": "https://criquetshirts.com/products/anytime-pants-stone",
+      "hp": "Comfort Corduroy Pant - Khaki",
+      "hu": "https://criquetshirts.com/products/comfort-corduroy-pant-khaki",
+      "b": "range"
+    },
+    "Outerwear": {
+      "lp": "Watershed Rain Jacket - Navy",
+      "lu": "https://criquetshirts.com/products/rain-jacket-navy",
+      "hp": "Watershed Rain Jacket - Navy",
+      "hu": "https://criquetshirts.com/products/rain-jacket-navy",
+      "b": "single"
+    }
+  },
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Dress pants"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://criquetshirts.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
   }
 }

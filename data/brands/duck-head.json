@@ -39,7 +39,7 @@
     "u": "https://duckhead.com/collections/pants",
     "n": "verified — the direct descendant of the 1978 Big Gold Patch chino the house is remembered for"
   },
-  "prices": [[44, 98], [98, 148], [118, 148], [178, 178], [118, 198], [128, 288], [168, 598], "?"],
+  "prices": [[54, 68], [98, 118], [118, 148], [178, 178], [118, 198], [128, 288], [168, 478], null],
   "notes": {
     "cotton": "63 of 90 clothing styles are cotton-dominant, and the name is the duck canvas itself",
     "murica": "Nashville 1865, and the range still reads Southern rather than national",
@@ -92,5 +92,65 @@
     "Dress pants": "https://www.duckhead.com/collections/chinos-1",
     "Sweater": "https://www.duckhead.com/collections/sweaters",
     "Outerwear": "https://www.duckhead.com/collections/outerwear"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Logo Short Sleeve T-Shirt - Antique White",
+      "lu": "https://www.duckhead.com/products/logo-short-sleeve-t-shirt-antique-white",
+      "hp": "Tindale Pima Cotton Jersey T-Shirt - Carbon Navy",
+      "hu": "https://www.duckhead.com/products/tindale-pima-cotton-jersey-t-shirt-carbon-navy",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Long Drive Performance Polo - Whit Stripe - Navy Peony",
+      "lu": "https://www.duckhead.com/products/long-drive-performance-polo-whit-stripe-navy-peony",
+      "hp": "Hanover Pima Cotton Pique Polo - Washed Navy",
+      "hu": "https://www.duckhead.com/products/hanover-pima-cotton-pique-polo-washed-navy",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Cotton Oxford Sport Shirt - Morris Solid - White",
+      "lu": "https://www.duckhead.com/products/morris-solid-cotton-oxford-sport-shirt-white",
+      "hp": "Performance Flannel Sport Shirt - Ellicot Plaid - Deep Navy",
+      "hu": "https://www.duckhead.com/products/performance-flannel-sport-shirt-ellicot-plaid-deep-navy",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Classic Straight Denim - Rinse Wash",
+      "lu": "https://www.duckhead.com/products/classic-straight-fit-denim-rinse-wash",
+      "hp": "Classic Straight Denim - Rinse Wash",
+      "hu": "https://www.duckhead.com/products/classic-straight-fit-denim-rinse-wash",
+      "b": "single"
+    },
+    "Dress pants": {
+      "lp": "Classic Fit Gold School Chino - Original Khaki",
+      "lu": "https://www.duckhead.com/products/classic-fit-gold-school-chino-original-khaki",
+      "hp": "Flannel Corduroy Patchwork Gold School Chino - Multi",
+      "hu": "https://www.duckhead.com/products/flannel-corduroy-patchwork-gold-school-chino-multi",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Henson Jersey Crewneck Sweater - Clay Heather",
+      "lu": "https://www.duckhead.com/products/henson-jersey-crewneck-sweater-clay-heather",
+      "hp": "Walcott Merino Cashmere Cable Knit 1/4 Zip Sweater - Deep Navy",
+      "hu": "https://www.duckhead.com/products/walcott-merino-cashmere-cable-knit-1-4-zip-sweater-deep-navy",
+      "b": "range"
+    },
+    "Outerwear": {
+      "lp": "Garment Dyed Duck Canvas Jacket - Navy Peony",
+      "lu": "https://www.duckhead.com/products/garment-dyed-duck-canvas-jacket-navy-peony",
+      "hp": "Waxed Duck Canvas Jacket - Deep Olive",
+      "hu": "https://www.duckhead.com/products/waxed-duck-canvas-jacket-deep-olive",
+      "b": "range"
+    }
+  },
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Dress pants", "Sweater", "Outerwear"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.duckhead.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

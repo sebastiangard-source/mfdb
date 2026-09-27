@@ -38,7 +38,7 @@
     "u": "https://www.alexmill.com/search?q=work+jacket",
     "n": "best-guess link — verify"
   },
-  "prices": [[48, 78], [98, 155], [98, 148], [135, 165], [110, 150], [178, 358], [250, 275], null],
+  "prices": [[68, 68], [98, 98], [145, 175], [225, 225], [165, 225], [178, 358], [225, 595], null],
   "notes": {
     "denim": "the garment-dyed work jacket — the brand's engine",
     "murica": "the J.Crew diaspora's second act",
@@ -83,7 +83,7 @@
     "nc": ["Men's Wovens", "Men's Pants", "Men's Jackets"],
     "st": "complete"
   },
-  "price_range_only": ["Outerwear"],
+  "price_range_only": ["Dress shirt", "Dress pants", "Outerwear"],
   "garment_links": {
     "T-shirt": "https://www.alexmill.com/collections/tees-polos-mens",
     "Polo": "https://www.alexmill.com/collections/tees-polos-mens",
@@ -92,5 +92,64 @@
     "Dress pants": "https://www.alexmill.com/collections/alex-mill-mens-chinos",
     "Sweater": "https://www.alexmill.com/collections/sweatshirts-sweaters-mens",
     "Outerwear": "https://www.alexmill.com/collections/mens-jackets-coats"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "The Standard T-Shirt In Slub Cotton",
+      "lu": "https://www.alexmill.com/products/the-standard-t-shirt-in-slub-cotton-white",
+      "hp": "The Standard T-Shirt In Slub Cotton",
+      "hu": "https://www.alexmill.com/products/the-standard-t-shirt-in-slub-cotton-white",
+      "b": "single"
+    },
+    "Polo": {
+      "lp": "Garment Dyed Polo In Pique Cotton",
+      "lu": "https://www.alexmill.com/products/garment-dyed-polo-in-pique-cotton-in-evergreen",
+      "hp": "Garment Dyed Polo In Pique Cotton",
+      "hu": "https://www.alexmill.com/products/garment-dyed-polo-in-pique-cotton-in-evergreen",
+      "b": "single"
+    },
+    "Dress shirt": {
+      "lp": "Mill Point Collar Shirt in Cotton Poplin",
+      "lu": "https://www.alexmill.com/products/mill-shirt-in-paper-cotton-in-dark-navy",
+      "hp": "Mill Shirt in Fine Wale Corduroy",
+      "hu": "https://www.alexmill.com/products/mill-shirt-in-fine-wale-corduroy",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "AM Original 5 Pocket Jean",
+      "lu": "https://www.alexmill.com/products/am-original-in-raw-indigo",
+      "hp": "AM Original 5 Pocket Jean",
+      "hu": "https://www.alexmill.com/products/am-original-in-raw-indigo",
+      "b": "single"
+    },
+    "Dress pants": {
+      "lp": "Standard Pleated Pant",
+      "lu": "https://www.alexmill.com/products/standard-pleated-pant-in-cord-in-saddle",
+      "hp": "Standard Pleated Pant In Linen",
+      "hu": "https://www.alexmill.com/products/standard-pleated-pant-in-linen",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Winston Crewneck Sweater in Wool",
+      "lu": "https://www.alexmill.com/products/winston-crewneck-sweater-in-wool-in-dark-navy",
+      "hp": "Kingston Cable Sweater in Washed Cashmere",
+      "hu": "https://www.alexmill.com/products/kingston-cable-sweater-in-washed-cashmere-in-navy",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Garment Dyed Work Jacket In Recycled Denim",
+      "lu": "https://www.alexmill.com/products/garment-dyed-work-jacket-in-recycled-denim-in-dark-navy",
+      "hp": "Double Breasted James Coat In Wool",
+      "hu": "https://www.alexmill.com/products/james-double-breasted-top-coat-in-wool-in-dark-navy",
+      "b": "range"
+    }
+  },
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.alexmill.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

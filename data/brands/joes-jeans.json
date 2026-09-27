@@ -36,7 +36,7 @@
     "u": "https://www.joesjeans.com/search?q=asher",
     "n": "best-guess link — verify"
   },
-  "prices": [[50, 80], null, [128, 198], [178, 228], [158, 198], [278, 278], [218, 998], null],
+  "prices": [[78, 78], [128, 188], [148, 748], [168, 248], [198, 228], [178, 248], [218, 998], null],
   "notes": {
     "denim": "LA premium denim, first wave — the Asher as the modern slim",
     "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional"
@@ -103,5 +103,65 @@
     "Dress pants": "https://www.joesjeans.com/collections/men-ready-to-wear-trousers",
     "Sweater": "https://www.joesjeans.com/collections/men-ready-to-wear-sweaters",
     "Outerwear": "https://www.joesjeans.com/collections/men-ready-to-wear-jackets"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "BESPOKE TEE (Black)",
+      "lu": "https://www.joesjeans.com/products/bespoke-tee-black",
+      "hp": "BESPOKE TEE (Black)",
+      "hu": "https://www.joesjeans.com/products/bespoke-tee-black",
+      "b": "single"
+    },
+    "Polo": {
+      "lp": "CLUB POLO (Baritone Blue)",
+      "lu": "https://www.joesjeans.com/products/club-polo-baritone-blue",
+      "hp": "TENNIS POLO (White)",
+      "hu": "https://www.joesjeans.com/products/tennis-polo-white",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "SHORT SLEEVE SEERSUCKER STRIPE SHIRT",
+      "lu": "https://www.joesjeans.com/products/short-sleeve-seersucker-stripe-shirt-sailorwhite-j2",
+      "hp": "SUEDE SHIRT (Black)",
+      "hu": "https://www.joesjeans.com/products/suede-shirt-black",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "THE CLASSIC 32\" (Sterling)",
+      "lu": "https://www.joesjeans.com/products/the-classic-32-sterling",
+      "hp": "THE BRIXTON (Bluewater)",
+      "hu": "https://www.joesjeans.com/products/the-brixton-bluewater",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "THE BRIXTON LUXE TWILL 32\" (Tea Leaf)",
+      "lu": "https://www.joesjeans.com/products/the-brixton-luxe-twill-32-tea-leaf",
+      "hp": "CHAD CHINO (Tea Leaf)",
+      "hu": "https://www.joesjeans.com/products/chad-chino-tea-leaf",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "TEXTURED HENLEY SWEATER (Flax)",
+      "lu": "https://www.joesjeans.com/products/henley-sweater-flax",
+      "hp": "MOHAIR CARDIGAN POLO (Turbulence)",
+      "hu": "https://www.joesjeans.com/products/mohair-cardigan-polo-turbulence",
+      "b": "range"
+    },
+    "Outerwear": {
+      "lp": "LINEN ZIP JACKET (Baritone Blue)",
+      "lu": "https://www.joesjeans.com/products/linen-zip-jacket-baritone-blue",
+      "hp": "SUEDE DRESS ZIP JACKET (Wren)",
+      "hu": "https://www.joesjeans.com/products/suede-dress-zip-jacket-wren",
+      "b": "pair"
+    }
+  },
+  "price_range_only": ["Polo", "Dress shirt", "Jeans", "Dress pants", "Sweater"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.joesjeans.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

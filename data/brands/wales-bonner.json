@@ -43,14 +43,14 @@
     "n": "Use this: https://walesbonner.com/search?q=Adidas+Samba+collab&type=product&options%5Bprefix%5D=last"
   },
   "prices": [
-    [220, 335],
-    [400, 795],
-    [620, 875],
-    [600, 1295],
-    [570, 900],
-    [595, 595, "GBP"],
-    [750, 1500, "GBP"],
-    [485, 595, "GBP"]
+    [259, 259, "USD_landed"],
+    [523, 523, "USD_landed"],
+    [523, 861, "USD_landed"],
+    [656, 656, "USD_landed"],
+    [728, 1080, "USD_landed"],
+    [523, 788, "USD_landed"],
+    [920, 2581, "USD_landed"],
+    [642, 728, "USD_landed"]
   ],
   "notes": {
     "street": "the Adidas Samba revival is her doing — the decade's sneaker, from a scholar's label",
@@ -93,7 +93,7 @@
     "st": "complete"
   },
   "shop": "https://walesbonner.com/search?q=",
-  "price_range_only": ["Sweater"],
+  "price_range_only": ["Dress shirt", "Dress pants", "Sweater", "Outerwear"],
   "garment_links": {
     "T-shirt": "https://walesbonner.com/collections/menswear-tops",
     "Polo": "https://walesbonner.com/collections/menswear-tops",
@@ -103,5 +103,71 @@
     "Sweater": "https://walesbonner.com/collections/menswear-knitwear",
     "Outerwear": "https://walesbonner.com/collections/menswear-outerwear",
     "Shoes": "https://walesbonner.com/collections/footwear-menswear"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Raga T-Shirt",
+      "lu": "https://walesbonner.com/products/raga-t-shirt",
+      "hp": "Raga T-Shirt",
+      "hu": "https://walesbonner.com/products/raga-t-shirt",
+      "b": "single"
+    },
+    "Polo": {
+      "lp": "Roots Polo Shirt (viscose silk knit)",
+      "lu": "https://walesbonner.com/products/roots-polo-shirt",
+      "hp": "Roots Polo Shirt (viscose silk knit)",
+      "hu": "https://walesbonner.com/products/roots-polo-shirt",
+      "b": "single"
+    },
+    "Dress shirt": {
+      "lp": "Atlantic Shirt",
+      "lu": "https://walesbonner.com/products/atlantic-shirt-ss26",
+      "hp": "Tone Dress Shirt (cotton poplin)",
+      "hu": "https://walesbonner.com/products/tone-dress-shirt-1",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Studio Jean",
+      "lu": "https://walesbonner.com/products/studio-jean",
+      "hp": "Studio Jean",
+      "hu": "https://walesbonner.com/products/studio-jean",
+      "b": "single"
+    },
+    "Dress pants": {
+      "lp": "Mudra Trouser (jacquard)",
+      "lu": "https://walesbonner.com/products/mudra-trouser",
+      "hp": "Alto Trouser (mouline wool)",
+      "hu": "https://walesbonner.com/products/alto-trouser-black-and-brown-ss26",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Nile Henley (merino rib knit)",
+      "lu": "https://walesbonner.com/products/nile-henley",
+      "hp": "Acoustic Jumper (wool cable knit)",
+      "hu": "https://walesbonner.com/products/acoustic-jumper",
+      "b": "range"
+    },
+    "Outerwear": {
+      "lp": "Drew Jacket (corduroy)",
+      "lu": "https://walesbonner.com/products/drew-jacket",
+      "hp": "Linear Coat (virgin wool)",
+      "hu": "https://walesbonner.com/products/linear-coat",
+      "b": "range"
+    },
+    "Shoes": {
+      "lp": "Dakar Loafer (nappa, dark brown)",
+      "lu": "https://walesbonner.com/products/dakar-loafer-dark-brown",
+      "hp": "Dakar Loafer (black calf hair)",
+      "hu": "https://walesbonner.com/products/dakar-loafer-black-calf",
+      "b": "pair"
+    }
+  },
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://walesbonner.com/ (US market, set via the site's country localization)",
+    "currency": "USD_landed",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

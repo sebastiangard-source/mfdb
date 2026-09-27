@@ -43,7 +43,7 @@
     "u": "https://www.charlestyrwhitt.com/us/non-iron-twill-shirt---white/FON0409WHT.html",
     "n": "verified — direct product page, $129 list and $74.75 on a multibuy, which is the house's actual pricing. Two-ply 100% cotton twill with the non-iron finish the brand was built on; classic, slim or extra slim, collar and sleeve sized separately. Made in Vietnam"
   },
-  "prices": [[59, 59], [109, 119], [129, 139], [149, 149], [149, 230], [149, 149], [229, 599], [169, 399]],
+  "prices": [[59, 59], [109, 119], [129, 139], [149, 149], [169, 270], [149, 299], [229, 599], [169, 219]],
   "price_checked": true,
   "notes": {
     "cotton": "Two-ply Egyptian and long-staple cotton, and a non-iron finish applied to it",
@@ -114,5 +114,71 @@
     "Sweater": "https://www.charlestyrwhitt.com/us/mens-sweaters/",
     "Outerwear": "https://www.charlestyrwhitt.com/us/mens-coats/",
     "Shoes": "https://www.charlestyrwhitt.com/us/mens-shoes/"
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Cotton T-Shirt - Light Gray",
+      "lu": "https://www.charlestyrwhitt.com/us/cotton-t-shirt---light-gray/JET0027LGY.html",
+      "hp": "Cotton T-Shirt - Light Gray",
+      "hu": "https://www.charlestyrwhitt.com/us/cotton-t-shirt---light-gray/JET0027LGY.html",
+      "b": "single"
+    },
+    "Polo": {
+      "lp": "Pique Polo - Navy",
+      "lu": "https://www.charlestyrwhitt.com/us/pique-polo---navy/JEP0459NAV.html",
+      "hp": "Pure Linen Polo - Black",
+      "hu": "https://www.charlestyrwhitt.com/us/pure-linen-polo---black/JEP0473BLK.html",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Non-Iron Twill Shirt - White",
+      "lu": "https://www.charlestyrwhitt.com/us/non-iron-twill-shirt---white/FON0409WHT.html",
+      "hp": "Luxury Twill Shirt - White",
+      "hu": "https://www.charlestyrwhitt.com/us/luxury-twill-shirt---white%C2%A0/FOR2362WHT.html",
+      "b": "pair"
+    },
+    "Jeans": {
+      "lp": "Denim Jeans - Indigo",
+      "lu": "https://www.charlestyrwhitt.com/us/denim-jeans-%E2%80%93-indigo/TRJ0048IDG.html",
+      "hp": "Denim Jeans - Indigo",
+      "hu": "https://www.charlestyrwhitt.com/us/denim-jeans-%E2%80%93-indigo/TRJ0048IDG.html",
+      "b": "single"
+    },
+    "Dress pants": {
+      "lp": "Wool Stretch Pants - Chocolate",
+      "lu": "https://www.charlestyrwhitt.com/us/wool-stretch-pants---chocolate/TRT0455CHC.html",
+      "hp": "Italian Luxury Suit Pants - Indigo",
+      "hu": "https://www.charlestyrwhitt.com/us/italian-luxury-suit-pants---indigo/SUL0421IDG.html",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Pure Merino Crew Neck Sweater - Navy",
+      "lu": "https://www.charlestyrwhitt.com/us/pure-merino-crew-neck-sweater---navy--/KNM0009NAV.html",
+      "hp": "Pure Cashmere Quarter Zip Sweater - Navy",
+      "hu": "https://www.charlestyrwhitt.com/us/pure-cashmere-quarter-zip-sweater---navy/KNS0004NAV.html",
+      "b": "range"
+    },
+    "Outerwear": {
+      "lp": "Lightweight Quilted Jacket - Navy",
+      "lu": "https://www.charlestyrwhitt.com/us/lightweight-quilted-jacket---navy/OUC0081NAV.html",
+      "hp": "Pure Wool Overcoat - Dark Gray",
+      "hu": "https://www.charlestyrwhitt.com/us/pure-wool-overcoat---dark-gray/OUF0072DGY.html",
+      "b": "range"
+    },
+    "Shoes": {
+      "lp": "Suede Slip On Loafer - Light Brown",
+      "lu": "https://www.charlestyrwhitt.com/us/suede-slip-on-loafer---light-brown/SHW0252LBN.html",
+      "hp": "Leather Tassel Loafers - Black",
+      "hu": "https://www.charlestyrwhitt.com/us/leather-tassel-loafers---black/SHB0272BLK.html",
+      "b": "pair"
+    }
+  },
+  "price_range_only": ["Polo", "Dress pants", "Sweater", "Outerwear"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.charlestyrwhitt.com/us/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
   }
 }

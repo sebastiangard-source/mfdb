@@ -33,18 +33,17 @@
   "chan": ["O", "D", "X"],
   "conf": "S",
   "forgc": [2, 3, 2],
-  "shop": "https://us.burberry.com/search?search=",
   "onething": {
     "p": "Heritage trench",
     "u": "https://us.burberry.com/search/?query=heritage%20trench%20men",
     "n": ""
   },
   "prices": [
-    [395, 690],
-    [395, 690],
-    [510, 795],
-    [790, 1283],
-    [650, 1200],
+    [395, 1150],
+    [395, 1050],
+    [495, 1395],
+    [725, 725],
+    [1050, 1450],
     [885, 1395],
     [1495, 4450],
     [920, 995]
@@ -140,5 +139,72 @@
     "Sweater": "https://us.burberry.com/l/mens-clothing/knitwear/",
     "Outerwear": "https://us.burberry.com/l/mens-coats-jackets/",
     "Shoes": "https://us.burberry.com/l/mens-shoes/"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Check Piping Cotton T-shirt",
+      "lu": "https://us.burberry.com/check-piping-cotton-t-shirt-p81275901",
+      "hp": "Striped Wool Blend T-shirt (knitted, short sleeves, crew neck, 95% wool)",
+      "hu": "https://us.burberry.com/striped-wool-blend-t-shirt-p81250451",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Cotton Polo Shirt",
+      "lu": "https://us.burberry.com/cotton-polo-shirt-p81324251",
+      "hp": "Cashmere Polo Shirt (100% cashmere fine knit)",
+      "hu": "https://us.burberry.com/cashmere-polo-shirt-p81235541",
+      "b": "pair"
+    },
+    "Dress shirt": {
+      "lp": "Classic Fit Gingham Cotton Shirt (long sleeves, button-down collar)",
+      "lu": "https://us.burberry.com/classic-fit-gingham-cotton-shirt-p81335271",
+      "hp": "Oversized Check Silk Shirt (100% silk, camp collar)",
+      "hu": "https://us.burberry.com/oversized-check-silk-shirt-p80912021",
+      "b": "pair"
+    },
+    "Jeans": {
+      "lp": "Slim Jeans",
+      "lu": "https://us.burberry.com/slim-jeans-p81248011",
+      "hp": "Loose Jeans",
+      "hu": "https://us.burberry.com/loose-jeans-p81111031",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Wool Tailored Trousers",
+      "lu": "https://us.burberry.com/wool-tailored-trousers-p80926661",
+      "hp": "Grain de Poudre Wool Tuxedo Trousers",
+      "hu": "https://us.burberry.com/grain-de-poudre-wool-tuxedo-trousers-p81180641",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Wool Sweater (crew neck, wool)",
+      "lu": "https://us.burberry.com/wool-sweater-p81275861",
+      "hp": "Check Cashmere Sweater (cashmere, crew neck)",
+      "hu": "https://us.burberry.com/check-cashmere-sweater-p81317811",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Nylon Clapton Hooded Jacket (100% polyamide)",
+      "lu": "https://us.burberry.com/nylon-clapton-hooded-jacket-p81229011",
+      "hp": "Leather Clapton Hooded Jacket (100% lambskin)",
+      "hu": "https://us.burberry.com/leather-clapton-hooded-jacket-p81301901",
+      "b": "pair"
+    },
+    "Shoes": {
+      "lp": "Check and Leather Pembroke Loafers",
+      "lu": "https://us.burberry.com/check-and-leather-pembroke-loafers-p81353651",
+      "hp": "Leather Pembroke Loafers",
+      "hu": "https://us.burberry.com/leather-pembroke-loafers-p81279541",
+      "b": "pair"
+    }
+  },
+  "price_range_only": ["T-shirt", "Jeans", "Dress pants"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://us.burberry.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

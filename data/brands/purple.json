@@ -40,7 +40,7 @@
     "u": "https://purple-brand.com/search?q=P001%20jean%20men",
     "n": "works"
   },
-  "prices": [[65, 110], null, [140, 220], [250, 400], [172, 350], [350, 395], [395, 1295], "?"],
+  "prices": [[108, 595], null, [250, 895], [188, 795], null, [350, 395], [395, 1295], [345, 345]],
   "notes": {
     "street": "denim for the culture, adopted fast by hip-hop",
     "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional"
@@ -89,12 +89,64 @@
     "nc": ["Denim", "Tees", "Shorts"],
     "st": "complete"
   },
-  "price_range_only": ["Shoes"],
+  "price_range_only": ["T-shirt", "Dress shirt", "Jeans", "Sweater"],
   "garment_links": {
     "T-shirt": "https://purple-brand.com/collections/tees-t-shirts",
     "Dress shirt": "https://purple-brand.com/collections/shirts",
     "Jeans": "https://purple-brand.com/collections/denim",
     "Sweater": "https://purple-brand.com/collections/sweaters",
     "Outerwear": "https://purple-brand.com/collections/outerwear"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Basic Tee",
+      "lu": "https://purple-brand.com/products/basic-tee",
+      "hp": "Leather Mesh Tee",
+      "hu": "https://purple-brand.com/products/leather-mesh-tee",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Wordmark Outline Shirt",
+      "lu": "https://purple-brand.com/products/wordmark-outline-shirt",
+      "hp": "Leather Shirt",
+      "hu": "https://purple-brand.com/products/leather-shirt-beige",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "P001 Black Resin 3/D",
+      "lu": "https://purple-brand.com/products/p001-low-rise-skinny-jean-black-resin",
+      "hp": "P018 Trompe L'oeil",
+      "hu": "https://purple-brand.com/products/p018-trompe-loeil",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Inked Gothic P Sweater",
+      "lu": "https://purple-brand.com/products/inked-gothic-p-sweater",
+      "hp": "Gothic Oversized Crew Sweater",
+      "hu": "https://purple-brand.com/products/gothic-oversized-crew-sweater",
+      "b": "range"
+    },
+    "Outerwear": {
+      "lp": "Black Raw Carpenter Jacket",
+      "lu": "https://purple-brand.com/products/black-raw-carpenter-jacket",
+      "hp": "Suede Carpenter Jacket",
+      "hu": "https://purple-brand.com/products/suede-carpenter-jacket",
+      "b": "pair"
+    },
+    "Shoes": {
+      "lp": "S001 Court Low",
+      "lu": "https://purple-brand.com/products/s001-court-low-noir",
+      "hp": "S001 Court Low",
+      "hu": "https://purple-brand.com/products/s001-court-low-noir",
+      "b": "single"
+    }
+  },
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://purple-brand.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "White Label, Black Label (both PURPLE BRAND)"
+  },
+  "price_checked": true
 }

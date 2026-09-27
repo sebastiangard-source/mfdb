@@ -1567,3 +1567,58 @@ Held: [('Carhartt', 'sweater NONE — a house with no crewneck still makes sweat
 ## 2026-09-26 · seated · Stefan Brandt (Accessible Luxury) on Sebastian's sighting at Richards, Greenwich and Maxwell & Co., Falmouth; both shops added (places 3200,3201); Falmouth mapped to The Cape
 
 - Richards, Greenwich was already on the register (21 brands); the duplicate I added is merged into it, Stefan Brandt linked there
+
+## 2026-09-27 · price_full_2026-09-23 · full return merged: 203 rows, 196 brands' prices changed; cells {'pair': 361, 'range': 900, 'NONE': 182, 'single': 131, 'NC': 2, 'no_store': 6}; 195 brands read in full; evidence (product+URL per cell) stored on each record
+- Carhartt: shop None -> https://www.carhartt.com/search/
+- J.Crew: shop https://www.jcrew.com/search2?Ntrm= -> https://www.jcrew.com/search?term=
+- Alex Crane: shop https://alexcrane.co/search?q= -> https://www.alexcrane.co/search?q=
+- Finisterre: shop https://finisterre.com/search?q= -> https://finisterre.com/en-us/search?q=
+- Rodd & Gunn: shop https://www.roddandgunn.com/search?q= -> https://www.roddandgunn.com/us/search?q=
+- Wax London: shop https://www.waxlondon.com/search?q= -> https://waxlondon.com/search?q=
+- Hiroshi Kato: shop None -> https://kato-brand.com/search?q=
+- Buck Mason: shop removed (overlay-only search)
+- Proper Cloth: shop https://propercloth.com/search?q= -> https://propercloth.com/shop/search/
+- Patrick James: shop https://www.patrickjames.com/search?q= -> https://patrickjames.com/search?q=
+- Baracuta: shop https://www.baracuta.com/search?q= -> https://us.baracuta.com/search?q=
+- Filson: shop None -> https://www.filson.com/search?q=
+- Massimo Dutti: shop None -> https://www.massimodutti.com/us/search?term=
+- Ted Baker: shop None -> https://www.tedbaker.com/search?q=
+- Scotch & Soda: shop None -> https://www.scotchandsoda.com/search?q=
+- Vollebak: shop https://vollebak.com/search?q= -> https://vollebak.com/en-us/search?q=
+- Stone Island: shop None -> https://www.stoneisland.com/en-us/search/?query=
+- Canada Goose: shop https://www.canadagoose.com/us/en/search?q= -> https://www.canadagoose.com/en-us/search?q=
+- Diesel: shop None -> https://diesel.com/en-us/search-algolia?q=
+- Boggi Milano: shop https://www.boggi.com/en-us/search?q= -> https://www.boggi.com/en_US/search?q=
+- J.Press: shop https://jpressonline.com/search?q= -> https://jpress.com/search?q=
+- Sid Mashburn: shop None -> https://shopmashburn.com/search?q=
+- Luca Faloni: shop https://lucafaloni.com/search?q= -> https://lucafaloni.com/en/us/search?query=
+- Paul Smith: shop None -> https://www.paulsmith.com/us/search?q=
+- Officine Générale: shop https://www.officinegenerale.com/search?q= -> https://us.officinegenerale.com/search?q=
+- Ami Paris: shop None -> https://www.amiparis.com/en-us/search?q=
+- Peserico: shop https://it.peserico.com/search?q= -> https://us.peserico.com/search?q=
+- Drake's: shop https://www.drakes.com/search?q= -> https://us.drakes.com/search?q=
+- BOSS: shop https://www.hugoboss.com/us/search?text= -> https://www.hugoboss.com/us/search?q=
+- Corneliani: shop None -> https://www.corneliani.com/en_us/catalogsearch/result/?q=
+- Canali: shop None -> https://us.canali.com/<term>?_q=<term>&map=ft (VTEX full-text; the term is the path segment, so there is no empty-query base)
+- Thom Browne: shop None -> https://www.thombrowne.com/search?q=
+- Burberry: shop removed (overlay-only search)
+- Herno: shop None -> https://us.herno.com/en/search-results?q=
+- Aspesi: shop https://www.aspesi.com/search?q= -> https://aspesi.com/en-us/search?q=
+- Paul & Shark: shop None -> https://www.paulandshark.com/en_US/search?q=
+- Sease: shop https://sease.it/en/search?q= -> https://sease.it/en-us/search?q=
+- Giorgio Armani: shop removed (overlay-only search)
+- Rick Owens: shop None -> https://www.rickowens.eu/en-us/search?q=
+- Sacai: shop https://www.sacai.jp/search?q= -> https://www.sacai.jp/en/search?q=
+- Casablanca: shop https://casablancaparis.com/search?q= -> https://casablancaparis.com/en-us/search?q=
+- Jacquemus: shop https://www.jacquemus.com/search?q= -> https://www.jacquemus.com/en_us/search?q=
+- JW Anderson: shop https://www.jwanderson.com/search?q= -> https://jwanderson.com/en-us/search?q=
+- Amiri: shop https://www.amiri.com/search?q= -> https://amiri.com/search?q=
+- Rhude: shop None -> https://rh-ude.com/search?q=
+- Palm Angels: shop https://www.palmangels.com/search?q= -> https://www.palmangels.com/en-us/search?q=
+- Bode: shop https://www.bodenewyork.com/search?q= -> https://bode.com/search?q=
+- Tom Ford: shop None -> https://www.tomfordfashion.com/en-us/search?q=
+- Husbands: shop https://www.husbands-paris.com/search?q= -> https://husbands-paris.com/en/search?q=
+- Brioni: shop None -> https://www.brioni.com/en/us/search?q=
+- Isaia: shop None -> https://www.isaia.us/search?q=
+- Dries Van Noten: shop None -> https://www.driesvannoten.com/en-us/search?q=
+- Kiton: shop None -> https://us.kiton.com/search?q=

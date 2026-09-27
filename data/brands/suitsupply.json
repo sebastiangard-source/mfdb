@@ -39,7 +39,7 @@
     "u": "https://suitsupply.com/en-us/search?q=Havana%20suit",
     "n": "works"
   },
-  "prices": [[69, 229], [70, 110], [100, 140], [120, 170], [120, 200], [109, 269], [399, 699], [249, 299]],
+  "prices": [[69, 229], [99, 229], [99, 249], [199, 199], [149, 299], [109, 269], [299, 699], [249, 299]],
   "notes": {
     "wool": "Vitale Barberis Canonico cloth at full-canvas value prices",
     "finbro": "the first-year banker's first real suit",
@@ -155,5 +155,72 @@
     "Sweater": "https://suitsupply.com/en-us/men/knitwear",
     "Outerwear": "https://suitsupply.com/en-us/men/coats",
     "Shoes": "https://suitsupply.com/en-us/men/shoes"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Crewneck T-Shirt (off-white, 100% cotton)",
+      "lu": "https://suitsupply.com/en-us/men/knitwear/off-white-crewneck-t-shirt/SW2259.html",
+      "hp": "Short Sleeve Crewneck (light grey, 100% cashmere)",
+      "hu": "https://suitsupply.com/en-us/men/knitwear/light-grey-short-sleeve-crewneck/SW2256.html",
+      "b": "pair"
+    },
+    "Polo": {
+      "lp": "Buttonless Polo (black, 100% cotton)",
+      "lu": "https://suitsupply.com/en-us/men/knitwear/black-buttonless-polo/SW2282.html",
+      "hp": "Polo (navy, 100% cashmere)",
+      "hu": "https://suitsupply.com/en-us/men/knitwear/navy-polo/SW2274.html",
+      "b": "pair"
+    },
+    "Dress shirt": {
+      "lp": "Tailored Fit Classic Collar Shirt (white, 100% cotton)",
+      "lu": "https://suitsupply.com/en-us/men/shirts/white-classic-collar-shirt/H7011.html",
+      "hp": "Tailored Fit Classic Collar Shirt (white, 76% cotton 24% silk)",
+      "hu": "https://suitsupply.com/en-us/men/shirts/white-classic-collar-shirt/H7553.html",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Straight Leg Jeans (navy, 100% cotton)",
+      "lu": "https://suitsupply.com/en-us/men/trousers/navy-straight-leg-jeans/TCD10004N01.html",
+      "hp": "Straight Leg Jeans (navy, 100% cotton)",
+      "hu": "https://suitsupply.com/en-us/men/trousers/navy-straight-leg-jeans/TCD10004N01.html",
+      "b": "single"
+    },
+    "Dress pants": {
+      "lp": "Perennial Straight Leg Suit Pants (navy, 100% tropical wool)",
+      "lu": "https://suitsupply.com/en-us/men/trousers/navy-perennial-straight-leg-suit-pants/B9669.html",
+      "hp": "Straight Leg Suit Pants (navy birdseye, pure S130's wool)",
+      "hu": "https://suitsupply.com/en-us/men/trousers/navy-birds-eye-straight-leg-suit-pants/B7515.html",
+      "b": "pair"
+    },
+    "Sweater": {
+      "lp": "Crewneck (black merino, 100% wool)",
+      "lu": "https://suitsupply.com/en-us/men/knitwear/black-merino-crewneck/KCV10002999.html",
+      "hp": "Crewneck (navy, 100% cashmere)",
+      "hu": "https://suitsupply.com/en-us/men/knitwear/navy-crewneck/KCV10001N01.html",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Reversible Bomber Jacket (black, technical fabric)",
+      "lu": "https://suitsupply.com/en-us/men/coats/black-reversible-bomber-jacket/J1130.html",
+      "hp": "Bomber Jacket (black, 100% cashmere)",
+      "hu": "https://suitsupply.com/en-us/men/coats/black-bomber-jacket/OCO10028999.html",
+      "b": "pair"
+    },
+    "Shoes": {
+      "lp": "Loafer (dark brown, leather)",
+      "lu": "https://suitsupply.com/en-us/men/shoes/dark-brown-loafer/FLF10008B01.html",
+      "hp": "Penny Loafer (black, leather)",
+      "hu": "https://suitsupply.com/en-us/men/shoes/black-penny-loafer/FLF10002999.html",
+      "b": "pair"
+    }
+  },
+  "price_range_only": ["Dress shirt"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://suitsupply.com/en-us/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

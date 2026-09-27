@@ -41,7 +41,7 @@
     "u": "https://greglauren.com/search?q=patchwork%20jacket",
     "n": "verified — no www"
   },
-  "prices": [[245, 450], null, [750, 1250], [840, 1650], [950, 1850], null, [1250, 3250], null],
+  "prices": [[245, 450], null, [625, 1375], [1250, 1950], [1050, 1295], [2000, 2000], [995, 3150], null],
   "notes": {
     "craft": "one-of-one construction from vintage cloth in an owned LA studio",
     "murica": "Americana literally recut — the flag frayed on purpose",
@@ -89,5 +89,58 @@
     "Dress shirt": "https://greglauren.com/collections/mens-shirts",
     "Dress pants": "https://greglauren.com/collections/mens-pants",
     "Outerwear": "https://greglauren.com/collections/mens-jackets"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "SS Henley Faded Army",
+      "lu": "https://greglauren.com/products/ss-henley-faded-army",
+      "hp": "Split Striped Tee Multi",
+      "hu": "https://greglauren.com/products/split-striped-tee-multi",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Oxford Studio Shirt Medium Blue",
+      "lu": "https://greglauren.com/products/oxford-studio-shirt-medium-blue",
+      "hp": "Buffalo Plaid Shawl Collar Boxy Red Plaid",
+      "hu": "https://greglauren.com/products/buffalo-plaid-shawl-collar-box-red-plaid",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "34 Tux Denim Lounge Medium Blue",
+      "lu": "https://greglauren.com/products/34-tux-denim-lounge-medium-blue",
+      "hp": "Mixed Denim 34 Lounge",
+      "hu": "https://greglauren.com/products/mixed-denim-34-lounge-denim-blue",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Wide-Leg Pant Navy (pinstripe wool)",
+      "lu": "https://greglauren.com/products/wide-leg-pant-navy",
+      "hp": "Wide Leg Pant Black (wool)",
+      "hu": "https://greglauren.com/products/wide-leg-pant-black",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Fisherman Sweater Black",
+      "lu": "https://greglauren.com/products/fisherman-sweater-black",
+      "hp": "Fisherman Sweater Black",
+      "hu": "https://greglauren.com/products/fisherman-sweater-black",
+      "b": "single"
+    },
+    "Outerwear": {
+      "lp": "Army Boxy Jacket Army",
+      "lu": "https://greglauren.com/products/army-boxy-jacket-army",
+      "hp": "Navy Wool Button Spine",
+      "hu": "https://greglauren.com/products/navy-wool-button-spine-navy",
+      "b": "range"
+    }
+  },
+  "price_range_only": ["T-shirt", "Dress shirt", "Jeans", "Dress pants", "Outerwear"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://greglauren.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

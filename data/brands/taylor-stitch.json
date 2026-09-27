@@ -38,7 +38,7 @@
     "u": "https://www.taylorstitch.com/collections/mens-all-jacks",
     "n": "verified — the house's own collection page for the shirt. Taylor Stitch calls itself a shirting company at its core and learnt the trade from the oldest family of shirtmakers in the country; 22 stitches per inch and French seams are the details it cites"
   },
-  "prices": [[40, 70], [80, 120], [120, 160], [140, 200], [120, 180], [178, 218], [198, 1248], null],
+  "prices": [[50, 88], [70, 188], [118, 188], [178, 188], [138, 138], [178, 248], [188, 1248], [298, 298]],
   "doors": {
     "c": "full",
     "n": 3,
@@ -78,7 +78,7 @@
     "nc": ["Tees & Sweaters", "Shirts & Button Downs", "Bottoms"],
     "st": "complete"
   },
-  "price_range_only": ["Sweater"],
+  "price_range_only": ["Polo", "Dress shirt", "Jeans", "Outerwear"],
   "garment_links": {
     "T-shirt": "https://www.taylorstitch.com/collections/mens-tees",
     "Polo": "https://www.taylorstitch.com/collections/polos",
@@ -90,5 +90,71 @@
   },
   "notes": {
     "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "The Cotton Hemp Tee in Navy",
+      "lu": "https://www.taylorstitch.com/products/cotton-hemp-tee-in-navy-2605",
+      "hp": "The Merino Tee in Heather Army",
+      "hu": "https://www.taylorstitch.com/products/merino-tee-in-heather-army-2407",
+      "b": "pair"
+    },
+    "Polo": {
+      "lp": "The Cotton Hemp Polo in Faded Black",
+      "lu": "https://www.taylorstitch.com/products/cotton-hemp-polo-in-faded-black-2606",
+      "hp": "The Newton Sweater Polo in Navy Birdseye Merino",
+      "hu": "https://www.taylorstitch.com/products/newton-sweater-polo-in-navy-birdseye-merino-2608",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "The Jack in Navy University Stripe Everyday Oxford",
+      "lu": "https://www.taylorstitch.com/products/jack-in-navy-university-stripe-everyday-oxford-2304",
+      "hp": "The Jack in Japanese Oyster Plaid",
+      "hu": "https://www.taylorstitch.com/products/jack-in-japanese-flax-indigo-plaid-2603",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "The Democratic Jean in Rinsed Organic Selvedge",
+      "lu": "https://www.taylorstitch.com/products/democratic-jean-in-rinsed-organic-selvedge-2607",
+      "hp": "The Mariner Jean in Drift Wash Organic Selvedge",
+      "hu": "https://www.taylorstitch.com/products/mariner-jean-in-drift-wash-organic-selvedge-2607",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "The Slim Foundation Pant in Organic Smoked Olive",
+      "lu": "https://www.taylorstitch.com/products/slim-foundation-pant-in-organic-smoked-olive-2407",
+      "hp": "The Slim Foundation Pant in Organic Smoked Olive",
+      "hu": "https://www.taylorstitch.com/products/slim-foundation-pant-in-organic-smoked-olive-2407",
+      "b": "single"
+    },
+    "Sweater": {
+      "lp": "The Crawford Crew Sweater in Charcoal",
+      "lu": "https://www.taylorstitch.com/products/crawford-crew-sweater-in-charcoal-2607",
+      "hp": "The Hardtack Sweater in Olive Cashmere Donegal",
+      "hu": "https://www.taylorstitch.com/products/the-hardtack-sweater-in-olive-donegal",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "The Port Jacket in Espresso Marl",
+      "lu": "https://www.taylorstitch.com/products/port-jacket-in-espresso-marl",
+      "hp": "The Moto Jacket in Whiskey Steerhide",
+      "hu": "https://www.taylorstitch.com/products/the-moto-jacket-in-whiskey-steerhide",
+      "b": "range"
+    },
+    "Shoes": {
+      "lp": "The Loafer in Tan Suede",
+      "lu": "https://www.taylorstitch.com/products/loafer-in-tan-suede-2304",
+      "hp": "The Loafer in Tan Suede",
+      "hu": "https://www.taylorstitch.com/products/loafer-in-tan-suede-2304",
+      "b": "single"
+    }
+  },
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.taylorstitch.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

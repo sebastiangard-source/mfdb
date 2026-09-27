@@ -34,13 +34,13 @@
   "chan": ["D", "I"],
   "conf": "M",
   "forgc": [2, 3, 1],
-  "shop": "https://www.baracuta.com/search?q=",
+  "shop": "https://us.baracuta.com/search?q=",
   "onething": {
     "p": "G9 Harrington",
     "u": "https://fr.baracuta.com/en/collections/g9-harrington-jacket",
     "n": "verified — the house's own G9 Harrington collection. €399, made in the UK, in eight colours; the Fraser tartan lining is woven in Coolmax. The wider G9 page carries the suede, leather, denim and ripstop cuts of the same jacket"
   },
-  "prices": [[110, 180], [140, 300], [135, 380], null, [175, 250], [225, 225], [405, 910], null],
+  "prices": [[85, 180], [155, 200], [135, 135], null, [170, 250], [225, 400], [405, 910], null],
   "notes": {
     "ivy": "the Harrington entered the Ivy wardrobe through golf and never left",
     "cotton": "the G9 cloth — poplin outside, tartan inside",
@@ -81,7 +81,7 @@
     "nc": ["JACKETS", "KNITWEAR", "T-SHIRTS"],
     "st": "complete"
   },
-  "price_range_only": ["Sweater"],
+  "price_range_only": ["T-shirt", "Polo", "Dress pants", "Sweater"],
   "garment_links": {
     "T-shirt": "https://us.baracuta.com/collections/t-shirts",
     "Polo": "https://us.baracuta.com/collections/polo-shirt",
@@ -89,5 +89,57 @@
     "Dress pants": "https://us.baracuta.com/collections/trousers",
     "Sweater": "https://us.baracuta.com/collections/sweaters-gilets",
     "Outerwear": "https://us.baracuta.com/collections/outerwear"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Logo Embroidered Tee",
+      "lu": "https://us.baracuta.com/products/baracuta-logo-embroidered-tee-brtee0029ut3061-100",
+      "hp": "Knit T-Shirt",
+      "hu": "https://us.baracuta.com/products/baracuta-knit-t-shirt-brmag0208bknt1-699",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Tartan Placket Polo",
+      "lu": "https://us.baracuta.com/products/baracuta-tartan-placket-polo-brpol0027ut3060-30110",
+      "hp": "Pattern Stitch SS Polo",
+      "hu": "https://us.baracuta.com/products/baracuta-pattern-stitch-ss-polo-brmag0209uf0627-100",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "BR Oxford Shirt",
+      "lu": "https://us.baracuta.com/products/baracuta-br-oxford-shirt-brcam0036ut3207-308",
+      "hp": "BR Oxford Shirt",
+      "hu": "https://us.baracuta.com/products/baracuta-br-oxford-shirt-brcam0036ut3207-308",
+      "b": "single"
+    },
+    "Dress pants": {
+      "lp": "COTTON Trousers",
+      "lu": "https://us.baracuta.com/products/baracuta-cotton-trousers-brpan0055ut3092-734",
+      "hp": "Canvas Garment Dyed Trousers",
+      "hu": "https://us.baracuta.com/products/baracuta-canvas-garment-dyed-trousers-brpan0042ut2919-1016",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Shetland Crewneck",
+      "lu": "https://us.baracuta.com/products/baracuta-shetland-crewneck-brmag0200uf0616-5019",
+      "hp": "Aran Mock Neck",
+      "hu": "https://us.baracuta.com/products/baracuta-aran-mock-neck-brmag0213uf0628-837",
+      "b": "range"
+    },
+    "Outerwear": {
+      "lp": "G9 Twill",
+      "lu": "https://us.baracuta.com/products/baracuta-g9-twill-brcps1166ut3046-309",
+      "hp": "G9 LEATHER",
+      "hu": "https://us.baracuta.com/products/baracuta-g9-leather-brcps1127ut2995-1016",
+      "b": "pair"
+    }
+  },
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://us.baracuta.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

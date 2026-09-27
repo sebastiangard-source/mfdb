@@ -43,7 +43,7 @@
     "u": "https://fearofgod.com/search?q=Essentials%20hoodie",
     "n": "verified ✓"
   },
-  "prices": [[295, 695], [115, 165], [135, 875], [695, 695], [890, 1190], [175, 1050], [1150, 3850], "?"],
+  "prices": [[65, 850], [115, 165], [135, 875], [175, 695], [880, 1300], [175, 990], [230, 3850], [150, 1250]],
   "shoelink": {
     "t": "shoes",
     "u": "https://fearofgod.com/search?q=shoes"
@@ -90,7 +90,7 @@
     "nc": ["tops", "bottoms", "outerwear"],
     "st": "complete"
   },
-  "price_range_only": ["Sweater", "Shoes"],
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants", "Sweater", "Outerwear", "Shoes"],
   "garment_links": {
     "T-shirt": "https://fearofgod.com/collections/mens-tees",
     "Polo": "https://fearofgod.com/collections/mens-shirts",
@@ -99,5 +99,71 @@
     "Dress pants": "https://fearofgod.com/collections/fearofgod-suiting",
     "Sweater": "https://fearofgod.com/collections/mens-knitwear-sweaters",
     "Outerwear": "https://fearofgod.com/collections/mens-outerwear"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Signature Essential Tee (ESSENTIALS)",
+      "lu": "https://fearofgod.com/products/essentials-signature-essential-tee-125sp264223f-ivory",
+      "hp": "Merino Milano Knit Tee",
+      "hu": "https://fearofgod.com/products/knit-t-shirt-fg9m20-203lms-dusty-beige",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Heavy Jersey Cropped Polo (ESSENTIALS)",
+      "lu": "https://fearofgod.com/products/essentials-cropped-polo-rw00276-washed-seal",
+      "hp": "Signature 3/4 Sleeve 90s Knit Polo (ESSENTIALS)",
+      "hu": "https://fearofgod.com/products/essentials-signature-3-4-sleeve-90s-knit-polo-192sp266961f-vintage-black",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Flannel Button Up Shirt (ESSENTIALS)",
+      "lu": "https://fearofgod.com/products/essentials-button-up-shirt-rw00308-vintage-black-plaid",
+      "hp": "Cotton Wool Oxford Classic Shirt",
+      "hu": "https://fearofgod.com/products/classic-shirt-ls-fg9m60-602oxf-white",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Denim 5-Pocket Jeans (ESSENTIALS)",
+      "lu": "https://fearofgod.com/products/essentials-denim-5-pocket-jeans-rw00310-overdyed-black",
+      "hp": "Straight 5 Pocket",
+      "hu": "https://fearofgod.com/products/straight-5-pkt-fg9m45-9906dnmmi-medium-indigo",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Wool Ripstop Wide Leg Drawstring Pants",
+      "lu": "https://fearofgod.com/products/wide-leg-drawstring-pants-fg9m65-652twr-black",
+      "hp": "Double Face Wool Cashmere Flared Pants",
+      "hu": "https://fearofgod.com/products/flared-pants-double-face-fg9m65-650cdfh-black",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Signature Waffle 90s Crewneck Sweater (ESSENTIALS)",
+      "lu": "https://fearofgod.com/products/essentials-signature-waffle-90s-crewneck-sweater-192sp266131f-vintage-black",
+      "hp": "Wool Cotton Sport Mesh Knit Sweater",
+      "hu": "https://fearofgod.com/products/crew-neck-sweater-fg9m20-211dkms-cream",
+      "b": "range"
+    },
+    "Outerwear": {
+      "lp": "Cotton Twill Work Jacket (ESSENTIALS)",
+      "lu": "https://fearofgod.com/products/essentials-work-jacket-rw00303-moss",
+      "hp": "Leather Raglan Bomber Jacket",
+      "hu": "https://fearofgod.com/products/raglan-bomber-jacket-fg9m50-500lth-black",
+      "b": "range"
+    },
+    "Shoes": {
+      "lp": "Essentials California 1.0 (ESSENTIALS)",
+      "lu": "https://fearofgod.com/products/essentials-california-1-0-ess80a-100eva-almond",
+      "hp": "Croc Printed Ankle Boot",
+      "hu": "https://fearofgod.com/products/ankle-boot-fg981-9000clp-midnight-blue",
+      "b": "range"
+    }
+  },
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://fearofgod.com",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "ESSENTIALS"
+  },
+  "price_checked": true
 }

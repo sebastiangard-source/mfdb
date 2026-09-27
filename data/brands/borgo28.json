@@ -37,7 +37,7 @@
     "u": "https://borgo28.com/collections/shirts",
     "n": "verified — 67 styles against 42 knits, by far the deepest category the house makes"
   },
-  "prices": [[78, 178], [98, 298], [95, 295], [175, 478], [135, 298], [148, 348], [175, 725], "?"],
+  "prices": [[78, 178], [145, 298], [170, 238], [175, 198], [175, 298], [175, 348], [225, 725], null],
   "notes": {
     "linen": "35 of 271 clothing styles are linen-dominant, high for a house this size",
     "ital": "Italian and Portuguese make, American design and ownership",
@@ -93,5 +93,65 @@
     "Dress pants": "https://borgo28.com/collections/pants",
     "Sweater": "https://borgo28.com/collections/sweaters",
     "Outerwear": "https://borgo28.com/collections/outerwear"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Summer Pima Cotton Jersey V-Neck Tee Shirt",
+      "lu": "https://borgo28.com/products/32624-ss-summer-jersey-pima-v-neck-1",
+      "hp": "Linen Notch-Neck Tee Shirt",
+      "hu": "https://borgo28.com/products/32779-linen-notch-neck-tee-shirt",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Seersucker Garment-Dyed Polo Shirt",
+      "lu": "https://borgo28.com/products/32583-ss-gd-seersucker-polo-1",
+      "hp": "Stripe Collar Notch-Neck Polo Shirt",
+      "hu": "https://borgo28.com/products/32798-stripe-collar-notch-neck-polo-shirt",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Denim Twill Dress Shirt",
+      "lu": "https://borgo28.com/products/32836-denim-twill-dress-shirt",
+      "hp": "Pure Cotton Long-Sleeve Sport Shirt (120s two-ply, spread collar; handle 'dress-shirt')",
+      "hu": "https://borgo28.com/products/32767-pure-cotton-long-sleeve-dress-shirt",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Italian Stretch Denim Jean",
+      "lu": "https://borgo28.com/products/32275-italian-stretch-denim-jean",
+      "hp": "Bull Denim Boot Cut Jeans",
+      "hu": "https://borgo28.com/products/32738-bull-denim-boot-cut-jeans-1",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Flat-Front Diamond Dobby Pant",
+      "lu": "https://borgo28.com/products/32552-atwater-diamond-dobby-1",
+      "hp": "Wool-Cashmere Houndstooth Check Pant",
+      "hu": "https://borgo28.com/products/32909-wool-cashmere-houndstooth-check-pant",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Merino Wool Crewneck Sweater",
+      "lu": "https://borgo28.com/products/32886-merino-wool-crewneck-sweater",
+      "hp": "Feather-Weight Italian Cashmere Raglan Sweater",
+      "hu": "https://borgo28.com/products/32939-feather-weight-italian-cashmere-raglan-sweater",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Cotton-Linen Jogger Jacket",
+      "lu": "https://borgo28.com/products/32782-cotton-linen-jogger-jacket",
+      "hp": "Icon Sueded Leather Jacket",
+      "hu": "https://borgo28.com/products/32326-icon-sueded-leather-jacket",
+      "b": "range"
+    }
+  },
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants", "Outerwear"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://borgo28.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

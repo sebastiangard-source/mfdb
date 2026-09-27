@@ -46,7 +46,7 @@
     "u": "https://www.petermillar.com/search?q=Perth%20pullover%20men",
     "n": "verified ✓"
   },
-  "prices": [[65, 95], [95, 135], [130, 180], [150, 225], [140, 225], [235, 998], [278, 1398], [250, 395]],
+  "prices": [[68, 98], [105, 175], [165, 698], [198, 228], [188, 448], [235, 998], [278, 2995], [275, 395]],
   "notes": {
     "golf": "Crown Sport in every pro shop in America",
     "finbro": "standard issue from the client golf outing to the office Friday",
@@ -174,5 +174,72 @@
     "Sweater": "https://www.petermillar.com/c/men/tops/sweaters",
     "Outerwear": "https://www.petermillar.com/c/men/outerwear/jackets-and-coats",
     "Shoes": "https://www.petermillar.com/c/men/shoes"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Crown Comfort Short-Sleeve Pocket Tee",
+      "lu": "https://www.petermillar.com/p/crown-comfort-short-sleeve-pocket-tee/ma26k41.html",
+      "hp": "Pursuit Piqué Tee",
+      "hu": "https://www.petermillar.com/p/pursuit-pique-tee/mf26xk94.html",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Solid Performance Mesh Polo",
+      "lu": "https://www.petermillar.com/p/solid-performance-mesh-polo/me0ek50s.html",
+      "hp": "Barnes Short-Sleeve Knit Polo",
+      "hu": "https://www.petermillar.com/p/barnes-short-sleeve-knit-polo/mf26xk30.html",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Devonport Chambray Cotton-Stretch Sport Shirt",
+      "lu": "https://www.petermillar.com/p/devonport-chambray-cotton-stretch-sport-shirt/ma26w70ltb.html",
+      "hp": "Artisan Crafted Cashmere Sport Shirt",
+      "hu": "https://www.petermillar.com/p/artisan-crafted-cashmere-sport-shirt/mf26xw50ltx.html",
+      "b": "pair"
+    },
+    "Jeans": {
+      "lp": "Crown Heritage Five Pocket Denim",
+      "lu": "https://www.petermillar.com/p/crown-heritage-five-pocket-denim/ma26b22fb.html",
+      "hp": "Vintage Washed Five-Pocket Denim",
+      "hu": "https://www.petermillar.com/p/vintage-washed-five-pocket-denim/me0xb90fb.html",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Charlotte Performance Trouser",
+      "lu": "https://www.petermillar.com/p/charlotte-performance-trouser/me0eb55fb.html",
+      "hp": "Byron Cashmere-Merino Flat Front Trouser",
+      "hu": "https://www.petermillar.com/p/byron-cashmere-merino-flat-front-trouser/mf26xb73.html",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Autumn Crest Honeycomb Crewneck Sweater",
+      "lu": "https://www.petermillar.com/p/autumn-crest-honeycomb-crewneck-sweater/mf26s44.html",
+      "hp": "First Fleece Cashmere Crewneck Sweater",
+      "hu": "https://www.petermillar.com/p/first-fleece-cashmere-crewneck-sweater/mf26xs60.html",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Suffolk Coat",
+      "lu": "https://www.petermillar.com/p/suffolk-coat/me0z02.html",
+      "hp": "Italian Double-Faced Cashmere Coat",
+      "hu": "https://www.petermillar.com/p/italian-double-faced-cashmere-coat/mf26xz80.html",
+      "b": "pair"
+    },
+    "Shoes": {
+      "lp": "Excursionist Penny Loafer",
+      "lu": "https://www.petermillar.com/p/excursionist-penny-loafer/ma26xf09.html",
+      "hp": "Oxford Tassel Loafer",
+      "hu": "https://www.petermillar.com/p/oxford-tassel-loafer/ma27xf102.html",
+      "b": "pair"
+    }
+  },
+  "price_range_only": ["T-shirt", "Polo", "Jeans", "Dress pants"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.petermillar.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "Crown, Crown Sport, Crown Crafted (incl. its Artisan Crafted cashmere pieces), Pursuit Series"
+  },
+  "price_checked": true
 }

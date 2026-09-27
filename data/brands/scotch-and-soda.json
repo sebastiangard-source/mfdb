@@ -35,7 +35,7 @@
     "u": "https://scotchandsoda.com/collections/men-clothing-jeans",
     "n": "verified — own-site jeans collection, $148. The house names Ralston as its signature men's fit: regular slim, tapering from the knee"
   },
-  "prices": [[45, 70], [80, 110], [100, 140], [120, 180], [110, 160], [98, 198], [178, 898], [108, 108]],
+  "prices": [[38, 88], [68, 148], [98, 158], [138, 188], [128, 198], [98, 218], [188, 898], [168, 178]],
   "doors": {
     "c": "full",
     "n": 0,
@@ -76,7 +76,7 @@
     "nc": ["Shirts", "Pants", "T-Shirts & Polos"],
     "st": "complete"
   },
-  "price_range_only": ["Sweater"],
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants", "Sweater", "Outerwear", "Shoes"],
   "garment_links": {
     "T-shirt": "https://www.scotchandsoda.com/collections/men-clothing-t-shirts-polos",
     "Polo": "https://www.scotchandsoda.com/collections/men-clothing-t-shirts-polos",
@@ -89,5 +89,72 @@
   },
   "notes": {
     "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Essentials Chest Logo Regular-Fit T-Shirt",
+      "lu": "https://www.scotchandsoda.com/products/essentials-chest-logo-regular-fit-t-shirt-184409_410-adriatic-blue",
+      "hp": "Jacquard Loose-Fit T-Shirt",
+      "hu": "https://www.scotchandsoda.com/products/jacquard-loose-fit-t-shirt-183742_270-eggnog",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Essentials — Logo Pique Polo",
+      "lu": "https://www.scotchandsoda.com/products/essentials-logo-pique-polo-179201-001-black",
+      "hp": "Structured Knitted Regular-Fit Polo",
+      "hu": "https://www.scotchandsoda.com/products/structured-knitted-regular-fit-polo-183788_301-forest-night",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Essentials — Poplin Solid Shirt",
+      "lu": "https://www.scotchandsoda.com/products/core-poplin-solid-179185_101-bright-white",
+      "hp": "Denim Relaxed-Fit Shirt",
+      "hu": "https://www.scotchandsoda.com/products/denim-relaxed-fit-shirt-183568_401-washed-indigo",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Essentials — Ralston slim jeans — Classic Blue",
+      "lu": "https://www.scotchandsoda.com/products/core-ralston-slim-jeans-classic-blue",
+      "hp": "The Zee Straight-Leg Jeans",
+      "hu": "https://www.scotchandsoda.com/products/the-zee-straight-leg-jeans-183794_401-black-moon",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Essentials — Mott Tailored Knitted Yarn Dyed Chino",
+      "lu": "https://www.scotchandsoda.com/products/core-mott-tailored-knitted-yarn-dyed-chino-181557-night",
+      "hp": "Oliver Wool-Blend Tweed Pleated Pants",
+      "hu": "https://www.scotchandsoda.com/products/oliver-wool-blend-tweed-pleated-pants-183684_410-sky-captain-melange",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Essentials — Viscose Pullover Crewneck",
+      "lu": "https://www.scotchandsoda.com/products/core-viscose-pullover-crewneck-179183_050-grey-melange",
+      "hp": "Jacquard Wool-Blend Relaxed-Fit Zip-Through Pullover",
+      "hu": "https://www.scotchandsoda.com/products/jacquard-wool-blend-relaxed-fit-zip-through-pullover-184329_210-walnut",
+      "b": "range"
+    },
+    "Outerwear": {
+      "lp": "Reversible Bomber Jacket",
+      "lu": "https://www.scotchandsoda.com/products/reversible-bomber-jacket-183627_301-forest-night",
+      "hp": "Hooded Flight Leather Jacket",
+      "hu": "https://www.scotchandsoda.com/products/hooded-flight-jacket-183663_001-meteorite",
+      "b": "range"
+    },
+    "Shoes": {
+      "lp": "Plakka Leather Sneaker",
+      "lu": "https://www.scotchandsoda.com/products/plakka-leather-sneaker-99831930-s29-white",
+      "hp": "Vivex Sneakers",
+      "hu": "https://www.scotchandsoda.com/products/vivex-sneakers-78-7086-01-d03_d03-brown-silver",
+      "b": "range"
+    }
+  },
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.scotchandsoda.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "Essentials"
+  },
+  "price_checked": true,
+  "shop": "https://www.scotchandsoda.com/search?q="
 }

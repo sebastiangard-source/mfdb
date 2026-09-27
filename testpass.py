@@ -82,7 +82,7 @@ with sync_playwright() as p:
     pg.goto(url+'#brand='+_unc.replace(' ','%20').replace("'", '%27')); pg.reload(); pg.wait_for_timeout(400)
     ck('an unchecked brand does not',
        'all eight garments read' not in pg.eval_on_selector('#detailBody .pv-note','e=>e.textContent'))
-    ck('the read flag means read, not filled', pg.evaluate("Object.keys(PRICES).filter(k=>PRICE_PASS.includes(k)).length")<=60)
+    ck('the read flag is set only where a full read exists', pg.evaluate("PRICE_PASS.every(k=>PRICES[k] && PRICES[k].every(r=>r!=='?'))"))
     pg.goto(url+'#prices'); pg.reload(); pg.wait_for_timeout(450)
     ck('the prices overlay offers all eight',
        len(pg.eval_on_selector_all('#pvG button','e=>e.map(x=>x.textContent)'))==9)
@@ -855,7 +855,7 @@ with sync_playwright() as p:
     ck('a native-currency price prints with its symbol and no bar', any('¥' in r for r in rows) and pg.evaluate("document.querySelectorAll('#detailBody .pr-row .pr-native').length")>0 and pg.evaluate("[...document.querySelectorAll('#detailBody .pr-row')].filter(r=>r.querySelector('.pr-native')).every(r=>!r.querySelector('.pr-bar'))"))
     pg.goto(url+'#brand=Carhartt'); pg.reload(); pg.wait_for_timeout(400)
     ck('a range bar carries the range tag', pg.evaluate("document.querySelectorAll('#detailBody .pr-tag').length")>0)
-    ck('the reset shoe cell reads not assessed, not does-not-make', pg.evaluate("document.querySelectorAll('#detailBody .pr-row')[7].innerText").strip().endswith('not assessed'))
+    ck('a shoes cell that was read reads as a figure or does-not-make, never not-assessed', not pg.evaluate("document.querySelectorAll('#detailBody .pr-row')[7].innerText").strip().endswith('not assessed'))
     pg.goto(url+'#brand=Faherty'); pg.reload(); pg.wait_for_timeout(400)
     ck('garment labels use the brand\'s own men\'s listing where one is on file', pg.evaluate("document.querySelector('#detailBody .pr-row .gl-link').href")=='https://fahertybrand.com/collections/mens-t-shirts-henleys-polos' or 'fahertybrand.com/collections/' in pg.evaluate("document.querySelector('#detailBody .pr-row .gl-link').href"))
     pg.goto(url); pg.reload(); pg.wait_for_timeout(400); pg.hover('.brand:has-text("Ring Jacket")'); pg.wait_for_timeout(600)

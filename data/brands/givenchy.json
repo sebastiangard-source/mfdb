@@ -41,14 +41,14 @@
     "n": "Shark Lock is womenswear — covered wedge, 3.5in heel. The 4G is a mark rather than a garment, and no menswear piece has survived the recent changes of creative direction"
   },
   "prices": [
-    [650, 1250],
-    [620, 1950],
-    [820, 1700],
-    [1050, 2000],
-    [1050, 1300],
-    [1100, 1700],
-    [1650, 4900],
-    [790, 1020]
+    [590, 990],
+    [600, 1700],
+    [720, 2250],
+    [990, 1450],
+    [1050, 1700],
+    [1100, 2800],
+    [1650, 12500],
+    [970, 1020]
   ],
   "shoelink": {
     "t": "shoes",
@@ -118,5 +118,72 @@
     "Sweater": "https://www.givenchy.com/us/en-US/men/ready-to-wear/knitwear/",
     "Outerwear": "https://www.givenchy.com/us/en-US/men/ready-to-wear/jackets-coats/",
     "Shoes": "https://www.givenchy.com/us/en-US/men/shoes/"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "T-shirt in cotton with Givenchy Paris gros grain",
+      "lu": "https://www.givenchy.com/us/en-US/t-shirt-in-cotton-with-givenchy-paris-gros-grain/BM71NK3YSJ-208.html",
+      "hp": "T-shirt in cotton knit with Givenchy Paris jacquard",
+      "hu": "https://www.givenchy.com/us/en-US/t-shirt-in-cotton-knit-with-givenchy-paris-jacquard/BM90WJ4YPA-100.html",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Polo in cotton with Givenchy Paris gros grain",
+      "lu": "https://www.givenchy.com/us/en-US/polo-in-cotton-with-givenchy-paris-gros-grain/BML00G3YSG-250.html",
+      "hp": "Polo in knit with Givenchy Paris embroidery",
+      "hu": "https://www.givenchy.com/us/en-US/polo-in-knit-with-givenchy-paris-embroidery/BML0154YRA-403.html",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Shirt in poplin with Givenchy Paris Paint print",
+      "lu": "https://www.givenchy.com/us/en-US/shirt-in-poplin-with-givenchy-paris-paint-print/BM617V1YMY-452.html",
+      "hp": "Trompe-l'oeil layered shirt in wool",
+      "hu": "https://www.givenchy.com/us/en-US/trompe-l%E2%80%99oeil-layered-shirt-in-wool/BM619Y16DC-403.html",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Straight fit shadow washed jeans with crease effect",
+      "lu": "https://www.givenchy.com/us/en-US/straight-fit-shadow-washed-jeans-with-crease-effect/BM51NS5177-420.html",
+      "hp": "Couture Seam light blue jeans with striped reverse",
+      "hu": "https://www.givenchy.com/us/en-US/couture-seam-light-blue-jeans-with-striped-reverse/BM51MN518L-452.html",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Double pleat pants in poplin",
+      "lu": "https://www.givenchy.com/us/en-US/double-pleat-pants-in-poplin/BM51NF1642-001.html",
+      "hp": "Double pleat striped pants in wool",
+      "hu": "https://www.givenchy.com/us/en-US/double-pleat-striped-pants-in-wool/BM51NF16SS-065.html",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Sweater in wool with Givenchy Paris gros grain",
+      "lu": "https://www.givenchy.com/us/en-US/sweater-in-wool-with-givenchy-paris-gros-grain/BM90X74YQL-403.html",
+      "hp": "Cardigan in wool with leather details",
+      "hu": "https://www.givenchy.com/us/en-US/cardigan-in-wool-with-leather-details/BMK0134YQ8-001.html",
+      "b": "range"
+    },
+    "Outerwear": {
+      "lp": "Jacket in medium blue denim",
+      "lu": "https://www.givenchy.com/us/en-US/jacket-in-medium-blue-denim/BM01EL5177-420.html",
+      "hp": "Trench in leather",
+      "hu": "https://www.givenchy.com/us/en-US/trench-in-leather/BM01FM6Y46-201.html",
+      "b": "range"
+    },
+    "Shoes": {
+      "lp": "Label loafers in nappa leather",
+      "lu": "https://www.givenchy.com/us/en-US/label-loafers-in-nappa-leather/BH203UH1Y5-001.html",
+      "hp": "Label loafers in shiny leather",
+      "hu": "https://www.givenchy.com/us/en-US/label-loafers-in-shiny-leather/BH203DH1WV-001.html",
+      "b": "pair"
+    }
+  },
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants", "Sweater", "Outerwear"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.givenchy.com/us/en-US/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

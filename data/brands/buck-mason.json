@@ -32,13 +32,12 @@
   "chan": ["O", "W"],
   "conf": "L",
   "forgc": [5, 3, 1],
-  "shop": "https://www.buckmason.com/search?q=",
   "onething": {
     "p": "Pima curved-hem tee",
     "u": "https://www.buckmason.com/search?q=Pima%20curved-hem%20tee",
     "n": "verified ✓"
   },
-  "prices": [[48, 118], [88, 198], [128, 228], [198, 278], [178, 298], [178, 368], [298, 798], null],
+  "prices": [[48, 148], [88, 88], [98, 228], [168, 278], [228, 298], [168, 368], [298, 798], null],
   "doors": {
     "c": "full",
     "n": 42,
@@ -119,5 +118,65 @@
   },
   "notes": {
     "whitet": "Founded on one tee in 2013 and the slub curved-hem is still the way most arrive, but the range is a full wardrobe now: a signature, not the whole house. Was 5 in the seed; 4 on Sebastian’s call, 27 Sep 2026."
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "White Pima Classic Tee",
+      "lu": "https://www.buckmason.com/products/white-pima-classic-tee",
+      "hp": "White Como Cashmere Tee",
+      "hu": "https://www.buckmason.com/products/white-como-cashmere-tee",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "White Sueded Cotton Polo",
+      "lu": "https://www.buckmason.com/products/white-sueded-cotton-ss-polo",
+      "hp": "White Sueded Cotton Polo",
+      "hu": "https://www.buckmason.com/products/white-sueded-cotton-ss-polo",
+      "b": "single"
+    },
+    "Dress shirt": {
+      "lp": "Double Deuce Chambray Big Shirt (D055)",
+      "lu": "https://www.buckmason.com/products/d055-double-deuce-chambray-big-shirt",
+      "hp": "Light Blue Sunset Rayon Western Shirt",
+      "hu": "https://www.buckmason.com/products/light-blue-sunset-rayon-western-shirt",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Rinse Hardware Store Big Jean",
+      "lu": "https://www.buckmason.com/products/rinse-hardware-store-big-jean",
+      "hp": "D018 Japanese Loomstate Selvedge Full Saddle Jean",
+      "hu": "https://www.buckmason.com/products/d018-japanese-loomstate-selvedge-full-saddle-jean",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Natural Hollywood Pleated Trouser",
+      "lu": "https://www.buckmason.com/products/natural-hollywood-pleated-trouser",
+      "hp": "Charcoal Heather Angelino Wool Graduate Trouser",
+      "hu": "https://www.buckmason.com/products/charcoal-heather-angelino-wool-graduate-trouser",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Fatigue Wool Hemp Traveler Crew",
+      "lu": "https://www.buckmason.com/products/fatigue-wool-hemp-traveler-crew",
+      "hp": "Black California Cashmere Cable Crew",
+      "hu": "https://www.buckmason.com/products/black-california-cashmere-cable-crew",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Black Italian Doeskin Station Jacket",
+      "lu": "https://www.buckmason.com/products/black-italian-doeskin-station-jacket",
+      "hp": "Prairie Mojave Suede Station Jacket",
+      "hu": "https://www.buckmason.com/products/prairie-mojave-suede-station-jacket",
+      "b": "pair"
+    }
+  },
+  "price_range_only": ["T-shirt", "Dress shirt", "Jeans", "Dress pants"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.buckmason.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

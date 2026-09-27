@@ -38,7 +38,7 @@
     "u": "https://www.rag-bone.com/p/fit-2-slim-jean-RX0225F2VJR.html",
     "n": "works"
   },
-  "prices": [[65, 110], [115, 248], [155, 395], [195, 295], [175, 275], [238, 528], [348, 998], [428, 428]],
+  "prices": [[98, 148], [148, 248], [198, 348], [198, 448], [398, 498], [238, 528], [348, 1498], [428, 428]],
   "doors": {
     "c": "full",
     "n": 38,
@@ -123,5 +123,72 @@
   },
   "notes": {
     "whitet": "a named tee in the range — seeded 27 Sep 2026, provisional"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Classic Slub Tee",
+      "lu": "https://www.rag-bone.com/p/classic-slub-tee-M000T046G_100.html",
+      "hp": "Classic Tech Jersey Tee",
+      "hu": "https://www.rag-bone.com/p/classic-tech-jersey-tee-RF4925FT2TM_065.html",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Striped Piqué Polo",
+      "lu": "https://www.rag-bone.com/p/striped-piqu%C3%A9-polo-RF3C26FT2TM_412.html",
+      "hp": "Harvey Rib-Knit Polo Shirt",
+      "hu": "https://www.rag-bone.com/p/harvey-rib-knit-polo-shirt-RH2226S6MCO_009.html",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "rb Classic Oxford Shirt",
+      "lu": "https://www.rag-bone.com/p/rb-classic-oxford-shirt-RV7L26PSMCO_100.html",
+      "hp": "rb Relaxed Corduroy Shirt",
+      "hu": "https://www.rag-bone.com/p/rb-relaxed-corduroy-shirt-RV3P26FSMCU_209.html",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Fit 2 Slim Jean",
+      "lu": "https://www.rag-bone.com/p/fit-2-slim-jean-RX0225F2VBK.html",
+      "hp": "Fit 4 Straight Jean",
+      "hu": "https://www.rag-bone.com/p/fit-4-straight-jean-RX0426F2RSO.html",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Ashcroft Wool Twill Trouser",
+      "lu": "https://www.rag-bone.com/p/ashcroft-wool-twill-trouser-RV1Q26F7MWO_411.html",
+      "hp": "Ashcroft Wool Tuxedo Trouser",
+      "hu": "https://www.rag-bone.com/p/ashcroft-wool-tuxedo-trouser-RVA726F7MWO.html",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Washed Cotton Sweater",
+      "lu": "https://www.rag-bone.com/p/washed-cotton-sweater-RH9926P6MCO_034.html",
+      "hp": "Vernon Cashmere Sweater",
+      "hu": "https://www.rag-bone.com/p/vernon-cashmere-sweater-RH2F26F6MCA_001.html",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "rb 3 Denim Trucker Jacket",
+      "lu": "https://www.rag-bone.com/p/rb-3-denim-trucker-jacket-RX3426FORTU.html",
+      "hp": "Manston Leather Flight Jacket",
+      "hu": "https://www.rag-bone.com/p/manston-leather-flight-jacket-RV4I26F0MLT.html",
+      "b": "range"
+    },
+    "Shoes": {
+      "lp": "Charlie Leather Penny Loafer",
+      "lu": "https://www.rag-bone.com/p/charlie-leather-penny-loafer-RZ5H26F524L_001.html",
+      "hp": "Charlie Leather Penny Loafer",
+      "hu": "https://www.rag-bone.com/p/charlie-leather-penny-loafer-RZ5H26F524L_001.html",
+      "b": "single"
+    }
+  },
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants", "Outerwear"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.rag-bone.com/mens/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

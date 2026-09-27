@@ -37,13 +37,22 @@
   "chan": ["O", "D", "X"],
   "conf": "M",
   "forgc": [5, 3, 1],
-  "shop": "https://www.palmangels.com/search?q=",
+  "shop": "https://www.palmangels.com/en-us/search?q=",
   "onething": {
     "p": "Classic track jacket",
     "u": "https://www.palmangels.com/en-us/man/clothing/tracksuits/",
     "n": "tracksuits category page, verified"
   },
-  "prices": [[220, 390], [495, 600], [168, 595], [610, 610], [445, 745], [405, 610], [610, 1095], "?"],
+  "prices": [
+    [195, 425, "USD_landed"],
+    [260, 600, "USD_landed"],
+    [325, 595, "USD_landed"],
+    [490, 610, "USD_landed"],
+    [450, 450, "USD_landed"],
+    [405, 610, "USD_landed"],
+    [610, 1095, "USD_landed"],
+    [225, 610, "USD_landed"]
+  ],
   "shoelink": {
     "t": "shoes",
     "u": "https://www.palmangels.com/search?q=shoes"
@@ -88,7 +97,7 @@
     "nc": ["T-shirts and polos", "Sweatshirts and hoodies", "Knitwear"],
     "st": "complete"
   },
-  "price_range_only": ["Sweater", "Outerwear", "Shoes"],
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants", "Sweater", "Outerwear", "Shoes"],
   "garment_links": {
     "T-shirt": "https://www.palmangels.com/en-us/man/clothing/t-shirts-and-polos/",
     "Polo": "https://www.palmangels.com/en-us/man/clothing/t-shirts-and-polos/",
@@ -97,5 +106,71 @@
     "Dress pants": "https://www.palmangels.com/en-us/man/clothing/pants/",
     "Sweater": "https://www.palmangels.com/en-us/man/clothing/knitwear/",
     "Outerwear": "https://www.palmangels.com/en-us/man/clothing/coats-and-jackets/"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Vintage Box Logo Loose T-Shirt",
+      "lu": "https://www.palmangels.com/en-us/man/clothing/t-shirts-and-polos/vintage-box-logo-loose-t-shirt-PAMAA03F26JR041003.html",
+      "hp": "Big Neck Logo Loose T-Shirt (100% cotton)",
+      "hu": "https://www.palmangels.com/en-us/man/clothing/t-shirts-and-polos/big-neck-logo-loose-t-shirt-PMAA10DS26JER0020310.html",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Logo Spray Regular Polo Shirt",
+      "lu": "https://www.palmangels.com/en-us/man/clothing/t-shirts-and-polos/logo-spray-regular-polo-shirt-PAMGB02F26FB021009.html",
+      "hp": "Palm Type Loose Knit Polo (short-sleeve open knit, 67% cotton/21% polyamide/12% linen)",
+      "hu": "https://www.palmangels.com/en-us/man/clothing/knitwear/palm-type-loose-knit-polo-PAMHX01F26KN016063.html",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Neck Logo Shirt (65% cotton, 35% linen; long-sleeve button-front)",
+      "lu": "https://www.palmangels.com/en-us/man/clothing/shirts/neck-logo-shirt-PAMGE001FB0010310.html",
+      "hp": "Surfer Dream Check Loose Shirt (polyester-cotton check, knit collar)",
+      "hu": "https://www.palmangels.com/en-us/man/clothing/shirts/surfer-dream-check-loose-shirt-PAMGE05F26FB028410.html",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Splitted Curved Logo Loose Jeans (99% cotton, 1% elastane)",
+      "lu": "https://www.palmangels.com/en-us/man/clothing/denim/splitted-curved-logo-loose-jeans-PAMYA01F26DN034040.html",
+      "hp": "Curved Logo Denim Jeans (100% cotton, leather detail)",
+      "hu": "https://www.palmangels.com/en-us/man/clothing/denim/curved-logo-denim-jeans-PMYA012C99DEN0011001.html",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Palm Tree Loose Trousers (68% cotton, 32% linen, wide leg)",
+      "lu": "https://www.palmangels.com/en-us/man/clothing/pants/palm-tree-loose-trousers-PAMCA03F26FB010372.html",
+      "hp": "Starleaf All-Over Loose Pants",
+      "hu": "https://www.palmangels.com/en-us/man/clothing/pants/starleaf-all-over-loose-pants-PAMCA03W26FB046010.html",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Curved Logo Knit Sweater (compare-at; on sale $203)",
+      "lu": "https://www.palmangels.com/en-us/man/clothing/knitwear/curved-logo-knit-sweater-PMHE08BS26KNI0011025.html",
+      "hp": "Big Neck Logo Sweater (80% cotton, 20% polyester; compare-at, on sale $305)",
+      "hu": "https://www.palmangels.com/en-us/man/clothing/knitwear/big-neck-logo-sweater-PMHE08CS26KNI0014614.html",
+      "b": "range"
+    },
+    "Outerwear": {
+      "lp": "Curved Logo Vintage Track Windbreaker (compare-at; on sale $397)",
+      "lu": "https://www.palmangels.com/en-us/man/clothing/coats-and-jackets/curved-logo-vintage-track-windbreaker-PMEB02GS26FAB0011003.html",
+      "hp": "Hollywood Windbreaker Jacket",
+      "hu": "https://www.palmangels.com/en-us/man/clothing/coats-and-jackets/hollywood-windbreaker-jacket-PAMEB02F26FB016010.html",
+      "b": "range"
+    },
+    "Shoes": {
+      "lp": "Big Logo Sliders (full-price colourway)",
+      "lu": "https://www.palmangels.com/en-us/man/shoes/slides-and-sandals/big-logo-sliders-PMIC018S26MAT0030310.html",
+      "hp": "Palm Skate Sneakers (compare-at; both colourways on sale $366/$427)",
+      "hu": "https://www.palmangels.com/en-us/man/shoes/sneakers/palm-skate-sneakers-PMIA10YS26LEA0010125.html",
+      "b": "range"
+    }
+  },
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.palmangels.com/en-us/",
+    "currency": "USD_landed",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

@@ -34,13 +34,22 @@
   "chan": ["O", "W"],
   "conf": "L",
   "forgc": [3, 3, 1],
-  "shop": "https://lucafaloni.com/search?q=",
+  "shop": "https://lucafaloni.com/en/us/search?query=",
   "onething": {
     "p": "Portofino linen shirt",
     "u": "https://lucafaloni.com/en/us/shop/sky-blue-portofino-linen-shirt",
     "n": "direct — the sky blue Portofino, verified"
   },
-  "prices": [[165, 185], [160, 450], [210, 345], [195, 275], [325, 360], [375, 525], [360, 2995], null],
+  "prices": [
+    [165, 185, "USD_landed"],
+    [160, 275, "USD_landed"],
+    [210, 345, "USD_landed"],
+    [195, 275, "USD_landed"],
+    [325, 360, "USD_landed"],
+    [375, 575, "USD_landed"],
+    [545, 2095, "USD_landed"],
+    [325, 325, "USD_landed"]
+  ],
   "price_checked": true,
   "notes": {
     "cashmere": "the same Cariaggi spinner as Cucinelli, at a quarter of the price",
@@ -100,5 +109,71 @@
     "Dress pants": "https://lucafaloni.com/en/us/shop/wool-trousers",
     "Sweater": "https://lucafaloni.com/en/us/shop/all-knitwear",
     "Outerwear": "https://lucafaloni.com/en/us/shop/jackets"
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "T-Shirt, Cashmere-Cotton (85% cotton/15% cashmere)",
+      "lu": "https://lucafaloni.com/en/us/shop/white-cashmere-cotton-t-shirt",
+      "hp": "T-Shirt, Silk-Cotton (60% silk)",
+      "hu": "https://lucafaloni.com/en/us/shop/marine-green-silk-cotton-t-shirt",
+      "b": "pair"
+    },
+    "Polo": {
+      "lp": "Classic Polo, Cotton Piqué",
+      "lu": "https://lucafaloni.com/en/us/shop/white-classic-pique-polo",
+      "hp": "Polo, Silk-Cotton (60% silk, short-sleeved)",
+      "hu": "https://lucafaloni.com/en/us/shop/nocciola-brown-silk-cotton-polo",
+      "b": "pair"
+    },
+    "Dress shirt": {
+      "lp": "Classic Shirt, Cotton Oxford",
+      "lu": "https://lucafaloni.com/en/us/shop/white-oxford-cotton-shirt",
+      "hp": "Como Shirt, Silk-Cotton (60% silk)",
+      "hu": "https://lucafaloni.com/en/us/shop/marine-green-como-silk-cotton-shirt",
+      "b": "pair"
+    },
+    "Jeans": {
+      "lp": "Jeans, Denim",
+      "lu": "https://lucafaloni.com/en/us/shop/dark-blue-jeans",
+      "hp": "Jeans, Cashmere-Denim (6% cashmere)",
+      "hu": "https://lucafaloni.com/en/us/shop/light-blue-dark-blue-cashmere-denim-jeans",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Pleated Trousers, Wool (VBC virgin wool)",
+      "lu": "https://lucafaloni.com/en/us/shop/charcoal-grey-wool-pleated-trousers",
+      "hp": "Elegant Trousers, Linen (pleated, side adjusters)",
+      "hu": "https://lucafaloni.com/en/us/shop/sand-elegant-linen-trousers",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Crew Neck, Cashmere (2-Ply)",
+      "lu": "https://lucafaloni.com/en/us/shop/cobalt-cashmere-crew-neck",
+      "hp": "Crew Neck, Cashmere (4-Ply, chunky knit)",
+      "hu": "https://lucafaloni.com/en/us/shop/rust-chunky-knit-cashmere-crew-neck",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Bomber Jacket, Linen-Cotton",
+      "lu": "https://lucafaloni.com/en/us/shop/french-blue-linen-cotton-bomber-jacket",
+      "hp": "Classic Bomber Jacket, goatskin suede",
+      "hu": "https://lucafaloni.com/en/us/shop/steel-blue-classic-bomber-jacket",
+      "b": "pair"
+    },
+    "Shoes": {
+      "lp": "Sneakers, calf suede",
+      "lu": "https://lucafaloni.com/en/us/shop/sand-suede-sneakers",
+      "hp": "Sneakers, calf suede",
+      "hu": "https://lucafaloni.com/en/us/shop/sand-suede-sneakers",
+      "b": "single"
+    }
+  },
+  "price_range_only": ["Jeans", "Dress pants"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://lucafaloni.com/en/us",
+    "currency": "USD_landed",
+    "status": "read",
+    "sublines": "-"
   }
 }

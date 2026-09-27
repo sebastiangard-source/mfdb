@@ -37,7 +37,7 @@
     "u": "https://www.rails.com/search?q=Lennox%20shirt%20men",
     "n": "works"
   },
-  "prices": [[60, 90], [100, 150], [150, 220], [180, 250], [150, 220], [168, 268], [198, 398], null],
+  "prices": [[78, 148], [98, 178], [138, 188], [168, 168], [158, 228], [148, 288], [198, 398], null],
   "notes": {
     "comfort": "a trade-secret Tencel blend; touch as corporate DNA",
     "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional"
@@ -97,7 +97,7 @@
     "nc": ["shirts", "shorts", "pants"],
     "st": "complete"
   },
-  "price_range_only": ["Outerwear"],
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants", "Sweater", "Outerwear"],
   "garment_links": {
     "T-shirt": "https://www.rails.com/collections/mens-t-shirts-polos",
     "Polo": "https://www.rails.com/collections/mens-t-shirts-polos",
@@ -106,5 +106,64 @@
     "Dress pants": "https://www.rails.com/collections/mens-pants",
     "Sweater": "https://www.rails.com/collections/mens-sweaters",
     "Outerwear": "https://www.rails.com/collections/mens-jackets-coats"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "JOHNNY T-SHIRT - CARBON",
+      "lu": "https://www.rails.com/products/johnny-carbon",
+      "hp": "MASON COTTON CASHMERE T-SHIRT - BLACK",
+      "hu": "https://www.rails.com/products/mason-cotton-cashmere-shirt-black",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "MERCED GOLF POLO SHIRT - WHITE",
+      "lu": "https://www.rails.com/products/merced-golf-polo-shirt-white",
+      "hp": "ROYCE POLO SHIRT - NAVY GREY",
+      "hu": "https://www.rails.com/products/royce-polo-shirt-navy-grey",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "FAIRFAX SHIRT - WHITE",
+      "lu": "https://www.rails.com/products/fairfax-shirt-white",
+      "hp": "CLAIRO SHIRT - CREAM QUILT SQUARES",
+      "hu": "https://www.rails.com/products/clairo-shirt-cream-quilt-squares",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "NASH STRAIGHT - DARK BLACK",
+      "lu": "https://www.rails.com/products/nash-straight-dark-black",
+      "hp": "CLAYTON SLIM STRAIGHT - DARK BLACK",
+      "hu": "https://www.rails.com/products/clayton-straight-dark-black",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "IRVING PANT - MERIDIAN",
+      "lu": "https://www.rails.com/products/irving-pant-meridian",
+      "hp": "MURPHY PANT - CELESTIAL TWEED",
+      "hu": "https://www.rails.com/products/murphy-pant-celestial-tweed",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "THEO SHORT SLEEVE SWEATER - HEATHER GREY",
+      "lu": "https://www.rails.com/products/theo-short-sleeve-sweater-heather-grey",
+      "hp": "SELDON CARDIGAN - MOON SHADOW",
+      "hu": "https://www.rails.com/products/seldon-cardigan-moon-shadow",
+      "b": "range"
+    },
+    "Outerwear": {
+      "lp": "COOKE JACKET - LIGHT WASH",
+      "lu": "https://www.rails.com/products/cooke-jacket-light-wash",
+      "hp": "HOCKNEY OVERCOAT - HIGHLAND TWEED",
+      "hu": "https://www.rails.com/products/hockney-overcoat-highland-tweed",
+      "b": "range"
+    }
+  },
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.rails.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "Rails Golf (men's golf polos, tagged MENSGOLF)"
+  },
+  "price_checked": true
 }

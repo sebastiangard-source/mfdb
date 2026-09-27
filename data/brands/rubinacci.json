@@ -40,7 +40,7 @@
     "u": "https://www.mrporter.com/en-us/mens/designer/rubinacci",
     "n": "Use; https://www.marianorubinacci.com/en/collection/trousers/green-linen-manny-trousers-MANNYL-A2566/ and call them manny trousers"
   },
-  "prices": [[150, 280], [180, 570], [280, 1940], null, [365, 710], [648, 648], [1896, 3120], [660, 696]],
+  "prices": [[432, 432], [216, 720], [576, 576], [696, 696], [576, 1080], [648, 648], [1896, 3120], [660, 696]],
   "notes": {
     "wool": "Neapolitan drape from the London House lineage",
     "ital": "London House in Naples, and the family's claim to have shaped the Neapolitan shoulder. The archive of vintage cloth is the house's real inheritance.",
@@ -93,5 +93,72 @@
     "Sweater": "https://www.marianorubinacci.com/en/collection/knitwear/",
     "Outerwear": "https://www.marianorubinacci.com/en/collection/outerwear/",
     "Shoes": "https://www.marianorubinacci.com/en/collection/shoes/"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Blue short-sleeve knitted t-shirt (Sea Island cotton)",
+      "lu": "https://www.marianorubinacci.com/en/collection/knitwear/blue-short-sleeve-knitted-t-shirt-SORRENTO-544/",
+      "hp": "Blue short-sleeve knitted t-shirt (Sea Island cotton)",
+      "hu": "https://www.marianorubinacci.com/en/collection/knitwear/blue-short-sleeve-knitted-t-shirt-SORRENTO-544/",
+      "b": "single"
+    },
+    "Polo": {
+      "lp": "Light blue short sleeves piquet polo",
+      "lu": "https://www.marianorubinacci.com/en/collection/shirts/light-blue-short-sleeves-piquet-polo-RU001-04/",
+      "hp": "Blue cashmere polo (100% cashmere, short sleeves)",
+      "hu": "https://www.marianorubinacci.com/en/collection/knitwear/blue-cashmere-polo-RU08-21034/",
+      "b": "pair"
+    },
+    "Dress shirt": {
+      "lp": "White cotton shirt (cotton twill, Luca collar)",
+      "lu": "https://www.marianorubinacci.com/en/collection/shirts/white-cotton-shirt-SHT-CA2025/",
+      "hp": "White cotton shirt (cotton twill, Luca collar)",
+      "hu": "https://www.marianorubinacci.com/en/collection/shirts/white-cotton-shirt-SHT-CA2025/",
+      "b": "single"
+    },
+    "Jeans": {
+      "lp": "Blue 5-pocket trousers in Japanese Selvedge Denim with Red Selvage Edge",
+      "lu": "https://www.marianorubinacci.com/en/collection/trousers/blue-denim-5-pockets-pant-2696/",
+      "hp": "Blue 5-pocket trousers in Japanese Selvedge Denim with Red Selvage Edge",
+      "hu": "https://www.marianorubinacci.com/en/collection/trousers/blue-denim-5-pockets-pant-2696/",
+      "b": "single"
+    },
+    "Dress pants": {
+      "lp": "Navy blue cotton manny trousers",
+      "lu": "https://www.marianorubinacci.com/en/collection/trousers/navy-blue-cotton-manny-trousers-MANNYL-06/",
+      "hp": "Black tasmanian wool manny tuxedo trousers",
+      "hu": "https://www.marianorubinacci.com/en/collection/trousers/black-tasmanian-wool-manny-tuxedo-trousers-MANNYL-A2678/",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Blue cashmere crew-neck sweater",
+      "lu": "https://www.marianorubinacci.com/en/collection/knitwear/blue-cashmere-crew-neck-sweater-GIROCOLLO-21034/",
+      "hp": "Blue cashmere crew-neck sweater",
+      "hu": "https://www.marianorubinacci.com/en/collection/knitwear/blue-cashmere-crew-neck-sweater-GIROCOLLO-21034/",
+      "b": "single"
+    },
+    "Outerwear": {
+      "lp": "Single-breasted Raglan coat in blue linen blend",
+      "lu": "https://www.marianorubinacci.com/en/collection/outerwear/single-breasted-raglan-coat-in-blue-linen-blend-RB-C8-A2724/",
+      "hp": "Blue cashmere coat (100% cashmere, single-breasted)",
+      "hu": "https://www.marianorubinacci.com/en/collection/outerwear/blue-cashmere-coat-CAPRUB310-A2245/",
+      "b": "pair"
+    },
+    "Shoes": {
+      "lp": "Marphy in blue Suede",
+      "lu": "https://www.marianorubinacci.com/en/collection/shoes/marphy-in-blue-Suede-MARFY1-139BLU/",
+      "hp": "Brown leather loafer",
+      "hu": "https://www.marianorubinacci.com/en/collection/shoes/brown-leather-loafer-XX79RU-TMORO/",
+      "b": "pair"
+    }
+  },
+  "price_range_only": ["Dress pants"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.marianorubinacci.com/en/ (US site-switcher market, prices in $)",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

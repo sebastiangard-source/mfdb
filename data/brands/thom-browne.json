@@ -44,14 +44,14 @@
     "n": "Use this: https://www.thombrowne.com/products/cotton-crepe-4-bar-pullover-mka202a-00219-415"
   },
   "prices": [
-    [520, 760],
-    [590, 1395],
-    [790, 890],
-    [850, 1128],
-    [540, 1430],
+    [340, 790],
+    [520, 1850],
+    [590, 1050],
+    [850, 1020],
+    [1290, 1670],
     [970, 1750],
-    [1650, 5350],
-    [790, 1360]
+    [1650, 7560],
+    [850, 1350]
   ],
   "shoelink": {
     "t": "longwing brogue",
@@ -124,5 +124,73 @@
     "Sweater": "https://www.thombrowne.com/collections/mens-knitwear-sweaters",
     "Outerwear": "https://www.thombrowne.com/collections/mens-outerwear",
     "Shoes": "https://www.thombrowne.com/collections/mens-footwear"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Jersey 4-Bar Short Sleeve Tee",
+      "lu": "https://www.thombrowne.com/products/jersey-4-bar-short-sleeve-tee-mjs168g-07862-415",
+      "hp": "Jersey 4-Bar Colorblock Oversized Tee",
+      "hu": "https://www.thombrowne.com/products/jersey-4-bar-colorblock-oversized-tee-mjs312a-j0320-100",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Pique Pocket Polo",
+      "lu": "https://www.thombrowne.com/products/pique-pocket-polo-mjp022a-01455-415",
+      "hp": "Mesh Cashmere Polo",
+      "hu": "https://www.thombrowne.com/products/mesh-cashmere-polo-mjp239a-07540-100",
+      "b": "pair"
+    },
+    "Dress shirt": {
+      "lp": "Oxford Shirt",
+      "lu": "https://www.thombrowne.com/products/oxford-shirt-mwl001a-f0313-480",
+      "hp": "Oxford 4-Bar Shirt",
+      "hu": "https://www.thombrowne.com/products/oxford-4-bar-shirt-mwl431c-f0313-100",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Selvedge Denim Trousers",
+      "lu": "https://www.thombrowne.com/products/selvedge-denim-trousers-mtu345s-f1101-415",
+      "hp": "Selvedge Denim Trousers",
+      "hu": "https://www.thombrowne.com/products/selvedge-denim-trousers-mtu345s-f1215-480",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Classic Seersucker Backstrap Trousers",
+      "lu": "https://www.thombrowne.com/products/classic-seersucker-backstrap-trousers-mtc001h-00572-035",
+      "hp": "Wool Pique Gunclub Check Double Needle Stitch Trouser",
+      "hu": "https://www.thombrowne.com/products/wool-pique-gunclub-check-double-needle-stitch-trouser-mtc001g-f1293-03",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Merino Wool RWB Rib Stitch Pullover",
+      "lu": "https://www.thombrowne.com/products/merino-wool-rwb-rib-stitch-pullover-mka585a-y1055-001",
+      "hp": "Classic Cashmere 4-Bar Pullover",
+      "hu": "https://www.thombrowne.com/products/classic-cashmere-4-bar-pullover-mka001a-00011-415",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Selvedge Denim Backstrap Utility Jacket",
+      "lu": "https://www.thombrowne.com/products/selvedge-denim-backstrap-utility-jacket-mjo256s-f1101-415",
+      "hp": "Leather Moto Jacket",
+      "hu": "https://www.thombrowne.com/products/leather-moto-jacket-mjo267x-l0182-001",
+      "b": "range"
+    },
+    "Shoes": {
+      "lp": "Vitello Leather Varsity Penny Loafers with Leather Soles",
+      "lu": "https://www.thombrowne.com/products/vitello-leather-varsity-penny-loafers-with-leather-soles-mfl087a-05584",
+      "hp": "Pebble Grain Leather Penny Loafers with Leather Soles and Metal Taps",
+      "hu": "https://www.thombrowne.com/products/pebble-grain-leather-penny-loafers-with-leather-soles-and-metal-taps-mfl085a-06257-210",
+      "b": "pair"
+    }
+  },
+  "price_range_only": ["T-shirt", "Dress shirt", "Jeans", "Dress pants", "Outerwear"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.thombrowne.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true,
+  "shop": "https://www.thombrowne.com/search?q="
 }

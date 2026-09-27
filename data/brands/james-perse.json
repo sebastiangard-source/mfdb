@@ -39,7 +39,7 @@
     "u": "https://www.jamesperse.com/products/short-sleeve-crew-neck-mlj3311-white",
     "n": "direct product page — style MLJ3311, the house names it without the word tee"
   },
-  "prices": [[60, 220], [55, 120], [140, 220], [185, 265], [175, 295], [325, 595], [425, 1995], [450, 1095]],
+  "prices": [[80, 250], [135, 425], [145, 625], [495, 595], [325, 750], [325, 595], [425, 1995], [450, 1095]],
   "notes": {
     "cotton": "luxe Supima jersey as the whole brand",
     "comfort": "hand-first basics",
@@ -116,5 +116,72 @@
     "Sweater": "https://www.jamesperse.com/collections/mens-sweaters-cashmere",
     "Outerwear": "https://www.jamesperse.com/collections/mens-jackets-outerwear",
     "Shoes": "https://www.jamesperse.com/collections/mens-all-shoes"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Short Sleeve Crew Neck",
+      "lu": "https://www.jamesperse.com/products/short-sleeve-crew-neck-azure-pigment-mlj3311",
+      "hp": "Cotton Cashmere Short Sleeve Tee",
+      "hu": "https://www.jamesperse.com/products/cotton-cashmere-short-sleeve-tee-fog-mcch3825",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Sueded Jersey Polo",
+      "lu": "https://www.jamesperse.com/products/sueded-jersey-polo-heat-msx3337",
+      "hp": "Palm Print Performance Pique Polo",
+      "hu": "https://www.jamesperse.com/products/palm-print-performance-pique-polo-navy-print-mdpp3804",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Standard Shirt",
+      "lu": "https://www.jamesperse.com/products/standard-shirt-light-olive-pigment-mlc3408",
+      "hp": "Cotton Cashmere Shirt",
+      "hu": "https://www.jamesperse.com/products/cotton-cashmere-shirt-coyote-mfcw3927",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Black Denim 5 Pocket Pant",
+      "lu": "https://www.jamesperse.com/products/black-denim-5-pocket-pant-black-mvbd1416",
+      "hp": "Classic Selvedge Denim Pant",
+      "hu": "https://www.jamesperse.com/products/classic-selvedge-denim-pant-blue-pacific-mrsd1452",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Herringbone Twill Trouser",
+      "lu": "https://www.jamesperse.com/products/herringbone-twill-trouser-blue-noir-pigment-mmht1357",
+      "hp": "Suede Trim Wool Drawstring Trouser",
+      "hu": "https://www.jamesperse.com/products/suede-trim-wool-drawstring-trouser-heather-grey-mfcz1494",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Cotton Cashmere Raglan Crew",
+      "lu": "https://www.jamesperse.com/products/cotton-cashmere-raglan-crew-admiral-mocc3887",
+      "hp": "Marled Cashmere Linen Crew",
+      "hu": "https://www.jamesperse.com/products/marled-cashmere-linen-crew-pearl-mcal3842",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Cotton Linen Twill Trucker Jacket",
+      "lu": "https://www.jamesperse.com/products/cotton-linen-twill-trucker-jacket-magma-pigment-mrht2245",
+      "hp": "Suede Trucker Jacket",
+      "hu": "https://www.jamesperse.com/products/suede-trucker-jacket-caribou-mmws2199",
+      "b": "pair"
+    },
+    "Shoes": {
+      "lp": "Men's Suede Slip On Loafer",
+      "lu": "https://www.jamesperse.com/products/mens-suede-slip-on-loafer-cafe-smtsu8430",
+      "hp": "Men's Soft Suede Loafer",
+      "hu": "https://www.jamesperse.com/products/mens-soft-suede-loafer-black-smsfy8501",
+      "b": "pair"
+    }
+  },
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.jamesperse.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "Y/OSEMITE (sold under James Perse, counted where it falls in a garment)"
+  },
+  "price_checked": true
 }

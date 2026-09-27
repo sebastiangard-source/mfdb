@@ -38,7 +38,7 @@
     "u": "https://www.nn07.com/search?q=Gael%20jacket",
     "n": "their title — the piece menswear calls the definitive overshirt, NN07 files as a jacket"
   },
-  "prices": [[55, 90], [150, 330], [120, 305], [250, 265], [195, 295], [210, 410], [420, 1900], null],
+  "prices": [[85, 180], [160, 195], [185, 295], [275, 340], [295, 435], [210, 530], [420, 1900], null],
   "doors": {
     "c": "full",
     "n": 1,
@@ -89,5 +89,65 @@
   },
   "notes": {
     "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Percy - Classic slim fit tee",
+      "lu": "https://www.nn07.com/en/us/percy-ss-3508-black",
+      "hp": "Nat - Heavyweight logo tee",
+      "hu": "https://www.nn07.com/en/us/nat-3457-logo-tee-white",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Paul - Open collar organic cotton polo (short sleeve)",
+      "lu": "https://www.nn07.com/en/us/paul-3525-polo-black",
+      "hp": "Valentin - Casual organic cotton polo (short sleeve)",
+      "hu": "https://www.nn07.com/en/us/valentin-ss-polo-30047-red-stripe",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Deon - Casual flannel shirt",
+      "lu": "https://www.nn07.com/en/us/deon-5465-bordeaux-check",
+      "hp": "Quinsy - Supima Cotton shirt",
+      "hu": "https://www.nn07.com/en/us/quinsy-app-5322-blue_-stripe",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Tony - Straight leg slim fit jeans",
+      "lu": "https://www.nn07.com/en/us/tony-1869-jeans-blue-black",
+      "hp": "Otis Selvedge - Straight leg relaxed fit jeans",
+      "hu": "https://www.nn07.com/en/us/otis-selvedge-10075-raw-indigo",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Kay - Pleated tailored relaxed fit pant",
+      "lu": "https://www.nn07.com/en/us/kay-1420-black",
+      "hp": "Kay - Relaxed fit wool blend pant (Italian herringbone)",
+      "hu": "https://www.nn07.com/en/us/kay-10073-dark-grey-mel",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Danny - Lightweight sweater (crewneck)",
+      "lu": "https://www.nn07.com/en/us/danny-6429-sweater-black",
+      "hp": "Kyle - Alpaca blend cardigan",
+      "hu": "https://www.nn07.com/en/us/kyle-cardigan-60021-dark-grey-mel",
+      "b": "range"
+    },
+    "Outerwear": {
+      "lp": "Petrus - Satin jacket",
+      "lu": "https://www.nn07.com/en/us/petrus-1420-black",
+      "hp": "Petrus - Lamb Leather jacket",
+      "hu": "https://www.nn07.com/en/us/petrus-leather-8228-jacket-demitasse",
+      "b": "pair"
+    }
+  },
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants", "Sweater"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.nn07.com/en/us/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

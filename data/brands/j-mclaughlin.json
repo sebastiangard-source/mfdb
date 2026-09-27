@@ -46,7 +46,7 @@
     "u": "https://www.jmclaughlin.com/collections/men-knits-polo",
     "n": "no named men’s signature exists — Catalina Cloth, the house trademark, is women’s-only; collection link"
   },
-  "prices": [[45, 75], [85, 135], [115, 165], [125, 175], [115, 185], [298, 328], [898, 998], [328, 565]],
+  "prices": [[108, 108], [128, 188], [148, 168], [198, 198], [298, 298], [298, 328], [348, 998], [328, 565]],
   "notes": {
     "ivy": "country-club classic sportswear that avoids the word prep while the founder starts using it again",
     "golf": "the club-town store map is the distribution strategy",
@@ -318,7 +318,7 @@
     "nc": ["men-shirts", "men-jackets-outerwear", "men-pants"],
     "st": "complete"
   },
-  "price_range_only": ["Outerwear"],
+  "price_range_only": ["Polo", "Dress shirt", "Outerwear"],
   "garment_links": {
     "Polo": "https://www.jmclaughlin.com/collections/men-knits-polo-polo",
     "Dress shirt": "https://www.jmclaughlin.com/collections/men-shirts",
@@ -326,5 +326,71 @@
     "Sweater": "https://www.jmclaughlin.com/collections/men-sweaters",
     "Outerwear": "https://www.jmclaughlin.com/collections/men-jackets-outerwear",
     "Shoes": "https://www.jmclaughlin.com/collections/men-shoes"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Ryan Tee in Weston",
+      "lu": "https://www.jmclaughlin.com/products/ryan-tee-weston-off-white-navy",
+      "hp": "Ryan Tee in Weston",
+      "hu": "https://www.jmclaughlin.com/products/ryan-tee-weston-off-white-navy",
+      "b": "single"
+    },
+    "Polo": {
+      "lp": "Mantle Pique Polo",
+      "lu": "https://www.jmclaughlin.com/products/mantle-polo-solid-white",
+      "hp": "Amalfi Linen Blend Polo",
+      "hu": "https://www.jmclaughlin.com/products/amalfi-linen-blend-polo-solid-navy",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Gramercy Cotton Shirt",
+      "lu": "https://www.jmclaughlin.com/products/gramercy-cotton-shirt-solid-pink",
+      "hp": "Tribeca Chambray Shirt",
+      "hu": "https://www.jmclaughlin.com/products/tribeca-chambray-shirt-solid-lt-chambray",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Mercer Jeans",
+      "lu": "https://www.jmclaughlin.com/products/mercer-jeans-solid-dk-denim",
+      "hp": "Mercer Jeans",
+      "hu": "https://www.jmclaughlin.com/products/mercer-jeans-solid-dk-denim",
+      "b": "single"
+    },
+    "Dress pants": {
+      "lp": "Bleeker Wool Pants",
+      "lu": "https://www.jmclaughlin.com/products/bleeker-wool-pants-solid-charcoal",
+      "hp": "Bleeker Wool Pants",
+      "hu": "https://www.jmclaughlin.com/products/bleeker-wool-pants-solid-charcoal",
+      "b": "single"
+    },
+    "Sweater": {
+      "lp": "Hewitt Sweater",
+      "lu": "https://www.jmclaughlin.com/products/hewitt-sweater-solid-navy",
+      "hp": "Caldwell Cashmere Sweater",
+      "hu": "https://www.jmclaughlin.com/products/caldwell-cashmere-sweater-solid-dk-navy",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Spade Chore Jacket",
+      "lu": "https://www.jmclaughlin.com/products/spade-chore-jacket-solid-lt-gray",
+      "hp": "Winston Suede Jacket",
+      "hu": "https://www.jmclaughlin.com/products/winston-suede-jacket-solid-espresso",
+      "b": "range"
+    },
+    "Shoes": {
+      "lp": "Oskar Leather Belgian Loafers",
+      "lu": "https://www.jmclaughlin.com/products/oskar-belgian-loafers-solid-brown",
+      "hp": "Ezra Suede Tassel Loafers",
+      "hu": "https://www.jmclaughlin.com/products/ezra-suede-tassel-loafers-solid-cognac",
+      "b": "pair"
+    }
+  },
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.jmclaughlin.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

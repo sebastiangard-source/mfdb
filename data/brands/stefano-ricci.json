@@ -43,13 +43,13 @@
     "n": "works"
   },
   "prices": [
-    [569, 875],
-    [1226, 1839],
-    [900, 1500],
-    [1094, 1398],
+    [450, 1750],
+    [1200, 2950],
+    [800, 2800],
+    [1200, 1850],
     [1100, 3650],
     [1200, 3900],
-    [2450, 12300],
+    [2450, 10750],
     [1000, 2100]
   ],
   "shoelink": {
@@ -121,5 +121,72 @@
     "Sweater": "https://www.stefanoricci.com/en-us/menswear/knitwear/",
     "Outerwear": "https://www.stefanoricci.com/en-us/menswear/outerwear/",
     "Shoes": "https://www.stefanoricci.com/en-us/shoes/"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Crewneck t-shirt (50% cotton 50% modal)",
+      "lu": "https://www.stefanoricci.com/en-us/crewneck-t-shirt/MNH3302680-803.html",
+      "hp": "Alpha Yarn cashmere crewneck t-shirt (100% cashmere knit, short sleeves)",
+      "hu": "https://www.stefanoricci.com/en-us/alpha-yarn-cashmere-crewneck-t-shirt/W505000G10-W26301.html",
+      "b": "pair"
+    },
+    "Polo": {
+      "lp": "Wool and silk blend knit zip polo shirt (60% wool 30% silk 10% cashmere, short sleeves)",
+      "lu": "https://www.stefanoricci.com/en-us/wool-and-silk-blend-knit-zip-polo-shirt/KE08004P31-E25374.html",
+      "hp": "Alpha Yarn cashmere knit three-button polo (100% cashmere, short sleeves)",
+      "hu": "https://www.stefanoricci.com/en-us/alpha-yarn-cashmere-knit-three-button-polo/W505022P13-W25301.html",
+      "b": "pair"
+    },
+    "Dress shirt": {
+      "lp": "Cotton Asti shirt",
+      "lu": "https://www.stefanoricci.com/en-us/cotton-asti-shirt/MC003678-L1320.html",
+      "hp": "Silk blend Torino shirt (93% silk 7% elastane)",
+      "hu": "https://www.stefanoricci.com/en-us/silk-blend-torino-shirt/SX008137-59200.html",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Cotton blend tapered jeans",
+      "lu": "https://www.stefanoricci.com/en-us/cotton-blend-tapered-jeans/MST53B5020-T0200.html",
+      "hp": "Cotton blend tapered jeans (97% cotton)",
+      "hu": "https://www.stefanoricci.com/en-us/cotton-blend-tapered-jeans/MFT53B1100-RT50BL.html",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Virgin wool trousers",
+      "lu": "https://www.stefanoricci.com/en-us/virgin-wool-trousers/M1T5100010-WEA01S.html",
+      "hp": "Alpha Yarn cashmere trousers",
+      "hu": "https://www.stefanoricci.com/en-us/alpha-yarn-cashmere-trousers/M1T80A0000-MR01HA.html",
+      "b": "pair"
+    },
+    "Sweater": {
+      "lp": "Virgin wool and cashmere blend knit crewneck sweater (80% virgin wool 14% cashmere 6% silk)",
+      "lu": "https://www.stefanoricci.com/en-us/virgin-wool-and-cashmere-blend-knit-crewneck-sweater/KE04002G01-E25362.html",
+      "hp": "Cashmere knit crewneck sweater (100% cashmere)",
+      "hu": "https://www.stefanoricci.com/en-us/cashmere-knit-crewneck-sweater/K606421G01-F26307.html",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Cotton and linen blend blouson",
+      "lu": "https://www.stefanoricci.com/en-us/cotton-and-linen-blend-blouson/MFJ5100070-T285PT.html",
+      "hp": "Alpha Yarn cashmere blouson (100% cashmere)",
+      "hu": "https://www.stefanoricci.com/en-us/alpha-yarn-cashmere-blouson/M7J6100220-MR08HA.html",
+      "b": "pair"
+    },
+    "Shoes": {
+      "lp": "Casual loafers (knit slip-on with calfskin inserts)",
+      "lu": "https://www.stefanoricci.com/en-us/casual-loafers/UV64_G2293-TSVTS.html",
+      "hp": "Suede loafers",
+      "hu": "https://www.stefanoricci.com/en-us/suede-loafers/UN85CG2113-SD.html",
+      "b": "pair"
+    }
+  },
+  "price_range_only": ["Dress shirt", "Jeans"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.stefanoricci.com/en-us/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "- (Explorer, Luxury Tech and Alpha Yarn pieces sold inside the menswear categories were counted as main range)"
+  },
+  "price_checked": true
 }

@@ -33,13 +33,13 @@
   "chan": ["D", "I"],
   "conf": "M",
   "forgc": [4, 2, 1],
-  "shop": "https://www.aspesi.com/search?q=",
+  "shop": "https://aspesi.com/en-us/search?q=",
   "onething": {
     "p": "Minifield jacket",
     "u": "https://www.aspesi.com/search?q=minifield",
     "n": "best-guess link — verify"
   },
-  "prices": [[110, 265], [159, 300], [250, 765], [282, 409], [249, 486], [265, 775], [515, 1365], null],
+  "prices": [[140, 300], [215, 300], [240, 390], [440, 525], [450, 540], [265, 775], [475, 1365], null],
   "notes": {
     "synth": "the nylon field jackets — technical cloth in civilian silhouettes",
     "ital": "the Milanese bourgeois uniform, unbranded",
@@ -80,7 +80,7 @@
     "nc": ["camicie", "pantaloni", "maglie"],
     "st": "complete"
   },
-  "price_range_only": ["Outerwear"],
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants", "Outerwear"],
   "garment_links": {
     "T-shirt": "https://aspesi.com/en-us/collections/new-mens-polo-shirts-and-t-shirts-collection",
     "Polo": "https://aspesi.com/en-us/collections/new-mens-polo-shirts-and-t-shirts-collection",
@@ -89,5 +89,64 @@
     "Dress pants": "https://aspesi.com/en-us/collections/new-mens-trousers-collection",
     "Sweater": "https://aspesi.com/en-us/collections/new-mens-knitwear-collection",
     "Outerwear": "https://aspesi.com/en-us/collections/new-mens-outerwear-collection"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Cotton Jersey T-Shirt (Black)",
+      "lu": "https://aspesi.com/en-us/products/cotton-jersey-t-shirt-cn-a-3107-a335-01241-en",
+      "hp": "Terry Cloth Effect Jersey T-Shirt with Breast Pocket (White)",
+      "hu": "https://aspesi.com/en-us/products/terry-cloth-effect-jersey-t-shirt-with-breast-pocket-s6-a-ay70-p057-85072-en",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Cotton Jersey Polo Shirt (Black, SS26)",
+      "lu": "https://aspesi.com/en-us/products/cotton-jersey-polo-shirt-s6-a-ay78-a335-01241-en",
+      "hp": "Knitted Polo Shirt in Cotton, Silk and Linen (Navy)",
+      "hu": "https://aspesi.com/en-us/products/knitted-polo-shirt-in-cotton-silk-and-linen-s6-q-m812-m127-01098-en",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Striped Shirt with French Collar (Light Blue Stripe)",
+      "lu": "https://aspesi.com/en-us/products/striped-shirt-with-french-collar-s6-a-ce33-d100-20070-en",
+      "hp": "Garment-Dyed Cotton Poplin Shirt (White)",
+      "hu": "https://aspesi.com/en-us/products/garment-dyed-cotton-poplin-shirt-s6-a-ce26-e030-sd-85072-en",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Denim Trousers (five-pocket, Stone)",
+      "lu": "https://aspesi.com/en-us/products/denim-trousers-s6-a-cp23-d043-85134-en",
+      "hp": "Cotton Denim Jeans (15.5 oz selvedge)",
+      "hu": "https://aspesi.com/en-us/products/cotton-denim-jeans-w6-a-cp92-e845-c3-10998-en",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Double Pleated Trousers in Micro Cotton Twill (Light Blue)",
+      "lu": "https://aspesi.com/en-us/products/double-pleated-trousers-in-micro-cotton-twill-s6-a-cp28-d063-85096-en",
+      "hp": "Slim Banana Trousers in Cotton Gabardine (Navy)",
+      "hu": "https://aspesi.com/en-us/products/slim-banana-trousers-in-cotton-gabardine-cn-a-cp63-d569-10098-en",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Cotton Crewneck Sweater (Navy)",
+      "lu": "https://aspesi.com/en-us/products/cotton-crewneck-sweater-s6-q-m829-3371-01098-en",
+      "hp": "Cashmere Crew-Neck Jumper (Charcoal)",
+      "hu": "https://aspesi.com/en-us/products/cashmere-crew-neck-jumper-w6-q-m100-4567-01200-en",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Piece-Dyed Canvas Jacket (Ink)",
+      "lu": "https://aspesi.com/en-us/products/piece-dyed-canvas-jacket-s6-a-cg59-d048-10096-en",
+      "hp": "Vodka II Raincoat in Nylon Blend with Thermore Wadding (Beige)",
+      "hu": "https://aspesi.com/en-us/products/vodka-ii-raincoat-in-nylon-blend-with-thermore-wadding-w6-i-2i31-1024-lr-85119-en",
+      "b": "range"
+    }
+  },
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://aspesi.com/en-us",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

@@ -36,7 +36,7 @@
     "u": "https://www.brax.com/en/us/p/071833_7164120_05/style-cadiz",
     "n": "verified — direct product page, $198. Cadiz is the house's straight-fit five-pocket and the clearest statement of what it does"
   },
-  "prices": ["?", "?", "?", [198, 228], [198, 248], "?", "?", "?"],
+  "prices": [null, null, null, [198, 258], [198, 248], null, null, null],
   "notes": {
     "forg": "named fit systems — modern, regular, relaxed, slim, straight — carried consistently across the range",
     "synth": "engineered stretch cloths are the house competence: HI-FLEX, FUSION FLEX, ULTRALIGHT",
@@ -98,5 +98,30 @@
   "garment_links": {
     "Jeans": "https://www.brax.com/en/us/c/411384031/men/clothing/jeans",
     "Dress pants": "https://www.brax.com/en/us/c/411384029/men/clothing/pants"
-  }
+  },
+  "price_evidence": {
+    "Jeans": {
+      "lp": "Style CHUCK Denim: Five-pocket jeans in modern fit",
+      "lu": "https://www.brax.com/en/us/p/077303_7951920_25/style-chuck",
+      "hp": "Style CHUCK Hi-Flex Light: Five-pocket in modern fit (denim, light blue)",
+      "hu": "https://www.brax.com/en/us/p/077222_7951920_27/style-chuck",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Style JIM (Eurex by BRAX): Flat-front pants in regular fit",
+      "lu": "https://www.brax.com/en/us/p/051073_5934520_06/style-jim",
+      "hp": "Style THILO Bestformer (Eurex by BRAX): Flat-front pants in regular fit",
+      "hu": "https://www.brax.com/en/us/p/051652_5938320_36/style-thilo",
+      "b": "range"
+    }
+  },
+  "price_range_only": ["Jeans", "Dress pants"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.brax.com/en/us/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "EUREX by BRAX"
+  },
+  "price_checked": true
 }

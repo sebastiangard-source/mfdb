@@ -44,14 +44,14 @@
     "n": "Works"
   },
   "prices": [
-    [250, 350],
-    [395, 1695],
+    [250, 595],
+    [395, 795],
     [395, 895],
     [795, 1495],
-    [595, 895],
+    [595, 795],
     [995, 2295],
-    [2295, 8995],
-    [395, 7500]
+    [2795, 5295],
+    [995, 1095]
   ],
   "price_checked": true,
   "notes": {
@@ -104,5 +104,71 @@
     "Sweater": "https://www.ralphlauren.com/men-clothing-sweaters/r/purple-label",
     "Outerwear": "https://www.ralphlauren.com/purple-label-outerwear-cg",
     "Shoes": "https://www.ralphlauren.com/men-footwear-shoes/r/purple-label"
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Lisle Crewneck T-Shirt",
+      "lu": "https://www.ralphlauren.com/men-clothing-t-shirts/lisle-crewneck-t-shirt/281670.html",
+      "hp": "Relaxed Fit Polo Bear T-Shirt",
+      "hu": "https://www.ralphlauren.com/men-clothing-t-shirts/relaxed-fit-polo-bear-t-shirt/100090830.html",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Custom Slim Fit Washed Piqué Polo Shirt",
+      "lu": "https://www.ralphlauren.com/men-clothing-polo-shirts/custom-slim-fit-washed-piqu%C3%A9-polo-shirt/100098719.html",
+      "hp": "Linen Jersey Polo Shirt",
+      "hu": "https://www.ralphlauren.com/men-clothing-polo-shirts/linen-jersey-polo-shirt/100090816.html",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Washed Oxford Shirt",
+      "lu": "https://www.ralphlauren.com/men-clothing-dress-shirts/washed-oxford-shirt/637855.html",
+      "hp": "Handmade End-on-End Shirt",
+      "hu": "https://www.ralphlauren.com/men-clothing-dress-shirts/handmade-end-on-end-shirt/100063926.html",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Slim Fit Indigo Jean",
+      "lu": "https://www.ralphlauren.com/men-clothing-jeans/slim-fit-indigo-jean/100084660.html",
+      "hp": "Straight Fit Stretch Selvedge Jean",
+      "hu": "https://www.ralphlauren.com/men-clothing-jeans/straight-fit-stretch-selvedge-jean/100033517.html",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Gregory Hand-Tailored Flannel Trouser",
+      "lu": "https://www.ralphlauren.com/men-clothing-pants/gregory-hand-tailored-flannel-trouser/100047670.html",
+      "hp": "Hand-Tailored Silk Suit Trouser",
+      "hu": "https://www.ralphlauren.com/men-clothing-pants/hand-tailored-silk-suit-trouser/100090876.html",
+      "b": "pair"
+    },
+    "Sweater": {
+      "lp": "Cashmere Crewneck Sweater",
+      "lu": "https://www.ralphlauren.com/men-clothing-sweaters/cashmere-crewneck-sweater/303232.html",
+      "hp": "Relaxed Fit Plaid Cashmere-Blend Sweater",
+      "hu": "https://www.ralphlauren.com/men-clothing-sweaters/relaxed-fit-plaid-cashmere-blend-sweater/100105276.html",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Thompson Jacket",
+      "lu": "https://www.ralphlauren.com/men-clothing-jackets-coats-vests/thompson-jacket/100098460.html",
+      "hp": "Felton Cashmere-Silk Flight Jacket",
+      "hu": "https://www.ralphlauren.com/men-clothing-jackets-coats-vests/felton-cashmere-silk-flight-jacket/100098429.html",
+      "b": "range"
+    },
+    "Shoes": {
+      "lp": "Chalmers Burnished Calfskin Penny Loafer",
+      "lu": "https://www.ralphlauren.com/men-footwear-shoes/chalmers-burnished-calfskin-penny-loafer/614669.html",
+      "hp": "Bolden Calf-Suede Penny Loafer",
+      "hu": "https://www.ralphlauren.com/men-footwear-shoes/bolden-calf-suede-penny-loafer/100007798.html",
+      "b": "pair"
+    }
+  },
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Outerwear"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.ralphlauren.com/brands-purple-label-men-shop-all-cg",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
   }
 }

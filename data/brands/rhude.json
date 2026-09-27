@@ -43,7 +43,7 @@
     "u": "https://rhude.com/search?q=Traxedo%20pant",
     "n": "Use this: https://rh-ude.com/products/rhude-traxedo-pants"
   },
-  "prices": [[245, 295], [575, 735], [600, 755], [775, 909], [1019, 1019], null, [720, 4110], "?"],
+  "prices": [[175, 425], [540, 795], [850, 850], [725, 775], [1475, 1625], null, [850, 4110], [495, 495]],
   "shoelink": {
     "t": "shoes",
     "u": "https://rhude.com/search?q=shoes"
@@ -92,7 +92,7 @@
     "nc": ["T-shirts", "Hoodies", "Pants"],
     "st": "complete"
   },
-  "price_range_only": ["Outerwear", "Shoes"],
+  "price_range_only": ["T-shirt", "Polo", "Jeans", "Dress pants", "Outerwear"],
   "garment_links": {
     "T-shirt": "https://rh-ude.com/collections/tees-1",
     "Polo": "https://rh-ude.com/collections/button-down-shirts",
@@ -100,5 +100,65 @@
     "Jeans": "https://rh-ude.com/collections/rtw-denim",
     "Dress pants": "https://rh-ude.com/collections/pants",
     "Outerwear": "https://rh-ude.com/collections/outerwear"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Classique Raglan Tee",
+      "lu": "https://rh-ude.com/products/classique-raglan-tee-5",
+      "hp": "Rhude Slip Tee",
+      "hu": "https://rh-ude.com/products/rhude-slip-tee",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Fontaine Striped SS Polo Shirt (PF26)",
+      "lu": "https://rh-ude.com/products/fontaine-striped-ss-polo-shirt-2",
+      "hp": "Fontaine Striped SS Polo Shirt (SS26)",
+      "hu": "https://rh-ude.com/products/fontaine-striped-ss-polo-shirt-1",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Papillon Poplin LS Suiting Shirt",
+      "lu": "https://rh-ude.com/products/papillon-poplin-ls-suiting-shirt",
+      "hp": "Papillon Poplin LS Suiting Shirt",
+      "hu": "https://rh-ude.com/products/papillon-poplin-ls-suiting-shirt",
+      "b": "single"
+    },
+    "Jeans": {
+      "lp": "Relaxed Traxedo Denim",
+      "lu": "https://rh-ude.com/products/relaxed-traxedo-denim",
+      "hp": "Pintuck 90s Traxedo Denim",
+      "hu": "https://rh-ude.com/products/pintuck-90s-traxedo-denim",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Provence Tailored Straight Leg Pants",
+      "lu": "https://rh-ude.com/products/provence-tailored-straight-leg-pants",
+      "hp": "Rhude Traxedo Pants",
+      "hu": "https://rh-ude.com/products/rhude-traxedo-pants",
+      "b": "range"
+    },
+    "Outerwear": {
+      "lp": "Drop-Neck Denim Trucker Jacket",
+      "lu": "https://rh-ude.com/products/drop-neck-trucker-jacket",
+      "hp": "Blue Crocodile Pilot Jacket",
+      "hu": "https://rh-ude.com/products/blue-crocodile-pilot-jacket",
+      "b": "range"
+    },
+    "Shoes": {
+      "lp": "V2 Bandana",
+      "lu": "https://rh-ude.com/products/v2-bandana-1",
+      "hp": "V2 Bandana",
+      "hu": "https://rh-ude.com/products/v2-bandana-1",
+      "b": "single"
+    }
+  },
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://rh-ude.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true,
+  "shop": "https://rh-ude.com/search?q="
 }

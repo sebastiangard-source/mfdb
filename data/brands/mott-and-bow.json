@@ -37,7 +37,7 @@
     "u": "https://www.mottandbow.com/search?q=Laight",
     "n": "restored from the earlier draft; link is site search — verify"
   },
-  "prices": [[39, 67], [74, 89], [90, 110], [99, 149], [124, 124], [239, 239], [248, 995], null],
+  "prices": [[40, 55], [56, 75], null, [99, 139], [125, 125], [239, 239], [795, 995], null],
   "price_checked": true,
   "doors": {
     "c": "full",
@@ -89,5 +89,57 @@
   },
   "notes": {
     "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional"
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Classic Crew Driggs Tee",
+      "lu": "https://www.mottandbow.com/products/scrt-drig-navy",
+      "hp": "Luxe Stretch Tee",
+      "hu": "https://www.mottandbow.com/products/lstt-tabo-navy",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Jersey Sueded Polo",
+      "lu": "https://www.mottandbow.com/products/polo-pima-navy",
+      "hp": "Luxe Performance Polo",
+      "hu": "https://www.mottandbow.com/products/mlpt-dewe-navy",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Slim Oliver Jeans",
+      "lu": "https://www.mottandbow.com/products/slim-oliver-jeans",
+      "hp": "Slim Wooster Jeans",
+      "hu": "https://www.mottandbow.com/products/slim-wooster-jeans",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Everyday Comfort Slim Chino Pants",
+      "lu": "https://www.mottandbow.com/products/mtwc-char-navy",
+      "hp": "Everyday Comfort Slim Chino Pants",
+      "hu": "https://www.mottandbow.com/products/mtwc-char-navy",
+      "b": "single"
+    },
+    "Sweater": {
+      "lp": "Classic Cashmere Crew Bergen Sweater",
+      "lu": "https://www.mottandbow.com/products/mcrs-berg-navy",
+      "hp": "Classic Cashmere Crew Bergen Sweater",
+      "hu": "https://www.mottandbow.com/products/mcrs-berg-navy",
+      "b": "single"
+    },
+    "Outerwear": {
+      "lp": "Suede Trucker Jacket",
+      "lu": "https://www.mottandbow.com/products/trja-royc-toba",
+      "hp": "Leather Racer Jacket",
+      "hu": "https://www.mottandbow.com/products/raja-quin-blac",
+      "b": "range"
+    }
+  },
+  "price_range_only": ["T-shirt", "Polo", "Jeans", "Outerwear"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.mottandbow.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
   }
 }

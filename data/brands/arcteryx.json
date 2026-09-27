@@ -43,7 +43,7 @@
     "u": "https://arcteryx.com/us/en/search?q=Beta%20jacket",
     "n": "restored from the earlier draft; link is site search — verify"
   },
-  "prices": [[50, 90], [150, 217], [250, 400], null, [130, 350], null, [180, 1200], "?"],
+  "prices": [[60, 90], null, [120, 140], null, null, null, [180, 1200], [140, 280]],
   "shoelink": {
     "t": "shoes",
     "u": "https://arcteryx.com/us/en/search?q=shoes"
@@ -142,12 +142,50 @@
     "nc": ["Shirts and Tops"],
     "st": "complete"
   },
-  "price_range_only": ["Outerwear", "Shoes"],
+  "price_range_only": ["T-shirt", "Dress shirt", "Outerwear", "Shoes"],
   "garment_links": {
     "T-shirt": "https://arcteryx.com/us/en/c/mens/shirts-and-tops",
     "Polo": "https://arcteryx.com/us/en/search?q=polo",
     "Dress shirt": "https://arcteryx.com/us/en/c/mens/veilance/tops/wid-nl524x6l",
     "Dress pants": "https://arcteryx.com/us/en/c/mens/veilance/bottoms/wid-nl524x6l",
     "Outerwear": "https://arcteryx.com/us/en/c/mens/shell-jackets"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Kragg SL Cotton Shirt SS Men's",
+      "lu": "https://arcteryx.com/us/en/shop/mens/kragg-sl-cotton-shirt-ss-9533",
+      "hp": "Ionia Merino Wool Shirt SS Men's",
+      "hu": "https://arcteryx.com/us/en/shop/mens/ionia-merino-wool-shirt-ss",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Skyline Shirt SS Men's",
+      "lu": "https://arcteryx.com/us/en/shop/mens/skyline-shirt-ss-0621",
+      "hp": "Skyline Shirt LS Men's",
+      "hu": "https://arcteryx.com/us/en/shop/mens/skyline-shirt-ls-0620",
+      "b": "range"
+    },
+    "Outerwear": {
+      "lp": "Squamish Jacket Men's",
+      "lu": "https://arcteryx.com/us/en/shop/mens/squamish-jacket-0284",
+      "hp": "Sperro SV Jacket - 0 Men's",
+      "hu": "https://arcteryx.com/us/en/shop/mens/sperro-sv-jacket-0-0667",
+      "b": "range"
+    },
+    "Shoes": {
+      "lp": "Kragg Shoe Men's",
+      "lu": "https://arcteryx.com/us/en/shop/mens/kragg-shoe-0078",
+      "hp": "Konseal Trek Boot Men's",
+      "hu": "https://arcteryx.com/us/en/shop/mens/konseal-trek-boot-0504",
+      "b": "range"
+    }
+  },
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://arcteryx.com/us/en/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "- (Veilance excluded: own map key)"
+  },
+  "price_checked": true
 }

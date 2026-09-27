@@ -39,7 +39,7 @@
     "u": "https://www.outerknown.com/search?q=Blanket%20Shirt%20men",
     "n": "verified ✓"
   },
-  "prices": [[40, 60], [70, 100], [100, 150], [130, 200], [100, 160], [178, 348], [298, 298], null],
+  "prices": [[42, 68], [88, 88], [128, 168], [168, 228], [158, 158], [178, 348], [298, 298], null],
   "doors": {
     "c": "full",
     "n": 5,
@@ -86,7 +86,7 @@
     "nc": ["Tees", "Woven Shirts", "Non-Denim Bottoms"],
     "st": "complete"
   },
-  "price_range_only": ["Sweater"],
+  "price_range_only": ["T-shirt", "Dress shirt", "Jeans", "Sweater"],
   "garment_links": {
     "T-shirt": "https://www.outerknown.com/collections/mens-tees-henleys",
     "Polo": "https://www.outerknown.com/search?q=polo&f=extra.gender%3AMens",
@@ -98,5 +98,64 @@
   },
   "notes": {
     "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Industrial Outerknown Label Pocket Tee",
+      "lu": "https://www.outerknown.com/products/industrial-outerknown-label-po-beachwood",
+      "hp": "The S/S Big Heavy Tee",
+      "hu": "https://www.outerknown.com/products/the-s-s-big-heavy-tee-washed-black",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Sun Polo",
+      "lu": "https://www.outerknown.com/products/sun-polo-dolphin-grey",
+      "hp": "Sun Polo",
+      "hu": "https://www.outerknown.com/products/sun-polo-dolphin-grey",
+      "b": "single"
+    },
+    "Dress shirt": {
+      "lp": "The Artist Oxford",
+      "lu": "https://www.outerknown.com/products/the-artist-oxford-oxford-blue",
+      "hp": "Blanket Shirt",
+      "hu": "https://www.outerknown.com/products/blanket-shirt-cola-dual-tone",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "The Traveler Straight Jean",
+      "lu": "https://www.outerknown.com/products/the-traveler-straight-jean-rinse",
+      "hp": "The Heirloom Selvedge",
+      "hu": "https://www.outerknown.com/products/the-heirloom-selvedge-rinse",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Nomad Stretch Chino",
+      "lu": "https://www.outerknown.com/products/nomad-stretch-chino-big-dipper",
+      "hp": "Nomad Stretch Chino",
+      "hu": "https://www.outerknown.com/products/nomad-stretch-chino-big-dipper",
+      "b": "single"
+    },
+    "Sweater": {
+      "lp": "Nostalgic Sweater",
+      "lu": "https://www.outerknown.com/products/nostalgic-sweater-ok-heather-charcoal",
+      "hp": "The Ambassador Sweater",
+      "hu": "https://www.outerknown.com/products/the-ambassador-sweater-heather-charcoal",
+      "b": "range"
+    },
+    "Outerwear": {
+      "lp": "The Woolaroo Jacket",
+      "lu": "https://www.outerknown.com/products/the-woolaroo-jacket-heather-olive",
+      "hp": "The Woolaroo Jacket",
+      "hu": "https://www.outerknown.com/products/the-woolaroo-jacket-heather-olive",
+      "b": "single"
+    }
+  },
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.outerknown.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

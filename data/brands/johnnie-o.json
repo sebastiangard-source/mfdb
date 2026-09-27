@@ -43,7 +43,7 @@
     "u": "https://www.johnnie-o.com/search?q=The%204-button%20polo",
     "n": ""
   },
-  "prices": [[40, 60], [75, 115], [100, 145], [110, 165], [100, 150], [198, 198], [248, 998], [198, 248]],
+  "prices": [[55, 88], [89, 118], [138, 208], [148, 148], [158, 228], [178, 598], [248, 998], [228, 248]],
   "notes": {
     "golf": "Prep-formance polos under the surfer logo",
     "prep": "West Coast prep: the same signals, relaxed, and stripped of the East Coast institutional claim. Prep as a temperament rather than a lineage.",
@@ -167,7 +167,7 @@
     "nc": ["Button-Down Shirts", "Sweaters"],
     "st": "complete"
   },
-  "price_range_only": ["Sweater"],
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants", "Sweater"],
   "garment_links": {
     "T-shirt": "https://www.johnnie-o.com/collections/mens-t-shirts",
     "Polo": "https://www.johnnie-o.com/collections/mens-polos",
@@ -177,5 +177,71 @@
     "Sweater": "https://www.johnnie-o.com/collections/mens-sweaters",
     "Outerwear": "https://www.johnnie-o.com/collections/mens-jackets",
     "Shoes": "https://www.johnnie-o.com/collections/footwear-2"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Dale Cotton Blend T-Shirt",
+      "lu": "https://www.johnnie-o.com/products/jmst3180-dale-2-0-haze",
+      "hp": "The Course Performance T-Shirt - Short Sleeve",
+      "hu": "https://www.johnnie-o.com/products/jmst3010_26fa_zest_course-tee",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Original 4-Button Polo - Solid",
+      "lu": "https://www.johnnie-o.com/products/jmpo3000_26fa_bronco_the-original",
+      "hp": "Performance Mesh Polo - Solid",
+      "hu": "https://www.johnnie-o.com/products/jmpo103340_26fa_sailor_mesh-solid",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Everyday Performance Button Down Shirt - Travis Solid",
+      "lu": "https://www.johnnie-o.com/products/travis-jmwl101080-sp25-lagunablue",
+      "hp": "Top Shelf Cotton Button Down Shirt - Umstead Plaid",
+      "hu": "https://www.johnnie-o.com/products/jmwl101950-umstead-sage",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Laguna Jean",
+      "lu": "https://www.johnnie-o.com/products/jmpa100300_26fa_ocean-wash_laguna-jean",
+      "hp": "Atlas Lightweight Stretch 5-Pocket Jeans",
+      "hu": "https://www.johnnie-o.com/products/atlas-lightweight-stretch-5-pocket-jeans",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Cross Country Trouser",
+      "lu": "https://www.johnnie-o.com/products/jmpa100310_26fa_stone_cc-trouser",
+      "hp": "Monterey Trouser",
+      "hu": "https://www.johnnie-o.com/products/jmpa100350_26fa_blue-moon_monterey-trouser",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Desmond Plaited Cotton Blend 1/4 Zip Sweater",
+      "lu": "https://www.johnnie-o.com/products/desmond-jmsw100100-sp25-infinity",
+      "hp": "Jamisons Top Shelf Cashmere Hooded Sweater",
+      "hu": "https://www.johnnie-o.com/products/jmsw100140_jamisons_25fa-coffee",
+      "b": "range"
+    },
+    "Outerwear": {
+      "lp": "Mixed Media Jacket",
+      "lu": "https://www.johnnie-o.com/products/jmjk100630_26fa_light-gray_mixed-media-jacket",
+      "hp": "Agnelli Suede Mixed Media Jacket",
+      "hu": "https://www.johnnie-o.com/products/agnelli-jmjk100240-sp25",
+      "b": "pair"
+    },
+    "Shoes": {
+      "lp": "Baja Penny Loafer",
+      "lu": "https://www.johnnie-o.com/products/baja-penny-loafer",
+      "hp": "J Flex Penny Loafer - Leather",
+      "hu": "https://www.johnnie-o.com/products/j-flex-penny-loafer-leather-copy",
+      "b": "pair"
+    }
+  },
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.johnnie-o.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "Top Shelf"
+  },
+  "price_checked": true
 }

@@ -37,13 +37,13 @@
   "chan": ["O", "W"],
   "conf": "M",
   "forgc": [4, 4, 3],
-  "shop": "https://jpressonline.com/search?q=",
+  "shop": "https://jpress.com/search?q=",
   "onething": {
     "p": "Shaggy Dog sweater",
     "u": "https://jpressonline.com/search?q=Shaggy%20Dog%20sweater",
     "n": "verified ✓"
   },
-  "prices": [[45, 75], [98, 145], [135, 185], [150, 225], [165, 295], [138, 1495], [1295, 1950], null],
+  "prices": [[45, 55], [95, 125], [185, 225], null, [295, 550], [148, 368], [1295, 1950], null],
   "notes": {
     "ivy": "the source code — the same sack suit since 1902, canonized by the 1965 Japanese photo book Take Ivy",
     "finbro": "the uniform of the finance bro's grandfather — law professors, old Washington, the bow-tie corner of the firm",
@@ -102,5 +102,58 @@
     "Dress pants": "https://jpress.com/collections/dress-trousers",
     "Sweater": "https://jpress.com/collections/sweaters",
     "Outerwear": "https://jpress.com/collections/outerwear"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Made-in-USA White Take Ivy T-Shirt",
+      "lu": "https://jpress.com/products/white-take-ivy-tshirt",
+      "hp": "Navy J. Press \"Sheep & Shears\" Logo T-Shirt",
+      "hu": "https://jpress.com/products/j-press-logo-t-shirt",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "White Cotton Pique Polo",
+      "lu": "https://jpress.com/products/white-cotton-pique-polo",
+      "hp": "Navy & Red Cotton Jersey Micro-Stripe Polo - Classic Fit",
+      "hu": "https://jpress.com/products/navy-red-cotton-jersey-stripe-polo-classic-fit",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Made-in-USA White Oxford Cloth Button Down Shirt - Slim Fit",
+      "lu": "https://jpress.com/products/made-in-usa-white-oxford-cloth-button-down-shirt-slim-fit",
+      "hp": "Made-in-USA Thomas Mason Blue Banker Stripe Dress Shirt - Classic Fit",
+      "hu": "https://jpress.com/products/thomas-mason-blue-banker-stripe-dress-shirt-classic-fit",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Made-in-Canada Grey Wool Flannel Pleated Trouser",
+      "lu": "https://jpress.com/products/made-in-canada-grey-wool-flannel-pleated-trouser",
+      "hp": "Medium Grey Fox Air Wool Trouser",
+      "hu": "https://jpress.com/products/medium-grey-fox-air-wool-trouser",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Made-in-USA Navy Chunky Cotton Crewneck Sweater",
+      "lu": "https://jpress.com/products/navy-chunky-cotton-crewneck-sweater",
+      "hp": "Blue Alpaca/Silk Crewneck Sweater - Classic Fit",
+      "hu": "https://jpress.com/products/alpaca-silk-crewneck-sweater-blue",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Made-in-USA Charcoal Wool/Cashmere Topcoat",
+      "lu": "https://jpress.com/products/3-button-fly-front-wool-coat-charcoal",
+      "hp": "Made-in-USA Navy Cashmere Topcoat",
+      "hu": "https://jpress.com/products/3-button-fly-front-cashmere-coat-navy",
+      "b": "pair"
+    }
+  },
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Dress pants"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://jpress.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "Pennant"
+  },
+  "price_checked": true
 }

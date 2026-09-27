@@ -41,7 +41,7 @@
     "u": "https://www.lemaire.fr/search?q=Twisted%20pant%20men",
     "n": "verified ✓"
   },
-  "prices": [[255, 335], null, [451, 1099], [683, 683], [752, 1099], [690, 690], [1150, 3460], [890, 990]],
+  "prices": [[280, 365], [690, 690], [690, 1190], null, [890, 1450], [690, 690], [790, 4510], [970, 970]],
   "notes": {
     "style": "the quiet-drape reference",
     "fren": "la nonchalance as a design principle",
@@ -89,7 +89,7 @@
     "nc": ["coats_jackets", "knitwear_jersey", "shirts"],
     "st": "complete"
   },
-  "price_range_only": ["Sweater"],
+  "price_range_only": ["T-shirt", "Dress shirt", "Outerwear"],
   "garment_links": {
     "T-shirt": "https://www.lemaire.fr/collections/men-jersey",
     "Dress shirt": "https://www.lemaire.fr/collections/men-shirts",
@@ -98,5 +98,64 @@
     "Sweater": "https://www.lemaire.fr/collections/men-knitwear-and-jersey",
     "Outerwear": "https://www.lemaire.fr/collections/men-coats",
     "Shoes": "https://www.lemaire.fr/collections/men-shoes"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "U-Neck Tee in Rib Jersey",
+      "lu": "https://www.lemaire.fr/products/u-neck-tee-men-wh048-light-cream-lj1016-rib-jersey-ts0037-lj1016-wh048",
+      "hp": "Boxy Tee in Compact Cotton Jersey",
+      "hu": "https://www.lemaire.fr/products/boxy-tee-men-bk999-black-lj1073-compact-cotton-jersey-ts0044-lj1073-bk999",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "LS Knitted Polo Top in Mouline Fine Merino Wool",
+      "lu": "https://www.lemaire.fr/products/ls-knitted-polo-top-men-br528-ecorce-lk1072-mouline-fine-merino-wool-ts0031-lk1072-br528",
+      "hp": "LS Knitted Polo Top in Mouline Fine Merino Wool",
+      "hu": "https://www.lemaire.fr/products/ls-knitted-polo-top-men-br528-ecorce-lk1072-mouline-fine-merino-wool-ts0031-lk1072-br528",
+      "b": "single"
+    },
+    "Dress shirt": {
+      "lp": "Two Pockets Shirt in Light Cotton Twill",
+      "lu": "https://www.lemaire.fr/products/two-pockets-shirt-men-bg269-soba-lf1594-light-cotton-twill-sh1306-lf1594-bg269",
+      "hp": "Convertible Collar Shirt in Dry Silk",
+      "hu": "https://www.lemaire.fr/products/convertible-collar-shirt-men-pk003-orchid-lf1308-dry-silk-sh1305-lf1308-pk003",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Single Pleat Tailored Pants in Tropical Wool Blend",
+      "lu": "https://www.lemaire.fr/products/single-pleat-tailored-pants-men-gr705-moss-lf414-tropical-polywool-pa1332-lf414-gr705",
+      "hp": "Belted Relaxed Pants in Dry Silk",
+      "hu": "https://www.lemaire.fr/products/belted-relaxed-pants-men-br525-toffee-lf1308-dry-silk-pa1353-lf1308-br525",
+      "b": "pair"
+    },
+    "Sweater": {
+      "lp": "Crew Neck Sweater in Mouline Fine Merino Wool",
+      "lu": "https://www.lemaire.fr/products/crew-neck-sweater-men-br528-ecorce-lk1072-mouline-fine-merino-wool-po0060-lk1072-br528",
+      "hp": "Crew Neck Sweater in Alpaca Blend (75% alpaca)",
+      "hu": "https://www.lemaire.fr/products/crew-neck-sweater-men-bk996-coal-lk1065-alpaca-blend-po0035-lk1065-bk996",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Trucker Jacket in Heavy Black Denim",
+      "lu": "https://www.lemaire.fr/products/trucker-jacket-men-bk999-black-ld1055-heavy-black-denim-ow1269-ld1055-bk999",
+      "hp": "Leather Blouson in Tumbled Cow Leather",
+      "hu": "https://www.lemaire.fr/products/leather-blouson-men-br514-charred-oak-ll0145",
+      "b": "range"
+    },
+    "Shoes": {
+      "lp": "Formal Slip On in Shiny Vegetable Leather (loafer)",
+      "lu": "https://www.lemaire.fr/products/formal-slip-on-men-br489-chocolate-ll0106-shiny-vegetable-leather-fo0296-ll0106-br489",
+      "hp": "Formal Slip On in Shiny Vegetable Leather (loafer)",
+      "hu": "https://www.lemaire.fr/products/formal-slip-on-men-br489-chocolate-ll0106-shiny-vegetable-leather-fo0296-ll0106-br489",
+      "b": "single"
+    }
+  },
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.lemaire.fr/ (US market)",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

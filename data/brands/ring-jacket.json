@@ -40,14 +40,14 @@
     "n": "works"
   },
   "prices": [
-    [150, 250],
-    [200, 350],
-    [200, 300],
-    [300, 500],
-    [300, 450],
-    [99000, 99000, "JPY"],
+    null,
+    null,
+    [49500, 104500, "JPY"],
+    null,
+    [60500, 165000, "JPY"],
+    [99000, 132000, "JPY"],
     [385000, 440000, "JPY"],
-    "?"
+    [82500, 220000, "JPY"]
   ],
   "notes": {
     "wool": "Osaka full-canvas make",
@@ -93,12 +93,57 @@
     "o": [],
     "s": [150]
   },
-  "price_range_only": ["Outerwear"],
+  "price_range_only": ["Dress shirt", "Dress pants", "Shoes"],
   "shop": "https://www.ringjacket.co.jp/p/search?keyword=",
   "garment_links": {
     "Dress shirt": "https://www.ringjacket.co.jp/c/shirt",
     "Dress pants": "https://www.ringjacket.co.jp/c/pants",
     "Sweater": "https://www.ringjacket.co.jp/c/knit",
     "Outerwear": "https://www.ringjacket.co.jp/c/coat"
-  }
+  },
+  "price_evidence": {
+    "Dress shirt": {
+      "lp": "RING JACKET Napoli Twill Wide Collar Shirt",
+      "lu": "https://www.ringjacket.co.jp/c/shirt/59104S03",
+      "hp": "Hand 15-step Wide Collar Shirt, navy stripe",
+      "hu": "https://www.ringjacket.co.jp/c/ringjacketnapoli/5N106F07X",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Super 120's Flannel Slacks S-178H",
+      "lu": "https://www.ringjacket.co.jp/c/pants/RT076F20",
+      "hp": "Camel Effortless Slacks S-193 (camel 100%)",
+      "hu": "https://www.ringjacket.co.jp/c/pants/RT076F25G",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "14.5 Micron Wool Crew Neck Sweater",
+      "lu": "https://www.ringjacket.co.jp/c/knit/5N356F17",
+      "hp": "Middle Gauge Crew Neck Sweater, light grey (wool 70/cashmere 30)",
+      "hu": "https://www.ringjacket.co.jp/c/ringjacketnapoli/5N355F01UP",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Navy Field Jacket (polyester 100%)",
+      "lu": "https://www.ringjacket.co.jp/c/ringjacketnapoli/5N086F03X",
+      "hp": "Light Grey Field Jacket (cashmere 100%)",
+      "hu": "https://www.ringjacket.co.jp/c/ringjacketnapoli/5N086F01C",
+      "b": "pair"
+    },
+    "Shoes": {
+      "lp": "Sheep Suede Leather Sneaker, greige",
+      "lu": "https://www.ringjacket.co.jp/c/ringjacketnapoli/5N146S03C",
+      "hp": "Cordovan Leather Sneaker, brown",
+      "hu": "https://www.ringjacket.co.jp/c/ringjacketnapoli/5N146S01F",
+      "b": "range"
+    }
+  },
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.ringjacket.co.jp/",
+    "currency": "JPY",
+    "status": "read",
+    "sublines": "RING JACKET Napoli"
+  },
+  "price_checked": true
 }

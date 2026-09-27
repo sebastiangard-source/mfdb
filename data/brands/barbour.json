@@ -41,7 +41,7 @@
     "u": "https://www.barbour.com/us/search?q=Bedale",
     "n": "own-site search, not opened from this environment. Bedale over Beaufort: the shorter cut is the one that left the moor, where Beaufort's length and game pocket still read as costume in a city"
   },
-  "prices": [[50, 110], [85, 160], [100, 200], null, [145, 270], [120, 330], [165, 700], "?"],
+  "prices": [[50, 70], [85, 115], [100, 160], null, [270, 270], [120, 330], [180, 745], [195, 245]],
   "notes": {
     "craft": "waxed cotton since 1894 with a rewaxing service",
     "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional"
@@ -87,7 +87,7 @@
     "nc": ["Shirts & Overshirts", "Knitwear", "Tailoring"],
     "st": "complete"
   },
-  "price_range_only": ["Shoes"],
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Dress pants", "Sweater", "Outerwear", "Shoes"],
   "garment_links": {
     "T-shirt": "https://www.barbour.com/us/mens/mens-clothing/mens-t-shirts",
     "Polo": "https://www.barbour.com/us/mens/mens-clothing/mens-polo-shirts",
@@ -96,5 +96,63 @@
     "Sweater": "https://www.barbour.com/us/mens/mens-clothing/mens-knitwear",
     "Outerwear": "https://www.barbour.com/us/mens/mens-jackets"
   },
-  "price_checked": true
+  "price_checked": true,
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Script Graphic T-Shirt",
+      "lu": "https://www.barbour.com/us/script-graphic-t-shirt-MTS1347NY91.html",
+      "hp": "Washington Overdyed Logo Tailored T-Shirt",
+      "hu": "https://www.barbour.com/us/washington-overdyed-logo-tailored-t-shirt-MTS1619OL56.html",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Tartan Pique Polo Shirt",
+      "lu": "https://www.barbour.com/us/tartan-pique-polo-shirt-MML0012TE13.html",
+      "hp": "Stately Polo Shirt",
+      "hu": "https://www.barbour.com/us/stately-polo-shirt-MML1583GY97.html",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Turner Tailored Long-Sleeved Shirt",
+      "lu": "https://www.barbour.com/us/turner-tailored-long-sleeved-shirt-MSH5367NY91.html",
+      "hp": "Dunoon Tartan Authentic-Fit Long-Sleeved Shirt",
+      "hu": "https://www.barbour.com/us/dunoon-tartan-authentic-fit-long-sleeved-shirt-MSH5901TN43.html",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Fairford Herringbone Tailored Trousers",
+      "lu": "https://www.barbour.com/us/fairford-herringbone-tailored-trousers-MTR0809NY91.html",
+      "hp": "Carlton Wool-Cashmere Tailored Trousers",
+      "hu": "https://www.barbour.com/us/carlton-wool-cashmere-tailored-trousers-MTR0810BR76.html",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Pima Cotton Crew Neck Jumper",
+      "lu": "https://www.barbour.com/us/pima-cotton-crew-neck-jumper-MKN0932GN13.html",
+      "hp": "Scottish Made Cable-Knit Wool Crew Neck Jumper",
+      "hu": "https://www.barbour.com/us/scottish-made-cable-knit-wool-crew-neck-jumper-MKN1769BL91.html",
+      "b": "range"
+    },
+    "Outerwear": {
+      "lp": "Langdale Fleece Jacket",
+      "lu": "https://www.barbour.com/us/langdale-fleece-jacket-MFL0192OL72.html",
+      "hp": "Beacon Sports Waxed Jacket",
+      "hu": "https://www.barbour.com/us/beacon-sports-waxed-jacket-MWX0007OL71.html",
+      "b": "range"
+    },
+    "Shoes": {
+      "lp": "Re-Engineered Deck Boat Shoes",
+      "lu": "https://www.barbour.com/us/re-engineered-deck-boat-shoes-MFO0795BR74.html",
+      "hp": "Shawdon Chukka Boots",
+      "hu": "https://www.barbour.com/us/shawdon-chukka-boots-MFO0851BR79.html",
+      "b": "range"
+    }
+  },
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.barbour.com/us/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  }
 }

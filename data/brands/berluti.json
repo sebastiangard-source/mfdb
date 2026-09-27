@@ -43,14 +43,14 @@
     "n": "verified ✓"
   },
   "prices": [
-    [630, 1180],
-    [660, 1610],
-    [850, 1740],
-    [1120, 2110],
-    [1120, 1200],
-    [1860, 2110],
-    [2900, 11000],
-    [1040, 11400]
+    [660, 1050],
+    [700, 1610],
+    [850, 1180],
+    null,
+    [1120, 1740],
+    [1360, 2110],
+    [2900, 10600],
+    [1040, 2880]
   ],
   "price_checked": true,
   "shoelink": {
@@ -114,5 +114,63 @@
     "Sweater": "https://www.berluti.com/en-us/ready-to-wear/knitwear-sweatshirts/",
     "Outerwear": "https://www.berluti.com/en-us/ready-to-wear/coats-blousons/",
     "Shoes": "https://www.berluti.com/en-us/shoes/"
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Leather Tab Pocket T-shirt",
+      "lu": "https://www.berluti.com/en-us/leather-tab-pocket-t-shirt/R28JRS155-003.html",
+      "hp": "Bicolor Reversible T-Shirt (62% mulberry silk)",
+      "hu": "https://www.berluti.com/en-us/bicolor-reversible-t-shirt/R30JRS165-002.html",
+      "b": "pair"
+    },
+    "Polo": {
+      "lp": "Pocket Polo with Leather Detail",
+      "lu": "https://www.berluti.com/en-us/pocket-polo-with-leather-detail/R28JPS85-002.html",
+      "hp": "Polo with Leather Zip-puller (62% mulberry silk)",
+      "hu": "https://www.berluti.com/en-us/polo-with-leather-zip-puller/R31KPS64-001.html",
+      "b": "pair"
+    },
+    "Dress shirt": {
+      "lp": "Alessandro Scritto Pattern Shirt",
+      "lu": "https://www.berluti.com/en-us/alessandro-scritto-pattern-shirt/R28HTL86-001.html",
+      "hp": "Andy Scritto Pattern Shirt (53% mulberry silk)",
+      "hu": "https://www.berluti.com/en-us/andy-scritto-pattern-shirt/R29HTL85-004.html",
+      "b": "pair"
+    },
+    "Dress pants": {
+      "lp": "Alessio Trousers with Leather Zip-puller (99% wool)",
+      "lu": "https://www.berluti.com/en-us/alessio-trousers-with-leather-zip-puller/R29TCU107-001.html",
+      "hp": "Alessio Trousers with Leather Zip-puller (97% cashmere)",
+      "hu": "https://www.berluti.com/en-us/alessio-trousers-with-leather-zip-puller/R31TCU107-001.html",
+      "b": "pair"
+    },
+    "Sweater": {
+      "lp": "Classic Scritto Crewneck",
+      "lu": "https://www.berluti.com/en-us/classic-scritto-crewneck/R28KRL198-001.html",
+      "hp": "Crest Crewneck with Braided Leather Detail (100% cashmere)",
+      "hu": "https://www.berluti.com/en-us/crest-crewneck-with-braided-leather-detail/R31KRL263-001.html",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Ultra Leggera Forestière Jacket",
+      "lu": "https://www.berluti.com/en-us/ultra-leggera-forestiere-jacket/R30OFU50-007.html",
+      "hp": "Corduroy Leather Forestière Jacket (suede lamb leather)",
+      "hu": "https://www.berluti.com/en-us/corduroy-leather-forestiere-jacket/R31LFL32-001.html",
+      "b": "pair"
+    },
+    "Shoes": {
+      "lp": "Far Niente Loafer",
+      "lu": "https://www.berluti.com/en-us/far-niente-loafer/S6605-004.html",
+      "hp": "Andy Infini Alto Loafer",
+      "hu": "https://www.berluti.com/en-us/andy-infini-alto-loafer/S6368-001.html",
+      "b": "pair"
+    }
+  },
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.berluti.com/en-us/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
   }
 }

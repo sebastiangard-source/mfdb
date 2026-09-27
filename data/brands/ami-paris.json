@@ -37,7 +37,7 @@
     "u": "https://www.amiparis.com/en-us/products/grey-wool-ami-de-coeur-crewneck-sweater-uks838018084",
     "n": "verified product page — the grey/red intarsia classic; site is /en-us/ not /us/"
   },
-  "prices": [[95, 160], [160, 260], [230, 350], [280, 420], [260, 420], [430, 690], [680, 2650], [730, 730]],
+  "prices": [[190, 320], [250, 450], [380, 680], [390, 550], [640, 970], [430, 690], [680, 2650], [730, 730]],
   "notes": {
     "fren": "Alexandre Mattiussi built the house on an idea of the Paris everyman, and the ami de cœur heart is a friendship mark rather than a logo. Approachable French rather than couture French.",
     "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional"
@@ -82,7 +82,7 @@
     "nc": ["tailoring", "sweaters-and-cardigans", "jackets-and-coats"],
     "st": "complete"
   },
-  "price_range_only": ["Outerwear"],
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants", "Outerwear"],
   "garment_links": {
     "T-shirt": "https://www.amiparis.com/en-us/collections/men-t-shirts-and-polos",
     "Polo": "https://www.amiparis.com/en-us/collections/men-t-shirts-and-polos",
@@ -92,5 +92,72 @@
     "Sweater": "https://www.amiparis.com/en-us/collections/men-sweaters-and-cardigans",
     "Outerwear": "https://www.amiparis.com/en-us/collections/men-jackets-and-coats",
     "Shoes": "https://www.amiparis.com/en-us/collections/men-sneakers"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "White cotton t-shirt with Ami de Coeur",
+      "lu": "https://www.amiparis.com/en-us/products/white-cotton-ami-de-coeur-t-shirt-hts346724100",
+      "hp": "Red cotton t-shirt with Ami Paris embroidery",
+      "hu": "https://www.amiparis.com/en-us/products/red-cotton-t-shirt-with-ami-paris-embroidery-uts418je0272a202",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "White Cotton Short Sleeves Ami De Coeur Polo Shirt",
+      "lu": "https://www.amiparis.com/en-us/products/white-cotton-short-sleeves-ami-de-coeur-polo-shirt-hpl411760100",
+      "hp": "Black Wool Short Sleeves Ami De Coeur Polo (merino)",
+      "hu": "https://www.amiparis.com/en-us/products/black-wool-short-sleeves-ami-de-coeur-polo-hpl438kn00390180",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "White cotton shirt with Ami de Coeur",
+      "lu": "https://www.amiparis.com/en-us/products/white-cotton-shirt-with-ami-de-coeur-hsh764co0045100",
+      "hp": "Black wool shirt",
+      "hu": "https://www.amiparis.com/en-us/products/black-wool-shirt-hsh871wv0211001",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Black tapered-fit cotton jeans",
+      "lu": "https://www.amiparis.com/en-us/products/black-tapered-fit-cotton-jeans-htr103de0131001",
+      "hp": "Blue baggy-fit cotton jeans (striped denim)",
+      "hu": "https://www.amiparis.com/en-us/products/blue-baggy-fit-cotton-jeans-htr919de0136a227",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Black straight-fit wool trousers",
+      "lu": "https://www.amiparis.com/en-us/products/black-straight-fit-wool-trousers-htr506wv0211001",
+      "hp": "Brown houndstooth balloon-fit wool trousers",
+      "hu": "https://www.amiparis.com/en-us/products/brown-houndstooth-balloon-fit-wool-trousers-htr912wv0219a256",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Grey Wool Crewneck Ami De Coeur Sweater",
+      "lu": "https://www.amiparis.com/en-us/products/grey-wool-crewneck-ami-de-coeur-sweater-hks866kn00390504",
+      "hp": "Grey crewneck alpaca sweater with Ami de Coeur (50% alpaca)",
+      "hu": "https://www.amiparis.com/en-us/products/grey-crewneck-alpaca-sweater-with-ami-de-coeur-uks836kn0135a338",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Black Cotton Ami De Coeur Zipped Jacket",
+      "lu": "https://www.amiparis.com/en-us/products/black-cotton-ami-de-coeur-zipped-jacket-hjk884co0132001",
+      "hp": "Burgundy crocodile embossed cowhide leather zipped jacket",
+      "hu": "https://www.amiparis.com/en-us/products/burgundy-crocodile-embossed-cowhide-leather-zipped-jacket-ujk954lh0070a235",
+      "b": "range"
+    },
+    "Shoes": {
+      "lp": "Black cow leather loafers",
+      "lu": "https://www.amiparis.com/en-us/products/black-cow-leather-loafers-usv845al0122001",
+      "hp": "Black cow leather loafers",
+      "hu": "https://www.amiparis.com/en-us/products/black-cow-leather-loafers-usv845al0122001",
+      "b": "single"
+    }
+  },
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.amiparis.com/en-us",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true,
+  "shop": "https://www.amiparis.com/en-us/search?q="
 }

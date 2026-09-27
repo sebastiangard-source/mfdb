@@ -39,7 +39,7 @@
     "u": "https://www.paulsmith.com/search?q=Signature-stripe+socks",
     "n": "no locale segment, plus-encoded, verified"
   },
-  "prices": [[70, 120], [120, 250], [160, 250], [200, 320], [190, 320], [250, 725], [895, 2595], [290, 595]],
+  "prices": [[75, 325], [125, 395], [275, 430], [195, 395], [325, 750], [250, 725], [895, 2595], [290, 595]],
   "doors": {
     "c": "full",
     "n": 4,
@@ -92,5 +92,73 @@
   },
   "notes": {
     "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Pale Blue Organic Cotton Zebra Logo T-Shirt (PS Paul Smith)",
+      "lu": "https://www.paulsmith.com/us/pale-blue-organic-cotton-zebra-logo-t-shirt",
+      "hp": "Ecru Cotton-Cashmere T-Shirt (90% cotton/10% cashmere)",
+      "hu": "https://www.paulsmith.com/us/ecru-cotton-cashmere-t-shirt",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Dark Navy Cotton-Piqué Zebra Logo Polo Shirt (PS Paul Smith)",
+      "lu": "https://www.paulsmith.com/us/men-s-navy-organic-cotton-pique-zebra-logo-polo-shirt-ss",
+      "hp": "Dark Navy 'Signature Stripe' Trim Polo Shirt (cotton piqué)",
+      "hu": "https://www.paulsmith.com/us/men-s-dark-navy-signature-stripe-trim-polo-shirt",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Regular-Fit White 'Scattered Flower' Shirt",
+      "lu": "https://www.paulsmith.com/us/regular-fit-white-scattered-flower-shirt",
+      "hp": "Regular-Fit Sky Blue Stripe Button-Down Shirt",
+      "hu": "https://www.paulsmith.com/us/regular-fit-sky-blue-stripe-button-down-shirt",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Slim Tapered-Fit Dark-Wash 'Blue Black Stretch' Jeans",
+      "lu": "https://www.paulsmith.com/us/slim-tapered-fit-dark-wash-blue-black-stretch-jeans",
+      "hp": "Straight-Fit Mid-Wash Jeans",
+      "hu": "https://www.paulsmith.com/us/straight-fit-mid-wash-jeans",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Relaxed-Fit Navy Linen-Blend Pleated Trousers (PS Paul Smith)",
+      "lu": "https://www.paulsmith.com/us/relaxed-fit-navy-linen-blend-pleated-trousers",
+      "hp": "Navy Pinstripe Wool Pleated Trousers (Lovat Mill wool)",
+      "hu": "https://www.paulsmith.com/us/navy-pinstripe-wool-pleated-trousers",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Navy Textured-Cotton Raglan Sweater (crew neck, PS Paul Smith)",
+      "lu": "https://www.paulsmith.com/us/navy-textured-cotton-raglan-sweater",
+      "hp": "Mauve Cashmere Crew Neck Sweater (100% cashmere)",
+      "hu": "https://www.paulsmith.com/us/mauve-cashmere-crew-neck-sweater",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Sand Corduroy Bomber Jacket",
+      "lu": "https://www.paulsmith.com/us/sand-corduroy-bomber-jacket",
+      "hp": "Tan Suede Bomber Jacket (100% lamb suede)",
+      "hu": "https://www.paulsmith.com/us/tan-suede-bomber-jacket-brown",
+      "b": "pair"
+    },
+    "Shoes": {
+      "lp": "Navy Suede 'Pierce' Loafers",
+      "lu": "https://www.paulsmith.com/us/navy-suede-pierce-loafers",
+      "hp": "Black 'Murano' Loafers",
+      "hu": "https://www.paulsmith.com/us/black-murano-loafers",
+      "b": "pair"
+    }
+  },
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.paulsmith.com/us",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "PS Paul Smith"
+  },
+  "price_checked": true,
+  "shop": "https://www.paulsmith.com/us/search?q="
 }

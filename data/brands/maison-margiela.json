@@ -43,14 +43,14 @@
     "n": "official name — reproduces the 1970s German Army Trainer (the forum nickname GAT); the Replica line is the house concept itself"
   },
   "prices": [
-    [520, 895],
-    [780, 1255],
-    [990, 1430],
-    [1090, 1660],
-    [1280, 1790],
-    [560, 1730],
-    [695, 6590],
-    [1450, 2050]
+    [250, 895],
+    [460, 660],
+    [610, 1660],
+    [460, 1520],
+    [505, 2770],
+    [560, 3540],
+    [695, 7260],
+    [780, 2050]
   ],
   "shoelink": {
     "t": "Replica sneaker",
@@ -109,7 +109,7 @@
     "nc": ["jeans and trousers", "coats and jackets", "knitwear"],
     "st": "complete"
   },
-  "price_range_only": ["Sweater"],
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants", "Sweater", "Outerwear"],
   "garment_links": {
     "T-shirt": "https://www.maisonmargiela.com/en-us/maison-margiela/men/ready-to-wear/t-shirts/",
     "Dress shirt": "https://www.maisonmargiela.com/en-us/maison-margiela/men/ready-to-wear/shirts/",
@@ -118,5 +118,71 @@
     "Sweater": "https://www.maisonmargiela.com/en-us/maison-margiela/men/ready-to-wear/knitwear/",
     "Outerwear": "https://www.maisonmargiela.com/en-us/maison-margiela/men/ready-to-wear/coats-jackets/",
     "Shoes": "https://www.maisonmargiela.com/en-us/maison-margiela/men/shoes/"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "MM6 Cotton T-Shirt",
+      "lu": "https://www.maisonmargiela.com/en-us/cotton-t-shirt-SH0GC0032S24312101.html",
+      "hp": "Taped V-neck T-shirt",
+      "hu": "https://www.maisonmargiela.com/en-us/taped-v-neck-t-shirt-S67GL0024M20201524.html",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "MM6 Striped Jersey Polo Shirt",
+      "lu": "https://www.maisonmargiela.com/en-us/striped-jersey-polo-shirt-SH2GL0011M20235001F.html",
+      "hp": "MM6 Ribbed polo shirt",
+      "hu": "https://www.maisonmargiela.com/en-us/ribbed-polo-shirt-SH2GL0006M13195143.html",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "MM6 Spliced numbers shirt",
+      "lu": "https://www.maisonmargiela.com/en-us/spliced-numbers-shirt-S52DT0018STZ088961.html",
+      "hp": "Double-Dyed Workwear Shirt",
+      "hu": "https://www.maisonmargiela.com/en-us/double-dyed-workwear-shirt-S50DT0080M35702487.html",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "MM6 5-pocket Denim Trousers",
+      "lu": "https://www.maisonmargiela.com/en-us/5-pocket-denim-trousers-SH0LA0009S30589965.html",
+      "hp": "Distressed Denim Jeans",
+      "hu": "https://www.maisonmargiela.com/en-us/distressed-denim-jeans-S67LA0053M30066965.html",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "MM6 Tapered Leg Tailoring Wool Trousers",
+      "lu": "https://www.maisonmargiela.com/en-us/tapered-leg-tailoring-wool-trousers-SH0KA0007S78357900.html",
+      "hp": "Taped Wool Trousers",
+      "hu": "https://www.maisonmargiela.com/en-us/taped-wool-trousers-S67KA0090M35859900.html",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "MM6 Crew neck jumper",
+      "lu": "https://www.maisonmargiela.com/en-us/crew-neck-jumper-SH0HL0047M13280962.html",
+      "hp": "Cashmere sweater (knitted zip-up hooded)",
+      "hu": "https://www.maisonmargiela.com/en-us/cashmere-sweater-S50GU0238M13145144.html",
+      "b": "range"
+    },
+    "Outerwear": {
+      "lp": "MM6 Light Blue Denim Jacket",
+      "lu": "https://www.maisonmargiela.com/en-us/light-blue-denim-jacket-SH0AM0008S30589965.html",
+      "hp": "Folded Collar Leather Biker Jacket",
+      "hu": "https://www.maisonmargiela.com/en-us/folded-collar-leather-biker-jacket-S67AM0114M07027144.html",
+      "b": "range"
+    },
+    "Shoes": {
+      "lp": "MM6 City biker loafers",
+      "lu": "https://www.maisonmargiela.com/en-us/city-biker-loafers-SH1WR0006P7431T8013.html",
+      "hp": "Level Fringed Loafer",
+      "hu": "https://www.maisonmargiela.com/en-us/level-fringed-loafer-S57WR0161P7786T8013.html",
+      "b": "pair"
+    }
+  },
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.maisonmargiela.com/en-us/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "MM6 Maison Margiela"
+  },
+  "price_checked": true
 }

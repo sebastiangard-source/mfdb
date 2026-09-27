@@ -46,7 +46,7 @@
     "u": "https://www.brooksbrothers.com/search?q=The%20original%20polo%20button-down",
     "n": "verified ✓"
   },
-  "prices": [[35, 60], [70, 198], [100, 150], [110, 160], [120, 200], [148, 498], [198, 1298], [199, 248]],
+  "prices": [[70, 80], [99, 198], [128, 248], [168, 398], [198, 348], [148, 498], [198, 1298], [199, 248]],
   "notes": {
     "finbro": "the ancestral uniform — every American finance dress code descends from it",
     "ivy": "invented the button-down collar in 1896 after watching polo players' collars flap — the founding garment of the whole style",
@@ -200,5 +200,72 @@
     "Sweater": "https://www.brooksbrothers.com/mens/sweaters",
     "Outerwear": "https://www.brooksbrothers.com/mens/outerwear",
     "Shoes": "https://www.brooksbrothers.com/mens/shoes"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Supima Cotton Jersey T-Shirt",
+      "lu": "https://www.brooksbrothers.com/supima%C2%AE-cotton-jersey-t-shirt/MP01372.html",
+      "hp": "Supima Cotton Pique T-Shirt",
+      "hu": "https://www.brooksbrothers.com/supima%C2%AE-cotton-pique-t-shirt/FP00120.html",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Golden Fleece Stretch Supima Polo Shirt",
+      "lu": "https://www.brooksbrothers.com/golden-fleece%C2%AE-stretch-supima%C2%AE-polo-shirt/MP01322.html",
+      "hp": "Cable Knit Archive Tennis Polo in Supima Cotton",
+      "hu": "https://www.brooksbrothers.com/cable-knit-archive-tennis-polo-in-supima%C2%AE-cotton/MS01374.html",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Stretch Supima Cotton Non-Iron Royal Oxford English Spread Collar Dress Shirt",
+      "lu": "https://www.brooksbrothers.com/stretch-supima%C2%AE-cotton-non-iron-royal-oxford-english-spread-collar-dress-shirt/ME04703.html",
+      "hp": "Linen Londoner Collar Dress Shirt",
+      "hu": "https://www.brooksbrothers.com/linen-londoner-collar-dress-shirt/ME04737.html",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Slim Fit Denim Jeans (MR00780)",
+      "lu": "https://www.brooksbrothers.com/slim-fit-denim-jeans/MR00780.html",
+      "hp": "Cherry Street Selvedge Denim Jeans",
+      "hu": "https://www.brooksbrothers.com/cherry-street-selvedge-denim-jeans/MR00721.html",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "The Friday Cord Pleated Trouser",
+      "lu": "https://www.brooksbrothers.com/the-friday-cord-pleated-trouser/MJ00435.html",
+      "hp": "The Garment-Dyed Suit Pants",
+      "hu": "https://www.brooksbrothers.com/the-garment-dyed-suit-pants/MK01392.html",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Supima Cotton Pique Crewneck Sweater",
+      "lu": "https://www.brooksbrothers.com/supima%C2%AE-cotton-pique-crewneck-sweater/MS01394.html",
+      "hp": "3-Ply Cashmere Crewneck Saddle Shoulder Sweater",
+      "hu": "https://www.brooksbrothers.com/3-ply-cashmere-crewneck-saddle-shoulder-sweater/MS01261.html",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Cotton Bomber Jacket",
+      "lu": "https://www.brooksbrothers.com/cotton-bomber-jacket/ML00726.html",
+      "hp": "Suede Bomber Jacket",
+      "hu": "https://www.brooksbrothers.com/suede-bomber-jacket/ML00882.html",
+      "b": "pair"
+    },
+    "Shoes": {
+      "lp": "Leather Tassel Loafers",
+      "lu": "https://www.brooksbrothers.com/leather-tassel-loafers/MH00670.html",
+      "hp": "Westport Penny Loafers",
+      "hu": "https://www.brooksbrothers.com/westport-penny-loafers/MH00618.html",
+      "b": "pair"
+    }
+  },
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.brooksbrothers.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

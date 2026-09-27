@@ -42,7 +42,7 @@
     "u": "",
     "n": "the first thing they made, Kickstarter 2019; custom-woven cloth. Link best-guess"
   },
-  "prices": [[55, 78], [148, 148], [160, 248], null, [248, 248], [248, 368], [328, 1498], "?"],
+  "prices": [[55, 98], [148, 148], [160, 248], null, [228, 368], [248, 598], [298, 1798], [388, 1198]],
   "notes": {
     "murica": "Recovering a lost American wardrobe garment by garment, with cloth developed rather than sourced. The reference points are Miles Davis and James Dean, and the intent is restoration rather than pastiche.",
     "whitet": "the heavyweight tee is a signature — seeded 27 Sep 2026, provisional"
@@ -89,7 +89,7 @@
     "nc": ["Shirts", "Outerwear", "Pants"],
     "st": "complete"
   },
-  "price_range_only": ["Polo", "Shoes"],
+  "price_range_only": ["T-shirt", "Dress shirt", "Dress pants", "Sweater", "Outerwear", "Shoes"],
   "garment_links": {
     "T-shirt": "https://www.wythe.com/collections/t-shirts-tank-tops-and-sweatshirts",
     "Polo": "https://www.wythe.com/collections/garment-dyed-polos",
@@ -98,5 +98,63 @@
     "Sweater": "https://www.wythe.com/collections/sweaters",
     "Outerwear": "https://www.wythe.com/collections/coats-jackets"
   },
-  "price_checked": true
+  "price_checked": true,
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Tubular Pocket Tee Shirt - Deep Black",
+      "lu": "https://www.wythe.com/products/tubular-pocket-tee-shirt-deep-black",
+      "hp": "Football T-Shirt - Faded Navy",
+      "hu": "https://www.wythe.com/products/football-t-shirt-faded-navy",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Garment Dyed Longsleeve Polo - Faded Black",
+      "lu": "https://www.wythe.com/products/garment-dyed-longsleeve-polo-faded-black",
+      "hp": "Garment Dyed Longsleeve Polo - Faded Black",
+      "hu": "https://www.wythe.com/products/garment-dyed-longsleeve-polo-faded-black",
+      "b": "single"
+    },
+    "Dress shirt": {
+      "lp": "Oxford Cloth Button Down - Classic White",
+      "lu": "https://www.wythe.com/products/oxford-cloth-button-down-classic-white",
+      "hp": "Cotton Herringbone Officer's Shirt - Sage",
+      "hu": "https://www.wythe.com/products/cotton-herringbone-officers-shirt-sage",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Flat Front Cotton Linen Twill Chino - Camp Khaki",
+      "lu": "https://www.wythe.com/products/flat-front-cotton-linen-twill-chino-camp-khaki",
+      "hp": "Japanese Cotton Herringbone Chino - Faded Navy",
+      "hu": "https://www.wythe.com/products/japanese-cotton-herringbone-chino-faded-navy",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Highland Cableknit Sweater - Navy",
+      "lu": "https://www.wythe.com/products/highland-cableknit-sweater-navy",
+      "hp": "Alpaca Cardigan - Stag",
+      "hu": "https://www.wythe.com/products/alpaca-cardigan-stag",
+      "b": "range"
+    },
+    "Outerwear": {
+      "lp": "Heavyweight Pinpoint Canvas Barn Jacket - Unbleached",
+      "lu": "https://www.wythe.com/products/heavyweight-pinpoint-canvas-barn-jacket-unbleached",
+      "hp": "Polo Coat - Diamond Ombre Tweed",
+      "hu": "https://www.wythe.com/products/polo-coat-diamond-ombre-tweed",
+      "b": "range"
+    },
+    "Shoes": {
+      "lp": "Kingdom Moc",
+      "lu": "https://www.wythe.com/products/kingdom-moc",
+      "hp": "Brown/Sagebrush Calfskin Pee Wee Boots",
+      "hu": "https://www.wythe.com/products/brown-sagebrush-calfskin-pee-wee-boots",
+      "b": "range"
+    }
+  },
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.wythe.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  }
 }

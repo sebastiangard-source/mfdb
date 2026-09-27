@@ -37,7 +37,7 @@
     "u": "",
     "n": "the category the house grew out of jewellery to make, and still the clearest statement of the register. NO LINK — no US-facing product page verified in this pass"
   },
-  "prices": [[55, 145], [165, 225], [160, 255], [225, 270], [180, 280], [170, 380], [180, 975], [240, 525]],
+  "prices": [[55, 135], [145, 210], [130, 255], [225, 300], [150, 280], [170, 380], [180, 975], [330, 450]],
   "price_checked": true,
   "notes": {
     "scandi": "the register is the entire proposition, and the house says so in its own words rather than leaving it to be read",
@@ -102,5 +102,71 @@
     "Sweater": "https://www.samsoe.com/en-US/category/men/clothing/knitwear",
     "Outerwear": "https://www.samsoe.com/en-US/category/men/clothing/jackets-coats",
     "Shoes": "https://www.samsoe.com/en-US/category/men/accessories/shoes"
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Sakronos t-shirt 16373 White",
+      "lu": "https://www.samsoe.com/en-US/product/sakronos-t-shirt-16373-white",
+      "hp": "Sathomas t-shirt 15489 Black",
+      "hu": "https://www.samsoe.com/en-US/product/sathomas-t-shirt-15489-black",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Sakvistbro polo 11600 Salute (short-sleeved)",
+      "lu": "https://www.samsoe.com/en-US/product/sakvistbro-polo-11600-salute",
+      "hp": "Sapedro polo 15628 Desert Sage St. (short-sleeved knit)",
+      "hu": "https://www.samsoe.com/en-US/product/sapedro-polo-15628-desert-sage-st",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Liam BX 8111 Light Blue",
+      "lu": "https://www.samsoe.com/en-US/product/liam-bx-8111-light-blue",
+      "hp": "Saluan AJ shirt 16197 Cream Floor",
+      "hu": "https://www.samsoe.com/en-US/product/saluan-aj-shirt-16197-cream-floor",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Eddie jeans 14605 Black rinse",
+      "lu": "https://www.samsoe.com/en-US/product/eddie-jeans-14605-black-rinse",
+      "hp": "Satimo jeans 16140 Mud wash",
+      "hu": "https://www.samsoe.com/en-US/product/satimo-jeans-16140-mud-wash",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Frankie pants 11686 Dark Grey Mel.",
+      "lu": "https://www.samsoe.com/en-US/product/frankie-pants-11686-dark-grey-mel",
+      "hp": "Sabertil trousers 15860 Dark Grey Mel.",
+      "hu": "https://www.samsoe.com/en-US/product/sabertil-trousers-15860-dark-grey-mel",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Sapatrik sweater 132 FOREST NIGHT",
+      "lu": "https://www.samsoe.com/en-US/product/sapatrik-sweater-132-forest-night",
+      "hp": "Nobis crew neck 6304 Salute (100% cashmere)",
+      "hu": "https://www.samsoe.com/en-US/product/nobis-crew-neck-6304-salute",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Sasteely jacket 15213 Black (rain jacket)",
+      "lu": "https://www.samsoe.com/en-US/product/sasteely-jacket-15213-black",
+      "hp": "Savince coat 16188 Dark Grey Mel.",
+      "hu": "https://www.samsoe.com/en-US/product/savince-coat-16188-dark-grey-mel",
+      "b": "range"
+    },
+    "Shoes": {
+      "lp": "Firo loafers 14859 Black",
+      "lu": "https://www.samsoe.com/en-US/product/firo-loafers-14859-black",
+      "hp": "Saalfreds loafer 15976 Black",
+      "hu": "https://www.samsoe.com/en-US/product/saalfreds-loafer-15976-black",
+      "b": "pair"
+    }
+  },
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants", "Outerwear"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.samsoe.com/en-US/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
   }
 }

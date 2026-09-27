@@ -43,12 +43,12 @@
   "prices": [
     [350, 925],
     [325, 1675],
-    [395, 1700],
+    [375, 1900],
     [750, 1025],
     [590, 2100],
-    [600, 2300],
-    [1075, 8900],
-    [650, 1350]
+    [600, 1850],
+    [1075, 5850],
+    [850, 990]
   ],
   "price_checked": true,
   "notes": {
@@ -116,5 +116,71 @@
     "Sweater": "https://www.etro.com/us-en/men/clothing/knitwear/",
     "Outerwear": "https://www.etro.com/us-en/men/clothing/coats-and-outerwear/",
     "Shoes": "https://www.etro.com/us-en/men/shoes/"
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Cotton Jersey T-Shirt with Raised Pegaso Logo",
+      "lu": "https://www.etro.com/us-en/cotton-jersey-t-shirt-with-raised-pegaso-logo-MRMA0002AR11DR0046.html",
+      "hp": "Knit Wool and Silk T-Shirt with Floral Paisley Motif",
+      "hu": "https://www.etro.com/us-en/knit-wool-and-silk-t-shirt-with-floral-paisley-motif-MRKE0006AK17IM2037.html",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Polo Shirt with Embroidered Pegaso",
+      "lu": "https://www.etro.com/us-en/polo-shirt-with-embroidered-pegaso-MRMD0005AC174W0800.html",
+      "hp": "Silk- and Cashmere-Blend Polo Shirt with Floral Paisley Motif",
+      "hu": "https://www.etro.com/us-en/silk--and-cashmere-blend-polo-shirt-with-floral-paisley-motif-MRKF0004AKG61S9852.html",
+      "b": "pair"
+    },
+    "Dress shirt": {
+      "lp": "Striped Cotton Seersucker Shirt",
+      "lu": "https://www.etro.com/us-en/striped-cotton-seersucker-shirt-MRIB000299TR5A9S8460.html",
+      "hp": "Silk Shirt with Placed Leafy Paisley Print",
+      "hu": "https://www.etro.com/us-en/silk-shirt-with-placed-leafy-paisley-print-MRIC007199SP4I1X0881.html",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Slim-Fit Cotton Denim Jeans",
+      "lu": "https://www.etro.com/us-en/slim-fit-cotton-denim-jeans-MRNB0004AD326S9093.html",
+      "hp": "Straight-Leg Cotton Denim Jeans with Contrasting Details",
+      "hu": "https://www.etro.com/us-en/straight-leg-cotton-denim-jeans-with-contrasting-details-MRNB0021AC358S9091.html",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Striped Wool Jacquard Trousers with Floral Paisley Motif",
+      "lu": "https://www.etro.com/us-en/striped-wool-jacquard-trousers-with-floral-paisley-motif-MREA000199TJ5E3S8460.html",
+      "hp": "Straight-Leg Wool and Cashmere Trousers with Feathers and Micro Houndstooth Pattern",
+      "hu": "https://www.etro.com/us-en/straight-leg-wool-and-cashmere-trousers-with-feathers-and-micro-houndstooth-pattern-MRED0014AV12NS9865.html",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Wool and Silk Sweater with Pegaso Embroidery",
+      "lu": "https://www.etro.com/us-en/wool-and-silk-sweater-with-pegaso-embroidery-MRKF0080AU12QV0707.html",
+      "hp": "Cashmere Jumper",
+      "hu": "https://www.etro.com/us-en/cashmere-jumper-MRKF0096AK997X0830.html",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Jacquard Bomber Jacket with Arnica Motif",
+      "lu": "https://www.etro.com/us-en/jacquard-bomber-jacket-with-arnica-motif-MRBA001699JJD14S8460.html",
+      "hp": "Suede Bomber Jacket with Arnica Motif",
+      "hu": "https://www.etro.com/us-en/suede-bomber-jacket-with-arnica-motif-MROA0023AP479X0830.html",
+      "b": "pair"
+    },
+    "Shoes": {
+      "lp": "Leather Loafers",
+      "lu": "https://www.etro.com/us-en/leather-loafers-MS4K0004AP331N0000.html",
+      "hp": "Leather Loafers with Paisley Detail",
+      "hu": "https://www.etro.com/us-en/leather-loafers-with-paisley-detail-MS4K0006AP113N0000.html",
+      "b": "pair"
+    }
+  },
+  "price_range_only": ["T-shirt", "Dress shirt", "Jeans", "Dress pants"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.etro.com/us-en/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
   }
 }

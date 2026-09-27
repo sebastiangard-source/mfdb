@@ -34,13 +34,13 @@
   "chan": ["O", "D"],
   "conf": "S",
   "forgc": [2, 3, 1],
-  "shop": "https://www.canadagoose.com/us/en/search?q=",
+  "shop": "https://www.canadagoose.com/en-us/search?q=",
   "onething": {
     "p": "Expedition parka",
     "u": "https://www.canadagoose.com/us/en/search?q=Expedition%20parka%20men",
     "n": "verified ✓"
   },
-  "prices": [[80, 125], [125, 175], null, null, [200, 300], [375, 575], [550, 2075], "?"],
+  "prices": [[225, 250], [250, 275], [375, 395], null, null, [375, 575], [550, 2075], [395, 850]],
   "notes": {
     "synth": "Arctic-spec technical shells, made in Canada",
     "status": "the arm patch as school-run signal",
@@ -119,11 +119,63 @@
     "nc": ["Tops", "Knitwear", "Bottoms"],
     "st": "complete"
   },
-  "price_range_only": ["Outerwear", "Shoes"],
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Outerwear", "Shoes"],
   "garment_links": {
     "T-shirt": "https://www.canadagoose.com/en-us/collections/mens-t-shirts",
     "Polo": "https://www.canadagoose.com/en-us/search?q=polo&filter.p.m.details.gender=gid%3A%2F%2Fshopify%2FFilterSettingGroup%2F163512544",
     "Sweater": "https://www.canadagoose.com/en-us/collections/mens-knitwear",
     "Outerwear": "https://www.canadagoose.com/en-us/collections/mens-parkas"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Novo T-Shirt",
+      "lu": "https://www.canadagoose.com/en-us/products/novo-t-shirt-1328m",
+      "hp": "Novo Poem T-Shirt",
+      "hu": "https://www.canadagoose.com/en-us/products/novo-poem-t-shirt-1328mt4",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Beckley Polo",
+      "lu": "https://www.canadagoose.com/en-us/products/beckley-polo-1600m",
+      "hp": "Beckley Striped Polo Tonal Disc",
+      "hu": "https://www.canadagoose.com/en-us/products/beckley-striped-polo-tonal-disc-1781mt2",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Blythe Long Sleeve Shirt",
+      "lu": "https://www.canadagoose.com/en-us/products/blythe-long-sleeve-shirt-7263m",
+      "hp": "Albion Long Sleeve Shirt",
+      "hu": "https://www.canadagoose.com/en-us/products/albion-long-sleeve-shirt-7391m",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Rosseau Sweater",
+      "lu": "https://www.canadagoose.com/en-us/products/rosseau-sweater-7091m",
+      "hp": "Habel Knit Crew",
+      "hu": "https://www.canadagoose.com/en-us/products/habel-knit-crew-7610mt",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Faber Lightweight Bomber",
+      "lu": "https://www.canadagoose.com/en-us/products/faber-lightweight-bomber-2441m",
+      "hp": "Snow Mantra Parka",
+      "hu": "https://www.canadagoose.com/en-us/products/snow-mantra-parka-2102m",
+      "b": "range"
+    },
+    "Shoes": {
+      "lp": "Men's Ossington Sneaker",
+      "lu": "https://www.canadagoose.com/en-us/products/men-s-ossington-sneaker-7711m",
+      "hp": "Leo Boot",
+      "hu": "https://www.canadagoose.com/en-us/products/leo-boot-7679m",
+      "b": "range"
+    }
+  },
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.canadagoose.com/en-us/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "Black Disc / Tonal Disc / Black Label colourways (same styles, same prices)"
+  },
+  "price_checked": true
 }

@@ -39,7 +39,7 @@
     "u": "https://us.saint-james.com/collections/mens-breton-shirts",
     "n": "verified — the house's own history page dates the garment to the town and the sea, and it remains what it is bought for"
   },
-  "prices": [[85, 199], null, [195, 195], null, null, [200, 515], [155, 955], "?"],
+  "prices": [[125, 139], null, [195, 195], null, null, [265, 515], [155, 955], null],
   "notes": {
     "wool": "28 of 67 clothing styles are wool-dominant — the house began as a spinner",
     "fren": "Saint-James in Normandy is the town, the company and the garment",
@@ -93,5 +93,44 @@
     "Dress shirt": "https://us.saint-james.com/collections/shirts-men",
     "Sweater": "https://us.saint-james.com/collections/sweaters-cardigans-men",
     "Outerwear": "https://us.saint-james.com/collections/men-peacoats-rainwear-and-coats"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "LEVANT MODERN Breton Shirt (NAVY / WHITE)",
+      "lu": "https://us.saint-james.com/products/levant-breton-shirt-navy-white",
+      "hp": "PLOUIDER II Breton T-Shirt (NAVY / ECRU)",
+      "hu": "https://us.saint-james.com/products/plouider-ii-breton-t-shirt-for-men-crew-neck-100-cotton-navy-ecru",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "CASSIAN Button-Down Shirt (HIGHLANDS)",
+      "lu": "https://us.saint-james.com/products/cassian-button-down-shirt-highlands",
+      "hp": "CASSIAN Button-Down Shirt (HIGHLANDS)",
+      "hu": "https://us.saint-james.com/products/cassian-button-down-shirt-highlands",
+      "b": "single"
+    },
+    "Sweater": {
+      "lp": "GREENFIELD Sweater (MOSS GREEN MELANGE)",
+      "lu": "https://us.saint-james.com/products/greenfield-sweater-moss-green-melange",
+      "hp": "OSSAU Sweater (IVORY MELANGE)",
+      "hu": "https://us.saint-james.com/products/ossau-sweater-ivory-melange",
+      "b": "range"
+    },
+    "Outerwear": {
+      "lp": "NEMO French Sailor Jacket (NAVY)",
+      "lu": "https://us.saint-james.com/products/nemo-french-sailor-jacket-navy",
+      "hp": "GALION II Classic Peacoat (NAVY)",
+      "hu": "https://us.saint-james.com/products/galion-ii-authentic-peacoat-for-men-100-wool-navy",
+      "b": "range"
+    }
+  },
+  "price_range_only": ["T-shirt", "Sweater", "Outerwear"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://us.saint-james.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

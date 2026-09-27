@@ -42,13 +42,13 @@
     "n": "men-filtered"
   },
   "prices": [
-    [320, 620],
-    null,
-    [510, 900],
-    [540, 1200],
-    [540, 1150],
+    [300, 450, "USD_landed"],
+    [470, 510, "USD_landed"],
+    [510, 750, "USD_landed"],
+    [510, 1250, "USD_landed"],
+    [620, 700, "USD_landed"],
     [580, 1300, "USD_landed"],
-    [800, 5100, "USD_landed"],
+    [800, 3200, "USD_landed"],
     [750, 850, "USD_landed"]
   ],
   "shoelink": {
@@ -115,7 +115,7 @@
     "nc": ["Jeans", "T-Shirts", "Outerwear"],
     "st": "complete"
   },
-  "price_range_only": ["Outerwear"],
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants"],
   "garment_links": {
     "T-shirt": "https://www.acnestudios.com/us/en/man/t-shirts/",
     "Dress shirt": "https://www.acnestudios.com/us/en/man/shirts/",
@@ -124,5 +124,71 @@
     "Sweater": "https://www.acnestudios.com/us/en/man/knitwear/",
     "Outerwear": "https://www.acnestudios.com/us/en/man/outerwear/",
     "Shoes": "https://www.acnestudios.com/us/en/man/shoes/"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "T-shirt - regular fit",
+      "lu": "https://www.acnestudios.com/us/en/t-shirt---regular-fit-tango-pink/CL0309-CKQ.html",
+      "hp": "Graphic bat t-shirt",
+      "hu": "https://www.acnestudios.com/us/en/sp-ux-tshi000084/CL0506-BM0.html",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Polo t-shirt with logo",
+      "lu": "https://www.acnestudios.com/us/en/polo-t-shirt-with-logo-navy/CL0471-BG3.html",
+      "hp": "Washed logo polo",
+      "hu": "https://www.acnestudios.com/us/en/washed-logo-polo-black/BL0433-900.html",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Fitted button-up shirt",
+      "lu": "https://www.acnestudios.com/us/en/fitted-button-up-shirt-white/BB0677-100.html",
+      "hp": "Flannel button-up shirt",
+      "hu": "https://www.acnestudios.com/us/en/flannel-button-up-shirt-black-white/BB0667-J83.html",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Regular fit jeans - 2021M",
+      "lu": "https://www.acnestudios.com/us/en/acne-studios-2021m-black-black/B00447-900.html",
+      "hp": "Mended jeans - 2010M",
+      "hu": "https://www.acnestudios.com/us/en/mended-jeans---2010m-light-blue/B00465-228.html",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Tailored cotton trousers",
+      "lu": "https://www.acnestudios.com/us/en/rw-mn-trou000022/BK0764-CUE.html",
+      "hp": "Cropped tailored trousers",
+      "hu": "https://www.acnestudios.com/us/en/rw-mn-trou000031/BK0775-900.html",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Merino wool sweater",
+      "lu": "https://www.acnestudios.com/us/en/merino-wool-sweater-black/B60364-900.html",
+      "hp": "Chunky cashmere sweater",
+      "hu": "https://www.acnestudios.com/us/en/rw-mn-knit000025/B60422-900.html",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Lightweight nylon jacket",
+      "lu": "https://www.acnestudios.com/us/en/rw-mn-outw000051/B90902-900.html",
+      "hp": "Leather biker jacket",
+      "hu": "https://www.acnestudios.com/us/en/leather-biker-jacket-black/B70166-900.html",
+      "b": "pair"
+    },
+    "Shoes": {
+      "lp": "Leather loafers",
+      "lu": "https://www.acnestudios.com/us/en/leather-loafers-black/BD0325-900.html",
+      "hp": "Leather loafers",
+      "hu": "https://www.acnestudios.com/us/en/ac-ux-shoe000010/CD0025-ADM.html",
+      "b": "pair"
+    }
+  },
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.acnestudios.com/us/en/man/",
+    "currency": "USD_landed",
+    "status": "read",
+    "sublines": "Acne Studios Face (Face logo tees etc.) and Bla Konst denim counted as the brand's own lines; Acne Studios x Robyn collab excluded"
+  },
+  "price_checked": true
 }

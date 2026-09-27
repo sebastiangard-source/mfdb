@@ -32,13 +32,13 @@
   "chan": ["W", "I", "D"],
   "conf": "S",
   "forgc": [5, 2, 1],
-  "shop": "https://alexcrane.co/search?q=",
+  "shop": "https://www.alexcrane.co/search?q=",
   "onething": {
     "p": "Bo linen pant",
     "u": "https://alexcrane.co/search?q=Bo%20linen%20pant",
     "n": "verified ✓"
   },
-  "prices": [[62, 98], [96, 188], [96, 158], null, [228, 228], [118, 278], [131, 328], null],
+  "prices": [[68, 78], [148, 148], [148, 168], null, [228, 228], [118, 278], [208, 298], null],
   "price_checked": true,
   "notes": {
     "linen": "linen-founded — Normandy flax, synthetics refused",
@@ -91,5 +91,57 @@
     "Dress pants": "https://www.alexcrane.co/collections/pants/men",
     "Sweater": "https://www.alexcrane.co/collections/sweaters",
     "Outerwear": "https://www.alexcrane.co/collections/jackets"
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Crepe Tee / Slate",
+      "lu": "https://www.alexcrane.co/products/crepe-tee-slate",
+      "hp": "Sun Tee / Night",
+      "hu": "https://www.alexcrane.co/products/sun-tee-night",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Knit Polo / Bone",
+      "lu": "https://www.alexcrane.co/products/knit-polo-bone",
+      "hp": "Knit Polo / Bone",
+      "hu": "https://www.alexcrane.co/products/knit-polo-bone",
+      "b": "single"
+    },
+    "Dress shirt": {
+      "lp": "Cloud Flannel / Night Lines",
+      "lu": "https://www.alexcrane.co/products/cloud-flannel-night-lines",
+      "hp": "Playa Shirt / Night",
+      "hu": "https://www.alexcrane.co/products/playa-shirt-night-1",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Alta Trousers / Night",
+      "lu": "https://www.alexcrane.co/products/alta-trousers-night",
+      "hp": "Alta Trousers / Night",
+      "hu": "https://www.alexcrane.co/products/alta-trousers-night",
+      "b": "single"
+    },
+    "Sweater": {
+      "lp": "Caza Crewneck / Night",
+      "lu": "https://www.alexcrane.co/products/caza-crewneck-night",
+      "hp": "Vale Sweater / Bone",
+      "hu": "https://www.alexcrane.co/products/vale-sweater-bone",
+      "b": "range"
+    },
+    "Outerwear": {
+      "lp": "Kite Jacket / Night",
+      "lu": "https://www.alexcrane.co/products/kite-jacket-night",
+      "hp": "Pac Flannel Zip Jacket / Olive",
+      "hu": "https://www.alexcrane.co/products/pac-flannel-zip-jacket-olive",
+      "b": "range"
+    }
+  },
+  "price_range_only": ["T-shirt", "Dress shirt", "Sweater", "Outerwear"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.alexcrane.co/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
   }
 }

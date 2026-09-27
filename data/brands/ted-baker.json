@@ -38,7 +38,7 @@
     "u": "https://www.tedbaker.com/products/wright-bengaline-navy",
     "n": "works"
   },
-  "prices": [[50, 75], [80, 120], [110, 160], [130, 180], [130, 200], [175, 295], [325, 875], [190, 190]],
+  "prices": [[55, 195], [125, 255], [155, 195], null, [195, 325], [175, 295], [235, 875], [190, 190]],
   "doors": {
     "c": "full",
     "n": 0,
@@ -90,5 +90,66 @@
   },
   "notes": {
     "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "LUCKA short sleeve t-shirt",
+      "lu": "https://www.tedbaker.com/products/lucka-black",
+      "hp": "BRITTON jacquard knit crewneck tee",
+      "hu": "https://www.tedbaker.com/products/britton-navy",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "CONNALL short sleeve polo shirt",
+      "lu": "https://www.tedbaker.com/products/connall-navy",
+      "hp": "BREAME waffle knit short sleeve polo",
+      "hu": "https://www.tedbaker.com/products/breame-blue",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "NANTUCKET dress shirt",
+      "lu": "https://www.tedbaker.com/products/nantucket-light-grey",
+      "hp": "FIRDAWI slim long sleeve shirt",
+      "hu": "https://www.tedbaker.com/products/firdawi-mid-pink",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "REZNORT tailored trousers",
+      "lu": "https://www.tedbaker.com/products/reznort-navy",
+      "hp": "WINTER-CHECK Glen Check Cotton Blend Suit Pants",
+      "hu": "https://www.tedbaker.com/products/winter-check-teal-blue",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "SAINSY crew neck jumper",
+      "lu": "https://www.tedbaker.com/products/sainsy-natural-us",
+      "hp": "AMARAT fair isle knit",
+      "hu": "https://www.tedbaker.com/products/amarat-multicol",
+      "b": "range"
+    },
+    "Outerwear": {
+      "lp": "WALDEN coach jacket",
+      "lu": "https://www.tedbaker.com/products/walden-navy",
+      "hp": "WYNELL Suede Zip-through Utility Jacket",
+      "hu": "https://www.tedbaker.com/products/wynell-mid-green",
+      "b": "range"
+    },
+    "Shoes": {
+      "lp": "PARLIAMENT penny loafers",
+      "lu": "https://www.tedbaker.com/products/parliament-dk-brown",
+      "hp": "PARLIAMENT penny loafers",
+      "hu": "https://www.tedbaker.com/products/parliament-dk-brown",
+      "b": "single"
+    }
+  },
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Dress pants", "Sweater", "Outerwear"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.tedbaker.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true,
+  "shop": "https://www.tedbaker.com/search?q="
 }

@@ -42,7 +42,7 @@
     "u": "https://bonobos.com/search?q=chinos",
     "n": "site search needs the plain word"
   },
-  "prices": [[35, 50], [60, 90], [90, 130], [100, 150], [100, 180], [99, 99], [199, 699], null],
+  "prices": [[35, 89], [75, 129], [99, 189], [129, 229], [119, 400], [99, 189], [199, 699], null],
   "doors": {
     "c": "full",
     "n": 47,
@@ -148,5 +148,65 @@
   },
   "notes": {
     "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Soft Everyday Tee",
+      "lu": "https://bonobos.com/products/soft-everyday-tee-coffee-brown-0",
+      "hp": "Sweater Pocket Tee",
+      "hu": "https://bonobos.com/products/sweater-pocket-tee",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Pima Performance Polo",
+      "lu": "https://bonobos.com/products/jetsetter-performance-polo-white",
+      "hp": "Hudson Linen Cotton Cabana Sweater Polo",
+      "hu": "https://bonobos.com/products/hudson-linen-cotton-cabana-sweater-polo",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Tech Button Down Shirt",
+      "lu": "https://bonobos.com/products/tech-button-down-shirt-white",
+      "hp": "Empire Stretch Tuxedo Shirt (White with Studs, Spread)",
+      "hu": "https://bonobos.com/products/stretch-tuxedo-shirt-white-with-studs-spread",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Travel Jeans",
+      "lu": "https://bonobos.com/products/extra-stretch-travel-jeans-greensville-gray",
+      "hp": "Japanese Stretch Selvedge Jeans",
+      "hu": "https://bonobos.com/products/japanese-stretch-selvedge-jeans-rinse-wash-0",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Weekday Warrior Dress Pants",
+      "lu": "https://bonobos.com/products/stretch-weekday-warrior-dress-pants-monday-blue",
+      "hp": "Empire Super 150s Dress Pant",
+      "hu": "https://bonobos.com/products/empire-super-150s-dress-pant-navy-blue-0",
+      "b": "pair"
+    },
+    "Sweater": {
+      "lp": "Washable Merino Crew Neck Sweater",
+      "lu": "https://bonobos.com/products/washable-merino-crew-neck-sweater",
+      "hp": "Wool Blend Sweater Bomber",
+      "hu": "https://bonobos.com/products/wool-blend-sweater-bomber",
+      "b": "range"
+    },
+    "Outerwear": {
+      "lp": "Boulevard Bomber 2.0",
+      "lu": "https://bonobos.com/products/boulevard-bomber-2-0",
+      "hp": "The Bowery Leather Bomber",
+      "hu": "https://bonobos.com/products/the-bowery-leather-bomber",
+      "b": "pair"
+    }
+  },
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Sweater"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://bonobos.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

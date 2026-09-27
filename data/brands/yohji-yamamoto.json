@@ -42,14 +42,14 @@
     "n": "Works"
   },
   "prices": [
-    [380, 500],
-    null,
-    [500, 850],
-    [600, 1000],
-    [286, 364],
-    [520, 1080],
-    [1790, 5190, "USD_landed"],
-    "?"
+    [78, 600, "USD_landed"],
+    [370, 570, "USD_landed"],
+    [180, 2930, "USD_landed"],
+    [350, 1020, "USD_landed"],
+    [280, 1270, "USD_landed"],
+    [320, 890, "USD_landed"],
+    [270, 5470, "USD_landed"],
+    [790, 790, "USD_landed"]
   ],
   "notes": {
     "wool": "black wool gabardine drape as philosophy",
@@ -96,7 +96,7 @@
     "st": "complete"
   },
   "shop": "https://theshopyohjiyamamoto.com/search?q=",
-  "price_range_only": ["Sweater"],
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants", "Sweater", "Outerwear"],
   "garment_links": {
     "T-shirt": "https://theshopyohjiyamamoto.com/collections/cut-and-sewn/men",
     "Dress shirt": "https://theshopyohjiyamamoto.com/collections/shirt/men",
@@ -104,5 +104,71 @@
     "Dress pants": "https://theshopyohjiyamamoto.com/collections/pants/men",
     "Sweater": "https://theshopyohjiyamamoto.com/collections/knitwear/men",
     "Outerwear": "https://theshopyohjiyamamoto.com/collections/outerwear/men"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "S'YTE Graphic T-Shirt -KNIGHT-",
+      "lu": "https://theshopyohjiyamamoto.com/products/ut-t46-006-1",
+      "hp": "POUR HOMME Cotton Cashmere Single Jersey Big SS Tee",
+      "hu": "https://theshopyohjiyamamoto.com/products/hw-t18-071-1",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "S'YTE Chusen-Dyed Compact Twist Polo Shirt",
+      "lu": "https://theshopyohjiyamamoto.com/products/uq-k03-050-2",
+      "hp": "POUR HOMME Cotton Jersey Knit Polo Shirt",
+      "hu": "https://theshopyohjiyamamoto.com/products/hw-k25-987-2",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "S'YTE Cotton Broad Loose-Fit Open Collar Shirt",
+      "lu": "https://theshopyohjiyamamoto.com/products/ut-b02-080-2",
+      "hp": "POUR HOMME Cotton ST Pigment Washed ST Blouse with Lining",
+      "hu": "https://theshopyohjiyamamoto.com/products/hl-b61-034-1",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "S'YTE 7oz Two-Tone Denim 5Pocket Wide Pants",
+      "lu": "https://theshopyohjiyamamoto.com/products/ut-p20-002-2",
+      "hp": "POUR HOMME Selvedge Denim 5 Pockets Pants",
+      "hu": "https://theshopyohjiyamamoto.com/products/hk-p90-009-1",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "S'YTE PE/Gabardine Zipper-Taped Slim Pants",
+      "lu": "https://theshopyohjiyamamoto.com/products/ub-p01-901-1",
+      "hp": "POUR HOMME Wool Gabardine Hem Belt Pants",
+      "hu": "https://theshopyohjiyamamoto.com/products/ho-p55-100-2",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Ground Y Wool Crew Neck Rib Knit",
+      "lu": "https://theshopyohjiyamamoto.com/products/gc-k02-150-1",
+      "hp": "POUR HOMME 5G 1Ply Relief Knit Round Neck PO (100% wool)",
+      "hu": "https://theshopyohjiyamamoto.com/products/hw-k21-199-1",
+      "b": "range"
+    },
+    "Outerwear": {
+      "lp": "S'YTE Wepon Cloth China Jacket",
+      "lu": "https://theshopyohjiyamamoto.com/products/ut-j03-010-1",
+      "hp": "POUR HOMME Buffalo Leather Fastener Blouson",
+      "hu": "https://theshopyohjiyamamoto.com/products/he-y08-841-1",
+      "b": "range"
+    },
+    "Shoes": {
+      "lp": "Ground Y Black Leather Loafers",
+      "lu": "https://theshopyohjiyamamoto.com/products/gg-e04-701-1",
+      "hp": "Ground Y Black Leather Loafers",
+      "hu": "https://theshopyohjiyamamoto.com/products/gg-e04-701-1",
+      "b": "single"
+    }
+  },
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://theshopyohjiyamamoto.com/",
+    "currency": "USD_landed",
+    "status": "read",
+    "sublines": "Yohji Yamamoto POUR HOMME, Ground Y, S'YTE, Y's for men, Y's (men/unisex-tagged items), GOTHIC YOHJI YAMAMOTO, power of the WHITE shirt, REGULATION Yohji Yamamoto"
+  },
+  "price_checked": true
 }

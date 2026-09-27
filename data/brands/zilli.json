@@ -44,12 +44,12 @@
     "n": "Use this: https://en.zilli.com/outerwear-and-blousons"
   },
   "prices": [
-    [451, 972],
-    null,
-    [729, 2065],
-    [972, 1354],
-    [763, 1267],
-    [750, 1860, "EUR"],
+    [390, 825, "EUR"],
+    [810, 1050, "EUR"],
+    [630, 1710, "EUR"],
+    [840, 1635, "EUR"],
+    [795, 2145, "EUR"],
+    [600, 1860, "EUR"],
     [1470, 8500, "EUR"],
     [870, 1380, "EUR"]
   ],
@@ -108,5 +108,72 @@
     "Sweater": "https://en.zilli.com/knitwear",
     "Outerwear": "https://en.zilli.com/outerwear-and-blousons",
     "Shoes": "https://en.zilli.com/shoes"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Midnight blue T-shirt, \"Micro Griffon\" embroidery (mercerized cotton)",
+      "lu": "https://en.zilli.com/midnight-blue-t-shirt-micro-griffon-embroidery/",
+      "hp": "Blue \"Zig Zag Mini Griffon\" T-shirt (100% silk)",
+      "hu": "https://en.zilli.com/blue-zig-zag-mini-griffon-t-shirt/",
+      "b": "pair"
+    },
+    "Polo": {
+      "lp": "Navy blue zipped polo \"ZILLI Golf\" (100% cotton, short sleeves)",
+      "lu": "https://en.zilli.com/navy-blue-zipped-polo-ZILLI-Golf/",
+      "hp": "Navy blue zipped polo, \"3D Chevron\" (100% silk, short sleeves)",
+      "hu": "https://en.zilli.com/navy-blue-zipped-polo-3d-chevron/",
+      "b": "pair"
+    },
+    "Dress shirt": {
+      "lp": "White formal shirt, triple stitching (cotton)",
+      "lu": "https://en.zilli.com/white-formal-shirt-triple-stitching/",
+      "hp": "Sage green shirt, ZILLI all-over pattern (100% silk)",
+      "hu": "https://en.zilli.com/sage-green-shirt-zilli-all-over-pattern/",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Blue raw denim, large fit",
+      "lu": "https://en.zilli.com/blue-raw-denim-large-fit/",
+      "hp": "Dark navy \"HERITAGE\" jeans",
+      "hu": "https://en.zilli.com/dark-navy-heritage-jeans/",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Navy blue clip-on pants (83% cotton 17% silk)",
+      "lu": "https://en.zilli.com/navy-blue-clip-on-pants/",
+      "hp": "Black trousers for tuxedo, herringbone pattern (70% wool 30% mohair)",
+      "hu": "https://en.zilli.com/black-trousers-for-tuxedo-herringbone-pattern/",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Navy blue round neck sweater, \"Big Lion\" embroidery (100% cotton, short sleeves)",
+      "lu": "https://en.zilli.com/navy-blue-round-neck-sweater-big-lion-embroidery/",
+      "hp": "Pale fawn round neck \"Tart stitch\" sweater (100% cashmere)",
+      "hu": "https://en.zilli.com/pale-fawn-round-neck-tart-stitch-sweater/",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Pale caramel \"ZILLI Letters\" bomber jacket (100% linen)",
+      "lu": "https://en.zilli.com/pale-caramel-zilli-letters-bomber-jacket/",
+      "hp": "Deep military and blue reversible ROBS bomber jacket (50% silk 50% lambskin)",
+      "hu": "https://en.zilli.com/deep-military-and-blue-reversible-robs-bomber-jacket/",
+      "b": "pair"
+    },
+    "Shoes": {
+      "lp": "Dark navy hand stitched moccasins, beige sole",
+      "lu": "https://en.zilli.com/dark-navy-hand-stitched-mocassins-beige-sole/",
+      "hp": "\"Laser Z\" light brown moccasins, white outsole (100% suede kidskin)",
+      "hu": "https://en.zilli.com/laser-z-light-brown-moccassin/",
+      "b": "pair"
+    }
+  },
+  "price_range_only": ["Dress shirt", "Jeans", "Dress pants"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://en.zilli.com/ (location switcher: delivery country USA, English; prices shown in EUR)",
+    "currency": "EUR",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

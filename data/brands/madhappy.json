@@ -41,7 +41,7 @@
     "u": "https://www.madhappy.com/search?q=Local%20Optimist%20hoodie%20men",
     "n": "verified ✓"
   },
-  "prices": [[55, 85], [90, 130], null, [150, 220], [130, 180], "?", "?", "?"],
+  "prices": [[70, 80], null, null, null, null, [225, 225], [295, 295], null],
   "notes": {
     "street": "drop-calendar optimism — hoodies as scarce goods",
     "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional"
@@ -97,5 +97,37 @@
     "T-shirt": "https://www.madhappy.com/collections/mens-t-shirts",
     "Outerwear": "https://www.madhappy.com/collections/mens-outerwear",
     "Shoes": "https://www.madhappy.com/collections/mens-footwear"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Classics Heavyweight Tee",
+      "lu": "https://www.madhappy.com/products/classics-heavyweight-tee-tar",
+      "hp": "Madhappy California Lightweight Pocket Tee",
+      "hu": "https://www.madhappy.com/products/madhappy-california-pocket-tee-deer",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Polo Sweater",
+      "lu": "https://www.madhappy.com/products/polo-sweater-opal",
+      "hp": "Polo Sweater",
+      "hu": "https://www.madhappy.com/products/polo-sweater-opal",
+      "b": "single"
+    },
+    "Outerwear": {
+      "lp": "Washed Hooded Jacket",
+      "lu": "https://www.madhappy.com/products/washed-hooded-jacket-dusty",
+      "hp": "Washed Hooded Jacket",
+      "hu": "https://www.madhappy.com/products/washed-hooded-jacket-dusty",
+      "b": "single"
+    }
+  },
+  "price_range_only": ["T-shirt"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.madhappy.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

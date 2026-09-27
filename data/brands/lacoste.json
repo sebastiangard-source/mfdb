@@ -45,7 +45,7 @@
     "u": "https://www.lacoste.com/us/search?q=L.12.12",
     "n": "best-guess link — verify"
   },
-  "prices": [[50, 70], [98, 125], [89, 210], null, [110, 155], [98, 240], [165, 450], [125, 125]],
+  "prices": [[55, 100], [90, 175], [105, 185], [150, 160], [160, 180], [98, 350], [165, 450], [125, 125]],
   "shoelink": {
     "t": "shoes",
     "u": "https://www.lacoste.com/us/search?q=shoes"
@@ -132,7 +132,7 @@
     "nc": ["clothing/sweaters-sweatshirts", "clothing/t-shirts", "clothing/polos"],
     "st": "complete"
   },
-  "price_range_only": ["Sweater", "Outerwear"],
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants", "Sweater", "Outerwear"],
   "garment_links": {
     "T-shirt": "https://www.lacoste.com/us/lacoste/men/clothing/t-shirts/",
     "Polo": "https://www.lacoste.com/us/lacoste/men/clothing/polos/",
@@ -141,5 +141,71 @@
     "Sweater": "https://www.lacoste.com/us/lacoste/men/clothing/sweaters/",
     "Outerwear": "https://www.lacoste.com/us/lacoste/men/clothing/jackets-coats/",
     "Shoes": "https://www.lacoste.com/us/lacoste/men/shoes/"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Stretch Ultra Dry Sport T-shirt",
+      "lu": "https://www.lacoste.com/us/lacoste/men/clothing/t-shirts/TH0174-51.html",
+      "hp": "Monogram T-Shirt",
+      "hu": "https://www.lacoste.com/us/lacoste/men/clothing/t-shirts/TH1197-51.html",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Regular Fit Ultra Dry Sport Polo Shirt",
+      "lu": "https://www.lacoste.com/us/lacoste/men/clothing/polos/DH0159-51.html",
+      "hp": "Made In France Classic Fit Striped Polo",
+      "hu": "https://www.lacoste.com/us/lacoste/men/clothing/polos/PH0723-51.html",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Men's Regular Fit Gingham Check Shirt",
+      "lu": "https://www.lacoste.com/us/lacoste/men/clothing/button-down-shirts/CH2879-51.html",
+      "hp": "Relaxed Fit Embroidered Cotton Shirt",
+      "hu": "https://www.lacoste.com/us/lacoste/men/clothing/button-down-shirts/CH2191-51.html",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "5-Pocket Slim Fit Indigo Jeans",
+      "lu": "https://www.lacoste.com/us/lacoste/men/clothing/pants-sweatpants/HH5019-51.html",
+      "hp": "5 Pocket Straight Cut Denim Jeans",
+      "hu": "https://www.lacoste.com/us/lacoste/men/clothing/pants-sweatpants/HH0717-51.html",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Regular Fit Suit Pants",
+      "lu": "https://www.lacoste.com/us/lacoste/men/clothing/pants-sweatpants/HH1885-51.html",
+      "hp": "Straight Fit Striped Cotton Suit Pants",
+      "hu": "https://www.lacoste.com/us/lacoste/men/clothing/pants-sweatpants/HH1881-51.html",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Men's Crew Neck Cotton Sweater",
+      "lu": "https://www.lacoste.com/us/lacoste/men/clothing/sweaters/AH2193-51.html",
+      "hp": "Cashmere Polo Collar Sweater",
+      "hu": "https://www.lacoste.com/us/lacoste/men/clothing/sweaters/AH9922-51.html",
+      "b": "range"
+    },
+    "Outerwear": {
+      "lp": "Water-Repellent Sport Track Jacket",
+      "lu": "https://www.lacoste.com/us/lacoste/men/clothing/jackets-coats/BH6808-51.html",
+      "hp": "Men's Water-Repellent Puffer Jacket",
+      "hu": "https://www.lacoste.com/us/lacoste/men/clothing/jackets-coats/BH1583-51.html",
+      "b": "range"
+    },
+    "Shoes": {
+      "lp": "Cochet Suede Loafers",
+      "lu": "https://www.lacoste.com/us/lacoste/men/shoes/slides/49CMA0045.html",
+      "hp": "Cochet Suede Loafers",
+      "hu": "https://www.lacoste.com/us/lacoste/men/shoes/slides/49CMA0045.html",
+      "b": "single"
+    }
+  },
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.lacoste.com/us/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

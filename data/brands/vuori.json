@@ -44,7 +44,7 @@
     "u": "https://vuoriclothing.com/search?q=Ponto%20pant%20men",
     "n": "works"
   },
-  "prices": [[58, 68], [68, 108], [98, 98], [198, 198], [98, 188], [77, 228], [98, 298], null],
+  "prices": [[58, 108], [68, 98], [110, 118], [198, 198], [98, 148], [110, 198], [118, 478], null],
   "price_checked": true,
   "notes": {
     "synth": "softness engineered in synthetics",
@@ -231,5 +231,64 @@
     "Dress pants": "https://vuoriclothing.com/collections/pants",
     "Sweater": "https://vuoriclothing.com/collections/mens-sweaters",
     "Outerwear": "https://vuoriclothing.com/collections/mens-outerwear"
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Strato Tech Tee | Black",
+      "lu": "https://vuoriclothing.com/products/strato-tech-tee-black",
+      "hp": "Short Sleeve Merino Wool Tee | Black",
+      "hu": "https://vuoriclothing.com/products/short-sleeve-merino-wool-tee-black",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Strato Tech Polo | Black",
+      "lu": "https://vuoriclothing.com/products/strato-tech-polo-black",
+      "hp": "Short Sleeve Merino Wool Sweater Polo | Black",
+      "hu": "https://vuoriclothing.com/products/short-sleeve-merino-wool-sweater-polo-black",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Long Sleeve Ponto Button Down Shirt | Azure Heather",
+      "lu": "https://vuoriclothing.com/products/long-sleeve-ponto-button-down-shirt-azure-heather",
+      "hp": "Long Sleeve Knit Oxford Button Down - Classic Fit | White",
+      "hu": "https://vuoriclothing.com/products/long-sleeve-knit-oxford-button-down-classic-fit-white",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Vuori Vintage Jean Classic Fit 32\" | Black Wash Denim",
+      "lu": "https://vuoriclothing.com/products/vuori-vintage-jean-classic-fit-32-black-wash-denim",
+      "hp": "Vuori Vintage Jean Classic Fit 32\" | Black Wash Denim",
+      "hu": "https://vuoriclothing.com/products/vuori-vintage-jean-classic-fit-32-black-wash-denim",
+      "b": "single"
+    },
+    "Dress pants": {
+      "lp": "Aim Trouser Athletic Slim Fit 32\" | Navy Linen Texture",
+      "lu": "https://vuoriclothing.com/products/aim-trouser-athletic-slim-fit-32-navy-linen-texture",
+      "hp": "Fleet Trouser Classic Fit 30\" | Black",
+      "hu": "https://vuoriclothing.com/products/fleet-trouser-classic-fit-30-black",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Fluent Sweater | Black",
+      "lu": "https://vuoriclothing.com/products/fluent-sweater-black",
+      "hp": "Berik Cashmere Sweater | Black",
+      "hu": "https://vuoriclothing.com/products/berik-cashmere-sweater-black",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Venture Track Jacket | Blue Sea Linen Texture",
+      "lu": "https://vuoriclothing.com/products/venture-track-jacket-blue-sea-linen-texture",
+      "hp": "Taika Snow Shell | Black",
+      "hu": "https://vuoriclothing.com/products/taika-snow-shell-black",
+      "b": "range"
+    }
+  },
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Dress pants", "Outerwear"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://vuoriclothing.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
   }
 }

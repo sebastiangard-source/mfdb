@@ -46,7 +46,7 @@
     "u": "https://www.toddsnyder.com/search?q=TS%20x%20Champion%20pocket%20sweatshirt",
     "n": "Works, but why is this THE ITEM"
   },
-  "prices": [[48, 88], [98, 158], [128, 208], [178, 268], [168, 298], [248, 998], [398, 1298], [248, 798]],
+  "prices": [[78, 268], [98, 348], [198, 248], [158, 348], [298, 498], [198, 998], [328, 1998], [248, 798]],
   "notes": {
     "ital": "All the fabrics are Italian and the tailoring is made in Italy and Portugal — Tollegno cloth named on the product pages, a Pitti Uomo runway show, and Armani cited as the formative influence. Snyder learned to tailor in Des Moines and went to Italy for the cloth. Raised from 3 on 2026-08-09: the rubric says passport is not required, and this is an American brand with Italian mills, Italian make and Italian design language.",
     "golf": "TS x FootJoy Premiere Series — a real golf-shoe line with the game's premier maker",
@@ -123,5 +123,72 @@
     "Sweater": "https://www.toddsnyder.com/collections/mens-sweaters",
     "Outerwear": "https://www.toddsnyder.com/collections/mens-outerwear",
     "Shoes": "https://www.toddsnyder.com/collections/mens-footwear"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Premium Jersey Tee",
+      "lu": "https://www.toddsnyder.com/products/portugal-no-pocket-teemuddled-cerise",
+      "hp": "Silk-Cashmere Sweater Tee",
+      "hu": "https://www.toddsnyder.com/products/ss-silk-cashmere-teebeach-walk",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Cotton Pique Polo",
+      "lu": "https://www.toddsnyder.com/products/cotton-pique-polomint-tea",
+      "hp": "Wynwood Sweater Polo",
+      "hu": "https://www.toddsnyder.com/products/tipped-fp-polosaddle-brown",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Cotton Poplin Long Point Collar Dress Shirt",
+      "lu": "https://www.toddsnyder.com/products/cotton-poplin-long-point-collar-dress-shirtwhite",
+      "hp": "Slim Cotton-Silk Spread Collar Dress Shirt",
+      "hu": "https://www.toddsnyder.com/products/silk-spread-collar-dress-shirtcream",
+      "b": "pair"
+    },
+    "Jeans": {
+      "lp": "High-Rise Slim Stretch Jean in Dark Indigo",
+      "lu": "https://www.toddsnyder.com/products/high-rise-slim-stretch-jean-indigo-washindigo",
+      "hp": "Straight Fit Japanese Selvedge Stretch Jean in Indigo",
+      "hu": "https://www.toddsnyder.com/products/vintage-straight-fit-japanese-stretch-jeanindigo",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Italian Gabardine Side Tab Trouser",
+      "lu": "https://www.toddsnyder.com/products/wool-gabardine-ff-side-tab-trousercaviar",
+      "hp": "Italian Linen-Silk Herringbone Wythe Trouser",
+      "hu": "https://www.toddsnyder.com/products/silk-linen-herringbone-wythe-trousebeige",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Vista Crewneck Sweater",
+      "lu": "https://www.toddsnyder.com/products/vista-crewheather-navy",
+      "hp": "Made in Italy Cashmere Crewneck Sweater",
+      "hu": "https://www.toddsnyder.com/products/made-in-italy-cashmere-crewdark-mocha",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Corduroy Bowery Jacket",
+      "lu": "https://www.toddsnyder.com/products/corduroy-rider-jacketcafe-racer",
+      "hp": "Italian Cashmere Topcoat",
+      "hu": "https://www.toddsnyder.com/products/cashmere-topcoatnavy",
+      "b": "range"
+    },
+    "Shoes": {
+      "lp": "Nomad Suede Espadrille Loafer",
+      "lu": "https://www.toddsnyder.com/products/todd-snyder-loafadrilletobacco",
+      "hp": "Italian Suede Venetian Loafer",
+      "hu": "https://www.toddsnyder.com/products/madison-collection-venetian-suede-loaferdark-brown",
+      "b": "pair"
+    }
+  },
+  "price_range_only": ["T-shirt", "Polo", "Jeans", "Dress pants", "Outerwear"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.toddsnyder.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

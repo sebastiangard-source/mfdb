@@ -39,7 +39,7 @@
     "u": "https://www.bogliolimilano.com/en-us/collections/k-jackets",
     "n": "official K-Jackets collection — real domain is bogliolimilano.com"
   },
-  "prices": [[95, 184], [160, 439], [220, 620], [280, 400], [280, 450], [675, 1775], [900, 2550], null],
+  "prices": [[250, 500], [425, 925], [425, 650], null, [475, 850], [500, 1775], [900, 4650], null],
   "notes": {
     "wool": "the garment-dyed, deconstructed jacket",
     "ital": "The K-Jacket carries the case: unlined, unstructured, garment-dyed, and cut in Lombardy. It reads as Italian through what has been left out of the construction rather than through decoration.",
@@ -91,5 +91,58 @@
     "Dress pants": "https://www.bogliolimilano.com/en-us/collections/trousers",
     "Sweater": "https://www.bogliolimilano.com/en-us/collections/knitwear",
     "Outerwear": "https://www.bogliolimilano.com/en-us/collections/outerwear"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "White Cotton Jersey T-Shirt",
+      "lu": "https://www.bogliolimilano.com/en-us/products/cotton-jersey-t-shirt-white-26p_108_91410t_sb6810_00_0101",
+      "hp": "Blue Linen Cotton Flat Rib T-Shirt",
+      "hu": "https://www.bogliolimilano.com/en-us/products/linen-cotton-flat-rib-t-shirt-blue-26p_108_91555_sb6804_00_0780",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Blue Cotton Linen Short-Sleeve Polo",
+      "lu": "https://www.bogliolimilano.com/en-us/products/cotton-linen-short-sleeve-polo-blue-26p_108_91574t_sb6815_00_0784",
+      "hp": "Blue Wool short-sleeve Polo",
+      "hu": "https://www.bogliolimilano.com/en-us/products/blue-wool-short-sleeve-polo-26p_108_91303_sb6813_00_0790",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Blue Garment Dyed Vaiella Shirt",
+      "lu": "https://www.bogliolimilano.com/en-us/products/blue-garment-dyed-vaiella-shirt-26a_108_610t_fa0851_00_0784",
+      "hp": "Light Blue blended Cotton Check Shirt",
+      "hu": "https://www.bogliolimilano.com/en-us/products/light-blue-blended-cotton-check-shirt-26a_108_610_fb6858_00_0610",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Blue Stretch Wool Mario Trousers",
+      "lu": "https://www.bogliolimilano.com/en-us/products/blue-stretch-wool-mario-trousers-26a_108_89898_fb5109_00_0790_6r",
+      "hp": "Blue Wool Canvas Trousers",
+      "hu": "https://www.bogliolimilano.com/en-us/products/blue-wool-canvas-trousers-26p_108_80926_fa0042_00_0790_6r",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Yellow Garment Dyed Cotton Crewneck",
+      "lu": "https://www.bogliolimilano.com/en-us/products/garment-dyed-cotton-crewneck-yellow-25p_108_91391t_sa0803_00_0354",
+      "hp": "Brown Cashmere Crewneck",
+      "hu": "https://www.bogliolimilano.com/en-us/products/brown-cashmere-crewneck-26a_108_91604_fb6810_00_0450",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Blue Indaco Denim Workwear Jacket",
+      "lu": "https://www.bogliolimilano.com/en-us/products/indaco-denim-workwear-jacket-blue-26p_109_63800ew_sb6016_00_0770",
+      "hp": "Blue Garment Dyed Cashmere double-breasted Coat",
+      "hu": "https://www.bogliolimilano.com/en-us/products/blue-garment-dyed-cashmere-double-breasted-coat-26a_180_c6501j_fa0403_00_0784",
+      "b": "range"
+    }
+  },
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Dress pants", "Outerwear"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.bogliolimilano.com/en-us",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

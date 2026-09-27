@@ -39,13 +39,13 @@
   "chan": ["O", "I", "W"],
   "conf": "L",
   "forgc": [3, 3, 2],
-  "shop": "https://www.drakes.com/search?q=",
+  "shop": "https://us.drakes.com/search?q=",
   "onething": {
     "p": "Games Blazer",
     "u": "https://us.drakes.com/collections/games-blazers",
     "n": "brand calls them 'our signature Italian-made Games blazers'; collection page verified ✓"
   },
-  "prices": [[85, 135], [450, 495], [295, 425], [419, 662], [310, 450], [345, 1065], [985, 2525], [575, 1065]],
+  "prices": [[115, 375], [225, 495], [345, 425], [425, 495], [450, 895], [345, 1065], [595, 2525], [575, 1065]],
   "notes": {
     "style": "haberdasher wit — the modern classical reference",
     "ivy": "trad reborn with Italian cloth and a wink — the revival's house brand",
@@ -100,5 +100,72 @@
     "Sweater": "https://us.drakes.com/collections/knitwear",
     "Outerwear": "https://us.drakes.com/collections/coats-jackets",
     "Shoes": "https://us.drakes.com/collections/footwear"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Navy Cotton Crew Neck Hiking T-Shirt",
+      "lu": "https://us.drakes.com/products/navy-cotton-crew-neck-hiking-t-shirt-1",
+      "hp": "Ecru and Charcoal Stripe Crew Neck Knitted T-Shirt",
+      "hu": "https://us.drakes.com/products/dr2a3a-26040-03-102",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Dark Navy Piqué Cotton Polo Shirt",
+      "lu": "https://us.drakes.com/products/dark-navy-pique-cotton-polo-shirt-1",
+      "hp": "Navy Knitted Silk Short-Sleeve Polo Shirt",
+      "hu": "https://us.drakes.com/products/navy-knitted-silk-short-sleeve-polo-shirt",
+      "b": "pair"
+    },
+    "Dress shirt": {
+      "lp": "Mid-Blue Cotton Oxford Cloth Button-Down Shirt",
+      "lu": "https://us.drakes.com/products/mid-blue-cotton-oxford-cloth-button-down-shirt-1",
+      "hp": "Blue and White Stripe Long Point Collar Flap Pocket Poplin Shirt",
+      "hu": "https://us.drakes.com/products/blue-and-white-stripe-long-point-collar-flap-pocket-poplin-shirt",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Ecru 13.2oz Denim Five-Pocket Jeans",
+      "lu": "https://us.drakes.com/products/ecru-13-2oz-denim-five-pocket-jeans",
+      "hp": "Indigo Rinse 15.5oz Japanese Selvedge Denim Five-Pocket Jeans",
+      "hu": "https://us.drakes.com/products/indigo-rinse-15-5oz-japanese-selvedge-denim-five-pocket-jeans",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Green Cotton Travel Games Trouser",
+      "lu": "https://us.drakes.com/products/green-cotton-travel-games-trouser",
+      "hp": "Navy Fresco® Wool Single-Pleat Trouser",
+      "hu": "https://us.drakes.com/products/navy-fresco®-wool-single-pleat-trouser-1",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Navy Brushed Shetland Crew Neck Jumper",
+      "lu": "https://us.drakes.com/products/navy-brushed-shetland-crew-neck-jumper-1",
+      "hp": "Navy Cashmere Crew Neck Jumper",
+      "hu": "https://us.drakes.com/products/navy-cashmere-crew-neck-jumper",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Ecru Cotton Tie Front Smock",
+      "lu": "https://us.drakes.com/products/ecru-cotton-tie-front-smock",
+      "hp": "Snuff Raw Suede Blouson Jacket",
+      "hu": "https://us.drakes.com/products/snuff-raw-suede-blouson-jacket",
+      "b": "range"
+    },
+    "Shoes": {
+      "lp": "Brown Suede Henri Summer Loafer",
+      "lu": "https://us.drakes.com/products/brown-suede-henri-summer-loafer",
+      "hp": "Black Calf Leather Charles Mk II Goodyear Welted Penny Loafer",
+      "hu": "https://us.drakes.com/products/black-calf-leather-charles-mk-ii-goodyear-welted-penny-loafer",
+      "b": "pair"
+    }
+  },
+  "price_range_only": ["T-shirt", "Dress shirt", "Jeans", "Dress pants", "Outerwear"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://us.drakes.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

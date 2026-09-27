@@ -40,10 +40,10 @@
   },
   "prices": [
     [590, 790],
-    [750, 1750],
-    [950, 1750],
-    [1150, 1550],
-    [1100, 1350],
+    [750, 1850],
+    [980, 2150],
+    [1150, 1390],
+    [1100, 2150],
     [890, 2290],
     [2550, 4990],
     [790, 1190]
@@ -124,5 +124,72 @@
     "Sweater": "https://www.valentino.com/en-us/men/ready-to-wear/knitwear",
     "Outerwear": "https://www.valentino.com/en-us/men/ready-to-wear/outerwear",
     "Shoes": "https://www.valentino.com/en-us/men/shoes"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Cotton T-shirt with VLogo embroidery",
+      "lu": "https://www.valentino.com/en-us/product-valentino-cotton-t-shirt-with-vlogo-embroidery-VMG10VBMM_0NO",
+      "hp": "Cotton T-shirt with VGold",
+      "hu": "https://www.valentino.com/en-us/product-valentino-cotton-t-shirt-with-vgold-VMG10VBGR_0NO",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Cotton pique polo shirt with VLogo patch",
+      "lu": "https://www.valentino.com/en-us/product-valentino-cotton-piqu%C3%A9-polo-shirt-with-vlogo-patch-VMH01KAQK_B01",
+      "hp": "Wool polo shirt with VLogo (knit, 100% wool, short-sleeve)",
+      "hu": "https://www.valentino.com/en-us/product-valentino-wool-polo-shirt-with-vlogo-VKP04XBLC_QT3",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Cotton poplin shirt with VGold stripes",
+      "lu": "https://www.valentino.com/en-us/product-valentino-cotton-poplin-shirt-with-vgold-stripes-VABS80BHS_CR1",
+      "hp": "Long-sleeved silk shirt with all-over Chamber print",
+      "hu": "https://www.valentino.com/en-us/product-valentino-long-sleeved-silk-shirt-with-all-over-chamber-print-VABIA2BQC_1SH",
+      "b": "pair"
+    },
+    "Jeans": {
+      "lp": "Denim pants (five pockets, VDE04)",
+      "lu": "https://www.valentino.com/en-us/product-valentino-denim-trousers-VDE04CAA6_558",
+      "hp": "Denim pants with gold buttons (five pockets)",
+      "hu": "https://www.valentino.com/en-us/product-valentino-denim-trousers-with-gold-buttons-VDD04NBDU_FLX",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Pants in mohair wool (84% wool 16% mohair)",
+      "lu": "https://www.valentino.com/en-us/product-valentino-wool-trousers-VRBN8625S_4H2",
+      "hp": "Pinstripe wool pants with pleats (97% wool 3% silk)",
+      "hu": "https://www.valentino.com/en-us/product-valentino-pinstripe-wool-pants-with-pleats-VRBP65BPW_4A8",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Wool sweater with VLogo embroidery (crewneck)",
+      "lu": "https://www.valentino.com/en-us/product-valentino-wool-jumper-with-vlogo-embroidery-VKC38PBH9_598",
+      "hp": "Cable-knit cashmere jumper with VLogo (crewneck, 100% cashmere)",
+      "hu": "https://www.valentino.com/en-us/product-valentino-cashmere-cable-knit-pullover-with-vlogo-VKC38ZBLJ_E04",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Nylon bomber jacket with VGold",
+      "lu": "https://www.valentino.com/en-us/product-valentino-nylon-bomber-jacket-with-vgold-VCIR45BET_420",
+      "hp": "Leather jacket (100% calfskin, zip)",
+      "hu": "https://www.valentino.com/en-us/product-valentino-leather-jacket-VNA03GBL0_0NO",
+      "b": "pair"
+    },
+    "Shoes": {
+      "lp": "Palm Avenue calfskin loafer",
+      "lu": "https://www.valentino.com/en-us/product-valentino-palm-avenue-calfskin-loafer--YS0K00UDX_0NO",
+      "hp": "Bowow leather loafer",
+      "hu": "https://www.valentino.com/en-us/product-valentino-bowow-leather-loafer-YS0J52JWX_0NO",
+      "b": "pair"
+    }
+  },
+  "price_range_only": ["T-shirt", "Polo", "Jeans", "Dress pants"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.valentino.com/en-us/men",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "- (Valentino Garavani men's store; all men's RTW/shoes under the Valentino label)"
+  },
+  "price_checked": true
 }

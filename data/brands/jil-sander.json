@@ -41,14 +41,14 @@
     "n": "own-site search, not opened from this environment. The placket, the cuff finish and the hand of the cloth do the work that no decoration is allowed to do. It has also outlasted three creative directors, which the tailoring has not"
   },
   "prices": [
-    [190, 550],
-    [695, 1450],
+    [170, 490],
+    [650, 1490],
     [850, 1990],
-    [990, 1650],
-    [1050, 1790],
-    [990, 1850],
+    [1250, 1550],
+    [1090, 2250],
+    [990, 2550],
     [1290, 6990],
-    [1490, 1490]
+    [1150, 1490]
   ],
   "doors": {
     "c": "full",
@@ -90,7 +90,7 @@
     "nc": ["Knitwear and Sweatshirts", "Shirts", "Tops and T-Shirts"],
     "st": "complete"
   },
-  "price_range_only": ["Outerwear"],
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants", "Sweater"],
   "garment_links": {
     "T-shirt": "https://www.jilsander.com/en-us/men/ready-to-wear/tops-and-t-shirts",
     "Polo": "https://www.jilsander.com/en-us/men/ready-to-wear/tops-and-t-shirts",
@@ -103,5 +103,71 @@
   },
   "notes": {
     "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Cotton Crew-Neck T-Shirt",
+      "lu": "https://www.jilsander.com/en-us/cotton-crew-neck-t-shirt/J21GC0004J45084406.html",
+      "hp": "Logo T-Shirt",
+      "hu": "https://www.jilsander.com/en-us/logo-t-shirt/J22GC0277J20348001.html",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Cotton Piquet Polo T-Shirt",
+      "lu": "https://www.jilsander.com/en-us/cotton-piquet-polo-t-shirt/J22GL0137J20374100.html",
+      "hp": "Lightweight Wool Polo T-Shirt",
+      "hu": "https://www.jilsander.com/en-us/lightweight-wool-polo-t-shirt/J22GL0142J14857403.html",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Cotton Poplin Shirt",
+      "lu": "https://www.jilsander.com/en-us/cotton-poplin-shirt/J22DL0369J45335100.html",
+      "hp": "Cotton Shirt with Multi-Layered Collar",
+      "hu": "https://www.jilsander.com/en-us/cotton-shirt-with-multi-layered-collar/J21DL0280J45338508.html",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Regular Denim Trousers",
+      "lu": "https://www.jilsander.com/en-us/regular-denim-trousers/J21KA0324J45352476.html",
+      "hp": "Relaxed Denim Trousers",
+      "hu": "https://www.jilsander.com/en-us/relaxed-denim-trousers/J22KA0357J45389031.html",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Wool Gabardine Tapered Trousers",
+      "lu": "https://www.jilsander.com/en-us/wool-gabardine-tapered-trousers/J21KA0011J40002001.html",
+      "hp": "Wool Flannel Trousers",
+      "hu": "https://www.jilsander.com/en-us/wool-flannel-trousers/J22KA0372J40333401.html",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Wool Crew-Neck Sweater",
+      "lu": "https://www.jilsander.com/en-us/wool-crew-neck-sweater/J22GP0111J14610001.html",
+      "hp": "Technical Zip-Up Cardigan",
+      "hu": "https://www.jilsander.com/en-us/technical-zip-up-cardigan/J21HP0014J19165403.html",
+      "b": "range"
+    },
+    "Outerwear": {
+      "lp": "Wool Melton Zip-Up Jacket",
+      "lu": "https://www.jilsander.com/en-us/wool-melton-zip-up-jacket/J22HG0102J40045032.html",
+      "hp": "Leather Jacket",
+      "hu": "https://www.jilsander.com/en-us/leather-jacket/J21SW0127J07231001.html",
+      "b": "pair"
+    },
+    "Shoes": {
+      "lp": "Loafer",
+      "lu": "https://www.jilsander.com/en-us/loafer/J33WR0023P7032001.html",
+      "hp": "Loafer",
+      "hu": "https://www.jilsander.com/en-us/loafer/J33WR0027P7690001.html",
+      "b": "pair"
+    }
+  },
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.jilsander.com/en-us/men",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "Jil Sander+ (sub-line counted; its US men's gallery cgid jilsander-man-gallery-jilsanderplus returned 0 products today, so no J+ items affect the figures)"
+  },
+  "price_checked": true
 }

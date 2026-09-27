@@ -45,9 +45,9 @@
     [460, 1890],
     [630, 1250],
     [1150, 1150],
-    [890, 1390],
-    [1250, 1990],
-    [1690, 5100],
+    [890, 1250],
+    [1250, 2400],
+    [1690, 8500],
     [750, 1590]
   ],
   "price_checked": true,
@@ -140,5 +140,71 @@
     "Sweater": "https://www.ferragamo.com/shop/us/en/men/ready-to-wear-men/knitwear",
     "Outerwear": "https://www.ferragamo.com/shop/us/en/men/ready-to-wear-men/outerwear",
     "Shoes": "https://www.ferragamo.com/shop/us/en/men/shoes-1"
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Logo T-shirt",
+      "lu": "https://www.ferragamo.com/shop/us/en/men/ready-to-wear-men/t-shirts/h-796647",
+      "hp": "Gancini T-shirt",
+      "hu": "https://www.ferragamo.com/shop/us/en/men/ready-to-wear-men/t-shirts/h-790971",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Cotton polo shirt",
+      "lu": "https://www.ferragamo.com/shop/us/en/men/ready-to-wear-men/t-shirts/h-790947",
+      "hp": "Short sleeve knitted polo",
+      "hu": "https://www.ferragamo.com/shop/us/en/men/ready-to-wear-men/t-shirts/e-793881",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Shirt with micro print",
+      "lu": "https://www.ferragamo.com/shop/us/en/men/ready-to-wear-men/shirts/c-791475",
+      "hp": "Button down work shirt",
+      "hu": "https://www.ferragamo.com/shop/us/en/men/ready-to-wear-men/shirts/d-795724",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Five pocket jeans",
+      "lu": "https://www.ferragamo.com/shop/us/en/men/ready-to-wear-men/pants-m/p-795640",
+      "hp": "Five pocket jeans",
+      "hu": "https://www.ferragamo.com/shop/us/en/men/ready-to-wear-men/pants-m/p-795640",
+      "b": "single"
+    },
+    "Dress pants": {
+      "lp": "Tailored trousers",
+      "lu": "https://www.ferragamo.com/shop/us/en/men/ready-to-wear-men/pants-m/p-791627",
+      "hp": "Silk and wool tailored trousers",
+      "hu": "https://www.ferragamo.com/shop/us/en/men/ready-to-wear-men/pants-m/p-793722",
+      "b": "pair"
+    },
+    "Sweater": {
+      "lp": "V-neck sweater",
+      "lu": "https://www.ferragamo.com/shop/us/en/men/ready-to-wear-men/knitwear/e-791089",
+      "hp": "High neck cashmere pullover",
+      "hu": "https://www.ferragamo.com/shop/us/en/men/ready-to-wear-men/knitwear/e-786134",
+      "b": "range"
+    },
+    "Outerwear": {
+      "lp": "Trucker jacket",
+      "lu": "https://www.ferragamo.com/shop/us/en/men/ready-to-wear-men/jackets/b-791910",
+      "hp": "Suede blouson",
+      "hu": "https://www.ferragamo.com/shop/us/en/men/ready-to-wear-men/jackets/b-790351",
+      "b": "range"
+    },
+    "Shoes": {
+      "lp": "Espadrilles loafer",
+      "lu": "https://www.ferragamo.com/shop/us/en/men/shoes-1/moccasins-1/sefiro-792958",
+      "hp": "Tramezza penny loafer",
+      "hu": "https://www.ferragamo.com/shop/us/en/men/shoes-1/moccasins-1/brandy-794886",
+      "b": "pair"
+    }
+  },
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Sweater", "Outerwear"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.ferragamo.com/shop/us/en/men",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
   }
 }

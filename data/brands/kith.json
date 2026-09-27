@@ -42,7 +42,7 @@
     "u": "https://kith.com/search?q=Williams%20hoodie%20men",
     "n": "verified ✓"
   },
-  "prices": [[55, 95], [95, 150], [130, 190], [160, 250], [140, 220], [175, 175], [245, 1495], null],
+  "prices": [[65, 145], [120, 195], [185, 495], [210, 395], [210, 345], [175, 395], [245, 1495], null],
   "shoelink": {
     "t": "shoes",
     "u": "https://kith.com/search?q=shoes"
@@ -113,7 +113,7 @@
     "nc": ["Tees", "Sweats & Hoodies", "Outerwear"],
     "st": "complete"
   },
-  "price_range_only": ["Sweater"],
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants", "Sweater"],
   "garment_links": {
     "T-shirt": "https://kith.com/collections/kith-tees",
     "Polo": "https://kith.com/collections/kith-tops-polo-shirts",
@@ -122,5 +122,64 @@
     "Dress pants": "https://kith.com/collections/kith-bottoms-trousers",
     "Sweater": "https://kith.com/collections/kith-knitwear",
     "Outerwear": "https://kith.com/collections/kith-outerwear"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Kith Folk Bloom Alex Boxy Tee",
+      "lu": "https://kith.com/products/khma030227-102",
+      "hp": "Kith Super Fine Viscose Knit Carrington Tee",
+      "hu": "https://kith.com/products/khm034895-001",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Kith Soft Modal Blend Darin Polo",
+      "lu": "https://kith.com/products/khm034860-101",
+      "hp": "Kith Knit Nash Polo",
+      "hu": "https://kith.com/products/khm034859-485",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Kith Striped Poplin Georgie Shirt",
+      "lu": "https://kith.com/products/khma030101-5144",
+      "hp": "&Kin Garment Dyed Silk Collared Yardley Shirt",
+      "hu": "https://kith.com/products/khm034899-5125",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Kith Denim Webster Chill Jean",
+      "lu": "https://kith.com/products/khma060085-416",
+      "hp": "&Kin Rope Twill Webster Chill",
+      "hu": "https://kith.com/products/khma060137-416",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Kith Four-Way Stretch Idris Pant",
+      "lu": "https://kith.com/products/khm061277-001",
+      "hp": "&Kin Seersucker Gibbs Pant",
+      "hu": "https://kith.com/products/khm061376-493",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Kith Basketweave Tilden Crewneck Sweater",
+      "lu": "https://kith.com/products/khma030115-678",
+      "hp": "&Kin Cashmere Cyrus Turtleneck",
+      "hu": "https://kith.com/products/khma030161-3080",
+      "b": "range"
+    },
+    "Outerwear": {
+      "lp": "Kith Alonzo Denim Jacket",
+      "lu": "https://kith.com/products/khm011124-415",
+      "hp": "Kith Vintage Leather Alonzo Jacket",
+      "hu": "https://kith.com/products/khma010105-211",
+      "b": "pair"
+    }
+  },
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://kith.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "&Kin"
+  },
+  "price_checked": true
 }

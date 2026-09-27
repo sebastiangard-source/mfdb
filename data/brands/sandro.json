@@ -37,7 +37,7 @@
     "u": "https://us.sandro-paris.com/en/search?q=leather%20biker%20jacket",
     "n": "own-site search, not opened from this environment. Sandro Homme has been read as Parisian rock-and-roll since it launched in 2008, and the jacket is the piece that is theirs rather than a category anyone sells. The house currently pushes a varsity cut of the same idea"
   },
-  "prices": [[155, 200], [175, 470], [260, 630], [315, 390], [470, 530], [315, 580], [420, 1905], [230, 545]],
+  "prices": [[155, 295], [205, 345], [260, 420], [315, 365], [400, 530], [315, 550], [470, 1905], [545, 545]],
   "price_checked": true,
   "notes": {
     "fren": "The accessible French silhouette at scale — narrow, dark, unfussy. It exports a specific Parisian idea rather than a house history.",
@@ -108,5 +108,71 @@
     "Sweater": "https://us.sandro-paris.com/en/mens/clothing/sweaters-cardigans/",
     "Outerwear": "https://us.sandro-paris.com/en/mens/clothing/coats/",
     "Shoes": "https://us.sandro-paris.com/en/mens/accessories/all-shoes/"
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Cotton T-shirt",
+      "lu": "https://us.sandro-paris.com/en/p/cotton-t-shirt/SHPTS01759_20.html",
+      "hp": "Knitted T-shirt",
+      "hu": "https://us.sandro-paris.com/en/p/knitted-t-shirt/SHPTR00805_G188.html",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Cotton polo shirt with leather logo",
+      "lu": "https://us.sandro-paris.com/en/p/cotton-polo-shirt-with-leather-logo/SHPTS01881_26.html",
+      "hp": "Terry knit polo shirt",
+      "hu": "https://us.sandro-paris.com/en/p/terry-knit-polo-shirt/SHPTR00820_70.html",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Formal shirt",
+      "lu": "https://us.sandro-paris.com/en/p/formal-shirt/SHPCM01351_125.html",
+      "hp": "Shirt with velvet flocking",
+      "hu": "https://us.sandro-paris.com/en/p/shirt-with-velvet-flocking/SHPCM01786_E073.html",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Slim-fit jeans",
+      "lu": "https://us.sandro-paris.com/en/p/slim-fit-jeans/SHPJE00142_BLAC.html",
+      "hp": "Raw barrel jeans",
+      "hu": "https://us.sandro-paris.com/en/p/raw-barrel-jeans/SHPJE00858_44.html",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Wool suit trousers",
+      "lu": "https://us.sandro-paris.com/en/p/wool-suit-trousers/SHPPA00804_44.html",
+      "hp": "Wool suit trousers",
+      "hu": "https://us.sandro-paris.com/en/p/wool-suit-trousers/SHPPA02020_G279.html",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Crew-neck sweater in seed stitch",
+      "lu": "https://us.sandro-paris.com/en/p/crew-neck-sweater-in-seed-stitch/SHPTR00799_11.html",
+      "hp": "Cashmere crew neck sweater",
+      "hu": "https://us.sandro-paris.com/en/p/cashmere-crew-neck-sweater/SHPTR00854_E073.html",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Denim worker jacket",
+      "lu": "https://us.sandro-paris.com/en/p/denim-worker-jacket/SHPBL01387_70.html",
+      "hp": "Leather jacket",
+      "hu": "https://us.sandro-paris.com/en/p/leather-jacket/SHPBL01190_13.html",
+      "b": "range"
+    },
+    "Shoes": {
+      "lp": "Patent leather loafers",
+      "lu": "https://us.sandro-paris.com/en/p/patent-leather-loafers/SHACH01446_20.html",
+      "hp": "Patent leather loafers",
+      "hu": "https://us.sandro-paris.com/en/p/patent-leather-loafers/SHACH01446_20.html",
+      "b": "single"
+    }
+  },
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants", "Outerwear"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://us.sandro-paris.com/en/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
   }
 }

@@ -40,7 +40,7 @@
     "u": "https://us.isabelmarant.com/search?q=embroidered+denim+jacket",
     "n": "the piece clients come for, per the creative director; men’s line branded MARANT; verify"
   },
-  "prices": [[120, 190], [195, 283], [260, 420], [300, 450], [280, 450], [440, 880], [630, 1990], [880, 880]],
+  "prices": [[200, 240], [470, 470], [290, 945], [390, 675], [470, 880], [440, 880], [630, 3980], [880, 945]],
   "notes": {
     "fren": "the effortlessness doctrine, womenswear-proven, menswear-applied",
     "denim": "the Parisian take on lived-in",
@@ -94,7 +94,7 @@
     "nc": ["denim", "knitwear", "tshirts"],
     "st": "complete"
   },
-  "price_range_only": ["Outerwear"],
+  "price_range_only": ["T-shirt", "Dress shirt", "Jeans", "Dress pants", "Outerwear"],
   "garment_links": {
     "T-shirt": "https://us.isabelmarant.com/collections/marant-man-tee-shirts",
     "Dress shirt": "https://us.isabelmarant.com/collections/marant-man-shirts",
@@ -103,5 +103,71 @@
     "Sweater": "https://us.isabelmarant.com/collections/marant-man-knitwear",
     "Outerwear": "https://us.isabelmarant.com/collections/marant-man-coats-jackets",
     "Shoes": "https://us.isabelmarant.com/collections/shoes-man"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Zafferh Tee-Shirt (black)",
+      "lu": "https://us.isabelmarant.com/products/ts0047haa1n09h01bk-zafferh-tee-shirt-black",
+      "hp": "Honore T-shirt (ecru)",
+      "hu": "https://us.isabelmarant.com/products/ts0052hed4n03h23ec-honore-t-shirt-ecru",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Brandon Polo (navy blue)",
+      "lu": "https://us.isabelmarant.com/products/pl0013had3k02h30na-brandon-polo-navy-blue",
+      "hp": "Brandon Polo (navy blue)",
+      "hu": "https://us.isabelmarant.com/products/pl0013had3k02h30na-brandon-polo-navy-blue",
+      "b": "single"
+    },
+    "Dress shirt": {
+      "lp": "Jasolo Shirt (white oxford)",
+      "lu": "https://us.isabelmarant.com/products/ch0041hab1i14h20wh-jasolo-shirt-white",
+      "hp": "Vittorio Shirt",
+      "hu": "https://us.isabelmarant.com/products/ch0354hbd3i06h30mi-vittorio-shirt-midnight",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Lewys Jeans (blue)",
+      "lu": "https://us.isabelmarant.com/products/pa0469hgd1h04h30fb-lewys-jeans-blue",
+      "hp": "Jorian Jeans (light blue)",
+      "hu": "https://us.isabelmarant.com/products/pa0784had3h03h30lu-jorian-jeans-light-blue",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Ablo Pants (beige)",
+      "lu": "https://us.isabelmarant.com/products/pa0678hbd3g05h90be-ablo-pants-beige",
+      "hp": "Gibson wool pants (black)",
+      "hu": "https://us.isabelmarant.com/products/pa0821had4g01h01bk-gibson-wool-pants-black",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "BASILE merinos wool sweater (midnight)",
+      "lu": "https://us.isabelmarant.com/products/pu0228haa1l79h30mi-basile-merinos-wool-sweater-midnight",
+      "hp": "Ayden mohair sweater (indigo)",
+      "hu": "https://us.isabelmarant.com/products/pu0995had3l10h30in-ayden-mohair-sweater-indigo",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Ardy Jacket (beige)",
+      "lu": "https://us.isabelmarant.com/products/ve0679hbd3g05h90be-ardy-jacket-beige",
+      "hp": "Bowy leather jacket (black)",
+      "hu": "https://us.isabelmarant.com/products/ve0806had4b04h01bk-bowy-leather-jacket-black",
+      "b": "range"
+    },
+    "Shoes": {
+      "lp": "Frezzah Men Loafers Man (black)",
+      "lu": "https://us.isabelmarant.com/products/mc0016hac3a01n01bk-frezzah-men-loafers-man-black",
+      "hp": "Byren Loafers (brown)",
+      "hu": "https://us.isabelmarant.com/products/mc0041had3a02n50bw-byren-loafers-brown",
+      "b": "pair"
+    }
+  },
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://us.isabelmarant.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

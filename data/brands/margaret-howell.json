@@ -38,7 +38,7 @@
     "u": "https://www.margarethowell.co.uk/search?q=linen+shirt",
     "n": "best-guess link — verify"
   },
-  "prices": [[120, 180], [200, 350], [300, 450], [495, 500], [300, 450], [415, 640], [645, 1900], null],
+  "prices": [[125, 190], [295, 295], [265, 790], null, [380, 980], [415, 640], [640, 1900], null],
   "notes": {
     "linen": "the Irish linen champion — her signature cloth, celebrated seam by seam",
     "craft": "British and Japanese make, repairable construction",
@@ -87,7 +87,7 @@
     "nc": ["Trousers", "Knitwear", "Shirts"],
     "st": "complete"
   },
-  "price_range_only": ["Outerwear"],
+  "price_range_only": ["T-shirt", "Dress shirt", "Dress pants", "Sweater", "Outerwear"],
   "garment_links": {
     "T-shirt": "https://www.margarethowell.co.uk/collections/men-jersey",
     "Dress shirt": "https://www.margarethowell.co.uk/collections/men-shirts-tops",
@@ -95,5 +95,57 @@
     "Dress pants": "https://www.margarethowell.co.uk/collections/men-trousers",
     "Sweater": "https://www.margarethowell.co.uk/collections/men-knitwear",
     "Outerwear": "https://www.margarethowell.co.uk/collections/men-jackets-coats"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "MHL. Simple T Shirt | Cotton Linen Jersey | White",
+      "lu": "https://www.margarethowell.co.uk/products/men-mhl-simple-t-shirt-organic-cotton-linen-jersey-white",
+      "hp": "Short Sleeve T Shirt | Fine Cotton Jersey | Black",
+      "hu": "https://www.margarethowell.co.uk/products/men-short-sleeve-t-shirt-fine-cotton-jersey-black",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "MHL. Long Sleeve Offset Placket Polo Shirt | Japanese Cotton Linen Denim | Indigo",
+      "lu": "https://www.margarethowell.co.uk/products/mhl-long-sleeve-offset-placket-polo-shirt-japanese-cotton-linen-denim-indigo",
+      "hp": "MHL. Long Sleeve Offset Placket Polo Shirt | Japanese Cotton Linen Denim | Indigo",
+      "hu": "https://www.margarethowell.co.uk/products/mhl-long-sleeve-offset-placket-polo-shirt-japanese-cotton-linen-denim-indigo",
+      "b": "single"
+    },
+    "Dress shirt": {
+      "lp": "MHL. Basic Shirt | Sanded Cotton Poplin | Storm",
+      "lu": "https://www.margarethowell.co.uk/products/mhl-basic-shirt-sanded-cotton-poplin-storm",
+      "hp": "Half Lined Shirt | Brushed Fluid Wool Twill | Navy",
+      "hu": "https://www.margarethowell.co.uk/products/half-lined-shirt-brushed-fluid-wool-twill-navy",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "MHL. Simple Trousers | Raised Cotton Drill | Black",
+      "lu": "https://www.margarethowell.co.uk/products/mhl-simple-trousers-raised-cotton-drill-black",
+      "hp": "Tailors Trousers | Dry Wool Plainweave | Black",
+      "hu": "https://www.margarethowell.co.uk/products/tailors-trousers-dry-wool-plainweave-black",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "MHL. Crew Neck Jumper | Virgin Wool | Dark Olive",
+      "lu": "https://www.margarethowell.co.uk/products/mhl-crew-neck-jumper-virgin-wool-dark-olive",
+      "hp": "Seamless Crew Neck Jumper | Merino Cashmere | Black",
+      "hu": "https://www.margarethowell.co.uk/products/seamless-crew-neck-jumper-merino-cashmere-black",
+      "b": "range"
+    },
+    "Outerwear": {
+      "lp": "MHL. Track Jacket | Crisp Cotton Poplin | Black",
+      "lu": "https://www.margarethowell.co.uk/products/mhl-track-jacket-crisp-cotton-poplin-black",
+      "hp": "Double Collar Coat | Firm Wool Melton | Khaki",
+      "hu": "https://www.margarethowell.co.uk/products/double-collar-coat-firm-wool-melton-khaki",
+      "b": "range"
+    }
+  },
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.margarethowell.co.uk/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "MHL."
+  },
+  "price_checked": true
 }

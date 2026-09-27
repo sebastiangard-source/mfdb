@@ -45,7 +45,7 @@
     "u": "https://fahertybrand.com/search?q=Legend%20sweater%20shirt%20men",
     "n": "verified ✓"
   },
-  "prices": [[50, 70], [80, 120], [120, 160], [150, 200], [130, 180], [168, 398], [278, 1500], [228, 228]],
+  "prices": [[58, 98], [98, 168], [148, 348], [198, 348], [178, 178], [178, 398], [278, 1500], [228, 228]],
   "notes": {
     "comfort": "the Bergdorf cashmere epiphany, democratized into stretch flannel",
     "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional"
@@ -261,7 +261,7 @@
     "source": "census",
     "checked": "2026-09-12"
   },
-  "price_range_only": ["Sweater"],
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Sweater"],
   "garment_links": {
     "T-shirt": "https://fahertybrand.com/collections/mens-tees-henleys",
     "Polo": "https://fahertybrand.com/collections/mens-polos",
@@ -271,5 +271,71 @@
     "Sweater": "https://fahertybrand.com/collections/mens-sweaters",
     "Outerwear": "https://fahertybrand.com/collections/mens-outerwear",
     "Shoes": "https://fahertybrand.com/collections/mens-shoes"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Short-Sleeve Breeze Tee - Blue Isle",
+      "lu": "https://fahertybrand.com/products/ss-breeze-tee-blue-isle",
+      "hp": "Short-Sleeve Indigo Pocket Tee - 10-year Wash",
+      "hu": "https://fahertybrand.com/products/ss-indigo-pocket-tee-10-year-wash",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Short-Sleeve Breeze Polo - Ridge Black Heather",
+      "lu": "https://fahertybrand.com/products/ss-breeze-polo-ridge-black-heather",
+      "hp": "Long-Sleeve Pima Polo - White Wall",
+      "hu": "https://fahertybrand.com/products/ls-pima-polo-white-wall",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Laundered Oxford Shirt - Isle Blue",
+      "lu": "https://fahertybrand.com/products/laundered-oxford-shirt-isle-blue",
+      "hp": "Sashiko Indigo Workshirt - Dark Indigo",
+      "hu": "https://fahertybrand.com/products/sashiko-indigo-workshirt-dark-indigo",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Original Cotton Denim - Night Harbor Wash",
+      "lu": "https://fahertybrand.com/products/original-cotton-denim-pant-night-harbor-wash",
+      "hp": "Selvedge 5-Pocket Denim - Indigo Rinse Wash",
+      "hu": "https://fahertybrand.com/products/selvedge-5pocket-denim-indigo-rinse-wash",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Coastline Chino - Island Chestnut",
+      "lu": "https://fahertybrand.com/products/coastline-chino-island-chestnut",
+      "hp": "Coastline Chino - Island Chestnut",
+      "hu": "https://fahertybrand.com/products/coastline-chino-island-chestnut",
+      "b": "single"
+    },
+    "Sweater": {
+      "lp": "Jackson Crew Sweater - Ironwood Heather",
+      "lu": "https://fahertybrand.com/products/jackson-crew-sweater-ironwood-heather",
+      "hp": "Blanket Stripe Zip Sweater - Desert Bloom Stripe",
+      "hu": "https://fahertybrand.com/products/blanket-stripe-zip-sweater-desert-bloom-stripe",
+      "b": "range"
+    },
+    "Outerwear": {
+      "lp": "High Ridge Twill Trucker - Almond Hill Wash",
+      "lu": "https://fahertybrand.com/products/high-ridge-twill-trucker-almond-hill-wash",
+      "hp": "Suede Trucker - Midnight Azure",
+      "hu": "https://fahertybrand.com/products/suede-trucker-midnight-azure",
+      "b": "pair"
+    },
+    "Shoes": {
+      "lp": "Reserve Venetian Loafer - Tobacco",
+      "lu": "https://fahertybrand.com/products/reserve-venetian-loafer-tobacco",
+      "hp": "Reserve Venetian Loafer - Tobacco",
+      "hu": "https://fahertybrand.com/products/reserve-venetian-loafer-tobacco",
+      "b": "single"
+    }
+  },
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://fahertybrand.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "Reserve, Surf Shop"
+  },
+  "price_checked": true
 }

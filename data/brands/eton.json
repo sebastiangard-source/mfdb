@@ -40,7 +40,7 @@
     "u": "https://www.etonshirts.com/us/search?q=signature+twill",
     "n": "best-guess link — verify"
   },
-  "prices": [[130, 250], [170, 450], [250, 550], null, null, [350, 695], [495, 1495], null],
+  "prices": [[130, 250], [170, 250], [250, 550], null, null, [350, 695], [495, 1495], null],
   "price_checked": true,
   "notes": {
     "cotton": "signature twills and poplins — the shirt wall's benchmark",
@@ -95,5 +95,50 @@
     "Dress shirt": "https://www.etonshirts.com/us/en/category/dress-shirts",
     "Sweater": "https://www.etonshirts.com/us/en/category/knitwear",
     "Outerwear": "https://www.etonshirts.com/us/en/category/coats-and-jackets"
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Crewneck T-Shirt (Supima cotton)",
+      "lu": "https://www.etonshirts.com/us/en/product/white-t-shirt",
+      "hp": "Knitted T-Shirt (self-rib mercerized cotton)",
+      "hu": "https://www.etonshirts.com/us/en/product/dark-blue-self-rib-cotton-t-shirt",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Piqué Polo Shirt (Pima cotton)",
+      "lu": "https://www.etonshirts.com/us/en/product/beige-pima-cotton-pique-polo",
+      "hp": "Cotton Linen Polo",
+      "hu": "https://www.etonshirts.com/us/en/product/dark-purple-cotton-linen-polo-shirt",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "White Signature Twill Shirt",
+      "lu": "https://www.etonshirts.com/us/en/product/white-shirt-signature-twill",
+      "hp": "Check Cotton Silk Cashmere Shirt",
+      "hu": "https://www.etonshirts.com/us/en/product/dark-brown-plaid-check-cotton-silk-cashmere-shirt",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Knit Crewneck (merino wool)",
+      "lu": "https://www.etonshirts.com/us/en/product/navy-blue-merino-knit-crewneck",
+      "hp": "Cashmere Knit crew neck (100% cashmere)",
+      "hu": "https://www.etonshirts.com/us/en/product/navy-blue-cashmere-knit-crew-neck",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Flannel Jacket (cotton flannel two-pocket jacket)",
+      "lu": "https://www.etonshirts.com/us/en/product/brown-cotton-flannel-two-pocket-jacket",
+      "hp": "Travel Jacket (wool cashmere)",
+      "hu": "https://www.etonshirts.com/us/en/product/dark-brown-wool-cashmere-travel-jacket",
+      "b": "range"
+    }
+  },
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Outerwear"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.etonshirts.com/us/en/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
   }
 }

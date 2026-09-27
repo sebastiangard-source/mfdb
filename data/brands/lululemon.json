@@ -42,7 +42,7 @@
     "u": "https://shop.lululemon.com/search?Ntt=ABC%20pant%20men",
     "n": "verified ✓"
   },
-  "prices": [[58, 88], [88, 128], [88, 148], null, [118, 168], [128, 168], [138, 398], [128, 158]],
+  "prices": [[58, 88], [88, 118], [98, 128], null, [128, 148], [128, 128], [138, 398], [58, 168]],
   "notes": {
     "synth": "an in-house fabric platform — Luon, Everlux, Warpstreme — with a dedicated R&D lab; house names, real engineering",
     "tech": "trademarked textiles engineered internally; no mill named, but the lab is real",
@@ -490,7 +490,7 @@
     "nc": ["Sweaters", "T-Shirts"],
     "st": "partial"
   },
-  "price_range_only": ["Sweater", "Outerwear", "Shoes"],
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Dress pants", "Outerwear", "Shoes"],
   "garment_links": {
     "T-shirt": "https://shop.lululemon.com/c/men-t-shirts/n16wkm",
     "Polo": "https://shop.lululemon.com/c/men-polo-shirts/n1m3oa",
@@ -499,5 +499,64 @@
     "Sweater": "https://shop.lululemon.com/c/men-sweaters/n1xxr9",
     "Outerwear": "https://shop.lululemon.com/c/men-coats-and-jackets/n1h1v9",
     "Shoes": "https://shop.lululemon.com/c/men-shoes/n1n4fcznrqw"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Everyday Cotton-Blend Classic T-Shirt",
+      "lu": "https://shop.lululemon.com/p/everyday-cotton-blend-classic-t-shirt/owzvguq0v2",
+      "hp": "Grand Standard Short-Sleeve Crew",
+      "hu": "https://shop.lululemon.com/p/grand-standard-short-sleeve-crew/tu4aud7do7",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Evolution Short-Sleeve Polo Shirt",
+      "lu": "https://shop.lululemon.com/p/evolution-polo/nvwqh0am2n",
+      "hp": "Cotton-Blend Knit Short-Sleeve Polo Shirt",
+      "hu": "https://shop.lululemon.com/p/cotton-blend-knit-polo-shirt/o4pqnbnve0",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Airing Easy Long-Sleeve Shirt",
+      "lu": "https://shop.lululemon.com/p/airing-easy-long-sleeve-button-shirt/ibfyw0pzev",
+      "hp": "Ultralight WovenAir Long-Sleeve Shirt",
+      "hu": "https://shop.lululemon.com/p/ultralight-wovenair-long-sleeve-shirt/ur9nmnqpjf",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Zero Tucks Relaxed-Fit Pant Regular",
+      "lu": "https://shop.lululemon.com/p/zero-tucks-relaxed-fit-pant-regular/gtui86seid",
+      "hp": "Men's Daydrift Classic-Fit Trouser Regular",
+      "hu": "https://shop.lululemon.com/p/mens-daydrift-cf-trouser-regular/rcd3ki6jh3",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Cotton-Blend Knit Long-Sleeve Crewneck Sweater",
+      "lu": "https://shop.lululemon.com/p/cotton-blend-knit-long-sleeve-crewneck/nzqn3eile5",
+      "hp": "Cotton-Blend Knit Long-Sleeve Crewneck Sweater",
+      "hu": "https://shop.lululemon.com/p/cotton-blend-knit-long-sleeve-crewneck/nzqn3eile5",
+      "b": "single"
+    },
+    "Outerwear": {
+      "lp": "Zeroed In Track Jacket",
+      "lu": "https://shop.lululemon.com/p/zeroed-in-track-jacket/yan98q12tl",
+      "hp": "Men's Featherweight Stand-Neck Quilted Puffer",
+      "hu": "https://shop.lululemon.com/p/featherweight-stand-neck-quilted-puffer/pdvcrd6f41",
+      "b": "range"
+    },
+    "Shoes": {
+      "lp": "Men's Restfeel Slide",
+      "lu": "https://shop.lululemon.com/p/m-restfeel-slide/bxugxqf16z",
+      "hp": "Men's Beyondfeel Waterproof Running Shoe",
+      "hu": "https://shop.lululemon.com/p/mens-beyondfeel-waterproof-running-shoe/kjsar8czu7",
+      "b": "range"
+    }
+  },
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://shop.lululemon.com/ (US, USD)",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

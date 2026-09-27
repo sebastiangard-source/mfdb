@@ -41,13 +41,13 @@
     "n": "SSENSE designer page — MP search deep-links are dead"
   },
   "prices": [
-    [630, 1170],
-    [790, 930],
-    [810, 2500],
-    [1050, 1815],
-    [864, 900],
-    [1300, 2500],
-    [3250, 17350],
+    [790, 970],
+    [890, 1400],
+    [890, 1500],
+    [1000, 1650],
+    [1500, 1500],
+    [1100, 2500],
+    [2100, 10500],
     [770, 1150]
   ],
   "shoelink": {
@@ -126,5 +126,72 @@
     "Sweater": "https://www.fendi.com/us-en/man/ready-to-wear/knitwear",
     "Outerwear": "https://www.fendi.com/us-en/man/ready-to-wear/outerwear",
     "Shoes": "https://www.fendi.com/us-en/man/shoes"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "T-Shirt - Black (cotton jersey, FY1370)",
+      "lu": "https://www.fendi.com/us-en/man/ready-to-wear/t-shirt-black-cotton-t-shirt-fy1370b19qf043y",
+      "hp": "T-Shirt - White (skater-style cotton T-shirt with FF zip pocket, FY1257)",
+      "hu": "https://www.fendi.com/us-en/man/ready-to-wear/t-shirt-white-cotton-t-shirt-fy1257apm4f0qa0",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Polo shirt - White (cotton pique, FY1309)",
+      "lu": "https://www.fendi.com/us-en/man/ready-to-wear/polo-shirt-white-cotton-polo-shirt-fy1309ay0if0qa0",
+      "hp": "Polo shirt - White (knit wool polo, FZC189)",
+      "hu": "https://www.fendi.com/us-en/man/ready-to-wear/polo-shirt-white-wool-polo-shirt-fzc189b1q2f0qm0",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Shirt - White (regular-fit cotton, Italian collar, FS0585)",
+      "lu": "https://www.fendi.com/us-en/man/ready-to-wear/shirt-white-cotton-shirt-fs0585avdlf0qa0",
+      "hp": "Shirt - White (slim-fit cotton poplin, pleated plastron, mandarin collar, French cuffs, FS1377)",
+      "hu": "https://www.fendi.com/us-en/man/new-in/shirt-white-poplin-shirt-fs1377amvlf0qa0",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Long Jeans - Blue (straight five-pocket, dark washed denim, FLP302)",
+      "lu": "https://www.fendi.com/us-en/man/ready-to-wear/long-jeans-dark-blue-jeans-flp302b15cf0qa2",
+      "hp": "Long Jeans - Blue (Bananatex denim 5-pocket, FLP377)",
+      "hu": "https://www.fendi.com/us-en/man/ready-to-wear/long-jeans-washed-blue-jeans-flp377b1pdf19s8",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Pants - Black (tailored wool batavia, FB1140)",
+      "lu": "https://www.fendi.com/us-en/man/ready-to-wear/pants-black-wool-pants-fb1140b1h7f0qa1",
+      "hp": "Pants - Black (tailored kid mohair 60% / wool 40%, FB1140)",
+      "hu": "https://www.fendi.com/us-en/man/ready-to-wear/pants-black-kid-mohair-pants-fb1140b1g1f0qa1",
+      "b": "pair"
+    },
+    "Sweater": {
+      "lp": "Sweater - White (short-sleeve crew-neck FF cotton, FZX051; black colourway same price)",
+      "lu": "https://www.fendi.com/us-en/man/ready-to-wear/sweater-white-ff-cotton-pullover-fzx051auw0f0qa0",
+      "hp": "Sweater - Black (pure cashmere long-sleeve crewneck, FZX221)",
+      "hu": "https://www.fendi.com/us-en/man/new-in/sweater-black-cashmere-sweater-fzx221b1ibf0qa1",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Blouson - Light blue (cotton chambray zip blouson, FW1442)",
+      "lu": "https://www.fendi.com/us-en/man/ready-to-wear/blouson-light-blue-chambray-blouson-fw1442ay0cf0ex7",
+      "hp": "Blouson - brown and yellow nappa leather biker jacket (FPJ164)",
+      "hu": "https://www.fendi.com/us-en/man/ready-to-wear/blouson-brown-and-yellow-nappa-leather-jacket-fpj164b1oxf1xr0",
+      "b": "pair"
+    },
+    "Shoes": {
+      "lp": "FF Squared Drivers - black leather",
+      "lu": "https://www.fendi.com/us-en/man/shoes/ff-squared-drivers-black-leather-drivers-7d1295a9s8f0abb",
+      "hp": "FENDI 1996 Loafers - black leather",
+      "hu": "https://www.fendi.com/us-en/man/shoes/fendi-1996-loafers-black-leather-loafers-7d197269ff0qa1",
+      "b": "pair"
+    }
+  },
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.fendi.com/us-en/man/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

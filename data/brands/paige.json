@@ -36,7 +36,7 @@
     "u": "https://paige.com/collection/men-slim-straight-fit",
     "n": "men’s slim-straight collection, verified"
   },
-  "prices": [[70, 100], [110, 160], [150, 220], [190, 270], [170, 250], [229, 249], [289, 929], "?"],
+  "prices": [[89, 199], [169, 229], [149, 239], [199, 239], [209, 249], [229, 269], [289, 929], [228, 398]],
   "notes": {
     "denim": "premium LA denim, washed and finished locally",
     "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional"
@@ -98,7 +98,7 @@
     "nc": ["non denim bottoms", "knit tops", "woven tops"],
     "st": "complete"
   },
-  "price_range_only": ["Sweater"],
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants", "Sweater", "Outerwear", "Shoes"],
   "garment_links": {
     "T-shirt": "https://paige.com/collection/men-tees",
     "Polo": "https://paige.com/collection/men-shirts",
@@ -107,5 +107,71 @@
     "Dress pants": "https://paige.com/collection/men-pants",
     "Sweater": "https://paige.com/collection/men-sweaters-and-sweatshirts",
     "Outerwear": "https://paige.com/collection/men-jackets"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Sorden Crew Neck Tee - White",
+      "lu": "https://www.paige.com/products/men-sorden-crew-neck-tee-white",
+      "hp": "Brimmer Sweater Tee - Silt",
+      "hu": "https://www.paige.com/products/men-brimmer-sweater-tee-silt",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Demille Polo - Deep Anchor",
+      "lu": "https://www.paige.com/products/men-demille-polo-deep-anchor",
+      "hp": "Kiko Sweater Polo - Nimbus",
+      "hu": "https://www.paige.com/products/men-kiko-sweater-polo-nimbus",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Cosgrove Button Up - White",
+      "lu": "https://www.paige.com/products/men-cosgrove-button-up-white",
+      "hp": "Calder Denim Shirt - Argo",
+      "hu": "https://www.paige.com/products/men-calder-denim-shirt-argo",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Federal 32 Inch Slim Straight Jean - Black Shadow",
+      "lu": "https://www.paige.com/products/men-federal-black-shadow-2",
+      "hp": "Doheny 32 Inch Relaxed Straight Jean - Berto Destructed",
+      "hu": "https://www.paige.com/products/men-doheny-berto-destructed",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Stafford Trouser - Black",
+      "lu": "https://www.paige.com/products/men-stafford-trouser-black",
+      "hp": "Eberton Pant - Fossil Herringbone",
+      "hu": "https://www.paige.com/products/men-eberton-pant-fossil-herringbone",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Wildomar Sweater - Light Carbon",
+      "lu": "https://www.paige.com/products/men-wildomar-sweater-light-carbon",
+      "hp": "Donover Quarter Zip Sweater - Black",
+      "hu": "https://www.paige.com/products/men-donover-quarter-zip-sweater-black",
+      "b": "range"
+    },
+    "Outerwear": {
+      "lp": "Erickson Jacket - Des Moines",
+      "lu": "https://www.paige.com/products/men-erickson-jacket-des-moines",
+      "hp": "Rocoso Moto Jacket - Black Leather",
+      "hu": "https://www.paige.com/products/men-rocoso-moto-jacket-black",
+      "b": "range"
+    },
+    "Shoes": {
+      "lp": "Fullard Sneaker - Anthracite Suede",
+      "lu": "https://www.paige.com/products/men-footwear-fullard-sneaker-anthracite",
+      "hp": "Sobeck Boot - Light Tan Suede",
+      "hu": "https://www.paige.com/products/men-footwear-sobeck-boot-light-tan",
+      "b": "range"
+    }
+  },
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.paige.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "Paige Footwear (men's)"
+  },
+  "price_checked": true
 }

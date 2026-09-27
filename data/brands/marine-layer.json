@@ -41,7 +41,7 @@
     "u": "https://www.marinelayer.com/search?q=Signature%20Crew%20tee%20men",
     "n": "verified ✓"
   },
-  "prices": [[48, 88], [68, 158], [118, 168], [145, 145], [138, 138], [138, 178], [168, 498], null],
+  "prices": [[54, 64], [84, 178], [118, 148], [145, 145], [138, 138], [118, 168], [168, 498], null],
   "price_checked": true,
   "notes": {
     "comfort": "absurdly soft signature modal knits",
@@ -151,5 +151,64 @@
     "Dress pants": "https://www.marinelayer.com/collections/guys-pants",
     "Sweater": "https://www.marinelayer.com/collections/guys-sweaters",
     "Outerwear": "https://www.marinelayer.com/collections/guys-outerwear"
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Signature Crew Tee",
+      "lu": "https://www.marinelayer.com/products/signature-crew-tee-22",
+      "hp": "Luxe 250 Classic Tee",
+      "hu": "https://www.marinelayer.com/products/luxe-250-classic-tee-2",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Luxe Slub Polo",
+      "lu": "https://www.marinelayer.com/products/luxe-slub-polo-2",
+      "hp": "Coastal Merino Sweater Polo",
+      "hu": "https://www.marinelayer.com/products/merino-sweater-polo",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Stretch Selvage Long Sleeve Shirt",
+      "lu": "https://www.marinelayer.com/products/classic-stretch-selvage-shirt-25",
+      "hp": "The Clark Corduroy Shirt",
+      "hu": "https://www.marinelayer.com/products/the-clark-corduroy-shirt-1",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "5 Pocket Slim Straight Fit Jean",
+      "lu": "https://www.marinelayer.com/products/original-slim-fit-jean-washed-black",
+      "hp": "5 Pocket Slim Straight Fit Jean",
+      "hu": "https://www.marinelayer.com/products/original-slim-fit-jean-washed-black",
+      "b": "single"
+    },
+    "Dress pants": {
+      "lp": "The Rowan Pleated Trouser - Relaxed Fit",
+      "lu": "https://www.marinelayer.com/products/the-rowan-pleated-trouser-relaxed-fit-1",
+      "hp": "The Rowan Pleated Trouser - Relaxed Fit",
+      "hu": "https://www.marinelayer.com/products/the-rowan-pleated-trouser-relaxed-fit-1",
+      "b": "single"
+    },
+    "Sweater": {
+      "lp": "Slub Crew Sweater",
+      "lu": "https://www.marinelayer.com/products/slub-crew-sweater-1",
+      "hp": "California Fair Isle Crew Sweater",
+      "hu": "https://www.marinelayer.com/products/california-fair-isle-crew-sweater",
+      "b": "range"
+    },
+    "Outerwear": {
+      "lp": "The Arcata Windbreaker",
+      "lu": "https://www.marinelayer.com/products/the-arcata-windbreaker",
+      "hp": "The Beckett Suede Jacket",
+      "hu": "https://www.marinelayer.com/products/the-beckett-suede-jacket",
+      "b": "range"
+    }
+  },
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Sweater", "Outerwear"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.marinelayer.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
   }
 }

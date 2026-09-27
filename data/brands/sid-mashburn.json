@@ -45,7 +45,7 @@
     "u": "https://www.sidmashburn.com/search?q=Kincaid%20No.%201%20suit",
     "n": "Use this: https://shopmashburn.com/products/sid-mashburn-kincaid-no-3-jacket-persimmon-wheat-herringbone-linen-s79133"
   },
-  "prices": [[55, 85], [95, 145], [125, 195], [165, 235], [165, 395], [195, 450], [395, 1395], [295, 595]],
+  "prices": [[75, 75], [115, 135], [155, 450], [175, 325], [395, 450], [195, 450], [425, 795], [375, 595]],
   "doors": {
     "c": "full",
     "n": 8,
@@ -110,5 +110,73 @@
   },
   "notes": {
     "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Short-Sleeved Tee in White Pima Cotton",
+      "lu": "https://shopmashburn.com/products/sid-mashburn-short-sleeved-tee-white-pima-cotton-s31949",
+      "hp": "Short-Sleeved Tee in White Pima Cotton",
+      "hu": "https://shopmashburn.com/products/sid-mashburn-short-sleeved-tee-white-pima-cotton-s31949",
+      "b": "single"
+    },
+    "Polo": {
+      "lp": "Short-Sleeved Polo in Olive Pima Pique",
+      "lu": "https://shopmashburn.com/products/sid-mashburn-short-sleeved-polo-olive-pima-pique-s77066",
+      "hp": "Short-Sleeved Polo in Navy/Sea Moss Stripe Pima Pique",
+      "hu": "https://shopmashburn.com/products/sid-mashburn-short-sleeved-polo-navy-sea-moss-stripe-pima-pique-s80299",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Button-Down Dress Shirt in White Oxford",
+      "lu": "https://shopmashburn.com/products/sid-mashburn-button-down-dress-shirt-white-oxford-s76825",
+      "hp": "Otto Handmade Dress Shirt in White Sea Island Poplin",
+      "hu": "https://shopmashburn.com/products/sid-mashburn-otto-handmade-dress-shirt-white-sea-island-poplin-s76545",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Slim Straight Jean in Non-Selvedge Rinse Denim",
+      "lu": "https://shopmashburn.com/products/sid-mashburn-slim-straight-jean-non-selvedge-rinse-denim-s41586",
+      "hp": "Slim Straight Jean in Indigo/Moss Selvedge Rigid Denim",
+      "hu": "https://shopmashburn.com/products/sid-mashburn-slim-straight-jean-indigo-moss-selvedge-rigid-denim-s80777",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Dress Trouser in Airforce Cavalry Twill",
+      "lu": "https://shopmashburn.com/products/sid-mashburn-dress-trouser-airforce-cavalry-twill-s80242",
+      "hp": "Dress Trouser in Woodland Twill",
+      "hu": "https://shopmashburn.com/products/sid-mashburn-dress-trouser-woodland-twill-s80241",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Crewneck Sweater in Navy Cotton",
+      "lu": "https://shopmashburn.com/products/sid-mashburn-crewneck-sweater-navy-cotton-s48620",
+      "hp": "Fine-Gauge Crewneck Sweater in Bottle Cashmere",
+      "hu": "https://shopmashburn.com/products/sid-mashburn-fine-gauge-crewneck-sweater-bottle-cashmere-s79186",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Chore Jacket in Navy Corduroy",
+      "lu": "https://shopmashburn.com/products/sid-mashburn-chore-jacket-navy-corduroy-s80201",
+      "hp": "Chore Jacket in Spruce Cashmere Flannel",
+      "hu": "https://shopmashburn.com/products/sid-mashburn-chore-jacket-spruce-cashmere-flannel-s80196",
+      "b": "pair"
+    },
+    "Shoes": {
+      "lp": "Handsewn Penny Loafer in Black Spazzolato Calf",
+      "lu": "https://shopmashburn.com/products/sid-mashburn-handsewn-penny-loafer-black-spazzolato-calf-s78278",
+      "hp": "Italian Penny Loafer in Dark Brown Calfskin",
+      "hu": "https://shopmashburn.com/products/sid-mashburn-italian-penny-loafer-dark-brown-calfskin-s45656",
+      "b": "pair"
+    }
+  },
+  "price_range_only": ["Polo", "Dress shirt", "Jeans", "Dress pants"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://shopmashburn.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "Otto Handmade (Sid Mashburn handmade shirts)"
+  },
+  "price_checked": true,
+  "shop": "https://shopmashburn.com/search?q="
 }

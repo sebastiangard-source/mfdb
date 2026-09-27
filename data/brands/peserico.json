@@ -39,7 +39,7 @@
     "u": "https://us.peserico.com/collections/mens-trousers",
     "n": "verified — the house was founded on trousers in 1962 and still leads with them; the men’s versions run in Loro Piana wool with a Rain System finish. Category page rather than a SKU so it survives the season"
   },
-  "prices": [[325, 509], [515, 609], [475, 675], [515, 635], [529, 845], [505, 925], [815, 2005], [815, 959]],
+  "prices": [[385, 405], null, [475, 635], [575, 635], [659, 845], [505, 669], [815, 4935], [815, 959]],
   "price_checked": true,
   "notes": {
     "wool": "names its mills, which few houses do: Loro Piana, Vitale Barberis Canonico, Reda and Zegna Baruffa Lane Borgosesia among them",
@@ -99,7 +99,7 @@
     "nc": ["TROUSERS", "KNITWEAR", "OUTERWEAR"],
     "st": "complete"
   },
-  "shop": "https://it.peserico.com/search?q=",
+  "shop": "https://us.peserico.com/search?q=",
   "garment_links": {
     "T-shirt": "https://us.peserico.com/collections/mens-t-shirts-polos",
     "Dress shirt": "https://us.peserico.com/collections/mens-shirts",
@@ -108,5 +108,64 @@
     "Sweater": "https://us.peserico.com/collections/mens-knitwear",
     "Outerwear": "https://us.peserico.com/collections/mens-outerwear",
     "Shoes": "https://us.peserico.com/collections/mens-shoes"
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Pure Cotton Jersey T-shirt",
+      "lu": "https://us.peserico.com/products/72-r55044j0q4-02358-500",
+      "hp": "Cotton jersey T-shirt",
+      "hu": "https://us.peserico.com/products/72-r55558j0q2-a0089-a00",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Shirt in Pure Cotton Flannel Twill",
+      "lu": "https://us.peserico.com/products/72-r56060-00148-971",
+      "hp": "Pure cotton shirt",
+      "hu": "https://us.peserico.com/products/72-r56061-03507-987",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Bull cotton jeans",
+      "lu": "https://us.peserico.com/products/72-r54717tsq-03644-203",
+      "hp": "Cotton twill jeans",
+      "hu": "https://us.peserico.com/products/72-r54717l86q-04291-962",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Pure wool gabardine trousers",
+      "lu": "https://us.peserico.com/products/72-r54236-02445-272",
+      "hp": "Technical pure wool gabardine trousers",
+      "hu": "https://us.peserico.com/products/72-r54220d-02566-061",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Wool and cashmere sweater",
+      "lu": "https://us.peserico.com/products/72-r59526f12-9v470-v40",
+      "hp": "Alpaca, wool and cotton-blend sweater",
+      "hu": "https://us.peserico.com/products/72-r59608f05-p9249-p46",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Cotton twill denim jacket",
+      "lu": "https://us.peserico.com/products/72-r52780l85-04291-962",
+      "hp": "Genuine nappa leather bomber jacket",
+      "hu": "https://us.peserico.com/products/72-r52307c03-cc585-952",
+      "b": "range"
+    },
+    "Shoes": {
+      "lp": "Knit and suede sneakers",
+      "lu": "https://us.peserico.com/products/72-r79082c0-cc913-945",
+      "hp": "Genuine leather boots",
+      "hu": "https://us.peserico.com/products/72-r79089c0-cc927-952",
+      "b": "range"
+    }
+  },
+  "price_range_only": ["T-shirt", "Dress shirt", "Jeans", "Dress pants", "Outerwear", "Shoes"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://us.peserico.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
   }
 }

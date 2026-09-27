@@ -41,7 +41,16 @@
     "u": "https://www.corneliani.com/en_us/identity-jacket",
     "n": "verified — the house's own page for the model, US locale. Launched in Mantua in 2005 and now twenty years old: an unstructured four-button jacket with a removable knitted bib in 120s merino and silk, cut in a wool-cashmere-Primaloft cloth the house developed itself and treated to shed rain. The point of it is that it answers to a suit and to a bike commute without changing"
   },
-  "prices": [[120, 180], [180, 280], [250, 380], [300, 450], [495, 595], [595, 1125], [1550, 4595], [595, 975]],
+  "prices": [
+    [250, 825],
+    [295, 1050],
+    [350, 575],
+    [595, 825],
+    [475, 1150],
+    [595, 1125],
+    [1050, 4595],
+    [595, 975]
+  ],
   "notes": {
     "ital": "Mantua tailoring at industrial scale, which is the harder trick. The house makes for others as well as itself, so its Italianness is partly infrastructural.",
     "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional"
@@ -94,5 +103,73 @@
     "Sweater": "https://www.corneliani.com/en_us/mens-clothing/knitwear.html",
     "Outerwear": "https://www.corneliani.com/en_us/mens-clothing/outerwear-coats.html",
     "Shoes": "https://www.corneliani.com/en_us/mens-accessories-and-shoes/shoes.html"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Beige crew neck stretch cotton jersey t-shirt",
+      "lu": "https://www.corneliani.com/en_us/beige-crew-neck-stretch-cotton-jersey-t-shirt-27g585-2725038-029.html",
+      "hp": "China blue linen and silk crew neck t-shirt",
+      "hu": "https://www.corneliani.com/en_us/china-blue-linen-and-silk-crew-neck-t-shirt-25m547-2525111-002.html",
+      "b": "pair"
+    },
+    "Polo": {
+      "lp": "Grey button-up lisle thread polo shirt",
+      "lu": "https://www.corneliani.com/en_us/grey-button-up-lisle-thread-polo-shirt-25g524-2525014-018.html",
+      "hp": "Grey buttonless pure silk polo shirt",
+      "hu": "https://www.corneliani.com/en_us/grey-buttonless-pure-silk-polo-shirt-27m541-2725170-019.html",
+      "b": "pair"
+    },
+    "Dress shirt": {
+      "lp": "White cotton poplin shirt",
+      "lu": "https://www.corneliani.com/en_us/white-cotton-poplin-shirt-27p100-2711045-028.html",
+      "hp": "Light grey melange cotton flannel shirt with diagonal design",
+      "hu": "https://www.corneliani.com/en_us/light-grey-melange-cotton-flannel-shirt-with-diagonal-design-28p156-2a11510-016.html",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "5-pocket trousers made from navy blue stretch denim (9 oz)",
+      "lu": "https://www.corneliani.com/en_us/5-pocket-trousers-made-from-navy-blue-9-oz-stretch-denim.html",
+      "hp": "Blue 11 o.z. stretch cotton jeans",
+      "hu": "https://www.corneliani.com/en_us/blue-11-o-z-stretch-cotton-jeans-284jc2-2a20207-001.html",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Blue one-pleat stretch cotton gabardine trousers",
+      "lu": "https://www.corneliani.com/en_us/blue-one-pleat-stretch-cotton-gabardine-trousers-274b03-2714517-002.html",
+      "hp": "Brown pure natural stretch Extralight wool trousers",
+      "hu": "https://www.corneliani.com/en_us/brown-pure-natural-stretch-extralight-wool-trousers-284575-2a18237-038.html",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Melange grey crew neck extra fine pure wool jumper",
+      "lu": "https://www.corneliani.com/en_us/melange-grey-crew-neck-extra-fine-pure-wool-jumper-28m500-2a25100-014.html",
+      "hp": "Brown wool and cashmere blend jumper (97% cashmere crew neck)",
+      "hu": "https://www.corneliani.com/en_us/brown-wool-and-cashmere-blend-jumper-28m558-2a25124-032.html",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Grey jacket made from ultra light technical fabric",
+      "lu": "https://www.corneliani.com/en_us/grey-jacket-made-from-ultra-light-technical-fabric-27l5p6-2720156-025.html",
+      "hp": "Dark brown leather bomber jacket with detachable vest",
+      "hu": "https://www.corneliani.com/en_us/dark-brown-leather-bomber-jacket-with-detachable-vest-26l5d6-2620102-030.html",
+      "b": "range"
+    },
+    "Shoes": {
+      "lp": "Blue navy leather loafers",
+      "lu": "https://www.corneliani.com/en_us/blue-navy-leather-loafers-27tm65-2720924-001.html",
+      "hp": "Brown deerskin loafers",
+      "hu": "https://www.corneliani.com/en_us/brown-deerskin-loafers-27tm77-2720917-030.html",
+      "b": "pair"
+    }
+  },
+  "price_range_only": ["Dress shirt", "Jeans", "Dress pants", "Outerwear"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.corneliani.com/en_us/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true,
+  "shop": "https://www.corneliani.com/en_us/catalogsearch/result/?q="
 }

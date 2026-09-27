@@ -38,7 +38,7 @@
     "u": "https://www.theory.com/search?q=Sylvain%20shirt%20men",
     "n": "works"
   },
-  "prices": [[60, 195], [105, 214], [145, 225], [175, 255], [175, 285], [225, 345], [365, 1295], "?"],
+  "prices": [[75, 215], [95, 225], [225, 285], [225, 225], [285, 395], [225, 345], [325, 1695], [295, 395]],
   "notes": {
     "wool": "the Good Wool traceable supply chain",
     "whitet": "a named tee in the range — seeded 27 Sep 2026, provisional"
@@ -103,5 +103,72 @@
     "Dress pants": "https://www.theory.com/men/pant-guide/formal-pant/",
     "Sweater": "https://www.theory.com/men/sweaters-and-cardigans/",
     "Outerwear": "https://www.theory.com/men/outerwear/"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Precise Tee in Cotton Jersey",
+      "lu": "https://www.theory.com/men/t-shirts-and-polos/precise-tee-in-cotton-jersey/P0194511_Y4I.html",
+      "hp": "Soris Tee in Regal Wool",
+      "hu": "https://www.theory.com/men/mens-sweaters-and-cardigans/soris-tee-in-regal-wool/P0381704_TXO.html",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Bron Polo Shirt in Cosmos Slub Cotton",
+      "lu": "https://www.theory.com/men/t-shirts-and-polos/bron-polo-shirt-in-cosmos-slub-cotton/M0294501_001.html",
+      "hp": "Zip Polo Shirt in Cotton",
+      "hu": "https://www.theory.com/men/t-shirts-and-polos/zip-polo-shirt-in-cotton/Q0484705_2H5.html",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Tailored Shirt in Superior Cotton",
+      "lu": "https://www.theory.com/men/shirts/tailored-shirt-in-superior-cotton/P0574512_XHX.html",
+      "hp": "Irving Shirt in Faded Plaid",
+      "hu": "https://www.theory.com/men/shirts/irving-shirt-in-faded-plaid/Q0874502_XFB.html",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Standard Jean in Tinted Denim",
+      "lu": "https://www.theory.com/men/pants/standard-jean-in-tinted-denim/Q0774217_Q5W.html",
+      "hp": "Relaxed Jean in Denim",
+      "hu": "https://www.theory.com/men/pants/relaxed-jean-in-denim/Q0774207_G38.html",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Mayer Pant in Stretch Wool",
+      "lu": "https://www.theory.com/men/pants/mayer-pant-in-stretch-wool/I0271254_G0F.html",
+      "hp": "Relaxed Pleat Pant in Studio Wool",
+      "hu": "https://www.theory.com/men/pants/relaxed-pleat-pant-in-studio-wool/Q0771201_2U4.html",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Crewneck Sweater in Regal Wool",
+      "lu": "https://www.theory.com/men/mens-sweaters-and-cardigans/crewneck-sweater-in-regal-wool/J0781713_2U8.html",
+      "hp": "Hilles Crewneck Sweater in Cashmere",
+      "hu": "https://www.theory.com/men/mens-sweaters-and-cardigans/hilles-crewneck-sweater-in-cashmere/P0888703_TS8.html",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "River Trucker Jacket in Neoteric Twill",
+      "lu": "https://www.theory.com/men/blazers-and-jackets/river-trucker-jacket-in-neoteric-twill/M0274406_D01.html",
+      "hp": "Two-Button Coat in Atelier Wool",
+      "hu": "https://www.theory.com/men/mens-outerwear/two-button-coat-in-atelier-wool/P0971401_2H6.html",
+      "b": "range"
+    },
+    "Shoes": {
+      "lp": "Sneaker in Leather",
+      "lu": "https://www.theory.com/men/shoes/sneaker-in-leather/P0870001_2XC.html",
+      "hp": "Derby Shoe in Leather",
+      "hu": "https://www.theory.com/men/shoes/derby-shoe-in-leather/Q0379001_001.html",
+      "b": "range"
+    }
+  },
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants", "Outerwear", "Shoes"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.theory.com/men/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

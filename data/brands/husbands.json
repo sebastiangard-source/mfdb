@@ -33,20 +33,20 @@
   "chan": ["W"],
   "conf": "L",
   "forgc": [2, 2, 3],
-  "shop": "https://www.husbands-paris.com/search?q=",
+  "shop": "https://husbands-paris.com/en/search?q=",
   "onething": {
     "p": "Two-button peak-lapel jacket",
     "u": "https://husbands-paris.com/en/collections/suits",
     "n": "verified — own-site collection. The house lists this as a signature model: structured shoulder, nipped waist, wide lapel, Gainsbourg by way of Cassavetes"
   },
   "prices": [
-    [162, 185],
-    [185, 255],
-    [301, 787],
-    [440, 440],
-    [450, 650],
+    [200, 230, "USD_landed"],
+    null,
+    [380, 990, "USD_landed"],
+    [540, 560, "USD_landed"],
+    [680, 790, "USD_landed"],
     [690, 690, "USD_landed"],
-    [2450, 3480, "USD_landed"],
+    [750, 3480, "USD_landed"],
     [720, 930, "USD_landed"]
   ],
   "notes": {
@@ -96,5 +96,65 @@
     "Sweater": "https://husbands-paris.com/collections/mailles",
     "Outerwear": "https://husbands-paris.com/collections/manteaux",
     "Shoes": "https://husbands-paris.com/collections/chaussures"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Pocket T-shirt in Cotton Jersey - White",
+      "lu": "https://husbands-paris.com/en/products/pocket-t-shirt-in-cotton-jersey-white",
+      "hp": "Graphic T-shirt in Cotton Jersey - Heather Grey",
+      "hu": "https://husbands-paris.com/en/products/graphic-t-shirt-in-cotton-jersey-heather-grey",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Wide Collar Shirt in Cotton Poplin - White",
+      "lu": "https://husbands-paris.com/en/products/wide-collar-shirt-in-cotton-poplin-white",
+      "hp": "Classic Collar Shirt in Silk Crepe - Olive",
+      "hu": "https://husbands-paris.com/en/products/classic-collar-shirt-in-silk-crepe-olive",
+      "b": "pair"
+    },
+    "Jeans": {
+      "lp": "Flared Jeans in Cotton Denim - Greencast Indigo",
+      "lu": "https://husbands-paris.com/en/products/flared-high-waisted-jeans-denim-greencast-indigo",
+      "hp": "Flared Jeans in Cotton Denim - Blue Stone Wash",
+      "hu": "https://husbands-paris.com/en/products/flared-high-waisted-jeans-denim-blue-stone-washed",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Flared Trousers in Poly-Wool Twill - Navy",
+      "lu": "https://husbands-paris.com/en/products/flared-trousers-in-poly-wool-twill-navy",
+      "hp": "Wide Trousers in 4-Ply Virgin Wool Twill - Grey Herringbone with Stripes",
+      "hu": "https://husbands-paris.com/en/products/wide-trousers-in-4-ply-virgin-wool-twill-grey-herringbone-with-stripes",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Crewneck Sweater in Brushed Superfine Alpaca Blend - Cream",
+      "lu": "https://husbands-paris.com/en/products/crewneck-sweater-in-brushed-superfine-alpaca-blend-cream",
+      "hp": "Crewneck Sweater in Brushed Superfine Alpaca Blend - Cream",
+      "hu": "https://husbands-paris.com/en/products/crewneck-sweater-in-brushed-superfine-alpaca-blend-cream",
+      "b": "single"
+    },
+    "Outerwear": {
+      "lp": "Trucker Jacket in Cotton Denim - Indigo",
+      "lu": "https://husbands-paris.com/en/products/trucker-jacket-in-cotton-denim-indigo",
+      "hp": "Double-Breasted Coat in Camel Hair - Camel",
+      "hu": "https://husbands-paris.com/en/products/double-breasted-coat-in-camel-hair-camel",
+      "b": "range"
+    },
+    "Shoes": {
+      "lp": "Strap Loafers in Lambskin - Burgundy",
+      "lu": "https://husbands-paris.com/en/products/strap-loafers-in-lambskin-burgundy",
+      "hp": "Penny Loafers in Aniline Kidskin - Dark Brown",
+      "hu": "https://husbands-paris.com/en/products/penny-loafers-in-aniline-kidskin-dark-brown",
+      "b": "pair"
+    }
+  },
+  "price_range_only": ["T-shirt", "Jeans", "Dress pants", "Outerwear"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://husbands-paris.com/en/",
+    "currency": "USD_landed",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

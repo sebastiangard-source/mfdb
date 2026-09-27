@@ -42,7 +42,7 @@
     "u": "https://bananarepublic.gap.com/browse/search.do?searchText=Sweater%20polo%20men",
     "n": "?"
   },
-  "prices": [[30, 50], [50, 80], [80, 120], [100, 140], [100, 150], [90, 160], [298, 598], [238, 238]],
+  "prices": [[40, 60], [70, 120], [90, 120], [120, 180], [148, 230], [90, 160], [298, 598], [238, 238]],
   "doors": {
     "c": "full",
     "n": 129,
@@ -257,5 +257,72 @@
   },
   "notes": {
     "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Authentic Supima Midweight T-Shirt",
+      "lu": "https://bananarepublic.gap.com/browse/product.do?pid=811425032",
+      "hp": "Heavyweight Cotton Boxy Tee",
+      "hu": "https://bananarepublic.gap.com/browse/product.do?pid=899458062",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Luxury-Touch Polo",
+      "lu": "https://bananarepublic.gap.com/browse/product.do?pid=811423522",
+      "hp": "Cotton Zig-Zag Sweater Polo",
+      "hu": "https://bananarepublic.gap.com/browse/product.do?pid=910903012",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Slim-Fit Wrinkle-Resistant Dress Shirt",
+      "lu": "https://bananarepublic.gap.com/browse/product.do?pid=871242192",
+      "hp": "Slim-Fit Cotton-Cashmere Dress Shirt",
+      "hu": "https://bananarepublic.gap.com/browse/product.do?pid=906459002",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Slim Luxe Traveler Jean",
+      "lu": "https://bananarepublic.gap.com/browse/product.do?pid=796118012",
+      "hp": "Slim Selvedge Jean",
+      "hu": "https://bananarepublic.gap.com/browse/product.do?pid=906656002",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Classic Tapered Twill Dress Pant",
+      "lu": "https://bananarepublic.gap.com/browse/product.do?pid=906672022",
+      "hp": "Tailored Slim Italian Barathea Suit Pant",
+      "hu": "https://bananarepublic.gap.com/browse/product.do?pid=906710002",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Merino Crew-Neck Sweater",
+      "lu": "https://bananarepublic.gap.com/browse/product.do?pid=906192042",
+      "hp": "Cashmere Crew-Neck Sweater",
+      "hu": "https://bananarepublic.gap.com/browse/product.do?pid=817422262",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Herringbone Reversible Quilted Bomber Jacket",
+      "lu": "https://bananarepublic.gap.com/browse/product.do?pid=906592002",
+      "hp": "Suede Bomber Jacket with Quilted Lining",
+      "hu": "https://bananarepublic.gap.com/browse/product.do?pid=791193002",
+      "b": "pair"
+    },
+    "Shoes": {
+      "lp": "Leather Penny Loafer",
+      "lu": "https://bananarepublic.gap.com/browse/product.do?pid=824283002",
+      "hp": "Italian Suede Loafer",
+      "hu": "https://bananarepublic.gap.com/browse/product.do?pid=904574012",
+      "b": "pair"
+    }
+  },
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://bananarepublic.gap.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

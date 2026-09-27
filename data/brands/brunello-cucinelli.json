@@ -46,13 +46,13 @@
     "n": ""
   },
   "prices": [
-    [400, 690],
-    [770, 2000],
-    [650, 2950],
-    [780, 1270],
-    [730, 2700],
-    [1300, 4600],
-    [4600, 17900],
+    [400, 1300],
+    [570, 1850],
+    [650, 1900],
+    [830, 1650],
+    [730, 3800],
+    [1300, 4250],
+    [3700, 6900],
     [1200, 1600]
   ],
   "shoelink": {
@@ -160,5 +160,72 @@
     "Sweater": "https://shop.brunellocucinelli.com/en-us/men/ready-to-wear/knitwear/",
     "Outerwear": "https://shop.brunellocucinelli.com/en-us/men/ready-to-wear/coats-jackets/",
     "Shoes": "https://shop.brunellocucinelli.com/en-us/men/shoes/"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Cotton jersey crew neck T-shirt",
+      "lu": "https://shop.brunellocucinelli.com/en-us/men/ready-to-wear/t-shirts-polos/cotton-jersey-crew-neck-t-shirt-262M0B131308C6159.html",
+      "hp": "Cotton waffle jersey T-shirt with Henley collar",
+      "hu": "https://shop.brunellocucinelli.com/en-us/men/ready-to-wear/t-shirts-polos/cotton-jersey-t-shirt-262MW8661355C4481.html",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Cotton jersey polo with shirt-style collar (Jersey polo shirt)",
+      "lu": "https://shop.brunellocucinelli.com/en-us/men/ready-to-wear/t-shirts-polos/jersey-polo-shirt-262M0B133936C4425.html",
+      "hp": "Cotton textured rib knit polo (Cotton knit polo)",
+      "hu": "https://shop.brunellocucinelli.com/en-us/men/ready-to-wear/knitwear/cotton-knit-polo-262M29204205PC7868.html",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Twill shirt with spread collar",
+      "lu": "https://shop.brunellocucinelli.com/en-us/men/ready-to-wear/shirts/twill-shirt-with-spread-collar-262MBUC40028C159.html",
+      "hp": "Virgin wool, silk and cotton chalk stripe piqué shirt with spread collar",
+      "hu": "https://shop.brunellocucinelli.com/en-us/men/ready-to-wear/shirts/pique-shirt-262MM8556686C241.html",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Lightweight denim traditional fit five-pocket trousers",
+      "lu": "https://shop.brunellocucinelli.com/en-us/men/ready-to-wear/denim/traditional-fit-trousers-262M0Z37D3210C1471.html",
+      "hp": "Denim iconic fit five-pocket trousers with rips",
+      "hu": "https://shop.brunellocucinelli.com/en-us/men/ready-to-wear/denim/iconic-fit-five-pocket-trousers-262M241PO2060C1R68.html",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Garment-dyed Italian fit trousers in American Pima comfort cotton gabardine",
+      "lu": "https://shop.brunellocucinelli.com/en-us/men/ready-to-wear/pants/comfort-gabardine-trousers-262M289LI1770C2200.html",
+      "hp": "Cashmere and silk chevron flannel trousers with pleat",
+      "hu": "https://shop.brunellocucinelli.com/en-us/men/ready-to-wear/pants/chevron-trousers-262MV439L00HC010.html",
+      "b": "pair"
+    },
+    "Sweater": {
+      "lp": "Cotton English rib sweater with raglan sleeves (crew-neck)",
+      "lu": "https://shop.brunellocucinelli.com/en-us/men/ready-to-wear/knitwear/english-rib-knit-sweater-262M29400100CLR21.html",
+      "hp": "Alpaca, cashmere and wool nordic jacquard sweater (crew-neck)",
+      "hu": "https://shop.brunellocucinelli.com/en-us/men/ready-to-wear/knitwear/nordic-jacquard-sweater-262MTF710000CUO52.html",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Water-resistant microfiber outerwear jacket",
+      "lu": "https://shop.brunellocucinelli.com/en-us/men/ready-to-wear/coats-jackets/microfiber-outerwear-jacket-262ML4966205CJD30.html",
+      "hp": "Lightweight cashmere flannel outerwear jacket",
+      "hu": "https://shop.brunellocucinelli.com/en-us/men/ready-to-wear/coats-jackets/lightweight-cashmere-flannel-outerwear-jacket-262MV4216556CA568.html",
+      "b": "pair"
+    },
+    "Shoes": {
+      "lp": "Calfskin penny loafers",
+      "lu": "https://shop.brunellocucinelli.com/en-us/men/shoes/loafers/calfskin-penny-loafers-262MZUCRTE705C8434.html",
+      "hp": "Polished calfskin and suede loafers",
+      "hu": "https://shop.brunellocucinelli.com/en-us/men/shoes/loafers/calfskin-and-suede-loafers-262MZUOXSF673CKC46.html",
+      "b": "pair"
+    }
+  },
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://shop.brunellocucinelli.com/en-us/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "Travelwear (in-store ready-to-wear line; no figure taken from it)"
+  },
+  "price_checked": true
 }

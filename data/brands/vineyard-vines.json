@@ -45,7 +45,7 @@
     "u": "https://www.vineyardvines.com/search?q=Shep%20Shirt%20men",
     "n": "works"
   },
-  "prices": [[42, 58], [85, 120], [110, 145], [110, 160], [100, 150], [108, 108], [168, 178], "?"],
+  "prices": [[40, 65], [80, 108], [99, 138], [138, 138], [108, 138], [108, 328], [168, 178], [43, 99]],
   "notes": {
     "golf": "the bestselling polo is named after a golf club; the performance line is course wear in madras colors",
     "finbro": "the Murray Hill starter kit — whale on Saturdays, spreadsheets by Monday",
@@ -210,7 +210,7 @@
     "nc": ["mens-t-shirts", "mens-fashion-knits", "mens-belts"],
     "st": "complete"
   },
-  "price_range_only": ["Outerwear", "Shoes"],
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Dress pants", "Sweater", "Outerwear", "Shoes"],
   "garment_links": {
     "T-shirt": "https://www.vineyardvines.com/category/Mens-Tee-Shirts",
     "Polo": "https://www.vineyardvines.com/category/mens-polos",
@@ -219,5 +219,71 @@
     "Dress pants": "https://www.vineyardvines.com/category/mens-pants-chino",
     "Sweater": "https://www.vineyardvines.com/category/mens-sweaters",
     "Outerwear": "https://www.vineyardvines.com/category/Mens-Blazers"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Surf Pocket Tee",
+      "lu": "https://www.vineyardvines.com/product/mens-t-shirts/surf-short-sleeve-pocket-tee/1V023064.html",
+      "hp": "Sun Tech Short-Sleeve Tee",
+      "hu": "https://www.vineyardvines.com/product/mens-t-shirts/sun-tech-short-sleeve-tee/1V024557.html",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Surf Polo",
+      "lu": "https://www.vineyardvines.com/product/mens-polos/surf-polo/1G013191.html",
+      "hp": "Performance Air Tech Polo",
+      "hu": "https://www.vineyardvines.com/product/mens-polos/air-tech-mesh-polo/1G013892.html",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Shoreline Solid Perfect Wash Poplin Shirt",
+      "lu": "https://www.vineyardvines.com/product/mens-classic-fit/shoreline-solid-perfect-wash-poplin-shirt/1W012688.html",
+      "hp": "Performance Tech Twill Solid Shirt",
+      "hu": "https://www.vineyardvines.com/product/mens-classic-fit/performance-tech-twill-solid-shirt/1W013374.html",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Slim Straight Indigo Jeans",
+      "lu": "https://www.vineyardvines.com/product/mens-pants/slim-straight-indigo-denim/1P001363.html",
+      "hp": "Slim Straight Indigo Jeans",
+      "hu": "https://www.vineyardvines.com/product/mens-pants/slim-straight-indigo-denim/1P001363.html",
+      "b": "single"
+    },
+    "Dress pants": {
+      "lp": "Chilmark Chinos",
+      "lu": "https://www.vineyardvines.com/product/mens-pants/chilmark-chinos/1P001366.html",
+      "hp": "Performance On-The-Go Pants",
+      "hu": "https://www.vineyardvines.com/product/mens-pants/on-the-go-pant/1P000005.html",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Folly Beach Garment-Dyed Crewneck",
+      "lu": "https://www.vineyardvines.com/product/mens-sweaters/folly-beach-crewneck/1E001947.html",
+      "hp": "Cashmere Quarter-Zip",
+      "hu": "https://www.vineyardvines.com/product/mens-sweaters/cashmere-quarter-zip/1E001991.html",
+      "b": "range"
+    },
+    "Outerwear": {
+      "lp": "Stow & Go Shep Jacket",
+      "lu": "https://www.vineyardvines.com/product/mens-outerwear/stow-go-shep-jacket/1O001886.html",
+      "hp": "Skyward Anorak",
+      "hu": "https://www.vineyardvines.com/product/mens-outerwear/technical-anorak/1O002029.html",
+      "b": "range"
+    },
+    "Shoes": {
+      "lp": "Classic Whale Foam Flip Flops",
+      "lu": "https://www.vineyardvines.com/product/mens-shoes/classic-whale-foam-flip-flop/1Z001043.html",
+      "hp": "Contoured Leather Flip Flops",
+      "hu": "https://www.vineyardvines.com/product/mens-shoes/contoured-leather-flip-flops/1Z001064.html",
+      "b": "range"
+    }
+  },
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.vineyardvines.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

@@ -39,7 +39,7 @@
     "u": "https://www.cutsclothing.com/search?q=Curve-Hem%20tee",
     "n": "verified ✓"
   },
-  "prices": [[48, 98], [72, 88], [72, 98], null, [124, 124], null, [98, 275], null],
+  "prices": [[48, 98], [72, 88], [82, 98], null, [124, 150], [138, 138], [128, 275], null],
   "price_checked": true,
   "doors": {
     "c": "full",
@@ -90,5 +90,57 @@
   },
   "notes": {
     "whitet": "built on a developed tee cloth (AO Curve-Hem) — seeded 27 Sep 2026, provisional"
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Crossover Active Tee | Black Signature-Fit",
+      "lu": "https://www.cutsclothing.com/products/crossover-tee-black",
+      "hp": "Riviera Luxe Knit Crewneck Tee | Black Signature-Fit",
+      "hu": "https://www.cutsclothing.com/products/riviera-knit-crewneck-tee-short-sleeve-black",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "AO Polo | Black Signature-fit PYCA Pro",
+      "lu": "https://www.cutsclothing.com/products/black-pyca-polo",
+      "hp": "SoHo Ribbed Polo | Black Signature-Fit",
+      "hu": "https://www.cutsclothing.com/products/soho-ribbed-polo-black",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "AO Long Sleeve Button Up | White Signature-Fit PYCA Pro",
+      "lu": "https://www.cutsclothing.com/products/ao-l-s-button-up-white",
+      "hp": "Soho Long Sleeve Button Up | White Signature-fit",
+      "hu": "https://www.cutsclothing.com/products/soho-long-sleeve-button-up-white",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "SoHo Trouser | Black Classic-fit",
+      "lu": "https://www.cutsclothing.com/products/soho-trouser-black",
+      "hp": "Essential Trouser Pant | Overcast Relaxed-Fit",
+      "hu": "https://www.cutsclothing.com/products/men-essential-pant-overcast",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Palisade Textured Knit Crew Sweater | Black Classic-Fit",
+      "lu": "https://www.cutsclothing.com/products/palisade-textured-knit-crew-sweater-black",
+      "hp": "Palisade Textured Knit Crew Sweater | Black Classic-Fit",
+      "hu": "https://www.cutsclothing.com/products/palisade-textured-knit-crew-sweater-black",
+      "b": "single"
+    },
+    "Outerwear": {
+      "lp": "Traverse Textured Jacket | Black",
+      "lu": "https://www.cutsclothing.com/products/traverse-textured-jacket-black",
+      "hp": "Legacy Bomber | Black Signature-fit",
+      "hu": "https://www.cutsclothing.com/products/black-legacy-bomber",
+      "b": "range"
+    }
+  },
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Dress pants", "Outerwear"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.cutsclothing.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
   }
 }

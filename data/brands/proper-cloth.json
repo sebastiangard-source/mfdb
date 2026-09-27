@@ -32,13 +32,13 @@
   "chan": ["W", "O"],
   "conf": "S",
   "forgc": [2, 5, 5],
-  "shop": "https://propercloth.com/search?q=",
+  "shop": "https://propercloth.com/shop/search/",
   "onething": {
     "p": "The custom oxford",
     "u": "https://propercloth.com/oxfords",
     "n": "works"
   },
-  "prices": [[75, 195], [145, 350], [125, 325], [195, 395], [185, 895], [145, 375], [195, 795], null],
+  "prices": [[75, 195], [145, 195], [125, 400], [235, 275], [225, 895], [195, 350], [395, 795], null],
   "price_checked": true,
   "notes": {
     "cotton": "350 published fabrics from Albini and Thomas Mason with open specs",
@@ -95,5 +95,64 @@
     "Dress pants": "https://propercloth.com/shop/pants/dress-pants",
     "Sweater": "https://propercloth.com/shop/knitwear",
     "Outerwear": "https://propercloth.com/shop/outerwear"
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "The Vintage Cotton T-Shirt",
+      "lu": "https://propercloth.com/products/vintage-cotton-tshirt",
+      "hp": "The Linen Rollneck Knit T-Shirt",
+      "hu": "https://propercloth.com/products/linen-rollneck-t-shirt",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "The Osprey Performance Golf Polo",
+      "lu": "https://propercloth.com/dress-shirts/light-grey-performance-knit-jersey-461576.html",
+      "hp": "The Pure Linen Polo",
+      "hu": "https://propercloth.com/dress-shirts/light-slate-linen-knit-jersey-741338.html",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "The Clark Oxford Cloth Button Down",
+      "lu": "https://propercloth.com/dress-shirts/clark-faded-navy-oxford-cloth-580738.html",
+      "hp": "The Sea Island Contrast Collar Shirt",
+      "hu": "https://propercloth.com/dress-shirts/dja-sea-island-light-blue-broadcloth-274189.html",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "The Sonoma Stretch Slim Jean",
+      "lu": "https://propercloth.com/tailored-clothing/sonoma-stretch-slim-jean-in-light-wash-denim-71652.html",
+      "hp": "The Dean Stretch Slim Jean",
+      "hu": "https://propercloth.com/tailored-clothing/dean-stretch-slim-jean-in-rinse-wash-japanese-denim-60243.html",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "The Versa Stretch Dress Pant",
+      "lu": "https://propercloth.com/tailored-clothing/brown-versa-pant-285093.html",
+      "hp": "The S170s Wool and Silk Dress Pant",
+      "hu": "https://propercloth.com/tailored-clothing/loro-piana-fabric-grey-s170s-wool-and-silk-dress-pant-171841.html",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "The Easy Care Italian Merino Crewneck Sweater",
+      "lu": "https://propercloth.com/products/easy-care-merino-wool-crewneck-sweater",
+      "hp": "The Heritage Mid Gauge Cashmere Crewneck Sweater",
+      "hu": "https://propercloth.com/products/mid-gauge-cashmere-crewneck-sweater",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "The Sedona Trucker Jacket",
+      "lu": "https://propercloth.com/products/sedona-trucker",
+      "hp": "The Bond Technical Wool Raincoat",
+      "hu": "https://propercloth.com/products/bond-storm-system-raincoat",
+      "b": "range"
+    }
+  },
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants", "Outerwear"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://propercloth.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
   }
 }

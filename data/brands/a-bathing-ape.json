@@ -39,7 +39,7 @@
     "u": "https://us.bape.com/products/1k70-115-006",
     "n": "verified — direct product page, $569. The full-face zip hood is the brand's whole signature; the BAPE STA sits in the shoe slot rather than competing here"
   },
-  "prices": [[99, 285], [239, 239], [275, 535], [369, 655], null, "?", [475, 1905], [299, 359]],
+  "prices": [[99, 285], [239, 239], [275, 535], [369, 655], null, [475, 655], [475, 1905], [299, 359]],
   "shoelink": {
     "t": "BAPE STA",
     "u": "https://us.bape.com/collections/bape-sta-collection"
@@ -107,5 +107,64 @@
     "Outerwear": "https://us.bape.com/collections/category-clothing-jacket/gender-men",
     "Shoes": "https://us.bape.com/collections/category-clothing-footwear/gender-men"
   },
-  "price_checked": true
+  "price_checked": true,
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "ONE POINT TEE MENS",
+      "lu": "https://us.bape.com/products/1l80-110-004",
+      "hp": "COLOR CAMO REVERSIBLE TEE MENS",
+      "hu": "https://us.bape.com/products/1m30-109-008",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "1ST CAMO JACQUARD LOGO RELAXED FIT POLO SHIRT MENS",
+      "lu": "https://us.bape.com/products/1l80-112-302",
+      "hp": "1ST CAMO JACQUARD LOGO RELAXED FIT POLO SHIRT MENS",
+      "hu": "https://us.bape.com/products/1l80-112-302",
+      "b": "single"
+    },
+    "Dress shirt": {
+      "lp": "ONE POINT OXFORD LS SHIRT MENS",
+      "lu": "https://us.bape.com/products/1l80-131-002",
+      "hp": "SOLID 1ST CAMO WORK LS SHIRT MENS",
+      "hu": "https://us.bape.com/products/1m30-131-305",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "STA REGULAR FIT 13 OZ DENIM PANTS MENS",
+      "lu": "https://us.bape.com/products/1l80-150-004",
+      "hp": "COLOR STONE 13 OZ DENIM PANTS MENS",
+      "hu": "https://us.bape.com/products/1l80-150-002",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "ONE POINT CABLE KNIT CREWNECK SWEATSHIRT MENS",
+      "lu": "https://us.bape.com/products/1m80-120-302",
+      "hp": "CABLE KNIT SHARK RELAXED FIT FULL ZIP HOODIE MENS",
+      "hu": "https://us.bape.com/products/1m80-120-303",
+      "b": "range"
+    },
+    "Outerwear": {
+      "lp": "SOCCER TRACK JACKET MENS",
+      "lu": "https://us.bape.com/products/1m80-140-310",
+      "hp": "MULTI LOGO QUILTED LEATHER BOMBER JACKET MENS",
+      "hu": "https://us.bape.com/products/1l80-141-303",
+      "b": "range"
+    },
+    "Shoes": {
+      "lp": "BAPE STA #1 MENS",
+      "lu": "https://us.bape.com/products/1k80-191-301",
+      "hp": "BAPE SHARK STA #1 MENS",
+      "hu": "https://us.bape.com/products/1l80-191-313",
+      "b": "range"
+    }
+  },
+  "price_range_only": ["T-shirt", "Dress shirt", "Jeans", "Sweater", "Outerwear", "Shoes"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://us.bape.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  }
 }

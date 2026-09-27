@@ -42,14 +42,14 @@
     "n": "Use this: https://www.rickowens.eu/search?q=geobasket"
   },
   "prices": [
-    [335, 915],
+    [300, 685, "USD_landed"],
     null,
-    [855, 1430],
-    [900, 1485],
-    [735, 1575],
-    [560, 1905, "USD_landed"],
+    [980, 1780, "USD_landed"],
+    [770, 2725, "USD_landed"],
+    [1445, 1720, "USD_landed"],
+    [560, 1630, "USD_landed"],
     [1875, 3225, "USD_landed"],
-    "?"
+    [675, 3290, "USD_landed"]
   ],
   "shoelink": {
     "t": "Geobasket",
@@ -105,7 +105,7 @@
     "nc": ["bottoms", "outerwear", "t-shirts and shirts"],
     "st": "complete"
   },
-  "price_range_only": ["Shoes"],
+  "price_range_only": ["T-shirt", "Dress shirt", "Jeans", "Dress pants", "Shoes"],
   "garment_links": {
     "T-shirt": "https://www.rickowens.eu/en-us/collections/men-t-shirts",
     "Dress shirt": "https://www.rickowens.eu/en-us/collections/mens-shirts",
@@ -113,5 +113,65 @@
     "Dress pants": "https://www.rickowens.eu/en-us/collections/men-pants",
     "Sweater": "https://www.rickowens.eu/en-us/collections/mens-knitwear",
     "Outerwear": "https://www.rickowens.eu/en-us/collections/mens-outerwear"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "DRKSHDW Level T (DU02E7250, black cotton jersey)",
+      "lu": "https://www.rickowens.eu/en-us/products/du02e7250rnp09",
+      "hp": "Rick's Jumbo SS T (double cotton jersey, RU02F4255)",
+      "hu": "https://www.rickowens.eu/en-us/products/ru02f4255jdc09",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Work Shirt (steel heavy poplin, RU02F4291)",
+      "lu": "https://www.rickowens.eu/en-us/products/ru02f4291te28",
+      "hp": "Island Shirt (velvet, viscose-silk, RU02F4299)",
+      "hu": "https://www.rickowens.eu/en-us/products/ru02f4299v34",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "DRKSHDW Detroit Cut (black wax stretch denim, DU02E7366)",
+      "lu": "https://www.rickowens.eu/en-us/products/du02e7366sbw99x",
+      "hp": "DRKSHDW Bolan Banana (mineral shredded denim, DU02F6363)",
+      "hu": "https://www.rickowens.eu/en-us/products/du02f6363dmksh59",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Tailored Geth (tech duchesse, RU01F2352)",
+      "lu": "https://www.rickowens.eu/en-us/products/ru01f2352thd78",
+      "hp": "Tailored Bolan (grain de poudre wool, RU02E1365)",
+      "hu": "https://www.rickowens.eu/en-us/products/ru02e1365wgp09",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Ribbed Round Neck (100% new wool, RU01F2637)",
+      "lu": "https://www.rickowens.eu/en-us/products/ru01f2637ribm09",
+      "hp": "Round Neck (90% cashmere 10% silk, RU02F4631)",
+      "hu": "https://www.rickowens.eu/en-us/products/ru02f4631kwsse09",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "DRKSHDW Brad (gravel canvas, DU02F6786)",
+      "lu": "https://www.rickowens.eu/en-us/products/du02f6786cvg148",
+      "hp": "Brad Jkt (tumbled lamb leather, RU01F2764)",
+      "hu": "https://www.rickowens.eu/en-us/products/ru01f2764lbe09",
+      "b": "pair"
+    },
+    "Shoes": {
+      "lp": "DRKSHDW Slide (slashed overdyed denim, DU01F4855)",
+      "lu": "https://www.rickowens.eu/en-us/products/du01f4855slash99",
+      "hp": "Pull On Cuffed Taquito (grainy cow, RU02F4844)",
+      "hu": "https://www.rickowens.eu/en-us/products/ru02f4844lcn0340",
+      "b": "range"
+    }
+  },
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.rickowens.eu/en-us",
+    "currency": "USD_landed",
+    "status": "read",
+    "sublines": "DRKSHDW"
+  },
+  "price_checked": true,
+  "shop": "https://www.rickowens.eu/en-us/search?q="
 }

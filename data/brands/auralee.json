@@ -39,14 +39,14 @@
     "n": "direct via Haven"
   },
   "prices": [
-    [95, 160],
-    [160, 550],
-    [240, 720],
-    [300, 450],
-    [280, 450],
+    [259, 369, "USD_landed"],
+    [605, 864, "USD_landed"],
     [534, 792, "USD_landed"],
-    [792, 5071, "USD_landed"],
-    [1078, 1353, "USD_landed"]
+    [534, 759, "USD_landed"],
+    [633, 737, "USD_landed"],
+    [534, 792, "USD_landed"],
+    [935, 4527, "USD_landed"],
+    [1150, 1353, "USD_landed"]
   ],
   "doors": {
     "c": "full",
@@ -100,5 +100,72 @@
   },
   "notes": {
     "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Luster Plaiting Tee",
+      "lu": "https://auralee.jp/item/detail/1_1_A00P02GT_1/0003",
+      "hp": "Soft Smooth Wool Stripe Jersey Tee",
+      "hu": "https://auralee.jp/item/detail/1_1_A26AT02BT_1/9044",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Baby Suri Alpaca Sheer Knit Skipper Polo (long-sleeve, sold out)",
+      "lu": "https://auralee.jp/item/detail/1_1_A26AP02AK_1/6048",
+      "hp": "Cashmere Nep Knit Polo (long-sleeve, 100% cashmere, sold out)",
+      "hu": "https://auralee.jp/item/detail/1_1_A26AP02NE_1/1037",
+      "b": "pair"
+    },
+    "Dress shirt": {
+      "lp": "Washed Finx Twill Shirt",
+      "lu": "https://auralee.jp/item/detail/1_1_A26AS01TN_1/7000",
+      "hp": "Airy Silk Georgette Shirt (100% silk)",
+      "hu": "https://auralee.jp/item/detail/1_1_A26AS01GG_1/5504",
+      "b": "pair"
+    },
+    "Jeans": {
+      "lp": "Hard Twist Denim 5P Pants",
+      "lu": "https://auralee.jp/item/detail/1_1_A00P01DM_1/7014",
+      "hp": "Silk Nep Denim 5P Wide Pants (100% silk, denim weave)",
+      "hu": "https://auralee.jp/item/detail/1_1_A26AP01SD_1/7000",
+      "b": "pair"
+    },
+    "Dress pants": {
+      "lp": "Light Wool Max Gabardine Slacks",
+      "lu": "https://auralee.jp/item/detail/1_1_A26AP02MG_1/2541",
+      "hp": "Bluefaced Wool Two-Tuck Slacks",
+      "hu": "https://auralee.jp/item/detail/1_1_A26AP02BS_1/1030",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Shetland Wool Cashmere Rib Knit P/O (62% cashmere)",
+      "lu": "https://auralee.jp/item/detail/1_1_A26AP01SB_1/9009",
+      "hp": "High Gauge Soft Cashmere Knit P/O (100% cashmere)",
+      "hu": "https://auralee.jp/item/detail/1_1_A26AP01SM_1/2501",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Sheer Nylon Ripstop Hooded Blouson",
+      "lu": "https://auralee.jp/item/detail/1_1_A26AB02NR_1/0035",
+      "hp": "Fine Calf Leather Down Blouson",
+      "hu": "https://auralee.jp/item/detail/1_1_A26AB01CB_1/2000",
+      "b": "range"
+    },
+    "Shoes": {
+      "lp": "Soft Leather Loafers",
+      "lu": "https://auralee.jp/item/detail/1_1_A26AS05QD_1/1904",
+      "hp": "Horsehide Leather Loafers",
+      "hu": "https://auralee.jp/item/detail/1_1_A26AS07QD_1/2514",
+      "b": "pair"
+    }
+  },
+  "price_range_only": ["T-shirt", "Dress pants", "Outerwear"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://auralee.jp/ (English/worldwide store, US prices in USD)",
+    "currency": "USD_landed",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

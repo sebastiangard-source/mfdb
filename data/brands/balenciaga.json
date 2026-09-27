@@ -43,7 +43,16 @@
     "u": "https://www.balenciaga.com/en-us/search?q=Triple%20S",
     "n": "verified ✓"
   },
-  "prices": [[595, 1390], [795, 850], [700, 1200], [975, 2390], [1490, 1650], "?", "?", "?"],
+  "prices": [
+    [550, 1150],
+    [1350, 2190],
+    [795, 1390],
+    [850, 1790],
+    [1290, 1590],
+    [1990, 1990],
+    [2750, 7990],
+    [995, 1090]
+  ],
   "shoelink": {
     "t": "Triple S",
     "u": "https://www.balenciaga.com/en-us/search?q=Triple%20S"
@@ -119,5 +128,72 @@
     "sc": [],
     "nc": ["T-shirts", "Sweatshirts & hoodies", "Pants"],
     "st": "complete"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Bodies Medium Fit T-Shirt (black)",
+      "lu": "https://www.balenciaga.com/en-us/bodies-medium-fit-t-shirt-black-764235TUVO71000.html",
+      "hp": "Soccer Oversized T-Shirt (red)",
+      "hu": "https://www.balenciaga.com/en-us/soccer-oversized-t-shirt-red-A003GLTUVZ76400.html",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Knitted Long Sleeve Polo (long-sleeve only)",
+      "lu": "https://www.balenciaga.com/en-us/knitted-long-sleeve-polo-navy-875653T17848065.html",
+      "hp": "Sporty Block Patched Polo (long-sleeve)",
+      "hu": "https://www.balenciaga.com/en-us/sporty-block-patched-polo-burgundy-multicolor-865803T34436069.html",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Standard Shirt (white poplin)",
+      "lu": "https://www.balenciaga.com/en-us/standard-shirt-white-850808TTM129000.html",
+      "hp": "Masking Tape Long Sleeve Shirt Large Fit",
+      "hu": "https://www.balenciaga.com/en-us/masking-tape-long-sleeve-shirt-large-fit-black-857809TRM281000.html",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Flared Pants (black Italian denim, five-pocket)",
+      "lu": "https://www.balenciaga.com/en-us/flared-pants-black-790405TQW833207.html",
+      "hp": "Piping Detail Denim Pants (five-pocket)",
+      "hu": "https://www.balenciaga.com/en-us/piping-detail-denim-pants-black-871354TQW562279.html",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Straight Fit Tailored Pants",
+      "lu": "https://www.balenciaga.com/en-us/straight-fit-tailored-pants-black-850705TJT211000.html",
+      "hp": "Large Tailored Pants",
+      "hu": "https://www.balenciaga.com/en-us/large-tailored-pants-black-A001Z4TPT151000.html",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Crewneck Sweater (100% cashmere)",
+      "lu": "https://www.balenciaga.com/en-us/crewneck-sweater-black-849950T17651000.html",
+      "hp": "Crewneck Sweater (100% cashmere)",
+      "hu": "https://www.balenciaga.com/en-us/crewneck-sweater-black-849950T17651000.html",
+      "b": "single"
+    },
+    "Outerwear": {
+      "lp": "Standard Bomber Jacket",
+      "lu": "https://www.balenciaga.com/en-us/standard-bomber-jacket-black-850848TMO131000.html",
+      "hp": "Leather Peacoat (calfskin)",
+      "hu": "https://www.balenciaga.com/en-us/leather-peacoat-burgundy-A009GFTUS096500.html",
+      "b": "range"
+    },
+    "Shoes": {
+      "lp": "Portofino Loafer",
+      "lu": "https://www.balenciaga.com/en-us/portofino-loafer-black-861618WB1B11019.html",
+      "hp": "Comfy Loafer",
+      "hu": "https://www.balenciaga.com/en-us/comfy-loafer-moka-876328WCEL12321.html",
+      "b": "pair"
+    }
+  },
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants", "Outerwear"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.balenciaga.com/en-us/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

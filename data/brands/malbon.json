@@ -40,7 +40,7 @@
     "u": "https://malbon.com/collections/polos",
     "n": "verified — polos are the deepest apparel category at 95, and the piece the brand is recognised by on a course. Category page rather than a SKU so it survives the season"
   },
-  "prices": [[58, 128], [108, 268], [168, 168], null, [148, 278], [198, 348], [168, 498], [198, 228]],
+  "prices": [[58, 88], [108, 178], [128, 228], null, [148, 228], [198, 228], [178, 398], [198, 228]],
   "price_checked": true,
   "notes": {
     "golf": "the whole proposition, and the founder’s stated complaint was that golf clothes felt like a pro’s costume; Jason Day wore it at Augusta in 2024",
@@ -111,5 +111,64 @@
     "Sweater": "https://malbon.com/collections/cardigan",
     "Outerwear": "https://malbon.com/collections/outerwear",
     "Shoes": "https://malbon.com/collections/footwear"
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Bermuda Tee (Navy)",
+      "lu": "https://malbon.com/products/bermuda-tee-navy",
+      "hp": "Gorse Heritage Tee",
+      "hu": "https://malbon.com/products/gorse-heritage-tee-heather-oatmeal",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Fairway Polo (Navy)",
+      "lu": "https://malbon.com/products/fairway-polo-navy",
+      "hp": "Crosscut Polo",
+      "hu": "https://malbon.com/products/crosscut-polo-blueberry",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Ventura Camp Shirt",
+      "lu": "https://malbon.com/products/ventura-camp-shirt-cream",
+      "hp": "Station Shirt",
+      "hu": "https://malbon.com/products/station-shirt-carafe",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Performance Nylon Tech Pant",
+      "lu": "https://malbon.com/products/performance-nylon-tech-pant-tan",
+      "hp": "Station Pant",
+      "hu": "https://malbon.com/products/station-pant-carafe",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Mariel Sweater",
+      "lu": "https://malbon.com/products/mariel-sweater-rosy-touch",
+      "hp": "Verdant Sweater",
+      "hu": "https://malbon.com/products/verdant-sweater-cream",
+      "b": "range"
+    },
+    "Outerwear": {
+      "lp": "Ridge Anorak",
+      "lu": "https://malbon.com/products/ridge-anorak-micro-chip",
+      "hp": "Grove Trench Coat",
+      "hu": "https://malbon.com/products/grove-trench-coat-cream",
+      "b": "range"
+    },
+    "Shoes": {
+      "lp": "Course Golf Shoe",
+      "lu": "https://malbon.com/products/course-golf-shoe-ivory-green",
+      "hp": "Tour 1 Golf Shoe",
+      "hu": "https://malbon.com/products/tour-1-sky-blue-golf-shoe",
+      "b": "range"
+    }
+  },
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Dress pants", "Sweater", "Outerwear", "Shoes"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://malbon.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "Malbon Golf (vendor field; same label)"
   }
 }

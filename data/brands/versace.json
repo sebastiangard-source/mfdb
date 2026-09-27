@@ -43,14 +43,14 @@
     "n": "Use this: https://www.versace.com/us/en/men/clothing/shirts/barocco-silk-shirt-blue/1003926-1A13557_5UH90.html"
   },
   "prices": [
-    [425, 1225],
-    [495, 1125],
-    [1175, 1990],
-    [850, 1175],
-    [1375, 1390],
+    [395, 1790],
+    [495, 1690],
+    [995, 2390],
+    [925, 2290],
+    [1125, 1850],
     [995, 1850],
-    [1850, 6890],
-    [795, 1425]
+    [1850, 4990],
+    [950, 1425]
   ],
   "shoelink": {
     "t": "shoes",
@@ -136,5 +136,72 @@
     "Sweater": "https://www.versace.com/us/en/men/clothing/knitwear/",
     "Outerwear": "https://www.versace.com/us/en/men/clothing/jackets-coats/",
     "Shoes": "https://www.versace.com/us/en/men/shoes/"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Embroidered Cotton-Jersey Slim T-Shirt",
+      "lu": "https://www.versace.com/us/en/1013944-1A16455_1B000.html",
+      "hp": "Embroidered Cotton-Jersey Slim T-Shirt (Medusa lurex-yarn embroidery, Online Exclusive)",
+      "hu": "https://www.versace.com/us/en/1026452-1A19346_1B000.html",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Embroidered Cotton Piqué Polo",
+      "lu": "https://www.versace.com/us/en/1013906-1A15694_1B000.html",
+      "hp": "Silk-Cotton Knit Polo (short-sleeved)",
+      "hu": "https://www.versace.com/us/en/1023518-1A17386_1U040.html",
+      "b": "pair"
+    },
+    "Dress shirt": {
+      "lp": "Jacquard Cotton-Poplin Shirt",
+      "lu": "https://www.versace.com/us/en/1013348-1A08883_1W000.html",
+      "hp": "Embroidered-Detail Silk-Poplin Shirt",
+      "hu": "https://www.versace.com/us/en/1025410-1A19188_1UK80.html",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Slim Jeans",
+      "lu": "https://www.versace.com/us/en/A81832-1A03069_1D040.html",
+      "hp": "Straight Jeans (New In)",
+      "hu": "https://www.versace.com/us/en/1026796-1A18778_1D040.html",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Wool Tapered Formal Pants",
+      "lu": "https://www.versace.com/us/en/1011439-1A07454_1B000.html",
+      "hp": "Pinstripe Wool Dress Pants",
+      "hu": "https://www.versace.com/us/en/1023956-1A19169_2B8D0.html",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Embroidered Wool-Blend Knit Sweater",
+      "lu": "https://www.versace.com/us/en/1010534-1A07614_1B000.html",
+      "hp": "Intarsia Cashmere Knit Sweater",
+      "hu": "https://www.versace.com/us/en/1026797-1A19057_1B000.html",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Embroidered-Logo Nylon Blouson",
+      "lu": "https://www.versace.com/us/en/1025468-1A17589_1B000.html",
+      "hp": "Nappa Blouson",
+      "hu": "https://www.versace.com/us/en/1025778-1A18381_1B000.html",
+      "b": "pair"
+    },
+    "Shoes": {
+      "lp": "Medusa '95 Leather Loafers",
+      "lu": "https://www.versace.com/us/en/1013592-1A09912_1B00V.html",
+      "hp": "Guanto Leather Patchwork Loafers",
+      "hu": "https://www.versace.com/us/en/1026182-1A18790_2B07J.html",
+      "b": "pair"
+    }
+  },
+  "price_range_only": ["T-shirt", "Dress shirt", "Jeans", "Dress pants"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.versace.com/us/en/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

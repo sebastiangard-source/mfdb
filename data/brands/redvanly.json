@@ -44,7 +44,7 @@
     "u": "https://www.redvanly.com/collections/mens-pull-on-pants",
     "n": "verified — collection page opened; the house calls itself the originator of the pull-on trouser. Collection rather than a single SKU, because the model runs across fabrics. Kent lists at $150"
   },
-  "prices": [[70, 75], [95, 110], null, [185, 185], [150, 185], [225, 225], [150, 325], "?"],
+  "prices": [[70, 75], [95, 110], null, [185, 185], [150, 185], [225, 225], [150, 325], [175, 200]],
   "notes": {
     "synth": "named fabric platforms throughout — PUREpoly, GLYDINGnylon, STRETCHknit, CLIMATEcomfort",
     "golf": "golf is the house register, with a separate racquet and athletics book beside it",
@@ -130,5 +130,64 @@
     "Sweater": "https://www.redvanly.com/collections/sweaters",
     "Outerwear": "https://www.redvanly.com/collections/outerwear"
   },
-  "price_checked": true
+  "price_checked": true,
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Minna Crew in Harbor Blue",
+      "lu": "https://www.redvanly.com/products/minna-tee-in-harbor-blue",
+      "hp": "Sussex Tee in Harbor Blue",
+      "hu": "https://www.redvanly.com/products/sussex-tee-in-harbor-blue",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Alpine Polo in Violet Ice",
+      "lu": "https://www.redvanly.com/products/alpine-polo-in-violet-ice",
+      "hp": "Kendall Jacquard Polo in Bordeaux",
+      "hu": "https://www.redvanly.com/products/kendall-jacquard-polo-in-bordeaux",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Ranstead Pull-On Jean in Oil",
+      "lu": "https://www.redvanly.com/products/ranstead-pull-on-jean-in-oil",
+      "hp": "Ranstead Pull-On Jean in Oil",
+      "hu": "https://www.redvanly.com/products/ranstead-pull-on-jean-in-oil",
+      "b": "single"
+    },
+    "Dress pants": {
+      "lp": "Kent Pull-On Trouser in Maplewood",
+      "lu": "https://www.redvanly.com/products/kent-pull-on-trouser-in-maplewood",
+      "hp": "Desmond Pull-On Trouser in Charcoal",
+      "hu": "https://www.redvanly.com/products/desmond-pull-on-trouser-in-charcoal",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Robinson Crewneck Sweater in Cream",
+      "lu": "https://www.redvanly.com/products/robinson-sweater-in-cream",
+      "hp": "Robinson Crewneck Sweater in Cream",
+      "hu": "https://www.redvanly.com/products/robinson-sweater-in-cream",
+      "b": "single"
+    },
+    "Outerwear": {
+      "lp": "Wilder Jacket in Mist",
+      "lu": "https://www.redvanly.com/products/wilder-jacket-in-mist",
+      "hp": "Cliff Jacket in Blue Horizon",
+      "hu": "https://www.redvanly.com/products/cliff-jacket-in-blue-horizon",
+      "b": "range"
+    },
+    "Shoes": {
+      "lp": "Challenger 2.0 Shoe in Tuxedo",
+      "lu": "https://www.redvanly.com/products/challenger-2-0-shoe-in-tuxedo",
+      "hp": "Contender 2.0 Shoe in Sky Blue",
+      "hu": "https://www.redvanly.com/products/contender-2-0-shoe-in-sky-blue",
+      "b": "range"
+    }
+  },
+  "price_range_only": ["T-shirt", "Polo", "Dress pants", "Outerwear", "Shoes"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.redvanly.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "REDVANLY Cashmere (vendor field; only the Quincy cashmere hoodie, not counted in any garment)"
+  }
 }

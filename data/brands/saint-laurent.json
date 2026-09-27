@@ -41,7 +41,16 @@
     "u": "https://www.ysl.com/en-us/search?q=Wyatt%20boot%20men",
     "n": "works"
   },
-  "prices": [[550, 620], [590, 1600], [1090, 2300], [550, 1180], [1250, 2250], "?", "?", "?"],
+  "prices": [
+    [490, 980],
+    [620, 1550],
+    [950, 2400],
+    [950, 1230],
+    [1400, 3200],
+    [1250, 2900],
+    [1780, 4800],
+    [1050, 1400]
+  ],
   "shoelink": {
     "t": "Wyatt boot",
     "u": "https://www.ysl.com/en-us/search?q=Wyatt%20boot"
@@ -127,5 +136,72 @@
     "sc": [],
     "nc": ["pants", "shirts", "jackets"],
     "st": "complete"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "SAINT LAURENT T-SHIRT (certified cotton)",
+      "lu": "https://www.ysl.com/en-us/pr/saint-laurent-t-shirt-818535YBHD21467.html",
+      "hp": "CASSANDRE T-shirt in silk and cotton",
+      "hu": "https://www.ysl.com/en-us/pr/cassandre-t-shirt-in-silk-and-cotton-A001DGY38FI2043.html",
+      "b": "pair"
+    },
+    "Polo": {
+      "lp": "CASSANDRE POLO SHIRT IN PIQUÉ",
+      "lu": "https://www.ysl.com/en-us/pr/cassandre-polo-shirt-in-pique-798944Y37HC4140.html",
+      "hp": "polo in seedstitch silk",
+      "hu": "https://www.ysl.com/en-us/pr/polo-in-seedstitch-silk-862759Y77IK2020.html",
+      "b": "pair"
+    },
+    "Dress shirt": {
+      "lp": "CASSANDRE shirt in stretch cotton poplin",
+      "lu": "https://www.ysl.com/en-us/pr/cassandre-shirt-in-stretch-cotton-poplin-859779Y2N489000.html",
+      "hp": "shirt in silk satin-back crepe",
+      "hu": "https://www.ysl.com/en-us/pr/shirt-in-silk-satin-back-crepe-854249Y1L271302.html",
+      "b": "pair"
+    },
+    "Jeans": {
+      "lp": "Slim Jeans in Carbon Black Denim",
+      "lu": "https://www.ysl.com/en-us/pr/slim-jeans-in-carbon-black-denim-800332Y16PG1290.html",
+      "hp": "tapered high-rise jeans",
+      "hu": "https://www.ysl.com/en-us/pr/tapered-high-rise-jeans-859131Y29WB1228.html",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "slim-fit pants in virgin wool",
+      "lu": "https://www.ysl.com/en-us/pr/slim-fit-pants-in-virgin-wool-856459Y405W1000.html",
+      "hp": "wide-leg tuxedo pants in grain de poudre",
+      "hu": "https://www.ysl.com/en-us/pr/wide-leg-tuxedo-pants-in-grain-de-poudre-A003CEY7E631000.html",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "crewneck sweater in cotton",
+      "lu": "https://www.ysl.com/en-us/pr/crewneck-sweater-in-cotton-863338Y77HW1000.html",
+      "hp": "sweater in rib-knit cashmere",
+      "hu": "https://www.ysl.com/en-us/pr/sweater-in-rib-knit-cashmere-A004LPY77MS1082.html",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "trucker jacket in french black denim",
+      "lu": "https://www.ysl.com/en-us/pr/trucker-jacket-in-french-black-denim-816791Y31SA2029.html",
+      "hp": "Lambskin denim Jacket",
+      "hu": "https://www.ysl.com/en-us/pr/lambskin-denim-jacket-529949YC2OC1000.html",
+      "b": "pair"
+    },
+    "Shoes": {
+      "lp": "LAURENT loafers in suede",
+      "lu": "https://www.ysl.com/en-us/pr/laurent-loafers-in-suede-8211732OYAA2732.html",
+      "hp": "THEOBALD loafers in glazed leather",
+      "hu": "https://www.ysl.com/en-us/pr/theobald-loafers-in-glazed-leather-A002D2AAHFF1000.html",
+      "b": "pair"
+    }
+  },
+  "price_range_only": ["Jeans", "Dress pants"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.ysl.com/en-us/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

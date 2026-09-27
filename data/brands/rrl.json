@@ -39,7 +39,7 @@
     "u": "https://www.ralphlauren.com/search?q=RRL%20deck%20jacket",
     "n": "works"
   },
-  "prices": [[75, 195], [150, 250], [240, 450], [260, 390], [220, 380], [395, 395], [495, 2200], "?"],
+  "prices": [[75, 145], null, [265, 285], [295, 495], [590, 790], [395, 1800], [390, 2400], [195, 1400]],
   "notes": {
     "denim": "Japanese selvedge repro — the denim-head's Ralph",
     "murica": "the museum of American work and western wear",
@@ -93,7 +93,7 @@
     "nc": ["pants", "button-down-shirts", "jeans"],
     "st": "complete"
   },
-  "price_range_only": ["Sweater", "Shoes"],
+  "price_range_only": ["T-shirt", "Dress shirt", "Jeans", "Dress pants", "Sweater", "Outerwear", "Shoes"],
   "garment_links": {
     "T-shirt": "https://www.ralphlauren.com/brands-double-rl-men-shop-all-cg?prefn1=CategoryCode&prefv1=T-Shirts",
     "Dress shirt": "https://www.ralphlauren.com/brands-double-rl-men-shop-all-cg?prefn1=CategoryCode&prefv1=Dress%20Shirts",
@@ -101,5 +101,64 @@
     "Dress pants": "https://www.ralphlauren.com/brands-double-rl-men-shop-all-cg?prefn1=CategoryCode&prefv1=Pants",
     "Sweater": "https://www.ralphlauren.com/brands-double-rl-men-shop-all-cg?prefn1=CategoryCode&prefv1=Sweaters",
     "Outerwear": "https://www.ralphlauren.com/brands-double-rl-men-shop-all-cg?prefn1=CategoryCode&prefv1=Jackets%2C%20Coats%20%26%20Vests"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Jersey Pocket T-Shirt",
+      "lu": "https://www.ralphlauren.com/men-clothing-t-shirts/jersey-pocket-t-shirt/449152.html",
+      "hp": "Striped Jersey T-Shirt",
+      "hu": "https://www.ralphlauren.com/men-clothing-t-shirts/striped-jersey-t-shirt/100043526.html",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Slim Fit Pinpoint Oxford Shirt",
+      "lu": "https://www.ralphlauren.com/men-clothing-dress-shirts/slim-fit-pinpoint-oxford-shirt/199798.html",
+      "hp": "Slim Fit French Cuff Tuxedo Shirt",
+      "hu": "https://www.ralphlauren.com/men-clothing-dress-shirts/slim-fit-french-cuff-tuxedo-shirt/340114.html",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Slim Fit Once-Washed Selvedge Jean",
+      "lu": "https://www.ralphlauren.com/men-clothing-jeans/slim-fit-once-washed-selvedge-jean/86415.html",
+      "hp": "Straight Fit Milner Selvedge Jean",
+      "hu": "https://www.ralphlauren.com/men-clothing-jeans/straight-fit-milner-selvedge-jean/100041722.html",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Slim Fit Wool-Cotton Herringbone Trouser",
+      "lu": "https://www.ralphlauren.com/men-clothing-pants/slim-fit-wool-cotton-herringbone-trouser/100096778.html",
+      "hp": "Slim Fit Wool Western Tuxedo Trouser",
+      "hu": "https://www.ralphlauren.com/men-clothing-pants/slim-fit-wool-western-tuxedo-trouser/100059235.html",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Waffle-Knit Cotton-Wool Sweater",
+      "lu": "https://www.ralphlauren.com/men-clothing-sweaters/waffle-knit-cotton-wool-sweater/100028156.html",
+      "hp": "Patchwork Wool-Blend Sweater Jacket",
+      "hu": "https://www.ralphlauren.com/men-clothing-sweaters/patchwork-wool-blend-sweater-jacket/100098130.html",
+      "b": "range"
+    },
+    "Outerwear": {
+      "lp": "Leeland Indigo Denim Trucker Jacket",
+      "lu": "https://www.ralphlauren.com/men-clothing-jackets-coats-vests/leeland-indigo-denim-trucker-jacket/493761.html",
+      "hp": "Indigo Roughout Suede Jacket",
+      "hu": "https://www.ralphlauren.com/men-clothing-jackets-coats-vests/indigo-roughout-suede-jacket/100092615.html",
+      "b": "range"
+    },
+    "Shoes": {
+      "lp": "Leather Flip-Flop",
+      "lu": "https://www.ralphlauren.com/men-footwear-shoes/leather-flip-flop/603085.html",
+      "hp": "Leather Boot",
+      "hu": "https://www.ralphlauren.com/men-footwear-shoes/leather-boot/620757.html",
+      "b": "range"
+    }
+  },
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.ralphlauren.com/brands-double-rl-men-shop-all-cg",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

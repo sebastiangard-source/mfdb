@@ -33,20 +33,20 @@
   "chan": ["O", "D", "I"],
   "conf": "L",
   "forgc": [4, 3, 1],
-  "shop": "https://www.officinegenerale.com/search?q=",
+  "shop": "https://us.officinegenerale.com/search?q=",
   "onething": {
     "p": "Drew pleated trouser",
     "u": "https://www.officinegenerale.com/search?q=Drew%20pleated%20trouser%20men",
     "n": "verified ✓"
   },
   "prices": [
-    [90, 195],
-    [140, 200],
-    [190, 345],
-    [240, 340],
-    [230, 340],
-    [495, 495, "USD_landed"],
-    [595, 1495, "USD_landed"],
+    [80, 245, "USD_landed"],
+    [165, 165, "USD_landed"],
+    [170, 450, "USD_landed"],
+    [315, 450, "USD_landed"],
+    [475, 875, "USD_landed"],
+    [320, 595, "USD_landed"],
+    [530, 1990, "USD_landed"],
     null
   ],
   "notes": {
@@ -100,5 +100,65 @@
     "Dress pants": "https://us.officinegenerale.com/collections/og-homme-trousers",
     "Sweater": "https://us.officinegenerale.com/collections/og-homme-men-knitwear",
     "Outerwear": "https://us.officinegenerale.com/collections/og-homme-men-outerwear"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "V neck t-shirt (organic cotton jersey)",
+      "lu": "https://us.officinegenerale.com/products/v-neck-t-shirt-organic-cotton-jersey-faded-black",
+      "hp": "Bara t-shirt (mercerized cotton)",
+      "hu": "https://us.officinegenerale.com/products/bara-t-shirt-cotton-mercerized-cream",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Bruno polo (organic cotton)",
+      "lu": "https://us.officinegenerale.com/products/bruno-polo-organic-cotton-navy",
+      "hp": "Bruno polo (organic cotton)",
+      "hu": "https://us.officinegenerale.com/products/bruno-polo-organic-cotton-navy",
+      "b": "single"
+    },
+    "Dress shirt": {
+      "lp": "New button down shirt (cotton oxford, navy gingham)",
+      "lu": "https://us.officinegenerale.com/products/new-button-down-shirt-cotton-oxford-navy-gingham",
+      "hp": "Benoit shirt (checked cotton)",
+      "hu": "https://us.officinegenerale.com/products/benoit-shirt-checked-cotton-darknavy-white",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Slim fit denim (Japanese selvedge)",
+      "lu": "https://us.officinegenerale.com/products/slim-fit-denim-japanese-selvedge-denim-raw-blue",
+      "hp": "Naos jean (organic cotton denim)",
+      "hu": "https://us.officinegenerale.com/products/naos-jean-organic-cotton-denim-anthracite",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Hugo pants (Italian fresco wool)",
+      "lu": "https://us.officinegenerale.com/products/hugo-pts-italian-fresco-wo-100-wv-dark-navy",
+      "hp": "Naty pant (double split wool)",
+      "hu": "https://us.officinegenerale.com/products/naty-pant-double-split-wool-dark-navy",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Crew neck sweater (100% Italian merino)",
+      "lu": "https://us.officinegenerale.com/products/crew-neck-sweater-italian-merino-wool-black",
+      "hp": "Nate sweater (100% recycled cashmere)",
+      "hu": "https://us.officinegenerale.com/products/nate-sweater-recycled-cashmere-navy",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Chore jacket (Japanese selvedge denim)",
+      "lu": "https://us.officinegenerale.com/products/chore-jacket-japanese-selvedge-denim-raw-blue",
+      "hp": "Mori jacket (grained lamb leather)",
+      "hu": "https://us.officinegenerale.com/products/mori-jacket-grained-lamb-leather-dark-brown",
+      "b": "range"
+    }
+  },
+  "price_range_only": ["T-shirt", "Dress shirt", "Jeans", "Dress pants", "Outerwear"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://us.officinegenerale.com/",
+    "currency": "USD_landed",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

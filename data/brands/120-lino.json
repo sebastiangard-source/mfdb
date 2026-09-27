@@ -42,7 +42,7 @@
     "u": "https://120percento.com/search?q=Garment-dyed%20linen%20shirt%20men",
     "n": "men-filtered"
   },
-  "prices": [[235, 235], null, [255, 375], null, [385, 415], [385, 385], [635, 895], null],
+  "prices": [[235, 255], [495, 495], [255, 455], null, [365, 425], [385, 425], [555, 695], null],
   "price_checked": true,
   "notes": {
     "linen": "the category's only pure player — by its own CEO's boast, no competitor sells linen alone",
@@ -109,5 +109,57 @@
     "Dress pants": "https://120percento.com/collections/mens-collection/pant",
     "Sweater": "https://120percento.com/collections/mens-collection/knitwear",
     "Outerwear": "https://120percento.com/collections/mens-collection/jacket"
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Slim Fit Crewneck T-Shirt",
+      "lu": "https://120percento.com/products/slim-fit-crewneck-t-shirt",
+      "hp": "Crew Neck T-Shirt",
+      "hu": "https://120percento.com/products/crew-neck-t-shirt",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Knit Polo (long-sleeve, wool)",
+      "lu": "https://120percento.com/products/polo-knit",
+      "hp": "Knit Polo (long-sleeve, wool)",
+      "hu": "https://120percento.com/products/polo-knit",
+      "b": "single"
+    },
+    "Dress shirt": {
+      "lp": "Classic Linen Long-Sleeve Shirt",
+      "lu": "https://120percento.com/products/classic-linen-long-sleeve-shirt",
+      "hp": "Regular Fit Shirt with Pockets",
+      "hu": "https://120percento.com/products/regular-fit-shirt-with-pockets",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Pant with Back Patch Pockets",
+      "lu": "https://120percento.com/products/pant-with-back-patch-pockets",
+      "hp": "Linen Lyocell Straight-Leg Trousers",
+      "hu": "https://120percento.com/products/linen-lyocell-straight-leg-trousers",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Crew Neck Sweater (linen)",
+      "lu": "https://120percento.com/products/crew-neck-sweater",
+      "hp": "Knit Crewneck Sweater (100% wool)",
+      "hu": "https://120percento.com/products/knit-crewneck-sweater",
+      "b": "range"
+    },
+    "Outerwear": {
+      "lp": "Utility Jacket with Zip",
+      "lu": "https://120percento.com/products/utility-jacket-with-zip",
+      "hp": "Safari Jacket",
+      "hu": "https://120percento.com/products/safari-jacket",
+      "b": "range"
+    }
+  },
+  "price_range_only": ["T-shirt", "Dress shirt", "Dress pants", "Sweater", "Outerwear"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://120percento.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
   }
 }

@@ -36,7 +36,7 @@
     "u": "https://www.filson.com/catalogsearch/result/?q=Mackinaw+Cruiser",
     "n": "own-site search, not opened from this environment. Patented 1914 and the garment the rest of the line is measured against"
   },
-  "prices": [[50, 85], [90, 130], [120, 180], [130, 180], [120, 180], [199, 259], [199, 1199], null],
+  "prices": [[49, 99], null, [99, 199], [159, 199], [129, 229], [199, 359], [189, 1199], null],
   "notes": {
     "wool": "Mackinaw wool since 1897",
     "cotton": "oil-finish tin cloth",
@@ -110,7 +110,7 @@
     "nc": ["ShirtsTops", "Outerwear", "Bottoms"],
     "st": "complete"
   },
-  "price_range_only": ["Sweater", "Outerwear"],
+  "price_range_only": ["T-shirt", "Dress shirt", "Jeans", "Dress pants", "Sweater", "Outerwear"],
   "garment_links": {
     "T-shirt": "https://www.filson.com/collections/t-shirts",
     "Dress shirt": "https://www.filson.com/collections/long-sleeve-shirts",
@@ -118,5 +118,58 @@
     "Dress pants": "https://www.filson.com/collections/pants",
     "Sweater": "https://www.filson.com/collections/sweaters",
     "Outerwear": "https://www.filson.com/collections/outerwear"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Buck Graphic T-Shirt",
+      "lu": "https://www.filson.com/products/buck-graphic-t-shirt-shale",
+      "hp": "Wool-Blend UPF T-Shirt",
+      "hu": "https://www.filson.com/products/wool-blend-upf-t-shirt-whiskey",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Madras Button-Down Shirt",
+      "lu": "https://www.filson.com/products/madras-button-down-shirt-tan-spruce-multi",
+      "hp": "Moleskin Seattle Shirt",
+      "hu": "https://www.filson.com/products/moleskin-seattle-shirt-brown",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "14-oz. Straight-Leg Jeans",
+      "lu": "https://www.filson.com/products/14-oz-straight-leg-jeans-vintage-indigo",
+      "hp": "14-oz. Double-Front Jeans",
+      "hu": "https://www.filson.com/products/14-oz-double-front-jeans-vintage-indigo",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Granite Mountain Flat Front Pants",
+      "lu": "https://www.filson.com/products/granite-mountain-flat-front-pants-buck-tan",
+      "hp": "Oil Finish Double Tin Cloth Pants",
+      "hu": "https://www.filson.com/products/oil-finish-double-tin-cloth-pants-dark-tan-1",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Vintage Cotton Crewneck Sweater",
+      "lu": "https://www.filson.com/products/vintage-cotton-crewneck-sweater-juniper",
+      "hp": "Fisherman Rib Cotton Cardigan",
+      "hu": "https://www.filson.com/products/fisherman-rib-cotton-cardigan-navy",
+      "b": "range"
+    },
+    "Outerwear": {
+      "lp": "Dry Wax Windbreaker",
+      "lu": "https://www.filson.com/products/dry-wax-windbreaker-military-olive",
+      "hp": "Lined Mackinaw Wool Packer Coat",
+      "hu": "https://www.filson.com/products/lined-mackinaw-wool-packer-coat-dark-navy",
+      "b": "range"
+    }
+  },
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.filson.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true,
+  "shop": "https://www.filson.com/search?q="
 }

@@ -37,7 +37,7 @@
     "u": "https://www.mrporter.com/en-us/mens/designer/valstar",
     "n": "works"
   },
-  "prices": [null, null, null, null, null, [1040, 1155], [700, 4930], "?"],
+  "prices": [null, null, null, null, null, [1085, 1200], [730, 3310], null],
   "notes": {
     "craft": "Milanese make, a century of one silhouette refined",
     "ital": "Milan institution — the tailors' casual jacket",
@@ -90,5 +90,28 @@
     "Sweater": "https://valstarmilano.com/en-us/collections/knitwear",
     "Outerwear": "https://valstarmilano.com/en-us/collections/jackets"
   },
-  "price_checked": true
+  "price_checked": true,
+  "price_evidence": {
+    "Sweater": {
+      "lp": "Cashmere crew neck sweater (Wood)",
+      "lu": "https://valstarmilano.com/en-us/products/cashmere-crewneck-wood",
+      "hp": "Aran crew neck sweater in cashmere (Orange)",
+      "hu": "https://valstarmilano.com/en-us/products/cashmere-aran-crewneck-sweater-orange",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Padded Valstarino jacket in water repellent cotton blend fabric (Navy)",
+      "lu": "https://valstarmilano.com/en-us/products/valstarino-navy-blue-9",
+      "hp": "Deerskin Valstarino jacket lined with cashmere (Black)",
+      "hu": "https://valstarmilano.com/en-us/products/valstarino-black-2",
+      "b": "pair"
+    }
+  },
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://valstarmilano.com/en-us",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  }
 }

@@ -33,13 +33,13 @@
   "chan": ["O", "D"],
   "conf": "M",
   "forgc": [4, 3, 1],
-  "shop": "https://www.roddandgunn.com/search?q=",
+  "shop": "https://www.roddandgunn.com/us/search?q=",
   "onething": {
     "p": "Merino crewneck",
     "u": "https://www.roddandgunn.com/search?q=merino",
     "n": "Use this: https://www.roddandgunn.com/us/Search-Show?q=merino&lang=en_US"
   },
-  "prices": [[60, 90], [80, 120], [90, 140], [128, 178], [110, 160], [128, 178], [199, 798], [148, 198]],
+  "prices": [[50, 89], [75, 148], [128, 248], [128, 178], [148, 178], [128, 348], [199, 798], [148, 348]],
   "notes": {
     "wool": "NZ merino as the home-turf fiber",
     "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional"
@@ -112,5 +112,72 @@
     "Sweater": "https://www.roddandgunn.com/us/clothing/sweaters",
     "Outerwear": "https://www.roddandgunn.com/us/clothing/jackets-coats",
     "Shoes": "https://www.roddandgunn.com/us/footwear"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "The Gunn T-Shirt",
+      "lu": "https://www.roddandgunn.com/us/clothing/t-shirts/the-gunn-t-shirt-/004120-39.html",
+      "hp": "Leith Valley Sports Fit T-Shirt",
+      "hu": "https://www.roddandgunn.com/us/clothing/t-shirts/leith-valley-sports-fit-t-shirt-/008890-03.html",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "The Gunn Sports Fit Polo",
+      "lu": "https://www.roddandgunn.com/us/clothing/polos/the-gunn-sports-fit-polo/003396-73.html",
+      "hp": "Robinson Bay Polo",
+      "hu": "https://www.roddandgunn.com/us/clothing/polos/robinson-bay-polo/009418-01.html",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Oxford Shirt",
+      "lu": "https://www.roddandgunn.com/us/clothing/shirts/oxford-shirt/006582-21.html",
+      "hp": "Powell Bay Shirt",
+      "hu": "https://www.roddandgunn.com/us/clothing/shirts/powell-bay-shirt/010021-01.html",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Gunn Straight Fit Jean",
+      "lu": "https://www.roddandgunn.com/us/clothing/jeans/gunn-straight-fit-jean/007297-03.html",
+      "hp": "Ashhurst Straight Fit Jean",
+      "hu": "https://www.roddandgunn.com/us/clothing/jeans/ashhurst-straight-fit-jean/009622-04.html",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Thomas Road 2.0 Chino Pant",
+      "lu": "https://www.roddandgunn.com/us/clothing/pants/thomas-road-2.0-chino-pant/009940-11.html",
+      "hp": "Motion Pant Straight",
+      "hu": "https://www.roddandgunn.com/us/clothing/pants/motion-pant-straight/009979-01.html",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Gunn Crew Sweater",
+      "lu": "https://www.roddandgunn.com/us/clothing/sweaters/gunn-crew-sweater/006620-20.html",
+      "hp": "Newall Knit",
+      "hu": "https://www.roddandgunn.com/us/clothing/sweaters/newall-knit/009610-01.html",
+      "b": "range"
+    },
+    "Outerwear": {
+      "lp": "Armitage Jacket",
+      "lu": "https://www.roddandgunn.com/us/clothing/jackets-coats/casual/armitage-jacket/002737-11.html",
+      "hp": "Canvastown Leather Jacket",
+      "hu": "https://www.roddandgunn.com/us/clothing/jackets-coats/leather-jackets/canvastown-leather-jacket/009934-01.html",
+      "b": "range"
+    },
+    "Shoes": {
+      "lp": "Marsden Bay Loafer",
+      "lu": "https://www.roddandgunn.com/us/footwear/shoes/marsden-bay-loafer/009579-03.html",
+      "hp": "Spiga Loafer",
+      "hu": "https://www.roddandgunn.com/us/footwear/shoes/spiga-loafer/009229-04.html",
+      "b": "pair"
+    }
+  },
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants", "Sweater", "Outerwear"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.roddandgunn.com/us/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

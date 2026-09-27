@@ -35,7 +35,7 @@
     "u": "",
     "n": "the garment the brand was built outward from. NO LINK — no US-facing own-site page was verified; the only listing reached was a Canadian stockist quoting CAD"
   },
-  "prices": [[55, 70], [95, 95], [125, 164], null, [125, 125], "?", [255, 255], "?"],
+  "prices": [[55, 70], [91, 91], [125, 164], null, [125, 125], null, [255, 255], null],
   "notes": {
     "cotton": "cotton carries essentially the whole range — jersey, slub and organic weights",
     "craft": "made in Portugal, which is the brand's main claim above the elevated-basics field it sits in",
@@ -87,5 +87,50 @@
     "Dress shirt": "https://easymondays.ca/collections/long-sleeve-button-downs",
     "Dress pants": "https://easymondays.ca/collections/chinos"
   },
-  "price_checked": true
+  "price_checked": true,
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Crew Neck T-Shirt",
+      "lu": "https://easymondays.ca/products/crew-neck-t-shirt",
+      "hp": "Heavyweight Crew Neck T-Shirt",
+      "hu": "https://easymondays.ca/products/heavyweight-crew-neck-t-shirt",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Long Sleeve Pique Polo",
+      "lu": "https://easymondays.ca/products/long-sleeve-pique-polo",
+      "hp": "Long Sleeve Pique Polo",
+      "hu": "https://easymondays.ca/products/long-sleeve-pique-polo",
+      "b": "single"
+    },
+    "Dress shirt": {
+      "lp": "Stretch Poplin Shirt",
+      "lu": "https://easymondays.ca/products/stretch-poplin-shirt",
+      "hp": "Flannel Shirt",
+      "hu": "https://easymondays.ca/products/flannel-shirt",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Stretch Chino",
+      "lu": "https://easymondays.ca/products/stretch-chino-2",
+      "hp": "Stretch Chino",
+      "hu": "https://easymondays.ca/products/stretch-chino-2",
+      "b": "single"
+    },
+    "Outerwear": {
+      "lp": "Diagonal Zip Up Jacket",
+      "lu": "https://easymondays.ca/products/diagonal-zip-up-jacket",
+      "hp": "Diagonal Zip Up Jacket",
+      "hu": "https://easymondays.ca/products/diagonal-zip-up-jacket",
+      "b": "single"
+    }
+  },
+  "price_range_only": ["T-shirt", "Dress shirt"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://easymondays.ca/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  }
 }

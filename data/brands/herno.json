@@ -39,7 +39,7 @@
     "u": "https://us.herno.com/en/search-results?q=laminar%20jacket&amp;prefn1=customFilter17&amp;prefv1=Male",
     "n": "us.herno.com with male-filter params — functional, not tracking; keep verbatim"
   },
-  "prices": [[119, 255], [207, 655], [465, 465], null, [320, 430], [495, 870], [995, 1685], "?"],
+  "prices": [[180, 595], [270, 580], [395, 625], null, [430, 1495], [495, 870], [825, 3595], [580, 610]],
   "notes": {
     "ital": "Founded at Lesa on Lake Maggiore in 1948, making raincoats — the local water was soft enough for the finishing. Outerwear came later, and the lake is still the address.",
     "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional"
@@ -91,7 +91,7 @@
     "nc": ["T-shirts & Polo Shirts", "Trousers", "Sweaters & Cardigan"],
     "st": "complete"
   },
-  "price_range_only": ["Shoes"],
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Outerwear", "Shoes"],
   "garment_links": {
     "T-shirt": "https://us.herno.com/en/men/clothing/t-shirts-and-polo-shirts/",
     "Polo": "https://us.herno.com/en/men/clothing/t-shirts-and-polo-shirts/",
@@ -99,5 +99,65 @@
     "Dress pants": "https://us.herno.com/en/men/clothing/trousers/",
     "Sweater": "https://us.herno.com/en/men/clothing/sweaters-and-cardigan/",
     "Outerwear": "https://us.herno.com/en/men/outerwear/"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Resort T-Shirt in Pure Cotton Jersey",
+      "lu": "https://us.herno.com/en/men/clothing/t-shirts-and-polo-shirts/resort-t-shirt-in-pure-cotton-jersey-navy-blue-JG00045UR521089200.html",
+      "hp": "T-Shirt in Wool Jersey (pure virgin wool)",
+      "hu": "https://us.herno.com/en/men/clothing/t-shirts-and-polo-shirts/t-shirt-in-wool%C2%A0jersey-navy-blue-JG0001UNW521409200.html",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Polo Shirt in Superfine Cotton Stretch (short sleeves)",
+      "lu": "https://us.herno.com/en/men/clothing/t-shirts-and-polo-shirts/polo-shirt-in-superfine-cotton-stretch-white-JPL00142U520031000.html",
+      "hp": "Polo Shirt in Bouclé Cotton Cashmere (short sleeves, 93% cotton/7% cashmere; full price $580, on sale at $406)",
+      "hu": "https://us.herno.com/en/men/clothing/t-shirts-and-polo-shirts/polo-shirt-in-boucle-cotton-cashmere-grey-pearl-MPL00012U721419403.html",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Shirt in Summer Linen (classic collar, long sleeves; full price $395, on sale at $277)",
+      "lu": "https://us.herno.com/en/men/clothing/shirts/shirt-in-summer-linen-sky-CM000030U171589010.html",
+      "hp": "Lightweight Wool and Cashmere Fabric Shirt (93% wool/7% cashmere, spread collar)",
+      "hu": "https://us.herno.com/en/men/clothing/shirts/lightweight-wool-and-cashmere-fabric-shirt-ivory-CM000036U335621200.html",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Wool Gabardine Trousers (wool blend, darts, elasticated waist)",
+      "lu": "https://us.herno.com/en/men/clothing/trousers/wool-gabardine-trousers-light-taupe-PT000215U334532600.html",
+      "hp": "Resort Trousers in Cashmere and Silk (51% silk/49% cashmere, darts and pressed creases)",
+      "hu": "https://us.herno.com/en/men/clothing/trousers/resort-trousers-in-cashmere-and-silk-chantilly-PT00055UR380871985.html",
+      "b": "pair"
+    },
+    "Sweater": {
+      "lp": "Resort Sweater in Wool and Silk (crew neck, 70% virgin wool/30% silk)",
+      "lu": "https://us.herno.com/en/men/clothing/sweaters-and-cardigan/resort-sweater-in-wool-and-silk-dark-blue-MG00043UR700259280.html",
+      "hp": "Sweater in Cashmere (crew neck, 100% cashmere)",
+      "hu": "https://us.herno.com/en/men/clothing/sweaters-and-cardigan/sweater-in-cashmere-dark-blue-MG000222U710439290.html",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Raincoat in Dean",
+      "lu": "https://us.herno.com/en/men/outerwear/raincoats/raincoat-in-dean-navy-blue-IM000389U132389200.html",
+      "hp": "Trench Coat in New Cashmere and Changing Nylon",
+      "hu": "https://us.herno.com/en/men/outerwear/raincoats/trench-coat-in-new-cashmere-and-changing-nylon-navy-blue-IM0002UNW381039200.html",
+      "b": "range"
+    },
+    "Shoes": {
+      "lp": "Herno Maggiore Trainers in Suede and Mesh (dark brown)",
+      "lu": "https://us.herno.com/en/men/accessories/shoes/herno-maggiore-trainers-in-suede-and-mesh-dark-brown-SH000051U500018800.html",
+      "hp": "Herno Maggiore Trainers in Nylon (black)",
+      "hu": "https://us.herno.com/en/men/accessories/shoes/herno-maggiore-trainers-in-nylon-black-SH000050U500089300.html",
+      "b": "range"
+    }
+  },
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://us.herno.com/en/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "Herno Resort; Herno Laminar (checked, nothing it sells sets a figure)"
+  },
+  "price_checked": true,
+  "shop": "https://us.herno.com/en/search-results?q="
 }

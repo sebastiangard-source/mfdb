@@ -39,7 +39,7 @@
     "u": "https://www.ayr.com/search?q=The%20Everyday%20shirt",
     "n": "verified ✓"
   },
-  "prices": [[85, 125], [110, 195], [165, 225], [195, 265], [165, 245], [265, 595], [395, 1400], null],
+  "prices": [[88, 98], [125, 125], [225, 275], [245, 375], [265, 345], [265, 595], [395, 1400], null],
   "notes": {
     "denim": "the pillar — made in LA for over a decade",
     "cotton": "Peruvian cotton tees — the ingredient named, farmers-market style",
@@ -89,5 +89,65 @@
     "Dress pants": "https://www.ayr.com/collections/pants-shorts-menswear",
     "Sweater": "https://www.ayr.com/collections/sweaters-menswear",
     "Outerwear": "https://www.ayr.com/collections/jackets-menswear"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "The Original T",
+      "lu": "https://www.ayr.com/products/the-original-t",
+      "hp": "The Heavy T",
+      "hu": "https://www.ayr.com/products/the-heavy-t",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "The Slice",
+      "lu": "https://www.ayr.com/products/the-slice",
+      "hp": "The Slice",
+      "hu": "https://www.ayr.com/products/the-slice",
+      "b": "single"
+    },
+    "Dress shirt": {
+      "lp": "The Everyday (Brushed Cotton Twill)",
+      "lu": "https://www.ayr.com/products/the-everyday-in-cool-wool",
+      "hp": "The Everyday (Merino Poplin Cool Wool)",
+      "hu": "https://www.ayr.com/products/the-everyday-1",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "The Normie (Ink)",
+      "lu": "https://www.ayr.com/products/the-normie",
+      "hp": "The Normie (Selvedge Ranchero)",
+      "hu": "https://www.ayr.com/products/the-normie",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "The Apollo Trouser",
+      "lu": "https://www.ayr.com/products/the-apollo-trouser",
+      "hp": "The Pal (Navy Chino)",
+      "hu": "https://www.ayr.com/products/the-pal-new",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "The Two-a-Days",
+      "lu": "https://www.ayr.com/products/the-two-a-days",
+      "hp": "The Fancy Boy",
+      "hu": "https://www.ayr.com/products/the-fancy-boy-in-cashmere",
+      "b": "range"
+    },
+    "Outerwear": {
+      "lp": "The Scrambler (Khaki)",
+      "lu": "https://www.ayr.com/products/the-scrambler",
+      "hp": "The Scrambler (leather)",
+      "hu": "https://www.ayr.com/products/the-scrambler-leather",
+      "b": "pair"
+    }
+  },
+  "price_range_only": ["T-shirt", "Dress shirt", "Jeans", "Dress pants", "Sweater"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.ayr.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

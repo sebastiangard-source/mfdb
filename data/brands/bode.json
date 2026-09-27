@@ -37,13 +37,13 @@
   "chan": ["O", "D"],
   "conf": "L",
   "forgc": [4, 2, 1],
-  "shop": "https://www.bodenewyork.com/search?q=",
+  "shop": "https://bode.com/search?q=",
   "onething": {
     "p": "One-of-one quilt jacket",
     "u": "https://www.bodenewyork.com/search?q=One-of-one%20quilt%20jacket",
     "n": "verified ✓"
   },
-  "prices": [[180, 362], [550, 650], [490, 690], [650, 650], [728, 980], [600, 1600], [570, 5000], [690, 1080]],
+  "prices": [[210, 790], [280, 620], [590, 950], [650, 650], [650, 1850], [650, 1600], [570, 5000], [690, 1080]],
   "notes": {
     "craft": "antique textiles cut one-of-one",
     "style": "memory-as-material made a runway category",
@@ -90,7 +90,7 @@
     "nc": ["shirts", "trousers and pants", "outerwear"],
     "st": "complete"
   },
-  "price_range_only": ["Outerwear"],
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Dress pants", "Outerwear"],
   "garment_links": {
     "T-shirt": "https://bode.com/collections/mens-cut-sew",
     "Polo": "https://bode.com/collections/mens-knitwear",
@@ -100,5 +100,71 @@
     "Sweater": "https://bode.com/collections/mens-knitwear",
     "Outerwear": "https://bode.com/collections/mens-outerwear",
     "Shoes": "https://bode.com/collections/mens-shoes"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "New Orleans Tee",
+      "lu": "https://bode.com/products/new-orleans-tee-cream",
+      "hp": "Gem Necklace Tee",
+      "hu": "https://bode.com/products/gem-necklace-tee-black",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Regionals Polo",
+      "lu": "https://bode.com/products/regionals-polo-navy",
+      "hp": "Bentgrass Boxy Polo",
+      "hu": "https://bode.com/products/bentgrass-boxy-polo-green",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Monogrammed Poplin Shirt",
+      "lu": "https://bode.com/products/monogrammed-poplin-shirt-white-2",
+      "hp": "Sequined Silhouette Tuxedo Shirt",
+      "hu": "https://bode.com/products/sequined-silhouette-tuxedo-shirt-white-black",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Washed Denim Knolly Brook Trousers",
+      "lu": "https://bode.com/products/washed-denim-knolly-brook-trousers-blue",
+      "hp": "Washed Denim Knolly Brook Trousers",
+      "hu": "https://bode.com/products/washed-denim-knolly-brook-trousers-blue",
+      "b": "single"
+    },
+    "Dress pants": {
+      "lp": "Tropical Wool Side-Buckle Trousers - Black",
+      "lu": "https://bode.com/products/tropical-wool-side-buckle-trouser-black",
+      "hp": "Poppy Suiting Trousers - Black",
+      "hu": "https://bode.com/products/poppy-suiting-trousers-black",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Juniper Sweater - Grey",
+      "lu": "https://bode.com/products/juniper-sweater-grey",
+      "hp": "Cashmere Crewneck - Black",
+      "hu": "https://bode.com/products/cashmere-crewneck-black-1",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Nylon Track Jacket - Black",
+      "lu": "https://bode.com/products/nylon-track-jacket-black",
+      "hp": "Continental Coat",
+      "hu": "https://bode.com/products/continental-coat-whiskey",
+      "b": "range"
+    },
+    "Shoes": {
+      "lp": "Leather House Shoes - Black",
+      "lu": "https://bode.com/products/black-leather-house-shoe",
+      "hp": "Needlepoint House Shoes",
+      "hu": "https://bode.com/products/needlepoint-house-shoe-green",
+      "b": "pair"
+    }
+  },
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://bode.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

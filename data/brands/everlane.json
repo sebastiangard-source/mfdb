@@ -38,7 +38,7 @@
     "u": "https://www.everlane.com/search?q=Uniform%20tee%20men",
     "n": "verified ✓"
   },
-  "prices": [[25, 40], [45, 60], [70, 90], [80, 120], [70, 100], [98, 198], [148, 348], "?"],
+  "prices": [[34, 48], [68, 118], [98, 168], [98, 198], [148, 198], [98, 198], [148, 348], [148, 148]],
   "notes": {
     "denim": "a transparent-factory denim program",
     "whitet": "the tee was the founding product and still the entry — seeded 27 Sep 2026, provisional"
@@ -95,7 +95,7 @@
     "nc": ["bottoms", "knit tops", "sweaters"],
     "st": "partial"
   },
-  "price_range_only": ["Outerwear", "Shoes"],
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants", "Outerwear", "Shoes"],
   "garment_links": {
     "T-shirt": "https://www.everlane.com/collections/mens-tshirts",
     "Polo": "https://www.everlane.com/collections/mens-polo-shirts",
@@ -104,5 +104,71 @@
     "Dress pants": "https://www.everlane.com/collections/mens-chinos-khakis",
     "Sweater": "https://www.everlane.com/collections/mens-sweaters",
     "Outerwear": "https://www.everlane.com/collections/mens-outerwear-coats"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "The Essential Organic Crew | Coffee Bean",
+      "lu": "https://www.everlane.com/products/mens-essential-organic-crew-uniform-coffee-bean",
+      "hp": "Relaxed Heavyweight Tee | Black",
+      "hu": "https://www.everlane.com/products/mens-relaxed-heavyweight-tee-black",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Classic Piqué Polo | Navy",
+      "lu": "https://www.everlane.com/products/mens-classic-pique-polo-navy",
+      "hp": "No-Sweat Textured Zip Polo | Cabernet",
+      "hu": "https://www.everlane.com/products/mens-no-sweat-textured-zip-polo-cabernet",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Washed Poplin Shirt | Skywriting/Multi",
+      "lu": "https://www.everlane.com/products/mens-washed-poplin-shirt-skywriting-blue-multi",
+      "hp": "Double-Gauze Button-Down Shirt | Black / Navy",
+      "hu": "https://www.everlane.com/products/m-btdn-tdg-gze-ls-blupld",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Classic Straight-Fit Jean | Black",
+      "lu": "https://www.everlane.com/products/mens-classic-straight-fit-jean-black",
+      "hp": "Japanese Selvedge Jean | Dark Indigo",
+      "hu": "https://www.everlane.com/products/mens-japanese-selvedge-jean-dark-indigo",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Soyeux Linen Pleated Trouser | Black",
+      "lu": "https://www.everlane.com/products/mens-soyeux-linen-pleated-trouser-black",
+      "hp": "Tropical Wool Trouser | Dark Navy",
+      "hu": "https://www.everlane.com/products/mens-tropical-wool-trouser-dark-navy",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "The No-Sweat Sweater | Uniform | Heathered Olive Night",
+      "lu": "https://www.everlane.com/products/mens-uniform-no-sweat-cotton-sweater-heather-olive-night",
+      "hp": "Midweight Cashmere Crew | Black",
+      "hu": "https://www.everlane.com/products/mens-luxe-cashmere-crew-black",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Relaxed Barn Jacket | Olive Night",
+      "lu": "https://www.everlane.com/products/mens-relaxed-barn-jacket-olive-night",
+      "hp": "ReWool Flight Jacket | Heather Charcoal",
+      "hu": "https://www.everlane.com/products/mens-rewool-flight-jacket-heather-charcoal",
+      "b": "range"
+    },
+    "Shoes": {
+      "lp": "The Court Sneaker | Canvas Tan / Bluebell / Trench Coat",
+      "lu": "https://www.everlane.com/products/mens-court-sneaker-canvas-blue-trench",
+      "hp": "The Tread-Bare Sneaker | Forest Green",
+      "hu": "https://www.everlane.com/products/mens-tread-bare-sneaker2-canvas-forest-green",
+      "b": "range"
+    }
+  },
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.everlane.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

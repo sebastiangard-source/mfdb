@@ -38,7 +38,7 @@
     "u": "https://robertbarakett.com/search?q=Georgia%20pima%20tee",
     "n": "works"
   },
-  "prices": [[69, 99], [99, 248], [148, 158], null, [175, 178], [148, 398], [175, 798], [248, 398]],
+  "prices": [[70, 70], [100, 100], null, null, [178, 178], [148, 398], [298, 798], [278, 348]],
   "price_checked": true,
   "notes": {
     "cotton": "USA-grown Pima plus the branded Soft Water finish",
@@ -96,5 +96,57 @@
     "Sweater": "https://robertbarakett.com/collections/sweaters",
     "Outerwear": "https://robertbarakett.com/collections/outerwear",
     "Shoes": "https://robertbarakett.com/collections/shoes"
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "The Barakett Tee",
+      "lu": "https://robertbarakett.com/products/the-barakett-tee-white",
+      "hp": "The Barakett Tee",
+      "hu": "https://robertbarakett.com/products/the-barakett-tee-white",
+      "b": "single"
+    },
+    "Polo": {
+      "lp": "The Barakett Polo",
+      "lu": "https://robertbarakett.com/products/the-barakett-polo-black",
+      "hp": "The Barakett Polo",
+      "hu": "https://robertbarakett.com/products/the-barakett-polo-black",
+      "b": "single"
+    },
+    "Dress pants": {
+      "lp": "Brad Stretch Five-Pocket Pants",
+      "lu": "https://robertbarakett.com/products/brad-straight-5-pkt-pant-navy-rb262187-navy",
+      "hp": "Brad Stretch Five-Pocket Pants",
+      "hu": "https://robertbarakett.com/products/brad-straight-5-pkt-pant-navy-rb262187-navy",
+      "b": "single"
+    },
+    "Sweater": {
+      "lp": "Rylan Crewneck Sweater",
+      "lu": "https://robertbarakett.com/products/rylan-ls-crewneck-swtr-deep-bordeaux-rb262139-dpbord",
+      "hp": "Crafton Buttoned Cardigan",
+      "hu": "https://robertbarakett.com/products/crafton-buttnd-cardigan-moonstone-rb262157-moonst",
+      "b": "range"
+    },
+    "Outerwear": {
+      "lp": "Myer Buttoned Jacket",
+      "lu": "https://robertbarakett.com/products/myer-button-front-jacket-tapestry-rb262035-tapsty",
+      "hp": "Bradford Buttoned Suede Jacket",
+      "hu": "https://robertbarakett.com/products/bradford-butnd-suede-jkt-brown-rb262239-brown",
+      "b": "range"
+    },
+    "Shoes": {
+      "lp": "Brannon Loafer",
+      "lu": "https://robertbarakett.com/products/brannon-suede-loafer-dark-navy-rbsh52006-dknavy",
+      "hp": "Hampton Yacht Loafer",
+      "hu": "https://robertbarakett.com/products/hampton-yacht-loafer-denim-rbsh61009-denim",
+      "b": "pair"
+    }
+  },
+  "price_range_only": ["Sweater", "Outerwear"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://robertbarakett.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
   }
 }

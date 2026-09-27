@@ -39,7 +39,7 @@
     "u": "https://www.raffionline.com/search?q=crewneck&amp;options%5Bprefix%5D=last&amp;type=product",
     "n": "works"
   },
-  "prices": [[95, 130], [110, 275], [150, 185], null, null, [150, 680], [185, 680], null],
+  "prices": [[95, 125], [115, 215], [170, 185], null, null, [150, 415], [230, 340], null],
   "price_checked": true,
   "notes": {
     "cashmere": "called the King of Cashmere by the menswear trade itself — a holiday-season business that sells out mostly at full price",
@@ -93,5 +93,50 @@
     "Dress shirt": "https://www.raffionline.com/collections/mens-polos",
     "Sweater": "https://www.raffionline.com/collections/mens-sweaters",
     "Outerwear": "https://www.raffionline.com/collections/mens-outerwear"
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "THE LAFAYETTE",
+      "lu": "https://www.raffionline.com/products/the-lafayette",
+      "hp": "THE SILAS",
+      "hu": "https://www.raffionline.com/products/the-silas",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "THE SHERWOOD",
+      "lu": "https://www.raffionline.com/products/the-sherwood",
+      "hp": "THE MAC",
+      "hu": "https://www.raffionline.com/products/the-mac",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "THE BRAYDEN",
+      "lu": "https://www.raffionline.com/products/qp12800",
+      "hp": "THE TANNER",
+      "hu": "https://www.raffionline.com/products/the-tanner",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "THE BODI",
+      "lu": "https://www.raffionline.com/products/the-bodi",
+      "hp": "THE ASHFORD",
+      "hu": "https://www.raffionline.com/products/the-ashford",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "THE CHRIS",
+      "lu": "https://www.raffionline.com/products/the-chris",
+      "hp": "THE CALLAHAN",
+      "hu": "https://www.raffionline.com/products/the-callahan",
+      "b": "range"
+    }
+  },
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Outerwear"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.raffionline.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
   }
 }

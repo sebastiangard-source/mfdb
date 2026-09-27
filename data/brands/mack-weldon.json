@@ -39,8 +39,7 @@
     "u": "https://mackweldon.com/search?q=Sunday%20Lounge%20pant%20men",
     "n": "verified ✓"
   },
-  "prices": [[48, 98], [78, 218], [98, 138], [168, 168], [128, 138], [168, 238], [128, 258], null],
-  "price_checked": true,
+  "prices": [[48, 88], [78, 218], [118, 138], "?", [138, 138], [198, 218], [168, 258], null],
   "notes": {
     "synth": "co-developed technical blends",
     "whitet": "the Pima tee is a named, developed product — seeded 27 Sep 2026, provisional"
@@ -91,5 +90,57 @@
     "Dress pants": "https://mackweldon.com/collections/pants",
     "Sweater": "https://mackweldon.com/collections/sweaters",
     "Outerwear": "https://mackweldon.com/collections/outerwear"
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Pima Crew Neck T-Shirt",
+      "lu": "https://mackweldon.com/products/pima-crew-neck-t-shirt",
+      "hp": "SILVER Pique T-Shirt",
+      "hu": "https://mackweldon.com/products/silver-pique-t-shirt",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Pima T-Shirt Polo",
+      "lu": "https://mackweldon.com/products/pima-t-shirt-polo",
+      "hp": "Tech Merino Sweater Polo",
+      "hu": "https://mackweldon.com/products/tech-merino-sweater-polo",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Dean Oxford Shirt",
+      "lu": "https://mackweldon.com/products/dean-oxford-shirt",
+      "hp": "Linen Button Up",
+      "hu": "https://mackweldon.com/products/linen-button-up",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Stretch Twill Chino - Classic Fit",
+      "lu": "https://mackweldon.com/products/stretch-twill-chino-classic-fit",
+      "hp": "Stretch Twill Chino - Classic Fit",
+      "hu": "https://mackweldon.com/products/stretch-twill-chino-classic-fit",
+      "b": "single"
+    },
+    "Sweater": {
+      "lp": "Tech Merino Waffle Crew Neck Sweater",
+      "lu": "https://mackweldon.com/products/tech-merino-waffle-crew-neck-sweater",
+      "hp": "Tech Cashmere Crew Neck Sweater",
+      "hu": "https://mackweldon.com/products/tech-cashmere-crew-neck-sweater",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "SILVER Denim Jacket",
+      "lu": "https://mackweldon.com/products/silver-denim-jacket",
+      "hp": "WARMKNIT AIR Hooded Jacket",
+      "hu": "https://mackweldon.com/products/warmknit-air-hooded-jacket",
+      "b": "range"
+    }
+  },
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Outerwear"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://mackweldon.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
   }
 }

@@ -38,7 +38,7 @@
     "u": "https://www.ychroma.com/products/varial-shirt-cut-jacket",
     "n": "named best-selling in the brand’s own release; \"the replacement for a tired blazer\""
   },
-  "prices": [[95, 150], [130, 190], [180, 280], [200, 280], [180, 320], [299, 499], [399, 1249], null],
+  "prices": [[175, 199], [299, 325], [249, 425], [349, 349], [349, 399], [299, 499], [399, 1249], null],
   "doors": {
     "c": "full",
     "n": 0,
@@ -74,7 +74,7 @@
     "nc": ["Shirts", "Pants", "Knitwear"],
     "st": "complete"
   },
-  "price_range_only": ["Outerwear", "Sweater"],
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Dress pants", "Sweater", "Outerwear"],
   "garment_links": {
     "Polo": "https://www.ychroma.com/collections/polo-shirts",
     "Dress shirt": "https://www.ychroma.com/collections/shirts",
@@ -85,5 +85,64 @@
   },
   "notes": {
     "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Buffed Cotton V-Neck",
+      "lu": "https://www.ychroma.com/products/buffed-cotton-v-neck-short-sleeve",
+      "hp": "French Linen Short Sleeve Henley",
+      "hu": "https://www.ychroma.com/products/french-linen-short-sleeve-henley",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Madeira Polo Aeroweave",
+      "lu": "https://www.ychroma.com/products/madeira-polo-aeroweave",
+      "hp": "Madeira French Linen Short Sleeve Polo",
+      "hu": "https://www.ychroma.com/products/madeira-french-linen-short-sleeve-polo",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Organic Cotton Work Shirt",
+      "lu": "https://www.ychroma.com/products/basic-workshirt",
+      "hp": "Cognac Pocket Denim Shirt",
+      "hu": "https://www.ychroma.com/products/cognac-pocket-denim-shirt",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Enduro Jean Button Fly",
+      "lu": "https://www.ychroma.com/products/enduro-jean-button-fly",
+      "hp": "Enduro Jean Button Fly",
+      "hu": "https://www.ychroma.com/products/enduro-jean-button-fly",
+      "b": "single"
+    },
+    "Dress pants": {
+      "lp": "Drücken Pant",
+      "lu": "https://www.ychroma.com/products/drucken-pant",
+      "hp": "Skyline Pant",
+      "hu": "https://www.ychroma.com/products/skyline-pant",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Dwayne V-Neck Cashmere",
+      "lu": "https://www.ychroma.com/products/dwayne-v-neck-cashmere",
+      "hp": "Power Cable Sweater 2026 Edition",
+      "hu": "https://www.ychroma.com/products/power-cable-sweater-2026-edition",
+      "b": "range"
+    },
+    "Outerwear": {
+      "lp": "Drücken Track Jacket",
+      "lu": "https://www.ychroma.com/products/drucken-track-jacket",
+      "hp": "Mazarin Cut-Down Jacket",
+      "hu": "https://www.ychroma.com/products/mazarin-cut-down-jacket",
+      "b": "range"
+    }
+  },
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.ychroma.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

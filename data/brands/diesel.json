@@ -41,7 +41,7 @@
     "u": "https://diesel.com/en-us/search-algolia?NA_NA_DieselUS__products__en_US%5Bquery%5D=d-struck",
     "n": "their Algolia deep-link, verified — normal search URLs fail"
   },
-  "prices": [[50, 90], [90, 140], [120, 180], [150, 350], [130, 220], [295, 550], [350, 1395], [250, 495]],
+  "prices": [[75, 295], [150, 375], [225, 375], [195, 850], [275, 275], [295, 750], [350, 1395], [595, 595]],
   "notes": {
     "denim": "industrial denim revived by Glenn Martens",
     "ital": "the inverse case — an Italian company selling an American fantasy for forty years",
@@ -113,5 +113,73 @@
     "Sweater": "https://www.diesel.com/en-us/man/sweaters/",
     "Outerwear": "https://www.diesel.com/en-us/man/jackets/",
     "Shoes": "https://www.diesel.com/en-us/man/footwear/"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "T-shirt with blurry Diesel logo (T-Adjust-Q7)",
+      "lu": "https://diesel.com/en-us/tshirts/t-adjust-q7-black/A153980GRAI9XX.html",
+      "hp": "T-shirt with frayed edges and crystal details (T-Norm-Crystals)",
+      "hu": "https://diesel.com/en-us/tshirts/t-norm-crystals-white/A232350PKBN141.html",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Polo shirt with micro Diesel embroidery (T-Ferry-Microdiv)",
+      "lu": "https://diesel.com/en-us/polos/t-ferry-microdiv-white/A150330JMAD100.html",
+      "hp": "Mesh-jacquard polo shirt with Phoenix print (T-Erry-Zip)",
+      "hu": "https://diesel.com/en-us/polos/t-erry-zip-grey/A240100PLDH900.html",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Shirt with embroidered Oval D (S-Fitty-QFAV)",
+      "lu": "https://diesel.com/en-us/shirts/s-fitty-qfav-white/A196700QFAV100.html",
+      "hp": "Cotton-cupro shirt with embroidered patch (S-Simply-A-JMCK)",
+      "hu": "https://diesel.com/en-us/shirts/s-simply-a-jmck-black/A232520JMCK9XX.html",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Slim Jeans Regular Waist 2019 D-Strukt",
+      "lu": "https://diesel.com/en-us/slim/slim-jeans-2019-d-strukt-0hdbk-blue/A035580HDBK01.html",
+      "hp": "Relaxed Jeans Regular Waist 1980 D-Eeper",
+      "hu": "https://diesel.com/en-us/relaxed/relaxed-jeans-1980-d-eeper-068ym-blue/A15795068YM01.html",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Chino pants (P-Hant-Chino)",
+      "lu": "https://diesel.com/en-us/pants/p-hant-chino-black/A196380NJBP9XX.html",
+      "hp": "Chino pants (P-Hant-Chino)",
+      "hu": "https://diesel.com/en-us/pants/p-hant-chino-black/A196380NJBP9XX.html",
+      "b": "single"
+    },
+    "Sweater": {
+      "lp": "Wool jumper with cut-out logo (K-Valiam)",
+      "lu": "https://diesel.com/en-us/sweaters/k-valiam-black/A174420DCCH9XX.html",
+      "hp": "Zip-up cardigan with two-tone denim effect (K-Hermos)",
+      "hu": "https://diesel.com/en-us/sweaters/k-hermos-multicolor/A250820IFBF900A.html",
+      "b": "range"
+    },
+    "Outerwear": {
+      "lp": "Biker jacket in shiny ripstop (J-Clays)",
+      "lu": "https://diesel.com/en-us/jackets/j-clays-black/A144100NKBK9XX.html",
+      "hp": "Biker jacket in treated leather (L-Eon)",
+      "hu": "https://diesel.com/en-us/outerwear-%26-jackets/l-eon-brown/A200000ALBB7BB.html",
+      "b": "pair"
+    },
+    "Shoes": {
+      "lp": "D-Mathieu brushed leather loafer with rubber sole",
+      "lu": "https://diesel.com/en-us/moccasins-and-mules/d-mathieu-sc-black/Y03734P7815T8013.html",
+      "hp": "D-Mathieu brushed leather loafer with rubber sole",
+      "hu": "https://diesel.com/en-us/moccasins-and-mules/d-mathieu-sc-black/Y03734P7815T8013.html",
+      "b": "single"
+    }
+  },
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Sweater"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://diesel.com/en-us/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true,
+  "shop": "https://diesel.com/en-us/search-algolia?q="
 }

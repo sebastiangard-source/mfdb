@@ -40,7 +40,7 @@
     "u": "https://www.goldengoose.com/us/en/ls/men/clothing/coats-jackets-m-en_us",
     "n": "verified — the lived-in treatment that made the sneaker, applied to a garment; $2,200 in the men's coats and jackets category, which runs $490 to $2,550. Category page rather than the SKU so it survives the season. Replaces a null: the Super-Star is still the brand, and it sits in the shoe slot"
   },
-  "prices": [[160, 320], [195, 790], [450, 950], [450, 530], [450, 790], [490, 1350], [490, 2550], [450, 2520]],
+  "prices": [[160, 320], [195, 650], [450, 850], [450, 530], [490, 790], [490, 750], [490, 2550], [620, 740]],
   "price_checked": true,
   "shoelink": {
     "t": "Super-Star",
@@ -143,5 +143,71 @@
     "Sweater": "https://www.goldengoose.com/us/en/ls/men/clothing/knitwear-m-en_us",
     "Outerwear": "https://www.goldengoose.com/us/en/ls/men/clothing/coats-jackets-m-en_us",
     "Shoes": "https://www.goldengoose.com/us/en/ls/men/shoes-m-en_us"
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "slim-fit white sports T-shirt (polyamide technical jersey)",
+      "lu": "https://www.goldengoose.com/us/en/men-s-slim-fit-white-sports-t-shirt-cod-GMP02110.P001843.10100.html",
+      "hp": "vintage-effect gray T-shirt with print on the front (100% cotton, short sleeves)",
+      "hu": "https://www.goldengoose.com/us/en/men-s-vintage-effect-gray-t-shirt-with-print-on-the-front-cod-GMP01220.P002145.60255.html",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "black sports zipped polo shirt",
+      "lu": "https://www.goldengoose.com/us/en/men-s-black-sports-zipped-polo-shirt-cod-GMP02112.P001842.90100.html",
+      "hp": "brick-colored polo with embroidered logo (short-sleeve knit, 50% cotton 50% polyester)",
+      "hu": "https://www.goldengoose.com/us/en/men-s-brick-colored-polo-with-embroidered-logo.-cod-GMP02387.P002178.55242.html",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "shirt with narrow stripes (100% cotton, long sleeves)",
+      "lu": "https://www.goldengoose.com/us/en/men-s-shirt-with-narrow-stripes-cod-GMP00246.P000548.80197.html",
+      "hp": "Unisex shirt in ecru and sand striped cotton and linen with embroidery",
+      "hu": "https://www.goldengoose.com/us/en/unisex-shirt-in-ecru-and-sand-striped-cotton-and-linen-with-embroidery-cod-GUP02858.P002578.83378.html",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "slim fit jeans with medium wash (five pockets, 100% cotton)",
+      "lu": "https://www.goldengoose.com/us/en/men-s-slim-fit-jeans-with-medium-wash-cod-GMP00596.P000621.50100.html",
+      "hp": "Men's jeans in light blue denim (wide fit)",
+      "hu": "https://www.goldengoose.com/us/en/men%E2%80%99s-jeans-in-light-blue-denim-cod-GMP02520.P002359.50491.html",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Men's black wool gabardine pants (100% wool)",
+      "lu": "https://www.goldengoose.com/us/en/men%E2%80%99s-black-wool-gabardine-pants-cod-GMP00581.P001170.90100.html",
+      "hp": "Men's slim-fit pants in gray Prince of Wales check (virgin wool)",
+      "hu": "https://www.goldengoose.com/us/en/men%E2%80%99s-slim-fit-pants-in-gray-prince-of-wales-check-cod-GMP02539.P002318.60567.html",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "round-neck sweater in dark gray mélange wool (virgin wool)",
+      "lu": "https://www.goldengoose.com/us/en/men-s-round-neck-sweater-in-dark-gray-m-lange-wool-cod-GMP00947.P000665.60304.html",
+      "hp": "sweater in striped alpaca blend (75% alpaca, 25% polyamide; crew neck)",
+      "hu": "https://www.goldengoose.com/us/en/men-s-sweater-in-striped-alpaca-blend-cod-GMP02833.P002671.82748.html",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "windcheater with contrasting white logo and star (nylon, hooded)",
+      "lu": "https://www.goldengoose.com/us/en/men-s-windcheater-with-contrasting-white-logo-and-star-cod-GMP01032.P000596.80203.html",
+      "hp": "dark brown distressed leather bomber jacket (cowhide)",
+      "hu": "https://www.goldengoose.com/us/en/men-s-dark-brown-distressed-leather-bomber-jacket-cod-GMP02502.P002288.55381.html",
+      "b": "range"
+    },
+    "Shoes": {
+      "lp": "Jerry loafer in black leather",
+      "lu": "https://www.goldengoose.com/us/en/men-s-jerry-loafer-in-black-leather-cod-GMF00268.F002985.90100.html",
+      "hp": "Cruise loafers in black waxed suede with black hiking laces",
+      "hu": "https://www.goldengoose.com/us/en/men-s-cruise-loafers-in-black-waxed-suede-with-black-hiking-laces-cod-GMF01048.F008225.90100.html",
+      "b": "pair"
+    }
+  },
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants", "Outerwear"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.goldengoose.com/us/en/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
   }
 }

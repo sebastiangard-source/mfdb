@@ -41,13 +41,13 @@
     "n": "verified ✓"
   },
   "prices": [
-    [320, 740],
+    [390, 660],
     [650, 1590],
-    [650, 920],
-    [650, 1160],
-    [783, 1350],
+    [830, 1150],
+    [990, 1050],
+    [920, 1650],
     [1290, 1290],
-    [1850, 6590],
+    [1750, 4850],
     [990, 990]
   ],
   "shoelink": {
@@ -106,7 +106,7 @@
     "nc": ["t-shirts", "shirts", "jackets"],
     "st": "complete"
   },
-  "price_range_only": ["Sweater"],
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants", "Outerwear"],
   "garment_links": {
     "T-shirt": "https://www.alexandermcqueen.com/en-us/ca/men/ready-to-wear/t-shirts-and-sweatshirts",
     "Polo": "https://www.alexandermcqueen.com/en-us/search?q=polo",
@@ -116,5 +116,71 @@
     "Sweater": "https://www.alexandermcqueen.com/en-us/ca/men/ready-to-wear/knitwear",
     "Outerwear": "https://www.alexandermcqueen.com/en-us/ca/men/ready-to-wear/coats-and-outerwear",
     "Shoes": "https://www.alexandermcqueen.com/en-us/ca/men/shoes"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Fanzine Print T-shirt",
+      "lu": "https://www.alexandermcqueen.com/en-us/pr/fanzine-print-t-shirt-873650QTAER0648.html",
+      "hp": "Logo Oversized T-shirt",
+      "hu": "https://www.alexandermcqueen.com/en-us/pr/logo-oversized-t-shirt-828434QTADE0445.html",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Striped Polo Shirt",
+      "lu": "https://www.alexandermcqueen.com/en-us/pr/striped-polo-shirt-860450QXACQ6207.html",
+      "hp": "Skull Crochet Polo Shirt",
+      "hu": "https://www.alexandermcqueen.com/en-us/pr/skull-crochet-polo-shirt-875528Q1BHP4100.html",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Harness Shirt (white cotton poplin)",
+      "lu": "https://www.alexandermcqueen.com/en-us/pr/harness-shirt-624753QPN449000.html",
+      "hp": "McQueen Logo Harness Shirt (striped poplin)",
+      "hu": "https://www.alexandermcqueen.com/en-us/pr/mcqueen-logo-harness-shirt-873324QNABM9323.html",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Straight Leg Jeans",
+      "lu": "https://www.alexandermcqueen.com/en-us/pr/straight-leg-jeans-845485QYABU4211.html",
+      "hp": "Straight Leg Jeans",
+      "hu": "https://www.alexandermcqueen.com/en-us/pr/straight-leg-jeans-860554QYAB14211.html",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "McQueen Classic Selvedge Mohair Pants",
+      "lu": "https://www.alexandermcqueen.com/en-us/pr/mcqueen-classic-selvedge-mohair-pants-615652QRU421000.html",
+      "hp": "Wide Leg Evening Trousers",
+      "hu": "https://www.alexandermcqueen.com/en-us/pr/wide-leg-evening-trousers-873388QUAD59015.html",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Distressed Skull Jumper",
+      "lu": "https://www.alexandermcqueen.com/en-us/pr/distressed-skull-jumper-858362Q1BA64100.html",
+      "hp": "Distressed Skull Jumper",
+      "hu": "https://www.alexandermcqueen.com/en-us/pr/distressed-skull-jumper-858362Q1BA64100.html",
+      "b": "single"
+    },
+    "Outerwear": {
+      "lp": "Denim Jacket",
+      "lu": "https://www.alexandermcqueen.com/en-us/pr/denim-jacket-868432QYAB14211.html",
+      "hp": "McQueen Classic Leather Biker Jacket",
+      "hu": "https://www.alexandermcqueen.com/en-us/pr/mcqueen-classic-leather-biker-jacket-626381Q5LDS1000.html",
+      "b": "range"
+    },
+    "Shoes": {
+      "lp": "Wishbone Loafer",
+      "lu": "https://www.alexandermcqueen.com/en-us/pr/wishbone-loafer-867922WHADV1000.html",
+      "hp": "Wishbone Loafer",
+      "hu": "https://www.alexandermcqueen.com/en-us/pr/wishbone-loafer-867922WHADV1000.html",
+      "b": "single"
+    }
+  },
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.alexandermcqueen.com/en-us/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

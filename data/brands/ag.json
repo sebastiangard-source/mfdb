@@ -38,7 +38,7 @@
     "u": "https://www.agjeans.com/search?q=Tellis%20jean",
     "n": "verified ✓"
   },
-  "prices": [[60, 90], [100, 140], [140, 200], [190, 280], [160, 240], [185, 185], [245, 895], null],
+  "prices": [[68, 138], [118, 178], [148, 345], [198, 428], [225, 295], [185, 365], [245, 895], null],
   "notes": {
     "denim": "Adriano Goldschmied's own label — premium LA denim's godfather",
     "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional"
@@ -92,7 +92,7 @@
     "nc": ["jeans", "shirts & tops", "pants"],
     "st": "complete"
   },
-  "price_range_only": ["Sweater"],
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants", "Sweater", "Outerwear"],
   "garment_links": {
     "T-shirt": "https://www.agjeans.com/collections/mens-tees",
     "Polo": "https://www.agjeans.com/collections/mens-polos",
@@ -101,5 +101,64 @@
     "Dress pants": "https://www.agjeans.com/collections/mens-pants-and-trousers",
     "Sweater": "https://www.agjeans.com/collections/mens-sweaters",
     "Outerwear": "https://www.agjeans.com/collections/mens-jackets-and-outerwear"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Wesley Crew",
+      "lu": "https://www.agjeans.com/products/wesley-crew-relaxed-t-shirt-71127elxtwh",
+      "hp": "Bryce Crew (classic fit short sleeve)",
+      "hu": "https://www.agjeans.com/products/bryce-crew-classic-fit-short-sleeve-crew-neck-t-shirt-70240pljchne",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Bryce Short Sleeve Polo",
+      "lu": "https://www.agjeans.com/products/bryce-short-sleeve-polo-classic-fit-ss-polo-t-shirt-71129lxbslwdbr",
+      "hp": "Bryce Polo (classic fit short sleeve)",
+      "hu": "https://www.agjeans.com/products/bryce-s-s-polo-classic-fit-short-sleeve-polo-t-shirt-71129pljtbc",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Dean Oxford Shirt",
+      "lu": "https://www.agjeans.com/products/dean-oxford-shirt-classic-fit-71651oxswht",
+      "hp": "Louis Long Sleeve Camp Shirt",
+      "hu": "https://www.agjeans.com/products/louis-long-sleeve-camp-shirt-relaxed-fit-71737pkicocl",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Tellis Jean (modern slim)",
+      "lu": "https://www.agjeans.com/products/tellis-modern-slim-1783ledslr",
+      "hp": "Tellis Selvage Jean",
+      "hu": "https://www.agjeans.com/products/tellis-selvage-slim-fit-denim-1783gbsgeno",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Everett Tailored Pant",
+      "lu": "https://www.agjeans.com/products/everett-tailored-pant-slim-straight-1h76lcgdkoc",
+      "hp": "Archie Trouser (seersucker)",
+      "hu": "https://www.agjeans.com/products/archie-straight-trouser-1g39syrslanbk",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Beck Crew Sweater",
+      "lu": "https://www.agjeans.com/products/beck-crew-sweater-classic-fit-71742sfchrbk",
+      "hp": "Josiah Mohair Sweater",
+      "hu": "https://www.agjeans.com/products/josiah-mohair-sweater-unisex-cardigan-71794fmhbbry",
+      "b": "range"
+    },
+    "Outerwear": {
+      "lp": "Dart Jacket",
+      "lu": "https://www.agjeans.com/products/dart-classic-trucker-4806hyb02ytxd",
+      "hp": "Charles Jacket",
+      "hu": "https://www.agjeans.com/products/charles-jacket-classic-fit-leather-jacket-4797dlladvr",
+      "b": "range"
+    }
+  },
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.agjeans.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

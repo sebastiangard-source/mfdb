@@ -39,7 +39,7 @@
     "u": "https://www.tecovas.com/search?q=Cartwright%20boot%20men",
     "n": "works"
   },
-  "prices": [[30, 45], [69, 95], [80, 120], [90, 140], [100, 140], [165, 195], [295, 295], [185, 285]],
+  "prices": [[45, 45], null, [95, 95], [145, 245], null, null, [185, 295], [185, 225]],
   "shoelink": {
     "t": "Cartwright boot",
     "u": "https://www.tecovas.com/search?q=Cartwright%20boot"
@@ -161,7 +161,7 @@
     "nc": ["T-Shirts", "Button Downs", "Jeans"],
     "st": "complete"
   },
-  "price_range_only": ["Sweater"],
+  "price_range_only": ["Jeans", "Outerwear"],
   "garment_links": {
     "T-shirt": "https://www.tecovas.com/shop/t-shirts/mens",
     "Dress shirt": "https://www.tecovas.com/shop/tops/mens",
@@ -170,5 +170,50 @@
     "Sweater": "https://www.tecovas.com/shop/sweaters/mens",
     "Outerwear": "https://www.tecovas.com/shop/outerwear/mens",
     "Shoes": "https://www.tecovas.com/shop/shoes/mens"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Men's Standard Issue Pocket Tee",
+      "lu": "https://www.tecovas.com/products/standard-issue-pocket-tee-navy-pima-cotton",
+      "hp": "Men's Standard Issue Pocket Tee",
+      "hu": "https://www.tecovas.com/products/standard-issue-pocket-tee-navy-pima-cotton",
+      "b": "single"
+    },
+    "Dress shirt": {
+      "lp": "Men's Essential Flannel",
+      "lu": "https://www.tecovas.com/products/mens-essential-flannel-black-gray-cotton-blend",
+      "hp": "Men's Essential Flannel",
+      "hu": "https://www.tecovas.com/products/mens-essential-flannel-black-gray-cotton-blend",
+      "b": "single"
+    },
+    "Jeans": {
+      "lp": "Men's Slim Straight Stretch Twill",
+      "lu": "https://www.tecovas.com/products/mens-slim-straight-stretch-twill-dark-navy-stretch-twill-denim",
+      "hp": "Men's Straight Crafted Denim",
+      "hu": "https://www.tecovas.com/products/mens-straight-crafted-denim-resin-rinse-crafted-denim",
+      "b": "range"
+    },
+    "Outerwear": {
+      "lp": "Men's Denim Chore Jacket",
+      "lu": "https://www.tecovas.com/products/mens-denim-chore-jacket-medium-indigo-denim",
+      "hp": "Men's Waxed Ranch Jacket",
+      "hu": "https://www.tecovas.com/products/mens-waxed-ranch-jacket-waxed-canvas",
+      "b": "range"
+    },
+    "Shoes": {
+      "lp": "The Monterrey",
+      "lu": "https://www.tecovas.com/products/the-monterrey-husk-goat-roughout",
+      "hp": "The Monterrey Penny",
+      "hu": "https://www.tecovas.com/products/the-monterrey-penny-cafe-goat",
+      "b": "pair"
+    }
+  },
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.tecovas.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

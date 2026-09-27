@@ -43,13 +43,13 @@
     "n": "Use this: https://www.prada.com/us/en/p/re-nylon-shirt/SC548_1WQ8_F0002_S_212"
   },
   "prices": [
-    [825, 1590],
-    [1070, 1920],
-    [1070, 2700],
-    [1700, 1900],
-    [1350, 2150],
+    [825, 3450],
+    [795, 2300],
+    [925, 5900],
+    [1200, 2300],
+    [1650, 3000],
     [1250, 4400],
-    [2300, 7900],
+    [2300, 8900],
     [1020, 1320]
   ],
   "shoelink": {
@@ -139,5 +139,72 @@
     "Sweater": "https://www.prada.com/us/en/mens/ready-to-wear/knitwear/c/10134US",
     "Outerwear": "https://www.prada.com/us/en/mens/ready-to-wear/jackets-and-coats/c/10132US",
     "Shoes": "https://www.prada.com/us/en/mens/shoes/c/10149US"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Cotton T-shirt",
+      "lu": "https://www.prada.com/us/en/p/cotton-t-shirt/UJN999_196F_F0124_S_OOO",
+      "hp": "Cashmere and silk T-shirt (70% cashmere, 30% silk, short sleeves)",
+      "hu": "https://www.prada.com/us/en/p/cashmere-and-silk-t-shirt/UJN981_1869_F0480_S_OOO",
+      "b": "pair"
+    },
+    "Polo": {
+      "lp": "Pique polo shirt",
+      "lu": "https://www.prada.com/us/en/p/pique-polo-shirt/UJN444_XGS_F0009_S_WEO",
+      "hp": "Short-sleeved cotton polo shirt",
+      "hu": "https://www.prada.com/us/en/p/short-sleeved-cotton-polo-shirt/UJN984_19BD_F0XPE_S_OOO",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Stretch cotton shirt",
+      "lu": "https://www.prada.com/us/en/p/stretch-cotton-shirt/UCM608_10HT_F0009_S_OOO",
+      "hp": "Cashmere shirt",
+      "hu": "https://www.prada.com/us/en/p/cashmere-shirt/UCN672_12R7_F0A08_S_OOO",
+      "b": "pair"
+    },
+    "Jeans": {
+      "lp": "Stretch-denim jeans",
+      "lu": "https://www.prada.com/us/en/p/stretch-denim-jeans/GEP178_1BJU_F0008_S_221",
+      "hp": "Bull denim five-pocket jeans",
+      "hu": "https://www.prada.com/us/en/p/bull-denim-five-pocket-jeans/GEP446_189X_F098L_S_OOO",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Light stretch wool pants",
+      "lu": "https://www.prada.com/us/en/p/light-stretch-wool-pants/UP0164_11HR_F0002_S_OOO",
+      "hp": "Stretch cashmere pants",
+      "hu": "https://www.prada.com/us/en/p/stretch-cashmere-pants/UP0141_17TF_F0002_S_OOO",
+      "b": "pair"
+    },
+    "Sweater": {
+      "lp": "Superfine wool crew-neck sweater",
+      "lu": "https://www.prada.com/us/en/p/superfine-wool-crew-neck-sweater/UMF146_18DY_F0154_S_OOO",
+      "hp": "Cashmere crew-neck sweater",
+      "hu": "https://www.prada.com/us/en/p/cashmere-crew-neck-sweater/UMF097_17TS_F0241_S_OOO",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Old denim blouson jacket",
+      "lu": "https://www.prada.com/us/en/p/old-denim-blouson-jacket/GEB316_1954_F0630_S_OOO",
+      "hp": "Suede blouson jacket",
+      "hu": "https://www.prada.com/us/en/p/suede-blouson-jacket/UPW620_180Y_F0JRS_S_OOO",
+      "b": "pair"
+    },
+    "Shoes": {
+      "lp": "Fabric loafers",
+      "lu": "https://www.prada.com/us/en/p/fabric-loafers/2DG165_010_F0065_F_G000",
+      "hp": "Leather loafers",
+      "hu": "https://www.prada.com/us/en/p/leather-loafers/2DB238_UZE_F0002_F_X000",
+      "b": "pair"
+    }
+  },
+  "price_range_only": ["Polo", "Jeans"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.prada.com/us/en.html",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

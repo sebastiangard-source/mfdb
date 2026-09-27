@@ -35,7 +35,7 @@
     "u": "https://forrowan.com/products/asher-standard-tee",
     "n": "verified — direct product page. American-grown Supima; 201 reviews against 49 for the next-most-reviewed piece, and the only style the house runs in four cuts plus a kids version"
   },
-  "prices": [[55, 105], [135, 135], [135, 195], [225, 250], [195, 235], "?", [175, 365], "?"],
+  "prices": [[55, 105], [135, 135], [135, 225], null, [195, 195], null, [175, 365], null],
   "doors": {
     "c": "full",
     "n": 5,
@@ -91,5 +91,50 @@
   "price_checked": true,
   "notes": {
     "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional"
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Noah Standard Tee",
+      "lu": "https://forrowan.com/products/noah-standard-tee",
+      "hp": "1955 Asher Standard Tee",
+      "hu": "https://forrowan.com/products/1955-asher-standard-tee",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Henderson Short Sleeve Polo",
+      "lu": "https://forrowan.com/products/henderson-ss-polo",
+      "hp": "Henderson Short Sleeve Polo",
+      "hu": "https://forrowan.com/products/henderson-ss-polo",
+      "b": "single"
+    },
+    "Dress shirt": {
+      "lp": "Pecos Chambray Shirt",
+      "lu": "https://forrowan.com/products/pecos-chambray-shirt",
+      "hp": "1955 Abilene Denim Shirt",
+      "hu": "https://forrowan.com/products/1955-abilene-denim-shirt",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Raleigh Chino Pant",
+      "lu": "https://forrowan.com/products/raleigh-chino-pant",
+      "hp": "Raleigh Chino Pant",
+      "hu": "https://forrowan.com/products/raleigh-chino-pant",
+      "b": "single"
+    },
+    "Outerwear": {
+      "lp": "Odessa Cord Field Jacket",
+      "lu": "https://forrowan.com/products/odessa-cord-field-jacket",
+      "hp": "Baron Trucker Jacket",
+      "hu": "https://forrowan.com/products/baron-trucker-jacket-1",
+      "b": "range"
+    }
+  },
+  "price_range_only": ["T-shirt", "Dress shirt", "Outerwear"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://forrowan.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
   }
 }

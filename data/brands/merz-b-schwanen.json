@@ -39,7 +39,7 @@
     "u": "https://www.merzbschwanen.com/collections/made-in-germany",
     "n": "verified — 100% organic cotton, 2-thread loopwheeled jersey at 245g, made in Albstadt, $120. The house has no 215-only collection, so the ORIGINALS page is linked; the 215 sits first on it"
   },
-  "prices": [[70, 175], [120, 250], null, null, [225, 310], [150, 325], [230, 495], "?"],
+  "prices": [[70, 175], [120, 165], [190, 260], null, [225, 310], [150, 325], [265, 495], null],
   "notes": {
     "cotton": "100 of 119 clothing styles are mainly cotton, and every German-made piece is jersey or fleece knit on loopwheelers or 1960s machines",
     "craft": "32 original loopwheelers on a 130-square-metre floor in Albstadt, the newest built in the 1960s and the oldest in 1889 — the house states the count itself",
@@ -119,5 +119,58 @@
     "Dress pants": "https://www.merzbschwanen.com/collections/mens-pants",
     "Sweater": "https://www.merzbschwanen.com/collections/mens-knitwear-1",
     "Outerwear": "https://www.merzbschwanen.com/collections/mens-jackets"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Vintage Pima Cotton T-Shirt",
+      "lu": "https://www.merzbschwanen.com/products/vintage-pima-cotton-t-shirt",
+      "hp": "2S14 Loopwheeled Relaxed Fit Heavyweight T-Shirt",
+      "hu": "https://www.merzbschwanen.com/products/2s14-loopwheeled-relaxed-fit-heavyweight-t-shirt-2",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Classic Cotton Jersey Short Sleeve Polo Shirt",
+      "lu": "https://www.merzbschwanen.com/products/classic-cotton-jersey-short-sleeve-polo-shirt-1",
+      "hp": "2PKPL Loopwheeled Relaxed Fit Pikée Short Sleeve Polo Shirt",
+      "hu": "https://www.merzbschwanen.com/products/mens-polo-shirt-with-pocket-7-2oz-sq-yd-relaxed-fit",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Button-Down Cotton Oxford Long Sleeve Shirt",
+      "lu": "https://www.merzbschwanen.com/products/button-down-cotton-oxford-long-sleeve-shirt",
+      "hp": "Merino Wool-Cashmere-Silk Long Sleeve Shirt",
+      "hu": "https://www.merzbschwanen.com/products/merino-wool-cashmere-silk-long-sleeve-shirt-1",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Pleated Twill Pants",
+      "lu": "https://www.merzbschwanen.com/products/pleated-twill-pants",
+      "hp": "1920s Cotton Twill Worker Chino",
+      "hu": "https://www.merzbschwanen.com/products/chino-organic-cotton-twill-8-8oz-sq-yd-relaxed-fit",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Lightweight Waffle Knit Sweater",
+      "lu": "https://www.merzbschwanen.com/products/lightweight-waffle-knit-sweater-1",
+      "hp": "Sturdy Ribbed Merino Wool-Cashmere Cardigan",
+      "hu": "https://www.merzbschwanen.com/products/sturdy-ribbed-merino-wool-cashmere-cardigan",
+      "b": "range"
+    },
+    "Outerwear": {
+      "lp": "Cropped Worker's Cotton Twill Jacket",
+      "lu": "https://www.merzbschwanen.com/products/jacket-organic-cotton-broken-twill-11-2oz-sq-yd-cropped-fit",
+      "hp": "Traditionally Woven Burel Wool Worker's Jacket",
+      "hu": "https://www.merzbschwanen.com/products/tradiotionally-woven-burel-wool-worker-jacket",
+      "b": "range"
+    }
+  },
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Dress pants", "Sweater", "Outerwear"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.merzbschwanen.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

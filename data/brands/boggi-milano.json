@@ -36,13 +36,13 @@
   "chan": ["O", "D"],
   "conf": "M",
   "forgc": [2, 3, 3],
-  "shop": "https://www.boggi.com/en-us/search?q=",
+  "shop": "https://www.boggi.com/en_US/search?q=",
   "onething": {
     "p": "Travel blazer",
     "u": "https://www.boggi.com/en-us/search?q=travel+blazer",
     "n": "best-guess link — verify; icon pick needs verdict"
   },
-  "prices": [[60, 90], [85, 120], [120, 160], null, [130, 180], [198, 268], [848, 1048], [328, 448]],
+  "prices": [[88, 228], [108, 158], [128, 248], [198, 268], [179, 268], [198, 448], [298, 2998], [328, 448]],
   "notes": {
     "ital": "Milan as a franchise — the accessible tier of the tailoring capital",
     "finbro": "the European banker's off-the-rack uniform",
@@ -112,5 +112,72 @@
     "Sweater": "https://www.boggi.com/en_US/clothing/knitwear/",
     "Outerwear": "https://www.boggi.com/en_US/clothing/outerwear/",
     "Shoes": "https://www.boggi.com/en_US/shoes/"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Pima Cotton Jersey T-shirt",
+      "lu": "https://www.boggi.com/en_US/pima-cotton-jersey-t-shirt-BO24C0058.html",
+      "hp": "T-Shirt in Wool Jersey WOOLTECH (100% wool, 15 micron)",
+      "hu": "https://www.boggi.com/en_US/t-shirt-in-wool-jersey-wooltech-BO26A0612.html",
+      "b": "pair"
+    },
+    "Polo": {
+      "lp": "Polo in Stretch Supima Cotton Jersey",
+      "lu": "https://www.boggi.com/en_US/polo-in-stretch-supima-cotton-jersey-BO26A0432.html",
+      "hp": "Polo in Piqué Cotton Blend B Tech",
+      "hu": "https://www.boggi.com/en_US/polo-in-piqu%C3%A9-cotton-blend-b-tech-BO26A0756.html",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Regular Fit Pinpoint Cotton Shirt",
+      "lu": "https://www.boggi.com/en_US/regular-fit-pinpoint-cotton-shirt-windsor-collar-BO24C0042.html",
+      "hp": "Slim Fit Shirt in Cotton (tuxedo collar)",
+      "hu": "https://www.boggi.com/en_US/slim-fit-shirt-in-cotton-BO25C0072.html",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Jeans in Stretch Blue Black Denim",
+      "lu": "https://www.boggi.com/en_US/jeans-in-stretch-blue-black-denim-BO26A0952.html",
+      "hp": "Jeans in Dark Blue Selvedge Cotton Denim",
+      "hu": "https://www.boggi.com/en_US/jeans-in-dark-blue-selvedge-cotton-denim-BO26A0962.html",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Micro patterned stretch wool pants",
+      "lu": "https://www.boggi.com/en_US/micro-patterned-stretch-wool-pants-BO23C0006.html",
+      "hp": "Pants in Pure Wool 130S",
+      "hu": "https://www.boggi.com/en_US/pants-in-pure-wool-130s-BO23C0017.html",
+      "b": "pair"
+    },
+    "Sweater": {
+      "lp": "Crew Neck in Extrafine Merino Wool",
+      "lu": "https://www.boggi.com/en_US/crew-neck-in-extrafine-merino-wool-BO26A0186.html",
+      "hp": "Crew Neck Jumper in Cashmere Wool (70% ultrafine merino / 30% cashmere)",
+      "hu": "https://www.boggi.com/en_US/crew-neck-jumper-in-cashmere-wool-BO26A0658.html",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Recycled goose feather fabric bomber",
+      "lu": "https://www.boggi.com/en_US/recycled-goose-feather-fabric-bomber-BO24C0038.html",
+      "hp": "Jacket Padded with Goose Down, Removable Genuine Leather Mélange Flannel Bib",
+      "hu": "https://www.boggi.com/en_US/jacket-padded-with-goose-down%2C-removable-genuine-leather-m%C3%A9lange-flannel-bib-BO26A0966.html",
+      "b": "range"
+    },
+    "Shoes": {
+      "lp": "STRATUS Loafers in Suede Leather",
+      "lu": "https://www.boggi.com/en_US/stratus-loafers-in-suede-leather-BO26A0399.html",
+      "hp": "Loafers in Suede Leather",
+      "hu": "https://www.boggi.com/en_US/loafers-in-suede-leather-BO26A0093.html",
+      "b": "pair"
+    }
+  },
+  "price_range_only": ["Polo", "Dress shirt", "Jeans", "Outerwear"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.boggi.com/en_US/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

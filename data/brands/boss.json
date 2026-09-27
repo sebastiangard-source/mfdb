@@ -34,13 +34,13 @@
   "chan": ["O", "D", "X"],
   "conf": "S",
   "forgc": [2, 4, 2],
-  "shop": "https://www.hugoboss.com/us/search?text=",
+  "shop": "https://www.hugoboss.com/us/search?q=",
   "onething": {
     "p": "The suit",
     "u": "https://www.nordstrom.com/browse/men/clothing/suits?filterByBrand=boss",
     "n": "via Nordstrom, brand-filtered"
   },
-  "prices": [[49, 349], [99, 399], [129, 399], [129, 449], [159, 649], [159, 549], [349, 2499], [170, 799]],
+  "prices": [[59, 399], [99, 399], [129, 399], [129, 449], [170, 649], [159, 549], [349, 2499], [199, 750]],
   "price_checked": true,
   "doors": {
     "c": "full",
@@ -150,5 +150,71 @@
   },
   "notes": {
     "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional"
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Stretch-cotton T-shirt",
+      "lu": "https://www.hugoboss.com/us/stretch-cotton-t-shirt/hbna50473278_325.html",
+      "hp": "Cable-knit T-shirt in cotton and silk",
+      "hu": "https://www.hugoboss.com/us/cable-knit-t-shirt-in-cotton-and-silk/hbna50559427_211.html",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Stretch-cotton slim-fit polo shirt with logo patch",
+      "lu": "https://www.hugoboss.com/us/stretch-cotton-slim-fit-polo-shirt-with-logo-patch/hbna50507803_384.html",
+      "hp": "Zipper-neck polo shirt in a cotton-silk blend",
+      "hu": "https://www.hugoboss.com/us/zipper-neck-polo-shirt-in-a-cotton-silk-blend/hbna50570024_404.html",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Slim-fit shirt in structured performance stretch fabric",
+      "lu": "https://www.hugoboss.com/us/slim-fit-shirt-in-structured-performance-stretch-fabric/hbna50567146_254.html",
+      "hp": "Slim-fit shirt in Italian-made cotton",
+      "hu": "https://www.hugoboss.com/us/slim-fit-shirt-in-italian-made-cotton/hbna50555273_030.html",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Delaware Slim-fit jeans in stay-black comfort-stretch denim",
+      "lu": "https://www.hugoboss.com/us/delaware-slim-fit-jeans-in-stay-black-comfort-stretch-denim/hbna50521261_003.html",
+      "hp": "Slim-fit jeans in silk-blend denim",
+      "hu": "https://www.hugoboss.com/us/slim-fit-jeans-in-silk-blend-denim/hbna50563739_450.html",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Melange slim-fit trousers in a wool blend",
+      "lu": "https://www.hugoboss.com/us/melange-slim-fit-trousers-in-a-wool-blend/hbna50557407_348.html",
+      "hp": "Regular-fit pants in a wool blend with silk",
+      "hu": "https://www.hugoboss.com/us/regular-fit-pants-in-a-wool-blend-with-silk/hbna50539480_275.html",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Cotton pique sweater with logo patch",
+      "lu": "https://www.hugoboss.com/us/cotton-pique-sweater-with-logo-patch/hbna50527584_001.html",
+      "hp": "Silk sweater with jacquard pattern",
+      "hu": "https://www.hugoboss.com/us/silk-sweater-with-jacquard-pattern/hbna50565526_218.html",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Slim-fit quilted jacket",
+      "lu": "https://www.hugoboss.com/us/slim-fit-quilted-jacket/hbna50549252_001.html",
+      "hp": "Reversible relaxed-fit coat in virgin wool and cashmere",
+      "hu": "https://www.hugoboss.com/us/reversible-relaxed-fit-coat-in-virgin-wool-and-cashmere/hbna50570726_118.html",
+      "b": "range"
+    },
+    "Shoes": {
+      "lp": "Grained-leather loafers",
+      "lu": "https://www.hugoboss.com/us/grained-leather-loafers/hbna50536173_205.html",
+      "hp": "Italian-made loafers in soft leather",
+      "hu": "https://www.hugoboss.com/us/italian-made-loafers-in-soft-leather/hbna50565730_209.html",
+      "b": "pair"
+    }
+  },
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants", "Outerwear"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.hugoboss.com/us/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "BOSS ONE; Active/golf/tennis performance pieces (all labelled BOSS)"
   }
 }

@@ -44,7 +44,16 @@
     "u": "https://www.gucci.com/us/en/pr/men/shoes-for-men/loafers-moccasins-for-men/mens-horsebit-1953-loafer-p-307929BLM001000",
     "n": "direct product page — the 1953 is the model name"
   },
-  "prices": [[590, 800], [564, 950], [880, 1350], [1047, 1840], [1350, 1800], "?", "?", "?"],
+  "prices": [
+    [455, 1450],
+    [575, 2300],
+    [690, 1950],
+    [980, 1500],
+    [980, 1850],
+    [1085, 2150],
+    [1920, 5900],
+    [765, 1450]
+  ],
   "shoelink": {
     "t": "Horsebit loafer",
     "u": "https://www.gucci.com/us/en/search?searchString=Horsebit%20loafer"
@@ -152,5 +161,72 @@
     "sc": ["swimwear"],
     "nc": ["denim", "t-shirts and polo shirts", "knitwear"],
     "st": "complete"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Cotton jersey T-shirt with print",
+      "lu": "https://www.gucci.com/us/en/pr/men/ready-to-wear-for-men/t-shirts-polo-shirts-for-men/cotton-jersey-t-shirt-with-print-p-855021XJHOE2388",
+      "hp": "Knit silk cotton T-shirt with embroidery",
+      "hu": "https://www.gucci.com/us/en/pr/men/ready-to-wear-for-men/knitwear-for-men/crewnecks-for-men/knit-silk-cotton-t-shirt-with-embroidery-p-875140XKFL71043",
+      "b": "pair"
+    },
+    "Polo": {
+      "lp": "Cotton piquet polo with Web collar",
+      "lu": "https://www.gucci.com/us/en/pr/men/ready-to-wear-for-men/t-shirts-polo-shirts-for-men/polo-shirts-for-men/cotton-piquet-polo-with-web-collar-p-701735XJELJ1043",
+      "hp": "GG cotton silk jacquard polo shirt",
+      "hu": "https://www.gucci.com/us/en/pr/men/ready-to-wear-for-men/knitwear-for-men/knitted-polo-for-men/gg-cotton-silk-jacquard-polo-shirt-p-855058XKFEN4588",
+      "b": "pair"
+    },
+    "Dress shirt": {
+      "lp": "Striped cotton poplin shirt",
+      "lu": "https://www.gucci.com/us/en/pr/men/ready-to-wear-for-men/shirts-for-men/long-sleeves-shirts-for-men/striped-cotton-poplin-shirt-p-784020ZAQU49025",
+      "hp": "GG silk jacquard shirt",
+      "hu": "https://www.gucci.com/us/en/pr/men/ready-to-wear-for-men/shirts-for-men/gg-silk-jacquard-shirt-p-862592ZATF99000",
+      "b": "pair"
+    },
+    "Jeans": {
+      "lp": "Slim fit cotton denim pant",
+      "lu": "https://www.gucci.com/us/en/pr/men/ready-to-wear-for-men/denim-for-men/denim-bottoms-for-men/slim-fit-cotton-denim-pant-p-844629XDDD24009",
+      "hp": "GG cotton denim jacquard pants",
+      "hu": "https://www.gucci.com/us/en/pr/men/ready-to-wear-for-men/denim-for-men/denim-bottoms-for-men/gg-cotton-denim-jacquard-pants-p-864814XDDF79000",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Technical wool blend pants",
+      "lu": "https://www.gucci.com/us/en/pr/men/ready-to-wear-for-men/pants-and-shorts-for-men/long-pants-for-men/technical-wool-blend-pants-p-A005TEZAVJ41000",
+      "hp": "GG cotton viscose formal pant",
+      "hu": "https://www.gucci.com/us/en/pr/men/ready-to-wear-for-men/pants-and-shorts-for-men/long-pants-for-men/gg-cotton-viscose-formal-pant-p-698749ZAHMD1000",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Knit wool sweater with intarsia",
+      "lu": "https://www.gucci.com/us/en/pr/men/ready-to-wear-for-men/knitwear-for-men/crewnecks-for-men/knit-wool-sweater-with-intarsia-p-795347XKD744071",
+      "hp": "Cashmere sweater with Web intarsia",
+      "hu": "https://www.gucci.com/us/en/pr/men/ready-to-wear-for-men/knitwear-for-men/crewnecks-for-men/cashmere-sweater-with-web-intarsia-p-791957XKD5E1060",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "GG canvas zip jacket",
+      "lu": "https://www.gucci.com/us/en/pr/men/ready-to-wear-for-men/outerwear-for-men/outerwear-for-men/gg-canvas-zip-jacket-p-832286ZAF4S5367",
+      "hp": "Grainy leather zip jacket",
+      "hu": "https://www.gucci.com/us/en/pr/men/ready-to-wear-for-men/leather-for-men/leather-tops-for-men/grainy-leather-zip-jacket-p-865368XNBDR1018",
+      "b": "pair"
+    },
+    "Shoes": {
+      "lp": "Men's Horsebit 1953 loafer",
+      "lu": "https://www.gucci.com/us/en/pr/men/shoes-for-men/loafers-moccasins-for-men/mens-horsebit-1953-loafer-p-852065AAFRR4063",
+      "hp": "Men's Ragazzo loafer (velvet, crest embroidery)",
+      "hu": "https://www.gucci.com/us/en/pr/men/shoes-for-men/loafers-moccasins-for-men/mens-ragazzo-loafer-p-875001FAFVO1000",
+      "b": "pair"
+    }
+  },
+  "price_range_only": ["Jeans", "Dress pants"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.gucci.com/us/en/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

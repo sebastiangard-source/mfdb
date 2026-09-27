@@ -33,13 +33,13 @@
   "chan": ["O", "I"],
   "conf": "L",
   "forgc": [3, 4, 2],
-  "shop": "https://www.patrickjames.com/search?q=",
+  "shop": "https://patrickjames.com/search?q=",
   "onething": {
     "p": "House-label sport coat",
     "u": "https://patrickjames.com/collections/patrick-james",
     "n": "verified — own-site collection for the eponymous label. A clothier that sells other people's brands too, so the private label is the only thing that is actually theirs; they call the look West Coast Classic"
   },
-  "prices": [[40, 70], [80, 130], [110, 170], [120, 180], [130, 200], [138, 428], [268, 698], [248, 248]],
+  "prices": [[75, 158], [110, 185], [148, 148], [248, 248], [198, 398], [138, 428], [268, 698], [198, 248]],
   "doors": {
     "c": "full",
     "n": 9,
@@ -85,7 +85,7 @@
     "nc": ["Shirts", "Sweaters & Layers", "Sport Coats"],
     "st": "complete"
   },
-  "price_range_only": ["Outerwear"],
+  "price_range_only": ["T-shirt", "Polo", "Dress pants", "Outerwear", "Shoes"],
   "garment_links": {
     "T-shirt": "https://patrickjames.com/collections/tee-shirts",
     "Polo": "https://patrickjames.com/collections/polos-knit-shirts",
@@ -98,5 +98,71 @@
   },
   "notes": {
     "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Patrick James Crew Neck Cotton Tee",
+      "lu": "https://patrickjames.com/products/16794-raffi-crew-neck-cotton-tee-1",
+      "hp": "Reserve Short Sleeve Solid Slub Knit Crew Tee",
+      "hu": "https://patrickjames.com/products/18773-reserve-short-sleeve-solid-slub-knit-crew-tee-1",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Patrick James Polo Shirt",
+      "lu": "https://patrickjames.com/products/17321-patrick-james-aqua-cotton-polo-1",
+      "hp": "Reserve Polo Shirt",
+      "hu": "https://patrickjames.com/products/17920-reserve-short-sleeve-polo-1",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Patrick James Classic Fit Easy Care Dress Shirt",
+      "lu": "https://patrickjames.com/products/91260-patrick-james-classic-fit-easy-care-dress-shirt-1",
+      "hp": "Patrick James Classic Fit Easy Care Dress Shirt",
+      "hu": "https://patrickjames.com/products/91260-patrick-james-classic-fit-easy-care-dress-shirt-1",
+      "b": "single"
+    },
+    "Jeans": {
+      "lp": "Reserve Classic Denim Jean",
+      "lu": "https://patrickjames.com/products/16785-reserve-classic-denim-jeans-1",
+      "hp": "Reserve Classic Denim Jean",
+      "hu": "https://patrickjames.com/products/16785-reserve-classic-denim-jeans-1",
+      "b": "single"
+    },
+    "Dress pants": {
+      "lp": "Patrick James Riviera Wash Wool Flat Front Slacks",
+      "lu": "https://patrickjames.com/products/9311-riviera-wash-wool-flat-front-slacks-1",
+      "hp": "Reserve Pleated Flannel Stripe Pant",
+      "hu": "https://patrickjames.com/products/19199-reserve-pleated-flannel-stripe-pant-1",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Patrick James Marlow Raglan Sweater",
+      "lu": "https://patrickjames.com/products/19163-patrick-james-marlow-raglan-sweater-1",
+      "hp": "Patrick James Inked Cashmere Crewneck Sweater",
+      "hu": "https://patrickjames.com/products/19170-patrick-james-inked-cashmere-crewneck-sweater-1",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Patrick James Corduroy Jacket",
+      "lu": "https://patrickjames.com/products/17658-patrick-james-corduroy-jacket-1",
+      "hp": "Patrick James Glove Lambskin Jacket",
+      "hu": "https://patrickjames.com/products/18442-patrick-james-glove-lambskin-jacket-1",
+      "b": "range"
+    },
+    "Shoes": {
+      "lp": "Patrick James Samba Suede Sneaker",
+      "lu": "https://patrickjames.com/products/19222-patrick-james-samba-suede-sneaker-1",
+      "hp": "Patrick James Suede Slip On",
+      "hu": "https://patrickjames.com/products/19224-patrick-james-suede-slip-on-1",
+      "b": "range"
+    }
+  },
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://patrickjames.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "Reserve (Patrick James Reserve)"
+  },
+  "price_checked": true
 }

@@ -43,14 +43,14 @@
     "n": "works"
   },
   "prices": [
-    [396, 985],
-    [639, 907],
-    [955, 1967],
-    [570, 1970],
-    [760, 1792],
-    [1280, 2670],
-    [1372, 2230],
-    [780, 1605]
+    [215, 525],
+    [960, 960],
+    [770, 1860],
+    [510, 1990],
+    [829, 1190],
+    [1060, 7755],
+    [705, 6740],
+    [765, 2406]
   ],
   "shoelink": {
     "t": "FBT",
@@ -111,7 +111,7 @@
     "st": "complete"
   },
   "shop": "https://shop.visvim.com/search?keywords=",
-  "price_range_only": ["Outerwear", "Shoes"],
+  "price_range_only": ["Dress shirt", "Jeans", "Dress pants", "Sweater", "Outerwear", "Shoes"],
   "garment_links": {
     "T-shirt": "https://shop.visvim.com/men/mensclothing?item_category=Cut--AND--Sew",
     "Dress shirt": "https://shop.visvim.com/men/mensclothing?item_category=Shirt",
@@ -120,5 +120,71 @@
     "Sweater": "https://shop.visvim.com/men/mensclothing?item_category=Knit",
     "Outerwear": "https://shop.visvim.com/men/mensclothing?item_category=Outerwear",
     "Shoes": "https://shop.visvim.com/men/mensfootwear"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "JUMBO TEE S/S GOOD QUALITY",
+      "lu": "https://shop.visvim.com/0123305010004",
+      "hp": "JUMBO TEE S/S (SUPERFINE)",
+      "hu": "https://shop.visvim.com/0125205010004",
+      "b": "pair"
+    },
+    "Polo": {
+      "lp": "POLO SHIRT KNIT S/S (SIC)",
+      "lu": "https://shop.visvim.com/0123205012006",
+      "hp": "POLO SHIRT KNIT S/S (SIC)",
+      "hu": "https://shop.visvim.com/0123205012006",
+      "b": "single"
+    },
+    "Dress shirt": {
+      "lp": "BOOMER SHIRT L/S (W/L)",
+      "lu": "https://shop.visvim.com/0123105011004",
+      "hp": "SOCIAL SCULPTURE SHIRT DRY CRASH",
+      "hu": "https://shop.visvim.com/0126205007003",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "SOCIAL SCULPTURE 03 UNWASHED",
+      "lu": "https://shop.visvim.com/0123105005004",
+      "hp": "SOCIAL SCULPTURE 01 NARROW DMGD-41",
+      "hu": "https://shop.visvim.com/0126105005006",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "DALTON SLACKS (W/L)",
+      "lu": "https://shop.visvim.com/0125305008001",
+      "hp": "WALKER SLACKS",
+      "hu": "https://shop.visvim.com/0126105008018",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "AMPLUS V-NECK KNIT L/S",
+      "lu": "https://shop.visvim.com/0121205012005",
+      "hp": "COWICHAN GRADIENT HAND-KNIT (N.D.)",
+      "hu": "https://shop.visvim.com/0121205012001",
+      "b": "range"
+    },
+    "Outerwear": {
+      "lp": "SS KIYARI JKT UNWASHED",
+      "lu": "https://shop.visvim.com/0121205006008",
+      "hp": "KERCHIEF DOWN JKT P.W.",
+      "hu": "https://shop.visvim.com/0123105013001",
+      "b": "range"
+    },
+    "Shoes": {
+      "lp": "KIEFER MID FORAGE",
+      "lu": "https://shop.visvim.com/0121201001004",
+      "hp": "GORNERGRAT MID-FOLK",
+      "hu": "https://shop.visvim.com/0125202002006",
+      "b": "range"
+    }
+  },
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://shop.visvim.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "VISVIM SPORT (VS-prefixed pieces under the visvim brand facet), VISVIM MOTORS CLUB"
+  },
+  "price_checked": true
 }

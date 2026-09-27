@@ -43,7 +43,7 @@
     "u": "https://www.patagonia.com/search/?q=Synchilla%20Snap-T%20men",
     "n": "verified ✓"
   },
-  "prices": [[40, 55], [60, 90], [90, 140], [100, 150], [90, 140], [159, 209], [119, 899], "?"],
+  "prices": [[49, 85], [69, 75], [95, 179], [135, 135], [135, 135], [159, 209], [119, 1049], [145, 499]],
   "notes": {
     "tech": "its own product families, its own warmth index and eighteen technical filters — the deepest house technology of the thirty-six audited",
     "synth": "performance synthetics with a repair program behind them",
@@ -168,12 +168,78 @@
     "nc": ["Tops", "Wetsuits", "Socks"],
     "st": "complete"
   },
-  "price_range_only": ["Outerwear", "Shoes"],
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Outerwear", "Shoes"],
   "garment_links": {
     "T-shirt": "https://www.patagonia.com/shop/mens/tops/t-shirts",
     "Dress shirt": "https://www.patagonia.com/shop/mens/tops/button-down",
     "Dress pants": "https://www.patagonia.com/shop/mens/bottoms/pants",
     "Sweater": "https://www.patagonia.com/shop/mens/tops/sweaters",
     "Outerwear": "https://www.patagonia.com/shop/mens/jackets-vests"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Men's Capilene Cool Daily Shirt",
+      "lu": "https://www.patagonia.com/product/mens-capilene-cool-daily-shirt/45216.html",
+      "hp": "Men's Capilene Cool Merino-Blend Graphic Shirt",
+      "hu": "https://www.patagonia.com/product/mens-capilene-cool-merino-blend-graphic-shirt/44590.html",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Men's Daily Polo",
+      "lu": "https://www.patagonia.com/product/mens-daily-polo-shirt/53251.html",
+      "hp": "Men's Essential Polo",
+      "hu": "https://www.patagonia.com/product/mens-essential-polo-shirt/42215.html",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Men's Long-Sleeved Lightweight Fjord Flannel Shirt",
+      "lu": "https://www.patagonia.com/product/mens-long-sleeved-lightweight-fjord-flannel-shirt/42410.html",
+      "hp": "Men's Stretch Fjord Flannel Shirt",
+      "hu": "https://www.patagonia.com/product/mens-stretch-fjord-flannel-shirt/42435.html",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Men's Straight Fit Jeans - Regular",
+      "lu": "https://www.patagonia.com/product/mens-straight-fit-jeans-regular/21625.html",
+      "hp": "Men's Straight Fit Jeans - Regular",
+      "hu": "https://www.patagonia.com/product/mens-straight-fit-jeans-regular/21625.html",
+      "b": "single"
+    },
+    "Dress pants": {
+      "lp": "Men's Twill Traveler Chino Pants - Regular",
+      "lu": "https://www.patagonia.com/product/mens-twill-traveler-chino-pants-regular/22120.html",
+      "hp": "Men's Twill Traveler Chino Pants - Regular",
+      "hu": "https://www.patagonia.com/product/mens-twill-traveler-chino-pants-regular/22120.html",
+      "b": "single"
+    },
+    "Sweater": {
+      "lp": "Men's Recycled Wool-Blend Sweater",
+      "lu": "https://www.patagonia.com/product/mens-recycled-wool-blend-sweater/50655.html",
+      "hp": "Men's Recycled Cashmere Crewneck Sweater",
+      "hu": "https://www.patagonia.com/product/mens-recycled-cashmere-crewneck-sweater/50525.html",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Men's Houdini Jacket",
+      "lu": "https://www.patagonia.com/product/mens-houdini-windbreaker-jacket/24142.html",
+      "hp": "Grade VII Down Parka",
+      "hu": "https://www.patagonia.com/product/grade-vii-down-belay-parka/84847.html",
+      "b": "range"
+    },
+    "Shoes": {
+      "lp": "Salt Wading Booties",
+      "lu": "https://www.patagonia.com/product/salt-wading-booties/88345.html",
+      "hp": "Foot Tractor Wading Boots - Aluminum Bar",
+      "hu": "https://www.patagonia.com/product/foot-tractor-wading-boots-aluminum-bar-sole/79320.html",
+      "b": "range"
+    }
+  },
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.patagonia.com/ (US, USD)",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "Patagonia Workwear"
+  },
+  "price_checked": true
 }

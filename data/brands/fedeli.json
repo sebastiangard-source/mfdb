@@ -38,7 +38,7 @@
     "u": "https://www.mrporter.com/en-us/mens/designer/fedeli",
     "n": "MP designer page — verify carriage"
   },
-  "prices": [[200, 350], [250, 675], [300, 575], null, null, [420, 1752], [3005, 7843], "?"],
+  "prices": [[205, 205], [256, 540], [295, 500], null, [540, 1216], [420, 1735], [2066, 4289], [82, 82]],
   "notes": {
     "cashmere": "four-ply turtlenecks — the heavyweight school",
     "cotton": "Giza 45 piqué — cotton so scarce it's priced like cashmere",
@@ -99,5 +99,64 @@
     "Sweater": "https://www.fedelicashmere.com/en-usd/collections/mens-knitwear",
     "Outerwear": "https://www.fedelicashmere.com/en-usd/collections/mens-outerwear"
   },
-  "price_checked": true
+  "price_checked": true,
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Extreme Giza Organic Cotton Short Sleeve T-shirt in iconic colors",
+      "lu": "https://www.fedelicashmere.com/en-usd/products/iconic-extreme-tshirt-organic-cotton-shortsleeves_4uif0103ic",
+      "hp": "Extreme Giza Organic Cotton Short Sleeve T-shirt in iconic colors",
+      "hu": "https://www.fedelicashmere.com/en-usd/products/iconic-extreme-tshirt-organic-cotton-shortsleeves_4uif0103ic",
+      "b": "single"
+    },
+    "Polo": {
+      "lp": "North Piquet Cotton Short Sleeve Polo",
+      "lu": "https://www.fedelicashmere.com/en-usd/products/north-piquet-organic-cotton-polo-short-sleeves-ss26_tuf00102",
+      "hp": "Sportman Superfine Wool Knit Polo in iconic colors (short sleeve, Wool 140)",
+      "hu": "https://www.fedelicashmere.com/en-usd/products/iconic-slim-wool-sportman_4ui07015ic",
+      "b": "pair"
+    },
+    "Dress shirt": {
+      "lp": "Sean Cotton Voile Shirt in iconic colors",
+      "lu": "https://www.fedelicashmere.com/en-usd/products/sean-iconic-long-sleeves-panamino-cotton-shirt_4uif0507ic",
+      "hp": "Alberto Cotton Flanel Tartan Check Shirt",
+      "hu": "https://www.fedelicashmere.com/en-usd/products/alberto-soft-flanel-shirt-45-60_tu000525-45-60",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Lord Twill Old Straight Leg Pants (chino)",
+      "lu": "https://www.fedelicashmere.com/en-usd/products/lord-twill-old-trousers_tul00902",
+      "hp": "Harvard Cashmere Flanel Leisure Fit Pants",
+      "hu": "https://www.fedelicashmere.com/en-usd/products/harvard-cashmere-flanel-trousers_tu000619",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Argentina Superfine Wool (crewneck) in iconic colors",
+      "lu": "https://www.fedelicashmere.com/en-usd/products/iconic-slim-wool-crewneck_4ui07012ic",
+      "hp": "Argentina Cashmere Scotland Crewneck",
+      "hu": "https://www.fedelicashmere.com/en-usd/products/argentina-cashmere-scotland-crewneck_mu006253",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Rain Nylon Bi-Stretch Coat",
+      "lu": "https://www.fedelicashmere.com/en-usd/products/rain-nylon-bi-stretch-coat_tu000425",
+      "hp": "Plume Suede Down Puffer Bomber",
+      "hu": "https://www.fedelicashmere.com/en-usd/products/plume-suede-bomber_tu000540",
+      "b": "range"
+    },
+    "Shoes": {
+      "lp": "Flipper - the Fedeli Flip Flop",
+      "lu": "https://www.fedelicashmere.com/en-usd/products/fedeli-flipper_4ue00716",
+      "hp": "Flipper - the Fedeli Flip Flop",
+      "hu": "https://www.fedelicashmere.com/en-usd/products/fedeli-flipper_4ue00716",
+      "b": "range"
+    }
+  },
+  "price_range_only": ["Dress shirt", "Dress pants", "Outerwear", "Shoes"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.fedelicashmere.com/en-usd",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  }
 }

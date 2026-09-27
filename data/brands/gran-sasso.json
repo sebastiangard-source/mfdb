@@ -38,7 +38,7 @@
     "u": "https://www.nordstrom.com/sr?keyword=gran%20sasso",
     "n": "via Nordstrom — best-guess link, verify"
   },
-  "prices": [[230, 250], [400, 460], [390, 390], null, [540, 540], [380, 860], [920, 1330], [510, 670]],
+  "prices": [[230, 490], [290, 460], [490, 490], null, [490, 620], [270, 970], [920, 1400], [540, 680]],
   "price_checked": true,
   "notes": {
     "wool": "fully-fashioned merino — the entry ticket to Italian knitwear",
@@ -95,5 +95,64 @@
     "Sweater": "https://shop.gransasso.it/en/knitwear-men-fw",
     "Outerwear": "https://shop.gransasso.it/en/outerwear-men-fw",
     "Shoes": "https://shop.gransasso.it/en/shoes-men-fw"
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Mercerized cotton t-shirt",
+      "lu": "https://shop.gransasso.it/en/Mercerized-cotton-t-shirt-15089",
+      "hp": "Wool cashmere and silk knit t-shirt (40% wool/30% cashmere/30% silk)",
+      "hu": "https://shop.gransasso.it/en/Wool-cashmere-and-silk-knit-t-shirt-15287",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Vintage piquet jersey polo (short sleeve; compare-at, on markdown at $200)",
+      "lu": "https://shop.gransasso.it/en/Vintage-piquet-jersey-polo-14061",
+      "hp": "Shirt collar organic cotton knit polo (short sleeve; compare-at, on markdown at $330)",
+      "hu": "https://shop.gransasso.it/en/Shirt-collar-organic-cotton-knit-polo-14020",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Button down flannel shirt (pure cotton)",
+      "lu": "https://shop.gransasso.it/en/Button-down-flannel-shirt-15137",
+      "hp": "Button down flannel shirt (pure cotton)",
+      "hu": "https://shop.gransasso.it/en/Button-down-flannel-shirt-15137",
+      "b": "single"
+    },
+    "Dress pants": {
+      "lp": "Pleats technical wool trousers",
+      "lu": "https://shop.gransasso.it/en/Pleats-technical-wool-trousers-14886",
+      "hp": "Herringbone pleated trousers (100% Shetland virgin wool)",
+      "hu": "https://shop.gransasso.it/en/Herringbone-pleated-trousers-15159",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Merinos wool crew neck",
+      "lu": "https://shop.gransasso.it/en/Merinos-wool-crew-neck-14942",
+      "hp": "Diamond cashmere crew neck (100% cashmere, 3-ply)",
+      "hu": "https://shop.gransasso.it/en/Diamond-cashmere-crew-neck-15282",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Eco-padded flannel jacket",
+      "lu": "https://shop.gransasso.it/en/Eco-padded-flannel-jacket-14853",
+      "hp": "Eco-padded alcantara jacket",
+      "hu": "https://shop.gransasso.it/en/Eco-padded-alcantara-jacket-14799",
+      "b": "range"
+    },
+    "Shoes": {
+      "lp": "Knit sneakers",
+      "lu": "https://shop.gransasso.it/en/Knit-sneakers-15244",
+      "hp": "Suede leather ankle boots",
+      "hu": "https://shop.gransasso.it/en/Suede-leather-ankle-boots-14983",
+      "b": "range"
+    }
+  },
+  "price_range_only": ["T-shirt", "Polo", "Dress pants", "Outerwear", "Shoes"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://shop.gransasso.it/en/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
   }
 }

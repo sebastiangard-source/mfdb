@@ -39,19 +39,19 @@
   "chan": ["O", "D"],
   "conf": "L",
   "forgc": [1, 2, 1],
-  "shop": "https://www.amiri.com/search?q=",
+  "shop": "https://amiri.com/search?q=",
   "onething": {
     "p": "MX1 jean",
     "u": "https://www.amiri.com/search?q=MX1%20jean",
     "n": "verified ✓"
   },
   "prices": [
-    [225, 790],
-    [315, 890],
-    [590, 1290],
-    [750, 1390],
-    [790, 790],
-    [950, 1150],
+    [330, 990],
+    [490, 1190],
+    [750, 1050],
+    [690, 4490],
+    [950, 1490],
+    [950, 4590],
     [1090, 2490],
     [750, 890]
   ],
@@ -123,7 +123,7 @@
     "nc": ["Tops", "Bottoms", "Outerwear"],
     "st": "complete"
   },
-  "price_range_only": ["Outerwear"],
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants", "Sweater"],
   "garment_links": {
     "T-shirt": "https://amiri.com/collections/mens-tees",
     "Polo": "https://amiri.com/collections/mens-jersey",
@@ -133,5 +133,71 @@
     "Sweater": "https://amiri.com/collections/mens-knitwear",
     "Outerwear": "https://amiri.com/collections/mens-outerwear",
     "Shoes": "https://amiri.com/collections/mens-footwear"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "AMIRI Script Tee - Skyline Blue",
+      "lu": "https://amiri.com/products/amiri-script-tee-skyline-blue",
+      "hp": "Laurel Canyon Skater Tee - Black",
+      "hu": "https://amiri.com/products/laurel-canyon-skater-tee-black",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "MA Striped Oversized Polo - Tobacco",
+      "lu": "https://amiri.com/products/ma-striped-os-polo-tobacco",
+      "hp": "Leather Trim Knit Zipped Polo - Black",
+      "hu": "https://amiri.com/products/leather-trim-knit-zipped-polo-black",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Poplin Dress Shirt - White",
+      "lu": "https://amiri.com/products/poplin-dress-shirt-white",
+      "hp": "Round Pocket Dress Shirt - Black",
+      "hu": "https://amiri.com/products/round-pocket-dress-shirt-black",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "MA Fit Black Denim - Black",
+      "lu": "https://amiri.com/products/ma-fit-black-denim-black",
+      "hp": "All Over Crystal MX1 Jean - Midnight Indigo",
+      "hu": "https://amiri.com/products/all-over-crystal-mx1-jean-midnight-indigo",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "MA Flare - Black",
+      "lu": "https://amiri.com/products/ma-flare-black",
+      "hp": "MA Fit Sequins Trouser - Black",
+      "hu": "https://amiri.com/products/ma-fit-sequins-trouser-black",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "MA Sweater - Black",
+      "lu": "https://amiri.com/products/ma-sweater-black",
+      "hp": "Beaded Paisley Knit Cardigan - Husk",
+      "hu": "https://amiri.com/products/beaded-paisley-knit-cardigan-husk",
+      "b": "range"
+    },
+    "Outerwear": {
+      "lp": "AMIRI Sport Windbreaker - Black",
+      "lu": "https://amiri.com/products/amiri-sport-windbreaker-black",
+      "hp": "AMIRI Sport Leather Jacket - Black",
+      "hu": "https://amiri.com/products/amiri-sport-leather-jacket-black",
+      "b": "pair"
+    },
+    "Shoes": {
+      "lp": "Slip On Loafer - Black",
+      "lu": "https://amiri.com/products/slip-on-loafer-black",
+      "hp": "MA Slip On Loafer - Black",
+      "hu": "https://amiri.com/products/ma-slip-on-loafer-black-1",
+      "b": "pair"
+    }
+  },
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://amiri.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

@@ -40,7 +40,7 @@
     "u": "https://www.vince.com/search?q=Boiled%20cashmere%20crew%20men",
     "n": "works"
   },
-  "prices": [[65, 115], [115, 175], [165, 265], [195, 295], [195, 325], [298, 448], [498, 1598], [225, 298]],
+  "prices": [[88, 148], [108, 168], [198, 268], null, [248, 448], [298, 448], [498, 1598], [225, 298]],
   "notes": {
     "cashmere": "the boiled-cashmere funnel neck — structure as softness",
     "comfort": "drape-led contemporary comfort",
@@ -131,5 +131,65 @@
     "Sweater": "https://www.vince.com/men-sweaters/",
     "Outerwear": "https://www.vince.com/men-jackets-outerwear/",
     "Shoes": "https://www.vince.com/men-shoes/"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Pima Cotton Crew Neck T-Shirt",
+      "lu": "https://www.vince.com/product/pima-cotton-crew-neck-t-shirt-MR7779034BLACK.html",
+      "hp": "Double-Layer Pima Cotton T-Shirt",
+      "hu": "https://www.vince.com/product/double-layer-pima-cotton-t-shirt-M19069106BCOASTALSMOCKWHITE.html",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Classic Slub Polo Shirt",
+      "lu": "https://www.vince.com/product/classic-slub-polo-shirt-MR7789371WHITE.html",
+      "hp": "Linen Polo Shirt",
+      "hu": "https://www.vince.com/product/linen-polo-shirt-M92369595ACOASTALBLUE.html",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Cotton Poplin Button-Front Shirt",
+      "lu": "https://www.vince.com/product/cotton-poplin-button-front-shirt-M10611574BEIGE.html",
+      "hp": "Cotton Flannel Garage Shirt",
+      "hu": "https://www.vince.com/product/cotton-flannel-garage-shirt-M18971606HEATHEROATMEAL.html",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Linen-Cotton Classic Pant",
+      "lu": "https://www.vince.com/product/linen-cotton-classic-pant-ISIDPV0J0015.html",
+      "hp": "Owen Athletic Italian Twill Trouser",
+      "hu": "https://www.vince.com/product/owen-athletic-italian-twill-trouser-M19302788.html",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Geo-Jacquard Wool-Blend Crew Neck Sweater",
+      "lu": "https://www.vince.com/product/geo-jacquard-wool-blend-crew-neck-sweater-M05166429ACHOCOLATEPLUMMEDHGREY.html",
+      "hp": "Mega Cable Extrafine Merino Wool-Blend Sweater",
+      "hu": "https://www.vince.com/product/mega-cable-extrafine-merino-wool-blend-sweater-M19996615A.html",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Cotton-Linen Trucker Jacket",
+      "lu": "https://www.vince.com/product/cotton-linen-trucker-jacket-M17734089A.html",
+      "hp": "Nubuck Leather Trucker Jacket",
+      "hu": "https://www.vince.com/product/nubuck-leather-trucker-jacket-M14194071A.html",
+      "b": "pair"
+    },
+    "Shoes": {
+      "lp": "Sonoma Suede Loafer",
+      "lu": "https://www.vince.com/product/sonoma-suede-loafer-H9453L1COASTAL.html",
+      "hp": "Sonoma Woven Suede Loafer",
+      "hu": "https://www.vince.com/product/sonoma-woven-suede-loafer-J3986L1NEWCAMEL.html",
+      "b": "pair"
+    }
+  },
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Dress pants"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.vince.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

@@ -40,7 +40,7 @@
     "u": "",
     "n": "the garment the house made its name on, cut narrow when the rest of the category was not. NO LINK — no US-facing product page verified in this pass"
   },
-  "prices": [[50, 130], [90, 225], [165, 165], [215, 235], [130, 210], [145, 325], [175, 830], "?"],
+  "prices": [[60, 130], [90, 180], [215, 215], [215, 215], [130, 230], [155, 325], [175, 830], [180, 265]],
   "notes": {
     "scandi": "Swedish by origin, but the register it trades in is golf rather than Nordic minimalism — a passport without the accent",
     "golf": "the tour was the launch strategy, and the pro shop is still the native channel",
@@ -94,7 +94,7 @@
     "st": "complete"
   },
   "shop": "https://www.jlindebergusa.com/search?q=",
-  "price_range_only": ["Shoes", "Outerwear", "Sweater"],
+  "price_range_only": ["T-shirt", "Polo", "Dress pants", "Sweater", "Outerwear", "Shoes"],
   "garment_links": {
     "T-shirt": "https://www.jlindebergusa.com/collections/mens-fashion-tops-1",
     "Polo": "https://www.jlindebergusa.com/collections/mens-golf-polos-tops",
@@ -104,5 +104,70 @@
     "Sweater": "https://www.jlindebergusa.com/collections/mens-fashion-sweaters",
     "Outerwear": "https://www.jlindebergusa.com/collections/mens-fashion-outerwear-1"
   },
-  "price_checked": true
+  "price_checked": true,
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Alpha T-shirt / JL Navy",
+      "lu": "https://www.jlindebergusa.com/products/alpha-t-shirt-jl-navy-ss26",
+      "hp": "Hale Heavy Logo T-shirt / Black",
+      "hu": "https://www.jlindebergusa.com/products/hale-heavy-logo-t-shirt-black-ss26",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Bridge Polo / Subtle Green",
+      "lu": "https://www.jlindebergusa.com/products/bridge-polo-subtle-green",
+      "hp": "Bergman Jacquard Oversize Polo / Garrett Polo Stripe Navy",
+      "hu": "https://www.jlindebergusa.com/products/bergman-jacquard-oversize-polo-garrett-polo-stripe-navy",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Coen Mouline Structure Shirt / Winetasting",
+      "lu": "https://www.jlindebergusa.com/products/coen-mouline-structure-shirt-winetasting",
+      "hp": "Coen Mouline Structure Shirt / Winetasting",
+      "hu": "https://www.jlindebergusa.com/products/coen-mouline-structure-shirt-winetasting",
+      "b": "single"
+    },
+    "Jeans": {
+      "lp": "Jax LHT Slim Jeans / Brindle",
+      "lu": "https://www.jlindebergusa.com/products/jax-lht-slim-jeans-brindle-ss26",
+      "hp": "Jax LHT Slim Jeans / Brindle",
+      "hu": "https://www.jlindebergusa.com/products/jax-lht-slim-jeans-brindle-ss26",
+      "b": "single"
+    },
+    "Dress pants": {
+      "lp": "Mitch Pant Light Poly / JL Navy",
+      "lu": "https://www.jlindebergusa.com/products/mitch-pant-light-poly-jl-navy",
+      "hp": "Ellott Fleece Twill Pant / JL Navy",
+      "hu": "https://www.jlindebergusa.com/products/ellott-fleece-twill-pant-jl-navy",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Henry Knitted Sweater / Black",
+      "lu": "https://www.jlindebergusa.com/products/henry-knitted-sweater-black-fw26",
+      "hp": "Savio Cable Knit Hoodie / Winetasting",
+      "hu": "https://www.jlindebergusa.com/products/savio-cable-knit-hoodie-winetasting",
+      "b": "range"
+    },
+    "Outerwear": {
+      "lp": "Ash Light Packable Jacket / White",
+      "lu": "https://www.jlindebergusa.com/products/ash-light-packable-jacket-white-ss26",
+      "hp": "Alon Down Parka / Black",
+      "hu": "https://www.jlindebergusa.com/products/alon-down-parka-black-fw26",
+      "b": "range"
+    },
+    "Shoes": {
+      "lp": "Bridge Golf Sneaker / White",
+      "lu": "https://www.jlindebergusa.com/products/bridge-golf-sneaker-white",
+      "hp": "Vent 500 SE Golf Sneaker / Black",
+      "hu": "https://www.jlindebergusa.com/products/vent-500-se-golf-sneaker-black",
+      "b": "range"
+    }
+  },
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.jlindebergusa.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "Golf (the brand's golf line, sold under J.Lindeberg in the same store)"
+  }
 }

@@ -39,7 +39,7 @@
     "u": "https://www.jackvictor.com/search?q=blazer",
     "n": "their nomenclature is blazers, not sport coats — per site"
   },
-  "prices": [[178, 178], [228, 298], [198, 298], null, [198, 348], [228, 498], [648, 1198], null],
+  "prices": [[178, 228], [248, 248], [198, 298], null, [278, 348], [248, 278], [698, 1198], null],
   "price_checked": true,
   "notes": {
     "wool": "Italian cloth cut in its own Montreal factory since 1913",
@@ -128,5 +128,57 @@
     "Dress pants": "https://www.jackvictor.com/collections/pants",
     "Sweater": "https://www.jackvictor.com/collections/sweaters",
     "Outerwear": "https://www.jackvictor.com/collections/outerwear"
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Hingston Black Short Sleeve T-Shirt",
+      "lu": "https://jackvictor.com/products/hingston-ss-crew-neck-black-v252038-blk",
+      "hp": "Wellington Dark Aviator SetiCo Crew (short-sleeve, cotton-silk knit)",
+      "hu": "https://jackvictor.com/products/wellington-crew-neck-dark-aviator-v251000-dkavtr",
+      "b": "pair"
+    },
+    "Polo": {
+      "lp": "Tupper Blue SetiCo Polo",
+      "lu": "https://jackvictor.com/products/setico-cotton-and-silk-knit-polo-in-blue-v231017",
+      "hp": "Classic Merino Johnny Collar Navy Polo",
+      "hu": "https://jackvictor.com/products/classic-merino-johnny-collar-navy-polo",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Hoffman Blue Stripe Dress Shirt",
+      "lu": "https://jackvictor.com/products/hoffman-blue-stripe-dress-shirt",
+      "hp": "White Tuxedo Shirt",
+      "hu": "https://jackvictor.com/products/white-tuxedo-shirt",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Patrick Charcoal Solid Stretch TEMPO Trouser",
+      "lu": "https://jackvictor.com/products/patrick-ct-pant-reg-pant-jt214245-782-tr",
+      "hp": "Yardley Grey Mini Houndstooth Trouser (Super 120s wool flannel)",
+      "hu": "https://jackvictor.com/products/yardley-grey-mini-houndstooth-trouser",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Dan Washed Navy Crew Neck Sweater",
+      "lu": "https://jackvictor.com/products/dan-ls-crew-neck-washed-navy-v261028-wasnv",
+      "hp": "Charcoal Long Sleeve Crew Neck (Evening Wool, extrafine merino and silk)",
+      "hu": "https://jackvictor.com/products/charcoal-long-sleeve-crew-neck",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Jonte Navy Field Jacket",
+      "lu": "https://jackvictor.com/products/jonte-sml-oc81101-1569-ww",
+      "hp": "Camel Double Breasted Coat (wool-cashmere)",
+      "hu": "https://jackvictor.com/products/harvard-regular-oc82503-1595-er",
+      "b": "range"
+    }
+  },
+  "price_range_only": ["Polo", "Dress shirt", "Dress pants", "Outerwear"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://jackvictor.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
   }
 }

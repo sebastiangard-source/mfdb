@@ -42,7 +42,7 @@
     "u": "https://us.sunspel.com/search?q=Riviera%20polo%20men",
     "n": "works"
   },
-  "prices": [[85, 120], [125, 175], [165, 235], [195, 265], [165, 245], [275, 1295], [415, 1595], [300, 365]],
+  "prices": [[98, 395], [125, 595], [185, 375], [270, 280], [355, 445], [275, 1295], [415, 1595], [300, 365]],
   "notes": {
     "cotton": "Supima traceable to a single California farm, knitted into the 1950s Riviera mesh",
     "racquet": "The Riviera mesh and a long British club lineage rather than any tennis programme. It reads courtside through association and cloth, not through kit.",
@@ -104,5 +104,72 @@
     "Sweater": "https://us.sunspel.com/collections/mens-knitwear",
     "Outerwear": "https://us.sunspel.com/collections/mens-outerwear",
     "Shoes": "https://us.sunspel.com/collections/mens-accessories-shoes"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Men's Classic T-shirt in White",
+      "lu": "https://us.sunspel.com/products/mens-short-sleeve-crew-neck-t-shirt-white",
+      "hp": "Men's Silk Cotton T-shirt (62% silk, 38% organic cotton)",
+      "hu": "https://us.sunspel.com/products/mens-silk-cotton-tshirt-in-navy-mtsh0214-buaa",
+      "b": "pair"
+    },
+    "Polo": {
+      "lp": "Men's Classic Jersey Polo Shirt",
+      "lu": "https://us.sunspel.com/products/mens-classic-jersey-polo-shirt-in-anthracite-mpol1052-gyfm",
+      "hp": "Men's Silk Linen Honeycomb Polo",
+      "hu": "https://us.sunspel.com/products/mens-silk-linen-honeycomb-polo-in-light-navy-mpol8312-buaf",
+      "b": "pair"
+    },
+    "Dress shirt": {
+      "lp": "Men's Oxford Shirt",
+      "lu": "https://us.sunspel.com/products/mens-oxford-shirt-in-white-navy-msht2128-stkt",
+      "hp": "Men's Sea Island Cotton Shirt",
+      "hu": "https://us.sunspel.com/products/mens-sea-island-cotton-shirt-in-light-blue-msht2122-bugz",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Men's Regular Fit Jeans in Rinse Wash Denim",
+      "lu": "https://us.sunspel.com/products/mens-regular-fit-jean-denim-rinse-wash",
+      "hp": "Men's Japanese Denim Jeans in Rinse Wash Denim",
+      "hu": "https://us.sunspel.com/products/mens-japanese-denim-jeans-in-rinse-wash-denim-mjea3907-bupc",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Men's Textured Wool Trouser",
+      "lu": "https://us.sunspel.com/products/mens-textured-wool-trouser-in-navy-mtrs3116-buaa",
+      "hp": "Men's Wool Cashmere Flannel Trouser",
+      "hu": "https://us.sunspel.com/products/mens-wool-cashmere-flannel-trouser-in-navy-mtrs3142-buaa",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Men's Extra-Fine Merino Jumper (crew neck)",
+      "lu": "https://us.sunspel.com/products/mens-extra-fine-merino-crew-neck-jumper-in-chestnut-mjum8332-brhn",
+      "hp": "Men's Roxburgh Cashmere Jumper",
+      "hu": "https://us.sunspel.com/products/mens-roxburgh-cashmere-jumper-in-navy-mjum8217-buaa",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Men's Corduroy Harrington Jacket in Dark Green",
+      "lu": "https://us.sunspel.com/products/mens-corduroy-harrington-jacket-in-dark-green-mjac7195-gnin",
+      "hp": "Men's Suede Harrington Jacket",
+      "hu": "https://us.sunspel.com/products/mens-suede-harrington-jacket-in-black-mjac7196-bkaa",
+      "b": "pair"
+    },
+    "Shoes": {
+      "lp": "Men's Sunspel Suede Loafer",
+      "lu": "https://us.sunspel.com/products/mens-sunspel-suede-loafer-in-navy-mftw9502-buaa",
+      "hp": "Men's Moccasin",
+      "hu": "https://us.sunspel.com/products/mens-moccasin-in-navy-mftw9492-buaa",
+      "b": "pair"
+    }
+  },
+  "price_range_only": ["Dress shirt", "Jeans", "Dress pants"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://us.sunspel.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

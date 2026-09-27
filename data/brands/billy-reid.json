@@ -40,7 +40,7 @@
     "u": "https://www.billyreid.com/search?q=Tuscumbia%20shirt",
     "n": "verified ✓"
   },
-  "prices": [[88, 138], [148, 228], [178, 268], [228, 328], [198, 328], [198, 448], [598, 1598], [448, 448]],
+  "prices": [[88, 88], [108, 328], [198, 198], null, [348, 368], [198, 448], [598, 1598], [448, 448]],
   "notes": {
     "murica": "the South as its own America — Florence, Alabama, sweet-tea manners, and a festival in the hometown",
     "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional"
@@ -114,5 +114,65 @@
     "Sweater": "https://www.billyreid.com/collections/mens-sweaters-knits",
     "Outerwear": "https://www.billyreid.com/collections/mens-jackets-outerwear",
     "Shoes": "https://www.billyreid.com/collections/mens-footwear"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Washed Tee - Black",
+      "lu": "https://www.billyreid.com/products/washed-tee-black",
+      "hp": "Washed Tee - Black",
+      "hu": "https://www.billyreid.com/products/washed-tee-black",
+      "b": "single"
+    },
+    "Polo": {
+      "lp": "Pensacola Polo - Blush",
+      "lu": "https://www.billyreid.com/products/pensacola-polo-blush",
+      "hp": "Numajiri Archive Peacock Polo",
+      "hu": "https://www.billyreid.com/products/numajiri-archive-peacock-polo-sycamore-multi",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Coupe Holt Dress Shirt - White",
+      "lu": "https://www.billyreid.com/products/coupe-holt-dress-shirt-white",
+      "hp": "Oxford Hutcheson Dress Shirt - White",
+      "hu": "https://www.billyreid.com/products/oxford-hutcheson-dress-shirt-white",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Flannel Flat Front Trouser - Grey Heather",
+      "lu": "https://www.billyreid.com/products/flannel-flat-front-trouser-grey-heather",
+      "hp": "Flat Front Trouser - Charcoal (silk/virgin wool)",
+      "hu": "https://www.billyreid.com/products/flat-front-trouser-charcoal",
+      "b": "pair"
+    },
+    "Sweater": {
+      "lp": "Tuck Stripe Crew",
+      "lu": "https://www.billyreid.com/products/tuck-stripe-crew-black-1",
+      "hp": "Textured Cashmere Crew - Navy",
+      "hu": "https://www.billyreid.com/products/textured-cashmere-crew-navy",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Waxed Denim Harrington Jacket",
+      "lu": "https://www.billyreid.com/products/waxed-denim-harrington-jacket-indigo",
+      "hp": "Suede Harrington Jacket - Black",
+      "hu": "https://www.billyreid.com/products/suede-harrington-jacket-black",
+      "b": "pair"
+    },
+    "Shoes": {
+      "lp": "D-Ring Loafer",
+      "lu": "https://www.billyreid.com/products/d-ring-loafer-olive-brown",
+      "hp": "D-Ring Loafer",
+      "hu": "https://www.billyreid.com/products/d-ring-loafer-olive-brown",
+      "b": "single"
+    }
+  },
+  "price_range_only": ["Polo", "Dress shirt"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.billyreid.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

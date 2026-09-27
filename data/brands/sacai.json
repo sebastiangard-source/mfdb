@@ -41,7 +41,16 @@
     "u": "https://www.ssense.com/en-us/men/designers/sacai",
     "n": "works"
   },
-  "prices": [[350, 410], [300, 756], [570, 1378], [610, 945], [640, 890], [620, 620], [945, 3675], [1000, 1000]],
+  "prices": [
+    [230, 420],
+    [735, 1000],
+    [685, 2415],
+    [610, 1050],
+    [610, 1785],
+    [620, 620],
+    [945, 3675],
+    [1000, 1000]
+  ],
   "notes": {
     "avant": "two garments spliced into one — hybridization as a signature",
     "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional"
@@ -81,8 +90,8 @@
     "nc": ["blousons and jackets", "pants and shorts", "hoodies and sweatshirts"],
     "st": "complete"
   },
-  "shop": "https://www.sacai.jp/search?q=",
-  "price_range_only": ["Sweater"],
+  "shop": "https://www.sacai.jp/en/search?q=",
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants"],
   "garment_links": {
     "T-shirt": "https://www.sacai.jp/collections/men-t-shirts",
     "Polo": "https://www.sacai.jp/collections/men-shirts",
@@ -92,5 +101,71 @@
     "Sweater": "https://www.sacai.jp/collections/men-knitwear",
     "Outerwear": "https://www.sacai.jp/collections/men-blousons-jackets",
     "Shoes": "https://www.sacai.jp/collections/men-shoes"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Graphic T-Shirt (26-01160s)",
+      "lu": "https://www.sacai.jp/en/products/graphic-t-shirt_26-01160s-101",
+      "hp": "Cotton Jersey T-Shirt (26-04075m)",
+      "hu": "https://www.sacai.jp/en/products/cotton-jersey-t-shirt_26-04075m-233",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Sponge Sweat Polo Shirt (long-sleeve)",
+      "lu": "https://www.sacai.jp/en/products/sponge-sweat-polo-shirt_26-04138m-001",
+      "hp": "Chusen-Dyed Knit Polo Shirt (long-sleeve)",
+      "hu": "https://www.sacai.jp/en/products/chusen-dyed-knit-polo-shirt_26-04133m-220",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Poplin Shirt (with Satin Tie)",
+      "lu": "https://www.sacai.jp/en/products/poplin-shirt-with-satin-tie_26-04065m-151",
+      "hp": "Bijou Embroidery Plaid Flannel Shirt",
+      "hu": "https://www.sacai.jp/en/products/bijou-embroidery-plaid-flannel-shirt_26-04097m-605",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Wide Denim Pants (Classics)",
+      "lu": "https://www.sacai.jp/en/products/wide-denim-pants_762_scm-306-499",
+      "hp": "Denim Pants (26-04048m)",
+      "hu": "https://www.sacai.jp/en/products/denim-pants_26-04048m-201",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Suiting Pants (Classics, scm-309)",
+      "lu": "https://www.sacai.jp/en/products/suiting-pants_scm-309-201",
+      "hp": "Double-Faced Silk Cotton Pants",
+      "hu": "https://www.sacai.jp/en/products/double-faced-silk-cotton-pants_26-04025m-001",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "s Wool Knit Pullover",
+      "lu": "https://www.sacai.jp/en/products/s-wool-knit-pullover_762_scm-343-201",
+      "hp": "s Wool Knit Pullover",
+      "hu": "https://www.sacai.jp/en/products/s-wool-knit-pullover_762_scm-343-201",
+      "b": "single"
+    },
+    "Outerwear": {
+      "lp": "Suiting Blouson",
+      "lu": "https://www.sacai.jp/en/products/suiting-blouson_26-04158m-301",
+      "hp": "Leather Blouson",
+      "hu": "https://www.sacai.jp/en/products/leather-blouson_26-04051m-001",
+      "b": "pair"
+    },
+    "Shoes": {
+      "lp": "Loafers (Classics)",
+      "lu": "https://www.sacai.jp/en/products/loafers_762_scm-338-001",
+      "hp": "Loafers (Classics)",
+      "hu": "https://www.sacai.jp/en/products/loafers_762_scm-338-001",
+      "b": "single"
+    }
+  },
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.sacai.jp/en",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "s (sacai Classics 's' items)"
+  },
+  "price_checked": true
 }

@@ -42,7 +42,7 @@
     "u": "https://stateandliberty.com/search?q=dress%20shirt",
     "n": "restored from the earlier draft; link is site search — verify"
   },
-  "prices": [[38, 72], [92, 108], [105, 150], [138, 138], [150, 245], [92, 250], [225, 285], null],
+  "prices": [[38, 72], [92, 108], [105, 105], [138, 138], [150, 200], [92, 285], [225, 525], null],
   "price_checked": true,
   "notes": {
     "synth": "warp-knit performance dress shirts",
@@ -151,5 +151,64 @@
     "Dress pants": "https://stateandliberty.com/collections/athletic-fit-stretch-dress-pants",
     "Sweater": "https://stateandliberty.com/collections/sweaters",
     "Outerwear": "https://stateandliberty.com/collections/outerwear"
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Logo T-Shirt - Charcoal",
+      "lu": "https://stateandliberty.com/products/logo-t-shirt-charcoal",
+      "hp": "Brushed Mid-Weight Short Sleeve Crewneck - Dark Brown",
+      "hu": "https://stateandliberty.com/products/brushed-mid-weight-short-sleeve-crewneck-dark-brown",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "\"The Noah\" White Pique Polo",
+      "lu": "https://stateandliberty.com/products/the-noah-pearl-pique-polo",
+      "hp": "Textured Knit Cashmere Polo - Charcoal",
+      "hu": "https://stateandliberty.com/products/knitted-textured-cashmere-polo-charcoal",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "\"The Springer\" Solid White",
+      "lu": "https://stateandliberty.com/products/the-springer-solid-white",
+      "hp": "\"The Springer\" Solid White - Classic Fit",
+      "hu": "https://stateandliberty.com/products/the-springer-solid-white-classic-fit",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Athletic Fit Stretch Jeans - Mid Blue",
+      "lu": "https://stateandliberty.com/products/athletic-fit-stretch-jeans-mid-blue",
+      "hp": "Athletic Fit Stretch Jeans - Mid Blue",
+      "hu": "https://stateandliberty.com/products/athletic-fit-stretch-jeans-mid-blue",
+      "b": "single"
+    },
+    "Dress pants": {
+      "lp": "Athletic Fit Stretch Suit Pants - Heathered Blue",
+      "lu": "https://stateandliberty.com/products/athletic-fit-stretch-suit-pants-heathered-blue",
+      "hp": "Athletic Fit Stretch Wool Suit Pants - Blue Plaid",
+      "hu": "https://stateandliberty.com/products/athletic-fit-stretch-suit-pants-blue-plaid",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Mock Turtleneck - Black",
+      "lu": "https://stateandliberty.com/products/solid-black-mock-turtleneck",
+      "hp": "Knit Sweater Bomber - Brown",
+      "hu": "https://stateandliberty.com/products/sweater-knit-bomber-brown",
+      "b": "range"
+    },
+    "Outerwear": {
+      "lp": "Hooded Hybrid Suede Jacket - Cream",
+      "lu": "https://stateandliberty.com/products/hooded-hybrid-suede-jacket-cream",
+      "hp": "Double Breasted Overcoat - Tan Herringbone",
+      "hu": "https://stateandliberty.com/products/double-breasted-overcoat-tan-herringbone",
+      "b": "range"
+    }
+  },
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Dress pants", "Sweater", "Outerwear"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://stateandliberty.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
   }
 }

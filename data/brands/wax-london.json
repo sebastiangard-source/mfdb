@@ -32,13 +32,13 @@
   "chan": ["D", "X"],
   "conf": "M",
   "forgc": [4, 3, 1],
-  "shop": "https://www.waxlondon.com/search?q=",
+  "shop": "https://waxlondon.com/search?q=",
   "onething": {
     "p": "Whiting overshirt",
     "u": "https://www.waxlondon.com/search?q=whiting",
     "n": "works"
   },
-  "prices": [[70, 85], [85, 260], [150, 215], [185, 330], [165, 225], [235, 270], [220, 825], null],
+  "prices": [[70, 125], [85, 210], [120, 195], [137, 330], [195, 235], [235, 285], [265, 825], null],
   "price_checked": true,
   "notes": {
     "cotton": "corduroy and heavy cotton — the texture-first thesis",
@@ -94,5 +94,64 @@
     "Dress pants": "https://waxlondon.com/collections/trousers",
     "Sweater": "https://waxlondon.com/collections/knitwear",
     "Outerwear": "https://waxlondon.com/collections/coats-and-jackets"
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Dean - Black Textured Organic Cotton T-Shirt",
+      "lu": "https://waxlondon.com/products/dean-black-textured-organic-cotton-t-shirt",
+      "hp": "Milton - Ecru And Navy Doodle Graphic Organic Cotton T-Shirt",
+      "hu": "https://waxlondon.com/products/milton-ecru-and-navy-doodle-graphic-organic-cotton-t-shirt",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Atwood - Black Textured Organic Cotton Polo Shirt",
+      "lu": "https://waxlondon.com/products/atwood-black-textured-organic-cotton-polo-shirt",
+      "hp": "Belle - Blue Tipped Pointelle Polo Shirt",
+      "hu": "https://waxlondon.com/products/belle-blue-tipped-pointelle-polo-shirt",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Corey - Blue Dobby Check Cotton Shirt",
+      "lu": "https://waxlondon.com/products/corey-blue-dobby-check-cotton-shirt",
+      "hp": "Manilla - Washed Indigo Chambray Shirt",
+      "hu": "https://waxlondon.com/products/manilla-washed-indigo-chambray-shirt",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Felix - Dark Wash Loose Fit Denim Jeans",
+      "lu": "https://waxlondon.com/products/felix-dark-wash-loose-fit-denim-jeans",
+      "hp": "Felix - Rinse Wash Japanese Selvedge Loose Fit Denim Jeans",
+      "hu": "https://waxlondon.com/products/felix-rinse-wash-japanese-selvedge-loose-fit-denim-jeans",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Alp - Navy Linen Trousers",
+      "lu": "https://waxlondon.com/products/alp-navy-linen-slim-fit-trousers",
+      "hp": "Aston - Dark Brown Wool Pinstripe Trousers",
+      "hu": "https://waxlondon.com/products/aston-dark-brown-wool-pinstripe-trousers",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Wilde - Natural Fleck Rib Wool Crewneck",
+      "lu": "https://waxlondon.com/products/wilde-natural-fleck-rib-wool-crewneck",
+      "hp": "Walker - Grey And Black Felted Applique Knit Cardigan",
+      "hu": "https://waxlondon.com/products/walker-grey-and-black-felted-applique-knit-cardigan",
+      "b": "range"
+    },
+    "Outerwear": {
+      "lp": "Healey - Dark Vintage Blue Denim Chore Jacket",
+      "lu": "https://waxlondon.com/products/healey-dark-blue-denim-chore-jacket",
+      "hp": "Robin - Brown Suede Chore Jacket",
+      "hu": "https://waxlondon.com/products/robin-brown-suede-chore-jacket",
+      "b": "pair"
+    }
+  },
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants", "Sweater"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://waxlondon.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
   }
 }

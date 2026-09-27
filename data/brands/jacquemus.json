@@ -37,13 +37,13 @@
   "chan": ["O", "D"],
   "conf": "L",
   "forgc": [2, 2, 1],
-  "shop": "https://www.jacquemus.com/search?q=",
+  "shop": "https://www.jacquemus.com/en_us/search?q=",
   "onething": {
     "p": null,
     "u": "",
     "n": "Jacquemus attaches to collections and to bags, and the menswear changes shape every season without a garment recurring. Le Chouchou is a show, not a model"
   },
-  "prices": [[212, 300], [430, 740], [711, 1332], [494, 580], [495, 882], [590, 850], [900, 5300], [590, 950]],
+  "prices": [[240, 790], [690, 950], [495, 650], [550, 850], [690, 1350], [590, 850], [900, 4100], [790, 950]],
   "shoelink": {
     "t": "shoes",
     "u": "https://www.jacquemus.com/search?q=shoes"
@@ -103,5 +103,72 @@
     "Sweater": "https://www.jacquemus.com/en_us/knits-men",
     "Outerwear": "https://www.jacquemus.com/en_us/coats-and-jackets-men",
     "Shoes": "https://www.jacquemus.com/en_us/shoes-men"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "The Gros Grain t-shirt",
+      "lu": "https://www.jacquemus.com/en_us/the-gros-grain-t-shirt/TSM00133AJ00226150.html",
+      "hp": "The Soie t-shirt (100% silk jersey, short sleeve)",
+      "hu": "https://www.jacquemus.com/en_us/the-soie-t-shirt/TSM00666AJ00314150.html",
+      "b": "pair"
+    },
+    "Polo": {
+      "lp": "The Voilier polo shirt",
+      "lu": "https://www.jacquemus.com/en_us/the-voilier-polo-shirt/POM00618AK00318100.html",
+      "hp": "The Miami knit polo shirt",
+      "hu": "https://www.jacquemus.com/en_us/the-miami-knit-polo-shirt/POM00626AK00334520.html",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "The suit shirt",
+      "lu": "https://www.jacquemus.com/en_us/the-suit-shirt/SHM00064BW00291100.html",
+      "hp": "The Tailleur shirt",
+      "hu": "https://www.jacquemus.com/en_us/the-tailleur-shirt/SHM00633AW00925430.html",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "The straight de-Nimes denim pants",
+      "lu": "https://www.jacquemus.com/en_us/the-straight-de-nimes-denim-pants/PAM00028AD0003833C.html",
+      "hp": "The Berger de-Nimes denim pants",
+      "hu": "https://www.jacquemus.com/en_us/the-berger-de-nimes-denim-pants/PAM00564AD0003834B.html",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "The Croisiere pants",
+      "lu": "https://www.jacquemus.com/en_us/the-croisiere-pants/PAM00131AW00737390.html",
+      "hp": "The Tuxedo pants",
+      "hu": "https://www.jacquemus.com/en_us/the-tuxedo-pants/PAM00600AW00864150.html",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "The embroidered sweater",
+      "lu": "https://www.jacquemus.com/en_us/the-embroidered-sweater/SWM00614AK00299970.html",
+      "hp": "The Nuvola sweater (81% mohair)",
+      "hu": "https://www.jacquemus.com/en_us/the-nuvola-sweater/246KN523-2016-830.html",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "The windbreaker",
+      "lu": "https://www.jacquemus.com/en_us/the-windbreaker/OUM00139AW00645390.html",
+      "hp": "The Gardian leather jacket",
+      "hu": "https://www.jacquemus.com/en_us/the-gardian-leather-jacket/JAM00100AC03C13990.html",
+      "b": "range"
+    },
+    "Shoes": {
+      "lp": "The Palmier loafers",
+      "lu": "https://www.jacquemus.com/en_us/the-palmier-loafers/FOM00226AC18A06990.html",
+      "hp": "The Carre loafers (crocodile-embossed suede)",
+      "hu": "https://www.jacquemus.com/en_us/the-carre-loafers/246FO147-4355-880.html",
+      "b": "pair"
+    }
+  },
+  "price_range_only": ["Polo", "Dress shirt", "Jeans", "Dress pants", "Outerwear"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.jacquemus.com/en_us/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

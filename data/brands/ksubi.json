@@ -41,7 +41,7 @@
     "u": "https://ksubi.com/search?q=Chitch%20jean%20men",
     "n": "verified ✓"
   },
-  "prices": [[70, 100], null, [150, 220], [200, 300], [150, 300], [240, 240], [420, 1000], null],
+  "prices": [[69, 160], null, [180, 260], [195, 400], [140, 140], [320, 360], [240, 1000], null],
   "notes": {
     "street": "Sydney skate-rat denim; released live rats on a runway",
     "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional"
@@ -86,12 +86,64 @@
     "nc": ["jeans", "t-shirts", "sweats"],
     "st": "complete"
   },
-  "price_range_only": ["Sweater"],
+  "price_range_only": ["T-shirt", "Dress shirt", "Jeans", "Sweater", "Outerwear"],
   "garment_links": {
     "T-shirt": "https://ksubi.com/collections/mens-tshirts",
     "Dress shirt": "https://ksubi.com/collections/mens-shirts",
     "Jeans": "https://ksubi.com/collections/mens-denim",
     "Sweater": "https://ksubi.com/collections/mens-knitwear",
     "Outerwear": "https://ksubi.com/collections/mens-jackets"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "SEEING LINES SS TEE WHITE",
+      "lu": "https://ksubi.com/products/seeing-lines-ss-tee-white",
+      "hp": "STATE SLUB SID SS TEE BLACK",
+      "hu": "https://ksubi.com/products/state-slub-sid-ss-tee-black",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "CLUB DINER SS SHIRT SKY STRIPE",
+      "lu": "https://ksubi.com/products/club-diner-ss-shirt-sky-stripe",
+      "hp": "LANLEY LS SHIRT MILITANT",
+      "hu": "https://ksubi.com/products/lanley-ls-shirt-militant",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "VAN WINKLE RE-UP BLUE",
+      "lu": "https://ksubi.com/products/van-winkle-re-up-blue",
+      "hp": "CHITCH BACKSTAGE BLACK METALIK",
+      "hu": "https://ksubi.com/products/chitch-backstage-black-metalik",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "RIVAL CHINO TROUSER NAVY",
+      "lu": "https://ksubi.com/products/rival-chino-trouser-navy",
+      "hp": "RIVAL CHINO TROUSER NAVY",
+      "hu": "https://ksubi.com/products/rival-chino-trouser-navy",
+      "b": "single"
+    },
+    "Sweater": {
+      "lp": "BOXER ZIP KNIT HOODIE MIDNIGHT",
+      "lu": "https://ksubi.com/products/boxer-zip-knit-hoodie-midnight",
+      "hp": "LEAGUE CARDIGAN BLACK",
+      "hu": "https://ksubi.com/products/league-cardigan-black",
+      "b": "range"
+    },
+    "Outerwear": {
+      "lp": "OH G JACKET STAGELIGHT",
+      "lu": "https://ksubi.com/products/oh-g-jacket-stagelight",
+      "hp": "SLOUCHY LEATHER BOMBER JACKET AGED BROWN",
+      "hu": "https://ksubi.com/products/slouchy-leather-bomber-jacket-aged-brown",
+      "b": "range"
+    }
+  },
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://ksubi.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "SOTT (Sign of the Times) - none used as a figure"
+  },
+  "price_checked": true
 }

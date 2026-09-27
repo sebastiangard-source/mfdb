@@ -42,7 +42,16 @@
     "u": "https://hartford.fr/en-us/search?q=chambray+shirt",
     "n": "the founding object — deadstock chambray started the brand; verify link"
   },
-  "prices": [[110, 185], [160, 300], [200, 325], null, [280, 360], [255, 650], [255, 1350], null],
+  "prices": [
+    [110, 115, "USD_landed"],
+    [160, 185, "USD_landed"],
+    [200, 320, "USD_landed"],
+    null,
+    [285, 360, "USD_landed"],
+    [255, 650, "USD_landed"],
+    [520, 1350, "USD_landed"],
+    null
+  ],
   "price_checked": true,
   "notes": {
     "fren": "a Frenchman selling America back to both continents — the Palm Angels pattern, a generation early",
@@ -106,5 +115,57 @@
     "Dress pants": "https://hartford.fr/en-us/collections/pantalons-homme",
     "Sweater": "https://hartford.fr/en-us/collections/pulls-sweatshirts-homme",
     "Outerwear": "https://hartford.fr/en-us/collections/vestes-manteaux-hommes"
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Light Crew Men's Indigo Blue Lightweight Cotton Jersey T-shirt",
+      "lu": "https://hartford.fr/en-us/products/t-shirt-homme-en-jersey-de-coton-leger-bleu-indigo-light-crew-bf65301-05",
+      "hp": "Pocket Men's Zinc Cotton Jersey T-shirt",
+      "hu": "https://hartford.fr/en-us/products/t-shirt-homme-en-jersey-de-coton-gris-pocket-bg71303-08",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Light Polo Men's White Lightweight Cotton Jersey Polo",
+      "lu": "https://hartford.fr/en-us/products/polo-homme-en-jersey-de-coton-leger-blanc-light-polo-bf66301-01",
+      "hp": "Men's Vanilla Piqué Cotton Polo",
+      "hu": "https://hartford.fr/en-us/products/polo-homme-en-coton-pique-vanille-bf64300-14",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Paul Men's Sky Blue Oxford Shirt",
+      "lu": "https://hartford.fr/en-us/products/chemise-homme-en-oxford-bleu-ciel-paul-bg11008-02",
+      "hp": "OCBD Men's Charcoal Patchwork Check Cotton Shirt",
+      "hu": "https://hartford.fr/en-us/products/chemise-homme-en-coton-patchwork-a-carreaux-charbon-ocbd-bg19031-01",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Task Men's Navy Blue Boiled Wool Pants",
+      "lu": "https://hartford.fr/en-us/products/pantalon-homme-en-flanelle-de-laine-bleu-marine-task-bg55106-01",
+      "hp": "Task Men's Navy Blue Virgin Wool Flannel Pants",
+      "hu": "https://hartford.fr/en-us/products/pantalon-homme-en-flanelle-de-laine-vierge-bleu-marine-task-bg55110-01",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Shetland Crew Men's Green Virgin Wool Sweater",
+      "lu": "https://hartford.fr/en-us/products/pull-homme-en-laine-vierge-vert-shetland-crew-bg88310-06",
+      "hp": "Cashmere Hoodie Men's Natural Beige Wool & Cashmere Sweater",
+      "hu": "https://hartford.fr/en-us/products/pull-homme-en-laine-cachemire-ecru-cashmere-hoodie-bgq3316-04",
+      "b": "range"
+    },
+    "Outerwear": {
+      "lp": "Dickey Men's Ecru Corduroy Jacket",
+      "lu": "https://hartford.fr/en-us/products/blouson-homme-en-velours-cotele-ecru-dickey-bg47102-52",
+      "hp": "Dickson Men's Brown Suede Jacket",
+      "hu": "https://hartford.fr/en-us/products/blouson-homme-en-cuir-suede-marron-dickson-bgh5129-01",
+      "b": "pair"
+    }
+  },
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Dress pants", "Sweater"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://hartford.fr/en-us",
+    "currency": "USD_landed",
+    "status": "read",
+    "sublines": "-"
   }
 }

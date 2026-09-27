@@ -37,13 +37,13 @@
   "chan": ["O", "X"],
   "conf": "S",
   "forgc": [4, 5, 2],
-  "shop": "https://www.jcrew.com/search2?Ntrm=",
+  "shop": "https://www.jcrew.com/search?term=",
   "onething": {
     "p": "1988 Rollneck sweater",
     "u": "https://www.jcrew.com/p/mens/categories/clothing/sweaters/pullover/heritage-cotton-rollnecktrade-sweater/BJ511",
     "n": "men’s-path listing of the rollneck reissue (BJ511) — the BW186 women’s-path page sells the same men’s-sized original"
   },
-  "prices": [[30, 45], [45, 98], [80, 120], [98, 148], [90, 150], [80, 298], [178, 898], [168, 450]],
+  "prices": [[37, 70], [55, 198], [90, 148], [148, 350], [128, 348], [80, 298], [178, 898], [168, 450]],
   "notes": {
     "ivy": "Ivy democratized by catalog — the style's mass-market translation",
     "prep": "Prep translated for a mall and then translated back, and the catalogue defined how a generation of Americans understood the register. Its authority is editorial rather than institutional.",
@@ -246,5 +246,72 @@
     "Sweater": "https://www.jcrew.com/plp/mens/categories/clothing/sweaters",
     "Outerwear": "https://www.jcrew.com/plp/mens/categories/clothing/coats-and-jackets",
     "Shoes": "https://www.jcrew.com/plp/mens/categories/shoes"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Broken-in T-shirt",
+      "lu": "https://www.jcrew.com/p/mens/categories/clothing/tshirts-and-polos/t-shirts/broken-in-t-shirt/CI156",
+      "hp": "Pima cotton T-shirt",
+      "hu": "https://www.jcrew.com/p/mens/categories/clothing/tshirts-and-polos/t-shirts/pima-cotton-t-shirt/CV298",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Sueded cotton polo shirt",
+      "lu": "https://www.jcrew.com/m/mens/categories/clothing/polos/sueded-polos/sueded-cotton-polo-shirt/MP053",
+      "hp": "Cashmere short-sleeve sweater-polo",
+      "hu": "https://www.jcrew.com/m/mens/categories/clothing/polos/sweater-polos/cashmere-short-sleeve-sweater-polo/ME572",
+      "b": "pair"
+    },
+    "Dress shirt": {
+      "lp": "Poplin shirt with point collar",
+      "lu": "https://www.jcrew.com/p/mens/categories/clothing/shirts/poplin-shirt-with-point-collar/CQ962",
+      "hp": "Slim-fit Ludlow Premium fine cotton dress shirt in dobby",
+      "hu": "https://www.jcrew.com/m/mens/categories/clothing/dress-shirts/ludlow-premium-dress-shirts/slim-fit-ludlow-premium-fine-cotton-dress-shirt-in-dobby/MP573",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "484 Slim-fit stretch jean in one-year wash",
+      "lu": "https://www.jcrew.com/m/mens/categories/clothing/jeans/slim/484-slim-fit-stretch-jean-in-one-year-wash/MQ250",
+      "hp": "Wallace & Barnes straight-fit jean in Japanese selvedge denim",
+      "hu": "https://www.jcrew.com/p/mens/categories/clothing/jeans/classic-straight/wallace-amp-barnes-straight-fit-jean-in-japanese-selvedge-denim/BW895",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Classic-fit linen trouser",
+      "lu": "https://www.jcrew.com/p/mens/categories/clothing/pants-and-chinos/linen/classic-fit-linen-trouser/CO454",
+      "hp": "Crosby Classic-fit suit pant in Italian wool flannel",
+      "hu": "https://www.jcrew.com/p/mens/categories/clothing/suits-and-tuxedos/suit-pants/crosby-classic-fit-suit-pant-in-italian-wool-flannel/CW066",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Pima cotton crewneck sweater",
+      "lu": "https://www.jcrew.com/p/mens/categories/clothing/sweaters/crewneck/pima-cotton-crewneck-sweater/CP719",
+      "hp": "Cashmere cable-knit sweater",
+      "hu": "https://www.jcrew.com/m/mens/categories/clothing/sweaters/crewneck/cashmere-cable-knit-sweater/MP468",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Harrington jacket in cotton twill",
+      "lu": "https://www.jcrew.com/p/mens/categories/clothing/coats-and-jackets/bomber-jacket/harrington-jacket-in-cotton-twill/BJ059",
+      "hp": "Harrington jacket in Italian suede",
+      "hu": "https://www.jcrew.com/p/mens/categories/clothing/coats-and-jackets/bomber-jacket/harrington-jacket-in-italian-suede/BE436",
+      "b": "pair"
+    },
+    "Shoes": {
+      "lp": "Camden leather loafers with rubber soles",
+      "lu": "https://www.jcrew.com/p/mens/categories/shoes/dress-shoes/camden-leather-loafers-with-rubber-soles/AV166",
+      "hp": "Essex loafers in leather",
+      "hu": "https://www.jcrew.com/p/mens/categories/shoes/dress-shoes/essex-loafers-in-leather/CV968",
+      "b": "pair"
+    }
+  },
+  "price_range_only": ["T-shirt", "Dress shirt", "Jeans", "Dress pants"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.jcrew.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "Wallace & Barnes"
+  },
+  "price_checked": true
 }

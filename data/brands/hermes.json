@@ -44,16 +44,7 @@
     "u": "https://www.hermes.com/us/en/search/?s=The%20silk%20tie%20men",
     "n": "verified ✓"
   },
-  "prices": [
-    [600, 1925],
-    [740, 2375],
-    [1400, 4750],
-    null,
-    [1150, 1850],
-    [1200, 2825],
-    [3850, 8800],
-    [1100, 1925]
-  ],
+  "prices": [[520, 1925], [670, 2375], [980, 2225], "?", [900, 2000], [1200, 2700], [2125, 8800], [1100, 1925]],
   "shoelink": {
     "t": "loafer",
     "u": "https://www.hermes.com/us/en/search/?s=loafer"
@@ -139,5 +130,64 @@
     "Sweater": "https://www.hermes.com/us/en/category/men/ready-wear/knitwear/",
     "Outerwear": "https://www.hermes.com/us/en/category/men/ready-wear/coats-and-parkas/",
     "Shoes": "https://www.hermes.com/us/en/category/men/shoes/"
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "\"H\" embroidered T-shirt",
+      "lu": "https://www.hermes.com/us/en/product/h-embroidered-t-shirt-H072025HA90/",
+      "hp": "\"Ex-Libris\" t-shirt (short-sleeve, 100% cotton)",
+      "hu": "https://www.hermes.com/us/en/product/ex-libris-t-shirt-H657780HA60/",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "\"H\" embroidered buttoned polo shirt",
+      "lu": "https://www.hermes.com/us/en/product/h-embroidered-buttoned-polo-shirt-H072325HA90/",
+      "hp": "\"Big Maillon\" polo shirt",
+      "hu": "https://www.hermes.com/us/en/product/big-maillon-polo-shirt-H657235HA10/",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Fitted shirt with Faubourg collar (cotton poplin)",
+      "lu": "https://www.hermes.com/us/en/product/fitted-shirt-with-faubourg-collar-H666600H190/",
+      "hp": "\"Eperon d'Or Jacquard\" straight cut shirt (58% silk, 42% cotton)",
+      "hu": "https://www.hermes.com/us/en/product/eperon-d-or-jacquard-straight-cut-shirt-H656500HF02/",
+      "b": "pair"
+    },
+    "Dress pants": {
+      "lp": "Saint Germain fitted pants",
+      "lu": "https://www.hermes.com/us/en/product/saint-germain-fitted-pants-H665020HA02/",
+      "hp": "Saint Germain fitted pants",
+      "hu": "https://www.hermes.com/us/en/product/saint-germain-fitted-pants-H665020H181/",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "\"Detail H\" crewneck sweater",
+      "lu": "https://www.hermes.com/us/en/product/detail-h-crewneck-sweater-H667210HA01/",
+      "hp": "\"Maillon Chaine d'Ancre\" crewneck cashmere sweater",
+      "hu": "https://www.hermes.com/us/en/product/maillon-chaine-d-ancre-crewneck-cashmere-sweater-H667035HA01/",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "C.D.S. varsity jacket (cotton)",
+      "lu": "https://www.hermes.com/us/en/product/c.d.s.-varsity-jacket-H667785HA86/",
+      "hp": "Cashmere zipped straight cut jacket with leather details",
+      "hu": "https://www.hermes.com/us/en/product/cashmere-zipped-straight-cut-jacket-with-leather-details-H662060HB02/",
+      "b": "range"
+    },
+    "Shoes": {
+      "lp": "Luc loafer (tuscan calfskin)",
+      "lu": "https://www.hermes.com/us/en/product/luc-loafer-H252902ZA01/",
+      "hp": "Icone loafer",
+      "hu": "https://www.hermes.com/us/en/product/icone-loafer-H252948ZA01/",
+      "b": "pair"
+    }
+  },
+  "price_range_only": ["T-shirt", "Polo", "Dress pants", "Outerwear"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.hermes.com/us/en/",
+    "currency": "USD",
+    "status": "partial",
+    "sublines": "-"
   }
 }

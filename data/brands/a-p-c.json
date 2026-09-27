@@ -39,7 +39,7 @@
     "u": "https://www.apc-us.com/search?q=Petit%20Standard%20jean%20men",
     "n": "men-filtered"
   },
-  "prices": [[75, 115], [125, 185], [165, 245], [210, 320], [190, 290], [350, 420], [440, 1750], [490, 490]],
+  "prices": [[125, 250], [210, 350], [275, 350], [265, 395], [370, 520], [350, 420], [440, 1750], [490, 490]],
   "notes": {
     "denim": "the Petit Standard — modern raw denim's reference cut",
     "fren": "the doctrine of effortlessness — clothes that refuse to try",
@@ -91,7 +91,7 @@
     "nc": ["T-shirts", "Jackets", "Knitwear"],
     "st": "complete"
   },
-  "price_range_only": ["Outerwear"],
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants", "Outerwear"],
   "garment_links": {
     "T-shirt": "https://www.apc-us.com/collections/men-t-shirts-polos",
     "Polo": "https://www.apc-us.com/collections/men-t-shirts-polos",
@@ -101,5 +101,71 @@
     "Sweater": "https://www.apc-us.com/collections/men-knitwear-cardigans",
     "Outerwear": "https://www.apc-us.com/collections/men-coats-jackets",
     "Shoes": "https://www.apc-us.com/collections/men-shoes"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "A.P.C. Autumn 26 T-Shirt (M)",
+      "lu": "https://www.apc-us.com/products/a-p-c-autumn-26-t-shirt",
+      "hp": "Ray T-shirt (100% linen)",
+      "hu": "https://www.apc-us.com/products/ray-t-shirt-liaez-h26566_iaa",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Henry Polo shirt",
+      "lu": "https://www.apc-us.com/products/polo-henry-gots-cohpb-h26552_iaj",
+      "hp": "Fitted Striped Polo",
+      "hu": "https://www.apc-us.com/products/fitted-striped-polo-cohlp-h23481_alj",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Greg shirt",
+      "lu": "https://www.apc-us.com/products/chemise-greg-coeck-h12499",
+      "hp": "Malo Logo Shirt",
+      "hu": "https://www.apc-us.com/products/striped-shirt-cohra-h12553_iac",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Martin jeans",
+      "lu": "https://www.apc-us.com/products/martin-jeans-coeug-h09121",
+      "hp": "Fairfax Jeans",
+      "hu": "https://www.apc-us.com/products/fairfax-jeans-cohad-m09156_ial",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Dylan Pants (organic cotton)",
+      "lu": "https://www.apc-us.com/products/organic-cotton-pants-cohtf-h08024_lzz",
+      "hp": "Dylan Pants (45% wool)",
+      "hu": "https://www.apc-us.com/products/organic-cotton-pants-psanf-h08024_iak",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Pascal Sweater (100% merino wool crew)",
+      "lu": "https://www.apc-us.com/products/pull-pascal-wvbep-h23527_plb",
+      "hp": "Striped Alpaca Sweater (35% mohair, 35% alpaca)",
+      "hu": "https://www.apc-us.com/products/striped-alpaca-sweater-wpabg-h23504_laa",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Regis jacket",
+      "lu": "https://www.apc-us.com/products/regis-jacket-psajb-h02960_baa",
+      "hp": "Gael Jacket (cowhide leather)",
+      "hu": "https://www.apc-us.com/products/short-leather-jacket-pxcdg-h32089_lzz",
+      "b": "range"
+    },
+    "Shoes": {
+      "lp": "Les Mocassins",
+      "lu": "https://www.apc-us.com/products/les-mocassins-pxcdf-h53336_lzz",
+      "hp": "Les Mocassins",
+      "hu": "https://www.apc-us.com/products/les-mocassins-pxcdf-h53336_lzz",
+      "b": "single"
+    }
+  },
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.apc-us.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "A.P.C. Golf"
+  },
+  "price_checked": true
 }

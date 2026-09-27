@@ -41,11 +41,11 @@
     "n": "direct — the short-sleeve Borrowed BD in seersucker, verified"
   },
   "prices": [
-    [140, 207],
-    [150, 240],
-    [220, 425],
-    [280, 580],
-    [260, 400],
+    [170, 330, "USD_landed"],
+    [460, 630, "USD_landed"],
+    [330, 680, "USD_landed"],
+    [420, 680, "USD_landed"],
+    [500, 670, "USD_landed"],
     [420, 550, "USD_landed"],
     [720, 2450, "USD_landed"],
     [550, 680, "USD_landed"]
@@ -124,5 +124,72 @@
     "Sweater": "https://www.ourlegacy.com/mens/knitwear",
     "Outerwear": "https://www.ourlegacy.com/mens/outerwear",
     "Shoes": "https://www.ourlegacy.com/footwear/mens-footwear"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "New Box T-Shirt (100% cotton)",
+      "lu": "https://www.ourlegacy.com/new-box-t-shirt",
+      "hp": "New Box T-Shirt Ziggy Stripe Ease Jersey (cotton-linen)",
+      "hu": "https://www.ourlegacy.com/new-box-t-shirt-ziggy-stripe-ease-jersey",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Evening Polo Black Fuzzy Alpaca (long-sleeve knit polo)",
+      "lu": "https://www.ourlegacy.com/evening-polo-black-fuzzy-alpaca",
+      "hp": "Evening Polo Grand Check Fuzzy Alpaca (long-sleeve knit polo)",
+      "hu": "https://www.ourlegacy.com/evening-polo-grand-check-fuzzy-alpaca",
+      "b": "pair"
+    },
+    "Dress shirt": {
+      "lp": "Beyond Shirt White Liquid Poplin",
+      "lu": "https://www.ourlegacy.com/beyond-shirt-white-liquid-poplin",
+      "hp": "Tuxedo Every Shirt Moonlit Pearl Shimmer Gauze",
+      "hu": "https://www.ourlegacy.com/tuxedo-every-shirt-moonlit_-pearl_-shimmer_-gauze",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Third Cut Blue Tech Wash Denim",
+      "lu": "https://www.ourlegacy.com/third-cut-blue-tech-wash-denim",
+      "hp": "Vast Cut Old Chalk Wash",
+      "hu": "https://www.ourlegacy.com/vast-cut-old-chalk-wash",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Slack Trouser Black Worsted Wool",
+      "lu": "https://www.ourlegacy.com/slack-trouser-black-worsted-wool",
+      "hp": "Slack Trouser Deep Husk Soft Grain Weave",
+      "hu": "https://www.ourlegacy.com/slack-trouser-deep-husk-soft-grain-weave",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Compact Roundneck Black Rustic Merino (70% merino 30% alpaca)",
+      "lu": "https://www.ourlegacy.com/compact-roundneck-black-rustic-merino",
+      "hp": "Compact Roundneck Almost Black Refined Silk (100% silk)",
+      "hu": "https://www.ourlegacy.com/compact-roundneck-almost-black-refined-silk",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Mini Jacket Black Worsted Wool",
+      "lu": "https://www.ourlegacy.com/mini-jacket-black-worsted-wool",
+      "hp": "Mini Jacket Matted Brown Waxed Bovine (leather)",
+      "hu": "https://www.ourlegacy.com/mini-jacket-matted_-brown_-waxed_-bovine",
+      "b": "pair"
+    },
+    "Shoes": {
+      "lp": "Cypher Loafer Sombre Satin Bovine",
+      "lu": "https://www.ourlegacy.com/cypher-loafer-sombre-satin-bovine",
+      "hp": "Cypher Loafer Licorice Croc Bull Hide (croc-embossed cowhide)",
+      "hu": "https://www.ourlegacy.com/cypher-loafer-licorice-croc-bull-hide",
+      "b": "pair"
+    }
+  },
+  "price_range_only": ["T-shirt", "Dress shirt", "Jeans", "Dress pants"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.ourlegacy.com/ (US market, prices shown in USD)",
+    "currency": "USD_landed",
+    "status": "read",
+    "sublines": "Our Legacy WORK SHOP (non-collaboration pieces only)"
+  },
+  "price_checked": true
 }

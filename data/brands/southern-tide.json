@@ -44,7 +44,7 @@
     "u": "https://southerntide.com/search?q=Skipjack%20polo%20men",
     "n": "works"
   },
-  "prices": [[40, 55], [70, 108], [100, 148], [110, 140], [100, 140], [158, 178], [168, 178], "?"],
+  "prices": [[38, 88], [90, 118], [138, 168], [135, 178], [138, 148], [158, 178], [168, 178], [70, 70]],
   "notes": {
     "prep": "The skipjack and the Carolina coast — regional prep worn in earnest rather than ironically, and worn by people who live where it comes from.",
     "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional"
@@ -128,7 +128,7 @@
     "nc": ["T-Shirts", "Sportshirts", "Pants"],
     "st": "complete"
   },
-  "price_range_only": ["Sweater"],
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants", "Sweater", "Outerwear"],
   "garment_links": {
     "T-shirt": "https://southerntide.com/collections/men-t-shirts",
     "Polo": "https://southerntide.com/collections/men-polos",
@@ -137,5 +137,71 @@
     "Dress pants": "https://southerntide.com/collections/men-pants",
     "Sweater": "https://southerntide.com/collections/mens-sweaters",
     "Outerwear": "https://southerntide.com/collections/jackets-and-vests"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Classic Short Sleeve Pocket T-Shirt - Navy",
+      "lu": "https://southerntide.com/products/classic-short-sleeve-pocket-t-shirt-navy",
+      "hp": "Wooden Flag brrr-illiant Short Sleeve Performance T-Shirt",
+      "hu": "https://southerntide.com/products/wooden-flag-brrr-illiant-short-sleeve-performance-t-shirt",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Skipjack Gameday Colors Polo Shirt",
+      "lu": "https://southerntide.com/products/gameday-skipjack-pique-polo-shirt",
+      "hp": "Brewers Landing Stripe Coastal Breeze Performance Polo",
+      "hu": "https://southerntide.com/products/brewers-landing-stripe-coastal-breeze-performance-polo",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Ocean View Heather Brushed Twill Sport Shirt",
+      "lu": "https://southerntide.com/products/ocean-view-heather-brushed-twill-sport-shirt",
+      "hp": "Lanier Plaid Charleston Sport Shirt",
+      "hu": "https://southerntide.com/products/lanier-plaid-charleston-sport-shirt",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Charleston Denim Jeans - Rinse",
+      "lu": "https://southerntide.com/products/charleston-denim-jeans-rinse",
+      "hp": "King Street Denim Pant - Medium Wash",
+      "hu": "https://southerntide.com/products/king-street-denim-pant-medium-wash",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Channel Marker Stretch Chino Pant - Stone",
+      "lu": "https://southerntide.com/products/channel-marker-stretch-chino-pant-stone",
+      "hp": "Jack Performance Pant - True Navy",
+      "hu": "https://southerntide.com/products/jack-performance-pant-true-navy",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Broad River Indigo Crew",
+      "lu": "https://southerntide.com/products/broad-river-indigo-crewneck",
+      "hp": "Bass Creek Heather Quarter Button Sweater",
+      "hu": "https://southerntide.com/products/bass-creek-heather-quarter-button-sweater",
+      "b": "range"
+    },
+    "Outerwear": {
+      "lp": "Avondale Performance Jacket",
+      "lu": "https://southerntide.com/products/avondale-performance-jacket",
+      "hp": "Mixed Media Full Zip Jacket",
+      "hu": "https://southerntide.com/products/mixed-media-full-zip-jacket",
+      "b": "range"
+    },
+    "Shoes": {
+      "lp": "Men's River Rock Flipjacks",
+      "lu": "https://southerntide.com/products/mens-river-rock-flipjacks",
+      "hp": "Men's River Rock Flipjacks",
+      "hu": "https://southerntide.com/products/mens-river-rock-flipjacks",
+      "b": "single"
+    }
+  },
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://southerntide.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

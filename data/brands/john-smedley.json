@@ -40,7 +40,7 @@
     "u": "https://www.johnsmedley.com/worldwide/adrian-polo-shirt",
     "n": "verified — direct product page. The house's own Sea Island cotton, knitted at 30 gauge on the Derbyshire site, with a three-button placket and a fashioned stand collar; the house lists Adrian in its Icons collection. Sea Island confirmed in person at the London store. The sibling Isis carries the same cloth and dates to the 1930s"
   },
-  "prices": [[295, 350], [350, 495], null, null, null, [375, 710], [365, 820], null],
+  "prices": [[270, 345], [290, 405], null, null, null, [325, 665], null, null],
   "price_checked": true,
   "notes": {
     "wool": "30-gauge merino on the same Derbyshire site since 1784",
@@ -93,5 +93,36 @@
     "Polo": "https://www.johnsmedley.com/en-us/polo-shirts",
     "Sweater": "https://www.johnsmedley.com/en-us/jumpers",
     "Outerwear": "https://www.johnsmedley.com/en-us/jackets"
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "JS x John Smedley - T-Shirt (Sea Island Cotton, JS126)",
+      "lu": "https://www.johnsmedley.com/en-us/js126-2-glass-pink",
+      "hp": "Roderick (Extra Fine Merino Wool T-shirt)",
+      "hu": "https://www.johnsmedley.com/en-us/roderick-1-teal-firth",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "JS x John Smedley - Polo Shirt (Sea Island Cotton, JS128, short sleeve)",
+      "lu": "https://www.johnsmedley.com/en-us/js128-2-glass-pink",
+      "hp": "Grenock (Extra Fine Merino Wool, short sleeve)",
+      "hu": "https://www.johnsmedley.com/en-us/grenock-2-midnight",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "JS x John Smedley - Jumper (Extra Fine Merino Wool, round neck, JS138)",
+      "lu": "https://www.johnsmedley.com/en-us/js138-5-ginger",
+      "hp": "Oxnard (John Smedley's Eco Cashmere, round neck)",
+      "hu": "https://www.johnsmedley.com/en-us/oxnard-midnight",
+      "b": "pair"
+    }
+  },
+  "price_range_only": ["T-shirt", "Polo"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.johnsmedley.com/en-us/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "JS x John Smedley (the brand's 'contemporary diffusion collection', collection 'JS By John Smedley')"
   }
 }

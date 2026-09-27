@@ -44,12 +44,12 @@
     "n": ""
   },
   "prices": [
-    [495, 1050],
-    [645, 1295],
-    [675, 1695],
-    [720, 995],
-    [695, 2050],
-    [945, 2095],
+    [495, 1950],
+    [645, 1350],
+    [695, 1695],
+    [745, 1495],
+    [1150, 2795],
+    [995, 2095],
     [1995, 10400],
     [995, 1750]
   ],
@@ -122,5 +122,73 @@
     "Sweater": "https://www.brioni.com/en/us/ca/knitwear",
     "Outerwear": "https://www.brioni.com/en/us/ca/outerwear-and-coats",
     "Shoes": "https://www.brioni.com/en/us/ca/shoes"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Essential white gassed cotton T-shirt",
+      "lu": "https://www.brioni.com/en/us/pr/essential-white-gassed-cotton-t-shirt-UJPL0LOA6139000",
+      "hp": "White cashmere, silk and linen T-shirt",
+      "hu": "https://www.brioni.com/en/us/pr/white-cashmere-silk-and-linen-t-shirt-UMR00LPDK149000",
+      "b": "pair"
+    },
+    "Polo": {
+      "lp": "Essential white cotton piqué polo",
+      "lu": "https://www.brioni.com/en/us/pr/essential-white-cotton-pique-polo-UJPP0LPA6279000",
+      "hp": "Navy blue cotton, silk and cashmere Trama weave polo",
+      "hu": "https://www.brioni.com/en/us/pr/navy-blue-cotton-silk-and-cashmere-trama-weave-polo-UMR20OPAK224100",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Light blue cotton formal shirt",
+      "lu": "https://www.brioni.com/en/us/pr/light-blue-cotton-formal-shirt-RCB10LOD04P4800",
+      "hp": "Essential white Giza 45 cotton twill formal shirt",
+      "hu": "https://www.brioni.com/en/us/pr/essential-white-giza-45-cotton-twill-formal-shirt-RCB40MP90C39000",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Midnight blue cotton stretch Merano jeans",
+      "lu": "https://www.brioni.com/en/us/pr/midnight-blue-cotton-stretch-merano-jeans-SPE30LODD134000",
+      "hp": "Midnight blue cotton and cashmere denim Meribel fitted jeans",
+      "hu": "https://www.brioni.com/en/us/pr/midnight-blue-cotton-and-cashmere-denim-meribel-fitted-jeans-SPE20LPCD034000",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Taupe wool Tigullio trousers",
+      "lu": "https://www.brioni.com/en/us/pr/taupe-wool-tigullio-trousers-RPC60NOCA619696",
+      "hp": "Petroleum Zefiro Elba trousers",
+      "hu": "https://www.brioni.com/en/us/pr/petroleum-zefiro-elba-trousers-RP3I0LOA4784646",
+      "b": "pair"
+    },
+    "Sweater": {
+      "lp": "Navy blue cashmere and wool crewneck sweater",
+      "lu": "https://www.brioni.com/en/us/pr/navy-blue-cashmere-and-wool-crewneck-sweater-UMQ90LOCK124110",
+      "hp": "Black and white 180's mouliné wool crewneck sweater",
+      "hu": "https://www.brioni.com/en/us/pr/black-and-white-180s-mouline-wool-crewneck-sweater-UMQ90LOEK101090",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Dark grey herringbone wool shirt collar blouson",
+      "lu": "https://www.brioni.com/en/us/pr/dark-grey-herringbone-wool-shirt-collar-blouson-SCGR0LODA591100",
+      "hp": "Navy blue nubuck shirt collar blouson",
+      "hu": "https://www.brioni.com/en/us/pr/navy-blue-nubuck-shirt-collar-blouson-PLCT0LPB7024100",
+      "b": "pair"
+    },
+    "Shoes": {
+      "lp": "Midnight blue nubuck City Deck loafers",
+      "lu": "https://www.brioni.com/en/us/pr/midnight-blue-nubuck-city-deck-loafers-QYQN0LPD7234000",
+      "hp": "Black calfskin Elysium penny loafers",
+      "hu": "https://www.brioni.com/en/us/pr/black-calfskin-elysium-penny-loafers-QEJ90LP67571000",
+      "b": "pair"
+    }
+  },
+  "price_range_only": ["Polo", "Dress shirt", "Jeans"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.brioni.com/en/us/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true,
+  "shop": "https://www.brioni.com/en/us/search?q="
 }

@@ -42,14 +42,14 @@
     "n": "own-site search, not opened from this environment. A house-named cut, and it points at the alta sartoria underneath rather than at the spectacle on top"
   },
   "prices": [
-    [545, 1795],
-    [995, 2045],
-    [725, 2795],
-    [804, 1395],
-    [865, 1449],
+    [445, 1795],
+    [645, 2795],
+    [645, 5645],
+    [775, 3295],
+    [875, 1795],
     [995, 7045],
-    [1995, 2845],
-    [845, 1145]
+    [1295, 17800],
+    [895, 1145]
   ],
   "shoelink": {
     "t": "shoes",
@@ -138,5 +138,72 @@
     "Sweater": "https://www.dolcegabbana.com/en-us/fashion/men/clothing/sweaters-and-cardigans/",
     "Outerwear": "https://www.dolcegabbana.com/en-us/fashion/men/clothing/coats-and-jackets/",
     "Shoes": "https://www.dolcegabbana.com/en-us/fashion/men/shoes/"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "T-shirt in cotton",
+      "lu": "https://www.dolcegabbana.com/en-us/fashion/men/clothing/t-shirts-and-polos/t-shirt-in-cotton-grey-G8JX7TFU7EQS8292.html",
+      "hp": "Marina-print silk t-shirt",
+      "hu": "https://www.dolcegabbana.com/en-us/fashion/men/clothing/t-shirts-and-polos/marina-print-silk-t-shirt-multicolor-G8TW2THI142HB6EY.html",
+      "b": "pair"
+    },
+    "Polo": {
+      "lp": "Cotton polo-shirt with logo tag",
+      "lu": "https://www.dolcegabbana.com/en-us/fashion/men/clothing/t-shirts-and-polos/cotton-polo-shirt-with-logo-tag-black-G8SN1TFU7ENN0000.html",
+      "hp": "Silk polo shirt with intarsia",
+      "hu": "https://www.dolcegabbana.com/en-us/fashion/men/clothing/sweaters-and-cardigans/x-GXZ02TJBSPMW8266.html",
+      "b": "pair"
+    },
+    "Dress shirt": {
+      "lp": "Stretch poplin Gold-fit shirt",
+      "lu": "https://www.dolcegabbana.com/en-us/fashion/men/clothing/shirts/x-G5EJ0TGK322W0800.html",
+      "hp": "Striped cotton martini shirt",
+      "hu": "https://www.dolcegabbana.com/en-us/fashion/men/clothing/shirts/x-G5ML1ZFR5USS8051.html",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "White regular stretch jeans",
+      "lu": "https://www.dolcegabbana.com/en-us/fashion/men/clothing/denim/x-GYJCCDG8OX2S9001.html",
+      "hp": "Denim trousers (classic shape, Maiolica Nera)",
+      "hu": "https://www.dolcegabbana.com/en-us/fashion/men/clothing/denim/x-GP02XZG8NT3S9001.html",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Stretch flannel pants",
+      "lu": "https://www.dolcegabbana.com/en-us/fashion/men/clothing/pants-and-shorts/x-GY7BMTFUBF4S8292.html",
+      "hp": "Pinstripe virgin wool trousers",
+      "hu": "https://www.dolcegabbana.com/en-us/fashion/men/clothing/pants-and-shorts/x-GP13CTFR23WS8052.html",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Wool round-neck sweater with branded tag",
+      "lu": "https://www.dolcegabbana.com/en-us/fashion/men/clothing/sweaters-and-cardigans/x-GXO39TJGMG9N0000.html",
+      "hp": "Micro-dot stitch silk pullover",
+      "hu": "https://www.dolcegabbana.com/en-us/fashion/men/clothing/sweaters-and-cardigans/x-GXX02ZJBSOGB1622.html",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Black wash stretch denim jacket",
+      "lu": "https://www.dolcegabbana.com/en-us/fashion/men/clothing/coats-and-jackets/x-G9NL5DG8GW6S9001.html",
+      "hp": "Calfskin biker jacket",
+      "hu": "https://www.dolcegabbana.com/en-us/fashion/men/clothing/coats-and-jackets/x-G9ATTLHULXRS9001.html",
+      "b": "range"
+    },
+    "Shoes": {
+      "lp": "Brushed calfskin loafers",
+      "lu": "https://www.dolcegabbana.com/en-us/fashion/men/shoes/driver-shoes-and-loafers/x-A30267A120380999.html",
+      "hp": "Calfskin loafers (Perugino, horsebit)",
+      "hu": "https://www.dolcegabbana.com/en-us/fashion/men/shoes/driver-shoes-and-loafers/x-A30291A078080999.html",
+      "b": "pair"
+    }
+  },
+  "price_range_only": ["Dress shirt", "Jeans", "Dress pants", "Outerwear"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.dolcegabbana.com/en-us/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "Sartoriale (tailoring line sold under the brand in its own store)"
+  },
+  "price_checked": true
 }

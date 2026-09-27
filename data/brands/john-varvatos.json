@@ -39,7 +39,7 @@
     "u": "https://www.johnvarvatos.com/search?q=leather+jacket",
     "n": "best-guess link — verify; icon pick needs verdict"
   },
-  "prices": [[68, 98], [118, 268], [148, 228], [198, 298], [178, 268], [198, 698], [398, 698], [498, 598]],
+  "prices": [[98, 298], [118, 348], [348, 368], [248, 598], [298, 998], [198, 698], [398, 698], [498, 598]],
   "notes": {
     "murica": "Detroit and the Bowery — American music as the mythology",
     "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional"
@@ -105,5 +105,72 @@
     "Sweater": "https://www.johnvarvatos.com/sweaters-cardigans",
     "Outerwear": "https://www.johnvarvatos.com/coats-jackets",
     "Shoes": "https://www.johnvarvatos.com/shoes"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Miles V-Neck (short-sleeve cotton v-neck tee, JV Essentials)",
+      "lu": "https://www.johnvarvatos.com/collections/jv-essentials/miles-v-neck/K3595U1B-WC2B-001.html",
+      "hp": "Halden Crewneck (short-sleeve 100% merino knit, filed under T-Shirts)",
+      "hu": "https://www.johnvarvatos.com/t-shirts/halden-crewneck/K4348W26-CUC3-001.html",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Victor Polo",
+      "lu": "https://www.johnvarvatos.com/polo-shirts/victor-polo/K5787Y2-WC2B-414.html",
+      "hp": "Olivari Polo",
+      "hu": "https://www.johnvarvatos.com/polo-shirts/olivari-polo/K4312F26-CTB2-001.html",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Stella Dress Shirt",
+      "lu": "https://www.johnvarvatos.com/shirts/dress-shirts/stella-dress-shirt/D403X88-87PC-001.html",
+      "hp": "Hendrix Dress Shirt",
+      "hu": "https://www.johnvarvatos.com/shirts/dress-shirts/hendrix-dress-shirt/D420F26-97TD-100.html",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Pickup Slim Fit Jeans",
+      "lu": "https://www.johnvarvatos.com/jeans/pickup-slim-fit-jeans/J4191W26-EORA1-001.html",
+      "hp": "Pickup Slim Fit Jeans (Italian flocked python-print denim)",
+      "hu": "https://www.johnvarvatos.com/jeans/pickup-slim-fit-jeans/J419W26-BUSH-001.html",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Brunswick Boot Fit Pant",
+      "lu": "https://www.johnvarvatos.com/pants/dress-pants/brunswick-boot-fit-pant/P1011W26-EPTA-001.html",
+      "hp": "Dalston Tailored Pants (99% wool)",
+      "hu": "https://www.johnvarvatos.com/pants/dress-pants/dalston-tailored-pants/JVD852S26-ENZA-012.html",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Walter Crew Neck Sweater (mercerized cotton)",
+      "lu": "https://www.johnvarvatos.com/collections/jv-essentials/walter-crew-neck-sweater/Y1833U4B-BPE5B-001.html",
+      "hp": "Canosa Cashmere Crewneck Sweater (100% cashmere)",
+      "hu": "https://www.johnvarvatos.com/sweaters-cardigans/canosa-cashmere-crewneck-sweater/Y3820W26-CUX24-001.html",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Kyle Trucker (stretch denim)",
+      "lu": "https://www.johnvarvatos.com/coats-jackets/kyle-trucker/O2403X88-ENTE-464.html",
+      "hp": "Andrew Trucker (100% sheep leather)",
+      "hu": "https://www.johnvarvatos.com/leather/leather-jackets/andrew-trucker/L1401Z4-A952B-001.html",
+      "b": "pair"
+    },
+    "Shoes": {
+      "lp": "Thompson Slip On (calf suede keeper slip-on)",
+      "lu": "https://www.johnvarvatos.com/shoes/dress-shoes/thompson-slip-on/F4449F26-Y2392-012.html",
+      "hp": "Venice Slip On (hand-woven calf nubuck)",
+      "hu": "https://www.johnvarvatos.com/shoes/dress-shoes/venice-slip-on/F4365F26-Y2521C-002.html",
+      "b": "pair"
+    }
+  },
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.johnvarvatos.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "JV Essentials (collection)"
+  },
+  "price_checked": true
 }

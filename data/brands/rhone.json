@@ -43,7 +43,7 @@
     "u": "https://www.rhone.com/search?q=Commuter%20pant",
     "n": "works"
   },
-  "prices": [[54, 98], [88, 148], [108, 168], null, [148, 158], [118, 188], [178, 498], "?"],
+  "prices": [[54, 88], [78, 138], [118, 168], null, [148, 268], [118, 188], [148, 498], null],
   "notes": {
     "synth": "performance fabric programs with named technologies",
     "golf": "a full Rhone Golf line with pro-shop distribution",
@@ -120,7 +120,7 @@
     "nc": [],
     "st": "complete"
   },
-  "price_range_only": ["Outerwear"],
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Dress pants", "Sweater", "Outerwear"],
   "garment_links": {
     "T-shirt": "https://www.rhone.com/collections/mens-tees-collection/",
     "Polo": "https://www.rhone.com/collections/mens-polo-shirts/",
@@ -129,5 +129,56 @@
     "Sweater": "https://www.rhone.com/collections/mens-sweaters/",
     "Outerwear": "https://www.rhone.com/collections/mens-jackets-vests/"
   },
-  "price_checked": true
+  "price_checked": true,
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Origin Tee - Classic",
+      "lu": "https://www.rhone.com/products/mens-origin-tee/",
+      "hp": "Elevated Modern Tee",
+      "hu": "https://www.rhone.com/products/mens-elevated-modern-tee/",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Foundations Polo",
+      "lu": "https://www.rhone.com/products/mens-foundations-polo/",
+      "hp": "Mercer Knit Polo",
+      "hu": "https://www.rhone.com/products/mens-mercer-knit-polo/",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "State of Mind Shirt - Slim",
+      "lu": "https://www.rhone.com/products/mens-state-of-mind-shirt-slim-fit/",
+      "hp": "Commuter Pro Cotton Shirt - Slim",
+      "hu": "https://www.rhone.com/products/mens-commuter-pro-cotton-shirt-slim/",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Commuter Pro Trouser",
+      "lu": "https://www.rhone.com/products/mens-commuter-pro-trouser/",
+      "hp": "Amalfi Trouser",
+      "hu": "https://www.rhone.com/products/mens-amalfi-trouser/",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Commuter Crew Neck Sweater",
+      "lu": "https://www.rhone.com/products/mens-commuter-crewneck-sweater/",
+      "hp": "Milano Full Zip Sweater",
+      "hu": "https://www.rhone.com/products/mens-milano-full-zip-sweater/",
+      "b": "range"
+    },
+    "Outerwear": {
+      "lp": "Long Game Jacket",
+      "lu": "https://www.rhone.com/products/mens-long-game-jacket/",
+      "hp": "Commuter Topcoat",
+      "hu": "https://www.rhone.com/products/mens-commuter-topcoat/",
+      "b": "range"
+    }
+  },
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.rhone.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  }
 }

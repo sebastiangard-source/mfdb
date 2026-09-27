@@ -36,13 +36,13 @@
   "chan": ["D", "O"],
   "conf": "L",
   "forgc": [5, 3, 1],
-  "shop": "https://casablancaparis.com/search?q=",
+  "shop": "https://casablancaparis.com/en-us/search?q=",
   "onething": {
     "p": "Silk Grand Prix shirt",
     "u": "https://casablancaparis.com/search?q=Silk%20Grand%20Prix%20shirt%20men",
     "n": "men-filtered"
   },
-  "prices": [[265, 795], [550, 725], [545, 1067], [780, 1055], [1000, 1140], null, [970, 2435], [515, 545]],
+  "prices": [[195, 810], [395, 845], [760, 1065], [725, 965], [725, 1135], [640, 970], [725, 2435], [545, 545]],
   "shoelink": {
     "t": "shoes",
     "u": "https://casablancaparis.com/search?q=shoes"
@@ -97,5 +97,72 @@
     "Dress pants": "https://casablancaparis.com/en-us/collections/mens-trousers",
     "Outerwear": "https://casablancaparis.com/en-us/collections/mens-outerwear",
     "Shoes": "https://casablancaparis.com/en-us/collections/mens-shoes"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "White Diamond Logo Short Sleeve T-Shirt",
+      "lu": "https://casablancaparis.com/en-us/products/m-jts-001-02-ex-ce-diamond-logo-short-sleeve-t-shirt",
+      "hp": "Applique Monogram Oversized Short Sleeve T-Shirt",
+      "hu": "https://casablancaparis.com/en-us/products/m-sp26-jts-044-05-applique-monogram-oversized-short-sleeve-t-shirt",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "White Laurel Pique Short Sleeve Polo Shirt",
+      "lu": "https://casablancaparis.com/en-us/products/m-pf26-jtp-499-01-white-laurel-pique-short-sleeve-polo-shirt",
+      "hp": "Dark Navy Knit Collar Short Sleeve Polo Shirt",
+      "hu": "https://casablancaparis.com/en-us/products/m-pf26-sh-286-01-dark-navy-knit-collar-short-sleeve-polo-shirt",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Beige Monogram Long Sleeve Shirt",
+      "lu": "https://casablancaparis.com/en-us/products/m-pf26-sh-222-01-beige-monogram-long-sleeve-shirt",
+      "hp": "Tennis Club Long Sleeve Silk Twill Shirt",
+      "hu": "https://casablancaparis.com/en-us/products/m-aw26-sh-006-04-tennis-club-long-sleeve-silk-twill-shirt",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Indigo Raw Denim Straight Leg Jeans",
+      "lu": "https://casablancaparis.com/en-us/products/m-pf26-dn-007-01-indigo-raw-denim-straight-leg-jeans",
+      "hp": "Beige Desert Canvas Denim Jeans",
+      "hu": "https://casablancaparis.com/en-us/products/m-aw26-dn-032-01-beige-desert-canvas-denim-jeans",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Black Pleated Straight Leg Trousers",
+      "lu": "https://casablancaparis.com/en-us/products/m-aw26-tr-462-01-black-pleated-straight-leg-trousers",
+      "hp": "Blue Astrology Silk Twill Trousers",
+      "hu": "https://casablancaparis.com/en-us/products/m-pf26-tr-398-01-blue-astrology-silk-twill-trousers",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "White Pyramid of Oranges Crochet Cardigan",
+      "lu": "https://casablancaparis.com/en-us/products/m-aw26-kw-1483-01-white-pyramid-of-oranges-crochet-cardigan",
+      "hp": "Navy Hotel Emblem Embroidered Wool Cardigan",
+      "hu": "https://casablancaparis.com/en-us/products/u-pf26-kw-1429-01-navy-hotel-emblem-embroidered-wool-cardigan",
+      "b": "range"
+    },
+    "Outerwear": {
+      "lp": "White & Green Floral Striped Sporty Windbreaker Jacket",
+      "lu": "https://casablancaparis.com/en-us/products/m-pf26-jk-033-01-white-green-floral-stripe-sporty-windbreaker-jacket",
+      "hp": "Navy & Green Suede Track Jacket",
+      "hu": "https://casablancaparis.com/en-us/products/m-pf26-jk-513-01-navy-green-suede-track-jacket",
+      "b": "range"
+    },
+    "Shoes": {
+      "lp": "Black Leather Loafer Mule",
+      "lu": "https://casablancaparis.com/en-us/products/a-aw26-fw-109-01-black-leather-loafer-mule",
+      "hp": "Black Leather Loafer Mule",
+      "hu": "https://casablancaparis.com/en-us/products/a-aw26-fw-109-01-black-leather-loafer-mule",
+      "b": "single"
+    }
+  },
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants", "Sweater", "Outerwear"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://casablancaparis.com/en-us",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

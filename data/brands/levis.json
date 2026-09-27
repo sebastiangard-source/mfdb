@@ -40,7 +40,7 @@
     "u": "https://www.levi.com/US/en_US/search/501",
     "n": "restored from the earlier draft; link is site search — verify"
   },
-  "prices": [[20, 35], [30, 65], [50, 80], [60, 295], [60, 90], [70, 295], [90, 1200], null],
+  "prices": [[25, 65], [35, 70], [60, 200], [65, 295], [65, 99], [60, 295], [90, 625], null],
   "notes": {
     "denim": "the original — the 1873 riveted patent",
     "murica": "the rivet is American scripture — the 501 is the national garment",
@@ -199,5 +199,65 @@
     "Dress pants": "https://www.levi.com/US/en_US/clothing/men/pants/chino-pants/c/levi_clothing_chino_pants_us",
     "Sweater": "https://www.levi.com/US/en_US/clothing/men/sweaters-sweatshirts/c/levi_clothing_men_sweaters_sweatshirts",
     "Outerwear": "https://www.levi.com/US/en_US/clothing/men/outerwear/c/levi_clothing_men_outerwear"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Classic Housemark T-Shirt",
+      "lu": "https://www.levi.com/US/en_US/clothing/men/shirts/basic-t-shirts/classic-housemark-t-shirt/p/568090083",
+      "hp": "Levi's Blue Tab Relaxed T-Shirt",
+      "hu": "https://www.levi.com/US/en_US/clothing/men/shirts/basic-t-shirts/relaxed-t-shirt/p/001LJ0005",
+      "b": "pair"
+    },
+    "Polo": {
+      "lp": "Housemark Polo",
+      "lu": "https://www.levi.com/US/en_US/clothing/men/shirts/housemark-polo/p/358830006",
+      "hp": "Laguna Sweater Polo",
+      "hu": "https://www.levi.com/US/en_US/clothing/men/shirts/laguna-sweater-polo/p/0059K0002",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Classic One Pocket Standard Poplin Shirt",
+      "lu": "https://www.levi.com/US/en_US/clothing/men/shirts/classic-one-pocket-standard-poplin-shirt/p/857480067",
+      "hp": "Levi's Blue Tab Relaxed Button-Down Shirt",
+      "hu": "https://www.levi.com/US/en_US/clothing/men/shirts/button-up-shirts/relaxed-button-down-shirt/p/001LI0005",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "507 Western Slim Bootcut Men's Jeans",
+      "lu": "https://www.levi.com/US/en_US/clothing/men/jeans/bootcut/507TM-western-slim-bootcut-mens-jeans/p/0098C0006",
+      "hp": "Levi's Blue Tab 502 Taper Selvedge Men's Jeans",
+      "hu": "https://www.levi.com/US/en_US/clothing/men/jeans/taper/502TM-taper-selvedge-mens-jeans/p/A58810008",
+      "b": "pair"
+    },
+    "Dress pants": {
+      "lp": "Loose Pleated Work Men's Chino Pants",
+      "lu": "https://www.levi.com/US/en_US/clothing/men/pants/loose-pleated-work-mens-chino-pants/p/007WB0000",
+      "hp": "XX Chino Standard Taper Tech Performance Cool Men's Pants",
+      "hu": "https://www.levi.com/US/en_US/clothing/men/pants/xx-chino-standard-taper-tech-performance-cool-mens-pants/p/001K90000",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Short-Sleeve Sweater",
+      "lu": "https://www.levi.com/US/en_US/clothing/men/sweaters-sweatshirts/short-sleeve-sweater/p/007TB0004",
+      "hp": "Levi's Blue Tab Wool Cashmere Blend Sweater",
+      "hu": "https://www.levi.com/US/en_US/blue-tab/wool-cashmere-blend-sweater/p/008PX0000",
+      "b": "range"
+    },
+    "Outerwear": {
+      "lp": "Walnut Springs Denim Trucker Jacket",
+      "lu": "https://www.levi.com/US/en_US/clothing/men/outerwear/jean-jackets/walnut-springs-denim-trucker-jacket/p/007X20000",
+      "hp": "Levi's Premium Type I Leather Trucker Jacket",
+      "hu": "https://www.levi.com/US/en_US/clothing/men/outerwear/jean-jackets/type-i-leather-trucker-jacket/p/005PT0001",
+      "b": "pair"
+    }
+  },
+  "price_range_only": ["Polo", "Dress shirt", "Dress pants", "Sweater"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.levi.com/US/en_US/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "Blue Tab, Levi's Premium, Red Tab, SilverTab, Levi's Workwear (Levi's Vintage Clothing excluded as archive reissues; collaborations excluded)"
+  },
+  "price_checked": true
 }

@@ -47,11 +47,11 @@
     "n": "Use this: https://www.zegna.com/us-en/product.grey-mlange-suede-triple-stitch-sneakers.22361729/"
   },
   "prices": [
-    [495, 950],
-    [495, 1690],
-    [490, 795],
-    [525, 875],
-    [750, 1100],
+    [950, 2690],
+    [990, 2950],
+    [775, 2650],
+    [875, 1950],
+    [950, 1950],
     [1150, 3990],
     [3250, 9990],
     [1350, 1890]
@@ -145,5 +145,72 @@
     "Sweater": "https://www.zegna.com/us-en/ready-to-wear/sweaters/",
     "Outerwear": "https://www.zegna.com/us-en/ready-to-wear/coats-and-jackets/",
     "Shoes": "https://www.zegna.com/us-en/shoes/"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Pine Green Premium Cotton T-shirt",
+      "lu": "https://www.zegna.com/us-en/ready-to-wear/sweaters/product.pine-green-premium-cotton-t-shirt.37128001/",
+      "hp": "Black Vellus Aureum T-shirt",
+      "hu": "https://www.zegna.com/us-en/ready-to-wear/t-shirts/product.black-vellus-aureum-t-shirt.33733443/",
+      "b": "pair"
+    },
+    "Polo": {
+      "lp": "Optical White Linen Polo Shirt",
+      "lu": "https://www.zegna.com/us-en/ready-to-wear/polo-shirts/product.optical-white-linen-polo-shirt.30298875/",
+      "hp": "Dark Taupe Vellus Aureum Polo Shirt",
+      "hu": "https://www.zegna.com/us-en/ready-to-wear/sweaters/product.dark-taupe-vellus-aureum-polo-shirt.37126199/",
+      "b": "pair"
+    },
+    "Dress shirt": {
+      "lp": "Light Blue Trofeo Cotton Shirt",
+      "lu": "https://www.zegna.com/us-en/ready-to-wear/shirts/product.light-blue-trofeo-cotton-shirt.22483796/",
+      "hp": "Cashmere and Silk Shirt",
+      "hu": "https://www.zegna.com/us-en/ready-to-wear/shirts/product.cashmere-and-silk-shirt.35559325/",
+      "b": "pair"
+    },
+    "Jeans": {
+      "lp": "Dark Blue Rinse-washed Stretch Cotton Roccia Jeans",
+      "lu": "https://www.zegna.com/us-en/ready-to-wear/jeans/product.dark-blue-rinse-washed-stretch-cotton-roccia-jeans.22361955/",
+      "hp": "Dark Blue Rinse-washed Cotton and Silk Roccia Jeans",
+      "hu": "https://www.zegna.com/us-en/ready-to-wear/jeans/product.dark-blue-rinse-washed-cotton-and-silk-roccia-jeans.37148853/",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Dark Blue Wool Pants (wool flannel)",
+      "lu": "https://www.zegna.com/us-en/ready-to-wear/pants/product.dark-blue-wool-pants.22455698/",
+      "hp": "Navy Blue 15milmil15 Wool Silk and Cashmere Pants",
+      "hu": "https://www.zegna.com/us-en/ready-to-wear/pants/product.navy-blue-15milmil15-wool-silk-and-cashmere-pants.35570606/",
+      "b": "pair"
+    },
+    "Sweater": {
+      "lp": "Navy Blue Wool Crewneck",
+      "lu": "https://www.zegna.com/us-en/ready-to-wear/sweaters/product.navy-blue-wool-crewneck.37709063/",
+      "hp": "Dark Taupe Vellus Aureum Crewneck",
+      "hu": "https://www.zegna.com/us-en/ready-to-wear/sweaters/product.dark-taupe-vellus-aureum-crewneck.33744331/",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Microfiber Motorin 100cc Blouson",
+      "lu": "https://www.zegna.com/us-en/ready-to-wear/coats-and-jackets/product.microfiber-motorin-100cc-blouson.37121536/",
+      "hp": "Leather Blouson",
+      "hu": "https://www.zegna.com/us-en/ready-to-wear/coats-and-jackets/product.leather-blouson.35518198/",
+      "b": "pair"
+    },
+    "Shoes": {
+      "lp": "Dark Brown Suede Mocassin Corso Loafers",
+      "lu": "https://www.zegna.com/us-en/shoes/product.dark-brown-suede-mocassin-corso-loafers.35697983/",
+      "hp": "Dark Brown Suede Loafer",
+      "hu": "https://www.zegna.com/us-en/shoes/product.dark-brown-suede-loafer.39778219/",
+      "b": "pair"
+    }
+  },
+  "price_range_only": ["Jeans"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.zegna.com/us-en/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

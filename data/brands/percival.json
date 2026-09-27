@@ -40,12 +40,12 @@
     "n": "verified — Cuban-collar collection page"
   },
   "prices": [
-    [50, 75],
-    [90, 140],
-    [110, 160],
-    [130, 180],
-    [120, 170],
-    [210, 320],
+    [67, 105, "USD_landed"],
+    [130, 175, "USD_landed"],
+    [190, 210, "USD_landed"],
+    [175, 190, "USD_landed"],
+    [190, 225, "USD_landed"],
+    [240, 350, "USD_landed"],
     [255, 730, "USD_landed"],
     null
   ],
@@ -98,5 +98,65 @@
   },
   "notes": {
     "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Plain Regular Fit T Shirt | Organic Cotton | White",
+      "lu": "https://www.percivalclo.com/products/daily-goods-t-shirt-organic-cotton-white",
+      "hp": "Dawson Oversized T Shirt | Organic Cotton | White",
+      "hu": "https://www.percivalclo.com/products/dawson-oversized-t-shirt-organic-cotton-white",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Anthony Ribbed Polo | Cotton | Espresso",
+      "lu": "https://www.percivalclo.com/products/anthony-ribbed-polo-cotton-espresso",
+      "hp": "Tennis Boxy Knitted Polo | Cotton | Cream",
+      "hu": "https://www.percivalclo.com/products/tennis-boxy-knitted-polo-cotton-ecru",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Formal Classic Shirt | Cotton Poplin | White",
+      "lu": "https://www.percivalclo.com/products/formal-classic-shirt-cotton-poplin-white-1",
+      "hp": "Striped Oxford Regular Shirt | Cotton | Blue Stripe",
+      "hu": "https://www.percivalclo.com/products/striped-oxford-shirt-cotton-blue-stripe",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Straight Leg Denim Jeans | Cotton | Cream",
+      "lu": "https://www.percivalclo.com/products/straight-leg-denim-jeans-cotton-cream",
+      "hp": "Straight Leg Heritage Denim Jeans | Cotton | Raw",
+      "hu": "https://www.percivalclo.com/products/straight-leg-heritage-denim-jeans-cotton-raw",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Blake Double Pleated Trousers | Cotton | Navy",
+      "lu": "https://www.percivalclo.com/products/blake-double-pleated-trousers-cotton-navy",
+      "hp": "Blake Double Pleated Tailored Trousers | Birdseye Wool | Grey",
+      "hu": "https://www.percivalclo.com/products/blake-double-pleated-tailored-trousers-birdseye-wool-grey",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Fisherman Raglan Jumper | Heavy Cotton | Navy",
+      "lu": "https://www.percivalclo.com/products/fisherman-knitted-jumper-heavy-cotton-navy",
+      "hp": "Archive Knit Collared Cardigan | Yak Wool | Brown",
+      "hu": "https://www.percivalclo.com/products/archive-knit-collared-cardigan-yak-wool-brown",
+      "b": "range"
+    },
+    "Outerwear": {
+      "lp": "Western Trucker Jacket | Denim | Dark Indigo",
+      "lu": "https://www.percivalclo.com/products/western-trucker-jacket-denim-raw",
+      "hp": "Western Jacket | Suede | Olive",
+      "hu": "https://www.percivalclo.com/products/western-jacket-suede-olive",
+      "b": "pair"
+    }
+  },
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants", "Sweater"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.percivalclo.com/",
+    "currency": "USD_landed",
+    "status": "read",
+    "sublines": "PCVL"
+  },
+  "price_checked": true
 }

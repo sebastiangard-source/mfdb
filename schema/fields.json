@@ -779,6 +779,22 @@
       "absent": "not_assessed",
       "note": true,
       "doc": "White tee: how much the brand's plain white T-shirt is a reason to shop it. 1 = sells no plain white tee; 2 = sells one as a basic; 3 = the tee is a named, developed product; 4 = a signature, one of the things the brand is known for; 5 = a house built on it. Seeded 27 Sep 2026 from the price pass (NONE tee = 1, priced tee = 2) and a short defended list for 3-5; provisional until read."
+    },
+    "price_evidence": {
+      "scope": "brand",
+      "path": "price_evidence",
+      "type": "obj",
+      "absent": "optional",
+      "doc": "Per garment slot: {lp, lu, hp, hu, b} — the product and URL behind the low and the high, and the basis (pair | range | single). Repo only; not emitted to the page. From price_full_2026-09-23.",
+      "const": null
+    },
+    "price_read": {
+      "scope": "brand",
+      "path": "price_read",
+      "type": "obj",
+      "absent": "optional",
+      "doc": "{date, store, currency, status, sublines} for the full read. Repo only.",
+      "const": null
     }
   },
   "price_slots": [

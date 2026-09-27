@@ -33,20 +33,19 @@
   "chan": ["O", "D", "X"],
   "conf": "S",
   "forgc": [3, 3, 3],
-  "shop": "https://www.armani.com/en-us/search?q=",
   "onething": {
     "p": "Deconstructed blazer",
     "u": "https://www.neimanmarcus.com/p/giorgio-armani-mens-wool-viscose-deconstructed-blazer-prod272460286",
     "n": "direct via Neiman Marcus — titled deconstructed blazer on the page itself"
   },
   "prices": [
-    [375, 1025],
-    [375, 925],
-    [545, 2095],
-    [675, 1395],
-    [795, 1895],
+    [345, 775],
+    [425, 1995],
+    [495, 3295],
+    [675, 1095],
+    [875, 4095],
     [975, 4195],
-    [1195, 9300],
+    [1195, 6200],
     [745, 1395]
   ],
   "notes": {
@@ -119,5 +118,72 @@
     "Sweater": "https://www.armani.com/en-us/giorgio-armani/man/clothing/knitwear/",
     "Outerwear": "https://www.armani.com/en-us/giorgio-armani/man/clothing/outerwear/",
     "Shoes": "https://www.armani.com/en-us/giorgio-armani/man/shoes/"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Jersey T-shirt in Pima cotton with a front print",
+      "lu": "https://www.armani.com/en-us/giorgio-armani/jersey-t-shirt-in-pima-cotton-with-a-front-print-cod-3GST57-SJMCZ-U090/",
+      "hp": "Plain-knit jersey T-shirt in a silk-and-cotton blend",
+      "hu": "https://www.armani.com/en-us/giorgio-armani/plain-knit-jersey-t-shirt-in-a-silk-and-cotton-blend-cod-3KSM77-SJZHZ-UB100/",
+      "b": "pair"
+    },
+    "Polo": {
+      "lp": "Stretch polo in viscose jersey with buttonless collar",
+      "lu": "https://www.armani.com/en-us/giorgio-armani/stretch-polo-in-viscose-jersey-with-buttonless-collar-cod-3GSF51-SJP4Z-UC99/",
+      "hp": "Polo shirt Cashmere pure interlock",
+      "hu": "https://www.armani.com/en-us/giorgio-armani/polo-shirt-cashmere-pure-interlock-cod-GM000262-TE10555-U6031/",
+      "b": "pair"
+    },
+    "Dress shirt": {
+      "lp": "Classic shirt in cotton twill",
+      "lu": "https://www.armani.com/en-us/giorgio-armani/classic-shirt-in-cotton-twill-cod-8WGCCZMC-TZ064-UAMC/",
+      "hp": "Shirt regular fit in lightweight cashmere twill",
+      "hu": "https://www.armani.com/en-us/giorgio-armani/shirt-regular-fit-in-lightweight-cashmere-twill-cod-GM000080-TE20771-U8136/",
+      "b": "pair"
+    },
+    "Jeans": {
+      "lp": "Five-pocket, regular fit, stretch cotton-denim trousers",
+      "lu": "https://www.armani.com/en-us/giorgio-armani/five-pocket-regular-fit-stretch-cotton-denim-trousers-cod-6KSJ15-SD2BZ-UBUL/",
+      "hp": "Stretch cotton denim twill jeans",
+      "hu": "https://www.armani.com/en-us/giorgio-armani/stretch-cotton-denim-twill-jeans-cod-GM000250-AF24650-MB001/",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Wool flannel trousers",
+      "lu": "https://www.armani.com/en-us/giorgio-armani/wool-flannel-trousers-cod-8WGPP03D-T004K-U6UG/",
+      "hp": "Trousers regular fit in lightweight cashmere twill",
+      "hu": "https://www.armani.com/en-us/giorgio-armani/trousers-regular-fit-in-lightweight-cashmere-twill-cod-GM002253-TE20771-U8136/",
+      "b": "pair"
+    },
+    "Sweater": {
+      "lp": "Crewneck sweater in virgin wool with a textured pattern",
+      "lu": "https://www.armani.com/en-us/giorgio-armani/crewneck-sweater-in-virgin-wool-with-a-textured-pattern-cod-GM003907-AF28282-UC001/",
+      "hp": "Sweater oversized in silk with ribbed stitch",
+      "hu": "https://www.armani.com/en-us/giorgio-armani/sweater-oversized-in-silk-with-ribbed-stitch-cod-GM004093-AF28811-U1020/",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Stretch jersey blouson",
+      "lu": "https://www.armani.com/en-us/giorgio-armani/stretch-jersey-blouson-cod-3DSB72-SJFJZ-UBUV/",
+      "hp": "Blouson jacket regular fit in double cashmere",
+      "hu": "https://www.armani.com/en-us/giorgio-armani/blouson-jacket-regular-fit-in-double-cashmere-cod-GM004473-TE10068-UB109/",
+      "b": "pair"
+    },
+    "Shoes": {
+      "lp": "Patent leather loafers",
+      "lu": "https://www.armani.com/en-us/giorgio-armani/patent-leather-loafers-cod-X2J138-XL580-A083/",
+      "hp": "Loafer in suede with leather insole",
+      "hu": "https://www.armani.com/en-us/giorgio-armani/loafer-in-suede-with-leather-insole-cod-GM003257-AF24809-U6326/",
+      "b": "pair"
+    }
+  },
+  "price_range_only": ["Jeans"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.armani.com/en-us/giorgio-armani/man/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "Icon, ASV, Neve (Giorgio Armani-labelled lines in the GA men's categories; none sets a figure)"
+  },
+  "price_checked": true
 }

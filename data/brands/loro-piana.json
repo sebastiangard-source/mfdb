@@ -47,13 +47,13 @@
     "n": "verified ✓"
   },
   "prices": [
-    [725, 940],
-    [635, 2450],
-    [775, 2110],
-    [865, 1145],
-    [1150, 1750],
-    [1125, 5250],
-    [2770, 29000],
+    [650, 2750],
+    [690, 5900],
+    [705, 11900],
+    [815, 1650],
+    [1570, 13100],
+    [1000, 10800],
+    [2770, 11900],
     [950, 2150]
   ],
   "shoelink": {
@@ -146,5 +146,72 @@
     "Sweater": "https://us.loropiana.com/en/c/man/knitwear",
     "Outerwear": "https://us.loropiana.com/en/man/coats-and-outerwear",
     "Shoes": "https://us.loropiana.com/en/c/shoes/man"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Ray T-Shirt (cotton)",
+      "lu": "https://us.loropiana.com/en/man/polo-and-t-shirts/ray-t-shirt-FAM8924_515Q.html",
+      "hp": "Como The Gift of Kings® T-Shirt",
+      "hu": "https://us.loropiana.com/en/man/polo-and-t-shirts/como-the-gift-of-kings-t-shirt-FAF6689_H0B4.html",
+      "b": "pair"
+    },
+    "Polo": {
+      "lp": "Brenna Polo Shirt (cotton)",
+      "lu": "https://us.loropiana.com/en/man/polo-and-t-shirts/brenna-polo-shirt-FAP9959_P0B2.html",
+      "hp": "Iconic Polo Shirt (Vicuña)",
+      "hu": "https://us.loropiana.com/en/man/vicuna/iconic-polo-shirt-FRM2281_E09Y.html",
+      "b": "pair"
+    },
+    "Dress shirt": {
+      "lp": "André Shirt (cotton)",
+      "lu": "https://us.loropiana.com/en/spring-summer/man/andre-shirt-FAP3314_F6NY.html",
+      "hp": "André Shirt (vicuña, silk)",
+      "hu": "https://us.loropiana.com/en/man/vicuna/andre-shirt-FRM1747_W000.html",
+      "b": "pair"
+    },
+    "Jeans": {
+      "lp": "Quarona Jeans (linen, cotton)",
+      "lu": "https://us.loropiana.com/en/man/trousers-and-bermudas/quarona-jeans-FAP3992_D09Q.html",
+      "hp": "Kleve Jeans (CashDenim®)",
+      "hu": "https://us.loropiana.com/en/man/trousers-and-bermudas/kleve-jeans-FRM2105_W151.html",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Stafford Pants (linen, silk - Rain System®)",
+      "lu": "https://us.loropiana.com/en/spring-summer/man/stafford-pants-FAQ9917_W000.html",
+      "hp": "Reinga Pants (vicuña, silk)",
+      "hu": "https://us.loropiana.com/en/man/vicuna/reinga-pants-FAO7706_W000.html",
+      "b": "pair"
+    },
+    "Sweater": {
+      "lp": "Walkery Crewneck (cotton, silk)",
+      "lu": "https://us.loropiana.com/en/spring-summer/man/walkery-crewneck-FAM1818_A0PI.html",
+      "hp": "Coste Crewneck (vicuña)",
+      "hu": "https://us.loropiana.com/en/man/vicuna/knitwear/coste-crewneck-FAQ4336_E09Y.html",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Bomber Jacket (linen)",
+      "lu": "https://us.loropiana.com/en/spring-summer/man/bomber-jacket-FRM1334_B656.html",
+      "hp": "The Gift of Kings® Bomber Jacket",
+      "hu": "https://us.loropiana.com/en/man/outerwear-jackets/the-gift-of-kings-bomber-jacket-FAO7629_H337.html",
+      "b": "pair"
+    },
+    "Shoes": {
+      "lp": "Venice Walk Loafer (suede)",
+      "lu": "https://us.loropiana.com/en/shoes/man/loafers/venice-walk-loafer-FAN1318_H1MY.html",
+      "hp": "Summer Walk The Gift of Kings® Loafer",
+      "hu": "https://us.loropiana.com/en/shoes/man/white-sole/summer-walk-the-gift-of-kings-loafer-FAP3479_Q0BJ.html",
+      "b": "pair"
+    }
+  },
+  "price_range_only": ["Jeans"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://us.loropiana.com/en/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

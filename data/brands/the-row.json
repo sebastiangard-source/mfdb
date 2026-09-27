@@ -43,13 +43,13 @@
   },
   "prices": [
     [350, 1190],
-    null,
-    [1100, 1950],
-    [850, 1050],
-    [950, 2950],
-    [1250, 2100],
-    [2650, 14000],
-    [990, 1990]
+    [1700, 1950],
+    [1250, 1950],
+    [650, 1050],
+    [1250, 2900],
+    [1290, 2100],
+    [1450, 12000],
+    [1350, 1990]
   ],
   "notes": {
     "cashmere": "museum-grade knits",
@@ -108,5 +108,72 @@
     "Sweater": "https://www.therow.com/collections/men-sweaters-sweatshirts",
     "Outerwear": "https://www.therow.com/collections/men-coats-outerwear",
     "Shoes": "https://www.therow.com/collections/men-shoes"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Luke T-Shirt",
+      "lu": "https://www.therow.com/products/luke-t-shirt-white",
+      "hp": "Dlomu T-Shirt (ultrafine wool)",
+      "hu": "https://www.therow.com/products/dlomu-t-shirt-navy",
+      "b": "pair"
+    },
+    "Polo": {
+      "lp": "Borges Top (short-sleeved polo, cashmere)",
+      "lu": "https://www.therow.com/products/borges-top-black",
+      "hp": "Morand Top (short-sleeved polo, worsted cashmere)",
+      "hu": "https://www.therow.com/products/morand-top-charcoal",
+      "b": "pair"
+    },
+    "Dress shirt": {
+      "lp": "Tomek Shirt (cotton poplin)",
+      "lu": "https://www.therow.com/products/tomek-shirt-white",
+      "hp": "Fiska Shirt (washed silk)",
+      "hu": "https://www.therow.com/products/fiska-shirt-dark-brown",
+      "b": "pair"
+    },
+    "Jeans": {
+      "lp": "Morton Jean",
+      "lu": "https://www.therow.com/products/morton-jean-light-blue",
+      "hp": "Vanya Jean",
+      "hu": "https://www.therow.com/products/vanya-jean-blue",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Seth Pant (wool suiting)",
+      "lu": "https://www.therow.com/products/seth-pant-navy",
+      "hp": "Tavel Pant (lightweight cashmere twill)",
+      "hu": "https://www.therow.com/products/tavel-pant-grey",
+      "b": "pair"
+    },
+    "Sweater": {
+      "lp": "Benji Crew Neck Sweater (cashmere)",
+      "lu": "https://www.therow.com/products/benji-crew-neck-black",
+      "hp": "Auguste Sweater (Japanese cashmere crewneck)",
+      "hu": "https://www.therow.com/products/auguste-top-dark-navy",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Seb Jacket (denim)",
+      "lu": "https://www.therow.com/products/seb-jacket-washed-blue",
+      "hp": "Vana Jacket (reversible nubuck leather / cashmere)",
+      "hu": "https://www.therow.com/products/vana-jacket-brown",
+      "b": "range"
+    },
+    "Shoes": {
+      "lp": "Men's Loafer",
+      "lu": "https://www.therow.com/products/mens-loafer-brown-1",
+      "hp": "Novus Tassel Loafer",
+      "hu": "https://www.therow.com/products/novus-tassel-loafer-black",
+      "b": "pair"
+    }
+  },
+  "price_range_only": ["Jeans", "Outerwear"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.therow.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

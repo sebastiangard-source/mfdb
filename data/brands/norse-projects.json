@@ -38,7 +38,7 @@
     "u": "https://norseprojects.com/search?q=aros+chino",
     "n": "no www, plus-encoded, verified"
   },
-  "prices": [[60, 90], [215, 360], [140, 200], [160, 240], [150, 220], [270, 395], [395, 1600], null],
+  "prices": [[90, 145], [250, 325], [215, 360], [395, 395], [215, 395], [270, 360], [395, 1600], null],
   "doors": {
     "c": "full",
     "n": 0,
@@ -88,7 +88,7 @@
     "nc": ["Shirting", "Pullover Knitwear", "Light Jackets"],
     "st": "complete"
   },
-  "price_range_only": ["Outerwear"],
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Dress pants", "Outerwear"],
   "garment_links": {
     "T-shirt": "https://norseprojects.com/collections/t-shirts",
     "Polo": "https://norseprojects.com/search?q=polo",
@@ -99,5 +99,64 @@
   },
   "notes": {
     "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Norse Standard T-shirt",
+      "lu": "https://www.norseprojects.com/products/norse-standard-t-shirt-grey-melange",
+      "hp": "Nordborg Cotton Crepe T-shirt",
+      "hu": "https://www.norseprojects.com/products/nordborg-cotton-crepe-t-shirt-black",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Anholt Cotton Paper Polo",
+      "lu": "https://www.norseprojects.com/products/anholt-cotton-paper-polo-shale",
+      "hp": "Anholt Cotton Crepe Polo",
+      "hu": "https://www.norseprojects.com/products/anholt-cotton-crepe-polo-dark-navy",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Kongshoved Cotton Twill GMD Relaxed Shirt",
+      "lu": "https://www.norseprojects.com/products/kongshoved-cotton-twill-gmd-relaxed-shirt-dark-navy",
+      "hp": "Falster Fine Cotton Flannel Check Oversize Shirt",
+      "hu": "https://www.norseprojects.com/products/falster-fine-cotton-flannel-check-oversize-shirt-darkest-purple",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Vesterskov Broken Twill Denim",
+      "lu": "https://www.norseprojects.com/products/tvedalen-regular-broken-twill-cotton-linen-denim-indigo",
+      "hp": "Vesterskov Broken Twill Denim",
+      "hu": "https://www.norseprojects.com/products/tvedalen-regular-broken-twill-cotton-linen-denim-indigo",
+      "b": "single"
+    },
+    "Dress pants": {
+      "lp": "Trysil Regular Organic Stretch Twill Trouser",
+      "lu": "https://www.norseprojects.com/products/trysil-regular-organic-stretch-twill-trouser-black",
+      "hp": "Hestur Relaxed Alpinix 37,5 Wool Trouser",
+      "hu": "https://www.norseprojects.com/products/hestur-relaxed-alpinix7-wool-trouser-charcoal-grey",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Henning Cotton Wool Rib Sweater",
+      "lu": "https://www.norseprojects.com/products/henning-cotton-wool-rib-sweater-natural-ecru",
+      "hp": "Nordrevik Baby Alpaca Sweater",
+      "hu": "https://www.norseprojects.com/products/nordrevik-baby-alpaca-sweater-walnut",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Raabjerg Canvas Jacket",
+      "lu": "https://www.norseprojects.com/products/raabjerg-canvas-jacket-black",
+      "hp": "Reilstad Donegal Wool Balmacaan Raglan Coat",
+      "hu": "https://www.norseprojects.com/products/reilstad-donegal-wool-balmacaan-raglan-coat-charcoal-melange",
+      "b": "range"
+    }
+  },
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.norseprojects.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

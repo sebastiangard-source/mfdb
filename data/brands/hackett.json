@@ -41,7 +41,16 @@
     "u": "https://www.hackett.com/intl/en/men/polos-shirts/?refine=c_product_type_bk%3DShort-sleeved%20polo%20shirts&refine=c_subbrand%3DHackett%20Heritage&sort=best-matches",
     "n": "verified — Jeremy Hackett, asked in an interview to name the one thing, said the logo polo. Heritage is the sub-brand that carries the oversized logo and lettering, so this is that polo. A fetch from here dropped the sub-brand refinement, which the site's scripts likely restore; worth confirming in a browser"
   },
-  "prices": [[83, 98], [140, 200], [140, 215], [215, 245], [350, 350], [215, 275], [515, 755], [170, 560]],
+  "prices": [
+    [45, 90, "GBP"],
+    [80, 200, "GBP"],
+    [90, 200, "GBP"],
+    [140, 230, "GBP"],
+    [200, 320, "GBP"],
+    [110, 350, "GBP"],
+    [200, 1100, "GBP"],
+    [190, 370, "GBP"]
+  ],
   "price_checked": true,
   "shoelink": {
     "t": "shoes",
@@ -103,5 +112,71 @@
     "Sweater": "https://www.hackett.com/intl/en/men/jumpers-knitwear-cardigans/",
     "Outerwear": "https://www.hackett.com/intl/en/men/coats-jackets/",
     "Shoes": "https://www.hackett.com/intl/en/men/shoes-collection/"
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Classic Fit Branded Shield Graphic T-Shirt",
+      "lu": "https://www.hackett.com/uk/en_gb/pd/classic-fit-branded-shield-graphic-t-shirt-HM5000148.html",
+      "hp": "Classic Fit Pima Cotton T-Shirt (Nº14 Savile Row)",
+      "hu": "https://www.hackett.com/uk/en_gb/pd/classic-fit-pima-cotton-t-shirt-HM5000070.html",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Classic Fit Short Sleeve Branded Polo",
+      "lu": "https://www.hackett.com/uk/en_gb/pd/classic-fit-short-sleeve-branded-polo-HM5600241.html",
+      "hp": "Classic Fit Short Sleeve Silk Blend Polo (Nº14 Savile Row)",
+      "hu": "https://www.hackett.com/uk/en_gb/pd/classic-fit-short-sleeve-silk-blend-polo-HM5600180.html",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Tailored Fit City Solid End-on-End Shirt",
+      "lu": "https://www.hackett.com/uk/en_gb/pd/tailored-fit-city-solid-end-on-end-shirt-HM3010859.html",
+      "hp": "Tailored Fit Bengal Shirt - Made in Europe (Nº14 Savile Row)",
+      "hu": "https://www.hackett.com/uk/en_gb/pd/tailored-fit-bengal-shirt---made-in-europe-HM3010790.html",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Classic Fit Vintage Wash Denim",
+      "lu": "https://www.hackett.com/uk/en_gb/pd/classic-fit-vintage-wash-denim-HM212696.html",
+      "hp": "Regular Fit Mid Wash 5 Pocket Denim (Nº14 Savile Row)",
+      "hu": "https://www.hackett.com/uk/en_gb/pd/regular-fit-mid-wash-5-pocket-denim-HM2100162.html",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Tapered Fit Formal Stretch Cotton Trouser",
+      "lu": "https://www.hackett.com/uk/en_gb/pd/tapered-fit-formal-stretch-cotton-trouser-HM4700086.html",
+      "hp": "Wool Formal Trouser - Woven in Italy (Nº14 Savile Row)",
+      "hu": "https://www.hackett.com/uk/en_gb/pd/wool-formal-trouser-woven-in-italy-HM4700067.html",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Cotton Crew-Neck Jumper",
+      "lu": "https://www.hackett.com/uk/en_gb/pd/cotton-crew-neck-jumper-HM7000116.html",
+      "hp": "Cashmere Crew Neck Jumper (Nº14 Savile Row)",
+      "hu": "https://www.hackett.com/uk/en_gb/pd/cashmere-crew-neck-jumper-HM7000232.html",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Branded Blouson Jacket",
+      "lu": "https://www.hackett.com/uk/en_gb/pd/branded-blouson-jacket-HM4000193.html",
+      "hp": "Lamb Leather Blouson Jacket (Nº14 Savile Row)",
+      "hu": "https://www.hackett.com/uk/en_gb/pd/lamb-leather-blouson-jacket-HM4000179.html",
+      "b": "pair"
+    },
+    "Shoes": {
+      "lp": "Martins Suede Loafers",
+      "lu": "https://www.hackett.com/uk/en_gb/pd/martins-suede-loafers-HMS200104.html",
+      "hp": "Leather Loafer",
+      "hu": "https://www.hackett.com/uk/en_gb/pd/leather-loafer-HMS21340.html",
+      "b": "pair"
+    }
+  },
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.hackett.com/uk/en_gb/",
+    "currency": "GBP",
+    "status": "read",
+    "sublines": "Hackett London, Hackett Sport, Hackett Heritage, Nº14 Savile Row"
   }
 }

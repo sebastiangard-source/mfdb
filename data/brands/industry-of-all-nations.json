@@ -36,7 +36,7 @@
     "u": "https://industryofallnations.com/search?q=Undyed%20Clean%20Crew%20tee%20men",
     "n": "verified ✓"
   },
-  "prices": [[45, 60], [70, 90], [100, 130], [120, 160], [100, 140], [300, 380], [180, 595], [345, 345]],
+  "prices": [[55, 80], [85, 115], [170, 195], [165, 195], [190, 195], [280, 360], [160, 745], [345, 345]],
   "notes": {
     "cotton": "undyed organic cotton — the fiber tells the truth",
     "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional"
@@ -87,5 +87,71 @@
     "nc": ["Pants & Shorts", "T-Shirts", "Sweats"],
     "st": "complete"
   },
-  "price_range_only": ["Outerwear"]
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants", "Outerwear"],
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Clean Crewneck T-shirt",
+      "lu": "https://industryofallnations.com/products/organic-cotton-crewneck-tshirt",
+      "hp": "New T-shirt",
+      "hu": "https://industryofallnations.com/products/new-heavyweight-t-shirt",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Standard Polo",
+      "lu": "https://industryofallnations.com/products/standard-polo",
+      "hp": "Sport Polo Shirt - LS",
+      "hu": "https://industryofallnations.com/products/sport-polo-shirt-ls-1",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Classic Madras Shirt - LS - Lightweight",
+      "lu": "https://industryofallnations.com/products/madras-long-sleeve-button-down-shirt",
+      "hp": "Pondi Shirt",
+      "hu": "https://industryofallnations.com/products/classic-button-down-oxford-shirt",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Classic Jeans",
+      "lu": "https://industryofallnations.com/products/classic-jeans",
+      "hp": "New Jeans",
+      "hu": "https://industryofallnations.com/products/new-jeans",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Chino Pants",
+      "lu": "https://industryofallnations.com/products/organic-cotton-twill-chino-pants",
+      "hp": "Chinote Pants",
+      "hu": "https://industryofallnations.com/products/chinote-plus",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Alpaca Crewneck Sweater",
+      "lu": "https://industryofallnations.com/products/alpaca-crewneck-sweater",
+      "hp": "Alpaca Raglan Sweater",
+      "hu": "https://industryofallnations.com/products/alpaca-raglan-sweater",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Ponya Jacket",
+      "lu": "https://industryofallnations.com/products/ponya-jacket",
+      "hp": "Andes Coat",
+      "hu": "https://industryofallnations.com/products/andes-alpaca-wool-coat",
+      "b": "range"
+    },
+    "Shoes": {
+      "lp": "Men's Porteños Loafer",
+      "lu": "https://industryofallnations.com/products/portenos-saddle-loafers",
+      "hp": "Men's Porteños Loafer",
+      "hu": "https://industryofallnations.com/products/portenos-saddle-loafers",
+      "b": "single"
+    }
+  },
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://industryofallnations.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

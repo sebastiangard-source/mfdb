@@ -45,14 +45,14 @@
     "n": "verified — direct product on us.kiton.com; if the SKU sells out, fall back to /collections/men"
   },
   "prices": [
-    [393, 1921],
-    [613, 2048],
-    [730, 1995],
-    [902, 1921],
-    [1295, 2935],
+    [540, 1440],
+    [1100, 2670],
+    [750, 3100],
+    [1100, 1710],
+    [1230, 2630],
     [1080, 5170],
     [960, 15810],
-    [1260, 2530]
+    [1300, 2530]
   ],
   "shoelink": {
     "t": "loafer",
@@ -126,5 +126,73 @@
     "Sweater": "https://us.kiton.com/collections/men-knitwear",
     "Outerwear": "https://us.kiton.com/collections/men-coat-jackets",
     "Shoes": "https://us.kiton.com/collections/men-shoes"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "MAURO - T-SHIRT COTTON",
+      "lu": "https://us.kiton.com/products/mauro-t-shirt-cotton-umcmauh0843703",
+      "hp": "JERSEY ROUNDNECK COTTON",
+      "hu": "https://us.kiton.com/products/jersey-roundneck-cotton-uk1442e2340c",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "PURE COTTON OPTICAL WHITE POLO SHIRT (short sleeve)",
+      "lu": "https://us.kiton.com/products/polo-shirt-cotton-umk0442a0134",
+      "hp": "COTTON AND SILK KNIT SHORT SLEEVED POLO SHIRT IN WHITE",
+      "hu": "https://us.kiton.com/products/polo-shirt-cotton-umk100601",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "CASUAL DENIM SHIRT",
+      "lu": "https://us.kiton.com/products/shirt-cotton-ucch0903903",
+      "hp": "LIGHT-PINK COTTON AND CASHMERE FLANNEL SHIRT",
+      "hu": "https://us.kiton.com/products/shirt-cotton-ucch0947002",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "TROUSERS COTTON (slim five-pocket Kurabo denim jeans, FW2122)",
+      "lu": "https://us.kiton.com/products/trousers-cotton-upnjsmj0329a03",
+      "hp": "RELAX DENIM JEANS",
+      "hu": "https://us.kiton.com/products/trousers-cotton-upr005rk0624f08",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "CASUAL COTTON TROUSERS (semi-classic, lyocell/cotton)",
+      "lu": "https://us.kiton.com/products/trousers-lyocell-ufppek0108f15",
+      "hp": "BLACK 150S WOOL TROUSERS WITH TAPERED FIT",
+      "hu": "https://us.kiton.com/products/trousers-wool-upn10k0127021",
+      "b": "pair"
+    },
+    "Sweater": {
+      "lp": "ICON COTTON SWEATER (crew neck)",
+      "lu": "https://us.kiton.com/products/sweater-roundneck-cotton-umkxx31k315",
+      "hp": "PINE GREEN CABLE-KNIT CASHMERE CREWNECK SWEATER",
+      "hu": "https://us.kiton.com/products/sweater-roundneck-cashmere-umk0519k325",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "PURE LINEN JACKET WITH ZIP IN CORNFLOWER BLUE (Pahoa blouson)",
+      "lu": "https://us.kiton.com/products/pahoa-blouson-linen-ugo001h0969012",
+      "hp": "LAMBSKIN IVORY BOMBER JACKET",
+      "hu": "https://us.kiton.com/products/blouson-lambskin-uw2361av0814h04",
+      "b": "pair"
+    },
+    "Shoes": {
+      "lp": "MOKA CALFSKIN LOAFER",
+      "lu": "https://us.kiton.com/products/moka-loafer-calfskin-ussa075n0097709",
+      "hp": "BLACK SUEDE LOAFERS",
+      "hu": "https://us.kiton.com/products/loafer-calfskin-ussa502n0149001",
+      "b": "pair"
+    }
+  },
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://us.kiton.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "KNT"
+  },
+  "price_checked": true,
+  "shop": "https://us.kiton.com/search?q="
 }

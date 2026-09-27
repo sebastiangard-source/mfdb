@@ -40,7 +40,16 @@
     "u": "https://www.bottegaveneta.com/en-us/search?q=Intrecciato%20card%20case",
     "n": "verified ✓"
   },
-  "prices": [[550, 950], [800, 1150], [1300, 1850], [900, 1250], [1100, 1600], "?", "?", "?"],
+  "prices": [
+    [500, 1300],
+    [800, 2200],
+    [1100, 3400],
+    [1150, 1300],
+    [1250, 3000],
+    [2150, 2500],
+    [1700, 13000],
+    [1050, 1750]
+  ],
   "shoelink": {
     "t": "loafer",
     "u": "https://www.bottegaveneta.com/en-us/search?q=loafer"
@@ -126,5 +135,72 @@
     "sc": ["swimwear"],
     "nc": ["jackets", "trousers-and-shorts", "shirts"],
     "st": "complete"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Cotton Jersey T-Shirt (White)",
+      "lu": "https://www.bottegaveneta.com/en-us/cotton-jersey-t-shirt-white-A0054LV6GI09000.html",
+      "hp": "Cotton Crochet Knit T-Shirt",
+      "hu": "https://www.bottegaveneta.com/en-us/cotton-crochet-knit-t-shirt-shrub-785359V5SP03293.html",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Fine Cotton Jersey Polo",
+      "lu": "https://www.bottegaveneta.com/en-us/fine-cotton-jersey-polo-pale-meringue-830926V5DJ09247.html",
+      "hp": "Silk Bouclé Polo",
+      "hu": "https://www.bottegaveneta.com/en-us/-silk-boucle-polo-night-residue-871403V6MD04204.html",
+      "b": "pair"
+    },
+    "Dress shirt": {
+      "lp": "Cotton Poplin Shirt (Blue Shirt)",
+      "lu": "https://www.bottegaveneta.com/en-us/cotton-poplin-shirt-blue-shirt-871218V6CV04105.html",
+      "hp": "Wool Grain De Poudre Shirt",
+      "hu": "https://www.bottegaveneta.com/en-us/wool-grain-de-poudre-shirt-double-black-874800V66I01010.html",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Indigo Straight Jeans",
+      "lu": "https://www.bottegaveneta.com/en-us/indigo-straight-jeans-indigo-837474V5SN04245.html",
+      "hp": "Atlantic Blue Wide Leg Jeans",
+      "hu": "https://www.bottegaveneta.com/en-us/atlantic-blue-wide-leg-jeans-mid-blue-859749V6SL04300.html",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Fine Wool Pants",
+      "lu": "https://www.bottegaveneta.com/en-us/fine-wool-pants-charcoal-melange-836967V4XP01307.html",
+      "hp": "Wool and Mohair Pants",
+      "hu": "https://www.bottegaveneta.com/en-us/wool-and-mohair-pants-desert-gray-melange-870467V6O202527.html",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Cashmere Jumper (crew neck, mini Intrecciato)",
+      "lu": "https://www.bottegaveneta.com/en-us/cashmere-jumper-navy-811456V4WD04121.html",
+      "hp": "Cashmere Sweater (Camo)",
+      "hu": "https://www.bottegaveneta.com/en-us/cashmere-sweater-camo-838108V2MM03749.html",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Raw Indigo Denim Jacket",
+      "lu": "https://www.bottegaveneta.com/en-us/raw-indigo-denim-jacket-indigo-831604V5MG04245.html",
+      "hp": "Intrecciato Leather Hooded Blouson",
+      "hu": "https://www.bottegaveneta.com/en-us/intrecciato-leather-hooded-blouson-dark-navy-873908V6Q404030.html",
+      "b": "range"
+    },
+    "Shoes": {
+      "lp": "Dawson Loafer",
+      "lu": "https://www.bottegaveneta.com/en-us/dawson-loafer-black-876078V3OA01000.html",
+      "hp": "James Loafer",
+      "hu": "https://www.bottegaveneta.com/en-us/james-loafer-black-855165VBPB01000.html",
+      "b": "pair"
+    }
+  },
+  "price_range_only": ["T-shirt", "Dress shirt", "Jeans", "Dress pants", "Outerwear"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.bottegaveneta.com/en-us/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

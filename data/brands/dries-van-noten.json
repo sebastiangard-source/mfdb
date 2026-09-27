@@ -39,14 +39,14 @@
     "n": "verified — direct product page, $325, five colourways. Earflaps, braided ties, the jacquard worked in wool. Seen in the Paris window: the house's pattern habit at its smallest scale, and the one piece where the colour is the whole argument rather than a garment carrying it"
   },
   "prices": [
-    [250, 375],
-    [695, 850],
-    [490, 875],
-    [495, 750],
-    [700, 1195],
-    [780, 975],
-    [2270, 3550],
-    [1060, 1180]
+    [320, 465, "USD_landed"],
+    [745, 745, "USD_landed"],
+    [515, 845, "USD_landed"],
+    [570, 1065, "USD_landed"],
+    [720, 1160, "USD_landed"],
+    [780, 975, "USD_landed"],
+    [2270, 3550, "USD_landed"],
+    [1060, 1180, "USD_landed"]
   ],
   "doors": {
     "c": "full",
@@ -88,7 +88,7 @@
     "nc": ["Pants", "T-shirts and Sweatshirts", "Shirts"],
     "st": "complete"
   },
-  "price_range_only": ["Sweater"],
+  "price_range_only": ["T-shirt", "Dress shirt", "Jeans", "Dress pants", "Outerwear"],
   "garment_links": {
     "T-shirt": "https://www.driesvannoten.com/en-us/collections/men-t-shirts-sweatshirts",
     "Polo": "https://www.driesvannoten.com/en-us/collections/men-t-shirts-sweatshirts",
@@ -101,5 +101,72 @@
   },
   "notes": {
     "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Regular fit cotton tee",
+      "lu": "https://www.driesvannoten.com/en-us/products/262-021100-4600",
+      "hp": "Striped cotton tee (short sleeves)",
+      "hu": "https://www.driesvannoten.com/en-us/products/262-021119-4605",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Merino wool polo shirt (short sleeves)",
+      "lu": "https://www.driesvannoten.com/en-us/products/261-021200-3700",
+      "hp": "Merino wool polo shirt (short sleeves)",
+      "hu": "https://www.driesvannoten.com/en-us/products/261-021200-3700",
+      "b": "single"
+    },
+    "Dress shirt": {
+      "lp": "Classic cotton shirt",
+      "lu": "https://www.driesvannoten.com/en-us/products/261-020713-3314",
+      "hp": "Classic cotton shirt",
+      "hu": "https://www.driesvannoten.com/en-us/products/262-020708-4109",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Loose fit jeans",
+      "lu": "https://www.driesvannoten.com/en-us/products/261-020942-3384",
+      "hp": "Loose fit jeans",
+      "hu": "https://www.driesvannoten.com/en-us/products/262-020942-4412",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Cuffed pants (cotton wool)",
+      "lu": "https://www.driesvannoten.com/en-us/products/261-020904-3302",
+      "hp": "Straight wool pants (serge wool twill)",
+      "hu": "https://www.driesvannoten.com/en-us/products/252-020900-2246",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Merino wool sweater (crew neck, 100% merino)",
+      "lu": "https://www.driesvannoten.com/en-us/products/252-021244-2700",
+      "hp": "Jacquard wool sweater (crew neck, 55% alpaca)",
+      "hu": "https://www.driesvannoten.com/en-us/products/262-021236-4755",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Overdyed cotton jacket",
+      "lu": "https://www.driesvannoten.com/en-us/products/262-020508-4101",
+      "hp": "Jacquard mac",
+      "hu": "https://www.driesvannoten.com/en-us/products/262-020207-4182",
+      "b": "range"
+    },
+    "Shoes": {
+      "lp": "Leather loafers",
+      "lu": "https://www.driesvannoten.com/en-us/products/261-021736-0107",
+      "hp": "Suede loafers",
+      "hu": "https://www.driesvannoten.com/en-us/products/262-021719-0106",
+      "b": "pair"
+    }
+  },
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.driesvannoten.com/en-us",
+    "currency": "USD_landed",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true,
+  "shop": "https://www.driesvannoten.com/en-us/search?q="
 }

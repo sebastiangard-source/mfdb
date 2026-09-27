@@ -44,7 +44,7 @@
     "u": "https://www.aimeleondore.com/search?q=Uniform%20cap",
     "n": "verified ✓"
   },
-  "prices": [[85, 150], [225, 295], [175, 275], [250, 280], [160, 260], [300, 400], [300, 1300], [395, 500]],
+  "prices": [[85, 130], [250, 450], [250, 300], [300, 300], [355, 395], [300, 550], [300, 1300], [395, 500]],
   "shoelink": {
     "t": "shoes",
     "u": "https://www.aimeleondore.com/search?q=shoes"
@@ -96,12 +96,78 @@
     "nc": ["Tees", "Sweatshirts", "Sweaters"],
     "st": "complete"
   },
-  "price_range_only": ["Sweater", "Outerwear"],
+  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Dress pants", "Outerwear"],
   "garment_links": {
     "T-shirt": "https://www.aimeleondore.com/collections/tees",
     "Dress shirt": "https://www.aimeleondore.com/collections/shirting",
     "Dress pants": "https://www.aimeleondore.com/collections/pants",
     "Sweater": "https://www.aimeleondore.com/collections/sweaters",
     "Outerwear": "https://www.aimeleondore.com/collections/outerwear"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Micro Logo Tee",
+      "lu": "https://www.aimeleondore.com/products/micro-logo-tee-17",
+      "hp": "Yarn Dyed Striped Tee",
+      "hu": "https://www.aimeleondore.com/products/yarn-dyed-striped-tee-1",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "Crest Rugby",
+      "lu": "https://www.aimeleondore.com/products/crest-rugby",
+      "hp": "Merino Wool Knit Cycling Polo",
+      "hu": "https://www.aimeleondore.com/products/merino-wool-knit-cycling-polo",
+      "b": "range"
+    },
+    "Dress shirt": {
+      "lp": "Crest Oxford Shirt",
+      "lu": "https://www.aimeleondore.com/products/crest-oxford-shirt-9",
+      "hp": "Bayard Chambray Shirt",
+      "hu": "https://www.aimeleondore.com/products/bayard-chambray-shirt",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "ALD Straight Fit Denim",
+      "lu": "https://www.aimeleondore.com/products/relaxed-fit-5-pocket-denim-pant-4",
+      "hp": "ALD Straight Fit Denim",
+      "hu": "https://www.aimeleondore.com/products/relaxed-fit-5-pocket-denim-pant-4",
+      "b": "single"
+    },
+    "Dress pants": {
+      "lp": "Windowpane Elasticated Waist Suit Trouser",
+      "lu": "https://www.aimeleondore.com/products/windowpane-elasticated-waist-suit-trouser",
+      "hp": "Tropical Wool Suit Trouser",
+      "hu": "https://www.aimeleondore.com/products/tropical-wool-suit-trouser-5",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Crest Raglan Sweater",
+      "lu": "https://www.aimeleondore.com/products/crest-raglan-sweater-1",
+      "hp": "Pavilion Cashmere Crewneck Sweatshirt",
+      "hu": "https://www.aimeleondore.com/products/pavilion-cashmere-crewneck-sweatshirt",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Crest Casual Jacket",
+      "lu": "https://www.aimeleondore.com/products/crest-casual-jacket-7",
+      "hp": "Suede Cafe Racer Jacket",
+      "hu": "https://www.aimeleondore.com/products/suede-cafe-racer-jacket",
+      "b": "range"
+    },
+    "Shoes": {
+      "lp": "Queens Crest Loafer",
+      "lu": "https://www.aimeleondore.com/products/queens-crest-loafer-4",
+      "hp": "Croc-Embossed Crest Salóni Loafer",
+      "hu": "https://www.aimeleondore.com/products/croc-embossed-crest-saloni-loafer",
+      "b": "pair"
+    }
+  },
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.aimeleondore.com/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }

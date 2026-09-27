@@ -39,7 +39,7 @@
     "u": "https://www.paulandshark.com/en_US/typhoon-world/",
     "n": "brand calls it 'the iconic Typhoon 20000'; collection page verified ✓. Supersedes the Eclisse blouson link — Eclisse was a verified URL, Typhoon is the signature"
   },
-  "prices": [[95, 165], [265, 775], [150, 350], [180, 280], [180, 300], [350, 795], [745, 1595], "?"],
+  "prices": [[170, 695], [200, 795], [245, 555], [330, 345], [355, 895], [350, 795], [745, 3165], [390, 690]],
   "notes": {
     "ital": "The Dini family at Masnago near Varese, marine outfitting since 1975, built on a yarn mill the family already owned. Italian in origin, nautical in register, and the two rarely separate.",
     "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional"
@@ -84,7 +84,7 @@
     "nc": ["knitwear", "shirts", "outerwear"],
     "st": "complete"
   },
-  "price_range_only": ["Shoes"],
+  "price_range_only": ["Dress shirt", "Jeans", "Dress pants", "Shoes"],
   "garment_links": {
     "T-shirt": "https://www.paulandshark.com/en_US/men/fall-winter-collection/t-shirt/",
     "Polo": "https://www.paulandshark.com/en_US/men/fall-winter-collection/polo-shirts/",
@@ -93,5 +93,72 @@
     "Dress pants": "https://www.paulandshark.com/en_US/men/fall-winter-collection/jeans-and-trousers/",
     "Sweater": "https://www.paulandshark.com/en_US/men/fall-winter-collection/knitwear/",
     "Outerwear": "https://www.paulandshark.com/en_US/men/fall-winter-collection/outerwear/"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "Cotton jersey T-shirt",
+      "lu": "https://www.paulandshark.com/en_US/cotton-jersey-t-shirt/99311005-010.html",
+      "hp": "Jade T-Shirt (55% silk, 45% cotton)",
+      "hu": "https://www.paulandshark.com/en_US/jade-t-shirt/16311039-239.html",
+      "b": "pair"
+    },
+    "Polo": {
+      "lp": "Double Piqué cotton polo",
+      "lu": "https://www.paulandshark.com/en_US/double-pique-cotton-polo/99311000-013.html",
+      "hp": "Cashmere and silk polo shirt (70% cashmere, 30% silk)",
+      "hu": "https://www.paulandshark.com/en_US/cashmere-and-silk-polo-shirt/99311038-050.html",
+      "b": "pair"
+    },
+    "Dress shirt": {
+      "lp": "Cotton Poplin Shirt",
+      "lu": "https://www.paulandshark.com/en_US/cotton-poplin-shirt/16313135CF-363.html",
+      "hp": "Cotton and cashmere shirt (85% cotton, 15% cashmere)",
+      "hu": "https://www.paulandshark.com/en_US/cotton-and-cashmere-shirt/16313020CF-071.html",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "Varese Jeans in Cotton Bull Denim",
+      "lu": "https://www.paulandshark.com/en_US/varese-jeans-in-cotton-bull-denim/16314174-030.html",
+      "hp": "Varese Comfort Rivet Jeans",
+      "hu": "https://www.paulandshark.com/en_US/varese-comfort-rivet-jeans/15314120-J03.html",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "Bellagio trousers in Dynamic fabric (nylon/elastane)",
+      "lu": "https://www.paulandshark.com/en_US/bellagio-trousers-in-dynamic-fabric/14314096-050.html",
+      "hp": "Lucca trousers in Jersely® (67% virgin wool, 20% silk, 10% linen, 3% elastane)",
+      "hu": "https://www.paulandshark.com/en_US/lucca-trousers-in-jersely/26414073-050.html",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "Wool crew-neck sweater, garment dyed",
+      "lu": "https://www.paulandshark.com/en_US/wool-crew%E2%80%91neck-sweater%2C-garment-dyed/99311047-050.html",
+      "hp": "Cashmere crew-neck sweater (100% cashmere)",
+      "hu": "https://www.paulandshark.com/en_US/cashmere-crew%E2%80%91neck-sweater/99311039-050.html",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "Ultralight microfiber blouson",
+      "lu": "https://www.paulandshark.com/en_US/ultralight-microfiber-blouson/16312613-306.html",
+      "hp": "Cashmere Blouson with Suede Details (100% cashmere)",
+      "hu": "https://www.paulandshark.com/en_US/cashmere-blouson-with-suede-details/16312346-090.html",
+      "b": "pair"
+    },
+    "Shoes": {
+      "lp": "Knit and Leather Sneakers",
+      "lu": "https://www.paulandshark.com/en_US/knit-and-leather-sneakers/15318001-28F.html",
+      "hp": "Leather lace-up boots",
+      "hu": "https://www.paulandshark.com/en_US/leather-lace-up-boots/16318011-094.html",
+      "b": "range"
+    }
+  },
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.paulandshark.com/en_US/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true,
+  "shop": "https://www.paulandshark.com/en_US/search?q="
 }

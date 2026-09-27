@@ -42,7 +42,16 @@
     "u": "https://www.celine.com/en-us/search?q=Teddy%20jacket",
     "n": "verified ✓"
   },
-  "prices": [[570, 700], null, [830, 1800], [990, 1550], [990, 1150], [1050, 1950], [1500, 8700], [950, 1300]],
+  "prices": [
+    [570, 990],
+    [610, 1400],
+    [790, 1400],
+    [990, 1400],
+    [1150, 1600],
+    [1050, 1950],
+    [1500, 6300],
+    [950, 1300]
+  ],
   "shoelink": {
     "t": "shoes",
     "u": "https://www.celine.com/en-us/search?q=shoes"
@@ -108,5 +117,72 @@
     "sc": [],
     "nc": ["t-shirts and tops", "denim", "shirts"],
     "st": "complete"
-  }
+  },
+  "price_evidence": {
+    "T-shirt": {
+      "lp": "t-shirt IN cotton jersey",
+      "lu": "https://www.celine.com/en-us/men/ready-to-wear/t-shirts-and-sweatshirts/t-shirt-in-cotton-jersey-RX0HU1242.38AW.html",
+      "hp": "double layered t-shirt IN FINE COTTON JERSEY",
+      "hu": "https://www.celine.com/en-us/men/ready-to-wear/t-shirts-and-sweatshirts/double-layered-t-shirt-in-fine-cotton-jersey-RX0DT0F17.01OB.html",
+      "b": "range"
+    },
+    "Polo": {
+      "lp": "polo shirt IN PIQUE COTTON JERSEY",
+      "lu": "https://www.celine.com/en-us/men/ready-to-wear/t-shirts-and-sweatshirts/polo-shirt-in-pique-cotton-jersey-RX0LF2L55.GHV2.html",
+      "hp": "POLO SWEATER IN FINE SILK AND COTTON",
+      "hu": "https://www.celine.com/en-us/men/ready-to-wear/t-shirts-and-sweatshirts/polo-sweater-in-fine-silk-and-cotton-RY0Y53B59.38NO.html",
+      "b": "pair"
+    },
+    "Dress shirt": {
+      "lp": "shirt IN COTTON POPLIN",
+      "lu": "https://www.celine.com/en-us/men/ready-to-wear/shirts/shirt-in-cotton-poplin-RC0AZ0T01.01BC.html",
+      "hp": "shirt IN WOOL",
+      "hu": "https://www.celine.com/en-us/men/ready-to-wear/shirts/shirt-in-wool-RC0BW0Y81.38NO.html",
+      "b": "range"
+    },
+    "Jeans": {
+      "lp": "skinny jeans in vintage pure black denim",
+      "lu": "https://www.celine.com/en-us/men/ready-to-wear/denim/skinny-jeans-in-vintage-pure-black-denim-2N354082T.38TK.html",
+      "hp": "WIDE LEG JEANS 001 IN cotton denim",
+      "hu": "https://www.celine.com/en-us/men/ready-to-wear/denim/wide-leg-jeans-001-in-cotton-denim-RP0H8930F.GDO5.html",
+      "b": "range"
+    },
+    "Dress pants": {
+      "lp": "classic trousers IN wool gabardine",
+      "lu": "https://www.celine.com/en-us/men/ready-to-wear/pants-and-shorts/classic-trousers-in-wool-gabardine-RP0VD650D.38NO.html",
+      "hp": "docks long trousers IN wool and mohair gabardine",
+      "hu": "https://www.celine.com/en-us/men/ready-to-wear/pants-and-shorts/docks-long-trousers-in-wool-and-mohair-gabardine-RP0D6701T.38NO.html",
+      "b": "range"
+    },
+    "Sweater": {
+      "lp": "crewneck sweater IN fine wool",
+      "lu": "https://www.celine.com/en-us/men/ready-to-wear/knitwear/crewneck-sweater-in-fine-wool-RY05K3G77.18CC.html",
+      "hp": "crewneck sweater IN FINE CASHMERE",
+      "hu": "https://www.celine.com/en-us/men/ready-to-wear/knitwear/crewneck-sweater-in-fine-cashmere-RY0X14G47.09GM.html",
+      "b": "pair"
+    },
+    "Outerwear": {
+      "lp": "teddy jacket IN cotton fleece",
+      "lu": "https://www.celine.com/en-us/men/ready-to-wear/suiting/teddy-jacket-in-cotton-fleece-RV17R1233.38NO.html",
+      "hp": "teddy jacket IN calfskin",
+      "hu": "https://www.celine.com/en-us/men/ready-to-wear/suiting/teddy-jacket-in-calfskin-RV14D599E.19CO.html",
+      "b": "pair"
+    },
+    "Shoes": {
+      "lp": "LOAFER IN SUEDE",
+      "lu": "https://www.celine.com/en-us/men/shoes/loafers/loafer-in-suede-364707029C.19DK.html",
+      "hp": "MILES LOAFER IN SUPPLE CALFSKIN",
+      "hu": "https://www.celine.com/en-us/men/shoes/loafers/miles-loafer-in-supple-calfskin-365875523C.38NO.html",
+      "b": "pair"
+    }
+  },
+  "price_range_only": ["T-shirt", "Dress shirt", "Jeans", "Dress pants"],
+  "price_read": {
+    "date": "2026-09-23",
+    "store": "https://www.celine.com/en-us/",
+    "currency": "USD",
+    "status": "read",
+    "sublines": "-"
+  },
+  "price_checked": true
 }
