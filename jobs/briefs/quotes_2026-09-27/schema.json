@@ -1,0 +1,55 @@
+{
+  "not_checked": "NC",
+  "columns": [
+    {
+      "name": "brand",
+      "type": "key"
+    },
+    {
+      "name": "quote",
+      "type": "str",
+      "doc": "verbatim, 6 to 30 words, in the brand's or founder's own words; NONE if nothing quotable was found"
+    },
+    {
+      "name": "speaker",
+      "type": "str"
+    },
+    {
+      "name": "role",
+      "type": "enum",
+      "values": [
+        "founder",
+        "house",
+        "chief executive",
+        "creative director",
+        "other"
+      ]
+    },
+    {
+      "name": "where",
+      "type": "str",
+      "doc": "the page or publication"
+    },
+    {
+      "name": "url",
+      "type": "url"
+    },
+    {
+      "name": "date",
+      "type": "str"
+    },
+    {
+      "name": "on_file",
+      "type": "str",
+      "doc": "what the map already holds; leave"
+    },
+    {
+      "name": "source",
+      "type": "provenance"
+    },
+    {
+      "name": "note",
+      "type": "str"
+    }
+  ]
+}
