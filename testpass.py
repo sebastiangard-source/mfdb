@@ -107,7 +107,7 @@ with sync_playwright() as p:
     head('rail and masthead')
     ck('all dial groups open by default',
        all(pg.eval_on_selector_all('.grp','e=>e.map(x=>x.open)')))
-    ck('channel chips are gone', pg.eval_on_selector_all('.chip','e=>e.length')==0)
+    ck('channel chips are gone (the certification toggles are the only chips)', pg.eval_on_selector_all('.chip[data-ch]','e=>e.length')==0)
     # Removed once, restored 14 Sep: Golffice answers course-vs-office, not how much
     # golf runs the brand, and both questions were being asked.
     ck('golfiness dial is back, once, at the top of Culture',
@@ -1011,6 +1011,17 @@ with sync_playwright() as p:
     pg.goto(url+'#brand=Loro%20Piana'); pg.reload(); pg.wait_for_timeout(400)
     _b2 = pg.evaluate("(document.getElementById('detailBody').innerText.match(/\\b(fibre|colour|centre|programme)s?\\b/gi)||[]).slice(0,5)")
     ck('nor on a brand page', len(_b2)==0, _b2)
+
+    head('certification toggles')
+    pg.set_viewport_size({'width':1400,'height':1000}); pg.goto(url); pg.reload(); pg.wait_for_timeout(400)
+    pg.click('.chip[data-cert="bcorp"]'); pg.wait_for_timeout(400)
+    _bc = pg.evaluate("[...document.querySelectorAll('.brand')].filter(b=>!b.classList.contains('out')).map(b=>b.textContent.trim())")
+    ck('B Corp toggle selects exactly the certified brands', 'Patagonia' in _bc and 'Levi\'s' not in _bc and len(_bc)==pg.evaluate("Object.values(CERTS).filter(c=>c.bcorp).length"), _bc)
+    pg.click('.chip[data-cert="gots"]'); pg.wait_for_timeout(400)
+    ck('both toggles together is the intersection', pg.evaluate("[...document.querySelectorAll('.brand')].filter(b=>!b.classList.contains('out')).length")==2)
+    pg.click('.chip[data-cert="bcorp"]'); pg.click('.chip[data-cert="gots"]'); pg.wait_for_timeout(300)
+    pg.goto(url+'#brand=Patagonia'); pg.reload(); pg.wait_for_timeout(400)
+    ck('a certified brand\'s page names the certified entity', 'Patagonia' in (pg.evaluate("document.querySelector('#detailBody .dv-cert')?.textContent") or ''))
 
     head('prev / next')
     pg.set_viewport_size({'width':1400,'height':1000})

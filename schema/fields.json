@@ -803,6 +803,14 @@
       "type": "obj",
       "absent": "optional",
       "doc": "Secondhand listings for the brand's men's product: {vinted: {u, m, n}} — the Vinted men's URL, the method (brand filter | text search), and what the filter includes or excludes. From vinted_mens_search 27 Sep 2026."
+    },
+    "certs": {
+      "scope": "brand",
+      "const": "CERTS",
+      "path": "certs",
+      "type": "obj",
+      "absent": "optional",
+      "doc": "Third-party certifications held, as facts: {bcorp: {e: certified entity}, gots: {e: certified entity, n: caveat}}. A GOTS entry means the company holds a GOTS scope certificate (the right to sell certified product), not that the range is organic. From certs_bcorp_gots 27 Sep 2026."
     }
   },
   "price_slots": [

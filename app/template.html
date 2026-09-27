@@ -257,6 +257,10 @@
   #detailView .dv-pill{font-size:12px;padding:4px 11px;border-radius:12px;background:rgba(18,59,43,.07);color:var(--ink);text-decoration:none}
   #detailView .dv-pill:hover{background:rgba(18,59,43,.15)}
   #detailView .dv-pill i{font-style:normal;color:var(--ink-faint);margin-left:4px;font-size:11px}
+  #detailView .dv-cert{font-size:12px;padding:4px 11px;border-radius:12px;background:rgba(18,59,43,.07);color:var(--ink)}
+  #detailView .dv-cert i{font-style:normal;color:var(--ink-faint);margin-left:6px;font-size:11px}
+  .certrow{margin-top:14px}
+  .chip .cn{margin-left:6px;color:var(--ink-faint);font-size:10.5px}
   .gl-link{color:inherit;text-decoration:none;border-bottom:1px dotted var(--ink-faint)}
   .gl-link:hover{border-bottom-color:var(--ink);color:var(--ink)}
   .hc-head{display:flex;justify-content:space-between;align-items:center;gap:10px;margin:0 0 6px}
@@ -1421,6 +1425,11 @@
       <div class="dial dial-bi" data-attr="sail" data-bipolar="1" style="--ac:#3E6E8E"><span class="dl" data-tip="Two-way: which kind of boating. One end is under sail, kit for working a boat; the other is under power, a deck for guests. How big the boat is, is Boat." tabindex="0">sail ↔︎ power</span><input type="range" min="-3" max="3" value="0" step="1" aria-label="Sail to power"><span class="dv">off</span></div>
     </div>
   
+    <div class="chanrow certrow" aria-label="Certifications">
+      <span class="cl">Certified</span>
+      <button class="chip" type="button" data-cert="bcorp" aria-pressed="false" title="Certified B Corporations \u2014 the company, not the product. Eleven on the map.">B Corp <span class="cn"></span></button>
+      <button class="chip" type="button" data-cert="gots" aria-pressed="false" title="Holds a GOTS scope certificate \u2014 the right to sell certified organic textiles; says nothing about how much of the range is organic.">GOTS entity <span class="cn"></span></button>
+    </div>
     <button id="resultBar" type="button">Show results</button>
       <!-- Channel chips removed at v3.1. O was documented as reconciled against the door
      record and had drifted 16 brands out of step; I predates the stockist register
@@ -1499,6 +1508,7 @@ const STYLELINK = {
 /*@@REACH@@*/
 /*@@SHOES@@*/
 /*@@WHITET@@*/
+/*@@CERTS@@*/
 // Bruv/bruh. A two-way dial for which street a brand belongs to, not which
 // country it comes from — Stone Island is Italian and lives on English terraces,
 // Polo is American and was taken up by the Lo Lifes. Scored only where there is
@@ -1974,7 +1984,26 @@ function anySurvivor(){
   }
   return false;
 }
+// Certifications: on/off toggles. A brand passes only if it holds every one selected —
+// these are facts a third party verified, so there is no "not assessed" state to guard.
+let CERTSEL = new Set();
+function certPass(name){
+  if(!CERTSEL.size) return true;
+  const c = CERTS[name.trim()] || {};
+  for(const k of CERTSEL) if(!c[k]) return false;
+  return true;
+}
+document.querySelectorAll('.chip[data-cert]').forEach(btn=>{
+  btn.addEventListener('click', ()=>{
+    const k = btn.dataset.cert;
+    if(CERTSEL.has(k)) CERTSEL.delete(k); else CERTSEL.add(k);
+    btn.setAttribute('aria-pressed', CERTSEL.has(k) ? 'true' : 'false');
+    applyDials();
+  });
+  btn.querySelector('.cn').textContent = Object.values(CERTS).filter(c=>c[btn.dataset.cert]).length;
+});
 function chanPass(name){
+  if(!certPass(name)) return false;
   if(!CHANSEL.size) return true;
   const c = CHAN[name.trim()];
   if(!c) return false;
@@ -2240,6 +2269,13 @@ function navHTML(kind, n, label, key){
        + `</nav>`;
 }
 // Secondhand: one pill per marketplace, opening the brand's men's listings there.
+function certsHTML(name){
+  const c = CERTS[name.trim()]; if(!c) return "";
+  const bits = [];
+  if(c.bcorp) bits.push(`<span class="dv-cert" title="Certified B Corporation: ${esc(c.bcorp.e)}">B Corp<i>${esc(c.bcorp.e)}</i></span>`);
+  if(c.gots) bits.push(`<span class="dv-cert" title="GOTS scope certificate held by ${esc(c.gots.e)}${c.gots.n ? " \u2014 " + esc(c.gots.n) : ""}. A scope certificate is the right to sell certified organic textiles, not a measure of how much of the range is organic.">GOTS entity<i>${esc(c.gots.e)}${c.gots.n ? " \u00b7 " + esc(c.gots.n) : ""}</i></span>`);
+  return `<p class="dv-pills"><span class="dv-pills-lab">Certified</span>${bits.join("")}</p>`;
+}
 function resaleHTML(name){
   const r = RESALE[name.trim()]; if(!r) return "";
   const pills = [];
@@ -2266,6 +2302,7 @@ function renderDetail(name){
     ${p(WHY[name])}
     ${p(ORIGIN[name] ? "<b>Origin:</b> " + ORIGIN[name] : "")}
     ${p(OPVIEW[name] ? "<b>In their words:</b> " + OPVIEW[name] : "")}
+    ${certsHTML(name)}
     ${resaleHTML(name)}
     ${doorsHTML(name)}
     ${pricesHTML(name)}
