@@ -30,4 +30,4 @@ holds for 193 brands. Queue with the price_full return, which reads the tee anyw
 ## CR-5 · 28 Sep 2026 · Logo read
 The logo dial is seeded by hand (all 204). A read would count, per brand, the share of men's styles with a
 visible mark and the size class of the mark (none / small / large / all-over), from the brand's own product
-photos — the fibre pass method applied to branding. Queue with the white-tee read. State: logged.
+photos — the fibre pass method applied to branding. Queue AHEAD of the white-tee read (ruled 28 Sep): the logo dial is the one where a wrong score is most visible. State: logged.
