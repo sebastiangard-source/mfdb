@@ -1394,6 +1394,7 @@
     <div class="dial" data-attr="reach" style="--ac:#3E6B7A"><span class="dl" data-tip="How many stores of its own the brand runs in the US, outlets and concessions excluded — from none up to more than fifty. Counted, not judged." tabindex="0">own stores</span><input type="range" min="0" max="5" value="0" step="1" aria-label="Reach focus"><span class="dv">off</span></div>
     <div class="dial" data-attr="shoes" style="--ac:#6B4A34"><span class="dl" data-tip="How central footwear is to the brand — not how good the shoes are. From a shoemaker first down to no shoes at all." tabindex="0">shoes</span><input type="range" min="0" max="5" value="0" step="1" aria-label="Shoes focus"><span class="dv">off</span></div>
     <div class="dial" data-attr="whitet" style="--ac:#7A7A6E"><span class="dl" data-tip="How much the brand’s plain white T-shirt is a reason to shop it — from no plain tee at all up to a house built on one." tabindex="0">white tee</span><input type="range" min="0" max="5" value="0" step="1" aria-label="White tee"><span class="dv">off</span></div>
+    <div class="dial" data-attr="logo" style="--ac:#5C5C6E"><span class="dl" data-tip="How visibly the brand’s mark appears on the clothes — from no visible branding up to the logo being the design." tabindex="0">logo</span><input type="range" min="0" max="5" value="0" step="1" aria-label="Logo"><span class="dv">off</span></div>
     
     
     
@@ -1514,6 +1515,7 @@ const STYLELINK = {
 /*@@REACH@@*/
 /*@@SHOES@@*/
 /*@@WHITET@@*/
+/*@@LOGO@@*/
 /*@@CERTS@@*/
 /*@@SEASON@@*/
 // Bruv/bruh. A two-way dial for which street a brand belongs to, not which
@@ -1594,6 +1596,7 @@ function bandEl(key, cls){
     el.dataset.reach = REACH[name] ?? NOT_ASSESSED;
     el.dataset.shoes = SHOES[name] ?? NOT_ASSESSED;
     el.dataset.whitet = WHITET[name] ?? NOT_ASSESSED;
+    el.dataset.logo = LOGO[name] ?? NOT_ASSESSED;
     el.dataset.golffice = GOLFFICE[name] ?? NOT_ASSESSED;
     el.dataset.bruv = BRUV[name] ?? NOT_ASSESSED;
     el.dataset.sail = SAIL[name] ?? NOT_ASSESSED;
@@ -1628,7 +1631,7 @@ const FABTERM = {denim:"denim",cashmere:"cashmere",linen:"linen",cotton:"cotton"
 /*@@DOORS@@*/
 
   /*@@CITIES@@*/
-const DIMLABEL = {sail:"sail \u2194 power",bruv:"bruv \u2194 bruh",tech:"tech",comfort:"comfort",craft:"craft & heritage",style:"style",denim:"denim",cashmere:"cashmere",linen:"linen",cotton:"fine cotton",wool:"wool",synth:"synthetics",golf:"golfiness",status:"status",finbro:"finance bro",ivy:"ivy league",murica:"’murica",ital:"italianness",fren:"frenchness",street:"street",avant:"avant-garde",prep:"prep",weird:"weird",boat:"boat",racquet:"racquet",ski:"ski",scandi:"scandi man",briish:"bri\u2019ish",fuss:"ease of care",dur:"durability",forg:"fit flexibility",reach:"own stores",shoes:"shoes",whitet:"white tee",golffice:"golffice"};
+const DIMLABEL = {sail:"sail \u2194 power",bruv:"bruv \u2194 bruh",tech:"tech",comfort:"comfort",craft:"craft & heritage",style:"style",denim:"denim",cashmere:"cashmere",linen:"linen",cotton:"fine cotton",wool:"wool",synth:"synthetics",golf:"golfiness",status:"status",finbro:"finance bro",ivy:"ivy league",murica:"’murica",ital:"italianness",fren:"frenchness",street:"street",avant:"avant-garde",prep:"prep",weird:"weird",boat:"boat",racquet:"racquet",ski:"ski",scandi:"scandi man",briish:"bri\u2019ish",fuss:"ease of care",dur:"durability",forg:"fit flexibility",reach:"own stores",shoes:"shoes",whitet:"white tee",logo:"logo",golffice:"golffice"};
 
 // ---------- hover dossier popup ----------
 const hoverCard = document.createElement("div");
@@ -1675,6 +1678,7 @@ function traitLine(el){
     ["status", {5:"maximum signal", 4:"high signal"}],
     ["shoes",  {5:"a shoemaker first"}],
     ["whitet", {5:"built on the white tee"}],
+    ["logo",   {5:"the logo is the design", 1:"no visible branding"}],
     ["dur",    {5:"built to outlive you"}],
     ["forg",   {5:"fits a wide range of bodies"}],
     ["reach",  {5:"more than fifty stores of its own", 1:"no store of its own"}],
@@ -1727,6 +1731,7 @@ function traitLineFull(el){
     ["reach", {5:"more than fifty stores of its own", 4:"more than twenty stores of its own", 1:"no store of its own"}],
     ["shoes", {5:"a shoemaker first", 4:"a shoe you would know by name"}],
     ["whitet", {5:"built on the white tee", 4:"a white tee you would buy it for"}],
+    ["logo", {5:"the logo is the design", 4:"big or all-over logos", 1:"no visible branding"}],
     ["golffice", {"-3":"office only", 3:"course only", 0:"works in both"}],
   ];
   for(const [k, words] of R){
@@ -2088,7 +2093,7 @@ function applyDials(){
 /*@@RANGEONLY@@*/
 /*@@RESALE@@*/
 const REGLOOKUP = {sail:SAIL,bruv:BRUV,golf:GOLF,status:STATUS,finbro:FINBRO,ivy:IVY,murica:MURICA,
-                   ital:ITAL,fren:FREN,street:STREET,avant:AVANT,prep:PREP,weird:WEIRD,boat:BOAT,racquet:RACQUET,ski:SKI,scandi:SCANDI,briish:BRIISH,fuss:FUSS,dur:DUR,forg:FORG,reach:REACH,shoes:SHOES,whitet:WHITET,golffice:GOLFFICE};
+                   ital:ITAL,fren:FREN,street:STREET,avant:AVANT,prep:PREP,weird:WEIRD,boat:BOAT,racquet:RACQUET,ski:SKI,scandi:SCANDI,briish:BRIISH,fuss:FUSS,dur:DUR,forg:FORG,reach:REACH,shoes:SHOES,whitet:WHITET,logo:LOGO,golffice:GOLFFICE};
 const ATTRKEYS = ["tech","comfort","craft","style"];
 const REGKEYS  = Object.keys(REGLOOKUP);
 const detailView = document.getElementById("detailView");

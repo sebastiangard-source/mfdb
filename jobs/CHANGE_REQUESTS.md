@@ -26,3 +26,8 @@ The white-tee dial is seeded (169 brands at 2 on "sells a tee", 13 at 3, 8 at 4,
 settle steps 2-4 for each brand: is there a plain white tee, is it a named product with its own cloth
 or cut, is it a signature. Evidence is on the brand's own tee listing, which garment_links already
 holds for 193 brands. Queue with the price_full return, which reads the tee anyway. State: logged.
+
+## CR-5 · 28 Sep 2026 · Logo read
+The logo dial is seeded by hand (all 204). A read would count, per brand, the share of men's styles with a
+visible mark and the size class of the mark (none / small / large / all-over), from the brand's own product
+photos — the fibre pass method applied to branding. Queue with the white-tee read. State: logged.

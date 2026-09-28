@@ -821,6 +821,19 @@
       "type": "obj",
       "absent": "optional",
       "doc": "The brand's current-season lookbook or campaign: {l: season label as the brand states it, t: lookbook | campaign, u: URL, m: yes | unisex}. Only where found and verified; from lookbooks_fall2026 28 Sep 2026. Seasonal: re-read each season or remove."
+    },
+    "logo": {
+      "scope": "brand",
+      "const": "LOGO",
+      "path": "dials.logo",
+      "type": "int",
+      "range": [
+        1,
+        5
+      ],
+      "absent": "not_assessed",
+      "note": true,
+      "doc": "Logo: how visibly the brand's mark appears on the clothes. 1 = no visible branding; 2 = a small mark on some pieces; 3 = a mark on most pieces, small; 4 = large or all-over on a good share; 5 = the logo is the design. Seeded 28 Sep 2026, provisional until read (share of styles with a visible mark)."
     }
   },
   "price_slots": [
