@@ -812,6 +812,14 @@
       "type": "obj",
       "absent": "optional",
       "doc": "Third-party certifications held, as facts: {bcorp: {e: certified entity}, gots: {e: certified entity, n: caveat}}. A GOTS entry means the company holds a GOTS scope certificate (the right to sell certified product), not that the range is organic. From certs_bcorp_gots 27 Sep 2026."
+    },
+    "season": {
+      "scope": "brand",
+      "const": "SEASON",
+      "path": "season",
+      "type": "obj",
+      "absent": "optional",
+      "doc": "The brand's current-season lookbook or campaign: {l: season label as the brand states it, t: lookbook | campaign, u: URL, m: yes | unisex}. Only where found and verified; from lookbooks_fall2026 28 Sep 2026. Seasonal: re-read each season or remove."
     }
   },
   "price_slots": [

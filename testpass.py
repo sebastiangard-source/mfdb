@@ -1030,6 +1030,13 @@ with sync_playwright() as p:
     ck('every origin is a sentence with a place or a date, or says the facts are unpublished', all(any(ch.isdigit() for ch in o) or ' in ' in o or 'not published' in o for o in pg.evaluate("Object.values(ORIGIN)")))
     ck('in-their-words is only ever a quotation', pg.evaluate("Object.values(OPVIEW).every(v=>!v || /^[\u201c\"]/.test(v.trim()))"))
 
+    head('this season')
+    pg.set_viewport_size({'width':1400,'height':1000})
+    _sb = pg.evaluate("Object.keys(SEASON)[0]")
+    pg.goto(url+'#brand='+_sb.replace(' ','%20').replace("'",'%27')); pg.reload(); pg.wait_for_timeout(400)
+    ck('a brand with a verified lookbook carries a This season pill', pg.evaluate("(()=>{const a=[...document.querySelectorAll('#detailBody .dv-pills')].find(p=>p.textContent.startsWith('This season')); return !!a && a.querySelector('a').href.startsWith('http')})()"))
+    ck('no pill where nothing was found', pg.evaluate("Object.keys(SEASON).length")<=130)
+
     head('prev / next')
     pg.set_viewport_size({'width':1400,'height':1000})
     pg.goto(url+'#brand=Barbour'); pg.reload(); pg.wait_for_timeout(420)

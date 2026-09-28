@@ -1512,6 +1512,7 @@ const STYLELINK = {
 /*@@SHOES@@*/
 /*@@WHITET@@*/
 /*@@CERTS@@*/
+/*@@SEASON@@*/
 // Bruv/bruh. A two-way dial for which street a brand belongs to, not which
 // country it comes from — Stone Island is Italian and lives on English terraces,
 // Polo is American and was taken up by the Lo Lifes. Scored only where there is
@@ -2272,6 +2273,13 @@ function navHTML(kind, n, label, key){
        + `</nav>`;
 }
 // Secondhand: one pill per marketplace, opening the brand's men's listings there.
+// This season: the brand's own lookbook or campaign, where one exists and was verified.
+function seasonHTML(name){
+  const sn = SEASON[name.trim()]; if(!sn) return "";
+  const what = sn.t === "campaign" ? "campaign" : "lookbook";
+  const tip = `${esc(sn.l)} ${what} on the brand\u2019s own site` + (sn.m === "unisex" ? " \u2014 men\u2019s and women\u2019s together" : "");
+  return `<p class="dv-pills"><span class="dv-pills-lab">This season</span><a class="dv-pill" href="${sn.u}" target="_blank" rel="noopener" title="${tip}">${esc(sn.l)} ${what}${sn.m === "unisex" ? " <i>unisex</i>" : ""}</a></p>`;
+}
 function certsHTML(name){
   const c = CERTS[name.trim()]; if(!c) return "";
   const bits = [];
@@ -2305,6 +2313,7 @@ function renderDetail(name){
     ${p(WHY[name])}
     ${p(ORIGIN[name] ? "<b>Origin:</b> " + ORIGIN[name] : "")}
     ${p(OPVIEW[name] ? "<b>In their words:</b> " + OPVIEW[name] : "")}
+    ${seasonHTML(name)}
     ${certsHTML(name)}
     ${resaleHTML(name)}
     ${doorsHTML(name)}
