@@ -1,5 +1,13 @@
 [
   {
+    "v": "3.32.1",
+    "d": "28 September 2026",
+    "lede": "The caret on Registers.",
+    "items": [
+      "<b>The Registers fold showed a stray “u25B8” over its heading</b> — a JavaScript escape in a CSS rule. It is a caret now."
+    ]
+  },
+  {
     "v": "3.32.0",
     "d": "28 September 2026",
     "lede": "Reach is now Own stores, and it is counted.",

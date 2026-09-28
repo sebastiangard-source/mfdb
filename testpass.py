@@ -970,6 +970,7 @@ with sync_playwright() as p:
     pg.goto(url+'#brand=Todd%20Snyder'); pg.reload(); pg.wait_for_timeout(400)
     pg.click('#detailBody .chipd[data-k="craft"]'); pg.wait_for_timeout(200)
     _ex = pg.evaluate("document.querySelector('#detailBody .rub-inline[data-for=\"craft\"]').textContent")
+    ck('the Registers fold shows a caret, not an escape', pg.evaluate("getComputedStyle(document.querySelector('#detailBody .dv-fold summary h3'),'::before').content") in ('"\u25b8"','"▸"'))
     ck('a chip explainer names its dial and uses the plain text', _ex.lower().startswith('craft') and '5 =' not in _ex, _ex[:70])
 
     head('stores nationally')
