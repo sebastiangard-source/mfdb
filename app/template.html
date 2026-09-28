@@ -243,7 +243,7 @@
   #hoverCard h4{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:0 0 5px;color:var(--lf-green)}
   .hp-native{position:absolute;left:0;top:-1px;font-size:10px;color:var(--ink-faint);white-space:nowrap}
   .hp-np{font-style:italic}
-  .hp-native-note{position:static;font-size:10px;font-style:italic;color:var(--ink-faint)}
+  .hp-ax .hp-native-note{position:static;transform:none;display:block;text-align:left;font-size:10px;font-style:italic;color:var(--ink-faint);white-space:normal}
   .pr-noaxis .pr-axis{display:none}
   .hp-tag,.pr-tag{display:inline-block;margin-left:4px;padding:0 5px;border-radius:7px;font-size:9px;letter-spacing:.04em;
     color:var(--ink-faint);border:1px solid var(--ink-faint);vertical-align:1px;line-height:13px}
@@ -1225,6 +1225,7 @@
   .hc-prices .hp-bar{position:absolute;height:5px;border-radius:3px;min-width:2px;
     top:50%;transform:translateY(-50%)}
   .hc-prices .hp-ax{position:relative;height:12px;margin:2px 0 0 69px}
+  .hc-prices .hp-ax:has(.hp-native-note){height:auto}
   .hc-prices .hp-ax span{position:absolute;transform:translateX(-50%);font-size:9px;
     color:var(--ink-faint);font-variant-numeric:tabular-nums}
   .hc-prices .hp-none{opacity:.35}
