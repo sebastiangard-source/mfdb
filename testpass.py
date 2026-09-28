@@ -1055,6 +1055,17 @@ with sync_playwright() as p:
     ck('western at 5 is Tecovas', pg.evaluate("[...document.querySelectorAll('.brand')].filter(b=>!b.classList.contains('out')).map(b=>b.textContent.trim())")==['Tecovas'])
     pg.evaluate("()=>{const d=document.querySelector('.dial[data-attr=\"western\"] input[type=range]'); d.value=0; d.dispatchEvent(new Event('input',{bubbles:true}));}")
 
+    head('region tags and cert buttons')
+    pg.set_viewport_size({'width':1400,'height':1000}); pg.goto(url+'#brand=Faherty'); pg.reload(); pg.wait_for_timeout(400)
+    ck('a brand page lists its Northeast regions as tags', pg.evaluate("document.querySelectorAll('#detailBody .dv-regtag').length")>5)
+    ck('NYC tags carry the neighbourhood', pg.evaluate("[...document.querySelectorAll('#detailBody .dv-regtag')].some(t=>t.textContent.startsWith('NYC ·'))"))
+    pg.click('#detailBody .dv-regtag'); pg.wait_for_timeout(400)
+    ck('a region tag opens that region\'s store list', pg.evaluate("boutiquesView.classList.contains('show') && boRegion!==null"))
+    pg.goto(url+'#brand=Patagonia'); pg.reload(); pg.wait_for_timeout(400)
+    pg.click('#detailBody .dv-cert-btn'); pg.wait_for_timeout(500)
+    ck('a cert pill filters the map to that certification', pg.evaluate("!detailView.classList.contains('show') && document.querySelector('.chip[data-cert=\"bcorp\"]').getAttribute('aria-pressed')==='true' && [...document.querySelectorAll('.brand')].filter(b=>!b.classList.contains('out')).length===11"))
+    pg.click('.chip[data-cert="bcorp"]'); pg.wait_for_timeout(200)
+
     head('prev / next')
     pg.set_viewport_size({'width':1400,'height':1000})
     pg.goto(url+'#brand=Barbour'); pg.reload(); pg.wait_for_timeout(420)

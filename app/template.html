@@ -259,7 +259,12 @@
   #detailView .dv-pill{font-size:12px;padding:4px 11px;border-radius:12px;background:rgba(18,59,43,.07);color:var(--ink);text-decoration:none}
   #detailView .dv-pill:hover{background:rgba(18,59,43,.15)}
   #detailView .dv-pill i{font-style:normal;color:var(--ink-faint);margin-left:4px;font-size:11px}
-  #detailView .dv-cert{font-size:12px;padding:4px 11px;border-radius:12px;background:rgba(18,59,43,.07);color:var(--ink)}
+  #detailView .dv-cert{font-size:12px;padding:4px 11px;border-radius:12px;background:rgba(18,59,43,.07);color:var(--ink);border:0;font:inherit;font-size:12px;cursor:pointer}
+  #detailView .dv-cert:hover{background:rgba(18,59,43,.15)}
+  #detailView .dv-regtags{display:flex;flex-wrap:wrap;gap:6px;margin:6px 0 2px}
+  #detailView .dv-regtag{font-size:11.5px;padding:3px 10px;border-radius:11px;background:rgba(42,42,38,.06);color:var(--ink-soft);cursor:pointer}
+  #detailView .dv-regtag b{font-weight:500;color:var(--ink-faint)}
+  #detailView .dv-regtag:hover{background:rgba(18,59,43,.12)}
   #detailView .dv-cert i{font-style:normal;color:var(--ink-faint);margin-left:6px;font-size:11px}
   .certrow{margin-top:14px}
   .chip .cn{margin-left:6px;color:var(--ink-faint);font-size:10.5px}
@@ -2243,7 +2248,13 @@ function stockistRow(name){
   let out = `<p class="dv-prose"><b>${REGION_NAME}`
           + ``
           + `:</b> ${bits.join(", ")} across ${f.states} state${f.states===1?"":"s"}${gap}</p>`;
-  if(f.addressed) out += `<button class="region-btn" data-brand="${esc(name)}">see every store</button>`;
+  if(f.addressed){
+    const counts = {};
+    for(const i of f.ids){ const reg = subregionOf(PLACES[i]); counts[reg] = (counts[reg]||0)+1; }
+    out += `<span class="dv-regtags">` + Object.keys(counts).sort((a,b)=>counts[b]-counts[a] || a.localeCompare(b))
+      .map(reg=>`<span class="bo-region dv-regtag" role="link" tabindex="0" data-region="${esc(reg)}" title="All stores in ${esc(reg)}">${esc(reg)}${counts[reg]>1?` <b>\u00d7${counts[reg]}</b>`:""}</span>`).join("") + `</span>`;
+    out += `<button class="region-btn" data-brand="${esc(name)}">see every store</button>`;
+  }
   if(f.pending && f.g.cities.length) out += `<p class="dv-src">${f.g.cities.slice(0,8).join(" \u00b7 ")}`
           + `${f.g.cities.length>8 ? " \u00b7 and " + (f.g.cities.length-8) + " more" : ""}</p>`;
   return out;
@@ -2309,8 +2320,8 @@ function seasonHTML(name){
 function certsHTML(name){
   const c = CERTS[name.trim()]; if(!c) return "";
   const bits = [];
-  if(c.bcorp) bits.push(`<span class="dv-cert" title="Certified B Corporation: ${esc(c.bcorp.e)}">B Corp<i>${esc(c.bcorp.e)}</i></span>`);
-  if(c.gots) bits.push(`<span class="dv-cert" title="GOTS scope certificate held by ${esc(c.gots.e)}${c.gots.n ? " \u2014 " + esc(c.gots.n) : ""}. A scope certificate is the right to sell certified organic textiles, not a measure of how much of the range is organic.">GOTS entity<i>${esc(c.gots.e)}${c.gots.n ? " \u00b7 " + esc(c.gots.n) : ""}</i></span>`);
+  if(c.bcorp) bits.push(`<button class="dv-cert dv-cert-btn" type="button" data-cert="bcorp" title="Certified B Corporation: ${esc(c.bcorp.e)}. Tap to see every B Corp on the map.">B Corp<i>${esc(c.bcorp.e)}</i></button>`);
+  if(c.gots) bits.push(`<button class="dv-cert dv-cert-btn" type="button" data-cert="gots" title="GOTS scope certificate held by ${esc(c.gots.e)}${c.gots.n ? " \u2014 " + esc(c.gots.n) : ""}. A scope certificate is the right to sell certified organic textiles, not a measure of how much of the range is organic. Tap to see every GOTS entity on the map.">GOTS entity<i>${esc(c.gots.e)}${c.gots.n ? " \u00b7 " + esc(c.gots.n) : ""}</i></button>`);
   return `<p class="dv-pills"><span class="dv-pills-lab">Certified</span>${bits.join("")}</p>`;
 }
 function resaleHTML(name){
@@ -2399,6 +2410,21 @@ function closeDetail(){
   if(detailReturn){ const back = detailReturn; detailReturn = null; back(); return; }
   if(location.hash.startsWith("#brand=")) history.replaceState(null,"",location.pathname+location.search);
 }
+detailBody.addEventListener("click", e=>{
+  const t = e.target.closest(".dv-regtag");
+  if(!t) return;
+  detailView.classList.remove("show");
+  renderBoutiques(t.dataset.region, "all"); openHash(boutiquesHash());
+});
+detailBody.addEventListener("click", e=>{
+  const cb = e.target.closest(".dv-cert-btn");
+  if(!cb) return;
+  const k = cb.dataset.cert;
+  closeDetail();
+  const chip = document.querySelector('.chip[data-cert="' + k + '"]');
+  if(chip && chip.getAttribute("aria-pressed") !== "true") chip.click();
+  setTimeout(()=>{ const bar = document.getElementById("resultBar"); (bar && getComputedStyle(bar).display !== "none" ? bar : document.querySelector(".chip[data-cert]")).scrollIntoView({behavior:"smooth", block:"center"}); }, 150);
+});
 detailBody.addEventListener("click", e=>{
   const btn = e.target.closest(".chipd");
   if(!btn) return;
