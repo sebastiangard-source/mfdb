@@ -863,6 +863,8 @@ with sync_playwright() as p:
     pg.goto(url); pg.reload(); pg.wait_for_timeout(400); pg.hover('.brand:has-text("Ring Jacket")'); pg.wait_for_timeout(600)
     ck('the card draws a native figure instead of a bar', pg.evaluate("document.querySelectorAll('#hoverCard .hp-native').length")>0)
     ck('no range tag hangs off the card', pg.evaluate("!document.querySelector('#hoverCard .hp-tag')"))
+    pg.mouse.move(5,5); pg.wait_for_timeout(200); pg.hover('.brand:has-text("Stefan Brandt")'); pg.wait_for_timeout(600)
+    ck('an all-euro brand shows no dollar axis or gridlines on the card', pg.evaluate("document.querySelectorAll('#hoverCard .hp-gl').length")==0 and 'euros' in pg.evaluate("document.querySelector('#hoverCard .hp-ax').textContent"))
     ck('reach describes no zero', '0 =' not in pg.evaluate("document.querySelector('.dial[data-attr=\"reach\"] .dl').dataset.tip"))
     ck('own stores is derived from the door count', pg.evaluate("Object.keys(REACH).every(k=>{const n=DOORS[k]?.n; if(n==null) return false; const v=n>50?5:n>20?4:n>5?3:n>0?2:1; return REACH[k]===v})"))
     ck('the dial is labelled own stores', 'own stores' in pg.evaluate("document.querySelector('.dial[data-attr=\"reach\"] .dl').textContent"))

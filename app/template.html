@@ -243,6 +243,8 @@
   #hoverCard h4{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:0 0 5px;color:var(--lf-green)}
   .hp-native{position:absolute;left:0;top:-1px;font-size:10px;color:var(--ink-faint);white-space:nowrap}
   .hp-np{font-style:italic}
+  .hp-native-note{position:static;font-size:10px;font-style:italic;color:var(--ink-faint)}
+  .pr-noaxis .pr-axis{display:none}
   .hp-tag,.pr-tag{display:inline-block;margin-left:4px;padding:0 5px;border-radius:7px;font-size:9px;letter-spacing:.04em;
     color:var(--ink-faint);border:1px solid var(--ink-faint);vertical-align:1px;line-height:13px}
   .hp-tag{position:absolute;right:-42px;top:-1px}
@@ -2136,8 +2138,9 @@ function pricesHTML(name){
   const p = PRICES[name.trim()];
   if(!p) return '<h3>Prices' + pricePassHTML(name) + '<p class="pr-note">Not yet priced \u2014 this brand was '
               + 'added after the price table was compiled.</p>';
-  const gl = PRTICKS.map(t=>`<span class="pr-gl" style="left:${prPos(t)}%"></span>`).join("");
-  const axis = PRTICKS.map(t=>`<span style="left:${prPos(t)}%">$${t}</span>`).join("");
+  const noAxis = allNative(p);
+  const gl = noAxis ? "" : PRTICKS.map(t=>`<span class="pr-gl" style="left:${prPos(t)}%"></span>`).join("");
+  const axis = noAxis ? "" : PRTICKS.map(t=>`<span style="left:${prPos(t)}%">$${t}</span>`).join("");
   const rows = p.map((r,i)=>{
     if(r === "?") return `<div class="pr-row"><div class="pr-lab">${garmentLabel(name, i, PRGARMENTS[i], false)}</div>`
                 + `<div class="pr-track">${gl}</div>`
@@ -2159,7 +2162,7 @@ function pricesHTML(name){
          + `<span class="pr-dot" style="left:${prPos(mid)}%"></span></div>`
          + `<div class="pr-val">${priceText(r)}${rng?` <span class="pr-tag" title="the category's plain range, not the entry-to-elevated pair">range</span>`:""}</div></div>`;
   }).join("");
-  return `<h3>Prices</h3>${priceNoteHTML(name)}<div class="pr-wrap"><div class="pr-axis">${axis}</div>${rows}`
+  return `<h3>Prices</h3>${priceNoteHTML(name)}${noAxis ? `<p class="pv-note">${nativeNote(p)}.</p>` : ""}<div class="pr-wrap${noAxis?" pr-noaxis":""}"><div class="pr-axis">${axis}</div>${rows}`
        + `<p class="pr-note">US full-price retail, read on the brand\u2019s own store in September 2026. A bar runs from the `
        + `entry version to the elevated-fiber version of one staple; a bar marked <i>range</i> is the cheapest to `
        + `dearest of the category, because the brand sells no such pair. A figure in another currency is shown as `
@@ -3548,11 +3551,22 @@ function garmentLabel(name, i, text, priced){
               : (i === 7 && SHOELINK[key]) ? `${esc(key)} shoes` : `Search ${esc(key)} for ${PRTERM[i]} (site search; may mix genders)`;
   return `<a class="gl-link${own?" gl-own":""}" href="${url}" target="_blank" rel="noopener" title="${title}">${text}</a>`;
 }
+const CURNAME = {EUR:"euros", GBP:"pounds", JPY:"yen", CAD:"Canadian dollars", USD_landed:"duties-paid US dollars"};
+// True when every priced garment is in another currency: the dollar axis has nothing to show.
+function allNative(p){
+  const priced = p.filter(Array.isArray);
+  return priced.length > 0 && priced.every(r => r.length === 3 && r[2] !== "USD_landed");
+}
+function nativeNote(p){
+  const cur = (p.find(r=>Array.isArray(r) && r.length===3) || [])[2];
+  return cur ? `read in ${CURNAME[cur] || cur} on the brand\u2019s own site; not converted` : "";
+}
 function pricesStripHTML(name){
   const p = PRICES[name.trim()];
   if(!p || !p.some(Array.isArray)) return "";
-  const gl = PRTICKS.map(t=>`<span class="hp-gl" style="left:${prPos(t)}%"></span>`).join("");
-  const ax = [50,200,800].map(t=>`<span style="left:${prPos(t)}%">$${t}</span>`).join("");
+  const noAxis = allNative(p);
+  const gl = noAxis ? "" : PRTICKS.map(t=>`<span class="hp-gl" style="left:${prPos(t)}%"></span>`).join("");
+  const ax = noAxis ? `<span class="hp-native-note">${nativeNote(p)}</span>` : [50,200,800].map(t=>`<span style="left:${prPos(t)}%">$${t}</span>`).join("");
   const rows = p.map((r,i)=>{
     const has = Array.isArray(r);
     const native = has && r.length === 3;
