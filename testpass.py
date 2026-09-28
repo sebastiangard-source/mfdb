@@ -1040,6 +1040,11 @@ with sync_playwright() as p:
     ck('a brand with a verified lookbook carries a This season pill', pg.evaluate("(()=>{const a=[...document.querySelectorAll('#detailBody .dv-pills')].find(p=>p.textContent.startsWith('This season')); return !!a && a.querySelector('a').href.startsWith('http')})()"))
     ck('no pill where nothing was found', pg.evaluate("Object.keys(SEASON).length")<=130)
 
+    head('where line')
+    _c = pg.evaluate("Object.values(CITIES)")
+    ck('every where line follows the shape', all(c.startswith(('No store','One store','Sold direct','Dover Street')) or c.split(' ')[0].isdigit() for c in _c), [c for c in _c if not (c.startswith(('No store','One store','Sold direct','Dover Street')) or c.split(' ')[0].isdigit())][:3])
+    ck('no where line mentions the Northeast', not any('Northeast' in c for c in _c))
+
     head('prev / next')
     pg.set_viewport_size({'width':1400,'height':1000})
     pg.goto(url+'#brand=Barbour'); pg.reload(); pg.wait_for_timeout(420)
