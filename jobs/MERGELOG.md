@@ -1622,3 +1622,5 @@ Held: [('Carhartt', 'sweater NONE — a house with no crewneck still makes sweat
 - Isaia: shop None -> https://www.isaia.us/search?q=
 - Dries Van Noten: shop None -> https://www.driesvannoten.com/en-us/search?q=
 - Kiton: shop None -> https://us.kiton.com/search?q=
+
+## 2026-09-28 · stockists_from_brands · Easy Mondays (priority-1 row): Fore & Wharf: Easy Mondays added; new shop: Martin NYC, Brooklyn NY (places 3201); new shop: Morton's, Cedarhurst NY (places 3202); Murray's Toggery: Easy Mondays added
