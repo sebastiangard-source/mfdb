@@ -1,0 +1,73 @@
+{
+  "not_checked": "NC",
+  "columns": [
+    {
+      "name": "brand",
+      "type": "key"
+    },
+    {
+      "name": "locator_url",
+      "type": "url",
+      "doc": "the brand's own stockist/store-locator page; NONE if the brand publishes none"
+    },
+    {
+      "name": "locator_kind",
+      "type": "enum",
+      "values": [
+        "list",
+        "map",
+        "search",
+        "none"
+      ]
+    },
+    {
+      "name": "shop_name",
+      "type": "str"
+    },
+    {
+      "name": "street",
+      "type": "str"
+    },
+    {
+      "name": "city",
+      "type": "str"
+    },
+    {
+      "name": "state",
+      "type": "str",
+      "doc": "two-letter"
+    },
+    {
+      "name": "zip",
+      "type": "str"
+    },
+    {
+      "name": "shop_kind",
+      "type": "enum",
+      "values": [
+        "independent",
+        "department",
+        "brand-owned",
+        "outlet",
+        "other"
+      ]
+    },
+    {
+      "name": "new_to_register",
+      "type": "enum",
+      "values": [
+        "yes",
+        "no"
+      ],
+      "doc": "no if the shop is in register_shops.csv"
+    },
+    {
+      "name": "source",
+      "type": "provenance"
+    },
+    {
+      "name": "note",
+      "type": "str"
+    }
+  ]
+}

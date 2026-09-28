@@ -1,6 +1,6 @@
 # Job board — derived from jobs/manifest.json by job.py; do not edit
 
-_18 jobs · rewritten 2026-09-27_
+_19 jobs · rewritten 2026-09-28_
 
 | job | state | issued | kind | merged/returned | blocked on / note |
 |---|---|---|---|---|---|
@@ -22,3 +22,4 @@ _18 jobs · rewritten 2026-09-27_
 | tech_rescore_2026-09-20 | issued | 2026-09-20 | rescore |  | proposal only; Sebastian rules per row |
 | price_full_2026-09-23 | merged | 2026-09-23 | price |  | full return merged 27 Sep as v3.27.0; Hermès partial, six no-store; rulings 9/11/12 and band moves await Sebastian |
 | quotes_2026-09-27 | issued | 2026-09-27 | read |  | fills In their words with verbatim, sourced quotations; 7 on file today |
+| stockists_from_brands_2026-09-28 | issued | 2026-09-28 | locations |  | the other direction of the register match; 18 priority brands have no stockist on file |

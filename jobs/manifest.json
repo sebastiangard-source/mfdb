@@ -1250,6 +1250,25 @@
       "returns": [],
       "blocked_on": "",
       "note": "fills In their words with verbatim, sourced quotations; 7 on file today"
+    },
+    {
+      "id": "stockists_from_brands_2026-09-28",
+      "title": "Stockists read from the brands’ own locators, Northeast",
+      "kind": "locations",
+      "state": "issued",
+      "created": "2026-09-28",
+      "issued": "2026-09-28",
+      "pilot": 18,
+      "nc": "NC",
+      "brands": "all",
+      "schema": [],
+      "writes": {
+        "region.s": "links",
+        "places": "new shops"
+      },
+      "returns": [],
+      "blocked_on": "",
+      "note": "the other direction of the register match; 18 priority brands have no stockist on file"
     }
   ]
 }
