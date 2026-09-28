@@ -189,6 +189,18 @@ def consts(data):
             continue
         reach[rec['name']] = 5 if n > 50 else 4 if n > 20 else 3 if n > 5 else 2 if n > 0 else 1
     by_const['REACH'] = reach
+    # NORMCORE: derived — the brand's loudest register, upside down (28 Sep 2026).
+    CULT = ['golf','status','finbro','ivy','murica','ital','fren','street','avant','prep','weird','boat',
+            'racquet','ski','scandi','briish','logo','western','rock','workwear','outdoor','surf']
+    norm = collections.OrderedDict()
+    for rec in data.brands:
+        vals = [rec['dials'].get(k) for k in CULT] + [rec['focus'].get('style')]
+        vals = [v for v in vals if isinstance(v, int)]
+        if not vals:
+            continue
+        m = max(vals)
+        norm[rec['name']] = 5 if m <= 1 else 4 if m <= 2 else 3 if m <= 3 else 2 if m == 4 else 1
+    by_const['NORMCORE'] = norm
     for c, d in by_const.items():
         out[c] = d.get('__list__', d) if '__list__' in d else d
     # DATA: bands with rows in seat order

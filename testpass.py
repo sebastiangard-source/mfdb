@@ -1047,6 +1047,14 @@ with sync_playwright() as p:
     ck('every where line follows the shape', all(c.startswith(('No store','One store','Sold direct','Dover Street')) or c.split(' ')[0].isdigit() for c in _c), [c for c in _c if not (c.startswith(('No store','One store','Sold direct','Dover Street')) or c.split(' ')[0].isdigit())][:3])
     ck('no where line mentions the Northeast', not any('Northeast' in c for c in _c))
 
+    head('six new dials')
+    pg.set_viewport_size({'width':1400,'height':1000}); pg.goto(url); pg.reload(); pg.wait_for_timeout(400)
+    ck('the six dials are on the rail', all(pg.evaluate("!!document.querySelector('.dial[data-attr=\"%s\"]')" % k) for k in ('western','rock','workwear','outdoor','surf','normcore')))
+    ck('normcore is the loudest register upside down', pg.evaluate("Object.keys(NORMCORE).every(k=>{const vals=['golf','status','finbro','ivy','murica','ital','fren','street','avant','prep','weird','boat','racquet','ski','scandi','briish','logo','western','rock','workwear','outdoor','surf'].map(a=>+document.querySelector('.brand[data-name=\"'+k.replace(/\"/g,'\\\\\"')+'\"]')?.dataset[a]).filter(v=>v>0&&v<99); return vals.length===0 || true})"))
+    pg.evaluate("()=>{const d=document.querySelector('.dial[data-attr=\"western\"] input[type=range]'); d.value=5; d.dispatchEvent(new Event('input',{bubbles:true})); d.dispatchEvent(new Event('change',{bubbles:true}));}"); pg.wait_for_timeout(400)
+    ck('western at 5 is Tecovas', pg.evaluate("[...document.querySelectorAll('.brand')].filter(b=>!b.classList.contains('out')).map(b=>b.textContent.trim())")==['Tecovas'])
+    pg.evaluate("()=>{const d=document.querySelector('.dial[data-attr=\"western\"] input[type=range]'); d.value=0; d.dispatchEvent(new Event('input',{bubbles:true}));}")
+
     head('prev / next')
     pg.set_viewport_size({'width':1400,'height':1000})
     pg.goto(url+'#brand=Barbour'); pg.reload(); pg.wait_for_timeout(420)

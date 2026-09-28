@@ -834,6 +834,83 @@
       "absent": "not_assessed",
       "note": true,
       "doc": "Logo: how visibly the brand's mark appears on the clothes. 1 = no visible branding; 2 = a small mark on some pieces; 3 = a mark on most pieces, small; 4 = large or all-over on a good share; 5 = the logo is the design. Seeded 28 Sep 2026, provisional until read (share of styles with a visible mark)."
+    },
+    "western": {
+      "scope": "brand",
+      "const": "WESTERN",
+      "path": "dials.western",
+      "type": "int",
+      "range": [
+        1,
+        5
+      ],
+      "absent": "not_assessed",
+      "note": true,
+      "doc": "Western: How much the brand belongs to Western wear — boots, pearl-snap shirts, ranch denim, the rodeo — from a boot-maker down to one Western shirt in the range. Seeded by hand 28 Sep 2026; provisional."
+    },
+    "rock": {
+      "scope": "brand",
+      "const": "ROCK",
+      "path": "dials.rock",
+      "type": "int",
+      "range": [
+        1,
+        5
+      ],
+      "absent": "not_assessed",
+      "note": true,
+      "doc": "Rock: How much the brand dresses the stage and the road — leather, black, biker and greaser cuts — from a rock house down to a single leather jacket. Seeded by hand 28 Sep 2026; provisional."
+    },
+    "workwear": {
+      "scope": "brand",
+      "const": "WORKWEAR",
+      "path": "dials.workwear",
+      "type": "int",
+      "range": [
+        1,
+        5
+      ],
+      "absent": "not_assessed",
+      "note": true,
+      "doc": "Workwear: How much the clothes descend from a trade — duck canvas, riveted denim, chore coats, tin cloth — from a company still selling work clothes down to a chore jacket in the range. Seeded by hand 28 Sep 2026; provisional."
+    },
+    "outdoor": {
+      "scope": "brand",
+      "const": "OUTDOOR",
+      "path": "dials.outdoor",
+      "type": "int",
+      "range": [
+        1,
+        5
+      ],
+      "absent": "not_assessed",
+      "note": true,
+      "doc": "Outdoor: How much the brand is technical outdoor clothing worn as everyday dress — shells, fleece, trail shoes on city streets — from a mountain house down to a fleece in the range. Seeded by hand 28 Sep 2026; provisional."
+    },
+    "surf": {
+      "scope": "brand",
+      "const": "SURF",
+      "path": "dials.surf",
+      "type": "int",
+      "range": [
+        1,
+        5
+      ],
+      "absent": "not_assessed",
+      "note": true,
+      "doc": "Surf: How much the beach runs the brand — boardshorts, washed cotton, salt-water ease — from a surfer's house down to a swim short in the range. Seeded by hand 28 Sep 2026; provisional."
+    },
+    "normcore": {
+      "scope": "brand",
+      "const": "NORMCORE",
+      "path": "dials.normcore",
+      "type": "int",
+      "range": [
+        1,
+        5
+      ],
+      "absent": "derived",
+      "doc": "Derived at build: how little the brand pops on any register. Takes the highest score across every culture dial plus Logo and Style; 5 when nothing exceeds 1, 4 when nothing exceeds 2, 3 when nothing exceeds 3, 2 when something is a 4, 1 when something is a 5. Not stored; lint rejects it if present."
     }
   },
   "price_slots": [

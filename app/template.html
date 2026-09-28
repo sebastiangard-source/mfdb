@@ -1417,6 +1417,12 @@
     <div class="dial" data-attr="ital" style="--ac:#1E7A44"><span class="dl" data-tip="How much Italy carries the brand — Italian make, Italian mills, Italian design language, whether or not the brand is Italian." tabindex="0">italianness</span><input type="range" min="0" max="5" value="0" step="1" aria-label="Italianness focus"><span class="dv">off</span></div>
     <div class="dial" data-attr="fren" style="--ac:#24418E"><span class="dl" data-tip="How much France carries the brand — Parisian codes, Riviera ease, or a Place Vendôme institution." tabindex="0">frenchness</span><input type="range" min="0" max="5" value="0" step="1" aria-label="Frenchness focus"><span class="dv">off</span></div>
     <div class="dial" data-attr="street" style="--ac:#C4552E"><span class="dl" data-tip="How native the brand is to street culture — sneakers, drops, skate and hip-hop lineage — from the source itself down to a borrowed hoodie." tabindex="0">street</span><input type="range" min="0" max="5" value="0" step="1" aria-label="Street focus"><span class="dv">off</span></div>
+    <div class="dial" data-attr="western" style="--ac:#8A5A2B"><span class="dl" data-tip="How much the brand belongs to Western wear — boots, pearl-snap shirts, ranch denim, the rodeo — from a boot-maker down to one Western shirt in the range." tabindex="0">western</span><input type="range" min="0" max="5" value="0" step="1" aria-label="Western"><span class="dv">off</span></div>
+    <div class="dial" data-attr="rock" style="--ac:#3A3A3A"><span class="dl" data-tip="How much the brand dresses the stage and the road — leather, black, biker and greaser cuts — from a rock house down to a single leather jacket." tabindex="0">rock</span><input type="range" min="0" max="5" value="0" step="1" aria-label="Rock"><span class="dv">off</span></div>
+    <div class="dial" data-attr="workwear" style="--ac:#7A5C3A"><span class="dl" data-tip="How much the clothes descend from a trade — duck canvas, riveted denim, chore coats, tin cloth — from a company still selling work clothes down to a chore jacket in the range." tabindex="0">workwear</span><input type="range" min="0" max="5" value="0" step="1" aria-label="Workwear"><span class="dv">off</span></div>
+    <div class="dial" data-attr="outdoor" style="--ac:#3F6B4A"><span class="dl" data-tip="How much the brand is technical outdoor clothing worn as everyday dress — shells, fleece, trail shoes on city streets — from a mountain house down to a fleece in the range." tabindex="0">outdoor</span><input type="range" min="0" max="5" value="0" step="1" aria-label="Outdoor"><span class="dv">off</span></div>
+    <div class="dial" data-attr="surf" style="--ac:#3C7A8A"><span class="dl" data-tip="How much the beach runs the brand — boardshorts, washed cotton, salt-water ease — from a surfer’s house down to a swim short in the range." tabindex="0">surf</span><input type="range" min="0" max="5" value="0" step="1" aria-label="Surf"><span class="dv">off</span></div>
+    <div class="dial" data-attr="normcore" style="--ac:#9A9A8E"><span class="dl" data-tip="How little the brand pops on any register — derived from its own scores: the loudest dial, turned upside down. 5 means nothing about the clothes signals anything." tabindex="0">normcore</span><input type="range" min="0" max="5" value="0" step="1" aria-label="Normcore"><span class="dv">off</span></div>
     <div class="dial" data-attr="avant" style="--ac:#2B2B2B"><span class="dl" data-tip="How far the brand pushes against clothing's conventions — silhouette, construction, concept, presentation." tabindex="0">avant-garde</span><input type="range" min="0" max="5" value="0" step="1" aria-label="Avant-Garde focus"><span class="dv">off</span></div>
     <div class="dial" data-attr="weird" style="--ac:#8E4E9E"><span class="dl" data-tip="How gleefully strange the design output is — pigeon clutches, tabi toes, jackets for Mars. Avant-garde argues with clothing; weird just delights in it." tabindex="0">weird</span><input type="range" min="0" max="5" value="0" step="1" aria-label="Weird focus"><span class="dv">off</span></div>
     <div class="dial" data-attr="boat" style="--ac:#2E7D8C"><span class="dl" data-tip="Which deck the clothes are cut for, by boat length — from a center console you drive yourself up to a yacht with crew." tabindex="0">boat</span><input type="range" min="0" max="5" value="0" step="1" aria-label="Boat focus"><span class="dv">off</span></div>
@@ -1516,6 +1522,12 @@ const STYLELINK = {
 /*@@SHOES@@*/
 /*@@WHITET@@*/
 /*@@LOGO@@*/
+/*@@WESTERN@@*/
+/*@@ROCK@@*/
+/*@@WORKWEAR@@*/
+/*@@OUTDOOR@@*/
+/*@@SURF@@*/
+/*@@NORMCORE@@*/
 /*@@CERTS@@*/
 /*@@SEASON@@*/
 // Bruv/bruh. A two-way dial for which street a brand belongs to, not which
@@ -1597,6 +1609,7 @@ function bandEl(key, cls){
     el.dataset.shoes = SHOES[name] ?? NOT_ASSESSED;
     el.dataset.whitet = WHITET[name] ?? NOT_ASSESSED;
     el.dataset.logo = LOGO[name] ?? NOT_ASSESSED;
+    for(const k of ["western","rock","workwear","outdoor","surf","normcore"]) el.dataset[k] = ({western:WESTERN,rock:ROCK,workwear:WORKWEAR,outdoor:OUTDOOR,surf:SURF,normcore:NORMCORE})[k][name] ?? NOT_ASSESSED;
     el.dataset.golffice = GOLFFICE[name] ?? NOT_ASSESSED;
     el.dataset.bruv = BRUV[name] ?? NOT_ASSESSED;
     el.dataset.sail = SAIL[name] ?? NOT_ASSESSED;
@@ -1631,7 +1644,7 @@ const FABTERM = {denim:"denim",cashmere:"cashmere",linen:"linen",cotton:"cotton"
 /*@@DOORS@@*/
 
   /*@@CITIES@@*/
-const DIMLABEL = {sail:"sail \u2194 power",bruv:"bruv \u2194 bruh",tech:"tech",comfort:"comfort",craft:"craft & heritage",style:"style",denim:"denim",cashmere:"cashmere",linen:"linen",cotton:"fine cotton",wool:"wool",synth:"synthetics",golf:"golfiness",status:"status",finbro:"finance bro",ivy:"ivy league",murica:"’murica",ital:"italianness",fren:"frenchness",street:"street",avant:"avant-garde",prep:"prep",weird:"weird",boat:"boat",racquet:"racquet",ski:"ski",scandi:"scandi man",briish:"bri\u2019ish",fuss:"ease of care",dur:"durability",forg:"fit flexibility",reach:"own stores",shoes:"shoes",whitet:"white tee",logo:"logo",golffice:"golffice"};
+const DIMLABEL = {sail:"sail \u2194 power",bruv:"bruv \u2194 bruh",tech:"tech",comfort:"comfort",craft:"craft & heritage",style:"style",denim:"denim",cashmere:"cashmere",linen:"linen",cotton:"fine cotton",wool:"wool",synth:"synthetics",golf:"golfiness",status:"status",finbro:"finance bro",ivy:"ivy league",murica:"’murica",ital:"italianness",fren:"frenchness",street:"street",avant:"avant-garde",prep:"prep",weird:"weird",boat:"boat",racquet:"racquet",ski:"ski",scandi:"scandi man",briish:"bri\u2019ish",fuss:"ease of care",dur:"durability",forg:"fit flexibility",reach:"own stores",shoes:"shoes",whitet:"white tee",logo:"logo",western:"western",rock:"rock",workwear:"workwear",outdoor:"outdoor",surf:"surf",normcore:"normcore",golffice:"golffice"};
 
 // ---------- hover dossier popup ----------
 const hoverCard = document.createElement("div");
@@ -1679,6 +1692,8 @@ function traitLine(el){
     ["shoes",  {5:"a shoemaker first"}],
     ["whitet", {5:"built on the white tee"}],
     ["logo",   {5:"the logo is the design", 1:"no visible branding"}],
+    ["western",{5:"a Western house"}], ["rock",{5:"a rock house"}], ["workwear",{5:"work clothes, still"}],
+    ["outdoor",{5:"a mountain house"}], ["surf",{5:"a surfer\u2019s house"}], ["normcore",{5:"pops on no register"}],
     ["dur",    {5:"built to outlive you"}],
     ["forg",   {5:"fits a wide range of bodies"}],
     ["reach",  {5:"more than fifty stores of its own", 1:"no store of its own"}],
@@ -1732,6 +1747,8 @@ function traitLineFull(el){
     ["shoes", {5:"a shoemaker first", 4:"a shoe you would know by name"}],
     ["whitet", {5:"built on the white tee", 4:"a white tee you would buy it for"}],
     ["logo", {5:"the logo is the design", 4:"big or all-over logos", 1:"no visible branding"}],
+    ["western",{5:"a Western house",4:"Western at the core"}], ["rock",{5:"a rock house",4:"leather and black"}], ["workwear",{5:"work clothes, still",4:"workwear at the core"}],
+    ["outdoor",{5:"a mountain house",4:"outdoor at the core"}], ["surf",{5:"a surfer\u2019s house",4:"the beach at the core"}], ["normcore",{5:"pops on no register",4:"quiet on every register"}],
     ["golffice", {"-3":"office only", 3:"course only", 0:"works in both"}],
   ];
   for(const [k, words] of R){
@@ -2093,7 +2110,7 @@ function applyDials(){
 /*@@RANGEONLY@@*/
 /*@@RESALE@@*/
 const REGLOOKUP = {sail:SAIL,bruv:BRUV,golf:GOLF,status:STATUS,finbro:FINBRO,ivy:IVY,murica:MURICA,
-                   ital:ITAL,fren:FREN,street:STREET,avant:AVANT,prep:PREP,weird:WEIRD,boat:BOAT,racquet:RACQUET,ski:SKI,scandi:SCANDI,briish:BRIISH,fuss:FUSS,dur:DUR,forg:FORG,reach:REACH,shoes:SHOES,whitet:WHITET,logo:LOGO,golffice:GOLFFICE};
+                   ital:ITAL,fren:FREN,street:STREET,avant:AVANT,prep:PREP,weird:WEIRD,boat:BOAT,racquet:RACQUET,ski:SKI,scandi:SCANDI,briish:BRIISH,fuss:FUSS,dur:DUR,forg:FORG,reach:REACH,shoes:SHOES,whitet:WHITET,logo:LOGO,western:WESTERN,rock:ROCK,workwear:WORKWEAR,outdoor:OUTDOOR,surf:SURF,normcore:NORMCORE,golffice:GOLFFICE};
 const ATTRKEYS = ["tech","comfort","craft","style"];
 const REGKEYS  = Object.keys(REGLOOKUP);
 const detailView = document.getElementById("detailView");
