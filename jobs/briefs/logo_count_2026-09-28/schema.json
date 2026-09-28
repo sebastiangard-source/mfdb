@@ -1,0 +1,90 @@
+{
+  "not_checked": "NC",
+  "columns": [
+    {
+      "name": "brand",
+      "type": "key"
+    },
+    {
+      "name": "styles_read",
+      "type": "int"
+    },
+    {
+      "name": "styles_marked",
+      "type": "int",
+      "doc": "styles with a visible mark in the main product photo"
+    },
+    {
+      "name": "share_marked_pct",
+      "type": "int"
+    },
+    {
+      "name": "mark_none",
+      "type": "int"
+    },
+    {
+      "name": "mark_small",
+      "type": "int"
+    },
+    {
+      "name": "mark_large",
+      "type": "int"
+    },
+    {
+      "name": "mark_allover",
+      "type": "int"
+    },
+    {
+      "name": "dominant_class",
+      "type": "enum",
+      "values": [
+        "none",
+        "small",
+        "large",
+        "allover"
+      ]
+    },
+    {
+      "name": "mark_kind",
+      "type": "str",
+      "doc": "what the mark is: wordmark, emblem, badge, monogram, label tab"
+    },
+    {
+      "name": "sample_basis",
+      "type": "enum",
+      "values": [
+        "all men's clothing",
+        "first 100 by category",
+        "tees+outerwear only"
+      ]
+    },
+    {
+      "name": "listing_url",
+      "type": "url"
+    },
+    {
+      "name": "proposed_logo",
+      "type": "int",
+      "range": [
+        1,
+        5
+      ]
+    },
+    {
+      "name": "current_logo",
+      "type": "int"
+    },
+    {
+      "name": "reasoning",
+      "type": "str"
+    },
+    {
+      "name": "source",
+      "type": "provenance"
+    },
+    {
+      "name": "note",
+      "type": "str"
+    }
+  ]
+}

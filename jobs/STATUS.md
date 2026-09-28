@@ -1,6 +1,6 @@
 # Job board — derived from jobs/manifest.json by job.py; do not edit
 
-_20 jobs · rewritten 2026-09-28_
+_21 jobs · rewritten 2026-09-28_
 
 | job | state | issued | kind | merged/returned | blocked on / note |
 |---|---|---|---|---|---|
@@ -24,3 +24,4 @@ _20 jobs · rewritten 2026-09-28_
 | quotes_2026-09-27 | issued | 2026-09-27 | read |  | fills In their words with verbatim, sourced quotations; 7 on file today |
 | stockists_from_brands_2026-09-28 | issued | 2026-09-28 | locations |  | the other direction of the register match; 18 priority brands have no stockist on file |
 | resale_links_2026-09-28 | issued | 2026-09-28 | links |  | joins the Vinted pill on the Secondhand line |
+| logo_count_2026-09-28 | issued | 2026-09-28 | count |  | CR-5 |

@@ -1287,6 +1287,24 @@
       "returns": [],
       "blocked_on": "",
       "note": "joins the Vinted pill on the Secondhand line"
+    },
+    {
+      "id": "logo_count_2026-09-28",
+      "title": "Logo dial: share and size of marks, counted",
+      "kind": "count",
+      "state": "issued",
+      "created": "2026-09-28",
+      "issued": "2026-09-28",
+      "pilot": 8,
+      "nc": "NC",
+      "brands": "all",
+      "schema": [],
+      "writes": {
+        "dials.logo": "proposed, Sebastian rules"
+      },
+      "returns": [],
+      "blocked_on": "",
+      "note": "CR-5"
     }
   ]
 }
