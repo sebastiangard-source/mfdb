@@ -32,6 +32,14 @@ one row with `locator_url = NONE` and where you looked in `note`.
 - `new_to_register`: `no` if the shop name and town match a row in `register_shops.csv` (spelling may
   differ slightly \u2014 use judgment and say so), else `yes`.
 
+## Before you start
+
+Location Thread II (August 2026) captured stockists as a by-product of reading own-store locators, for
+the brands whose locators mix the two \u2014 Ksubi (52 Northeast rows), Marine Layer and a few others \u2014
+into a **Wholesale Network** tab of `brand_tracking_*.xlsx`. Ask for that tab; where a brand is in it,
+verify the rows against the locator today rather than re-reading from nothing. Its leading-zero ZIP fault
+was fixed there; check for it again on any zip search.
+
 ## Rules
 
 - The brand\u2019s own locator is the source. Not a retailer\u2019s site, not a third-party directory.
