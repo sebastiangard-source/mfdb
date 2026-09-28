@@ -1388,7 +1388,7 @@
     
     <div class="dial" data-attr="dur" style="--ac:#7A5C3E"><span class="dl" data-tip="How long a garment survives being worn. Independent of price and of care — heavy cotton outlasts fine wool whatever either costs." tabindex="0">durability</span><input type="range" min="0" max="5" value="0" step="1" aria-label="Durability focus"><span class="dv">off</span></div>
     <div class="dial" data-attr="forg" style="--ac:#5C8A72"><span class="dl" data-tip="How easily you land on a fit that suits your own body — whether the cut forgives a body that is not the fit model's, and how precisely sizes run." tabindex="0">fit flexibility</span><input type="range" min="0" max="5" value="0" step="1" aria-label="Fit flexibility focus"><span class="dv">off</span></div>
-    <div class="dial" data-attr="reach" style="--ac:#3E6B7A"><span class="dl" data-tip="How easy the brand is to find in the US — from a single shop or online only, up to a store in every city. Measures availability, not size or price." tabindex="0">reach</span><input type="range" min="0" max="5" value="0" step="1" aria-label="Reach focus"><span class="dv">off</span></div>
+    <div class="dial" data-attr="reach" style="--ac:#3E6B7A"><span class="dl" data-tip="How many stores of its own the brand runs in the US, outlets and concessions excluded — from none up to more than fifty. Counted, not judged." tabindex="0">own stores</span><input type="range" min="0" max="5" value="0" step="1" aria-label="Reach focus"><span class="dv">off</span></div>
     <div class="dial" data-attr="shoes" style="--ac:#6B4A34"><span class="dl" data-tip="How central footwear is to the brand — not how good the shoes are. From a shoemaker first down to no shoes at all." tabindex="0">shoes</span><input type="range" min="0" max="5" value="0" step="1" aria-label="Shoes focus"><span class="dv">off</span></div>
     <div class="dial" data-attr="whitet" style="--ac:#7A7A6E"><span class="dl" data-tip="How much the brand’s plain white T-shirt is a reason to shop it — from no plain tee at all up to a house built on one." tabindex="0">white tee</span><input type="range" min="0" max="5" value="0" step="1" aria-label="White tee"><span class="dv">off</span></div>
     
@@ -1588,7 +1588,7 @@ function bandEl(key, cls){
     el.dataset.fuss = FUSS[name] ?? NOT_ASSESSED;
     el.dataset.dur = DUR[name] ?? 0;
     el.dataset.forg = FORG[name] ?? 0;
-    el.dataset.reach = REACH[name] ?? 0;
+    el.dataset.reach = REACH[name] ?? NOT_ASSESSED;
     el.dataset.shoes = SHOES[name] ?? NOT_ASSESSED;
     el.dataset.whitet = WHITET[name] ?? NOT_ASSESSED;
     el.dataset.golffice = GOLFFICE[name] ?? NOT_ASSESSED;
@@ -1625,7 +1625,7 @@ const FABTERM = {denim:"denim",cashmere:"cashmere",linen:"linen",cotton:"cotton"
 /*@@DOORS@@*/
 
   /*@@CITIES@@*/
-const DIMLABEL = {sail:"sail \u2194 power",bruv:"bruv \u2194 bruh",tech:"tech",comfort:"comfort",craft:"craft & heritage",style:"style",denim:"denim",cashmere:"cashmere",linen:"linen",cotton:"fine cotton",wool:"wool",synth:"synthetics",golf:"golfiness",status:"status",finbro:"finance bro",ivy:"ivy league",murica:"’murica",ital:"italianness",fren:"frenchness",street:"street",avant:"avant-garde",prep:"prep",weird:"weird",boat:"boat",racquet:"racquet",ski:"ski",scandi:"scandi man",briish:"bri\u2019ish",fuss:"ease of care",dur:"durability",forg:"fit flexibility",reach:"reach",shoes:"shoes",whitet:"white tee",golffice:"golffice"};
+const DIMLABEL = {sail:"sail \u2194 power",bruv:"bruv \u2194 bruh",tech:"tech",comfort:"comfort",craft:"craft & heritage",style:"style",denim:"denim",cashmere:"cashmere",linen:"linen",cotton:"fine cotton",wool:"wool",synth:"synthetics",golf:"golfiness",status:"status",finbro:"finance bro",ivy:"ivy league",murica:"’murica",ital:"italianness",fren:"frenchness",street:"street",avant:"avant-garde",prep:"prep",weird:"weird",boat:"boat",racquet:"racquet",ski:"ski",scandi:"scandi man",briish:"bri\u2019ish",fuss:"ease of care",dur:"durability",forg:"fit flexibility",reach:"own stores",shoes:"shoes",whitet:"white tee",golffice:"golffice"};
 
 // ---------- hover dossier popup ----------
 const hoverCard = document.createElement("div");
@@ -1674,7 +1674,7 @@ function traitLine(el){
     ["whitet", {5:"built on the white tee"}],
     ["dur",    {5:"built to outlive you"}],
     ["forg",   {5:"fits a wide range of bodies"}],
-    ["reach",  {1:"a hunt to find"}],
+    ["reach",  {5:"more than fifty stores of its own", 1:"no store of its own"}],
   ];
   let best = null, bestScore = -1;
   for(const [k, words] of R){
@@ -1721,7 +1721,7 @@ function traitLineFull(el){
     ["briish", {5:"British to the core", 4:"deeply British"}],
     ["dur", {5:"built to outlive you", 4:"built heavy"}],
     ["forg", {5:"fits a wide range of bodies", 4:"accommodating"}],
-    ["reach", {5:"sold everywhere", 4:"national reach", 1:"a hunt to find"}],
+    ["reach", {5:"more than fifty stores of its own", 4:"more than twenty stores of its own", 1:"no store of its own"}],
     ["shoes", {5:"a shoemaker first", 4:"a shoe you would know by name"}],
     ["whitet", {5:"built on the white tee", 4:"a white tee you would buy it for"}],
     ["golffice", {"-3":"office only", 3:"course only", 0:"works in both"}],

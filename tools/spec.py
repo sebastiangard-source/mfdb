@@ -181,6 +181,14 @@ def consts(data):
         # all-natural house, a 4 the ordinary good menswear brand. Was 85/65/40/20.
         nat[rec['name']] = 5 if share >= 95 else 4 if share >= 85 else 3 if share >= 70 else 2 if share >= 45 else 1
     by_const['NATURAL'] = nat
+    # REACH is "own stores", derived from the verified US door count, never authored (28 Sep 2026).
+    reach = collections.OrderedDict()
+    for rec in data.brands:
+        n = (rec.get('doors') or {}).get('n')
+        if n is None:
+            continue
+        reach[rec['name']] = 5 if n > 50 else 4 if n > 20 else 3 if n > 5 else 2 if n > 0 else 1
+    by_const['REACH'] = reach
     for c, d in by_const.items():
         out[c] = d.get('__list__', d) if '__list__' in d else d
     # DATA: bands with rows in seat order

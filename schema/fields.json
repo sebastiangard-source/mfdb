@@ -403,8 +403,9 @@
         1,
         5
       ],
-      "absent": "required",
-      "note": true
+      "absent": "derived",
+      "note": true,
+      "doc": "Own stores — derived at build from doors.n (US brand-owned stores, outlets and concessions excluded): 1 = none, 2 = 1–5, 3 = 6–20, 4 = 21–50, 5 = more than 50. Replaced the authored findability score on 28 Sep 2026. Not stored in records; lint rejects it if present. Notes may remain."
     },
     "dur": {
       "scope": "brand",

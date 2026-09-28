@@ -864,6 +864,8 @@ with sync_playwright() as p:
     ck('the card draws a native figure instead of a bar', pg.evaluate("document.querySelectorAll('#hoverCard .hp-native').length")>0)
     ck('no range tag hangs off the card', pg.evaluate("!document.querySelector('#hoverCard .hp-tag')"))
     ck('reach describes no zero', '0 =' not in pg.evaluate("document.querySelector('.dial[data-attr=\"reach\"] .dl').dataset.tip"))
+    ck('own stores is derived from the door count', pg.evaluate("Object.keys(REACH).every(k=>{const n=DOORS[k]?.n; if(n==null) return false; const v=n>50?5:n>20?4:n>5?3:n>0?2:1; return REACH[k]===v})"))
+    ck('the dial is labelled own stores', 'own stores' in pg.evaluate("document.querySelector('.dial[data-attr=\"reach\"] .dl').textContent"))
     pg.goto(url+'#brand=Faherty'); pg.reload(); pg.wait_for_timeout(400)
     ck('a brand with every garment linked to its own pages says so in the note', 'every label opens' in pg.evaluate("document.querySelector('#detailBody .pv-note').textContent"))
     pg.goto(url); pg.reload(); pg.wait_for_timeout(400); pg.mouse.move(5,5); pg.wait_for_timeout(200); pg.hover('.brand:has-text("Faherty")'); pg.wait_for_timeout(600)

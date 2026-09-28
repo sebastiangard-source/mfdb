@@ -11,7 +11,7 @@ State: done, v3.22.0 (23 Sep) — anchors removed and every tooltip cut to one o
 Reach has never been audited: 203 scores, a definition written 21 Sep, 34 brands at 4. The definition
 rests on things the map already holds — own US doors, independent stockists on the register,
 department-store channel, online-only — so a screen can propose the whole dial mechanically and
-Sebastian rules on the exceptions. Queue after the tech re-score. State: logged.
+Sebastian rules on the exceptions. Queue after the tech re-score. State: closed 28 Sep 2026 — reach replaced by Own stores, derived from the door count; no screen needed.
 
 ## CR-3 · 26 Sep 2026 · Cotton dial screen
 The cotton dial is authored and unaudited, and its 5s mix two readings: houses built on a named

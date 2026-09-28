@@ -165,6 +165,8 @@ for rec in data.brands:
                 fail('RANGE', f'{n}: fibre figures do not reconcile (t={v["t"]} w={v["w"]} n/s/c={v["n"]}/{v["s"]}/{v["c"]} x/xh={v["x"]}/{v["xh"]})')
             if get(rec, 'dials.natural') is not None:
                 fail('ORPHAN', f'{n}: dials.natural is stored; it is derived from fibre at build')
+            if get(rec, 'dials.reach') is not None:
+                fail('ORPHAN', f'{n}: dials.reach is stored; it is derived from doors at build (own stores)')
 
 sub = {f'{st}|{c}' for st, labs in data.regions.items() for labs_, cities in [(None, sum(labs.values(), []))] for c in cities}
 for i, pl in enumerate(data.places):
