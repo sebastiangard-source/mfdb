@@ -1269,6 +1269,24 @@
       "returns": [],
       "blocked_on": "",
       "note": "the other direction of the register match; 18 priority brands have no stockist on file"
+    },
+    {
+      "id": "resale_links_2026-09-28",
+      "title": "Grailed, Depop and Poshmark links per brand",
+      "kind": "links",
+      "state": "issued",
+      "created": "2026-09-28",
+      "issued": "2026-09-28",
+      "pilot": 8,
+      "nc": "NC",
+      "brands": "all",
+      "schema": [],
+      "writes": {
+        "resale": "grailed, depop, poshmark"
+      },
+      "returns": [],
+      "blocked_on": "",
+      "note": "joins the Vinted pill on the Secondhand line"
     }
   ]
 }

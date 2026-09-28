@@ -1,0 +1,77 @@
+{
+  "not_checked": "NC",
+  "columns": [
+    {
+      "name": "brand",
+      "type": "key"
+    },
+    {
+      "name": "grailed_url",
+      "type": "url",
+      "doc": "men's listings for the brand on this marketplace; NONE if the marketplace has no way to isolate the brand"
+    },
+    {
+      "name": "grailed_method",
+      "type": "enum",
+      "values": [
+        "designer page",
+        "brand filter",
+        "text search",
+        "NONE"
+      ]
+    },
+    {
+      "name": "grailed_note",
+      "type": "str",
+      "doc": "what the filter includes or excludes: sub-lines folded in, separate companies kept out, women's leak"
+    },
+    {
+      "name": "depop_url",
+      "type": "url",
+      "doc": "men's listings for the brand on this marketplace; NONE if the marketplace has no way to isolate the brand"
+    },
+    {
+      "name": "depop_method",
+      "type": "enum",
+      "values": [
+        "designer page",
+        "brand filter",
+        "text search",
+        "NONE"
+      ]
+    },
+    {
+      "name": "depop_note",
+      "type": "str",
+      "doc": "what the filter includes or excludes: sub-lines folded in, separate companies kept out, women's leak"
+    },
+    {
+      "name": "poshmark_url",
+      "type": "url",
+      "doc": "men's listings for the brand on this marketplace; NONE if the marketplace has no way to isolate the brand"
+    },
+    {
+      "name": "poshmark_method",
+      "type": "enum",
+      "values": [
+        "designer page",
+        "brand filter",
+        "text search",
+        "NONE"
+      ]
+    },
+    {
+      "name": "poshmark_note",
+      "type": "str",
+      "doc": "what the filter includes or excludes: sub-lines folded in, separate companies kept out, women's leak"
+    },
+    {
+      "name": "source",
+      "type": "provenance"
+    },
+    {
+      "name": "note",
+      "type": "str"
+    }
+  ]
+}
