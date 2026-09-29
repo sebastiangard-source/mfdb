@@ -942,6 +942,7 @@ with sync_playwright() as p:
     ck('choosing a search result opens the card', _c[0] and _c[1]=='Hermès', _c)
     _f = pg.evaluate("(()=>{const a=document.activeElement; return [a&&a.tagName, a&&a.className, a&&a.textContent.trim().slice(0,30), hoverCard.classList.contains('pinned')]})()")
     ck('and focus is on the brand or inside its card, not the page body', _f[0] and (('brand' in (_f[1] or '')) or pg.evaluate("hoverCard.contains(document.activeElement)")), _f)
+    ck('a keyboard-opened card takes focus so Tab lands inside', pg.evaluate("hoverCard.contains(document.activeElement) || (document.activeElement && document.activeElement.classList.contains('brand'))"))
     pg.goto(url); pg.reload(); pg.wait_for_timeout(500)
     pg.click('.brand:has-text("Barbour")'); pg.wait_for_timeout(300); pg.click('#hoverCard a.detail-link'); pg.wait_for_timeout(500)
     pg.click('#detailClose'); pg.wait_for_timeout(300)

@@ -1938,6 +1938,7 @@ function hideHoverCard(){
 // hover version — which on a phone read as the card opening and then vanishing.
 let lastPointer = "mouse";
 addEventListener("pointerdown", e=>{ lastPointer = e.pointerType || "mouse"; }, {capture:true, passive:true});
+addEventListener("keydown", e=>{ if(e.key === "Tab" || e.key === "Enter" || e.key === " " || e.key.startsWith("Arrow")) lastPointer = "keyboard"; }, {capture:true, passive:true});
 const hoverCapable = ()=> lastPointer !== "touch" && !(window.matchMedia && matchMedia("(hover: none)").matches);
 document.addEventListener("mouseover", e=>{
   if(!hoverCapable()) return;
@@ -4032,7 +4033,13 @@ const VERSION = CHANGELOG[0].v;
         o.dataset.trapped = '1';
         lastFocus = document.activeElement;
         const f = focusablesIn(o);
-        (f[0] || o).focus({preventScroll:true});
+        // The hover card opens under the mouse. Moving focus into it then is what drew a
+        // focus ring on "Full brand details" on some hovers and not others — the browser's
+        // focus-visible guess depended on how recently the pointer had moved. For a card
+        // opened by mouse or touch, leave focus where it is; a keyboard-opened card still
+        // gets it, so Tab lands inside.
+        const byPointer = (o.id === 'hoverCard') && (typeof lastPointer === 'undefined' || lastPointer !== 'keyboard');
+        if(!byPointer) (f[0] || o).focus({preventScroll:true});
       } else if(!open && o.dataset.trapped){
         delete o.dataset.trapped;
         if(lastFocus && document.contains(lastFocus)) lastFocus.focus({preventScroll:true});

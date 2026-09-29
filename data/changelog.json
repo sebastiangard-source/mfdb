@@ -1,5 +1,13 @@
 [
   {
+    "v": "3.36.1",
+    "d": "29 September 2026",
+    "lede": "No stray focus ring on hover cards.",
+    "items": [
+      "<b>“Full brand details” sometimes opened with a green box around it and sometimes not.</b> The card was moving keyboard focus into itself on every open, and the browser’s guess about whether to draw a focus ring depended on how recently the mouse had moved. A card opened by mouse or touch now leaves focus alone; one opened from the keyboard still takes it, so Tab lands inside."
+    ]
+  },
+  {
     "v": "3.36.0",
     "d": "28 September 2026",
     "lede": "Region tags on the brand page; certification pills that do something.",
