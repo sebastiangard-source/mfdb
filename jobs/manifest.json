@@ -4,7 +4,7 @@
       "id": "seating_master_2026-09-13",
       "title": "Seating master — 55 rows",
       "kind": "seating",
-      "state": "issued",
+      "state": "closed",
       "created": "2026-09-13",
       "issued": "2026-09-13",
       "pilot": 8,
@@ -27,7 +27,7 @@
       "writes": {},
       "returns": [],
       "blocked_on": "",
-      "note": "Stage 1's 21 sift verdicts come back first"
+      "note": "superseded: seating now happens on sightings; 29 queued names remain in menswear_bench.md"
     },
     {
       "id": "rubric_screen_origin_2026-09",
@@ -171,7 +171,7 @@
       "id": "style_canon_2026-09",
       "title": "Style canon — Ivy ruled; workwear, surf next",
       "kind": "canon",
-      "state": "returned",
+      "state": "merged",
       "created": "2026-09-13",
       "issued": null,
       "pilot": 8,
@@ -194,7 +194,7 @@
       "writes": {},
       "returns": [],
       "blocked_on": "",
-      "note": "Ivy returned and ruled"
+      "note": "Ivy ruled and merged; workwear and surf dials now seeded directly (v3.35.0)"
     },
     {
       "id": "named_looks_survey_2026-09",
@@ -258,7 +258,7 @@
       "id": "price_pass_2026-09",
       "title": "Price pass, queues 3–5",
       "kind": "price",
-      "state": "returned",
+      "state": "closed",
       "created": "2026-09-13",
       "issued": null,
       "pilot": 8,
@@ -281,13 +281,13 @@
       "writes": {},
       "returns": [],
       "blocked_on": "non-USD price axis ruling",
-      "note": "50 of 204 checked; 47 non-USD figures held"
+      "note": "superseded by price_full_2026-09-23"
     },
     {
       "id": "midatlantic_register_2026-09-12",
       "title": "Mid-Atlantic register — 96 doors need a phone call",
       "kind": "locations",
-      "state": "returned",
+      "state": "merged",
       "created": "2026-09-13",
       "issued": "2026-09-12",
       "pilot": 8,
@@ -310,7 +310,7 @@
       "writes": {},
       "returns": [],
       "blocked_on": "",
-      "note": "desk work finished"
+      "note": "desk work merged into the register; 96 doors still need a phone call"
     },
     {
       "id": "rubric_screen_golf_2026-09-14",
@@ -389,7 +389,7 @@
       "id": "fibre_pass_2026-09-14",
       "title": "Fibre pass — the range, measured for 197 brands",
       "kind": "fibre",
-      "state": "returned",
+      "state": "merged",
       "created": "2026-09-13",
       "issued": "2026-09-13",
       "pilot": 8,
@@ -763,13 +763,13 @@
         }
       ],
       "blocked_on": "",
-      "note": "full return merged 15 Sep: 191 fibre records (193 rows less Hermès and Eleventy held); six rulings open, see triage"
+      "note": "merged 15 Sep"
     },
     {
       "id": "price_pass_2026-09-18",
       "title": "Price pass — the three unread garments, and site-search URLs",
       "kind": "price",
-      "state": "issued",
+      "state": "merged",
       "created": "2026-09-18",
       "issued": "2026-09-18",
       "pilot": 8,
@@ -1153,13 +1153,13 @@
         }
       ],
       "blocked_on": "",
-      "note": "rev4 restatement round issued 18 Sep: 4 fur/exotic highs, Fear of God polo, Fedeli, 5 blocked houses, 8 search URLs"
+      "note": "merged 19 Sep (v3.13.1); superseded by price_full_2026-09-23"
     },
     {
       "id": "stockist_great_put_on_2026-09-18",
       "title": "The Great Put On — shop record and brand sift",
       "kind": "stockist",
-      "state": "issued",
+      "state": "merged",
       "created": "2026-09-18",
       "issued": "2026-09-18",
       "pilot": 1,
@@ -1183,13 +1183,14 @@
       ],
       "writes": {},
       "returns": [],
-      "blocked_on": ""
+      "blocked_on": "",
+      "note": "merged 18 Sep (Golden Goose seated; Autumn Cashmere benched)"
     },
     {
       "id": "garment_links_2026-09-19",
       "title": "Men's garment links, per brand per garment",
       "kind": "links",
-      "state": "issued",
+      "state": "merged",
       "created": "2026-09-19",
       "issued": "2026-09-19",
       "pilot": 8,
@@ -1199,7 +1200,7 @@
       "writes": {},
       "returns": [],
       "blocked_on": "",
-      "note": "replaces search links on garment labels with men's listing URLs"
+      "note": "merged 22 Sep (v3.15.0)"
     },
     {
       "id": "tech_rescore_2026-09-20",
