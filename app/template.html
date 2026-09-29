@@ -662,6 +662,9 @@
     font-weight:500;letter-spacing:.03em;color:var(--lf-green);background:rgba(18,59,43,.09);vertical-align:2px;cursor:pointer}
   .bo-region:hover,.bo-region:focus-visible{background:rgba(18,59,43,.2);outline:none}
   .bo-all{color:var(--lf-green);text-decoration:none;border-bottom:1px solid rgba(18,59,43,.35)}
+  .bo-scope{font:inherit;font-size:12px;padding:5px 12px;border-radius:14px;border:1px solid var(--lf-green);background:var(--lf-green);color:#F2ECDD;cursor:pointer;margin:2px 0 8px}
+  .bo-scope b{font-weight:400;margin-left:6px}
+  .bo-scope-name{font-family:'Inter',system-ui,sans-serif;font-size:15px;font-weight:400;color:var(--ink-faint)}
   .bo-tools{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center;margin:8px 0 10px}
   #boSearch{font:inherit;font-size:13px;padding:6px 10px;border:1px solid var(--hairline);border-radius:14px;background:transparent;color:var(--ink);min-width:220px}
   .bo-kinds{display:flex;gap:8px;margin:0}
@@ -2412,12 +2415,6 @@ function closeDetail(){
   if(location.hash.startsWith("#brand=")) history.replaceState(null,"",location.pathname+location.search);
 }
 detailBody.addEventListener("click", e=>{
-  const t = e.target.closest(".dv-regtag");
-  if(!t) return;
-  detailView.classList.remove("show");
-  renderBoutiques(t.dataset.region, "all"); openHash(boutiquesHash());
-});
-detailBody.addEventListener("click", e=>{
   const cb = e.target.closest(".dv-cert-btn");
   if(!cb) return;
   const k = cb.dataset.cert;
@@ -2577,6 +2574,7 @@ function routeLinks(rows){
 let boKind = "all";   // all | shop | own
 let boView = "region";  // region | az
 let boQuery = "";
+let boBrand = null;     // a brand key: the index scoped to that brand's own doors and stockists
 const boOpen = new Set();   // regions the reader has expanded this session
 function stateOrder(){
   return ["MA","RI","CT","NH","VT","ME","NY","NJ","PA","DE"].concat(
@@ -2587,6 +2585,7 @@ function boutiquesHash(){
   if(boRegion) parts.push(regionSlug(boRegion));
   if(boKind !== "all") parts.push(boKind);
   if(boView === "az") parts.push("az");
+  if(boBrand) parts.push("b:" + boBrand.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,""));
   return "#stores" + (parts.length ? "=" + parts.join("+") : "");
 }
 // Which mapped brands each independent shop carries, from the brands' own stockist lists.
@@ -2649,11 +2648,17 @@ function matchesQuery(p){
   const q = boQuery.toLowerCase();
   return [p.n, p.c, p.s, ST_NAME[p.s] || "", subregionOf(p)].some(x=>String(x).toLowerCase().includes(q));
 }
-function renderBoutiques(region, kind, view){
+function brandFromSlug(slug){
+  return Object.keys(REGION).find(n=>n.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"")===slug) || null;
+}
+function renderBoutiques(region, kind, view, brand){
   boRegion = region || null;
   boKind = kind || "all";
   if(view) boView = view;
-  const all = PLACES.map((p,i)=>[p,i]).filter(([p])=>p.k==="s" || p.k==="o")
+  if(brand !== undefined) boBrand = brand;
+  // Scoped to a brand: only the places linked to it (own doors and stockists).
+  const scope = boBrand && REGION[boBrand] ? new Set((REGION[boBrand].o||[]).concat(REGION[boBrand].s||[])) : null;
+  const all = PLACES.map((p,i)=>[p,i]).filter(([p,i])=>(p.k==="s" || p.k==="o") && (!scope || scope.has(i)))
                     .sort((a,b)=>a[0].n.localeCompare(b[0].n, "en", {sensitivity:"base"}) || a[0].c.localeCompare(b[0].c));
   const nShop = all.filter(([p])=>p.k==="s").length, nOwn = all.length - nShop;
   let idx = boRegion ? all.filter(([p])=>subregionOf(p)===boRegion) : all;
@@ -2664,11 +2669,12 @@ function renderBoutiques(region, kind, view){
       `<button class="bo-kind${boKind===k?" on":""}" data-kind="${k}">${t}</button>`).join("");
   const views = [["region","By region"],["az","A to Z"]].map(([k,t])=>
       `<button class="bo-view${boView===k?" on":""}" data-view="${k}">${t}</button>`).join("");
+  const scopePill = boBrand ? `<button class="bo-scope" type="button" title="Show every store in ${esc(boRegion || REGION_NAME)}">showing ${esc(boBrand)} only <b>\u00d7</b></button>` : "";
   const head = (boRegion
-    ? `<h2>${esc(boRegion)}</h2>`
+    ? `<h2>${esc(boRegion)}${boBrand ? ` <span class="bo-scope-name">\u00b7 ${esc(boBrand)}</span>` : ""}</h2>${scopePill}`
       + `<p class="bo-lead">${idx.length} store${idx.length===1?"":"s"} in ${esc(boRegion)}. `
       + `<a class="bo-all" href="#stores">all ${all.length} stores in ${REGION_NAME} \u2192</a></p>`
-    : `<h2>Stores</h2>`
+    : `<h2>Stores${boBrand ? ` <span class="bo-scope-name">\u00b7 ${esc(boBrand)}</span>` : ""}</h2>${scopePill}`
       + `<p class="bo-lead">${nOwn.toLocaleString()} stores owned and run by the brands themselves across ${states.size} states, and ${nShop} independent shops in ${REGION_NAME}, where the register has been walked so far.</p>`)
     + `<div class="bo-tools"><input id="boSearch" type="search" placeholder="Name, town or region" value="${esc(boQuery)}" aria-label="Filter stores">`
     + `<div class="bo-kinds">${chips}</div><div class="bo-kinds">${views}</div></div>`
@@ -2724,13 +2730,14 @@ function closeBoutiques(){
 function routeBoutiques(){
   const m = /^#(?:stores|boutiques)(?:=(.+))?$/.exec(location.hash);
   if(!m) return false;
-  let region = null, kind = "all", view = "region";
+  let region = null, kind = "all", view = "region", brand = null;
   for(const part of (m[1] ? m[1].split("+") : [])){
     if(part === "shop" || part === "own") kind = part;
     else if(part === "az") view = "az";
+    else if(part.startsWith("b:")) brand = brandFromSlug(part.slice(2));
     else region = regionFromSlug(part);
   }
-  renderBoutiques(region, kind, view);
+  renderBoutiques(region, kind, view, brand);
   return true;
 }
 boBody.addEventListener("click", e=>{
@@ -2739,6 +2746,12 @@ boBody.addEventListener("click", e=>{
   if(b.dataset.kind) renderBoutiques(boRegion, b.dataset.kind);
   else renderBoutiques(boRegion, boKind, b.dataset.view);
   history.replaceState(null,"",boutiquesHash());
+});
+// the scope pill widens the view to the whole region
+boBody.addEventListener("click", e=>{
+  const b = e.target.closest("button.bo-scope");
+  if(!b) return;
+  renderBoutiques(boRegion, boKind, undefined, null); history.replaceState(null,"",boutiquesHash());
 });
 // a multi-door pill expands to its towns; tapping it again collapses
 boBody.addEventListener("click", e=>{
@@ -2770,8 +2783,11 @@ document.addEventListener("click", e=>{
   if(!t) return;
   e.preventDefault(); e.stopPropagation();
   if(typeof shopView !== "undefined") shopView.classList.remove("show");
-  renderBoutiques(t.dataset.region, boKind);
-  history.replaceState(null,"",boutiquesHash());
+  // From a brand page, the region is scoped to that brand; from anywhere else, unscoped.
+  const fromBrand = t.classList.contains("dv-regtag") && detailView.classList.contains("show") ? (currentBrand || null) : null;
+  if(fromBrand) detailView.classList.remove("show");
+  renderBoutiques(t.dataset.region, fromBrand ? "all" : boKind, undefined, fromBrand);
+  if(fromBrand) openHash(boutiquesHash()); else history.replaceState(null,"",boutiquesHash());
 }, true);
 document.addEventListener("keydown", e=>{
   if(e.key!=="Enter" && e.key!==" ") return;
@@ -2786,7 +2802,7 @@ boBody.addEventListener("click", e=>{
 document.getElementById("boClose").addEventListener("click", closeBoutiques);
 ["boutiquesBtn","boutiquesBtn2"].forEach(id=>{
   const el = document.getElementById(id);
-  if(el) el.addEventListener("click", ()=>{ renderBoutiques(); openHash("#stores"); });
+  if(el) el.addEventListener("click", ()=>{ renderBoutiques(null, "all", undefined, null); openHash("#stores"); });
 });
 
 addEventListener("hashchange", routeBoutiques);
