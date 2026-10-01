@@ -928,6 +928,7 @@ with sync_playwright() as p:
     pg.set_viewport_size({'width':1400,'height':900})
     pg.goto(url); pg.reload(); pg.wait_for_timeout(500)
     pg.evaluate("()=>{for(const [k,v] of [['tech',4],['craft',3]]){const d=document.querySelector('.dial[data-attr=\"'+k+'\"] input[type=range]'); d.value=v; d.dispatchEvent(new Event('input',{bubbles:true})); d.dispatchEvent(new Event('change',{bubbles:true}));}}"); pg.wait_for_timeout(600)
+    ck('the results line sits at the top of the rail', pg.evaluate("(()=>{const b=document.getElementById('resultBar'); const c=document.getElementById('clearAll'); return b.getBoundingClientRect().top < c.getBoundingClientRect().top + 120})()"))
     ck('desktop shows a results line when filters are on', pg.evaluate("getComputedStyle(document.getElementById('resultBar')).display")!='none' and 'See' in pg.evaluate("document.getElementById('resultBar').textContent"))
     ck('the why panel no longer scrolls inside itself on desktop', pg.evaluate("getComputedStyle(document.getElementById('whyPanel')).overflowY")!='auto')
     ck('every matching card is fully inside the document', pg.evaluate("[...document.querySelectorAll('.whycard')].every(c=>{const r=c.getBoundingClientRect(); return r.bottom+scrollY<=document.documentElement.scrollHeight+1})"))

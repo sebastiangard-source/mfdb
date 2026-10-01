@@ -557,7 +557,7 @@
   .legend-toggle{display:none}
   #resultBar{display:none}
   @media (min-width:701px){
-    .legend #resultBar[data-active="1"]{display:block;position:static;width:100%;margin-top:10px;padding:9px 12px;
+    .legend #resultBar[data-active="1"]{display:block;position:static;width:100%;margin:0 0 12px;padding:9px 12px;
       border:1px solid var(--lf-green);border-radius:8px;background:transparent;color:var(--lf-green);
       font-family:Inter,system-ui,sans-serif;font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;font-weight:600;cursor:pointer}
     .legend #resultBar[data-active="1"][data-empty="1"]{border-color:#8a4a3a;color:#8a4a3a}
@@ -1391,6 +1391,7 @@
          this long it sat off-screen whenever it was wanted. The phone uses the
          sticky dial strip instead and never shows this rail. -->
     <button class="clearall" id="clearAll">Clear all</button>
+    <div id="resultSlot"></div>
 
         <details class="grp" open><summary class="lab">Focus<span class="gn">10</span><span class="gchev">&#8250;</span></summary><div class="gbody"><div class="dial" data-attr="tech" style="--ac:var(--tech)"><span class="dl" data-tip="How technical the clothes are — performance fabrics, engineered construction, measurable function. Scored on what the brand sells, not on who invented it." tabindex="0">tech</span><input type="range" min="0" max="5" value="0" step="1" aria-label="Tech focus"><span class="dv">off</span></div>
     <div class="dial" data-attr="comfort" style="--ac:var(--comfort)"><span class="dl" data-tip="How central softness and physical ease are to what the brand sells — fiber, stretch, drape, wash." tabindex="0">comfort</span><input type="range" min="0" max="5" value="0" step="1" aria-label="Comfort focus"><span class="dv">off</span></div>
@@ -3202,6 +3203,15 @@ function closeAllPanels(){
   const hc = document.getElementById("hoverCard"); if(hc) hc.classList.remove("pinned","show");
   detailReturn = null;
 }
+// On desktop the results line lives at the top of the rail with Clear all — the same
+// reasoning that moved Clear all up: at the foot of a rail this long it sat off-screen
+// whenever it was wanted. The phone keeps the fixed bar at the bottom of the screen.
+(function placeResultBar(){
+  const bar = document.getElementById("resultBar"), slot = document.getElementById("resultSlot");
+  if(!bar || !slot) return;
+  const place = ()=>{ if(window.innerWidth > 700 && window.innerHeight >= 480){ if(bar.parentNode !== slot) slot.appendChild(bar); } else if(bar.parentNode === slot) document.body.appendChild(bar); };
+  place(); addEventListener("resize", place);
+})();
 function routeFromHash(){
   if(!location.hash){ closeAllPanels(); return; }
   if(location.hash.startsWith("#brand=")){
