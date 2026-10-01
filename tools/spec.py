@@ -179,7 +179,8 @@ def consts(data):
         share = 100 * f['n'] / disc
         # Bands re-cut 27 Sep 2026 on the measured distribution (median 89%): a 5 is an
         # all-natural house, a 4 the ordinary good menswear brand. Was 85/65/40/20.
-        nat[rec['name']] = 5 if share >= 95 else 4 if share >= 85 else 3 if share >= 70 else 2 if share >= 45 else 1
+        # Re-cut again 1 Oct 2026: the top step is absolute — not one synthetic-led style.
+        nat[rec['name']] = 5 if share >= 99.95 else 4 if share >= 95 else 3 if share >= 85 else 2 if share >= 70 else 1
     by_const['NATURAL'] = nat
     # REACH is "own stores", derived from the verified US door count, never authored (28 Sep 2026).
     reach = collections.OrderedDict()

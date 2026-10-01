@@ -37,13 +37,14 @@ with sync_playwright() as p:
     # Peter Millar is 55% natural-led: a 2 on the re-cut bands (27 Sep), so the split-house
     # filter is natural >= 2 with tech >= 3.
     pg.eval_on_selector('.dial[data-attr="natural"] input',
-       "e=>{e.value=2;e.dispatchEvent(new Event('input',{bubbles:true}))}")
+       "e=>{e.value=1;e.dispatchEvent(new Event('input',{bubbles:true}))}")
     pg.eval_on_selector('.dial[data-attr="tech"] input',
        "e=>{e.value=3;e.dispatchEvent(new Event('input',{bubbles:true}))}")
     pg.wait_for_timeout(550)
     # Was exactly ['Peter Millar'] when seven brands were counted; with 195 the set is
     # larger, and the invariant is that Peter Millar is in it and nothing uncounted is.
     _pm = pg.eval_on_selector_all('.brand',"e=>e.filter(x=>!x.classList.contains('out')).map(x=>[x.textContent,x.dataset.natural])")
+    ck('a 5 on natural fiber is an all-natural range', pg.evaluate("Object.keys(NATURAL).filter(k=>NATURAL[k]===5).length")<=15 and pg.evaluate("NATURAL['Loro Piana']")==5 and pg.evaluate("NATURAL['J.Crew']")==4)
     ck('natural and tech together find the split house',
        any(n=='Peter Millar' for n,_ in _pm) and all(v!='99' for _,v in _pm), f'{len(_pm)} shown')
     pg.goto(url+'#brand=Peter%20Millar'); pg.reload(); pg.wait_for_timeout(430)
@@ -814,7 +815,7 @@ with sync_playwright() as p:
     pg.goto(url+"#brand=Rothy%27s"); pg.reload(); pg.wait_for_timeout(400)
     fl = pg.evaluate("document.querySelector('#detailBody .fibre-line')?.innerText || ''")
     ck("Rothy's counted zero reads as a finding", 'no men' in fl and 'zero is the finding' in fl, fl[:80])
-    ck('natural dial derived for the seven at their old bands', pg.evaluate("[...document.querySelectorAll('.brand')].filter(b=>['J.Crew','Merz b. Schwanen','Todd Snyder','Loro Piana'].includes(b.textContent.trim())).every(b=>b.dataset.natural==='5')"))
+    ck('natural dial values follow the 1 Oct bands', pg.evaluate("Object.keys(NATURAL).every(k=>{const f=FIBRE[k]; const tot=(f.n||0)+(f.s||0)+(f.c||0)||1; const sh=100*f.n/tot; const v=sh>=99.95?5:sh>=95?4:sh>=85?3:sh>=70?2:1; return NATURAL[k]===v})"))
     ck('natural dial covers most of the map now', pg.evaluate("[...document.querySelectorAll('.brand')].filter(b=>b.dataset.natural!=='99').length")>=190)
 
     head('lead line')
