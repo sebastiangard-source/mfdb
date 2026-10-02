@@ -1,5 +1,13 @@
 [
   {
+    "v": "3.38.2",
+    "d": "2 October 2026",
+    "lede": "Sliders hold still.",
+    "items": [
+      "<b>Moving a dial shifted the whole rail down under the pointer</b>: the results line appearing at the top of the rail pushed everything below it. The line now keeps its space whether or not it is showing, so a slider stays where your hand is."
+    ]
+  },
+  {
     "v": "3.38.1",
     "d": "1 October 2026",
     "lede": "“See N brands” moves to the top of the rail.",
