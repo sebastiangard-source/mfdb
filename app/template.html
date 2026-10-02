@@ -255,7 +255,7 @@
   .hp-gap{margin-left:8px;font-size:10px;color:var(--ink-faint);font-style:italic;letter-spacing:0;text-transform:none}
   .pv-note{font-size:11.5px;color:var(--ink-faint);margin:-4px 0 10px}
   #detailView .noterow-five .nv{color:var(--ink)}
-  #detailView .why5{font-size:9.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--lf-green);margin-left:8px}
+  #detailView .why5{display:block;font-size:9.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--lf-green);margin-top:2px}
   #detailView .dv-pills{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin:6px 0 10px}
   #detailView .dv-pills-lab{font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint);margin-right:4px}
   #detailView .dv-pill{font-size:12px;padding:4px 11px;border-radius:12px;background:rgba(18,59,43,.07);color:var(--ink);text-decoration:none}
@@ -1657,7 +1657,7 @@ const FABTERM = {denim:"denim",cashmere:"cashmere",linen:"linen",cotton:"cotton"
 /*@@DOORS@@*/
 
   /*@@CITIES@@*/
-const DIMLABEL = {sail:"sail \u2194 power",bruv:"bruv \u2194 bruh",tech:"tech",comfort:"comfort",craft:"craft & heritage",style:"style",denim:"denim",cashmere:"cashmere",linen:"linen",cotton:"fine cotton",wool:"wool",synth:"synthetics",golf:"golfiness",status:"status",finbro:"finance bro",ivy:"ivy league",murica:"’murica",ital:"italianness",fren:"frenchness",street:"street",avant:"avant-garde",prep:"prep",weird:"weird",boat:"boat",racquet:"racquet",ski:"ski",scandi:"scandi man",briish:"bri\u2019ish",fuss:"ease of care",dur:"durability",forg:"fit flexibility",reach:"own stores",shoes:"shoes",whitet:"white tee",logo:"logo",western:"western",rock:"rock",workwear:"workwear",outdoor:"outdoor",surf:"surf",normcore:"normcore",golffice:"golffice"};
+const DIMLABEL = {sail:"sail \u2194 power",bruv:"bruv \u2194 bruh",tech:"tech",comfort:"comfort",craft:"craft & heritage",style:"style",denim:"denim",cashmere:"cashmere",linen:"linen",cotton:"fine cotton",wool:"wool",synth:"synthetics",golf:"golfiness",status:"status",finbro:"finance bro",ivy:"ivy league",murica:"’murica",ital:"italianness",fren:"frenchness",street:"street",avant:"avant-garde",prep:"prep",weird:"weird",boat:"boat",racquet:"racquet",ski:"ski",scandi:"scandi man",briish:"bri\u2019ish",fuss:"ease of care",dur:"durability",forg:"fit flexibility",reach:"own stores",shoes:"shoes",natural:"natural fiber",whitet:"white tee",logo:"logo",western:"western",rock:"rock",workwear:"workwear",outdoor:"outdoor",surf:"surf",normcore:"normcore",golffice:"golffice"};
 
 // ---------- hover dossier popup ----------
 const hoverCard = document.createElement("div");
@@ -2133,7 +2133,7 @@ const detailBody = document.getElementById("detailBody");
 function esc(t){ return String(t).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); }
 
 function derivedReason(name, k, v){
-  if(k === "natural" && v === 5){ const f = FIBRE[name]; return f ? `every one of the ${f.t} styles read states a natural main fiber; nothing in the range is synthetic-led` : ""; }
+  if(k === "natural" && v === 5){ const f = FIBRE[name]; return f ? `every style that states a composition (${f.w} of ${f.t} read) is natural-led; nothing in the range is synthetic-led` : ""; }
   if(k === "reach" && v === 5){ const d = DOORS[name]; return d ? `${d.n} stores of its own in the US` : ""; }
   if(k === "normcore" && v === 5) return "no culture dial, nor Logo nor Style, scores above 1";
   return "";
