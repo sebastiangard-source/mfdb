@@ -254,6 +254,8 @@
   .pv-links{margin-left:6px}
   .hp-gap{margin-left:8px;font-size:10px;color:var(--ink-faint);font-style:italic;letter-spacing:0;text-transform:none}
   .pv-note{font-size:11.5px;color:var(--ink-faint);margin:-4px 0 10px}
+  #detailView .noterow-five .nv{color:var(--ink)}
+  #detailView .why5{font-size:9.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--lf-green);margin-left:8px}
   #detailView .dv-pills{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin:6px 0 10px}
   #detailView .dv-pills-lab{font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint);margin-right:4px}
   #detailView .dv-pill{font-size:12px;padding:4px 11px;border-radius:12px;background:rgba(18,59,43,.07);color:var(--ink);text-decoration:none}
@@ -2130,9 +2132,18 @@ const detailBody = document.getElementById("detailBody");
 
 function esc(t){ return String(t).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); }
 
+function derivedReason(name, k, v){
+  if(k === "natural" && v === 5){ const f = FIBRE[name]; return f ? `every one of the ${f.t} styles read states a natural main fiber; nothing in the range is synthetic-led` : ""; }
+  if(k === "reach" && v === 5){ const d = DOORS[name]; return d ? `${d.n} stores of its own in the US` : ""; }
+  if(k === "normcore" && v === 5) return "no culture dial, nor Logo nor Style, scores above 1";
+  return "";
+}
 function noteFor(el, k){
   const name = el.textContent.trim();
   let note = (NOTES[el.textContent]||{})[k] || "";
+  // a seed note says where a score came from, not why; it is not a reason to show
+  if(/^seeded \d/i.test(note)) note = "";
+  if(!note) note = derivedReason(name, k, +el.dataset[k]);
   if(k === "forg" && FORGC[name]){
     const c = FORGC[name], vv = FORGV[name];
     note = "cut " + c[0] + " \u00b7 size range " + c[1]
@@ -2154,14 +2165,17 @@ function chipsFor(el, keys, scoredFn){
   }).join("") + `</div>`;
 }
 function notesFor(el, keys){
-  const rows = keys.map(k=>{
+  // Every 5 states its reason, first and plainly; other notes follow.
+  const ordered = keys.slice().sort((a,b)=>(+el.dataset[b]===5) - (+el.dataset[a]===5));
+  const rows = ordered.map(k=>{
     const note = noteFor(el, k);
     if(!note) return "";
     const v = +el.dataset[k];
     const shown = (v === NOT_ASSESSED) ? "\u2014" : v;
-    return `<div class="noterow"><div class="nk">`
-         + `<a class="dial-link" data-k="${k}" href="#dial=${k}">${DIMLABEL[k]}</a> <b>${shown}</b></div>`
-         + `<div class="nv">${esc(note)}</div></div>`;
+    const five = v === 5;
+    return `<div class="noterow${five?" noterow-five":""}"><div class="nk">`
+         + `<a class="dial-link" data-k="${k}" href="#dial=${k}">${DIMLABEL[k]}</a> <b>${shown}</b>${five?`<span class="why5">why a 5</span>`:""}</div>`
+         + `<div class="nv">${esc(note.replace(/\s*\u2014\s*seeded .*$/i,"").replace(/\s*\[authored findability.*\]$/,""))}</div></div>`;
   }).filter(Boolean).join("");
   return rows ? `<div class="notes">${rows}</div>` : "";
 }
@@ -2363,8 +2377,9 @@ function renderDetail(name){
     ${doorsHTML(name)}
     ${pricesHTML(name)}
     <h3>Attributes</h3>${chipsFor(el, ATTRKEYS, attrScored)}${notesFor(el, ATTRKEYS)}
-    <h3>Fabrics</h3>${chipsFor(el, FKEYS, fabScored)}${notesFor(el, FKEYS)}${fibreLineHTML(name)}
-    <details class="dv-fold"><summary><h3>Registers</h3><span class="dv-fold-hint">${REGKEYS.filter(k=>+el.dataset[k]>0 && +el.dataset[k]<99).length} represented \u00b7 tap to show</span></summary>${chipsFor(el, REGKEYS, regScored)}${notesFor(el, REGKEYS)}</details>
+    <h3>Fabrics</h3>${chipsFor(el, FKEYS, fabScored)}${notesFor(el, FKEYS.concat(["natural"]))}${fibreLineHTML(name)}
+    ${notesFor(el, REGKEYS.filter(k=>+el.dataset[k]===5))}
+    <details class="dv-fold"><summary><h3>Registers</h3><span class="dv-fold-hint">${REGKEYS.filter(k=>+el.dataset[k]>0 && +el.dataset[k]<99).length} represented \u00b7 tap to show</span></summary>${chipsFor(el, REGKEYS, regScored)}${notesFor(el, REGKEYS.filter(k=>+el.dataset[k]!==5))}</details>
     ${(()=>{const sl=SHOELINK[name.trim()], sv=+(SHOES[name.trim()]||0);
         if(!sl) return "";
         const words = {5:"shoes are the business", 4:"a shoe you would know by name",

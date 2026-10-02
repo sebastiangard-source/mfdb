@@ -1079,6 +1079,13 @@ with sync_playwright() as p:
     ck('a cert pill filters the map to that certification', pg.evaluate("!detailView.classList.contains('show') && document.querySelector('.chip[data-cert=\"bcorp\"]').getAttribute('aria-pressed')==='true' && [...document.querySelectorAll('.brand')].filter(b=>!b.classList.contains('out')).length===11"))
     pg.click('.chip[data-cert="bcorp"]'); pg.wait_for_timeout(200)
 
+    head('every five says why')
+    pg.set_viewport_size({'width':1400,'height':1000})
+    for bn in ('Sunspel','Loro Piana','Tecovas'):
+        pg.goto(url+'#brand='+bn.replace(' ','%20')); pg.reload(); pg.wait_for_timeout(400)
+        _fv = pg.evaluate("(()=>{const el=[...document.querySelectorAll('.brand')].find(b=>b.textContent.trim()==='%s'); const keys=Object.keys(el.dataset).filter(k=>el.dataset[k]==='5'); const shown=[...document.querySelectorAll('#detailBody .noterow-five .nk a')].map(a=>a.dataset.k); return [keys, shown]})()" % bn)
+        ck('%s: every 5 has a stated reason' % bn, set(_fv[0]) <= set(_fv[1]), _fv)
+
     head('prev / next')
     pg.set_viewport_size({'width':1400,'height':1000})
     pg.goto(url+'#brand=Barbour'); pg.reload(); pg.wait_for_timeout(420)
