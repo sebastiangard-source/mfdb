@@ -1,0 +1,128 @@
+{
+  "not_checked": "NC",
+  "columns": [
+    {
+      "name": "brand",
+      "type": "key"
+    },
+    {
+      "name": "owned_facility",
+      "type": "enum",
+      "values": [
+        "yes",
+        "no",
+        "unclear"
+      ],
+      "doc": "the brand owns a factory, mill or workshop that makes what it sells"
+    },
+    {
+      "name": "owned_facility_detail",
+      "type": "str"
+    },
+    {
+      "name": "named_makers",
+      "type": "enum",
+      "values": [
+        "yes",
+        "some",
+        "no"
+      ],
+      "doc": "product pages or the site name the factory or maker"
+    },
+    {
+      "name": "named_makers_detail",
+      "type": "str"
+    },
+    {
+      "name": "named_mills",
+      "type": "enum",
+      "values": [
+        "yes",
+        "some",
+        "no"
+      ],
+      "doc": "product pages name the cloth or yarn mill"
+    },
+    {
+      "name": "named_mills_detail",
+      "type": "str"
+    },
+    {
+      "name": "made_in_stated",
+      "type": "enum",
+      "values": [
+        "every product",
+        "most",
+        "some",
+        "none"
+      ]
+    },
+    {
+      "name": "made_in_countries",
+      "type": "str"
+    },
+    {
+      "name": "heritage_claim",
+      "type": "enum",
+      "values": [
+        "dated and placed",
+        "vague",
+        "none"
+      ]
+    },
+    {
+      "name": "heritage_evidence",
+      "type": "str"
+    },
+    {
+      "name": "repair_or_care_program",
+      "type": "enum",
+      "values": [
+        "yes",
+        "no"
+      ]
+    },
+    {
+      "name": "process_documented",
+      "type": "enum",
+      "values": [
+        "yes",
+        "some",
+        "no"
+      ],
+      "doc": "the brand publishes how its product is made, specifically"
+    },
+    {
+      "name": "evidence_url_1",
+      "type": "url"
+    },
+    {
+      "name": "evidence_url_2",
+      "type": "url"
+    },
+    {
+      "name": "proposed_craft",
+      "type": "int",
+      "range": [
+        1,
+        5
+      ]
+    },
+    {
+      "name": "current_craft",
+      "type": "int"
+    },
+    {
+      "name": "reasoning",
+      "type": "str"
+    },
+    {
+      "name": "source",
+      "type": "provenance"
+    },
+    {
+      "name": "note",
+      "type": "str"
+    }
+  ]
+}

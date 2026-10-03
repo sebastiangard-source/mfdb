@@ -1,6 +1,6 @@
 # Job board — derived from jobs/manifest.json by job.py; do not edit
 
-_21 jobs · rewritten 2026-09-29_
+_22 jobs · rewritten 2026-10-03_
 
 | job | state | issued | kind | merged/returned | blocked on / note |
 |---|---|---|---|---|---|
@@ -25,3 +25,4 @@ _21 jobs · rewritten 2026-09-29_
 | stockists_from_brands_2026-09-28 | issued | 2026-09-28 | locations |  | the other direction of the register match; 18 priority brands have no stockist on file |
 | resale_links_2026-09-28 | issued | 2026-09-28 | links |  | joins the Vinted pill on the Secondhand line |
 | logo_count_2026-09-28 | issued | 2026-09-28 | count |  | CR-5 |
+| craft_audit_2026-10-03 | issued | 2026-10-03 | evidence |  | restarted 3 Oct after the Mohnton note was found on the wrong brand |
