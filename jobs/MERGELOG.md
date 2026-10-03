@@ -1624,3 +1624,5 @@ Held: [('Carhartt', 'sweater NONE — a house with no crewneck still makes sweat
 - Kiton: shop None -> https://us.kiton.com/search?q=
 
 ## 2026-09-28 · stockists_from_brands · Easy Mondays (priority-1 row): Fore & Wharf: Easy Mondays added; new shop: Martin NYC, Brooklyn NY (places 3201); new shop: Morton's, Cedarhurst NY (places 3202); Murray's Toggery: Easy Mondays added
+
+## 2026-10-03 · correction · the Mohnton Knitting Mills note was on Proper Cloth's record; it is Buck Mason's (bought 2023). Proper Cloth's craft note rewritten; Buck Mason's craft note written.
