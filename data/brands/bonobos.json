@@ -6,7 +6,7 @@
   "focus": {
     "tech": 2,
     "comfort": 3,
-    "craft": 1,
+    "craft": 2,
     "style": 3
   },
   "fabric": {
@@ -158,7 +158,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "Bonobos product pages give fiber content and 'Imported' with no country, but a few tailoring items name the cloth mill (Abraham Moon on the Alma Mater blazer, Marzotto on a stretch Italian wool tuxedo). No factory is named and nothing is owned."
   },
   "price_evidence": {
     "T-shirt": {
@@ -226,5 +227,22 @@
       "m": "brand filter",
       "n": ""
     }
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "No owned factory claimed on anything read; PDPs say only 'Imported'. /about and /pages/faq returned 404, so no brand statement on making was seen.",
+    "makers": "no",
+    "mills": "some",
+    "madein": "none",
+    "countries": "No country of make: 3/4 rendered PDPs say only 'Imported' (wool blazer, 5-pocket pant, linen shirt); 1/4 (Jetsetter Italian wool suit) showed no origin line at all. Sample of 4 PDPs + body text of ~11 more in collection JSON (suits, shirts).",
+    "heritage": "NC",
+    "repair": "NC",
+    "process": "no",
+    "urls": [
+      "https://bonobos.com/products/alma-mater-wool-blazer-blackwatch-plaid-0",
+      "https://bonobos.com/collections/suits/products.json"
+    ],
+    "conf": "medium",
+    "read": "2026-10-03"
   }
 }

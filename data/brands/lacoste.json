@@ -6,7 +6,7 @@
   "focus": {
     "tech": 2,
     "comfort": 3,
-    "craft": 2,
+    "craft": 4,
     "style": 3
   },
   "fabric": {
@@ -67,7 +67,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "Lacoste's savoir-faire page describes its Troyes factories, with 500 staff assembling the polo, and its Made in France pieces say 'Made in France' or 'Made in Troyes' on the product page. Most of the range shows no origin on the page, and the company is reported to make over 70% of its clothing outside Europe. That is owned making for part of the range, not the whole: a 4."
   },
   "doors": {
     "c": "full",
@@ -236,5 +237,22 @@
     "t": "runway",
     "u": "https://www.lacoste.com/us/news-fashion/lacoste-runway-show.html",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "yes",
+    "owned_d": "Brand savoir-faire page (lacoste.com/us/lacoste-inside/savoir-faire.html) describes 'the Troyes factories' with 500 employees (pattern makers, garment-makers), polo assembled in ~40 minutes with 25 quality checks. Ownership is group-level: French Wikipedia says Maus Freres (MF Brands) took 100% of Lacoste in 2012 and that the Troyes site, operated by group company Devanlay (worldwide Lacoste clothing licensee, now part of the same group), 'assure la fabrication du polo Lacoste, ainsi que d'autres articles textiles' since 1987; it also says more than 70% of Lacoste clothing is made outside Europe. So owned making covers part of the polo/knitwear output, not the range.",
+    "makers": "some",
+    "mills": "no",
+    "madein": "some",
+    "countries": "France 2/8 (the Made in France L.12.12 polo PH8135 and Made in France Archive cardigan AH1032); no origin visible on 6/8 (L1212 Original, PH9851, PH3598, PH9728 polos; AH1985 crew sweater; AH5170 bomber) - origin may be in an accordion the fetch could not see. Sample of 8 PDPs on lacoste.com/us: polos and knitwear/outerwear only.",
+    "heritage": "dated and placed",
+    "repair": "NC",
+    "process": "some",
+    "urls": [
+      "https://www.lacoste.com/us/lacoste-inside/savoir-faire.html",
+      "https://www.lacoste.com/us/lacoste/men/clothing/sweaters-sweatshirts/AH1032-51.html?color=3UU"
+    ],
+    "conf": "medium",
+    "read": "2026-10-03"
   }
 }

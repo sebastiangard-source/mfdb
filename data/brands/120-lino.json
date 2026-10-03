@@ -35,7 +35,7 @@
     "surf": 2
   },
   "why": "Linen clothing only — shirts, trousers, jackets — garment-dyed and made in Italy.",
-  "origin": "Founded in 1980 by Alberto Peretto.",
+  "origin": "Founded in 1983 by Alberto Peretto.",
   "say": "LEE-no",
   "chan": ["O", "W"],
   "conf": "S",
@@ -60,7 +60,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "The 120% Lino pages read (home, Story of a Journey, Shades of Dyeing, one product feed) name no factory, dye house or mill and own nothing, and they explain garment dyeing only as a technique. Product pages were not read, so country of make is unknown. The score is held at the current 3 for lack of a complete read, not on positive evidence. [audit proposed 3 at low confidence; held at 3 pending a second read]"
   },
   "doors": {
     "c": "full",
@@ -179,5 +180,22 @@
       "m": "brand filter",
       "n": ""
     }
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "No owned factory, dye house or workshop is named on the pages read. 'Story of a Journey' and 'Shades of Dyeing' describe garment dyeing as a technique but give no place, and do not say whether dyeing is in-house.",
+    "makers": "NC",
+    "mills": "no",
+    "madein": "NC",
+    "countries": "NC: no PDP HTML loaded (fetch budget exhausted). The slim-fit linen shirt .json body has no origin line, but a collapsed tab may hold it. The home page speaks of 'Italian linen luxury' without stating a country of make.",
+    "heritage": "dated and placed",
+    "repair": "no",
+    "process": "some",
+    "urls": [
+      "https://120percento.com/pages/story-of-a-journey",
+      "https://120percento.com/pages/shades-of-dyeing"
+    ],
+    "conf": "low",
+    "read": "2026-10-03"
   }
 }

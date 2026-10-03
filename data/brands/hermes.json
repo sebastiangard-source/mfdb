@@ -6,7 +6,7 @@
   "focus": {
     "tech": 1,
     "comfort": 3,
-    "craft": 5,
+    "craft": 4,
     "style": 4
   },
   "fabric": {
@@ -54,7 +54,7 @@
     "u": "https://www.hermes.com/us/en/search/?s=loafer"
   },
   "notes": {
-    "craft": "ateliers that rebuild decades-old pieces; no licensees, no wholesale",
+    "craft": "Hermès's 2025 Universal Registration Document reports 79 owned production sites and 55% of output from in-house and exclusive workshops, centred on leather goods, tanneries, silk/textiles and other métiers. It names no owned ready-to-wear site, and men's PDPs mostly say 'Made in Italy' with no maker named. Owned making covers a large part of the house but not demonstrably the clothing, so 4 for a clothing score.",
     "status": "the terminal status brand — waitlists as architecture",
     "finbro": "the H belt as bonus-day announcement",
     "fren": "French luxury's constitutional monarchy",
@@ -219,5 +219,22 @@
     "t": "runway",
     "u": "https://www.hermes.com/us/en/content/344007-men-fall-winter-2026-runway-show/",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "yes",
+    "owned_d": "Group (Hermès International, brand = group) says it operates '79 fully owned production and training sites, including 63 in France', and '55% manufactured in its in-house and exclusive workshops' (2025 URD, pp.18, 26). Owned métiers listed: leather goods and saddlery, tanneries, silk/textiles, shoes, crystal, porcelain, jewellery, perfume, watches. The URD text read does not identify any site for ready-to-wear or menswear, and does not say RTW is made in-house; leather goods also use 'a network of long-standing French partners'.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "every product",
+    "countries": "Italy 3/5, France 2/5 (sample of 5 men's PDPs on hermes.com: overshirt H662210HD87 Italy, C.D.S. crewneck sweater H657770HA90 Italy, Malte pants H665840H801 Italy, straight-cut jeans H665400H802 France, rib-trim jacket H652330HE02 France).",
+    "heritage": "dated and placed",
+    "repair": "yes",
+    "process": "no",
+    "urls": [
+      "https://assets-finance.hermes.com/s3fs-public/node/pdf_file/2026-04/1777391712/260320_hermes_urd2025_en.pdf",
+      "https://www.hermes.com/us/en/product/overshirt-H662210HD87/"
+    ],
+    "conf": "medium",
+    "read": "2026-10-03"
   }
 }

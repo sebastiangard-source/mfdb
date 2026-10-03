@@ -6,7 +6,7 @@
   "focus": {
     "tech": 1,
     "comfort": 3,
-    "craft": 4,
+    "craft": 2,
     "style": 5
   },
   "fabric": {
@@ -58,7 +58,8 @@
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "style": "Every piece is a considered take on a mid-century American design; the designer's eye is the brand.",
-    "cotton": "Heavyweight tees, oxford cloth and pearl-snap shirting in long-staple cotton, with the fabric named on each product."
+    "cotton": "Heavyweight tees, oxford cloth and pearl-snap shirting in long-staple cotton, with the fabric named on each product.",
+    "craft": "PDPs state country and often the process stage ('knit, cut, sewn and dyed in Portugal'; 'woven in a family owned mill in India'; 'Made in China in a WRAP Gold certified facility'), but no factory or mill is ever named and nothing is owned. That is detailed country-of-make, not named making."
   },
   "doors": {
     "c": "full",
@@ -182,5 +183,22 @@
     "t": "campaign",
     "u": "https://www.wythe.com/blogs/campaigns/fall-winter-2026-winters-sun",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "No owned facility claimed; PDPs refer to unnamed partner factories ('multi-generational factory in India', 'family owned mill in India', 'WRAP Gold certified facility' in China).",
+    "makers": "no",
+    "mills": "no",
+    "madein": "most",
+    "countries": "USA (thermals; NC socks), Portugal (tees, sweatshirts), India (oxfords, flannels), China (bedford cord pants); products.json scan: 15+ state origin, 2 lacked complete origin (sample of ~20 descriptions across shirts, tees, thermals, sweatshirts, pants, socks).",
+    "heritage": "none",
+    "repair": "no",
+    "process": "some",
+    "urls": [
+      "https://www.wythe.com/products/flared-bedford-cord-five-pocket-pants-black",
+      "https://www.wythe.com/collections/shirts/products.json?limit=10"
+    ],
+    "conf": "high",
+    "read": "2026-10-03"
   }
 }

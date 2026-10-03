@@ -6,7 +6,7 @@
   "focus": {
     "tech": 4,
     "comfort": 4,
-    "craft": 1,
+    "craft": 2,
     "style": 2
   },
   "fabric": {
@@ -53,7 +53,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "Mack Weldon names no factory, mill or owned facility; its FAQ states it manufactures in WRAP-certified factories in Thailand, Peru, China, Egypt and Vietnam. Product pages read show no country of origin, so the only checkable making fact is that site-level country list. [ruled by Sebastian 4 Oct 2026]"
   },
   "doors": {
     "c": "full",
@@ -160,5 +161,19 @@
       "m": "text search",
       "n": "No Vinted brand entry; keyword search in Men"
     }
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "No owned factory claimed. FAQ says products are 'manufactured and sourced in WRAP certified factories across the globe, including Thailand, Peru, China, Egypt, and Vietnam'; about page says only 'a New York-based brand'.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "none",
+    "countries": "No country on any PDP sampled (stretch twill drawstring chino, warmknit puffer blazer, broken twill 5-pocket pant product JSON, airknitx boxer brief collection JSON; 0/4). Site-level FAQ lists Thailand, Peru, China, Egypt, Vietnam. Origin may sit in a JS-loaded/collapsed details tab the fetch could not see.",
+    "heritage": "vague",
+    "repair": "no",
+    "process": "no",
+    "urls": ["https://mackweldon.com/pages/faq", "https://mackweldon.com/pages/our-story"],
+    "conf": "medium",
+    "read": "2026-10-03"
   }
 }

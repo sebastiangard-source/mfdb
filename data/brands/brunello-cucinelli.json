@@ -6,7 +6,7 @@
   "focus": {
     "tech": 1,
     "comfort": 5,
-    "craft": 5,
+    "craft": 4,
     "style": 4
   },
   "fabric": {
@@ -80,7 +80,7 @@
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Made in and around Solomeo in the company's own workshops; the making is the brand's public argument."
+    "craft": "Cucinelli's own investor site says production 'is entrusted to approximately 400 independent highly-specialised artisan workshops', mostly in Umbria, with design and sampling done at Solomeo by its own team and over 100 tailors. So the house owns real making capacity (sampling, some internal phases, and new outerwear/suit factories reported in the 2024 annual report) but the range is made by outside workshops. That is a 4, not a 5."
   },
   "doors": {
     "c": "full",
@@ -245,5 +245,22 @@
       "m": "brand filter",
       "n": ""
     }
+  },
+  "craft_evidence": {
+    "owned": "yes",
+    "owned_d": "Owns the Solomeo (Umbria) headquarters/factory and 'Casa di Moda', where a 60-person creative team and 'over 100 tailors' design collections and make samples (investor site, business model page). The 2024 annual report also mentions new factories under development in Penne (Abruzzo) and Gubbio (Umbria) for men's outerwear and tailored suits, and internal phases like cutting and quality control (via a fetched summary of the PDF; not verified word-for-word). But the investor site says manufacturing 'is entrusted to approximately 400 independent highly-specialised artisan workshops', about 70% in Umbria, others in Tuscany, Marche and Veneto.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "every product",
+    "countries": "Italy 2/2 (both say 'manufactured in the hamlet of Solomeo, in Italy'): five-pocket trousers 262M038PF1012CBE80, crew-neck t-shirt 262M0B137451GCQJ21. Only 2 PDPs: shop listing pages render client-side; product URLs came from the en-us sitemap_1.xml.",
+    "heritage": "dated and placed",
+    "repair": "yes",
+    "process": "some",
+    "urls": [
+      "https://investor.brunellocucinelli.com/en/business-model/the-business-model",
+      "https://investor.brunellocucinelli.com/en/business-model/italian-craftmanship-and-manual-skills"
+    ],
+    "conf": "high",
+    "read": "2026-10-03"
   }
 }

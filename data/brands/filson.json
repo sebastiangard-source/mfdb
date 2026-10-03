@@ -6,7 +6,7 @@
   "focus": {
     "tech": 3,
     "comfort": 3,
-    "craft": 5,
+    "craft": 4,
     "style": 3
   },
   "fabric": {
@@ -54,7 +54,7 @@
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "dur": "Mackinaw wool and tin cloth built for Klondike prospectors; the company still repairs its bags and jackets.",
-    "craft": "Made in Seattle in the company's own factory since 1897, in the same cloths."
+    "craft": "Filson still runs its own Washington sewing floors (the SoDo flagship and Kent), and some products are labeled 'Made in USA'/'Made at Filson', including the Mackinaw Cruiser. But its own product pages mark flagship items 'Imported', including the Tin Cloth Cruiser, Tin Cloth pants and backpacks, and 2023 reporting says only a few core styles stayed in-house while most of the rest moved to an LA vendor or overseas. Owned making covers part of the range, not the whole: a 4."
   },
   "doors": {
     "c": "full",
@@ -191,5 +191,22 @@
       "m": "brand filter",
       "n": ""
     }
+  },
+  "craft_evidence": {
+    "owned": "yes",
+    "owned_d": "Filson has its own factory in Washington: a sewing floor in the Seattle (SoDo, First Ave S) flagship and a Kent, WA facility, both named in Seattle Times reporting. The made-in-the-usa collection page says Made in USA goods are 'produced in our Seattle factory and in partnership with select U.S. manufacturers'. According to the press, the factory now makes only 'core heritage styles'. Spokesman-Review/Seattle Times, Oct 2023: up to two-thirds of the remaining Seattle-area production went to a vendor near Los Angeles, and only the Mackinaw Cruiser, Mackinaw vest and Western vest stayed in Kent; company officials declined to say what share of products is US-made. Seattle Times, after the July 2023 layoffs: 90% of production was US-made as recently as 2015, but many flagship products are now imported from Bangladesh, Sri Lanka and Peru; about 30 production staff at the SoDo flagship. CEO Corinaldesi said Filson 'remains committed to manufacturing our core heritage styles in our Washington facilities'.",
+    "makers": "no",
+    "mills": "some",
+    "madein": "most",
+    "countries": "Sample of 10 PDPs. Imported: 4/10 (Tin Cloth Cruiser jacket, Dry Tin Cloth 5-pocket pants, Dryden backpack, Journeyman backpack). USA: 3/10 (Mackinaw Wool Cruiser jacket, Rugged Twill Original Briefcase, Henley Guide merino sweater). No origin seen: 3/10 (Alaskan Guide shirt, Field Flannel shirt, Waffle Knit Henley); origin may be in a collapsed tab. The shirt and henley JSON product data also had no origin. Press names Bangladesh, Sri Lanka and Peru as import sources. The Made in USA collection data listed about 18 products, mostly small goods (belts, watch caps, gloves, tees, one vest, one briefcase), though that count may be truncated.",
+    "heritage": "dated and placed",
+    "repair": "yes",
+    "process": "some",
+    "urls": [
+      "https://www.filson.com/collections/made-in-the-usa",
+      "https://www.spokesman.com/stories/2023/oct/03/iconic-brand-filson-to-outsource-most-of-remaining/"
+    ],
+    "conf": "high",
+    "read": "2026-10-03"
   }
 }

@@ -6,7 +6,7 @@
   "focus": {
     "tech": 1,
     "comfort": 2,
-    "craft": 3,
+    "craft": 2,
     "style": 5
   },
   "fabric": {
@@ -67,7 +67,8 @@
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "style": "Black, loose, draped; one of fashion's most consistent design visions."
+    "style": "Black, loose, draped; one of fashion's most consistent design visions.",
+    "craft": "Every sampled product page on the official shop states a country of make (mostly Japan, but knitwear made in China and one tailored jacket made in Vietnam) and nothing more: no factory, no mill. The company profile describes a planning and wholesale business with no owned production. Country only: a 2."
   },
   "doors": {
     "c": "full",
@@ -196,5 +197,22 @@
     "t": "lookbook",
     "u": "https://theshopyohjiyamamoto.com/pages/lookbook-look/h26aw",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "No owned factory, workshop or mill found. Company profile on the shop (Yohji Yamamoto Inc., Higashi-Shinagawa, Tokyo) describes the business as clothing/goods planning and wholesale/retail; the Japanese recruitment listing (Mynavi) says 企画、製造卸、販売 (planning, manufacturing-wholesale, sales) and names no factory. Corporate site yohjiyamamoto.co.jp has no production content. No parent group (independent; Integral Corporation investment not relevant to making).",
+    "makers": "no",
+    "mills": "no",
+    "madein": "every product",
+    "countries": "Japan 5/8, China 2/8, Vietnam 1/8 (sample of 8 PDPs: Pour Homme raglan coat, denim painter pants, padded blouson, flannel cap all Japan; Y's-line serge cargo pants Japan; Pour Homme cashmere embroidered knit China; flocked crow knit pullover China; washer-wool gabardine belted jacket Vietnam). Note the house is not all-Japan-made.",
+    "heritage": "dated and placed",
+    "repair": "no",
+    "process": "no",
+    "urls": [
+      "https://theshopyohjiyamamoto.com/products/uw-j06-100-1",
+      "https://theshopyohjiyamamoto.com/pages/company-profile"
+    ],
+    "conf": "high",
+    "read": "2026-10-03"
   }
 }

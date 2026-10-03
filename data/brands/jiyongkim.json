@@ -6,7 +6,7 @@
   "focus": {
     "tech": 2,
     "comfort": 3,
-    "craft": 5,
+    "craft": 2,
     "style": 5
   },
   "fabric": {
@@ -55,7 +55,7 @@
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Garments dyed by weather over months and sewn from reconstructed vintage cloth; the process is the garment.",
+    "craft": "JiyongKim's product pages say 'Made in Korea' and that each sun-bleached item 'carries a unique imprint of nature and time', but name no maker, workshop or mill. The site names no studio or factory and does not say who sews the garments. That is a country of make plus a finishing claim: a 2.",
     "style": "A single, unusual idea — sun-faded, weather-dyed clothing — carried through everything."
   },
   "doors": {
@@ -173,5 +173,22 @@
     "t": "lookbook",
     "u": "https://intl.jiyongkim.net/product/lookbook-list.html?cate_no=553",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "unclear",
+    "owned_d": "No facility named anywhere on intl.jiyongkim.net. Site footer gives only the company details (owner Jiyong Kim, Seoul business registration). Who sun-bleaches and who sews is not stated; no studio, workshop or factory named.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "every product",
+    "countries": "Korea 4/4 (sample of 4 PDPs on intl.jiyongkim.net: Sun-Bleached Wide Collar Knit Cardigan, Sun-Bleached Drape Shirt, Sun-Bleached Twisted Trousers, Draped Zip-Up Hoodie).",
+    "heritage": "none",
+    "repair": "no",
+    "process": "some",
+    "urls": [
+      "https://intl.jiyongkim.net/product/detail.html?product_no=3573&cate_no=24&display_group=1",
+      "https://intl.jiyongkim.net/product/detail.html?product_no=3541&cate_no=24&display_group=1"
+    ],
+    "conf": "medium",
+    "read": "2026-10-03"
   }
 }

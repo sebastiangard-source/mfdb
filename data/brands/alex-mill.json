@@ -6,7 +6,7 @@
   "focus": {
     "tech": 1,
     "comfort": 3,
-    "craft": 2,
+    "craft": 1,
     "style": 3
   },
   "fabric": {
@@ -32,7 +32,7 @@
     "surf": 1
   },
   "why": "Casual clothing built around a garment-dyed work jacket and well-made basics, sold through its own stores.",
-  "origin": "Founded in 2012 by Alex Drexler; relaunched in 2018 with the designer Somsack Sinthasomphone.",
+  "origin": "Launched in 2012 by Alex Drexler from a shop on Elizabeth Street, New York; the designer Somsack Sikhounmuong joined in 2019.",
   "chan": ["O", "D"],
   "conf": "M",
   "forgc": [4, 3, 1],
@@ -53,7 +53,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "Product pages give composition and sometimes a fabric country ('Portuguese cotton fabric') but no country of make, factory or mill. The our-story page is about design and leadership, not making. Nothing checkable about who makes it."
   },
   "doors": {
     "c": "full",
@@ -169,5 +170,22 @@
       "m": "brand filter",
       "n": ""
     }
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "Our-story page describes a SoHo design team; no factory owned or named.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "none",
+    "countries": "No country of make on 3 PDPs (Mill Shirt Portuguese poplin, Cyrus flannel shirt, Ashby parka) incl. their 'Composition & Care' tab, nor in 13 mens-shirt product descriptions via products.json. Fabric country only (Portugal) on some.",
+    "heritage": "dated and placed",
+    "repair": "no",
+    "process": "no",
+    "urls": [
+      "https://www.alexmill.com/products/mill-shirt-in-stripe-portuguese-poplin",
+      "https://www.alexmill.com/pages/our-story"
+    ],
+    "conf": "medium",
+    "read": "2026-10-03"
   }
 }

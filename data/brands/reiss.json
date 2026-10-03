@@ -112,7 +112,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "Reiss clothing pages give composition but no country of make, no mill and no factory; only some footwear says 'handmade in Italy'. Its sustainability pages say tier-1 factories are published on Open Supply Hub and audited under the Next plc code. That checkable list, with no owned making, holds a 2."
   },
   "price_evidence": {
     "T-shirt": {
@@ -193,5 +194,19 @@
     "t": "collection page",
     "u": "https://www.reiss.com/us/en/shop/gender-men-promotion-reissautumncollection-0",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "Our-story page says pieces are designed at Reiss's 'London atelier' (design studio, not a factory). Sustainability pages speak only of approved third-party factories audited under the Next plc Code of Practice (Next plc is the majority owner); no owned factory named.",
+    "makers": "some",
+    "mills": "no",
+    "madein": "some",
+    "countries": "Clothing PDPs: none stated 6/6 (2 shirts, 2 suit blazers, 2 knits) as fetched; possible collapsed tab. Footwear PDP (Unseen Spartan Tech Trainers) says 'handmade in Italy'. So country appears on some footwear only.",
+    "heritage": "dated and placed",
+    "repair": "yes",
+    "process": "no",
+    "urls": ["https://www.reiss.com/sustainability/social", "https://www.reiss.com/us/en/style/su670501/f77520"],
+    "conf": "medium",
+    "read": "2026-10-03"
   }
 }

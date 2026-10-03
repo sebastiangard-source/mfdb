@@ -6,7 +6,7 @@
   "focus": {
     "tech": 2,
     "comfort": 3,
-    "craft": 5,
+    "craft": 2,
     "style": 4
   },
   "fabric": {
@@ -62,7 +62,7 @@
   },
   "notes": {
     "denim": "natural-indigo, loom-woven obsession",
-    "craft": "hand-processes and mythic fabrication at any cost",
+    "craft": "visvim owns no making that its site shows: its dye work is done by an outside workshop in Ome City and its kasuri by Tomihisa Orimono, a named independent weaver. Every PDP states a country (mostly Japan; Virgil boots Made in China) but none names a maker or mill. Process is richly documented editorially, but documentation is not owned making.",
     "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
     "reach": "[authored findability score was 1; retired 28 Sep 2026]",
     "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
@@ -210,5 +210,22 @@
     "t": "lookbook",
     "u": "https://www.visvim.tv/lookbook/visvim/fw26/",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "No owned factory, mill or dye house found. visvim.tv/about speaks only of connecting the market 'with the work of craftsmen' (unnamed). The Dissertation pages describe OUTSIDE workshops: natural dyeing done at 'a workshop in Ome City on the outskirts of Tokyo' (unnamed); Kurume kasuri woven by Tomihisa Orimono (Yame, Fukuoka), not visvim-owned.",
+    "makers": "some",
+    "mills": "no",
+    "madein": "every product",
+    "countries": "Japan 4/5, China 1/5 (sample of 5 PDPs: 2 jackets incl. denim, shirt, denim trousers, Virgil boots made in China); one knit PDP not read (429)",
+    "heritage": "vague",
+    "repair": "no",
+    "process": "yes",
+    "urls": [
+      "https://www.visvim.tv/dissertation/processing/natural-dyeing.html",
+      "https://shop.visvim.com/0126202002003"
+    ],
+    "conf": "medium",
+    "read": "2026-10-03"
   }
 }

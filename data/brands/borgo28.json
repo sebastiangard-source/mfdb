@@ -6,7 +6,7 @@
   "focus": {
     "tech": 1,
     "comfort": 3,
-    "craft": 3,
+    "craft": 2,
     "style": 3
   },
   "fabric": {
@@ -54,7 +54,8 @@
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "cotton": "Sport shirts in Italian and Portuguese cotton; the shirting is the range."
+    "cotton": "Sport shirts in Italian and Portuguese cotton; the shirting is the range.",
+    "craft": "Borgo28's about page says it works with 'select Italian and Portuguese factories' but names none, and its product pages name neither maker nor mill. About half of sampled product pages say Made in Italy; the rest give no country. Countries of make and nothing more: a 2."
   },
   "doors": {
     "c": "full",
@@ -172,5 +173,22 @@
       "m": "text search",
       "n": "No Vinted brand entry; keyword search in Men"
     }
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "About page: Borgo28 'partners with select Italian and Portuguese factories', so it does not own the making; the name comes from Borgo Ognissanti 28, the Florence street where the brand began. No factory named.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "some",
+    "countries": "Italy 4/8; no country stated on 4/8 (sample of 8 PDPs: 2 sport shirts and 1 merino sweater and 1 knit blazer say 'Made in Italy'; cashmere V-neck, two pants, detachable-collar blazer state none). About page names Italy and Portugal as partner countries.",
+    "heritage": "vague",
+    "repair": "no",
+    "process": "no",
+    "urls": [
+      "https://borgo28.com/pages/about-us",
+      "https://borgo28.com/products/32886-merino-wool-crewneck-sweater"
+    ],
+    "conf": "high",
+    "read": "2026-10-03"
   }
 }

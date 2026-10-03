@@ -67,7 +67,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "The Polo Ralph Lauren PDPs whose details could be read say only 'Imported' with fiber and care, naming no country, maker or mill. Only the separate Purple Label line states 'Made in Italy', which does not belong to Polo. [audit proposed 1 at low confidence; held at 2 pending a second read]"
   },
   "doors": {
     "c": "full",
@@ -250,5 +251,22 @@
     "t": "campaign",
     "u": "https://www.ralphlauren.com/campaign-feat",
     "m": "unisex"
+  },
+  "craft_evidence": {
+    "owned": "NC",
+    "owned_d": "Not established: no Polo or corporate page reached that addresses ownership of factories (corporate.ralphlauren.com/our-company is a navigation hub; history page redirects to ralphlauren.com/rl-heritage-timeline-feature, not fetched - cap). 10-K not read.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "none",
+    "countries": "Polo label: 'Imported' on 2/2 PDPs whose details were readable (classic-fit striped linen shirt, Polo Bear rugby); no country named. 3 Polo PDPs (checked twill shirt, Bedford chino short, iconic cable-knit cashmere sweater) showed no composition/origin to the fetch - likely collapsed tabs. Out of scope: 3 Purple Label PDPs fetched by mistake from the sitemap, 2 readable say 'Made in Italy' (linen jersey polo, cotton-silk cable polo sweater).",
+    "heritage": "NC",
+    "repair": "NC",
+    "process": "no",
+    "urls": [
+      "https://www.ralphlauren.com/men-clothing-button-down-shirts/classic-fit-striped-linen-shirt/100055198.html",
+      "https://www.ralphlauren.com/men-clothing-rugby-shirts/classic-fit-polo-bear-rugby-shirt/100084749.html"
+    ],
+    "conf": "low",
+    "read": "2026-10-03"
   }
 }

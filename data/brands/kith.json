@@ -6,7 +6,7 @@
   "focus": {
     "tech": 2,
     "comfort": 3,
-    "craft": 2,
+    "craft": 1,
     "style": 5
   },
   "fabric": {
@@ -62,7 +62,8 @@
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "style": "Ronnie Fieg's taste is the product; the clothing exists to express a point of view."
+    "style": "Ronnie Fieg's taste is the product; the clothing exists to express a point of view.",
+    "craft": "Kith's own-label product pages give composition and fabric weight but, for apparel, no country of make ('See garment tag'); in a sample of seven only a leather card holder said 'Made in Italy'. The site names no factory, no mill and no owned facility, so there is almost nothing checkable about who makes Kith clothing."
   },
   "doors": {
     "c": "full",
@@ -206,5 +207,19 @@
     "t": "lookbook",
     "u": "https://kith.com/pages/kith-fall-2026",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "No factory, workshop or mill of Kith's own found: the site has no about/making page, the FAQ (kithnyc.gorgias.help) covers shipping, returns, drawings only, and a press search found nothing about owned production.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "some",
+    "countries": "Italy 1/7 (Monogram Suede Card Holder 'Made in Italy'); none 6/7 (Classic Logo Nelson Hoodie x2, Circuit Nelson Hoodie, &Kin Cashmere Raya blazer, Knicks Patchwork Crewneck, Orosei sunglasses; apparel PDPs say 'See garment tag'). Sample of 7 Kith-label PDPs: fleece, knit, tailoring, leather goods, eyewear. Several other PDP URLs from search returned 404.",
+    "heritage": "none",
+    "repair": "no",
+    "process": "no",
+    "urls": ["https://kith.com/products/khm034444-413", "https://kith.com/products/khmsl0032-244"],
+    "conf": "medium",
+    "read": "2026-10-03"
   }
 }

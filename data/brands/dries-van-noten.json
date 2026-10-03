@@ -112,7 +112,8 @@
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "style": "Print and pattern by one of the Antwerp Six; design is the whole enterprise."
+    "style": "Print and pattern by one of the Antwerp Six; design is the whole enterprise.",
+    "craft": "The DVN site states no country of make on the PDPs read, and names no workshop, maker or mill. Its craftsmanship page describes hand-embroidery techniques without saying where or by whom. The only dated and placed claims are the founder's 1986 debut and the Antwerp store. [held at the current score: the audit’s evidence was thin; needs a second read]"
   },
   "price_evidence": {
     "T-shirt": {
@@ -193,5 +194,22 @@
     "t": "runway",
     "u": "https://www.driesvannoten.com/en-us/pages/show-aw-26-27-men",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "unclear",
+    "owned_d": "No owned workshop, atelier or factory is claimed on the biography, craftsmanship (aw23-craftsmanship), FAQ or recycling pages. Biography names only stores: Het Modepaleis, Antwerp (1989), and Quai Malaquais, Paris. Puig became majority shareholder in 2018; Puig filings not checked.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "none",
+    "countries": "None stated: 0/2 rendered PDPs (embellished top, embroidered wool bomber; both womenswear, composition shown, no origin) and 0/11 in products.json body text. Online catalogue is small (11 products) and mostly womenswear, so no menswear PDP was sampled.",
+    "heritage": "dated and placed",
+    "repair": "no",
+    "process": "some",
+    "urls": [
+      "https://www.driesvannoten.com/pages/biography",
+      "https://www.driesvannoten.com/pages/aw23-craftsmanship"
+    ],
+    "conf": "low",
+    "read": "2026-10-03"
   }
 }

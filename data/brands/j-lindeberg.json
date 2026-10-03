@@ -57,7 +57,8 @@
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "synth": "Golf and ski ranges in technical synthetics throughout; natural fibers are the exception."
+    "synth": "Golf and ski ranges in technical synthetics throughout; natural fibers are the exception.",
+    "craft": "J.Lindeberg's own 2025 sustainability report calls it a finished-goods retailer without manufacturing operations, and it names no suppliers or mills. Product data on jlindebergusa.com gives no country of make. The only checkable claim is the 1996 Stockholm founding."
   },
   "doors": {
     "c": "full",
@@ -194,5 +195,22 @@
     "t": "collection page",
     "u": "https://www.jlindebergusa.com/collections/fw2026",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "The brand's Sustainability Report 2025 describes J.Lindeberg as a finished-goods retailer without manufacturing operations; no owned factory is named anywhere on the site.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "none",
+    "countries": "None stated: 0 of 20 products in the jlindebergusa.com products.json (outerwear, polos, knit hats, shoes, bags) give a country or 'Imported'. 1 PDP (Harold Padded Jacket) was read and shows no origin, but it has collapsed tabs the fetch may not have seen.",
+    "heritage": "dated and placed",
+    "repair": "no",
+    "process": "no",
+    "urls": [
+      "https://cdn.shopify.com/s/files/1/0674/3336/5782/files/Sustainability_Report_2025_1.pdf?v=1786356131",
+      "https://www.jlindebergusa.com/pages/about-us"
+    ],
+    "conf": "high",
+    "read": "2026-10-03"
   }
 }

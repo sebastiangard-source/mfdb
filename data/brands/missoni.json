@@ -62,7 +62,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "Missoni makes all its ready-to-wear knit fabric itself, at Sumirago (Varese) and at Tricotex, a former supplier it bought in 2024; the sewing is shared between its own seamstresses and many local workshops, and wovens/denim are not shown to be in-house. Every sampled product page says Made in Italy but names no maker or mill, and missoni.com does not itself describe the factory. Owned making of the signature category, not the whole range: a 4."
   },
   "doors": {
     "c": "full",
@@ -192,5 +193,22 @@
     "t": "collection page",
     "u": "https://www.missoni.com/en-us/missoni-men-fw26.html",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "yes",
+    "owned_d": "Knit-fabric making owned, garment making only partly. Press visit (FashionNetwork Italia, 31 Jul 2025): 'Tutti i tessuti a maglia per il prêt-à-porter della maison vengono realizzati qui' (the Sumirago, Varese site, with historic Caperdoni knitting machines) 'e nel vicino stabilimento dell'ex fornitore Tricotex, acquisito all'inizio del 2024'; at Sumirago 'alcuni pezzi speciali vengono tagliati a mano e poi assemblati dalle sarte', and the house also relies on 'numerosi laboratori locali'. Tricotex (Raschel knit fabrics) acquisition March 2024 confirmed by the-spin-off.com and WWD headlines; Missoni statement: 'maintain direct control over its value chain'. Sumirago factory built 1969 (Wikipedia). These are Missoni's own (Missoni S.p.A.), not a parent group's; owners since May 2026: FSI ~73%, Katjes International ~27% (missoni.com press release). Nothing found on missoni.com itself describing the factory.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "every product",
+    "countries": "Italy 8/8 (sample of 8 men's PDPs on missoni.com/en-us: wool-viscose zig-zag pullover, cashmere zig-zag shirt, space-dye cotton tee, cotton hoodie, denim five-pocket trousers, cotton-viscose zig-zag blazer, cashmere-viscose double-breasted coat, cotton canvas overshirt)",
+    "heritage": "dated and placed",
+    "repair": "no",
+    "process": "no",
+    "urls": [
+      "https://it.fashionnetwork.com/news/Viaggio-nella-roccaforte-di-missoni-e-attraverso-70-anni-di-made-in-italy,1685611.html",
+      "https://www.the-spin-off.com/news/stories/The-Brands-Missoni-Group-buys-Raschel-fabric-specialist-Tricotex-17931"
+    ],
+    "conf": "high",
+    "read": "2026-10-03"
   }
 }

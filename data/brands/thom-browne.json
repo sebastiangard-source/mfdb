@@ -6,7 +6,7 @@
   "focus": {
     "tech": 1,
     "comfort": 1,
-    "craft": 3,
+    "craft": 2,
     "style": 5
   },
   "fabric": {
@@ -76,7 +76,8 @@
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "style": "The shrunken gray suit is one of the most recognizable design ideas in menswear; everything follows it."
+    "style": "The shrunken gray suit is one of the most recognizable design ideas in menswear; everything follows it.",
+    "craft": "Every sampled product states a country of make (mostly Italy, with Ireland and Japan), but no maker, mill or owned facility is named. The parent Zegna Group's own mills are not linked to Thom Browne on either site. That is a 2."
   },
   "doors": {
     "c": "full",
@@ -217,5 +218,19 @@
     "t": "collection page",
     "u": "https://www.thombrowne.com/pages/collection/mens-fall-2026",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "No brand-owned factory is named on thombrowne.com. The About page says Thom Browne has been part of the Ermenegildo Zegna Group since 2018 (Zegna holds 92%). Zegna's group-owned supply chain (zegnagroup.com/our-filiera: Lanificio Zegna, Tessitura di Novara, Dondi, Bonotto, Filati Biagioli, Luigi Fedeli knitwear and others) is not stated anywhere read to make Thom Browne product.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "every product",
+    "countries": "Italy 11/15, Ireland 3/15 (Aran/Donegal knits), Japan 1/15 (sunglasses). Sample of 15 from products.json: knitwear, polos, shirt, down jacket, overcoat, small leather goods, bag, eyewear.",
+    "heritage": "dated and placed",
+    "repair": "yes",
+    "process": "no",
+    "urls": ["https://www.thombrowne.com/products.json?limit=40", "https://www.thombrowne.com/pages/about"],
+    "conf": "medium",
+    "read": "2026-10-03"
   }
 }

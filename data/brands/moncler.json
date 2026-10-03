@@ -69,7 +69,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "Moncler's 2024 annual report says the brand owns a down-jacket plant in Romania (over 2,000 staff) and a plant at Trebaseleghe (Padua), plus a new knitwear plant in Veneto, but that outerwear and knitwear are only 'partly managed internally' with the rest made by about 130 façon and finished-goods suppliers, and accessories and footwear are fully outsourced. Real owned making of the core category, not the whole range: a 4."
   },
   "doors": {
     "c": "full",
@@ -248,5 +249,22 @@
     "t": "campaign",
     "u": "https://www.moncler.com/en-us/in-moncler",
     "m": "unisex"
+  },
+  "craft_evidence": {
+    "owned": "yes",
+    "owned_d": "Moncler Group 2024 Annual Report p.17: cut-make-trim done 'both by third party manufacturers (façon manufacturers) and in the Moncler manufacturing plant in Trebaseleghe (Padua)'; owned plant in Romania (Bacau, Industries Yield; set up 2015, moved 2016, expanded 2022) employing 'more than 2,000 people'; a new knitwear plant inaugurated in Veneto in 2024. Outerwear and knitwear 'partly managed internally and partly assigned to third party manufacturers'; accessories and footwear made by third parties. 2023 NFS calls Romania an 'industrial and technological R&D hub for down jackets'. Brand-owned (Moncler S.p.A. group), not a parent's.",
+    "makers": "NC",
+    "mills": "NC",
+    "madein": "NC",
+    "countries": "NC — PDPs blocked by robots.txt (moncler.com). Annual report: production in owned plants in Romania and Italy (Trebaseleghe; Veneto knitwear) plus façon makers 'primarily' in Eastern Europe; 130 Moncler-brand suppliers, top 30 ~80% of supply value. No PDP share possible.",
+    "heritage": "dated and placed",
+    "repair": "yes",
+    "process": "some",
+    "urls": [
+      "https://www.monclergroup.com/v3/assets/blt61bda6b71f29a239/blteb95ca716ac2bad4/68d2602cf9b53a484db7d941/moncler-group-annual-report-2024.pdf",
+      "https://www.monclergroup.com/en/sustainability/product/product-and-innovation"
+    ],
+    "conf": "high",
+    "read": "2026-10-03"
   }
 }

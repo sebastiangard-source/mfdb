@@ -6,7 +6,7 @@
   "focus": {
     "tech": 1,
     "comfort": 3,
-    "craft": 5,
+    "craft": 2,
     "style": 5
   },
   "fabric": {
@@ -57,7 +57,7 @@
   "price_checked": true,
   "notes": {
     "ital": "a Milanese textile house before it was a fashion house, and the archive is still the argument",
-    "craft": "began as a maker of silk, wool and cashmere cloth for other houses; the print archive dates to 1974",
+    "craft": "Etro's own about page claims a textile origin ('began as a creator of exquisite fabrics', 1968) but names no mill, print works or factory that the house owns today. The one product page read says Made in Italy and names no maker or mill. Heritage with no current owned making cannot be a 5; on what I could show, it is a country-of-make brand. [applied 4 Oct 2026: the audit found no owned making and no named maker, which is a 2 on the rubric whatever the confidence of the rest]",
     "weird": "maximalist by design — pattern-on-pattern is the register rather than an occasional gesture",
     "status": "the paisley reads as the logo, which is unusual for a house that has never leaned on a monogram",
     "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
@@ -207,5 +207,22 @@
     "t": "runway",
     "u": "https://www.etro.com/us-en/world-of-etro/woman-fashion-show-fw/",
     "m": "womens only"
+  },
+  "craft_evidence": {
+    "owned": "unclear",
+    "owned_d": "No owned mill, weaving plant, print works or garment factory named anywhere I could see. etro.com About Us says only that ETRO 'began as a creator of exquisite fabrics' and names no place, mill or workshop. Wikipedia calls the 1968 firm 'a textile design company' (a designer, not shown to be a mill) and says home textiles 'are produced in-house' (sourced to older WWD/Telegraph pieces, no place named). WWD on the 2021 deal: L Catterton bought 60% for EUR 500m; 'Etro's real estate properties and web of directly owned stores were not part of the sale'. The deal coverage I read says nothing about a textile-making unit being included or carved out. Wikipedia: the founding family sold its remaining minority stake in December 2025, and L Catterton holds about 51% alongside Rams Global, Swinger International and SRI Group. No current owned making, whether textile, ready-to-wear or leather goods, was evidenced for the brand or its new owners.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "NC",
+    "countries": "Italy 1/1 ('Made in Italy', stretch velvet trousers). Sample of 1; not enough to give a share, so made_in_stated is NC. Shirt, knit and jacket PDPs were identified but not read because the fetch budget ran out.",
+    "heritage": "dated and placed",
+    "repair": "NC",
+    "process": "no",
+    "urls": [
+      "https://www.etro.com/us-en/about-us.html",
+      "https://wwd.com/business-news/mergers-acquisitions/l-catterton-takes-control-etro-1234884130/"
+    ],
+    "conf": "low",
+    "read": "2026-10-03"
   }
 }

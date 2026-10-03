@@ -69,7 +69,8 @@
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "style": "A Paris fashion house; the collection is the product."
+    "style": "A Paris fashion house; the collection is the product.",
+    "craft": "Christian Dior SE's own 2025 annual report (p.14) says Dior sources ready-to-wear and jewelry mainly from outside companies and supplements its leather-goods manufacturing with third-party subcontractors, without naming any owned site. dior.com names no workshop or maker on the pages read and has no making page; the heritage page is the 1947 Avenue Montaigne debut. Nothing shown supports owned or named making for the clothing range, so 4 is not supported; 2 is provisional because no PDP could be read. [held at the current score: the audit’s evidence was thin; needs a second read]"
   },
   "doors": {
     "c": "full",
@@ -229,5 +230,22 @@
     "t": "runway",
     "u": "https://www.dior.com/en_us/fashion/mens-fashion/shows/winter-2026-2027-show",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "unclear",
+    "owned_d": "Christian Dior SE 2025 annual report p.14 (parent filing): 'les capacites de production et le recours a la sous-traitance sont tres variables selon les produits'; in leather goods Christian Dior uses third-party firms 'pour completer ses fabrications' (implies some own leather-goods manufacturing, no site named); in ready-to-wear and jewelry it 's'approvisionne principalement aupres d'entreprises exterieures'. No owned workshop or town named in the passages read. dior.com 'House of Dreams' page names only 30 Avenue Montaigne as the 1947 debut address, not as a current production site.",
+    "makers": "no",
+    "mills": "NC",
+    "madein": "NC",
+    "countries": "NC - no PDP loaded. Context: annual report says leather-goods subcontracting is located mainly in the brand's country of origin, Italy and Spain (sector-level statement).",
+    "heritage": "dated and placed",
+    "repair": "no",
+    "process": "no",
+    "urls": [
+      "https://www.dior-finance.com/pdf/d/1/1288/2025%20Rapport-annuel-Christian-Dior.pdf",
+      "https://www.dior.com/en_us/fashion/the-house-of-dreams"
+    ],
+    "conf": "low",
+    "read": "2026-10-03"
   }
 }

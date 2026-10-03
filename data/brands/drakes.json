@@ -8,7 +8,7 @@
   "focus": {
     "tech": 1,
     "comfort": 3,
-    "craft": 5,
+    "craft": 4,
     "style": 5
   },
   "fabric": {
@@ -63,7 +63,7 @@
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "briish": "English classical dress — ties, shirts, Shetland knits — made in England.",
-    "craft": "Ties made by hand in its London workshop; shirts made in its own Somerset factory."
+    "craft": "Drake's own pages say its ties are handmade in its East London workshop and its shirts in 'our own shirt factory in Chard, Somerset', and shirt PDPs read 'Made in Our Factory in Somerset'. The same about page says tailoring is made in Italy and knitwear in Scotland, and outerwear, denim, tees and caps are Made in Portugal. Owned making for two core categories, not the range: a 4."
   },
   "doors": {
     "c": "full",
@@ -193,5 +193,22 @@
     "t": "lookbook",
     "u": "https://us.drakes.com/blogs/news/the-autumn-collection-part-one-lookbook",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "yes",
+    "owned_d": "Two owned workshops, both named on the brand's own pages: tie workshop in East London (Haberdasher Street; /pages/made-to-order-craftmanship: 'Each of our ties is handmade in our dedicated workshop in the heart of East London') and 'our own shirt factory in Chard, Somerset' (/pages/about). About page says soft tailoring is made in Italy and traditional knitwear in Scotland by partners; denim and outerwear by unnamed partners. Nothing else found made in-house: sampled scarf (Italy), cap, t-shirt, chore coat, denim (Portugal), knit (Scotland), tailoring (Italy).",
+    "makers": "no",
+    "mills": "no",
+    "madein": "every product",
+    "countries": "England 3/11 (tie: London; OCBD shirt and overshirt: Somerset), Italy 3/11 (Games linen trousers, corduroy Games blazer, wool-silk scarf), Portugal 4/11 (chore coat, denim field shirt, hiking t-shirt, cap), Scotland 1/11 (cashmere crew). Sample of 11 PDPs: tie, shirts, trousers, blazer, knit, outerwear, denim, tee, scarf, cap.",
+    "heritage": "dated and placed",
+    "repair": "no",
+    "process": "some",
+    "urls": [
+      "https://us.drakes.com/pages/about",
+      "https://us.drakes.com/products/white-oxford-cotton-cloth-button-down-shirt-1"
+    ],
+    "conf": "high",
+    "read": "2026-10-03"
   }
 }

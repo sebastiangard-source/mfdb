@@ -6,7 +6,7 @@
   "focus": {
     "tech": 2,
     "comfort": 4,
-    "craft": 3,
+    "craft": 2,
     "style": 2
   },
   "fabric": {
@@ -100,7 +100,8 @@
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "denim": "Jeans are the founding product and the core of the range; the family runs a denim mill."
+    "denim": "Jeans are the founding product and the core of the range; the family runs a denim mill.",
+    "craft": "Mott & Bow's about page says its jeans are made in the Honduras factory the founder's family set up in 1982, but never names that factory or its town, and says the denim itself comes from unnamed Japanese and US mills. Product pages state no country of origin and name no maker or mill; non-denim categories have no stated origin at all."
   },
   "price_evidence": {
     "T-shirt": {
@@ -160,5 +161,19 @@
       "m": "brand filter",
       "n": ""
     }
+  },
+  "craft_evidence": {
+    "owned": "unclear",
+    "owned_d": "About page: founder Alejandro Chahin's family 'established a denim manufacturing facility in 1982' in Honduras and Mott & Bow is made at 'the same factory I had grown up in'; FAQ/brand page: 'Jeans manufactured in family-owned facilities in Honduras with 40+ years of denim expertise'. Facility never named, no town given, no photographs seen; ownership is the founder's family, not stated as the brand's. It is a garment (jeans) facility, not a denim mill - fabric is 'sourced from Japanese and US mills'. Covers jeans only as stated; tees, cashmere, tech pants, loungewear origin not stated.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "none",
+    "countries": "No country on any of 4 sampled PDPs (jeans, cashmere sweater, tee, tech pant). Brand-level only: jeans made in Honduras (about page, FAQ, brand page); other categories unstated.",
+    "heritage": "dated and placed",
+    "repair": "no",
+    "process": "some",
+    "urls": ["https://www.mottandbow.com/pages/about-us", "https://www.mottandbow.com/pages/faq-hub"],
+    "conf": "medium",
+    "read": "2026-10-03"
   }
 }

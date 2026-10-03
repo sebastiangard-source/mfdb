@@ -47,7 +47,7 @@
   "notes": {
     "denim": "the pillar — made in LA for over a decade",
     "cotton": "Peruvian cotton tees — the ingredient named, farmers-market style",
-    "craft": "factories disclosed on product pages, mills told as stories — held from 4 until the mills get names",
+    "craft": "AYR product pages describe the sewing factory (city, founding year, specialty, audit) without naming it — e.g. The Club and BLT Sweatshirt from a Shenzhen factory established in 1987 — and its fabrics page tells mill stories without mill names; one jacket names British Millerain. Nothing owned, so not a 4; the mills still do not have names.",
     "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
     "reach": "[authored findability score was 1; retired 28 Sep 2026]",
     "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
@@ -167,5 +167,19 @@
       "m": "text search",
       "n": "Short name — text search will pull noise"
     }
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "About page: 'independent clothing brand founded in New York City in 2014'; no owned facility. Denim made by an unnamed partner factory in Los Angeles ('our denim factory was just opening its doors' early 1990s; 'a factory just down the 405') — /pages/made-in-l-a-denim.",
+    "makers": "no",
+    "mills": "some",
+    "madein": "some",
+    "countries": "Stated 4/7 men's PDPs: China 3/7 (Ginza – Guangdong; Club, BLT Sweatshirt – Shenzhen), USA 1/7 (Normie – LA); none 3/7 (Original T, Big Softie, Everyday Shirt). Plus women's The Legend: California. Sample: jeans, tee, sweater, shirt, trousers, jacket, sweatshirt.",
+    "heritage": "dated and placed",
+    "repair": "NC",
+    "process": "some",
+    "urls": ["https://www.ayr.com/products/the-ginza", "https://www.ayr.com/pages/our-fabrics"],
+    "conf": "medium",
+    "read": "2026-10-03"
   }
 }

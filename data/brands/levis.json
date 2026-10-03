@@ -6,7 +6,7 @@
   "focus": {
     "tech": 1,
     "comfort": 3,
-    "craft": 5,
+    "craft": 3,
     "style": 3
   },
   "fabric": {
@@ -58,7 +58,7 @@
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "dur": "Riveted, heavyweight denim built as work clothing in 1873 and still cut to take years of wear.",
-    "craft": "The company that patented the riveted jean, with an archive, a repair program and its own factories through most of its history."
+    "craft": "Levi Strauss & Co.'s FY2024 10-K says it sources 'nearly all' products from independent contract manufacturers in about 28 countries; its only own plant is a manufacturing and finishing plant in South Africa. Product pages mostly say 'Imported' and name no factory or mill, though the company publishes a factory and mill list on levistrauss.com. The 5 rests on history, not on current owned making."
   },
   "doors": {
     "c": "full",
@@ -280,5 +280,22 @@
       "m": "brand filter",
       "n": "Includes LVC and Made & Crafted; excludes collabs"
     }
+  },
+  "craft_evidence": {
+    "owned": "yes",
+    "owned_d": "Owns one plant only: LS&Co.'s FY2024 10-K (fiscal year ended 1 Dec 2024) says 'We source nearly all of our products through independent contract manufacturers' in about 28 countries, the rest coming from 'our company-operated manufacturing and finishing plant in South Africa'. LS&Co.'s own 2019 article describes 'an owned and operated manufacturing facility and distribution center' in Epping, Cape Town (450+ workers), without saying what it makes. No owned US making; Poland (Plock) not mentioned as manufacturing in the FY2024 10-K text read. Brand-owned (LS&Co.), not a parent group.",
+    "makers": "some",
+    "mills": "no",
+    "madein": "some",
+    "countries": "Made in Japan 1/5, Pakistan 1/5, 'Imported' only 2/5, nothing visible 1/5 (sample of 5 PDPs on levi.com: 501 Original, MIJ 505, 502 Taper Selvedge, Classic Housemark Tee, Classic Worker Shirt).",
+    "heritage": "dated and placed",
+    "repair": "yes",
+    "process": "some",
+    "urls": [
+      "https://s23.q4cdn.com/172692177/files/doc_financials/2024/q4/10K-LeviStrauss.pdf",
+      "https://www.levistrauss.com/2019/05/15/inside-lsco-s-epping-facilities-with-the-red-tab-foundation/"
+    ],
+    "conf": "high",
+    "read": "2026-10-03"
   }
 }

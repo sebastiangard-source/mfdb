@@ -6,7 +6,7 @@
   "focus": {
     "tech": 1,
     "comfort": 4,
-    "craft": 3,
+    "craft": 1,
     "style": 2
   },
   "fabric": {
@@ -33,7 +33,7 @@
     "surf": 1
   },
   "why": "Cashmere and cotton knitwear from an American family company, sold through specialty stores.",
-  "origin": "Founded in 1988 by Raffi Shaya; run by his wife and daughters under the Raffi Forever label since 2023.",
+  "origin": "Founded in 1998 by Raffi Shaya; run by his wife and daughters under the Raffi Forever label since 2023.",
   "chan": ["I", "D"],
   "conf": "S",
   "forgc": [4, 3, 1],
@@ -55,7 +55,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "Raffi's site names no factory or mill and owns none, and its product pages give fiber composition but no country of make. The about pages are about the founder and design philosophy, not making. Nothing on the site is checkable about who makes the clothes, so it scores 1."
   },
   "doors": {
     "c": "full",
@@ -156,5 +157,22 @@
       "m": "text search",
       "n": "Short name — text search will pull noise"
     }
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "No factory or mill claimed on /pages/about, /pages/about-raffi-shaya, /pages/raffi-way-of-life or FAQs; about page describes a family business that designs.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "none",
+    "countries": "Not stated on 4/4 PDPs (Garrett cashmere sweater, Noah knit, Linden shirt, Howard pant). Shopify PDPs fetched with composition/care visible; origin not seen.",
+    "heritage": "vague",
+    "repair": "no",
+    "process": "no",
+    "urls": [
+      "https://www.raffionline.com/pages/about",
+      "https://www.raffionline.com/products/the-garrett-cashmere"
+    ],
+    "conf": "high",
+    "read": "2026-10-03"
   }
 }

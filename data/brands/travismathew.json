@@ -58,7 +58,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "TravisMathew's product data and PDP give no country of make, maker or mill. The about-us and eco pages carry only brand messaging, the HQ address and a recycled-content claim. Nothing about making can be checked."
   },
   "doors": {
     "c": "full",
@@ -249,5 +250,19 @@
       "m": "brand filter",
       "n": ""
     }
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "None claimed. The about-us page gives only the Huntington Beach, CA HQ address and mentions parent Topgolf Callaway Brands. No factory or workshop is mentioned.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "none",
+    "countries": "None stated: 0 of 9 products in the travismathew.com products.json (shorts, polos, tops, hats) give a country or 'Imported'. 1 PDP (Wanderlust Short 9in) also shows none. The sample is small and skewed to hats.",
+    "heritage": "none",
+    "repair": "no",
+    "process": "no",
+    "urls": ["https://travismathew.com/pages/about-us", "https://travismathew.com/pages/eco"],
+    "conf": "medium",
+    "read": "2026-10-03"
   }
 }

@@ -47,7 +47,7 @@
   "notes": {
     "denim": "Japanese selvedge repro — the denim-head's Ralph",
     "murica": "the museum of American work and western wear",
-    "craft": "repro obsession — period patterns, stitch counts, hardware",
+    "craft": "RRL PDPs on ralphlauren.com describe vintage-inspired design and trim (corozo buttons, leather zip stoppers, garment dyeing, French corduroy) but the readable ones give origin only as 'Imported'. No owned making, named factory or named mill was found. [audit proposed 2 at low confidence; held at 4 pending a second read]",
     "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
     "reach": "[authored findability score was 2; retired 28 Sep 2026]",
     "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
@@ -184,5 +184,22 @@
     "t": "lookbook",
     "u": "https://www.ralphlauren.com/on/demandware.static/-/Library-Sites-RalphLauren_NA_Library/default/dw5a930d9f/content/pdf/RRL/RRL_FA26_MW_catalog.pdf",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "No owned factory, workshop or mill named on any RRL page read on ralphlauren.com; Wikipedia's Ralph Lauren summary identifies no company-owned production. Ralph Lauren Corp 10-K not loaded, so the group-level statement was not read directly.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "none",
+    "countries": "Of 8 RRL PDPs fetched, 3 showed detail text and all 3 say only 'Imported' (vest, hoodie, fleece jacket); 5 (4 selvedge jeans, plaid wool workshirt sweater, all sold out) showed no detail text, which may sit in an accordion the fetch could not see. No country of make seen.",
+    "heritage": "dated and placed",
+    "repair": "NC",
+    "process": "some",
+    "urls": [
+      "https://www.ralphlauren.com/men-clothing-jackets-coats-vests/corduroy-utility-vest/100092760.html",
+      "https://www.ralphlauren.com/men-clothing-sweatshirts/faux-fur-trim-fleece-jacket/100096437.html"
+    ],
+    "conf": "low",
+    "read": "2026-10-03"
   }
 }

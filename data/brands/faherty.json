@@ -6,7 +6,7 @@
   "focus": {
     "tech": 2,
     "comfort": 5,
-    "craft": 3,
+    "craft": 2,
     "style": 3
   },
   "fabric": {
@@ -59,7 +59,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "Faherty publishes a list of 13 tier-1 supplier countries, and its product pages carry a country of origin (e.g. Legend Sweater Shirt COO: Jordan; Sunwashed tee COO: Peru), but it names no factory and no cloth mill anywhere sampled. It owns no making; it runs a resale program (Secondwave) and a quality guarantee."
   },
   "fibre": {
     "t": 403,
@@ -360,5 +361,22 @@
     "bcorp": {
       "e": "Faherty Brand LLC"
     }
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "Our-story and our-process pages describe a family-run brand sourcing 'the world's finest fabrics'; no owned factory claimed. Supplier-countries page lists only countries.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "most",
+    "countries": "Peru 2/5, Jordan 1/5, Cambodia 1/5, unstated 1/5 (NY Giants CPO). Sample of 5 PDPs: Legend sweater shirt, linen 5-pocket pant, Sunwashed tee, Cloud henley, CPO. Country appears as 'COO:' in product metadata/tags, not as a prose 'Made in' line. Tier-1 supplier countries: China, India, Vietnam, Turkey, Peru, Cambodia, Guatemala, Philippines, Portugal, Indonesia, Italy, Jordan, Mauritius.",
+    "heritage": "vague",
+    "repair": "yes",
+    "process": "no",
+    "urls": [
+      "https://fahertybrand.com/pages/main-tier-1-supplier-countries",
+      "https://fahertybrand.com/products/legend-sweater-shirt-redwood-coast-twill"
+    ],
+    "conf": "high",
+    "read": "2026-10-03"
   }
 }

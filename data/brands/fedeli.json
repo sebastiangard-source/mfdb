@@ -46,7 +46,7 @@
   "notes": {
     "cashmere": "four-ply turtlenecks — the heavyweight school",
     "cotton": "Giza 45 piqué — cotton so scarce it's priced like cashmere",
-    "craft": "Monza, four generations, everything made in Italy",
+    "craft": "Fedeli's about page dates the family firm to Monza in 1934 and says every stage of production is overseen in Monza. Every rendered PDP sampled says Made in Italy, and its own cloths are described as Fedeli fabrics manufactured in Monza. No factory is named or shown as owned, and PDPs hedge to 'conceived at our Monza headquarters and made in Italy'. [audit proposed 3 at low confidence; held at 4 pending a second read]",
     "ital": "Four generations of knitwear in Monza. The house is known inside the trade well before it is known outside it, which is the usual shape of Italian specialist manufacturing.",
     "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
     "reach": "[authored findability score was 1; retired 28 Sep 2026]",
@@ -176,5 +176,22 @@
       "m": "brand filter",
       "n": ""
     }
+  },
+  "craft_evidence": {
+    "owned": "unclear",
+    "owned_d": "About page: 'In the heart of Monza, every stage of production is carefully overseen'; company is Luigi Fedeli e Figlio SRL; 1960s 'first Italian manufacturer specialised in cashmere knitwear'. One PDP says cashmere flanel is 'manufactured in Monza'. But PDPs say products are 'conceived at our Monza headquarters and made in Italy', and no factory is named or shown as owned, so owned making is claimed in outline, not evidenced.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "every product",
+    "countries": "Italy 5/5 rendered PDPs (2 shirts, vicuna crewneck, wool crewneck, cashmere knit bomber). The products.json body text alone states no country, so the origin sits in the rendered details section.",
+    "heritage": "dated and placed",
+    "repair": "no",
+    "process": "some",
+    "urls": [
+      "https://www.fedelicashmere.com/pages/about-us-1",
+      "https://www.fedelicashmere.com/products/niky-cashmere-flanel-overshirt_tu000346"
+    ],
+    "conf": "low",
+    "read": "2026-10-03"
   }
 }

@@ -73,7 +73,8 @@
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "style": "The house changes its look with each creative director, and the look is what sells."
+    "style": "The house changes its look with each creative director, and the look is what sells.",
+    "craft": "Gucci owns real making in its core accessory categories: the ArtLab leather-goods and footwear hub at Scandicci and, since 2024, three Santa Croce tanneries (Colonna Group), with Kering-owned tanneries alongside. No owned ready-to-wear or knitwear production was found; the Novara RTW site is offices plus a prototype department, and Gucci cites ~4,200 direct and sub-suppliers. Real owned making not covering the whole range = 4. [audit proposed 4 at low confidence; held at 4 pending a second read]"
   },
   "doors": {
     "c": "full",
@@ -247,5 +248,22 @@
       "m": "brand filter",
       "n": ""
     }
+  },
+  "craft_evidence": {
+    "owned": "yes",
+    "owned_d": "Owned making is LEATHER GOODS AND FOOTWEAR (plus leather supply), not ready-to-wear. Gucci ArtLab, Scandicci (Florence), opened April 2018: leather goods (bags, luggage, SLG, belts) and footwear development/production, press quoting Gucci CEO; Wikipedia describes it as where leather goods, footwear, hardware and packaging are developed and tested. Tanneries: Gucci took 100% of Colonna Group (Marbella Pellami, Conceria 800, Falco Pellami, Santa Croce sull'Arno) Nov 2024; Kering also owns Caravel (Tuscany) and France Croco (Normandy) tanneries. Ready-to-wear: the only owned RTW site found is Kering's Novara complex (Via Belletti 4), described by its architects as 'offices and prototype making department' (~2,200 sq m labs) — prototyping, not production evidence. No owned RTW/knit production facility found; Gucci says its supply chain involves ~4,200 direct and sub-suppliers (WWD).",
+    "makers": "NC",
+    "mills": "NC",
+    "madein": "NC",
+    "countries": "NC (gucci.com blocked; no PDPs read; secondary-market listings show 'Made in Italy' labels but do not score)",
+    "heritage": "dated and placed",
+    "repair": "NC",
+    "process": "NC",
+    "urls": [
+      "https://us.fashionnetwork.com/news/Gucci-inaugurates-artlab-its-craftsmanship-and-innovation-hub-outside-florence,971891.html",
+      "https://ww.fashionnetwork.com/news/Gucci-buys-100-stake-in-colonna-group-owner-of-three-italian-tanneries,1682388.html"
+    ],
+    "conf": "low",
+    "read": "2026-10-03"
   }
 }

@@ -58,7 +58,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "J.Crew owns no making and names no factories or mills on the responsibility, fabrics or about pages; its 2025 impact report speaks only of suppliers and says roughly 46% of production is in Vietnam. It runs resale and take-back (J.Crew Always with thredUP; Second-Life Swim and Crewcuts with SuperCircle), which is context, not making. [audit proposed 2 at low confidence; held at 3 pending a second read]"
   },
   "fibre": {
     "t": 492,
@@ -331,5 +332,22 @@
       "m": "brand filter",
       "n": ""
     }
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "J.Crew Group 2025 impact report refers only to suppliers and 'strategic factories' (~50% of production spend, ~42,000 workers); no owned factory claimed anywhere seen. Corporate responsibility page names no facility.",
+    "makers": "no",
+    "mills": "NC",
+    "madein": "NC",
+    "countries": "PDP origin text not visible in fetch (likely in a collapsed/JS tab). Brand-level: impact report says ~46% of production is in Vietnam (Mekong and Dong Nai river basins); cashmere from Inner Mongolia, sweaters made in Fair Trade Certified factories (fabrics page).",
+    "heritage": "vague",
+    "repair": "yes",
+    "process": "no",
+    "urls": [
+      "https://www.jcrew.com/brand_creative/pdf/JCG_2025_report_final.pdf",
+      "https://www.jcrew.com/feature/resale"
+    ],
+    "conf": "low",
+    "read": "2026-10-03"
   }
 }

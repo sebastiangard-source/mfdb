@@ -6,7 +6,7 @@
   "focus": {
     "tech": 1,
     "comfort": 2,
-    "craft": 5,
+    "craft": 3,
     "style": 2
   },
   "fabric": {
@@ -66,7 +66,7 @@
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "forg": "Four fits across every shirt and suit, in a full run of sizes, from a company that has fitted American men for two centuries.",
-    "craft": "The company that introduced ready-to-wear and the button-down collar; its Garland, North Carolina shirt factory ran until 2020."
+    "craft": "Brooks Brothers proposed closing its three US factories (Garland shirts, Haverhill suits, Long Island City ties) in 2020, was sold out of bankruptcy to Authentic Brands/Simon, and names no factory of its own on its site today. Its product pages mostly say 'Imported', but several name the mill (Reda, Vitale Barberis Canonico, Todd & Duncan, Tollegno). Named mills, nothing owned: a 3."
   },
   "doors": {
     "c": "full",
@@ -293,5 +293,22 @@
     "t": "lookbook",
     "u": "https://www.brooksbrothers.com/lookbook-fall-winter-2026.html",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "No owned factory found. Wikipedia (not the brand): Brooks Brothers formerly had three US factories (Garland Shirt Company in Garland NC for oxford shirts; Southwick plant in Haverhill MA for many 1818 suits; tie factory in Long Island City NY); in June 2020 the company proposed closing its three American factories; filed Chapter 11 July 2020; bought Sept 2020 by Authentic Brands Group and Simon Property Group JV; owned by Catalyst Brands as of 2025. brooksbrothers.com names no factory; its heritage page is blocked by robots.txt. Whether the Haverhill/Southwick plant survives under other ownership was not established.",
+    "makers": "no",
+    "mills": "some",
+    "madein": "most",
+    "countries": "Sample of 7 PDPs: 'Imported' 5/7 (Supima pinpoint dress shirt, Explorer suit jacket, Cotton Advantage chino, cashmere V-neck, merino crewneck), which gives no country; Italy 1/7 (1818 windowpane suit 'Made in Italy'); USA 1/7 (Cherry Street selvedge jeans 'Made in USA'). Every PDP states an origin line but only 2/7 name a country.",
+    "heritage": "dated and placed",
+    "repair": "NC",
+    "process": "some",
+    "urls": [
+      "https://www.brooksbrothers.com/classic-fit-wool-windowpane-1818-suit/MK01416.html",
+      "https://en.wikipedia.org/wiki/Brooks_Brothers"
+    ],
+    "conf": "high",
+    "read": "2026-10-03"
   }
 }

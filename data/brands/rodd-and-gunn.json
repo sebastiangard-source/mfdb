@@ -33,7 +33,7 @@
     "surf": 2
   },
   "why": "New Zealand casual clothing — merino knits, washed shirts, outerwear — with the pointer-dog logo.",
-  "origin": "Founded in New Zealand in 1946 as a shirtmaker.",
+  "origin": "The pointer-dog shirt label dates from 1946; the present company was established in Auckland in 1987.",
   "chan": ["O", "D"],
   "conf": "M",
   "forgc": [4, 3, 1],
@@ -53,7 +53,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "PDPs state 'Made in Vietnam' and fiber origin but no maker or mill; the sustainability page names Italian mills (Albini, Lanerossi, Pontetorto) as a directory. Nothing is owned, and the 1946 date is heritage of a shirt label, not current making."
   },
   "doors": {
     "c": "full",
@@ -197,5 +198,22 @@
       "m": "brand filter",
       "n": ""
     }
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "About page: brand sources from external suppliers (Italian family mills, Hungarian Szaalardi family for leather bags); sustainability page says NZ luggage is 'handcrafted in rural Waiuku' and hats/belts/scarves by 'family-owned and operated businesses' - partners, not owned.",
+    "makers": "some",
+    "mills": "some",
+    "madein": "every product",
+    "countries": "Vietnam 3/3 (sample of 3 PDPs: 2 shirts, 1 knit)",
+    "heritage": "dated and placed",
+    "repair": "yes",
+    "process": "some",
+    "urls": [
+      "https://www.roddandgunn.com/us/brand-story/sustainability",
+      "https://www.roddandgunn.com/us/clothing/shirts/salt-lake-shirt/009980-02.html"
+    ],
+    "conf": "medium",
+    "read": "2026-10-03"
   }
 }

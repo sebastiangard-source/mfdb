@@ -50,7 +50,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "PAIGE says it partners with wash houses and factories 'all around the world' but names none and owns none. Four men's PDPs showed no country of make in visible content; the sustainability page describes wash water treatment and eco stones only in general terms. [audit proposed 1 at low confidence; held at 2 pending a second read]"
   },
   "doors": {
     "c": "full",
@@ -191,5 +192,19 @@
       "m": "brand filter",
       "n": ""
     }
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "About page: PAIGE 'partner[s] with only the best wash houses, factories, manufacturers and suppliers all around the world'; no owned or named facility.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "NC",
+    "countries": "Not visible on 4 men's PDPs (jeans, shirt, sweater, jacket); the jeans PDP has a collapsed MATERIALS & CARE section the fetch could not read, so origin may be there. No country stated on about or sustainability pages.",
+    "heritage": "vague",
+    "repair": "yes",
+    "process": "some",
+    "urls": ["https://paige.com/about-us", "https://paige.com/denim-recycling"],
+    "conf": "low",
+    "read": "2026-10-03"
   }
 }

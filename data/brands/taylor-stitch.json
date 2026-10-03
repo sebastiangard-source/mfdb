@@ -6,7 +6,7 @@
   "focus": {
     "tech": 2,
     "comfort": 3,
-    "craft": 4,
+    "craft": 3,
     "style": 3
   },
   "fabric": {
@@ -101,7 +101,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "PDPs give a country of make (mostly China, denim in Vietnam) and construction specs, but no factory or mill. A factory directory off the PDPs profiles three partner factories (GTIG Hubo in China, Golden Bear in SF, Dante for footwear), and none of them is owned by the brand. That is country-of-make plus a partial partner directory, nowhere near the owned or category-covering making a 4 needs. [ruled by Sebastian 4 Oct 2026]"
   },
   "price_evidence": {
     "T-shirt": {
@@ -181,5 +182,22 @@
     "t": "lookbook",
     "u": "https://www.taylorstitch.com/blogs/dispatches/lookbook-2026-fall",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "Neither the about-us page nor the responsibility page claims an owned factory. The responsibility page lists partner factories. On the Hubo factory blog page, the shirt factory GTIG Hubo (Zhangjiagang, China) has its own separate 'owner'. Golden Bear Sportswear (San Francisco, est. 1922, CEO Matt Ehlen) is presented as a partner. The WebFetch summary of the responsibility page misread Hubo as Taylor Stitch-operated; the Hubo blog page contradicts that.",
+    "makers": "some",
+    "mills": "no",
+    "madein": "every product",
+    "countries": "China 5/6, Vietnam 1/6 (sample of 6 PDPs: oxford shirt, selvedge jean (Vietnam), waxed deck jacket, merino sweater, tee, wool pant).",
+    "heritage": "vague",
+    "repair": "yes",
+    "process": "some",
+    "urls": [
+      "https://www.taylorstitch.com/pages/responsibility",
+      "https://www.taylorstitch.com/blogs/factories/friends-in-woven-shirting"
+    ],
+    "conf": "medium",
+    "read": "2026-10-03"
   }
 }

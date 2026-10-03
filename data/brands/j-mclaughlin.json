@@ -6,7 +6,7 @@
   "focus": {
     "tech": 1,
     "comfort": 3,
-    "craft": 2,
+    "craft": 1,
     "style": 3
   },
   "fabric": {
@@ -63,7 +63,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "Every men's PDP sampled says only 'Imported.' with fiber and care; no country, maker or mill is named. The our-story page gives a 1977 founding and Brooklyn HQ but says nothing about where or by whom the clothes are made."
   },
   "doors": {
     "c": "full",
@@ -410,5 +411,22 @@
       "m": "brand filter",
       "n": ""
     }
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "Our-story page names Brooklyn NY headquarters and 170+ stores; no factory, workshop or mill owned or named.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "none",
+    "countries": "Only 'Imported.' on 5/5 men's PDPs (classic-fit shirt, linen shirt, polo, cashmere 1/4 zip, shorts); no country named.",
+    "heritage": "dated and placed",
+    "repair": "no",
+    "process": "no",
+    "urls": [
+      "https://www.jmclaughlin.com/products/collis-classic-fit-shirt-gingham-navy-white",
+      "https://www.jmclaughlin.com/pages/our-story"
+    ],
+    "conf": "high",
+    "read": "2026-10-03"
   }
 }

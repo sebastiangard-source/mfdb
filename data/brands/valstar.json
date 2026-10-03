@@ -43,7 +43,7 @@
   },
   "prices": [null, null, null, null, null, [1085, 1200], [730, 3310], null],
   "notes": {
-    "craft": "Milanese make, a century of one silhouette refined",
+    "craft": "Valstar's Valstarino page says the jackets are inspected, hand-cut and assembled in 'our workshops in the Veneto and Tuscany regions' by 'Valstar's tailors', and documents the steps (up to 20 pieces, up to eight hours of assembly, hand-sewn buttonholes). The workshops are claimed as its own but not named or located beyond region, and the claim covers the signature leather jacket, not the whole range; PDPs name no maker and only half state a country. Claimed owned making for a core category, unverified in detail: a cautious 4. [ruled by Sebastian 4 Oct 2026]",
     "ital": "Milan institution — the tailors' casual jacket",
     "whitet": "sells no plain tee (price pass: NONE) — seeded 27 Sep 2026, provisional",
     "reach": "[authored findability score was 1; retired 28 Sep 2026]",
@@ -136,5 +136,22 @@
     "bcorp": {
       "e": "Slowear (parent company)"
     }
+  },
+  "craft_evidence": {
+    "owned": "unclear",
+    "owned_d": "The Valstarino page claims own workshops by region, not town: 'The leathers are then transported to our workshops in the Veneto and Tuscany regions, where our team of artisans carefully inspects them'; 'Our team hand-cuts all parts of the Valstarino'; 'Valstar's tailors assemble the jacket, a task that may take up to eight hours'. No workshop is named or located beyond the region, and no photos/addresses were seen. The claim covers the Valstarino (leather/suede jackets); nothing says where coats, wool jackets or knitwear are made. Milan is the brand's founding city and store location, not a stated place of make.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "some",
+    "countries": "Italy 2/4 ('entirely Made in Italy' on the wool overcoat and wool bomber); not stated 2/4 (both suede/leather jackets; text says 'Italian savoir-faire' only). Sample of 4 PDPs: 2 leather/suede jackets, 1 coat, 1 wool bomber; knitwear not sampled. Origin may sit in a collapsed tab on the two leather PDPs.",
+    "heritage": "dated and placed",
+    "repair": "no",
+    "process": "yes",
+    "urls": [
+      "https://valstarmilano.com/en-ue/pages/the-valstarino",
+      "https://valstarmilano.com/en-ue/pages/heritage"
+    ],
+    "conf": "low",
+    "read": "2026-10-03"
   }
 }

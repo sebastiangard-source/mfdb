@@ -53,7 +53,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "Les Deux owns no production and names no factories or mills; its 'Responsibility At Les Deux' document gives production by country (Turkey 57%, China 33%, North Macedonia, India, Portugal). Product pages read show fiber content only, no country. Country-level disclosure in a brand document only, so 2 at best."
   },
   "doors": {
     "c": "full",
@@ -184,5 +185,22 @@
     "t": "lookbook",
     "u": "https://lesdeux.us/blogs/explore/autumn-winter-2026-studio",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "'Responsibility At Les Deux' PDF describes 27 external suppliers on two continents; no owned factory.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "none",
+    "countries": "No country on 4 PDPs (poplin shirt, wool zip knit, slack pants, zip jacket); two fetches reported none in collapsed sections either, but tab contents can't be fully confirmed. Responsibility PDF (Dec 2022-Dec 2023 production): Turkey 57.3%, China 33%, North Macedonia 4.4%, India 3.1%, Portugal 2%, Denmark 0.2%.",
+    "heritage": "NC",
+    "repair": "no",
+    "process": "no",
+    "urls": [
+      "https://cdn.shopify.com/s/files/1/2987/0758/files/Responsibility_At_Les_Deux.pdf?v=1738056745",
+      "https://lesdeux.us/blogs/explore/our-responsibility"
+    ],
+    "conf": "medium",
+    "read": "2026-10-03"
   }
 }

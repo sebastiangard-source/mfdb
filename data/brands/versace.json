@@ -6,7 +6,7 @@
   "focus": {
     "tech": 1,
     "comfort": 2,
-    "craft": 4,
+    "craft": 2,
     "style": 5
   },
   "fabric": {
@@ -71,7 +71,8 @@
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "style": "Print, gold hardware and the Medusa; design as spectacle."
+    "style": "Print, gold hardware and the Medusa; design as spectacle.",
+    "craft": "Versace's own former parent described its production as handled by independent third-party contractors, with materials going through a Novara warehouse. The only owned making space found is the made-to-measure atelier in Via Gesu, Milan. versace.com product pages give fiber content but no country, maker or mill (0/8). The only country-of-make statement is the filing's 'vast majority ... in Italy', so 2, not 4."
   },
   "doors": {
     "c": "full",
@@ -228,5 +229,22 @@
     "t": "campaign",
     "u": "https://www.versace.com/us/en/stories/advertising-campaigns/versace-fw-2026.html",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "No owned production found. Former parent Capri Holdings' 10-K (FY2019 and FY2021, same wording): Versace 'has a centrally managed production model'; raw materials go to a central warehouse in Novara, Italy (owned by Versace, run by a third party) and 'are distributed to independent third-party manufacturing contractors'. The only owned making space found is the made-to-measure Atelier inside Palazzo Versace, Via Gesu 12, Milan (described in Apritimoda open-house text as hosting offices, the made-to-measure Atelier and showrooms) - couture/MTM only, not the range. Ownership: Prada S.p.A. completed the acquisition from Capri on 2 Dec 2025; no Prada statement found about moving Versace production into Prada-owned factories (Prada says only that Versace is 'part of this industrial platform logic').",
+    "makers": "no",
+    "mills": "no",
+    "madein": "none",
+    "countries": "No country on any PDP: 0/8 (sample of 8 on versace.com US: cotton poplin shirt, silk shirt, wool polo sweater, wool cardigan, straight jeans, wool-stretch blazer, suede-shearling blouson, leather pants; full-text check of blazer page found no 'Made in'/'Italy'). Capri 10-K FY2021: 'vast majority of Versace's production is located in Italy', remainder elsewhere in EMEA and a small portion in Asia (FY2019: Turkey, Tunisia, elsewhere in Europe, Asia).",
+    "heritage": "dated and placed",
+    "repair": "no",
+    "process": "no",
+    "urls": [
+      "https://www.sec.gov/Archives/edgar/data/1530721/000153072121000057/cpri-20210327.htm",
+      "https://www.versace.com/us/en/men/clothing/blazers-suits/embroidered-lapel-wool-stretch-blazer/1026965-1A18305_1B000.html"
+    ],
+    "conf": "high",
+    "read": "2026-10-03"
   }
 }

@@ -6,7 +6,7 @@
   "focus": {
     "tech": 1,
     "comfort": 2,
-    "craft": 3,
+    "craft": 2,
     "style": 5
   },
   "fabric": {
@@ -65,7 +65,8 @@
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "style": "The hybrid garment — two pieces spliced into one — is a design idea applied to everything."
+    "style": "The hybrid garment — two pieces spliced into one — is a design idea applied to everything.",
+    "craft": "Sacai's own site gives fiber composition on product pages but no country of make, no factory and no mill, and its About page is design philosophy only (Tokyo, 1999). Nothing owned or named. On the brand's own evidence this is a 1; retailer labels (Dover Street Market) show mostly Made in Japan, which would make it a 2 if label data from a retailer were allowed. [ruled by Sebastian 4 Oct 2026]"
   },
   "doors": {
     "c": "full",
@@ -192,5 +193,19 @@
     "t": "collection page",
     "u": "https://www.sacai.jp/en/pages/seasons/sacai-mens-autumn-winter-2026-sacai-autumn-2026-collection",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "No owned factory, workshop or mill found. sacai.jp About page gives design philosophy only (founded Tokyo 1999 by Chitose Abe); no production content anywhere on the site sampled. Independent company (no parent group making).",
+    "makers": "no",
+    "mills": "no",
+    "madein": "none",
+    "countries": "Brand site: none stated on 2 PDPs read (denim jacket, jersey hoodie) or in 23 men's product records (products.json). Retailer data, NOT scored: Dover Street Market London e-shop listing for 25 Sacai men's AW26 items shows 'Made in Japan' 23/25, 'Made in China' 2/25 (wool knit polo, crochet knit blouson).",
+    "heritage": "dated and placed",
+    "repair": "no",
+    "process": "no",
+    "urls": ["https://www.sacai.jp/products/denim-jacket_26-04163m-001", "https://www.sacai.jp/pages/about"],
+    "conf": "low",
+    "read": "2026-10-03"
   }
 }

@@ -114,7 +114,8 @@
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "denim": "Founded as a denim brand; jeans remain the core of the range."
+    "denim": "Founded as a denim brand; jeans remain the core of the range.",
+    "craft": "Frame's men's product pages give composition only: no country, mill or factory on any of 5 sampled (jean, knit, suede blazer, trousers, overshirt). Its about page claims 'fair manufacturing practices' and a past in 'hand-crafted denim' but names no maker or place. Nothing checkable: 1."
   },
   "price_evidence": {
     "T-shirt": {
@@ -182,5 +183,22 @@
       "m": "brand filter",
       "n": "Vinted 'Frame' may mix unrelated brands"
     }
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "About page: founded 2012 in Los Angeles; 'evolved from making hand-crafted denim'; 'committed to sustainable and fair manufacturing practices'. No factory, workshop or making partner named; no owned facility.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "none",
+    "countries": "None stated 5/5 (L'Homme Slim jean, alpaca-blend sweater, suede blazer, wool easy trousers, plaid overshirt). The trousers' Shopify .json (body_html, tags) also carries no origin, so this is not only a hidden tab.",
+    "heritage": "dated and placed",
+    "repair": "yes",
+    "process": "no",
+    "urls": [
+      "https://frame-store.com/pages/about",
+      "https://frame-store.com/products/suede-blazer-mf26lja003-blk"
+    ],
+    "conf": "high",
+    "read": "2026-10-03"
   }
 }

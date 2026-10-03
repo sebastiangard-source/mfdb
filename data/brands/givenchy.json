@@ -67,7 +67,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "Givenchy PDPs state origin on every item checked (Italy for trousers, knit shorts and a leather bag; Portugal for a polo), with a traceability block naming countries of weaving and dyeing, but never a maker or mill. No owned atelier or factory is named on the site pages read. Country-of-make (with step-level countries) = 2. [audit proposed 2 at low confidence; held at 3 pending a second read]"
   },
   "doors": {
     "c": "full",
@@ -209,5 +210,22 @@
     "t": "runway",
     "u": "https://www.givenchy.com/us/en-US/cm/explore/collections/fall-winter-2026-womenswear-show",
     "m": "womens only"
+  },
+  "craft_evidence": {
+    "owned": "unclear",
+    "owned_d": "No owned atelier, workshop or factory named on givenchy.com pages read: careers page only redirects to LVMH recruitment; care-repair page mentions 'our repair workshop' with no place. No LVMH primary source on Givenchy-owned making was loaded (lvmh.com maison URL 404; a second LVMH URL hit the shared fetch-budget limit). So neither leather-goods nor ready-to-wear owned making is shown, and no group (LVMH) factory for Givenchy is evidenced in this run.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "every product",
+    "countries": "Italy 3/4 (cargo pants, knit bermuda shorts, Antigona leather wallet-on-chain), Portugal 1/4 (cotton polo). Sample of 4 PDPs (3 men's RTW: trousers, polo, knit shorts; 1 leather good, women's). No men's outerwear, knit sweater, shoes or tailoring sampled (sitemap excerpt did not expose those URLs).",
+    "heritage": "NC",
+    "repair": "yes",
+    "process": "no",
+    "urls": [
+      "https://www.givenchy.com/us/en-US/cargo-pants-in-cotton/BM51R315XZ-001.html",
+      "https://www.givenchy.com/us/en-US/care-repair.html"
+    ],
+    "conf": "low",
+    "read": "2026-10-03"
   }
 }

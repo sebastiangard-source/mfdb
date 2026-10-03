@@ -6,7 +6,7 @@
   "focus": {
     "tech": 1,
     "comfort": 4,
-    "craft": 5,
+    "craft": 4,
     "style": 2
   },
   "fabric": {
@@ -46,7 +46,7 @@
   "prices": [[70, 175], [120, 165], [190, 260], null, [225, 310], [150, 325], [265, 495], null],
   "notes": {
     "cotton": "100 of 119 clothing styles are mainly cotton, and every German-made piece is jersey or fleece knit on loopwheelers or 1960s machines",
-    "craft": "32 original loopwheelers on a 130-square-metre floor in Albstadt, the newest built in the 1960s and the oldest in 1889 — the house states the count itself",
+    "craft": "Merz b. Schwanen runs its own loopwheeler floor in Albstadt (130 m², machines from 1889 to the 1960s) and its Originals and 2M15 pages say they are knitted there. But its about page says it has worked with a family-run Portuguese manufacturer since 2016, and sampled tees and thermals say 'Made in Portugal'. Owned making covers a core line, not the whole range: a 4.",
     "tech": "nothing licensed and no elastane in any clothing style. The only stretch in the range is a swim lining and one sock",
     "briish": "German end to end on the ORIGINALS side; the rest is made in Portugal",
     "dur": "the German line is 2-thread and 2-thread heavy loopwheeled jersey at up to 245g, which is roughly double a standard tee",
@@ -196,5 +196,22 @@
     "t": "lookbook",
     "u": "https://www.merzbschwanen.com/pages/lookbook-autumn-winter-2026",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "yes",
+    "owned_d": "Brand's 'Originals – Made in Germany' page: 'Still running in our German production site in Albstadt'; loopwheelers 'some over 100 years old … The newest machine was built in the 1960s, the oldest in 1889'; 'The machines live on a 130-square-metre floor'; founders restored the machines in 2011. Covers the ORIGINALS loopwheeled line and the 2M15 mid-century-machine jersey only. Other lines (TEE02, TEE03, thermals, tanks) come from 'a family-run manufacturer in Portugal' (partner since 2016, unnamed).",
+    "makers": "some",
+    "mills": "no",
+    "madein": "most",
+    "countries": "Rendered PDPs 4/4 state country: Germany 2/4 (215 loopwheeled tee, 2M15 tee), Portugal 2/4 (TEE02 tee, thermal henley). Product feed (21 records) carries no origin in description text, so origin lives in a separate PDP section; small sample, share of Germany vs Portugal across the full range unknown.",
+    "heritage": "dated and placed",
+    "repair": "no",
+    "process": "yes",
+    "urls": [
+      "https://www.merzbschwanen.com/pages/the-originals-made-in-germany",
+      "https://www.merzbschwanen.com/products/diamond-patterned-cotton-thermal-henley"
+    ],
+    "conf": "high",
+    "read": "2026-10-03"
   }
 }

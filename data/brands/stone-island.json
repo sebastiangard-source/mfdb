@@ -60,7 +60,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "Stone Island dyes garments in its own department at its Ravarino headquarters, and Moncler's 2024 annual report says modelling, prototyping and dyeing are done internally there, while the garments themselves are made by third parties in Italy, the Mediterranean and the Far East. Its product pages describe processes in detail (garment dyeing, lamination, hand-spraying) but name no factory, no mill and, in the fetched text, no country. Owned making of one signature stage, not the range: a 4. [audit proposed 4 at low confidence; held at 4 pending a second read]"
   },
   "doors": {
     "c": "full",
@@ -200,5 +201,22 @@
     "t": "campaign",
     "u": "https://www.stoneisland.com/en-us/autumn-winter-26-27-collection.html",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "yes",
+    "owned_d": "Garment-dyeing department (the 'Tintoria' / colour lab, ~60,000 colour recipes) operated in-house by Stone Island at its own headquarters in Ravarino (Modena). Moncler Group 2024 annual report (p.21): 'The complete product development cycle is managed internally, at its Headquarters in Ravarino' — 'modelling, prototypes and dyeing'. monclergroup.com Ravarino page: HQ is where 'garment-dyeing' happens. Stone Island's own (via Sportswear Company S.p.A., Moncler subsidiary since 31 Mar 2021), not a Moncler-group plant. Whether the building itself is owned or leased is not disclosed. Garment MAKING is not owned: annual report p.22 'Manufacturing is in Italy, in the Mediterranean basin and in the Far East, at established third-party companies'. Moncler's owned plants (Trebaseleghe, Romania, Veneto knitwear) are named for Moncler, not Stone Island.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "none",
+    "countries": "0/6 PDPs showed a country of make in the fetched text (overshirt, sweatshirt, 2 knits, jeans, jacket); origin may sit in a collapsed tab or the care label the fetcher cannot see — low confidence on 'none'. Group-level: Italy, Mediterranean basin, Far East (Moncler AR 2024 p.22).",
+    "heritage": "dated and placed",
+    "repair": "yes",
+    "process": "yes",
+    "urls": [
+      "https://www.monclergroup.com/v3/assets/blt61bda6b71f29a239/blt415fe73be2e3f2a6/68b0043d1268fb8d785f3107/moncler-group-annual-report-2024.pdf",
+      "https://www.monclergroup.com/en/group/stone-island-locations/ravarino-headquarters"
+    ],
+    "conf": "low",
+    "read": "2026-10-03"
   }
 }

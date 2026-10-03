@@ -55,7 +55,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "Saint James knits and sews in its own workshops in Saint-James, Normandy (75 looms, 100+ seamstresses, per its know-how page), and its Breton, knit and peacoat pages say they are made there. But half the sampled product pages (a polyester bomber, a canvas jacket, a tee) give no origin, and a separate Made-in-France collection suggests not everything is French-made. A strong 4, a 5 if the unlabelled lines prove to be in-house."
   },
   "doors": {
     "c": "full",
@@ -150,5 +151,22 @@
       "m": "brand filter",
       "n": ""
     }
+  },
+  "craft_evidence": {
+    "owned": "yes",
+    "owned_d": "Brand's own workshops in the town of Saint-James, Normandy. Know-how page: 'one of the largest knitting workshops in Europe, with no less than 75 knitting looms'; 'more than 100 seamstresses work in the clothing workshop'; in-house mending (raccoutreuses). History page: offices and workshops have stayed in the region since 1889; 300+ employees; bought by its employees in 1990. Spinning and dyeing not described as in-house today. Covers knitwear, Breton tops and at least some tailoring (peacoat 'crafted in our Ateliers in Normandy'); some sampled items give no origin.",
+    "makers": "some",
+    "mills": "some",
+    "madein": "some",
+    "countries": "France 3/6 product-specific (Breton shirt, cardigan, peacoat); 3/6 no product-specific origin (ST DARIO polyester bomber, Zephyr cotton jacket, Arsene tee), only the site-wide 'Made in France' banner. Sample of 6 PDPs on us.saint-james.com (Breton, knit, outerwear x3, tee). Site has a separate 'Made in France' collection, which suggests not every item is French-made. products.json blocked by robots.txt.",
+    "heritage": "dated and placed",
+    "repair": "no",
+    "process": "yes",
+    "urls": [
+      "https://us.saint-james.com/pages/our-craftsmanship",
+      "https://us.saint-james.com/products/galion-ii-authentic-peacoat-for-men-100-wool-navy"
+    ],
+    "conf": "medium",
+    "read": "2026-10-03"
   }
 }

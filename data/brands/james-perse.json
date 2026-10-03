@@ -54,7 +54,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "The brand's own pages say nothing checkable about where clothes are made: PDPs give fabric origin (USA cotton, Italian corduroy) but no country of make, and the only manufacturing text refers to inspected outside 'Suppliers'. The reported owned LA factory is not stated anywhere on jamesperse.com. [audit proposed 1 at low confidence; held at 2 pending a second read]"
   },
   "doors": {
     "c": "full",
@@ -201,5 +202,22 @@
       "m": "brand filter",
       "n": ""
     }
+  },
+  "craft_evidence": {
+    "owned": "unclear",
+    "owned_d": "Reported own LA factory NOT verified: headquarters and operations-center pages are photo galleries with no text; social-responsibility page speaks only of 'Suppliers who manufacture our products' inspected by independent firms; careers page mentions no production. No brand statement of an owned factory found.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "none",
+    "countries": "No country of make on 4 rendered PDPs (polo, suede bomber, tee, plus corduroy pant text via products.json); fabric origins Italy/USA only. Possible hidden accordion not excluded.",
+    "heritage": "vague",
+    "repair": "no",
+    "process": "no",
+    "urls": [
+      "https://www.jamesperse.com/pages/social-responsibility",
+      "https://www.jamesperse.com/products/sueded-jersey-polo-azure-pigment-msx3337"
+    ],
+    "conf": "low",
+    "read": "2026-10-03"
   }
 }

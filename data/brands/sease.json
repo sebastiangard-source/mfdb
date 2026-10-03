@@ -6,7 +6,7 @@
   "focus": {
     "tech": 4,
     "comfort": 4,
-    "craft": 4,
+    "craft": 2,
     "style": 3
   },
   "fabric": {
@@ -60,7 +60,8 @@
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "synth": "Technical and bio-based synthetics throughout, built for sailing and skiing."
+    "synth": "Technical and bio-based synthetics throughout, built for sailing and skiing.",
+    "craft": "Every PDP sampled says 'Made in Italy' and gives composition plus construction notes (gauge 12 cashmere, yarn-dyed WISH wool, 3-layer heat-taped membrane), but no product names a maker or mill. The site names no owned factory and no story page; the FAQ only says 'Italian craftsmanship'. Country of make plus little else = 2."
   },
   "doors": {
     "c": "full",
@@ -184,5 +185,22 @@
       "m": "brand filter",
       "n": ""
     }
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "No owned factory, mill or workshop named anywhere seen on sease.it (homepage, FAQ, 6 PDPs). FAQ refers only generically to 'Italian craftsmanship'. No link to any Loro Piana family mill is made on the site.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "every product",
+    "countries": "Italy 6/6 (sample of 6 PDPs: blazer, cashmere knit, wool overshirt, wool jogger, field jacket, down vest)",
+    "heritage": "none",
+    "repair": "no",
+    "process": "some",
+    "urls": [
+      "https://www.sease.it/products/ellen-blazer-2-0-wombat-jb033tn575x61",
+      "https://sease.it/products/field-jacket-wombat-op048tn729x61"
+    ],
+    "conf": "high",
+    "read": "2026-10-03"
   }
 }

@@ -59,7 +59,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "State & Liberty's about page and the product pages sampled (dress shirt, suit, polo, chinos) give fit features and fiber content but no country of make, no factory and no mill. Nothing checkable about making: a 1."
   },
   "doors": {
     "c": "full",
@@ -228,5 +229,22 @@
       "m": "text search",
       "n": "No Vinted brand entry; keyword search in Men"
     }
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "About page (/pages/about-us) tells the fit story ('We founded State and Liberty because we could not find a dress shirt that fit our athletic build') and describes performance fabric, but names no factory, mill or workshop. No owned facility found.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "none",
+    "countries": "Not stated on 5/5 sampled PDPs (dress shirt, suit, polo, two trousers). Only collapsed sections noted were size/fit guides. No made-in statement on about page.",
+    "heritage": "vague",
+    "repair": "no",
+    "process": "no",
+    "urls": [
+      "https://stateandliberty.com/pages/about-us",
+      "https://stateandliberty.com/products/navy-stretch-suit"
+    ],
+    "conf": "high",
+    "read": "2026-10-03"
   }
 }

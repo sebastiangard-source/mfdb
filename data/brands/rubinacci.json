@@ -57,7 +57,7 @@
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "The Neapolitan house where the soft shoulder was developed; still a tailoring workshop first.",
+    "craft": "A 2016 Bloomberg feature describes Rubinacci's own atelier above its Naples store, where about 20 people cut and make bespoke suits. Nothing seen shows where the ready-to-wear and accessories are made, and the brand site could not be read beyond its homepage. Owned making is shown for bespoke only: a 4. [held at 5: the bespoke atelier is shown; where ready-to-wear is made is not]",
     "style": "The Neapolitan cut as a design position, held since 1932."
   },
   "doors": {
@@ -180,5 +180,22 @@
       "m": "brand filter",
       "n": ""
     }
+  },
+  "craft_evidence": {
+    "owned": "yes",
+    "owned_d": "Press, not brand: Bloomberg (2016) describes the Naples building that 'holds the store and atelier', with '20 people' working at cutting tables upstairs. Wikipedia (context) gives the house at Via Gaetano Filangieri 25, Naples. This covers bespoke; nothing seen on where ready-to-wear (shirts, ties, knitwear, RTW tailoring) is made.",
+    "makers": "NC",
+    "mills": "NC",
+    "madein": "NC",
+    "countries": "Brand site blocked; PDPs not read. Homepage text mentions 'Made in Italy' generically.",
+    "heritage": "dated and placed",
+    "repair": "NC",
+    "process": "NC",
+    "urls": [
+      "https://www.bloomberg.com/features/2016-rubinacci-bespoke-suit/",
+      "https://www.marianorubinacci.com/"
+    ],
+    "conf": "low",
+    "read": "2026-10-03"
   }
 }

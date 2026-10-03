@@ -71,7 +71,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "Palm Angels PDPs give composition and a product code but no country of make, maker or mill, and the details tab on the track jacket holds composition only. The site has no about or making page I could find. Nothing checkable about making, so the current 1 stands."
   },
   "doors": {
     "c": "full",
@@ -190,5 +191,22 @@
       "m": "brand filter",
       "n": ""
     }
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "I found no claim of an owned factory or atelier. The product sitemap has no brand or company pages, and the guessed /en-us/about-us returned 404. Parent or ownership group making was not checked (budget).",
+    "makers": "no",
+    "mills": "no",
+    "madein": "none",
+    "countries": "Country of origin not shown on 5/5 PDPs (sample: reg tee, track jacket, hoodie, long-sleeve tee, boxer bipack). The track-jacket fetch read the details/composition tab and it held no origin, so the absence looks real, though it is not certain for every PDP. A sixth PDP (track pants) was blocked by the rate limit.",
+    "heritage": "NC",
+    "repair": "no",
+    "process": "no",
+    "urls": [
+      "https://www.palmangels.com/en-us/man/classic-logo-track-jacket-538055167539148.html",
+      "https://www.palmangels.com/en-us/man/bear-in-mind-reg-tee-538055167521570.html"
+    ],
+    "conf": "high",
+    "read": "2026-10-03"
   }
 }

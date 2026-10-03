@@ -57,7 +57,7 @@
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Neapolitan tailoring by the family credited with the unpadded shoulder, made in its own workshop."
+    "craft": "Attolini's own Manufacturing page says each garment is made entirely by hand by 130 tailors in its Casalnuovo tailor's shop outside Naples, and describes the jacket-making steps and hours. That is owned, named making for the core tailoring range. Whether shirts and knitwear are made there too is not stated."
   },
   "doors": {
     "c": "full",
@@ -102,5 +102,22 @@
     "t": "collection page",
     "u": "https://www.cesareattolini.com/collection-fw-26-27",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "yes",
+    "owned_d": "Brand Manufacturing page: 'Each garment is made entirely by hand in the Casalnuovo tailor's shop, on the outskirts of Naples'; '130 tailors work every day, each dedicated to performing a single step'; 'It takes 25 to 30 hours to make a suit'. Owned by the brand (family house). The process text describes jackets/suits; it does not say whether shirts, knitwear, ties and caps on the e-boutique are also made at Casalnuovo.",
+    "makers": "some",
+    "mills": "no",
+    "madein": "NC",
+    "countries": "No PDPs reached: sitemap.xml lists no product URLs and e-boutique/category pages render products client-side.",
+    "heritage": "dated and placed",
+    "repair": "no",
+    "process": "yes",
+    "urls": [
+      "https://www.cesareattolini.com/pages/manufacturing",
+      "https://www.cesareattolini.com/pages/origins"
+    ],
+    "conf": "medium",
+    "read": "2026-10-03"
   }
 }

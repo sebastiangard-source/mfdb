@@ -6,7 +6,7 @@
   "focus": {
     "tech": 2,
     "comfort": 5,
-    "craft": 3,
+    "craft": 2,
     "style": 2
   },
   "fabric": {
@@ -42,7 +42,7 @@
   "prices": [[55, 70], [91, 91], [125, 164], null, [125, 125], null, [255, 255], null],
   "notes": {
     "cotton": "cotton carries essentially the whole range — jersey, slub and organic weights",
-    "craft": "made in Portugal, which is the brand's main claim above the elevated-basics field it sits in",
+    "craft": "Every Easy Mondays product page sampled says 'Handmade in Portugal' in 'GOTS Certified Factories', and the about page says it works with small, family-run Portuguese factories, but no factory, town or mill is named anywhere. That is a stated country of make and little else.",
     "reach": "Canadian, small, and reaching the US only through specialty shops [authored findability score was 1; retired 28 Sep 2026]",
     "whitet": "the tee is the range — seeded 27 Sep 2026, provisional",
     "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
@@ -154,5 +154,19 @@
   "region": {
     "o": [],
     "s": [77, 3201, 3202, 21]
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "About-us page: products 'hand crafted in Portugal' with 'small, family-run factories'; no owned facility, no factory or town named. HQ/shop in Toronto.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "every product",
+    "countries": "Portugal 4/4 ('Handmade in Portugal' on each; sample of 4 PDPs: crew-neck tee, slub sweatshirt, stretch poplin shirt, stretch chino). Blazer, flannel shirt and sweatpant PDPs not read (fetch budget exhausted).",
+    "heritage": "dated and placed",
+    "repair": "no",
+    "process": "no",
+    "urls": ["https://easymondays.ca/pages/about-us", "https://easymondays.ca/products/crew-neck-t-shirt"],
+    "conf": "high",
+    "read": "2026-10-03"
   }
 }

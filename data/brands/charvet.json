@@ -46,7 +46,7 @@
   },
   "prices": [null, [450, 850], [595, 895], null, [500, 800], "?", "?", "?"],
   "notes": {
-    "craft": "one shop at 28 Place Vendôme since 1838",
+    "craft": "Charvet's shirts, both bespoke and ready-to-wear, are made in its own atelier at Saint-Gaultier (Indre), per statements by Jean-Claude Colban as cited on Wikipedia. Shirts and ties are essentially the range. The brand's site could not be read to confirm it. [audit proposed 5 at low confidence; held at 5 pending a second read]",
     "cotton": "the first dedicated shirtmaker on earth; a fabric library in the tens of thousands of bolts",
     "fren": "Place Vendôme since 1838 — the institution register",
     "whitet": "sells no plain tee (price pass: NONE) — seeded 27 Sep 2026, provisional",
@@ -99,5 +99,19 @@
       "e": "TRP Charvet (France)",
       "n": "unconfirmed that this is the Place Vendôme shirtmaker unconfirmed"
     }
+  },
+  "craft_evidence": {
+    "owned": "yes",
+    "owned_d": "Shirts (bespoke AND ready-to-wear) and ties: Wikipedia states 'fifty shirt-makers working in the Saint-Gaultier atelier... whether custom or ready-to-wear' and 'Ready to wear shirts are made in the same place and with the same standards as bespoke' (footnoted to a Jean-Claude Colban statement). Saint-Gaultier is in Indre, France. Brand's own site unreadable; primary source not reached.",
+    "makers": "NC",
+    "mills": "NC",
+    "madein": "NC",
+    "countries": "NC - no PDPs readable",
+    "heritage": "dated and placed",
+    "repair": "NC",
+    "process": "NC",
+    "urls": ["https://en.wikipedia.org/wiki/Charvet_Place_Vend%C3%B4me", "https://charvet.com/"],
+    "conf": "low",
+    "read": "2026-10-03"
   }
 }

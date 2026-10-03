@@ -101,7 +101,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "Rowan's product pages state a country of make on every item sampled (Indonesia for wovens, denim and outerwear; Los Angeles/USA for tees and sweats) but name no factory and no mill. Nothing is owned. Country of make and little else: a 2."
   },
   "price_evidence": {
     "T-shirt": {
@@ -160,5 +161,22 @@
     "t": "collection page",
     "u": "https://forrowan.com/pages/fall26-collection-women",
     "m": "womens only"
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "Home page and Our Story name no factory, mill or workshop; Our Story says only 'Made in America whenever possible'. PDPs say 'Made down the road in Los Angeles' (tee) without naming a maker. No owned facility found.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "every product",
+    "countries": "Indonesia 5/7 ('Responsibly made in Indonesia': 1955 Abilene denim shirt, Axel flannel shirt jacket, Baron trucker jacket, Bray plaid shirt, Cameron Japanese fluid denim pant); USA 2/7 (Asher Standard Tee 'Made down the road in Los Angeles'; Acklen sweatpant 'Made in the USA'). Sample of 7 PDPs: shirts, tees, sweats, outerwear, trousers.",
+    "heritage": "vague",
+    "repair": "no",
+    "process": "some",
+    "urls": [
+      "https://forrowan.com/products/1955-abilene-denim-shirt",
+      "https://forrowan.com/products/asher-standard-tee"
+    ],
+    "conf": "high",
+    "read": "2026-10-03"
   }
 }

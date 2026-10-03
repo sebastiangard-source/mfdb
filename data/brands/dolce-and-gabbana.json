@@ -70,7 +70,8 @@
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "style": "Decorated, Sicilian-referenced fashion; the look is the point."
+    "style": "Decorated, Sicilian-referenced fashion; the look is the point.",
+    "craft": "Every men's PDP sampled (shirt, jeans, boots, sneakers) states 'Made in Italy' with composition, and none names a factory, workshop, mill or tannery. No page on how or where the clothes are made could be found on dolcegabbana.com. On the visible record this is country-of-make only = 2. [held at the current score: the audit’s evidence was thin; needs a second read]"
   },
   "doors": {
     "c": "full",
@@ -230,5 +231,22 @@
     "t": "runway",
     "u": "https://world.dolcegabbana.com/fashion-shows/men-fall-winter-2026-fashion-show/looks",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "unclear",
+    "owned_d": "Nothing seen either way. PDPs name no maker; the men's clothing listing links no craftsmanship/factory pages; corporate pages linked from the PDP footer (/corporate, /corporate/career) and /en-us/corporate/ and /en-us/sustainability/ all returned 404 to the fetcher. Whether D&G owns tailoring, RTW, shoe or leather-goods production was not established at a primary source.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "every product",
+    "countries": "Italy 4/4 (sample of 4 men's PDPs: shirt, jeans, biker boots, sneakers; a polo PDP returned 404). Fetcher reported no collapsed origin tabs.",
+    "heritage": "NC",
+    "repair": "no",
+    "process": "no",
+    "urls": [
+      "https://www.dolcegabbana.com/en-us/fashion/men/clothing/shirts/striped-poplin-vanity-shirt-multicolor-G5OI9TFR510S8051.html",
+      "https://www.dolcegabbana.com/en-us/fashion/men/shoes/boots-and-ankle-boots/horsehide-biker-boots-black-A70032AW35280999.html"
+    ],
+    "conf": "low",
+    "read": "2026-10-03"
   }
 }

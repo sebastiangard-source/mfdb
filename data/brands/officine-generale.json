@@ -6,7 +6,7 @@
   "focus": {
     "tech": 1,
     "comfort": 3,
-    "craft": 3,
+    "craft": 2,
     "style": 5
   },
   "fabric": {
@@ -63,7 +63,8 @@
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "style": "Pierre Mahéo's precise Parisian cut and palette define the range."
+    "style": "Pierre Mahéo's precise Parisian cut and palette define the range.",
+    "craft": "Product pages state a country of make (mostly Portugal; China for a merino knit, Spain for leather) and the fabric's country of origin, but name no factory and no mill. The site has no owned-making or supplier page; its fabric pages are placeholders."
   },
   "doors": {
     "c": "full",
@@ -185,5 +186,22 @@
     "t": "lookbook",
     "u": "https://us.officinegenerale.com/pages/editorial-essentialism-fall-winter-26",
     "m": "unisex"
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "No owned factory or atelier named anywhere checked; L'histoire page carries no making content; FAQ silent on production.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "most",
+    "countries": "Portugal 4/7 (shirt, jacket, jeans, chino), China 1/7 (merino crewneck), Spain 1/7 (goat leather jacket), not stated 1/7 (Bradley parka)",
+    "heritage": "dated and placed",
+    "repair": "no",
+    "process": "no",
+    "urls": [
+      "https://us.officinegenerale.com/products/arthus-jkt-italian-fresco-wo-100-wv-dark-navy",
+      "https://us.officinegenerale.com/products/crewneck-sweater-italian-merino-wool-navy"
+    ],
+    "conf": "high",
+    "read": "2026-10-03"
   }
 }

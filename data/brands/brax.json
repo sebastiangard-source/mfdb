@@ -51,7 +51,8 @@
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "comfort": "Stretch fabrics and a system of fits built around how trousers feel."
+    "comfort": "Stretch fabrics and a system of fits built around how trousers feel.",
+    "craft": "Brax product pages, as fetched, show no country of make, factory or mill; origin data appears to sit in a collapsed 'Care & Material' tab. The sustainability FAQ asks where Leineweber produces but the answers were collapsed, and the corporate sustainability page was not reached. There is no evidence to score from. [not researched: site unreadable]"
   },
   "doors": {
     "c": "full",
@@ -147,5 +148,22 @@
     "t": "campaign",
     "u": "https://www.brax.com/en/us/c/-s-977/men/inspirations/campaign-autumnwinter-26",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "NC",
+    "owned_d": "Not established: brax.com sustainability FAQ shows only question headers ('In which countries does Leineweber produce its clothes...'), answers collapsed; corporate sustainability page (corporate.brax.com -> company.brax.com/en/sustainability) not loaded within fetch cap.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "NC",
+    "countries": "NC - no country seen on 5 PDPs (trouser/polo, jeans, polo, shoe, gilet); origin likely in collapsed 'Care & Material' tab not visible to fetch.",
+    "heritage": "dated and placed",
+    "repair": "NC",
+    "process": "no",
+    "urls": [
+      "https://www.brax.com/en/gb/help-faq/sustainability",
+      "https://www.brax.com/en/gb/p/056123_5930220_22/style-luke"
+    ],
+    "conf": "medium",
+    "read": "2026-10-03"
   }
 }

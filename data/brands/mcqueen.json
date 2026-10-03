@@ -6,7 +6,7 @@
   "focus": {
     "tech": 1,
     "comfort": 1,
-    "craft": 4,
+    "craft": 2,
     "style": 5
   },
   "fabric": {
@@ -68,7 +68,8 @@
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "style": "Dark romance and sharp tailoring as a design signature."
+    "style": "Dark romance and sharp tailoring as a design signature.",
+    "craft": "Every McQueen product page sampled (tailoring, leather, shirts, knit, shoes) says 'Made in Italy' and names no maker, mill or atelier. The site publishes care guidelines only, with no repair service and no account of how or where things are made. On the brand's own pages that is a 2."
   },
   "doors": {
     "c": "full",
@@ -207,5 +208,22 @@
     "t": "runway",
     "u": "https://www.alexandermcqueen.com/en-us/collections/aw26/looks",
     "m": "unisex"
+  },
+  "craft_evidence": {
+    "owned": "unclear",
+    "owned_d": "None found on alexandermcqueen.com. The sustainability and product-aftercare pages name no factory, atelier or supplier, and there is no about/house page in the site nav. The parent group (Kering) could not be checked: kering.com was blocked to the fetcher and the search budget was exhausted. A London atelier is widely reported but was NOT verified here.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "every product",
+    "countries": "Italy 8/8. Sample of 8 PDPs: single-breasted pinstripe jacket, leather jacket, harness shirt, pinstripe trousers, t-shirt, embroidered cardigan, oversized sneaker, biker boot.",
+    "heritage": "NC",
+    "repair": "no",
+    "process": "no",
+    "urls": [
+      "https://www.alexandermcqueen.com/en-us/pr/flecked-pinstripe-single-breasted-jacket-868451QRADG1015.html",
+      "https://www.alexandermcqueen.com/en-us/ca/product-aftercare"
+    ],
+    "conf": "high",
+    "read": "2026-10-03"
   }
 }

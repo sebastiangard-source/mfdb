@@ -6,7 +6,7 @@
   "focus": {
     "tech": 1,
     "comfort": 4,
-    "craft": 3,
+    "craft": 2,
     "style": 5
   },
   "fabric": {
@@ -35,7 +35,7 @@
     "surf": 1
   },
   "why": "Plain, expensive clothing in the finest fabrics, with nothing on it.",
-  "origin": "Founded in 2006 by Ashley and Mary-Kate Olsen, starting with a T-shirt.",
+  "origin": "Founded in 2005 by Ashley and Mary-Kate Olsen, starting with a T-shirt.",
   "chan": ["O", "D"],
   "conf": "L",
   "forgc": [4, 2, 1],
@@ -67,7 +67,8 @@
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "style": "Plain, perfectly made clothing is a design position, held absolutely."
+    "style": "Plain, perfectly made clothing is a design position, held absolutely.",
+    "craft": "The Row's men's PDPs state a country of make on every item sampled (Italy for cashmere jacket, sweater and loafer; Japan for denim and corduroy shirt) with careful fabric descriptions, but name no maker, mill or tannery. The about page claims fabric and tailoring quality without naming any place of making. Country-of-make only = 2."
   },
   "doors": {
     "c": "full",
@@ -194,5 +195,19 @@
       "m": "brand filter",
       "n": ""
     }
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "About page: 'The Row was established in 2005 by Ashley Olsen and Mary-Kate Olsen', with 'exceptional fabrics, impeccable details, and precise tailoring' - no atelier, factory or workshop named or claimed. Pages sitemap (51 pages) has no craft/atelier/factory/supply-chain page. No owned making seen; The Row is independent (no parent group).",
+    "makers": "no",
+    "mills": "no",
+    "madein": "every product",
+    "countries": "Italy 3/5 (Olek cashmere jacket, Markhim cashmere sweater, Caden loafer), Japan 2/5 (Moe jean, Sadel corduroy shirt). Sample of 5 rendered men's PDPs: outerwear, knit, shoe, denim, shirt. Origin is on the rendered PDP, not in products.json body_html.",
+    "heritage": "dated and placed",
+    "repair": "NC",
+    "process": "no",
+    "urls": ["https://www.therow.com/products/olek-jacket-black", "https://www.therow.com/pages/about-us"],
+    "conf": "high",
+    "read": "2026-10-03"
   }
 }

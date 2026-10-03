@@ -6,7 +6,7 @@
   "focus": {
     "tech": 4,
     "comfort": 3,
-    "craft": 2,
+    "craft": 4,
     "style": 2
   },
   "fabric": {
@@ -53,7 +53,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "Son of a Tailor says it owns SON Supply, a factory in Santo Tirso, Portugal, that makes over 55% of its garments, and each product page names the factory: SON Supply for tees and sweatshirts, and named Portuguese partners (Mindshirt, Fatextil, Poltex) for shirts, knits and polos. Owned making covers part of the range, not all of it, so it scores 4."
   },
   "doors": {
     "c": "full",
@@ -155,5 +156,22 @@
     "t": "lookbook",
     "u": "https://www.sonofatailor.com/fall-26-preview",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "yes",
+    "owned_d": "SON Supply, 'our very own production house in Santo Tirso, Portugal', opened 2023 (/our-production); PDPs call it the brand's 'first fully owned factory' making 'over 55%' of garments (T-shirts, sweatshirts named as made there). No photographs/address checked beyond the text.",
+    "makers": "yes",
+    "mills": "some",
+    "madein": "every product",
+    "countries": "Portugal 6/6 (sample: cotton T-shirt, oxford shirt, merino sweater, cashmere sweater, sweatshirt, piqué polo)",
+    "heritage": "dated and placed",
+    "repair": "no",
+    "process": "yes",
+    "urls": [
+      "https://www.sonofatailor.com/our-production",
+      "https://www.sonofatailor.com/product/cotton-t-shirt"
+    ],
+    "conf": "high",
+    "read": "2026-10-03"
   }
 }

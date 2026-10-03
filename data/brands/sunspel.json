@@ -6,7 +6,7 @@
   "focus": {
     "tech": 1,
     "comfort": 4,
-    "craft": 5,
+    "craft": 4,
     "style": 3
   },
   "fabric": {
@@ -59,7 +59,7 @@
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "briish": "Made in Long Eaton since 1860; the Riviera polo and the English tee are the brand.",
-    "craft": "Its own factory in Long Eaton, Nottinghamshire, knitting and sewing since 1860."
+    "craft": "Sunspel genuinely owns and documents its Long Eaton factory (since 1937), and the Classic T-shirt PDP says it is made there. But its own Factories page lists Long Eaton as making T-shirts only, with every other category made by partner factories, and 7 of 8 sampled PDPs say Made in Portugal. Owned making of a core category, not the whole range: a 4 on the rubric."
   },
   "doors": {
     "c": "full",
@@ -197,5 +197,22 @@
     "t": "lookbook",
     "u": "https://www.sunspel.com/pages/shop-by-look-2026-autumn-collection",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "yes",
+    "owned_d": "Own factory at Long Eaton, England, on site since 1937 (a converted lace mill); brand's Factories page lists it as the one Sunspel-owned factory and says it makes luxury T-shirts; journal article describes the 12-step handmaking of the Classic T-shirt there, with photographs. All other categories (polos, sweats, knitwear, shirts, jackets, underwear, shoes) are listed as made by partner factories, mostly in Portugal.",
+    "makers": "some",
+    "mills": "no",
+    "madein": "every product",
+    "countries": "Portugal 7/8, England 1/8 (sample of 8 PDPs on us.sunspel.com: Classic T-shirt, Riviera T-shirt, Riviera polo, merino crew, cashmere polo, loopback sweatshirt, flannel shirt, suede Harrington). Only the Classic T-shirt was England; even the Riviera T-shirt is Portugal. A 'Made in Britain' collection exists (Classic T-shirts, some Scottish knitwear, accessories).",
+    "heritage": "dated and placed",
+    "repair": "no",
+    "process": "yes",
+    "urls": [
+      "https://us.sunspel.com/pages/factories",
+      "https://www.sunspel.com/blogs/the-journal/long-eaton-factory"
+    ],
+    "conf": "high",
+    "read": "2026-10-03"
   }
 }

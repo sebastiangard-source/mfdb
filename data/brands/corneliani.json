@@ -64,7 +64,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "Corneliani's own site says its Mantova factory, at via Panizza 5, still makes its garments. It documents the tailoring made there: 164 steps, about 540 hand stitches, seven inspections. Italian press on the factory's 2022 rescue confirms it is a real plant with a few hundred workers. Product pages name no maker or mill, and the shirts, knits and denim are not shown to come from that factory. Owned making that clearly covers tailoring and outerwear but is not shown for the whole range: a 4."
   },
   "doors": {
     "c": "full",
@@ -195,5 +196,22 @@
     "t": "campaign",
     "u": "https://www.corneliani.com/en_us/corneliani-world/fall-winter-26",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "yes",
+    "owned_d": "The brand's history page (corneliani.com/it_it/mondo-corneliani/storia) says: 'La fabbrica mantovana è ancora oggi la fucina creativa dell'azienda'. It credits that factory with 'produzione di capi e accessori, dal ready to wear al servizio Su Misura'. The site footer gives the operating site as Via Mario Panizza 5, Mantova. The Su Misura page says each tailored jacket takes 164 steps, with about 540 hand-finishing stitches and seven inspections, before it leaves the Mantova factory. Press confirms the factory: Il Giorno (3 Nov 2022) covers the 2022 rescue of the via Panizza plant, with Invitalia holding 49% and Investcorp 51%, and earlier about 400 staff. Invitalia's case study says 'quasi 300 posti di lavoro' and 'alte competenze artigianali'. The factory belongs to the brand company, Corneliani S.p.A. The site does not show that it makes the whole range: shirts, knitwear, chinos and denim are not tied to it.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "some",
+    "countries": "Italy 2/6 ('Made in Italy' on the wool-cashmere coat and the merino crewneck). 4/6 state no origin in the fetched text: wool-cashmere stretch jacket, cotton poplin shirt, cotton gabardine chino, stretch jeans. The origin may sit in a collapsed tab, so those 4 are 'not seen', not a firm 'none'. Sample of 6 PDPs on corneliani.com/it_it.",
+    "heritage": "dated and placed",
+    "repair": "no",
+    "process": "some",
+    "urls": [
+      "https://www.corneliani.com/it_it/mondo-corneliani/storia",
+      "https://www.corneliani.com/it_it/su-misura"
+    ],
+    "conf": "high",
+    "read": "2026-10-03"
   }
 }

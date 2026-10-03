@@ -6,7 +6,7 @@
   "focus": {
     "tech": 2,
     "comfort": 3,
-    "craft": 3,
+    "craft": 1,
     "style": 5
   },
   "fabric": {
@@ -61,7 +61,8 @@
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "style": "Camouflage prints and the ape head are a design statement first; the clothes are the canvas."
+    "style": "Camouflage prints and the ape head are a design statement first; the clothes are the canvas.",
+    "craft": "BAPE's US site gives a founding year and Harajuku origin but names no factory, maker or mill and states no country of make on any sampled product, including in the raw product data. Nothing about making is checkable: a 1."
   },
   "doors": {
     "c": "full",
@@ -190,5 +191,19 @@
     "t": "lookbook",
     "u": "https://en.jp.bape.com/pages/lookbook-2026fw-mens",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "NC",
+    "owned_d": "Brand site (us.bape.com about page, FAQ) says nothing about factories or ownership; I.T Group ownership in current_reason not checked (no corporate source fetched).",
+    "makers": "no",
+    "mills": "no",
+    "madein": "none",
+    "countries": "None stated on 4 PDPs (full-zip hoodie 1k80-115-305, tee 1k80-110-053, sweatpants 1k80-252-002, sweatshirt 1k80-113-305) or in the Shopify product JSON body/tags for 1k80-115-308 and 1k80-113-305.",
+    "heritage": "vague",
+    "repair": "no",
+    "process": "no",
+    "urls": ["https://us.bape.com/pages/about", "https://us.bape.com/products/1k80-115-305"],
+    "conf": "medium",
+    "read": "2026-10-03"
   }
 }

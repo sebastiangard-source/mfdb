@@ -6,7 +6,7 @@
   "focus": {
     "tech": 2,
     "comfort": 3,
-    "craft": 3,
+    "craft": 2,
     "style": 4
   },
   "fabric": {
@@ -110,7 +110,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "Auralee documents its fabrics in detail (fiber grade, weave, finishing, and sourcing regions such as Ichinomiya and Mongolia in its Material Matters stories), but it names no mill or factory, owns none, and its product pages do not state a country of make. That is closer to 2 than 3: process is described, but makers aren't named."
   },
   "price_evidence": {
     "T-shirt": {
@@ -191,5 +192,19 @@
     "t": "lookbook",
     "u": "https://auralee.jp/projects/29",
     "m": "unisex"
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "No owned factory or mill claimed; /about speaks of yarns 'sourced in Japan and around the world' and 'close collaboration with skilled artisans', no place named.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "none",
+    "countries": "Not stated on 5/5 PDPs (hand-sewn melton coat, super light wool shirt, gabardine slacks, Bluefaced wool jacket, silk nep denim pants). Fetch saw composition and size tables, so origin is probably absent rather than hidden, but cannot rule out an unseen tab.",
+    "heritage": "none",
+    "repair": "no",
+    "process": "some",
+    "urls": ["https://auralee.jp/material-matters/09", "https://auralee.jp/item/detail/1_1_A26AJ01BS_1/6059"],
+    "conf": "medium",
+    "read": "2026-10-03"
   }
 }

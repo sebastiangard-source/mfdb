@@ -50,7 +50,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "Joe's Jeans' about page gives a founding date and city (2001, Los Angeles) but nothing about who makes the clothes or where; none of the four product pages read states a country of make, a factory or a mill. Its parent Centric Brands says it manufactures through contract partners. Nothing checkable about making: a 1. [audit proposed 1 at low confidence; held at 2 pending a second read]"
   },
   "doors": {
     "c": "full",
@@ -181,5 +182,22 @@
       "m": "brand filter",
       "n": ""
     }
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "About page names no factory. joesjeans.com footer links the Centric Brands supply-chain statement (Centric is the parent): Centric 'manufacture[s] through contract supply chain partners', i.e. no owned factories stated.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "none",
+    "countries": "Not stated 4/4 (sample of 4 PDPs: 2 jeans, 1 sweater, 1 jacket). The fetcher did see the PDP accordions (DETAILS + FIT, FABRIC, Size Chart) and found no origin line in them. Small sample: collection grids are JS-rendered; PDP URLs taken from the product sitemap.",
+    "heritage": "dated and placed",
+    "repair": "yes",
+    "process": "no",
+    "urls": [
+      "https://www.joesjeans.com/pages/about-us",
+      "https://www.centricbrands.com/transparency-in-supply-chains-statement"
+    ],
+    "conf": "low",
+    "read": "2026-10-03"
   }
 }

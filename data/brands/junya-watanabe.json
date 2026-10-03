@@ -6,7 +6,7 @@
   "focus": {
     "tech": 2,
     "comfort": 1,
-    "craft": 3,
+    "craft": 2,
     "style": 5
   },
   "fabric": {
@@ -59,7 +59,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "Junya Watanabe is made under Comme des Garçons Co., Ltd., whose recruitment page shows an in-house Tokyo pattern and sewing department but names no owned factory. The five Junya pieces read on the group-owned Dover Street Market shop are all 'Made in Japan' with no maker or mill named. Evidence is thin; current 3 kept. [ruled by Sebastian 4 Oct 2026]"
   },
   "doors": {
     "c": "full",
@@ -100,5 +101,22 @@
       "m": "brand filter",
       "n": ""
     }
+  },
+  "craft_evidence": {
+    "owned": "unclear",
+    "owned_d": "Junya Watanabe is a line of Comme des Garçons Co., Ltd. (site_domain is the CDG site's Junya Watanabe MAN page). Same as CDG: brand-owned company recruitment page describes an in-house Tokyo production department (pattern makers, sample and production sewing technicians, production managers who manage factories) but names no owned factory. Not established which Junya pieces are made in-house.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "every product",
+    "countries": "Japan 5/5 - sample of 5 Junya Watanabe women's coats/jackets on the Dover Street Market London e-shop (group-owned retailer, not the brand's own site; products.json body text). No men's (Junya Watanabe MAN) PDPs read. Share is of a small, women's-only, outerwear-only sample.",
+    "heritage": "NC",
+    "repair": "no",
+    "process": "no",
+    "urls": [
+      "https://www.comme-des-garcons.com/recruitment/2.html",
+      "https://shop.doverstreetmarket.com/products.json?limit=250"
+    ],
+    "conf": "low",
+    "read": "2026-10-03"
   }
 }

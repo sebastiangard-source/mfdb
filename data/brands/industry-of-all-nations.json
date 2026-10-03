@@ -6,7 +6,7 @@
   "focus": {
     "tech": 1,
     "comfort": 3,
-    "craft": 4,
+    "craft": 3,
     "style": 3
   },
   "fabric": {
@@ -50,7 +50,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "PDPs state the place of make for every item, with a stage-by-stage origin table. The Guatemala denim names its maker (The New Denim Project). The about-us page and the PDPs describe partner producers and co-ops; the brand claims no owned factory, in India or anywhere else, so this is named making without ownership, a 3."
   },
   "doors": {
     "c": "full",
@@ -171,5 +172,22 @@
       "m": "text search",
       "n": "No Vinted brand entry; keyword search in Men"
     }
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "Current site does not claim an owned factory anywhere, India included. About-us page: IOAN 'partners with trusted producers around the world'. Oxford shirt PDP refers to 'the IOAN team of partners in India', '3rd generation makers', not an IOAN-owned plant. The in-house work is only the free repair/re-dye service run by IOAN's own sewers at the LA HQ (5066 W Washington Blvd), which is not production.",
+    "makers": "some",
+    "mills": "some",
+    "madein": "every product",
+    "countries": "India (Tamil Nadu) 3/6, Guatemala (Guatemala City) 2/6, Bolivia 1/6 (sample of 6 PDPs: jeans, oxford shirt, alpaca sweater, t-shirt, work jacket, chinos). Each PDP has a stage-by-stage origin table (raw material, processing, cut & sew, labels, tags).",
+    "heritage": "dated and placed",
+    "repair": "yes",
+    "process": "yes",
+    "urls": [
+      "https://industryofallnations.com/products/classic-jeans",
+      "https://industryofallnations.com/pages/about-us"
+    ],
+    "conf": "medium",
+    "read": "2026-10-03"
   }
 }

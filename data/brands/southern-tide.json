@@ -6,7 +6,7 @@
   "focus": {
     "tech": 2,
     "comfort": 3,
-    "craft": 2,
+    "craft": 1,
     "style": 2
   },
   "fabric": {
@@ -58,7 +58,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "Southern Tide's product pages give fiber content and care but no country of make, factory or mill, and the about page says nothing about making. Its parent Oxford Industries reports that it owns no manufacturing and sources from third parties, mainly China, Vietnam and Indonesia, but not per brand. Nothing checkable about where Southern Tide's clothes are made: a 1 (2 if a hidden 'Imported/Made in' tab is found)."
   },
   "doors": {
     "c": "full",
@@ -221,5 +222,22 @@
       "m": "brand filter",
       "n": ""
     }
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "No owned making. About page names no factory or mill. Parent Oxford Industries' FY2025 annual report (SEC filing) says Oxford uses third-party producers and does not operate manufacturing facilities; the only Southern Tide-related facility named is Oxford's Lyons, Georgia distribution centre (distribution, not making).",
+    "makers": "no",
+    "mills": "no",
+    "madein": "none",
+    "countries": "None seen on site: 0/4 PDPs fetched and 0/~15 product descriptions in products.json state a country or 'Imported' (sample: polos x2, sweater, sport shirt; JSON: blazer, pant, pullover, sport shirt, lounge pants). Group level only, from Oxford FY2025 report: China 29%, Vietnam ~24%, Indonesia ~10% of Oxford purchases (all brands, not Southern Tide-specific). Origin may sit in a PDP tab the fetch could not see.",
+    "heritage": "dated and placed",
+    "repair": "yes",
+    "process": "no",
+    "urls": [
+      "https://southerntide.com/products/new-skipjack-polo-shirt",
+      "https://www.sec.gov/Archives/edgar/data/75288/000007528826000034/oxfordindustriesars2025.pdf"
+    ],
+    "conf": "medium",
+    "read": "2026-10-03"
   }
 }

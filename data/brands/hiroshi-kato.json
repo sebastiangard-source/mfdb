@@ -6,7 +6,7 @@
   "focus": {
     "tech": 3,
     "comfort": 4,
-    "craft": 4,
+    "craft": 2,
     "style": 3
   },
   "fabric": {
@@ -52,7 +52,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "Kato states all garments are cut, sewn, washed and finished in the USA and the jeans PDP says 'Made In: USA' with Japanese selvedge, but no factory, contractor or mill is named and nothing is owned. That is country-of-make with a little process detail."
   },
   "doors": {
     "c": "full",
@@ -159,5 +160,22 @@
     "t": "lookbook",
     "u": "https://kato-brand.com/pages/fw26-lookbook",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "About-us: 'Every KATO garment is made in the USA, from cutting and sewing to washing and finishing' with 'skilled makers'; no owned factory, name or address given.",
+    "makers": "some",
+    "mills": "no",
+    "madein": "every product",
+    "countries": "USA. Basis: about-us claim for every garment; verified 'Made In: USA' on 1 jeans PDP (Hammer Straight Teacore) and Spokane, WA on boot description. Other PDPs not reached (kato-brand.com rate-limited 429). products.json descriptions (~10: jeans, shirt jacket, trucker jackets, work shirt) carry no origin text - it sits in a separate PDP field.",
+    "heritage": "vague",
+    "repair": "no",
+    "process": "some",
+    "urls": [
+      "https://kato-brand.com/pages/about-us",
+      "https://www.kato-brand.com/products/straight-jeans-teacore-raw-3011b69205"
+    ],
+    "conf": "medium",
+    "read": "2026-10-03"
   }
 }

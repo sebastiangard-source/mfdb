@@ -60,7 +60,8 @@
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "tech": "The range is entirely performance fabric, much of it developed by the company and named."
+    "tech": "The range is entirely performance fabric, much of it developed by the company and named.",
+    "craft": "Rhone's about page tells a founding story (brothers Nate and Ben, 2014) but names no factory or mill, and the product page that loaded showed no country of make. Nothing checkable about making was found: a 1, held at low-medium confidence because PDP detail tabs could not be read. [audit proposed 1 at low confidence; held at 1 pending a second read]"
   },
   "doors": {
     "c": "full",
@@ -199,5 +200,19 @@
       "m": "brand filter",
       "n": ""
     }
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "About page (/pages/about-us): 'Founded by brothers Nate and Ben' in 2014, origin story about men's activewear; names no factory, mill or workshop. /pages/sustainability rendered only navigation/footer to the fetcher (content not readable). No owned facility found on what could be read.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "NC",
+    "countries": "Not readable: the only PDP that loaded (Commuter Pant - Slim) showed no origin, but its 'Details' and 'Fabric & care' accordions were not rendered by the fetcher, so origin may be hidden there. Collection pages loaded 0 products; sitemap lists no products; web search budget was exhausted before PDP URLs could be found another way.",
+    "heritage": "dated and placed",
+    "repair": "yes",
+    "process": "no",
+    "urls": ["https://www.rhone.com/pages/about-us", "https://rerhone.rhone.com/"],
+    "conf": "low",
+    "read": "2026-10-03"
   }
 }

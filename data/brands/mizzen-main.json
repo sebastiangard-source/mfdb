@@ -61,7 +61,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "Mizzen+Main's about page and the five product pages sampled give fiber content and performance features but no country of make, no factory and no mill. Nothing checkable about making: a 1."
   },
   "doors": {
     "c": "full",
@@ -203,5 +204,22 @@
     "t": "lookbook",
     "u": "https://www.mizzenandmain.com/lookbook",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "About page (/pages/about-us) gives a timeline (2012 first performance dress shirt, 2014 Leeward, 2018 first store) and 'custom blend of performance fabrics' but names no factory, mill or workshop. Home page has no sustainability/factory/manufacturing links. No owned facility found.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "none",
+    "countries": "Not stated on 5/5 sampled PDPs (2 dress shirts, chino-style pant, wool blazer, quarter zip). Leeward PDP has 'Details' and 'Fabric & Care' accordions whose full content the fetcher may not have rendered; on the other PDPs those sections appeared expanded and contained no origin. Collection grids load dynamically, so the sample is small. No 'where made' statement found on about page or by site search.",
+    "heritage": "dated and placed",
+    "repair": "no",
+    "process": "no",
+    "urls": [
+      "https://www.mizzenandmain.com/pages/about-us",
+      "https://www.mizzenandmain.com/products/charcoal-glen-check-lavelle-blazer"
+    ],
+    "conf": "high",
+    "read": "2026-10-03"
   }
 }

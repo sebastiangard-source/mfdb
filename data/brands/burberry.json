@@ -6,7 +6,7 @@
   "focus": {
     "tech": 2,
     "comfort": 2,
-    "craft": 5,
+    "craft": 4,
     "style": 4
   },
   "fabric": {
@@ -53,7 +53,7 @@
     [920, 995]
   ],
   "notes": {
-    "craft": "invented gabardine; 160 years of outerwear",
+    "craft": "Burberry really does own its making for its signature product. Its annual report says it makes the Heritage trench at its own Castleford factory, weaves the gabardine at its own Keighley mill, and runs wholly owned leather-goods and technical-outerwear sites in Italy. But that owned making covers the Heritage outerwear and leather, not the range: the polo, puffer and cashmere sweater PDPs on us.burberry.com say only 'Imported', and the annual report credits 'a network of global suppliers'. Owned making for a core category, not the whole house: a 4.",
     "status": "The check is legible at fifty paces, which is the entire mechanism and also the house's recurring problem. Status that broad is hard to control once it escapes.",
     "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
     "reach": "[authored findability score was 4; retired 28 Sep 2026]",
@@ -236,5 +236,22 @@
     "t": "runway",
     "u": "https://us.burberry.com/c/burberry-world/collections/winter-2026-show/",
     "m": "unisex"
+  },
+  "craft_evidence": {
+    "owned": "yes",
+    "owned_d": "Burberry plc Annual Report 2025/26 (p.12): 'make our iconic Heritage Trench Coats at our factory in Castleford' and 'We weave gabardine at our Burberry Mill in Keighley, Yorkshire'; p.5 describes a two-year renovation of the 'historic Castleford factory'. Same page: 'We operate wholly owned leather goods and technical outerwear centres of excellence in Italy' (towns not named in the report text read). Burberry plc 'Made in the UK' release (2024): Castleford makes the Heritage Trench and Car Coats (four styles: Chelsea, Kensington, Waterloo trench, Camden car coat), 50+ years on site, with a training school; Keighley mill weaves the cotton gabardine for those coats and the Burberry Check cotton. These are the brand's own (Burberry plc) facilities. Coverage: Heritage trench/car coats and some gabardine outerwear (Yorkshire), plus Italian leather goods and technical outerwear. The rest of the RTW range (polos, knitwear, puffers) is supplied by 'a network of global suppliers' (AR p.12).",
+    "makers": "some",
+    "mills": "some",
+    "madein": "some",
+    "countries": "England (Yorkshire) 3/8, Scotland 1/8, Italy 1/8, 'Imported' with no country 3/8. US-site sample of 8 PDPs: Kensington Heritage trench, Mid-length Camden car coat, gabardine Harrington, check cashmere scarf, Hampstead leather tote, cotton polo, hooded nylon puffer, cashmere sweater. A 9th PDP, the wool Snowdon puffer, showed no origin text. It may be in an accordion the fetch could not see, so it is not counted.",
+    "heritage": "dated and placed",
+    "repair": "yes",
+    "process": "some",
+    "urls": [
+      "https://www.burberryplc.com/content/dam/burberryplc/corporate/oar/oar-2025-2026/annual-report-2025-26.pdf",
+      "https://www.burberryplc.com/news/brand/2024/burberry-launches-made-in-the-uk-series"
+    ],
+    "conf": "high",
+    "read": "2026-10-03"
   }
 }

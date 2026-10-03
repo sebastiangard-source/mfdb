@@ -6,7 +6,7 @@
   "focus": {
     "tech": 1,
     "comfort": 5,
-    "craft": 2,
+    "craft": 1,
     "style": 2
   },
   "fabric": {
@@ -54,7 +54,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "Barakett product pages state composition only, with no country, factory or mill. The only making fact on the site is a Jack Victor Limited labour report saying Jack Victor makes tailored clothing in Montreal, which is not tied to Barakett's (mostly knit) range. Nothing checkable about who makes Barakett."
   },
   "doors": {
     "c": "full",
@@ -166,5 +167,22 @@
       "m": "text search",
       "n": "No Vinted brand entry; keyword search in Men"
     }
+  },
+  "craft_evidence": {
+    "owned": "unclear",
+    "owned_d": "Brand claims no factory. Its site hosts the Bill S-211 report of Jack Victor Limited (FY Dec 2024-Nov 2025), which states Jack Victor manufactures men's tailored clothing (suits, sportcoats, blazers, trousers, formalwear) in Montreal with ~1,010 employees. The report covers Jack Victor only and does not say Barakett product is made there; Barakett PDPs give no origin. Group-owned tailoring plant, link to Barakett range unproven.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "none",
+    "countries": "No country of make on PDPs: Elton LS polo, Pascal sportcoat, plus ~10 products.json descriptions (hoodie, jogging pants, leather joggers/boots, polo). Report says materials from 'Europe and the Far East', imports from 'Europe, the Middle East and Asia'.",
+    "heritage": "vague",
+    "repair": "no",
+    "process": "no",
+    "urls": [
+      "https://robertbarakett.com/pages/child-and-forced-labour-report",
+      "https://www.robertbarakett.com/products/pascal-sportcoat-espresso-rb262006-esprso"
+    ],
+    "conf": "medium",
+    "read": "2026-10-03"
   }
 }

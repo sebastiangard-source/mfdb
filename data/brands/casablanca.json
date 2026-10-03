@@ -61,7 +61,8 @@
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "style": "Printed silk and bright color as a signature look."
+    "style": "Printed silk and bright color as a signature look.",
+    "craft": "Each Casablanca product description states a country of make (mostly Portugal and Italy; puffers and some knits China) and a fabric origin country with weight. No factory, atelier or mill is named, and the about page says nothing about where things are made. Clear country disclosure, nothing more: a 2."
   },
   "doors": {
     "c": "full",
@@ -189,5 +190,22 @@
     "t": "collection page",
     "u": "https://casablancaparis.com/en-us/pages/autumn-winter-2026",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "About page names no atelier or factory; mentions only 'Neapolitan tailoring techniques' applied to tennis pieces, with no maker or place. Information/terms page is silent on manufacturing.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "every product",
+    "countries": "Sample of 25 product descriptions + 1 PDP, all stating origin: Portugal 12 (T-shirts, hoodies, sweatshirts, track pants, swim, dress, tailored jacket, sneaker), Italy 6 (silk shirts, trousers, denim, women's track jacket), China 5 (puffer jackets, mohair knit hoodie, zip jacket, cap), Japan 2 (sunglasses). PDP of the wool double-breasted jacket confirms 'Made in Portugal' with Italian wool.",
+    "heritage": "none",
+    "repair": "no",
+    "process": "no",
+    "urls": [
+      "https://casablancaparis.com/products/m-aw26-jk-538-01-dark-teal-wool-double-breasted-jacket",
+      "https://casablancaparis.com/pages/about"
+    ],
+    "conf": "high",
+    "read": "2026-10-03"
   }
 }

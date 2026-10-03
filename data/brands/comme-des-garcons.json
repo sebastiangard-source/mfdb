@@ -6,7 +6,7 @@
   "focus": {
     "tech": 1,
     "comfort": 1,
-    "craft": 3,
+    "craft": 2,
     "style": 5
   },
   "fabric": {
@@ -57,7 +57,8 @@
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "style": "Clothing as an argument about clothing; design is the entire enterprise."
+    "style": "Clothing as an argument about clothing; design is the entire enterprise.",
+    "craft": "Comme des Garçons' own recruitment page describes a company that plans and manufactures clothing, with an in-house Tokyo production department of pattern makers, sample/production sewers and managers who run factory schedules, but it names no factory it owns and the brand site has no product pages. Product-level origin could not be read. Current 3 kept on thin evidence. [ruled by Sebastian 4 Oct 2026]"
   },
   "fibre": {
     "t": 353,
@@ -111,5 +112,19 @@
       "m": "brand filter",
       "n": ""
     }
+  },
+  "craft_evidence": {
+    "owned": "unclear",
+    "owned_d": "Brand's own recruitment page (comme-des-garcons.com/recruitment/2.html, Japanese) gives Comme des Garçons Co., Ltd. (株式会社コム・デ・ギャルソン), est. March 1973, HQ Minami-Aoyama, Tokyo, business '被服の企画製造販売' (planning, manufacture and sale of clothing). It hires, at HQ, pattern makers (CAD sample and grading patterns, toiles), sewing technicians ('サンプル、量産縫製・縫製指導' - sample and production sewing, sewing instruction) and production managers ('工場管理及び納期管理' - factory and delivery management). So there is an in-house pattern/sample/production department, but no owned factory is named and '工場管理' reads as managing outside factories. Scope of in-house making not established.",
+    "makers": "no",
+    "mills": "NC",
+    "madein": "NC",
+    "countries": "Not read: brand site has no product pages; DSM e-shop CDG product data not reached before rate limiting.",
+    "heritage": "dated and placed",
+    "repair": "no",
+    "process": "no",
+    "urls": ["https://www.comme-des-garcons.com/recruitment/2.html", "https://www.comme-des-garcons.com/"],
+    "conf": "low",
+    "read": "2026-10-03"
   }
 }

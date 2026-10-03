@@ -68,7 +68,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "Zilli names its own ateliers in Lyon, Bergamo and Pescara, and its PDPs tie leather outerwear to the Lyon atelier and shirts to the Bergamo atelier. Knitwear and trousers state only 'Made in Italy', with no atelier named, so owned making is not shown for the whole range. That is a strong 4."
   },
   "doors": {
     "c": "full",
@@ -193,5 +194,19 @@
       "m": "brand filter",
       "n": ""
     }
+  },
+  "craft_evidence": {
+    "owned": "yes",
+    "owned_d": "Maison page: 'all ZILLI's ateliers in Lyon – France, Bergamo and Pescara – Italy'. PDPs name 'Les Ateliers ZILLI in Lyon' (leather blouson) and 'our atelier in Bergamo, Italy' (shirts). Pescara is named but no category is assigned to it on the pages read.",
+    "makers": "some",
+    "mills": "no",
+    "madein": "every product",
+    "countries": "France 2/5 (leather blouson, silk/lambskin parka), Italy 3/5 (silk shirt, silk/cotton knit polo, wool trousers). Sample of 5 PDPs; a 6th (coat) returned 404.",
+    "heritage": "dated and placed",
+    "repair": "no",
+    "process": "some",
+    "urls": ["https://en.zilli.com/maison-zilli/", "https://en.zilli.com/navy-blue-ougar-blouson/"],
+    "conf": "high",
+    "read": "2026-10-03"
   }
 }

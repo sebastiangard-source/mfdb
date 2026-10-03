@@ -58,7 +58,7 @@
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "briish": "Knitted at Lea Mills, Derbyshire, since 1784; the longest-running factory in British knitwear.",
-    "craft": "Its own mill since 1784, knitting fine-gauge merino and Sea Island cotton on site."
+    "craft": "Only the homepage could be read; it says 'Made In England Since 1784' and refers to 'many skilled hands', which is consistent with, but does not show, owned making at Lea Mills. The current 5 is carried forward because the site blocked every deeper page, not because ownership was confirmed. [audit proposed 5 at low confidence; held at 5 pending a second read]"
   },
   "doors": {
     "c": "full",
@@ -144,5 +144,19 @@
       "m": "brand filter",
       "n": ""
     }
+  },
+  "craft_evidence": {
+    "owned": "unclear",
+    "owned_d": "Not shown on any page I could load. Homepage (only page that loaded) says 'Made In England Since 1784' and 'A finished John Smedley garment is the culmination of many skilled hands', but does not name Lea Mills or any factory. /sitemap.xml and /pages/our-heritage both returned HTTP 403; Wikipedia is cache-only for this tool. Lea Mills ownership is plausible but unverified here.",
+    "makers": "NC",
+    "mills": "NC",
+    "madein": "NC",
+    "countries": "Homepage banner: 'Made In England Since 1784'. No PDPs read, so no per-product share.",
+    "heritage": "dated and placed",
+    "repair": "NC",
+    "process": "NC",
+    "urls": ["https://www.johnsmedley.com/"],
+    "conf": "low",
+    "read": "2026-10-03"
   }
 }

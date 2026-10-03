@@ -25,4 +25,4 @@ _22 jobs · rewritten 2026-10-03_
 | stockists_from_brands_2026-09-28 | issued | 2026-09-28 | locations |  | the other direction of the register match; 18 priority brands have no stockist on file |
 | resale_links_2026-09-28 | issued | 2026-09-28 | links |  | joins the Vinted pill on the Secondhand line |
 | logo_count_2026-09-28 | issued | 2026-09-28 | count |  | CR-5 |
-| craft_audit_2026-10-03 | issued | 2026-10-03 | evidence |  | restarted 3 Oct after the Mohnton note was found on the wrong brand |
+| craft_audit_2026-10-03 | merged | 2026-10-03 | evidence |  | merged 4 Oct as v3.40.0; 92 moves applied, 42 low-confidence held, 5 NC; rulings 1-8 taken |

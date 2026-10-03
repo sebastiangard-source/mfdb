@@ -61,7 +61,8 @@
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "tech": "Every product is in a performance fabric the company develops with its mills; there is no cotton basics line.",
-    "comfort": "Softness is the whole pitch — brushed, four-way-stretch fabrics chosen to feel like loungewear."
+    "comfort": "Softness is the whole pitch — brushed, four-way-stretch fabrics chosen to feel like loungewear.",
+    "craft": "Vuori product pages give fiber content and proprietary fabric names but no country of make, factory or mill. Its impact page says only that Tier 1 manufacturing vendors follow a Vendor Code of Conduct, naming none."
   },
   "doors": {
     "c": "full",
@@ -310,5 +311,19 @@
       "m": "brand filter",
       "n": ""
     }
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "No owned facility claimed. Our-story and impact pages refer only to 'Tier 1 manufacturing vendors' bound by a Vendor Code of Conduct; no factory, place or country named.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "none",
+    "countries": "No country of make on 0/4 PDPs (Kore Short 5in, Sunday Performance Jogger, Meta Pant, Coronado Hoodie); the open 'Fabric & Care' section shows fibre content only. Sample small (4) due to fetch cap.",
+    "heritage": "vague",
+    "repair": "no",
+    "process": "no",
+    "urls": ["https://vuoriclothing.com/pages/impact", "https://vuoriclothing.com/products/kore-short-5-black"],
+    "conf": "high",
+    "read": "2026-10-03"
   }
 }

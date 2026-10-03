@@ -51,7 +51,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "The brand says it makes the majority of its product in its own downtown Los Angeles factory, and the rest at other LA factories, in England and in Bolivia (responsibility page). That is owned making for most but not all of the range, with no place named beyond the city and no origin on the PDP read. That fits 4; a 5 would need the factory named and evidenced more fully."
   },
   "doors": {
     "c": "full",
@@ -167,5 +168,19 @@
       "m": "brand filter",
       "n": ""
     }
+  },
+  "craft_evidence": {
+    "owned": "yes",
+    "owned_d": "About and Our Story pages: 'We make the majority of our product under our own roof at our arts + craft factory in downtown Los Angeles.' Responsibility page: 'Majority of our goods are produced in our in house factory'; the rest come from 'other LA-based Factories, England, or Boliva'. City named, no street address or photos seen in fetched text. Hand-dyeing in small batches is described.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "none",
+    "countries": "0/16 state a country (1 PDP: cashmere crew; plus products.json body text for 15 products: sweaters, tees, pants, shirt, blanket). The origin may sit in a part of the page the fetch can't see; the site-level claim is Los Angeles for the majority of goods, plus England and Bolivia.",
+    "heritage": "dated and placed",
+    "repair": "no",
+    "process": "some",
+    "urls": ["https://elder-statesman.com/pages/responsibility", "https://elder-statesman.com/pages/about"],
+    "conf": "medium",
+    "read": "2026-10-03"
   }
 }

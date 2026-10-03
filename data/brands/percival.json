@@ -6,7 +6,7 @@
   "focus": {
     "tech": 1,
     "comfort": 3,
-    "craft": 3,
+    "craft": 2,
     "style": 4
   },
   "fabric": {
@@ -108,7 +108,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "Every PDP sampled states a country of make (mostly China, also Turkey and Portugal) but names no factory or mill. The about page speaks only of makers 'across the world' and generic fabric origins. That is country-of-make only."
   },
   "price_evidence": {
     "T-shirt": {
@@ -182,5 +183,22 @@
     "t": "lookbook",
     "u": "https://www.percivalclo.com/blogs/news/the-irish-exit-aw26",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "About-us page: garments 'made across the world with skilled craftspeople we know and trust'; no owned factory named.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "every product",
+    "countries": "China 6/10, Turkey 3/10, Portugal 1/10 (sample of 10 PDPs via product JSON + PDPs: overcoats, car coat, tailored trousers, zip cardigan, overshirt, jackets, rain jacket, knit jumper, denim chore jacket)",
+    "heritage": "dated and placed",
+    "repair": "no",
+    "process": "no",
+    "urls": [
+      "https://www.percivalclo.com/pages/about-us",
+      "https://www.percivalclo.com/products/gove-chore-jacket-denim-raw"
+    ],
+    "conf": "high",
+    "read": "2026-10-03"
   }
 }

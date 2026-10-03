@@ -52,7 +52,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "Every Theory product page sampled lists the country of each production stage, from fabric weaving and dyeing to garment manufacturing (e.g. Mayer pant: fabric Czech Republic/Italy, garment China). It rarely names a mill (Botto Giuseppe on the Regal Wool crewneck) and never names the factory, and it owns no making. Detailed countries but few names: 2, with a case for 3."
   },
   "doors": {
     "c": "full",
@@ -194,5 +195,22 @@
     "t": "lookbook",
     "u": "https://www.theory.com/men/fall-2026-lookbook/",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "About page: garments 'crafted step-by-step inside our design and innovation center in New York City's Meatpacking District' (design/sampling) and materials sourced 'from the best mills in the world'. Sampled garments are finished in China, Vietnam, Peru and India by unnamed makers. No owned factory named. Parent (Fast Retailing) group making not checked.",
+    "makers": "no",
+    "mills": "some",
+    "madein": "every product",
+    "countries": "6/6 PDPs give a per-stage origin list (garment manufacturing; fabric production; weaving/knitting; dyeing; finishing). Garment: China 2/6 (Mayer pant, Regal Wool crewneck), Vietnam 2/6 (Sylvain shirt, Murphy bomber), Peru 1/6 (Essential tee), India 1/6 (Morvek leather jacket). Fabrics: Italy, Czech Republic, Japan, Peru, India.",
+    "heritage": "dated and placed",
+    "repair": "no",
+    "process": "some",
+    "urls": [
+      "https://www.theory.com/men/mens-sweaters-and-cardigans/crewneck-sweater-in-regal-wool/J0781713_001.html",
+      "https://www.theory.com/men/pants/mayer-pant-in-stretch-wool/I0271254_A01.html"
+    ],
+    "conf": "medium",
+    "read": "2026-10-03"
   }
 }

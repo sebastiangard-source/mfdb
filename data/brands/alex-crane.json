@@ -54,7 +54,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "Alex Crane's product pages state where each piece is made down to the city ('Cut and sewn in Chennai, India', 'Knit in Antananarivo, Madagascar') and where the fiber is grown, but name no factory, maker or mill. It owns nothing. A stated country (and city) with no named maker = 2."
   },
   "doors": {
     "c": "full",
@@ -166,5 +167,22 @@
     "bcorp": {
       "e": "Alex Crane"
     }
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "No owned factory claimed on /pages/about or /pages/sustainability; neither page names any factory or production partner. About page covers founder and design only.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "most",
+    "countries": "4/4 PDPs read state city and country: India (Chennai) 1/4 (herringbone flannel shirt), Madagascar (Antananarivo) 3/4 (Tam tee, Vale sweater, Knit Kite jacket). Sample is small and knit-heavy; pants, shorts, linen and swim not read (fetch budget ran out), so 'most' is provisional.",
+    "heritage": "dated and placed",
+    "repair": "no",
+    "process": "some",
+    "urls": [
+      "https://alexcrane.co/products/herringbone-flannel-button-up-olive",
+      "https://alexcrane.co/products/vale-sweater-charcoal"
+    ],
+    "conf": "medium",
+    "read": "2026-10-03"
   }
 }

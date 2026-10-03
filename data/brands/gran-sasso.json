@@ -46,7 +46,7 @@
   "price_checked": true,
   "notes": {
     "wool": "fully-fashioned merino — the entry ticket to Italian knitwear",
-    "craft": "own factory in Abruzzo, family-run since 1952",
+    "craft": "Gran Sasso's own pages name its knitwear factory at Sant'Egidio alla Vibrata (36,000 sq m, 400+ staff) and a weaving plant at Roseto degli Abruzzi, and PDPs say Made in Italy. The factory makes the knitwear core, but the sustainability page says it also works with outside artisan workshops, and nothing ties trousers/outerwear to the owned plants.",
     "cotton": "Sea Island polos at half the London price",
     "ital": "An Abruzzo knitwear mill that is vertical from yarn to finished garment, which almost nothing else at its price is. Named for the mountain above the factory.",
     "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
@@ -178,5 +178,19 @@
     "t": "lookbook",
     "u": "https://shop.gransasso.it/it/gran-sasso-donna-ai-202627-vivere-in-riva-al-lago",
     "m": "womens only"
+  },
+  "craft_evidence": {
+    "owned": "yes",
+    "owned_d": "Brand history page: Maglificio Gran Sasso headquarters at Sant'Egidio alla Vibrata (Abruzzo), over 36,000 sq m, designed from 2002 (architect Guido Canali), housing production with 400+ employees; 2005 second plant for cotton loom weaving at Roseto degli Abruzzi. Il Maglificio page (IT) says the site 'encompasses the entire production chain, from yarn selection to finished garment'. Ownership is implied by these brand pages (the company's own headquarters), not stated in a filing.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "every product",
+    "countries": "Italy 5/5 (sample of 5 PDPs: 2 crew/turtleneck knits, merino zip polo, pinstripe flannel trousers, corduroy cargo pants; corduroy page shows 'Made in Italy since 1952' brand line rather than an item-level line). Outerwear category returned 403, not sampled.",
+    "heritage": "dated and placed",
+    "repair": "no",
+    "process": "some",
+    "urls": ["https://shop.gransasso.it/it/il-maglificio", "https://shop.gransasso.it/en/the-history"],
+    "conf": "medium",
+    "read": "2026-10-03"
   }
 }

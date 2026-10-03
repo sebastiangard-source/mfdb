@@ -72,7 +72,8 @@
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "style": "Deconstruction as a design philosophy; the idea comes before the garment."
+    "style": "Deconstruction as a design philosophy; the idea comes before the garment.",
+    "craft": "Maison Margiela's men's PDPs state 'Made in Italy' (5/5) and composition, naming no maker or mill. Parent OTB describes group company Staff International as the 'production and logistics hub' for Margiela, but names no factory or place and does not say whether it owns plants; OTB says most of its suppliers are in Italy. Country-of-make plus an unspecified group production company = 2 (3 if Staff International's named role is accepted as naming the maker). [audit proposed 2 at low confidence; held at 3 pending a second read]"
   },
   "doors": {
     "c": "full",
@@ -209,5 +210,22 @@
     "t": "runway",
     "u": "https://www.maisonmargiela.com/en-us/mm-brand-show-fw26.html",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "unclear",
+    "owned_d": "Nothing on maisonmargiela.com names an owned atelier or factory (product, category and misc sitemaps contain no craft/atelier/history page). Parent OTB's site says sister company Staff International (founded 1976) is 'the production and logistics hub of the OTB Group' and an 'industrial platform' for Maison Margiela, Marni, Jil Sander and Diesel footwear/bags/SLG - so OTB group-owned production management exists, but the page names no plant, place or whether Staff makes in its own factories or coordinates suppliers. OTB 2025 sustainability news: '75% of the Group's suppliers are based in Italy' (supplier-based). Which categories (RTW vs leather goods/shoes) Staff physically makes is not stated. The OTB Maison Margiela page mentions 'Artisanal' haute couture but no atelier location.",
+    "makers": "some",
+    "mills": "no",
+    "madein": "every product",
+    "countries": "Italy 5/5 (sample of 5 rendered men's PDPs: collarless virgin wool coat, Stockman cotton shirt, wool zipped cardigan, distressed jeans, Replica sneakers). Bags and t-shirts not sampled.",
+    "heritage": "dated and placed",
+    "repair": "no",
+    "process": "no",
+    "urls": [
+      "https://www.otb.net/staff-international",
+      "https://www.maisonmargiela.com/en-us/collarless-virgin-wool-coat-S29AA0325M36132511.html"
+    ],
+    "conf": "low",
+    "read": "2026-10-03"
   }
 }

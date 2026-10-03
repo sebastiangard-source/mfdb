@@ -6,7 +6,7 @@
   "focus": {
     "tech": 1,
     "comfort": 2,
-    "craft": 2,
+    "craft": 1,
     "style": 4
   },
   "fabric": {
@@ -55,7 +55,8 @@
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "denim": "A denim brand; the jeans with their painted and distressed finishes are the whole business."
+    "denim": "A denim brand; the jeans with their painted and distressed finishes are the whole business.",
+    "craft": "Purple's about page and FAQ say nothing about where or by whom its clothes are made. Four PDPs list fiber or leather composition only, with no country, mill or factory."
   },
   "doors": {
     "c": "full",
@@ -173,5 +174,19 @@
     "t": "lookbook",
     "u": "https://www.purple-brand.com/pages/fw26-lookbook",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "About page states only 'Founded in 2018'; no facility claimed or named.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "none",
+    "countries": "No country of make on 4 PDPs (P004 and P001 jeans, leather bomber, leather hoodie); none on about or FAQ.",
+    "heritage": "vague",
+    "repair": "no",
+    "process": "no",
+    "urls": ["https://purple-brand.com/pages/about", "https://purple-brand.com/products/p004-rip-and-repair"],
+    "conf": "medium",
+    "read": "2026-10-03"
   }
 }

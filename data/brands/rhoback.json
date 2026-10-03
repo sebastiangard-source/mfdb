@@ -59,7 +59,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "Rhoback's Our Story and Quality Promise pages say nothing about where or by whom its clothes are made, and its product pages list fiber content and nothing else about origin. Nothing checkable: a 1."
   },
   "doors": {
     "c": "full",
@@ -167,5 +168,22 @@
       "m": "brand filter",
       "n": ""
     }
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "None found. 'Our Story' page covers the brand's philosophy (named for the Rhodesian Ridgeback) and design approach, with no factory, place or making detail; footer has no sustainability/supply-chain page. Only owned site named is a retail store in Charlottesville.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "none",
+    "countries": "None seen: 0/2 PDPs and 0/12 products.json descriptions (performance polos x6, hoodies x2, jogger, Sheffield shirt, women's polo, dog bandana) state a country or 'Imported'. Origin could sit in a tab the fetch did not render.",
+    "heritage": "none",
+    "repair": "no",
+    "process": "no",
+    "urls": [
+      "https://www.rhoback.com/pages/our-story",
+      "https://www.rhoback.com/products/mens-tops-sheffield-shirt-the-herringbone-jacquard-sepia-cocoa"
+    ],
+    "conf": "high",
+    "read": "2026-10-03"
   }
 }

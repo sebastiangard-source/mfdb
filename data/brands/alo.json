@@ -55,7 +55,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "aloyoga.com has no about, sustainability or supply-chain page, and the men's product descriptions name no factory, mill or country of make. Nothing checkable about making: a 1."
   },
   "doors": {
     "c": "full",
@@ -298,5 +299,22 @@
     "t": "collection page",
     "u": "https://www.aloyoga.com/collections/fall-collection",
     "m": "unisex"
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "No owned factory, mill or workshop found on aloyoga.com; no about/sustainability/supply-chain page exists (aloyoga.com/pages/about-us and /pages/sustainability both 404) and the homepage nav carries none. Third-party 'where is Alo made' blogs found in search are not evidence and were not used.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "none",
+    "countries": "None seen: 0/16 product descriptions in mens-shop-all products.json state a country; 3 PDPs fetched showed no origin text, but PDP detail/fabric accordions did not render in the fetch (items out of stock), so origin may be hidden there. Product .js tags 'ChinaCatalog'/'TurkeyCatalog' look like market catalogues, not origin; not scored.",
+    "heritage": "none",
+    "repair": "no",
+    "process": "no",
+    "urls": [
+      "https://www.aloyoga.com/collections/mens-shop-all/products.json?limit=30",
+      "https://www.aloyoga.com/products/m1205r-conquer-reform-crewneck-short-sleeve-black"
+    ],
+    "conf": "high",
+    "read": "2026-10-03"
   }
 }

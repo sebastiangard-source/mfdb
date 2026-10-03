@@ -63,7 +63,8 @@
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "comfort": "Built around a pull-on, no-button waistband in four-way stretch; comfort is the stated reason the company exists."
+    "comfort": "Built around a pull-on, no-button waistband in four-way stretch; comfort is the stated reason the company exists.",
+    "craft": "Redvanly's PDPs give composition and care but no country of make. Its fabric pages use proprietary trade names, with Lenzing Modal the only outside name, and no mills or factories. The family-business page is a founders' story with nothing about making."
   },
   "doors": {
     "c": "full",
@@ -214,5 +215,22 @@
     "t": "lookbook",
     "u": "https://www.redvanly.com/pages/aw26",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "None claimed. The 'A Family Business' page tells the founders' story (Andrew, cousin David, brother Eric) and says nothing on manufacturing.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "none",
+    "countries": "None stated: 0 of 12 products in products.json (flannel shirts, boxer briefs, jogger, hoodie, corduroy trouser) and 0 of 1 PDP read (Sutton Flannel Shirt).",
+    "heritage": "vague",
+    "repair": "no",
+    "process": "no",
+    "urls": [
+      "https://www.redvanly.com/pages/fabric-technology",
+      "https://redvanly.com/products/sutton-flannel-shirt-in-oat"
+    ],
+    "conf": "high",
+    "read": "2026-10-03"
   }
 }

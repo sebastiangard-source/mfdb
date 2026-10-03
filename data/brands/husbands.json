@@ -6,7 +6,7 @@
   "focus": {
     "tech": 1,
     "comfort": 1,
-    "craft": 3,
+    "craft": 2,
     "style": 5
   },
   "fabric": {
@@ -63,7 +63,8 @@
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "style": "A single 1970s-inflected tailoring silhouette defines the house."
+    "style": "A single 1970s-inflected tailoring silhouette defines the house.",
+    "craft": "Every Husbands PDP sampled states a country of make (Italy, Poland, Portugal) and the fabric's country of origin, but none names a maker or mill. Suit PDPs give construction specifics ('entièrement entoilée', functional cuffs). The only maker reference is an unnamed 1989 Cologne shirt workshop. That is country-of-make plus construction detail = 2 (a strong 2)."
   },
   "doors": {
     "c": "full",
@@ -181,5 +182,22 @@
     "t": "lookbook",
     "u": "https://husbands-paris.com/pages/lookbook/automne-hiver-2026-drop-1",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "No owned atelier or factory claimed. The Histoire page speaks only of 'Authentic fabrics and savoir-faire' with no place named. Shirt PDPs say 'Nos chemises sont fabriquées dans un atelier fondé en 1989 à Cologne, en Allemagne' - an unnamed third-party workshop, not claimed as owned (and the two shirts read are themselves 'fabriqué en Pologne').",
+    "makers": "no",
+    "mills": "no",
+    "madein": "every product",
+    "countries": "Italy 2/6 (navy serge suit, cashmere roll-neck), Poland 2/6 (two cotton-silk shirts), Portugal 2/6 (flared trouser, ringer tee). Sample of 6 rendered PDPs: suit, knit, 2 shirts, trousers, tee. products.json body text does not carry the origin; it is on the rendered PDP.",
+    "heritage": "none",
+    "repair": "NC",
+    "process": "some",
+    "urls": [
+      "https://husbands-paris.com/products/chemise-col-large-en-serge-de-coton-et-soie-indigo",
+      "https://husbands-paris.com/products/costume-droit-en-serge-de-laine-bleu-marine"
+    ],
+    "conf": "medium",
+    "read": "2026-10-03"
   }
 }

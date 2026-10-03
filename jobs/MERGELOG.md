@@ -1626,3 +1626,100 @@ Held: [('Carhartt', 'sweater NONE — a house with no crewneck still makes sweat
 ## 2026-09-28 · stockists_from_brands · Easy Mondays (priority-1 row): Fore & Wharf: Easy Mondays added; new shop: Martin NYC, Brooklyn NY (places 3201); new shop: Morton's, Cedarhurst NY (places 3202); Murray's Toggery: Easy Mondays added
 
 ## 2026-10-03 · correction · the Mohnton Knitting Mills note was on Proper Cloth's record; it is Buck Mason's (bought 2023). Proper Cloth's craft note rewritten; Buck Mason's craft note written.
+
+## 2026-10-04 · craft_audit_2026-10-03 merged · 90 scores moved; 42 low-confidence proposals held at current; 5 unresearched; rulings 1-8 applied; every craft reason replaced by the audit's
+- Levi's: craft 5 -> 3
+- Carhartt: craft 3 -> 4
+- Lacoste: craft 2 -> 4
+- Mack Weldon: craft 1 -> 2
+- Son of a Tailor: craft 2 -> 4
+- Mott & Bow: craft 3 -> 2
+- Everlane: craft 2 -> 3
+- Industry of All Nations: craft 4 -> 3
+- Marine Layer: craft 1 -> 2
+- Bonobos: craft 1 -> 2
+- Rothy's: craft 2 -> 4
+- Southern Tide: craft 2 -> 1
+- Taylor Stitch: craft 4 -> 3
+- Outerknown: craft 2 -> 3
+- Patagonia: craft 4 -> 3
+- Faherty: craft 3 -> 2
+- johnnie-O: craft 2 -> 1
+- Percival: craft 3 -> 2
+- Wax London: craft 3 -> 2
+- Hiroshi Kato: craft 4 -> 2
+- Duck Head: craft 3 -> 2
+- Wythe: craft 4 -> 2
+- Alex Mill: craft 2 -> 1
+- Robert Barakett: craft 2 -> 1
+- Easy Mondays: craft 3 -> 2
+- Indochino: craft 2 -> 3
+- Tecovas: craft 4 -> 3
+- Patrick James: craft 3 -> 2
+- Barbour: craft 5 -> 4
+- Baracuta: craft 3 -> 2
+- Filson: craft 5 -> 4
+- Madhappy: craft 1 -> 2
+- Kith: craft 2 -> 1
+- Aimé Leon Dore: craft 3 -> 2
+- J.McLaughlin: craft 2 -> 1
+- Ted Baker: craft 2 -> 1
+- Norse Projects: craft 2 -> 3
+- Vollebak: craft 2 -> 3
+- A Bathing Ape: craft 3 -> 1
+- Canada Goose: craft 3 -> 5
+- Rails: craft 2 -> 1
+- Ksubi: craft 2 -> 1
+- Purple: craft 2 -> 1
+- Citizens of Humanity: craft 3 -> 4
+- AGOLDE: craft 3 -> 4
+- Fidelity Denim: craft 3 -> 2
+- Eton: craft 3 -> 2
+- Rakho: craft 3 -> 1
+- Eleventy: craft 3 -> 2
+- Borgo28: craft 3 -> 2
+- Brooks Brothers: craft 5 -> 3
+- J.Press: craft 4 -> 3
+- Sunspel: craft 5 -> 4
+- Merz b. Schwanen: craft 5 -> 4
+- Isabel Marant: craft 2 -> 1
+- Sid Mashburn: craft 4 -> 2
+- Billy Reid: craft 4 -> 2
+- Luca Faloni: craft 4 -> 2
+- Officine Générale: craft 3 -> 2
+- Auralee: craft 3 -> 2
+- Ami Paris: craft 1 -> 2
+- Ring Jacket: craft 5 -> 4
+- Drake's: craft 5 -> 4
+- Raffi: craft 3 -> 1
+- BOSS: craft 2 -> 4
+- Thom Browne: craft 3 -> 2
+- Burberry: craft 5 -> 4
+- Sease: craft 4 -> 2
+- Ferragamo: craft 4 -> 2
+- Versace: craft 4 -> 2
+- Celine: craft 3 -> 4
+- McQueen: craft 4 -> 2
+- Rick Owens: craft 3 -> 4
+- Yohji Yamamoto: craft 3 -> 2
+- Comme des Garçons: craft 3 -> 2
+- Junya Watanabe: craft 3 -> 2
+- Sacai: craft 3 -> 2
+- Amiri: craft 3 -> 2
+- Rhude: craft 2 -> 1
+- Golden Goose: craft 4 -> 2
+- Fear of God: craft 3 -> 2
+- Bode: craft 4 -> 2
+- Greg Lauren: craft 4 -> 2
+- Visvim: craft 5 -> 2
+- Ralph Lauren Purple Label: craft 4 -> 2
+- Berluti: craft 5 -> 4
+- Husbands: craft 3 -> 2
+- Brioni: craft 5 -> 4
+- The Row: craft 3 -> 2
+- Lemaire: craft 3 -> 2
+- Jil Sander: craft 3 -> 2
+- Wales Bonner: craft 3 -> 2
+- JiyongKim: craft 5 -> 2
+- Brunello Cucinelli: craft 5 -> 4
+- Hermès: craft 5 -> 4

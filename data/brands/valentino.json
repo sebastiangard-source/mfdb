@@ -67,7 +67,8 @@
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "style": "A couture house's design sensibility carried into menswear."
+    "style": "A couture house's design sensibility carried into menswear.",
+    "craft": "Valentino's own 2025 Group Sustainability Report lists named, brand-owned production sites: couture atelier in Rome, shoe labs in Bucine, Capraia e Limite and Macerata, a bags lab in Rosate and a metal lab in Scandicci. Ready-to-wear is made by 'affiliate companies and a network of suppliers' (a PAP Lab in Turin is named but its role isn't stated), and PDPs give only 'Made in Italy'. Owned making covering accessories and couture but not demonstrably the RTW range = 4. [audit proposed 4 at low confidence; held at 4 pending a second read]"
   },
   "doors": {
     "c": "full",
@@ -216,5 +217,22 @@
     "t": "runway",
     "u": "https://www.valentino.com/en-us/experience/valentino-interferenze-fall-winter-2026-27-collection-man",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "yes",
+    "owned_d": "Valentino Group 2025 Sustainability Report (p.10 site list) names Valentino's own sites: Haute Couture atelier at Palazzo Mignanelli, Rome (~70 seamstresses, 5 Premieres); Footwear Operations and Valentino Shoes Lab, Bucine and Capraia e Limite; Valentino Sporting Shoes Lab, Macerata; Valentino Bags Lab, Rosate (Milan); Product Operations and Valentino Metal Lab, Scandicci; Valentino PAP Lab, Turin; industrial HQ Valdagno. These are the brand's own (Valentino Group affiliate) sites, not a parent group's. Report says manufacturing is done 'by the Maison affiliate companies and by a network of suppliers'. Owned making is clear for couture, footwear, leather goods and metal hardware; for ready-to-wear only a 'PAP Lab, Turin' is named and the report does not say whether it produces or prototypes.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "every product",
+    "countries": "Italy 2/2 (sample of only 2 PDPs: trousers, polo; en-us product sitemap listed almost no menswear). Report: Italian suppliers = 90% of sourcing of raw materials, components and manufacturing services.",
+    "heritage": "NC",
+    "repair": "no",
+    "process": "some",
+    "urls": [
+      "https://valentino-cdn.thron.com/static/RAMMIZ_2025_Valentino_Group_Sustainability_Report_S8NZ3M.pdf",
+      "https://www.valentino.com/en-us/product-british-mohair-trousers-BRB766A6D_056"
+    ],
+    "conf": "low",
+    "read": "2026-10-03"
   }
 }

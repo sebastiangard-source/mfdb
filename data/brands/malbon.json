@@ -62,7 +62,8 @@
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "comfort": "Stretch golf fabrics and relaxed cuts; built to be worn off the course as much as on it."
+    "comfort": "Stretch golf fabrics and relaxed cuts; built to be worn off the course as much as on it.",
+    "craft": "Malbon's product pages give fiber composition only, with no country of make, maker or mill. The about page gives a 2017 Los Angeles founding and nothing about manufacture."
   },
   "doors": {
     "c": "full",
@@ -189,5 +190,19 @@
       "m": "brand filter",
       "n": ""
     }
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "None claimed. The about page says only 'We started in Los Angeles in 2017' and that products are 'shaped by collaboration and partnership'.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "none",
+    "countries": "None stated: 0 of 12 products in products.json (sweaters, polos, GORE-TEX pants, anorak and trench, beanie, golf bag) and 0 of 2 PDPs read. The Fairway Polo PDP has no Details or Fabric & Care accordion; only a size guide.",
+    "heritage": "dated and placed",
+    "repair": "no",
+    "process": "no",
+    "urls": ["https://malbon.com/pages/about", "https://malbon.com/products/fairway-polo-marine-green"],
+    "conf": "high",
+    "read": "2026-10-03"
   }
 }

@@ -63,7 +63,7 @@
   "notes": {
     "prep": "the British register rather than the American one, and constitutive rather than referenced — the brand was founded to put this wardrobe back into production",
     "ivy": "a cousin of the collegiate canon rather than the canon itself; the oxford and the rugby shirt overlap, the campus lineage does not",
-    "craft": "a Savile Row address and a made-to-measure and bespoke service sit above the main line at Nº14",
+    "craft": "Hackett PDPs name the cloth's weaving country (England or Italy) and, on premium suits, the mill Loro Piana, but none states where the garment is made or who makes it. No owned making was found. [audit proposed 2 at low confidence; held at 4 pending a second read]",
     "cashmere": "merino and merino-cashmere carry most of the knitwear",
     "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
     "reach": "[authored findability score was 2; retired 28 Sep 2026]",
@@ -198,5 +198,22 @@
       "m": "brand filter",
       "n": ""
     }
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "No owned factory or workshop named on any Hackett page read; PDPs give only the country the cloth was woven in. The Nº14 Savile Row line appears as a navigation link; its made-to-measure/bespoke service and any workroom were not reached.",
+    "makers": "no",
+    "mills": "some",
+    "madein": "none",
+    "countries": "0/6 PDPs state where the garment is made (gold-button blazer, Loro Piana suit, poplin shirt, wool-cashmere overcoat, Kensington chino, double-knit crew sweat). 3/6 give fabric weaving country only (England 1, Italy 2). The fetch reported no hidden tabs, but origin could still sit in an unrendered accordion.",
+    "heritage": "dated and placed",
+    "repair": "no",
+    "process": "no",
+    "urls": [
+      "https://www.hackett.com/uk/en_gb/pd/pure-wool-loro-piana-suit---woven-in-italy-HM423212595.html",
+      "https://www.hackett.com/uk/en_gb/pd/wool-gold-button-blazer---woven-in-england-HM441977595.html"
+    ],
+    "conf": "low",
+    "read": "2026-10-03"
   }
 }

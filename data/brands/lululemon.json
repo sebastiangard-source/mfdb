@@ -58,7 +58,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "Lululemon says it does not own any manufacturing facilities and names no suppliers on its supply-chain page. The product page read gives fiber content but no country of make, factory or mill."
   },
   "doors": {
     "c": "full",
@@ -587,5 +588,22 @@
     "t": "campaign",
     "u": "https://shop.lululemon.com/story/seasonal-edit",
     "m": "unisex"
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "Brand states on its corporate supply-chain page: 'we do not own any manufacturing facilities'. No owned factory or mill.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "none",
+    "countries": "No country of make on 1/1 PDP read (ABC Pant Classic, Materials & Care section). Sample of 1 only: fetch budget ran out (shared 800/hour cap hit) before more PDPs were read. Countries per the 10-K not checked.",
+    "heritage": "NC",
+    "repair": "yes",
+    "process": "no",
+    "urls": [
+      "https://corporate.lululemon.com/our-impact/people/supply-chain-wellbeing",
+      "https://corporate.lululemon.com/our-impact"
+    ],
+    "conf": "medium",
+    "read": "2026-10-03"
   }
 }

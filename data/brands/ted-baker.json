@@ -6,7 +6,7 @@
   "focus": {
     "tech": 1,
     "comfort": 2,
-    "craft": 2,
+    "craft": 1,
     "style": 3
   },
   "fabric": {
@@ -100,7 +100,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "Five Ted Baker PDPs list fiber content and care but no country of manufacture and no mill. One suit jacket PDP names its maker as Jack Victor, a licensee, which is the only checkable making fact found."
   },
   "price_evidence": {
     "T-shirt": {
@@ -169,5 +170,22 @@
       "m": "brand filter",
       "n": ""
     }
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "No owned factory, workshop or mill named anywhere seen; about/our-story pages 404 on the current Shopify site (tedbaker.com/pages/about-us, /pages/our-story).",
+    "makers": "some",
+    "mills": "no",
+    "madein": "none",
+    "countries": "None stated on 5 of 5 PDPs sampled (polo, 3 wool suit jackets, blazer); shirt collection listing also showed no origin. Sample skewed to tailoring.",
+    "heritage": "none",
+    "repair": "no",
+    "process": "no",
+    "urls": [
+      "https://www.tedbaker.com/products/classic-mid-blue",
+      "https://www.tedbaker.com/products/rogerly-green"
+    ],
+    "conf": "medium",
+    "read": "2026-10-03"
   }
 }

@@ -6,7 +6,7 @@
   "focus": {
     "tech": 3,
     "comfort": 3,
-    "craft": 2,
+    "craft": 3,
     "style": 4
   },
   "fabric": {
@@ -110,7 +110,8 @@
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "scandi": "Copenhagen through and through: plain, functional, in a muted palette, with the fabric sources published."
+    "scandi": "Copenhagen through and through: plain, functional, in a muted palette, with the fabric sources published.",
+    "craft": "Norse Projects owns no factory, but product pages name the maker with a short profile: Fontoli (Portugal) for the Oxford shirt, Blupuro Maglierie in Carpi for lambswool knits, Triwool (Portugal) for tees, and state country on most PDPs. Some pages also give gauge/yarn count and name a mill (Furuhashi). Naming makers on PDPs is a 3."
   },
   "price_evidence": {
     "T-shirt": {
@@ -183,5 +184,22 @@
     "t": "lookbook",
     "u": "https://norseprojects.com/blogs/journal/autumn-winter-26-lookbook",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "Brand page and PDPs describe outside makers (e.g. Fontoli, Triwool, Blupuro Maglierie); no owned factory or workshop named anywhere seen.",
+    "makers": "some",
+    "mills": "some",
+    "madein": "most",
+    "countries": "Portugal 2/5, Italy+Tunisia (knitted/assembled) 1/5, Turkey 1/5, not stated 1/5 (sample of 5 PDPs: Oxford shirt, lambswool sweater, tee, overshirt, chino).",
+    "heritage": "vague",
+    "repair": "no",
+    "process": "some",
+    "urls": [
+      "https://norseprojects.com/products/stensmark-merino-lambswool-sweater-grey-melange",
+      "https://norseprojects.com/products/lyngkrog-regular-oxford-bd-shirt-blue-stripe"
+    ],
+    "conf": "high",
+    "read": "2026-10-03"
   }
 }

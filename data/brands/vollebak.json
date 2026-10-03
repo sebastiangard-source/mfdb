@@ -6,7 +6,7 @@
   "focus": {
     "tech": 5,
     "comfort": 2,
-    "craft": 2,
+    "craft": 3,
     "style": 4
   },
   "fabric": {
@@ -57,7 +57,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "Every Vollebak product page sampled states where the garment was constructed (Romania, Portugal, UK, China, Vietnam) and where the material came from, and several name the mill or material maker (Schoeller, Sesia, Brunello, AlphaTek). The garment factories are never named and nothing is owned, but the process write-ups are unusually specific. Named mills, nothing owned: a 3."
   },
   "doors": {
     "c": "full",
@@ -167,5 +168,22 @@
       "m": "text search",
       "n": "No Vinted brand entry; keyword search in Men"
     }
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "No owned factory, mill or workshop found. About page names only the founders (Nick and Steve Tidball) and partners (SAGA Space Architects, Bang & Olufsen); PDPs say 'Constructed in <country>' with partner factories unnamed.",
+    "makers": "no",
+    "mills": "some",
+    "madein": "every product",
+    "countries": "Sample of 8 PDPs, 8/8 state a country: Romania 2/8 (Full Metal Jacket, Martian Aerogel Jacket), Portugal 2/8 (100 Year T-Shirt, Graphene T-Shirt), UK 2/8 (Sub Zero Sweater, Underwater Kelp Cardigan), China 1/8 (Indestructible Jeans), Vietnam 1/8 (Planet Earth Suit Pants). Fabric origin also stated per PDP (Switzerland, Italy, Japan, UK, US).",
+    "heritage": "vague",
+    "repair": "no",
+    "process": "yes",
+    "urls": [
+      "https://vollebak.com/products/sub-zero-sweater-grey-marl-edition",
+      "https://vollebak.com/products/full-metal-jacket-copper-edition"
+    ],
+    "conf": "high",
+    "read": "2026-10-03"
   }
 }

@@ -55,7 +55,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "Vince owns no making and names no factories or mills. Product pages state a country inconsistently: one 'Made in the USA', one 'Imported', and several give only the fabric's country ('Fabric imported from Italy'). Country-level information only, so 2. [audit proposed 2 at low confidence; held at 2 pending a second read]"
   },
   "doors": {
     "c": "full",
@@ -214,5 +215,22 @@
     "t": "collection page",
     "u": "https://www.vince.com/men-fall-2026/",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "Supply Chain Act page: Vince requires 'all factories and suppliers to adhere to our code of conduct' and audits suppliers; no owned factory. About page names none.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "some",
+    "countries": "Garment country stated 1/5 (USA: garment-dye polo); 'Imported' with no country 1/5 (cashmere hoodie); 3/5 state only fabric origin (Italy 2, Portugal 1) with no make country (sample of 5 PDPs: cashmere hoodie, Italian twill trouser, flannel shirt, wool bomber, cotton polo).",
+    "heritage": "dated and placed",
+    "repair": "no",
+    "process": "no",
+    "urls": [
+      "https://www.vince.com/product/garment-dye-cotton-polo-shirt-MS1299445WASHEDCOASTAL.html",
+      "https://www.vince.com/supplychain-policy.html"
+    ],
+    "conf": "low",
+    "read": "2026-10-03"
   }
 }

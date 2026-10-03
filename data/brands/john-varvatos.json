@@ -51,7 +51,8 @@
     "rock": "Leather, dark tailoring and a store in the old CBGB; the brand has dressed rock musicians since 1999.",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "John Varvatos states 'Made in Italy' on some product pages (a velvet suit jacket, a Mako cotton tee) and says nothing about origin on the rest of the sample. It describes fabric as 'Italian' without naming mills, and its about page names no maker or owned facility. A country of make and little else: 2."
   },
   "doors": {
     "c": "full",
@@ -188,5 +189,22 @@
       "m": "brand filter",
       "n": ""
     }
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "About page: launched in New York City 'twenty-five years ago'; speaks of 'artisanal craftsmanship' but names no factory, workshop or making partner. No owned making found.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "some",
+    "countries": "Italy 2/7 (Cypress velvet suit jacket 'Tailored in Italy'/'Made in Italy'; Vero crewneck tee 'Made in Italy'); not stated 5/7 (Rodney shirt, Canosa cashmere crewneck, Pickup jean, Rind suede jacket, Mercer pant). Sample of 7 PDPs: tailoring, shirt, knit, tee, jean, leather, trouser. Fetcher may miss a collapsed tab.",
+    "heritage": "vague",
+    "repair": "no",
+    "process": "no",
+    "urls": [
+      "https://www.johnvarvatos.com/collections/suits/cypress-jacket/JVS2338W26-EEPB-506.html",
+      "https://www.johnvarvatos.com/about-us/about-us.html"
+    ],
+    "conf": "medium",
+    "read": "2026-10-03"
   }
 }

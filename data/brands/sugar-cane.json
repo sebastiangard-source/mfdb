@@ -6,7 +6,7 @@
   "focus": {
     "tech": 1,
     "comfort": 2,
-    "craft": 5,
+    "craft": 2,
     "style": 4
   },
   "fabric": {
@@ -63,7 +63,7 @@
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "dur": "Heavyweight selvedge denim woven on vintage shuttle looms, made to the standards of 1940s work jeans.",
-    "craft": "Woven in Japan on shuttle looms, with sugar-cane fiber blended into the cotton; the process is the product.",
+    "craft": "Sugar Cane documents its denim process in a dated article series (cotton blending, spinning tension, dyeing, weaving on old Toyoda shuttle looms at 29-inch width), but never names a mill or factory, and parent Toyo Enterprise names no plant it owns. Product pages name no maker and showed no origin line in the fetch; the only country claim seen is 'Made in Japan' in article titles. That is a stated country plus process description, not owned or named making. [applied 4 Oct 2026: the audit found no owned making and no named maker, which is a 2 on the rubric whatever the confidence of the rest]",
     "denim": "A denim house: jeans and denim jackets are the range."
   },
   "doors": {
@@ -108,5 +108,19 @@
       "m": "text search",
       "n": "No Vinted brand entry; keyword search in Men"
     }
+  },
+  "craft_evidence": {
+    "owned": "unclear",
+    "owned_d": "Parent Toyo Enterprise (aboutus page: founded 18 Nov 1965, Sumida, Tokyo) describes its business as '繊維製品企画製造業、卸売り、及び貿易業' (textile product planning and manufacturing, wholesale, trade), but names no factory, weaving mill or sewing plant it owns. Its history text says embroidery was commissioned to craftsmen in Kiryu and Ashikaga (outsourced). The sugarcane.jp 'Denim Factory' series (spinning, dyeing, weaving) does not name the factories or say who owns them. Whether Toyo owns weaving or sewing: not shown.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "NC",
+    "countries": "No country of origin seen on the 3 PDPs fetched (spec table may be hidden from the fetch); the sugarcane.jp article series is titled 'Sugar Cane Made in Japan Denim Factory'. Share across PDPs could not be established.",
+    "heritage": "dated and placed",
+    "repair": "no",
+    "process": "yes",
+    "urls": ["https://www.sugarcane.jp/news/80/", "https://www.toyo-enterprise.co.jp/aboutus/"],
+    "conf": "low",
+    "read": "2026-10-03"
   }
 }

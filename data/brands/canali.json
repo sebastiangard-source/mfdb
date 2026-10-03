@@ -64,7 +64,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "Canali says 70% of its production is in its own Italian workshops, with five production centres and over 1,400 staff, and 30% is made by Italian third parties. Every PDP sampled says Made in Italy, but no PDP or company page names a factory town or a cloth mill. So the house has real owned making that does not cover the whole range, and it is described rather than placed: a 4. [ruled by Sebastian 4 Oct 2026]"
   },
   "doors": {
     "c": "full",
@@ -195,5 +196,19 @@
     "t": "campaign",
     "u": "https://us.canali.com/collection/fall-winter-campaign",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "unclear",
+    "owned_d": "Brand states owned making but names no place: made-in-italy page: '70% of our production takes place in our own workshops in Italy, and the remaining 30% entrusted to carefully monitored Italian third-party suppliers'; 'a short, verticalized, and integrated supply chain'. About-us page: 'five production centers strategically located in Italy', 'over 1400 employees'. Neither page names the towns; company-data page gives only the registered office (Via Lombardia 17/19, Sovico MB) and parent Canali Holding SpA. Rated unclear only because no production site is named; the 70% figure is specific.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "every product",
+    "countries": "Italy 5/5 (sample of 5 PDPs: suit, dress shirt, knit crew neck, car coat, denim trousers); a 6th PDP (oxford shoe) returned no readable content.",
+    "heritage": "dated and placed",
+    "repair": "no",
+    "process": "some",
+    "urls": ["https://us.canali.com/made-in-italy", "https://us.canali.com/about-us"],
+    "conf": "medium",
+    "read": "2026-10-03"
   }
 }

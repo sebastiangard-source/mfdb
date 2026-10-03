@@ -56,7 +56,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "Diesel's own pages name no factory, maker or mill and the sampled jeans pages show no country of make. Its parent OTB says a group company handles Diesel footwear and accessories production, but nothing ties owned making to Diesel clothing. On what is checkable, a 1; a 2 if PDPs do state origin in a hidden tab. [audit proposed 1 at low confidence; held at 3 pending a second read]"
   },
   "doors": {
     "c": "full",
@@ -210,5 +211,22 @@
     "t": "campaign",
     "u": "https://diesel.com/en-us/man/campaign/",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "unclear",
+    "owned_d": "No Diesel-owned clothing factory found on diesel.com. OTB 2024 Sustainability Report (p.13, via fetched summary) says group company Staff International 'handles product development and production for the Diesel brand' for footwear and accessories; whether that is owned manufacturing or managed suppliers is not stated. OTB 2025 report: 'Staff International is a fully integrated, multi-service platform'; group suppliers ~72-75% in Italy. Group-level, not Diesel ready-to-wear.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "none",
+    "countries": "No origin seen on 2 US denim PDPs (Larkee 00C06Q0DBEJ01, D-Vyl A157970DBED01); the fetch suggests origin may be collapsed or not loaded, and en-gb PDP returned a site error. Treat as unverified rather than confidently none.",
+    "heritage": "vague",
+    "repair": "yes",
+    "process": "no",
+    "urls": [
+      "https://diesel.com/en-us/diesel/about-diesel.html",
+      "https://otb-strapi-prod-assets.otb-frame.com/OTB_Sustainability_Report_2024_ENG_d3933fdba0.pdf"
+    ],
+    "conf": "low",
+    "read": "2026-10-03"
   }
 }

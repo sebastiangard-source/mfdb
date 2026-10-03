@@ -6,7 +6,7 @@
   "focus": {
     "tech": 1,
     "comfort": 3,
-    "craft": 2,
+    "craft": 1,
     "style": 4
   },
   "fabric": {
@@ -55,7 +55,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "Isabel Marant's men's product pages give composition only: no country of make, factory or mill on any of 6 sampled. Its ethics and Modern Slavery pages say it uses several hundred outside suppliers in over 15 countries and name none. Nothing checkable at product level: a 1, not the current 2."
   },
   "doors": {
     "c": "full",
@@ -193,5 +194,22 @@
     "t": "lookbook",
     "u": "https://us.isabelmarant.com/blogs/journal/marant-fall-2026-collection",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "Ethics charter: 'we look for suppliers and manufacturers who share our values'; Modern Slavery statement: 'several hundred' suppliers and manufacturers 'from over 15 countries, located across Europe, Asia, and North Africa'. Timeline names only a Paris creative studio (Place des Victoires, 2012). No owned factory or workshop named.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "none",
+    "countries": "None stated 6/6 (Vittorio shirt, Darlane jacket, Elois jeans, Arlen pants, Leonard mohair sweater, Lyas alpaca sweater) on us.isabelmarant.com; the Darlane product's Shopify .json (body_html and tags) also has no origin, so this is not just a hidden tab. Site-level only: 'over 15 countries' in Europe, Asia and North Africa.",
+    "heritage": "dated and placed",
+    "repair": "no",
+    "process": "no",
+    "urls": [
+      "https://us.isabelmarant.com/pages/slavery-act-1",
+      "https://us.isabelmarant.com/products/ve0786had3e05h30bu-darlane-jacket-blue"
+    ],
+    "conf": "medium",
+    "read": "2026-10-03"
   }
 }

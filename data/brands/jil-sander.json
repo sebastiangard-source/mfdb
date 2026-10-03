@@ -6,7 +6,7 @@
   "focus": {
     "tech": 1,
     "comfort": 2,
-    "craft": 3,
+    "craft": 2,
     "style": 5
   },
   "fabric": {
@@ -114,7 +114,8 @@
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "style": "The house that defined minimalist tailoring; the cut is the brand."
+    "style": "The house that defined minimalist tailoring; the cut is the brand.",
+    "craft": "Every Jil Sander product page checked says 'made in Italy' and nothing more: no factory, maker or mill is named. The about page gives a dated Hamburg/Milan history and OTB ownership but names no owned making. Country-only disclosure is a 2."
   },
   "price_evidence": {
     "T-shirt": {
@@ -194,5 +195,22 @@
     "t": "runway",
     "u": "https://www.jilsander.com/en-us/men/highlights/fall-winter-2026-runway",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "Brand about page names no Jil Sander-owned factory or workshop; it mentions only OTB's 'School of Craftsmanship' (training). The parent OTB says it 'controls and manages the Staff International and Brave Kid companies' (otb.net), but neither OTB nor the brand states that Jil Sander is made there; the otb.net Jil Sander page is silent on production. Recorded as no (nothing owned shown), not as group-owned making.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "every product",
+    "countries": "Italy 7/7 (sample of 7 men's PDPs on jilsander.com/en-gb: chambray shirt, felt wool coat, wool knit polo, denim trousers, cotton T-shirt, down blouson, calf leather lace-up shoe).",
+    "heritage": "dated and placed",
+    "repair": "no",
+    "process": "no",
+    "urls": [
+      "https://www.jilsander.com/en-gb/about.html",
+      "https://www.jilsander.com/en-gb/felt-wool-tailored-coat/J03AA0241J40369036.html"
+    ],
+    "conf": "medium",
+    "read": "2026-10-03"
   }
 }

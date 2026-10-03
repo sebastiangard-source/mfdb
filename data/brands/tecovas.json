@@ -6,7 +6,7 @@
   "focus": {
     "tech": 1,
     "comfort": 3,
-    "craft": 4,
+    "craft": 3,
     "style": 3
   },
   "fabric": {
@@ -59,7 +59,8 @@
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "dur": "Hand-made Western boots built to be resoled; the clothing is cut to match.",
-    "shoes": "A bootmaker first; the clothing came later."
+    "shoes": "A bootmaker first; the clothing came later.",
+    "craft": "Tecovas says its boots are handmade in León, Mexico (over 200 steps, Goodyear welt, hand-laid cording) but never names the workshop or claims to own it. Some apparel PDPs name mills (Cone Mills denim, British Millerain waxed canvas). That is named mills on some pages and a named city for boots, with no owned making shown."
   },
   "doors": {
     "c": "full",
@@ -235,5 +236,19 @@
       "m": "brand filter",
       "n": ""
     }
+  },
+  "craft_evidence": {
+    "owned": "unclear",
+    "owned_d": "Story pages say dress boots are 'Made By Hand in León, Mexico' with photographs of a workshop, but never say Tecovas owns it or name the workshop; no ownership claim found. Design is in Austin.",
+    "makers": "no",
+    "mills": "some",
+    "madein": "none",
+    "countries": "0/5 PDPs showed a country in fetched text (2 cowboy/work boots, jeans, pearl-snap shirt, waxed jacket); shirt/jeans 'Material & Care' accordions not visible, so origin may be hidden there. Brand-level: boots 'Made By Hand in León, Mexico' (story pages).",
+    "heritage": "dated and placed",
+    "repair": "yes",
+    "process": "some",
+    "urls": ["https://www.tecovas.com/pages/our-story", "https://www.tecovas.com/story/boot-restoration"],
+    "conf": "medium",
+    "read": "2026-10-03"
   }
 }

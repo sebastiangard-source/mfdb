@@ -6,7 +6,7 @@
   "focus": {
     "tech": 1,
     "comfort": 3,
-    "craft": 3,
+    "craft": 2,
     "style": 5
   },
   "fabric": {
@@ -56,7 +56,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "Lemaire owns no making and names no factories or mills; its about page refers only to unnamed partners in Europe and the Mediterranean. Its strength is country-level traceability: a footer PDF gives the making, dyeing and weaving country for every reference (mostly Romania, Italy, Hungary, Portugal). Countries by stage, with no makers named, is a 2 on this scale."
   },
   "doors": {
     "c": "full",
@@ -181,5 +182,22 @@
     "t": "lookbook",
     "u": "https://www.lemaire.fr/pages/autumn-winter-2026-lookbook",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "About page: 'Most manufacturing partners are based in Europe and around the Mediterranean basin'; fabrics 'sourced primarily from Europe and Japan'. No owned workshop or factory named; Paris address (11 Place des Vosges) is the house/studio, not a making site.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "every product",
+    "countries": "PDP shows a 'Made in' field that rendered as a placeholder in the fetch (country loaded client-side - not seen on PDP). The footer AGEC traceability PDF (updated 19 Aug 2026, ~160 references) gives confection / dyeing-finishing / weaving-knitting country for every reference: confection roughly Romania ~45, Italy ~35, Hungary ~25, Portugal ~15, Tunisia/Morocco/Madagascar ~10 each, other ~10. Spot checks: car coat CO1162 Hungary (cloth Italy); shirt SH1305 Hungary (Italy); blouson OW1248 Romania (Japan); denim PA1335 Italy; parka OW1292 Romania (Italy); shoes FO0134 Portugal; knit PO0052 Portugal (dye Italy).",
+    "heritage": "dated and placed",
+    "repair": "no",
+    "process": "some",
+    "urls": [
+      "https://cdn.shopify.com/s/files/1/0431/7954/0638/files/FOOTER_AGEC_26W_-_CORRECTION_LDC.pdf?v=1788190833",
+      "https://www.lemaire.fr/pages/about-lemaire"
+    ],
+    "conf": "high",
+    "read": "2026-10-03"
   }
 }

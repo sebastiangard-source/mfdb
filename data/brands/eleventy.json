@@ -6,7 +6,7 @@
   "focus": {
     "tech": 1,
     "comfort": 3,
-    "craft": 3,
+    "craft": 2,
     "style": 3
   },
   "fabric": {
@@ -64,7 +64,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "Eleventy's product pages say Made in Italy on every item sampled and one jacket names its Zegna cloth, but no page names a factory, workshop or mill beyond that, and the site has no about or production page. The founder told La Conceria it was only considering buying suppliers. Country of make plus one mill: a 2, perhaps a weak 3."
   },
   "doors": {
     "c": "full",
@@ -207,5 +208,22 @@
       "m": "brand filter",
       "n": ""
     }
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "No owned factory named anywhere on eleventymilano.com (no about/company page with production content; chi-siamo URL redirects to home). Press (La Conceria, 'Eleventy: se il problema è produrre, non ci resta che acquisire') quotes founder Marco Baldassari saying production is the priority and that Eleventy was evaluating acquiring three existing suppliers; no completed acquisition found in search.",
+    "makers": "no",
+    "mills": "some",
+    "madein": "every product",
+    "countries": "Italy 8/8 (sample of 8 PDPs: knits, shirt, jackets, trousers incl. denim; product data carries tag 'MADE IN:IT - Italia' on each, page shows 'Made in Italy')",
+    "heritage": "vague",
+    "repair": "no",
+    "process": "some",
+    "urls": [
+      "https://www.eleventymilano.com/products/giacca-monopetto-lana-seta-cashmere-6",
+      "https://www.laconceria.it/lusso/eleventy-se-il-problema-e-produrre-non-ci-resta-che-acquisire/"
+    ],
+    "conf": "medium",
+    "read": "2026-10-03"
   }
 }

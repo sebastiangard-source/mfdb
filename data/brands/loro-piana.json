@@ -83,7 +83,7 @@
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "comfort": "Cashmere, vicuña and baby cashmere in soft, unstructured shapes; the fiber is chosen for feel.",
-    "craft": "Controls its raw materials from the farm, spins and weaves in its own Piedmont mills."
+    "craft": "LVMH's page for Loro Piana says the company owns 9 production sites, all in Italy, produces 5 million meters of fabric a year and 'controls every stage of production' from fiber to finished product. Product pages say Made in Italy and use the house's own named cloths. The 5 holds on the owned mills, though garment-making sites are not named."
   },
   "fibre": {
     "t": 675,
@@ -244,5 +244,22 @@
     "t": "lookbook",
     "u": "https://us.loropiana.com/en/menswear-fall-winter-2026-2027",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "yes",
+    "owned_d": "LVMH maison page: '9 PRODUCTION SITES OWNED BY LORO PIANA, ALL LOCATED IN ITALY'; 'The company controls every stage of production... from the collection of the natural fibers, right down to the delivery of the finished products'; '5 MILLION METERS OF FABRIC PRODUCED EACH YEAR'. Sites are owned by Loro Piana (an LVMH maison). The page read does not name the sites (Quarona, Roccapietra not seen) or say which garment categories are sewn in them.",
+    "makers": "no",
+    "mills": "some",
+    "madein": "every product",
+    "countries": "Italy 3/3 (sample of 3 men's PDPs: Sourwood cardigan FRM1645, Fuji pants FRM1632, Spagna leather jacket FRM1683). LVMH page: all RTW and accessories 'made in Italy'.",
+    "heritage": "dated and placed",
+    "repair": "no",
+    "process": "some",
+    "urls": [
+      "https://www.lvmh.com/houses/fashion-leather-goods/loro-piana/",
+      "https://us.loropiana.com/en/man/office-refinement/sourwood-cardigan-FRM1645_F8SF.html"
+    ],
+    "conf": "medium",
+    "read": "2026-10-03"
   }
 }

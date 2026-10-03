@@ -54,7 +54,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "Aspesi's history page says it was founded in 1969 by Alberto Aspesi as a shirt producer, but the site names no factory, workshop or mill, and the two product pages read state no country of make. Nothing seen supports a 3; the current score is kept only because the sample was too small to overturn it. [audit proposed 3 at low confidence; held at 3 pending a second read]"
   },
   "doors": {
     "c": "full",
@@ -172,5 +173,19 @@
     "t": "lookbook",
     "u": "https://aspesi.com/en-us/pages/fall-winter-2026",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "unclear",
+    "owned_d": "Site names a registered office (Via Solferino 56, Milan) and an 'operative headquarters' at Via Salvatore Quasimodo 55, Legnano (/pages/headquarters), with no mention of production, factory or workshop there. No owned making claimed.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "none",
+    "countries": "Not stated on 2/2 PDPs read (pant-selvedge-denim, camicia-ut-shirt-denim). Small sample; origin may sit in a tab the fetcher cannot see — low confidence.",
+    "heritage": "dated and placed",
+    "repair": "NC",
+    "process": "no",
+    "urls": ["https://aspesi.com/pages/storia", "https://aspesi.com/products/pant-selvedge-denim"],
+    "conf": "low",
+    "read": "2026-10-03"
   }
 }

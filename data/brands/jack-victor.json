@@ -54,7 +54,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "Jack Victor's own timeline puts its factory on Saint Alexander Street in Montreal from 1951, expanded to 150,000 sq ft in 1998. Its sustainability page says its unionised Montreal facilities make the core tailoring. Knitwear and some other lines are Italian-made by unnamed partners (one blazer names Loro Piana cloth), so owned making covers tailoring, not the whole range: a 4. [audit proposed 4 at low confidence; held at 4 pending a second read]"
   },
   "doors": {
     "c": "full",
@@ -204,5 +205,19 @@
     "t": "lookbook",
     "u": "https://www.jackvictor.com/pages/fall-2026-collection-preview",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "yes",
+    "owned_d": "Brand's own pages describe its own making in Montreal. 'Our World' timeline: Royal Brand Clothing 1913; 1951 'a new Montréal headquarters and factory building on Saint Alexander Street is completed'; 1998 manufacturing facilities expanded to 150,000 sq ft. Sustainability page: 'Our Montreal facilities operate using 95% renewable energy … and employ a unionized workforce'; 'core men's tailoring collection is manufactured in North America using unionized labor'. Site has a 'Made in Montreal' collection alongside 'Made in Italy'. Current street address of the factory not confirmed on the pages read. Covers tailoring, not the whole range.",
+    "makers": "no",
+    "mills": "some",
+    "madein": "most",
+    "countries": "Blazers: collection page origin filter shows Canada for all 42 blazers; Midland blazer PDP 'Made in Montreal' (1 rendered PDP). Non-tailoring sample of 16 from product feed: Italy-related wording 9/16 ('crafted in Italy', 'woven in Italy'; some only 'Italian merino wool', which is fibre), no origin 6/16 (sport shirts), 1 knit only refers to Canadian textile history. Suits not sampled (429).",
+    "heritage": "dated and placed",
+    "repair": "NC",
+    "process": "some",
+    "urls": ["https://www.jackvictor.com/pages/our-world", "https://www.jackvictor.com/collections/blazers"],
+    "conf": "low",
+    "read": "2026-10-03"
   }
 }

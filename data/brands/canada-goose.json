@@ -6,7 +6,7 @@
   "focus": {
     "tech": 3,
     "comfort": 3,
-    "craft": 3,
+    "craft": 5,
     "style": 2
   },
   "fabric": {
@@ -56,7 +56,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "Canada Goose's own FY25 Modern Slavery Act report says its core down jackets are made in seven owned and operated factories in Winnipeg, Toronto, Scarborough and Montreal, and that 75% of products by volume are made in Canada; it also owns its Romanian knitwear maker (Paola Confectii, 2023). Parka pages say 'made in canada'; knit, footwear and toque pages say only 'made in europe'. The brand is the maker for its core range: a 5, at the 4/5 border because footwear, rainwear and accessories are made by unnamed partners."
   },
   "doors": {
     "c": "full",
@@ -201,5 +202,22 @@
     "t": "collection page",
     "u": "https://www.canadagoose.com/en-us/collections/mens-fall-winter-collection",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "yes",
+    "owned_d": "Brand-owned (Canada Goose Holdings), not a parent group's. FY25 Modern Slavery Act report (S-211): 'Our core down-filled jackets are made in our seven owned and operated Canadian manufacturing facilities (Winnipeg, Toronto, Scarborough, and Montreal)'; 75% of products made in Canada, 23% Europe, 2% Asia by volume; rainwear, knitwear, footwear and accessories made in Europe/Asia. Owns the operating assets of Paola Confectii, a Romanian knitwear maker (acquired Nov 2023; had made HyBridge knits for CG since 2017 — FashionNetwork, WWD). COO quoted (Supply Chain Dive, 2025): over 90% of down-filled outerwear made in the company's Canadian facilities. Our History page: seven facilities, three GTA, three Winnipeg, one Quebec. Owned making covers down outerwear and (via Romania) knitwear; footwear, rainwear and most accessories are third-party.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "every product",
+    "countries": "Canada 3/8 (Langford parka, Expedition parka, Waist Pack), Europe 5/8 (HyBridge Knit Jacket, Rosseau sweater, Keystone boot, Cascade sneaker, Rib toque) — European pages say only 'made in europe', no country. Sample of 8 PDPs: parkas, knitwear, footwear, accessories. All 8 stated an origin.",
+    "heritage": "dated and placed",
+    "repair": "yes",
+    "process": "some",
+    "urls": [
+      "https://images.canadagoose.com/image/upload/v1748543241/cg-global/pages/Canada%20Modern%20Slavery%20Act/Canada_Goose_-_Modern_Slavery_Act_Report_2025.pdf",
+      "https://www.canadagoose.com/en-us/pages/our-history"
+    ],
+    "conf": "high",
+    "read": "2026-10-03"
   }
 }

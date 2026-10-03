@@ -6,7 +6,7 @@
   "focus": {
     "tech": 1,
     "comfort": 3,
-    "craft": 3,
+    "craft": 2,
     "style": 2
   },
   "fabric": {
@@ -108,7 +108,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "Patrick James is a retailer whose own about page says it began as a private-label store and sources from nine countries; it names no factory or mill. Its house-label product pages give a country only sometimes (Italy, Canada) and otherwise say 'Imported'. That is a 2."
   },
   "price_evidence": {
     "T-shirt": {
@@ -182,5 +183,22 @@
       "m": "text search",
       "n": "No Vinted brand entry; keyword search in Men"
     }
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "About page describes a private-label and brand retailer: 'Patrick James began primarily as a private label store'; merchandise sourced from England, Scotland, USA, Ireland, Italy, France, Germany, Canada and Japan. No factory, workroom or tailor shop named.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "some",
+    "countries": "Italy 1/5 (Reserve plaid shirt), Canada 1/5 (gabardine slacks), 'Imported' 3/5 (paisley cashmere shirt, houndstooth sport coat, inked cashmere crewneck). Sample of 5 house-label PDPs: shirts, sport coat, trousers, knit.",
+    "heritage": "dated and placed",
+    "repair": "no",
+    "process": "no",
+    "urls": [
+      "https://www.patrickjames.com/pages/about-us",
+      "https://patrickjames.com/products/9155-flat-front-wool-gabardine-slacks-1"
+    ],
+    "conf": "high",
+    "read": "2026-10-03"
   }
 }

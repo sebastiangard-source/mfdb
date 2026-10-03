@@ -6,7 +6,7 @@
   "focus": {
     "tech": 1,
     "comfort": 1,
-    "craft": 4,
+    "craft": 2,
     "style": 4
   },
   "fabric": {
@@ -47,7 +47,7 @@
   },
   "prices": [[245, 450], null, [625, 1375], [1250, 1950], [1050, 1295], [2000, 2000], [995, 3150], null],
   "notes": {
-    "craft": "one-of-one construction from vintage cloth in an owned LA studio",
+    "craft": "Every apparel PDP says 'Constructed in Los Angeles', and the brand overview PDF describes the process: vintage garments and army tents are deconstructed, and scraps are pieced into 'Scrapwork' yardage. Nothing on the site names or shows an owned LA studio or any maker or mill, so the making claim is a city of make plus a process description.",
     "murica": "Americana literally recut — the flag frayed on purpose",
     "avant": "deconstruction as family argument",
     "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
@@ -160,5 +160,22 @@
       "m": "brand filter",
       "n": ""
     }
+  },
+  "craft_evidence": {
+    "owned": "unclear",
+    "owned_d": "Not verified. The brand overview PDF says 'Since 2011, from downtown LA' and lists 'Made in America'; PDPs say 'Constructed in Los Angeles'. No studio address, ownership statement or in-house workforce is given on any page read (no about page exists; pages sitemap has only scrapwork, press and policies).",
+    "makers": "no",
+    "mills": "no",
+    "madein": "every product",
+    "countries": "USA (Los Angeles) 14/14 apparel (sample of 15 products via products.json: jackets, shirts, hoodies, trousers; the 15th is a fragrance with no origin).",
+    "heritage": "dated and placed",
+    "repair": "no",
+    "process": "some",
+    "urls": [
+      "https://cdn.shopify.com/s/files/1/1069/0562/files/GL_OVERVIEW_2024.pdf?v=1723310579",
+      "https://greglauren.com/products.json?limit=50"
+    ],
+    "conf": "medium",
+    "read": "2026-10-03"
   }
 }

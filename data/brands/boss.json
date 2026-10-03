@@ -6,7 +6,7 @@
   "focus": {
     "tech": 2,
     "comfort": 2,
-    "craft": 2,
+    "craft": 4,
     "style": 3
   },
   "fabric": {
@@ -160,7 +160,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "HUGO BOSS's 2025 annual report says 17% of volume is made in five owned facilities, with Izmir making formalwear and casualwear and Metzingen making Made to Measure suits. The other 83% comes from contract suppliers. This is real owned making for part of the range, not the whole."
   },
   "price_evidence": {
     "T-shirt": {
@@ -240,5 +241,22 @@
     "t": "campaign",
     "u": "https://group.hugoboss.com/en/newsroom/stories/company/boss-brand-campaign-fw26",
     "m": "unisex"
+  },
+  "craft_evidence": {
+    "owned": "yes",
+    "owned_d": "Group-owned (HUGO BOSS AG). Annual Report 2025: 17% of sourcing/production volume from own facilities. Izmir, Turkey is the main site, making formalwear and casualwear. Metzingen, Germany makes BOSS Camel, Made to Measure suits and samples. Coldrerio, Switzerland makes Made to Measure shirts. Radom (Poland) and Morrovalle (Italy) mainly make business shoes and sneakers. The other 83% comes from external suppliers (178 Tier 1 suppliers, 245 facilities).",
+    "makers": "no",
+    "mills": "no",
+    "madein": "none",
+    "countries": "No country of make visible on 2 suit PDPs. Origin may sit in a collapsed tab, and the sample is small and suits only.",
+    "heritage": "NC",
+    "repair": "NC",
+    "process": "some",
+    "urls": [
+      "https://annualreport.hugoboss.com/2025/management-report/group-profile/business-operations.html",
+      "https://group.hugoboss.com/en/sustainability/product/production-suppliers"
+    ],
+    "conf": "high",
+    "read": "2026-10-03"
   }
 }

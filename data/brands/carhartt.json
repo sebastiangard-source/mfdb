@@ -6,7 +6,7 @@
   "focus": {
     "tech": 2,
     "comfort": 2,
-    "craft": 3,
+    "craft": 4,
     "style": 2
   },
   "fabric": {
@@ -55,7 +55,8 @@
     "workwear": "Still sells work clothing to people who work in it; the fashion audience came second.",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "dur": "Twelve-ounce duck canvas, triple-stitched seams and rivets; the jackets are known for outlasting their owners' jobs."
+    "dur": "Twelve-ounce duck canvas, triple-stitched seams and rivets; the jackets are known for outlasting their owners' jobs.",
+    "craft": "Carhartt's own about page says four Carhartt sewing and cutting facilities in Kentucky and Tennessee make its Made in the USA line, with union workers. Most of the range is imported, and product pages say only 'Imported' with no named maker or mill. That is real owned making that doesn't cover the whole range: a 4."
   },
   "doors": {
     "c": "full",
@@ -245,5 +246,22 @@
     "bcorp": {
       "e": "Carhartt, Inc."
     }
+  },
+  "craft_evidence": {
+    "owned": "yes",
+    "owned_d": "Brand about page (carhartt.com/en-gb/about-carhartt): 'Four sewing and cutting facilities are still operating in Kentucky and Tennessee', the original Irvine, KY factory (completed 1932) now housing the supply-chain operations centre; the Made in the USA line is produced 'in our manufacturing and finishing facilities located in Kentucky and Tennessee'; 970 UFCW union members. Third-party sources name them as Madisonville, Edmonton and Irvine KY and Camden TN (not confirmed on the brand page). Mexico plants closed 2023 (Wikipedia). Most of the range is imported.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "none",
+    "countries": "0/4 PDPs name a country: all four say 'Country of Origin: Imported' (Iconic R01 Duck Bib Overall, Loose Fit Firm Duck Bib Overall, FR Quilt-Lined Duck Bib Overall, K87 Workwear Pocket T-Shirt). No Made in USA PDP was sampled.",
+    "heritage": "dated and placed",
+    "repair": "yes",
+    "process": "no",
+    "urls": [
+      "https://www.carhartt.com/en-gb/about-carhartt",
+      "https://www.carhartt.com/product/102776/iconic-r01-duck-bib-overall"
+    ],
+    "conf": "medium",
+    "read": "2026-10-03"
   }
 }

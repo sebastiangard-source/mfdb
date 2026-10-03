@@ -6,7 +6,7 @@
   "focus": {
     "tech": 2,
     "comfort": 2,
-    "craft": 3,
+    "craft": 4,
     "style": 5
   },
   "fabric": {
@@ -71,7 +71,8 @@
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "style": "A single dark, draped aesthetic carried through every piece."
+    "style": "A single dark, draped aesthetic carried through every piece.",
+    "craft": "Owens says the company bought its Concordia sulla Secchia factory, where it has worked with the same people for decades (032c, 2022). Press on the brand's own 'Owenscorp, Concordia' film describes 100+ staff there doing pattern-making, cutting and sewing. That is owned ready-to-wear making with a named place, but the product pages state neither country nor factory, and footwear is not shown to be made there, so it is a 4 rather than a 5."
   },
   "doors": {
     "c": "full",
@@ -198,5 +199,22 @@
     "t": "runway",
     "u": "https://www.rickowens.eu/pages/runway-shows-men/tower-fw-26",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "yes",
+    "owned_d": "VERIFIED (worklist origin_line): the company owns its Concordia factory. Rick Owens in 032c (Brenda Weischer, 5 Dec 2022): 'I am still in Concordia decades later and work with the same people. We bought the factory from them.' The factory is in Concordia sulla Secchia (Modena) and is owned by Owenscorp, the designer's own company (Owenscorp Italia SpA, Confindustria Emilia member; Wikipedia says Owenscorp was founded 2004 by Owens and Michèle Lamy). It is brand-owned, not group-owned: the label is independent. Highsnobiety (on the brand's film 'Owenscorp, Concordia') reports 100+ people in administration, pattern-making, cutting and sewing, i.e. ready-to-wear. Leather & Luxury says leather pants, shirts and skirts are made there. Covers RTW, including leather RTW. Footwear is not shown to be made there (e.g. the sampled shoe is a Dr. Martens collaboration). Not stated on rickowens.eu itself (no about page found).",
+    "makers": "no",
+    "mills": "some",
+    "madein": "none",
+    "countries": "No garment country on 0/8 fetched PDPs: Microbiker (pirarucu leather), Customs Larry coat, Long Lab vest, Rowland shirt, cashmere knit pant, Geth jean, Meganaska shoe, plus a Dr. Martens collab shoe. CAVEAT: the origin may sit in a collapsed tab the fetcher cannot see; this is not a confident 'none'.",
+    "heritage": "none",
+    "repair": "NC",
+    "process": "some",
+    "urls": [
+      "https://magazine.032c.com/magazine/brenda-s-business-with-rick-owens",
+      "https://www.highsnobiety.com/p/rick-owens-concordia-not-in-paris/"
+    ],
+    "conf": "high",
+    "read": "2026-10-03"
   }
 }

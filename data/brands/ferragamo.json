@@ -6,7 +6,7 @@
   "focus": {
     "tech": 1,
     "comfort": 2,
-    "craft": 4,
+    "craft": 2,
     "style": 3
   },
   "fabric": {
@@ -69,7 +69,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "Ferragamo's 2024 annual report says production is outsourced entirely to a network of Italian manufacturers, with only product development, industrialisation and quality control kept in-house; its owned Sesto Fiorentino site is a logistics hub. The sustainability site gives supplier counts and says 97% of supplier turnover is Italian but names no maker. A country of make and nothing owned or named: a 2."
   },
   "doors": {
     "c": "full",
@@ -230,5 +231,22 @@
     "t": "runway",
     "u": "https://www.ferragamo.com/shop/us/en/sf/gallery-fw26-show",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "Ferragamo 2024 Annual Report p.31: in-house only 'product development and industrialization' and quality control 'on almost all finished products in the footwear and leather goods categories'; production is outsourced 'entirely to specialized Italian production facilities' (a 'broad network of selected and expert Italian manufacturers'). Owned Osmannoro/Sesto Fiorentino complex is described (p.30) as a highly automated Logistics Hub (since 2018), not a factory; Palazzo Spini Feroni is the registered office. No owned production found.",
+    "makers": "no",
+    "mills": "NC",
+    "madein": "NC",
+    "countries": "NC on PDPs (not read). Corporate: Italy — '97% of supplier turnover in 2024 sourced from Italian companies'; Tuscan manufacturers '52.4% of turnover in finished product processing' (sustainability.ferragamo.com/en/value-chain).",
+    "heritage": "NC",
+    "repair": "NC",
+    "process": "some",
+    "urls": [
+      "https://cdn.ferragamo.com/cdn/investor-relations/financial-documents/2024/en/Annualreport2024.pdf",
+      "https://sustainability.ferragamo.com/en/value-chain"
+    ],
+    "conf": "medium",
+    "read": "2026-10-03"
   }
 }

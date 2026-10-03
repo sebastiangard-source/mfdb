@@ -53,7 +53,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "Herno's corporate site places its development, prototyping and production at its own Lesa premises on Lake Maggiore, describes industrial buildings and machinery added in 2018, and says about 100 staff there include tailors. It never says what share of the range is made there, and PDPs name no maker or mill and mostly show no origin. That is owned, named making of unknown coverage, which is a 4."
   },
   "doors": {
     "c": "full",
@@ -183,5 +184,19 @@
     "t": "collection page",
     "u": "https://us.herno.com/en/resort-men/resort-men-fall-winter.html",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "yes",
+    "owned_d": "Herno's own premises at Lesa, Lake Maggiore: corporate history page (founded there 1948; company keeps 'creative and productive control'); environment page describes the Lesa headquarters' buildings and '2018' 'new industrial buildings camouflaged in the green of the Lake Maggiore eco-systems' and 'latest low-consumption machinery'; making-it page lists Prototypes and Development, Style Department and Production, with 'around 100 people including stylists, tailors, models and vendors'. No page says what share of garments is sewn there versus by outside workshops.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "some",
+    "countries": "Italy 1/5; not stated 4/5 in the fetched text (sample of 5 men's outerwear PDPs: trench, waxed jacket, vest, field jacket, blazer). Origin may sit in a collapsed tab the fetch did not see, so treat 4/5 'not stated' with caution.",
+    "heritage": "dated and placed",
+    "repair": "no",
+    "process": "some",
+    "urls": ["https://corporate.herno.com/en/making-it/", "https://corporate.herno.com/en/environment/"],
+    "conf": "medium",
+    "read": "2026-10-03"
   }
 }

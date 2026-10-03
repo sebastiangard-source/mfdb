@@ -75,7 +75,8 @@
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "style": "Sharp, glamorous tailoring to one designer's exact taste."
+    "style": "Sharp, glamorous tailoring to one designer's exact taste.",
+    "craft": "Tom Ford PDPs state a country of make (Italy, Portugal) and composition, with no factory, mill or tannery named. Zegna Group's page says the group runs Tom Ford Fashion end-to-end 'through to production', but on the pages I read it does not say that Zegna-owned plants make Tom Ford products. The current 2 holds unless the group's Filiera page or report confirms owned making for specific categories."
   },
   "doors": {
     "c": "full",
@@ -216,5 +217,22 @@
     "t": "runway",
     "u": "https://www.tomfordfashion.com/en-us/autumn-winter-2026-runway-show/",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "unclear",
+    "owned_d": "The brand site claims no owned factory. Parent: Zegna Group's Tom Ford Fashion brand page says the group 'currently oversees end-to-end the TOM FORD FASHION business...from collection creation and development to merchandising, through to production'. That is oversight of production, not a statement that Zegna-owned plants make Tom Ford products. I did not reach the Zegna 'Our Filiera' page (zegnagroup.com/en/our-filiera/) or the annual/sustainability report, which might say whether group-owned plants make TF (tailoring, knitwear or leather). Unverified.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "most",
+    "countries": "Italy 2/4 (suede bomber, cashmere sweater), Portugal 1/4 (piquet polo), not visible 1/4 (mohair-wool suit, where origin may sit in a details tab the fetch could not see) (sample of 4 PDPs).",
+    "heritage": "dated and placed",
+    "repair": "NC",
+    "process": "no",
+    "urls": [
+      "https://www.zegnagroup.com/en/brands/tom-ford-fashion/",
+      "https://www.tomfordfashion.com/en-us/seamless-brushed-cashmere-rib-mock-neck-sweater/KRL061-YMK134.html"
+    ],
+    "conf": "medium",
+    "read": "2026-10-03"
   }
 }

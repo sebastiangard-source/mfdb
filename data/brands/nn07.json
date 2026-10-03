@@ -99,7 +99,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "NN.07 owns no making; its 2024 Impact Report names its garment factories and fabric/yarn mills in a supplier list and gives production shares (China 55%, Turkiye 35%). Product pages read showed no factory, mill or (visible) country. Disclosure is a directory, not on-page making, so country-level 2 holds."
   },
   "price_evidence": {
     "T-shirt": {
@@ -173,5 +174,22 @@
     "t": "lookbook",
     "u": "https://www.nn07.com/en/us/articles/lookbook/fall-winter-26-lookbook-preview",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "2024 Impact Report states NN.07 works with external manufacturing partners; no owned factory. Responsibility page mentions none.",
+    "makers": "some",
+    "mills": "some",
+    "madein": "NC",
+    "countries": "No country shown in visible PDP text on 3 PDPs (knit, chino, coat); origin may sit in a collapsed 'Material & Care' tab the fetch could not see, so not recorded as none. Impact Report 2024 production split: China 55%, Turkiye 35%, Europe ~9% (Portugal 4%, Tunisia 3%, Romania, Italy, Bulgaria, Lithuania).",
+    "heritage": "dated and placed",
+    "repair": "no",
+    "process": "some",
+    "urls": [
+      "https://nn07files.blob.core.windows.net/publicfiles/NN.07_Impact_Report_2024.pdf",
+      "https://www.nn07.com/en/us/our-impact-our-responsibility"
+    ],
+    "conf": "medium",
+    "read": "2026-10-03"
   }
 }

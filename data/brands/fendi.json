@@ -68,7 +68,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "Fendi's men's ready-to-wear PDPs state 'Made in Italy' and composition, and name no maker or mill. The US content sitemap lists client-service, authentication and campaign pages but nothing on factories or how things are made. On what could be shown at a primary source this is country-of-make only = 2. [held at the current score: the audit’s evidence was thin; needs a second read]"
   },
   "doors": {
     "c": "full",
@@ -211,5 +212,22 @@
       "m": "brand filter",
       "n": ""
     }
+  },
+  "craft_evidence": {
+    "owned": "unclear",
+    "owned_d": "No owned factory or workshop seen at a primary source in this run. fendi.com content sitemap lists no factory/craftsmanship pages; men's RTW listing has no craftsmanship links; guessed fendi.com and lvmh.com factory/maison URLs returned 404. Context only (Wikipedia, does not score): 'around 400 in specialist leather and fur ateliers in Italy' as of 2018, no place named. Fendi is an LVMH maison; any owned making would be Fendi's within LVMH, likely leather goods/fur rather than RTW, but this is unverified.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "most",
+    "countries": "Italy 3/4 (sample of 4 men's RTW PDPs: sweater, bomber, t-shirt = Made in Italy; denim shirt page showed no origin or composition, possibly in a collapsed tab the fetch couldn't see). Shoes and bags not sampled.",
+    "heritage": "vague",
+    "repair": "no",
+    "process": "no",
+    "urls": [
+      "https://www.fendi.com/us-en/man/ready-to-wear/sweater-black-wool-pullover-fzx203b1q2f0qa1",
+      "https://www.fendi.com/us-en/man/ready-to-wear/blouson-black-nylon-bomber-jacket-fw1492ame6f0qa1"
+    ],
+    "conf": "low",
+    "read": "2026-10-03"
   }
 }

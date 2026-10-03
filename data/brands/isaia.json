@@ -67,7 +67,7 @@
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Neapolitan tailoring made in the company's own factory in Casalnuovo."
+    "craft": "Isaia's about page claims every piece is made on site in Casalnuovo, from first cut to final pressing, with dated history (Naples 1920, Casalnuovo 1957). The FAQ says all products are made in Italy. PDPs give no origin or maker. [audit proposed 5 at low confidence; held at 5 pending a second read]"
   },
   "doors": {
     "c": "full",
@@ -208,5 +208,19 @@
     "t": "runway",
     "u": "https://www.isaia.us/pages/fall-winter-2026-runway",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "yes",
+    "owned_d": "isaia.us/pages/about: 'Every single piece, from the first cut of cloth to the final pressing, is made on site' in Casalnuovo (outside Naples); 'Full control, full responsibility, full coherence'. Brand statement, no photos/tailor count seen; casa-isaia page says nothing about the factory.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "none",
+    "countries": "0/4 PDPs (suit, cashmere crewneck, trouser, penny loafer) and 0 of the products.json bodies state a country; FAQ: 'all of our items and products are manufactured in Italy'. Origin may sit in a tab the fetch did not see.",
+    "heritage": "dated and placed",
+    "repair": "no",
+    "process": "some",
+    "urls": ["https://www.isaia.us/pages/about", "https://www.isaia.us/pages/faq"],
+    "conf": "low",
+    "read": "2026-10-03"
   }
 }

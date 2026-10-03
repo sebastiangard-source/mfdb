@@ -911,6 +911,14 @@
       ],
       "absent": "derived",
       "doc": "Derived at build: how little the brand pops on any register. Takes the highest score across every culture dial plus Logo and Style; 5 when nothing exceeds 1, 4 when nothing exceeds 2, 3 when nothing exceeds 3, 2 when something is a 4, 1 when something is a 5. Not stored; lint rejects it if present."
+    },
+    "craft_evidence": {
+      "scope": "brand",
+      "const": null,
+      "path": "craft_evidence",
+      "type": "obj",
+      "absent": "optional",
+      "doc": "What the craft audit (3 Oct 2026) found: owned facility, named makers, named mills, made-in coverage, countries, heritage claim, repair, process, evidence URLs, confidence. Repo only."
     }
   },
   "price_slots": [

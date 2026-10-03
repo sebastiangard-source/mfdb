@@ -52,7 +52,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "AG's own sustainability page refers to 'our LA factory and headquarters' and to water-filtration systems in 'our Los Angeles and Mexico factories', and its story page calls it the first vertically operated denim maker on the West Coast. Owned denim making under its co-founder (Yul Ku, of Koos Manufacturing) is more than naming makers; whether it covers the non-denim range was not checked: a provisional 4. [audit proposed 4 at low confidence; held at 3 pending a second read]"
   },
   "doors": {
     "c": "full",
@@ -184,5 +185,19 @@
     "t": "campaign",
     "u": "https://www.agjeans.com/pages/fall-collection",
     "m": "unisex"
+  },
+  "craft_evidence": {
+    "owned": "yes",
+    "owned_d": "Brand's own sustainability page: solar panels installed on 'our LA factory and headquarters'; water filtration systems in 'our Los Angeles and Mexico factories'. Our Story page: co-founder Yul Ku established AG as 'the first vertically operated denim manufacturer on the West Coast'. Ownership (context, not brand evidence): Wikipedia says AG is owned by Yul Ku, whose Koos Manufacturing made denim for Gap, J.Crew, Lucky etc.; Ku bought out Goldschmied in 2004; main facility in South Gate, CA, with 'other facilities and affiliates in Los Angeles and Mexico City'. Who legally owns the Mexican factory (AG, Koos, or an affiliate) was NOT established — no source seen states it. The LA plant is under common ownership with AG via Ku; the brand calls both plants 'our factories'. Categories covered not established (denim implied; tees/knits/shirts unknown).",
+    "makers": "NC",
+    "mills": "NC",
+    "madein": "NC",
+    "countries": "NC — no PDPs read (fetch budget exhausted).",
+    "heritage": "dated and placed",
+    "repair": "NC",
+    "process": "some",
+    "urls": ["https://www.agjeans.com/pages/sustainability", "https://www.agjeans.com/pages/our-story"],
+    "conf": "low",
+    "read": "2026-10-03"
   }
 }

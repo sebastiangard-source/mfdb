@@ -6,7 +6,7 @@
   "focus": {
     "tech": 1,
     "comfort": 2,
-    "craft": 3,
+    "craft": 2,
     "style": 5
   },
   "fabric": {
@@ -67,7 +67,8 @@
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "style": "Tailoring and sportswear built on a scholarly design idea about Black Atlantic style."
+    "style": "Tailoring and sportswear built on a scholarly design idea about Black Atlantic style.",
+    "craft": "Wales Bonner states a country of make on only some products (the Italian tailoring and loafers). Most shirts, trousers and knits read on the site give no origin. One knit is described as made in England with John Smedley; otherwise no maker or mill is named, and the about and tailoring pages say nothing about making. That is a 2 at best, not a 3."
   },
   "doors": {
     "c": "full",
@@ -194,5 +195,19 @@
     "t": "campaign",
     "u": "https://walesbonner.com/pages/morning-raga-autumn-winter-2026-collection",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "About page: label 'launched by Grace Wales Bonner following her graduation from Central Saint Martins in 2014'; names no studio workshop, atelier or factory where products are made. Tailoring page names no maker.",
+    "makers": "some",
+    "mills": "no",
+    "madein": "some",
+    "countries": "Italy 2/4 PDPs read (Alto blazer Italy; Beam polo, Sierra trouser, Soul T-shirt no origin shown). In 35 Shopify product descriptions (products.json + menswear collection): Italy 4 (Alto & Harmony blazers, 2 Dakar loafers), England 1 (Beam polo / John Smedley); the remaining ~30 (shirts, trousers, polos, T-shirts, knits, other loafers, collab items) stated no origin. The tailoring page says the SS26 wrap tuxedo is 'Made in Italy'.",
+    "heritage": "dated and placed",
+    "repair": "no",
+    "process": "no",
+    "urls": ["https://walesbonner.com/pages/about", "https://walesbonner.com/products/alto-blazer-3"],
+    "conf": "medium",
+    "read": "2026-10-03"
   }
 }

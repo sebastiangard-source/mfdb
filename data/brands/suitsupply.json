@@ -55,7 +55,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "Suitsupply product pages name the cloth mill on most tailoring and shirting (Rogna, Weba, Cervotessile; the coats listing names Vitale Barberis Canonico, Thomas Mason and others), and the suit page documents half-canvas construction. It names no garment factory and claims none of its own. Names its mills, owns nothing: a 3. [audit proposed 3 at low confidence; held at 3 pending a second read]"
   },
   "doors": {
     "c": "full",
@@ -240,5 +241,22 @@
       "m": "brand filter",
       "n": ""
     }
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "No owned factory claimed on the CSR page or PDPs; CSR page cites Fair Wear Foundation 'Leader' status and links a Non-Financial Report and Brand Performance Check (not read). About page URL 404'd.",
+    "makers": "no",
+    "mills": "yes",
+    "madein": "none",
+    "countries": "Garment country of make not clearly seen on 4 PDPs: shirt and knit pages say no assembly country; suit and chinos summaries gave 'Italy' but only as the mill's country. May sit in a tab the fetch could not see - unverified.",
+    "heritage": "NC",
+    "repair": "no",
+    "process": "some",
+    "urls": [
+      "https://suitsupply.com/en-us/men/suits/navy-tailored-fit-havana-suit/C6861-S1.html",
+      "https://suitsupply.com/en-us/men/shirts/white-widespread-collar-shirt/H7000.html"
+    ],
+    "conf": "low",
+    "read": "2026-10-03"
   }
 }

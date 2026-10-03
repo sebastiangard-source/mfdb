@@ -75,7 +75,8 @@
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "style": "Oversized, deliberately strange design; the shape is the product."
+    "style": "Oversized, deliberately strange design; the shape is the product.",
+    "craft": "Balenciaga owns one facility, The Plant at Cerreto Guidi in Tuscany. It makes leather goods only, and its CEO says those are still largely made by Tuscan suppliers while production is internalised step by step. Nothing shows owned or named making for clothing, and the brand site could not be read, so the current 3 is kept. [audit proposed 3 at low confidence; held at 3 pending a second read]"
   },
   "doors": {
     "c": "full",
@@ -214,5 +215,22 @@
       "m": "brand filter",
       "n": ""
     }
+  },
+  "craft_evidence": {
+    "owned": "yes",
+    "owned_d": "LEATHER GOODS ONLY, and only part of them. 'The Plant', Cerreto Guidi (Florence, Tuscany) is owned by Balenciaga (a Kering house); FashionNetwork describes it as its first owned production site, and International Leather Maker (10 Feb 2026) as its 'first in-house leather goods production facility'. The site is a revived 1960s leather workshop of ~10,000 m2, announced in 2020 for a 2021 opening, with a training centre. LaConceria quotes CEO Gianfranco Gianangeli saying 100% of leather goods are made in Tuscany 'with suppliers', and reports 176 staff, with 'a significant part' of production to be internalised progressively. Balenciaga said it 'will continue to rely on its current network of local suppliers'. No owned RTW or footwear facility found.",
+    "makers": "NC",
+    "mills": "NC",
+    "madein": "NC",
+    "countries": "NC - site blocked. Search results show resale listings with Portugal and Italy labels; those are retailers, not scored.",
+    "heritage": "NC",
+    "repair": "NC",
+    "process": "NC",
+    "urls": [
+      "https://ww.fashionnetwork.com/news/Balenciaga-to-set-up-its-first-leather-goods-factory-in-italy,1257969.html",
+      "https://www.laconceria.it/en/leather-goods/balenciaga-opens-the-plant-the-future-lies-in-in-house-production/"
+    ],
+    "conf": "low",
+    "read": "2026-10-03"
   }
 }

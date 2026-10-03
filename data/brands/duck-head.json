@@ -6,7 +6,7 @@
   "focus": {
     "tech": 2,
     "comfort": 4,
-    "craft": 3,
+    "craft": 2,
     "style": 2
   },
   "fabric": {
@@ -55,7 +55,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "Product pages say 'Imported' or nothing; no country, factory or owned plant is named. The only named making input is Kaihara denim on the jeans. One named mill on one category sits between 1 and 3; 2 is the fair read."
   },
   "doors": {
     "c": "full",
@@ -170,5 +171,22 @@
       "m": "brand filter",
       "n": ""
     }
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "No owned facility claimed on site; heritage page mentions only buying fabric 'from a local mill' in 1978. Parent Oxford Industries filings not checked (search budget exhausted).",
+    "makers": "no",
+    "mills": "some",
+    "madein": "none",
+    "countries": "'Imported' with no country on denim x2, Gold School shorts, Buckley sweater, Hanover polo; no origin line at all on performance flannel shirt, Long Drive polo, Henson/Ridley sweaters (sample ~10 products via products.json + 1 PDP: pants, shorts, polos, sweaters, sport shirts). No country named anywhere.",
+    "heritage": "dated and placed",
+    "repair": "yes",
+    "process": "no",
+    "urls": [
+      "https://www.duckhead.com/collections/pants/products.json?limit=30",
+      "https://www.duckhead.com/collections/duck-head-vintage"
+    ],
+    "conf": "medium",
+    "read": "2026-10-03"
   }
 }

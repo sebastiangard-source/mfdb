@@ -6,7 +6,7 @@
   "focus": {
     "tech": 1,
     "comfort": 1,
-    "craft": 4,
+    "craft": 2,
     "style": 5
   },
   "fabric": {
@@ -49,7 +49,7 @@
   },
   "prices": [[210, 790], [280, 620], [590, 950], [650, 650], [650, 1850], [650, 1600], [570, 5000], [690, 1080]],
   "notes": {
-    "craft": "antique textiles cut one-of-one",
+    "craft": "Every Bode PDP states a country of make: the main collection is made in India, Peru, Romania and Portugal, with no maker or mill named. Only the one-of-a-kind line is 'Made in New York' from dated antique/deadstock textiles, and no owned workshop is named. That is country-of-make plus textile provenance, not owned or named making.",
     "style": "memory-as-material made a runway category",
     "murica": "cut from antique American quilts and feed sacks",
     "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
@@ -190,5 +190,19 @@
     "t": "collection page",
     "u": "https://bode.com/pages/fall-2026-rodeo-bodeo",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "unclear",
+    "owned_d": "About page says Bode is 'tailor made in New York' and one-of-a-kind PDPs say 'Made in New York'; no workshop is named or shown as owned. Bode Fine Tailoring at 54 Hester Street, NYC is an appointment/retail location with no production details on its page.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "every product",
+    "countries": "Main collection: India 12, Peru 8, Romania 2, Portugal 2 (sample of 24 PDPs via products.json: menswear and womenswear sweaters, shirts, polos, tees, trousers, accessories); one-of-a-kind line: USA (New York) 20/20.",
+    "heritage": "dated and placed",
+    "repair": "no",
+    "process": "some",
+    "urls": ["https://bode.com/collections/mens-one-of-a-kind", "https://bode.com/pages/about"],
+    "conf": "high",
+    "read": "2026-10-03"
   }
 }

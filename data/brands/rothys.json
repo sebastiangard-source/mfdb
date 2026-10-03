@@ -6,7 +6,7 @@
   "focus": {
     "tech": 4,
     "comfort": 5,
-    "craft": 2,
+    "craft": 4,
     "style": 2
   },
   "fabric": {
@@ -138,7 +138,8 @@
     "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "shoes": "A shoemaker first; the clothing came later and is small.",
     "comfort": "Knitted-to-shape uppers with no seams, designed to be worn without socks and washed in the machine.",
-    "synth": "Every shoe is knitted from recycled plastic bottles; the material is the brand."
+    "synth": "Every shoe is knitted from recycled plastic bottles; the material is the brand.",
+    "craft": "Rothy's says on its own blog that it owns and operates its factory in Dongguan, China, and documents the knit-to-shape, outsole moulding and hand strobel steps made there. Its sustainability page says it also uses 'multiple factory partners for various styles of our shoes and bags', so owned making does not cover the whole range = 4, not 5. Product pages state no country, maker or yarn supplier."
   },
   "price_evidence": {
     "Shoes": {
@@ -162,5 +163,22 @@
       "m": "brand filter",
       "n": ""
     }
+  },
+  "craft_evidence": {
+    "owned": "yes",
+    "owned_d": "Brand's own statement (rothys.com blog 'The art of shoemaking'): 'Since we own and operate our sustainable factory in Dongguan, China, only the Rothy's family—and no other manufacturers—touch our shoes during production.' Same blog describes knitting, heel counter, outsole moulding and hand strobel stitching there (photo-led article). Sustainability page qualifies it: Rothy's 'works with multiple factory partners for various styles of our shoes and bags, [and] we also own and operate our own factory' (owned site cited as LEED Gold and TRUE Zero-Waste). So the Dongguan factory is real and named, but the brand itself says not all styles are made there; which styles/bags go to partners is not stated. Retail Brew 2023 (CSO Heather Howard) also describes the Dongguan facility as owned/vertically integrated. Opening/acquisition date not found on the brand's site.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "none",
+    "countries": "Not stated on 0/5 PDPs (4 men's shoes across driver, loafer, sneaker, Ravello + women's Flat); fetch showed no collapsed details section with origin, but an accordion cannot be ruled out. China (Dongguan) for the owned factory per brand blog only.",
+    "heritage": "vague",
+    "repair": "yes",
+    "process": "yes",
+    "urls": [
+      "https://rothys.com/blogs/sustainability/the-art-of-shoemaking",
+      "https://rothys.com/pages/sustainability"
+    ],
+    "conf": "high",
+    "read": "2026-10-03"
   }
 }

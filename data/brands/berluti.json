@@ -6,7 +6,7 @@
   "focus": {
     "tech": 1,
     "comfort": 2,
-    "craft": 5,
+    "craft": 4,
     "style": 4
   },
   "fabric": {
@@ -71,7 +71,7 @@
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "A Paris bootmaker since 1895, patinating leather by hand in its own workshops."
+    "craft": "Berluti PDPs state Made in Italy for shoes and clothing alike but name no maker. A Ferrara (Gaibanella) site makes the footwear and leather goods per press cited on Wikipedia, while nothing shows owned making for ready-to-wear. Patina and repair are services, not making."
   },
   "doors": {
     "c": "full",
@@ -191,5 +191,22 @@
       "m": "brand filter",
       "n": ""
     }
+  },
+  "craft_evidence": {
+    "owned": "yes",
+    "owned_d": "Footwear and leather goods only: Wikipedia states 'All the footwear manufacturing and leather goods are produced in the town of Gaibanella in the municipality of Ferrara', citing FashionNetwork ('Berluti picks up speed with a large production site in Italy'); article not fetched directly. Berluti's own savoir-faire pages mention 'ateliers' but name no place. No owned clothing factory found. Berluti is an LVMH house.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "every product",
+    "countries": "Italy 4/4 (sample of 4 PDPs: Alessio oxford, Alessandro Infini Alto oxford, Andy Scritto shirt, Un Jour overshirt)",
+    "heritage": "dated and placed",
+    "repair": "yes",
+    "process": "some",
+    "urls": [
+      "https://www.berluti.com/en-us/alessio-oxford/S6382-102.html",
+      "https://www.berluti.com/en-us/entretienetreparation.html"
+    ],
+    "conf": "medium",
+    "read": "2026-10-03"
   }
 }

@@ -63,7 +63,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "Every JW Anderson product page checked states a country of make (mostly Italy, T-shirt Portugal, one knit Ireland, shoes Italy) and composition, but names no factory or mill. The about page is design history only, with no owned making. Country-only disclosure is a 2."
   },
   "doors": {
     "c": "full",
@@ -184,5 +185,22 @@
       "m": "brand filter",
       "n": ""
     }
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "About-us page (founded 2008 by Jonathan Anderson; accessories first; V&A acquisition) names no owned factory, atelier or workshop. No sustainability or making page linked in the footer.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "every product",
+    "countries": "PDPs (5/5 state origin): Italy 4 (checkered shirt, mohair cardigan, parachute track pants, half-zip jumper), Portugal 1 (script T-shirt). Shopify descriptions additionally say 'Crafted in Italy' for 3 loafers/derbies and 'Made in Ireland' for the Sheep jumper; the origin field on PDPs is a structured line separate from the description, so items without it in the description still show it on the PDP.",
+    "heritage": "dated and placed",
+    "repair": "no",
+    "process": "no",
+    "urls": [
+      "https://jwanderson.com/products/mens-knitted-mohair-cardigan-in-brown",
+      "https://jwanderson.com/pages/about-us"
+    ],
+    "conf": "high",
+    "read": "2026-10-03"
   }
 }

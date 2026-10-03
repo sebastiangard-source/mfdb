@@ -6,7 +6,7 @@
   "focus": {
     "tech": 3,
     "comfort": 4,
-    "craft": 2,
+    "craft": 1,
     "style": 2
   },
   "fabric": {
@@ -58,7 +58,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "Product pages say only 'Imported' with fiber content; no country, factory or mill is named. The supply-chain disclosure is boilerplate with no supplier list. Nothing checkable about making."
   },
   "doors": {
     "c": "full",
@@ -267,5 +268,22 @@
     "t": "lookbook",
     "u": "https://www.johnnie-o.com/pages/fa26-game-day",
     "m": "unisex"
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "Our-story and California Supply Chain Act page describe vendors/factories only generically; no owned or named facility.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "none",
+    "countries": "'Imported' 4/4, no country named (sample of 4 PDPs: Original polo, Sully 1/4-zip, Belfry puffer vest, Juno quilted jacket)",
+    "heritage": "dated and placed",
+    "repair": "no",
+    "process": "no",
+    "urls": [
+      "https://www.johnnie-o.com/products/jmpo3000_26fa_buoy_the-original",
+      "https://www.johnnie-o.com/pages/california-supply-chain-act"
+    ],
+    "conf": "high",
+    "read": "2026-10-03"
   }
 }

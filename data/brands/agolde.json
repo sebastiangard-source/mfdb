@@ -6,7 +6,7 @@
   "focus": {
     "tech": 1,
     "comfort": 3,
-    "craft": 3,
+    "craft": 4,
     "style": 4
   },
   "fabric": {
@@ -53,7 +53,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "AGOLDE's sustainability page says most of its product is made in Los Angeles and Turkey 'at facilities that are owned by us' and describes its own laundry machinery; its jeans, shirt, tee and denim-jacket pages say Made in USA. It names no mill and no factory on product pages, and suede (India) and some trousers (Turkey) come from elsewhere. Group-owned making for the core denim range, not the whole range: a 4."
   },
   "doors": {
     "c": "full",
@@ -171,5 +172,22 @@
       "m": "brand filter",
       "n": ""
     }
+  },
+  "craft_evidence": {
+    "owned": "yes",
+    "owned_d": "Sustainability page: 'Much of our product is developed in Los Angeles and Turkey, most often at facilities that are owned by us'; describes its laundry facilities (ozone, laser, E-Flow). About page: 'vertically owned facilities and select production partners'. The owner is the parent, Citizens of Humanity group (AGOLDE is its brand); Fashionista's 2017 tour of the CoH downtown-LA vertically integrated facility lists AGOLDE among the brands made there. Facilities named by city only, no facility name or address on agolde.com.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "every product",
+    "countries": "USA 6/8 (90s Jean, Curtis Jean, Asha tee, Clark shirt, Marshall nylon windbreaker, Croydon denim jacket), Turkey 1/8 (Slater trouser), India 1/8 (Emil suede bomber). Sample of 8 PDPs: jeans x2, trouser, tee, shirt, nylon jacket, denim jacket, suede bomber. All read 'Made in X with imported materials'.",
+    "heritage": "vague",
+    "repair": "no",
+    "process": "some",
+    "urls": [
+      "https://agolde.com/pages/sustainability-initiatives",
+      "https://agolde.com/products/90s-jean-force"
+    ],
+    "conf": "medium",
+    "read": "2026-10-03"
   }
 }

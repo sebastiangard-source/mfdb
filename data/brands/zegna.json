@@ -80,7 +80,7 @@
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "The company owns its wool mill in Biella and traces its fiber to the farm; it makes its own tailoring."
+    "craft": "The Zegna Group owns its wool mill in Trivero and a chain of Italian textile and yarn makers (Filiera page names each with acquisition date). The sources I could read do not show who sews the garments, shoes or leather goods. Owned cloth-making covers the fabric, not demonstrably the whole range. [held at 5: owns its mill chain; owned garment plants not confirmed because the 20-F was unreachable]"
   },
   "doors": {
     "c": "full",
@@ -237,5 +237,19 @@
     "t": "runway",
     "u": "https://www.zegna.com/us-en/fall-winter-fashion-show/",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "yes",
+    "owned_d": "Group-owned TEXTILE Filiera (zegnagroup.com/en/our-filiera): Lanificio Ermenegildo Zegna, Trivero (wool fabrics, group-owned since 1910; 'complete production process is carried out by the Zegna Group'); Tessitura di Novara (silk, acq. 2009); Pettinatura di Verrone, Biella (combing, 2012); Bonotto, Molvena (majority 2016); Dondi (jersey fabrics, majority 2019); Tessitura Ubertino (majority 2021); Cappellificio Cervo (hats, 2018); Filati Biagioli Modesto (cashmere yarn, majority w/ Prada 2021); Luigi Fedeli e Figlio (knitwear/yarn, minority 2023). GARMENT-making (tailoring, shirts, shoes, leather goods) facilities NOT confirmed in sources read; 20-F not reachable.",
+    "makers": "no",
+    "mills": "some",
+    "madein": "NC",
+    "countries": "NC - PDP product data not rendered in fetch (sweaters listing empty; Falcon jacket page showed no country). Possibly in hidden tabs.",
+    "heritage": "dated and placed",
+    "repair": "NC",
+    "process": "some",
+    "urls": ["https://www.zegnagroup.com/en/our-filiera/", "https://ir.zegnagroup.com/"],
+    "conf": "low",
+    "read": "2026-10-03"
   }
 }

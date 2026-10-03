@@ -72,7 +72,8 @@
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "style": "Craft-led fashion with a strong design idea under Jonathan Anderson."
+    "style": "Craft-led fashion with a strong design idea under Jonathan Anderson.",
+    "craft": "Loewe's own site speaks of 'our factory in Madrid', home of its School of Leather Craft, and press puts it in Getafe making the bag collection with about 150 artisans. Nothing seen ties the clothing to an owned site. An owned factory for a core category (leather goods), not the whole range: a 4."
   },
   "doors": {
     "c": "full",
@@ -222,5 +223,22 @@
     "t": "campaign",
     "u": "https://www.loewe.com/usa/en/pd/stories-collection/fw26-collection-campaign.html",
     "m": "unisex"
+  },
+  "craft_evidence": {
+    "owned": "yes",
+    "owned_d": "Brand-owned (Loewe, an LVMH Maison since 1996) leather-goods factory near Madrid. loewe.com careers page: 'LOEWE's School of Leather Craft is located at the heart of our factory in Madrid'; loewe.com 'Welcome to LOEWE' story: 'At our main atelier in Madrid, our artisans...'. Press (The Week) places it in Getafe, south of Madrid: 11,500 m2, about 300 staff incl. about 150 artisans, making the bag collection; leather school (Escuela de Maroquineria) set up there in 2013. LEATHER GOODS (bags) only: no source seen says ready-to-wear is made in an owned facility. No LVMH-group ready-to-wear factory found for Loewe.",
+    "makers": "NC",
+    "mills": "NC",
+    "madein": "NC",
+    "countries": "NC - no PDP could be loaded.",
+    "heritage": "dated and placed",
+    "repair": "NC",
+    "process": "some",
+    "urls": [
+      "https://www.loewe.com/usa/en/information/careers-at-loewe.html",
+      "https://theweek.com/97375/l-is-for-jonathan-andersons-loewe"
+    ],
+    "conf": "medium",
+    "read": "2026-10-03"
   }
 }

@@ -110,7 +110,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "Every Finisterre product page sampled names the making factory and town, e.g. SC Angar Prod (Romania) for knitwear, Kaynak Tekstil in Denizli for trousers, and Sheico in Rayong for wetsuits. Finisterre owns no making (St Agnes is its workshop/HQ) and names no cloth mills. It runs a Lived & Loved repair service and Reskinned take-back/resale."
   },
   "price_evidence": {
     "T-shirt": {
@@ -174,5 +175,22 @@
     "t": "campaign",
     "u": "https://finisterre.com/en-us/blogs/broadcast/autumn-2026-embrace-the-elements",
     "m": "unisex"
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "History page: founded 2003 by Tom Kay above a surf shop; now based in a St Agnes cliff-top workshop (design/HQ). No owned factory claimed; every sampled PDP names a third-party maker.",
+    "makers": "yes",
+    "mills": "no",
+    "madein": "every product",
+    "countries": "Turkey 3/6, Romania 1/6, China 1/6, Thailand 1/6 (sample of 6 men's PDPs: knit, shirt, trouser, waterproof jacket, tee, wetsuit). Wool page also cites jumpers knitted in England (not in sample).",
+    "heritage": "dated and placed",
+    "repair": "yes",
+    "process": "some",
+    "urls": [
+      "https://finisterre.com/products/mens-barents-jumper-wool-indigo",
+      "https://finisterre.com/pages/reskinned"
+    ],
+    "conf": "high",
+    "read": "2026-10-03"
   }
 }

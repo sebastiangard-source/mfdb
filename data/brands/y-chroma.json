@@ -95,7 +95,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "Product text states where things are sewn (Tarnovo, Bulgaria) or 'crafted in Japan and Italy', and a credits page names the seamstresses, but no factory, workshop or mill is named and no ownership claimed. A lifetime repair guarantee is offered. [audit proposed 2 at low confidence; held at 2 pending a second read]"
   },
   "price_evidence": {
     "T-shirt": {
@@ -162,5 +163,19 @@
       "m": "text search",
       "n": "No Vinted brand entry; keyword search in Men"
     }
+  },
+  "craft_evidence": {
+    "owned": "unclear",
+    "owned_d": "Portuguese entity Y.Chroma Unipessoal Lda in footer; 'Les Mains' page credits a Sourcing & Supply Chain Director and dozens of named seamstresses/technicians, but no workshop, place or ownership stated.",
+    "makers": "some",
+    "mills": "no",
+    "madein": "some",
+    "countries": "Becker Pant: EU, stitched in Tarnovo, Bulgaria; Mazarin Cut Shell: 'joint-crafted in Japan and Italy'; Retinol Pant: none (sample of 3 products; 2 further PDPs failed on budget). About page: 'crafted right here in Europe'.",
+    "heritage": "vague",
+    "repair": "yes",
+    "process": "no",
+    "urls": ["https://www.ychroma.com/pages/les-mains", "https://www.ychroma.com/products/becker-pant"],
+    "conf": "low",
+    "read": "2026-10-03"
   }
 }

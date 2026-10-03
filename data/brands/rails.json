@@ -6,7 +6,7 @@
   "focus": {
     "tech": 1,
     "comfort": 5,
-    "craft": 2,
+    "craft": 1,
     "style": 3
   },
   "fabric": {
@@ -51,7 +51,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "Every Rails product checked says only 'Imported' with fiber content - no country, factory or mill. The sustainability page refers to unnamed WRAP-certified factories and 'the world's finest mills'. Nothing about making is checkable."
   },
   "doors": {
     "c": "full",
@@ -189,5 +190,19 @@
     "t": "lookbook",
     "u": "https://www.rails.com/pages/fall-2026-lookbook",
     "m": "unisex"
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "Sustainability page: 'We work with Wrap Certified factories ... many of whom have been in our supply chain network for more than 15 years'; no owned or named factory.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "none",
+    "countries": "'Imported' with no country on all products checked (4 men's PDPs: Nash jeans, Harris blazer, Irving pant, Johnny tee; plus ~24 men's/women's items in products.json feed, all 'Imported').",
+    "heritage": "vague",
+    "repair": "no",
+    "process": "no",
+    "urls": ["https://www.rails.com/products/nash-straight-ecru", "https://www.rails.com/pages/sustainability"],
+    "conf": "high",
+    "read": "2026-10-03"
   }
 }

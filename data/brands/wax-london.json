@@ -6,7 +6,7 @@
   "focus": {
     "tech": 1,
     "comfort": 3,
-    "craft": 3,
+    "craft": 2,
     "style": 3
   },
   "fabric": {
@@ -46,7 +46,7 @@
   "price_checked": true,
   "notes": {
     "cotton": "corduroy and heavy cotton — the texture-first thesis",
-    "craft": "Portuguese make, materials-led",
+    "craft": "PDPs state a country of make (China, Tunisia, Morocco) and composition; only one product names a mill (Deveaux, France). No factories named anywhere and nothing owned. Country-of-make plus one mill name is a 2.",
     "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
     "reach": "[authored findability score was 2; retired 28 Sep 2026]",
     "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
@@ -177,5 +177,22 @@
     "t": "lookbook",
     "u": "https://waxlondon.com/blogs/journal/autumn-26-an-ode-to-london",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "About-us: designed in London, partners 'with sustainable mills and suppliers from around the world'; Integrity page names no factories; nothing owned.",
+    "makers": "no",
+    "mills": "some",
+    "madein": "every product",
+    "countries": "China 4/7, Tunisia 2/7, Morocco 1/7 (sample of 7 PDPs: overshirts x3, trousers, coat, crewneck knit, cardigan). Portugal 0/7.",
+    "heritage": "dated and placed",
+    "repair": "no",
+    "process": "no",
+    "urls": [
+      "https://www.waxlondon.com/products/otto-navy-and-brown-ornate-quilted-overshirt",
+      "https://waxlondon.com/pages/integrity"
+    ],
+    "conf": "high",
+    "read": "2026-10-03"
   }
 }

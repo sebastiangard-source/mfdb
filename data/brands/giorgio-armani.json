@@ -63,7 +63,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "The Armani Group's 2024 sustainability report says its production company GAO runs nine owned production sites in Italy (Settimo Torinese, Mattarello, Matelica, Trissino and others) and also uses outside manufacturers in Italy and abroad, including a supplier network in Asia. Real owned making that does not cover the whole range: a 4."
   },
   "doors": {
     "c": "full",
@@ -210,5 +211,21 @@
     "t": "lookbook",
     "u": "https://www.armani.com/en-us/giorgio-armani/experience/shop-by-look-fw-catalog/",
     "m": "unisex"
+  },
+  "craft_evidence": {
+    "owned": "yes",
+    "owned_d": "Armani Group Sustainability Report 2024 p.13-15: subsidiary G.A. Operations S.p.A. (GAO, 1,275 employees in Italy) 'relies on nine owned production sites in Italy and works with external manufacturers and packagers': Baggiovara (MO), Trissino (VI), Fossò (VE), Mattarello (TN), Settimo Torinese (TO), Matelica (MC), Carrè (VI), Inzago (MI), Vertemate (CO). Production also via 'manufacturers and partners outside the company, in Italy and abroad'; G.A. Operations Hong Kong coordinates an Asian supplier network. Report does not say which categories each plant makes. Owned by the Armani Group (the brand's own group), not an outside parent.",
+    "makers": "no",
+    "mills": "NC",
+    "madein": "NC",
+    "countries": "NC on PDPs. Report: owned plants in Italy; external makers 'in Italy and abroad' incl. an Asian supplier network (coordinated from Hong Kong). No share by country given.",
+    "heritage": "NC",
+    "repair": "NC",
+    "process": "some",
+    "urls": [
+      "https://ddf95m9s3iunr.cloudfront.net/wp-content/uploads/2025/12/Armani-Group-Sustainability-Report-2024.pdf"
+    ],
+    "conf": "high",
+    "read": "2026-10-03"
   }
 }

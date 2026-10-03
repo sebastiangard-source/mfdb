@@ -6,7 +6,7 @@
   "focus": {
     "tech": 1,
     "comfort": 3,
-    "craft": 4,
+    "craft": 2,
     "style": 5
   },
   "fabric": {
@@ -121,7 +121,8 @@
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "style": "The stores are a single, exacting point of view on how a man should dress; the label follows it."
+    "style": "The stores are a single, exacting point of view on how a man should dress; the label follows it.",
+    "craft": "Sid Mashburn is a designer-retailer: its about page says it uses luxury brands' mills and makers but names none, and its stores' tailoring shops do alterations, not manufacturing. Product pages give a country on some items (Italy for a handmade shirt, Portugal for a trouser and a jacket) and describe mills generically ('an English mill'). A country of make and little else: 2, not 4."
   },
   "price_evidence": {
     "T-shirt": {
@@ -203,5 +204,22 @@
     "t": "lookbook",
     "u": "https://shopmashburn.com/pages/digital-catalog",
     "m": "unisex"
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "About page: founded 2007 on Atlanta's West Side; eight shops with in-store tailors; says it uses 'the same mills, tanneries, and makers as capital-L-Luxury brands' without naming any. Services page: each store has an 'open-kitchen-style tailoring shop' (alterations, not garment making). No owned factory or workshop that makes the range.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "some",
+    "countries": "Italy 1/6 (Otto handmade sport shirt), Portugal 2/6 (side-tab sport trouser, Ghost Rider jacket), not stated 3/6 (Virgil No. 3 tweed jacket, spread-collar dress shirt, fine-gauge Escorial half-zip). Sample of 6 PDPs: tailoring, shirts, trousers, knitwear, outerwear. About page says suits are 'made in Italy'.",
+    "heritage": "dated and placed",
+    "repair": "yes",
+    "process": "some",
+    "urls": [
+      "https://shopmashburn.com/pages/sid-mashburn-about-us",
+      "https://shopmashburn.com/products/sid-mashburn-ghost-rider-jacket-chocolate-wheat-herringbone-s79132"
+    ],
+    "conf": "high",
+    "read": "2026-10-03"
   }
 }

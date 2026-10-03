@@ -6,7 +6,7 @@
   "focus": {
     "tech": 3,
     "comfort": 3,
-    "craft": 5,
+    "craft": 4,
     "style": 3
   },
   "fabric": {
@@ -47,7 +47,7 @@
   },
   "prices": [[50, 70], [85, 115], [100, 160], null, [270, 270], [120, 330], [180, 745], [195, 245]],
   "notes": {
-    "craft": "waxed cotton since 1894 with a rewaxing service",
+    "craft": "Barbour does own its South Shields factory: its history page says the Bedale and Beaufort wax jackets are still made there by hand, and rewaxing and repairs are done there. But its own supply-chain page says it makes 'in the UK, Europe and Asia', and its October 2025 Tier 1 list puts South Shields as one of about 136 finished-goods factories in about 16 countries. Owned making covers the classic wax jackets only, not the range, so it is a 4.",
     "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
     "reach": "[authored findability score was 4; retired 28 Sep 2026]",
     "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
@@ -180,5 +180,19 @@
     "t": "campaign",
     "u": "https://www.barbour.com/us/original-authentic-tartans.html",
     "m": "unisex"
+  },
+  "craft_evidence": {
+    "owned": "yes",
+    "owned_d": "J. Barbour & Sons' own factory at Simonside, South Shields (on site since 1981). Barbour's history page says it makes the Bedale and Beaufort wax jackets there 'by hand' and does rewax, repair and quilt repair there too. That is a narrow slice of the range: the October 2025 Tier 1 finished-goods list (linked from barbour.com/supply-chain.html) lists J. Barbour and Sons Ltd, South Shields, as one of about 136 finished-goods factories (WebFetch summary). The others include about 9 more UK sites (LS Manufacturing in Wolverhampton; Harley of Scotland and Eskvalley Knitwear for knits; British Millerain and Abraham Moon among the accessories makers) plus many in Portugal, India, China, Vietnam, Bulgaria, Turkey and other countries. The supply-chain page says 'we now make our products in the UK, Europe and Asia'. Press (Shields Gazette, Aug 2019, quoting supply-chain director Ian Sime): about 650 jackets a day, 'traditional wax jackets' made in South Shields.",
+    "makers": "some",
+    "mills": "no",
+    "madein": "NC",
+    "countries": "No country of make appeared on 5 waxed-jacket PDPs (4 on barbour.com/us, 1 on /gb). Origin may sit in a collapsed tab the fetch could not see, so I did not record 'none'. Non-wax categories were not sampled. At company level: UK, Europe and Asia (supply-chain page). The Tier 1 list covers about 16 countries, including the UK, Portugal, India, China, Vietnam, Bulgaria, Turkey, Moldova, Mauritius and Indonesia.",
+    "heritage": "dated and placed",
+    "repair": "yes",
+    "process": "some",
+    "urls": ["https://www.barbour.com/us/our-history.html", "https://www.barbour.com/supply-chain.html"],
+    "conf": "high",
+    "read": "2026-10-03"
   }
 }

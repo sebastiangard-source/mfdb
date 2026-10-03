@@ -45,7 +45,7 @@
   "prices": [[125, 190], [295, 295], [265, 790], null, [380, 980], [415, 640], [640, 1900], null],
   "notes": {
     "linen": "the Irish linen champion — her signature cloth, celebrated seam by seam",
-    "craft": "British and Japanese make, repairable construction",
+    "craft": "Margaret Howell makes shirts in its own 'London Workroom' in North London, and the shirt pages say so. The rest of the range comes from outside makers, some named off the product page (Mackintosh raincoats, Scottish knitters) and one mill named on a product page (Fox Brothers). Owned making for one core category: a 4.",
     "style": "minimalism with warmth — the design world's uniform",
     "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
     "reach": "[authored findability score was 2; retired 28 Sep 2026]",
@@ -172,5 +172,22 @@
     "t": "lookbook",
     "u": "https://www.margarethowell.co.uk/pages/margaret-howell-aw26-lookbook",
     "m": "unisex"
+  },
+  "craft_evidence": {
+    "owned": "yes",
+    "owned_d": "Shirts only. 'Making of a Shirt' page: 'Each shirt made in our new dedicated space in North London, is testament to our skilled team'; new 'London Workroom' label (AW26). Shirt and scarf PDPs say 'Made in the London Workroom'. No street address or headcount given. Rest of range from suppliers: about page names 'specialists such as Mackintosh' (raincoats) and 'Scottish knitting factories'; sustainability page: 'the majority of our suppliers based in Europe'.",
+    "makers": "some",
+    "mills": "some",
+    "madein": "some",
+    "countries": "Product descriptions: London/England 3/22 (2 'Made in the London Workroom', 1 Fox Brothers cloth); 19/22 state nothing in the description. Rendered blazer and fisherman's jumper PDPs show origin in a collapsed 'Details & Care' tab the fetch could not read, so the true share is likely higher than recorded — not 'none' with confidence.",
+    "heritage": "dated and placed",
+    "repair": "yes",
+    "process": "some",
+    "urls": [
+      "https://www.margarethowell.co.uk/collections/making-of-a-shirt",
+      "https://www.margarethowell.co.uk/pages/care-repair"
+    ],
+    "conf": "medium",
+    "read": "2026-10-03"
   }
 }

@@ -6,7 +6,7 @@
   "focus": {
     "tech": 1,
     "comfort": 5,
-    "craft": 1,
+    "craft": 2,
     "style": 2
   },
   "fabric": {
@@ -56,7 +56,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "Every Marine Layer product page sampled states a country of make ('Made responsibly in China' or 'in Cambodia') plus fiber content, but none names a factory or mill. The about page claims in-house fabric development without naming any place, so the checkable fact is country of make only."
   },
   "doors": {
     "c": "full",
@@ -233,5 +234,22 @@
     "bcorp": {
       "e": "Marine Layer"
     }
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "No owned factory or mill named. About page claims 'we make our own materials too' (fabric development) but names no facility, place or country; PDPs say 'Made responsibly in China/Cambodia', i.e. contracted making.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "every product",
+    "countries": "China 5/6, Cambodia 1/6 (sample of 6 PDPs: flannel shirt, alpaca crewneck, quilted jacket, merino boxer brief, sweater polo, fair isle zip jacket). The bulk products.json carried no origin text; origin appears on the rendered PDPs as 'Made responsibly in ...'.",
+    "heritage": "vague",
+    "repair": "yes",
+    "process": "no",
+    "urls": [
+      "https://www.marinelayer.com/products/suri-alpaca-crewneck-sweater",
+      "https://www.marinelayer.com/pages/respun"
+    ],
+    "conf": "high",
+    "read": "2026-10-03"
   }
 }

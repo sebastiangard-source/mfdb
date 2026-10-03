@@ -55,7 +55,7 @@
   "notes": {
     "tech": "the construction is the product — laminated seams, WaterTight zips, an owned Canadian factory",
     "synth": "GORE-TEX handled better than anyone — the technical ceiling of this map",
-    "craft": "ARC'One in Canada plus spec-sheet disclosure; held from 5 by offshore volume production",
+    "craft": "Arc'teryx owns ARC'One in New Westminster, BC (480 workers), but says on its own site that ARC'One makes only about 5% of its product; the rest is made by partners in Asia and Central America. Its product pages name the actual factory and the fabric and dye countries (e.g. Beta Jacket: Pt. Pancaprima Ekabrothers, Indonesia), and it publishes a full partner list. Real owned making covering a small slice, plus the best factory disclosure in the batch: a 4.",
     "street": "gorpcore's crown jewel — the shell in every city fit",
     "ski": "A serious ski program inside a broader alpine technical house. The mountain is central but not exclusive, which is the difference between a four and a five here.",
     "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
@@ -206,5 +206,22 @@
       "m": "brand filter",
       "n": "Veilance is a separate Vinted brand (3388210)"
     }
+  },
+  "craft_evidence": {
+    "owned": "yes",
+    "owned_d": "ARC'One, 425 Boyne Street, New Westminster, BC — Arc'teryx's own facility page (/explore/supply-chain-partners/arc-one): 480 workers, Arc'teryx Equipment 'a division of Amer Sports Canada', makes items across the outdoor collection, Veilance and LEAF (law enforcement/armed forces); 'what we learn and perfect in our own facility we then take to our facilities overseas'. Share: the brand's supply-chain page says '5% of our product in Canada at our own manufacturing facility, ARC'One'; its manufacturing-partners advice page says 'roughly 5% of our total production' (technical pieces such as Alpha SV, prototypes, limited runs). Owned by the brand's own Canadian entity (Amer Sports Canada); Amer Sports 2024 annual report mentions 'owned manufacturing sites' group-wide but gives no Arc'teryx breakdown.",
+    "makers": "yes",
+    "mills": "some",
+    "madein": "every product",
+    "countries": "Vietnam 3/8 (Gamma Pant, Covert Cardigan, Kopec 2 shoe), Bangladesh 2/8 (Atom, Thorium), Indonesia 1/8 (Beta), China 1/8 (Alpha SV), El Salvador 1/8 (Kyanite); Canada 0/8. Sample of 8 PDPs on arcteryx.com/us: shells, insulation, fleece, pants, footwear. Origin sits in a spec section; the fetcher saw it for versioned URLs (e.g. -0511) but not for unversioned URLs.",
+    "heritage": "dated and placed",
+    "repair": "NC",
+    "process": "some",
+    "urls": [
+      "https://arcteryx.com/us/en/explore/supply-chain-partners/arc-one",
+      "https://arcteryx.com/us/en/product-advice/arcteryx-manufacturing-partners"
+    ],
+    "conf": "high",
+    "read": "2026-10-03"
   }
 }

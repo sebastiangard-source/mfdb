@@ -73,7 +73,8 @@
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "style": "Deliberately odd design choices are what Prada sells."
+    "style": "Deliberately odd design choices are what Prada sells.",
+    "craft": "Prada's own group site names 25 owned factories by town and category: 8 leather goods, 8 footwear and 6 ready-to-wear, almost all in Tuscany, Umbria and the Marche. But the Group also says it supplies materials and prototypes to about 900 outside manufacturers, and its US product pages say only 'Imported'. That is real owned making in every category but not the whole range: a 4."
   },
   "doors": {
     "c": "full",
@@ -231,5 +232,22 @@
     "t": "runway",
     "u": "https://www.prada.com/us/en/pradasphere/fashion-shows/2026/fw-menswear.html",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "yes",
+    "owned_d": "Group-owned (Prada S.p.A., which is both the brand's company and the group parent; the same factories also serve Miu Miu and Church's). pradagroup.com Production Sites page (data at 31 Dec 2025): 25 industrial facilities, 23 in Italy. LEATHER GOODS (8 sites listed): Arezzo; Figline Valdarno; Milan (Via Ripamonti); Piancastagnaio; Scandicci; Sibiu (Romania); Terranuova; Valvigna. FOOTWEAR (8): Levanella (Via Aretina 552-556); Civitanova Marche; Dolo; Levane; Montegranaro; Northampton UK (St James Road, the Church's factory); San Giovanni Valdarno; Foiano della Chiana. READY-TO-WEAR (6): Ancona; Citta di Castello; Fucecchio; Levanella (Via Aretina 403); Montone; Torgiano. The 2024 Sustainability Report (p.17-18) gave 26 sites and additionally listed Limoges (France) under leather goods and Levane under ready-to-wear. No site is labelled knitwear or tannery. The ready-to-wear and leather-goods sites are separate addresses; the Levanella sites differ (552-556 footwear vs 403 ready-to-wear). Owned making does NOT cover the whole range: the Group says it supplies 'raw materials, patterns and prototypes' to 'carefully selected and monitored industrial manufacturers' (~900 industrial suppliers, 87% in Italy, 2024 SR p.52); the 2020 company profile says internal production is supplemented by 'a network of long-standing and highly experienced contractors'. No share of in-house vs outsourced output is published. Minority stake only (15%, 2023) in knitwear maker Fedeli, Monza (Wikipedia) - not owned.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "none",
+    "countries": "None stated by country: US PDPs say only 'Imported' 6/6 (stretch cotton shirt, wool crew-neck sweater, five-pocket jeans, nappa leather caban jacket, Re-Nylon jacket, mohair wool pants); the same products on the GB and IT sites showed no origin line at all (2/2 checked). Possibly in a collapsed tab the fetcher cannot see.",
+    "heritage": "dated and placed",
+    "repair": "yes",
+    "process": "some",
+    "urls": [
+      "https://www.pradagroup.com/en/group/sites.html",
+      "https://www.pradagroup.com/content/dam/pradagroup/documents/Responsabilita_sociale/2025/Report-CSR-2024/E_2024%20Sustainability%20Report.pdf"
+    ],
+    "conf": "high",
+    "read": "2026-10-03"
   }
 }

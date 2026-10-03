@@ -69,7 +69,8 @@
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "style": "Woven intrecciato leather and a logo-free design language."
+    "style": "Woven intrecciato leather and a logo-free design language.",
+    "craft": "No primary source could be read: bottegaveneta.com and kering.com are blocked to the fetch tool, and press attempts failed (WWD 402, FashionNetwork robots-disallowed). The current 4 is carried with low confidence. Secondary sources describe owned leather-goods plants in the Veneto, which would support 4 at most for clothing, since ready-to-wear making is undocumented. [audit proposed 4 at low confidence; held at 4 pending a second read]"
   },
   "doors": {
     "c": "full",
@@ -227,5 +228,19 @@
     "t": "campaign",
     "u": "https://www.bottegaveneta.com/en-us/winter-2026-campaign.html",
     "m": "unisex"
+  },
+  "craft_evidence": {
+    "owned": "unclear",
+    "owned_d": "Brand site and kering.com both returned SITE_BLOCKED, so nothing primary was seen. Wikipedia (context only, not scoring) says BV moved its atelier to a villa at Montebello Vicentino in 2013, and runs leather-goods plants as Manifattura Veneta Pelletterie at Altavilla Vicentina (2011), Malo (2012) and Dueville (2019). If true, that is LEATHER GOODS making by the brand/Kering. Nothing found on who makes ready-to-wear.",
+    "makers": "NC",
+    "mills": "NC",
+    "madein": "NC",
+    "countries": "NC",
+    "heritage": "NC",
+    "repair": "NC",
+    "process": "NC",
+    "urls": ["https://en.wikipedia.org/wiki/Bottega_Veneta"],
+    "conf": "low",
+    "read": "2026-10-03"
   }
 }

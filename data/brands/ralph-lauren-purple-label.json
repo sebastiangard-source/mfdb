@@ -6,7 +6,7 @@
   "focus": {
     "tech": 1,
     "comfort": 3,
-    "craft": 4,
+    "craft": 2,
     "style": 4
   },
   "fabric": {
@@ -69,7 +69,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "All 6 Purple Label PDPs sampled say Made in Italy, and the tailoring PDPs say 'hand-tailored' with construction detail. None names a factory or workshop. Mills are alluded to but not named ('a renowned English mill'), and nothing shows owned making."
   },
   "doors": {
     "c": "full",
@@ -194,5 +195,22 @@
     "t": "collection page",
     "u": "https://www.ralphlauren.com/brands-purple-label-fall-cg",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "NC",
+    "owned_d": "Purple Label PDPs claim no owned workshop. Ralph Lauren Corp filings (10-K) were not checked within the fetch budget.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "every product",
+    "countries": "Italy 6/6 (sample of 6 Purple Label PDPs: suit, trousers, 2 cashmere sweaters, cashmere shirt jacket, suede parka)",
+    "heritage": "NC",
+    "repair": "NC",
+    "process": "some",
+    "urls": [
+      "https://www.ralphlauren.com/men-clothing-suits/glenn-hand-tailored-plaid-cashmere-suit/100107642.html",
+      "https://www.ralphlauren.com/brands-purple-label-men"
+    ],
+    "conf": "medium",
+    "read": "2026-10-03"
   }
 }

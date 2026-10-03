@@ -59,7 +59,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "Charles Tyrwhitt names no factories and owns none; its responsibility pages talk about auditing suppliers without naming them. One suit names the Reda mill, but most product pages don't state a country of make. That is a thin 2."
   },
   "doors": {
     "c": "full",
@@ -198,5 +199,22 @@
       "m": "brand filter",
       "n": ""
     }
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "No owned factory claimed on about-us or 'Doing things properly' (people/product) pages; brand describes auditing suppliers and annual factory visits, i.e. third-party making.",
+    "makers": "no",
+    "mills": "some",
+    "madein": "some",
+    "countries": "Spain 1/5 (leather belt); not stated 4/5 (non-iron twill shirt (custom/MTO page), stretch oxford shirt, Italian Luxury suit (fabric Italy, garment origin not stated), Ultimate Performance suit). Origin may sit in an accordion the fetch could not see.",
+    "heritage": "dated and placed",
+    "repair": "yes",
+    "process": "no",
+    "urls": [
+      "https://www.charlestyrwhitt.com/uk/italian-luxury-suit---indigo-blue/SUL20IDG.html",
+      "https://www.charlestyrwhitt.com/uk/about-us/doing-things-properly/people.html"
+    ],
+    "conf": "medium",
+    "read": "2026-10-03"
   }
 }

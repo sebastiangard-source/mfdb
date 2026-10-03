@@ -6,7 +6,7 @@
   "focus": {
     "tech": 5,
     "comfort": 3,
-    "craft": 4,
+    "craft": 3,
     "style": 4
   },
   "fabric": {
@@ -62,7 +62,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "Climbing hardware became outdoor clothing; the fleece and the shell are the brand.",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "Patagonia says on its own site that it does not own any factories. It does publish a named, mapped list of the finished-goods factories and material suppliers it uses, and every sampled PDP states a country (five different countries in eight products) and Fair Trade Certified sewing, but no PDP names the factory. Names its makers, owns nothing: a 3; the Worn Wear repair program is context, not making."
   },
   "doors": {
     "c": "full",
@@ -265,5 +266,22 @@
     "bcorp": {
       "e": "Patagonia"
     }
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "Brand states plainly: 'Patagonia does not own any factories; however, we work in close partnership with factories...' (Working With Factories page). Worn Wear repair facility (Reno) is repair, not making, and was not separately verified.",
+    "makers": "some",
+    "mills": "no",
+    "madein": "every product",
+    "countries": "Vietnam 3/8, Sri Lanka 2/8, Bangladesh 1/8, Mexico 1/8, Nicaragua + El Salvador 1/8 (sample of 8 PDPs on patagonia.com: Baggies shorts, Better Sweater vest, P-6 Uprisal hoody, Nano Puff jacket, Iron Forge jacshirt, Fjord flannel shirt, Houdini jacket, Down Sweater). Directory also lists Taiwan, Indonesia, India, Japan, US, Thailand, Jordan, Colombia, Peru among supplier countries.",
+    "heritage": "dated and placed",
+    "repair": "yes",
+    "process": "some",
+    "urls": [
+      "https://www.patagonia.com/our-footprint/working-with-factories.html",
+      "https://www.patagonia.com/factories-farms-material-suppliers/"
+    ],
+    "conf": "high",
+    "read": "2026-10-03"
   }
 }

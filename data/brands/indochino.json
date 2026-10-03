@@ -6,7 +6,7 @@
   "focus": {
     "tech": 2,
     "comfort": 2,
-    "craft": 2,
+    "craft": 3,
     "style": 3
   },
   "fabric": {
@@ -144,7 +144,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "The /production page names the one factory that makes every garment (Dayang, Dalian, China) and walks through the made-to-measure process (pattern from measurements, laser cutting, sewing, pressing, QC). Indochino owns nothing, so 3."
   },
   "price_evidence": {
     "Dress shirt": {
@@ -190,5 +191,19 @@
       "m": "text search",
       "n": "No Vinted brand entry; keyword search in Men"
     }
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "Production page: 'Every garment produced by INDOCHINO is made in Dayang's factory in Dalian, China' - Dayang Group described as a partner ('one of the world's largest suit manufacturers'), not owned by Indochino.",
+    "makers": "some",
+    "mills": "NC",
+    "madein": "NC",
+    "countries": "NC on PDPs (JS-rendered, no origin text visible in 3 PDPs); brand-level statement: China (Dalian) for every garment per /production",
+    "heritage": "none",
+    "repair": "no",
+    "process": "yes",
+    "urls": ["https://www.indochino.com/production", "https://www.indochino.com/european-mills"],
+    "conf": "medium",
+    "read": "2026-10-03"
   }
 }

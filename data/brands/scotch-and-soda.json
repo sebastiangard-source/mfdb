@@ -99,7 +99,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "On the US site, Scotch & Soda's product data and the PDP give no country of make, maker or mill. The about page is brand aesthetic plus 'born in Amsterdam'. There is nothing checkable about manufacture."
   },
   "price_evidence": {
     "T-shirt": {
@@ -174,5 +175,22 @@
       "m": "brand filter",
       "n": ""
     }
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "None claimed. The about-us page says only 'born in Amsterdam' and '40 years', and links a 'United Legwear & Apparel' page. Nothing on factories.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "none",
+    "countries": "None stated: 0 of 12 products in the US-store products.json (tees, polos, boxer briefs, denim shorts, pullovers, chino, top) and 0 of 1 PDP read (Embroidered Relaxed-Fit Zip-Through Hoodie, which shows composition and care but no origin). The sample is small, and origin could sit in an accordion the fetch missed.",
+    "heritage": "vague",
+    "repair": "no",
+    "process": "no",
+    "urls": [
+      "https://www.scotchandsoda.com/pages/about-us",
+      "https://www.scotchandsoda.com/products/embroidered-relaxed-fit-zip-through-hoodie-183761_410-ensign-blue"
+    ],
+    "conf": "medium",
+    "read": "2026-10-03"
   }
 }

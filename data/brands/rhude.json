@@ -6,7 +6,7 @@
   "focus": {
     "tech": 1,
     "comfort": 2,
-    "craft": 2,
+    "craft": 1,
     "style": 4
   },
   "fabric": {
@@ -64,7 +64,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "Rhude's PDPs give fiber content and care only. 1 of 7 sampled (the denim trucker jacket) says 'Made in Los Angeles', and the rest give no origin. The information page is a founder bio with no making information. With nothing checkable about who makes the clothes, this is a 1, at most a weak 2."
   },
   "doors": {
     "c": "full",
@@ -184,5 +185,19 @@
     "t": "collection page",
     "u": "https://rh-ude.com/collections/pf26-no-mans-land-collection",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "The information page (founder bio) claims no factory or workshop. The only making detail found is one PDP saying 'Made in Los Angeles', with no workshop named.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "some",
+    "countries": "USA (Los Angeles) 1/7; not stated 6/7 (sample of 7 PDPs: tee, hoodie, denim trucker jacket, jeans, bowling shirt, sweatpant, coaches jacket). The fetch saw no origin text in accordions, but hidden tabs can't be fully ruled out.",
+    "heritage": "dated and placed",
+    "repair": "no",
+    "process": "no",
+    "urls": ["https://rh-ude.com/pages/information", "https://rh-ude.com/products/drop-neck-trucker-jacket"],
+    "conf": "medium",
+    "read": "2026-10-03"
   }
 }

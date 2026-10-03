@@ -52,7 +52,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "Sandro's product pages give composition and fibre-origin claims but no country of make, factory or mill (8 of 8 sampled). Its commitments page says production runs through 140 partner sites in about 30 countries and lists those countries only in aggregate. Nothing product-level is checkable: a 1."
   },
   "doors": {
     "c": "full",
@@ -198,5 +199,22 @@
     "t": "lookbook",
     "u": "https://us.sandro-paris.com/en/fall-winter-sandro/lookbook-man.html",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "Product-chain commitments page: prototypes made 'in the heart of Paris, in the design studios and workshops' (sampling only); production by 'a network of 140 partner sites spread across some thirty countries'. No owned factory named by Sandro or parent SMCP on the pages read; SMCP filings not read for this.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "none",
+    "countries": "None stated 8/8 (sample: flannel shirt, plain shirt, boiled-wool overshirt, linen T-shirt, virgin-wool suit jacket, suit trousers, cashmere crew, ribbed wool polo) on us.sandro-paris.com. EU PDP (flannel shirt) shows only a link to Fairly Made traceability, data not on the page. Site-level: partner sites in Portugal, France, Italy, Turkey, China, Serbia, Bulgaria, Tunisia (Asia 47%, Mediterranean 30%, Europe 23%).",
+    "heritage": "dated and placed",
+    "repair": "yes",
+    "process": "some",
+    "urls": [
+      "https://eu.sandro-paris.com/en/sandro-world/commitments/the-product-chain/about-sandro-11.html",
+      "https://us.sandro-paris.com/en/p/virgin-wool-suit-jacket/SHPVE01333_44.html"
+    ],
+    "conf": "high",
+    "read": "2026-10-03"
   }
 }

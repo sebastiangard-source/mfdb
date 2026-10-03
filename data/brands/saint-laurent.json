@@ -70,7 +70,8 @@
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "style": "A single, sharp silhouette — skinny, dark, rock — defines everything."
+    "style": "A single, sharp silhouette — skinny, dark, rock — defines everything.",
+    "craft": "Trade press reports a Saint Laurent-run leather-goods atelier in Scandicci with more than 500 artisans; this is the brand's own making, inside Kering. Nothing read shows owned making for ready-to-wear. Under the leather-goods rule this supports at most a 4, and 4 is proposed on that basis. [audit proposed 4 at low confidence; held at 3 pending a second read]"
   },
   "doors": {
     "c": "full",
@@ -222,5 +223,22 @@
       "m": "brand filter",
       "n": ""
     }
+  },
+  "craft_evidence": {
+    "owned": "yes",
+    "owned_d": "Leather goods only. Pambianco (9 Jan 2024) reports that Saint Laurent recently opened its 'Atelier Maroquinerie' in Scandicci (Florence), with 'oltre 500 artigiani e tecnici' making leather goods. Pambianco (22 Feb 2021): the Palazzo delle Finanze building in Scandicci is owned by Cassa Depositi e Prestiti and redeveloped for YSL as a centre for research, development and production of accessories, with about 300 hires. So the workshop is run by the brand (a Kering house) in a leased building. No owned ready-to-wear making found.",
+    "makers": "NC",
+    "mills": "NC",
+    "madein": "NC",
+    "countries": "NC: ysl.com blocked, no PDPs read.",
+    "heritage": "NC",
+    "repair": "NC",
+    "process": "NC",
+    "urls": [
+      "https://www.pambianconews.com/2024/01/09/kering-oltre-il-50-dei-ricavi-proviene-dalle-produzioni-in-italia-392746/",
+      "https://www.pambianconews.com/2021/02/22/da-pax-yves-saint-laurent-a-scandicci-entro-il-2023-311170/"
+    ],
+    "conf": "low",
+    "read": "2026-10-03"
   }
 }

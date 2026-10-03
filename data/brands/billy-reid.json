@@ -6,7 +6,7 @@
   "focus": {
     "tech": 1,
     "comfort": 3,
-    "craft": 4,
+    "craft": 2,
     "style": 4
   },
   "fabric": {
@@ -54,7 +54,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "Billy Reid states a country on every product page sampled: Turkey, Peru, Italy, China. It names no factory or mill there or on its about page, which presents Florence, Alabama as home, not a place of making. A country of make and little else: 2, not 4."
   },
   "doors": {
     "c": "full",
@@ -192,5 +193,22 @@
       "m": "brand filter",
       "n": ""
     }
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "About page: 'From our home in Florence, Alabama' (design HQ/store) and 'over 20 years'; names no factory, workshop or making partner. Sampled PDPs are made in Italy, Turkey, Peru and China, by unnamed makers. No owned making found.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "every product",
+    "countries": "Turkey 3/7 (chambray camp shirt, chino, moleskin jean), Peru 2/7 (quilted half-zip, Pensacola polo), Italy 1/7 (Archie jacket), China 1/7 (Hunting jacket). Sample of 7 PDPs: tailoring, shirt, knit, polo, trousers, jean, outerwear; every one stated a country.",
+    "heritage": "vague",
+    "repair": "no",
+    "process": "no",
+    "urls": [
+      "https://www.billyreid.com/pages/about-us",
+      "https://www.billyreid.com/products/hunting-jacket-black"
+    ],
+    "conf": "high",
+    "read": "2026-10-03"
   }
 }

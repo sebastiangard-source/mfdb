@@ -6,7 +6,7 @@
   "focus": {
     "tech": 1,
     "comfort": 3,
-    "craft": 3,
+    "craft": 2,
     "style": 5
   },
   "fabric": {
@@ -63,7 +63,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "Fear of God's mainline product copy states only a country ('crafted in the USA', 'crafted in Italy') and names no factory, maker or mill; the Essentials product data states no origin at all. The supply-chain disclosure refers only to external suppliers it audits, and the site has no craft or factory page. Country-of-make for part of the range = 2."
   },
   "doors": {
     "c": "full",
@@ -189,5 +190,22 @@
     "t": "lookbook",
     "u": "https://fearofgod.com/pages/fear-of-god-the-eternal-order-lookbook",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "No owned factory, workshop or mill named anywhere on fearofgod.com. The California Transparency in Supply Chains disclosure speaks only of external 'suppliers' that Fear of God audits ('Audits may consist of site visits, interviews, and/or a review of the supplier's records'); no owned production is mentioned. The pages sitemap has no about/craft/factory page.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "some",
+    "countries": "Mainline (collection 'fearofgod', 9 products in products.json): USA 7/9 ('crafted in the USA' fleece/jersey), Italy 2/9 (raglan leather bomber 'crafted in Italy'; classic shirt 'tailored in Italy' / PDP 'Made in Italy'). Essentials (33 products across 2 products.json pages): 0/33 state origin in body_html (origin may sit in a PDP tab the JSON does not carry - not checked per-PDP). Mainline knitwear, denim and suiting collections returned empty product lists.",
+    "heritage": "dated and placed",
+    "repair": "no",
+    "process": "no",
+    "urls": [
+      "https://fearofgod.com/collections/fearofgod/products.json?limit=250",
+      "https://fearofgod.com/pages/california-transparency-in-supply-chains-act-disclosure"
+    ],
+    "conf": "medium",
+    "read": "2026-10-03"
   }
 }

@@ -32,7 +32,7 @@
     "surf": 1
   },
   "why": "A Brescia tailoring house known for unstructured, garment-dyed jackets — the jacket is dyed after it's sewn, which softens it.",
-  "origin": "Family firm from Gambara, near Brescia, founded 1974.",
+  "origin": "A family tailoring business in Gambara, near Brescia, since the early 1900s; the Boglioli label dates from 1973.",
   "say": "boh-LYOH-lee",
   "chan": ["O", "D", "I"],
   "conf": "L",
@@ -54,7 +54,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "Boglioli's site places the family and the company in Gambara and speaks of 'our artisans' and signature garment dyeing, but names no factory and never says it owns one. Its PDPs give no country of make; only homepage coat copy says coats are made entirely in Italy. [audit proposed 2 at low confidence; held at 4 pending a second read]"
   },
   "doors": {
     "c": "full",
@@ -162,5 +163,22 @@
       "m": "brand filter",
       "n": ""
     }
+  },
+  "craft_evidence": {
+    "owned": "unclear",
+    "owned_d": "Story page: the Boglioli family entered menswear tailoring in Gambara (Brescia) in the early 1900s, brand founded 1973; legal address Boglioli SpA, Via Brescia 47, Gambara. Craftsmanship page: 'each garment is born from the skilled hands of our artisans' and calls garment dyeing ('tinto in capo') the brand's signature. No factory or workshop is described, photographed or said to be owned; current ownership not stated.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "none",
+    "countries": "0/5 PDPs state a country of make in fetched text (K-Jacket suit, garment-dyed K-Jacket, wool crew-neck, striped cotton shirt, washed-flannel K-Pant); one jacket page may hide details in tabs. Homepage coat copy: 'realizzati interamente in Italia' (made entirely in Italy), coats only.",
+    "heritage": "dated and placed",
+    "repair": "no",
+    "process": "some",
+    "urls": [
+      "https://www.bogliolimilano.com/it-it/pages/la-nostra-storia",
+      "https://www.bogliolimilano.com/it-it/pages/la-nostra-artigianalita"
+    ],
+    "conf": "low",
+    "read": "2026-10-03"
   }
 }

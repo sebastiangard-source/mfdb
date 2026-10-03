@@ -6,7 +6,7 @@
   "focus": {
     "tech": 1,
     "comfort": 3,
-    "craft": 3,
+    "craft": 4,
     "style": 3
   },
   "fabric": {
@@ -51,7 +51,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "Citizens of Humanity's how-we-are-made page says its jeans are made in company-owned sewing and laundry facilities in Los Angeles (and Turkey), and its denim, trouser, sweatshirt and denim-jacket pages say Made in USA. It names no mill and no factory on product pages, and some categories (shirts from Turkey, suede from India) are made elsewhere with partners. Owned making for the core denim category, not the whole range: a 4."
   },
   "doors": {
     "c": "full",
@@ -177,5 +178,22 @@
     "t": "lookbook",
     "u": "https://citizensofhumanity.com/pages/mens-shop-the-look",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "yes",
+    "owned_d": "Brand page /pages/how-we-are-made: jeans 'manufactured in our company-owned facilities as well as with select production partners', with 'sewing and laundry facilities in Los Angeles and Turkey'; 250 sewers, ~5,000 pieces/week, own ozone process. Facility named by city only (no address/facility name on the brand site). Corroborated by Fashionista factory tour (Dec 2017): vertically integrated downtown-LA operation (cutting, sewing, washing, distribution) that also makes AGOLDE and Goldsign; facility president quoted. Whether the Turkey facility is owned or a partner is not stated clearly.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "every product",
+    "countries": "USA 6/8 (jeans x2, 4-way-stretch twill trouser, denim shirt, sweatshirt, denim jacket), Turkey 1/8 (Cairo utility shirt), India 1/8 (Deck suede jacket). Sample of 8 PDPs: jeans, non-denim trousers, shirts, sweatshirt, jackets. All read 'Made in X with imported materials'.",
+    "heritage": "dated and placed",
+    "repair": "no",
+    "process": "some",
+    "urls": [
+      "https://citizensofhumanity.com/pages/how-we-are-made",
+      "https://fashionista.com/2017/12/citizens-of-humanity-jeans-denim-factory-tour"
+    ],
+    "conf": "high",
+    "read": "2026-10-03"
   }
 }

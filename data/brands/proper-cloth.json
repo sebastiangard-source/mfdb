@@ -49,7 +49,7 @@
     "tech": "a 16-point fit algorithm trained on tens of thousands of bodies",
     "murica": "bought a 150-year-old Pennsylvania knitting mill to make its tees on American soil",
     "style": "vintage-inspired in everything — the product, the shops, the photography; a total aesthetic commitment",
-    "craft": "Custom shirts cut to order in partner factories, with the cloth mills named (Thomas Mason, Albini, Canclini); no owned making. A 3: named makers and documented process, nothing owned.",
+    "craft": "Proper Cloth names the cloth mill on its shirt and suit pages (Albini, Thomas Mason, VBC, Canclini) and keeps a reference page per mill, but never names the factory that sews; its shipping page says only that shirts are made to order in Vietnam and tailoring in Thailand. Named mills, nothing owned: a 3.",
     "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
     "reach": "[authored findability score was 2; retired 28 Sep 2026]",
     "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
@@ -178,5 +178,22 @@
     "t": "lookbook",
     "u": "https://propercloth.com/lookbooks/fall-26",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "About page names no factory and speaks of working with 'ethical fabric mills and factories'; shipping page gives only countries per category (shirts/casual pants made to order in Vietnam; jeans, suits, jackets, dress pants in Thailand; stocked items 'a range of countries'). No owned facility found.",
+    "makers": "no",
+    "mills": "yes",
+    "madein": "some",
+    "countries": "Garment country on PDPs: 1/3 sampled (Mercer suit 'Made in China'); the Allen flannel suit and the dobby shirt PDP state no garment country. Shipping page states category-level countries: Vietnam (shirts, casual pants), Thailand (jeans, suits, jackets, dress pants). Small sample (3 PDPs; collection pages did not render).",
+    "heritage": "dated and placed",
+    "repair": "NC",
+    "process": "some",
+    "urls": [
+      "https://propercloth.com/shipping",
+      "https://propercloth.com/products/mercer-charcoal-vbc-s150s-suit-443.html"
+    ],
+    "conf": "high",
+    "read": "2026-10-03"
   }
 }

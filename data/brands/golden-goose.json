@@ -6,7 +6,7 @@
   "focus": {
     "tech": 2,
     "comfort": 4,
-    "craft": 4,
+    "craft": 2,
     "style": 4
   },
   "fabric": {
@@ -54,7 +54,7 @@
     "shoes": "the sneaker is the brand; the clothing came thirteen years later",
     "ital": "made in Italy and Venetian by origin, but the reference is Californian skate wear",
     "status": "the star is the mark, and the deliberate scuffing is what people recognize",
-    "craft": "hand-distressed in a sixteen-step process, which is the whole price argument",
+    "craft": "Every PDP read (sneaker, suede jacket, jeans) says 'Made in Italy' and names no maker, tannery or mill. The 'How we make our sneakers' story describes handmade, hand-distressed making by an 'Italian-based supply chain of artisans' with no factory or town named; Marghera is named only for customization. Clothing gets no making story at all, so this is country-of-make plus a footwear process narrative: 2.",
     "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
     "reach": "[authored findability score was 3; retired 28 Sep 2026]",
     "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
@@ -233,5 +233,22 @@
     "t": "collection page",
     "u": "https://www.goldengoose.com/us/en/ls/men/fall-winter-collection-m-en_us",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "unclear",
+    "owned_d": "Brand site names Marghera (Venice) only as where 'expert artisans' handcraft CUSTOMIZATION (co-creation) of products (forward/sustainability page; PDP co-creation text), not as a production factory. Sneaker story says footwear is made by 'a steadfast Italian-based supply chain of artisans', i.e. a supply chain, no owned factory named. No owned clothing (ready-to-wear) making stated anywhere seen. Group-level ownership of a shoe factory was not checked at a primary source (fetch budget/429).",
+    "makers": "no",
+    "mills": "no",
+    "madein": "every product",
+    "countries": "Italy 3/3 (sample of 3 PDPs: sneaker, suede jacket, jeans). Merino polo and sweatshirt PDPs were refused by the fetch proxy (HTTP 429). Brand states production 'fully based in Italy, for over two decades'.",
+    "heritage": "dated and placed",
+    "repair": "yes",
+    "process": "some",
+    "urls": [
+      "https://www.goldengoose.com/us/en/stories/how-we-make-our-sneakers.html",
+      "https://www.goldengoose.com/us/en/forward/sustainability.html"
+    ],
+    "conf": "medium",
+    "read": "2026-10-03"
   }
 }

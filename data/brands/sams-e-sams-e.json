@@ -53,7 +53,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "Samsøe Samsøe owns no production and names no factories; its CSR Report 2025 gives only country shares (China ~40%, Turkey ~25%) across 94 independent manufacturers. Product pages read show composition and certifications but no factory, mill or visible country. Country-level disclosure only, so 2."
   },
   "doors": {
     "c": "full",
@@ -196,5 +197,22 @@
     "t": "campaign",
     "u": "https://www.samsoe.com/en-US/our-space/collections/aw26-campaign",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "CSR Report 2025 describes production with 'independent manufacturers' (94 manufacturers across 11 countries); no owned factory.",
+    "makers": "no",
+    "mills": "some",
+    "madein": "NC",
+    "countries": "No country visible on 5 PDPs (shirt, knit, trousers, coat, jeans); a collapsed 'Details & Care' tab may hold origin and could not be seen. CSR Report 2025 by order volume: China ~40%, Turkey ~25%, plus India, Portugal, Vietnam, Morocco and others (11 countries).",
+    "heritage": "dated and placed",
+    "repair": "no",
+    "process": "no",
+    "urls": [
+      "https://a.storyblok.com/f/274250/x/dd189d3db0/samsoe_samsoe_csr_report_2025.pdf",
+      "https://www.samsoe.com/our-space/how-we-care/our-people"
+    ],
+    "conf": "medium",
+    "read": "2026-10-03"
   }
 }

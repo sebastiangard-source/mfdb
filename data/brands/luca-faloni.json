@@ -6,7 +6,7 @@
   "focus": {
     "tech": 1,
     "comfort": 4,
-    "craft": 4,
+    "craft": 2,
     "style": 3
   },
   "fabric": {
@@ -67,7 +67,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "Every Luca Faloni product page sampled says the piece is made or knitted in Northern Italy (one names Iseo), but none names a mill or a workshop. Mill names (Cariaggi, Grandi & Rubinelli) appear only on story/home pages, and the brand owns no making. Country and region of make, little else: a 2, with 3 arguable on the off-PDP mill mentions."
   },
   "doors": {
     "c": "full",
@@ -193,5 +194,22 @@
       "m": "brand filter",
       "n": ""
     }
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "No owned facility found. Our Story: 'We travelled across all regions of Italy to select the most experienced artisans'. Our Artisans page profiles one partner, 'Angelo and his family' in Scandicci, Tuscany (travel bags, called 'one of our partners'). No factory, mill or workshop is claimed as owned.",
+    "makers": "no",
+    "mills": "some",
+    "madein": "every product",
+    "countries": "Italy 9/9, stated as 'Made/Knitted in Northern Italy' (8/9) or 'Made in Iseo, Northern Italy' (1/9). Sample of 9 PDPs: 2 cashmere crews, linen shirt, brushed cotton shirt, 2 linen blazers, cotton chinos, linen-cotton bomber, silk-cotton tee.",
+    "heritage": "vague",
+    "repair": "yes",
+    "process": "some",
+    "urls": [
+      "https://lucafaloni.com/en/us/shop/sand-linen-cotton-bomber-jacket",
+      "https://lucafaloni.com/en/us/pages/our-story"
+    ],
+    "conf": "medium",
+    "read": "2026-10-03"
   }
 }

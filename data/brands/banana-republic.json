@@ -267,7 +267,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "Parent Gap Inc's brand page mentions only unnamed 'renowned mills' and the group publishes a factory list and vendor code, consistent with outsourced making and no owned facility. Country of make could not be checked on product pages. Nothing supports moving off 2. [audit proposed 2 at low confidence; held at 2 pending a second read]"
   },
   "price_evidence": {
     "T-shirt": {
@@ -348,5 +349,22 @@
     "t": "campaign",
     "u": "https://bananarepublic.gap.com/browse/info.do?cid=1131057",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "unclear",
+    "owned_d": "No owned facility claimed anywhere read; Gap Inc publishes a Code of Vendor Conduct and a factory list, implying third-party manufacturing, but no explicit 'we do not own factories' statement was seen (10-K not read).",
+    "makers": "some",
+    "mills": "no",
+    "madein": "NC",
+    "countries": "NC - bananarepublic.gap.com disallowed by robots.txt; no PDPs read",
+    "heritage": "dated and placed",
+    "repair": "no",
+    "process": "no",
+    "urls": [
+      "https://www.gapinc.com/en-us/about/banana-republic",
+      "https://www.gapinc.com/en-us/values/sustainability/esg-resources"
+    ],
+    "conf": "low",
+    "read": "2026-10-03"
   }
 }

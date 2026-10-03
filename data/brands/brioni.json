@@ -6,7 +6,7 @@
   "focus": {
     "tech": 1,
     "comfort": 3,
-    "craft": 5,
+    "craft": 4,
     "style": 3
   },
   "fabric": {
@@ -74,7 +74,7 @@
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Roman tailoring made in the company's own Penne workshops, with its own tailoring school."
+    "craft": "Brioni says its Penne atelier, opened 1959, still makes 'a large proportion of our production', and press puts about 1,000 tailors across Penne, Montebello di Bertona and Civitella Casanova. That is owned making for tailoring, but the brand's own wording stops short of the whole range, and shoes, knitwear and leather goods are undocumented."
   },
   "doors": {
     "c": "full",
@@ -215,5 +215,22 @@
     "t": "campaign",
     "u": "https://www.brioni.com/en/us/adv-fw-26",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "yes",
+    "owned_d": "Tailoring: brioni.com art-of-tailoring page: 1959 'first industrial sized tailoring atelier in Penne, Italy'; 'Today, the bond with Penne remains as does a large proportion of our production.' Wikipedia (citing WWD 2021): 1,000 tailors in production facilities in Penne, Montebello di Bertona and Civitella Casanova; tailoring school in Penne since 1985 (NYT T Magazine 2014). WWD 2021: industrial plan scaling back the three sites. Brioni is a Kering house; site facilities are Brioni's. Shoes, knitwear, leather goods making not documented.",
+    "makers": "NC",
+    "mills": "NC",
+    "madein": "NC",
+    "countries": "NC - no PDPs readable",
+    "heritage": "dated and placed",
+    "repair": "NC",
+    "process": "some",
+    "urls": [
+      "https://www.brioni.com/en/us/art-of-tailoring",
+      "https://wwd.com/menswear-news/mens-designer-luxury/brioni-industrial-plan-trade-unions-complains-1234981395/"
+    ],
+    "conf": "medium",
+    "read": "2026-10-03"
   }
 }

@@ -6,7 +6,7 @@
   "focus": {
     "tech": 1,
     "comfort": 4,
-    "craft": 3,
+    "craft": 1,
     "style": 3
   },
   "fabric": {
@@ -43,7 +43,7 @@
   },
   "prices": [null, null, "?", "?", "?", "?", "?", "?"],
   "notes": {
-    "craft": "made in a China factory that also produces for established designer labels — the pitch is that make, at a lower price",
+    "craft": "Rakho's site names no factory, maker, mill or country of make, and does not mention Thames Apparel or China. The parent's own site shows only its company name. Nothing about making is checkable on the brand's pages: a 1.",
     "reach": "about nine months old at the time of seating; the register is asserted rather than demonstrated [authored findability score was 1; retired 28 Sep 2026]",
     "cashmere": "cashmere blends appear at the top of the shirt range and in outerwear rather than in knitwear",
     "tech": "nothing named across 84 products",
@@ -105,5 +105,19 @@
       "m": "text search",
       "n": "No Vinted brand entry; keyword search in Men"
     }
+  },
+  "craft_evidence": {
+    "owned": "unclear",
+    "owned_d": "rakho.nyc names no factory, no Thames Apparel and no China; contact page gives only a NY office (144 West 37th Street). thamesapparel.com home showed only the name 'THAMES APPAREL INTERNATIONAL INC.'; /about 404. Whether Thames owns a factory was not seen.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "none",
+    "countries": "None on 3 PDPs (blazer 1B0010 D7, shirt 1S0772, car coat 1J0012).",
+    "heritage": "none",
+    "repair": "no",
+    "process": "no",
+    "urls": ["https://www.rakho.nyc/home-creative/", "https://www.rakho.nyc/product/1b0010-d7/"],
+    "conf": "medium",
+    "read": "2026-10-03"
   }
 }

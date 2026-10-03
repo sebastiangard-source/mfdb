@@ -6,7 +6,7 @@
   "focus": {
     "tech": 1,
     "comfort": 2,
-    "craft": 3,
+    "craft": 2,
     "style": 5
   },
   "fabric": {
@@ -75,7 +75,8 @@
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "style": "Distressed denim and leather in a rock silhouette; a look first."
+    "style": "Distressed denim and leather in a rock silhouette; a look first.",
+    "craft": "Amiri states a country of make on every product checked (USA jeans, Tunisia knitwear, Italy shirts, Vietnam sneakers, China bags) but names no maker or mill. The about page gestures at 'in-house' denim finishing and 'Italian ateliers' without naming any place or claiming ownership. Country-of-make only = 2."
   },
   "doors": {
     "c": "full",
@@ -224,5 +225,19 @@
     "t": "runway",
     "u": "https://amiri.com/pages/autumn-winter-2026-runway",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "unclear",
+    "owned_d": "About page claims denim gets 'bespoke, in-house fabrication processes such as tonal gradients... and patchworking and repairing' but names no place and does not say a facility is owned. Tailoring is by 'Italian artisans' and leather in 'Italian ateliers' (third parties, unnamed). No Los Angeles factory is named on the about page or FAQ (FAQ: 'ALL ORDERS SHIP FROM GEORGIA, UNITED STATES').",
+    "makers": "no",
+    "mills": "no",
+    "madein": "every product",
+    "countries": "Every product checked states origin. Sample ≈30 (products.json p1 12 men's, p2 3, knitwear collection 13, + 2 rendered PDPs): USA (MX1 jeans x3, sweatpant, hoodie, hat), Italy (camp shirt, quad pant, 2 crochet knits), Tunisia (11/13 knitwear incl. tees/polos/mesh knits), Turkey (Lasso camp shirt), Vietnam (MA Court Hi, Newport sneakers x2), China (2 camera-case bags), Japan (wire accessory). Leather collection returned no products.",
+    "heritage": "dated and placed",
+    "repair": "yes",
+    "process": "some",
+    "urls": ["https://amiri.com/pages/about", "https://amiri.com/products/mx1-od-black"],
+    "conf": "high",
+    "read": "2026-10-03"
   }
 }

@@ -6,7 +6,7 @@
   "focus": {
     "tech": 1,
     "comfort": 3,
-    "craft": 3,
+    "craft": 2,
     "style": 5
   },
   "fabric": {
@@ -65,7 +65,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "Aimé Leon Dore's product pages give a country of make on under half the items sampled (China, Portugal, Italy, USA) and 'Imported' on the rest; fabric copy is generic ('Italian cotton denim') with no mill named. The site names no factory, mill or owned workshop, so on its own pages it is a 2, not a 3."
   },
   "doors": {
     "c": "full",
@@ -193,5 +194,22 @@
     "t": "lookbook",
     "u": "https://www.aimeleondore.com/blogs/news/fall-winter-2026-lookbook",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "About page says only 'Aimé Leon Dore is from Queens, NY' plus design philosophy; it names no factory, workshop or mill, owned or otherwise. No owned facility found on the site.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "some",
+    "countries": "Country named on 4/9: China 1 (Crest Oxford shirt), Portugal 1 (Fair Isle V-neck sweater), Italy 1 (relaxed fit 5-pocket denim), USA 1 (tropical wool suit jacket). 'Imported' only on 5/9 (Pavilion cashmere crewneck, double pleated pant, lightweight barn jacket, chalk stripe denim trucker, micro logo tee). Sample of 9 PDPs: shirt, knits, denim, trousers, outerwear, tailoring, tee.",
+    "heritage": "vague",
+    "repair": "NC",
+    "process": "no",
+    "urls": [
+      "https://www.aimeleondore.com/products/fair-isle-v-neck-sweater",
+      "https://www.aimeleondore.com/products/pavilion-cashmere-crewneck-sweatshirt"
+    ],
+    "conf": "high",
+    "read": "2026-10-03"
   }
 }

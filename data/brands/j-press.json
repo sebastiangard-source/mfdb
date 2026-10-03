@@ -6,7 +6,7 @@
   "focus": {
     "tech": 1,
     "comfort": 2,
-    "craft": 4,
+    "craft": 3,
     "style": 3
   },
   "fabric": {
@@ -60,7 +60,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "J.Press says many products are made in America (New York, Massachusetts, Connecticut, Georgia) and elsewhere, but names no factory it owns. Its product pages give a country on nearly every item and name the cloth mill for tailoring and dress shirts (Marling & Evans tweed, Thomas Mason). Named mills and clear countries, nothing owned: a 3."
   },
   "doors": {
     "c": "full",
@@ -179,5 +180,22 @@
     "t": "lookbook",
     "u": "https://jpress.com/blogs/the-j-press-diaries/fall-26-lookbook",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "No owned factory named. History page: 'many of our products are made by hand in America — in New York, Massachusetts, Connecticut, Georgia, and more — as well as in Japan, Scotland, England, Italy, and Canada' — states, not factories. Site organises 'Made in USA/Scotland/Italy/Canada/Japan…' collections, i.e. multi-country partner sourcing. Parent Onward Kashiyama (per worklist origin_line) not checked for owned factories making J.Press US product.",
+    "makers": "no",
+    "mills": "some",
+    "madein": "most",
+    "countries": "Product feeds across 3 collections (10 sport coats, 11 shirts, 19 sweaters = 40): USA 15 (all sport coats, 5 dress shirts), Scotland 18/19 sweaters, India 6 madras shirts (3 by tag 'Made in India', 3 by 'woven in India' only); 1 sweater no country. Rendered sport coat PDP confirms 'Made in USA' in visible copy.",
+    "heritage": "dated and placed",
+    "repair": "NC",
+    "process": "some",
+    "urls": [
+      "https://jpress.com/pages/our-history-1",
+      "https://jpress.com/products/marling-evans-windowpane-sport-coat"
+    ],
+    "conf": "medium",
+    "read": "2026-10-03"
   }
 }

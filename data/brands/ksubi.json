@@ -6,7 +6,7 @@
   "focus": {
     "tech": 1,
     "comfort": 2,
-    "craft": 2,
+    "craft": 1,
     "style": 4
   },
   "fabric": {
@@ -56,7 +56,8 @@
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "denim": "Jeans and denim jackets are the range; the washes are the signature."
+    "denim": "Jeans and denim jackets are the range; the washes are the signature.",
+    "craft": "Ksubi's FAQ only says its denim comes from unnamed mills in Portugal, Turkey and China. Four PDPs across categories give composition but no country of make or maker. The FAQ mentions sulphur dye houses and laser treatments in general terms."
   },
   "doors": {
     "c": "full",
@@ -170,5 +171,19 @@
     "t": "lookbook",
     "u": "https://ksubi.com/blogs/news/lookbook-fall26-strangers-in-paradise",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "Our story page names no factory; only the 1999 North Sydney garage origin. No owned making claimed.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "none",
+    "countries": "No country of make on 4 PDPs (jean, knit cardigan, trucker jacket, polo shirt) or in 16 product descriptions via products.json. FAQ gives fabric-mill countries (Portugal, Turkey, China) but not garment country.",
+    "heritage": "dated and placed",
+    "repair": "no",
+    "process": "some",
+    "urls": ["https://ksubi.com/pages/faqs", "https://ksubi.com/pages/our-story"],
+    "conf": "medium",
+    "read": "2026-10-03"
   }
 }

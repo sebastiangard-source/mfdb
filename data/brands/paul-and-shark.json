@@ -34,7 +34,7 @@
     "surf": 2
   },
   "why": "Knitwear, polos and sailing-influenced outerwear from a family company in Varese.",
-  "origin": "The Dini family's knit mill dates from 1921; the Paul & Shark label launched in 1975.",
+  "origin": "The Dini family's knit mill, Maglificio Dacò, dates from the 1920s; the Paul & Shark label was founded by Paolo Dini in 1976.",
   "chan": ["D", "I", "O"],
   "conf": "L",
   "forgc": [4, 3, 1],
@@ -53,7 +53,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "The site dates the Dini family's knitting origin to Maglificio Dacò (1920s) and mentions 'in-house weaving machinery' from the start. It never says the mill is still owned or makes today's range, and the PDPs read name no maker, mill or country. Heritage without shown current making, plus at most an implied Italian origin, is a 2 (low confidence). [audit proposed 2 at low confidence; held at 3 pending a second read]"
   },
   "doors": {
     "c": "full",
@@ -184,5 +185,22 @@
     "t": "campaign",
     "u": "https://www.paulandshark.com/en_US/new-in/new-chapters/campaign-fall-winter-2026/",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "unclear",
+    "owned_d": "Heritage page: Maglificio Dacò, a 1920s workshop, 'was later acquired by Gian Ludovico Dini' and 'marked the beginning of Paul & Shark'. The Modern Craftsmanship page cites 'the use, from the very beginning, of in-house weaving machinery'. Neither page says the mill still operates, where it is, or that it makes the current range. The site footer gives operating company Dama S.p.A., Via Piemonte 174, Varese (an address, not a stated factory).",
+    "makers": "no",
+    "mills": "no",
+    "madein": "none",
+    "countries": "0/5 PDPs show a country of make in the fetched text (sweater, polo, shirt, trousers, down jacket). The origin may be in a collapsed tab the fetch can't see, so treat 'none' with caution.",
+    "heritage": "dated and placed",
+    "repair": "NC",
+    "process": "no",
+    "urls": [
+      "https://www.paulandshark.com/en_US/shark-world/heritage/",
+      "https://www.paulandshark.com/en_US/shark-world/modern-craftsmanship/"
+    ],
+    "conf": "low",
+    "read": "2026-10-03"
   }
 }

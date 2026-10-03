@@ -133,7 +133,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "Rag & Bone's product pages say only 'Imported': no country, mill or factory on any of the 4 sampled (jeans, two shirts, a jacket). Its story page names New York as home but says nothing about where or by whom the clothes are made. Nothing checkable: 1, below the current 2. [audit proposed 1 at low confidence; held at 2 pending a second read]"
   },
   "price_evidence": {
     "T-shirt": {
@@ -208,5 +209,22 @@
       "m": "brand filter",
       "n": ""
     }
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "Story & values page: founded 'twenty years ago' in New York, design rooted in British tailoring and American workwear; names no factory, workshop or making partner. No owned making found on the pages read.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "none",
+    "countries": "'Imported' only, no country: 4/4 PDPs (Fit 4 Creased Straight Jean, Austin Tropical Wool Shirt, Canvas Workwear Jacket, Jack Infuse Denim Shirt). Small sample, no knit/tee/tailoring PDP reached; fetcher may miss a collapsed tab, but 'Imported' did show.",
+    "heritage": "vague",
+    "repair": "yes",
+    "process": "no",
+    "urls": [
+      "https://www.rag-bone.com/our-company/story-values.html",
+      "https://www.rag-bone.com/p/fit-4-straight-jean-RX0426F2RFL.html"
+    ],
+    "conf": "low",
+    "read": "2026-10-03"
   }
 }

@@ -58,7 +58,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "Criquet's product copy says 'Designed in Austin, TX' and almost always just 'Imported'; only the Quilted Hoodie names a country (Peru), and no factory or mill is named anywhere I read. That is a country of make, stated rarely: a 2, not the current 3, unless the unread polo pages name a mill or maker. [audit proposed 2 at low confidence; held at 3 pending a second read]"
   },
   "doors": {
     "c": "full",
@@ -157,5 +158,22 @@
       "m": "text search",
       "n": "No Vinted brand entry; keyword search in Men"
     }
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "No owned facility seen. Homepage footer links only About Us and Press; no sustainability, factory or making page exists in the nav. About Us page itself was NOT read (first URL 404'd, the correct URL hit the fetch budget).",
+    "makers": "no",
+    "mills": "no",
+    "madein": "some",
+    "countries": "Peru 2/~32 (Quilted Hoodie, two colours: 'Made in Peru'); the other ~30 say only 'Imported' (cashmere crews 3, jacket 1, fleece shackets 2, sweater polos 2, corduroy shackets 3, pearl snaps ~15, shorts 6). Polos and button-downs not sampled.",
+    "heritage": "NC",
+    "repair": "no",
+    "process": "no",
+    "urls": [
+      "https://www.criquetshirts.com/products.json?limit=30",
+      "https://criquetshirts.com/collections/shorts/products.json?limit=8"
+    ],
+    "conf": "low",
+    "read": "2026-10-03"
   }
 }

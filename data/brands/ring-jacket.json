@@ -6,7 +6,7 @@
   "focus": {
     "tech": 1,
     "comfort": 3,
-    "craft": 5,
+    "craft": 4,
     "style": 4
   },
   "fabric": {
@@ -64,7 +64,7 @@
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Full-canvas tailoring made in the company's own Osaka factory since 1954."
+    "craft": "Ring Jacket's tailoring is made in its own Kaizuka (Osaka) factory, and its jacket PDPs say Made in Japan. But the site also sells a large Ring Jacket Napoli line (about 117 items: shirts, trousers, ties, knitwear) whose PDPs say Made in Italy, with no maker named. Owned making covers the core category (tailoring), not the whole range: a 4."
   },
   "doors": {
     "c": "full",
@@ -170,5 +170,22 @@
     "t": "lookbook",
     "u": "https://my.ebook5.net/ringjacket/",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "yes",
+    "owned_d": "Kaizuka factory, Osaka (Ring Jacket's own, 'directly managed', opened 1957 per Hidetoshi Sasamoto interview on lundochlund.com; expanded twice). Company page (ringjacket.co.jp/f/company) states 自社工場による一貫生産体制 (integrated production in its own factory), 103 employees, but does not name the plant. Press (imn.jp) describes the Kaizuka plant making suits with extensive hand stitching. Covers tailoring; the site gives no evidence it makes the Ring Jacket Napoli line (shirts, trousers, ties, much knitwear), which PDPs say is made in Italy.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "every product",
+    "countries": "Japan 3/8 own-brand (2 jackets, 1 camel knit); Italy 5/8 own-brand (2 Napoli shirts, Napoli trousers, wool-cashmere knit, Napoli tie). Imports also state country (Gaziano & Girling shoe: England; Moncao trousers: Romania). Sample of 10 PDPs: jackets, knits, shirts, trousers, tie, shoes.",
+    "heritage": "dated and placed",
+    "repair": "no",
+    "process": "some",
+    "urls": [
+      "https://lundochlund.com/blogs/editorial/ring-jacket",
+      "https://www.ringjacket.co.jp/c/shirt/5N106F07X"
+    ],
+    "conf": "medium",
+    "read": "2026-10-03"
   }
 }

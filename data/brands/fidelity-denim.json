@@ -6,7 +6,7 @@
   "focus": {
     "tech": 1,
     "comfort": 4,
-    "craft": 3,
+    "craft": 2,
     "style": 2
   },
   "fabric": {
@@ -54,7 +54,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "Fidelity says it cuts, sews and washes its jeans in Los Angeles and every sampled jean page says Made in the USA, but it names no factory and does not claim to own one. Only one of seven product pages names a mill (Candiani on the Torino Ghost Grey); the rest say 'Italian denim'. A country (and city) of make with a single named mill reads as a 2, borderline 3."
   },
   "doors": {
     "c": "full",
@@ -127,5 +128,22 @@
       "m": "text search",
       "n": "Vinted 'Fidelity' (1622091) entry unclear, not used"
     }
+  },
+  "craft_evidence": {
+    "owned": "unclear",
+    "owned_d": "Site claims production location, not ownership: /pages/made-in-fidelity says 'One of the few remaining brands to cut, sew, wash all of our products in Los Angeles'; homepage 'Cut, sewn, and washed in Los Angeles'. No factory named, no address, no photographs of a plant, no statement that the brand owns it. /pages/about-us says 'in North America' instead of Los Angeles (inconsistent).",
+    "makers": "no",
+    "mills": "some",
+    "madein": "every product",
+    "countries": "USA 7/7 (sample of 7 men's PDPs: Jimmy Oxford, Jimmy Cambridge, Torino Ghost Grey, Torino Patchouli, 808 Phoenix Blue, Firebird Phoenix Blue, plus selvedge collection check). Men's range is almost entirely jeans; no shirts/outerwear found to sample.",
+    "heritage": "vague",
+    "repair": "no",
+    "process": "some",
+    "urls": [
+      "https://fidelitydenim.com/pages/made-in-fidelity",
+      "https://fidelitydenim.com/collections/fidelity-men/products/torino-ghost-grey"
+    ],
+    "conf": "medium",
+    "read": "2026-10-03"
   }
 }

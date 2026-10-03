@@ -60,7 +60,7 @@
   "notes": {
     "fren": "a Frenchman selling America back to both continents — the Palm Angels pattern, a generation early",
     "cotton": "founded on deadstock oxford and chambray — Albini and Maruwa on the labels",
-    "craft": "mills named: Albini, Maruwa, Liberty, French linen",
+    "craft": "Hartford's about page names Albini, Maruwa and Liberty as cloth sources, and every product page states where the cloth was woven, dyed and sewn, mostly Morocco, with a short unnamed profile of the contract workshop (e.g. a family shirt factory near Casablanca making Hartford shirts for 30+ years). It owns no making, and on the product pages it names neither mill nor factory. A weak 3: unusually transparent, but the names sit on the about page.",
     "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
     "reach": "[authored findability score was 2; retired 28 Sep 2026]",
     "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
@@ -191,5 +191,22 @@
     "t": "lookbook",
     "u": "https://hartford.fr/fr-us/pages/lookbook-homme",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "No owned factory. PDPs describe contract makers ('notre façonnier', 'notre atelier partenaire'), unnamed: a family shirt factory near Casablanca (~300 people, 30+ years with Hartford, ICS-audited); a trouser maker in the Fès region (20+ years); a multi-product 'façon' workshop in Marrakech (~200 people); a jersey/knit workshop near Braga, Portugal (founded 1995, ~40 people). About page: studio in Paris, design only.",
+    "makers": "no",
+    "mills": "some",
+    "madein": "every product",
+    "countries": "Morocco 6/9, Portugal 1/9, China 1/9, India 1/9 (sample of 9 men's PDPs: 5 shirts, corduroy trouser, wool flannel jacket, merino knit, slub tee, suede jacket). PDPs also give weaving/knitting, dyeing and sewing countries separately.",
+    "heritage": "dated and placed",
+    "repair": "no",
+    "process": "some",
+    "urls": [
+      "https://hartford.fr/products/chemise-homme-en-oxford-bleu-ocbd-bg19007-04",
+      "https://hartford.fr/pages/a-propos-dhartford"
+    ],
+    "conf": "high",
+    "read": "2026-10-03"
   }
 }

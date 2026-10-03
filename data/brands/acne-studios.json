@@ -72,7 +72,8 @@
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "scandi": "Stockholm's largest fashion company; the look is Scandinavian in palette and shape."
+    "scandi": "Stockholm's largest fashion company; the look is Scandinavian in palette and shape.",
+    "craft": "Acne Studios claims no owned making, and neither its PDPs nor its sustainability page name a factory or mill; the sustainability page is targets and a downloadable report. The PDPs' visible text gives composition only, with origin probably in a hidden tab. Nothing seen supports moving off the current 2. [audit proposed 2 at low confidence; held at 2 pending a second read]"
   },
   "doors": {
     "c": "full",
@@ -223,5 +224,22 @@
     "t": "collection page",
     "u": "https://www.acnestudios.com/us/en/man/fw26/",
     "m": "yes"
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "Neither the about page ('a Stockholm-based fashion house', 'custom-developed fabrics') nor the sustainability page claims an owned factory, mill or workshop.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "NC",
+    "countries": "No 'Made in' text was visible in the fetched content of 5 PDPs (1996M raw jeans, 1996M jeans, striped lyocell shirt, argyle cardigan, down bomber). Origin is likely held in a collapsed details tab the fetch cannot see, so this is recorded NC rather than 'none'.",
+    "heritage": "vague",
+    "repair": "no",
+    "process": "no",
+    "urls": [
+      "https://www.acnestudios.com/us/en/company/sustainability/sustainability.html",
+      "https://www.acnestudios.com/us/en/acne-studios-1996m-action-rw/B00529-863.html?g=man"
+    ],
+    "conf": "low",
+    "read": "2026-10-03"
   }
 }

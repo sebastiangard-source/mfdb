@@ -6,7 +6,7 @@
   "focus": {
     "tech": 1,
     "comfort": 3,
-    "craft": 2,
+    "craft": 3,
     "style": 3
   },
   "fabric": {
@@ -52,7 +52,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "Everlane owns no factories but publishes a factory directory naming partners with city and country, and some product pages name the factory ('Made at TAL in Vietnam'). No fabric or yarn mill is named on product pages. Names its makers, owns nothing = 3."
   },
   "doors": {
     "c": "full",
@@ -193,5 +194,22 @@
     "gots": {
       "e": "Everlane (United States)"
     }
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "About page: 'We spend months finding the best factories around the world—the same ones that produce your favorite designer labels'; factories are audited partners. No owned factory claimed on /about or /factories.",
+    "makers": "some",
+    "mills": "no",
+    "madein": "some",
+    "countries": "Vietnam 2/8 visible (oxford shirt, essential crew); 6/8 showed no origin (organic crew tee x2, premium merino crew, sweater polo, sweater blazer, slim jean) but a collapsed Details accordion may hold it. Sample: tees, shirt, knits, tailoring-knit blazer, denim.",
+    "heritage": "none",
+    "repair": "yes",
+    "process": "some",
+    "urls": [
+      "https://www.everlane.com/factories",
+      "https://www.everlane.com/products/mens-organic-oxford-shirt-white"
+    ],
+    "conf": "medium",
+    "read": "2026-10-03"
   }
 }

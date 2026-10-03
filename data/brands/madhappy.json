@@ -6,7 +6,7 @@
   "focus": {
     "tech": 2,
     "comfort": 4,
-    "craft": 1,
+    "craft": 2,
     "style": 4
   },
   "fabric": {
@@ -55,7 +55,8 @@
     "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
     "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+    "craft": "Madhappy's product pages state a country or city of make on most items (core fleece 'Made In Los Angeles', midweight hoodie Canada, knits China), and its fabric guide says where each fabric is knit and garment-dyed (Los Angeles or Canada). It names no factory, mill or owned facility, so it is a 2, not a 3."
   },
   "doors": {
     "c": "full",
@@ -153,5 +154,22 @@
     "t": "lookbook",
     "u": "https://www.madhappy.com/blogs/news/fall-classics-2026-lookbook",
     "m": "unisex"
+  },
+  "craft_evidence": {
+    "owned": "no",
+    "owned_d": "About page (born Los Angeles 2017) names no factory or workshop of its own; only production partner named is FREECITY (2025 collaboration, 'made by hand in Hollywood, California'). Fabric guide says fleece/jersey is knit and garment-dyed 'in Los Angeles' or knit in Canada, without naming who does it. No owned facility found.",
+    "makers": "no",
+    "mills": "no",
+    "madein": "most",
+    "countries": "Los Angeles/USA 3/6 (Classics fleece hoodie, lightweight fleece sweatpant, Ditsy Cooper hoodie), Canada 1/6 (Classic midweight hoodie), China 1/6 (Dodgers cardigan), none 1/6 ('47 Yankees hat, licensed). Sample of 6 PDPs: fleece hoodies, sweatpant, knit cardigan, headwear; tees not reached.",
+    "heritage": "dated and placed",
+    "repair": "no",
+    "process": "some",
+    "urls": [
+      "https://www.madhappy.com/pages/fabric-guide",
+      "https://www.madhappy.com/products/classics-fleece-hoodie-core"
+    ],
+    "conf": "high",
+    "read": "2026-10-03"
   }
 }
