@@ -1,6 +1,6 @@
 # Job board — derived from jobs/manifest.json by job.py; do not edit
 
-_23 jobs · rewritten 2026-10-04_
+_24 jobs · rewritten 2026-10-04_
 
 | job | state | issued | kind | merged/returned | blocked on / note |
 |---|---|---|---|---|---|
@@ -27,3 +27,4 @@ _23 jobs · rewritten 2026-10-04_
 | logo_count_2026-09-28 | issued | 2026-09-28 | count |  | CR-5 |
 | craft_audit_2026-10-03 | merged | 2026-10-03 | evidence |  | merged 4 Oct as v3.40.0; 92 moves applied, 42 low-confidence held, 5 NC; rulings 1-8 taken |
 | craft_second_read_2026-10-04 | issued | 2026-10-04 | evidence |  | the 42 low-confidence holds, 5 NC and Zegna/Rubinacci |
+| link_test_2026-10-04 | issued | 2026-10-04 | links |  | supersedes the unsent link_test draft |

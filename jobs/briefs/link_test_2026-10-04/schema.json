@@ -1,0 +1,49 @@
+{
+  "not_checked": "NC",
+  "columns": [
+    {
+      "name": "owner",
+      "type": "str"
+    },
+    {
+      "name": "kind",
+      "type": "str"
+    },
+    {
+      "name": "url",
+      "type": "url"
+    },
+    {
+      "name": "status",
+      "type": "str",
+      "doc": "HTTP status after redirects, or blocked / timeout"
+    },
+    {
+      "name": "final_url",
+      "type": "url"
+    },
+    {
+      "name": "verdict",
+      "type": "enum",
+      "values": [
+        "ok",
+        "redirected-ok",
+        "wrong-page",
+        "empty",
+        "dead",
+        "blocked",
+        "geo"
+      ],
+      "doc": "ok: shows what it should; redirected-ok: lands right after a redirect; wrong-page: loads but not the thing (home page, women's, another product); empty: a listing with no products; dead: 404/410/DNS; blocked: bot wall; geo: served another country's store"
+    },
+    {
+      "name": "replacement_url",
+      "type": "url",
+      "doc": "the right URL where you found one"
+    },
+    {
+      "name": "note",
+      "type": "str"
+    }
+  ]
+}
