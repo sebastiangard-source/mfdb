@@ -1325,6 +1325,24 @@
       "returns": [],
       "blocked_on": "",
       "note": "merged 4 Oct as v3.40.0; 92 moves applied, 42 low-confidence held, 5 NC; rulings 1-8 taken"
+    },
+    {
+      "id": "craft_second_read_2026-10-04",
+      "title": "Craft: second read of the brands the audit could not settle",
+      "kind": "evidence",
+      "state": "issued",
+      "created": "2026-10-04",
+      "issued": "2026-10-04",
+      "pilot": 0,
+      "nc": "NC",
+      "brands": "subset",
+      "schema": [],
+      "writes": {
+        "focus.craft": "proposed, Sebastian rules"
+      },
+      "returns": [],
+      "blocked_on": "",
+      "note": "the 42 low-confidence holds, 5 NC and Zegna/Rubinacci"
     }
   ]
 }
