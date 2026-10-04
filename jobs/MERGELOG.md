@@ -1723,3 +1723,5 @@ Held: [('Carhartt', 'sweater NONE — a house with no crewneck still makes sweat
 - JiyongKim: craft 5 -> 2
 - Brunello Cucinelli: craft 5 -> 4
 - Hermès: craft 5 -> 4
+
+## 2026-10-04 · visit · kloTH, Hingham: Redvanly confirmed (added as stockist)
