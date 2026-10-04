@@ -697,6 +697,8 @@
   .bo-chips{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin:14px 0 6px;padding-top:10px;border-top:1px dashed var(--hairline)}
   .bo-chips-lab{font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint);margin-right:6px}
   .bo-chips-lab i{font-style:normal;text-transform:none;letter-spacing:0}
+  .seen-mark{display:inline-block;margin-left:6px;font-size:9.5px;letter-spacing:.05em;text-transform:uppercase;color:var(--lf-green);vertical-align:1px}
+  .seen-dot{font-style:normal;color:var(--lf-green);margin-left:2px;font-size:11px}
   #boutiquesView .bo-chip.detail-link{text-transform:none;letter-spacing:0;font-weight:400;font-size:12px;color:var(--ink)}
   .bo-chip{font-size:12px;padding:4px 10px;border-radius:12px;background:rgba(18,59,43,.07);color:var(--ink);text-decoration:none}
   .bo-chip b{font-weight:500;margin-left:4px;color:var(--ink-faint)}.bo-chip:hover{background:rgba(18,59,43,.15)}
@@ -2619,8 +2621,9 @@ function carriedBy(i){
 function shopRowHTML(p, i, noTag){
   const slug = shopSlug(p); const reg = subregionOf(p);
   const carried = carriedBy(i);
+  const seenSet = new Set(p.seen || []);
   const carry = carried.length
-    ? esc(carried.slice(0,3).join(", ")) + (carried.length > 3 ? ` +${carried.length - 3}` : "")
+    ? carried.slice(0,3).map(b=>esc(b) + (seenSet.has(b) ? `<i class="seen-dot" title="confirmed in person">\u2713</i>` : "")).join(", ") + (carried.length > 3 ? ` +${carried.length - 3}` : "")
     : (p.ub ? `${p.ub} universe brand${p.ub===1?"":"s"}` : "");
   const bits = [`${p.c}, ${p.s}`, p.t].filter(Boolean).map(esc).concat(carry ? [carry] : []).join(" \u00b7 ");
   const tag = noTag ? "" : `<span class="bo-region" role="link" tabindex="0" data-region="${esc(reg)}" title="All stores in ${esc(reg)}">${esc(reg)}</span>`;
@@ -2699,7 +2702,7 @@ function renderBoutiques(region, kind, view, brand){
     + (boRegion && idx.length ? `<p class="bo-routes">${routeLinks(idx.map(([p])=>p))}</p>` : "");
   const caveat = `<p class="bo-caveat">Brand-owned stores are run by the brand itself; independent shops are stockists that buy from many brands. `
     + `No department stores or concessions. An independent shop outside ${REGION_NAME} is absent because the register `
-    + `has not reached it; brand-owned stores are listed nationally. Brand lists say what a shop buys, not what is on the rack today.</p>`;
+    + `has not reached it; brand-owned stores are listed nationally. Brands shown are from the shop\u2019s website or confirmed in person; what is on the rack changes daily.</p>`;
   let body;
   if(boView === "az" || boRegion){
     body = idx.map(([p,i])=>p.k==="o" ? ownRowHTML(p) : shopRowHTML(p, i)).join("");
@@ -2936,7 +2939,7 @@ function renderShop(ref){
     + `<h3>Universe brands carried</h3>`
     + (brands.length
         ? `<div class="exl">` + brands.map(b=>
-            `<a class="detail-link" data-brand="${esc(b)}" href="#brand=${encodeURIComponent(b)}">${esc(b)}</a>`
+            `<a class="detail-link" data-brand="${esc(b)}" href="#brand=${encodeURIComponent(b)}">${esc(b)}</a>${(p.seen||[]).includes(b) ? `<span class="seen-mark" title="Confirmed on the floor by a visit">seen in store</span>` : ""}`
           ).join("") + `</div>`
           + `<p class="sv-src">${brands.length} of the map's brands`
           + (p.bt && p.bt > brands.length ? `, from ${p.bt} carried in total` : "")

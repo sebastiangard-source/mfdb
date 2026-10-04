@@ -904,6 +904,9 @@ with sync_playwright() as p:
     ck('several doors in one town are told apart by street', pg.evaluate("(()=>{const g=[...document.querySelectorAll('#boBody .bo-chipgroup')].find(x=>x.textContent.startsWith('Lululemon')); if(!g) return false; g.querySelector('button').click(); const segs=[...g.querySelectorAll('a.bo-chip-map')].map(a=>a.textContent); return segs.length===new Set(segs).size && segs.some(t=>t.includes('·'))})()"))
     pg.goto(url+'#stores'); pg.reload(); pg.wait_for_timeout(500)
     ck('the chip strip names the region and says brand-owned', pg.evaluate("[...document.querySelectorAll('#boBody .bo-chips-lab')].every(l=>/^Brand-owned stores in .+/.test(l.textContent))"))
+    pg.goto(url+'#shop=kloth-hingham-ma'); pg.reload(); pg.wait_for_timeout(400)
+    ck('a brand confirmed in person is marked on the shop page', pg.evaluate("[...document.querySelectorAll('#shopBody .seen-mark')].length")>=1)
+    pg.goto(url+'#stores'); pg.reload(); pg.wait_for_timeout(500)
     ck('nothing on the page says bare brand store', pg.evaluate("!/\\bbrand stores?\\b(?!-)/i.test(document.getElementById('boBody').innerText.replace(/brand-owned/gi,''))"))
 
     head('bug mail 21 Sep')
