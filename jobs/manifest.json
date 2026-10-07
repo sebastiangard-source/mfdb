@@ -1,1366 +1,1398 @@
 {
-  "jobs": [
+ "jobs": [
+  {
+   "id": "seating_master_2026-09-13",
+   "title": "Seating master — 55 rows",
+   "kind": "seating",
+   "state": "closed",
+   "created": "2026-09-13",
+   "issued": "2026-09-13",
+   "pilot": 8,
+   "nc": "NC",
+   "brands": "all",
+   "schema": [
     {
-      "id": "seating_master_2026-09-13",
-      "title": "Seating master — 55 rows",
-      "kind": "seating",
-      "state": "closed",
-      "created": "2026-09-13",
-      "issued": "2026-09-13",
-      "pilot": 8,
-      "nc": "NC",
-      "brands": "all",
-      "schema": [
-        {
-          "name": "brand",
-          "type": "key"
-        },
-        {
-          "name": "source",
-          "type": "provenance"
-        },
-        {
-          "name": "note",
-          "type": "str"
-        }
-      ],
-      "writes": {},
-      "returns": [],
-      "blocked_on": "",
-      "note": "superseded: seating now happens on sightings; 29 queued names remain in menswear_bench.md"
+     "name": "brand",
+     "type": "key"
     },
     {
-      "id": "rubric_screen_origin_2026-09",
-      "title": "8 origin checks",
-      "kind": "rubric_screen",
-      "state": "closed",
-      "created": "2026-09-13",
-      "issued": null,
-      "pilot": 8,
-      "nc": "NC",
-      "brands": "all",
-      "schema": [
-        {
-          "name": "brand",
-          "type": "key"
-        },
-        {
-          "name": "source",
-          "type": "provenance"
-        },
-        {
-          "name": "note",
-          "type": "str"
-        }
-      ],
-      "writes": {},
-      "returns": [
-        {
-          "n": 1,
-          "file": "rubric_screen_2026-09/",
-          "received": "2026-09-13",
-          "rows": 204,
-          "mergeable": 0,
-          "held": 0,
-          "merged": 204,
-          "triage": "jobs/triage/rubric_screen_2026-09.md"
-        }
-      ],
-      "blocked_on": "",
-      "note": "closed 13 Sep: site + tech_evidence merged for 204; depth table (73 partial) and marks index held in jobs/returns/rubric_screen_2026-09"
+     "name": "source",
+     "type": "provenance"
     },
     {
-      "id": "rubric_screen_tech_2026-09",
-      "title": "36-brand tech screen",
-      "kind": "rubric_screen",
-      "state": "closed",
-      "created": "2026-09-13",
-      "issued": null,
-      "pilot": 8,
-      "nc": "NC",
-      "brands": "all",
-      "schema": [
-        {
-          "name": "brand",
-          "type": "key"
-        },
-        {
-          "name": "source",
-          "type": "provenance"
-        },
-        {
-          "name": "note",
-          "type": "str"
-        }
-      ],
-      "writes": {},
-      "returns": [
-        {
-          "n": 1,
-          "file": "rubric_screen_2026-09/",
-          "received": "2026-09-13",
-          "rows": 204,
-          "mergeable": 0,
-          "held": 0,
-          "merged": 204,
-          "triage": "jobs/triage/rubric_screen_2026-09.md"
-        }
-      ],
-      "blocked_on": "",
-      "note": "closed 13 Sep: site + tech_evidence merged for 204; depth table (73 partial) and marks index held in jobs/returns/rubric_screen_2026-09"
-    },
-    {
-      "id": "catalogue_capture_2026-09",
-      "title": "Catalogue capture, 181 brands",
-      "kind": "capture",
-      "state": "issued",
-      "created": "2026-09-13",
-      "issued": "2026-09-05",
-      "pilot": 8,
-      "nc": "NC",
-      "brands": "all",
-      "schema": [
-        {
-          "name": "brand",
-          "type": "key"
-        },
-        {
-          "name": "source",
-          "type": "provenance"
-        },
-        {
-          "name": "note",
-          "type": "str"
-        }
-      ],
-      "writes": {},
-      "returns": [],
-      "blocked_on": "",
-      "note": "64 of 181 done; browser permissions were the blocker"
-    },
-    {
-      "id": "fibre_pass_2026-09-11",
-      "title": "Fibre composition pass, 194 brands",
-      "kind": "fibre",
-      "state": "closed",
-      "created": "2026-09-13",
-      "issued": "2026-09-11",
-      "pilot": 8,
-      "nc": "NC",
-      "brands": "all",
-      "schema": [
-        {
-          "name": "brand",
-          "type": "key"
-        },
-        {
-          "name": "source",
-          "type": "provenance"
-        },
-        {
-          "name": "note",
-          "type": "str"
-        }
-      ],
-      "writes": {},
-      "returns": [],
-      "blocked_on": "thread may hold spandex counts for 163 brands that never reached the build — chase",
-      "note": "closed: the 163 spandex counts were not found in any thread asked (three); spandex is measured inside fibre_pass_2026-09-14 instead"
-    },
-    {
-      "id": "style_canon_2026-09",
-      "title": "Style canon — Ivy ruled; workwear, surf next",
-      "kind": "canon",
-      "state": "merged",
-      "created": "2026-09-13",
-      "issued": null,
-      "pilot": 8,
-      "nc": "NC",
-      "brands": "all",
-      "schema": [
-        {
-          "name": "brand",
-          "type": "key"
-        },
-        {
-          "name": "source",
-          "type": "provenance"
-        },
-        {
-          "name": "note",
-          "type": "str"
-        }
-      ],
-      "writes": {},
-      "returns": [],
-      "blocked_on": "",
-      "note": "Ivy ruled and merged; workwear and surf dials now seeded directly (v3.35.0)"
-    },
-    {
-      "id": "named_looks_survey_2026-09",
-      "title": "Named looks survey",
-      "kind": "survey",
-      "state": "drafted",
-      "created": "2026-09-13",
-      "issued": null,
-      "pilot": 8,
-      "nc": "NC",
-      "brands": "all",
-      "schema": [
-        {
-          "name": "brand",
-          "type": "key"
-        },
-        {
-          "name": "source",
-          "type": "provenance"
-        },
-        {
-          "name": "note",
-          "type": "str"
-        }
-      ],
-      "writes": {},
-      "returns": [],
-      "blocked_on": "",
-      "note": "written, never issued"
-    },
-    {
-      "id": "link_test_2026-09",
-      "title": "Browser link test, 1,140 outbound links",
-      "kind": "links",
-      "state": "drafted",
-      "created": "2026-09-13",
-      "issued": null,
-      "pilot": 8,
-      "nc": "NC",
-      "brands": "all",
-      "schema": [
-        {
-          "name": "brand",
-          "type": "key"
-        },
-        {
-          "name": "source",
-          "type": "provenance"
-        },
-        {
-          "name": "note",
-          "type": "str"
-        }
-      ],
-      "writes": {},
-      "returns": [],
-      "blocked_on": "",
-      "note": "written, never run"
-    },
-    {
-      "id": "price_pass_2026-09",
-      "title": "Price pass, queues 3–5",
-      "kind": "price",
-      "state": "closed",
-      "created": "2026-09-13",
-      "issued": null,
-      "pilot": 8,
-      "nc": "NC",
-      "brands": "all",
-      "schema": [
-        {
-          "name": "brand",
-          "type": "key"
-        },
-        {
-          "name": "source",
-          "type": "provenance"
-        },
-        {
-          "name": "note",
-          "type": "str"
-        }
-      ],
-      "writes": {},
-      "returns": [],
-      "blocked_on": "non-USD price axis ruling",
-      "note": "superseded by price_full_2026-09-23"
-    },
-    {
-      "id": "midatlantic_register_2026-09-12",
-      "title": "Mid-Atlantic register — 96 doors need a phone call",
-      "kind": "locations",
-      "state": "merged",
-      "created": "2026-09-13",
-      "issued": "2026-09-12",
-      "pilot": 8,
-      "nc": "NC",
-      "brands": "all",
-      "schema": [
-        {
-          "name": "brand",
-          "type": "key"
-        },
-        {
-          "name": "source",
-          "type": "provenance"
-        },
-        {
-          "name": "note",
-          "type": "str"
-        }
-      ],
-      "writes": {},
-      "returns": [],
-      "blocked_on": "",
-      "note": "desk work merged into the register; 96 doors still need a phone call"
-    },
-    {
-      "id": "rubric_screen_golf_2026-09-14",
-      "title": "Golf dial screen — the top ten",
-      "kind": "rubric_screen",
-      "state": "drafted",
-      "created": "2026-09-13",
-      "issued": null,
-      "pilot": 4,
-      "nc": "NC",
-      "brands": [
-        "Criquet",
-        "Peter Millar",
-        "TravisMathew",
-        "Rhoback",
-        "Malbon",
-        "J.Lindeberg",
-        "Redvanly",
-        "RLX",
-        "johnnie-O"
-      ],
-      "schema": [
-        {
-          "name": "brand",
-          "type": "key"
-        },
-        {
-          "name": "golf_products",
-          "type": "int",
-          "range": [
-            0,
-            9999
-          ]
-        },
-        {
-          "name": "total_products",
-          "type": "int",
-          "range": [
-            0,
-            99999
-          ]
-        },
-        {
-          "name": "golf_pct",
-          "type": "int",
-          "range": [
-            0,
-            100
-          ]
-        },
-        {
-          "name": "house_tech",
-          "type": "enum",
-          "values": [
-            "owned",
-            "licensed",
-            "none",
-            "unclear"
-          ]
-        },
-        {
-          "name": "source",
-          "type": "provenance"
-        },
-        {
-          "name": "note",
-          "type": "str"
-        }
-      ],
-      "writes": {},
-      "returns": [],
-      "blocked_on": "",
-      "note": "scaffolded as the worked example; not sent to anyone"
-    },
-    {
-      "id": "fibre_pass_2026-09-14",
-      "title": "Fibre pass — the range, measured for 197 brands",
-      "kind": "fibre",
-      "state": "merged",
-      "created": "2026-09-13",
-      "issued": "2026-09-13",
-      "pilot": 8,
-      "nc": "NC",
-      "brands": [
-        "Levi's",
-        "Carhartt",
-        "Lacoste",
-        "Mack Weldon",
-        "Charles Tyrwhitt",
-        "Son of a Tailor",
-        "Mott & Bow",
-        "Banana Republic",
-        "Everlane",
-        "Alex Crane",
-        "Industry of All Nations",
-        "Marine Layer",
-        "Cuts Clothing",
-        "Bonobos",
-        "Vuori",
-        "Rothy's",
-        "Lululemon",
-        "Alo",
-        "Southern Tide",
-        "Rhoback",
-        "Criquet",
-        "Taylor Stitch",
-        "Outerknown",
-        "Patagonia",
-        "Finisterre",
-        "Rodd & Gunn",
-        "Rowan",
-        "Mizzen+Main",
-        "State & Liberty",
-        "Rhone",
-        "J.Lindeberg",
-        "TravisMathew",
-        "Malbon",
-        "Redvanly",
-        "RLX",
-        "johnnie-O",
-        "Percival",
-        "Wax London",
-        "Hiroshi Kato",
-        "Sugar Cane",
-        "Buck Mason",
-        "Duck Head",
-        "Wythe",
-        "AYR",
-        "Alex Mill",
-        "Robert Barakett",
-        "Easy Mondays",
-        "Indochino",
-        "Proper Cloth",
-        "Tecovas",
-        "Patrick James",
-        "Barbour",
-        "Baracuta",
-        "Filson",
-        "James Perse",
-        "Y.Chroma",
-        "Madhappy",
-        "Kith",
-        "Aimé Leon Dore",
-        "Massimo Dutti",
-        "Vineyard Vines",
-        "Polo Ralph Lauren",
-        "RRL",
-        "J.McLaughlin",
-        "Ted Baker",
-        "Scotch & Soda",
-        "NN07",
-        "Samsøe Samsøe",
-        "Les Deux",
-        "Norse Projects",
-        "Vollebak",
-        "Stone Island",
-        "A Bathing Ape",
-        "Canada Goose",
-        "Arc'teryx",
-        "Vince",
-        "Rails",
-        "Club Monaco",
-        "PAIGE",
-        "AG",
-        "Ksubi",
-        "Purple",
-        "Diesel",
-        "Citizens of Humanity",
-        "AGOLDE",
-        "Fidelity Denim",
-        "Joe's Jeans",
-        "Suitsupply",
-        "Boggi Milano",
-        "Hackett",
-        "Eton",
-        "Rakho",
-        "Eleventy",
-        "Borgo28",
-        "Incotex",
-        "Jack Victor",
-        "Brooks Brothers",
-        "J.Press",
-        "Sunspel",
-        "Saint James",
-        "Margaret Howell",
-        "Reiss",
-        "Sandro",
-        "Isabel Marant",
-        "Frame",
-        "Theory",
-        "Rag & Bone",
-        "John Varvatos",
-        "Sid Mashburn",
-        "Billy Reid",
-        "A.P.C.",
-        "Luca Faloni",
-        "120% Lino",
-        "Paul Smith",
-        "Officine Générale",
-        "Brax",
-        "Hartford",
-        "Our Legacy",
-        "Auralee",
-        "Ami Paris",
-        "Boglioli",
-        "Peserico",
-        "Ring Jacket",
-        "Drake's",
-        "John Smedley",
-        "Gran Sasso",
-        "Johnstons of Elgin",
-        "Raffi",
-        "BOSS",
-        "Corneliani",
-        "Canali",
-        "Thom Browne",
-        "Burberry",
-        "Herno",
-        "Valstar",
-        "Aspesi",
-        "Paul & Shark",
-        "Sease",
-        "Moncler",
-        "Ferragamo",
-        "Giorgio Armani",
-        "Missoni",
-        "Etro",
-        "Versace",
-        "Dolce&Gabbana",
-        "Fendi",
-        "Valentino",
-        "Saint Laurent",
-        "Celine",
-        "Givenchy",
-        "Gucci",
-        "Balenciaga",
-        "McQueen",
-        "Maison Margiela",
-        "Rick Owens",
-        "Yohji Yamamoto",
-        "Junya Watanabe",
-        "Sacai",
-        "Casablanca",
-        "Jacquemus",
-        "Prada",
-        "Loewe",
-        "JW Anderson",
-        "Dior",
-        "Amiri",
-        "Rhude",
-        "Palm Angels",
-        "Golden Goose",
-        "Fear of God",
-        "Bode",
-        "Greg Lauren",
-        "Visvim",
-        "Tom Ford",
-        "Ralph Lauren Purple Label",
-        "Zegna",
-        "Bottega Veneta",
-        "Berluti",
-        "Charvet",
-        "Husbands",
-        "Brioni",
-        "Isaia",
-        "The Row",
-        "Lemaire",
-        "Jil Sander",
-        "Acne Studios",
-        "Dries Van Noten",
-        "Wales Bonner",
-        "JiyongKim",
-        "Brunello Cucinelli",
-        "Fedeli",
-        "The Elder Statesman",
-        "Hermès",
-        "Rubinacci",
-        "Kiton",
-        "Cesare Attolini",
-        "Zilli",
-        "Stefano Ricci"
-      ],
-      "schema": [
-        {
-          "name": "brand",
-          "type": "key"
-        },
-        {
-          "name": "styles_total",
-          "type": "int",
-          "range": [
-            1,
-            99999
-          ]
-        },
-        {
-          "name": "styles_with_composition",
-          "type": "int",
-          "range": [
-            0,
-            99999
-          ]
-        },
-        {
-          "name": "natural_pct",
-          "type": "int",
-          "range": [
-            0,
-            100
-          ]
-        },
-        {
-          "name": "synthetic_pct",
-          "type": "int",
-          "range": [
-            0,
-            100
-          ]
-        },
-        {
-          "name": "cellulosic_pct",
-          "type": "int",
-          "range": [
-            0,
-            100
-          ]
-        },
-        {
-          "name": "spandex_styles",
-          "type": "int",
-          "range": [
-            0,
-            99999
-          ]
-        },
-        {
-          "name": "spandex_high_styles",
-          "type": "int",
-          "range": [
-            0,
-            99999
-          ]
-        },
-        {
-          "name": "shape",
-          "type": "enum",
-          "values": [
-            "one",
-            "split"
-          ]
-        },
-        {
-          "name": "synthetic_categories",
-          "type": "json"
-        },
-        {
-          "name": "natural_categories",
-          "type": "json"
-        },
-        {
-          "name": "style_method",
-          "type": "enum",
-          "values": [
-            "product_code",
-            "title_dedup",
-            "handle",
-            "manual"
-          ]
-        },
-        {
-          "name": "colourway_ratio",
-          "type": "str"
-        },
-        {
-          "name": "locale_dedup",
-          "type": "str"
-        },
-        {
-          "name": "feed_currency_rate",
-          "type": "str"
-        },
-        {
-          "name": "status",
-          "type": "enum",
-          "values": [
-            "complete",
-            "partial"
-          ]
-        },
-        {
-          "name": "source",
-          "type": "provenance"
-        },
-        {
-          "name": "note",
-          "type": "str"
-        }
-      ],
-      "writes": {
-        "fibre.t": "styles_total",
-        "fibre.n": "natural_pct",
-        "fibre.s": "synthetic_pct",
-        "fibre.c": "cellulosic_pct",
-        "fibre.x": "spandex_styles",
-        "fibre.xh": "spandex_high_styles",
-        "fibre.sp": "shape",
-        "fibre.sc": "synthetic_categories",
-        "fibre.nc": "natural_categories"
-      },
-      "returns": [
-        {
-          "n": 1,
-          "file": "return.csv",
-          "received": "2026-09-13",
-          "rows": 197,
-          "mergeable": 0,
-          "held": 8,
-          "merged": 0,
-          "triage": "jobs/triage/fibre_pass_2026-09-14_1.md"
-        },
-        {
-          "n": 2,
-          "file": "return__1_.csv",
-          "received": "2026-09-13",
-          "rows": 197,
-          "mergeable": 8,
-          "held": 0,
-          "merged": 0,
-          "triage": "jobs/triage/fibre_pass_2026-09-14_2.md"
-        },
-        {
-          "n": 3,
-          "file": "fibre_pass_2026-09-14_full.csv",
-          "received": "2026-09-15",
-          "rows": 197,
-          "mergeable": 193,
-          "held": 3,
-          "merged": 191,
-          "triage": "jobs/triage/fibre_pass_2026-09-14_3.md"
-        },
-        {
-          "n": 4,
-          "file": "fibre_pass_2026-09-14_scope.csv",
-          "received": "2026-09-15",
-          "rows": 197,
-          "mergeable": 189,
-          "held": 4,
-          "merged": 0,
-          "triage": "jobs/triage/fibre_pass_2026-09-14_4.md"
-        }
-      ],
-      "blocked_on": "",
-      "note": "merged 15 Sep"
-    },
-    {
-      "id": "price_pass_2026-09-18",
-      "title": "Price pass — the three unread garments, and site-search URLs",
-      "kind": "price",
-      "state": "merged",
-      "created": "2026-09-18",
-      "issued": "2026-09-18",
-      "pilot": 8,
-      "nc": "NC",
-      "brands": [
-        "Levi's",
-        "Carhartt",
-        "Lacoste",
-        "J.Crew",
-        "Banana Republic",
-        "Everlane",
-        "Industry of All Nations",
-        "Bonobos",
-        "Rothy's",
-        "Lululemon",
-        "Alo",
-        "Southern Tide",
-        "Rhoback",
-        "Taylor Stitch",
-        "Outerknown",
-        "Patagonia",
-        "Finisterre",
-        "Faherty",
-        "Rodd & Gunn",
-        "Rowan",
-        "Rhone",
-        "J.Lindeberg",
-        "Malbon",
-        "Redvanly",
-        "RLX",
-        "johnnie-O",
-        "Percival",
-        "Hiroshi Kato",
-        "Sugar Cane",
-        "Buck Mason",
-        "Duck Head",
-        "Wythe",
-        "AYR",
-        "Alex Mill",
-        "Easy Mondays",
-        "Indochino",
-        "Tecovas",
-        "Patrick James",
-        "Barbour",
-        "Baracuta",
-        "Filson",
-        "James Perse",
-        "Y.Chroma",
-        "Madhappy",
-        "Kith",
-        "Aimé Leon Dore",
-        "Massimo Dutti",
-        "Vineyard Vines",
-        "Polo Ralph Lauren",
-        "RRL",
-        "J.McLaughlin",
-        "Peter Millar",
-        "Ted Baker",
-        "Scotch & Soda",
-        "NN07",
-        "Samsøe Samsøe",
-        "Les Deux",
-        "Norse Projects",
-        "Vollebak",
-        "Stone Island",
-        "A Bathing Ape",
-        "Canada Goose",
-        "Arc'teryx",
-        "Vince",
-        "Rails",
-        "Club Monaco",
-        "PAIGE",
-        "AG",
-        "Ksubi",
-        "Purple",
-        "Diesel",
-        "Citizens of Humanity",
-        "AGOLDE",
-        "Fidelity Denim",
-        "Joe's Jeans",
-        "Suitsupply",
-        "Boggi Milano",
-        "Hackett",
-        "Rakho",
-        "Eleventy",
-        "Borgo28",
-        "Incotex",
-        "Brooks Brothers",
-        "J.Press",
-        "Sunspel",
-        "Saint James",
-        "Merz b. Schwanen",
-        "Margaret Howell",
-        "Reiss",
-        "Isabel Marant",
-        "Frame",
-        "Theory",
-        "Rag & Bone",
-        "John Varvatos",
-        "Sid Mashburn",
-        "Billy Reid",
-        "A.P.C.",
-        "Paul Smith",
-        "Officine Générale",
-        "Brax",
-        "Our Legacy",
-        "Auralee",
-        "Ami Paris",
-        "Todd Snyder",
-        "Boglioli",
-        "Peserico",
-        "Ring Jacket",
-        "Drake's",
-        "Gran Sasso",
-        "BOSS",
-        "Corneliani",
-        "Canali",
-        "Thom Browne",
-        "Burberry",
-        "Herno",
-        "Valstar",
-        "Aspesi",
-        "Paul & Shark",
-        "Sease",
-        "Moncler",
-        "Ferragamo",
-        "Giorgio Armani",
-        "Missoni",
-        "Etro",
-        "Versace",
-        "Dolce&Gabbana",
-        "Fendi",
-        "Valentino",
-        "Saint Laurent",
-        "Celine",
-        "Givenchy",
-        "Gucci",
-        "Balenciaga",
-        "McQueen",
-        "Maison Margiela",
-        "Rick Owens",
-        "Yohji Yamamoto",
-        "Comme des Garçons",
-        "Junya Watanabe",
-        "Sacai",
-        "Casablanca",
-        "Jacquemus",
-        "Prada",
-        "Loewe",
-        "JW Anderson",
-        "Dior",
-        "Amiri",
-        "Rhude",
-        "Palm Angels",
-        "Golden Goose",
-        "Fear of God",
-        "Bode",
-        "Greg Lauren",
-        "Visvim",
-        "Tom Ford",
-        "Zegna",
-        "Bottega Veneta",
-        "Charvet",
-        "Husbands",
-        "Brioni",
-        "Isaia",
-        "The Row",
-        "Lemaire",
-        "Jil Sander",
-        "Acne Studios",
-        "Dries Van Noten",
-        "Wales Bonner",
-        "JiyongKim",
-        "Brunello Cucinelli",
-        "Fedeli",
-        "The Elder Statesman",
-        "Hermès",
-        "Loro Piana",
-        "Rubinacci",
-        "Kiton",
-        "Cesare Attolini",
-        "Zilli",
-        "Stefano Ricci"
-      ],
-      "schema": [
-        {
-          "name": "brand",
-          "type": "key"
-        },
-        {
-          "name": "tee_low",
-          "type": "int",
-          "range": [
-            1,
-            99999
-          ]
-        },
-        {
-          "name": "tee_high",
-          "type": "int",
-          "range": [
-            1,
-            99999
-          ]
-        },
-        {
-          "name": "polo_low",
-          "type": "int",
-          "range": [
-            1,
-            99999
-          ]
-        },
-        {
-          "name": "polo_high",
-          "type": "int",
-          "range": [
-            1,
-            99999
-          ]
-        },
-        {
-          "name": "dress_shirt_low",
-          "type": "int",
-          "range": [
-            1,
-            99999
-          ]
-        },
-        {
-          "name": "dress_shirt_high",
-          "type": "int",
-          "range": [
-            1,
-            99999
-          ]
-        },
-        {
-          "name": "jeans_low",
-          "type": "int",
-          "range": [
-            1,
-            99999
-          ]
-        },
-        {
-          "name": "jeans_high",
-          "type": "int",
-          "range": [
-            1,
-            99999
-          ]
-        },
-        {
-          "name": "dress_pants_low",
-          "type": "int",
-          "range": [
-            1,
-            99999
-          ]
-        },
-        {
-          "name": "dress_pants_high",
-          "type": "int",
-          "range": [
-            1,
-            99999
-          ]
-        },
-        {
-          "name": "sweater_low",
-          "type": "int",
-          "range": [
-            1,
-            99999
-          ]
-        },
-        {
-          "name": "sweater_high",
-          "type": "int",
-          "range": [
-            1,
-            99999
-          ]
-        },
-        {
-          "name": "outerwear_low",
-          "type": "int",
-          "range": [
-            1,
-            99999
-          ]
-        },
-        {
-          "name": "outerwear_high",
-          "type": "int",
-          "range": [
-            1,
-            99999
-          ]
-        },
-        {
-          "name": "shoes_low",
-          "type": "int",
-          "range": [
-            1,
-            99999
-          ]
-        },
-        {
-          "name": "shoes_high",
-          "type": "int",
-          "range": [
-            1,
-            99999
-          ]
-        },
-        {
-          "name": "not_a_staple",
-          "type": "str"
-        },
-        {
-          "name": "search_url",
-          "type": "url"
-        },
-        {
-          "name": "store_used",
-          "type": "url"
-        },
-        {
-          "name": "currency_basis",
-          "type": "enum",
-          "values": [
-            "USD",
-            "USD_landed",
-            "EUR",
-            "GBP",
-            "JPY",
-            "CAD",
-            "other"
-          ]
-        },
-        {
-          "name": "status",
-          "type": "enum",
-          "values": [
-            "complete",
-            "partial"
-          ]
-        },
-        {
-          "name": "source",
-          "type": "provenance"
-        },
-        {
-          "name": "note",
-          "type": "str"
-        }
-      ],
-      "writes": {
-        "prices.0": "tee_low",
-        "prices.1": "polo_low",
-        "prices.2": "dress_shirt_low",
-        "prices.3": "jeans_low",
-        "prices.4": "dress_pants_low",
-        "prices.5": "sweater_low",
-        "prices.6": "outerwear_low",
-        "prices.7": "shoes_low",
-        "shop": "search_url"
-      },
-      "returns": [
-        {
-          "n": 1,
-          "file": "price_pass_2026-09-18_pilot.csv",
-          "received": "2026-09-18",
-          "rows": 8,
-          "mergeable": 7,
-          "held": 1,
-          "merged": 7,
-          "triage": "jobs/MERGELOG.md"
-        }
-      ],
-      "blocked_on": "",
-      "note": "merged 19 Sep (v3.13.1); superseded by price_full_2026-09-23"
-    },
-    {
-      "id": "stockist_great_put_on_2026-09-18",
-      "title": "The Great Put On — shop record and brand sift",
-      "kind": "stockist",
-      "state": "merged",
-      "created": "2026-09-18",
-      "issued": "2026-09-18",
-      "pilot": 1,
-      "nc": "NC",
-      "brands": [
-        "Golden Goose"
-      ],
-      "schema": [
-        {
-          "name": "brand",
-          "type": "key"
-        },
-        {
-          "name": "source",
-          "type": "provenance"
-        },
-        {
-          "name": "note",
-          "type": "str"
-        }
-      ],
-      "writes": {},
-      "returns": [],
-      "blocked_on": "",
-      "note": "merged 18 Sep (Golden Goose seated; Autumn Cashmere benched)"
-    },
-    {
-      "id": "garment_links_2026-09-19",
-      "title": "Men's garment links, per brand per garment",
-      "kind": "links",
-      "state": "merged",
-      "created": "2026-09-19",
-      "issued": "2026-09-19",
-      "pilot": 8,
-      "nc": "NC",
-      "brands": "all",
-      "schema": [],
-      "writes": {},
-      "returns": [],
-      "blocked_on": "",
-      "note": "merged 22 Sep (v3.15.0)"
-    },
-    {
-      "id": "tech_rescore_2026-09-20",
-      "title": "Tech dial re-score proposal, 204 brands",
-      "kind": "rescore",
-      "state": "issued",
-      "created": "2026-09-20",
-      "issued": "2026-09-20",
-      "pilot": 10,
-      "nc": "NC",
-      "brands": "all",
-      "schema": [],
-      "writes": {},
-      "returns": [],
-      "blocked_on": "",
-      "note": "proposal only; Sebastian rules per row"
-    },
-    {
-      "id": "price_full_2026-09-23",
-      "title": "Every price, every brand, once",
-      "kind": "price",
-      "state": "merged",
-      "created": "2026-09-23",
-      "issued": "2026-09-23",
-      "pilot": 8,
-      "nc": "NC",
-      "brands": "all",
-      "schema": [],
-      "writes": {},
-      "returns": [],
-      "blocked_on": "",
-      "note": "full return merged 27 Sep as v3.27.0; Hermès partial, six no-store; rulings 9/11/12 and band moves await Sebastian"
-    },
-    {
-      "id": "quotes_2026-09-27",
-      "title": "One real quotation per brand",
-      "kind": "read",
-      "state": "issued",
-      "created": "2026-09-27",
-      "issued": "2026-09-27",
-      "pilot": 10,
-      "nc": "NC",
-      "brands": "all",
-      "schema": [],
-      "writes": {
-        "opview": "quote"
-      },
-      "returns": [],
-      "blocked_on": "",
-      "note": "fills In their words with verbatim, sourced quotations; 7 on file today"
-    },
-    {
-      "id": "stockists_from_brands_2026-09-28",
-      "title": "Stockists read from the brands’ own locators, Northeast",
-      "kind": "locations",
-      "state": "issued",
-      "created": "2026-09-28",
-      "issued": "2026-09-28",
-      "pilot": 18,
-      "nc": "NC",
-      "brands": "all",
-      "schema": [],
-      "writes": {
-        "region.s": "links",
-        "places": "new shops"
-      },
-      "returns": [],
-      "blocked_on": "",
-      "note": "the other direction of the register match; 18 priority brands have no stockist on file"
-    },
-    {
-      "id": "resale_links_2026-09-28",
-      "title": "Grailed, Depop and Poshmark links per brand",
-      "kind": "links",
-      "state": "issued",
-      "created": "2026-09-28",
-      "issued": "2026-09-28",
-      "pilot": 8,
-      "nc": "NC",
-      "brands": "all",
-      "schema": [],
-      "writes": {
-        "resale": "grailed, depop, poshmark"
-      },
-      "returns": [],
-      "blocked_on": "",
-      "note": "joins the Vinted pill on the Secondhand line"
-    },
-    {
-      "id": "logo_count_2026-09-28",
-      "title": "Logo dial: share and size of marks, counted",
-      "kind": "count",
-      "state": "issued",
-      "created": "2026-09-28",
-      "issued": "2026-09-28",
-      "pilot": 8,
-      "nc": "NC",
-      "brands": "all",
-      "schema": [],
-      "writes": {
-        "dials.logo": "proposed, Sebastian rules"
-      },
-      "returns": [],
-      "blocked_on": "",
-      "note": "CR-5"
-    },
-    {
-      "id": "craft_audit_2026-10-03",
-      "title": "Craft dial: verifiable making, evidence and proposal",
-      "kind": "evidence",
-      "state": "merged",
-      "created": "2026-10-03",
-      "issued": "2026-10-03",
-      "pilot": 10,
-      "nc": "NC",
-      "brands": "all",
-      "schema": [],
-      "writes": {
-        "focus.craft": "proposed, Sebastian rules",
-        "notes.craft": "reason"
-      },
-      "returns": [],
-      "blocked_on": "",
-      "note": "merged 4 Oct as v3.40.0; 92 moves applied, 42 low-confidence held, 5 NC; rulings 1-8 taken"
-    },
-    {
-      "id": "craft_second_read_2026-10-04",
-      "title": "Craft: second read of the brands the audit could not settle",
-      "kind": "evidence",
-      "state": "issued",
-      "created": "2026-10-04",
-      "issued": "2026-10-04",
-      "pilot": 0,
-      "nc": "NC",
-      "brands": "subset",
-      "schema": [],
-      "writes": {
-        "focus.craft": "proposed, Sebastian rules"
-      },
-      "returns": [],
-      "blocked_on": "",
-      "note": "the 42 low-confidence holds, 5 NC and Zegna/Rubinacci"
-    },
-    {
-      "id": "link_test_2026-10-04",
-      "title": "Every outbound link opened and judged",
-      "kind": "links",
-      "state": "issued",
-      "created": "2026-10-04",
-      "issued": "2026-10-04",
-      "pilot": 200,
-      "nc": "NC",
-      "brands": "all",
-      "schema": [],
-      "writes": {
-        "various": "replacements on verdict"
-      },
-      "returns": [],
-      "blocked_on": "",
-      "note": "supersedes the unsent link_test draft"
+     "name": "note",
+     "type": "str"
     }
-  ]
+   ],
+   "writes": {},
+   "returns": [],
+   "blocked_on": "",
+   "note": "superseded: seating now happens on sightings; 29 queued names remain in menswear_bench.md"
+  },
+  {
+   "id": "rubric_screen_origin_2026-09",
+   "title": "8 origin checks",
+   "kind": "rubric_screen",
+   "state": "closed",
+   "created": "2026-09-13",
+   "issued": null,
+   "pilot": 8,
+   "nc": "NC",
+   "brands": "all",
+   "schema": [
+    {
+     "name": "brand",
+     "type": "key"
+    },
+    {
+     "name": "source",
+     "type": "provenance"
+    },
+    {
+     "name": "note",
+     "type": "str"
+    }
+   ],
+   "writes": {},
+   "returns": [
+    {
+     "n": 1,
+     "file": "rubric_screen_2026-09/",
+     "received": "2026-09-13",
+     "rows": 204,
+     "mergeable": 0,
+     "held": 0,
+     "merged": 204,
+     "triage": "jobs/triage/rubric_screen_2026-09.md"
+    }
+   ],
+   "blocked_on": "",
+   "note": "closed 13 Sep: site + tech_evidence merged for 204; depth table (73 partial) and marks index held in jobs/returns/rubric_screen_2026-09"
+  },
+  {
+   "id": "rubric_screen_tech_2026-09",
+   "title": "36-brand tech screen",
+   "kind": "rubric_screen",
+   "state": "closed",
+   "created": "2026-09-13",
+   "issued": null,
+   "pilot": 8,
+   "nc": "NC",
+   "brands": "all",
+   "schema": [
+    {
+     "name": "brand",
+     "type": "key"
+    },
+    {
+     "name": "source",
+     "type": "provenance"
+    },
+    {
+     "name": "note",
+     "type": "str"
+    }
+   ],
+   "writes": {},
+   "returns": [
+    {
+     "n": 1,
+     "file": "rubric_screen_2026-09/",
+     "received": "2026-09-13",
+     "rows": 204,
+     "mergeable": 0,
+     "held": 0,
+     "merged": 204,
+     "triage": "jobs/triage/rubric_screen_2026-09.md"
+    }
+   ],
+   "blocked_on": "",
+   "note": "closed 13 Sep: site + tech_evidence merged for 204; depth table (73 partial) and marks index held in jobs/returns/rubric_screen_2026-09"
+  },
+  {
+   "id": "catalogue_capture_2026-09",
+   "title": "Catalogue capture, 181 brands",
+   "kind": "capture",
+   "state": "issued",
+   "created": "2026-09-13",
+   "issued": "2026-09-05",
+   "pilot": 8,
+   "nc": "NC",
+   "brands": "all",
+   "schema": [
+    {
+     "name": "brand",
+     "type": "key"
+    },
+    {
+     "name": "source",
+     "type": "provenance"
+    },
+    {
+     "name": "note",
+     "type": "str"
+    }
+   ],
+   "writes": {},
+   "returns": [],
+   "blocked_on": "",
+   "note": "64 of 181 done; browser permissions were the blocker"
+  },
+  {
+   "id": "fibre_pass_2026-09-11",
+   "title": "Fibre composition pass, 194 brands",
+   "kind": "fibre",
+   "state": "closed",
+   "created": "2026-09-13",
+   "issued": "2026-09-11",
+   "pilot": 8,
+   "nc": "NC",
+   "brands": "all",
+   "schema": [
+    {
+     "name": "brand",
+     "type": "key"
+    },
+    {
+     "name": "source",
+     "type": "provenance"
+    },
+    {
+     "name": "note",
+     "type": "str"
+    }
+   ],
+   "writes": {},
+   "returns": [],
+   "blocked_on": "thread may hold spandex counts for 163 brands that never reached the build — chase",
+   "note": "closed: the 163 spandex counts were not found in any thread asked (three); spandex is measured inside fibre_pass_2026-09-14 instead"
+  },
+  {
+   "id": "style_canon_2026-09",
+   "title": "Style canon — Ivy ruled; workwear, surf next",
+   "kind": "canon",
+   "state": "merged",
+   "created": "2026-09-13",
+   "issued": null,
+   "pilot": 8,
+   "nc": "NC",
+   "brands": "all",
+   "schema": [
+    {
+     "name": "brand",
+     "type": "key"
+    },
+    {
+     "name": "source",
+     "type": "provenance"
+    },
+    {
+     "name": "note",
+     "type": "str"
+    }
+   ],
+   "writes": {},
+   "returns": [],
+   "blocked_on": "",
+   "note": "Ivy ruled and merged; workwear and surf dials now seeded directly (v3.35.0)"
+  },
+  {
+   "id": "named_looks_survey_2026-09",
+   "title": "Named looks survey",
+   "kind": "survey",
+   "state": "drafted",
+   "created": "2026-09-13",
+   "issued": null,
+   "pilot": 8,
+   "nc": "NC",
+   "brands": "all",
+   "schema": [
+    {
+     "name": "brand",
+     "type": "key"
+    },
+    {
+     "name": "source",
+     "type": "provenance"
+    },
+    {
+     "name": "note",
+     "type": "str"
+    }
+   ],
+   "writes": {},
+   "returns": [],
+   "blocked_on": "",
+   "note": "written, never issued"
+  },
+  {
+   "id": "link_test_2026-09",
+   "title": "Browser link test, 1,140 outbound links",
+   "kind": "links",
+   "state": "drafted",
+   "created": "2026-09-13",
+   "issued": null,
+   "pilot": 8,
+   "nc": "NC",
+   "brands": "all",
+   "schema": [
+    {
+     "name": "brand",
+     "type": "key"
+    },
+    {
+     "name": "source",
+     "type": "provenance"
+    },
+    {
+     "name": "note",
+     "type": "str"
+    }
+   ],
+   "writes": {},
+   "returns": [],
+   "blocked_on": "",
+   "note": "written, never run"
+  },
+  {
+   "id": "price_pass_2026-09",
+   "title": "Price pass, queues 3–5",
+   "kind": "price",
+   "state": "closed",
+   "created": "2026-09-13",
+   "issued": null,
+   "pilot": 8,
+   "nc": "NC",
+   "brands": "all",
+   "schema": [
+    {
+     "name": "brand",
+     "type": "key"
+    },
+    {
+     "name": "source",
+     "type": "provenance"
+    },
+    {
+     "name": "note",
+     "type": "str"
+    }
+   ],
+   "writes": {},
+   "returns": [],
+   "blocked_on": "non-USD price axis ruling",
+   "note": "superseded by price_full_2026-09-23"
+  },
+  {
+   "id": "midatlantic_register_2026-09-12",
+   "title": "Mid-Atlantic register — 96 doors need a phone call",
+   "kind": "locations",
+   "state": "merged",
+   "created": "2026-09-13",
+   "issued": "2026-09-12",
+   "pilot": 8,
+   "nc": "NC",
+   "brands": "all",
+   "schema": [
+    {
+     "name": "brand",
+     "type": "key"
+    },
+    {
+     "name": "source",
+     "type": "provenance"
+    },
+    {
+     "name": "note",
+     "type": "str"
+    }
+   ],
+   "writes": {},
+   "returns": [],
+   "blocked_on": "",
+   "note": "desk work merged into the register; 96 doors still need a phone call"
+  },
+  {
+   "id": "rubric_screen_golf_2026-09-14",
+   "title": "Golf dial screen — the top ten",
+   "kind": "rubric_screen",
+   "state": "drafted",
+   "created": "2026-09-13",
+   "issued": null,
+   "pilot": 4,
+   "nc": "NC",
+   "brands": [
+    "Criquet",
+    "Peter Millar",
+    "TravisMathew",
+    "Rhoback",
+    "Malbon",
+    "J.Lindeberg",
+    "Redvanly",
+    "RLX",
+    "johnnie-O"
+   ],
+   "schema": [
+    {
+     "name": "brand",
+     "type": "key"
+    },
+    {
+     "name": "golf_products",
+     "type": "int",
+     "range": [
+      0,
+      9999
+     ]
+    },
+    {
+     "name": "total_products",
+     "type": "int",
+     "range": [
+      0,
+      99999
+     ]
+    },
+    {
+     "name": "golf_pct",
+     "type": "int",
+     "range": [
+      0,
+      100
+     ]
+    },
+    {
+     "name": "house_tech",
+     "type": "enum",
+     "values": [
+      "owned",
+      "licensed",
+      "none",
+      "unclear"
+     ]
+    },
+    {
+     "name": "source",
+     "type": "provenance"
+    },
+    {
+     "name": "note",
+     "type": "str"
+    }
+   ],
+   "writes": {},
+   "returns": [],
+   "blocked_on": "",
+   "note": "scaffolded as the worked example; not sent to anyone"
+  },
+  {
+   "id": "fibre_pass_2026-09-14",
+   "title": "Fibre pass — the range, measured for 197 brands",
+   "kind": "fibre",
+   "state": "merged",
+   "created": "2026-09-13",
+   "issued": "2026-09-13",
+   "pilot": 8,
+   "nc": "NC",
+   "brands": [
+    "Levi's",
+    "Carhartt",
+    "Lacoste",
+    "Mack Weldon",
+    "Charles Tyrwhitt",
+    "Son of a Tailor",
+    "Mott & Bow",
+    "Banana Republic",
+    "Everlane",
+    "Alex Crane",
+    "Industry of All Nations",
+    "Marine Layer",
+    "Cuts Clothing",
+    "Bonobos",
+    "Vuori",
+    "Rothy's",
+    "Lululemon",
+    "Alo",
+    "Southern Tide",
+    "Rhoback",
+    "Criquet",
+    "Taylor Stitch",
+    "Outerknown",
+    "Patagonia",
+    "Finisterre",
+    "Rodd & Gunn",
+    "Rowan",
+    "Mizzen+Main",
+    "State & Liberty",
+    "Rhone",
+    "J.Lindeberg",
+    "TravisMathew",
+    "Malbon",
+    "Redvanly",
+    "RLX",
+    "johnnie-O",
+    "Percival",
+    "Wax London",
+    "Hiroshi Kato",
+    "Sugar Cane",
+    "Buck Mason",
+    "Duck Head",
+    "Wythe",
+    "AYR",
+    "Alex Mill",
+    "Robert Barakett",
+    "Easy Mondays",
+    "Indochino",
+    "Proper Cloth",
+    "Tecovas",
+    "Patrick James",
+    "Barbour",
+    "Baracuta",
+    "Filson",
+    "James Perse",
+    "Y.Chroma",
+    "Madhappy",
+    "Kith",
+    "Aimé Leon Dore",
+    "Massimo Dutti",
+    "Vineyard Vines",
+    "Polo Ralph Lauren",
+    "RRL",
+    "J.McLaughlin",
+    "Ted Baker",
+    "Scotch & Soda",
+    "NN07",
+    "Samsøe Samsøe",
+    "Les Deux",
+    "Norse Projects",
+    "Vollebak",
+    "Stone Island",
+    "A Bathing Ape",
+    "Canada Goose",
+    "Arc'teryx",
+    "Vince",
+    "Rails",
+    "Club Monaco",
+    "PAIGE",
+    "AG",
+    "Ksubi",
+    "Purple",
+    "Diesel",
+    "Citizens of Humanity",
+    "AGOLDE",
+    "Fidelity Denim",
+    "Joe's Jeans",
+    "Suitsupply",
+    "Boggi Milano",
+    "Hackett",
+    "Eton",
+    "Rakho",
+    "Eleventy",
+    "Borgo28",
+    "Incotex",
+    "Jack Victor",
+    "Brooks Brothers",
+    "J.Press",
+    "Sunspel",
+    "Saint James",
+    "Margaret Howell",
+    "Reiss",
+    "Sandro",
+    "Isabel Marant",
+    "Frame",
+    "Theory",
+    "Rag & Bone",
+    "John Varvatos",
+    "Sid Mashburn",
+    "Billy Reid",
+    "A.P.C.",
+    "Luca Faloni",
+    "120% Lino",
+    "Paul Smith",
+    "Officine Générale",
+    "Brax",
+    "Hartford",
+    "Our Legacy",
+    "Auralee",
+    "Ami Paris",
+    "Boglioli",
+    "Peserico",
+    "Ring Jacket",
+    "Drake's",
+    "John Smedley",
+    "Gran Sasso",
+    "Johnstons of Elgin",
+    "Raffi",
+    "BOSS",
+    "Corneliani",
+    "Canali",
+    "Thom Browne",
+    "Burberry",
+    "Herno",
+    "Valstar",
+    "Aspesi",
+    "Paul & Shark",
+    "Sease",
+    "Moncler",
+    "Ferragamo",
+    "Giorgio Armani",
+    "Missoni",
+    "Etro",
+    "Versace",
+    "Dolce&Gabbana",
+    "Fendi",
+    "Valentino",
+    "Saint Laurent",
+    "Celine",
+    "Givenchy",
+    "Gucci",
+    "Balenciaga",
+    "McQueen",
+    "Maison Margiela",
+    "Rick Owens",
+    "Yohji Yamamoto",
+    "Junya Watanabe",
+    "Sacai",
+    "Casablanca",
+    "Jacquemus",
+    "Prada",
+    "Loewe",
+    "JW Anderson",
+    "Dior",
+    "Amiri",
+    "Rhude",
+    "Palm Angels",
+    "Golden Goose",
+    "Fear of God",
+    "Bode",
+    "Greg Lauren",
+    "Visvim",
+    "Tom Ford",
+    "Ralph Lauren Purple Label",
+    "Zegna",
+    "Bottega Veneta",
+    "Berluti",
+    "Charvet",
+    "Husbands",
+    "Brioni",
+    "Isaia",
+    "The Row",
+    "Lemaire",
+    "Jil Sander",
+    "Acne Studios",
+    "Dries Van Noten",
+    "Wales Bonner",
+    "JiyongKim",
+    "Brunello Cucinelli",
+    "Fedeli",
+    "The Elder Statesman",
+    "Hermès",
+    "Rubinacci",
+    "Kiton",
+    "Cesare Attolini",
+    "Zilli",
+    "Stefano Ricci"
+   ],
+   "schema": [
+    {
+     "name": "brand",
+     "type": "key"
+    },
+    {
+     "name": "styles_total",
+     "type": "int",
+     "range": [
+      1,
+      99999
+     ]
+    },
+    {
+     "name": "styles_with_composition",
+     "type": "int",
+     "range": [
+      0,
+      99999
+     ]
+    },
+    {
+     "name": "natural_pct",
+     "type": "int",
+     "range": [
+      0,
+      100
+     ]
+    },
+    {
+     "name": "synthetic_pct",
+     "type": "int",
+     "range": [
+      0,
+      100
+     ]
+    },
+    {
+     "name": "cellulosic_pct",
+     "type": "int",
+     "range": [
+      0,
+      100
+     ]
+    },
+    {
+     "name": "spandex_styles",
+     "type": "int",
+     "range": [
+      0,
+      99999
+     ]
+    },
+    {
+     "name": "spandex_high_styles",
+     "type": "int",
+     "range": [
+      0,
+      99999
+     ]
+    },
+    {
+     "name": "shape",
+     "type": "enum",
+     "values": [
+      "one",
+      "split"
+     ]
+    },
+    {
+     "name": "synthetic_categories",
+     "type": "json"
+    },
+    {
+     "name": "natural_categories",
+     "type": "json"
+    },
+    {
+     "name": "style_method",
+     "type": "enum",
+     "values": [
+      "product_code",
+      "title_dedup",
+      "handle",
+      "manual"
+     ]
+    },
+    {
+     "name": "colourway_ratio",
+     "type": "str"
+    },
+    {
+     "name": "locale_dedup",
+     "type": "str"
+    },
+    {
+     "name": "feed_currency_rate",
+     "type": "str"
+    },
+    {
+     "name": "status",
+     "type": "enum",
+     "values": [
+      "complete",
+      "partial"
+     ]
+    },
+    {
+     "name": "source",
+     "type": "provenance"
+    },
+    {
+     "name": "note",
+     "type": "str"
+    }
+   ],
+   "writes": {
+    "fibre.t": "styles_total",
+    "fibre.n": "natural_pct",
+    "fibre.s": "synthetic_pct",
+    "fibre.c": "cellulosic_pct",
+    "fibre.x": "spandex_styles",
+    "fibre.xh": "spandex_high_styles",
+    "fibre.sp": "shape",
+    "fibre.sc": "synthetic_categories",
+    "fibre.nc": "natural_categories"
+   },
+   "returns": [
+    {
+     "n": 1,
+     "file": "return.csv",
+     "received": "2026-09-13",
+     "rows": 197,
+     "mergeable": 0,
+     "held": 8,
+     "merged": 0,
+     "triage": "jobs/triage/fibre_pass_2026-09-14_1.md"
+    },
+    {
+     "n": 2,
+     "file": "return__1_.csv",
+     "received": "2026-09-13",
+     "rows": 197,
+     "mergeable": 8,
+     "held": 0,
+     "merged": 0,
+     "triage": "jobs/triage/fibre_pass_2026-09-14_2.md"
+    },
+    {
+     "n": 3,
+     "file": "fibre_pass_2026-09-14_full.csv",
+     "received": "2026-09-15",
+     "rows": 197,
+     "mergeable": 193,
+     "held": 3,
+     "merged": 191,
+     "triage": "jobs/triage/fibre_pass_2026-09-14_3.md"
+    },
+    {
+     "n": 4,
+     "file": "fibre_pass_2026-09-14_scope.csv",
+     "received": "2026-09-15",
+     "rows": 197,
+     "mergeable": 189,
+     "held": 4,
+     "merged": 0,
+     "triage": "jobs/triage/fibre_pass_2026-09-14_4.md"
+    }
+   ],
+   "blocked_on": "",
+   "note": "merged 15 Sep"
+  },
+  {
+   "id": "price_pass_2026-09-18",
+   "title": "Price pass — the three unread garments, and site-search URLs",
+   "kind": "price",
+   "state": "merged",
+   "created": "2026-09-18",
+   "issued": "2026-09-18",
+   "pilot": 8,
+   "nc": "NC",
+   "brands": [
+    "Levi's",
+    "Carhartt",
+    "Lacoste",
+    "J.Crew",
+    "Banana Republic",
+    "Everlane",
+    "Industry of All Nations",
+    "Bonobos",
+    "Rothy's",
+    "Lululemon",
+    "Alo",
+    "Southern Tide",
+    "Rhoback",
+    "Taylor Stitch",
+    "Outerknown",
+    "Patagonia",
+    "Finisterre",
+    "Faherty",
+    "Rodd & Gunn",
+    "Rowan",
+    "Rhone",
+    "J.Lindeberg",
+    "Malbon",
+    "Redvanly",
+    "RLX",
+    "johnnie-O",
+    "Percival",
+    "Hiroshi Kato",
+    "Sugar Cane",
+    "Buck Mason",
+    "Duck Head",
+    "Wythe",
+    "AYR",
+    "Alex Mill",
+    "Easy Mondays",
+    "Indochino",
+    "Tecovas",
+    "Patrick James",
+    "Barbour",
+    "Baracuta",
+    "Filson",
+    "James Perse",
+    "Y.Chroma",
+    "Madhappy",
+    "Kith",
+    "Aimé Leon Dore",
+    "Massimo Dutti",
+    "Vineyard Vines",
+    "Polo Ralph Lauren",
+    "RRL",
+    "J.McLaughlin",
+    "Peter Millar",
+    "Ted Baker",
+    "Scotch & Soda",
+    "NN07",
+    "Samsøe Samsøe",
+    "Les Deux",
+    "Norse Projects",
+    "Vollebak",
+    "Stone Island",
+    "A Bathing Ape",
+    "Canada Goose",
+    "Arc'teryx",
+    "Vince",
+    "Rails",
+    "Club Monaco",
+    "PAIGE",
+    "AG",
+    "Ksubi",
+    "Purple",
+    "Diesel",
+    "Citizens of Humanity",
+    "AGOLDE",
+    "Fidelity Denim",
+    "Joe's Jeans",
+    "Suitsupply",
+    "Boggi Milano",
+    "Hackett",
+    "Rakho",
+    "Eleventy",
+    "Borgo28",
+    "Incotex",
+    "Brooks Brothers",
+    "J.Press",
+    "Sunspel",
+    "Saint James",
+    "Merz b. Schwanen",
+    "Margaret Howell",
+    "Reiss",
+    "Isabel Marant",
+    "Frame",
+    "Theory",
+    "Rag & Bone",
+    "John Varvatos",
+    "Sid Mashburn",
+    "Billy Reid",
+    "A.P.C.",
+    "Paul Smith",
+    "Officine Générale",
+    "Brax",
+    "Our Legacy",
+    "Auralee",
+    "Ami Paris",
+    "Todd Snyder",
+    "Boglioli",
+    "Peserico",
+    "Ring Jacket",
+    "Drake's",
+    "Gran Sasso",
+    "BOSS",
+    "Corneliani",
+    "Canali",
+    "Thom Browne",
+    "Burberry",
+    "Herno",
+    "Valstar",
+    "Aspesi",
+    "Paul & Shark",
+    "Sease",
+    "Moncler",
+    "Ferragamo",
+    "Giorgio Armani",
+    "Missoni",
+    "Etro",
+    "Versace",
+    "Dolce&Gabbana",
+    "Fendi",
+    "Valentino",
+    "Saint Laurent",
+    "Celine",
+    "Givenchy",
+    "Gucci",
+    "Balenciaga",
+    "McQueen",
+    "Maison Margiela",
+    "Rick Owens",
+    "Yohji Yamamoto",
+    "Comme des Garçons",
+    "Junya Watanabe",
+    "Sacai",
+    "Casablanca",
+    "Jacquemus",
+    "Prada",
+    "Loewe",
+    "JW Anderson",
+    "Dior",
+    "Amiri",
+    "Rhude",
+    "Palm Angels",
+    "Golden Goose",
+    "Fear of God",
+    "Bode",
+    "Greg Lauren",
+    "Visvim",
+    "Tom Ford",
+    "Zegna",
+    "Bottega Veneta",
+    "Charvet",
+    "Husbands",
+    "Brioni",
+    "Isaia",
+    "The Row",
+    "Lemaire",
+    "Jil Sander",
+    "Acne Studios",
+    "Dries Van Noten",
+    "Wales Bonner",
+    "JiyongKim",
+    "Brunello Cucinelli",
+    "Fedeli",
+    "The Elder Statesman",
+    "Hermès",
+    "Loro Piana",
+    "Rubinacci",
+    "Kiton",
+    "Cesare Attolini",
+    "Zilli",
+    "Stefano Ricci"
+   ],
+   "schema": [
+    {
+     "name": "brand",
+     "type": "key"
+    },
+    {
+     "name": "tee_low",
+     "type": "int",
+     "range": [
+      1,
+      99999
+     ]
+    },
+    {
+     "name": "tee_high",
+     "type": "int",
+     "range": [
+      1,
+      99999
+     ]
+    },
+    {
+     "name": "polo_low",
+     "type": "int",
+     "range": [
+      1,
+      99999
+     ]
+    },
+    {
+     "name": "polo_high",
+     "type": "int",
+     "range": [
+      1,
+      99999
+     ]
+    },
+    {
+     "name": "dress_shirt_low",
+     "type": "int",
+     "range": [
+      1,
+      99999
+     ]
+    },
+    {
+     "name": "dress_shirt_high",
+     "type": "int",
+     "range": [
+      1,
+      99999
+     ]
+    },
+    {
+     "name": "jeans_low",
+     "type": "int",
+     "range": [
+      1,
+      99999
+     ]
+    },
+    {
+     "name": "jeans_high",
+     "type": "int",
+     "range": [
+      1,
+      99999
+     ]
+    },
+    {
+     "name": "dress_pants_low",
+     "type": "int",
+     "range": [
+      1,
+      99999
+     ]
+    },
+    {
+     "name": "dress_pants_high",
+     "type": "int",
+     "range": [
+      1,
+      99999
+     ]
+    },
+    {
+     "name": "sweater_low",
+     "type": "int",
+     "range": [
+      1,
+      99999
+     ]
+    },
+    {
+     "name": "sweater_high",
+     "type": "int",
+     "range": [
+      1,
+      99999
+     ]
+    },
+    {
+     "name": "outerwear_low",
+     "type": "int",
+     "range": [
+      1,
+      99999
+     ]
+    },
+    {
+     "name": "outerwear_high",
+     "type": "int",
+     "range": [
+      1,
+      99999
+     ]
+    },
+    {
+     "name": "shoes_low",
+     "type": "int",
+     "range": [
+      1,
+      99999
+     ]
+    },
+    {
+     "name": "shoes_high",
+     "type": "int",
+     "range": [
+      1,
+      99999
+     ]
+    },
+    {
+     "name": "not_a_staple",
+     "type": "str"
+    },
+    {
+     "name": "search_url",
+     "type": "url"
+    },
+    {
+     "name": "store_used",
+     "type": "url"
+    },
+    {
+     "name": "currency_basis",
+     "type": "enum",
+     "values": [
+      "USD",
+      "USD_landed",
+      "EUR",
+      "GBP",
+      "JPY",
+      "CAD",
+      "other"
+     ]
+    },
+    {
+     "name": "status",
+     "type": "enum",
+     "values": [
+      "complete",
+      "partial"
+     ]
+    },
+    {
+     "name": "source",
+     "type": "provenance"
+    },
+    {
+     "name": "note",
+     "type": "str"
+    }
+   ],
+   "writes": {
+    "prices.0": "tee_low",
+    "prices.1": "polo_low",
+    "prices.2": "dress_shirt_low",
+    "prices.3": "jeans_low",
+    "prices.4": "dress_pants_low",
+    "prices.5": "sweater_low",
+    "prices.6": "outerwear_low",
+    "prices.7": "shoes_low",
+    "shop": "search_url"
+   },
+   "returns": [
+    {
+     "n": 1,
+     "file": "price_pass_2026-09-18_pilot.csv",
+     "received": "2026-09-18",
+     "rows": 8,
+     "mergeable": 7,
+     "held": 1,
+     "merged": 7,
+     "triage": "jobs/MERGELOG.md"
+    }
+   ],
+   "blocked_on": "",
+   "note": "merged 19 Sep (v3.13.1); superseded by price_full_2026-09-23"
+  },
+  {
+   "id": "stockist_great_put_on_2026-09-18",
+   "title": "The Great Put On — shop record and brand sift",
+   "kind": "stockist",
+   "state": "merged",
+   "created": "2026-09-18",
+   "issued": "2026-09-18",
+   "pilot": 1,
+   "nc": "NC",
+   "brands": [
+    "Golden Goose"
+   ],
+   "schema": [
+    {
+     "name": "brand",
+     "type": "key"
+    },
+    {
+     "name": "source",
+     "type": "provenance"
+    },
+    {
+     "name": "note",
+     "type": "str"
+    }
+   ],
+   "writes": {},
+   "returns": [],
+   "blocked_on": "",
+   "note": "merged 18 Sep (Golden Goose seated; Autumn Cashmere benched)"
+  },
+  {
+   "id": "garment_links_2026-09-19",
+   "title": "Men's garment links, per brand per garment",
+   "kind": "links",
+   "state": "merged",
+   "created": "2026-09-19",
+   "issued": "2026-09-19",
+   "pilot": 8,
+   "nc": "NC",
+   "brands": "all",
+   "schema": [],
+   "writes": {},
+   "returns": [],
+   "blocked_on": "",
+   "note": "merged 22 Sep (v3.15.0)"
+  },
+  {
+   "id": "tech_rescore_2026-09-20",
+   "title": "Tech dial re-score proposal, 204 brands",
+   "kind": "rescore",
+   "state": "issued",
+   "created": "2026-09-20",
+   "issued": "2026-09-20",
+   "pilot": 10,
+   "nc": "NC",
+   "brands": "all",
+   "schema": [],
+   "writes": {},
+   "returns": [],
+   "blocked_on": "",
+   "note": "proposal only; Sebastian rules per row"
+  },
+  {
+   "id": "price_full_2026-09-23",
+   "title": "Every price, every brand, once",
+   "kind": "price",
+   "state": "merged",
+   "created": "2026-09-23",
+   "issued": "2026-09-23",
+   "pilot": 8,
+   "nc": "NC",
+   "brands": "all",
+   "schema": [],
+   "writes": {},
+   "returns": [],
+   "blocked_on": "",
+   "note": "full return merged 27 Sep as v3.27.0; Hermès partial, six no-store; rulings 9/11/12 and band moves await Sebastian"
+  },
+  {
+   "id": "quotes_2026-09-27",
+   "title": "One real quotation per brand",
+   "kind": "read",
+   "state": "issued",
+   "created": "2026-09-27",
+   "issued": "2026-09-27",
+   "pilot": 10,
+   "nc": "NC",
+   "brands": "all",
+   "schema": [],
+   "writes": {
+    "opview": "quote"
+   },
+   "returns": [],
+   "blocked_on": "",
+   "note": "fills In their words with verbatim, sourced quotations; 7 on file today"
+  },
+  {
+   "id": "stockists_from_brands_2026-09-28",
+   "title": "Stockists read from the brands’ own locators, Northeast",
+   "kind": "locations",
+   "state": "issued",
+   "created": "2026-09-28",
+   "issued": "2026-09-28",
+   "pilot": 18,
+   "nc": "NC",
+   "brands": "all",
+   "schema": [],
+   "writes": {
+    "region.s": "links",
+    "places": "new shops"
+   },
+   "returns": [],
+   "blocked_on": "",
+   "note": "the other direction of the register match; 18 priority brands have no stockist on file"
+  },
+  {
+   "id": "resale_links_2026-09-28",
+   "title": "Grailed, Depop and Poshmark links per brand",
+   "kind": "links",
+   "state": "issued",
+   "created": "2026-09-28",
+   "issued": "2026-09-28",
+   "pilot": 8,
+   "nc": "NC",
+   "brands": "all",
+   "schema": [],
+   "writes": {
+    "resale": "grailed, depop, poshmark"
+   },
+   "returns": [],
+   "blocked_on": "",
+   "note": "joins the Vinted pill on the Secondhand line"
+  },
+  {
+   "id": "logo_count_2026-09-28",
+   "title": "Logo dial: share and size of marks, counted",
+   "kind": "count",
+   "state": "issued",
+   "created": "2026-09-28",
+   "issued": "2026-09-28",
+   "pilot": 8,
+   "nc": "NC",
+   "brands": "all",
+   "schema": [],
+   "writes": {
+    "dials.logo": "proposed, Sebastian rules"
+   },
+   "returns": [],
+   "blocked_on": "",
+   "note": "CR-5"
+  },
+  {
+   "id": "craft_audit_2026-10-03",
+   "title": "Craft dial: verifiable making, evidence and proposal",
+   "kind": "evidence",
+   "state": "merged",
+   "created": "2026-10-03",
+   "issued": "2026-10-03",
+   "pilot": 10,
+   "nc": "NC",
+   "brands": "all",
+   "schema": [],
+   "writes": {
+    "focus.craft": "proposed, Sebastian rules",
+    "notes.craft": "reason"
+   },
+   "returns": [],
+   "blocked_on": "",
+   "note": "merged 4 Oct as v3.40.0; 92 moves applied, 42 low-confidence held, 5 NC; rulings 1-8 taken"
+  },
+  {
+   "id": "craft_second_read_2026-10-04",
+   "title": "Craft: second read of the brands the audit could not settle",
+   "kind": "evidence",
+   "state": "issued",
+   "created": "2026-10-04",
+   "issued": "2026-10-04",
+   "pilot": 0,
+   "nc": "NC",
+   "brands": "subset",
+   "schema": [],
+   "writes": {
+    "focus.craft": "proposed, Sebastian rules"
+   },
+   "returns": [],
+   "blocked_on": "",
+   "note": "the 42 low-confidence holds, 5 NC and Zegna/Rubinacci"
+  },
+  {
+   "id": "link_test_2026-10-04",
+   "title": "Every outbound link opened and judged",
+   "kind": "links",
+   "state": "issued",
+   "created": "2026-10-04",
+   "issued": "2026-10-04",
+   "pilot": 200,
+   "nc": "NC",
+   "brands": "all",
+   "schema": [],
+   "writes": {
+    "various": "replacements on verdict"
+   },
+   "returns": [],
+   "blocked_on": "",
+   "note": "supersedes the unsent link_test draft"
+  },
+  {
+   "id": "seat_resort_2026-10-07",
+   "title": "Seating evidence — Frescobol Carioca, Orlebar Brown",
+   "kind": "seating",
+   "state": "issued",
+   "created": "2026-10-07",
+   "issued": "2026-10-07",
+   "pilot": 0,
+   "nc": "NC",
+   "brands": [
+    "Frescobol Carioca",
+    "Orlebar Brown"
+   ],
+   "schema": [
+    {
+     "name": "brand",
+     "type": "key"
+    },
+    {
+     "name": "source",
+     "type": "provenance"
+    },
+    {
+     "name": "note",
+     "type": "str"
+    }
+   ],
+   "writes": {},
+   "returns": [],
+   "blocked_on": "",
+   "note": "full record for two resort houses; swim share decides whether either seats"
+  }
+ ]
 }
