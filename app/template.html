@@ -231,6 +231,8 @@
      bar rather than a transparent label: without a background the content keeps
      scrolling underneath it and both render at once. No mask either — a mask
      applies to the pseudo-element too, so the hint faded along with the text. */
+  /* Once the reader has scrolled to the end there is no more; the hint goes. */
+  #hoverCard.is-clipped.at-end::after{display:none}
   #hoverCard.is-clipped::after{
     content:"scroll for more";
     position:sticky; bottom:-15px; left:0; right:0;
@@ -1908,6 +1910,7 @@ function placeHoverCard(el){
   hoverCard.style.top = y + "px";
   const clipped = natural > Math.floor(cap) + 2;
   hoverCard.classList.toggle("is-clipped", clipped);
+  hoverCard.classList.remove("at-end");
   hoverCard.style.visibility = "";
   // Report whether the card had to be cut short. Callers use it to decide whether
   // to show the "scroll for more" affordance; do NOT use it to scroll the page —
@@ -1915,6 +1918,12 @@ function placeHoverCard(el){
   return clipped;
 }
 function asSheet(){ return matchMedia('(max-width:700px), (max-height:560px)').matches; }
+// The "scroll for more" bar says there is more below. When the card is scrolled to
+// its end there is not, so the bar goes; it comes back if the reader scrolls up.
+hoverCard.addEventListener("scroll", ()=>{
+  const atEnd = hoverCard.scrollTop + hoverCard.clientHeight >= hoverCard.scrollHeight - 2;
+  hoverCard.classList.toggle("at-end", atEnd);
+}, {passive:true});
 function showHoverCard(el){
   hoverCard.innerHTML = hoverCardHTML(el);
   // A tap on iOS fires a synthetic mouseover, so the hover path runs on touch.
