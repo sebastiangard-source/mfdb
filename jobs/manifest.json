@@ -1428,6 +1428,39 @@
    "returns": [],
    "blocked_on": "",
    "note": "co-branded only; partners.csv is the seating queue (footwear first)"
+  },
+  {
+   "id": "seat_boyds_2026-10-07",
+   "title": "Sift and seat — Boyds' 57 unmapped brands, Noah, Engineered Garments",
+   "kind": "seating",
+   "state": "issued",
+   "created": "2026-10-07",
+   "issued": "2026-10-07",
+   "pilot": 59,
+   "nc": "NC",
+   "brands": "worklist",
+   "schema": [
+    {
+     "name": "brand",
+     "type": "key"
+    },
+    {
+     "name": "sift_verdict",
+     "type": "str"
+    },
+    {
+     "name": "source",
+     "type": "provenance"
+    },
+    {
+     "name": "note",
+     "type": "str"
+    }
+   ],
+   "writes": {},
+   "returns": [],
+   "blocked_on": "",
+   "note": "stage 1 sift for all 59 returned first; stage 2 full seat_resort record for every seat verdict; Noah and EG first"
   }
  ]
 }
