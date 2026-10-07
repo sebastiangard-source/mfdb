@@ -1731,3 +1731,4 @@ Return: 2 brands, 4 files, 0 unmatched. Seated Frescobol Carioca (205) and Orleb
 
 ## 2026-10-07 — stockist_profile_boyds_2026-10-07
 Boyds profiled from its own site (two doors). Register row 116 (Wayne, no address) completed with address and a story; Philadelphia flagship added as place 3208 and now carries the brand list (18 mapped of 84 listed; was 24 of 120 at Phase 1). Six brands no longer on the men's designers page unlinked: Canada Goose, Fedeli, Incotex, Paul Smith, Stefano Ricci, Thom Browne. Wayne carries no brands until a list or a visit says which. Not merged: merchant descriptor (not published), 66 unmapped brands (register of names kept in the return).
+- trade_brands.csv: every stockist or shop-profile return appends to registers/trade_brands.csv (new names, shop counts, last_seen) before anything else merges.
