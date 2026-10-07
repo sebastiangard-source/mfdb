@@ -1,169 +1,203 @@
 {
-  "name": "Brax",
-  "band": "accessible",
-  "seat": 119,
-  "dagger": 0,
-  "focus": {
-    "tech": 4,
-    "comfort": 5,
-    "craft": 3,
-    "style": 2
+ "name": "Brax",
+ "band": "accessible",
+ "seat": 119,
+ "dagger": 0,
+ "focus": {
+  "tech": 4,
+  "comfort": 5,
+  "craft": 3,
+  "style": 2
+ },
+ "fabric": {
+  "denim": 4,
+  "cashmere": 1,
+  "linen": 3,
+  "cotton": 4,
+  "wool": 2,
+  "synth": 4
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 4,
+  "fuss": 2,
+  "golf": 2,
+  "finbro": 2,
+  "logo": 1,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Chinos and five-pocket trousers in stretch fabrics, built around a system of fits; the US store sells trousers only.",
+ "origin": "Founded in Herford, Germany, in 1888 as Leineweber.",
+ "chan": [
+  "W",
+  "I"
+ ],
+ "conf": "L",
+ "forgc": [
+  4,
+  4,
+  2
+ ],
+ "onething": {
+  "p": "Style CADIZ five-pocket",
+  "u": "https://www.brax.com/en/us/p/071833_7164120_05/style-cadiz",
+  "n": "verified — direct product page, $198. Cadiz is the house's straight-fit five-pocket and the clearest statement of what it does"
+ },
+ "prices": [
+  null,
+  null,
+  null,
+  [
+   198,
+   258
+  ],
+  [
+   198,
+   248
+  ],
+  null,
+  null,
+  null
+ ],
+ "notes": {
+  "forg": "named fit systems — modern, regular, relaxed, slim, straight — carried consistently across the range",
+  "synth": "engineered stretch cloths are the house competence: HI-FLEX, FUSION FLEX, ULTRALIGHT",
+  "reach": "large in Europe, barely known in the US, which is where this map is looking [authored findability score was 2; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "comfort": "Stretch fabrics and a system of fits built around how trousers feel.",
+  "craft": "Brax product pages, as fetched, show no country of make, factory or mill; origin data appears to sit in a collapsed 'Care & Material' tab. The sustainability FAQ asks where Leineweber produces but the answers were collapsed, and the corporate sustainability page was not reached. There is no evidence to score from. [not researched: site unreadable]"
+ },
+ "doors": {
+  "c": "full",
+  "n": 0,
+  "cities": [],
+  "basis": "positive zero 2026-09-23"
+ },
+ "cities": "No store of its own in the US · its US site sells trousers only; the rest of the range is sold in Europe",
+ "region": {
+  "o": [],
+  "s": [
+   117,
+   138,
+   144,
+   3208
+  ]
+ },
+ "site": {
+  "domain": "brax.com",
+  "platform": "custom",
+  "feed": "none_found",
+  "feed_count": 0,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "both",
+  "marks": [
+   "Hi-FLEX (house)",
+   "ULTRALIGHT (house)",
+   "THERMO / Thermo-Hose (house)",
+   "'Blue Planet' (house sustainability label)",
+   "THERMORE(R)",
+   "Coolmax(R)",
+   "LYCRA(R)",
+   "37.5(R)",
+   "TENCEL(TM)",
+   "LENZING(TM) ECOVERO(TM)",
+   "Cotton made in Africa",
+   "SEAQUAL(R)"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 162,
+  "w": 162,
+  "n": 88,
+  "s": 10,
+  "c": 2,
+  "x": 96,
+  "xh": 8,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "men/clothing/pants",
+   "men/clothing/jeans",
+   "men/eurex/pants"
+  ],
+  "st": "complete"
+ },
+ "shop": "https://www.brax.com/en/us/search?q=",
+ "garment_links": {
+  "Jeans": "https://www.brax.com/en/us/c/411384031/men/clothing/jeans",
+  "Dress pants": "https://www.brax.com/en/us/c/411384029/men/clothing/pants"
+ },
+ "price_evidence": {
+  "Jeans": {
+   "lp": "Style CHUCK Denim: Five-pocket jeans in modern fit",
+   "lu": "https://www.brax.com/en/us/p/077303_7951920_25/style-chuck",
+   "hp": "Style CHUCK Hi-Flex Light: Five-pocket in modern fit (denim, light blue)",
+   "hu": "https://www.brax.com/en/us/p/077222_7951920_27/style-chuck",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 4,
-    "cashmere": 1,
-    "linen": 3,
-    "cotton": 4,
-    "wool": 2,
-    "synth": 4
-  },
-  "dials": {
-    "dur": 3,
-    "forg": 4,
-    "fuss": 2,
-    "golf": 2,
-    "finbro": 2,
-    "logo": 1,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
-  },
-  "why": "Chinos and five-pocket trousers in stretch fabrics, built around a system of fits; the US store sells trousers only.",
-  "origin": "Founded in Herford, Germany, in 1888 as Leineweber.",
-  "chan": ["W", "I"],
-  "conf": "L",
-  "forgc": [4, 4, 2],
-  "onething": {
-    "p": "Style CADIZ five-pocket",
-    "u": "https://www.brax.com/en/us/p/071833_7164120_05/style-cadiz",
-    "n": "verified — direct product page, $198. Cadiz is the house's straight-fit five-pocket and the clearest statement of what it does"
-  },
-  "prices": [null, null, null, [198, 258], [198, 248], null, null, null],
-  "notes": {
-    "forg": "named fit systems — modern, regular, relaxed, slim, straight — carried consistently across the range",
-    "synth": "engineered stretch cloths are the house competence: HI-FLEX, FUSION FLEX, ULTRALIGHT",
-    "reach": "large in Europe, barely known in the US, which is where this map is looking [authored findability score was 2; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "comfort": "Stretch fabrics and a system of fits built around how trousers feel.",
-    "craft": "Brax product pages, as fetched, show no country of make, factory or mill; origin data appears to sit in a collapsed 'Care & Material' tab. The sustainability FAQ asks where Leineweber produces but the answers were collapsed, and the corporate sustainability page was not reached. There is no evidence to score from. [not researched: site unreadable]"
-  },
-  "doors": {
-    "c": "full",
-    "n": 0,
-    "cities": [],
-    "basis": "positive zero 2026-09-23"
-  },
-  "cities": "No store of its own in the US · its US site sells trousers only; the rest of the range is sold in Europe",
-  "region": {
-    "o": [],
-    "s": [116, 117, 138, 144]
-  },
-  "site": {
-    "domain": "brax.com",
-    "platform": "custom",
-    "feed": "none_found",
-    "feed_count": 0,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "both",
-    "marks": [
-      "Hi-FLEX (house)",
-      "ULTRALIGHT (house)",
-      "THERMO / Thermo-Hose (house)",
-      "'Blue Planet' (house sustainability label)",
-      "THERMORE(R)",
-      "Coolmax(R)",
-      "LYCRA(R)",
-      "37.5(R)",
-      "TENCEL(TM)",
-      "LENZING(TM) ECOVERO(TM)",
-      "Cotton made in Africa",
-      "SEAQUAL(R)"
-    ],
-    "source": "census",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 162,
-    "w": 162,
-    "n": 88,
-    "s": 10,
-    "c": 2,
-    "x": 96,
-    "xh": 8,
-    "sp": "one",
-    "sc": [],
-    "nc": ["men/clothing/pants", "men/clothing/jeans", "men/eurex/pants"],
-    "st": "complete"
-  },
-  "shop": "https://www.brax.com/en/us/search?q=",
-  "garment_links": {
-    "Jeans": "https://www.brax.com/en/us/c/411384031/men/clothing/jeans",
-    "Dress pants": "https://www.brax.com/en/us/c/411384029/men/clothing/pants"
-  },
-  "price_evidence": {
-    "Jeans": {
-      "lp": "Style CHUCK Denim: Five-pocket jeans in modern fit",
-      "lu": "https://www.brax.com/en/us/p/077303_7951920_25/style-chuck",
-      "hp": "Style CHUCK Hi-Flex Light: Five-pocket in modern fit (denim, light blue)",
-      "hu": "https://www.brax.com/en/us/p/077222_7951920_27/style-chuck",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Style JIM (Eurex by BRAX): Flat-front pants in regular fit",
-      "lu": "https://www.brax.com/en/us/p/051073_5934520_06/style-jim",
-      "hp": "Style THILO Bestformer (Eurex by BRAX): Flat-front pants in regular fit",
-      "hu": "https://www.brax.com/en/us/p/051652_5938320_36/style-thilo",
-      "b": "range"
-    }
-  },
-  "price_range_only": ["Jeans", "Dress pants"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.brax.com/en/us/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "EUREX by BRAX"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=122762",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "season": {
-    "l": "Autumn/Winter'26",
-    "t": "campaign",
-    "u": "https://www.brax.com/en/us/c/-s-977/men/inspirations/campaign-autumnwinter-26",
-    "m": "yes"
-  },
-  "craft_evidence": {
-    "owned": "NC",
-    "owned_d": "Not established: brax.com sustainability FAQ shows only question headers ('In which countries does Leineweber produce its clothes...'), answers collapsed; corporate sustainability page (corporate.brax.com -> company.brax.com/en/sustainability) not loaded within fetch cap.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "NC",
-    "countries": "NC - no country seen on 5 PDPs (trouser/polo, jeans, polo, shoe, gilet); origin likely in collapsed 'Care & Material' tab not visible to fetch.",
-    "heritage": "dated and placed",
-    "repair": "NC",
-    "process": "no",
-    "urls": [
-      "https://www.brax.com/en/gb/help-faq/sustainability",
-      "https://www.brax.com/en/gb/p/056123_5930220_22/style-luke"
-    ],
-    "conf": "medium",
-    "read": "2026-10-03"
+  "Dress pants": {
+   "lp": "Style JIM (Eurex by BRAX): Flat-front pants in regular fit",
+   "lu": "https://www.brax.com/en/us/p/051073_5934520_06/style-jim",
+   "hp": "Style THILO Bestformer (Eurex by BRAX): Flat-front pants in regular fit",
+   "hu": "https://www.brax.com/en/us/p/051652_5938320_36/style-thilo",
+   "b": "range"
   }
+ },
+ "price_range_only": [
+  "Jeans",
+  "Dress pants"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.brax.com/en/us/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "EUREX by BRAX"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=122762",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "season": {
+  "l": "Autumn/Winter'26",
+  "t": "campaign",
+  "u": "https://www.brax.com/en/us/c/-s-977/men/inspirations/campaign-autumnwinter-26",
+  "m": "yes"
+ },
+ "craft_evidence": {
+  "owned": "NC",
+  "owned_d": "Not established: brax.com sustainability FAQ shows only question headers ('In which countries does Leineweber produce its clothes...'), answers collapsed; corporate sustainability page (corporate.brax.com -> company.brax.com/en/sustainability) not loaded within fetch cap.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "NC",
+  "countries": "NC - no country seen on 5 PDPs (trouser/polo, jeans, polo, shoe, gilet); origin likely in collapsed 'Care & Material' tab not visible to fetch.",
+  "heritage": "dated and placed",
+  "repair": "NC",
+  "process": "no",
+  "urls": [
+   "https://www.brax.com/en/gb/help-faq/sustainability",
+   "https://www.brax.com/en/gb/p/056123_5930220_22/style-luke"
+  ],
+  "conf": "medium",
+  "read": "2026-10-03"
+ }
 }

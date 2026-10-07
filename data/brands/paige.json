@@ -1,210 +1,354 @@
 {
-  "name": "PAIGE",
-  "band": "accessible",
-  "seat": 81,
-  "dagger": 0,
-  "focus": {
-    "tech": 2,
-    "comfort": 4,
-    "craft": 2,
-    "style": 3
+ "name": "PAIGE",
+ "band": "accessible",
+ "seat": 81,
+ "dagger": 0,
+ "focus": {
+  "tech": 2,
+  "comfort": 4,
+  "craft": 2,
+  "style": 3
+ },
+ "fabric": {
+  "denim": 5,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 1,
+  "wool": 1,
+  "synth": 2
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 2,
+  "fuss": -2,
+  "murica": 2,
+  "whitet": 2,
+  "logo": 1,
+  "western": 1,
+  "rock": 2,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Los Angeles denim, cut and washed locally, with a range of fits that is the brand's main argument.",
+ "origin": "Founded in Los Angeles in 2004 by Paige Adams-Geller, who had worked as a fit model for other denim brands.",
+ "chan": [
+  "D",
+  "O",
+  "I"
+ ],
+ "conf": "L",
+ "forgc": [
+  2,
+  3,
+  1
+ ],
+ "onething": {
+  "p": "Federal jean",
+  "u": "https://paige.com/collection/men-slim-straight-fit",
+  "n": "men’s slim-straight collection, verified"
+ },
+ "prices": [
+  [
+   89,
+   199
+  ],
+  [
+   169,
+   229
+  ],
+  [
+   149,
+   239
+  ],
+  [
+   199,
+   239
+  ],
+  [
+   209,
+   249
+  ],
+  [
+   229,
+   269
+  ],
+  [
+   289,
+   929
+  ],
+  [
+   228,
+   398
+  ]
+ ],
+ "notes": {
+  "denim": "premium LA denim, washed and finished locally",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 4; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "PAIGE says it partners with wash houses and factories 'all around the world' but names none and owns none. Four men's PDPs showed no country of make in visible content; the sustainability page describes wash water treatment and eco stones only in general terms. [audit proposed 1 at low confidence; held at 2 pending a second read]"
+ },
+ "doors": {
+  "c": "full",
+  "n": 20,
+  "cities": [
+   [
+    "Austin",
+    "TX",
+    2
+   ],
+   [
+    "Charleston",
+    "SC",
+    1
+   ],
+   [
+    "Houston",
+    "TX",
+    1
+   ],
+   [
+    "Los Angeles",
+    "CA",
+    1
+   ],
+   [
+    "Malibu",
+    "CA",
+    1
+   ],
+   [
+    "Manhattan Beach",
+    "CA",
+    1
+   ],
+   [
+    "Nashville",
+    "TN",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    4
+   ],
+   [
+    "Newport Beach",
+    "CA",
+    1
+   ],
+   [
+    "Pacific Palisades",
+    "CA",
+    1
+   ],
+   [
+    "Plano",
+    "TX",
+    1
+   ],
+   [
+    "San Diego",
+    "CA",
+    1
+   ],
+   [
+    "San Francisco",
+    "CA",
+    1
+   ],
+   [
+    "San Jose",
+    "CA",
+    1
+   ],
+   [
+    "Scottsdale",
+    "AZ",
+    1
+   ],
+   [
+    "Tampa",
+    "FL",
+    1
+   ]
+  ],
+  "basis": "master 2026-08-29, pre-recapture"
+ },
+ "cities": "20 stores, including New York, Austin, Charleston · department stores and independent menswear shops, and its own site",
+ "region": {
+  "o": [
+   2128,
+   2129,
+   2130,
+   2131
+  ],
+  "s": [
+   27,
+   33,
+   52,
+   53,
+   90,
+   92,
+   95,
+   96,
+   117,
+   136,
+   3208
+  ]
+ },
+ "addmen": true,
+ "site": {
+  "domain": "paige.com",
+  "platform": "shopify",
+  "feed": "sitemap_products",
+  "feed_count": 1001,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "both",
+  "marks": [
+   "TRANSCEND (house)",
+   "Transcend Vintage (house)",
+   "Supima",
+   "TENCEL",
+   "Lycra"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 152,
+  "w": 152,
+  "n": 65,
+  "s": 1,
+  "c": 34,
+  "x": 55,
+  "xh": 2,
+  "sp": "split",
+  "sc": [],
+  "nc": [
+   "non denim bottoms",
+   "knit tops",
+   "woven tops"
+  ],
+  "st": "complete"
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants",
+  "Sweater",
+  "Outerwear",
+  "Shoes"
+ ],
+ "garment_links": {
+  "T-shirt": "https://paige.com/collection/men-tees",
+  "Polo": "https://paige.com/collection/men-shirts",
+  "Dress shirt": "https://paige.com/collection/men-shirts",
+  "Jeans": "https://paige.com/collection/men-denim",
+  "Dress pants": "https://paige.com/collection/men-pants",
+  "Sweater": "https://paige.com/collection/men-sweaters-and-sweatshirts",
+  "Outerwear": "https://paige.com/collection/men-jackets"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Sorden Crew Neck Tee - White",
+   "lu": "https://www.paige.com/products/men-sorden-crew-neck-tee-white",
+   "hp": "Brimmer Sweater Tee - Silt",
+   "hu": "https://www.paige.com/products/men-brimmer-sweater-tee-silt",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 5,
-    "cashmere": 1,
-    "linen": 1,
-    "cotton": 1,
-    "wool": 1,
-    "synth": 2
+  "Polo": {
+   "lp": "Demille Polo - Deep Anchor",
+   "lu": "https://www.paige.com/products/men-demille-polo-deep-anchor",
+   "hp": "Kiko Sweater Polo - Nimbus",
+   "hu": "https://www.paige.com/products/men-kiko-sweater-polo-nimbus",
+   "b": "range"
   },
-  "dials": {
-    "dur": 3,
-    "forg": 2,
-    "fuss": -2,
-    "murica": 2,
-    "whitet": 2,
-    "logo": 1,
-    "western": 1,
-    "rock": 2,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
+  "Dress shirt": {
+   "lp": "Cosgrove Button Up - White",
+   "lu": "https://www.paige.com/products/men-cosgrove-button-up-white",
+   "hp": "Calder Denim Shirt - Argo",
+   "hu": "https://www.paige.com/products/men-calder-denim-shirt-argo",
+   "b": "range"
   },
-  "why": "Los Angeles denim, cut and washed locally, with a range of fits that is the brand's main argument.",
-  "origin": "Founded in Los Angeles in 2004 by Paige Adams-Geller, who had worked as a fit model for other denim brands.",
-  "chan": ["D", "O", "I"],
-  "conf": "L",
-  "forgc": [2, 3, 1],
-  "onething": {
-    "p": "Federal jean",
-    "u": "https://paige.com/collection/men-slim-straight-fit",
-    "n": "men’s slim-straight collection, verified"
+  "Jeans": {
+   "lp": "Federal 32 Inch Slim Straight Jean - Black Shadow",
+   "lu": "https://www.paige.com/products/men-federal-black-shadow-2",
+   "hp": "Doheny 32 Inch Relaxed Straight Jean - Berto Destructed",
+   "hu": "https://www.paige.com/products/men-doheny-berto-destructed",
+   "b": "range"
   },
-  "prices": [[89, 199], [169, 229], [149, 239], [199, 239], [209, 249], [229, 269], [289, 929], [228, 398]],
-  "notes": {
-    "denim": "premium LA denim, washed and finished locally",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 4; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "PAIGE says it partners with wash houses and factories 'all around the world' but names none and owns none. Four men's PDPs showed no country of make in visible content; the sustainability page describes wash water treatment and eco stones only in general terms. [audit proposed 1 at low confidence; held at 2 pending a second read]"
+  "Dress pants": {
+   "lp": "Stafford Trouser - Black",
+   "lu": "https://www.paige.com/products/men-stafford-trouser-black",
+   "hp": "Eberton Pant - Fossil Herringbone",
+   "hu": "https://www.paige.com/products/men-eberton-pant-fossil-herringbone",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 20,
-    "cities": [
-      ["Austin", "TX", 2],
-      ["Charleston", "SC", 1],
-      ["Houston", "TX", 1],
-      ["Los Angeles", "CA", 1],
-      ["Malibu", "CA", 1],
-      ["Manhattan Beach", "CA", 1],
-      ["Nashville", "TN", 1],
-      ["New York", "NY", 4],
-      ["Newport Beach", "CA", 1],
-      ["Pacific Palisades", "CA", 1],
-      ["Plano", "TX", 1],
-      ["San Diego", "CA", 1],
-      ["San Francisco", "CA", 1],
-      ["San Jose", "CA", 1],
-      ["Scottsdale", "AZ", 1],
-      ["Tampa", "FL", 1]
-    ],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Sweater": {
+   "lp": "Wildomar Sweater - Light Carbon",
+   "lu": "https://www.paige.com/products/men-wildomar-sweater-light-carbon",
+   "hp": "Donover Quarter Zip Sweater - Black",
+   "hu": "https://www.paige.com/products/men-donover-quarter-zip-sweater-black",
+   "b": "range"
   },
-  "cities": "20 stores, including New York, Austin, Charleston · department stores and independent menswear shops, and its own site",
-  "region": {
-    "o": [2128, 2129, 2130, 2131],
-    "s": [27, 33, 52, 53, 90, 92, 95, 96, 116, 117, 136]
+  "Outerwear": {
+   "lp": "Erickson Jacket - Des Moines",
+   "lu": "https://www.paige.com/products/men-erickson-jacket-des-moines",
+   "hp": "Rocoso Moto Jacket - Black Leather",
+   "hu": "https://www.paige.com/products/men-rocoso-moto-jacket-black",
+   "b": "range"
   },
-  "addmen": true,
-  "site": {
-    "domain": "paige.com",
-    "platform": "shopify",
-    "feed": "sitemap_products",
-    "feed_count": 1001,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "both",
-    "marks": ["TRANSCEND (house)", "Transcend Vintage (house)", "Supima", "TENCEL", "Lycra"],
-    "source": "census",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 152,
-    "w": 152,
-    "n": 65,
-    "s": 1,
-    "c": 34,
-    "x": 55,
-    "xh": 2,
-    "sp": "split",
-    "sc": [],
-    "nc": ["non denim bottoms", "knit tops", "woven tops"],
-    "st": "complete"
-  },
-  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants", "Sweater", "Outerwear", "Shoes"],
-  "garment_links": {
-    "T-shirt": "https://paige.com/collection/men-tees",
-    "Polo": "https://paige.com/collection/men-shirts",
-    "Dress shirt": "https://paige.com/collection/men-shirts",
-    "Jeans": "https://paige.com/collection/men-denim",
-    "Dress pants": "https://paige.com/collection/men-pants",
-    "Sweater": "https://paige.com/collection/men-sweaters-and-sweatshirts",
-    "Outerwear": "https://paige.com/collection/men-jackets"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Sorden Crew Neck Tee - White",
-      "lu": "https://www.paige.com/products/men-sorden-crew-neck-tee-white",
-      "hp": "Brimmer Sweater Tee - Silt",
-      "hu": "https://www.paige.com/products/men-brimmer-sweater-tee-silt",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Demille Polo - Deep Anchor",
-      "lu": "https://www.paige.com/products/men-demille-polo-deep-anchor",
-      "hp": "Kiko Sweater Polo - Nimbus",
-      "hu": "https://www.paige.com/products/men-kiko-sweater-polo-nimbus",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Cosgrove Button Up - White",
-      "lu": "https://www.paige.com/products/men-cosgrove-button-up-white",
-      "hp": "Calder Denim Shirt - Argo",
-      "hu": "https://www.paige.com/products/men-calder-denim-shirt-argo",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Federal 32 Inch Slim Straight Jean - Black Shadow",
-      "lu": "https://www.paige.com/products/men-federal-black-shadow-2",
-      "hp": "Doheny 32 Inch Relaxed Straight Jean - Berto Destructed",
-      "hu": "https://www.paige.com/products/men-doheny-berto-destructed",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Stafford Trouser - Black",
-      "lu": "https://www.paige.com/products/men-stafford-trouser-black",
-      "hp": "Eberton Pant - Fossil Herringbone",
-      "hu": "https://www.paige.com/products/men-eberton-pant-fossil-herringbone",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Wildomar Sweater - Light Carbon",
-      "lu": "https://www.paige.com/products/men-wildomar-sweater-light-carbon",
-      "hp": "Donover Quarter Zip Sweater - Black",
-      "hu": "https://www.paige.com/products/men-donover-quarter-zip-sweater-black",
-      "b": "range"
-    },
-    "Outerwear": {
-      "lp": "Erickson Jacket - Des Moines",
-      "lu": "https://www.paige.com/products/men-erickson-jacket-des-moines",
-      "hp": "Rocoso Moto Jacket - Black Leather",
-      "hu": "https://www.paige.com/products/men-rocoso-moto-jacket-black",
-      "b": "range"
-    },
-    "Shoes": {
-      "lp": "Fullard Sneaker - Anthracite Suede",
-      "lu": "https://www.paige.com/products/men-footwear-fullard-sneaker-anthracite",
-      "hp": "Sobeck Boot - Light Tan Suede",
-      "hu": "https://www.paige.com/products/men-footwear-sobeck-boot-light-tan",
-      "b": "range"
-    }
-  },
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.paige.com/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "Paige Footwear (men's)"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=75464&brand_ids[]=14252994",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "About page: PAIGE 'partner[s] with only the best wash houses, factories, manufacturers and suppliers all around the world'; no owned or named facility.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "NC",
-    "countries": "Not visible on 4 men's PDPs (jeans, shirt, sweater, jacket); the jeans PDP has a collapsed MATERIALS & CARE section the fetch could not read, so origin may be there. No country stated on about or sustainability pages.",
-    "heritage": "vague",
-    "repair": "yes",
-    "process": "some",
-    "urls": ["https://paige.com/about-us", "https://paige.com/denim-recycling"],
-    "conf": "low",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Fullard Sneaker - Anthracite Suede",
+   "lu": "https://www.paige.com/products/men-footwear-fullard-sneaker-anthracite",
+   "hp": "Sobeck Boot - Light Tan Suede",
+   "hu": "https://www.paige.com/products/men-footwear-sobeck-boot-light-tan",
+   "b": "range"
   }
+ },
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.paige.com/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "Paige Footwear (men's)"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=75464&brand_ids[]=14252994",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "About page: PAIGE 'partner[s] with only the best wash houses, factories, manufacturers and suppliers all around the world'; no owned or named facility.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "NC",
+  "countries": "Not visible on 4 men's PDPs (jeans, shirt, sweater, jacket); the jeans PDP has a collapsed MATERIALS & CARE section the fetch could not read, so origin may be there. No country stated on about or sustainability pages.",
+  "heritage": "vague",
+  "repair": "yes",
+  "process": "some",
+  "urls": [
+   "https://paige.com/about-us",
+   "https://paige.com/denim-recycling"
+  ],
+  "conf": "low",
+  "read": "2026-10-03"
+ }
 }

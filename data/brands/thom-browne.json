@@ -1,236 +1,323 @@
 {
-  "name": "Thom Browne",
-  "band": "trueLux",
-  "seat": 136,
-  "dagger": 0,
-  "focus": {
-    "tech": 1,
-    "comfort": 1,
-    "craft": 2,
-    "style": 5
-  },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 2,
-    "linen": 1,
-    "cotton": 2,
-    "wool": 4,
-    "synth": 1
-  },
-  "dials": {
-    "dur": 2,
-    "forg": 1,
-    "fuss": 2,
-    "golffice": -3,
-    "shoes": 3,
-    "status": 4,
-    "ivy": 4,
-    "murica": 4,
-    "ital": 2,
-    "avant": 4,
-    "weird": 4,
-    "whitet": 2,
-    "logo": 2,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
-  },
-  "why": "Tailoring in a shrunken cut — the short gray suit — and clothing built around it.",
-  "origin": "Founded in New York in 2001 by Thom Browne, with five gray suits in an appointment-only shop.",
-  "chan": ["O", "D"],
-  "conf": "L",
-  "forgc": [1, 2, 1],
-  "onething": {
-    "p": "4-Bar sweater",
-    "u": "https://www.thombrowne.com/en-us/search?q=4-Bar%20sweater%20men",
-    "n": "Use this: https://www.thombrowne.com/products/cotton-crepe-4-bar-pullover-mka202a-00219-415"
-  },
-  "prices": [
-    [340, 790],
-    [520, 1850],
-    [590, 1050],
-    [850, 1020],
-    [1290, 1670],
-    [970, 1750],
-    [1650, 7560],
-    [850, 1350]
+ "name": "Thom Browne",
+ "band": "trueLux",
+ "seat": 136,
+ "dagger": 0,
+ "focus": {
+  "tech": 1,
+  "comfort": 1,
+  "craft": 2,
+  "style": 5
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 2,
+  "linen": 1,
+  "cotton": 2,
+  "wool": 4,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 2,
+  "forg": 1,
+  "fuss": 2,
+  "golffice": -3,
+  "shoes": 3,
+  "status": 4,
+  "ivy": 4,
+  "murica": 4,
+  "ital": 2,
+  "avant": 4,
+  "weird": 4,
+  "whitet": 2,
+  "logo": 2,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Tailoring in a shrunken cut — the short gray suit — and clothing built around it.",
+ "origin": "Founded in New York in 2001 by Thom Browne, with five gray suits in an appointment-only shop.",
+ "chan": [
+  "O",
+  "D"
+ ],
+ "conf": "L",
+ "forgc": [
+  1,
+  2,
+  1
+ ],
+ "onething": {
+  "p": "4-Bar sweater",
+  "u": "https://www.thombrowne.com/en-us/search?q=4-Bar%20sweater%20men",
+  "n": "Use this: https://www.thombrowne.com/products/cotton-crepe-4-bar-pullover-mka202a-00219-415"
+ },
+ "prices": [
+  [
+   340,
+   790
   ],
-  "shoelink": {
-    "t": "longwing brogue",
-    "u": "https://www.thombrowne.com/en-us/search?q=longwing%20brogue"
+  [
+   520,
+   1850
+  ],
+  [
+   590,
+   1050
+  ],
+  [
+   850,
+   1020
+  ],
+  [
+   1290,
+   1670
+  ],
+  [
+   970,
+   1750
+  ],
+  [
+   1650,
+   7560
+  ],
+  [
+   850,
+   1350
+  ]
+ ],
+ "shoelink": {
+  "t": "longwing brogue",
+  "u": "https://www.thombrowne.com/en-us/search?q=longwing%20brogue"
+ },
+ "notes": {
+  "wool": "the shrunken gray wool suit as a uniform",
+  "ivy": "the gray sack suit shrunk into conceptual art — Ivy as its own commentary",
+  "murica": "the grosgrain flag — American uniform as high concept",
+  "avant": "the gray suit shrunk into a fifty-year concept",
+  "weird": "the shrunken suit and the dog-shaped bag",
+  "status": "The four-bar and the cropped gray suit function as a uniform, and a uniform is the purest status object: it says which group you belong to before it says anything else.",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 3; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "style": "The shrunken gray suit is one of the most recognizable design ideas in menswear; everything follows it.",
+  "craft": "Every sampled product states a country of make (mostly Italy, with Ireland and Japan), but no maker, mill or owned facility is named. The parent Zegna Group's own mills are not linked to Thom Browne on either site. That is a 2."
+ },
+ "doors": {
+  "c": "full",
+  "n": 10,
+  "cities": [
+   [
+    "Boston",
+    "MA",
+    1
+   ],
+   [
+    "Costa Mesa",
+    "CA",
+    1
+   ],
+   [
+    "Los Angeles",
+    "CA",
+    1
+   ],
+   [
+    "Miami",
+    "FL",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    3
+   ],
+   [
+    "Palm Beach",
+    "FL",
+    1
+   ],
+   [
+    "San Francisco",
+    "CA",
+    1
+   ],
+   [
+    "Wilmette",
+    "IL",
+    1
+   ]
+  ],
+  "basis": "master 2026-08-29, pre-recapture"
+ },
+ "cities": "10 stores, including New York, Boston, Costa Mesa · department stores and independent menswear shops, and its own site",
+ "region": {
+  "o": [
+   2723,
+   2724,
+   2725,
+   2726
+  ],
+  "s": []
+ },
+ "addmen": true,
+ "site": {
+  "domain": "thombrowne.com",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 1725,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "licensed",
+  "marks": [
+   "Supportive GEL(TM)",
+   "Supima"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 322,
+  "w": 321,
+  "n": 88,
+  "s": 10,
+  "c": 2,
+  "x": 2,
+  "xh": 0,
+  "sp": "one",
+  "sc": [
+   "downfill",
+   "swim"
+  ],
+  "nc": [
+   "knitwear",
+   "shirts",
+   "sweats"
+  ],
+  "st": "complete"
+ },
+ "garment_links": {
+  "T-shirt": "https://www.thombrowne.com/collections/mens-t-shirts-polos",
+  "Polo": "https://www.thombrowne.com/collections/mens-t-shirts-polos",
+  "Dress shirt": "https://www.thombrowne.com/collections/mens-shirting",
+  "Jeans": "https://www.thombrowne.com/collections/mens-pants",
+  "Dress pants": "https://www.thombrowne.com/collections/mens-pants",
+  "Sweater": "https://www.thombrowne.com/collections/mens-knitwear-sweaters",
+  "Outerwear": "https://www.thombrowne.com/collections/mens-outerwear",
+  "Shoes": "https://www.thombrowne.com/collections/mens-footwear"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Jersey 4-Bar Short Sleeve Tee",
+   "lu": "https://www.thombrowne.com/products/jersey-4-bar-short-sleeve-tee-mjs168g-07862-415",
+   "hp": "Jersey 4-Bar Colorblock Oversized Tee",
+   "hu": "https://www.thombrowne.com/products/jersey-4-bar-colorblock-oversized-tee-mjs312a-j0320-100",
+   "b": "range"
   },
-  "notes": {
-    "wool": "the shrunken gray wool suit as a uniform",
-    "ivy": "the gray sack suit shrunk into conceptual art — Ivy as its own commentary",
-    "murica": "the grosgrain flag — American uniform as high concept",
-    "avant": "the gray suit shrunk into a fifty-year concept",
-    "weird": "the shrunken suit and the dog-shaped bag",
-    "status": "The four-bar and the cropped gray suit function as a uniform, and a uniform is the purest status object: it says which group you belong to before it says anything else.",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 3; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "style": "The shrunken gray suit is one of the most recognizable design ideas in menswear; everything follows it.",
-    "craft": "Every sampled product states a country of make (mostly Italy, with Ireland and Japan), but no maker, mill or owned facility is named. The parent Zegna Group's own mills are not linked to Thom Browne on either site. That is a 2."
+  "Polo": {
+   "lp": "Pique Pocket Polo",
+   "lu": "https://www.thombrowne.com/products/pique-pocket-polo-mjp022a-01455-415",
+   "hp": "Mesh Cashmere Polo",
+   "hu": "https://www.thombrowne.com/products/mesh-cashmere-polo-mjp239a-07540-100",
+   "b": "pair"
   },
-  "doors": {
-    "c": "full",
-    "n": 10,
-    "cities": [
-      ["Boston", "MA", 1],
-      ["Costa Mesa", "CA", 1],
-      ["Los Angeles", "CA", 1],
-      ["Miami", "FL", 1],
-      ["New York", "NY", 3],
-      ["Palm Beach", "FL", 1],
-      ["San Francisco", "CA", 1],
-      ["Wilmette", "IL", 1]
-    ],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Dress shirt": {
+   "lp": "Oxford Shirt",
+   "lu": "https://www.thombrowne.com/products/oxford-shirt-mwl001a-f0313-480",
+   "hp": "Oxford 4-Bar Shirt",
+   "hu": "https://www.thombrowne.com/products/oxford-4-bar-shirt-mwl431c-f0313-100",
+   "b": "range"
   },
-  "cities": "10 stores, including New York, Boston, Costa Mesa · department stores and independent menswear shops, and its own site",
-  "region": {
-    "o": [2723, 2724, 2725, 2726],
-    "s": [116]
+  "Jeans": {
+   "lp": "Selvedge Denim Trousers",
+   "lu": "https://www.thombrowne.com/products/selvedge-denim-trousers-mtu345s-f1101-415",
+   "hp": "Selvedge Denim Trousers",
+   "hu": "https://www.thombrowne.com/products/selvedge-denim-trousers-mtu345s-f1215-480",
+   "b": "range"
   },
-  "addmen": true,
-  "site": {
-    "domain": "thombrowne.com",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 1725,
-    "status": "live_store",
-    "checked": "2026-09-13"
+  "Dress pants": {
+   "lp": "Classic Seersucker Backstrap Trousers",
+   "lu": "https://www.thombrowne.com/products/classic-seersucker-backstrap-trousers-mtc001h-00572-035",
+   "hp": "Wool Pique Gunclub Check Double Needle Stitch Trouser",
+   "hu": "https://www.thombrowne.com/products/wool-pique-gunclub-check-double-needle-stitch-trouser-mtc001g-f1293-03",
+   "b": "range"
   },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "licensed",
-    "marks": ["Supportive GEL(TM)", "Supima"],
-    "source": "census",
-    "checked": "2026-09-12"
+  "Sweater": {
+   "lp": "Merino Wool RWB Rib Stitch Pullover",
+   "lu": "https://www.thombrowne.com/products/merino-wool-rwb-rib-stitch-pullover-mka585a-y1055-001",
+   "hp": "Classic Cashmere 4-Bar Pullover",
+   "hu": "https://www.thombrowne.com/products/classic-cashmere-4-bar-pullover-mka001a-00011-415",
+   "b": "pair"
   },
-  "fibre": {
-    "t": 322,
-    "w": 321,
-    "n": 88,
-    "s": 10,
-    "c": 2,
-    "x": 2,
-    "xh": 0,
-    "sp": "one",
-    "sc": ["downfill", "swim"],
-    "nc": ["knitwear", "shirts", "sweats"],
-    "st": "complete"
+  "Outerwear": {
+   "lp": "Selvedge Denim Backstrap Utility Jacket",
+   "lu": "https://www.thombrowne.com/products/selvedge-denim-backstrap-utility-jacket-mjo256s-f1101-415",
+   "hp": "Leather Moto Jacket",
+   "hu": "https://www.thombrowne.com/products/leather-moto-jacket-mjo267x-l0182-001",
+   "b": "range"
   },
-  "garment_links": {
-    "T-shirt": "https://www.thombrowne.com/collections/mens-t-shirts-polos",
-    "Polo": "https://www.thombrowne.com/collections/mens-t-shirts-polos",
-    "Dress shirt": "https://www.thombrowne.com/collections/mens-shirting",
-    "Jeans": "https://www.thombrowne.com/collections/mens-pants",
-    "Dress pants": "https://www.thombrowne.com/collections/mens-pants",
-    "Sweater": "https://www.thombrowne.com/collections/mens-knitwear-sweaters",
-    "Outerwear": "https://www.thombrowne.com/collections/mens-outerwear",
-    "Shoes": "https://www.thombrowne.com/collections/mens-footwear"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Jersey 4-Bar Short Sleeve Tee",
-      "lu": "https://www.thombrowne.com/products/jersey-4-bar-short-sleeve-tee-mjs168g-07862-415",
-      "hp": "Jersey 4-Bar Colorblock Oversized Tee",
-      "hu": "https://www.thombrowne.com/products/jersey-4-bar-colorblock-oversized-tee-mjs312a-j0320-100",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Pique Pocket Polo",
-      "lu": "https://www.thombrowne.com/products/pique-pocket-polo-mjp022a-01455-415",
-      "hp": "Mesh Cashmere Polo",
-      "hu": "https://www.thombrowne.com/products/mesh-cashmere-polo-mjp239a-07540-100",
-      "b": "pair"
-    },
-    "Dress shirt": {
-      "lp": "Oxford Shirt",
-      "lu": "https://www.thombrowne.com/products/oxford-shirt-mwl001a-f0313-480",
-      "hp": "Oxford 4-Bar Shirt",
-      "hu": "https://www.thombrowne.com/products/oxford-4-bar-shirt-mwl431c-f0313-100",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Selvedge Denim Trousers",
-      "lu": "https://www.thombrowne.com/products/selvedge-denim-trousers-mtu345s-f1101-415",
-      "hp": "Selvedge Denim Trousers",
-      "hu": "https://www.thombrowne.com/products/selvedge-denim-trousers-mtu345s-f1215-480",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Classic Seersucker Backstrap Trousers",
-      "lu": "https://www.thombrowne.com/products/classic-seersucker-backstrap-trousers-mtc001h-00572-035",
-      "hp": "Wool Pique Gunclub Check Double Needle Stitch Trouser",
-      "hu": "https://www.thombrowne.com/products/wool-pique-gunclub-check-double-needle-stitch-trouser-mtc001g-f1293-03",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Merino Wool RWB Rib Stitch Pullover",
-      "lu": "https://www.thombrowne.com/products/merino-wool-rwb-rib-stitch-pullover-mka585a-y1055-001",
-      "hp": "Classic Cashmere 4-Bar Pullover",
-      "hu": "https://www.thombrowne.com/products/classic-cashmere-4-bar-pullover-mka001a-00011-415",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "Selvedge Denim Backstrap Utility Jacket",
-      "lu": "https://www.thombrowne.com/products/selvedge-denim-backstrap-utility-jacket-mjo256s-f1101-415",
-      "hp": "Leather Moto Jacket",
-      "hu": "https://www.thombrowne.com/products/leather-moto-jacket-mjo267x-l0182-001",
-      "b": "range"
-    },
-    "Shoes": {
-      "lp": "Vitello Leather Varsity Penny Loafers with Leather Soles",
-      "lu": "https://www.thombrowne.com/products/vitello-leather-varsity-penny-loafers-with-leather-soles-mfl087a-05584",
-      "hp": "Pebble Grain Leather Penny Loafers with Leather Soles and Metal Taps",
-      "hu": "https://www.thombrowne.com/products/pebble-grain-leather-penny-loafers-with-leather-soles-and-metal-taps-mfl085a-06257-210",
-      "b": "pair"
-    }
-  },
-  "price_range_only": ["T-shirt", "Dress shirt", "Jeans", "Dress pants", "Outerwear"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.thombrowne.com/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "shop": "https://www.thombrowne.com/search?q=",
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=399438",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "season": {
-    "l": "Fall 2026 (Mens Fall 2026)",
-    "t": "collection page",
-    "u": "https://www.thombrowne.com/pages/collection/mens-fall-2026",
-    "m": "yes"
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "No brand-owned factory is named on thombrowne.com. The About page says Thom Browne has been part of the Ermenegildo Zegna Group since 2018 (Zegna holds 92%). Zegna's group-owned supply chain (zegnagroup.com/our-filiera: Lanificio Zegna, Tessitura di Novara, Dondi, Bonotto, Filati Biagioli, Luigi Fedeli knitwear and others) is not stated anywhere read to make Thom Browne product.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "every product",
-    "countries": "Italy 11/15, Ireland 3/15 (Aran/Donegal knits), Japan 1/15 (sunglasses). Sample of 15 from products.json: knitwear, polos, shirt, down jacket, overcoat, small leather goods, bag, eyewear.",
-    "heritage": "dated and placed",
-    "repair": "yes",
-    "process": "no",
-    "urls": ["https://www.thombrowne.com/products.json?limit=40", "https://www.thombrowne.com/pages/about"],
-    "conf": "medium",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Vitello Leather Varsity Penny Loafers with Leather Soles",
+   "lu": "https://www.thombrowne.com/products/vitello-leather-varsity-penny-loafers-with-leather-soles-mfl087a-05584",
+   "hp": "Pebble Grain Leather Penny Loafers with Leather Soles and Metal Taps",
+   "hu": "https://www.thombrowne.com/products/pebble-grain-leather-penny-loafers-with-leather-soles-and-metal-taps-mfl085a-06257-210",
+   "b": "pair"
   }
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants",
+  "Outerwear"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.thombrowne.com/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "shop": "https://www.thombrowne.com/search?q=",
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=399438",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "season": {
+  "l": "Fall 2026 (Mens Fall 2026)",
+  "t": "collection page",
+  "u": "https://www.thombrowne.com/pages/collection/mens-fall-2026",
+  "m": "yes"
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "No brand-owned factory is named on thombrowne.com. The About page says Thom Browne has been part of the Ermenegildo Zegna Group since 2018 (Zegna holds 92%). Zegna's group-owned supply chain (zegnagroup.com/our-filiera: Lanificio Zegna, Tessitura di Novara, Dondi, Bonotto, Filati Biagioli, Luigi Fedeli knitwear and others) is not stated anywhere read to make Thom Browne product.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "every product",
+  "countries": "Italy 11/15, Ireland 3/15 (Aran/Donegal knits), Japan 1/15 (sunglasses). Sample of 15 from products.json: knitwear, polos, shirt, down jacket, overcoat, small leather goods, bag, eyewear.",
+  "heritage": "dated and placed",
+  "repair": "yes",
+  "process": "no",
+  "urls": [
+   "https://www.thombrowne.com/products.json?limit=40",
+   "https://www.thombrowne.com/pages/about"
+  ],
+  "conf": "medium",
+  "read": "2026-10-03"
+ }
 }

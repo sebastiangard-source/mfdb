@@ -1,184 +1,240 @@
 {
-  "name": "Boglioli",
-  "band": "accessible",
-  "seat": 125,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 4,
-    "craft": 4,
-    "style": 4
+ "name": "Boglioli",
+ "band": "accessible",
+ "seat": 125,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 4,
+  "craft": 4,
+  "style": 4
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 3,
+  "linen": 3,
+  "cotton": 2,
+  "wool": 4,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 4,
+  "fuss": 3,
+  "golffice": -3,
+  "ital": 5,
+  "whitet": 2,
+  "logo": 1,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "A Brescia tailoring house known for unstructured, garment-dyed jackets — the jacket is dyed after it's sewn, which softens it.",
+ "origin": "A family tailoring business in Gambara, near Brescia, since the early 1900s; the Boglioli label dates from 1973.",
+ "say": "boh-LYOH-lee",
+ "chan": [
+  "O",
+  "D",
+  "I"
+ ],
+ "conf": "L",
+ "forgc": [
+  4,
+  2,
+  4
+ ],
+ "shop": "https://www.bogliolimilano.com/en-us/search?q=",
+ "onething": {
+  "p": "K-Jacket",
+  "u": "https://www.bogliolimilano.com/en-us/collections/k-jackets",
+  "n": "official K-Jackets collection — real domain is bogliolimilano.com"
+ },
+ "prices": [
+  [
+   250,
+   500
+  ],
+  [
+   425,
+   925
+  ],
+  [
+   425,
+   650
+  ],
+  null,
+  [
+   475,
+   850
+  ],
+  [
+   500,
+   1775
+  ],
+  [
+   900,
+   4650
+  ],
+  null
+ ],
+ "notes": {
+  "wool": "the garment-dyed, deconstructed jacket",
+  "ital": "The K-Jacket carries the case: unlined, unstructured, garment-dyed, and cut in Lombardy. It reads as Italian through what has been left out of the construction rather than through decoration.",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 2; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "Boglioli's site places the family and the company in Gambara and speaks of 'our artisans' and signature garment dyeing, but names no factory and never says it owns one. Its PDPs give no country of make; only homepage coat copy says coats are made entirely in Italy. [audit proposed 2 at low confidence; held at 4 pending a second read]"
+ },
+ "doors": {
+  "c": "full",
+  "n": 1,
+  "cities": [
+   [
+    "New York",
+    "NY",
+    1
+   ]
+  ],
+  "basis": "master 2026-08-29, pre-recapture"
+ },
+ "cities": "One store, in New York · department stores and independent menswear shops, and its own site",
+ "region": {
+  "o": [
+   440
+  ],
+  "s": [
+   124,
+   3208
+  ]
+ },
+ "site": {
+  "domain": "bogliolimilano.com",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 272,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "no",
+  "origin": "none",
+  "marks": [],
+  "source": "screen_36",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 169,
+  "w": 169,
+  "n": 98,
+  "s": 0,
+  "c": 2,
+  "x": 19,
+  "xh": 0,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "Jackets",
+   "Suits",
+   "Trousers"
+  ],
+  "st": "complete"
+ },
+ "garment_links": {
+  "T-shirt": "https://www.bogliolimilano.com/en-us/collections/t-shirts-1",
+  "Polo": "https://www.bogliolimilano.com/en-us/collections/short-sleeve-polo",
+  "Dress shirt": "https://www.bogliolimilano.com/en-us/collections/shirts",
+  "Dress pants": "https://www.bogliolimilano.com/en-us/collections/trousers",
+  "Sweater": "https://www.bogliolimilano.com/en-us/collections/knitwear",
+  "Outerwear": "https://www.bogliolimilano.com/en-us/collections/outerwear"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "White Cotton Jersey T-Shirt",
+   "lu": "https://www.bogliolimilano.com/en-us/products/cotton-jersey-t-shirt-white-26p_108_91410t_sb6810_00_0101",
+   "hp": "Blue Linen Cotton Flat Rib T-Shirt",
+   "hu": "https://www.bogliolimilano.com/en-us/products/linen-cotton-flat-rib-t-shirt-blue-26p_108_91555_sb6804_00_0780",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 3,
-    "linen": 3,
-    "cotton": 2,
-    "wool": 4,
-    "synth": 1
+  "Polo": {
+   "lp": "Blue Cotton Linen Short-Sleeve Polo",
+   "lu": "https://www.bogliolimilano.com/en-us/products/cotton-linen-short-sleeve-polo-blue-26p_108_91574t_sb6815_00_0784",
+   "hp": "Blue Wool short-sleeve Polo",
+   "hu": "https://www.bogliolimilano.com/en-us/products/blue-wool-short-sleeve-polo-26p_108_91303_sb6813_00_0790",
+   "b": "range"
   },
-  "dials": {
-    "dur": 3,
-    "forg": 4,
-    "fuss": 3,
-    "golffice": -3,
-    "ital": 5,
-    "whitet": 2,
-    "logo": 1,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
+  "Dress shirt": {
+   "lp": "Blue Garment Dyed Vaiella Shirt",
+   "lu": "https://www.bogliolimilano.com/en-us/products/blue-garment-dyed-vaiella-shirt-26a_108_610t_fa0851_00_0784",
+   "hp": "Light Blue blended Cotton Check Shirt",
+   "hu": "https://www.bogliolimilano.com/en-us/products/light-blue-blended-cotton-check-shirt-26a_108_610_fb6858_00_0610",
+   "b": "range"
   },
-  "why": "A Brescia tailoring house known for unstructured, garment-dyed jackets — the jacket is dyed after it's sewn, which softens it.",
-  "origin": "A family tailoring business in Gambara, near Brescia, since the early 1900s; the Boglioli label dates from 1973.",
-  "say": "boh-LYOH-lee",
-  "chan": ["O", "D", "I"],
-  "conf": "L",
-  "forgc": [4, 2, 4],
-  "shop": "https://www.bogliolimilano.com/en-us/search?q=",
-  "onething": {
-    "p": "K-Jacket",
-    "u": "https://www.bogliolimilano.com/en-us/collections/k-jackets",
-    "n": "official K-Jackets collection — real domain is bogliolimilano.com"
+  "Dress pants": {
+   "lp": "Blue Stretch Wool Mario Trousers",
+   "lu": "https://www.bogliolimilano.com/en-us/products/blue-stretch-wool-mario-trousers-26a_108_89898_fb5109_00_0790_6r",
+   "hp": "Blue Wool Canvas Trousers",
+   "hu": "https://www.bogliolimilano.com/en-us/products/blue-wool-canvas-trousers-26p_108_80926_fa0042_00_0790_6r",
+   "b": "range"
   },
-  "prices": [[250, 500], [425, 925], [425, 650], null, [475, 850], [500, 1775], [900, 4650], null],
-  "notes": {
-    "wool": "the garment-dyed, deconstructed jacket",
-    "ital": "The K-Jacket carries the case: unlined, unstructured, garment-dyed, and cut in Lombardy. It reads as Italian through what has been left out of the construction rather than through decoration.",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 2; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Boglioli's site places the family and the company in Gambara and speaks of 'our artisans' and signature garment dyeing, but names no factory and never says it owns one. Its PDPs give no country of make; only homepage coat copy says coats are made entirely in Italy. [audit proposed 2 at low confidence; held at 4 pending a second read]"
+  "Sweater": {
+   "lp": "Yellow Garment Dyed Cotton Crewneck",
+   "lu": "https://www.bogliolimilano.com/en-us/products/garment-dyed-cotton-crewneck-yellow-25p_108_91391t_sa0803_00_0354",
+   "hp": "Brown Cashmere Crewneck",
+   "hu": "https://www.bogliolimilano.com/en-us/products/brown-cashmere-crewneck-26a_108_91604_fb6810_00_0450",
+   "b": "pair"
   },
-  "doors": {
-    "c": "full",
-    "n": 1,
-    "cities": [["New York", "NY", 1]],
-    "basis": "master 2026-08-29, pre-recapture"
-  },
-  "cities": "One store, in New York · department stores and independent menswear shops, and its own site",
-  "region": {
-    "o": [440],
-    "s": [116, 124]
-  },
-  "site": {
-    "domain": "bogliolimilano.com",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 272,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "no",
-    "origin": "none",
-    "marks": [],
-    "source": "screen_36",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 169,
-    "w": 169,
-    "n": 98,
-    "s": 0,
-    "c": 2,
-    "x": 19,
-    "xh": 0,
-    "sp": "one",
-    "sc": [],
-    "nc": ["Jackets", "Suits", "Trousers"],
-    "st": "complete"
-  },
-  "garment_links": {
-    "T-shirt": "https://www.bogliolimilano.com/en-us/collections/t-shirts-1",
-    "Polo": "https://www.bogliolimilano.com/en-us/collections/short-sleeve-polo",
-    "Dress shirt": "https://www.bogliolimilano.com/en-us/collections/shirts",
-    "Dress pants": "https://www.bogliolimilano.com/en-us/collections/trousers",
-    "Sweater": "https://www.bogliolimilano.com/en-us/collections/knitwear",
-    "Outerwear": "https://www.bogliolimilano.com/en-us/collections/outerwear"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "White Cotton Jersey T-Shirt",
-      "lu": "https://www.bogliolimilano.com/en-us/products/cotton-jersey-t-shirt-white-26p_108_91410t_sb6810_00_0101",
-      "hp": "Blue Linen Cotton Flat Rib T-Shirt",
-      "hu": "https://www.bogliolimilano.com/en-us/products/linen-cotton-flat-rib-t-shirt-blue-26p_108_91555_sb6804_00_0780",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Blue Cotton Linen Short-Sleeve Polo",
-      "lu": "https://www.bogliolimilano.com/en-us/products/cotton-linen-short-sleeve-polo-blue-26p_108_91574t_sb6815_00_0784",
-      "hp": "Blue Wool short-sleeve Polo",
-      "hu": "https://www.bogliolimilano.com/en-us/products/blue-wool-short-sleeve-polo-26p_108_91303_sb6813_00_0790",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Blue Garment Dyed Vaiella Shirt",
-      "lu": "https://www.bogliolimilano.com/en-us/products/blue-garment-dyed-vaiella-shirt-26a_108_610t_fa0851_00_0784",
-      "hp": "Light Blue blended Cotton Check Shirt",
-      "hu": "https://www.bogliolimilano.com/en-us/products/light-blue-blended-cotton-check-shirt-26a_108_610_fb6858_00_0610",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Blue Stretch Wool Mario Trousers",
-      "lu": "https://www.bogliolimilano.com/en-us/products/blue-stretch-wool-mario-trousers-26a_108_89898_fb5109_00_0790_6r",
-      "hp": "Blue Wool Canvas Trousers",
-      "hu": "https://www.bogliolimilano.com/en-us/products/blue-wool-canvas-trousers-26p_108_80926_fa0042_00_0790_6r",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Yellow Garment Dyed Cotton Crewneck",
-      "lu": "https://www.bogliolimilano.com/en-us/products/garment-dyed-cotton-crewneck-yellow-25p_108_91391t_sa0803_00_0354",
-      "hp": "Brown Cashmere Crewneck",
-      "hu": "https://www.bogliolimilano.com/en-us/products/brown-cashmere-crewneck-26a_108_91604_fb6810_00_0450",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "Blue Indaco Denim Workwear Jacket",
-      "lu": "https://www.bogliolimilano.com/en-us/products/indaco-denim-workwear-jacket-blue-26p_109_63800ew_sb6016_00_0770",
-      "hp": "Blue Garment Dyed Cashmere double-breasted Coat",
-      "hu": "https://www.bogliolimilano.com/en-us/products/blue-garment-dyed-cashmere-double-breasted-coat-26a_180_c6501j_fa0403_00_0784",
-      "b": "range"
-    }
-  },
-  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Dress pants", "Outerwear"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.bogliolimilano.com/en-us",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=408013",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "craft_evidence": {
-    "owned": "unclear",
-    "owned_d": "Story page: the Boglioli family entered menswear tailoring in Gambara (Brescia) in the early 1900s, brand founded 1973; legal address Boglioli SpA, Via Brescia 47, Gambara. Craftsmanship page: 'each garment is born from the skilled hands of our artisans' and calls garment dyeing ('tinto in capo') the brand's signature. No factory or workshop is described, photographed or said to be owned; current ownership not stated.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "none",
-    "countries": "0/5 PDPs state a country of make in fetched text (K-Jacket suit, garment-dyed K-Jacket, wool crew-neck, striped cotton shirt, washed-flannel K-Pant); one jacket page may hide details in tabs. Homepage coat copy: 'realizzati interamente in Italia' (made entirely in Italy), coats only.",
-    "heritage": "dated and placed",
-    "repair": "no",
-    "process": "some",
-    "urls": [
-      "https://www.bogliolimilano.com/it-it/pages/la-nostra-storia",
-      "https://www.bogliolimilano.com/it-it/pages/la-nostra-artigianalita"
-    ],
-    "conf": "low",
-    "read": "2026-10-03"
+  "Outerwear": {
+   "lp": "Blue Indaco Denim Workwear Jacket",
+   "lu": "https://www.bogliolimilano.com/en-us/products/indaco-denim-workwear-jacket-blue-26p_109_63800ew_sb6016_00_0770",
+   "hp": "Blue Garment Dyed Cashmere double-breasted Coat",
+   "hu": "https://www.bogliolimilano.com/en-us/products/blue-garment-dyed-cashmere-double-breasted-coat-26a_180_c6501j_fa0403_00_0784",
+   "b": "range"
   }
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Dress pants",
+  "Outerwear"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.bogliolimilano.com/en-us",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=408013",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "craft_evidence": {
+  "owned": "unclear",
+  "owned_d": "Story page: the Boglioli family entered menswear tailoring in Gambara (Brescia) in the early 1900s, brand founded 1973; legal address Boglioli SpA, Via Brescia 47, Gambara. Craftsmanship page: 'each garment is born from the skilled hands of our artisans' and calls garment dyeing ('tinto in capo') the brand's signature. No factory or workshop is described, photographed or said to be owned; current ownership not stated.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "none",
+  "countries": "0/5 PDPs state a country of make in fetched text (K-Jacket suit, garment-dyed K-Jacket, wool crew-neck, striped cotton shirt, washed-flannel K-Pant); one jacket page may hide details in tabs. Homepage coat copy: 'realizzati interamente in Italia' (made entirely in Italy), coats only.",
+  "heritage": "dated and placed",
+  "repair": "no",
+  "process": "some",
+  "urls": [
+   "https://www.bogliolimilano.com/it-it/pages/la-nostra-storia",
+   "https://www.bogliolimilano.com/it-it/pages/la-nostra-artigianalita"
+  ],
+  "conf": "low",
+  "read": "2026-10-03"
+ }
 }

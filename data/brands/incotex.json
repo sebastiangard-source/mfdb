@@ -1,172 +1,206 @@
 {
-  "name": "Incotex",
-  "band": "accessible",
-  "seat": 97,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 3,
-    "craft": 4,
-    "style": 3
+ "name": "Incotex",
+ "band": "accessible",
+ "seat": 97,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 3,
+  "craft": 4,
+  "style": 3
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 1,
+  "linen": 2,
+  "cotton": 4,
+  "wool": 3,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 2,
+  "fuss": -1,
+  "golffice": -2,
+  "shoes": 0,
+  "ital": 4,
+  "whitet": 1,
+  "logo": 1,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Trousers — chinos, flannels, dress pants — and nothing else, made with tailoring-grade construction.",
+ "origin": "Founded in Venice in 1951; the founding house of the Slowear group.",
+ "chan": [
+  "O",
+  "D",
+  "I"
+ ],
+ "conf": "M",
+ "forgc": [
+  2,
+  3,
+  3
+ ],
+ "onething": {
+  "p": "Slim-fit chino",
+  "u": "https://www.mrporter.com/en-us/mens/designer/incotex",
+  "n": "MP designer page — verify carriage"
+ },
+ "prices": [
+  null,
+  null,
+  null,
+  [
+   405,
+   615
+  ],
+  [
+   490,
+   695
+  ],
+  null,
+  [
+   1000,
+   1430
+  ],
+  null
+ ],
+ "notes": {
+  "cotton": "the chino benchmark — the pair the specialty shops fit everything else against",
+  "craft": "Slowear's about page dates Incotex to a small trouser-making company in the province of Venice in 1951, and its CEO told Forbes in 2018 'we own our factories and are completely vertical'. But slowear.com never names or shows a factory, and only 1 of 8 Incotex product pages says Made in Italy. Kept at 4 on the stated ownership. It cannot be a 5 without a named, current factory. [ruled by Sebastian 4 Oct 2026]",
+  "ital": "Trousers only, made in the Veneto, and a specialist inside the Slowear group. The narrowness is the point: a house that has spent decades on one garment.",
+  "whitet": "sells no plain tee (price pass: NONE) — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 2; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+ },
+ "doors": {
+  "c": "full",
+  "n": 0,
+  "cities": [],
+  "basis": "master 2026-08-29, pre-recapture"
+ },
+ "cities": "No store of its own in the US · department stores and independent menswear shops, and its own site",
+ "region": {
+  "o": [],
+  "s": [
+   117
+  ]
+ },
+ "site": {
+  "domain": "slowear.com",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 246,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "both",
+  "marks": [
+   "HOUSE: Royal Batavia (19)",
+   "Chinolino (12)",
+   "Teknosartorial line (10)",
+   "Tekno Twill (4)",
+   "Teknotela (5)",
+   "Tropical Wool (7). LICENSED: SUMMERTIME fabric by Loro Piana (1)"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 118,
+  "w": 118,
+  "n": 96,
+  "s": 4,
+  "c": 0,
+  "x": 56,
+  "xh": 7,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "trousers",
+   "jackets & blousons",
+   "suits"
+  ],
+  "st": "complete"
+ },
+ "shop": "https://www.slowear.com/en-us/search?q=",
+ "garment_links": {
+  "Jeans": "https://www.slowear.com/en-us/collections/man-trousers?filter.p.vendor=Incotex+Blue+Division",
+  "Dress pants": "https://www.slowear.com/en-us/collections/incotex-venezia-1951",
+  "Outerwear": "https://www.slowear.com/en-us/collections/man-jackets-outerwear?filter.p.vendor=Incotex"
+ },
+ "price_checked": true,
+ "price_evidence": {
+  "Jeans": {
+   "lp": "Slim-fit five-pocket stretch denim trousers",
+   "lu": "https://www.slowear.com/en-us/products/slim-fit-five-pocket-stretch-denim-trousers-dark-blue-s0007l2615aw01a",
+   "hp": "Tapered fit stretch denim trousers (Incotex Blue Division)",
+   "hu": "https://www.slowear.com/en-us/products/tapered-fit-stretch-denim-trousers-dark-blue-bxt05c2641bw02a",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 2,
-    "cashmere": 1,
-    "linen": 2,
-    "cotton": 4,
-    "wool": 3,
-    "synth": 1
+  "Dress pants": {
+   "lp": "Slim fit stretch wool trousers",
+   "lu": "https://www.slowear.com/en-us/products/slim-fit-stretch-wool-trousers-dark-blue-1ts08440401820",
+   "hp": "Straight fit wool and silk twill trousers",
+   "hu": "https://www.slowear.com/en-us/products/straight-fit-wool-and-silk-twill-trousers-dark-blue-1t000690466820",
+   "b": "pair"
   },
-  "dials": {
-    "dur": 3,
-    "forg": 2,
-    "fuss": -1,
-    "golffice": -2,
-    "shoes": 0,
-    "ital": 4,
-    "whitet": 1,
-    "logo": 1,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
-  },
-  "why": "Trousers — chinos, flannels, dress pants — and nothing else, made with tailoring-grade construction.",
-  "origin": "Founded in Venice in 1951; the founding house of the Slowear group.",
-  "chan": ["O", "D", "I"],
-  "conf": "M",
-  "forgc": [2, 3, 3],
-  "onething": {
-    "p": "Slim-fit chino",
-    "u": "https://www.mrporter.com/en-us/mens/designer/incotex",
-    "n": "MP designer page — verify carriage"
-  },
-  "prices": [null, null, null, [405, 615], [490, 695], null, [1000, 1430], null],
-  "notes": {
-    "cotton": "the chino benchmark — the pair the specialty shops fit everything else against",
-    "craft": "Slowear's about page dates Incotex to a small trouser-making company in the province of Venice in 1951, and its CEO told Forbes in 2018 'we own our factories and are completely vertical'. But slowear.com never names or shows a factory, and only 1 of 8 Incotex product pages says Made in Italy. Kept at 4 on the stated ownership. It cannot be a 5 without a named, current factory. [ruled by Sebastian 4 Oct 2026]",
-    "ital": "Trousers only, made in the Veneto, and a specialist inside the Slowear group. The narrowness is the point: a house that has spent decades on one garment.",
-    "whitet": "sells no plain tee (price pass: NONE) — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 2; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
-  },
-  "doors": {
-    "c": "full",
-    "n": 0,
-    "cities": [],
-    "basis": "master 2026-08-29, pre-recapture"
-  },
-  "cities": "No store of its own in the US · department stores and independent menswear shops, and its own site",
-  "region": {
-    "o": [],
-    "s": [116, 117]
-  },
-  "site": {
-    "domain": "slowear.com",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 246,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "both",
-    "marks": [
-      "HOUSE: Royal Batavia (19)",
-      "Chinolino (12)",
-      "Teknosartorial line (10)",
-      "Tekno Twill (4)",
-      "Teknotela (5)",
-      "Tropical Wool (7). LICENSED: SUMMERTIME fabric by Loro Piana (1)"
-    ],
-    "source": "census",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 118,
-    "w": 118,
-    "n": 96,
-    "s": 4,
-    "c": 0,
-    "x": 56,
-    "xh": 7,
-    "sp": "one",
-    "sc": [],
-    "nc": ["trousers", "jackets & blousons", "suits"],
-    "st": "complete"
-  },
-  "shop": "https://www.slowear.com/en-us/search?q=",
-  "garment_links": {
-    "Jeans": "https://www.slowear.com/en-us/collections/man-trousers?filter.p.vendor=Incotex+Blue+Division",
-    "Dress pants": "https://www.slowear.com/en-us/collections/incotex-venezia-1951",
-    "Outerwear": "https://www.slowear.com/en-us/collections/man-jackets-outerwear?filter.p.vendor=Incotex"
-  },
-  "price_checked": true,
-  "price_evidence": {
-    "Jeans": {
-      "lp": "Slim-fit five-pocket stretch denim trousers",
-      "lu": "https://www.slowear.com/en-us/products/slim-fit-five-pocket-stretch-denim-trousers-dark-blue-s0007l2615aw01a",
-      "hp": "Tapered fit stretch denim trousers (Incotex Blue Division)",
-      "hu": "https://www.slowear.com/en-us/products/tapered-fit-stretch-denim-trousers-dark-blue-bxt05c2641bw02a",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Slim fit stretch wool trousers",
-      "lu": "https://www.slowear.com/en-us/products/slim-fit-stretch-wool-trousers-dark-blue-1ts08440401820",
-      "hp": "Straight fit wool and silk twill trousers",
-      "hu": "https://www.slowear.com/en-us/products/straight-fit-wool-and-silk-twill-trousers-dark-blue-1t000690466820",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "Teknotela blouson jacket",
-      "lu": "https://www.slowear.com/en-us/products/teknotela-blouson-jacket-dark-blue-63i64090480820",
-      "hp": "Wool, linen and silk blouson jacket",
-      "hu": "https://www.slowear.com/en-us/products/wool-linen-and-silk-blouson-jacket-light-beige-63i20890490400",
-      "b": "pair"
-    }
-  },
-  "price_range_only": ["Jeans"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.slowear.com/en-us",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "Incotex Blue Division"
-  },
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=375711",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "certs": {
-    "bcorp": {
-      "e": "Slowear (parent company)"
-    }
-  },
-  "craft_evidence": {
-    "owned": "unclear",
-    "owned_d": "Owned making is claimed but no factory is named. Slowear (the group that owns and sells Incotex) about page: history began 1951 'in the province of Venice' when 'a small production company – Incotex – began its activity, making work trousers'; Slowear S.p.A. address Via della Fornace 15-17, Mira (VE) is given only as company address, not as a factory. 2018 Forbes interview: CEO Roberto Compagno says 'we own our factories and are completely vertical', and the writer calls Slowear 'the only menswear luxury apparel factory in Venice'. Neither slowear.com nor the Incotex page names or shows a trouser factory.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "some",
-    "countries": "Italy 1/8 (Blue Division five-pocket: 'Made in Italy trousers'); 7/8 state no country in description, composition or care sections (sample of 8 Incotex PDPs/product data; two rendered pages checked, which have Design & Fit and Care & Composition accordions, so not certain nothing is hidden). Forbes 2018 CEO: 'All our product is made in Europe'.",
-    "heritage": "dated and placed",
-    "repair": "no",
-    "process": "some",
-    "urls": [
-      "https://www.forbes.com/sites/josephdeacetis/2018/07/05/slowear-veritable-multi-menswear-brand-ceo-roberto-compagno-talks-vision-competence-and-venice/",
-      "https://www.slowear.com/pages/about-us"
-    ],
-    "conf": "low",
-    "read": "2026-10-03"
+  "Outerwear": {
+   "lp": "Teknotela blouson jacket",
+   "lu": "https://www.slowear.com/en-us/products/teknotela-blouson-jacket-dark-blue-63i64090480820",
+   "hp": "Wool, linen and silk blouson jacket",
+   "hu": "https://www.slowear.com/en-us/products/wool-linen-and-silk-blouson-jacket-light-beige-63i20890490400",
+   "b": "pair"
   }
+ },
+ "price_range_only": [
+  "Jeans"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.slowear.com/en-us",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "Incotex Blue Division"
+ },
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=375711",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "certs": {
+  "bcorp": {
+   "e": "Slowear (parent company)"
+  }
+ },
+ "craft_evidence": {
+  "owned": "unclear",
+  "owned_d": "Owned making is claimed but no factory is named. Slowear (the group that owns and sells Incotex) about page: history began 1951 'in the province of Venice' when 'a small production company – Incotex – began its activity, making work trousers'; Slowear S.p.A. address Via della Fornace 15-17, Mira (VE) is given only as company address, not as a factory. 2018 Forbes interview: CEO Roberto Compagno says 'we own our factories and are completely vertical', and the writer calls Slowear 'the only menswear luxury apparel factory in Venice'. Neither slowear.com nor the Incotex page names or shows a trouser factory.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "some",
+  "countries": "Italy 1/8 (Blue Division five-pocket: 'Made in Italy trousers'); 7/8 state no country in description, composition or care sections (sample of 8 Incotex PDPs/product data; two rendered pages checked, which have Design & Fit and Care & Composition accordions, so not certain nothing is hidden). Forbes 2018 CEO: 'All our product is made in Europe'.",
+  "heritage": "dated and placed",
+  "repair": "no",
+  "process": "some",
+  "urls": [
+   "https://www.forbes.com/sites/josephdeacetis/2018/07/05/slowear-veritable-multi-menswear-brand-ceo-roberto-compagno-talks-vision-competence-and-venice/",
+   "https://www.slowear.com/pages/about-us"
+  ],
+  "conf": "low",
+  "read": "2026-10-03"
+ }
 }

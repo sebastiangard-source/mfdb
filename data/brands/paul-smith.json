@@ -1,209 +1,293 @@
 {
-  "name": "Paul Smith",
-  "band": "accessible",
-  "seat": 117,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 2,
-    "craft": 4,
-    "style": 4
+ "name": "Paul Smith",
+ "band": "accessible",
+ "seat": 117,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 2,
+  "craft": 4,
+  "style": 4
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 2,
+  "linen": 2,
+  "cotton": 2,
+  "wool": 3,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 2,
+  "forg": 2,
+  "fuss": 1,
+  "golffice": -2,
+  "bruv": -1,
+  "ivy": 2,
+  "briish": 5,
+  "whitet": 2,
+  "logo": 2,
+  "western": 1,
+  "rock": 1,
+  "workwear": 2,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "British tailoring and casual clothing with color and pattern used as a signature.",
+ "origin": "Founded in Nottingham in 1970 by Paul Smith, with a small shop open two days a week.",
+ "chan": [
+  "O",
+  "D"
+ ],
+ "conf": "L",
+ "forgc": [
+  2,
+  3,
+  2
+ ],
+ "onething": {
+  "p": "Signature-stripe socks",
+  "u": "https://www.paulsmith.com/search?q=Signature-stripe+socks",
+  "n": "no locale segment, plus-encoded, verified"
+ },
+ "prices": [
+  [
+   75,
+   325
+  ],
+  [
+   125,
+   395
+  ],
+  [
+   275,
+   430
+  ],
+  [
+   195,
+   395
+  ],
+  [
+   325,
+   750
+  ],
+  [
+   250,
+   725
+  ],
+  [
+   895,
+   2595
+  ],
+  [
+   290,
+   595
+  ]
+ ],
+ "doors": {
+  "c": "full",
+  "n": 4,
+  "cities": [
+   [
+    "Los Angeles",
+    "CA",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    2
+   ],
+   [
+    "San Francisco",
+    "CA",
+    1
+   ]
+  ],
+  "basis": "master 2026-08-29, pre-recapture"
+ },
+ "cities": "4 stores — New York, Los Angeles, San Francisco · department stores and independent menswear shops, and its own site",
+ "region": {
+  "o": [
+   2179,
+   2180
+  ],
+  "s": [
+   44,
+   60,
+   86,
+   117,
+   124
+  ]
+ },
+ "addmen": true,
+ "site": {
+  "domain": "paulsmith.com",
+  "platform": "custom",
+  "feed": "sitemap_products",
+  "feed_count": 3635,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "unclear",
+  "marks": [
+   "Loro Piana 'Storm System' (licensed)",
+   "Loro Piana Green Storm System membrane"
+  ],
+  "source": "flag_sample",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 566,
+  "w": 541,
+  "n": 85,
+  "s": 8,
+  "c": 3,
+  "x": 15,
+  "xh": 8,
+  "sp": "one",
+  "sc": [
+   "Swimwear",
+   "Jersey",
+   "Tops"
+  ],
+  "nc": [
+   "Knitwear",
+   "Jackets",
+   "Shirts"
+  ],
+  "st": "complete"
+ },
+ "garment_links": {
+  "T-shirt": "https://www.paulsmith.com/mens/t-shirts",
+  "Polo": "https://www.paulsmith.com/mens/polo-shirts",
+  "Dress shirt": "https://www.paulsmith.com/mens/shirts/formal",
+  "Jeans": "https://www.paulsmith.com/mens/jeans",
+  "Dress pants": "https://www.paulsmith.com/mens/trousers/tailored-trousers",
+  "Sweater": "https://www.paulsmith.com/mens/knitwear",
+  "Outerwear": "https://www.paulsmith.com/mens/coats-jackets",
+  "Shoes": "https://www.paulsmith.com/mens/shoes"
+ },
+ "notes": {
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 3; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "briish": "A Nottingham tailor who built a global house on English tailoring with color in the lining.",
+  "craft": "The brand's own site blocked every fetch, so no making evidence could be read. The score is held at the current value under the blocked-site rule; it is not a confirmation. [audit proposed 4 at low confidence; held at 4 pending a second read]"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Pale Blue Organic Cotton Zebra Logo T-Shirt (PS Paul Smith)",
+   "lu": "https://www.paulsmith.com/us/pale-blue-organic-cotton-zebra-logo-t-shirt",
+   "hp": "Ecru Cotton-Cashmere T-Shirt (90% cotton/10% cashmere)",
+   "hu": "https://www.paulsmith.com/us/ecru-cotton-cashmere-t-shirt",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 2,
-    "cashmere": 2,
-    "linen": 2,
-    "cotton": 2,
-    "wool": 3,
-    "synth": 1
+  "Polo": {
+   "lp": "Dark Navy Cotton-Piqué Zebra Logo Polo Shirt (PS Paul Smith)",
+   "lu": "https://www.paulsmith.com/us/men-s-navy-organic-cotton-pique-zebra-logo-polo-shirt-ss",
+   "hp": "Dark Navy 'Signature Stripe' Trim Polo Shirt (cotton piqué)",
+   "hu": "https://www.paulsmith.com/us/men-s-dark-navy-signature-stripe-trim-polo-shirt",
+   "b": "range"
   },
-  "dials": {
-    "dur": 2,
-    "forg": 2,
-    "fuss": 1,
-    "golffice": -2,
-    "bruv": -1,
-    "ivy": 2,
-    "briish": 5,
-    "whitet": 2,
-    "logo": 2,
-    "western": 1,
-    "rock": 1,
-    "workwear": 2,
-    "outdoor": 1,
-    "surf": 1
+  "Dress shirt": {
+   "lp": "Regular-Fit White 'Scattered Flower' Shirt",
+   "lu": "https://www.paulsmith.com/us/regular-fit-white-scattered-flower-shirt",
+   "hp": "Regular-Fit Sky Blue Stripe Button-Down Shirt",
+   "hu": "https://www.paulsmith.com/us/regular-fit-sky-blue-stripe-button-down-shirt",
+   "b": "range"
   },
-  "why": "British tailoring and casual clothing with color and pattern used as a signature.",
-  "origin": "Founded in Nottingham in 1970 by Paul Smith, with a small shop open two days a week.",
-  "chan": ["O", "D"],
-  "conf": "L",
-  "forgc": [2, 3, 2],
-  "onething": {
-    "p": "Signature-stripe socks",
-    "u": "https://www.paulsmith.com/search?q=Signature-stripe+socks",
-    "n": "no locale segment, plus-encoded, verified"
+  "Jeans": {
+   "lp": "Slim Tapered-Fit Dark-Wash 'Blue Black Stretch' Jeans",
+   "lu": "https://www.paulsmith.com/us/slim-tapered-fit-dark-wash-blue-black-stretch-jeans",
+   "hp": "Straight-Fit Mid-Wash Jeans",
+   "hu": "https://www.paulsmith.com/us/straight-fit-mid-wash-jeans",
+   "b": "range"
   },
-  "prices": [[75, 325], [125, 395], [275, 430], [195, 395], [325, 750], [250, 725], [895, 2595], [290, 595]],
-  "doors": {
-    "c": "full",
-    "n": 4,
-    "cities": [["Los Angeles", "CA", 1], ["New York", "NY", 2], ["San Francisco", "CA", 1]],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Dress pants": {
+   "lp": "Relaxed-Fit Navy Linen-Blend Pleated Trousers (PS Paul Smith)",
+   "lu": "https://www.paulsmith.com/us/relaxed-fit-navy-linen-blend-pleated-trousers",
+   "hp": "Navy Pinstripe Wool Pleated Trousers (Lovat Mill wool)",
+   "hu": "https://www.paulsmith.com/us/navy-pinstripe-wool-pleated-trousers",
+   "b": "range"
   },
-  "cities": "4 stores — New York, Los Angeles, San Francisco · department stores and independent menswear shops, and its own site",
-  "region": {
-    "o": [2179, 2180],
-    "s": [44, 60, 86, 116, 117, 124]
+  "Sweater": {
+   "lp": "Navy Textured-Cotton Raglan Sweater (crew neck, PS Paul Smith)",
+   "lu": "https://www.paulsmith.com/us/navy-textured-cotton-raglan-sweater",
+   "hp": "Mauve Cashmere Crew Neck Sweater (100% cashmere)",
+   "hu": "https://www.paulsmith.com/us/mauve-cashmere-crew-neck-sweater",
+   "b": "pair"
   },
-  "addmen": true,
-  "site": {
-    "domain": "paulsmith.com",
-    "platform": "custom",
-    "feed": "sitemap_products",
-    "feed_count": 3635,
-    "status": "live_store",
-    "checked": "2026-09-13"
+  "Outerwear": {
+   "lp": "Sand Corduroy Bomber Jacket",
+   "lu": "https://www.paulsmith.com/us/sand-corduroy-bomber-jacket",
+   "hp": "Tan Suede Bomber Jacket (100% lamb suede)",
+   "hu": "https://www.paulsmith.com/us/tan-suede-bomber-jacket-brown",
+   "b": "pair"
   },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "unclear",
-    "marks": ["Loro Piana 'Storm System' (licensed)", "Loro Piana Green Storm System membrane"],
-    "source": "flag_sample",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 566,
-    "w": 541,
-    "n": 85,
-    "s": 8,
-    "c": 3,
-    "x": 15,
-    "xh": 8,
-    "sp": "one",
-    "sc": ["Swimwear", "Jersey", "Tops"],
-    "nc": ["Knitwear", "Jackets", "Shirts"],
-    "st": "complete"
-  },
-  "garment_links": {
-    "T-shirt": "https://www.paulsmith.com/mens/t-shirts",
-    "Polo": "https://www.paulsmith.com/mens/polo-shirts",
-    "Dress shirt": "https://www.paulsmith.com/mens/shirts/formal",
-    "Jeans": "https://www.paulsmith.com/mens/jeans",
-    "Dress pants": "https://www.paulsmith.com/mens/trousers/tailored-trousers",
-    "Sweater": "https://www.paulsmith.com/mens/knitwear",
-    "Outerwear": "https://www.paulsmith.com/mens/coats-jackets",
-    "Shoes": "https://www.paulsmith.com/mens/shoes"
-  },
-  "notes": {
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 3; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "briish": "A Nottingham tailor who built a global house on English tailoring with color in the lining.",
-    "craft": "The brand's own site blocked every fetch, so no making evidence could be read. The score is held at the current value under the blocked-site rule; it is not a confirmation. [audit proposed 4 at low confidence; held at 4 pending a second read]"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Pale Blue Organic Cotton Zebra Logo T-Shirt (PS Paul Smith)",
-      "lu": "https://www.paulsmith.com/us/pale-blue-organic-cotton-zebra-logo-t-shirt",
-      "hp": "Ecru Cotton-Cashmere T-Shirt (90% cotton/10% cashmere)",
-      "hu": "https://www.paulsmith.com/us/ecru-cotton-cashmere-t-shirt",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Dark Navy Cotton-Piqué Zebra Logo Polo Shirt (PS Paul Smith)",
-      "lu": "https://www.paulsmith.com/us/men-s-navy-organic-cotton-pique-zebra-logo-polo-shirt-ss",
-      "hp": "Dark Navy 'Signature Stripe' Trim Polo Shirt (cotton piqué)",
-      "hu": "https://www.paulsmith.com/us/men-s-dark-navy-signature-stripe-trim-polo-shirt",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Regular-Fit White 'Scattered Flower' Shirt",
-      "lu": "https://www.paulsmith.com/us/regular-fit-white-scattered-flower-shirt",
-      "hp": "Regular-Fit Sky Blue Stripe Button-Down Shirt",
-      "hu": "https://www.paulsmith.com/us/regular-fit-sky-blue-stripe-button-down-shirt",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Slim Tapered-Fit Dark-Wash 'Blue Black Stretch' Jeans",
-      "lu": "https://www.paulsmith.com/us/slim-tapered-fit-dark-wash-blue-black-stretch-jeans",
-      "hp": "Straight-Fit Mid-Wash Jeans",
-      "hu": "https://www.paulsmith.com/us/straight-fit-mid-wash-jeans",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Relaxed-Fit Navy Linen-Blend Pleated Trousers (PS Paul Smith)",
-      "lu": "https://www.paulsmith.com/us/relaxed-fit-navy-linen-blend-pleated-trousers",
-      "hp": "Navy Pinstripe Wool Pleated Trousers (Lovat Mill wool)",
-      "hu": "https://www.paulsmith.com/us/navy-pinstripe-wool-pleated-trousers",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Navy Textured-Cotton Raglan Sweater (crew neck, PS Paul Smith)",
-      "lu": "https://www.paulsmith.com/us/navy-textured-cotton-raglan-sweater",
-      "hp": "Mauve Cashmere Crew Neck Sweater (100% cashmere)",
-      "hu": "https://www.paulsmith.com/us/mauve-cashmere-crew-neck-sweater",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "Sand Corduroy Bomber Jacket",
-      "lu": "https://www.paulsmith.com/us/sand-corduroy-bomber-jacket",
-      "hp": "Tan Suede Bomber Jacket (100% lamb suede)",
-      "hu": "https://www.paulsmith.com/us/tan-suede-bomber-jacket-brown",
-      "b": "pair"
-    },
-    "Shoes": {
-      "lp": "Navy Suede 'Pierce' Loafers",
-      "lu": "https://www.paulsmith.com/us/navy-suede-pierce-loafers",
-      "hp": "Black 'Murano' Loafers",
-      "hu": "https://www.paulsmith.com/us/black-murano-loafers",
-      "b": "pair"
-    }
-  },
-  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.paulsmith.com/us",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "PS Paul Smith"
-  },
-  "price_checked": true,
-  "shop": "https://www.paulsmith.com/us/search?q=",
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=10763&brand_ids[]=2232065",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "certs": {
-    "gots": {
-      "e": "Paul Smith Limited (UK)"
-    }
-  },
-  "season": {
-    "l": "AW26 / Fall Winter '26",
-    "t": "runway",
-    "u": "https://www.paulsmith.com/discover/shows/aw26/mens",
-    "m": "yes"
-  },
-  "craft_evidence": {
-    "owned": "NC",
-    "owned_d": "NC: paulsmith.com returned 403 on all 3 attempts (sitemap, about-us, sustainability). Wikipedia (context only) mentions no owned factory.",
-    "makers": "NC",
-    "mills": "NC",
-    "madein": "NC",
-    "countries": "NC: site blocked, no PDPs read.",
-    "heritage": "dated and placed",
-    "repair": "NC",
-    "process": "NC",
-    "urls": ["https://en.wikipedia.org/wiki/Paul_Smith_(fashion_designer)"],
-    "conf": "low",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Navy Suede 'Pierce' Loafers",
+   "lu": "https://www.paulsmith.com/us/navy-suede-pierce-loafers",
+   "hp": "Black 'Murano' Loafers",
+   "hu": "https://www.paulsmith.com/us/black-murano-loafers",
+   "b": "pair"
   }
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.paulsmith.com/us",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "PS Paul Smith"
+ },
+ "price_checked": true,
+ "shop": "https://www.paulsmith.com/us/search?q=",
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=10763&brand_ids[]=2232065",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "certs": {
+  "gots": {
+   "e": "Paul Smith Limited (UK)"
+  }
+ },
+ "season": {
+  "l": "AW26 / Fall Winter '26",
+  "t": "runway",
+  "u": "https://www.paulsmith.com/discover/shows/aw26/mens",
+  "m": "yes"
+ },
+ "craft_evidence": {
+  "owned": "NC",
+  "owned_d": "NC: paulsmith.com returned 403 on all 3 attempts (sitemap, about-us, sustainability). Wikipedia (context only) mentions no owned factory.",
+  "makers": "NC",
+  "mills": "NC",
+  "madein": "NC",
+  "countries": "NC: site blocked, no PDPs read.",
+  "heritage": "dated and placed",
+  "repair": "NC",
+  "process": "NC",
+  "urls": [
+   "https://en.wikipedia.org/wiki/Paul_Smith_(fashion_designer)"
+  ],
+  "conf": "low",
+  "read": "2026-10-03"
+ }
 }

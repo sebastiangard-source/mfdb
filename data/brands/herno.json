@@ -1,202 +1,275 @@
 {
-  "name": "Herno",
-  "band": "trueLux",
-  "seat": 138,
-  "dagger": 1,
-  "focus": {
-    "tech": 2,
-    "comfort": 3,
-    "craft": 4,
-    "style": 3
+ "name": "Herno",
+ "band": "trueLux",
+ "seat": 138,
+ "dagger": 1,
+ "focus": {
+  "tech": 2,
+  "comfort": 3,
+  "craft": 4,
+  "style": 3
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 2,
+  "linen": 2,
+  "cotton": 2,
+  "wool": 2,
+  "synth": 3
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 2,
+  "fuss": 2,
+  "status": 2,
+  "ital": 5,
+  "ski": 2,
+  "whitet": 2,
+  "logo": 1,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 3,
+  "surf": 1
+ },
+ "why": "Raincoats and outerwear in technical fabrics, made in Italy.",
+ "origin": "Founded in 1948 by Giuseppe Marenzi on Lake Maggiore; named for the river Erno.",
+ "say": "EHR-no or HER-no",
+ "chan": [
+  "O",
+  "D",
+  "I"
+ ],
+ "conf": "L",
+ "forgc": [
+  2,
+  3,
+  2
+ ],
+ "onething": {
+  "p": "Laminar jacket",
+  "u": "https://us.herno.com/en/search-results?q=laminar%20jacket&amp;prefn1=customFilter17&amp;prefv1=Male",
+  "n": "us.herno.com with male-filter params — functional, not tracking; keep verbatim"
+ },
+ "prices": [
+  [
+   180,
+   595
+  ],
+  [
+   270,
+   580
+  ],
+  [
+   395,
+   625
+  ],
+  null,
+  [
+   430,
+   1495
+  ],
+  [
+   495,
+   870
+  ],
+  [
+   825,
+   3595
+  ],
+  [
+   580,
+   610
+  ]
+ ],
+ "notes": {
+  "ital": "Founded at Lesa on Lake Maggiore in 1948, making raincoats — the local water was soft enough for the finishing. Outerwear came later, and the lake is still the address.",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 2; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "Herno's corporate site places its development, prototyping and production at its own Lesa premises on Lake Maggiore, describes industrial buildings and machinery added in 2018, and says about 100 staff there include tailors. It never says what share of the range is made there, and PDPs name no maker or mill and mostly show no origin. That is owned, named making of unknown coverage, which is a 4."
+ },
+ "doors": {
+  "c": "full",
+  "n": 2,
+  "cities": [
+   [
+    "New York",
+    "NY",
+    2
+   ]
+  ],
+  "basis": "master 2026-08-29, pre-recapture"
+ },
+ "cities": "2 stores — New York · department stores and independent menswear shops, and its own site",
+ "region": {
+  "o": [
+   1206,
+   1207
+  ],
+  "s": [
+   11,
+   27,
+   117,
+   150,
+   3208
+  ]
+ },
+ "addmen": true,
+ "site": {
+  "domain": "us.herno.com",
+  "platform": "salesforce_commerce",
+  "feed": "sitemap_products",
+  "feed_count": 1543,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "both",
+  "marks": [
+   "WINDSTOPPER",
+   "Loro Piana Storm System",
+   "Polartec",
+   "GORE-TEX (2L/3L, Laminar)",
+   "Nylon Ultralight",
+   "Nylon Chamonix"
+  ],
+  "source": "screen_36",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 347,
+  "w": 347,
+  "n": 53,
+  "s": 45,
+  "c": 2,
+  "x": 26,
+  "xh": 18,
+  "sp": "split",
+  "sc": [
+   "Parka & Jackets",
+   "Blazers",
+   "Laminar",
+   "Coats & Trench Coats",
+   "Vests",
+   "Raincoats"
+  ],
+  "nc": [
+   "T-shirts & Polo Shirts",
+   "Trousers",
+   "Sweaters & Cardigan"
+  ],
+  "st": "complete"
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Outerwear",
+  "Shoes"
+ ],
+ "garment_links": {
+  "T-shirt": "https://us.herno.com/en/men/clothing/t-shirts-and-polo-shirts/",
+  "Polo": "https://us.herno.com/en/men/clothing/t-shirts-and-polo-shirts/",
+  "Dress shirt": "https://us.herno.com/en/men/clothing/shirts/",
+  "Dress pants": "https://us.herno.com/en/men/clothing/trousers/",
+  "Sweater": "https://us.herno.com/en/men/clothing/sweaters-and-cardigan/",
+  "Outerwear": "https://us.herno.com/en/men/outerwear/"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Resort T-Shirt in Pure Cotton Jersey",
+   "lu": "https://us.herno.com/en/men/clothing/t-shirts-and-polo-shirts/resort-t-shirt-in-pure-cotton-jersey-navy-blue-JG00045UR521089200.html",
+   "hp": "T-Shirt in Wool Jersey (pure virgin wool)",
+   "hu": "https://us.herno.com/en/men/clothing/t-shirts-and-polo-shirts/t-shirt-in-wool%C2%A0jersey-navy-blue-JG0001UNW521409200.html",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 2,
-    "linen": 2,
-    "cotton": 2,
-    "wool": 2,
-    "synth": 3
+  "Polo": {
+   "lp": "Polo Shirt in Superfine Cotton Stretch (short sleeves)",
+   "lu": "https://us.herno.com/en/men/clothing/t-shirts-and-polo-shirts/polo-shirt-in-superfine-cotton-stretch-white-JPL00142U520031000.html",
+   "hp": "Polo Shirt in Bouclé Cotton Cashmere (short sleeves, 93% cotton/7% cashmere; full price $580, on sale at $406)",
+   "hu": "https://us.herno.com/en/men/clothing/t-shirts-and-polo-shirts/polo-shirt-in-boucle-cotton-cashmere-grey-pearl-MPL00012U721419403.html",
+   "b": "range"
   },
-  "dials": {
-    "dur": 3,
-    "forg": 2,
-    "fuss": 2,
-    "status": 2,
-    "ital": 5,
-    "ski": 2,
-    "whitet": 2,
-    "logo": 1,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 3,
-    "surf": 1
+  "Dress shirt": {
+   "lp": "Shirt in Summer Linen (classic collar, long sleeves; full price $395, on sale at $277)",
+   "lu": "https://us.herno.com/en/men/clothing/shirts/shirt-in-summer-linen-sky-CM000030U171589010.html",
+   "hp": "Lightweight Wool and Cashmere Fabric Shirt (93% wool/7% cashmere, spread collar)",
+   "hu": "https://us.herno.com/en/men/clothing/shirts/lightweight-wool-and-cashmere-fabric-shirt-ivory-CM000036U335621200.html",
+   "b": "range"
   },
-  "why": "Raincoats and outerwear in technical fabrics, made in Italy.",
-  "origin": "Founded in 1948 by Giuseppe Marenzi on Lake Maggiore; named for the river Erno.",
-  "say": "EHR-no or HER-no",
-  "chan": ["O", "D", "I"],
-  "conf": "L",
-  "forgc": [2, 3, 2],
-  "onething": {
-    "p": "Laminar jacket",
-    "u": "https://us.herno.com/en/search-results?q=laminar%20jacket&amp;prefn1=customFilter17&amp;prefv1=Male",
-    "n": "us.herno.com with male-filter params — functional, not tracking; keep verbatim"
+  "Dress pants": {
+   "lp": "Wool Gabardine Trousers (wool blend, darts, elasticated waist)",
+   "lu": "https://us.herno.com/en/men/clothing/trousers/wool-gabardine-trousers-light-taupe-PT000215U334532600.html",
+   "hp": "Resort Trousers in Cashmere and Silk (51% silk/49% cashmere, darts and pressed creases)",
+   "hu": "https://us.herno.com/en/men/clothing/trousers/resort-trousers-in-cashmere-and-silk-chantilly-PT00055UR380871985.html",
+   "b": "pair"
   },
-  "prices": [[180, 595], [270, 580], [395, 625], null, [430, 1495], [495, 870], [825, 3595], [580, 610]],
-  "notes": {
-    "ital": "Founded at Lesa on Lake Maggiore in 1948, making raincoats — the local water was soft enough for the finishing. Outerwear came later, and the lake is still the address.",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 2; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Herno's corporate site places its development, prototyping and production at its own Lesa premises on Lake Maggiore, describes industrial buildings and machinery added in 2018, and says about 100 staff there include tailors. It never says what share of the range is made there, and PDPs name no maker or mill and mostly show no origin. That is owned, named making of unknown coverage, which is a 4."
+  "Sweater": {
+   "lp": "Resort Sweater in Wool and Silk (crew neck, 70% virgin wool/30% silk)",
+   "lu": "https://us.herno.com/en/men/clothing/sweaters-and-cardigan/resort-sweater-in-wool-and-silk-dark-blue-MG00043UR700259280.html",
+   "hp": "Sweater in Cashmere (crew neck, 100% cashmere)",
+   "hu": "https://us.herno.com/en/men/clothing/sweaters-and-cardigan/sweater-in-cashmere-dark-blue-MG000222U710439290.html",
+   "b": "pair"
   },
-  "doors": {
-    "c": "full",
-    "n": 2,
-    "cities": [["New York", "NY", 2]],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Outerwear": {
+   "lp": "Raincoat in Dean",
+   "lu": "https://us.herno.com/en/men/outerwear/raincoats/raincoat-in-dean-navy-blue-IM000389U132389200.html",
+   "hp": "Trench Coat in New Cashmere and Changing Nylon",
+   "hu": "https://us.herno.com/en/men/outerwear/raincoats/trench-coat-in-new-cashmere-and-changing-nylon-navy-blue-IM0002UNW381039200.html",
+   "b": "range"
   },
-  "cities": "2 stores — New York · department stores and independent menswear shops, and its own site",
-  "region": {
-    "o": [1206, 1207],
-    "s": [11, 27, 116, 117, 150]
-  },
-  "addmen": true,
-  "site": {
-    "domain": "us.herno.com",
-    "platform": "salesforce_commerce",
-    "feed": "sitemap_products",
-    "feed_count": 1543,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "both",
-    "marks": [
-      "WINDSTOPPER",
-      "Loro Piana Storm System",
-      "Polartec",
-      "GORE-TEX (2L/3L, Laminar)",
-      "Nylon Ultralight",
-      "Nylon Chamonix"
-    ],
-    "source": "screen_36",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 347,
-    "w": 347,
-    "n": 53,
-    "s": 45,
-    "c": 2,
-    "x": 26,
-    "xh": 18,
-    "sp": "split",
-    "sc": ["Parka & Jackets", "Blazers", "Laminar", "Coats & Trench Coats", "Vests", "Raincoats"],
-    "nc": ["T-shirts & Polo Shirts", "Trousers", "Sweaters & Cardigan"],
-    "st": "complete"
-  },
-  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Outerwear", "Shoes"],
-  "garment_links": {
-    "T-shirt": "https://us.herno.com/en/men/clothing/t-shirts-and-polo-shirts/",
-    "Polo": "https://us.herno.com/en/men/clothing/t-shirts-and-polo-shirts/",
-    "Dress shirt": "https://us.herno.com/en/men/clothing/shirts/",
-    "Dress pants": "https://us.herno.com/en/men/clothing/trousers/",
-    "Sweater": "https://us.herno.com/en/men/clothing/sweaters-and-cardigan/",
-    "Outerwear": "https://us.herno.com/en/men/outerwear/"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Resort T-Shirt in Pure Cotton Jersey",
-      "lu": "https://us.herno.com/en/men/clothing/t-shirts-and-polo-shirts/resort-t-shirt-in-pure-cotton-jersey-navy-blue-JG00045UR521089200.html",
-      "hp": "T-Shirt in Wool Jersey (pure virgin wool)",
-      "hu": "https://us.herno.com/en/men/clothing/t-shirts-and-polo-shirts/t-shirt-in-wool%C2%A0jersey-navy-blue-JG0001UNW521409200.html",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Polo Shirt in Superfine Cotton Stretch (short sleeves)",
-      "lu": "https://us.herno.com/en/men/clothing/t-shirts-and-polo-shirts/polo-shirt-in-superfine-cotton-stretch-white-JPL00142U520031000.html",
-      "hp": "Polo Shirt in Bouclé Cotton Cashmere (short sleeves, 93% cotton/7% cashmere; full price $580, on sale at $406)",
-      "hu": "https://us.herno.com/en/men/clothing/t-shirts-and-polo-shirts/polo-shirt-in-boucle-cotton-cashmere-grey-pearl-MPL00012U721419403.html",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Shirt in Summer Linen (classic collar, long sleeves; full price $395, on sale at $277)",
-      "lu": "https://us.herno.com/en/men/clothing/shirts/shirt-in-summer-linen-sky-CM000030U171589010.html",
-      "hp": "Lightweight Wool and Cashmere Fabric Shirt (93% wool/7% cashmere, spread collar)",
-      "hu": "https://us.herno.com/en/men/clothing/shirts/lightweight-wool-and-cashmere-fabric-shirt-ivory-CM000036U335621200.html",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Wool Gabardine Trousers (wool blend, darts, elasticated waist)",
-      "lu": "https://us.herno.com/en/men/clothing/trousers/wool-gabardine-trousers-light-taupe-PT000215U334532600.html",
-      "hp": "Resort Trousers in Cashmere and Silk (51% silk/49% cashmere, darts and pressed creases)",
-      "hu": "https://us.herno.com/en/men/clothing/trousers/resort-trousers-in-cashmere-and-silk-chantilly-PT00055UR380871985.html",
-      "b": "pair"
-    },
-    "Sweater": {
-      "lp": "Resort Sweater in Wool and Silk (crew neck, 70% virgin wool/30% silk)",
-      "lu": "https://us.herno.com/en/men/clothing/sweaters-and-cardigan/resort-sweater-in-wool-and-silk-dark-blue-MG00043UR700259280.html",
-      "hp": "Sweater in Cashmere (crew neck, 100% cashmere)",
-      "hu": "https://us.herno.com/en/men/clothing/sweaters-and-cardigan/sweater-in-cashmere-dark-blue-MG000222U710439290.html",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "Raincoat in Dean",
-      "lu": "https://us.herno.com/en/men/outerwear/raincoats/raincoat-in-dean-navy-blue-IM000389U132389200.html",
-      "hp": "Trench Coat in New Cashmere and Changing Nylon",
-      "hu": "https://us.herno.com/en/men/outerwear/raincoats/trench-coat-in-new-cashmere-and-changing-nylon-navy-blue-IM0002UNW381039200.html",
-      "b": "range"
-    },
-    "Shoes": {
-      "lp": "Herno Maggiore Trainers in Suede and Mesh (dark brown)",
-      "lu": "https://us.herno.com/en/men/accessories/shoes/herno-maggiore-trainers-in-suede-and-mesh-dark-brown-SH000051U500018800.html",
-      "hp": "Herno Maggiore Trainers in Nylon (black)",
-      "hu": "https://us.herno.com/en/men/accessories/shoes/herno-maggiore-trainers-in-nylon-black-SH000050U500089300.html",
-      "b": "range"
-    }
-  },
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://us.herno.com/en/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "Herno Resort; Herno Laminar (checked, nothing it sells sets a figure)"
-  },
-  "price_checked": true,
-  "shop": "https://us.herno.com/en/search-results?q=",
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=159254",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "season": {
-    "l": "Resort FW26 (Men's Resort Collection FW26)",
-    "t": "collection page",
-    "u": "https://us.herno.com/en/resort-men/resort-men-fall-winter.html",
-    "m": "yes"
-  },
-  "craft_evidence": {
-    "owned": "yes",
-    "owned_d": "Herno's own premises at Lesa, Lake Maggiore: corporate history page (founded there 1948; company keeps 'creative and productive control'); environment page describes the Lesa headquarters' buildings and '2018' 'new industrial buildings camouflaged in the green of the Lake Maggiore eco-systems' and 'latest low-consumption machinery'; making-it page lists Prototypes and Development, Style Department and Production, with 'around 100 people including stylists, tailors, models and vendors'. No page says what share of garments is sewn there versus by outside workshops.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "some",
-    "countries": "Italy 1/5; not stated 4/5 in the fetched text (sample of 5 men's outerwear PDPs: trench, waxed jacket, vest, field jacket, blazer). Origin may sit in a collapsed tab the fetch did not see, so treat 4/5 'not stated' with caution.",
-    "heritage": "dated and placed",
-    "repair": "no",
-    "process": "some",
-    "urls": ["https://corporate.herno.com/en/making-it/", "https://corporate.herno.com/en/environment/"],
-    "conf": "medium",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Herno Maggiore Trainers in Suede and Mesh (dark brown)",
+   "lu": "https://us.herno.com/en/men/accessories/shoes/herno-maggiore-trainers-in-suede-and-mesh-dark-brown-SH000051U500018800.html",
+   "hp": "Herno Maggiore Trainers in Nylon (black)",
+   "hu": "https://us.herno.com/en/men/accessories/shoes/herno-maggiore-trainers-in-nylon-black-SH000050U500089300.html",
+   "b": "range"
   }
+ },
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://us.herno.com/en/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "Herno Resort; Herno Laminar (checked, nothing it sells sets a figure)"
+ },
+ "price_checked": true,
+ "shop": "https://us.herno.com/en/search-results?q=",
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=159254",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "season": {
+  "l": "Resort FW26 (Men's Resort Collection FW26)",
+  "t": "collection page",
+  "u": "https://us.herno.com/en/resort-men/resort-men-fall-winter.html",
+  "m": "yes"
+ },
+ "craft_evidence": {
+  "owned": "yes",
+  "owned_d": "Herno's own premises at Lesa, Lake Maggiore: corporate history page (founded there 1948; company keeps 'creative and productive control'); environment page describes the Lesa headquarters' buildings and '2018' 'new industrial buildings camouflaged in the green of the Lake Maggiore eco-systems' and 'latest low-consumption machinery'; making-it page lists Prototypes and Development, Style Department and Production, with 'around 100 people including stylists, tailors, models and vendors'. No page says what share of garments is sewn there versus by outside workshops.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "some",
+  "countries": "Italy 1/5; not stated 4/5 in the fetched text (sample of 5 men's outerwear PDPs: trench, waxed jacket, vest, field jacket, blazer). Origin may sit in a collapsed tab the fetch did not see, so treat 4/5 'not stated' with caution.",
+  "heritage": "dated and placed",
+  "repair": "no",
+  "process": "some",
+  "urls": [
+   "https://corporate.herno.com/en/making-it/",
+   "https://corporate.herno.com/en/environment/"
+  ],
+  "conf": "medium",
+  "read": "2026-10-03"
+ }
 }

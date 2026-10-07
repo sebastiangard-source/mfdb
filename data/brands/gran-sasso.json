@@ -1,196 +1,265 @@
 {
-  "name": "Gran Sasso",
-  "band": "accessible",
-  "seat": 130,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 3,
-    "craft": 4,
-    "style": 3
+ "name": "Gran Sasso",
+ "band": "accessible",
+ "seat": 130,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 3,
+  "craft": 4,
+  "style": 3
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 3,
+  "linen": 2,
+  "cotton": 3,
+  "wool": 4,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 3,
+  "fuss": 2,
+  "golffice": -1,
+  "shoes": 0,
+  "ital": 4,
+  "whitet": 2,
+  "logo": 1,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Fully fashioned knitwear — merino, cashmere, Sea Island cotton polos — from a family factory in the Abruzzo mountains.",
+ "origin": "Founded in 1952 by the Di Stefano family in Sant'Egidio alla Vibrata; still family-run.",
+ "chan": [
+  "D",
+  "I"
+ ],
+ "conf": "M",
+ "forgc": [
+  4,
+  3,
+  1
+ ],
+ "onething": {
+  "p": "Merino crewneck",
+  "u": "https://www.nordstrom.com/sr?keyword=gran%20sasso",
+  "n": "via Nordstrom — best-guess link, verify"
+ },
+ "prices": [
+  [
+   230,
+   490
+  ],
+  [
+   290,
+   460
+  ],
+  [
+   490,
+   490
+  ],
+  null,
+  [
+   490,
+   620
+  ],
+  [
+   270,
+   970
+  ],
+  [
+   920,
+   1400
+  ],
+  [
+   540,
+   680
+  ]
+ ],
+ "price_checked": true,
+ "notes": {
+  "wool": "fully-fashioned merino — the entry ticket to Italian knitwear",
+  "craft": "Gran Sasso's own pages name its knitwear factory at Sant'Egidio alla Vibrata (36,000 sq m, 400+ staff) and a weaving plant at Roseto degli Abruzzi, and PDPs say Made in Italy. The factory makes the knitwear core, but the sustainability page says it also works with outside artisan workshops, and nothing ties trousers/outerwear to the owned plants.",
+  "cotton": "Sea Island polos at half the London price",
+  "ital": "An Abruzzo knitwear mill that is vertical from yarn to finished garment, which almost nothing else at its price is. Named for the mountain above the factory.",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 2; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+ },
+ "doors": {
+  "c": "full",
+  "n": 0,
+  "cities": [],
+  "basis": "master 2026-08-29, pre-recapture"
+ },
+ "cities": "No store of its own in the US · department stores and independent menswear shops, and its own site",
+ "region": {
+  "o": [],
+  "s": [
+   11,
+   27,
+   44,
+   49,
+   58,
+   60,
+   66,
+   99,
+   117,
+   150,
+   3208
+  ]
+ },
+ "site": {
+  "domain": "shop.gransasso.it",
+  "platform": "custom",
+  "feed": "sitemap_products",
+  "feed_count": 679,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "unclear",
+  "marks": [
+   "Teflon",
+   "Rain Wool",
+   "Alcantara",
+   "Super Tasmania"
+  ],
+  "source": "flag_sample",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 172,
+  "w": 169,
+  "n": 94,
+  "s": 4,
+  "c": 0,
+  "x": 2,
+  "xh": 1,
+  "sp": "one",
+  "sc": [
+   "Swim"
+  ],
+  "nc": [
+   "Knitwear",
+   "Polos/T-shirts",
+   "Accessories"
+  ],
+  "st": "complete"
+ },
+ "shop": "https://shop.gransasso.it/en/search?q=",
+ "garment_links": {
+  "T-shirt": "https://shop.gransasso.it/en/t-shirts-men-ss",
+  "Polo": "https://shop.gransasso.it/en/polos-and-skipper-men-ss",
+  "Dress shirt": "https://shop.gransasso.it/en/shirts-men-ss",
+  "Dress pants": "https://shop.gransasso.it/en/trousers-men-fw",
+  "Sweater": "https://shop.gransasso.it/en/knitwear-men-fw",
+  "Outerwear": "https://shop.gransasso.it/en/outerwear-men-fw",
+  "Shoes": "https://shop.gransasso.it/en/shoes-men-fw"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Mercerized cotton t-shirt",
+   "lu": "https://shop.gransasso.it/en/Mercerized-cotton-t-shirt-15089",
+   "hp": "Wool cashmere and silk knit t-shirt (40% wool/30% cashmere/30% silk)",
+   "hu": "https://shop.gransasso.it/en/Wool-cashmere-and-silk-knit-t-shirt-15287",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 3,
-    "linen": 2,
-    "cotton": 3,
-    "wool": 4,
-    "synth": 1
+  "Polo": {
+   "lp": "Vintage piquet jersey polo (short sleeve; compare-at, on markdown at $200)",
+   "lu": "https://shop.gransasso.it/en/Vintage-piquet-jersey-polo-14061",
+   "hp": "Shirt collar organic cotton knit polo (short sleeve; compare-at, on markdown at $330)",
+   "hu": "https://shop.gransasso.it/en/Shirt-collar-organic-cotton-knit-polo-14020",
+   "b": "range"
   },
-  "dials": {
-    "dur": 3,
-    "forg": 3,
-    "fuss": 2,
-    "golffice": -1,
-    "shoes": 0,
-    "ital": 4,
-    "whitet": 2,
-    "logo": 1,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
+  "Dress shirt": {
+   "lp": "Button down flannel shirt (pure cotton)",
+   "lu": "https://shop.gransasso.it/en/Button-down-flannel-shirt-15137",
+   "hp": "Button down flannel shirt (pure cotton)",
+   "hu": "https://shop.gransasso.it/en/Button-down-flannel-shirt-15137",
+   "b": "single"
   },
-  "why": "Fully fashioned knitwear — merino, cashmere, Sea Island cotton polos — from a family factory in the Abruzzo mountains.",
-  "origin": "Founded in 1952 by the Di Stefano family in Sant'Egidio alla Vibrata; still family-run.",
-  "chan": ["D", "I"],
-  "conf": "M",
-  "forgc": [4, 3, 1],
-  "onething": {
-    "p": "Merino crewneck",
-    "u": "https://www.nordstrom.com/sr?keyword=gran%20sasso",
-    "n": "via Nordstrom — best-guess link, verify"
+  "Dress pants": {
+   "lp": "Pleats technical wool trousers",
+   "lu": "https://shop.gransasso.it/en/Pleats-technical-wool-trousers-14886",
+   "hp": "Herringbone pleated trousers (100% Shetland virgin wool)",
+   "hu": "https://shop.gransasso.it/en/Herringbone-pleated-trousers-15159",
+   "b": "range"
   },
-  "prices": [[230, 490], [290, 460], [490, 490], null, [490, 620], [270, 970], [920, 1400], [540, 680]],
-  "price_checked": true,
-  "notes": {
-    "wool": "fully-fashioned merino — the entry ticket to Italian knitwear",
-    "craft": "Gran Sasso's own pages name its knitwear factory at Sant'Egidio alla Vibrata (36,000 sq m, 400+ staff) and a weaving plant at Roseto degli Abruzzi, and PDPs say Made in Italy. The factory makes the knitwear core, but the sustainability page says it also works with outside artisan workshops, and nothing ties trousers/outerwear to the owned plants.",
-    "cotton": "Sea Island polos at half the London price",
-    "ital": "An Abruzzo knitwear mill that is vertical from yarn to finished garment, which almost nothing else at its price is. Named for the mountain above the factory.",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 2; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+  "Sweater": {
+   "lp": "Merinos wool crew neck",
+   "lu": "https://shop.gransasso.it/en/Merinos-wool-crew-neck-14942",
+   "hp": "Diamond cashmere crew neck (100% cashmere, 3-ply)",
+   "hu": "https://shop.gransasso.it/en/Diamond-cashmere-crew-neck-15282",
+   "b": "pair"
   },
-  "doors": {
-    "c": "full",
-    "n": 0,
-    "cities": [],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Outerwear": {
+   "lp": "Eco-padded flannel jacket",
+   "lu": "https://shop.gransasso.it/en/Eco-padded-flannel-jacket-14853",
+   "hp": "Eco-padded alcantara jacket",
+   "hu": "https://shop.gransasso.it/en/Eco-padded-alcantara-jacket-14799",
+   "b": "range"
   },
-  "cities": "No store of its own in the US · department stores and independent menswear shops, and its own site",
-  "region": {
-    "o": [],
-    "s": [11, 27, 44, 49, 58, 60, 66, 99, 116, 117, 150]
-  },
-  "site": {
-    "domain": "shop.gransasso.it",
-    "platform": "custom",
-    "feed": "sitemap_products",
-    "feed_count": 679,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "unclear",
-    "marks": ["Teflon", "Rain Wool", "Alcantara", "Super Tasmania"],
-    "source": "flag_sample",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 172,
-    "w": 169,
-    "n": 94,
-    "s": 4,
-    "c": 0,
-    "x": 2,
-    "xh": 1,
-    "sp": "one",
-    "sc": ["Swim"],
-    "nc": ["Knitwear", "Polos/T-shirts", "Accessories"],
-    "st": "complete"
-  },
-  "shop": "https://shop.gransasso.it/en/search?q=",
-  "garment_links": {
-    "T-shirt": "https://shop.gransasso.it/en/t-shirts-men-ss",
-    "Polo": "https://shop.gransasso.it/en/polos-and-skipper-men-ss",
-    "Dress shirt": "https://shop.gransasso.it/en/shirts-men-ss",
-    "Dress pants": "https://shop.gransasso.it/en/trousers-men-fw",
-    "Sweater": "https://shop.gransasso.it/en/knitwear-men-fw",
-    "Outerwear": "https://shop.gransasso.it/en/outerwear-men-fw",
-    "Shoes": "https://shop.gransasso.it/en/shoes-men-fw"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Mercerized cotton t-shirt",
-      "lu": "https://shop.gransasso.it/en/Mercerized-cotton-t-shirt-15089",
-      "hp": "Wool cashmere and silk knit t-shirt (40% wool/30% cashmere/30% silk)",
-      "hu": "https://shop.gransasso.it/en/Wool-cashmere-and-silk-knit-t-shirt-15287",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Vintage piquet jersey polo (short sleeve; compare-at, on markdown at $200)",
-      "lu": "https://shop.gransasso.it/en/Vintage-piquet-jersey-polo-14061",
-      "hp": "Shirt collar organic cotton knit polo (short sleeve; compare-at, on markdown at $330)",
-      "hu": "https://shop.gransasso.it/en/Shirt-collar-organic-cotton-knit-polo-14020",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Button down flannel shirt (pure cotton)",
-      "lu": "https://shop.gransasso.it/en/Button-down-flannel-shirt-15137",
-      "hp": "Button down flannel shirt (pure cotton)",
-      "hu": "https://shop.gransasso.it/en/Button-down-flannel-shirt-15137",
-      "b": "single"
-    },
-    "Dress pants": {
-      "lp": "Pleats technical wool trousers",
-      "lu": "https://shop.gransasso.it/en/Pleats-technical-wool-trousers-14886",
-      "hp": "Herringbone pleated trousers (100% Shetland virgin wool)",
-      "hu": "https://shop.gransasso.it/en/Herringbone-pleated-trousers-15159",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Merinos wool crew neck",
-      "lu": "https://shop.gransasso.it/en/Merinos-wool-crew-neck-14942",
-      "hp": "Diamond cashmere crew neck (100% cashmere, 3-ply)",
-      "hu": "https://shop.gransasso.it/en/Diamond-cashmere-crew-neck-15282",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "Eco-padded flannel jacket",
-      "lu": "https://shop.gransasso.it/en/Eco-padded-flannel-jacket-14853",
-      "hp": "Eco-padded alcantara jacket",
-      "hu": "https://shop.gransasso.it/en/Eco-padded-alcantara-jacket-14799",
-      "b": "range"
-    },
-    "Shoes": {
-      "lp": "Knit sneakers",
-      "lu": "https://shop.gransasso.it/en/Knit-sneakers-15244",
-      "hp": "Suede leather ankle boots",
-      "hu": "https://shop.gransasso.it/en/Suede-leather-ankle-boots-14983",
-      "b": "range"
-    }
-  },
-  "price_range_only": ["T-shirt", "Polo", "Dress pants", "Outerwear", "Shoes"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://shop.gransasso.it/en/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=256712",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "season": {
-    "l": "AI 2026/27 (Autunno Inverno 2026)",
-    "t": "lookbook",
-    "u": "https://shop.gransasso.it/it/gran-sasso-donna-ai-202627-vivere-in-riva-al-lago",
-    "m": "womens only"
-  },
-  "craft_evidence": {
-    "owned": "yes",
-    "owned_d": "Brand history page: Maglificio Gran Sasso headquarters at Sant'Egidio alla Vibrata (Abruzzo), over 36,000 sq m, designed from 2002 (architect Guido Canali), housing production with 400+ employees; 2005 second plant for cotton loom weaving at Roseto degli Abruzzi. Il Maglificio page (IT) says the site 'encompasses the entire production chain, from yarn selection to finished garment'. Ownership is implied by these brand pages (the company's own headquarters), not stated in a filing.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "every product",
-    "countries": "Italy 5/5 (sample of 5 PDPs: 2 crew/turtleneck knits, merino zip polo, pinstripe flannel trousers, corduroy cargo pants; corduroy page shows 'Made in Italy since 1952' brand line rather than an item-level line). Outerwear category returned 403, not sampled.",
-    "heritage": "dated and placed",
-    "repair": "no",
-    "process": "some",
-    "urls": ["https://shop.gransasso.it/it/il-maglificio", "https://shop.gransasso.it/en/the-history"],
-    "conf": "medium",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Knit sneakers",
+   "lu": "https://shop.gransasso.it/en/Knit-sneakers-15244",
+   "hp": "Suede leather ankle boots",
+   "hu": "https://shop.gransasso.it/en/Suede-leather-ankle-boots-14983",
+   "b": "range"
   }
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress pants",
+  "Outerwear",
+  "Shoes"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://shop.gransasso.it/en/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=256712",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "season": {
+  "l": "AI 2026/27 (Autunno Inverno 2026)",
+  "t": "lookbook",
+  "u": "https://shop.gransasso.it/it/gran-sasso-donna-ai-202627-vivere-in-riva-al-lago",
+  "m": "womens only"
+ },
+ "craft_evidence": {
+  "owned": "yes",
+  "owned_d": "Brand history page: Maglificio Gran Sasso headquarters at Sant'Egidio alla Vibrata (Abruzzo), over 36,000 sq m, designed from 2002 (architect Guido Canali), housing production with 400+ employees; 2005 second plant for cotton loom weaving at Roseto degli Abruzzi. Il Maglificio page (IT) says the site 'encompasses the entire production chain, from yarn selection to finished garment'. Ownership is implied by these brand pages (the company's own headquarters), not stated in a filing.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "every product",
+  "countries": "Italy 5/5 (sample of 5 PDPs: 2 crew/turtleneck knits, merino zip polo, pinstripe flannel trousers, corduroy cargo pants; corduroy page shows 'Made in Italy since 1952' brand line rather than an item-level line). Outerwear category returned 403, not sampled.",
+  "heritage": "dated and placed",
+  "repair": "no",
+  "process": "some",
+  "urls": [
+   "https://shop.gransasso.it/it/il-maglificio",
+   "https://shop.gransasso.it/en/the-history"
+  ],
+  "conf": "medium",
+  "read": "2026-10-03"
+ }
 }

@@ -1,178 +1,233 @@
 {
-  "name": "Raffi",
-  "band": "accessible",
-  "seat": 131,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 4,
-    "craft": 1,
-    "style": 2
+ "name": "Raffi",
+ "band": "accessible",
+ "seat": 131,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 4,
+  "craft": 1,
+  "style": 2
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 5,
+  "linen": 1,
+  "cotton": 3,
+  "wool": 2,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 3,
+  "fuss": 2,
+  "golffice": -1,
+  "shoes": 0,
+  "status": 2,
+  "whitet": 2,
+  "logo": 1,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Cashmere and cotton knitwear from an American family company, sold through specialty stores.",
+ "origin": "Founded in 1998 by Raffi Shaya; run by his wife and daughters under the Raffi Forever label since 2023.",
+ "chan": [
+  "I",
+  "D"
+ ],
+ "conf": "S",
+ "forgc": [
+  4,
+  3,
+  1
+ ],
+ "shop": "https://www.raffionline.com/search?q=",
+ "onething": {
+  "p": "Cashmere crewneck",
+  "u": "https://www.raffionline.com/search?q=crewneck&amp;options%5Bprefix%5D=last&amp;type=product",
+  "n": "works"
+ },
+ "prices": [
+  [
+   95,
+   125
+  ],
+  [
+   115,
+   215
+  ],
+  [
+   170,
+   185
+  ],
+  null,
+  null,
+  [
+   150,
+   415
+  ],
+  [
+   230,
+   340
+  ],
+  null
+ ],
+ "price_checked": true,
+ "notes": {
+  "cashmere": "called the King of Cashmere by the menswear trade itself — a holiday-season business that sells out mostly at full price",
+  "comfort": "washable-cashmere treatments and Acqua Cotton hand as the house competence",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 2; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "Raffi's site names no factory or mill and owns none, and its product pages give fiber composition but no country of make. The about pages are about the founder and design philosophy, not making. Nothing on the site is checkable about who makes the clothes, so it scores 1."
+ },
+ "doors": {
+  "c": "full",
+  "n": 0,
+  "cities": [],
+  "basis": "master 2026-08-29, pre-recapture"
+ },
+ "cities": "No store of its own in the US · department stores and independent menswear shops, and its own site",
+ "region": {
+  "o": [],
+  "s": [
+   6,
+   7,
+   9,
+   10,
+   47,
+   50,
+   58,
+   62,
+   96,
+   118,
+   141,
+   151,
+   152,
+   3208
+  ]
+ },
+ "site": {
+  "domain": "raffionline.com",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 214,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "house",
+  "marks": [
+   "Aqua Cotton - HOUSE fabric name, in 72 of 214 product descriptions, written in the composition position as the material itself: 'a dash-printed button-front shirt in 100% Aqua Cotton', 'a mini-triangle printed polo in 100% Aqua Cotton', 'in soft Aqua Cotton'. It is also a product tag on 68 records a"
+  ],
+  "source": "census_followup",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 184,
+  "w": 177,
+  "n": 94,
+  "s": 2,
+  "c": 0,
+  "x": 1,
+  "xh": 1,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "Polos",
+   "Sweaters",
+   "Shirts"
+  ],
+  "st": "complete"
+ },
+ "garment_links": {
+  "T-shirt": "https://www.raffionline.com/collections/mens-shirts",
+  "Polo": "https://www.raffionline.com/collections/mens-polos",
+  "Dress shirt": "https://www.raffionline.com/collections/mens-polos",
+  "Sweater": "https://www.raffionline.com/collections/mens-sweaters",
+  "Outerwear": "https://www.raffionline.com/collections/mens-outerwear"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "THE LAFAYETTE",
+   "lu": "https://www.raffionline.com/products/the-lafayette",
+   "hp": "THE SILAS",
+   "hu": "https://www.raffionline.com/products/the-silas",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 5,
-    "linen": 1,
-    "cotton": 3,
-    "wool": 2,
-    "synth": 1
+  "Polo": {
+   "lp": "THE SHERWOOD",
+   "lu": "https://www.raffionline.com/products/the-sherwood",
+   "hp": "THE MAC",
+   "hu": "https://www.raffionline.com/products/the-mac",
+   "b": "range"
   },
-  "dials": {
-    "dur": 3,
-    "forg": 3,
-    "fuss": 2,
-    "golffice": -1,
-    "shoes": 0,
-    "status": 2,
-    "whitet": 2,
-    "logo": 1,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
+  "Dress shirt": {
+   "lp": "THE BRAYDEN",
+   "lu": "https://www.raffionline.com/products/qp12800",
+   "hp": "THE TANNER",
+   "hu": "https://www.raffionline.com/products/the-tanner",
+   "b": "range"
   },
-  "why": "Cashmere and cotton knitwear from an American family company, sold through specialty stores.",
-  "origin": "Founded in 1998 by Raffi Shaya; run by his wife and daughters under the Raffi Forever label since 2023.",
-  "chan": ["I", "D"],
-  "conf": "S",
-  "forgc": [4, 3, 1],
-  "shop": "https://www.raffionline.com/search?q=",
-  "onething": {
-    "p": "Cashmere crewneck",
-    "u": "https://www.raffionline.com/search?q=crewneck&amp;options%5Bprefix%5D=last&amp;type=product",
-    "n": "works"
+  "Sweater": {
+   "lp": "THE BODI",
+   "lu": "https://www.raffionline.com/products/the-bodi",
+   "hp": "THE ASHFORD",
+   "hu": "https://www.raffionline.com/products/the-ashford",
+   "b": "pair"
   },
-  "prices": [[95, 125], [115, 215], [170, 185], null, null, [150, 415], [230, 340], null],
-  "price_checked": true,
-  "notes": {
-    "cashmere": "called the King of Cashmere by the menswear trade itself — a holiday-season business that sells out mostly at full price",
-    "comfort": "washable-cashmere treatments and Acqua Cotton hand as the house competence",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 2; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Raffi's site names no factory or mill and owns none, and its product pages give fiber composition but no country of make. The about pages are about the founder and design philosophy, not making. Nothing on the site is checkable about who makes the clothes, so it scores 1."
-  },
-  "doors": {
-    "c": "full",
-    "n": 0,
-    "cities": [],
-    "basis": "master 2026-08-29, pre-recapture"
-  },
-  "cities": "No store of its own in the US · department stores and independent menswear shops, and its own site",
-  "region": {
-    "o": [],
-    "s": [6, 7, 9, 10, 47, 50, 58, 62, 96, 116, 118, 141, 151, 152]
-  },
-  "site": {
-    "domain": "raffionline.com",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 214,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "house",
-    "marks": [
-      "Aqua Cotton - HOUSE fabric name, in 72 of 214 product descriptions, written in the composition position as the material itself: 'a dash-printed button-front shirt in 100% Aqua Cotton', 'a mini-triangle printed polo in 100% Aqua Cotton', 'in soft Aqua Cotton'. It is also a product tag on 68 records a"
-    ],
-    "source": "census_followup",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 184,
-    "w": 177,
-    "n": 94,
-    "s": 2,
-    "c": 0,
-    "x": 1,
-    "xh": 1,
-    "sp": "one",
-    "sc": [],
-    "nc": ["Polos", "Sweaters", "Shirts"],
-    "st": "complete"
-  },
-  "garment_links": {
-    "T-shirt": "https://www.raffionline.com/collections/mens-shirts",
-    "Polo": "https://www.raffionline.com/collections/mens-polos",
-    "Dress shirt": "https://www.raffionline.com/collections/mens-polos",
-    "Sweater": "https://www.raffionline.com/collections/mens-sweaters",
-    "Outerwear": "https://www.raffionline.com/collections/mens-outerwear"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "THE LAFAYETTE",
-      "lu": "https://www.raffionline.com/products/the-lafayette",
-      "hp": "THE SILAS",
-      "hu": "https://www.raffionline.com/products/the-silas",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "THE SHERWOOD",
-      "lu": "https://www.raffionline.com/products/the-sherwood",
-      "hp": "THE MAC",
-      "hu": "https://www.raffionline.com/products/the-mac",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "THE BRAYDEN",
-      "lu": "https://www.raffionline.com/products/qp12800",
-      "hp": "THE TANNER",
-      "hu": "https://www.raffionline.com/products/the-tanner",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "THE BODI",
-      "lu": "https://www.raffionline.com/products/the-bodi",
-      "hp": "THE ASHFORD",
-      "hu": "https://www.raffionline.com/products/the-ashford",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "THE CHRIS",
-      "lu": "https://www.raffionline.com/products/the-chris",
-      "hp": "THE CALLAHAN",
-      "hu": "https://www.raffionline.com/products/the-callahan",
-      "b": "range"
-    }
-  },
-  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Outerwear"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.raffionline.com/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?search_text=Raffi&catalog[]=5",
-      "m": "text search",
-      "n": "Short name — text search will pull noise"
-    }
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "No factory or mill claimed on /pages/about, /pages/about-raffi-shaya, /pages/raffi-way-of-life or FAQs; about page describes a family business that designs.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "none",
-    "countries": "Not stated on 4/4 PDPs (Garrett cashmere sweater, Noah knit, Linden shirt, Howard pant). Shopify PDPs fetched with composition/care visible; origin not seen.",
-    "heritage": "vague",
-    "repair": "no",
-    "process": "no",
-    "urls": [
-      "https://www.raffionline.com/pages/about",
-      "https://www.raffionline.com/products/the-garrett-cashmere"
-    ],
-    "conf": "high",
-    "read": "2026-10-03"
+  "Outerwear": {
+   "lp": "THE CHRIS",
+   "lu": "https://www.raffionline.com/products/the-chris",
+   "hp": "THE CALLAHAN",
+   "hu": "https://www.raffionline.com/products/the-callahan",
+   "b": "range"
   }
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Outerwear"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.raffionline.com/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?search_text=Raffi&catalog[]=5",
+   "m": "text search",
+   "n": "Short name — text search will pull noise"
+  }
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "No factory or mill claimed on /pages/about, /pages/about-raffi-shaya, /pages/raffi-way-of-life or FAQs; about page describes a family business that designs.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "none",
+  "countries": "Not stated on 4/4 PDPs (Garrett cashmere sweater, Noah knit, Linden shirt, Howard pant). Shopify PDPs fetched with composition/care visible; origin not seen.",
+  "heritage": "vague",
+  "repair": "no",
+  "process": "no",
+  "urls": [
+   "https://www.raffionline.com/pages/about",
+   "https://www.raffionline.com/products/the-garrett-cashmere"
+  ],
+  "conf": "high",
+  "read": "2026-10-03"
+ }
 }

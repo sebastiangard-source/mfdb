@@ -1,191 +1,255 @@
 {
-  "name": "Eton",
-  "band": "accessible",
-  "seat": 93,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 2,
-    "craft": 2,
-    "style": 3
+ "name": "Eton",
+ "band": "accessible",
+ "seat": 93,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 2,
+  "craft": 2,
+  "style": 3
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 4,
+  "wool": 1,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 3,
+  "fuss": -2,
+  "golffice": -3,
+  "shoes": 0,
+  "finbro": 3,
+  "prep": 2,
+  "scandi": 2,
+  "whitet": 2,
+  "logo": 1,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Dress shirts, the company's only product for most of its history, in a range of fits and fabrics.",
+ "origin": "Founded in Gånghester, Sweden, in 1928 by Annie Pettersson; the factory at its headquarters was built in 1954.",
+ "chan": [
+  "O",
+  "D",
+  "I",
+  "X"
+ ],
+ "conf": "M",
+ "forgc": [
+  2,
+  4,
+  2
+ ],
+ "onething": {
+  "p": "Signature twill dress shirt",
+  "u": "https://www.etonshirts.com/us/search?q=signature+twill",
+  "n": "best-guess link — verify"
+ },
+ "prices": [
+  [
+   130,
+   250
+  ],
+  [
+   170,
+   250
+  ],
+  [
+   250,
+   550
+  ],
+  null,
+  null,
+  [
+   350,
+   695
+  ],
+  [
+   495,
+   1495
+  ],
+  null
+ ],
+ "price_checked": true,
+ "notes": {
+  "cotton": "signature twills and poplins — the shirt wall's benchmark",
+  "finbro": "the banker's shirt — non-iron done at quality",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 2; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "Eton's own 2025 sustainability report says all manufacturing is outsourced; the Gånghester site keeps a sample atelier, not production. Shirt pages name neither mill nor country, while knit pages name Tollegno yarn and Italy. Heritage is real but no longer owned making: a 2, with 3 arguable on the knit mill naming."
+ },
+ "doors": {
+  "c": "full",
+  "n": 2,
+  "cities": [
+   [
+    "New York",
+    "NY",
+    2
+   ]
+  ],
+  "basis": "recapture 2026-09"
+ },
+ "cities": "2 stores — New York · department stores and independent menswear shops, and its own site",
+ "region": {
+  "o": [
+   837,
+   838
+  ],
+  "s": [
+   2,
+   11,
+   27,
+   44,
+   49,
+   60,
+   62,
+   66,
+   78,
+   82,
+   117,
+   3208
+  ]
+ },
+ "site": {
+  "domain": "etonshirts.com",
+  "platform": "custom",
+  "feed": "sitemap_products",
+  "feed_count": 6129,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "both",
+  "marks": [
+   "HOUSE (shipped as structured product fields): functionName taxonomy - Wrinkle Resistant, Luster, Natural Stretch, Cooling, Warming, Garment Wash, Soft touch, Breathable, Water-repellent, Absorbing, Naturally crease resistant, Smooth feel, Rich/Heavy texture",
+   "fabricName taxonomy - Signature Twill/Pop"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 1335,
+  "w": 1272,
+  "n": 92,
+  "s": 2,
+  "c": 1,
+  "x": 7,
+  "xh": 3,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "Dress Shirts",
+   "Casual Shirts",
+   "Shirts (uncategorised)"
+  ],
+  "st": "complete"
+ },
+ "garment_links": {
+  "T-shirt": "https://www.etonshirts.com/us/en/category/t-shirts",
+  "Polo": "https://www.etonshirts.com/us/en/category/polo-shirts",
+  "Dress shirt": "https://www.etonshirts.com/us/en/category/dress-shirts",
+  "Sweater": "https://www.etonshirts.com/us/en/category/knitwear",
+  "Outerwear": "https://www.etonshirts.com/us/en/category/coats-and-jackets"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Crewneck T-Shirt (Supima cotton)",
+   "lu": "https://www.etonshirts.com/us/en/product/white-t-shirt",
+   "hp": "Knitted T-Shirt (self-rib mercerized cotton)",
+   "hu": "https://www.etonshirts.com/us/en/product/dark-blue-self-rib-cotton-t-shirt",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 1,
-    "linen": 1,
-    "cotton": 4,
-    "wool": 1,
-    "synth": 1
+  "Polo": {
+   "lp": "Piqué Polo Shirt (Pima cotton)",
+   "lu": "https://www.etonshirts.com/us/en/product/beige-pima-cotton-pique-polo",
+   "hp": "Cotton Linen Polo",
+   "hu": "https://www.etonshirts.com/us/en/product/dark-purple-cotton-linen-polo-shirt",
+   "b": "range"
   },
-  "dials": {
-    "dur": 3,
-    "forg": 3,
-    "fuss": -2,
-    "golffice": -3,
-    "shoes": 0,
-    "finbro": 3,
-    "prep": 2,
-    "scandi": 2,
-    "whitet": 2,
-    "logo": 1,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
+  "Dress shirt": {
+   "lp": "White Signature Twill Shirt",
+   "lu": "https://www.etonshirts.com/us/en/product/white-shirt-signature-twill",
+   "hp": "Check Cotton Silk Cashmere Shirt",
+   "hu": "https://www.etonshirts.com/us/en/product/dark-brown-plaid-check-cotton-silk-cashmere-shirt",
+   "b": "range"
   },
-  "why": "Dress shirts, the company's only product for most of its history, in a range of fits and fabrics.",
-  "origin": "Founded in Gånghester, Sweden, in 1928 by Annie Pettersson; the factory at its headquarters was built in 1954.",
-  "chan": ["O", "D", "I", "X"],
-  "conf": "M",
-  "forgc": [2, 4, 2],
-  "onething": {
-    "p": "Signature twill dress shirt",
-    "u": "https://www.etonshirts.com/us/search?q=signature+twill",
-    "n": "best-guess link — verify"
+  "Sweater": {
+   "lp": "Knit Crewneck (merino wool)",
+   "lu": "https://www.etonshirts.com/us/en/product/navy-blue-merino-knit-crewneck",
+   "hp": "Cashmere Knit crew neck (100% cashmere)",
+   "hu": "https://www.etonshirts.com/us/en/product/navy-blue-cashmere-knit-crew-neck",
+   "b": "pair"
   },
-  "prices": [[130, 250], [170, 250], [250, 550], null, null, [350, 695], [495, 1495], null],
-  "price_checked": true,
-  "notes": {
-    "cotton": "signature twills and poplins — the shirt wall's benchmark",
-    "finbro": "the banker's shirt — non-iron done at quality",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 2; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Eton's own 2025 sustainability report says all manufacturing is outsourced; the Gånghester site keeps a sample atelier, not production. Shirt pages name neither mill nor country, while knit pages name Tollegno yarn and Italy. Heritage is real but no longer owned making: a 2, with 3 arguable on the knit mill naming."
-  },
-  "doors": {
-    "c": "full",
-    "n": 2,
-    "cities": [["New York", "NY", 2]],
-    "basis": "recapture 2026-09"
-  },
-  "cities": "2 stores — New York · department stores and independent menswear shops, and its own site",
-  "region": {
-    "o": [837, 838],
-    "s": [2, 11, 27, 44, 49, 60, 62, 66, 78, 82, 116, 117]
-  },
-  "site": {
-    "domain": "etonshirts.com",
-    "platform": "custom",
-    "feed": "sitemap_products",
-    "feed_count": 6129,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "both",
-    "marks": [
-      "HOUSE (shipped as structured product fields): functionName taxonomy - Wrinkle Resistant, Luster, Natural Stretch, Cooling, Warming, Garment Wash, Soft touch, Breathable, Water-repellent, Absorbing, Naturally crease resistant, Smooth feel, Rich/Heavy texture",
-      "fabricName taxonomy - Signature Twill/Pop"
-    ],
-    "source": "census",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 1335,
-    "w": 1272,
-    "n": 92,
-    "s": 2,
-    "c": 1,
-    "x": 7,
-    "xh": 3,
-    "sp": "one",
-    "sc": [],
-    "nc": ["Dress Shirts", "Casual Shirts", "Shirts (uncategorised)"],
-    "st": "complete"
-  },
-  "garment_links": {
-    "T-shirt": "https://www.etonshirts.com/us/en/category/t-shirts",
-    "Polo": "https://www.etonshirts.com/us/en/category/polo-shirts",
-    "Dress shirt": "https://www.etonshirts.com/us/en/category/dress-shirts",
-    "Sweater": "https://www.etonshirts.com/us/en/category/knitwear",
-    "Outerwear": "https://www.etonshirts.com/us/en/category/coats-and-jackets"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Crewneck T-Shirt (Supima cotton)",
-      "lu": "https://www.etonshirts.com/us/en/product/white-t-shirt",
-      "hp": "Knitted T-Shirt (self-rib mercerized cotton)",
-      "hu": "https://www.etonshirts.com/us/en/product/dark-blue-self-rib-cotton-t-shirt",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Piqué Polo Shirt (Pima cotton)",
-      "lu": "https://www.etonshirts.com/us/en/product/beige-pima-cotton-pique-polo",
-      "hp": "Cotton Linen Polo",
-      "hu": "https://www.etonshirts.com/us/en/product/dark-purple-cotton-linen-polo-shirt",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "White Signature Twill Shirt",
-      "lu": "https://www.etonshirts.com/us/en/product/white-shirt-signature-twill",
-      "hp": "Check Cotton Silk Cashmere Shirt",
-      "hu": "https://www.etonshirts.com/us/en/product/dark-brown-plaid-check-cotton-silk-cashmere-shirt",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Knit Crewneck (merino wool)",
-      "lu": "https://www.etonshirts.com/us/en/product/navy-blue-merino-knit-crewneck",
-      "hp": "Cashmere Knit crew neck (100% cashmere)",
-      "hu": "https://www.etonshirts.com/us/en/product/navy-blue-cashmere-knit-crew-neck",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "Flannel Jacket (cotton flannel two-pocket jacket)",
-      "lu": "https://www.etonshirts.com/us/en/product/brown-cotton-flannel-two-pocket-jacket",
-      "hp": "Travel Jacket (wool cashmere)",
-      "hu": "https://www.etonshirts.com/us/en/product/dark-brown-wool-cashmere-travel-jacket",
-      "b": "range"
-    }
-  },
-  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Outerwear"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.etonshirts.com/us/en/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=326180",
-      "m": "brand filter",
-      "n": "Vinted 'Eton' may mix unrelated brands"
-    }
-  },
-  "certs": {
-    "gots": {
-      "e": "Eton AB (Sweden)"
-    }
-  },
-  "season": {
-    "l": "AW26",
-    "t": "lookbook",
-    "u": "https://www.etonshirts.com/us/en/journal/lookbook/the-fall-wardrobe",
-    "m": "yes"
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "Eton Sustainability Report 2025 (via fetched summary): 'all manufacturing is outsourced to external suppliers'; Tier 1/2 suppliers in Europe and Turkey. Gånghester HQ (built 1954 factory per about page) now holds design, QC, an in-house sewing atelier for samples/pattern development, logistics and outlet. Corporate site: 'Our shirts are produced in Europe.' Ownership changed in 2025 (Krage Holding AB chain).",
-    "makers": "no",
-    "mills": "some",
-    "madein": "some",
-    "countries": "Italy 2/4 (both knits: 'Made in Italy', 'Crafted in Italy by expert knitters'); 0/2 shirts (Signature Twill, striped Oxford) show origin - may be in a collapsed tab.",
-    "heritage": "dated and placed",
-    "repair": "yes",
-    "process": "some",
-    "urls": [
-      "https://wp.corporate.etonshirts.com/wp-content/uploads/2026/05/Eton-Sustainability-Report-2025-1.pdf",
-      "https://www.etonshirts.com/us/en/page/about-eton"
-    ],
-    "conf": "medium",
-    "read": "2026-10-03"
+  "Outerwear": {
+   "lp": "Flannel Jacket (cotton flannel two-pocket jacket)",
+   "lu": "https://www.etonshirts.com/us/en/product/brown-cotton-flannel-two-pocket-jacket",
+   "hp": "Travel Jacket (wool cashmere)",
+   "hu": "https://www.etonshirts.com/us/en/product/dark-brown-wool-cashmere-travel-jacket",
+   "b": "range"
   }
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Outerwear"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.etonshirts.com/us/en/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=326180",
+   "m": "brand filter",
+   "n": "Vinted 'Eton' may mix unrelated brands"
+  }
+ },
+ "certs": {
+  "gots": {
+   "e": "Eton AB (Sweden)"
+  }
+ },
+ "season": {
+  "l": "AW26",
+  "t": "lookbook",
+  "u": "https://www.etonshirts.com/us/en/journal/lookbook/the-fall-wardrobe",
+  "m": "yes"
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "Eton Sustainability Report 2025 (via fetched summary): 'all manufacturing is outsourced to external suppliers'; Tier 1/2 suppliers in Europe and Turkey. Gånghester HQ (built 1954 factory per about page) now holds design, QC, an in-house sewing atelier for samples/pattern development, logistics and outlet. Corporate site: 'Our shirts are produced in Europe.' Ownership changed in 2025 (Krage Holding AB chain).",
+  "makers": "no",
+  "mills": "some",
+  "madein": "some",
+  "countries": "Italy 2/4 (both knits: 'Made in Italy', 'Crafted in Italy by expert knitters'); 0/2 shirts (Signature Twill, striped Oxford) show origin - may be in a collapsed tab.",
+  "heritage": "dated and placed",
+  "repair": "yes",
+  "process": "some",
+  "urls": [
+   "https://wp.corporate.etonshirts.com/wp-content/uploads/2026/05/Eton-Sustainability-Report-2025-1.pdf",
+   "https://www.etonshirts.com/us/en/page/about-eton"
+  ],
+  "conf": "medium",
+  "read": "2026-10-03"
+ }
 }

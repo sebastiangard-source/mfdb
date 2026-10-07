@@ -1,234 +1,301 @@
 {
-  "name": "Stefano Ricci",
-  "band": "trueLux",
-  "seat": 203,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 2,
-    "craft": 4,
-    "style": 3
-  },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 4,
-    "linen": 2,
-    "cotton": 4,
-    "wool": 3,
-    "synth": 1
-  },
-  "dials": {
-    "dur": 2,
-    "forg": 2,
-    "fuss": 2,
-    "sail": 3,
-    "shoes": 3,
-    "status": 3,
-    "finbro": 2,
-    "ital": 5,
-    "boat": 5,
-    "whitet": 2,
-    "logo": 1,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
-  },
-  "why": "Silk ties, shirts and clothing in an opulent Florentine style.",
-  "origin": "Founded in Florence in 1972 by Stefano Ricci.",
-  "chan": ["O", "D"],
-  "conf": "L",
-  "forgc": [2, 2, 4],
-  "shop": "https://www.stefanoricci.com/en-us/search?q=",
-  "onething": {
-    "p": "The silk tie",
-    "u": "https://www.stefanoricci.com/en-us/search?q=The%20silk%20tie",
-    "n": "works"
-  },
-  "prices": [
-    [450, 1750],
-    [1200, 2950],
-    [800, 2800],
-    [1200, 1850],
-    [1100, 3650],
-    [1200, 3900],
-    [2450, 10750],
-    [1000, 2100]
+ "name": "Stefano Ricci",
+ "band": "trueLux",
+ "seat": 203,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 2,
+  "craft": 4,
+  "style": 3
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 4,
+  "linen": 2,
+  "cotton": 4,
+  "wool": 3,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 2,
+  "forg": 2,
+  "fuss": 2,
+  "sail": 3,
+  "shoes": 3,
+  "status": 3,
+  "finbro": 2,
+  "ital": 5,
+  "boat": 5,
+  "whitet": 2,
+  "logo": 1,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Silk ties, shirts and clothing in an opulent Florentine style.",
+ "origin": "Founded in Florence in 1972 by Stefano Ricci.",
+ "chan": [
+  "O",
+  "D"
+ ],
+ "conf": "L",
+ "forgc": [
+  2,
+  2,
+  4
+ ],
+ "shop": "https://www.stefanoricci.com/en-us/search?q=",
+ "onething": {
+  "p": "The silk tie",
+  "u": "https://www.stefanoricci.com/en-us/search?q=The%20silk%20tie",
+  "n": "works"
+ },
+ "prices": [
+  [
+   450,
+   1750
   ],
-  "shoelink": {
-    "t": "shoes",
-    "u": "https://www.stefanoricci.com/en-us/search?q=shoes"
+  [
+   1200,
+   2950
+  ],
+  [
+   800,
+   2800
+  ],
+  [
+   1200,
+   1850
+  ],
+  [
+   1100,
+   3650
+  ],
+  [
+   1200,
+   3900
+  ],
+  [
+   2450,
+   10750
+  ],
+  [
+   1000,
+   2100
+  ]
+ ],
+ "shoelink": {
+  "t": "shoes",
+  "u": "https://www.stefanoricci.com/en-us/search?q=shoes"
+ },
+ "notes": {
+  "cotton": "monumental Florentine shirting",
+  "boat": "The same register as Zilli, in Florence, and equally unbothered about the distinction between a yacht and a stage.",
+  "ital": "Florence, with its own silk mill at Antico Setificio Fiorentino. Maximal Italian luxury, unembarrassed about it, and vertically integrated further than most houses three times its size.",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 2; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "Stefano Ricci states a 9,000 m2 production base in Fiesole and owns the Antico Setificio Fiorentino silk mill. Every sampled PDP says Made in Italy. The site does not show which categories the Fiesole site actually makes, though, and tie printing is done with Como partners. Real owned making, coverage of the range unshown: 4."
+ },
+ "doors": {
+  "c": "full",
+  "n": 6,
+  "cities": [
+   [
+    "Beverly Hills",
+    "CA",
+    1
+   ],
+   [
+    "Houston",
+    "TX",
+    1
+   ],
+   [
+    "Las Vegas",
+    "NV",
+    1
+   ],
+   [
+    "Miami",
+    "FL",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    1
+   ],
+   [
+    "Washington",
+    "DC",
+    1
+   ]
+  ],
+  "basis": "master 2026-08-29, pre-recapture"
+ },
+ "cities": "6 stores, including Beverly Hills, Houston, Las Vegas · department stores and independent menswear shops, and its own site",
+ "region": {
+  "o": [
+   2579
+  ],
+  "s": []
+ },
+ "addcloth": true,
+ "site": {
+  "domain": "www.stefanoricci.com",
+  "platform": "salesforce_commerce",
+  "feed": "sitemap_products",
+  "feed_count": 2418,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "house",
+  "marks": [
+   "Alpha Yarn 64 products - HOUSE ('tailored from luxurious Alpha Yarn cashmere, sourced from the hand-combed undercoat of Mongolian goats'",
+   "also '100% Alpha Yarn Cashmere' in the composition line, and a top-level nav category /en-us/highlights/alpha-yarn/). 'Technical fabric' 39 products (generic, unb"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 999,
+  "w": 993,
+  "n": 94,
+  "s": 4,
+  "c": 1,
+  "x": 13,
+  "xh": 3,
+  "sp": "one",
+  "sc": [
+   "luxury tech",
+   "swimwear"
+  ],
+  "nc": [
+   "knitwear",
+   "shirts",
+   "outerwear"
+  ],
+  "st": "complete"
+ },
+ "garment_links": {
+  "T-shirt": "https://www.stefanoricci.com/en-us/menswear/t-shirts/",
+  "Polo": "https://www.stefanoricci.com/en-us/search/?q=polo",
+  "Dress shirt": "https://www.stefanoricci.com/en-us/menswear/shirts/",
+  "Jeans": "https://www.stefanoricci.com/en-us/menswear/jeans/",
+  "Dress pants": "https://www.stefanoricci.com/en-us/menswear/trousers/",
+  "Sweater": "https://www.stefanoricci.com/en-us/menswear/knitwear/",
+  "Outerwear": "https://www.stefanoricci.com/en-us/menswear/outerwear/",
+  "Shoes": "https://www.stefanoricci.com/en-us/shoes/"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Crewneck t-shirt (50% cotton 50% modal)",
+   "lu": "https://www.stefanoricci.com/en-us/crewneck-t-shirt/MNH3302680-803.html",
+   "hp": "Alpha Yarn cashmere crewneck t-shirt (100% cashmere knit, short sleeves)",
+   "hu": "https://www.stefanoricci.com/en-us/alpha-yarn-cashmere-crewneck-t-shirt/W505000G10-W26301.html",
+   "b": "pair"
   },
-  "notes": {
-    "cotton": "monumental Florentine shirting",
-    "boat": "The same register as Zilli, in Florence, and equally unbothered about the distinction between a yacht and a stage.",
-    "ital": "Florence, with its own silk mill at Antico Setificio Fiorentino. Maximal Italian luxury, unembarrassed about it, and vertically integrated further than most houses three times its size.",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 2; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Stefano Ricci states a 9,000 m2 production base in Fiesole and owns the Antico Setificio Fiorentino silk mill. Every sampled PDP says Made in Italy. The site does not show which categories the Fiesole site actually makes, though, and tie printing is done with Como partners. Real owned making, coverage of the range unshown: 4."
+  "Polo": {
+   "lp": "Wool and silk blend knit zip polo shirt (60% wool 30% silk 10% cashmere, short sleeves)",
+   "lu": "https://www.stefanoricci.com/en-us/wool-and-silk-blend-knit-zip-polo-shirt/KE08004P31-E25374.html",
+   "hp": "Alpha Yarn cashmere knit three-button polo (100% cashmere, short sleeves)",
+   "hu": "https://www.stefanoricci.com/en-us/alpha-yarn-cashmere-knit-three-button-polo/W505022P13-W25301.html",
+   "b": "pair"
   },
-  "doors": {
-    "c": "full",
-    "n": 6,
-    "cities": [
-      ["Beverly Hills", "CA", 1],
-      ["Houston", "TX", 1],
-      ["Las Vegas", "NV", 1],
-      ["Miami", "FL", 1],
-      ["New York", "NY", 1],
-      ["Washington", "DC", 1]
-    ],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Dress shirt": {
+   "lp": "Cotton Asti shirt",
+   "lu": "https://www.stefanoricci.com/en-us/cotton-asti-shirt/MC003678-L1320.html",
+   "hp": "Silk blend Torino shirt (93% silk 7% elastane)",
+   "hu": "https://www.stefanoricci.com/en-us/silk-blend-torino-shirt/SX008137-59200.html",
+   "b": "range"
   },
-  "cities": "6 stores, including Beverly Hills, Houston, Las Vegas · department stores and independent menswear shops, and its own site",
-  "region": {
-    "o": [2579],
-    "s": [116]
+  "Jeans": {
+   "lp": "Cotton blend tapered jeans",
+   "lu": "https://www.stefanoricci.com/en-us/cotton-blend-tapered-jeans/MST53B5020-T0200.html",
+   "hp": "Cotton blend tapered jeans (97% cotton)",
+   "hu": "https://www.stefanoricci.com/en-us/cotton-blend-tapered-jeans/MFT53B1100-RT50BL.html",
+   "b": "range"
   },
-  "addcloth": true,
-  "site": {
-    "domain": "www.stefanoricci.com",
-    "platform": "salesforce_commerce",
-    "feed": "sitemap_products",
-    "feed_count": 2418,
-    "status": "live_store",
-    "checked": "2026-09-13"
+  "Dress pants": {
+   "lp": "Virgin wool trousers",
+   "lu": "https://www.stefanoricci.com/en-us/virgin-wool-trousers/M1T5100010-WEA01S.html",
+   "hp": "Alpha Yarn cashmere trousers",
+   "hu": "https://www.stefanoricci.com/en-us/alpha-yarn-cashmere-trousers/M1T80A0000-MR01HA.html",
+   "b": "pair"
   },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "house",
-    "marks": [
-      "Alpha Yarn 64 products - HOUSE ('tailored from luxurious Alpha Yarn cashmere, sourced from the hand-combed undercoat of Mongolian goats'",
-      "also '100% Alpha Yarn Cashmere' in the composition line, and a top-level nav category /en-us/highlights/alpha-yarn/). 'Technical fabric' 39 products (generic, unb"
-    ],
-    "source": "census",
-    "checked": "2026-09-12"
+  "Sweater": {
+   "lp": "Virgin wool and cashmere blend knit crewneck sweater (80% virgin wool 14% cashmere 6% silk)",
+   "lu": "https://www.stefanoricci.com/en-us/virgin-wool-and-cashmere-blend-knit-crewneck-sweater/KE04002G01-E25362.html",
+   "hp": "Cashmere knit crewneck sweater (100% cashmere)",
+   "hu": "https://www.stefanoricci.com/en-us/cashmere-knit-crewneck-sweater/K606421G01-F26307.html",
+   "b": "pair"
   },
-  "fibre": {
-    "t": 999,
-    "w": 993,
-    "n": 94,
-    "s": 4,
-    "c": 1,
-    "x": 13,
-    "xh": 3,
-    "sp": "one",
-    "sc": ["luxury tech", "swimwear"],
-    "nc": ["knitwear", "shirts", "outerwear"],
-    "st": "complete"
+  "Outerwear": {
+   "lp": "Cotton and linen blend blouson",
+   "lu": "https://www.stefanoricci.com/en-us/cotton-and-linen-blend-blouson/MFJ5100070-T285PT.html",
+   "hp": "Alpha Yarn cashmere blouson (100% cashmere)",
+   "hu": "https://www.stefanoricci.com/en-us/alpha-yarn-cashmere-blouson/M7J6100220-MR08HA.html",
+   "b": "pair"
   },
-  "garment_links": {
-    "T-shirt": "https://www.stefanoricci.com/en-us/menswear/t-shirts/",
-    "Polo": "https://www.stefanoricci.com/en-us/search/?q=polo",
-    "Dress shirt": "https://www.stefanoricci.com/en-us/menswear/shirts/",
-    "Jeans": "https://www.stefanoricci.com/en-us/menswear/jeans/",
-    "Dress pants": "https://www.stefanoricci.com/en-us/menswear/trousers/",
-    "Sweater": "https://www.stefanoricci.com/en-us/menswear/knitwear/",
-    "Outerwear": "https://www.stefanoricci.com/en-us/menswear/outerwear/",
-    "Shoes": "https://www.stefanoricci.com/en-us/shoes/"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Crewneck t-shirt (50% cotton 50% modal)",
-      "lu": "https://www.stefanoricci.com/en-us/crewneck-t-shirt/MNH3302680-803.html",
-      "hp": "Alpha Yarn cashmere crewneck t-shirt (100% cashmere knit, short sleeves)",
-      "hu": "https://www.stefanoricci.com/en-us/alpha-yarn-cashmere-crewneck-t-shirt/W505000G10-W26301.html",
-      "b": "pair"
-    },
-    "Polo": {
-      "lp": "Wool and silk blend knit zip polo shirt (60% wool 30% silk 10% cashmere, short sleeves)",
-      "lu": "https://www.stefanoricci.com/en-us/wool-and-silk-blend-knit-zip-polo-shirt/KE08004P31-E25374.html",
-      "hp": "Alpha Yarn cashmere knit three-button polo (100% cashmere, short sleeves)",
-      "hu": "https://www.stefanoricci.com/en-us/alpha-yarn-cashmere-knit-three-button-polo/W505022P13-W25301.html",
-      "b": "pair"
-    },
-    "Dress shirt": {
-      "lp": "Cotton Asti shirt",
-      "lu": "https://www.stefanoricci.com/en-us/cotton-asti-shirt/MC003678-L1320.html",
-      "hp": "Silk blend Torino shirt (93% silk 7% elastane)",
-      "hu": "https://www.stefanoricci.com/en-us/silk-blend-torino-shirt/SX008137-59200.html",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Cotton blend tapered jeans",
-      "lu": "https://www.stefanoricci.com/en-us/cotton-blend-tapered-jeans/MST53B5020-T0200.html",
-      "hp": "Cotton blend tapered jeans (97% cotton)",
-      "hu": "https://www.stefanoricci.com/en-us/cotton-blend-tapered-jeans/MFT53B1100-RT50BL.html",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Virgin wool trousers",
-      "lu": "https://www.stefanoricci.com/en-us/virgin-wool-trousers/M1T5100010-WEA01S.html",
-      "hp": "Alpha Yarn cashmere trousers",
-      "hu": "https://www.stefanoricci.com/en-us/alpha-yarn-cashmere-trousers/M1T80A0000-MR01HA.html",
-      "b": "pair"
-    },
-    "Sweater": {
-      "lp": "Virgin wool and cashmere blend knit crewneck sweater (80% virgin wool 14% cashmere 6% silk)",
-      "lu": "https://www.stefanoricci.com/en-us/virgin-wool-and-cashmere-blend-knit-crewneck-sweater/KE04002G01-E25362.html",
-      "hp": "Cashmere knit crewneck sweater (100% cashmere)",
-      "hu": "https://www.stefanoricci.com/en-us/cashmere-knit-crewneck-sweater/K606421G01-F26307.html",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "Cotton and linen blend blouson",
-      "lu": "https://www.stefanoricci.com/en-us/cotton-and-linen-blend-blouson/MFJ5100070-T285PT.html",
-      "hp": "Alpha Yarn cashmere blouson (100% cashmere)",
-      "hu": "https://www.stefanoricci.com/en-us/alpha-yarn-cashmere-blouson/M7J6100220-MR08HA.html",
-      "b": "pair"
-    },
-    "Shoes": {
-      "lp": "Casual loafers (knit slip-on with calfskin inserts)",
-      "lu": "https://www.stefanoricci.com/en-us/casual-loafers/UV64_G2293-TSVTS.html",
-      "hp": "Suede loafers",
-      "hu": "https://www.stefanoricci.com/en-us/suede-loafers/UN85CG2113-SD.html",
-      "b": "pair"
-    }
-  },
-  "price_range_only": ["Dress shirt", "Jeans"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.stefanoricci.com/en-us/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "- (Explorer, Luxury Tech and Alpha Yarn pieces sold inside the menswear categories were counted as main range)"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=684278",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "season": {
-    "l": "Fall Winter 2026",
-    "t": "collection page",
-    "u": "https://www.stefanoricci.com/en-us/highlights/fall-winter-2026/",
-    "m": "yes"
-  },
-  "craft_evidence": {
-    "owned": "yes",
-    "owned_d": "One Family Story page: production headquartered in Fiesole near Florence, 'more than 9,000 square metres', with an all-Italian workforce of 900. Owns the Antico Setificio Fiorentino (silk mill operating since 1786, acquired 2010) and, since 2025, Moleria Locchi (crystal workshop). The Crafting the Arts page describes in-house Florentine tailors, leather, jewellery and silver work; tie silk is printed with Como suppliers.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "every product",
-    "countries": "Italy 6/6 (sample: cotton shirt, wool/cashmere jacket, knit crewneck, jeans, leather blouson, handmade silk tie).",
-    "heritage": "dated and placed",
-    "repair": "no",
-    "process": "some",
-    "urls": [
-      "https://www.stefanoricci.com/en-us/sr-world/about/one-family-story/",
-      "https://www.stefanoricci.com/en-us/sr-world/about/crafting-the-arts/"
-    ],
-    "conf": "medium",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Casual loafers (knit slip-on with calfskin inserts)",
+   "lu": "https://www.stefanoricci.com/en-us/casual-loafers/UV64_G2293-TSVTS.html",
+   "hp": "Suede loafers",
+   "hu": "https://www.stefanoricci.com/en-us/suede-loafers/UN85CG2113-SD.html",
+   "b": "pair"
   }
+ },
+ "price_range_only": [
+  "Dress shirt",
+  "Jeans"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.stefanoricci.com/en-us/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "- (Explorer, Luxury Tech and Alpha Yarn pieces sold inside the menswear categories were counted as main range)"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=684278",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "season": {
+  "l": "Fall Winter 2026",
+  "t": "collection page",
+  "u": "https://www.stefanoricci.com/en-us/highlights/fall-winter-2026/",
+  "m": "yes"
+ },
+ "craft_evidence": {
+  "owned": "yes",
+  "owned_d": "One Family Story page: production headquartered in Fiesole near Florence, 'more than 9,000 square metres', with an all-Italian workforce of 900. Owns the Antico Setificio Fiorentino (silk mill operating since 1786, acquired 2010) and, since 2025, Moleria Locchi (crystal workshop). The Crafting the Arts page describes in-house Florentine tailors, leather, jewellery and silver work; tie silk is printed with Como suppliers.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "every product",
+  "countries": "Italy 6/6 (sample: cotton shirt, wool/cashmere jacket, knit crewneck, jeans, leather blouson, handmade silk tie).",
+  "heritage": "dated and placed",
+  "repair": "no",
+  "process": "some",
+  "urls": [
+   "https://www.stefanoricci.com/en-us/sr-world/about/one-family-story/",
+   "https://www.stefanoricci.com/en-us/sr-world/about/crafting-the-arts/"
+  ],
+  "conf": "medium",
+  "read": "2026-10-03"
+ }
 }

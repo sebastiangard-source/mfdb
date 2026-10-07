@@ -1728,3 +1728,6 @@ Held: [('Carhartt', 'sweater NONE — a house with no crewneck still makes sweat
 
 ## 2026-10-07 — seat_resort_2026-10-07
 Return: 2 brands, 4 files, 0 unmatched. Seated Frescobol Carioca (205) and Orlebar Brown (206) in accessible; dials authored from the return, tech/craft at the thread's proposed 2/2 pending ruling. Places: +1 FC SoHo, +2 OB (SoHo, East Hampton) own doors in the Northeast; +2 stockists (DAWN Nantucket, Martin Allenhurst). OB US own doors 10 (Setai concession and Belmont outlet not counted); world 32 brand-operated of 39 OB-branded. Registers: vinted, certs, lookbooks appended; own_doors_resort saved. Not merged: FC's 63 hotel-shop stockist rows (register door-one check pending), department-store rows (channel flag only).
+
+## 2026-10-07 — stockist_profile_boyds_2026-10-07
+Boyds profiled from its own site (two doors). Register row 116 (Wayne, no address) completed with address and a story; Philadelphia flagship added as place 3208 and now carries the brand list (18 mapped of 84 listed; was 24 of 120 at Phase 1). Six brands no longer on the men's designers page unlinked: Canada Goose, Fedeli, Incotex, Paul Smith, Stefano Ricci, Thom Browne. Wayne carries no brands until a list or a visit says which. Not merged: merchant descriptor (not published), 66 unmapped brands (register of names kept in the return).

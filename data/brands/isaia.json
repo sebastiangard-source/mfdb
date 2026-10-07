@@ -1,226 +1,307 @@
 {
-  "name": "Isaia",
-  "band": "trueLux",
-  "seat": 186,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 3,
-    "craft": 5,
-    "style": 4
-  },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 3,
-    "linen": 3,
-    "cotton": 2,
-    "wool": 4,
-    "synth": 1
-  },
-  "dials": {
-    "dur": 4,
-    "forg": 3,
-    "fuss": 3,
-    "golffice": -3,
-    "status": 2,
-    "finbro": 2,
-    "ital": 5,
-    "boat": 4,
-    "whitet": 2,
-    "logo": 1,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
-  },
-  "why": "Neapolitan tailoring in bold colors and lightweight cloths.",
-  "origin": "Founded in Naples by the Isaia family, in the fabric trade from the 1920s and making tailoring by 1957.",
-  "say": "EE-za-EE-uh",
-  "chan": ["O", "D", "I"],
-  "conf": "L",
-  "forgc": [2, 2, 5],
-  "onething": {
-    "p": "Sanita Aquaspider suit",
-    "u": "https://www.nordstrom.com/s/sanita-aquaspider-super-160s-wool-suit-regular-short-long/4622480",
-    "n": "live at Nordstrom — Sanita is the cut (named for the Naples district), Aquaspider the trademarked wool"
-  },
-  "prices": [
-    [595, 1550],
-    [575, 1795],
-    [595, 1150],
-    [750, 795],
-    [1075, 2375],
-    [1250, 1595],
-    [3500, 5795],
-    [1140, 1650]
+ "name": "Isaia",
+ "band": "trueLux",
+ "seat": 186,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 3,
+  "craft": 5,
+  "style": 4
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 3,
+  "linen": 3,
+  "cotton": 2,
+  "wool": 4,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 4,
+  "forg": 3,
+  "fuss": 3,
+  "golffice": -3,
+  "status": 2,
+  "finbro": 2,
+  "ital": 5,
+  "boat": 4,
+  "whitet": 2,
+  "logo": 1,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Neapolitan tailoring in bold colors and lightweight cloths.",
+ "origin": "Founded in Naples by the Isaia family, in the fabric trade from the 1920s and making tailoring by 1957.",
+ "say": "EE-za-EE-uh",
+ "chan": [
+  "O",
+  "D",
+  "I"
+ ],
+ "conf": "L",
+ "forgc": [
+  2,
+  2,
+  5
+ ],
+ "onething": {
+  "p": "Sanita Aquaspider suit",
+  "u": "https://www.nordstrom.com/s/sanita-aquaspider-super-160s-wool-suit-regular-short-long/4622480",
+  "n": "live at Nordstrom — Sanita is the cut (named for the Naples district), Aquaspider the trademarked wool"
+ },
+ "prices": [
+  [
+   595,
+   1550
   ],
-  "notes": {
-    "wool": "Aquaspider high-twist cloth",
-    "ital": "Naples by way of Aversa, and the coral branch on the label is a local superstition against bad luck rather than a design motif. Soft shoulders, bright cloth, worn with visible pleasure.",
-    "boat": "Naples is a working port, so the association is native rather than aspirational — the brightness comes from the same place the boats do.",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 2; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Isaia's about page claims every piece is made on site in Casalnuovo, from first cut to final pressing, with dated history (Naples 1920, Casalnuovo 1957). The FAQ says all products are made in Italy. PDPs give no origin or maker. [audit proposed 5 at low confidence; held at 5 pending a second read]"
+  [
+   575,
+   1795
+  ],
+  [
+   595,
+   1150
+  ],
+  [
+   750,
+   795
+  ],
+  [
+   1075,
+   2375
+  ],
+  [
+   1250,
+   1595
+  ],
+  [
+   3500,
+   5795
+  ],
+  [
+   1140,
+   1650
+  ]
+ ],
+ "notes": {
+  "wool": "Aquaspider high-twist cloth",
+  "ital": "Naples by way of Aversa, and the coral branch on the label is a local superstition against bad luck rather than a design motif. Soft shoulders, bright cloth, worn with visible pleasure.",
+  "boat": "Naples is a working port, so the association is native rather than aspirational — the brightness comes from the same place the boats do.",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 2; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "Isaia's about page claims every piece is made on site in Casalnuovo, from first cut to final pressing, with dated history (Naples 1920, Casalnuovo 1957). The FAQ says all products are made in Italy. PDPs give no origin or maker. [audit proposed 5 at low confidence; held at 5 pending a second read]"
+ },
+ "doors": {
+  "c": "full",
+  "n": 7,
+  "cities": [
+   [
+    "Bal Harbour",
+    "FL",
+    1
+   ],
+   [
+    "Beverly Hills",
+    "CA",
+    1
+   ],
+   [
+    "Chicago",
+    "IL",
+    1
+   ],
+   [
+    "Las Vegas",
+    "NV",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    1
+   ],
+   [
+    "Palm Beach",
+    "FL",
+    1
+   ],
+   [
+    "San Francisco",
+    "CA",
+    1
+   ]
+  ],
+  "basis": "master 2026-08-29, pre-recapture"
+ },
+ "cities": "7 stores, including Bal Harbour, Beverly Hills, Chicago · department stores and independent menswear shops, and its own site",
+ "region": {
+  "o": [
+   1273
+  ],
+  "s": [
+   11,
+   27,
+   44,
+   60,
+   117,
+   3208
+  ]
+ },
+ "site": {
+  "domain": "www.isaia.us",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 341,
+  "status": "live_store",
+  "checked": "2026-09-21"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "both",
+  "marks": [
+   "House fabric names: Aquaspider, Aqua (water-repellent family), Storm, Scuba Wool Comfort, Filo di Corallo, Cashmoleskin, Cottoncash, Techno Cotton Silk, Fibra Carbonio. Licensed: Cashwool (Zegna Baruffa's extrafine merino yarn trademark). NO trademark symbols anywhere on the site."
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 277,
+  "w": 195,
+  "n": 69,
+  "s": 1,
+  "c": 0,
+  "x": 9,
+  "xh": 1,
+  "sp": "one",
+  "sc": [
+   "Swimwear"
+  ],
+  "nc": [
+   "Knitwear",
+   "Jacket",
+   "Shirt"
+  ],
+  "st": "complete"
+ },
+ "garment_links": {
+  "T-shirt": "https://www.isaia.us/collections/mens-polos-t-shirts",
+  "Polo": "https://www.isaia.us/collections/mens-polos-t-shirts",
+  "Dress shirt": "https://www.isaia.us/collections/mens-shirts",
+  "Jeans": "https://www.isaia.us/collections/mens-trousers-and-denim",
+  "Dress pants": "https://www.isaia.us/collections/mens-trousers",
+  "Sweater": "https://www.isaia.us/collections/mens-sweaters-knitwear",
+  "Outerwear": "https://www.isaia.us/collections/mens-outerwear",
+  "Shoes": "https://www.isaia.us/collections/mens-shoes"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Cotton Sea Island T-Shirt",
+   "lu": "https://www.isaia.us/products/fw26-mcx154-000-j0419-t-shirt-cotton",
+   "hp": "T-Shirt (cashmere, code MG8025 YP002)",
+   "hu": "https://www.isaia.us/products/ss26-mg8025-000-yp002-t-shirt-cashmere",
+   "b": "pair"
   },
-  "doors": {
-    "c": "full",
-    "n": 7,
-    "cities": [
-      ["Bal Harbour", "FL", 1],
-      ["Beverly Hills", "CA", 1],
-      ["Chicago", "IL", 1],
-      ["Las Vegas", "NV", 1],
-      ["New York", "NY", 1],
-      ["Palm Beach", "FL", 1],
-      ["San Francisco", "CA", 1]
-    ],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Polo": {
+   "lp": "Garment Dyed Cotton Piquet Short Sleeve Polo",
+   "lu": "https://www.isaia.us/products/ss26-mct471-000-jp004-polo-short-sleeves-cotton",
+   "hp": "Cashmere and Silk Open Collar Polo",
+   "hu": "https://www.isaia.us/products/ss26-mg8437-000-y0533-open-collar-polo-cashmere",
+   "b": "pair"
   },
-  "cities": "7 stores, including Bal Harbour, Beverly Hills, Chicago · department stores and independent menswear shops, and its own site",
-  "region": {
-    "o": [1273],
-    "s": [11, 27, 44, 60, 116, 117]
+  "Dress shirt": {
+   "lp": "MILANO MIX solid",
+   "lu": "https://www.isaia.us/products/ss26-mm10sc-000-km002-milano-mix-cotton",
+   "hp": "Mix Dress Shirt SOLID",
+   "hu": "https://www.isaia.us/products/fw26-ml10sc-000-c9150-mix-dress-shirt-cotton",
+   "b": "range"
   },
-  "site": {
-    "domain": "www.isaia.us",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 341,
-    "status": "live_store",
-    "checked": "2026-09-21"
+  "Jeans": {
+   "lp": "Comfort Cotton White \"Chiaja\" Denim",
+   "lu": "https://www.isaia.us/products/ss26-pnd005-000-djico-chiaja-cotton",
+   "hp": "Chiaja 5 Pocket Denim",
+   "hu": "https://www.isaia.us/products/fw26-pnd005-000-dj127-chiaja-cotton",
+   "b": "range"
   },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "both",
-    "marks": [
-      "House fabric names: Aquaspider, Aqua (water-repellent family), Storm, Scuba Wool Comfort, Filo di Corallo, Cashmoleskin, Cottoncash, Techno Cotton Silk, Fibra Carbonio. Licensed: Cashwool (Zegna Baruffa's extrafine merino yarn trademark). NO trademark symbols anywhere on the site."
-    ],
-    "source": "census",
-    "checked": "2026-09-12"
+  "Dress pants": {
+   "lp": "Cotton Gabardine Sanità Tailored Pants",
+   "lu": "https://www.isaia.us/products/ss26-007602-000-p9100-trouser-cotton",
+   "hp": "Cashmere Sanità Tailored Pants",
+   "hu": "https://www.isaia.us/products/ss26-007602-000-93251-trouser-cashmere",
+   "b": "pair"
   },
-  "fibre": {
-    "t": 277,
-    "w": 195,
-    "n": 69,
-    "s": 1,
-    "c": 0,
-    "x": 9,
-    "xh": 1,
-    "sp": "one",
-    "sc": ["Swimwear"],
-    "nc": ["Knitwear", "Jacket", "Shirt"],
-    "st": "complete"
+  "Sweater": {
+   "lp": "Filo Di Corallo Wool Crewneck Sweater",
+   "lu": "https://www.isaia.us/products/fw26-mg8013-000-yp005-crew-neck-wool",
+   "hp": "Cloud Touch Cashmere Crewneck Sweater",
+   "hu": "https://www.isaia.us/products/fw26-mg8396-000-y0531-crew-neck-cashmere",
+   "b": "pair"
   },
-  "garment_links": {
-    "T-shirt": "https://www.isaia.us/collections/mens-polos-t-shirts",
-    "Polo": "https://www.isaia.us/collections/mens-polos-t-shirts",
-    "Dress shirt": "https://www.isaia.us/collections/mens-shirts",
-    "Jeans": "https://www.isaia.us/collections/mens-trousers-and-denim",
-    "Dress pants": "https://www.isaia.us/collections/mens-trousers",
-    "Sweater": "https://www.isaia.us/collections/mens-sweaters-knitwear",
-    "Outerwear": "https://www.isaia.us/collections/mens-outerwear",
-    "Shoes": "https://www.isaia.us/collections/mens-shoes"
+  "Outerwear": {
+   "lp": "Techno Cotton Silk Aqua Varsity Jacket",
+   "lu": "https://www.isaia.us/products/fw26-sw7308-000-80090-varsity-bomber-cotton",
+   "hp": "Cashmere Storm Quilted Varsity Bomber",
+   "hu": "https://www.isaia.us/products/fw26-sw7329-000-93561-quilted-varsity-bomber-cashmere",
+   "b": "pair"
   },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Cotton Sea Island T-Shirt",
-      "lu": "https://www.isaia.us/products/fw26-mcx154-000-j0419-t-shirt-cotton",
-      "hp": "T-Shirt (cashmere, code MG8025 YP002)",
-      "hu": "https://www.isaia.us/products/ss26-mg8025-000-yp002-t-shirt-cashmere",
-      "b": "pair"
-    },
-    "Polo": {
-      "lp": "Garment Dyed Cotton Piquet Short Sleeve Polo",
-      "lu": "https://www.isaia.us/products/ss26-mct471-000-jp004-polo-short-sleeves-cotton",
-      "hp": "Cashmere and Silk Open Collar Polo",
-      "hu": "https://www.isaia.us/products/ss26-mg8437-000-y0533-open-collar-polo-cashmere",
-      "b": "pair"
-    },
-    "Dress shirt": {
-      "lp": "MILANO MIX solid",
-      "lu": "https://www.isaia.us/products/ss26-mm10sc-000-km002-milano-mix-cotton",
-      "hp": "Mix Dress Shirt SOLID",
-      "hu": "https://www.isaia.us/products/fw26-ml10sc-000-c9150-mix-dress-shirt-cotton",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Comfort Cotton White \"Chiaja\" Denim",
-      "lu": "https://www.isaia.us/products/ss26-pnd005-000-djico-chiaja-cotton",
-      "hp": "Chiaja 5 Pocket Denim",
-      "hu": "https://www.isaia.us/products/fw26-pnd005-000-dj127-chiaja-cotton",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Cotton Gabardine Sanità Tailored Pants",
-      "lu": "https://www.isaia.us/products/ss26-007602-000-p9100-trouser-cotton",
-      "hp": "Cashmere Sanità Tailored Pants",
-      "hu": "https://www.isaia.us/products/ss26-007602-000-93251-trouser-cashmere",
-      "b": "pair"
-    },
-    "Sweater": {
-      "lp": "Filo Di Corallo Wool Crewneck Sweater",
-      "lu": "https://www.isaia.us/products/fw26-mg8013-000-yp005-crew-neck-wool",
-      "hp": "Cloud Touch Cashmere Crewneck Sweater",
-      "hu": "https://www.isaia.us/products/fw26-mg8396-000-y0531-crew-neck-cashmere",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "Techno Cotton Silk Aqua Varsity Jacket",
-      "lu": "https://www.isaia.us/products/fw26-sw7308-000-80090-varsity-bomber-cotton",
-      "hp": "Cashmere Storm Quilted Varsity Bomber",
-      "hu": "https://www.isaia.us/products/fw26-sw7329-000-93561-quilted-varsity-bomber-cashmere",
-      "b": "pair"
-    },
-    "Shoes": {
-      "lp": "Unlined Penny Loafer",
-      "lu": "https://www.isaia.us/products/fw25-shc002-000-pls38-penny-loafer-calf",
-      "hp": "AMF Penny Loafer",
-      "hu": "https://www.isaia.us/products/fw24-shf020-000-pls37-penny-loafer-calf",
-      "b": "pair"
-    }
-  },
-  "price_range_only": ["Dress shirt", "Jeans"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.isaia.us/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "shop": "https://www.isaia.us/search?q=",
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=469314",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "season": {
-    "l": "Fall Winter 2026",
-    "t": "runway",
-    "u": "https://www.isaia.us/pages/fall-winter-2026-runway",
-    "m": "yes"
-  },
-  "craft_evidence": {
-    "owned": "yes",
-    "owned_d": "isaia.us/pages/about: 'Every single piece, from the first cut of cloth to the final pressing, is made on site' in Casalnuovo (outside Naples); 'Full control, full responsibility, full coherence'. Brand statement, no photos/tailor count seen; casa-isaia page says nothing about the factory.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "none",
-    "countries": "0/4 PDPs (suit, cashmere crewneck, trouser, penny loafer) and 0 of the products.json bodies state a country; FAQ: 'all of our items and products are manufactured in Italy'. Origin may sit in a tab the fetch did not see.",
-    "heritage": "dated and placed",
-    "repair": "no",
-    "process": "some",
-    "urls": ["https://www.isaia.us/pages/about", "https://www.isaia.us/pages/faq"],
-    "conf": "low",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Unlined Penny Loafer",
+   "lu": "https://www.isaia.us/products/fw25-shc002-000-pls38-penny-loafer-calf",
+   "hp": "AMF Penny Loafer",
+   "hu": "https://www.isaia.us/products/fw24-shf020-000-pls37-penny-loafer-calf",
+   "b": "pair"
   }
+ },
+ "price_range_only": [
+  "Dress shirt",
+  "Jeans"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.isaia.us/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "shop": "https://www.isaia.us/search?q=",
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=469314",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "season": {
+  "l": "Fall Winter 2026",
+  "t": "runway",
+  "u": "https://www.isaia.us/pages/fall-winter-2026-runway",
+  "m": "yes"
+ },
+ "craft_evidence": {
+  "owned": "yes",
+  "owned_d": "isaia.us/pages/about: 'Every single piece, from the first cut of cloth to the final pressing, is made on site' in Casalnuovo (outside Naples); 'Full control, full responsibility, full coherence'. Brand statement, no photos/tailor count seen; casa-isaia page says nothing about the factory.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "none",
+  "countries": "0/4 PDPs (suit, cashmere crewneck, trouser, penny loafer) and 0 of the products.json bodies state a country; FAQ: 'all of our items and products are manufactured in Italy'. Origin may sit in a tab the fetch did not see.",
+  "heritage": "dated and placed",
+  "repair": "no",
+  "process": "some",
+  "urls": [
+   "https://www.isaia.us/pages/about",
+   "https://www.isaia.us/pages/faq"
+  ],
+  "conf": "low",
+  "read": "2026-10-03"
+ }
 }

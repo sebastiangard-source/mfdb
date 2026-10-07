@@ -1,231 +1,307 @@
 {
-  "name": "Maison Margiela",
-  "band": "trueLux",
-  "seat": 158,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 1,
-    "craft": 3,
-    "style": 5
-  },
-  "fabric": {
-    "denim": 2,
-    "cashmere": 2,
-    "linen": 1,
-    "cotton": 2,
-    "wool": 2,
-    "synth": 2
-  },
-  "dials": {
-    "dur": 2,
-    "forg": 2,
-    "fuss": 0,
-    "shoes": 4,
-    "status": 3,
-    "fren": 3,
-    "avant": 5,
-    "weird": 4,
-    "whitet": 2,
-    "logo": 2,
-    "western": 1,
-    "rock": 2,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
-  },
-  "why": "Deconstructed, conceptual clothing — exposed seams, rebuilt garments — with the artisanal line made by hand in the atelier.",
-  "origin": "Founded in Paris in 1988 by Martin Margiela.",
-  "say": "may-ZOHN mar-JEL-ah",
-  "chan": ["O", "D"],
-  "conf": "L",
-  "forgc": [3, 2, 1],
-  "shop": "https://www.maisonmargiela.com/en-us/search?q=",
-  "onething": {
-    "p": "Replica sneaker",
-    "u": "https://www.maisonmargiela.com/en-us/search?q=Replica%20sneaker%20men",
-    "n": "official name — reproduces the 1970s German Army Trainer (the forum nickname GAT); the Replica line is the house concept itself"
-  },
-  "prices": [
-    [250, 895],
-    [460, 660],
-    [610, 1660],
-    [460, 1520],
-    [505, 2770],
-    [560, 3540],
-    [695, 7260],
-    [780, 2050]
+ "name": "Maison Margiela",
+ "band": "trueLux",
+ "seat": 158,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 1,
+  "craft": 3,
+  "style": 5
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 2,
+  "linen": 1,
+  "cotton": 2,
+  "wool": 2,
+  "synth": 2
+ },
+ "dials": {
+  "dur": 2,
+  "forg": 2,
+  "fuss": 0,
+  "shoes": 4,
+  "status": 3,
+  "fren": 3,
+  "avant": 5,
+  "weird": 4,
+  "whitet": 2,
+  "logo": 2,
+  "western": 1,
+  "rock": 2,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Deconstructed, conceptual clothing — exposed seams, rebuilt garments — with the artisanal line made by hand in the atelier.",
+ "origin": "Founded in Paris in 1988 by Martin Margiela.",
+ "say": "may-ZOHN mar-JEL-ah",
+ "chan": [
+  "O",
+  "D"
+ ],
+ "conf": "L",
+ "forgc": [
+  3,
+  2,
+  1
+ ],
+ "shop": "https://www.maisonmargiela.com/en-us/search?q=",
+ "onething": {
+  "p": "Replica sneaker",
+  "u": "https://www.maisonmargiela.com/en-us/search?q=Replica%20sneaker%20men",
+  "n": "official name — reproduces the 1970s German Army Trainer (the forum nickname GAT); the Replica line is the house concept itself"
+ },
+ "prices": [
+  [
+   250,
+   895
   ],
-  "shoelink": {
-    "t": "Replica sneaker",
-    "u": "https://www.maisonmargiela.com/en-us/search?q=Replica%20sneaker"
+  [
+   460,
+   660
+  ],
+  [
+   610,
+   1660
+  ],
+  [
+   460,
+   1520
+  ],
+  [
+   505,
+   2770
+  ],
+  [
+   560,
+   3540
+  ],
+  [
+   695,
+   7260
+  ],
+  [
+   780,
+   2050
+  ]
+ ],
+ "shoelink": {
+  "t": "Replica sneaker",
+  "u": "https://www.maisonmargiela.com/en-us/search?q=Replica%20sneaker"
+ },
+ "notes": {
+  "fren": "Paris address, Antwerp soul",
+  "avant": "anonymity, deconstruction, the artisanal line — the invisible radical",
+  "weird": "the tabi — a century of split toes",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 3; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "style": "Deconstruction as a design philosophy; the idea comes before the garment.",
+  "craft": "Maison Margiela's men's PDPs state 'Made in Italy' (5/5) and composition, naming no maker or mill. Parent OTB describes group company Staff International as the 'production and logistics hub' for Margiela, but names no factory or place and does not say whether it owns plants; OTB says most of its suppliers are in Italy. Country-of-make plus an unspecified group production company = 2 (3 if Staff International's named role is accepted as naming the maker). [audit proposed 2 at low confidence; held at 3 pending a second read]"
+ },
+ "doors": {
+  "c": "full",
+  "n": 6,
+  "cities": [
+   [
+    "Costa Mesa",
+    "CA",
+    1
+   ],
+   [
+    "Dallas",
+    "TX",
+    1
+   ],
+   [
+    "Las Vegas",
+    "NV",
+    1
+   ],
+   [
+    "Los Angeles",
+    "CA",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    1
+   ],
+   [
+    "San Francisco",
+    "CA",
+    1
+   ]
+  ],
+  "basis": "master 2026-08-29, pre-recapture"
+ },
+ "cities": "6 stores, including Costa Mesa, Dallas, Las Vegas · department stores and independent menswear shops, and its own site",
+ "region": {
+  "o": [
+   2008
+  ],
+  "s": [
+   123,
+   124,
+   3208
+  ]
+ },
+ "addmen": true,
+ "site": {
+  "domain": "www.maisonmargiela.com",
+  "platform": "salesforce_commerce",
+  "feed": "sitemap_products",
+  "feed_count": 1359,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "licensed",
+  "marks": [
+   "GORE-TEX (MM6 x Salomon)",
+   "Ambrox(R) (fragrance)"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 162,
+  "w": 162,
+  "n": 90,
+  "s": 6,
+  "c": 4,
+  "x": 1,
+  "xh": 0,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "jeans and trousers",
+   "coats and jackets",
+   "knitwear"
+  ],
+  "st": "complete"
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants",
+  "Sweater",
+  "Outerwear"
+ ],
+ "garment_links": {
+  "T-shirt": "https://www.maisonmargiela.com/en-us/maison-margiela/men/ready-to-wear/t-shirts/",
+  "Dress shirt": "https://www.maisonmargiela.com/en-us/maison-margiela/men/ready-to-wear/shirts/",
+  "Jeans": "https://www.maisonmargiela.com/en-us/maison-margiela/men/ready-to-wear/jeans-trousers/",
+  "Dress pants": "https://www.maisonmargiela.com/en-us/maison-margiela/men/ready-to-wear/jeans-trousers/",
+  "Sweater": "https://www.maisonmargiela.com/en-us/maison-margiela/men/ready-to-wear/knitwear/",
+  "Outerwear": "https://www.maisonmargiela.com/en-us/maison-margiela/men/ready-to-wear/coats-jackets/",
+  "Shoes": "https://www.maisonmargiela.com/en-us/maison-margiela/men/shoes/"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "MM6 Cotton T-Shirt",
+   "lu": "https://www.maisonmargiela.com/en-us/cotton-t-shirt-SH0GC0032S24312101.html",
+   "hp": "Taped V-neck T-shirt",
+   "hu": "https://www.maisonmargiela.com/en-us/taped-v-neck-t-shirt-S67GL0024M20201524.html",
+   "b": "range"
   },
-  "notes": {
-    "fren": "Paris address, Antwerp soul",
-    "avant": "anonymity, deconstruction, the artisanal line — the invisible radical",
-    "weird": "the tabi — a century of split toes",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 3; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "style": "Deconstruction as a design philosophy; the idea comes before the garment.",
-    "craft": "Maison Margiela's men's PDPs state 'Made in Italy' (5/5) and composition, naming no maker or mill. Parent OTB describes group company Staff International as the 'production and logistics hub' for Margiela, but names no factory or place and does not say whether it owns plants; OTB says most of its suppliers are in Italy. Country-of-make plus an unspecified group production company = 2 (3 if Staff International's named role is accepted as naming the maker). [audit proposed 2 at low confidence; held at 3 pending a second read]"
+  "Polo": {
+   "lp": "MM6 Striped Jersey Polo Shirt",
+   "lu": "https://www.maisonmargiela.com/en-us/striped-jersey-polo-shirt-SH2GL0011M20235001F.html",
+   "hp": "MM6 Ribbed polo shirt",
+   "hu": "https://www.maisonmargiela.com/en-us/ribbed-polo-shirt-SH2GL0006M13195143.html",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 6,
-    "cities": [
-      ["Costa Mesa", "CA", 1],
-      ["Dallas", "TX", 1],
-      ["Las Vegas", "NV", 1],
-      ["Los Angeles", "CA", 1],
-      ["New York", "NY", 1],
-      ["San Francisco", "CA", 1]
-    ],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Dress shirt": {
+   "lp": "MM6 Spliced numbers shirt",
+   "lu": "https://www.maisonmargiela.com/en-us/spliced-numbers-shirt-S52DT0018STZ088961.html",
+   "hp": "Double-Dyed Workwear Shirt",
+   "hu": "https://www.maisonmargiela.com/en-us/double-dyed-workwear-shirt-S50DT0080M35702487.html",
+   "b": "range"
   },
-  "cities": "6 stores, including Costa Mesa, Dallas, Las Vegas · department stores and independent menswear shops, and its own site",
-  "region": {
-    "o": [2008],
-    "s": [116, 123, 124]
+  "Jeans": {
+   "lp": "MM6 5-pocket Denim Trousers",
+   "lu": "https://www.maisonmargiela.com/en-us/5-pocket-denim-trousers-SH0LA0009S30589965.html",
+   "hp": "Distressed Denim Jeans",
+   "hu": "https://www.maisonmargiela.com/en-us/distressed-denim-jeans-S67LA0053M30066965.html",
+   "b": "range"
   },
-  "addmen": true,
-  "site": {
-    "domain": "www.maisonmargiela.com",
-    "platform": "salesforce_commerce",
-    "feed": "sitemap_products",
-    "feed_count": 1359,
-    "status": "live_store",
-    "checked": "2026-09-13"
+  "Dress pants": {
+   "lp": "MM6 Tapered Leg Tailoring Wool Trousers",
+   "lu": "https://www.maisonmargiela.com/en-us/tapered-leg-tailoring-wool-trousers-SH0KA0007S78357900.html",
+   "hp": "Taped Wool Trousers",
+   "hu": "https://www.maisonmargiela.com/en-us/taped-wool-trousers-S67KA0090M35859900.html",
+   "b": "range"
   },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "licensed",
-    "marks": ["GORE-TEX (MM6 x Salomon)", "Ambrox(R) (fragrance)"],
-    "source": "census",
-    "checked": "2026-09-12"
+  "Sweater": {
+   "lp": "MM6 Crew neck jumper",
+   "lu": "https://www.maisonmargiela.com/en-us/crew-neck-jumper-SH0HL0047M13280962.html",
+   "hp": "Cashmere sweater (knitted zip-up hooded)",
+   "hu": "https://www.maisonmargiela.com/en-us/cashmere-sweater-S50GU0238M13145144.html",
+   "b": "range"
   },
-  "fibre": {
-    "t": 162,
-    "w": 162,
-    "n": 90,
-    "s": 6,
-    "c": 4,
-    "x": 1,
-    "xh": 0,
-    "sp": "one",
-    "sc": [],
-    "nc": ["jeans and trousers", "coats and jackets", "knitwear"],
-    "st": "complete"
+  "Outerwear": {
+   "lp": "MM6 Light Blue Denim Jacket",
+   "lu": "https://www.maisonmargiela.com/en-us/light-blue-denim-jacket-SH0AM0008S30589965.html",
+   "hp": "Folded Collar Leather Biker Jacket",
+   "hu": "https://www.maisonmargiela.com/en-us/folded-collar-leather-biker-jacket-S67AM0114M07027144.html",
+   "b": "range"
   },
-  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants", "Sweater", "Outerwear"],
-  "garment_links": {
-    "T-shirt": "https://www.maisonmargiela.com/en-us/maison-margiela/men/ready-to-wear/t-shirts/",
-    "Dress shirt": "https://www.maisonmargiela.com/en-us/maison-margiela/men/ready-to-wear/shirts/",
-    "Jeans": "https://www.maisonmargiela.com/en-us/maison-margiela/men/ready-to-wear/jeans-trousers/",
-    "Dress pants": "https://www.maisonmargiela.com/en-us/maison-margiela/men/ready-to-wear/jeans-trousers/",
-    "Sweater": "https://www.maisonmargiela.com/en-us/maison-margiela/men/ready-to-wear/knitwear/",
-    "Outerwear": "https://www.maisonmargiela.com/en-us/maison-margiela/men/ready-to-wear/coats-jackets/",
-    "Shoes": "https://www.maisonmargiela.com/en-us/maison-margiela/men/shoes/"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "MM6 Cotton T-Shirt",
-      "lu": "https://www.maisonmargiela.com/en-us/cotton-t-shirt-SH0GC0032S24312101.html",
-      "hp": "Taped V-neck T-shirt",
-      "hu": "https://www.maisonmargiela.com/en-us/taped-v-neck-t-shirt-S67GL0024M20201524.html",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "MM6 Striped Jersey Polo Shirt",
-      "lu": "https://www.maisonmargiela.com/en-us/striped-jersey-polo-shirt-SH2GL0011M20235001F.html",
-      "hp": "MM6 Ribbed polo shirt",
-      "hu": "https://www.maisonmargiela.com/en-us/ribbed-polo-shirt-SH2GL0006M13195143.html",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "MM6 Spliced numbers shirt",
-      "lu": "https://www.maisonmargiela.com/en-us/spliced-numbers-shirt-S52DT0018STZ088961.html",
-      "hp": "Double-Dyed Workwear Shirt",
-      "hu": "https://www.maisonmargiela.com/en-us/double-dyed-workwear-shirt-S50DT0080M35702487.html",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "MM6 5-pocket Denim Trousers",
-      "lu": "https://www.maisonmargiela.com/en-us/5-pocket-denim-trousers-SH0LA0009S30589965.html",
-      "hp": "Distressed Denim Jeans",
-      "hu": "https://www.maisonmargiela.com/en-us/distressed-denim-jeans-S67LA0053M30066965.html",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "MM6 Tapered Leg Tailoring Wool Trousers",
-      "lu": "https://www.maisonmargiela.com/en-us/tapered-leg-tailoring-wool-trousers-SH0KA0007S78357900.html",
-      "hp": "Taped Wool Trousers",
-      "hu": "https://www.maisonmargiela.com/en-us/taped-wool-trousers-S67KA0090M35859900.html",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "MM6 Crew neck jumper",
-      "lu": "https://www.maisonmargiela.com/en-us/crew-neck-jumper-SH0HL0047M13280962.html",
-      "hp": "Cashmere sweater (knitted zip-up hooded)",
-      "hu": "https://www.maisonmargiela.com/en-us/cashmere-sweater-S50GU0238M13145144.html",
-      "b": "range"
-    },
-    "Outerwear": {
-      "lp": "MM6 Light Blue Denim Jacket",
-      "lu": "https://www.maisonmargiela.com/en-us/light-blue-denim-jacket-SH0AM0008S30589965.html",
-      "hp": "Folded Collar Leather Biker Jacket",
-      "hu": "https://www.maisonmargiela.com/en-us/folded-collar-leather-biker-jacket-S67AM0114M07027144.html",
-      "b": "range"
-    },
-    "Shoes": {
-      "lp": "MM6 City biker loafers",
-      "lu": "https://www.maisonmargiela.com/en-us/city-biker-loafers-SH1WR0006P7431T8013.html",
-      "hp": "Level Fringed Loafer",
-      "hu": "https://www.maisonmargiela.com/en-us/level-fringed-loafer-S57WR0161P7786T8013.html",
-      "b": "pair"
-    }
-  },
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.maisonmargiela.com/en-us/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "MM6 Maison Margiela"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=639289&brand_ids[]=450765",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "season": {
-    "l": "Fall Winter 2026 (FW2026)",
-    "t": "runway",
-    "u": "https://www.maisonmargiela.com/en-us/mm-brand-show-fw26.html",
-    "m": "yes"
-  },
-  "craft_evidence": {
-    "owned": "unclear",
-    "owned_d": "Nothing on maisonmargiela.com names an owned atelier or factory (product, category and misc sitemaps contain no craft/atelier/history page). Parent OTB's site says sister company Staff International (founded 1976) is 'the production and logistics hub of the OTB Group' and an 'industrial platform' for Maison Margiela, Marni, Jil Sander and Diesel footwear/bags/SLG - so OTB group-owned production management exists, but the page names no plant, place or whether Staff makes in its own factories or coordinates suppliers. OTB 2025 sustainability news: '75% of the Group's suppliers are based in Italy' (supplier-based). Which categories (RTW vs leather goods/shoes) Staff physically makes is not stated. The OTB Maison Margiela page mentions 'Artisanal' haute couture but no atelier location.",
-    "makers": "some",
-    "mills": "no",
-    "madein": "every product",
-    "countries": "Italy 5/5 (sample of 5 rendered men's PDPs: collarless virgin wool coat, Stockman cotton shirt, wool zipped cardigan, distressed jeans, Replica sneakers). Bags and t-shirts not sampled.",
-    "heritage": "dated and placed",
-    "repair": "no",
-    "process": "no",
-    "urls": [
-      "https://www.otb.net/staff-international",
-      "https://www.maisonmargiela.com/en-us/collarless-virgin-wool-coat-S29AA0325M36132511.html"
-    ],
-    "conf": "low",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "MM6 City biker loafers",
+   "lu": "https://www.maisonmargiela.com/en-us/city-biker-loafers-SH1WR0006P7431T8013.html",
+   "hp": "Level Fringed Loafer",
+   "hu": "https://www.maisonmargiela.com/en-us/level-fringed-loafer-S57WR0161P7786T8013.html",
+   "b": "pair"
   }
+ },
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.maisonmargiela.com/en-us/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "MM6 Maison Margiela"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=639289&brand_ids[]=450765",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "season": {
+  "l": "Fall Winter 2026 (FW2026)",
+  "t": "runway",
+  "u": "https://www.maisonmargiela.com/en-us/mm-brand-show-fw26.html",
+  "m": "yes"
+ },
+ "craft_evidence": {
+  "owned": "unclear",
+  "owned_d": "Nothing on maisonmargiela.com names an owned atelier or factory (product, category and misc sitemaps contain no craft/atelier/history page). Parent OTB's site says sister company Staff International (founded 1976) is 'the production and logistics hub of the OTB Group' and an 'industrial platform' for Maison Margiela, Marni, Jil Sander and Diesel footwear/bags/SLG - so OTB group-owned production management exists, but the page names no plant, place or whether Staff makes in its own factories or coordinates suppliers. OTB 2025 sustainability news: '75% of the Group's suppliers are based in Italy' (supplier-based). Which categories (RTW vs leather goods/shoes) Staff physically makes is not stated. The OTB Maison Margiela page mentions 'Artisanal' haute couture but no atelier location.",
+  "makers": "some",
+  "mills": "no",
+  "madein": "every product",
+  "countries": "Italy 5/5 (sample of 5 rendered men's PDPs: collarless virgin wool coat, Stockman cotton shirt, wool zipped cardigan, distressed jeans, Replica sneakers). Bags and t-shirts not sampled.",
+  "heritage": "dated and placed",
+  "repair": "no",
+  "process": "no",
+  "urls": [
+   "https://www.otb.net/staff-international",
+   "https://www.maisonmargiela.com/en-us/collarless-virgin-wool-coat-S29AA0325M36132511.html"
+  ],
+  "conf": "low",
+  "read": "2026-10-03"
+ }
 }

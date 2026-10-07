@@ -1,223 +1,346 @@
 {
-  "name": "Canada Goose",
-  "band": "accessible",
-  "seat": 77,
-  "dagger": 1,
-  "focus": {
-    "tech": 3,
-    "comfort": 3,
-    "craft": 5,
-    "style": 2
+ "name": "Canada Goose",
+ "band": "accessible",
+ "seat": 77,
+ "dagger": 1,
+ "focus": {
+  "tech": 3,
+  "comfort": 3,
+  "craft": 5,
+  "style": 2
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 1,
+  "wool": 2,
+  "synth": 4
+ },
+ "dials": {
+  "dur": 4,
+  "forg": 2,
+  "fuss": 2,
+  "status": 4,
+  "finbro": 4,
+  "street": 2,
+  "ski": 2,
+  "whitet": 2,
+  "logo": 3,
+  "western": 1,
+  "rock": 1,
+  "workwear": 2,
+  "outdoor": 4,
+  "surf": 1
+ },
+ "why": "Down parkas and outerwear made in Canada, from an expedition supplier that became a luxury brand.",
+ "origin": "Founded in Toronto in 1957 by Sam Tick as Metro Sportswear.",
+ "chan": [
+  "O",
+  "D"
+ ],
+ "conf": "S",
+ "forgc": [
+  2,
+  3,
+  1
+ ],
+ "shop": "https://www.canadagoose.com/en-us/search?q=",
+ "onething": {
+  "p": "Expedition parka",
+  "u": "https://www.canadagoose.com/us/en/search?q=Expedition%20parka%20men",
+  "n": "verified ✓"
+ },
+ "prices": [
+  [
+   225,
+   250
+  ],
+  [
+   250,
+   275
+  ],
+  [
+   375,
+   395
+  ],
+  null,
+  null,
+  [
+   375,
+   575
+  ],
+  [
+   550,
+   2075
+  ],
+  [
+   395,
+   850
+  ]
+ ],
+ "notes": {
+  "synth": "Arctic-spec technical shells, made in Canada",
+  "status": "the arm patch as school-run signal",
+  "finbro": "analyst winter armor on the walk from the subway",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 4; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "Canada Goose's own FY25 Modern Slavery Act report says its core down jackets are made in seven owned and operated factories in Winnipeg, Toronto, Scarborough and Montreal, and that 75% of products by volume are made in Canada; it also owns its Romanian knitwear maker (Paola Confectii, 2023). Parka pages say 'made in canada'; knit, footwear and toque pages say only 'made in europe'. The brand is the maker for its core range: a 5, at the 4/5 border because footwear, rainwear and accessories are made by unnamed partners."
+ },
+ "doors": {
+  "c": "full",
+  "n": 18,
+  "cities": [
+   [
+    "Anchorage",
+    "AK",
+    1
+   ],
+   [
+    "Atlanta",
+    "GA",
+    1
+   ],
+   [
+    "Bellevue",
+    "WA",
+    1
+   ],
+   [
+    "Bloomington",
+    "MN",
+    1
+   ],
+   [
+    "Boston",
+    "MA",
+    1
+   ],
+   [
+    "Chicago",
+    "IL",
+    1
+   ],
+   [
+    "Costa Mesa",
+    "CA",
+    1
+   ],
+   [
+    "Denver",
+    "CO",
+    1
+   ],
+   [
+    "East Rutherford",
+    "NJ",
+    1
+   ],
+   [
+    "Honolulu",
+    "HI",
+    1
+   ],
+   [
+    "King of Prussia",
+    "PA",
+    1
+   ],
+   [
+    "Las Vegas",
+    "NV",
+    1
+   ],
+   [
+    "Los Angeles",
+    "CA",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    2
+   ],
+   [
+    "Oak Brook",
+    "IL",
+    1
+   ],
+   [
+    "Short Hills",
+    "NJ",
+    1
+   ],
+   [
+    "Troy",
+    "MI",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-09"
+ },
+ "cities": "18 stores, including New York, Anchorage, Atlanta · department stores and independent menswear shops, and its own site",
+ "region": {
+  "o": [
+   679,
+   682,
+   683,
+   685,
+   686,
+   687
+  ],
+  "s": [
+   11,
+   75,
+   125
+  ]
+ },
+ "addmen": true,
+ "site": {
+  "domain": "canadagoose.com",
+  "platform": "salesforce_commerce",
+  "feed": "sitemap_products",
+  "feed_count": 1611,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "unclear",
+  "marks": [
+   "Arctic Tech (house)",
+   "Recycled Organic Arctic Tech",
+   "HyBridge (house)",
+   "Thermal Experience Index / TEI (house)"
+  ],
+  "source": "flag_sample",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 159,
+  "w": 159,
+  "n": 48,
+  "s": 52,
+  "c": 0,
+  "x": 4,
+  "xh": 3,
+  "sp": "split",
+  "sc": [
+   "Lightweight Jackets",
+   "Vests",
+   "Parkas",
+   "Rain & Wind",
+   "Puffers",
+   "Bombers",
+   "Snow Goose",
+   "Snow Pants"
+  ],
+  "nc": [
+   "Tops",
+   "Knitwear",
+   "Bottoms"
+  ],
+  "st": "complete"
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Outerwear",
+  "Shoes"
+ ],
+ "garment_links": {
+  "T-shirt": "https://www.canadagoose.com/en-us/collections/mens-t-shirts",
+  "Polo": "https://www.canadagoose.com/en-us/search?q=polo&filter.p.m.details.gender=gid%3A%2F%2Fshopify%2FFilterSettingGroup%2F163512544",
+  "Sweater": "https://www.canadagoose.com/en-us/collections/mens-knitwear",
+  "Outerwear": "https://www.canadagoose.com/en-us/collections/mens-parkas"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Novo T-Shirt",
+   "lu": "https://www.canadagoose.com/en-us/products/novo-t-shirt-1328m",
+   "hp": "Novo Poem T-Shirt",
+   "hu": "https://www.canadagoose.com/en-us/products/novo-poem-t-shirt-1328mt4",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 1,
-    "linen": 1,
-    "cotton": 1,
-    "wool": 2,
-    "synth": 4
+  "Polo": {
+   "lp": "Beckley Polo",
+   "lu": "https://www.canadagoose.com/en-us/products/beckley-polo-1600m",
+   "hp": "Beckley Striped Polo Tonal Disc",
+   "hu": "https://www.canadagoose.com/en-us/products/beckley-striped-polo-tonal-disc-1781mt2",
+   "b": "range"
   },
-  "dials": {
-    "dur": 4,
-    "forg": 2,
-    "fuss": 2,
-    "status": 4,
-    "finbro": 4,
-    "street": 2,
-    "ski": 2,
-    "whitet": 2,
-    "logo": 3,
-    "western": 1,
-    "rock": 1,
-    "workwear": 2,
-    "outdoor": 4,
-    "surf": 1
+  "Dress shirt": {
+   "lp": "Blythe Long Sleeve Shirt",
+   "lu": "https://www.canadagoose.com/en-us/products/blythe-long-sleeve-shirt-7263m",
+   "hp": "Albion Long Sleeve Shirt",
+   "hu": "https://www.canadagoose.com/en-us/products/albion-long-sleeve-shirt-7391m",
+   "b": "range"
   },
-  "why": "Down parkas and outerwear made in Canada, from an expedition supplier that became a luxury brand.",
-  "origin": "Founded in Toronto in 1957 by Sam Tick as Metro Sportswear.",
-  "chan": ["O", "D"],
-  "conf": "S",
-  "forgc": [2, 3, 1],
-  "shop": "https://www.canadagoose.com/en-us/search?q=",
-  "onething": {
-    "p": "Expedition parka",
-    "u": "https://www.canadagoose.com/us/en/search?q=Expedition%20parka%20men",
-    "n": "verified ✓"
+  "Sweater": {
+   "lp": "Rosseau Sweater",
+   "lu": "https://www.canadagoose.com/en-us/products/rosseau-sweater-7091m",
+   "hp": "Habel Knit Crew",
+   "hu": "https://www.canadagoose.com/en-us/products/habel-knit-crew-7610mt",
+   "b": "pair"
   },
-  "prices": [[225, 250], [250, 275], [375, 395], null, null, [375, 575], [550, 2075], [395, 850]],
-  "notes": {
-    "synth": "Arctic-spec technical shells, made in Canada",
-    "status": "the arm patch as school-run signal",
-    "finbro": "analyst winter armor on the walk from the subway",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 4; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Canada Goose's own FY25 Modern Slavery Act report says its core down jackets are made in seven owned and operated factories in Winnipeg, Toronto, Scarborough and Montreal, and that 75% of products by volume are made in Canada; it also owns its Romanian knitwear maker (Paola Confectii, 2023). Parka pages say 'made in canada'; knit, footwear and toque pages say only 'made in europe'. The brand is the maker for its core range: a 5, at the 4/5 border because footwear, rainwear and accessories are made by unnamed partners."
+  "Outerwear": {
+   "lp": "Faber Lightweight Bomber",
+   "lu": "https://www.canadagoose.com/en-us/products/faber-lightweight-bomber-2441m",
+   "hp": "Snow Mantra Parka",
+   "hu": "https://www.canadagoose.com/en-us/products/snow-mantra-parka-2102m",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 18,
-    "cities": [
-      ["Anchorage", "AK", 1],
-      ["Atlanta", "GA", 1],
-      ["Bellevue", "WA", 1],
-      ["Bloomington", "MN", 1],
-      ["Boston", "MA", 1],
-      ["Chicago", "IL", 1],
-      ["Costa Mesa", "CA", 1],
-      ["Denver", "CO", 1],
-      ["East Rutherford", "NJ", 1],
-      ["Honolulu", "HI", 1],
-      ["King of Prussia", "PA", 1],
-      ["Las Vegas", "NV", 1],
-      ["Los Angeles", "CA", 1],
-      ["New York", "NY", 2],
-      ["Oak Brook", "IL", 1],
-      ["Short Hills", "NJ", 1],
-      ["Troy", "MI", 1]
-    ],
-    "basis": "recapture 2026-09"
-  },
-  "cities": "18 stores, including New York, Anchorage, Atlanta · department stores and independent menswear shops, and its own site",
-  "region": {
-    "o": [679, 682, 683, 685, 686, 687],
-    "s": [11, 75, 116, 125]
-  },
-  "addmen": true,
-  "site": {
-    "domain": "canadagoose.com",
-    "platform": "salesforce_commerce",
-    "feed": "sitemap_products",
-    "feed_count": 1611,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "unclear",
-    "marks": [
-      "Arctic Tech (house)",
-      "Recycled Organic Arctic Tech",
-      "HyBridge (house)",
-      "Thermal Experience Index / TEI (house)"
-    ],
-    "source": "flag_sample",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 159,
-    "w": 159,
-    "n": 48,
-    "s": 52,
-    "c": 0,
-    "x": 4,
-    "xh": 3,
-    "sp": "split",
-    "sc": [
-      "Lightweight Jackets",
-      "Vests",
-      "Parkas",
-      "Rain & Wind",
-      "Puffers",
-      "Bombers",
-      "Snow Goose",
-      "Snow Pants"
-    ],
-    "nc": ["Tops", "Knitwear", "Bottoms"],
-    "st": "complete"
-  },
-  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Outerwear", "Shoes"],
-  "garment_links": {
-    "T-shirt": "https://www.canadagoose.com/en-us/collections/mens-t-shirts",
-    "Polo": "https://www.canadagoose.com/en-us/search?q=polo&filter.p.m.details.gender=gid%3A%2F%2Fshopify%2FFilterSettingGroup%2F163512544",
-    "Sweater": "https://www.canadagoose.com/en-us/collections/mens-knitwear",
-    "Outerwear": "https://www.canadagoose.com/en-us/collections/mens-parkas"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Novo T-Shirt",
-      "lu": "https://www.canadagoose.com/en-us/products/novo-t-shirt-1328m",
-      "hp": "Novo Poem T-Shirt",
-      "hu": "https://www.canadagoose.com/en-us/products/novo-poem-t-shirt-1328mt4",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Beckley Polo",
-      "lu": "https://www.canadagoose.com/en-us/products/beckley-polo-1600m",
-      "hp": "Beckley Striped Polo Tonal Disc",
-      "hu": "https://www.canadagoose.com/en-us/products/beckley-striped-polo-tonal-disc-1781mt2",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Blythe Long Sleeve Shirt",
-      "lu": "https://www.canadagoose.com/en-us/products/blythe-long-sleeve-shirt-7263m",
-      "hp": "Albion Long Sleeve Shirt",
-      "hu": "https://www.canadagoose.com/en-us/products/albion-long-sleeve-shirt-7391m",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Rosseau Sweater",
-      "lu": "https://www.canadagoose.com/en-us/products/rosseau-sweater-7091m",
-      "hp": "Habel Knit Crew",
-      "hu": "https://www.canadagoose.com/en-us/products/habel-knit-crew-7610mt",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "Faber Lightweight Bomber",
-      "lu": "https://www.canadagoose.com/en-us/products/faber-lightweight-bomber-2441m",
-      "hp": "Snow Mantra Parka",
-      "hu": "https://www.canadagoose.com/en-us/products/snow-mantra-parka-2102m",
-      "b": "range"
-    },
-    "Shoes": {
-      "lp": "Men's Ossington Sneaker",
-      "lu": "https://www.canadagoose.com/en-us/products/men-s-ossington-sneaker-7711m",
-      "hp": "Leo Boot",
-      "hu": "https://www.canadagoose.com/en-us/products/leo-boot-7679m",
-      "b": "range"
-    }
-  },
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.canadagoose.com/en-us/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "Black Disc / Tonal Disc / Black Label colourways (same styles, same prices)"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=14939",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "season": {
-    "l": "2026 Fall Winter Collection",
-    "t": "collection page",
-    "u": "https://www.canadagoose.com/en-us/collections/mens-fall-winter-collection",
-    "m": "yes"
-  },
-  "craft_evidence": {
-    "owned": "yes",
-    "owned_d": "Brand-owned (Canada Goose Holdings), not a parent group's. FY25 Modern Slavery Act report (S-211): 'Our core down-filled jackets are made in our seven owned and operated Canadian manufacturing facilities (Winnipeg, Toronto, Scarborough, and Montreal)'; 75% of products made in Canada, 23% Europe, 2% Asia by volume; rainwear, knitwear, footwear and accessories made in Europe/Asia. Owns the operating assets of Paola Confectii, a Romanian knitwear maker (acquired Nov 2023; had made HyBridge knits for CG since 2017 — FashionNetwork, WWD). COO quoted (Supply Chain Dive, 2025): over 90% of down-filled outerwear made in the company's Canadian facilities. Our History page: seven facilities, three GTA, three Winnipeg, one Quebec. Owned making covers down outerwear and (via Romania) knitwear; footwear, rainwear and most accessories are third-party.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "every product",
-    "countries": "Canada 3/8 (Langford parka, Expedition parka, Waist Pack), Europe 5/8 (HyBridge Knit Jacket, Rosseau sweater, Keystone boot, Cascade sneaker, Rib toque) — European pages say only 'made in europe', no country. Sample of 8 PDPs: parkas, knitwear, footwear, accessories. All 8 stated an origin.",
-    "heritage": "dated and placed",
-    "repair": "yes",
-    "process": "some",
-    "urls": [
-      "https://images.canadagoose.com/image/upload/v1748543241/cg-global/pages/Canada%20Modern%20Slavery%20Act/Canada_Goose_-_Modern_Slavery_Act_Report_2025.pdf",
-      "https://www.canadagoose.com/en-us/pages/our-history"
-    ],
-    "conf": "high",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Men's Ossington Sneaker",
+   "lu": "https://www.canadagoose.com/en-us/products/men-s-ossington-sneaker-7711m",
+   "hp": "Leo Boot",
+   "hu": "https://www.canadagoose.com/en-us/products/leo-boot-7679m",
+   "b": "range"
   }
+ },
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.canadagoose.com/en-us/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "Black Disc / Tonal Disc / Black Label colourways (same styles, same prices)"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=14939",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "season": {
+  "l": "2026 Fall Winter Collection",
+  "t": "collection page",
+  "u": "https://www.canadagoose.com/en-us/collections/mens-fall-winter-collection",
+  "m": "yes"
+ },
+ "craft_evidence": {
+  "owned": "yes",
+  "owned_d": "Brand-owned (Canada Goose Holdings), not a parent group's. FY25 Modern Slavery Act report (S-211): 'Our core down-filled jackets are made in our seven owned and operated Canadian manufacturing facilities (Winnipeg, Toronto, Scarborough, and Montreal)'; 75% of products made in Canada, 23% Europe, 2% Asia by volume; rainwear, knitwear, footwear and accessories made in Europe/Asia. Owns the operating assets of Paola Confectii, a Romanian knitwear maker (acquired Nov 2023; had made HyBridge knits for CG since 2017 — FashionNetwork, WWD). COO quoted (Supply Chain Dive, 2025): over 90% of down-filled outerwear made in the company's Canadian facilities. Our History page: seven facilities, three GTA, three Winnipeg, one Quebec. Owned making covers down outerwear and (via Romania) knitwear; footwear, rainwear and most accessories are third-party.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "every product",
+  "countries": "Canada 3/8 (Langford parka, Expedition parka, Waist Pack), Europe 5/8 (HyBridge Knit Jacket, Rosseau sweater, Keystone boot, Cascade sneaker, Rib toque) — European pages say only 'made in europe', no country. Sample of 8 PDPs: parkas, knitwear, footwear, accessories. All 8 stated an origin.",
+  "heritage": "dated and placed",
+  "repair": "yes",
+  "process": "some",
+  "urls": [
+   "https://images.canadagoose.com/image/upload/v1748543241/cg-global/pages/Canada%20Modern%20Slavery%20Act/Canada_Goose_-_Modern_Slavery_Act_Report_2025.pdf",
+   "https://www.canadagoose.com/en-us/pages/our-history"
+  ],
+  "conf": "high",
+  "read": "2026-10-03"
+ }
 }

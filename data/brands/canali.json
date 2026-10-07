@@ -1,214 +1,310 @@
 {
-  "name": "Canali",
-  "band": "trueLux",
-  "seat": 135,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 3,
-    "craft": 4,
-    "style": 3
-  },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 3,
-    "linen": 3,
-    "cotton": 3,
-    "wool": 4,
-    "synth": 1
-  },
-  "dials": {
-    "dur": 3,
-    "forg": 3,
-    "fuss": 3,
-    "golffice": -3,
-    "status": 2,
-    "finbro": 3,
-    "ital": 5,
-    "boat": 3,
-    "whitet": 2,
-    "logo": 1,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
-  },
-  "why": "Italian suits and tailoring, family-owned, with wide distribution through American specialty stores.",
-  "origin": "Founded in 1934 by the brothers Giovanni and Giacomo Canali.",
-  "say": "kah-NAH-lee",
-  "chan": ["D", "I", "O"],
-  "conf": "L",
-  "forgc": [2, 3, 4],
-  "onething": {
-    "p": "Kei jacket",
-    "u": "https://us.canali.com/collection/kei",
-    "n": "verified — the house's own Kei line page, US site. Unlined and without internal structure, so the jacket follows the body instead of holding a shape against it. Named by the London shop floor when asked what Canali is known for, and retailers describe Kei as the signature block rather than a seasonal model"
-  },
-  "prices": [
-    [475, 750, "USD_landed"],
-    [450, 1150, "USD_landed"],
-    [395, 875, "USD_landed"],
-    [575, 995, "USD_landed"],
-    [570, 2050, "USD_landed"],
-    [625, 1195, "USD_landed"],
-    [1295, 8095, "USD_landed"],
-    [625, 950, "USD_landed"]
+ "name": "Canali",
+ "band": "trueLux",
+ "seat": 135,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 3,
+  "craft": 4,
+  "style": 3
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 3,
+  "linen": 3,
+  "cotton": 3,
+  "wool": 4,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 3,
+  "fuss": 3,
+  "golffice": -3,
+  "status": 2,
+  "finbro": 3,
+  "ital": 5,
+  "boat": 3,
+  "whitet": 2,
+  "logo": 1,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Italian suits and tailoring, family-owned, with wide distribution through American specialty stores.",
+ "origin": "Founded in 1934 by the brothers Giovanni and Giacomo Canali.",
+ "say": "kah-NAH-lee",
+ "chan": [
+  "D",
+  "I",
+  "O"
+ ],
+ "conf": "L",
+ "forgc": [
+  2,
+  3,
+  4
+ ],
+ "onething": {
+  "p": "Kei jacket",
+  "u": "https://us.canali.com/collection/kei",
+  "n": "verified — the house's own Kei line page, US site. Unlined and without internal structure, so the jacket follows the body instead of holding a shape against it. Named by the London shop floor when asked what Canali is known for, and retailers describe Kei as the signature block rather than a seasonal model"
+ },
+ "prices": [
+  [
+   475,
+   750,
+   "USD_landed"
   ],
-  "notes": {
-    "ital": "Family-run in Brianza since 1934, which puts it in the second rank of Italian tailoring by fame and the first by consistency. The register is Milanese: structured, sober, unshowy.",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 3; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Canali says 70% of its production is in its own Italian workshops, with five production centres and over 1,400 staff, and 30% is made by Italian third parties. Every PDP sampled says Made in Italy, but no PDP or company page names a factory town or a cloth mill. So the house has real owned making that does not cover the whole range, and it is described rather than placed: a 4. [ruled by Sebastian 4 Oct 2026]"
+  [
+   450,
+   1150,
+   "USD_landed"
+  ],
+  [
+   395,
+   875,
+   "USD_landed"
+  ],
+  [
+   575,
+   995,
+   "USD_landed"
+  ],
+  [
+   570,
+   2050,
+   "USD_landed"
+  ],
+  [
+   625,
+   1195,
+   "USD_landed"
+  ],
+  [
+   1295,
+   8095,
+   "USD_landed"
+  ],
+  [
+   625,
+   950,
+   "USD_landed"
+  ]
+ ],
+ "notes": {
+  "ital": "Family-run in Brianza since 1934, which puts it in the second rank of Italian tailoring by fame and the first by consistency. The register is Milanese: structured, sober, unshowy.",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 3; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "Canali says 70% of its production is in its own Italian workshops, with five production centres and over 1,400 staff, and 30% is made by Italian third parties. Every PDP sampled says Made in Italy, but no PDP or company page names a factory town or a cloth mill. So the house has real owned making that does not cover the whole range, and it is described rather than placed: a 4. [ruled by Sebastian 4 Oct 2026]"
+ },
+ "doors": {
+  "c": "full",
+  "n": 4,
+  "cities": [
+   [
+    "Beverly Hills",
+    "CA",
+    1
+   ],
+   [
+    "Elmont",
+    "NY",
+    1
+   ],
+   [
+    "Las Vegas",
+    "NV",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-09"
+ },
+ "cities": "4 stores — Beverly Hills, Elmont, Las Vegas, New York · department stores and independent menswear shops, and its own site",
+ "region": {
+  "o": [
+   691,
+   692
+  ],
+  "s": [
+   2,
+   9,
+   11,
+   27,
+   44,
+   49,
+   58,
+   60,
+   66,
+   89,
+   95,
+   117,
+   151,
+   152,
+   3208
+  ]
+ },
+ "site": {
+  "domain": "us.canali.com",
+  "platform": "custom",
+  "feed": "sitemap_products",
+  "feed_count": 663,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "house",
+  "marks": [
+   "Rain & Wind (membrane)",
+   "Rain Protection (treatment)",
+   "Impeccabile"
+  ],
+  "source": "screen_36",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 312,
+  "w": 309,
+  "n": 93,
+  "s": 5,
+  "c": 1,
+  "x": 9,
+  "xh": 1,
+  "sp": "one",
+  "sc": [
+   "Swim Trunks"
+  ],
+  "nc": [
+   "Shirts",
+   "Pants",
+   "Suits"
+  ],
+  "st": "complete"
+ },
+ "garment_links": {
+  "T-shirt": "https://us.canali.com/clothing/polos-and-t-shirts",
+  "Polo": "https://us.canali.com/clothing/polos-and-t-shirts",
+  "Dress shirt": "https://us.canali.com/clothing/shirts",
+  "Jeans": "https://us.canali.com/clothing/pants/denim",
+  "Dress pants": "https://us.canali.com/clothing/pants",
+  "Sweater": "https://us.canali.com/clothing/knitwear",
+  "Outerwear": "https://us.canali.com/clothing/jackets",
+  "Shoes": "https://us.canali.com/shoes"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Beige Giza cotton T-shirt with contrasting piping",
+   "lu": "https://us.canali.com/beige-giza-cotton-t-shirt-with-contrasting-piping-c1161mk02460705/p",
+   "hp": "Impeccabile Super 120's melange wool blue T-shirt",
+   "hu": "https://us.canali.com/impeccabile-super-120s-melange-wool-blue-t-shirt-t0908mj02338320/p",
+   "b": "pair"
   },
-  "doors": {
-    "c": "full",
-    "n": 4,
-    "cities": [["Beverly Hills", "CA", 1], ["Elmont", "NY", 1], ["Las Vegas", "NV", 1], ["New York", "NY", 1]],
-    "basis": "recapture 2026-09"
+  "Polo": {
+   "lp": "Olive green polo shirt in soft cotton pique",
+   "lu": "https://us.canali.com/olive-green-polo-shirt-in-soft-cotton-pique-t0863pmj02239805/p",
+   "hp": "Taupe silk short-sleeved polo shirt with buttons",
+   "hu": "https://us.canali.com/taupe-silk-short-sleeved-polo-shirt-with-buttons-t0238mx01184700/p",
+   "b": "pair"
   },
-  "cities": "4 stores — Beverly Hills, Elmont, Las Vegas, New York · department stores and independent menswear shops, and its own site",
-  "region": {
-    "o": [691, 692],
-    "s": [2, 9, 11, 27, 44, 49, 58, 60, 66, 89, 95, 116, 117, 151, 152]
+  "Dress shirt": {
+   "lp": "Regular-fit shirt in white cotton",
+   "lu": "https://us.canali.com/regular-fit-shirt-in-white-cotton-ccl7018ga6013501/p",
+   "hp": "White regular fit silk dress shirt",
+   "hu": "https://us.canali.com/white-regular-fit-silk-dress-shirt-ccl7090ga03331001/p",
+   "b": "pair"
   },
-  "site": {
-    "domain": "us.canali.com",
-    "platform": "custom",
-    "feed": "sitemap_products",
-    "feed_count": 663,
-    "status": "live_store",
-    "checked": "2026-09-13"
+  "Jeans": {
+   "lp": "Five-pocket slim-fit stretch denim pants in blue",
+   "lu": "https://us.canali.com/five-pocket-slim-fit-stretch-denim-pants-in-blue-93720pd00018301/p",
+   "hp": "Medium blue regular fit five pocket cotton and silk blend pants",
+   "hu": "https://us.canali.com/medium-blue-regular-fit-five-pocket-cotton-and-silk-blend-pants-91719px01198302/p",
+   "b": "range"
   },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "house",
-    "marks": ["Rain & Wind (membrane)", "Rain Protection (treatment)", "Impeccabile"],
-    "source": "screen_36",
-    "checked": "2026-09-12"
+  "Dress pants": {
+   "lp": "Gray high-waisted pleatless stretch wool pants",
+   "lu": "https://us.canali.com/gray-high-waisted-pleatless-stretch-wool-pants-71019eu00551114/p",
+   "hp": "Canali Impeccabile light gray 150's wool regular-fit pants",
+   "hu": "https://us.canali.com/canali-impeccabile-light-gray-150’s-wool-regular-fit-pants-e72020ax06219201/p",
+   "b": "pair"
   },
-  "fibre": {
-    "t": 312,
-    "w": 309,
-    "n": 93,
-    "s": 5,
-    "c": 1,
-    "x": 9,
-    "xh": 1,
-    "sp": "one",
-    "sc": ["Swim Trunks"],
-    "nc": ["Shirts", "Pants", "Suits"],
-    "st": "complete"
+  "Sweater": {
+   "lp": "Milk-colored extra-fine merino wool crew neck",
+   "lu": "https://us.canali.com/milk-colored-extra-fine-merino-wool-crew-neck-c0012mk02483001/p",
+   "hp": "Beige cashmere long-sleeved crew neck",
+   "hu": "https://us.canali.com/beige-cashmere-long-sleeved-crew-neck-c0012mk02544702/p",
+   "b": "pair"
   },
-  "garment_links": {
-    "T-shirt": "https://us.canali.com/clothing/polos-and-t-shirts",
-    "Polo": "https://us.canali.com/clothing/polos-and-t-shirts",
-    "Dress shirt": "https://us.canali.com/clothing/shirts",
-    "Jeans": "https://us.canali.com/clothing/pants/denim",
-    "Dress pants": "https://us.canali.com/clothing/pants",
-    "Sweater": "https://us.canali.com/clothing/knitwear",
-    "Outerwear": "https://us.canali.com/clothing/jackets",
-    "Shoes": "https://us.canali.com/shoes"
+  "Outerwear": {
+   "lp": "Black cotton denim jacket",
+   "lu": "https://us.canali.com/black-cotton-denim-jacket-o41129pd01663111/p",
+   "hp": "Brown woven suede blouson jacket",
+   "hu": "https://us.canali.com/brown-woven-suede-blouson-jacket-o70501le00309502/p",
+   "b": "range"
   },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Beige Giza cotton T-shirt with contrasting piping",
-      "lu": "https://us.canali.com/beige-giza-cotton-t-shirt-with-contrasting-piping-c1161mk02460705/p",
-      "hp": "Impeccabile Super 120's melange wool blue T-shirt",
-      "hu": "https://us.canali.com/impeccabile-super-120s-melange-wool-blue-t-shirt-t0908mj02338320/p",
-      "b": "pair"
-    },
-    "Polo": {
-      "lp": "Olive green polo shirt in soft cotton pique",
-      "lu": "https://us.canali.com/olive-green-polo-shirt-in-soft-cotton-pique-t0863pmj02239805/p",
-      "hp": "Taupe silk short-sleeved polo shirt with buttons",
-      "hu": "https://us.canali.com/taupe-silk-short-sleeved-polo-shirt-with-buttons-t0238mx01184700/p",
-      "b": "pair"
-    },
-    "Dress shirt": {
-      "lp": "Regular-fit shirt in white cotton",
-      "lu": "https://us.canali.com/regular-fit-shirt-in-white-cotton-ccl7018ga6013501/p",
-      "hp": "White regular fit silk dress shirt",
-      "hu": "https://us.canali.com/white-regular-fit-silk-dress-shirt-ccl7090ga03331001/p",
-      "b": "pair"
-    },
-    "Jeans": {
-      "lp": "Five-pocket slim-fit stretch denim pants in blue",
-      "lu": "https://us.canali.com/five-pocket-slim-fit-stretch-denim-pants-in-blue-93720pd00018301/p",
-      "hp": "Medium blue regular fit five pocket cotton and silk blend pants",
-      "hu": "https://us.canali.com/medium-blue-regular-fit-five-pocket-cotton-and-silk-blend-pants-91719px01198302/p",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Gray high-waisted pleatless stretch wool pants",
-      "lu": "https://us.canali.com/gray-high-waisted-pleatless-stretch-wool-pants-71019eu00551114/p",
-      "hp": "Canali Impeccabile light gray 150's wool regular-fit pants",
-      "hu": "https://us.canali.com/canali-impeccabile-light-gray-150’s-wool-regular-fit-pants-e72020ax06219201/p",
-      "b": "pair"
-    },
-    "Sweater": {
-      "lp": "Milk-colored extra-fine merino wool crew neck",
-      "lu": "https://us.canali.com/milk-colored-extra-fine-merino-wool-crew-neck-c0012mk02483001/p",
-      "hp": "Beige cashmere long-sleeved crew neck",
-      "hu": "https://us.canali.com/beige-cashmere-long-sleeved-crew-neck-c0012mk02544702/p",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "Black cotton denim jacket",
-      "lu": "https://us.canali.com/black-cotton-denim-jacket-o41129pd01663111/p",
-      "hp": "Brown woven suede blouson jacket",
-      "hu": "https://us.canali.com/brown-woven-suede-blouson-jacket-o70501le00309502/p",
-      "b": "range"
-    },
-    "Shoes": {
-      "lp": "Black calfskin penny loafers",
-      "lu": "https://us.canali.com/black-calfskin-penny-loafers-611242ra00527112/p",
-      "hp": "Black buffed calfskin loafers",
-      "hu": "https://us.canali.com/black-buffed-calfskin-loafers-811402ra01022110/p",
-      "b": "pair"
-    }
-  },
-  "price_range_only": ["Jeans", "Outerwear"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://us.canali.com/",
-    "currency": "USD_landed",
-    "status": "read",
-    "sublines": "Canali Nuvola; Impeccabile; Canali Travel (all Canali-labelled lines in the main range)"
-  },
-  "price_checked": true,
-  "shop": "https://us.canali.com/<term>?_q=<term>&map=ft (VTEX full-text; the term is the path segment, so there is no empty-query base)",
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=238464",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "season": {
-    "l": "Fall Winter 2026",
-    "t": "campaign",
-    "u": "https://us.canali.com/collection/fall-winter-campaign",
-    "m": "yes"
-  },
-  "craft_evidence": {
-    "owned": "unclear",
-    "owned_d": "Brand states owned making but names no place: made-in-italy page: '70% of our production takes place in our own workshops in Italy, and the remaining 30% entrusted to carefully monitored Italian third-party suppliers'; 'a short, verticalized, and integrated supply chain'. About-us page: 'five production centers strategically located in Italy', 'over 1400 employees'. Neither page names the towns; company-data page gives only the registered office (Via Lombardia 17/19, Sovico MB) and parent Canali Holding SpA. Rated unclear only because no production site is named; the 70% figure is specific.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "every product",
-    "countries": "Italy 5/5 (sample of 5 PDPs: suit, dress shirt, knit crew neck, car coat, denim trousers); a 6th PDP (oxford shoe) returned no readable content.",
-    "heritage": "dated and placed",
-    "repair": "no",
-    "process": "some",
-    "urls": ["https://us.canali.com/made-in-italy", "https://us.canali.com/about-us"],
-    "conf": "medium",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Black calfskin penny loafers",
+   "lu": "https://us.canali.com/black-calfskin-penny-loafers-611242ra00527112/p",
+   "hp": "Black buffed calfskin loafers",
+   "hu": "https://us.canali.com/black-buffed-calfskin-loafers-811402ra01022110/p",
+   "b": "pair"
   }
+ },
+ "price_range_only": [
+  "Jeans",
+  "Outerwear"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://us.canali.com/",
+  "currency": "USD_landed",
+  "status": "read",
+  "sublines": "Canali Nuvola; Impeccabile; Canali Travel (all Canali-labelled lines in the main range)"
+ },
+ "price_checked": true,
+ "shop": "https://us.canali.com/<term>?_q=<term>&map=ft (VTEX full-text; the term is the path segment, so there is no empty-query base)",
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=238464",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "season": {
+  "l": "Fall Winter 2026",
+  "t": "campaign",
+  "u": "https://us.canali.com/collection/fall-winter-campaign",
+  "m": "yes"
+ },
+ "craft_evidence": {
+  "owned": "unclear",
+  "owned_d": "Brand states owned making but names no place: made-in-italy page: '70% of our production takes place in our own workshops in Italy, and the remaining 30% entrusted to carefully monitored Italian third-party suppliers'; 'a short, verticalized, and integrated supply chain'. About-us page: 'five production centers strategically located in Italy', 'over 1400 employees'. Neither page names the towns; company-data page gives only the registered office (Via Lombardia 17/19, Sovico MB) and parent Canali Holding SpA. Rated unclear only because no production site is named; the 70% figure is specific.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "every product",
+  "countries": "Italy 5/5 (sample of 5 PDPs: suit, dress shirt, knit crew neck, car coat, denim trousers); a 6th PDP (oxford shoe) returned no readable content.",
+  "heritage": "dated and placed",
+  "repair": "no",
+  "process": "some",
+  "urls": [
+   "https://us.canali.com/made-in-italy",
+   "https://us.canali.com/about-us"
+  ],
+  "conf": "medium",
+  "read": "2026-10-03"
+ }
 }

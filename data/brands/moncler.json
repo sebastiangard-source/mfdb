@@ -1,270 +1,417 @@
 {
-  "name": "Moncler",
-  "band": "trueLux",
-  "seat": 143,
-  "dagger": 1,
-  "focus": {
-    "tech": 3,
-    "comfort": 3,
-    "craft": 4,
-    "style": 4
-  },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 2,
-    "linen": 1,
-    "cotton": 1,
-    "wool": 2,
-    "synth": 4
-  },
-  "dials": {
-    "dur": 3,
-    "forg": 2,
-    "fuss": 2,
-    "status": 5,
-    "finbro": 4,
-    "ital": 3,
-    "fren": 3,
-    "street": 3,
-    "ski": 5,
-    "whitet": 2,
-    "logo": 4,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 3,
-    "surf": 1
-  },
-  "why": "Down jackets, from a French alpine equipment maker turned Italian-owned luxury brand.",
-  "origin": "Founded in Monestier-de-Clermont, France, in 1952; the name abbreviates the village.",
-  "say": "mon-CLAIR",
-  "chan": ["O", "D"],
-  "conf": "S",
-  "forgc": [2, 3, 1],
-  "onething": {
-    "p": "Maya jacket",
-    "u": "https://www.moncler.com/en-us/men/outerwear/short-down-jackets/moncler-maya-hooded-short-down-jacket-black-L20911A5360068950999.html",
-    "n": "direct — the Maya in black, verified"
-  },
-  "prices": [
-    [335, 830],
-    [395, 825],
-    [840, 1250],
-    [855, 945],
-    [885, 1140],
-    [795, 1055],
-    [1045, 4195],
-    [335, 1050]
+ "name": "Moncler",
+ "band": "trueLux",
+ "seat": 143,
+ "dagger": 1,
+ "focus": {
+  "tech": 3,
+  "comfort": 3,
+  "craft": 4,
+  "style": 4
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 2,
+  "linen": 1,
+  "cotton": 1,
+  "wool": 2,
+  "synth": 4
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 2,
+  "fuss": 2,
+  "status": 5,
+  "finbro": 4,
+  "ital": 3,
+  "fren": 3,
+  "street": 3,
+  "ski": 5,
+  "whitet": 2,
+  "logo": 4,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 3,
+  "surf": 1
+ },
+ "why": "Down jackets, from a French alpine equipment maker turned Italian-owned luxury brand.",
+ "origin": "Founded in Monestier-de-Clermont, France, in 1952; the name abbreviates the village.",
+ "say": "mon-CLAIR",
+ "chan": [
+  "O",
+  "D"
+ ],
+ "conf": "S",
+ "forgc": [
+  2,
+  3,
+  1
+ ],
+ "onething": {
+  "p": "Maya jacket",
+  "u": "https://www.moncler.com/en-us/men/outerwear/short-down-jackets/moncler-maya-hooded-short-down-jacket-black-L20911A5360068950999.html",
+  "n": "direct — the Maya in black, verified"
+ },
+ "prices": [
+  [
+   335,
+   830
   ],
-  "notes": {
-    "synth": "laqué nylon down — the shell as status",
-    "status": "the badge on the sleeve — suburbia's most legible luxury object",
-    "finbro": "the managing director's ski trip, visible from across the lodge",
-    "fren": "the mirror case — born French-alpine, naturalized Italian",
-    "ski": "Grenoble, 1952, and the first jackets were built for alpine expeditions rather than for town. The Grenoble line keeps the claim current rather than historical.",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 4; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Moncler's 2024 annual report says the brand owns a down-jacket plant in Romania (over 2,000 staff) and a plant at Trebaseleghe (Padua), plus a new knitwear plant in Veneto, but that outerwear and knitwear are only 'partly managed internally' with the rest made by about 130 façon and finished-goods suppliers, and accessories and footwear are fully outsourced. Real owned making of the core category, not the whole range: a 4."
+  [
+   395,
+   825
+  ],
+  [
+   840,
+   1250
+  ],
+  [
+   855,
+   945
+  ],
+  [
+   885,
+   1140
+  ],
+  [
+   795,
+   1055
+  ],
+  [
+   1045,
+   4195
+  ],
+  [
+   335,
+   1050
+  ]
+ ],
+ "notes": {
+  "synth": "laqué nylon down — the shell as status",
+  "status": "the badge on the sleeve — suburbia's most legible luxury object",
+  "finbro": "the managing director's ski trip, visible from across the lodge",
+  "fren": "the mirror case — born French-alpine, naturalized Italian",
+  "ski": "Grenoble, 1952, and the first jackets were built for alpine expeditions rather than for town. The Grenoble line keeps the claim current rather than historical.",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 4; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "Moncler's 2024 annual report says the brand owns a down-jacket plant in Romania (over 2,000 staff) and a plant at Trebaseleghe (Padua), plus a new knitwear plant in Veneto, but that outerwear and knitwear are only 'partly managed internally' with the rest made by about 130 façon and finished-goods suppliers, and accessories and footwear are fully outsourced. Real owned making of the core category, not the whole range: a 4."
+ },
+ "doors": {
+  "c": "full",
+  "n": 29,
+  "cities": [
+   [
+    "Aspen",
+    "CO",
+    2
+   ],
+   [
+    "Atlanta",
+    "GA",
+    1
+   ],
+   [
+    "Austin",
+    "TX",
+    1
+   ],
+   [
+    "Aventura",
+    "FL",
+    1
+   ],
+   [
+    "Bal Harbour",
+    "FL",
+    1
+   ],
+   [
+    "Bellevue",
+    "WA",
+    1
+   ],
+   [
+    "Beverly Hills",
+    "CA",
+    1
+   ],
+   [
+    "Boca Raton",
+    "FL",
+    1
+   ],
+   [
+    "Boston",
+    "MA",
+    1
+   ],
+   [
+    "Chicago",
+    "IL",
+    1
+   ],
+   [
+    "Costa Mesa",
+    "CA",
+    1
+   ],
+   [
+    "Edina",
+    "MN",
+    1
+   ],
+   [
+    "Highland Park",
+    "TX",
+    1
+   ],
+   [
+    "Honolulu",
+    "HI",
+    2
+   ],
+   [
+    "Houston",
+    "TX",
+    1
+   ],
+   [
+    "King of Prussia",
+    "PA",
+    1
+   ],
+   [
+    "Las Vegas",
+    "NV",
+    3
+   ],
+   [
+    "Miami",
+    "FL",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    2
+   ],
+   [
+    "Oak Brook",
+    "IL",
+    1
+   ],
+   [
+    "San Francisco",
+    "CA",
+    1
+   ],
+   [
+    "Troy",
+    "MI",
+    1
+   ],
+   [
+    "Vail",
+    "CO",
+    1
+   ],
+   [
+    "Washington",
+    "DC",
+    1
+   ]
+  ],
+  "basis": "master 2026-08-29, pre-recapture"
+ },
+ "cities": "29 stores across the US · department stores and independent menswear shops, and its own site",
+ "region": {
+  "o": [
+   2096,
+   2102,
+   2103,
+   2104
+  ],
+  "s": [
+   44,
+   60,
+   3208
+  ]
+ },
+ "addmen": true,
+ "site": {
+  "domain": "moncler.com",
+  "platform": "salesforce_commerce",
+  "feed": "sitemap_products",
+  "feed_count": 5114,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "licensed",
+  "marks": [
+   "LICENSED: GORE-TEX(R) (incl. GORE-TEX INFINIUM(R) and 'WINDSTOPPER by GORE-TEX')",
+   "WINDSTOPPER(R)",
+   "Polartec(R) (incl. Polartec Power Grid(R), Polartec Alpha(R), Polartec Delta(R))",
+   "PrimaLoft(R)",
+   "CORDURA(R)",
+   "Teflon(R)",
+   "Alcantara(R)",
+   "Dermizax(R)",
+   "Dyneema(R)",
+   "OrthoLite(R)",
+   "Vibram(R)",
+   "RECCO(R)",
+   "YKK(R), Y"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 591,
+  "w": 591,
+  "n": 51,
+  "s": 48,
+  "c": 1,
+  "x": 12,
+  "xh": 7,
+  "sp": "split",
+  "sc": [
+   "Short Down Jackets",
+   "Vests",
+   "Windbreakers",
+   "Lightweight Down Jackets",
+   "Long Down Jackets",
+   "Ski Jackets",
+   "Ski Trousers",
+   "Biker Jackets",
+   "Padded Cardigans",
+   "Swimwear"
+  ],
+  "nc": [
+   "Short Sleeve T-Shirts",
+   "Shirt Jackets",
+   "Trousers"
+  ],
+  "st": "complete"
+ },
+ "price_range_only": [
+  "Polo",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants",
+  "Outerwear",
+  "Shoes"
+ ],
+ "garment_links": {
+  "T-shirt": "https://www.moncler.com/en-us/men/ready-to-wear/polos-and-t-shirts",
+  "Polo": "https://www.moncler.com/en-us/men/ready-to-wear/polos-and-t-shirts",
+  "Dress shirt": "https://www.moncler.com/en-us/men/ready-to-wear/shirts",
+  "Dress pants": "https://www.moncler.com/en-us/men/ready-to-wear/pants-and-shorts",
+  "Sweater": "https://www.moncler.com/en-us/men/ready-to-wear/sweaters-and-cardigans",
+  "Outerwear": "https://www.moncler.com/en-us/men/outerwear"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Tricolor-Trimmed Cotton T-Shirt",
+   "lu": "https://www.moncler.com/en-us/men/ready-to-wear/polos-and-t-shirts/tricolor-trimmed-cotton-t-shirt-black-L10918C7160087296999.html",
+   "hp": "Silk & Cotton T-Shirt (55% silk/45% cotton knit, short sleeves, filed under Short Sleeve T-Shirts)",
+   "hu": "https://www.moncler.com/en-us/men/ready-to-wear/polos-and-t-shirts/silk-and-cotton-tshirt-white-L10919C00017M6329034.html",
+   "b": "pair"
   },
-  "doors": {
-    "c": "full",
-    "n": 29,
-    "cities": [
-      ["Aspen", "CO", 2],
-      ["Atlanta", "GA", 1],
-      ["Austin", "TX", 1],
-      ["Aventura", "FL", 1],
-      ["Bal Harbour", "FL", 1],
-      ["Bellevue", "WA", 1],
-      ["Beverly Hills", "CA", 1],
-      ["Boca Raton", "FL", 1],
-      ["Boston", "MA", 1],
-      ["Chicago", "IL", 1],
-      ["Costa Mesa", "CA", 1],
-      ["Edina", "MN", 1],
-      ["Highland Park", "TX", 1],
-      ["Honolulu", "HI", 2],
-      ["Houston", "TX", 1],
-      ["King of Prussia", "PA", 1],
-      ["Las Vegas", "NV", 3],
-      ["Miami", "FL", 1],
-      ["New York", "NY", 2],
-      ["Oak Brook", "IL", 1],
-      ["San Francisco", "CA", 1],
-      ["Troy", "MI", 1],
-      ["Vail", "CO", 1],
-      ["Washington", "DC", 1]
-    ],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Polo": {
+   "lp": "Logo Patch Cotton Piquet Polo Shirt (also Tricolor-Trimmed Cotton Piquet Polo Shirt, $395)",
+   "lu": "https://www.moncler.com/en-us/men/ready-to-wear/polos-and-t-shirts/logo-patch-cotton-piquet-polo-shirt-night-blue-L20918A000118455677X.html",
+   "hp": "Logo Cotton Knit Polo (100% cotton, short sleeves)",
+   "hu": "https://www.moncler.com/en-us/men/ready-to-wear/polos-and-t-shirts/logo-cotton-knit-polo-black-L20919A00003M1367999.html",
+   "b": "range"
   },
-  "cities": "29 stores across the US · department stores and independent menswear shops, and its own site",
-  "region": {
-    "o": [2096, 2102, 2103, 2104],
-    "s": [44, 60, 116]
+  "Dress shirt": {
+   "lp": "Cotton Shirt (100% cotton, collar, long sleeves, button closure)",
+   "lu": "https://www.moncler.com/en-us/men/ready-to-wear/shirts/cotton-shirt-light-blue-L20912F0005220838701.html",
+   "hp": "Chambray Long Sleeve Shirt (Grenoble; snap-button front)",
+   "hu": "https://www.moncler.com/en-us/men/ready-to-wear/shirts/chambray-long-sleeve-shirt-powder-blue-L10972F00002596RS715.html",
+   "b": "range"
   },
-  "addmen": true,
-  "site": {
-    "domain": "moncler.com",
-    "platform": "salesforce_commerce",
-    "feed": "sitemap_products",
-    "feed_count": 5114,
-    "status": "live_store",
-    "checked": "2026-09-13"
+  "Jeans": {
+   "lp": "Straight Leg Denim Jeans (five-pocket)",
+   "lu": "https://www.moncler.com/en-us/men/ready-to-wear/pants-and-shorts/straight-leg-denim-jeans-denim-blue-L20912A0004459A0D720.html",
+   "hp": "Straight Leg Jeans (denim)",
+   "hu": "https://www.moncler.com/en-us/men/ready-to-wear/pants-and-shorts/straight-leg-jeans-sky-blue-L10912A00036599J374O.html",
+   "b": "range"
   },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "licensed",
-    "marks": [
-      "LICENSED: GORE-TEX(R) (incl. GORE-TEX INFINIUM(R) and 'WINDSTOPPER by GORE-TEX')",
-      "WINDSTOPPER(R)",
-      "Polartec(R) (incl. Polartec Power Grid(R), Polartec Alpha(R), Polartec Delta(R))",
-      "PrimaLoft(R)",
-      "CORDURA(R)",
-      "Teflon(R)",
-      "Alcantara(R)",
-      "Dermizax(R)",
-      "Dyneema(R)",
-      "OrthoLite(R)",
-      "Vibram(R)",
-      "RECCO(R)",
-      "YKK(R), Y"
-    ],
-    "source": "census",
-    "checked": "2026-09-12"
+  "Dress pants": {
+   "lp": "Tailored Cotton Pants (98% cotton, 2% elastane)",
+   "lu": "https://www.moncler.com/en-us/men/ready-to-wear/pants-and-shorts/tailored-cotton-pants-white-ivory-L20912A00005598QH050.html",
+   "hp": "Tailored Pants (100% virgin wool)",
+   "hu": "https://www.moncler.com/en-us/men/ready-to-wear/pants-and-shorts/tailored-pants-black-L20912A0005054272999.html",
+   "b": "range"
   },
-  "fibre": {
-    "t": 591,
-    "w": 591,
-    "n": 51,
-    "s": 48,
-    "c": 1,
-    "x": 12,
-    "xh": 7,
-    "sp": "split",
-    "sc": [
-      "Short Down Jackets",
-      "Vests",
-      "Windbreakers",
-      "Lightweight Down Jackets",
-      "Long Down Jackets",
-      "Ski Jackets",
-      "Ski Trousers",
-      "Biker Jackets",
-      "Padded Cardigans",
-      "Swimwear"
-    ],
-    "nc": ["Short Sleeve T-Shirts", "Shirt Jackets", "Trousers"],
-    "st": "complete"
+  "Sweater": {
+   "lp": "Logo Patch Cotton Sweater (crew neck, 100% cotton)",
+   "lu": "https://www.moncler.com/en-us/men/ready-to-wear/sweaters-and-cardigans/logo-patch-cotton-sweater-black-L10919C00014M1367999.html",
+   "hp": "Logo Wool Sweater (crew neck, 'extra fine wool', 100% virgin wool)",
+   "hu": "https://www.moncler.com/en-us/men/ready-to-wear/sweaters-and-cardigans/logo-wool-sweater-black-L20919C00031M1131999.html",
+   "b": "pair"
   },
-  "price_range_only": ["Polo", "Dress shirt", "Jeans", "Dress pants", "Outerwear", "Shoes"],
-  "garment_links": {
-    "T-shirt": "https://www.moncler.com/en-us/men/ready-to-wear/polos-and-t-shirts",
-    "Polo": "https://www.moncler.com/en-us/men/ready-to-wear/polos-and-t-shirts",
-    "Dress shirt": "https://www.moncler.com/en-us/men/ready-to-wear/shirts",
-    "Dress pants": "https://www.moncler.com/en-us/men/ready-to-wear/pants-and-shorts",
-    "Sweater": "https://www.moncler.com/en-us/men/ready-to-wear/sweaters-and-cardigans",
-    "Outerwear": "https://www.moncler.com/en-us/men/outerwear"
+  "Outerwear": {
+   "lp": "Grimpeurs Hooded Jacket (nylon windbreaker)",
+   "lu": "https://www.moncler.com/en-us/men/outerwear/windbreakers-and-raincoats/grimpeurs-hooded-jacket-brown-L10911A0009054155262.html",
+   "hp": "Allaine Long Padded Hooded Canvas Parka (Grenoble)",
+   "hu": "https://www.moncler.com/en-us/men/outerwear/long-down-jackets/allaine-long-padded-hooded-canvas-parka-olive-green-L20971C00001599C0838.html",
+   "b": "range"
   },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Tricolor-Trimmed Cotton T-Shirt",
-      "lu": "https://www.moncler.com/en-us/men/ready-to-wear/polos-and-t-shirts/tricolor-trimmed-cotton-t-shirt-black-L10918C7160087296999.html",
-      "hp": "Silk & Cotton T-Shirt (55% silk/45% cotton knit, short sleeves, filed under Short Sleeve T-Shirts)",
-      "hu": "https://www.moncler.com/en-us/men/ready-to-wear/polos-and-t-shirts/silk-and-cotton-tshirt-white-L10919C00017M6329034.html",
-      "b": "pair"
-    },
-    "Polo": {
-      "lp": "Logo Patch Cotton Piquet Polo Shirt (also Tricolor-Trimmed Cotton Piquet Polo Shirt, $395)",
-      "lu": "https://www.moncler.com/en-us/men/ready-to-wear/polos-and-t-shirts/logo-patch-cotton-piquet-polo-shirt-night-blue-L20918A000118455677X.html",
-      "hp": "Logo Cotton Knit Polo (100% cotton, short sleeves)",
-      "hu": "https://www.moncler.com/en-us/men/ready-to-wear/polos-and-t-shirts/logo-cotton-knit-polo-black-L20919A00003M1367999.html",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Cotton Shirt (100% cotton, collar, long sleeves, button closure)",
-      "lu": "https://www.moncler.com/en-us/men/ready-to-wear/shirts/cotton-shirt-light-blue-L20912F0005220838701.html",
-      "hp": "Chambray Long Sleeve Shirt (Grenoble; snap-button front)",
-      "hu": "https://www.moncler.com/en-us/men/ready-to-wear/shirts/chambray-long-sleeve-shirt-powder-blue-L10972F00002596RS715.html",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Straight Leg Denim Jeans (five-pocket)",
-      "lu": "https://www.moncler.com/en-us/men/ready-to-wear/pants-and-shorts/straight-leg-denim-jeans-denim-blue-L20912A0004459A0D720.html",
-      "hp": "Straight Leg Jeans (denim)",
-      "hu": "https://www.moncler.com/en-us/men/ready-to-wear/pants-and-shorts/straight-leg-jeans-sky-blue-L10912A00036599J374O.html",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Tailored Cotton Pants (98% cotton, 2% elastane)",
-      "lu": "https://www.moncler.com/en-us/men/ready-to-wear/pants-and-shorts/tailored-cotton-pants-white-ivory-L20912A00005598QH050.html",
-      "hp": "Tailored Pants (100% virgin wool)",
-      "hu": "https://www.moncler.com/en-us/men/ready-to-wear/pants-and-shorts/tailored-pants-black-L20912A0005054272999.html",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Logo Patch Cotton Sweater (crew neck, 100% cotton)",
-      "lu": "https://www.moncler.com/en-us/men/ready-to-wear/sweaters-and-cardigans/logo-patch-cotton-sweater-black-L10919C00014M1367999.html",
-      "hp": "Logo Wool Sweater (crew neck, 'extra fine wool', 100% virgin wool)",
-      "hu": "https://www.moncler.com/en-us/men/ready-to-wear/sweaters-and-cardigans/logo-wool-sweater-black-L20919C00031M1131999.html",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "Grimpeurs Hooded Jacket (nylon windbreaker)",
-      "lu": "https://www.moncler.com/en-us/men/outerwear/windbreakers-and-raincoats/grimpeurs-hooded-jacket-brown-L10911A0009054155262.html",
-      "hp": "Allaine Long Padded Hooded Canvas Parka (Grenoble)",
-      "hu": "https://www.moncler.com/en-us/men/outerwear/long-down-jackets/allaine-long-padded-hooded-canvas-parka-olive-green-L20971C00001599C0838.html",
-      "b": "range"
-    },
-    "Shoes": {
-      "lp": "Basile Rubber Slides",
-      "lu": "https://www.moncler.com/en-us/men/shoes/sandals-and-sliders/basile-rubber-slides-black-L109A4C00040M2999999.html",
-      "hp": "Peak City Nubuck & Suede Ankle Boots",
-      "hu": "https://www.moncler.com/en-us/men/shoes/boots/peak-city-nubuck-and-suede-ankle-boots-khaki-L209A4F00070M6882235.html",
-      "b": "range"
-    }
-  },
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.moncler.com/en-us/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "Moncler Grenoble (Moncler Genius / House of Genius collaborations excluded)"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=6539&brand_ids[]=11366445",
-      "m": "brand filter",
-      "n": "Moncler Genius/collabs excluded"
-    }
-  },
-  "season": {
-    "l": "F/W 2026",
-    "t": "campaign",
-    "u": "https://www.moncler.com/en-us/in-moncler",
-    "m": "unisex"
-  },
-  "craft_evidence": {
-    "owned": "yes",
-    "owned_d": "Moncler Group 2024 Annual Report p.17: cut-make-trim done 'both by third party manufacturers (façon manufacturers) and in the Moncler manufacturing plant in Trebaseleghe (Padua)'; owned plant in Romania (Bacau, Industries Yield; set up 2015, moved 2016, expanded 2022) employing 'more than 2,000 people'; a new knitwear plant inaugurated in Veneto in 2024. Outerwear and knitwear 'partly managed internally and partly assigned to third party manufacturers'; accessories and footwear made by third parties. 2023 NFS calls Romania an 'industrial and technological R&D hub for down jackets'. Brand-owned (Moncler S.p.A. group), not a parent's.",
-    "makers": "NC",
-    "mills": "NC",
-    "madein": "NC",
-    "countries": "NC — PDPs blocked by robots.txt (moncler.com). Annual report: production in owned plants in Romania and Italy (Trebaseleghe; Veneto knitwear) plus façon makers 'primarily' in Eastern Europe; 130 Moncler-brand suppliers, top 30 ~80% of supply value. No PDP share possible.",
-    "heritage": "dated and placed",
-    "repair": "yes",
-    "process": "some",
-    "urls": [
-      "https://www.monclergroup.com/v3/assets/blt61bda6b71f29a239/blteb95ca716ac2bad4/68d2602cf9b53a484db7d941/moncler-group-annual-report-2024.pdf",
-      "https://www.monclergroup.com/en/sustainability/product/product-and-innovation"
-    ],
-    "conf": "high",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Basile Rubber Slides",
+   "lu": "https://www.moncler.com/en-us/men/shoes/sandals-and-sliders/basile-rubber-slides-black-L109A4C00040M2999999.html",
+   "hp": "Peak City Nubuck & Suede Ankle Boots",
+   "hu": "https://www.moncler.com/en-us/men/shoes/boots/peak-city-nubuck-and-suede-ankle-boots-khaki-L209A4F00070M6882235.html",
+   "b": "range"
   }
+ },
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.moncler.com/en-us/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "Moncler Grenoble (Moncler Genius / House of Genius collaborations excluded)"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=6539&brand_ids[]=11366445",
+   "m": "brand filter",
+   "n": "Moncler Genius/collabs excluded"
+  }
+ },
+ "season": {
+  "l": "F/W 2026",
+  "t": "campaign",
+  "u": "https://www.moncler.com/en-us/in-moncler",
+  "m": "unisex"
+ },
+ "craft_evidence": {
+  "owned": "yes",
+  "owned_d": "Moncler Group 2024 Annual Report p.17: cut-make-trim done 'both by third party manufacturers (façon manufacturers) and in the Moncler manufacturing plant in Trebaseleghe (Padua)'; owned plant in Romania (Bacau, Industries Yield; set up 2015, moved 2016, expanded 2022) employing 'more than 2,000 people'; a new knitwear plant inaugurated in Veneto in 2024. Outerwear and knitwear 'partly managed internally and partly assigned to third party manufacturers'; accessories and footwear made by third parties. 2023 NFS calls Romania an 'industrial and technological R&D hub for down jackets'. Brand-owned (Moncler S.p.A. group), not a parent's.",
+  "makers": "NC",
+  "mills": "NC",
+  "madein": "NC",
+  "countries": "NC — PDPs blocked by robots.txt (moncler.com). Annual report: production in owned plants in Romania and Italy (Trebaseleghe; Veneto knitwear) plus façon makers 'primarily' in Eastern Europe; 130 Moncler-brand suppliers, top 30 ~80% of supply value. No PDP share possible.",
+  "heritage": "dated and placed",
+  "repair": "yes",
+  "process": "some",
+  "urls": [
+   "https://www.monclergroup.com/v3/assets/blt61bda6b71f29a239/blteb95ca716ac2bad4/68d2602cf9b53a484db7d941/moncler-group-annual-report-2024.pdf",
+   "https://www.monclergroup.com/en/sustainability/product/product-and-innovation"
+  ],
+  "conf": "high",
+  "read": "2026-10-03"
+ }
 }

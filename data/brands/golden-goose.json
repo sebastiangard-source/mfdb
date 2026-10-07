@@ -1,254 +1,481 @@
 {
-  "name": "Golden Goose",
-  "band": "trueLux",
-  "seat": 173,
-  "dagger": 0,
-  "focus": {
-    "tech": 2,
-    "comfort": 4,
-    "craft": 2,
-    "style": 4
+ "name": "Golden Goose",
+ "band": "trueLux",
+ "seat": 173,
+ "dagger": 0,
+ "focus": {
+  "tech": 2,
+  "comfort": 4,
+  "craft": 2,
+  "style": 4
+ },
+ "fabric": {
+  "denim": 3,
+  "cashmere": 3,
+  "linen": 2,
+  "cotton": 4,
+  "wool": 3,
+  "synth": 3
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 3,
+  "fuss": 1,
+  "shoes": 5,
+  "status": 4,
+  "ital": 4,
+  "street": 4,
+  "weird": 2,
+  "whitet": 2,
+  "logo": 2,
+  "western": 1,
+  "rock": 4,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Hand-distressed Italian sneakers, with a clothing line built out from them.",
+ "origin": "Founded near Venice in 2000 by Francesca Rinaldo and Alessandro Gallo.",
+ "chan": [
+  "D",
+  "X"
+ ],
+ "conf": "L",
+ "forgc": [
+  3,
+  3,
+  1
+ ],
+ "onething": {
+  "p": "Distressed leather biker jacket",
+  "u": "https://www.goldengoose.com/us/en/ls/men/clothing/coats-jackets-m-en_us",
+  "n": "verified — the lived-in treatment that made the sneaker, applied to a garment; $2,200 in the men's coats and jackets category, which runs $490 to $2,550. Category page rather than the SKU so it survives the season. Replaces a null: the Super-Star is still the brand, and it sits in the shoe slot"
+ },
+ "prices": [
+  [
+   160,
+   320
+  ],
+  [
+   195,
+   650
+  ],
+  [
+   450,
+   850
+  ],
+  [
+   450,
+   530
+  ],
+  [
+   490,
+   790
+  ],
+  [
+   490,
+   750
+  ],
+  [
+   490,
+   2550
+  ],
+  [
+   620,
+   740
+  ]
+ ],
+ "price_checked": true,
+ "shoelink": {
+  "t": "Super-Star",
+  "u": "https://www.goldengoose.com/us/en/ggdb/category/aboutus.html"
+ },
+ "notes": {
+  "shoes": "the sneaker is the brand; the clothing came thirteen years later",
+  "ital": "made in Italy and Venetian by origin, but the reference is Californian skate wear",
+  "status": "the star is the mark, and the deliberate scuffing is what people recognize",
+  "craft": "Every PDP read (sneaker, suede jacket, jeans) says 'Made in Italy' and names no maker, tannery or mill. The 'How we make our sneakers' story describes handmade, hand-distressed making by an 'Italian-based supply chain of artisans' with no factory or town named; Marghera is named only for customization. Clothing gets no making story at all, so this is country-of-make plus a footwear process narrative: 2.",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 3; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+ },
+ "doors": {
+  "c": "full",
+  "n": 45,
+  "cities": [
+   [
+    "Aspen",
+    "CO",
+    1
+   ],
+   [
+    "Atlanta",
+    "GA",
+    1
+   ],
+   [
+    "Austin",
+    "TX",
+    1
+   ],
+   [
+    "Bal Harbour",
+    "FL",
+    1
+   ],
+   [
+    "Beverly Hills",
+    "CA",
+    1
+   ],
+   [
+    "Boca Raton",
+    "FL",
+    1
+   ],
+   [
+    "Boston",
+    "MA",
+    1
+   ],
+   [
+    "Canoga Park",
+    "CA",
+    1
+   ],
+   [
+    "Charleston",
+    "SC",
+    1
+   ],
+   [
+    "Charlotte",
+    "NC",
+    1
+   ],
+   [
+    "Chicago",
+    "IL",
+    1
+   ],
+   [
+    "Columbus",
+    "OH",
+    1
+   ],
+   [
+    "Costa Mesa",
+    "CA",
+    1
+   ],
+   [
+    "Dallas",
+    "TX",
+    1
+   ],
+   [
+    "Denver",
+    "CO",
+    1
+   ],
+   [
+    "East Hampton",
+    "NY",
+    1
+   ],
+   [
+    "Frontenac (St. Louis)",
+    "MO",
+    1
+   ],
+   [
+    "Glendale",
+    "CA",
+    1
+   ],
+   [
+    "Honolulu",
+    "HI",
+    1
+   ],
+   [
+    "Houston",
+    "TX",
+    1
+   ],
+   [
+    "King of Prussia",
+    "PA",
+    1
+   ],
+   [
+    "Las Vegas",
+    "NV",
+    2
+   ],
+   [
+    "Los Angeles",
+    "CA",
+    2
+   ],
+   [
+    "McLean",
+    "VA",
+    1
+   ],
+   [
+    "Miami",
+    "FL",
+    2
+   ],
+   [
+    "Nashville",
+    "TN",
+    1
+   ],
+   [
+    "New Orleans",
+    "LA",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    2
+   ],
+   [
+    "Oak Brook",
+    "IL",
+    1
+   ],
+   [
+    "Pacific Palisades",
+    "CA",
+    1
+   ],
+   [
+    "Plano",
+    "TX",
+    1
+   ],
+   [
+    "Portland",
+    "OR",
+    1
+   ],
+   [
+    "San Antonio",
+    "TX",
+    1
+   ],
+   [
+    "San Diego",
+    "CA",
+    1
+   ],
+   [
+    "San Francisco",
+    "CA",
+    1
+   ],
+   [
+    "Santa Clara",
+    "CA",
+    1
+   ],
+   [
+    "Scottsdale",
+    "AZ",
+    1
+   ],
+   [
+    "Short Hills",
+    "NJ",
+    1
+   ],
+   [
+    "Spring (The Woodlands)",
+    "TX",
+    1
+   ],
+   [
+    "Tampa",
+    "FL",
+    1
+   ],
+   [
+    "Troy",
+    "MI",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-09"
+ },
+ "cities": "45 stores across the US · department stores and independent menswear shops, and its own site",
+ "region": {
+  "o": [
+   1075,
+   1079,
+   1082,
+   1083,
+   1084,
+   1087
+  ],
+  "s": [
+   123,
+   3208
+  ]
+ },
+ "site": {
+  "domain": "www.goldengoose.com",
+  "platform": "salesforce_commerce",
+  "feed": "sitemap_products",
+  "feed_count": 15610,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "no",
+  "origin": "none",
+  "marks": [],
+  "source": "screen_36",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 217,
+  "w": 217,
+  "n": 87,
+  "s": 9,
+  "c": 4,
+  "x": 8,
+  "xh": 1,
+  "sp": "one",
+  "sc": [
+   "Beachwear"
+  ],
+  "nc": [
+   "Coats and jackets",
+   "T-shirts and polo shirts",
+   "Jeans and pants"
+  ],
+  "st": "complete"
+ },
+ "garment_links": {
+  "T-shirt": "https://www.goldengoose.com/us/en/ls/men/clothing/t-shirts-polo-shirts-m-en_us",
+  "Polo": "https://www.goldengoose.com/us/en/ls/men/clothing/t-shirts-polo-shirts-m-en_us",
+  "Dress shirt": "https://www.goldengoose.com/us/en/ls/men/clothing/shirts-m-en_us",
+  "Jeans": "https://www.goldengoose.com/us/en/ls/men/clothing/jeans-pants-m-en_us",
+  "Dress pants": "https://www.goldengoose.com/us/en/ls/men/clothing/jeans-pants-m-en_us",
+  "Sweater": "https://www.goldengoose.com/us/en/ls/men/clothing/knitwear-m-en_us",
+  "Outerwear": "https://www.goldengoose.com/us/en/ls/men/clothing/coats-jackets-m-en_us",
+  "Shoes": "https://www.goldengoose.com/us/en/ls/men/shoes-m-en_us"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "slim-fit white sports T-shirt (polyamide technical jersey)",
+   "lu": "https://www.goldengoose.com/us/en/men-s-slim-fit-white-sports-t-shirt-cod-GMP02110.P001843.10100.html",
+   "hp": "vintage-effect gray T-shirt with print on the front (100% cotton, short sleeves)",
+   "hu": "https://www.goldengoose.com/us/en/men-s-vintage-effect-gray-t-shirt-with-print-on-the-front-cod-GMP01220.P002145.60255.html",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 3,
-    "cashmere": 3,
-    "linen": 2,
-    "cotton": 4,
-    "wool": 3,
-    "synth": 3
+  "Polo": {
+   "lp": "black sports zipped polo shirt",
+   "lu": "https://www.goldengoose.com/us/en/men-s-black-sports-zipped-polo-shirt-cod-GMP02112.P001842.90100.html",
+   "hp": "brick-colored polo with embroidered logo (short-sleeve knit, 50% cotton 50% polyester)",
+   "hu": "https://www.goldengoose.com/us/en/men-s-brick-colored-polo-with-embroidered-logo.-cod-GMP02387.P002178.55242.html",
+   "b": "range"
   },
-  "dials": {
-    "dur": 3,
-    "forg": 3,
-    "fuss": 1,
-    "shoes": 5,
-    "status": 4,
-    "ital": 4,
-    "street": 4,
-    "weird": 2,
-    "whitet": 2,
-    "logo": 2,
-    "western": 1,
-    "rock": 4,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
+  "Dress shirt": {
+   "lp": "shirt with narrow stripes (100% cotton, long sleeves)",
+   "lu": "https://www.goldengoose.com/us/en/men-s-shirt-with-narrow-stripes-cod-GMP00246.P000548.80197.html",
+   "hp": "Unisex shirt in ecru and sand striped cotton and linen with embroidery",
+   "hu": "https://www.goldengoose.com/us/en/unisex-shirt-in-ecru-and-sand-striped-cotton-and-linen-with-embroidery-cod-GUP02858.P002578.83378.html",
+   "b": "range"
   },
-  "why": "Hand-distressed Italian sneakers, with a clothing line built out from them.",
-  "origin": "Founded near Venice in 2000 by Francesca Rinaldo and Alessandro Gallo.",
-  "chan": ["D", "X"],
-  "conf": "L",
-  "forgc": [3, 3, 1],
-  "onething": {
-    "p": "Distressed leather biker jacket",
-    "u": "https://www.goldengoose.com/us/en/ls/men/clothing/coats-jackets-m-en_us",
-    "n": "verified — the lived-in treatment that made the sneaker, applied to a garment; $2,200 in the men's coats and jackets category, which runs $490 to $2,550. Category page rather than the SKU so it survives the season. Replaces a null: the Super-Star is still the brand, and it sits in the shoe slot"
+  "Jeans": {
+   "lp": "slim fit jeans with medium wash (five pockets, 100% cotton)",
+   "lu": "https://www.goldengoose.com/us/en/men-s-slim-fit-jeans-with-medium-wash-cod-GMP00596.P000621.50100.html",
+   "hp": "Men's jeans in light blue denim (wide fit)",
+   "hu": "https://www.goldengoose.com/us/en/men%E2%80%99s-jeans-in-light-blue-denim-cod-GMP02520.P002359.50491.html",
+   "b": "range"
   },
-  "prices": [[160, 320], [195, 650], [450, 850], [450, 530], [490, 790], [490, 750], [490, 2550], [620, 740]],
-  "price_checked": true,
-  "shoelink": {
-    "t": "Super-Star",
-    "u": "https://www.goldengoose.com/us/en/ggdb/category/aboutus.html"
+  "Dress pants": {
+   "lp": "Men's black wool gabardine pants (100% wool)",
+   "lu": "https://www.goldengoose.com/us/en/men%E2%80%99s-black-wool-gabardine-pants-cod-GMP00581.P001170.90100.html",
+   "hp": "Men's slim-fit pants in gray Prince of Wales check (virgin wool)",
+   "hu": "https://www.goldengoose.com/us/en/men%E2%80%99s-slim-fit-pants-in-gray-prince-of-wales-check-cod-GMP02539.P002318.60567.html",
+   "b": "range"
   },
-  "notes": {
-    "shoes": "the sneaker is the brand; the clothing came thirteen years later",
-    "ital": "made in Italy and Venetian by origin, but the reference is Californian skate wear",
-    "status": "the star is the mark, and the deliberate scuffing is what people recognize",
-    "craft": "Every PDP read (sneaker, suede jacket, jeans) says 'Made in Italy' and names no maker, tannery or mill. The 'How we make our sneakers' story describes handmade, hand-distressed making by an 'Italian-based supply chain of artisans' with no factory or town named; Marghera is named only for customization. Clothing gets no making story at all, so this is country-of-make plus a footwear process narrative: 2.",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 3; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+  "Sweater": {
+   "lp": "round-neck sweater in dark gray mélange wool (virgin wool)",
+   "lu": "https://www.goldengoose.com/us/en/men-s-round-neck-sweater-in-dark-gray-m-lange-wool-cod-GMP00947.P000665.60304.html",
+   "hp": "sweater in striped alpaca blend (75% alpaca, 25% polyamide; crew neck)",
+   "hu": "https://www.goldengoose.com/us/en/men-s-sweater-in-striped-alpaca-blend-cod-GMP02833.P002671.82748.html",
+   "b": "pair"
   },
-  "doors": {
-    "c": "full",
-    "n": 45,
-    "cities": [
-      ["Aspen", "CO", 1],
-      ["Atlanta", "GA", 1],
-      ["Austin", "TX", 1],
-      ["Bal Harbour", "FL", 1],
-      ["Beverly Hills", "CA", 1],
-      ["Boca Raton", "FL", 1],
-      ["Boston", "MA", 1],
-      ["Canoga Park", "CA", 1],
-      ["Charleston", "SC", 1],
-      ["Charlotte", "NC", 1],
-      ["Chicago", "IL", 1],
-      ["Columbus", "OH", 1],
-      ["Costa Mesa", "CA", 1],
-      ["Dallas", "TX", 1],
-      ["Denver", "CO", 1],
-      ["East Hampton", "NY", 1],
-      ["Frontenac (St. Louis)", "MO", 1],
-      ["Glendale", "CA", 1],
-      ["Honolulu", "HI", 1],
-      ["Houston", "TX", 1],
-      ["King of Prussia", "PA", 1],
-      ["Las Vegas", "NV", 2],
-      ["Los Angeles", "CA", 2],
-      ["McLean", "VA", 1],
-      ["Miami", "FL", 2],
-      ["Nashville", "TN", 1],
-      ["New Orleans", "LA", 1],
-      ["New York", "NY", 2],
-      ["Oak Brook", "IL", 1],
-      ["Pacific Palisades", "CA", 1],
-      ["Plano", "TX", 1],
-      ["Portland", "OR", 1],
-      ["San Antonio", "TX", 1],
-      ["San Diego", "CA", 1],
-      ["San Francisco", "CA", 1],
-      ["Santa Clara", "CA", 1],
-      ["Scottsdale", "AZ", 1],
-      ["Short Hills", "NJ", 1],
-      ["Spring (The Woodlands)", "TX", 1],
-      ["Tampa", "FL", 1],
-      ["Troy", "MI", 1]
-    ],
-    "basis": "recapture 2026-09"
+  "Outerwear": {
+   "lp": "windcheater with contrasting white logo and star (nylon, hooded)",
+   "lu": "https://www.goldengoose.com/us/en/men-s-windcheater-with-contrasting-white-logo-and-star-cod-GMP01032.P000596.80203.html",
+   "hp": "dark brown distressed leather bomber jacket (cowhide)",
+   "hu": "https://www.goldengoose.com/us/en/men-s-dark-brown-distressed-leather-bomber-jacket-cod-GMP02502.P002288.55381.html",
+   "b": "range"
   },
-  "cities": "45 stores across the US · department stores and independent menswear shops, and its own site",
-  "region": {
-    "o": [1075, 1079, 1082, 1083, 1084, 1087],
-    "s": [116, 123]
-  },
-  "site": {
-    "domain": "www.goldengoose.com",
-    "platform": "salesforce_commerce",
-    "feed": "sitemap_products",
-    "feed_count": 15610,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "no",
-    "origin": "none",
-    "marks": [],
-    "source": "screen_36",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 217,
-    "w": 217,
-    "n": 87,
-    "s": 9,
-    "c": 4,
-    "x": 8,
-    "xh": 1,
-    "sp": "one",
-    "sc": ["Beachwear"],
-    "nc": ["Coats and jackets", "T-shirts and polo shirts", "Jeans and pants"],
-    "st": "complete"
-  },
-  "garment_links": {
-    "T-shirt": "https://www.goldengoose.com/us/en/ls/men/clothing/t-shirts-polo-shirts-m-en_us",
-    "Polo": "https://www.goldengoose.com/us/en/ls/men/clothing/t-shirts-polo-shirts-m-en_us",
-    "Dress shirt": "https://www.goldengoose.com/us/en/ls/men/clothing/shirts-m-en_us",
-    "Jeans": "https://www.goldengoose.com/us/en/ls/men/clothing/jeans-pants-m-en_us",
-    "Dress pants": "https://www.goldengoose.com/us/en/ls/men/clothing/jeans-pants-m-en_us",
-    "Sweater": "https://www.goldengoose.com/us/en/ls/men/clothing/knitwear-m-en_us",
-    "Outerwear": "https://www.goldengoose.com/us/en/ls/men/clothing/coats-jackets-m-en_us",
-    "Shoes": "https://www.goldengoose.com/us/en/ls/men/shoes-m-en_us"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "slim-fit white sports T-shirt (polyamide technical jersey)",
-      "lu": "https://www.goldengoose.com/us/en/men-s-slim-fit-white-sports-t-shirt-cod-GMP02110.P001843.10100.html",
-      "hp": "vintage-effect gray T-shirt with print on the front (100% cotton, short sleeves)",
-      "hu": "https://www.goldengoose.com/us/en/men-s-vintage-effect-gray-t-shirt-with-print-on-the-front-cod-GMP01220.P002145.60255.html",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "black sports zipped polo shirt",
-      "lu": "https://www.goldengoose.com/us/en/men-s-black-sports-zipped-polo-shirt-cod-GMP02112.P001842.90100.html",
-      "hp": "brick-colored polo with embroidered logo (short-sleeve knit, 50% cotton 50% polyester)",
-      "hu": "https://www.goldengoose.com/us/en/men-s-brick-colored-polo-with-embroidered-logo.-cod-GMP02387.P002178.55242.html",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "shirt with narrow stripes (100% cotton, long sleeves)",
-      "lu": "https://www.goldengoose.com/us/en/men-s-shirt-with-narrow-stripes-cod-GMP00246.P000548.80197.html",
-      "hp": "Unisex shirt in ecru and sand striped cotton and linen with embroidery",
-      "hu": "https://www.goldengoose.com/us/en/unisex-shirt-in-ecru-and-sand-striped-cotton-and-linen-with-embroidery-cod-GUP02858.P002578.83378.html",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "slim fit jeans with medium wash (five pockets, 100% cotton)",
-      "lu": "https://www.goldengoose.com/us/en/men-s-slim-fit-jeans-with-medium-wash-cod-GMP00596.P000621.50100.html",
-      "hp": "Men's jeans in light blue denim (wide fit)",
-      "hu": "https://www.goldengoose.com/us/en/men%E2%80%99s-jeans-in-light-blue-denim-cod-GMP02520.P002359.50491.html",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Men's black wool gabardine pants (100% wool)",
-      "lu": "https://www.goldengoose.com/us/en/men%E2%80%99s-black-wool-gabardine-pants-cod-GMP00581.P001170.90100.html",
-      "hp": "Men's slim-fit pants in gray Prince of Wales check (virgin wool)",
-      "hu": "https://www.goldengoose.com/us/en/men%E2%80%99s-slim-fit-pants-in-gray-prince-of-wales-check-cod-GMP02539.P002318.60567.html",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "round-neck sweater in dark gray mélange wool (virgin wool)",
-      "lu": "https://www.goldengoose.com/us/en/men-s-round-neck-sweater-in-dark-gray-m-lange-wool-cod-GMP00947.P000665.60304.html",
-      "hp": "sweater in striped alpaca blend (75% alpaca, 25% polyamide; crew neck)",
-      "hu": "https://www.goldengoose.com/us/en/men-s-sweater-in-striped-alpaca-blend-cod-GMP02833.P002671.82748.html",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "windcheater with contrasting white logo and star (nylon, hooded)",
-      "lu": "https://www.goldengoose.com/us/en/men-s-windcheater-with-contrasting-white-logo-and-star-cod-GMP01032.P000596.80203.html",
-      "hp": "dark brown distressed leather bomber jacket (cowhide)",
-      "hu": "https://www.goldengoose.com/us/en/men-s-dark-brown-distressed-leather-bomber-jacket-cod-GMP02502.P002288.55381.html",
-      "b": "range"
-    },
-    "Shoes": {
-      "lp": "Jerry loafer in black leather",
-      "lu": "https://www.goldengoose.com/us/en/men-s-jerry-loafer-in-black-leather-cod-GMF00268.F002985.90100.html",
-      "hp": "Cruise loafers in black waxed suede with black hiking laces",
-      "hu": "https://www.goldengoose.com/us/en/men-s-cruise-loafers-in-black-waxed-suede-with-black-hiking-laces-cod-GMF01048.F008225.90100.html",
-      "b": "pair"
-    }
-  },
-  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants", "Outerwear"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.goldengoose.com/us/en/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=38923",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "season": {
-    "l": "Fall/Winter Collection 2026",
-    "t": "collection page",
-    "u": "https://www.goldengoose.com/us/en/ls/men/fall-winter-collection-m-en_us",
-    "m": "yes"
-  },
-  "craft_evidence": {
-    "owned": "unclear",
-    "owned_d": "Brand site names Marghera (Venice) only as where 'expert artisans' handcraft CUSTOMIZATION (co-creation) of products (forward/sustainability page; PDP co-creation text), not as a production factory. Sneaker story says footwear is made by 'a steadfast Italian-based supply chain of artisans', i.e. a supply chain, no owned factory named. No owned clothing (ready-to-wear) making stated anywhere seen. Group-level ownership of a shoe factory was not checked at a primary source (fetch budget/429).",
-    "makers": "no",
-    "mills": "no",
-    "madein": "every product",
-    "countries": "Italy 3/3 (sample of 3 PDPs: sneaker, suede jacket, jeans). Merino polo and sweatshirt PDPs were refused by the fetch proxy (HTTP 429). Brand states production 'fully based in Italy, for over two decades'.",
-    "heritage": "dated and placed",
-    "repair": "yes",
-    "process": "some",
-    "urls": [
-      "https://www.goldengoose.com/us/en/stories/how-we-make-our-sneakers.html",
-      "https://www.goldengoose.com/us/en/forward/sustainability.html"
-    ],
-    "conf": "medium",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Jerry loafer in black leather",
+   "lu": "https://www.goldengoose.com/us/en/men-s-jerry-loafer-in-black-leather-cod-GMF00268.F002985.90100.html",
+   "hp": "Cruise loafers in black waxed suede with black hiking laces",
+   "hu": "https://www.goldengoose.com/us/en/men-s-cruise-loafers-in-black-waxed-suede-with-black-hiking-laces-cod-GMF01048.F008225.90100.html",
+   "b": "pair"
   }
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants",
+  "Outerwear"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.goldengoose.com/us/en/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=38923",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "season": {
+  "l": "Fall/Winter Collection 2026",
+  "t": "collection page",
+  "u": "https://www.goldengoose.com/us/en/ls/men/fall-winter-collection-m-en_us",
+  "m": "yes"
+ },
+ "craft_evidence": {
+  "owned": "unclear",
+  "owned_d": "Brand site names Marghera (Venice) only as where 'expert artisans' handcraft CUSTOMIZATION (co-creation) of products (forward/sustainability page; PDP co-creation text), not as a production factory. Sneaker story says footwear is made by 'a steadfast Italian-based supply chain of artisans', i.e. a supply chain, no owned factory named. No owned clothing (ready-to-wear) making stated anywhere seen. Group-level ownership of a shoe factory was not checked at a primary source (fetch budget/429).",
+  "makers": "no",
+  "mills": "no",
+  "madein": "every product",
+  "countries": "Italy 3/3 (sample of 3 PDPs: sneaker, suede jacket, jeans). Merino polo and sweatshirt PDPs were refused by the fetch proxy (HTTP 429). Brand states production 'fully based in Italy, for over two decades'.",
+  "heritage": "dated and placed",
+  "repair": "yes",
+  "process": "some",
+  "urls": [
+   "https://www.goldengoose.com/us/en/stories/how-we-make-our-sneakers.html",
+   "https://www.goldengoose.com/us/en/forward/sustainability.html"
+  ],
+  "conf": "medium",
+  "read": "2026-10-03"
+ }
 }

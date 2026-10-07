@@ -1,236 +1,311 @@
 {
-  "name": "Brioni",
-  "band": "trueLux",
-  "seat": 185,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 3,
-    "craft": 4,
-    "style": 3
-  },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 4,
-    "linen": 3,
-    "cotton": 3,
-    "wool": 4,
-    "synth": 1
-  },
-  "dials": {
-    "dur": 4,
-    "forg": 3,
-    "fuss": 3,
-    "golffice": -3,
-    "sail": 2,
-    "shoes": 3,
-    "status": 3,
-    "finbro": 2,
-    "ital": 5,
-    "boat": 4,
-    "whitet": 2,
-    "logo": 1,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
-  },
-  "why": "Roman tailoring, made to measure and ready to wear, at the top of the market.",
-  "origin": "Founded in Rome in 1945 by Nazareno Fonticoli and Gaetano Savini.",
-  "say": "bree-OH-nee",
-  "chan": ["O", "D"],
-  "conf": "L",
-  "forgc": [2, 2, 5],
-  "onething": {
-    "p": "Brunico suit",
-    "u": "https://www.brioni.com/en/gb/pr/navy-blue-herringbone-super-150s-wool-brunico-suit-RA005DPBA294100",
-    "n": ""
-  },
-  "prices": [
-    [495, 1950],
-    [645, 1350],
-    [695, 1695],
-    [745, 1495],
-    [1150, 2795],
-    [995, 2095],
-    [1995, 10400],
-    [995, 1750]
+ "name": "Brioni",
+ "band": "trueLux",
+ "seat": 185,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 3,
+  "craft": 4,
+  "style": 3
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 4,
+  "linen": 3,
+  "cotton": 3,
+  "wool": 4,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 4,
+  "forg": 3,
+  "fuss": 3,
+  "golffice": -3,
+  "sail": 2,
+  "shoes": 3,
+  "status": 3,
+  "finbro": 2,
+  "ital": 5,
+  "boat": 4,
+  "whitet": 2,
+  "logo": 1,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Roman tailoring, made to measure and ready to wear, at the top of the market.",
+ "origin": "Founded in Rome in 1945 by Nazareno Fonticoli and Gaetano Savini.",
+ "say": "bree-OH-nee",
+ "chan": [
+  "O",
+  "D"
+ ],
+ "conf": "L",
+ "forgc": [
+  2,
+  2,
+  5
+ ],
+ "onething": {
+  "p": "Brunico suit",
+  "u": "https://www.brioni.com/en/gb/pr/navy-blue-herringbone-super-150s-wool-brunico-suit-RA005DPBA294100",
+  "n": ""
+ },
+ "prices": [
+  [
+   495,
+   1950
   ],
-  "shoelink": {
-    "t": "loafer",
-    "u": "https://www.brioni.com/en-us/search?q=loafer"
+  [
+   645,
+   1350
+  ],
+  [
+   695,
+   1695
+  ],
+  [
+   745,
+   1495
+  ],
+  [
+   1150,
+   2795
+  ],
+  [
+   995,
+   2095
+  ],
+  [
+   1995,
+   10400
+  ],
+  [
+   995,
+   1750
+  ]
+ ],
+ "shoelink": {
+  "t": "loafer",
+  "u": "https://www.brioni.com/en-us/search?q=loafer"
+ },
+ "notes": {
+  "wool": "Roman su misura tradition",
+  "cashmere": "pinnacle overcoating",
+  "ital": "Rome, 1945, and the first house to put men's tailoring on a runway. It still runs a tailoring school at Penne that trains its own cutters, which is a rarer thing than the marketing suggests.",
+  "boat": "The tailoring you change into once the tender has brought you in — the boat is the transport, not the occasion.",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 3; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "Brioni says its Penne atelier, opened 1959, still makes 'a large proportion of our production', and press puts about 1,000 tailors across Penne, Montebello di Bertona and Civitella Casanova. That is owned making for tailoring, but the brand's own wording stops short of the whole range, and shoes, knitwear and leather goods are undocumented."
+ },
+ "doors": {
+  "c": "full",
+  "n": 7,
+  "cities": [
+   [
+    "Bal Harbour",
+    "FL",
+    1
+   ],
+   [
+    "Beverly Hills",
+    "CA",
+    1
+   ],
+   [
+    "Dallas",
+    "TX",
+    1
+   ],
+   [
+    "Houston",
+    "TX",
+    1
+   ],
+   [
+    "Las Vegas",
+    "NV",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    1
+   ],
+   [
+    "Washington",
+    "DC",
+    1
+   ]
+  ],
+  "basis": "master 2026-08-29, pre-recapture"
+ },
+ "cities": "7 stores, including Bal Harbour, Beverly Hills, Dallas · department stores and independent menswear shops, and its own site",
+ "region": {
+  "o": [
+   528
+  ],
+  "s": [
+   11,
+   27,
+   44,
+   60,
+   3208
+  ]
+ },
+ "site": {
+  "domain": "www.brioni.com",
+  "platform": "custom",
+  "feed": "sitemap_products",
+  "feed_count": 1213,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "both",
+  "marks": [
+   "House fabric names: Zefiro, Trama (weave), Iride. Licensed: Escorial wool (Escorial is a third-party wool trademark). Generic: water-repellent, waterproof, membrane, technical fabric, vicuna. NO trademark symbols anywhere on the site."
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 507,
+  "w": 495,
+  "n": 94,
+  "s": 2,
+  "c": 2,
+  "x": 7,
+  "xh": 0,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "trousers",
+   "shirts",
+   "jackets"
+  ],
+  "st": "complete"
+ },
+ "garment_links": {
+  "T-shirt": "https://www.brioni.com/en/us/ca/polos-and-t-shirts",
+  "Polo": "https://www.brioni.com/en/us/ca/polos-and-t-shirts",
+  "Dress shirt": "https://www.brioni.com/en/us/ca/formal-shirts",
+  "Jeans": "https://www.brioni.com/en/us/ca/casual-trousers",
+  "Dress pants": "https://www.brioni.com/en/us/ca/formal-trousers",
+  "Sweater": "https://www.brioni.com/en/us/ca/knitwear",
+  "Outerwear": "https://www.brioni.com/en/us/ca/outerwear-and-coats",
+  "Shoes": "https://www.brioni.com/en/us/ca/shoes"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Essential white gassed cotton T-shirt",
+   "lu": "https://www.brioni.com/en/us/pr/essential-white-gassed-cotton-t-shirt-UJPL0LOA6139000",
+   "hp": "White cashmere, silk and linen T-shirt",
+   "hu": "https://www.brioni.com/en/us/pr/white-cashmere-silk-and-linen-t-shirt-UMR00LPDK149000",
+   "b": "pair"
   },
-  "notes": {
-    "wool": "Roman su misura tradition",
-    "cashmere": "pinnacle overcoating",
-    "ital": "Rome, 1945, and the first house to put men's tailoring on a runway. It still runs a tailoring school at Penne that trains its own cutters, which is a rarer thing than the marketing suggests.",
-    "boat": "The tailoring you change into once the tender has brought you in — the boat is the transport, not the occasion.",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 3; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Brioni says its Penne atelier, opened 1959, still makes 'a large proportion of our production', and press puts about 1,000 tailors across Penne, Montebello di Bertona and Civitella Casanova. That is owned making for tailoring, but the brand's own wording stops short of the whole range, and shoes, knitwear and leather goods are undocumented."
+  "Polo": {
+   "lp": "Essential white cotton piqué polo",
+   "lu": "https://www.brioni.com/en/us/pr/essential-white-cotton-pique-polo-UJPP0LPA6279000",
+   "hp": "Navy blue cotton, silk and cashmere Trama weave polo",
+   "hu": "https://www.brioni.com/en/us/pr/navy-blue-cotton-silk-and-cashmere-trama-weave-polo-UMR20OPAK224100",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 7,
-    "cities": [
-      ["Bal Harbour", "FL", 1],
-      ["Beverly Hills", "CA", 1],
-      ["Dallas", "TX", 1],
-      ["Houston", "TX", 1],
-      ["Las Vegas", "NV", 1],
-      ["New York", "NY", 1],
-      ["Washington", "DC", 1]
-    ],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Dress shirt": {
+   "lp": "Light blue cotton formal shirt",
+   "lu": "https://www.brioni.com/en/us/pr/light-blue-cotton-formal-shirt-RCB10LOD04P4800",
+   "hp": "Essential white Giza 45 cotton twill formal shirt",
+   "hu": "https://www.brioni.com/en/us/pr/essential-white-giza-45-cotton-twill-formal-shirt-RCB40MP90C39000",
+   "b": "range"
   },
-  "cities": "7 stores, including Bal Harbour, Beverly Hills, Dallas · department stores and independent menswear shops, and its own site",
-  "region": {
-    "o": [528],
-    "s": [11, 27, 44, 60, 116]
+  "Jeans": {
+   "lp": "Midnight blue cotton stretch Merano jeans",
+   "lu": "https://www.brioni.com/en/us/pr/midnight-blue-cotton-stretch-merano-jeans-SPE30LODD134000",
+   "hp": "Midnight blue cotton and cashmere denim Meribel fitted jeans",
+   "hu": "https://www.brioni.com/en/us/pr/midnight-blue-cotton-and-cashmere-denim-meribel-fitted-jeans-SPE20LPCD034000",
+   "b": "range"
   },
-  "site": {
-    "domain": "www.brioni.com",
-    "platform": "custom",
-    "feed": "sitemap_products",
-    "feed_count": 1213,
-    "status": "live_store",
-    "checked": "2026-09-13"
+  "Dress pants": {
+   "lp": "Taupe wool Tigullio trousers",
+   "lu": "https://www.brioni.com/en/us/pr/taupe-wool-tigullio-trousers-RPC60NOCA619696",
+   "hp": "Petroleum Zefiro Elba trousers",
+   "hu": "https://www.brioni.com/en/us/pr/petroleum-zefiro-elba-trousers-RP3I0LOA4784646",
+   "b": "pair"
   },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "both",
-    "marks": [
-      "House fabric names: Zefiro, Trama (weave), Iride. Licensed: Escorial wool (Escorial is a third-party wool trademark). Generic: water-repellent, waterproof, membrane, technical fabric, vicuna. NO trademark symbols anywhere on the site."
-    ],
-    "source": "census",
-    "checked": "2026-09-12"
+  "Sweater": {
+   "lp": "Navy blue cashmere and wool crewneck sweater",
+   "lu": "https://www.brioni.com/en/us/pr/navy-blue-cashmere-and-wool-crewneck-sweater-UMQ90LOCK124110",
+   "hp": "Black and white 180's mouliné wool crewneck sweater",
+   "hu": "https://www.brioni.com/en/us/pr/black-and-white-180s-mouline-wool-crewneck-sweater-UMQ90LOEK101090",
+   "b": "pair"
   },
-  "fibre": {
-    "t": 507,
-    "w": 495,
-    "n": 94,
-    "s": 2,
-    "c": 2,
-    "x": 7,
-    "xh": 0,
-    "sp": "one",
-    "sc": [],
-    "nc": ["trousers", "shirts", "jackets"],
-    "st": "complete"
+  "Outerwear": {
+   "lp": "Dark grey herringbone wool shirt collar blouson",
+   "lu": "https://www.brioni.com/en/us/pr/dark-grey-herringbone-wool-shirt-collar-blouson-SCGR0LODA591100",
+   "hp": "Navy blue nubuck shirt collar blouson",
+   "hu": "https://www.brioni.com/en/us/pr/navy-blue-nubuck-shirt-collar-blouson-PLCT0LPB7024100",
+   "b": "pair"
   },
-  "garment_links": {
-    "T-shirt": "https://www.brioni.com/en/us/ca/polos-and-t-shirts",
-    "Polo": "https://www.brioni.com/en/us/ca/polos-and-t-shirts",
-    "Dress shirt": "https://www.brioni.com/en/us/ca/formal-shirts",
-    "Jeans": "https://www.brioni.com/en/us/ca/casual-trousers",
-    "Dress pants": "https://www.brioni.com/en/us/ca/formal-trousers",
-    "Sweater": "https://www.brioni.com/en/us/ca/knitwear",
-    "Outerwear": "https://www.brioni.com/en/us/ca/outerwear-and-coats",
-    "Shoes": "https://www.brioni.com/en/us/ca/shoes"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Essential white gassed cotton T-shirt",
-      "lu": "https://www.brioni.com/en/us/pr/essential-white-gassed-cotton-t-shirt-UJPL0LOA6139000",
-      "hp": "White cashmere, silk and linen T-shirt",
-      "hu": "https://www.brioni.com/en/us/pr/white-cashmere-silk-and-linen-t-shirt-UMR00LPDK149000",
-      "b": "pair"
-    },
-    "Polo": {
-      "lp": "Essential white cotton piqué polo",
-      "lu": "https://www.brioni.com/en/us/pr/essential-white-cotton-pique-polo-UJPP0LPA6279000",
-      "hp": "Navy blue cotton, silk and cashmere Trama weave polo",
-      "hu": "https://www.brioni.com/en/us/pr/navy-blue-cotton-silk-and-cashmere-trama-weave-polo-UMR20OPAK224100",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Light blue cotton formal shirt",
-      "lu": "https://www.brioni.com/en/us/pr/light-blue-cotton-formal-shirt-RCB10LOD04P4800",
-      "hp": "Essential white Giza 45 cotton twill formal shirt",
-      "hu": "https://www.brioni.com/en/us/pr/essential-white-giza-45-cotton-twill-formal-shirt-RCB40MP90C39000",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Midnight blue cotton stretch Merano jeans",
-      "lu": "https://www.brioni.com/en/us/pr/midnight-blue-cotton-stretch-merano-jeans-SPE30LODD134000",
-      "hp": "Midnight blue cotton and cashmere denim Meribel fitted jeans",
-      "hu": "https://www.brioni.com/en/us/pr/midnight-blue-cotton-and-cashmere-denim-meribel-fitted-jeans-SPE20LPCD034000",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Taupe wool Tigullio trousers",
-      "lu": "https://www.brioni.com/en/us/pr/taupe-wool-tigullio-trousers-RPC60NOCA619696",
-      "hp": "Petroleum Zefiro Elba trousers",
-      "hu": "https://www.brioni.com/en/us/pr/petroleum-zefiro-elba-trousers-RP3I0LOA4784646",
-      "b": "pair"
-    },
-    "Sweater": {
-      "lp": "Navy blue cashmere and wool crewneck sweater",
-      "lu": "https://www.brioni.com/en/us/pr/navy-blue-cashmere-and-wool-crewneck-sweater-UMQ90LOCK124110",
-      "hp": "Black and white 180's mouliné wool crewneck sweater",
-      "hu": "https://www.brioni.com/en/us/pr/black-and-white-180s-mouline-wool-crewneck-sweater-UMQ90LOEK101090",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "Dark grey herringbone wool shirt collar blouson",
-      "lu": "https://www.brioni.com/en/us/pr/dark-grey-herringbone-wool-shirt-collar-blouson-SCGR0LODA591100",
-      "hp": "Navy blue nubuck shirt collar blouson",
-      "hu": "https://www.brioni.com/en/us/pr/navy-blue-nubuck-shirt-collar-blouson-PLCT0LPB7024100",
-      "b": "pair"
-    },
-    "Shoes": {
-      "lp": "Midnight blue nubuck City Deck loafers",
-      "lu": "https://www.brioni.com/en/us/pr/midnight-blue-nubuck-city-deck-loafers-QYQN0LPD7234000",
-      "hp": "Black calfskin Elysium penny loafers",
-      "hu": "https://www.brioni.com/en/us/pr/black-calfskin-elysium-penny-loafers-QEJ90LP67571000",
-      "b": "pair"
-    }
-  },
-  "price_range_only": ["Polo", "Dress shirt", "Jeans"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.brioni.com/en/us/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "shop": "https://www.brioni.com/en/us/search?q=",
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=360098",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "season": {
-    "l": "Fall/Winter 2026",
-    "t": "campaign",
-    "u": "https://www.brioni.com/en/us/adv-fw-26",
-    "m": "yes"
-  },
-  "craft_evidence": {
-    "owned": "yes",
-    "owned_d": "Tailoring: brioni.com art-of-tailoring page: 1959 'first industrial sized tailoring atelier in Penne, Italy'; 'Today, the bond with Penne remains as does a large proportion of our production.' Wikipedia (citing WWD 2021): 1,000 tailors in production facilities in Penne, Montebello di Bertona and Civitella Casanova; tailoring school in Penne since 1985 (NYT T Magazine 2014). WWD 2021: industrial plan scaling back the three sites. Brioni is a Kering house; site facilities are Brioni's. Shoes, knitwear, leather goods making not documented.",
-    "makers": "NC",
-    "mills": "NC",
-    "madein": "NC",
-    "countries": "NC - no PDPs readable",
-    "heritage": "dated and placed",
-    "repair": "NC",
-    "process": "some",
-    "urls": [
-      "https://www.brioni.com/en/us/art-of-tailoring",
-      "https://wwd.com/menswear-news/mens-designer-luxury/brioni-industrial-plan-trade-unions-complains-1234981395/"
-    ],
-    "conf": "medium",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Midnight blue nubuck City Deck loafers",
+   "lu": "https://www.brioni.com/en/us/pr/midnight-blue-nubuck-city-deck-loafers-QYQN0LPD7234000",
+   "hp": "Black calfskin Elysium penny loafers",
+   "hu": "https://www.brioni.com/en/us/pr/black-calfskin-elysium-penny-loafers-QEJ90LP67571000",
+   "b": "pair"
   }
+ },
+ "price_range_only": [
+  "Polo",
+  "Dress shirt",
+  "Jeans"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.brioni.com/en/us/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "shop": "https://www.brioni.com/en/us/search?q=",
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=360098",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "season": {
+  "l": "Fall/Winter 2026",
+  "t": "campaign",
+  "u": "https://www.brioni.com/en/us/adv-fw-26",
+  "m": "yes"
+ },
+ "craft_evidence": {
+  "owned": "yes",
+  "owned_d": "Tailoring: brioni.com art-of-tailoring page: 1959 'first industrial sized tailoring atelier in Penne, Italy'; 'Today, the bond with Penne remains as does a large proportion of our production.' Wikipedia (citing WWD 2021): 1,000 tailors in production facilities in Penne, Montebello di Bertona and Civitella Casanova; tailoring school in Penne since 1985 (NYT T Magazine 2014). WWD 2021: industrial plan scaling back the three sites. Brioni is a Kering house; site facilities are Brioni's. Shoes, knitwear, leather goods making not documented.",
+  "makers": "NC",
+  "mills": "NC",
+  "madein": "NC",
+  "countries": "NC - no PDPs readable",
+  "heritage": "dated and placed",
+  "repair": "NC",
+  "process": "some",
+  "urls": [
+   "https://www.brioni.com/en/us/art-of-tailoring",
+   "https://wwd.com/menswear-news/mens-designer-luxury/brioni-industrial-plan-trade-unions-complains-1234981395/"
+  ],
+  "conf": "medium",
+  "read": "2026-10-03"
+ }
 }
