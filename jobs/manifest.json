@@ -1461,6 +1461,37 @@
    "returns": [],
    "blocked_on": "",
    "note": "stage 1 sift for all 59 returned first; stage 2 full seat_resort record for every seat verdict; Noah and EG first"
+  },
+  {
+   "id": "seat_3sixteen_2026-10-07",
+   "title": "Seating evidence — 3sixteen",
+   "kind": "seating",
+   "state": "issued",
+   "created": "2026-10-07",
+   "issued": "2026-10-07",
+   "pilot": 0,
+   "nc": "NC",
+   "brands": [
+    "3sixteen"
+   ],
+   "schema": [
+    {
+     "name": "brand",
+     "type": "key"
+    },
+    {
+     "name": "source",
+     "type": "provenance"
+    },
+    {
+     "name": "note",
+     "type": "str"
+    }
+   ],
+   "writes": {},
+   "returns": [],
+   "blocked_on": "",
+   "note": "seat_resort record for one denim house"
   }
  ]
 }
