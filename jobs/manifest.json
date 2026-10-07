@@ -1492,6 +1492,38 @@
    "returns": [],
    "blocked_on": "",
    "note": "seat_resort record for one denim house"
+  },
+  {
+   "id": "seat_kotn_eot_2026-10-07",
+   "title": "Seating evidence — Kotn, Every Other Thursday",
+   "kind": "seating",
+   "state": "issued",
+   "created": "2026-10-07",
+   "issued": "2026-10-07",
+   "pilot": 0,
+   "nc": "NC",
+   "brands": [
+    "Kotn",
+    "Every Other Thursday"
+   ],
+   "schema": [
+    {
+     "name": "brand",
+     "type": "key"
+    },
+    {
+     "name": "source",
+     "type": "provenance"
+    },
+    {
+     "name": "note",
+     "type": "str"
+    }
+   ],
+   "writes": {},
+   "returns": [],
+   "blocked_on": "",
+   "note": "EOT likely has no doors — bench candidate pending ruling; Kotn's cotton story tested as craft evidence"
   }
  ]
 }
