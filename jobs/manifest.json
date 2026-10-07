@@ -1366,7 +1366,7 @@
    "id": "seat_resort_2026-10-07",
    "title": "Seating evidence — Frescobol Carioca, Orlebar Brown",
    "kind": "seating",
-   "state": "issued",
+   "state": "merged",
    "created": "2026-10-07",
    "issued": "2026-10-07",
    "pilot": 0,
@@ -1390,9 +1390,11 @@
     }
    ],
    "writes": {},
-   "returns": [],
+   "returns": [
+    "jobs/returns/seat_resort_2026-10-07/"
+   ],
    "blocked_on": "",
-   "note": "full record for two resort houses; swim share decides whether either seats"
+   "note": "full record for two resort houses; swim share decides whether either seats; returned and merged same day; 2 brands seated v3.42.0"
   },
   {
    "id": "collabs_2026-10-07",

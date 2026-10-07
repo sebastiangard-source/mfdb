@@ -1,128 +1,342 @@
 {
-  "MA": {
-    "Boston": ["Allston", "Boston", "Cambridge", "Chestnut Hill", "Somerville", "South Boston"],
-    "MetroWest": [
-      "Burlington",
-      "Concord",
-      "Dedham",
-      "Natick",
-      "Needham Hgts",
-      "Newton",
-      "Newton Centre",
-      "Wellesley"
-    ],
-    "North Shore": ["Danvers", "Lynnfield", "Manchester by the Sea", "Newburyport", "Peabody", "Wenham"],
-    "Merrimack Valley": ["Andover", "Lowell"],
-    "South Shore": ["Braintree", "Foxborough", "Hingham", "Norwell", "South Weymouth"],
-    "The Cape": ["Chatham", "Falmouth", "Hyannis", "Mashpee", "Orleans", "Osterville", "Provincetown"],
-    "Martha's Vineyard": ["Edgartown", "Oak Bluffs", "Vineyard Haven"],
-    "Nantucket": ["Nantucket"],
-    "South Coast": ["South Dartmouth", "Westport"],
-    "Berkshires": ["Great Barrington", "Lenox"],
-    "Pioneer Valley": ["Millbury", "Northampton", "Springfield"]
-  },
-  "CT": {
-    "Fairfield County": ["Bridgeport", "Danbury", "Darien", "New Canaan", "Ridgefield", "Southport", "Westport"],
-    "New Haven": ["Guilford", "Milford", "New Haven", "Orange"],
-    "Greater Hartford": ["Avon", "Farmington", "Hartford", "Meriden", "South Windsor", "Vernon", "West Hartford"],
-    "Connecticut Shoreline": ["Deep River", "Essex", "Madison", "Mystic", "Old Saybrook"],
-    "Litchfield Hills": ["Litchfield", "New Preston"],
-    "Greenwich": ["Greenwich", "Old Greenwich"]
-  },
-  "ME": {
-    "Southern Maine": ["Kennebunk", "Kennebunkport", "Kittery", "Portland", "South Portland", "Wells"],
-    "Midcoast Maine": ["Rockport"]
-  },
-  "NH": {
-    "Seacoast": ["Exeter", "Portsmouth"],
-    "Upper Valley": ["Hanover", "Lebanon"],
-    "Merrimack Valley NH": ["Salem"]
-  },
-  "NJ": {
-    "Jersey Shore": [
-      "Asbury Park",
-      "Avalon",
-      "Bay Head",
-      "Cape May",
-      "Freehold",
-      "Long Beach Township",
-      "Red Bank",
-      "Rumson",
-      "Sea Girt",
-      "Shrewsbury",
-      "Spring Lake"
-    ],
-    "North Jersey": ["Livingston", "Maplewood", "Summit"],
-    "Somerset Hills": ["Far Hills", "Somerville"],
-    "Bergen County": [
-      "Closter",
-      "East Rutherford",
-      "Edgewater",
-      "Hackensack",
-      "Ho-Ho-Kus",
-      "Montvale",
-      "Paramus",
-      "Wayne",
-      "Woodcliff Lake"
-    ],
-    "Essex and Morris": ["Chester", "Denville", "Millburn", "Morristown", "Short Hills", "Upper Montclair"],
-    "Central Jersey": ["Bridgewater", "Edison", "Princeton", "Westfield"],
-    "South Jersey": ["Cherry Hill", "Marlton"],
-    "Hudson Waterfront": ["Hoboken"]
-  },
-  "NY": {
-    "New York City": ["Brooklyn", "New York"],
-    "Long Island": [
-      "Bellport",
-      "Cedarhurst",
-      "Elmont",
-      "Garden City",
-      "Huntington",
-      "Huntington Station",
-      "Locust Valley",
-      "Lynbrook",
-      "Manhasset",
-      "Ocean Beach",
-      "Woodbury"
-    ],
-    "Hamptons and North Fork": [
-      "Amagansett",
-      "Bridgehampton",
-      "East Hampton",
-      "Greenport",
-      "Sag Harbor",
-      "Southampton",
-      "Southold"
-    ],
-    "Westchester": ["Bedford", "Bronxville", "Katonah", "Larchmont", "Scarsdale", "White Plains", "Yonkers"],
-    "Hudson Valley": ["Beacon", "Hudson", "Kingston", "Millbrook", "Rhinebeck", "Woodstock"],
-    "Capital Region": ["Albany", "Latham", "Saratoga Springs"],
-    "Adirondacks": ["Saranac Lake"],
-    "Western New York": ["Amherst", "Buffalo", "Rochester", "Victor"],
-    "Central New York": ["Skaneateles", "Syracuse"]
-  },
-  "PA": {
-    "Philadelphia": ["Philadelphia"],
-    "Main Line and Chester County": ["Kennett Square", "Malvern", "Newtown Square", "Phoenixville", "Wayne", "West Chester"],
-    "Bucks County": ["Newtown"],
-    "Lehigh Valley": ["Allentown", "Center Valley", "Whitehall"],
-    "Pittsburgh": ["Greensburg", "Ligonier", "Mount Lebanon", "Pittsburgh", "Sewickley", "Warrendale"],
-    "Central Pennsylvania": ["Bedford", "Indiana", "Johnstown", "State College"],
-    "Northeast Pennsylvania": ["Scranton"],
-    "Main Line": ["Ardmore", "Dresher", "Glen Mills", "Haverford", "King of Prussia", "Warrington"],
-    "Lancaster County": ["Lancaster"]
-  },
-  "RI": {
-    "Providence": ["Cranston", "East Greenwich", "Providence"],
-    "Newport County": ["Block Island", "Newport"],
-    "South County": ["Watch Hill"]
-  },
-  "VT": {
-    "Champlain Valley": ["Burlington", "Shelburne", "Williston"],
-    "Stowe and Lamoille": ["Morristown", "Stowe"],
-    "Central Vermont": ["Rutland", "Woodstock"]
-  },
-  "DE": {
-    "Northern Delaware": ["Greenville", "Newark"]
-  }
+ "MA": {
+  "Boston": [
+   "Allston",
+   "Boston",
+   "Cambridge",
+   "Chestnut Hill",
+   "Somerville",
+   "South Boston"
+  ],
+  "MetroWest": [
+   "Burlington",
+   "Concord",
+   "Dedham",
+   "Natick",
+   "Needham Hgts",
+   "Newton",
+   "Newton Centre",
+   "Wellesley"
+  ],
+  "North Shore": [
+   "Danvers",
+   "Lynnfield",
+   "Manchester by the Sea",
+   "Newburyport",
+   "Peabody",
+   "Wenham"
+  ],
+  "Merrimack Valley": [
+   "Andover",
+   "Lowell"
+  ],
+  "South Shore": [
+   "Braintree",
+   "Foxborough",
+   "Hingham",
+   "Norwell",
+   "South Weymouth"
+  ],
+  "The Cape": [
+   "Chatham",
+   "Falmouth",
+   "Hyannis",
+   "Mashpee",
+   "Orleans",
+   "Osterville",
+   "Provincetown"
+  ],
+  "Martha's Vineyard": [
+   "Edgartown",
+   "Oak Bluffs",
+   "Vineyard Haven"
+  ],
+  "Nantucket": [
+   "Nantucket"
+  ],
+  "South Coast": [
+   "South Dartmouth",
+   "Westport"
+  ],
+  "Berkshires": [
+   "Great Barrington",
+   "Lenox"
+  ],
+  "Pioneer Valley": [
+   "Millbury",
+   "Northampton",
+   "Springfield"
+  ]
+ },
+ "CT": {
+  "Fairfield County": [
+   "Bridgeport",
+   "Danbury",
+   "Darien",
+   "New Canaan",
+   "Ridgefield",
+   "Southport",
+   "Westport"
+  ],
+  "New Haven": [
+   "Guilford",
+   "Milford",
+   "New Haven",
+   "Orange"
+  ],
+  "Greater Hartford": [
+   "Avon",
+   "Farmington",
+   "Hartford",
+   "Meriden",
+   "South Windsor",
+   "Vernon",
+   "West Hartford"
+  ],
+  "Connecticut Shoreline": [
+   "Deep River",
+   "Essex",
+   "Madison",
+   "Mystic",
+   "Old Saybrook"
+  ],
+  "Litchfield Hills": [
+   "Litchfield",
+   "New Preston"
+  ],
+  "Greenwich": [
+   "Greenwich",
+   "Old Greenwich"
+  ]
+ },
+ "ME": {
+  "Southern Maine": [
+   "Kennebunk",
+   "Kennebunkport",
+   "Kittery",
+   "Portland",
+   "South Portland",
+   "Wells"
+  ],
+  "Midcoast Maine": [
+   "Rockport"
+  ]
+ },
+ "NH": {
+  "Seacoast": [
+   "Exeter",
+   "Portsmouth"
+  ],
+  "Upper Valley": [
+   "Hanover",
+   "Lebanon"
+  ],
+  "Merrimack Valley NH": [
+   "Salem"
+  ]
+ },
+ "NJ": {
+  "Jersey Shore": [
+   "Allenhurst",
+   "Asbury Park",
+   "Avalon",
+   "Bay Head",
+   "Cape May",
+   "Freehold",
+   "Long Beach Township",
+   "Red Bank",
+   "Rumson",
+   "Sea Girt",
+   "Shrewsbury",
+   "Spring Lake"
+  ],
+  "North Jersey": [
+   "Livingston",
+   "Maplewood",
+   "Summit"
+  ],
+  "Somerset Hills": [
+   "Far Hills",
+   "Somerville"
+  ],
+  "Bergen County": [
+   "Closter",
+   "East Rutherford",
+   "Edgewater",
+   "Hackensack",
+   "Ho-Ho-Kus",
+   "Montvale",
+   "Paramus",
+   "Wayne",
+   "Woodcliff Lake"
+  ],
+  "Essex and Morris": [
+   "Chester",
+   "Denville",
+   "Millburn",
+   "Morristown",
+   "Short Hills",
+   "Upper Montclair"
+  ],
+  "Central Jersey": [
+   "Bridgewater",
+   "Edison",
+   "Princeton",
+   "Westfield"
+  ],
+  "South Jersey": [
+   "Cherry Hill",
+   "Marlton"
+  ],
+  "Hudson Waterfront": [
+   "Hoboken"
+  ]
+ },
+ "NY": {
+  "New York City": [
+   "Brooklyn",
+   "New York"
+  ],
+  "Long Island": [
+   "Bellport",
+   "Cedarhurst",
+   "Elmont",
+   "Garden City",
+   "Huntington",
+   "Huntington Station",
+   "Locust Valley",
+   "Lynbrook",
+   "Manhasset",
+   "Ocean Beach",
+   "Woodbury"
+  ],
+  "Hamptons and North Fork": [
+   "Amagansett",
+   "Bridgehampton",
+   "East Hampton",
+   "Greenport",
+   "Sag Harbor",
+   "Southampton",
+   "Southold"
+  ],
+  "Westchester": [
+   "Bedford",
+   "Bronxville",
+   "Katonah",
+   "Larchmont",
+   "Scarsdale",
+   "White Plains",
+   "Yonkers"
+  ],
+  "Hudson Valley": [
+   "Beacon",
+   "Hudson",
+   "Kingston",
+   "Millbrook",
+   "Rhinebeck",
+   "Woodstock"
+  ],
+  "Capital Region": [
+   "Albany",
+   "Latham",
+   "Saratoga Springs"
+  ],
+  "Adirondacks": [
+   "Saranac Lake"
+  ],
+  "Western New York": [
+   "Amherst",
+   "Buffalo",
+   "Rochester",
+   "Victor"
+  ],
+  "Central New York": [
+   "Skaneateles",
+   "Syracuse"
+  ]
+ },
+ "PA": {
+  "Philadelphia": [
+   "Philadelphia"
+  ],
+  "Main Line and Chester County": [
+   "Kennett Square",
+   "Malvern",
+   "Newtown Square",
+   "Phoenixville",
+   "Wayne",
+   "West Chester"
+  ],
+  "Bucks County": [
+   "Newtown"
+  ],
+  "Lehigh Valley": [
+   "Allentown",
+   "Center Valley",
+   "Whitehall"
+  ],
+  "Pittsburgh": [
+   "Greensburg",
+   "Ligonier",
+   "Mount Lebanon",
+   "Pittsburgh",
+   "Sewickley",
+   "Warrendale"
+  ],
+  "Central Pennsylvania": [
+   "Bedford",
+   "Indiana",
+   "Johnstown",
+   "State College"
+  ],
+  "Northeast Pennsylvania": [
+   "Scranton"
+  ],
+  "Main Line": [
+   "Ardmore",
+   "Dresher",
+   "Glen Mills",
+   "Haverford",
+   "King of Prussia",
+   "Warrington"
+  ],
+  "Lancaster County": [
+   "Lancaster"
+  ]
+ },
+ "RI": {
+  "Providence": [
+   "Cranston",
+   "East Greenwich",
+   "Providence"
+  ],
+  "Newport County": [
+   "Block Island",
+   "Newport"
+  ],
+  "South County": [
+   "Watch Hill"
+  ]
+ },
+ "VT": {
+  "Champlain Valley": [
+   "Burlington",
+   "Shelburne",
+   "Williston"
+  ],
+  "Stowe and Lamoille": [
+   "Morristown",
+   "Stowe"
+  ],
+  "Central Vermont": [
+   "Rutland",
+   "Woodstock"
+  ]
+ },
+ "DE": {
+  "Northern Delaware": [
+   "Greenville",
+   "Newark"
+  ]
+ }
 }

@@ -1725,3 +1725,6 @@ Held: [('Carhartt', 'sweater NONE — a house with no crewneck still makes sweat
 - Hermès: craft 5 -> 4
 
 ## 2026-10-04 · visit · kloTH, Hingham: Redvanly confirmed (added as stockist)
+
+## 2026-10-07 — seat_resort_2026-10-07
+Return: 2 brands, 4 files, 0 unmatched. Seated Frescobol Carioca (205) and Orlebar Brown (206) in accessible; dials authored from the return, tech/craft at the thread's proposed 2/2 pending ruling. Places: +1 FC SoHo, +2 OB (SoHo, East Hampton) own doors in the Northeast; +2 stockists (DAWN Nantucket, Martin Allenhurst). OB US own doors 10 (Setai concession and Belmont outlet not counted); world 32 brand-operated of 39 OB-branded. Registers: vinted, certs, lookbooks appended; own_doors_resort saved. Not merged: FC's 63 hotel-shop stockist rows (register door-one check pending), department-store rows (channel flag only).
