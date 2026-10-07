@@ -22,15 +22,21 @@ One row per brand in `sift_template.csv`, from the brand's own site and nothing 
 at most:
 
 - `site_domain`; `us_store` yes/no/none (no site at all); `mens_clothing_or_footwear` yes/no
+- `us_own_stores`: how many stores of its own the brand runs in the US, from its locator or store page
+  (`0` is a finding, `NC` if no locator and no store page); `us_own_stores_source` the URL
 - `what_it_sells` in plain words under twelve ("Neapolitan shirts, made to order and ready to wear")
 - `price_tee_or_entry` and `price_outerwear_or_top`: one entry price and one top-of-range price, currency
   stated, so the band can be guessed; `np` if the site publishes none
 - `band_guess`: premium / accessible / trueLux by the price pair, against `rules_prices.md` bands
   ($80–300 · $150–800 · $800+)
-- `sift_verdict`: **seat** (a men's clothing or footwear house with a readable site), **bench** (real
-  but something blocks a full record now: no US store and no prices, a retailer's private label, a
+- `sift_verdict`: **seat** (a men's clothing or footwear house with a readable site **and at least a few
+  stores of its own in the US** — the map's bar, with few exceptions), **bench** (real but something
+  blocks a seat now: no US stores of its own, no US store and no prices, a retailer's private label, a
   sub-line better folded into a seated parent), **reject** (not a clothing house: accessories, a
-  fabric mill, a collaboration, defunct)
+  fabric mill, a collaboration, defunct). Noah and Engineered Garments seat whatever the door count says;
+  Sebastian has ruled on them. For the rest, a wholesale-only Italian maker with no US door is the
+  expected bench, and that is a useful answer: every sift row, seat or not, goes into
+  `registers/trade_brands.csv`, the running list of brands the specialty stores buy.
 - `reason`, one sentence a reader could check; `source` URL
 
 Sub-lines: Comme des Garçons Homme Deux and Sartorio (Kiton) each need a stated recommendation — own key
