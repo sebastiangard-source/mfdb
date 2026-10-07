@@ -1,0 +1,64 @@
+{
+ "files": {
+  "return.csv": [
+   "brand",
+   "partner",
+   "partner_on_map",
+   "partner_kind",
+   "collab_kind",
+   "what_was_made",
+   "first_year",
+   "latest_year",
+   "drops",
+   "active",
+   "active_url",
+   "announce_url",
+   "source",
+   "note"
+  ],
+  "partners.csv": [
+   "partner",
+   "partner_kind",
+   "site_domain",
+   "mapped_brands_collaborated_with",
+   "rows",
+   "note"
+  ],
+  "excluded.csv": [
+   "brand",
+   "partner",
+   "reason",
+   "url",
+   "note"
+  ]
+ },
+ "tokens": {
+  "NC": "nobody looked",
+  "NONE": "checked, no active collaboration"
+ },
+ "partner_on_map": [
+  "yes",
+  "no"
+ ],
+ "partner_kind": [
+  "clothing brand",
+  "footwear brand",
+  "retailer",
+  "designer/person",
+  "artist",
+  "institution",
+  "other"
+ ],
+ "collab_kind": [
+  "co-branded",
+  "retailer exclusive",
+  "license",
+  "celebrity line",
+  "artist edition",
+  "charity"
+ ],
+ "active": [
+  "yes",
+  "no"
+ ]
+}

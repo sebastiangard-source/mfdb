@@ -1393,6 +1393,39 @@
    "returns": [],
    "blocked_on": "",
    "note": "full record for two resort houses; swim share decides whether either seats"
+  },
+  {
+   "id": "collabs_2026-10-07",
+   "title": "Active collaborations — 204 brands",
+   "kind": "count",
+   "state": "issued",
+   "created": "2026-10-07",
+   "issued": "2026-10-07",
+   "pilot": 10,
+   "nc": "NC",
+   "brands": "all",
+   "schema": [
+    {
+     "name": "brand",
+     "type": "key"
+    },
+    {
+     "name": "partner",
+     "type": "str"
+    },
+    {
+     "name": "source",
+     "type": "provenance"
+    },
+    {
+     "name": "note",
+     "type": "str"
+    }
+   ],
+   "writes": {},
+   "returns": [],
+   "blocked_on": "",
+   "note": "co-branded only; partners.csv is the seating queue (footwear first)"
   }
  ]
 }
