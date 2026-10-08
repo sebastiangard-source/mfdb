@@ -92,3 +92,12 @@ the Japanese houses that can seat.
 store, own-store count, what it sells, entry and top price, band guess, seat/bench/reject), returned in
 tier order so the A names come back first. Tier C goes into the trade register as unassessed with the
 reason, and is not sifted now. Full records follow for whatever survives the sift and the rulings.
+
+## Ruled 8 October 2026
+
+Sebastian: **seat everything on this list**, then think about a sub-premium tier. That settles the five
+rulings above for now — no floor, sportswear giants in, shoe-only houses in, licenses as their own key,
+sub-lines with their own stores as their own key — and sets aside the few-US-stores bar for this wave:
+a brand with zero US doors seats as positive zero. The sift brief is withdrawn; three seating briefs
+(`seat_wave_a/b/c_2026-10-08`) carry the 171, facts-first rows returned early so provisional bands
+can seat ahead of the full records.

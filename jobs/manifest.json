@@ -1529,7 +1529,7 @@
    "id": "sift_candidates_2026-10-08",
    "title": "Sift — 90 candidate brands from the gap analysis",
    "kind": "sift",
-   "state": "issued",
+   "state": "closed",
    "created": "2026-10-08",
    "issued": "2026-10-08",
    "pilot": 36,
@@ -1556,7 +1556,94 @@
    "writes": {},
    "returns": [],
    "blocked_on": "five rulings in registers/gap_analysis_2026-10-08.md",
-   "note": "tier A 36 first; tier C (81) logged to trade_brands, not sifted"
+   "note": "tier A 36 first; tier C (81) logged to trade_brands, not sifted; superseded 8 Oct — Sebastian ruled everything seats; see seat_wave_a/b/c"
+  },
+  {
+   "id": "seat_wave_a_2026-10-08",
+   "title": "Seating wave A — 36 brands from the gap analysis",
+   "kind": "seating",
+   "state": "issued",
+   "created": "2026-10-08",
+   "issued": "2026-10-08",
+   "pilot": 36,
+   "nc": "NC",
+   "brands": "worklist",
+   "schema": [
+    {
+     "name": "brand",
+     "type": "key"
+    },
+    {
+     "name": "source",
+     "type": "provenance"
+    },
+    {
+     "name": "note",
+     "type": "str"
+    }
+   ],
+   "writes": {},
+   "returns": [],
+   "blocked_on": "",
+   "note": "ruled 8 Oct: everything seats; no floor; giants, shoe houses, licenses and sub-lines in; zero US doors is positive zero"
+  },
+  {
+   "id": "seat_wave_b_2026-10-08",
+   "title": "Seating wave B — 54 brands from the gap analysis",
+   "kind": "seating",
+   "state": "issued",
+   "created": "2026-10-08",
+   "issued": "2026-10-08",
+   "pilot": 54,
+   "nc": "NC",
+   "brands": "worklist",
+   "schema": [
+    {
+     "name": "brand",
+     "type": "key"
+    },
+    {
+     "name": "source",
+     "type": "provenance"
+    },
+    {
+     "name": "note",
+     "type": "str"
+    }
+   ],
+   "writes": {},
+   "returns": [],
+   "blocked_on": "",
+   "note": "ruled 8 Oct: everything seats; no floor; giants, shoe houses, licenses and sub-lines in; zero US doors is positive zero"
+  },
+  {
+   "id": "seat_wave_c_2026-10-08",
+   "title": "Seating wave C — 81 brands from the gap analysis",
+   "kind": "seating",
+   "state": "issued",
+   "created": "2026-10-08",
+   "issued": "2026-10-08",
+   "pilot": 81,
+   "nc": "NC",
+   "brands": "worklist",
+   "schema": [
+    {
+     "name": "brand",
+     "type": "key"
+    },
+    {
+     "name": "source",
+     "type": "provenance"
+    },
+    {
+     "name": "note",
+     "type": "str"
+    }
+   ],
+   "writes": {},
+   "returns": [],
+   "blocked_on": "",
+   "note": "ruled 8 Oct: everything seats; no floor; giants, shoe houses, licenses and sub-lines in; zero US doors is positive zero"
   }
  ]
 }
