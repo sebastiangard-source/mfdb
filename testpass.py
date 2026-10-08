@@ -948,7 +948,7 @@ with sync_playwright() as p:
     pg.evaluate("()=>{for(const [k,v] of [['tech',4],['craft',3]]){const d=document.querySelector('.dial[data-attr=\"'+k+'\"] input[type=range]'); d.value=v; d.dispatchEvent(new Event('input',{bubbles:true})); d.dispatchEvent(new Event('change',{bubbles:true}));}}"); pg.wait_for_timeout(500)
     ck('the results line sits at the top of the rail', pg.evaluate("(()=>{const b=document.getElementById('resultBar'); const c=document.getElementById('clearAll'); return b.getBoundingClientRect().top < c.getBoundingClientRect().top + 120})()"))
     _rb = pg.evaluate("(()=>{const b=document.getElementById('resultBar'); const cs=getComputedStyle(b); return [b.dataset.active, cs.visibility, cs.display, b.textContent, b.parentElement.id, innerWidth]})()")
-    ck('desktop shows a results line when filters are on', _rb[1]=='visible' and 'See' in _rb[3], _rb)
+    ck('desktop shows a results count, not a button, when filters are on', _rb[1]=='visible' and ' of ' in _rb[3] and 'See' not in _rb[3] and '\u2193' not in _rb[3], _rb)
     ck('the why panel no longer scrolls inside itself on desktop', pg.evaluate("getComputedStyle(document.getElementById('whyPanel')).overflowY")!='auto')
     ck('every matching card is fully inside the document', pg.evaluate("[...document.querySelectorAll('.whycard')].every(c=>{const r=c.getBoundingClientRect(); return r.bottom+scrollY<=document.documentElement.scrollHeight+1})"))
     pg.evaluate("()=>{for(const d of document.querySelectorAll('.dial input[type=range]')){d.value=0; d.dispatchEvent(new Event('input',{bubbles:true})); d.dispatchEvent(new Event('change',{bubbles:true}));}}"); pg.wait_for_timeout(300)
