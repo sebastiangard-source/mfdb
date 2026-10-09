@@ -11,7 +11,6 @@
   "MetroWest": [
    "Burlington",
    "Concord",
-   "Dedham",
    "Natick",
    "Needham Hgts",
    "Newton",
@@ -66,17 +65,16 @@
    "Millbury",
    "Northampton",
    "Springfield"
+  ],
+  "Dedham": [
+   "Dedham"
   ]
  },
  "CT": {
   "Fairfield County": [
    "Bridgeport",
    "Danbury",
-   "Darien",
-   "New Canaan",
-   "Ridgefield",
-   "Southport",
-   "Westport"
+   "Ridgefield"
   ],
   "New Haven": [
    "Guilford",
@@ -107,6 +105,14 @@
   "Greenwich": [
    "Greenwich",
    "Old Greenwich"
+  ],
+  "Westport": [
+   "Southport",
+   "Westport"
+  ],
+  "New Canaan and Darien": [
+   "Darien",
+   "New Canaan"
   ]
  },
  "ME": {
@@ -173,9 +179,7 @@
   "Essex and Morris": [
    "Chester",
    "Denville",
-   "Millburn",
    "Morristown",
-   "Short Hills",
    "Upper Montclair"
   ],
   "Central Jersey": [
@@ -190,6 +194,10 @@
   ],
   "Hudson Waterfront": [
    "Hoboken"
+  ],
+  "Short Hills": [
+   "Millburn",
+   "Short Hills"
   ]
  },
  "NY": {
@@ -201,12 +209,10 @@
    "Bellport",
    "Cedarhurst",
    "Elmont",
-   "Garden City",
    "Huntington",
    "Huntington Station",
    "Locust Valley",
    "Lynbrook",
-   "Manhasset",
    "Ocean Beach",
    "Woodbury"
   ],
@@ -253,19 +259,17 @@
   "Central New York": [
    "Skaneateles",
    "Syracuse"
+  ],
+  "Manhasset": [
+   "Manhasset"
+  ],
+  "Garden City": [
+   "Garden City"
   ]
  },
  "PA": {
   "Philadelphia": [
    "Philadelphia"
-  ],
-  "Main Line and Chester County": [
-   "Kennett Square",
-   "Malvern",
-   "Newtown Square",
-   "Phoenixville",
-   "Wayne",
-   "West Chester"
   ],
   "Bucks County": [
    "Newtown"
@@ -292,16 +296,24 @@
   "Northeast Pennsylvania": [
    "Scranton"
   ],
-  "Main Line": [
+  "Lancaster County": [
+   "Lancaster"
+  ],
+  "Main Line and Chester County": [
    "Ardmore",
    "Dresher",
    "Glen Mills",
    "Haverford",
-   "King of Prussia",
-   "Warrington"
+   "Kennett Square",
+   "Malvern",
+   "Newtown Square",
+   "Phoenixville",
+   "Warrington",
+   "Wayne",
+   "West Chester"
   ],
-  "Lancaster County": [
-   "Lancaster"
+  "King of Prussia": [
+   "King of Prussia"
   ]
  },
  "RI": {
