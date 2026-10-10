@@ -1623,7 +1623,7 @@
    "id": "seat_wave_c_2026-10-08",
    "title": "Seating wave C — 81 brands from the gap analysis",
    "kind": "seating",
-   "state": "issued",
+   "state": "held",
    "created": "2026-10-08",
    "issued": "2026-10-08",
    "pilot": 81,
@@ -1648,7 +1648,7 @@
     "jobs/returns/seat_wave_c_2026-10-08/facts_first.csv"
    ],
    "blocked_on": "",
-   "note": "ruled 8 Oct: everything seats; no floor; giants, shoe houses, licenses and sub-lines in; zero US doors is positive zero; facts-first returned 10 Oct (81 rows; Y-3 NC; 10 door counts NC); rulings sent"
+   "note": "ruled 8 Oct: everything seats; no floor; giants, shoe houses, licenses and sub-lines in; zero US doors is positive zero; facts-first returned 10 Oct (81 rows; Y-3 NC; 10 door counts NC); rulings sent; thread crashed 10 Oct during full records (Dickies); restarted as seat_wave_c_restart_2026-10-10"
   },
   {
    "id": "doors_recapture_2026-10-10",
@@ -1748,6 +1748,35 @@
    "returns": [],
    "blocked_on": "",
    "note": "RESUME.md says what the first thread finished; doors for 24 brands done; 30 to go, then full records"
+  },
+  {
+   "id": "seat_wave_c_restart_2026-10-10",
+   "title": "Seating wave C, restarted — 81 brands",
+   "kind": "seating",
+   "state": "issued",
+   "created": "2026-10-10",
+   "issued": "2026-10-10",
+   "pilot": 10,
+   "nc": "NC",
+   "brands": "worklist",
+   "schema": [
+    {
+     "name": "brand",
+     "type": "key"
+    },
+    {
+     "name": "source",
+     "type": "provenance"
+    },
+    {
+     "name": "note",
+     "type": "str"
+    }
+   ],
+   "writes": {},
+   "returns": [],
+   "blocked_on": "",
+   "note": "RESUME.md: facts-first done and ruled; ten NC door counts first in Chrome, then full records from the top"
   }
  ]
 }
