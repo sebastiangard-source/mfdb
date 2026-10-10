@@ -1,225 +1,325 @@
 {
-  "name": "Mizzen+Main",
-  "band": "premium",
-  "seat": 30,
-  "dagger": 0,
-  "focus": {
-    "tech": 4,
-    "comfort": 4,
-    "craft": 1,
-    "style": 2
+ "name": "Mizzen+Main",
+ "band": "premium",
+ "seat": 30,
+ "dagger": 0,
+ "focus": {
+  "tech": 4,
+  "comfort": 4,
+  "craft": 1,
+  "style": 2
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 1,
+  "wool": 1,
+  "synth": 5
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 2,
+  "fuss": 2,
+  "golffice": 0,
+  "shoes": 0,
+  "golf": 4,
+  "finbro": 4,
+  "murica": 3,
+  "prep": 2,
+  "racquet": 1,
+  "whitet": 2,
+  "logo": 1,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Dress shirts in machine-washable stretch fabric, the design the company introduced in 2012, with matching trousers and blazers.",
+ "origin": "Founded in Dallas in 2012 by Kevin Lavelle.",
+ "chan": [
+  "W",
+  "D",
+  "I"
+ ],
+ "conf": "L",
+ "forgc": [
+  2,
+  4,
+  1
+ ],
+ "shop": "https://www.mizzenandmain.com/search?q=",
+ "onething": {
+  "p": "Leeward dress shirt",
+  "u": "https://www.mizzenandmain.com/search?q=Leeward%20dress%20shirt%20men",
+  "n": "verified ✓"
+ },
+ "prices": [
+  [
+   68,
+   78
+  ],
+  [
+   98,
+   158
+  ],
+  [
+   148,
+   168
+  ],
+  null,
+  [
+   228,
+   298
+  ],
+  [
+   168,
+   248
+  ],
+  [
+   258,
+   348
+  ],
+  null
+ ],
+ "price_checked": true,
+ "notes": {
+  "synth": "the machine-washable stretch dress shirt — the founding product",
+  "golf": "the Phil Mickelson dancing-ad brand — stretch dress shirts for the club",
+  "finbro": "stretch dress shirts built for the trading floor's climate",
+  "tech": "performance shirting built on licensed cloth — four licensed technologies against two of its own, so as technical as the houses above it without owning what it sells",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 3; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "Mizzen+Main's about page and the five product pages sampled give fiber content and performance features but no country of make, no factory and no mill. Nothing checkable about making: a 1."
+ },
+ "doors": {
+  "c": "full",
+  "n": 11,
+  "cities": [
+   [
+    "Austin",
+    "TX",
+    1
+   ],
+   [
+    "Birmingham",
+    "AL",
+    1
+   ],
+   [
+    "Charlotte",
+    "NC",
+    1
+   ],
+   [
+    "Dallas",
+    "TX",
+    1
+   ],
+   [
+    "Fort Worth",
+    "TX",
+    1
+   ],
+   [
+    "Houston",
+    "TX",
+    2
+   ],
+   [
+    "Oklahoma City",
+    "OK",
+    1
+   ],
+   [
+    "San Antonio",
+    "TX",
+    1
+   ],
+   [
+    "Scottsdale",
+    "AZ",
+    1
+   ],
+   [
+    "Southlake",
+    "TX",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 0,
+  "con": 0
+ },
+ "cities": "11 stores, including Houston, Austin, Birmingham · department stores and independent menswear shops, and its own site",
+ "region": {
+  "o": [],
+  "s": [
+   9,
+   33,
+   52,
+   66,
+   85,
+   136,
+   137,
+   149,
+   151,
+   152
+  ]
+ },
+ "site": {
+  "domain": "mizzenandmain.com",
+  "platform": "shopify",
+  "feed": "sitemap_products",
+  "feed_count": 1291,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "both",
+  "marks": [
+   "COOLMAX(R)",
+   "Supima(R)",
+   "TENCEL(TM)/LENZING(TM)",
+   "THERMOLITE(R)",
+   "PrimaLoft(R)",
+   "TurboDry(TM) [house]"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 122,
+  "w": 107,
+  "n": 25,
+  "s": 60,
+  "c": 3,
+  "x": 64,
+  "xh": 50,
+  "sp": "one",
+  "sc": [
+   "Short Sleeve",
+   "Dress Shirt",
+   "Polo",
+   "Quarter Zip",
+   "Chino Pant",
+   "Jacket",
+   "Vest",
+   "Flannel",
+   "Hoodie Sweater",
+   "5 Pocket Pant",
+   "Shorts"
+  ],
+  "nc": [
+   "T-Shirt",
+   "Blazer",
+   "Sweater"
+  ],
+  "st": "complete"
+ },
+ "garment_links": {
+  "T-shirt": "https://www.mizzenandmain.com/collections/t-shirts",
+  "Polo": "https://www.mizzenandmain.com/collections/performance-polos",
+  "Dress shirt": "https://www.mizzenandmain.com/collections/dress-shirts",
+  "Dress pants": "https://www.mizzenandmain.com/collections/dress-pants",
+  "Sweater": "https://www.mizzenandmain.com/collections/sweaters",
+  "Outerwear": "https://www.mizzenandmain.com/collections/outerwear"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Olive Palmer Short Sleeve T-Shirt",
+   "lu": "https://www.mizzenandmain.com/products/olive-palmer-short-sleeve-t-shirt",
+   "hp": "Dark Slate Knox Short Sleeve T-Shirt",
+   "hu": "https://www.mizzenandmain.com/products/dark-slate-knox-t-shirt",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 1,
-    "linen": 1,
-    "cotton": 1,
-    "wool": 1,
-    "synth": 5
+  "Polo": {
+   "lp": "Hemlock Tread Hatch Halyard Short Sleeve Polo",
+   "lu": "https://www.mizzenandmain.com/products/hemlock-tread-hatch-halyard-polo",
+   "hp": "Light Gray Heather Ashe Short Sleeve Polo",
+   "hu": "https://www.mizzenandmain.com/products/light-gray-heather-ashe-short-sleeve-polo",
+   "b": "range"
   },
-  "dials": {
-    "dur": 3,
-    "forg": 2,
-    "fuss": 2,
-    "golffice": 0,
-    "shoes": 0,
-    "golf": 4,
-    "finbro": 4,
-    "murica": 3,
-    "prep": 2,
-    "racquet": 1,
-    "whitet": 2,
-    "logo": 1,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
+  "Dress shirt": {
+   "lp": "Merlot Peter Gingham Halyard Long Sleeve Dress Shirt",
+   "lu": "https://www.mizzenandmain.com/products/merlot-peter-gingham-halyard-long-sleeve-dress-shirt",
+   "hp": "White Hilton Long Sleeve Dress Shirt",
+   "hu": "https://www.mizzenandmain.com/products/white-hilton-long-sleeve-dress-shirt",
+   "b": "range"
   },
-  "why": "Dress shirts in machine-washable stretch fabric, the design the company introduced in 2012, with matching trousers and blazers.",
-  "origin": "Founded in Dallas in 2012 by Kevin Lavelle.",
-  "chan": ["W", "D", "I"],
-  "conf": "L",
-  "forgc": [2, 4, 1],
-  "shop": "https://www.mizzenandmain.com/search?q=",
-  "onething": {
-    "p": "Leeward dress shirt",
-    "u": "https://www.mizzenandmain.com/search?q=Leeward%20dress%20shirt%20men",
-    "n": "verified ✓"
+  "Dress pants": {
+   "lp": "Navy Lavelle Trouser Pant",
+   "lu": "https://www.mizzenandmain.com/products/navy-lavelle-trouser-pant",
+   "hp": "Dark Slate Heather Fresco Suit Pant",
+   "hu": "https://www.mizzenandmain.com/products/dark-slate-heather-fresco-suit-pant",
+   "b": "range"
   },
-  "prices": [[68, 78], [98, 158], [148, 168], null, [228, 298], [168, 248], [258, 348], null],
-  "price_checked": true,
-  "notes": {
-    "synth": "the machine-washable stretch dress shirt — the founding product",
-    "golf": "the Phil Mickelson dancing-ad brand — stretch dress shirts for the club",
-    "finbro": "stretch dress shirts built for the trading floor's climate",
-    "tech": "performance shirting built on licensed cloth — four licensed technologies against two of its own, so as technical as the houses above it without owning what it sells",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 3; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Mizzen+Main's about page and the five product pages sampled give fiber content and performance features but no country of make, no factory and no mill. Nothing checkable about making: a 1."
+  "Sweater": {
+   "lp": "Light Gray Heather Ashe Crewneck Sweater",
+   "lu": "https://www.mizzenandmain.com/products/light-gray-heather-ashe-crewneck-sweater",
+   "hp": "Nickel Crawford Crewneck Sweater",
+   "hu": "https://www.mizzenandmain.com/products/nickel-crawford-crewneck-sweater",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 10,
-    "cities": [
-      ["Austin", "TX", 1],
-      ["Birmingham", "AL", 1],
-      ["Charlotte", "NC", 1],
-      ["Dallas", "TX", 1],
-      ["Fort Worth", "TX", 1],
-      ["Houston", "TX", 2],
-      ["Oklahoma City", "OK", 1],
-      ["San Antonio", "TX", 1],
-      ["Scottsdale", "AZ", 1]
-    ],
-    "basis": "master 2026-08-29, pre-recapture"
-  },
-  "cities": "10 stores, including Houston, Austin, Birmingham · department stores and independent menswear shops, and its own site",
-  "region": {
-    "o": [],
-    "s": [9, 33, 52, 66, 85, 136, 137, 149, 151, 152]
-  },
-  "site": {
-    "domain": "mizzenandmain.com",
-    "platform": "shopify",
-    "feed": "sitemap_products",
-    "feed_count": 1291,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "both",
-    "marks": [
-      "COOLMAX(R)",
-      "Supima(R)",
-      "TENCEL(TM)/LENZING(TM)",
-      "THERMOLITE(R)",
-      "PrimaLoft(R)",
-      "TurboDry(TM) [house]"
-    ],
-    "source": "census",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 122,
-    "w": 107,
-    "n": 25,
-    "s": 60,
-    "c": 3,
-    "x": 64,
-    "xh": 50,
-    "sp": "one",
-    "sc": [
-      "Short Sleeve",
-      "Dress Shirt",
-      "Polo",
-      "Quarter Zip",
-      "Chino Pant",
-      "Jacket",
-      "Vest",
-      "Flannel",
-      "Hoodie Sweater",
-      "5 Pocket Pant",
-      "Shorts"
-    ],
-    "nc": ["T-Shirt", "Blazer", "Sweater"],
-    "st": "complete"
-  },
-  "garment_links": {
-    "T-shirt": "https://www.mizzenandmain.com/collections/t-shirts",
-    "Polo": "https://www.mizzenandmain.com/collections/performance-polos",
-    "Dress shirt": "https://www.mizzenandmain.com/collections/dress-shirts",
-    "Dress pants": "https://www.mizzenandmain.com/collections/dress-pants",
-    "Sweater": "https://www.mizzenandmain.com/collections/sweaters",
-    "Outerwear": "https://www.mizzenandmain.com/collections/outerwear"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Olive Palmer Short Sleeve T-Shirt",
-      "lu": "https://www.mizzenandmain.com/products/olive-palmer-short-sleeve-t-shirt",
-      "hp": "Dark Slate Knox Short Sleeve T-Shirt",
-      "hu": "https://www.mizzenandmain.com/products/dark-slate-knox-t-shirt",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Hemlock Tread Hatch Halyard Short Sleeve Polo",
-      "lu": "https://www.mizzenandmain.com/products/hemlock-tread-hatch-halyard-polo",
-      "hp": "Light Gray Heather Ashe Short Sleeve Polo",
-      "hu": "https://www.mizzenandmain.com/products/light-gray-heather-ashe-short-sleeve-polo",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Merlot Peter Gingham Halyard Long Sleeve Dress Shirt",
-      "lu": "https://www.mizzenandmain.com/products/merlot-peter-gingham-halyard-long-sleeve-dress-shirt",
-      "hp": "White Hilton Long Sleeve Dress Shirt",
-      "hu": "https://www.mizzenandmain.com/products/white-hilton-long-sleeve-dress-shirt",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Navy Lavelle Trouser Pant",
-      "lu": "https://www.mizzenandmain.com/products/navy-lavelle-trouser-pant",
-      "hp": "Dark Slate Heather Fresco Suit Pant",
-      "hu": "https://www.mizzenandmain.com/products/dark-slate-heather-fresco-suit-pant",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Light Gray Heather Ashe Crewneck Sweater",
-      "lu": "https://www.mizzenandmain.com/products/light-gray-heather-ashe-crewneck-sweater",
-      "hp": "Nickel Crawford Crewneck Sweater",
-      "hu": "https://www.mizzenandmain.com/products/nickel-crawford-crewneck-sweater",
-      "b": "range"
-    },
-    "Outerwear": {
-      "lp": "Navy Northwood Jacket",
-      "lu": "https://www.mizzenandmain.com/products/navy-northwood-jacket",
-      "hp": "Navy Ford Topcoat",
-      "hu": "https://www.mizzenandmain.com/products/navy-ford-topcoat",
-      "b": "range"
-    }
-  },
-  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Dress pants", "Sweater", "Outerwear"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.mizzenandmain.com/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?search_text=Mizzen%20Main&catalog[]=5",
-      "m": "text search",
-      "n": "No Vinted brand entry; keyword search in Men"
-    }
-  },
-  "season": {
-    "l": "Fall 2026 ('The Fall Collection 2026')",
-    "t": "lookbook",
-    "u": "https://www.mizzenandmain.com/lookbook",
-    "m": "yes"
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "About page (/pages/about-us) gives a timeline (2012 first performance dress shirt, 2014 Leeward, 2018 first store) and 'custom blend of performance fabrics' but names no factory, mill or workshop. Home page has no sustainability/factory/manufacturing links. No owned facility found.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "none",
-    "countries": "Not stated on 5/5 sampled PDPs (2 dress shirts, chino-style pant, wool blazer, quarter zip). Leeward PDP has 'Details' and 'Fabric & Care' accordions whose full content the fetcher may not have rendered; on the other PDPs those sections appeared expanded and contained no origin. Collection grids load dynamically, so the sample is small. No 'where made' statement found on about page or by site search.",
-    "heritage": "dated and placed",
-    "repair": "no",
-    "process": "no",
-    "urls": [
-      "https://www.mizzenandmain.com/pages/about-us",
-      "https://www.mizzenandmain.com/products/charcoal-glen-check-lavelle-blazer"
-    ],
-    "conf": "high",
-    "read": "2026-10-03"
+  "Outerwear": {
+   "lp": "Navy Northwood Jacket",
+   "lu": "https://www.mizzenandmain.com/products/navy-northwood-jacket",
+   "hp": "Navy Ford Topcoat",
+   "hu": "https://www.mizzenandmain.com/products/navy-ford-topcoat",
+   "b": "range"
   }
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Dress pants",
+  "Sweater",
+  "Outerwear"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.mizzenandmain.com/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?search_text=Mizzen%20Main&catalog[]=5",
+   "m": "text search",
+   "n": "No Vinted brand entry; keyword search in Men"
+  }
+ },
+ "season": {
+  "l": "Fall 2026 ('The Fall Collection 2026')",
+  "t": "lookbook",
+  "u": "https://www.mizzenandmain.com/lookbook",
+  "m": "yes"
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "About page (/pages/about-us) gives a timeline (2012 first performance dress shirt, 2014 Leeward, 2018 first store) and 'custom blend of performance fabrics' but names no factory, mill or workshop. Home page has no sustainability/factory/manufacturing links. No owned facility found.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "none",
+  "countries": "Not stated on 5/5 sampled PDPs (2 dress shirts, chino-style pant, wool blazer, quarter zip). Leeward PDP has 'Details' and 'Fabric & Care' accordions whose full content the fetcher may not have rendered; on the other PDPs those sections appeared expanded and contained no origin. Collection grids load dynamically, so the sample is small. No 'where made' statement found on about page or by site search.",
+  "heritage": "dated and placed",
+  "repair": "no",
+  "process": "no",
+  "urls": [
+   "https://www.mizzenandmain.com/pages/about-us",
+   "https://www.mizzenandmain.com/products/charcoal-glen-check-lavelle-blazer"
+  ],
+  "conf": "high",
+  "read": "2026-10-03"
+ }
 }

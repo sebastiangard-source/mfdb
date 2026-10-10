@@ -106,11 +106,6 @@
   "n": 7,
   "cities": [
    [
-    "Bal Harbour",
-    "FL",
-    1
-   ],
-   [
     "Beverly Hills",
     "CA",
     1
@@ -123,6 +118,11 @@
    [
     "Las Vegas",
     "NV",
+    1
+   ],
+   [
+    "Miami",
+    "FL",
     1
    ],
    [
@@ -141,12 +141,14 @@
     1
    ]
   ],
-  "basis": "master 2026-08-29, pre-recapture"
+  "basis": "recapture 2026-10-10",
+  "out": 0,
+  "con": 1
  },
  "cities": "7 stores, including Bal Harbour, Beverly Hills, Chicago · department stores and independent menswear shops, and its own site",
  "region": {
   "o": [
-   1273
+   1590
   ],
   "s": [
    11,
@@ -154,7 +156,7 @@
    44,
    60,
    117,
-   3208
+   160
   ]
  },
  "site": {

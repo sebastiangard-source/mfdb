@@ -1,370 +1,858 @@
 {
-  "name": "Banana Republic",
-  "band": "premium",
-  "seat": 9,
-  "dagger": 0,
-  "focus": {
-    "tech": 1,
-    "comfort": 3,
-    "craft": 2,
-    "style": 3
+ "name": "Banana Republic",
+ "band": "premium",
+ "seat": 9,
+ "dagger": 0,
+ "focus": {
+  "tech": 1,
+  "comfort": 3,
+  "craft": 2,
+  "style": 3
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 2,
+  "linen": 3,
+  "cotton": 2,
+  "wool": 2,
+  "synth": 2
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 4,
+  "fuss": 1,
+  "golffice": -1,
+  "finbro": 2,
+  "ivy": 2,
+  "murica": 2,
+  "prep": 2,
+  "racquet": 2,
+  "whitet": 2,
+  "logo": 1,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 2
+ },
+ "why": "Tailored casual clothing for the office and weekend, sold through Gap's store network.",
+ "origin": "Founded in 1978 by Mel and Patricia Ziegler as a safari-surplus catalog; bought by Gap in 1983.",
+ "chan": [
+  "O",
+  "X"
+ ],
+ "conf": "S",
+ "forgc": [
+  4,
+  5,
+  2
+ ],
+ "shop": "https://bananarepublic.gap.com/browse/search.do?searchText=",
+ "onething": {
+  "p": "Sweater polo",
+  "u": "https://bananarepublic.gap.com/browse/search.do?searchText=Sweater%20polo%20men",
+  "n": "?"
+ },
+ "prices": [
+  [
+   40,
+   60
+  ],
+  [
+   70,
+   120
+  ],
+  [
+   90,
+   120
+  ],
+  [
+   120,
+   180
+  ],
+  [
+   148,
+   230
+  ],
+  [
+   90,
+   160
+  ],
+  [
+   298,
+   598
+  ],
+  [
+   238,
+   238
+  ]
+ ],
+ "doors": {
+  "c": "full",
+  "n": 123,
+  "cities": [
+   [
+    "Albany",
+    "NY",
+    1
+   ],
+   [
+    "Albuquerque",
+    "NM",
+    1
+   ],
+   [
+    "Alpharetta",
+    "GA",
+    1
+   ],
+   [
+    "Arlington",
+    "VA",
+    1
+   ],
+   [
+    "Atlanta",
+    "GA",
+    1
+   ],
+   [
+    "Austin",
+    "TX",
+    1
+   ],
+   [
+    "Aventura",
+    "FL",
+    1
+   ],
+   [
+    "Baton Rouge",
+    "LA",
+    1
+   ],
+   [
+    "Bend",
+    "OR",
+    1
+   ],
+   [
+    "Bloomington",
+    "MN",
+    1
+   ],
+   [
+    "Boston",
+    "MA",
+    1
+   ],
+   [
+    "Burlington",
+    "MA",
+    1
+   ],
+   [
+    "Burlington",
+    "VT",
+    1
+   ],
+   [
+    "Center Valley",
+    "PA",
+    1
+   ],
+   [
+    "Charlotte",
+    "NC",
+    1
+   ],
+   [
+    "Cherry Hill",
+    "NJ",
+    1
+   ],
+   [
+    "Chevy Chase",
+    "MD",
+    1
+   ],
+   [
+    "Chino Hills",
+    "CA",
+    1
+   ],
+   [
+    "Cincinnati",
+    "OH",
+    1
+   ],
+   [
+    "Columbia",
+    "MD",
+    1
+   ],
+   [
+    "Coral Gables",
+    "FL",
+    1
+   ],
+   [
+    "Corte Madera",
+    "CA",
+    1
+   ],
+   [
+    "Cranston",
+    "RI",
+    1
+   ],
+   [
+    "Dallas",
+    "TX",
+    2
+   ],
+   [
+    "Danbury",
+    "CT",
+    1
+   ],
+   [
+    "Dedham",
+    "MA",
+    1
+   ],
+   [
+    "Deer Park",
+    "IL",
+    1
+   ],
+   [
+    "Denver",
+    "CO",
+    1
+   ],
+   [
+    "Denville",
+    "NJ",
+    1
+   ],
+   [
+    "Durham",
+    "NC",
+    1
+   ],
+   [
+    "Edgewater",
+    "NJ",
+    1
+   ],
+   [
+    "Edina",
+    "MN",
+    1
+   ],
+   [
+    "Edison",
+    "NJ",
+    1
+   ],
+   [
+    "Farmington",
+    "CT",
+    1
+   ],
+   [
+    "Fresno",
+    "CA",
+    1
+   ],
+   [
+    "Ft Lauderdale",
+    "FL",
+    1
+   ],
+   [
+    "Garden City",
+    "NY",
+    1
+   ],
+   [
+    "Geneva",
+    "IL",
+    1
+   ],
+   [
+    "Glendale",
+    "CA",
+    1
+   ],
+   [
+    "Greenville",
+    "SC",
+    1
+   ],
+   [
+    "Highland Village",
+    "TX",
+    1
+   ],
+   [
+    "Hillsboro",
+    "OR",
+    1
+   ],
+   [
+    "Honolulu",
+    "HI",
+    1
+   ],
+   [
+    "Houston",
+    "TX",
+    2
+   ],
+   [
+    "Indianapolis",
+    "IN",
+    1
+   ],
+   [
+    "Jacksonville",
+    "FL",
+    1
+   ],
+   [
+    "Kansas City",
+    "MO",
+    1
+   ],
+   [
+    "King Of Prussia",
+    "PA",
+    1
+   ],
+   [
+    "Las Vegas",
+    "NV",
+    2
+   ],
+   [
+    "Leawood",
+    "KS",
+    1
+   ],
+   [
+    "Littleton",
+    "CO",
+    1
+   ],
+   [
+    "Los Angeles",
+    "CA",
+    3
+   ],
+   [
+    "Louisville",
+    "KY",
+    1
+   ],
+   [
+    "Marietta",
+    "GA",
+    1
+   ],
+   [
+    "Mcallen",
+    "TX",
+    1
+   ],
+   [
+    "Miami",
+    "FL",
+    1
+   ],
+   [
+    "Milford",
+    "CT",
+    1
+   ],
+   [
+    "Monterey",
+    "CA",
+    1
+   ],
+   [
+    "Natick",
+    "MA",
+    1
+   ],
+   [
+    "New Orleans",
+    "LA",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    5
+   ],
+   [
+    "Newport Coast",
+    "CA",
+    1
+   ],
+   [
+    "Novi",
+    "MI",
+    1
+   ],
+   [
+    "Oak Brook",
+    "IL",
+    1
+   ],
+   [
+    "Omaha",
+    "NE",
+    1
+   ],
+   [
+    "Orlando",
+    "FL",
+    1
+   ],
+   [
+    "Palm Beach Gardens",
+    "FL",
+    1
+   ],
+   [
+    "Palo Alto",
+    "CA",
+    1
+   ],
+   [
+    "Paramus",
+    "NJ",
+    1
+   ],
+   [
+    "Pembroke Pines",
+    "FL",
+    1
+   ],
+   [
+    "Phoenix",
+    "AZ",
+    1
+   ],
+   [
+    "Princeton",
+    "NJ",
+    1
+   ],
+   [
+    "Raleigh",
+    "NC",
+    1
+   ],
+   [
+    "Richmond",
+    "VA",
+    1
+   ],
+   [
+    "Richmond Heights",
+    "MO",
+    1
+   ],
+   [
+    "Rochester Hills",
+    "MI",
+    1
+   ],
+   [
+    "Rogers",
+    "AR",
+    1
+   ],
+   [
+    "Sacramento",
+    "CA",
+    1
+   ],
+   [
+    "Salt Lake City",
+    "UT",
+    1
+   ],
+   [
+    "San Antonio",
+    "TX",
+    2
+   ],
+   [
+    "San Diego",
+    "CA",
+    1
+   ],
+   [
+    "San Francisco",
+    "CA",
+    2
+   ],
+   [
+    "San Juan",
+    "PR",
+    2
+   ],
+   [
+    "San Luis Obispo",
+    "CA",
+    1
+   ],
+   [
+    "San Mateo",
+    "CA",
+    1
+   ],
+   [
+    "Santa Barbara",
+    "CA",
+    1
+   ],
+   [
+    "Santa Clara",
+    "CA",
+    1
+   ],
+   [
+    "Savannah",
+    "GA",
+    1
+   ],
+   [
+    "Scarsdale",
+    "NY",
+    1
+   ],
+   [
+    "Scottsdale",
+    "AZ",
+    1
+   ],
+   [
+    "Sea Girt",
+    "NJ",
+    1
+   ],
+   [
+    "Seattle",
+    "WA",
+    1
+   ],
+   [
+    "Sherman Oaks",
+    "CA",
+    1
+   ],
+   [
+    "Shrewsbury",
+    "NJ",
+    1
+   ],
+   [
+    "Skokie",
+    "IL",
+    1
+   ],
+   [
+    "South Portland",
+    "ME",
+    1
+   ],
+   [
+    "St Louis",
+    "MO",
+    1
+   ],
+   [
+    "Sugar Land",
+    "TX",
+    1
+   ],
+   [
+    "Torrance",
+    "CA",
+    1
+   ],
+   [
+    "Tucson",
+    "AZ",
+    1
+   ],
+   [
+    "Tulsa",
+    "OK",
+    1
+   ],
+   [
+    "Tysons",
+    "VA",
+    1
+   ],
+   [
+    "Victor",
+    "NY",
+    1
+   ],
+   [
+    "Wailea",
+    "HI",
+    1
+   ],
+   [
+    "Wauwatosa",
+    "WI",
+    1
+   ],
+   [
+    "Wayne",
+    "NJ",
+    1
+   ],
+   [
+    "Westfield",
+    "NJ",
+    1
+   ],
+   [
+    "Westlake",
+    "OH",
+    1
+   ],
+   [
+    "Wilmington",
+    "NC",
+    1
+   ],
+   [
+    "Woodcliff Lake",
+    "NJ",
+    1
+   ],
+   [
+    "Woodlands",
+    "TX",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 168,
+  "con": 0
+ },
+ "cities": "123 stores across the US, and its own site",
+ "region": {
+  "o": [
+   543,
+   544,
+   545,
+   569,
+   570,
+   571,
+   572,
+   575,
+   588,
+   589,
+   590,
+   591,
+   592,
+   593,
+   594,
+   595,
+   596,
+   597,
+   598,
+   602,
+   603,
+   604,
+   605,
+   606,
+   607,
+   608,
+   609,
+   610,
+   616,
+   617,
+   620,
+   637
+  ],
+  "s": []
+ },
+ "addmen": true,
+ "site": {
+  "domain": "bananarepublic.gap.com",
+  "platform": "custom",
+  "feed": "sitemap_products",
+  "feed_count": 3503,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "both",
+  "marks": [
+   "Core Temp",
+   "37.5 Technology",
+   "Supima",
+   "TENCEL/Lyocell",
+   "LENZING ECOVERO",
+   "Lycra",
+   "Cupro",
+   "\"Italian Wool Ventile\""
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 378,
+  "w": 369,
+  "n": 95,
+  "s": 3,
+  "c": 0,
+  "x": 11,
+  "xh": 1,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "Woven Shirts",
+   "Knits",
+   "Sweaters"
+  ],
+  "st": "complete"
+ },
+ "garment_links": {
+  "T-shirt": "https://bananarepublic.gap.com/browse/men/t-shirts?cid=80117",
+  "Polo": "https://bananarepublic.gap.com/browse/men/polos?cid=10894",
+  "Dress shirt": "https://bananarepublic.gap.com/browse/men/dress-shirts?cid=44866",
+  "Jeans": "https://bananarepublic.gap.com/browse/men/jeans?cid=5389",
+  "Dress pants": "https://bananarepublic.gap.com/browse/men/dress-pants?cid=1072457",
+  "Sweater": "https://bananarepublic.gap.com/browse/men/sweaters?cid=28660",
+  "Outerwear": "https://bananarepublic.gap.com/browse/men/coats-and-jackets?cid=1016720",
+  "Shoes": "https://bananarepublic.gap.com/browse/men/shoes?cid=1032801"
+ },
+ "notes": {
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 5; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "Parent Gap Inc's brand page mentions only unnamed 'renowned mills' and the group publishes a factory list and vendor code, consistent with outsourced making and no owned facility. Country of make could not be checked on product pages. Nothing supports moving off 2. [audit proposed 2 at low confidence; held at 2 pending a second read]"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Authentic Supima Midweight T-Shirt",
+   "lu": "https://bananarepublic.gap.com/browse/product.do?pid=811425032",
+   "hp": "Heavyweight Cotton Boxy Tee",
+   "hu": "https://bananarepublic.gap.com/browse/product.do?pid=899458062",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 2,
-    "cashmere": 2,
-    "linen": 3,
-    "cotton": 2,
-    "wool": 2,
-    "synth": 2
+  "Polo": {
+   "lp": "Luxury-Touch Polo",
+   "lu": "https://bananarepublic.gap.com/browse/product.do?pid=811423522",
+   "hp": "Cotton Zig-Zag Sweater Polo",
+   "hu": "https://bananarepublic.gap.com/browse/product.do?pid=910903012",
+   "b": "range"
   },
-  "dials": {
-    "dur": 3,
-    "forg": 4,
-    "fuss": 1,
-    "golffice": -1,
-    "finbro": 2,
-    "ivy": 2,
-    "murica": 2,
-    "prep": 2,
-    "racquet": 2,
-    "whitet": 2,
-    "logo": 1,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 2
+  "Dress shirt": {
+   "lp": "Slim-Fit Wrinkle-Resistant Dress Shirt",
+   "lu": "https://bananarepublic.gap.com/browse/product.do?pid=871242192",
+   "hp": "Slim-Fit Cotton-Cashmere Dress Shirt",
+   "hu": "https://bananarepublic.gap.com/browse/product.do?pid=906459002",
+   "b": "range"
   },
-  "why": "Tailored casual clothing for the office and weekend, sold through Gap's store network.",
-  "origin": "Founded in 1978 by Mel and Patricia Ziegler as a safari-surplus catalog; bought by Gap in 1983.",
-  "chan": ["O", "X"],
-  "conf": "S",
-  "forgc": [4, 5, 2],
-  "shop": "https://bananarepublic.gap.com/browse/search.do?searchText=",
-  "onething": {
-    "p": "Sweater polo",
-    "u": "https://bananarepublic.gap.com/browse/search.do?searchText=Sweater%20polo%20men",
-    "n": "?"
+  "Jeans": {
+   "lp": "Slim Luxe Traveler Jean",
+   "lu": "https://bananarepublic.gap.com/browse/product.do?pid=796118012",
+   "hp": "Slim Selvedge Jean",
+   "hu": "https://bananarepublic.gap.com/browse/product.do?pid=906656002",
+   "b": "range"
   },
-  "prices": [[40, 60], [70, 120], [90, 120], [120, 180], [148, 230], [90, 160], [298, 598], [238, 238]],
-  "doors": {
-    "c": "full",
-    "n": 129,
-    "cities": [
-      ["Albany", "NY", 1],
-      ["Albuquerque", "NM", 1],
-      ["Alpharetta", "GA", 1],
-      ["Appleton", "WI", 1],
-      ["Arlington", "VA", 1],
-      ["Atlanta", "GA", 1],
-      ["Austin", "TX", 1],
-      ["Aventura", "FL", 1],
-      ["Baton Rouge", "LA", 1],
-      ["Bee Cave", "TX", 1],
-      ["Bend", "OR", 1],
-      ["Bloomington", "MN", 1],
-      ["Boise", "ID", 1],
-      ["Boston", "MA", 1],
-      ["Burlington", "MA", 1],
-      ["Burlington", "VT", 1],
-      ["Center Valley", "PA", 1],
-      ["Charlotte", "NC", 1],
-      ["Cherry Hill", "NJ", 1],
-      ["Chester", "NJ", 1],
-      ["Chevy Chase", "MD", 1],
-      ["Chino Hills", "CA", 1],
-      ["Cincinnati", "OH", 1],
-      ["Columbia", "MD", 1],
-      ["Coral Gables", "FL", 1],
-      ["Corte Madera", "CA", 1],
-      ["Cranston", "RI", 1],
-      ["Dallas", "TX", 2],
-      ["Danbury", "CT", 1],
-      ["Dedham", "MA", 1],
-      ["Deer Park", "IL", 1],
-      ["Denver", "CO", 1],
-      ["Denville", "NJ", 1],
-      ["Durham", "NC", 1],
-      ["Edgewater", "NJ", 1],
-      ["Edina", "MN", 1],
-      ["Edison", "NJ", 1],
-      ["Farmington", "CT", 1],
-      ["Fresno", "CA", 1],
-      ["Ft Lauderdale", "FL", 1],
-      ["Garden City", "NY", 1],
-      ["Geneva", "IL", 1],
-      ["Glendale", "CA", 1],
-      ["Greenville", "SC", 1],
-      ["Highland Village", "TX", 1],
-      ["Hillsboro", "OR", 1],
-      ["Honolulu", "HI", 1],
-      ["Houston", "TX", 2],
-      ["Indianapolis", "IN", 1],
-      ["Jacksonville", "FL", 1],
-      ["Kansas City", "MO", 1],
-      ["King Of Prussia", "PA", 1],
-      ["Las Vegas", "NV", 2],
-      ["Leawood", "KS", 1],
-      ["Littleton", "CO", 1],
-      ["Los Angeles", "CA", 3],
-      ["Louisville", "KY", 1],
-      ["Marietta", "GA", 1],
-      ["Mcallen", "TX", 1],
-      ["Miami", "FL", 1],
-      ["Milford", "CT", 1],
-      ["Monterey", "CA", 1],
-      ["Natick", "MA", 1],
-      ["New Orleans", "LA", 1],
-      ["New York", "NY", 5],
-      ["Newport Coast", "CA", 1],
-      ["Norcross", "GA", 1],
-      ["Novi", "MI", 1],
-      ["Oak Brook", "IL", 1],
-      ["Omaha", "NE", 1],
-      ["Orlando", "FL", 1],
-      ["Palm Beach Gardens", "FL", 1],
-      ["Palo Alto", "CA", 1],
-      ["Paramus", "NJ", 1],
-      ["Pembroke Pines", "FL", 1],
-      ["Phoenix", "AZ", 1],
-      ["Princeton", "NJ", 1],
-      ["Raleigh", "NC", 1],
-      ["Richmond", "VA", 1],
-      ["Richmond Heights", "MO", 1],
-      ["Rochester Hills", "MI", 1],
-      ["Rogers", "AR", 1],
-      ["Sacramento", "CA", 1],
-      ["Salt Lake City", "UT", 1],
-      ["San Antonio", "TX", 2],
-      ["San Diego", "CA", 1],
-      ["San Francisco", "CA", 2],
-      ["San Juan", "PR", 2],
-      ["San Luis Obispo", "CA", 1],
-      ["San Mateo", "CA", 1],
-      ["Santa Barbara", "CA", 1],
-      ["Santa Clara", "CA", 1],
-      ["Savannah", "GA", 1],
-      ["Scarsdale", "NY", 1],
-      ["Scottsdale", "AZ", 1],
-      ["Sea Girt", "NJ", 1],
-      ["Seattle", "WA", 1],
-      ["Sherman Oaks", "CA", 1],
-      ["Shrewsbury", "NJ", 1],
-      ["Skokie", "IL", 1],
-      ["South Portland", "ME", 1],
-      ["St Louis", "MO", 1],
-      ["Sugar Land", "TX", 1],
-      ["Torrance", "CA", 1],
-      ["Tucson", "AZ", 1],
-      ["Tulsa", "OK", 1],
-      ["Tysons", "VA", 1],
-      ["Victor", "NY", 1],
-      ["Wailea", "HI", 1],
-      ["Warrington", "PA", 1],
-      ["Wauwatosa", "WI", 1],
-      ["Wayne", "NJ", 1],
-      ["Westfield", "NJ", 1],
-      ["Westlake", "OH", 1],
-      ["Wilmington", "NC", 1],
-      ["Woodcliff Lake", "NJ", 1],
-      ["Woodlands", "TX", 1]
-    ],
-    "basis": "recapture 2026-09"
+  "Dress pants": {
+   "lp": "Classic Tapered Twill Dress Pant",
+   "lu": "https://bananarepublic.gap.com/browse/product.do?pid=906672022",
+   "hp": "Tailored Slim Italian Barathea Suit Pant",
+   "hu": "https://bananarepublic.gap.com/browse/product.do?pid=906710002",
+   "b": "range"
   },
-  "cities": "129 stores across the US, and its own site",
-  "region": {
-    "o": [
-      309,
-      310,
-      311,
-      337,
-      338,
-      339,
-      340,
-      343,
-      356,
-      357,
-      358,
-      359,
-      360,
-      361,
-      362,
-      363,
-      364,
-      365,
-      366,
-      367,
-      371,
-      372,
-      373,
-      374,
-      375,
-      376,
-      377,
-      378,
-      379,
-      385,
-      386,
-      387,
-      390,
-      408
-    ],
-    "s": []
+  "Sweater": {
+   "lp": "Merino Crew-Neck Sweater",
+   "lu": "https://bananarepublic.gap.com/browse/product.do?pid=906192042",
+   "hp": "Cashmere Crew-Neck Sweater",
+   "hu": "https://bananarepublic.gap.com/browse/product.do?pid=817422262",
+   "b": "pair"
   },
-  "addmen": true,
-  "site": {
-    "domain": "bananarepublic.gap.com",
-    "platform": "custom",
-    "feed": "sitemap_products",
-    "feed_count": 3503,
-    "status": "live_store",
-    "checked": "2026-09-13"
+  "Outerwear": {
+   "lp": "Herringbone Reversible Quilted Bomber Jacket",
+   "lu": "https://bananarepublic.gap.com/browse/product.do?pid=906592002",
+   "hp": "Suede Bomber Jacket with Quilted Lining",
+   "hu": "https://bananarepublic.gap.com/browse/product.do?pid=791193002",
+   "b": "pair"
   },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "both",
-    "marks": [
-      "Core Temp",
-      "37.5 Technology",
-      "Supima",
-      "TENCEL/Lyocell",
-      "LENZING ECOVERO",
-      "Lycra",
-      "Cupro",
-      "\"Italian Wool Ventile\""
-    ],
-    "source": "census",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 378,
-    "w": 369,
-    "n": 95,
-    "s": 3,
-    "c": 0,
-    "x": 11,
-    "xh": 1,
-    "sp": "one",
-    "sc": [],
-    "nc": ["Woven Shirts", "Knits", "Sweaters"],
-    "st": "complete"
-  },
-  "garment_links": {
-    "T-shirt": "https://bananarepublic.gap.com/browse/men/t-shirts?cid=80117",
-    "Polo": "https://bananarepublic.gap.com/browse/men/polos?cid=10894",
-    "Dress shirt": "https://bananarepublic.gap.com/browse/men/dress-shirts?cid=44866",
-    "Jeans": "https://bananarepublic.gap.com/browse/men/jeans?cid=5389",
-    "Dress pants": "https://bananarepublic.gap.com/browse/men/dress-pants?cid=1072457",
-    "Sweater": "https://bananarepublic.gap.com/browse/men/sweaters?cid=28660",
-    "Outerwear": "https://bananarepublic.gap.com/browse/men/coats-and-jackets?cid=1016720",
-    "Shoes": "https://bananarepublic.gap.com/browse/men/shoes?cid=1032801"
-  },
-  "notes": {
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 5; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Parent Gap Inc's brand page mentions only unnamed 'renowned mills' and the group publishes a factory list and vendor code, consistent with outsourced making and no owned facility. Country of make could not be checked on product pages. Nothing supports moving off 2. [audit proposed 2 at low confidence; held at 2 pending a second read]"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Authentic Supima Midweight T-Shirt",
-      "lu": "https://bananarepublic.gap.com/browse/product.do?pid=811425032",
-      "hp": "Heavyweight Cotton Boxy Tee",
-      "hu": "https://bananarepublic.gap.com/browse/product.do?pid=899458062",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Luxury-Touch Polo",
-      "lu": "https://bananarepublic.gap.com/browse/product.do?pid=811423522",
-      "hp": "Cotton Zig-Zag Sweater Polo",
-      "hu": "https://bananarepublic.gap.com/browse/product.do?pid=910903012",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Slim-Fit Wrinkle-Resistant Dress Shirt",
-      "lu": "https://bananarepublic.gap.com/browse/product.do?pid=871242192",
-      "hp": "Slim-Fit Cotton-Cashmere Dress Shirt",
-      "hu": "https://bananarepublic.gap.com/browse/product.do?pid=906459002",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Slim Luxe Traveler Jean",
-      "lu": "https://bananarepublic.gap.com/browse/product.do?pid=796118012",
-      "hp": "Slim Selvedge Jean",
-      "hu": "https://bananarepublic.gap.com/browse/product.do?pid=906656002",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Classic Tapered Twill Dress Pant",
-      "lu": "https://bananarepublic.gap.com/browse/product.do?pid=906672022",
-      "hp": "Tailored Slim Italian Barathea Suit Pant",
-      "hu": "https://bananarepublic.gap.com/browse/product.do?pid=906710002",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Merino Crew-Neck Sweater",
-      "lu": "https://bananarepublic.gap.com/browse/product.do?pid=906192042",
-      "hp": "Cashmere Crew-Neck Sweater",
-      "hu": "https://bananarepublic.gap.com/browse/product.do?pid=817422262",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "Herringbone Reversible Quilted Bomber Jacket",
-      "lu": "https://bananarepublic.gap.com/browse/product.do?pid=906592002",
-      "hp": "Suede Bomber Jacket with Quilted Lining",
-      "hu": "https://bananarepublic.gap.com/browse/product.do?pid=791193002",
-      "b": "pair"
-    },
-    "Shoes": {
-      "lp": "Leather Penny Loafer",
-      "lu": "https://bananarepublic.gap.com/browse/product.do?pid=824283002",
-      "hp": "Italian Suede Loafer",
-      "hu": "https://bananarepublic.gap.com/browse/product.do?pid=904574012",
-      "b": "pair"
-    }
-  },
-  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://bananarepublic.gap.com/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=1903",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "season": {
-    "l": "Fall 2026 (page reads 'September 2026 / Tokyo Japan')",
-    "t": "campaign",
-    "u": "https://bananarepublic.gap.com/browse/info.do?cid=1131057",
-    "m": "yes"
-  },
-  "craft_evidence": {
-    "owned": "unclear",
-    "owned_d": "No owned facility claimed anywhere read; Gap Inc publishes a Code of Vendor Conduct and a factory list, implying third-party manufacturing, but no explicit 'we do not own factories' statement was seen (10-K not read).",
-    "makers": "some",
-    "mills": "no",
-    "madein": "NC",
-    "countries": "NC - bananarepublic.gap.com disallowed by robots.txt; no PDPs read",
-    "heritage": "dated and placed",
-    "repair": "no",
-    "process": "no",
-    "urls": [
-      "https://www.gapinc.com/en-us/about/banana-republic",
-      "https://www.gapinc.com/en-us/values/sustainability/esg-resources"
-    ],
-    "conf": "low",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Leather Penny Loafer",
+   "lu": "https://bananarepublic.gap.com/browse/product.do?pid=824283002",
+   "hp": "Italian Suede Loafer",
+   "hu": "https://bananarepublic.gap.com/browse/product.do?pid=904574012",
+   "b": "pair"
   }
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://bananarepublic.gap.com/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=1903",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "season": {
+  "l": "Fall 2026 (page reads 'September 2026 / Tokyo Japan')",
+  "t": "campaign",
+  "u": "https://bananarepublic.gap.com/browse/info.do?cid=1131057",
+  "m": "yes"
+ },
+ "craft_evidence": {
+  "owned": "unclear",
+  "owned_d": "No owned facility claimed anywhere read; Gap Inc publishes a Code of Vendor Conduct and a factory list, implying third-party manufacturing, but no explicit 'we do not own factories' statement was seen (10-K not read).",
+  "makers": "some",
+  "mills": "no",
+  "madein": "NC",
+  "countries": "NC - bananarepublic.gap.com disallowed by robots.txt; no PDPs read",
+  "heritage": "dated and placed",
+  "repair": "no",
+  "process": "no",
+  "urls": [
+   "https://www.gapinc.com/en-us/about/banana-republic",
+   "https://www.gapinc.com/en-us/values/sustainability/esg-resources"
+  ],
+  "conf": "low",
+  "read": "2026-10-03"
+ }
 }

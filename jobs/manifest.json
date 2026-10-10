@@ -1654,7 +1654,7 @@
    "id": "doors_recapture_2026-10-10",
    "title": "Doors recapture — 140 brands, 33 shops, 138 ZIPs",
    "kind": "locations",
-   "state": "issued",
+   "state": "merged",
    "created": "2026-10-10",
    "issued": "2026-10-10",
    "pilot": 13,
@@ -1681,9 +1681,11 @@
    "writes": {
     "places": "append/replace own-door rows per brand"
    },
-   "returns": [],
+   "returns": [
+    "jobs/returns/doors_recapture_2026-10-10/"
+   ],
    "blocked_on": "",
-   "note": "closes the 430-door gap between claimed counts and addressed rows; priority A = Alo, Levi's, J.Crew, BOSS and nine more"
+   "note": "closes the 430-door gap between claimed counts and addressed rows; priority A = Alo, Levi's, J.Crew, BOSS and nine more; returned and merged 10 Oct: 5,891 rows, 142 brands; own 3,611 / outlets 1,441 / concessions 599 / counters 137; shops file and spot_check still to come"
   },
   {
    "id": "doors_womens_2026-10-10",

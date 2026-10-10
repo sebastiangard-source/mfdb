@@ -1,211 +1,255 @@
 {
-  "name": "Sacai",
-  "band": "trueLux",
-  "seat": 163,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 2,
-    "craft": 2,
-    "style": 5
-  },
-  "fabric": {
-    "denim": 2,
-    "cashmere": 1,
-    "linen": 1,
-    "cotton": 2,
-    "wool": 3,
-    "synth": 3
-  },
-  "dials": {
-    "dur": 2,
-    "forg": 3,
-    "fuss": 1,
-    "shoes": 3,
-    "status": 2,
-    "street": 3,
-    "avant": 4,
-    "weird": 3,
-    "whitet": 2,
-    "logo": 1,
-    "western": 1,
-    "rock": 2,
-    "workwear": 1,
-    "outdoor": 3,
-    "surf": 1
-  },
-  "why": "Hybrid clothing that splices two garments into one — a shirt and a knit, a bomber and a coat.",
-  "origin": "Founded in 1999 by Chitose Abe, formerly of Comme des Garçons.",
-  "say": "sah-KAI",
-  "chan": ["D", "I"],
-  "conf": "L",
-  "forgc": [4, 2, 1],
-  "onething": {
-    "p": "Hybrid MA-1",
-    "u": "https://www.ssense.com/en-us/men/designers/sacai",
-    "n": "works"
-  },
-  "prices": [
-    [230, 420],
-    [735, 1000],
-    [685, 2415],
-    [610, 1050],
-    [610, 1785],
-    [620, 620],
-    [945, 3675],
-    [1000, 1000]
+ "name": "Sacai",
+ "band": "trueLux",
+ "seat": 163,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 2,
+  "craft": 2,
+  "style": 5
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 2,
+  "wool": 3,
+  "synth": 3
+ },
+ "dials": {
+  "dur": 2,
+  "forg": 3,
+  "fuss": 1,
+  "shoes": 3,
+  "status": 2,
+  "street": 3,
+  "avant": 4,
+  "weird": 3,
+  "whitet": 2,
+  "logo": 1,
+  "western": 1,
+  "rock": 2,
+  "workwear": 1,
+  "outdoor": 3,
+  "surf": 1
+ },
+ "why": "Hybrid clothing that splices two garments into one — a shirt and a knit, a bomber and a coat.",
+ "origin": "Founded in 1999 by Chitose Abe, formerly of Comme des Garçons.",
+ "say": "sah-KAI",
+ "chan": [
+  "D",
+  "I"
+ ],
+ "conf": "L",
+ "forgc": [
+  4,
+  2,
+  1
+ ],
+ "onething": {
+  "p": "Hybrid MA-1",
+  "u": "https://www.ssense.com/en-us/men/designers/sacai",
+  "n": "works"
+ },
+ "prices": [
+  [
+   230,
+   420
   ],
-  "notes": {
-    "avant": "two garments spliced into one — hybridization as a signature",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 1; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "style": "The hybrid garment — two pieces spliced into one — is a design idea applied to everything.",
-    "craft": "Sacai's own site gives fiber composition on product pages but no country of make, no factory and no mill, and its About page is design philosophy only (Tokyo, 1999). Nothing owned or named. On the brand's own evidence this is a 1; retailer labels (Dover Street Market) show mostly Made in Japan, which would make it a 2 if label data from a retailer were allowed. [ruled by Sebastian 4 Oct 2026]"
+  [
+   735,
+   1000
+  ],
+  [
+   685,
+   2415
+  ],
+  [
+   610,
+   1050
+  ],
+  [
+   610,
+   1785
+  ],
+  [
+   620,
+   620
+  ],
+  [
+   945,
+   3675
+  ],
+  [
+   1000,
+   1000
+  ]
+ ],
+ "notes": {
+  "avant": "two garments spliced into one — hybridization as a signature",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 1; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "style": "The hybrid garment — two pieces spliced into one — is a design idea applied to everything.",
+  "craft": "Sacai's own site gives fiber composition on product pages but no country of make, no factory and no mill, and its About page is design philosophy only (Tokyo, 1999). Nothing owned or named. On the brand's own evidence this is a 1; retailer labels (Dover Street Market) show mostly Made in Japan, which would make it a 2 if label data from a retailer were allowed. [ruled by Sebastian 4 Oct 2026]"
+ },
+ "doors": {
+  "c": "full",
+  "n": 0,
+  "cities": [],
+  "basis": "master 2026-08-29, pre-recapture"
+ },
+ "cities": "No store of its own in the US · department stores and independent menswear shops, and its own site",
+ "site": {
+  "domain": "www.sacai.jp",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 563,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "no",
+  "origin": "none",
+  "marks": [],
+  "source": "screen_36",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 90,
+  "w": 90,
+  "n": 80,
+  "s": 17,
+  "c": 3,
+  "x": 0,
+  "xh": 0,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "blousons and jackets",
+   "pants and shorts",
+   "hoodies and sweatshirts"
+  ],
+  "st": "complete"
+ },
+ "shop": "https://www.sacai.jp/en/search?q=",
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants"
+ ],
+ "garment_links": {
+  "T-shirt": "https://www.sacai.jp/collections/men-t-shirts",
+  "Polo": "https://www.sacai.jp/collections/men-shirts",
+  "Dress shirt": "https://www.sacai.jp/collections/men-shirts",
+  "Jeans": "https://www.sacai.jp/collections/men-denim",
+  "Dress pants": "https://www.sacai.jp/collections/men-pants-shorts",
+  "Sweater": "https://www.sacai.jp/collections/men-knitwear",
+  "Outerwear": "https://www.sacai.jp/collections/men-blousons-jackets",
+  "Shoes": "https://www.sacai.jp/collections/men-shoes"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Graphic T-Shirt (26-01160s)",
+   "lu": "https://www.sacai.jp/en/products/graphic-t-shirt_26-01160s-101",
+   "hp": "Cotton Jersey T-Shirt (26-04075m)",
+   "hu": "https://www.sacai.jp/en/products/cotton-jersey-t-shirt_26-04075m-233",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 0,
-    "cities": [],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Polo": {
+   "lp": "Sponge Sweat Polo Shirt (long-sleeve)",
+   "lu": "https://www.sacai.jp/en/products/sponge-sweat-polo-shirt_26-04138m-001",
+   "hp": "Chusen-Dyed Knit Polo Shirt (long-sleeve)",
+   "hu": "https://www.sacai.jp/en/products/chusen-dyed-knit-polo-shirt_26-04133m-220",
+   "b": "range"
   },
-  "cities": "No store of its own in the US · department stores and independent menswear shops, and its own site",
-  "site": {
-    "domain": "www.sacai.jp",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 563,
-    "status": "live_store",
-    "checked": "2026-09-13"
+  "Dress shirt": {
+   "lp": "Poplin Shirt (with Satin Tie)",
+   "lu": "https://www.sacai.jp/en/products/poplin-shirt-with-satin-tie_26-04065m-151",
+   "hp": "Bijou Embroidery Plaid Flannel Shirt",
+   "hu": "https://www.sacai.jp/en/products/bijou-embroidery-plaid-flannel-shirt_26-04097m-605",
+   "b": "range"
   },
-  "tech_evidence": {
-    "names": "no",
-    "origin": "none",
-    "marks": [],
-    "source": "screen_36",
-    "checked": "2026-09-12"
+  "Jeans": {
+   "lp": "Wide Denim Pants (Classics)",
+   "lu": "https://www.sacai.jp/en/products/wide-denim-pants_762_scm-306-499",
+   "hp": "Denim Pants (26-04048m)",
+   "hu": "https://www.sacai.jp/en/products/denim-pants_26-04048m-201",
+   "b": "range"
   },
-  "fibre": {
-    "t": 90,
-    "w": 90,
-    "n": 80,
-    "s": 17,
-    "c": 3,
-    "x": 0,
-    "xh": 0,
-    "sp": "one",
-    "sc": [],
-    "nc": ["blousons and jackets", "pants and shorts", "hoodies and sweatshirts"],
-    "st": "complete"
+  "Dress pants": {
+   "lp": "Suiting Pants (Classics, scm-309)",
+   "lu": "https://www.sacai.jp/en/products/suiting-pants_scm-309-201",
+   "hp": "Double-Faced Silk Cotton Pants",
+   "hu": "https://www.sacai.jp/en/products/double-faced-silk-cotton-pants_26-04025m-001",
+   "b": "range"
   },
-  "shop": "https://www.sacai.jp/en/search?q=",
-  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants"],
-  "garment_links": {
-    "T-shirt": "https://www.sacai.jp/collections/men-t-shirts",
-    "Polo": "https://www.sacai.jp/collections/men-shirts",
-    "Dress shirt": "https://www.sacai.jp/collections/men-shirts",
-    "Jeans": "https://www.sacai.jp/collections/men-denim",
-    "Dress pants": "https://www.sacai.jp/collections/men-pants-shorts",
-    "Sweater": "https://www.sacai.jp/collections/men-knitwear",
-    "Outerwear": "https://www.sacai.jp/collections/men-blousons-jackets",
-    "Shoes": "https://www.sacai.jp/collections/men-shoes"
+  "Sweater": {
+   "lp": "s Wool Knit Pullover",
+   "lu": "https://www.sacai.jp/en/products/s-wool-knit-pullover_762_scm-343-201",
+   "hp": "s Wool Knit Pullover",
+   "hu": "https://www.sacai.jp/en/products/s-wool-knit-pullover_762_scm-343-201",
+   "b": "single"
   },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Graphic T-Shirt (26-01160s)",
-      "lu": "https://www.sacai.jp/en/products/graphic-t-shirt_26-01160s-101",
-      "hp": "Cotton Jersey T-Shirt (26-04075m)",
-      "hu": "https://www.sacai.jp/en/products/cotton-jersey-t-shirt_26-04075m-233",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Sponge Sweat Polo Shirt (long-sleeve)",
-      "lu": "https://www.sacai.jp/en/products/sponge-sweat-polo-shirt_26-04138m-001",
-      "hp": "Chusen-Dyed Knit Polo Shirt (long-sleeve)",
-      "hu": "https://www.sacai.jp/en/products/chusen-dyed-knit-polo-shirt_26-04133m-220",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Poplin Shirt (with Satin Tie)",
-      "lu": "https://www.sacai.jp/en/products/poplin-shirt-with-satin-tie_26-04065m-151",
-      "hp": "Bijou Embroidery Plaid Flannel Shirt",
-      "hu": "https://www.sacai.jp/en/products/bijou-embroidery-plaid-flannel-shirt_26-04097m-605",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Wide Denim Pants (Classics)",
-      "lu": "https://www.sacai.jp/en/products/wide-denim-pants_762_scm-306-499",
-      "hp": "Denim Pants (26-04048m)",
-      "hu": "https://www.sacai.jp/en/products/denim-pants_26-04048m-201",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Suiting Pants (Classics, scm-309)",
-      "lu": "https://www.sacai.jp/en/products/suiting-pants_scm-309-201",
-      "hp": "Double-Faced Silk Cotton Pants",
-      "hu": "https://www.sacai.jp/en/products/double-faced-silk-cotton-pants_26-04025m-001",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "s Wool Knit Pullover",
-      "lu": "https://www.sacai.jp/en/products/s-wool-knit-pullover_762_scm-343-201",
-      "hp": "s Wool Knit Pullover",
-      "hu": "https://www.sacai.jp/en/products/s-wool-knit-pullover_762_scm-343-201",
-      "b": "single"
-    },
-    "Outerwear": {
-      "lp": "Suiting Blouson",
-      "lu": "https://www.sacai.jp/en/products/suiting-blouson_26-04158m-301",
-      "hp": "Leather Blouson",
-      "hu": "https://www.sacai.jp/en/products/leather-blouson_26-04051m-001",
-      "b": "pair"
-    },
-    "Shoes": {
-      "lp": "Loafers (Classics)",
-      "lu": "https://www.sacai.jp/en/products/loafers_762_scm-338-001",
-      "hp": "Loafers (Classics)",
-      "hu": "https://www.sacai.jp/en/products/loafers_762_scm-338-001",
-      "b": "single"
-    }
+  "Outerwear": {
+   "lp": "Suiting Blouson",
+   "lu": "https://www.sacai.jp/en/products/suiting-blouson_26-04158m-301",
+   "hp": "Leather Blouson",
+   "hu": "https://www.sacai.jp/en/products/leather-blouson_26-04051m-001",
+   "b": "pair"
   },
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.sacai.jp/en",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "s (sacai Classics 's' items)"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=369700",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "season": {
-    "l": "Men's Autumn & Winter 2026",
-    "t": "collection page",
-    "u": "https://www.sacai.jp/en/pages/seasons/sacai-mens-autumn-winter-2026-sacai-autumn-2026-collection",
-    "m": "yes"
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "No owned factory, workshop or mill found. sacai.jp About page gives design philosophy only (founded Tokyo 1999 by Chitose Abe); no production content anywhere on the site sampled. Independent company (no parent group making).",
-    "makers": "no",
-    "mills": "no",
-    "madein": "none",
-    "countries": "Brand site: none stated on 2 PDPs read (denim jacket, jersey hoodie) or in 23 men's product records (products.json). Retailer data, NOT scored: Dover Street Market London e-shop listing for 25 Sacai men's AW26 items shows 'Made in Japan' 23/25, 'Made in China' 2/25 (wool knit polo, crochet knit blouson).",
-    "heritage": "dated and placed",
-    "repair": "no",
-    "process": "no",
-    "urls": ["https://www.sacai.jp/products/denim-jacket_26-04163m-001", "https://www.sacai.jp/pages/about"],
-    "conf": "low",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Loafers (Classics)",
+   "lu": "https://www.sacai.jp/en/products/loafers_762_scm-338-001",
+   "hp": "Loafers (Classics)",
+   "hu": "https://www.sacai.jp/en/products/loafers_762_scm-338-001",
+   "b": "single"
   }
+ },
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.sacai.jp/en",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "s (sacai Classics 's' items)"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=369700",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "season": {
+  "l": "Men's Autumn & Winter 2026",
+  "t": "collection page",
+  "u": "https://www.sacai.jp/en/pages/seasons/sacai-mens-autumn-winter-2026-sacai-autumn-2026-collection",
+  "m": "yes"
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "No owned factory, workshop or mill found. sacai.jp About page gives design philosophy only (founded Tokyo 1999 by Chitose Abe); no production content anywhere on the site sampled. Independent company (no parent group making).",
+  "makers": "no",
+  "mills": "no",
+  "madein": "none",
+  "countries": "Brand site: none stated on 2 PDPs read (denim jacket, jersey hoodie) or in 23 men's product records (products.json). Retailer data, NOT scored: Dover Street Market London e-shop listing for 25 Sacai men's AW26 items shows 'Made in Japan' 23/25, 'Made in China' 2/25 (wool knit polo, crochet knit blouson).",
+  "heritage": "dated and placed",
+  "repair": "no",
+  "process": "no",
+  "urls": [
+   "https://www.sacai.jp/products/denim-jacket_26-04163m-001",
+   "https://www.sacai.jp/pages/about"
+  ],
+  "conf": "low",
+  "read": "2026-10-03"
+ }
 }

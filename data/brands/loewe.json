@@ -1,244 +1,363 @@
 {
-  "name": "Loewe",
-  "band": "trueLux",
-  "seat": 167,
-  "dagger": 0,
-  "focus": {
-    "tech": 1,
-    "comfort": 2,
-    "craft": 4,
-    "style": 5
-  },
-  "fabric": {
-    "denim": 2,
-    "cashmere": 2,
-    "linen": 2,
-    "cotton": 2,
-    "wool": 2,
-    "synth": 1
-  },
-  "dials": {
-    "dur": 3,
-    "forg": 2,
-    "fuss": 0,
-    "shoes": 3,
-    "status": 4,
-    "street": 2,
-    "avant": 4,
-    "weird": 4,
-    "whitet": 2,
-    "logo": 2,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 2,
-    "surf": 1
-  },
-  "why": "Leather goods and craft-led fashion, with menswear under Jonathan Anderson's direction until 2025.",
-  "origin": "Founded in Madrid in 1846 as a leather workshop.",
-  "say": "loh-EV-ay",
-  "chan": ["O", "D"],
-  "conf": "L",
-  "forgc": [2, 2, 1],
-  "shop": "https://www.loewe.com/usa/en/search?q=",
-  "onething": {
-    "p": "Anagram pocket sweater",
-    "u": "https://www.loewe.com/usa/en/men/menswear/knitwear/anagram-pocket-sweater-in-cotton-blend/H526Y14KLS-2145.html",
-    "n": "direct product page, verified"
-  },
-  "prices": [
-    [590, 790],
-    [650, 950],
-    [890, 1500],
-    [990, 1300],
-    [1150, 1990],
-    [990, 2500],
-    [1650, 7150],
-    [950, 1200]
+ "name": "Loewe",
+ "band": "trueLux",
+ "seat": 167,
+ "dagger": 0,
+ "focus": {
+  "tech": 1,
+  "comfort": 2,
+  "craft": 4,
+  "style": 5
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 2,
+  "linen": 2,
+  "cotton": 2,
+  "wool": 2,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 2,
+  "fuss": 0,
+  "shoes": 3,
+  "status": 4,
+  "street": 2,
+  "avant": 4,
+  "weird": 4,
+  "whitet": 2,
+  "logo": 2,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 2,
+  "surf": 1
+ },
+ "why": "Leather goods and craft-led fashion, with menswear under Jonathan Anderson's direction until 2025.",
+ "origin": "Founded in Madrid in 1846 as a leather workshop.",
+ "say": "loh-EV-ay",
+ "chan": [
+  "O",
+  "D"
+ ],
+ "conf": "L",
+ "forgc": [
+  2,
+  2,
+  1
+ ],
+ "shop": "https://www.loewe.com/usa/en/search?q=",
+ "onething": {
+  "p": "Anagram pocket sweater",
+  "u": "https://www.loewe.com/usa/en/men/menswear/knitwear/anagram-pocket-sweater-in-cotton-blend/H526Y14KLS-2145.html",
+  "n": "direct product page, verified"
+ },
+ "prices": [
+  [
+   590,
+   790
   ],
-  "shoelink": {
-    "t": "shoes",
-    "u": "https://www.loewe.com/usa/en/search?q=shoes"
+  [
+   650,
+   950
+  ],
+  [
+   890,
+   1500
+  ],
+  [
+   990,
+   1300
+  ],
+  [
+   1150,
+   1990
+  ],
+  [
+   990,
+   2500
+  ],
+  [
+   1650,
+   7150
+  ],
+  [
+   950,
+   1200
+  ]
+ ],
+ "shoelink": {
+  "t": "shoes",
+  "u": "https://www.loewe.com/usa/en/search?q=shoes"
+ },
+ "notes": {
+  "avant": "craft-surrealism — sculpture you can put your arm through",
+  "weird": "Jonathan Anderson's surrealism, where a bag looks like a pixel and a coat looks like something else entirely. Weird in the art-historical sense rather than the provocative one.",
+  "status": "Craft-signalling status — leatherwork and surrealism that read to a narrower and more informed room than a monogram would. Recognition here is a test the viewer passes.",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 3; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "style": "Craft-led fashion with a strong design idea under Jonathan Anderson.",
+  "craft": "Loewe's own site speaks of 'our factory in Madrid', home of its School of Leather Craft, and press puts it in Getafe making the bag collection with about 150 artisans. Nothing seen ties the clothing to an owned site. An owned factory for a core category (leather goods), not the whole range: a 4."
+ },
+ "doors": {
+  "c": "full",
+  "n": 18,
+  "cities": [
+   [
+    "Atlanta",
+    "GA",
+    1
+   ],
+   [
+    "Bal Harbour",
+    "FL",
+    1
+   ],
+   [
+    "Beverly Hills",
+    "CA",
+    1
+   ],
+   [
+    "Boston",
+    "MA",
+    1
+   ],
+   [
+    "Chicago",
+    "IL",
+    1
+   ],
+   [
+    "Costa Mesa",
+    "CA",
+    1
+   ],
+   [
+    "Dallas",
+    "TX",
+    1
+   ],
+   [
+    "East Hampton",
+    "NY",
+    1
+   ],
+   [
+    "Honolulu",
+    "HI",
+    1
+   ],
+   [
+    "Houston",
+    "TX",
+    1
+   ],
+   [
+    "Las Vegas",
+    "NV",
+    2
+   ],
+   [
+    "Miami",
+    "FL",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    1
+   ],
+   [
+    "Palm Beach",
+    "FL",
+    1
+   ],
+   [
+    "Santa Clara",
+    "CA",
+    1
+   ],
+   [
+    "Scottsdale",
+    "AZ",
+    1
+   ],
+   [
+    "Short Hills",
+    "NJ",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 2,
+  "con": 0
+ },
+ "cities": "18 stores, including Atlanta, Bal Harbour, Beverly Hills · department stores, and its own site",
+ "region": {
+  "o": [
+   2101,
+   2102,
+   2103,
+   2104
+  ],
+  "s": []
+ },
+ "addmen": true,
+ "addcloth": true,
+ "site": {
+  "domain": "www.loewe.com",
+  "platform": "salesforce_commerce",
+  "feed": "sitemap_products",
+  "feed_count": 2338,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "licensed",
+  "marks": [
+   "LICENSED, and exactly one: CORDURA, on a single men's product - 'Jacket in medium-weight technical cordura shell featuring a layered construction with detachable padded check lining'. It is written lower-case and carries no (R), but Cordura is Invista's registered fabric mark and it is named in the"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 276,
+  "w": 276,
+  "n": 93,
+  "s": 5,
+  "c": 2,
+  "x": 3,
+  "xh": 1,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "coats-and-outerwear",
+   "trousers-and-shorts",
+   "shirts"
+  ],
+  "st": "complete"
+ },
+ "garment_links": {
+  "T-shirt": "https://www.loewe.com/usa/en/men/menswear/t-shirts-and-polos",
+  "Polo": "https://www.loewe.com/usa/en/men/menswear/t-shirts-and-polos",
+  "Dress shirt": "https://www.loewe.com/usa/en/men/menswear/shirts",
+  "Jeans": "https://www.loewe.com/usa/en/men/menswear/denim",
+  "Dress pants": "https://www.loewe.com/usa/en/men/menswear/trousers-and-shorts",
+  "Sweater": "https://www.loewe.com/usa/en/men/menswear/knitwear",
+  "Outerwear": "https://www.loewe.com/usa/en/men/menswear/coats-and-outerwear",
+  "Shoes": "https://www.loewe.com/usa/en/men/shoes"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Regular fit T-shirt in cotton",
+   "lu": "https://www.loewe.com/usa/en/men/menswear/t-shirts-and-polos/regular-fit-t-shirt-in-cotton/H526Y22X75-1100.html",
+   "hp": "T-shirt in cotton blend (cotton/viscose print)",
+   "hu": "https://www.loewe.com/usa/en/men/menswear/t-shirts-and-polos/t-shirt-in-cotton-blend/H526Y22XDO-5110.html",
+   "b": "range"
   },
-  "notes": {
-    "avant": "craft-surrealism — sculpture you can put your arm through",
-    "weird": "Jonathan Anderson's surrealism, where a bag looks like a pixel and a coat looks like something else entirely. Weird in the art-historical sense rather than the provocative one.",
-    "status": "Craft-signalling status — leatherwork and surrealism that read to a narrower and more informed room than a monogram would. Recognition here is a test the viewer passes.",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 3; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "style": "Craft-led fashion with a strong design idea under Jonathan Anderson.",
-    "craft": "Loewe's own site speaks of 'our factory in Madrid', home of its School of Leather Craft, and press puts it in Getafe making the bag collection with about 150 artisans. Nothing seen ties the clothing to an owned site. An owned factory for a core category (leather goods), not the whole range: a 4."
+  "Polo": {
+   "lp": "Polo in cotton",
+   "lu": "https://www.loewe.com/usa/en/men/menswear/t-shirts-and-polos/polo-in-cotton/H526Y23J36-1100.html",
+   "hp": "Polo in cotton (triple-layered rib collar)",
+   "hu": "https://www.loewe.com/usa/en/men/menswear/t-shirts-and-polos/polo-in-cotton/H526Y23J31-2100.html",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 15,
-    "cities": [
-      ["Atlanta", "GA", 1],
-      ["Bal Harbour", "FL", 1],
-      ["Beverly Hills", "CA", 1],
-      ["Boston", "MA", 1],
-      ["Chicago", "IL", 1],
-      ["Costa Mesa", "CA", 1],
-      ["Dallas", "TX", 1],
-      ["East Hampton", "NY", 1],
-      ["Houston", "TX", 1],
-      ["Las Vegas", "NV", 1],
-      ["Miami", "FL", 1],
-      ["New York", "NY", 1],
-      ["Palm Beach", "FL", 1],
-      ["Santa Clara", "CA", 1],
-      ["Short Hills", "NJ", 1]
-    ],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Dress shirt": {
+   "lp": "Shirt in cotton (poplin, classic collar)",
+   "lu": "https://www.loewe.com/usa/en/men/menswear/shirts/shirt-in-cotton/H526Y05XBC-2100.html",
+   "hp": "Shirt in cotton (striped twill)",
+   "hu": "https://www.loewe.com/usa/en/men/menswear/shirts/shirt-in-cotton/H526Y05WHN-4985.html",
+   "b": "range"
   },
-  "cities": "15 stores, including Atlanta, Bal Harbour, Beverly Hills · department stores, and its own site",
-  "region": {
-    "o": [1586, 1587, 1589, 1590],
-    "s": []
+  "Jeans": {
+   "lp": "Jeans in denim",
+   "lu": "https://www.loewe.com/usa/en/men/menswear/denim/jeans-in-denim/H526Y11X94-1100.html",
+   "hp": "Jeans in denim (all-over LOEWE embroideries)",
+   "hu": "https://www.loewe.com/usa/en/men/menswear/denim/jeans-in-denim/H526Y11XAS-8798.html",
+   "b": "range"
   },
-  "addmen": true,
-  "addcloth": true,
-  "site": {
-    "domain": "www.loewe.com",
-    "platform": "salesforce_commerce",
-    "feed": "sitemap_products",
-    "feed_count": 2338,
-    "status": "live_store",
-    "checked": "2026-09-13"
+  "Dress pants": {
+   "lp": "Wide leg trousers in cotton (gabardine)",
+   "lu": "https://www.loewe.com/usa/en/men/menswear/trousers-and-shorts/wide-leg-trousers-in-cotton/H526Y04X67-3430.html",
+   "hp": "Trousers in wool blend (tailoring)",
+   "hu": "https://www.loewe.com/usa/en/men/menswear/trousers-and-shorts/trousers-in-wool-blend/H526Y04WK4-5094.html",
+   "b": "range"
   },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "licensed",
-    "marks": [
-      "LICENSED, and exactly one: CORDURA, on a single men's product - 'Jacket in medium-weight technical cordura shell featuring a layered construction with detachable padded check lining'. It is written lower-case and carries no (R), but Cordura is Invista's registered fabric mark and it is named in the"
-    ],
-    "source": "census",
-    "checked": "2026-09-12"
+  "Sweater": {
+   "lp": "Sweater in wool (round neck)",
+   "lu": "https://www.loewe.com/usa/en/men/menswear/knitwear/sweater-in-wool/H526Y14KH1-1130.html",
+   "hp": "Zip-up cardigan in cotton blend",
+   "hu": "https://www.loewe.com/usa/en/men/menswear/knitwear/zip-up-cardigan-in-cotton-blend/H526Y16KB1-5137.html",
+   "b": "range"
   },
-  "fibre": {
-    "t": 276,
-    "w": 276,
-    "n": 93,
-    "s": 5,
-    "c": 2,
-    "x": 3,
-    "xh": 1,
-    "sp": "one",
-    "sc": [],
-    "nc": ["coats-and-outerwear", "trousers-and-shorts", "shirts"],
-    "st": "complete"
+  "Outerwear": {
+   "lp": "Zip-up jacket in cotton (chambray)",
+   "lu": "https://www.loewe.com/usa/en/men/menswear/coats-and-outerwear/zip-up-jacket-in-cotton/H526Y50X34-8798.html",
+   "hp": "Zip-up jacket in deerskin",
+   "hu": "https://www.loewe.com/usa/en/men/menswear/coats-and-outerwear/zip-up-jacket-in-deerskin/H526Y34LBD-3110.html",
+   "b": "pair"
   },
-  "garment_links": {
-    "T-shirt": "https://www.loewe.com/usa/en/men/menswear/t-shirts-and-polos",
-    "Polo": "https://www.loewe.com/usa/en/men/menswear/t-shirts-and-polos",
-    "Dress shirt": "https://www.loewe.com/usa/en/men/menswear/shirts",
-    "Jeans": "https://www.loewe.com/usa/en/men/menswear/denim",
-    "Dress pants": "https://www.loewe.com/usa/en/men/menswear/trousers-and-shorts",
-    "Sweater": "https://www.loewe.com/usa/en/men/menswear/knitwear",
-    "Outerwear": "https://www.loewe.com/usa/en/men/menswear/coats-and-outerwear",
-    "Shoes": "https://www.loewe.com/usa/en/men/shoes"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Regular fit T-shirt in cotton",
-      "lu": "https://www.loewe.com/usa/en/men/menswear/t-shirts-and-polos/regular-fit-t-shirt-in-cotton/H526Y22X75-1100.html",
-      "hp": "T-shirt in cotton blend (cotton/viscose print)",
-      "hu": "https://www.loewe.com/usa/en/men/menswear/t-shirts-and-polos/t-shirt-in-cotton-blend/H526Y22XDO-5110.html",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Polo in cotton",
-      "lu": "https://www.loewe.com/usa/en/men/menswear/t-shirts-and-polos/polo-in-cotton/H526Y23J36-1100.html",
-      "hp": "Polo in cotton (triple-layered rib collar)",
-      "hu": "https://www.loewe.com/usa/en/men/menswear/t-shirts-and-polos/polo-in-cotton/H526Y23J31-2100.html",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Shirt in cotton (poplin, classic collar)",
-      "lu": "https://www.loewe.com/usa/en/men/menswear/shirts/shirt-in-cotton/H526Y05XBC-2100.html",
-      "hp": "Shirt in cotton (striped twill)",
-      "hu": "https://www.loewe.com/usa/en/men/menswear/shirts/shirt-in-cotton/H526Y05WHN-4985.html",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Jeans in denim",
-      "lu": "https://www.loewe.com/usa/en/men/menswear/denim/jeans-in-denim/H526Y11X94-1100.html",
-      "hp": "Jeans in denim (all-over LOEWE embroideries)",
-      "hu": "https://www.loewe.com/usa/en/men/menswear/denim/jeans-in-denim/H526Y11XAS-8798.html",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Wide leg trousers in cotton (gabardine)",
-      "lu": "https://www.loewe.com/usa/en/men/menswear/trousers-and-shorts/wide-leg-trousers-in-cotton/H526Y04X67-3430.html",
-      "hp": "Trousers in wool blend (tailoring)",
-      "hu": "https://www.loewe.com/usa/en/men/menswear/trousers-and-shorts/trousers-in-wool-blend/H526Y04WK4-5094.html",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Sweater in wool (round neck)",
-      "lu": "https://www.loewe.com/usa/en/men/menswear/knitwear/sweater-in-wool/H526Y14KH1-1130.html",
-      "hp": "Zip-up cardigan in cotton blend",
-      "hu": "https://www.loewe.com/usa/en/men/menswear/knitwear/zip-up-cardigan-in-cotton-blend/H526Y16KB1-5137.html",
-      "b": "range"
-    },
-    "Outerwear": {
-      "lp": "Zip-up jacket in cotton (chambray)",
-      "lu": "https://www.loewe.com/usa/en/men/menswear/coats-and-outerwear/zip-up-jacket-in-cotton/H526Y50X34-8798.html",
-      "hp": "Zip-up jacket in deerskin",
-      "hu": "https://www.loewe.com/usa/en/men/menswear/coats-and-outerwear/zip-up-jacket-in-deerskin/H526Y34LBD-3110.html",
-      "b": "pair"
-    },
-    "Shoes": {
-      "lp": "Flex loafer in suede",
-      "lu": "https://www.loewe.com/usa/en/men/shoes/loafers/flex-loafer-in-suede/MLFL290X01-3870.html",
-      "hp": "Bobine loafer in shiny calfskin",
-      "hu": "https://www.loewe.com/usa/en/men/shoes/loafers/bobine-loafer-in-shiny-calfskin/M815290X01-3110.html",
-      "b": "pair"
-    }
-  },
-  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants", "Sweater"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.loewe.com/usa/en/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=24209",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "season": {
-    "l": "Fall Winter 2026 (FW26)",
-    "t": "campaign",
-    "u": "https://www.loewe.com/usa/en/pd/stories-collection/fw26-collection-campaign.html",
-    "m": "unisex"
-  },
-  "craft_evidence": {
-    "owned": "yes",
-    "owned_d": "Brand-owned (Loewe, an LVMH Maison since 1996) leather-goods factory near Madrid. loewe.com careers page: 'LOEWE's School of Leather Craft is located at the heart of our factory in Madrid'; loewe.com 'Welcome to LOEWE' story: 'At our main atelier in Madrid, our artisans...'. Press (The Week) places it in Getafe, south of Madrid: 11,500 m2, about 300 staff incl. about 150 artisans, making the bag collection; leather school (Escuela de Maroquineria) set up there in 2013. LEATHER GOODS (bags) only: no source seen says ready-to-wear is made in an owned facility. No LVMH-group ready-to-wear factory found for Loewe.",
-    "makers": "NC",
-    "mills": "NC",
-    "madein": "NC",
-    "countries": "NC - no PDP could be loaded.",
-    "heritage": "dated and placed",
-    "repair": "NC",
-    "process": "some",
-    "urls": [
-      "https://www.loewe.com/usa/en/information/careers-at-loewe.html",
-      "https://theweek.com/97375/l-is-for-jonathan-andersons-loewe"
-    ],
-    "conf": "medium",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Flex loafer in suede",
+   "lu": "https://www.loewe.com/usa/en/men/shoes/loafers/flex-loafer-in-suede/MLFL290X01-3870.html",
+   "hp": "Bobine loafer in shiny calfskin",
+   "hu": "https://www.loewe.com/usa/en/men/shoes/loafers/bobine-loafer-in-shiny-calfskin/M815290X01-3110.html",
+   "b": "pair"
   }
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants",
+  "Sweater"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.loewe.com/usa/en/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=24209",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "season": {
+  "l": "Fall Winter 2026 (FW26)",
+  "t": "campaign",
+  "u": "https://www.loewe.com/usa/en/pd/stories-collection/fw26-collection-campaign.html",
+  "m": "unisex"
+ },
+ "craft_evidence": {
+  "owned": "yes",
+  "owned_d": "Brand-owned (Loewe, an LVMH Maison since 1996) leather-goods factory near Madrid. loewe.com careers page: 'LOEWE's School of Leather Craft is located at the heart of our factory in Madrid'; loewe.com 'Welcome to LOEWE' story: 'At our main atelier in Madrid, our artisans...'. Press (The Week) places it in Getafe, south of Madrid: 11,500 m2, about 300 staff incl. about 150 artisans, making the bag collection; leather school (Escuela de Maroquineria) set up there in 2013. LEATHER GOODS (bags) only: no source seen says ready-to-wear is made in an owned facility. No LVMH-group ready-to-wear factory found for Loewe.",
+  "makers": "NC",
+  "mills": "NC",
+  "madein": "NC",
+  "countries": "NC - no PDP could be loaded.",
+  "heritage": "dated and placed",
+  "repair": "NC",
+  "process": "some",
+  "urls": [
+   "https://www.loewe.com/usa/en/information/careers-at-loewe.html",
+   "https://theweek.com/97375/l-is-for-jonathan-andersons-loewe"
+  ],
+  "conf": "medium",
+  "read": "2026-10-03"
+ }
 }

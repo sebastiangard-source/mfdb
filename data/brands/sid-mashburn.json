@@ -1,225 +1,318 @@
 {
-  "name": "Sid Mashburn",
-  "band": "accessible",
-  "seat": 112,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 3,
-    "craft": 2,
-    "style": 5
+ "name": "Sid Mashburn",
+ "band": "accessible",
+ "seat": 112,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 3,
+  "craft": 2,
+  "style": 5
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 2,
+  "linen": 3,
+  "cotton": 3,
+  "wool": 3,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 3,
+  "fuss": 1,
+  "golffice": -2,
+  "golf": 2,
+  "status": 2,
+  "finbro": 2,
+  "ivy": 3,
+  "murica": 3,
+  "ital": 2,
+  "prep": 3,
+  "boat": 3,
+  "racquet": 3,
+  "whitet": 2,
+  "logo": 1,
+  "western": 1,
+  "rock": 1,
+  "workwear": 2,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Tailoring, shirts and casual clothing sold through the company's own stores, which mix its label with others.",
+ "origin": "Founded in Atlanta in 2007 by Sid and Ann Mashburn.",
+ "chan": [
+  "O",
+  "W"
+ ],
+ "conf": "S",
+ "forgc": [
+  2,
+  3,
+  4
+ ],
+ "onething": {
+  "p": "Kincaid No. 1 suit",
+  "u": "https://www.sidmashburn.com/search?q=Kincaid%20No.%201%20suit",
+  "n": "Use this: https://shopmashburn.com/products/sid-mashburn-kincaid-no-3-jacket-persimmon-wheat-herringbone-linen-s79133"
+ },
+ "prices": [
+  [
+   75,
+   75
+  ],
+  [
+   115,
+   135
+  ],
+  [
+   155,
+   450
+  ],
+  [
+   175,
+   325
+  ],
+  [
+   395,
+   450
+  ],
+  [
+   195,
+   450
+  ],
+  [
+   425,
+   795
+  ],
+  [
+   375,
+   595
+  ]
+ ],
+ "doors": {
+  "c": "full",
+  "n": 8,
+  "cities": [
+   [
+    "Atlanta",
+    "GA",
+    1
+   ],
+   [
+    "Charlotte",
+    "NC",
+    1
+   ],
+   [
+    "Dallas",
+    "TX",
+    1
+   ],
+   [
+    "Houston",
+    "TX",
+    1
+   ],
+   [
+    "Nashville",
+    "TN",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    1
+   ],
+   [
+    "Santa Monica",
+    "CA",
+    1
+   ],
+   [
+    "Washington",
+    "DC",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 0,
+  "con": 0
+ },
+ "cities": "8 stores, including Atlanta, Charlotte, Dallas · independent menswear shops, and its own site",
+ "region": {
+  "o": [
+   3120
+  ],
+  "s": [
+   12,
+   21,
+   85,
+   126,
+   128
+  ]
+ },
+ "site": {
+  "domain": "shopmashburn.com",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 3750,
+  "status": "live_store",
+  "checked": "2026-09-21"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "licensed",
+  "marks": [
+   "Tana Lawn(R) [Liberty Fabrics' Tana Lawn®]",
+   "Lycra",
+   "'water-repellent' (descriptive, dry-waxed poplin)"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 289,
+  "w": 289,
+  "n": 99,
+  "s": 1,
+  "c": 0,
+  "x": 7,
+  "xh": 0,
+  "sp": "one",
+  "sc": [
+   "Swimwear"
+  ],
+  "nc": [
+   "Sport Shirts",
+   "Sport Jackets",
+   "Jeans"
+  ],
+  "st": "complete"
+ },
+ "garment_links": {
+  "T-shirt": "https://shopmashburn.com/collections/sid-mashburn-polos-t-shirts",
+  "Polo": "https://shopmashburn.com/collections/sid-mashburn-the-polo-shop",
+  "Dress shirt": "https://shopmashburn.com/collections/sid-mashburn-shirts",
+  "Jeans": "https://shopmashburn.com/collections/sid-mashburn-jeans-5-pockets",
+  "Dress pants": "https://shopmashburn.com/collections/sid-mashburn-trousers",
+  "Sweater": "https://shopmashburn.com/collections/sid-mashburn-sweaters",
+  "Outerwear": "https://shopmashburn.com/collections/sid-mashburn-outerwear",
+  "Shoes": "https://shopmashburn.com/collections/sid-mashburn-shoes"
+ },
+ "notes": {
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 1; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "style": "The stores are a single, exacting point of view on how a man should dress; the label follows it.",
+  "craft": "Sid Mashburn is a designer-retailer: its about page says it uses luxury brands' mills and makers but names none, and its stores' tailoring shops do alterations, not manufacturing. Product pages give a country on some items (Italy for a handmade shirt, Portugal for a trouser and a jacket) and describe mills generically ('an English mill'). A country of make and little else: 2, not 4."
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Short-Sleeved Tee in White Pima Cotton",
+   "lu": "https://shopmashburn.com/products/sid-mashburn-short-sleeved-tee-white-pima-cotton-s31949",
+   "hp": "Short-Sleeved Tee in White Pima Cotton",
+   "hu": "https://shopmashburn.com/products/sid-mashburn-short-sleeved-tee-white-pima-cotton-s31949",
+   "b": "single"
   },
-  "fabric": {
-    "denim": 2,
-    "cashmere": 2,
-    "linen": 3,
-    "cotton": 3,
-    "wool": 3,
-    "synth": 1
+  "Polo": {
+   "lp": "Short-Sleeved Polo in Olive Pima Pique",
+   "lu": "https://shopmashburn.com/products/sid-mashburn-short-sleeved-polo-olive-pima-pique-s77066",
+   "hp": "Short-Sleeved Polo in Navy/Sea Moss Stripe Pima Pique",
+   "hu": "https://shopmashburn.com/products/sid-mashburn-short-sleeved-polo-navy-sea-moss-stripe-pima-pique-s80299",
+   "b": "range"
   },
-  "dials": {
-    "dur": 3,
-    "forg": 3,
-    "fuss": 1,
-    "golffice": -2,
-    "golf": 2,
-    "status": 2,
-    "finbro": 2,
-    "ivy": 3,
-    "murica": 3,
-    "ital": 2,
-    "prep": 3,
-    "boat": 3,
-    "racquet": 3,
-    "whitet": 2,
-    "logo": 1,
-    "western": 1,
-    "rock": 1,
-    "workwear": 2,
-    "outdoor": 1,
-    "surf": 1
+  "Dress shirt": {
+   "lp": "Button-Down Dress Shirt in White Oxford",
+   "lu": "https://shopmashburn.com/products/sid-mashburn-button-down-dress-shirt-white-oxford-s76825",
+   "hp": "Otto Handmade Dress Shirt in White Sea Island Poplin",
+   "hu": "https://shopmashburn.com/products/sid-mashburn-otto-handmade-dress-shirt-white-sea-island-poplin-s76545",
+   "b": "range"
   },
-  "why": "Tailoring, shirts and casual clothing sold through the company's own stores, which mix its label with others.",
-  "origin": "Founded in Atlanta in 2007 by Sid and Ann Mashburn.",
-  "chan": ["O", "W"],
-  "conf": "S",
-  "forgc": [2, 3, 4],
-  "onething": {
-    "p": "Kincaid No. 1 suit",
-    "u": "https://www.sidmashburn.com/search?q=Kincaid%20No.%201%20suit",
-    "n": "Use this: https://shopmashburn.com/products/sid-mashburn-kincaid-no-3-jacket-persimmon-wheat-herringbone-linen-s79133"
+  "Jeans": {
+   "lp": "Slim Straight Jean in Non-Selvedge Rinse Denim",
+   "lu": "https://shopmashburn.com/products/sid-mashburn-slim-straight-jean-non-selvedge-rinse-denim-s41586",
+   "hp": "Slim Straight Jean in Indigo/Moss Selvedge Rigid Denim",
+   "hu": "https://shopmashburn.com/products/sid-mashburn-slim-straight-jean-indigo-moss-selvedge-rigid-denim-s80777",
+   "b": "range"
   },
-  "prices": [[75, 75], [115, 135], [155, 450], [175, 325], [395, 450], [195, 450], [425, 795], [375, 595]],
-  "doors": {
-    "c": "full",
-    "n": 8,
-    "cities": [
-      ["Atlanta", "GA", 1],
-      ["Charlotte", "NC", 1],
-      ["Dallas", "TX", 1],
-      ["Houston", "TX", 1],
-      ["Nashville", "TN", 1],
-      ["New York", "NY", 1],
-      ["Santa Monica", "CA", 1],
-      ["Washington", "DC", 1]
-    ],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Dress pants": {
+   "lp": "Dress Trouser in Airforce Cavalry Twill",
+   "lu": "https://shopmashburn.com/products/sid-mashburn-dress-trouser-airforce-cavalry-twill-s80242",
+   "hp": "Dress Trouser in Woodland Twill",
+   "hu": "https://shopmashburn.com/products/sid-mashburn-dress-trouser-woodland-twill-s80241",
+   "b": "range"
   },
-  "cities": "8 stores, including Atlanta, Charlotte, Dallas · independent menswear shops, and its own site",
-  "region": {
-    "o": [2485],
-    "s": [12, 21, 85, 126, 128]
+  "Sweater": {
+   "lp": "Crewneck Sweater in Navy Cotton",
+   "lu": "https://shopmashburn.com/products/sid-mashburn-crewneck-sweater-navy-cotton-s48620",
+   "hp": "Fine-Gauge Crewneck Sweater in Bottle Cashmere",
+   "hu": "https://shopmashburn.com/products/sid-mashburn-fine-gauge-crewneck-sweater-bottle-cashmere-s79186",
+   "b": "pair"
   },
-  "site": {
-    "domain": "shopmashburn.com",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 3750,
-    "status": "live_store",
-    "checked": "2026-09-21"
+  "Outerwear": {
+   "lp": "Chore Jacket in Navy Corduroy",
+   "lu": "https://shopmashburn.com/products/sid-mashburn-chore-jacket-navy-corduroy-s80201",
+   "hp": "Chore Jacket in Spruce Cashmere Flannel",
+   "hu": "https://shopmashburn.com/products/sid-mashburn-chore-jacket-spruce-cashmere-flannel-s80196",
+   "b": "pair"
   },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "licensed",
-    "marks": [
-      "Tana Lawn(R) [Liberty Fabrics' Tana Lawn®]",
-      "Lycra",
-      "'water-repellent' (descriptive, dry-waxed poplin)"
-    ],
-    "source": "census",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 289,
-    "w": 289,
-    "n": 99,
-    "s": 1,
-    "c": 0,
-    "x": 7,
-    "xh": 0,
-    "sp": "one",
-    "sc": ["Swimwear"],
-    "nc": ["Sport Shirts", "Sport Jackets", "Jeans"],
-    "st": "complete"
-  },
-  "garment_links": {
-    "T-shirt": "https://shopmashburn.com/collections/sid-mashburn-polos-t-shirts",
-    "Polo": "https://shopmashburn.com/collections/sid-mashburn-the-polo-shop",
-    "Dress shirt": "https://shopmashburn.com/collections/sid-mashburn-shirts",
-    "Jeans": "https://shopmashburn.com/collections/sid-mashburn-jeans-5-pockets",
-    "Dress pants": "https://shopmashburn.com/collections/sid-mashburn-trousers",
-    "Sweater": "https://shopmashburn.com/collections/sid-mashburn-sweaters",
-    "Outerwear": "https://shopmashburn.com/collections/sid-mashburn-outerwear",
-    "Shoes": "https://shopmashburn.com/collections/sid-mashburn-shoes"
-  },
-  "notes": {
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 1; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "style": "The stores are a single, exacting point of view on how a man should dress; the label follows it.",
-    "craft": "Sid Mashburn is a designer-retailer: its about page says it uses luxury brands' mills and makers but names none, and its stores' tailoring shops do alterations, not manufacturing. Product pages give a country on some items (Italy for a handmade shirt, Portugal for a trouser and a jacket) and describe mills generically ('an English mill'). A country of make and little else: 2, not 4."
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Short-Sleeved Tee in White Pima Cotton",
-      "lu": "https://shopmashburn.com/products/sid-mashburn-short-sleeved-tee-white-pima-cotton-s31949",
-      "hp": "Short-Sleeved Tee in White Pima Cotton",
-      "hu": "https://shopmashburn.com/products/sid-mashburn-short-sleeved-tee-white-pima-cotton-s31949",
-      "b": "single"
-    },
-    "Polo": {
-      "lp": "Short-Sleeved Polo in Olive Pima Pique",
-      "lu": "https://shopmashburn.com/products/sid-mashburn-short-sleeved-polo-olive-pima-pique-s77066",
-      "hp": "Short-Sleeved Polo in Navy/Sea Moss Stripe Pima Pique",
-      "hu": "https://shopmashburn.com/products/sid-mashburn-short-sleeved-polo-navy-sea-moss-stripe-pima-pique-s80299",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Button-Down Dress Shirt in White Oxford",
-      "lu": "https://shopmashburn.com/products/sid-mashburn-button-down-dress-shirt-white-oxford-s76825",
-      "hp": "Otto Handmade Dress Shirt in White Sea Island Poplin",
-      "hu": "https://shopmashburn.com/products/sid-mashburn-otto-handmade-dress-shirt-white-sea-island-poplin-s76545",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Slim Straight Jean in Non-Selvedge Rinse Denim",
-      "lu": "https://shopmashburn.com/products/sid-mashburn-slim-straight-jean-non-selvedge-rinse-denim-s41586",
-      "hp": "Slim Straight Jean in Indigo/Moss Selvedge Rigid Denim",
-      "hu": "https://shopmashburn.com/products/sid-mashburn-slim-straight-jean-indigo-moss-selvedge-rigid-denim-s80777",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Dress Trouser in Airforce Cavalry Twill",
-      "lu": "https://shopmashburn.com/products/sid-mashburn-dress-trouser-airforce-cavalry-twill-s80242",
-      "hp": "Dress Trouser in Woodland Twill",
-      "hu": "https://shopmashburn.com/products/sid-mashburn-dress-trouser-woodland-twill-s80241",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Crewneck Sweater in Navy Cotton",
-      "lu": "https://shopmashburn.com/products/sid-mashburn-crewneck-sweater-navy-cotton-s48620",
-      "hp": "Fine-Gauge Crewneck Sweater in Bottle Cashmere",
-      "hu": "https://shopmashburn.com/products/sid-mashburn-fine-gauge-crewneck-sweater-bottle-cashmere-s79186",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "Chore Jacket in Navy Corduroy",
-      "lu": "https://shopmashburn.com/products/sid-mashburn-chore-jacket-navy-corduroy-s80201",
-      "hp": "Chore Jacket in Spruce Cashmere Flannel",
-      "hu": "https://shopmashburn.com/products/sid-mashburn-chore-jacket-spruce-cashmere-flannel-s80196",
-      "b": "pair"
-    },
-    "Shoes": {
-      "lp": "Handsewn Penny Loafer in Black Spazzolato Calf",
-      "lu": "https://shopmashburn.com/products/sid-mashburn-handsewn-penny-loafer-black-spazzolato-calf-s78278",
-      "hp": "Italian Penny Loafer in Dark Brown Calfskin",
-      "hu": "https://shopmashburn.com/products/sid-mashburn-italian-penny-loafer-dark-brown-calfskin-s45656",
-      "b": "pair"
-    }
-  },
-  "price_range_only": ["Polo", "Dress shirt", "Jeans", "Dress pants"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://shopmashburn.com/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "Otto Handmade (Sid Mashburn handmade shirts)"
-  },
-  "price_checked": true,
-  "shop": "https://shopmashburn.com/search?q=",
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?search_text=Sid%20Mashburn&catalog[]=5",
-      "m": "text search",
-      "n": "No Vinted brand entry; keyword search in Men"
-    }
-  },
-  "season": {
-    "l": "Fall 2026",
-    "t": "lookbook",
-    "u": "https://shopmashburn.com/pages/digital-catalog",
-    "m": "unisex"
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "About page: founded 2007 on Atlanta's West Side; eight shops with in-store tailors; says it uses 'the same mills, tanneries, and makers as capital-L-Luxury brands' without naming any. Services page: each store has an 'open-kitchen-style tailoring shop' (alterations, not garment making). No owned factory or workshop that makes the range.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "some",
-    "countries": "Italy 1/6 (Otto handmade sport shirt), Portugal 2/6 (side-tab sport trouser, Ghost Rider jacket), not stated 3/6 (Virgil No. 3 tweed jacket, spread-collar dress shirt, fine-gauge Escorial half-zip). Sample of 6 PDPs: tailoring, shirts, trousers, knitwear, outerwear. About page says suits are 'made in Italy'.",
-    "heritage": "dated and placed",
-    "repair": "yes",
-    "process": "some",
-    "urls": [
-      "https://shopmashburn.com/pages/sid-mashburn-about-us",
-      "https://shopmashburn.com/products/sid-mashburn-ghost-rider-jacket-chocolate-wheat-herringbone-s79132"
-    ],
-    "conf": "high",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Handsewn Penny Loafer in Black Spazzolato Calf",
+   "lu": "https://shopmashburn.com/products/sid-mashburn-handsewn-penny-loafer-black-spazzolato-calf-s78278",
+   "hp": "Italian Penny Loafer in Dark Brown Calfskin",
+   "hu": "https://shopmashburn.com/products/sid-mashburn-italian-penny-loafer-dark-brown-calfskin-s45656",
+   "b": "pair"
   }
+ },
+ "price_range_only": [
+  "Polo",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://shopmashburn.com/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "Otto Handmade (Sid Mashburn handmade shirts)"
+ },
+ "price_checked": true,
+ "shop": "https://shopmashburn.com/search?q=",
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?search_text=Sid%20Mashburn&catalog[]=5",
+   "m": "text search",
+   "n": "No Vinted brand entry; keyword search in Men"
+  }
+ },
+ "season": {
+  "l": "Fall 2026",
+  "t": "lookbook",
+  "u": "https://shopmashburn.com/pages/digital-catalog",
+  "m": "unisex"
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "About page: founded 2007 on Atlanta's West Side; eight shops with in-store tailors; says it uses 'the same mills, tanneries, and makers as capital-L-Luxury brands' without naming any. Services page: each store has an 'open-kitchen-style tailoring shop' (alterations, not garment making). No owned factory or workshop that makes the range.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "some",
+  "countries": "Italy 1/6 (Otto handmade sport shirt), Portugal 2/6 (side-tab sport trouser, Ghost Rider jacket), not stated 3/6 (Virgil No. 3 tweed jacket, spread-collar dress shirt, fine-gauge Escorial half-zip). Sample of 6 PDPs: tailoring, shirts, trousers, knitwear, outerwear. About page says suits are 'made in Italy'.",
+  "heritage": "dated and placed",
+  "repair": "yes",
+  "process": "some",
+  "urls": [
+   "https://shopmashburn.com/pages/sid-mashburn-about-us",
+   "https://shopmashburn.com/products/sid-mashburn-ghost-rider-jacket-chocolate-wheat-herringbone-s79132"
+  ],
+  "conf": "high",
+  "read": "2026-10-03"
+ }
 }

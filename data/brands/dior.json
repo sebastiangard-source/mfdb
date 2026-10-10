@@ -1,251 +1,422 @@
 {
-  "name": "Dior",
-  "band": "trueLux",
-  "seat": 169,
-  "dagger": 0,
-  "focus": {
-    "tech": 1,
-    "comfort": 1,
-    "craft": 4,
-    "style": 5
-  },
-  "fabric": {
-    "denim": 2,
-    "cashmere": 2,
-    "linen": 1,
-    "cotton": 2,
-    "wool": 3,
-    "synth": 1
-  },
-  "dials": {
-    "dur": 3,
-    "forg": 1,
-    "fuss": 1,
-    "shoes": 3,
-    "status": 5,
-    "fren": 5,
-    "ski": 2,
-    "whitet": 2,
-    "logo": 3,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 2,
-    "surf": 1
-  },
-  "why": "The Paris house's menswear — tailoring, sneakers, logo pieces — under a succession of creative directors.",
-  "origin": "Founded in Paris in 1947 by Christian Dior.",
-  "chan": ["O", "D"],
-  "conf": "S",
-  "forgc": [1, 2, 1],
-  "shop": "https://www.dior.com/en_us/fashion/search/",
-  "onething": {
-    "p": "CD Icon knit",
-    "u": "https://www.dior.com/en_us/fashion",
-    "n": "Dior sells direct only — no Mr Porter; link is the men’s fashion hub, best-guess piece"
-  },
-  "prices": [
-    [590, 1700],
-    [730, 1850],
-    [740, 2100],
-    [970, 1950],
-    [1000, 2100],
-    [1500, 3500],
-    [2300, 7000],
-    [870, 1500]
+ "name": "Dior",
+ "band": "trueLux",
+ "seat": 169,
+ "dagger": 0,
+ "focus": {
+  "tech": 1,
+  "comfort": 1,
+  "craft": 4,
+  "style": 5
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 2,
+  "linen": 1,
+  "cotton": 2,
+  "wool": 3,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 1,
+  "fuss": 1,
+  "shoes": 3,
+  "status": 5,
+  "fren": 5,
+  "ski": 2,
+  "whitet": 2,
+  "logo": 3,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 2,
+  "surf": 1
+ },
+ "why": "The Paris house's menswear — tailoring, sneakers, logo pieces — under a succession of creative directors.",
+ "origin": "Founded in Paris in 1947 by Christian Dior.",
+ "chan": [
+  "O",
+  "D"
+ ],
+ "conf": "S",
+ "forgc": [
+  1,
+  2,
+  1
+ ],
+ "shop": "https://www.dior.com/en_us/fashion/search/",
+ "onething": {
+  "p": "CD Icon knit",
+  "u": "https://www.dior.com/en_us/fashion",
+  "n": "Dior sells direct only — no Mr Porter; link is the men’s fashion hub, best-guess piece"
+ },
+ "prices": [
+  [
+   590,
+   1700
   ],
-  "shoelink": {
-    "t": "sneaker",
-    "u": "https://www.dior.com/en_us/fashion/search/sneaker"
+  [
+   730,
+   1850
+  ],
+  [
+   740,
+   2100
+  ],
+  [
+   970,
+   1950
+  ],
+  [
+   1000,
+   2100
+  ],
+  [
+   1500,
+   3500
+  ],
+  [
+   2300,
+   7000
+  ],
+  [
+   870,
+   1500
+  ]
+ ],
+ "shoelink": {
+  "t": "sneaker",
+  "u": "https://www.dior.com/en_us/fashion/search/sneaker"
+ },
+ "notes": {
+  "fren": "Avenue Montaigne, which is close to the most French address a menswear house can have. The couture inheritance is the whole of the register.",
+  "status": "Couture-house pricing applied to a sweatshirt, and the name does the work without help. The status is inherited from the women's house and spent on menswear.",
+  "reach": "fourteen of its thirty-six US boutiques sell no menswear, read from each store page’s own categories rather than from its prose. The map counts the twenty-two that do [authored findability score was 4; retired 28 Sep 2026]",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "style": "A Paris fashion house; the collection is the product.",
+  "craft": "Christian Dior SE's own 2025 annual report (p.14) says Dior sources ready-to-wear and jewelry mainly from outside companies and supplements its leather-goods manufacturing with third-party subcontractors, without naming any owned site. dior.com names no workshop or maker on the pages read and has no making page; the heritage page is the 1947 Avenue Montaigne debut. Nothing shown supports owned or named making for the clothing range, so 4 is not supported; 2 is provisional because no PDP could be read. [held at the current score: the audit’s evidence was thin; needs a second read]"
+ },
+ "doors": {
+  "c": "full",
+  "n": 36,
+  "cities": [
+   [
+    "Aspen",
+    "CO",
+    1
+   ],
+   [
+    "Atlanta",
+    "GA",
+    1
+   ],
+   [
+    "Austin",
+    "TX",
+    1
+   ],
+   [
+    "Aventura",
+    "FL",
+    1
+   ],
+   [
+    "Beverly Hills",
+    "CA",
+    1
+   ],
+   [
+    "Boston",
+    "MA",
+    1
+   ],
+   [
+    "Canoga Park",
+    "CA",
+    1
+   ],
+   [
+    "Chicago",
+    "IL",
+    1
+   ],
+   [
+    "Costa Mesa",
+    "CA",
+    1
+   ],
+   [
+    "Dallas",
+    "TX",
+    1
+   ],
+   [
+    "Honolulu",
+    "HI",
+    2
+   ],
+   [
+    "Houston",
+    "TX",
+    2
+   ],
+   [
+    "King of Prussia",
+    "PA",
+    1
+   ],
+   [
+    "Las Vegas",
+    "NV",
+    3
+   ],
+   [
+    "Manhasset",
+    "NY",
+    1
+   ],
+   [
+    "McLean",
+    "VA",
+    1
+   ],
+   [
+    "Miami",
+    "FL",
+    2
+   ],
+   [
+    "Naples",
+    "FL",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    4
+   ],
+   [
+    "Orlando",
+    "FL",
+    1
+   ],
+   [
+    "San Antonio",
+    "TX",
+    1
+   ],
+   [
+    "San Diego",
+    "CA",
+    1
+   ],
+   [
+    "San Francisco",
+    "CA",
+    1
+   ],
+   [
+    "Santa Clara",
+    "CA",
+    1
+   ],
+   [
+    "Scottsdale",
+    "AZ",
+    1
+   ],
+   [
+    "Short Hills",
+    "NJ",
+    1
+   ],
+   [
+    "Troy",
+    "MI",
+    1
+   ],
+   [
+    "Washington",
+    "DC",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 1,
+  "con": 23
+ },
+ "cities": "36 stores across the US · department stores, and its own site",
+ "region": {
+  "o": [
+   1073,
+   1078,
+   1087,
+   1091,
+   1096,
+   1097,
+   1098,
+   1105
+  ],
+  "s": []
+ },
+ "addmen": true,
+ "addcloth": true,
+ "site": {
+  "domain": "www.dior.com",
+  "platform": "custom",
+  "feed": "sitemap_products",
+  "feed_count": 6702,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "house",
+  "marks": [
+   "Dior Oblique jacquard",
+   "Dior Gravity (leather)",
+   "technical fabric",
+   "water-repellent",
+   "water-resistant",
+   "[motif, not counted as cloth: Cannage, Toile de Jouy]"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 519,
+  "w": 518,
+  "n": 93,
+  "s": 6,
+  "c": 1,
+  "x": 5,
+  "xh": 0,
+  "sp": "one",
+  "sc": [
+   "Beachwear"
+  ],
+  "nc": [
+   "Jackets",
+   "Shirts",
+   "Trousers"
+  ],
+  "st": "complete"
+ },
+ "garment_links": {
+  "T-shirt": "https://www.dior.com/en_us/fashion/mens-fashion/ready-to-wear/t-shirts-polos",
+  "Polo": "https://www.dior.com/en_us/fashion/mens-fashion/ready-to-wear/t-shirts-polos",
+  "Dress shirt": "https://www.dior.com/en_us/fashion/mens-fashion/ready-to-wear/shirts",
+  "Jeans": "https://www.dior.com/en_us/fashion/mens-fashion/ready-to-wear/denim",
+  "Dress pants": "https://www.dior.com/en_us/fashion/mens-fashion/ready-to-wear/trousers-shorts",
+  "Sweater": "https://www.dior.com/en_us/fashion/mens-fashion/ready-to-wear/knitwear-sweatshirts",
+  "Outerwear": "https://www.dior.com/en_us/fashion/mens-fashion/ready-to-wear/outerwear",
+  "Shoes": "https://www.dior.com/en_us/fashion/mens-fashion/shoes/all-shoes"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "T-Shirt with Dior Embroidery, Slim Fit (white cotton-blend jersey, 90% cotton 10% elastane)",
+   "lu": "https://www.dior.com/en_us/fashion/products/643J699A3E82_C080",
+   "hp": "Dior Oblique T-Shirt, Regular Fit (cotton-wool-silk jacquard, 55/33/12)",
+   "hu": "https://www.dior.com/en_us/fashion/products/693M619A7040_C988",
+   "b": "range"
   },
-  "notes": {
-    "fren": "Avenue Montaigne, which is close to the most French address a menswear house can have. The couture inheritance is the whole of the register.",
-    "status": "Couture-house pricing applied to a sweatshirt, and the name does the work without help. The status is inherited from the women's house and spent on menswear.",
-    "reach": "fourteen of its thirty-six US boutiques sell no menswear, read from each store page’s own categories rather than from its prose. The map counts the twenty-two that do [authored findability score was 4; retired 28 Sep 2026]",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "style": "A Paris fashion house; the collection is the product.",
-    "craft": "Christian Dior SE's own 2025 annual report (p.14) says Dior sources ready-to-wear and jewelry mainly from outside companies and supplements its leather-goods manufacturing with third-party subcontractors, without naming any owned site. dior.com names no workshop or maker on the pages read and has no making page; the heritage page is the 1947 Avenue Montaigne debut. Nothing shown supports owned or named making for the clothing range, so 4 is not supported; 2 is provisional because no PDP could be read. [held at the current score: the audit’s evidence was thin; needs a second read]"
+  "Polo": {
+   "lp": "Polo Shirt with Dior Embroidery, Regular Fit (black cotton piqué)",
+   "lu": "https://www.dior.com/en_us/fashion/products/643J898A3E44_C988",
+   "hp": "Polo Shirt with Dior Embroidery, Regular Fit (53% cashmere, 47% cotton knit)",
+   "hu": "https://www.dior.com/en_us/fashion/products/693M802A0029_C583",
+   "b": "pair"
   },
-  "doors": {
-    "c": "full",
-    "n": 22,
-    "cities": [
-      ["Atlanta", "GA", 1],
-      ["Austin", "TX", 1],
-      ["Beverly Hills", "CA", 1],
-      ["Boston", "MA", 1],
-      ["Canoga Park", "CA", 1],
-      ["Chicago", "IL", 1],
-      ["Costa Mesa", "CA", 1],
-      ["Dallas", "TX", 1],
-      ["Honolulu", "HI", 2],
-      ["Houston", "TX", 1],
-      ["King of Prussia", "PA", 1],
-      ["Las Vegas", "NV", 1],
-      ["Miami", "FL", 1],
-      ["New York", "NY", 3],
-      ["Orlando", "FL", 1],
-      ["San Antonio", "TX", 1],
-      ["San Diego", "CA", 1],
-      ["Santa Clara", "CA", 1],
-      ["Troy", "MI", 1]
-    ],
-    "basis": "master 2026-08-29, pre-recapture",
-    "addressed": 4
+  "Dress shirt": {
+   "lp": "Shirt with Bee Embroidery (white cotton poplin)",
+   "lu": "https://www.dior.com/en_us/fashion/products/433C529B1581_C089",
+   "hp": "Shirt with Dior Embroidery (navy cashmere-silk twill, 82% cashmere)",
+   "hu": "https://www.dior.com/en_us/fashion/products/683C556B0138_C585",
+   "b": "pair"
   },
-  "cities": "22 stores across the US · department stores, and its own site",
-  "region": {
-    "o": [3129, 3130, 3131, 3132],
-    "s": []
+  "Jeans": {
+   "lp": "Long Slim-Fit Jeans (black cotton denim, five-pocket)",
+   "lu": "https://www.dior.com/en_us/fashion/products/193DS00J342X_C910",
+   "hp": "Long Regular Jeans (blue cotton twill, patchwork knee panels)",
+   "hu": "https://www.dior.com/en_us/fashion/products/693D004A3077_C515",
+   "b": "range"
   },
-  "addmen": true,
-  "addcloth": true,
-  "site": {
-    "domain": "www.dior.com",
-    "platform": "custom",
-    "feed": "sitemap_products",
-    "feed_count": 6702,
-    "status": "live_store",
-    "checked": "2026-09-13"
+  "Dress pants": {
+   "lp": "Pants with Dior Oblique Belt (black virgin wool twill)",
+   "lu": "https://www.dior.com/en_us/fashion/products/033C113C4739_C900",
+   "hp": "Tailored Pants (beige herringbone cashmere and silk, 92% cashmere)",
+   "hu": "https://www.dior.com/en_us/fashion/products/683C141A0092_C120",
+   "b": "pair"
   },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "house",
-    "marks": [
-      "Dior Oblique jacquard",
-      "Dior Gravity (leather)",
-      "technical fabric",
-      "water-repellent",
-      "water-resistant",
-      "[motif, not counted as cloth: Cannage, Toile de Jouy]"
-    ],
-    "source": "census",
-    "checked": "2026-09-12"
+  "Sweater": {
+   "lp": "CD Icon Round Neck Sweater (100% cashmere jersey)",
+   "lu": "https://www.dior.com/en_us/fashion/products/513M648A0000_C989",
+   "hp": "Dior Byzance Sweater, Relaxed Fit (wool-cashmere-silk-blend jacquard, ribbed crew neck)",
+   "hu": "https://www.dior.com/en_us/fashion/products/643M644A1D87_C983",
+   "b": "pair"
   },
-  "fibre": {
-    "t": 519,
-    "w": 518,
-    "n": 93,
-    "s": 6,
-    "c": 1,
-    "x": 5,
-    "xh": 0,
-    "sp": "one",
-    "sc": ["Beachwear"],
-    "nc": ["Jackets", "Shirts", "Trousers"],
-    "st": "complete"
+  "Outerwear": {
+   "lp": "Zipped Jacket (blue cotton twill)",
+   "lu": "https://www.dior.com/en_us/fashion/products/683D487A3062_C580",
+   "hp": "Zipped Jacket (navy blue lambskin)",
+   "hu": "https://www.dior.com/en_us/fashion/products/693L435A0017_C540",
+   "b": "pair"
   },
-  "garment_links": {
-    "T-shirt": "https://www.dior.com/en_us/fashion/mens-fashion/ready-to-wear/t-shirts-polos",
-    "Polo": "https://www.dior.com/en_us/fashion/mens-fashion/ready-to-wear/t-shirts-polos",
-    "Dress shirt": "https://www.dior.com/en_us/fashion/mens-fashion/ready-to-wear/shirts",
-    "Jeans": "https://www.dior.com/en_us/fashion/mens-fashion/ready-to-wear/denim",
-    "Dress pants": "https://www.dior.com/en_us/fashion/mens-fashion/ready-to-wear/trousers-shorts",
-    "Sweater": "https://www.dior.com/en_us/fashion/mens-fashion/ready-to-wear/knitwear-sweatshirts",
-    "Outerwear": "https://www.dior.com/en_us/fashion/mens-fashion/ready-to-wear/outerwear",
-    "Shoes": "https://www.dior.com/en_us/fashion/mens-fashion/shoes/all-shoes"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "T-Shirt with Dior Embroidery, Slim Fit (white cotton-blend jersey, 90% cotton 10% elastane)",
-      "lu": "https://www.dior.com/en_us/fashion/products/643J699A3E82_C080",
-      "hp": "Dior Oblique T-Shirt, Regular Fit (cotton-wool-silk jacquard, 55/33/12)",
-      "hu": "https://www.dior.com/en_us/fashion/products/693M619A7040_C988",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Polo Shirt with Dior Embroidery, Regular Fit (black cotton piqué)",
-      "lu": "https://www.dior.com/en_us/fashion/products/643J898A3E44_C988",
-      "hp": "Polo Shirt with Dior Embroidery, Regular Fit (53% cashmere, 47% cotton knit)",
-      "hu": "https://www.dior.com/en_us/fashion/products/693M802A0029_C583",
-      "b": "pair"
-    },
-    "Dress shirt": {
-      "lp": "Shirt with Bee Embroidery (white cotton poplin)",
-      "lu": "https://www.dior.com/en_us/fashion/products/433C529B1581_C089",
-      "hp": "Shirt with Dior Embroidery (navy cashmere-silk twill, 82% cashmere)",
-      "hu": "https://www.dior.com/en_us/fashion/products/683C556B0138_C585",
-      "b": "pair"
-    },
-    "Jeans": {
-      "lp": "Long Slim-Fit Jeans (black cotton denim, five-pocket)",
-      "lu": "https://www.dior.com/en_us/fashion/products/193DS00J342X_C910",
-      "hp": "Long Regular Jeans (blue cotton twill, patchwork knee panels)",
-      "hu": "https://www.dior.com/en_us/fashion/products/693D004A3077_C515",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Pants with Dior Oblique Belt (black virgin wool twill)",
-      "lu": "https://www.dior.com/en_us/fashion/products/033C113C4739_C900",
-      "hp": "Tailored Pants (beige herringbone cashmere and silk, 92% cashmere)",
-      "hu": "https://www.dior.com/en_us/fashion/products/683C141A0092_C120",
-      "b": "pair"
-    },
-    "Sweater": {
-      "lp": "CD Icon Round Neck Sweater (100% cashmere jersey)",
-      "lu": "https://www.dior.com/en_us/fashion/products/513M648A0000_C989",
-      "hp": "Dior Byzance Sweater, Relaxed Fit (wool-cashmere-silk-blend jacquard, ribbed crew neck)",
-      "hu": "https://www.dior.com/en_us/fashion/products/643M644A1D87_C983",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "Zipped Jacket (blue cotton twill)",
-      "lu": "https://www.dior.com/en_us/fashion/products/683D487A3062_C580",
-      "hp": "Zipped Jacket (navy blue lambskin)",
-      "hu": "https://www.dior.com/en_us/fashion/products/693L435A0017_C540",
-      "b": "pair"
-    },
-    "Shoes": {
-      "lp": "Dior Odéon Loafer (black grained calfskin)",
-      "lu": "https://www.dior.com/en_us/fashion/products/3LO114YJK_H969",
-      "hp": "Dior Médaillon Loafer (black smooth calfskin)",
-      "hu": "https://www.dior.com/en_us/fashion/products/3LO224ACB_H900",
-      "b": "pair"
-    }
-  },
-  "price_range_only": ["T-shirt", "Jeans"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.dior.com/en_us/fashion/mens-fashion",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=671&brand_ids[]=15430438",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "season": {
-    "l": "Winter 2026-2027",
-    "t": "runway",
-    "u": "https://www.dior.com/en_us/fashion/mens-fashion/shows/winter-2026-2027-show",
-    "m": "yes"
-  },
-  "craft_evidence": {
-    "owned": "unclear",
-    "owned_d": "Christian Dior SE 2025 annual report p.14 (parent filing): 'les capacites de production et le recours a la sous-traitance sont tres variables selon les produits'; in leather goods Christian Dior uses third-party firms 'pour completer ses fabrications' (implies some own leather-goods manufacturing, no site named); in ready-to-wear and jewelry it 's'approvisionne principalement aupres d'entreprises exterieures'. No owned workshop or town named in the passages read. dior.com 'House of Dreams' page names only 30 Avenue Montaigne as the 1947 debut address, not as a current production site.",
-    "makers": "no",
-    "mills": "NC",
-    "madein": "NC",
-    "countries": "NC - no PDP loaded. Context: annual report says leather-goods subcontracting is located mainly in the brand's country of origin, Italy and Spain (sector-level statement).",
-    "heritage": "dated and placed",
-    "repair": "no",
-    "process": "no",
-    "urls": [
-      "https://www.dior-finance.com/pdf/d/1/1288/2025%20Rapport-annuel-Christian-Dior.pdf",
-      "https://www.dior.com/en_us/fashion/the-house-of-dreams"
-    ],
-    "conf": "low",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Dior Odéon Loafer (black grained calfskin)",
+   "lu": "https://www.dior.com/en_us/fashion/products/3LO114YJK_H969",
+   "hp": "Dior Médaillon Loafer (black smooth calfskin)",
+   "hu": "https://www.dior.com/en_us/fashion/products/3LO224ACB_H900",
+   "b": "pair"
   }
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Jeans"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.dior.com/en_us/fashion/mens-fashion",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=671&brand_ids[]=15430438",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "season": {
+  "l": "Winter 2026-2027",
+  "t": "runway",
+  "u": "https://www.dior.com/en_us/fashion/mens-fashion/shows/winter-2026-2027-show",
+  "m": "yes"
+ },
+ "craft_evidence": {
+  "owned": "unclear",
+  "owned_d": "Christian Dior SE 2025 annual report p.14 (parent filing): 'les capacites de production et le recours a la sous-traitance sont tres variables selon les produits'; in leather goods Christian Dior uses third-party firms 'pour completer ses fabrications' (implies some own leather-goods manufacturing, no site named); in ready-to-wear and jewelry it 's'approvisionne principalement aupres d'entreprises exterieures'. No owned workshop or town named in the passages read. dior.com 'House of Dreams' page names only 30 Avenue Montaigne as the 1947 debut address, not as a current production site.",
+  "makers": "no",
+  "mills": "NC",
+  "madein": "NC",
+  "countries": "NC - no PDP loaded. Context: annual report says leather-goods subcontracting is located mainly in the brand's country of origin, Italy and Spain (sector-level statement).",
+  "heritage": "dated and placed",
+  "repair": "no",
+  "process": "no",
+  "urls": [
+   "https://www.dior-finance.com/pdf/d/1/1288/2025%20Rapport-annuel-Christian-Dior.pdf",
+   "https://www.dior.com/en_us/fashion/the-house-of-dreams"
+  ],
+  "conf": "low",
+  "read": "2026-10-03"
+ }
 }

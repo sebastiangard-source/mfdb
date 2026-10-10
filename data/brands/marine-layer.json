@@ -1,255 +1,525 @@
 {
-  "name": "Marine Layer",
-  "band": "premium",
-  "seat": 13,
-  "dagger": 0,
-  "focus": {
-    "tech": 1,
-    "comfort": 5,
-    "craft": 2,
-    "style": 2
+ "name": "Marine Layer",
+ "band": "premium",
+ "seat": 13,
+ "dagger": 0,
+ "focus": {
+  "tech": 1,
+  "comfort": 5,
+  "craft": 2,
+  "style": 2
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 1,
+  "linen": 2,
+  "cotton": 3,
+  "wool": 1,
+  "synth": 2
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 4,
+  "fuss": -1,
+  "golffice": 0,
+  "shoes": 0,
+  "murica": 2,
+  "boat": 1,
+  "racquet": 2,
+  "whitet": 5,
+  "logo": 2,
+  "western": 1,
+  "rock": 1,
+  "workwear": 2,
+  "outdoor": 2,
+  "surf": 4
+ },
+ "why": "Very soft tees, sweatshirts and casual clothing, much of it in a recycled-cotton blend the company spins itself, sold through its own neighborhood stores.",
+ "origin": "Founded in San Francisco in 2009 by Mike Natenshon, who set out to recreate a favorite worn-out tee.",
+ "chan": [
+  "O",
+  "I"
+ ],
+ "conf": "S",
+ "forgc": [
+  5,
+  4,
+  1
+ ],
+ "shop": "https://www.marinelayer.com/search?q=",
+ "onething": {
+  "p": "Signature Crew tee",
+  "u": "https://www.marinelayer.com/search?q=Signature%20Crew%20tee%20men",
+  "n": "verified ✓"
+ },
+ "prices": [
+  [
+   54,
+   64
+  ],
+  [
+   84,
+   178
+  ],
+  [
+   118,
+   148
+  ],
+  [
+   145,
+   145
+  ],
+  [
+   138,
+   138
+  ],
+  [
+   118,
+   168
+  ],
+  [
+   168,
+   498
+  ],
+  null
+ ],
+ "price_checked": true,
+ "notes": {
+  "comfort": "absurdly soft signature modal knits",
+  "whitet": "Founded on one absurdly soft tee, and still sells itself on it.",
+  "reach": "[authored findability score was 4; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "Every Marine Layer product page sampled states a country of make ('Made responsibly in China' or 'in Cambodia') plus fiber content, but none names a factory or mill. The about page claims in-house fabric development without naming any place, so the checkable fact is country of make only."
+ },
+ "doors": {
+  "c": "full",
+  "n": 57,
+  "cities": [
+   [
+    "Atlanta",
+    "GA",
+    1
+   ],
+   [
+    "Austin",
+    "TX",
+    1
+   ],
+   [
+    "Bellevue",
+    "WA",
+    1
+   ],
+   [
+    "Berkeley",
+    "CA",
+    1
+   ],
+   [
+    "Bethesda",
+    "MD",
+    1
+   ],
+   [
+    "Bloomington",
+    "MN",
+    1
+   ],
+   [
+    "Boston",
+    "MA",
+    1
+   ],
+   [
+    "Boulder",
+    "CO",
+    1
+   ],
+   [
+    "Brooklyn",
+    "NY",
+    1
+   ],
+   [
+    "Cambridge",
+    "MA",
+    1
+   ],
+   [
+    "Charleston",
+    "SC",
+    1
+   ],
+   [
+    "Charlotte",
+    "NC",
+    1
+   ],
+   [
+    "Chestnut Hill",
+    "MA",
+    1
+   ],
+   [
+    "Chicago",
+    "IL",
+    2
+   ],
+   [
+    "Columbus",
+    "OH",
+    1
+   ],
+   [
+    "Corte Madera",
+    "CA",
+    1
+   ],
+   [
+    "Dallas",
+    "TX",
+    1
+   ],
+   [
+    "Dedham",
+    "MA",
+    1
+   ],
+   [
+    "Denver",
+    "CO",
+    2
+   ],
+   [
+    "Fairfax",
+    "VA",
+    1
+   ],
+   [
+    "Houston",
+    "TX",
+    1
+   ],
+   [
+    "Indianapolis",
+    "IN",
+    1
+   ],
+   [
+    "Los Angeles",
+    "CA",
+    1
+   ],
+   [
+    "Lynnfield",
+    "MA",
+    1
+   ],
+   [
+    "Malibu",
+    "CA",
+    1
+   ],
+   [
+    "Manhattan Beach",
+    "CA",
+    1
+   ],
+   [
+    "Nashville",
+    "TN",
+    2
+   ],
+   [
+    "New Orleans",
+    "LA",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    4
+   ],
+   [
+    "Newport Beach",
+    "CA",
+    1
+   ],
+   [
+    "Palo Alto",
+    "CA",
+    1
+   ],
+   [
+    "Philadelphia",
+    "PA",
+    1
+   ],
+   [
+    "Portland",
+    "OR",
+    1
+   ],
+   [
+    "Roseville",
+    "CA",
+    1
+   ],
+   [
+    "San Diego",
+    "CA",
+    2
+   ],
+   [
+    "San Francisco",
+    "CA",
+    2
+   ],
+   [
+    "San Jose",
+    "CA",
+    1
+   ],
+   [
+    "Scottsdale",
+    "AZ",
+    1
+   ],
+   [
+    "Seattle",
+    "WA",
+    2
+   ],
+   [
+    "Short Hills",
+    "NJ",
+    1
+   ],
+   [
+    "Skokie",
+    "IL",
+    1
+   ],
+   [
+    "Studio City",
+    "CA",
+    1
+   ],
+   [
+    "Tigard",
+    "OR",
+    1
+   ],
+   [
+    "Venice Beach",
+    "CA",
+    1
+   ],
+   [
+    "Walnut Creek",
+    "CA",
+    1
+   ],
+   [
+    "Washington",
+    "DC",
+    2
+   ],
+   [
+    "Westport",
+    "CT",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 2,
+  "con": 0
+ },
+ "cities": "57 stores across the US · independent menswear shops, and its own site",
+ "region": {
+  "o": [
+   2560,
+   2561,
+   2564,
+   2565,
+   2567,
+   2574,
+   2578,
+   2586,
+   2594,
+   2598,
+   2605,
+   2608,
+   2610
+  ],
+  "s": [
+   10,
+   14,
+   21,
+   52,
+   53,
+   74,
+   77,
+   86,
+   97,
+   122,
+   128,
+   136,
+   137,
+   142
+  ]
+ },
+ "addmen": true,
+ "site": {
+  "domain": "marinelayer.com",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 2609,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "both",
+  "marks": [
+   "Signature",
+   "Cloud 9",
+   "Flex Terry",
+   "Luxe Jersey",
+   "Stretch Selvage",
+   "Corbet (house). TENCEL/Lyocell",
+   "Supima",
+   "Lycra (licensed)"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 318,
+  "w": 304,
+  "n": 71,
+  "s": 20,
+  "c": 5,
+  "x": 30,
+  "xh": 5,
+  "sp": "one",
+  "sc": [
+   "Active / Bottoms",
+   "Active / Shortsleeve",
+   "Active / Longsleeve"
+  ],
+  "nc": [
+   "Outerwear / Dress",
+   "Bottoms / Pants",
+   "Wovens / Longsleeve"
+  ],
+  "st": "complete"
+ },
+ "garment_links": {
+  "T-shirt": "https://www.marinelayer.com/collections/guys-tees-basics",
+  "Polo": "https://www.marinelayer.com/collections/guys-henleys-polos",
+  "Dress shirt": "https://www.marinelayer.com/collections/guys-shirts",
+  "Dress pants": "https://www.marinelayer.com/collections/guys-pants",
+  "Sweater": "https://www.marinelayer.com/collections/guys-sweaters",
+  "Outerwear": "https://www.marinelayer.com/collections/guys-outerwear"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Signature Crew Tee",
+   "lu": "https://www.marinelayer.com/products/signature-crew-tee-22",
+   "hp": "Luxe 250 Classic Tee",
+   "hu": "https://www.marinelayer.com/products/luxe-250-classic-tee-2",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 2,
-    "cashmere": 1,
-    "linen": 2,
-    "cotton": 3,
-    "wool": 1,
-    "synth": 2
+  "Polo": {
+   "lp": "Luxe Slub Polo",
+   "lu": "https://www.marinelayer.com/products/luxe-slub-polo-2",
+   "hp": "Coastal Merino Sweater Polo",
+   "hu": "https://www.marinelayer.com/products/merino-sweater-polo",
+   "b": "range"
   },
-  "dials": {
-    "dur": 3,
-    "forg": 4,
-    "fuss": -1,
-    "golffice": 0,
-    "shoes": 0,
-    "murica": 2,
-    "boat": 1,
-    "racquet": 2,
-    "whitet": 5,
-    "logo": 2,
-    "western": 1,
-    "rock": 1,
-    "workwear": 2,
-    "outdoor": 2,
-    "surf": 4
+  "Dress shirt": {
+   "lp": "Stretch Selvage Long Sleeve Shirt",
+   "lu": "https://www.marinelayer.com/products/classic-stretch-selvage-shirt-25",
+   "hp": "The Clark Corduroy Shirt",
+   "hu": "https://www.marinelayer.com/products/the-clark-corduroy-shirt-1",
+   "b": "range"
   },
-  "why": "Very soft tees, sweatshirts and casual clothing, much of it in a recycled-cotton blend the company spins itself, sold through its own neighborhood stores.",
-  "origin": "Founded in San Francisco in 2009 by Mike Natenshon, who set out to recreate a favorite worn-out tee.",
-  "chan": ["O", "I"],
-  "conf": "S",
-  "forgc": [5, 4, 1],
-  "shop": "https://www.marinelayer.com/search?q=",
-  "onething": {
-    "p": "Signature Crew tee",
-    "u": "https://www.marinelayer.com/search?q=Signature%20Crew%20tee%20men",
-    "n": "verified ✓"
+  "Jeans": {
+   "lp": "5 Pocket Slim Straight Fit Jean",
+   "lu": "https://www.marinelayer.com/products/original-slim-fit-jean-washed-black",
+   "hp": "5 Pocket Slim Straight Fit Jean",
+   "hu": "https://www.marinelayer.com/products/original-slim-fit-jean-washed-black",
+   "b": "single"
   },
-  "prices": [[54, 64], [84, 178], [118, 148], [145, 145], [138, 138], [118, 168], [168, 498], null],
-  "price_checked": true,
-  "notes": {
-    "comfort": "absurdly soft signature modal knits",
-    "whitet": "Founded on one absurdly soft tee, and still sells itself on it.",
-    "reach": "[authored findability score was 4; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Every Marine Layer product page sampled states a country of make ('Made responsibly in China' or 'in Cambodia') plus fiber content, but none names a factory or mill. The about page claims in-house fabric development without naming any place, so the checkable fact is country of make only."
+  "Dress pants": {
+   "lp": "The Rowan Pleated Trouser - Relaxed Fit",
+   "lu": "https://www.marinelayer.com/products/the-rowan-pleated-trouser-relaxed-fit-1",
+   "hp": "The Rowan Pleated Trouser - Relaxed Fit",
+   "hu": "https://www.marinelayer.com/products/the-rowan-pleated-trouser-relaxed-fit-1",
+   "b": "single"
   },
-  "doors": {
-    "c": "full",
-    "n": 57,
-    "cities": [
-      ["Atlanta", "GA", 1],
-      ["Austin", "TX", 1],
-      ["Bellevue", "WA", 1],
-      ["Berkeley", "CA", 1],
-      ["Bethesda", "MD", 1],
-      ["Bloomington", "MN", 1],
-      ["Boston", "MA", 1],
-      ["Boulder", "CO", 1],
-      ["Brooklyn", "NY", 1],
-      ["Cambridge", "MA", 1],
-      ["Charleston", "SC", 1],
-      ["Charlotte", "NC", 1],
-      ["Chestnut Hill", "MA", 1],
-      ["Chicago", "IL", 2],
-      ["Columbus", "OH", 1],
-      ["Corte Madera", "CA", 1],
-      ["Dallas", "TX", 1],
-      ["Dedham", "MA", 1],
-      ["Denver", "CO", 2],
-      ["Fairfax", "VA", 1],
-      ["Houston", "TX", 1],
-      ["Indianapolis", "IN", 1],
-      ["Los Angeles", "CA", 1],
-      ["Lynnfield", "MA", 1],
-      ["Malibu", "CA", 1],
-      ["Manhattan Beach", "CA", 1],
-      ["Nashville", "TN", 2],
-      ["New Orleans", "LA", 1],
-      ["New York", "NY", 4],
-      ["Newport Beach", "CA", 1],
-      ["Palo Alto", "CA", 1],
-      ["Philadelphia", "PA", 1],
-      ["Portland", "OR", 1],
-      ["Roseville", "CA", 1],
-      ["San Diego", "CA", 2],
-      ["San Francisco", "CA", 2],
-      ["San Jose", "CA", 1],
-      ["Scottsdale", "AZ", 1],
-      ["Seattle", "WA", 2],
-      ["Short Hills", "NJ", 1],
-      ["Skokie", "IL", 1],
-      ["Studio City", "CA", 1],
-      ["Tigard", "OR", 1],
-      ["Venice", "CA", 1],
-      ["Walnut Creek", "CA", 1],
-      ["Washington", "DC", 2],
-      ["Westport", "CT", 1]
-    ],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Sweater": {
+   "lp": "Slub Crew Sweater",
+   "lu": "https://www.marinelayer.com/products/slub-crew-sweater-1",
+   "hp": "California Fair Isle Crew Sweater",
+   "hu": "https://www.marinelayer.com/products/california-fair-isle-crew-sweater",
+   "b": "range"
   },
-  "cities": "57 stores across the US · independent menswear shops, and its own site",
-  "region": {
-    "o": [2030, 2039, 2040, 2041, 2042, 2043, 2047, 2048, 2049, 2050, 2051, 2052, 2056],
-    "s": [10, 14, 21, 52, 53, 74, 77, 86, 97, 122, 128, 136, 137, 142]
-  },
-  "addmen": true,
-  "site": {
-    "domain": "marinelayer.com",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 2609,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "both",
-    "marks": [
-      "Signature",
-      "Cloud 9",
-      "Flex Terry",
-      "Luxe Jersey",
-      "Stretch Selvage",
-      "Corbet (house). TENCEL/Lyocell",
-      "Supima",
-      "Lycra (licensed)"
-    ],
-    "source": "census",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 318,
-    "w": 304,
-    "n": 71,
-    "s": 20,
-    "c": 5,
-    "x": 30,
-    "xh": 5,
-    "sp": "one",
-    "sc": ["Active / Bottoms", "Active / Shortsleeve", "Active / Longsleeve"],
-    "nc": ["Outerwear / Dress", "Bottoms / Pants", "Wovens / Longsleeve"],
-    "st": "complete"
-  },
-  "garment_links": {
-    "T-shirt": "https://www.marinelayer.com/collections/guys-tees-basics",
-    "Polo": "https://www.marinelayer.com/collections/guys-henleys-polos",
-    "Dress shirt": "https://www.marinelayer.com/collections/guys-shirts",
-    "Dress pants": "https://www.marinelayer.com/collections/guys-pants",
-    "Sweater": "https://www.marinelayer.com/collections/guys-sweaters",
-    "Outerwear": "https://www.marinelayer.com/collections/guys-outerwear"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Signature Crew Tee",
-      "lu": "https://www.marinelayer.com/products/signature-crew-tee-22",
-      "hp": "Luxe 250 Classic Tee",
-      "hu": "https://www.marinelayer.com/products/luxe-250-classic-tee-2",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Luxe Slub Polo",
-      "lu": "https://www.marinelayer.com/products/luxe-slub-polo-2",
-      "hp": "Coastal Merino Sweater Polo",
-      "hu": "https://www.marinelayer.com/products/merino-sweater-polo",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Stretch Selvage Long Sleeve Shirt",
-      "lu": "https://www.marinelayer.com/products/classic-stretch-selvage-shirt-25",
-      "hp": "The Clark Corduroy Shirt",
-      "hu": "https://www.marinelayer.com/products/the-clark-corduroy-shirt-1",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "5 Pocket Slim Straight Fit Jean",
-      "lu": "https://www.marinelayer.com/products/original-slim-fit-jean-washed-black",
-      "hp": "5 Pocket Slim Straight Fit Jean",
-      "hu": "https://www.marinelayer.com/products/original-slim-fit-jean-washed-black",
-      "b": "single"
-    },
-    "Dress pants": {
-      "lp": "The Rowan Pleated Trouser - Relaxed Fit",
-      "lu": "https://www.marinelayer.com/products/the-rowan-pleated-trouser-relaxed-fit-1",
-      "hp": "The Rowan Pleated Trouser - Relaxed Fit",
-      "hu": "https://www.marinelayer.com/products/the-rowan-pleated-trouser-relaxed-fit-1",
-      "b": "single"
-    },
-    "Sweater": {
-      "lp": "Slub Crew Sweater",
-      "lu": "https://www.marinelayer.com/products/slub-crew-sweater-1",
-      "hp": "California Fair Isle Crew Sweater",
-      "hu": "https://www.marinelayer.com/products/california-fair-isle-crew-sweater",
-      "b": "range"
-    },
-    "Outerwear": {
-      "lp": "The Arcata Windbreaker",
-      "lu": "https://www.marinelayer.com/products/the-arcata-windbreaker",
-      "hp": "The Beckett Suede Jacket",
-      "hu": "https://www.marinelayer.com/products/the-beckett-suede-jacket",
-      "b": "range"
-    }
-  },
-  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Sweater", "Outerwear"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.marinelayer.com/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=773160",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "certs": {
-    "bcorp": {
-      "e": "Marine Layer"
-    }
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "No owned factory or mill named. About page claims 'we make our own materials too' (fabric development) but names no facility, place or country; PDPs say 'Made responsibly in China/Cambodia', i.e. contracted making.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "every product",
-    "countries": "China 5/6, Cambodia 1/6 (sample of 6 PDPs: flannel shirt, alpaca crewneck, quilted jacket, merino boxer brief, sweater polo, fair isle zip jacket). The bulk products.json carried no origin text; origin appears on the rendered PDPs as 'Made responsibly in ...'.",
-    "heritage": "vague",
-    "repair": "yes",
-    "process": "no",
-    "urls": [
-      "https://www.marinelayer.com/products/suri-alpaca-crewneck-sweater",
-      "https://www.marinelayer.com/pages/respun"
-    ],
-    "conf": "high",
-    "read": "2026-10-03"
+  "Outerwear": {
+   "lp": "The Arcata Windbreaker",
+   "lu": "https://www.marinelayer.com/products/the-arcata-windbreaker",
+   "hp": "The Beckett Suede Jacket",
+   "hu": "https://www.marinelayer.com/products/the-beckett-suede-jacket",
+   "b": "range"
   }
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Sweater",
+  "Outerwear"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.marinelayer.com/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=773160",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "certs": {
+  "bcorp": {
+   "e": "Marine Layer"
+  }
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "No owned factory or mill named. About page claims 'we make our own materials too' (fabric development) but names no facility, place or country; PDPs say 'Made responsibly in China/Cambodia', i.e. contracted making.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "every product",
+  "countries": "China 5/6, Cambodia 1/6 (sample of 6 PDPs: flannel shirt, alpaca crewneck, quilted jacket, merino boxer brief, sweater polo, fair isle zip jacket). The bulk products.json carried no origin text; origin appears on the rendered PDPs as 'Made responsibly in ...'.",
+  "heritage": "vague",
+  "repair": "yes",
+  "process": "no",
+  "urls": [
+   "https://www.marinelayer.com/products/suri-alpaca-crewneck-sweater",
+   "https://www.marinelayer.com/pages/respun"
+  ],
+  "conf": "high",
+  "read": "2026-10-03"
+ }
 }

@@ -1,197 +1,273 @@
 {
-  "name": "Outerknown",
-  "band": "premium",
-  "seat": 24,
-  "dagger": 1,
-  "focus": {
-    "tech": 2,
-    "comfort": 4,
-    "craft": 3,
-    "style": 3
+ "name": "Outerknown",
+ "band": "premium",
+ "seat": 24,
+ "dagger": 1,
+ "focus": {
+  "tech": 2,
+  "comfort": 4,
+  "craft": 3,
+  "style": 3
+ },
+ "fabric": {
+  "denim": 3,
+  "cashmere": 1,
+  "linen": 2,
+  "cotton": 3,
+  "wool": 1,
+  "synth": 3
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 3,
+  "fuss": -1,
+  "golffice": 2,
+  "murica": 2,
+  "boat": 1,
+  "whitet": 2,
+  "logo": 2,
+  "western": 1,
+  "rock": 1,
+  "workwear": 2,
+  "outdoor": 3,
+  "surf": 5
+ },
+ "why": "Surf-influenced casual clothing — shirts, sweats, trunks — made under Fair Trade certification.",
+ "origin": "Founded in 2015 by the surfer Kelly Slater and the designer John Moore.",
+ "chan": [
+  "O",
+  "D"
+ ],
+ "conf": "L",
+ "forgc": [
+  5,
+  3,
+  1
+ ],
+ "shop": "https://www.outerknown.com/search?q=",
+ "onething": {
+  "p": "Blanket Shirt",
+  "u": "https://www.outerknown.com/search?q=Blanket%20Shirt%20men",
+  "n": "verified ✓"
+ },
+ "prices": [
+  [
+   42,
+   68
+  ],
+  [
+   88,
+   88
+  ],
+  [
+   128,
+   168
+  ],
+  [
+   168,
+   228
+  ],
+  [
+   158,
+   158
+  ],
+  [
+   178,
+   348
+  ],
+  [
+   298,
+   298
+  ],
+  null
+ ],
+ "doors": {
+  "c": "full",
+  "n": 5,
+  "cities": [
+   [
+    "Carlsbad",
+    "CA",
+    1
+   ],
+   [
+    "El Segundo",
+    "CA",
+    1
+   ],
+   [
+    "Larkspur",
+    "CA",
+    1
+   ],
+   [
+    "Malibu",
+    "CA",
+    1
+   ],
+   [
+    "Palo Alto",
+    "CA",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 1,
+  "con": 0
+ },
+ "cities": "5 stores — Carlsbad, El Segundo, Larkspur, Malibu, Palo Alto · department stores and independent menswear shops, and its own site",
+ "region": {
+  "o": [],
+  "s": [
+   92,
+   94,
+   83
+  ]
+ },
+ "addmen": true,
+ "site": {
+  "domain": "outerknown.com",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 541,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "no",
+  "origin": "none",
+  "marks": [],
+  "source": "screen_36",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 111,
+  "w": 108,
+  "n": 82,
+  "s": 15,
+  "c": 0,
+  "x": 12,
+  "xh": 7,
+  "sp": "one",
+  "sc": [
+   "Swim Bottoms",
+   "Active Tops",
+   "Swim Tops"
+  ],
+  "nc": [
+   "Tees",
+   "Woven Shirts",
+   "Non-Denim Bottoms"
+  ],
+  "st": "complete"
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Dress shirt",
+  "Jeans",
+  "Sweater"
+ ],
+ "garment_links": {
+  "T-shirt": "https://www.outerknown.com/collections/mens-tees-henleys",
+  "Polo": "https://www.outerknown.com/search?q=polo&f=extra.gender%3AMens",
+  "Dress shirt": "https://www.outerknown.com/collections/mens-shirts",
+  "Jeans": "https://www.outerknown.com/collections/mens-denim",
+  "Dress pants": "https://www.outerknown.com/collections/mens-pants",
+  "Sweater": "https://www.outerknown.com/collections/mens-sweaters-sweatshirts",
+  "Outerwear": "https://www.outerknown.com/collections/mens-outerwear"
+ },
+ "notes": {
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 2; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "Founded by Kelly Slater; boardshorts, trunks and salt-washed cotton are the range.",
+  "craft": "Every rendered PDP states country and region of make (Indonesia, Sri Lanka), denim names Candiani as the mill, and the sustainability page points to a full supplier list on the Open Apparel Registry. It owns nothing, so it sits at 3 at most."
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Industrial Outerknown Label Pocket Tee",
+   "lu": "https://www.outerknown.com/products/industrial-outerknown-label-po-beachwood",
+   "hp": "The S/S Big Heavy Tee",
+   "hu": "https://www.outerknown.com/products/the-s-s-big-heavy-tee-washed-black",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 3,
-    "cashmere": 1,
-    "linen": 2,
-    "cotton": 3,
-    "wool": 1,
-    "synth": 3
+  "Polo": {
+   "lp": "Sun Polo",
+   "lu": "https://www.outerknown.com/products/sun-polo-dolphin-grey",
+   "hp": "Sun Polo",
+   "hu": "https://www.outerknown.com/products/sun-polo-dolphin-grey",
+   "b": "single"
   },
-  "dials": {
-    "dur": 3,
-    "forg": 3,
-    "fuss": -1,
-    "golffice": 2,
-    "murica": 2,
-    "boat": 1,
-    "whitet": 2,
-    "logo": 2,
-    "western": 1,
-    "rock": 1,
-    "workwear": 2,
-    "outdoor": 3,
-    "surf": 5
+  "Dress shirt": {
+   "lp": "The Artist Oxford",
+   "lu": "https://www.outerknown.com/products/the-artist-oxford-oxford-blue",
+   "hp": "Blanket Shirt",
+   "hu": "https://www.outerknown.com/products/blanket-shirt-cola-dual-tone",
+   "b": "range"
   },
-  "why": "Surf-influenced casual clothing — shirts, sweats, trunks — made under Fair Trade certification.",
-  "origin": "Founded in 2015 by the surfer Kelly Slater and the designer John Moore.",
-  "chan": ["O", "D"],
-  "conf": "L",
-  "forgc": [5, 3, 1],
-  "shop": "https://www.outerknown.com/search?q=",
-  "onething": {
-    "p": "Blanket Shirt",
-    "u": "https://www.outerknown.com/search?q=Blanket%20Shirt%20men",
-    "n": "verified ✓"
+  "Jeans": {
+   "lp": "The Traveler Straight Jean",
+   "lu": "https://www.outerknown.com/products/the-traveler-straight-jean-rinse",
+   "hp": "The Heirloom Selvedge",
+   "hu": "https://www.outerknown.com/products/the-heirloom-selvedge-rinse",
+   "b": "range"
   },
-  "prices": [[42, 68], [88, 88], [128, 168], [168, 228], [158, 158], [178, 348], [298, 298], null],
-  "doors": {
-    "c": "full",
-    "n": 5,
-    "cities": [
-      ["Carlsbad", "CA", 1],
-      ["El Segundo", "CA", 1],
-      ["Larkspur", "CA", 1],
-      ["Malibu", "CA", 1],
-      ["Palo Alto", "CA", 1]
-    ],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Dress pants": {
+   "lp": "Nomad Stretch Chino",
+   "lu": "https://www.outerknown.com/products/nomad-stretch-chino-big-dipper",
+   "hp": "Nomad Stretch Chino",
+   "hu": "https://www.outerknown.com/products/nomad-stretch-chino-big-dipper",
+   "b": "single"
   },
-  "cities": "5 stores — Carlsbad, El Segundo, Larkspur, Malibu, Palo Alto · department stores and independent menswear shops, and its own site",
-  "region": {
-    "o": [],
-    "s": [92, 94, 83]
+  "Sweater": {
+   "lp": "Nostalgic Sweater",
+   "lu": "https://www.outerknown.com/products/nostalgic-sweater-ok-heather-charcoal",
+   "hp": "The Ambassador Sweater",
+   "hu": "https://www.outerknown.com/products/the-ambassador-sweater-heather-charcoal",
+   "b": "range"
   },
-  "addmen": true,
-  "site": {
-    "domain": "outerknown.com",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 541,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "no",
-    "origin": "none",
-    "marks": [],
-    "source": "screen_36",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 111,
-    "w": 108,
-    "n": 82,
-    "s": 15,
-    "c": 0,
-    "x": 12,
-    "xh": 7,
-    "sp": "one",
-    "sc": ["Swim Bottoms", "Active Tops", "Swim Tops"],
-    "nc": ["Tees", "Woven Shirts", "Non-Denim Bottoms"],
-    "st": "complete"
-  },
-  "price_range_only": ["T-shirt", "Dress shirt", "Jeans", "Sweater"],
-  "garment_links": {
-    "T-shirt": "https://www.outerknown.com/collections/mens-tees-henleys",
-    "Polo": "https://www.outerknown.com/search?q=polo&f=extra.gender%3AMens",
-    "Dress shirt": "https://www.outerknown.com/collections/mens-shirts",
-    "Jeans": "https://www.outerknown.com/collections/mens-denim",
-    "Dress pants": "https://www.outerknown.com/collections/mens-pants",
-    "Sweater": "https://www.outerknown.com/collections/mens-sweaters-sweatshirts",
-    "Outerwear": "https://www.outerknown.com/collections/mens-outerwear"
-  },
-  "notes": {
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 2; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "Founded by Kelly Slater; boardshorts, trunks and salt-washed cotton are the range.",
-    "craft": "Every rendered PDP states country and region of make (Indonesia, Sri Lanka), denim names Candiani as the mill, and the sustainability page points to a full supplier list on the Open Apparel Registry. It owns nothing, so it sits at 3 at most."
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Industrial Outerknown Label Pocket Tee",
-      "lu": "https://www.outerknown.com/products/industrial-outerknown-label-po-beachwood",
-      "hp": "The S/S Big Heavy Tee",
-      "hu": "https://www.outerknown.com/products/the-s-s-big-heavy-tee-washed-black",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Sun Polo",
-      "lu": "https://www.outerknown.com/products/sun-polo-dolphin-grey",
-      "hp": "Sun Polo",
-      "hu": "https://www.outerknown.com/products/sun-polo-dolphin-grey",
-      "b": "single"
-    },
-    "Dress shirt": {
-      "lp": "The Artist Oxford",
-      "lu": "https://www.outerknown.com/products/the-artist-oxford-oxford-blue",
-      "hp": "Blanket Shirt",
-      "hu": "https://www.outerknown.com/products/blanket-shirt-cola-dual-tone",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "The Traveler Straight Jean",
-      "lu": "https://www.outerknown.com/products/the-traveler-straight-jean-rinse",
-      "hp": "The Heirloom Selvedge",
-      "hu": "https://www.outerknown.com/products/the-heirloom-selvedge-rinse",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Nomad Stretch Chino",
-      "lu": "https://www.outerknown.com/products/nomad-stretch-chino-big-dipper",
-      "hp": "Nomad Stretch Chino",
-      "hu": "https://www.outerknown.com/products/nomad-stretch-chino-big-dipper",
-      "b": "single"
-    },
-    "Sweater": {
-      "lp": "Nostalgic Sweater",
-      "lu": "https://www.outerknown.com/products/nostalgic-sweater-ok-heather-charcoal",
-      "hp": "The Ambassador Sweater",
-      "hu": "https://www.outerknown.com/products/the-ambassador-sweater-heather-charcoal",
-      "b": "range"
-    },
-    "Outerwear": {
-      "lp": "The Woolaroo Jacket",
-      "lu": "https://www.outerknown.com/products/the-woolaroo-jacket-heather-olive",
-      "hp": "The Woolaroo Jacket",
-      "hu": "https://www.outerknown.com/products/the-woolaroo-jacket-heather-olive",
-      "b": "single"
-    }
-  },
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.outerknown.com/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=1557489",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "Sustainability page describes suppliers, FLA accreditation and supply-chain mapping; no owned factory or workshop claimed.",
-    "makers": "some",
-    "mills": "some",
-    "madein": "every product",
-    "countries": "Indonesia (Jawa Tengah) 1/3, Sri Lanka (Sabaragamuwa) 2/3 on rendered PDPs (Blanket Shirt, Field Pant, Uncharted Waffle Crew); products.json body text carries no origin (origin is a separate PDP field)",
-    "heritage": "none",
-    "repair": "yes",
-    "process": "some",
-    "urls": [
-      "https://www.outerknown.com/pages/sustainability",
-      "https://www.outerknown.com/products/blanket-shirt-french-blue-sands-plaid"
-    ],
-    "conf": "medium",
-    "read": "2026-10-03"
+  "Outerwear": {
+   "lp": "The Woolaroo Jacket",
+   "lu": "https://www.outerknown.com/products/the-woolaroo-jacket-heather-olive",
+   "hp": "The Woolaroo Jacket",
+   "hu": "https://www.outerknown.com/products/the-woolaroo-jacket-heather-olive",
+   "b": "single"
   }
+ },
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.outerknown.com/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=1557489",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "Sustainability page describes suppliers, FLA accreditation and supply-chain mapping; no owned factory or workshop claimed.",
+  "makers": "some",
+  "mills": "some",
+  "madein": "every product",
+  "countries": "Indonesia (Jawa Tengah) 1/3, Sri Lanka (Sabaragamuwa) 2/3 on rendered PDPs (Blanket Shirt, Field Pant, Uncharted Waffle Crew); products.json body text carries no origin (origin is a separate PDP field)",
+  "heritage": "none",
+  "repair": "yes",
+  "process": "some",
+  "urls": [
+   "https://www.outerknown.com/pages/sustainability",
+   "https://www.outerknown.com/products/blanket-shirt-french-blue-sands-plaid"
+  ],
+  "conf": "medium",
+  "read": "2026-10-03"
+ }
 }

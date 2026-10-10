@@ -1,201 +1,265 @@
 {
-  "name": "J.Press",
-  "band": "accessible",
-  "seat": 100,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 2,
-    "craft": 3,
-    "style": 3
+ "name": "J.Press",
+ "band": "accessible",
+ "seat": 100,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 2,
+  "craft": 3,
+  "style": 3
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 3,
+  "wool": 3,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 4,
+  "forg": 4,
+  "fuss": 0,
+  "golffice": -3,
+  "status": 2,
+  "finbro": 2,
+  "ivy": 5,
+  "murica": 3,
+  "prep": 4,
+  "racquet": 5,
+  "whitet": 2,
+  "logo": 1,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Ivy League clothing — the sack suit, the oxford shirt, the Shaggy Dog Shetland sweater — largely unchanged since the early 1900s.",
+ "origin": "Founded on the Yale campus in 1902 by Jacobi Press; owned by Onward Kashiyama of Japan since 1986.",
+ "chan": [
+  "O",
+  "W"
+ ],
+ "conf": "M",
+ "forgc": [
+  4,
+  4,
+  3
+ ],
+ "shop": "https://jpress.com/search?q=",
+ "onething": {
+  "p": "Shaggy Dog sweater",
+  "u": "https://jpressonline.com/search?q=Shaggy%20Dog%20sweater",
+  "n": "verified ✓"
+ },
+ "prices": [
+  [
+   45,
+   55
+  ],
+  [
+   95,
+   125
+  ],
+  [
+   185,
+   225
+  ],
+  null,
+  [
+   295,
+   550
+  ],
+  [
+   148,
+   368
+  ],
+  [
+   1295,
+   1950
+  ],
+  null
+ ],
+ "notes": {
+  "ivy": "the source code — the same sack suit since 1902, canonized by the 1965 Japanese photo book Take Ivy",
+  "finbro": "the uniform of the finance bro's grandfather — law professors, old Washington, the bow-tie corner of the firm",
+  "prep": "The shop the Preppy Handbook actually names, still on the same streets. Where other brands reference the register, this one is a primary source for it.",
+  "racquet": "New Haven, and the squash-club register is close to native — the shop was built to dress the people who were already members. Little translation required.",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 2; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "J.Press says many products are made in America (New York, Massachusetts, Connecticut, Georgia) and elsewhere, but names no factory it owns. Its product pages give a country on nearly every item and name the cloth mill for tailoring and dress shirts (Marling & Evans tweed, Thomas Mason). Named mills and clear countries, nothing owned: a 3."
+ },
+ "doors": {
+  "c": "full",
+  "n": 3,
+  "cities": [
+   [
+    "New Haven",
+    "CT",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    1
+   ],
+   [
+    "Washington",
+    "DC",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 0,
+  "con": 0
+ },
+ "cities": "3 stores — New Haven, New York, Washington, and its own site",
+ "region": {
+  "o": [
+   1903,
+   1904
+  ],
+  "s": []
+ },
+ "site": {
+  "domain": "jpress.com",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 2686,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "no",
+  "origin": "none",
+  "marks": [
+   "On house goods: NONE. Harris Tweed 7 (licensed protected cloth appellation, not a performance technology)",
+   "Shaggy Dog 15 (house garment name, never carries (R))",
+   "York Street 1 (sub-line)",
+   "merino 21 / elastane 2 composition_only. All true technology marks on the site sit on STOCKED third-party labels"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 638,
+  "w": 599,
+  "n": 90,
+  "s": 4,
+  "c": 0,
+  "x": 1,
+  "xh": 0,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "Suiting",
+   "Knitwear",
+   "Shirts"
+  ],
+  "st": "complete"
+ },
+ "garment_links": {
+  "T-shirt": "https://jpress.com/collections/t-shirts",
+  "Polo": "https://jpress.com/collections/polos",
+  "Dress shirt": "https://jpress.com/collections/dress-shirts",
+  "Dress pants": "https://jpress.com/collections/dress-trousers",
+  "Sweater": "https://jpress.com/collections/sweaters",
+  "Outerwear": "https://jpress.com/collections/outerwear"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Made-in-USA White Take Ivy T-Shirt",
+   "lu": "https://jpress.com/products/white-take-ivy-tshirt",
+   "hp": "Navy J. Press \"Sheep & Shears\" Logo T-Shirt",
+   "hu": "https://jpress.com/products/j-press-logo-t-shirt",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 1,
-    "linen": 1,
-    "cotton": 3,
-    "wool": 3,
-    "synth": 1
+  "Polo": {
+   "lp": "White Cotton Pique Polo",
+   "lu": "https://jpress.com/products/white-cotton-pique-polo",
+   "hp": "Navy & Red Cotton Jersey Micro-Stripe Polo - Classic Fit",
+   "hu": "https://jpress.com/products/navy-red-cotton-jersey-stripe-polo-classic-fit",
+   "b": "range"
   },
-  "dials": {
-    "dur": 4,
-    "forg": 4,
-    "fuss": 0,
-    "golffice": -3,
-    "status": 2,
-    "finbro": 2,
-    "ivy": 5,
-    "murica": 3,
-    "prep": 4,
-    "racquet": 5,
-    "whitet": 2,
-    "logo": 1,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
+  "Dress shirt": {
+   "lp": "Made-in-USA White Oxford Cloth Button Down Shirt - Slim Fit",
+   "lu": "https://jpress.com/products/made-in-usa-white-oxford-cloth-button-down-shirt-slim-fit",
+   "hp": "Made-in-USA Thomas Mason Blue Banker Stripe Dress Shirt - Classic Fit",
+   "hu": "https://jpress.com/products/thomas-mason-blue-banker-stripe-dress-shirt-classic-fit",
+   "b": "range"
   },
-  "why": "Ivy League clothing — the sack suit, the oxford shirt, the Shaggy Dog Shetland sweater — largely unchanged since the early 1900s.",
-  "origin": "Founded on the Yale campus in 1902 by Jacobi Press; owned by Onward Kashiyama of Japan since 1986.",
-  "chan": ["O", "W"],
-  "conf": "M",
-  "forgc": [4, 4, 3],
-  "shop": "https://jpress.com/search?q=",
-  "onething": {
-    "p": "Shaggy Dog sweater",
-    "u": "https://jpressonline.com/search?q=Shaggy%20Dog%20sweater",
-    "n": "verified ✓"
+  "Dress pants": {
+   "lp": "Made-in-Canada Grey Wool Flannel Pleated Trouser",
+   "lu": "https://jpress.com/products/made-in-canada-grey-wool-flannel-pleated-trouser",
+   "hp": "Medium Grey Fox Air Wool Trouser",
+   "hu": "https://jpress.com/products/medium-grey-fox-air-wool-trouser",
+   "b": "range"
   },
-  "prices": [[45, 55], [95, 125], [185, 225], null, [295, 550], [148, 368], [1295, 1950], null],
-  "notes": {
-    "ivy": "the source code — the same sack suit since 1902, canonized by the 1965 Japanese photo book Take Ivy",
-    "finbro": "the uniform of the finance bro's grandfather — law professors, old Washington, the bow-tie corner of the firm",
-    "prep": "The shop the Preppy Handbook actually names, still on the same streets. Where other brands reference the register, this one is a primary source for it.",
-    "racquet": "New Haven, and the squash-club register is close to native — the shop was built to dress the people who were already members. Little translation required.",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 2; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "J.Press says many products are made in America (New York, Massachusetts, Connecticut, Georgia) and elsewhere, but names no factory it owns. Its product pages give a country on nearly every item and name the cloth mill for tailoring and dress shirts (Marling & Evans tweed, Thomas Mason). Named mills and clear countries, nothing owned: a 3."
+  "Sweater": {
+   "lp": "Made-in-USA Navy Chunky Cotton Crewneck Sweater",
+   "lu": "https://jpress.com/products/navy-chunky-cotton-crewneck-sweater",
+   "hp": "Blue Alpaca/Silk Crewneck Sweater - Classic Fit",
+   "hu": "https://jpress.com/products/alpaca-silk-crewneck-sweater-blue",
+   "b": "pair"
   },
-  "doors": {
-    "c": "full",
-    "n": 3,
-    "cities": [["New Haven", "CT", 1], ["New York", "NY", 1], ["Washington", "DC", 1]],
-    "basis": "master 2026-08-29, pre-recapture"
-  },
-  "cities": "3 stores — New Haven, New York, Washington, and its own site",
-  "region": {
-    "o": [1503, 1505],
-    "s": []
-  },
-  "site": {
-    "domain": "jpress.com",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 2686,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "no",
-    "origin": "none",
-    "marks": [
-      "On house goods: NONE. Harris Tweed 7 (licensed protected cloth appellation, not a performance technology)",
-      "Shaggy Dog 15 (house garment name, never carries (R))",
-      "York Street 1 (sub-line)",
-      "merino 21 / elastane 2 composition_only. All true technology marks on the site sit on STOCKED third-party labels"
-    ],
-    "source": "census",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 638,
-    "w": 599,
-    "n": 90,
-    "s": 4,
-    "c": 0,
-    "x": 1,
-    "xh": 0,
-    "sp": "one",
-    "sc": [],
-    "nc": ["Suiting", "Knitwear", "Shirts"],
-    "st": "complete"
-  },
-  "garment_links": {
-    "T-shirt": "https://jpress.com/collections/t-shirts",
-    "Polo": "https://jpress.com/collections/polos",
-    "Dress shirt": "https://jpress.com/collections/dress-shirts",
-    "Dress pants": "https://jpress.com/collections/dress-trousers",
-    "Sweater": "https://jpress.com/collections/sweaters",
-    "Outerwear": "https://jpress.com/collections/outerwear"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Made-in-USA White Take Ivy T-Shirt",
-      "lu": "https://jpress.com/products/white-take-ivy-tshirt",
-      "hp": "Navy J. Press \"Sheep & Shears\" Logo T-Shirt",
-      "hu": "https://jpress.com/products/j-press-logo-t-shirt",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "White Cotton Pique Polo",
-      "lu": "https://jpress.com/products/white-cotton-pique-polo",
-      "hp": "Navy & Red Cotton Jersey Micro-Stripe Polo - Classic Fit",
-      "hu": "https://jpress.com/products/navy-red-cotton-jersey-stripe-polo-classic-fit",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Made-in-USA White Oxford Cloth Button Down Shirt - Slim Fit",
-      "lu": "https://jpress.com/products/made-in-usa-white-oxford-cloth-button-down-shirt-slim-fit",
-      "hp": "Made-in-USA Thomas Mason Blue Banker Stripe Dress Shirt - Classic Fit",
-      "hu": "https://jpress.com/products/thomas-mason-blue-banker-stripe-dress-shirt-classic-fit",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Made-in-Canada Grey Wool Flannel Pleated Trouser",
-      "lu": "https://jpress.com/products/made-in-canada-grey-wool-flannel-pleated-trouser",
-      "hp": "Medium Grey Fox Air Wool Trouser",
-      "hu": "https://jpress.com/products/medium-grey-fox-air-wool-trouser",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Made-in-USA Navy Chunky Cotton Crewneck Sweater",
-      "lu": "https://jpress.com/products/navy-chunky-cotton-crewneck-sweater",
-      "hp": "Blue Alpaca/Silk Crewneck Sweater - Classic Fit",
-      "hu": "https://jpress.com/products/alpaca-silk-crewneck-sweater-blue",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "Made-in-USA Charcoal Wool/Cashmere Topcoat",
-      "lu": "https://jpress.com/products/3-button-fly-front-wool-coat-charcoal",
-      "hp": "Made-in-USA Navy Cashmere Topcoat",
-      "hu": "https://jpress.com/products/3-button-fly-front-cashmere-coat-navy",
-      "b": "pair"
-    }
-  },
-  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Dress pants"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://jpress.com/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "Pennant"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=793583",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "season": {
-    "l": "Fall '26",
-    "t": "lookbook",
-    "u": "https://jpress.com/blogs/the-j-press-diaries/fall-26-lookbook",
-    "m": "yes"
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "No owned factory named. History page: 'many of our products are made by hand in America — in New York, Massachusetts, Connecticut, Georgia, and more — as well as in Japan, Scotland, England, Italy, and Canada' — states, not factories. Site organises 'Made in USA/Scotland/Italy/Canada/Japan…' collections, i.e. multi-country partner sourcing. Parent Onward Kashiyama (per worklist origin_line) not checked for owned factories making J.Press US product.",
-    "makers": "no",
-    "mills": "some",
-    "madein": "most",
-    "countries": "Product feeds across 3 collections (10 sport coats, 11 shirts, 19 sweaters = 40): USA 15 (all sport coats, 5 dress shirts), Scotland 18/19 sweaters, India 6 madras shirts (3 by tag 'Made in India', 3 by 'woven in India' only); 1 sweater no country. Rendered sport coat PDP confirms 'Made in USA' in visible copy.",
-    "heritage": "dated and placed",
-    "repair": "NC",
-    "process": "some",
-    "urls": [
-      "https://jpress.com/pages/our-history-1",
-      "https://jpress.com/products/marling-evans-windowpane-sport-coat"
-    ],
-    "conf": "medium",
-    "read": "2026-10-03"
+  "Outerwear": {
+   "lp": "Made-in-USA Charcoal Wool/Cashmere Topcoat",
+   "lu": "https://jpress.com/products/3-button-fly-front-wool-coat-charcoal",
+   "hp": "Made-in-USA Navy Cashmere Topcoat",
+   "hu": "https://jpress.com/products/3-button-fly-front-cashmere-coat-navy",
+   "b": "pair"
   }
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Dress pants"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://jpress.com/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "Pennant"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=793583",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "season": {
+  "l": "Fall '26",
+  "t": "lookbook",
+  "u": "https://jpress.com/blogs/the-j-press-diaries/fall-26-lookbook",
+  "m": "yes"
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "No owned factory named. History page: 'many of our products are made by hand in America — in New York, Massachusetts, Connecticut, Georgia, and more — as well as in Japan, Scotland, England, Italy, and Canada' — states, not factories. Site organises 'Made in USA/Scotland/Italy/Canada/Japan…' collections, i.e. multi-country partner sourcing. Parent Onward Kashiyama (per worklist origin_line) not checked for owned factories making J.Press US product.",
+  "makers": "no",
+  "mills": "some",
+  "madein": "most",
+  "countries": "Product feeds across 3 collections (10 sport coats, 11 shirts, 19 sweaters = 40): USA 15 (all sport coats, 5 dress shirts), Scotland 18/19 sweaters, India 6 madras shirts (3 by tag 'Made in India', 3 by 'woven in India' only); 1 sweater no country. Rendered sport coat PDP confirms 'Made in USA' in visible copy.",
+  "heritage": "dated and placed",
+  "repair": "NC",
+  "process": "some",
+  "urls": [
+   "https://jpress.com/pages/our-history-1",
+   "https://jpress.com/products/marling-evans-windowpane-sport-coat"
+  ],
+  "conf": "medium",
+  "read": "2026-10-03"
+ }
 }

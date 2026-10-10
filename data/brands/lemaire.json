@@ -1,203 +1,251 @@
 {
-  "name": "Lemaire",
-  "band": "trueLux",
-  "seat": 188,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 3,
-    "craft": 2,
-    "style": 5
+ "name": "Lemaire",
+ "band": "trueLux",
+ "seat": 188,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 3,
+  "craft": 2,
+  "style": 5
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 2,
+  "linen": 3,
+  "cotton": 3,
+  "wool": 3,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 2,
+  "forg": 3,
+  "fuss": 1,
+  "status": 3,
+  "fren": 5,
+  "avant": 2,
+  "scandi": 2,
+  "whitet": 2,
+  "logo": 1,
+  "western": 1,
+  "rock": 1,
+  "workwear": 2,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Loose, muted clothing with a utilitarian feel, from Paris.",
+ "origin": "Founded in Paris by Christophe Lemaire and Sarah-Linh Tran.",
+ "say": "luh-MAIR",
+ "chan": [
+  "D",
+  "I"
+ ],
+ "conf": "L",
+ "forgc": [
+  5,
+  2,
+  1
+ ],
+ "shop": "https://www.lemaire.fr/search?q=",
+ "onething": {
+  "p": "Twisted pant",
+  "u": "https://www.lemaire.fr/search?q=Twisted%20pant%20men",
+  "n": "verified ✓"
+ },
+ "prices": [
+  [
+   280,
+   365
+  ],
+  [
+   690,
+   690
+  ],
+  [
+   690,
+   1190
+  ],
+  null,
+  [
+   890,
+   1450
+  ],
+  [
+   690,
+   690
+  ],
+  [
+   790,
+   4510
+  ],
+  [
+   970,
+   970
+  ]
+ ],
+ "notes": {
+  "style": "the quiet-drape reference",
+  "fren": "la nonchalance as a design principle",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 2; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "Lemaire owns no making and names no factories or mills; its about page refers only to unnamed partners in Europe and the Mediterranean. Its strength is country-level traceability: a footer PDF gives the making, dyeing and weaving country for every reference (mostly Romania, Italy, Hungary, Portugal). Countries by stage, with no makers named, is a 2 on this scale."
+ },
+ "doors": {
+  "c": "full",
+  "n": 0,
+  "cities": [],
+  "basis": "master 2026-08-29, pre-recapture"
+ },
+ "cities": "No store of its own in the US · department stores and independent menswear shops, and its own site",
+ "region": {
+  "o": [],
+  "s": [
+   3,
+   123
+  ]
+ },
+ "addmen": true,
+ "site": {
+  "domain": "www.lemaire.fr",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 812,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "licensed",
+  "marks": [
+   "Ventile (R) and Harris Tweed (R) - both licensed third-party marks, both printed with the (R) symbol. Generic: water-repellent, technical fabric, waterproof. No house fabric name and no fabrics/technology page."
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 94,
+  "w": 93,
+  "n": 93,
+  "s": 6,
+  "c": 0,
+  "x": 5,
+  "xh": 1,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "coats_jackets",
+   "knitwear_jersey",
+   "shirts"
+  ],
+  "st": "complete"
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Dress shirt",
+  "Outerwear"
+ ],
+ "garment_links": {
+  "T-shirt": "https://www.lemaire.fr/collections/men-jersey",
+  "Dress shirt": "https://www.lemaire.fr/collections/men-shirts",
+  "Jeans": "https://www.lemaire.fr/collections/men-denim",
+  "Dress pants": "https://www.lemaire.fr/collections/men-pants",
+  "Sweater": "https://www.lemaire.fr/collections/men-knitwear-and-jersey",
+  "Outerwear": "https://www.lemaire.fr/collections/men-coats",
+  "Shoes": "https://www.lemaire.fr/collections/men-shoes"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "U-Neck Tee in Rib Jersey",
+   "lu": "https://www.lemaire.fr/products/u-neck-tee-men-wh048-light-cream-lj1016-rib-jersey-ts0037-lj1016-wh048",
+   "hp": "Boxy Tee in Compact Cotton Jersey",
+   "hu": "https://www.lemaire.fr/products/boxy-tee-men-bk999-black-lj1073-compact-cotton-jersey-ts0044-lj1073-bk999",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 2,
-    "cashmere": 2,
-    "linen": 3,
-    "cotton": 3,
-    "wool": 3,
-    "synth": 1
+  "Polo": {
+   "lp": "LS Knitted Polo Top in Mouline Fine Merino Wool",
+   "lu": "https://www.lemaire.fr/products/ls-knitted-polo-top-men-br528-ecorce-lk1072-mouline-fine-merino-wool-ts0031-lk1072-br528",
+   "hp": "LS Knitted Polo Top in Mouline Fine Merino Wool",
+   "hu": "https://www.lemaire.fr/products/ls-knitted-polo-top-men-br528-ecorce-lk1072-mouline-fine-merino-wool-ts0031-lk1072-br528",
+   "b": "single"
   },
-  "dials": {
-    "dur": 2,
-    "forg": 3,
-    "fuss": 1,
-    "status": 3,
-    "fren": 5,
-    "avant": 2,
-    "scandi": 2,
-    "whitet": 2,
-    "logo": 1,
-    "western": 1,
-    "rock": 1,
-    "workwear": 2,
-    "outdoor": 1,
-    "surf": 1
+  "Dress shirt": {
+   "lp": "Two Pockets Shirt in Light Cotton Twill",
+   "lu": "https://www.lemaire.fr/products/two-pockets-shirt-men-bg269-soba-lf1594-light-cotton-twill-sh1306-lf1594-bg269",
+   "hp": "Convertible Collar Shirt in Dry Silk",
+   "hu": "https://www.lemaire.fr/products/convertible-collar-shirt-men-pk003-orchid-lf1308-dry-silk-sh1305-lf1308-pk003",
+   "b": "range"
   },
-  "why": "Loose, muted clothing with a utilitarian feel, from Paris.",
-  "origin": "Founded in Paris by Christophe Lemaire and Sarah-Linh Tran.",
-  "say": "luh-MAIR",
-  "chan": ["D", "I"],
-  "conf": "L",
-  "forgc": [5, 2, 1],
-  "shop": "https://www.lemaire.fr/search?q=",
-  "onething": {
-    "p": "Twisted pant",
-    "u": "https://www.lemaire.fr/search?q=Twisted%20pant%20men",
-    "n": "verified ✓"
+  "Dress pants": {
+   "lp": "Single Pleat Tailored Pants in Tropical Wool Blend",
+   "lu": "https://www.lemaire.fr/products/single-pleat-tailored-pants-men-gr705-moss-lf414-tropical-polywool-pa1332-lf414-gr705",
+   "hp": "Belted Relaxed Pants in Dry Silk",
+   "hu": "https://www.lemaire.fr/products/belted-relaxed-pants-men-br525-toffee-lf1308-dry-silk-pa1353-lf1308-br525",
+   "b": "pair"
   },
-  "prices": [[280, 365], [690, 690], [690, 1190], null, [890, 1450], [690, 690], [790, 4510], [970, 970]],
-  "notes": {
-    "style": "the quiet-drape reference",
-    "fren": "la nonchalance as a design principle",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 2; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Lemaire owns no making and names no factories or mills; its about page refers only to unnamed partners in Europe and the Mediterranean. Its strength is country-level traceability: a footer PDF gives the making, dyeing and weaving country for every reference (mostly Romania, Italy, Hungary, Portugal). Countries by stage, with no makers named, is a 2 on this scale."
+  "Sweater": {
+   "lp": "Crew Neck Sweater in Mouline Fine Merino Wool",
+   "lu": "https://www.lemaire.fr/products/crew-neck-sweater-men-br528-ecorce-lk1072-mouline-fine-merino-wool-po0060-lk1072-br528",
+   "hp": "Crew Neck Sweater in Alpaca Blend (75% alpaca)",
+   "hu": "https://www.lemaire.fr/products/crew-neck-sweater-men-bk996-coal-lk1065-alpaca-blend-po0035-lk1065-bk996",
+   "b": "pair"
   },
-  "doors": {
-    "c": "full",
-    "n": 0,
-    "cities": [],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Outerwear": {
+   "lp": "Trucker Jacket in Heavy Black Denim",
+   "lu": "https://www.lemaire.fr/products/trucker-jacket-men-bk999-black-ld1055-heavy-black-denim-ow1269-ld1055-bk999",
+   "hp": "Leather Blouson in Tumbled Cow Leather",
+   "hu": "https://www.lemaire.fr/products/leather-blouson-men-br514-charred-oak-ll0145",
+   "b": "range"
   },
-  "cities": "No store of its own in the US · department stores and independent menswear shops, and its own site",
-  "region": {
-    "o": [],
-    "s": [3, 123]
-  },
-  "addmen": true,
-  "site": {
-    "domain": "www.lemaire.fr",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 812,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "licensed",
-    "marks": [
-      "Ventile (R) and Harris Tweed (R) - both licensed third-party marks, both printed with the (R) symbol. Generic: water-repellent, technical fabric, waterproof. No house fabric name and no fabrics/technology page."
-    ],
-    "source": "census",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 94,
-    "w": 93,
-    "n": 93,
-    "s": 6,
-    "c": 0,
-    "x": 5,
-    "xh": 1,
-    "sp": "one",
-    "sc": [],
-    "nc": ["coats_jackets", "knitwear_jersey", "shirts"],
-    "st": "complete"
-  },
-  "price_range_only": ["T-shirt", "Dress shirt", "Outerwear"],
-  "garment_links": {
-    "T-shirt": "https://www.lemaire.fr/collections/men-jersey",
-    "Dress shirt": "https://www.lemaire.fr/collections/men-shirts",
-    "Jeans": "https://www.lemaire.fr/collections/men-denim",
-    "Dress pants": "https://www.lemaire.fr/collections/men-pants",
-    "Sweater": "https://www.lemaire.fr/collections/men-knitwear-and-jersey",
-    "Outerwear": "https://www.lemaire.fr/collections/men-coats",
-    "Shoes": "https://www.lemaire.fr/collections/men-shoes"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "U-Neck Tee in Rib Jersey",
-      "lu": "https://www.lemaire.fr/products/u-neck-tee-men-wh048-light-cream-lj1016-rib-jersey-ts0037-lj1016-wh048",
-      "hp": "Boxy Tee in Compact Cotton Jersey",
-      "hu": "https://www.lemaire.fr/products/boxy-tee-men-bk999-black-lj1073-compact-cotton-jersey-ts0044-lj1073-bk999",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "LS Knitted Polo Top in Mouline Fine Merino Wool",
-      "lu": "https://www.lemaire.fr/products/ls-knitted-polo-top-men-br528-ecorce-lk1072-mouline-fine-merino-wool-ts0031-lk1072-br528",
-      "hp": "LS Knitted Polo Top in Mouline Fine Merino Wool",
-      "hu": "https://www.lemaire.fr/products/ls-knitted-polo-top-men-br528-ecorce-lk1072-mouline-fine-merino-wool-ts0031-lk1072-br528",
-      "b": "single"
-    },
-    "Dress shirt": {
-      "lp": "Two Pockets Shirt in Light Cotton Twill",
-      "lu": "https://www.lemaire.fr/products/two-pockets-shirt-men-bg269-soba-lf1594-light-cotton-twill-sh1306-lf1594-bg269",
-      "hp": "Convertible Collar Shirt in Dry Silk",
-      "hu": "https://www.lemaire.fr/products/convertible-collar-shirt-men-pk003-orchid-lf1308-dry-silk-sh1305-lf1308-pk003",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Single Pleat Tailored Pants in Tropical Wool Blend",
-      "lu": "https://www.lemaire.fr/products/single-pleat-tailored-pants-men-gr705-moss-lf414-tropical-polywool-pa1332-lf414-gr705",
-      "hp": "Belted Relaxed Pants in Dry Silk",
-      "hu": "https://www.lemaire.fr/products/belted-relaxed-pants-men-br525-toffee-lf1308-dry-silk-pa1353-lf1308-br525",
-      "b": "pair"
-    },
-    "Sweater": {
-      "lp": "Crew Neck Sweater in Mouline Fine Merino Wool",
-      "lu": "https://www.lemaire.fr/products/crew-neck-sweater-men-br528-ecorce-lk1072-mouline-fine-merino-wool-po0060-lk1072-br528",
-      "hp": "Crew Neck Sweater in Alpaca Blend (75% alpaca)",
-      "hu": "https://www.lemaire.fr/products/crew-neck-sweater-men-bk996-coal-lk1065-alpaca-blend-po0035-lk1065-bk996",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "Trucker Jacket in Heavy Black Denim",
-      "lu": "https://www.lemaire.fr/products/trucker-jacket-men-bk999-black-ld1055-heavy-black-denim-ow1269-ld1055-bk999",
-      "hp": "Leather Blouson in Tumbled Cow Leather",
-      "hu": "https://www.lemaire.fr/products/leather-blouson-men-br514-charred-oak-ll0145",
-      "b": "range"
-    },
-    "Shoes": {
-      "lp": "Formal Slip On in Shiny Vegetable Leather (loafer)",
-      "lu": "https://www.lemaire.fr/products/formal-slip-on-men-br489-chocolate-ll0106-shiny-vegetable-leather-fo0296-ll0106-br489",
-      "hp": "Formal Slip On in Shiny Vegetable Leather (loafer)",
-      "hu": "https://www.lemaire.fr/products/formal-slip-on-men-br489-chocolate-ll0106-shiny-vegetable-leather-fo0296-ll0106-br489",
-      "b": "single"
-    }
-  },
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.lemaire.fr/ (US market)",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=295938",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "season": {
-    "l": "Autumn/Winter 2026",
-    "t": "lookbook",
-    "u": "https://www.lemaire.fr/pages/autumn-winter-2026-lookbook",
-    "m": "yes"
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "About page: 'Most manufacturing partners are based in Europe and around the Mediterranean basin'; fabrics 'sourced primarily from Europe and Japan'. No owned workshop or factory named; Paris address (11 Place des Vosges) is the house/studio, not a making site.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "every product",
-    "countries": "PDP shows a 'Made in' field that rendered as a placeholder in the fetch (country loaded client-side - not seen on PDP). The footer AGEC traceability PDF (updated 19 Aug 2026, ~160 references) gives confection / dyeing-finishing / weaving-knitting country for every reference: confection roughly Romania ~45, Italy ~35, Hungary ~25, Portugal ~15, Tunisia/Morocco/Madagascar ~10 each, other ~10. Spot checks: car coat CO1162 Hungary (cloth Italy); shirt SH1305 Hungary (Italy); blouson OW1248 Romania (Japan); denim PA1335 Italy; parka OW1292 Romania (Italy); shoes FO0134 Portugal; knit PO0052 Portugal (dye Italy).",
-    "heritage": "dated and placed",
-    "repair": "no",
-    "process": "some",
-    "urls": [
-      "https://cdn.shopify.com/s/files/1/0431/7954/0638/files/FOOTER_AGEC_26W_-_CORRECTION_LDC.pdf?v=1788190833",
-      "https://www.lemaire.fr/pages/about-lemaire"
-    ],
-    "conf": "high",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Formal Slip On in Shiny Vegetable Leather (loafer)",
+   "lu": "https://www.lemaire.fr/products/formal-slip-on-men-br489-chocolate-ll0106-shiny-vegetable-leather-fo0296-ll0106-br489",
+   "hp": "Formal Slip On in Shiny Vegetable Leather (loafer)",
+   "hu": "https://www.lemaire.fr/products/formal-slip-on-men-br489-chocolate-ll0106-shiny-vegetable-leather-fo0296-ll0106-br489",
+   "b": "single"
   }
+ },
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.lemaire.fr/ (US market)",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=295938",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "season": {
+  "l": "Autumn/Winter 2026",
+  "t": "lookbook",
+  "u": "https://www.lemaire.fr/pages/autumn-winter-2026-lookbook",
+  "m": "yes"
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "About page: 'Most manufacturing partners are based in Europe and around the Mediterranean basin'; fabrics 'sourced primarily from Europe and Japan'. No owned workshop or factory named; Paris address (11 Place des Vosges) is the house/studio, not a making site.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "every product",
+  "countries": "PDP shows a 'Made in' field that rendered as a placeholder in the fetch (country loaded client-side - not seen on PDP). The footer AGEC traceability PDF (updated 19 Aug 2026, ~160 references) gives confection / dyeing-finishing / weaving-knitting country for every reference: confection roughly Romania ~45, Italy ~35, Hungary ~25, Portugal ~15, Tunisia/Morocco/Madagascar ~10 each, other ~10. Spot checks: car coat CO1162 Hungary (cloth Italy); shirt SH1305 Hungary (Italy); blouson OW1248 Romania (Japan); denim PA1335 Italy; parka OW1292 Romania (Italy); shoes FO0134 Portugal; knit PO0052 Portugal (dye Italy).",
+  "heritage": "dated and placed",
+  "repair": "no",
+  "process": "some",
+  "urls": [
+   "https://cdn.shopify.com/s/files/1/0431/7954/0638/files/FOOTER_AGEC_26W_-_CORRECTION_LDC.pdf?v=1788190833",
+   "https://www.lemaire.fr/pages/about-lemaire"
+  ],
+  "conf": "high",
+  "read": "2026-10-03"
+ }
 }

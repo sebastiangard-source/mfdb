@@ -1,194 +1,244 @@
 {
-  "name": "Borgo28",
-  "band": "accessible",
-  "seat": 96,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 3,
-    "craft": 2,
-    "style": 3
+ "name": "Borgo28",
+ "band": "accessible",
+ "seat": 96,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 3,
+  "craft": 2,
+  "style": 3
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 2,
+  "linen": 4,
+  "cotton": 5,
+  "wool": 3,
+  "synth": 2
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 3,
+  "fuss": 2,
+  "status": 2,
+  "ital": 3,
+  "whitet": 2,
+  "logo": 2,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Sport shirts and casual clothing made in Italy and Portugal, sold through specialty stores.",
+ "origin": "Founded in 2010 by Shayne Regan, out of his design studio; named for an address.",
+ "chan": [
+  "I",
+  "X"
+ ],
+ "conf": "L",
+ "forgc": [
+  3,
+  3,
+  1
+ ],
+ "onething": {
+  "p": "The sport shirt",
+  "u": "https://borgo28.com/collections/shirts",
+  "n": "verified — 67 styles against 42 knits, by far the deepest category the house makes"
+ },
+ "prices": [
+  [
+   78,
+   178
+  ],
+  [
+   145,
+   298
+  ],
+  [
+   170,
+   238
+  ],
+  [
+   175,
+   198
+  ],
+  [
+   175,
+   298
+  ],
+  [
+   175,
+   348
+  ],
+  [
+   225,
+   725
+  ],
+  null
+ ],
+ "notes": {
+  "linen": "35 of 271 clothing styles are linen-dominant, high for a house this size",
+  "ital": "Italian and Portuguese make, American design and ownership",
+  "shoes": "the eight shoes on its site are Woolloomooloo Shoe, not the house's own",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 3; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "cotton": "Sport shirts in Italian and Portuguese cotton; the shirting is the range.",
+  "craft": "Borgo28's about page says it works with 'select Italian and Portuguese factories' but names none, and its product pages name neither maker nor mill. About half of sampled product pages say Made in Italy; the rest give no country. Countries of make and nothing more: a 2."
+ },
+ "doors": {
+  "c": "full",
+  "n": 0,
+  "cities": [],
+  "basis": "master 2026-08-29, pre-recapture"
+ },
+ "cities": "No store of its own in the US · independent menswear shops, and its own site",
+ "site": {
+  "domain": "borgo28.com",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 315,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "licensed",
+  "marks": [
+   "Only third-party FIBRE brands, every one of them in composition position - nothing else. Tencel(TM) on 4 of 307 house products (verbatim: '45% cotton, 22% Tencel(TM), 17% acrylic, 16% viscose'), Modal(TM) 1, Supima 1, Lycra 2 ('65% merino wool, 33% nylon, 2% Lycra'), lyocell 3 (lower-case, generic f"
+  ],
+  "source": "census_204",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 287,
+  "w": 287,
+  "n": 95,
+  "s": 4,
+  "c": 1,
+  "x": 18,
+  "xh": 4,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "sport shirts",
+   "pants",
+   "jackets"
+  ],
+  "st": "complete"
+ },
+ "region": {
+  "o": [],
+  "s": [
+   150
+  ]
+ },
+ "shop": "https://borgo28.com/search?q=",
+ "garment_links": {
+  "T-shirt": "https://borgo28.com/collections/tee-shirts",
+  "Polo": "https://borgo28.com/collections/polo-shirts",
+  "Dress shirt": "https://borgo28.com/collections/dress-shirts",
+  "Dress pants": "https://borgo28.com/collections/pants",
+  "Sweater": "https://borgo28.com/collections/sweaters",
+  "Outerwear": "https://borgo28.com/collections/outerwear"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Summer Pima Cotton Jersey V-Neck Tee Shirt",
+   "lu": "https://borgo28.com/products/32624-ss-summer-jersey-pima-v-neck-1",
+   "hp": "Linen Notch-Neck Tee Shirt",
+   "hu": "https://borgo28.com/products/32779-linen-notch-neck-tee-shirt",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 2,
-    "cashmere": 2,
-    "linen": 4,
-    "cotton": 5,
-    "wool": 3,
-    "synth": 2
+  "Polo": {
+   "lp": "Seersucker Garment-Dyed Polo Shirt",
+   "lu": "https://borgo28.com/products/32583-ss-gd-seersucker-polo-1",
+   "hp": "Stripe Collar Notch-Neck Polo Shirt",
+   "hu": "https://borgo28.com/products/32798-stripe-collar-notch-neck-polo-shirt",
+   "b": "range"
   },
-  "dials": {
-    "dur": 3,
-    "forg": 3,
-    "fuss": 2,
-    "status": 2,
-    "ital": 3,
-    "whitet": 2,
-    "logo": 2,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
+  "Dress shirt": {
+   "lp": "Denim Twill Dress Shirt",
+   "lu": "https://borgo28.com/products/32836-denim-twill-dress-shirt",
+   "hp": "Pure Cotton Long-Sleeve Sport Shirt (120s two-ply, spread collar; handle 'dress-shirt')",
+   "hu": "https://borgo28.com/products/32767-pure-cotton-long-sleeve-dress-shirt",
+   "b": "range"
   },
-  "why": "Sport shirts and casual clothing made in Italy and Portugal, sold through specialty stores.",
-  "origin": "Founded in 2010 by Shayne Regan, out of his design studio; named for an address.",
-  "chan": ["I", "X"],
-  "conf": "L",
-  "forgc": [3, 3, 1],
-  "onething": {
-    "p": "The sport shirt",
-    "u": "https://borgo28.com/collections/shirts",
-    "n": "verified — 67 styles against 42 knits, by far the deepest category the house makes"
+  "Jeans": {
+   "lp": "Italian Stretch Denim Jean",
+   "lu": "https://borgo28.com/products/32275-italian-stretch-denim-jean",
+   "hp": "Bull Denim Boot Cut Jeans",
+   "hu": "https://borgo28.com/products/32738-bull-denim-boot-cut-jeans-1",
+   "b": "range"
   },
-  "prices": [[78, 178], [145, 298], [170, 238], [175, 198], [175, 298], [175, 348], [225, 725], null],
-  "notes": {
-    "linen": "35 of 271 clothing styles are linen-dominant, high for a house this size",
-    "ital": "Italian and Portuguese make, American design and ownership",
-    "shoes": "the eight shoes on its site are Woolloomooloo Shoe, not the house's own",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 3; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "cotton": "Sport shirts in Italian and Portuguese cotton; the shirting is the range.",
-    "craft": "Borgo28's about page says it works with 'select Italian and Portuguese factories' but names none, and its product pages name neither maker nor mill. About half of sampled product pages say Made in Italy; the rest give no country. Countries of make and nothing more: a 2."
+  "Dress pants": {
+   "lp": "Flat-Front Diamond Dobby Pant",
+   "lu": "https://borgo28.com/products/32552-atwater-diamond-dobby-1",
+   "hp": "Wool-Cashmere Houndstooth Check Pant",
+   "hu": "https://borgo28.com/products/32909-wool-cashmere-houndstooth-check-pant",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 0,
-    "cities": [],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Sweater": {
+   "lp": "Merino Wool Crewneck Sweater",
+   "lu": "https://borgo28.com/products/32886-merino-wool-crewneck-sweater",
+   "hp": "Feather-Weight Italian Cashmere Raglan Sweater",
+   "hu": "https://borgo28.com/products/32939-feather-weight-italian-cashmere-raglan-sweater",
+   "b": "pair"
   },
-  "cities": "No store of its own in the US · independent menswear shops, and its own site",
-  "site": {
-    "domain": "borgo28.com",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 315,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "licensed",
-    "marks": [
-      "Only third-party FIBRE brands, every one of them in composition position - nothing else. Tencel(TM) on 4 of 307 house products (verbatim: '45% cotton, 22% Tencel(TM), 17% acrylic, 16% viscose'), Modal(TM) 1, Supima 1, Lycra 2 ('65% merino wool, 33% nylon, 2% Lycra'), lyocell 3 (lower-case, generic f"
-    ],
-    "source": "census_204",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 287,
-    "w": 287,
-    "n": 95,
-    "s": 4,
-    "c": 1,
-    "x": 18,
-    "xh": 4,
-    "sp": "one",
-    "sc": [],
-    "nc": ["sport shirts", "pants", "jackets"],
-    "st": "complete"
-  },
-  "region": {
-    "o": [],
-    "s": [150]
-  },
-  "shop": "https://borgo28.com/search?q=",
-  "garment_links": {
-    "T-shirt": "https://borgo28.com/collections/tee-shirts",
-    "Polo": "https://borgo28.com/collections/polo-shirts",
-    "Dress shirt": "https://borgo28.com/collections/dress-shirts",
-    "Dress pants": "https://borgo28.com/collections/pants",
-    "Sweater": "https://borgo28.com/collections/sweaters",
-    "Outerwear": "https://borgo28.com/collections/outerwear"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Summer Pima Cotton Jersey V-Neck Tee Shirt",
-      "lu": "https://borgo28.com/products/32624-ss-summer-jersey-pima-v-neck-1",
-      "hp": "Linen Notch-Neck Tee Shirt",
-      "hu": "https://borgo28.com/products/32779-linen-notch-neck-tee-shirt",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Seersucker Garment-Dyed Polo Shirt",
-      "lu": "https://borgo28.com/products/32583-ss-gd-seersucker-polo-1",
-      "hp": "Stripe Collar Notch-Neck Polo Shirt",
-      "hu": "https://borgo28.com/products/32798-stripe-collar-notch-neck-polo-shirt",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Denim Twill Dress Shirt",
-      "lu": "https://borgo28.com/products/32836-denim-twill-dress-shirt",
-      "hp": "Pure Cotton Long-Sleeve Sport Shirt (120s two-ply, spread collar; handle 'dress-shirt')",
-      "hu": "https://borgo28.com/products/32767-pure-cotton-long-sleeve-dress-shirt",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Italian Stretch Denim Jean",
-      "lu": "https://borgo28.com/products/32275-italian-stretch-denim-jean",
-      "hp": "Bull Denim Boot Cut Jeans",
-      "hu": "https://borgo28.com/products/32738-bull-denim-boot-cut-jeans-1",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Flat-Front Diamond Dobby Pant",
-      "lu": "https://borgo28.com/products/32552-atwater-diamond-dobby-1",
-      "hp": "Wool-Cashmere Houndstooth Check Pant",
-      "hu": "https://borgo28.com/products/32909-wool-cashmere-houndstooth-check-pant",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Merino Wool Crewneck Sweater",
-      "lu": "https://borgo28.com/products/32886-merino-wool-crewneck-sweater",
-      "hp": "Feather-Weight Italian Cashmere Raglan Sweater",
-      "hu": "https://borgo28.com/products/32939-feather-weight-italian-cashmere-raglan-sweater",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "Cotton-Linen Jogger Jacket",
-      "lu": "https://borgo28.com/products/32782-cotton-linen-jogger-jacket",
-      "hp": "Icon Sueded Leather Jacket",
-      "hu": "https://borgo28.com/products/32326-icon-sueded-leather-jacket",
-      "b": "range"
-    }
-  },
-  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants", "Outerwear"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://borgo28.com/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?search_text=Borgo28&catalog[]=5",
-      "m": "text search",
-      "n": "No Vinted brand entry; keyword search in Men"
-    }
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "About page: Borgo28 'partners with select Italian and Portuguese factories', so it does not own the making; the name comes from Borgo Ognissanti 28, the Florence street where the brand began. No factory named.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "some",
-    "countries": "Italy 4/8; no country stated on 4/8 (sample of 8 PDPs: 2 sport shirts and 1 merino sweater and 1 knit blazer say 'Made in Italy'; cashmere V-neck, two pants, detachable-collar blazer state none). About page names Italy and Portugal as partner countries.",
-    "heritage": "vague",
-    "repair": "no",
-    "process": "no",
-    "urls": [
-      "https://borgo28.com/pages/about-us",
-      "https://borgo28.com/products/32886-merino-wool-crewneck-sweater"
-    ],
-    "conf": "high",
-    "read": "2026-10-03"
+  "Outerwear": {
+   "lp": "Cotton-Linen Jogger Jacket",
+   "lu": "https://borgo28.com/products/32782-cotton-linen-jogger-jacket",
+   "hp": "Icon Sueded Leather Jacket",
+   "hu": "https://borgo28.com/products/32326-icon-sueded-leather-jacket",
+   "b": "range"
   }
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants",
+  "Outerwear"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://borgo28.com/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?search_text=Borgo28&catalog[]=5",
+   "m": "text search",
+   "n": "No Vinted brand entry; keyword search in Men"
+  }
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "About page: Borgo28 'partners with select Italian and Portuguese factories', so it does not own the making; the name comes from Borgo Ognissanti 28, the Florence street where the brand began. No factory named.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "some",
+  "countries": "Italy 4/8; no country stated on 4/8 (sample of 8 PDPs: 2 sport shirts and 1 merino sweater and 1 knit blazer say 'Made in Italy'; cashmere V-neck, two pants, detachable-collar blazer state none). About page names Italy and Portugal as partner countries.",
+  "heritage": "vague",
+  "repair": "no",
+  "process": "no",
+  "urls": [
+   "https://borgo28.com/pages/about-us",
+   "https://borgo28.com/products/32886-merino-wool-crewneck-sweater"
+  ],
+  "conf": "high",
+  "read": "2026-10-03"
+ }
 }

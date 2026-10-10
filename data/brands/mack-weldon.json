@@ -1,179 +1,246 @@
 {
-  "name": "Mack Weldon",
-  "band": "premium",
-  "seat": 4,
-  "dagger": 1,
-  "focus": {
-    "tech": 4,
-    "comfort": 4,
-    "craft": 2,
-    "style": 2
+ "name": "Mack Weldon",
+ "band": "premium",
+ "seat": 4,
+ "dagger": 1,
+ "focus": {
+  "tech": 4,
+  "comfort": 4,
+  "craft": 2,
+  "style": 2
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 3,
+  "wool": 2,
+  "synth": 4
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 3,
+  "fuss": 2,
+  "golffice": 1,
+  "shoes": 0,
+  "racquet": 1,
+  "whitet": 3,
+  "logo": 1,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 2,
+  "surf": 1
+ },
+ "why": "Men's underwear, socks, tees and casual basics in fabrics the company develops with its mills, sold direct.",
+ "origin": "Founded in New York in 2012 by Brian Berger.",
+ "chan": [
+  "W",
+  "O",
+  "D"
+ ],
+ "conf": "L",
+ "forgc": [
+  3,
+  5,
+  1
+ ],
+ "shop": "https://mackweldon.com/search?q=",
+ "onething": {
+  "p": "Sunday Lounge pant",
+  "u": "https://mackweldon.com/search?q=Sunday%20Lounge%20pant%20men",
+  "n": "verified ✓"
+ },
+ "prices": [
+  [
+   48,
+   88
+  ],
+  [
+   78,
+   218
+  ],
+  [
+   118,
+   138
+  ],
+  "?",
+  [
+   138,
+   138
+  ],
+  [
+   198,
+   218
+  ],
+  [
+   168,
+   258
+  ],
+  null
+ ],
+ "notes": {
+  "synth": "co-developed technical blends",
+  "whitet": "the Pima tee is a named, developed product — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 2; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "Mack Weldon names no factory, mill or owned facility; its FAQ states it manufactures in WRAP-certified factories in Thailand, Peru, China, Egypt and Vietnam. Product pages read show no country of origin, so the only checkable making fact is that site-level country list. [ruled by Sebastian 4 Oct 2026]"
+ },
+ "doors": {
+  "c": "full",
+  "n": 1,
+  "cities": [
+   [
+    "New York",
+    "NY",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 0,
+  "con": 0
+ },
+ "cities": "One store, in New York · department stores, and its own site",
+ "region": {
+  "o": [
+   2525
+  ],
+  "s": []
+ },
+ "site": {
+  "domain": "mackweldon.com",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 322,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "licensed",
+  "marks": [
+   "18-Hour Jersey",
+   "ACE",
+   "AIRKNITx",
+   "Ionic+",
+   "SILVER",
+   "Thermolite",
+   "WARMKNIT"
+  ],
+  "source": "origin_8",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 232,
+  "w": 231,
+  "n": 59,
+  "s": 33,
+  "c": 8,
+  "x": 69,
+  "xh": 41,
+  "sp": "one",
+  "sc": [
+   "Accessories"
+  ],
+  "nc": [
+   "Tops",
+   "Bottoms",
+   "Underwear"
+  ],
+  "st": "complete"
+ },
+ "garment_links": {
+  "T-shirt": "https://mackweldon.com/collections/t-shirts",
+  "Polo": "https://mackweldon.com/collections/polos",
+  "Dress shirt": "https://mackweldon.com/collections/button-ups",
+  "Dress pants": "https://mackweldon.com/collections/pants",
+  "Sweater": "https://mackweldon.com/collections/sweaters",
+  "Outerwear": "https://mackweldon.com/collections/outerwear"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Pima Crew Neck T-Shirt",
+   "lu": "https://mackweldon.com/products/pima-crew-neck-t-shirt",
+   "hp": "SILVER Pique T-Shirt",
+   "hu": "https://mackweldon.com/products/silver-pique-t-shirt",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 1,
-    "linen": 1,
-    "cotton": 3,
-    "wool": 2,
-    "synth": 4
+  "Polo": {
+   "lp": "Pima T-Shirt Polo",
+   "lu": "https://mackweldon.com/products/pima-t-shirt-polo",
+   "hp": "Tech Merino Sweater Polo",
+   "hu": "https://mackweldon.com/products/tech-merino-sweater-polo",
+   "b": "range"
   },
-  "dials": {
-    "dur": 3,
-    "forg": 3,
-    "fuss": 2,
-    "golffice": 1,
-    "shoes": 0,
-    "racquet": 1,
-    "whitet": 3,
-    "logo": 1,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 2,
-    "surf": 1
+  "Dress shirt": {
+   "lp": "Dean Oxford Shirt",
+   "lu": "https://mackweldon.com/products/dean-oxford-shirt",
+   "hp": "Linen Button Up",
+   "hu": "https://mackweldon.com/products/linen-button-up",
+   "b": "range"
   },
-  "why": "Men's underwear, socks, tees and casual basics in fabrics the company develops with its mills, sold direct.",
-  "origin": "Founded in New York in 2012 by Brian Berger.",
-  "chan": ["W", "O", "D"],
-  "conf": "L",
-  "forgc": [3, 5, 1],
-  "shop": "https://mackweldon.com/search?q=",
-  "onething": {
-    "p": "Sunday Lounge pant",
-    "u": "https://mackweldon.com/search?q=Sunday%20Lounge%20pant%20men",
-    "n": "verified ✓"
+  "Dress pants": {
+   "lp": "Stretch Twill Chino - Classic Fit",
+   "lu": "https://mackweldon.com/products/stretch-twill-chino-classic-fit",
+   "hp": "Stretch Twill Chino - Classic Fit",
+   "hu": "https://mackweldon.com/products/stretch-twill-chino-classic-fit",
+   "b": "single"
   },
-  "prices": [[48, 88], [78, 218], [118, 138], "?", [138, 138], [198, 218], [168, 258], null],
-  "notes": {
-    "synth": "co-developed technical blends",
-    "whitet": "the Pima tee is a named, developed product — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 2; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Mack Weldon names no factory, mill or owned facility; its FAQ states it manufactures in WRAP-certified factories in Thailand, Peru, China, Egypt and Vietnam. Product pages read show no country of origin, so the only checkable making fact is that site-level country list. [ruled by Sebastian 4 Oct 2026]"
+  "Sweater": {
+   "lp": "Tech Merino Waffle Crew Neck Sweater",
+   "lu": "https://mackweldon.com/products/tech-merino-waffle-crew-neck-sweater",
+   "hp": "Tech Cashmere Crew Neck Sweater",
+   "hu": "https://mackweldon.com/products/tech-cashmere-crew-neck-sweater",
+   "b": "pair"
   },
-  "doors": {
-    "c": "full",
-    "n": 1,
-    "cities": [["New York", "NY", 1]],
-    "basis": "master 2026-08-29, pre-recapture"
-  },
-  "cities": "One store, in New York · department stores, and its own site",
-  "region": {
-    "o": [1997],
-    "s": []
-  },
-  "site": {
-    "domain": "mackweldon.com",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 322,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "licensed",
-    "marks": ["18-Hour Jersey", "ACE", "AIRKNITx", "Ionic+", "SILVER", "Thermolite", "WARMKNIT"],
-    "source": "origin_8",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 232,
-    "w": 231,
-    "n": 59,
-    "s": 33,
-    "c": 8,
-    "x": 69,
-    "xh": 41,
-    "sp": "one",
-    "sc": ["Accessories"],
-    "nc": ["Tops", "Bottoms", "Underwear"],
-    "st": "complete"
-  },
-  "garment_links": {
-    "T-shirt": "https://mackweldon.com/collections/t-shirts",
-    "Polo": "https://mackweldon.com/collections/polos",
-    "Dress shirt": "https://mackweldon.com/collections/button-ups",
-    "Dress pants": "https://mackweldon.com/collections/pants",
-    "Sweater": "https://mackweldon.com/collections/sweaters",
-    "Outerwear": "https://mackweldon.com/collections/outerwear"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Pima Crew Neck T-Shirt",
-      "lu": "https://mackweldon.com/products/pima-crew-neck-t-shirt",
-      "hp": "SILVER Pique T-Shirt",
-      "hu": "https://mackweldon.com/products/silver-pique-t-shirt",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Pima T-Shirt Polo",
-      "lu": "https://mackweldon.com/products/pima-t-shirt-polo",
-      "hp": "Tech Merino Sweater Polo",
-      "hu": "https://mackweldon.com/products/tech-merino-sweater-polo",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Dean Oxford Shirt",
-      "lu": "https://mackweldon.com/products/dean-oxford-shirt",
-      "hp": "Linen Button Up",
-      "hu": "https://mackweldon.com/products/linen-button-up",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Stretch Twill Chino - Classic Fit",
-      "lu": "https://mackweldon.com/products/stretch-twill-chino-classic-fit",
-      "hp": "Stretch Twill Chino - Classic Fit",
-      "hu": "https://mackweldon.com/products/stretch-twill-chino-classic-fit",
-      "b": "single"
-    },
-    "Sweater": {
-      "lp": "Tech Merino Waffle Crew Neck Sweater",
-      "lu": "https://mackweldon.com/products/tech-merino-waffle-crew-neck-sweater",
-      "hp": "Tech Cashmere Crew Neck Sweater",
-      "hu": "https://mackweldon.com/products/tech-cashmere-crew-neck-sweater",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "SILVER Denim Jacket",
-      "lu": "https://mackweldon.com/products/silver-denim-jacket",
-      "hp": "WARMKNIT AIR Hooded Jacket",
-      "hu": "https://mackweldon.com/products/warmknit-air-hooded-jacket",
-      "b": "range"
-    }
-  },
-  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Outerwear"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://mackweldon.com/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?search_text=Mack%20Weldon&catalog[]=5",
-      "m": "text search",
-      "n": "No Vinted brand entry; keyword search in Men"
-    }
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "No owned factory claimed. FAQ says products are 'manufactured and sourced in WRAP certified factories across the globe, including Thailand, Peru, China, Egypt, and Vietnam'; about page says only 'a New York-based brand'.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "none",
-    "countries": "No country on any PDP sampled (stretch twill drawstring chino, warmknit puffer blazer, broken twill 5-pocket pant product JSON, airknitx boxer brief collection JSON; 0/4). Site-level FAQ lists Thailand, Peru, China, Egypt, Vietnam. Origin may sit in a JS-loaded/collapsed details tab the fetch could not see.",
-    "heritage": "vague",
-    "repair": "no",
-    "process": "no",
-    "urls": ["https://mackweldon.com/pages/faq", "https://mackweldon.com/pages/our-story"],
-    "conf": "medium",
-    "read": "2026-10-03"
+  "Outerwear": {
+   "lp": "SILVER Denim Jacket",
+   "lu": "https://mackweldon.com/products/silver-denim-jacket",
+   "hp": "WARMKNIT AIR Hooded Jacket",
+   "hu": "https://mackweldon.com/products/warmknit-air-hooded-jacket",
+   "b": "range"
   }
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Outerwear"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://mackweldon.com/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?search_text=Mack%20Weldon&catalog[]=5",
+   "m": "text search",
+   "n": "No Vinted brand entry; keyword search in Men"
+  }
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "No owned factory claimed. FAQ says products are 'manufactured and sourced in WRAP certified factories across the globe, including Thailand, Peru, China, Egypt, and Vietnam'; about page says only 'a New York-based brand'.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "none",
+  "countries": "No country on any PDP sampled (stretch twill drawstring chino, warmknit puffer blazer, broken twill 5-pocket pant product JSON, airknitx boxer brief collection JSON; 0/4). Site-level FAQ lists Thailand, Peru, China, Egypt, Vietnam. Origin may sit in a JS-loaded/collapsed details tab the fetch could not see.",
+  "heritage": "vague",
+  "repair": "no",
+  "process": "no",
+  "urls": [
+   "https://mackweldon.com/pages/faq",
+   "https://mackweldon.com/pages/our-story"
+  ],
+  "conf": "medium",
+  "read": "2026-10-03"
+ }
 }

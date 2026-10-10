@@ -1,220 +1,313 @@
 {
-  "name": "Charles Tyrwhitt",
-  "band": "premium",
-  "seat": 5,
-  "dagger": 1,
-  "focus": {
-    "tech": 2,
-    "comfort": 3,
-    "craft": 2,
-    "style": 2
+ "name": "Charles Tyrwhitt",
+ "band": "premium",
+ "seat": 5,
+ "dagger": 1,
+ "focus": {
+  "tech": 2,
+  "comfort": 3,
+  "craft": 2,
+  "style": 2
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 2,
+  "linen": 4,
+  "cotton": 4,
+  "wool": 3,
+  "synth": 2
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 4,
+  "fuss": -3,
+  "golffice": -2,
+  "golf": 2,
+  "status": 1,
+  "finbro": 3,
+  "ivy": 1,
+  "prep": 2,
+  "briish": 4,
+  "whitet": 2,
+  "logo": 1,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Dress shirts, mainly non-iron, with suits, knitwear and shoes, sold by mail order, online and in its own stores at mid-market prices.",
+ "origin": "Started in 1986 by Nicholas Wheeler, selling shirts by post from Bristol; the first Jermyn Street shop opened in 1997.",
+ "say": "TIRR-it",
+ "chan": [
+  "O",
+  "W"
+ ],
+ "forgc": [
+  4,
+  5,
+  3
+ ],
+ "shop": "https://www.charlestyrwhitt.com/us/search?q=",
+ "onething": {
+  "p": "Non-Iron Twill Shirt",
+  "u": "https://www.charlestyrwhitt.com/us/non-iron-twill-shirt---white/FON0409WHT.html",
+  "n": "verified — direct product page, $129 list and $74.75 on a multibuy, which is the house's actual pricing. Two-ply 100% cotton twill with the non-iron finish the brand was built on; classic, slim or extra slim, collar and sleeve sized separately. Made in Vietnam"
+ },
+ "prices": [
+  [
+   59,
+   59
+  ],
+  [
+   109,
+   119
+  ],
+  [
+   129,
+   139
+  ],
+  [
+   149,
+   149
+  ],
+  [
+   169,
+   270
+  ],
+  [
+   149,
+   299
+  ],
+  [
+   229,
+   599
+  ],
+  [
+   169,
+   219
+  ]
+ ],
+ "price_checked": true,
+ "notes": {
+  "cotton": "Two-ply Egyptian and long-staple cotton, and a non-iron finish applied to it",
+  "fuss": "Non-iron is the founding proposition, not a feature",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 4; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "Charles Tyrwhitt names no factories and owns none; its responsibility pages talk about auditing suppliers without naming them. One suit names the Reda mill, but most product pages don't state a country of make. That is a thin 2."
+ },
+ "doors": {
+  "c": "full",
+  "n": 13,
+  "cities": [
+   [
+    "Chicago",
+    "IL",
+    2
+   ],
+   [
+    "Elmont",
+    "NY",
+    1
+   ],
+   [
+    "Garden City",
+    "NY",
+    1
+   ],
+   [
+    "King of Prussia",
+    "PA",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    5
+   ],
+   [
+    "Paramus",
+    "NJ",
+    1
+   ],
+   [
+    "Tysons Corner",
+    "VA",
+    1
+   ],
+   [
+    "Washington",
+    "DC",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 0,
+  "con": 0
+ },
+ "cities": "13 stores, including New York, Chicago, Elmont, and its own site",
+ "region": {
+  "o": [
+   1043,
+   1044,
+   1045,
+   1047,
+   1048,
+   1049,
+   1051,
+   1053,
+   1055
+  ],
+  "s": []
+ },
+ "site": {
+  "domain": "charlestyrwhitt.com",
+  "platform": "salesforce_commerce",
+  "feed": "sitemap_products",
+  "feed_count": 3233,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "both",
+  "marks": [
+   "Non-Iron (house treatment)",
+   "Ultimate Performance (house line)",
+   "Reda (licensed Italian wool mill)",
+   "Egyptian Cotton",
+   "stretch cotton weave",
+   "stain resistant",
+   "water-repellent"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 473,
+  "w": 454,
+  "n": 94,
+  "s": 2,
+  "c": 0,
+  "x": 22,
+  "xh": 4,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "shirts",
+   "jackets-blazers",
+   "trousers"
+  ],
+  "st": "complete"
+ },
+ "garment_links": {
+  "T-shirt": "https://www.charlestyrwhitt.com/us/mens-shirts/t-shirts/",
+  "Polo": "https://www.charlestyrwhitt.com/us/mens-shirts/polo-shirts/",
+  "Dress shirt": "https://www.charlestyrwhitt.com/us/mens-shirts/dress/",
+  "Dress pants": "https://www.charlestyrwhitt.com/us/mens-pants/smart-pants/",
+  "Sweater": "https://www.charlestyrwhitt.com/us/mens-sweaters/",
+  "Outerwear": "https://www.charlestyrwhitt.com/us/mens-coats/",
+  "Shoes": "https://www.charlestyrwhitt.com/us/mens-shoes/"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Cotton T-Shirt - Light Gray",
+   "lu": "https://www.charlestyrwhitt.com/us/cotton-t-shirt---light-gray/JET0027LGY.html",
+   "hp": "Cotton T-Shirt - Light Gray",
+   "hu": "https://www.charlestyrwhitt.com/us/cotton-t-shirt---light-gray/JET0027LGY.html",
+   "b": "single"
   },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 2,
-    "linen": 4,
-    "cotton": 4,
-    "wool": 3,
-    "synth": 2
+  "Polo": {
+   "lp": "Pique Polo - Navy",
+   "lu": "https://www.charlestyrwhitt.com/us/pique-polo---navy/JEP0459NAV.html",
+   "hp": "Pure Linen Polo - Black",
+   "hu": "https://www.charlestyrwhitt.com/us/pure-linen-polo---black/JEP0473BLK.html",
+   "b": "range"
   },
-  "dials": {
-    "dur": 3,
-    "forg": 4,
-    "fuss": -3,
-    "golffice": -2,
-    "golf": 2,
-    "status": 1,
-    "finbro": 3,
-    "ivy": 1,
-    "prep": 2,
-    "briish": 4,
-    "whitet": 2,
-    "logo": 1,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
+  "Dress shirt": {
+   "lp": "Non-Iron Twill Shirt - White",
+   "lu": "https://www.charlestyrwhitt.com/us/non-iron-twill-shirt---white/FON0409WHT.html",
+   "hp": "Luxury Twill Shirt - White",
+   "hu": "https://www.charlestyrwhitt.com/us/luxury-twill-shirt---white%C2%A0/FOR2362WHT.html",
+   "b": "pair"
   },
-  "why": "Dress shirts, mainly non-iron, with suits, knitwear and shoes, sold by mail order, online and in its own stores at mid-market prices.",
-  "origin": "Started in 1986 by Nicholas Wheeler, selling shirts by post from Bristol; the first Jermyn Street shop opened in 1997.",
-  "say": "TIRR-it",
-  "chan": ["O", "W"],
-  "forgc": [4, 5, 3],
-  "shop": "https://www.charlestyrwhitt.com/us/search?q=",
-  "onething": {
-    "p": "Non-Iron Twill Shirt",
-    "u": "https://www.charlestyrwhitt.com/us/non-iron-twill-shirt---white/FON0409WHT.html",
-    "n": "verified — direct product page, $129 list and $74.75 on a multibuy, which is the house's actual pricing. Two-ply 100% cotton twill with the non-iron finish the brand was built on; classic, slim or extra slim, collar and sleeve sized separately. Made in Vietnam"
+  "Jeans": {
+   "lp": "Denim Jeans - Indigo",
+   "lu": "https://www.charlestyrwhitt.com/us/denim-jeans-%E2%80%93-indigo/TRJ0048IDG.html",
+   "hp": "Denim Jeans - Indigo",
+   "hu": "https://www.charlestyrwhitt.com/us/denim-jeans-%E2%80%93-indigo/TRJ0048IDG.html",
+   "b": "single"
   },
-  "prices": [[59, 59], [109, 119], [129, 139], [149, 149], [169, 270], [149, 299], [229, 599], [169, 219]],
-  "price_checked": true,
-  "notes": {
-    "cotton": "Two-ply Egyptian and long-staple cotton, and a non-iron finish applied to it",
-    "fuss": "Non-iron is the founding proposition, not a feature",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 4; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Charles Tyrwhitt names no factories and owns none; its responsibility pages talk about auditing suppliers without naming them. One suit names the Reda mill, but most product pages don't state a country of make. That is a thin 2."
+  "Dress pants": {
+   "lp": "Wool Stretch Pants - Chocolate",
+   "lu": "https://www.charlestyrwhitt.com/us/wool-stretch-pants---chocolate/TRT0455CHC.html",
+   "hp": "Italian Luxury Suit Pants - Indigo",
+   "hu": "https://www.charlestyrwhitt.com/us/italian-luxury-suit-pants---indigo/SUL0421IDG.html",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 13,
-    "cities": [
-      ["Chicago", "IL", 2],
-      ["Elmont", "NY", 1],
-      ["Garden City", "NY", 1],
-      ["King of Prussia", "PA", 1],
-      ["New York", "NY", 5],
-      ["Paramus", "NJ", 1],
-      ["Tysons Corner", "VA", 1],
-      ["Washington", "DC", 1]
-    ],
-    "basis": "recapture 2026-09"
+  "Sweater": {
+   "lp": "Pure Merino Crew Neck Sweater - Navy",
+   "lu": "https://www.charlestyrwhitt.com/us/pure-merino-crew-neck-sweater---navy--/KNM0009NAV.html",
+   "hp": "Pure Cashmere Quarter Zip Sweater - Navy",
+   "hu": "https://www.charlestyrwhitt.com/us/pure-cashmere-quarter-zip-sweater---navy/KNS0004NAV.html",
+   "b": "range"
   },
-  "cities": "13 stores, including New York, Chicago, Elmont, and its own site",
-  "region": {
-    "o": [785, 786, 787, 788, 789, 790, 791, 792, 793],
-    "s": []
+  "Outerwear": {
+   "lp": "Lightweight Quilted Jacket - Navy",
+   "lu": "https://www.charlestyrwhitt.com/us/lightweight-quilted-jacket---navy/OUC0081NAV.html",
+   "hp": "Pure Wool Overcoat - Dark Gray",
+   "hu": "https://www.charlestyrwhitt.com/us/pure-wool-overcoat---dark-gray/OUF0072DGY.html",
+   "b": "range"
   },
-  "site": {
-    "domain": "charlestyrwhitt.com",
-    "platform": "salesforce_commerce",
-    "feed": "sitemap_products",
-    "feed_count": 3233,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "both",
-    "marks": [
-      "Non-Iron (house treatment)",
-      "Ultimate Performance (house line)",
-      "Reda (licensed Italian wool mill)",
-      "Egyptian Cotton",
-      "stretch cotton weave",
-      "stain resistant",
-      "water-repellent"
-    ],
-    "source": "census",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 473,
-    "w": 454,
-    "n": 94,
-    "s": 2,
-    "c": 0,
-    "x": 22,
-    "xh": 4,
-    "sp": "one",
-    "sc": [],
-    "nc": ["shirts", "jackets-blazers", "trousers"],
-    "st": "complete"
-  },
-  "garment_links": {
-    "T-shirt": "https://www.charlestyrwhitt.com/us/mens-shirts/t-shirts/",
-    "Polo": "https://www.charlestyrwhitt.com/us/mens-shirts/polo-shirts/",
-    "Dress shirt": "https://www.charlestyrwhitt.com/us/mens-shirts/dress/",
-    "Dress pants": "https://www.charlestyrwhitt.com/us/mens-pants/smart-pants/",
-    "Sweater": "https://www.charlestyrwhitt.com/us/mens-sweaters/",
-    "Outerwear": "https://www.charlestyrwhitt.com/us/mens-coats/",
-    "Shoes": "https://www.charlestyrwhitt.com/us/mens-shoes/"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Cotton T-Shirt - Light Gray",
-      "lu": "https://www.charlestyrwhitt.com/us/cotton-t-shirt---light-gray/JET0027LGY.html",
-      "hp": "Cotton T-Shirt - Light Gray",
-      "hu": "https://www.charlestyrwhitt.com/us/cotton-t-shirt---light-gray/JET0027LGY.html",
-      "b": "single"
-    },
-    "Polo": {
-      "lp": "Pique Polo - Navy",
-      "lu": "https://www.charlestyrwhitt.com/us/pique-polo---navy/JEP0459NAV.html",
-      "hp": "Pure Linen Polo - Black",
-      "hu": "https://www.charlestyrwhitt.com/us/pure-linen-polo---black/JEP0473BLK.html",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Non-Iron Twill Shirt - White",
-      "lu": "https://www.charlestyrwhitt.com/us/non-iron-twill-shirt---white/FON0409WHT.html",
-      "hp": "Luxury Twill Shirt - White",
-      "hu": "https://www.charlestyrwhitt.com/us/luxury-twill-shirt---white%C2%A0/FOR2362WHT.html",
-      "b": "pair"
-    },
-    "Jeans": {
-      "lp": "Denim Jeans - Indigo",
-      "lu": "https://www.charlestyrwhitt.com/us/denim-jeans-%E2%80%93-indigo/TRJ0048IDG.html",
-      "hp": "Denim Jeans - Indigo",
-      "hu": "https://www.charlestyrwhitt.com/us/denim-jeans-%E2%80%93-indigo/TRJ0048IDG.html",
-      "b": "single"
-    },
-    "Dress pants": {
-      "lp": "Wool Stretch Pants - Chocolate",
-      "lu": "https://www.charlestyrwhitt.com/us/wool-stretch-pants---chocolate/TRT0455CHC.html",
-      "hp": "Italian Luxury Suit Pants - Indigo",
-      "hu": "https://www.charlestyrwhitt.com/us/italian-luxury-suit-pants---indigo/SUL0421IDG.html",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Pure Merino Crew Neck Sweater - Navy",
-      "lu": "https://www.charlestyrwhitt.com/us/pure-merino-crew-neck-sweater---navy--/KNM0009NAV.html",
-      "hp": "Pure Cashmere Quarter Zip Sweater - Navy",
-      "hu": "https://www.charlestyrwhitt.com/us/pure-cashmere-quarter-zip-sweater---navy/KNS0004NAV.html",
-      "b": "range"
-    },
-    "Outerwear": {
-      "lp": "Lightweight Quilted Jacket - Navy",
-      "lu": "https://www.charlestyrwhitt.com/us/lightweight-quilted-jacket---navy/OUC0081NAV.html",
-      "hp": "Pure Wool Overcoat - Dark Gray",
-      "hu": "https://www.charlestyrwhitt.com/us/pure-wool-overcoat---dark-gray/OUF0072DGY.html",
-      "b": "range"
-    },
-    "Shoes": {
-      "lp": "Suede Slip On Loafer - Light Brown",
-      "lu": "https://www.charlestyrwhitt.com/us/suede-slip-on-loafer---light-brown/SHW0252LBN.html",
-      "hp": "Leather Tassel Loafers - Black",
-      "hu": "https://www.charlestyrwhitt.com/us/leather-tassel-loafers---black/SHB0272BLK.html",
-      "b": "pair"
-    }
-  },
-  "price_range_only": ["Polo", "Dress pants", "Sweater", "Outerwear"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.charlestyrwhitt.com/us/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=77854",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "No owned factory claimed on about-us or 'Doing things properly' (people/product) pages; brand describes auditing suppliers and annual factory visits, i.e. third-party making.",
-    "makers": "no",
-    "mills": "some",
-    "madein": "some",
-    "countries": "Spain 1/5 (leather belt); not stated 4/5 (non-iron twill shirt (custom/MTO page), stretch oxford shirt, Italian Luxury suit (fabric Italy, garment origin not stated), Ultimate Performance suit). Origin may sit in an accordion the fetch could not see.",
-    "heritage": "dated and placed",
-    "repair": "yes",
-    "process": "no",
-    "urls": [
-      "https://www.charlestyrwhitt.com/uk/italian-luxury-suit---indigo-blue/SUL20IDG.html",
-      "https://www.charlestyrwhitt.com/uk/about-us/doing-things-properly/people.html"
-    ],
-    "conf": "medium",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Suede Slip On Loafer - Light Brown",
+   "lu": "https://www.charlestyrwhitt.com/us/suede-slip-on-loafer---light-brown/SHW0252LBN.html",
+   "hp": "Leather Tassel Loafers - Black",
+   "hu": "https://www.charlestyrwhitt.com/us/leather-tassel-loafers---black/SHB0272BLK.html",
+   "b": "pair"
   }
+ },
+ "price_range_only": [
+  "Polo",
+  "Dress pants",
+  "Sweater",
+  "Outerwear"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.charlestyrwhitt.com/us/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=77854",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "No owned factory claimed on about-us or 'Doing things properly' (people/product) pages; brand describes auditing suppliers and annual factory visits, i.e. third-party making.",
+  "makers": "no",
+  "mills": "some",
+  "madein": "some",
+  "countries": "Spain 1/5 (leather belt); not stated 4/5 (non-iron twill shirt (custom/MTO page), stretch oxford shirt, Italian Luxury suit (fabric Italy, garment origin not stated), Ultimate Performance suit). Origin may sit in an accordion the fetch could not see.",
+  "heritage": "dated and placed",
+  "repair": "yes",
+  "process": "no",
+  "urls": [
+   "https://www.charlestyrwhitt.com/uk/italian-luxury-suit---indigo-blue/SUL20IDG.html",
+   "https://www.charlestyrwhitt.com/uk/about-us/doing-things-properly/people.html"
+  ],
+  "conf": "medium",
+  "read": "2026-10-03"
+ }
 }

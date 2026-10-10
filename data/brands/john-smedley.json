@@ -1,162 +1,200 @@
 {
-  "name": "John Smedley",
-  "band": "accessible",
-  "seat": 129,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 4,
-    "craft": 5,
-    "style": 3
+ "name": "John Smedley",
+ "band": "accessible",
+ "seat": 129,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 4,
+  "craft": 5,
+  "style": 3
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 2,
+  "linen": 1,
+  "cotton": 4,
+  "wool": 5,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 3,
+  "fuss": 0,
+  "golffice": -1,
+  "shoes": 0,
+  "ivy": 2,
+  "briish": 5,
+  "whitet": 2,
+  "logo": 2,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Fine-gauge knitwear in merino and Sea Island cotton, made in the same Derbyshire mill since 1784.",
+ "origin": "Founded at Lea Mills, Derbyshire, in 1784.",
+ "chan": [
+  "D",
+  "I"
+ ],
+ "conf": "L",
+ "forgc": [
+  4,
+  3,
+  1
+ ],
+ "shop": "https://www.johnsmedley.com/en-us/search?q=",
+ "onething": {
+  "p": "Adrian polo",
+  "u": "https://www.johnsmedley.com/worldwide/adrian-polo-shirt",
+  "n": "verified — direct product page. The house's own Sea Island cotton, knitted at 30 gauge on the Derbyshire site, with a three-button placket and a fashioned stand collar; the house lists Adrian in its Icons collection. Sea Island confirmed in person at the London store. The sibling Isis carries the same cloth and dates to the 1930s"
+ },
+ "prices": [
+  [
+   270,
+   345
+  ],
+  [
+   290,
+   405
+  ],
+  null,
+  null,
+  null,
+  [
+   325,
+   665
+  ],
+  null,
+  null
+ ],
+ "price_checked": true,
+ "notes": {
+  "wool": "30-gauge merino on the same Derbyshire site since 1784",
+  "cotton": "Sea Island cotton knits",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 2; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "briish": "Knitted at Lea Mills, Derbyshire, since 1784; the longest-running factory in British knitwear.",
+  "craft": "Only the homepage could be read; it says 'Made In England Since 1784' and refers to 'many skilled hands', which is consistent with, but does not show, owned making at Lea Mills. The current 5 is carried forward because the site blocked every deeper page, not because ownership was confirmed. [audit proposed 5 at low confidence; held at 5 pending a second read]"
+ },
+ "doors": {
+  "c": "full",
+  "n": 0,
+  "cities": [],
+  "basis": "master 2026-08-29, pre-recapture"
+ },
+ "cities": "No store of its own in the US · department stores and independent menswear shops, and its own site",
+ "region": {
+  "o": [],
+  "s": [
+   12,
+   76,
+   150
+  ]
+ },
+ "site": {
+  "domain": "johnsmedley.com",
+  "platform": "custom",
+  "feed": "sitemap_products",
+  "feed_count": 1608,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "no",
+  "origin": "none",
+  "marks": [
+   "none (only Sea Island Cotton - a named/protected fibre appellation rather than a performance technology)"
+  ],
+  "source": "flag_sample",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 147,
+  "w": 147,
+  "n": 100,
+  "s": 0,
+  "c": 0,
+  "x": 0,
+  "xh": 0,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "Polo Shirt",
+   "Jumper",
+   "T-Shirt"
+  ],
+  "st": "complete"
+ },
+ "garment_links": {
+  "T-shirt": "https://www.johnsmedley.com/en-us/t-shirts",
+  "Polo": "https://www.johnsmedley.com/en-us/polo-shirts",
+  "Sweater": "https://www.johnsmedley.com/en-us/jumpers",
+  "Outerwear": "https://www.johnsmedley.com/en-us/jackets"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "JS x John Smedley - T-Shirt (Sea Island Cotton, JS126)",
+   "lu": "https://www.johnsmedley.com/en-us/js126-2-glass-pink",
+   "hp": "Roderick (Extra Fine Merino Wool T-shirt)",
+   "hu": "https://www.johnsmedley.com/en-us/roderick-1-teal-firth",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 2,
-    "linen": 1,
-    "cotton": 4,
-    "wool": 5,
-    "synth": 1
+  "Polo": {
+   "lp": "JS x John Smedley - Polo Shirt (Sea Island Cotton, JS128, short sleeve)",
+   "lu": "https://www.johnsmedley.com/en-us/js128-2-glass-pink",
+   "hp": "Grenock (Extra Fine Merino Wool, short sleeve)",
+   "hu": "https://www.johnsmedley.com/en-us/grenock-2-midnight",
+   "b": "range"
   },
-  "dials": {
-    "dur": 3,
-    "forg": 3,
-    "fuss": 0,
-    "golffice": -1,
-    "shoes": 0,
-    "ivy": 2,
-    "briish": 5,
-    "whitet": 2,
-    "logo": 2,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
-  },
-  "why": "Fine-gauge knitwear in merino and Sea Island cotton, made in the same Derbyshire mill since 1784.",
-  "origin": "Founded at Lea Mills, Derbyshire, in 1784.",
-  "chan": ["D", "I"],
-  "conf": "L",
-  "forgc": [4, 3, 1],
-  "shop": "https://www.johnsmedley.com/en-us/search?q=",
-  "onething": {
-    "p": "Adrian polo",
-    "u": "https://www.johnsmedley.com/worldwide/adrian-polo-shirt",
-    "n": "verified — direct product page. The house's own Sea Island cotton, knitted at 30 gauge on the Derbyshire site, with a three-button placket and a fashioned stand collar; the house lists Adrian in its Icons collection. Sea Island confirmed in person at the London store. The sibling Isis carries the same cloth and dates to the 1930s"
-  },
-  "prices": [[270, 345], [290, 405], null, null, null, [325, 665], null, null],
-  "price_checked": true,
-  "notes": {
-    "wool": "30-gauge merino on the same Derbyshire site since 1784",
-    "cotton": "Sea Island cotton knits",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 2; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "briish": "Knitted at Lea Mills, Derbyshire, since 1784; the longest-running factory in British knitwear.",
-    "craft": "Only the homepage could be read; it says 'Made In England Since 1784' and refers to 'many skilled hands', which is consistent with, but does not show, owned making at Lea Mills. The current 5 is carried forward because the site blocked every deeper page, not because ownership was confirmed. [audit proposed 5 at low confidence; held at 5 pending a second read]"
-  },
-  "doors": {
-    "c": "full",
-    "n": 0,
-    "cities": [],
-    "basis": "master 2026-08-29, pre-recapture"
-  },
-  "cities": "No store of its own in the US · department stores and independent menswear shops, and its own site",
-  "region": {
-    "o": [],
-    "s": [12, 76, 150]
-  },
-  "site": {
-    "domain": "johnsmedley.com",
-    "platform": "custom",
-    "feed": "sitemap_products",
-    "feed_count": 1608,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "no",
-    "origin": "none",
-    "marks": [
-      "none (only Sea Island Cotton - a named/protected fibre appellation rather than a performance technology)"
-    ],
-    "source": "flag_sample",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 147,
-    "w": 147,
-    "n": 100,
-    "s": 0,
-    "c": 0,
-    "x": 0,
-    "xh": 0,
-    "sp": "one",
-    "sc": [],
-    "nc": ["Polo Shirt", "Jumper", "T-Shirt"],
-    "st": "complete"
-  },
-  "garment_links": {
-    "T-shirt": "https://www.johnsmedley.com/en-us/t-shirts",
-    "Polo": "https://www.johnsmedley.com/en-us/polo-shirts",
-    "Sweater": "https://www.johnsmedley.com/en-us/jumpers",
-    "Outerwear": "https://www.johnsmedley.com/en-us/jackets"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "JS x John Smedley - T-Shirt (Sea Island Cotton, JS126)",
-      "lu": "https://www.johnsmedley.com/en-us/js126-2-glass-pink",
-      "hp": "Roderick (Extra Fine Merino Wool T-shirt)",
-      "hu": "https://www.johnsmedley.com/en-us/roderick-1-teal-firth",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "JS x John Smedley - Polo Shirt (Sea Island Cotton, JS128, short sleeve)",
-      "lu": "https://www.johnsmedley.com/en-us/js128-2-glass-pink",
-      "hp": "Grenock (Extra Fine Merino Wool, short sleeve)",
-      "hu": "https://www.johnsmedley.com/en-us/grenock-2-midnight",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "JS x John Smedley - Jumper (Extra Fine Merino Wool, round neck, JS138)",
-      "lu": "https://www.johnsmedley.com/en-us/js138-5-ginger",
-      "hp": "Oxnard (John Smedley's Eco Cashmere, round neck)",
-      "hu": "https://www.johnsmedley.com/en-us/oxnard-midnight",
-      "b": "pair"
-    }
-  },
-  "price_range_only": ["T-shirt", "Polo"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.johnsmedley.com/en-us/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "JS x John Smedley (the brand's 'contemporary diffusion collection', collection 'JS By John Smedley')"
-  },
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=200326",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "craft_evidence": {
-    "owned": "unclear",
-    "owned_d": "Not shown on any page I could load. Homepage (only page that loaded) says 'Made In England Since 1784' and 'A finished John Smedley garment is the culmination of many skilled hands', but does not name Lea Mills or any factory. /sitemap.xml and /pages/our-heritage both returned HTTP 403; Wikipedia is cache-only for this tool. Lea Mills ownership is plausible but unverified here.",
-    "makers": "NC",
-    "mills": "NC",
-    "madein": "NC",
-    "countries": "Homepage banner: 'Made In England Since 1784'. No PDPs read, so no per-product share.",
-    "heritage": "dated and placed",
-    "repair": "NC",
-    "process": "NC",
-    "urls": ["https://www.johnsmedley.com/"],
-    "conf": "low",
-    "read": "2026-10-03"
+  "Sweater": {
+   "lp": "JS x John Smedley - Jumper (Extra Fine Merino Wool, round neck, JS138)",
+   "lu": "https://www.johnsmedley.com/en-us/js138-5-ginger",
+   "hp": "Oxnard (John Smedley's Eco Cashmere, round neck)",
+   "hu": "https://www.johnsmedley.com/en-us/oxnard-midnight",
+   "b": "pair"
   }
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.johnsmedley.com/en-us/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "JS x John Smedley (the brand's 'contemporary diffusion collection', collection 'JS By John Smedley')"
+ },
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=200326",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "craft_evidence": {
+  "owned": "unclear",
+  "owned_d": "Not shown on any page I could load. Homepage (only page that loaded) says 'Made In England Since 1784' and 'A finished John Smedley garment is the culmination of many skilled hands', but does not name Lea Mills or any factory. /sitemap.xml and /pages/our-heritage both returned HTTP 403; Wikipedia is cache-only for this tool. Lea Mills ownership is plausible but unverified here.",
+  "makers": "NC",
+  "mills": "NC",
+  "madein": "NC",
+  "countries": "Homepage banner: 'Made In England Since 1784'. No PDPs read, so no per-product share.",
+  "heritage": "dated and placed",
+  "repair": "NC",
+  "process": "NC",
+  "urls": [
+   "https://www.johnsmedley.com/"
+  ],
+  "conf": "low",
+  "read": "2026-10-03"
+ }
 }

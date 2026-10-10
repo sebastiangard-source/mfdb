@@ -1,210 +1,325 @@
 {
-  "name": "John Varvatos",
-  "band": "accessible",
-  "seat": 111,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 2,
-    "craft": 2,
-    "style": 4
+ "name": "John Varvatos",
+ "band": "accessible",
+ "seat": 111,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 2,
+  "craft": 2,
+  "style": 4
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 2,
+  "wool": 2,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 2,
+  "fuss": 0,
+  "status": 2,
+  "murica": 3,
+  "street": 2,
+  "whitet": 2,
+  "western": 1,
+  "rock": 5,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Leather jackets, tailoring and casual clothing in a rock style; the company was restructured in 2020.",
+ "origin": "Founded in 1999 by John Varvatos, formerly of Ralph Lauren and Calvin Klein; a store opened in the former CBGB in 2008.",
+ "chan": [
+  "O",
+  "D"
+ ],
+ "conf": "M",
+ "forgc": [
+  2,
+  3,
+  1
+ ],
+ "shop": "https://www.johnvarvatos.com/search?q=",
+ "onething": {
+  "p": "Leather moto jacket",
+  "u": "https://www.johnvarvatos.com/search?q=leather+jacket",
+  "n": "best-guess link — verify; icon pick needs verdict"
+ },
+ "prices": [
+  [
+   98,
+   298
+  ],
+  [
+   118,
+   348
+  ],
+  [
+   348,
+   368
+  ],
+  [
+   248,
+   598
+  ],
+  [
+   298,
+   998
+  ],
+  [
+   198,
+   698
+  ],
+  [
+   398,
+   698
+  ],
+  [
+   498,
+   598
+  ]
+ ],
+ "notes": {
+  "murica": "Detroit and the Bowery — American music as the mythology",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 3; retired 28 Sep 2026]",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "Leather, dark tailoring and a store in the old CBGB; the brand has dressed rock musicians since 1999.",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "John Varvatos states 'Made in Italy' on some product pages (a velvet suit jacket, a Mako cotton tee) and says nothing about origin on the rest of the sample. It describes fabric as 'Italian' without naming mills, and its about page names no maker or owned facility. A country of make and little else: 2."
+ },
+ "doors": {
+  "c": "full",
+  "n": 14,
+  "cities": [
+   [
+    "Boston",
+    "MA",
+    1
+   ],
+   [
+    "Costa Mesa",
+    "CA",
+    1
+   ],
+   [
+    "Dallas",
+    "TX",
+    1
+   ],
+   [
+    "Elmont",
+    "NY",
+    1
+   ],
+   [
+    "Houston",
+    "TX",
+    1
+   ],
+   [
+    "Las Vegas",
+    "NV",
+    1
+   ],
+   [
+    "Los Angeles",
+    "CA",
+    1
+   ],
+   [
+    "Malibu",
+    "CA",
+    1
+   ],
+   [
+    "Miami",
+    "FL",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    2
+   ],
+   [
+    "San Diego",
+    "CA",
+    1
+   ],
+   [
+    "San Francisco",
+    "CA",
+    1
+   ],
+   [
+    "West Hollywood",
+    "CA",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 4,
+  "con": 0
+ },
+ "cities": "14 stores, including New York, Boston, Costa Mesa · department stores and independent menswear shops, and its own site",
+ "region": {
+  "o": [
+   1939,
+   1942,
+   1948,
+   1949
+  ],
+  "s": [
+   58,
+   144
+  ]
+ },
+ "site": {
+  "domain": "johnvarvatos.com",
+  "platform": "salesforce_commerce",
+  "feed": "sitemap_products",
+  "feed_count": 1001,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "no",
+  "origin": "none",
+  "marks": [],
+  "source": "screen_36",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 524,
+  "w": 428,
+  "n": 65,
+  "s": 7,
+  "c": 10,
+  "x": 23,
+  "xh": 3,
+  "sp": "one",
+  "sc": [
+   "swim"
+  ],
+  "nc": [
+   "suit jackets",
+   "jeans",
+   "graphic tees"
+  ],
+  "st": "complete"
+ },
+ "garment_links": {
+  "T-shirt": "https://www.johnvarvatos.com/t-shirts",
+  "Polo": "https://www.johnvarvatos.com/polo-shirts",
+  "Dress shirt": "https://www.johnvarvatos.com/shirts",
+  "Jeans": "https://www.johnvarvatos.com/jeans",
+  "Dress pants": "https://www.johnvarvatos.com/pants/dress-pants",
+  "Sweater": "https://www.johnvarvatos.com/sweaters-cardigans",
+  "Outerwear": "https://www.johnvarvatos.com/coats-jackets",
+  "Shoes": "https://www.johnvarvatos.com/shoes"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Miles V-Neck (short-sleeve cotton v-neck tee, JV Essentials)",
+   "lu": "https://www.johnvarvatos.com/collections/jv-essentials/miles-v-neck/K3595U1B-WC2B-001.html",
+   "hp": "Halden Crewneck (short-sleeve 100% merino knit, filed under T-Shirts)",
+   "hu": "https://www.johnvarvatos.com/t-shirts/halden-crewneck/K4348W26-CUC3-001.html",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 2,
-    "cashmere": 1,
-    "linen": 1,
-    "cotton": 2,
-    "wool": 2,
-    "synth": 1
+  "Polo": {
+   "lp": "Victor Polo",
+   "lu": "https://www.johnvarvatos.com/polo-shirts/victor-polo/K5787Y2-WC2B-414.html",
+   "hp": "Olivari Polo",
+   "hu": "https://www.johnvarvatos.com/polo-shirts/olivari-polo/K4312F26-CTB2-001.html",
+   "b": "range"
   },
-  "dials": {
-    "dur": 3,
-    "forg": 2,
-    "fuss": 0,
-    "status": 2,
-    "murica": 3,
-    "street": 2,
-    "whitet": 2,
-    "western": 1,
-    "rock": 5,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
+  "Dress shirt": {
+   "lp": "Stella Dress Shirt",
+   "lu": "https://www.johnvarvatos.com/shirts/dress-shirts/stella-dress-shirt/D403X88-87PC-001.html",
+   "hp": "Hendrix Dress Shirt",
+   "hu": "https://www.johnvarvatos.com/shirts/dress-shirts/hendrix-dress-shirt/D420F26-97TD-100.html",
+   "b": "range"
   },
-  "why": "Leather jackets, tailoring and casual clothing in a rock style; the company was restructured in 2020.",
-  "origin": "Founded in 1999 by John Varvatos, formerly of Ralph Lauren and Calvin Klein; a store opened in the former CBGB in 2008.",
-  "chan": ["O", "D"],
-  "conf": "M",
-  "forgc": [2, 3, 1],
-  "shop": "https://www.johnvarvatos.com/search?q=",
-  "onething": {
-    "p": "Leather moto jacket",
-    "u": "https://www.johnvarvatos.com/search?q=leather+jacket",
-    "n": "best-guess link — verify; icon pick needs verdict"
+  "Jeans": {
+   "lp": "Pickup Slim Fit Jeans",
+   "lu": "https://www.johnvarvatos.com/jeans/pickup-slim-fit-jeans/J4191W26-EORA1-001.html",
+   "hp": "Pickup Slim Fit Jeans (Italian flocked python-print denim)",
+   "hu": "https://www.johnvarvatos.com/jeans/pickup-slim-fit-jeans/J419W26-BUSH-001.html",
+   "b": "range"
   },
-  "prices": [[98, 298], [118, 348], [348, 368], [248, 598], [298, 998], [198, 698], [398, 698], [498, 598]],
-  "notes": {
-    "murica": "Detroit and the Bowery — American music as the mythology",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 3; retired 28 Sep 2026]",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "Leather, dark tailoring and a store in the old CBGB; the brand has dressed rock musicians since 1999.",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "John Varvatos states 'Made in Italy' on some product pages (a velvet suit jacket, a Mako cotton tee) and says nothing about origin on the rest of the sample. It describes fabric as 'Italian' without naming mills, and its about page names no maker or owned facility. A country of make and little else: 2."
+  "Dress pants": {
+   "lp": "Brunswick Boot Fit Pant",
+   "lu": "https://www.johnvarvatos.com/pants/dress-pants/brunswick-boot-fit-pant/P1011W26-EPTA-001.html",
+   "hp": "Dalston Tailored Pants (99% wool)",
+   "hu": "https://www.johnvarvatos.com/pants/dress-pants/dalston-tailored-pants/JVD852S26-ENZA-012.html",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 13,
-    "cities": [
-      ["Boston", "MA", 1],
-      ["Costa Mesa", "CA", 1],
-      ["Dallas", "TX", 1],
-      ["Houston", "TX", 1],
-      ["Las Vegas", "NV", 1],
-      ["Los Angeles", "CA", 1],
-      ["Malibu", "CA", 1],
-      ["Miami", "FL", 1],
-      ["New York", "NY", 2],
-      ["San Diego", "CA", 1],
-      ["San Francisco", "CA", 1],
-      ["West Hollywood", "CA", 1]
-    ],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Sweater": {
+   "lp": "Walter Crew Neck Sweater (mercerized cotton)",
+   "lu": "https://www.johnvarvatos.com/collections/jv-essentials/walter-crew-neck-sweater/Y1833U4B-BPE5B-001.html",
+   "hp": "Canosa Cashmere Crewneck Sweater (100% cashmere)",
+   "hu": "https://www.johnvarvatos.com/sweaters-cardigans/canosa-cashmere-crewneck-sweater/Y3820W26-CUX24-001.html",
+   "b": "pair"
   },
-  "cities": "13 stores, including New York, Boston, Costa Mesa · department stores and independent menswear shops, and its own site",
-  "region": {
-    "o": [1497, 1499, 1500],
-    "s": [58, 144]
+  "Outerwear": {
+   "lp": "Kyle Trucker (stretch denim)",
+   "lu": "https://www.johnvarvatos.com/coats-jackets/kyle-trucker/O2403X88-ENTE-464.html",
+   "hp": "Andrew Trucker (100% sheep leather)",
+   "hu": "https://www.johnvarvatos.com/leather/leather-jackets/andrew-trucker/L1401Z4-A952B-001.html",
+   "b": "pair"
   },
-  "site": {
-    "domain": "johnvarvatos.com",
-    "platform": "salesforce_commerce",
-    "feed": "sitemap_products",
-    "feed_count": 1001,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "no",
-    "origin": "none",
-    "marks": [],
-    "source": "screen_36",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 524,
-    "w": 428,
-    "n": 65,
-    "s": 7,
-    "c": 10,
-    "x": 23,
-    "xh": 3,
-    "sp": "one",
-    "sc": ["swim"],
-    "nc": ["suit jackets", "jeans", "graphic tees"],
-    "st": "complete"
-  },
-  "garment_links": {
-    "T-shirt": "https://www.johnvarvatos.com/t-shirts",
-    "Polo": "https://www.johnvarvatos.com/polo-shirts",
-    "Dress shirt": "https://www.johnvarvatos.com/shirts",
-    "Jeans": "https://www.johnvarvatos.com/jeans",
-    "Dress pants": "https://www.johnvarvatos.com/pants/dress-pants",
-    "Sweater": "https://www.johnvarvatos.com/sweaters-cardigans",
-    "Outerwear": "https://www.johnvarvatos.com/coats-jackets",
-    "Shoes": "https://www.johnvarvatos.com/shoes"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Miles V-Neck (short-sleeve cotton v-neck tee, JV Essentials)",
-      "lu": "https://www.johnvarvatos.com/collections/jv-essentials/miles-v-neck/K3595U1B-WC2B-001.html",
-      "hp": "Halden Crewneck (short-sleeve 100% merino knit, filed under T-Shirts)",
-      "hu": "https://www.johnvarvatos.com/t-shirts/halden-crewneck/K4348W26-CUC3-001.html",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Victor Polo",
-      "lu": "https://www.johnvarvatos.com/polo-shirts/victor-polo/K5787Y2-WC2B-414.html",
-      "hp": "Olivari Polo",
-      "hu": "https://www.johnvarvatos.com/polo-shirts/olivari-polo/K4312F26-CTB2-001.html",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Stella Dress Shirt",
-      "lu": "https://www.johnvarvatos.com/shirts/dress-shirts/stella-dress-shirt/D403X88-87PC-001.html",
-      "hp": "Hendrix Dress Shirt",
-      "hu": "https://www.johnvarvatos.com/shirts/dress-shirts/hendrix-dress-shirt/D420F26-97TD-100.html",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Pickup Slim Fit Jeans",
-      "lu": "https://www.johnvarvatos.com/jeans/pickup-slim-fit-jeans/J4191W26-EORA1-001.html",
-      "hp": "Pickup Slim Fit Jeans (Italian flocked python-print denim)",
-      "hu": "https://www.johnvarvatos.com/jeans/pickup-slim-fit-jeans/J419W26-BUSH-001.html",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Brunswick Boot Fit Pant",
-      "lu": "https://www.johnvarvatos.com/pants/dress-pants/brunswick-boot-fit-pant/P1011W26-EPTA-001.html",
-      "hp": "Dalston Tailored Pants (99% wool)",
-      "hu": "https://www.johnvarvatos.com/pants/dress-pants/dalston-tailored-pants/JVD852S26-ENZA-012.html",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Walter Crew Neck Sweater (mercerized cotton)",
-      "lu": "https://www.johnvarvatos.com/collections/jv-essentials/walter-crew-neck-sweater/Y1833U4B-BPE5B-001.html",
-      "hp": "Canosa Cashmere Crewneck Sweater (100% cashmere)",
-      "hu": "https://www.johnvarvatos.com/sweaters-cardigans/canosa-cashmere-crewneck-sweater/Y3820W26-CUX24-001.html",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "Kyle Trucker (stretch denim)",
-      "lu": "https://www.johnvarvatos.com/coats-jackets/kyle-trucker/O2403X88-ENTE-464.html",
-      "hp": "Andrew Trucker (100% sheep leather)",
-      "hu": "https://www.johnvarvatos.com/leather/leather-jackets/andrew-trucker/L1401Z4-A952B-001.html",
-      "b": "pair"
-    },
-    "Shoes": {
-      "lp": "Thompson Slip On (calf suede keeper slip-on)",
-      "lu": "https://www.johnvarvatos.com/shoes/dress-shoes/thompson-slip-on/F4449F26-Y2392-012.html",
-      "hp": "Venice Slip On (hand-woven calf nubuck)",
-      "hu": "https://www.johnvarvatos.com/shoes/dress-shoes/venice-slip-on/F4365F26-Y2521C-002.html",
-      "b": "pair"
-    }
-  },
-  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.johnvarvatos.com/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "JV Essentials (collection)"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=318896",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "About page: launched in New York City 'twenty-five years ago'; speaks of 'artisanal craftsmanship' but names no factory, workshop or making partner. No owned making found.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "some",
-    "countries": "Italy 2/7 (Cypress velvet suit jacket 'Tailored in Italy'/'Made in Italy'; Vero crewneck tee 'Made in Italy'); not stated 5/7 (Rodney shirt, Canosa cashmere crewneck, Pickup jean, Rind suede jacket, Mercer pant). Sample of 7 PDPs: tailoring, shirt, knit, tee, jean, leather, trouser. Fetcher may miss a collapsed tab.",
-    "heritage": "vague",
-    "repair": "no",
-    "process": "no",
-    "urls": [
-      "https://www.johnvarvatos.com/collections/suits/cypress-jacket/JVS2338W26-EEPB-506.html",
-      "https://www.johnvarvatos.com/about-us/about-us.html"
-    ],
-    "conf": "medium",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Thompson Slip On (calf suede keeper slip-on)",
+   "lu": "https://www.johnvarvatos.com/shoes/dress-shoes/thompson-slip-on/F4449F26-Y2392-012.html",
+   "hp": "Venice Slip On (hand-woven calf nubuck)",
+   "hu": "https://www.johnvarvatos.com/shoes/dress-shoes/venice-slip-on/F4365F26-Y2521C-002.html",
+   "b": "pair"
   }
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.johnvarvatos.com/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "JV Essentials (collection)"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=318896",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "About page: launched in New York City 'twenty-five years ago'; speaks of 'artisanal craftsmanship' but names no factory, workshop or making partner. No owned making found.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "some",
+  "countries": "Italy 2/7 (Cypress velvet suit jacket 'Tailored in Italy'/'Made in Italy'; Vero crewneck tee 'Made in Italy'); not stated 5/7 (Rodney shirt, Canosa cashmere crewneck, Pickup jean, Rind suede jacket, Mercer pant). Sample of 7 PDPs: tailoring, shirt, knit, tee, jean, leather, trouser. Fetcher may miss a collapsed tab.",
+  "heritage": "vague",
+  "repair": "no",
+  "process": "no",
+  "urls": [
+   "https://www.johnvarvatos.com/collections/suits/cypress-jacket/JVS2338W26-EEPB-506.html",
+   "https://www.johnvarvatos.com/about-us/about-us.html"
+  ],
+  "conf": "medium",
+  "read": "2026-10-03"
+ }
 }

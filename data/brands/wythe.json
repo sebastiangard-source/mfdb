@@ -1,204 +1,256 @@
 {
-  "name": "Wythe",
-  "band": "premium",
-  "seat": 45,
-  "dagger": 0,
-  "focus": {
-    "tech": 1,
-    "comfort": 3,
-    "craft": 2,
-    "style": 5
+ "name": "Wythe",
+ "band": "premium",
+ "seat": 45,
+ "dagger": 0,
+ "focus": {
+  "tech": 1,
+  "comfort": 3,
+  "craft": 2,
+  "style": 5
+ },
+ "fabric": {
+  "denim": 3,
+  "cashmere": 2,
+  "linen": 2,
+  "cotton": 5,
+  "wool": 3,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 4,
+  "forg": 3,
+  "fuss": -2,
+  "golffice": 0,
+  "status": 2,
+  "ivy": 3,
+  "murica": 5,
+  "prep": 3,
+  "whitet": 4,
+  "logo": 1,
+  "western": 4,
+  "rock": 1,
+  "workwear": 4,
+  "outdoor": 2,
+  "surf": 1
+ },
+ "why": "Oxford shirts, pearl-snap western shirts and heavyweight tees in American mid-century styles, made to last.",
+ "origin": "Founded in 2019 by Peter Middleton, formerly in fabric research at Ralph Lauren; the store is on Orchard Street in Manhattan.",
+ "say": "WITH",
+ "chan": [
+  "O",
+  "I"
+ ],
+ "conf": "S",
+ "forgc": [
+  5,
+  3,
+  1
+ ],
+ "shop": "https://www.wythe.com/search?q=",
+ "onething": {
+  "p": "Oxford Shirt",
+  "u": "",
+  "n": "the first thing they made, Kickstarter 2019; custom-woven cloth. Link best-guess"
+ },
+ "prices": [
+  [
+   55,
+   98
+  ],
+  [
+   148,
+   148
+  ],
+  [
+   160,
+   248
+  ],
+  null,
+  [
+   228,
+   368
+  ],
+  [
+   248,
+   598
+  ],
+  [
+   298,
+   1798
+  ],
+  [
+   388,
+   1198
+  ]
+ ],
+ "notes": {
+  "murica": "Recovering a lost American wardrobe garment by garment, with cloth developed rather than sourced. The reference points are Miles Davis and James Dean, and the intent is restoration rather than pastiche.",
+  "whitet": "the heavyweight tee is a signature — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 2; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "style": "Every piece is a considered take on a mid-century American design; the designer's eye is the brand.",
+  "cotton": "Heavyweight tees, oxford cloth and pearl-snap shirting in long-staple cotton, with the fabric named on each product.",
+  "craft": "PDPs state country and often the process stage ('knit, cut, sewn and dyed in Portugal'; 'woven in a family owned mill in India'; 'Made in China in a WRAP Gold certified facility'), but no factory or mill is ever named and nothing is owned. That is detailed country-of-make, not named making."
+ },
+ "doors": {
+  "c": "full",
+  "n": 0,
+  "cities": [],
+  "basis": "positive zero 2026-09-23"
+ },
+ "cities": "No store of its own in the US · independent menswear shops, and its own site",
+ "region": {
+  "o": [],
+  "s": [
+   79,
+   119,
+   126
+  ]
+ },
+ "site": {
+  "domain": "wythe.com",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 298,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "licensed",
+  "marks": [
+   "Tencel - LICENSED (Lenzing fibre brand), 24 of 297 feed products and 5 of 120 PDPs",
+   "used as a fabric NAME IN PRODUCT TITLES, not only in a composition line: 'Tencel Gabardine Western Pant', 'Printed Corral Plaid Tencel Ranch Jacket', and in prose 'we've been working with this tencel gabardine fabric"
+  ],
+  "source": "census_followup",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 87,
+  "w": 75,
+  "n": 80,
+  "s": 1,
+  "c": 5,
+  "x": 0,
+  "xh": 0,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "Shirts",
+   "Outerwear",
+   "Pants"
+  ],
+  "st": "complete"
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Dress shirt",
+  "Dress pants",
+  "Sweater",
+  "Outerwear",
+  "Shoes"
+ ],
+ "garment_links": {
+  "T-shirt": "https://www.wythe.com/collections/t-shirts-tank-tops-and-sweatshirts",
+  "Polo": "https://www.wythe.com/collections/garment-dyed-polos",
+  "Dress shirt": "https://www.wythe.com/collections/oxford-cloth-button-downs",
+  "Dress pants": "https://www.wythe.com/collections/pants",
+  "Sweater": "https://www.wythe.com/collections/sweaters",
+  "Outerwear": "https://www.wythe.com/collections/coats-jackets"
+ },
+ "price_checked": true,
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Tubular Pocket Tee Shirt - Deep Black",
+   "lu": "https://www.wythe.com/products/tubular-pocket-tee-shirt-deep-black",
+   "hp": "Football T-Shirt - Faded Navy",
+   "hu": "https://www.wythe.com/products/football-t-shirt-faded-navy",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 3,
-    "cashmere": 2,
-    "linen": 2,
-    "cotton": 5,
-    "wool": 3,
-    "synth": 1
+  "Polo": {
+   "lp": "Garment Dyed Longsleeve Polo - Faded Black",
+   "lu": "https://www.wythe.com/products/garment-dyed-longsleeve-polo-faded-black",
+   "hp": "Garment Dyed Longsleeve Polo - Faded Black",
+   "hu": "https://www.wythe.com/products/garment-dyed-longsleeve-polo-faded-black",
+   "b": "single"
   },
-  "dials": {
-    "dur": 4,
-    "forg": 3,
-    "fuss": -2,
-    "golffice": 0,
-    "status": 2,
-    "ivy": 3,
-    "murica": 5,
-    "prep": 3,
-    "whitet": 4,
-    "logo": 1,
-    "western": 4,
-    "rock": 1,
-    "workwear": 4,
-    "outdoor": 2,
-    "surf": 1
+  "Dress shirt": {
+   "lp": "Oxford Cloth Button Down - Classic White",
+   "lu": "https://www.wythe.com/products/oxford-cloth-button-down-classic-white",
+   "hp": "Cotton Herringbone Officer's Shirt - Sage",
+   "hu": "https://www.wythe.com/products/cotton-herringbone-officers-shirt-sage",
+   "b": "range"
   },
-  "why": "Oxford shirts, pearl-snap western shirts and heavyweight tees in American mid-century styles, made to last.",
-  "origin": "Founded in 2019 by Peter Middleton, formerly in fabric research at Ralph Lauren; the store is on Orchard Street in Manhattan.",
-  "say": "WITH",
-  "chan": ["O", "I"],
-  "conf": "S",
-  "forgc": [5, 3, 1],
-  "shop": "https://www.wythe.com/search?q=",
-  "onething": {
-    "p": "Oxford Shirt",
-    "u": "",
-    "n": "the first thing they made, Kickstarter 2019; custom-woven cloth. Link best-guess"
+  "Dress pants": {
+   "lp": "Flat Front Cotton Linen Twill Chino - Camp Khaki",
+   "lu": "https://www.wythe.com/products/flat-front-cotton-linen-twill-chino-camp-khaki",
+   "hp": "Japanese Cotton Herringbone Chino - Faded Navy",
+   "hu": "https://www.wythe.com/products/japanese-cotton-herringbone-chino-faded-navy",
+   "b": "range"
   },
-  "prices": [[55, 98], [148, 148], [160, 248], null, [228, 368], [248, 598], [298, 1798], [388, 1198]],
-  "notes": {
-    "murica": "Recovering a lost American wardrobe garment by garment, with cloth developed rather than sourced. The reference points are Miles Davis and James Dean, and the intent is restoration rather than pastiche.",
-    "whitet": "the heavyweight tee is a signature — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 2; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "style": "Every piece is a considered take on a mid-century American design; the designer's eye is the brand.",
-    "cotton": "Heavyweight tees, oxford cloth and pearl-snap shirting in long-staple cotton, with the fabric named on each product.",
-    "craft": "PDPs state country and often the process stage ('knit, cut, sewn and dyed in Portugal'; 'woven in a family owned mill in India'; 'Made in China in a WRAP Gold certified facility'), but no factory or mill is ever named and nothing is owned. That is detailed country-of-make, not named making."
+  "Sweater": {
+   "lp": "Highland Cableknit Sweater - Navy",
+   "lu": "https://www.wythe.com/products/highland-cableknit-sweater-navy",
+   "hp": "Alpaca Cardigan - Stag",
+   "hu": "https://www.wythe.com/products/alpaca-cardigan-stag",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 0,
-    "cities": [],
-    "basis": "positive zero 2026-09-23"
+  "Outerwear": {
+   "lp": "Heavyweight Pinpoint Canvas Barn Jacket - Unbleached",
+   "lu": "https://www.wythe.com/products/heavyweight-pinpoint-canvas-barn-jacket-unbleached",
+   "hp": "Polo Coat - Diamond Ombre Tweed",
+   "hu": "https://www.wythe.com/products/polo-coat-diamond-ombre-tweed",
+   "b": "range"
   },
-  "cities": "No store of its own in the US · independent menswear shops, and its own site",
-  "region": {
-    "o": [],
-    "s": [79, 119, 126]
-  },
-  "site": {
-    "domain": "wythe.com",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 298,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "licensed",
-    "marks": [
-      "Tencel - LICENSED (Lenzing fibre brand), 24 of 297 feed products and 5 of 120 PDPs",
-      "used as a fabric NAME IN PRODUCT TITLES, not only in a composition line: 'Tencel Gabardine Western Pant', 'Printed Corral Plaid Tencel Ranch Jacket', and in prose 'we've been working with this tencel gabardine fabric"
-    ],
-    "source": "census_followup",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 87,
-    "w": 75,
-    "n": 80,
-    "s": 1,
-    "c": 5,
-    "x": 0,
-    "xh": 0,
-    "sp": "one",
-    "sc": [],
-    "nc": ["Shirts", "Outerwear", "Pants"],
-    "st": "complete"
-  },
-  "price_range_only": ["T-shirt", "Dress shirt", "Dress pants", "Sweater", "Outerwear", "Shoes"],
-  "garment_links": {
-    "T-shirt": "https://www.wythe.com/collections/t-shirts-tank-tops-and-sweatshirts",
-    "Polo": "https://www.wythe.com/collections/garment-dyed-polos",
-    "Dress shirt": "https://www.wythe.com/collections/oxford-cloth-button-downs",
-    "Dress pants": "https://www.wythe.com/collections/pants",
-    "Sweater": "https://www.wythe.com/collections/sweaters",
-    "Outerwear": "https://www.wythe.com/collections/coats-jackets"
-  },
-  "price_checked": true,
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Tubular Pocket Tee Shirt - Deep Black",
-      "lu": "https://www.wythe.com/products/tubular-pocket-tee-shirt-deep-black",
-      "hp": "Football T-Shirt - Faded Navy",
-      "hu": "https://www.wythe.com/products/football-t-shirt-faded-navy",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Garment Dyed Longsleeve Polo - Faded Black",
-      "lu": "https://www.wythe.com/products/garment-dyed-longsleeve-polo-faded-black",
-      "hp": "Garment Dyed Longsleeve Polo - Faded Black",
-      "hu": "https://www.wythe.com/products/garment-dyed-longsleeve-polo-faded-black",
-      "b": "single"
-    },
-    "Dress shirt": {
-      "lp": "Oxford Cloth Button Down - Classic White",
-      "lu": "https://www.wythe.com/products/oxford-cloth-button-down-classic-white",
-      "hp": "Cotton Herringbone Officer's Shirt - Sage",
-      "hu": "https://www.wythe.com/products/cotton-herringbone-officers-shirt-sage",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Flat Front Cotton Linen Twill Chino - Camp Khaki",
-      "lu": "https://www.wythe.com/products/flat-front-cotton-linen-twill-chino-camp-khaki",
-      "hp": "Japanese Cotton Herringbone Chino - Faded Navy",
-      "hu": "https://www.wythe.com/products/japanese-cotton-herringbone-chino-faded-navy",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Highland Cableknit Sweater - Navy",
-      "lu": "https://www.wythe.com/products/highland-cableknit-sweater-navy",
-      "hp": "Alpaca Cardigan - Stag",
-      "hu": "https://www.wythe.com/products/alpaca-cardigan-stag",
-      "b": "range"
-    },
-    "Outerwear": {
-      "lp": "Heavyweight Pinpoint Canvas Barn Jacket - Unbleached",
-      "lu": "https://www.wythe.com/products/heavyweight-pinpoint-canvas-barn-jacket-unbleached",
-      "hp": "Polo Coat - Diamond Ombre Tweed",
-      "hu": "https://www.wythe.com/products/polo-coat-diamond-ombre-tweed",
-      "b": "range"
-    },
-    "Shoes": {
-      "lp": "Kingdom Moc",
-      "lu": "https://www.wythe.com/products/kingdom-moc",
-      "hp": "Brown/Sagebrush Calfskin Pee Wee Boots",
-      "hu": "https://www.wythe.com/products/brown-sagebrush-calfskin-pee-wee-boots",
-      "b": "range"
-    }
-  },
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.wythe.com/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?search_text=Wythe&catalog[]=5",
-      "m": "text search",
-      "n": "Short name — text search will pull noise"
-    }
-  },
-  "season": {
-    "l": "Fall/Winter 2026 \"Winter's Sun\"",
-    "t": "campaign",
-    "u": "https://www.wythe.com/blogs/campaigns/fall-winter-2026-winters-sun",
-    "m": "yes"
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "No owned facility claimed; PDPs refer to unnamed partner factories ('multi-generational factory in India', 'family owned mill in India', 'WRAP Gold certified facility' in China).",
-    "makers": "no",
-    "mills": "no",
-    "madein": "most",
-    "countries": "USA (thermals; NC socks), Portugal (tees, sweatshirts), India (oxfords, flannels), China (bedford cord pants); products.json scan: 15+ state origin, 2 lacked complete origin (sample of ~20 descriptions across shirts, tees, thermals, sweatshirts, pants, socks).",
-    "heritage": "none",
-    "repair": "no",
-    "process": "some",
-    "urls": [
-      "https://www.wythe.com/products/flared-bedford-cord-five-pocket-pants-black",
-      "https://www.wythe.com/collections/shirts/products.json?limit=10"
-    ],
-    "conf": "high",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Kingdom Moc",
+   "lu": "https://www.wythe.com/products/kingdom-moc",
+   "hp": "Brown/Sagebrush Calfskin Pee Wee Boots",
+   "hu": "https://www.wythe.com/products/brown-sagebrush-calfskin-pee-wee-boots",
+   "b": "range"
   }
+ },
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.wythe.com/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?search_text=Wythe&catalog[]=5",
+   "m": "text search",
+   "n": "Short name — text search will pull noise"
+  }
+ },
+ "season": {
+  "l": "Fall/Winter 2026 \"Winter's Sun\"",
+  "t": "campaign",
+  "u": "https://www.wythe.com/blogs/campaigns/fall-winter-2026-winters-sun",
+  "m": "yes"
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "No owned facility claimed; PDPs refer to unnamed partner factories ('multi-generational factory in India', 'family owned mill in India', 'WRAP Gold certified facility' in China).",
+  "makers": "no",
+  "mills": "no",
+  "madein": "most",
+  "countries": "USA (thermals; NC socks), Portugal (tees, sweatshirts), India (oxfords, flannels), China (bedford cord pants); products.json scan: 15+ state origin, 2 lacked complete origin (sample of ~20 descriptions across shirts, tees, thermals, sweatshirts, pants, socks).",
+  "heritage": "none",
+  "repair": "no",
+  "process": "some",
+  "urls": [
+   "https://www.wythe.com/products/flared-bedford-cord-five-pocket-pants-black",
+   "https://www.wythe.com/collections/shirts/products.json?limit=10"
+  ],
+  "conf": "high",
+  "read": "2026-10-03"
+ }
 }

@@ -1,188 +1,241 @@
 {
-  "name": "Robert Barakett",
-  "band": "premium",
-  "seat": 48,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 5,
-    "craft": 1,
-    "style": 2
+ "name": "Robert Barakett",
+ "band": "premium",
+ "seat": 48,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 5,
+  "craft": 1,
+  "style": 2
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 2,
+  "linen": 1,
+  "cotton": 5,
+  "wool": 1,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 2,
+  "forg": 3,
+  "fuss": -2,
+  "golffice": -1,
+  "shoes": 0,
+  "whitet": 4,
+  "logo": 1,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Pima-cotton tees and polos, refined over two decades, distributed through Jack Victor.",
+ "origin": "Founded in Montreal by a textile engineer.",
+ "chan": [
+  "D",
+  "I",
+  "X"
+ ],
+ "conf": "S",
+ "forgc": [
+  3,
+  3,
+  1
+ ],
+ "shop": "https://robertbarakett.com/search?q=",
+ "onething": {
+  "p": "Georgia pima tee",
+  "u": "https://robertbarakett.com/search?q=Georgia%20pima%20tee",
+  "n": "works"
+ },
+ "prices": [
+  [
+   70,
+   70
+  ],
+  [
+   100,
+   100
+  ],
+  null,
+  null,
+  [
+   178,
+   178
+  ],
+  [
+   148,
+   398
+  ],
+  [
+   298,
+   798
+  ],
+  [
+   278,
+   348
+  ]
+ ],
+ "price_checked": true,
+ "notes": {
+  "cotton": "USA-grown Pima plus the branded Soft Water finish",
+  "comfort": "'the softness comes first' is the first line of the copy",
+  "whitet": "Pima tees are the house’s reputation — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 3; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "Barakett product pages state composition only, with no country, factory or mill. The only making fact on the site is a Jack Victor Limited labour report saying Jack Victor makes tailored clothing in Montreal, which is not tied to Barakett's (mostly knit) range. Nothing checkable about who makes Barakett."
+ },
+ "doors": {
+  "c": "full",
+  "n": 0,
+  "cities": [],
+  "basis": "master 2026-08-29, pre-recapture"
+ },
+ "cities": "No store of its own in the US · department stores and independent menswear shops, and its own site",
+ "region": {
+  "o": [],
+  "s": [
+   9,
+   11,
+   52,
+   53,
+   136,
+   138,
+   151,
+   152
+  ]
+ },
+ "site": {
+  "domain": "robertbarakett.com",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 261,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "licensed",
+  "marks": [
+   "TENCEL(TM) (licensed)",
+   "\"Soft Water Finishing\" (house-named finishing process)",
+   "unnamed generic \"water-repellent\" 1x"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 47,
+  "w": 43,
+  "n": 68,
+  "s": 21,
+  "c": 2,
+  "x": 21,
+  "xh": 6,
+  "sp": "one",
+  "sc": [
+   "Jackets"
+  ],
+  "nc": [
+   "Polos",
+   "Tees",
+   "Sweaters"
+  ],
+  "st": "complete"
+ },
+ "garment_links": {
+  "T-shirt": "https://robertbarakett.com/collections/all-tees",
+  "Polo": "https://robertbarakett.com/collections/all-polos",
+  "Dress shirt": "https://robertbarakett.com/collections/all-shirts",
+  "Dress pants": "https://robertbarakett.com/collections/pants",
+  "Sweater": "https://robertbarakett.com/collections/sweaters",
+  "Outerwear": "https://robertbarakett.com/collections/outerwear",
+  "Shoes": "https://robertbarakett.com/collections/shoes"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "The Barakett Tee",
+   "lu": "https://robertbarakett.com/products/the-barakett-tee-white",
+   "hp": "The Barakett Tee",
+   "hu": "https://robertbarakett.com/products/the-barakett-tee-white",
+   "b": "single"
   },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 2,
-    "linen": 1,
-    "cotton": 5,
-    "wool": 1,
-    "synth": 1
+  "Polo": {
+   "lp": "The Barakett Polo",
+   "lu": "https://robertbarakett.com/products/the-barakett-polo-black",
+   "hp": "The Barakett Polo",
+   "hu": "https://robertbarakett.com/products/the-barakett-polo-black",
+   "b": "single"
   },
-  "dials": {
-    "dur": 2,
-    "forg": 3,
-    "fuss": -2,
-    "golffice": -1,
-    "shoes": 0,
-    "whitet": 4,
-    "logo": 1,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
+  "Dress pants": {
+   "lp": "Brad Stretch Five-Pocket Pants",
+   "lu": "https://robertbarakett.com/products/brad-straight-5-pkt-pant-navy-rb262187-navy",
+   "hp": "Brad Stretch Five-Pocket Pants",
+   "hu": "https://robertbarakett.com/products/brad-straight-5-pkt-pant-navy-rb262187-navy",
+   "b": "single"
   },
-  "why": "Pima-cotton tees and polos, refined over two decades, distributed through Jack Victor.",
-  "origin": "Founded in Montreal by a textile engineer.",
-  "chan": ["D", "I", "X"],
-  "conf": "S",
-  "forgc": [3, 3, 1],
-  "shop": "https://robertbarakett.com/search?q=",
-  "onething": {
-    "p": "Georgia pima tee",
-    "u": "https://robertbarakett.com/search?q=Georgia%20pima%20tee",
-    "n": "works"
+  "Sweater": {
+   "lp": "Rylan Crewneck Sweater",
+   "lu": "https://robertbarakett.com/products/rylan-ls-crewneck-swtr-deep-bordeaux-rb262139-dpbord",
+   "hp": "Crafton Buttoned Cardigan",
+   "hu": "https://robertbarakett.com/products/crafton-buttnd-cardigan-moonstone-rb262157-moonst",
+   "b": "range"
   },
-  "prices": [[70, 70], [100, 100], null, null, [178, 178], [148, 398], [298, 798], [278, 348]],
-  "price_checked": true,
-  "notes": {
-    "cotton": "USA-grown Pima plus the branded Soft Water finish",
-    "comfort": "'the softness comes first' is the first line of the copy",
-    "whitet": "Pima tees are the house’s reputation — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 3; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Barakett product pages state composition only, with no country, factory or mill. The only making fact on the site is a Jack Victor Limited labour report saying Jack Victor makes tailored clothing in Montreal, which is not tied to Barakett's (mostly knit) range. Nothing checkable about who makes Barakett."
+  "Outerwear": {
+   "lp": "Myer Buttoned Jacket",
+   "lu": "https://robertbarakett.com/products/myer-button-front-jacket-tapestry-rb262035-tapsty",
+   "hp": "Bradford Buttoned Suede Jacket",
+   "hu": "https://robertbarakett.com/products/bradford-butnd-suede-jkt-brown-rb262239-brown",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 0,
-    "cities": [],
-    "basis": "master 2026-08-29, pre-recapture"
-  },
-  "cities": "No store of its own in the US · department stores and independent menswear shops, and its own site",
-  "region": {
-    "o": [],
-    "s": [9, 11, 52, 53, 136, 138, 151, 152]
-  },
-  "site": {
-    "domain": "robertbarakett.com",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 261,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "licensed",
-    "marks": [
-      "TENCEL(TM) (licensed)",
-      "\"Soft Water Finishing\" (house-named finishing process)",
-      "unnamed generic \"water-repellent\" 1x"
-    ],
-    "source": "census",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 47,
-    "w": 43,
-    "n": 68,
-    "s": 21,
-    "c": 2,
-    "x": 21,
-    "xh": 6,
-    "sp": "one",
-    "sc": ["Jackets"],
-    "nc": ["Polos", "Tees", "Sweaters"],
-    "st": "complete"
-  },
-  "garment_links": {
-    "T-shirt": "https://robertbarakett.com/collections/all-tees",
-    "Polo": "https://robertbarakett.com/collections/all-polos",
-    "Dress shirt": "https://robertbarakett.com/collections/all-shirts",
-    "Dress pants": "https://robertbarakett.com/collections/pants",
-    "Sweater": "https://robertbarakett.com/collections/sweaters",
-    "Outerwear": "https://robertbarakett.com/collections/outerwear",
-    "Shoes": "https://robertbarakett.com/collections/shoes"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "The Barakett Tee",
-      "lu": "https://robertbarakett.com/products/the-barakett-tee-white",
-      "hp": "The Barakett Tee",
-      "hu": "https://robertbarakett.com/products/the-barakett-tee-white",
-      "b": "single"
-    },
-    "Polo": {
-      "lp": "The Barakett Polo",
-      "lu": "https://robertbarakett.com/products/the-barakett-polo-black",
-      "hp": "The Barakett Polo",
-      "hu": "https://robertbarakett.com/products/the-barakett-polo-black",
-      "b": "single"
-    },
-    "Dress pants": {
-      "lp": "Brad Stretch Five-Pocket Pants",
-      "lu": "https://robertbarakett.com/products/brad-straight-5-pkt-pant-navy-rb262187-navy",
-      "hp": "Brad Stretch Five-Pocket Pants",
-      "hu": "https://robertbarakett.com/products/brad-straight-5-pkt-pant-navy-rb262187-navy",
-      "b": "single"
-    },
-    "Sweater": {
-      "lp": "Rylan Crewneck Sweater",
-      "lu": "https://robertbarakett.com/products/rylan-ls-crewneck-swtr-deep-bordeaux-rb262139-dpbord",
-      "hp": "Crafton Buttoned Cardigan",
-      "hu": "https://robertbarakett.com/products/crafton-buttnd-cardigan-moonstone-rb262157-moonst",
-      "b": "range"
-    },
-    "Outerwear": {
-      "lp": "Myer Buttoned Jacket",
-      "lu": "https://robertbarakett.com/products/myer-button-front-jacket-tapestry-rb262035-tapsty",
-      "hp": "Bradford Buttoned Suede Jacket",
-      "hu": "https://robertbarakett.com/products/bradford-butnd-suede-jkt-brown-rb262239-brown",
-      "b": "range"
-    },
-    "Shoes": {
-      "lp": "Brannon Loafer",
-      "lu": "https://robertbarakett.com/products/brannon-suede-loafer-dark-navy-rbsh52006-dknavy",
-      "hp": "Hampton Yacht Loafer",
-      "hu": "https://robertbarakett.com/products/hampton-yacht-loafer-denim-rbsh61009-denim",
-      "b": "pair"
-    }
-  },
-  "price_range_only": ["Sweater", "Outerwear"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://robertbarakett.com/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?search_text=Robert%20Barakett&catalog[]=5",
-      "m": "text search",
-      "n": "No Vinted brand entry; keyword search in Men"
-    }
-  },
-  "craft_evidence": {
-    "owned": "unclear",
-    "owned_d": "Brand claims no factory. Its site hosts the Bill S-211 report of Jack Victor Limited (FY Dec 2024-Nov 2025), which states Jack Victor manufactures men's tailored clothing (suits, sportcoats, blazers, trousers, formalwear) in Montreal with ~1,010 employees. The report covers Jack Victor only and does not say Barakett product is made there; Barakett PDPs give no origin. Group-owned tailoring plant, link to Barakett range unproven.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "none",
-    "countries": "No country of make on PDPs: Elton LS polo, Pascal sportcoat, plus ~10 products.json descriptions (hoodie, jogging pants, leather joggers/boots, polo). Report says materials from 'Europe and the Far East', imports from 'Europe, the Middle East and Asia'.",
-    "heritage": "vague",
-    "repair": "no",
-    "process": "no",
-    "urls": [
-      "https://robertbarakett.com/pages/child-and-forced-labour-report",
-      "https://www.robertbarakett.com/products/pascal-sportcoat-espresso-rb262006-esprso"
-    ],
-    "conf": "medium",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Brannon Loafer",
+   "lu": "https://robertbarakett.com/products/brannon-suede-loafer-dark-navy-rbsh52006-dknavy",
+   "hp": "Hampton Yacht Loafer",
+   "hu": "https://robertbarakett.com/products/hampton-yacht-loafer-denim-rbsh61009-denim",
+   "b": "pair"
   }
+ },
+ "price_range_only": [
+  "Sweater",
+  "Outerwear"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://robertbarakett.com/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?search_text=Robert%20Barakett&catalog[]=5",
+   "m": "text search",
+   "n": "No Vinted brand entry; keyword search in Men"
+  }
+ },
+ "craft_evidence": {
+  "owned": "unclear",
+  "owned_d": "Brand claims no factory. Its site hosts the Bill S-211 report of Jack Victor Limited (FY Dec 2024-Nov 2025), which states Jack Victor manufactures men's tailored clothing (suits, sportcoats, blazers, trousers, formalwear) in Montreal with ~1,010 employees. The report covers Jack Victor only and does not say Barakett product is made there; Barakett PDPs give no origin. Group-owned tailoring plant, link to Barakett range unproven.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "none",
+  "countries": "No country of make on PDPs: Elton LS polo, Pascal sportcoat, plus ~10 products.json descriptions (hoodie, jogging pants, leather joggers/boots, polo). Report says materials from 'Europe and the Far East', imports from 'Europe, the Middle East and Asia'.",
+  "heritage": "vague",
+  "repair": "no",
+  "process": "no",
+  "urls": [
+   "https://robertbarakett.com/pages/child-and-forced-labour-report",
+   "https://www.robertbarakett.com/products/pascal-sportcoat-espresso-rb262006-esprso"
+  ],
+  "conf": "medium",
+  "read": "2026-10-03"
+ }
 }

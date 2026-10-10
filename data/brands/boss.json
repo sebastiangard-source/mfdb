@@ -1,262 +1,569 @@
 {
-  "name": "BOSS",
-  "band": "accessible",
-  "seat": 132,
-  "dagger": 0,
-  "focus": {
-    "tech": 2,
-    "comfort": 2,
-    "craft": 4,
-    "style": 3
+ "name": "BOSS",
+ "band": "accessible",
+ "seat": 132,
+ "dagger": 0,
+ "focus": {
+  "tech": 2,
+  "comfort": 2,
+  "craft": 4,
+  "style": 3
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 2,
+  "linen": 2,
+  "cotton": 2,
+  "wool": 3,
+  "synth": 2
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 3,
+  "fuss": 1,
+  "golffice": -2,
+  "golf": 2,
+  "status": 2,
+  "finbro": 3,
+  "whitet": 2,
+  "logo": 2,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "German tailoring and casual clothing sold worldwide through its own stores and department stores.",
+ "origin": "Founded in Metzingen, Germany, in 1924 by Hugo Boss.",
+ "chan": [
+  "O",
+  "D",
+  "X"
+ ],
+ "conf": "S",
+ "forgc": [
+  2,
+  4,
+  2
+ ],
+ "shop": "https://www.hugoboss.com/us/search?q=",
+ "onething": {
+  "p": "The suit",
+  "u": "https://www.nordstrom.com/browse/men/clothing/suits?filterByBrand=boss",
+  "n": "via Nordstrom, brand-filtered"
+ },
+ "prices": [
+  [
+   59,
+   399
+  ],
+  [
+   99,
+   399
+  ],
+  [
+   129,
+   399
+  ],
+  [
+   129,
+   449
+  ],
+  [
+   170,
+   649
+  ],
+  [
+   159,
+   549
+  ],
+  [
+   349,
+   2499
+  ],
+  [
+   199,
+   750
+  ]
+ ],
+ "price_checked": true,
+ "doors": {
+  "c": "full",
+  "n": 66,
+  "cities": [
+   [
+    "Arlington",
+    "VA",
+    1
+   ],
+   [
+    "Atlanta",
+    "GA",
+    1
+   ],
+   [
+    "Atlantic City",
+    "NJ",
+    1
+   ],
+   [
+    "Austin",
+    "TX",
+    1
+   ],
+   [
+    "Aventura",
+    "FL",
+    1
+   ],
+   [
+    "Bellevue",
+    "WA",
+    1
+   ],
+   [
+    "Birmingham",
+    "AL",
+    1
+   ],
+   [
+    "Bloomington",
+    "MN",
+    1
+   ],
+   [
+    "Boca Raton",
+    "FL",
+    1
+   ],
+   [
+    "Boston",
+    "MA",
+    1
+   ],
+   [
+    "Buffalo",
+    "NY",
+    1
+   ],
+   [
+    "Canoga Park",
+    "CA",
+    1
+   ],
+   [
+    "Charlotte",
+    "NC",
+    1
+   ],
+   [
+    "Cherry Hill",
+    "NJ",
+    1
+   ],
+   [
+    "Chicago",
+    "IL",
+    1
+   ],
+   [
+    "Columbus",
+    "OH",
+    1
+   ],
+   [
+    "Coral Gables",
+    "FL",
+    1
+   ],
+   [
+    "Costa Mesa",
+    "CA",
+    1
+   ],
+   [
+    "Dallas",
+    "TX",
+    2
+   ],
+   [
+    "Denver",
+    "CO",
+    1
+   ],
+   [
+    "East Rutherford",
+    "NJ",
+    1
+   ],
+   [
+    "Fort Worth",
+    "TX",
+    1
+   ],
+   [
+    "Garden City",
+    "NY",
+    1
+   ],
+   [
+    "Glendale",
+    "CA",
+    1
+   ],
+   [
+    "Houston",
+    "TX",
+    1
+   ],
+   [
+    "Indianapolis",
+    "IN",
+    1
+   ],
+   [
+    "Jacksonville",
+    "FL",
+    1
+   ],
+   [
+    "Jamaica",
+    "NY",
+    2
+   ],
+   [
+    "King of Prussia",
+    "PA",
+    1
+   ],
+   [
+    "Las Vegas",
+    "NV",
+    3
+   ],
+   [
+    "Los Angeles",
+    "CA",
+    3
+   ],
+   [
+    "Manhasset",
+    "NY",
+    1
+   ],
+   [
+    "McLean",
+    "VA",
+    2
+   ],
+   [
+    "Miami",
+    "FL",
+    2
+   ],
+   [
+    "New York",
+    "NY",
+    3
+   ],
+   [
+    "Oak Brook",
+    "IL",
+    1
+   ],
+   [
+    "Orlando",
+    "FL",
+    1
+   ],
+   [
+    "Palm Beach Gardens",
+    "FL",
+    1
+   ],
+   [
+    "Paramus",
+    "NJ",
+    1
+   ],
+   [
+    "Pittsburgh",
+    "PA",
+    1
+   ],
+   [
+    "Roseville",
+    "CA",
+    1
+   ],
+   [
+    "Salt Lake City",
+    "UT",
+    1
+   ],
+   [
+    "San Antonio",
+    "TX",
+    1
+   ],
+   [
+    "San Diego",
+    "CA",
+    1
+   ],
+   [
+    "Santa Clara",
+    "CA",
+    1
+   ],
+   [
+    "Santa Monica",
+    "CA",
+    1
+   ],
+   [
+    "Sarasota",
+    "FL",
+    1
+   ],
+   [
+    "Schaumburg",
+    "IL",
+    1
+   ],
+   [
+    "Scottsdale",
+    "AZ",
+    1
+   ],
+   [
+    "Short Hills",
+    "NJ",
+    1
+   ],
+   [
+    "Tampa",
+    "FL",
+    1
+   ],
+   [
+    "The Woodlands",
+    "TX",
+    1
+   ],
+   [
+    "Torrance",
+    "CA",
+    1
+   ],
+   [
+    "Troy",
+    "MI",
+    1
+   ],
+   [
+    "Washington",
+    "DC",
+    1
+   ],
+   [
+    "White Plains",
+    "NY",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 63,
+  "con": 147
+ },
+ "cities": "66 stores across the US · department stores, and its own site",
+ "region": {
+  "o": [
+   453,
+   457,
+   458,
+   459,
+   460,
+   461,
+   465,
+   466,
+   467,
+   468,
+   469,
+   470,
+   471,
+   472,
+   473,
+   475,
+   476
+  ],
+  "s": []
+ },
+ "addmen": true,
+ "site": {
+  "domain": "hugoboss.com",
+  "platform": "salesforce_commerce",
+  "feed": "sitemap_products",
+  "feed_count": 5850,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "both",
+  "marks": [
+   "NovaPoly(TM)",
+   "GORE-TEX",
+   "Alcantara",
+   "Loro Piana",
+   "XL EXTRALIGHT(R)",
+   "Supima"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 849,
+  "w": 846,
+  "n": 80,
+  "s": 17,
+  "c": 3,
+  "x": 34,
+  "xh": 18,
+  "sp": "one",
+  "sc": [
+   "Jackets & Coats",
+   "Swimwear"
+  ],
+  "nc": [
+   "Pants & Trousers",
+   "Shirts",
+   "T-Shirts"
+  ],
+  "st": "complete"
+ },
+ "garment_links": {
+  "T-shirt": "https://www.hugoboss.com/us/men-t-shirts/",
+  "Polo": "https://www.hugoboss.com/us/men-polo-shirts/",
+  "Dress shirt": "https://www.hugoboss.com/us/men-business-shirts/",
+  "Jeans": "https://www.hugoboss.com/us/men-jeans/",
+  "Dress pants": "https://www.hugoboss.com/us/men-business-pants/",
+  "Sweater": "https://www.hugoboss.com/us/men-knitwear/",
+  "Outerwear": "https://www.hugoboss.com/us/men-jackets-coats/",
+  "Shoes": "https://www.hugoboss.com/us/men-all-shoes/"
+ },
+ "notes": {
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 5; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "HUGO BOSS's 2025 annual report says 17% of volume is made in five owned facilities, with Izmir making formalwear and casualwear and Metzingen making Made to Measure suits. The other 83% comes from contract suppliers. This is real owned making for part of the range, not the whole."
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Stretch-cotton T-shirt",
+   "lu": "https://www.hugoboss.com/us/stretch-cotton-t-shirt/hbna50473278_325.html",
+   "hp": "Cable-knit T-shirt in cotton and silk",
+   "hu": "https://www.hugoboss.com/us/cable-knit-t-shirt-in-cotton-and-silk/hbna50559427_211.html",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 2,
-    "linen": 2,
-    "cotton": 2,
-    "wool": 3,
-    "synth": 2
+  "Polo": {
+   "lp": "Stretch-cotton slim-fit polo shirt with logo patch",
+   "lu": "https://www.hugoboss.com/us/stretch-cotton-slim-fit-polo-shirt-with-logo-patch/hbna50507803_384.html",
+   "hp": "Zipper-neck polo shirt in a cotton-silk blend",
+   "hu": "https://www.hugoboss.com/us/zipper-neck-polo-shirt-in-a-cotton-silk-blend/hbna50570024_404.html",
+   "b": "range"
   },
-  "dials": {
-    "dur": 3,
-    "forg": 3,
-    "fuss": 1,
-    "golffice": -2,
-    "golf": 2,
-    "status": 2,
-    "finbro": 3,
-    "whitet": 2,
-    "logo": 2,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
+  "Dress shirt": {
+   "lp": "Slim-fit shirt in structured performance stretch fabric",
+   "lu": "https://www.hugoboss.com/us/slim-fit-shirt-in-structured-performance-stretch-fabric/hbna50567146_254.html",
+   "hp": "Slim-fit shirt in Italian-made cotton",
+   "hu": "https://www.hugoboss.com/us/slim-fit-shirt-in-italian-made-cotton/hbna50555273_030.html",
+   "b": "range"
   },
-  "why": "German tailoring and casual clothing sold worldwide through its own stores and department stores.",
-  "origin": "Founded in Metzingen, Germany, in 1924 by Hugo Boss.",
-  "chan": ["O", "D", "X"],
-  "conf": "S",
-  "forgc": [2, 4, 2],
-  "shop": "https://www.hugoboss.com/us/search?q=",
-  "onething": {
-    "p": "The suit",
-    "u": "https://www.nordstrom.com/browse/men/clothing/suits?filterByBrand=boss",
-    "n": "via Nordstrom, brand-filtered"
+  "Jeans": {
+   "lp": "Delaware Slim-fit jeans in stay-black comfort-stretch denim",
+   "lu": "https://www.hugoboss.com/us/delaware-slim-fit-jeans-in-stay-black-comfort-stretch-denim/hbna50521261_003.html",
+   "hp": "Slim-fit jeans in silk-blend denim",
+   "hu": "https://www.hugoboss.com/us/slim-fit-jeans-in-silk-blend-denim/hbna50563739_450.html",
+   "b": "range"
   },
-  "prices": [[59, 399], [99, 399], [129, 399], [129, 449], [170, 649], [159, 549], [349, 2499], [199, 750]],
-  "price_checked": true,
-  "doors": {
-    "c": "full",
-    "n": 59,
-    "cities": [
-      ["Arlington", "VA", 1],
-      ["Atlanta", "GA", 1],
-      ["Atlantic City", "NJ", 1],
-      ["Austin", "TX", 1],
-      ["Aventura", "FL", 1],
-      ["Bellevue", "WA", 1],
-      ["Birmingham", "AL", 1],
-      ["Bloomington", "MN", 1],
-      ["Boca Raton", "FL", 1],
-      ["Boston", "MA", 1],
-      ["Buffalo", "NY", 1],
-      ["Canoga Park", "CA", 1],
-      ["Charlotte", "NC", 1],
-      ["Cherry Hill", "NJ", 1],
-      ["Chicago", "IL", 1],
-      ["Columbus", "OH", 1],
-      ["Coral Gables", "FL", 1],
-      ["Costa Mesa", "CA", 1],
-      ["Dallas", "TX", 1],
-      ["Denver", "CO", 1],
-      ["East Rutherford", "NJ", 1],
-      ["Fort Worth", "TX", 1],
-      ["Garden City", "NY", 1],
-      ["Glendale", "CA", 1],
-      ["Houston", "TX", 1],
-      ["Indianapolis", "IN", 1],
-      ["Jacksonville", "FL", 1],
-      ["King of Prussia", "PA", 1],
-      ["Las Vegas", "NV", 2],
-      ["Los Angeles", "CA", 2],
-      ["Manhasset", "NY", 1],
-      ["McLean", "VA", 1],
-      ["Miami", "FL", 2],
-      ["New York", "NY", 3],
-      ["Oak Brook", "IL", 1],
-      ["Orlando", "FL", 1],
-      ["Palm Beach Gardens", "FL", 1],
-      ["Paramus", "NJ", 1],
-      ["Pittsburgh", "PA", 1],
-      ["Roseville", "CA", 1],
-      ["Salt Lake City", "UT", 1],
-      ["San Antonio", "TX", 1],
-      ["San Diego", "CA", 1],
-      ["Santa Clara", "CA", 1],
-      ["Santa Monica", "CA", 1],
-      ["Sarasota", "FL", 1],
-      ["Schaumburg", "IL", 1],
-      ["Scottsdale", "AZ", 1],
-      ["Short Hills", "NJ", 1],
-      ["Tampa", "FL", 1],
-      ["The Woodlands", "TX", 1],
-      ["Torrance", "CA", 1],
-      ["Troy", "MI", 1],
-      ["White Plains", "NY", 1]
-    ],
-    "basis": "master 2026-08-29, pre-recapture",
-    "addressed": 8
+  "Dress pants": {
+   "lp": "Melange slim-fit trousers in a wool blend",
+   "lu": "https://www.hugoboss.com/us/melange-slim-fit-trousers-in-a-wool-blend/hbna50557407_348.html",
+   "hp": "Regular-fit pants in a wool blend with silk",
+   "hu": "https://www.hugoboss.com/us/regular-fit-pants-in-a-wool-blend-with-silk/hbna50539480_275.html",
+   "b": "range"
   },
-  "cities": "59 stores across the US · department stores, and its own site",
-  "region": {
-    "o": [3121, 3122, 3123, 3124, 3125, 3126, 3127, 3128],
-    "s": []
+  "Sweater": {
+   "lp": "Cotton pique sweater with logo patch",
+   "lu": "https://www.hugoboss.com/us/cotton-pique-sweater-with-logo-patch/hbna50527584_001.html",
+   "hp": "Silk sweater with jacquard pattern",
+   "hu": "https://www.hugoboss.com/us/silk-sweater-with-jacquard-pattern/hbna50565526_218.html",
+   "b": "pair"
   },
-  "addmen": true,
-  "site": {
-    "domain": "hugoboss.com",
-    "platform": "salesforce_commerce",
-    "feed": "sitemap_products",
-    "feed_count": 5850,
-    "status": "live_store",
-    "checked": "2026-09-13"
+  "Outerwear": {
+   "lp": "Slim-fit quilted jacket",
+   "lu": "https://www.hugoboss.com/us/slim-fit-quilted-jacket/hbna50549252_001.html",
+   "hp": "Reversible relaxed-fit coat in virgin wool and cashmere",
+   "hu": "https://www.hugoboss.com/us/reversible-relaxed-fit-coat-in-virgin-wool-and-cashmere/hbna50570726_118.html",
+   "b": "range"
   },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "both",
-    "marks": ["NovaPoly(TM)", "GORE-TEX", "Alcantara", "Loro Piana", "XL EXTRALIGHT(R)", "Supima"],
-    "source": "census",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 849,
-    "w": 846,
-    "n": 80,
-    "s": 17,
-    "c": 3,
-    "x": 34,
-    "xh": 18,
-    "sp": "one",
-    "sc": ["Jackets & Coats", "Swimwear"],
-    "nc": ["Pants & Trousers", "Shirts", "T-Shirts"],
-    "st": "complete"
-  },
-  "garment_links": {
-    "T-shirt": "https://www.hugoboss.com/us/men-t-shirts/",
-    "Polo": "https://www.hugoboss.com/us/men-polo-shirts/",
-    "Dress shirt": "https://www.hugoboss.com/us/men-business-shirts/",
-    "Jeans": "https://www.hugoboss.com/us/men-jeans/",
-    "Dress pants": "https://www.hugoboss.com/us/men-business-pants/",
-    "Sweater": "https://www.hugoboss.com/us/men-knitwear/",
-    "Outerwear": "https://www.hugoboss.com/us/men-jackets-coats/",
-    "Shoes": "https://www.hugoboss.com/us/men-all-shoes/"
-  },
-  "notes": {
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 5; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "HUGO BOSS's 2025 annual report says 17% of volume is made in five owned facilities, with Izmir making formalwear and casualwear and Metzingen making Made to Measure suits. The other 83% comes from contract suppliers. This is real owned making for part of the range, not the whole."
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Stretch-cotton T-shirt",
-      "lu": "https://www.hugoboss.com/us/stretch-cotton-t-shirt/hbna50473278_325.html",
-      "hp": "Cable-knit T-shirt in cotton and silk",
-      "hu": "https://www.hugoboss.com/us/cable-knit-t-shirt-in-cotton-and-silk/hbna50559427_211.html",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Stretch-cotton slim-fit polo shirt with logo patch",
-      "lu": "https://www.hugoboss.com/us/stretch-cotton-slim-fit-polo-shirt-with-logo-patch/hbna50507803_384.html",
-      "hp": "Zipper-neck polo shirt in a cotton-silk blend",
-      "hu": "https://www.hugoboss.com/us/zipper-neck-polo-shirt-in-a-cotton-silk-blend/hbna50570024_404.html",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Slim-fit shirt in structured performance stretch fabric",
-      "lu": "https://www.hugoboss.com/us/slim-fit-shirt-in-structured-performance-stretch-fabric/hbna50567146_254.html",
-      "hp": "Slim-fit shirt in Italian-made cotton",
-      "hu": "https://www.hugoboss.com/us/slim-fit-shirt-in-italian-made-cotton/hbna50555273_030.html",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Delaware Slim-fit jeans in stay-black comfort-stretch denim",
-      "lu": "https://www.hugoboss.com/us/delaware-slim-fit-jeans-in-stay-black-comfort-stretch-denim/hbna50521261_003.html",
-      "hp": "Slim-fit jeans in silk-blend denim",
-      "hu": "https://www.hugoboss.com/us/slim-fit-jeans-in-silk-blend-denim/hbna50563739_450.html",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Melange slim-fit trousers in a wool blend",
-      "lu": "https://www.hugoboss.com/us/melange-slim-fit-trousers-in-a-wool-blend/hbna50557407_348.html",
-      "hp": "Regular-fit pants in a wool blend with silk",
-      "hu": "https://www.hugoboss.com/us/regular-fit-pants-in-a-wool-blend-with-silk/hbna50539480_275.html",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Cotton pique sweater with logo patch",
-      "lu": "https://www.hugoboss.com/us/cotton-pique-sweater-with-logo-patch/hbna50527584_001.html",
-      "hp": "Silk sweater with jacquard pattern",
-      "hu": "https://www.hugoboss.com/us/silk-sweater-with-jacquard-pattern/hbna50565526_218.html",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "Slim-fit quilted jacket",
-      "lu": "https://www.hugoboss.com/us/slim-fit-quilted-jacket/hbna50549252_001.html",
-      "hp": "Reversible relaxed-fit coat in virgin wool and cashmere",
-      "hu": "https://www.hugoboss.com/us/reversible-relaxed-fit-coat-in-virgin-wool-and-cashmere/hbna50570726_118.html",
-      "b": "range"
-    },
-    "Shoes": {
-      "lp": "Grained-leather loafers",
-      "lu": "https://www.hugoboss.com/us/grained-leather-loafers/hbna50536173_205.html",
-      "hp": "Italian-made loafers in soft leather",
-      "hu": "https://www.hugoboss.com/us/italian-made-loafers-in-soft-leather/hbna50565730_209.html",
-      "b": "pair"
-    }
-  },
-  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants", "Outerwear"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.hugoboss.com/us/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "BOSS ONE; Active/golf/tennis performance pieces (all labelled BOSS)"
-  },
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=120&brand_ids[]=25383&brand_ids[]=6039857&brand_ids[]=195268",
-      "m": "brand filter",
-      "n": "HUGO excluded"
-    }
-  },
-  "season": {
-    "l": "FW26 (BOSS Brand Campaign FW26)",
-    "t": "campaign",
-    "u": "https://group.hugoboss.com/en/newsroom/stories/company/boss-brand-campaign-fw26",
-    "m": "unisex"
-  },
-  "craft_evidence": {
-    "owned": "yes",
-    "owned_d": "Group-owned (HUGO BOSS AG). Annual Report 2025: 17% of sourcing/production volume from own facilities. Izmir, Turkey is the main site, making formalwear and casualwear. Metzingen, Germany makes BOSS Camel, Made to Measure suits and samples. Coldrerio, Switzerland makes Made to Measure shirts. Radom (Poland) and Morrovalle (Italy) mainly make business shoes and sneakers. The other 83% comes from external suppliers (178 Tier 1 suppliers, 245 facilities).",
-    "makers": "no",
-    "mills": "no",
-    "madein": "none",
-    "countries": "No country of make visible on 2 suit PDPs. Origin may sit in a collapsed tab, and the sample is small and suits only.",
-    "heritage": "NC",
-    "repair": "NC",
-    "process": "some",
-    "urls": [
-      "https://annualreport.hugoboss.com/2025/management-report/group-profile/business-operations.html",
-      "https://group.hugoboss.com/en/sustainability/product/production-suppliers"
-    ],
-    "conf": "high",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Grained-leather loafers",
+   "lu": "https://www.hugoboss.com/us/grained-leather-loafers/hbna50536173_205.html",
+   "hp": "Italian-made loafers in soft leather",
+   "hu": "https://www.hugoboss.com/us/italian-made-loafers-in-soft-leather/hbna50565730_209.html",
+   "b": "pair"
   }
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants",
+  "Outerwear"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.hugoboss.com/us/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "BOSS ONE; Active/golf/tennis performance pieces (all labelled BOSS)"
+ },
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=120&brand_ids[]=25383&brand_ids[]=6039857&brand_ids[]=195268",
+   "m": "brand filter",
+   "n": "HUGO excluded"
+  }
+ },
+ "season": {
+  "l": "FW26 (BOSS Brand Campaign FW26)",
+  "t": "campaign",
+  "u": "https://group.hugoboss.com/en/newsroom/stories/company/boss-brand-campaign-fw26",
+  "m": "unisex"
+ },
+ "craft_evidence": {
+  "owned": "yes",
+  "owned_d": "Group-owned (HUGO BOSS AG). Annual Report 2025: 17% of sourcing/production volume from own facilities. Izmir, Turkey is the main site, making formalwear and casualwear. Metzingen, Germany makes BOSS Camel, Made to Measure suits and samples. Coldrerio, Switzerland makes Made to Measure shirts. Radom (Poland) and Morrovalle (Italy) mainly make business shoes and sneakers. The other 83% comes from external suppliers (178 Tier 1 suppliers, 245 facilities).",
+  "makers": "no",
+  "mills": "no",
+  "madein": "none",
+  "countries": "No country of make visible on 2 suit PDPs. Origin may sit in a collapsed tab, and the sample is small and suits only.",
+  "heritage": "NC",
+  "repair": "NC",
+  "process": "some",
+  "urls": [
+   "https://annualreport.hugoboss.com/2025/management-report/group-profile/business-operations.html",
+   "https://group.hugoboss.com/en/sustainability/product/production-suppliers"
+  ],
+  "conf": "high",
+  "read": "2026-10-03"
+ }
 }

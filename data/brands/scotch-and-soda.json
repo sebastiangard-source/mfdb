@@ -1,196 +1,255 @@
 {
-  "name": "Scotch & Soda",
-  "band": "accessible",
-  "seat": 69,
-  "dagger": 0,
-  "focus": {
-    "tech": 1,
-    "comfort": 3,
-    "craft": 1,
-    "style": 3
+ "name": "Scotch & Soda",
+ "band": "accessible",
+ "seat": 69,
+ "dagger": 0,
+ "focus": {
+  "tech": 1,
+  "comfort": 3,
+  "craft": 1,
+  "style": 3
+ },
+ "fabric": {
+  "denim": 3,
+  "cashmere": 1,
+  "linen": 2,
+  "cotton": 2,
+  "wool": 1,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 2,
+  "forg": 3,
+  "fuss": -1,
+  "whitet": 2,
+  "logo": 2,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Casual clothing with bold prints and patterns; the company went through bankruptcy in 2023 and was sold.",
+ "origin": "Founded in Amsterdam in 1985.",
+ "chan": [
+  "O",
+  "X"
+ ],
+ "conf": "G",
+ "forgc": [
+  3,
+  3,
+  1
+ ],
+ "onething": {
+  "p": "Ralston jean",
+  "u": "https://scotchandsoda.com/collections/men-clothing-jeans",
+  "n": "verified — own-site jeans collection, $148. The house names Ralston as its signature men's fit: regular slim, tapering from the knee"
+ },
+ "prices": [
+  [
+   38,
+   88
+  ],
+  [
+   68,
+   148
+  ],
+  [
+   98,
+   158
+  ],
+  [
+   138,
+   188
+  ],
+  [
+   128,
+   198
+  ],
+  [
+   98,
+   218
+  ],
+  [
+   188,
+   898
+  ],
+  [
+   168,
+   178
+  ]
+ ],
+ "doors": {
+  "c": "full",
+  "n": 0,
+  "cities": [],
+  "basis": "positive zero 2026-09-23"
+ },
+ "cities": "No store of its own in the US · independent menswear shops, and its own site",
+ "region": {
+  "o": [],
+  "s": [
+   124
+  ]
+ },
+ "addmen": true,
+ "site": {
+  "domain": "scotchandsoda.com",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 3898,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "no",
+  "origin": "none",
+  "marks": [
+   "none (generic \"Water-repellent\" finish claim only, no branded mark)"
+  ],
+  "source": "flag_sample",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 631,
+  "w": 553,
+  "n": 70,
+  "s": 10,
+  "c": 7,
+  "x": 19,
+  "xh": 1,
+  "sp": "one",
+  "sc": [
+   "Swim"
+  ],
+  "nc": [
+   "Shirts",
+   "Pants",
+   "T-Shirts & Polos"
+  ],
+  "st": "complete"
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants",
+  "Sweater",
+  "Outerwear",
+  "Shoes"
+ ],
+ "garment_links": {
+  "T-shirt": "https://www.scotchandsoda.com/collections/men-clothing-t-shirts-polos",
+  "Polo": "https://www.scotchandsoda.com/collections/men-clothing-t-shirts-polos",
+  "Dress shirt": "https://www.scotchandsoda.com/collections/men-clothing-shirts",
+  "Jeans": "https://www.scotchandsoda.com/collections/men-clothing-jeans",
+  "Dress pants": "https://www.scotchandsoda.com/collections/men-clothing-pants",
+  "Sweater": "https://www.scotchandsoda.com/collections/men-clothing-sweaters-cardigans",
+  "Outerwear": "https://www.scotchandsoda.com/collections/men-clothing-outerwear",
+  "Shoes": "https://www.scotchandsoda.com/collections/men-footwear"
+ },
+ "notes": {
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 2; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "On the US site, Scotch & Soda's product data and the PDP give no country of make, maker or mill. The about page is brand aesthetic plus 'born in Amsterdam'. There is nothing checkable about manufacture."
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Essentials Chest Logo Regular-Fit T-Shirt",
+   "lu": "https://www.scotchandsoda.com/products/essentials-chest-logo-regular-fit-t-shirt-184409_410-adriatic-blue",
+   "hp": "Jacquard Loose-Fit T-Shirt",
+   "hu": "https://www.scotchandsoda.com/products/jacquard-loose-fit-t-shirt-183742_270-eggnog",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 3,
-    "cashmere": 1,
-    "linen": 2,
-    "cotton": 2,
-    "wool": 1,
-    "synth": 1
+  "Polo": {
+   "lp": "Essentials — Logo Pique Polo",
+   "lu": "https://www.scotchandsoda.com/products/essentials-logo-pique-polo-179201-001-black",
+   "hp": "Structured Knitted Regular-Fit Polo",
+   "hu": "https://www.scotchandsoda.com/products/structured-knitted-regular-fit-polo-183788_301-forest-night",
+   "b": "range"
   },
-  "dials": {
-    "dur": 2,
-    "forg": 3,
-    "fuss": -1,
-    "whitet": 2,
-    "logo": 2,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
+  "Dress shirt": {
+   "lp": "Essentials — Poplin Solid Shirt",
+   "lu": "https://www.scotchandsoda.com/products/core-poplin-solid-179185_101-bright-white",
+   "hp": "Denim Relaxed-Fit Shirt",
+   "hu": "https://www.scotchandsoda.com/products/denim-relaxed-fit-shirt-183568_401-washed-indigo",
+   "b": "range"
   },
-  "why": "Casual clothing with bold prints and patterns; the company went through bankruptcy in 2023 and was sold.",
-  "origin": "Founded in Amsterdam in 1985.",
-  "chan": ["O", "X"],
-  "conf": "G",
-  "forgc": [3, 3, 1],
-  "onething": {
-    "p": "Ralston jean",
-    "u": "https://scotchandsoda.com/collections/men-clothing-jeans",
-    "n": "verified — own-site jeans collection, $148. The house names Ralston as its signature men's fit: regular slim, tapering from the knee"
+  "Jeans": {
+   "lp": "Essentials — Ralston slim jeans — Classic Blue",
+   "lu": "https://www.scotchandsoda.com/products/core-ralston-slim-jeans-classic-blue",
+   "hp": "The Zee Straight-Leg Jeans",
+   "hu": "https://www.scotchandsoda.com/products/the-zee-straight-leg-jeans-183794_401-black-moon",
+   "b": "range"
   },
-  "prices": [[38, 88], [68, 148], [98, 158], [138, 188], [128, 198], [98, 218], [188, 898], [168, 178]],
-  "doors": {
-    "c": "full",
-    "n": 0,
-    "cities": [],
-    "basis": "positive zero 2026-09-23"
+  "Dress pants": {
+   "lp": "Essentials — Mott Tailored Knitted Yarn Dyed Chino",
+   "lu": "https://www.scotchandsoda.com/products/core-mott-tailored-knitted-yarn-dyed-chino-181557-night",
+   "hp": "Oliver Wool-Blend Tweed Pleated Pants",
+   "hu": "https://www.scotchandsoda.com/products/oliver-wool-blend-tweed-pleated-pants-183684_410-sky-captain-melange",
+   "b": "range"
   },
-  "cities": "No store of its own in the US · independent menswear shops, and its own site",
-  "region": {
-    "o": [],
-    "s": [124]
+  "Sweater": {
+   "lp": "Essentials — Viscose Pullover Crewneck",
+   "lu": "https://www.scotchandsoda.com/products/core-viscose-pullover-crewneck-179183_050-grey-melange",
+   "hp": "Jacquard Wool-Blend Relaxed-Fit Zip-Through Pullover",
+   "hu": "https://www.scotchandsoda.com/products/jacquard-wool-blend-relaxed-fit-zip-through-pullover-184329_210-walnut",
+   "b": "range"
   },
-  "addmen": true,
-  "site": {
-    "domain": "scotchandsoda.com",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 3898,
-    "status": "live_store",
-    "checked": "2026-09-13"
+  "Outerwear": {
+   "lp": "Reversible Bomber Jacket",
+   "lu": "https://www.scotchandsoda.com/products/reversible-bomber-jacket-183627_301-forest-night",
+   "hp": "Hooded Flight Leather Jacket",
+   "hu": "https://www.scotchandsoda.com/products/hooded-flight-jacket-183663_001-meteorite",
+   "b": "range"
   },
-  "tech_evidence": {
-    "names": "no",
-    "origin": "none",
-    "marks": ["none (generic \"Water-repellent\" finish claim only, no branded mark)"],
-    "source": "flag_sample",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 631,
-    "w": 553,
-    "n": 70,
-    "s": 10,
-    "c": 7,
-    "x": 19,
-    "xh": 1,
-    "sp": "one",
-    "sc": ["Swim"],
-    "nc": ["Shirts", "Pants", "T-Shirts & Polos"],
-    "st": "complete"
-  },
-  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants", "Sweater", "Outerwear", "Shoes"],
-  "garment_links": {
-    "T-shirt": "https://www.scotchandsoda.com/collections/men-clothing-t-shirts-polos",
-    "Polo": "https://www.scotchandsoda.com/collections/men-clothing-t-shirts-polos",
-    "Dress shirt": "https://www.scotchandsoda.com/collections/men-clothing-shirts",
-    "Jeans": "https://www.scotchandsoda.com/collections/men-clothing-jeans",
-    "Dress pants": "https://www.scotchandsoda.com/collections/men-clothing-pants",
-    "Sweater": "https://www.scotchandsoda.com/collections/men-clothing-sweaters-cardigans",
-    "Outerwear": "https://www.scotchandsoda.com/collections/men-clothing-outerwear",
-    "Shoes": "https://www.scotchandsoda.com/collections/men-footwear"
-  },
-  "notes": {
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 2; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "On the US site, Scotch & Soda's product data and the PDP give no country of make, maker or mill. The about page is brand aesthetic plus 'born in Amsterdam'. There is nothing checkable about manufacture."
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Essentials Chest Logo Regular-Fit T-Shirt",
-      "lu": "https://www.scotchandsoda.com/products/essentials-chest-logo-regular-fit-t-shirt-184409_410-adriatic-blue",
-      "hp": "Jacquard Loose-Fit T-Shirt",
-      "hu": "https://www.scotchandsoda.com/products/jacquard-loose-fit-t-shirt-183742_270-eggnog",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Essentials — Logo Pique Polo",
-      "lu": "https://www.scotchandsoda.com/products/essentials-logo-pique-polo-179201-001-black",
-      "hp": "Structured Knitted Regular-Fit Polo",
-      "hu": "https://www.scotchandsoda.com/products/structured-knitted-regular-fit-polo-183788_301-forest-night",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Essentials — Poplin Solid Shirt",
-      "lu": "https://www.scotchandsoda.com/products/core-poplin-solid-179185_101-bright-white",
-      "hp": "Denim Relaxed-Fit Shirt",
-      "hu": "https://www.scotchandsoda.com/products/denim-relaxed-fit-shirt-183568_401-washed-indigo",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Essentials — Ralston slim jeans — Classic Blue",
-      "lu": "https://www.scotchandsoda.com/products/core-ralston-slim-jeans-classic-blue",
-      "hp": "The Zee Straight-Leg Jeans",
-      "hu": "https://www.scotchandsoda.com/products/the-zee-straight-leg-jeans-183794_401-black-moon",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Essentials — Mott Tailored Knitted Yarn Dyed Chino",
-      "lu": "https://www.scotchandsoda.com/products/core-mott-tailored-knitted-yarn-dyed-chino-181557-night",
-      "hp": "Oliver Wool-Blend Tweed Pleated Pants",
-      "hu": "https://www.scotchandsoda.com/products/oliver-wool-blend-tweed-pleated-pants-183684_410-sky-captain-melange",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Essentials — Viscose Pullover Crewneck",
-      "lu": "https://www.scotchandsoda.com/products/core-viscose-pullover-crewneck-179183_050-grey-melange",
-      "hp": "Jacquard Wool-Blend Relaxed-Fit Zip-Through Pullover",
-      "hu": "https://www.scotchandsoda.com/products/jacquard-wool-blend-relaxed-fit-zip-through-pullover-184329_210-walnut",
-      "b": "range"
-    },
-    "Outerwear": {
-      "lp": "Reversible Bomber Jacket",
-      "lu": "https://www.scotchandsoda.com/products/reversible-bomber-jacket-183627_301-forest-night",
-      "hp": "Hooded Flight Leather Jacket",
-      "hu": "https://www.scotchandsoda.com/products/hooded-flight-jacket-183663_001-meteorite",
-      "b": "range"
-    },
-    "Shoes": {
-      "lp": "Plakka Leather Sneaker",
-      "lu": "https://www.scotchandsoda.com/products/plakka-leather-sneaker-99831930-s29-white",
-      "hp": "Vivex Sneakers",
-      "hu": "https://www.scotchandsoda.com/products/vivex-sneakers-78-7086-01-d03_d03-brown-silver",
-      "b": "range"
-    }
-  },
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.scotchandsoda.com/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "Essentials"
-  },
-  "price_checked": true,
-  "shop": "https://www.scotchandsoda.com/search?q=",
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=13743",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "None claimed. The about-us page says only 'born in Amsterdam' and '40 years', and links a 'United Legwear & Apparel' page. Nothing on factories.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "none",
-    "countries": "None stated: 0 of 12 products in the US-store products.json (tees, polos, boxer briefs, denim shorts, pullovers, chino, top) and 0 of 1 PDP read (Embroidered Relaxed-Fit Zip-Through Hoodie, which shows composition and care but no origin). The sample is small, and origin could sit in an accordion the fetch missed.",
-    "heritage": "vague",
-    "repair": "no",
-    "process": "no",
-    "urls": [
-      "https://www.scotchandsoda.com/pages/about-us",
-      "https://www.scotchandsoda.com/products/embroidered-relaxed-fit-zip-through-hoodie-183761_410-ensign-blue"
-    ],
-    "conf": "medium",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Plakka Leather Sneaker",
+   "lu": "https://www.scotchandsoda.com/products/plakka-leather-sneaker-99831930-s29-white",
+   "hp": "Vivex Sneakers",
+   "hu": "https://www.scotchandsoda.com/products/vivex-sneakers-78-7086-01-d03_d03-brown-silver",
+   "b": "range"
   }
+ },
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.scotchandsoda.com/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "Essentials"
+ },
+ "price_checked": true,
+ "shop": "https://www.scotchandsoda.com/search?q=",
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=13743",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "None claimed. The about-us page says only 'born in Amsterdam' and '40 years', and links a 'United Legwear & Apparel' page. Nothing on factories.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "none",
+  "countries": "None stated: 0 of 12 products in the US-store products.json (tees, polos, boxer briefs, denim shorts, pullovers, chino, top) and 0 of 1 PDP read (Embroidered Relaxed-Fit Zip-Through Hoodie, which shows composition and care but no origin). The sample is small, and origin could sit in an accordion the fetch missed.",
+  "heritage": "vague",
+  "repair": "no",
+  "process": "no",
+  "urls": [
+   "https://www.scotchandsoda.com/pages/about-us",
+   "https://www.scotchandsoda.com/products/embroidered-relaxed-fit-zip-through-hoodie-183761_410-ensign-blue"
+  ],
+  "conf": "medium",
+  "read": "2026-10-03"
+ }
 }

@@ -1,213 +1,275 @@
 {
-  "name": "The Row",
-  "band": "trueLux",
-  "seat": 187,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 4,
-    "craft": 2,
-    "style": 5
-  },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 4,
-    "linen": 3,
-    "cotton": 3,
-    "wool": 4,
-    "synth": 1
-  },
-  "dials": {
-    "dur": 2,
-    "forg": 3,
-    "fuss": 3,
-    "status": 4,
-    "murica": 2,
-    "ital": 2,
-    "fren": 2,
-    "avant": 2,
-    "whitet": 2,
-    "logo": 1,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
-  },
-  "why": "Plain, expensive clothing in the finest fabrics, with nothing on it.",
-  "origin": "Founded in 2005 by Ashley and Mary-Kate Olsen, starting with a T-shirt.",
-  "chan": ["O", "D"],
-  "conf": "L",
-  "forgc": [4, 2, 1],
-  "shop": "https://www.therow.com/search?q=",
-  "onething": {
-    "p": "Cashmere crew",
-    "u": "https://www.therow.com/search?q=Cashmere%20crew%20men",
-    "n": "works"
-  },
-  "prices": [
-    [350, 1190],
-    [1700, 1950],
-    [1250, 1950],
-    [650, 1050],
-    [1250, 2900],
-    [1290, 2100],
-    [1450, 12000],
-    [1350, 1990]
+ "name": "The Row",
+ "band": "trueLux",
+ "seat": 187,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 4,
+  "craft": 2,
+  "style": 5
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 4,
+  "linen": 3,
+  "cotton": 3,
+  "wool": 4,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 2,
+  "forg": 3,
+  "fuss": 3,
+  "status": 4,
+  "murica": 2,
+  "ital": 2,
+  "fren": 2,
+  "avant": 2,
+  "whitet": 2,
+  "logo": 1,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Plain, expensive clothing in the finest fabrics, with nothing on it.",
+ "origin": "Founded in 2005 by Ashley and Mary-Kate Olsen, starting with a T-shirt.",
+ "chan": [
+  "O",
+  "D"
+ ],
+ "conf": "L",
+ "forgc": [
+  4,
+  2,
+  1
+ ],
+ "shop": "https://www.therow.com/search?q=",
+ "onething": {
+  "p": "Cashmere crew",
+  "u": "https://www.therow.com/search?q=Cashmere%20crew%20men",
+  "n": "works"
+ },
+ "prices": [
+  [
+   350,
+   1190
   ],
-  "notes": {
-    "cashmere": "museum-grade knits",
-    "wool": "tailoring at couture prices",
-    "status": "narrowcast status at maximum intensity — invisible to most, unmistakable to the few",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 2; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "style": "Plain, perfectly made clothing is a design position, held absolutely.",
-    "craft": "The Row's men's PDPs state a country of make on every item sampled (Italy for cashmere jacket, sweater and loafer; Japan for denim and corduroy shirt) with careful fabric descriptions, but name no maker, mill or tannery. The about page claims fabric and tailoring quality without naming any place of making. Country-of-make only = 2."
+  [
+   1700,
+   1950
+  ],
+  [
+   1250,
+   1950
+  ],
+  [
+   650,
+   1050
+  ],
+  [
+   1250,
+   2900
+  ],
+  [
+   1290,
+   2100
+  ],
+  [
+   1450,
+   12000
+  ],
+  [
+   1350,
+   1990
+  ]
+ ],
+ "notes": {
+  "cashmere": "museum-grade knits",
+  "wool": "tailoring at couture prices",
+  "status": "narrowcast status at maximum intensity — invisible to most, unmistakable to the few",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 2; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "style": "Plain, perfectly made clothing is a design position, held absolutely.",
+  "craft": "The Row's men's PDPs state a country of make on every item sampled (Italy for cashmere jacket, sweater and loafer; Japan for denim and corduroy shirt) with careful fabric descriptions, but name no maker, mill or tannery. The about page claims fabric and tailoring quality without naming any place of making. Country-of-make only = 2."
+ },
+ "doors": {
+  "c": "full",
+  "n": 3,
+  "cities": [
+   [
+    "Amagansett",
+    "NY",
+    1
+   ],
+   [
+    "Los Angeles",
+    "CA",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 0,
+  "con": 0
+ },
+ "cities": "3 stores — Amagansett, Los Angeles, New York · department stores, and its own site",
+ "region": {
+  "o": [
+   3337,
+   3339
+  ],
+  "s": []
+ },
+ "addmen": true,
+ "site": {
+  "domain": "www.therow.com",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 2483,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "licensed",
+  "marks": [
+   "Supima (licensed US cotton fibre mark) in product descriptions",
+   "'technical fabric' and 'waterproof' as generic descriptors. No house fabric name, no materials/technology page, NO trademark symbols anywhere."
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 232,
+  "w": 232,
+  "n": 97,
+  "s": 2,
+  "c": 1,
+  "x": 1,
+  "xh": 0,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "PANTS",
+   "SWEATERS",
+   "JACKETS"
+  ],
+  "st": "complete"
+ },
+ "garment_links": {
+  "T-shirt": "https://www.therow.com/collections/men-t-shirts",
+  "Dress shirt": "https://www.therow.com/collections/men-shirts",
+  "Jeans": "https://www.therow.com/collections/men-denim",
+  "Dress pants": "https://www.therow.com/collections/men-pants-shorts",
+  "Sweater": "https://www.therow.com/collections/men-sweaters-sweatshirts",
+  "Outerwear": "https://www.therow.com/collections/men-coats-outerwear",
+  "Shoes": "https://www.therow.com/collections/men-shoes"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Luke T-Shirt",
+   "lu": "https://www.therow.com/products/luke-t-shirt-white",
+   "hp": "Dlomu T-Shirt (ultrafine wool)",
+   "hu": "https://www.therow.com/products/dlomu-t-shirt-navy",
+   "b": "pair"
   },
-  "doors": {
-    "c": "full",
-    "n": 3,
-    "cities": [["Amagansett", "NY", 1], ["Los Angeles", "CA", 1], ["New York", "NY", 1]],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Polo": {
+   "lp": "Borges Top (short-sleeved polo, cashmere)",
+   "lu": "https://www.therow.com/products/borges-top-black",
+   "hp": "Morand Top (short-sleeved polo, worsted cashmere)",
+   "hu": "https://www.therow.com/products/morand-top-charcoal",
+   "b": "pair"
   },
-  "cities": "3 stores — Amagansett, Los Angeles, New York · department stores, and its own site",
-  "region": {
-    "o": [2715, 2716],
-    "s": []
+  "Dress shirt": {
+   "lp": "Tomek Shirt (cotton poplin)",
+   "lu": "https://www.therow.com/products/tomek-shirt-white",
+   "hp": "Fiska Shirt (washed silk)",
+   "hu": "https://www.therow.com/products/fiska-shirt-dark-brown",
+   "b": "pair"
   },
-  "addmen": true,
-  "site": {
-    "domain": "www.therow.com",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 2483,
-    "status": "live_store",
-    "checked": "2026-09-13"
+  "Jeans": {
+   "lp": "Morton Jean",
+   "lu": "https://www.therow.com/products/morton-jean-light-blue",
+   "hp": "Vanya Jean",
+   "hu": "https://www.therow.com/products/vanya-jean-blue",
+   "b": "range"
   },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "licensed",
-    "marks": [
-      "Supima (licensed US cotton fibre mark) in product descriptions",
-      "'technical fabric' and 'waterproof' as generic descriptors. No house fabric name, no materials/technology page, NO trademark symbols anywhere."
-    ],
-    "source": "census",
-    "checked": "2026-09-12"
+  "Dress pants": {
+   "lp": "Seth Pant (wool suiting)",
+   "lu": "https://www.therow.com/products/seth-pant-navy",
+   "hp": "Tavel Pant (lightweight cashmere twill)",
+   "hu": "https://www.therow.com/products/tavel-pant-grey",
+   "b": "pair"
   },
-  "fibre": {
-    "t": 232,
-    "w": 232,
-    "n": 97,
-    "s": 2,
-    "c": 1,
-    "x": 1,
-    "xh": 0,
-    "sp": "one",
-    "sc": [],
-    "nc": ["PANTS", "SWEATERS", "JACKETS"],
-    "st": "complete"
+  "Sweater": {
+   "lp": "Benji Crew Neck Sweater (cashmere)",
+   "lu": "https://www.therow.com/products/benji-crew-neck-black",
+   "hp": "Auguste Sweater (Japanese cashmere crewneck)",
+   "hu": "https://www.therow.com/products/auguste-top-dark-navy",
+   "b": "pair"
   },
-  "garment_links": {
-    "T-shirt": "https://www.therow.com/collections/men-t-shirts",
-    "Dress shirt": "https://www.therow.com/collections/men-shirts",
-    "Jeans": "https://www.therow.com/collections/men-denim",
-    "Dress pants": "https://www.therow.com/collections/men-pants-shorts",
-    "Sweater": "https://www.therow.com/collections/men-sweaters-sweatshirts",
-    "Outerwear": "https://www.therow.com/collections/men-coats-outerwear",
-    "Shoes": "https://www.therow.com/collections/men-shoes"
+  "Outerwear": {
+   "lp": "Seb Jacket (denim)",
+   "lu": "https://www.therow.com/products/seb-jacket-washed-blue",
+   "hp": "Vana Jacket (reversible nubuck leather / cashmere)",
+   "hu": "https://www.therow.com/products/vana-jacket-brown",
+   "b": "range"
   },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Luke T-Shirt",
-      "lu": "https://www.therow.com/products/luke-t-shirt-white",
-      "hp": "Dlomu T-Shirt (ultrafine wool)",
-      "hu": "https://www.therow.com/products/dlomu-t-shirt-navy",
-      "b": "pair"
-    },
-    "Polo": {
-      "lp": "Borges Top (short-sleeved polo, cashmere)",
-      "lu": "https://www.therow.com/products/borges-top-black",
-      "hp": "Morand Top (short-sleeved polo, worsted cashmere)",
-      "hu": "https://www.therow.com/products/morand-top-charcoal",
-      "b": "pair"
-    },
-    "Dress shirt": {
-      "lp": "Tomek Shirt (cotton poplin)",
-      "lu": "https://www.therow.com/products/tomek-shirt-white",
-      "hp": "Fiska Shirt (washed silk)",
-      "hu": "https://www.therow.com/products/fiska-shirt-dark-brown",
-      "b": "pair"
-    },
-    "Jeans": {
-      "lp": "Morton Jean",
-      "lu": "https://www.therow.com/products/morton-jean-light-blue",
-      "hp": "Vanya Jean",
-      "hu": "https://www.therow.com/products/vanya-jean-blue",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Seth Pant (wool suiting)",
-      "lu": "https://www.therow.com/products/seth-pant-navy",
-      "hp": "Tavel Pant (lightweight cashmere twill)",
-      "hu": "https://www.therow.com/products/tavel-pant-grey",
-      "b": "pair"
-    },
-    "Sweater": {
-      "lp": "Benji Crew Neck Sweater (cashmere)",
-      "lu": "https://www.therow.com/products/benji-crew-neck-black",
-      "hp": "Auguste Sweater (Japanese cashmere crewneck)",
-      "hu": "https://www.therow.com/products/auguste-top-dark-navy",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "Seb Jacket (denim)",
-      "lu": "https://www.therow.com/products/seb-jacket-washed-blue",
-      "hp": "Vana Jacket (reversible nubuck leather / cashmere)",
-      "hu": "https://www.therow.com/products/vana-jacket-brown",
-      "b": "range"
-    },
-    "Shoes": {
-      "lp": "Men's Loafer",
-      "lu": "https://www.therow.com/products/mens-loafer-brown-1",
-      "hp": "Novus Tassel Loafer",
-      "hu": "https://www.therow.com/products/novus-tassel-loafer-black",
-      "b": "pair"
-    }
-  },
-  "price_range_only": ["Jeans", "Outerwear"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.therow.com/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=547584",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "About page: 'The Row was established in 2005 by Ashley Olsen and Mary-Kate Olsen', with 'exceptional fabrics, impeccable details, and precise tailoring' - no atelier, factory or workshop named or claimed. Pages sitemap (51 pages) has no craft/atelier/factory/supply-chain page. No owned making seen; The Row is independent (no parent group).",
-    "makers": "no",
-    "mills": "no",
-    "madein": "every product",
-    "countries": "Italy 3/5 (Olek cashmere jacket, Markhim cashmere sweater, Caden loafer), Japan 2/5 (Moe jean, Sadel corduroy shirt). Sample of 5 rendered men's PDPs: outerwear, knit, shoe, denim, shirt. Origin is on the rendered PDP, not in products.json body_html.",
-    "heritage": "dated and placed",
-    "repair": "NC",
-    "process": "no",
-    "urls": ["https://www.therow.com/products/olek-jacket-black", "https://www.therow.com/pages/about-us"],
-    "conf": "high",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Men's Loafer",
+   "lu": "https://www.therow.com/products/mens-loafer-brown-1",
+   "hp": "Novus Tassel Loafer",
+   "hu": "https://www.therow.com/products/novus-tassel-loafer-black",
+   "b": "pair"
   }
+ },
+ "price_range_only": [
+  "Jeans",
+  "Outerwear"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.therow.com/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=547584",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "About page: 'The Row was established in 2005 by Ashley Olsen and Mary-Kate Olsen', with 'exceptional fabrics, impeccable details, and precise tailoring' - no atelier, factory or workshop named or claimed. Pages sitemap (51 pages) has no craft/atelier/factory/supply-chain page. No owned making seen; The Row is independent (no parent group).",
+  "makers": "no",
+  "mills": "no",
+  "madein": "every product",
+  "countries": "Italy 3/5 (Olek cashmere jacket, Markhim cashmere sweater, Caden loafer), Japan 2/5 (Moe jean, Sadel corduroy shirt). Sample of 5 rendered men's PDPs: outerwear, knit, shoe, denim, shirt. Origin is on the rendered PDP, not in products.json body_html.",
+  "heritage": "dated and placed",
+  "repair": "NC",
+  "process": "no",
+  "urls": [
+   "https://www.therow.com/products/olek-jacket-black",
+   "https://www.therow.com/pages/about-us"
+  ],
+  "conf": "high",
+  "read": "2026-10-03"
+ }
 }

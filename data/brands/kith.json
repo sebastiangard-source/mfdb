@@ -1,225 +1,320 @@
 {
-  "name": "Kith",
-  "band": "premium",
-  "seat": 60,
-  "dagger": 0,
-  "focus": {
-    "tech": 2,
-    "comfort": 3,
-    "craft": 1,
-    "style": 5
+ "name": "Kith",
+ "band": "premium",
+ "seat": 60,
+ "dagger": 0,
+ "focus": {
+  "tech": 2,
+  "comfort": 3,
+  "craft": 1,
+  "style": 5
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 2,
+  "linen": 1,
+  "cotton": 3,
+  "wool": 1,
+  "synth": 2
+ },
+ "dials": {
+  "dur": 2,
+  "forg": 3,
+  "fuss": -1,
+  "bruv": 3,
+  "shoes": 3,
+  "status": 3,
+  "ivy": 2,
+  "murica": 3,
+  "street": 5,
+  "whitet": 3,
+  "logo": 2,
+  "western": 1,
+  "rock": 3,
+  "workwear": 3,
+  "outdoor": 3,
+  "surf": 2
+ },
+ "why": "Streetwear and casual clothing under Ronnie Fieg's label, sold in stores that also carry sneakers and other brands.",
+ "origin": "Founded in New York in 2011 by Ronnie Fieg.",
+ "chan": [
+  "O"
+ ],
+ "conf": "L",
+ "forgc": [
+  5,
+  3,
+  1
+ ],
+ "shop": "https://kith.com/search?q=",
+ "onething": {
+  "p": "Williams hoodie",
+  "u": "https://kith.com/search?q=Williams%20hoodie%20men",
+  "n": "verified ✓"
+ },
+ "prices": [
+  [
+   65,
+   145
+  ],
+  [
+   120,
+   195
+  ],
+  [
+   185,
+   495
+  ],
+  [
+   210,
+   395
+  ],
+  [
+   210,
+   345
+  ],
+  [
+   175,
+   395
+  ],
+  [
+   245,
+   1495
+  ],
+  null
+ ],
+ "shoelink": {
+  "t": "shoes",
+  "u": "https://kith.com/search?q=shoes"
+ },
+ "notes": {
+  "cotton": "heavyweight house blanks",
+  "street": "the sneaker shop that became a house — retail theater as street institution",
+  "whitet": "the Kith tee is a named product — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 2; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "style": "Ronnie Fieg's taste is the product; the clothing exists to express a point of view.",
+  "craft": "Kith's own-label product pages give composition and fabric weight but, for apparel, no country of make ('See garment tag'); in a sample of seven only a leather card holder said 'Made in Italy'. The site names no factory, no mill and no owned facility, so there is almost nothing checkable about who makes Kith clothing."
+ },
+ "doors": {
+  "c": "full",
+  "n": 14,
+  "cities": [
+   [
+    "Beverly Hills",
+    "CA",
+    1
+   ],
+   [
+    "Brooklyn",
+    "NY",
+    3
+   ],
+   [
+    "Chicago",
+    "IL",
+    1
+   ],
+   [
+    "Honolulu",
+    "HI",
+    1
+   ],
+   [
+    "Malibu",
+    "CA",
+    1
+   ],
+   [
+    "Miami",
+    "FL",
+    1
+   ],
+   [
+    "Miami Beach",
+    "FL",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    3
+   ],
+   [
+    "West Hollywood",
+    "CA",
+    2
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 0,
+  "con": 1
+ },
+ "cities": "14 stores, including Brooklyn, New York, Beverly Hills, and its own site",
+ "region": {
+  "o": [
+   1961,
+   1962,
+   1963,
+   1964,
+   1965,
+   1966
+  ],
+  "s": []
+ },
+ "addmen": true,
+ "site": {
+  "domain": "kith.com",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 5000,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "licensed",
+  "marks": [
+   "LICENSED, all on 'Kith for X' co-branded goods: Oakley Prizm / O Matter / Unobtainium",
+   "Salomon Contagrip / QuickLACE",
+   "OrthoLite",
+   "ASICS GEL-KAYANO / GEL-NIMBUS / FLUIDRIDE",
+   "TUMI Tracer",
+   "YETI MagSlider / DuraSip",
+   "Fender Stratocaster / ClassicGear",
+   "Yellowpop CertiLED. Plus LYCRA, composition_only. HOUS"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 1153,
+  "w": 1138,
+  "n": 66,
+  "s": 25,
+  "c": 8,
+  "x": 17,
+  "xh": 6,
+  "sp": "one",
+  "sc": [
+   "Jerseys"
+  ],
+  "nc": [
+   "Tees",
+   "Sweats & Hoodies",
+   "Outerwear"
+  ],
+  "st": "complete"
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants",
+  "Sweater"
+ ],
+ "garment_links": {
+  "T-shirt": "https://kith.com/collections/kith-tees",
+  "Polo": "https://kith.com/collections/kith-tops-polo-shirts",
+  "Dress shirt": "https://kith.com/collections/kith-tops-shirts",
+  "Jeans": "https://kith.com/collections/kith-denim-bottoms",
+  "Dress pants": "https://kith.com/collections/kith-bottoms-trousers",
+  "Sweater": "https://kith.com/collections/kith-knitwear",
+  "Outerwear": "https://kith.com/collections/kith-outerwear"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Kith Folk Bloom Alex Boxy Tee",
+   "lu": "https://kith.com/products/khma030227-102",
+   "hp": "Kith Super Fine Viscose Knit Carrington Tee",
+   "hu": "https://kith.com/products/khm034895-001",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 2,
-    "cashmere": 2,
-    "linen": 1,
-    "cotton": 3,
-    "wool": 1,
-    "synth": 2
+  "Polo": {
+   "lp": "Kith Soft Modal Blend Darin Polo",
+   "lu": "https://kith.com/products/khm034860-101",
+   "hp": "Kith Knit Nash Polo",
+   "hu": "https://kith.com/products/khm034859-485",
+   "b": "range"
   },
-  "dials": {
-    "dur": 2,
-    "forg": 3,
-    "fuss": -1,
-    "bruv": 3,
-    "shoes": 3,
-    "status": 3,
-    "ivy": 2,
-    "murica": 3,
-    "street": 5,
-    "whitet": 3,
-    "logo": 2,
-    "western": 1,
-    "rock": 3,
-    "workwear": 3,
-    "outdoor": 3,
-    "surf": 2
+  "Dress shirt": {
+   "lp": "Kith Striped Poplin Georgie Shirt",
+   "lu": "https://kith.com/products/khma030101-5144",
+   "hp": "&Kin Garment Dyed Silk Collared Yardley Shirt",
+   "hu": "https://kith.com/products/khm034899-5125",
+   "b": "range"
   },
-  "why": "Streetwear and casual clothing under Ronnie Fieg's label, sold in stores that also carry sneakers and other brands.",
-  "origin": "Founded in New York in 2011 by Ronnie Fieg.",
-  "chan": ["O"],
-  "conf": "L",
-  "forgc": [5, 3, 1],
-  "shop": "https://kith.com/search?q=",
-  "onething": {
-    "p": "Williams hoodie",
-    "u": "https://kith.com/search?q=Williams%20hoodie%20men",
-    "n": "verified ✓"
+  "Jeans": {
+   "lp": "Kith Denim Webster Chill Jean",
+   "lu": "https://kith.com/products/khma060085-416",
+   "hp": "&Kin Rope Twill Webster Chill",
+   "hu": "https://kith.com/products/khma060137-416",
+   "b": "range"
   },
-  "prices": [[65, 145], [120, 195], [185, 495], [210, 395], [210, 345], [175, 395], [245, 1495], null],
-  "shoelink": {
-    "t": "shoes",
-    "u": "https://kith.com/search?q=shoes"
+  "Dress pants": {
+   "lp": "Kith Four-Way Stretch Idris Pant",
+   "lu": "https://kith.com/products/khm061277-001",
+   "hp": "&Kin Seersucker Gibbs Pant",
+   "hu": "https://kith.com/products/khm061376-493",
+   "b": "range"
   },
-  "notes": {
-    "cotton": "heavyweight house blanks",
-    "street": "the sneaker shop that became a house — retail theater as street institution",
-    "whitet": "the Kith tee is a named product — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 2; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "style": "Ronnie Fieg's taste is the product; the clothing exists to express a point of view.",
-    "craft": "Kith's own-label product pages give composition and fabric weight but, for apparel, no country of make ('See garment tag'); in a sample of seven only a leather card holder said 'Made in Italy'. The site names no factory, no mill and no owned facility, so there is almost nothing checkable about who makes Kith clothing."
+  "Sweater": {
+   "lp": "Kith Basketweave Tilden Crewneck Sweater",
+   "lu": "https://kith.com/products/khma030115-678",
+   "hp": "&Kin Cashmere Cyrus Turtleneck",
+   "hu": "https://kith.com/products/khma030161-3080",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 15,
-    "cities": [
-      ["Beverly Hills", "CA", 1],
-      ["Bridgehampton", "NY", 1],
-      ["Brooklyn", "NY", 3],
-      ["Chicago", "IL", 1],
-      ["Dallas", "TX", 1],
-      ["Honolulu", "HI", 1],
-      ["Malibu", "CA", 1],
-      ["Miami", "FL", 1],
-      ["Miami Beach", "FL", 1],
-      ["New York", "NY", 3],
-      ["West Hollywood", "CA", 1]
-    ],
-    "basis": "recapture 2026-09"
-  },
-  "cities": "15 stores, including Brooklyn, New York, Beverly Hills, and its own site",
-  "region": {
-    "o": [1513, 1514, 1515, 1516, 1517, 1518, 1519],
-    "s": []
-  },
-  "addmen": true,
-  "site": {
-    "domain": "kith.com",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 5000,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "licensed",
-    "marks": [
-      "LICENSED, all on 'Kith for X' co-branded goods: Oakley Prizm / O Matter / Unobtainium",
-      "Salomon Contagrip / QuickLACE",
-      "OrthoLite",
-      "ASICS GEL-KAYANO / GEL-NIMBUS / FLUIDRIDE",
-      "TUMI Tracer",
-      "YETI MagSlider / DuraSip",
-      "Fender Stratocaster / ClassicGear",
-      "Yellowpop CertiLED. Plus LYCRA, composition_only. HOUS"
-    ],
-    "source": "census",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 1153,
-    "w": 1138,
-    "n": 66,
-    "s": 25,
-    "c": 8,
-    "x": 17,
-    "xh": 6,
-    "sp": "one",
-    "sc": ["Jerseys"],
-    "nc": ["Tees", "Sweats & Hoodies", "Outerwear"],
-    "st": "complete"
-  },
-  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants", "Sweater"],
-  "garment_links": {
-    "T-shirt": "https://kith.com/collections/kith-tees",
-    "Polo": "https://kith.com/collections/kith-tops-polo-shirts",
-    "Dress shirt": "https://kith.com/collections/kith-tops-shirts",
-    "Jeans": "https://kith.com/collections/kith-denim-bottoms",
-    "Dress pants": "https://kith.com/collections/kith-bottoms-trousers",
-    "Sweater": "https://kith.com/collections/kith-knitwear",
-    "Outerwear": "https://kith.com/collections/kith-outerwear"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Kith Folk Bloom Alex Boxy Tee",
-      "lu": "https://kith.com/products/khma030227-102",
-      "hp": "Kith Super Fine Viscose Knit Carrington Tee",
-      "hu": "https://kith.com/products/khm034895-001",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Kith Soft Modal Blend Darin Polo",
-      "lu": "https://kith.com/products/khm034860-101",
-      "hp": "Kith Knit Nash Polo",
-      "hu": "https://kith.com/products/khm034859-485",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Kith Striped Poplin Georgie Shirt",
-      "lu": "https://kith.com/products/khma030101-5144",
-      "hp": "&Kin Garment Dyed Silk Collared Yardley Shirt",
-      "hu": "https://kith.com/products/khm034899-5125",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Kith Denim Webster Chill Jean",
-      "lu": "https://kith.com/products/khma060085-416",
-      "hp": "&Kin Rope Twill Webster Chill",
-      "hu": "https://kith.com/products/khma060137-416",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Kith Four-Way Stretch Idris Pant",
-      "lu": "https://kith.com/products/khm061277-001",
-      "hp": "&Kin Seersucker Gibbs Pant",
-      "hu": "https://kith.com/products/khm061376-493",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Kith Basketweave Tilden Crewneck Sweater",
-      "lu": "https://kith.com/products/khma030115-678",
-      "hp": "&Kin Cashmere Cyrus Turtleneck",
-      "hu": "https://kith.com/products/khma030161-3080",
-      "b": "range"
-    },
-    "Outerwear": {
-      "lp": "Kith Alonzo Denim Jacket",
-      "lu": "https://kith.com/products/khm011124-415",
-      "hp": "Kith Vintage Leather Alonzo Jacket",
-      "hu": "https://kith.com/products/khma010105-211",
-      "b": "pair"
-    }
-  },
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://kith.com/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "&Kin"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=320642",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "season": {
-    "l": "Kith Fall 2026",
-    "t": "lookbook",
-    "u": "https://kith.com/pages/kith-fall-2026",
-    "m": "yes"
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "No factory, workshop or mill of Kith's own found: the site has no about/making page, the FAQ (kithnyc.gorgias.help) covers shipping, returns, drawings only, and a press search found nothing about owned production.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "some",
-    "countries": "Italy 1/7 (Monogram Suede Card Holder 'Made in Italy'); none 6/7 (Classic Logo Nelson Hoodie x2, Circuit Nelson Hoodie, &Kin Cashmere Raya blazer, Knicks Patchwork Crewneck, Orosei sunglasses; apparel PDPs say 'See garment tag'). Sample of 7 Kith-label PDPs: fleece, knit, tailoring, leather goods, eyewear. Several other PDP URLs from search returned 404.",
-    "heritage": "none",
-    "repair": "no",
-    "process": "no",
-    "urls": ["https://kith.com/products/khm034444-413", "https://kith.com/products/khmsl0032-244"],
-    "conf": "medium",
-    "read": "2026-10-03"
+  "Outerwear": {
+   "lp": "Kith Alonzo Denim Jacket",
+   "lu": "https://kith.com/products/khm011124-415",
+   "hp": "Kith Vintage Leather Alonzo Jacket",
+   "hu": "https://kith.com/products/khma010105-211",
+   "b": "pair"
   }
+ },
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://kith.com/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "&Kin"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=320642",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "season": {
+  "l": "Kith Fall 2026",
+  "t": "lookbook",
+  "u": "https://kith.com/pages/kith-fall-2026",
+  "m": "yes"
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "No factory, workshop or mill of Kith's own found: the site has no about/making page, the FAQ (kithnyc.gorgias.help) covers shipping, returns, drawings only, and a press search found nothing about owned production.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "some",
+  "countries": "Italy 1/7 (Monogram Suede Card Holder 'Made in Italy'); none 6/7 (Classic Logo Nelson Hoodie x2, Circuit Nelson Hoodie, &Kin Cashmere Raya blazer, Knicks Patchwork Crewneck, Orosei sunglasses; apparel PDPs say 'See garment tag'). Sample of 7 Kith-label PDPs: fleece, knit, tailoring, leather goods, eyewear. Several other PDP URLs from search returned 404.",
+  "heritage": "none",
+  "repair": "no",
+  "process": "no",
+  "urls": [
+   "https://kith.com/products/khm034444-413",
+   "https://kith.com/products/khmsl0032-244"
+  ],
+  "conf": "medium",
+  "read": "2026-10-03"
+ }
 }

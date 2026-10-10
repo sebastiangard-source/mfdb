@@ -1,268 +1,555 @@
 {
-  "name": "TravisMathew",
-  "band": "premium",
-  "seat": 34,
-  "dagger": 0,
-  "focus": {
-    "tech": 4,
-    "comfort": 4,
-    "craft": 1,
-    "style": 2
+ "name": "TravisMathew",
+ "band": "premium",
+ "seat": 34,
+ "dagger": 0,
+ "focus": {
+  "tech": 4,
+  "comfort": 4,
+  "craft": 1,
+  "style": 2
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 2,
+  "wool": 1,
+  "synth": 5
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 2,
+  "fuss": 2,
+  "golffice": 3,
+  "golf": 5,
+  "finbro": 3,
+  "murica": 2,
+  "prep": 2,
+  "racquet": 2,
+  "whitet": 2,
+  "logo": 3,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 2,
+  "surf": 3
+ },
+ "why": "Golf clothing in synthetic fabrics for the course and the bar afterward; owned by Callaway.",
+ "origin": "Founded in Southern California in 2007; acquired by Callaway in 2017.",
+ "chan": [
+  "O",
+  "D",
+  "I"
+ ],
+ "conf": "L",
+ "forgc": [
+  2,
+  4,
+  1
+ ],
+ "shop": "https://www.travismathew.com/search?q=",
+ "onething": {
+  "p": "Cloud tee",
+  "u": "https://www.travismathew.com/search?q=Cloud%20tee",
+  "n": "works"
+ },
+ "prices": [
+  [
+   40,
+   65
+  ],
+  [
+   90,
+   120
+  ],
+  [
+   100,
+   150
+  ],
+  [
+   190,
+   190
+  ],
+  [
+   140,
+   220
+  ],
+  [
+   140,
+   150
+  ],
+  [
+   180,
+   400
+  ],
+  [
+   130,
+   250
+  ]
+ ],
+ "price_checked": true,
+ "notes": {
+  "synth": "golf-lifestyle performance polys",
+  "golf": "born for the clubhouse-to-bar commute; Callaway-owned",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 4; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "TravisMathew's product data and PDP give no country of make, maker or mill. The about-us and eco pages carry only brand messaging, the HQ address and a recycled-content claim. Nothing about making can be checked."
+ },
+ "doors": {
+  "c": "full",
+  "n": 57,
+  "cities": [
+   [
+    "Austin",
+    "TX",
+    1
+   ],
+   [
+    "Bellevue",
+    "WA",
+    1
+   ],
+   [
+    "Birmingham",
+    "AL",
+    1
+   ],
+   [
+    "Bloomington",
+    "MN",
+    1
+   ],
+   [
+    "Boca Raton",
+    "FL",
+    1
+   ],
+   [
+    "Brea",
+    "CA",
+    1
+   ],
+   [
+    "Burlington",
+    "MA",
+    1
+   ],
+   [
+    "Canoga Park",
+    "CA",
+    1
+   ],
+   [
+    "Chandler",
+    "AZ",
+    1
+   ],
+   [
+    "Charlotte",
+    "NC",
+    1
+   ],
+   [
+    "Cincinnati",
+    "OH",
+    1
+   ],
+   [
+    "Columbus",
+    "OH",
+    1
+   ],
+   [
+    "Corte Madera",
+    "CA",
+    1
+   ],
+   [
+    "Dallas",
+    "TX",
+    1
+   ],
+   [
+    "Dedham",
+    "MA",
+    1
+   ],
+   [
+    "Honolulu",
+    "HI",
+    2
+   ],
+   [
+    "Indianapolis",
+    "IN",
+    1
+   ],
+   [
+    "Irvine",
+    "CA",
+    1
+   ],
+   [
+    "King of Prussia",
+    "PA",
+    1
+   ],
+   [
+    "Lahaina",
+    "HI",
+    1
+   ],
+   [
+    "Las Vegas",
+    "NV",
+    1
+   ],
+   [
+    "Lone Tree",
+    "CO",
+    1
+   ],
+   [
+    "Long Beach",
+    "CA",
+    1
+   ],
+   [
+    "Long Island",
+    "NY",
+    1
+   ],
+   [
+    "Minnetonka",
+    "MN",
+    1
+   ],
+   [
+    "Murray",
+    "UT",
+    1
+   ],
+   [
+    "Nashville",
+    "TN",
+    1
+   ],
+   [
+    "Newport Beach",
+    "CA",
+    1
+   ],
+   [
+    "Oak Brook",
+    "IL",
+    1
+   ],
+   [
+    "Orange Village",
+    "OH",
+    1
+   ],
+   [
+    "Palm Beach Gardens",
+    "FL",
+    1
+   ],
+   [
+    "Palm Desert",
+    "CA",
+    1
+   ],
+   [
+    "Paramus",
+    "NJ",
+    1
+   ],
+   [
+    "Plano",
+    "TX",
+    1
+   ],
+   [
+    "Portland",
+    "OR",
+    1
+   ],
+   [
+    "Roseville",
+    "CA",
+    1
+   ],
+   [
+    "San Antonio",
+    "TX",
+    1
+   ],
+   [
+    "San Diego",
+    "CA",
+    2
+   ],
+   [
+    "San Jose",
+    "CA",
+    1
+   ],
+   [
+    "Sarasota",
+    "FL",
+    1
+   ],
+   [
+    "Schaumburg",
+    "IL",
+    1
+   ],
+   [
+    "Scottsdale",
+    "AZ",
+    2
+   ],
+   [
+    "Skokie",
+    "IL",
+    1
+   ],
+   [
+    "Southlake",
+    "TX",
+    1
+   ],
+   [
+    "St. Louis",
+    "MO",
+    1
+   ],
+   [
+    "Tampa",
+    "FL",
+    1
+   ],
+   [
+    "The Woodlands",
+    "TX",
+    1
+   ],
+   [
+    "Torrance",
+    "CA",
+    1
+   ],
+   [
+    "Troy",
+    "MI",
+    1
+   ],
+   [
+    "Tysons",
+    "VA",
+    1
+   ],
+   [
+    "Waikoloa",
+    "HI",
+    1
+   ],
+   [
+    "Wailea",
+    "HI",
+    1
+   ],
+   [
+    "Walnut Creek",
+    "CA",
+    1
+   ],
+   [
+    "Wauwatosa",
+    "WI",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 6,
+  "con": 0
+ },
+ "cities": "57 stores across the US · department stores and independent menswear shops, and its own site",
+ "region": {
+  "o": [
+   3427,
+   3428,
+   3434,
+   3436,
+   3441
+  ],
+  "s": [
+   11,
+   33,
+   46,
+   59,
+   85,
+   136
+  ]
+ },
+ "site": {
+  "domain": "travismathew.com",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 2456,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "house",
+  "marks": [
+   "HEATER SERIES (house)",
+   "CLOUD (house)",
+   "Featherweight (house)",
+   "Performance Jersey (house)",
+   "TENCEL"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 1415,
+  "w": 1101,
+  "n": 39,
+  "s": 37,
+  "c": 2,
+  "x": 31,
+  "xh": 27,
+  "sp": "split",
+  "sc": [
+   "Polos",
+   "Quarter & Half Zips",
+   "Boardshorts",
+   "Outerwear",
+   "Shorts",
+   "Pants & Joggers",
+   "Sweaters"
+  ],
+  "nc": [
+   "Tees & Tanks",
+   "Hoodies & Pullovers",
+   "Button-Ups"
+  ],
+  "st": "complete"
+ },
+ "garment_links": {
+  "T-shirt": "https://www.travismathew.com/collections/mens-tees",
+  "Polo": "https://www.travismathew.com/collections/mens-polos",
+  "Dress shirt": "https://www.travismathew.com/collections/mens-button-ups",
+  "Jeans": "https://www.travismathew.com/collections/mens-jeans",
+  "Dress pants": "https://www.travismathew.com/collections/mens-pants",
+  "Outerwear": "https://www.travismathew.com/collections/mens-outerwear",
+  "Shoes": "https://www.travismathew.com/collections/footwear"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Cloud Slub Tee",
+   "lu": "https://www.travismathew.com/products/cloud-slub-tee",
+   "hp": "TM Cloud Midweight Relaxed Tee",
+   "hu": "https://www.travismathew.com/products/tm-cloud-midweight-relaxed-tee",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 1,
-    "linen": 1,
-    "cotton": 2,
-    "wool": 1,
-    "synth": 5
+  "Polo": {
+   "lp": "The Heater Polo",
+   "lu": "https://www.travismathew.com/products/the-heater-polo",
+   "hp": "Comfortknit Breeze Polo",
+   "hu": "https://www.travismathew.com/products/comfortknit-breeze-polo",
+   "b": "range"
   },
-  "dials": {
-    "dur": 3,
-    "forg": 2,
-    "fuss": 2,
-    "golffice": 3,
-    "golf": 5,
-    "finbro": 3,
-    "murica": 2,
-    "prep": 2,
-    "racquet": 2,
-    "whitet": 2,
-    "logo": 3,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 2,
-    "surf": 3
+  "Dress shirt": {
+   "lp": "Techwoven Sunlight Button-Up",
+   "lu": "https://www.travismathew.com/products/techwoven-sunlight-button-up",
+   "hp": "Techwoven Cross Check Long Sleeve Button-Up",
+   "hu": "https://www.travismathew.com/products/techwoven-cross-check-long-sleeve-button-up",
+   "b": "range"
   },
-  "why": "Golf clothing in synthetic fabrics for the course and the bar afterward; owned by Callaway.",
-  "origin": "Founded in Southern California in 2007; acquired by Callaway in 2017.",
-  "chan": ["O", "D", "I"],
-  "conf": "L",
-  "forgc": [2, 4, 1],
-  "shop": "https://www.travismathew.com/search?q=",
-  "onething": {
-    "p": "Cloud tee",
-    "u": "https://www.travismathew.com/search?q=Cloud%20tee",
-    "n": "works"
+  "Jeans": {
+   "lp": "Legacy Featherweight Jeans",
+   "lu": "https://www.travismathew.com/products/legacy-featherweight-jeans",
+   "hp": "Legacy Featherweight Jeans",
+   "hu": "https://www.travismathew.com/products/legacy-featherweight-jeans",
+   "b": "single"
   },
-  "prices": [[40, 65], [90, 120], [100, 150], [190, 190], [140, 220], [140, 150], [180, 400], [130, 250]],
-  "price_checked": true,
-  "notes": {
-    "synth": "golf-lifestyle performance polys",
-    "golf": "born for the clubhouse-to-bar commute; Callaway-owned",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 4; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "TravisMathew's product data and PDP give no country of make, maker or mill. The about-us and eco pages carry only brand messaging, the HQ address and a recycled-content claim. Nothing about making can be checked."
+  "Dress pants": {
+   "lp": "Open To Close 2.0 Pant",
+   "lu": "https://www.travismathew.com/products/open-to-close-2-0-pant",
+   "hp": "Stout Style Pant",
+   "hu": "https://www.travismathew.com/products/stout-style-pant",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 57,
-    "cities": [
-      ["Austin", "TX", 1],
-      ["Bellevue", "WA", 1],
-      ["Birmingham", "AL", 1],
-      ["Bloomington", "MN", 1],
-      ["Boca Raton", "FL", 1],
-      ["Brea", "CA", 1],
-      ["Burlington", "MA", 1],
-      ["Canoga Park", "CA", 1],
-      ["Chandler", "AZ", 1],
-      ["Charlotte", "NC", 1],
-      ["Cincinnati", "OH", 1],
-      ["Columbus", "OH", 1],
-      ["Corte Madera", "CA", 1],
-      ["Dallas", "TX", 1],
-      ["Dedham", "MA", 1],
-      ["Garden City", "NY", 1],
-      ["Honolulu", "HI", 2],
-      ["Indianapolis", "IN", 1],
-      ["Irvine", "CA", 1],
-      ["King of Prussia", "PA", 1],
-      ["Lahaina", "HI", 1],
-      ["Las Vegas", "NV", 1],
-      ["Lone Tree", "CO", 1],
-      ["Long Beach", "CA", 1],
-      ["Minnetonka", "MN", 1],
-      ["Murray", "UT", 1],
-      ["Nashville", "TN", 1],
-      ["Newport Beach", "CA", 1],
-      ["Oak Brook", "IL", 1],
-      ["Orange Village", "OH", 1],
-      ["Palm Beach Gardens", "FL", 1],
-      ["Palm Desert", "CA", 1],
-      ["Paramus", "NJ", 1],
-      ["Plano", "TX", 1],
-      ["Portland", "OR", 1],
-      ["Roseville", "CA", 1],
-      ["San Antonio", "TX", 1],
-      ["San Diego", "CA", 2],
-      ["San Jose", "CA", 1],
-      ["Sarasota", "FL", 1],
-      ["Schaumburg", "IL", 1],
-      ["Scottsdale", "AZ", 2],
-      ["Skokie", "IL", 1],
-      ["Southlake", "TX", 1],
-      ["St. Louis", "MO", 1],
-      ["Tampa", "FL", 1],
-      ["The Woodlands", "TX", 1],
-      ["Torrance", "CA", 1],
-      ["Troy", "MI", 1],
-      ["Tysons", "VA", 1],
-      ["Waikoloa", "HI", 1],
-      ["Wailea", "HI", 1],
-      ["Walnut Creek", "CA", 1],
-      ["Wauwatosa", "WI", 1]
-    ],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Sweater": {
+   "lp": "Cloud Cardigan Sweater",
+   "lu": "https://www.travismathew.com/products/cloud-cardigan-sweater",
+   "hp": "Cloud Sweater",
+   "hu": "https://www.travismathew.com/products/cloud-sweater",
+   "b": "range"
   },
-  "cities": "57 stores across the US · department stores and independent menswear shops, and its own site",
-  "region": {
-    "o": [2789, 2790, 2796, 2798, 2803],
-    "s": [11, 33, 46, 59, 85, 136]
+  "Outerwear": {
+   "lp": "Highway Men Jacket",
+   "lu": "https://www.travismathew.com/products/highway-men-jacket",
+   "hp": "Mountain Pass Long Jacket",
+   "hu": "https://www.travismathew.com/products/mountain-pass-long-jacket",
+   "b": "range"
   },
-  "site": {
-    "domain": "travismathew.com",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 2456,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "house",
-    "marks": [
-      "HEATER SERIES (house)",
-      "CLOUD (house)",
-      "Featherweight (house)",
-      "Performance Jersey (house)",
-      "TENCEL"
-    ],
-    "source": "census",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 1415,
-    "w": 1101,
-    "n": 39,
-    "s": 37,
-    "c": 2,
-    "x": 31,
-    "xh": 27,
-    "sp": "split",
-    "sc": [
-      "Polos",
-      "Quarter & Half Zips",
-      "Boardshorts",
-      "Outerwear",
-      "Shorts",
-      "Pants & Joggers",
-      "Sweaters"
-    ],
-    "nc": ["Tees & Tanks", "Hoodies & Pullovers", "Button-Ups"],
-    "st": "complete"
-  },
-  "garment_links": {
-    "T-shirt": "https://www.travismathew.com/collections/mens-tees",
-    "Polo": "https://www.travismathew.com/collections/mens-polos",
-    "Dress shirt": "https://www.travismathew.com/collections/mens-button-ups",
-    "Jeans": "https://www.travismathew.com/collections/mens-jeans",
-    "Dress pants": "https://www.travismathew.com/collections/mens-pants",
-    "Outerwear": "https://www.travismathew.com/collections/mens-outerwear",
-    "Shoes": "https://www.travismathew.com/collections/footwear"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Cloud Slub Tee",
-      "lu": "https://www.travismathew.com/products/cloud-slub-tee",
-      "hp": "TM Cloud Midweight Relaxed Tee",
-      "hu": "https://www.travismathew.com/products/tm-cloud-midweight-relaxed-tee",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "The Heater Polo",
-      "lu": "https://www.travismathew.com/products/the-heater-polo",
-      "hp": "Comfortknit Breeze Polo",
-      "hu": "https://www.travismathew.com/products/comfortknit-breeze-polo",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Techwoven Sunlight Button-Up",
-      "lu": "https://www.travismathew.com/products/techwoven-sunlight-button-up",
-      "hp": "Techwoven Cross Check Long Sleeve Button-Up",
-      "hu": "https://www.travismathew.com/products/techwoven-cross-check-long-sleeve-button-up",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Legacy Featherweight Jeans",
-      "lu": "https://www.travismathew.com/products/legacy-featherweight-jeans",
-      "hp": "Legacy Featherweight Jeans",
-      "hu": "https://www.travismathew.com/products/legacy-featherweight-jeans",
-      "b": "single"
-    },
-    "Dress pants": {
-      "lp": "Open To Close 2.0 Pant",
-      "lu": "https://www.travismathew.com/products/open-to-close-2-0-pant",
-      "hp": "Stout Style Pant",
-      "hu": "https://www.travismathew.com/products/stout-style-pant",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Cloud Cardigan Sweater",
-      "lu": "https://www.travismathew.com/products/cloud-cardigan-sweater",
-      "hp": "Cloud Sweater",
-      "hu": "https://www.travismathew.com/products/cloud-sweater",
-      "b": "range"
-    },
-    "Outerwear": {
-      "lp": "Highway Men Jacket",
-      "lu": "https://www.travismathew.com/products/highway-men-jacket",
-      "hp": "Mountain Pass Long Jacket",
-      "hu": "https://www.travismathew.com/products/mountain-pass-long-jacket",
-      "b": "range"
-    },
-    "Shoes": {
-      "lp": "The Daily Lite Shoe",
-      "lu": "https://www.travismathew.com/products/the-daily-lite-shoe",
-      "hp": "The Nuage Mega Tartan Golf Shoe",
-      "hu": "https://www.travismathew.com/products/the-nuage-mega-tartan-golf-shoe",
-      "b": "range"
-    }
-  },
-  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Dress pants", "Sweater", "Outerwear", "Shoes"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.travismathew.com/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=2006055",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "None claimed. The about-us page gives only the Huntington Beach, CA HQ address and mentions parent Topgolf Callaway Brands. No factory or workshop is mentioned.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "none",
-    "countries": "None stated: 0 of 9 products in the travismathew.com products.json (shorts, polos, tops, hats) give a country or 'Imported'. 1 PDP (Wanderlust Short 9in) also shows none. The sample is small and skewed to hats.",
-    "heritage": "none",
-    "repair": "no",
-    "process": "no",
-    "urls": ["https://travismathew.com/pages/about-us", "https://travismathew.com/pages/eco"],
-    "conf": "medium",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "The Daily Lite Shoe",
+   "lu": "https://www.travismathew.com/products/the-daily-lite-shoe",
+   "hp": "The Nuage Mega Tartan Golf Shoe",
+   "hu": "https://www.travismathew.com/products/the-nuage-mega-tartan-golf-shoe",
+   "b": "range"
   }
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Dress pants",
+  "Sweater",
+  "Outerwear",
+  "Shoes"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.travismathew.com/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=2006055",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "None claimed. The about-us page gives only the Huntington Beach, CA HQ address and mentions parent Topgolf Callaway Brands. No factory or workshop is mentioned.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "none",
+  "countries": "None stated: 0 of 9 products in the travismathew.com products.json (shorts, polos, tops, hats) give a country or 'Imported'. 1 PDP (Wanderlust Short 9in) also shows none. The sample is small and skewed to hats.",
+  "heritage": "none",
+  "repair": "no",
+  "process": "no",
+  "urls": [
+   "https://travismathew.com/pages/about-us",
+   "https://travismathew.com/pages/eco"
+  ],
+  "conf": "medium",
+  "read": "2026-10-03"
+ }
 }

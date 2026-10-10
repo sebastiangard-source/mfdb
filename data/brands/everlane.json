@@ -1,215 +1,321 @@
 {
-  "name": "Everlane",
-  "band": "premium",
-  "seat": 10,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 3,
-    "craft": 3,
-    "style": 3
+ "name": "Everlane",
+ "band": "premium",
+ "seat": 10,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 3,
+  "craft": 3,
+  "style": 3
+ },
+ "fabric": {
+  "denim": 3,
+  "cashmere": 3,
+  "linen": 1,
+  "cotton": 3,
+  "wool": 2,
+  "synth": 2
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 3,
+  "fuss": 0,
+  "murica": 2,
+  "whitet": 4,
+  "logo": 1,
+  "western": 1,
+  "rock": 1,
+  "workwear": 3,
+  "outdoor": 2,
+  "surf": 2
+ },
+ "why": "Basics — tees, chinos, knitwear, outerwear — sold direct with the cost of each item published.",
+ "origin": "Founded in San Francisco in 2010 by Michael Preysman.",
+ "chan": [
+  "W",
+  "O"
+ ],
+ "conf": "L",
+ "forgc": [
+  4,
+  3,
+  1
+ ],
+ "forgv": "XS–XXL only",
+ "shop": "https://www.everlane.com/search?q=",
+ "onething": {
+  "p": "Uniform tee",
+  "u": "https://www.everlane.com/search?q=Uniform%20tee%20men",
+  "n": "verified ✓"
+ },
+ "prices": [
+  [
+   34,
+   48
+  ],
+  [
+   68,
+   118
+  ],
+  [
+   98,
+   168
+  ],
+  [
+   98,
+   198
+  ],
+  [
+   148,
+   198
+  ],
+  [
+   98,
+   198
+  ],
+  [
+   148,
+   348
+  ],
+  [
+   148,
+   148
+  ]
+ ],
+ "notes": {
+  "denim": "a transparent-factory denim program",
+  "whitet": "the tee was the founding product and still the entry — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 2; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "Everlane owns no factories but publishes a factory directory naming partners with city and country, and some product pages name the factory ('Made at TAL in Vietnam'). No fabric or yarn mill is named on product pages. Names its makers, owns nothing = 3."
+ },
+ "doors": {
+  "c": "full",
+  "n": 11,
+  "cities": [
+   [
+    "Austin",
+    "TX",
+    1
+   ],
+   [
+    "Boston",
+    "MA",
+    1
+   ],
+   [
+    "Brooklyn",
+    "NY",
+    1
+   ],
+   [
+    "Georgetown",
+    "DC",
+    1
+   ],
+   [
+    "King of Prussia",
+    "PA",
+    1
+   ],
+   [
+    "Los Angeles",
+    "CA",
+    1
+   ],
+   [
+    "McLean",
+    "VA",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    1
+   ],
+   [
+    "Palo Alto",
+    "CA",
+    1
+   ],
+   [
+    "San Francisco",
+    "CA",
+    1
+   ],
+   [
+    "Seattle",
+    "WA",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 0,
+  "con": 0
+ },
+ "cities": "11 stores, including Austin, Boston, Brooklyn, and its own site",
+ "region": {
+  "o": [
+   1157,
+   1160,
+   1162,
+   1166
+  ],
+  "s": []
+ },
+ "addmen": true,
+ "site": {
+  "domain": "everlane.com",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 8922,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "unclear",
+  "marks": [
+   "primaloft",
+   "coolmax"
+  ],
+  "source": "flag_sample",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 358,
+  "w": 195,
+  "n": 51,
+  "s": 4,
+  "c": 0,
+  "x": 13,
+  "xh": 4,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "bottoms",
+   "knit tops",
+   "sweaters"
+  ],
+  "st": "partial"
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants",
+  "Outerwear",
+  "Shoes"
+ ],
+ "garment_links": {
+  "T-shirt": "https://www.everlane.com/collections/mens-tshirts",
+  "Polo": "https://www.everlane.com/collections/mens-polo-shirts",
+  "Dress shirt": "https://www.everlane.com/collections/mens-shirt-shop",
+  "Jeans": "https://www.everlane.com/collections/mens-jeans",
+  "Dress pants": "https://www.everlane.com/collections/mens-chinos-khakis",
+  "Sweater": "https://www.everlane.com/collections/mens-sweaters",
+  "Outerwear": "https://www.everlane.com/collections/mens-outerwear-coats"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "The Essential Organic Crew | Coffee Bean",
+   "lu": "https://www.everlane.com/products/mens-essential-organic-crew-uniform-coffee-bean",
+   "hp": "Relaxed Heavyweight Tee | Black",
+   "hu": "https://www.everlane.com/products/mens-relaxed-heavyweight-tee-black",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 3,
-    "cashmere": 3,
-    "linen": 1,
-    "cotton": 3,
-    "wool": 2,
-    "synth": 2
+  "Polo": {
+   "lp": "Classic Piqué Polo | Navy",
+   "lu": "https://www.everlane.com/products/mens-classic-pique-polo-navy",
+   "hp": "No-Sweat Textured Zip Polo | Cabernet",
+   "hu": "https://www.everlane.com/products/mens-no-sweat-textured-zip-polo-cabernet",
+   "b": "range"
   },
-  "dials": {
-    "dur": 3,
-    "forg": 3,
-    "fuss": 0,
-    "murica": 2,
-    "whitet": 4,
-    "logo": 1,
-    "western": 1,
-    "rock": 1,
-    "workwear": 3,
-    "outdoor": 2,
-    "surf": 2
+  "Dress shirt": {
+   "lp": "Washed Poplin Shirt | Skywriting/Multi",
+   "lu": "https://www.everlane.com/products/mens-washed-poplin-shirt-skywriting-blue-multi",
+   "hp": "Double-Gauze Button-Down Shirt | Black / Navy",
+   "hu": "https://www.everlane.com/products/m-btdn-tdg-gze-ls-blupld",
+   "b": "range"
   },
-  "why": "Basics — tees, chinos, knitwear, outerwear — sold direct with the cost of each item published.",
-  "origin": "Founded in San Francisco in 2010 by Michael Preysman.",
-  "chan": ["W", "O"],
-  "conf": "L",
-  "forgc": [4, 3, 1],
-  "forgv": "XS–XXL only",
-  "shop": "https://www.everlane.com/search?q=",
-  "onething": {
-    "p": "Uniform tee",
-    "u": "https://www.everlane.com/search?q=Uniform%20tee%20men",
-    "n": "verified ✓"
+  "Jeans": {
+   "lp": "Classic Straight-Fit Jean | Black",
+   "lu": "https://www.everlane.com/products/mens-classic-straight-fit-jean-black",
+   "hp": "Japanese Selvedge Jean | Dark Indigo",
+   "hu": "https://www.everlane.com/products/mens-japanese-selvedge-jean-dark-indigo",
+   "b": "range"
   },
-  "prices": [[34, 48], [68, 118], [98, 168], [98, 198], [148, 198], [98, 198], [148, 348], [148, 148]],
-  "notes": {
-    "denim": "a transparent-factory denim program",
-    "whitet": "the tee was the founding product and still the entry — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 2; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Everlane owns no factories but publishes a factory directory naming partners with city and country, and some product pages name the factory ('Made at TAL in Vietnam'). No fabric or yarn mill is named on product pages. Names its makers, owns nothing = 3."
+  "Dress pants": {
+   "lp": "Soyeux Linen Pleated Trouser | Black",
+   "lu": "https://www.everlane.com/products/mens-soyeux-linen-pleated-trouser-black",
+   "hp": "Tropical Wool Trouser | Dark Navy",
+   "hu": "https://www.everlane.com/products/mens-tropical-wool-trouser-dark-navy",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 11,
-    "cities": [
-      ["Austin", "TX", 1],
-      ["Boston", "MA", 1],
-      ["Brooklyn", "NY", 1],
-      ["King of Prussia", "PA", 1],
-      ["Los Angeles", "CA", 1],
-      ["McLean", "VA", 1],
-      ["New York", "NY", 1],
-      ["Palo Alto", "CA", 1],
-      ["San Francisco", "CA", 1],
-      ["Seattle", "WA", 1],
-      ["Washington", "DC", 1]
-    ],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Sweater": {
+   "lp": "The No-Sweat Sweater | Uniform | Heathered Olive Night",
+   "lu": "https://www.everlane.com/products/mens-uniform-no-sweat-cotton-sweater-heather-olive-night",
+   "hp": "Midweight Cashmere Crew | Black",
+   "hu": "https://www.everlane.com/products/mens-luxe-cashmere-crew-black",
+   "b": "pair"
   },
-  "cities": "11 stores, including Austin, Boston, Brooklyn, and its own site",
-  "region": {
-    "o": [850, 851, 852, 853],
-    "s": []
+  "Outerwear": {
+   "lp": "Relaxed Barn Jacket | Olive Night",
+   "lu": "https://www.everlane.com/products/mens-relaxed-barn-jacket-olive-night",
+   "hp": "ReWool Flight Jacket | Heather Charcoal",
+   "hu": "https://www.everlane.com/products/mens-rewool-flight-jacket-heather-charcoal",
+   "b": "range"
   },
-  "addmen": true,
-  "site": {
-    "domain": "everlane.com",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 8922,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "unclear",
-    "marks": ["primaloft", "coolmax"],
-    "source": "flag_sample",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 358,
-    "w": 195,
-    "n": 51,
-    "s": 4,
-    "c": 0,
-    "x": 13,
-    "xh": 4,
-    "sp": "one",
-    "sc": [],
-    "nc": ["bottoms", "knit tops", "sweaters"],
-    "st": "partial"
-  },
-  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants", "Outerwear", "Shoes"],
-  "garment_links": {
-    "T-shirt": "https://www.everlane.com/collections/mens-tshirts",
-    "Polo": "https://www.everlane.com/collections/mens-polo-shirts",
-    "Dress shirt": "https://www.everlane.com/collections/mens-shirt-shop",
-    "Jeans": "https://www.everlane.com/collections/mens-jeans",
-    "Dress pants": "https://www.everlane.com/collections/mens-chinos-khakis",
-    "Sweater": "https://www.everlane.com/collections/mens-sweaters",
-    "Outerwear": "https://www.everlane.com/collections/mens-outerwear-coats"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "The Essential Organic Crew | Coffee Bean",
-      "lu": "https://www.everlane.com/products/mens-essential-organic-crew-uniform-coffee-bean",
-      "hp": "Relaxed Heavyweight Tee | Black",
-      "hu": "https://www.everlane.com/products/mens-relaxed-heavyweight-tee-black",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Classic Piqué Polo | Navy",
-      "lu": "https://www.everlane.com/products/mens-classic-pique-polo-navy",
-      "hp": "No-Sweat Textured Zip Polo | Cabernet",
-      "hu": "https://www.everlane.com/products/mens-no-sweat-textured-zip-polo-cabernet",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Washed Poplin Shirt | Skywriting/Multi",
-      "lu": "https://www.everlane.com/products/mens-washed-poplin-shirt-skywriting-blue-multi",
-      "hp": "Double-Gauze Button-Down Shirt | Black / Navy",
-      "hu": "https://www.everlane.com/products/m-btdn-tdg-gze-ls-blupld",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Classic Straight-Fit Jean | Black",
-      "lu": "https://www.everlane.com/products/mens-classic-straight-fit-jean-black",
-      "hp": "Japanese Selvedge Jean | Dark Indigo",
-      "hu": "https://www.everlane.com/products/mens-japanese-selvedge-jean-dark-indigo",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Soyeux Linen Pleated Trouser | Black",
-      "lu": "https://www.everlane.com/products/mens-soyeux-linen-pleated-trouser-black",
-      "hp": "Tropical Wool Trouser | Dark Navy",
-      "hu": "https://www.everlane.com/products/mens-tropical-wool-trouser-dark-navy",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "The No-Sweat Sweater | Uniform | Heathered Olive Night",
-      "lu": "https://www.everlane.com/products/mens-uniform-no-sweat-cotton-sweater-heather-olive-night",
-      "hp": "Midweight Cashmere Crew | Black",
-      "hu": "https://www.everlane.com/products/mens-luxe-cashmere-crew-black",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "Relaxed Barn Jacket | Olive Night",
-      "lu": "https://www.everlane.com/products/mens-relaxed-barn-jacket-olive-night",
-      "hp": "ReWool Flight Jacket | Heather Charcoal",
-      "hu": "https://www.everlane.com/products/mens-rewool-flight-jacket-heather-charcoal",
-      "b": "range"
-    },
-    "Shoes": {
-      "lp": "The Court Sneaker | Canvas Tan / Bluebell / Trench Coat",
-      "lu": "https://www.everlane.com/products/mens-court-sneaker-canvas-blue-trench",
-      "hp": "The Tread-Bare Sneaker | Forest Green",
-      "hu": "https://www.everlane.com/products/mens-tread-bare-sneaker2-canvas-forest-green",
-      "b": "range"
-    }
-  },
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.everlane.com/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=479981",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "certs": {
-    "gots": {
-      "e": "Everlane (United States)"
-    }
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "About page: 'We spend months finding the best factories around the world—the same ones that produce your favorite designer labels'; factories are audited partners. No owned factory claimed on /about or /factories.",
-    "makers": "some",
-    "mills": "no",
-    "madein": "some",
-    "countries": "Vietnam 2/8 visible (oxford shirt, essential crew); 6/8 showed no origin (organic crew tee x2, premium merino crew, sweater polo, sweater blazer, slim jean) but a collapsed Details accordion may hold it. Sample: tees, shirt, knits, tailoring-knit blazer, denim.",
-    "heritage": "none",
-    "repair": "yes",
-    "process": "some",
-    "urls": [
-      "https://www.everlane.com/factories",
-      "https://www.everlane.com/products/mens-organic-oxford-shirt-white"
-    ],
-    "conf": "medium",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "The Court Sneaker | Canvas Tan / Bluebell / Trench Coat",
+   "lu": "https://www.everlane.com/products/mens-court-sneaker-canvas-blue-trench",
+   "hp": "The Tread-Bare Sneaker | Forest Green",
+   "hu": "https://www.everlane.com/products/mens-tread-bare-sneaker2-canvas-forest-green",
+   "b": "range"
   }
+ },
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.everlane.com/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=479981",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "certs": {
+  "gots": {
+   "e": "Everlane (United States)"
+  }
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "About page: 'We spend months finding the best factories around the world—the same ones that produce your favorite designer labels'; factories are audited partners. No owned factory claimed on /about or /factories.",
+  "makers": "some",
+  "mills": "no",
+  "madein": "some",
+  "countries": "Vietnam 2/8 visible (oxford shirt, essential crew); 6/8 showed no origin (organic crew tee x2, premium merino crew, sweater polo, sweater blazer, slim jean) but a collapsed Details accordion may hold it. Sample: tees, shirt, knits, tailoring-knit blazer, denim.",
+  "heritage": "none",
+  "repair": "yes",
+  "process": "some",
+  "urls": [
+   "https://www.everlane.com/factories",
+   "https://www.everlane.com/products/mens-organic-oxford-shirt-white"
+  ],
+  "conf": "medium",
+  "read": "2026-10-03"
+ }
 }

@@ -1,192 +1,243 @@
 {
-  "name": "Duck Head",
-  "band": "premium",
-  "seat": 44,
-  "dagger": 0,
-  "focus": {
-    "tech": 2,
-    "comfort": 4,
-    "craft": 2,
-    "style": 2
+ "name": "Duck Head",
+ "band": "premium",
+ "seat": 44,
+ "dagger": 0,
+ "focus": {
+  "tech": 2,
+  "comfort": 4,
+  "craft": 2,
+  "style": 2
+ },
+ "fabric": {
+  "denim": 3,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 5,
+  "wool": 2,
+  "synth": 2
+ },
+ "dials": {
+  "dur": 4,
+  "forg": 3,
+  "fuss": 1,
+  "status": 1,
+  "murica": 5,
+  "ital": 0,
+  "prep": 3,
+  "whitet": 2,
+  "logo": 2,
+  "western": 2,
+  "rock": 1,
+  "workwear": 4,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Chinos and casual clothing from a Southern workwear name revived by Oxford Industries.",
+ "origin": "Founded in Nashville in 1865; named for the duck canvas it used; owned by Oxford Industries since 2016.",
+ "chan": [
+  "D",
+  "I",
+  "X"
+ ],
+ "conf": "L",
+ "forgc": [
+  3,
+  3,
+  1
+ ],
+ "onething": {
+  "p": "The Gold School chino",
+  "u": "https://duckhead.com/collections/pants",
+  "n": "verified — the direct descendant of the 1978 Big Gold Patch chino the house is remembered for"
+ },
+ "prices": [
+  [
+   54,
+   68
+  ],
+  [
+   98,
+   118
+  ],
+  [
+   118,
+   148
+  ],
+  [
+   178,
+   178
+  ],
+  [
+   118,
+   198
+  ],
+  [
+   128,
+   288
+  ],
+  [
+   168,
+   478
+  ],
+  null
+ ],
+ "notes": {
+  "cotton": "63 of 90 clothing styles are cotton-dominant, and the name is the duck canvas itself",
+  "murica": "Nashville 1865, and the range still reads Southern rather than national",
+  "comfort": "spandex in 27 of 90 styles, the highest proportion of the eight houses read together",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 3; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "Product pages say 'Imported' or nothing; no country, factory or owned plant is named. The only named making input is Kaihara denim on the jeans. One named mill on one category sits between 1 and 3; 2 is the fair read."
+ },
+ "doors": {
+  "c": "full",
+  "n": 0,
+  "cities": [],
+  "basis": "master 2026-08-29, pre-recapture"
+ },
+ "cities": "No store of its own in the US · department stores and independent menswear shops, and its own site",
+ "site": {
+  "domain": "www.duckhead.com",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 772,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "licensed",
+  "marks": [
+   "LICENSED marks, read verbatim off the catalogue: PrimaLoft(R) Black Insulation on 17 products ('Featuring PrimaLoft(R) Black Insulation, this jacket offers lightweight warmth, loft, and compressibility'), and Drirelease(R) on 7 products, in composition position ('80% Drirelease(R) Recycled Polyester"
+  ],
+  "source": "census_204",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 67,
+  "w": 66,
+  "n": 81,
+  "s": 16,
+  "c": 2,
+  "x": 30,
+  "xh": 7,
+  "sp": "one",
+  "sc": [
+   "Knit Tops"
+  ],
+  "nc": [
+   "Pants",
+   "Sport Shirts",
+   "Sweaters"
+  ],
+  "st": "complete"
+ },
+ "shop": "https://www.duckhead.com/search?q=",
+ "garment_links": {
+  "T-shirt": "https://www.duckhead.com/collections/t-shirts",
+  "Polo": "https://www.duckhead.com/collections/polos",
+  "Dress shirt": "https://www.duckhead.com/collections/sports-shirts",
+  "Jeans": "https://www.duckhead.com/collections/five-pockets",
+  "Dress pants": "https://www.duckhead.com/collections/chinos-1",
+  "Sweater": "https://www.duckhead.com/collections/sweaters",
+  "Outerwear": "https://www.duckhead.com/collections/outerwear"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Logo Short Sleeve T-Shirt - Antique White",
+   "lu": "https://www.duckhead.com/products/logo-short-sleeve-t-shirt-antique-white",
+   "hp": "Tindale Pima Cotton Jersey T-Shirt - Carbon Navy",
+   "hu": "https://www.duckhead.com/products/tindale-pima-cotton-jersey-t-shirt-carbon-navy",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 3,
-    "cashmere": 1,
-    "linen": 1,
-    "cotton": 5,
-    "wool": 2,
-    "synth": 2
+  "Polo": {
+   "lp": "Long Drive Performance Polo - Whit Stripe - Navy Peony",
+   "lu": "https://www.duckhead.com/products/long-drive-performance-polo-whit-stripe-navy-peony",
+   "hp": "Hanover Pima Cotton Pique Polo - Washed Navy",
+   "hu": "https://www.duckhead.com/products/hanover-pima-cotton-pique-polo-washed-navy",
+   "b": "range"
   },
-  "dials": {
-    "dur": 4,
-    "forg": 3,
-    "fuss": 1,
-    "status": 1,
-    "murica": 5,
-    "ital": 0,
-    "prep": 3,
-    "whitet": 2,
-    "logo": 2,
-    "western": 2,
-    "rock": 1,
-    "workwear": 4,
-    "outdoor": 1,
-    "surf": 1
+  "Dress shirt": {
+   "lp": "Cotton Oxford Sport Shirt - Morris Solid - White",
+   "lu": "https://www.duckhead.com/products/morris-solid-cotton-oxford-sport-shirt-white",
+   "hp": "Performance Flannel Sport Shirt - Ellicot Plaid - Deep Navy",
+   "hu": "https://www.duckhead.com/products/performance-flannel-sport-shirt-ellicot-plaid-deep-navy",
+   "b": "range"
   },
-  "why": "Chinos and casual clothing from a Southern workwear name revived by Oxford Industries.",
-  "origin": "Founded in Nashville in 1865; named for the duck canvas it used; owned by Oxford Industries since 2016.",
-  "chan": ["D", "I", "X"],
-  "conf": "L",
-  "forgc": [3, 3, 1],
-  "onething": {
-    "p": "The Gold School chino",
-    "u": "https://duckhead.com/collections/pants",
-    "n": "verified — the direct descendant of the 1978 Big Gold Patch chino the house is remembered for"
+  "Jeans": {
+   "lp": "Classic Straight Denim - Rinse Wash",
+   "lu": "https://www.duckhead.com/products/classic-straight-fit-denim-rinse-wash",
+   "hp": "Classic Straight Denim - Rinse Wash",
+   "hu": "https://www.duckhead.com/products/classic-straight-fit-denim-rinse-wash",
+   "b": "single"
   },
-  "prices": [[54, 68], [98, 118], [118, 148], [178, 178], [118, 198], [128, 288], [168, 478], null],
-  "notes": {
-    "cotton": "63 of 90 clothing styles are cotton-dominant, and the name is the duck canvas itself",
-    "murica": "Nashville 1865, and the range still reads Southern rather than national",
-    "comfort": "spandex in 27 of 90 styles, the highest proportion of the eight houses read together",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 3; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Product pages say 'Imported' or nothing; no country, factory or owned plant is named. The only named making input is Kaihara denim on the jeans. One named mill on one category sits between 1 and 3; 2 is the fair read."
+  "Dress pants": {
+   "lp": "Classic Fit Gold School Chino - Original Khaki",
+   "lu": "https://www.duckhead.com/products/classic-fit-gold-school-chino-original-khaki",
+   "hp": "Flannel Corduroy Patchwork Gold School Chino - Multi",
+   "hu": "https://www.duckhead.com/products/flannel-corduroy-patchwork-gold-school-chino-multi",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 0,
-    "cities": [],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Sweater": {
+   "lp": "Henson Jersey Crewneck Sweater - Clay Heather",
+   "lu": "https://www.duckhead.com/products/henson-jersey-crewneck-sweater-clay-heather",
+   "hp": "Walcott Merino Cashmere Cable Knit 1/4 Zip Sweater - Deep Navy",
+   "hu": "https://www.duckhead.com/products/walcott-merino-cashmere-cable-knit-1-4-zip-sweater-deep-navy",
+   "b": "range"
   },
-  "cities": "No store of its own in the US · department stores and independent menswear shops, and its own site",
-  "site": {
-    "domain": "www.duckhead.com",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 772,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "licensed",
-    "marks": [
-      "LICENSED marks, read verbatim off the catalogue: PrimaLoft(R) Black Insulation on 17 products ('Featuring PrimaLoft(R) Black Insulation, this jacket offers lightweight warmth, loft, and compressibility'), and Drirelease(R) on 7 products, in composition position ('80% Drirelease(R) Recycled Polyester"
-    ],
-    "source": "census_204",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 67,
-    "w": 66,
-    "n": 81,
-    "s": 16,
-    "c": 2,
-    "x": 30,
-    "xh": 7,
-    "sp": "one",
-    "sc": ["Knit Tops"],
-    "nc": ["Pants", "Sport Shirts", "Sweaters"],
-    "st": "complete"
-  },
-  "shop": "https://www.duckhead.com/search?q=",
-  "garment_links": {
-    "T-shirt": "https://www.duckhead.com/collections/t-shirts",
-    "Polo": "https://www.duckhead.com/collections/polos",
-    "Dress shirt": "https://www.duckhead.com/collections/sports-shirts",
-    "Jeans": "https://www.duckhead.com/collections/five-pockets",
-    "Dress pants": "https://www.duckhead.com/collections/chinos-1",
-    "Sweater": "https://www.duckhead.com/collections/sweaters",
-    "Outerwear": "https://www.duckhead.com/collections/outerwear"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Logo Short Sleeve T-Shirt - Antique White",
-      "lu": "https://www.duckhead.com/products/logo-short-sleeve-t-shirt-antique-white",
-      "hp": "Tindale Pima Cotton Jersey T-Shirt - Carbon Navy",
-      "hu": "https://www.duckhead.com/products/tindale-pima-cotton-jersey-t-shirt-carbon-navy",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Long Drive Performance Polo - Whit Stripe - Navy Peony",
-      "lu": "https://www.duckhead.com/products/long-drive-performance-polo-whit-stripe-navy-peony",
-      "hp": "Hanover Pima Cotton Pique Polo - Washed Navy",
-      "hu": "https://www.duckhead.com/products/hanover-pima-cotton-pique-polo-washed-navy",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Cotton Oxford Sport Shirt - Morris Solid - White",
-      "lu": "https://www.duckhead.com/products/morris-solid-cotton-oxford-sport-shirt-white",
-      "hp": "Performance Flannel Sport Shirt - Ellicot Plaid - Deep Navy",
-      "hu": "https://www.duckhead.com/products/performance-flannel-sport-shirt-ellicot-plaid-deep-navy",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Classic Straight Denim - Rinse Wash",
-      "lu": "https://www.duckhead.com/products/classic-straight-fit-denim-rinse-wash",
-      "hp": "Classic Straight Denim - Rinse Wash",
-      "hu": "https://www.duckhead.com/products/classic-straight-fit-denim-rinse-wash",
-      "b": "single"
-    },
-    "Dress pants": {
-      "lp": "Classic Fit Gold School Chino - Original Khaki",
-      "lu": "https://www.duckhead.com/products/classic-fit-gold-school-chino-original-khaki",
-      "hp": "Flannel Corduroy Patchwork Gold School Chino - Multi",
-      "hu": "https://www.duckhead.com/products/flannel-corduroy-patchwork-gold-school-chino-multi",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Henson Jersey Crewneck Sweater - Clay Heather",
-      "lu": "https://www.duckhead.com/products/henson-jersey-crewneck-sweater-clay-heather",
-      "hp": "Walcott Merino Cashmere Cable Knit 1/4 Zip Sweater - Deep Navy",
-      "hu": "https://www.duckhead.com/products/walcott-merino-cashmere-cable-knit-1-4-zip-sweater-deep-navy",
-      "b": "range"
-    },
-    "Outerwear": {
-      "lp": "Garment Dyed Duck Canvas Jacket - Navy Peony",
-      "lu": "https://www.duckhead.com/products/garment-dyed-duck-canvas-jacket-navy-peony",
-      "hp": "Waxed Duck Canvas Jacket - Deep Olive",
-      "hu": "https://www.duckhead.com/products/waxed-duck-canvas-jacket-deep-olive",
-      "b": "range"
-    }
-  },
-  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Dress pants", "Sweater", "Outerwear"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.duckhead.com/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=1092778",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "No owned facility claimed on site; heritage page mentions only buying fabric 'from a local mill' in 1978. Parent Oxford Industries filings not checked (search budget exhausted).",
-    "makers": "no",
-    "mills": "some",
-    "madein": "none",
-    "countries": "'Imported' with no country on denim x2, Gold School shorts, Buckley sweater, Hanover polo; no origin line at all on performance flannel shirt, Long Drive polo, Henson/Ridley sweaters (sample ~10 products via products.json + 1 PDP: pants, shorts, polos, sweaters, sport shirts). No country named anywhere.",
-    "heritage": "dated and placed",
-    "repair": "yes",
-    "process": "no",
-    "urls": [
-      "https://www.duckhead.com/collections/pants/products.json?limit=30",
-      "https://www.duckhead.com/collections/duck-head-vintage"
-    ],
-    "conf": "medium",
-    "read": "2026-10-03"
+  "Outerwear": {
+   "lp": "Garment Dyed Duck Canvas Jacket - Navy Peony",
+   "lu": "https://www.duckhead.com/products/garment-dyed-duck-canvas-jacket-navy-peony",
+   "hp": "Waxed Duck Canvas Jacket - Deep Olive",
+   "hu": "https://www.duckhead.com/products/waxed-duck-canvas-jacket-deep-olive",
+   "b": "range"
   }
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Dress pants",
+  "Sweater",
+  "Outerwear"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.duckhead.com/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=1092778",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "No owned facility claimed on site; heritage page mentions only buying fabric 'from a local mill' in 1978. Parent Oxford Industries filings not checked (search budget exhausted).",
+  "makers": "no",
+  "mills": "some",
+  "madein": "none",
+  "countries": "'Imported' with no country on denim x2, Gold School shorts, Buckley sweater, Hanover polo; no origin line at all on performance flannel shirt, Long Drive polo, Henson/Ridley sweaters (sample ~10 products via products.json + 1 PDP: pants, shorts, polos, sweaters, sport shirts). No country named anywhere.",
+  "heritage": "dated and placed",
+  "repair": "yes",
+  "process": "no",
+  "urls": [
+   "https://www.duckhead.com/collections/pants/products.json?limit=30",
+   "https://www.duckhead.com/collections/duck-head-vintage"
+  ],
+  "conf": "medium",
+  "read": "2026-10-03"
+ }
 }

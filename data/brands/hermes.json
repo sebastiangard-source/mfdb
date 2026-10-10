@@ -1,240 +1,435 @@
 {
-  "name": "Hermès",
-  "band": "trueLux",
-  "seat": 197,
-  "dagger": 0,
-  "focus": {
-    "tech": 1,
-    "comfort": 3,
-    "craft": 4,
-    "style": 4
+ "name": "Hermès",
+ "band": "trueLux",
+ "seat": 197,
+ "dagger": 0,
+ "focus": {
+  "tech": 1,
+  "comfort": 3,
+  "craft": 4,
+  "style": 4
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 4,
+  "linen": 3,
+  "cotton": 3,
+  "wool": 3,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 3,
+  "fuss": 3,
+  "sail": -1,
+  "shoes": 3,
+  "status": 5,
+  "finbro": 4,
+  "fren": 5,
+  "boat": 5,
+  "racquet": 4,
+  "whitet": 2,
+  "logo": 1,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Leather goods, silk and clothing made in the company's own workshops, with no licensees.",
+ "origin": "Founded in Paris in 1837 by Thierry Hermès as a harness maker.",
+ "say": "air-MEZ",
+ "chan": [
+  "O"
+ ],
+ "conf": "S",
+ "forgc": [
+  4,
+  3,
+  3
+ ],
+ "shop": "https://www.hermes.com/us/en/search/?s=",
+ "onething": {
+  "p": "The silk tie",
+  "u": "https://www.hermes.com/us/en/search/?s=The%20silk%20tie%20men",
+  "n": "verified ✓"
+ },
+ "prices": [
+  [
+   520,
+   1925
+  ],
+  [
+   670,
+   2375
+  ],
+  [
+   980,
+   2225
+  ],
+  "?",
+  [
+   900,
+   2000
+  ],
+  [
+   1200,
+   2700
+  ],
+  [
+   2125,
+   8800
+  ],
+  [
+   1100,
+   1925
+  ]
+ ],
+ "shoelink": {
+  "t": "loafer",
+  "u": "https://www.hermes.com/us/en/search/?s=loafer"
+ },
+ "notes": {
+  "craft": "Hermès's 2025 Universal Registration Document reports 79 owned production sites and 55% of output from in-house and exclusive workshops, centred on leather goods, tanneries, silk/textiles and other métiers. It names no owned ready-to-wear site, and men's PDPs mostly say 'Made in Italy' with no maker named. Owned making covers a large part of the house but not demonstrably the clothing, so 4 for a clothing score.",
+  "status": "the terminal status brand — waitlists as architecture",
+  "finbro": "the H belt as bonus-day announcement",
+  "fren": "French luxury's constitutional monarchy",
+  "racquet": "Grass and clay rather than a squash court behind a mahogany door. The register is a lawn in summer, and the house has the equestrian vocabulary to match.",
+  "boat": "Sailing sits inside a house that began with harnesses, so the register arrives through leather and craft rather than through marine function. Cashmere on deck, and someone else at the helm.",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 4; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+ },
+ "doors": {
+  "c": "full",
+  "n": 41,
+  "cities": [
+   [
+    "Aspen",
+    "CO",
+    1
+   ],
+   [
+    "Atlanta",
+    "GA",
+    1
+   ],
+   [
+    "Austin",
+    "TX",
+    1
+   ],
+   [
+    "Aventura",
+    "FL",
+    1
+   ],
+   [
+    "Bellevue",
+    "WA",
+    1
+   ],
+   [
+    "Beverly Hills",
+    "CA",
+    1
+   ],
+   [
+    "Brooklyn",
+    "NY",
+    1
+   ],
+   [
+    "Chagrin Falls",
+    "OH",
+    1
+   ],
+   [
+    "Chicago",
+    "IL",
+    1
+   ],
+   [
+    "Costa Mesa",
+    "CA",
+    1
+   ],
+   [
+    "Dallas",
+    "TX",
+    1
+   ],
+   [
+    "Denver",
+    "CO",
+    1
+   ],
+   [
+    "East Rutherford",
+    "NJ",
+    1
+   ],
+   [
+    "Greenwich",
+    "CT",
+    1
+   ],
+   [
+    "Honolulu",
+    "HI",
+    2
+   ],
+   [
+    "Houston",
+    "TX",
+    1
+   ],
+   [
+    "Jamaica",
+    "NY",
+    1
+   ],
+   [
+    "King of Prussia",
+    "PA",
+    1
+   ],
+   [
+    "Las Vegas",
+    "NV",
+    3
+   ],
+   [
+    "Los Angeles",
+    "CA",
+    2
+   ],
+   [
+    "Miami",
+    "FL",
+    1
+   ],
+   [
+    "Naples",
+    "FL",
+    1
+   ],
+   [
+    "Nashville",
+    "TN",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    2
+   ],
+   [
+    "Orlando",
+    "FL",
+    1
+   ],
+   [
+    "Palm Beach",
+    "FL",
+    1
+   ],
+   [
+    "Palo Alto",
+    "CA",
+    1
+   ],
+   [
+    "Princeton",
+    "NJ",
+    1
+   ],
+   [
+    "San Diego",
+    "CA",
+    1
+   ],
+   [
+    "San Francisco",
+    "CA",
+    2
+   ],
+   [
+    "Scottsdale",
+    "AZ",
+    1
+   ],
+   [
+    "Short Hills",
+    "NJ",
+    1
+   ],
+   [
+    "Troy",
+    "MI",
+    1
+   ],
+   [
+    "Washington",
+    "DC",
+    1
+   ],
+   [
+    "Wilmette",
+    "IL",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 0,
+  "con": 0
+ },
+ "cities": "41 stores across the US · its own site; not sold through other retailers",
+ "region": {
+  "o": [
+   1487,
+   1495,
+   1496,
+   1505,
+   1509,
+   1510,
+   1516,
+   1517,
+   1519
+  ],
+  "s": []
+ },
+ "addmen": true,
+ "addcloth": true,
+ "site": {
+  "domain": "www.hermes.com",
+  "platform": "custom",
+  "feed": "sitemap_products",
+  "feed_count": 4112,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "house",
+  "marks": [
+   "Toilovent - a named Hermes technical fabric, used in composition position: \"Zipped puffer coat in super water-repellent Toilovent (87% polyamide, 13% elastane)\". Found on 4 of 152 men's PDPs read (puffer coat, jacket with foldable hood, reversible hooded vest, reversible overshirt). Also named HOUSE"
+  ],
+  "source": "census_followup",
+  "checked": "2026-09-12"
+ },
+ "garment_links": {
+  "T-shirt": "https://www.hermes.com/us/en/category/men/ready-wear/t-shirts-and-sweatshirts/",
+  "Polo": "https://www.hermes.com/us/en/category/men/ready-wear/t-shirts-and-sweatshirts/",
+  "Dress shirt": "https://www.hermes.com/us/en/category/men/ready-wear/shirts/",
+  "Dress pants": "https://www.hermes.com/us/en/category/men/ready-wear/pants-and-shorts/",
+  "Sweater": "https://www.hermes.com/us/en/category/men/ready-wear/knitwear/",
+  "Outerwear": "https://www.hermes.com/us/en/category/men/ready-wear/coats-and-parkas/",
+  "Shoes": "https://www.hermes.com/us/en/category/men/shoes/"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "\"H\" embroidered T-shirt",
+   "lu": "https://www.hermes.com/us/en/product/h-embroidered-t-shirt-H072025HA90/",
+   "hp": "\"Ex-Libris\" t-shirt (short-sleeve, 100% cotton)",
+   "hu": "https://www.hermes.com/us/en/product/ex-libris-t-shirt-H657780HA60/",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 4,
-    "linen": 3,
-    "cotton": 3,
-    "wool": 3,
-    "synth": 1
+  "Polo": {
+   "lp": "\"H\" embroidered buttoned polo shirt",
+   "lu": "https://www.hermes.com/us/en/product/h-embroidered-buttoned-polo-shirt-H072325HA90/",
+   "hp": "\"Big Maillon\" polo shirt",
+   "hu": "https://www.hermes.com/us/en/product/big-maillon-polo-shirt-H657235HA10/",
+   "b": "range"
   },
-  "dials": {
-    "dur": 3,
-    "forg": 3,
-    "fuss": 3,
-    "sail": -1,
-    "shoes": 3,
-    "status": 5,
-    "finbro": 4,
-    "fren": 5,
-    "boat": 5,
-    "racquet": 4,
-    "whitet": 2,
-    "logo": 1,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
+  "Dress shirt": {
+   "lp": "Fitted shirt with Faubourg collar (cotton poplin)",
+   "lu": "https://www.hermes.com/us/en/product/fitted-shirt-with-faubourg-collar-H666600H190/",
+   "hp": "\"Eperon d'Or Jacquard\" straight cut shirt (58% silk, 42% cotton)",
+   "hu": "https://www.hermes.com/us/en/product/eperon-d-or-jacquard-straight-cut-shirt-H656500HF02/",
+   "b": "pair"
   },
-  "why": "Leather goods, silk and clothing made in the company's own workshops, with no licensees.",
-  "origin": "Founded in Paris in 1837 by Thierry Hermès as a harness maker.",
-  "say": "air-MEZ",
-  "chan": ["O"],
-  "conf": "S",
-  "forgc": [4, 3, 3],
-  "shop": "https://www.hermes.com/us/en/search/?s=",
-  "onething": {
-    "p": "The silk tie",
-    "u": "https://www.hermes.com/us/en/search/?s=The%20silk%20tie%20men",
-    "n": "verified ✓"
+  "Dress pants": {
+   "lp": "Saint Germain fitted pants",
+   "lu": "https://www.hermes.com/us/en/product/saint-germain-fitted-pants-H665020HA02/",
+   "hp": "Saint Germain fitted pants",
+   "hu": "https://www.hermes.com/us/en/product/saint-germain-fitted-pants-H665020H181/",
+   "b": "range"
   },
-  "prices": [[520, 1925], [670, 2375], [980, 2225], "?", [900, 2000], [1200, 2700], [2125, 8800], [1100, 1925]],
-  "shoelink": {
-    "t": "loafer",
-    "u": "https://www.hermes.com/us/en/search/?s=loafer"
+  "Sweater": {
+   "lp": "\"Detail H\" crewneck sweater",
+   "lu": "https://www.hermes.com/us/en/product/detail-h-crewneck-sweater-H667210HA01/",
+   "hp": "\"Maillon Chaine d'Ancre\" crewneck cashmere sweater",
+   "hu": "https://www.hermes.com/us/en/product/maillon-chaine-d-ancre-crewneck-cashmere-sweater-H667035HA01/",
+   "b": "pair"
   },
-  "notes": {
-    "craft": "Hermès's 2025 Universal Registration Document reports 79 owned production sites and 55% of output from in-house and exclusive workshops, centred on leather goods, tanneries, silk/textiles and other métiers. It names no owned ready-to-wear site, and men's PDPs mostly say 'Made in Italy' with no maker named. Owned making covers a large part of the house but not demonstrably the clothing, so 4 for a clothing score.",
-    "status": "the terminal status brand — waitlists as architecture",
-    "finbro": "the H belt as bonus-day announcement",
-    "fren": "French luxury's constitutional monarchy",
-    "racquet": "Grass and clay rather than a squash court behind a mahogany door. The register is a lawn in summer, and the house has the equestrian vocabulary to match.",
-    "boat": "Sailing sits inside a house that began with harnesses, so the register arrives through leather and craft rather than through marine function. Cashmere on deck, and someone else at the helm.",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 4; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+  "Outerwear": {
+   "lp": "C.D.S. varsity jacket (cotton)",
+   "lu": "https://www.hermes.com/us/en/product/c.d.s.-varsity-jacket-H667785HA86/",
+   "hp": "Cashmere zipped straight cut jacket with leather details",
+   "hu": "https://www.hermes.com/us/en/product/cashmere-zipped-straight-cut-jacket-with-leather-details-H662060HB02/",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 36,
-    "cities": [
-      ["Aspen", "CO", 1],
-      ["Atlanta", "GA", 1],
-      ["Austin", "TX", 1],
-      ["Aventura", "FL", 1],
-      ["Bellevue", "WA", 1],
-      ["Beverly Hills", "CA", 1],
-      ["Boston", "MA", 1],
-      ["Chicago", "IL", 1],
-      ["Costa Mesa", "CA", 1],
-      ["Dallas", "TX", 1],
-      ["Denver", "CO", 1],
-      ["East Rutherford", "NJ", 1],
-      ["Garden City", "NY", 1],
-      ["Greenwich", "CT", 1],
-      ["Houston", "TX", 1],
-      ["King of Prussia", "PA", 1],
-      ["Las Vegas", "NV", 3],
-      ["Los Angeles", "CA", 1],
-      ["Miami", "FL", 1],
-      ["Naples", "FL", 1],
-      ["Nashville", "TN", 1],
-      ["New York", "NY", 2],
-      ["Orlando", "FL", 1],
-      ["Palm Beach", "FL", 1],
-      ["Palo Alto", "CA", 1],
-      ["Princeton", "NJ", 1],
-      ["San Diego", "CA", 1],
-      ["San Francisco", "CA", 1],
-      ["Scottsdale", "AZ", 1],
-      ["Short Hills", "NJ", 1],
-      ["Troy", "MI", 1],
-      ["Washington", "DC", 1],
-      ["Wilmette", "IL", 1]
-    ],
-    "basis": "master 2026-08-29, pre-recapture"
-  },
-  "cities": "36 stores across the US · its own site; not sold through other retailers",
-  "region": {
-    "o": [1179, 1189, 1191, 1192, 1193, 1197, 1198, 1199, 1200],
-    "s": []
-  },
-  "addmen": true,
-  "addcloth": true,
-  "site": {
-    "domain": "www.hermes.com",
-    "platform": "custom",
-    "feed": "sitemap_products",
-    "feed_count": 4112,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "house",
-    "marks": [
-      "Toilovent - a named Hermes technical fabric, used in composition position: \"Zipped puffer coat in super water-repellent Toilovent (87% polyamide, 13% elastane)\". Found on 4 of 152 men's PDPs read (puffer coat, jacket with foldable hood, reversible hooded vest, reversible overshirt). Also named HOUSE"
-    ],
-    "source": "census_followup",
-    "checked": "2026-09-12"
-  },
-  "garment_links": {
-    "T-shirt": "https://www.hermes.com/us/en/category/men/ready-wear/t-shirts-and-sweatshirts/",
-    "Polo": "https://www.hermes.com/us/en/category/men/ready-wear/t-shirts-and-sweatshirts/",
-    "Dress shirt": "https://www.hermes.com/us/en/category/men/ready-wear/shirts/",
-    "Dress pants": "https://www.hermes.com/us/en/category/men/ready-wear/pants-and-shorts/",
-    "Sweater": "https://www.hermes.com/us/en/category/men/ready-wear/knitwear/",
-    "Outerwear": "https://www.hermes.com/us/en/category/men/ready-wear/coats-and-parkas/",
-    "Shoes": "https://www.hermes.com/us/en/category/men/shoes/"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "\"H\" embroidered T-shirt",
-      "lu": "https://www.hermes.com/us/en/product/h-embroidered-t-shirt-H072025HA90/",
-      "hp": "\"Ex-Libris\" t-shirt (short-sleeve, 100% cotton)",
-      "hu": "https://www.hermes.com/us/en/product/ex-libris-t-shirt-H657780HA60/",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "\"H\" embroidered buttoned polo shirt",
-      "lu": "https://www.hermes.com/us/en/product/h-embroidered-buttoned-polo-shirt-H072325HA90/",
-      "hp": "\"Big Maillon\" polo shirt",
-      "hu": "https://www.hermes.com/us/en/product/big-maillon-polo-shirt-H657235HA10/",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Fitted shirt with Faubourg collar (cotton poplin)",
-      "lu": "https://www.hermes.com/us/en/product/fitted-shirt-with-faubourg-collar-H666600H190/",
-      "hp": "\"Eperon d'Or Jacquard\" straight cut shirt (58% silk, 42% cotton)",
-      "hu": "https://www.hermes.com/us/en/product/eperon-d-or-jacquard-straight-cut-shirt-H656500HF02/",
-      "b": "pair"
-    },
-    "Dress pants": {
-      "lp": "Saint Germain fitted pants",
-      "lu": "https://www.hermes.com/us/en/product/saint-germain-fitted-pants-H665020HA02/",
-      "hp": "Saint Germain fitted pants",
-      "hu": "https://www.hermes.com/us/en/product/saint-germain-fitted-pants-H665020H181/",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "\"Detail H\" crewneck sweater",
-      "lu": "https://www.hermes.com/us/en/product/detail-h-crewneck-sweater-H667210HA01/",
-      "hp": "\"Maillon Chaine d'Ancre\" crewneck cashmere sweater",
-      "hu": "https://www.hermes.com/us/en/product/maillon-chaine-d-ancre-crewneck-cashmere-sweater-H667035HA01/",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "C.D.S. varsity jacket (cotton)",
-      "lu": "https://www.hermes.com/us/en/product/c.d.s.-varsity-jacket-H667785HA86/",
-      "hp": "Cashmere zipped straight cut jacket with leather details",
-      "hu": "https://www.hermes.com/us/en/product/cashmere-zipped-straight-cut-jacket-with-leather-details-H662060HB02/",
-      "b": "range"
-    },
-    "Shoes": {
-      "lp": "Luc loafer (tuscan calfskin)",
-      "lu": "https://www.hermes.com/us/en/product/luc-loafer-H252902ZA01/",
-      "hp": "Icone loafer",
-      "hu": "https://www.hermes.com/us/en/product/icone-loafer-H252948ZA01/",
-      "b": "pair"
-    }
-  },
-  "price_range_only": ["T-shirt", "Polo", "Dress pants", "Outerwear"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.hermes.com/us/en/",
-    "currency": "USD",
-    "status": "partial",
-    "sublines": "-"
-  },
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=4785",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "certs": {
-    "gots": {
-      "e": "Holding Textile Hermès (France)",
-      "n": "the group's textile arm"
-    }
-  },
-  "season": {
-    "l": "Men's winter 2026 (Fall-Winter 2026)",
-    "t": "runway",
-    "u": "https://www.hermes.com/us/en/content/344007-men-fall-winter-2026-runway-show/",
-    "m": "yes"
-  },
-  "craft_evidence": {
-    "owned": "yes",
-    "owned_d": "Group (Hermès International, brand = group) says it operates '79 fully owned production and training sites, including 63 in France', and '55% manufactured in its in-house and exclusive workshops' (2025 URD, pp.18, 26). Owned métiers listed: leather goods and saddlery, tanneries, silk/textiles, shoes, crystal, porcelain, jewellery, perfume, watches. The URD text read does not identify any site for ready-to-wear or menswear, and does not say RTW is made in-house; leather goods also use 'a network of long-standing French partners'.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "every product",
-    "countries": "Italy 3/5, France 2/5 (sample of 5 men's PDPs on hermes.com: overshirt H662210HD87 Italy, C.D.S. crewneck sweater H657770HA90 Italy, Malte pants H665840H801 Italy, straight-cut jeans H665400H802 France, rib-trim jacket H652330HE02 France).",
-    "heritage": "dated and placed",
-    "repair": "yes",
-    "process": "no",
-    "urls": [
-      "https://assets-finance.hermes.com/s3fs-public/node/pdf_file/2026-04/1777391712/260320_hermes_urd2025_en.pdf",
-      "https://www.hermes.com/us/en/product/overshirt-H662210HD87/"
-    ],
-    "conf": "medium",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Luc loafer (tuscan calfskin)",
+   "lu": "https://www.hermes.com/us/en/product/luc-loafer-H252902ZA01/",
+   "hp": "Icone loafer",
+   "hu": "https://www.hermes.com/us/en/product/icone-loafer-H252948ZA01/",
+   "b": "pair"
   }
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress pants",
+  "Outerwear"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.hermes.com/us/en/",
+  "currency": "USD",
+  "status": "partial",
+  "sublines": "-"
+ },
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=4785",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "certs": {
+  "gots": {
+   "e": "Holding Textile Hermès (France)",
+   "n": "the group's textile arm"
+  }
+ },
+ "season": {
+  "l": "Men's winter 2026 (Fall-Winter 2026)",
+  "t": "runway",
+  "u": "https://www.hermes.com/us/en/content/344007-men-fall-winter-2026-runway-show/",
+  "m": "yes"
+ },
+ "craft_evidence": {
+  "owned": "yes",
+  "owned_d": "Group (Hermès International, brand = group) says it operates '79 fully owned production and training sites, including 63 in France', and '55% manufactured in its in-house and exclusive workshops' (2025 URD, pp.18, 26). Owned métiers listed: leather goods and saddlery, tanneries, silk/textiles, shoes, crystal, porcelain, jewellery, perfume, watches. The URD text read does not identify any site for ready-to-wear or menswear, and does not say RTW is made in-house; leather goods also use 'a network of long-standing French partners'.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "every product",
+  "countries": "Italy 3/5, France 2/5 (sample of 5 men's PDPs on hermes.com: overshirt H662210HD87 Italy, C.D.S. crewneck sweater H657770HA90 Italy, Malte pants H665840H801 Italy, straight-cut jeans H665400H802 France, rib-trim jacket H652330HE02 France).",
+  "heritage": "dated and placed",
+  "repair": "yes",
+  "process": "no",
+  "urls": [
+   "https://assets-finance.hermes.com/s3fs-public/node/pdf_file/2026-04/1777391712/260320_hermes_urd2025_en.pdf",
+   "https://www.hermes.com/us/en/product/overshirt-H662210HD87/"
+  ],
+  "conf": "medium",
+  "read": "2026-10-03"
+ }
 }

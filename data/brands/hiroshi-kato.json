@@ -1,181 +1,236 @@
 {
-  "name": "Hiroshi Kato",
-  "band": "premium",
-  "seat": 41,
-  "dagger": 1,
-  "focus": {
-    "tech": 3,
-    "comfort": 4,
-    "craft": 2,
-    "style": 3
+ "name": "Hiroshi Kato",
+ "band": "premium",
+ "seat": 41,
+ "dagger": 1,
+ "focus": {
+  "tech": 3,
+  "comfort": 4,
+  "craft": 2,
+  "style": 3
+ },
+ "fabric": {
+  "denim": 5,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 1,
+  "wool": 1,
+  "synth": 2
+ },
+ "dials": {
+  "dur": 4,
+  "forg": 3,
+  "fuss": -2,
+  "status": 2,
+  "murica": 2,
+  "whitet": 2,
+  "logo": 1,
+  "western": 3,
+  "rock": 2,
+  "workwear": 3,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Jeans in stretch selvedge denim woven on vintage shuttle looms, cut in Los Angeles.",
+ "origin": "Started in Tokyo in 1999 by the designer Hiroshi Kato; relaunched in Los Angeles.",
+ "say": "hee-ROH-shee KAH-toh",
+ "chan": [
+  "W",
+  "I"
+ ],
+ "conf": "S",
+ "forgc": [
+  3,
+  3,
+  1
+ ],
+ "onething": {
+  "p": "The Pen slim selvedge",
+  "u": "https://kato-brand.com/collections/pen-slim",
+  "n": "real domain is kato-brand.com with hyphen — collection page for the Pen"
+ },
+ "prices": [
+  [
+   98,
+   108
+  ],
+  null,
+  [
+   228,
+   298
+  ],
+  [
+   228,
+   368
+  ],
+  [
+   238,
+   258
+  ],
+  null,
+  [
+   358,
+   458
+  ],
+  null
+ ],
+ "notes": {
+  "denim": "four-way stretch selvedge woven on vintage shuttle looms — stretch denim made the traditional way",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 1; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "Kato states all garments are cut, sewn, washed and finished in the USA and the jeans PDP says 'Made In: USA' with Japanese selvedge, but no factory, contractor or mill is named and nothing is owned. That is country-of-make with a little process detail."
+ },
+ "doors": {
+  "c": "full",
+  "n": 0,
+  "cities": [],
+  "basis": "master 2026-08-29, pre-recapture"
+ },
+ "cities": "No store of its own in the US · independent menswear shops, and its own site",
+ "region": {
+  "o": [],
+  "s": [
+   7,
+   44,
+   52,
+   57,
+   60,
+   78,
+   85,
+   86,
+   121,
+   127
+  ]
+ },
+ "site": {
+  "domain": "kato-brand.com",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 175,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "house",
+  "marks": [
+   "DENIT(R)",
+   "4-WAY STRETCH SELVEDGE(R)"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 138,
+  "w": 131,
+  "n": 95,
+  "s": 0,
+  "c": 0,
+  "x": 60,
+  "xh": 10,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "Jeans",
+   "Shirts",
+   "Pants"
+  ],
+  "st": "complete"
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants",
+  "Outerwear"
+ ],
+ "garment_links": {
+  "T-shirt": "https://kato-brand.com/collections/t-shirts",
+  "Dress shirt": "https://kato-brand.com/collections/shirts",
+  "Jeans": "https://kato-brand.com/collections/jeans",
+  "Dress pants": "https://kato-brand.com/collections/work-pants",
+  "Outerwear": "https://kato-brand.com/collections/jackets"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "The Stamp Double Knit - Black",
+   "lu": "https://kato-brand.com/products/0020512bk",
+   "hp": "The Stamp 9oz Organic Cotton - River Stone",
+   "hu": "https://kato-brand.com/products/tee-shirt-river-stone-0020641rs",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 5,
-    "cashmere": 1,
-    "linen": 1,
-    "cotton": 1,
-    "wool": 1,
-    "synth": 2
+  "Dress shirt": {
+   "lp": "The Ripper Double Gauze Organic Cotton Shirt - Navy",
+   "lu": "https://kato-brand.com/products/0014u179nv",
+   "hp": "The Brace Shadow Ombre Plaid - Lake",
+   "hu": "https://kato-brand.com/products/work-shirt-lake-0018671",
+   "b": "range"
   },
-  "dials": {
-    "dur": 4,
-    "forg": 3,
-    "fuss": -2,
-    "status": 2,
-    "murica": 2,
-    "whitet": 2,
-    "logo": 1,
-    "western": 3,
-    "rock": 2,
-    "workwear": 3,
-    "outdoor": 1,
-    "surf": 1
+  "Jeans": {
+   "lp": "The Pen Slim - Indigo Raw 10.5oz Selvedge",
+   "lu": "https://kato-brand.com/products/301019805",
+   "hp": "The Barrel Classic Straight Monster Slub Indigo - Tina 17oz Selvedge",
+   "hu": "https://kato-brand.com/products/classic-straight-jeans-monster-slub-tina-3021v67302",
+   "b": "range"
   },
-  "why": "Jeans in stretch selvedge denim woven on vintage shuttle looms, cut in Los Angeles.",
-  "origin": "Started in Tokyo in 1999 by the designer Hiroshi Kato; relaunched in Los Angeles.",
-  "say": "hee-ROH-shee KAH-toh",
-  "chan": ["W", "I"],
-  "conf": "S",
-  "forgc": [3, 3, 1],
-  "onething": {
-    "p": "The Pen slim selvedge",
-    "u": "https://kato-brand.com/collections/pen-slim",
-    "n": "real domain is kato-brand.com with hyphen — collection page for the Pen"
+  "Dress pants": {
+   "lp": "The Axe Slim Denit® Chino - Khaki",
+   "lu": "https://kato-brand.com/products/3005316kh",
+   "hp": "The Pipe Straight Oxford Chino - Navy",
+   "hu": "https://kato-brand.com/products/straight-oxford-chino-navy-3019517nv",
+   "b": "range"
   },
-  "prices": [[98, 108], null, [228, 298], [228, 368], [238, 258], null, [358, 458], null],
-  "notes": {
-    "denim": "four-way stretch selvedge woven on vintage shuttle looms — stretch denim made the traditional way",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 1; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Kato states all garments are cut, sewn, washed and finished in the USA and the jeans PDP says 'Made In: USA' with Japanese selvedge, but no factory, contractor or mill is named and nothing is owned. That is country-of-make with a little process detail."
-  },
-  "doors": {
-    "c": "full",
-    "n": 0,
-    "cities": [],
-    "basis": "master 2026-08-29, pre-recapture"
-  },
-  "cities": "No store of its own in the US · independent menswear shops, and its own site",
-  "region": {
-    "o": [],
-    "s": [7, 44, 52, 57, 60, 78, 85, 86, 121, 127]
-  },
-  "site": {
-    "domain": "kato-brand.com",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 175,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "house",
-    "marks": ["DENIT(R)", "4-WAY STRETCH SELVEDGE(R)"],
-    "source": "census",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 138,
-    "w": 131,
-    "n": 95,
-    "s": 0,
-    "c": 0,
-    "x": 60,
-    "xh": 10,
-    "sp": "one",
-    "sc": [],
-    "nc": ["Jeans", "Shirts", "Pants"],
-    "st": "complete"
-  },
-  "price_range_only": ["T-shirt", "Dress shirt", "Jeans", "Dress pants", "Outerwear"],
-  "garment_links": {
-    "T-shirt": "https://kato-brand.com/collections/t-shirts",
-    "Dress shirt": "https://kato-brand.com/collections/shirts",
-    "Jeans": "https://kato-brand.com/collections/jeans",
-    "Dress pants": "https://kato-brand.com/collections/work-pants",
-    "Outerwear": "https://kato-brand.com/collections/jackets"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "The Stamp Double Knit - Black",
-      "lu": "https://kato-brand.com/products/0020512bk",
-      "hp": "The Stamp 9oz Organic Cotton - River Stone",
-      "hu": "https://kato-brand.com/products/tee-shirt-river-stone-0020641rs",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "The Ripper Double Gauze Organic Cotton Shirt - Navy",
-      "lu": "https://kato-brand.com/products/0014u179nv",
-      "hp": "The Brace Shadow Ombre Plaid - Lake",
-      "hu": "https://kato-brand.com/products/work-shirt-lake-0018671",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "The Pen Slim - Indigo Raw 10.5oz Selvedge",
-      "lu": "https://kato-brand.com/products/301019805",
-      "hp": "The Barrel Classic Straight Monster Slub Indigo - Tina 17oz Selvedge",
-      "hu": "https://kato-brand.com/products/classic-straight-jeans-monster-slub-tina-3021v67302",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "The Axe Slim Denit® Chino - Khaki",
-      "lu": "https://kato-brand.com/products/3005316kh",
-      "hp": "The Pipe Straight Oxford Chino - Navy",
-      "hu": "https://kato-brand.com/products/straight-oxford-chino-navy-3019517nv",
-      "b": "range"
-    },
-    "Outerwear": {
-      "lp": "The Blade - Indigo Raw 14oz Selvedge",
-      "lu": "https://kato-brand.com/products/501222405",
-      "hp": "The Propeller Moleskin - Blacktop",
-      "hu": "https://kato-brand.com/products/flight-jacket-moleskin-blacktop-5017674bp",
-      "b": "range"
-    }
-  },
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://kato-brand.com/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "shop": "https://kato-brand.com/search?q=",
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?search_text=Hiroshi%20Kato&catalog[]=5",
-      "m": "text search",
-      "n": "No Vinted brand entry; keyword search in Men"
-    }
-  },
-  "season": {
-    "l": "Fall & Winter 2026 (FW26)",
-    "t": "lookbook",
-    "u": "https://kato-brand.com/pages/fw26-lookbook",
-    "m": "yes"
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "About-us: 'Every KATO garment is made in the USA, from cutting and sewing to washing and finishing' with 'skilled makers'; no owned factory, name or address given.",
-    "makers": "some",
-    "mills": "no",
-    "madein": "every product",
-    "countries": "USA. Basis: about-us claim for every garment; verified 'Made In: USA' on 1 jeans PDP (Hammer Straight Teacore) and Spokane, WA on boot description. Other PDPs not reached (kato-brand.com rate-limited 429). products.json descriptions (~10: jeans, shirt jacket, trucker jackets, work shirt) carry no origin text - it sits in a separate PDP field.",
-    "heritage": "vague",
-    "repair": "no",
-    "process": "some",
-    "urls": [
-      "https://kato-brand.com/pages/about-us",
-      "https://www.kato-brand.com/products/straight-jeans-teacore-raw-3011b69205"
-    ],
-    "conf": "medium",
-    "read": "2026-10-03"
+  "Outerwear": {
+   "lp": "The Blade - Indigo Raw 14oz Selvedge",
+   "lu": "https://kato-brand.com/products/501222405",
+   "hp": "The Propeller Moleskin - Blacktop",
+   "hu": "https://kato-brand.com/products/flight-jacket-moleskin-blacktop-5017674bp",
+   "b": "range"
   }
+ },
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://kato-brand.com/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "shop": "https://kato-brand.com/search?q=",
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?search_text=Hiroshi%20Kato&catalog[]=5",
+   "m": "text search",
+   "n": "No Vinted brand entry; keyword search in Men"
+  }
+ },
+ "season": {
+  "l": "Fall & Winter 2026 (FW26)",
+  "t": "lookbook",
+  "u": "https://kato-brand.com/pages/fw26-lookbook",
+  "m": "yes"
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "About-us: 'Every KATO garment is made in the USA, from cutting and sewing to washing and finishing' with 'skilled makers'; no owned factory, name or address given.",
+  "makers": "some",
+  "mills": "no",
+  "madein": "every product",
+  "countries": "USA. Basis: about-us claim for every garment; verified 'Made In: USA' on 1 jeans PDP (Hammer Straight Teacore) and Spokane, WA on boot description. Other PDPs not reached (kato-brand.com rate-limited 429). products.json descriptions (~10: jeans, shirt jacket, trucker jackets, work shirt) carry no origin text - it sits in a separate PDP field.",
+  "heritage": "vague",
+  "repair": "no",
+  "process": "some",
+  "urls": [
+   "https://kato-brand.com/pages/about-us",
+   "https://www.kato-brand.com/products/straight-jeans-teacore-raw-3011b69205"
+  ],
+  "conf": "medium",
+  "read": "2026-10-03"
+ }
 }

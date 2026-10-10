@@ -1,229 +1,312 @@
 {
-  "name": "Eleventy",
-  "band": "accessible",
-  "seat": 95,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 3,
-    "craft": 2,
-    "style": 3
-  },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 4,
-    "linen": 3,
-    "cotton": 2,
-    "wool": 3,
-    "synth": 1
-  },
-  "dials": {
-    "dur": 3,
-    "forg": 3,
-    "fuss": 3,
-    "golffice": -2,
-    "ital": 5,
-    "boat": 3,
-    "racquet": 3,
-    "whitet": 2,
-    "logo": 2,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 2
-  },
-  "why": "Italian casual clothing and tailoring with a lot of cashmere, sold through around 300 stores worldwide.",
-  "origin": "Founded in Milan in 2007 by Marco Baldassari.",
-  "chan": ["D", "I", "O"],
-  "conf": "L",
-  "forgc": [3, 2, 3],
-  "shop": "https://www.eleventymilano.com/en-us/search?q=",
-  "onething": {
-    "p": "Knit blazer",
-    "u": "https://www.eleventymilano.com/en-us/search?q=Knit%20blazer%20men",
-    "n": "verified ✓"
-  },
-  "prices": [
-    [395, 1095],
-    [495, 895],
-    [495, 1295],
-    [595, 895],
-    [595, 745],
-    [595, 1795],
-    [1195, 3295],
-    [795, 1295]
+ "name": "Eleventy",
+ "band": "accessible",
+ "seat": 95,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 3,
+  "craft": 2,
+  "style": 3
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 4,
+  "linen": 3,
+  "cotton": 2,
+  "wool": 3,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 3,
+  "fuss": 3,
+  "golffice": -2,
+  "ital": 5,
+  "boat": 3,
+  "racquet": 3,
+  "whitet": 2,
+  "logo": 2,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 2
+ },
+ "why": "Italian casual clothing and tailoring with a lot of cashmere, sold through around 300 stores worldwide.",
+ "origin": "Founded in Milan in 2007 by Marco Baldassari.",
+ "chan": [
+  "D",
+  "I",
+  "O"
+ ],
+ "conf": "L",
+ "forgc": [
+  3,
+  2,
+  3
+ ],
+ "shop": "https://www.eleventymilano.com/en-us/search?q=",
+ "onething": {
+  "p": "Knit blazer",
+  "u": "https://www.eleventymilano.com/en-us/search?q=Knit%20blazer%20men",
+  "n": "verified ✓"
+ },
+ "prices": [
+  [
+   395,
+   1095
   ],
-  "notes": {
-    "cashmere": "cashmere-heavy Milanese contemporary",
-    "ital": "Milan, and the entire proposition is Italian tailoring loosened until it can be worn without an occasion. Drawstrings on trousers that would otherwise be suit trousers.",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 2; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Eleventy's product pages say Made in Italy on every item sampled and one jacket names its Zegna cloth, but no page names a factory, workshop or mill beyond that, and the site has no about or production page. The founder told La Conceria it was only considering buying suppliers. Country of make plus one mill: a 2, perhaps a weak 3."
+  [
+   495,
+   895
+  ],
+  [
+   495,
+   1295
+  ],
+  [
+   595,
+   895
+  ],
+  [
+   595,
+   745
+  ],
+  [
+   595,
+   1795
+  ],
+  [
+   1195,
+   3295
+  ],
+  [
+   795,
+   1295
+  ]
+ ],
+ "notes": {
+  "cashmere": "cashmere-heavy Milanese contemporary",
+  "ital": "Milan, and the entire proposition is Italian tailoring loosened until it can be worn without an occasion. Drawstrings on trousers that would otherwise be suit trousers.",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 2; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "Eleventy's product pages say Made in Italy on every item sampled and one jacket names its Zegna cloth, but no page names a factory, workshop or mill beyond that, and the site has no about or production page. The founder told La Conceria it was only considering buying suppliers. Country of make plus one mill: a 2, perhaps a weak 3."
+ },
+ "doors": {
+  "c": "full",
+  "n": 8,
+  "cities": [
+   [
+    "Beverly Hills",
+    "CA",
+    1
+   ],
+   [
+    "Costa Mesa",
+    "CA",
+    1
+   ],
+   [
+    "Greenwich",
+    "CT",
+    1
+   ],
+   [
+    "Las Vegas",
+    "NV",
+    1
+   ],
+   [
+    "Miami",
+    "FL",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    1
+   ],
+   [
+    "Palm Beach",
+    "FL",
+    1
+   ],
+   [
+    "Southampton",
+    "NY",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 1,
+  "con": 0
+ },
+ "cities": "8 stores, including Bal Harbour, Beverly Hills, Costa Mesa · department stores and independent menswear shops, and its own site",
+ "region": {
+  "o": [
+   1142,
+   1145,
+   1147
+  ],
+  "s": [
+   27,
+   136
+  ]
+ },
+ "addmen": true,
+ "site": {
+  "domain": "eleventymilano.com",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 1045,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "licensed",
+  "marks": [
+   "LICENSED: Rain System(R) (Loro Piana",
+   "also spelt 'Rain Stystem' on one product)",
+   "Zelander(R) dream by Loro Piana",
+   "Loro Piana (mill credit, 19 products)",
+   "Zegna fabric (43)",
+   "Alcantara (44)",
+   "TENCEL (13)",
+   "Lycra. No house fabric or treatment name found"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 321,
+  "w": 36,
+  "n": 10,
+  "s": 1,
+  "c": 0,
+  "x": null,
+  "xh": null,
+  "sp": "one",
+  "sc": [
+   "swim & underwear"
+  ],
+  "nc": [
+   "shirts",
+   "knitwear",
+   "jackets & coats"
+  ],
+  "st": "partial"
+ },
+ "garment_links": {
+  "T-shirt": "https://www.eleventymilano.com/en-us/collections/mens-t-shirt-polo",
+  "Polo": "https://www.eleventymilano.com/en-us/collections/mens-t-shirt-polo",
+  "Dress shirt": "https://www.eleventymilano.com/en-us/collections/mens-shirts",
+  "Jeans": "https://www.eleventymilano.com/en-us/collections/denim-man",
+  "Dress pants": "https://www.eleventymilano.com/en-us/collections/mens-trousers",
+  "Sweater": "https://www.eleventymilano.com/en-us/collections/mens-knitwear",
+  "Outerwear": "https://www.eleventymilano.com/en-us/collections/mans-outerwear",
+  "Shoes": "https://www.eleventymilano.com/en-us/collections/mens-footwear"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Cotton Crew Neck T-Shirt",
+   "lu": "https://www.eleventymilano.com/en-us/products/t-shirt-girocollo-cotone-3",
+   "hp": "Men's Giza Cotton Knitted T-Shirt with Sailor Collar",
+   "hu": "https://www.eleventymilano.com/en-us/products/t-shirt-in-maglia-cotone-giza",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 8,
-    "cities": [
-      ["Bal Harbour", "FL", 1],
-      ["Beverly Hills", "CA", 1],
-      ["Costa Mesa", "CA", 1],
-      ["Greenwich", "CT", 1],
-      ["Las Vegas", "NV", 1],
-      ["New York", "NY", 1],
-      ["Palm Beach", "FL", 1],
-      ["Southampton", "NY", 1]
-    ],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Polo": {
+   "lp": "Linen Polo Shirt",
+   "lu": "https://www.eleventymilano.com/en-us/products/polo-lino-2",
+   "hp": "Men's Linen and Cashmere Knitted Polo Shirt",
+   "hu": "https://www.eleventymilano.com/en-us/products/polo-in-maglia-lino-2",
+   "b": "range"
   },
-  "cities": "8 stores, including Bal Harbour, Beverly Hills, Costa Mesa · department stores and independent menswear shops, and its own site",
-  "region": {
-    "o": [831, 835, 836],
-    "s": [27, 136]
+  "Dress shirt": {
+   "lp": "Stretch Cotton Shirt",
+   "lu": "https://www.eleventymilano.com/en-us/products/camicia-cotone-stretch",
+   "hp": "Silk Cashmere Shirt",
+   "hu": "https://www.eleventymilano.com/en-us/products/camicia-seta-cashmere",
+   "b": "pair"
   },
-  "addmen": true,
-  "site": {
-    "domain": "eleventymilano.com",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 1045,
-    "status": "live_store",
-    "checked": "2026-09-13"
+  "Jeans": {
+   "lp": "Stretch Cotton Denim",
+   "lu": "https://www.eleventymilano.com/en-us/products/denim-cotone-stretch",
+   "hp": "Cotton Silk Denim",
+   "hu": "https://www.eleventymilano.com/en-us/products/denim-cotone-seta",
+   "b": "pair"
   },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "licensed",
-    "marks": [
-      "LICENSED: Rain System(R) (Loro Piana",
-      "also spelt 'Rain Stystem' on one product)",
-      "Zelander(R) dream by Loro Piana",
-      "Loro Piana (mill credit, 19 products)",
-      "Zegna fabric (43)",
-      "Alcantara (44)",
-      "TENCEL (13)",
-      "Lycra. No house fabric or treatment name found"
-    ],
-    "source": "census",
-    "checked": "2026-09-12"
+  "Dress pants": {
+   "lp": "Wool Trousers",
+   "lu": "https://www.eleventymilano.com/en-us/products/pantalone-lana-2",
+   "hp": "Wool Cashmere Trousers (pleated)",
+   "hu": "https://www.eleventymilano.com/en-us/products/pantalone-lana-cashmere-1",
+   "b": "range"
   },
-  "fibre": {
-    "t": 321,
-    "w": 36,
-    "n": 10,
-    "s": 1,
-    "c": 0,
-    "x": null,
-    "xh": null,
-    "sp": "one",
-    "sc": ["swim & underwear"],
-    "nc": ["shirts", "knitwear", "jackets & coats"],
-    "st": "partial"
+  "Sweater": {
+   "lp": "Wool Crew Neck Sweater",
+   "lu": "https://www.eleventymilano.com/en-us/products/maglia-girocollo-lana-12",
+   "hp": "Mouline Cashmere Crew Neck Sweater",
+   "hu": "https://www.eleventymilano.com/en-us/products/maglia-girocollo-cashmere-mouline",
+   "b": "pair"
   },
-  "garment_links": {
-    "T-shirt": "https://www.eleventymilano.com/en-us/collections/mens-t-shirt-polo",
-    "Polo": "https://www.eleventymilano.com/en-us/collections/mens-t-shirt-polo",
-    "Dress shirt": "https://www.eleventymilano.com/en-us/collections/mens-shirts",
-    "Jeans": "https://www.eleventymilano.com/en-us/collections/denim-man",
-    "Dress pants": "https://www.eleventymilano.com/en-us/collections/mens-trousers",
-    "Sweater": "https://www.eleventymilano.com/en-us/collections/mens-knitwear",
-    "Outerwear": "https://www.eleventymilano.com/en-us/collections/mans-outerwear",
-    "Shoes": "https://www.eleventymilano.com/en-us/collections/mens-footwear"
+  "Outerwear": {
+   "lp": "Giza Cotton Full-Zip Bomber Jacket with Ribbed Cuffs",
+   "lu": "https://www.eleventymilano.com/en-us/products/bomber-giza-cotton",
+   "hp": "14-Micron Wool and Nappa Bomber Jacket",
+   "hu": "https://www.eleventymilano.com/en-us/products/bomber-lana-14-micron-e-nappa",
+   "b": "pair"
   },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Cotton Crew Neck T-Shirt",
-      "lu": "https://www.eleventymilano.com/en-us/products/t-shirt-girocollo-cotone-3",
-      "hp": "Men's Giza Cotton Knitted T-Shirt with Sailor Collar",
-      "hu": "https://www.eleventymilano.com/en-us/products/t-shirt-in-maglia-cotone-giza",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Linen Polo Shirt",
-      "lu": "https://www.eleventymilano.com/en-us/products/polo-lino-2",
-      "hp": "Men's Linen and Cashmere Knitted Polo Shirt",
-      "hu": "https://www.eleventymilano.com/en-us/products/polo-in-maglia-lino-2",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Stretch Cotton Shirt",
-      "lu": "https://www.eleventymilano.com/en-us/products/camicia-cotone-stretch",
-      "hp": "Silk Cashmere Shirt",
-      "hu": "https://www.eleventymilano.com/en-us/products/camicia-seta-cashmere",
-      "b": "pair"
-    },
-    "Jeans": {
-      "lp": "Stretch Cotton Denim",
-      "lu": "https://www.eleventymilano.com/en-us/products/denim-cotone-stretch",
-      "hp": "Cotton Silk Denim",
-      "hu": "https://www.eleventymilano.com/en-us/products/denim-cotone-seta",
-      "b": "pair"
-    },
-    "Dress pants": {
-      "lp": "Wool Trousers",
-      "lu": "https://www.eleventymilano.com/en-us/products/pantalone-lana-2",
-      "hp": "Wool Cashmere Trousers (pleated)",
-      "hu": "https://www.eleventymilano.com/en-us/products/pantalone-lana-cashmere-1",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Wool Crew Neck Sweater",
-      "lu": "https://www.eleventymilano.com/en-us/products/maglia-girocollo-lana-12",
-      "hp": "Mouline Cashmere Crew Neck Sweater",
-      "hu": "https://www.eleventymilano.com/en-us/products/maglia-girocollo-cashmere-mouline",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "Giza Cotton Full-Zip Bomber Jacket with Ribbed Cuffs",
-      "lu": "https://www.eleventymilano.com/en-us/products/bomber-giza-cotton",
-      "hp": "14-Micron Wool and Nappa Bomber Jacket",
-      "hu": "https://www.eleventymilano.com/en-us/products/bomber-lana-14-micron-e-nappa",
-      "b": "pair"
-    },
-    "Shoes": {
-      "lp": "Navy Suede Moccasins with Hand-Threaded Detail",
-      "lu": "https://www.eleventymilano.com/en-us/products/mocassino-suede-2",
-      "hp": "Hand-Dyed Calfskin Leather Moccasin Shoes",
-      "hu": "https://www.eleventymilano.com/en-us/products/scarpa-pelle-vitello-1",
-      "b": "pair"
-    }
-  },
-  "price_range_only": ["T-shirt", "Polo", "Dress pants"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.eleventymilano.com/en-us",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=379507",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "No owned factory named anywhere on eleventymilano.com (no about/company page with production content; chi-siamo URL redirects to home). Press (La Conceria, 'Eleventy: se il problema è produrre, non ci resta che acquisire') quotes founder Marco Baldassari saying production is the priority and that Eleventy was evaluating acquiring three existing suppliers; no completed acquisition found in search.",
-    "makers": "no",
-    "mills": "some",
-    "madein": "every product",
-    "countries": "Italy 8/8 (sample of 8 PDPs: knits, shirt, jackets, trousers incl. denim; product data carries tag 'MADE IN:IT - Italia' on each, page shows 'Made in Italy')",
-    "heritage": "vague",
-    "repair": "no",
-    "process": "some",
-    "urls": [
-      "https://www.eleventymilano.com/products/giacca-monopetto-lana-seta-cashmere-6",
-      "https://www.laconceria.it/lusso/eleventy-se-il-problema-e-produrre-non-ci-resta-che-acquisire/"
-    ],
-    "conf": "medium",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Navy Suede Moccasins with Hand-Threaded Detail",
+   "lu": "https://www.eleventymilano.com/en-us/products/mocassino-suede-2",
+   "hp": "Hand-Dyed Calfskin Leather Moccasin Shoes",
+   "hu": "https://www.eleventymilano.com/en-us/products/scarpa-pelle-vitello-1",
+   "b": "pair"
   }
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress pants"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.eleventymilano.com/en-us",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=379507",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "No owned factory named anywhere on eleventymilano.com (no about/company page with production content; chi-siamo URL redirects to home). Press (La Conceria, 'Eleventy: se il problema è produrre, non ci resta che acquisire') quotes founder Marco Baldassari saying production is the priority and that Eleventy was evaluating acquiring three existing suppliers; no completed acquisition found in search.",
+  "makers": "no",
+  "mills": "some",
+  "madein": "every product",
+  "countries": "Italy 8/8 (sample of 8 PDPs: knits, shirt, jackets, trousers incl. denim; product data carries tag 'MADE IN:IT - Italia' on each, page shows 'Made in Italy')",
+  "heritage": "vague",
+  "repair": "no",
+  "process": "some",
+  "urls": [
+   "https://www.eleventymilano.com/products/giacca-monopetto-lana-seta-cashmere-6",
+   "https://www.laconceria.it/lusso/eleventy-se-il-problema-e-produrre-non-ci-resta-che-acquisire/"
+  ],
+  "conf": "medium",
+  "read": "2026-10-03"
+ }
 }

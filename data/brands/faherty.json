@@ -125,7 +125,7 @@
  },
  "doors": {
   "c": "full",
-  "n": 91,
+  "n": 92,
   "cities": [
    [
     "Alpharetta",
@@ -253,7 +253,7 @@
     1
    ],
    [
-    "Fort Worth",
+    "Forth Worth",
     "TX",
     1
    ],
@@ -388,6 +388,11 @@
     1
    ],
    [
+    "Palm Desert",
+    "CA",
+    1
+   ],
+   [
     "Palm Springs",
     "CA",
     1
@@ -473,7 +478,7 @@
     1
    ],
    [
-    "Spring Lake",
+    "Spring lake",
     "NJ",
     1
    ],
@@ -510,7 +515,12 @@
    [
     "Washington",
     "DC",
-    2
+    1
+   ],
+   [
+    "Washington, DC",
+    "DC",
+    1
    ],
    [
     "Wellesley",
@@ -528,41 +538,43 @@
     1
    ]
   ],
-  "basis": "master 2026-08-29, pre-recapture"
+  "basis": "recapture 2026-10-10",
+  "out": 0,
+  "con": 0
  },
- "cities": "91 stores across the US · department stores and independent menswear shops, and its own site",
+ "cities": "92 stores across the US · department stores and independent menswear shops, and its own site",
  "region": {
   "o": [
-   882,
-   883,
-   884,
-   902,
-   903,
-   904,
-   905,
-   906,
-   907,
-   908,
-   909,
-   915,
-   916,
-   917,
-   918,
-   919,
-   920,
-   921,
-   922,
-   923,
-   924,
-   925,
-   926,
-   927,
-   928,
-   929,
-   932,
-   933,
-   934,
-   935
+   1168,
+   1170,
+   1171,
+   1174,
+   1178,
+   1181,
+   1183,
+   1185,
+   1196,
+   1197,
+   1205,
+   1208,
+   1212,
+   1215,
+   1216,
+   1217,
+   1218,
+   1226,
+   1227,
+   1234,
+   1240,
+   1244,
+   1247,
+   1250,
+   1251,
+   1252,
+   1253,
+   1254,
+   1256,
+   1257
   ],
   "s": [
    6,

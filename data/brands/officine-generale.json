@@ -1,207 +1,279 @@
 {
-  "name": "Officine Générale",
-  "band": "accessible",
-  "seat": 118,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 3,
-    "craft": 2,
-    "style": 5
-  },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 2,
-    "linen": 3,
-    "cotton": 2,
-    "wool": 3,
-    "synth": 1
-  },
-  "dials": {
-    "dur": 2,
-    "forg": 3,
-    "fuss": 1,
-    "golffice": -2,
-    "fren": 5,
-    "whitet": 2,
-    "logo": 1,
-    "western": 1,
-    "rock": 1,
-    "workwear": 2,
-    "outdoor": 1,
-    "surf": 1
-  },
-  "why": "Parisian casual clothing and tailoring at fair prices, with the fabric mills named.",
-  "origin": "Founded in Paris in 2012 by Pierre Mahéo.",
-  "say": "oh-fee-SEEN zhay-nay-RAHL",
-  "chan": ["O", "D", "I"],
-  "conf": "L",
-  "forgc": [4, 3, 1],
-  "shop": "https://us.officinegenerale.com/search?q=",
-  "onething": {
-    "p": "Drew pleated trouser",
-    "u": "https://www.officinegenerale.com/search?q=Drew%20pleated%20trouser%20men",
-    "n": "verified ✓"
-  },
-  "prices": [
-    [80, 245, "USD_landed"],
-    [165, 165, "USD_landed"],
-    [170, 450, "USD_landed"],
-    [315, 450, "USD_landed"],
-    [475, 875, "USD_landed"],
-    [320, 595, "USD_landed"],
-    [530, 1990, "USD_landed"],
-    null
+ "name": "Officine Générale",
+ "band": "accessible",
+ "seat": 118,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 3,
+  "craft": 2,
+  "style": 5
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 2,
+  "linen": 3,
+  "cotton": 2,
+  "wool": 3,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 2,
+  "forg": 3,
+  "fuss": 1,
+  "golffice": -2,
+  "fren": 5,
+  "whitet": 2,
+  "logo": 1,
+  "western": 1,
+  "rock": 1,
+  "workwear": 2,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Parisian casual clothing and tailoring at fair prices, with the fabric mills named.",
+ "origin": "Founded in Paris in 2012 by Pierre Mahéo.",
+ "say": "oh-fee-SEEN zhay-nay-RAHL",
+ "chan": [
+  "O",
+  "D",
+  "I"
+ ],
+ "conf": "L",
+ "forgc": [
+  4,
+  3,
+  1
+ ],
+ "shop": "https://us.officinegenerale.com/search?q=",
+ "onething": {
+  "p": "Drew pleated trouser",
+  "u": "https://www.officinegenerale.com/search?q=Drew%20pleated%20trouser%20men",
+  "n": "verified ✓"
+ },
+ "prices": [
+  [
+   80,
+   245,
+   "USD_landed"
   ],
-  "notes": {
-    "fren": "the honest Parisian wardrobe — Frenchness with receipts",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 2; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "style": "Pierre Mahéo's precise Parisian cut and palette define the range.",
-    "craft": "Product pages state a country of make (mostly Portugal; China for a merino knit, Spain for leather) and the fabric's country of origin, but name no factory and no mill. The site has no owned-making or supplier page; its fabric pages are placeholders."
+  [
+   165,
+   165,
+   "USD_landed"
+  ],
+  [
+   170,
+   450,
+   "USD_landed"
+  ],
+  [
+   315,
+   450,
+   "USD_landed"
+  ],
+  [
+   475,
+   875,
+   "USD_landed"
+  ],
+  [
+   320,
+   595,
+   "USD_landed"
+  ],
+  [
+   530,
+   1990,
+   "USD_landed"
+  ],
+  null
+ ],
+ "notes": {
+  "fren": "the honest Parisian wardrobe — Frenchness with receipts",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 2; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "style": "Pierre Mahéo's precise Parisian cut and palette define the range.",
+  "craft": "Product pages state a country of make (mostly Portugal; China for a merino knit, Spain for leather) and the fabric's country of origin, but name no factory and no mill. The site has no owned-making or supplier page; its fabric pages are placeholders."
+ },
+ "doors": {
+  "c": "full",
+  "n": 2,
+  "cities": [
+   [
+    "Los Angeles",
+    "CA",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 0,
+  "con": 0
+ },
+ "cities": "2 stores — Los Angeles, New York, Pacific Palisades · department stores and independent menswear shops, and its own site",
+ "region": {
+  "o": [
+   2667
+  ],
+  "s": [
+   124
+  ]
+ },
+ "addmen": true,
+ "site": {
+  "domain": "us.officinegenerale.com",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 496,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "licensed",
+  "marks": [
+   "PrimaLoft",
+   "TENCEL",
+   "cupro",
+   "lyocell",
+   "elastane",
+   "'water repellent' (unnamed finish)"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 156,
+  "w": 153,
+  "n": 92,
+  "s": 5,
+  "c": 1,
+  "x": 8,
+  "xh": 0,
+  "sp": "one",
+  "sc": [
+   "SWIMWEAR"
+  ],
+  "nc": [
+   "KNITWEAR",
+   "SHIRT",
+   "TAILORING PTS"
+  ],
+  "st": "complete"
+ },
+ "garment_links": {
+  "T-shirt": "https://us.officinegenerale.com/collections/og-homme-t-shirts",
+  "Dress shirt": "https://us.officinegenerale.com/collections/og-homme-men-shirts",
+  "Jeans": "https://us.officinegenerale.com/collections/dlc-homme-jeans",
+  "Dress pants": "https://us.officinegenerale.com/collections/og-homme-trousers",
+  "Sweater": "https://us.officinegenerale.com/collections/og-homme-men-knitwear",
+  "Outerwear": "https://us.officinegenerale.com/collections/og-homme-men-outerwear"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "V neck t-shirt (organic cotton jersey)",
+   "lu": "https://us.officinegenerale.com/products/v-neck-t-shirt-organic-cotton-jersey-faded-black",
+   "hp": "Bara t-shirt (mercerized cotton)",
+   "hu": "https://us.officinegenerale.com/products/bara-t-shirt-cotton-mercerized-cream",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 3,
-    "cities": [["Los Angeles", "CA", 1], ["New York", "NY", 1], ["Pacific Palisades", "CA", 1]],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Polo": {
+   "lp": "Bruno polo (organic cotton)",
+   "lu": "https://us.officinegenerale.com/products/bruno-polo-organic-cotton-navy",
+   "hp": "Bruno polo (organic cotton)",
+   "hu": "https://us.officinegenerale.com/products/bruno-polo-organic-cotton-navy",
+   "b": "single"
   },
-  "cities": "3 stores — Los Angeles, New York, Pacific Palisades · department stores and independent menswear shops, and its own site",
-  "region": {
-    "o": [2112],
-    "s": [124]
+  "Dress shirt": {
+   "lp": "New button down shirt (cotton oxford, navy gingham)",
+   "lu": "https://us.officinegenerale.com/products/new-button-down-shirt-cotton-oxford-navy-gingham",
+   "hp": "Benoit shirt (checked cotton)",
+   "hu": "https://us.officinegenerale.com/products/benoit-shirt-checked-cotton-darknavy-white",
+   "b": "range"
   },
-  "addmen": true,
-  "site": {
-    "domain": "us.officinegenerale.com",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 496,
-    "status": "live_store",
-    "checked": "2026-09-13"
+  "Jeans": {
+   "lp": "Slim fit denim (Japanese selvedge)",
+   "lu": "https://us.officinegenerale.com/products/slim-fit-denim-japanese-selvedge-denim-raw-blue",
+   "hp": "Naos jean (organic cotton denim)",
+   "hu": "https://us.officinegenerale.com/products/naos-jean-organic-cotton-denim-anthracite",
+   "b": "range"
   },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "licensed",
-    "marks": ["PrimaLoft", "TENCEL", "cupro", "lyocell", "elastane", "'water repellent' (unnamed finish)"],
-    "source": "census",
-    "checked": "2026-09-12"
+  "Dress pants": {
+   "lp": "Hugo pants (Italian fresco wool)",
+   "lu": "https://us.officinegenerale.com/products/hugo-pts-italian-fresco-wo-100-wv-dark-navy",
+   "hp": "Naty pant (double split wool)",
+   "hu": "https://us.officinegenerale.com/products/naty-pant-double-split-wool-dark-navy",
+   "b": "range"
   },
-  "fibre": {
-    "t": 156,
-    "w": 153,
-    "n": 92,
-    "s": 5,
-    "c": 1,
-    "x": 8,
-    "xh": 0,
-    "sp": "one",
-    "sc": ["SWIMWEAR"],
-    "nc": ["KNITWEAR", "SHIRT", "TAILORING PTS"],
-    "st": "complete"
+  "Sweater": {
+   "lp": "Crew neck sweater (100% Italian merino)",
+   "lu": "https://us.officinegenerale.com/products/crew-neck-sweater-italian-merino-wool-black",
+   "hp": "Nate sweater (100% recycled cashmere)",
+   "hu": "https://us.officinegenerale.com/products/nate-sweater-recycled-cashmere-navy",
+   "b": "pair"
   },
-  "garment_links": {
-    "T-shirt": "https://us.officinegenerale.com/collections/og-homme-t-shirts",
-    "Dress shirt": "https://us.officinegenerale.com/collections/og-homme-men-shirts",
-    "Jeans": "https://us.officinegenerale.com/collections/dlc-homme-jeans",
-    "Dress pants": "https://us.officinegenerale.com/collections/og-homme-trousers",
-    "Sweater": "https://us.officinegenerale.com/collections/og-homme-men-knitwear",
-    "Outerwear": "https://us.officinegenerale.com/collections/og-homme-men-outerwear"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "V neck t-shirt (organic cotton jersey)",
-      "lu": "https://us.officinegenerale.com/products/v-neck-t-shirt-organic-cotton-jersey-faded-black",
-      "hp": "Bara t-shirt (mercerized cotton)",
-      "hu": "https://us.officinegenerale.com/products/bara-t-shirt-cotton-mercerized-cream",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Bruno polo (organic cotton)",
-      "lu": "https://us.officinegenerale.com/products/bruno-polo-organic-cotton-navy",
-      "hp": "Bruno polo (organic cotton)",
-      "hu": "https://us.officinegenerale.com/products/bruno-polo-organic-cotton-navy",
-      "b": "single"
-    },
-    "Dress shirt": {
-      "lp": "New button down shirt (cotton oxford, navy gingham)",
-      "lu": "https://us.officinegenerale.com/products/new-button-down-shirt-cotton-oxford-navy-gingham",
-      "hp": "Benoit shirt (checked cotton)",
-      "hu": "https://us.officinegenerale.com/products/benoit-shirt-checked-cotton-darknavy-white",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Slim fit denim (Japanese selvedge)",
-      "lu": "https://us.officinegenerale.com/products/slim-fit-denim-japanese-selvedge-denim-raw-blue",
-      "hp": "Naos jean (organic cotton denim)",
-      "hu": "https://us.officinegenerale.com/products/naos-jean-organic-cotton-denim-anthracite",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Hugo pants (Italian fresco wool)",
-      "lu": "https://us.officinegenerale.com/products/hugo-pts-italian-fresco-wo-100-wv-dark-navy",
-      "hp": "Naty pant (double split wool)",
-      "hu": "https://us.officinegenerale.com/products/naty-pant-double-split-wool-dark-navy",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Crew neck sweater (100% Italian merino)",
-      "lu": "https://us.officinegenerale.com/products/crew-neck-sweater-italian-merino-wool-black",
-      "hp": "Nate sweater (100% recycled cashmere)",
-      "hu": "https://us.officinegenerale.com/products/nate-sweater-recycled-cashmere-navy",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "Chore jacket (Japanese selvedge denim)",
-      "lu": "https://us.officinegenerale.com/products/chore-jacket-japanese-selvedge-denim-raw-blue",
-      "hp": "Mori jacket (grained lamb leather)",
-      "hu": "https://us.officinegenerale.com/products/mori-jacket-grained-lamb-leather-dark-brown",
-      "b": "range"
-    }
-  },
-  "price_range_only": ["T-shirt", "Dress shirt", "Jeans", "Dress pants", "Outerwear"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://us.officinegenerale.com/",
-    "currency": "USD_landed",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=412121",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "season": {
-    "l": "Fall/Winter 26",
-    "t": "lookbook",
-    "u": "https://us.officinegenerale.com/pages/editorial-essentialism-fall-winter-26",
-    "m": "unisex"
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "No owned factory or atelier named anywhere checked; L'histoire page carries no making content; FAQ silent on production.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "most",
-    "countries": "Portugal 4/7 (shirt, jacket, jeans, chino), China 1/7 (merino crewneck), Spain 1/7 (goat leather jacket), not stated 1/7 (Bradley parka)",
-    "heritage": "dated and placed",
-    "repair": "no",
-    "process": "no",
-    "urls": [
-      "https://us.officinegenerale.com/products/arthus-jkt-italian-fresco-wo-100-wv-dark-navy",
-      "https://us.officinegenerale.com/products/crewneck-sweater-italian-merino-wool-navy"
-    ],
-    "conf": "high",
-    "read": "2026-10-03"
+  "Outerwear": {
+   "lp": "Chore jacket (Japanese selvedge denim)",
+   "lu": "https://us.officinegenerale.com/products/chore-jacket-japanese-selvedge-denim-raw-blue",
+   "hp": "Mori jacket (grained lamb leather)",
+   "hu": "https://us.officinegenerale.com/products/mori-jacket-grained-lamb-leather-dark-brown",
+   "b": "range"
   }
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants",
+  "Outerwear"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://us.officinegenerale.com/",
+  "currency": "USD_landed",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=412121",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "season": {
+  "l": "Fall/Winter 26",
+  "t": "lookbook",
+  "u": "https://us.officinegenerale.com/pages/editorial-essentialism-fall-winter-26",
+  "m": "unisex"
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "No owned factory or atelier named anywhere checked; L'histoire page carries no making content; FAQ silent on production.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "most",
+  "countries": "Portugal 4/7 (shirt, jacket, jeans, chino), China 1/7 (merino crewneck), Spain 1/7 (goat leather jacket), not stated 1/7 (Bradley parka)",
+  "heritage": "dated and placed",
+  "repair": "no",
+  "process": "no",
+  "urls": [
+   "https://us.officinegenerale.com/products/arthus-jkt-italian-fresco-wo-100-wv-dark-navy",
+   "https://us.officinegenerale.com/products/crewneck-sweater-italian-merino-wool-navy"
+  ],
+  "conf": "high",
+  "read": "2026-10-03"
+ }
 }

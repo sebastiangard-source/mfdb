@@ -1,217 +1,289 @@
 {
-  "name": "Jacquemus",
-  "band": "trueLux",
-  "seat": 165,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 2,
-    "craft": 2,
-    "style": 5
+ "name": "Jacquemus",
+ "band": "trueLux",
+ "seat": 165,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 2,
+  "craft": 2,
+  "style": 5
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 3,
+  "cotton": 2,
+  "wool": 2,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 2,
+  "forg": 2,
+  "fuss": 1,
+  "shoes": 3,
+  "status": 3,
+  "fren": 5,
+  "street": 2,
+  "avant": 2,
+  "weird": 3,
+  "whitet": 2,
+  "logo": 2,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 2
+ },
+ "why": "Sculptural, sun-drenched clothing in a Provençal palette; the men's line is the smaller part.",
+ "origin": "Founded in 2009 by Simon Porte Jacquemus at 19; named for his mother.",
+ "say": "zhak-MOOSE",
+ "chan": [
+  "O",
+  "D"
+ ],
+ "conf": "L",
+ "forgc": [
+  2,
+  2,
+  1
+ ],
+ "shop": "https://www.jacquemus.com/en_us/search?q=",
+ "onething": {
+  "p": null,
+  "u": "",
+  "n": "Jacquemus attaches to collections and to bags, and the menswear changes shape every season without a garment recurring. Le Chouchou is a show, not a model"
+ },
+ "prices": [
+  [
+   240,
+   790
+  ],
+  [
+   690,
+   950
+  ],
+  [
+   495,
+   650
+  ],
+  [
+   550,
+   850
+  ],
+  [
+   690,
+   1350
+  ],
+  [
+   590,
+   850
+  ],
+  [
+   900,
+   4100
+  ],
+  [
+   790,
+   950
+  ]
+ ],
+ "shoelink": {
+  "t": "shoes",
+  "u": "https://www.jacquemus.com/search?q=shoes"
+ },
+ "notes": {
+  "fren": "the South of France as product — sun, salt, his mother's name",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 2; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "style": "Sculptural shapes and a Provençal palette; the designer's vision is the brand.",
+  "craft": "The French Jacquemus product pages give a country of make ('Pays de fabrication : Portugal' on the two shirts that rendered) and composition, with a traceability tab. No maker, mill or owned workshop is named, and the site has no page about how or where things are made. That is a 2. [audit proposed 2 at low confidence; held at 2 pending a second read]"
+ },
+ "doors": {
+  "c": "full",
+  "n": 3,
+  "cities": [
+   [
+    "Miami",
+    "FL",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    1
+   ],
+   [
+    "West Hollywood",
+    "CA",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 0,
+  "con": 0
+ },
+ "cities": "3 stores — Montecito, New York, West Hollywood · department stores, and its own site",
+ "region": {
+  "o": [
+   1906
+  ],
+  "s": []
+ },
+ "addmen": true,
+ "site": {
+  "domain": "www.jacquemus.com",
+  "platform": "salesforce_commerce",
+  "feed": "sitemap_products",
+  "feed_count": 915,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "no",
+  "origin": "none",
+  "marks": [
+   "Nothing. Zero named fabric, membrane, insulation or branded-fibre technologies, licensed or house, across the men's line, and zero trademark symbols of any kind. The only term-list matches are two unnamed generic descriptors: 'technical fabric' on 4 products (windbreakers and the Curvo jacket - 'Tex"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 225,
+  "w": 224,
+  "n": 89,
+  "s": 6,
+  "c": 4,
+  "x": 9,
+  "xh": 4,
+  "sp": "one",
+  "sc": [
+   "swim"
+  ],
+  "nc": [
+   "t-shirts",
+   "shirts",
+   "trousers"
+  ],
+  "st": "complete"
+ },
+ "garment_links": {
+  "T-shirt": "https://www.jacquemus.com/en_us/t-shirts-polos-men",
+  "Polo": "https://www.jacquemus.com/en_us/t-shirts-polos-men",
+  "Dress shirt": "https://www.jacquemus.com/en_us/shirts-men",
+  "Jeans": "https://www.jacquemus.com/en_us/denim-men",
+  "Dress pants": "https://www.jacquemus.com/en_us/trousers-and-shorts-men",
+  "Sweater": "https://www.jacquemus.com/en_us/knits-men",
+  "Outerwear": "https://www.jacquemus.com/en_us/coats-and-jackets-men",
+  "Shoes": "https://www.jacquemus.com/en_us/shoes-men"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "The Gros Grain t-shirt",
+   "lu": "https://www.jacquemus.com/en_us/the-gros-grain-t-shirt/TSM00133AJ00226150.html",
+   "hp": "The Soie t-shirt (100% silk jersey, short sleeve)",
+   "hu": "https://www.jacquemus.com/en_us/the-soie-t-shirt/TSM00666AJ00314150.html",
+   "b": "pair"
   },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 1,
-    "linen": 3,
-    "cotton": 2,
-    "wool": 2,
-    "synth": 1
+  "Polo": {
+   "lp": "The Voilier polo shirt",
+   "lu": "https://www.jacquemus.com/en_us/the-voilier-polo-shirt/POM00618AK00318100.html",
+   "hp": "The Miami knit polo shirt",
+   "hu": "https://www.jacquemus.com/en_us/the-miami-knit-polo-shirt/POM00626AK00334520.html",
+   "b": "range"
   },
-  "dials": {
-    "dur": 2,
-    "forg": 2,
-    "fuss": 1,
-    "shoes": 3,
-    "status": 3,
-    "fren": 5,
-    "street": 2,
-    "avant": 2,
-    "weird": 3,
-    "whitet": 2,
-    "logo": 2,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 2
+  "Dress shirt": {
+   "lp": "The suit shirt",
+   "lu": "https://www.jacquemus.com/en_us/the-suit-shirt/SHM00064BW00291100.html",
+   "hp": "The Tailleur shirt",
+   "hu": "https://www.jacquemus.com/en_us/the-tailleur-shirt/SHM00633AW00925430.html",
+   "b": "range"
   },
-  "why": "Sculptural, sun-drenched clothing in a Provençal palette; the men's line is the smaller part.",
-  "origin": "Founded in 2009 by Simon Porte Jacquemus at 19; named for his mother.",
-  "say": "zhak-MOOSE",
-  "chan": ["O", "D"],
-  "conf": "L",
-  "forgc": [2, 2, 1],
-  "shop": "https://www.jacquemus.com/en_us/search?q=",
-  "onething": {
-    "p": null,
-    "u": "",
-    "n": "Jacquemus attaches to collections and to bags, and the menswear changes shape every season without a garment recurring. Le Chouchou is a show, not a model"
+  "Jeans": {
+   "lp": "The straight de-Nimes denim pants",
+   "lu": "https://www.jacquemus.com/en_us/the-straight-de-nimes-denim-pants/PAM00028AD0003833C.html",
+   "hp": "The Berger de-Nimes denim pants",
+   "hu": "https://www.jacquemus.com/en_us/the-berger-de-nimes-denim-pants/PAM00564AD0003834B.html",
+   "b": "range"
   },
-  "prices": [[240, 790], [690, 950], [495, 650], [550, 850], [690, 1350], [590, 850], [900, 4100], [790, 950]],
-  "shoelink": {
-    "t": "shoes",
-    "u": "https://www.jacquemus.com/search?q=shoes"
+  "Dress pants": {
+   "lp": "The Croisiere pants",
+   "lu": "https://www.jacquemus.com/en_us/the-croisiere-pants/PAM00131AW00737390.html",
+   "hp": "The Tuxedo pants",
+   "hu": "https://www.jacquemus.com/en_us/the-tuxedo-pants/PAM00600AW00864150.html",
+   "b": "range"
   },
-  "notes": {
-    "fren": "the South of France as product — sun, salt, his mother's name",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 2; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "style": "Sculptural shapes and a Provençal palette; the designer's vision is the brand.",
-    "craft": "The French Jacquemus product pages give a country of make ('Pays de fabrication : Portugal' on the two shirts that rendered) and composition, with a traceability tab. No maker, mill or owned workshop is named, and the site has no page about how or where things are made. That is a 2. [audit proposed 2 at low confidence; held at 2 pending a second read]"
+  "Sweater": {
+   "lp": "The embroidered sweater",
+   "lu": "https://www.jacquemus.com/en_us/the-embroidered-sweater/SWM00614AK00299970.html",
+   "hp": "The Nuvola sweater (81% mohair)",
+   "hu": "https://www.jacquemus.com/en_us/the-nuvola-sweater/246KN523-2016-830.html",
+   "b": "pair"
   },
-  "doors": {
-    "c": "full",
-    "n": 3,
-    "cities": [["Montecito", "CA", 1], ["New York", "NY", 1], ["West Hollywood", "CA", 1]],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Outerwear": {
+   "lp": "The windbreaker",
+   "lu": "https://www.jacquemus.com/en_us/the-windbreaker/OUM00139AW00645390.html",
+   "hp": "The Gardian leather jacket",
+   "hu": "https://www.jacquemus.com/en_us/the-gardian-leather-jacket/JAM00100AC03C13990.html",
+   "b": "range"
   },
-  "cities": "3 stores — Montecito, New York, West Hollywood · department stores, and its own site",
-  "region": {
-    "o": [1276],
-    "s": []
-  },
-  "addmen": true,
-  "site": {
-    "domain": "www.jacquemus.com",
-    "platform": "salesforce_commerce",
-    "feed": "sitemap_products",
-    "feed_count": 915,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "no",
-    "origin": "none",
-    "marks": [
-      "Nothing. Zero named fabric, membrane, insulation or branded-fibre technologies, licensed or house, across the men's line, and zero trademark symbols of any kind. The only term-list matches are two unnamed generic descriptors: 'technical fabric' on 4 products (windbreakers and the Curvo jacket - 'Tex"
-    ],
-    "source": "census",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 225,
-    "w": 224,
-    "n": 89,
-    "s": 6,
-    "c": 4,
-    "x": 9,
-    "xh": 4,
-    "sp": "one",
-    "sc": ["swim"],
-    "nc": ["t-shirts", "shirts", "trousers"],
-    "st": "complete"
-  },
-  "garment_links": {
-    "T-shirt": "https://www.jacquemus.com/en_us/t-shirts-polos-men",
-    "Polo": "https://www.jacquemus.com/en_us/t-shirts-polos-men",
-    "Dress shirt": "https://www.jacquemus.com/en_us/shirts-men",
-    "Jeans": "https://www.jacquemus.com/en_us/denim-men",
-    "Dress pants": "https://www.jacquemus.com/en_us/trousers-and-shorts-men",
-    "Sweater": "https://www.jacquemus.com/en_us/knits-men",
-    "Outerwear": "https://www.jacquemus.com/en_us/coats-and-jackets-men",
-    "Shoes": "https://www.jacquemus.com/en_us/shoes-men"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "The Gros Grain t-shirt",
-      "lu": "https://www.jacquemus.com/en_us/the-gros-grain-t-shirt/TSM00133AJ00226150.html",
-      "hp": "The Soie t-shirt (100% silk jersey, short sleeve)",
-      "hu": "https://www.jacquemus.com/en_us/the-soie-t-shirt/TSM00666AJ00314150.html",
-      "b": "pair"
-    },
-    "Polo": {
-      "lp": "The Voilier polo shirt",
-      "lu": "https://www.jacquemus.com/en_us/the-voilier-polo-shirt/POM00618AK00318100.html",
-      "hp": "The Miami knit polo shirt",
-      "hu": "https://www.jacquemus.com/en_us/the-miami-knit-polo-shirt/POM00626AK00334520.html",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "The suit shirt",
-      "lu": "https://www.jacquemus.com/en_us/the-suit-shirt/SHM00064BW00291100.html",
-      "hp": "The Tailleur shirt",
-      "hu": "https://www.jacquemus.com/en_us/the-tailleur-shirt/SHM00633AW00925430.html",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "The straight de-Nimes denim pants",
-      "lu": "https://www.jacquemus.com/en_us/the-straight-de-nimes-denim-pants/PAM00028AD0003833C.html",
-      "hp": "The Berger de-Nimes denim pants",
-      "hu": "https://www.jacquemus.com/en_us/the-berger-de-nimes-denim-pants/PAM00564AD0003834B.html",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "The Croisiere pants",
-      "lu": "https://www.jacquemus.com/en_us/the-croisiere-pants/PAM00131AW00737390.html",
-      "hp": "The Tuxedo pants",
-      "hu": "https://www.jacquemus.com/en_us/the-tuxedo-pants/PAM00600AW00864150.html",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "The embroidered sweater",
-      "lu": "https://www.jacquemus.com/en_us/the-embroidered-sweater/SWM00614AK00299970.html",
-      "hp": "The Nuvola sweater (81% mohair)",
-      "hu": "https://www.jacquemus.com/en_us/the-nuvola-sweater/246KN523-2016-830.html",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "The windbreaker",
-      "lu": "https://www.jacquemus.com/en_us/the-windbreaker/OUM00139AW00645390.html",
-      "hp": "The Gardian leather jacket",
-      "hu": "https://www.jacquemus.com/en_us/the-gardian-leather-jacket/JAM00100AC03C13990.html",
-      "b": "range"
-    },
-    "Shoes": {
-      "lp": "The Palmier loafers",
-      "lu": "https://www.jacquemus.com/en_us/the-palmier-loafers/FOM00226AC18A06990.html",
-      "hp": "The Carre loafers (crocodile-embossed suede)",
-      "hu": "https://www.jacquemus.com/en_us/the-carre-loafers/246FO147-4355-880.html",
-      "b": "pair"
-    }
-  },
-  "price_range_only": ["Polo", "Dress shirt", "Jeans", "Dress pants", "Outerwear"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.jacquemus.com/en_us/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=168278",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "season": {
-    "l": "Fall Winter 2026 ('Le Palmier')",
-    "t": "collection page",
-    "u": "https://www.jacquemus.com/en_us/fw26/lepalmier.html",
-    "m": "unisex"
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "No page about making or ateliers was found. The footer lists only legal, customer-service and FAQ links (plus 'Slavery Act'), and the sitemaps hold no maison, savoir-faire or CSR page. No owned factory or workshop is named anywhere I reached.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "some",
-    "countries": "Portugal 2/2 where the field rendered (fr_fr PDPs: la chemise Camargue, la chemise Gardian - 'Pays de fabrication : Portugal'). 2 further fr_fr shirt PDPs (Nappe, Jean Atelier) and 2 en_gb PDPs returned no product details at all (JS-rendered/collapsed), so treat 'some' as a floor, not a measured share. The sample is shirts only; no other category's PDP was reached.",
-    "heritage": "none",
-    "repair": "no",
-    "process": "no",
-    "urls": [
-      "https://www.jacquemus.com/fr_fr/la-chemise-gardian/SHM00610AW007763GU.html",
-      "https://www.jacquemus.com/fr_fr/la-chemise-camargue/SHM00605AW007965LS.html"
-    ],
-    "conf": "low",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "The Palmier loafers",
+   "lu": "https://www.jacquemus.com/en_us/the-palmier-loafers/FOM00226AC18A06990.html",
+   "hp": "The Carre loafers (crocodile-embossed suede)",
+   "hu": "https://www.jacquemus.com/en_us/the-carre-loafers/246FO147-4355-880.html",
+   "b": "pair"
   }
+ },
+ "price_range_only": [
+  "Polo",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants",
+  "Outerwear"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.jacquemus.com/en_us/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=168278",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "season": {
+  "l": "Fall Winter 2026 ('Le Palmier')",
+  "t": "collection page",
+  "u": "https://www.jacquemus.com/en_us/fw26/lepalmier.html",
+  "m": "unisex"
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "No page about making or ateliers was found. The footer lists only legal, customer-service and FAQ links (plus 'Slavery Act'), and the sitemaps hold no maison, savoir-faire or CSR page. No owned factory or workshop is named anywhere I reached.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "some",
+  "countries": "Portugal 2/2 where the field rendered (fr_fr PDPs: la chemise Camargue, la chemise Gardian - 'Pays de fabrication : Portugal'). 2 further fr_fr shirt PDPs (Nappe, Jean Atelier) and 2 en_gb PDPs returned no product details at all (JS-rendered/collapsed), so treat 'some' as a floor, not a measured share. The sample is shirts only; no other category's PDP was reached.",
+  "heritage": "none",
+  "repair": "no",
+  "process": "no",
+  "urls": [
+   "https://www.jacquemus.com/fr_fr/la-chemise-gardian/SHM00610AW007763GU.html",
+   "https://www.jacquemus.com/fr_fr/la-chemise-camargue/SHM00605AW007965LS.html"
+  ],
+  "conf": "low",
+  "read": "2026-10-03"
+ }
 }

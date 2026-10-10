@@ -1,215 +1,286 @@
 {
-  "name": "Dries Van Noten",
-  "band": "trueLux",
-  "seat": 191,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 2,
-    "craft": 4,
-    "style": 5
-  },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 2,
-    "linen": 2,
-    "cotton": 3,
-    "wool": 3,
-    "synth": 1
-  },
-  "dials": {
-    "dur": 2,
-    "forg": 3,
-    "fuss": 0,
-    "status": 2,
-    "avant": 3,
-    "whitet": 2,
-    "logo": 1,
-    "western": 1,
-    "rock": 2,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
-  },
-  "why": "Printed, patterned clothing from the Antwerp designer, independent for most of its history.",
-  "origin": "Founded in Antwerp in 1986 by Dries Van Noten, one of the Antwerp Six.",
-  "say": "DREEZ vahn NOH-ten",
-  "chan": ["O", "D", "I"],
-  "conf": "L",
-  "forgc": [4, 2, 1],
-  "onething": {
-    "p": "Jacquard wool hat",
-    "u": "https://www.driesvannoten.com/en-us/products/262-022203-4707",
-    "n": "verified — direct product page, $325, five colorways. Earflaps, braided ties, the jacquard worked in wool. Seen in the Paris window: the house's pattern habit at its smallest scale, and the one piece where the color is the whole argument rather than a garment carrying it"
-  },
-  "prices": [
-    [320, 465, "USD_landed"],
-    [745, 745, "USD_landed"],
-    [515, 845, "USD_landed"],
-    [570, 1065, "USD_landed"],
-    [720, 1160, "USD_landed"],
-    [780, 975, "USD_landed"],
-    [2270, 3550, "USD_landed"],
-    [1060, 1180, "USD_landed"]
+ "name": "Dries Van Noten",
+ "band": "trueLux",
+ "seat": 191,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 2,
+  "craft": 4,
+  "style": 5
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 2,
+  "linen": 2,
+  "cotton": 3,
+  "wool": 3,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 2,
+  "forg": 3,
+  "fuss": 0,
+  "status": 2,
+  "avant": 3,
+  "whitet": 2,
+  "logo": 1,
+  "western": 1,
+  "rock": 2,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Printed, patterned clothing from the Antwerp designer, independent for most of its history.",
+ "origin": "Founded in Antwerp in 1986 by Dries Van Noten, one of the Antwerp Six.",
+ "say": "DREEZ vahn NOH-ten",
+ "chan": [
+  "O",
+  "D",
+  "I"
+ ],
+ "conf": "L",
+ "forgc": [
+  4,
+  2,
+  1
+ ],
+ "onething": {
+  "p": "Jacquard wool hat",
+  "u": "https://www.driesvannoten.com/en-us/products/262-022203-4707",
+  "n": "verified — direct product page, $325, five colorways. Earflaps, braided ties, the jacquard worked in wool. Seen in the Paris window: the house's pattern habit at its smallest scale, and the one piece where the color is the whole argument rather than a garment carrying it"
+ },
+ "prices": [
+  [
+   320,
+   465,
+   "USD_landed"
   ],
-  "doors": {
-    "c": "full",
-    "n": 2,
-    "cities": [["Los Angeles", "CA", 1], ["New York", "NY", 1]],
-    "basis": "master 2026-08-29, pre-recapture"
+  [
+   745,
+   745,
+   "USD_landed"
+  ],
+  [
+   515,
+   845,
+   "USD_landed"
+  ],
+  [
+   570,
+   1065,
+   "USD_landed"
+  ],
+  [
+   720,
+   1160,
+   "USD_landed"
+  ],
+  [
+   780,
+   975,
+   "USD_landed"
+  ],
+  [
+   2270,
+   3550,
+   "USD_landed"
+  ],
+  [
+   1060,
+   1180,
+   "USD_landed"
+  ]
+ ],
+ "doors": {
+  "c": "full",
+  "n": 2,
+  "cities": [
+   [
+    "Los Angeles",
+    "CA",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 0,
+  "con": 0
+ },
+ "cities": "2 stores — Los Angeles, New York · department stores and independent menswear shops, and its own site",
+ "region": {
+  "o": [
+   1139
+  ],
+  "s": [
+   123
+  ]
+ },
+ "addmen": true,
+ "site": {
+  "domain": "www.driesvannoten.com",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 216,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "no",
+  "origin": "none",
+  "marks": [
+   "none"
+  ],
+  "source": "flag_sample",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 143,
+  "w": 143,
+  "n": 84,
+  "s": 6,
+  "c": 10,
+  "x": 3,
+  "xh": 0,
+  "sp": "one",
+  "sc": [
+   "Swimwear"
+  ],
+  "nc": [
+   "Pants",
+   "T-shirts and Sweatshirts",
+   "Shirts"
+  ],
+  "st": "complete"
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants",
+  "Outerwear"
+ ],
+ "garment_links": {
+  "T-shirt": "https://www.driesvannoten.com/en-us/collections/men-t-shirts-sweatshirts",
+  "Polo": "https://www.driesvannoten.com/en-us/collections/men-t-shirts-sweatshirts",
+  "Dress shirt": "https://www.driesvannoten.com/en-us/collections/men-shirts",
+  "Jeans": "https://www.driesvannoten.com/en-us/collections/men-pants",
+  "Dress pants": "https://www.driesvannoten.com/en-us/collections/men-pants",
+  "Sweater": "https://www.driesvannoten.com/en-us/collections/men-knitwear",
+  "Outerwear": "https://www.driesvannoten.com/en-us/collections/men-coats-jackets",
+  "Shoes": "https://www.driesvannoten.com/en-us/collections/men-shoes"
+ },
+ "notes": {
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 2; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "style": "Print and pattern by one of the Antwerp Six; design is the whole enterprise.",
+  "craft": "The DVN site states no country of make on the PDPs read, and names no workshop, maker or mill. Its craftsmanship page describes hand-embroidery techniques without saying where or by whom. The only dated and placed claims are the founder's 1986 debut and the Antwerp store. [held at the current score: the audit’s evidence was thin; needs a second read]"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Regular fit cotton tee",
+   "lu": "https://www.driesvannoten.com/en-us/products/262-021100-4600",
+   "hp": "Striped cotton tee (short sleeves)",
+   "hu": "https://www.driesvannoten.com/en-us/products/262-021119-4605",
+   "b": "range"
   },
-  "cities": "2 stores — Los Angeles, New York · department stores and independent menswear shops, and its own site",
-  "region": {
-    "o": [828],
-    "s": [123]
+  "Polo": {
+   "lp": "Merino wool polo shirt (short sleeves)",
+   "lu": "https://www.driesvannoten.com/en-us/products/261-021200-3700",
+   "hp": "Merino wool polo shirt (short sleeves)",
+   "hu": "https://www.driesvannoten.com/en-us/products/261-021200-3700",
+   "b": "single"
   },
-  "addmen": true,
-  "site": {
-    "domain": "www.driesvannoten.com",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 216,
-    "status": "live_store",
-    "checked": "2026-09-13"
+  "Dress shirt": {
+   "lp": "Classic cotton shirt",
+   "lu": "https://www.driesvannoten.com/en-us/products/261-020713-3314",
+   "hp": "Classic cotton shirt",
+   "hu": "https://www.driesvannoten.com/en-us/products/262-020708-4109",
+   "b": "range"
   },
-  "tech_evidence": {
-    "names": "no",
-    "origin": "none",
-    "marks": ["none"],
-    "source": "flag_sample",
-    "checked": "2026-09-12"
+  "Jeans": {
+   "lp": "Loose fit jeans",
+   "lu": "https://www.driesvannoten.com/en-us/products/261-020942-3384",
+   "hp": "Loose fit jeans",
+   "hu": "https://www.driesvannoten.com/en-us/products/262-020942-4412",
+   "b": "range"
   },
-  "fibre": {
-    "t": 143,
-    "w": 143,
-    "n": 84,
-    "s": 6,
-    "c": 10,
-    "x": 3,
-    "xh": 0,
-    "sp": "one",
-    "sc": ["Swimwear"],
-    "nc": ["Pants", "T-shirts and Sweatshirts", "Shirts"],
-    "st": "complete"
+  "Dress pants": {
+   "lp": "Cuffed pants (cotton wool)",
+   "lu": "https://www.driesvannoten.com/en-us/products/261-020904-3302",
+   "hp": "Straight wool pants (serge wool twill)",
+   "hu": "https://www.driesvannoten.com/en-us/products/252-020900-2246",
+   "b": "range"
   },
-  "price_range_only": ["T-shirt", "Dress shirt", "Jeans", "Dress pants", "Outerwear"],
-  "garment_links": {
-    "T-shirt": "https://www.driesvannoten.com/en-us/collections/men-t-shirts-sweatshirts",
-    "Polo": "https://www.driesvannoten.com/en-us/collections/men-t-shirts-sweatshirts",
-    "Dress shirt": "https://www.driesvannoten.com/en-us/collections/men-shirts",
-    "Jeans": "https://www.driesvannoten.com/en-us/collections/men-pants",
-    "Dress pants": "https://www.driesvannoten.com/en-us/collections/men-pants",
-    "Sweater": "https://www.driesvannoten.com/en-us/collections/men-knitwear",
-    "Outerwear": "https://www.driesvannoten.com/en-us/collections/men-coats-jackets",
-    "Shoes": "https://www.driesvannoten.com/en-us/collections/men-shoes"
+  "Sweater": {
+   "lp": "Merino wool sweater (crew neck, 100% merino)",
+   "lu": "https://www.driesvannoten.com/en-us/products/252-021244-2700",
+   "hp": "Jacquard wool sweater (crew neck, 55% alpaca)",
+   "hu": "https://www.driesvannoten.com/en-us/products/262-021236-4755",
+   "b": "pair"
   },
-  "notes": {
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 2; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "style": "Print and pattern by one of the Antwerp Six; design is the whole enterprise.",
-    "craft": "The DVN site states no country of make on the PDPs read, and names no workshop, maker or mill. Its craftsmanship page describes hand-embroidery techniques without saying where or by whom. The only dated and placed claims are the founder's 1986 debut and the Antwerp store. [held at the current score: the audit’s evidence was thin; needs a second read]"
+  "Outerwear": {
+   "lp": "Overdyed cotton jacket",
+   "lu": "https://www.driesvannoten.com/en-us/products/262-020508-4101",
+   "hp": "Jacquard mac",
+   "hu": "https://www.driesvannoten.com/en-us/products/262-020207-4182",
+   "b": "range"
   },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Regular fit cotton tee",
-      "lu": "https://www.driesvannoten.com/en-us/products/262-021100-4600",
-      "hp": "Striped cotton tee (short sleeves)",
-      "hu": "https://www.driesvannoten.com/en-us/products/262-021119-4605",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Merino wool polo shirt (short sleeves)",
-      "lu": "https://www.driesvannoten.com/en-us/products/261-021200-3700",
-      "hp": "Merino wool polo shirt (short sleeves)",
-      "hu": "https://www.driesvannoten.com/en-us/products/261-021200-3700",
-      "b": "single"
-    },
-    "Dress shirt": {
-      "lp": "Classic cotton shirt",
-      "lu": "https://www.driesvannoten.com/en-us/products/261-020713-3314",
-      "hp": "Classic cotton shirt",
-      "hu": "https://www.driesvannoten.com/en-us/products/262-020708-4109",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Loose fit jeans",
-      "lu": "https://www.driesvannoten.com/en-us/products/261-020942-3384",
-      "hp": "Loose fit jeans",
-      "hu": "https://www.driesvannoten.com/en-us/products/262-020942-4412",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Cuffed pants (cotton wool)",
-      "lu": "https://www.driesvannoten.com/en-us/products/261-020904-3302",
-      "hp": "Straight wool pants (serge wool twill)",
-      "hu": "https://www.driesvannoten.com/en-us/products/252-020900-2246",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Merino wool sweater (crew neck, 100% merino)",
-      "lu": "https://www.driesvannoten.com/en-us/products/252-021244-2700",
-      "hp": "Jacquard wool sweater (crew neck, 55% alpaca)",
-      "hu": "https://www.driesvannoten.com/en-us/products/262-021236-4755",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "Overdyed cotton jacket",
-      "lu": "https://www.driesvannoten.com/en-us/products/262-020508-4101",
-      "hp": "Jacquard mac",
-      "hu": "https://www.driesvannoten.com/en-us/products/262-020207-4182",
-      "b": "range"
-    },
-    "Shoes": {
-      "lp": "Leather loafers",
-      "lu": "https://www.driesvannoten.com/en-us/products/261-021736-0107",
-      "hp": "Suede loafers",
-      "hu": "https://www.driesvannoten.com/en-us/products/262-021719-0106",
-      "b": "pair"
-    }
-  },
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.driesvannoten.com/en-us",
-    "currency": "USD_landed",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "shop": "https://www.driesvannoten.com/en-us/search?q=",
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=72138",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "season": {
-    "l": "AW26-27 (Autumn Winter 2026-27)",
-    "t": "runway",
-    "u": "https://www.driesvannoten.com/en-us/pages/show-aw-26-27-men",
-    "m": "yes"
-  },
-  "craft_evidence": {
-    "owned": "unclear",
-    "owned_d": "No owned workshop, atelier or factory is claimed on the biography, craftsmanship (aw23-craftsmanship), FAQ or recycling pages. Biography names only stores: Het Modepaleis, Antwerp (1989), and Quai Malaquais, Paris. Puig became majority shareholder in 2018; Puig filings not checked.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "none",
-    "countries": "None stated: 0/2 rendered PDPs (embellished top, embroidered wool bomber; both womenswear, composition shown, no origin) and 0/11 in products.json body text. Online catalogue is small (11 products) and mostly womenswear, so no menswear PDP was sampled.",
-    "heritage": "dated and placed",
-    "repair": "no",
-    "process": "some",
-    "urls": [
-      "https://www.driesvannoten.com/pages/biography",
-      "https://www.driesvannoten.com/pages/aw23-craftsmanship"
-    ],
-    "conf": "low",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Leather loafers",
+   "lu": "https://www.driesvannoten.com/en-us/products/261-021736-0107",
+   "hp": "Suede loafers",
+   "hu": "https://www.driesvannoten.com/en-us/products/262-021719-0106",
+   "b": "pair"
   }
+ },
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.driesvannoten.com/en-us",
+  "currency": "USD_landed",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "shop": "https://www.driesvannoten.com/en-us/search?q=",
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=72138",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "season": {
+  "l": "AW26-27 (Autumn Winter 2026-27)",
+  "t": "runway",
+  "u": "https://www.driesvannoten.com/en-us/pages/show-aw-26-27-men",
+  "m": "yes"
+ },
+ "craft_evidence": {
+  "owned": "unclear",
+  "owned_d": "No owned workshop, atelier or factory is claimed on the biography, craftsmanship (aw23-craftsmanship), FAQ or recycling pages. Biography names only stores: Het Modepaleis, Antwerp (1989), and Quai Malaquais, Paris. Puig became majority shareholder in 2018; Puig filings not checked.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "none",
+  "countries": "None stated: 0/2 rendered PDPs (embellished top, embroidered wool bomber; both womenswear, composition shown, no origin) and 0/11 in products.json body text. Online catalogue is small (11 products) and mostly womenswear, so no menswear PDP was sampled.",
+  "heritage": "dated and placed",
+  "repair": "no",
+  "process": "some",
+  "urls": [
+   "https://www.driesvannoten.com/pages/biography",
+   "https://www.driesvannoten.com/pages/aw23-craftsmanship"
+  ],
+  "conf": "low",
+  "read": "2026-10-03"
+ }
 }

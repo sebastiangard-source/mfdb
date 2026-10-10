@@ -1,222 +1,300 @@
 {
-  "name": "Stone Island",
-  "band": "accessible",
-  "seat": 75,
-  "dagger": 1,
-  "focus": {
-    "tech": 4,
-    "comfort": 2,
-    "craft": 4,
-    "style": 4
+ "name": "Stone Island",
+ "band": "accessible",
+ "seat": 75,
+ "dagger": 1,
+ "focus": {
+  "tech": 4,
+  "comfort": 2,
+  "craft": 4,
+  "style": 4
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 2,
+  "wool": 2,
+  "synth": 4
+ },
+ "dials": {
+  "dur": 4,
+  "forg": 3,
+  "fuss": 2,
+  "bruv": -3,
+  "status": 4,
+  "ital": 4,
+  "street": 4,
+  "avant": 2,
+  "weird": 2,
+  "ski": 1,
+  "whitet": 2,
+  "logo": 4,
+  "western": 1,
+  "rock": 1,
+  "workwear": 2,
+  "outdoor": 3,
+  "surf": 1
+ },
+ "why": "Jackets and knitwear known for dyed and treated fabrics the company develops, with a compass badge on the sleeve.",
+ "origin": "Founded in Ravarino, Italy, in 1982 by Massimo Osti, out of C.P. Company.",
+ "chan": [
+  "O",
+  "D"
+ ],
+ "conf": "L",
+ "forgc": [
+  4,
+  3,
+  1
+ ],
+ "onething": {
+  "p": "Badge garment-dyed sweatshirt",
+  "u": "https://www.stoneisland.com/en-us/search?q=Badge%20garment-dyed%20sweatshirt",
+  "n": "Use this: https://www.stoneisland.com/en-us/?query=garment+dyed+sweatshirt"
+ },
+ "prices": [
+  [
+   220,
+   425
+  ],
+  [
+   265,
+   285
+  ],
+  [
+   395,
+   430
+  ],
+  [
+   430,
+   725
+  ],
+  [
+   485,
+   825
+  ],
+  [
+   420,
+   1425
+  ],
+  [
+   900,
+   6250
+  ],
+  [
+   565,
+   600
+  ]
+ ],
+ "notes": {
+  "tech": "the Osti garment-dye laboratory — prototype research as identity",
+  "synth": "technical nylons and resin-dyed shells",
+  "status": "the compass badge — terrace status with four decades of code",
+  "ital": "the Italian garment-dye laboratory tradition, industrialized",
+  "street": "the badge — terrace culture to hip-hop",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 3; retired 28 Sep 2026]",
+  "logo": "The compass badge is on essentially every piece and is the brand’s identity — a 4, prominent and universal, though not all-over. Ruled by Sebastian 28 Sep 2026; the rest of the dial is seeded and provisional.",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "Stone Island dyes garments in its own department at its Ravarino headquarters, and Moncler's 2024 annual report says modelling, prototyping and dyeing are done internally there, while the garments themselves are made by third parties in Italy, the Mediterranean and the Far East. Its product pages describe processes in detail (garment dyeing, lamination, hand-spraying) but name no factory, no mill and, in the fetched text, no country. Owned making of one signature stage, not the range: a 4. [audit proposed 4 at low confidence; held at 4 pending a second read]"
+ },
+ "doors": {
+  "c": "full",
+  "n": 4,
+  "cities": [
+   [
+    "Costa Mesa",
+    "CA",
+    1
+   ],
+   [
+    "Los Angeles",
+    "CA",
+    1
+   ],
+   [
+    "Miami",
+    "FL",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 1,
+  "con": 1
+ },
+ "cities": "4 stores — Costa Mesa, Los Angeles, Miami, New York · department stores, and its own site",
+ "region": {
+  "o": [
+   3220
+  ],
+  "s": []
+ },
+ "site": {
+  "domain": "stoneisland.com",
+  "platform": "salesforce_commerce",
+  "feed": "sitemap_products",
+  "feed_count": 1166,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "licensed",
+  "marks": [
+   "-TC (Tinto Capo)",
+   "Corrosion Treatment",
+   "Crinkle Reps",
+   "David-TC",
+   "ECONYL",
+   "GORE-TEX",
+   "Micro Reps",
+   "Nylon Metal",
+   "PrimaLoft",
+   "Raso Gommato",
+   "S.I. Ghost"
+  ],
+  "source": "origin_8",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 200,
+  "w": 200,
+  "n": 70,
+  "s": 30,
+  "c": 0,
+  "x": 23,
+  "xh": 12,
+  "sp": "split",
+  "sc": [
+   "Coats & Jackets"
+  ],
+  "nc": [
+   "Knitwear",
+   "Pants & Shorts",
+   "Fleecewear"
+  ],
+  "st": "complete"
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants",
+  "Shoes"
+ ],
+ "garment_links": {
+  "T-shirt": "https://www.stoneisland.com/en-us/collection/polos-and-t-shirts",
+  "Polo": "https://www.stoneisland.com/en-us/collection/polos-and-t-shirts",
+  "Dress pants": "https://www.stoneisland.com/en-us/collection/pants-and-shorts",
+  "Sweater": "https://www.stoneisland.com/en-us/collection/knitwear",
+  "Outerwear": "https://www.stoneisland.com/en-us/collection/coats-and-jackets"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "2100027 60/2 Cotton Jersey slim-fit T-shirt with Compass patch",
+   "lu": "https://www.stoneisland.com/en-us/collection/polos-and-t-shirts/slim-fit-t-shirt-with-compass-patch-2100027-60%2F2-cotton-jersey-L2S152100027S0013V002B.html",
+   "hp": "2100024 Uneven Pigment Dyed Organic Cotton Jersey regular-fit T-shirt",
+   "hu": "https://www.stoneisland.com/en-us/collection/polos-and-t-shirts/regular-fit-pigment-dyed-t-shirt-2100024-uneven-pigment-dyed-organic-cotton-jersey-L2S152100024S00V3V003B.html",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 2,
-    "cashmere": 1,
-    "linen": 1,
-    "cotton": 2,
-    "wool": 2,
-    "synth": 4
+  "Polo": {
+   "lp": "2200011 50/2 Organic Cotton Piqué regular-fit short-sleeve polo with Compass patch",
+   "lu": "https://www.stoneisland.com/en-us/collection/polos-and-t-shirts/regular-fit-short-sleeve-polo-with-compass-patch-2200011-50%2F2-organic-cotton-piqu%C3%A9-L2S152200011S0039V005G.html",
+   "hp": "2200002 50/2 Organic Cotton Piqué polo shirt with archival logo embroidery",
+   "hu": "https://www.stoneisland.com/en-us/collection/polos-and-t-shirts/regular-fit-polo-shirt-with-archival-logo-embroidery-2200002-50%2F2-organic-cotton-piqu%C3%A9-L2S152200002S0039V002E.html",
+   "b": "range"
   },
-  "dials": {
-    "dur": 4,
-    "forg": 3,
-    "fuss": 2,
-    "bruv": -3,
-    "status": 4,
-    "ital": 4,
-    "street": 4,
-    "avant": 2,
-    "weird": 2,
-    "ski": 1,
-    "whitet": 2,
-    "logo": 4,
-    "western": 1,
-    "rock": 1,
-    "workwear": 2,
-    "outdoor": 3,
-    "surf": 1
+  "Dress shirt": {
+   "lp": "1100004 Organic Cotton Oxford comfort-fit long-sleeve shirt",
+   "lu": "https://www.stoneisland.com/en-us/collection/shirts/comfort-fit-long-sleeve-shirt-with-logo-embroidery-1100004-organic-cotton-oxford-L1S151100004S0315V0093.html",
+   "hp": "1100002 Organic Cotton Tela 'Paracadute' comfort-fit long-sleeve shirt",
+   "hu": "https://www.stoneisland.com/en-us/collection/shirts/comfort-fit-long-sleeve-shirt-with-chest-pocket-1100002-organic-cotton-tela-%27paracadute%27-L2S151100002S0168V002A.html",
+   "b": "range"
   },
-  "why": "Jackets and knitwear known for dyed and treated fabrics the company develops, with a compass badge on the sleeve.",
-  "origin": "Founded in Ravarino, Italy, in 1982 by Massimo Osti, out of C.P. Company.",
-  "chan": ["O", "D"],
-  "conf": "L",
-  "forgc": [4, 3, 1],
-  "onething": {
-    "p": "Badge garment-dyed sweatshirt",
-    "u": "https://www.stoneisland.com/en-us/search?q=Badge%20garment-dyed%20sweatshirt",
-    "n": "Use this: https://www.stoneisland.com/en-us/?query=garment+dyed+sweatshirt"
+  "Jeans": {
+   "lp": "J100007 Stretch Indigo Denim-Rinsed slim-fit five-pocket jeans",
+   "lu": "https://www.stoneisland.com/en-us/collection/pants-and-shorts/slim-fit-five-pocket-jeans-j100007-stretch-indigo-denim-rinsed-L2S14J100007S0J12VJ201.html",
+   "hp": "J100008 Selvedge Indigo Denim-Raw regular-fit five-pocket jeans",
+   "hu": "https://www.stoneisland.com/en-us/collection/pants-and-shorts/regular-fit-selvage-five-pocket-jeans-j100008-selvedge-indigo-denim-raw-L2S14J100008S0J13VJ200.html",
+   "b": "range"
   },
-  "prices": [[220, 425], [265, 285], [395, 430], [430, 725], [485, 825], [420, 1425], [900, 6250], [565, 600]],
-  "notes": {
-    "tech": "the Osti garment-dye laboratory — prototype research as identity",
-    "synth": "technical nylons and resin-dyed shells",
-    "status": "the compass badge — terrace status with four decades of code",
-    "ital": "the Italian garment-dye laboratory tradition, industrialized",
-    "street": "the badge — terrace culture to hip-hop",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 3; retired 28 Sep 2026]",
-    "logo": "The compass badge is on essentially every piece and is the brand’s identity — a 4, prominent and universal, though not all-over. Ruled by Sebastian 28 Sep 2026; the rest of the dial is seeded and provisional.",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Stone Island dyes garments in its own department at its Ravarino headquarters, and Moncler's 2024 annual report says modelling, prototyping and dyeing are done internally there, while the garments themselves are made by third parties in Italy, the Mediterranean and the Far East. Its product pages describe processes in detail (garment dyeing, lamination, hand-spraying) but name no factory, no mill and, in the fetched text, no country. Owned making of one signature stage, not the range: a 4. [audit proposed 4 at low confidence; held at 4 pending a second read]"
+  "Dress pants": {
+   "lp": "3100044 Brushed Organic Cotton Canvas 'Old' Effect regular-fit chino pants",
+   "lu": "https://www.stoneisland.com/en-us/collection/pants-and-shorts/regular-fit-chino-pants-with-snap-pockets-3100044-brushed-organic-cotton-canvas-old-effect-L1S153100044S00WAV0120.html",
+   "hp": "3100025 Raw Hand Wool Cotton Gabardine-TC_S.I. Ghost regular-fit chino pants",
+   "hu": "https://www.stoneisland.com/en-us/collection/pants-and-shorts/regular-fit-chino-pants-with-pockets-3100025-raw-hand-wool-cotton-gabardine-tc_s.i.-ghost-L2S153100025S0F50V0020.html",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 4,
-    "cities": [["Costa Mesa", "CA", 1], ["Los Angeles", "CA", 1], ["Miami", "FL", 1], ["New York", "NY", 1]],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Sweater": {
+   "lp": "5100062 Light Raw Hand Organic Cotton regular-fit crewneck sweater",
+   "lu": "https://www.stoneisland.com/en-us/collection/knitwear/regular-fit-crewneck-sweater-with-rolled-edges-5100062-light-raw-hand-organic-cotton-L1S155100062S00B9V0061.html",
+   "hp": "5100036 Cashmere_S.I. Ghost regular-fit crewneck sweater",
+   "hu": "https://www.stoneisland.com/en-us/collection/knitwear/regular-fit-crewneck-sweater-with-raglan-sleeves-5100036-cashmere_s.i.-ghost-L2S155100036S01FFV0029.html",
+   "b": "pair"
   },
-  "cities": "4 stores — Costa Mesa, Los Angeles, Miami, New York · department stores, and its own site",
-  "region": {
-    "o": [2584],
-    "s": []
+  "Outerwear": {
+   "lp": "4100006 Indigo Denim-Rinsed coach jacket",
+   "lu": "https://www.stoneisland.com/en-us/collection/coats-and-jackets/coach-jacket-with-button-fastening-4100006-indigo-denim-rinsed-L1S144100006S00J7VJ201.html",
+   "hp": "0100004 Bonded Rubberised Leather_S.I. Ghost coach jacket",
+   "hu": "https://www.stoneisland.com/en-us/collection/coats-and-jackets/coach-jacket-with-sprayed-rubberised-finish-0100004-bonded-rubberised-leather_s.i.-ghost-L2S150100004S0F49V0054.html",
+   "b": "pair"
   },
-  "site": {
-    "domain": "stoneisland.com",
-    "platform": "salesforce_commerce",
-    "feed": "sitemap_products",
-    "feed_count": 1166,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "licensed",
-    "marks": [
-      "-TC (Tinto Capo)",
-      "Corrosion Treatment",
-      "Crinkle Reps",
-      "David-TC",
-      "ECONYL",
-      "GORE-TEX",
-      "Micro Reps",
-      "Nylon Metal",
-      "PrimaLoft",
-      "Raso Gommato",
-      "S.I. Ghost"
-    ],
-    "source": "origin_8",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 200,
-    "w": 200,
-    "n": 70,
-    "s": 30,
-    "c": 0,
-    "x": 23,
-    "xh": 12,
-    "sp": "split",
-    "sc": ["Coats & Jackets"],
-    "nc": ["Knitwear", "Pants & Shorts", "Fleecewear"],
-    "st": "complete"
-  },
-  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants", "Shoes"],
-  "garment_links": {
-    "T-shirt": "https://www.stoneisland.com/en-us/collection/polos-and-t-shirts",
-    "Polo": "https://www.stoneisland.com/en-us/collection/polos-and-t-shirts",
-    "Dress pants": "https://www.stoneisland.com/en-us/collection/pants-and-shorts",
-    "Sweater": "https://www.stoneisland.com/en-us/collection/knitwear",
-    "Outerwear": "https://www.stoneisland.com/en-us/collection/coats-and-jackets"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "2100027 60/2 Cotton Jersey slim-fit T-shirt with Compass patch",
-      "lu": "https://www.stoneisland.com/en-us/collection/polos-and-t-shirts/slim-fit-t-shirt-with-compass-patch-2100027-60%2F2-cotton-jersey-L2S152100027S0013V002B.html",
-      "hp": "2100024 Uneven Pigment Dyed Organic Cotton Jersey regular-fit T-shirt",
-      "hu": "https://www.stoneisland.com/en-us/collection/polos-and-t-shirts/regular-fit-pigment-dyed-t-shirt-2100024-uneven-pigment-dyed-organic-cotton-jersey-L2S152100024S00V3V003B.html",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "2200011 50/2 Organic Cotton Piqué regular-fit short-sleeve polo with Compass patch",
-      "lu": "https://www.stoneisland.com/en-us/collection/polos-and-t-shirts/regular-fit-short-sleeve-polo-with-compass-patch-2200011-50%2F2-organic-cotton-piqu%C3%A9-L2S152200011S0039V005G.html",
-      "hp": "2200002 50/2 Organic Cotton Piqué polo shirt with archival logo embroidery",
-      "hu": "https://www.stoneisland.com/en-us/collection/polos-and-t-shirts/regular-fit-polo-shirt-with-archival-logo-embroidery-2200002-50%2F2-organic-cotton-piqu%C3%A9-L2S152200002S0039V002E.html",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "1100004 Organic Cotton Oxford comfort-fit long-sleeve shirt",
-      "lu": "https://www.stoneisland.com/en-us/collection/shirts/comfort-fit-long-sleeve-shirt-with-logo-embroidery-1100004-organic-cotton-oxford-L1S151100004S0315V0093.html",
-      "hp": "1100002 Organic Cotton Tela 'Paracadute' comfort-fit long-sleeve shirt",
-      "hu": "https://www.stoneisland.com/en-us/collection/shirts/comfort-fit-long-sleeve-shirt-with-chest-pocket-1100002-organic-cotton-tela-%27paracadute%27-L2S151100002S0168V002A.html",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "J100007 Stretch Indigo Denim-Rinsed slim-fit five-pocket jeans",
-      "lu": "https://www.stoneisland.com/en-us/collection/pants-and-shorts/slim-fit-five-pocket-jeans-j100007-stretch-indigo-denim-rinsed-L2S14J100007S0J12VJ201.html",
-      "hp": "J100008 Selvedge Indigo Denim-Raw regular-fit five-pocket jeans",
-      "hu": "https://www.stoneisland.com/en-us/collection/pants-and-shorts/regular-fit-selvage-five-pocket-jeans-j100008-selvedge-indigo-denim-raw-L2S14J100008S0J13VJ200.html",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "3100044 Brushed Organic Cotton Canvas 'Old' Effect regular-fit chino pants",
-      "lu": "https://www.stoneisland.com/en-us/collection/pants-and-shorts/regular-fit-chino-pants-with-snap-pockets-3100044-brushed-organic-cotton-canvas-old-effect-L1S153100044S00WAV0120.html",
-      "hp": "3100025 Raw Hand Wool Cotton Gabardine-TC_S.I. Ghost regular-fit chino pants",
-      "hu": "https://www.stoneisland.com/en-us/collection/pants-and-shorts/regular-fit-chino-pants-with-pockets-3100025-raw-hand-wool-cotton-gabardine-tc_s.i.-ghost-L2S153100025S0F50V0020.html",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "5100062 Light Raw Hand Organic Cotton regular-fit crewneck sweater",
-      "lu": "https://www.stoneisland.com/en-us/collection/knitwear/regular-fit-crewneck-sweater-with-rolled-edges-5100062-light-raw-hand-organic-cotton-L1S155100062S00B9V0061.html",
-      "hp": "5100036 Cashmere_S.I. Ghost regular-fit crewneck sweater",
-      "hu": "https://www.stoneisland.com/en-us/collection/knitwear/regular-fit-crewneck-sweater-with-raglan-sleeves-5100036-cashmere_s.i.-ghost-L2S155100036S01FFV0029.html",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "4100006 Indigo Denim-Rinsed coach jacket",
-      "lu": "https://www.stoneisland.com/en-us/collection/coats-and-jackets/coach-jacket-with-button-fastening-4100006-indigo-denim-rinsed-L1S144100006S00J7VJ201.html",
-      "hp": "0100004 Bonded Rubberised Leather_S.I. Ghost coach jacket",
-      "hu": "https://www.stoneisland.com/en-us/collection/coats-and-jackets/coach-jacket-with-sprayed-rubberised-finish-0100004-bonded-rubberised-leather_s.i.-ghost-L2S150100004S0F49V0054.html",
-      "b": "pair"
-    },
-    "Shoes": {
-      "lp": "S100010 Poly Mesh low-top sneaker with Compass patch",
-      "lu": "https://www.stoneisland.com/en-us/collection/shoes/low-top-sneaker-with-compass-patch-s100010-poly-mesh-L1SFWS100010S0448V009D.html",
-      "hp": "S100020 Canvas Suede low-top sneakers with Compass logo patch",
-      "hu": "https://www.stoneisland.com/en-us/collection/shoes/low-top-sneakers-with-compass-logo-patch-s100020-canvas-suede-L2SFWS100020S0538V0029.html",
-      "b": "range"
-    }
-  },
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.stoneisland.com/en-us/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "S.I. Ghost, S.I. Stellina (sold under Stone Island in its own US store); Shadow Project and Marina not on the US store"
-  },
-  "price_checked": true,
-  "shop": "https://www.stoneisland.com/en-us/search/?query=",
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=73306",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "season": {
-    "l": "Fall_Winter '026-'027 (FW '026-'027)",
-    "t": "campaign",
-    "u": "https://www.stoneisland.com/en-us/autumn-winter-26-27-collection.html",
-    "m": "yes"
-  },
-  "craft_evidence": {
-    "owned": "yes",
-    "owned_d": "Garment-dyeing department (the 'Tintoria' / colour lab, ~60,000 colour recipes) operated in-house by Stone Island at its own headquarters in Ravarino (Modena). Moncler Group 2024 annual report (p.21): 'The complete product development cycle is managed internally, at its Headquarters in Ravarino' — 'modelling, prototypes and dyeing'. monclergroup.com Ravarino page: HQ is where 'garment-dyeing' happens. Stone Island's own (via Sportswear Company S.p.A., Moncler subsidiary since 31 Mar 2021), not a Moncler-group plant. Whether the building itself is owned or leased is not disclosed. Garment MAKING is not owned: annual report p.22 'Manufacturing is in Italy, in the Mediterranean basin and in the Far East, at established third-party companies'. Moncler's owned plants (Trebaseleghe, Romania, Veneto knitwear) are named for Moncler, not Stone Island.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "none",
-    "countries": "0/6 PDPs showed a country of make in the fetched text (overshirt, sweatshirt, 2 knits, jeans, jacket); origin may sit in a collapsed tab or the care label the fetcher cannot see — low confidence on 'none'. Group-level: Italy, Mediterranean basin, Far East (Moncler AR 2024 p.22).",
-    "heritage": "dated and placed",
-    "repair": "yes",
-    "process": "yes",
-    "urls": [
-      "https://www.monclergroup.com/v3/assets/blt61bda6b71f29a239/blt415fe73be2e3f2a6/68b0043d1268fb8d785f3107/moncler-group-annual-report-2024.pdf",
-      "https://www.monclergroup.com/en/group/stone-island-locations/ravarino-headquarters"
-    ],
-    "conf": "low",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "S100010 Poly Mesh low-top sneaker with Compass patch",
+   "lu": "https://www.stoneisland.com/en-us/collection/shoes/low-top-sneaker-with-compass-patch-s100010-poly-mesh-L1SFWS100010S0448V009D.html",
+   "hp": "S100020 Canvas Suede low-top sneakers with Compass logo patch",
+   "hu": "https://www.stoneisland.com/en-us/collection/shoes/low-top-sneakers-with-compass-logo-patch-s100020-canvas-suede-L2SFWS100020S0538V0029.html",
+   "b": "range"
   }
+ },
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.stoneisland.com/en-us/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "S.I. Ghost, S.I. Stellina (sold under Stone Island in its own US store); Shadow Project and Marina not on the US store"
+ },
+ "price_checked": true,
+ "shop": "https://www.stoneisland.com/en-us/search/?query=",
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=73306",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "season": {
+  "l": "Fall_Winter '026-'027 (FW '026-'027)",
+  "t": "campaign",
+  "u": "https://www.stoneisland.com/en-us/autumn-winter-26-27-collection.html",
+  "m": "yes"
+ },
+ "craft_evidence": {
+  "owned": "yes",
+  "owned_d": "Garment-dyeing department (the 'Tintoria' / colour lab, ~60,000 colour recipes) operated in-house by Stone Island at its own headquarters in Ravarino (Modena). Moncler Group 2024 annual report (p.21): 'The complete product development cycle is managed internally, at its Headquarters in Ravarino' — 'modelling, prototypes and dyeing'. monclergroup.com Ravarino page: HQ is where 'garment-dyeing' happens. Stone Island's own (via Sportswear Company S.p.A., Moncler subsidiary since 31 Mar 2021), not a Moncler-group plant. Whether the building itself is owned or leased is not disclosed. Garment MAKING is not owned: annual report p.22 'Manufacturing is in Italy, in the Mediterranean basin and in the Far East, at established third-party companies'. Moncler's owned plants (Trebaseleghe, Romania, Veneto knitwear) are named for Moncler, not Stone Island.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "none",
+  "countries": "0/6 PDPs showed a country of make in the fetched text (overshirt, sweatshirt, 2 knits, jeans, jacket); origin may sit in a collapsed tab or the care label the fetcher cannot see — low confidence on 'none'. Group-level: Italy, Mediterranean basin, Far East (Moncler AR 2024 p.22).",
+  "heritage": "dated and placed",
+  "repair": "yes",
+  "process": "yes",
+  "urls": [
+   "https://www.monclergroup.com/v3/assets/blt61bda6b71f29a239/blt415fe73be2e3f2a6/68b0043d1268fb8d785f3107/moncler-group-annual-report-2024.pdf",
+   "https://www.monclergroup.com/en/group/stone-island-locations/ravarino-headquarters"
+  ],
+  "conf": "low",
+  "read": "2026-10-03"
+ }
 }

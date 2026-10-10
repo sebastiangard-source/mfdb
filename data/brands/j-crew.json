@@ -1,353 +1,821 @@
 {
-  "name": "J.Crew",
-  "band": "premium",
-  "seat": 8,
-  "dagger": 0,
-  "focus": {
-    "tech": 1,
-    "comfort": 3,
-    "craft": 3,
-    "style": 3
+ "name": "J.Crew",
+ "band": "premium",
+ "seat": 8,
+ "dagger": 0,
+ "focus": {
+  "tech": 1,
+  "comfort": 3,
+  "craft": 3,
+  "style": 3
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 3,
+  "linen": 3,
+  "cotton": 3,
+  "wool": 2,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 4,
+  "fuss": 1,
+  "golffice": -1,
+  "finbro": 2,
+  "ivy": 4,
+  "murica": 3,
+  "prep": 4,
+  "boat": 2,
+  "racquet": 2,
+  "whitet": 2,
+  "logo": 2,
+  "western": 1,
+  "rock": 1,
+  "workwear": 2,
+  "outdoor": 1,
+  "surf": 2
+ },
+ "why": "American casual clothing — chinos, oxford shirts, cashmere, linen — sold at scale through its own stores and site.",
+ "origin": "Launched as a catalog in 1983 by Arthur Cinader and Emily Scott.",
+ "chan": [
+  "O",
+  "X"
+ ],
+ "conf": "S",
+ "forgc": [
+  4,
+  5,
+  2
+ ],
+ "shop": "https://www.jcrew.com/search?term=",
+ "onething": {
+  "p": "1988 Rollneck sweater",
+  "u": "https://www.jcrew.com/p/mens/categories/clothing/sweaters/pullover/heritage-cotton-rollnecktrade-sweater/BJ511",
+  "n": "men’s-path listing of the rollneck reissue (BJ511) — the BW186 women’s-path page sells the same men’s-sized original"
+ },
+ "prices": [
+  [
+   37,
+   70
+  ],
+  [
+   55,
+   198
+  ],
+  [
+   90,
+   148
+  ],
+  [
+   148,
+   350
+  ],
+  [
+   128,
+   348
+  ],
+  [
+   80,
+   298
+  ],
+  [
+   178,
+   898
+  ],
+  [
+   168,
+   450
+  ]
+ ],
+ "notes": {
+  "ivy": "Ivy democratized by catalog — the style's mass-market translation",
+  "prep": "Prep translated for a mall and then translated back, and the catalog defined how a generation of Americans understood the register. Its authority is editorial rather than institutional.",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 5; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "J.Crew owns no making and names no factories or mills on the responsibility, fabrics or about pages; its 2025 impact report speaks only of suppliers and says roughly 46% of production is in Vietnam. It runs resale and take-back (J.Crew Always with thredUP; Second-Life Swim and Crewcuts with SuperCircle), which is context, not making. [audit proposed 2 at low confidence; held at 3 pending a second read]"
+ },
+ "fibre": {
+  "t": 492,
+  "w": 458,
+  "n": 90,
+  "s": 3,
+  "c": 0,
+  "x": 13,
+  "xh": null,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "Suiting (Ludlow etc.)",
+   "Sweaters",
+   "Knits (tees/polos)"
+  ],
+  "st": "complete"
+ },
+ "doors": {
+  "c": "full",
+  "n": 114,
+  "cities": [
+   [
+    "Alpharetta",
+    "GA",
+    1
+   ],
+   [
+    "Ann Arbor",
+    "MI",
+    1
+   ],
+   [
+    "Arlington",
+    "VA",
+    1
+   ],
+   [
+    "Atlanta",
+    "GA",
+    3
+   ],
+   [
+    "Austin",
+    "TX",
+    2
+   ],
+   [
+    "Aventura",
+    "FL",
+    1
+   ],
+   [
+    "Baltimore",
+    "MD",
+    1
+   ],
+   [
+    "Bellevue",
+    "WA",
+    1
+   ],
+   [
+    "Bethesda",
+    "MD",
+    1
+   ],
+   [
+    "Bloomington",
+    "MN",
+    1
+   ],
+   [
+    "Boston",
+    "MA",
+    2
+   ],
+   [
+    "Bridgewater",
+    "NJ",
+    1
+   ],
+   [
+    "Brooklyn",
+    "NY",
+    1
+   ],
+   [
+    "Buffalo",
+    "NY",
+    1
+   ],
+   [
+    "Burlington",
+    "MA",
+    1
+   ],
+   [
+    "Charleston",
+    "SC",
+    1
+   ],
+   [
+    "Charlotte",
+    "NC",
+    1
+   ],
+   [
+    "Chattanooga",
+    "TN",
+    1
+   ],
+   [
+    "Cherry Hill",
+    "NJ",
+    1
+   ],
+   [
+    "Chestnut Hill",
+    "MA",
+    1
+   ],
+   [
+    "Chicago",
+    "IL",
+    2
+   ],
+   [
+    "Cincinnati",
+    "OH",
+    1
+   ],
+   [
+    "Columbia",
+    "MD",
+    1
+   ],
+   [
+    "Columbus",
+    "OH",
+    1
+   ],
+   [
+    "Coral Gables",
+    "FL",
+    1
+   ],
+   [
+    "Corte Madera",
+    "CA",
+    1
+   ],
+   [
+    "Costa Mesa",
+    "CA",
+    1
+   ],
+   [
+    "Cranston",
+    "RI",
+    1
+   ],
+   [
+    "Dallas",
+    "TX",
+    1
+   ],
+   [
+    "Dedham",
+    "MA",
+    1
+   ],
+   [
+    "Denver",
+    "CO",
+    1
+   ],
+   [
+    "Durham",
+    "NC",
+    1
+   ],
+   [
+    "East Hampton",
+    "NY",
+    1
+   ],
+   [
+    "Edina",
+    "MN",
+    1
+   ],
+   [
+    "Farmington",
+    "CT",
+    1
+   ],
+   [
+    "Fort Worth",
+    "TX",
+    1
+   ],
+   [
+    "Garden City",
+    "NY",
+    1
+   ],
+   [
+    "Glen Mills",
+    "PA",
+    1
+   ],
+   [
+    "Grand Rapids",
+    "MI",
+    1
+   ],
+   [
+    "Greenwich",
+    "CT",
+    1
+   ],
+   [
+    "Hackensack",
+    "NJ",
+    1
+   ],
+   [
+    "Hanover",
+    "NH",
+    1
+   ],
+   [
+    "Henrico",
+    "VA",
+    1
+   ],
+   [
+    "Hingham",
+    "MA",
+    1
+   ],
+   [
+    "Houston",
+    "TX",
+    1
+   ],
+   [
+    "Huntington Station",
+    "NY",
+    1
+   ],
+   [
+    "Hyannis",
+    "MA",
+    1
+   ],
+   [
+    "Indianapolis",
+    "IN",
+    1
+   ],
+   [
+    "Jacksonville",
+    "FL",
+    1
+   ],
+   [
+    "Kansas City",
+    "MO",
+    1
+   ],
+   [
+    "King of Prussia",
+    "PA",
+    1
+   ],
+   [
+    "Leawood",
+    "KS",
+    1
+   ],
+   [
+    "Los Angeles",
+    "CA",
+    1
+   ],
+   [
+    "Lynnfield",
+    "MA",
+    1
+   ],
+   [
+    "Manhasset",
+    "NY",
+    1
+   ],
+   [
+    "Mashpee",
+    "MA",
+    1
+   ],
+   [
+    "McLean",
+    "VA",
+    1
+   ],
+   [
+    "Mission Viejo",
+    "CA",
+    1
+   ],
+   [
+    "Murray",
+    "UT",
+    1
+   ],
+   [
+    "Nashville",
+    "TN",
+    1
+   ],
+   [
+    "Natick",
+    "MA",
+    1
+   ],
+   [
+    "New Canaan",
+    "CT",
+    1
+   ],
+   [
+    "New Haven",
+    "CT",
+    1
+   ],
+   [
+    "New Orleans",
+    "LA",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    9
+   ],
+   [
+    "Oakbrook",
+    "IL",
+    1
+   ],
+   [
+    "Oklahoma City",
+    "OK",
+    1
+   ],
+   [
+    "Orange Village",
+    "OH",
+    1
+   ],
+   [
+    "Palo Alto",
+    "CA",
+    1
+   ],
+   [
+    "Paramus",
+    "NJ",
+    1
+   ],
+   [
+    "Pasadena",
+    "CA",
+    1
+   ],
+   [
+    "Philadelphia",
+    "PA",
+    1
+   ],
+   [
+    "Phoenix",
+    "AZ",
+    1
+   ],
+   [
+    "Pittsburgh",
+    "PA",
+    1
+   ],
+   [
+    "Plano",
+    "TX",
+    1
+   ],
+   [
+    "Portland",
+    "OR",
+    1
+   ],
+   [
+    "Princeton",
+    "NJ",
+    1
+   ],
+   [
+    "Raleigh",
+    "NC",
+    1
+   ],
+   [
+    "Reston",
+    "VA",
+    1
+   ],
+   [
+    "Salt Lake City",
+    "UT",
+    1
+   ],
+   [
+    "San Antonio",
+    "TX",
+    1
+   ],
+   [
+    "San Diego",
+    "CA",
+    1
+   ],
+   [
+    "Santa Clara",
+    "CA",
+    1
+   ],
+   [
+    "Seattle",
+    "WA",
+    1
+   ],
+   [
+    "Short Hills",
+    "NJ",
+    1
+   ],
+   [
+    "Shrewsbury",
+    "NJ",
+    1
+   ],
+   [
+    "Skokie",
+    "IL",
+    1
+   ],
+   [
+    "Southampton",
+    "NY",
+    1
+   ],
+   [
+    "St Louis",
+    "MO",
+    1
+   ],
+   [
+    "Tampa",
+    "FL",
+    1
+   ],
+   [
+    "The Woodlands",
+    "TX",
+    1
+   ],
+   [
+    "Troy",
+    "MI",
+    1
+   ],
+   [
+    "Tulsa",
+    "OK",
+    1
+   ],
+   [
+    "Venice",
+    "CA",
+    1
+   ],
+   [
+    "Washington",
+    "DC",
+    1
+   ],
+   [
+    "Wauwatosa",
+    "WI",
+    1
+   ],
+   [
+    "West Des Moines",
+    "IA",
+    1
+   ],
+   [
+    "Westlake",
+    "OH",
+    1
+   ],
+   [
+    "Westport",
+    "CT",
+    1
+   ],
+   [
+    "White Plains",
+    "NY",
+    1
+   ],
+   [
+    "Woodcliff Lake",
+    "NJ",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 412,
+  "con": 0
+ },
+ "cities": "114 stores across the US, and its own site",
+ "region": {
+  "o": [
+   1608,
+   1609,
+   1610,
+   1611,
+   1612,
+   1630,
+   1631,
+   1632,
+   1633,
+   1634,
+   1635,
+   1636,
+   1637,
+   1638,
+   1639,
+   1653,
+   1654,
+   1655,
+   1656,
+   1657,
+   1658,
+   1659,
+   1660,
+   1661,
+   1662,
+   1663,
+   1664,
+   1665,
+   1666,
+   1667,
+   1668,
+   1669,
+   1670,
+   1671,
+   1672,
+   1673,
+   1674,
+   1675,
+   1676,
+   1677,
+   1678,
+   1686,
+   1687,
+   1688,
+   1689,
+   1690
+  ],
+  "s": []
+ },
+ "addmen": true,
+ "site": {
+  "domain": "jcrew.com",
+  "platform": "custom",
+  "feed": "sitemap_products",
+  "feed_count": 3608,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "both",
+  "marks": [
+   "Loro Piana (LICENSED)",
+   "PrimaLoft",
+   "COOLMAX",
+   "ECONYL",
+   "TENCEL",
+   "LYCRA",
+   "Thomas Mason",
+   "Baird McNutt Irish Linen",
+   "Secret Wash (house)",
+   "Seaboard soft knit (house)",
+   "Broken-in (house)"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "garment_links": {
+  "T-shirt": "https://www.jcrew.com/plp/mens/categories/clothing/tshirts-and-polos/t-shirts",
+  "Polo": "https://www.jcrew.com/plp/mens/categories/clothing/tshirts-and-polos/polos",
+  "Dress shirt": "https://www.jcrew.com/plp/mens/categories/clothing/dress-shirts",
+  "Jeans": "https://www.jcrew.com/plp/mens/categories/clothing/jeans",
+  "Dress pants": "https://www.jcrew.com/plp/mens/categories/clothing/pants-and-chinos",
+  "Sweater": "https://www.jcrew.com/plp/mens/categories/clothing/sweaters",
+  "Outerwear": "https://www.jcrew.com/plp/mens/categories/clothing/coats-and-jackets",
+  "Shoes": "https://www.jcrew.com/plp/mens/categories/shoes"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Broken-in T-shirt",
+   "lu": "https://www.jcrew.com/p/mens/categories/clothing/tshirts-and-polos/t-shirts/broken-in-t-shirt/CI156",
+   "hp": "Pima cotton T-shirt",
+   "hu": "https://www.jcrew.com/p/mens/categories/clothing/tshirts-and-polos/t-shirts/pima-cotton-t-shirt/CV298",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 2,
-    "cashmere": 3,
-    "linen": 3,
-    "cotton": 3,
-    "wool": 2,
-    "synth": 1
+  "Polo": {
+   "lp": "Sueded cotton polo shirt",
+   "lu": "https://www.jcrew.com/m/mens/categories/clothing/polos/sueded-polos/sueded-cotton-polo-shirt/MP053",
+   "hp": "Cashmere short-sleeve sweater-polo",
+   "hu": "https://www.jcrew.com/m/mens/categories/clothing/polos/sweater-polos/cashmere-short-sleeve-sweater-polo/ME572",
+   "b": "pair"
   },
-  "dials": {
-    "dur": 3,
-    "forg": 4,
-    "fuss": 1,
-    "golffice": -1,
-    "finbro": 2,
-    "ivy": 4,
-    "murica": 3,
-    "prep": 4,
-    "boat": 2,
-    "racquet": 2,
-    "whitet": 2,
-    "logo": 2,
-    "western": 1,
-    "rock": 1,
-    "workwear": 2,
-    "outdoor": 1,
-    "surf": 2
+  "Dress shirt": {
+   "lp": "Poplin shirt with point collar",
+   "lu": "https://www.jcrew.com/p/mens/categories/clothing/shirts/poplin-shirt-with-point-collar/CQ962",
+   "hp": "Slim-fit Ludlow Premium fine cotton dress shirt in dobby",
+   "hu": "https://www.jcrew.com/m/mens/categories/clothing/dress-shirts/ludlow-premium-dress-shirts/slim-fit-ludlow-premium-fine-cotton-dress-shirt-in-dobby/MP573",
+   "b": "range"
   },
-  "why": "American casual clothing — chinos, oxford shirts, cashmere, linen — sold at scale through its own stores and site.",
-  "origin": "Launched as a catalog in 1983 by Arthur Cinader and Emily Scott.",
-  "chan": ["O", "X"],
-  "conf": "S",
-  "forgc": [4, 5, 2],
-  "shop": "https://www.jcrew.com/search?term=",
-  "onething": {
-    "p": "1988 Rollneck sweater",
-    "u": "https://www.jcrew.com/p/mens/categories/clothing/sweaters/pullover/heritage-cotton-rollnecktrade-sweater/BJ511",
-    "n": "men’s-path listing of the rollneck reissue (BJ511) — the BW186 women’s-path page sells the same men’s-sized original"
+  "Jeans": {
+   "lp": "484 Slim-fit stretch jean in one-year wash",
+   "lu": "https://www.jcrew.com/m/mens/categories/clothing/jeans/slim/484-slim-fit-stretch-jean-in-one-year-wash/MQ250",
+   "hp": "Wallace & Barnes straight-fit jean in Japanese selvedge denim",
+   "hu": "https://www.jcrew.com/p/mens/categories/clothing/jeans/classic-straight/wallace-amp-barnes-straight-fit-jean-in-japanese-selvedge-denim/BW895",
+   "b": "range"
   },
-  "prices": [[37, 70], [55, 198], [90, 148], [148, 350], [128, 348], [80, 298], [178, 898], [168, 450]],
-  "notes": {
-    "ivy": "Ivy democratized by catalog — the style's mass-market translation",
-    "prep": "Prep translated for a mall and then translated back, and the catalog defined how a generation of Americans understood the register. Its authority is editorial rather than institutional.",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 5; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "J.Crew owns no making and names no factories or mills on the responsibility, fabrics or about pages; its 2025 impact report speaks only of suppliers and says roughly 46% of production is in Vietnam. It runs resale and take-back (J.Crew Always with thredUP; Second-Life Swim and Crewcuts with SuperCircle), which is context, not making. [audit proposed 2 at low confidence; held at 3 pending a second read]"
+  "Dress pants": {
+   "lp": "Classic-fit linen trouser",
+   "lu": "https://www.jcrew.com/p/mens/categories/clothing/pants-and-chinos/linen/classic-fit-linen-trouser/CO454",
+   "hp": "Crosby Classic-fit suit pant in Italian wool flannel",
+   "hu": "https://www.jcrew.com/p/mens/categories/clothing/suits-and-tuxedos/suit-pants/crosby-classic-fit-suit-pant-in-italian-wool-flannel/CW066",
+   "b": "range"
   },
-  "fibre": {
-    "t": 492,
-    "w": 458,
-    "n": 90,
-    "s": 3,
-    "c": 0,
-    "x": 13,
-    "xh": null,
-    "sp": "one",
-    "sc": [],
-    "nc": ["Suiting (Ludlow etc.)", "Sweaters", "Knits (tees/polos)"],
-    "st": "complete"
+  "Sweater": {
+   "lp": "Pima cotton crewneck sweater",
+   "lu": "https://www.jcrew.com/p/mens/categories/clothing/sweaters/crewneck/pima-cotton-crewneck-sweater/CP719",
+   "hp": "Cashmere cable-knit sweater",
+   "hu": "https://www.jcrew.com/m/mens/categories/clothing/sweaters/crewneck/cashmere-cable-knit-sweater/MP468",
+   "b": "pair"
   },
-  "doors": {
-    "c": "full",
-    "n": 112,
-    "cities": [
-      ["Alpharetta", "GA", 1],
-      ["Ann Arbor", "MI", 1],
-      ["Arlington", "VA", 1],
-      ["Atlanta", "GA", 3],
-      ["Austin", "TX", 2],
-      ["Aventura", "FL", 1],
-      ["Baltimore", "MD", 1],
-      ["Bellevue", "WA", 1],
-      ["Bethesda", "MD", 1],
-      ["Bloomington", "MN", 1],
-      ["Boston", "MA", 2],
-      ["Bridgewater", "NJ", 1],
-      ["Brooklyn", "NY", 1],
-      ["Buffalo", "NY", 1],
-      ["Burlington", "MA", 1],
-      ["Charleston", "SC", 1],
-      ["Charlotte", "NC", 1],
-      ["Chattanooga", "TN", 1],
-      ["Cherry Hill", "NJ", 1],
-      ["Chestnut Hill", "MA", 1],
-      ["Chicago", "IL", 2],
-      ["Cincinnati", "OH", 1],
-      ["Columbia", "MD", 1],
-      ["Columbus", "OH", 1],
-      ["Coral Gables", "FL", 1],
-      ["Corte Madera", "CA", 1],
-      ["Costa Mesa", "CA", 1],
-      ["Cranston", "RI", 1],
-      ["Dallas", "TX", 1],
-      ["Dedham", "MA", 1],
-      ["Denver", "CO", 1],
-      ["Durham", "NC", 1],
-      ["East Hampton", "NY", 1],
-      ["Edina", "MN", 1],
-      ["Farmington", "CT", 1],
-      ["Fort Worth", "TX", 1],
-      ["Garden City", "NY", 1],
-      ["Glen Mills", "PA", 1],
-      ["Grand Rapids", "MI", 1],
-      ["Greenwich", "CT", 1],
-      ["Hackensack", "NJ", 1],
-      ["Hanover", "NH", 1],
-      ["Henrico", "VA", 1],
-      ["Hingham", "MA", 1],
-      ["Houston", "TX", 1],
-      ["Huntington Station", "NY", 1],
-      ["Hyannis", "MA", 1],
-      ["Indianapolis", "IN", 1],
-      ["Jacksonville", "FL", 1],
-      ["Kansas City", "MO", 1],
-      ["King of Prussia", "PA", 1],
-      ["Leawood", "KS", 1],
-      ["Los Angeles", "CA", 1],
-      ["Lynnfield", "MA", 1],
-      ["Manhasset", "NY", 1],
-      ["Mashpee", "MA", 1],
-      ["McLean", "VA", 1],
-      ["Mission Viejo", "CA", 1],
-      ["Murray", "UT", 1],
-      ["Nashville", "TN", 1],
-      ["Natick", "MA", 1],
-      ["New Canaan", "CT", 1],
-      ["New Haven", "CT", 1],
-      ["New Orleans", "LA", 1],
-      ["New York", "NY", 7],
-      ["Oakbrook", "IL", 1],
-      ["Oklahoma City", "OK", 1],
-      ["Orange Village", "OH", 1],
-      ["Palo Alto", "CA", 1],
-      ["Paramus", "NJ", 1],
-      ["Pasadena", "CA", 1],
-      ["Philadelphia", "PA", 1],
-      ["Phoenix", "AZ", 1],
-      ["Pittsburgh", "PA", 1],
-      ["Plano", "TX", 1],
-      ["Portland", "OR", 1],
-      ["Princeton", "NJ", 1],
-      ["Raleigh", "NC", 1],
-      ["Reston", "VA", 1],
-      ["Salt Lake City", "UT", 1],
-      ["San Antonio", "TX", 1],
-      ["San Diego", "CA", 1],
-      ["Santa Clara", "CA", 1],
-      ["Seattle", "WA", 1],
-      ["Short Hills", "NJ", 1],
-      ["Shrewsbury", "NJ", 1],
-      ["Skokie", "IL", 1],
-      ["Southampton", "NY", 1],
-      ["St Louis", "MO", 1],
-      ["Tampa", "FL", 1],
-      ["The Woodlands", "TX", 1],
-      ["Troy", "MI", 1],
-      ["Tulsa", "OK", 1],
-      ["Venice", "CA", 1],
-      ["Washington", "DC", 1],
-      ["Wauwatosa", "WI", 1],
-      ["West Des Moines", "IA", 1],
-      ["Westlake", "OH", 1],
-      ["Westport", "CT", 1],
-      ["White Plains", "NY", 1],
-      ["Woodcliff Lake", "NJ", 1]
-    ],
-    "basis": "master 2026-08-29, pre-recapture",
-    "addressed": 32
+  "Outerwear": {
+   "lp": "Harrington jacket in cotton twill",
+   "lu": "https://www.jcrew.com/p/mens/categories/clothing/coats-and-jackets/bomber-jacket/harrington-jacket-in-cotton-twill/BJ059",
+   "hp": "Harrington jacket in Italian suede",
+   "hu": "https://www.jcrew.com/p/mens/categories/clothing/coats-and-jackets/bomber-jacket/harrington-jacket-in-italian-suede/BE436",
+   "b": "pair"
   },
-  "cities": "112 stores across the US, and its own site",
-  "region": {
-    "o": [
-      3135,
-      3136,
-      3137,
-      3138,
-      3139,
-      3140,
-      3141,
-      3142,
-      3143,
-      3144,
-      3145,
-      3146,
-      3147,
-      3148,
-      3149,
-      3150,
-      3151,
-      3152,
-      3153,
-      3154,
-      3155,
-      3156,
-      3157,
-      3158,
-      3159,
-      3160,
-      3161,
-      3162,
-      3163,
-      3164,
-      3165,
-      3166
-    ],
-    "s": []
-  },
-  "addmen": true,
-  "site": {
-    "domain": "jcrew.com",
-    "platform": "custom",
-    "feed": "sitemap_products",
-    "feed_count": 3608,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "both",
-    "marks": [
-      "Loro Piana (LICENSED)",
-      "PrimaLoft",
-      "COOLMAX",
-      "ECONYL",
-      "TENCEL",
-      "LYCRA",
-      "Thomas Mason",
-      "Baird McNutt Irish Linen",
-      "Secret Wash (house)",
-      "Seaboard soft knit (house)",
-      "Broken-in (house)"
-    ],
-    "source": "census",
-    "checked": "2026-09-12"
-  },
-  "garment_links": {
-    "T-shirt": "https://www.jcrew.com/plp/mens/categories/clothing/tshirts-and-polos/t-shirts",
-    "Polo": "https://www.jcrew.com/plp/mens/categories/clothing/tshirts-and-polos/polos",
-    "Dress shirt": "https://www.jcrew.com/plp/mens/categories/clothing/dress-shirts",
-    "Jeans": "https://www.jcrew.com/plp/mens/categories/clothing/jeans",
-    "Dress pants": "https://www.jcrew.com/plp/mens/categories/clothing/pants-and-chinos",
-    "Sweater": "https://www.jcrew.com/plp/mens/categories/clothing/sweaters",
-    "Outerwear": "https://www.jcrew.com/plp/mens/categories/clothing/coats-and-jackets",
-    "Shoes": "https://www.jcrew.com/plp/mens/categories/shoes"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Broken-in T-shirt",
-      "lu": "https://www.jcrew.com/p/mens/categories/clothing/tshirts-and-polos/t-shirts/broken-in-t-shirt/CI156",
-      "hp": "Pima cotton T-shirt",
-      "hu": "https://www.jcrew.com/p/mens/categories/clothing/tshirts-and-polos/t-shirts/pima-cotton-t-shirt/CV298",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Sueded cotton polo shirt",
-      "lu": "https://www.jcrew.com/m/mens/categories/clothing/polos/sueded-polos/sueded-cotton-polo-shirt/MP053",
-      "hp": "Cashmere short-sleeve sweater-polo",
-      "hu": "https://www.jcrew.com/m/mens/categories/clothing/polos/sweater-polos/cashmere-short-sleeve-sweater-polo/ME572",
-      "b": "pair"
-    },
-    "Dress shirt": {
-      "lp": "Poplin shirt with point collar",
-      "lu": "https://www.jcrew.com/p/mens/categories/clothing/shirts/poplin-shirt-with-point-collar/CQ962",
-      "hp": "Slim-fit Ludlow Premium fine cotton dress shirt in dobby",
-      "hu": "https://www.jcrew.com/m/mens/categories/clothing/dress-shirts/ludlow-premium-dress-shirts/slim-fit-ludlow-premium-fine-cotton-dress-shirt-in-dobby/MP573",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "484 Slim-fit stretch jean in one-year wash",
-      "lu": "https://www.jcrew.com/m/mens/categories/clothing/jeans/slim/484-slim-fit-stretch-jean-in-one-year-wash/MQ250",
-      "hp": "Wallace & Barnes straight-fit jean in Japanese selvedge denim",
-      "hu": "https://www.jcrew.com/p/mens/categories/clothing/jeans/classic-straight/wallace-amp-barnes-straight-fit-jean-in-japanese-selvedge-denim/BW895",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Classic-fit linen trouser",
-      "lu": "https://www.jcrew.com/p/mens/categories/clothing/pants-and-chinos/linen/classic-fit-linen-trouser/CO454",
-      "hp": "Crosby Classic-fit suit pant in Italian wool flannel",
-      "hu": "https://www.jcrew.com/p/mens/categories/clothing/suits-and-tuxedos/suit-pants/crosby-classic-fit-suit-pant-in-italian-wool-flannel/CW066",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Pima cotton crewneck sweater",
-      "lu": "https://www.jcrew.com/p/mens/categories/clothing/sweaters/crewneck/pima-cotton-crewneck-sweater/CP719",
-      "hp": "Cashmere cable-knit sweater",
-      "hu": "https://www.jcrew.com/m/mens/categories/clothing/sweaters/crewneck/cashmere-cable-knit-sweater/MP468",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "Harrington jacket in cotton twill",
-      "lu": "https://www.jcrew.com/p/mens/categories/clothing/coats-and-jackets/bomber-jacket/harrington-jacket-in-cotton-twill/BJ059",
-      "hp": "Harrington jacket in Italian suede",
-      "hu": "https://www.jcrew.com/p/mens/categories/clothing/coats-and-jackets/bomber-jacket/harrington-jacket-in-italian-suede/BE436",
-      "b": "pair"
-    },
-    "Shoes": {
-      "lp": "Camden leather loafers with rubber soles",
-      "lu": "https://www.jcrew.com/p/mens/categories/shoes/dress-shoes/camden-leather-loafers-with-rubber-soles/AV166",
-      "hp": "Essex loafers in leather",
-      "hu": "https://www.jcrew.com/p/mens/categories/shoes/dress-shoes/essex-loafers-in-leather/CV968",
-      "b": "pair"
-    }
-  },
-  "price_range_only": ["T-shirt", "Dress shirt", "Jeans", "Dress pants"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.jcrew.com/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "Wallace & Barnes"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=20179",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "J.Crew Group 2025 impact report refers only to suppliers and 'strategic factories' (~50% of production spend, ~42,000 workers); no owned factory claimed anywhere seen. Corporate responsibility page names no facility.",
-    "makers": "no",
-    "mills": "NC",
-    "madein": "NC",
-    "countries": "PDP origin text not visible in fetch (likely in a collapsed/JS tab). Brand-level: impact report says ~46% of production is in Vietnam (Mekong and Dong Nai river basins); cashmere from Inner Mongolia, sweaters made in Fair Trade Certified factories (fabrics page).",
-    "heritage": "vague",
-    "repair": "yes",
-    "process": "no",
-    "urls": [
-      "https://www.jcrew.com/brand_creative/pdf/JCG_2025_report_final.pdf",
-      "https://www.jcrew.com/feature/resale"
-    ],
-    "conf": "low",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Camden leather loafers with rubber soles",
+   "lu": "https://www.jcrew.com/p/mens/categories/shoes/dress-shoes/camden-leather-loafers-with-rubber-soles/AV166",
+   "hp": "Essex loafers in leather",
+   "hu": "https://www.jcrew.com/p/mens/categories/shoes/dress-shoes/essex-loafers-in-leather/CV968",
+   "b": "pair"
   }
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.jcrew.com/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "Wallace & Barnes"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=20179",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "J.Crew Group 2025 impact report refers only to suppliers and 'strategic factories' (~50% of production spend, ~42,000 workers); no owned factory claimed anywhere seen. Corporate responsibility page names no facility.",
+  "makers": "no",
+  "mills": "NC",
+  "madein": "NC",
+  "countries": "PDP origin text not visible in fetch (likely in a collapsed/JS tab). Brand-level: impact report says ~46% of production is in Vietnam (Mekong and Dong Nai river basins); cashmere from Inner Mongolia, sweaters made in Fair Trade Certified factories (fabrics page).",
+  "heritage": "vague",
+  "repair": "yes",
+  "process": "no",
+  "urls": [
+   "https://www.jcrew.com/brand_creative/pdf/JCG_2025_report_final.pdf",
+   "https://www.jcrew.com/feature/resale"
+  ],
+  "conf": "low",
+  "read": "2026-10-03"
+ }
 }

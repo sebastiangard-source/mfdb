@@ -1,189 +1,241 @@
 {
-  "name": "Rhoback",
-  "band": "premium",
-  "seat": 21,
-  "dagger": 1,
-  "focus": {
-    "tech": 4,
-    "comfort": 4,
-    "craft": 1,
-    "style": 2
+ "name": "Rhoback",
+ "band": "premium",
+ "seat": 21,
+ "dagger": 1,
+ "focus": {
+  "tech": 4,
+  "comfort": 4,
+  "craft": 1,
+  "style": 2
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 1,
+  "wool": 1,
+  "synth": 5
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 2,
+  "fuss": 2,
+  "golffice": 2,
+  "golf": 5,
+  "finbro": 4,
+  "murica": 4,
+  "prep": 3,
+  "racquet": 2,
+  "whitet": 3,
+  "logo": 2,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 2,
+  "surf": 3
+ },
+ "why": "Polos, quarter-zips and shorts in performance fabric, sold through golf shops and its own site.",
+ "origin": "Founded in 2016 by friends from the University of Virginia.",
+ "chan": [
+  "O",
+  "W",
+  "I"
+ ],
+ "conf": "L",
+ "forgc": [
+  2,
+  3,
+  1
+ ],
+ "shop": "https://rhoback.com/search?q=",
+ "onething": {
+  "p": "Performance Q-Zip",
+  "u": "https://rhoback.com/search?q=Performance%20Q-Zip%20men",
+  "n": "works"
+ },
+ "prices": [
+  [
+   58,
+   68
+  ],
+  [
+   94,
+   128
+  ],
+  [
+   118,
+   118
+  ],
+  null,
+  [
+   134,
+   134
+  ],
+  [
+   184,
+   194
+  ],
+  [
+   154,
+   248
+  ],
+  null
+ ],
+ "notes": {
+  "synth": "activewear polos as the whole line",
+  "golf": "activewear polos whose natural habitat is the first tee",
+  "finbro": "the young finance bro's weekend polo, worn to the office anyway",
+  "murica": "college-football-tailgate energy in polo form",
+  "whitet": "a named tee in the range — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 2; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "Rhoback's Our Story and Quality Promise pages say nothing about where or by whom its clothes are made, and its product pages list fiber content and nothing else about origin. Nothing checkable: a 1."
+ },
+ "doors": {
+  "c": "full",
+  "n": 1,
+  "cities": [
+   [
+    "Charlottesville",
+    "VA",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 0,
+  "con": 0
+ },
+ "cities": "One store, in Charlottesville · independent menswear shops, and its own site",
+ "region": {
+  "o": [],
+  "s": [
+   33
+  ]
+ },
+ "addmen": true,
+ "site": {
+  "domain": "rhoback.com",
+  "platform": "shopify",
+  "feed": "sitemap_products",
+  "feed_count": 597,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "unclear",
+  "marks": [
+   "FreeStride (TM) - house/proprietary fabric mark"
+  ],
+  "source": "flag_sample",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 148,
+  "w": 137,
+  "n": 14,
+  "s": 78,
+  "c": 0,
+  "x": 53,
+  "xh": 49,
+  "sp": "one",
+  "sc": [],
+  "nc": [],
+  "st": "complete"
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Sweater",
+  "Outerwear"
+ ],
+ "garment_links": {
+  "T-shirt": "https://rhoback.com/collections/mens-tops-tees",
+  "Polo": "https://rhoback.com/collections/mens-tops-polos",
+  "Dress pants": "https://rhoback.com/collections/mens-bottoms-pants",
+  "Sweater": "https://rhoback.com/collections/mens-tops-sweaters",
+  "Outerwear": "https://rhoback.com/collections/mens-tops-jackets-and-outerwear"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Tailwind Performance Tee - Solid Oxford Blue",
+   "lu": "https://rhoback.com/products/mens-tops-tailwind-performance-tee-solid-oxford-blue",
+   "hp": "Blitz Tech Tee 2.0 - Solid Shoal Blue",
+   "hu": "https://rhoback.com/products/mens-tops-blitz-tech-tee-2-0-solid-shoal-blue",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 1,
-    "linen": 1,
-    "cotton": 1,
-    "wool": 1,
-    "synth": 5
+  "Polo": {
+   "lp": "Blitz Tech Polo - Solid Fleet Navy",
+   "lu": "https://rhoback.com/products/blitz-tech-polo-solid-fleet-navy",
+   "hp": "Harbor Stretch Sweater Polo - Solid Ivory/Fleet Navy",
+   "hu": "https://rhoback.com/products/mens-tops-harbor-stretch-sweater-polo-solid-ivory-fleet-navy",
+   "b": "range"
   },
-  "dials": {
-    "dur": 3,
-    "forg": 2,
-    "fuss": 2,
-    "golffice": 2,
-    "golf": 5,
-    "finbro": 4,
-    "murica": 4,
-    "prep": 3,
-    "racquet": 2,
-    "whitet": 3,
-    "logo": 2,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 2,
-    "surf": 3
+  "Dress shirt": {
+   "lp": "Tailwind Performance Sport Shirt - Heather Coastal Blue/Potomac Blue",
+   "lu": "https://rhoback.com/products/mens-tops-tailwind-performance-sport-shirt-heather-coastal-blue-potomac-blue",
+   "hp": "Tailwind Performance Sport Shirt - Heather Coastal Blue/Potomac Blue",
+   "hu": "https://rhoback.com/products/mens-tops-tailwind-performance-sport-shirt-heather-coastal-blue-potomac-blue",
+   "b": "single"
   },
-  "why": "Polos, quarter-zips and shorts in performance fabric, sold through golf shops and its own site.",
-  "origin": "Founded in 2016 by friends from the University of Virginia.",
-  "chan": ["O", "W", "I"],
-  "conf": "L",
-  "forgc": [2, 3, 1],
-  "shop": "https://rhoback.com/search?q=",
-  "onething": {
-    "p": "Performance Q-Zip",
-    "u": "https://rhoback.com/search?q=Performance%20Q-Zip%20men",
-    "n": "works"
+  "Dress pants": {
+   "lp": "Preston Stretch-Cotton Pant - Solid Latte",
+   "lu": "https://rhoback.com/products/mens-bottoms-preston-stretch-cotton-pant-solid-latte",
+   "hp": "Preston Stretch-Cotton Pant - Solid Latte",
+   "hu": "https://rhoback.com/products/mens-bottoms-preston-stretch-cotton-pant-solid-latte",
+   "b": "single"
   },
-  "prices": [[58, 68], [94, 128], [118, 118], null, [134, 134], [184, 194], [154, 248], null],
-  "notes": {
-    "synth": "activewear polos as the whole line",
-    "golf": "activewear polos whose natural habitat is the first tee",
-    "finbro": "the young finance bro's weekend polo, worn to the office anyway",
-    "murica": "college-football-tailgate energy in polo form",
-    "whitet": "a named tee in the range — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 2; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Rhoback's Our Story and Quality Promise pages say nothing about where or by whom its clothes are made, and its product pages list fiber content and nothing else about origin. Nothing checkable: a 1."
+  "Sweater": {
+   "lp": "Hogan Sweater Hoodie - Heather Evergreen",
+   "lu": "https://rhoback.com/products/mens-tops-hogan-sweater-hoodie-heather-evergreen",
+   "hp": "Hogan Q-Zip Sweater - Heather Evergreen",
+   "hu": "https://rhoback.com/products/mens-tops-hogan-q-zip-sweater-heather-evergreen",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 1,
-    "cities": [["Charlottesville", "VA", 1]],
-    "basis": "master 2026-08-29, pre-recapture"
-  },
-  "cities": "One store, in Charlottesville · independent menswear shops, and its own site",
-  "region": {
-    "o": [],
-    "s": [33]
-  },
-  "addmen": true,
-  "site": {
-    "domain": "rhoback.com",
-    "platform": "shopify",
-    "feed": "sitemap_products",
-    "feed_count": 597,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "unclear",
-    "marks": ["FreeStride (TM) - house/proprietary fabric mark"],
-    "source": "flag_sample",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 148,
-    "w": 137,
-    "n": 14,
-    "s": 78,
-    "c": 0,
-    "x": 53,
-    "xh": 49,
-    "sp": "one",
-    "sc": [],
-    "nc": [],
-    "st": "complete"
-  },
-  "price_range_only": ["T-shirt", "Polo", "Sweater", "Outerwear"],
-  "garment_links": {
-    "T-shirt": "https://rhoback.com/collections/mens-tops-tees",
-    "Polo": "https://rhoback.com/collections/mens-tops-polos",
-    "Dress pants": "https://rhoback.com/collections/mens-bottoms-pants",
-    "Sweater": "https://rhoback.com/collections/mens-tops-sweaters",
-    "Outerwear": "https://rhoback.com/collections/mens-tops-jackets-and-outerwear"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Tailwind Performance Tee - Solid Oxford Blue",
-      "lu": "https://rhoback.com/products/mens-tops-tailwind-performance-tee-solid-oxford-blue",
-      "hp": "Blitz Tech Tee 2.0 - Solid Shoal Blue",
-      "hu": "https://rhoback.com/products/mens-tops-blitz-tech-tee-2-0-solid-shoal-blue",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Blitz Tech Polo - Solid Fleet Navy",
-      "lu": "https://rhoback.com/products/blitz-tech-polo-solid-fleet-navy",
-      "hp": "Harbor Stretch Sweater Polo - Solid Ivory/Fleet Navy",
-      "hu": "https://rhoback.com/products/mens-tops-harbor-stretch-sweater-polo-solid-ivory-fleet-navy",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Tailwind Performance Sport Shirt - Heather Coastal Blue/Potomac Blue",
-      "lu": "https://rhoback.com/products/mens-tops-tailwind-performance-sport-shirt-heather-coastal-blue-potomac-blue",
-      "hp": "Tailwind Performance Sport Shirt - Heather Coastal Blue/Potomac Blue",
-      "hu": "https://rhoback.com/products/mens-tops-tailwind-performance-sport-shirt-heather-coastal-blue-potomac-blue",
-      "b": "single"
-    },
-    "Dress pants": {
-      "lp": "Preston Stretch-Cotton Pant - Solid Latte",
-      "lu": "https://rhoback.com/products/mens-bottoms-preston-stretch-cotton-pant-solid-latte",
-      "hp": "Preston Stretch-Cotton Pant - Solid Latte",
-      "hu": "https://rhoback.com/products/mens-bottoms-preston-stretch-cotton-pant-solid-latte",
-      "b": "single"
-    },
-    "Sweater": {
-      "lp": "Hogan Sweater Hoodie - Heather Evergreen",
-      "lu": "https://rhoback.com/products/mens-tops-hogan-sweater-hoodie-heather-evergreen",
-      "hp": "Hogan Q-Zip Sweater - Heather Evergreen",
-      "hu": "https://rhoback.com/products/mens-tops-hogan-q-zip-sweater-heather-evergreen",
-      "b": "range"
-    },
-    "Outerwear": {
-      "lp": "Brookline Lightweight Jacket - Solid Fleet Navy",
-      "lu": "https://rhoback.com/products/mens-tops-brookline-lightweight-jacket-solid-fleet-navy",
-      "hp": "Glide Down Jacket - Solid Midnight Black",
-      "hu": "https://rhoback.com/products/glide-down-jacket-solid-midnight-black",
-      "b": "range"
-    }
-  },
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://rhoback.com/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=11038305",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "None found. 'Our Story' page covers the brand's philosophy (named for the Rhodesian Ridgeback) and design approach, with no factory, place or making detail; footer has no sustainability/supply-chain page. Only owned site named is a retail store in Charlottesville.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "none",
-    "countries": "None seen: 0/2 PDPs and 0/12 products.json descriptions (performance polos x6, hoodies x2, jogger, Sheffield shirt, women's polo, dog bandana) state a country or 'Imported'. Origin could sit in a tab the fetch did not render.",
-    "heritage": "none",
-    "repair": "no",
-    "process": "no",
-    "urls": [
-      "https://www.rhoback.com/pages/our-story",
-      "https://www.rhoback.com/products/mens-tops-sheffield-shirt-the-herringbone-jacquard-sepia-cocoa"
-    ],
-    "conf": "high",
-    "read": "2026-10-03"
+  "Outerwear": {
+   "lp": "Brookline Lightweight Jacket - Solid Fleet Navy",
+   "lu": "https://rhoback.com/products/mens-tops-brookline-lightweight-jacket-solid-fleet-navy",
+   "hp": "Glide Down Jacket - Solid Midnight Black",
+   "hu": "https://rhoback.com/products/glide-down-jacket-solid-midnight-black",
+   "b": "range"
   }
+ },
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://rhoback.com/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=11038305",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "None found. 'Our Story' page covers the brand's philosophy (named for the Rhodesian Ridgeback) and design approach, with no factory, place or making detail; footer has no sustainability/supply-chain page. Only owned site named is a retail store in Charlottesville.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "none",
+  "countries": "None seen: 0/2 PDPs and 0/12 products.json descriptions (performance polos x6, hoodies x2, jogger, Sheffield shirt, women's polo, dog bandana) state a country or 'Imported'. Origin could sit in a tab the fetch did not render.",
+  "heritage": "none",
+  "repair": "no",
+  "process": "no",
+  "urls": [
+   "https://www.rhoback.com/pages/our-story",
+   "https://www.rhoback.com/products/mens-tops-sheffield-shirt-the-herringbone-jacquard-sepia-cocoa"
+  ],
+  "conf": "high",
+  "read": "2026-10-03"
+ }
 }

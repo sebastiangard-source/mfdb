@@ -1,216 +1,289 @@
 {
-  "name": "Jil Sander",
-  "band": "trueLux",
-  "seat": 189,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 2,
-    "craft": 2,
-    "style": 5
-  },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 3,
-    "linen": 2,
-    "cotton": 3,
-    "wool": 3,
-    "synth": 1
-  },
-  "dials": {
-    "dur": 2,
-    "forg": 3,
-    "fuss": 2,
-    "status": 2,
-    "ital": 2,
-    "avant": 3,
-    "scandi": 2,
-    "whitet": 2,
-    "logo": 1,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
-  },
-  "why": "Minimalist tailoring and clothing in a precise cut, from the house that defined the style.",
-  "origin": "Founded in Hamburg in 1968 by Jil Sander.",
-  "chan": ["O", "D"],
-  "conf": "L",
-  "forgc": [4, 2, 1],
-  "shop": "https://www.jilsander.com/en-us/search?q=",
-  "onething": {
-    "p": "Cotton poplin shirt",
-    "u": "https://www.jilsander.com/en-us/search?q=poplin%20shirt",
-    "n": "own-site search, not opened from this environment. The placket, the cuff finish and the hand of the cloth do the work that no decoration is allowed to do. It has also outlasted three creative directors, which the tailoring has not"
-  },
-  "prices": [
-    [170, 490],
-    [650, 1490],
-    [850, 1990],
-    [1250, 1550],
-    [1090, 2250],
-    [990, 2550],
-    [1290, 6990],
-    [1150, 1490]
+ "name": "Jil Sander",
+ "band": "trueLux",
+ "seat": 189,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 2,
+  "craft": 2,
+  "style": 5
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 3,
+  "linen": 2,
+  "cotton": 3,
+  "wool": 3,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 2,
+  "forg": 3,
+  "fuss": 2,
+  "status": 2,
+  "ital": 2,
+  "avant": 3,
+  "scandi": 2,
+  "whitet": 2,
+  "logo": 1,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Minimalist tailoring and clothing in a precise cut, from the house that defined the style.",
+ "origin": "Founded in Hamburg in 1968 by Jil Sander.",
+ "chan": [
+  "O",
+  "D"
+ ],
+ "conf": "L",
+ "forgc": [
+  4,
+  2,
+  1
+ ],
+ "shop": "https://www.jilsander.com/en-us/search?q=",
+ "onething": {
+  "p": "Cotton poplin shirt",
+  "u": "https://www.jilsander.com/en-us/search?q=poplin%20shirt",
+  "n": "own-site search, not opened from this environment. The placket, the cuff finish and the hand of the cloth do the work that no decoration is allowed to do. It has also outlasted three creative directors, which the tailoring has not"
+ },
+ "prices": [
+  [
+   170,
+   490
   ],
-  "doors": {
-    "c": "full",
-    "n": 2,
-    "cities": [["Dallas", "TX", 1], ["New York", "NY", 1]],
-    "basis": "master 2026-08-29, pre-recapture"
+  [
+   650,
+   1490
+  ],
+  [
+   850,
+   1990
+  ],
+  [
+   1250,
+   1550
+  ],
+  [
+   1090,
+   2250
+  ],
+  [
+   990,
+   2550
+  ],
+  [
+   1290,
+   6990
+  ],
+  [
+   1150,
+   1490
+  ]
+ ],
+ "doors": {
+  "c": "full",
+  "n": 4,
+  "cities": [
+   [
+    "Costa Mesa",
+    "CA",
+    1
+   ],
+   [
+    "Dallas",
+    "TX",
+    1
+   ],
+   [
+    "Los Angeles",
+    "CA",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 0,
+  "con": 0
+ },
+ "cities": "4 stores — Dallas, New York · department stores and independent menswear shops, and its own site",
+ "region": {
+  "o": [
+   1933
+  ],
+  "s": [
+   123
+  ]
+ },
+ "addmen": true,
+ "site": {
+  "domain": "www.jilsander.com",
+  "platform": "salesforce_commerce",
+  "feed": "sitemap_products",
+  "feed_count": 934,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "licensed",
+  "marks": [
+   "Vibram",
+   "Lycra (composition_only)",
+   "water-repellent (generic descriptor)"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 124,
+  "w": 124,
+  "n": 83,
+  "s": 15,
+  "c": 2,
+  "x": 0,
+  "xh": 0,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "Knitwear and Sweatshirts",
+   "Shirts",
+   "Tops and T-Shirts"
+  ],
+  "st": "complete"
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants",
+  "Sweater"
+ ],
+ "garment_links": {
+  "T-shirt": "https://www.jilsander.com/en-us/men/ready-to-wear/tops-and-t-shirts",
+  "Polo": "https://www.jilsander.com/en-us/men/ready-to-wear/tops-and-t-shirts",
+  "Dress shirt": "https://www.jilsander.com/en-us/men/ready-to-wear/shirts",
+  "Jeans": "https://www.jilsander.com/en-us/men/ready-to-wear/denim",
+  "Dress pants": "https://www.jilsander.com/en-us/men/ready-to-wear/pants",
+  "Sweater": "https://www.jilsander.com/en-us/men/ready-to-wear/knitwear-and-sweatshirts",
+  "Outerwear": "https://www.jilsander.com/en-us/men/ready-to-wear/coats-and-jackets",
+  "Shoes": "https://www.jilsander.com/en-us/men/accessories/shoes"
+ },
+ "notes": {
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 2; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "style": "The house that defined minimalist tailoring; the cut is the brand.",
+  "craft": "Every Jil Sander product page checked says 'made in Italy' and nothing more: no factory, maker or mill is named. The about page gives a dated Hamburg/Milan history and OTB ownership but names no owned making. Country-only disclosure is a 2."
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Cotton Crew-Neck T-Shirt",
+   "lu": "https://www.jilsander.com/en-us/cotton-crew-neck-t-shirt/J21GC0004J45084406.html",
+   "hp": "Logo T-Shirt",
+   "hu": "https://www.jilsander.com/en-us/logo-t-shirt/J22GC0277J20348001.html",
+   "b": "range"
   },
-  "cities": "2 stores — Dallas, New York · department stores and independent menswear shops, and its own site",
-  "region": {
-    "o": [1301],
-    "s": [123]
+  "Polo": {
+   "lp": "Cotton Piquet Polo T-Shirt",
+   "lu": "https://www.jilsander.com/en-us/cotton-piquet-polo-t-shirt/J22GL0137J20374100.html",
+   "hp": "Lightweight Wool Polo T-Shirt",
+   "hu": "https://www.jilsander.com/en-us/lightweight-wool-polo-t-shirt/J22GL0142J14857403.html",
+   "b": "range"
   },
-  "addmen": true,
-  "site": {
-    "domain": "www.jilsander.com",
-    "platform": "salesforce_commerce",
-    "feed": "sitemap_products",
-    "feed_count": 934,
-    "status": "live_store",
-    "checked": "2026-09-13"
+  "Dress shirt": {
+   "lp": "Cotton Poplin Shirt",
+   "lu": "https://www.jilsander.com/en-us/cotton-poplin-shirt/J22DL0369J45335100.html",
+   "hp": "Cotton Shirt with Multi-Layered Collar",
+   "hu": "https://www.jilsander.com/en-us/cotton-shirt-with-multi-layered-collar/J21DL0280J45338508.html",
+   "b": "range"
   },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "licensed",
-    "marks": ["Vibram", "Lycra (composition_only)", "water-repellent (generic descriptor)"],
-    "source": "census",
-    "checked": "2026-09-12"
+  "Jeans": {
+   "lp": "Regular Denim Trousers",
+   "lu": "https://www.jilsander.com/en-us/regular-denim-trousers/J21KA0324J45352476.html",
+   "hp": "Relaxed Denim Trousers",
+   "hu": "https://www.jilsander.com/en-us/relaxed-denim-trousers/J22KA0357J45389031.html",
+   "b": "range"
   },
-  "fibre": {
-    "t": 124,
-    "w": 124,
-    "n": 83,
-    "s": 15,
-    "c": 2,
-    "x": 0,
-    "xh": 0,
-    "sp": "one",
-    "sc": [],
-    "nc": ["Knitwear and Sweatshirts", "Shirts", "Tops and T-Shirts"],
-    "st": "complete"
+  "Dress pants": {
+   "lp": "Wool Gabardine Tapered Trousers",
+   "lu": "https://www.jilsander.com/en-us/wool-gabardine-tapered-trousers/J21KA0011J40002001.html",
+   "hp": "Wool Flannel Trousers",
+   "hu": "https://www.jilsander.com/en-us/wool-flannel-trousers/J22KA0372J40333401.html",
+   "b": "range"
   },
-  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants", "Sweater"],
-  "garment_links": {
-    "T-shirt": "https://www.jilsander.com/en-us/men/ready-to-wear/tops-and-t-shirts",
-    "Polo": "https://www.jilsander.com/en-us/men/ready-to-wear/tops-and-t-shirts",
-    "Dress shirt": "https://www.jilsander.com/en-us/men/ready-to-wear/shirts",
-    "Jeans": "https://www.jilsander.com/en-us/men/ready-to-wear/denim",
-    "Dress pants": "https://www.jilsander.com/en-us/men/ready-to-wear/pants",
-    "Sweater": "https://www.jilsander.com/en-us/men/ready-to-wear/knitwear-and-sweatshirts",
-    "Outerwear": "https://www.jilsander.com/en-us/men/ready-to-wear/coats-and-jackets",
-    "Shoes": "https://www.jilsander.com/en-us/men/accessories/shoes"
+  "Sweater": {
+   "lp": "Wool Crew-Neck Sweater",
+   "lu": "https://www.jilsander.com/en-us/wool-crew-neck-sweater/J22GP0111J14610001.html",
+   "hp": "Technical Zip-Up Cardigan",
+   "hu": "https://www.jilsander.com/en-us/technical-zip-up-cardigan/J21HP0014J19165403.html",
+   "b": "range"
   },
-  "notes": {
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 2; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "style": "The house that defined minimalist tailoring; the cut is the brand.",
-    "craft": "Every Jil Sander product page checked says 'made in Italy' and nothing more: no factory, maker or mill is named. The about page gives a dated Hamburg/Milan history and OTB ownership but names no owned making. Country-only disclosure is a 2."
+  "Outerwear": {
+   "lp": "Wool Melton Zip-Up Jacket",
+   "lu": "https://www.jilsander.com/en-us/wool-melton-zip-up-jacket/J22HG0102J40045032.html",
+   "hp": "Leather Jacket",
+   "hu": "https://www.jilsander.com/en-us/leather-jacket/J21SW0127J07231001.html",
+   "b": "pair"
   },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Cotton Crew-Neck T-Shirt",
-      "lu": "https://www.jilsander.com/en-us/cotton-crew-neck-t-shirt/J21GC0004J45084406.html",
-      "hp": "Logo T-Shirt",
-      "hu": "https://www.jilsander.com/en-us/logo-t-shirt/J22GC0277J20348001.html",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Cotton Piquet Polo T-Shirt",
-      "lu": "https://www.jilsander.com/en-us/cotton-piquet-polo-t-shirt/J22GL0137J20374100.html",
-      "hp": "Lightweight Wool Polo T-Shirt",
-      "hu": "https://www.jilsander.com/en-us/lightweight-wool-polo-t-shirt/J22GL0142J14857403.html",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Cotton Poplin Shirt",
-      "lu": "https://www.jilsander.com/en-us/cotton-poplin-shirt/J22DL0369J45335100.html",
-      "hp": "Cotton Shirt with Multi-Layered Collar",
-      "hu": "https://www.jilsander.com/en-us/cotton-shirt-with-multi-layered-collar/J21DL0280J45338508.html",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Regular Denim Trousers",
-      "lu": "https://www.jilsander.com/en-us/regular-denim-trousers/J21KA0324J45352476.html",
-      "hp": "Relaxed Denim Trousers",
-      "hu": "https://www.jilsander.com/en-us/relaxed-denim-trousers/J22KA0357J45389031.html",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Wool Gabardine Tapered Trousers",
-      "lu": "https://www.jilsander.com/en-us/wool-gabardine-tapered-trousers/J21KA0011J40002001.html",
-      "hp": "Wool Flannel Trousers",
-      "hu": "https://www.jilsander.com/en-us/wool-flannel-trousers/J22KA0372J40333401.html",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Wool Crew-Neck Sweater",
-      "lu": "https://www.jilsander.com/en-us/wool-crew-neck-sweater/J22GP0111J14610001.html",
-      "hp": "Technical Zip-Up Cardigan",
-      "hu": "https://www.jilsander.com/en-us/technical-zip-up-cardigan/J21HP0014J19165403.html",
-      "b": "range"
-    },
-    "Outerwear": {
-      "lp": "Wool Melton Zip-Up Jacket",
-      "lu": "https://www.jilsander.com/en-us/wool-melton-zip-up-jacket/J22HG0102J40045032.html",
-      "hp": "Leather Jacket",
-      "hu": "https://www.jilsander.com/en-us/leather-jacket/J21SW0127J07231001.html",
-      "b": "pair"
-    },
-    "Shoes": {
-      "lp": "Loafer",
-      "lu": "https://www.jilsander.com/en-us/loafer/J33WR0023P7032001.html",
-      "hp": "Loafer",
-      "hu": "https://www.jilsander.com/en-us/loafer/J33WR0027P7690001.html",
-      "b": "pair"
-    }
-  },
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.jilsander.com/en-us/men",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "Jil Sander+ (sub-line counted; its US men's gallery cgid jilsander-man-gallery-jilsanderplus returned 0 products today, so no J+ items affect the figures)"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=17991",
-      "m": "brand filter",
-      "n": "Jil Sander NAVY excluded"
-    }
-  },
-  "season": {
-    "l": "Fall/Winter 2026",
-    "t": "runway",
-    "u": "https://www.jilsander.com/en-us/men/highlights/fall-winter-2026-runway",
-    "m": "yes"
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "Brand about page names no Jil Sander-owned factory or workshop; it mentions only OTB's 'School of Craftsmanship' (training). The parent OTB says it 'controls and manages the Staff International and Brave Kid companies' (otb.net), but neither OTB nor the brand states that Jil Sander is made there; the otb.net Jil Sander page is silent on production. Recorded as no (nothing owned shown), not as group-owned making.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "every product",
-    "countries": "Italy 7/7 (sample of 7 men's PDPs on jilsander.com/en-gb: chambray shirt, felt wool coat, wool knit polo, denim trousers, cotton T-shirt, down blouson, calf leather lace-up shoe).",
-    "heritage": "dated and placed",
-    "repair": "no",
-    "process": "no",
-    "urls": [
-      "https://www.jilsander.com/en-gb/about.html",
-      "https://www.jilsander.com/en-gb/felt-wool-tailored-coat/J03AA0241J40369036.html"
-    ],
-    "conf": "medium",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Loafer",
+   "lu": "https://www.jilsander.com/en-us/loafer/J33WR0023P7032001.html",
+   "hp": "Loafer",
+   "hu": "https://www.jilsander.com/en-us/loafer/J33WR0027P7690001.html",
+   "b": "pair"
   }
+ },
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.jilsander.com/en-us/men",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "Jil Sander+ (sub-line counted; its US men's gallery cgid jilsander-man-gallery-jilsanderplus returned 0 products today, so no J+ items affect the figures)"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=17991",
+   "m": "brand filter",
+   "n": "Jil Sander NAVY excluded"
+  }
+ },
+ "season": {
+  "l": "Fall/Winter 2026",
+  "t": "runway",
+  "u": "https://www.jilsander.com/en-us/men/highlights/fall-winter-2026-runway",
+  "m": "yes"
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "Brand about page names no Jil Sander-owned factory or workshop; it mentions only OTB's 'School of Craftsmanship' (training). The parent OTB says it 'controls and manages the Staff International and Brave Kid companies' (otb.net), but neither OTB nor the brand states that Jil Sander is made there; the otb.net Jil Sander page is silent on production. Recorded as no (nothing owned shown), not as group-owned making.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "every product",
+  "countries": "Italy 7/7 (sample of 7 men's PDPs on jilsander.com/en-gb: chambray shirt, felt wool coat, wool knit polo, denim trousers, cotton T-shirt, down blouson, calf leather lace-up shoe).",
+  "heritage": "dated and placed",
+  "repair": "no",
+  "process": "no",
+  "urls": [
+   "https://www.jilsander.com/en-gb/about.html",
+   "https://www.jilsander.com/en-gb/felt-wool-tailored-coat/J03AA0241J40369036.html"
+  ],
+  "conf": "medium",
+  "read": "2026-10-03"
+ }
 }

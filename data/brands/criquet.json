@@ -1,179 +1,235 @@
 {
-  "name": "Criquet",
-  "band": "premium",
-  "seat": 22,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 4,
-    "craft": 3,
-    "style": 4
+ "name": "Criquet",
+ "band": "premium",
+ "seat": 22,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 4,
+  "craft": 3,
+  "style": 4
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 4,
+  "wool": 2,
+  "synth": 2
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 3,
+  "fuss": -2,
+  "golffice": 0,
+  "shoes": 0,
+  "golf": 5,
+  "status": 1,
+  "ivy": 2,
+  "murica": 3,
+  "prep": 4,
+  "whitet": 2,
+  "logo": 2,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 2
+ },
+ "why": "Golf shirts in a 1970s style — four-button placket, cotton rather than performance fabric.",
+ "origin": "Founded in Austin in 2010 by Billy Nachman and Hobson Brown.",
+ "chan": [
+  "I",
+  "W"
+ ],
+ "forgc": [
+  3,
+  3,
+  1
+ ],
+ "shop": "https://criquetshirts.com/search?q=",
+ "onething": {
+  "p": "The Players Shirt",
+  "u": "https://criquetshirts.com/collections/the-players-shirt",
+  "n": "verified ✓ — the shirt the brand was built on; collection page"
+ },
+ "prices": [
+  [
+   58,
+   64
+  ],
+  [
+   98,
+   158
+  ],
+  [
+   154,
+   168
+  ],
+  null,
+  [
+   148,
+   154
+  ],
+  null,
+  [
+   218,
+   218
+  ],
+  null
+ ],
+ "price_checked": true,
+ "notes": {
+  "golf": "Golf is the whole premise rather than a category the brand entered — the Players Shirt is a 1970s tour polo rebuilt, and everything else follows from it.",
+  "cotton": "Founded on a 100% organic cotton claim. The current Players Shirt is described as 100% premium pima, and the line now includes a 57/43 organic-cotton and polyester performance version — the organic premise has softened as the range grew. Recorded because the two claims are not the same.",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 2; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "Criquet's product copy says 'Designed in Austin, TX' and almost always just 'Imported'; only the Quilted Hoodie names a country (Peru), and no factory or mill is named anywhere I read. That is a country of make, stated rarely: a 2, not the current 3, unless the unread polo pages name a mill or maker. [audit proposed 2 at low confidence; held at 3 pending a second read]"
+ },
+ "doors": {
+  "c": "full",
+  "n": 0,
+  "cities": [],
+  "basis": "positive zero 2026-09-23"
+ },
+ "cities": "No store of its own in the US · independent menswear shops, and its own site",
+ "region": {
+  "o": [],
+  "s": [
+   22,
+   26,
+   33,
+   37,
+   53,
+   59,
+   77,
+   126,
+   137,
+   138,
+   150
+  ]
+ },
+ "site": {
+  "domain": "criquetshirts.com",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 1261,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "licensed",
+  "marks": [
+   "brrr°"
+  ],
+  "source": "screen_36",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 44,
+  "w": 42,
+  "n": 68,
+  "s": 27,
+  "c": 0,
+  "x": 41,
+  "xh": 27,
+  "sp": "split",
+  "sc": [
+   "Polos"
+  ],
+  "nc": [
+   "Shirts",
+   "Players Shirts",
+   "Bottoms"
+  ],
+  "st": "complete"
+ },
+ "garment_links": {
+  "T-shirt": "https://criquetshirts.com/collections/t-shirts",
+  "Polo": "https://criquetshirts.com/collections/all-polos",
+  "Dress shirt": "https://criquetshirts.com/collections/button-down-shirts",
+  "Dress pants": "https://criquetshirts.com/collections/comfort-canvas-pants",
+  "Outerwear": "https://criquetshirts.com/collections/jackets-and-outerwear"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Slub Graphic T-Shirt - Lions Badge - Vintage Indigo",
+   "lu": "https://criquetshirts.com/products/slub-graphic-t-shirt-lions-badge-vintage-indigo",
+   "hp": "Slub Cotton Pocket T-Shirt - Natural",
+   "hu": "https://criquetshirts.com/products/slub-cotton-short-sleeve-t-shirt-natural",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 1,
-    "linen": 1,
-    "cotton": 4,
-    "wool": 2,
-    "synth": 2
+  "Polo": {
+   "lp": "Classic Players Shirt - Navy Microstripe",
+   "lu": "https://criquetshirts.com/products/classic-players-shirt-navy-microstripe",
+   "hp": "Houndstooth Long Sleeve Players Shirt - Dark Slate",
+   "hu": "https://criquetshirts.com/products/houndstooth-long-sleeve-players-shirt-dark-slate",
+   "b": "range"
   },
-  "dials": {
-    "dur": 3,
-    "forg": 3,
-    "fuss": -2,
-    "golffice": 0,
-    "shoes": 0,
-    "golf": 5,
-    "status": 1,
-    "ivy": 2,
-    "murica": 3,
-    "prep": 4,
-    "whitet": 2,
-    "logo": 2,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 2
+  "Dress shirt": {
+   "lp": "Double Cloth Flannel Pearl Snap - Boyd Plaid - Navy",
+   "lu": "https://criquetshirts.com/products/double-cloth-flannel-pearl-snap-boyd-plaid-navy",
+   "hp": "Chambray Pearl Snap - Medium Wash",
+   "hu": "https://criquetshirts.com/products/chambray-pearl-snap-medium-wash",
+   "b": "range"
   },
-  "why": "Golf shirts in a 1970s style — four-button placket, cotton rather than performance fabric.",
-  "origin": "Founded in Austin in 2010 by Billy Nachman and Hobson Brown.",
-  "chan": ["I", "W"],
-  "forgc": [3, 3, 1],
-  "shop": "https://criquetshirts.com/search?q=",
-  "onething": {
-    "p": "The Players Shirt",
-    "u": "https://criquetshirts.com/collections/the-players-shirt",
-    "n": "verified ✓ — the shirt the brand was built on; collection page"
+  "Dress pants": {
+   "lp": "Anytime Pants - Stone",
+   "lu": "https://criquetshirts.com/products/anytime-pants-stone",
+   "hp": "Comfort Corduroy Pant - Khaki",
+   "hu": "https://criquetshirts.com/products/comfort-corduroy-pant-khaki",
+   "b": "range"
   },
-  "prices": [[58, 64], [98, 158], [154, 168], null, [148, 154], null, [218, 218], null],
-  "price_checked": true,
-  "notes": {
-    "golf": "Golf is the whole premise rather than a category the brand entered — the Players Shirt is a 1970s tour polo rebuilt, and everything else follows from it.",
-    "cotton": "Founded on a 100% organic cotton claim. The current Players Shirt is described as 100% premium pima, and the line now includes a 57/43 organic-cotton and polyester performance version — the organic premise has softened as the range grew. Recorded because the two claims are not the same.",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 2; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Criquet's product copy says 'Designed in Austin, TX' and almost always just 'Imported'; only the Quilted Hoodie names a country (Peru), and no factory or mill is named anywhere I read. That is a country of make, stated rarely: a 2, not the current 3, unless the unread polo pages name a mill or maker. [audit proposed 2 at low confidence; held at 3 pending a second read]"
-  },
-  "doors": {
-    "c": "full",
-    "n": 0,
-    "cities": [],
-    "basis": "positive zero 2026-09-23"
-  },
-  "cities": "No store of its own in the US · independent menswear shops, and its own site",
-  "region": {
-    "o": [],
-    "s": [22, 26, 33, 37, 53, 59, 77, 126, 137, 138, 150]
-  },
-  "site": {
-    "domain": "criquetshirts.com",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 1261,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "licensed",
-    "marks": ["brrr°"],
-    "source": "screen_36",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 44,
-    "w": 42,
-    "n": 68,
-    "s": 27,
-    "c": 0,
-    "x": 41,
-    "xh": 27,
-    "sp": "split",
-    "sc": ["Polos"],
-    "nc": ["Shirts", "Players Shirts", "Bottoms"],
-    "st": "complete"
-  },
-  "garment_links": {
-    "T-shirt": "https://criquetshirts.com/collections/t-shirts",
-    "Polo": "https://criquetshirts.com/collections/all-polos",
-    "Dress shirt": "https://criquetshirts.com/collections/button-down-shirts",
-    "Dress pants": "https://criquetshirts.com/collections/comfort-canvas-pants",
-    "Outerwear": "https://criquetshirts.com/collections/jackets-and-outerwear"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Slub Graphic T-Shirt - Lions Badge - Vintage Indigo",
-      "lu": "https://criquetshirts.com/products/slub-graphic-t-shirt-lions-badge-vintage-indigo",
-      "hp": "Slub Cotton Pocket T-Shirt - Natural",
-      "hu": "https://criquetshirts.com/products/slub-cotton-short-sleeve-t-shirt-natural",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Classic Players Shirt - Navy Microstripe",
-      "lu": "https://criquetshirts.com/products/classic-players-shirt-navy-microstripe",
-      "hp": "Houndstooth Long Sleeve Players Shirt - Dark Slate",
-      "hu": "https://criquetshirts.com/products/houndstooth-long-sleeve-players-shirt-dark-slate",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Double Cloth Flannel Pearl Snap - Boyd Plaid - Navy",
-      "lu": "https://criquetshirts.com/products/double-cloth-flannel-pearl-snap-boyd-plaid-navy",
-      "hp": "Chambray Pearl Snap - Medium Wash",
-      "hu": "https://criquetshirts.com/products/chambray-pearl-snap-medium-wash",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Anytime Pants - Stone",
-      "lu": "https://criquetshirts.com/products/anytime-pants-stone",
-      "hp": "Comfort Corduroy Pant - Khaki",
-      "hu": "https://criquetshirts.com/products/comfort-corduroy-pant-khaki",
-      "b": "range"
-    },
-    "Outerwear": {
-      "lp": "Watershed Rain Jacket - Navy",
-      "lu": "https://criquetshirts.com/products/rain-jacket-navy",
-      "hp": "Watershed Rain Jacket - Navy",
-      "hu": "https://criquetshirts.com/products/rain-jacket-navy",
-      "b": "single"
-    }
-  },
-  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Dress pants"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://criquetshirts.com/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?search_text=Criquet&catalog[]=5",
-      "m": "text search",
-      "n": "No Vinted brand entry; keyword search in Men"
-    }
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "No owned facility seen. Homepage footer links only About Us and Press; no sustainability, factory or making page exists in the nav. About Us page itself was NOT read (first URL 404'd, the correct URL hit the fetch budget).",
-    "makers": "no",
-    "mills": "no",
-    "madein": "some",
-    "countries": "Peru 2/~32 (Quilted Hoodie, two colours: 'Made in Peru'); the other ~30 say only 'Imported' (cashmere crews 3, jacket 1, fleece shackets 2, sweater polos 2, corduroy shackets 3, pearl snaps ~15, shorts 6). Polos and button-downs not sampled.",
-    "heritage": "NC",
-    "repair": "no",
-    "process": "no",
-    "urls": [
-      "https://www.criquetshirts.com/products.json?limit=30",
-      "https://criquetshirts.com/collections/shorts/products.json?limit=8"
-    ],
-    "conf": "low",
-    "read": "2026-10-03"
+  "Outerwear": {
+   "lp": "Watershed Rain Jacket - Navy",
+   "lu": "https://criquetshirts.com/products/rain-jacket-navy",
+   "hp": "Watershed Rain Jacket - Navy",
+   "hu": "https://criquetshirts.com/products/rain-jacket-navy",
+   "b": "single"
   }
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Dress pants"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://criquetshirts.com/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?search_text=Criquet&catalog[]=5",
+   "m": "text search",
+   "n": "No Vinted brand entry; keyword search in Men"
+  }
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "No owned facility seen. Homepage footer links only About Us and Press; no sustainability, factory or making page exists in the nav. About Us page itself was NOT read (first URL 404'd, the correct URL hit the fetch budget).",
+  "makers": "no",
+  "mills": "no",
+  "madein": "some",
+  "countries": "Peru 2/~32 (Quilted Hoodie, two colours: 'Made in Peru'); the other ~30 say only 'Imported' (cashmere crews 3, jacket 1, fleece shackets 2, sweater polos 2, corduroy shackets 3, pearl snaps ~15, shorts 6). Polos and button-downs not sampled.",
+  "heritage": "NC",
+  "repair": "no",
+  "process": "no",
+  "urls": [
+   "https://www.criquetshirts.com/products.json?limit=30",
+   "https://criquetshirts.com/collections/shorts/products.json?limit=8"
+  ],
+  "conf": "low",
+  "read": "2026-10-03"
+ }
 }

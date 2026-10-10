@@ -1,203 +1,255 @@
 {
-  "name": "Rhude",
-  "band": "trueLux",
-  "seat": 171,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 2,
-    "craft": 1,
-    "style": 4
+ "name": "Rhude",
+ "band": "trueLux",
+ "seat": 171,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 2,
+  "craft": 1,
+  "style": 4
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 2,
+  "wool": 1,
+  "synth": 2
+ },
+ "dials": {
+  "dur": 2,
+  "forg": 3,
+  "fuss": 0,
+  "bruv": 3,
+  "shoes": 3,
+  "status": 4,
+  "murica": 3,
+  "ital": 2,
+  "street": 5,
+  "weird": 2,
+  "whitet": 2,
+  "logo": 2,
+  "western": 2,
+  "rock": 4,
+  "workwear": 2,
+  "outdoor": 2,
+  "surf": 1
+ },
+ "why": "American sportswear references — racing graphics, track pants — at runway prices.",
+ "origin": "Founded in Los Angeles in 2015 by Rhuigi Villaseñor.",
+ "say": "ROOD",
+ "chan": [
+  "D",
+  "X"
+ ],
+ "conf": "M",
+ "forgc": [
+  5,
+  3,
+  1
+ ],
+ "onething": {
+  "p": "Traxedo pant",
+  "u": "https://rhude.com/search?q=Traxedo%20pant",
+  "n": "Use this: https://rh-ude.com/products/rhude-traxedo-pants"
+ },
+ "prices": [
+  [
+   175,
+   425
+  ],
+  [
+   540,
+   795
+  ],
+  [
+   850,
+   850
+  ],
+  [
+   725,
+   775
+  ],
+  [
+   1475,
+   1625
+  ],
+  null,
+  [
+   850,
+   4110
+  ],
+  [
+   495,
+   495
+  ]
+ ],
+ "shoelink": {
+  "t": "shoes",
+  "u": "https://rhude.com/search?q=shoes"
+ },
+ "notes": {
+  "status": "the Saks featured wall's newest member — celebrity-worn from the first bandana tee",
+  "murica": "Americana as subject matter — flags, racing stripes, varsity — through an immigrant's lens",
+  "style": "the Traxedo — tuxedo stripes on a track pant — as the founding design object",
+  "street": "born from a bandana tee and a Kendrick cosign",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 2; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "Rhude's PDPs give fiber content and care only. 1 of 7 sampled (the denim trucker jacket) says 'Made in Los Angeles', and the rest give no origin. The information page is a founder bio with no making information. With nothing checkable about who makes the clothes, this is a 1, at most a weak 2."
+ },
+ "doors": {
+  "c": "full",
+  "n": 0,
+  "cities": [],
+  "basis": "master 2026-08-29, pre-recapture"
+ },
+ "cities": "No store of its own in the US · department stores, and its own site",
+ "site": {
+  "domain": "rh-ude.com",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 340,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "licensed",
+  "marks": [
+   "Riri (Swiss zipper maker) - LICENSED component mark, 26 of 341 PDPs, e.g. 'custom Riri zippers' in the PDP meta description. NO FABRIC OR TEXTILE TECHNOLOGY IS NAMED ANYWHERE: 0 hits for every term on the list (gore-tex, primaloft, cordura, thinsulate, coolmax, tencel, supima, lycra, membrane, water"
+  ],
+  "source": "census_followup",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 226,
+  "w": 220,
+  "n": 76,
+  "s": 16,
+  "c": 5,
+  "x": 7,
+  "xh": 3,
+  "sp": "one",
+  "sc": [
+   "Shorts"
+  ],
+  "nc": [
+   "T-shirts",
+   "Hoodies",
+   "Pants"
+  ],
+  "st": "complete"
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Jeans",
+  "Dress pants",
+  "Outerwear"
+ ],
+ "garment_links": {
+  "T-shirt": "https://rh-ude.com/collections/tees-1",
+  "Polo": "https://rh-ude.com/collections/button-down-shirts",
+  "Dress shirt": "https://rh-ude.com/collections/button-down-shirts",
+  "Jeans": "https://rh-ude.com/collections/rtw-denim",
+  "Dress pants": "https://rh-ude.com/collections/pants",
+  "Outerwear": "https://rh-ude.com/collections/outerwear"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Classique Raglan Tee",
+   "lu": "https://rh-ude.com/products/classique-raglan-tee-5",
+   "hp": "Rhude Slip Tee",
+   "hu": "https://rh-ude.com/products/rhude-slip-tee",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 2,
-    "cashmere": 1,
-    "linen": 1,
-    "cotton": 2,
-    "wool": 1,
-    "synth": 2
+  "Polo": {
+   "lp": "Fontaine Striped SS Polo Shirt (PF26)",
+   "lu": "https://rh-ude.com/products/fontaine-striped-ss-polo-shirt-2",
+   "hp": "Fontaine Striped SS Polo Shirt (SS26)",
+   "hu": "https://rh-ude.com/products/fontaine-striped-ss-polo-shirt-1",
+   "b": "range"
   },
-  "dials": {
-    "dur": 2,
-    "forg": 3,
-    "fuss": 0,
-    "bruv": 3,
-    "shoes": 3,
-    "status": 4,
-    "murica": 3,
-    "ital": 2,
-    "street": 5,
-    "weird": 2,
-    "whitet": 2,
-    "logo": 2,
-    "western": 2,
-    "rock": 4,
-    "workwear": 2,
-    "outdoor": 2,
-    "surf": 1
+  "Dress shirt": {
+   "lp": "Papillon Poplin LS Suiting Shirt",
+   "lu": "https://rh-ude.com/products/papillon-poplin-ls-suiting-shirt",
+   "hp": "Papillon Poplin LS Suiting Shirt",
+   "hu": "https://rh-ude.com/products/papillon-poplin-ls-suiting-shirt",
+   "b": "single"
   },
-  "why": "American sportswear references — racing graphics, track pants — at runway prices.",
-  "origin": "Founded in Los Angeles in 2015 by Rhuigi Villaseñor.",
-  "say": "ROOD",
-  "chan": ["D", "X"],
-  "conf": "M",
-  "forgc": [5, 3, 1],
-  "onething": {
-    "p": "Traxedo pant",
-    "u": "https://rhude.com/search?q=Traxedo%20pant",
-    "n": "Use this: https://rh-ude.com/products/rhude-traxedo-pants"
+  "Jeans": {
+   "lp": "Relaxed Traxedo Denim",
+   "lu": "https://rh-ude.com/products/relaxed-traxedo-denim",
+   "hp": "Pintuck 90s Traxedo Denim",
+   "hu": "https://rh-ude.com/products/pintuck-90s-traxedo-denim",
+   "b": "range"
   },
-  "prices": [[175, 425], [540, 795], [850, 850], [725, 775], [1475, 1625], null, [850, 4110], [495, 495]],
-  "shoelink": {
-    "t": "shoes",
-    "u": "https://rhude.com/search?q=shoes"
+  "Dress pants": {
+   "lp": "Provence Tailored Straight Leg Pants",
+   "lu": "https://rh-ude.com/products/provence-tailored-straight-leg-pants",
+   "hp": "Rhude Traxedo Pants",
+   "hu": "https://rh-ude.com/products/rhude-traxedo-pants",
+   "b": "range"
   },
-  "notes": {
-    "status": "the Saks featured wall's newest member — celebrity-worn from the first bandana tee",
-    "murica": "Americana as subject matter — flags, racing stripes, varsity — through an immigrant's lens",
-    "style": "the Traxedo — tuxedo stripes on a track pant — as the founding design object",
-    "street": "born from a bandana tee and a Kendrick cosign",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 2; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Rhude's PDPs give fiber content and care only. 1 of 7 sampled (the denim trucker jacket) says 'Made in Los Angeles', and the rest give no origin. The information page is a founder bio with no making information. With nothing checkable about who makes the clothes, this is a 1, at most a weak 2."
+  "Outerwear": {
+   "lp": "Drop-Neck Denim Trucker Jacket",
+   "lu": "https://rh-ude.com/products/drop-neck-trucker-jacket",
+   "hp": "Blue Crocodile Pilot Jacket",
+   "hu": "https://rh-ude.com/products/blue-crocodile-pilot-jacket",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 0,
-    "cities": [],
-    "basis": "master 2026-08-29, pre-recapture"
-  },
-  "cities": "No store of its own in the US · department stores, and its own site",
-  "site": {
-    "domain": "rh-ude.com",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 340,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "licensed",
-    "marks": [
-      "Riri (Swiss zipper maker) - LICENSED component mark, 26 of 341 PDPs, e.g. 'custom Riri zippers' in the PDP meta description. NO FABRIC OR TEXTILE TECHNOLOGY IS NAMED ANYWHERE: 0 hits for every term on the list (gore-tex, primaloft, cordura, thinsulate, coolmax, tencel, supima, lycra, membrane, water"
-    ],
-    "source": "census_followup",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 226,
-    "w": 220,
-    "n": 76,
-    "s": 16,
-    "c": 5,
-    "x": 7,
-    "xh": 3,
-    "sp": "one",
-    "sc": ["Shorts"],
-    "nc": ["T-shirts", "Hoodies", "Pants"],
-    "st": "complete"
-  },
-  "price_range_only": ["T-shirt", "Polo", "Jeans", "Dress pants", "Outerwear"],
-  "garment_links": {
-    "T-shirt": "https://rh-ude.com/collections/tees-1",
-    "Polo": "https://rh-ude.com/collections/button-down-shirts",
-    "Dress shirt": "https://rh-ude.com/collections/button-down-shirts",
-    "Jeans": "https://rh-ude.com/collections/rtw-denim",
-    "Dress pants": "https://rh-ude.com/collections/pants",
-    "Outerwear": "https://rh-ude.com/collections/outerwear"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Classique Raglan Tee",
-      "lu": "https://rh-ude.com/products/classique-raglan-tee-5",
-      "hp": "Rhude Slip Tee",
-      "hu": "https://rh-ude.com/products/rhude-slip-tee",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Fontaine Striped SS Polo Shirt (PF26)",
-      "lu": "https://rh-ude.com/products/fontaine-striped-ss-polo-shirt-2",
-      "hp": "Fontaine Striped SS Polo Shirt (SS26)",
-      "hu": "https://rh-ude.com/products/fontaine-striped-ss-polo-shirt-1",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Papillon Poplin LS Suiting Shirt",
-      "lu": "https://rh-ude.com/products/papillon-poplin-ls-suiting-shirt",
-      "hp": "Papillon Poplin LS Suiting Shirt",
-      "hu": "https://rh-ude.com/products/papillon-poplin-ls-suiting-shirt",
-      "b": "single"
-    },
-    "Jeans": {
-      "lp": "Relaxed Traxedo Denim",
-      "lu": "https://rh-ude.com/products/relaxed-traxedo-denim",
-      "hp": "Pintuck 90s Traxedo Denim",
-      "hu": "https://rh-ude.com/products/pintuck-90s-traxedo-denim",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Provence Tailored Straight Leg Pants",
-      "lu": "https://rh-ude.com/products/provence-tailored-straight-leg-pants",
-      "hp": "Rhude Traxedo Pants",
-      "hu": "https://rh-ude.com/products/rhude-traxedo-pants",
-      "b": "range"
-    },
-    "Outerwear": {
-      "lp": "Drop-Neck Denim Trucker Jacket",
-      "lu": "https://rh-ude.com/products/drop-neck-trucker-jacket",
-      "hp": "Blue Crocodile Pilot Jacket",
-      "hu": "https://rh-ude.com/products/blue-crocodile-pilot-jacket",
-      "b": "range"
-    },
-    "Shoes": {
-      "lp": "V2 Bandana",
-      "lu": "https://rh-ude.com/products/v2-bandana-1",
-      "hp": "V2 Bandana",
-      "hu": "https://rh-ude.com/products/v2-bandana-1",
-      "b": "single"
-    }
-  },
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://rh-ude.com/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "shop": "https://rh-ude.com/search?q=",
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=435315",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "season": {
-    "l": "Pre-Fall 2026 (PF26 'No Man's Land')",
-    "t": "collection page",
-    "u": "https://rh-ude.com/collections/pf26-no-mans-land-collection",
-    "m": "yes"
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "The information page (founder bio) claims no factory or workshop. The only making detail found is one PDP saying 'Made in Los Angeles', with no workshop named.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "some",
-    "countries": "USA (Los Angeles) 1/7; not stated 6/7 (sample of 7 PDPs: tee, hoodie, denim trucker jacket, jeans, bowling shirt, sweatpant, coaches jacket). The fetch saw no origin text in accordions, but hidden tabs can't be fully ruled out.",
-    "heritage": "dated and placed",
-    "repair": "no",
-    "process": "no",
-    "urls": ["https://rh-ude.com/pages/information", "https://rh-ude.com/products/drop-neck-trucker-jacket"],
-    "conf": "medium",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "V2 Bandana",
+   "lu": "https://rh-ude.com/products/v2-bandana-1",
+   "hp": "V2 Bandana",
+   "hu": "https://rh-ude.com/products/v2-bandana-1",
+   "b": "single"
   }
+ },
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://rh-ude.com/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "shop": "https://rh-ude.com/search?q=",
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=435315",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "season": {
+  "l": "Pre-Fall 2026 (PF26 'No Man's Land')",
+  "t": "collection page",
+  "u": "https://rh-ude.com/collections/pf26-no-mans-land-collection",
+  "m": "yes"
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "The information page (founder bio) claims no factory or workshop. The only making detail found is one PDP saying 'Made in Los Angeles', with no workshop named.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "some",
+  "countries": "USA (Los Angeles) 1/7; not stated 6/7 (sample of 7 PDPs: tee, hoodie, denim trucker jacket, jeans, bowling shirt, sweatpant, coaches jacket). The fetch saw no origin text in accordions, but hidden tabs can't be fully ruled out.",
+  "heritage": "dated and placed",
+  "repair": "no",
+  "process": "no",
+  "urls": [
+   "https://rh-ude.com/pages/information",
+   "https://rh-ude.com/products/drop-neck-trucker-jacket"
+  ],
+  "conf": "medium",
+  "read": "2026-10-03"
+ }
 }

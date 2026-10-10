@@ -1,210 +1,265 @@
 {
-  "name": "Auralee",
-  "band": "accessible",
-  "seat": 122,
-  "dagger": 1,
-  "focus": {
-    "tech": 2,
-    "comfort": 3,
-    "craft": 2,
-    "style": 4
-  },
-  "fabric": {
-    "denim": 2,
-    "cashmere": 3,
-    "linen": 2,
-    "cotton": 3,
-    "wool": 3,
-    "synth": 1
-  },
-  "dials": {
-    "dur": 2,
-    "forg": 3,
-    "fuss": 2,
-    "status": 2,
-    "avant": 2,
-    "whitet": 2,
-    "logo": 1,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
-  },
-  "why": "Plain clothing in original fabrics developed with Japanese mills.",
-  "origin": "Founded in Tokyo in 2015 by Ryota Iwai.",
-  "say": "OR-a-lee",
-  "chan": ["I", "D"],
-  "conf": "L",
-  "forgc": [5, 2, 1],
-  "onething": {
-    "p": "Washed Finx twill shirt",
-    "u": "https://havenshop.com/products/auralee-washed-finx-twill-shirt-olive-ss26",
-    "n": "direct via Haven"
-  },
-  "prices": [
-    [259, 369, "USD_landed"],
-    [605, 864, "USD_landed"],
-    [534, 792, "USD_landed"],
-    [534, 759, "USD_landed"],
-    [633, 737, "USD_landed"],
-    [534, 792, "USD_landed"],
-    [935, 4527, "USD_landed"],
-    [1150, 1353, "USD_landed"]
+ "name": "Auralee",
+ "band": "accessible",
+ "seat": 122,
+ "dagger": 1,
+ "focus": {
+  "tech": 2,
+  "comfort": 3,
+  "craft": 2,
+  "style": 4
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 3,
+  "linen": 2,
+  "cotton": 3,
+  "wool": 3,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 2,
+  "forg": 3,
+  "fuss": 2,
+  "status": 2,
+  "avant": 2,
+  "whitet": 2,
+  "logo": 1,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Plain clothing in original fabrics developed with Japanese mills.",
+ "origin": "Founded in Tokyo in 2015 by Ryota Iwai.",
+ "say": "OR-a-lee",
+ "chan": [
+  "I",
+  "D"
+ ],
+ "conf": "L",
+ "forgc": [
+  5,
+  2,
+  1
+ ],
+ "onething": {
+  "p": "Washed Finx twill shirt",
+  "u": "https://havenshop.com/products/auralee-washed-finx-twill-shirt-olive-ss26",
+  "n": "direct via Haven"
+ },
+ "prices": [
+  [
+   259,
+   369,
+   "USD_landed"
   ],
-  "doors": {
-    "c": "full",
-    "n": 0,
-    "cities": [],
-    "basis": "master 2026-08-29, pre-recapture"
+  [
+   605,
+   864,
+   "USD_landed"
+  ],
+  [
+   534,
+   792,
+   "USD_landed"
+  ],
+  [
+   534,
+   759,
+   "USD_landed"
+  ],
+  [
+   633,
+   737,
+   "USD_landed"
+  ],
+  [
+   534,
+   792,
+   "USD_landed"
+  ],
+  [
+   935,
+   4527,
+   "USD_landed"
+  ],
+  [
+   1150,
+   1353,
+   "USD_landed"
+  ]
+ ],
+ "doors": {
+  "c": "full",
+  "n": 0,
+  "cities": [],
+  "basis": "master 2026-08-29, pre-recapture"
+ },
+ "cities": "No store of its own in the US · department stores and independent menswear shops, and its own site",
+ "region": {
+  "o": [],
+  "s": [
+   125,
+   148
+  ]
+ },
+ "site": {
+  "domain": "auralee.jp",
+  "platform": "custom",
+  "feed": "category_crawl",
+  "feed_count": 32,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "no",
+  "origin": "none",
+  "marks": [
+   "none"
+  ],
+  "source": "flag_sample",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 53,
+  "w": 53,
+  "n": 94,
+  "s": 6,
+  "c": 0,
+  "x": 0,
+  "xh": 0,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "Outerwear/Jackets",
+   "Shirts",
+   "Trousers"
+  ],
+  "st": "complete"
+ },
+ "shop": "https://auralee.jp/item?freeword=",
+ "garment_links": {
+  "T-shirt": "https://auralee.jp/item?category_id=507",
+  "Polo": "https://auralee.jp/item?category_id=3&freeword=polo",
+  "Dress shirt": "https://auralee.jp/item?category_id=505",
+  "Jeans": "https://auralee.jp/item?category_id=506",
+  "Dress pants": "https://auralee.jp/item?category_id=506",
+  "Sweater": "https://auralee.jp/item?category_id=504",
+  "Outerwear": "https://auralee.jp/item?category_id=503",
+  "Shoes": "https://auralee.jp/item?category_id=508"
+ },
+ "notes": {
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 1; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "Auralee documents its fabrics in detail (fiber grade, weave, finishing, and sourcing regions such as Ichinomiya and Mongolia in its Material Matters stories), but it names no mill or factory, owns none, and its product pages do not state a country of make. That is closer to 2 than 3: process is described, but makers aren't named."
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Luster Plaiting Tee",
+   "lu": "https://auralee.jp/item/detail/1_1_A00P02GT_1/0003",
+   "hp": "Soft Smooth Wool Stripe Jersey Tee",
+   "hu": "https://auralee.jp/item/detail/1_1_A26AT02BT_1/9044",
+   "b": "range"
   },
-  "cities": "No store of its own in the US · department stores and independent menswear shops, and its own site",
-  "region": {
-    "o": [],
-    "s": [125, 148]
+  "Polo": {
+   "lp": "Baby Suri Alpaca Sheer Knit Skipper Polo (long-sleeve, sold out)",
+   "lu": "https://auralee.jp/item/detail/1_1_A26AP02AK_1/6048",
+   "hp": "Cashmere Nep Knit Polo (long-sleeve, 100% cashmere, sold out)",
+   "hu": "https://auralee.jp/item/detail/1_1_A26AP02NE_1/1037",
+   "b": "pair"
   },
-  "site": {
-    "domain": "auralee.jp",
-    "platform": "custom",
-    "feed": "category_crawl",
-    "feed_count": 32,
-    "status": "live_store",
-    "checked": "2026-09-13"
+  "Dress shirt": {
+   "lp": "Washed Finx Twill Shirt",
+   "lu": "https://auralee.jp/item/detail/1_1_A26AS01TN_1/7000",
+   "hp": "Airy Silk Georgette Shirt (100% silk)",
+   "hu": "https://auralee.jp/item/detail/1_1_A26AS01GG_1/5504",
+   "b": "pair"
   },
-  "tech_evidence": {
-    "names": "no",
-    "origin": "none",
-    "marks": ["none"],
-    "source": "flag_sample",
-    "checked": "2026-09-12"
+  "Jeans": {
+   "lp": "Hard Twist Denim 5P Pants",
+   "lu": "https://auralee.jp/item/detail/1_1_A00P01DM_1/7014",
+   "hp": "Silk Nep Denim 5P Wide Pants (100% silk, denim weave)",
+   "hu": "https://auralee.jp/item/detail/1_1_A26AP01SD_1/7000",
+   "b": "pair"
   },
-  "fibre": {
-    "t": 53,
-    "w": 53,
-    "n": 94,
-    "s": 6,
-    "c": 0,
-    "x": 0,
-    "xh": 0,
-    "sp": "one",
-    "sc": [],
-    "nc": ["Outerwear/Jackets", "Shirts", "Trousers"],
-    "st": "complete"
+  "Dress pants": {
+   "lp": "Light Wool Max Gabardine Slacks",
+   "lu": "https://auralee.jp/item/detail/1_1_A26AP02MG_1/2541",
+   "hp": "Bluefaced Wool Two-Tuck Slacks",
+   "hu": "https://auralee.jp/item/detail/1_1_A26AP02BS_1/1030",
+   "b": "range"
   },
-  "shop": "https://auralee.jp/item?freeword=",
-  "garment_links": {
-    "T-shirt": "https://auralee.jp/item?category_id=507",
-    "Polo": "https://auralee.jp/item?category_id=3&freeword=polo",
-    "Dress shirt": "https://auralee.jp/item?category_id=505",
-    "Jeans": "https://auralee.jp/item?category_id=506",
-    "Dress pants": "https://auralee.jp/item?category_id=506",
-    "Sweater": "https://auralee.jp/item?category_id=504",
-    "Outerwear": "https://auralee.jp/item?category_id=503",
-    "Shoes": "https://auralee.jp/item?category_id=508"
+  "Sweater": {
+   "lp": "Shetland Wool Cashmere Rib Knit P/O (62% cashmere)",
+   "lu": "https://auralee.jp/item/detail/1_1_A26AP01SB_1/9009",
+   "hp": "High Gauge Soft Cashmere Knit P/O (100% cashmere)",
+   "hu": "https://auralee.jp/item/detail/1_1_A26AP01SM_1/2501",
+   "b": "pair"
   },
-  "notes": {
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 1; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Auralee documents its fabrics in detail (fiber grade, weave, finishing, and sourcing regions such as Ichinomiya and Mongolia in its Material Matters stories), but it names no mill or factory, owns none, and its product pages do not state a country of make. That is closer to 2 than 3: process is described, but makers aren't named."
+  "Outerwear": {
+   "lp": "Sheer Nylon Ripstop Hooded Blouson",
+   "lu": "https://auralee.jp/item/detail/1_1_A26AB02NR_1/0035",
+   "hp": "Fine Calf Leather Down Blouson",
+   "hu": "https://auralee.jp/item/detail/1_1_A26AB01CB_1/2000",
+   "b": "range"
   },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Luster Plaiting Tee",
-      "lu": "https://auralee.jp/item/detail/1_1_A00P02GT_1/0003",
-      "hp": "Soft Smooth Wool Stripe Jersey Tee",
-      "hu": "https://auralee.jp/item/detail/1_1_A26AT02BT_1/9044",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Baby Suri Alpaca Sheer Knit Skipper Polo (long-sleeve, sold out)",
-      "lu": "https://auralee.jp/item/detail/1_1_A26AP02AK_1/6048",
-      "hp": "Cashmere Nep Knit Polo (long-sleeve, 100% cashmere, sold out)",
-      "hu": "https://auralee.jp/item/detail/1_1_A26AP02NE_1/1037",
-      "b": "pair"
-    },
-    "Dress shirt": {
-      "lp": "Washed Finx Twill Shirt",
-      "lu": "https://auralee.jp/item/detail/1_1_A26AS01TN_1/7000",
-      "hp": "Airy Silk Georgette Shirt (100% silk)",
-      "hu": "https://auralee.jp/item/detail/1_1_A26AS01GG_1/5504",
-      "b": "pair"
-    },
-    "Jeans": {
-      "lp": "Hard Twist Denim 5P Pants",
-      "lu": "https://auralee.jp/item/detail/1_1_A00P01DM_1/7014",
-      "hp": "Silk Nep Denim 5P Wide Pants (100% silk, denim weave)",
-      "hu": "https://auralee.jp/item/detail/1_1_A26AP01SD_1/7000",
-      "b": "pair"
-    },
-    "Dress pants": {
-      "lp": "Light Wool Max Gabardine Slacks",
-      "lu": "https://auralee.jp/item/detail/1_1_A26AP02MG_1/2541",
-      "hp": "Bluefaced Wool Two-Tuck Slacks",
-      "hu": "https://auralee.jp/item/detail/1_1_A26AP02BS_1/1030",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Shetland Wool Cashmere Rib Knit P/O (62% cashmere)",
-      "lu": "https://auralee.jp/item/detail/1_1_A26AP01SB_1/9009",
-      "hp": "High Gauge Soft Cashmere Knit P/O (100% cashmere)",
-      "hu": "https://auralee.jp/item/detail/1_1_A26AP01SM_1/2501",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "Sheer Nylon Ripstop Hooded Blouson",
-      "lu": "https://auralee.jp/item/detail/1_1_A26AB02NR_1/0035",
-      "hp": "Fine Calf Leather Down Blouson",
-      "hu": "https://auralee.jp/item/detail/1_1_A26AB01CB_1/2000",
-      "b": "range"
-    },
-    "Shoes": {
-      "lp": "Soft Leather Loafers",
-      "lu": "https://auralee.jp/item/detail/1_1_A26AS05QD_1/1904",
-      "hp": "Horsehide Leather Loafers",
-      "hu": "https://auralee.jp/item/detail/1_1_A26AS07QD_1/2514",
-      "b": "pair"
-    }
-  },
-  "price_range_only": ["T-shirt", "Dress pants", "Outerwear"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://auralee.jp/ (English/worldwide store, US prices in USD)",
-    "currency": "USD_landed",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=2053426",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "season": {
-    "l": "Autumn Winter 2026",
-    "t": "lookbook",
-    "u": "https://auralee.jp/projects/29",
-    "m": "unisex"
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "No owned factory or mill claimed; /about speaks of yarns 'sourced in Japan and around the world' and 'close collaboration with skilled artisans', no place named.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "none",
-    "countries": "Not stated on 5/5 PDPs (hand-sewn melton coat, super light wool shirt, gabardine slacks, Bluefaced wool jacket, silk nep denim pants). Fetch saw composition and size tables, so origin is probably absent rather than hidden, but cannot rule out an unseen tab.",
-    "heritage": "none",
-    "repair": "no",
-    "process": "some",
-    "urls": ["https://auralee.jp/material-matters/09", "https://auralee.jp/item/detail/1_1_A26AJ01BS_1/6059"],
-    "conf": "medium",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Soft Leather Loafers",
+   "lu": "https://auralee.jp/item/detail/1_1_A26AS05QD_1/1904",
+   "hp": "Horsehide Leather Loafers",
+   "hu": "https://auralee.jp/item/detail/1_1_A26AS07QD_1/2514",
+   "b": "pair"
   }
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Dress pants",
+  "Outerwear"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://auralee.jp/ (English/worldwide store, US prices in USD)",
+  "currency": "USD_landed",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=2053426",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "season": {
+  "l": "Autumn Winter 2026",
+  "t": "lookbook",
+  "u": "https://auralee.jp/projects/29",
+  "m": "unisex"
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "No owned factory or mill claimed; /about speaks of yarns 'sourced in Japan and around the world' and 'close collaboration with skilled artisans', no place named.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "none",
+  "countries": "Not stated on 5/5 PDPs (hand-sewn melton coat, super light wool shirt, gabardine slacks, Bluefaced wool jacket, silk nep denim pants). Fetch saw composition and size tables, so origin is probably absent rather than hidden, but cannot rule out an unseen tab.",
+  "heritage": "none",
+  "repair": "no",
+  "process": "some",
+  "urls": [
+   "https://auralee.jp/material-matters/09",
+   "https://auralee.jp/item/detail/1_1_A26AJ01BS_1/6059"
+  ],
+  "conf": "medium",
+  "read": "2026-10-03"
+ }
 }

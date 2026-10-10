@@ -1,206 +1,256 @@
 {
-  "name": "JW Anderson",
-  "band": "trueLux",
-  "seat": 168,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 2,
-    "craft": 2,
-    "style": 5
+ "name": "JW Anderson",
+ "band": "trueLux",
+ "seat": 168,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 2,
+  "craft": 2,
+  "style": 5
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 2,
+  "wool": 2,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 2,
+  "forg": 2,
+  "fuss": 0,
+  "bruv": -1,
+  "shoes": 3,
+  "status": 2,
+  "street": 2,
+  "avant": 4,
+  "weird": 5,
+  "briish": 3,
+  "whitet": 2,
+  "logo": 2,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Jonathan Anderson's own label — playful, odd British design, from a pigeon-shaped clutch to shrunken knitwear.",
+ "origin": "Founded in London in 2008 by Jonathan Anderson.",
+ "chan": [
+  "D",
+  "X"
+ ],
+ "conf": "M",
+ "forgc": [
+  3,
+  2,
+  1
+ ],
+ "shop": "https://jwanderson.com/en-us/search?q=",
+ "onething": {
+  "p": "Anchor logo crewneck",
+  "u": "https://www.jwanderson.com/search?q=anchor",
+  "n": "the anchor is the house logo; the chain link is their loafer hardware, not a knit — verify link"
+ },
+ "prices": [
+  [
+   185,
+   310
+  ],
+  [
+   390,
+   390
+  ],
+  [
+   665,
+   790
+  ],
+  [
+   665,
+   1270
+  ],
+  [
+   910,
+   1080
+  ],
+  [
+   715,
+   1750
+  ],
+  [
+   910,
+   5610
+  ],
+  [
+   590,
+   910
+  ]
+ ],
+ "shoelink": {
+  "t": "shoes",
+  "u": "https://www.jwanderson.com/search?q=shoes"
+ },
+ "notes": {
+  "avant": "the pigeon-clutch school — surrealism at wearable scale",
+  "style": "the sketchbook of fashion's busiest mind",
+  "weird": "pigeon clutch, frog loafers — a national treasure of odd",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 2; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "Every JW Anderson product page checked states a country of make (mostly Italy, T-shirt Portugal, one knit Ireland, shoes Italy) and composition, but names no factory or mill. The about page is design history only, with no owned making. Country-only disclosure is a 2."
+ },
+ "doors": {
+  "c": "full",
+  "n": 0,
+  "cities": [],
+  "basis": "master 2026-08-29, pre-recapture"
+ },
+ "cities": "No store of its own in the US · department stores, and its own site",
+ "addmen": true,
+ "site": {
+  "domain": "www.jwanderson.com",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 499,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "no",
+  "origin": "none",
+  "marks": [],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 114,
+  "w": 114,
+  "n": 93,
+  "s": 6,
+  "c": 1,
+  "x": 2,
+  "xh": 2,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "KNITWEAR",
+   "JERSEY SWEATSHIRTS",
+   "DENIM TROUSERS"
+  ],
+  "st": "complete"
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants",
+  "Sweater"
+ ],
+ "garment_links": {
+  "T-shirt": "https://jwanderson.com/en-us/collections/mens-tops",
+  "Polo": "https://jwanderson.com/en-us/collections/mens-tops",
+  "Dress shirt": "https://jwanderson.com/en-us/collections/mens-shirts",
+  "Jeans": "https://jwanderson.com/en-us/collections/mens-jeans",
+  "Dress pants": "https://jwanderson.com/en-us/collections/mens-trousers",
+  "Sweater": "https://jwanderson.com/en-us/collections/mens-knitwear",
+  "Outerwear": "https://jwanderson.com/en-us/collections/mens-coats-jackets",
+  "Shoes": "https://jwanderson.com/en-us/collections/mens-shoes"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Mens Embroidered Anchor T-Shirt in White",
+   "lu": "https://jwanderson.com/en-us/products/mens-embroidered-anchor-t-shirt-in-white",
+   "hp": "Mens 'JWA' Script T-Shirt in Plum",
+   "hu": "https://jwanderson.com/en-us/products/mens-jwa-script-t-shirt-in-plum",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 2,
-    "cashmere": 1,
-    "linen": 1,
-    "cotton": 2,
-    "wool": 2,
-    "synth": 1
+  "Polo": {
+   "lp": "Mens 'Man With Daisies' Short Sleeved Polo in Pale Yellow",
+   "lu": "https://jwanderson.com/en-us/products/mens-man-with-daisies-short-sleeved-polo-in-pale-yellow",
+   "hp": "Mens 'Man With Daisies' Short Sleeved Polo in Pale Yellow",
+   "hu": "https://jwanderson.com/en-us/products/mens-man-with-daisies-short-sleeved-polo-in-pale-yellow",
+   "b": "single"
   },
-  "dials": {
-    "dur": 2,
-    "forg": 2,
-    "fuss": 0,
-    "bruv": -1,
-    "shoes": 3,
-    "status": 2,
-    "street": 2,
-    "avant": 4,
-    "weird": 5,
-    "briish": 3,
-    "whitet": 2,
-    "logo": 2,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
+  "Dress shirt": {
+   "lp": "Mens Classic Shirt in White",
+   "lu": "https://jwanderson.com/en-us/products/mens-classic-shirt-in-white",
+   "hp": "Mens Striped Dress Shirt in Blue & Green",
+   "hu": "https://jwanderson.com/en-us/products/mens-striped-dress-shirt-in-blue-green",
+   "b": "range"
   },
-  "why": "Jonathan Anderson's own label — playful, odd British design, from a pigeon-shaped clutch to shrunken knitwear.",
-  "origin": "Founded in London in 2008 by Jonathan Anderson.",
-  "chan": ["D", "X"],
-  "conf": "M",
-  "forgc": [3, 2, 1],
-  "shop": "https://jwanderson.com/en-us/search?q=",
-  "onething": {
-    "p": "Anchor logo crewneck",
-    "u": "https://www.jwanderson.com/search?q=anchor",
-    "n": "the anchor is the house logo; the chain link is their loafer hardware, not a knit — verify link"
+  "Jeans": {
+   "lp": "Mens Straight Leg Denim Jeans in Beige",
+   "lu": "https://jwanderson.com/en-us/products/mens-straight-leg-jeans-in-beige",
+   "hp": "Mens Straight Leg Denim Jeans in Dark-Blue",
+   "hu": "https://jwanderson.com/en-us/products/mens-straight-leg-denim-jeans-in-dark-blue",
+   "b": "range"
   },
-  "prices": [[185, 310], [390, 390], [665, 790], [665, 1270], [910, 1080], [715, 1750], [910, 5610], [590, 910]],
-  "shoelink": {
-    "t": "shoes",
-    "u": "https://www.jwanderson.com/search?q=shoes"
+  "Dress pants": {
+   "lp": "Mens Single Pleat Trousers in Black",
+   "lu": "https://jwanderson.com/en-us/products/mens-single-pleat-trousers-in-black",
+   "hp": "Mens Tailored Tuxedo Trousers in Black",
+   "hu": "https://jwanderson.com/en-us/products/mens-tailored-tuxedo-trousers-in-black",
+   "b": "range"
   },
-  "notes": {
-    "avant": "the pigeon-clutch school — surrealism at wearable scale",
-    "style": "the sketchbook of fashion's busiest mind",
-    "weird": "pigeon clutch, frog loafers — a national treasure of odd",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 2; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Every JW Anderson product page checked states a country of make (mostly Italy, T-shirt Portugal, one knit Ireland, shoes Italy) and composition, but names no factory or mill. The about page is design history only, with no owned making. Country-only disclosure is a 2."
+  "Sweater": {
+   "lp": "Mens Cheveron Jumper in Ivory",
+   "lu": "https://jwanderson.com/en-us/products/mens-cheveron-jumper-in-ivory",
+   "hp": "Mens House Polo Cardigan in Chestnut Brown",
+   "hu": "https://jwanderson.com/en-us/products/mens-house-polo-cardigan-in-chestnut-brown",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 0,
-    "cities": [],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Outerwear": {
+   "lp": "Mens Front Zip Blouson in Navy & Green",
+   "lu": "https://jwanderson.com/en-us/products/front-zip-blouson-navy-green",
+   "hp": "Mens Blouson Leather Jacket in Chocolate Brown",
+   "hu": "https://jwanderson.com/en-us/products/mens-blouson-leather-jacket-in-chocolate-brown",
+   "b": "pair"
   },
-  "cities": "No store of its own in the US · department stores, and its own site",
-  "addmen": true,
-  "site": {
-    "domain": "www.jwanderson.com",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 499,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "no",
-    "origin": "none",
-    "marks": [],
-    "source": "census",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 114,
-    "w": 114,
-    "n": 93,
-    "s": 6,
-    "c": 1,
-    "x": 2,
-    "xh": 2,
-    "sp": "one",
-    "sc": [],
-    "nc": ["KNITWEAR", "JERSEY SWEATSHIRTS", "DENIM TROUSERS"],
-    "st": "complete"
-  },
-  "price_range_only": ["T-shirt", "Dress shirt", "Jeans", "Dress pants", "Sweater"],
-  "garment_links": {
-    "T-shirt": "https://jwanderson.com/en-us/collections/mens-tops",
-    "Polo": "https://jwanderson.com/en-us/collections/mens-tops",
-    "Dress shirt": "https://jwanderson.com/en-us/collections/mens-shirts",
-    "Jeans": "https://jwanderson.com/en-us/collections/mens-jeans",
-    "Dress pants": "https://jwanderson.com/en-us/collections/mens-trousers",
-    "Sweater": "https://jwanderson.com/en-us/collections/mens-knitwear",
-    "Outerwear": "https://jwanderson.com/en-us/collections/mens-coats-jackets",
-    "Shoes": "https://jwanderson.com/en-us/collections/mens-shoes"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Mens Embroidered Anchor T-Shirt in White",
-      "lu": "https://jwanderson.com/en-us/products/mens-embroidered-anchor-t-shirt-in-white",
-      "hp": "Mens 'JWA' Script T-Shirt in Plum",
-      "hu": "https://jwanderson.com/en-us/products/mens-jwa-script-t-shirt-in-plum",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Mens 'Man With Daisies' Short Sleeved Polo in Pale Yellow",
-      "lu": "https://jwanderson.com/en-us/products/mens-man-with-daisies-short-sleeved-polo-in-pale-yellow",
-      "hp": "Mens 'Man With Daisies' Short Sleeved Polo in Pale Yellow",
-      "hu": "https://jwanderson.com/en-us/products/mens-man-with-daisies-short-sleeved-polo-in-pale-yellow",
-      "b": "single"
-    },
-    "Dress shirt": {
-      "lp": "Mens Classic Shirt in White",
-      "lu": "https://jwanderson.com/en-us/products/mens-classic-shirt-in-white",
-      "hp": "Mens Striped Dress Shirt in Blue & Green",
-      "hu": "https://jwanderson.com/en-us/products/mens-striped-dress-shirt-in-blue-green",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Mens Straight Leg Denim Jeans in Beige",
-      "lu": "https://jwanderson.com/en-us/products/mens-straight-leg-jeans-in-beige",
-      "hp": "Mens Straight Leg Denim Jeans in Dark-Blue",
-      "hu": "https://jwanderson.com/en-us/products/mens-straight-leg-denim-jeans-in-dark-blue",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Mens Single Pleat Trousers in Black",
-      "lu": "https://jwanderson.com/en-us/products/mens-single-pleat-trousers-in-black",
-      "hp": "Mens Tailored Tuxedo Trousers in Black",
-      "hu": "https://jwanderson.com/en-us/products/mens-tailored-tuxedo-trousers-in-black",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Mens Cheveron Jumper in Ivory",
-      "lu": "https://jwanderson.com/en-us/products/mens-cheveron-jumper-in-ivory",
-      "hp": "Mens House Polo Cardigan in Chestnut Brown",
-      "hu": "https://jwanderson.com/en-us/products/mens-house-polo-cardigan-in-chestnut-brown",
-      "b": "range"
-    },
-    "Outerwear": {
-      "lp": "Mens Front Zip Blouson in Navy & Green",
-      "lu": "https://jwanderson.com/en-us/products/front-zip-blouson-navy-green",
-      "hp": "Mens Blouson Leather Jacket in Chocolate Brown",
-      "hu": "https://jwanderson.com/en-us/products/mens-blouson-leather-jacket-in-chocolate-brown",
-      "b": "pair"
-    },
-    "Shoes": {
-      "lp": "Mens Stitch Loafer in Black",
-      "lu": "https://jwanderson.com/en-us/products/mens-stitch-loafer-in-black",
-      "hp": "Mens Loafer Moccasins in Black",
-      "hu": "https://jwanderson.com/en-us/products/mens-loafer-moccasins-in-black",
-      "b": "pair"
-    }
-  },
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://jwanderson.com/en-us",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=328888",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "About-us page (founded 2008 by Jonathan Anderson; accessories first; V&A acquisition) names no owned factory, atelier or workshop. No sustainability or making page linked in the footer.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "every product",
-    "countries": "PDPs (5/5 state origin): Italy 4 (checkered shirt, mohair cardigan, parachute track pants, half-zip jumper), Portugal 1 (script T-shirt). Shopify descriptions additionally say 'Crafted in Italy' for 3 loafers/derbies and 'Made in Ireland' for the Sheep jumper; the origin field on PDPs is a structured line separate from the description, so items without it in the description still show it on the PDP.",
-    "heritage": "dated and placed",
-    "repair": "no",
-    "process": "no",
-    "urls": [
-      "https://jwanderson.com/products/mens-knitted-mohair-cardigan-in-brown",
-      "https://jwanderson.com/pages/about-us"
-    ],
-    "conf": "high",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Mens Stitch Loafer in Black",
+   "lu": "https://jwanderson.com/en-us/products/mens-stitch-loafer-in-black",
+   "hp": "Mens Loafer Moccasins in Black",
+   "hu": "https://jwanderson.com/en-us/products/mens-loafer-moccasins-in-black",
+   "b": "pair"
   }
+ },
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://jwanderson.com/en-us",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=328888",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "About-us page (founded 2008 by Jonathan Anderson; accessories first; V&A acquisition) names no owned factory, atelier or workshop. No sustainability or making page linked in the footer.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "every product",
+  "countries": "PDPs (5/5 state origin): Italy 4 (checkered shirt, mohair cardigan, parachute track pants, half-zip jumper), Portugal 1 (script T-shirt). Shopify descriptions additionally say 'Crafted in Italy' for 3 loafers/derbies and 'Made in Ireland' for the Sheep jumper; the origin field on PDPs is a structured line separate from the description, so items without it in the description still show it on the PDP.",
+  "heritage": "dated and placed",
+  "repair": "no",
+  "process": "no",
+  "urls": [
+   "https://jwanderson.com/products/mens-knitted-mohair-cardigan-in-brown",
+   "https://jwanderson.com/pages/about-us"
+  ],
+  "conf": "high",
+  "read": "2026-10-03"
+ }
 }

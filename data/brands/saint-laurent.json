@@ -1,244 +1,438 @@
 {
-  "name": "Saint Laurent",
-  "band": "trueLux",
-  "seat": 152,
-  "dagger": 0,
-  "focus": {
-    "tech": 1,
-    "comfort": 1,
-    "craft": 3,
-    "style": 5
-  },
-  "fabric": {
-    "denim": 3,
-    "cashmere": 2,
-    "linen": 1,
-    "cotton": 2,
-    "wool": 3,
-    "synth": 1
-  },
-  "dials": {
-    "dur": 3,
-    "forg": 1,
-    "fuss": 0,
-    "shoes": 4,
-    "status": 5,
-    "fren": 5,
-    "street": 2,
-    "avant": 2,
-    "whitet": 2,
-    "logo": 2,
-    "western": 1,
-    "rock": 4,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
-  },
-  "why": "Slim rock-influenced tailoring, leather and denim from the Paris house.",
-  "origin": "Founded in Paris in 1961 by Yves Saint Laurent and Pierre Bergé.",
-  "chan": ["O", "D"],
-  "conf": "S",
-  "forgc": [1, 2, 1],
-  "shop": "https://www.ysl.com/en-us/search?q=",
-  "onething": {
-    "p": "Wyatt boot",
-    "u": "https://www.ysl.com/en-us/search?q=Wyatt%20boot%20men",
-    "n": "works"
-  },
-  "prices": [
-    [490, 980],
-    [620, 1550],
-    [950, 2400],
-    [950, 1230],
-    [1400, 3200],
-    [1250, 2900],
-    [1780, 4800],
-    [1050, 1400]
+ "name": "Saint Laurent",
+ "band": "trueLux",
+ "seat": 152,
+ "dagger": 0,
+ "focus": {
+  "tech": 1,
+  "comfort": 1,
+  "craft": 3,
+  "style": 5
+ },
+ "fabric": {
+  "denim": 3,
+  "cashmere": 2,
+  "linen": 1,
+  "cotton": 2,
+  "wool": 3,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 1,
+  "fuss": 0,
+  "shoes": 4,
+  "status": 5,
+  "fren": 5,
+  "street": 2,
+  "avant": 2,
+  "whitet": 2,
+  "logo": 2,
+  "western": 1,
+  "rock": 4,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Slim rock-influenced tailoring, leather and denim from the Paris house.",
+ "origin": "Founded in Paris in 1961 by Yves Saint Laurent and Pierre Bergé.",
+ "chan": [
+  "O",
+  "D"
+ ],
+ "conf": "S",
+ "forgc": [
+  1,
+  2,
+  1
+ ],
+ "shop": "https://www.ysl.com/en-us/search?q=",
+ "onething": {
+  "p": "Wyatt boot",
+  "u": "https://www.ysl.com/en-us/search?q=Wyatt%20boot%20men",
+  "n": "works"
+ },
+ "prices": [
+  [
+   490,
+   980
   ],
-  "shoelink": {
-    "t": "Wyatt boot",
-    "u": "https://www.ysl.com/en-us/search?q=Wyatt%20boot"
+  [
+   620,
+   1550
+  ],
+  [
+   950,
+   2400
+  ],
+  [
+   950,
+   1230
+  ],
+  [
+   1400,
+   3200
+  ],
+  [
+   1250,
+   2900
+  ],
+  [
+   1780,
+   4800
+  ],
+  [
+   1050,
+   1400
+  ]
+ ],
+ "shoelink": {
+  "t": "Wyatt boot",
+  "u": "https://www.ysl.com/en-us/search?q=Wyatt%20boot"
+ },
+ "notes": {
+  "fren": "the smoking, the boulevard, the eternal cool",
+  "status": "The most legible silhouette in luxury menswear — narrow, black, unmistakable from across a room. Status by outline rather than by logo.",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 4; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "style": "A single, sharp silhouette — skinny, dark, rock — defines everything.",
+  "craft": "Trade press reports a Saint Laurent-run leather-goods atelier in Scandicci with more than 500 artisans; this is the brand's own making, inside Kering. Nothing read shows owned making for ready-to-wear. Under the leather-goods rule this supports at most a 4, and 4 is proposed on that basis. [audit proposed 4 at low confidence; held at 3 pending a second read]"
+ },
+ "doors": {
+  "c": "full",
+  "n": 46,
+  "cities": [
+   [
+    "Atlanta",
+    "GA",
+    1
+   ],
+   [
+    "Austin",
+    "TX",
+    1
+   ],
+   [
+    "Beverly Hills",
+    "CA",
+    2
+   ],
+   [
+    "Boston",
+    "MA",
+    1
+   ],
+   [
+    "Charlotte",
+    "NC",
+    1
+   ],
+   [
+    "Chicago",
+    "IL",
+    1
+   ],
+   [
+    "Costa Mesa",
+    "CA",
+    1
+   ],
+   [
+    "Dallas",
+    "TX",
+    1
+   ],
+   [
+    "Denver",
+    "CO",
+    1
+   ],
+   [
+    "East Rutherford",
+    "NJ",
+    1
+   ],
+   [
+    "Fort Worth",
+    "TX",
+    1
+   ],
+   [
+    "Glendale",
+    "CA",
+    1
+   ],
+   [
+    "Honolulu",
+    "HI",
+    3
+   ],
+   [
+    "Houston",
+    "TX",
+    1
+   ],
+   [
+    "King of Prussia",
+    "PA",
+    1
+   ],
+   [
+    "Las Vegas",
+    "NV",
+    4
+   ],
+   [
+    "Los Angeles",
+    "CA",
+    1
+   ],
+   [
+    "Maui",
+    "HI",
+    1
+   ],
+   [
+    "McLean",
+    "VA",
+    1
+   ],
+   [
+    "Miami",
+    "FL",
+    3
+   ],
+   [
+    "Nashville",
+    "TN",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    3
+   ],
+   [
+    "Oak Brook",
+    "IL",
+    1
+   ],
+   [
+    "Orlando",
+    "FL",
+    1
+   ],
+   [
+    "Palm Beach",
+    "FL",
+    1
+   ],
+   [
+    "Portland",
+    "OR",
+    1
+   ],
+   [
+    "Roseville",
+    "CA",
+    1
+   ],
+   [
+    "San Diego",
+    "CA",
+    1
+   ],
+   [
+    "San Francisco",
+    "CA",
+    1
+   ],
+   [
+    "San Jose",
+    "CA",
+    1
+   ],
+   [
+    "San Juan",
+    "PR",
+    1
+   ],
+   [
+    "Scottsdale",
+    "AZ",
+    1
+   ],
+   [
+    "Short Hills",
+    "NJ",
+    1
+   ],
+   [
+    "Tampa",
+    "FL",
+    1
+   ],
+   [
+    "The Woodlands",
+    "TX",
+    1
+   ],
+   [
+    "Troy",
+    "MI",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 4,
+  "con": 7
+ },
+ "cities": "46 stores across the US · department stores, and its own site",
+ "region": {
+  "o": [
+   3058,
+   3063,
+   3080,
+   3081,
+   3082,
+   3086,
+   3094
+  ],
+  "s": []
+ },
+ "addmen": true,
+ "site": {
+  "domain": "ysl.com",
+  "platform": "custom",
+  "feed": "sitemap_products",
+  "feed_count": 1000,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "no",
+  "origin": "none",
+  "marks": [
+   "none (generic 'water-repellent' in 3 product names/descriptions)"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 284,
+  "w": 284,
+  "n": 91,
+  "s": 4,
+  "c": 5,
+  "x": 1,
+  "xh": 1,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "pants",
+   "shirts",
+   "jackets"
+  ],
+  "st": "complete"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "SAINT LAURENT T-SHIRT (certified cotton)",
+   "lu": "https://www.ysl.com/en-us/pr/saint-laurent-t-shirt-818535YBHD21467.html",
+   "hp": "CASSANDRE T-shirt in silk and cotton",
+   "hu": "https://www.ysl.com/en-us/pr/cassandre-t-shirt-in-silk-and-cotton-A001DGY38FI2043.html",
+   "b": "pair"
   },
-  "notes": {
-    "fren": "the smoking, the boulevard, the eternal cool",
-    "status": "The most legible silhouette in luxury menswear — narrow, black, unmistakable from across a room. Status by outline rather than by logo.",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 4; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "style": "A single, sharp silhouette — skinny, dark, rock — defines everything.",
-    "craft": "Trade press reports a Saint Laurent-run leather-goods atelier in Scandicci with more than 500 artisans; this is the brand's own making, inside Kering. Nothing read shows owned making for ready-to-wear. Under the leather-goods rule this supports at most a 4, and 4 is proposed on that basis. [audit proposed 4 at low confidence; held at 3 pending a second read]"
+  "Polo": {
+   "lp": "CASSANDRE POLO SHIRT IN PIQUÉ",
+   "lu": "https://www.ysl.com/en-us/pr/cassandre-polo-shirt-in-pique-798944Y37HC4140.html",
+   "hp": "polo in seedstitch silk",
+   "hu": "https://www.ysl.com/en-us/pr/polo-in-seedstitch-silk-862759Y77IK2020.html",
+   "b": "pair"
   },
-  "doors": {
-    "c": "full",
-    "n": 46,
-    "cities": [
-      ["Atlanta", "GA", 1],
-      ["Austin", "TX", 1],
-      ["Beverly Hills", "CA", 2],
-      ["Boston", "MA", 1],
-      ["Charlotte", "NC", 1],
-      ["Chicago", "IL", 1],
-      ["Costa Mesa", "CA", 1],
-      ["Dallas", "TX", 1],
-      ["Denver", "CO", 1],
-      ["East Rutherford", "NJ", 1],
-      ["Fort Worth", "TX", 1],
-      ["Glendale", "CA", 1],
-      ["Honolulu", "HI", 3],
-      ["Houston", "TX", 1],
-      ["Las Vegas", "NV", 4],
-      ["Los Angeles", "CA", 1],
-      ["Maui", "HI", 1],
-      ["McLean", "VA", 1],
-      ["Miami", "FL", 3],
-      ["Nashville", "TN", 1],
-      ["New York", "NY", 3],
-      ["Oak Brook", "IL", 1],
-      ["Orlando", "FL", 1],
-      ["Palm Beach", "FL", 1],
-      ["Philadelphia", "PA", 1],
-      ["Portland", "OR", 1],
-      ["Roseville", "CA", 1],
-      ["San Diego", "CA", 1],
-      ["San Francisco", "CA", 1],
-      ["San Jose", "CA", 1],
-      ["San Juan", "PR", 1],
-      ["Scottsdale", "AZ", 1],
-      ["Short Hills", "NJ", 1],
-      ["Tampa", "FL", 1],
-      ["The Woodlands", "TX", 1],
-      ["Troy", "MI", 1]
-    ],
-    "basis": "recapture 2026-09"
+  "Dress shirt": {
+   "lp": "CASSANDRE shirt in stretch cotton poplin",
+   "lu": "https://www.ysl.com/en-us/pr/cassandre-shirt-in-stretch-cotton-poplin-859779Y2N489000.html",
+   "hp": "shirt in silk satin-back crepe",
+   "hu": "https://www.ysl.com/en-us/pr/shirt-in-silk-satin-back-crepe-854249Y1L271302.html",
+   "b": "pair"
   },
-  "cities": "46 stores across the US · department stores, and its own site",
-  "region": {
-    "o": [2455, 2458, 2459, 2464, 2465, 2466, 2468],
-    "s": []
+  "Jeans": {
+   "lp": "Slim Jeans in Carbon Black Denim",
+   "lu": "https://www.ysl.com/en-us/pr/slim-jeans-in-carbon-black-denim-800332Y16PG1290.html",
+   "hp": "tapered high-rise jeans",
+   "hu": "https://www.ysl.com/en-us/pr/tapered-high-rise-jeans-859131Y29WB1228.html",
+   "b": "range"
   },
-  "addmen": true,
-  "site": {
-    "domain": "ysl.com",
-    "platform": "custom",
-    "feed": "sitemap_products",
-    "feed_count": 1000,
-    "status": "live_store",
-    "checked": "2026-09-13"
+  "Dress pants": {
+   "lp": "slim-fit pants in virgin wool",
+   "lu": "https://www.ysl.com/en-us/pr/slim-fit-pants-in-virgin-wool-856459Y405W1000.html",
+   "hp": "wide-leg tuxedo pants in grain de poudre",
+   "hu": "https://www.ysl.com/en-us/pr/wide-leg-tuxedo-pants-in-grain-de-poudre-A003CEY7E631000.html",
+   "b": "range"
   },
-  "tech_evidence": {
-    "names": "no",
-    "origin": "none",
-    "marks": ["none (generic 'water-repellent' in 3 product names/descriptions)"],
-    "source": "census",
-    "checked": "2026-09-12"
+  "Sweater": {
+   "lp": "crewneck sweater in cotton",
+   "lu": "https://www.ysl.com/en-us/pr/crewneck-sweater-in-cotton-863338Y77HW1000.html",
+   "hp": "sweater in rib-knit cashmere",
+   "hu": "https://www.ysl.com/en-us/pr/sweater-in-rib-knit-cashmere-A004LPY77MS1082.html",
+   "b": "pair"
   },
-  "fibre": {
-    "t": 284,
-    "w": 284,
-    "n": 91,
-    "s": 4,
-    "c": 5,
-    "x": 1,
-    "xh": 1,
-    "sp": "one",
-    "sc": [],
-    "nc": ["pants", "shirts", "jackets"],
-    "st": "complete"
+  "Outerwear": {
+   "lp": "trucker jacket in french black denim",
+   "lu": "https://www.ysl.com/en-us/pr/trucker-jacket-in-french-black-denim-816791Y31SA2029.html",
+   "hp": "Lambskin denim Jacket",
+   "hu": "https://www.ysl.com/en-us/pr/lambskin-denim-jacket-529949YC2OC1000.html",
+   "b": "pair"
   },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "SAINT LAURENT T-SHIRT (certified cotton)",
-      "lu": "https://www.ysl.com/en-us/pr/saint-laurent-t-shirt-818535YBHD21467.html",
-      "hp": "CASSANDRE T-shirt in silk and cotton",
-      "hu": "https://www.ysl.com/en-us/pr/cassandre-t-shirt-in-silk-and-cotton-A001DGY38FI2043.html",
-      "b": "pair"
-    },
-    "Polo": {
-      "lp": "CASSANDRE POLO SHIRT IN PIQUÉ",
-      "lu": "https://www.ysl.com/en-us/pr/cassandre-polo-shirt-in-pique-798944Y37HC4140.html",
-      "hp": "polo in seedstitch silk",
-      "hu": "https://www.ysl.com/en-us/pr/polo-in-seedstitch-silk-862759Y77IK2020.html",
-      "b": "pair"
-    },
-    "Dress shirt": {
-      "lp": "CASSANDRE shirt in stretch cotton poplin",
-      "lu": "https://www.ysl.com/en-us/pr/cassandre-shirt-in-stretch-cotton-poplin-859779Y2N489000.html",
-      "hp": "shirt in silk satin-back crepe",
-      "hu": "https://www.ysl.com/en-us/pr/shirt-in-silk-satin-back-crepe-854249Y1L271302.html",
-      "b": "pair"
-    },
-    "Jeans": {
-      "lp": "Slim Jeans in Carbon Black Denim",
-      "lu": "https://www.ysl.com/en-us/pr/slim-jeans-in-carbon-black-denim-800332Y16PG1290.html",
-      "hp": "tapered high-rise jeans",
-      "hu": "https://www.ysl.com/en-us/pr/tapered-high-rise-jeans-859131Y29WB1228.html",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "slim-fit pants in virgin wool",
-      "lu": "https://www.ysl.com/en-us/pr/slim-fit-pants-in-virgin-wool-856459Y405W1000.html",
-      "hp": "wide-leg tuxedo pants in grain de poudre",
-      "hu": "https://www.ysl.com/en-us/pr/wide-leg-tuxedo-pants-in-grain-de-poudre-A003CEY7E631000.html",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "crewneck sweater in cotton",
-      "lu": "https://www.ysl.com/en-us/pr/crewneck-sweater-in-cotton-863338Y77HW1000.html",
-      "hp": "sweater in rib-knit cashmere",
-      "hu": "https://www.ysl.com/en-us/pr/sweater-in-rib-knit-cashmere-A004LPY77MS1082.html",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "trucker jacket in french black denim",
-      "lu": "https://www.ysl.com/en-us/pr/trucker-jacket-in-french-black-denim-816791Y31SA2029.html",
-      "hp": "Lambskin denim Jacket",
-      "hu": "https://www.ysl.com/en-us/pr/lambskin-denim-jacket-529949YC2OC1000.html",
-      "b": "pair"
-    },
-    "Shoes": {
-      "lp": "LAURENT loafers in suede",
-      "lu": "https://www.ysl.com/en-us/pr/laurent-loafers-in-suede-8211732OYAA2732.html",
-      "hp": "THEOBALD loafers in glazed leather",
-      "hu": "https://www.ysl.com/en-us/pr/theobald-loafers-in-glazed-leather-A002D2AAHFF1000.html",
-      "b": "pair"
-    }
-  },
-  "price_range_only": ["Jeans", "Dress pants"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.ysl.com/en-us/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=83122&brand_ids[]=377",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "craft_evidence": {
-    "owned": "yes",
-    "owned_d": "Leather goods only. Pambianco (9 Jan 2024) reports that Saint Laurent recently opened its 'Atelier Maroquinerie' in Scandicci (Florence), with 'oltre 500 artigiani e tecnici' making leather goods. Pambianco (22 Feb 2021): the Palazzo delle Finanze building in Scandicci is owned by Cassa Depositi e Prestiti and redeveloped for YSL as a centre for research, development and production of accessories, with about 300 hires. So the workshop is run by the brand (a Kering house) in a leased building. No owned ready-to-wear making found.",
-    "makers": "NC",
-    "mills": "NC",
-    "madein": "NC",
-    "countries": "NC: ysl.com blocked, no PDPs read.",
-    "heritage": "NC",
-    "repair": "NC",
-    "process": "NC",
-    "urls": [
-      "https://www.pambianconews.com/2024/01/09/kering-oltre-il-50-dei-ricavi-proviene-dalle-produzioni-in-italia-392746/",
-      "https://www.pambianconews.com/2021/02/22/da-pax-yves-saint-laurent-a-scandicci-entro-il-2023-311170/"
-    ],
-    "conf": "low",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "LAURENT loafers in suede",
+   "lu": "https://www.ysl.com/en-us/pr/laurent-loafers-in-suede-8211732OYAA2732.html",
+   "hp": "THEOBALD loafers in glazed leather",
+   "hu": "https://www.ysl.com/en-us/pr/theobald-loafers-in-glazed-leather-A002D2AAHFF1000.html",
+   "b": "pair"
   }
+ },
+ "price_range_only": [
+  "Jeans",
+  "Dress pants"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.ysl.com/en-us/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=83122&brand_ids[]=377",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "craft_evidence": {
+  "owned": "yes",
+  "owned_d": "Leather goods only. Pambianco (9 Jan 2024) reports that Saint Laurent recently opened its 'Atelier Maroquinerie' in Scandicci (Florence), with 'oltre 500 artigiani e tecnici' making leather goods. Pambianco (22 Feb 2021): the Palazzo delle Finanze building in Scandicci is owned by Cassa Depositi e Prestiti and redeveloped for YSL as a centre for research, development and production of accessories, with about 300 hires. So the workshop is run by the brand (a Kering house) in a leased building. No owned ready-to-wear making found.",
+  "makers": "NC",
+  "mills": "NC",
+  "madein": "NC",
+  "countries": "NC: ysl.com blocked, no PDPs read.",
+  "heritage": "NC",
+  "repair": "NC",
+  "process": "NC",
+  "urls": [
+   "https://www.pambianconews.com/2024/01/09/kering-oltre-il-50-dei-ricavi-proviene-dalle-produzioni-in-italia-392746/",
+   "https://www.pambianconews.com/2021/02/22/da-pax-yves-saint-laurent-a-scandicci-entro-il-2023-311170/"
+  ],
+  "conf": "low",
+  "read": "2026-10-03"
+ }
 }

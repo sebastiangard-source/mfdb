@@ -1,172 +1,211 @@
 {
-  "name": "Saint James",
-  "band": "accessible",
-  "seat": 102,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 4,
-    "craft": 4,
-    "style": 3
+ "name": "Saint James",
+ "band": "accessible",
+ "seat": 102,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 4,
+  "craft": 4,
+  "style": 3
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 4,
+  "wool": 5,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 4,
+  "forg": 3,
+  "fuss": 2,
+  "status": 2,
+  "ital": 0,
+  "fren": 5,
+  "boat": 4,
+  "whitet": 2,
+  "logo": 1,
+  "western": 1,
+  "rock": 1,
+  "workwear": 3,
+  "outdoor": 1,
+  "surf": 3
+ },
+ "why": "Breton striped shirts and knitwear from the Normandy town of the same name.",
+ "origin": "Formally founded in 1889 as a wool spinner in Saint-James, Normandy; employee-owned since 1990.",
+ "chan": [
+  "D",
+  "I",
+  "X"
+ ],
+ "conf": "L",
+ "forgc": [
+  3,
+  3,
+  1
+ ],
+ "onething": {
+  "p": "The marière, the Breton striped shirt",
+  "u": "https://us.saint-james.com/collections/mens-breton-shirts",
+  "n": "verified — the house's own history page dates the garment to the town and the sea, and it remains what it is bought for"
+ },
+ "prices": [
+  [
+   125,
+   139
+  ],
+  null,
+  [
+   195,
+   195
+  ],
+  null,
+  null,
+  [
+   265,
+   515
+  ],
+  [
+   155,
+   955
+  ],
+  null
+ ],
+ "notes": {
+  "wool": "28 of 67 clothing styles are wool-dominant — the house began as a spinner",
+  "fren": "Saint-James in Normandy is the town, the company and the garment",
+  "boat": "the marière is working sailors' kit rather than yacht-club dress",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 3; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "Saint James knits and sews in its own workshops in Saint-James, Normandy (75 looms, 100+ seamstresses, per its know-how page), and its Breton, knit and peacoat pages say they are made there. But half the sampled product pages (a polyester bomber, a canvas jacket, a tee) give no origin, and a separate Made-in-France collection suggests not everything is French-made. A strong 4, a 5 if the unlabelled lines prove to be in-house."
+ },
+ "doors": {
+  "c": "full",
+  "n": 0,
+  "cities": [],
+  "basis": "master 2026-08-29, pre-recapture"
+ },
+ "cities": "No store of its own in the US · department stores and independent menswear shops, and its own site",
+ "site": {
+  "domain": "us.saint-james.com",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 465,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "house",
+  "marks": [
+   "A HOUSE technical material with its own coined name: UVYL. Declared verbatim on the brand's own fabric guide - 'Anti-UV UVYL. What is UVYL? Made from polyamide (at SAINT JAMES, we choose recycled polyamide), UVYL is a synthetic material with a soft touch and anti-UV properties' - and carried into th"
+  ],
+  "source": "census_204",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 85,
+  "w": 84,
+  "n": 95,
+  "s": 4,
+  "c": 0,
+  "x": 2,
+  "xh": 0,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "Knitwear",
+   "Breton shirts",
+   "Coats & Jackets"
+  ],
+  "st": "complete"
+ },
+ "region": {
+  "o": [],
+  "s": [
+   150
+  ]
+ },
+ "shop": "https://us.saint-james.com/search?q=",
+ "garment_links": {
+  "T-shirt": "https://us.saint-james.com/collections/t-shirts-men",
+  "Dress shirt": "https://us.saint-james.com/collections/shirts-men",
+  "Sweater": "https://us.saint-james.com/collections/sweaters-cardigans-men",
+  "Outerwear": "https://us.saint-james.com/collections/men-peacoats-rainwear-and-coats"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "LEVANT MODERN Breton Shirt (NAVY / WHITE)",
+   "lu": "https://us.saint-james.com/products/levant-breton-shirt-navy-white",
+   "hp": "PLOUIDER II Breton T-Shirt (NAVY / ECRU)",
+   "hu": "https://us.saint-james.com/products/plouider-ii-breton-t-shirt-for-men-crew-neck-100-cotton-navy-ecru",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 1,
-    "linen": 1,
-    "cotton": 4,
-    "wool": 5,
-    "synth": 1
+  "Dress shirt": {
+   "lp": "CASSIAN Button-Down Shirt (HIGHLANDS)",
+   "lu": "https://us.saint-james.com/products/cassian-button-down-shirt-highlands",
+   "hp": "CASSIAN Button-Down Shirt (HIGHLANDS)",
+   "hu": "https://us.saint-james.com/products/cassian-button-down-shirt-highlands",
+   "b": "single"
   },
-  "dials": {
-    "dur": 4,
-    "forg": 3,
-    "fuss": 2,
-    "status": 2,
-    "ital": 0,
-    "fren": 5,
-    "boat": 4,
-    "whitet": 2,
-    "logo": 1,
-    "western": 1,
-    "rock": 1,
-    "workwear": 3,
-    "outdoor": 1,
-    "surf": 3
+  "Sweater": {
+   "lp": "GREENFIELD Sweater (MOSS GREEN MELANGE)",
+   "lu": "https://us.saint-james.com/products/greenfield-sweater-moss-green-melange",
+   "hp": "OSSAU Sweater (IVORY MELANGE)",
+   "hu": "https://us.saint-james.com/products/ossau-sweater-ivory-melange",
+   "b": "range"
   },
-  "why": "Breton striped shirts and knitwear from the Normandy town of the same name.",
-  "origin": "Formally founded in 1889 as a wool spinner in Saint-James, Normandy; employee-owned since 1990.",
-  "chan": ["D", "I", "X"],
-  "conf": "L",
-  "forgc": [3, 3, 1],
-  "onething": {
-    "p": "The marière, the Breton striped shirt",
-    "u": "https://us.saint-james.com/collections/mens-breton-shirts",
-    "n": "verified — the house's own history page dates the garment to the town and the sea, and it remains what it is bought for"
-  },
-  "prices": [[125, 139], null, [195, 195], null, null, [265, 515], [155, 955], null],
-  "notes": {
-    "wool": "28 of 67 clothing styles are wool-dominant — the house began as a spinner",
-    "fren": "Saint-James in Normandy is the town, the company and the garment",
-    "boat": "the marière is working sailors' kit rather than yacht-club dress",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 3; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Saint James knits and sews in its own workshops in Saint-James, Normandy (75 looms, 100+ seamstresses, per its know-how page), and its Breton, knit and peacoat pages say they are made there. But half the sampled product pages (a polyester bomber, a canvas jacket, a tee) give no origin, and a separate Made-in-France collection suggests not everything is French-made. A strong 4, a 5 if the unlabelled lines prove to be in-house."
-  },
-  "doors": {
-    "c": "full",
-    "n": 0,
-    "cities": [],
-    "basis": "master 2026-08-29, pre-recapture"
-  },
-  "cities": "No store of its own in the US · department stores and independent menswear shops, and its own site",
-  "site": {
-    "domain": "us.saint-james.com",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 465,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "house",
-    "marks": [
-      "A HOUSE technical material with its own coined name: UVYL. Declared verbatim on the brand's own fabric guide - 'Anti-UV UVYL. What is UVYL? Made from polyamide (at SAINT JAMES, we choose recycled polyamide), UVYL is a synthetic material with a soft touch and anti-UV properties' - and carried into th"
-    ],
-    "source": "census_204",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 85,
-    "w": 84,
-    "n": 95,
-    "s": 4,
-    "c": 0,
-    "x": 2,
-    "xh": 0,
-    "sp": "one",
-    "sc": [],
-    "nc": ["Knitwear", "Breton shirts", "Coats & Jackets"],
-    "st": "complete"
-  },
-  "region": {
-    "o": [],
-    "s": [150]
-  },
-  "shop": "https://us.saint-james.com/search?q=",
-  "garment_links": {
-    "T-shirt": "https://us.saint-james.com/collections/t-shirts-men",
-    "Dress shirt": "https://us.saint-james.com/collections/shirts-men",
-    "Sweater": "https://us.saint-james.com/collections/sweaters-cardigans-men",
-    "Outerwear": "https://us.saint-james.com/collections/men-peacoats-rainwear-and-coats"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "LEVANT MODERN Breton Shirt (NAVY / WHITE)",
-      "lu": "https://us.saint-james.com/products/levant-breton-shirt-navy-white",
-      "hp": "PLOUIDER II Breton T-Shirt (NAVY / ECRU)",
-      "hu": "https://us.saint-james.com/products/plouider-ii-breton-t-shirt-for-men-crew-neck-100-cotton-navy-ecru",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "CASSIAN Button-Down Shirt (HIGHLANDS)",
-      "lu": "https://us.saint-james.com/products/cassian-button-down-shirt-highlands",
-      "hp": "CASSIAN Button-Down Shirt (HIGHLANDS)",
-      "hu": "https://us.saint-james.com/products/cassian-button-down-shirt-highlands",
-      "b": "single"
-    },
-    "Sweater": {
-      "lp": "GREENFIELD Sweater (MOSS GREEN MELANGE)",
-      "lu": "https://us.saint-james.com/products/greenfield-sweater-moss-green-melange",
-      "hp": "OSSAU Sweater (IVORY MELANGE)",
-      "hu": "https://us.saint-james.com/products/ossau-sweater-ivory-melange",
-      "b": "range"
-    },
-    "Outerwear": {
-      "lp": "NEMO French Sailor Jacket (NAVY)",
-      "lu": "https://us.saint-james.com/products/nemo-french-sailor-jacket-navy",
-      "hp": "GALION II Classic Peacoat (NAVY)",
-      "hu": "https://us.saint-james.com/products/galion-ii-authentic-peacoat-for-men-100-wool-navy",
-      "b": "range"
-    }
-  },
-  "price_range_only": ["T-shirt", "Sweater", "Outerwear"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://us.saint-james.com/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=2391",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "craft_evidence": {
-    "owned": "yes",
-    "owned_d": "Brand's own workshops in the town of Saint-James, Normandy. Know-how page: 'one of the largest knitting workshops in Europe, with no less than 75 knitting looms'; 'more than 100 seamstresses work in the clothing workshop'; in-house mending (raccoutreuses). History page: offices and workshops have stayed in the region since 1889; 300+ employees; bought by its employees in 1990. Spinning and dyeing not described as in-house today. Covers knitwear, Breton tops and at least some tailoring (peacoat 'crafted in our Ateliers in Normandy'); some sampled items give no origin.",
-    "makers": "some",
-    "mills": "some",
-    "madein": "some",
-    "countries": "France 3/6 product-specific (Breton shirt, cardigan, peacoat); 3/6 no product-specific origin (ST DARIO polyester bomber, Zephyr cotton jacket, Arsene tee), only the site-wide 'Made in France' banner. Sample of 6 PDPs on us.saint-james.com (Breton, knit, outerwear x3, tee). Site has a separate 'Made in France' collection, which suggests not every item is French-made. products.json blocked by robots.txt.",
-    "heritage": "dated and placed",
-    "repair": "no",
-    "process": "yes",
-    "urls": [
-      "https://us.saint-james.com/pages/our-craftsmanship",
-      "https://us.saint-james.com/products/galion-ii-authentic-peacoat-for-men-100-wool-navy"
-    ],
-    "conf": "medium",
-    "read": "2026-10-03"
+  "Outerwear": {
+   "lp": "NEMO French Sailor Jacket (NAVY)",
+   "lu": "https://us.saint-james.com/products/nemo-french-sailor-jacket-navy",
+   "hp": "GALION II Classic Peacoat (NAVY)",
+   "hu": "https://us.saint-james.com/products/galion-ii-authentic-peacoat-for-men-100-wool-navy",
+   "b": "range"
   }
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Sweater",
+  "Outerwear"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://us.saint-james.com/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=2391",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "craft_evidence": {
+  "owned": "yes",
+  "owned_d": "Brand's own workshops in the town of Saint-James, Normandy. Know-how page: 'one of the largest knitting workshops in Europe, with no less than 75 knitting looms'; 'more than 100 seamstresses work in the clothing workshop'; in-house mending (raccoutreuses). History page: offices and workshops have stayed in the region since 1889; 300+ employees; bought by its employees in 1990. Spinning and dyeing not described as in-house today. Covers knitwear, Breton tops and at least some tailoring (peacoat 'crafted in our Ateliers in Normandy'); some sampled items give no origin.",
+  "makers": "some",
+  "mills": "some",
+  "madein": "some",
+  "countries": "France 3/6 product-specific (Breton shirt, cardigan, peacoat); 3/6 no product-specific origin (ST DARIO polyester bomber, Zephyr cotton jacket, Arsene tee), only the site-wide 'Made in France' banner. Sample of 6 PDPs on us.saint-james.com (Breton, knit, outerwear x3, tee). Site has a separate 'Made in France' collection, which suggests not every item is French-made. products.json blocked by robots.txt.",
+  "heritage": "dated and placed",
+  "repair": "no",
+  "process": "yes",
+  "urls": [
+   "https://us.saint-james.com/pages/our-craftsmanship",
+   "https://us.saint-james.com/products/galion-ii-authentic-peacoat-for-men-100-wool-navy"
+  ],
+  "conf": "medium",
+  "read": "2026-10-03"
+ }
 }

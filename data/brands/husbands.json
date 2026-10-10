@@ -1,203 +1,246 @@
 {
-  "name": "Husbands",
-  "band": "trueLux",
-  "seat": 184,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 1,
-    "craft": 2,
-    "style": 5
-  },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 1,
-    "linen": 2,
-    "cotton": 2,
-    "wool": 4,
-    "synth": 1
-  },
-  "dials": {
-    "dur": 3,
-    "forg": 2,
-    "fuss": 2,
-    "status": 2,
-    "fren": 5,
-    "whitet": 2,
-    "logo": 1,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
-  },
-  "why": "Strong-shouldered tailoring in a 1970s style, from Paris.",
-  "origin": "Founded in Paris in 2011 by Nicolas Gabard.",
-  "say": "HUZ-bunds",
-  "chan": ["W"],
-  "conf": "L",
-  "forgc": [2, 2, 3],
-  "shop": "https://husbands-paris.com/en/search?q=",
-  "onething": {
-    "p": "Two-button peak-lapel jacket",
-    "u": "https://husbands-paris.com/en/collections/suits",
-    "n": "verified — own-site collection. The house lists this as a signature model: structured shoulder, nipped waist, wide lapel, Gainsbourg by way of Cassavetes"
-  },
-  "prices": [
-    [200, 230, "USD_landed"],
-    null,
-    [380, 990, "USD_landed"],
-    [540, 560, "USD_landed"],
-    [680, 790, "USD_landed"],
-    [690, 690, "USD_landed"],
-    [750, 3480, "USD_landed"],
-    [720, 930, "USD_landed"]
+ "name": "Husbands",
+ "band": "trueLux",
+ "seat": 184,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 1,
+  "craft": 2,
+  "style": 5
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 2,
+  "cotton": 2,
+  "wool": 4,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 2,
+  "fuss": 2,
+  "status": 2,
+  "fren": 5,
+  "whitet": 2,
+  "logo": 1,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Strong-shouldered tailoring in a 1970s style, from Paris.",
+ "origin": "Founded in Paris in 2011 by Nicolas Gabard.",
+ "say": "HUZ-bunds",
+ "chan": [
+  "W"
+ ],
+ "conf": "L",
+ "forgc": [
+  2,
+  2,
+  3
+ ],
+ "shop": "https://husbands-paris.com/en/search?q=",
+ "onething": {
+  "p": "Two-button peak-lapel jacket",
+  "u": "https://husbands-paris.com/en/collections/suits",
+  "n": "verified — own-site collection. The house lists this as a signature model: structured shoulder, nipped waist, wide lapel, Gainsbourg by way of Cassavetes"
+ },
+ "prices": [
+  [
+   200,
+   230,
+   "USD_landed"
   ],
-  "notes": {
-    "fren": "Paris tailoring with a Gainsbourg cigarette",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 1; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "style": "A single 1970s-inflected tailoring silhouette defines the house.",
-    "craft": "Every Husbands PDP sampled states a country of make (Italy, Poland, Portugal) and the fabric's country of origin, but none names a maker or mill. Suit PDPs give construction specifics ('entièrement entoilée', functional cuffs). The only maker reference is an unnamed 1989 Cologne shirt workshop. That is country-of-make plus construction detail = 2 (a strong 2)."
+  null,
+  [
+   380,
+   990,
+   "USD_landed"
+  ],
+  [
+   540,
+   560,
+   "USD_landed"
+  ],
+  [
+   680,
+   790,
+   "USD_landed"
+  ],
+  [
+   690,
+   690,
+   "USD_landed"
+  ],
+  [
+   750,
+   3480,
+   "USD_landed"
+  ],
+  [
+   720,
+   930,
+   "USD_landed"
+  ]
+ ],
+ "notes": {
+  "fren": "Paris tailoring with a Gainsbourg cigarette",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 1; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "style": "A single 1970s-inflected tailoring silhouette defines the house.",
+  "craft": "Every Husbands PDP sampled states a country of make (Italy, Poland, Portugal) and the fabric's country of origin, but none names a maker or mill. Suit PDPs give construction specifics ('entièrement entoilée', functional cuffs). The only maker reference is an unnamed 1989 Cologne shirt workshop. That is country-of-make plus construction detail = 2 (a strong 2)."
+ },
+ "doors": {
+  "c": "full",
+  "n": 0,
+  "cities": [],
+  "basis": "master 2026-08-29, pre-recapture"
+ },
+ "cities": "Sold direct, through its own site only",
+ "site": {
+  "domain": "husbands-paris.com",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 159,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "no",
+  "origin": "none",
+  "marks": [],
+  "source": "screen_36",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 89,
+  "w": 89,
+  "n": 92,
+  "s": 8,
+  "c": 0,
+  "x": 1,
+  "xh": 0,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "shirts",
+   "jackets",
+   "suits"
+  ],
+  "st": "complete"
+ },
+ "garment_links": {
+  "T-shirt": "https://husbands-paris.com/collections/t-shirt",
+  "Dress shirt": "https://husbands-paris.com/collections/chemises",
+  "Jeans": "https://husbands-paris.com/collections/jeans",
+  "Dress pants": "https://husbands-paris.com/collections/pantalons",
+  "Sweater": "https://husbands-paris.com/collections/mailles",
+  "Outerwear": "https://husbands-paris.com/collections/manteaux",
+  "Shoes": "https://husbands-paris.com/collections/chaussures"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Pocket T-shirt in Cotton Jersey - White",
+   "lu": "https://husbands-paris.com/en/products/pocket-t-shirt-in-cotton-jersey-white",
+   "hp": "Graphic T-shirt in Cotton Jersey - Heather Grey",
+   "hu": "https://husbands-paris.com/en/products/graphic-t-shirt-in-cotton-jersey-heather-grey",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 0,
-    "cities": [],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Dress shirt": {
+   "lp": "Wide Collar Shirt in Cotton Poplin - White",
+   "lu": "https://husbands-paris.com/en/products/wide-collar-shirt-in-cotton-poplin-white",
+   "hp": "Classic Collar Shirt in Silk Crepe - Olive",
+   "hu": "https://husbands-paris.com/en/products/classic-collar-shirt-in-silk-crepe-olive",
+   "b": "pair"
   },
-  "cities": "Sold direct, through its own site only",
-  "site": {
-    "domain": "husbands-paris.com",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 159,
-    "status": "live_store",
-    "checked": "2026-09-13"
+  "Jeans": {
+   "lp": "Flared Jeans in Cotton Denim - Greencast Indigo",
+   "lu": "https://husbands-paris.com/en/products/flared-high-waisted-jeans-denim-greencast-indigo",
+   "hp": "Flared Jeans in Cotton Denim - Blue Stone Wash",
+   "hu": "https://husbands-paris.com/en/products/flared-high-waisted-jeans-denim-blue-stone-washed",
+   "b": "range"
   },
-  "tech_evidence": {
-    "names": "no",
-    "origin": "none",
-    "marks": [],
-    "source": "screen_36",
-    "checked": "2026-09-12"
+  "Dress pants": {
+   "lp": "Flared Trousers in Poly-Wool Twill - Navy",
+   "lu": "https://husbands-paris.com/en/products/flared-trousers-in-poly-wool-twill-navy",
+   "hp": "Wide Trousers in 4-Ply Virgin Wool Twill - Grey Herringbone with Stripes",
+   "hu": "https://husbands-paris.com/en/products/wide-trousers-in-4-ply-virgin-wool-twill-grey-herringbone-with-stripes",
+   "b": "range"
   },
-  "fibre": {
-    "t": 89,
-    "w": 89,
-    "n": 92,
-    "s": 8,
-    "c": 0,
-    "x": 1,
-    "xh": 0,
-    "sp": "one",
-    "sc": [],
-    "nc": ["shirts", "jackets", "suits"],
-    "st": "complete"
+  "Sweater": {
+   "lp": "Crewneck Sweater in Brushed Superfine Alpaca Blend - Cream",
+   "lu": "https://husbands-paris.com/en/products/crewneck-sweater-in-brushed-superfine-alpaca-blend-cream",
+   "hp": "Crewneck Sweater in Brushed Superfine Alpaca Blend - Cream",
+   "hu": "https://husbands-paris.com/en/products/crewneck-sweater-in-brushed-superfine-alpaca-blend-cream",
+   "b": "single"
   },
-  "garment_links": {
-    "T-shirt": "https://husbands-paris.com/collections/t-shirt",
-    "Dress shirt": "https://husbands-paris.com/collections/chemises",
-    "Jeans": "https://husbands-paris.com/collections/jeans",
-    "Dress pants": "https://husbands-paris.com/collections/pantalons",
-    "Sweater": "https://husbands-paris.com/collections/mailles",
-    "Outerwear": "https://husbands-paris.com/collections/manteaux",
-    "Shoes": "https://husbands-paris.com/collections/chaussures"
+  "Outerwear": {
+   "lp": "Trucker Jacket in Cotton Denim - Indigo",
+   "lu": "https://husbands-paris.com/en/products/trucker-jacket-in-cotton-denim-indigo",
+   "hp": "Double-Breasted Coat in Camel Hair - Camel",
+   "hu": "https://husbands-paris.com/en/products/double-breasted-coat-in-camel-hair-camel",
+   "b": "range"
   },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Pocket T-shirt in Cotton Jersey - White",
-      "lu": "https://husbands-paris.com/en/products/pocket-t-shirt-in-cotton-jersey-white",
-      "hp": "Graphic T-shirt in Cotton Jersey - Heather Grey",
-      "hu": "https://husbands-paris.com/en/products/graphic-t-shirt-in-cotton-jersey-heather-grey",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Wide Collar Shirt in Cotton Poplin - White",
-      "lu": "https://husbands-paris.com/en/products/wide-collar-shirt-in-cotton-poplin-white",
-      "hp": "Classic Collar Shirt in Silk Crepe - Olive",
-      "hu": "https://husbands-paris.com/en/products/classic-collar-shirt-in-silk-crepe-olive",
-      "b": "pair"
-    },
-    "Jeans": {
-      "lp": "Flared Jeans in Cotton Denim - Greencast Indigo",
-      "lu": "https://husbands-paris.com/en/products/flared-high-waisted-jeans-denim-greencast-indigo",
-      "hp": "Flared Jeans in Cotton Denim - Blue Stone Wash",
-      "hu": "https://husbands-paris.com/en/products/flared-high-waisted-jeans-denim-blue-stone-washed",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Flared Trousers in Poly-Wool Twill - Navy",
-      "lu": "https://husbands-paris.com/en/products/flared-trousers-in-poly-wool-twill-navy",
-      "hp": "Wide Trousers in 4-Ply Virgin Wool Twill - Grey Herringbone with Stripes",
-      "hu": "https://husbands-paris.com/en/products/wide-trousers-in-4-ply-virgin-wool-twill-grey-herringbone-with-stripes",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Crewneck Sweater in Brushed Superfine Alpaca Blend - Cream",
-      "lu": "https://husbands-paris.com/en/products/crewneck-sweater-in-brushed-superfine-alpaca-blend-cream",
-      "hp": "Crewneck Sweater in Brushed Superfine Alpaca Blend - Cream",
-      "hu": "https://husbands-paris.com/en/products/crewneck-sweater-in-brushed-superfine-alpaca-blend-cream",
-      "b": "single"
-    },
-    "Outerwear": {
-      "lp": "Trucker Jacket in Cotton Denim - Indigo",
-      "lu": "https://husbands-paris.com/en/products/trucker-jacket-in-cotton-denim-indigo",
-      "hp": "Double-Breasted Coat in Camel Hair - Camel",
-      "hu": "https://husbands-paris.com/en/products/double-breasted-coat-in-camel-hair-camel",
-      "b": "range"
-    },
-    "Shoes": {
-      "lp": "Strap Loafers in Lambskin - Burgundy",
-      "lu": "https://husbands-paris.com/en/products/strap-loafers-in-lambskin-burgundy",
-      "hp": "Penny Loafers in Aniline Kidskin - Dark Brown",
-      "hu": "https://husbands-paris.com/en/products/penny-loafers-in-aniline-kidskin-dark-brown",
-      "b": "pair"
-    }
-  },
-  "price_range_only": ["T-shirt", "Jeans", "Dress pants", "Outerwear"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://husbands-paris.com/en/",
-    "currency": "USD_landed",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=654366",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "season": {
-    "l": "Automne-Hiver 2026 (Drop 1)",
-    "t": "lookbook",
-    "u": "https://husbands-paris.com/pages/lookbook/automne-hiver-2026-drop-1",
-    "m": "yes"
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "No owned atelier or factory claimed. The Histoire page speaks only of 'Authentic fabrics and savoir-faire' with no place named. Shirt PDPs say 'Nos chemises sont fabriquées dans un atelier fondé en 1989 à Cologne, en Allemagne' - an unnamed third-party workshop, not claimed as owned (and the two shirts read are themselves 'fabriqué en Pologne').",
-    "makers": "no",
-    "mills": "no",
-    "madein": "every product",
-    "countries": "Italy 2/6 (navy serge suit, cashmere roll-neck), Poland 2/6 (two cotton-silk shirts), Portugal 2/6 (flared trouser, ringer tee). Sample of 6 rendered PDPs: suit, knit, 2 shirts, trousers, tee. products.json body text does not carry the origin; it is on the rendered PDP.",
-    "heritage": "none",
-    "repair": "NC",
-    "process": "some",
-    "urls": [
-      "https://husbands-paris.com/products/chemise-col-large-en-serge-de-coton-et-soie-indigo",
-      "https://husbands-paris.com/products/costume-droit-en-serge-de-laine-bleu-marine"
-    ],
-    "conf": "medium",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Strap Loafers in Lambskin - Burgundy",
+   "lu": "https://husbands-paris.com/en/products/strap-loafers-in-lambskin-burgundy",
+   "hp": "Penny Loafers in Aniline Kidskin - Dark Brown",
+   "hu": "https://husbands-paris.com/en/products/penny-loafers-in-aniline-kidskin-dark-brown",
+   "b": "pair"
   }
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Jeans",
+  "Dress pants",
+  "Outerwear"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://husbands-paris.com/en/",
+  "currency": "USD_landed",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=654366",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "season": {
+  "l": "Automne-Hiver 2026 (Drop 1)",
+  "t": "lookbook",
+  "u": "https://husbands-paris.com/pages/lookbook/automne-hiver-2026-drop-1",
+  "m": "yes"
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "No owned atelier or factory claimed. The Histoire page speaks only of 'Authentic fabrics and savoir-faire' with no place named. Shirt PDPs say 'Nos chemises sont fabriquées dans un atelier fondé en 1989 à Cologne, en Allemagne' - an unnamed third-party workshop, not claimed as owned (and the two shirts read are themselves 'fabriqué en Pologne').",
+  "makers": "no",
+  "mills": "no",
+  "madein": "every product",
+  "countries": "Italy 2/6 (navy serge suit, cashmere roll-neck), Poland 2/6 (two cotton-silk shirts), Portugal 2/6 (flared trouser, ringer tee). Sample of 6 rendered PDPs: suit, knit, 2 shirts, trousers, tee. products.json body text does not carry the origin; it is on the rendered PDP.",
+  "heritage": "none",
+  "repair": "NC",
+  "process": "some",
+  "urls": [
+   "https://husbands-paris.com/products/chemise-col-large-en-serge-de-coton-et-soie-indigo",
+   "https://husbands-paris.com/products/costume-droit-en-serge-de-laine-bleu-marine"
+  ],
+  "conf": "medium",
+  "read": "2026-10-03"
+ }
 }

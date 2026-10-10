@@ -1,203 +1,301 @@
 {
-  "name": "AG",
-  "band": "accessible",
-  "seat": 82,
-  "dagger": 1,
-  "focus": {
-    "tech": 2,
-    "comfort": 4,
-    "craft": 3,
-    "style": 3
+ "name": "AG",
+ "band": "accessible",
+ "seat": 82,
+ "dagger": 1,
+ "focus": {
+  "tech": 2,
+  "comfort": 4,
+  "craft": 3,
+  "style": 3
+ },
+ "fabric": {
+  "denim": 5,
+  "cashmere": 1,
+  "linen": 2,
+  "cotton": 2,
+  "wool": 1,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 2,
+  "fuss": -2,
+  "murica": 2,
+  "ital": 2,
+  "whitet": 2,
+  "logo": 1,
+  "western": 1,
+  "rock": 2,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Premium jeans from Los Angeles, with chinos and knitwear alongside.",
+ "origin": "Founded in Los Angeles in 2000 by Adriano Goldschmied and Yul Ku.",
+ "chan": [
+  "D",
+  "O",
+  "I"
+ ],
+ "conf": "L",
+ "forgc": [
+  2,
+  3,
+  1
+ ],
+ "shop": "https://www.agjeans.com/search?q=",
+ "onething": {
+  "p": "Tellis jean",
+  "u": "https://www.agjeans.com/search?q=Tellis%20jean",
+  "n": "verified ✓"
+ },
+ "prices": [
+  [
+   68,
+   138
+  ],
+  [
+   118,
+   178
+  ],
+  [
+   148,
+   345
+  ],
+  [
+   198,
+   428
+  ],
+  [
+   225,
+   295
+  ],
+  [
+   185,
+   365
+  ],
+  [
+   245,
+   895
+  ],
+  null
+ ],
+ "notes": {
+  "denim": "Adriano Goldschmied's own label — premium LA denim's godfather",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 4; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "AG's own sustainability page refers to 'our LA factory and headquarters' and to water-filtration systems in 'our Los Angeles and Mexico factories', and its story page calls it the first vertically operated denim maker on the West Coast. Owned denim making under its co-founder (Yul Ku, of Koos Manufacturing) is more than naming makers; whether it covers the non-denim range was not checked: a provisional 4. [audit proposed 4 at low confidence; held at 3 pending a second read]"
+ },
+ "doors": {
+  "c": "full",
+  "n": 7,
+  "cities": [
+   [
+    "Houston",
+    "TX",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    4
+   ],
+   [
+    "Newport Beach",
+    "CA",
+    1
+   ],
+   [
+    "Scottsdale",
+    "AZ",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 3,
+  "con": 0
+ },
+ "cities": "7 stores, including New York, Houston, Newport Beach · department stores and independent menswear shops, and its own site",
+ "region": {
+  "o": [
+   197,
+   198,
+   199,
+   200
+  ],
+  "s": [
+   9,
+   10,
+   11,
+   27,
+   41,
+   52,
+   53,
+   54,
+   55,
+   66,
+   85,
+   117,
+   126,
+   149,
+   151,
+   152
+  ]
+ },
+ "addmen": true,
+ "site": {
+  "domain": "agjeans.com",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 1098,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "both",
+  "marks": [
+   "AG-ed(TM)",
+   "AG Cloud Soft Denim(TM)",
+   "Airluxe(TM) / Airluxe(TM) Sateen",
+   "AG Ultimate Stretch Fabric(TM)",
+   "AG Vapor Wash(TM)",
+   "Tencel Power Denim",
+   "Thermolite(R) Indigo Denim",
+   "TENCEL(R)"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 278,
+  "w": 266,
+  "n": 92,
+  "s": 1,
+  "c": 3,
+  "x": 60,
+  "xh": 5,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "jeans",
+   "shirts & tops",
+   "pants"
+  ],
+  "st": "complete"
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants",
+  "Sweater",
+  "Outerwear"
+ ],
+ "garment_links": {
+  "T-shirt": "https://www.agjeans.com/collections/mens-tees",
+  "Polo": "https://www.agjeans.com/collections/mens-polos",
+  "Dress shirt": "https://www.agjeans.com/collections/mens-shirts",
+  "Jeans": "https://www.agjeans.com/collections/mens-jeans",
+  "Dress pants": "https://www.agjeans.com/collections/mens-pants-and-trousers",
+  "Sweater": "https://www.agjeans.com/collections/mens-sweaters",
+  "Outerwear": "https://www.agjeans.com/collections/mens-jackets-and-outerwear"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Wesley Crew",
+   "lu": "https://www.agjeans.com/products/wesley-crew-relaxed-t-shirt-71127elxtwh",
+   "hp": "Bryce Crew (classic fit short sleeve)",
+   "hu": "https://www.agjeans.com/products/bryce-crew-classic-fit-short-sleeve-crew-neck-t-shirt-70240pljchne",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 5,
-    "cashmere": 1,
-    "linen": 2,
-    "cotton": 2,
-    "wool": 1,
-    "synth": 1
+  "Polo": {
+   "lp": "Bryce Short Sleeve Polo",
+   "lu": "https://www.agjeans.com/products/bryce-short-sleeve-polo-classic-fit-ss-polo-t-shirt-71129lxbslwdbr",
+   "hp": "Bryce Polo (classic fit short sleeve)",
+   "hu": "https://www.agjeans.com/products/bryce-s-s-polo-classic-fit-short-sleeve-polo-t-shirt-71129pljtbc",
+   "b": "range"
   },
-  "dials": {
-    "dur": 3,
-    "forg": 2,
-    "fuss": -2,
-    "murica": 2,
-    "ital": 2,
-    "whitet": 2,
-    "logo": 1,
-    "western": 1,
-    "rock": 2,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
+  "Dress shirt": {
+   "lp": "Dean Oxford Shirt",
+   "lu": "https://www.agjeans.com/products/dean-oxford-shirt-classic-fit-71651oxswht",
+   "hp": "Louis Long Sleeve Camp Shirt",
+   "hu": "https://www.agjeans.com/products/louis-long-sleeve-camp-shirt-relaxed-fit-71737pkicocl",
+   "b": "range"
   },
-  "why": "Premium jeans from Los Angeles, with chinos and knitwear alongside.",
-  "origin": "Founded in Los Angeles in 2000 by Adriano Goldschmied and Yul Ku.",
-  "chan": ["D", "O", "I"],
-  "conf": "L",
-  "forgc": [2, 3, 1],
-  "shop": "https://www.agjeans.com/search?q=",
-  "onething": {
-    "p": "Tellis jean",
-    "u": "https://www.agjeans.com/search?q=Tellis%20jean",
-    "n": "verified ✓"
+  "Jeans": {
+   "lp": "Tellis Jean (modern slim)",
+   "lu": "https://www.agjeans.com/products/tellis-modern-slim-1783ledslr",
+   "hp": "Tellis Selvage Jean",
+   "hu": "https://www.agjeans.com/products/tellis-selvage-slim-fit-denim-1783gbsgeno",
+   "b": "range"
   },
-  "prices": [[68, 138], [118, 178], [148, 345], [198, 428], [225, 295], [185, 365], [245, 895], null],
-  "notes": {
-    "denim": "Adriano Goldschmied's own label — premium LA denim's godfather",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 4; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "AG's own sustainability page refers to 'our LA factory and headquarters' and to water-filtration systems in 'our Los Angeles and Mexico factories', and its story page calls it the first vertically operated denim maker on the West Coast. Owned denim making under its co-founder (Yul Ku, of Koos Manufacturing) is more than naming makers; whether it covers the non-denim range was not checked: a provisional 4. [audit proposed 4 at low confidence; held at 3 pending a second read]"
+  "Dress pants": {
+   "lp": "Everett Tailored Pant",
+   "lu": "https://www.agjeans.com/products/everett-tailored-pant-slim-straight-1h76lcgdkoc",
+   "hp": "Archie Trouser (seersucker)",
+   "hu": "https://www.agjeans.com/products/archie-straight-trouser-1g39syrslanbk",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 7,
-    "cities": [["Houston", "TX", 1], ["New York", "NY", 4], ["Newport Beach", "CA", 1], ["Scottsdale", "AZ", 1]],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Sweater": {
+   "lp": "Beck Crew Sweater",
+   "lu": "https://www.agjeans.com/products/beck-crew-sweater-classic-fit-71742sfchrbk",
+   "hp": "Josiah Mohair Sweater",
+   "hu": "https://www.agjeans.com/products/josiah-mohair-sweater-unisex-cardigan-71794fmhbbry",
+   "b": "range"
   },
-  "cities": "7 stores, including New York, Houston, Newport Beach · department stores and independent menswear shops, and its own site",
-  "region": {
-    "o": [181, 182, 183, 184],
-    "s": [9, 10, 11, 27, 41, 52, 53, 54, 55, 66, 85, 117, 126, 149, 151, 152]
-  },
-  "addmen": true,
-  "site": {
-    "domain": "agjeans.com",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 1098,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "both",
-    "marks": [
-      "AG-ed(TM)",
-      "AG Cloud Soft Denim(TM)",
-      "Airluxe(TM) / Airluxe(TM) Sateen",
-      "AG Ultimate Stretch Fabric(TM)",
-      "AG Vapor Wash(TM)",
-      "Tencel Power Denim",
-      "Thermolite(R) Indigo Denim",
-      "TENCEL(R)"
-    ],
-    "source": "census",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 278,
-    "w": 266,
-    "n": 92,
-    "s": 1,
-    "c": 3,
-    "x": 60,
-    "xh": 5,
-    "sp": "one",
-    "sc": [],
-    "nc": ["jeans", "shirts & tops", "pants"],
-    "st": "complete"
-  },
-  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants", "Sweater", "Outerwear"],
-  "garment_links": {
-    "T-shirt": "https://www.agjeans.com/collections/mens-tees",
-    "Polo": "https://www.agjeans.com/collections/mens-polos",
-    "Dress shirt": "https://www.agjeans.com/collections/mens-shirts",
-    "Jeans": "https://www.agjeans.com/collections/mens-jeans",
-    "Dress pants": "https://www.agjeans.com/collections/mens-pants-and-trousers",
-    "Sweater": "https://www.agjeans.com/collections/mens-sweaters",
-    "Outerwear": "https://www.agjeans.com/collections/mens-jackets-and-outerwear"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Wesley Crew",
-      "lu": "https://www.agjeans.com/products/wesley-crew-relaxed-t-shirt-71127elxtwh",
-      "hp": "Bryce Crew (classic fit short sleeve)",
-      "hu": "https://www.agjeans.com/products/bryce-crew-classic-fit-short-sleeve-crew-neck-t-shirt-70240pljchne",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Bryce Short Sleeve Polo",
-      "lu": "https://www.agjeans.com/products/bryce-short-sleeve-polo-classic-fit-ss-polo-t-shirt-71129lxbslwdbr",
-      "hp": "Bryce Polo (classic fit short sleeve)",
-      "hu": "https://www.agjeans.com/products/bryce-s-s-polo-classic-fit-short-sleeve-polo-t-shirt-71129pljtbc",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Dean Oxford Shirt",
-      "lu": "https://www.agjeans.com/products/dean-oxford-shirt-classic-fit-71651oxswht",
-      "hp": "Louis Long Sleeve Camp Shirt",
-      "hu": "https://www.agjeans.com/products/louis-long-sleeve-camp-shirt-relaxed-fit-71737pkicocl",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Tellis Jean (modern slim)",
-      "lu": "https://www.agjeans.com/products/tellis-modern-slim-1783ledslr",
-      "hp": "Tellis Selvage Jean",
-      "hu": "https://www.agjeans.com/products/tellis-selvage-slim-fit-denim-1783gbsgeno",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Everett Tailored Pant",
-      "lu": "https://www.agjeans.com/products/everett-tailored-pant-slim-straight-1h76lcgdkoc",
-      "hp": "Archie Trouser (seersucker)",
-      "hu": "https://www.agjeans.com/products/archie-straight-trouser-1g39syrslanbk",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Beck Crew Sweater",
-      "lu": "https://www.agjeans.com/products/beck-crew-sweater-classic-fit-71742sfchrbk",
-      "hp": "Josiah Mohair Sweater",
-      "hu": "https://www.agjeans.com/products/josiah-mohair-sweater-unisex-cardigan-71794fmhbbry",
-      "b": "range"
-    },
-    "Outerwear": {
-      "lp": "Dart Jacket",
-      "lu": "https://www.agjeans.com/products/dart-classic-trucker-4806hyb02ytxd",
-      "hp": "Charles Jacket",
-      "hu": "https://www.agjeans.com/products/charles-jacket-classic-fit-leather-jacket-4797dlladvr",
-      "b": "range"
-    }
-  },
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.agjeans.com/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=170664&brand_ids[]=826426&brand_ids[]=364897",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "season": {
-    "l": "Fall 2026",
-    "t": "campaign",
-    "u": "https://www.agjeans.com/pages/fall-collection",
-    "m": "unisex"
-  },
-  "craft_evidence": {
-    "owned": "yes",
-    "owned_d": "Brand's own sustainability page: solar panels installed on 'our LA factory and headquarters'; water filtration systems in 'our Los Angeles and Mexico factories'. Our Story page: co-founder Yul Ku established AG as 'the first vertically operated denim manufacturer on the West Coast'. Ownership (context, not brand evidence): Wikipedia says AG is owned by Yul Ku, whose Koos Manufacturing made denim for Gap, J.Crew, Lucky etc.; Ku bought out Goldschmied in 2004; main facility in South Gate, CA, with 'other facilities and affiliates in Los Angeles and Mexico City'. Who legally owns the Mexican factory (AG, Koos, or an affiliate) was NOT established — no source seen states it. The LA plant is under common ownership with AG via Ku; the brand calls both plants 'our factories'. Categories covered not established (denim implied; tees/knits/shirts unknown).",
-    "makers": "NC",
-    "mills": "NC",
-    "madein": "NC",
-    "countries": "NC — no PDPs read (fetch budget exhausted).",
-    "heritage": "dated and placed",
-    "repair": "NC",
-    "process": "some",
-    "urls": ["https://www.agjeans.com/pages/sustainability", "https://www.agjeans.com/pages/our-story"],
-    "conf": "low",
-    "read": "2026-10-03"
+  "Outerwear": {
+   "lp": "Dart Jacket",
+   "lu": "https://www.agjeans.com/products/dart-classic-trucker-4806hyb02ytxd",
+   "hp": "Charles Jacket",
+   "hu": "https://www.agjeans.com/products/charles-jacket-classic-fit-leather-jacket-4797dlladvr",
+   "b": "range"
   }
+ },
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.agjeans.com/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=170664&brand_ids[]=826426&brand_ids[]=364897",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "season": {
+  "l": "Fall 2026",
+  "t": "campaign",
+  "u": "https://www.agjeans.com/pages/fall-collection",
+  "m": "unisex"
+ },
+ "craft_evidence": {
+  "owned": "yes",
+  "owned_d": "Brand's own sustainability page: solar panels installed on 'our LA factory and headquarters'; water filtration systems in 'our Los Angeles and Mexico factories'. Our Story page: co-founder Yul Ku established AG as 'the first vertically operated denim manufacturer on the West Coast'. Ownership (context, not brand evidence): Wikipedia says AG is owned by Yul Ku, whose Koos Manufacturing made denim for Gap, J.Crew, Lucky etc.; Ku bought out Goldschmied in 2004; main facility in South Gate, CA, with 'other facilities and affiliates in Los Angeles and Mexico City'. Who legally owns the Mexican factory (AG, Koos, or an affiliate) was NOT established — no source seen states it. The LA plant is under common ownership with AG via Ku; the brand calls both plants 'our factories'. Categories covered not established (denim implied; tees/knits/shirts unknown).",
+  "makers": "NC",
+  "mills": "NC",
+  "madein": "NC",
+  "countries": "NC — no PDPs read (fetch budget exhausted).",
+  "heritage": "dated and placed",
+  "repair": "NC",
+  "process": "some",
+  "urls": [
+   "https://www.agjeans.com/pages/sustainability",
+   "https://www.agjeans.com/pages/our-story"
+  ],
+  "conf": "low",
+  "read": "2026-10-03"
+ }
 }

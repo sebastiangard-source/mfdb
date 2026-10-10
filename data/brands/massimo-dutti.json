@@ -1,198 +1,256 @@
 {
-  "name": "Massimo Dutti",
-  "band": "accessible",
-  "seat": 62,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 3,
-    "craft": 2,
-    "style": 3
+ "name": "Massimo Dutti",
+ "band": "accessible",
+ "seat": 62,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 3,
+  "craft": 2,
+  "style": 3
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 2,
+  "linen": 2,
+  "cotton": 2,
+  "wool": 2,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 2,
+  "fuss": 0,
+  "golffice": -1,
+  "boat": 3,
+  "racquet": 2,
+  "whitet": 2,
+  "logo": 1,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Inditex's higher-priced label: tailoring, knitwear and shirting in a European style, at the pace and reach of a chain.",
+ "origin": "Founded in Barcelona in 1985 as a men's shirtmaker; bought by Inditex in 1991.",
+ "say": "MAS-see-mo DOO-tee",
+ "chan": [
+  "O"
+ ],
+ "conf": "L",
+ "forgc": [
+  2,
+  4,
+  1
+ ],
+ "onething": {
+  "p": "Suede overshirt",
+  "u": "https://www.massimodutti.com/us/lightweight-suede-leather-overshirt-l03409478",
+  "n": "direct product, tracking stripped"
+ },
+ "prices": [
+  [
+   60,
+   90
+  ],
+  [
+   70,
+   130
+  ],
+  [
+   130,
+   180
+  ],
+  [
+   100,
+   160
+  ],
+  [
+   180,
+   220
+  ],
+  [
+   100,
+   590
+  ],
+  [
+   160,
+   690
+  ],
+  [
+   200,
+   320
+  ]
+ ],
+ "doors": {
+  "c": "full",
+  "n": 1,
+  "cities": [
+   [
+    "Aventura",
+    "FL",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 0,
+  "con": 0
+ },
+ "cities": "One store, in Aventura, and its own site",
+ "addmen": true,
+ "site": {
+  "domain": "massimodutti.com",
+  "platform": "custom",
+  "feed": "category_crawl",
+  "feed_count": 580,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "licensed",
+  "marks": [
+   "Masters of FLAX FIBRE(R) / European Flax-Linen",
+   "REGENAGRI(R)",
+   "STARFIT(R)",
+   "'technical fabric'"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 494,
+  "w": 493,
+  "n": 94,
+  "s": 5,
+  "c": 1,
+  "x": 6,
+  "xh": 2,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "Sweaters & Cardigans",
+   "Shirts",
+   "Suits"
+  ],
+  "st": "complete"
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants",
+  "Outerwear"
+ ],
+ "garment_links": {
+  "T-shirt": "https://www.massimodutti.com/us/men/t-shirts-n1369",
+  "Polo": "https://www.massimodutti.com/us/men/polos-n1407",
+  "Dress shirt": "https://www.massimodutti.com/us/men/shirts/formal-n1366",
+  "Jeans": "https://www.massimodutti.com/us/men/trousers/jeans-n1405",
+  "Dress pants": "https://www.massimodutti.com/us/men/trousers-n1399",
+  "Sweater": "https://www.massimodutti.com/us/men/jumpers-n1384",
+  "Outerwear": "https://www.massimodutti.com/us/men/jackets-n1372",
+  "Shoes": "https://www.massimodutti.com/us/men/shoes-n1420"
+ },
+ "notes": {
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 2; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "NC [not researched: site unreadable]"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "100% mercerised cotton T-shirt",
+   "lu": "https://www.massimodutti.com/us/100-algodon-mercerised-cotton-tshirt-l01422208?pelement=61733943",
+   "hp": "100% cotton long sleeve T-shirt",
+   "hu": "https://www.massimodutti.com/us/100-cotton-long-sleeve-tshirt-l00775171?pelement=63726081",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 2,
-    "linen": 2,
-    "cotton": 2,
-    "wool": 2,
-    "synth": 1
+  "Polo": {
+   "lp": "Micro-textured cotton pique polo shirt",
+   "lu": "https://www.massimodutti.com/us/microtextured-cotton-pique-polo-shirt-l00766196?pelement=61733689",
+   "hp": "Cotton linen blend polo shirt",
+   "hu": "https://www.massimodutti.com/us/cotton-linen-blend-polo-shirt-l01341219?pelement=61734179",
+   "b": "range"
   },
-  "dials": {
-    "dur": 3,
-    "forg": 2,
-    "fuss": 0,
-    "golffice": -1,
-    "boat": 3,
-    "racquet": 2,
-    "whitet": 2,
-    "logo": 1,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
+  "Dress shirt": {
+   "lp": "Slim fit 100% cotton poplin shirt",
+   "lu": "https://www.massimodutti.com/us/slim-fit-100-cotton-poplin-shirt-l00175175?pelement=61729829",
+   "hp": "100% cotton striped shirt",
+   "hu": "https://www.massimodutti.com/us/100-cotton-striped-shirt-l03694532?pelement=63984978",
+   "b": "range"
   },
-  "why": "Inditex's higher-priced label: tailoring, knitwear and shirting in a European style, at the pace and reach of a chain.",
-  "origin": "Founded in Barcelona in 1985 as a men's shirtmaker; bought by Inditex in 1991.",
-  "say": "MAS-see-mo DOO-tee",
-  "chan": ["O"],
-  "conf": "L",
-  "forgc": [2, 4, 1],
-  "onething": {
-    "p": "Suede overshirt",
-    "u": "https://www.massimodutti.com/us/lightweight-suede-leather-overshirt-l03409478",
-    "n": "direct product, tracking stripped"
+  "Jeans": {
+   "lp": "Slim fit jeans",
+   "lu": "https://www.massimodutti.com/us/slim-fit-jeans-l00300106?pelement=61729634",
+   "hp": "Selvedge fit jeans",
+   "hu": "https://www.massimodutti.com/us/selvedge-fit-jeans-l00504142?pelement=62129845",
+   "b": "range"
   },
-  "prices": [[60, 90], [70, 130], [130, 180], [100, 160], [180, 220], [100, 590], [160, 690], [200, 320]],
-  "doors": {
-    "c": "full",
-    "n": 1,
-    "cities": [["Aventura", "FL", 1]],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Dress pants": {
+   "lp": "Linen suit trousers",
+   "lu": "https://www.massimodutti.com/us/linen-suit-trousers-l02860355?pelement=62899783",
+   "hp": "Cold wool suit trousers",
+   "hu": "https://www.massimodutti.com/us/cold-wool-suit-trousers-l03635534?pelement=61729804",
+   "b": "range"
   },
-  "cities": "One store, in Aventura, and its own site",
-  "addmen": true,
-  "site": {
-    "domain": "massimodutti.com",
-    "platform": "custom",
-    "feed": "category_crawl",
-    "feed_count": 580,
-    "status": "live_store",
-    "checked": "2026-09-13"
+  "Sweater": {
+   "lp": "100% merino wool round neck knit sweater",
+   "lu": "https://www.massimodutti.com/us/100-merino-wool-round-neck-knit-sweater-l01300210?pelement=61729123",
+   "hp": "100% cashmere cable knit sweater",
+   "hu": "https://www.massimodutti.com/us/100-cashmere-cable-knit-sweater-l01279215?pelement=61734098",
+   "b": "pair"
   },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "licensed",
-    "marks": [
-      "Masters of FLAX FIBRE(R) / European Flax-Linen",
-      "REGENAGRI(R)",
-      "STARFIT(R)",
-      "'technical fabric'"
-    ],
-    "source": "census",
-    "checked": "2026-09-12"
+  "Outerwear": {
+   "lp": "Cotton-Blend Suede Cropped Jacket",
+   "lu": "https://www.massimodutti.com/us/cottonblend-suede-jacket-coord-look-l00849440?pelement=65427453",
+   "hp": "Nubuck leather stand-up collar jacket",
+   "hu": "https://www.massimodutti.com/us/nubuck-leather-jacket-with-standup-collar-l03434451?pelement=61729260",
+   "b": "range"
   },
-  "fibre": {
-    "t": 494,
-    "w": 493,
-    "n": 94,
-    "s": 5,
-    "c": 1,
-    "x": 6,
-    "xh": 2,
-    "sp": "one",
-    "sc": [],
-    "nc": ["Sweaters & Cardigans", "Shirts", "Suits"],
-    "st": "complete"
-  },
-  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants", "Outerwear"],
-  "garment_links": {
-    "T-shirt": "https://www.massimodutti.com/us/men/t-shirts-n1369",
-    "Polo": "https://www.massimodutti.com/us/men/polos-n1407",
-    "Dress shirt": "https://www.massimodutti.com/us/men/shirts/formal-n1366",
-    "Jeans": "https://www.massimodutti.com/us/men/trousers/jeans-n1405",
-    "Dress pants": "https://www.massimodutti.com/us/men/trousers-n1399",
-    "Sweater": "https://www.massimodutti.com/us/men/jumpers-n1384",
-    "Outerwear": "https://www.massimodutti.com/us/men/jackets-n1372",
-    "Shoes": "https://www.massimodutti.com/us/men/shoes-n1420"
-  },
-  "notes": {
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 2; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "NC [not researched: site unreadable]"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "100% mercerised cotton T-shirt",
-      "lu": "https://www.massimodutti.com/us/100-algodon-mercerised-cotton-tshirt-l01422208?pelement=61733943",
-      "hp": "100% cotton long sleeve T-shirt",
-      "hu": "https://www.massimodutti.com/us/100-cotton-long-sleeve-tshirt-l00775171?pelement=63726081",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Micro-textured cotton pique polo shirt",
-      "lu": "https://www.massimodutti.com/us/microtextured-cotton-pique-polo-shirt-l00766196?pelement=61733689",
-      "hp": "Cotton linen blend polo shirt",
-      "hu": "https://www.massimodutti.com/us/cotton-linen-blend-polo-shirt-l01341219?pelement=61734179",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Slim fit 100% cotton poplin shirt",
-      "lu": "https://www.massimodutti.com/us/slim-fit-100-cotton-poplin-shirt-l00175175?pelement=61729829",
-      "hp": "100% cotton striped shirt",
-      "hu": "https://www.massimodutti.com/us/100-cotton-striped-shirt-l03694532?pelement=63984978",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Slim fit jeans",
-      "lu": "https://www.massimodutti.com/us/slim-fit-jeans-l00300106?pelement=61729634",
-      "hp": "Selvedge fit jeans",
-      "hu": "https://www.massimodutti.com/us/selvedge-fit-jeans-l00504142?pelement=62129845",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Linen suit trousers",
-      "lu": "https://www.massimodutti.com/us/linen-suit-trousers-l02860355?pelement=62899783",
-      "hp": "Cold wool suit trousers",
-      "hu": "https://www.massimodutti.com/us/cold-wool-suit-trousers-l03635534?pelement=61729804",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "100% merino wool round neck knit sweater",
-      "lu": "https://www.massimodutti.com/us/100-merino-wool-round-neck-knit-sweater-l01300210?pelement=61729123",
-      "hp": "100% cashmere cable knit sweater",
-      "hu": "https://www.massimodutti.com/us/100-cashmere-cable-knit-sweater-l01279215?pelement=61734098",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "Cotton-Blend Suede Cropped Jacket",
-      "lu": "https://www.massimodutti.com/us/cottonblend-suede-jacket-coord-look-l00849440?pelement=65427453",
-      "hp": "Nubuck leather stand-up collar jacket",
-      "hu": "https://www.massimodutti.com/us/nubuck-leather-jacket-with-standup-collar-l03434451?pelement=61729260",
-      "b": "range"
-    },
-    "Shoes": {
-      "lp": "Soft split leather loafers",
-      "lu": "https://www.massimodutti.com/us/soft-split-leather-loafers-l12414750?pelement=61729803",
-      "hp": "Leather penny loafer",
-      "hu": "https://www.massimodutti.com/us/leather-penny-loafer-l12720850?pelement=64144855",
-      "b": "pair"
-    }
-  },
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.massimodutti.com/us/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "shop": "https://www.massimodutti.com/us/search?term=",
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=579",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "craft_evidence": {
-    "owned": "NC",
-    "owned_d": "NC",
-    "makers": "NC",
-    "mills": "NC",
-    "madein": "NC",
-    "countries": "NC",
-    "heritage": "NC",
-    "repair": "NC",
-    "process": "NC",
-    "urls": [],
-    "conf": "medium",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Soft split leather loafers",
+   "lu": "https://www.massimodutti.com/us/soft-split-leather-loafers-l12414750?pelement=61729803",
+   "hp": "Leather penny loafer",
+   "hu": "https://www.massimodutti.com/us/leather-penny-loafer-l12720850?pelement=64144855",
+   "b": "pair"
   }
+ },
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.massimodutti.com/us/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "shop": "https://www.massimodutti.com/us/search?term=",
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=579",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "craft_evidence": {
+  "owned": "NC",
+  "owned_d": "NC",
+  "makers": "NC",
+  "mills": "NC",
+  "madein": "NC",
+  "countries": "NC",
+  "heritage": "NC",
+  "repair": "NC",
+  "process": "NC",
+  "urls": [],
+  "conf": "medium",
+  "read": "2026-10-03"
+ }
 }

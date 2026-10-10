@@ -1,195 +1,264 @@
 {
-  "name": "NN07",
-  "band": "accessible",
-  "seat": 70,
-  "dagger": 1,
-  "focus": {
-    "tech": 2,
-    "comfort": 3,
-    "craft": 2,
-    "style": 4
+ "name": "NN07",
+ "band": "accessible",
+ "seat": 70,
+ "dagger": 1,
+ "focus": {
+  "tech": 2,
+  "comfort": 3,
+  "craft": 2,
+  "style": 4
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 2,
+  "linen": 2,
+  "cotton": 2,
+  "wool": 2,
+  "synth": 2
+ },
+ "dials": {
+  "dur": 2,
+  "forg": 3,
+  "fuss": 0,
+  "golffice": 0,
+  "scandi": 4,
+  "whitet": 2,
+  "logo": 1,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Casual clothing — shirts, knitwear, trousers — in a plain Scandinavian style.",
+ "origin": "Founded in Copenhagen in 2007; the name stands for No Nationality.",
+ "say": "en-en-oh-SEV-en",
+ "chan": [
+  "O",
+  "D",
+  "I"
+ ],
+ "conf": "L",
+ "forgc": [
+  4,
+  3,
+  1
+ ],
+ "onething": {
+  "p": "Gael jacket",
+  "u": "https://www.nn07.com/search?q=Gael%20jacket",
+  "n": "their title — the piece menswear calls the definitive overshirt, NN07 files as a jacket"
+ },
+ "prices": [
+  [
+   85,
+   180
+  ],
+  [
+   160,
+   195
+  ],
+  [
+   185,
+   295
+  ],
+  [
+   275,
+   340
+  ],
+  [
+   295,
+   435
+  ],
+  [
+   210,
+   530
+  ],
+  [
+   420,
+   1900
+  ],
+  null
+ ],
+ "doors": {
+  "c": "full",
+  "n": 1,
+  "cities": [
+   [
+    "New York",
+    "NY",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 0,
+  "con": 0
+ },
+ "cities": "One store, in New York · department stores and independent menswear shops, and its own site",
+ "region": {
+  "o": [
+   2666
+  ],
+  "s": [
+   12,
+   52,
+   77,
+   132
+  ]
+ },
+ "site": {
+  "domain": "nn07.com",
+  "platform": "custom",
+  "feed": "sitemap_products",
+  "feed_count": 1064,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "licensed",
+  "marks": [
+   "PrimaLoft"
+  ],
+  "source": "screen_36",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 203,
+  "w": 202,
+  "n": 85,
+  "s": 10,
+  "c": 4,
+  "x": 20,
+  "xh": 2,
+  "sp": "one",
+  "sc": [
+   "Coat",
+   "Swimshorts"
+  ],
+  "nc": [
+   "Shirt",
+   "Pant",
+   "Overshirt"
+  ],
+  "st": "complete"
+ },
+ "garment_links": {
+  "T-shirt": "https://www.nn07.com/en/us/t-shirts/short-sleeve",
+  "Polo": "https://www.nn07.com/en/us/t-shirts/polos",
+  "Dress shirt": "https://www.nn07.com/en/us/shirts/classic",
+  "Jeans": "https://www.nn07.com/en/us/pants/jeans",
+  "Dress pants": "https://www.nn07.com/en/us/pants/dress",
+  "Sweater": "https://www.nn07.com/en/us/knitwear",
+  "Outerwear": "https://www.nn07.com/en/us/jackets"
+ },
+ "notes": {
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 2; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "NN.07 owns no making; its 2024 Impact Report names its garment factories and fabric/yarn mills in a supplier list and gives production shares (China 55%, Turkiye 35%). Product pages read showed no factory, mill or (visible) country. Disclosure is a directory, not on-page making, so country-level 2 holds."
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Percy - Classic slim fit tee",
+   "lu": "https://www.nn07.com/en/us/percy-ss-3508-black",
+   "hp": "Nat - Heavyweight logo tee",
+   "hu": "https://www.nn07.com/en/us/nat-3457-logo-tee-white",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 2,
-    "cashmere": 2,
-    "linen": 2,
-    "cotton": 2,
-    "wool": 2,
-    "synth": 2
+  "Polo": {
+   "lp": "Paul - Open collar organic cotton polo (short sleeve)",
+   "lu": "https://www.nn07.com/en/us/paul-3525-polo-black",
+   "hp": "Valentin - Casual organic cotton polo (short sleeve)",
+   "hu": "https://www.nn07.com/en/us/valentin-ss-polo-30047-red-stripe",
+   "b": "range"
   },
-  "dials": {
-    "dur": 2,
-    "forg": 3,
-    "fuss": 0,
-    "golffice": 0,
-    "scandi": 4,
-    "whitet": 2,
-    "logo": 1,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
+  "Dress shirt": {
+   "lp": "Deon - Casual flannel shirt",
+   "lu": "https://www.nn07.com/en/us/deon-5465-bordeaux-check",
+   "hp": "Quinsy - Supima Cotton shirt",
+   "hu": "https://www.nn07.com/en/us/quinsy-app-5322-blue_-stripe",
+   "b": "range"
   },
-  "why": "Casual clothing — shirts, knitwear, trousers — in a plain Scandinavian style.",
-  "origin": "Founded in Copenhagen in 2007; the name stands for No Nationality.",
-  "say": "en-en-oh-SEV-en",
-  "chan": ["O", "D", "I"],
-  "conf": "L",
-  "forgc": [4, 3, 1],
-  "onething": {
-    "p": "Gael jacket",
-    "u": "https://www.nn07.com/search?q=Gael%20jacket",
-    "n": "their title — the piece menswear calls the definitive overshirt, NN07 files as a jacket"
+  "Jeans": {
+   "lp": "Tony - Straight leg slim fit jeans",
+   "lu": "https://www.nn07.com/en/us/tony-1869-jeans-blue-black",
+   "hp": "Otis Selvedge - Straight leg relaxed fit jeans",
+   "hu": "https://www.nn07.com/en/us/otis-selvedge-10075-raw-indigo",
+   "b": "range"
   },
-  "prices": [[85, 180], [160, 195], [185, 295], [275, 340], [295, 435], [210, 530], [420, 1900], null],
-  "doors": {
-    "c": "full",
-    "n": 1,
-    "cities": [["New York", "NY", 1]],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Dress pants": {
+   "lp": "Kay - Pleated tailored relaxed fit pant",
+   "lu": "https://www.nn07.com/en/us/kay-1420-black",
+   "hp": "Kay - Relaxed fit wool blend pant (Italian herringbone)",
+   "hu": "https://www.nn07.com/en/us/kay-10073-dark-grey-mel",
+   "b": "range"
   },
-  "cities": "One store, in New York · department stores and independent menswear shops, and its own site",
-  "region": {
-    "o": [2109],
-    "s": [12, 52, 77, 132]
+  "Sweater": {
+   "lp": "Danny - Lightweight sweater (crewneck)",
+   "lu": "https://www.nn07.com/en/us/danny-6429-sweater-black",
+   "hp": "Kyle - Alpaca blend cardigan",
+   "hu": "https://www.nn07.com/en/us/kyle-cardigan-60021-dark-grey-mel",
+   "b": "range"
   },
-  "site": {
-    "domain": "nn07.com",
-    "platform": "custom",
-    "feed": "sitemap_products",
-    "feed_count": 1064,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "licensed",
-    "marks": ["PrimaLoft"],
-    "source": "screen_36",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 203,
-    "w": 202,
-    "n": 85,
-    "s": 10,
-    "c": 4,
-    "x": 20,
-    "xh": 2,
-    "sp": "one",
-    "sc": ["Coat", "Swimshorts"],
-    "nc": ["Shirt", "Pant", "Overshirt"],
-    "st": "complete"
-  },
-  "garment_links": {
-    "T-shirt": "https://www.nn07.com/en/us/t-shirts/short-sleeve",
-    "Polo": "https://www.nn07.com/en/us/t-shirts/polos",
-    "Dress shirt": "https://www.nn07.com/en/us/shirts/classic",
-    "Jeans": "https://www.nn07.com/en/us/pants/jeans",
-    "Dress pants": "https://www.nn07.com/en/us/pants/dress",
-    "Sweater": "https://www.nn07.com/en/us/knitwear",
-    "Outerwear": "https://www.nn07.com/en/us/jackets"
-  },
-  "notes": {
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 2; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "NN.07 owns no making; its 2024 Impact Report names its garment factories and fabric/yarn mills in a supplier list and gives production shares (China 55%, Turkiye 35%). Product pages read showed no factory, mill or (visible) country. Disclosure is a directory, not on-page making, so country-level 2 holds."
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Percy - Classic slim fit tee",
-      "lu": "https://www.nn07.com/en/us/percy-ss-3508-black",
-      "hp": "Nat - Heavyweight logo tee",
-      "hu": "https://www.nn07.com/en/us/nat-3457-logo-tee-white",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Paul - Open collar organic cotton polo (short sleeve)",
-      "lu": "https://www.nn07.com/en/us/paul-3525-polo-black",
-      "hp": "Valentin - Casual organic cotton polo (short sleeve)",
-      "hu": "https://www.nn07.com/en/us/valentin-ss-polo-30047-red-stripe",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Deon - Casual flannel shirt",
-      "lu": "https://www.nn07.com/en/us/deon-5465-bordeaux-check",
-      "hp": "Quinsy - Supima Cotton shirt",
-      "hu": "https://www.nn07.com/en/us/quinsy-app-5322-blue_-stripe",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Tony - Straight leg slim fit jeans",
-      "lu": "https://www.nn07.com/en/us/tony-1869-jeans-blue-black",
-      "hp": "Otis Selvedge - Straight leg relaxed fit jeans",
-      "hu": "https://www.nn07.com/en/us/otis-selvedge-10075-raw-indigo",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Kay - Pleated tailored relaxed fit pant",
-      "lu": "https://www.nn07.com/en/us/kay-1420-black",
-      "hp": "Kay - Relaxed fit wool blend pant (Italian herringbone)",
-      "hu": "https://www.nn07.com/en/us/kay-10073-dark-grey-mel",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Danny - Lightweight sweater (crewneck)",
-      "lu": "https://www.nn07.com/en/us/danny-6429-sweater-black",
-      "hp": "Kyle - Alpaca blend cardigan",
-      "hu": "https://www.nn07.com/en/us/kyle-cardigan-60021-dark-grey-mel",
-      "b": "range"
-    },
-    "Outerwear": {
-      "lp": "Petrus - Satin jacket",
-      "lu": "https://www.nn07.com/en/us/petrus-1420-black",
-      "hp": "Petrus - Lamb Leather jacket",
-      "hu": "https://www.nn07.com/en/us/petrus-leather-8228-jacket-demitasse",
-      "b": "pair"
-    }
-  },
-  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants", "Sweater"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.nn07.com/en/us/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=805136",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "season": {
-    "l": "Fall Winter 26",
-    "t": "lookbook",
-    "u": "https://www.nn07.com/en/us/articles/lookbook/fall-winter-26-lookbook-preview",
-    "m": "yes"
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "2024 Impact Report states NN.07 works with external manufacturing partners; no owned factory. Responsibility page mentions none.",
-    "makers": "some",
-    "mills": "some",
-    "madein": "NC",
-    "countries": "No country shown in visible PDP text on 3 PDPs (knit, chino, coat); origin may sit in a collapsed 'Material & Care' tab the fetch could not see, so not recorded as none. Impact Report 2024 production split: China 55%, Turkiye 35%, Europe ~9% (Portugal 4%, Tunisia 3%, Romania, Italy, Bulgaria, Lithuania).",
-    "heritage": "dated and placed",
-    "repair": "no",
-    "process": "some",
-    "urls": [
-      "https://nn07files.blob.core.windows.net/publicfiles/NN.07_Impact_Report_2024.pdf",
-      "https://www.nn07.com/en/us/our-impact-our-responsibility"
-    ],
-    "conf": "medium",
-    "read": "2026-10-03"
+  "Outerwear": {
+   "lp": "Petrus - Satin jacket",
+   "lu": "https://www.nn07.com/en/us/petrus-1420-black",
+   "hp": "Petrus - Lamb Leather jacket",
+   "hu": "https://www.nn07.com/en/us/petrus-leather-8228-jacket-demitasse",
+   "b": "pair"
   }
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants",
+  "Sweater"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.nn07.com/en/us/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=805136",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "season": {
+  "l": "Fall Winter 26",
+  "t": "lookbook",
+  "u": "https://www.nn07.com/en/us/articles/lookbook/fall-winter-26-lookbook-preview",
+  "m": "yes"
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "2024 Impact Report states NN.07 works with external manufacturing partners; no owned factory. Responsibility page mentions none.",
+  "makers": "some",
+  "mills": "some",
+  "madein": "NC",
+  "countries": "No country shown in visible PDP text on 3 PDPs (knit, chino, coat); origin may sit in a collapsed 'Material & Care' tab the fetch could not see, so not recorded as none. Impact Report 2024 production split: China 55%, Turkiye 35%, Europe ~9% (Portugal 4%, Tunisia 3%, Romania, Italy, Bulgaria, Lithuania).",
+  "heritage": "dated and placed",
+  "repair": "no",
+  "process": "some",
+  "urls": [
+   "https://nn07files.blob.core.windows.net/publicfiles/NN.07_Impact_Report_2024.pdf",
+   "https://www.nn07.com/en/us/our-impact-our-responsibility"
+  ],
+  "conf": "medium",
+  "read": "2026-10-03"
+ }
 }

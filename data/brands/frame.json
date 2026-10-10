@@ -1,204 +1,332 @@
 {
-  "name": "Frame",
-  "band": "accessible",
-  "seat": 108,
-  "dagger": 0,
-  "focus": {
-    "tech": 1,
-    "comfort": 4,
-    "craft": 1,
-    "style": 4
+ "name": "Frame",
+ "band": "accessible",
+ "seat": 108,
+ "dagger": 0,
+ "focus": {
+  "tech": 1,
+  "comfort": 4,
+  "craft": 1,
+  "style": 4
+ },
+ "fabric": {
+  "denim": 5,
+  "cashmere": 2,
+  "linen": 1,
+  "cotton": 2,
+  "wool": 1,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 2,
+  "fuss": -2,
+  "whitet": 2,
+  "logo": 1,
+  "western": 1,
+  "rock": 2,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Jeans and casual clothing in a slim contemporary style, from a company with offices in Los Angeles and London.",
+ "origin": "Founded in 2012 by Jens Grede and Erik Torstensson.",
+ "chan": [
+  "D",
+  "O"
+ ],
+ "conf": "L",
+ "forgc": [
+  2,
+  3,
+  1
+ ],
+ "shop": "https://frame-store.com/search?q=",
+ "onething": {
+  "p": "L'Homme jean",
+  "u": "https://frame-store.com/search?q=L%26apos%3BHomme%20jean%20men",
+  "n": "verified — search can’t filter to men; living with it"
+ },
+ "prices": [
+  [
+   98,
+   148
+  ],
+  [
+   128,
+   398
+  ],
+  [
+   248,
+   448
+  ],
+  [
+   228,
+   298
+  ],
+  [
+   498,
+   598
+  ],
+  [
+   398,
+   598
+  ],
+  [
+   448,
+   1698
+  ],
+  null
+ ],
+ "doors": {
+  "c": "full",
+  "n": 17,
+  "cities": [
+   [
+    "Aspen",
+    "CO",
+    1
+   ],
+   [
+    "Austin",
+    "TX",
+    1
+   ],
+   [
+    "Boston",
+    "MA",
+    1
+   ],
+   [
+    "Charleston",
+    "SC",
+    1
+   ],
+   [
+    "Dallas",
+    "TX",
+    1
+   ],
+   [
+    "Greenwich",
+    "CT",
+    1
+   ],
+   [
+    "Houston",
+    "TX",
+    1
+   ],
+   [
+    "Los Angeles",
+    "CA",
+    1
+   ],
+   [
+    "Malibu",
+    "CA",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    3
+   ],
+   [
+    "Palm Beach",
+    "FL",
+    1
+   ],
+   [
+    "Palo Alto",
+    "CA",
+    1
+   ],
+   [
+    "San Francisco",
+    "CA",
+    1
+   ],
+   [
+    "Scottsdale",
+    "AZ",
+    1
+   ],
+   [
+    "Washington",
+    "DC",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 0,
+  "con": 0
+ },
+ "cities": "17 stores, including New York, Aspen, Austin · department stores and independent menswear shops, and its own site",
+ "region": {
+  "o": [
+   1331,
+   1334,
+   1335,
+   1339,
+   1340
+  ],
+  "s": [
+   44,
+   52,
+   53,
+   60,
+   77,
+   124
+  ]
+ },
+ "addmen": true,
+ "site": {
+  "domain": "frame-store.com",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 1590,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "licensed",
+  "marks": [
+   "ROICA V550(R) [ROICA V550®]",
+   "Candiani (mill, named)",
+   "Supima",
+   "TENCEL"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 280,
+  "w": 274,
+  "n": 86,
+  "s": 2,
+  "c": 10,
+  "x": 16,
+  "xh": 2,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "denim",
+   "jackets-coats",
+   "sweaters-hoodies"
+  ],
+  "st": "complete"
+ },
+ "garment_links": {
+  "T-shirt": "https://frame-store.com/collections/tees-men",
+  "Polo": "https://frame-store.com/collections/tees-men",
+  "Dress shirt": "https://frame-store.com/collections/shirts-men",
+  "Jeans": "https://frame-store.com/collections/jeans-men",
+  "Dress pants": "https://frame-store.com/collections/pants-shorts-men",
+  "Sweater": "https://frame-store.com/collections/sweaters-hoodies-men",
+  "Outerwear": "https://frame-store.com/collections/jackets-coats-men"
+ },
+ "notes": {
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 4; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "denim": "Founded as a denim brand; jeans remain the core of the range.",
+  "craft": "Frame's men's product pages give composition only: no country, mill or factory on any of 5 sampled (jean, knit, suede blazer, trousers, overshirt). Its about page claims 'fair manufacturing practices' and a past in 'hand-crafted denim' but names no maker or place. Nothing checkable: 1."
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Light Cotton Tee -- White",
+   "lu": "https://frame-store.com/products/s-s-light-cotton-tee-white",
+   "hp": "Jacquard Stripe Tee -- Cream/Brown Stripe",
+   "hu": "https://frame-store.com/products/jacquard-stripe-tee-ms26jte008-crmb",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 5,
-    "cashmere": 2,
-    "linen": 1,
-    "cotton": 2,
-    "wool": 1,
-    "synth": 1
+  "Polo": {
+   "lp": "Washed Light Pique Polo -- Antique Cafe (compare-at; on sale $64)",
+   "lu": "https://frame-store.com/products/washed-light-pique-polo-antique-cafe",
+   "hp": "Superfine Polo Sweater -- Pale Yellow (short sleeve)",
+   "hu": "https://frame-store.com/products/superfine-s-s-polo-sweater-me26ksw008-paly",
+   "b": "range"
   },
-  "dials": {
-    "dur": 3,
-    "forg": 2,
-    "fuss": -2,
-    "whitet": 2,
-    "logo": 1,
-    "western": 1,
-    "rock": 2,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
+  "Dress shirt": {
+   "lp": "Cotton Shirt -- Light Blue",
+   "lu": "https://frame-store.com/products/cotton-shirt-me26wsh025-ltbl",
+   "hp": "Stripe Shirt -- Beige Stripe",
+   "hu": "https://frame-store.com/products/stripe-shirt-mf26wsh002-bgst",
+   "b": "range"
   },
-  "why": "Jeans and casual clothing in a slim contemporary style, from a company with offices in Los Angeles and London.",
-  "origin": "Founded in 2012 by Jens Grede and Erik Torstensson.",
-  "chan": ["D", "O"],
-  "conf": "L",
-  "forgc": [2, 3, 1],
-  "shop": "https://frame-store.com/search?q=",
-  "onething": {
-    "p": "L'Homme jean",
-    "u": "https://frame-store.com/search?q=L%26apos%3BHomme%20jean%20men",
-    "n": "verified — search can’t filter to men; living with it"
+  "Jeans": {
+   "lp": "L'Homme Slim -- Rinse",
+   "lu": "https://frame-store.com/products/lhomme-slim-rinse-1",
+   "hp": "Baggy Jean -- Dark Navy",
+   "hu": "https://frame-store.com/products/baggy-jean-m005dpa966-dknv",
+   "b": "range"
   },
-  "prices": [[98, 148], [128, 398], [248, 448], [228, 298], [498, 598], [398, 598], [448, 1698], null],
-  "doors": {
-    "c": "full",
-    "n": 16,
-    "cities": [
-      ["Aspen", "CO", 1],
-      ["Austin", "TX", 1],
-      ["Boston", "MA", 1],
-      ["Dallas", "TX", 1],
-      ["Greenwich", "CT", 1],
-      ["Houston", "TX", 1],
-      ["Los Angeles", "CA", 1],
-      ["Malibu", "CA", 1],
-      ["New York", "NY", 3],
-      ["Palm Beach", "FL", 1],
-      ["Palo Alto", "CA", 1],
-      ["San Francisco", "CA", 1],
-      ["Scottsdale", "AZ", 1],
-      ["Washington", "DC", 1]
-    ],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Dress pants": {
+   "lp": "Pinstripe Wide Leg Trousers -- Dark Grey",
+   "lu": "https://frame-store.com/products/pinstripe-wide-leg-trousers-dark-grey",
+   "hp": "Wide Leg Trousers -- Warm Mauve",
+   "hu": "https://frame-store.com/products/wide-leg-trousers-mf26wpa001-wmme",
+   "b": "range"
   },
-  "cities": "16 stores, including New York, Aspen, Austin · department stores and independent menswear shops, and its own site",
-  "region": {
-    "o": [1022, 1025, 1026, 1027, 1028],
-    "s": [44, 52, 53, 60, 77, 124]
+  "Sweater": {
+   "lp": "Cable Sweater -- Cream",
+   "lu": "https://frame-store.com/products/cable-sweater-mf26ksw023-crea",
+   "hp": "Cashmere Crewneck Sweater -- Noir",
+   "hu": "https://frame-store.com/products/the-cashmere-crewneck-sweater-noir",
+   "b": "pair"
   },
-  "addmen": true,
-  "site": {
-    "domain": "frame-store.com",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 1590,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "licensed",
-    "marks": ["ROICA V550(R) [ROICA V550®]", "Candiani (mill, named)", "Supima", "TENCEL"],
-    "source": "census",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 280,
-    "w": 274,
-    "n": 86,
-    "s": 2,
-    "c": 10,
-    "x": 16,
-    "xh": 2,
-    "sp": "one",
-    "sc": [],
-    "nc": ["denim", "jackets-coats", "sweaters-hoodies"],
-    "st": "complete"
-  },
-  "garment_links": {
-    "T-shirt": "https://frame-store.com/collections/tees-men",
-    "Polo": "https://frame-store.com/collections/tees-men",
-    "Dress shirt": "https://frame-store.com/collections/shirts-men",
-    "Jeans": "https://frame-store.com/collections/jeans-men",
-    "Dress pants": "https://frame-store.com/collections/pants-shorts-men",
-    "Sweater": "https://frame-store.com/collections/sweaters-hoodies-men",
-    "Outerwear": "https://frame-store.com/collections/jackets-coats-men"
-  },
-  "notes": {
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 4; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "denim": "Founded as a denim brand; jeans remain the core of the range.",
-    "craft": "Frame's men's product pages give composition only: no country, mill or factory on any of 5 sampled (jean, knit, suede blazer, trousers, overshirt). Its about page claims 'fair manufacturing practices' and a past in 'hand-crafted denim' but names no maker or place. Nothing checkable: 1."
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Light Cotton Tee -- White",
-      "lu": "https://frame-store.com/products/s-s-light-cotton-tee-white",
-      "hp": "Jacquard Stripe Tee -- Cream/Brown Stripe",
-      "hu": "https://frame-store.com/products/jacquard-stripe-tee-ms26jte008-crmb",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Washed Light Pique Polo -- Antique Cafe (compare-at; on sale $64)",
-      "lu": "https://frame-store.com/products/washed-light-pique-polo-antique-cafe",
-      "hp": "Superfine Polo Sweater -- Pale Yellow (short sleeve)",
-      "hu": "https://frame-store.com/products/superfine-s-s-polo-sweater-me26ksw008-paly",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Cotton Shirt -- Light Blue",
-      "lu": "https://frame-store.com/products/cotton-shirt-me26wsh025-ltbl",
-      "hp": "Stripe Shirt -- Beige Stripe",
-      "hu": "https://frame-store.com/products/stripe-shirt-mf26wsh002-bgst",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "L'Homme Slim -- Rinse",
-      "lu": "https://frame-store.com/products/lhomme-slim-rinse-1",
-      "hp": "Baggy Jean -- Dark Navy",
-      "hu": "https://frame-store.com/products/baggy-jean-m005dpa966-dknv",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Pinstripe Wide Leg Trousers -- Dark Grey",
-      "lu": "https://frame-store.com/products/pinstripe-wide-leg-trousers-dark-grey",
-      "hp": "Wide Leg Trousers -- Warm Mauve",
-      "hu": "https://frame-store.com/products/wide-leg-trousers-mf26wpa001-wmme",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Cable Sweater -- Cream",
-      "lu": "https://frame-store.com/products/cable-sweater-mf26ksw023-crea",
-      "hp": "Cashmere Crewneck Sweater -- Noir",
-      "hu": "https://frame-store.com/products/the-cashmere-crewneck-sweater-noir",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "Denim Zip Trucker -- Breakpoint",
-      "lu": "https://frame-store.com/products/denim-zip-trucker-m014dja813-bkpt",
-      "hp": "Suede Trucker Jacket -- Oxford Beige",
-      "hu": "https://frame-store.com/products/suede-trucker-jacket-oxford-beige",
-      "b": "pair"
-    }
-  },
-  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://frame-store.com/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=299489&brand_ids[]=263544",
-      "m": "brand filter",
-      "n": "Vinted 'Frame' may mix unrelated brands"
-    }
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "About page: founded 2012 in Los Angeles; 'evolved from making hand-crafted denim'; 'committed to sustainable and fair manufacturing practices'. No factory, workshop or making partner named; no owned facility.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "none",
-    "countries": "None stated 5/5 (L'Homme Slim jean, alpaca-blend sweater, suede blazer, wool easy trousers, plaid overshirt). The trousers' Shopify .json (body_html, tags) also carries no origin, so this is not only a hidden tab.",
-    "heritage": "dated and placed",
-    "repair": "yes",
-    "process": "no",
-    "urls": [
-      "https://frame-store.com/pages/about",
-      "https://frame-store.com/products/suede-blazer-mf26lja003-blk"
-    ],
-    "conf": "high",
-    "read": "2026-10-03"
+  "Outerwear": {
+   "lp": "Denim Zip Trucker -- Breakpoint",
+   "lu": "https://frame-store.com/products/denim-zip-trucker-m014dja813-bkpt",
+   "hp": "Suede Trucker Jacket -- Oxford Beige",
+   "hu": "https://frame-store.com/products/suede-trucker-jacket-oxford-beige",
+   "b": "pair"
   }
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://frame-store.com/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=299489&brand_ids[]=263544",
+   "m": "brand filter",
+   "n": "Vinted 'Frame' may mix unrelated brands"
+  }
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "About page: founded 2012 in Los Angeles; 'evolved from making hand-crafted denim'; 'committed to sustainable and fair manufacturing practices'. No factory, workshop or making partner named; no owned facility.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "none",
+  "countries": "None stated 5/5 (L'Homme Slim jean, alpaca-blend sweater, suede blazer, wool easy trousers, plaid overshirt). The trousers' Shopify .json (body_html, tags) also carries no origin, so this is not only a hidden tab.",
+  "heritage": "dated and placed",
+  "repair": "yes",
+  "process": "no",
+  "urls": [
+   "https://frame-store.com/pages/about",
+   "https://frame-store.com/products/suede-blazer-mf26lja003-blk"
+  ],
+  "conf": "high",
+  "read": "2026-10-03"
+ }
 }

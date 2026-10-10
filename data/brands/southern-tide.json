@@ -1,243 +1,480 @@
 {
-  "name": "Southern Tide",
-  "band": "premium",
-  "seat": 20,
-  "dagger": 1,
-  "focus": {
-    "tech": 2,
-    "comfort": 3,
-    "craft": 1,
-    "style": 2
+ "name": "Southern Tide",
+ "band": "premium",
+ "seat": 20,
+ "dagger": 1,
+ "focus": {
+  "tech": 2,
+  "comfort": 3,
+  "craft": 1,
+  "style": 2
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 2,
+  "cotton": 2,
+  "wool": 1,
+  "synth": 3
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 4,
+  "fuss": 1,
+  "golffice": 0,
+  "golf": 3,
+  "finbro": 3,
+  "ivy": 3,
+  "murica": 3,
+  "prep": 4,
+  "boat": 2,
+  "racquet": 2,
+  "whitet": 2,
+  "logo": 3,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 4
+ },
+ "why": "Polos, oxford shirts and casual clothing in a Southern preppy style, sold through beach-town and college-town shops.",
+ "origin": "Founded in Greenville, South Carolina, in 2006 by Allen Stephenson.",
+ "chan": [
+  "O",
+  "D",
+  "I"
+ ],
+ "conf": "L",
+ "forgc": [
+  4,
+  4,
+  1
+ ],
+ "shop": "https://southerntide.com/search?q=",
+ "onething": {
+  "p": "Skipjack polo",
+  "u": "https://southerntide.com/search?q=Skipjack%20polo%20men",
+  "n": "works"
+ },
+ "prices": [
+  [
+   38,
+   88
+  ],
+  [
+   90,
+   118
+  ],
+  [
+   138,
+   168
+  ],
+  [
+   135,
+   178
+  ],
+  [
+   138,
+   148
+  ],
+  [
+   158,
+   178
+  ],
+  [
+   168,
+   178
+  ],
+  [
+   70,
+   70
+  ]
+ ],
+ "notes": {
+  "prep": "The skipjack and the Carolina coast — regional prep worn in earnest rather than ironically, and worn by people who live where it comes from.",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 3; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "Southern Tide's product pages give fiber content and care but no country of make, factory or mill, and the about page says nothing about making. Its parent Oxford Industries reports that it owns no manufacturing and sources from third parties, mainly China, Vietnam and Indonesia, but not per brand. Nothing checkable about where Southern Tide's clothes are made: a 1 (2 if a hidden 'Imported/Made in' tab is found)."
+ },
+ "doors": {
+  "c": "full",
+  "n": 41,
+  "cities": [
+   [
+    "Amelia Island",
+    "FL",
+    1
+   ],
+   [
+    "Ashburn",
+    "VA",
+    1
+   ],
+   [
+    "Beaufort",
+    "SC",
+    1
+   ],
+   [
+    "Cary",
+    "NC",
+    1
+   ],
+   [
+    "Cashiers",
+    "NC",
+    1
+   ],
+   [
+    "Chatham",
+    "MA",
+    1
+   ],
+   [
+    "Columbia",
+    "SC",
+    1
+   ],
+   [
+    "Estero",
+    "FL",
+    1
+   ],
+   [
+    "Fairfax",
+    "VA",
+    1
+   ],
+   [
+    "Fairhope",
+    "AL",
+    1
+   ],
+   [
+    "Fort Lauderdale",
+    "FL",
+    1
+   ],
+   [
+    "Greenville",
+    "SC",
+    1
+   ],
+   [
+    "Hilton Head",
+    "SC",
+    1
+   ],
+   [
+    "Huntersville",
+    "NC",
+    1
+   ],
+   [
+    "Islamorada",
+    "FL",
+    1
+   ],
+   [
+    "Jacksonville",
+    "FL",
+    1
+   ],
+   [
+    "Key West",
+    "FL",
+    1
+   ],
+   [
+    "Kiawah Island",
+    "SC",
+    1
+   ],
+   [
+    "Lexington",
+    "KY",
+    1
+   ],
+   [
+    "Marco Island",
+    "FL",
+    1
+   ],
+   [
+    "Mashpee",
+    "MA",
+    1
+   ],
+   [
+    "Melbourne",
+    "FL",
+    1
+   ],
+   [
+    "Miramar Beach",
+    "FL",
+    1
+   ],
+   [
+    "Mount Pleasant",
+    "SC",
+    1
+   ],
+   [
+    "Nantucket",
+    "MA",
+    1
+   ],
+   [
+    "Naperville",
+    "IL",
+    1
+   ],
+   [
+    "Naples",
+    "FL",
+    2
+   ],
+   [
+    "Newport",
+    "RI",
+    1
+   ],
+   [
+    "San Antonio",
+    "TX",
+    1
+   ],
+   [
+    "Santa Rosa Beach",
+    "FL",
+    1
+   ],
+   [
+    "Sarasota",
+    "FL",
+    2
+   ],
+   [
+    "Savannah",
+    "GA",
+    1
+   ],
+   [
+    "Scottsdale",
+    "AZ",
+    1
+   ],
+   [
+    "Southlake",
+    "TX",
+    1
+   ],
+   [
+    "St. Simons",
+    "GA",
+    1
+   ],
+   [
+    "Vero Beach",
+    "FL",
+    1
+   ],
+   [
+    "Westport",
+    "CT",
+    1
+   ],
+   [
+    "Wilmington",
+    "NC",
+    1
+   ],
+   [
+    "Winter Park",
+    "FL",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 1,
+  "con": 0
+ },
+ "cities": "41 stores across the US · department stores and independent menswear shops, and its own site",
+ "region": {
+  "o": [
+   3152,
+   3158,
+   3160,
+   3161,
+   3162
+  ],
+  "s": [
+   10,
+   13,
+   38,
+   39,
+   134,
+   141,
+   145,
+   147
+  ]
+ },
+ "site": {
+  "domain": "southerntide.com",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 1607,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "both",
+  "marks": [
+   "Coastal Breeze",
+   "brrr°"
+  ],
+  "source": "screen_36",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 459,
+  "w": 419,
+  "n": 50,
+  "s": 41,
+  "c": 0,
+  "x": 54,
+  "xh": 37,
+  "sp": "split",
+  "sc": [
+   "Polo Shirts",
+   "Shorts",
+   "Swimwear",
+   "Outerwear",
+   "Pullover",
+   "Hoodie",
+   "Belt"
+  ],
+  "nc": [
+   "T-Shirts",
+   "Sportshirts",
+   "Pants"
+  ],
+  "st": "complete"
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants",
+  "Sweater",
+  "Outerwear"
+ ],
+ "garment_links": {
+  "T-shirt": "https://southerntide.com/collections/men-t-shirts",
+  "Polo": "https://southerntide.com/collections/men-polos",
+  "Dress shirt": "https://southerntide.com/collections/men-sport-shirts",
+  "Jeans": "https://southerntide.com/collections/men-pants",
+  "Dress pants": "https://southerntide.com/collections/men-pants",
+  "Sweater": "https://southerntide.com/collections/mens-sweaters",
+  "Outerwear": "https://southerntide.com/collections/jackets-and-vests"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Classic Short Sleeve Pocket T-Shirt - Navy",
+   "lu": "https://southerntide.com/products/classic-short-sleeve-pocket-t-shirt-navy",
+   "hp": "Wooden Flag brrr-illiant Short Sleeve Performance T-Shirt",
+   "hu": "https://southerntide.com/products/wooden-flag-brrr-illiant-short-sleeve-performance-t-shirt",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 1,
-    "linen": 2,
-    "cotton": 2,
-    "wool": 1,
-    "synth": 3
+  "Polo": {
+   "lp": "Skipjack Gameday Colors Polo Shirt",
+   "lu": "https://southerntide.com/products/gameday-skipjack-pique-polo-shirt",
+   "hp": "Brewers Landing Stripe Coastal Breeze Performance Polo",
+   "hu": "https://southerntide.com/products/brewers-landing-stripe-coastal-breeze-performance-polo",
+   "b": "range"
   },
-  "dials": {
-    "dur": 3,
-    "forg": 4,
-    "fuss": 1,
-    "golffice": 0,
-    "golf": 3,
-    "finbro": 3,
-    "ivy": 3,
-    "murica": 3,
-    "prep": 4,
-    "boat": 2,
-    "racquet": 2,
-    "whitet": 2,
-    "logo": 3,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 4
+  "Dress shirt": {
+   "lp": "Ocean View Heather Brushed Twill Sport Shirt",
+   "lu": "https://southerntide.com/products/ocean-view-heather-brushed-twill-sport-shirt",
+   "hp": "Lanier Plaid Charleston Sport Shirt",
+   "hu": "https://southerntide.com/products/lanier-plaid-charleston-sport-shirt",
+   "b": "range"
   },
-  "why": "Polos, oxford shirts and casual clothing in a Southern preppy style, sold through beach-town and college-town shops.",
-  "origin": "Founded in Greenville, South Carolina, in 2006 by Allen Stephenson.",
-  "chan": ["O", "D", "I"],
-  "conf": "L",
-  "forgc": [4, 4, 1],
-  "shop": "https://southerntide.com/search?q=",
-  "onething": {
-    "p": "Skipjack polo",
-    "u": "https://southerntide.com/search?q=Skipjack%20polo%20men",
-    "n": "works"
+  "Jeans": {
+   "lp": "Charleston Denim Jeans - Rinse",
+   "lu": "https://southerntide.com/products/charleston-denim-jeans-rinse",
+   "hp": "King Street Denim Pant - Medium Wash",
+   "hu": "https://southerntide.com/products/king-street-denim-pant-medium-wash",
+   "b": "range"
   },
-  "prices": [[38, 88], [90, 118], [138, 168], [135, 178], [138, 148], [158, 178], [168, 178], [70, 70]],
-  "notes": {
-    "prep": "The skipjack and the Carolina coast — regional prep worn in earnest rather than ironically, and worn by people who live where it comes from.",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 3; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Southern Tide's product pages give fiber content and care but no country of make, factory or mill, and the about page says nothing about making. Its parent Oxford Industries reports that it owns no manufacturing and sources from third parties, mainly China, Vietnam and Indonesia, but not per brand. Nothing checkable about where Southern Tide's clothes are made: a 1 (2 if a hidden 'Imported/Made in' tab is found)."
+  "Dress pants": {
+   "lp": "Channel Marker Stretch Chino Pant - Stone",
+   "lu": "https://southerntide.com/products/channel-marker-stretch-chino-pant-stone",
+   "hp": "Jack Performance Pant - True Navy",
+   "hu": "https://southerntide.com/products/jack-performance-pant-true-navy",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 41,
-    "cities": [
-      ["Amelia Island", "FL", 1],
-      ["Ashburn", "VA", 1],
-      ["Cary", "NC", 1],
-      ["Cashiers", "NC", 1],
-      ["Chatham", "MA", 1],
-      ["Columbia", "SC", 1],
-      ["Estero", "FL", 1],
-      ["Fairfax", "VA", 1],
-      ["Fairhope", "AL", 1],
-      ["Fort Lauderdale", "FL", 1],
-      ["Fort Worth", "TX", 1],
-      ["Greenville", "SC", 1],
-      ["Hilton Head", "SC", 1],
-      ["Huntersville", "NC", 1],
-      ["Islamorada", "FL", 1],
-      ["Jacksonville", "FL", 1],
-      ["Key West", "FL", 1],
-      ["Kiawah Island", "SC", 1],
-      ["Lexington", "KY", 1],
-      ["Marco Island", "FL", 1],
-      ["Mashpee", "MA", 1],
-      ["Melbourne", "FL", 1],
-      ["Miramar Beach", "FL", 1],
-      ["Mount Pleasant", "SC", 1],
-      ["Nantucket", "MA", 1],
-      ["Naperville", "IL", 1],
-      ["Naples", "FL", 2],
-      ["Newport", "RI", 1],
-      ["San Antonio", "TX", 1],
-      ["Santa Rosa Beach", "FL", 1],
-      ["Sarasota", "FL", 2],
-      ["Savannah", "GA", 1],
-      ["Scottsdale", "AZ", 1],
-      ["Southlake", "TX", 1],
-      ["St. Simons", "GA", 1],
-      ["Vero Beach", "FL", 1],
-      ["Westport", "CT", 1],
-      ["Wilmington", "NC", 1],
-      ["Winter Park", "FL", 1]
-    ],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Sweater": {
+   "lp": "Broad River Indigo Crew",
+   "lu": "https://southerntide.com/products/broad-river-indigo-crewneck",
+   "hp": "Bass Creek Heather Quarter Button Sweater",
+   "hu": "https://southerntide.com/products/bass-creek-heather-quarter-button-sweater",
+   "b": "range"
   },
-  "cities": "41 stores across the US · department stores and independent menswear shops, and its own site",
-  "region": {
-    "o": [2491, 2512, 2513, 2514, 2519],
-    "s": [10, 13, 38, 39, 134, 141, 145, 147]
+  "Outerwear": {
+   "lp": "Avondale Performance Jacket",
+   "lu": "https://southerntide.com/products/avondale-performance-jacket",
+   "hp": "Mixed Media Full Zip Jacket",
+   "hu": "https://southerntide.com/products/mixed-media-full-zip-jacket",
+   "b": "range"
   },
-  "site": {
-    "domain": "southerntide.com",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 1607,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "both",
-    "marks": ["Coastal Breeze", "brrr°"],
-    "source": "screen_36",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 459,
-    "w": 419,
-    "n": 50,
-    "s": 41,
-    "c": 0,
-    "x": 54,
-    "xh": 37,
-    "sp": "split",
-    "sc": ["Polo Shirts", "Shorts", "Swimwear", "Outerwear", "Pullover", "Hoodie", "Belt"],
-    "nc": ["T-Shirts", "Sportshirts", "Pants"],
-    "st": "complete"
-  },
-  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants", "Sweater", "Outerwear"],
-  "garment_links": {
-    "T-shirt": "https://southerntide.com/collections/men-t-shirts",
-    "Polo": "https://southerntide.com/collections/men-polos",
-    "Dress shirt": "https://southerntide.com/collections/men-sport-shirts",
-    "Jeans": "https://southerntide.com/collections/men-pants",
-    "Dress pants": "https://southerntide.com/collections/men-pants",
-    "Sweater": "https://southerntide.com/collections/mens-sweaters",
-    "Outerwear": "https://southerntide.com/collections/jackets-and-vests"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Classic Short Sleeve Pocket T-Shirt - Navy",
-      "lu": "https://southerntide.com/products/classic-short-sleeve-pocket-t-shirt-navy",
-      "hp": "Wooden Flag brrr-illiant Short Sleeve Performance T-Shirt",
-      "hu": "https://southerntide.com/products/wooden-flag-brrr-illiant-short-sleeve-performance-t-shirt",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Skipjack Gameday Colors Polo Shirt",
-      "lu": "https://southerntide.com/products/gameday-skipjack-pique-polo-shirt",
-      "hp": "Brewers Landing Stripe Coastal Breeze Performance Polo",
-      "hu": "https://southerntide.com/products/brewers-landing-stripe-coastal-breeze-performance-polo",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Ocean View Heather Brushed Twill Sport Shirt",
-      "lu": "https://southerntide.com/products/ocean-view-heather-brushed-twill-sport-shirt",
-      "hp": "Lanier Plaid Charleston Sport Shirt",
-      "hu": "https://southerntide.com/products/lanier-plaid-charleston-sport-shirt",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Charleston Denim Jeans - Rinse",
-      "lu": "https://southerntide.com/products/charleston-denim-jeans-rinse",
-      "hp": "King Street Denim Pant - Medium Wash",
-      "hu": "https://southerntide.com/products/king-street-denim-pant-medium-wash",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Channel Marker Stretch Chino Pant - Stone",
-      "lu": "https://southerntide.com/products/channel-marker-stretch-chino-pant-stone",
-      "hp": "Jack Performance Pant - True Navy",
-      "hu": "https://southerntide.com/products/jack-performance-pant-true-navy",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Broad River Indigo Crew",
-      "lu": "https://southerntide.com/products/broad-river-indigo-crewneck",
-      "hp": "Bass Creek Heather Quarter Button Sweater",
-      "hu": "https://southerntide.com/products/bass-creek-heather-quarter-button-sweater",
-      "b": "range"
-    },
-    "Outerwear": {
-      "lp": "Avondale Performance Jacket",
-      "lu": "https://southerntide.com/products/avondale-performance-jacket",
-      "hp": "Mixed Media Full Zip Jacket",
-      "hu": "https://southerntide.com/products/mixed-media-full-zip-jacket",
-      "b": "range"
-    },
-    "Shoes": {
-      "lp": "Men's River Rock Flipjacks",
-      "lu": "https://southerntide.com/products/mens-river-rock-flipjacks",
-      "hp": "Men's River Rock Flipjacks",
-      "hu": "https://southerntide.com/products/mens-river-rock-flipjacks",
-      "b": "single"
-    }
-  },
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://southerntide.com/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=1413609",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "No owned making. About page names no factory or mill. Parent Oxford Industries' FY2025 annual report (SEC filing) says Oxford uses third-party producers and does not operate manufacturing facilities; the only Southern Tide-related facility named is Oxford's Lyons, Georgia distribution centre (distribution, not making).",
-    "makers": "no",
-    "mills": "no",
-    "madein": "none",
-    "countries": "None seen on site: 0/4 PDPs fetched and 0/~15 product descriptions in products.json state a country or 'Imported' (sample: polos x2, sweater, sport shirt; JSON: blazer, pant, pullover, sport shirt, lounge pants). Group level only, from Oxford FY2025 report: China 29%, Vietnam ~24%, Indonesia ~10% of Oxford purchases (all brands, not Southern Tide-specific). Origin may sit in a PDP tab the fetch could not see.",
-    "heritage": "dated and placed",
-    "repair": "yes",
-    "process": "no",
-    "urls": [
-      "https://southerntide.com/products/new-skipjack-polo-shirt",
-      "https://www.sec.gov/Archives/edgar/data/75288/000007528826000034/oxfordindustriesars2025.pdf"
-    ],
-    "conf": "medium",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Men's River Rock Flipjacks",
+   "lu": "https://southerntide.com/products/mens-river-rock-flipjacks",
+   "hp": "Men's River Rock Flipjacks",
+   "hu": "https://southerntide.com/products/mens-river-rock-flipjacks",
+   "b": "single"
   }
+ },
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://southerntide.com/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=1413609",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "No owned making. About page names no factory or mill. Parent Oxford Industries' FY2025 annual report (SEC filing) says Oxford uses third-party producers and does not operate manufacturing facilities; the only Southern Tide-related facility named is Oxford's Lyons, Georgia distribution centre (distribution, not making).",
+  "makers": "no",
+  "mills": "no",
+  "madein": "none",
+  "countries": "None seen on site: 0/4 PDPs fetched and 0/~15 product descriptions in products.json state a country or 'Imported' (sample: polos x2, sweater, sport shirt; JSON: blazer, pant, pullover, sport shirt, lounge pants). Group level only, from Oxford FY2025 report: China 29%, Vietnam ~24%, Indonesia ~10% of Oxford purchases (all brands, not Southern Tide-specific). Origin may sit in a PDP tab the fetch could not see.",
+  "heritage": "dated and placed",
+  "repair": "yes",
+  "process": "no",
+  "urls": [
+   "https://southerntide.com/products/new-skipjack-polo-shirt",
+   "https://www.sec.gov/Archives/edgar/data/75288/000007528826000034/oxfordindustriesars2025.pdf"
+  ],
+  "conf": "medium",
+  "read": "2026-10-03"
+ }
 }

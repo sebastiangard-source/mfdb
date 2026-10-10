@@ -1,204 +1,249 @@
 {
-  "name": "Percival",
-  "band": "premium",
-  "seat": 39,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 3,
-    "craft": 2,
-    "style": 4
-  },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 2,
-    "linen": 3,
-    "cotton": 3,
-    "wool": 2,
-    "synth": 1
-  },
-  "dials": {
-    "dur": 2,
-    "forg": 3,
-    "fuss": 0,
-    "golffice": 0,
-    "bruv": -2,
-    "briish": 4,
-    "whitet": 2,
-    "logo": 1,
-    "western": 1,
-    "rock": 1,
-    "workwear": 3,
-    "outdoor": 1,
-    "surf": 1
-  },
-  "why": "Casual clothing from a small London label — knitwear, camp-collar shirts, outerwear.",
-  "origin": "Founded in London in 2010 by Chris Gove.",
-  "chan": ["W"],
-  "conf": "L",
-  "forgc": [3, 3, 1],
-  "shop": "https://www.percivalclo.com/search?q=",
-  "onething": {
-    "p": "Cuba shirt",
-    "u": "https://www.percivalclo.com/collections/cuban-collar-shirts",
-    "n": "verified — Cuban-collar collection page"
-  },
-  "prices": [
-    [67, 105, "USD_landed"],
-    [130, 175, "USD_landed"],
-    [190, 210, "USD_landed"],
-    [175, 190, "USD_landed"],
-    [190, 225, "USD_landed"],
-    [240, 350, "USD_landed"],
-    [255, 730, "USD_landed"],
-    null
+ "name": "Percival",
+ "band": "premium",
+ "seat": 39,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 3,
+  "craft": 2,
+  "style": 4
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 2,
+  "linen": 3,
+  "cotton": 3,
+  "wool": 2,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 2,
+  "forg": 3,
+  "fuss": 0,
+  "golffice": 0,
+  "bruv": -2,
+  "briish": 4,
+  "whitet": 2,
+  "logo": 1,
+  "western": 1,
+  "rock": 1,
+  "workwear": 3,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Casual clothing from a small London label — knitwear, camp-collar shirts, outerwear.",
+ "origin": "Founded in London in 2010 by Chris Gove.",
+ "chan": [
+  "W"
+ ],
+ "conf": "L",
+ "forgc": [
+  3,
+  3,
+  1
+ ],
+ "shop": "https://www.percivalclo.com/search?q=",
+ "onething": {
+  "p": "Cuba shirt",
+  "u": "https://www.percivalclo.com/collections/cuban-collar-shirts",
+  "n": "verified — Cuban-collar collection page"
+ },
+ "prices": [
+  [
+   67,
+   105,
+   "USD_landed"
   ],
-  "doors": {
-    "c": "full",
-    "n": 0,
-    "cities": [],
-    "basis": "master 2026-08-29, pre-recapture"
+  [
+   130,
+   175,
+   "USD_landed"
+  ],
+  [
+   190,
+   210,
+   "USD_landed"
+  ],
+  [
+   175,
+   190,
+   "USD_landed"
+  ],
+  [
+   190,
+   225,
+   "USD_landed"
+  ],
+  [
+   240,
+   350,
+   "USD_landed"
+  ],
+  [
+   255,
+   730,
+   "USD_landed"
+  ],
+  null
+ ],
+ "doors": {
+  "c": "full",
+  "n": 0,
+  "cities": [],
+  "basis": "master 2026-08-29, pre-recapture"
+ },
+ "cities": "Sold direct, through its own site only",
+ "site": {
+  "domain": "percivalclo.com",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 827,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "licensed",
+  "marks": [
+   "TENCEL (Lyocell)",
+   "plus unnamed generic claims: \"waterproof\" 99x / \"technical fabric\" 11x / \"membrane\" 1x"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 466,
+  "w": 382,
+  "n": 73,
+  "s": 7,
+  "c": 2,
+  "x": 8,
+  "xh": 0,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "Jersey",
+   "Shirting",
+   "Outerwear"
+  ],
+  "st": "complete"
+ },
+ "garment_links": {
+  "T-shirt": "https://www.percivalclo.com/collections/t-shirts",
+  "Polo": "https://www.percivalclo.com/collections/polo-shirts",
+  "Dress shirt": "https://www.percivalclo.com/collections/shirts",
+  "Jeans": "https://www.percivalclo.com/collections/mens-jeans",
+  "Dress pants": "https://www.percivalclo.com/collections/tailored-smart-trousers",
+  "Sweater": "https://www.percivalclo.com/collections/knitwear-jumpers",
+  "Outerwear": "https://www.percivalclo.com/collections/outerwear"
+ },
+ "notes": {
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 1; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "Every PDP sampled states a country of make (mostly China, also Turkey and Portugal) but names no factory or mill. The about page speaks only of makers 'across the world' and generic fabric origins. That is country-of-make only."
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Plain Regular Fit T Shirt | Organic Cotton | White",
+   "lu": "https://www.percivalclo.com/products/daily-goods-t-shirt-organic-cotton-white",
+   "hp": "Dawson Oversized T Shirt | Organic Cotton | White",
+   "hu": "https://www.percivalclo.com/products/dawson-oversized-t-shirt-organic-cotton-white",
+   "b": "range"
   },
-  "cities": "Sold direct, through its own site only",
-  "site": {
-    "domain": "percivalclo.com",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 827,
-    "status": "live_store",
-    "checked": "2026-09-13"
+  "Polo": {
+   "lp": "Anthony Ribbed Polo | Cotton | Espresso",
+   "lu": "https://www.percivalclo.com/products/anthony-ribbed-polo-cotton-espresso",
+   "hp": "Tennis Boxy Knitted Polo | Cotton | Cream",
+   "hu": "https://www.percivalclo.com/products/tennis-boxy-knitted-polo-cotton-ecru",
+   "b": "range"
   },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "licensed",
-    "marks": [
-      "TENCEL (Lyocell)",
-      "plus unnamed generic claims: \"waterproof\" 99x / \"technical fabric\" 11x / \"membrane\" 1x"
-    ],
-    "source": "census",
-    "checked": "2026-09-12"
+  "Dress shirt": {
+   "lp": "Formal Classic Shirt | Cotton Poplin | White",
+   "lu": "https://www.percivalclo.com/products/formal-classic-shirt-cotton-poplin-white-1",
+   "hp": "Striped Oxford Regular Shirt | Cotton | Blue Stripe",
+   "hu": "https://www.percivalclo.com/products/striped-oxford-shirt-cotton-blue-stripe",
+   "b": "range"
   },
-  "fibre": {
-    "t": 466,
-    "w": 382,
-    "n": 73,
-    "s": 7,
-    "c": 2,
-    "x": 8,
-    "xh": 0,
-    "sp": "one",
-    "sc": [],
-    "nc": ["Jersey", "Shirting", "Outerwear"],
-    "st": "complete"
+  "Jeans": {
+   "lp": "Straight Leg Denim Jeans | Cotton | Cream",
+   "lu": "https://www.percivalclo.com/products/straight-leg-denim-jeans-cotton-cream",
+   "hp": "Straight Leg Heritage Denim Jeans | Cotton | Raw",
+   "hu": "https://www.percivalclo.com/products/straight-leg-heritage-denim-jeans-cotton-raw",
+   "b": "range"
   },
-  "garment_links": {
-    "T-shirt": "https://www.percivalclo.com/collections/t-shirts",
-    "Polo": "https://www.percivalclo.com/collections/polo-shirts",
-    "Dress shirt": "https://www.percivalclo.com/collections/shirts",
-    "Jeans": "https://www.percivalclo.com/collections/mens-jeans",
-    "Dress pants": "https://www.percivalclo.com/collections/tailored-smart-trousers",
-    "Sweater": "https://www.percivalclo.com/collections/knitwear-jumpers",
-    "Outerwear": "https://www.percivalclo.com/collections/outerwear"
+  "Dress pants": {
+   "lp": "Blake Double Pleated Trousers | Cotton | Navy",
+   "lu": "https://www.percivalclo.com/products/blake-double-pleated-trousers-cotton-navy",
+   "hp": "Blake Double Pleated Tailored Trousers | Birdseye Wool | Grey",
+   "hu": "https://www.percivalclo.com/products/blake-double-pleated-tailored-trousers-birdseye-wool-grey",
+   "b": "range"
   },
-  "notes": {
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 1; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Every PDP sampled states a country of make (mostly China, also Turkey and Portugal) but names no factory or mill. The about page speaks only of makers 'across the world' and generic fabric origins. That is country-of-make only."
+  "Sweater": {
+   "lp": "Fisherman Raglan Jumper | Heavy Cotton | Navy",
+   "lu": "https://www.percivalclo.com/products/fisherman-knitted-jumper-heavy-cotton-navy",
+   "hp": "Archive Knit Collared Cardigan | Yak Wool | Brown",
+   "hu": "https://www.percivalclo.com/products/archive-knit-collared-cardigan-yak-wool-brown",
+   "b": "range"
   },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Plain Regular Fit T Shirt | Organic Cotton | White",
-      "lu": "https://www.percivalclo.com/products/daily-goods-t-shirt-organic-cotton-white",
-      "hp": "Dawson Oversized T Shirt | Organic Cotton | White",
-      "hu": "https://www.percivalclo.com/products/dawson-oversized-t-shirt-organic-cotton-white",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Anthony Ribbed Polo | Cotton | Espresso",
-      "lu": "https://www.percivalclo.com/products/anthony-ribbed-polo-cotton-espresso",
-      "hp": "Tennis Boxy Knitted Polo | Cotton | Cream",
-      "hu": "https://www.percivalclo.com/products/tennis-boxy-knitted-polo-cotton-ecru",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Formal Classic Shirt | Cotton Poplin | White",
-      "lu": "https://www.percivalclo.com/products/formal-classic-shirt-cotton-poplin-white-1",
-      "hp": "Striped Oxford Regular Shirt | Cotton | Blue Stripe",
-      "hu": "https://www.percivalclo.com/products/striped-oxford-shirt-cotton-blue-stripe",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Straight Leg Denim Jeans | Cotton | Cream",
-      "lu": "https://www.percivalclo.com/products/straight-leg-denim-jeans-cotton-cream",
-      "hp": "Straight Leg Heritage Denim Jeans | Cotton | Raw",
-      "hu": "https://www.percivalclo.com/products/straight-leg-heritage-denim-jeans-cotton-raw",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Blake Double Pleated Trousers | Cotton | Navy",
-      "lu": "https://www.percivalclo.com/products/blake-double-pleated-trousers-cotton-navy",
-      "hp": "Blake Double Pleated Tailored Trousers | Birdseye Wool | Grey",
-      "hu": "https://www.percivalclo.com/products/blake-double-pleated-tailored-trousers-birdseye-wool-grey",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Fisherman Raglan Jumper | Heavy Cotton | Navy",
-      "lu": "https://www.percivalclo.com/products/fisherman-knitted-jumper-heavy-cotton-navy",
-      "hp": "Archive Knit Collared Cardigan | Yak Wool | Brown",
-      "hu": "https://www.percivalclo.com/products/archive-knit-collared-cardigan-yak-wool-brown",
-      "b": "range"
-    },
-    "Outerwear": {
-      "lp": "Western Trucker Jacket | Denim | Dark Indigo",
-      "lu": "https://www.percivalclo.com/products/western-trucker-jacket-denim-raw",
-      "hp": "Western Jacket | Suede | Olive",
-      "hu": "https://www.percivalclo.com/products/western-jacket-suede-olive",
-      "b": "pair"
-    }
-  },
-  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants", "Sweater"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.percivalclo.com/",
-    "currency": "USD_landed",
-    "status": "read",
-    "sublines": "PCVL"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=225832",
-      "m": "brand filter",
-      "n": "Vinted 'Percival' may mix unrelated brands"
-    }
-  },
-  "season": {
-    "l": "Autumn Winter 2026 (AW26), Drop 1 'Irish Exit'",
-    "t": "lookbook",
-    "u": "https://www.percivalclo.com/blogs/news/the-irish-exit-aw26",
-    "m": "yes"
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "About-us page: garments 'made across the world with skilled craftspeople we know and trust'; no owned factory named.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "every product",
-    "countries": "China 6/10, Turkey 3/10, Portugal 1/10 (sample of 10 PDPs via product JSON + PDPs: overcoats, car coat, tailored trousers, zip cardigan, overshirt, jackets, rain jacket, knit jumper, denim chore jacket)",
-    "heritage": "dated and placed",
-    "repair": "no",
-    "process": "no",
-    "urls": [
-      "https://www.percivalclo.com/pages/about-us",
-      "https://www.percivalclo.com/products/gove-chore-jacket-denim-raw"
-    ],
-    "conf": "high",
-    "read": "2026-10-03"
+  "Outerwear": {
+   "lp": "Western Trucker Jacket | Denim | Dark Indigo",
+   "lu": "https://www.percivalclo.com/products/western-trucker-jacket-denim-raw",
+   "hp": "Western Jacket | Suede | Olive",
+   "hu": "https://www.percivalclo.com/products/western-jacket-suede-olive",
+   "b": "pair"
   }
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants",
+  "Sweater"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.percivalclo.com/",
+  "currency": "USD_landed",
+  "status": "read",
+  "sublines": "PCVL"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=225832",
+   "m": "brand filter",
+   "n": "Vinted 'Percival' may mix unrelated brands"
+  }
+ },
+ "season": {
+  "l": "Autumn Winter 2026 (AW26), Drop 1 'Irish Exit'",
+  "t": "lookbook",
+  "u": "https://www.percivalclo.com/blogs/news/the-irish-exit-aw26",
+  "m": "yes"
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "About-us page: garments 'made across the world with skilled craftspeople we know and trust'; no owned factory named.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "every product",
+  "countries": "China 6/10, Turkey 3/10, Portugal 1/10 (sample of 10 PDPs via product JSON + PDPs: overcoats, car coat, tailored trousers, zip cardigan, overshirt, jackets, rain jacket, knit jumper, denim chore jacket)",
+  "heritage": "dated and placed",
+  "repair": "no",
+  "process": "no",
+  "urls": [
+   "https://www.percivalclo.com/pages/about-us",
+   "https://www.percivalclo.com/products/gove-chore-jacket-denim-raw"
+  ],
+  "conf": "high",
+  "read": "2026-10-03"
+ }
 }

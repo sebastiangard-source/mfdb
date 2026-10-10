@@ -1,243 +1,372 @@
 {
-  "name": "Amiri",
-  "band": "trueLux",
-  "seat": 170,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 2,
-    "craft": 2,
-    "style": 5
-  },
-  "fabric": {
-    "denim": 5,
-    "cashmere": 2,
-    "linen": 1,
-    "cotton": 2,
-    "wool": 2,
-    "synth": 1
-  },
-  "dials": {
-    "dur": 2,
-    "forg": 1,
-    "fuss": -2,
-    "bruv": 2,
-    "shoes": 3,
-    "status": 5,
-    "finbro": 2,
-    "murica": 3,
-    "ital": 3,
-    "street": 4,
-    "weird": 2,
-    "whitet": 2,
-    "logo": 4,
-    "western": 2,
-    "rock": 5,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
-  },
-  "why": "Distressed denim, leather and casual clothing that began with rock musicians and now shows in Paris.",
-  "origin": "Founded in Los Angeles in 2014 by Mike Amiri.",
-  "say": "ah-MEER-ee",
-  "chan": ["O", "D"],
-  "conf": "L",
-  "forgc": [1, 2, 1],
-  "shop": "https://amiri.com/search?q=",
-  "onething": {
-    "p": "MX1 jean",
-    "u": "https://www.amiri.com/search?q=MX1%20jean",
-    "n": "verified ✓"
-  },
-  "prices": [
-    [330, 990],
-    [490, 1190],
-    [750, 1050],
-    [690, 4490],
-    [950, 1490],
-    [950, 4590],
-    [1090, 2490],
-    [750, 890]
+ "name": "Amiri",
+ "band": "trueLux",
+ "seat": 170,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 2,
+  "craft": 2,
+  "style": 5
+ },
+ "fabric": {
+  "denim": 5,
+  "cashmere": 2,
+  "linen": 1,
+  "cotton": 2,
+  "wool": 2,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 2,
+  "forg": 1,
+  "fuss": -2,
+  "bruv": 2,
+  "shoes": 3,
+  "status": 5,
+  "finbro": 2,
+  "murica": 3,
+  "ital": 3,
+  "street": 4,
+  "weird": 2,
+  "whitet": 2,
+  "logo": 4,
+  "western": 2,
+  "rock": 5,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Distressed denim, leather and casual clothing that began with rock musicians and now shows in Paris.",
+ "origin": "Founded in Los Angeles in 2014 by Mike Amiri.",
+ "say": "ah-MEER-ee",
+ "chan": [
+  "O",
+  "D"
+ ],
+ "conf": "L",
+ "forgc": [
+  1,
+  2,
+  1
+ ],
+ "shop": "https://amiri.com/search?q=",
+ "onething": {
+  "p": "MX1 jean",
+  "u": "https://www.amiri.com/search?q=MX1%20jean",
+  "n": "verified ✓"
+ },
+ "prices": [
+  [
+   330,
+   990
   ],
-  "shoelink": {
-    "t": "shoes",
-    "u": "https://www.amiri.com/search?q=shoes"
+  [
+   490,
+   1190
+  ],
+  [
+   750,
+   1050
+  ],
+  [
+   690,
+   4490
+  ],
+  [
+   950,
+   1490
+  ],
+  [
+   950,
+   4590
+  ],
+  [
+   1090,
+   2490
+  ],
+  [
+   750,
+   890
+  ]
+ ],
+ "shoelink": {
+  "t": "shoes",
+  "u": "https://www.amiri.com/search?q=shoes"
+ },
+ "notes": {
+  "denim": "LA rockstar denim, made in Italy",
+  "status": "rockstar legibility — the bones read across any room",
+  "street": "Sunset Strip rock run through a streetwear engine",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 3; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "Began dressing Los Angeles musicians in distressed denim and leather; the stage look is the house.",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "style": "Distressed denim and leather in a rock silhouette; a look first.",
+  "craft": "Amiri states a country of make on every product checked (USA jeans, Tunisia knitwear, Italy shirts, Vietnam sneakers, China bags) but names no maker or mill. The about page gestures at 'in-house' denim finishing and 'Italian ateliers' without naming any place or claiming ownership. Country-of-make only = 2."
+ },
+ "doors": {
+  "c": "full",
+  "n": 19,
+  "cities": [
+   [
+    "Atlanta",
+    "GA",
+    1
+   ],
+   [
+    "Aventura",
+    "FL",
+    1
+   ],
+   [
+    "Beverly Hills",
+    "CA",
+    1
+   ],
+   [
+    "Chicago",
+    "IL",
+    1
+   ],
+   [
+    "Costa Mesa",
+    "CA",
+    1
+   ],
+   [
+    "Dallas",
+    "TX",
+    1
+   ],
+   [
+    "Houston",
+    "TX",
+    1
+   ],
+   [
+    "King of Prussia",
+    "PA",
+    1
+   ],
+   [
+    "Las Vegas",
+    "NV",
+    2
+   ],
+   [
+    "Los Angeles",
+    "CA",
+    1
+   ],
+   [
+    "Miami",
+    "FL",
+    1
+   ],
+   [
+    "Nashville",
+    "TN",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    1
+   ],
+   [
+    "SCOTTSDALE",
+    "AZ",
+    1
+   ],
+   [
+    "San Antonio",
+    "TX",
+    1
+   ],
+   [
+    "San Diego",
+    "CA",
+    1
+   ],
+   [
+    "Santa Clara",
+    "CA",
+    1
+   ],
+   [
+    "Short Hills",
+    "NJ",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 0,
+  "con": 0
+ },
+ "cities": "19 stores, including Las Vegas, Atlanta, Aventura · department stores, and its own site",
+ "region": {
+  "o": [
+   372,
+   380,
+   381
+  ],
+  "s": []
+ },
+ "addmen": true,
+ "site": {
+  "domain": "amiri.com",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 945,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "no",
+  "origin": "none",
+  "marks": [
+   "none"
+  ],
+  "source": "flag_sample",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 275,
+  "w": 273,
+  "n": 74,
+  "s": 16,
+  "c": 9,
+  "x": 14,
+  "xh": 3,
+  "sp": "one",
+  "sc": [
+   "Swimwear",
+   "Suits"
+  ],
+  "nc": [
+   "Tops",
+   "Bottoms",
+   "Outerwear"
+  ],
+  "st": "complete"
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants",
+  "Sweater"
+ ],
+ "garment_links": {
+  "T-shirt": "https://amiri.com/collections/mens-tees",
+  "Polo": "https://amiri.com/collections/mens-jersey",
+  "Dress shirt": "https://amiri.com/collections/mens-shirts",
+  "Jeans": "https://amiri.com/collections/mens-denim",
+  "Dress pants": "https://amiri.com/collections/mens-pants",
+  "Sweater": "https://amiri.com/collections/mens-knitwear",
+  "Outerwear": "https://amiri.com/collections/mens-outerwear",
+  "Shoes": "https://amiri.com/collections/mens-footwear"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "AMIRI Script Tee - Skyline Blue",
+   "lu": "https://amiri.com/products/amiri-script-tee-skyline-blue",
+   "hp": "Laurel Canyon Skater Tee - Black",
+   "hu": "https://amiri.com/products/laurel-canyon-skater-tee-black",
+   "b": "range"
   },
-  "notes": {
-    "denim": "LA rockstar denim, made in Italy",
-    "status": "rockstar legibility — the bones read across any room",
-    "street": "Sunset Strip rock run through a streetwear engine",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 3; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "Began dressing Los Angeles musicians in distressed denim and leather; the stage look is the house.",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "style": "Distressed denim and leather in a rock silhouette; a look first.",
-    "craft": "Amiri states a country of make on every product checked (USA jeans, Tunisia knitwear, Italy shirts, Vietnam sneakers, China bags) but names no maker or mill. The about page gestures at 'in-house' denim finishing and 'Italian ateliers' without naming any place or claiming ownership. Country-of-make only = 2."
+  "Polo": {
+   "lp": "MA Striped Oversized Polo - Tobacco",
+   "lu": "https://amiri.com/products/ma-striped-os-polo-tobacco",
+   "hp": "Leather Trim Knit Zipped Polo - Black",
+   "hu": "https://amiri.com/products/leather-trim-knit-zipped-polo-black",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 18,
-    "cities": [
-      ["Atlanta", "GA", 1],
-      ["Aventura", "FL", 1],
-      ["Beverly Hills", "CA", 1],
-      ["Chicago", "IL", 1],
-      ["Costa Mesa", "CA", 1],
-      ["Houston", "TX", 1],
-      ["King of Prussia", "PA", 1],
-      ["Las Vegas", "NV", 2],
-      ["Los Angeles", "CA", 1],
-      ["Miami", "FL", 1],
-      ["Nashville", "TN", 1],
-      ["New York", "NY", 1],
-      ["San Antonio", "TX", 1],
-      ["San Diego", "CA", 1],
-      ["Santa Clara", "CA", 1],
-      ["Scottsdale", "AZ", 1],
-      ["Short Hills", "NJ", 1]
-    ],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Dress shirt": {
+   "lp": "Poplin Dress Shirt - White",
+   "lu": "https://amiri.com/products/poplin-dress-shirt-white",
+   "hp": "Round Pocket Dress Shirt - Black",
+   "hu": "https://amiri.com/products/round-pocket-dress-shirt-black",
+   "b": "range"
   },
-  "cities": "18 stores, including Las Vegas, Atlanta, Aventura · department stores, and its own site",
-  "region": {
-    "o": [205, 208, 209],
-    "s": []
+  "Jeans": {
+   "lp": "MA Fit Black Denim - Black",
+   "lu": "https://amiri.com/products/ma-fit-black-denim-black",
+   "hp": "All Over Crystal MX1 Jean - Midnight Indigo",
+   "hu": "https://amiri.com/products/all-over-crystal-mx1-jean-midnight-indigo",
+   "b": "range"
   },
-  "addmen": true,
-  "site": {
-    "domain": "amiri.com",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 945,
-    "status": "live_store",
-    "checked": "2026-09-13"
+  "Dress pants": {
+   "lp": "MA Flare - Black",
+   "lu": "https://amiri.com/products/ma-flare-black",
+   "hp": "MA Fit Sequins Trouser - Black",
+   "hu": "https://amiri.com/products/ma-fit-sequins-trouser-black",
+   "b": "range"
   },
-  "tech_evidence": {
-    "names": "no",
-    "origin": "none",
-    "marks": ["none"],
-    "source": "flag_sample",
-    "checked": "2026-09-12"
+  "Sweater": {
+   "lp": "MA Sweater - Black",
+   "lu": "https://amiri.com/products/ma-sweater-black",
+   "hp": "Beaded Paisley Knit Cardigan - Husk",
+   "hu": "https://amiri.com/products/beaded-paisley-knit-cardigan-husk",
+   "b": "range"
   },
-  "fibre": {
-    "t": 275,
-    "w": 273,
-    "n": 74,
-    "s": 16,
-    "c": 9,
-    "x": 14,
-    "xh": 3,
-    "sp": "one",
-    "sc": ["Swimwear", "Suits"],
-    "nc": ["Tops", "Bottoms", "Outerwear"],
-    "st": "complete"
+  "Outerwear": {
+   "lp": "AMIRI Sport Windbreaker - Black",
+   "lu": "https://amiri.com/products/amiri-sport-windbreaker-black",
+   "hp": "AMIRI Sport Leather Jacket - Black",
+   "hu": "https://amiri.com/products/amiri-sport-leather-jacket-black",
+   "b": "pair"
   },
-  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants", "Sweater"],
-  "garment_links": {
-    "T-shirt": "https://amiri.com/collections/mens-tees",
-    "Polo": "https://amiri.com/collections/mens-jersey",
-    "Dress shirt": "https://amiri.com/collections/mens-shirts",
-    "Jeans": "https://amiri.com/collections/mens-denim",
-    "Dress pants": "https://amiri.com/collections/mens-pants",
-    "Sweater": "https://amiri.com/collections/mens-knitwear",
-    "Outerwear": "https://amiri.com/collections/mens-outerwear",
-    "Shoes": "https://amiri.com/collections/mens-footwear"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "AMIRI Script Tee - Skyline Blue",
-      "lu": "https://amiri.com/products/amiri-script-tee-skyline-blue",
-      "hp": "Laurel Canyon Skater Tee - Black",
-      "hu": "https://amiri.com/products/laurel-canyon-skater-tee-black",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "MA Striped Oversized Polo - Tobacco",
-      "lu": "https://amiri.com/products/ma-striped-os-polo-tobacco",
-      "hp": "Leather Trim Knit Zipped Polo - Black",
-      "hu": "https://amiri.com/products/leather-trim-knit-zipped-polo-black",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Poplin Dress Shirt - White",
-      "lu": "https://amiri.com/products/poplin-dress-shirt-white",
-      "hp": "Round Pocket Dress Shirt - Black",
-      "hu": "https://amiri.com/products/round-pocket-dress-shirt-black",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "MA Fit Black Denim - Black",
-      "lu": "https://amiri.com/products/ma-fit-black-denim-black",
-      "hp": "All Over Crystal MX1 Jean - Midnight Indigo",
-      "hu": "https://amiri.com/products/all-over-crystal-mx1-jean-midnight-indigo",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "MA Flare - Black",
-      "lu": "https://amiri.com/products/ma-flare-black",
-      "hp": "MA Fit Sequins Trouser - Black",
-      "hu": "https://amiri.com/products/ma-fit-sequins-trouser-black",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "MA Sweater - Black",
-      "lu": "https://amiri.com/products/ma-sweater-black",
-      "hp": "Beaded Paisley Knit Cardigan - Husk",
-      "hu": "https://amiri.com/products/beaded-paisley-knit-cardigan-husk",
-      "b": "range"
-    },
-    "Outerwear": {
-      "lp": "AMIRI Sport Windbreaker - Black",
-      "lu": "https://amiri.com/products/amiri-sport-windbreaker-black",
-      "hp": "AMIRI Sport Leather Jacket - Black",
-      "hu": "https://amiri.com/products/amiri-sport-leather-jacket-black",
-      "b": "pair"
-    },
-    "Shoes": {
-      "lp": "Slip On Loafer - Black",
-      "lu": "https://amiri.com/products/slip-on-loafer-black",
-      "hp": "MA Slip On Loafer - Black",
-      "hu": "https://amiri.com/products/ma-slip-on-loafer-black-1",
-      "b": "pair"
-    }
-  },
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://amiri.com/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=407726",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "season": {
-    "l": "Autumn-Winter 2026",
-    "t": "runway",
-    "u": "https://amiri.com/pages/autumn-winter-2026-runway",
-    "m": "yes"
-  },
-  "craft_evidence": {
-    "owned": "unclear",
-    "owned_d": "About page claims denim gets 'bespoke, in-house fabrication processes such as tonal gradients... and patchworking and repairing' but names no place and does not say a facility is owned. Tailoring is by 'Italian artisans' and leather in 'Italian ateliers' (third parties, unnamed). No Los Angeles factory is named on the about page or FAQ (FAQ: 'ALL ORDERS SHIP FROM GEORGIA, UNITED STATES').",
-    "makers": "no",
-    "mills": "no",
-    "madein": "every product",
-    "countries": "Every product checked states origin. Sample ≈30 (products.json p1 12 men's, p2 3, knitwear collection 13, + 2 rendered PDPs): USA (MX1 jeans x3, sweatpant, hoodie, hat), Italy (camp shirt, quad pant, 2 crochet knits), Tunisia (11/13 knitwear incl. tees/polos/mesh knits), Turkey (Lasso camp shirt), Vietnam (MA Court Hi, Newport sneakers x2), China (2 camera-case bags), Japan (wire accessory). Leather collection returned no products.",
-    "heritage": "dated and placed",
-    "repair": "yes",
-    "process": "some",
-    "urls": ["https://amiri.com/pages/about", "https://amiri.com/products/mx1-od-black"],
-    "conf": "high",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Slip On Loafer - Black",
+   "lu": "https://amiri.com/products/slip-on-loafer-black",
+   "hp": "MA Slip On Loafer - Black",
+   "hu": "https://amiri.com/products/ma-slip-on-loafer-black-1",
+   "b": "pair"
   }
+ },
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://amiri.com/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=407726",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "season": {
+  "l": "Autumn-Winter 2026",
+  "t": "runway",
+  "u": "https://amiri.com/pages/autumn-winter-2026-runway",
+  "m": "yes"
+ },
+ "craft_evidence": {
+  "owned": "unclear",
+  "owned_d": "About page claims denim gets 'bespoke, in-house fabrication processes such as tonal gradients... and patchworking and repairing' but names no place and does not say a facility is owned. Tailoring is by 'Italian artisans' and leather in 'Italian ateliers' (third parties, unnamed). No Los Angeles factory is named on the about page or FAQ (FAQ: 'ALL ORDERS SHIP FROM GEORGIA, UNITED STATES').",
+  "makers": "no",
+  "mills": "no",
+  "madein": "every product",
+  "countries": "Every product checked states origin. Sample ≈30 (products.json p1 12 men's, p2 3, knitwear collection 13, + 2 rendered PDPs): USA (MX1 jeans x3, sweatpant, hoodie, hat), Italy (camp shirt, quad pant, 2 crochet knits), Tunisia (11/13 knitwear incl. tees/polos/mesh knits), Turkey (Lasso camp shirt), Vietnam (MA Court Hi, Newport sneakers x2), China (2 camera-case bags), Japan (wire accessory). Leather collection returned no products.",
+  "heritage": "dated and placed",
+  "repair": "yes",
+  "process": "some",
+  "urls": [
+   "https://amiri.com/pages/about",
+   "https://amiri.com/products/mx1-od-black"
+  ],
+  "conf": "high",
+  "read": "2026-10-03"
+ }
 }

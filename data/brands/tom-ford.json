@@ -111,7 +111,7 @@
  },
  "doors": {
   "c": "full",
-  "n": 9,
+  "n": 10,
   "cities": [
    [
     "Atlanta",
@@ -126,6 +126,11 @@
    [
     "Chicago",
     "IL",
+    1
+   ],
+   [
+    "Costa Mesa",
+    "CA",
     1
    ],
    [
@@ -154,17 +159,19 @@
     1
    ]
   ],
-  "basis": "master 2026-08-29, pre-recapture"
+  "basis": "recapture 2026-10-10",
+  "out": 2,
+  "con": 1
  },
- "cities": "9 stores, including Las Vegas, Atlanta, Beverly Hills · department stores and independent menswear shops, and its own site",
+ "cities": "10 stores, including Las Vegas, Atlanta, Beverly Hills · department stores and independent menswear shops, and its own site",
  "region": {
   "o": [
-   2755
+   3386
   ],
   "s": [
    44,
    60,
-   3208
+   160
   ]
  },
  "addmen": true,

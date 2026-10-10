@@ -1,212 +1,268 @@
 {
-  "name": "Berluti",
-  "band": "trueLux",
-  "seat": 182,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 2,
-    "craft": 4,
-    "style": 4
-  },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 3,
-    "linen": 1,
-    "cotton": 2,
-    "wool": 3,
-    "synth": 1
-  },
-  "dials": {
-    "dur": 2,
-    "forg": 2,
-    "fuss": 2,
-    "shoes": 4,
-    "status": 3,
-    "finbro": 3,
-    "ital": 3,
-    "fren": 4,
-    "whitet": 2,
-    "logo": 1,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
-  },
-  "why": "Shoes in patinated leather, from a Paris bootmaker, with a clothing line added.",
-  "origin": "Founded in Paris in 1895 by Alessandro Berluti.",
-  "say": "bur-LOO-tee",
-  "chan": ["O"],
-  "conf": "L",
-  "forgc": [2, 2, 2],
-  "shop": "https://www.berluti.com/en-us/search?q=",
-  "onething": {
-    "p": "Alessandro oxford",
-    "u": "https://www.berluti.com/en-us/search?q=Alessandro%20oxford",
-    "n": "verified ✓"
-  },
-  "prices": [
-    [660, 1050],
-    [700, 1610],
-    [850, 1180],
-    null,
-    [1120, 1740],
-    [1360, 2110],
-    [2900, 10600],
-    [1040, 2880]
+ "name": "Berluti",
+ "band": "trueLux",
+ "seat": 182,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 2,
+  "craft": 4,
+  "style": 4
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 3,
+  "linen": 1,
+  "cotton": 2,
+  "wool": 3,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 2,
+  "forg": 2,
+  "fuss": 2,
+  "shoes": 4,
+  "status": 3,
+  "finbro": 3,
+  "ital": 3,
+  "fren": 4,
+  "whitet": 2,
+  "logo": 1,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Shoes in patinated leather, from a Paris bootmaker, with a clothing line added.",
+ "origin": "Founded in Paris in 1895 by Alessandro Berluti.",
+ "say": "bur-LOO-tee",
+ "chan": [
+  "O"
+ ],
+ "conf": "L",
+ "forgc": [
+  2,
+  2,
+  2
+ ],
+ "shop": "https://www.berluti.com/en-us/search?q=",
+ "onething": {
+  "p": "Alessandro oxford",
+  "u": "https://www.berluti.com/en-us/search?q=Alessandro%20oxford",
+  "n": "verified ✓"
+ },
+ "prices": [
+  [
+   660,
+   1050
   ],
-  "price_checked": true,
-  "shoelink": {
-    "t": "Alessandro oxford",
-    "u": "https://www.berluti.com/en-us/search?q=Alessandro%20oxford"
+  [
+   700,
+   1610
+  ],
+  [
+   850,
+   1180
+  ],
+  null,
+  [
+   1120,
+   1740
+  ],
+  [
+   1360,
+   2110
+  ],
+  [
+   2900,
+   10600
+  ],
+  [
+   1040,
+   2880
+  ]
+ ],
+ "price_checked": true,
+ "shoelink": {
+  "t": "Alessandro oxford",
+  "u": "https://www.berluti.com/en-us/search?q=Alessandro%20oxford"
+ },
+ "notes": {
+  "fren": "Paris shoemaking, and patina is a specifically French argument about craft — the finish is applied by hand and meant to be maintained, not bought finished.",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 2; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "Berluti PDPs state Made in Italy for shoes and clothing alike but name no maker. A Ferrara (Gaibanella) site makes the footwear and leather goods per press cited on Wikipedia, while nothing shows owned making for ready-to-wear. Patina and repair are services, not making."
+ },
+ "doors": {
+  "c": "full",
+  "n": 4,
+  "cities": [
+   [
+    "Beverly Hills",
+    "CA",
+    1
+   ],
+   [
+    "Costa Mesa",
+    "CA",
+    1
+   ],
+   [
+    "Miami",
+    "FL",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 0,
+  "con": 1
+ },
+ "cities": "4 stores — Beverly Hills, Costa Mesa, Miami, New York, and its own site",
+ "region": {
+  "o": [
+   643
+  ],
+  "s": []
+ },
+ "addcloth": true,
+ "site": {
+  "domain": "www.berluti.com",
+  "platform": "salesforce_commerce",
+  "feed": "sitemap_products",
+  "feed_count": 686,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "house",
+  "marks": [
+   "Venezia Calf Leather (house, proprietary leather with its own materials page)",
+   "generic descriptors only otherwise: waterproof, membrane, water-repellent",
+   "NO licensed third-party marks",
+   "NO trademark symbols anywhere"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 124,
+  "w": 121,
+  "n": 94,
+  "s": 4,
+  "c": 0,
+  "x": 6,
+  "xh": 0,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "Trousers & Bermudas",
+   "Polos & Tshirts",
+   "Leatherwear"
+  ],
+  "st": "complete"
+ },
+ "garment_links": {
+  "T-shirt": "https://www.berluti.com/en-us/ready-to-wear/polos-tshirts/",
+  "Polo": "https://www.berluti.com/en-us/ready-to-wear/polos-tshirts/",
+  "Dress shirt": "https://www.berluti.com/en-us/ready-to-wear/shirts/",
+  "Dress pants": "https://www.berluti.com/en-us/ready-to-wear/trousers-bermudas/",
+  "Sweater": "https://www.berluti.com/en-us/ready-to-wear/knitwear-sweatshirts/",
+  "Outerwear": "https://www.berluti.com/en-us/ready-to-wear/coats-blousons/",
+  "Shoes": "https://www.berluti.com/en-us/shoes/"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Leather Tab Pocket T-shirt",
+   "lu": "https://www.berluti.com/en-us/leather-tab-pocket-t-shirt/R28JRS155-003.html",
+   "hp": "Bicolor Reversible T-Shirt (62% mulberry silk)",
+   "hu": "https://www.berluti.com/en-us/bicolor-reversible-t-shirt/R30JRS165-002.html",
+   "b": "pair"
   },
-  "notes": {
-    "fren": "Paris shoemaking, and patina is a specifically French argument about craft — the finish is applied by hand and meant to be maintained, not bought finished.",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 2; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Berluti PDPs state Made in Italy for shoes and clothing alike but name no maker. A Ferrara (Gaibanella) site makes the footwear and leather goods per press cited on Wikipedia, while nothing shows owned making for ready-to-wear. Patina and repair are services, not making."
+  "Polo": {
+   "lp": "Pocket Polo with Leather Detail",
+   "lu": "https://www.berluti.com/en-us/pocket-polo-with-leather-detail/R28JPS85-002.html",
+   "hp": "Polo with Leather Zip-puller (62% mulberry silk)",
+   "hu": "https://www.berluti.com/en-us/polo-with-leather-zip-puller/R31KPS64-001.html",
+   "b": "pair"
   },
-  "doors": {
-    "c": "full",
-    "n": 4,
-    "cities": [["Beverly Hills", "CA", 1], ["Costa Mesa", "CA", 1], ["Miami", "FL", 1], ["New York", "NY", 1]],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Dress shirt": {
+   "lp": "Alessandro Scritto Pattern Shirt",
+   "lu": "https://www.berluti.com/en-us/alessandro-scritto-pattern-shirt/R28HTL86-001.html",
+   "hp": "Andy Scritto Pattern Shirt (53% mulberry silk)",
+   "hu": "https://www.berluti.com/en-us/andy-scritto-pattern-shirt/R29HTL85-004.html",
+   "b": "pair"
   },
-  "cities": "4 stores — Beverly Hills, Costa Mesa, Miami, New York, and its own site",
-  "region": {
-    "o": [418],
-    "s": []
+  "Dress pants": {
+   "lp": "Alessio Trousers with Leather Zip-puller (99% wool)",
+   "lu": "https://www.berluti.com/en-us/alessio-trousers-with-leather-zip-puller/R29TCU107-001.html",
+   "hp": "Alessio Trousers with Leather Zip-puller (97% cashmere)",
+   "hu": "https://www.berluti.com/en-us/alessio-trousers-with-leather-zip-puller/R31TCU107-001.html",
+   "b": "pair"
   },
-  "addcloth": true,
-  "site": {
-    "domain": "www.berluti.com",
-    "platform": "salesforce_commerce",
-    "feed": "sitemap_products",
-    "feed_count": 686,
-    "status": "live_store",
-    "checked": "2026-09-13"
+  "Sweater": {
+   "lp": "Classic Scritto Crewneck",
+   "lu": "https://www.berluti.com/en-us/classic-scritto-crewneck/R28KRL198-001.html",
+   "hp": "Crest Crewneck with Braided Leather Detail (100% cashmere)",
+   "hu": "https://www.berluti.com/en-us/crest-crewneck-with-braided-leather-detail/R31KRL263-001.html",
+   "b": "pair"
   },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "house",
-    "marks": [
-      "Venezia Calf Leather (house, proprietary leather with its own materials page)",
-      "generic descriptors only otherwise: waterproof, membrane, water-repellent",
-      "NO licensed third-party marks",
-      "NO trademark symbols anywhere"
-    ],
-    "source": "census",
-    "checked": "2026-09-12"
+  "Outerwear": {
+   "lp": "Ultra Leggera Forestière Jacket",
+   "lu": "https://www.berluti.com/en-us/ultra-leggera-forestiere-jacket/R30OFU50-007.html",
+   "hp": "Corduroy Leather Forestière Jacket (suede lamb leather)",
+   "hu": "https://www.berluti.com/en-us/corduroy-leather-forestiere-jacket/R31LFL32-001.html",
+   "b": "pair"
   },
-  "fibre": {
-    "t": 124,
-    "w": 121,
-    "n": 94,
-    "s": 4,
-    "c": 0,
-    "x": 6,
-    "xh": 0,
-    "sp": "one",
-    "sc": [],
-    "nc": ["Trousers & Bermudas", "Polos & Tshirts", "Leatherwear"],
-    "st": "complete"
-  },
-  "garment_links": {
-    "T-shirt": "https://www.berluti.com/en-us/ready-to-wear/polos-tshirts/",
-    "Polo": "https://www.berluti.com/en-us/ready-to-wear/polos-tshirts/",
-    "Dress shirt": "https://www.berluti.com/en-us/ready-to-wear/shirts/",
-    "Dress pants": "https://www.berluti.com/en-us/ready-to-wear/trousers-bermudas/",
-    "Sweater": "https://www.berluti.com/en-us/ready-to-wear/knitwear-sweatshirts/",
-    "Outerwear": "https://www.berluti.com/en-us/ready-to-wear/coats-blousons/",
-    "Shoes": "https://www.berluti.com/en-us/shoes/"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Leather Tab Pocket T-shirt",
-      "lu": "https://www.berluti.com/en-us/leather-tab-pocket-t-shirt/R28JRS155-003.html",
-      "hp": "Bicolor Reversible T-Shirt (62% mulberry silk)",
-      "hu": "https://www.berluti.com/en-us/bicolor-reversible-t-shirt/R30JRS165-002.html",
-      "b": "pair"
-    },
-    "Polo": {
-      "lp": "Pocket Polo with Leather Detail",
-      "lu": "https://www.berluti.com/en-us/pocket-polo-with-leather-detail/R28JPS85-002.html",
-      "hp": "Polo with Leather Zip-puller (62% mulberry silk)",
-      "hu": "https://www.berluti.com/en-us/polo-with-leather-zip-puller/R31KPS64-001.html",
-      "b": "pair"
-    },
-    "Dress shirt": {
-      "lp": "Alessandro Scritto Pattern Shirt",
-      "lu": "https://www.berluti.com/en-us/alessandro-scritto-pattern-shirt/R28HTL86-001.html",
-      "hp": "Andy Scritto Pattern Shirt (53% mulberry silk)",
-      "hu": "https://www.berluti.com/en-us/andy-scritto-pattern-shirt/R29HTL85-004.html",
-      "b": "pair"
-    },
-    "Dress pants": {
-      "lp": "Alessio Trousers with Leather Zip-puller (99% wool)",
-      "lu": "https://www.berluti.com/en-us/alessio-trousers-with-leather-zip-puller/R29TCU107-001.html",
-      "hp": "Alessio Trousers with Leather Zip-puller (97% cashmere)",
-      "hu": "https://www.berluti.com/en-us/alessio-trousers-with-leather-zip-puller/R31TCU107-001.html",
-      "b": "pair"
-    },
-    "Sweater": {
-      "lp": "Classic Scritto Crewneck",
-      "lu": "https://www.berluti.com/en-us/classic-scritto-crewneck/R28KRL198-001.html",
-      "hp": "Crest Crewneck with Braided Leather Detail (100% cashmere)",
-      "hu": "https://www.berluti.com/en-us/crest-crewneck-with-braided-leather-detail/R31KRL263-001.html",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "Ultra Leggera Forestière Jacket",
-      "lu": "https://www.berluti.com/en-us/ultra-leggera-forestiere-jacket/R30OFU50-007.html",
-      "hp": "Corduroy Leather Forestière Jacket (suede lamb leather)",
-      "hu": "https://www.berluti.com/en-us/corduroy-leather-forestiere-jacket/R31LFL32-001.html",
-      "b": "pair"
-    },
-    "Shoes": {
-      "lp": "Far Niente Loafer",
-      "lu": "https://www.berluti.com/en-us/far-niente-loafer/S6605-004.html",
-      "hp": "Andy Infini Alto Loafer",
-      "hu": "https://www.berluti.com/en-us/andy-infini-alto-loafer/S6368-001.html",
-      "b": "pair"
-    }
-  },
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.berluti.com/en-us/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=280779",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "craft_evidence": {
-    "owned": "yes",
-    "owned_d": "Footwear and leather goods only: Wikipedia states 'All the footwear manufacturing and leather goods are produced in the town of Gaibanella in the municipality of Ferrara', citing FashionNetwork ('Berluti picks up speed with a large production site in Italy'); article not fetched directly. Berluti's own savoir-faire pages mention 'ateliers' but name no place. No owned clothing factory found. Berluti is an LVMH house.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "every product",
-    "countries": "Italy 4/4 (sample of 4 PDPs: Alessio oxford, Alessandro Infini Alto oxford, Andy Scritto shirt, Un Jour overshirt)",
-    "heritage": "dated and placed",
-    "repair": "yes",
-    "process": "some",
-    "urls": [
-      "https://www.berluti.com/en-us/alessio-oxford/S6382-102.html",
-      "https://www.berluti.com/en-us/entretienetreparation.html"
-    ],
-    "conf": "medium",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Far Niente Loafer",
+   "lu": "https://www.berluti.com/en-us/far-niente-loafer/S6605-004.html",
+   "hp": "Andy Infini Alto Loafer",
+   "hu": "https://www.berluti.com/en-us/andy-infini-alto-loafer/S6368-001.html",
+   "b": "pair"
   }
+ },
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.berluti.com/en-us/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=280779",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "craft_evidence": {
+  "owned": "yes",
+  "owned_d": "Footwear and leather goods only: Wikipedia states 'All the footwear manufacturing and leather goods are produced in the town of Gaibanella in the municipality of Ferrara', citing FashionNetwork ('Berluti picks up speed with a large production site in Italy'); article not fetched directly. Berluti's own savoir-faire pages mention 'ateliers' but name no place. No owned clothing factory found. Berluti is an LVMH house.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "every product",
+  "countries": "Italy 4/4 (sample of 4 PDPs: Alessio oxford, Alessandro Infini Alto oxford, Andy Scritto shirt, Un Jour overshirt)",
+  "heritage": "dated and placed",
+  "repair": "yes",
+  "process": "some",
+  "urls": [
+   "https://www.berluti.com/en-us/alessio-oxford/S6382-102.html",
+   "https://www.berluti.com/en-us/entretienetreparation.html"
+  ],
+  "conf": "medium",
+  "read": "2026-10-03"
+ }
 }

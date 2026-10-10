@@ -86,7 +86,7 @@
  ],
  "doors": {
   "c": "full",
-  "n": 4,
+  "n": 3,
   "cities": [
    [
     "Los Angeles",
@@ -96,7 +96,7 @@
    [
     "New York",
     "NY",
-    2
+    1
    ],
    [
     "San Francisco",
@@ -104,13 +104,14 @@
     1
    ]
   ],
-  "basis": "master 2026-08-29, pre-recapture"
+  "basis": "recapture 2026-10-10",
+  "out": 2,
+  "con": 0
  },
- "cities": "4 stores — New York, Los Angeles, San Francisco · department stores and independent menswear shops, and its own site",
+ "cities": "3 stores — New York, Los Angeles, San Francisco · department stores and independent menswear shops, and its own site",
  "region": {
   "o": [
-   2179,
-   2180
+   2736
   ],
   "s": [
    44,

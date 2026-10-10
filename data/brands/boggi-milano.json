@@ -1,222 +1,293 @@
 {
-  "name": "Boggi Milano",
-  "band": "accessible",
-  "seat": 91,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 3,
-    "craft": 2,
-    "style": 3
+ "name": "Boggi Milano",
+ "band": "accessible",
+ "seat": 91,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 3,
+  "craft": 2,
+  "style": 3
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 3,
+  "wool": 3,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 2,
+  "fuss": 0,
+  "golffice": -2,
+  "finbro": 3,
+  "ital": 3,
+  "boat": 3,
+  "racquet": 3,
+  "whitet": 2,
+  "logo": 1,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Italian tailoring and casual clothing — knit blazers, travel suits — sold through a chain of more than 200 stores.",
+ "origin": "Founded in Milan in 1939.",
+ "say": "BOH-jee mi-LAH-no",
+ "chan": [
+  "O",
+  "D"
+ ],
+ "conf": "M",
+ "forgc": [
+  2,
+  3,
+  3
+ ],
+ "shop": "https://www.boggi.com/en_US/search?q=",
+ "onething": {
+  "p": "Travel blazer",
+  "u": "https://www.boggi.com/en-us/search?q=travel+blazer",
+  "n": "best-guess link — verify; icon pick needs verdict"
+ },
+ "prices": [
+  [
+   88,
+   228
+  ],
+  [
+   108,
+   158
+  ],
+  [
+   128,
+   248
+  ],
+  [
+   198,
+   268
+  ],
+  [
+   179,
+   268
+  ],
+  [
+   198,
+   448
+  ],
+  [
+   298,
+   2998
+  ],
+  [
+   328,
+   448
+  ]
+ ],
+ "notes": {
+  "ital": "Milan as a franchise — the accessible tier of the tailoring capital",
+  "finbro": "the European banker's off-the-rack uniform",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 3; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "Boggi's site blocked fetching (403) for everything except a bare homepage with category names only. No brand statement on making could be read, so the current score is carried forward unverified. [audit proposed 2 at low confidence; held at 2 pending a second read]"
+ },
+ "doors": {
+  "c": "full",
+  "n": 4,
+  "cities": [
+   [
+    "Miami",
+    "FL",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    3
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 1,
+  "con": 8
+ },
+ "cities": "4 stores — New York, Miami · department stores, and its own site",
+ "region": {
+  "o": [
+   667,
+   668,
+   669
+  ],
+  "s": []
+ },
+ "site": {
+  "domain": "boggi.com",
+  "platform": "salesforce_commerce",
+  "feed": "sitemap_products",
+  "feed_count": 1250,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "both",
+  "marks": [
+   "LICENSED: PrimaLoft(R)",
+   "TENCEL(R) / LENZING(TM) ECOVERO(TM)",
+   "Cashwool(R) (Zegna Baruffa)",
+   "Thindown",
+   "Bemberg(R)",
+   "Alcantara",
+   "Vitale Barberis Canonico",
+   "Drago",
+   "Albini",
+   "Reda",
+   "Loro Piana (mill credit)",
+   "Lycra",
+   "Supima. HOUSE: WOOLTECH",
+   "B Tech line",
+   "B-Jersey",
+   "plus named treatments non-iron, easy care, wrinkl"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 598,
+  "w": 576,
+  "n": 77,
+  "s": 16,
+  "c": 3,
+  "x": 36,
+  "xh": 16,
+  "sp": "one",
+  "sc": [
+   "Coats & Outerwear",
+   "Swimwear"
+  ],
+  "nc": [
+   "Shirts",
+   "Trousers & Jeans",
+   "T-Shirts & Polos"
+  ],
+  "st": "complete"
+ },
+ "garment_links": {
+  "T-shirt": "https://www.boggi.com/en_US/clothing/t-shirts/",
+  "Polo": "https://www.boggi.com/en_US/clothing/polo/",
+  "Dress shirt": "https://www.boggi.com/en_US/clothing/dress-shirts/",
+  "Dress pants": "https://www.boggi.com/en_US/clothing/pants/",
+  "Sweater": "https://www.boggi.com/en_US/clothing/knitwear/",
+  "Outerwear": "https://www.boggi.com/en_US/clothing/outerwear/",
+  "Shoes": "https://www.boggi.com/en_US/shoes/"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Pima Cotton Jersey T-shirt",
+   "lu": "https://www.boggi.com/en_US/pima-cotton-jersey-t-shirt-BO24C0058.html",
+   "hp": "T-Shirt in Wool Jersey WOOLTECH (100% wool, 15 micron)",
+   "hu": "https://www.boggi.com/en_US/t-shirt-in-wool-jersey-wooltech-BO26A0612.html",
+   "b": "pair"
   },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 1,
-    "linen": 1,
-    "cotton": 3,
-    "wool": 3,
-    "synth": 1
+  "Polo": {
+   "lp": "Polo in Stretch Supima Cotton Jersey",
+   "lu": "https://www.boggi.com/en_US/polo-in-stretch-supima-cotton-jersey-BO26A0432.html",
+   "hp": "Polo in Piqué Cotton Blend B Tech",
+   "hu": "https://www.boggi.com/en_US/polo-in-piqu%C3%A9-cotton-blend-b-tech-BO26A0756.html",
+   "b": "range"
   },
-  "dials": {
-    "dur": 3,
-    "forg": 2,
-    "fuss": 0,
-    "golffice": -2,
-    "finbro": 3,
-    "ital": 3,
-    "boat": 3,
-    "racquet": 3,
-    "whitet": 2,
-    "logo": 1,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
+  "Dress shirt": {
+   "lp": "Regular Fit Pinpoint Cotton Shirt",
+   "lu": "https://www.boggi.com/en_US/regular-fit-pinpoint-cotton-shirt-windsor-collar-BO24C0042.html",
+   "hp": "Slim Fit Shirt in Cotton (tuxedo collar)",
+   "hu": "https://www.boggi.com/en_US/slim-fit-shirt-in-cotton-BO25C0072.html",
+   "b": "range"
   },
-  "why": "Italian tailoring and casual clothing — knit blazers, travel suits — sold through a chain of more than 200 stores.",
-  "origin": "Founded in Milan in 1939.",
-  "say": "BOH-jee mi-LAH-no",
-  "chan": ["O", "D"],
-  "conf": "M",
-  "forgc": [2, 3, 3],
-  "shop": "https://www.boggi.com/en_US/search?q=",
-  "onething": {
-    "p": "Travel blazer",
-    "u": "https://www.boggi.com/en-us/search?q=travel+blazer",
-    "n": "best-guess link — verify; icon pick needs verdict"
+  "Jeans": {
+   "lp": "Jeans in Stretch Blue Black Denim",
+   "lu": "https://www.boggi.com/en_US/jeans-in-stretch-blue-black-denim-BO26A0952.html",
+   "hp": "Jeans in Dark Blue Selvedge Cotton Denim",
+   "hu": "https://www.boggi.com/en_US/jeans-in-dark-blue-selvedge-cotton-denim-BO26A0962.html",
+   "b": "range"
   },
-  "prices": [[88, 228], [108, 158], [128, 248], [198, 268], [179, 268], [198, 448], [298, 2998], [328, 448]],
-  "notes": {
-    "ital": "Milan as a franchise — the accessible tier of the tailoring capital",
-    "finbro": "the European banker's off-the-rack uniform",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 3; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Boggi's site blocked fetching (403) for everything except a bare homepage with category names only. No brand statement on making could be read, so the current score is carried forward unverified. [audit proposed 2 at low confidence; held at 2 pending a second read]"
+  "Dress pants": {
+   "lp": "Micro patterned stretch wool pants",
+   "lu": "https://www.boggi.com/en_US/micro-patterned-stretch-wool-pants-BO23C0006.html",
+   "hp": "Pants in Pure Wool 130S",
+   "hu": "https://www.boggi.com/en_US/pants-in-pure-wool-130s-BO23C0017.html",
+   "b": "pair"
   },
-  "doors": {
-    "c": "full",
-    "n": 4,
-    "cities": [["Miami", "FL", 1], ["New York", "NY", 3]],
-    "basis": "recapture 2026-09"
+  "Sweater": {
+   "lp": "Crew Neck in Extrafine Merino Wool",
+   "lu": "https://www.boggi.com/en_US/crew-neck-in-extrafine-merino-wool-BO26A0186.html",
+   "hp": "Crew Neck Jumper in Cashmere Wool (70% ultrafine merino / 30% cashmere)",
+   "hu": "https://www.boggi.com/en_US/crew-neck-jumper-in-cashmere-wool-BO26A0658.html",
+   "b": "pair"
   },
-  "cities": "4 stores — New York, Miami · department stores, and its own site",
-  "region": {
-    "o": [437, 438, 439],
-    "s": []
+  "Outerwear": {
+   "lp": "Recycled goose feather fabric bomber",
+   "lu": "https://www.boggi.com/en_US/recycled-goose-feather-fabric-bomber-BO24C0038.html",
+   "hp": "Jacket Padded with Goose Down, Removable Genuine Leather Mélange Flannel Bib",
+   "hu": "https://www.boggi.com/en_US/jacket-padded-with-goose-down%2C-removable-genuine-leather-m%C3%A9lange-flannel-bib-BO26A0966.html",
+   "b": "range"
   },
-  "site": {
-    "domain": "boggi.com",
-    "platform": "salesforce_commerce",
-    "feed": "sitemap_products",
-    "feed_count": 1250,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "both",
-    "marks": [
-      "LICENSED: PrimaLoft(R)",
-      "TENCEL(R) / LENZING(TM) ECOVERO(TM)",
-      "Cashwool(R) (Zegna Baruffa)",
-      "Thindown",
-      "Bemberg(R)",
-      "Alcantara",
-      "Vitale Barberis Canonico",
-      "Drago",
-      "Albini",
-      "Reda",
-      "Loro Piana (mill credit)",
-      "Lycra",
-      "Supima. HOUSE: WOOLTECH",
-      "B Tech line",
-      "B-Jersey",
-      "plus named treatments non-iron, easy care, wrinkl"
-    ],
-    "source": "census",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 598,
-    "w": 576,
-    "n": 77,
-    "s": 16,
-    "c": 3,
-    "x": 36,
-    "xh": 16,
-    "sp": "one",
-    "sc": ["Coats & Outerwear", "Swimwear"],
-    "nc": ["Shirts", "Trousers & Jeans", "T-Shirts & Polos"],
-    "st": "complete"
-  },
-  "garment_links": {
-    "T-shirt": "https://www.boggi.com/en_US/clothing/t-shirts/",
-    "Polo": "https://www.boggi.com/en_US/clothing/polo/",
-    "Dress shirt": "https://www.boggi.com/en_US/clothing/dress-shirts/",
-    "Dress pants": "https://www.boggi.com/en_US/clothing/pants/",
-    "Sweater": "https://www.boggi.com/en_US/clothing/knitwear/",
-    "Outerwear": "https://www.boggi.com/en_US/clothing/outerwear/",
-    "Shoes": "https://www.boggi.com/en_US/shoes/"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Pima Cotton Jersey T-shirt",
-      "lu": "https://www.boggi.com/en_US/pima-cotton-jersey-t-shirt-BO24C0058.html",
-      "hp": "T-Shirt in Wool Jersey WOOLTECH (100% wool, 15 micron)",
-      "hu": "https://www.boggi.com/en_US/t-shirt-in-wool-jersey-wooltech-BO26A0612.html",
-      "b": "pair"
-    },
-    "Polo": {
-      "lp": "Polo in Stretch Supima Cotton Jersey",
-      "lu": "https://www.boggi.com/en_US/polo-in-stretch-supima-cotton-jersey-BO26A0432.html",
-      "hp": "Polo in Piqué Cotton Blend B Tech",
-      "hu": "https://www.boggi.com/en_US/polo-in-piqu%C3%A9-cotton-blend-b-tech-BO26A0756.html",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Regular Fit Pinpoint Cotton Shirt",
-      "lu": "https://www.boggi.com/en_US/regular-fit-pinpoint-cotton-shirt-windsor-collar-BO24C0042.html",
-      "hp": "Slim Fit Shirt in Cotton (tuxedo collar)",
-      "hu": "https://www.boggi.com/en_US/slim-fit-shirt-in-cotton-BO25C0072.html",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Jeans in Stretch Blue Black Denim",
-      "lu": "https://www.boggi.com/en_US/jeans-in-stretch-blue-black-denim-BO26A0952.html",
-      "hp": "Jeans in Dark Blue Selvedge Cotton Denim",
-      "hu": "https://www.boggi.com/en_US/jeans-in-dark-blue-selvedge-cotton-denim-BO26A0962.html",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Micro patterned stretch wool pants",
-      "lu": "https://www.boggi.com/en_US/micro-patterned-stretch-wool-pants-BO23C0006.html",
-      "hp": "Pants in Pure Wool 130S",
-      "hu": "https://www.boggi.com/en_US/pants-in-pure-wool-130s-BO23C0017.html",
-      "b": "pair"
-    },
-    "Sweater": {
-      "lp": "Crew Neck in Extrafine Merino Wool",
-      "lu": "https://www.boggi.com/en_US/crew-neck-in-extrafine-merino-wool-BO26A0186.html",
-      "hp": "Crew Neck Jumper in Cashmere Wool (70% ultrafine merino / 30% cashmere)",
-      "hu": "https://www.boggi.com/en_US/crew-neck-jumper-in-cashmere-wool-BO26A0658.html",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "Recycled goose feather fabric bomber",
-      "lu": "https://www.boggi.com/en_US/recycled-goose-feather-fabric-bomber-BO24C0038.html",
-      "hp": "Jacket Padded with Goose Down, Removable Genuine Leather Mélange Flannel Bib",
-      "hu": "https://www.boggi.com/en_US/jacket-padded-with-goose-down%2C-removable-genuine-leather-m%C3%A9lange-flannel-bib-BO26A0966.html",
-      "b": "range"
-    },
-    "Shoes": {
-      "lp": "STRATUS Loafers in Suede Leather",
-      "lu": "https://www.boggi.com/en_US/stratus-loafers-in-suede-leather-BO26A0399.html",
-      "hp": "Loafers in Suede Leather",
-      "hu": "https://www.boggi.com/en_US/loafers-in-suede-leather-BO26A0093.html",
-      "b": "pair"
-    }
-  },
-  "price_range_only": ["Polo", "Dress shirt", "Jeans", "Outerwear"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.boggi.com/en_US/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=365244",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "season": {
-    "l": "Fall 2026 / FW26 (catalog)",
-    "t": "lookbook",
-    "u": "https://www.boggi.com/en_US/digital-catalog-fall-1.html",
-    "m": "yes"
-  },
-  "craft_evidence": {
-    "owned": "NC",
-    "owned_d": "NC - boggi.com returned 403 for about-us, locale homepages and the sitemap.",
-    "makers": "NC",
-    "mills": "NC",
-    "madein": "NC",
-    "countries": "NC - PDPs blocked (403).",
-    "heritage": "NC",
-    "repair": "NC",
-    "process": "NC",
-    "urls": ["https://www.boggi.com/"],
-    "conf": "low",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "STRATUS Loafers in Suede Leather",
+   "lu": "https://www.boggi.com/en_US/stratus-loafers-in-suede-leather-BO26A0399.html",
+   "hp": "Loafers in Suede Leather",
+   "hu": "https://www.boggi.com/en_US/loafers-in-suede-leather-BO26A0093.html",
+   "b": "pair"
   }
+ },
+ "price_range_only": [
+  "Polo",
+  "Dress shirt",
+  "Jeans",
+  "Outerwear"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.boggi.com/en_US/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=365244",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "season": {
+  "l": "Fall 2026 / FW26 (catalog)",
+  "t": "lookbook",
+  "u": "https://www.boggi.com/en_US/digital-catalog-fall-1.html",
+  "m": "yes"
+ },
+ "craft_evidence": {
+  "owned": "NC",
+  "owned_d": "NC - boggi.com returned 403 for about-us, locale homepages and the sitemap.",
+  "makers": "NC",
+  "mills": "NC",
+  "madein": "NC",
+  "countries": "NC - PDPs blocked (403).",
+  "heritage": "NC",
+  "repair": "NC",
+  "process": "NC",
+  "urls": [
+   "https://www.boggi.com/"
+  ],
+  "conf": "low",
+  "read": "2026-10-03"
+ }
 }

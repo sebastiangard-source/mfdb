@@ -1,130 +1,185 @@
 {
-  "name": "Comme des Garçons",
-  "band": "trueLux",
-  "seat": 161,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 1,
-    "craft": 2,
-    "style": 5
-  },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 1,
-    "linen": 1,
-    "cotton": 2,
-    "wool": 3,
-    "synth": 2
-  },
-  "dials": {
-    "dur": 2,
-    "forg": 3,
-    "fuss": 1,
-    "shoes": 3,
-    "status": 3,
-    "street": 3,
-    "avant": 5,
-    "weird": 5,
-    "whitet": 2,
-    "logo": 1,
-    "western": 1,
-    "rock": 2,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
-  },
-  "why": "Experimental clothing that questions how garments are built and worn; sold through Dover Street Market and its own stores.",
-  "origin": "Founded in Tokyo in 1969 by Rei Kawakubo.",
-  "say": "kom day gar-SOHN",
-  "chan": ["O", "I"],
-  "conf": "L",
-  "forgc": [5, 2, 1],
-  "onething": {
-    "p": "Play tee",
-    "u": "https://www.neimanmarcus.com/p/comme-des-garcons-k-double-heart-prod290350262",
-    "n": "Play double-heart tee via Neiman Marcus; via Mr Porter — verify stock"
-  },
-  "prices": [[270, 440], [350, 600], [440, 920], [600, 900], [680, 1460], "?", "?", "?"],
-  "notes": {
-    "avant": "the definition — Kawakubo's fifty-year argument with what clothes are",
-    "weird": "lumps and bumps — the body redrawn for delight",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 2; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "style": "Clothing as an argument about clothing; design is the entire enterprise.",
-    "craft": "Comme des Garçons' own recruitment page describes a company that plans and manufactures clothing, with an in-house Tokyo production department of pattern makers, sample/production sewers and managers who run factory schedules, but it names no factory it owns and the brand site has no product pages. Product-level origin could not be read. Current 3 kept on thin evidence. [ruled by Sebastian 4 Oct 2026]"
-  },
-  "fibre": {
-    "t": 353,
-    "w": 349,
-    "n": 78,
-    "s": 21,
-    "c": 0,
-    "x": null,
-    "xh": null,
-    "sp": "split",
-    "sc": ["Jackets", "Shorts"],
-    "nc": ["Tees", "Knitwear", "Shirts"],
-    "st": "complete"
-  },
-  "doors": {
-    "c": "full",
-    "n": 1,
-    "cities": [["New York", "NY", 1]],
-    "basis": "master 2026-08-29, pre-recapture"
-  },
-  "cities": "Dover Street Market, New York and Los Angeles, and the Chelsea shop · a few independent shops",
-  "region": {
-    "o": [796],
-    "s": [3, 123, 125]
-  },
-  "site": {
-    "domain": "www.comme-des-garcons.com",
-    "platform": "custom",
-    "feed": "none_found",
-    "feed_count": 0,
-    "status": "brand_site_no_shop",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "unclear",
-    "origin": "unclear",
-    "marks": [
-      "Nothing on the brand's OWN domain, but the own-domain zero fails its controls (see searched) so it is not reportable as a zero. On the fallback channel - the Dover Street Market E-Shop, run by Comme des Garçons' own retail company - the CDG house men's assortment names exactly one: LICENSED CORDURA,"
-    ],
-    "source": "census",
-    "checked": "2026-09-12"
-  },
-  "price_read": {
-    "date": "2026-09-23",
-    "status": "no_store",
-    "note": "NC - no online store to read, per the brief (September pass finding). The store's absence was not re-verified in this pass. Map held current_prices [[270, 440], [350, 600], [440, 920], [600, 900], [68"
-  },
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=56974&brand_ids[]=5589958&brand_ids[]=2318552&brand_ids[]=929240",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "craft_evidence": {
-    "owned": "unclear",
-    "owned_d": "Brand's own recruitment page (comme-des-garcons.com/recruitment/2.html, Japanese) gives Comme des Garçons Co., Ltd. (株式会社コム・デ・ギャルソン), est. March 1973, HQ Minami-Aoyama, Tokyo, business '被服の企画製造販売' (planning, manufacture and sale of clothing). It hires, at HQ, pattern makers (CAD sample and grading patterns, toiles), sewing technicians ('サンプル、量産縫製・縫製指導' - sample and production sewing, sewing instruction) and production managers ('工場管理及び納期管理' - factory and delivery management). So there is an in-house pattern/sample/production department, but no owned factory is named and '工場管理' reads as managing outside factories. Scope of in-house making not established.",
-    "makers": "no",
-    "mills": "NC",
-    "madein": "NC",
-    "countries": "Not read: brand site has no product pages; DSM e-shop CDG product data not reached before rate limiting.",
-    "heritage": "dated and placed",
-    "repair": "no",
-    "process": "no",
-    "urls": ["https://www.comme-des-garcons.com/recruitment/2.html", "https://www.comme-des-garcons.com/"],
-    "conf": "low",
-    "read": "2026-10-03"
+ "name": "Comme des Garçons",
+ "band": "trueLux",
+ "seat": 161,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 1,
+  "craft": 2,
+  "style": 5
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 2,
+  "wool": 3,
+  "synth": 2
+ },
+ "dials": {
+  "dur": 2,
+  "forg": 3,
+  "fuss": 1,
+  "shoes": 3,
+  "status": 3,
+  "street": 3,
+  "avant": 5,
+  "weird": 5,
+  "whitet": 2,
+  "logo": 1,
+  "western": 1,
+  "rock": 2,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Experimental clothing that questions how garments are built and worn; sold through Dover Street Market and its own stores.",
+ "origin": "Founded in Tokyo in 1969 by Rei Kawakubo.",
+ "say": "kom day gar-SOHN",
+ "chan": [
+  "O",
+  "I"
+ ],
+ "conf": "L",
+ "forgc": [
+  5,
+  2,
+  1
+ ],
+ "onething": {
+  "p": "Play tee",
+  "u": "https://www.neimanmarcus.com/p/comme-des-garcons-k-double-heart-prod290350262",
+  "n": "Play double-heart tee via Neiman Marcus; via Mr Porter — verify stock"
+ },
+ "prices": [
+  [
+   270,
+   440
+  ],
+  [
+   350,
+   600
+  ],
+  [
+   440,
+   920
+  ],
+  [
+   600,
+   900
+  ],
+  [
+   680,
+   1460
+  ],
+  "?",
+  "?",
+  "?"
+ ],
+ "notes": {
+  "avant": "the definition — Kawakubo's fifty-year argument with what clothes are",
+  "weird": "lumps and bumps — the body redrawn for delight",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 2; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "style": "Clothing as an argument about clothing; design is the entire enterprise.",
+  "craft": "Comme des Garçons' own recruitment page describes a company that plans and manufactures clothing, with an in-house Tokyo production department of pattern makers, sample/production sewers and managers who run factory schedules, but it names no factory it owns and the brand site has no product pages. Product-level origin could not be read. Current 3 kept on thin evidence. [ruled by Sebastian 4 Oct 2026]"
+ },
+ "fibre": {
+  "t": 353,
+  "w": 349,
+  "n": 78,
+  "s": 21,
+  "c": 0,
+  "x": null,
+  "xh": null,
+  "sp": "split",
+  "sc": [
+   "Jackets",
+   "Shorts"
+  ],
+  "nc": [
+   "Tees",
+   "Knitwear",
+   "Shirts"
+  ],
+  "st": "complete"
+ },
+ "doors": {
+  "c": "full",
+  "n": 1,
+  "cities": [
+   [
+    "New York",
+    "NY",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 0,
+  "con": 0
+ },
+ "cities": "One store, the Chelsea shop on West 22nd · Dover Street Market, New York and Los Angeles, and a few independent shops",
+ "region": {
+  "o": [
+   1057
+  ],
+  "s": [
+   3,
+   123,
+   125
+  ]
+ },
+ "site": {
+  "domain": "www.comme-des-garcons.com",
+  "platform": "custom",
+  "feed": "none_found",
+  "feed_count": 0,
+  "status": "brand_site_no_shop",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "unclear",
+  "origin": "unclear",
+  "marks": [
+   "Nothing on the brand's OWN domain, but the own-domain zero fails its controls (see searched) so it is not reportable as a zero. On the fallback channel - the Dover Street Market E-Shop, run by Comme des Garçons' own retail company - the CDG house men's assortment names exactly one: LICENSED CORDURA,"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "price_read": {
+  "date": "2026-09-23",
+  "status": "no_store",
+  "note": "NC - no online store to read, per the brief (September pass finding). The store's absence was not re-verified in this pass. Map held current_prices [[270, 440], [350, 600], [440, 920], [600, 900], [68"
+ },
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=56974&brand_ids[]=5589958&brand_ids[]=2318552&brand_ids[]=929240",
+   "m": "brand filter",
+   "n": ""
   }
+ },
+ "craft_evidence": {
+  "owned": "unclear",
+  "owned_d": "Brand's own recruitment page (comme-des-garcons.com/recruitment/2.html, Japanese) gives Comme des Garçons Co., Ltd. (株式会社コム・デ・ギャルソン), est. March 1973, HQ Minami-Aoyama, Tokyo, business '被服の企画製造販売' (planning, manufacture and sale of clothing). It hires, at HQ, pattern makers (CAD sample and grading patterns, toiles), sewing technicians ('サンプル、量産縫製・縫製指導' - sample and production sewing, sewing instruction) and production managers ('工場管理及び納期管理' - factory and delivery management). So there is an in-house pattern/sample/production department, but no owned factory is named and '工場管理' reads as managing outside factories. Scope of in-house making not established.",
+  "makers": "no",
+  "mills": "NC",
+  "madein": "NC",
+  "countries": "Not read: brand site has no product pages; DSM e-shop CDG product data not reached before rate limiting.",
+  "heritage": "dated and placed",
+  "repair": "no",
+  "process": "no",
+  "urls": [
+   "https://www.comme-des-garcons.com/recruitment/2.html",
+   "https://www.comme-des-garcons.com/"
+  ],
+  "conf": "low",
+  "read": "2026-10-03"
+ }
 }

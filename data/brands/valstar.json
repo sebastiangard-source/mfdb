@@ -1,157 +1,187 @@
 {
-  "name": "Valstar",
-  "band": "trueLux",
-  "seat": 139,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 3,
-    "craft": 4,
-    "style": 3
+ "name": "Valstar",
+ "band": "trueLux",
+ "seat": 139,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 3,
+  "craft": 4,
+  "style": 3
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 2,
+  "wool": 2,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 2,
+  "fuss": 0,
+  "ital": 4,
+  "boat": 3,
+  "whitet": 1,
+  "logo": 1,
+  "western": 1,
+  "rock": 2,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "The Valstarino — an unlined suede blouson — and outerwear around it, from Milan.",
+ "origin": "Founded in Milan in 1911 as a raincoat maker.",
+ "chan": [
+  "D",
+  "X"
+ ],
+ "conf": "M",
+ "forgc": [
+  3,
+  2,
+  2
+ ],
+ "onething": {
+  "p": "Valstarino suede blouson",
+  "u": "https://www.mrporter.com/en-us/mens/designer/valstar",
+  "n": "works"
+ },
+ "prices": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  [
+   1085,
+   1200
+  ],
+  [
+   730,
+   3310
+  ],
+  null
+ ],
+ "notes": {
+  "craft": "Valstar's Valstarino page says the jackets are inspected, hand-cut and assembled in 'our workshops in the Veneto and Tuscany regions' by 'Valstar's tailors', and documents the steps (up to 20 pieces, up to eight hours of assembly, hand-sewn buttonholes). The workshops are claimed as its own but not named or located beyond region, and the claim covers the signature leather jacket, not the whole range; PDPs name no maker and only half state a country. Claimed owned making for a core category, unverified in detail: a cautious 4. [ruled by Sebastian 4 Oct 2026]",
+  "ital": "Milan institution — the tailors' casual jacket",
+  "whitet": "sells no plain tee (price pass: NONE) — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 1; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+ },
+ "doors": {
+  "c": "full",
+  "n": 0,
+  "cities": [],
+  "basis": "master 2026-08-29, pre-recapture"
+ },
+ "cities": "No store of its own in the US · department stores and independent menswear shops, and its own site",
+ "site": {
+  "domain": "valstarmilano.com",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 515,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "licensed",
+  "marks": [
+   "Storm System - LICENSED (Loro Piana's mark",
+   "standing rule: a Loro Piana mark on a house that is not Loro Piana is licensed). 1 of 515 catalogue products: 'crafted from a refined blend of virgin wool and technical jersey. Thanks to the Storm System treatment, the fabric is water- and wind-resistant w"
+  ],
+  "source": "census_followup",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 201,
+  "w": 200,
+  "n": 87,
+  "s": 12,
+  "c": 0,
+  "x": 4,
+  "xh": 0,
+  "sp": "one",
+  "sc": [
+   "Raincoat"
+  ],
+  "nc": [
+   "Valstarino",
+   "Coat",
+   "Zip jacket"
+  ],
+  "st": "complete"
+ },
+ "region": {
+  "o": [],
+  "s": [
+   150
+  ]
+ },
+ "shop": "https://valstarmilano.com/en-us/search?q=",
+ "garment_links": {
+  "Sweater": "https://valstarmilano.com/en-us/collections/knitwear",
+  "Outerwear": "https://valstarmilano.com/en-us/collections/jackets"
+ },
+ "price_checked": true,
+ "price_evidence": {
+  "Sweater": {
+   "lp": "Cashmere crew neck sweater (Wood)",
+   "lu": "https://valstarmilano.com/en-us/products/cashmere-crewneck-wood",
+   "hp": "Aran crew neck sweater in cashmere (Orange)",
+   "hu": "https://valstarmilano.com/en-us/products/cashmere-aran-crewneck-sweater-orange",
+   "b": "pair"
   },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 1,
-    "linen": 1,
-    "cotton": 2,
-    "wool": 2,
-    "synth": 1
-  },
-  "dials": {
-    "dur": 3,
-    "forg": 2,
-    "fuss": 0,
-    "ital": 4,
-    "boat": 3,
-    "whitet": 1,
-    "logo": 1,
-    "western": 1,
-    "rock": 2,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
-  },
-  "why": "The Valstarino — an unlined suede blouson — and outerwear around it, from Milan.",
-  "origin": "Founded in Milan in 1911 as a raincoat maker.",
-  "chan": ["D", "X"],
-  "conf": "M",
-  "forgc": [3, 2, 2],
-  "onething": {
-    "p": "Valstarino suede blouson",
-    "u": "https://www.mrporter.com/en-us/mens/designer/valstar",
-    "n": "works"
-  },
-  "prices": [null, null, null, null, null, [1085, 1200], [730, 3310], null],
-  "notes": {
-    "craft": "Valstar's Valstarino page says the jackets are inspected, hand-cut and assembled in 'our workshops in the Veneto and Tuscany regions' by 'Valstar's tailors', and documents the steps (up to 20 pieces, up to eight hours of assembly, hand-sewn buttonholes). The workshops are claimed as its own but not named or located beyond region, and the claim covers the signature leather jacket, not the whole range; PDPs name no maker and only half state a country. Claimed owned making for a core category, unverified in detail: a cautious 4. [ruled by Sebastian 4 Oct 2026]",
-    "ital": "Milan institution — the tailors' casual jacket",
-    "whitet": "sells no plain tee (price pass: NONE) — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 1; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
-  },
-  "doors": {
-    "c": "full",
-    "n": 0,
-    "cities": [],
-    "basis": "master 2026-08-29, pre-recapture"
-  },
-  "cities": "No store of its own in the US · department stores and independent menswear shops, and its own site",
-  "site": {
-    "domain": "valstarmilano.com",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 515,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "licensed",
-    "marks": [
-      "Storm System - LICENSED (Loro Piana's mark",
-      "standing rule: a Loro Piana mark on a house that is not Loro Piana is licensed). 1 of 515 catalogue products: 'crafted from a refined blend of virgin wool and technical jersey. Thanks to the Storm System treatment, the fabric is water- and wind-resistant w"
-    ],
-    "source": "census_followup",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 201,
-    "w": 200,
-    "n": 87,
-    "s": 12,
-    "c": 0,
-    "x": 4,
-    "xh": 0,
-    "sp": "one",
-    "sc": ["Raincoat"],
-    "nc": ["Valstarino", "Coat", "Zip jacket"],
-    "st": "complete"
-  },
-  "region": {
-    "o": [],
-    "s": [150]
-  },
-  "shop": "https://valstarmilano.com/en-us/search?q=",
-  "garment_links": {
-    "Sweater": "https://valstarmilano.com/en-us/collections/knitwear",
-    "Outerwear": "https://valstarmilano.com/en-us/collections/jackets"
-  },
-  "price_checked": true,
-  "price_evidence": {
-    "Sweater": {
-      "lp": "Cashmere crew neck sweater (Wood)",
-      "lu": "https://valstarmilano.com/en-us/products/cashmere-crewneck-wood",
-      "hp": "Aran crew neck sweater in cashmere (Orange)",
-      "hu": "https://valstarmilano.com/en-us/products/cashmere-aran-crewneck-sweater-orange",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "Padded Valstarino jacket in water repellent cotton blend fabric (Navy)",
-      "lu": "https://valstarmilano.com/en-us/products/valstarino-navy-blue-9",
-      "hp": "Deerskin Valstarino jacket lined with cashmere (Black)",
-      "hu": "https://valstarmilano.com/en-us/products/valstarino-black-2",
-      "b": "pair"
-    }
-  },
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://valstarmilano.com/en-us",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=4287013",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "certs": {
-    "bcorp": {
-      "e": "Slowear (parent company)"
-    }
-  },
-  "craft_evidence": {
-    "owned": "unclear",
-    "owned_d": "The Valstarino page claims own workshops by region, not town: 'The leathers are then transported to our workshops in the Veneto and Tuscany regions, where our team of artisans carefully inspects them'; 'Our team hand-cuts all parts of the Valstarino'; 'Valstar's tailors assemble the jacket, a task that may take up to eight hours'. No workshop is named or located beyond the region, and no photos/addresses were seen. The claim covers the Valstarino (leather/suede jackets); nothing says where coats, wool jackets or knitwear are made. Milan is the brand's founding city and store location, not a stated place of make.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "some",
-    "countries": "Italy 2/4 ('entirely Made in Italy' on the wool overcoat and wool bomber); not stated 2/4 (both suede/leather jackets; text says 'Italian savoir-faire' only). Sample of 4 PDPs: 2 leather/suede jackets, 1 coat, 1 wool bomber; knitwear not sampled. Origin may sit in a collapsed tab on the two leather PDPs.",
-    "heritage": "dated and placed",
-    "repair": "no",
-    "process": "yes",
-    "urls": [
-      "https://valstarmilano.com/en-ue/pages/the-valstarino",
-      "https://valstarmilano.com/en-ue/pages/heritage"
-    ],
-    "conf": "low",
-    "read": "2026-10-03"
+  "Outerwear": {
+   "lp": "Padded Valstarino jacket in water repellent cotton blend fabric (Navy)",
+   "lu": "https://valstarmilano.com/en-us/products/valstarino-navy-blue-9",
+   "hp": "Deerskin Valstarino jacket lined with cashmere (Black)",
+   "hu": "https://valstarmilano.com/en-us/products/valstarino-black-2",
+   "b": "pair"
   }
+ },
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://valstarmilano.com/en-us",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=4287013",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "certs": {
+  "bcorp": {
+   "e": "Slowear (parent company)"
+  }
+ },
+ "craft_evidence": {
+  "owned": "unclear",
+  "owned_d": "The Valstarino page claims own workshops by region, not town: 'The leathers are then transported to our workshops in the Veneto and Tuscany regions, where our team of artisans carefully inspects them'; 'Our team hand-cuts all parts of the Valstarino'; 'Valstar's tailors assemble the jacket, a task that may take up to eight hours'. No workshop is named or located beyond the region, and no photos/addresses were seen. The claim covers the Valstarino (leather/suede jackets); nothing says where coats, wool jackets or knitwear are made. Milan is the brand's founding city and store location, not a stated place of make.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "some",
+  "countries": "Italy 2/4 ('entirely Made in Italy' on the wool overcoat and wool bomber); not stated 2/4 (both suede/leather jackets; text says 'Italian savoir-faire' only). Sample of 4 PDPs: 2 leather/suede jackets, 1 coat, 1 wool bomber; knitwear not sampled. Origin may sit in a collapsed tab on the two leather PDPs.",
+  "heritage": "dated and placed",
+  "repair": "no",
+  "process": "yes",
+  "urls": [
+   "https://valstarmilano.com/en-ue/pages/the-valstarino",
+   "https://valstarmilano.com/en-ue/pages/heritage"
+  ],
+  "conf": "low",
+  "read": "2026-10-03"
+ }
 }

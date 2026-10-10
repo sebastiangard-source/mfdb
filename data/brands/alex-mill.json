@@ -1,191 +1,250 @@
 {
-  "name": "Alex Mill",
-  "band": "premium",
-  "seat": 47,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 3,
-    "craft": 1,
-    "style": 3
+ "name": "Alex Mill",
+ "band": "premium",
+ "seat": 47,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 3,
+  "craft": 1,
+  "style": 3
+ },
+ "fabric": {
+  "denim": 3,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 3,
+  "wool": 1,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 3,
+  "fuss": -2,
+  "golffice": -1,
+  "murica": 2,
+  "whitet": 4,
+  "logo": 1,
+  "western": 1,
+  "rock": 1,
+  "workwear": 3,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Casual clothing built around a garment-dyed work jacket and well-made basics, sold through its own stores.",
+ "origin": "Launched in 2012 by Alex Drexler from a shop on Elizabeth Street, New York; the designer Somsack Sikhounmuong joined in 2019.",
+ "chan": [
+  "O",
+  "D"
+ ],
+ "conf": "M",
+ "forgc": [
+  4,
+  3,
+  1
+ ],
+ "shop": "https://www.alexmill.com/search?q=",
+ "onething": {
+  "p": "Garment-dyed work jacket",
+  "u": "https://www.alexmill.com/search?q=work+jacket",
+  "n": "best-guess link — verify"
+ },
+ "prices": [
+  [
+   68,
+   68
+  ],
+  [
+   98,
+   98
+  ],
+  [
+   145,
+   175
+  ],
+  [
+   225,
+   225
+  ],
+  [
+   165,
+   225
+  ],
+  [
+   178,
+   358
+  ],
+  [
+   225,
+   595
+  ],
+  null
+ ],
+ "notes": {
+  "denim": "the garment-dyed work jacket — the brand's engine",
+  "murica": "the J.Crew diaspora's second act",
+  "whitet": "the tee is one of three things the brand is built on — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 3; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "Product pages give composition and sometimes a fabric country ('Portuguese cotton fabric') but no country of make, factory or mill. The our-story page is about design and leadership, not making. Nothing checkable about who makes it."
+ },
+ "doors": {
+  "c": "full",
+  "n": 2,
+  "cities": [
+   [
+    "New York",
+    "NY",
+    2
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 0,
+  "con": 0
+ },
+ "cities": "2 stores — New York, Edgartown · department stores and independent menswear shops, and its own site",
+ "region": {
+  "o": [
+   212,
+   213
+  ],
+  "s": [
+   77,
+   86
+  ]
+ },
+ "site": {
+  "domain": "alexmill.com",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 673,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "no",
+  "origin": "none",
+  "marks": [],
+  "source": "screen_36",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 54,
+  "w": 54,
+  "n": 100,
+  "s": 0,
+  "c": 0,
+  "x": 2,
+  "xh": 0,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "Men's Wovens",
+   "Men's Pants",
+   "Men's Jackets"
+  ],
+  "st": "complete"
+ },
+ "price_range_only": [
+  "Dress shirt",
+  "Dress pants",
+  "Outerwear"
+ ],
+ "garment_links": {
+  "T-shirt": "https://www.alexmill.com/collections/tees-polos-mens",
+  "Polo": "https://www.alexmill.com/collections/tees-polos-mens",
+  "Dress shirt": "https://www.alexmill.com/collections/mens-shirts",
+  "Jeans": "https://www.alexmill.com/collections/mens-jeans",
+  "Dress pants": "https://www.alexmill.com/collections/alex-mill-mens-chinos",
+  "Sweater": "https://www.alexmill.com/collections/sweatshirts-sweaters-mens",
+  "Outerwear": "https://www.alexmill.com/collections/mens-jackets-coats"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "The Standard T-Shirt In Slub Cotton",
+   "lu": "https://www.alexmill.com/products/the-standard-t-shirt-in-slub-cotton-white",
+   "hp": "The Standard T-Shirt In Slub Cotton",
+   "hu": "https://www.alexmill.com/products/the-standard-t-shirt-in-slub-cotton-white",
+   "b": "single"
   },
-  "fabric": {
-    "denim": 3,
-    "cashmere": 1,
-    "linen": 1,
-    "cotton": 3,
-    "wool": 1,
-    "synth": 1
+  "Polo": {
+   "lp": "Garment Dyed Polo In Pique Cotton",
+   "lu": "https://www.alexmill.com/products/garment-dyed-polo-in-pique-cotton-in-evergreen",
+   "hp": "Garment Dyed Polo In Pique Cotton",
+   "hu": "https://www.alexmill.com/products/garment-dyed-polo-in-pique-cotton-in-evergreen",
+   "b": "single"
   },
-  "dials": {
-    "dur": 3,
-    "forg": 3,
-    "fuss": -2,
-    "golffice": -1,
-    "murica": 2,
-    "whitet": 4,
-    "logo": 1,
-    "western": 1,
-    "rock": 1,
-    "workwear": 3,
-    "outdoor": 1,
-    "surf": 1
+  "Dress shirt": {
+   "lp": "Mill Point Collar Shirt in Cotton Poplin",
+   "lu": "https://www.alexmill.com/products/mill-shirt-in-paper-cotton-in-dark-navy",
+   "hp": "Mill Shirt in Fine Wale Corduroy",
+   "hu": "https://www.alexmill.com/products/mill-shirt-in-fine-wale-corduroy",
+   "b": "range"
   },
-  "why": "Casual clothing built around a garment-dyed work jacket and well-made basics, sold through its own stores.",
-  "origin": "Launched in 2012 by Alex Drexler from a shop on Elizabeth Street, New York; the designer Somsack Sikhounmuong joined in 2019.",
-  "chan": ["O", "D"],
-  "conf": "M",
-  "forgc": [4, 3, 1],
-  "shop": "https://www.alexmill.com/search?q=",
-  "onething": {
-    "p": "Garment-dyed work jacket",
-    "u": "https://www.alexmill.com/search?q=work+jacket",
-    "n": "best-guess link — verify"
+  "Jeans": {
+   "lp": "AM Original 5 Pocket Jean",
+   "lu": "https://www.alexmill.com/products/am-original-in-raw-indigo",
+   "hp": "AM Original 5 Pocket Jean",
+   "hu": "https://www.alexmill.com/products/am-original-in-raw-indigo",
+   "b": "single"
   },
-  "prices": [[68, 68], [98, 98], [145, 175], [225, 225], [165, 225], [178, 358], [225, 595], null],
-  "notes": {
-    "denim": "the garment-dyed work jacket — the brand's engine",
-    "murica": "the J.Crew diaspora's second act",
-    "whitet": "the tee is one of three things the brand is built on — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 3; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Product pages give composition and sometimes a fabric country ('Portuguese cotton fabric') but no country of make, factory or mill. The our-story page is about design and leadership, not making. Nothing checkable about who makes it."
+  "Dress pants": {
+   "lp": "Standard Pleated Pant",
+   "lu": "https://www.alexmill.com/products/standard-pleated-pant-in-cord-in-saddle",
+   "hp": "Standard Pleated Pant In Linen",
+   "hu": "https://www.alexmill.com/products/standard-pleated-pant-in-linen",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 3,
-    "cities": [["Edgartown", "MA", 1], ["New York", "NY", 2]],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Sweater": {
+   "lp": "Winston Crewneck Sweater in Wool",
+   "lu": "https://www.alexmill.com/products/winston-crewneck-sweater-in-wool-in-dark-navy",
+   "hp": "Kingston Cable Sweater in Washed Cashmere",
+   "hu": "https://www.alexmill.com/products/kingston-cable-sweater-in-washed-cashmere-in-navy",
+   "b": "pair"
   },
-  "cities": "3 stores — New York, Edgartown · department stores and independent menswear shops, and its own site",
-  "region": {
-    "o": [188, 189, 190],
-    "s": [77, 86]
-  },
-  "site": {
-    "domain": "alexmill.com",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 673,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "no",
-    "origin": "none",
-    "marks": [],
-    "source": "screen_36",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 54,
-    "w": 54,
-    "n": 100,
-    "s": 0,
-    "c": 0,
-    "x": 2,
-    "xh": 0,
-    "sp": "one",
-    "sc": [],
-    "nc": ["Men's Wovens", "Men's Pants", "Men's Jackets"],
-    "st": "complete"
-  },
-  "price_range_only": ["Dress shirt", "Dress pants", "Outerwear"],
-  "garment_links": {
-    "T-shirt": "https://www.alexmill.com/collections/tees-polos-mens",
-    "Polo": "https://www.alexmill.com/collections/tees-polos-mens",
-    "Dress shirt": "https://www.alexmill.com/collections/mens-shirts",
-    "Jeans": "https://www.alexmill.com/collections/mens-jeans",
-    "Dress pants": "https://www.alexmill.com/collections/alex-mill-mens-chinos",
-    "Sweater": "https://www.alexmill.com/collections/sweatshirts-sweaters-mens",
-    "Outerwear": "https://www.alexmill.com/collections/mens-jackets-coats"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "The Standard T-Shirt In Slub Cotton",
-      "lu": "https://www.alexmill.com/products/the-standard-t-shirt-in-slub-cotton-white",
-      "hp": "The Standard T-Shirt In Slub Cotton",
-      "hu": "https://www.alexmill.com/products/the-standard-t-shirt-in-slub-cotton-white",
-      "b": "single"
-    },
-    "Polo": {
-      "lp": "Garment Dyed Polo In Pique Cotton",
-      "lu": "https://www.alexmill.com/products/garment-dyed-polo-in-pique-cotton-in-evergreen",
-      "hp": "Garment Dyed Polo In Pique Cotton",
-      "hu": "https://www.alexmill.com/products/garment-dyed-polo-in-pique-cotton-in-evergreen",
-      "b": "single"
-    },
-    "Dress shirt": {
-      "lp": "Mill Point Collar Shirt in Cotton Poplin",
-      "lu": "https://www.alexmill.com/products/mill-shirt-in-paper-cotton-in-dark-navy",
-      "hp": "Mill Shirt in Fine Wale Corduroy",
-      "hu": "https://www.alexmill.com/products/mill-shirt-in-fine-wale-corduroy",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "AM Original 5 Pocket Jean",
-      "lu": "https://www.alexmill.com/products/am-original-in-raw-indigo",
-      "hp": "AM Original 5 Pocket Jean",
-      "hu": "https://www.alexmill.com/products/am-original-in-raw-indigo",
-      "b": "single"
-    },
-    "Dress pants": {
-      "lp": "Standard Pleated Pant",
-      "lu": "https://www.alexmill.com/products/standard-pleated-pant-in-cord-in-saddle",
-      "hp": "Standard Pleated Pant In Linen",
-      "hu": "https://www.alexmill.com/products/standard-pleated-pant-in-linen",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Winston Crewneck Sweater in Wool",
-      "lu": "https://www.alexmill.com/products/winston-crewneck-sweater-in-wool-in-dark-navy",
-      "hp": "Kingston Cable Sweater in Washed Cashmere",
-      "hu": "https://www.alexmill.com/products/kingston-cable-sweater-in-washed-cashmere-in-navy",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "Garment Dyed Work Jacket In Recycled Denim",
-      "lu": "https://www.alexmill.com/products/garment-dyed-work-jacket-in-recycled-denim-in-dark-navy",
-      "hp": "Double Breasted James Coat In Wool",
-      "hu": "https://www.alexmill.com/products/james-double-breasted-top-coat-in-wool-in-dark-navy",
-      "b": "range"
-    }
-  },
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.alexmill.com/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=2286402",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "Our-story page describes a SoHo design team; no factory owned or named.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "none",
-    "countries": "No country of make on 3 PDPs (Mill Shirt Portuguese poplin, Cyrus flannel shirt, Ashby parka) incl. their 'Composition & Care' tab, nor in 13 mens-shirt product descriptions via products.json. Fabric country only (Portugal) on some.",
-    "heritage": "dated and placed",
-    "repair": "no",
-    "process": "no",
-    "urls": [
-      "https://www.alexmill.com/products/mill-shirt-in-stripe-portuguese-poplin",
-      "https://www.alexmill.com/pages/our-story"
-    ],
-    "conf": "medium",
-    "read": "2026-10-03"
+  "Outerwear": {
+   "lp": "Garment Dyed Work Jacket In Recycled Denim",
+   "lu": "https://www.alexmill.com/products/garment-dyed-work-jacket-in-recycled-denim-in-dark-navy",
+   "hp": "Double Breasted James Coat In Wool",
+   "hu": "https://www.alexmill.com/products/james-double-breasted-top-coat-in-wool-in-dark-navy",
+   "b": "range"
   }
+ },
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.alexmill.com/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=2286402",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "Our-story page describes a SoHo design team; no factory owned or named.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "none",
+  "countries": "No country of make on 3 PDPs (Mill Shirt Portuguese poplin, Cyrus flannel shirt, Ashby parka) incl. their 'Composition & Care' tab, nor in 13 mens-shirt product descriptions via products.json. Fabric country only (Portugal) on some.",
+  "heritage": "dated and placed",
+  "repair": "no",
+  "process": "no",
+  "urls": [
+   "https://www.alexmill.com/products/mill-shirt-in-stripe-portuguese-poplin",
+   "https://www.alexmill.com/pages/our-story"
+  ],
+  "conf": "medium",
+  "read": "2026-10-03"
+ }
 }

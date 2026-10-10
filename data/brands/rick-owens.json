@@ -1,220 +1,296 @@
 {
-  "name": "Rick Owens",
-  "band": "trueLux",
-  "seat": 159,
-  "dagger": 1,
-  "focus": {
-    "tech": 2,
-    "comfort": 2,
-    "craft": 4,
-    "style": 5
-  },
-  "fabric": {
-    "denim": 3,
-    "cashmere": 2,
-    "linen": 1,
-    "cotton": 2,
-    "wool": 2,
-    "synth": 2
-  },
-  "dials": {
-    "dur": 2,
-    "forg": 3,
-    "fuss": -1,
-    "shoes": 4,
-    "status": 3,
-    "ital": 3,
-    "street": 3,
-    "avant": 5,
-    "weird": 4,
-    "whitet": 2,
-    "logo": 1,
-    "western": 1,
-    "rock": 4,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
-  },
-  "why": "Dark, draped clothing in leather, cashmere and jersey, made in the company's own factory in Italy.",
-  "origin": "Founded in Los Angeles in 1994 by Rick Owens; the company now owns its Italian factory.",
-  "chan": ["O", "D", "I"],
-  "conf": "L",
-  "forgc": [4, 2, 1],
-  "onething": {
-    "p": "Geobasket",
-    "u": "https://www.rickowens.eu/en/US/search?q=Geobasket%20men",
-    "n": "Use this: https://www.rickowens.eu/search?q=geobasket"
-  },
-  "prices": [
-    [300, 685, "USD_landed"],
-    null,
-    [980, 1780, "USD_landed"],
-    [770, 2725, "USD_landed"],
-    [1445, 1720, "USD_landed"],
-    [560, 1630, "USD_landed"],
-    [1875, 3225, "USD_landed"],
-    [675, 3290, "USD_landed"]
+ "name": "Rick Owens",
+ "band": "trueLux",
+ "seat": 159,
+ "dagger": 1,
+ "focus": {
+  "tech": 2,
+  "comfort": 2,
+  "craft": 4,
+  "style": 5
+ },
+ "fabric": {
+  "denim": 3,
+  "cashmere": 2,
+  "linen": 1,
+  "cotton": 2,
+  "wool": 2,
+  "synth": 2
+ },
+ "dials": {
+  "dur": 2,
+  "forg": 3,
+  "fuss": -1,
+  "shoes": 4,
+  "status": 3,
+  "ital": 3,
+  "street": 3,
+  "avant": 5,
+  "weird": 4,
+  "whitet": 2,
+  "logo": 1,
+  "western": 1,
+  "rock": 4,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Dark, draped clothing in leather, cashmere and jersey, made in the company's own factory in Italy.",
+ "origin": "Founded in Los Angeles in 1994 by Rick Owens; the company now owns its Italian factory.",
+ "chan": [
+  "O",
+  "D",
+  "I"
+ ],
+ "conf": "L",
+ "forgc": [
+  4,
+  2,
+  1
+ ],
+ "onething": {
+  "p": "Geobasket",
+  "u": "https://www.rickowens.eu/en/US/search?q=Geobasket%20men",
+  "n": "Use this: https://www.rickowens.eu/search?q=geobasket"
+ },
+ "prices": [
+  [
+   300,
+   685,
+   "USD_landed"
   ],
-  "shoelink": {
-    "t": "Geobasket",
-    "u": "https://www.rickowens.eu/en/US/search?q=Geobasket"
+  null,
+  [
+   980,
+   1780,
+   "USD_landed"
+  ],
+  [
+   770,
+   2725,
+   "USD_landed"
+  ],
+  [
+   1445,
+   1720,
+   "USD_landed"
+  ],
+  [
+   560,
+   1630,
+   "USD_landed"
+  ],
+  [
+   1875,
+   3225,
+   "USD_landed"
+  ],
+  [
+   675,
+   3290,
+   "USD_landed"
+  ]
+ ],
+ "shoelink": {
+  "t": "Geobasket",
+  "u": "https://www.rickowens.eu/en/US/search?q=Geobasket"
+ },
+ "notes": {
+  "ital": "the California brutalist who bought his own Italian factory",
+  "avant": "glamour-brutalism with its own factory — the radical who industrialized",
+  "weird": "A complete parallel aesthetic, worked out over decades and internally consistent. Not strange within fashion so much as standing beside it.",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 2; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "style": "A single dark, draped aesthetic carried through every piece.",
+  "craft": "Owens says the company bought its Concordia sulla Secchia factory, where it has worked with the same people for decades (032c, 2022). Press on the brand's own 'Owenscorp, Concordia' film describes 100+ staff there doing pattern-making, cutting and sewing. That is owned ready-to-wear making with a named place, but the product pages state neither country nor factory, and footwear is not shown to be made there, so it is a 4 rather than a 5."
+ },
+ "doors": {
+  "c": "full",
+  "n": 5,
+  "cities": [
+   [
+    "COSTA MESA",
+    "CA",
+    1
+   ],
+   [
+    "LAS VEGAS",
+    "NV",
+    1
+   ],
+   [
+    "LOS ANGELES",
+    "CA",
+    1
+   ],
+   [
+    "MIAMI",
+    "FL",
+    1
+   ],
+   [
+    "NEW YORK",
+    "NY",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 0,
+  "con": 0
+ },
+ "cities": "5 stores — Las Vegas, Los Angeles, Miami, New York · department stores and independent menswear shops, and its own site",
+ "region": {
+  "o": [
+   2998
+  ],
+  "s": []
+ },
+ "addmen": true,
+ "site": {
+  "domain": "www.rickowens.eu",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 2606,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "both",
+  "marks": [
+   "LICENSED: CORDURA (9 men's products, named in the description as 'CORDURA COTTON' on the SS26 Temple GETH jeans/cargo)",
+   "ECONYL(R) (2 men's, 14 catalogue-wide, 'MADE USING ECONYL(R) RECYCLED POLYAMIDE' on swimwear)",
+   "Lycra (4 men's, named in the stretch-leather description 'BONDED TO A COTTON AND LYCR"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 639,
+  "w": 639,
+  "n": 85,
+  "s": 9,
+  "c": 6,
+  "x": 11,
+  "xh": 4,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "bottoms",
+   "outerwear",
+   "t-shirts and shirts"
+  ],
+  "st": "complete"
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants",
+  "Shoes"
+ ],
+ "garment_links": {
+  "T-shirt": "https://www.rickowens.eu/en-us/collections/men-t-shirts",
+  "Dress shirt": "https://www.rickowens.eu/en-us/collections/mens-shirts",
+  "Jeans": "https://www.rickowens.eu/en-us/collections/men-pants",
+  "Dress pants": "https://www.rickowens.eu/en-us/collections/men-pants",
+  "Sweater": "https://www.rickowens.eu/en-us/collections/mens-knitwear",
+  "Outerwear": "https://www.rickowens.eu/en-us/collections/mens-outerwear"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "DRKSHDW Level T (DU02E7250, black cotton jersey)",
+   "lu": "https://www.rickowens.eu/en-us/products/du02e7250rnp09",
+   "hp": "Rick's Jumbo SS T (double cotton jersey, RU02F4255)",
+   "hu": "https://www.rickowens.eu/en-us/products/ru02f4255jdc09",
+   "b": "range"
   },
-  "notes": {
-    "ital": "the California brutalist who bought his own Italian factory",
-    "avant": "glamour-brutalism with its own factory — the radical who industrialized",
-    "weird": "A complete parallel aesthetic, worked out over decades and internally consistent. Not strange within fashion so much as standing beside it.",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 2; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "style": "A single dark, draped aesthetic carried through every piece.",
-    "craft": "Owens says the company bought its Concordia sulla Secchia factory, where it has worked with the same people for decades (032c, 2022). Press on the brand's own 'Owenscorp, Concordia' film describes 100+ staff there doing pattern-making, cutting and sewing. That is owned ready-to-wear making with a named place, but the product pages state neither country nor factory, and footwear is not shown to be made there, so it is a 4 rather than a 5."
+  "Dress shirt": {
+   "lp": "Work Shirt (steel heavy poplin, RU02F4291)",
+   "lu": "https://www.rickowens.eu/en-us/products/ru02f4291te28",
+   "hp": "Island Shirt (velvet, viscose-silk, RU02F4299)",
+   "hu": "https://www.rickowens.eu/en-us/products/ru02f4299v34",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 4,
-    "cities": [["Las Vegas", "NV", 1], ["Los Angeles", "CA", 1], ["Miami", "FL", 1], ["New York", "NY", 1]],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Jeans": {
+   "lp": "DRKSHDW Detroit Cut (black wax stretch denim, DU02E7366)",
+   "lu": "https://www.rickowens.eu/en-us/products/du02e7366sbw99x",
+   "hp": "DRKSHDW Bolan Banana (mineral shredded denim, DU02F6363)",
+   "hu": "https://www.rickowens.eu/en-us/products/du02f6363dmksh59",
+   "b": "range"
   },
-  "cities": "4 stores — Las Vegas, Los Angeles, Miami, New York · department stores and independent menswear shops, and its own site",
-  "region": {
-    "o": [2370],
-    "s": []
+  "Dress pants": {
+   "lp": "Tailored Geth (tech duchesse, RU01F2352)",
+   "lu": "https://www.rickowens.eu/en-us/products/ru01f2352thd78",
+   "hp": "Tailored Bolan (grain de poudre wool, RU02E1365)",
+   "hu": "https://www.rickowens.eu/en-us/products/ru02e1365wgp09",
+   "b": "range"
   },
-  "addmen": true,
-  "site": {
-    "domain": "www.rickowens.eu",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 2606,
-    "status": "live_store",
-    "checked": "2026-09-13"
+  "Sweater": {
+   "lp": "Ribbed Round Neck (100% new wool, RU01F2637)",
+   "lu": "https://www.rickowens.eu/en-us/products/ru01f2637ribm09",
+   "hp": "Round Neck (90% cashmere 10% silk, RU02F4631)",
+   "hu": "https://www.rickowens.eu/en-us/products/ru02f4631kwsse09",
+   "b": "pair"
   },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "both",
-    "marks": [
-      "LICENSED: CORDURA (9 men's products, named in the description as 'CORDURA COTTON' on the SS26 Temple GETH jeans/cargo)",
-      "ECONYL(R) (2 men's, 14 catalogue-wide, 'MADE USING ECONYL(R) RECYCLED POLYAMIDE' on swimwear)",
-      "Lycra (4 men's, named in the stretch-leather description 'BONDED TO A COTTON AND LYCR"
-    ],
-    "source": "census",
-    "checked": "2026-09-12"
+  "Outerwear": {
+   "lp": "DRKSHDW Brad (gravel canvas, DU02F6786)",
+   "lu": "https://www.rickowens.eu/en-us/products/du02f6786cvg148",
+   "hp": "Brad Jkt (tumbled lamb leather, RU01F2764)",
+   "hu": "https://www.rickowens.eu/en-us/products/ru01f2764lbe09",
+   "b": "pair"
   },
-  "fibre": {
-    "t": 639,
-    "w": 639,
-    "n": 85,
-    "s": 9,
-    "c": 6,
-    "x": 11,
-    "xh": 4,
-    "sp": "one",
-    "sc": [],
-    "nc": ["bottoms", "outerwear", "t-shirts and shirts"],
-    "st": "complete"
-  },
-  "price_range_only": ["T-shirt", "Dress shirt", "Jeans", "Dress pants", "Shoes"],
-  "garment_links": {
-    "T-shirt": "https://www.rickowens.eu/en-us/collections/men-t-shirts",
-    "Dress shirt": "https://www.rickowens.eu/en-us/collections/mens-shirts",
-    "Jeans": "https://www.rickowens.eu/en-us/collections/men-pants",
-    "Dress pants": "https://www.rickowens.eu/en-us/collections/men-pants",
-    "Sweater": "https://www.rickowens.eu/en-us/collections/mens-knitwear",
-    "Outerwear": "https://www.rickowens.eu/en-us/collections/mens-outerwear"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "DRKSHDW Level T (DU02E7250, black cotton jersey)",
-      "lu": "https://www.rickowens.eu/en-us/products/du02e7250rnp09",
-      "hp": "Rick's Jumbo SS T (double cotton jersey, RU02F4255)",
-      "hu": "https://www.rickowens.eu/en-us/products/ru02f4255jdc09",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Work Shirt (steel heavy poplin, RU02F4291)",
-      "lu": "https://www.rickowens.eu/en-us/products/ru02f4291te28",
-      "hp": "Island Shirt (velvet, viscose-silk, RU02F4299)",
-      "hu": "https://www.rickowens.eu/en-us/products/ru02f4299v34",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "DRKSHDW Detroit Cut (black wax stretch denim, DU02E7366)",
-      "lu": "https://www.rickowens.eu/en-us/products/du02e7366sbw99x",
-      "hp": "DRKSHDW Bolan Banana (mineral shredded denim, DU02F6363)",
-      "hu": "https://www.rickowens.eu/en-us/products/du02f6363dmksh59",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Tailored Geth (tech duchesse, RU01F2352)",
-      "lu": "https://www.rickowens.eu/en-us/products/ru01f2352thd78",
-      "hp": "Tailored Bolan (grain de poudre wool, RU02E1365)",
-      "hu": "https://www.rickowens.eu/en-us/products/ru02e1365wgp09",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Ribbed Round Neck (100% new wool, RU01F2637)",
-      "lu": "https://www.rickowens.eu/en-us/products/ru01f2637ribm09",
-      "hp": "Round Neck (90% cashmere 10% silk, RU02F4631)",
-      "hu": "https://www.rickowens.eu/en-us/products/ru02f4631kwsse09",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "DRKSHDW Brad (gravel canvas, DU02F6786)",
-      "lu": "https://www.rickowens.eu/en-us/products/du02f6786cvg148",
-      "hp": "Brad Jkt (tumbled lamb leather, RU01F2764)",
-      "hu": "https://www.rickowens.eu/en-us/products/ru01f2764lbe09",
-      "b": "pair"
-    },
-    "Shoes": {
-      "lp": "DRKSHDW Slide (slashed overdyed denim, DU01F4855)",
-      "lu": "https://www.rickowens.eu/en-us/products/du01f4855slash99",
-      "hp": "Pull On Cuffed Taquito (grainy cow, RU02F4844)",
-      "hu": "https://www.rickowens.eu/en-us/products/ru02f4844lcn0340",
-      "b": "range"
-    }
-  },
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.rickowens.eu/en-us",
-    "currency": "USD_landed",
-    "status": "read",
-    "sublines": "DRKSHDW"
-  },
-  "price_checked": true,
-  "shop": "https://www.rickowens.eu/en-us/search?q=",
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=145654",
-      "m": "brand filter",
-      "n": "DRKSHDW has no clean Vinted brand entry"
-    }
-  },
-  "season": {
-    "l": "FW 26 ('TOWER')",
-    "t": "runway",
-    "u": "https://www.rickowens.eu/pages/runway-shows-men/tower-fw-26",
-    "m": "yes"
-  },
-  "craft_evidence": {
-    "owned": "yes",
-    "owned_d": "VERIFIED (worklist origin_line): the company owns its Concordia factory. Rick Owens in 032c (Brenda Weischer, 5 Dec 2022): 'I am still in Concordia decades later and work with the same people. We bought the factory from them.' The factory is in Concordia sulla Secchia (Modena) and is owned by Owenscorp, the designer's own company (Owenscorp Italia SpA, Confindustria Emilia member; Wikipedia says Owenscorp was founded 2004 by Owens and Michèle Lamy). It is brand-owned, not group-owned: the label is independent. Highsnobiety (on the brand's film 'Owenscorp, Concordia') reports 100+ people in administration, pattern-making, cutting and sewing, i.e. ready-to-wear. Leather & Luxury says leather pants, shirts and skirts are made there. Covers RTW, including leather RTW. Footwear is not shown to be made there (e.g. the sampled shoe is a Dr. Martens collaboration). Not stated on rickowens.eu itself (no about page found).",
-    "makers": "no",
-    "mills": "some",
-    "madein": "none",
-    "countries": "No garment country on 0/8 fetched PDPs: Microbiker (pirarucu leather), Customs Larry coat, Long Lab vest, Rowland shirt, cashmere knit pant, Geth jean, Meganaska shoe, plus a Dr. Martens collab shoe. CAVEAT: the origin may sit in a collapsed tab the fetcher cannot see; this is not a confident 'none'.",
-    "heritage": "none",
-    "repair": "NC",
-    "process": "some",
-    "urls": [
-      "https://magazine.032c.com/magazine/brenda-s-business-with-rick-owens",
-      "https://www.highsnobiety.com/p/rick-owens-concordia-not-in-paris/"
-    ],
-    "conf": "high",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "DRKSHDW Slide (slashed overdyed denim, DU01F4855)",
+   "lu": "https://www.rickowens.eu/en-us/products/du01f4855slash99",
+   "hp": "Pull On Cuffed Taquito (grainy cow, RU02F4844)",
+   "hu": "https://www.rickowens.eu/en-us/products/ru02f4844lcn0340",
+   "b": "range"
   }
+ },
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.rickowens.eu/en-us",
+  "currency": "USD_landed",
+  "status": "read",
+  "sublines": "DRKSHDW"
+ },
+ "price_checked": true,
+ "shop": "https://www.rickowens.eu/en-us/search?q=",
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=145654",
+   "m": "brand filter",
+   "n": "DRKSHDW has no clean Vinted brand entry"
+  }
+ },
+ "season": {
+  "l": "FW 26 ('TOWER')",
+  "t": "runway",
+  "u": "https://www.rickowens.eu/pages/runway-shows-men/tower-fw-26",
+  "m": "yes"
+ },
+ "craft_evidence": {
+  "owned": "yes",
+  "owned_d": "VERIFIED (worklist origin_line): the company owns its Concordia factory. Rick Owens in 032c (Brenda Weischer, 5 Dec 2022): 'I am still in Concordia decades later and work with the same people. We bought the factory from them.' The factory is in Concordia sulla Secchia (Modena) and is owned by Owenscorp, the designer's own company (Owenscorp Italia SpA, Confindustria Emilia member; Wikipedia says Owenscorp was founded 2004 by Owens and Michèle Lamy). It is brand-owned, not group-owned: the label is independent. Highsnobiety (on the brand's film 'Owenscorp, Concordia') reports 100+ people in administration, pattern-making, cutting and sewing, i.e. ready-to-wear. Leather & Luxury says leather pants, shirts and skirts are made there. Covers RTW, including leather RTW. Footwear is not shown to be made there (e.g. the sampled shoe is a Dr. Martens collaboration). Not stated on rickowens.eu itself (no about page found).",
+  "makers": "no",
+  "mills": "some",
+  "madein": "none",
+  "countries": "No garment country on 0/8 fetched PDPs: Microbiker (pirarucu leather), Customs Larry coat, Long Lab vest, Rowland shirt, cashmere knit pant, Geth jean, Meganaska shoe, plus a Dr. Martens collab shoe. CAVEAT: the origin may sit in a collapsed tab the fetcher cannot see; this is not a confident 'none'.",
+  "heritage": "none",
+  "repair": "NC",
+  "process": "some",
+  "urls": [
+   "https://magazine.032c.com/magazine/brenda-s-business-with-rick-owens",
+   "https://www.highsnobiety.com/p/rick-owens-concordia-not-in-paris/"
+  ],
+  "conf": "high",
+  "read": "2026-10-03"
+ }
 }

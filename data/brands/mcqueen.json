@@ -1,229 +1,304 @@
 {
-  "name": "McQueen",
-  "band": "trueLux",
-  "seat": 157,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 1,
-    "craft": 2,
-    "style": 5
-  },
-  "fabric": {
-    "denim": 2,
-    "cashmere": 2,
-    "linen": 1,
-    "cotton": 2,
-    "wool": 3,
-    "synth": 1
-  },
-  "dials": {
-    "dur": 3,
-    "forg": 1,
-    "fuss": 1,
-    "shoes": 4,
-    "status": 3,
-    "avant": 4,
-    "briish": 4,
-    "whitet": 2,
-    "logo": 2,
-    "western": 1,
-    "rock": 3,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
-  },
-  "why": "Sharply tailored, dark-romantic fashion from the London house founded by Lee Alexander McQueen.",
-  "origin": "Founded in London in 1992 by Lee Alexander McQueen, who had trained on Savile Row.",
-  "chan": ["O", "D"],
-  "conf": "L",
-  "forgc": [1, 2, 1],
-  "shop": "https://www.alexandermcqueen.com/en-us/search?q=",
-  "onething": {
-    "p": "Oversized sneaker",
-    "u": "https://www.alexandermcqueen.com/en-us/search?q=Oversized%20sneaker%20men",
-    "n": "verified ✓"
-  },
-  "prices": [
-    [390, 660],
-    [650, 1590],
-    [830, 1150],
-    [990, 1050],
-    [920, 1650],
-    [1290, 1290],
-    [1750, 4850],
-    [990, 990]
+ "name": "McQueen",
+ "band": "trueLux",
+ "seat": 157,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 1,
+  "craft": 2,
+  "style": 5
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 2,
+  "linen": 1,
+  "cotton": 2,
+  "wool": 3,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 1,
+  "fuss": 1,
+  "shoes": 4,
+  "status": 3,
+  "avant": 4,
+  "briish": 4,
+  "whitet": 2,
+  "logo": 2,
+  "western": 1,
+  "rock": 3,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Sharply tailored, dark-romantic fashion from the London house founded by Lee Alexander McQueen.",
+ "origin": "Founded in London in 1992 by Lee Alexander McQueen, who had trained on Savile Row.",
+ "chan": [
+  "O",
+  "D"
+ ],
+ "conf": "L",
+ "forgc": [
+  1,
+  2,
+  1
+ ],
+ "shop": "https://www.alexandermcqueen.com/en-us/search?q=",
+ "onething": {
+  "p": "Oversized sneaker",
+  "u": "https://www.alexandermcqueen.com/en-us/search?q=Oversized%20sneaker%20men",
+  "n": "verified ✓"
+ },
+ "prices": [
+  [
+   390,
+   660
   ],
-  "shoelink": {
-    "t": "Oversized sneaker",
-    "u": "https://www.alexandermcqueen.com/en-us/search?q=Oversized%20sneaker"
+  [
+   650,
+   1590
+  ],
+  [
+   830,
+   1150
+  ],
+  [
+   990,
+   1050
+  ],
+  [
+   920,
+   1650
+  ],
+  [
+   1290,
+   1290
+  ],
+  [
+   1750,
+   4850
+  ],
+  [
+   990,
+   990
+  ]
+ ],
+ "shoelink": {
+  "t": "Oversized sneaker",
+  "u": "https://www.alexandermcqueen.com/en-us/search?q=Oversized%20sneaker"
+ },
+ "notes": {
+  "avant": "Savile Row skills turned to dark theater",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 3; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "style": "Dark romance and sharp tailoring as a design signature.",
+  "craft": "Every McQueen product page sampled (tailoring, leather, shirts, knit, shoes) says 'Made in Italy' and names no maker, mill or atelier. The site publishes care guidelines only, with no repair service and no account of how or where things are made. On the brand's own pages that is a 2."
+ },
+ "doors": {
+  "c": "full",
+  "n": 7,
+  "cities": [
+   [
+    "Atlanta",
+    "GA",
+    1
+   ],
+   [
+    "Beverly Hills",
+    "CA",
+    1
+   ],
+   [
+    "Boston",
+    "MA",
+    1
+   ],
+   [
+    "Costa Mesa",
+    "CA",
+    1
+   ],
+   [
+    "Las Vegas",
+    "NV",
+    2
+   ],
+   [
+    "New York",
+    "NY",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 2,
+  "con": 3
+ },
+ "cities": "7 stores, including Las Vegas, Atlanta, Beverly Hills · department stores, and its own site",
+ "region": {
+  "o": [
+   2616,
+   2618
+  ],
+  "s": []
+ },
+ "addmen": true,
+ "site": {
+  "domain": "www.alexandermcqueen.com",
+  "platform": "custom",
+  "feed": "sitemap_products",
+  "feed_count": 677,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "no",
+  "origin": "none",
+  "marks": [
+   "none"
+  ],
+  "source": "flag_sample",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 77,
+  "w": 77,
+  "n": 84,
+  "s": 9,
+  "c": 7,
+  "x": 5,
+  "xh": 0,
+  "sp": "one",
+  "sc": [
+   "puffer jackets",
+   "windbreakers"
+  ],
+  "nc": [
+   "t-shirts",
+   "shirts",
+   "jackets"
+  ],
+  "st": "complete"
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants",
+  "Outerwear"
+ ],
+ "garment_links": {
+  "T-shirt": "https://www.alexandermcqueen.com/en-us/ca/men/ready-to-wear/t-shirts-and-sweatshirts",
+  "Polo": "https://www.alexandermcqueen.com/en-us/search?q=polo",
+  "Dress shirt": "https://www.alexandermcqueen.com/en-us/ca/men/ready-to-wear/shirts",
+  "Jeans": "https://www.alexandermcqueen.com/en-us/ca/men/ready-to-wear/denim",
+  "Dress pants": "https://www.alexandermcqueen.com/en-us/ca/men/ready-to-wear/trousers",
+  "Sweater": "https://www.alexandermcqueen.com/en-us/ca/men/ready-to-wear/knitwear",
+  "Outerwear": "https://www.alexandermcqueen.com/en-us/ca/men/ready-to-wear/coats-and-outerwear",
+  "Shoes": "https://www.alexandermcqueen.com/en-us/ca/men/shoes"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Fanzine Print T-shirt",
+   "lu": "https://www.alexandermcqueen.com/en-us/pr/fanzine-print-t-shirt-873650QTAER0648.html",
+   "hp": "Logo Oversized T-shirt",
+   "hu": "https://www.alexandermcqueen.com/en-us/pr/logo-oversized-t-shirt-828434QTADE0445.html",
+   "b": "range"
   },
-  "notes": {
-    "avant": "Savile Row skills turned to dark theater",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 3; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "style": "Dark romance and sharp tailoring as a design signature.",
-    "craft": "Every McQueen product page sampled (tailoring, leather, shirts, knit, shoes) says 'Made in Italy' and names no maker, mill or atelier. The site publishes care guidelines only, with no repair service and no account of how or where things are made. On the brand's own pages that is a 2."
+  "Polo": {
+   "lp": "Striped Polo Shirt",
+   "lu": "https://www.alexandermcqueen.com/en-us/pr/striped-polo-shirt-860450QXACQ6207.html",
+   "hp": "Skull Crochet Polo Shirt",
+   "hu": "https://www.alexandermcqueen.com/en-us/pr/skull-crochet-polo-shirt-875528Q1BHP4100.html",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 8,
-    "cities": [
-      ["Atlanta", "GA", 1],
-      ["Beverly Hills", "CA", 1],
-      ["Boston", "MA", 1],
-      ["Costa Mesa", "CA", 1],
-      ["Las Vegas", "NV", 2],
-      ["Miami", "FL", 1],
-      ["New York", "NY", 1]
-    ],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Dress shirt": {
+   "lp": "Harness Shirt (white cotton poplin)",
+   "lu": "https://www.alexandermcqueen.com/en-us/pr/harness-shirt-624753QPN449000.html",
+   "hp": "McQueen Logo Harness Shirt (striped poplin)",
+   "hu": "https://www.alexandermcqueen.com/en-us/pr/mcqueen-logo-harness-shirt-873324QNABM9323.html",
+   "b": "range"
   },
-  "cities": "8 stores, including Las Vegas, Atlanta, Beverly Hills · department stores, and its own site",
-  "region": {
-    "o": [2072, 2075],
-    "s": []
+  "Jeans": {
+   "lp": "Straight Leg Jeans",
+   "lu": "https://www.alexandermcqueen.com/en-us/pr/straight-leg-jeans-845485QYABU4211.html",
+   "hp": "Straight Leg Jeans",
+   "hu": "https://www.alexandermcqueen.com/en-us/pr/straight-leg-jeans-860554QYAB14211.html",
+   "b": "range"
   },
-  "addmen": true,
-  "site": {
-    "domain": "www.alexandermcqueen.com",
-    "platform": "custom",
-    "feed": "sitemap_products",
-    "feed_count": 677,
-    "status": "live_store",
-    "checked": "2026-09-13"
+  "Dress pants": {
+   "lp": "McQueen Classic Selvedge Mohair Pants",
+   "lu": "https://www.alexandermcqueen.com/en-us/pr/mcqueen-classic-selvedge-mohair-pants-615652QRU421000.html",
+   "hp": "Wide Leg Evening Trousers",
+   "hu": "https://www.alexandermcqueen.com/en-us/pr/wide-leg-evening-trousers-873388QUAD59015.html",
+   "b": "range"
   },
-  "tech_evidence": {
-    "names": "no",
-    "origin": "none",
-    "marks": ["none"],
-    "source": "flag_sample",
-    "checked": "2026-09-12"
+  "Sweater": {
+   "lp": "Distressed Skull Jumper",
+   "lu": "https://www.alexandermcqueen.com/en-us/pr/distressed-skull-jumper-858362Q1BA64100.html",
+   "hp": "Distressed Skull Jumper",
+   "hu": "https://www.alexandermcqueen.com/en-us/pr/distressed-skull-jumper-858362Q1BA64100.html",
+   "b": "single"
   },
-  "fibre": {
-    "t": 77,
-    "w": 77,
-    "n": 84,
-    "s": 9,
-    "c": 7,
-    "x": 5,
-    "xh": 0,
-    "sp": "one",
-    "sc": ["puffer jackets", "windbreakers"],
-    "nc": ["t-shirts", "shirts", "jackets"],
-    "st": "complete"
+  "Outerwear": {
+   "lp": "Denim Jacket",
+   "lu": "https://www.alexandermcqueen.com/en-us/pr/denim-jacket-868432QYAB14211.html",
+   "hp": "McQueen Classic Leather Biker Jacket",
+   "hu": "https://www.alexandermcqueen.com/en-us/pr/mcqueen-classic-leather-biker-jacket-626381Q5LDS1000.html",
+   "b": "range"
   },
-  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants", "Outerwear"],
-  "garment_links": {
-    "T-shirt": "https://www.alexandermcqueen.com/en-us/ca/men/ready-to-wear/t-shirts-and-sweatshirts",
-    "Polo": "https://www.alexandermcqueen.com/en-us/search?q=polo",
-    "Dress shirt": "https://www.alexandermcqueen.com/en-us/ca/men/ready-to-wear/shirts",
-    "Jeans": "https://www.alexandermcqueen.com/en-us/ca/men/ready-to-wear/denim",
-    "Dress pants": "https://www.alexandermcqueen.com/en-us/ca/men/ready-to-wear/trousers",
-    "Sweater": "https://www.alexandermcqueen.com/en-us/ca/men/ready-to-wear/knitwear",
-    "Outerwear": "https://www.alexandermcqueen.com/en-us/ca/men/ready-to-wear/coats-and-outerwear",
-    "Shoes": "https://www.alexandermcqueen.com/en-us/ca/men/shoes"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Fanzine Print T-shirt",
-      "lu": "https://www.alexandermcqueen.com/en-us/pr/fanzine-print-t-shirt-873650QTAER0648.html",
-      "hp": "Logo Oversized T-shirt",
-      "hu": "https://www.alexandermcqueen.com/en-us/pr/logo-oversized-t-shirt-828434QTADE0445.html",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Striped Polo Shirt",
-      "lu": "https://www.alexandermcqueen.com/en-us/pr/striped-polo-shirt-860450QXACQ6207.html",
-      "hp": "Skull Crochet Polo Shirt",
-      "hu": "https://www.alexandermcqueen.com/en-us/pr/skull-crochet-polo-shirt-875528Q1BHP4100.html",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Harness Shirt (white cotton poplin)",
-      "lu": "https://www.alexandermcqueen.com/en-us/pr/harness-shirt-624753QPN449000.html",
-      "hp": "McQueen Logo Harness Shirt (striped poplin)",
-      "hu": "https://www.alexandermcqueen.com/en-us/pr/mcqueen-logo-harness-shirt-873324QNABM9323.html",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Straight Leg Jeans",
-      "lu": "https://www.alexandermcqueen.com/en-us/pr/straight-leg-jeans-845485QYABU4211.html",
-      "hp": "Straight Leg Jeans",
-      "hu": "https://www.alexandermcqueen.com/en-us/pr/straight-leg-jeans-860554QYAB14211.html",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "McQueen Classic Selvedge Mohair Pants",
-      "lu": "https://www.alexandermcqueen.com/en-us/pr/mcqueen-classic-selvedge-mohair-pants-615652QRU421000.html",
-      "hp": "Wide Leg Evening Trousers",
-      "hu": "https://www.alexandermcqueen.com/en-us/pr/wide-leg-evening-trousers-873388QUAD59015.html",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Distressed Skull Jumper",
-      "lu": "https://www.alexandermcqueen.com/en-us/pr/distressed-skull-jumper-858362Q1BA64100.html",
-      "hp": "Distressed Skull Jumper",
-      "hu": "https://www.alexandermcqueen.com/en-us/pr/distressed-skull-jumper-858362Q1BA64100.html",
-      "b": "single"
-    },
-    "Outerwear": {
-      "lp": "Denim Jacket",
-      "lu": "https://www.alexandermcqueen.com/en-us/pr/denim-jacket-868432QYAB14211.html",
-      "hp": "McQueen Classic Leather Biker Jacket",
-      "hu": "https://www.alexandermcqueen.com/en-us/pr/mcqueen-classic-leather-biker-jacket-626381Q5LDS1000.html",
-      "b": "range"
-    },
-    "Shoes": {
-      "lp": "Wishbone Loafer",
-      "lu": "https://www.alexandermcqueen.com/en-us/pr/wishbone-loafer-867922WHADV1000.html",
-      "hp": "Wishbone Loafer",
-      "hu": "https://www.alexandermcqueen.com/en-us/pr/wishbone-loafer-867922WHADV1000.html",
-      "b": "single"
-    }
-  },
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.alexandermcqueen.com/en-us/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=52193",
-      "m": "brand filter",
-      "n": "McQ excluded"
-    }
-  },
-  "season": {
-    "l": "Autumn Winter 2026",
-    "t": "runway",
-    "u": "https://www.alexandermcqueen.com/en-us/collections/aw26/looks",
-    "m": "unisex"
-  },
-  "craft_evidence": {
-    "owned": "unclear",
-    "owned_d": "None found on alexandermcqueen.com. The sustainability and product-aftercare pages name no factory, atelier or supplier, and there is no about/house page in the site nav. The parent group (Kering) could not be checked: kering.com was blocked to the fetcher and the search budget was exhausted. A London atelier is widely reported but was NOT verified here.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "every product",
-    "countries": "Italy 8/8. Sample of 8 PDPs: single-breasted pinstripe jacket, leather jacket, harness shirt, pinstripe trousers, t-shirt, embroidered cardigan, oversized sneaker, biker boot.",
-    "heritage": "NC",
-    "repair": "no",
-    "process": "no",
-    "urls": [
-      "https://www.alexandermcqueen.com/en-us/pr/flecked-pinstripe-single-breasted-jacket-868451QRADG1015.html",
-      "https://www.alexandermcqueen.com/en-us/ca/product-aftercare"
-    ],
-    "conf": "high",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Wishbone Loafer",
+   "lu": "https://www.alexandermcqueen.com/en-us/pr/wishbone-loafer-867922WHADV1000.html",
+   "hp": "Wishbone Loafer",
+   "hu": "https://www.alexandermcqueen.com/en-us/pr/wishbone-loafer-867922WHADV1000.html",
+   "b": "single"
   }
+ },
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.alexandermcqueen.com/en-us/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=52193",
+   "m": "brand filter",
+   "n": "McQ excluded"
+  }
+ },
+ "season": {
+  "l": "Autumn Winter 2026",
+  "t": "runway",
+  "u": "https://www.alexandermcqueen.com/en-us/collections/aw26/looks",
+  "m": "unisex"
+ },
+ "craft_evidence": {
+  "owned": "unclear",
+  "owned_d": "None found on alexandermcqueen.com. The sustainability and product-aftercare pages name no factory, atelier or supplier, and there is no about/house page in the site nav. The parent group (Kering) could not be checked: kering.com was blocked to the fetcher and the search budget was exhausted. A London atelier is widely reported but was NOT verified here.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "every product",
+  "countries": "Italy 8/8. Sample of 8 PDPs: single-breasted pinstripe jacket, leather jacket, harness shirt, pinstripe trousers, t-shirt, embroidered cardigan, oversized sneaker, biker boot.",
+  "heritage": "NC",
+  "repair": "no",
+  "process": "no",
+  "urls": [
+   "https://www.alexandermcqueen.com/en-us/pr/flecked-pinstripe-single-breasted-jacket-868451QRADG1015.html",
+   "https://www.alexandermcqueen.com/en-us/ca/product-aftercare"
+  ],
+  "conf": "high",
+  "read": "2026-10-03"
+ }
 }

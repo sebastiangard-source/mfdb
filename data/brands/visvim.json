@@ -1,231 +1,293 @@
 {
-  "name": "Visvim",
-  "band": "trueLux",
-  "seat": 177,
-  "dagger": 1,
-  "focus": {
-    "tech": 2,
-    "comfort": 3,
-    "craft": 2,
-    "style": 4
-  },
-  "fabric": {
-    "denim": 4,
-    "cashmere": 1,
-    "linen": 2,
-    "cotton": 3,
-    "wool": 3,
-    "synth": 1
-  },
-  "dials": {
-    "dur": 4,
-    "forg": 3,
-    "fuss": 3,
-    "shoes": 4,
-    "status": 3,
-    "murica": 2,
-    "street": 3,
-    "avant": 3,
-    "weird": 2,
-    "whitet": 2,
-    "logo": 1,
-    "western": 3,
-    "rock": 1,
-    "workwear": 3,
-    "outdoor": 3,
-    "surf": 1
-  },
-  "why": "Clothing and footwear made with traditional techniques — natural dyes, hand-loomed cloth — at high prices.",
-  "origin": "Founded in Tokyo in 2001 by Hiroki Nakamura, formerly a designer at Burton.",
-  "say": "VIZ-vim",
-  "chan": ["O", "I"],
-  "conf": "L",
-  "forgc": [4, 2, 1],
-  "onething": {
-    "p": "FBT",
-    "u": "https://www.ssense.com/en-us/men/designers/visvim",
-    "n": "works"
-  },
-  "prices": [
-    [215, 525],
-    [960, 960],
-    [770, 1860],
-    [510, 1990],
-    [829, 1190],
-    [1060, 7755],
-    [705, 6740],
-    [765, 2406]
+ "name": "Visvim",
+ "band": "trueLux",
+ "seat": 177,
+ "dagger": 1,
+ "focus": {
+  "tech": 2,
+  "comfort": 3,
+  "craft": 2,
+  "style": 4
+ },
+ "fabric": {
+  "denim": 4,
+  "cashmere": 1,
+  "linen": 2,
+  "cotton": 3,
+  "wool": 3,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 4,
+  "forg": 3,
+  "fuss": 3,
+  "shoes": 4,
+  "status": 3,
+  "murica": 2,
+  "street": 3,
+  "avant": 3,
+  "weird": 2,
+  "whitet": 2,
+  "logo": 1,
+  "western": 3,
+  "rock": 1,
+  "workwear": 3,
+  "outdoor": 3,
+  "surf": 1
+ },
+ "why": "Clothing and footwear made with traditional techniques — natural dyes, hand-loomed cloth — at high prices.",
+ "origin": "Founded in Tokyo in 2001 by Hiroki Nakamura, formerly a designer at Burton.",
+ "say": "VIZ-vim",
+ "chan": [
+  "O",
+  "I"
+ ],
+ "conf": "L",
+ "forgc": [
+  4,
+  2,
+  1
+ ],
+ "onething": {
+  "p": "FBT",
+  "u": "https://www.ssense.com/en-us/men/designers/visvim",
+  "n": "works"
+ },
+ "prices": [
+  [
+   215,
+   525
   ],
-  "shoelink": {
-    "t": "FBT",
-    "u": "https://www.ssense.com/en-us/men/designers/visvim"
+  [
+   960,
+   960
+  ],
+  [
+   770,
+   1860
+  ],
+  [
+   510,
+   1990
+  ],
+  [
+   829,
+   1190
+  ],
+  [
+   1060,
+   7755
+  ],
+  [
+   705,
+   6740
+  ],
+  [
+   765,
+   2406
+  ]
+ ],
+ "shoelink": {
+  "t": "FBT",
+  "u": "https://www.ssense.com/en-us/men/designers/visvim"
+ },
+ "notes": {
+  "denim": "natural-indigo, loom-woven obsession",
+  "craft": "visvim owns no making that its site shows: its dye work is done by an outside workshop in Ome City and its kasuri by Tomihisa Orimono, a named independent weaver. Every PDP states a country (mostly Japan; Virgil boots Made in China) but none names a maker or mill. Process is richly documented editorially, but documentation is not owned making.",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 1; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+ },
+ "doors": {
+  "c": "full",
+  "n": 3,
+  "cities": [
+   [
+    "Carmel",
+    "CA",
+    1
+   ],
+   [
+    "Los Angeles",
+    "CA",
+    1
+   ],
+   [
+    "Santa Fe",
+    "NM",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 0,
+  "con": 0
+ },
+ "cities": "3 stores — Carmel-by-the-Sea, Los Angeles, Santa Fe · independent menswear shops, and its own site",
+ "region": {
+  "o": [],
+  "s": [
+   123
+  ]
+ },
+ "site": {
+  "domain": "shop.visvim.com",
+  "platform": "custom",
+  "feed": "category_crawl",
+  "feed_count": 480,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "both",
+  "marks": [
+   "GORE-TEX(R)",
+   "CORDURA(R)",
+   "WINDSTOPPER",
+   "SUPIMA",
+   "Vibram(R)",
+   "riri(R) (Swiss riri)",
+   "CROWN (vintage zips)",
+   "Lonfresh",
+   "house: Mawata, Katazurizome, Gara-bou, Kasezome, Doro-zome, Cevian-ori, Nishijin-ori, Kurume Kasuri, Tango Chirimen, visvim harmonious process, Goodyear welt"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 873,
+  "w": 862,
+  "n": 92,
+  "s": 4,
+  "c": 3,
+  "x": 0,
+  "xh": 0,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "cut and sew",
+   "outerwear",
+   "shirt"
+  ],
+  "st": "complete"
+ },
+ "shop": "https://shop.visvim.com/search?keywords=",
+ "price_range_only": [
+  "Dress shirt",
+  "Jeans",
+  "Dress pants",
+  "Sweater",
+  "Outerwear",
+  "Shoes"
+ ],
+ "garment_links": {
+  "T-shirt": "https://shop.visvim.com/men/mensclothing?item_category=Cut--AND--Sew",
+  "Dress shirt": "https://shop.visvim.com/men/mensclothing?item_category=Shirt",
+  "Jeans": "https://shop.visvim.com/men/mensclothing?item_category=Denim",
+  "Dress pants": "https://shop.visvim.com/men/mensclothing?item_category=Pants",
+  "Sweater": "https://shop.visvim.com/men/mensclothing?item_category=Knit",
+  "Outerwear": "https://shop.visvim.com/men/mensclothing?item_category=Outerwear",
+  "Shoes": "https://shop.visvim.com/men/mensfootwear"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "JUMBO TEE S/S GOOD QUALITY",
+   "lu": "https://shop.visvim.com/0123305010004",
+   "hp": "JUMBO TEE S/S (SUPERFINE)",
+   "hu": "https://shop.visvim.com/0125205010004",
+   "b": "pair"
   },
-  "notes": {
-    "denim": "natural-indigo, loom-woven obsession",
-    "craft": "visvim owns no making that its site shows: its dye work is done by an outside workshop in Ome City and its kasuri by Tomihisa Orimono, a named independent weaver. Every PDP states a country (mostly Japan; Virgil boots Made in China) but none names a maker or mill. Process is richly documented editorially, but documentation is not owned making.",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 1; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+  "Polo": {
+   "lp": "POLO SHIRT KNIT S/S (SIC)",
+   "lu": "https://shop.visvim.com/0123205012006",
+   "hp": "POLO SHIRT KNIT S/S (SIC)",
+   "hu": "https://shop.visvim.com/0123205012006",
+   "b": "single"
   },
-  "doors": {
-    "c": "full",
-    "n": 3,
-    "cities": [["Carmel-by-the-Sea", "CA", 1], ["Los Angeles", "CA", 1], ["Santa Fe", "NM", 1]],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Dress shirt": {
+   "lp": "BOOMER SHIRT L/S (W/L)",
+   "lu": "https://shop.visvim.com/0123105011004",
+   "hp": "SOCIAL SCULPTURE SHIRT DRY CRASH",
+   "hu": "https://shop.visvim.com/0126205007003",
+   "b": "range"
   },
-  "cities": "3 stores — Carmel-by-the-Sea, Los Angeles, Santa Fe · independent menswear shops, and its own site",
-  "region": {
-    "o": [],
-    "s": [123]
+  "Jeans": {
+   "lp": "SOCIAL SCULPTURE 03 UNWASHED",
+   "lu": "https://shop.visvim.com/0123105005004",
+   "hp": "SOCIAL SCULPTURE 01 NARROW DMGD-41",
+   "hu": "https://shop.visvim.com/0126105005006",
+   "b": "range"
   },
-  "site": {
-    "domain": "shop.visvim.com",
-    "platform": "custom",
-    "feed": "category_crawl",
-    "feed_count": 480,
-    "status": "live_store",
-    "checked": "2026-09-13"
+  "Dress pants": {
+   "lp": "DALTON SLACKS (W/L)",
+   "lu": "https://shop.visvim.com/0125305008001",
+   "hp": "WALKER SLACKS",
+   "hu": "https://shop.visvim.com/0126105008018",
+   "b": "range"
   },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "both",
-    "marks": [
-      "GORE-TEX(R)",
-      "CORDURA(R)",
-      "WINDSTOPPER",
-      "SUPIMA",
-      "Vibram(R)",
-      "riri(R) (Swiss riri)",
-      "CROWN (vintage zips)",
-      "Lonfresh",
-      "house: Mawata, Katazurizome, Gara-bou, Kasezome, Doro-zome, Cevian-ori, Nishijin-ori, Kurume Kasuri, Tango Chirimen, visvim harmonious process, Goodyear welt"
-    ],
-    "source": "census",
-    "checked": "2026-09-12"
+  "Sweater": {
+   "lp": "AMPLUS V-NECK KNIT L/S",
+   "lu": "https://shop.visvim.com/0121205012005",
+   "hp": "COWICHAN GRADIENT HAND-KNIT (N.D.)",
+   "hu": "https://shop.visvim.com/0121205012001",
+   "b": "range"
   },
-  "fibre": {
-    "t": 873,
-    "w": 862,
-    "n": 92,
-    "s": 4,
-    "c": 3,
-    "x": 0,
-    "xh": 0,
-    "sp": "one",
-    "sc": [],
-    "nc": ["cut and sew", "outerwear", "shirt"],
-    "st": "complete"
+  "Outerwear": {
+   "lp": "SS KIYARI JKT UNWASHED",
+   "lu": "https://shop.visvim.com/0121205006008",
+   "hp": "KERCHIEF DOWN JKT P.W.",
+   "hu": "https://shop.visvim.com/0123105013001",
+   "b": "range"
   },
-  "shop": "https://shop.visvim.com/search?keywords=",
-  "price_range_only": ["Dress shirt", "Jeans", "Dress pants", "Sweater", "Outerwear", "Shoes"],
-  "garment_links": {
-    "T-shirt": "https://shop.visvim.com/men/mensclothing?item_category=Cut--AND--Sew",
-    "Dress shirt": "https://shop.visvim.com/men/mensclothing?item_category=Shirt",
-    "Jeans": "https://shop.visvim.com/men/mensclothing?item_category=Denim",
-    "Dress pants": "https://shop.visvim.com/men/mensclothing?item_category=Pants",
-    "Sweater": "https://shop.visvim.com/men/mensclothing?item_category=Knit",
-    "Outerwear": "https://shop.visvim.com/men/mensclothing?item_category=Outerwear",
-    "Shoes": "https://shop.visvim.com/men/mensfootwear"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "JUMBO TEE S/S GOOD QUALITY",
-      "lu": "https://shop.visvim.com/0123305010004",
-      "hp": "JUMBO TEE S/S (SUPERFINE)",
-      "hu": "https://shop.visvim.com/0125205010004",
-      "b": "pair"
-    },
-    "Polo": {
-      "lp": "POLO SHIRT KNIT S/S (SIC)",
-      "lu": "https://shop.visvim.com/0123205012006",
-      "hp": "POLO SHIRT KNIT S/S (SIC)",
-      "hu": "https://shop.visvim.com/0123205012006",
-      "b": "single"
-    },
-    "Dress shirt": {
-      "lp": "BOOMER SHIRT L/S (W/L)",
-      "lu": "https://shop.visvim.com/0123105011004",
-      "hp": "SOCIAL SCULPTURE SHIRT DRY CRASH",
-      "hu": "https://shop.visvim.com/0126205007003",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "SOCIAL SCULPTURE 03 UNWASHED",
-      "lu": "https://shop.visvim.com/0123105005004",
-      "hp": "SOCIAL SCULPTURE 01 NARROW DMGD-41",
-      "hu": "https://shop.visvim.com/0126105005006",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "DALTON SLACKS (W/L)",
-      "lu": "https://shop.visvim.com/0125305008001",
-      "hp": "WALKER SLACKS",
-      "hu": "https://shop.visvim.com/0126105008018",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "AMPLUS V-NECK KNIT L/S",
-      "lu": "https://shop.visvim.com/0121205012005",
-      "hp": "COWICHAN GRADIENT HAND-KNIT (N.D.)",
-      "hu": "https://shop.visvim.com/0121205012001",
-      "b": "range"
-    },
-    "Outerwear": {
-      "lp": "SS KIYARI JKT UNWASHED",
-      "lu": "https://shop.visvim.com/0121205006008",
-      "hp": "KERCHIEF DOWN JKT P.W.",
-      "hu": "https://shop.visvim.com/0123105013001",
-      "b": "range"
-    },
-    "Shoes": {
-      "lp": "KIEFER MID FORAGE",
-      "lu": "https://shop.visvim.com/0121201001004",
-      "hp": "GORNERGRAT MID-FOLK",
-      "hu": "https://shop.visvim.com/0125202002006",
-      "b": "range"
-    }
-  },
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://shop.visvim.com/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "VISVIM SPORT (VS-prefixed pieces under the visvim brand facet), VISVIM MOTORS CLUB"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=276225",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "season": {
-    "l": "FW26",
-    "t": "lookbook",
-    "u": "https://www.visvim.tv/lookbook/visvim/fw26/",
-    "m": "yes"
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "No owned factory, mill or dye house found. visvim.tv/about speaks only of connecting the market 'with the work of craftsmen' (unnamed). The Dissertation pages describe OUTSIDE workshops: natural dyeing done at 'a workshop in Ome City on the outskirts of Tokyo' (unnamed); Kurume kasuri woven by Tomihisa Orimono (Yame, Fukuoka), not visvim-owned.",
-    "makers": "some",
-    "mills": "no",
-    "madein": "every product",
-    "countries": "Japan 4/5, China 1/5 (sample of 5 PDPs: 2 jackets incl. denim, shirt, denim trousers, Virgil boots made in China); one knit PDP not read (429)",
-    "heritage": "vague",
-    "repair": "no",
-    "process": "yes",
-    "urls": [
-      "https://www.visvim.tv/dissertation/processing/natural-dyeing.html",
-      "https://shop.visvim.com/0126202002003"
-    ],
-    "conf": "medium",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "KIEFER MID FORAGE",
+   "lu": "https://shop.visvim.com/0121201001004",
+   "hp": "GORNERGRAT MID-FOLK",
+   "hu": "https://shop.visvim.com/0125202002006",
+   "b": "range"
   }
+ },
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://shop.visvim.com/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "VISVIM SPORT (VS-prefixed pieces under the visvim brand facet), VISVIM MOTORS CLUB"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=276225",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "season": {
+  "l": "FW26",
+  "t": "lookbook",
+  "u": "https://www.visvim.tv/lookbook/visvim/fw26/",
+  "m": "yes"
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "No owned factory, mill or dye house found. visvim.tv/about speaks only of connecting the market 'with the work of craftsmen' (unnamed). The Dissertation pages describe OUTSIDE workshops: natural dyeing done at 'a workshop in Ome City on the outskirts of Tokyo' (unnamed); Kurume kasuri woven by Tomihisa Orimono (Yame, Fukuoka), not visvim-owned.",
+  "makers": "some",
+  "mills": "no",
+  "madein": "every product",
+  "countries": "Japan 4/5, China 1/5 (sample of 5 PDPs: 2 jackets incl. denim, shirt, denim trousers, Virgil boots made in China); one knit PDP not read (429)",
+  "heritage": "vague",
+  "repair": "no",
+  "process": "yes",
+  "urls": [
+   "https://www.visvim.tv/dissertation/processing/natural-dyeing.html",
+   "https://shop.visvim.com/0126202002003"
+  ],
+  "conf": "medium",
+  "read": "2026-10-03"
+ }
 }

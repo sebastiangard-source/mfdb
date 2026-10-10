@@ -1,432 +1,1259 @@
 {
-  "name": "J.McLaughlin",
-  "band": "accessible",
-  "seat": 66,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 3,
-    "craft": 1,
-    "style": 3
+ "name": "J.McLaughlin",
+ "band": "accessible",
+ "seat": 66,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 3,
+  "craft": 1,
+  "style": 3
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 2,
+  "cotton": 3,
+  "wool": 2,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 3,
+  "fuss": -1,
+  "golffice": -1,
+  "golf": 3,
+  "status": 2,
+  "finbro": 2,
+  "ivy": 3,
+  "murica": 3,
+  "prep": 4,
+  "boat": 2,
+  "racquet": 3,
+  "whitet": 2,
+  "logo": 2,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 2
+ },
+ "why": "Preppy casual clothing sold through a large network of small stores in resort and suburban towns; the men's range is the smaller part.",
+ "origin": "Founded in New York in 1977 by the brothers Kevin and Jay McLaughlin; owned by Brentwood Associates since 2015.",
+ "say": "jay mick-LOCK-lin",
+ "chan": [
+  "O"
+ ],
+ "conf": "H",
+ "forgc": [
+  3,
+  3,
+  1
+ ],
+ "shop": "https://www.jmclaughlin.com/search?q=",
+ "onething": {
+  "p": "Pima knit polo",
+  "u": "https://www.jmclaughlin.com/collections/men-knits-polo",
+  "n": "no named men’s signature exists — Catalina Cloth, the house trademark, is women’s-only; collection link"
+ },
+ "prices": [
+  [
+   108,
+   108
+  ],
+  [
+   128,
+   188
+  ],
+  [
+   148,
+   168
+  ],
+  [
+   198,
+   198
+  ],
+  [
+   298,
+   298
+  ],
+  [
+   298,
+   328
+  ],
+  [
+   348,
+   998
+  ],
+  [
+   328,
+   565
+  ]
+ ],
+ "notes": {
+  "ivy": "country-club classic sportswear that avoids the word prep while the founder starts using it again",
+  "golf": "the club-town store map is the distribution strategy",
+  "cotton": "classic American sportswear staples — polos and five-pockets in the quiet register",
+  "prep": "main-street prep — the town-by-town model",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 3; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "Every men's PDP sampled says only 'Imported.' with fiber and care; no country, maker or mill is named. The our-story page gives a 1977 founding and Brooklyn HQ but says nothing about where or by whom the clothes are made."
+ },
+ "doors": {
+  "c": "full",
+  "n": 192,
+  "cities": [
+   [
+    "Alexandria",
+    "VA",
+    1
+   ],
+   [
+    "Alpharetta",
+    "GA",
+    1
+   ],
+   [
+    "Andover",
+    "MA",
+    1
+   ],
+   [
+    "Annapolis",
+    "MD",
+    1
+   ],
+   [
+    "Atlanta",
+    "GA",
+    2
+   ],
+   [
+    "Austin",
+    "TX",
+    1
+   ],
+   [
+    "Bay Head",
+    "NJ",
+    1
+   ],
+   [
+    "Bedford",
+    "NY",
+    1
+   ],
+   [
+    "Belleair Bluffs",
+    "FL",
+    1
+   ],
+   [
+    "Bethesda",
+    "MD",
+    2
+   ],
+   [
+    "Birmingham",
+    "AL",
+    1
+   ],
+   [
+    "Blowing Rock",
+    "NC",
+    1
+   ],
+   [
+    "Bluffton",
+    "SC",
+    1
+   ],
+   [
+    "Boca Grande",
+    "FL",
+    1
+   ],
+   [
+    "Boca Raton",
+    "FL",
+    1
+   ],
+   [
+    "Boston",
+    "MA",
+    1
+   ],
+   [
+    "Bridgehampton",
+    "NY",
+    1
+   ],
+   [
+    "Bronxville",
+    "NY",
+    1
+   ],
+   [
+    "Captiva",
+    "FL",
+    1
+   ],
+   [
+    "Carmel-By-The-Sea",
+    "CA",
+    1
+   ],
+   [
+    "Cashiers",
+    "NC",
+    1
+   ],
+   [
+    "Chapel Hill",
+    "NC",
+    1
+   ],
+   [
+    "Charleston",
+    "SC",
+    1
+   ],
+   [
+    "Charlotte",
+    "NC",
+    1
+   ],
+   [
+    "Charlottesville",
+    "VA",
+    1
+   ],
+   [
+    "Chatham",
+    "MA",
+    1
+   ],
+   [
+    "Chesterfield",
+    "MO",
+    1
+   ],
+   [
+    "Chestnut Hill",
+    "MA",
+    1
+   ],
+   [
+    "Cincinnati",
+    "OH",
+    1
+   ],
+   [
+    "Cleveland",
+    "OH",
+    1
+   ],
+   [
+    "Columbia",
+    "SC",
+    1
+   ],
+   [
+    "Concord",
+    "MA",
+    1
+   ],
+   [
+    "Cranston",
+    "RI",
+    1
+   ],
+   [
+    "Dallas",
+    "TX",
+    1
+   ],
+   [
+    "Danville",
+    "CA",
+    1
+   ],
+   [
+    "Darien",
+    "CT",
+    1
+   ],
+   [
+    "Davidson",
+    "NC",
+    1
+   ],
+   [
+    "Delray Beach",
+    "FL",
+    1
+   ],
+   [
+    "Denver",
+    "CO",
+    1
+   ],
+   [
+    "Destin",
+    "FL",
+    1
+   ],
+   [
+    "Edgartown",
+    "MA",
+    1
+   ],
+   [
+    "Edina",
+    "MN",
+    1
+   ],
+   [
+    "Essex",
+    "CT",
+    1
+   ],
+   [
+    "Fairfax",
+    "VA",
+    1
+   ],
+   [
+    "Fernandina Beach",
+    "FL",
+    1
+   ],
+   [
+    "Ft Myers",
+    "FL",
+    1
+   ],
+   [
+    "Ft Worth",
+    "TX",
+    1
+   ],
+   [
+    "Ft. Lauderdale",
+    "FL",
+    1
+   ],
+   [
+    "Garden City",
+    "NY",
+    1
+   ],
+   [
+    "Geneva",
+    "IL",
+    1
+   ],
+   [
+    "Greensboro",
+    "NC",
+    1
+   ],
+   [
+    "Greenville",
+    "DE",
+    1
+   ],
+   [
+    "Greenville",
+    "SC",
+    1
+   ],
+   [
+    "Greenwich",
+    "CT",
+    1
+   ],
+   [
+    "Grosse Pointe",
+    "MI",
+    1
+   ],
+   [
+    "Hanover",
+    "NH",
+    1
+   ],
+   [
+    "Harbor Springs",
+    "MI",
+    1
+   ],
+   [
+    "Haverford",
+    "PA",
+    1
+   ],
+   [
+    "Highlands",
+    "NC",
+    1
+   ],
+   [
+    "Hilton Head Island",
+    "SC",
+    1
+   ],
+   [
+    "Hingham",
+    "MA",
+    1
+   ],
+   [
+    "Hinsdale",
+    "IL",
+    1
+   ],
+   [
+    "Ho-Ho-Kus",
+    "NJ",
+    1
+   ],
+   [
+    "Hobe Sound",
+    "FL",
+    1
+   ],
+   [
+    "Houston",
+    "TX",
+    2
+   ],
+   [
+    "Huntington",
+    "NY",
+    1
+   ],
+   [
+    "Indianapolis",
+    "IN",
+    1
+   ],
+   [
+    "Jackson",
+    "MS",
+    1
+   ],
+   [
+    "Jacksonville",
+    "FL",
+    1
+   ],
+   [
+    "Johns Island",
+    "SC",
+    1
+   ],
+   [
+    "Kansas City",
+    "MO",
+    1
+   ],
+   [
+    "Key Largo",
+    "FL",
+    1
+   ],
+   [
+    "Kihei",
+    "HI",
+    1
+   ],
+   [
+    "Kirkland",
+    "WA",
+    1
+   ],
+   [
+    "La Jolla",
+    "CA",
+    1
+   ],
+   [
+    "Lafayette",
+    "CA",
+    1
+   ],
+   [
+    "Lake Forest",
+    "IL",
+    1
+   ],
+   [
+    "Larchmont",
+    "NY",
+    1
+   ],
+   [
+    "Latham",
+    "NY",
+    1
+   ],
+   [
+    "Lexington",
+    "KY",
+    1
+   ],
+   [
+    "Litchfield",
+    "CT",
+    1
+   ],
+   [
+    "Little Rock",
+    "AR",
+    1
+   ],
+   [
+    "Locust Valley",
+    "NY",
+    1
+   ],
+   [
+    "Longboat Key",
+    "FL",
+    1
+   ],
+   [
+    "Los Gatos",
+    "CA",
+    1
+   ],
+   [
+    "Louisville",
+    "KY",
+    1
+   ],
+   [
+    "Madison",
+    "CT",
+    1
+   ],
+   [
+    "Madison",
+    "WI",
+    1
+   ],
+   [
+    "Manalapan",
+    "FL",
+    1
+   ],
+   [
+    "Manchester by the Sea",
+    "MA",
+    1
+   ],
+   [
+    "Marco Island",
+    "FL",
+    1
+   ],
+   [
+    "Mashpee",
+    "MA",
+    1
+   ],
+   [
+    "McLean",
+    "VA",
+    1
+   ],
+   [
+    "Melbourne",
+    "FL",
+    1
+   ],
+   [
+    "Memphis",
+    "TN",
+    1
+   ],
+   [
+    "Middleburg",
+    "VA",
+    1
+   ],
+   [
+    "Mill Valley",
+    "CA",
+    1
+   ],
+   [
+    "Millbrook",
+    "NY",
+    1
+   ],
+   [
+    "Montecito",
+    "CA",
+    1
+   ],
+   [
+    "Morristown",
+    "NJ",
+    1
+   ],
+   [
+    "Mount Pleasant",
+    "SC",
+    1
+   ],
+   [
+    "Mt. Lebanon",
+    "PA",
+    1
+   ],
+   [
+    "Nantucket",
+    "MA",
+    1
+   ],
+   [
+    "Napa",
+    "CA",
+    1
+   ],
+   [
+    "Naperville",
+    "IL",
+    1
+   ],
+   [
+    "Nashville",
+    "TN",
+    1
+   ],
+   [
+    "New Canaan",
+    "CT",
+    1
+   ],
+   [
+    "New Orleans",
+    "LA",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    2
+   ],
+   [
+    "Newburyport",
+    "MA",
+    1
+   ],
+   [
+    "Newport",
+    "RI",
+    1
+   ],
+   [
+    "Newport Beach",
+    "CA",
+    1
+   ],
+   [
+    "Newtown",
+    "PA",
+    1
+   ],
+   [
+    "Nichols Hills",
+    "OK",
+    1
+   ],
+   [
+    "North Naples",
+    "FL",
+    1
+   ],
+   [
+    "Ocala",
+    "FL",
+    1
+   ],
+   [
+    "Omaha",
+    "NE",
+    1
+   ],
+   [
+    "Orlando",
+    "FL",
+    1
+   ],
+   [
+    "Osterville",
+    "MA",
+    1
+   ],
+   [
+    "Palm Beach",
+    "FL",
+    2
+   ],
+   [
+    "Palm Beach Gardens",
+    "FL",
+    1
+   ],
+   [
+    "Palm Desert",
+    "CA",
+    1
+   ],
+   [
+    "Palo Alto",
+    "CA",
+    1
+   ],
+   [
+    "Pawleys Island",
+    "SC",
+    1
+   ],
+   [
+    "Philadelphia",
+    "PA",
+    1
+   ],
+   [
+    "Phoenix",
+    "AZ",
+    1
+   ],
+   [
+    "Ponte Vedra Beach",
+    "FL",
+    1
+   ],
+   [
+    "Princeton",
+    "NJ",
+    1
+   ],
+   [
+    "Providence",
+    "RI",
+    1
+   ],
+   [
+    "Raleigh",
+    "NC",
+    1
+   ],
+   [
+    "Reston",
+    "VA",
+    1
+   ],
+   [
+    "Rhinebeck",
+    "NY",
+    1
+   ],
+   [
+    "Richmond",
+    "VA",
+    1
+   ],
+   [
+    "Ridgefield",
+    "CT",
+    1
+   ],
+   [
+    "Rochester",
+    "NY",
+    1
+   ],
+   [
+    "Rocky River",
+    "OH",
+    1
+   ],
+   [
+    "Rumson",
+    "NJ",
+    1
+   ],
+   [
+    "Ruxton",
+    "MD",
+    1
+   ],
+   [
+    "San Antonio",
+    "TX",
+    1
+   ],
+   [
+    "San Marino",
+    "CA",
+    1
+   ],
+   [
+    "Sanibel",
+    "FL",
+    1
+   ],
+   [
+    "Santa Monica",
+    "CA",
+    1
+   ],
+   [
+    "Sarasota",
+    "FL",
+    1
+   ],
+   [
+    "Scottsdale",
+    "AZ",
+    1
+   ],
+   [
+    "Sewickley",
+    "PA",
+    1
+   ],
+   [
+    "Short Pump",
+    "VA",
+    1
+   ],
+   [
+    "Skaneateles",
+    "NY",
+    1
+   ],
+   [
+    "South Naples",
+    "FL",
+    1
+   ],
+   [
+    "Southampton",
+    "NY",
+    1
+   ],
+   [
+    "Southern Pines",
+    "NC",
+    1
+   ],
+   [
+    "Southlake",
+    "TX",
+    1
+   ],
+   [
+    "Southold",
+    "NY",
+    1
+   ],
+   [
+    "Southport",
+    "CT",
+    1
+   ],
+   [
+    "Spring Lake",
+    "NJ",
+    1
+   ],
+   [
+    "St. Louis",
+    "MO",
+    1
+   ],
+   [
+    "St. Michaels",
+    "MD",
+    1
+   ],
+   [
+    "St. Simons",
+    "GA",
+    1
+   ],
+   [
+    "Stuart",
+    "FL",
+    1
+   ],
+   [
+    "Summit",
+    "NJ",
+    1
+   ],
+   [
+    "Sun Valley",
+    "ID",
+    1
+   ],
+   [
+    "Tallahassee",
+    "FL",
+    1
+   ],
+   [
+    "Tampa",
+    "FL",
+    1
+   ],
+   [
+    "The Woodlands",
+    "TX",
+    1
+   ],
+   [
+    "Thomasville",
+    "GA",
+    1
+   ],
+   [
+    "Troy",
+    "MI",
+    1
+   ],
+   [
+    "Tucson",
+    "AZ",
+    1
+   ],
+   [
+    "Upper Arlington",
+    "OH",
+    1
+   ],
+   [
+    "Upper Montclair",
+    "NJ",
+    1
+   ],
+   [
+    "Vero Beach",
+    "FL",
+    1
+   ],
+   [
+    "Virginia Beach",
+    "VA",
+    1
+   ],
+   [
+    "Washington D.C.",
+    "DC",
+    1
+   ],
+   [
+    "Watch Hill",
+    "RI",
+    1
+   ],
+   [
+    "Watersound",
+    "FL",
+    1
+   ],
+   [
+    "Wayne",
+    "PA",
+    1
+   ],
+   [
+    "Wayzata",
+    "MN",
+    1
+   ],
+   [
+    "Wellesley",
+    "MA",
+    1
+   ],
+   [
+    "Wells",
+    "ME",
+    1
+   ],
+   [
+    "West Hartford",
+    "CT",
+    1
+   ],
+   [
+    "West Houston",
+    "TX",
+    1
+   ],
+   [
+    "Westfield",
+    "NJ",
+    1
+   ],
+   [
+    "Westport",
+    "CT",
+    1
+   ],
+   [
+    "Whitefish Bay",
+    "WI",
+    1
+   ],
+   [
+    "Williamsburg",
+    "VA",
+    1
+   ],
+   [
+    "Wilmington",
+    "NC",
+    1
+   ],
+   [
+    "Winnetka",
+    "IL",
+    1
+   ],
+   [
+    "Winston-Salem",
+    "NC",
+    1
+   ],
+   [
+    "Winter Park",
+    "FL",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 0,
+  "con": 0
+ },
+ "cities": "192 stores across the US, and its own site",
+ "region": {
+  "o": [
+   1711,
+   1712,
+   1715,
+   1716,
+   1717,
+   1718,
+   1721,
+   1726,
+   1727,
+   1729,
+   1731,
+   1736,
+   1737,
+   1739,
+   1742,
+   1747,
+   1748,
+   1749,
+   1752,
+   1753,
+   1755,
+   1756,
+   1757,
+   1764,
+   1765,
+   1768,
+   1774,
+   1775,
+   1785,
+   1786,
+   1793,
+   1795,
+   1798,
+   1800,
+   1806,
+   1809,
+   1810,
+   1811,
+   1814,
+   1826,
+   1828,
+   1835,
+   1838,
+   1841,
+   1842,
+   1844,
+   1846,
+   1849,
+   1851,
+   1860,
+   1863,
+   1864,
+   1865,
+   1869,
+   1878,
+   1881,
+   1885,
+   1894,
+   1898,
+   1899,
+   1902
+  ],
+  "s": []
+ },
+ "addmen": true,
+ "site": {
+  "domain": "jmclaughlin.com",
+  "platform": "shopify",
+  "feed": "sitemap_products",
+  "feed_count": 996,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "unclear",
+  "marks": [
+   "Catalina Cloth (R)"
+  ],
+  "source": "flag_sample",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 127,
+  "w": 126,
+  "n": 94,
+  "s": 4,
+  "c": 1,
+  "x": 11,
+  "xh": 0,
+  "sp": "one",
+  "sc": [
+   "men-swim"
+  ],
+  "nc": [
+   "men-shirts",
+   "men-jackets-outerwear",
+   "men-pants"
+  ],
+  "st": "complete"
+ },
+ "price_range_only": [
+  "Polo",
+  "Dress shirt",
+  "Outerwear"
+ ],
+ "garment_links": {
+  "Polo": "https://www.jmclaughlin.com/collections/men-knits-polo-polo",
+  "Dress shirt": "https://www.jmclaughlin.com/collections/men-shirts",
+  "Dress pants": "https://www.jmclaughlin.com/collections/men-pants",
+  "Sweater": "https://www.jmclaughlin.com/collections/men-sweaters",
+  "Outerwear": "https://www.jmclaughlin.com/collections/men-jackets-outerwear",
+  "Shoes": "https://www.jmclaughlin.com/collections/men-shoes"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Ryan Tee in Weston",
+   "lu": "https://www.jmclaughlin.com/products/ryan-tee-weston-off-white-navy",
+   "hp": "Ryan Tee in Weston",
+   "hu": "https://www.jmclaughlin.com/products/ryan-tee-weston-off-white-navy",
+   "b": "single"
   },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 1,
-    "linen": 2,
-    "cotton": 3,
-    "wool": 2,
-    "synth": 1
+  "Polo": {
+   "lp": "Mantle Pique Polo",
+   "lu": "https://www.jmclaughlin.com/products/mantle-polo-solid-white",
+   "hp": "Amalfi Linen Blend Polo",
+   "hu": "https://www.jmclaughlin.com/products/amalfi-linen-blend-polo-solid-navy",
+   "b": "range"
   },
-  "dials": {
-    "dur": 3,
-    "forg": 3,
-    "fuss": -1,
-    "golffice": -1,
-    "golf": 3,
-    "status": 2,
-    "finbro": 2,
-    "ivy": 3,
-    "murica": 3,
-    "prep": 4,
-    "boat": 2,
-    "racquet": 3,
-    "whitet": 2,
-    "logo": 2,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 2
+  "Dress shirt": {
+   "lp": "Gramercy Cotton Shirt",
+   "lu": "https://www.jmclaughlin.com/products/gramercy-cotton-shirt-solid-pink",
+   "hp": "Tribeca Chambray Shirt",
+   "hu": "https://www.jmclaughlin.com/products/tribeca-chambray-shirt-solid-lt-chambray",
+   "b": "range"
   },
-  "why": "Preppy casual clothing sold through a large network of small stores in resort and suburban towns; the men's range is the smaller part.",
-  "origin": "Founded in New York in 1977 by the brothers Kevin and Jay McLaughlin; owned by Brentwood Associates since 2015.",
-  "say": "jay mick-LOCK-lin",
-  "chan": ["O"],
-  "conf": "H",
-  "forgc": [3, 3, 1],
-  "shop": "https://www.jmclaughlin.com/search?q=",
-  "onething": {
-    "p": "Pima knit polo",
-    "u": "https://www.jmclaughlin.com/collections/men-knits-polo",
-    "n": "no named men’s signature exists — Catalina Cloth, the house trademark, is women’s-only; collection link"
+  "Jeans": {
+   "lp": "Mercer Jeans",
+   "lu": "https://www.jmclaughlin.com/products/mercer-jeans-solid-dk-denim",
+   "hp": "Mercer Jeans",
+   "hu": "https://www.jmclaughlin.com/products/mercer-jeans-solid-dk-denim",
+   "b": "single"
   },
-  "prices": [[108, 108], [128, 188], [148, 168], [198, 198], [298, 298], [298, 328], [348, 998], [328, 565]],
-  "notes": {
-    "ivy": "country-club classic sportswear that avoids the word prep while the founder starts using it again",
-    "golf": "the club-town store map is the distribution strategy",
-    "cotton": "classic American sportswear staples — polos and five-pockets in the quiet register",
-    "prep": "main-street prep — the town-by-town model",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 3; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Every men's PDP sampled says only 'Imported.' with fiber and care; no country, maker or mill is named. The our-story page gives a 1977 founding and Brooklyn HQ but says nothing about where or by whom the clothes are made."
+  "Dress pants": {
+   "lp": "Bleeker Wool Pants",
+   "lu": "https://www.jmclaughlin.com/products/bleeker-wool-pants-solid-charcoal",
+   "hp": "Bleeker Wool Pants",
+   "hu": "https://www.jmclaughlin.com/products/bleeker-wool-pants-solid-charcoal",
+   "b": "single"
   },
-  "doors": {
-    "c": "full",
-    "n": 164,
-    "cities": [
-      ["Alexandria", "VA", 1],
-      ["Alpharetta", "GA", 1],
-      ["Andover", "MA", 1],
-      ["Annapolis", "MD", 1],
-      ["Atlanta", "GA", 1],
-      ["Austin", "TX", 1],
-      ["Bay Head", "NJ", 1],
-      ["Bedford", "NY", 1],
-      ["Belleair Bluffs", "FL", 1],
-      ["Bethesda", "MD", 1],
-      ["Birmingham", "AL", 1],
-      ["Bluffton", "SC", 1],
-      ["Boca Grande", "FL", 1],
-      ["Boca Raton", "FL", 1],
-      ["Boston", "MA", 1],
-      ["Bridgehampton", "NY", 1],
-      ["Bronxville", "NY", 1],
-      ["Captiva", "FL", 1],
-      ["Carmel-By-The-Sea", "CA", 1],
-      ["Cashiers", "NC", 1],
-      ["Chapel Hill", "NC", 1],
-      ["Charleston", "SC", 1],
-      ["Charlotte", "NC", 1],
-      ["Charlottesville", "VA", 1],
-      ["Chatham", "MA", 1],
-      ["Chesterfield", "MO", 1],
-      ["Chestnut Hill", "MA", 1],
-      ["Cincinnati", "OH", 1],
-      ["Columbia", "SC", 1],
-      ["Concord", "MA", 1],
-      ["Cranston", "RI", 1],
-      ["Dallas", "TX", 1],
-      ["Danville", "CA", 1],
-      ["Darien", "CT", 1],
-      ["Davidson", "NC", 1],
-      ["Delray Beach", "FL", 1],
-      ["Denver", "CO", 1],
-      ["Destin", "FL", 1],
-      ["Edgartown", "MA", 1],
-      ["Edina", "MN", 1],
-      ["Essex", "CT", 1],
-      ["Fairfax", "VA", 1],
-      ["Fernandina Beach", "FL", 1],
-      ["Ft Myers", "FL", 1],
-      ["Ft Worth", "TX", 1],
-      ["Ft. Lauderdale", "FL", 1],
-      ["Garden City", "NY", 1],
-      ["Geneva", "IL", 1],
-      ["Greensboro", "NC", 1],
-      ["Greenville", "DE", 1],
-      ["Greenville", "SC", 1],
-      ["Greenwich", "CT", 1],
-      ["Grosse Pointe", "MI", 1],
-      ["Hanover", "NH", 1],
-      ["Harbor Springs", "MI", 1],
-      ["Haverford", "PA", 1],
-      ["Highlands", "NC", 1],
-      ["Hilton Head Island", "SC", 1],
-      ["Hingham", "MA", 1],
-      ["Hinsdale", "IL", 1],
-      ["Ho-Ho-Kus", "NJ", 1],
-      ["Hobe Sound", "FL", 1],
-      ["Houston", "TX", 2],
-      ["Huntington", "NY", 1],
-      ["Indianapolis", "IN", 1],
-      ["Jackson", "MS", 1],
-      ["Johns Island", "SC", 1],
-      ["Kansas City", "MO", 1],
-      ["Kihei", "HI", 1],
-      ["Kirkland", "WA", 1],
-      ["La Jolla", "CA", 1],
-      ["Lafayette", "CA", 1],
-      ["Lake Forest", "IL", 1],
-      ["Larchmont", "NY", 1],
-      ["Latham", "NY", 1],
-      ["Lexington", "KY", 1],
-      ["Litchfield", "CT", 1],
-      ["Little Rock", "AR", 1],
-      ["Locust Valley", "NY", 1],
-      ["Los Gatos", "CA", 1],
-      ["Louisville", "KY", 1],
-      ["Madison", "CT", 1],
-      ["Madison", "WI", 1],
-      ["Manchester by the Sea", "MA", 1],
-      ["Mashpee", "MA", 1],
-      ["McLean", "VA", 1],
-      ["Memphis", "TN", 1],
-      ["Middleburg", "VA", 1],
-      ["Mill Valley", "CA", 1],
-      ["Millbrook", "NY", 1],
-      ["Montecito", "CA", 1],
-      ["Morristown", "NJ", 1],
-      ["Mount Pleasant", "SC", 1],
-      ["Mt. Lebanon", "PA", 1],
-      ["Nantucket", "MA", 1],
-      ["Napa", "CA", 1],
-      ["Naperville", "IL", 1],
-      ["Nashville", "TN", 1],
-      ["New Canaan", "CT", 1],
-      ["New Orleans", "LA", 1],
-      ["New York", "NY", 1],
-      ["Newport", "RI", 1],
-      ["Newport Beach", "CA", 1],
-      ["Newtown", "PA", 1],
-      ["Nichols Hills", "OK", 1],
-      ["Omaha", "NE", 1],
-      ["Osterville", "MA", 1],
-      ["Palm Desert", "CA", 1],
-      ["Palo Alto", "CA", 1],
-      ["Pawleys Island", "SC", 1],
-      ["Pepper Pike", "OH", 1],
-      ["Philadelphia", "PA", 1],
-      ["Phoenix", "AZ", 1],
-      ["Princeton", "NJ", 1],
-      ["Providence", "RI", 1],
-      ["Raleigh", "NC", 1],
-      ["Reston", "VA", 1],
-      ["Rhinebeck", "NY", 1],
-      ["Richmond", "VA", 1],
-      ["Ridgefield", "CT", 1],
-      ["Rochester", "NY", 1],
-      ["Rocky River", "OH", 1],
-      ["Rumson", "NJ", 1],
-      ["Ruxton", "MD", 1],
-      ["San Antonio", "TX", 1],
-      ["San Marino", "CA", 1],
-      ["Santa Monica", "CA", 1],
-      ["Scottsdale", "AZ", 1],
-      ["Sewickley", "PA", 1],
-      ["Short Pump", "VA", 1],
-      ["Skaneateles", "NY", 1],
-      ["Southampton", "NY", 1],
-      ["Southern Pines", "NC", 1],
-      ["Southlake", "TX", 1],
-      ["Southold", "NY", 1],
-      ["Southport", "CT", 1],
-      ["Spring Lake", "NJ", 1],
-      ["St. Louis", "MO", 1],
-      ["St. Michaels", "MD", 1],
-      ["St. Simons", "GA", 1],
-      ["Summit", "NJ", 1],
-      ["Sun Valley", "ID", 1],
-      ["The Woodlands", "TX", 1],
-      ["Thomasville", "GA", 1],
-      ["Troy", "MI", 1],
-      ["Tucson", "AZ", 1],
-      ["Upper Arlington", "OH", 1],
-      ["Upper Montclair", "NJ", 1],
-      ["Virginia Beach", "VA", 1],
-      ["Washington", "DC", 1],
-      ["Watch Hill", "RI", 1],
-      ["Wayne", "PA", 1],
-      ["Wayzata", "MN", 1],
-      ["Wellesley", "MA", 1],
-      ["Wells", "ME", 1],
-      ["West Hartford", "CT", 1],
-      ["Westfield", "NJ", 1],
-      ["Westport", "CT", 1],
-      ["Whitefish Bay", "WI", 1],
-      ["Williamsburg", "VA", 1],
-      ["Wilmington", "NC", 1],
-      ["Winnetka", "IL", 1],
-      ["Winston-Salem", "NC", 1]
-    ],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Sweater": {
+   "lp": "Hewitt Sweater",
+   "lu": "https://www.jmclaughlin.com/products/hewitt-sweater-solid-navy",
+   "hp": "Caldwell Cashmere Sweater",
+   "hu": "https://www.jmclaughlin.com/products/caldwell-cashmere-sweater-solid-dk-navy",
+   "b": "pair"
   },
-  "cities": "164 stores across the US, and its own site",
-  "region": {
-    "o": [
-      1322,
-      1323,
-      1324,
-      1325,
-      1326,
-      1327,
-      1328,
-      1329,
-      1330,
-      1331,
-      1333,
-      1359,
-      1360,
-      1361,
-      1362,
-      1363,
-      1364,
-      1365,
-      1366,
-      1367,
-      1368,
-      1369,
-      1370,
-      1375,
-      1396,
-      1397,
-      1398,
-      1399,
-      1400,
-      1401,
-      1402,
-      1403,
-      1404,
-      1405,
-      1406,
-      1407,
-      1408,
-      1409,
-      1410,
-      1411,
-      1412,
-      1413,
-      1414,
-      1415,
-      1416,
-      1417,
-      1418,
-      1419,
-      1420,
-      1426,
-      1427,
-      1428,
-      1429,
-      1430,
-      1431,
-      1432,
-      1433,
-      1434,
-      1435
-    ],
-    "s": []
+  "Outerwear": {
+   "lp": "Spade Chore Jacket",
+   "lu": "https://www.jmclaughlin.com/products/spade-chore-jacket-solid-lt-gray",
+   "hp": "Winston Suede Jacket",
+   "hu": "https://www.jmclaughlin.com/products/winston-suede-jacket-solid-espresso",
+   "b": "range"
   },
-  "addmen": true,
-  "site": {
-    "domain": "jmclaughlin.com",
-    "platform": "shopify",
-    "feed": "sitemap_products",
-    "feed_count": 996,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "unclear",
-    "marks": ["Catalina Cloth (R)"],
-    "source": "flag_sample",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 127,
-    "w": 126,
-    "n": 94,
-    "s": 4,
-    "c": 1,
-    "x": 11,
-    "xh": 0,
-    "sp": "one",
-    "sc": ["men-swim"],
-    "nc": ["men-shirts", "men-jackets-outerwear", "men-pants"],
-    "st": "complete"
-  },
-  "price_range_only": ["Polo", "Dress shirt", "Outerwear"],
-  "garment_links": {
-    "Polo": "https://www.jmclaughlin.com/collections/men-knits-polo-polo",
-    "Dress shirt": "https://www.jmclaughlin.com/collections/men-shirts",
-    "Dress pants": "https://www.jmclaughlin.com/collections/men-pants",
-    "Sweater": "https://www.jmclaughlin.com/collections/men-sweaters",
-    "Outerwear": "https://www.jmclaughlin.com/collections/men-jackets-outerwear",
-    "Shoes": "https://www.jmclaughlin.com/collections/men-shoes"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Ryan Tee in Weston",
-      "lu": "https://www.jmclaughlin.com/products/ryan-tee-weston-off-white-navy",
-      "hp": "Ryan Tee in Weston",
-      "hu": "https://www.jmclaughlin.com/products/ryan-tee-weston-off-white-navy",
-      "b": "single"
-    },
-    "Polo": {
-      "lp": "Mantle Pique Polo",
-      "lu": "https://www.jmclaughlin.com/products/mantle-polo-solid-white",
-      "hp": "Amalfi Linen Blend Polo",
-      "hu": "https://www.jmclaughlin.com/products/amalfi-linen-blend-polo-solid-navy",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Gramercy Cotton Shirt",
-      "lu": "https://www.jmclaughlin.com/products/gramercy-cotton-shirt-solid-pink",
-      "hp": "Tribeca Chambray Shirt",
-      "hu": "https://www.jmclaughlin.com/products/tribeca-chambray-shirt-solid-lt-chambray",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Mercer Jeans",
-      "lu": "https://www.jmclaughlin.com/products/mercer-jeans-solid-dk-denim",
-      "hp": "Mercer Jeans",
-      "hu": "https://www.jmclaughlin.com/products/mercer-jeans-solid-dk-denim",
-      "b": "single"
-    },
-    "Dress pants": {
-      "lp": "Bleeker Wool Pants",
-      "lu": "https://www.jmclaughlin.com/products/bleeker-wool-pants-solid-charcoal",
-      "hp": "Bleeker Wool Pants",
-      "hu": "https://www.jmclaughlin.com/products/bleeker-wool-pants-solid-charcoal",
-      "b": "single"
-    },
-    "Sweater": {
-      "lp": "Hewitt Sweater",
-      "lu": "https://www.jmclaughlin.com/products/hewitt-sweater-solid-navy",
-      "hp": "Caldwell Cashmere Sweater",
-      "hu": "https://www.jmclaughlin.com/products/caldwell-cashmere-sweater-solid-dk-navy",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "Spade Chore Jacket",
-      "lu": "https://www.jmclaughlin.com/products/spade-chore-jacket-solid-lt-gray",
-      "hp": "Winston Suede Jacket",
-      "hu": "https://www.jmclaughlin.com/products/winston-suede-jacket-solid-espresso",
-      "b": "range"
-    },
-    "Shoes": {
-      "lp": "Oskar Leather Belgian Loafers",
-      "lu": "https://www.jmclaughlin.com/products/oskar-belgian-loafers-solid-brown",
-      "hp": "Ezra Suede Tassel Loafers",
-      "hu": "https://www.jmclaughlin.com/products/ezra-suede-tassel-loafers-solid-cognac",
-      "b": "pair"
-    }
-  },
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.jmclaughlin.com/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=1089528",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "Our-story page names Brooklyn NY headquarters and 170+ stores; no factory, workshop or mill owned or named.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "none",
-    "countries": "Only 'Imported.' on 5/5 men's PDPs (classic-fit shirt, linen shirt, polo, cashmere 1/4 zip, shorts); no country named.",
-    "heritage": "dated and placed",
-    "repair": "no",
-    "process": "no",
-    "urls": [
-      "https://www.jmclaughlin.com/products/collis-classic-fit-shirt-gingham-navy-white",
-      "https://www.jmclaughlin.com/pages/our-story"
-    ],
-    "conf": "high",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Oskar Leather Belgian Loafers",
+   "lu": "https://www.jmclaughlin.com/products/oskar-belgian-loafers-solid-brown",
+   "hp": "Ezra Suede Tassel Loafers",
+   "hu": "https://www.jmclaughlin.com/products/ezra-suede-tassel-loafers-solid-cognac",
+   "b": "pair"
   }
+ },
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.jmclaughlin.com/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=1089528",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "Our-story page names Brooklyn NY headquarters and 170+ stores; no factory, workshop or mill owned or named.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "none",
+  "countries": "Only 'Imported.' on 5/5 men's PDPs (classic-fit shirt, linen shirt, polo, cashmere 1/4 zip, shorts); no country named.",
+  "heritage": "dated and placed",
+  "repair": "no",
+  "process": "no",
+  "urls": [
+   "https://www.jmclaughlin.com/products/collis-classic-fit-shirt-gingham-navy-white",
+   "https://www.jmclaughlin.com/pages/our-story"
+  ],
+  "conf": "high",
+  "read": "2026-10-03"
+ }
 }

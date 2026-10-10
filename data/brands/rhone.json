@@ -1,218 +1,380 @@
 {
-  "name": "Rhone",
-  "band": "premium",
-  "seat": 32,
-  "dagger": 0,
-  "focus": {
-    "tech": 5,
-    "comfort": 4,
-    "craft": 1,
-    "style": 3
+ "name": "Rhone",
+ "band": "premium",
+ "seat": 32,
+ "dagger": 0,
+ "focus": {
+  "tech": 5,
+  "comfort": 4,
+  "craft": 1,
+  "style": 3
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 1,
+  "wool": 2,
+  "synth": 5
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 2,
+  "fuss": 2,
+  "golffice": 0,
+  "shoes": 0,
+  "golf": 4,
+  "status": 2,
+  "finbro": 4,
+  "murica": 2,
+  "racquet": 1,
+  "whitet": 3,
+  "logo": 2,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 3,
+  "surf": 2
+ },
+ "why": "Men's activewear and casual clothing in fabrics the company develops, at the higher end of the category.",
+ "origin": "Founded in 2014 by the brothers Nate and Ben Checketts.",
+ "chan": [
+  "O",
+  "D"
+ ],
+ "conf": "L",
+ "forgc": [
+  2,
+  4,
+  1
+ ],
+ "shop": "https://www.rhone.com/search?q=",
+ "onething": {
+  "p": "Commuter pant",
+  "u": "https://www.rhone.com/search?q=Commuter%20pant",
+  "n": "works"
+ },
+ "prices": [
+  [
+   54,
+   88
+  ],
+  [
+   78,
+   138
+  ],
+  [
+   118,
+   168
+  ],
+  null,
+  [
+   148,
+   268
+  ],
+  [
+   118,
+   188
+  ],
+  [
+   148,
+   498
+  ],
+  null
+ ],
+ "notes": {
+  "synth": "performance fabric programs with named technologies",
+  "golf": "a full Rhone Golf line with pro-shop distribution",
+  "finbro": "sells a pant literally named the Commuter",
+  "whitet": "a named tee in the range — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 3; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "tech": "The range is entirely performance fabric, much of it developed by the company and named.",
+  "craft": "Rhone's about page tells a founding story (brothers Nate and Ben, 2014) but names no factory or mill, and the product page that loaded showed no country of make. Nothing checkable about making was found: a 1, held at low-medium confidence because PDP detail tabs could not be read. [audit proposed 1 at low confidence; held at 1 pending a second read]"
+ },
+ "doors": {
+  "c": "full",
+  "n": 22,
+  "cities": [
+   [
+    "Ardmore",
+    "PA",
+    1
+   ],
+   [
+    "Boston",
+    "MA",
+    1
+   ],
+   [
+    "Chicago",
+    "IL",
+    1
+   ],
+   [
+    "Coral Gables",
+    "FL",
+    1
+   ],
+   [
+    "Dallas",
+    "TX",
+    1
+   ],
+   [
+    "Denver",
+    "CO",
+    1
+   ],
+   [
+    "Hingham",
+    "MA",
+    1
+   ],
+   [
+    "Jacksonville",
+    "FL",
+    1
+   ],
+   [
+    "Los Angeles",
+    "CA",
+    1
+   ],
+   [
+    "McLean",
+    "VA",
+    1
+   ],
+   [
+    "Miami",
+    "FL",
+    1
+   ],
+   [
+    "Millburn",
+    "NJ",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    3
+   ],
+   [
+    "Newport Beach",
+    "CA",
+    1
+   ],
+   [
+    "Oak Brook",
+    "IL",
+    1
+   ],
+   [
+    "Princeton",
+    "NJ",
+    1
+   ],
+   [
+    "Santa Clara",
+    "CA",
+    1
+   ],
+   [
+    "Tampa",
+    "FL",
+    1
+   ],
+   [
+    "The Woodlands",
+    "TX",
+    1
+   ],
+   [
+    "Westport",
+    "CT",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 1,
+  "con": 0
+ },
+ "cities": "22 stores across the US · department stores and independent menswear shops, and its own site",
+ "region": {
+  "o": [
+   2972,
+   2976,
+   2978,
+   2979,
+   2982,
+   2987,
+   2988,
+   2990,
+   2993
+  ],
+  "s": [
+   9,
+   18,
+   20,
+   24,
+   33,
+   41,
+   53,
+   56,
+   70,
+   77,
+   126,
+   144,
+   151,
+   152
+  ]
+ },
+ "addmen": true,
+ "site": {
+  "domain": "rhone.com",
+  "platform": "custom",
+  "feed": "category_crawl",
+  "feed_count": 23,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "both",
+  "marks": [
+   "Commuter",
+   "DreamGlow",
+   "DreamState",
+   "Flex-Knit",
+   "GoldFusion",
+   "Pursuit",
+   "Quantum",
+   "Reign",
+   "TENCEL Lyocell"
+  ],
+  "source": "origin_8",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 454,
+  "w": 384,
+  "n": 14,
+  "s": 68,
+  "c": 3,
+  "x": 57,
+  "xh": 50,
+  "sp": "one",
+  "sc": [
+   "Shorts",
+   "Pants",
+   "Midlayers",
+   "Outerwear",
+   "Tees & Tanks",
+   "Shirts",
+   "Sweaters",
+   "Polos",
+   "Swim"
+  ],
+  "nc": [],
+  "st": "complete"
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Dress pants",
+  "Sweater",
+  "Outerwear"
+ ],
+ "garment_links": {
+  "T-shirt": "https://www.rhone.com/collections/mens-tees-collection/",
+  "Polo": "https://www.rhone.com/collections/mens-polo-shirts/",
+  "Dress shirt": "https://www.rhone.com/collections/mens-button-down-shirts/",
+  "Dress pants": "https://www.rhone.com/collections/mens-dress-pants/",
+  "Sweater": "https://www.rhone.com/collections/mens-sweaters/",
+  "Outerwear": "https://www.rhone.com/collections/mens-jackets-vests/"
+ },
+ "price_checked": true,
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Origin Tee - Classic",
+   "lu": "https://www.rhone.com/products/mens-origin-tee/",
+   "hp": "Elevated Modern Tee",
+   "hu": "https://www.rhone.com/products/mens-elevated-modern-tee/",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 1,
-    "linen": 1,
-    "cotton": 1,
-    "wool": 2,
-    "synth": 5
+  "Polo": {
+   "lp": "Foundations Polo",
+   "lu": "https://www.rhone.com/products/mens-foundations-polo/",
+   "hp": "Mercer Knit Polo",
+   "hu": "https://www.rhone.com/products/mens-mercer-knit-polo/",
+   "b": "range"
   },
-  "dials": {
-    "dur": 3,
-    "forg": 2,
-    "fuss": 2,
-    "golffice": 0,
-    "shoes": 0,
-    "golf": 4,
-    "status": 2,
-    "finbro": 4,
-    "murica": 2,
-    "racquet": 1,
-    "whitet": 3,
-    "logo": 2,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 3,
-    "surf": 2
+  "Dress shirt": {
+   "lp": "State of Mind Shirt - Slim",
+   "lu": "https://www.rhone.com/products/mens-state-of-mind-shirt-slim-fit/",
+   "hp": "Commuter Pro Cotton Shirt - Slim",
+   "hu": "https://www.rhone.com/products/mens-commuter-pro-cotton-shirt-slim/",
+   "b": "range"
   },
-  "why": "Men's activewear and casual clothing in fabrics the company develops, at the higher end of the category.",
-  "origin": "Founded in 2014 by the brothers Nate and Ben Checketts.",
-  "chan": ["O", "D"],
-  "conf": "L",
-  "forgc": [2, 4, 1],
-  "shop": "https://www.rhone.com/search?q=",
-  "onething": {
-    "p": "Commuter pant",
-    "u": "https://www.rhone.com/search?q=Commuter%20pant",
-    "n": "works"
+  "Dress pants": {
+   "lp": "Commuter Pro Trouser",
+   "lu": "https://www.rhone.com/products/mens-commuter-pro-trouser/",
+   "hp": "Amalfi Trouser",
+   "hu": "https://www.rhone.com/products/mens-amalfi-trouser/",
+   "b": "range"
   },
-  "prices": [[54, 88], [78, 138], [118, 168], null, [148, 268], [118, 188], [148, 498], null],
-  "notes": {
-    "synth": "performance fabric programs with named technologies",
-    "golf": "a full Rhone Golf line with pro-shop distribution",
-    "finbro": "sells a pant literally named the Commuter",
-    "whitet": "a named tee in the range — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 3; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "tech": "The range is entirely performance fabric, much of it developed by the company and named.",
-    "craft": "Rhone's about page tells a founding story (brothers Nate and Ben, 2014) but names no factory or mill, and the product page that loaded showed no country of make. Nothing checkable about making was found: a 1, held at low-medium confidence because PDP detail tabs could not be read. [audit proposed 1 at low confidence; held at 1 pending a second read]"
+  "Sweater": {
+   "lp": "Commuter Crew Neck Sweater",
+   "lu": "https://www.rhone.com/products/mens-commuter-crewneck-sweater/",
+   "hp": "Milano Full Zip Sweater",
+   "hu": "https://www.rhone.com/products/mens-milano-full-zip-sweater/",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 21,
-    "cities": [
-      ["Ardmore", "PA", 1],
-      ["Boston", "MA", 1],
-      ["Chicago", "IL", 1],
-      ["Coral Gables", "FL", 1],
-      ["Dallas", "TX", 1],
-      ["Denver", "CO", 1],
-      ["Hingham", "MA", 1],
-      ["Jacksonville", "FL", 1],
-      ["Los Angeles", "CA", 1],
-      ["McLean", "VA", 1],
-      ["Miami", "FL", 1],
-      ["Millburn", "NJ", 1],
-      ["New York", "NY", 3],
-      ["Newport Beach", "CA", 1],
-      ["Oak Brook", "IL", 1],
-      ["Princeton", "NJ", 1],
-      ["Tampa", "FL", 1],
-      ["The Woodlands", "TX", 1],
-      ["Westport", "CT", 1]
-    ],
-    "basis": "master 2026-08-29, pre-recapture"
-  },
-  "cities": "21 stores across the US · department stores and independent menswear shops, and its own site",
-  "region": {
-    "o": [2349, 2356, 2357, 2358, 2359, 2360, 2361, 2362, 2363],
-    "s": [9, 18, 20, 24, 33, 41, 53, 56, 70, 77, 126, 144, 151, 152]
-  },
-  "addmen": true,
-  "site": {
-    "domain": "rhone.com",
-    "platform": "custom",
-    "feed": "category_crawl",
-    "feed_count": 23,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "both",
-    "marks": [
-      "Commuter",
-      "DreamGlow",
-      "DreamState",
-      "Flex-Knit",
-      "GoldFusion",
-      "Pursuit",
-      "Quantum",
-      "Reign",
-      "TENCEL Lyocell"
-    ],
-    "source": "origin_8",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 454,
-    "w": 384,
-    "n": 14,
-    "s": 68,
-    "c": 3,
-    "x": 57,
-    "xh": 50,
-    "sp": "one",
-    "sc": ["Shorts", "Pants", "Midlayers", "Outerwear", "Tees & Tanks", "Shirts", "Sweaters", "Polos", "Swim"],
-    "nc": [],
-    "st": "complete"
-  },
-  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Dress pants", "Sweater", "Outerwear"],
-  "garment_links": {
-    "T-shirt": "https://www.rhone.com/collections/mens-tees-collection/",
-    "Polo": "https://www.rhone.com/collections/mens-polo-shirts/",
-    "Dress shirt": "https://www.rhone.com/collections/mens-button-down-shirts/",
-    "Dress pants": "https://www.rhone.com/collections/mens-dress-pants/",
-    "Sweater": "https://www.rhone.com/collections/mens-sweaters/",
-    "Outerwear": "https://www.rhone.com/collections/mens-jackets-vests/"
-  },
-  "price_checked": true,
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Origin Tee - Classic",
-      "lu": "https://www.rhone.com/products/mens-origin-tee/",
-      "hp": "Elevated Modern Tee",
-      "hu": "https://www.rhone.com/products/mens-elevated-modern-tee/",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Foundations Polo",
-      "lu": "https://www.rhone.com/products/mens-foundations-polo/",
-      "hp": "Mercer Knit Polo",
-      "hu": "https://www.rhone.com/products/mens-mercer-knit-polo/",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "State of Mind Shirt - Slim",
-      "lu": "https://www.rhone.com/products/mens-state-of-mind-shirt-slim-fit/",
-      "hp": "Commuter Pro Cotton Shirt - Slim",
-      "hu": "https://www.rhone.com/products/mens-commuter-pro-cotton-shirt-slim/",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Commuter Pro Trouser",
-      "lu": "https://www.rhone.com/products/mens-commuter-pro-trouser/",
-      "hp": "Amalfi Trouser",
-      "hu": "https://www.rhone.com/products/mens-amalfi-trouser/",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Commuter Crew Neck Sweater",
-      "lu": "https://www.rhone.com/products/mens-commuter-crewneck-sweater/",
-      "hp": "Milano Full Zip Sweater",
-      "hu": "https://www.rhone.com/products/mens-milano-full-zip-sweater/",
-      "b": "range"
-    },
-    "Outerwear": {
-      "lp": "Long Game Jacket",
-      "lu": "https://www.rhone.com/products/mens-long-game-jacket/",
-      "hp": "Commuter Topcoat",
-      "hu": "https://www.rhone.com/products/mens-commuter-topcoat/",
-      "b": "range"
-    }
-  },
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.rhone.com/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=602053",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "About page (/pages/about-us): 'Founded by brothers Nate and Ben' in 2014, origin story about men's activewear; names no factory, mill or workshop. /pages/sustainability rendered only navigation/footer to the fetcher (content not readable). No owned facility found on what could be read.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "NC",
-    "countries": "Not readable: the only PDP that loaded (Commuter Pant - Slim) showed no origin, but its 'Details' and 'Fabric & care' accordions were not rendered by the fetcher, so origin may be hidden there. Collection pages loaded 0 products; sitemap lists no products; web search budget was exhausted before PDP URLs could be found another way.",
-    "heritage": "dated and placed",
-    "repair": "yes",
-    "process": "no",
-    "urls": ["https://www.rhone.com/pages/about-us", "https://rerhone.rhone.com/"],
-    "conf": "low",
-    "read": "2026-10-03"
+  "Outerwear": {
+   "lp": "Long Game Jacket",
+   "lu": "https://www.rhone.com/products/mens-long-game-jacket/",
+   "hp": "Commuter Topcoat",
+   "hu": "https://www.rhone.com/products/mens-commuter-topcoat/",
+   "b": "range"
   }
+ },
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.rhone.com/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=602053",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "About page (/pages/about-us): 'Founded by brothers Nate and Ben' in 2014, origin story about men's activewear; names no factory, mill or workshop. /pages/sustainability rendered only navigation/footer to the fetcher (content not readable). No owned facility found on what could be read.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "NC",
+  "countries": "Not readable: the only PDP that loaded (Commuter Pant - Slim) showed no origin, but its 'Details' and 'Fabric & care' accordions were not rendered by the fetcher, so origin may be hidden there. Collection pages loaded 0 products; sitemap lists no products; web search budget was exhausted before PDP URLs could be found another way.",
+  "heritage": "dated and placed",
+  "repair": "yes",
+  "process": "no",
+  "urls": [
+   "https://www.rhone.com/pages/about-us",
+   "https://rerhone.rhone.com/"
+  ],
+  "conf": "low",
+  "read": "2026-10-03"
+ }
 }

@@ -108,7 +108,7 @@
  },
  "doors": {
   "c": "full",
-  "n": 6,
+  "n": 8,
   "cities": [
    [
     "Costa Mesa",
@@ -118,6 +118,11 @@
    [
     "Dallas",
     "TX",
+    1
+   ],
+   [
+    "Honolulu",
+    "HI",
     1
    ],
    [
@@ -131,6 +136,11 @@
     1
    ],
    [
+    "Miami",
+    "FL",
+    1
+   ],
+   [
     "New York",
     "NY",
     1
@@ -141,17 +151,19 @@
     1
    ]
   ],
-  "basis": "master 2026-08-29, pre-recapture"
+  "basis": "recapture 2026-10-10",
+  "out": 2,
+  "con": 0
  },
- "cities": "6 stores, including Costa Mesa, Dallas, Las Vegas · department stores and independent menswear shops, and its own site",
+ "cities": "8 stores, including Costa Mesa, Dallas, Las Vegas · department stores and independent menswear shops, and its own site",
  "region": {
   "o": [
-   2008
+   2532
   ],
   "s": [
    123,
    124,
-   3208
+   160
   ]
  },
  "addmen": true,

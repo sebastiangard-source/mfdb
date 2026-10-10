@@ -1,205 +1,374 @@
 {
-  "name": "RRL",
-  "band": "accessible",
-  "seat": 65,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 2,
-    "craft": 4,
-    "style": 4
+ "name": "RRL",
+ "band": "accessible",
+ "seat": 65,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 2,
+  "craft": 4,
+  "style": 4
+ },
+ "fabric": {
+  "denim": 4,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 3,
+  "wool": 3,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 4,
+  "forg": 2,
+  "fuss": -2,
+  "status": 2,
+  "murica": 5,
+  "street": 2,
+  "whitet": 2,
+  "logo": 2,
+  "western": 4,
+  "rock": 1,
+  "workwear": 4,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Ralph Lauren's Americana line: reproductions of pre-war workwear, western shirts and Japanese selvedge denim.",
+ "origin": "Launched in 1993 and named for Ralph and Ricky Lauren's RRL Ranch in Colorado.",
+ "chan": [
+  "O",
+  "I"
+ ],
+ "conf": "M",
+ "forgc": [
+  2,
+  3,
+  1
+ ],
+ "shop": "https://www.ralphlauren.com/search?q=",
+ "onething": {
+  "p": "Jungle Cloth Deck Jacket",
+  "u": "https://www.ralphlauren.com/search?q=RRL%20deck%20jacket",
+  "n": "works"
+ },
+ "prices": [
+  [
+   75,
+   145
+  ],
+  null,
+  [
+   265,
+   285
+  ],
+  [
+   295,
+   495
+  ],
+  [
+   590,
+   790
+  ],
+  [
+   395,
+   1800
+  ],
+  [
+   390,
+   2400
+  ],
+  [
+   195,
+   1400
+  ]
+ ],
+ "notes": {
+  "denim": "Japanese selvedge repro — the denim-head's Ralph",
+  "murica": "the museum of American work and western wear",
+  "craft": "RRL PDPs on ralphlauren.com describe vintage-inspired design and trim (corozo buttons, leather zip stoppers, garment dyeing, French corduroy) but the readable ones give origin only as 'Imported'. No owned making, named factory or named mill was found. [audit proposed 2 at low confidence; held at 4 pending a second read]",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 2; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+ },
+ "doors": {
+  "c": "full",
+  "n": 26,
+  "cities": [
+   [
+    "Aspen",
+    "CO",
+    1
+   ],
+   [
+    "Atlanta",
+    "GA",
+    1
+   ],
+   [
+    "Bal Harbour",
+    "FL",
+    1
+   ],
+   [
+    "Beverly Hills",
+    "CA",
+    1
+   ],
+   [
+    "Boston",
+    "MA",
+    1
+   ],
+   [
+    "Brooklyn",
+    "NY",
+    1
+   ],
+   [
+    "Chicago",
+    "IL",
+    1
+   ],
+   [
+    "Costa Mesa",
+    "CA",
+    1
+   ],
+   [
+    "Dallas",
+    "TX",
+    1
+   ],
+   [
+    "East Hampton",
+    "NY",
+    1
+   ],
+   [
+    "Houston",
+    "TX",
+    1
+   ],
+   [
+    "La Jolla",
+    "CA",
+    1
+   ],
+   [
+    "Los Angeles",
+    "CA",
+    2
+   ],
+   [
+    "Malibu",
+    "CA",
+    1
+   ],
+   [
+    "Manhasset",
+    "NY",
+    1
+   ],
+   [
+    "McLean",
+    "VA",
+    1
+   ],
+   [
+    "Nashville",
+    "TN",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    3
+   ],
+   [
+    "Newport Beach",
+    "CA",
+    1
+   ],
+   [
+    "Oak Brook",
+    "IL",
+    1
+   ],
+   [
+    "Phoenix",
+    "AZ",
+    1
+   ],
+   [
+    "Plano",
+    "TX",
+    1
+   ],
+   [
+    "Troy",
+    "MI",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 0,
+  "con": 0
+ },
+ "cities": "26 stores, including New York, Aspen, Nashville · also inside Ralph Lauren stores and on ralphlauren.com",
+ "region": {
+  "o": [
+   2862,
+   2863,
+   2864,
+   2868,
+   2871,
+   2874,
+   2886
+  ],
+  "s": [
+   150
+  ]
+ },
+ "site": {
+  "domain": "ralphlauren.com",
+  "platform": "salesforce_commerce",
+  "feed": "category_crawl",
+  "feed_count": 0,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "no",
+  "origin": "none",
+  "marks": [],
+  "source": "screen_36",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 204,
+  "w": 203,
+  "n": 99,
+  "s": 1,
+  "c": 0,
+  "x": 0,
+  "xh": 0,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "pants",
+   "button-down-shirts",
+   "jeans"
+  ],
+  "st": "complete"
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants",
+  "Sweater",
+  "Outerwear",
+  "Shoes"
+ ],
+ "garment_links": {
+  "T-shirt": "https://www.ralphlauren.com/brands-double-rl-men-shop-all-cg?prefn1=CategoryCode&prefv1=T-Shirts",
+  "Dress shirt": "https://www.ralphlauren.com/brands-double-rl-men-shop-all-cg?prefn1=CategoryCode&prefv1=Dress%20Shirts",
+  "Jeans": "https://www.ralphlauren.com/brands-double-rl-men-shop-all-cg?prefn1=CategoryCode&prefv1=Jeans",
+  "Dress pants": "https://www.ralphlauren.com/brands-double-rl-men-shop-all-cg?prefn1=CategoryCode&prefv1=Pants",
+  "Sweater": "https://www.ralphlauren.com/brands-double-rl-men-shop-all-cg?prefn1=CategoryCode&prefv1=Sweaters",
+  "Outerwear": "https://www.ralphlauren.com/brands-double-rl-men-shop-all-cg?prefn1=CategoryCode&prefv1=Jackets%2C%20Coats%20%26%20Vests"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Jersey Pocket T-Shirt",
+   "lu": "https://www.ralphlauren.com/men-clothing-t-shirts/jersey-pocket-t-shirt/449152.html",
+   "hp": "Striped Jersey T-Shirt",
+   "hu": "https://www.ralphlauren.com/men-clothing-t-shirts/striped-jersey-t-shirt/100043526.html",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 4,
-    "cashmere": 1,
-    "linen": 1,
-    "cotton": 3,
-    "wool": 3,
-    "synth": 1
+  "Dress shirt": {
+   "lp": "Slim Fit Pinpoint Oxford Shirt",
+   "lu": "https://www.ralphlauren.com/men-clothing-dress-shirts/slim-fit-pinpoint-oxford-shirt/199798.html",
+   "hp": "Slim Fit French Cuff Tuxedo Shirt",
+   "hu": "https://www.ralphlauren.com/men-clothing-dress-shirts/slim-fit-french-cuff-tuxedo-shirt/340114.html",
+   "b": "range"
   },
-  "dials": {
-    "dur": 4,
-    "forg": 2,
-    "fuss": -2,
-    "status": 2,
-    "murica": 5,
-    "street": 2,
-    "whitet": 2,
-    "logo": 2,
-    "western": 4,
-    "rock": 1,
-    "workwear": 4,
-    "outdoor": 1,
-    "surf": 1
+  "Jeans": {
+   "lp": "Slim Fit Once-Washed Selvedge Jean",
+   "lu": "https://www.ralphlauren.com/men-clothing-jeans/slim-fit-once-washed-selvedge-jean/86415.html",
+   "hp": "Straight Fit Milner Selvedge Jean",
+   "hu": "https://www.ralphlauren.com/men-clothing-jeans/straight-fit-milner-selvedge-jean/100041722.html",
+   "b": "range"
   },
-  "why": "Ralph Lauren's Americana line: reproductions of pre-war workwear, western shirts and Japanese selvedge denim.",
-  "origin": "Launched in 1993 and named for Ralph and Ricky Lauren's RRL Ranch in Colorado.",
-  "chan": ["O", "I"],
-  "conf": "M",
-  "forgc": [2, 3, 1],
-  "shop": "https://www.ralphlauren.com/search?q=",
-  "onething": {
-    "p": "Jungle Cloth Deck Jacket",
-    "u": "https://www.ralphlauren.com/search?q=RRL%20deck%20jacket",
-    "n": "works"
+  "Dress pants": {
+   "lp": "Slim Fit Wool-Cotton Herringbone Trouser",
+   "lu": "https://www.ralphlauren.com/men-clothing-pants/slim-fit-wool-cotton-herringbone-trouser/100096778.html",
+   "hp": "Slim Fit Wool Western Tuxedo Trouser",
+   "hu": "https://www.ralphlauren.com/men-clothing-pants/slim-fit-wool-western-tuxedo-trouser/100059235.html",
+   "b": "range"
   },
-  "prices": [[75, 145], null, [265, 285], [295, 495], [590, 790], [395, 1800], [390, 2400], [195, 1400]],
-  "notes": {
-    "denim": "Japanese selvedge repro — the denim-head's Ralph",
-    "murica": "the museum of American work and western wear",
-    "craft": "RRL PDPs on ralphlauren.com describe vintage-inspired design and trim (corozo buttons, leather zip stoppers, garment dyeing, French corduroy) but the readable ones give origin only as 'Imported'. No owned making, named factory or named mill was found. [audit proposed 2 at low confidence; held at 4 pending a second read]",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 2; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+  "Sweater": {
+   "lp": "Waffle-Knit Cotton-Wool Sweater",
+   "lu": "https://www.ralphlauren.com/men-clothing-sweaters/waffle-knit-cotton-wool-sweater/100028156.html",
+   "hp": "Patchwork Wool-Blend Sweater Jacket",
+   "hu": "https://www.ralphlauren.com/men-clothing-sweaters/patchwork-wool-blend-sweater-jacket/100098130.html",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 7,
-    "cities": [
-      ["Atlanta", "GA", 1],
-      ["Brooklyn", "NY", 1],
-      ["East Hampton", "NY", 1],
-      ["Los Angeles", "CA", 1],
-      ["Malibu", "CA", 1],
-      ["Nashville", "TN", 1],
-      ["New York", "NY", 1]
-    ],
-    "basis": "recapture 2026-09"
+  "Outerwear": {
+   "lp": "Leeland Indigo Denim Trucker Jacket",
+   "lu": "https://www.ralphlauren.com/men-clothing-jackets-coats-vests/leeland-indigo-denim-trucker-jacket/493761.html",
+   "hp": "Indigo Roughout Suede Jacket",
+   "hu": "https://www.ralphlauren.com/men-clothing-jackets-coats-vests/indigo-roughout-suede-jacket/100092615.html",
+   "b": "range"
   },
-  "cities": "7 stores, including New York, Aspen, Nashville · also inside Ralph Lauren stores and on ralphlauren.com",
-  "region": {
-    "o": [2427, 2428, 2429],
-    "s": [150]
-  },
-  "site": {
-    "domain": "ralphlauren.com",
-    "platform": "salesforce_commerce",
-    "feed": "category_crawl",
-    "feed_count": 0,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "no",
-    "origin": "none",
-    "marks": [],
-    "source": "screen_36",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 204,
-    "w": 203,
-    "n": 99,
-    "s": 1,
-    "c": 0,
-    "x": 0,
-    "xh": 0,
-    "sp": "one",
-    "sc": [],
-    "nc": ["pants", "button-down-shirts", "jeans"],
-    "st": "complete"
-  },
-  "price_range_only": ["T-shirt", "Dress shirt", "Jeans", "Dress pants", "Sweater", "Outerwear", "Shoes"],
-  "garment_links": {
-    "T-shirt": "https://www.ralphlauren.com/brands-double-rl-men-shop-all-cg?prefn1=CategoryCode&prefv1=T-Shirts",
-    "Dress shirt": "https://www.ralphlauren.com/brands-double-rl-men-shop-all-cg?prefn1=CategoryCode&prefv1=Dress%20Shirts",
-    "Jeans": "https://www.ralphlauren.com/brands-double-rl-men-shop-all-cg?prefn1=CategoryCode&prefv1=Jeans",
-    "Dress pants": "https://www.ralphlauren.com/brands-double-rl-men-shop-all-cg?prefn1=CategoryCode&prefv1=Pants",
-    "Sweater": "https://www.ralphlauren.com/brands-double-rl-men-shop-all-cg?prefn1=CategoryCode&prefv1=Sweaters",
-    "Outerwear": "https://www.ralphlauren.com/brands-double-rl-men-shop-all-cg?prefn1=CategoryCode&prefv1=Jackets%2C%20Coats%20%26%20Vests"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Jersey Pocket T-Shirt",
-      "lu": "https://www.ralphlauren.com/men-clothing-t-shirts/jersey-pocket-t-shirt/449152.html",
-      "hp": "Striped Jersey T-Shirt",
-      "hu": "https://www.ralphlauren.com/men-clothing-t-shirts/striped-jersey-t-shirt/100043526.html",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Slim Fit Pinpoint Oxford Shirt",
-      "lu": "https://www.ralphlauren.com/men-clothing-dress-shirts/slim-fit-pinpoint-oxford-shirt/199798.html",
-      "hp": "Slim Fit French Cuff Tuxedo Shirt",
-      "hu": "https://www.ralphlauren.com/men-clothing-dress-shirts/slim-fit-french-cuff-tuxedo-shirt/340114.html",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Slim Fit Once-Washed Selvedge Jean",
-      "lu": "https://www.ralphlauren.com/men-clothing-jeans/slim-fit-once-washed-selvedge-jean/86415.html",
-      "hp": "Straight Fit Milner Selvedge Jean",
-      "hu": "https://www.ralphlauren.com/men-clothing-jeans/straight-fit-milner-selvedge-jean/100041722.html",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Slim Fit Wool-Cotton Herringbone Trouser",
-      "lu": "https://www.ralphlauren.com/men-clothing-pants/slim-fit-wool-cotton-herringbone-trouser/100096778.html",
-      "hp": "Slim Fit Wool Western Tuxedo Trouser",
-      "hu": "https://www.ralphlauren.com/men-clothing-pants/slim-fit-wool-western-tuxedo-trouser/100059235.html",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Waffle-Knit Cotton-Wool Sweater",
-      "lu": "https://www.ralphlauren.com/men-clothing-sweaters/waffle-knit-cotton-wool-sweater/100028156.html",
-      "hp": "Patchwork Wool-Blend Sweater Jacket",
-      "hu": "https://www.ralphlauren.com/men-clothing-sweaters/patchwork-wool-blend-sweater-jacket/100098130.html",
-      "b": "range"
-    },
-    "Outerwear": {
-      "lp": "Leeland Indigo Denim Trucker Jacket",
-      "lu": "https://www.ralphlauren.com/men-clothing-jackets-coats-vests/leeland-indigo-denim-trucker-jacket/493761.html",
-      "hp": "Indigo Roughout Suede Jacket",
-      "hu": "https://www.ralphlauren.com/men-clothing-jackets-coats-vests/indigo-roughout-suede-jacket/100092615.html",
-      "b": "range"
-    },
-    "Shoes": {
-      "lp": "Leather Flip-Flop",
-      "lu": "https://www.ralphlauren.com/men-footwear-shoes/leather-flip-flop/603085.html",
-      "hp": "Leather Boot",
-      "hu": "https://www.ralphlauren.com/men-footwear-shoes/leather-boot/620757.html",
-      "b": "range"
-    }
-  },
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.ralphlauren.com/brands-double-rl-men-shop-all-cg",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=5179168",
-      "m": "brand filter",
-      "n": "Vinted brand 'Double RL by Ralph Lauren'"
-    }
-  },
-  "season": {
-    "l": "Fall 2026 (FA26)",
-    "t": "lookbook",
-    "u": "https://www.ralphlauren.com/on/demandware.static/-/Library-Sites-RalphLauren_NA_Library/default/dw5a930d9f/content/pdf/RRL/RRL_FA26_MW_catalog.pdf",
-    "m": "yes"
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "No owned factory, workshop or mill named on any RRL page read on ralphlauren.com; Wikipedia's Ralph Lauren summary identifies no company-owned production. Ralph Lauren Corp 10-K not loaded, so the group-level statement was not read directly.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "none",
-    "countries": "Of 8 RRL PDPs fetched, 3 showed detail text and all 3 say only 'Imported' (vest, hoodie, fleece jacket); 5 (4 selvedge jeans, plaid wool workshirt sweater, all sold out) showed no detail text, which may sit in an accordion the fetch could not see. No country of make seen.",
-    "heritage": "dated and placed",
-    "repair": "NC",
-    "process": "some",
-    "urls": [
-      "https://www.ralphlauren.com/men-clothing-jackets-coats-vests/corduroy-utility-vest/100092760.html",
-      "https://www.ralphlauren.com/men-clothing-sweatshirts/faux-fur-trim-fleece-jacket/100096437.html"
-    ],
-    "conf": "low",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Leather Flip-Flop",
+   "lu": "https://www.ralphlauren.com/men-footwear-shoes/leather-flip-flop/603085.html",
+   "hp": "Leather Boot",
+   "hu": "https://www.ralphlauren.com/men-footwear-shoes/leather-boot/620757.html",
+   "b": "range"
   }
+ },
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.ralphlauren.com/brands-double-rl-men-shop-all-cg",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=5179168",
+   "m": "brand filter",
+   "n": "Vinted brand 'Double RL by Ralph Lauren'"
+  }
+ },
+ "season": {
+  "l": "Fall 2026 (FA26)",
+  "t": "lookbook",
+  "u": "https://www.ralphlauren.com/on/demandware.static/-/Library-Sites-RalphLauren_NA_Library/default/dw5a930d9f/content/pdf/RRL/RRL_FA26_MW_catalog.pdf",
+  "m": "yes"
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "No owned factory, workshop or mill named on any RRL page read on ralphlauren.com; Wikipedia's Ralph Lauren summary identifies no company-owned production. Ralph Lauren Corp 10-K not loaded, so the group-level statement was not read directly.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "none",
+  "countries": "Of 8 RRL PDPs fetched, 3 showed detail text and all 3 say only 'Imported' (vest, hoodie, fleece jacket); 5 (4 selvedge jeans, plaid wool workshirt sweater, all sold out) showed no detail text, which may sit in an accordion the fetch could not see. No country of make seen.",
+  "heritage": "dated and placed",
+  "repair": "NC",
+  "process": "some",
+  "urls": [
+   "https://www.ralphlauren.com/men-clothing-jackets-coats-vests/corduroy-utility-vest/100092760.html",
+   "https://www.ralphlauren.com/men-clothing-sweatshirts/faux-fur-trim-fleece-jacket/100096437.html"
+  ],
+  "conf": "low",
+  "read": "2026-10-03"
+ }
 }

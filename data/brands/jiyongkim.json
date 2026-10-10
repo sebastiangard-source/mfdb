@@ -1,194 +1,244 @@
 {
-  "name": "JiyongKim",
-  "band": "trueLux",
-  "seat": 193,
-  "dagger": 1,
-  "focus": {
-    "tech": 2,
-    "comfort": 3,
-    "craft": 2,
-    "style": 5
+ "name": "JiyongKim",
+ "band": "trueLux",
+ "seat": 193,
+ "dagger": 1,
+ "focus": {
+  "tech": 2,
+  "comfort": 3,
+  "craft": 2,
+  "style": 5
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 1,
+  "linen": 2,
+  "cotton": 4,
+  "wool": 3,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 2,
+  "forg": 3,
+  "fuss": -1,
+  "status": 2,
+  "avant": 5,
+  "weird": 4,
+  "whitet": 2,
+  "logo": 1,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Clothing dyed by weather — garments left outdoors for months so sun, wind and rain fade them — on reconstructed vintage cloth.",
+ "origin": "Founded in Seoul around 2020 by Jiyong Kim, who trained at Bunka and Central Saint Martins and worked at Lemaire and Louis Vuitton.",
+ "say": "jee-YONG kim",
+ "chan": [
+  "D",
+  "I",
+  "W"
+ ],
+ "conf": "S",
+ "forgc": [
+  4,
+  2,
+  1
+ ],
+ "onething": {
+  "p": "Sun-Bleached Jacket",
+  "u": "",
+  "n": "process is the signature, not one style; months outdoors. NO LINK — the SSENSE slug could not be verified and jiyong-kim was invented; brand styles itself one word. Stocked at SSENSE, MR PORTER, DSM, GR8, 10 Corso Como."
+ },
+ "prices": [
+  [
+   100,
+   160
+  ],
+  [
+   190,
+   205
+  ],
+  [
+   240,
+   640
+  ],
+  [
+   615,
+   615
+  ],
+  [
+   495,
+   750
+  ],
+  [
+   630,
+   630
+  ],
+  [
+   615,
+   1655
+  ],
+  null
+ ],
+ "notes": {
+  "weird": "Weather does the dyeing. Tying cloth and leaving it outdoors for months is a process nobody else runs, and the results cannot be fully predicted.",
+  "avant": "Sun-bleaching as method rather than as finish. The avant-garde claim is in the making — a garment whose pattern is determined by months of weather is a different proposition from a difficult cut.",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 2; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "JiyongKim's product pages say 'Made in Korea' and that each sun-bleached item 'carries a unique imprint of nature and time', but name no maker, workshop or mill. The site names no studio or factory and does not say who sews the garments. That is a country of make plus a finishing claim: a 2.",
+  "style": "A single, unusual idea — sun-faded, weather-dyed clothing — carried through everything."
+ },
+ "doors": {
+  "c": "full",
+  "n": 0,
+  "cities": [],
+  "basis": "master 2026-08-29, pre-recapture"
+ },
+ "cities": "No store of its own in the US · department stores and independent menswear shops, and its own site",
+ "site": {
+  "domain": "intl.jiyongkim.net",
+  "platform": "custom",
+  "feed": "sitemap_products",
+  "feed_count": 210,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "licensed",
+  "marks": [
+   "GORE-TEX"
+  ],
+  "source": "screen_36",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 99,
+  "w": 99,
+  "n": 87,
+  "s": 7,
+  "c": 6,
+  "x": 0,
+  "xh": 0,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "Outerwear",
+   "Tops",
+   "Bottoms"
+  ],
+  "st": "complete"
+ },
+ "shop": "https://intl.jiyongkim.net/product/search.html?keyword=",
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Dress pants",
+  "Outerwear"
+ ],
+ "garment_links": {
+  "T-shirt": "https://intl.jiyongkim.net/product/list.html?cate_no=101",
+  "Polo": "https://intl.jiyongkim.net/product/list.html?cate_no=101",
+  "Dress shirt": "https://intl.jiyongkim.net/product/list.html?cate_no=101",
+  "Jeans": "https://intl.jiyongkim.net/product/list.html?cate_no=102",
+  "Outerwear": "https://intl.jiyongkim.net/product/list.html?cate_no=100"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Sun-Bleached Tab Tee - White",
+   "lu": "https://intl.jiyongkim.net/product/detail.html?product_no=1639",
+   "hp": "Sun-Bleached Pack T-Shirt - 3 Colors",
+   "hu": "https://intl.jiyongkim.net/product/detail.html?product_no=1666",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 2,
-    "cashmere": 1,
-    "linen": 2,
-    "cotton": 4,
-    "wool": 3,
-    "synth": 1
+  "Polo": {
+   "lp": "Sun-Bleached Pack Polo T-Shirt - 2 Colors",
+   "lu": "https://intl.jiyongkim.net/product/detail.html?product_no=1667",
+   "hp": "Sun-Bleached Pack Polo Shirt - Burgundy",
+   "hu": "https://intl.jiyongkim.net/product/detail.html?product_no=2320",
+   "b": "range"
   },
-  "dials": {
-    "dur": 2,
-    "forg": 3,
-    "fuss": -1,
-    "status": 2,
-    "avant": 5,
-    "weird": 4,
-    "whitet": 2,
-    "logo": 1,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
+  "Dress shirt": {
+   "lp": "Sun-Bleached Tab Shirt - Blue",
+   "lu": "https://intl.jiyongkim.net/product/detail.html?product_no=2383",
+   "hp": "Sun-Bleached Draped Shirt - Black",
+   "hu": "https://intl.jiyongkim.net/product/detail.html?product_no=2435",
+   "b": "range"
   },
-  "why": "Clothing dyed by weather — garments left outdoors for months so sun, wind and rain fade them — on reconstructed vintage cloth.",
-  "origin": "Founded in Seoul around 2020 by Jiyong Kim, who trained at Bunka and Central Saint Martins and worked at Lemaire and Louis Vuitton.",
-  "say": "jee-YONG kim",
-  "chan": ["D", "I", "W"],
-  "conf": "S",
-  "forgc": [4, 2, 1],
-  "onething": {
-    "p": "Sun-Bleached Jacket",
-    "u": "",
-    "n": "process is the signature, not one style; months outdoors. NO LINK — the SSENSE slug could not be verified and jiyong-kim was invented; brand styles itself one word. Stocked at SSENSE, MR PORTER, DSM, GR8, 10 Corso Como."
+  "Jeans": {
+   "lp": "Re-Worked Denim Pants - Black",
+   "lu": "https://intl.jiyongkim.net/product/detail.html?product_no=2395",
+   "hp": "Re-Worked Denim Pants - Black",
+   "hu": "https://intl.jiyongkim.net/product/detail.html?product_no=2395",
+   "b": "single"
   },
-  "prices": [[100, 160], [190, 205], [240, 640], [615, 615], [495, 750], [630, 630], [615, 1655], null],
-  "notes": {
-    "weird": "Weather does the dyeing. Tying cloth and leaving it outdoors for months is a process nobody else runs, and the results cannot be fully predicted.",
-    "avant": "Sun-bleaching as method rather than as finish. The avant-garde claim is in the making — a garment whose pattern is determined by months of weather is a different proposition from a difficult cut.",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 2; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "JiyongKim's product pages say 'Made in Korea' and that each sun-bleached item 'carries a unique imprint of nature and time', but name no maker, workshop or mill. The site names no studio or factory and does not say who sews the garments. That is a country of make plus a finishing claim: a 2.",
-    "style": "A single, unusual idea — sun-faded, weather-dyed clothing — carried through everything."
+  "Dress pants": {
+   "lp": "Curved Trousers - Black",
+   "lu": "https://intl.jiyongkim.net/product/detail.html?product_no=3575",
+   "hp": "Sun-Bleached Curved Trousers - Black",
+   "hu": "https://intl.jiyongkim.net/product/detail.html?product_no=2415",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 0,
-    "cities": [],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Sweater": {
+   "lp": "Sun-Bleached Wide Collar Knit Cardigan - Brown",
+   "lu": "https://intl.jiyongkim.net/product/detail.html?product_no=3574",
+   "hp": "Sun-Bleached Wide Collar Knit Cardigan - Brown",
+   "hu": "https://intl.jiyongkim.net/product/detail.html?product_no=3574",
+   "b": "single"
   },
-  "cities": "No store of its own in the US · department stores and independent menswear shops, and its own site",
-  "site": {
-    "domain": "intl.jiyongkim.net",
-    "platform": "custom",
-    "feed": "sitemap_products",
-    "feed_count": 210,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "licensed",
-    "marks": ["GORE-TEX"],
-    "source": "screen_36",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 99,
-    "w": 99,
-    "n": 87,
-    "s": 7,
-    "c": 6,
-    "x": 0,
-    "xh": 0,
-    "sp": "one",
-    "sc": [],
-    "nc": ["Outerwear", "Tops", "Bottoms"],
-    "st": "complete"
-  },
-  "shop": "https://intl.jiyongkim.net/product/search.html?keyword=",
-  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Dress pants", "Outerwear"],
-  "garment_links": {
-    "T-shirt": "https://intl.jiyongkim.net/product/list.html?cate_no=101",
-    "Polo": "https://intl.jiyongkim.net/product/list.html?cate_no=101",
-    "Dress shirt": "https://intl.jiyongkim.net/product/list.html?cate_no=101",
-    "Jeans": "https://intl.jiyongkim.net/product/list.html?cate_no=102",
-    "Outerwear": "https://intl.jiyongkim.net/product/list.html?cate_no=100"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Sun-Bleached Tab Tee - White",
-      "lu": "https://intl.jiyongkim.net/product/detail.html?product_no=1639",
-      "hp": "Sun-Bleached Pack T-Shirt - 3 Colors",
-      "hu": "https://intl.jiyongkim.net/product/detail.html?product_no=1666",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Sun-Bleached Pack Polo T-Shirt - 2 Colors",
-      "lu": "https://intl.jiyongkim.net/product/detail.html?product_no=1667",
-      "hp": "Sun-Bleached Pack Polo Shirt - Burgundy",
-      "hu": "https://intl.jiyongkim.net/product/detail.html?product_no=2320",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Sun-Bleached Tab Shirt - Blue",
-      "lu": "https://intl.jiyongkim.net/product/detail.html?product_no=2383",
-      "hp": "Sun-Bleached Draped Shirt - Black",
-      "hu": "https://intl.jiyongkim.net/product/detail.html?product_no=2435",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Re-Worked Denim Pants - Black",
-      "lu": "https://intl.jiyongkim.net/product/detail.html?product_no=2395",
-      "hp": "Re-Worked Denim Pants - Black",
-      "hu": "https://intl.jiyongkim.net/product/detail.html?product_no=2395",
-      "b": "single"
-    },
-    "Dress pants": {
-      "lp": "Curved Trousers - Black",
-      "lu": "https://intl.jiyongkim.net/product/detail.html?product_no=3575",
-      "hp": "Sun-Bleached Curved Trousers - Black",
-      "hu": "https://intl.jiyongkim.net/product/detail.html?product_no=2415",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Sun-Bleached Wide Collar Knit Cardigan - Brown",
-      "lu": "https://intl.jiyongkim.net/product/detail.html?product_no=3574",
-      "hp": "Sun-Bleached Wide Collar Knit Cardigan - Brown",
-      "hu": "https://intl.jiyongkim.net/product/detail.html?product_no=3574",
-      "b": "single"
-    },
-    "Outerwear": {
-      "lp": "Draped Track Jacket - Navy",
-      "lu": "https://intl.jiyongkim.net/product/detail.html?product_no=2438",
-      "hp": "Sun-Bleached Shawl Collar Jacket - Black",
-      "hu": "https://intl.jiyongkim.net/product/detail.html?product_no=2457",
-      "b": "range"
-    }
-  },
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://intl.jiyongkim.net/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?search_text=Jiyong%20Kim&catalog[]=5",
-      "m": "text search",
-      "n": "No Vinted brand entry; keyword search in Men"
-    }
-  },
-  "season": {
-    "l": "26 A/W",
-    "t": "lookbook",
-    "u": "https://intl.jiyongkim.net/product/lookbook-list.html?cate_no=553",
-    "m": "yes"
-  },
-  "craft_evidence": {
-    "owned": "unclear",
-    "owned_d": "No facility named anywhere on intl.jiyongkim.net. Site footer gives only the company details (owner Jiyong Kim, Seoul business registration). Who sun-bleaches and who sews is not stated; no studio, workshop or factory named.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "every product",
-    "countries": "Korea 4/4 (sample of 4 PDPs on intl.jiyongkim.net: Sun-Bleached Wide Collar Knit Cardigan, Sun-Bleached Drape Shirt, Sun-Bleached Twisted Trousers, Draped Zip-Up Hoodie).",
-    "heritage": "none",
-    "repair": "no",
-    "process": "some",
-    "urls": [
-      "https://intl.jiyongkim.net/product/detail.html?product_no=3573&cate_no=24&display_group=1",
-      "https://intl.jiyongkim.net/product/detail.html?product_no=3541&cate_no=24&display_group=1"
-    ],
-    "conf": "medium",
-    "read": "2026-10-03"
+  "Outerwear": {
+   "lp": "Draped Track Jacket - Navy",
+   "lu": "https://intl.jiyongkim.net/product/detail.html?product_no=2438",
+   "hp": "Sun-Bleached Shawl Collar Jacket - Black",
+   "hu": "https://intl.jiyongkim.net/product/detail.html?product_no=2457",
+   "b": "range"
   }
+ },
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://intl.jiyongkim.net/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?search_text=Jiyong%20Kim&catalog[]=5",
+   "m": "text search",
+   "n": "No Vinted brand entry; keyword search in Men"
+  }
+ },
+ "season": {
+  "l": "26 A/W",
+  "t": "lookbook",
+  "u": "https://intl.jiyongkim.net/product/lookbook-list.html?cate_no=553",
+  "m": "yes"
+ },
+ "craft_evidence": {
+  "owned": "unclear",
+  "owned_d": "No facility named anywhere on intl.jiyongkim.net. Site footer gives only the company details (owner Jiyong Kim, Seoul business registration). Who sun-bleaches and who sews is not stated; no studio, workshop or factory named.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "every product",
+  "countries": "Korea 4/4 (sample of 4 PDPs on intl.jiyongkim.net: Sun-Bleached Wide Collar Knit Cardigan, Sun-Bleached Drape Shirt, Sun-Bleached Twisted Trousers, Draped Zip-Up Hoodie).",
+  "heritage": "none",
+  "repair": "no",
+  "process": "some",
+  "urls": [
+   "https://intl.jiyongkim.net/product/detail.html?product_no=3573&cate_no=24&display_group=1",
+   "https://intl.jiyongkim.net/product/detail.html?product_no=3541&cate_no=24&display_group=1"
+  ],
+  "conf": "medium",
+  "read": "2026-10-03"
+ }
 }

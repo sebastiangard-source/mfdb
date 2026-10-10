@@ -1,236 +1,382 @@
 {
-  "name": "Balenciaga",
-  "band": "trueLux",
-  "seat": 156,
-  "dagger": 1,
-  "focus": {
-    "tech": 2,
-    "comfort": 2,
-    "craft": 3,
-    "style": 5
-  },
-  "fabric": {
-    "denim": 2,
-    "cashmere": 2,
-    "linen": 1,
-    "cotton": 2,
-    "wool": 2,
-    "synth": 3
-  },
-  "dials": {
-    "dur": 3,
-    "forg": 2,
-    "fuss": 1,
-    "shoes": 4,
-    "status": 5,
-    "fren": 3,
-    "street": 4,
-    "avant": 4,
-    "weird": 4,
-    "whitet": 2,
-    "logo": 4,
-    "western": 1,
-    "rock": 3,
-    "workwear": 1,
-    "outdoor": 2,
-    "surf": 1
-  },
-  "why": "Oversized, experimental clothing built on couture technique, from the Paris house.",
-  "origin": "Founded by Cristóbal Balenciaga; the Paris house opened in 1937.",
-  "say": "bah-len-see-AH-gah",
-  "chan": ["O", "D"],
-  "conf": "L",
-  "forgc": [2, 2, 1],
-  "shop": "https://www.balenciaga.com/en-us/search?q=",
-  "onething": {
-    "p": "Triple S",
-    "u": "https://www.balenciaga.com/en-us/search?q=Triple%20S",
-    "n": "verified ✓"
-  },
-  "prices": [
-    [550, 1150],
-    [1350, 2190],
-    [795, 1390],
-    [850, 1790],
-    [1290, 1590],
-    [1990, 1990],
-    [2750, 7990],
-    [995, 1090]
+ "name": "Balenciaga",
+ "band": "trueLux",
+ "seat": 156,
+ "dagger": 1,
+ "focus": {
+  "tech": 2,
+  "comfort": 2,
+  "craft": 3,
+  "style": 5
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 2,
+  "linen": 1,
+  "cotton": 2,
+  "wool": 2,
+  "synth": 3
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 2,
+  "fuss": 1,
+  "shoes": 4,
+  "status": 5,
+  "fren": 3,
+  "street": 4,
+  "avant": 4,
+  "weird": 4,
+  "whitet": 2,
+  "logo": 4,
+  "western": 1,
+  "rock": 3,
+  "workwear": 1,
+  "outdoor": 2,
+  "surf": 1
+ },
+ "why": "Oversized, experimental clothing built on couture technique, from the Paris house.",
+ "origin": "Founded by Cristóbal Balenciaga; the Paris house opened in 1937.",
+ "say": "bah-len-see-AH-gah",
+ "chan": [
+  "O",
+  "D"
+ ],
+ "conf": "L",
+ "forgc": [
+  2,
+  2,
+  1
+ ],
+ "shop": "https://www.balenciaga.com/en-us/search?q=",
+ "onething": {
+  "p": "Triple S",
+  "u": "https://www.balenciaga.com/en-us/search?q=Triple%20S",
+  "n": "verified ✓"
+ },
+ "prices": [
+  [
+   550,
+   1150
   ],
-  "shoelink": {
-    "t": "Triple S",
-    "u": "https://www.balenciaga.com/en-us/search?q=Triple%20S"
+  [
+   1350,
+   2190
+  ],
+  [
+   795,
+   1390
+  ],
+  [
+   850,
+   1790
+  ],
+  [
+   1290,
+   1590
+  ],
+  [
+   1990,
+   1990
+  ],
+  [
+   2750,
+   7990
+  ],
+  [
+   995,
+   1090
+  ]
+ ],
+ "shoelink": {
+  "t": "Triple S",
+  "u": "https://www.balenciaga.com/en-us/search?q=Triple%20S"
+ },
+ "notes": {
+  "fren": "a Paris house that traded elegance for irony — Frenchness as raw material",
+  "street": "a couture house running drop culture — the Triple S made ugly luxury street law",
+  "avant": "silhouette warfare at couture scale",
+  "weird": "Deliberately ugly as a strategy, and the weirdness is corporate and calculated rather than personal. That does not make it less effective — it makes it a different kind of strange.",
+  "status": "Status through provocation rather than through beauty. The logo, the deliberately ugly silhouette and the joke pricing are the same gesture, and the wearer is signalling that they are in on it.",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 4; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "style": "Oversized, deliberately strange design; the shape is the product.",
+  "craft": "Balenciaga owns one facility, The Plant at Cerreto Guidi in Tuscany. It makes leather goods only, and its CEO says those are still largely made by Tuscan suppliers while production is internalised step by step. Nothing shows owned or named making for clothing, and the brand site could not be read, so the current 3 is kept. [audit proposed 3 at low confidence; held at 3 pending a second read]"
+ },
+ "doors": {
+  "c": "full",
+  "n": 28,
+  "cities": [
+   [
+    "Atlanta",
+    "GA",
+    1
+   ],
+   [
+    "Austin",
+    "TX",
+    1
+   ],
+   [
+    "Beverly Hills",
+    "CA",
+    1
+   ],
+   [
+    "Boston",
+    "MA",
+    1
+   ],
+   [
+    "Canoga Park",
+    "CA",
+    1
+   ],
+   [
+    "Charlotte",
+    "NC",
+    1
+   ],
+   [
+    "Chicago",
+    "IL",
+    1
+   ],
+   [
+    "Costa Mesa",
+    "CA",
+    1
+   ],
+   [
+    "Dallas",
+    "TX",
+    1
+   ],
+   [
+    "East Rutherford",
+    "NJ",
+    1
+   ],
+   [
+    "Honolulu",
+    "HI",
+    2
+   ],
+   [
+    "Houston",
+    "TX",
+    1
+   ],
+   [
+    "King of Prussia",
+    "PA",
+    1
+   ],
+   [
+    "Las Vegas",
+    "NV",
+    2
+   ],
+   [
+    "Los Angeles",
+    "CA",
+    2
+   ],
+   [
+    "McLean",
+    "VA",
+    1
+   ],
+   [
+    "Miami",
+    "FL",
+    2
+   ],
+   [
+    "New York",
+    "NY",
+    2
+   ],
+   [
+    "Orlando",
+    "FL",
+    1
+   ],
+   [
+    "Santa Clara",
+    "CA",
+    1
+   ],
+   [
+    "Scottsdale",
+    "AZ",
+    1
+   ],
+   [
+    "Short Hills",
+    "NJ",
+    1
+   ],
+   [
+    "Troy",
+    "MI",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 0,
+  "con": 3
+ },
+ "cities": "28 stores across the US · department stores and independent menswear shops, and its own site",
+ "region": {
+  "o": [
+   489,
+   491,
+   493,
+   496,
+   498,
+   507
+  ],
+  "s": [
+   5,
+   123
+  ]
+ },
+ "addmen": true,
+ "site": {
+  "domain": "www.balenciaga.com",
+  "platform": "salesforce_commerce",
+  "feed": "category_crawl",
+  "feed_count": 495,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "no",
+  "origin": "none",
+  "marks": [],
+  "source": "screen_36",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 338,
+  "w": 338,
+  "n": 86,
+  "s": 14,
+  "c": 0,
+  "x": 3,
+  "xh": 1,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "T-shirts",
+   "Sweatshirts & hoodies",
+   "Pants"
+  ],
+  "st": "complete"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Bodies Medium Fit T-Shirt (black)",
+   "lu": "https://www.balenciaga.com/en-us/bodies-medium-fit-t-shirt-black-764235TUVO71000.html",
+   "hp": "Soccer Oversized T-Shirt (red)",
+   "hu": "https://www.balenciaga.com/en-us/soccer-oversized-t-shirt-red-A003GLTUVZ76400.html",
+   "b": "range"
   },
-  "notes": {
-    "fren": "a Paris house that traded elegance for irony — Frenchness as raw material",
-    "street": "a couture house running drop culture — the Triple S made ugly luxury street law",
-    "avant": "silhouette warfare at couture scale",
-    "weird": "Deliberately ugly as a strategy, and the weirdness is corporate and calculated rather than personal. That does not make it less effective — it makes it a different kind of strange.",
-    "status": "Status through provocation rather than through beauty. The logo, the deliberately ugly silhouette and the joke pricing are the same gesture, and the wearer is signalling that they are in on it.",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 4; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "style": "Oversized, deliberately strange design; the shape is the product.",
-    "craft": "Balenciaga owns one facility, The Plant at Cerreto Guidi in Tuscany. It makes leather goods only, and its CEO says those are still largely made by Tuscan suppliers while production is internalised step by step. Nothing shows owned or named making for clothing, and the brand site could not be read, so the current 3 is kept. [audit proposed 3 at low confidence; held at 3 pending a second read]"
+  "Polo": {
+   "lp": "Knitted Long Sleeve Polo (long-sleeve only)",
+   "lu": "https://www.balenciaga.com/en-us/knitted-long-sleeve-polo-navy-875653T17848065.html",
+   "hp": "Sporty Block Patched Polo (long-sleeve)",
+   "hu": "https://www.balenciaga.com/en-us/sporty-block-patched-polo-burgundy-multicolor-865803T34436069.html",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 28,
-    "cities": [
-      ["Atlanta", "GA", 1],
-      ["Austin", "TX", 1],
-      ["Beverly Hills", "CA", 1],
-      ["Boston", "MA", 1],
-      ["Canoga Park", "CA", 1],
-      ["Charlotte", "NC", 1],
-      ["Chicago", "IL", 1],
-      ["Costa Mesa", "CA", 1],
-      ["Dallas", "TX", 1],
-      ["East Rutherford", "NJ", 1],
-      ["Honolulu", "HI", 2],
-      ["Houston", "TX", 1],
-      ["King of Prussia", "PA", 1],
-      ["Las Vegas", "NV", 2],
-      ["Los Angeles", "CA", 2],
-      ["McLean", "VA", 1],
-      ["Miami", "FL", 2],
-      ["New York", "NY", 2],
-      ["Orlando", "FL", 1],
-      ["Santa Clara", "CA", 1],
-      ["Scottsdale", "AZ", 1],
-      ["Short Hills", "NJ", 1],
-      ["Troy", "MI", 1]
-    ],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Dress shirt": {
+   "lp": "Standard Shirt (white poplin)",
+   "lu": "https://www.balenciaga.com/en-us/standard-shirt-white-850808TTM129000.html",
+   "hp": "Masking Tape Long Sleeve Shirt Large Fit",
+   "hu": "https://www.balenciaga.com/en-us/masking-tape-long-sleeve-shirt-large-fit-black-857809TRM281000.html",
+   "b": "range"
   },
-  "cities": "28 stores across the US · department stores and independent menswear shops, and its own site",
-  "region": {
-    "o": [269, 272, 273, 276, 277, 278],
-    "s": [5, 123]
+  "Jeans": {
+   "lp": "Flared Pants (black Italian denim, five-pocket)",
+   "lu": "https://www.balenciaga.com/en-us/flared-pants-black-790405TQW833207.html",
+   "hp": "Piping Detail Denim Pants (five-pocket)",
+   "hu": "https://www.balenciaga.com/en-us/piping-detail-denim-pants-black-871354TQW562279.html",
+   "b": "range"
   },
-  "addmen": true,
-  "site": {
-    "domain": "www.balenciaga.com",
-    "platform": "salesforce_commerce",
-    "feed": "category_crawl",
-    "feed_count": 495,
-    "status": "live_store",
-    "checked": "2026-09-13"
+  "Dress pants": {
+   "lp": "Straight Fit Tailored Pants",
+   "lu": "https://www.balenciaga.com/en-us/straight-fit-tailored-pants-black-850705TJT211000.html",
+   "hp": "Large Tailored Pants",
+   "hu": "https://www.balenciaga.com/en-us/large-tailored-pants-black-A001Z4TPT151000.html",
+   "b": "range"
   },
-  "tech_evidence": {
-    "names": "no",
-    "origin": "none",
-    "marks": [],
-    "source": "screen_36",
-    "checked": "2026-09-12"
+  "Sweater": {
+   "lp": "Crewneck Sweater (100% cashmere)",
+   "lu": "https://www.balenciaga.com/en-us/crewneck-sweater-black-849950T17651000.html",
+   "hp": "Crewneck Sweater (100% cashmere)",
+   "hu": "https://www.balenciaga.com/en-us/crewneck-sweater-black-849950T17651000.html",
+   "b": "single"
   },
-  "fibre": {
-    "t": 338,
-    "w": 338,
-    "n": 86,
-    "s": 14,
-    "c": 0,
-    "x": 3,
-    "xh": 1,
-    "sp": "one",
-    "sc": [],
-    "nc": ["T-shirts", "Sweatshirts & hoodies", "Pants"],
-    "st": "complete"
+  "Outerwear": {
+   "lp": "Standard Bomber Jacket",
+   "lu": "https://www.balenciaga.com/en-us/standard-bomber-jacket-black-850848TMO131000.html",
+   "hp": "Leather Peacoat (calfskin)",
+   "hu": "https://www.balenciaga.com/en-us/leather-peacoat-burgundy-A009GFTUS096500.html",
+   "b": "range"
   },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Bodies Medium Fit T-Shirt (black)",
-      "lu": "https://www.balenciaga.com/en-us/bodies-medium-fit-t-shirt-black-764235TUVO71000.html",
-      "hp": "Soccer Oversized T-Shirt (red)",
-      "hu": "https://www.balenciaga.com/en-us/soccer-oversized-t-shirt-red-A003GLTUVZ76400.html",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Knitted Long Sleeve Polo (long-sleeve only)",
-      "lu": "https://www.balenciaga.com/en-us/knitted-long-sleeve-polo-navy-875653T17848065.html",
-      "hp": "Sporty Block Patched Polo (long-sleeve)",
-      "hu": "https://www.balenciaga.com/en-us/sporty-block-patched-polo-burgundy-multicolor-865803T34436069.html",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Standard Shirt (white poplin)",
-      "lu": "https://www.balenciaga.com/en-us/standard-shirt-white-850808TTM129000.html",
-      "hp": "Masking Tape Long Sleeve Shirt Large Fit",
-      "hu": "https://www.balenciaga.com/en-us/masking-tape-long-sleeve-shirt-large-fit-black-857809TRM281000.html",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Flared Pants (black Italian denim, five-pocket)",
-      "lu": "https://www.balenciaga.com/en-us/flared-pants-black-790405TQW833207.html",
-      "hp": "Piping Detail Denim Pants (five-pocket)",
-      "hu": "https://www.balenciaga.com/en-us/piping-detail-denim-pants-black-871354TQW562279.html",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Straight Fit Tailored Pants",
-      "lu": "https://www.balenciaga.com/en-us/straight-fit-tailored-pants-black-850705TJT211000.html",
-      "hp": "Large Tailored Pants",
-      "hu": "https://www.balenciaga.com/en-us/large-tailored-pants-black-A001Z4TPT151000.html",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Crewneck Sweater (100% cashmere)",
-      "lu": "https://www.balenciaga.com/en-us/crewneck-sweater-black-849950T17651000.html",
-      "hp": "Crewneck Sweater (100% cashmere)",
-      "hu": "https://www.balenciaga.com/en-us/crewneck-sweater-black-849950T17651000.html",
-      "b": "single"
-    },
-    "Outerwear": {
-      "lp": "Standard Bomber Jacket",
-      "lu": "https://www.balenciaga.com/en-us/standard-bomber-jacket-black-850848TMO131000.html",
-      "hp": "Leather Peacoat (calfskin)",
-      "hu": "https://www.balenciaga.com/en-us/leather-peacoat-burgundy-A009GFTUS096500.html",
-      "b": "range"
-    },
-    "Shoes": {
-      "lp": "Portofino Loafer",
-      "lu": "https://www.balenciaga.com/en-us/portofino-loafer-black-861618WB1B11019.html",
-      "hp": "Comfy Loafer",
-      "hu": "https://www.balenciaga.com/en-us/comfy-loafer-moka-876328WCEL12321.html",
-      "b": "pair"
-    }
-  },
-  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants", "Outerwear"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.balenciaga.com/en-us/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=2369",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "craft_evidence": {
-    "owned": "yes",
-    "owned_d": "LEATHER GOODS ONLY, and only part of them. 'The Plant', Cerreto Guidi (Florence, Tuscany) is owned by Balenciaga (a Kering house); FashionNetwork describes it as its first owned production site, and International Leather Maker (10 Feb 2026) as its 'first in-house leather goods production facility'. The site is a revived 1960s leather workshop of ~10,000 m2, announced in 2020 for a 2021 opening, with a training centre. LaConceria quotes CEO Gianfranco Gianangeli saying 100% of leather goods are made in Tuscany 'with suppliers', and reports 176 staff, with 'a significant part' of production to be internalised progressively. Balenciaga said it 'will continue to rely on its current network of local suppliers'. No owned RTW or footwear facility found.",
-    "makers": "NC",
-    "mills": "NC",
-    "madein": "NC",
-    "countries": "NC - site blocked. Search results show resale listings with Portugal and Italy labels; those are retailers, not scored.",
-    "heritage": "NC",
-    "repair": "NC",
-    "process": "NC",
-    "urls": [
-      "https://ww.fashionnetwork.com/news/Balenciaga-to-set-up-its-first-leather-goods-factory-in-italy,1257969.html",
-      "https://www.laconceria.it/en/leather-goods/balenciaga-opens-the-plant-the-future-lies-in-in-house-production/"
-    ],
-    "conf": "low",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Portofino Loafer",
+   "lu": "https://www.balenciaga.com/en-us/portofino-loafer-black-861618WB1B11019.html",
+   "hp": "Comfy Loafer",
+   "hu": "https://www.balenciaga.com/en-us/comfy-loafer-moka-876328WCEL12321.html",
+   "b": "pair"
   }
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants",
+  "Outerwear"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.balenciaga.com/en-us/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=2369",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "craft_evidence": {
+  "owned": "yes",
+  "owned_d": "LEATHER GOODS ONLY, and only part of them. 'The Plant', Cerreto Guidi (Florence, Tuscany) is owned by Balenciaga (a Kering house); FashionNetwork describes it as its first owned production site, and International Leather Maker (10 Feb 2026) as its 'first in-house leather goods production facility'. The site is a revived 1960s leather workshop of ~10,000 m2, announced in 2020 for a 2021 opening, with a training centre. LaConceria quotes CEO Gianfranco Gianangeli saying 100% of leather goods are made in Tuscany 'with suppliers', and reports 176 staff, with 'a significant part' of production to be internalised progressively. Balenciaga said it 'will continue to rely on its current network of local suppliers'. No owned RTW or footwear facility found.",
+  "makers": "NC",
+  "mills": "NC",
+  "madein": "NC",
+  "countries": "NC - site blocked. Search results show resale listings with Portugal and Italy labels; those are retailers, not scored.",
+  "heritage": "NC",
+  "repair": "NC",
+  "process": "NC",
+  "urls": [
+   "https://ww.fashionnetwork.com/news/Balenciaga-to-set-up-its-first-leather-goods-factory-in-italy,1257969.html",
+   "https://www.laconceria.it/en/leather-goods/balenciaga-opens-the-plant-the-future-lies-in-in-house-production/"
+  ],
+  "conf": "low",
+  "read": "2026-10-03"
+ }
 }

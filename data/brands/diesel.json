@@ -1,232 +1,353 @@
 {
-  "name": "Diesel",
-  "band": "accessible",
-  "seat": 85,
-  "dagger": 1,
-  "focus": {
-    "tech": 2,
-    "comfort": 2,
-    "craft": 3,
-    "style": 4
+ "name": "Diesel",
+ "band": "accessible",
+ "seat": 85,
+ "dagger": 1,
+ "focus": {
+  "tech": 2,
+  "comfort": 2,
+  "craft": 3,
+  "style": 4
+ },
+ "fabric": {
+  "denim": 5,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 1,
+  "wool": 1,
+  "synth": 2
+ },
+ "dials": {
+  "dur": 2,
+  "forg": 2,
+  "fuss": -2,
+  "status": 3,
+  "murica": 2,
+  "ital": 3,
+  "street": 3,
+  "avant": 2,
+  "weird": 3,
+  "whitet": 2,
+  "logo": 2,
+  "western": 1,
+  "rock": 4,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Denim and casual clothing with an industrial, provocative image; redesigned under Glenn Martens since 2020.",
+ "origin": "Founded in Molvena, Italy, in 1978 by Renzo Rosso.",
+ "chan": [
+  "O",
+  "D",
+  "X"
+ ],
+ "conf": "L",
+ "forgc": [
+  2,
+  3,
+  1
+ ],
+ "onething": {
+  "p": "D-Strukt jean",
+  "u": "https://diesel.com/en-us/search-algolia?NA_NA_DieselUS__products__en_US%5Bquery%5D=d-struck",
+  "n": "their Algolia deep-link, verified — normal search URLs fail"
+ },
+ "prices": [
+  [
+   75,
+   295
+  ],
+  [
+   150,
+   375
+  ],
+  [
+   225,
+   375
+  ],
+  [
+   195,
+   850
+  ],
+  [
+   275,
+   275
+  ],
+  [
+   295,
+   750
+  ],
+  [
+   350,
+   1395
+  ],
+  [
+   595,
+   595
+  ]
+ ],
+ "notes": {
+  "denim": "industrial denim revived by Glenn Martens",
+  "ital": "the inverse case — an Italian company selling an American fantasy for forty years",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 3; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "Diesel's own pages name no factory, maker or mill and the sampled jeans pages show no country of make. Its parent OTB says a group company handles Diesel footwear and accessories production, but nothing ties owned making to Diesel clothing. On what is checkable, a 1; a 2 if PDPs do state origin in a hidden tab. [audit proposed 1 at low confidence; held at 3 pending a second read]"
+ },
+ "doors": {
+  "c": "full",
+  "n": 14,
+  "cities": [
+   [
+    "Atlanta",
+    "GA",
+    1
+   ],
+   [
+    "Aventura",
+    "FL",
+    1
+   ],
+   [
+    "Boston",
+    "MA",
+    1
+   ],
+   [
+    "Costa Mesa",
+    "CA",
+    1
+   ],
+   [
+    "Dallas",
+    "TX",
+    1
+   ],
+   [
+    "Honolulu",
+    "HI",
+    1
+   ],
+   [
+    "King of Prussia",
+    "PA",
+    1
+   ],
+   [
+    "Las Vegas",
+    "NV",
+    1
+   ],
+   [
+    "Los Angeles",
+    "CA",
+    1
+   ],
+   [
+    "McLean",
+    "VA",
+    1
+   ],
+   [
+    "Miami",
+    "FL",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    1
+   ],
+   [
+    "Paramus",
+    "NJ",
+    1
+   ],
+   [
+    "Santa Clara",
+    "CA",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 10,
+  "con": 0
+ },
+ "cities": "14 stores, including Atlanta, Aventura, Boston · department stores and independent menswear shops, and its own site",
+ "region": {
+  "o": [
+   1060,
+   1065,
+   1070,
+   1071
+  ],
+  "s": [
+   124
+  ]
+ },
+ "addmen": true,
+ "addcloth": true,
+ "site": {
+  "domain": "diesel.com",
+  "platform": "salesforce_commerce",
+  "feed": "sitemap_products",
+  "feed_count": 1735,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "both",
+  "marks": [
+   "JoggJeans(R)",
+   "TENCEL(TM)",
+   "Supima",
+   "Lycra",
+   "Diesel(R) (housemark, not a technology)"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 347,
+  "w": 347,
+  "n": 82,
+  "s": 11,
+  "c": 7,
+  "x": 26,
+  "xh": 12,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "denim",
+   "tshirts",
+   "jackets"
+  ],
+  "st": "complete"
+ },
+ "garment_links": {
+  "T-shirt": "https://www.diesel.com/en-us/man/tshirts/",
+  "Polo": "https://www.diesel.com/en-us/man/tshirts/",
+  "Dress shirt": "https://www.diesel.com/en-us/man/shirts/",
+  "Jeans": "https://www.diesel.com/en-us/man/denim/",
+  "Dress pants": "https://www.diesel.com/en-us/man/pants/",
+  "Sweater": "https://www.diesel.com/en-us/man/sweaters/",
+  "Outerwear": "https://www.diesel.com/en-us/man/jackets/",
+  "Shoes": "https://www.diesel.com/en-us/man/footwear/"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "T-shirt with blurry Diesel logo (T-Adjust-Q7)",
+   "lu": "https://diesel.com/en-us/tshirts/t-adjust-q7-black/A153980GRAI9XX.html",
+   "hp": "T-shirt with frayed edges and crystal details (T-Norm-Crystals)",
+   "hu": "https://diesel.com/en-us/tshirts/t-norm-crystals-white/A232350PKBN141.html",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 5,
-    "cashmere": 1,
-    "linen": 1,
-    "cotton": 1,
-    "wool": 1,
-    "synth": 2
+  "Polo": {
+   "lp": "Polo shirt with micro Diesel embroidery (T-Ferry-Microdiv)",
+   "lu": "https://diesel.com/en-us/polos/t-ferry-microdiv-white/A150330JMAD100.html",
+   "hp": "Mesh-jacquard polo shirt with Phoenix print (T-Erry-Zip)",
+   "hu": "https://diesel.com/en-us/polos/t-erry-zip-grey/A240100PLDH900.html",
+   "b": "range"
   },
-  "dials": {
-    "dur": 2,
-    "forg": 2,
-    "fuss": -2,
-    "status": 3,
-    "murica": 2,
-    "ital": 3,
-    "street": 3,
-    "avant": 2,
-    "weird": 3,
-    "whitet": 2,
-    "logo": 2,
-    "western": 1,
-    "rock": 4,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
+  "Dress shirt": {
+   "lp": "Shirt with embroidered Oval D (S-Fitty-QFAV)",
+   "lu": "https://diesel.com/en-us/shirts/s-fitty-qfav-white/A196700QFAV100.html",
+   "hp": "Cotton-cupro shirt with embroidered patch (S-Simply-A-JMCK)",
+   "hu": "https://diesel.com/en-us/shirts/s-simply-a-jmck-black/A232520JMCK9XX.html",
+   "b": "range"
   },
-  "why": "Denim and casual clothing with an industrial, provocative image; redesigned under Glenn Martens since 2020.",
-  "origin": "Founded in Molvena, Italy, in 1978 by Renzo Rosso.",
-  "chan": ["O", "D", "X"],
-  "conf": "L",
-  "forgc": [2, 3, 1],
-  "onething": {
-    "p": "D-Strukt jean",
-    "u": "https://diesel.com/en-us/search-algolia?NA_NA_DieselUS__products__en_US%5Bquery%5D=d-struck",
-    "n": "their Algolia deep-link, verified — normal search URLs fail"
+  "Jeans": {
+   "lp": "Slim Jeans Regular Waist 2019 D-Strukt",
+   "lu": "https://diesel.com/en-us/slim/slim-jeans-2019-d-strukt-0hdbk-blue/A035580HDBK01.html",
+   "hp": "Relaxed Jeans Regular Waist 1980 D-Eeper",
+   "hu": "https://diesel.com/en-us/relaxed/relaxed-jeans-1980-d-eeper-068ym-blue/A15795068YM01.html",
+   "b": "range"
   },
-  "prices": [[75, 295], [150, 375], [225, 375], [195, 850], [275, 275], [295, 750], [350, 1395], [595, 595]],
-  "notes": {
-    "denim": "industrial denim revived by Glenn Martens",
-    "ital": "the inverse case — an Italian company selling an American fantasy for forty years",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 3; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Diesel's own pages name no factory, maker or mill and the sampled jeans pages show no country of make. Its parent OTB says a group company handles Diesel footwear and accessories production, but nothing ties owned making to Diesel clothing. On what is checkable, a 1; a 2 if PDPs do state origin in a hidden tab. [audit proposed 1 at low confidence; held at 3 pending a second read]"
+  "Dress pants": {
+   "lp": "Chino pants (P-Hant-Chino)",
+   "lu": "https://diesel.com/en-us/pants/p-hant-chino-black/A196380NJBP9XX.html",
+   "hp": "Chino pants (P-Hant-Chino)",
+   "hu": "https://diesel.com/en-us/pants/p-hant-chino-black/A196380NJBP9XX.html",
+   "b": "single"
   },
-  "doors": {
-    "c": "full",
-    "n": 14,
-    "cities": [
-      ["Atlanta", "GA", 1],
-      ["Aventura", "FL", 1],
-      ["Boston", "MA", 1],
-      ["Costa Mesa", "CA", 1],
-      ["Dallas", "TX", 1],
-      ["Honolulu", "HI", 1],
-      ["King of Prussia", "PA", 1],
-      ["Las Vegas", "NV", 1],
-      ["Los Angeles", "CA", 1],
-      ["McLean", "VA", 1],
-      ["Miami", "FL", 1],
-      ["New York", "NY", 1],
-      ["Paramus", "NJ", 1],
-      ["Santa Clara", "CA", 1]
-    ],
-    "basis": "master 2026-08-29, pre-recapture",
-    "addressed": 2
+  "Sweater": {
+   "lp": "Wool jumper with cut-out logo (K-Valiam)",
+   "lu": "https://diesel.com/en-us/sweaters/k-valiam-black/A174420DCCH9XX.html",
+   "hp": "Zip-up cardigan with two-tone denim effect (K-Hermos)",
+   "hu": "https://diesel.com/en-us/sweaters/k-hermos-multicolor/A250820IFBF900A.html",
+   "b": "range"
   },
-  "cities": "14 stores, including Atlanta, Aventura, Boston · department stores and independent menswear shops, and its own site",
-  "region": {
-    "o": [3133, 3134],
-    "s": [124]
+  "Outerwear": {
+   "lp": "Biker jacket in shiny ripstop (J-Clays)",
+   "lu": "https://diesel.com/en-us/jackets/j-clays-black/A144100NKBK9XX.html",
+   "hp": "Biker jacket in treated leather (L-Eon)",
+   "hu": "https://diesel.com/en-us/outerwear-%26-jackets/l-eon-brown/A200000ALBB7BB.html",
+   "b": "pair"
   },
-  "addmen": true,
-  "addcloth": true,
-  "site": {
-    "domain": "diesel.com",
-    "platform": "salesforce_commerce",
-    "feed": "sitemap_products",
-    "feed_count": 1735,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "both",
-    "marks": ["JoggJeans(R)", "TENCEL(TM)", "Supima", "Lycra", "Diesel(R) (housemark, not a technology)"],
-    "source": "census",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 347,
-    "w": 347,
-    "n": 82,
-    "s": 11,
-    "c": 7,
-    "x": 26,
-    "xh": 12,
-    "sp": "one",
-    "sc": [],
-    "nc": ["denim", "tshirts", "jackets"],
-    "st": "complete"
-  },
-  "garment_links": {
-    "T-shirt": "https://www.diesel.com/en-us/man/tshirts/",
-    "Polo": "https://www.diesel.com/en-us/man/tshirts/",
-    "Dress shirt": "https://www.diesel.com/en-us/man/shirts/",
-    "Jeans": "https://www.diesel.com/en-us/man/denim/",
-    "Dress pants": "https://www.diesel.com/en-us/man/pants/",
-    "Sweater": "https://www.diesel.com/en-us/man/sweaters/",
-    "Outerwear": "https://www.diesel.com/en-us/man/jackets/",
-    "Shoes": "https://www.diesel.com/en-us/man/footwear/"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "T-shirt with blurry Diesel logo (T-Adjust-Q7)",
-      "lu": "https://diesel.com/en-us/tshirts/t-adjust-q7-black/A153980GRAI9XX.html",
-      "hp": "T-shirt with frayed edges and crystal details (T-Norm-Crystals)",
-      "hu": "https://diesel.com/en-us/tshirts/t-norm-crystals-white/A232350PKBN141.html",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Polo shirt with micro Diesel embroidery (T-Ferry-Microdiv)",
-      "lu": "https://diesel.com/en-us/polos/t-ferry-microdiv-white/A150330JMAD100.html",
-      "hp": "Mesh-jacquard polo shirt with Phoenix print (T-Erry-Zip)",
-      "hu": "https://diesel.com/en-us/polos/t-erry-zip-grey/A240100PLDH900.html",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Shirt with embroidered Oval D (S-Fitty-QFAV)",
-      "lu": "https://diesel.com/en-us/shirts/s-fitty-qfav-white/A196700QFAV100.html",
-      "hp": "Cotton-cupro shirt with embroidered patch (S-Simply-A-JMCK)",
-      "hu": "https://diesel.com/en-us/shirts/s-simply-a-jmck-black/A232520JMCK9XX.html",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Slim Jeans Regular Waist 2019 D-Strukt",
-      "lu": "https://diesel.com/en-us/slim/slim-jeans-2019-d-strukt-0hdbk-blue/A035580HDBK01.html",
-      "hp": "Relaxed Jeans Regular Waist 1980 D-Eeper",
-      "hu": "https://diesel.com/en-us/relaxed/relaxed-jeans-1980-d-eeper-068ym-blue/A15795068YM01.html",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Chino pants (P-Hant-Chino)",
-      "lu": "https://diesel.com/en-us/pants/p-hant-chino-black/A196380NJBP9XX.html",
-      "hp": "Chino pants (P-Hant-Chino)",
-      "hu": "https://diesel.com/en-us/pants/p-hant-chino-black/A196380NJBP9XX.html",
-      "b": "single"
-    },
-    "Sweater": {
-      "lp": "Wool jumper with cut-out logo (K-Valiam)",
-      "lu": "https://diesel.com/en-us/sweaters/k-valiam-black/A174420DCCH9XX.html",
-      "hp": "Zip-up cardigan with two-tone denim effect (K-Hermos)",
-      "hu": "https://diesel.com/en-us/sweaters/k-hermos-multicolor/A250820IFBF900A.html",
-      "b": "range"
-    },
-    "Outerwear": {
-      "lp": "Biker jacket in shiny ripstop (J-Clays)",
-      "lu": "https://diesel.com/en-us/jackets/j-clays-black/A144100NKBK9XX.html",
-      "hp": "Biker jacket in treated leather (L-Eon)",
-      "hu": "https://diesel.com/en-us/outerwear-%26-jackets/l-eon-brown/A200000ALBB7BB.html",
-      "b": "pair"
-    },
-    "Shoes": {
-      "lp": "D-Mathieu brushed leather loafer with rubber sole",
-      "lu": "https://diesel.com/en-us/moccasins-and-mules/d-mathieu-sc-black/Y03734P7815T8013.html",
-      "hp": "D-Mathieu brushed leather loafer with rubber sole",
-      "hu": "https://diesel.com/en-us/moccasins-and-mules/d-mathieu-sc-black/Y03734P7815T8013.html",
-      "b": "single"
-    }
-  },
-  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Sweater"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://diesel.com/en-us/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "shop": "https://diesel.com/en-us/search-algolia?q=",
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=161&brand_ids[]=183634&brand_ids[]=4912182",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "certs": {
-    "gots": {
-      "e": "DIESEL S.p.A. (Italy)"
-    }
-  },
-  "season": {
-    "l": "FW26 / Fall Winter 2026",
-    "t": "campaign",
-    "u": "https://diesel.com/en-us/man/campaign/",
-    "m": "yes"
-  },
-  "craft_evidence": {
-    "owned": "unclear",
-    "owned_d": "No Diesel-owned clothing factory found on diesel.com. OTB 2024 Sustainability Report (p.13, via fetched summary) says group company Staff International 'handles product development and production for the Diesel brand' for footwear and accessories; whether that is owned manufacturing or managed suppliers is not stated. OTB 2025 report: 'Staff International is a fully integrated, multi-service platform'; group suppliers ~72-75% in Italy. Group-level, not Diesel ready-to-wear.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "none",
-    "countries": "No origin seen on 2 US denim PDPs (Larkee 00C06Q0DBEJ01, D-Vyl A157970DBED01); the fetch suggests origin may be collapsed or not loaded, and en-gb PDP returned a site error. Treat as unverified rather than confidently none.",
-    "heritage": "vague",
-    "repair": "yes",
-    "process": "no",
-    "urls": [
-      "https://diesel.com/en-us/diesel/about-diesel.html",
-      "https://otb-strapi-prod-assets.otb-frame.com/OTB_Sustainability_Report_2024_ENG_d3933fdba0.pdf"
-    ],
-    "conf": "low",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "D-Mathieu brushed leather loafer with rubber sole",
+   "lu": "https://diesel.com/en-us/moccasins-and-mules/d-mathieu-sc-black/Y03734P7815T8013.html",
+   "hp": "D-Mathieu brushed leather loafer with rubber sole",
+   "hu": "https://diesel.com/en-us/moccasins-and-mules/d-mathieu-sc-black/Y03734P7815T8013.html",
+   "b": "single"
   }
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Jeans",
+  "Sweater"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://diesel.com/en-us/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "shop": "https://diesel.com/en-us/search-algolia?q=",
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=161&brand_ids[]=183634&brand_ids[]=4912182",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "certs": {
+  "gots": {
+   "e": "DIESEL S.p.A. (Italy)"
+  }
+ },
+ "season": {
+  "l": "FW26 / Fall Winter 2026",
+  "t": "campaign",
+  "u": "https://diesel.com/en-us/man/campaign/",
+  "m": "yes"
+ },
+ "craft_evidence": {
+  "owned": "unclear",
+  "owned_d": "No Diesel-owned clothing factory found on diesel.com. OTB 2024 Sustainability Report (p.13, via fetched summary) says group company Staff International 'handles product development and production for the Diesel brand' for footwear and accessories; whether that is owned manufacturing or managed suppliers is not stated. OTB 2025 report: 'Staff International is a fully integrated, multi-service platform'; group suppliers ~72-75% in Italy. Group-level, not Diesel ready-to-wear.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "none",
+  "countries": "No origin seen on 2 US denim PDPs (Larkee 00C06Q0DBEJ01, D-Vyl A157970DBED01); the fetch suggests origin may be collapsed or not loaded, and en-gb PDP returned a site error. Treat as unverified rather than confidently none.",
+  "heritage": "vague",
+  "repair": "yes",
+  "process": "no",
+  "urls": [
+   "https://diesel.com/en-us/diesel/about-diesel.html",
+   "https://otb-strapi-prod-assets.otb-frame.com/OTB_Sustainability_Report_2024_ENG_d3933fdba0.pdf"
+  ],
+  "conf": "low",
+  "read": "2026-10-03"
+ }
 }

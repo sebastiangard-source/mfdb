@@ -1,183 +1,222 @@
 {
-  "name": "Johnstons of Elgin",
-  "band": "trueLux",
-  "seat": 204,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 4,
-    "craft": 5,
-    "style": 2
+ "name": "Johnstons of Elgin",
+ "band": "trueLux",
+ "seat": 204,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 4,
+  "craft": 5,
+  "style": 2
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 5,
+  "linen": 1,
+  "cotton": 1,
+  "wool": 4,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 3,
+  "fuss": 3,
+  "golffice": -1,
+  "shoes": 0,
+  "briish": 5,
+  "whitet": 2,
+  "logo": 1,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Cashmere and wool knitwear and cloth from a working Scottish mill.",
+ "origin": "Founded in Elgin, Scotland, in 1797.",
+ "say": "JON-stons of EL-gin (hard g)",
+ "chan": [
+  "D",
+  "I"
+ ],
+ "conf": "L",
+ "forgc": [
+  4,
+  3,
+  1
+ ],
+ "shop": "https://johnstonsofelgin.com/en-us/search?q=",
+ "onething": {
+  "p": "Cashmere crew",
+  "u": "https://johnstonsofelgin.com/en-us/search?q=Cashmere%20crew%20men",
+  "n": "men-filtered"
+ },
+ "prices": [
+  [
+   795,
+   795
+  ],
+  [
+   975,
+   995
+  ],
+  null,
+  null,
+  [
+   2015,
+   2015
+  ],
+  [
+   725,
+   1775
+  ],
+  [
+   1970,
+   3835
+  ],
+  null
+ ],
+ "price_checked": true,
+ "notes": {
+  "cashmere": "a vertically integrated Scottish mill since 1797 — fiber in, garment out",
+  "wool": "the mill weaves its own estate tweeds",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 2; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "briish": "A Scottish mill since 1797, weaving and knitting cashmere in Elgin and Hawick.",
+  "craft": "Johnstons names two mills it operates: Newmill in Elgin (vertical weaving: dyeing, blending, spinning, teaseling on one site) and Eastfield Mill in Hawick (knitwear), and states 'We make what we sell'. Every PDP sampled says Made in Scotland and names 'our Hawick Mill' as the knitter. The maker and the brand are the same thing."
+ },
+ "doors": {
+  "c": "full",
+  "n": 0,
+  "cities": [],
+  "basis": "master 2026-08-29, pre-recapture"
+ },
+ "cities": "No store of its own in the US · department stores and independent menswear shops, and its own site",
+ "addmen": true,
+ "site": {
+  "domain": "johnstonsofelgin.com",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 244,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "licensed",
+  "marks": [
+   "Lycra"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 63,
+  "w": 61,
+  "n": 97,
+  "s": 0,
+  "c": 0,
+  "x": 0,
+  "xh": 0,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "Jumper",
+   "Cardigan",
+   "Shirt"
+  ],
+  "st": "complete"
+ },
+ "garment_links": {
+  "T-shirt": "https://johnstonsofelgin.com/en-us/collections/mens-polo-shirts-t-shirts",
+  "Polo": "https://johnstonsofelgin.com/en-us/collections/mens-polo-shirts-t-shirts",
+  "Dress pants": "https://johnstonsofelgin.com/en-us/collections/mens-cashmere-joggers-trousers",
+  "Sweater": "https://johnstonsofelgin.com/en-us/collections/mens-knitwear",
+  "Outerwear": "https://johnstonsofelgin.com/en-us/collections/mens-outerwear"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Boyd Light Brown Superfine Cashmere T-Shirt",
+   "lu": "https://johnstonsofelgin.com/en-us/products/boyd-brown-cashmere-t-shirt",
+   "hp": "Boyd Light Brown Superfine Cashmere T-Shirt",
+   "hu": "https://johnstonsofelgin.com/en-us/products/boyd-brown-cashmere-t-shirt",
+   "b": "single"
   },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 5,
-    "linen": 1,
-    "cotton": 1,
-    "wool": 4,
-    "synth": 1
+  "Polo": {
+   "lp": "Fin Grey Superfine Cashmere Polo Shirt (short sleeve)",
+   "lu": "https://johnstonsofelgin.com/en-us/products/fin-grey-cashmere-polo-shirt-1",
+   "hp": "Mack Brown Superfine Cashmere Polo Shirt (short sleeve)",
+   "hu": "https://johnstonsofelgin.com/en-us/products/mack-brown-cashmere-polo-shirt",
+   "b": "pair"
   },
-  "dials": {
-    "dur": 3,
-    "forg": 3,
-    "fuss": 3,
-    "golffice": -1,
-    "shoes": 0,
-    "briish": 5,
-    "whitet": 2,
-    "logo": 1,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
+  "Dress pants": {
+   "lp": "Traquair Glen Urquhart Check Trousers",
+   "lu": "https://johnstonsofelgin.com/en-us/products/traquair-glen-urquhart-check-trousers",
+   "hp": "Traquair Glen Urquhart Check Trousers",
+   "hu": "https://johnstonsofelgin.com/en-us/products/traquair-glen-urquhart-check-trousers",
+   "b": "single"
   },
-  "why": "Cashmere and wool knitwear and cloth from a working Scottish mill.",
-  "origin": "Founded in Elgin, Scotland, in 1797.",
-  "say": "JON-stons of EL-gin (hard g)",
-  "chan": ["D", "I"],
-  "conf": "L",
-  "forgc": [4, 3, 1],
-  "shop": "https://johnstonsofelgin.com/en-us/search?q=",
-  "onething": {
-    "p": "Cashmere crew",
-    "u": "https://johnstonsofelgin.com/en-us/search?q=Cashmere%20crew%20men",
-    "n": "men-filtered"
+  "Sweater": {
+   "lp": "Craigie Navy Lambswool Jumper (crew neck)",
+   "lu": "https://johnstonsofelgin.com/en-us/products/craigie-brown-lambswool-jumper",
+   "hp": "MacDonald Dark Blue Aran Cable Cashmere Jumper (crew neck)",
+   "hu": "https://johnstonsofelgin.com/en-us/products/macdonald-dark-blue-aran-cable-cashmere-jumper",
+   "b": "pair"
   },
-  "prices": [[795, 795], [975, 995], null, null, [2015, 2015], [725, 1775], [1970, 3835], null],
-  "price_checked": true,
-  "notes": {
-    "cashmere": "a vertically integrated Scottish mill since 1797 — fiber in, garment out",
-    "wool": "the mill weaves its own estate tweeds",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 2; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "briish": "A Scottish mill since 1797, weaving and knitting cashmere in Elgin and Hawick.",
-    "craft": "Johnstons names two mills it operates: Newmill in Elgin (vertical weaving: dyeing, blending, spinning, teaseling on one site) and Eastfield Mill in Hawick (knitwear), and states 'We make what we sell'. Every PDP sampled says Made in Scotland and names 'our Hawick Mill' as the knitter. The maker and the brand are the same thing."
-  },
-  "doors": {
-    "c": "full",
-    "n": 0,
-    "cities": [],
-    "basis": "master 2026-08-29, pre-recapture"
-  },
-  "cities": "No store of its own in the US · department stores and independent menswear shops, and its own site",
-  "addmen": true,
-  "site": {
-    "domain": "johnstonsofelgin.com",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 244,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "licensed",
-    "marks": ["Lycra"],
-    "source": "census",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 63,
-    "w": 61,
-    "n": 97,
-    "s": 0,
-    "c": 0,
-    "x": 0,
-    "xh": 0,
-    "sp": "one",
-    "sc": [],
-    "nc": ["Jumper", "Cardigan", "Shirt"],
-    "st": "complete"
-  },
-  "garment_links": {
-    "T-shirt": "https://johnstonsofelgin.com/en-us/collections/mens-polo-shirts-t-shirts",
-    "Polo": "https://johnstonsofelgin.com/en-us/collections/mens-polo-shirts-t-shirts",
-    "Dress pants": "https://johnstonsofelgin.com/en-us/collections/mens-cashmere-joggers-trousers",
-    "Sweater": "https://johnstonsofelgin.com/en-us/collections/mens-knitwear",
-    "Outerwear": "https://johnstonsofelgin.com/en-us/collections/mens-outerwear"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Boyd Light Brown Superfine Cashmere T-Shirt",
-      "lu": "https://johnstonsofelgin.com/en-us/products/boyd-brown-cashmere-t-shirt",
-      "hp": "Boyd Light Brown Superfine Cashmere T-Shirt",
-      "hu": "https://johnstonsofelgin.com/en-us/products/boyd-brown-cashmere-t-shirt",
-      "b": "single"
-    },
-    "Polo": {
-      "lp": "Fin Grey Superfine Cashmere Polo Shirt (short sleeve)",
-      "lu": "https://johnstonsofelgin.com/en-us/products/fin-grey-cashmere-polo-shirt-1",
-      "hp": "Mack Brown Superfine Cashmere Polo Shirt (short sleeve)",
-      "hu": "https://johnstonsofelgin.com/en-us/products/mack-brown-cashmere-polo-shirt",
-      "b": "pair"
-    },
-    "Dress pants": {
-      "lp": "Traquair Glen Urquhart Check Trousers",
-      "lu": "https://johnstonsofelgin.com/en-us/products/traquair-glen-urquhart-check-trousers",
-      "hp": "Traquair Glen Urquhart Check Trousers",
-      "hu": "https://johnstonsofelgin.com/en-us/products/traquair-glen-urquhart-check-trousers",
-      "b": "single"
-    },
-    "Sweater": {
-      "lp": "Craigie Navy Lambswool Jumper (crew neck)",
-      "lu": "https://johnstonsofelgin.com/en-us/products/craigie-brown-lambswool-jumper",
-      "hp": "MacDonald Dark Blue Aran Cable Cashmere Jumper (crew neck)",
-      "hu": "https://johnstonsofelgin.com/en-us/products/macdonald-dark-blue-aran-cable-cashmere-jumper",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "The Weavers Storm Heritage Gun Club Jacket",
-      "lu": "https://johnstonsofelgin.com/en-us/products/storm-heritage-gun-glen-the-weavers-jacket",
-      "hp": "Brodie Rust & Petrol Herringbone Wool Car Coat",
-      "hu": "https://johnstonsofelgin.com/en-us/products/mens-brodie-wool-car-coat-rust-petrol-herringbone",
-      "b": "range"
-    }
-  },
-  "price_range_only": ["Outerwear"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://johnstonsofelgin.com/en-us",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=136778",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "certs": {
-    "bcorp": {
-      "e": "James Johnston & Co of Elgin Limited"
-    },
-    "gots": {
-      "e": "James Johnston & Co Of Elgin Ltd (UK)"
-    }
-  },
-  "craft_evidence": {
-    "owned": "yes",
-    "owned_d": "Two named owned mills on the brand's own site: Newmill, Elgin (visit-us/elgin page calls it 'Scotland's only vertical weaving mill'; 'Everything from dyeing and blending to spinning and teaseling happens in one location') and Eastfield Mill, Hawick (visit-us/hawick: 'now creating our unique range of knitted garments'). Heritage page: 'We make what we sell and have proudly been Made in Scotland for over two centuries.' Mill tours offered at both sites.",
-    "makers": "yes",
-    "mills": "yes",
-    "madein": "every product",
-    "countries": "Scotland 3/3 (sample of 3 PDPs: knit bomber jacket, knit shirt, jumper - all men's knitwear; scarf PDP attempt 404'd). Collection pages say 'knitted in Scotland' (men's knitwear) and 'crafted in Scotland' (scarves). Small sample, knitwear-heavy.",
-    "heritage": "dated and placed",
-    "repair": "yes",
-    "process": "some",
-    "urls": [
-      "https://discover.johnstonsofelgin.com/visit-us/elgin",
-      "https://johnstonsofelgin.com/products/keppie-grey-cashmere-bomber-jacket"
-    ],
-    "conf": "high",
-    "read": "2026-10-03"
+  "Outerwear": {
+   "lp": "The Weavers Storm Heritage Gun Club Jacket",
+   "lu": "https://johnstonsofelgin.com/en-us/products/storm-heritage-gun-glen-the-weavers-jacket",
+   "hp": "Brodie Rust & Petrol Herringbone Wool Car Coat",
+   "hu": "https://johnstonsofelgin.com/en-us/products/mens-brodie-wool-car-coat-rust-petrol-herringbone",
+   "b": "range"
   }
+ },
+ "price_range_only": [
+  "Outerwear"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://johnstonsofelgin.com/en-us",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=136778",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "certs": {
+  "bcorp": {
+   "e": "James Johnston & Co of Elgin Limited"
+  },
+  "gots": {
+   "e": "James Johnston & Co Of Elgin Ltd (UK)"
+  }
+ },
+ "craft_evidence": {
+  "owned": "yes",
+  "owned_d": "Two named owned mills on the brand's own site: Newmill, Elgin (visit-us/elgin page calls it 'Scotland's only vertical weaving mill'; 'Everything from dyeing and blending to spinning and teaseling happens in one location') and Eastfield Mill, Hawick (visit-us/hawick: 'now creating our unique range of knitted garments'). Heritage page: 'We make what we sell and have proudly been Made in Scotland for over two centuries.' Mill tours offered at both sites.",
+  "makers": "yes",
+  "mills": "yes",
+  "madein": "every product",
+  "countries": "Scotland 3/3 (sample of 3 PDPs: knit bomber jacket, knit shirt, jumper - all men's knitwear; scarf PDP attempt 404'd). Collection pages say 'knitted in Scotland' (men's knitwear) and 'crafted in Scotland' (scarves). Small sample, knitwear-heavy.",
+  "heritage": "dated and placed",
+  "repair": "yes",
+  "process": "some",
+  "urls": [
+   "https://discover.johnstonsofelgin.com/visit-us/elgin",
+   "https://johnstonsofelgin.com/products/keppie-grey-cashmere-bomber-jacket"
+  ],
+  "conf": "high",
+  "read": "2026-10-03"
+ }
 }

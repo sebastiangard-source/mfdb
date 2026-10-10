@@ -1,218 +1,283 @@
 {
-  "name": "Yohji Yamamoto",
-  "band": "trueLux",
-  "seat": 160,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 2,
-    "craft": 2,
-    "style": 5
-  },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 1,
-    "linen": 2,
-    "cotton": 2,
-    "wool": 4,
-    "synth": 1
-  },
-  "dials": {
-    "dur": 2,
-    "forg": 3,
-    "fuss": 2,
-    "shoes": 3,
-    "status": 2,
-    "street": 2,
-    "avant": 5,
-    "weird": 3,
-    "whitet": 2,
-    "logo": 1,
-    "western": 1,
-    "rock": 3,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
-  },
-  "why": "Loose, draped clothing, mostly black, in wool gabardine and other cloth.",
-  "origin": "Founded in Tokyo by Yohji Yamamoto; first Paris show in 1981.",
-  "opview": "“Black is modest and arrogant at the same time.”",
-  "say": "YOH-jee yah-mah-MOH-toh",
-  "chan": ["O", "I"],
-  "conf": "L",
-  "forgc": [5, 2, 1],
-  "onething": {
-    "p": "Drape coat",
-    "u": "https://www.ssense.com/en-us/men/designers/yohji-yamamoto",
-    "n": "Works"
-  },
-  "prices": [
-    [78, 600, "USD_landed"],
-    [370, 570, "USD_landed"],
-    [180, 2930, "USD_landed"],
-    [350, 1020, "USD_landed"],
-    [280, 1270, "USD_landed"],
-    [320, 890, "USD_landed"],
-    [270, 5470, "USD_landed"],
-    [790, 790, "USD_landed"]
+ "name": "Yohji Yamamoto",
+ "band": "trueLux",
+ "seat": 160,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 2,
+  "craft": 2,
+  "style": 5
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 2,
+  "cotton": 2,
+  "wool": 4,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 2,
+  "forg": 3,
+  "fuss": 2,
+  "shoes": 3,
+  "status": 2,
+  "street": 2,
+  "avant": 5,
+  "weird": 3,
+  "whitet": 2,
+  "logo": 1,
+  "western": 1,
+  "rock": 3,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Loose, draped clothing, mostly black, in wool gabardine and other cloth.",
+ "origin": "Founded in Tokyo by Yohji Yamamoto; first Paris show in 1981.",
+ "opview": "“Black is modest and arrogant at the same time.”",
+ "say": "YOH-jee yah-mah-MOH-toh",
+ "chan": [
+  "O",
+  "I"
+ ],
+ "conf": "L",
+ "forgc": [
+  5,
+  2,
+  1
+ ],
+ "onething": {
+  "p": "Drape coat",
+  "u": "https://www.ssense.com/en-us/men/designers/yohji-yamamoto",
+  "n": "Works"
+ },
+ "prices": [
+  [
+   78,
+   600,
+   "USD_landed"
   ],
-  "notes": {
-    "wool": "black wool gabardine drape as philosophy",
-    "avant": "black drape as philosophy — poetry against fit",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 1; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "style": "Black, loose, draped; one of fashion's most consistent design visions.",
-    "craft": "Every sampled product page on the official shop states a country of make (mostly Japan, but knitwear made in China and one tailored jacket made in Vietnam) and nothing more: no factory, no mill. The company profile describes a planning and wholesale business with no owned production. Country only: a 2."
+  [
+   370,
+   570,
+   "USD_landed"
+  ],
+  [
+   180,
+   2930,
+   "USD_landed"
+  ],
+  [
+   350,
+   1020,
+   "USD_landed"
+  ],
+  [
+   280,
+   1270,
+   "USD_landed"
+  ],
+  [
+   320,
+   890,
+   "USD_landed"
+  ],
+  [
+   270,
+   5470,
+   "USD_landed"
+  ],
+  [
+   790,
+   790,
+   "USD_landed"
+  ]
+ ],
+ "notes": {
+  "wool": "black wool gabardine drape as philosophy",
+  "avant": "black drape as philosophy — poetry against fit",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 1; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "style": "Black, loose, draped; one of fashion's most consistent design visions.",
+  "craft": "Every sampled product page on the official shop states a country of make (mostly Japan, but knitwear made in China and one tailored jacket made in Vietnam) and nothing more: no factory, no mill. The company profile describes a planning and wholesale business with no owned production. Country only: a 2."
+ },
+ "doors": {
+  "c": "full",
+  "n": 1,
+  "cities": [
+   [
+    "New York",
+    "NY",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 0,
+  "con": 0
+ },
+ "cities": "One store, in New York · independent menswear shops, and its own site",
+ "region": {
+  "o": [
+   3729
+  ],
+  "s": [
+   123
+  ]
+ },
+ "site": {
+  "domain": "theshopyohjiyamamoto.com",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 8918,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "licensed",
+  "marks": [
+   "Thinsulate (Y's for men line, not Pour Homme)"
+  ],
+  "source": "screen_36",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 897,
+  "w": 886,
+  "n": 74,
+  "s": 5,
+  "c": 20,
+  "x": 0,
+  "xh": 0,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "pants",
+   "cut and sewn",
+   "jackets"
+  ],
+  "st": "complete"
+ },
+ "shop": "https://theshopyohjiyamamoto.com/search?q=",
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants",
+  "Sweater",
+  "Outerwear"
+ ],
+ "garment_links": {
+  "T-shirt": "https://theshopyohjiyamamoto.com/collections/cut-and-sewn/men",
+  "Dress shirt": "https://theshopyohjiyamamoto.com/collections/shirt/men",
+  "Jeans": "https://theshopyohjiyamamoto.com/collections/pants/men",
+  "Dress pants": "https://theshopyohjiyamamoto.com/collections/pants/men",
+  "Sweater": "https://theshopyohjiyamamoto.com/collections/knitwear/men",
+  "Outerwear": "https://theshopyohjiyamamoto.com/collections/outerwear/men"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "S'YTE Graphic T-Shirt -KNIGHT-",
+   "lu": "https://theshopyohjiyamamoto.com/products/ut-t46-006-1",
+   "hp": "POUR HOMME Cotton Cashmere Single Jersey Big SS Tee",
+   "hu": "https://theshopyohjiyamamoto.com/products/hw-t18-071-1",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 1,
-    "cities": [["New York", "NY", 1]],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Polo": {
+   "lp": "S'YTE Chusen-Dyed Compact Twist Polo Shirt",
+   "lu": "https://theshopyohjiyamamoto.com/products/uq-k03-050-2",
+   "hp": "POUR HOMME Cotton Jersey Knit Polo Shirt",
+   "hu": "https://theshopyohjiyamamoto.com/products/hw-k25-987-2",
+   "b": "range"
   },
-  "cities": "One store, in New York · independent menswear shops, and its own site",
-  "region": {
-    "o": [3088],
-    "s": [123]
+  "Dress shirt": {
+   "lp": "S'YTE Cotton Broad Loose-Fit Open Collar Shirt",
+   "lu": "https://theshopyohjiyamamoto.com/products/ut-b02-080-2",
+   "hp": "POUR HOMME Cotton ST Pigment Washed ST Blouse with Lining",
+   "hu": "https://theshopyohjiyamamoto.com/products/hl-b61-034-1",
+   "b": "range"
   },
-  "site": {
-    "domain": "theshopyohjiyamamoto.com",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 8918,
-    "status": "live_store",
-    "checked": "2026-09-13"
+  "Jeans": {
+   "lp": "S'YTE 7oz Two-Tone Denim 5Pocket Wide Pants",
+   "lu": "https://theshopyohjiyamamoto.com/products/ut-p20-002-2",
+   "hp": "POUR HOMME Selvedge Denim 5 Pockets Pants",
+   "hu": "https://theshopyohjiyamamoto.com/products/hk-p90-009-1",
+   "b": "range"
   },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "licensed",
-    "marks": ["Thinsulate (Y's for men line, not Pour Homme)"],
-    "source": "screen_36",
-    "checked": "2026-09-12"
+  "Dress pants": {
+   "lp": "S'YTE PE/Gabardine Zipper-Taped Slim Pants",
+   "lu": "https://theshopyohjiyamamoto.com/products/ub-p01-901-1",
+   "hp": "POUR HOMME Wool Gabardine Hem Belt Pants",
+   "hu": "https://theshopyohjiyamamoto.com/products/ho-p55-100-2",
+   "b": "range"
   },
-  "fibre": {
-    "t": 897,
-    "w": 886,
-    "n": 74,
-    "s": 5,
-    "c": 20,
-    "x": 0,
-    "xh": 0,
-    "sp": "one",
-    "sc": [],
-    "nc": ["pants", "cut and sewn", "jackets"],
-    "st": "complete"
+  "Sweater": {
+   "lp": "Ground Y Wool Crew Neck Rib Knit",
+   "lu": "https://theshopyohjiyamamoto.com/products/gc-k02-150-1",
+   "hp": "POUR HOMME 5G 1Ply Relief Knit Round Neck PO (100% wool)",
+   "hu": "https://theshopyohjiyamamoto.com/products/hw-k21-199-1",
+   "b": "range"
   },
-  "shop": "https://theshopyohjiyamamoto.com/search?q=",
-  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants", "Sweater", "Outerwear"],
-  "garment_links": {
-    "T-shirt": "https://theshopyohjiyamamoto.com/collections/cut-and-sewn/men",
-    "Dress shirt": "https://theshopyohjiyamamoto.com/collections/shirt/men",
-    "Jeans": "https://theshopyohjiyamamoto.com/collections/pants/men",
-    "Dress pants": "https://theshopyohjiyamamoto.com/collections/pants/men",
-    "Sweater": "https://theshopyohjiyamamoto.com/collections/knitwear/men",
-    "Outerwear": "https://theshopyohjiyamamoto.com/collections/outerwear/men"
+  "Outerwear": {
+   "lp": "S'YTE Wepon Cloth China Jacket",
+   "lu": "https://theshopyohjiyamamoto.com/products/ut-j03-010-1",
+   "hp": "POUR HOMME Buffalo Leather Fastener Blouson",
+   "hu": "https://theshopyohjiyamamoto.com/products/he-y08-841-1",
+   "b": "range"
   },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "S'YTE Graphic T-Shirt -KNIGHT-",
-      "lu": "https://theshopyohjiyamamoto.com/products/ut-t46-006-1",
-      "hp": "POUR HOMME Cotton Cashmere Single Jersey Big SS Tee",
-      "hu": "https://theshopyohjiyamamoto.com/products/hw-t18-071-1",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "S'YTE Chusen-Dyed Compact Twist Polo Shirt",
-      "lu": "https://theshopyohjiyamamoto.com/products/uq-k03-050-2",
-      "hp": "POUR HOMME Cotton Jersey Knit Polo Shirt",
-      "hu": "https://theshopyohjiyamamoto.com/products/hw-k25-987-2",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "S'YTE Cotton Broad Loose-Fit Open Collar Shirt",
-      "lu": "https://theshopyohjiyamamoto.com/products/ut-b02-080-2",
-      "hp": "POUR HOMME Cotton ST Pigment Washed ST Blouse with Lining",
-      "hu": "https://theshopyohjiyamamoto.com/products/hl-b61-034-1",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "S'YTE 7oz Two-Tone Denim 5Pocket Wide Pants",
-      "lu": "https://theshopyohjiyamamoto.com/products/ut-p20-002-2",
-      "hp": "POUR HOMME Selvedge Denim 5 Pockets Pants",
-      "hu": "https://theshopyohjiyamamoto.com/products/hk-p90-009-1",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "S'YTE PE/Gabardine Zipper-Taped Slim Pants",
-      "lu": "https://theshopyohjiyamamoto.com/products/ub-p01-901-1",
-      "hp": "POUR HOMME Wool Gabardine Hem Belt Pants",
-      "hu": "https://theshopyohjiyamamoto.com/products/ho-p55-100-2",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Ground Y Wool Crew Neck Rib Knit",
-      "lu": "https://theshopyohjiyamamoto.com/products/gc-k02-150-1",
-      "hp": "POUR HOMME 5G 1Ply Relief Knit Round Neck PO (100% wool)",
-      "hu": "https://theshopyohjiyamamoto.com/products/hw-k21-199-1",
-      "b": "range"
-    },
-    "Outerwear": {
-      "lp": "S'YTE Wepon Cloth China Jacket",
-      "lu": "https://theshopyohjiyamamoto.com/products/ut-j03-010-1",
-      "hp": "POUR HOMME Buffalo Leather Fastener Blouson",
-      "hu": "https://theshopyohjiyamamoto.com/products/he-y08-841-1",
-      "b": "range"
-    },
-    "Shoes": {
-      "lp": "Ground Y Black Leather Loafers",
-      "lu": "https://theshopyohjiyamamoto.com/products/gg-e04-701-1",
-      "hp": "Ground Y Black Leather Loafers",
-      "hu": "https://theshopyohjiyamamoto.com/products/gg-e04-701-1",
-      "b": "single"
-    }
-  },
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://theshopyohjiyamamoto.com/",
-    "currency": "USD_landed",
-    "status": "read",
-    "sublines": "Yohji Yamamoto POUR HOMME, Ground Y, S'YTE, Y's for men, Y's (men/unisex-tagged items), GOTHIC YOHJI YAMAMOTO, power of the WHITE shirt, REGULATION Yohji Yamamoto"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=200474&brand_ids[]=2887534",
-      "m": "brand filter",
-      "n": "Y-3 (adidas) excluded"
-    }
-  },
-  "season": {
-    "l": "Autumn / Winter 2026-27",
-    "t": "lookbook",
-    "u": "https://theshopyohjiyamamoto.com/pages/lookbook-look/h26aw",
-    "m": "yes"
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "No owned factory, workshop or mill found. Company profile on the shop (Yohji Yamamoto Inc., Higashi-Shinagawa, Tokyo) describes the business as clothing/goods planning and wholesale/retail; the Japanese recruitment listing (Mynavi) says 企画、製造卸、販売 (planning, manufacturing-wholesale, sales) and names no factory. Corporate site yohjiyamamoto.co.jp has no production content. No parent group (independent; Integral Corporation investment not relevant to making).",
-    "makers": "no",
-    "mills": "no",
-    "madein": "every product",
-    "countries": "Japan 5/8, China 2/8, Vietnam 1/8 (sample of 8 PDPs: Pour Homme raglan coat, denim painter pants, padded blouson, flannel cap all Japan; Y's-line serge cargo pants Japan; Pour Homme cashmere embroidered knit China; flocked crow knit pullover China; washer-wool gabardine belted jacket Vietnam). Note the house is not all-Japan-made.",
-    "heritage": "dated and placed",
-    "repair": "no",
-    "process": "no",
-    "urls": [
-      "https://theshopyohjiyamamoto.com/products/uw-j06-100-1",
-      "https://theshopyohjiyamamoto.com/pages/company-profile"
-    ],
-    "conf": "high",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Ground Y Black Leather Loafers",
+   "lu": "https://theshopyohjiyamamoto.com/products/gg-e04-701-1",
+   "hp": "Ground Y Black Leather Loafers",
+   "hu": "https://theshopyohjiyamamoto.com/products/gg-e04-701-1",
+   "b": "single"
   }
+ },
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://theshopyohjiyamamoto.com/",
+  "currency": "USD_landed",
+  "status": "read",
+  "sublines": "Yohji Yamamoto POUR HOMME, Ground Y, S'YTE, Y's for men, Y's (men/unisex-tagged items), GOTHIC YOHJI YAMAMOTO, power of the WHITE shirt, REGULATION Yohji Yamamoto"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=200474&brand_ids[]=2887534",
+   "m": "brand filter",
+   "n": "Y-3 (adidas) excluded"
+  }
+ },
+ "season": {
+  "l": "Autumn / Winter 2026-27",
+  "t": "lookbook",
+  "u": "https://theshopyohjiyamamoto.com/pages/lookbook-look/h26aw",
+  "m": "yes"
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "No owned factory, workshop or mill found. Company profile on the shop (Yohji Yamamoto Inc., Higashi-Shinagawa, Tokyo) describes the business as clothing/goods planning and wholesale/retail; the Japanese recruitment listing (Mynavi) says 企画、製造卸、販売 (planning, manufacturing-wholesale, sales) and names no factory. Corporate site yohjiyamamoto.co.jp has no production content. No parent group (independent; Integral Corporation investment not relevant to making).",
+  "makers": "no",
+  "mills": "no",
+  "madein": "every product",
+  "countries": "Japan 5/8, China 2/8, Vietnam 1/8 (sample of 8 PDPs: Pour Homme raglan coat, denim painter pants, padded blouson, flannel cap all Japan; Y's-line serge cargo pants Japan; Pour Homme cashmere embroidered knit China; flocked crow knit pullover China; washer-wool gabardine belted jacket Vietnam). Note the house is not all-Japan-made.",
+  "heritage": "dated and placed",
+  "repair": "no",
+  "process": "no",
+  "urls": [
+   "https://theshopyohjiyamamoto.com/products/uw-j06-100-1",
+   "https://theshopyohjiyamamoto.com/pages/company-profile"
+  ],
+  "conf": "high",
+  "read": "2026-10-03"
+ }
 }

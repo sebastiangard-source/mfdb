@@ -1,246 +1,408 @@
 {
-  "name": "Bottega Veneta",
-  "band": "trueLux",
-  "seat": 181,
-  "dagger": 0,
-  "focus": {
-    "tech": 1,
-    "comfort": 2,
-    "craft": 4,
-    "style": 5
-  },
-  "fabric": {
-    "denim": 2,
-    "cashmere": 3,
-    "linen": 2,
-    "cotton": 2,
-    "wool": 3,
-    "synth": 1
-  },
-  "dials": {
-    "dur": 3,
-    "forg": 2,
-    "fuss": 2,
-    "shoes": 3,
-    "status": 4,
-    "ital": 4,
-    "whitet": 2,
-    "logo": 1,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
-  },
-  "why": "Leather goods in woven intrecciato leather and clothing to match, with no visible logo.",
-  "origin": "Founded in Vicenza in 1966.",
-  "say": "bot-TAY-ga VEN-eh-ta",
-  "chan": ["O", "D"],
-  "conf": "S",
-  "forgc": [2, 2, 2],
-  "shop": "https://www.bottegaveneta.com/en-us/search?q=",
-  "onething": {
-    "p": "Intrecciato card case",
-    "u": "https://www.bottegaveneta.com/en-us/search?q=Intrecciato%20card%20case",
-    "n": "verified ✓"
-  },
-  "prices": [
-    [500, 1300],
-    [800, 2200],
-    [1100, 3400],
-    [1150, 1300],
-    [1250, 3000],
-    [2150, 2500],
-    [1700, 13000],
-    [1050, 1750]
+ "name": "Bottega Veneta",
+ "band": "trueLux",
+ "seat": 181,
+ "dagger": 0,
+ "focus": {
+  "tech": 1,
+  "comfort": 2,
+  "craft": 4,
+  "style": 5
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 3,
+  "linen": 2,
+  "cotton": 2,
+  "wool": 3,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 2,
+  "fuss": 2,
+  "shoes": 3,
+  "status": 4,
+  "ital": 4,
+  "whitet": 2,
+  "logo": 1,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Leather goods in woven intrecciato leather and clothing to match, with no visible logo.",
+ "origin": "Founded in Vicenza in 1966.",
+ "say": "bot-TAY-ga VEN-eh-ta",
+ "chan": [
+  "O",
+  "D"
+ ],
+ "conf": "S",
+ "forgc": [
+  2,
+  2,
+  2
+ ],
+ "shop": "https://www.bottegaveneta.com/en-us/search?q=",
+ "onething": {
+  "p": "Intrecciato card case",
+  "u": "https://www.bottegaveneta.com/en-us/search?q=Intrecciato%20card%20case",
+  "n": "verified ✓"
+ },
+ "prices": [
+  [
+   500,
+   1300
   ],
-  "shoelink": {
-    "t": "loafer",
-    "u": "https://www.bottegaveneta.com/en-us/search?q=loafer"
+  [
+   800,
+   2200
+  ],
+  [
+   1100,
+   3400
+  ],
+  [
+   1150,
+   1300
+  ],
+  [
+   1250,
+   3000
+  ],
+  [
+   2150,
+   2500
+  ],
+  [
+   1700,
+   13000
+  ],
+  [
+   1050,
+   1750
+  ]
+ ],
+ "shoelink": {
+  "t": "loafer",
+  "u": "https://www.bottegaveneta.com/en-us/search?q=loafer"
+ },
+ "notes": {
+  "ital": "Vicenza leatherworking, where intrecciato weaving began as a way to make thin hides strong. The house rule was famously that its own name should not appear on the product.",
+  "status": "No logo, by long-standing house policy — status legible only to people already inside it. The intrecciato is the signature precisely because it needs no name.",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 4; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "style": "Woven intrecciato leather and a logo-free design language.",
+  "craft": "No primary source could be read: bottegaveneta.com and kering.com are blocked to the fetch tool, and press attempts failed (WWD 402, FashionNetwork robots-disallowed). The current 4 is carried with low confidence. Secondary sources describe owned leather-goods plants in the Veneto, which would support 4 at most for clothing, since ready-to-wear making is undocumented. [audit proposed 4 at low confidence; held at 4 pending a second read]"
+ },
+ "doors": {
+  "c": "full",
+  "n": 36,
+  "cities": [
+   [
+    "Aspen",
+    "CO",
+    1
+   ],
+   [
+    "Atlanta",
+    "GA",
+    1
+   ],
+   [
+    "Beverly Hills",
+    "CA",
+    1
+   ],
+   [
+    "Boston",
+    "MA",
+    1
+   ],
+   [
+    "Carmel-By-The-Sea",
+    "CA",
+    1
+   ],
+   [
+    "Chicago",
+    "IL",
+    1
+   ],
+   [
+    "Costa Mesa",
+    "CA",
+    1
+   ],
+   [
+    "Dallas",
+    "TX",
+    1
+   ],
+   [
+    "Honolulu",
+    "HI",
+    2
+   ],
+   [
+    "Houston",
+    "TX",
+    1
+   ],
+   [
+    "King of Prussia",
+    "PA",
+    1
+   ],
+   [
+    "Las Vegas",
+    "NV",
+    4
+   ],
+   [
+    "Los Angeles",
+    "CA",
+    3
+   ],
+   [
+    "Manhasset",
+    "NY",
+    1
+   ],
+   [
+    "McLean",
+    "VA",
+    1
+   ],
+   [
+    "Miami",
+    "FL",
+    2
+   ],
+   [
+    "New York City",
+    "NY",
+    4
+   ],
+   [
+    "Palm Beach",
+    "FL",
+    1
+   ],
+   [
+    "Palm Desert",
+    "CA",
+    1
+   ],
+   [
+    "San Diego",
+    "CA",
+    1
+   ],
+   [
+    "San Francisco",
+    "CA",
+    1
+   ],
+   [
+    "Santa Barbara",
+    "CA",
+    1
+   ],
+   [
+    "Scottsdale",
+    "AZ",
+    1
+   ],
+   [
+    "Seattle",
+    "WA",
+    1
+   ],
+   [
+    "Short Hills",
+    "NJ",
+    1
+   ],
+   [
+    "Wailea",
+    "HI",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 0,
+  "con": 11
+ },
+ "cities": "36 stores across the US · department stores and independent menswear shops, and its own site",
+ "region": {
+  "o": [
+   721,
+   733,
+   735,
+   739,
+   740,
+   745,
+   750,
+   753
+  ],
+  "s": [
+   123
+  ]
+ },
+ "addmen": true,
+ "site": {
+  "domain": "www.bottegaveneta.com",
+  "platform": "salesforce_commerce",
+  "feed": "category_crawl",
+  "feed_count": 447,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "both",
+  "marks": [
+   "BioBasedLeather(R)",
+   "VN Preserve",
+   "Intrecciato",
+   "Intreccio",
+   "technical fabric",
+   "water-repellent",
+   "waterproof",
+   "nappa",
+   "Lycra (composition_only)"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 252,
+  "w": 252,
+  "n": 91,
+  "s": 8,
+  "c": 1,
+  "x": 6,
+  "xh": 0,
+  "sp": "one",
+  "sc": [
+   "swimwear"
+  ],
+  "nc": [
+   "jackets",
+   "trousers-and-shorts",
+   "shirts"
+  ],
+  "st": "complete"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Cotton Jersey T-Shirt (White)",
+   "lu": "https://www.bottegaveneta.com/en-us/cotton-jersey-t-shirt-white-A0054LV6GI09000.html",
+   "hp": "Cotton Crochet Knit T-Shirt",
+   "hu": "https://www.bottegaveneta.com/en-us/cotton-crochet-knit-t-shirt-shrub-785359V5SP03293.html",
+   "b": "range"
   },
-  "notes": {
-    "ital": "Vicenza leatherworking, where intrecciato weaving began as a way to make thin hides strong. The house rule was famously that its own name should not appear on the product.",
-    "status": "No logo, by long-standing house policy — status legible only to people already inside it. The intrecciato is the signature precisely because it needs no name.",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 4; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "style": "Woven intrecciato leather and a logo-free design language.",
-    "craft": "No primary source could be read: bottegaveneta.com and kering.com are blocked to the fetch tool, and press attempts failed (WWD 402, FashionNetwork robots-disallowed). The current 4 is carried with low confidence. Secondary sources describe owned leather-goods plants in the Veneto, which would support 4 at most for clothing, since ready-to-wear making is undocumented. [audit proposed 4 at low confidence; held at 4 pending a second read]"
+  "Polo": {
+   "lp": "Fine Cotton Jersey Polo",
+   "lu": "https://www.bottegaveneta.com/en-us/fine-cotton-jersey-polo-pale-meringue-830926V5DJ09247.html",
+   "hp": "Silk Bouclé Polo",
+   "hu": "https://www.bottegaveneta.com/en-us/-silk-boucle-polo-night-residue-871403V6MD04204.html",
+   "b": "pair"
   },
-  "doors": {
-    "c": "full",
-    "n": 36,
-    "cities": [
-      ["Aspen", "CO", 1],
-      ["Atlanta", "GA", 1],
-      ["Beverly Hills", "CA", 1],
-      ["Boston", "MA", 1],
-      ["Carmel-By-The-Sea", "CA", 1],
-      ["Chicago", "IL", 1],
-      ["Costa Mesa", "CA", 1],
-      ["Dallas", "TX", 1],
-      ["Honolulu", "HI", 2],
-      ["Houston", "TX", 1],
-      ["King of Prussia", "PA", 1],
-      ["Las Vegas", "NV", 4],
-      ["Los Angeles", "CA", 3],
-      ["Manhasset", "NY", 1],
-      ["McLean", "VA", 1],
-      ["Miami", "FL", 2],
-      ["New York City", "NY", 4],
-      ["Palm Beach", "FL", 1],
-      ["Palm Desert", "CA", 1],
-      ["San Diego", "CA", 1],
-      ["San Francisco", "CA", 1],
-      ["Santa Barbara", "CA", 1],
-      ["Scottsdale", "AZ", 1],
-      ["Seattle", "WA", 1],
-      ["Short Hills", "NJ", 1],
-      ["Wailea", "HI", 1]
-    ],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Dress shirt": {
+   "lp": "Cotton Poplin Shirt (Blue Shirt)",
+   "lu": "https://www.bottegaveneta.com/en-us/cotton-poplin-shirt-blue-shirt-871218V6CV04105.html",
+   "hp": "Wool Grain De Poudre Shirt",
+   "hu": "https://www.bottegaveneta.com/en-us/wool-grain-de-poudre-shirt-double-black-874800V66I01010.html",
+   "b": "range"
   },
-  "cities": "36 stores across the US · department stores and independent menswear shops, and its own site",
-  "region": {
-    "o": [508, 509, 514, 515, 516, 517, 518, 519],
-    "s": [123]
+  "Jeans": {
+   "lp": "Indigo Straight Jeans",
+   "lu": "https://www.bottegaveneta.com/en-us/indigo-straight-jeans-indigo-837474V5SN04245.html",
+   "hp": "Atlantic Blue Wide Leg Jeans",
+   "hu": "https://www.bottegaveneta.com/en-us/atlantic-blue-wide-leg-jeans-mid-blue-859749V6SL04300.html",
+   "b": "range"
   },
-  "addmen": true,
-  "site": {
-    "domain": "www.bottegaveneta.com",
-    "platform": "salesforce_commerce",
-    "feed": "category_crawl",
-    "feed_count": 447,
-    "status": "live_store",
-    "checked": "2026-09-13"
+  "Dress pants": {
+   "lp": "Fine Wool Pants",
+   "lu": "https://www.bottegaveneta.com/en-us/fine-wool-pants-charcoal-melange-836967V4XP01307.html",
+   "hp": "Wool and Mohair Pants",
+   "hu": "https://www.bottegaveneta.com/en-us/wool-and-mohair-pants-desert-gray-melange-870467V6O202527.html",
+   "b": "range"
   },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "both",
-    "marks": [
-      "BioBasedLeather(R)",
-      "VN Preserve",
-      "Intrecciato",
-      "Intreccio",
-      "technical fabric",
-      "water-repellent",
-      "waterproof",
-      "nappa",
-      "Lycra (composition_only)"
-    ],
-    "source": "census",
-    "checked": "2026-09-12"
+  "Sweater": {
+   "lp": "Cashmere Jumper (crew neck, mini Intrecciato)",
+   "lu": "https://www.bottegaveneta.com/en-us/cashmere-jumper-navy-811456V4WD04121.html",
+   "hp": "Cashmere Sweater (Camo)",
+   "hu": "https://www.bottegaveneta.com/en-us/cashmere-sweater-camo-838108V2MM03749.html",
+   "b": "pair"
   },
-  "fibre": {
-    "t": 252,
-    "w": 252,
-    "n": 91,
-    "s": 8,
-    "c": 1,
-    "x": 6,
-    "xh": 0,
-    "sp": "one",
-    "sc": ["swimwear"],
-    "nc": ["jackets", "trousers-and-shorts", "shirts"],
-    "st": "complete"
+  "Outerwear": {
+   "lp": "Raw Indigo Denim Jacket",
+   "lu": "https://www.bottegaveneta.com/en-us/raw-indigo-denim-jacket-indigo-831604V5MG04245.html",
+   "hp": "Intrecciato Leather Hooded Blouson",
+   "hu": "https://www.bottegaveneta.com/en-us/intrecciato-leather-hooded-blouson-dark-navy-873908V6Q404030.html",
+   "b": "range"
   },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Cotton Jersey T-Shirt (White)",
-      "lu": "https://www.bottegaveneta.com/en-us/cotton-jersey-t-shirt-white-A0054LV6GI09000.html",
-      "hp": "Cotton Crochet Knit T-Shirt",
-      "hu": "https://www.bottegaveneta.com/en-us/cotton-crochet-knit-t-shirt-shrub-785359V5SP03293.html",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Fine Cotton Jersey Polo",
-      "lu": "https://www.bottegaveneta.com/en-us/fine-cotton-jersey-polo-pale-meringue-830926V5DJ09247.html",
-      "hp": "Silk Bouclé Polo",
-      "hu": "https://www.bottegaveneta.com/en-us/-silk-boucle-polo-night-residue-871403V6MD04204.html",
-      "b": "pair"
-    },
-    "Dress shirt": {
-      "lp": "Cotton Poplin Shirt (Blue Shirt)",
-      "lu": "https://www.bottegaveneta.com/en-us/cotton-poplin-shirt-blue-shirt-871218V6CV04105.html",
-      "hp": "Wool Grain De Poudre Shirt",
-      "hu": "https://www.bottegaveneta.com/en-us/wool-grain-de-poudre-shirt-double-black-874800V66I01010.html",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Indigo Straight Jeans",
-      "lu": "https://www.bottegaveneta.com/en-us/indigo-straight-jeans-indigo-837474V5SN04245.html",
-      "hp": "Atlantic Blue Wide Leg Jeans",
-      "hu": "https://www.bottegaveneta.com/en-us/atlantic-blue-wide-leg-jeans-mid-blue-859749V6SL04300.html",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Fine Wool Pants",
-      "lu": "https://www.bottegaveneta.com/en-us/fine-wool-pants-charcoal-melange-836967V4XP01307.html",
-      "hp": "Wool and Mohair Pants",
-      "hu": "https://www.bottegaveneta.com/en-us/wool-and-mohair-pants-desert-gray-melange-870467V6O202527.html",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Cashmere Jumper (crew neck, mini Intrecciato)",
-      "lu": "https://www.bottegaveneta.com/en-us/cashmere-jumper-navy-811456V4WD04121.html",
-      "hp": "Cashmere Sweater (Camo)",
-      "hu": "https://www.bottegaveneta.com/en-us/cashmere-sweater-camo-838108V2MM03749.html",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "Raw Indigo Denim Jacket",
-      "lu": "https://www.bottegaveneta.com/en-us/raw-indigo-denim-jacket-indigo-831604V5MG04245.html",
-      "hp": "Intrecciato Leather Hooded Blouson",
-      "hu": "https://www.bottegaveneta.com/en-us/intrecciato-leather-hooded-blouson-dark-navy-873908V6Q404030.html",
-      "b": "range"
-    },
-    "Shoes": {
-      "lp": "Dawson Loafer",
-      "lu": "https://www.bottegaveneta.com/en-us/dawson-loafer-black-876078V3OA01000.html",
-      "hp": "James Loafer",
-      "hu": "https://www.bottegaveneta.com/en-us/james-loafer-black-855165VBPB01000.html",
-      "b": "pair"
-    }
-  },
-  "price_range_only": ["T-shirt", "Dress shirt", "Jeans", "Dress pants", "Outerwear"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.bottegaveneta.com/en-us/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=86972",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "season": {
-    "l": "Winter 2026",
-    "t": "campaign",
-    "u": "https://www.bottegaveneta.com/en-us/winter-2026-campaign.html",
-    "m": "unisex"
-  },
-  "craft_evidence": {
-    "owned": "unclear",
-    "owned_d": "Brand site and kering.com both returned SITE_BLOCKED, so nothing primary was seen. Wikipedia (context only, not scoring) says BV moved its atelier to a villa at Montebello Vicentino in 2013, and runs leather-goods plants as Manifattura Veneta Pelletterie at Altavilla Vicentina (2011), Malo (2012) and Dueville (2019). If true, that is LEATHER GOODS making by the brand/Kering. Nothing found on who makes ready-to-wear.",
-    "makers": "NC",
-    "mills": "NC",
-    "madein": "NC",
-    "countries": "NC",
-    "heritage": "NC",
-    "repair": "NC",
-    "process": "NC",
-    "urls": ["https://en.wikipedia.org/wiki/Bottega_Veneta"],
-    "conf": "low",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Dawson Loafer",
+   "lu": "https://www.bottegaveneta.com/en-us/dawson-loafer-black-876078V3OA01000.html",
+   "hp": "James Loafer",
+   "hu": "https://www.bottegaveneta.com/en-us/james-loafer-black-855165VBPB01000.html",
+   "b": "pair"
   }
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants",
+  "Outerwear"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.bottegaveneta.com/en-us/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=86972",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "season": {
+  "l": "Winter 2026",
+  "t": "campaign",
+  "u": "https://www.bottegaveneta.com/en-us/winter-2026-campaign.html",
+  "m": "unisex"
+ },
+ "craft_evidence": {
+  "owned": "unclear",
+  "owned_d": "Brand site and kering.com both returned SITE_BLOCKED, so nothing primary was seen. Wikipedia (context only, not scoring) says BV moved its atelier to a villa at Montebello Vicentino in 2013, and runs leather-goods plants as Manifattura Veneta Pelletterie at Altavilla Vicentina (2011), Malo (2012) and Dueville (2019). If true, that is LEATHER GOODS making by the brand/Kering. Nothing found on who makes ready-to-wear.",
+  "makers": "NC",
+  "mills": "NC",
+  "madein": "NC",
+  "countries": "NC",
+  "heritage": "NC",
+  "repair": "NC",
+  "process": "NC",
+  "urls": [
+   "https://en.wikipedia.org/wiki/Bottega_Veneta"
+  ],
+  "conf": "low",
+  "read": "2026-10-03"
+ }
 }

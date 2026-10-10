@@ -1,189 +1,268 @@
 {
-  "name": "Ksubi",
-  "band": "accessible",
-  "seat": 83,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 2,
-    "craft": 1,
-    "style": 4
+ "name": "Ksubi",
+ "band": "accessible",
+ "seat": 83,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 2,
+  "craft": 1,
+  "style": 4
+ },
+ "fabric": {
+  "denim": 5,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 1,
+  "wool": 1,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 2,
+  "forg": 1,
+  "fuss": -2,
+  "status": 3,
+  "street": 4,
+  "avant": 2,
+  "weird": 2,
+  "whitet": 2,
+  "logo": 3,
+  "western": 1,
+  "rock": 4,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Jeans and streetwear with distressed washes and a rebellious image; started in Australia.",
+ "origin": "Founded in Sydney in 1999 by Dan Single and George Gorrow.",
+ "say": "SOO-bee",
+ "chan": [
+  "D",
+  "O"
+ ],
+ "conf": "L",
+ "forgc": [
+  1,
+  2,
+  1
+ ],
+ "shop": "https://ksubi.com/search?q=",
+ "onething": {
+  "p": "Chitch jean",
+  "u": "https://ksubi.com/search?q=Chitch%20jean%20men",
+  "n": "verified ✓"
+ },
+ "prices": [
+  [
+   69,
+   160
+  ],
+  null,
+  [
+   180,
+   260
+  ],
+  [
+   195,
+   400
+  ],
+  [
+   140,
+   140
+  ],
+  [
+   320,
+   360
+  ],
+  [
+   240,
+   1000
+  ],
+  null
+ ],
+ "notes": {
+  "street": "Sydney skate-rat denim; released live rats on a runway",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 2; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "denim": "Jeans and denim jackets are the range; the washes are the signature.",
+  "craft": "Ksubi's FAQ only says its denim comes from unnamed mills in Portugal, Turkey and China. Four PDPs across categories give composition but no country of make or maker. The FAQ mentions sulphur dye houses and laser treatments in general terms."
+ },
+ "doors": {
+  "c": "full",
+  "n": 4,
+  "cities": [
+   [
+    "Chicago",
+    "IL",
+    1
+   ],
+   [
+    "Los Angeles",
+    "CA",
+    1
+   ],
+   [
+    "Miami",
+    "FL",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 0,
+  "con": 0
+ },
+ "cities": "4 stores — Chicago, Los Angeles, Miami, New York · department stores and independent menswear shops, and its own site",
+ "region": {
+  "o": [
+   1977
+  ],
+  "s": [
+   0,
+   5,
+   19,
+   124
+  ]
+ },
+ "addmen": true,
+ "site": {
+  "domain": "ksubi.com",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 829,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "no",
+  "origin": "none",
+  "marks": [
+   "none"
+  ],
+  "source": "flag_sample",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 498,
+  "w": 441,
+  "n": 83,
+  "s": 4,
+  "c": 2,
+  "x": 15,
+  "xh": 0,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "jeans",
+   "t-shirts",
+   "sweats"
+  ],
+  "st": "complete"
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Dress shirt",
+  "Jeans",
+  "Sweater",
+  "Outerwear"
+ ],
+ "garment_links": {
+  "T-shirt": "https://ksubi.com/collections/mens-tshirts",
+  "Dress shirt": "https://ksubi.com/collections/mens-shirts",
+  "Jeans": "https://ksubi.com/collections/mens-denim",
+  "Sweater": "https://ksubi.com/collections/mens-knitwear",
+  "Outerwear": "https://ksubi.com/collections/mens-jackets"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "SEEING LINES SS TEE WHITE",
+   "lu": "https://ksubi.com/products/seeing-lines-ss-tee-white",
+   "hp": "STATE SLUB SID SS TEE BLACK",
+   "hu": "https://ksubi.com/products/state-slub-sid-ss-tee-black",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 5,
-    "cashmere": 1,
-    "linen": 1,
-    "cotton": 1,
-    "wool": 1,
-    "synth": 1
+  "Dress shirt": {
+   "lp": "CLUB DINER SS SHIRT SKY STRIPE",
+   "lu": "https://ksubi.com/products/club-diner-ss-shirt-sky-stripe",
+   "hp": "LANLEY LS SHIRT MILITANT",
+   "hu": "https://ksubi.com/products/lanley-ls-shirt-militant",
+   "b": "range"
   },
-  "dials": {
-    "dur": 2,
-    "forg": 1,
-    "fuss": -2,
-    "status": 3,
-    "street": 4,
-    "avant": 2,
-    "weird": 2,
-    "whitet": 2,
-    "logo": 3,
-    "western": 1,
-    "rock": 4,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
+  "Jeans": {
+   "lp": "VAN WINKLE RE-UP BLUE",
+   "lu": "https://ksubi.com/products/van-winkle-re-up-blue",
+   "hp": "CHITCH BACKSTAGE BLACK METALIK",
+   "hu": "https://ksubi.com/products/chitch-backstage-black-metalik",
+   "b": "range"
   },
-  "why": "Jeans and streetwear with distressed washes and a rebellious image; started in Australia.",
-  "origin": "Founded in Sydney in 1999 by Dan Single and George Gorrow.",
-  "say": "SOO-bee",
-  "chan": ["D", "O"],
-  "conf": "L",
-  "forgc": [1, 2, 1],
-  "shop": "https://ksubi.com/search?q=",
-  "onething": {
-    "p": "Chitch jean",
-    "u": "https://ksubi.com/search?q=Chitch%20jean%20men",
-    "n": "verified ✓"
+  "Dress pants": {
+   "lp": "RIVAL CHINO TROUSER NAVY",
+   "lu": "https://ksubi.com/products/rival-chino-trouser-navy",
+   "hp": "RIVAL CHINO TROUSER NAVY",
+   "hu": "https://ksubi.com/products/rival-chino-trouser-navy",
+   "b": "single"
   },
-  "prices": [[69, 160], null, [180, 260], [195, 400], [140, 140], [320, 360], [240, 1000], null],
-  "notes": {
-    "street": "Sydney skate-rat denim; released live rats on a runway",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 2; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "denim": "Jeans and denim jackets are the range; the washes are the signature.",
-    "craft": "Ksubi's FAQ only says its denim comes from unnamed mills in Portugal, Turkey and China. Four PDPs across categories give composition but no country of make or maker. The FAQ mentions sulphur dye houses and laser treatments in general terms."
+  "Sweater": {
+   "lp": "BOXER ZIP KNIT HOODIE MIDNIGHT",
+   "lu": "https://ksubi.com/products/boxer-zip-knit-hoodie-midnight",
+   "hp": "LEAGUE CARDIGAN BLACK",
+   "hu": "https://ksubi.com/products/league-cardigan-black",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 4,
-    "cities": [["Chicago", "IL", 1], ["Los Angeles", "CA", 1], ["Miami", "FL", 1], ["New York", "NY", 1]],
-    "basis": "master 2026-08-29, pre-recapture"
-  },
-  "cities": "4 stores — Chicago, Los Angeles, Miami, New York · department stores and independent menswear shops, and its own site",
-  "region": {
-    "o": [1534],
-    "s": [0, 5, 19, 124]
-  },
-  "addmen": true,
-  "site": {
-    "domain": "ksubi.com",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 829,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "no",
-    "origin": "none",
-    "marks": ["none"],
-    "source": "flag_sample",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 498,
-    "w": 441,
-    "n": 83,
-    "s": 4,
-    "c": 2,
-    "x": 15,
-    "xh": 0,
-    "sp": "one",
-    "sc": [],
-    "nc": ["jeans", "t-shirts", "sweats"],
-    "st": "complete"
-  },
-  "price_range_only": ["T-shirt", "Dress shirt", "Jeans", "Sweater", "Outerwear"],
-  "garment_links": {
-    "T-shirt": "https://ksubi.com/collections/mens-tshirts",
-    "Dress shirt": "https://ksubi.com/collections/mens-shirts",
-    "Jeans": "https://ksubi.com/collections/mens-denim",
-    "Sweater": "https://ksubi.com/collections/mens-knitwear",
-    "Outerwear": "https://ksubi.com/collections/mens-jackets"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "SEEING LINES SS TEE WHITE",
-      "lu": "https://ksubi.com/products/seeing-lines-ss-tee-white",
-      "hp": "STATE SLUB SID SS TEE BLACK",
-      "hu": "https://ksubi.com/products/state-slub-sid-ss-tee-black",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "CLUB DINER SS SHIRT SKY STRIPE",
-      "lu": "https://ksubi.com/products/club-diner-ss-shirt-sky-stripe",
-      "hp": "LANLEY LS SHIRT MILITANT",
-      "hu": "https://ksubi.com/products/lanley-ls-shirt-militant",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "VAN WINKLE RE-UP BLUE",
-      "lu": "https://ksubi.com/products/van-winkle-re-up-blue",
-      "hp": "CHITCH BACKSTAGE BLACK METALIK",
-      "hu": "https://ksubi.com/products/chitch-backstage-black-metalik",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "RIVAL CHINO TROUSER NAVY",
-      "lu": "https://ksubi.com/products/rival-chino-trouser-navy",
-      "hp": "RIVAL CHINO TROUSER NAVY",
-      "hu": "https://ksubi.com/products/rival-chino-trouser-navy",
-      "b": "single"
-    },
-    "Sweater": {
-      "lp": "BOXER ZIP KNIT HOODIE MIDNIGHT",
-      "lu": "https://ksubi.com/products/boxer-zip-knit-hoodie-midnight",
-      "hp": "LEAGUE CARDIGAN BLACK",
-      "hu": "https://ksubi.com/products/league-cardigan-black",
-      "b": "range"
-    },
-    "Outerwear": {
-      "lp": "OH G JACKET STAGELIGHT",
-      "lu": "https://ksubi.com/products/oh-g-jacket-stagelight",
-      "hp": "SLOUCHY LEATHER BOMBER JACKET AGED BROWN",
-      "hu": "https://ksubi.com/products/slouchy-leather-bomber-jacket-aged-brown",
-      "b": "range"
-    }
-  },
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://ksubi.com/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "SOTT (Sign of the Times) - none used as a figure"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=284777",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "season": {
-    "l": "Fall'26 'Strangers in Paradise'",
-    "t": "lookbook",
-    "u": "https://ksubi.com/blogs/news/lookbook-fall26-strangers-in-paradise",
-    "m": "yes"
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "Our story page names no factory; only the 1999 North Sydney garage origin. No owned making claimed.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "none",
-    "countries": "No country of make on 4 PDPs (jean, knit cardigan, trucker jacket, polo shirt) or in 16 product descriptions via products.json. FAQ gives fabric-mill countries (Portugal, Turkey, China) but not garment country.",
-    "heritage": "dated and placed",
-    "repair": "no",
-    "process": "some",
-    "urls": ["https://ksubi.com/pages/faqs", "https://ksubi.com/pages/our-story"],
-    "conf": "medium",
-    "read": "2026-10-03"
+  "Outerwear": {
+   "lp": "OH G JACKET STAGELIGHT",
+   "lu": "https://ksubi.com/products/oh-g-jacket-stagelight",
+   "hp": "SLOUCHY LEATHER BOMBER JACKET AGED BROWN",
+   "hu": "https://ksubi.com/products/slouchy-leather-bomber-jacket-aged-brown",
+   "b": "range"
   }
+ },
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://ksubi.com/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "SOTT (Sign of the Times) - none used as a figure"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=284777",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "season": {
+  "l": "Fall'26 'Strangers in Paradise'",
+  "t": "lookbook",
+  "u": "https://ksubi.com/blogs/news/lookbook-fall26-strangers-in-paradise",
+  "m": "yes"
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "Our story page names no factory; only the 1999 North Sydney garage origin. No owned making claimed.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "none",
+  "countries": "No country of make on 4 PDPs (jean, knit cardigan, trucker jacket, polo shirt) or in 16 product descriptions via products.json. FAQ gives fabric-mill countries (Portugal, Turkey, China) but not garment country.",
+  "heritage": "dated and placed",
+  "repair": "no",
+  "process": "some",
+  "urls": [
+   "https://ksubi.com/pages/faqs",
+   "https://ksubi.com/pages/our-story"
+  ],
+  "conf": "medium",
+  "read": "2026-10-03"
+ }
 }

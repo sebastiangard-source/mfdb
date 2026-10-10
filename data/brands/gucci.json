@@ -1,269 +1,561 @@
 {
-  "name": "Gucci",
-  "band": "trueLux",
-  "seat": 155,
-  "dagger": 0,
-  "focus": {
-    "tech": 1,
-    "comfort": 1,
-    "craft": 4,
-    "style": 5
-  },
-  "fabric": {
-    "denim": 2,
-    "cashmere": 2,
-    "linen": 2,
-    "cotton": 2,
-    "wool": 2,
-    "synth": 1
-  },
-  "dials": {
-    "dur": 3,
-    "forg": 2,
-    "fuss": 0,
-    "shoes": 4,
-    "status": 5,
-    "finbro": 3,
-    "ital": 4,
-    "street": 3,
-    "avant": 2,
-    "weird": 2,
-    "ski": 2,
-    "whitet": 2,
-    "logo": 5,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 2,
-    "surf": 1
-  },
-  "why": "Italian fashion house with leather goods at its core and a large, changing ready-to-wear range.",
-  "origin": "Founded in Florence in 1921 by Guccio Gucci.",
-  "chan": ["O", "D", "X"],
-  "conf": "S",
-  "forgc": [2, 2, 1],
-  "shop": "https://www.gucci.com/us/en/search?searchString=",
-  "onething": {
-    "p": "Horsebit 1953 loafer",
-    "u": "https://www.gucci.com/us/en/pr/men/shoes-for-men/loafers-moccasins-for-men/mens-horsebit-1953-loafer-p-307929BLM001000",
-    "n": "direct product page — the 1953 is the model name"
-  },
-  "prices": [
-    [455, 1450],
-    [575, 2300],
-    [690, 1950],
-    [980, 1500],
-    [980, 1850],
-    [1085, 2150],
-    [1920, 5900],
-    [765, 1450]
+ "name": "Gucci",
+ "band": "trueLux",
+ "seat": 155,
+ "dagger": 0,
+ "focus": {
+  "tech": 1,
+  "comfort": 1,
+  "craft": 4,
+  "style": 5
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 2,
+  "linen": 2,
+  "cotton": 2,
+  "wool": 2,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 2,
+  "fuss": 0,
+  "shoes": 4,
+  "status": 5,
+  "finbro": 3,
+  "ital": 4,
+  "street": 3,
+  "avant": 2,
+  "weird": 2,
+  "ski": 2,
+  "whitet": 2,
+  "logo": 5,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 2,
+  "surf": 1
+ },
+ "why": "Italian fashion house with leather goods at its core and a large, changing ready-to-wear range.",
+ "origin": "Founded in Florence in 1921 by Guccio Gucci.",
+ "chan": [
+  "O",
+  "D",
+  "X"
+ ],
+ "conf": "S",
+ "forgc": [
+  2,
+  2,
+  1
+ ],
+ "shop": "https://www.gucci.com/us/en/search?searchString=",
+ "onething": {
+  "p": "Horsebit 1953 loafer",
+  "u": "https://www.gucci.com/us/en/pr/men/shoes-for-men/loafers-moccasins-for-men/mens-horsebit-1953-loafer-p-307929BLM001000",
+  "n": "direct product page — the 1953 is the model name"
+ },
+ "prices": [
+  [
+   455,
+   1450
   ],
-  "shoelink": {
-    "t": "Horsebit loafer",
-    "u": "https://www.gucci.com/us/en/search?searchString=Horsebit%20loafer"
+  [
+   575,
+   2300
+  ],
+  [
+   690,
+   1950
+  ],
+  [
+   980,
+   1500
+  ],
+  [
+   980,
+   1850
+  ],
+  [
+   1085,
+   2150
+  ],
+  [
+   1920,
+   5900
+  ],
+  [
+   765,
+   1450
+  ]
+ ],
+ "shoelink": {
+  "t": "Horsebit loafer",
+  "u": "https://www.gucci.com/us/en/search?searchString=Horsebit%20loafer"
+ },
+ "notes": {
+  "status": "maximum public legibility; the double-G reads at fifty feet",
+  "ital": "Florentine leather goods before it was anything else, and the Italianness sits in that origin rather than in the current design language, which has been deliberately international for a decade.",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 5; retired 28 Sep 2026]",
+  "logo": "The interlocking G and the web stripe as all-over print; the logo is the design on a large share of the range.",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "style": "The house changes its look with each creative director, and the look is what sells.",
+  "craft": "Gucci owns real making in its core accessory categories: the ArtLab leather-goods and footwear hub at Scandicci and, since 2024, three Santa Croce tanneries (Colonna Group), with Kering-owned tanneries alongside. No owned ready-to-wear or knitwear production was found; the Novara RTW site is offices plus a prototype department, and Gucci cites ~4,200 direct and sub-suppliers. Real owned making not covering the whole range = 4. [audit proposed 4 at low confidence; held at 4 pending a second read]"
+ },
+ "doors": {
+  "c": "full",
+  "n": 74,
+  "cities": [
+   [
+    "Aspen",
+    "CO",
+    1
+   ],
+   [
+    "Atlanta",
+    "GA",
+    2
+   ],
+   [
+    "Austin",
+    "TX",
+    1
+   ],
+   [
+    "Aventura",
+    "FL",
+    1
+   ],
+   [
+    "Bal Harbour",
+    "FL",
+    1
+   ],
+   [
+    "Bellevue",
+    "WA",
+    1
+   ],
+   [
+    "Beverly Hills",
+    "CA",
+    1
+   ],
+   [
+    "Boca Raton",
+    "FL",
+    1
+   ],
+   [
+    "Boston",
+    "MA",
+    1
+   ],
+   [
+    "Charleston",
+    "SC",
+    1
+   ],
+   [
+    "Charlotte",
+    "NC",
+    1
+   ],
+   [
+    "Chicago",
+    "IL",
+    1
+   ],
+   [
+    "Cincinnati",
+    "OH",
+    1
+   ],
+   [
+    "Columbus",
+    "OH",
+    1
+   ],
+   [
+    "Coral Gables",
+    "FL",
+    1
+   ],
+   [
+    "Costa Mesa",
+    "CA",
+    1
+   ],
+   [
+    "Dallas",
+    "TX",
+    2
+   ],
+   [
+    "Denver",
+    "CO",
+    1
+   ],
+   [
+    "Detroit",
+    "MI",
+    1
+   ],
+   [
+    "East Rutherford",
+    "NJ",
+    1
+   ],
+   [
+    "Edina",
+    "MN",
+    1
+   ],
+   [
+    "Fort Worth",
+    "TX",
+    1
+   ],
+   [
+    "Glendale",
+    "CA",
+    1
+   ],
+   [
+    "Honolulu",
+    "HI",
+    2
+   ],
+   [
+    "Houston",
+    "TX",
+    1
+   ],
+   [
+    "Indianapolis",
+    "IN",
+    1
+   ],
+   [
+    "Jacksonville",
+    "FL",
+    1
+   ],
+   [
+    "King of Prussia",
+    "PA",
+    1
+   ],
+   [
+    "Las Vegas",
+    "NV",
+    4
+   ],
+   [
+    "Los Angeles",
+    "CA",
+    4
+   ],
+   [
+    "Manhasset",
+    "NY",
+    1
+   ],
+   [
+    "McLean",
+    "VA",
+    1
+   ],
+   [
+    "Miami",
+    "FL",
+    3
+   ],
+   [
+    "Naples",
+    "FL",
+    1
+   ],
+   [
+    "Nashville",
+    "TN",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    3
+   ],
+   [
+    "Oak Brook",
+    "IL",
+    1
+   ],
+   [
+    "Orlando",
+    "FL",
+    1
+   ],
+   [
+    "Palm Beach",
+    "FL",
+    2
+   ],
+   [
+    "Palm Desert",
+    "CA",
+    1
+   ],
+   [
+    "Paramus",
+    "NJ",
+    1
+   ],
+   [
+    "Pittsburgh",
+    "PA",
+    1
+   ],
+   [
+    "Plano",
+    "TX",
+    1
+   ],
+   [
+    "Portland",
+    "OR",
+    1
+   ],
+   [
+    "Roseville",
+    "CA",
+    1
+   ],
+   [
+    "San Antonio",
+    "TX",
+    1
+   ],
+   [
+    "San Diego",
+    "CA",
+    1
+   ],
+   [
+    "San Francisco",
+    "CA",
+    3
+   ],
+   [
+    "Santa Clara",
+    "CA",
+    1
+   ],
+   [
+    "Scottsdale",
+    "AZ",
+    1
+   ],
+   [
+    "Short Hills",
+    "NJ",
+    1
+   ],
+   [
+    "St. Louis",
+    "MO",
+    1
+   ],
+   [
+    "Tampa",
+    "FL",
+    1
+   ],
+   [
+    "The Woodlands",
+    "TX",
+    1
+   ],
+   [
+    "Troy",
+    "MI",
+    1
+   ],
+   [
+    "Wailea",
+    "HI",
+    1
+   ],
+   [
+    "Washington",
+    "DC",
+    1
+   ],
+   [
+    "White Plains",
+    "NY",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 8,
+  "con": 11
+ },
+ "cities": "74 stores across the US · department stores and independent menswear shops, and its own site",
+ "region": {
+  "o": [
+   1413,
+   1414,
+   1429,
+   1431,
+   1432,
+   1433,
+   1434,
+   1435,
+   1436,
+   1437,
+   1439
+  ],
+  "s": [
+   5
+  ]
+ },
+ "addmen": true,
+ "addcloth": true,
+ "site": {
+  "domain": "www.gucci.com",
+  "platform": "custom",
+  "feed": "sitemap_products",
+  "feed_count": 4152,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "licensed",
+  "marks": [
+   "NATIVA(TM) wool"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 375,
+  "w": 340,
+  "n": 72,
+  "s": 12,
+  "c": 7,
+  "x": 18,
+  "xh": 9,
+  "sp": "one",
+  "sc": [
+   "swimwear"
+  ],
+  "nc": [
+   "denim",
+   "t-shirts and polo shirts",
+   "knitwear"
+  ],
+  "st": "complete"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Cotton jersey T-shirt with print",
+   "lu": "https://www.gucci.com/us/en/pr/men/ready-to-wear-for-men/t-shirts-polo-shirts-for-men/cotton-jersey-t-shirt-with-print-p-855021XJHOE2388",
+   "hp": "Knit silk cotton T-shirt with embroidery",
+   "hu": "https://www.gucci.com/us/en/pr/men/ready-to-wear-for-men/knitwear-for-men/crewnecks-for-men/knit-silk-cotton-t-shirt-with-embroidery-p-875140XKFL71043",
+   "b": "pair"
   },
-  "notes": {
-    "status": "maximum public legibility; the double-G reads at fifty feet",
-    "ital": "Florentine leather goods before it was anything else, and the Italianness sits in that origin rather than in the current design language, which has been deliberately international for a decade.",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 5; retired 28 Sep 2026]",
-    "logo": "The interlocking G and the web stripe as all-over print; the logo is the design on a large share of the range.",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "style": "The house changes its look with each creative director, and the look is what sells.",
-    "craft": "Gucci owns real making in its core accessory categories: the ArtLab leather-goods and footwear hub at Scandicci and, since 2024, three Santa Croce tanneries (Colonna Group), with Kering-owned tanneries alongside. No owned ready-to-wear or knitwear production was found; the Novara RTW site is offices plus a prototype department, and Gucci cites ~4,200 direct and sub-suppliers. Real owned making not covering the whole range = 4. [audit proposed 4 at low confidence; held at 4 pending a second read]"
+  "Polo": {
+   "lp": "Cotton piquet polo with Web collar",
+   "lu": "https://www.gucci.com/us/en/pr/men/ready-to-wear-for-men/t-shirts-polo-shirts-for-men/polo-shirts-for-men/cotton-piquet-polo-with-web-collar-p-701735XJELJ1043",
+   "hp": "GG cotton silk jacquard polo shirt",
+   "hu": "https://www.gucci.com/us/en/pr/men/ready-to-wear-for-men/knitwear-for-men/knitted-polo-for-men/gg-cotton-silk-jacquard-polo-shirt-p-855058XKFEN4588",
+   "b": "pair"
   },
-  "doors": {
-    "c": "full",
-    "n": 73,
-    "cities": [
-      ["Aspen", "CO", 1],
-      ["Atlanta", "GA", 2],
-      ["Austin", "TX", 1],
-      ["Aventura", "FL", 1],
-      ["Bal Harbour", "FL", 2],
-      ["Bellevue", "WA", 1],
-      ["Beverly Hills", "CA", 2],
-      ["Boca Raton", "FL", 1],
-      ["Boston", "MA", 1],
-      ["Charleston", "SC", 1],
-      ["Charlotte", "NC", 1],
-      ["Chicago", "IL", 1],
-      ["Cincinnati", "OH", 1],
-      ["Columbus", "OH", 1],
-      ["Coral Gables", "FL", 1],
-      ["Costa Mesa", "CA", 1],
-      ["Dallas", "TX", 2],
-      ["Denver", "CO", 1],
-      ["Detroit", "MI", 1],
-      ["East Rutherford", "NJ", 1],
-      ["Fort Worth", "TX", 1],
-      ["Glendale", "CA", 1],
-      ["Honolulu", "HI", 2],
-      ["Houston", "TX", 1],
-      ["Indianapolis", "IN", 1],
-      ["Jacksonville", "FL", 1],
-      ["King of Prussia", "PA", 1],
-      ["Las Vegas", "NV", 4],
-      ["Los Angeles", "CA", 4],
-      ["Manhasset", "NY", 1],
-      ["McLean", "VA", 1],
-      ["Miami", "FL", 3],
-      ["Naples", "FL", 1],
-      ["Nashville", "TN", 1],
-      ["New York", "NY", 3],
-      ["Oak Brook", "IL", 1],
-      ["Orlando", "FL", 1],
-      ["Palm Beach", "FL", 2],
-      ["Palm Desert", "CA", 1],
-      ["Paramus", "NJ", 1],
-      ["Pittsburgh", "PA", 1],
-      ["Plano", "TX", 1],
-      ["Portland", "OR", 1],
-      ["Roseville", "CA", 1],
-      ["San Antonio", "TX", 1],
-      ["San Diego", "CA", 1],
-      ["San Francisco", "CA", 1],
-      ["Santa Clara", "CA", 1],
-      ["Scottsdale", "AZ", 1],
-      ["Short Hills", "NJ", 1],
-      ["St. Louis", "MO", 1],
-      ["Tampa", "FL", 1],
-      ["The Woodlands", "TX", 1],
-      ["Troy", "MI", 1],
-      ["Wailea", "HI", 1],
-      ["Washington", "DC", 1],
-      ["White Plains", "NY", 1]
-    ],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Dress shirt": {
+   "lp": "Striped cotton poplin shirt",
+   "lu": "https://www.gucci.com/us/en/pr/men/ready-to-wear-for-men/shirts-for-men/long-sleeves-shirts-for-men/striped-cotton-poplin-shirt-p-784020ZAQU49025",
+   "hp": "GG silk jacquard shirt",
+   "hu": "https://www.gucci.com/us/en/pr/men/ready-to-wear-for-men/shirts-for-men/gg-silk-jacquard-shirt-p-862592ZATF99000",
+   "b": "pair"
   },
-  "cities": "73 stores across the US · department stores and independent menswear shops, and its own site",
-  "region": {
-    "o": [1136, 1141, 1142, 1143, 1148, 1149, 1150, 1151, 1152, 1156, 1157],
-    "s": [5]
+  "Jeans": {
+   "lp": "Slim fit cotton denim pant",
+   "lu": "https://www.gucci.com/us/en/pr/men/ready-to-wear-for-men/denim-for-men/denim-bottoms-for-men/slim-fit-cotton-denim-pant-p-844629XDDD24009",
+   "hp": "GG cotton denim jacquard pants",
+   "hu": "https://www.gucci.com/us/en/pr/men/ready-to-wear-for-men/denim-for-men/denim-bottoms-for-men/gg-cotton-denim-jacquard-pants-p-864814XDDF79000",
+   "b": "range"
   },
-  "addmen": true,
-  "addcloth": true,
-  "site": {
-    "domain": "www.gucci.com",
-    "platform": "custom",
-    "feed": "sitemap_products",
-    "feed_count": 4152,
-    "status": "live_store",
-    "checked": "2026-09-13"
+  "Dress pants": {
+   "lp": "Technical wool blend pants",
+   "lu": "https://www.gucci.com/us/en/pr/men/ready-to-wear-for-men/pants-and-shorts-for-men/long-pants-for-men/technical-wool-blend-pants-p-A005TEZAVJ41000",
+   "hp": "GG cotton viscose formal pant",
+   "hu": "https://www.gucci.com/us/en/pr/men/ready-to-wear-for-men/pants-and-shorts-for-men/long-pants-for-men/gg-cotton-viscose-formal-pant-p-698749ZAHMD1000",
+   "b": "range"
   },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "licensed",
-    "marks": ["NATIVA(TM) wool"],
-    "source": "census",
-    "checked": "2026-09-12"
+  "Sweater": {
+   "lp": "Knit wool sweater with intarsia",
+   "lu": "https://www.gucci.com/us/en/pr/men/ready-to-wear-for-men/knitwear-for-men/crewnecks-for-men/knit-wool-sweater-with-intarsia-p-795347XKD744071",
+   "hp": "Cashmere sweater with Web intarsia",
+   "hu": "https://www.gucci.com/us/en/pr/men/ready-to-wear-for-men/knitwear-for-men/crewnecks-for-men/cashmere-sweater-with-web-intarsia-p-791957XKD5E1060",
+   "b": "pair"
   },
-  "fibre": {
-    "t": 375,
-    "w": 340,
-    "n": 72,
-    "s": 12,
-    "c": 7,
-    "x": 18,
-    "xh": 9,
-    "sp": "one",
-    "sc": ["swimwear"],
-    "nc": ["denim", "t-shirts and polo shirts", "knitwear"],
-    "st": "complete"
+  "Outerwear": {
+   "lp": "GG canvas zip jacket",
+   "lu": "https://www.gucci.com/us/en/pr/men/ready-to-wear-for-men/outerwear-for-men/outerwear-for-men/gg-canvas-zip-jacket-p-832286ZAF4S5367",
+   "hp": "Grainy leather zip jacket",
+   "hu": "https://www.gucci.com/us/en/pr/men/ready-to-wear-for-men/leather-for-men/leather-tops-for-men/grainy-leather-zip-jacket-p-865368XNBDR1018",
+   "b": "pair"
   },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Cotton jersey T-shirt with print",
-      "lu": "https://www.gucci.com/us/en/pr/men/ready-to-wear-for-men/t-shirts-polo-shirts-for-men/cotton-jersey-t-shirt-with-print-p-855021XJHOE2388",
-      "hp": "Knit silk cotton T-shirt with embroidery",
-      "hu": "https://www.gucci.com/us/en/pr/men/ready-to-wear-for-men/knitwear-for-men/crewnecks-for-men/knit-silk-cotton-t-shirt-with-embroidery-p-875140XKFL71043",
-      "b": "pair"
-    },
-    "Polo": {
-      "lp": "Cotton piquet polo with Web collar",
-      "lu": "https://www.gucci.com/us/en/pr/men/ready-to-wear-for-men/t-shirts-polo-shirts-for-men/polo-shirts-for-men/cotton-piquet-polo-with-web-collar-p-701735XJELJ1043",
-      "hp": "GG cotton silk jacquard polo shirt",
-      "hu": "https://www.gucci.com/us/en/pr/men/ready-to-wear-for-men/knitwear-for-men/knitted-polo-for-men/gg-cotton-silk-jacquard-polo-shirt-p-855058XKFEN4588",
-      "b": "pair"
-    },
-    "Dress shirt": {
-      "lp": "Striped cotton poplin shirt",
-      "lu": "https://www.gucci.com/us/en/pr/men/ready-to-wear-for-men/shirts-for-men/long-sleeves-shirts-for-men/striped-cotton-poplin-shirt-p-784020ZAQU49025",
-      "hp": "GG silk jacquard shirt",
-      "hu": "https://www.gucci.com/us/en/pr/men/ready-to-wear-for-men/shirts-for-men/gg-silk-jacquard-shirt-p-862592ZATF99000",
-      "b": "pair"
-    },
-    "Jeans": {
-      "lp": "Slim fit cotton denim pant",
-      "lu": "https://www.gucci.com/us/en/pr/men/ready-to-wear-for-men/denim-for-men/denim-bottoms-for-men/slim-fit-cotton-denim-pant-p-844629XDDD24009",
-      "hp": "GG cotton denim jacquard pants",
-      "hu": "https://www.gucci.com/us/en/pr/men/ready-to-wear-for-men/denim-for-men/denim-bottoms-for-men/gg-cotton-denim-jacquard-pants-p-864814XDDF79000",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Technical wool blend pants",
-      "lu": "https://www.gucci.com/us/en/pr/men/ready-to-wear-for-men/pants-and-shorts-for-men/long-pants-for-men/technical-wool-blend-pants-p-A005TEZAVJ41000",
-      "hp": "GG cotton viscose formal pant",
-      "hu": "https://www.gucci.com/us/en/pr/men/ready-to-wear-for-men/pants-and-shorts-for-men/long-pants-for-men/gg-cotton-viscose-formal-pant-p-698749ZAHMD1000",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Knit wool sweater with intarsia",
-      "lu": "https://www.gucci.com/us/en/pr/men/ready-to-wear-for-men/knitwear-for-men/crewnecks-for-men/knit-wool-sweater-with-intarsia-p-795347XKD744071",
-      "hp": "Cashmere sweater with Web intarsia",
-      "hu": "https://www.gucci.com/us/en/pr/men/ready-to-wear-for-men/knitwear-for-men/crewnecks-for-men/cashmere-sweater-with-web-intarsia-p-791957XKD5E1060",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "GG canvas zip jacket",
-      "lu": "https://www.gucci.com/us/en/pr/men/ready-to-wear-for-men/outerwear-for-men/outerwear-for-men/gg-canvas-zip-jacket-p-832286ZAF4S5367",
-      "hp": "Grainy leather zip jacket",
-      "hu": "https://www.gucci.com/us/en/pr/men/ready-to-wear-for-men/leather-for-men/leather-tops-for-men/grainy-leather-zip-jacket-p-865368XNBDR1018",
-      "b": "pair"
-    },
-    "Shoes": {
-      "lp": "Men's Horsebit 1953 loafer",
-      "lu": "https://www.gucci.com/us/en/pr/men/shoes-for-men/loafers-moccasins-for-men/mens-horsebit-1953-loafer-p-852065AAFRR4063",
-      "hp": "Men's Ragazzo loafer (velvet, crest embroidery)",
-      "hu": "https://www.gucci.com/us/en/pr/men/shoes-for-men/loafers-moccasins-for-men/mens-ragazzo-loafer-p-875001FAFVO1000",
-      "b": "pair"
-    }
-  },
-  "price_range_only": ["Jeans", "Dress pants"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.gucci.com/us/en/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=567",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "craft_evidence": {
-    "owned": "yes",
-    "owned_d": "Owned making is LEATHER GOODS AND FOOTWEAR (plus leather supply), not ready-to-wear. Gucci ArtLab, Scandicci (Florence), opened April 2018: leather goods (bags, luggage, SLG, belts) and footwear development/production, press quoting Gucci CEO; Wikipedia describes it as where leather goods, footwear, hardware and packaging are developed and tested. Tanneries: Gucci took 100% of Colonna Group (Marbella Pellami, Conceria 800, Falco Pellami, Santa Croce sull'Arno) Nov 2024; Kering also owns Caravel (Tuscany) and France Croco (Normandy) tanneries. Ready-to-wear: the only owned RTW site found is Kering's Novara complex (Via Belletti 4), described by its architects as 'offices and prototype making department' (~2,200 sq m labs) — prototyping, not production evidence. No owned RTW/knit production facility found; Gucci says its supply chain involves ~4,200 direct and sub-suppliers (WWD).",
-    "makers": "NC",
-    "mills": "NC",
-    "madein": "NC",
-    "countries": "NC (gucci.com blocked; no PDPs read; secondary-market listings show 'Made in Italy' labels but do not score)",
-    "heritage": "dated and placed",
-    "repair": "NC",
-    "process": "NC",
-    "urls": [
-      "https://us.fashionnetwork.com/news/Gucci-inaugurates-artlab-its-craftsmanship-and-innovation-hub-outside-florence,971891.html",
-      "https://ww.fashionnetwork.com/news/Gucci-buys-100-stake-in-colonna-group-owner-of-three-italian-tanneries,1682388.html"
-    ],
-    "conf": "low",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Men's Horsebit 1953 loafer",
+   "lu": "https://www.gucci.com/us/en/pr/men/shoes-for-men/loafers-moccasins-for-men/mens-horsebit-1953-loafer-p-852065AAFRR4063",
+   "hp": "Men's Ragazzo loafer (velvet, crest embroidery)",
+   "hu": "https://www.gucci.com/us/en/pr/men/shoes-for-men/loafers-moccasins-for-men/mens-ragazzo-loafer-p-875001FAFVO1000",
+   "b": "pair"
   }
+ },
+ "price_range_only": [
+  "Jeans",
+  "Dress pants"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.gucci.com/us/en/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=567",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "craft_evidence": {
+  "owned": "yes",
+  "owned_d": "Owned making is LEATHER GOODS AND FOOTWEAR (plus leather supply), not ready-to-wear. Gucci ArtLab, Scandicci (Florence), opened April 2018: leather goods (bags, luggage, SLG, belts) and footwear development/production, press quoting Gucci CEO; Wikipedia describes it as where leather goods, footwear, hardware and packaging are developed and tested. Tanneries: Gucci took 100% of Colonna Group (Marbella Pellami, Conceria 800, Falco Pellami, Santa Croce sull'Arno) Nov 2024; Kering also owns Caravel (Tuscany) and France Croco (Normandy) tanneries. Ready-to-wear: the only owned RTW site found is Kering's Novara complex (Via Belletti 4), described by its architects as 'offices and prototype making department' (~2,200 sq m labs) — prototyping, not production evidence. No owned RTW/knit production facility found; Gucci says its supply chain involves ~4,200 direct and sub-suppliers (WWD).",
+  "makers": "NC",
+  "mills": "NC",
+  "madein": "NC",
+  "countries": "NC (gucci.com blocked; no PDPs read; secondary-market listings show 'Made in Italy' labels but do not score)",
+  "heritage": "dated and placed",
+  "repair": "NC",
+  "process": "NC",
+  "urls": [
+   "https://us.fashionnetwork.com/news/Gucci-inaugurates-artlab-its-craftsmanship-and-innovation-hub-outside-florence,971891.html",
+   "https://ww.fashionnetwork.com/news/Gucci-buys-100-stake-in-colonna-group-owner-of-three-italian-tanneries,1682388.html"
+  ],
+  "conf": "low",
+  "read": "2026-10-03"
+ }
 }

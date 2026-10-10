@@ -1,179 +1,226 @@
 {
-  "name": "Mott & Bow",
-  "band": "premium",
-  "seat": 7,
-  "dagger": 1,
-  "focus": {
-    "tech": 2,
-    "comfort": 4,
-    "craft": 2,
-    "style": 2
+ "name": "Mott & Bow",
+ "band": "premium",
+ "seat": 7,
+ "dagger": 1,
+ "focus": {
+  "tech": 2,
+  "comfort": 4,
+  "craft": 2,
+  "style": 2
+ },
+ "fabric": {
+  "denim": 5,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 3,
+  "wool": 1,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 2,
+  "forg": 3,
+  "fuss": -3,
+  "shoes": 0,
+  "whitet": 2,
+  "logo": 1,
+  "western": 1,
+  "rock": 1,
+  "workwear": 2,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Jeans, tees and casual basics sold direct at mid prices, from a family with its own denim mill.",
+ "origin": "Founded in 2013 by Alejandro Chahin, whose family runs a denim mill in Honduras.",
+ "chan": [
+  "W"
+ ],
+ "conf": "L",
+ "forgc": [
+  3,
+  3,
+  1
+ ],
+ "shop": "https://www.mottandbow.com/search?q=",
+ "onething": {
+  "p": "Laight slim jean",
+  "u": "https://www.mottandbow.com/search?q=Laight",
+  "n": "restored from the earlier draft; link is site search — verify"
+ },
+ "prices": [
+  [
+   40,
+   55
+  ],
+  [
+   56,
+   75
+  ],
+  null,
+  [
+   99,
+   139
+  ],
+  [
+   125,
+   125
+  ],
+  [
+   239,
+   239
+  ],
+  [
+   795,
+   995
+  ],
+  null
+ ],
+ "price_checked": true,
+ "doors": {
+  "c": "full",
+  "n": 0,
+  "cities": [],
+  "basis": "master 2026-08-29, pre-recapture"
+ },
+ "cities": "Sold direct, through its own site only",
+ "addmen": true,
+ "site": {
+  "domain": "mottandbow.com",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 30,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "both",
+  "marks": [
+   "64 house fabric names in a fabric_ filter facet incl. Mercer, Driggs, Marcy, Charles, Hubert, Tabor, Ridge, Pitkin, Wooster, Soft Second Skin",
+   "TENCEL (licensed)",
+   "water-repellent"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 95,
+  "w": 95,
+  "n": 88,
+  "s": 6,
+  "c": 6,
+  "x": 66,
+  "xh": 9,
+  "sp": "one",
+  "sc": [
+   "Swim"
+  ],
+  "nc": [
+   "Jeans",
+   "Tees",
+   "Sweaters"
+  ],
+  "st": "complete"
+ },
+ "garment_links": {
+  "T-shirt": "https://www.mottandbow.com/collections/mens-tees",
+  "Polo": "https://www.mottandbow.com/collections/mens-polo-t-shirts",
+  "Jeans": "https://www.mottandbow.com/collections/mens-jeans",
+  "Dress pants": "https://www.mottandbow.com/collections/pants-and-chinos-for-men",
+  "Sweater": "https://www.mottandbow.com/collections/mens-sweaters",
+  "Outerwear": "https://www.mottandbow.com/collections/mens-jackets"
+ },
+ "notes": {
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 1; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "denim": "Jeans are the founding product and the core of the range; the family runs a denim mill.",
+  "craft": "Mott & Bow's about page says its jeans are made in the Honduras factory the founder's family set up in 1982, but never names that factory or its town, and says the denim itself comes from unnamed Japanese and US mills. Product pages state no country of origin and name no maker or mill; non-denim categories have no stated origin at all."
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Classic Crew Driggs Tee",
+   "lu": "https://www.mottandbow.com/products/scrt-drig-navy",
+   "hp": "Luxe Stretch Tee",
+   "hu": "https://www.mottandbow.com/products/lstt-tabo-navy",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 5,
-    "cashmere": 1,
-    "linen": 1,
-    "cotton": 3,
-    "wool": 1,
-    "synth": 1
+  "Polo": {
+   "lp": "Jersey Sueded Polo",
+   "lu": "https://www.mottandbow.com/products/polo-pima-navy",
+   "hp": "Luxe Performance Polo",
+   "hu": "https://www.mottandbow.com/products/mlpt-dewe-navy",
+   "b": "range"
   },
-  "dials": {
-    "dur": 2,
-    "forg": 3,
-    "fuss": -3,
-    "shoes": 0,
-    "whitet": 2,
-    "logo": 1,
-    "western": 1,
-    "rock": 1,
-    "workwear": 2,
-    "outdoor": 1,
-    "surf": 1
+  "Jeans": {
+   "lp": "Slim Oliver Jeans",
+   "lu": "https://www.mottandbow.com/products/slim-oliver-jeans",
+   "hp": "Slim Wooster Jeans",
+   "hu": "https://www.mottandbow.com/products/slim-wooster-jeans",
+   "b": "range"
   },
-  "why": "Jeans, tees and casual basics sold direct at mid prices, from a family with its own denim mill.",
-  "origin": "Founded in 2013 by Alejandro Chahin, whose family runs a denim mill in Honduras.",
-  "chan": ["W"],
-  "conf": "L",
-  "forgc": [3, 3, 1],
-  "shop": "https://www.mottandbow.com/search?q=",
-  "onething": {
-    "p": "Laight slim jean",
-    "u": "https://www.mottandbow.com/search?q=Laight",
-    "n": "restored from the earlier draft; link is site search — verify"
+  "Dress pants": {
+   "lp": "Everyday Comfort Slim Chino Pants",
+   "lu": "https://www.mottandbow.com/products/mtwc-char-navy",
+   "hp": "Everyday Comfort Slim Chino Pants",
+   "hu": "https://www.mottandbow.com/products/mtwc-char-navy",
+   "b": "single"
   },
-  "prices": [[40, 55], [56, 75], null, [99, 139], [125, 125], [239, 239], [795, 995], null],
-  "price_checked": true,
-  "doors": {
-    "c": "full",
-    "n": 0,
-    "cities": [],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Sweater": {
+   "lp": "Classic Cashmere Crew Bergen Sweater",
+   "lu": "https://www.mottandbow.com/products/mcrs-berg-navy",
+   "hp": "Classic Cashmere Crew Bergen Sweater",
+   "hu": "https://www.mottandbow.com/products/mcrs-berg-navy",
+   "b": "single"
   },
-  "cities": "Sold direct, through its own site only",
-  "addmen": true,
-  "site": {
-    "domain": "mottandbow.com",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 30,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "both",
-    "marks": [
-      "64 house fabric names in a fabric_ filter facet incl. Mercer, Driggs, Marcy, Charles, Hubert, Tabor, Ridge, Pitkin, Wooster, Soft Second Skin",
-      "TENCEL (licensed)",
-      "water-repellent"
-    ],
-    "source": "census",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 95,
-    "w": 95,
-    "n": 88,
-    "s": 6,
-    "c": 6,
-    "x": 66,
-    "xh": 9,
-    "sp": "one",
-    "sc": ["Swim"],
-    "nc": ["Jeans", "Tees", "Sweaters"],
-    "st": "complete"
-  },
-  "garment_links": {
-    "T-shirt": "https://www.mottandbow.com/collections/mens-tees",
-    "Polo": "https://www.mottandbow.com/collections/mens-polo-t-shirts",
-    "Jeans": "https://www.mottandbow.com/collections/mens-jeans",
-    "Dress pants": "https://www.mottandbow.com/collections/pants-and-chinos-for-men",
-    "Sweater": "https://www.mottandbow.com/collections/mens-sweaters",
-    "Outerwear": "https://www.mottandbow.com/collections/mens-jackets"
-  },
-  "notes": {
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 1; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "denim": "Jeans are the founding product and the core of the range; the family runs a denim mill.",
-    "craft": "Mott & Bow's about page says its jeans are made in the Honduras factory the founder's family set up in 1982, but never names that factory or its town, and says the denim itself comes from unnamed Japanese and US mills. Product pages state no country of origin and name no maker or mill; non-denim categories have no stated origin at all."
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Classic Crew Driggs Tee",
-      "lu": "https://www.mottandbow.com/products/scrt-drig-navy",
-      "hp": "Luxe Stretch Tee",
-      "hu": "https://www.mottandbow.com/products/lstt-tabo-navy",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Jersey Sueded Polo",
-      "lu": "https://www.mottandbow.com/products/polo-pima-navy",
-      "hp": "Luxe Performance Polo",
-      "hu": "https://www.mottandbow.com/products/mlpt-dewe-navy",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Slim Oliver Jeans",
-      "lu": "https://www.mottandbow.com/products/slim-oliver-jeans",
-      "hp": "Slim Wooster Jeans",
-      "hu": "https://www.mottandbow.com/products/slim-wooster-jeans",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Everyday Comfort Slim Chino Pants",
-      "lu": "https://www.mottandbow.com/products/mtwc-char-navy",
-      "hp": "Everyday Comfort Slim Chino Pants",
-      "hu": "https://www.mottandbow.com/products/mtwc-char-navy",
-      "b": "single"
-    },
-    "Sweater": {
-      "lp": "Classic Cashmere Crew Bergen Sweater",
-      "lu": "https://www.mottandbow.com/products/mcrs-berg-navy",
-      "hp": "Classic Cashmere Crew Bergen Sweater",
-      "hu": "https://www.mottandbow.com/products/mcrs-berg-navy",
-      "b": "single"
-    },
-    "Outerwear": {
-      "lp": "Suede Trucker Jacket",
-      "lu": "https://www.mottandbow.com/products/trja-royc-toba",
-      "hp": "Leather Racer Jacket",
-      "hu": "https://www.mottandbow.com/products/raja-quin-blac",
-      "b": "range"
-    }
-  },
-  "price_range_only": ["T-shirt", "Polo", "Jeans", "Outerwear"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.mottandbow.com/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=2706317",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "craft_evidence": {
-    "owned": "unclear",
-    "owned_d": "About page: founder Alejandro Chahin's family 'established a denim manufacturing facility in 1982' in Honduras and Mott & Bow is made at 'the same factory I had grown up in'; FAQ/brand page: 'Jeans manufactured in family-owned facilities in Honduras with 40+ years of denim expertise'. Facility never named, no town given, no photographs seen; ownership is the founder's family, not stated as the brand's. It is a garment (jeans) facility, not a denim mill - fabric is 'sourced from Japanese and US mills'. Covers jeans only as stated; tees, cashmere, tech pants, loungewear origin not stated.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "none",
-    "countries": "No country on any of 4 sampled PDPs (jeans, cashmere sweater, tee, tech pant). Brand-level only: jeans made in Honduras (about page, FAQ, brand page); other categories unstated.",
-    "heritage": "dated and placed",
-    "repair": "no",
-    "process": "some",
-    "urls": ["https://www.mottandbow.com/pages/about-us", "https://www.mottandbow.com/pages/faq-hub"],
-    "conf": "medium",
-    "read": "2026-10-03"
+  "Outerwear": {
+   "lp": "Suede Trucker Jacket",
+   "lu": "https://www.mottandbow.com/products/trja-royc-toba",
+   "hp": "Leather Racer Jacket",
+   "hu": "https://www.mottandbow.com/products/raja-quin-blac",
+   "b": "range"
   }
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Jeans",
+  "Outerwear"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.mottandbow.com/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=2706317",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "craft_evidence": {
+  "owned": "unclear",
+  "owned_d": "About page: founder Alejandro Chahin's family 'established a denim manufacturing facility in 1982' in Honduras and Mott & Bow is made at 'the same factory I had grown up in'; FAQ/brand page: 'Jeans manufactured in family-owned facilities in Honduras with 40+ years of denim expertise'. Facility never named, no town given, no photographs seen; ownership is the founder's family, not stated as the brand's. It is a garment (jeans) facility, not a denim mill - fabric is 'sourced from Japanese and US mills'. Covers jeans only as stated; tees, cashmere, tech pants, loungewear origin not stated.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "none",
+  "countries": "No country on any of 4 sampled PDPs (jeans, cashmere sweater, tee, tech pant). Brand-level only: jeans made in Honduras (about page, FAQ, brand page); other categories unstated.",
+  "heritage": "dated and placed",
+  "repair": "no",
+  "process": "some",
+  "urls": [
+   "https://www.mottandbow.com/pages/about-us",
+   "https://www.mottandbow.com/pages/faq-hub"
+  ],
+  "conf": "medium",
+  "read": "2026-10-03"
+ }
 }

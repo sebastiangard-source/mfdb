@@ -1,233 +1,343 @@
 {
-  "name": "Fendi",
-  "band": "trueLux",
-  "seat": 150,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 2,
-    "craft": 4,
-    "style": 4
-  },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 3,
-    "linen": 1,
-    "cotton": 2,
-    "wool": 2,
-    "synth": 2
-  },
-  "dials": {
-    "dur": 3,
-    "forg": 2,
-    "fuss": 1,
-    "shoes": 3,
-    "status": 5,
-    "ital": 4,
-    "ski": 2,
-    "whitet": 2,
-    "logo": 3,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
-  },
-  "why": "Leather goods and fur from a Roman workshop that grew into a full fashion house; owned by LVMH.",
-  "origin": "Founded in Rome in 1925 by Adele and Edoardo Fendi.",
-  "chan": ["O", "D"],
-  "conf": "L",
-  "forgc": [2, 2, 1],
-  "shop": "https://www.fendi.com/us-en/search?q=",
-  "onething": {
-    "p": "FF monogram knit",
-    "u": "https://www.ssense.com/en-us/men/designers/fendi",
-    "n": "SSENSE designer page — MP search deep-links are dead"
-  },
-  "prices": [
-    [790, 970],
-    [890, 1400],
-    [890, 1500],
-    [1000, 1650],
-    [1500, 1500],
-    [1100, 2500],
-    [2100, 10500],
-    [770, 1150]
+ "name": "Fendi",
+ "band": "trueLux",
+ "seat": 150,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 2,
+  "craft": 4,
+  "style": 4
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 3,
+  "linen": 1,
+  "cotton": 2,
+  "wool": 2,
+  "synth": 2
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 2,
+  "fuss": 1,
+  "shoes": 3,
+  "status": 5,
+  "ital": 4,
+  "ski": 2,
+  "whitet": 2,
+  "logo": 3,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Leather goods and fur from a Roman workshop that grew into a full fashion house; owned by LVMH.",
+ "origin": "Founded in Rome in 1925 by Adele and Edoardo Fendi.",
+ "chan": [
+  "O",
+  "D"
+ ],
+ "conf": "L",
+ "forgc": [
+  2,
+  2,
+  1
+ ],
+ "shop": "https://www.fendi.com/us-en/search?q=",
+ "onething": {
+  "p": "FF monogram knit",
+  "u": "https://www.ssense.com/en-us/men/designers/fendi",
+  "n": "SSENSE designer page — MP search deep-links are dead"
+ },
+ "prices": [
+  [
+   790,
+   970
   ],
-  "shoelink": {
-    "t": "shoes",
-    "u": "https://www.fendi.com/us-en/search?q=shoes"
+  [
+   890,
+   1400
+  ],
+  [
+   890,
+   1500
+  ],
+  [
+   1000,
+   1650
+  ],
+  [
+   1500,
+   1500
+  ],
+  [
+   1100,
+   2500
+  ],
+  [
+   2100,
+   10500
+  ],
+  [
+   770,
+   1150
+  ]
+ ],
+ "shoelink": {
+  "t": "shoes",
+  "u": "https://www.fendi.com/us-en/search?q=shoes"
+ },
+ "notes": {
+  "ital": "Roman before it is fashion — furriers on Via del Plebiscito from 1925, five sisters, and a double-F that Lagerfeld drew in a few seconds. The city is legible in the maximalism.",
+  "status": "The FF worn as ornament rather than concealed. Roman maximalism, and the status is in the visibility.",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 3; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "Fendi's men's ready-to-wear PDPs state 'Made in Italy' and composition, and name no maker or mill. The US content sitemap lists client-service, authentication and campaign pages but nothing on factories or how things are made. On what could be shown at a primary source this is country-of-make only = 2. [held at the current score: the audit’s evidence was thin; needs a second read]"
+ },
+ "doors": {
+  "c": "full",
+  "n": 20,
+  "cities": [
+   [
+    "Atlanta",
+    "GA",
+    1
+   ],
+   [
+    "Beverly Hills",
+    "CA",
+    1
+   ],
+   [
+    "Boston",
+    "MA",
+    1
+   ],
+   [
+    "Costa Mesa",
+    "CA",
+    1
+   ],
+   [
+    "Dallas",
+    "TX",
+    1
+   ],
+   [
+    "Honolulu",
+    "HI",
+    1
+   ],
+   [
+    "Houston",
+    "TX",
+    1
+   ],
+   [
+    "King Of Prussia",
+    "PA",
+    1
+   ],
+   [
+    "Las Vegas",
+    "NV",
+    3
+   ],
+   [
+    "Manhasset",
+    "NY",
+    1
+   ],
+   [
+    "Miami",
+    "FL",
+    3
+   ],
+   [
+    "New York",
+    "NY",
+    3
+   ],
+   [
+    "Santa Clara",
+    "CA",
+    1
+   ],
+   [
+    "Short Hills",
+    "NJ",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 3,
+  "con": 9
+ },
+ "cities": "20 stores, including Las Vegas, New York, Atlanta · department stores, and its own site",
+ "region": {
+  "o": [
+   1260,
+   1268,
+   1271,
+   1273,
+   1274,
+   1275,
+   1279
+  ],
+  "s": []
+ },
+ "addmen": true,
+ "addcloth": true,
+ "site": {
+  "domain": "fendi.com",
+  "platform": "custom",
+  "feed": "sitemap_products",
+  "feed_count": 2924,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "licensed",
+  "marks": [
+   "LYCRA(R)",
+   "Bananatex(R)",
+   "Berto Industria Tessile abaca denim"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 211,
+  "w": 211,
+  "n": 86,
+  "s": 12,
+  "c": 2,
+  "x": 10,
+  "xh": 2,
+  "sp": "one",
+  "sc": [
+   "swim"
+  ],
+  "nc": [
+   "outerwear",
+   "pants and shorts",
+   "tees and polos"
+  ],
+  "st": "complete"
+ },
+ "garment_links": {
+  "T-shirt": "https://www.fendi.com/us-en/man/ready-to-wear/t-shirts-polos",
+  "Polo": "https://www.fendi.com/us-en/man/ready-to-wear/t-shirts-polos",
+  "Dress shirt": "https://www.fendi.com/us-en/man/ready-to-wear/shirts",
+  "Jeans": "https://www.fendi.com/us-en/man/ready-to-wear/denim",
+  "Dress pants": "https://www.fendi.com/us-en/man/ready-to-wear/pants-shorts",
+  "Sweater": "https://www.fendi.com/us-en/man/ready-to-wear/knitwear",
+  "Outerwear": "https://www.fendi.com/us-en/man/ready-to-wear/outerwear",
+  "Shoes": "https://www.fendi.com/us-en/man/shoes"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "T-Shirt - Black (cotton jersey, FY1370)",
+   "lu": "https://www.fendi.com/us-en/man/ready-to-wear/t-shirt-black-cotton-t-shirt-fy1370b19qf043y",
+   "hp": "T-Shirt - White (skater-style cotton T-shirt with FF zip pocket, FY1257)",
+   "hu": "https://www.fendi.com/us-en/man/ready-to-wear/t-shirt-white-cotton-t-shirt-fy1257apm4f0qa0",
+   "b": "range"
   },
-  "notes": {
-    "ital": "Roman before it is fashion — furriers on Via del Plebiscito from 1925, five sisters, and a double-F that Lagerfeld drew in a few seconds. The city is legible in the maximalism.",
-    "status": "The FF worn as ornament rather than concealed. Roman maximalism, and the status is in the visibility.",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 3; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Fendi's men's ready-to-wear PDPs state 'Made in Italy' and composition, and name no maker or mill. The US content sitemap lists client-service, authentication and campaign pages but nothing on factories or how things are made. On what could be shown at a primary source this is country-of-make only = 2. [held at the current score: the audit’s evidence was thin; needs a second read]"
+  "Polo": {
+   "lp": "Polo shirt - White (cotton pique, FY1309)",
+   "lu": "https://www.fendi.com/us-en/man/ready-to-wear/polo-shirt-white-cotton-polo-shirt-fy1309ay0if0qa0",
+   "hp": "Polo shirt - White (knit wool polo, FZC189)",
+   "hu": "https://www.fendi.com/us-en/man/ready-to-wear/polo-shirt-white-wool-polo-shirt-fzc189b1q2f0qm0",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 20,
-    "cities": [
-      ["Atlanta", "GA", 1],
-      ["Aventura", "FL", 1],
-      ["Bal Harbour", "FL", 1],
-      ["Beverly Hills", "CA", 1],
-      ["Boston", "MA", 1],
-      ["Costa Mesa", "CA", 1],
-      ["Dallas", "TX", 1],
-      ["Honolulu", "HI", 1],
-      ["Houston", "TX", 1],
-      ["King of Prussia", "PA", 1],
-      ["Las Vegas", "NV", 3],
-      ["Manhasset", "NY", 1],
-      ["Miami", "FL", 1],
-      ["New York", "NY", 3],
-      ["Santa Clara", "CA", 1],
-      ["Short Hills", "NJ", 1]
-    ],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Dress shirt": {
+   "lp": "Shirt - White (regular-fit cotton, Italian collar, FS0585)",
+   "lu": "https://www.fendi.com/us-en/man/ready-to-wear/shirt-white-cotton-shirt-fs0585avdlf0qa0",
+   "hp": "Shirt - White (slim-fit cotton poplin, pleated plastron, mandarin collar, French cuffs, FS1377)",
+   "hu": "https://www.fendi.com/us-en/man/new-in/shirt-white-poplin-shirt-fs1377amvlf0qa0",
+   "b": "range"
   },
-  "cities": "20 stores, including Las Vegas, New York, Atlanta · department stores, and its own site",
-  "region": {
-    "o": [956, 957, 961, 962, 963, 964, 965],
-    "s": []
+  "Jeans": {
+   "lp": "Long Jeans - Blue (straight five-pocket, dark washed denim, FLP302)",
+   "lu": "https://www.fendi.com/us-en/man/ready-to-wear/long-jeans-dark-blue-jeans-flp302b15cf0qa2",
+   "hp": "Long Jeans - Blue (Bananatex denim 5-pocket, FLP377)",
+   "hu": "https://www.fendi.com/us-en/man/ready-to-wear/long-jeans-washed-blue-jeans-flp377b1pdf19s8",
+   "b": "range"
   },
-  "addmen": true,
-  "addcloth": true,
-  "site": {
-    "domain": "fendi.com",
-    "platform": "custom",
-    "feed": "sitemap_products",
-    "feed_count": 2924,
-    "status": "live_store",
-    "checked": "2026-09-13"
+  "Dress pants": {
+   "lp": "Pants - Black (tailored wool batavia, FB1140)",
+   "lu": "https://www.fendi.com/us-en/man/ready-to-wear/pants-black-wool-pants-fb1140b1h7f0qa1",
+   "hp": "Pants - Black (tailored kid mohair 60% / wool 40%, FB1140)",
+   "hu": "https://www.fendi.com/us-en/man/ready-to-wear/pants-black-kid-mohair-pants-fb1140b1g1f0qa1",
+   "b": "pair"
   },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "licensed",
-    "marks": ["LYCRA(R)", "Bananatex(R)", "Berto Industria Tessile abaca denim"],
-    "source": "census",
-    "checked": "2026-09-12"
+  "Sweater": {
+   "lp": "Sweater - White (short-sleeve crew-neck FF cotton, FZX051; black colourway same price)",
+   "lu": "https://www.fendi.com/us-en/man/ready-to-wear/sweater-white-ff-cotton-pullover-fzx051auw0f0qa0",
+   "hp": "Sweater - Black (pure cashmere long-sleeve crewneck, FZX221)",
+   "hu": "https://www.fendi.com/us-en/man/new-in/sweater-black-cashmere-sweater-fzx221b1ibf0qa1",
+   "b": "pair"
   },
-  "fibre": {
-    "t": 211,
-    "w": 211,
-    "n": 86,
-    "s": 12,
-    "c": 2,
-    "x": 10,
-    "xh": 2,
-    "sp": "one",
-    "sc": ["swim"],
-    "nc": ["outerwear", "pants and shorts", "tees and polos"],
-    "st": "complete"
+  "Outerwear": {
+   "lp": "Blouson - Light blue (cotton chambray zip blouson, FW1442)",
+   "lu": "https://www.fendi.com/us-en/man/ready-to-wear/blouson-light-blue-chambray-blouson-fw1442ay0cf0ex7",
+   "hp": "Blouson - brown and yellow nappa leather biker jacket (FPJ164)",
+   "hu": "https://www.fendi.com/us-en/man/ready-to-wear/blouson-brown-and-yellow-nappa-leather-jacket-fpj164b1oxf1xr0",
+   "b": "pair"
   },
-  "garment_links": {
-    "T-shirt": "https://www.fendi.com/us-en/man/ready-to-wear/t-shirts-polos",
-    "Polo": "https://www.fendi.com/us-en/man/ready-to-wear/t-shirts-polos",
-    "Dress shirt": "https://www.fendi.com/us-en/man/ready-to-wear/shirts",
-    "Jeans": "https://www.fendi.com/us-en/man/ready-to-wear/denim",
-    "Dress pants": "https://www.fendi.com/us-en/man/ready-to-wear/pants-shorts",
-    "Sweater": "https://www.fendi.com/us-en/man/ready-to-wear/knitwear",
-    "Outerwear": "https://www.fendi.com/us-en/man/ready-to-wear/outerwear",
-    "Shoes": "https://www.fendi.com/us-en/man/shoes"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "T-Shirt - Black (cotton jersey, FY1370)",
-      "lu": "https://www.fendi.com/us-en/man/ready-to-wear/t-shirt-black-cotton-t-shirt-fy1370b19qf043y",
-      "hp": "T-Shirt - White (skater-style cotton T-shirt with FF zip pocket, FY1257)",
-      "hu": "https://www.fendi.com/us-en/man/ready-to-wear/t-shirt-white-cotton-t-shirt-fy1257apm4f0qa0",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Polo shirt - White (cotton pique, FY1309)",
-      "lu": "https://www.fendi.com/us-en/man/ready-to-wear/polo-shirt-white-cotton-polo-shirt-fy1309ay0if0qa0",
-      "hp": "Polo shirt - White (knit wool polo, FZC189)",
-      "hu": "https://www.fendi.com/us-en/man/ready-to-wear/polo-shirt-white-wool-polo-shirt-fzc189b1q2f0qm0",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Shirt - White (regular-fit cotton, Italian collar, FS0585)",
-      "lu": "https://www.fendi.com/us-en/man/ready-to-wear/shirt-white-cotton-shirt-fs0585avdlf0qa0",
-      "hp": "Shirt - White (slim-fit cotton poplin, pleated plastron, mandarin collar, French cuffs, FS1377)",
-      "hu": "https://www.fendi.com/us-en/man/new-in/shirt-white-poplin-shirt-fs1377amvlf0qa0",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Long Jeans - Blue (straight five-pocket, dark washed denim, FLP302)",
-      "lu": "https://www.fendi.com/us-en/man/ready-to-wear/long-jeans-dark-blue-jeans-flp302b15cf0qa2",
-      "hp": "Long Jeans - Blue (Bananatex denim 5-pocket, FLP377)",
-      "hu": "https://www.fendi.com/us-en/man/ready-to-wear/long-jeans-washed-blue-jeans-flp377b1pdf19s8",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Pants - Black (tailored wool batavia, FB1140)",
-      "lu": "https://www.fendi.com/us-en/man/ready-to-wear/pants-black-wool-pants-fb1140b1h7f0qa1",
-      "hp": "Pants - Black (tailored kid mohair 60% / wool 40%, FB1140)",
-      "hu": "https://www.fendi.com/us-en/man/ready-to-wear/pants-black-kid-mohair-pants-fb1140b1g1f0qa1",
-      "b": "pair"
-    },
-    "Sweater": {
-      "lp": "Sweater - White (short-sleeve crew-neck FF cotton, FZX051; black colourway same price)",
-      "lu": "https://www.fendi.com/us-en/man/ready-to-wear/sweater-white-ff-cotton-pullover-fzx051auw0f0qa0",
-      "hp": "Sweater - Black (pure cashmere long-sleeve crewneck, FZX221)",
-      "hu": "https://www.fendi.com/us-en/man/new-in/sweater-black-cashmere-sweater-fzx221b1ibf0qa1",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "Blouson - Light blue (cotton chambray zip blouson, FW1442)",
-      "lu": "https://www.fendi.com/us-en/man/ready-to-wear/blouson-light-blue-chambray-blouson-fw1442ay0cf0ex7",
-      "hp": "Blouson - brown and yellow nappa leather biker jacket (FPJ164)",
-      "hu": "https://www.fendi.com/us-en/man/ready-to-wear/blouson-brown-and-yellow-nappa-leather-jacket-fpj164b1oxf1xr0",
-      "b": "pair"
-    },
-    "Shoes": {
-      "lp": "FF Squared Drivers - black leather",
-      "lu": "https://www.fendi.com/us-en/man/shoes/ff-squared-drivers-black-leather-drivers-7d1295a9s8f0abb",
-      "hp": "FENDI 1996 Loafers - black leather",
-      "hu": "https://www.fendi.com/us-en/man/shoes/fendi-1996-loafers-black-leather-loafers-7d197269ff0qa1",
-      "b": "pair"
-    }
-  },
-  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.fendi.com/us-en/man/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=1189",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "craft_evidence": {
-    "owned": "unclear",
-    "owned_d": "No owned factory or workshop seen at a primary source in this run. fendi.com content sitemap lists no factory/craftsmanship pages; men's RTW listing has no craftsmanship links; guessed fendi.com and lvmh.com factory/maison URLs returned 404. Context only (Wikipedia, does not score): 'around 400 in specialist leather and fur ateliers in Italy' as of 2018, no place named. Fendi is an LVMH maison; any owned making would be Fendi's within LVMH, likely leather goods/fur rather than RTW, but this is unverified.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "most",
-    "countries": "Italy 3/4 (sample of 4 men's RTW PDPs: sweater, bomber, t-shirt = Made in Italy; denim shirt page showed no origin or composition, possibly in a collapsed tab the fetch couldn't see). Shoes and bags not sampled.",
-    "heritage": "vague",
-    "repair": "no",
-    "process": "no",
-    "urls": [
-      "https://www.fendi.com/us-en/man/ready-to-wear/sweater-black-wool-pullover-fzx203b1q2f0qa1",
-      "https://www.fendi.com/us-en/man/ready-to-wear/blouson-black-nylon-bomber-jacket-fw1492ame6f0qa1"
-    ],
-    "conf": "low",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "FF Squared Drivers - black leather",
+   "lu": "https://www.fendi.com/us-en/man/shoes/ff-squared-drivers-black-leather-drivers-7d1295a9s8f0abb",
+   "hp": "FENDI 1996 Loafers - black leather",
+   "hu": "https://www.fendi.com/us-en/man/shoes/fendi-1996-loafers-black-leather-loafers-7d197269ff0qa1",
+   "b": "pair"
   }
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Jeans"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.fendi.com/us-en/man/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=1189",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "craft_evidence": {
+  "owned": "unclear",
+  "owned_d": "No owned factory or workshop seen at a primary source in this run. fendi.com content sitemap lists no factory/craftsmanship pages; men's RTW listing has no craftsmanship links; guessed fendi.com and lvmh.com factory/maison URLs returned 404. Context only (Wikipedia, does not score): 'around 400 in specialist leather and fur ateliers in Italy' as of 2018, no place named. Fendi is an LVMH maison; any owned making would be Fendi's within LVMH, likely leather goods/fur rather than RTW, but this is unverified.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "most",
+  "countries": "Italy 3/4 (sample of 4 men's RTW PDPs: sweater, bomber, t-shirt = Made in Italy; denim shirt page showed no origin or composition, possibly in a collapsed tab the fetch couldn't see). Shoes and bags not sampled.",
+  "heritage": "vague",
+  "repair": "no",
+  "process": "no",
+  "urls": [
+   "https://www.fendi.com/us-en/man/ready-to-wear/sweater-black-wool-pullover-fzx203b1q2f0qa1",
+   "https://www.fendi.com/us-en/man/ready-to-wear/blouson-black-nylon-bomber-jacket-fw1492ame6f0qa1"
+  ],
+  "conf": "low",
+  "read": "2026-10-03"
+ }
 }

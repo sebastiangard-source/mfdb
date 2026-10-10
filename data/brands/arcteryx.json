@@ -1,227 +1,405 @@
 {
-  "name": "Arc'teryx",
-  "band": "accessible",
-  "seat": 78,
-  "dagger": 1,
-  "focus": {
-    "tech": 5,
-    "comfort": 2,
-    "craft": 4,
-    "style": 3
+ "name": "Arc'teryx",
+ "band": "accessible",
+ "seat": 78,
+ "dagger": 1,
+ "focus": {
+  "tech": 5,
+  "comfort": 2,
+  "craft": 4,
+  "style": 3
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 1,
+  "wool": 1,
+  "synth": 5
+ },
+ "dials": {
+  "dur": 5,
+  "forg": 2,
+  "fuss": 1,
+  "golffice": 2,
+  "shoes": 3,
+  "status": 3,
+  "finbro": 2,
+  "street": 3,
+  "ski": 4,
+  "whitet": 2,
+  "logo": 2,
+  "western": 1,
+  "rock": 1,
+  "workwear": 2,
+  "outdoor": 5,
+  "surf": 1
+ },
+ "why": "Technical outdoor clothing — shells, insulation, packs — with laminated construction; the Veilance line applies it to plain city clothing.",
+ "origin": "Founded in North Vancouver in 1989 as a climbing-harness maker; owned by Amer Sports since 2019.",
+ "say": "ark-TER-icks",
+ "chan": [
+  "O",
+  "D",
+  "I"
+ ],
+ "conf": "H",
+ "forgc": [
+  2,
+  4,
+  1
+ ],
+ "shop": "https://arcteryx.com/us/en/search?q=",
+ "onething": {
+  "p": "Beta jacket",
+  "u": "https://arcteryx.com/us/en/search?q=Beta%20jacket",
+  "n": "restored from the earlier draft; link is site search — verify"
+ },
+ "prices": [
+  [
+   60,
+   90
+  ],
+  null,
+  [
+   120,
+   140
+  ],
+  null,
+  null,
+  null,
+  [
+   180,
+   1200
+  ],
+  [
+   140,
+   280
+  ]
+ ],
+ "shoelink": {
+  "t": "shoes",
+  "u": "https://arcteryx.com/us/en/search?q=shoes"
+ },
+ "notes": {
+  "tech": "the construction is the product — laminated seams, WaterTight zips, an owned Canadian factory",
+  "synth": "GORE-TEX handled better than anyone — the technical ceiling of this map",
+  "craft": "Arc'teryx owns ARC'One in New Westminster, BC (480 workers), but says on its own site that ARC'One makes only about 5% of its product; the rest is made by partners in Asia and Central America. Its product pages name the actual factory and the fabric and dye countries (e.g. Beta Jacket: Pt. Pancaprima Ekabrothers, Indonesia), and it publishes a full partner list. Real owned making covering a small slice, plus the best factory disclosure in the batch: a 4.",
+  "street": "gorpcore's crown jewel — the shell in every city fit",
+  "ski": "A serious ski program inside a broader alpine technical house. The mountain is central but not exclusive, which is the difference between a four and a five here.",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 3; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "Alpine equipment first — harnesses, shells — worn on city streets because it works.",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "dur": "Laminated, taped construction built for alpine use; the company repairs what it sells."
+ },
+ "doors": {
+  "c": "full",
+  "n": 38,
+  "cities": [
+   [
+    "Aspen",
+    "CO",
+    1
+   ],
+   [
+    "Bethesda",
+    "MD",
+    1
+   ],
+   [
+    "Bloomington",
+    "MN",
+    1
+   ],
+   [
+    "Boston",
+    "MA",
+    1
+   ],
+   [
+    "Boulder",
+    "CO",
+    1
+   ],
+   [
+    "Burlingame",
+    "CA",
+    1
+   ],
+   [
+    "Chestnut Hill",
+    "MA",
+    1
+   ],
+   [
+    "Chicago",
+    "IL",
+    2
+   ],
+   [
+    "Denver",
+    "CO",
+    2
+   ],
+   [
+    "Edina",
+    "MN",
+    1
+   ],
+   [
+    "Los Angeles",
+    "CA",
+    2
+   ],
+   [
+    "Lynnfield",
+    "MA",
+    1
+   ],
+   [
+    "Manhasset",
+    "NY",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    5
+   ],
+   [
+    "Newport Beach",
+    "CA",
+    1
+   ],
+   [
+    "Oak Brook",
+    "IL",
+    1
+   ],
+   [
+    "Palo Alto",
+    "CA",
+    1
+   ],
+   [
+    "Paramus",
+    "NJ",
+    1
+   ],
+   [
+    "Park City",
+    "UT",
+    1
+   ],
+   [
+    "Pasadena",
+    "CA",
+    1
+   ],
+   [
+    "Portland",
+    "OR",
+    2
+   ],
+   [
+    "Salt Lake City",
+    "UT",
+    1
+   ],
+   [
+    "Santa Clara",
+    "CA",
+    1
+   ],
+   [
+    "Seattle",
+    "WA",
+    1
+   ],
+   [
+    "Short Hills",
+    "NJ",
+    1
+   ],
+   [
+    "Skokie",
+    "IL",
+    1
+   ],
+   [
+    "Tysons",
+    "VA",
+    1
+   ],
+   [
+    "Venice",
+    "CA",
+    1
+   ],
+   [
+    "Washington",
+    "DC",
+    2
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 10,
+  "con": 0
+ },
+ "cities": "38 stores across the US · department stores and independent menswear shops, and its own site",
+ "region": {
+  "o": [
+   387,
+   393,
+   394,
+   400,
+   401,
+   402,
+   403,
+   407,
+   408,
+   410,
+   415
+  ],
+  "s": [
+   4,
+   17,
+   75,
+   122,
+   131,
+   137,
+   139,
+   146
+  ]
+ },
+ "addmen": true,
+ "site": {
+  "domain": "arcteryx.com",
+  "platform": "custom",
+  "feed": "sitemap_products",
+  "feed_count": 474,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "both",
+  "marks": [
+   "Arato",
+   "Coreloft",
+   "Down Composite Mapping",
+   "Fortius",
+   "GORE-TEX (PRO, ePE)",
+   "Hadron",
+   "PrimaLoft",
+   "Tyono"
+  ],
+  "source": "origin_8",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 204,
+  "w": 188,
+  "n": 16,
+  "s": 76,
+  "c": 0,
+  "x": 40,
+  "xh": 34,
+  "sp": "one",
+  "sc": [
+   "Shell Jackets",
+   "Insulated Jackets",
+   "Packs",
+   "Climbing Gear",
+   "Fleece",
+   "Accessories",
+   "Pants",
+   "Shorts",
+   "Base Layer"
+  ],
+  "nc": [
+   "Shirts and Tops"
+  ],
+  "st": "complete"
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Dress shirt",
+  "Outerwear",
+  "Shoes"
+ ],
+ "garment_links": {
+  "T-shirt": "https://arcteryx.com/us/en/c/mens/shirts-and-tops",
+  "Polo": "https://arcteryx.com/us/en/search?q=polo",
+  "Dress shirt": "https://arcteryx.com/us/en/c/mens/veilance/tops/wid-nl524x6l",
+  "Dress pants": "https://arcteryx.com/us/en/c/mens/veilance/bottoms/wid-nl524x6l",
+  "Outerwear": "https://arcteryx.com/us/en/c/mens/shell-jackets"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Kragg SL Cotton Shirt SS Men's",
+   "lu": "https://arcteryx.com/us/en/shop/mens/kragg-sl-cotton-shirt-ss-9533",
+   "hp": "Ionia Merino Wool Shirt SS Men's",
+   "hu": "https://arcteryx.com/us/en/shop/mens/ionia-merino-wool-shirt-ss",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 1,
-    "linen": 1,
-    "cotton": 1,
-    "wool": 1,
-    "synth": 5
+  "Dress shirt": {
+   "lp": "Skyline Shirt SS Men's",
+   "lu": "https://arcteryx.com/us/en/shop/mens/skyline-shirt-ss-0621",
+   "hp": "Skyline Shirt LS Men's",
+   "hu": "https://arcteryx.com/us/en/shop/mens/skyline-shirt-ls-0620",
+   "b": "range"
   },
-  "dials": {
-    "dur": 5,
-    "forg": 2,
-    "fuss": 1,
-    "golffice": 2,
-    "shoes": 3,
-    "status": 3,
-    "finbro": 2,
-    "street": 3,
-    "ski": 4,
-    "whitet": 2,
-    "logo": 2,
-    "western": 1,
-    "rock": 1,
-    "workwear": 2,
-    "outdoor": 5,
-    "surf": 1
+  "Outerwear": {
+   "lp": "Squamish Jacket Men's",
+   "lu": "https://arcteryx.com/us/en/shop/mens/squamish-jacket-0284",
+   "hp": "Sperro SV Jacket - 0 Men's",
+   "hu": "https://arcteryx.com/us/en/shop/mens/sperro-sv-jacket-0-0667",
+   "b": "range"
   },
-  "why": "Technical outdoor clothing — shells, insulation, packs — with laminated construction; the Veilance line applies it to plain city clothing.",
-  "origin": "Founded in North Vancouver in 1989 as a climbing-harness maker; owned by Amer Sports since 2019.",
-  "say": "ark-TER-icks",
-  "chan": ["O", "D", "I"],
-  "conf": "H",
-  "forgc": [2, 4, 1],
-  "shop": "https://arcteryx.com/us/en/search?q=",
-  "onething": {
-    "p": "Beta jacket",
-    "u": "https://arcteryx.com/us/en/search?q=Beta%20jacket",
-    "n": "restored from the earlier draft; link is site search — verify"
-  },
-  "prices": [[60, 90], null, [120, 140], null, null, null, [180, 1200], [140, 280]],
-  "shoelink": {
-    "t": "shoes",
-    "u": "https://arcteryx.com/us/en/search?q=shoes"
-  },
-  "notes": {
-    "tech": "the construction is the product — laminated seams, WaterTight zips, an owned Canadian factory",
-    "synth": "GORE-TEX handled better than anyone — the technical ceiling of this map",
-    "craft": "Arc'teryx owns ARC'One in New Westminster, BC (480 workers), but says on its own site that ARC'One makes only about 5% of its product; the rest is made by partners in Asia and Central America. Its product pages name the actual factory and the fabric and dye countries (e.g. Beta Jacket: Pt. Pancaprima Ekabrothers, Indonesia), and it publishes a full partner list. Real owned making covering a small slice, plus the best factory disclosure in the batch: a 4.",
-    "street": "gorpcore's crown jewel — the shell in every city fit",
-    "ski": "A serious ski program inside a broader alpine technical house. The mountain is central but not exclusive, which is the difference between a four and a five here.",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 3; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "Alpine equipment first — harnesses, shells — worn on city streets because it works.",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "dur": "Laminated, taped construction built for alpine use; the company repairs what it sells."
-  },
-  "doors": {
-    "c": "full",
-    "n": 35,
-    "cities": [
-      ["Aspen", "CO", 1],
-      ["Bethesda", "MD", 1],
-      ["Bloomington", "MN", 1],
-      ["Boston", "MA", 1],
-      ["Boulder", "CO", 1],
-      ["Burlingame", "CA", 1],
-      ["Chestnut Hill", "MA", 1],
-      ["Chicago", "IL", 2],
-      ["Denver", "CO", 2],
-      ["Los Angeles", "CA", 2],
-      ["Lynnfield", "MA", 1],
-      ["Manhasset", "NY", 1],
-      ["New York", "NY", 5],
-      ["Newport Beach", "CA", 1],
-      ["Oak Brook", "IL", 1],
-      ["Palo Alto", "CA", 1],
-      ["Paramus", "NJ", 1],
-      ["Park City", "UT", 1],
-      ["Pasadena", "CA", 1],
-      ["Portland", "OR", 2],
-      ["Salt Lake City", "UT", 1],
-      ["Seattle", "WA", 1],
-      ["Short Hills", "NJ", 1],
-      ["Skokie", "IL", 1],
-      ["Tysons", "VA", 1],
-      ["Washington", "DC", 2]
-    ],
-    "basis": "master 2026-08-29, pre-recapture"
-  },
-  "cities": "35 stores across the US · department stores and independent menswear shops, and its own site",
-  "region": {
-    "o": [236, 237, 238, 241, 242, 243, 244, 245, 246, 247, 248],
-    "s": [4, 17, 75, 122, 131, 137, 139, 146]
-  },
-  "addmen": true,
-  "site": {
-    "domain": "arcteryx.com",
-    "platform": "custom",
-    "feed": "sitemap_products",
-    "feed_count": 474,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "both",
-    "marks": [
-      "Arato",
-      "Coreloft",
-      "Down Composite Mapping",
-      "Fortius",
-      "GORE-TEX (PRO, ePE)",
-      "Hadron",
-      "PrimaLoft",
-      "Tyono"
-    ],
-    "source": "origin_8",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 204,
-    "w": 188,
-    "n": 16,
-    "s": 76,
-    "c": 0,
-    "x": 40,
-    "xh": 34,
-    "sp": "one",
-    "sc": [
-      "Shell Jackets",
-      "Insulated Jackets",
-      "Packs",
-      "Climbing Gear",
-      "Fleece",
-      "Accessories",
-      "Pants",
-      "Shorts",
-      "Base Layer"
-    ],
-    "nc": ["Shirts and Tops"],
-    "st": "complete"
-  },
-  "price_range_only": ["T-shirt", "Dress shirt", "Outerwear", "Shoes"],
-  "garment_links": {
-    "T-shirt": "https://arcteryx.com/us/en/c/mens/shirts-and-tops",
-    "Polo": "https://arcteryx.com/us/en/search?q=polo",
-    "Dress shirt": "https://arcteryx.com/us/en/c/mens/veilance/tops/wid-nl524x6l",
-    "Dress pants": "https://arcteryx.com/us/en/c/mens/veilance/bottoms/wid-nl524x6l",
-    "Outerwear": "https://arcteryx.com/us/en/c/mens/shell-jackets"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Kragg SL Cotton Shirt SS Men's",
-      "lu": "https://arcteryx.com/us/en/shop/mens/kragg-sl-cotton-shirt-ss-9533",
-      "hp": "Ionia Merino Wool Shirt SS Men's",
-      "hu": "https://arcteryx.com/us/en/shop/mens/ionia-merino-wool-shirt-ss",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Skyline Shirt SS Men's",
-      "lu": "https://arcteryx.com/us/en/shop/mens/skyline-shirt-ss-0621",
-      "hp": "Skyline Shirt LS Men's",
-      "hu": "https://arcteryx.com/us/en/shop/mens/skyline-shirt-ls-0620",
-      "b": "range"
-    },
-    "Outerwear": {
-      "lp": "Squamish Jacket Men's",
-      "lu": "https://arcteryx.com/us/en/shop/mens/squamish-jacket-0284",
-      "hp": "Sperro SV Jacket - 0 Men's",
-      "hu": "https://arcteryx.com/us/en/shop/mens/sperro-sv-jacket-0-0667",
-      "b": "range"
-    },
-    "Shoes": {
-      "lp": "Kragg Shoe Men's",
-      "lu": "https://arcteryx.com/us/en/shop/mens/kragg-shoe-0078",
-      "hp": "Konseal Trek Boot Men's",
-      "hu": "https://arcteryx.com/us/en/shop/mens/konseal-trek-boot-0504",
-      "b": "range"
-    }
-  },
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://arcteryx.com/us/en/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "- (Veilance excluded: own map key)"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=319730",
-      "m": "brand filter",
-      "n": "Veilance is a separate Vinted brand (3388210)"
-    }
-  },
-  "craft_evidence": {
-    "owned": "yes",
-    "owned_d": "ARC'One, 425 Boyne Street, New Westminster, BC — Arc'teryx's own facility page (/explore/supply-chain-partners/arc-one): 480 workers, Arc'teryx Equipment 'a division of Amer Sports Canada', makes items across the outdoor collection, Veilance and LEAF (law enforcement/armed forces); 'what we learn and perfect in our own facility we then take to our facilities overseas'. Share: the brand's supply-chain page says '5% of our product in Canada at our own manufacturing facility, ARC'One'; its manufacturing-partners advice page says 'roughly 5% of our total production' (technical pieces such as Alpha SV, prototypes, limited runs). Owned by the brand's own Canadian entity (Amer Sports Canada); Amer Sports 2024 annual report mentions 'owned manufacturing sites' group-wide but gives no Arc'teryx breakdown.",
-    "makers": "yes",
-    "mills": "some",
-    "madein": "every product",
-    "countries": "Vietnam 3/8 (Gamma Pant, Covert Cardigan, Kopec 2 shoe), Bangladesh 2/8 (Atom, Thorium), Indonesia 1/8 (Beta), China 1/8 (Alpha SV), El Salvador 1/8 (Kyanite); Canada 0/8. Sample of 8 PDPs on arcteryx.com/us: shells, insulation, fleece, pants, footwear. Origin sits in a spec section; the fetcher saw it for versioned URLs (e.g. -0511) but not for unversioned URLs.",
-    "heritage": "dated and placed",
-    "repair": "NC",
-    "process": "some",
-    "urls": [
-      "https://arcteryx.com/us/en/explore/supply-chain-partners/arc-one",
-      "https://arcteryx.com/us/en/product-advice/arcteryx-manufacturing-partners"
-    ],
-    "conf": "high",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Kragg Shoe Men's",
+   "lu": "https://arcteryx.com/us/en/shop/mens/kragg-shoe-0078",
+   "hp": "Konseal Trek Boot Men's",
+   "hu": "https://arcteryx.com/us/en/shop/mens/konseal-trek-boot-0504",
+   "b": "range"
   }
+ },
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://arcteryx.com/us/en/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "- (Veilance excluded: own map key)"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=319730",
+   "m": "brand filter",
+   "n": "Veilance is a separate Vinted brand (3388210)"
+  }
+ },
+ "craft_evidence": {
+  "owned": "yes",
+  "owned_d": "ARC'One, 425 Boyne Street, New Westminster, BC — Arc'teryx's own facility page (/explore/supply-chain-partners/arc-one): 480 workers, Arc'teryx Equipment 'a division of Amer Sports Canada', makes items across the outdoor collection, Veilance and LEAF (law enforcement/armed forces); 'what we learn and perfect in our own facility we then take to our facilities overseas'. Share: the brand's supply-chain page says '5% of our product in Canada at our own manufacturing facility, ARC'One'; its manufacturing-partners advice page says 'roughly 5% of our total production' (technical pieces such as Alpha SV, prototypes, limited runs). Owned by the brand's own Canadian entity (Amer Sports Canada); Amer Sports 2024 annual report mentions 'owned manufacturing sites' group-wide but gives no Arc'teryx breakdown.",
+  "makers": "yes",
+  "mills": "some",
+  "madein": "every product",
+  "countries": "Vietnam 3/8 (Gamma Pant, Covert Cardigan, Kopec 2 shoe), Bangladesh 2/8 (Atom, Thorium), Indonesia 1/8 (Beta), China 1/8 (Alpha SV), El Salvador 1/8 (Kyanite); Canada 0/8. Sample of 8 PDPs on arcteryx.com/us: shells, insulation, fleece, pants, footwear. Origin sits in a spec section; the fetcher saw it for versioned URLs (e.g. -0511) but not for unversioned URLs.",
+  "heritage": "dated and placed",
+  "repair": "NC",
+  "process": "some",
+  "urls": [
+   "https://arcteryx.com/us/en/explore/supply-chain-partners/arc-one",
+   "https://arcteryx.com/us/en/product-advice/arcteryx-manufacturing-partners"
+  ],
+  "conf": "high",
+  "read": "2026-10-03"
+ }
 }

@@ -1,212 +1,270 @@
 {
-  "name": "Palm Angels",
-  "band": "trueLux",
-  "seat": 172,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 2,
-    "craft": 1,
-    "style": 4
-  },
-  "fabric": {
-    "denim": 2,
-    "cashmere": 1,
-    "linen": 1,
-    "cotton": 2,
-    "wool": 1,
-    "synth": 2
-  },
-  "dials": {
-    "dur": 2,
-    "forg": 3,
-    "fuss": 0,
-    "bruv": -1,
-    "shoes": 3,
-    "status": 3,
-    "murica": 2,
-    "ital": 3,
-    "street": 4,
-    "weird": 2,
-    "whitet": 2,
-    "logo": 5,
-    "western": 1,
-    "rock": 3,
-    "workwear": 1,
-    "outdoor": 2,
-    "surf": 3
-  },
-  "why": "Track suits and skate-influenced clothing made in Italy, sold at luxury prices.",
-  "origin": "Founded in 2015 by Francesco Ragazzi, out of his 2014 photo book of Venice Beach skaters.",
-  "chan": ["O", "D", "X"],
-  "conf": "M",
-  "forgc": [5, 3, 1],
-  "shop": "https://www.palmangels.com/en-us/search?q=",
-  "onething": {
-    "p": "Classic track jacket",
-    "u": "https://www.palmangels.com/en-us/man/clothing/tracksuits/",
-    "n": "tracksuits category page, verified"
-  },
-  "prices": [
-    [195, 425, "USD_landed"],
-    [260, 600, "USD_landed"],
-    [325, 595, "USD_landed"],
-    [490, 610, "USD_landed"],
-    [450, 450, "USD_landed"],
-    [405, 610, "USD_landed"],
-    [610, 1095, "USD_landed"],
-    [225, 610, "USD_landed"]
+ "name": "Palm Angels",
+ "band": "trueLux",
+ "seat": 172,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 2,
+  "craft": 1,
+  "style": 4
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 2,
+  "wool": 1,
+  "synth": 2
+ },
+ "dials": {
+  "dur": 2,
+  "forg": 3,
+  "fuss": 0,
+  "bruv": -1,
+  "shoes": 3,
+  "status": 3,
+  "murica": 2,
+  "ital": 3,
+  "street": 4,
+  "weird": 2,
+  "whitet": 2,
+  "logo": 5,
+  "western": 1,
+  "rock": 3,
+  "workwear": 1,
+  "outdoor": 2,
+  "surf": 3
+ },
+ "why": "Track suits and skate-influenced clothing made in Italy, sold at luxury prices.",
+ "origin": "Founded in 2015 by Francesco Ragazzi, out of his 2014 photo book of Venice Beach skaters.",
+ "chan": [
+  "O",
+  "D",
+  "X"
+ ],
+ "conf": "M",
+ "forgc": [
+  5,
+  3,
+  1
+ ],
+ "shop": "https://www.palmangels.com/en-us/search?q=",
+ "onething": {
+  "p": "Classic track jacket",
+  "u": "https://www.palmangels.com/en-us/man/clothing/tracksuits/",
+  "n": "tracksuits category page, verified"
+ },
+ "prices": [
+  [
+   195,
+   425,
+   "USD_landed"
   ],
-  "shoelink": {
-    "t": "shoes",
-    "u": "https://www.palmangels.com/search?q=shoes"
+  [
+   260,
+   600,
+   "USD_landed"
+  ],
+  [
+   325,
+   595,
+   "USD_landed"
+  ],
+  [
+   490,
+   610,
+   "USD_landed"
+  ],
+  [
+   450,
+   450,
+   "USD_landed"
+  ],
+  [
+   405,
+   610,
+   "USD_landed"
+  ],
+  [
+   610,
+   1095,
+   "USD_landed"
+  ],
+  [
+   225,
+   610,
+   "USD_landed"
+  ]
+ ],
+ "shoelink": {
+  "t": "shoes",
+  "u": "https://www.palmangels.com/search?q=shoes"
+ },
+ "notes": {
+  "street": "skate culture as the founding photograph",
+  "ital": "the Diesel mirror inverted — an Italian selling the American street back to itself",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 2; retired 28 Sep 2026]",
+  "logo": "The wordmark across the chest and down the track-pant stripe on most pieces.",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "Palm Angels PDPs give composition and a product code but no country of make, maker or mill, and the details tab on the track jacket holds composition only. The site has no about or making page I could find. Nothing checkable about making, so the current 1 stands."
+ },
+ "doors": {
+  "c": "full",
+  "n": 0,
+  "cities": [],
+  "basis": "positive zero 2026-09-23"
+ },
+ "cities": "No store of its own in the US · department stores, and its own site",
+ "site": {
+  "domain": "www.palmangels.com",
+  "platform": "salesforce_commerce",
+  "feed": "sitemap_products",
+  "feed_count": 2605,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "no",
+  "origin": "none",
+  "marks": [],
+  "source": "screen_36",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 169,
+  "w": 159,
+  "n": 70,
+  "s": 24,
+  "c": 0,
+  "x": 12,
+  "xh": 9,
+  "sp": "one",
+  "sc": [
+   "Tracksuits",
+   "Coats and jackets",
+   "Swimwear",
+   "Denim"
+  ],
+  "nc": [
+   "T-shirts and polos",
+   "Sweatshirts and hoodies",
+   "Knitwear"
+  ],
+  "st": "complete"
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants",
+  "Sweater",
+  "Outerwear",
+  "Shoes"
+ ],
+ "garment_links": {
+  "T-shirt": "https://www.palmangels.com/en-us/man/clothing/t-shirts-and-polos/",
+  "Polo": "https://www.palmangels.com/en-us/man/clothing/t-shirts-and-polos/",
+  "Dress shirt": "https://www.palmangels.com/en-us/man/clothing/shirts/",
+  "Jeans": "https://www.palmangels.com/en-us/man/clothing/denim/",
+  "Dress pants": "https://www.palmangels.com/en-us/man/clothing/pants/",
+  "Sweater": "https://www.palmangels.com/en-us/man/clothing/knitwear/",
+  "Outerwear": "https://www.palmangels.com/en-us/man/clothing/coats-and-jackets/"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Vintage Box Logo Loose T-Shirt",
+   "lu": "https://www.palmangels.com/en-us/man/clothing/t-shirts-and-polos/vintage-box-logo-loose-t-shirt-PAMAA03F26JR041003.html",
+   "hp": "Big Neck Logo Loose T-Shirt (100% cotton)",
+   "hu": "https://www.palmangels.com/en-us/man/clothing/t-shirts-and-polos/big-neck-logo-loose-t-shirt-PMAA10DS26JER0020310.html",
+   "b": "range"
   },
-  "notes": {
-    "street": "skate culture as the founding photograph",
-    "ital": "the Diesel mirror inverted — an Italian selling the American street back to itself",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 2; retired 28 Sep 2026]",
-    "logo": "The wordmark across the chest and down the track-pant stripe on most pieces.",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Palm Angels PDPs give composition and a product code but no country of make, maker or mill, and the details tab on the track jacket holds composition only. The site has no about or making page I could find. Nothing checkable about making, so the current 1 stands."
+  "Polo": {
+   "lp": "Logo Spray Regular Polo Shirt",
+   "lu": "https://www.palmangels.com/en-us/man/clothing/t-shirts-and-polos/logo-spray-regular-polo-shirt-PAMGB02F26FB021009.html",
+   "hp": "Palm Type Loose Knit Polo (short-sleeve open knit, 67% cotton/21% polyamide/12% linen)",
+   "hu": "https://www.palmangels.com/en-us/man/clothing/knitwear/palm-type-loose-knit-polo-PAMHX01F26KN016063.html",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 0,
-    "cities": [],
-    "basis": "positive zero 2026-09-23"
+  "Dress shirt": {
+   "lp": "Neck Logo Shirt (65% cotton, 35% linen; long-sleeve button-front)",
+   "lu": "https://www.palmangels.com/en-us/man/clothing/shirts/neck-logo-shirt-PAMGE001FB0010310.html",
+   "hp": "Surfer Dream Check Loose Shirt (polyester-cotton check, knit collar)",
+   "hu": "https://www.palmangels.com/en-us/man/clothing/shirts/surfer-dream-check-loose-shirt-PAMGE05F26FB028410.html",
+   "b": "range"
   },
-  "cities": "No store of its own in the US · department stores, and its own site",
-  "site": {
-    "domain": "www.palmangels.com",
-    "platform": "salesforce_commerce",
-    "feed": "sitemap_products",
-    "feed_count": 2605,
-    "status": "live_store",
-    "checked": "2026-09-13"
+  "Jeans": {
+   "lp": "Splitted Curved Logo Loose Jeans (99% cotton, 1% elastane)",
+   "lu": "https://www.palmangels.com/en-us/man/clothing/denim/splitted-curved-logo-loose-jeans-PAMYA01F26DN034040.html",
+   "hp": "Curved Logo Denim Jeans (100% cotton, leather detail)",
+   "hu": "https://www.palmangels.com/en-us/man/clothing/denim/curved-logo-denim-jeans-PMYA012C99DEN0011001.html",
+   "b": "range"
   },
-  "tech_evidence": {
-    "names": "no",
-    "origin": "none",
-    "marks": [],
-    "source": "screen_36",
-    "checked": "2026-09-12"
+  "Dress pants": {
+   "lp": "Palm Tree Loose Trousers (68% cotton, 32% linen, wide leg)",
+   "lu": "https://www.palmangels.com/en-us/man/clothing/pants/palm-tree-loose-trousers-PAMCA03F26FB010372.html",
+   "hp": "Starleaf All-Over Loose Pants",
+   "hu": "https://www.palmangels.com/en-us/man/clothing/pants/starleaf-all-over-loose-pants-PAMCA03W26FB046010.html",
+   "b": "range"
   },
-  "fibre": {
-    "t": 169,
-    "w": 159,
-    "n": 70,
-    "s": 24,
-    "c": 0,
-    "x": 12,
-    "xh": 9,
-    "sp": "one",
-    "sc": ["Tracksuits", "Coats and jackets", "Swimwear", "Denim"],
-    "nc": ["T-shirts and polos", "Sweatshirts and hoodies", "Knitwear"],
-    "st": "complete"
+  "Sweater": {
+   "lp": "Curved Logo Knit Sweater (compare-at; on sale $203)",
+   "lu": "https://www.palmangels.com/en-us/man/clothing/knitwear/curved-logo-knit-sweater-PMHE08BS26KNI0011025.html",
+   "hp": "Big Neck Logo Sweater (80% cotton, 20% polyester; compare-at, on sale $305)",
+   "hu": "https://www.palmangels.com/en-us/man/clothing/knitwear/big-neck-logo-sweater-PMHE08CS26KNI0014614.html",
+   "b": "range"
   },
-  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants", "Sweater", "Outerwear", "Shoes"],
-  "garment_links": {
-    "T-shirt": "https://www.palmangels.com/en-us/man/clothing/t-shirts-and-polos/",
-    "Polo": "https://www.palmangels.com/en-us/man/clothing/t-shirts-and-polos/",
-    "Dress shirt": "https://www.palmangels.com/en-us/man/clothing/shirts/",
-    "Jeans": "https://www.palmangels.com/en-us/man/clothing/denim/",
-    "Dress pants": "https://www.palmangels.com/en-us/man/clothing/pants/",
-    "Sweater": "https://www.palmangels.com/en-us/man/clothing/knitwear/",
-    "Outerwear": "https://www.palmangels.com/en-us/man/clothing/coats-and-jackets/"
+  "Outerwear": {
+   "lp": "Curved Logo Vintage Track Windbreaker (compare-at; on sale $397)",
+   "lu": "https://www.palmangels.com/en-us/man/clothing/coats-and-jackets/curved-logo-vintage-track-windbreaker-PMEB02GS26FAB0011003.html",
+   "hp": "Hollywood Windbreaker Jacket",
+   "hu": "https://www.palmangels.com/en-us/man/clothing/coats-and-jackets/hollywood-windbreaker-jacket-PAMEB02F26FB016010.html",
+   "b": "range"
   },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Vintage Box Logo Loose T-Shirt",
-      "lu": "https://www.palmangels.com/en-us/man/clothing/t-shirts-and-polos/vintage-box-logo-loose-t-shirt-PAMAA03F26JR041003.html",
-      "hp": "Big Neck Logo Loose T-Shirt (100% cotton)",
-      "hu": "https://www.palmangels.com/en-us/man/clothing/t-shirts-and-polos/big-neck-logo-loose-t-shirt-PMAA10DS26JER0020310.html",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Logo Spray Regular Polo Shirt",
-      "lu": "https://www.palmangels.com/en-us/man/clothing/t-shirts-and-polos/logo-spray-regular-polo-shirt-PAMGB02F26FB021009.html",
-      "hp": "Palm Type Loose Knit Polo (short-sleeve open knit, 67% cotton/21% polyamide/12% linen)",
-      "hu": "https://www.palmangels.com/en-us/man/clothing/knitwear/palm-type-loose-knit-polo-PAMHX01F26KN016063.html",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Neck Logo Shirt (65% cotton, 35% linen; long-sleeve button-front)",
-      "lu": "https://www.palmangels.com/en-us/man/clothing/shirts/neck-logo-shirt-PAMGE001FB0010310.html",
-      "hp": "Surfer Dream Check Loose Shirt (polyester-cotton check, knit collar)",
-      "hu": "https://www.palmangels.com/en-us/man/clothing/shirts/surfer-dream-check-loose-shirt-PAMGE05F26FB028410.html",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Splitted Curved Logo Loose Jeans (99% cotton, 1% elastane)",
-      "lu": "https://www.palmangels.com/en-us/man/clothing/denim/splitted-curved-logo-loose-jeans-PAMYA01F26DN034040.html",
-      "hp": "Curved Logo Denim Jeans (100% cotton, leather detail)",
-      "hu": "https://www.palmangels.com/en-us/man/clothing/denim/curved-logo-denim-jeans-PMYA012C99DEN0011001.html",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Palm Tree Loose Trousers (68% cotton, 32% linen, wide leg)",
-      "lu": "https://www.palmangels.com/en-us/man/clothing/pants/palm-tree-loose-trousers-PAMCA03F26FB010372.html",
-      "hp": "Starleaf All-Over Loose Pants",
-      "hu": "https://www.palmangels.com/en-us/man/clothing/pants/starleaf-all-over-loose-pants-PAMCA03W26FB046010.html",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Curved Logo Knit Sweater (compare-at; on sale $203)",
-      "lu": "https://www.palmangels.com/en-us/man/clothing/knitwear/curved-logo-knit-sweater-PMHE08BS26KNI0011025.html",
-      "hp": "Big Neck Logo Sweater (80% cotton, 20% polyester; compare-at, on sale $305)",
-      "hu": "https://www.palmangels.com/en-us/man/clothing/knitwear/big-neck-logo-sweater-PMHE08CS26KNI0014614.html",
-      "b": "range"
-    },
-    "Outerwear": {
-      "lp": "Curved Logo Vintage Track Windbreaker (compare-at; on sale $397)",
-      "lu": "https://www.palmangels.com/en-us/man/clothing/coats-and-jackets/curved-logo-vintage-track-windbreaker-PMEB02GS26FAB0011003.html",
-      "hp": "Hollywood Windbreaker Jacket",
-      "hu": "https://www.palmangels.com/en-us/man/clothing/coats-and-jackets/hollywood-windbreaker-jacket-PAMEB02F26FB016010.html",
-      "b": "range"
-    },
-    "Shoes": {
-      "lp": "Big Logo Sliders (full-price colourway)",
-      "lu": "https://www.palmangels.com/en-us/man/shoes/slides-and-sandals/big-logo-sliders-PMIC018S26MAT0030310.html",
-      "hp": "Palm Skate Sneakers (compare-at; both colourways on sale $366/$427)",
-      "hu": "https://www.palmangels.com/en-us/man/shoes/sneakers/palm-skate-sneakers-PMIA10YS26LEA0010125.html",
-      "b": "range"
-    }
-  },
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.palmangels.com/en-us/",
-    "currency": "USD_landed",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=395367",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "I found no claim of an owned factory or atelier. The product sitemap has no brand or company pages, and the guessed /en-us/about-us returned 404. Parent or ownership group making was not checked (budget).",
-    "makers": "no",
-    "mills": "no",
-    "madein": "none",
-    "countries": "Country of origin not shown on 5/5 PDPs (sample: reg tee, track jacket, hoodie, long-sleeve tee, boxer bipack). The track-jacket fetch read the details/composition tab and it held no origin, so the absence looks real, though it is not certain for every PDP. A sixth PDP (track pants) was blocked by the rate limit.",
-    "heritage": "NC",
-    "repair": "no",
-    "process": "no",
-    "urls": [
-      "https://www.palmangels.com/en-us/man/classic-logo-track-jacket-538055167539148.html",
-      "https://www.palmangels.com/en-us/man/bear-in-mind-reg-tee-538055167521570.html"
-    ],
-    "conf": "high",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Big Logo Sliders (full-price colourway)",
+   "lu": "https://www.palmangels.com/en-us/man/shoes/slides-and-sandals/big-logo-sliders-PMIC018S26MAT0030310.html",
+   "hp": "Palm Skate Sneakers (compare-at; both colourways on sale $366/$427)",
+   "hu": "https://www.palmangels.com/en-us/man/shoes/sneakers/palm-skate-sneakers-PMIA10YS26LEA0010125.html",
+   "b": "range"
   }
+ },
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.palmangels.com/en-us/",
+  "currency": "USD_landed",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=395367",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "I found no claim of an owned factory or atelier. The product sitemap has no brand or company pages, and the guessed /en-us/about-us returned 404. Parent or ownership group making was not checked (budget).",
+  "makers": "no",
+  "mills": "no",
+  "madein": "none",
+  "countries": "Country of origin not shown on 5/5 PDPs (sample: reg tee, track jacket, hoodie, long-sleeve tee, boxer bipack). The track-jacket fetch read the details/composition tab and it held no origin, so the absence looks real, though it is not certain for every PDP. A sixth PDP (track pants) was blocked by the rate limit.",
+  "heritage": "NC",
+  "repair": "no",
+  "process": "no",
+  "urls": [
+   "https://www.palmangels.com/en-us/man/classic-logo-track-jacket-538055167539148.html",
+   "https://www.palmangels.com/en-us/man/bear-in-mind-reg-tee-538055167521570.html"
+  ],
+  "conf": "high",
+  "read": "2026-10-03"
+ }
 }

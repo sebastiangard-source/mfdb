@@ -1,208 +1,282 @@
 {
-  "name": "Bode",
-  "band": "trueLux",
-  "seat": 175,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 1,
-    "craft": 2,
-    "style": 5
+ "name": "Bode",
+ "band": "trueLux",
+ "seat": 175,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 1,
+  "craft": 2,
+  "style": 5
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 1,
+  "linen": 2,
+  "cotton": 3,
+  "wool": 3,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 2,
+  "forg": 3,
+  "fuss": 0,
+  "status": 3,
+  "ivy": 2,
+  "murica": 4,
+  "street": 2,
+  "avant": 3,
+  "weird": 3,
+  "whitet": 2,
+  "logo": 1,
+  "western": 2,
+  "rock": 2,
+  "workwear": 3,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "One-of-a-kind garments cut from antique quilts, tablecloths and textiles.",
+ "origin": "Founded in New York in 2016 by Emily Adams Bode.",
+ "say": "BOH-dee",
+ "chan": [
+  "O",
+  "D"
+ ],
+ "conf": "L",
+ "forgc": [
+  4,
+  2,
+  1
+ ],
+ "shop": "https://bode.com/search?q=",
+ "onething": {
+  "p": "One-of-one quilt jacket",
+  "u": "https://www.bodenewyork.com/search?q=One-of-one%20quilt%20jacket",
+  "n": "verified ✓"
+ },
+ "prices": [
+  [
+   210,
+   790
+  ],
+  [
+   280,
+   620
+  ],
+  [
+   590,
+   950
+  ],
+  [
+   650,
+   650
+  ],
+  [
+   650,
+   1850
+  ],
+  [
+   650,
+   1600
+  ],
+  [
+   570,
+   5000
+  ],
+  [
+   690,
+   1080
+  ]
+ ],
+ "notes": {
+  "craft": "Every Bode PDP states a country of make: the main collection is made in India, Peru, Romania and Portugal, with no maker or mill named. Only the one-of-a-kind line is 'Made in New York' from dated antique/deadstock textiles, and no owned workshop is named. That is country-of-make plus textile provenance, not owned or named making.",
+  "style": "memory-as-material made a runway category",
+  "murica": "cut from antique American quilts and feed sacks",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 1; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+ },
+ "doors": {
+  "c": "full",
+  "n": 4,
+  "cities": [
+   [
+    "Los Angeles",
+    "CA",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    3
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 0,
+  "con": 0
+ },
+ "cities": "4 stores — Los Angeles, New York · department stores and independent menswear shops, and its own site",
+ "region": {
+  "o": [
+   662,
+   663,
+   665
+  ],
+  "s": [
+   125
+  ]
+ },
+ "addmen": true,
+ "site": {
+  "domain": "bode.com",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 2400,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "no",
+  "origin": "none",
+  "marks": [],
+  "source": "screen_36",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 1275,
+  "w": 1218,
+  "n": 84,
+  "s": 3,
+  "c": 8,
+  "x": 1,
+  "xh": 0,
+  "sp": "one",
+  "sc": [
+   "swimwear"
+  ],
+  "nc": [
+   "shirts",
+   "trousers and pants",
+   "outerwear"
+  ],
+  "st": "complete"
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Dress pants",
+  "Outerwear"
+ ],
+ "garment_links": {
+  "T-shirt": "https://bode.com/collections/mens-cut-sew",
+  "Polo": "https://bode.com/collections/mens-knitwear",
+  "Dress shirt": "https://bode.com/collections/mens-shirts",
+  "Jeans": "https://bode.com/collections/mens-trousers-pants",
+  "Dress pants": "https://bode.com/collections/mens-trousers-pants",
+  "Sweater": "https://bode.com/collections/mens-knitwear",
+  "Outerwear": "https://bode.com/collections/mens-outerwear",
+  "Shoes": "https://bode.com/collections/mens-shoes"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "New Orleans Tee",
+   "lu": "https://bode.com/products/new-orleans-tee-cream",
+   "hp": "Gem Necklace Tee",
+   "hu": "https://bode.com/products/gem-necklace-tee-black",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 2,
-    "cashmere": 1,
-    "linen": 2,
-    "cotton": 3,
-    "wool": 3,
-    "synth": 1
+  "Polo": {
+   "lp": "Regionals Polo",
+   "lu": "https://bode.com/products/regionals-polo-navy",
+   "hp": "Bentgrass Boxy Polo",
+   "hu": "https://bode.com/products/bentgrass-boxy-polo-green",
+   "b": "range"
   },
-  "dials": {
-    "dur": 2,
-    "forg": 3,
-    "fuss": 0,
-    "status": 3,
-    "ivy": 2,
-    "murica": 4,
-    "street": 2,
-    "avant": 3,
-    "weird": 3,
-    "whitet": 2,
-    "logo": 1,
-    "western": 2,
-    "rock": 2,
-    "workwear": 3,
-    "outdoor": 1,
-    "surf": 1
+  "Dress shirt": {
+   "lp": "Monogrammed Poplin Shirt",
+   "lu": "https://bode.com/products/monogrammed-poplin-shirt-white-2",
+   "hp": "Sequined Silhouette Tuxedo Shirt",
+   "hu": "https://bode.com/products/sequined-silhouette-tuxedo-shirt-white-black",
+   "b": "range"
   },
-  "why": "One-of-a-kind garments cut from antique quilts, tablecloths and textiles.",
-  "origin": "Founded in New York in 2016 by Emily Adams Bode.",
-  "say": "BOH-dee",
-  "chan": ["O", "D"],
-  "conf": "L",
-  "forgc": [4, 2, 1],
-  "shop": "https://bode.com/search?q=",
-  "onething": {
-    "p": "One-of-one quilt jacket",
-    "u": "https://www.bodenewyork.com/search?q=One-of-one%20quilt%20jacket",
-    "n": "verified ✓"
+  "Jeans": {
+   "lp": "Washed Denim Knolly Brook Trousers",
+   "lu": "https://bode.com/products/washed-denim-knolly-brook-trousers-blue",
+   "hp": "Washed Denim Knolly Brook Trousers",
+   "hu": "https://bode.com/products/washed-denim-knolly-brook-trousers-blue",
+   "b": "single"
   },
-  "prices": [[210, 790], [280, 620], [590, 950], [650, 650], [650, 1850], [650, 1600], [570, 5000], [690, 1080]],
-  "notes": {
-    "craft": "Every Bode PDP states a country of make: the main collection is made in India, Peru, Romania and Portugal, with no maker or mill named. Only the one-of-a-kind line is 'Made in New York' from dated antique/deadstock textiles, and no owned workshop is named. That is country-of-make plus textile provenance, not owned or named making.",
-    "style": "memory-as-material made a runway category",
-    "murica": "cut from antique American quilts and feed sacks",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 1; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+  "Dress pants": {
+   "lp": "Tropical Wool Side-Buckle Trousers - Black",
+   "lu": "https://bode.com/products/tropical-wool-side-buckle-trouser-black",
+   "hp": "Poppy Suiting Trousers - Black",
+   "hu": "https://bode.com/products/poppy-suiting-trousers-black",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 2,
-    "cities": [["Los Angeles", "CA", 1], ["New York", "NY", 1]],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Sweater": {
+   "lp": "Juniper Sweater - Grey",
+   "lu": "https://bode.com/products/juniper-sweater-grey",
+   "hp": "Cashmere Crewneck - Black",
+   "hu": "https://bode.com/products/cashmere-crewneck-black-1",
+   "b": "pair"
   },
-  "cities": "2 stores — Los Angeles, New York · department stores and independent menswear shops, and its own site",
-  "region": {
-    "o": [435],
-    "s": [125]
+  "Outerwear": {
+   "lp": "Nylon Track Jacket - Black",
+   "lu": "https://bode.com/products/nylon-track-jacket-black",
+   "hp": "Continental Coat",
+   "hu": "https://bode.com/products/continental-coat-whiskey",
+   "b": "range"
   },
-  "addmen": true,
-  "site": {
-    "domain": "bode.com",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 2400,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "no",
-    "origin": "none",
-    "marks": [],
-    "source": "screen_36",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 1275,
-    "w": 1218,
-    "n": 84,
-    "s": 3,
-    "c": 8,
-    "x": 1,
-    "xh": 0,
-    "sp": "one",
-    "sc": ["swimwear"],
-    "nc": ["shirts", "trousers and pants", "outerwear"],
-    "st": "complete"
-  },
-  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Dress pants", "Outerwear"],
-  "garment_links": {
-    "T-shirt": "https://bode.com/collections/mens-cut-sew",
-    "Polo": "https://bode.com/collections/mens-knitwear",
-    "Dress shirt": "https://bode.com/collections/mens-shirts",
-    "Jeans": "https://bode.com/collections/mens-trousers-pants",
-    "Dress pants": "https://bode.com/collections/mens-trousers-pants",
-    "Sweater": "https://bode.com/collections/mens-knitwear",
-    "Outerwear": "https://bode.com/collections/mens-outerwear",
-    "Shoes": "https://bode.com/collections/mens-shoes"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "New Orleans Tee",
-      "lu": "https://bode.com/products/new-orleans-tee-cream",
-      "hp": "Gem Necklace Tee",
-      "hu": "https://bode.com/products/gem-necklace-tee-black",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Regionals Polo",
-      "lu": "https://bode.com/products/regionals-polo-navy",
-      "hp": "Bentgrass Boxy Polo",
-      "hu": "https://bode.com/products/bentgrass-boxy-polo-green",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Monogrammed Poplin Shirt",
-      "lu": "https://bode.com/products/monogrammed-poplin-shirt-white-2",
-      "hp": "Sequined Silhouette Tuxedo Shirt",
-      "hu": "https://bode.com/products/sequined-silhouette-tuxedo-shirt-white-black",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Washed Denim Knolly Brook Trousers",
-      "lu": "https://bode.com/products/washed-denim-knolly-brook-trousers-blue",
-      "hp": "Washed Denim Knolly Brook Trousers",
-      "hu": "https://bode.com/products/washed-denim-knolly-brook-trousers-blue",
-      "b": "single"
-    },
-    "Dress pants": {
-      "lp": "Tropical Wool Side-Buckle Trousers - Black",
-      "lu": "https://bode.com/products/tropical-wool-side-buckle-trouser-black",
-      "hp": "Poppy Suiting Trousers - Black",
-      "hu": "https://bode.com/products/poppy-suiting-trousers-black",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Juniper Sweater - Grey",
-      "lu": "https://bode.com/products/juniper-sweater-grey",
-      "hp": "Cashmere Crewneck - Black",
-      "hu": "https://bode.com/products/cashmere-crewneck-black-1",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "Nylon Track Jacket - Black",
-      "lu": "https://bode.com/products/nylon-track-jacket-black",
-      "hp": "Continental Coat",
-      "hu": "https://bode.com/products/continental-coat-whiskey",
-      "b": "range"
-    },
-    "Shoes": {
-      "lp": "Leather House Shoes - Black",
-      "lu": "https://bode.com/products/black-leather-house-shoe",
-      "hp": "Needlepoint House Shoes",
-      "hu": "https://bode.com/products/needlepoint-house-shoe-green",
-      "b": "pair"
-    }
-  },
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://bode.com/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=531359",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "season": {
-    "l": "Fall 2026 ('Rodeo Bodeo')",
-    "t": "collection page",
-    "u": "https://bode.com/pages/fall-2026-rodeo-bodeo",
-    "m": "yes"
-  },
-  "craft_evidence": {
-    "owned": "unclear",
-    "owned_d": "About page says Bode is 'tailor made in New York' and one-of-a-kind PDPs say 'Made in New York'; no workshop is named or shown as owned. Bode Fine Tailoring at 54 Hester Street, NYC is an appointment/retail location with no production details on its page.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "every product",
-    "countries": "Main collection: India 12, Peru 8, Romania 2, Portugal 2 (sample of 24 PDPs via products.json: menswear and womenswear sweaters, shirts, polos, tees, trousers, accessories); one-of-a-kind line: USA (New York) 20/20.",
-    "heritage": "dated and placed",
-    "repair": "no",
-    "process": "some",
-    "urls": ["https://bode.com/collections/mens-one-of-a-kind", "https://bode.com/pages/about"],
-    "conf": "high",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Leather House Shoes - Black",
+   "lu": "https://bode.com/products/black-leather-house-shoe",
+   "hp": "Needlepoint House Shoes",
+   "hu": "https://bode.com/products/needlepoint-house-shoe-green",
+   "b": "pair"
   }
+ },
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://bode.com/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=531359",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "season": {
+  "l": "Fall 2026 ('Rodeo Bodeo')",
+  "t": "collection page",
+  "u": "https://bode.com/pages/fall-2026-rodeo-bodeo",
+  "m": "yes"
+ },
+ "craft_evidence": {
+  "owned": "unclear",
+  "owned_d": "About page says Bode is 'tailor made in New York' and one-of-a-kind PDPs say 'Made in New York'; no workshop is named or shown as owned. Bode Fine Tailoring at 54 Hester Street, NYC is an appointment/retail location with no production details on its page.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "every product",
+  "countries": "Main collection: India 12, Peru 8, Romania 2, Portugal 2 (sample of 24 PDPs via products.json: menswear and womenswear sweaters, shirts, polos, tees, trousers, accessories); one-of-a-kind line: USA (New York) 20/20.",
+  "heritage": "dated and placed",
+  "repair": "no",
+  "process": "some",
+  "urls": [
+   "https://bode.com/collections/mens-one-of-a-kind",
+   "https://bode.com/pages/about"
+  ],
+  "conf": "high",
+  "read": "2026-10-03"
+ }
 }

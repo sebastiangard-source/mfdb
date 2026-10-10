@@ -1,214 +1,279 @@
 {
-  "name": "Missoni",
-  "band": "trueLux",
-  "seat": 146,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 3,
-    "craft": 4,
-    "style": 4
-  },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 3,
-    "linen": 2,
-    "cotton": 2,
-    "wool": 3,
-    "synth": 1
-  },
-  "dials": {
-    "dur": 2,
-    "forg": 3,
-    "fuss": 2,
-    "status": 3,
-    "ital": 4,
-    "ski": 2,
-    "whitet": 2,
-    "logo": 2,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
-  },
-  "why": "Knitwear in multicolored zigzag and space-dyed patterns.",
-  "origin": "Founded in 1953 by Ottavio and Rosita Missoni.",
-  "chan": ["O", "D"],
-  "conf": "L",
-  "forgc": [4, 2, 1],
-  "shop": "https://www.missoni.com/en-us/search?q=",
-  "onething": {
-    "p": "Zigzag piqué polo",
-    "u": "https://www.missoni.com/en-us/polo-in-cotton-pique-with-zig-zag-motif-light-blue-BS26S202BJ00R0S72QA.html",
-    "n": "direct — cotton piqué with the zigzag motif; not a knit, renamed accordingly"
-  },
-  "prices": [
-    [310, 1350],
-    [400, 1070],
-    [500, 580],
-    [670, 780],
-    [1320, 1400],
-    [880, 2130],
-    [2220, 6440],
-    [415, 890]
+ "name": "Missoni",
+ "band": "trueLux",
+ "seat": 146,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 3,
+  "craft": 4,
+  "style": 4
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 3,
+  "linen": 2,
+  "cotton": 2,
+  "wool": 3,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 2,
+  "forg": 3,
+  "fuss": 2,
+  "status": 3,
+  "ital": 4,
+  "ski": 2,
+  "whitet": 2,
+  "logo": 2,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Knitwear in multicolored zigzag and space-dyed patterns.",
+ "origin": "Founded in 1953 by Ottavio and Rosita Missoni.",
+ "chan": [
+  "O",
+  "D"
+ ],
+ "conf": "L",
+ "forgc": [
+  4,
+  2,
+  1
+ ],
+ "shop": "https://www.missoni.com/en-us/search?q=",
+ "onething": {
+  "p": "Zigzag piqué polo",
+  "u": "https://www.missoni.com/en-us/polo-in-cotton-pique-with-zig-zag-motif-light-blue-BS26S202BJ00R0S72QA.html",
+  "n": "direct — cotton piqué with the zigzag motif; not a knit, renamed accordingly"
+ },
+ "prices": [
+  [
+   310,
+   1350
   ],
-  "notes": {
-    "ital": "The zigzag is a knitting technique, not a print — worked out at Sumirago by a family that came to fashion from athletics. Color as the house's entire vocabulary.",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 2; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Missoni makes all its ready-to-wear knit fabric itself, at Sumirago (Varese) and at Tricotex, a former supplier it bought in 2024; the sewing is shared between its own seamstresses and many local workshops, and wovens/denim are not shown to be in-house. Every sampled product page says Made in Italy but names no maker or mill, and missoni.com does not itself describe the factory. Owned making of the signature category, not the whole range: a 4."
+  [
+   400,
+   1070
+  ],
+  [
+   500,
+   580
+  ],
+  [
+   670,
+   780
+  ],
+  [
+   1320,
+   1400
+  ],
+  [
+   880,
+   2130
+  ],
+  [
+   2220,
+   6440
+  ],
+  [
+   415,
+   890
+  ]
+ ],
+ "notes": {
+  "ital": "The zigzag is a knitting technique, not a print — worked out at Sumirago by a family that came to fashion from athletics. Color as the house's entire vocabulary.",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 2; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "Missoni makes all its ready-to-wear knit fabric itself, at Sumirago (Varese) and at Tricotex, a former supplier it bought in 2024; the sewing is shared between its own seamstresses and many local workshops, and wovens/denim are not shown to be in-house. Every sampled product page says Made in Italy but names no maker or mill, and missoni.com does not itself describe the factory. Owned making of the signature category, not the whole range: a 4."
+ },
+ "doors": {
+  "c": "full",
+  "n": 4,
+  "cities": [
+   [
+    "Las Vegas",
+    "NV",
+    1
+   ],
+   [
+    "Miami",
+    "FL",
+    2
+   ],
+   [
+    "New York",
+    "NY",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 1,
+  "con": 0
+ },
+ "cities": "4 stores — Aventura, Las Vegas, Miami, New York · department stores, and its own site",
+ "region": {
+  "o": [
+   2621
+  ],
+  "s": []
+ },
+ "addmen": true,
+ "addcloth": true,
+ "site": {
+  "domain": "missoni.com",
+  "platform": "salesforce_commerce",
+  "feed": "sitemap_products",
+  "feed_count": 5352,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "no",
+  "origin": "none",
+  "marks": [
+   "none"
+  ],
+  "source": "flag_sample",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 119,
+  "w": 119,
+  "n": 75,
+  "s": 14,
+  "c": 11,
+  "x": 5,
+  "xh": 0,
+  "sp": "one",
+  "sc": [
+   "swim"
+  ],
+  "nc": [
+   "knitwear",
+   "polos and tees",
+   "outerwear"
+  ],
+  "st": "complete"
+ },
+ "price_range_only": [
+  "Polo",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants",
+  "Shoes"
+ ],
+ "garment_links": {
+  "T-shirt": "https://www.missoni.com/en-us/men/clothing/polos-e-tshirts/",
+  "Polo": "https://www.missoni.com/en-us/men/clothing/polos-e-tshirts/",
+  "Dress shirt": "https://www.missoni.com/en-us/men/clothing/shirts/",
+  "Dress pants": "https://www.missoni.com/en-us/men/clothing/trousers/",
+  "Sweater": "https://www.missoni.com/en-us/men/clothing/knitwear/",
+  "Outerwear": "https://www.missoni.com/en-us/men/clothing/coats/"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Cotton crewneck T-shirt with logo lettering",
+   "lu": "https://www.missoni.com/en-us/cotton-crewneck-t-shirt-with-logo-lettering-multicoloured-BS26WL00BJ00R8S01ML.html",
+   "hp": "Cashmere and viscose knit crewneck T-shirt",
+   "hu": "https://www.missoni.com/en-us/cashmere-and-viscose-knit-crewneck-t-shirt-multicoloured-US26WL05BR0162S91TF.html",
+   "b": "pair"
   },
-  "doors": {
-    "c": "full",
-    "n": 4,
-    "cities": [["Aventura", "FL", 1], ["Las Vegas", "NV", 1], ["Miami", "FL", 1], ["New York", "NY", 1]],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Polo": {
+   "lp": "Tonal zigzag cotton jersey polo shirt",
+   "lu": "https://www.missoni.com/en-us/tonal-zigzag-cotton-jersey-polo-shirt-grey-US25S20ABJ00LJS91PC.html",
+   "hp": "Openwork knit cotton and viscose polo shirt",
+   "hu": "https://www.missoni.com/en-us/openwork-knit-cotton-and-viscose-polo-shirt-white-e-beige-US26W204BK01JMS01MX.html",
+   "b": "range"
   },
-  "cities": "4 stores — Aventura, Las Vegas, Miami, New York · department stores, and its own site",
-  "region": {
-    "o": [2079],
-    "s": []
+  "Dress shirt": {
+   "lp": "Bowling shirt in viscose with tone-on-tone zigzag print",
+   "lu": "https://www.missoni.com/en-us/bowling-shirt-in-viscose-with-tone-on-tone-zigzag-print-green-BS26SJ01BW010HS6164.html",
+   "hp": "Short-sleeve viscose bowling shirt",
+   "hu": "https://www.missoni.com/en-us/short-sleeve-viscose-bowling-shirt-multicoloured-BS26WJ00BW012ISMSP9.html",
+   "b": "range"
   },
-  "addmen": true,
-  "addcloth": true,
-  "site": {
-    "domain": "missoni.com",
-    "platform": "salesforce_commerce",
-    "feed": "sitemap_products",
-    "feed_count": 5352,
-    "status": "live_store",
-    "checked": "2026-09-13"
+  "Jeans": {
+   "lp": "Denim jeans",
+   "lu": "https://www.missoni.com/en-us/denim-jeans-blue-US25WI04BW00Y0S72MU.html",
+   "hp": "Five-pocket cotton denim trousers with zigzag embroidery",
+   "hu": "https://www.missoni.com/en-us/five-pocket-cotton-denim-trousers-with-zigzag-embroidery-beigee-white-US26SI02BW00ZTS72P9.html",
+   "b": "range"
   },
-  "tech_evidence": {
-    "names": "no",
-    "origin": "none",
-    "marks": ["none"],
-    "source": "flag_sample",
-    "checked": "2026-09-12"
+  "Dress pants": {
+   "lp": "Straight pants with zigzag pattern",
+   "lu": "https://www.missoni.com/en-us/straight-pants-with-zigzag-pattern-black-UC25WI00BR00JC93911.html",
+   "hp": "Classic trousers in cotton and viscose with tone-on-tone zigzag pattern",
+   "hu": "https://www.missoni.com/en-us/classic-trousers-in-cotton-and-viscose-with-tone-on-tone-zigzag-pattern-beige-UC25WI00BR012240210.html",
+   "b": "range"
   },
-  "fibre": {
-    "t": 119,
-    "w": 119,
-    "n": 75,
-    "s": 14,
-    "c": 11,
-    "x": 5,
-    "xh": 0,
-    "sp": "one",
-    "sc": ["swim"],
-    "nc": ["knitwear", "polos and tees", "outerwear"],
-    "st": "complete"
+  "Sweater": {
+   "lp": "Crew neck sweater in wool with chevron pattern",
+   "lu": "https://www.missoni.com/en-us/crew-neck-sweater-in-wool-with-chevron-pattern-navy-blue-US25WN0YBK01CWS72MH.html",
+   "hp": "Cashmere and viscose zig zag pullover",
+   "hu": "https://www.missoni.com/en-us/cashmere-and-viscose-zig-zag-pullover-beige-US26WN03BC006HS01M6.html",
+   "b": "pair"
   },
-  "price_range_only": ["Polo", "Dress shirt", "Jeans", "Dress pants", "Shoes"],
-  "garment_links": {
-    "T-shirt": "https://www.missoni.com/en-us/men/clothing/polos-e-tshirts/",
-    "Polo": "https://www.missoni.com/en-us/men/clothing/polos-e-tshirts/",
-    "Dress shirt": "https://www.missoni.com/en-us/men/clothing/shirts/",
-    "Dress pants": "https://www.missoni.com/en-us/men/clothing/trousers/",
-    "Sweater": "https://www.missoni.com/en-us/men/clothing/knitwear/",
-    "Outerwear": "https://www.missoni.com/en-us/men/clothing/coats/"
+  "Outerwear": {
+   "lp": "Wool cloth coat with chevron pattern",
+   "lu": "https://www.missoni.com/en-us/wool-cloth-coat-with-chevron-pattern-grey-US25WC0IBW00Y8S91Q2.html",
+   "hp": "Double-breasted cashmere and viscose coat",
+   "hu": "https://www.missoni.com/en-us/double-breasted-cashmere-and-viscose-coat-blue-US26WC05BC006HS72QW.html",
+   "b": "pair"
   },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Cotton crewneck T-shirt with logo lettering",
-      "lu": "https://www.missoni.com/en-us/cotton-crewneck-t-shirt-with-logo-lettering-multicoloured-BS26WL00BJ00R8S01ML.html",
-      "hp": "Cashmere and viscose knit crewneck T-shirt",
-      "hu": "https://www.missoni.com/en-us/cashmere-and-viscose-knit-crewneck-t-shirt-multicoloured-US26WL05BR0162S91TF.html",
-      "b": "pair"
-    },
-    "Polo": {
-      "lp": "Tonal zigzag cotton jersey polo shirt",
-      "lu": "https://www.missoni.com/en-us/tonal-zigzag-cotton-jersey-polo-shirt-grey-US25S20ABJ00LJS91PC.html",
-      "hp": "Openwork knit cotton and viscose polo shirt",
-      "hu": "https://www.missoni.com/en-us/openwork-knit-cotton-and-viscose-polo-shirt-white-e-beige-US26W204BK01JMS01MX.html",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Bowling shirt in viscose with tone-on-tone zigzag print",
-      "lu": "https://www.missoni.com/en-us/bowling-shirt-in-viscose-with-tone-on-tone-zigzag-print-green-BS26SJ01BW010HS6164.html",
-      "hp": "Short-sleeve viscose bowling shirt",
-      "hu": "https://www.missoni.com/en-us/short-sleeve-viscose-bowling-shirt-multicoloured-BS26WJ00BW012ISMSP9.html",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Denim jeans",
-      "lu": "https://www.missoni.com/en-us/denim-jeans-blue-US25WI04BW00Y0S72MU.html",
-      "hp": "Five-pocket cotton denim trousers with zigzag embroidery",
-      "hu": "https://www.missoni.com/en-us/five-pocket-cotton-denim-trousers-with-zigzag-embroidery-beigee-white-US26SI02BW00ZTS72P9.html",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Straight pants with zigzag pattern",
-      "lu": "https://www.missoni.com/en-us/straight-pants-with-zigzag-pattern-black-UC25WI00BR00JC93911.html",
-      "hp": "Classic trousers in cotton and viscose with tone-on-tone zigzag pattern",
-      "hu": "https://www.missoni.com/en-us/classic-trousers-in-cotton-and-viscose-with-tone-on-tone-zigzag-pattern-beige-UC25WI00BR012240210.html",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Crew neck sweater in wool with chevron pattern",
-      "lu": "https://www.missoni.com/en-us/crew-neck-sweater-in-wool-with-chevron-pattern-navy-blue-US25WN0YBK01CWS72MH.html",
-      "hp": "Cashmere and viscose zig zag pullover",
-      "hu": "https://www.missoni.com/en-us/cashmere-and-viscose-zig-zag-pullover-beige-US26WN03BC006HS01M6.html",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "Wool cloth coat with chevron pattern",
-      "lu": "https://www.missoni.com/en-us/wool-cloth-coat-with-chevron-pattern-grey-US25WC0IBW00Y8S91Q2.html",
-      "hp": "Double-breasted cashmere and viscose coat",
-      "hu": "https://www.missoni.com/en-us/double-breasted-cashmere-and-viscose-coat-blue-US26WC05BC006HS72QW.html",
-      "b": "pair"
-    },
-    "Shoes": {
-      "lp": "Men's espadrilles",
-      "lu": "https://www.missoni.com/en-us/mens-espadrilles-blue-e-grey-LS26SY0IBV00J3S72PZ.html",
-      "hp": "Zigzag fabric sneakers with suede inserts",
-      "hu": "https://www.missoni.com/en-us/zigzag-fabric-sneakers-with-suede-inserts-blue-LS25WY01BV00IMS91RH.html",
-      "b": "range"
-    }
-  },
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.missoni.com/en-us/men/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=4463&brand_ids[]=1702343",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "season": {
-    "l": "Fall Winter 2026 (FW26)",
-    "t": "collection page",
-    "u": "https://www.missoni.com/en-us/missoni-men-fw26.html",
-    "m": "yes"
-  },
-  "craft_evidence": {
-    "owned": "yes",
-    "owned_d": "Knit-fabric making owned, garment making only partly. Press visit (FashionNetwork Italia, 31 Jul 2025): 'Tutti i tessuti a maglia per il prêt-à-porter della maison vengono realizzati qui' (the Sumirago, Varese site, with historic Caperdoni knitting machines) 'e nel vicino stabilimento dell'ex fornitore Tricotex, acquisito all'inizio del 2024'; at Sumirago 'alcuni pezzi speciali vengono tagliati a mano e poi assemblati dalle sarte', and the house also relies on 'numerosi laboratori locali'. Tricotex (Raschel knit fabrics) acquisition March 2024 confirmed by the-spin-off.com and WWD headlines; Missoni statement: 'maintain direct control over its value chain'. Sumirago factory built 1969 (Wikipedia). These are Missoni's own (Missoni S.p.A.), not a parent group's; owners since May 2026: FSI ~73%, Katjes International ~27% (missoni.com press release). Nothing found on missoni.com itself describing the factory.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "every product",
-    "countries": "Italy 8/8 (sample of 8 men's PDPs on missoni.com/en-us: wool-viscose zig-zag pullover, cashmere zig-zag shirt, space-dye cotton tee, cotton hoodie, denim five-pocket trousers, cotton-viscose zig-zag blazer, cashmere-viscose double-breasted coat, cotton canvas overshirt)",
-    "heritage": "dated and placed",
-    "repair": "no",
-    "process": "no",
-    "urls": [
-      "https://it.fashionnetwork.com/news/Viaggio-nella-roccaforte-di-missoni-e-attraverso-70-anni-di-made-in-italy,1685611.html",
-      "https://www.the-spin-off.com/news/stories/The-Brands-Missoni-Group-buys-Raschel-fabric-specialist-Tricotex-17931"
-    ],
-    "conf": "high",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Men's espadrilles",
+   "lu": "https://www.missoni.com/en-us/mens-espadrilles-blue-e-grey-LS26SY0IBV00J3S72PZ.html",
+   "hp": "Zigzag fabric sneakers with suede inserts",
+   "hu": "https://www.missoni.com/en-us/zigzag-fabric-sneakers-with-suede-inserts-blue-LS25WY01BV00IMS91RH.html",
+   "b": "range"
   }
+ },
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.missoni.com/en-us/men/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=4463&brand_ids[]=1702343",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "season": {
+  "l": "Fall Winter 2026 (FW26)",
+  "t": "collection page",
+  "u": "https://www.missoni.com/en-us/missoni-men-fw26.html",
+  "m": "yes"
+ },
+ "craft_evidence": {
+  "owned": "yes",
+  "owned_d": "Knit-fabric making owned, garment making only partly. Press visit (FashionNetwork Italia, 31 Jul 2025): 'Tutti i tessuti a maglia per il prêt-à-porter della maison vengono realizzati qui' (the Sumirago, Varese site, with historic Caperdoni knitting machines) 'e nel vicino stabilimento dell'ex fornitore Tricotex, acquisito all'inizio del 2024'; at Sumirago 'alcuni pezzi speciali vengono tagliati a mano e poi assemblati dalle sarte', and the house also relies on 'numerosi laboratori locali'. Tricotex (Raschel knit fabrics) acquisition March 2024 confirmed by the-spin-off.com and WWD headlines; Missoni statement: 'maintain direct control over its value chain'. Sumirago factory built 1969 (Wikipedia). These are Missoni's own (Missoni S.p.A.), not a parent group's; owners since May 2026: FSI ~73%, Katjes International ~27% (missoni.com press release). Nothing found on missoni.com itself describing the factory.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "every product",
+  "countries": "Italy 8/8 (sample of 8 men's PDPs on missoni.com/en-us: wool-viscose zig-zag pullover, cashmere zig-zag shirt, space-dye cotton tee, cotton hoodie, denim five-pocket trousers, cotton-viscose zig-zag blazer, cashmere-viscose double-breasted coat, cotton canvas overshirt)",
+  "heritage": "dated and placed",
+  "repair": "no",
+  "process": "no",
+  "urls": [
+   "https://it.fashionnetwork.com/news/Viaggio-nella-roccaforte-di-missoni-e-attraverso-70-anni-di-made-in-italy,1685611.html",
+   "https://www.the-spin-off.com/news/stories/The-Brands-Missoni-Group-buys-Raschel-fabric-specialist-Tricotex-17931"
+  ],
+  "conf": "high",
+  "read": "2026-10-03"
+ }
 }

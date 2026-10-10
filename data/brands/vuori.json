@@ -1,329 +1,812 @@
 {
-  "name": "Vuori",
-  "band": "premium",
-  "seat": 16,
-  "dagger": 0,
-  "focus": {
-    "tech": 5,
-    "comfort": 5,
-    "craft": 1,
-    "style": 3
+ "name": "Vuori",
+ "band": "premium",
+ "seat": 16,
+ "dagger": 0,
+ "focus": {
+  "tech": 5,
+  "comfort": 5,
+  "craft": 1,
+  "style": 3
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 1,
+  "wool": 1,
+  "synth": 5
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 3,
+  "fuss": 1,
+  "golffice": 1,
+  "shoes": 0,
+  "golf": 2,
+  "status": 2,
+  "finbro": 3,
+  "racquet": 1,
+  "whitet": 3,
+  "logo": 2,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 3,
+  "surf": 3
+ },
+ "why": "Performance clothing — joggers, shorts, tees — in soft synthetics, sold as much for everyday wear as for training.",
+ "origin": "Founded in Encinitas, California, in 2015 by Joe Kudla.",
+ "say": "vee-OR-ee",
+ "chan": [
+  "O",
+  "D"
+ ],
+ "conf": "S",
+ "forgc": [
+  4,
+  3,
+  1
+ ],
+ "forgv": "XS–XXL only",
+ "shop": "https://vuoriclothing.com/search?q=",
+ "onething": {
+  "p": "Ponto pant",
+  "u": "https://vuoriclothing.com/search?q=Ponto%20pant%20men",
+  "n": "works"
+ },
+ "prices": [
+  [
+   58,
+   108
+  ],
+  [
+   68,
+   98
+  ],
+  [
+   110,
+   118
+  ],
+  [
+   198,
+   198
+  ],
+  [
+   98,
+   148
+  ],
+  [
+   110,
+   198
+  ],
+  [
+   118,
+   478
+  ],
+  null
+ ],
+ "price_checked": true,
+ "notes": {
+  "synth": "softness engineered in synthetics",
+  "whitet": "a named tee in the range — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 4; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "tech": "Every product is in a performance fabric the company develops with its mills; there is no cotton basics line.",
+  "comfort": "Softness is the whole pitch — brushed, four-way-stretch fabrics chosen to feel like loungewear.",
+  "craft": "Vuori product pages give fiber content and proprietary fabric names but no country of make, factory or mill. Its impact page says only that Tier 1 manufacturing vendors follow a Vendor Code of Conduct, naming none."
+ },
+ "doors": {
+  "c": "full",
+  "n": 114,
+  "cities": [
+   [
+    "Alpharetta",
+    "GA",
+    1
+   ],
+   [
+    "Aspen",
+    "CO",
+    1
+   ],
+   [
+    "Atlanta",
+    "GA",
+    1
+   ],
+   [
+    "Austin",
+    "TX",
+    2
+   ],
+   [
+    "Aventura",
+    "FL",
+    1
+   ],
+   [
+    "Bellevue",
+    "WA",
+    1
+   ],
+   [
+    "Berkeley",
+    "CA",
+    1
+   ],
+   [
+    "Bethesda",
+    "MD",
+    1
+   ],
+   [
+    "Birmingham",
+    "AL",
+    1
+   ],
+   [
+    "Birmingham",
+    "MI",
+    1
+   ],
+   [
+    "Bloomington",
+    "MN",
+    1
+   ],
+   [
+    "Boca Raton",
+    "FL",
+    1
+   ],
+   [
+    "Boston",
+    "MA",
+    1
+   ],
+   [
+    "Boulder",
+    "CO",
+    1
+   ],
+   [
+    "Brooklyn",
+    "NY",
+    1
+   ],
+   [
+    "Burlington",
+    "MA",
+    1
+   ],
+   [
+    "Canoga Park",
+    "CA",
+    1
+   ],
+   [
+    "Carlsbad",
+    "CA",
+    1
+   ],
+   [
+    "Century City",
+    "CA",
+    1
+   ],
+   [
+    "Chandler",
+    "AZ",
+    1
+   ],
+   [
+    "Charleston",
+    "SC",
+    1
+   ],
+   [
+    "Charlotte",
+    "NC",
+    1
+   ],
+   [
+    "Chicago",
+    "IL",
+    3
+   ],
+   [
+    "Cincinnati",
+    "OH",
+    1
+   ],
+   [
+    "Columbus",
+    "OH",
+    1
+   ],
+   [
+    "Coral Gables",
+    "FL",
+    1
+   ],
+   [
+    "Corte Madera",
+    "CA",
+    1
+   ],
+   [
+    "Dallas",
+    "TX",
+    1
+   ],
+   [
+    "Dedham",
+    "MA",
+    1
+   ],
+   [
+    "Del Mar",
+    "CA",
+    1
+   ],
+   [
+    "Denver",
+    "CO",
+    1
+   ],
+   [
+    "Durham",
+    "NC",
+    1
+   ],
+   [
+    "Edina",
+    "MN",
+    1
+   ],
+   [
+    "Encinitas",
+    "CA",
+    1
+   ],
+   [
+    "Farmington",
+    "UT",
+    1
+   ],
+   [
+    "Fort Worth",
+    "TX",
+    1
+   ],
+   [
+    "Franklin",
+    "TN",
+    1
+   ],
+   [
+    "Garden City",
+    "NY",
+    1
+   ],
+   [
+    "Greenwich",
+    "CT",
+    1
+   ],
+   [
+    "Hingham",
+    "MA",
+    1
+   ],
+   [
+    "Houston",
+    "TX",
+    3
+   ],
+   [
+    "Indianapolis",
+    "IN",
+    1
+   ],
+   [
+    "Irvine",
+    "CA",
+    1
+   ],
+   [
+    "Jacksonville",
+    "FL",
+    1
+   ],
+   [
+    "King of Prussia",
+    "PA",
+    1
+   ],
+   [
+    "La Jolla",
+    "CA",
+    1
+   ],
+   [
+    "Las Vegas",
+    "NV",
+    2
+   ],
+   [
+    "Leawood",
+    "KS",
+    1
+   ],
+   [
+    "Lone Tree",
+    "CO",
+    1
+   ],
+   [
+    "Long Beach",
+    "CA",
+    1
+   ],
+   [
+    "Lynnfield",
+    "MA",
+    1
+   ],
+   [
+    "Malibu",
+    "CA",
+    1
+   ],
+   [
+    "Manhasset",
+    "NY",
+    1
+   ],
+   [
+    "Manhattan Beach",
+    "CA",
+    1
+   ],
+   [
+    "McLean",
+    "VA",
+    1
+   ],
+   [
+    "Metairie",
+    "LA",
+    1
+   ],
+   [
+    "Miami",
+    "FL",
+    1
+   ],
+   [
+    "Murray",
+    "UT",
+    1
+   ],
+   [
+    "Naples",
+    "FL",
+    1
+   ],
+   [
+    "Nashville",
+    "TN",
+    2
+   ],
+   [
+    "New York",
+    "NY",
+    5
+   ],
+   [
+    "Newport Beach",
+    "CA",
+    1
+   ],
+   [
+    "Oak Brook",
+    "IL",
+    1
+   ],
+   [
+    "Orlando",
+    "FL",
+    1
+   ],
+   [
+    "Palm Beach Gardens",
+    "FL",
+    1
+   ],
+   [
+    "Palm Desert",
+    "CA",
+    1
+   ],
+   [
+    "Palo Alto",
+    "CA",
+    1
+   ],
+   [
+    "Paramus",
+    "NJ",
+    1
+   ],
+   [
+    "Park City",
+    "UT",
+    1
+   ],
+   [
+    "Pasadena",
+    "CA",
+    1
+   ],
+   [
+    "Philadelphia",
+    "PA",
+    1
+   ],
+   [
+    "Plano",
+    "TX",
+    1
+   ],
+   [
+    "Portland",
+    "OR",
+    1
+   ],
+   [
+    "Roseville",
+    "CA",
+    1
+   ],
+   [
+    "Salt Lake City",
+    "UT",
+    1
+   ],
+   [
+    "San Clemente",
+    "CA",
+    1
+   ],
+   [
+    "San Diego",
+    "CA",
+    1
+   ],
+   [
+    "San Francisco",
+    "CA",
+    1
+   ],
+   [
+    "San Jose",
+    "CA",
+    1
+   ],
+   [
+    "Santa Barbara",
+    "CA",
+    1
+   ],
+   [
+    "Santa Rosa",
+    "CA",
+    1
+   ],
+   [
+    "Sarasota",
+    "FL",
+    1
+   ],
+   [
+    "Schaumburg",
+    "IL",
+    1
+   ],
+   [
+    "Scottsdale",
+    "AZ",
+    2
+   ],
+   [
+    "Seattle",
+    "WA",
+    1
+   ],
+   [
+    "Short Hills",
+    "NJ",
+    1
+   ],
+   [
+    "Skokie",
+    "IL",
+    1
+   ],
+   [
+    "Southlake",
+    "TX",
+    1
+   ],
+   [
+    "St Louis",
+    "MO",
+    1
+   ],
+   [
+    "Studio City",
+    "CA",
+    1
+   ],
+   [
+    "Tampa",
+    "FL",
+    1
+   ],
+   [
+    "The Woodlands",
+    "TX",
+    1
+   ],
+   [
+    "Thousand Oaks",
+    "CA",
+    1
+   ],
+   [
+    "Tigard",
+    "OR",
+    1
+   ],
+   [
+    "Torrance",
+    "CA",
+    1
+   ],
+   [
+    "Troy",
+    "MI",
+    1
+   ],
+   [
+    "Tucson",
+    "AZ",
+    1
+   ],
+   [
+    "Venice Beach",
+    "CA",
+    1
+   ],
+   [
+    "Walnut Creek",
+    "CA",
+    1
+   ],
+   [
+    "Washington",
+    "DC",
+    1
+   ],
+   [
+    "Westport",
+    "CT",
+    1
+   ],
+   [
+    "Woodmere",
+    "OH",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 12,
+  "con": 0
+ },
+ "cities": "114 stores across the US · department stores and independent menswear shops, and its own site",
+ "region": {
+  "o": [
+   3630,
+   3638,
+   3646,
+   3650,
+   3652,
+   3660,
+   3665,
+   3667,
+   3671,
+   3678,
+   3688,
+   3694,
+   3695,
+   3712,
+   3719,
+   3720,
+   3722,
+   3726,
+   3727
+  ],
+  "s": [
+   4,
+   9,
+   10,
+   25,
+   49,
+   73,
+   81,
+   88,
+   97,
+   122,
+   136,
+   137,
+   151,
+   152
+  ]
+ },
+ "addmen": true,
+ "site": {
+  "domain": "vuoriclothing.com",
+  "platform": "shopify",
+  "feed": "sitemap_products",
+  "feed_count": 2829,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "house",
+  "marks": [
+   "BlissBlend",
+   "BlissBlend Form",
+   "BreatheInterlock",
+   "DreamKnit"
+  ],
+  "source": "origin_8",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 285,
+  "w": 285,
+  "n": 25,
+  "s": 75,
+  "c": 0,
+  "x": 67,
+  "xh": 49,
+  "sp": "one",
+  "sc": [
+   "Jackets & Hoodies",
+   "Tops",
+   "Shorts",
+   "Pants",
+   "Button Down",
+   "Short Sleeve Tops",
+   "Hoodies & Sweatshirts",
+   "Leggings",
+   "Jackets & Vests",
+   "Boardshorts",
+   "Tanks",
+   "Joggers",
+   "Boxers & Briefs",
+   "Tank Tops"
+  ],
+  "nc": [
+   "Underwear"
+  ],
+  "st": "complete"
+ },
+ "garment_links": {
+  "T-shirt": "https://vuoriclothing.com/collections/short-sleeve-tees",
+  "Polo": "https://vuoriclothing.com/collections/polos-henleys",
+  "Dress shirt": "https://vuoriclothing.com/collections/mens-button-downs",
+  "Jeans": "https://vuoriclothing.com/collections/mens-denim",
+  "Dress pants": "https://vuoriclothing.com/collections/pants",
+  "Sweater": "https://vuoriclothing.com/collections/mens-sweaters",
+  "Outerwear": "https://vuoriclothing.com/collections/mens-outerwear"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Strato Tech Tee | Black",
+   "lu": "https://vuoriclothing.com/products/strato-tech-tee-black",
+   "hp": "Short Sleeve Merino Wool Tee | Black",
+   "hu": "https://vuoriclothing.com/products/short-sleeve-merino-wool-tee-black",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 1,
-    "linen": 1,
-    "cotton": 1,
-    "wool": 1,
-    "synth": 5
+  "Polo": {
+   "lp": "Strato Tech Polo | Black",
+   "lu": "https://vuoriclothing.com/products/strato-tech-polo-black",
+   "hp": "Short Sleeve Merino Wool Sweater Polo | Black",
+   "hu": "https://vuoriclothing.com/products/short-sleeve-merino-wool-sweater-polo-black",
+   "b": "range"
   },
-  "dials": {
-    "dur": 3,
-    "forg": 3,
-    "fuss": 1,
-    "golffice": 1,
-    "shoes": 0,
-    "golf": 2,
-    "status": 2,
-    "finbro": 3,
-    "racquet": 1,
-    "whitet": 3,
-    "logo": 2,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 3,
-    "surf": 3
+  "Dress shirt": {
+   "lp": "Long Sleeve Ponto Button Down Shirt | Azure Heather",
+   "lu": "https://vuoriclothing.com/products/long-sleeve-ponto-button-down-shirt-azure-heather",
+   "hp": "Long Sleeve Knit Oxford Button Down - Classic Fit | White",
+   "hu": "https://vuoriclothing.com/products/long-sleeve-knit-oxford-button-down-classic-fit-white",
+   "b": "range"
   },
-  "why": "Performance clothing — joggers, shorts, tees — in soft synthetics, sold as much for everyday wear as for training.",
-  "origin": "Founded in Encinitas, California, in 2015 by Joe Kudla.",
-  "say": "vee-OR-ee",
-  "chan": ["O", "D"],
-  "conf": "S",
-  "forgc": [4, 3, 1],
-  "forgv": "XS–XXL only",
-  "shop": "https://vuoriclothing.com/search?q=",
-  "onething": {
-    "p": "Ponto pant",
-    "u": "https://vuoriclothing.com/search?q=Ponto%20pant%20men",
-    "n": "works"
+  "Jeans": {
+   "lp": "Vuori Vintage Jean Classic Fit 32\" | Black Wash Denim",
+   "lu": "https://vuoriclothing.com/products/vuori-vintage-jean-classic-fit-32-black-wash-denim",
+   "hp": "Vuori Vintage Jean Classic Fit 32\" | Black Wash Denim",
+   "hu": "https://vuoriclothing.com/products/vuori-vintage-jean-classic-fit-32-black-wash-denim",
+   "b": "single"
   },
-  "prices": [[58, 108], [68, 98], [110, 118], [198, 198], [98, 148], [110, 198], [118, 478], null],
-  "price_checked": true,
-  "notes": {
-    "synth": "softness engineered in synthetics",
-    "whitet": "a named tee in the range — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 4; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "tech": "Every product is in a performance fabric the company develops with its mills; there is no cotton basics line.",
-    "comfort": "Softness is the whole pitch — brushed, four-way-stretch fabrics chosen to feel like loungewear.",
-    "craft": "Vuori product pages give fiber content and proprietary fabric names but no country of make, factory or mill. Its impact page says only that Tier 1 manufacturing vendors follow a Vendor Code of Conduct, naming none."
+  "Dress pants": {
+   "lp": "Aim Trouser Athletic Slim Fit 32\" | Navy Linen Texture",
+   "lu": "https://vuoriclothing.com/products/aim-trouser-athletic-slim-fit-32-navy-linen-texture",
+   "hp": "Fleet Trouser Classic Fit 30\" | Black",
+   "hu": "https://vuoriclothing.com/products/fleet-trouser-classic-fit-30-black",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 110,
-    "cities": [
-      ["Alpharetta", "GA", 1],
-      ["Aspen", "CO", 1],
-      ["Atlanta", "GA", 1],
-      ["Austin", "TX", 2],
-      ["Aventura", "FL", 1],
-      ["Bellevue", "WA", 1],
-      ["Berkeley", "CA", 1],
-      ["Bethesda", "MD", 1],
-      ["Birmingham", "AL", 1],
-      ["Birmingham", "MI", 1],
-      ["Bloomington", "MN", 1],
-      ["Boca Raton", "FL", 1],
-      ["Boston", "MA", 1],
-      ["Boulder", "CO", 1],
-      ["Brooklyn", "NY", 1],
-      ["Canoga Park", "CA", 1],
-      ["Carlsbad", "CA", 1],
-      ["Century City", "CA", 1],
-      ["Chandler", "AZ", 1],
-      ["Charleston", "SC", 1],
-      ["Charlotte", "NC", 1],
-      ["Chicago", "IL", 3],
-      ["Cincinnati", "OH", 1],
-      ["Columbus", "OH", 1],
-      ["Coral Gables", "FL", 1],
-      ["Corte Madera", "CA", 1],
-      ["Dallas", "TX", 1],
-      ["Dedham", "MA", 1],
-      ["Del Mar", "CA", 1],
-      ["Denver", "CO", 1],
-      ["Durham", "NC", 1],
-      ["Edina", "MN", 1],
-      ["Encinitas", "CA", 1],
-      ["Farmington", "UT", 1],
-      ["Fort Worth", "TX", 1],
-      ["Franklin", "TN", 1],
-      ["Garden City", "NY", 1],
-      ["Greenwich", "CT", 1],
-      ["Hingham", "MA", 1],
-      ["Houston", "TX", 3],
-      ["Indianapolis", "IN", 1],
-      ["Irvine", "CA", 1],
-      ["Jacksonville", "FL", 1],
-      ["King of Prussia", "PA", 1],
-      ["La Jolla", "CA", 1],
-      ["Las Vegas", "NV", 2],
-      ["Lone Tree", "CO", 1],
-      ["Long Beach", "CA", 1],
-      ["Lynnfield", "MA", 1],
-      ["Malibu", "CA", 1],
-      ["Manhasset", "NY", 1],
-      ["Manhattan Beach", "CA", 1],
-      ["McLean", "VA", 1],
-      ["Metairie", "LA", 1],
-      ["Miami", "FL", 1],
-      ["Murray", "UT", 1],
-      ["Nashville", "TN", 2],
-      ["New York", "NY", 5],
-      ["Newport Beach", "CA", 1],
-      ["Oak Brook", "IL", 1],
-      ["Orlando", "FL", 1],
-      ["Palm Beach Gardens", "FL", 1],
-      ["Palm Desert", "CA", 1],
-      ["Palo Alto", "CA", 1],
-      ["Paramus", "NJ", 1],
-      ["Park City", "UT", 1],
-      ["Pasadena", "CA", 1],
-      ["Philadelphia", "PA", 1],
-      ["Plano", "TX", 1],
-      ["Portland", "OR", 1],
-      ["Roseville", "CA", 1],
-      ["Salt Lake City", "UT", 1],
-      ["San Clemente", "CA", 1],
-      ["San Diego", "CA", 1],
-      ["San Francisco", "CA", 1],
-      ["San Jose", "CA", 1],
-      ["Santa Barbara", "CA", 1],
-      ["Santa Rosa", "CA", 1],
-      ["Sarasota", "FL", 1],
-      ["Schaumburg", "IL", 1],
-      ["Scottsdale", "AZ", 2],
-      ["Seattle", "WA", 1],
-      ["Short Hills", "NJ", 1],
-      ["Skokie", "IL", 1],
-      ["Southlake", "TX", 1],
-      ["St Louis", "MO", 1],
-      ["Studio City", "CA", 1],
-      ["The Woodlands", "TX", 1],
-      ["Thousand Oaks", "CA", 1],
-      ["Tigard", "OR", 1],
-      ["Torrance", "CA", 1],
-      ["Troy", "MI", 1],
-      ["Tucson", "AZ", 1],
-      ["Venice Beach", "CA", 1],
-      ["Walnut Creek", "CA", 1],
-      ["Washington", "DC", 1],
-      ["Westport", "CT", 1],
-      ["Woodmere", "OH", 1]
-    ],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Sweater": {
+   "lp": "Fluent Sweater | Black",
+   "lu": "https://vuoriclothing.com/products/fluent-sweater-black",
+   "hp": "Berik Cashmere Sweater | Black",
+   "hu": "https://vuoriclothing.com/products/berik-cashmere-sweater-black",
+   "b": "pair"
   },
-  "cities": "110 stores across the US · department stores and independent menswear shops, and its own site",
-  "region": {
-    "o": [
-      3015,
-      3016,
-      3036,
-      3037,
-      3038,
-      3039,
-      3048,
-      3049,
-      3052,
-      3053,
-      3054,
-      3055,
-      3056,
-      3057,
-      3058,
-      3059,
-      3065,
-      3066
-    ],
-    "s": [4, 9, 10, 25, 49, 73, 81, 88, 97, 122, 136, 137, 151, 152]
-  },
-  "addmen": true,
-  "site": {
-    "domain": "vuoriclothing.com",
-    "platform": "shopify",
-    "feed": "sitemap_products",
-    "feed_count": 2829,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "house",
-    "marks": ["BlissBlend", "BlissBlend Form", "BreatheInterlock", "DreamKnit"],
-    "source": "origin_8",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 285,
-    "w": 285,
-    "n": 25,
-    "s": 75,
-    "c": 0,
-    "x": 67,
-    "xh": 49,
-    "sp": "one",
-    "sc": [
-      "Jackets & Hoodies",
-      "Tops",
-      "Shorts",
-      "Pants",
-      "Button Down",
-      "Short Sleeve Tops",
-      "Hoodies & Sweatshirts",
-      "Leggings",
-      "Jackets & Vests",
-      "Boardshorts",
-      "Tanks",
-      "Joggers",
-      "Boxers & Briefs",
-      "Tank Tops"
-    ],
-    "nc": ["Underwear"],
-    "st": "complete"
-  },
-  "garment_links": {
-    "T-shirt": "https://vuoriclothing.com/collections/short-sleeve-tees",
-    "Polo": "https://vuoriclothing.com/collections/polos-henleys",
-    "Dress shirt": "https://vuoriclothing.com/collections/mens-button-downs",
-    "Jeans": "https://vuoriclothing.com/collections/mens-denim",
-    "Dress pants": "https://vuoriclothing.com/collections/pants",
-    "Sweater": "https://vuoriclothing.com/collections/mens-sweaters",
-    "Outerwear": "https://vuoriclothing.com/collections/mens-outerwear"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Strato Tech Tee | Black",
-      "lu": "https://vuoriclothing.com/products/strato-tech-tee-black",
-      "hp": "Short Sleeve Merino Wool Tee | Black",
-      "hu": "https://vuoriclothing.com/products/short-sleeve-merino-wool-tee-black",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Strato Tech Polo | Black",
-      "lu": "https://vuoriclothing.com/products/strato-tech-polo-black",
-      "hp": "Short Sleeve Merino Wool Sweater Polo | Black",
-      "hu": "https://vuoriclothing.com/products/short-sleeve-merino-wool-sweater-polo-black",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Long Sleeve Ponto Button Down Shirt | Azure Heather",
-      "lu": "https://vuoriclothing.com/products/long-sleeve-ponto-button-down-shirt-azure-heather",
-      "hp": "Long Sleeve Knit Oxford Button Down - Classic Fit | White",
-      "hu": "https://vuoriclothing.com/products/long-sleeve-knit-oxford-button-down-classic-fit-white",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Vuori Vintage Jean Classic Fit 32\" | Black Wash Denim",
-      "lu": "https://vuoriclothing.com/products/vuori-vintage-jean-classic-fit-32-black-wash-denim",
-      "hp": "Vuori Vintage Jean Classic Fit 32\" | Black Wash Denim",
-      "hu": "https://vuoriclothing.com/products/vuori-vintage-jean-classic-fit-32-black-wash-denim",
-      "b": "single"
-    },
-    "Dress pants": {
-      "lp": "Aim Trouser Athletic Slim Fit 32\" | Navy Linen Texture",
-      "lu": "https://vuoriclothing.com/products/aim-trouser-athletic-slim-fit-32-navy-linen-texture",
-      "hp": "Fleet Trouser Classic Fit 30\" | Black",
-      "hu": "https://vuoriclothing.com/products/fleet-trouser-classic-fit-30-black",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Fluent Sweater | Black",
-      "lu": "https://vuoriclothing.com/products/fluent-sweater-black",
-      "hp": "Berik Cashmere Sweater | Black",
-      "hu": "https://vuoriclothing.com/products/berik-cashmere-sweater-black",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "Venture Track Jacket | Blue Sea Linen Texture",
-      "lu": "https://vuoriclothing.com/products/venture-track-jacket-blue-sea-linen-texture",
-      "hp": "Taika Snow Shell | Black",
-      "hu": "https://vuoriclothing.com/products/taika-snow-shell-black",
-      "b": "range"
-    }
-  },
-  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Dress pants", "Outerwear"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://vuoriclothing.com/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=3855757",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "No owned facility claimed. Our-story and impact pages refer only to 'Tier 1 manufacturing vendors' bound by a Vendor Code of Conduct; no factory, place or country named.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "none",
-    "countries": "No country of make on 0/4 PDPs (Kore Short 5in, Sunday Performance Jogger, Meta Pant, Coronado Hoodie); the open 'Fabric & Care' section shows fibre content only. Sample small (4) due to fetch cap.",
-    "heritage": "vague",
-    "repair": "no",
-    "process": "no",
-    "urls": ["https://vuoriclothing.com/pages/impact", "https://vuoriclothing.com/products/kore-short-5-black"],
-    "conf": "high",
-    "read": "2026-10-03"
+  "Outerwear": {
+   "lp": "Venture Track Jacket | Blue Sea Linen Texture",
+   "lu": "https://vuoriclothing.com/products/venture-track-jacket-blue-sea-linen-texture",
+   "hp": "Taika Snow Shell | Black",
+   "hu": "https://vuoriclothing.com/products/taika-snow-shell-black",
+   "b": "range"
   }
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Dress pants",
+  "Outerwear"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://vuoriclothing.com/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=3855757",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "No owned facility claimed. Our-story and impact pages refer only to 'Tier 1 manufacturing vendors' bound by a Vendor Code of Conduct; no factory, place or country named.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "none",
+  "countries": "No country of make on 0/4 PDPs (Kore Short 5in, Sunday Performance Jogger, Meta Pant, Coronado Hoodie); the open 'Fabric & Care' section shows fibre content only. Sample small (4) due to fetch cap.",
+  "heritage": "vague",
+  "repair": "no",
+  "process": "no",
+  "urls": [
+   "https://vuoriclothing.com/pages/impact",
+   "https://vuoriclothing.com/products/kore-short-5-black"
+  ],
+  "conf": "high",
+  "read": "2026-10-03"
+ }
 }

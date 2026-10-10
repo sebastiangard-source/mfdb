@@ -1,208 +1,339 @@
 {
-  "name": "Rails",
-  "band": "accessible",
-  "seat": 80,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 5,
-    "craft": 1,
-    "style": 3
+ "name": "Rails",
+ "band": "accessible",
+ "seat": 80,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 5,
+  "craft": 1,
+  "style": 3
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 2,
+  "linen": 2,
+  "cotton": 2,
+  "wool": 1,
+  "synth": 2
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 3,
+  "fuss": 0,
+  "golffice": 0,
+  "whitet": 2,
+  "logo": 1,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 2
+ },
+ "why": "Soft shirts and casual clothing in a proprietary Tencel blend.",
+ "origin": "Founded in Los Angeles in 2008 by Jeff Abrams.",
+ "chan": [
+  "O",
+  "D",
+  "I"
+ ],
+ "conf": "S",
+ "forgc": [
+  4,
+  3,
+  1
+ ],
+ "shop": "https://www.rails.com/search?q=",
+ "onething": {
+  "p": "Lennox shirt",
+  "u": "https://www.rails.com/search?q=Lennox%20shirt%20men",
+  "n": "works"
+ },
+ "prices": [
+  [
+   78,
+   148
+  ],
+  [
+   98,
+   178
+  ],
+  [
+   138,
+   188
+  ],
+  [
+   168,
+   168
+  ],
+  [
+   158,
+   228
+  ],
+  [
+   148,
+   288
+  ],
+  [
+   198,
+   398
+  ],
+  null
+ ],
+ "notes": {
+  "comfort": "a trade-secret Tencel blend; touch as corporate DNA",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 3; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "Every Rails product checked says only 'Imported' with fiber content - no country, factory or mill. The sustainability page refers to unnamed WRAP-certified factories and 'the world's finest mills'. Nothing about making is checkable."
+ },
+ "doors": {
+  "c": "full",
+  "n": 16,
+  "cities": [
+   [
+    "Atlanta",
+    "GA",
+    1
+   ],
+   [
+    "Austin",
+    "TX",
+    1
+   ],
+   [
+    "Bethesda",
+    "MD",
+    1
+   ],
+   [
+    "Boston",
+    "MA",
+    1
+   ],
+   [
+    "Chicago",
+    "IL",
+    2
+   ],
+   [
+    "Houston",
+    "TX",
+    1
+   ],
+   [
+    "Manhattan Beach",
+    "CA",
+    1
+   ],
+   [
+    "Nashville",
+    "TN",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    2
+   ],
+   [
+    "Newport Beach",
+    "CA",
+    1
+   ],
+   [
+    "Palo Alto",
+    "CA",
+    1
+   ],
+   [
+    "San Francisco",
+    "CA",
+    1
+   ],
+   [
+    "Scottsdale",
+    "AZ",
+    1
+   ],
+   [
+    "Washington",
+    "DC",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 0,
+  "con": 0
+ },
+ "cities": "16 stores, including Chicago, New York, Atlanta · department stores and independent menswear shops, and its own site",
+ "region": {
+  "o": [
+   2926,
+   2934,
+   2935
+  ],
+  "s": [
+   10,
+   33,
+   36,
+   41,
+   53,
+   54,
+   72,
+   77,
+   96,
+   126,
+   136,
+   142
+  ]
+ },
+ "addmen": true,
+ "site": {
+  "domain": "rails.com",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 1966,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "licensed",
+  "marks": [
+   "TENCEL",
+   "Lycra"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 151,
+  "w": 150,
+  "n": 84,
+  "s": 14,
+  "c": 1,
+  "x": 26,
+  "xh": 3,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "shirts",
+   "shorts",
+   "pants"
+  ],
+  "st": "complete"
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants",
+  "Sweater",
+  "Outerwear"
+ ],
+ "garment_links": {
+  "T-shirt": "https://www.rails.com/collections/mens-t-shirts-polos",
+  "Polo": "https://www.rails.com/collections/mens-t-shirts-polos",
+  "Dress shirt": "https://www.rails.com/collections/mens-shirts",
+  "Jeans": "https://www.rails.com/collections/mens-denim",
+  "Dress pants": "https://www.rails.com/collections/mens-pants",
+  "Sweater": "https://www.rails.com/collections/mens-sweaters",
+  "Outerwear": "https://www.rails.com/collections/mens-jackets-coats"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "JOHNNY T-SHIRT - CARBON",
+   "lu": "https://www.rails.com/products/johnny-carbon",
+   "hp": "MASON COTTON CASHMERE T-SHIRT - BLACK",
+   "hu": "https://www.rails.com/products/mason-cotton-cashmere-shirt-black",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 2,
-    "linen": 2,
-    "cotton": 2,
-    "wool": 1,
-    "synth": 2
+  "Polo": {
+   "lp": "MERCED GOLF POLO SHIRT - WHITE",
+   "lu": "https://www.rails.com/products/merced-golf-polo-shirt-white",
+   "hp": "ROYCE POLO SHIRT - NAVY GREY",
+   "hu": "https://www.rails.com/products/royce-polo-shirt-navy-grey",
+   "b": "range"
   },
-  "dials": {
-    "dur": 3,
-    "forg": 3,
-    "fuss": 0,
-    "golffice": 0,
-    "whitet": 2,
-    "logo": 1,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 2
+  "Dress shirt": {
+   "lp": "FAIRFAX SHIRT - WHITE",
+   "lu": "https://www.rails.com/products/fairfax-shirt-white",
+   "hp": "CLAIRO SHIRT - CREAM QUILT SQUARES",
+   "hu": "https://www.rails.com/products/clairo-shirt-cream-quilt-squares",
+   "b": "range"
   },
-  "why": "Soft shirts and casual clothing in a proprietary Tencel blend.",
-  "origin": "Founded in Los Angeles in 2008 by Jeff Abrams.",
-  "chan": ["O", "D", "I"],
-  "conf": "S",
-  "forgc": [4, 3, 1],
-  "shop": "https://www.rails.com/search?q=",
-  "onething": {
-    "p": "Lennox shirt",
-    "u": "https://www.rails.com/search?q=Lennox%20shirt%20men",
-    "n": "works"
+  "Jeans": {
+   "lp": "NASH STRAIGHT - DARK BLACK",
+   "lu": "https://www.rails.com/products/nash-straight-dark-black",
+   "hp": "CLAYTON SLIM STRAIGHT - DARK BLACK",
+   "hu": "https://www.rails.com/products/clayton-straight-dark-black",
+   "b": "range"
   },
-  "prices": [[78, 148], [98, 178], [138, 188], [168, 168], [158, 228], [148, 288], [198, 398], null],
-  "notes": {
-    "comfort": "a trade-secret Tencel blend; touch as corporate DNA",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 3; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Every Rails product checked says only 'Imported' with fiber content - no country, factory or mill. The sustainability page refers to unnamed WRAP-certified factories and 'the world's finest mills'. Nothing about making is checkable."
+  "Dress pants": {
+   "lp": "IRVING PANT - MERIDIAN",
+   "lu": "https://www.rails.com/products/irving-pant-meridian",
+   "hp": "MURPHY PANT - CELESTIAL TWEED",
+   "hu": "https://www.rails.com/products/murphy-pant-celestial-tweed",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 16,
-    "cities": [
-      ["Atlanta", "GA", 1],
-      ["Austin", "TX", 1],
-      ["Bethesda", "MD", 1],
-      ["Boston", "MA", 1],
-      ["Chicago", "IL", 2],
-      ["Houston", "TX", 1],
-      ["Manhattan Beach", "CA", 1],
-      ["Nashville", "TN", 1],
-      ["New York", "NY", 2],
-      ["Newport Beach", "CA", 1],
-      ["Palo Alto", "CA", 1],
-      ["San Francisco", "CA", 1],
-      ["Scottsdale", "AZ", 1],
-      ["Washington", "DC", 1]
-    ],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Sweater": {
+   "lp": "THEO SHORT SLEEVE SWEATER - HEATHER GREY",
+   "lu": "https://www.rails.com/products/theo-short-sleeve-sweater-heather-grey",
+   "hp": "SELDON CARDIGAN - MOON SHADOW",
+   "hu": "https://www.rails.com/products/seldon-cardigan-moon-shadow",
+   "b": "range"
   },
-  "cities": "16 stores, including Chicago, New York, Atlanta · department stores and independent menswear shops, and its own site",
-  "region": {
-    "o": [2289, 2291, 2292],
-    "s": [10, 33, 36, 41, 53, 54, 72, 77, 96, 126, 136, 142]
-  },
-  "addmen": true,
-  "site": {
-    "domain": "rails.com",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 1966,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "licensed",
-    "marks": ["TENCEL", "Lycra"],
-    "source": "census",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 151,
-    "w": 150,
-    "n": 84,
-    "s": 14,
-    "c": 1,
-    "x": 26,
-    "xh": 3,
-    "sp": "one",
-    "sc": [],
-    "nc": ["shirts", "shorts", "pants"],
-    "st": "complete"
-  },
-  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants", "Sweater", "Outerwear"],
-  "garment_links": {
-    "T-shirt": "https://www.rails.com/collections/mens-t-shirts-polos",
-    "Polo": "https://www.rails.com/collections/mens-t-shirts-polos",
-    "Dress shirt": "https://www.rails.com/collections/mens-shirts",
-    "Jeans": "https://www.rails.com/collections/mens-denim",
-    "Dress pants": "https://www.rails.com/collections/mens-pants",
-    "Sweater": "https://www.rails.com/collections/mens-sweaters",
-    "Outerwear": "https://www.rails.com/collections/mens-jackets-coats"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "JOHNNY T-SHIRT - CARBON",
-      "lu": "https://www.rails.com/products/johnny-carbon",
-      "hp": "MASON COTTON CASHMERE T-SHIRT - BLACK",
-      "hu": "https://www.rails.com/products/mason-cotton-cashmere-shirt-black",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "MERCED GOLF POLO SHIRT - WHITE",
-      "lu": "https://www.rails.com/products/merced-golf-polo-shirt-white",
-      "hp": "ROYCE POLO SHIRT - NAVY GREY",
-      "hu": "https://www.rails.com/products/royce-polo-shirt-navy-grey",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "FAIRFAX SHIRT - WHITE",
-      "lu": "https://www.rails.com/products/fairfax-shirt-white",
-      "hp": "CLAIRO SHIRT - CREAM QUILT SQUARES",
-      "hu": "https://www.rails.com/products/clairo-shirt-cream-quilt-squares",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "NASH STRAIGHT - DARK BLACK",
-      "lu": "https://www.rails.com/products/nash-straight-dark-black",
-      "hp": "CLAYTON SLIM STRAIGHT - DARK BLACK",
-      "hu": "https://www.rails.com/products/clayton-straight-dark-black",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "IRVING PANT - MERIDIAN",
-      "lu": "https://www.rails.com/products/irving-pant-meridian",
-      "hp": "MURPHY PANT - CELESTIAL TWEED",
-      "hu": "https://www.rails.com/products/murphy-pant-celestial-tweed",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "THEO SHORT SLEEVE SWEATER - HEATHER GREY",
-      "lu": "https://www.rails.com/products/theo-short-sleeve-sweater-heather-grey",
-      "hp": "SELDON CARDIGAN - MOON SHADOW",
-      "hu": "https://www.rails.com/products/seldon-cardigan-moon-shadow",
-      "b": "range"
-    },
-    "Outerwear": {
-      "lp": "COOKE JACKET - LIGHT WASH",
-      "lu": "https://www.rails.com/products/cooke-jacket-light-wash",
-      "hp": "HOCKNEY OVERCOAT - HIGHLAND TWEED",
-      "hu": "https://www.rails.com/products/hockney-overcoat-highland-tweed",
-      "b": "range"
-    }
-  },
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.rails.com/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "Rails Golf (men's golf polos, tagged MENSGOLF)"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=318959",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "season": {
-    "l": "Fall '26 ('Fall 2026 Lookbook')",
-    "t": "lookbook",
-    "u": "https://www.rails.com/pages/fall-2026-lookbook",
-    "m": "unisex"
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "Sustainability page: 'We work with Wrap Certified factories ... many of whom have been in our supply chain network for more than 15 years'; no owned or named factory.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "none",
-    "countries": "'Imported' with no country on all products checked (4 men's PDPs: Nash jeans, Harris blazer, Irving pant, Johnny tee; plus ~24 men's/women's items in products.json feed, all 'Imported').",
-    "heritage": "vague",
-    "repair": "no",
-    "process": "no",
-    "urls": ["https://www.rails.com/products/nash-straight-ecru", "https://www.rails.com/pages/sustainability"],
-    "conf": "high",
-    "read": "2026-10-03"
+  "Outerwear": {
+   "lp": "COOKE JACKET - LIGHT WASH",
+   "lu": "https://www.rails.com/products/cooke-jacket-light-wash",
+   "hp": "HOCKNEY OVERCOAT - HIGHLAND TWEED",
+   "hu": "https://www.rails.com/products/hockney-overcoat-highland-tweed",
+   "b": "range"
   }
+ },
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.rails.com/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "Rails Golf (men's golf polos, tagged MENSGOLF)"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=318959",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "season": {
+  "l": "Fall '26 ('Fall 2026 Lookbook')",
+  "t": "lookbook",
+  "u": "https://www.rails.com/pages/fall-2026-lookbook",
+  "m": "unisex"
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "Sustainability page: 'We work with Wrap Certified factories ... many of whom have been in our supply chain network for more than 15 years'; no owned or named factory.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "none",
+  "countries": "'Imported' with no country on all products checked (4 men's PDPs: Nash jeans, Harris blazer, Irving pant, Johnny tee; plus ~24 men's/women's items in products.json feed, all 'Imported').",
+  "heritage": "vague",
+  "repair": "no",
+  "process": "no",
+  "urls": [
+   "https://www.rails.com/products/nash-straight-ecru",
+   "https://www.rails.com/pages/sustainability"
+  ],
+  "conf": "high",
+  "read": "2026-10-03"
+ }
 }

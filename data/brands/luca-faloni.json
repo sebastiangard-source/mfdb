@@ -1,215 +1,277 @@
 {
-  "name": "Luca Faloni",
-  "band": "accessible",
-  "seat": 115,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 4,
-    "craft": 2,
-    "style": 3
-  },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 5,
-    "linen": 4,
-    "cotton": 3,
-    "wool": 1,
-    "synth": 1
-  },
-  "dials": {
-    "dur": 2,
-    "forg": 3,
-    "fuss": 3,
-    "golffice": -1,
-    "shoes": 0,
-    "ital": 5,
-    "boat": 4,
-    "whitet": 2,
-    "logo": 1,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 2
-  },
-  "why": "Cashmere, linen and cotton knitwear and shirts made in Italy, sold direct with the mills named.",
-  "origin": "Founded in London in 2014 by Luca Faloni.",
-  "chan": ["O", "W"],
-  "conf": "L",
-  "forgc": [3, 3, 1],
-  "shop": "https://lucafaloni.com/en/us/search?query=",
-  "onething": {
-    "p": "Portofino linen shirt",
-    "u": "https://lucafaloni.com/en/us/shop/sky-blue-portofino-linen-shirt",
-    "n": "direct — the sky blue Portofino, verified"
-  },
-  "prices": [
-    [165, 185, "USD_landed"],
-    [160, 275, "USD_landed"],
-    [210, 345, "USD_landed"],
-    [195, 275, "USD_landed"],
-    [325, 360, "USD_landed"],
-    [375, 575, "USD_landed"],
-    [545, 2095, "USD_landed"],
-    [325, 325, "USD_landed"]
+ "name": "Luca Faloni",
+ "band": "accessible",
+ "seat": 115,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 4,
+  "craft": 2,
+  "style": 3
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 5,
+  "linen": 4,
+  "cotton": 3,
+  "wool": 1,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 2,
+  "forg": 3,
+  "fuss": 3,
+  "golffice": -1,
+  "shoes": 0,
+  "ital": 5,
+  "boat": 4,
+  "whitet": 2,
+  "logo": 1,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 2
+ },
+ "why": "Cashmere, linen and cotton knitwear and shirts made in Italy, sold direct with the mills named.",
+ "origin": "Founded in London in 2014 by Luca Faloni.",
+ "chan": [
+  "O",
+  "W"
+ ],
+ "conf": "L",
+ "forgc": [
+  3,
+  3,
+  1
+ ],
+ "shop": "https://lucafaloni.com/en/us/search?query=",
+ "onething": {
+  "p": "Portofino linen shirt",
+  "u": "https://lucafaloni.com/en/us/shop/sky-blue-portofino-linen-shirt",
+  "n": "direct — the sky blue Portofino, verified"
+ },
+ "prices": [
+  [
+   165,
+   185,
+   "USD_landed"
   ],
-  "price_checked": true,
-  "notes": {
-    "cashmere": "the same Cariaggi spinner as Cucinelli, at a quarter of the price",
-    "linen": "Brescia-knit linen jersey with an honest aloe finish",
-    "ital": "the entire pitch is Italy, shipped direct",
-    "boat": "Linen and cashmere aimed squarely at the Italian coast — Portofino more than Cowes. The boat is a setting here rather than an activity.",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 2; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Every Luca Faloni product page sampled says the piece is made or knitted in Northern Italy (one names Iseo), but none names a mill or a workshop. Mill names (Cariaggi, Grandi & Rubinelli) appear only on story/home pages, and the brand owns no making. Country and region of make, little else: a 2, with 3 arguable on the off-PDP mill mentions."
+  [
+   160,
+   275,
+   "USD_landed"
+  ],
+  [
+   210,
+   345,
+   "USD_landed"
+  ],
+  [
+   195,
+   275,
+   "USD_landed"
+  ],
+  [
+   325,
+   360,
+   "USD_landed"
+  ],
+  [
+   375,
+   575,
+   "USD_landed"
+  ],
+  [
+   545,
+   2095,
+   "USD_landed"
+  ],
+  [
+   325,
+   325,
+   "USD_landed"
+  ]
+ ],
+ "price_checked": true,
+ "notes": {
+  "cashmere": "the same Cariaggi spinner as Cucinelli, at a quarter of the price",
+  "linen": "Brescia-knit linen jersey with an honest aloe finish",
+  "ital": "the entire pitch is Italy, shipped direct",
+  "boat": "Linen and cashmere aimed squarely at the Italian coast — Portofino more than Cowes. The boat is a setting here rather than an activity.",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 2; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "Every Luca Faloni product page sampled says the piece is made or knitted in Northern Italy (one names Iseo), but none names a mill or a workshop. Mill names (Cariaggi, Grandi & Rubinelli) appear only on story/home pages, and the brand owns no making. Country and region of make, little else: a 2, with 3 arguable on the off-PDP mill mentions."
+ },
+ "doors": {
+  "c": "full",
+  "n": 3,
+  "cities": [
+   [
+    "Miami",
+    "FL",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    2
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 0,
+  "con": 0
+ },
+ "cities": "3 stores — New York, Miami, and its own site",
+ "region": {
+  "o": [
+   2140,
+   2141
+  ],
+  "s": []
+ },
+ "site": {
+  "domain": "lucafaloni.com",
+  "platform": "custom",
+  "feed": "sitemap_products",
+  "feed_count": 760,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "licensed",
+  "marks": [
+   "Supima (craft/cotton editorial page only)",
+   "no garment technology",
+   "'exclusive technical fabric' unnamed"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 91,
+  "w": 91,
+  "n": 99,
+  "s": 1,
+  "c": 0,
+  "x": 10,
+  "xh": 0,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "Knitwear",
+   "Accessories",
+   "Polos/T-shirts"
+  ],
+  "st": "complete"
+ },
+ "garment_links": {
+  "T-shirt": "https://lucafaloni.com/en/us/shop/t-shirts",
+  "Polo": "https://lucafaloni.com/en/us/shop/polos",
+  "Dress shirt": "https://lucafaloni.com/en/us/shop/shirts",
+  "Jeans": "https://lucafaloni.com/en/us/shop/classic-jeans",
+  "Dress pants": "https://lucafaloni.com/en/us/shop/wool-trousers",
+  "Sweater": "https://lucafaloni.com/en/us/shop/all-knitwear",
+  "Outerwear": "https://lucafaloni.com/en/us/shop/jackets"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "T-Shirt, Cashmere-Cotton (85% cotton/15% cashmere)",
+   "lu": "https://lucafaloni.com/en/us/shop/white-cashmere-cotton-t-shirt",
+   "hp": "T-Shirt, Silk-Cotton (60% silk)",
+   "hu": "https://lucafaloni.com/en/us/shop/marine-green-silk-cotton-t-shirt",
+   "b": "pair"
   },
-  "doors": {
-    "c": "full",
-    "n": 3,
-    "cities": [["Miami", "FL", 1], ["New York", "NY", 2]],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Polo": {
+   "lp": "Classic Polo, Cotton Piqué",
+   "lu": "https://lucafaloni.com/en/us/shop/white-classic-pique-polo",
+   "hp": "Polo, Silk-Cotton (60% silk, short-sleeved)",
+   "hu": "https://lucafaloni.com/en/us/shop/nocciola-brown-silk-cotton-polo",
+   "b": "pair"
   },
-  "cities": "3 stores — New York, Miami, and its own site",
-  "region": {
-    "o": [1616, 1617],
-    "s": []
+  "Dress shirt": {
+   "lp": "Classic Shirt, Cotton Oxford",
+   "lu": "https://lucafaloni.com/en/us/shop/white-oxford-cotton-shirt",
+   "hp": "Como Shirt, Silk-Cotton (60% silk)",
+   "hu": "https://lucafaloni.com/en/us/shop/marine-green-como-silk-cotton-shirt",
+   "b": "pair"
   },
-  "site": {
-    "domain": "lucafaloni.com",
-    "platform": "custom",
-    "feed": "sitemap_products",
-    "feed_count": 760,
-    "status": "live_store",
-    "checked": "2026-09-13"
+  "Jeans": {
+   "lp": "Jeans, Denim",
+   "lu": "https://lucafaloni.com/en/us/shop/dark-blue-jeans",
+   "hp": "Jeans, Cashmere-Denim (6% cashmere)",
+   "hu": "https://lucafaloni.com/en/us/shop/light-blue-dark-blue-cashmere-denim-jeans",
+   "b": "range"
   },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "licensed",
-    "marks": [
-      "Supima (craft/cotton editorial page only)",
-      "no garment technology",
-      "'exclusive technical fabric' unnamed"
-    ],
-    "source": "census",
-    "checked": "2026-09-12"
+  "Dress pants": {
+   "lp": "Pleated Trousers, Wool (VBC virgin wool)",
+   "lu": "https://lucafaloni.com/en/us/shop/charcoal-grey-wool-pleated-trousers",
+   "hp": "Elegant Trousers, Linen (pleated, side adjusters)",
+   "hu": "https://lucafaloni.com/en/us/shop/sand-elegant-linen-trousers",
+   "b": "range"
   },
-  "fibre": {
-    "t": 91,
-    "w": 91,
-    "n": 99,
-    "s": 1,
-    "c": 0,
-    "x": 10,
-    "xh": 0,
-    "sp": "one",
-    "sc": [],
-    "nc": ["Knitwear", "Accessories", "Polos/T-shirts"],
-    "st": "complete"
+  "Sweater": {
+   "lp": "Crew Neck, Cashmere (2-Ply)",
+   "lu": "https://lucafaloni.com/en/us/shop/cobalt-cashmere-crew-neck",
+   "hp": "Crew Neck, Cashmere (4-Ply, chunky knit)",
+   "hu": "https://lucafaloni.com/en/us/shop/rust-chunky-knit-cashmere-crew-neck",
+   "b": "pair"
   },
-  "garment_links": {
-    "T-shirt": "https://lucafaloni.com/en/us/shop/t-shirts",
-    "Polo": "https://lucafaloni.com/en/us/shop/polos",
-    "Dress shirt": "https://lucafaloni.com/en/us/shop/shirts",
-    "Jeans": "https://lucafaloni.com/en/us/shop/classic-jeans",
-    "Dress pants": "https://lucafaloni.com/en/us/shop/wool-trousers",
-    "Sweater": "https://lucafaloni.com/en/us/shop/all-knitwear",
-    "Outerwear": "https://lucafaloni.com/en/us/shop/jackets"
+  "Outerwear": {
+   "lp": "Bomber Jacket, Linen-Cotton",
+   "lu": "https://lucafaloni.com/en/us/shop/french-blue-linen-cotton-bomber-jacket",
+   "hp": "Classic Bomber Jacket, goatskin suede",
+   "hu": "https://lucafaloni.com/en/us/shop/steel-blue-classic-bomber-jacket",
+   "b": "pair"
   },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "T-Shirt, Cashmere-Cotton (85% cotton/15% cashmere)",
-      "lu": "https://lucafaloni.com/en/us/shop/white-cashmere-cotton-t-shirt",
-      "hp": "T-Shirt, Silk-Cotton (60% silk)",
-      "hu": "https://lucafaloni.com/en/us/shop/marine-green-silk-cotton-t-shirt",
-      "b": "pair"
-    },
-    "Polo": {
-      "lp": "Classic Polo, Cotton Piqué",
-      "lu": "https://lucafaloni.com/en/us/shop/white-classic-pique-polo",
-      "hp": "Polo, Silk-Cotton (60% silk, short-sleeved)",
-      "hu": "https://lucafaloni.com/en/us/shop/nocciola-brown-silk-cotton-polo",
-      "b": "pair"
-    },
-    "Dress shirt": {
-      "lp": "Classic Shirt, Cotton Oxford",
-      "lu": "https://lucafaloni.com/en/us/shop/white-oxford-cotton-shirt",
-      "hp": "Como Shirt, Silk-Cotton (60% silk)",
-      "hu": "https://lucafaloni.com/en/us/shop/marine-green-como-silk-cotton-shirt",
-      "b": "pair"
-    },
-    "Jeans": {
-      "lp": "Jeans, Denim",
-      "lu": "https://lucafaloni.com/en/us/shop/dark-blue-jeans",
-      "hp": "Jeans, Cashmere-Denim (6% cashmere)",
-      "hu": "https://lucafaloni.com/en/us/shop/light-blue-dark-blue-cashmere-denim-jeans",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Pleated Trousers, Wool (VBC virgin wool)",
-      "lu": "https://lucafaloni.com/en/us/shop/charcoal-grey-wool-pleated-trousers",
-      "hp": "Elegant Trousers, Linen (pleated, side adjusters)",
-      "hu": "https://lucafaloni.com/en/us/shop/sand-elegant-linen-trousers",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Crew Neck, Cashmere (2-Ply)",
-      "lu": "https://lucafaloni.com/en/us/shop/cobalt-cashmere-crew-neck",
-      "hp": "Crew Neck, Cashmere (4-Ply, chunky knit)",
-      "hu": "https://lucafaloni.com/en/us/shop/rust-chunky-knit-cashmere-crew-neck",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "Bomber Jacket, Linen-Cotton",
-      "lu": "https://lucafaloni.com/en/us/shop/french-blue-linen-cotton-bomber-jacket",
-      "hp": "Classic Bomber Jacket, goatskin suede",
-      "hu": "https://lucafaloni.com/en/us/shop/steel-blue-classic-bomber-jacket",
-      "b": "pair"
-    },
-    "Shoes": {
-      "lp": "Sneakers, calf suede",
-      "lu": "https://lucafaloni.com/en/us/shop/sand-suede-sneakers",
-      "hp": "Sneakers, calf suede",
-      "hu": "https://lucafaloni.com/en/us/shop/sand-suede-sneakers",
-      "b": "single"
-    }
-  },
-  "price_range_only": ["Jeans", "Dress pants"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://lucafaloni.com/en/us",
-    "currency": "USD_landed",
-    "status": "read",
-    "sublines": "-"
-  },
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=2459851",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "No owned facility found. Our Story: 'We travelled across all regions of Italy to select the most experienced artisans'. Our Artisans page profiles one partner, 'Angelo and his family' in Scandicci, Tuscany (travel bags, called 'one of our partners'). No factory, mill or workshop is claimed as owned.",
-    "makers": "no",
-    "mills": "some",
-    "madein": "every product",
-    "countries": "Italy 9/9, stated as 'Made/Knitted in Northern Italy' (8/9) or 'Made in Iseo, Northern Italy' (1/9). Sample of 9 PDPs: 2 cashmere crews, linen shirt, brushed cotton shirt, 2 linen blazers, cotton chinos, linen-cotton bomber, silk-cotton tee.",
-    "heritage": "vague",
-    "repair": "yes",
-    "process": "some",
-    "urls": [
-      "https://lucafaloni.com/en/us/shop/sand-linen-cotton-bomber-jacket",
-      "https://lucafaloni.com/en/us/pages/our-story"
-    ],
-    "conf": "medium",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Sneakers, calf suede",
+   "lu": "https://lucafaloni.com/en/us/shop/sand-suede-sneakers",
+   "hp": "Sneakers, calf suede",
+   "hu": "https://lucafaloni.com/en/us/shop/sand-suede-sneakers",
+   "b": "single"
   }
+ },
+ "price_range_only": [
+  "Jeans",
+  "Dress pants"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://lucafaloni.com/en/us",
+  "currency": "USD_landed",
+  "status": "read",
+  "sublines": "-"
+ },
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=2459851",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "No owned facility found. Our Story: 'We travelled across all regions of Italy to select the most experienced artisans'. Our Artisans page profiles one partner, 'Angelo and his family' in Scandicci, Tuscany (travel bags, called 'one of our partners'). No factory, mill or workshop is claimed as owned.",
+  "makers": "no",
+  "mills": "some",
+  "madein": "every product",
+  "countries": "Italy 9/9, stated as 'Made/Knitted in Northern Italy' (8/9) or 'Made in Iseo, Northern Italy' (1/9). Sample of 9 PDPs: 2 cashmere crews, linen shirt, brushed cotton shirt, 2 linen blazers, cotton chinos, linen-cotton bomber, silk-cotton tee.",
+  "heritage": "vague",
+  "repair": "yes",
+  "process": "some",
+  "urls": [
+   "https://lucafaloni.com/en/us/shop/sand-linen-cotton-bomber-jacket",
+   "https://lucafaloni.com/en/us/pages/our-story"
+  ],
+  "conf": "medium",
+  "read": "2026-10-03"
+ }
 }

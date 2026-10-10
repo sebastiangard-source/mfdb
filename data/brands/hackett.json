@@ -1,219 +1,270 @@
 {
-  "name": "Hackett",
-  "band": "accessible",
-  "seat": 92,
-  "dagger": 0,
-  "focus": {
-    "tech": 1,
-    "comfort": 3,
-    "craft": 4,
-    "style": 3
-  },
-  "fabric": {
-    "denim": 2,
-    "cashmere": 4,
-    "linen": 2,
-    "cotton": 5,
-    "wool": 4,
-    "synth": 2
-  },
-  "dials": {
-    "dur": 3,
-    "forg": 3,
-    "fuss": -1,
-    "shoes": 3,
-    "status": 2,
-    "finbro": 2,
-    "ivy": 3,
-    "prep": 5,
-    "briish": 5,
-    "whitet": 2,
-    "logo": 1,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
-  },
-  "why": "English clothing in a sporting-gentleman style — polos, rugby shirts, chinos, blazers — with a tailoring line above.",
-  "origin": "Founded in London in 1979 by Jeremy Hackett and Ashley Lloyd-Jennings, who started by reselling second-hand tailoring on Portobello Road.",
-  "chan": ["W"],
-  "conf": "L",
-  "forgc": [3, 3, 1],
-  "onething": {
-    "p": "Heritage logo polo",
-    "u": "https://www.hackett.com/intl/en/men/polos-shirts/?refine=c_product_type_bk%3DShort-sleeved%20polo%20shirts&refine=c_subbrand%3DHackett%20Heritage&sort=best-matches",
-    "n": "verified — Jeremy Hackett, asked in an interview to name the one thing, said the logo polo. Heritage is the sub-brand that carries the oversized logo and lettering, so this is that polo. A fetch from here dropped the sub-brand refinement, which the site's scripts likely restore; worth confirming in a browser"
-  },
-  "prices": [
-    [45, 90, "GBP"],
-    [80, 200, "GBP"],
-    [90, 200, "GBP"],
-    [140, 230, "GBP"],
-    [200, 320, "GBP"],
-    [110, 350, "GBP"],
-    [200, 1100, "GBP"],
-    [190, 370, "GBP"]
+ "name": "Hackett",
+ "band": "accessible",
+ "seat": 92,
+ "dagger": 0,
+ "focus": {
+  "tech": 1,
+  "comfort": 3,
+  "craft": 4,
+  "style": 3
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 4,
+  "linen": 2,
+  "cotton": 5,
+  "wool": 4,
+  "synth": 2
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 3,
+  "fuss": -1,
+  "shoes": 3,
+  "status": 2,
+  "finbro": 2,
+  "ivy": 3,
+  "prep": 5,
+  "briish": 5,
+  "whitet": 2,
+  "logo": 1,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "English clothing in a sporting-gentleman style — polos, rugby shirts, chinos, blazers — with a tailoring line above.",
+ "origin": "Founded in London in 1979 by Jeremy Hackett and Ashley Lloyd-Jennings, who started by reselling second-hand tailoring on Portobello Road.",
+ "chan": [
+  "W"
+ ],
+ "conf": "L",
+ "forgc": [
+  3,
+  3,
+  1
+ ],
+ "onething": {
+  "p": "Heritage logo polo",
+  "u": "https://www.hackett.com/intl/en/men/polos-shirts/?refine=c_product_type_bk%3DShort-sleeved%20polo%20shirts&refine=c_subbrand%3DHackett%20Heritage&sort=best-matches",
+  "n": "verified — Jeremy Hackett, asked in an interview to name the one thing, said the logo polo. Heritage is the sub-brand that carries the oversized logo and lettering, so this is that polo. A fetch from here dropped the sub-brand refinement, which the site's scripts likely restore; worth confirming in a browser"
+ },
+ "prices": [
+  [
+   45,
+   90,
+   "GBP"
   ],
-  "price_checked": true,
-  "shoelink": {
-    "t": "shoes",
-    "u": "https://www.hackett.com/intl/en/men/shoes-collection/"
+  [
+   80,
+   200,
+   "GBP"
+  ],
+  [
+   90,
+   200,
+   "GBP"
+  ],
+  [
+   140,
+   230,
+   "GBP"
+  ],
+  [
+   200,
+   320,
+   "GBP"
+  ],
+  [
+   110,
+   350,
+   "GBP"
+  ],
+  [
+   200,
+   1100,
+   "GBP"
+  ],
+  [
+   190,
+   370,
+   "GBP"
+  ]
+ ],
+ "price_checked": true,
+ "shoelink": {
+  "t": "shoes",
+  "u": "https://www.hackett.com/intl/en/men/shoes-collection/"
+ },
+ "notes": {
+  "prep": "the British register rather than the American one, and constitutive rather than referenced — the brand was founded to put this wardrobe back into production",
+  "ivy": "a cousin of the collegiate canon rather than the canon itself; the oxford and the rugby shirt overlap, the campus lineage does not",
+  "craft": "Hackett PDPs name the cloth's weaving country (England or Italy) and, on premium suits, the mill Loro Piana, but none states where the garment is made or who makes it. No owned making was found. [audit proposed 2 at low confidence; held at 4 pending a second read]",
+  "cashmere": "merino and merino-cashmere carry most of the knitwear",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 2; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "briish": "English sporting dress from a London house — rugby shirts, blazers, the polo — with British Army and Aston Martin partnerships.",
+  "cotton": "Piqué polos, oxford shirts and chinos in cotton throughout."
+ },
+ "doors": {
+  "c": "full",
+  "n": 0,
+  "cities": [],
+  "basis": "master 2026-08-29, pre-recapture"
+ },
+ "cities": "No store of its own in the US · no US site; its own site ships from the UK",
+ "site": {
+  "domain": "hackett.com",
+  "platform": "salesforce_commerce",
+  "feed": "sitemap_products",
+  "feed_count": 3705,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "licensed",
+  "marks": [
+   "LICENSED: Loro Piana (17 PDPs, 'woven in Italy by Loro Piana')",
+   "Alcantara (5)",
+   "Thermore (1). Generic house descriptors only: water-repellent, breathable, quick dry, easy care, waterproof backing membrane"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 450,
+  "w": 450,
+  "n": 88,
+  "s": 10,
+  "c": 2,
+  "x": 19,
+  "xh": 5,
+  "sp": "one",
+  "sc": [
+   "Outerwear",
+   "Swimwear"
+  ],
+  "nc": [
+   "Shirt",
+   "Knitwear",
+   "S/S Polo"
+  ],
+  "st": "complete"
+ },
+ "shop": "https://www.hackett.com/uk/en_gb/search?q=",
+ "garment_links": {
+  "T-shirt": "https://www.hackett.com/intl/en/men/t-shirts/",
+  "Polo": "https://www.hackett.com/intl/en/men/polos-shirts/",
+  "Dress shirt": "https://www.hackett.com/intl/en/men/b/dress-shirts",
+  "Jeans": "https://www.hackett.com/intl/en/men/b/jeans",
+  "Dress pants": "https://www.hackett.com/intl/en/men/b/trousers/suit-trousers",
+  "Sweater": "https://www.hackett.com/intl/en/men/jumpers-knitwear-cardigans/",
+  "Outerwear": "https://www.hackett.com/intl/en/men/coats-jackets/",
+  "Shoes": "https://www.hackett.com/intl/en/men/shoes-collection/"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Classic Fit Branded Shield Graphic T-Shirt",
+   "lu": "https://www.hackett.com/uk/en_gb/pd/classic-fit-branded-shield-graphic-t-shirt-HM5000148.html",
+   "hp": "Classic Fit Pima Cotton T-Shirt (Nº14 Savile Row)",
+   "hu": "https://www.hackett.com/uk/en_gb/pd/classic-fit-pima-cotton-t-shirt-HM5000070.html",
+   "b": "range"
   },
-  "notes": {
-    "prep": "the British register rather than the American one, and constitutive rather than referenced — the brand was founded to put this wardrobe back into production",
-    "ivy": "a cousin of the collegiate canon rather than the canon itself; the oxford and the rugby shirt overlap, the campus lineage does not",
-    "craft": "Hackett PDPs name the cloth's weaving country (England or Italy) and, on premium suits, the mill Loro Piana, but none states where the garment is made or who makes it. No owned making was found. [audit proposed 2 at low confidence; held at 4 pending a second read]",
-    "cashmere": "merino and merino-cashmere carry most of the knitwear",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 2; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "briish": "English sporting dress from a London house — rugby shirts, blazers, the polo — with British Army and Aston Martin partnerships.",
-    "cotton": "Piqué polos, oxford shirts and chinos in cotton throughout."
+  "Polo": {
+   "lp": "Classic Fit Short Sleeve Branded Polo",
+   "lu": "https://www.hackett.com/uk/en_gb/pd/classic-fit-short-sleeve-branded-polo-HM5600241.html",
+   "hp": "Classic Fit Short Sleeve Silk Blend Polo (Nº14 Savile Row)",
+   "hu": "https://www.hackett.com/uk/en_gb/pd/classic-fit-short-sleeve-silk-blend-polo-HM5600180.html",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 0,
-    "cities": [],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Dress shirt": {
+   "lp": "Tailored Fit City Solid End-on-End Shirt",
+   "lu": "https://www.hackett.com/uk/en_gb/pd/tailored-fit-city-solid-end-on-end-shirt-HM3010859.html",
+   "hp": "Tailored Fit Bengal Shirt - Made in Europe (Nº14 Savile Row)",
+   "hu": "https://www.hackett.com/uk/en_gb/pd/tailored-fit-bengal-shirt---made-in-europe-HM3010790.html",
+   "b": "range"
   },
-  "cities": "No store of its own in the US · no US site; its own site ships from the UK",
-  "site": {
-    "domain": "hackett.com",
-    "platform": "salesforce_commerce",
-    "feed": "sitemap_products",
-    "feed_count": 3705,
-    "status": "live_store",
-    "checked": "2026-09-13"
+  "Jeans": {
+   "lp": "Classic Fit Vintage Wash Denim",
+   "lu": "https://www.hackett.com/uk/en_gb/pd/classic-fit-vintage-wash-denim-HM212696.html",
+   "hp": "Regular Fit Mid Wash 5 Pocket Denim (Nº14 Savile Row)",
+   "hu": "https://www.hackett.com/uk/en_gb/pd/regular-fit-mid-wash-5-pocket-denim-HM2100162.html",
+   "b": "range"
   },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "licensed",
-    "marks": [
-      "LICENSED: Loro Piana (17 PDPs, 'woven in Italy by Loro Piana')",
-      "Alcantara (5)",
-      "Thermore (1). Generic house descriptors only: water-repellent, breathable, quick dry, easy care, waterproof backing membrane"
-    ],
-    "source": "census",
-    "checked": "2026-09-12"
+  "Dress pants": {
+   "lp": "Tapered Fit Formal Stretch Cotton Trouser",
+   "lu": "https://www.hackett.com/uk/en_gb/pd/tapered-fit-formal-stretch-cotton-trouser-HM4700086.html",
+   "hp": "Wool Formal Trouser - Woven in Italy (Nº14 Savile Row)",
+   "hu": "https://www.hackett.com/uk/en_gb/pd/wool-formal-trouser-woven-in-italy-HM4700067.html",
+   "b": "range"
   },
-  "fibre": {
-    "t": 450,
-    "w": 450,
-    "n": 88,
-    "s": 10,
-    "c": 2,
-    "x": 19,
-    "xh": 5,
-    "sp": "one",
-    "sc": ["Outerwear", "Swimwear"],
-    "nc": ["Shirt", "Knitwear", "S/S Polo"],
-    "st": "complete"
+  "Sweater": {
+   "lp": "Cotton Crew-Neck Jumper",
+   "lu": "https://www.hackett.com/uk/en_gb/pd/cotton-crew-neck-jumper-HM7000116.html",
+   "hp": "Cashmere Crew Neck Jumper (Nº14 Savile Row)",
+   "hu": "https://www.hackett.com/uk/en_gb/pd/cashmere-crew-neck-jumper-HM7000232.html",
+   "b": "pair"
   },
-  "shop": "https://www.hackett.com/uk/en_gb/search?q=",
-  "garment_links": {
-    "T-shirt": "https://www.hackett.com/intl/en/men/t-shirts/",
-    "Polo": "https://www.hackett.com/intl/en/men/polos-shirts/",
-    "Dress shirt": "https://www.hackett.com/intl/en/men/b/dress-shirts",
-    "Jeans": "https://www.hackett.com/intl/en/men/b/jeans",
-    "Dress pants": "https://www.hackett.com/intl/en/men/b/trousers/suit-trousers",
-    "Sweater": "https://www.hackett.com/intl/en/men/jumpers-knitwear-cardigans/",
-    "Outerwear": "https://www.hackett.com/intl/en/men/coats-jackets/",
-    "Shoes": "https://www.hackett.com/intl/en/men/shoes-collection/"
+  "Outerwear": {
+   "lp": "Branded Blouson Jacket",
+   "lu": "https://www.hackett.com/uk/en_gb/pd/branded-blouson-jacket-HM4000193.html",
+   "hp": "Lamb Leather Blouson Jacket (Nº14 Savile Row)",
+   "hu": "https://www.hackett.com/uk/en_gb/pd/lamb-leather-blouson-jacket-HM4000179.html",
+   "b": "pair"
   },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Classic Fit Branded Shield Graphic T-Shirt",
-      "lu": "https://www.hackett.com/uk/en_gb/pd/classic-fit-branded-shield-graphic-t-shirt-HM5000148.html",
-      "hp": "Classic Fit Pima Cotton T-Shirt (Nº14 Savile Row)",
-      "hu": "https://www.hackett.com/uk/en_gb/pd/classic-fit-pima-cotton-t-shirt-HM5000070.html",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Classic Fit Short Sleeve Branded Polo",
-      "lu": "https://www.hackett.com/uk/en_gb/pd/classic-fit-short-sleeve-branded-polo-HM5600241.html",
-      "hp": "Classic Fit Short Sleeve Silk Blend Polo (Nº14 Savile Row)",
-      "hu": "https://www.hackett.com/uk/en_gb/pd/classic-fit-short-sleeve-silk-blend-polo-HM5600180.html",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Tailored Fit City Solid End-on-End Shirt",
-      "lu": "https://www.hackett.com/uk/en_gb/pd/tailored-fit-city-solid-end-on-end-shirt-HM3010859.html",
-      "hp": "Tailored Fit Bengal Shirt - Made in Europe (Nº14 Savile Row)",
-      "hu": "https://www.hackett.com/uk/en_gb/pd/tailored-fit-bengal-shirt---made-in-europe-HM3010790.html",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Classic Fit Vintage Wash Denim",
-      "lu": "https://www.hackett.com/uk/en_gb/pd/classic-fit-vintage-wash-denim-HM212696.html",
-      "hp": "Regular Fit Mid Wash 5 Pocket Denim (Nº14 Savile Row)",
-      "hu": "https://www.hackett.com/uk/en_gb/pd/regular-fit-mid-wash-5-pocket-denim-HM2100162.html",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Tapered Fit Formal Stretch Cotton Trouser",
-      "lu": "https://www.hackett.com/uk/en_gb/pd/tapered-fit-formal-stretch-cotton-trouser-HM4700086.html",
-      "hp": "Wool Formal Trouser - Woven in Italy (Nº14 Savile Row)",
-      "hu": "https://www.hackett.com/uk/en_gb/pd/wool-formal-trouser-woven-in-italy-HM4700067.html",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Cotton Crew-Neck Jumper",
-      "lu": "https://www.hackett.com/uk/en_gb/pd/cotton-crew-neck-jumper-HM7000116.html",
-      "hp": "Cashmere Crew Neck Jumper (Nº14 Savile Row)",
-      "hu": "https://www.hackett.com/uk/en_gb/pd/cashmere-crew-neck-jumper-HM7000232.html",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "Branded Blouson Jacket",
-      "lu": "https://www.hackett.com/uk/en_gb/pd/branded-blouson-jacket-HM4000193.html",
-      "hp": "Lamb Leather Blouson Jacket (Nº14 Savile Row)",
-      "hu": "https://www.hackett.com/uk/en_gb/pd/lamb-leather-blouson-jacket-HM4000179.html",
-      "b": "pair"
-    },
-    "Shoes": {
-      "lp": "Martins Suede Loafers",
-      "lu": "https://www.hackett.com/uk/en_gb/pd/martins-suede-loafers-HMS200104.html",
-      "hp": "Leather Loafer",
-      "hu": "https://www.hackett.com/uk/en_gb/pd/leather-loafer-HMS21340.html",
-      "b": "pair"
-    }
-  },
-  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.hackett.com/uk/en_gb/",
-    "currency": "GBP",
-    "status": "read",
-    "sublines": "Hackett London, Hackett Sport, Hackett Heritage, Nº14 Savile Row"
-  },
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=35705&brand_ids[]=123122",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "No owned factory or workshop named on any Hackett page read; PDPs give only the country the cloth was woven in. The Nº14 Savile Row line appears as a navigation link; its made-to-measure/bespoke service and any workroom were not reached.",
-    "makers": "no",
-    "mills": "some",
-    "madein": "none",
-    "countries": "0/6 PDPs state where the garment is made (gold-button blazer, Loro Piana suit, poplin shirt, wool-cashmere overcoat, Kensington chino, double-knit crew sweat). 3/6 give fabric weaving country only (England 1, Italy 2). The fetch reported no hidden tabs, but origin could still sit in an unrendered accordion.",
-    "heritage": "dated and placed",
-    "repair": "no",
-    "process": "no",
-    "urls": [
-      "https://www.hackett.com/uk/en_gb/pd/pure-wool-loro-piana-suit---woven-in-italy-HM423212595.html",
-      "https://www.hackett.com/uk/en_gb/pd/wool-gold-button-blazer---woven-in-england-HM441977595.html"
-    ],
-    "conf": "low",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Martins Suede Loafers",
+   "lu": "https://www.hackett.com/uk/en_gb/pd/martins-suede-loafers-HMS200104.html",
+   "hp": "Leather Loafer",
+   "hu": "https://www.hackett.com/uk/en_gb/pd/leather-loafer-HMS21340.html",
+   "b": "pair"
   }
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.hackett.com/uk/en_gb/",
+  "currency": "GBP",
+  "status": "read",
+  "sublines": "Hackett London, Hackett Sport, Hackett Heritage, Nº14 Savile Row"
+ },
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=35705&brand_ids[]=123122",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "No owned factory or workshop named on any Hackett page read; PDPs give only the country the cloth was woven in. The Nº14 Savile Row line appears as a navigation link; its made-to-measure/bespoke service and any workroom were not reached.",
+  "makers": "no",
+  "mills": "some",
+  "madein": "none",
+  "countries": "0/6 PDPs state where the garment is made (gold-button blazer, Loro Piana suit, poplin shirt, wool-cashmere overcoat, Kensington chino, double-knit crew sweat). 3/6 give fabric weaving country only (England 1, Italy 2). The fetch reported no hidden tabs, but origin could still sit in an unrendered accordion.",
+  "heritage": "dated and placed",
+  "repair": "no",
+  "process": "no",
+  "urls": [
+   "https://www.hackett.com/uk/en_gb/pd/pure-wool-loro-piana-suit---woven-in-italy-HM423212595.html",
+   "https://www.hackett.com/uk/en_gb/pd/wool-gold-button-blazer---woven-in-england-HM441977595.html"
+  ],
+  "conf": "low",
+  "read": "2026-10-03"
+ }
 }

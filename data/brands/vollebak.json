@@ -1,189 +1,244 @@
 {
-  "name": "Vollebak",
-  "band": "accessible",
-  "seat": 74,
-  "dagger": 1,
-  "focus": {
-    "tech": 5,
-    "comfort": 2,
-    "craft": 3,
-    "style": 4
+ "name": "Vollebak",
+ "band": "accessible",
+ "seat": 74,
+ "dagger": 1,
+ "focus": {
+  "tech": 5,
+  "comfort": 2,
+  "craft": 3,
+  "style": 4
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 1,
+  "wool": 1,
+  "synth": 5
+ },
+ "dials": {
+  "dur": 4,
+  "forg": 2,
+  "fuss": 1,
+  "avant": 3,
+  "weird": 4,
+  "briish": 2,
+  "whitet": 2,
+  "logo": 1,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 4,
+  "surf": 1
+ },
+ "why": "Clothing built around unusual materials — graphene, aerogel, Dyneema — sold as much for the material as the garment.",
+ "origin": "Founded in London in 2016 by the twin brothers Nick and Steve Tidball.",
+ "say": "VOL-eh-back",
+ "chan": [
+  "W"
+ ],
+ "conf": "S",
+ "forgc": [
+  2,
+  3,
+  1
+ ],
+ "shop": "https://vollebak.com/en-us/search?q=",
+ "onething": {
+  "p": "For When All Hell Breaks Loose Jacket",
+  "u": "https://vollebak.com/products/for-when-all-hell-breaks-loose-jacket",
+  "n": "verified ✓"
+ },
+ "prices": [
+  [
+   145,
+   395
+  ],
+  [
+   495,
+   495
+  ],
+  [
+   345,
+   495
+  ],
+  [
+   595,
+   595
+  ],
+  [
+   495,
+   895
+  ],
+  [
+   495,
+   995
+  ],
+  [
+   795,
+   5995
+  ],
+  null
+ ],
+ "notes": {
+  "tech": "names no technology and holds the dial anyway: the material is the name. Graphene, aramid, ceramic, aerogel and copper garments, with Dyneema and Schoeller licensed alongside",
+  "synth": "engineered materials as the entire catalog",
+  "avant": "avant-garde in material rather than form — graphene and aerogel as statements",
+  "weird": "jackets for Mars, hoodies you can bury in the garden",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 1; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "Every Vollebak product page sampled states where the garment was constructed (Romania, Portugal, UK, China, Vietnam) and where the material came from, and several name the mill or material maker (Schoeller, Sesia, Brunello, AlphaTek). The garment factories are never named and nothing is owned, but the process write-ups are unusually specific. Named mills, nothing owned: a 3."
+ },
+ "doors": {
+  "c": "full",
+  "n": 0,
+  "cities": [],
+  "basis": "master 2026-08-29, pre-recapture"
+ },
+ "cities": "Sold direct, through its own site only",
+ "site": {
+  "domain": "vollebak.com",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 231,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "licensed",
+  "marks": [
+   "Cordura",
+   "Dyneema",
+   "Schoeller c_change"
+  ],
+  "source": "origin_8",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 118,
+  "w": 113,
+  "n": 42,
+  "s": 51,
+  "c": 3,
+  "x": 35,
+  "xh": 25,
+  "sp": "split",
+  "sc": [
+   "Jackets",
+   "Pants",
+   "Shorts",
+   "Vests"
+  ],
+  "nc": [
+   "Sweats and Hoodies",
+   "Sweaters",
+   "Shirts"
+  ],
+  "st": "complete"
+ },
+ "garment_links": {
+  "T-shirt": "https://vollebak.com/en-us/collections/t-shirts-and-tops",
+  "Dress shirt": "https://vollebak.com/en-us/collections/shirts",
+  "Dress pants": "https://vollebak.com/en-us/collections/pants",
+  "Sweater": "https://vollebak.com/en-us/collections/knitwear",
+  "Outerwear": "https://vollebak.com/en-us/collections/coats-jackets"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "100 Year T Shirt. Black edition",
+   "lu": "https://vollebak.com/en-us/products/100-year-t-shirt-black-edition",
+   "hp": "Shielding T Shirt",
+   "hu": "https://vollebak.com/en-us/products/shielding-t-shirt",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 1,
-    "linen": 1,
-    "cotton": 1,
-    "wool": 1,
-    "synth": 5
+  "Polo": {
+   "lp": "Knitted Algae Polo",
+   "lu": "https://vollebak.com/en-us/products/knitted-algae-polo",
+   "hp": "Knitted Algae Polo",
+   "hu": "https://vollebak.com/en-us/products/knitted-algae-polo",
+   "b": "single"
   },
-  "dials": {
-    "dur": 4,
-    "forg": 2,
-    "fuss": 1,
-    "avant": 3,
-    "weird": 4,
-    "briish": 2,
-    "whitet": 2,
-    "logo": 1,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 4,
-    "surf": 1
+  "Dress shirt": {
+   "lp": "Cymatic Shirt. White edition",
+   "lu": "https://vollebak.com/en-us/products/cymatic-shirt-white-edition",
+   "hp": "Planet Earth Shirt 2. Black edition",
+   "hu": "https://vollebak.com/en-us/products/planet-earth-shirt-2-black-edition",
+   "b": "range"
   },
-  "why": "Clothing built around unusual materials — graphene, aerogel, Dyneema — sold as much for the material as the garment.",
-  "origin": "Founded in London in 2016 by the twin brothers Nick and Steve Tidball.",
-  "say": "VOL-eh-back",
-  "chan": ["W"],
-  "conf": "S",
-  "forgc": [2, 3, 1],
-  "shop": "https://vollebak.com/en-us/search?q=",
-  "onething": {
-    "p": "For When All Hell Breaks Loose Jacket",
-    "u": "https://vollebak.com/products/for-when-all-hell-breaks-loose-jacket",
-    "n": "verified ✓"
+  "Jeans": {
+   "lp": "Indestructible Jeans. Black edition",
+   "lu": "https://vollebak.com/en-us/products/indestructible-jeans",
+   "hp": "Indestructible Jeans. Black edition",
+   "hu": "https://vollebak.com/en-us/products/indestructible-jeans",
+   "b": "single"
   },
-  "prices": [[145, 395], [495, 495], [345, 495], [595, 595], [495, 895], [495, 995], [795, 5995], null],
-  "notes": {
-    "tech": "names no technology and holds the dial anyway: the material is the name. Graphene, aramid, ceramic, aerogel and copper garments, with Dyneema and Schoeller licensed alongside",
-    "synth": "engineered materials as the entire catalog",
-    "avant": "avant-garde in material rather than form — graphene and aerogel as statements",
-    "weird": "jackets for Mars, hoodies you can bury in the garden",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 1; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Every Vollebak product page sampled states where the garment was constructed (Romania, Portugal, UK, China, Vietnam) and where the material came from, and several name the mill or material maker (Schoeller, Sesia, Brunello, AlphaTek). The garment factories are never named and nothing is owned, but the process write-ups are unusually specific. Named mills, nothing owned: a 3."
+  "Dress pants": {
+   "lp": "Planet Earth Suit Pants. Navy edition",
+   "lu": "https://vollebak.com/en-us/products/planet-earth-suit-pants-navy-edition",
+   "hp": "The Graphene Suit Pants",
+   "hu": "https://vollebak.com/en-us/products/the-graphene-suit-pants",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 0,
-    "cities": [],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Sweater": {
+   "lp": "Antarctic Sweater. Navy edition",
+   "lu": "https://vollebak.com/en-us/products/antarctic-sweater-navy-edition",
+   "hp": "Planet Earth Cardigan. Black edition",
+   "hu": "https://vollebak.com/en-us/products/planet-earth-cardigan-black-edition",
+   "b": "range"
   },
-  "cities": "Sold direct, through its own site only",
-  "site": {
-    "domain": "vollebak.com",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 231,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "licensed",
-    "marks": ["Cordura", "Dyneema", "Schoeller c_change"],
-    "source": "origin_8",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 118,
-    "w": 113,
-    "n": 42,
-    "s": 51,
-    "c": 3,
-    "x": 35,
-    "xh": 25,
-    "sp": "split",
-    "sc": ["Jackets", "Pants", "Shorts", "Vests"],
-    "nc": ["Sweats and Hoodies", "Sweaters", "Shirts"],
-    "st": "complete"
-  },
-  "garment_links": {
-    "T-shirt": "https://vollebak.com/en-us/collections/t-shirts-and-tops",
-    "Dress shirt": "https://vollebak.com/en-us/collections/shirts",
-    "Dress pants": "https://vollebak.com/en-us/collections/pants",
-    "Sweater": "https://vollebak.com/en-us/collections/knitwear",
-    "Outerwear": "https://vollebak.com/en-us/collections/coats-jackets"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "100 Year T Shirt. Black edition",
-      "lu": "https://vollebak.com/en-us/products/100-year-t-shirt-black-edition",
-      "hp": "Shielding T Shirt",
-      "hu": "https://vollebak.com/en-us/products/shielding-t-shirt",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Knitted Algae Polo",
-      "lu": "https://vollebak.com/en-us/products/knitted-algae-polo",
-      "hp": "Knitted Algae Polo",
-      "hu": "https://vollebak.com/en-us/products/knitted-algae-polo",
-      "b": "single"
-    },
-    "Dress shirt": {
-      "lp": "Cymatic Shirt. White edition",
-      "lu": "https://vollebak.com/en-us/products/cymatic-shirt-white-edition",
-      "hp": "Planet Earth Shirt 2. Black edition",
-      "hu": "https://vollebak.com/en-us/products/planet-earth-shirt-2-black-edition",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Indestructible Jeans. Black edition",
-      "lu": "https://vollebak.com/en-us/products/indestructible-jeans",
-      "hp": "Indestructible Jeans. Black edition",
-      "hu": "https://vollebak.com/en-us/products/indestructible-jeans",
-      "b": "single"
-    },
-    "Dress pants": {
-      "lp": "Planet Earth Suit Pants. Navy edition",
-      "lu": "https://vollebak.com/en-us/products/planet-earth-suit-pants-navy-edition",
-      "hp": "The Graphene Suit Pants",
-      "hu": "https://vollebak.com/en-us/products/the-graphene-suit-pants",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Antarctic Sweater. Navy edition",
-      "lu": "https://vollebak.com/en-us/products/antarctic-sweater-navy-edition",
-      "hp": "Planet Earth Cardigan. Black edition",
-      "hu": "https://vollebak.com/en-us/products/planet-earth-cardigan-black-edition",
-      "b": "range"
-    },
-    "Outerwear": {
-      "lp": "Carbon Fibre + Dyneema® Jacket",
-      "lu": "https://vollebak.com/en-us/products/carbon-fibre-dyneema-shell",
-      "hp": "Thermal Cloaking Jacket. Metal edition",
-      "hu": "https://vollebak.com/en-us/products/thermal-cloaking-jacket-metal-edition",
-      "b": "range"
-    }
-  },
-  "price_range_only": ["T-shirt", "Dress shirt", "Dress pants", "Sweater", "Outerwear"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://vollebak.com/en-us",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?search_text=Vollebak&catalog[]=5",
-      "m": "text search",
-      "n": "No Vinted brand entry; keyword search in Men"
-    }
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "No owned factory, mill or workshop found. About page names only the founders (Nick and Steve Tidball) and partners (SAGA Space Architects, Bang & Olufsen); PDPs say 'Constructed in <country>' with partner factories unnamed.",
-    "makers": "no",
-    "mills": "some",
-    "madein": "every product",
-    "countries": "Sample of 8 PDPs, 8/8 state a country: Romania 2/8 (Full Metal Jacket, Martian Aerogel Jacket), Portugal 2/8 (100 Year T-Shirt, Graphene T-Shirt), UK 2/8 (Sub Zero Sweater, Underwater Kelp Cardigan), China 1/8 (Indestructible Jeans), Vietnam 1/8 (Planet Earth Suit Pants). Fabric origin also stated per PDP (Switzerland, Italy, Japan, UK, US).",
-    "heritage": "vague",
-    "repair": "no",
-    "process": "yes",
-    "urls": [
-      "https://vollebak.com/products/sub-zero-sweater-grey-marl-edition",
-      "https://vollebak.com/products/full-metal-jacket-copper-edition"
-    ],
-    "conf": "high",
-    "read": "2026-10-03"
+  "Outerwear": {
+   "lp": "Carbon Fibre + Dyneema® Jacket",
+   "lu": "https://vollebak.com/en-us/products/carbon-fibre-dyneema-shell",
+   "hp": "Thermal Cloaking Jacket. Metal edition",
+   "hu": "https://vollebak.com/en-us/products/thermal-cloaking-jacket-metal-edition",
+   "b": "range"
   }
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Dress shirt",
+  "Dress pants",
+  "Sweater",
+  "Outerwear"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://vollebak.com/en-us",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?search_text=Vollebak&catalog[]=5",
+   "m": "text search",
+   "n": "No Vinted brand entry; keyword search in Men"
+  }
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "No owned factory, mill or workshop found. About page names only the founders (Nick and Steve Tidball) and partners (SAGA Space Architects, Bang & Olufsen); PDPs say 'Constructed in <country>' with partner factories unnamed.",
+  "makers": "no",
+  "mills": "some",
+  "madein": "every product",
+  "countries": "Sample of 8 PDPs, 8/8 state a country: Romania 2/8 (Full Metal Jacket, Martian Aerogel Jacket), Portugal 2/8 (100 Year T-Shirt, Graphene T-Shirt), UK 2/8 (Sub Zero Sweater, Underwater Kelp Cardigan), China 1/8 (Indestructible Jeans), Vietnam 1/8 (Planet Earth Suit Pants). Fabric origin also stated per PDP (Switzerland, Italy, Japan, UK, US).",
+  "heritage": "vague",
+  "repair": "no",
+  "process": "yes",
+  "urls": [
+   "https://vollebak.com/products/sub-zero-sweater-grey-marl-edition",
+   "https://vollebak.com/products/full-metal-jacket-copper-edition"
+  ],
+  "conf": "high",
+  "read": "2026-10-03"
+ }
 }

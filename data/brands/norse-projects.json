@@ -1,205 +1,254 @@
 {
-  "name": "Norse Projects",
-  "band": "accessible",
-  "seat": 73,
-  "dagger": 1,
-  "focus": {
-    "tech": 3,
-    "comfort": 3,
-    "craft": 3,
-    "style": 4
+ "name": "Norse Projects",
+ "band": "accessible",
+ "seat": 73,
+ "dagger": 1,
+ "focus": {
+  "tech": 3,
+  "comfort": 3,
+  "craft": 3,
+  "style": 4
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 2,
+  "linen": 2,
+  "cotton": 3,
+  "wool": 3,
+  "synth": 2
+ },
+ "dials": {
+  "dur": 2,
+  "forg": 3,
+  "fuss": 0,
+  "street": 2,
+  "scandi": 5,
+  "whitet": 2,
+  "logo": 2,
+  "western": 1,
+  "rock": 1,
+  "workwear": 3,
+  "outdoor": 3,
+  "surf": 1
+ },
+ "why": "Plain, functional casual clothing — shirts, knitwear, outerwear — with the fabric sources published.",
+ "origin": "Founded in Copenhagen in 2004 by Tobias Sloth.",
+ "chan": [
+  "I",
+  "W"
+ ],
+ "conf": "L",
+ "forgc": [
+  4,
+  3,
+  1
+ ],
+ "shop": "https://www.norseprojects.com/search?q=",
+ "onething": {
+  "p": "Aros chino",
+  "u": "https://norseprojects.com/search?q=aros+chino",
+  "n": "no www, plus-encoded, verified"
+ },
+ "prices": [
+  [
+   90,
+   145
+  ],
+  [
+   250,
+   325
+  ],
+  [
+   215,
+   360
+  ],
+  [
+   395,
+   395
+  ],
+  [
+   215,
+   395
+  ],
+  [
+   270,
+   360
+  ],
+  [
+   395,
+   1600
+  ],
+  null
+ ],
+ "doors": {
+  "c": "full",
+  "n": 0,
+  "cities": [],
+  "basis": "master 2026-08-29, pre-recapture"
+ },
+ "cities": "No store of its own in the US · independent menswear shops, and its own site",
+ "region": {
+  "o": [],
+  "s": [
+   119
+  ]
+ },
+ "addmen": true,
+ "site": {
+  "domain": "norseprojects.com",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 447,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "licensed",
+  "marks": [
+   "GORE-TEX",
+   "GORE-TEX WINDSTOPPER",
+   "Pertex Quantum",
+   "CORDURA",
+   "SOLOTEX",
+   "Alpinix",
+   "37.5",
+   "TENCEL"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 147,
+  "w": 136,
+  "n": 83,
+  "s": 10,
+  "c": 0,
+  "x": 9,
+  "xh": 0,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "Shirting",
+   "Pullover Knitwear",
+   "Light Jackets"
+  ],
+  "st": "complete"
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Dress pants",
+  "Outerwear"
+ ],
+ "garment_links": {
+  "T-shirt": "https://norseprojects.com/collections/t-shirts",
+  "Polo": "https://norseprojects.com/search?q=polo",
+  "Dress shirt": "https://norseprojects.com/collections/shirting",
+  "Dress pants": "https://norseprojects.com/collections/trousers",
+  "Sweater": "https://norseprojects.com/collections/knitwear",
+  "Outerwear": "https://norseprojects.com/collections/outerwear"
+ },
+ "notes": {
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 2; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "scandi": "Copenhagen through and through: plain, functional, in a muted palette, with the fabric sources published.",
+  "craft": "Norse Projects owns no factory, but product pages name the maker with a short profile: Fontoli (Portugal) for the Oxford shirt, Blupuro Maglierie in Carpi for lambswool knits, Triwool (Portugal) for tees, and state country on most PDPs. Some pages also give gauge/yarn count and name a mill (Furuhashi). Naming makers on PDPs is a 3."
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Norse Standard T-shirt",
+   "lu": "https://www.norseprojects.com/products/norse-standard-t-shirt-grey-melange",
+   "hp": "Nordborg Cotton Crepe T-shirt",
+   "hu": "https://www.norseprojects.com/products/nordborg-cotton-crepe-t-shirt-black",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 2,
-    "cashmere": 2,
-    "linen": 2,
-    "cotton": 3,
-    "wool": 3,
-    "synth": 2
+  "Polo": {
+   "lp": "Anholt Cotton Paper Polo",
+   "lu": "https://www.norseprojects.com/products/anholt-cotton-paper-polo-shale",
+   "hp": "Anholt Cotton Crepe Polo",
+   "hu": "https://www.norseprojects.com/products/anholt-cotton-crepe-polo-dark-navy",
+   "b": "range"
   },
-  "dials": {
-    "dur": 2,
-    "forg": 3,
-    "fuss": 0,
-    "street": 2,
-    "scandi": 5,
-    "whitet": 2,
-    "logo": 2,
-    "western": 1,
-    "rock": 1,
-    "workwear": 3,
-    "outdoor": 3,
-    "surf": 1
+  "Dress shirt": {
+   "lp": "Kongshoved Cotton Twill GMD Relaxed Shirt",
+   "lu": "https://www.norseprojects.com/products/kongshoved-cotton-twill-gmd-relaxed-shirt-dark-navy",
+   "hp": "Falster Fine Cotton Flannel Check Oversize Shirt",
+   "hu": "https://www.norseprojects.com/products/falster-fine-cotton-flannel-check-oversize-shirt-darkest-purple",
+   "b": "range"
   },
-  "why": "Plain, functional casual clothing — shirts, knitwear, outerwear — with the fabric sources published.",
-  "origin": "Founded in Copenhagen in 2004 by Tobias Sloth.",
-  "chan": ["I", "W"],
-  "conf": "L",
-  "forgc": [4, 3, 1],
-  "shop": "https://www.norseprojects.com/search?q=",
-  "onething": {
-    "p": "Aros chino",
-    "u": "https://norseprojects.com/search?q=aros+chino",
-    "n": "no www, plus-encoded, verified"
+  "Jeans": {
+   "lp": "Vesterskov Broken Twill Denim",
+   "lu": "https://www.norseprojects.com/products/tvedalen-regular-broken-twill-cotton-linen-denim-indigo",
+   "hp": "Vesterskov Broken Twill Denim",
+   "hu": "https://www.norseprojects.com/products/tvedalen-regular-broken-twill-cotton-linen-denim-indigo",
+   "b": "single"
   },
-  "prices": [[90, 145], [250, 325], [215, 360], [395, 395], [215, 395], [270, 360], [395, 1600], null],
-  "doors": {
-    "c": "full",
-    "n": 0,
-    "cities": [],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Dress pants": {
+   "lp": "Trysil Regular Organic Stretch Twill Trouser",
+   "lu": "https://www.norseprojects.com/products/trysil-regular-organic-stretch-twill-trouser-black",
+   "hp": "Hestur Relaxed Alpinix 37,5 Wool Trouser",
+   "hu": "https://www.norseprojects.com/products/hestur-relaxed-alpinix7-wool-trouser-charcoal-grey",
+   "b": "range"
   },
-  "cities": "No store of its own in the US · independent menswear shops, and its own site",
-  "region": {
-    "o": [],
-    "s": [119]
+  "Sweater": {
+   "lp": "Henning Cotton Wool Rib Sweater",
+   "lu": "https://www.norseprojects.com/products/henning-cotton-wool-rib-sweater-natural-ecru",
+   "hp": "Nordrevik Baby Alpaca Sweater",
+   "hu": "https://www.norseprojects.com/products/nordrevik-baby-alpaca-sweater-walnut",
+   "b": "pair"
   },
-  "addmen": true,
-  "site": {
-    "domain": "norseprojects.com",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 447,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "licensed",
-    "marks": [
-      "GORE-TEX",
-      "GORE-TEX WINDSTOPPER",
-      "Pertex Quantum",
-      "CORDURA",
-      "SOLOTEX",
-      "Alpinix",
-      "37.5",
-      "TENCEL"
-    ],
-    "source": "census",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 147,
-    "w": 136,
-    "n": 83,
-    "s": 10,
-    "c": 0,
-    "x": 9,
-    "xh": 0,
-    "sp": "one",
-    "sc": [],
-    "nc": ["Shirting", "Pullover Knitwear", "Light Jackets"],
-    "st": "complete"
-  },
-  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Dress pants", "Outerwear"],
-  "garment_links": {
-    "T-shirt": "https://norseprojects.com/collections/t-shirts",
-    "Polo": "https://norseprojects.com/search?q=polo",
-    "Dress shirt": "https://norseprojects.com/collections/shirting",
-    "Dress pants": "https://norseprojects.com/collections/trousers",
-    "Sweater": "https://norseprojects.com/collections/knitwear",
-    "Outerwear": "https://norseprojects.com/collections/outerwear"
-  },
-  "notes": {
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 2; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "scandi": "Copenhagen through and through: plain, functional, in a muted palette, with the fabric sources published.",
-    "craft": "Norse Projects owns no factory, but product pages name the maker with a short profile: Fontoli (Portugal) for the Oxford shirt, Blupuro Maglierie in Carpi for lambswool knits, Triwool (Portugal) for tees, and state country on most PDPs. Some pages also give gauge/yarn count and name a mill (Furuhashi). Naming makers on PDPs is a 3."
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Norse Standard T-shirt",
-      "lu": "https://www.norseprojects.com/products/norse-standard-t-shirt-grey-melange",
-      "hp": "Nordborg Cotton Crepe T-shirt",
-      "hu": "https://www.norseprojects.com/products/nordborg-cotton-crepe-t-shirt-black",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Anholt Cotton Paper Polo",
-      "lu": "https://www.norseprojects.com/products/anholt-cotton-paper-polo-shale",
-      "hp": "Anholt Cotton Crepe Polo",
-      "hu": "https://www.norseprojects.com/products/anholt-cotton-crepe-polo-dark-navy",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Kongshoved Cotton Twill GMD Relaxed Shirt",
-      "lu": "https://www.norseprojects.com/products/kongshoved-cotton-twill-gmd-relaxed-shirt-dark-navy",
-      "hp": "Falster Fine Cotton Flannel Check Oversize Shirt",
-      "hu": "https://www.norseprojects.com/products/falster-fine-cotton-flannel-check-oversize-shirt-darkest-purple",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Vesterskov Broken Twill Denim",
-      "lu": "https://www.norseprojects.com/products/tvedalen-regular-broken-twill-cotton-linen-denim-indigo",
-      "hp": "Vesterskov Broken Twill Denim",
-      "hu": "https://www.norseprojects.com/products/tvedalen-regular-broken-twill-cotton-linen-denim-indigo",
-      "b": "single"
-    },
-    "Dress pants": {
-      "lp": "Trysil Regular Organic Stretch Twill Trouser",
-      "lu": "https://www.norseprojects.com/products/trysil-regular-organic-stretch-twill-trouser-black",
-      "hp": "Hestur Relaxed Alpinix 37,5 Wool Trouser",
-      "hu": "https://www.norseprojects.com/products/hestur-relaxed-alpinix7-wool-trouser-charcoal-grey",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Henning Cotton Wool Rib Sweater",
-      "lu": "https://www.norseprojects.com/products/henning-cotton-wool-rib-sweater-natural-ecru",
-      "hp": "Nordrevik Baby Alpaca Sweater",
-      "hu": "https://www.norseprojects.com/products/nordrevik-baby-alpaca-sweater-walnut",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "Raabjerg Canvas Jacket",
-      "lu": "https://www.norseprojects.com/products/raabjerg-canvas-jacket-black",
-      "hp": "Reilstad Donegal Wool Balmacaan Raglan Coat",
-      "hu": "https://www.norseprojects.com/products/reilstad-donegal-wool-balmacaan-raglan-coat-charcoal-melange",
-      "b": "range"
-    }
-  },
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.norseprojects.com/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=199622",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "season": {
-    "l": "Autumn/Winter 26",
-    "t": "lookbook",
-    "u": "https://norseprojects.com/blogs/journal/autumn-winter-26-lookbook",
-    "m": "yes"
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "Brand page and PDPs describe outside makers (e.g. Fontoli, Triwool, Blupuro Maglierie); no owned factory or workshop named anywhere seen.",
-    "makers": "some",
-    "mills": "some",
-    "madein": "most",
-    "countries": "Portugal 2/5, Italy+Tunisia (knitted/assembled) 1/5, Turkey 1/5, not stated 1/5 (sample of 5 PDPs: Oxford shirt, lambswool sweater, tee, overshirt, chino).",
-    "heritage": "vague",
-    "repair": "no",
-    "process": "some",
-    "urls": [
-      "https://norseprojects.com/products/stensmark-merino-lambswool-sweater-grey-melange",
-      "https://norseprojects.com/products/lyngkrog-regular-oxford-bd-shirt-blue-stripe"
-    ],
-    "conf": "high",
-    "read": "2026-10-03"
+  "Outerwear": {
+   "lp": "Raabjerg Canvas Jacket",
+   "lu": "https://www.norseprojects.com/products/raabjerg-canvas-jacket-black",
+   "hp": "Reilstad Donegal Wool Balmacaan Raglan Coat",
+   "hu": "https://www.norseprojects.com/products/reilstad-donegal-wool-balmacaan-raglan-coat-charcoal-melange",
+   "b": "range"
   }
+ },
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.norseprojects.com/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=199622",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "season": {
+  "l": "Autumn/Winter 26",
+  "t": "lookbook",
+  "u": "https://norseprojects.com/blogs/journal/autumn-winter-26-lookbook",
+  "m": "yes"
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "Brand page and PDPs describe outside makers (e.g. Fontoli, Triwool, Blupuro Maglierie); no owned factory or workshop named anywhere seen.",
+  "makers": "some",
+  "mills": "some",
+  "madein": "most",
+  "countries": "Portugal 2/5, Italy+Tunisia (knitted/assembled) 1/5, Turkey 1/5, not stated 1/5 (sample of 5 PDPs: Oxford shirt, lambswool sweater, tee, overshirt, chino).",
+  "heritage": "vague",
+  "repair": "no",
+  "process": "some",
+  "urls": [
+   "https://norseprojects.com/products/stensmark-merino-lambswool-sweater-grey-melange",
+   "https://norseprojects.com/products/lyngkrog-regular-oxford-bd-shirt-blue-stripe"
+  ],
+  "conf": "high",
+  "read": "2026-10-03"
+ }
 }

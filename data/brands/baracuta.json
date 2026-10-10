@@ -1,182 +1,230 @@
 {
-  "name": "Baracuta",
-  "band": "premium",
-  "seat": 55,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 3,
-    "craft": 2,
-    "style": 3
+ "name": "Baracuta",
+ "band": "premium",
+ "seat": 55,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 3,
+  "craft": 2,
+  "style": 3
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 3,
+  "wool": 2,
+  "synth": 2
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 2,
+  "fuss": -1,
+  "bruv": -3,
+  "ivy": 3,
+  "street": 2,
+  "briish": 5,
+  "whitet": 2,
+  "logo": 2,
+  "western": 1,
+  "rock": 1,
+  "workwear": 2,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "The G9 Harrington jacket — cotton, tartan-lined, with a vented back — and variations on it.",
+ "origin": "Founded in Manchester in 1937 by the Miller brothers as a rainwear maker; the G9 was their ninth golf jacket.",
+ "chan": [
+  "D",
+  "I"
+ ],
+ "conf": "M",
+ "forgc": [
+  2,
+  3,
+  1
+ ],
+ "shop": "https://us.baracuta.com/search?q=",
+ "onething": {
+  "p": "G9 Harrington",
+  "u": "https://fr.baracuta.com/en/collections/g9-harrington-jacket",
+  "n": "verified — the house's own G9 Harrington collection. €399, made in the UK, in eight colors; the Fraser tartan lining is woven in Coolmax. The wider G9 page carries the suede, leather, denim and ripstop cuts of the same jacket"
+ },
+ "prices": [
+  [
+   85,
+   180
+  ],
+  [
+   155,
+   200
+  ],
+  [
+   135,
+   135
+  ],
+  null,
+  [
+   170,
+   250
+  ],
+  [
+   225,
+   400
+  ],
+  [
+   405,
+   910
+  ],
+  null
+ ],
+ "notes": {
+  "ivy": "the Harrington entered the Ivy wardrobe through golf and never left",
+  "cotton": "the G9 cloth — poplin outside, tartan inside",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 2; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "briish": "The Harrington jacket is a Manchester invention and the brand still makes it there in spirit, tartan lining and all.",
+  "craft": "Baracuta says its G9 in Baracuta Cloth is still made in the UK, 'now in London', but names no factory and no cloth mill. The PDPs state a country for each item: the G9 is UK-made, while a G10 in Baracuta Cloth is made in Vietnam and a Shetland crewneck in Tunisia. The brand is owned by WP Lavori in Corso, Bologna. This is a stated country of make with no named maker: a 2."
+ },
+ "doors": {
+  "c": "full",
+  "n": 0,
+  "cities": [],
+  "basis": "positive zero 2026-09-23"
+ },
+ "cities": "No store of its own in the US · department stores and independent menswear shops, and its own site",
+ "site": {
+  "domain": "us.baracuta.com",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 302,
+  "status": "live_store",
+  "checked": "2026-09-21"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "both",
+  "marks": [
+   "HOUSE: Baracuta Cloth. LICENSED: COOLMAX",
+   "Thermore"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 56,
+  "w": 50,
+  "n": 73,
+  "s": 16,
+  "c": 0,
+  "x": 4,
+  "xh": 0,
+  "sp": "one",
+  "sc": [
+   "VESTS"
+  ],
+  "nc": [
+   "JACKETS",
+   "KNITWEAR",
+   "T-SHIRTS"
+  ],
+  "st": "complete"
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress pants",
+  "Sweater"
+ ],
+ "garment_links": {
+  "T-shirt": "https://us.baracuta.com/collections/t-shirts",
+  "Polo": "https://us.baracuta.com/collections/polo-shirt",
+  "Dress shirt": "https://us.baracuta.com/collections/shirts",
+  "Dress pants": "https://us.baracuta.com/collections/trousers",
+  "Sweater": "https://us.baracuta.com/collections/sweaters-gilets",
+  "Outerwear": "https://us.baracuta.com/collections/outerwear"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Logo Embroidered Tee",
+   "lu": "https://us.baracuta.com/products/baracuta-logo-embroidered-tee-brtee0029ut3061-100",
+   "hp": "Knit T-Shirt",
+   "hu": "https://us.baracuta.com/products/baracuta-knit-t-shirt-brmag0208bknt1-699",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 1,
-    "linen": 1,
-    "cotton": 3,
-    "wool": 2,
-    "synth": 2
+  "Polo": {
+   "lp": "Tartan Placket Polo",
+   "lu": "https://us.baracuta.com/products/baracuta-tartan-placket-polo-brpol0027ut3060-30110",
+   "hp": "Pattern Stitch SS Polo",
+   "hu": "https://us.baracuta.com/products/baracuta-pattern-stitch-ss-polo-brmag0209uf0627-100",
+   "b": "range"
   },
-  "dials": {
-    "dur": 3,
-    "forg": 2,
-    "fuss": -1,
-    "bruv": -3,
-    "ivy": 3,
-    "street": 2,
-    "briish": 5,
-    "whitet": 2,
-    "logo": 2,
-    "western": 1,
-    "rock": 1,
-    "workwear": 2,
-    "outdoor": 1,
-    "surf": 1
+  "Dress shirt": {
+   "lp": "BR Oxford Shirt",
+   "lu": "https://us.baracuta.com/products/baracuta-br-oxford-shirt-brcam0036ut3207-308",
+   "hp": "BR Oxford Shirt",
+   "hu": "https://us.baracuta.com/products/baracuta-br-oxford-shirt-brcam0036ut3207-308",
+   "b": "single"
   },
-  "why": "The G9 Harrington jacket — cotton, tartan-lined, with a vented back — and variations on it.",
-  "origin": "Founded in Manchester in 1937 by the Miller brothers as a rainwear maker; the G9 was their ninth golf jacket.",
-  "chan": ["D", "I"],
-  "conf": "M",
-  "forgc": [2, 3, 1],
-  "shop": "https://us.baracuta.com/search?q=",
-  "onething": {
-    "p": "G9 Harrington",
-    "u": "https://fr.baracuta.com/en/collections/g9-harrington-jacket",
-    "n": "verified — the house's own G9 Harrington collection. €399, made in the UK, in eight colors; the Fraser tartan lining is woven in Coolmax. The wider G9 page carries the suede, leather, denim and ripstop cuts of the same jacket"
+  "Dress pants": {
+   "lp": "COTTON Trousers",
+   "lu": "https://us.baracuta.com/products/baracuta-cotton-trousers-brpan0055ut3092-734",
+   "hp": "Canvas Garment Dyed Trousers",
+   "hu": "https://us.baracuta.com/products/baracuta-canvas-garment-dyed-trousers-brpan0042ut2919-1016",
+   "b": "range"
   },
-  "prices": [[85, 180], [155, 200], [135, 135], null, [170, 250], [225, 400], [405, 910], null],
-  "notes": {
-    "ivy": "the Harrington entered the Ivy wardrobe through golf and never left",
-    "cotton": "the G9 cloth — poplin outside, tartan inside",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 2; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "briish": "The Harrington jacket is a Manchester invention and the brand still makes it there in spirit, tartan lining and all.",
-    "craft": "Baracuta says its G9 in Baracuta Cloth is still made in the UK, 'now in London', but names no factory and no cloth mill. The PDPs state a country for each item: the G9 is UK-made, while a G10 in Baracuta Cloth is made in Vietnam and a Shetland crewneck in Tunisia. The brand is owned by WP Lavori in Corso, Bologna. This is a stated country of make with no named maker: a 2."
+  "Sweater": {
+   "lp": "Shetland Crewneck",
+   "lu": "https://us.baracuta.com/products/baracuta-shetland-crewneck-brmag0200uf0616-5019",
+   "hp": "Aran Mock Neck",
+   "hu": "https://us.baracuta.com/products/baracuta-aran-mock-neck-brmag0213uf0628-837",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 0,
-    "cities": [],
-    "basis": "positive zero 2026-09-23"
-  },
-  "cities": "No store of its own in the US · department stores and independent menswear shops, and its own site",
-  "site": {
-    "domain": "us.baracuta.com",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 302,
-    "status": "live_store",
-    "checked": "2026-09-21"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "both",
-    "marks": ["HOUSE: Baracuta Cloth. LICENSED: COOLMAX", "Thermore"],
-    "source": "census",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 56,
-    "w": 50,
-    "n": 73,
-    "s": 16,
-    "c": 0,
-    "x": 4,
-    "xh": 0,
-    "sp": "one",
-    "sc": ["VESTS"],
-    "nc": ["JACKETS", "KNITWEAR", "T-SHIRTS"],
-    "st": "complete"
-  },
-  "price_range_only": ["T-shirt", "Polo", "Dress pants", "Sweater"],
-  "garment_links": {
-    "T-shirt": "https://us.baracuta.com/collections/t-shirts",
-    "Polo": "https://us.baracuta.com/collections/polo-shirt",
-    "Dress shirt": "https://us.baracuta.com/collections/shirts",
-    "Dress pants": "https://us.baracuta.com/collections/trousers",
-    "Sweater": "https://us.baracuta.com/collections/sweaters-gilets",
-    "Outerwear": "https://us.baracuta.com/collections/outerwear"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Logo Embroidered Tee",
-      "lu": "https://us.baracuta.com/products/baracuta-logo-embroidered-tee-brtee0029ut3061-100",
-      "hp": "Knit T-Shirt",
-      "hu": "https://us.baracuta.com/products/baracuta-knit-t-shirt-brmag0208bknt1-699",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Tartan Placket Polo",
-      "lu": "https://us.baracuta.com/products/baracuta-tartan-placket-polo-brpol0027ut3060-30110",
-      "hp": "Pattern Stitch SS Polo",
-      "hu": "https://us.baracuta.com/products/baracuta-pattern-stitch-ss-polo-brmag0209uf0627-100",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "BR Oxford Shirt",
-      "lu": "https://us.baracuta.com/products/baracuta-br-oxford-shirt-brcam0036ut3207-308",
-      "hp": "BR Oxford Shirt",
-      "hu": "https://us.baracuta.com/products/baracuta-br-oxford-shirt-brcam0036ut3207-308",
-      "b": "single"
-    },
-    "Dress pants": {
-      "lp": "COTTON Trousers",
-      "lu": "https://us.baracuta.com/products/baracuta-cotton-trousers-brpan0055ut3092-734",
-      "hp": "Canvas Garment Dyed Trousers",
-      "hu": "https://us.baracuta.com/products/baracuta-canvas-garment-dyed-trousers-brpan0042ut2919-1016",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Shetland Crewneck",
-      "lu": "https://us.baracuta.com/products/baracuta-shetland-crewneck-brmag0200uf0616-5019",
-      "hp": "Aran Mock Neck",
-      "hu": "https://us.baracuta.com/products/baracuta-aran-mock-neck-brmag0213uf0628-837",
-      "b": "range"
-    },
-    "Outerwear": {
-      "lp": "G9 Twill",
-      "lu": "https://us.baracuta.com/products/baracuta-g9-twill-brcps1166ut3046-309",
-      "hp": "G9 LEATHER",
-      "hu": "https://us.baracuta.com/products/baracuta-g9-leather-brcps1127ut2995-1016",
-      "b": "pair"
-    }
-  },
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://us.baracuta.com/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=378755",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "I found no factory owned by Baracuta or its parent. The about page says the G9, G4 and G12 in Baracuta Cloth 'are Made in the UK by skilled British artisans to this day'. The journal piece 'Made in UK: a story still being written' says the G9 in Baracuta Cloth 'is still crafted in the UK — now in London', with no factory named. The brand is owned by WP Lavori in Corso Srl, Bologna (acquired 2012). The Manchester mills (Chorlton Street; Brunswick Mill, Bradford Road) are heritage only.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "every product",
-    "countries": "Sample of 3 PDPs, all stating a country: UK 1/3 (G9 Harrington), Vietnam 1/3 (G10 Detachable, in Baracuta Cloth), Tunisia 1/3 (Shetland crewneck). The home page shows 'Made in The UK' badges on G9 and G12 listings. Small sample.",
-    "heritage": "dated and placed",
-    "repair": "yes",
-    "process": "some",
-    "urls": [
-      "https://us.baracuta.com/pages/about",
-      "https://us.baracuta.com/products/baracuta-g10-detachable-brcps1218ut3124-309"
-    ],
-    "conf": "medium",
-    "read": "2026-10-03"
+  "Outerwear": {
+   "lp": "G9 Twill",
+   "lu": "https://us.baracuta.com/products/baracuta-g9-twill-brcps1166ut3046-309",
+   "hp": "G9 LEATHER",
+   "hu": "https://us.baracuta.com/products/baracuta-g9-leather-brcps1127ut2995-1016",
+   "b": "pair"
   }
+ },
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://us.baracuta.com/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=378755",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "I found no factory owned by Baracuta or its parent. The about page says the G9, G4 and G12 in Baracuta Cloth 'are Made in the UK by skilled British artisans to this day'. The journal piece 'Made in UK: a story still being written' says the G9 in Baracuta Cloth 'is still crafted in the UK — now in London', with no factory named. The brand is owned by WP Lavori in Corso Srl, Bologna (acquired 2012). The Manchester mills (Chorlton Street; Brunswick Mill, Bradford Road) are heritage only.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "every product",
+  "countries": "Sample of 3 PDPs, all stating a country: UK 1/3 (G9 Harrington), Vietnam 1/3 (G10 Detachable, in Baracuta Cloth), Tunisia 1/3 (Shetland crewneck). The home page shows 'Made in The UK' badges on G9 and G12 listings. Small sample.",
+  "heritage": "dated and placed",
+  "repair": "yes",
+  "process": "some",
+  "urls": [
+   "https://us.baracuta.com/pages/about",
+   "https://us.baracuta.com/products/baracuta-g10-detachable-brcps1218ut3124-309"
+  ],
+  "conf": "medium",
+  "read": "2026-10-03"
+ }
 }

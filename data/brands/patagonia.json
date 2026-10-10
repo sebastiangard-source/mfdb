@@ -1,287 +1,457 @@
 {
-  "name": "Patagonia",
-  "band": "premium",
-  "seat": 25,
-  "dagger": 1,
-  "focus": {
-    "tech": 5,
-    "comfort": 3,
-    "craft": 3,
-    "style": 4
+ "name": "Patagonia",
+ "band": "premium",
+ "seat": 25,
+ "dagger": 1,
+ "focus": {
+  "tech": 5,
+  "comfort": 3,
+  "craft": 3,
+  "style": 4
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 3,
+  "wool": 2,
+  "synth": 4
+ },
+ "dials": {
+  "dur": 4,
+  "forg": 4,
+  "fuss": -2,
+  "golffice": 2,
+  "status": 3,
+  "finbro": 5,
+  "murica": 4,
+  "street": 2,
+  "ski": 3,
+  "whitet": 3,
+  "logo": 3,
+  "western": 1,
+  "rock": 1,
+  "workwear": 3,
+  "outdoor": 5,
+  "surf": 3
+ },
+ "why": "Outdoor clothing and equipment — fleece, shells, work pants — with a repair program and a company owned by a trust that directs profits to environmental causes.",
+ "origin": "Founded in Ventura, California, in 1973 by Yvon Chouinard, out of his climbing-hardware business.",
+ "opview": "“We're in business to save our home planet.”",
+ "chan": [
+  "O",
+  "D",
+  "I"
+ ],
+ "conf": "S",
+ "forgc": [
+  4,
+  5,
+  2
+ ],
+ "forgv": "extended sizes XXL–XXXXL",
+ "shop": "https://www.patagonia.com/search/?q=",
+ "onething": {
+  "p": "Synchilla Snap-T",
+  "u": "https://www.patagonia.com/search/?q=Synchilla%20Snap-T%20men",
+  "n": "verified ✓"
+ },
+ "prices": [
+  [
+   49,
+   85
+  ],
+  [
+   69,
+   75
+  ],
+  [
+   95,
+   179
+  ],
+  [
+   135,
+   135
+  ],
+  [
+   135,
+   135
+  ],
+  [
+   159,
+   209
+  ],
+  [
+   119,
+   1049
+  ],
+  [
+   145,
+   499
+  ]
+ ],
+ "notes": {
+  "tech": "its own product families, its own warmth index and eighteen technical filters — the deepest house technology of the thirty-six audited",
+  "synth": "performance synthetics with a repair program behind them",
+  "status": "the fleece vest as finance uniform, against the brand's own wishes",
+  "finbro": "the Midtown Uniform vest — a rank Patagonia holds against its will, having refused new finance-firm logo vests in 2019; the uniform survived the ban",
+  "murica": "the American outdoors as conscience — anti-flag, deeply American anyway",
+  "whitet": "a named tee in the range — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 5; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "Climbing hardware became outdoor clothing; the fleece and the shell are the brand.",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "Patagonia says on its own site that it does not own any factories. It does publish a named, mapped list of the finished-goods factories and material suppliers it uses, and every sampled PDP states a country (five different countries in eight products) and Fair Trade Certified sewing, but no PDP names the factory. Names its makers, owns nothing: a 3; the Worn Wear repair program is context, not making."
+ },
+ "doors": {
+  "c": "full",
+  "n": 31,
+  "cities": [
+   [
+    "Alexandria",
+    "VA",
+    1
+   ],
+   [
+    "Ardmore",
+    "PA",
+    1
+   ],
+   [
+    "Atlanta",
+    "GA",
+    2
+   ],
+   [
+    "Austin",
+    "TX",
+    1
+   ],
+   [
+    "Boston",
+    "MA",
+    1
+   ],
+   [
+    "Boulder",
+    "CO",
+    1
+   ],
+   [
+    "Brooklyn",
+    "NY",
+    1
+   ],
+   [
+    "Cambridge",
+    "MA",
+    1
+   ],
+   [
+    "Cardiff-by-the-Sea",
+    "CA",
+    1
+   ],
+   [
+    "Charlotte",
+    "NC",
+    1
+   ],
+   [
+    "Chicago",
+    "IL",
+    2
+   ],
+   [
+    "Denver",
+    "CO",
+    1
+   ],
+   [
+    "Haleiwa",
+    "HI",
+    2
+   ],
+   [
+    "Honolulu",
+    "HI",
+    1
+   ],
+   [
+    "Nashville",
+    "TN",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    2
+   ],
+   [
+    "Palo Alto",
+    "CA",
+    1
+   ],
+   [
+    "Pasadena",
+    "CA",
+    1
+   ],
+   [
+    "Pittsburgh",
+    "PA",
+    1
+   ],
+   [
+    "Portland",
+    "OR",
+    1
+   ],
+   [
+    "San Francisco",
+    "CA",
+    1
+   ],
+   [
+    "Santa Monica",
+    "CA",
+    1
+   ],
+   [
+    "Seattle",
+    "WA",
+    1
+   ],
+   [
+    "St. Paul",
+    "MN",
+    1
+   ],
+   [
+    "Telluride",
+    "CO",
+    1
+   ],
+   [
+    "Ventura",
+    "CA",
+    1
+   ],
+   [
+    "Washington",
+    "DC",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 6,
+  "con": 0
+ },
+ "cities": "31 stores across the US · department stores and independent menswear shops, and its own site",
+ "region": {
+  "o": [
+   2712,
+   2713,
+   2715,
+   2716,
+   2717,
+   2720,
+   2721
+  ],
+  "s": [
+   4,
+   9,
+   13,
+   17,
+   23,
+   25,
+   36,
+   38,
+   59,
+   71,
+   73,
+   75,
+   81,
+   87,
+   94,
+   98,
+   122,
+   125,
+   137,
+   139,
+   146,
+   147,
+   151,
+   152
+  ]
+ },
+ "addmen": true,
+ "addcloth": true,
+ "site": {
+  "domain": "patagonia.com",
+  "platform": "salesforce_commerce",
+  "feed": "sitemap_products",
+  "feed_count": 2119,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "both",
+  "marks": [
+   "Capilene",
+   "ECONYL",
+   "FullRange",
+   "H2No",
+   "HeiQ Pure",
+   "NetPlus",
+   "Pertex Quantum",
+   "PlumaFill",
+   "Polartec Power Grid",
+   "PrimaLoft Gold Eco",
+   "Synchilla"
+  ],
+  "source": "origin_8",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 518,
+  "w": 515,
+  "n": 32,
+  "s": 67,
+  "c": 0,
+  "x": 20,
+  "xh": 13,
+  "sp": "split",
+  "sc": [
+   "Bottoms",
+   "Jackets & Vests",
+   "Hats & Accessories",
+   "Fleece",
+   "Bags & Luggage",
+   "Boardshorts & Rashguards",
+   "Waders",
+   "Snow",
+   "Baselayers",
+   "Sweatshirts & Hoodies"
+  ],
+  "nc": [
+   "Tops",
+   "Wetsuits",
+   "Socks"
+  ],
+  "st": "complete"
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Outerwear",
+  "Shoes"
+ ],
+ "garment_links": {
+  "T-shirt": "https://www.patagonia.com/shop/mens/tops/t-shirts",
+  "Dress shirt": "https://www.patagonia.com/shop/mens/tops/button-down",
+  "Dress pants": "https://www.patagonia.com/shop/mens/bottoms/pants",
+  "Sweater": "https://www.patagonia.com/shop/mens/tops/sweaters",
+  "Outerwear": "https://www.patagonia.com/shop/mens/jackets-vests"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Men's Capilene Cool Daily Shirt",
+   "lu": "https://www.patagonia.com/product/mens-capilene-cool-daily-shirt/45216.html",
+   "hp": "Men's Capilene Cool Merino-Blend Graphic Shirt",
+   "hu": "https://www.patagonia.com/product/mens-capilene-cool-merino-blend-graphic-shirt/44590.html",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 2,
-    "cashmere": 1,
-    "linen": 1,
-    "cotton": 3,
-    "wool": 2,
-    "synth": 4
+  "Polo": {
+   "lp": "Men's Daily Polo",
+   "lu": "https://www.patagonia.com/product/mens-daily-polo-shirt/53251.html",
+   "hp": "Men's Essential Polo",
+   "hu": "https://www.patagonia.com/product/mens-essential-polo-shirt/42215.html",
+   "b": "range"
   },
-  "dials": {
-    "dur": 4,
-    "forg": 4,
-    "fuss": -2,
-    "golffice": 2,
-    "status": 3,
-    "finbro": 5,
-    "murica": 4,
-    "street": 2,
-    "ski": 3,
-    "whitet": 3,
-    "logo": 3,
-    "western": 1,
-    "rock": 1,
-    "workwear": 3,
-    "outdoor": 5,
-    "surf": 3
+  "Dress shirt": {
+   "lp": "Men's Long-Sleeved Lightweight Fjord Flannel Shirt",
+   "lu": "https://www.patagonia.com/product/mens-long-sleeved-lightweight-fjord-flannel-shirt/42410.html",
+   "hp": "Men's Stretch Fjord Flannel Shirt",
+   "hu": "https://www.patagonia.com/product/mens-stretch-fjord-flannel-shirt/42435.html",
+   "b": "range"
   },
-  "why": "Outdoor clothing and equipment — fleece, shells, work pants — with a repair program and a company owned by a trust that directs profits to environmental causes.",
-  "origin": "Founded in Ventura, California, in 1973 by Yvon Chouinard, out of his climbing-hardware business.",
-  "opview": "“We're in business to save our home planet.”",
-  "chan": ["O", "D", "I"],
-  "conf": "S",
-  "forgc": [4, 5, 2],
-  "forgv": "extended sizes XXL–XXXXL",
-  "shop": "https://www.patagonia.com/search/?q=",
-  "onething": {
-    "p": "Synchilla Snap-T",
-    "u": "https://www.patagonia.com/search/?q=Synchilla%20Snap-T%20men",
-    "n": "verified ✓"
+  "Jeans": {
+   "lp": "Men's Straight Fit Jeans - Regular",
+   "lu": "https://www.patagonia.com/product/mens-straight-fit-jeans-regular/21625.html",
+   "hp": "Men's Straight Fit Jeans - Regular",
+   "hu": "https://www.patagonia.com/product/mens-straight-fit-jeans-regular/21625.html",
+   "b": "single"
   },
-  "prices": [[49, 85], [69, 75], [95, 179], [135, 135], [135, 135], [159, 209], [119, 1049], [145, 499]],
-  "notes": {
-    "tech": "its own product families, its own warmth index and eighteen technical filters — the deepest house technology of the thirty-six audited",
-    "synth": "performance synthetics with a repair program behind them",
-    "status": "the fleece vest as finance uniform, against the brand's own wishes",
-    "finbro": "the Midtown Uniform vest — a rank Patagonia holds against its will, having refused new finance-firm logo vests in 2019; the uniform survived the ban",
-    "murica": "the American outdoors as conscience — anti-flag, deeply American anyway",
-    "whitet": "a named tee in the range — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 5; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "Climbing hardware became outdoor clothing; the fleece and the shell are the brand.",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Patagonia says on its own site that it does not own any factories. It does publish a named, mapped list of the finished-goods factories and material suppliers it uses, and every sampled PDP states a country (five different countries in eight products) and Fair Trade Certified sewing, but no PDP names the factory. Names its makers, owns nothing: a 3; the Worn Wear repair program is context, not making."
+  "Dress pants": {
+   "lp": "Men's Twill Traveler Chino Pants - Regular",
+   "lu": "https://www.patagonia.com/product/mens-twill-traveler-chino-pants-regular/22120.html",
+   "hp": "Men's Twill Traveler Chino Pants - Regular",
+   "hu": "https://www.patagonia.com/product/mens-twill-traveler-chino-pants-regular/22120.html",
+   "b": "single"
   },
-  "doors": {
-    "c": "full",
-    "n": 30,
-    "cities": [
-      ["Alexandria", "VA", 1],
-      ["Ardmore", "PA", 1],
-      ["Atlanta", "GA", 2],
-      ["Austin", "TX", 1],
-      ["Boston", "MA", 1],
-      ["Boulder", "CO", 1],
-      ["Brooklyn", "NY", 1],
-      ["Cambridge", "MA", 1],
-      ["Cardiff-by-the-Sea", "CA", 1],
-      ["Charlotte", "NC", 1],
-      ["Chicago", "IL", 2],
-      ["Denver", "CO", 1],
-      ["Haleiwa", "HI", 2],
-      ["Honolulu", "HI", 1],
-      ["Nashville", "TN", 1],
-      ["New York", "NY", 2],
-      ["Palo Alto", "CA", 1],
-      ["Pasadena", "CA", 1],
-      ["Pittsburgh", "PA", 1],
-      ["Portland", "OR", 1],
-      ["San Francisco", "CA", 1],
-      ["Santa Monica", "CA", 1],
-      ["Seattle", "WA", 1],
-      ["St. Paul", "MN", 1],
-      ["Telluride", "CO", 1],
-      ["Ventura", "CA", 1]
-    ],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Sweater": {
+   "lp": "Men's Recycled Wool-Blend Sweater",
+   "lu": "https://www.patagonia.com/product/mens-recycled-wool-blend-sweater/50655.html",
+   "hp": "Men's Recycled Cashmere Crewneck Sweater",
+   "hu": "https://www.patagonia.com/product/mens-recycled-cashmere-crewneck-sweater/50525.html",
+   "b": "pair"
   },
-  "cities": "30 stores across the US · department stores and independent menswear shops, and its own site",
-  "region": {
-    "o": [2154, 2155, 2158, 2159, 2160, 2162, 2163],
-    "s": [
-      4,
-      9,
-      13,
-      17,
-      23,
-      25,
-      36,
-      38,
-      59,
-      71,
-      73,
-      75,
-      81,
-      87,
-      94,
-      98,
-      122,
-      125,
-      137,
-      139,
-      146,
-      147,
-      151,
-      152
-    ]
+  "Outerwear": {
+   "lp": "Men's Houdini Jacket",
+   "lu": "https://www.patagonia.com/product/mens-houdini-windbreaker-jacket/24142.html",
+   "hp": "Grade VII Down Parka",
+   "hu": "https://www.patagonia.com/product/grade-vii-down-belay-parka/84847.html",
+   "b": "range"
   },
-  "addmen": true,
-  "addcloth": true,
-  "site": {
-    "domain": "patagonia.com",
-    "platform": "salesforce_commerce",
-    "feed": "sitemap_products",
-    "feed_count": 2119,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "both",
-    "marks": [
-      "Capilene",
-      "ECONYL",
-      "FullRange",
-      "H2No",
-      "HeiQ Pure",
-      "NetPlus",
-      "Pertex Quantum",
-      "PlumaFill",
-      "Polartec Power Grid",
-      "PrimaLoft Gold Eco",
-      "Synchilla"
-    ],
-    "source": "origin_8",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 518,
-    "w": 515,
-    "n": 32,
-    "s": 67,
-    "c": 0,
-    "x": 20,
-    "xh": 13,
-    "sp": "split",
-    "sc": [
-      "Bottoms",
-      "Jackets & Vests",
-      "Hats & Accessories",
-      "Fleece",
-      "Bags & Luggage",
-      "Boardshorts & Rashguards",
-      "Waders",
-      "Snow",
-      "Baselayers",
-      "Sweatshirts & Hoodies"
-    ],
-    "nc": ["Tops", "Wetsuits", "Socks"],
-    "st": "complete"
-  },
-  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Outerwear", "Shoes"],
-  "garment_links": {
-    "T-shirt": "https://www.patagonia.com/shop/mens/tops/t-shirts",
-    "Dress shirt": "https://www.patagonia.com/shop/mens/tops/button-down",
-    "Dress pants": "https://www.patagonia.com/shop/mens/bottoms/pants",
-    "Sweater": "https://www.patagonia.com/shop/mens/tops/sweaters",
-    "Outerwear": "https://www.patagonia.com/shop/mens/jackets-vests"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Men's Capilene Cool Daily Shirt",
-      "lu": "https://www.patagonia.com/product/mens-capilene-cool-daily-shirt/45216.html",
-      "hp": "Men's Capilene Cool Merino-Blend Graphic Shirt",
-      "hu": "https://www.patagonia.com/product/mens-capilene-cool-merino-blend-graphic-shirt/44590.html",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Men's Daily Polo",
-      "lu": "https://www.patagonia.com/product/mens-daily-polo-shirt/53251.html",
-      "hp": "Men's Essential Polo",
-      "hu": "https://www.patagonia.com/product/mens-essential-polo-shirt/42215.html",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Men's Long-Sleeved Lightweight Fjord Flannel Shirt",
-      "lu": "https://www.patagonia.com/product/mens-long-sleeved-lightweight-fjord-flannel-shirt/42410.html",
-      "hp": "Men's Stretch Fjord Flannel Shirt",
-      "hu": "https://www.patagonia.com/product/mens-stretch-fjord-flannel-shirt/42435.html",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Men's Straight Fit Jeans - Regular",
-      "lu": "https://www.patagonia.com/product/mens-straight-fit-jeans-regular/21625.html",
-      "hp": "Men's Straight Fit Jeans - Regular",
-      "hu": "https://www.patagonia.com/product/mens-straight-fit-jeans-regular/21625.html",
-      "b": "single"
-    },
-    "Dress pants": {
-      "lp": "Men's Twill Traveler Chino Pants - Regular",
-      "lu": "https://www.patagonia.com/product/mens-twill-traveler-chino-pants-regular/22120.html",
-      "hp": "Men's Twill Traveler Chino Pants - Regular",
-      "hu": "https://www.patagonia.com/product/mens-twill-traveler-chino-pants-regular/22120.html",
-      "b": "single"
-    },
-    "Sweater": {
-      "lp": "Men's Recycled Wool-Blend Sweater",
-      "lu": "https://www.patagonia.com/product/mens-recycled-wool-blend-sweater/50655.html",
-      "hp": "Men's Recycled Cashmere Crewneck Sweater",
-      "hu": "https://www.patagonia.com/product/mens-recycled-cashmere-crewneck-sweater/50525.html",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "Men's Houdini Jacket",
-      "lu": "https://www.patagonia.com/product/mens-houdini-windbreaker-jacket/24142.html",
-      "hp": "Grade VII Down Parka",
-      "hu": "https://www.patagonia.com/product/grade-vii-down-belay-parka/84847.html",
-      "b": "range"
-    },
-    "Shoes": {
-      "lp": "Salt Wading Booties",
-      "lu": "https://www.patagonia.com/product/salt-wading-booties/88345.html",
-      "hp": "Foot Tractor Wading Boots - Aluminum Bar",
-      "hu": "https://www.patagonia.com/product/foot-tractor-wading-boots-aluminum-bar-sole/79320.html",
-      "b": "range"
-    }
-  },
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.patagonia.com/ (US, USD)",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "Patagonia Workwear"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=90804",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "certs": {
-    "bcorp": {
-      "e": "Patagonia"
-    }
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "Brand states plainly: 'Patagonia does not own any factories; however, we work in close partnership with factories...' (Working With Factories page). Worn Wear repair facility (Reno) is repair, not making, and was not separately verified.",
-    "makers": "some",
-    "mills": "no",
-    "madein": "every product",
-    "countries": "Vietnam 3/8, Sri Lanka 2/8, Bangladesh 1/8, Mexico 1/8, Nicaragua + El Salvador 1/8 (sample of 8 PDPs on patagonia.com: Baggies shorts, Better Sweater vest, P-6 Uprisal hoody, Nano Puff jacket, Iron Forge jacshirt, Fjord flannel shirt, Houdini jacket, Down Sweater). Directory also lists Taiwan, Indonesia, India, Japan, US, Thailand, Jordan, Colombia, Peru among supplier countries.",
-    "heritage": "dated and placed",
-    "repair": "yes",
-    "process": "some",
-    "urls": [
-      "https://www.patagonia.com/our-footprint/working-with-factories.html",
-      "https://www.patagonia.com/factories-farms-material-suppliers/"
-    ],
-    "conf": "high",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Salt Wading Booties",
+   "lu": "https://www.patagonia.com/product/salt-wading-booties/88345.html",
+   "hp": "Foot Tractor Wading Boots - Aluminum Bar",
+   "hu": "https://www.patagonia.com/product/foot-tractor-wading-boots-aluminum-bar-sole/79320.html",
+   "b": "range"
   }
+ },
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.patagonia.com/ (US, USD)",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "Patagonia Workwear"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=90804",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "certs": {
+  "bcorp": {
+   "e": "Patagonia"
+  }
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "Brand states plainly: 'Patagonia does not own any factories; however, we work in close partnership with factories...' (Working With Factories page). Worn Wear repair facility (Reno) is repair, not making, and was not separately verified.",
+  "makers": "some",
+  "mills": "no",
+  "madein": "every product",
+  "countries": "Vietnam 3/8, Sri Lanka 2/8, Bangladesh 1/8, Mexico 1/8, Nicaragua + El Salvador 1/8 (sample of 8 PDPs on patagonia.com: Baggies shorts, Better Sweater vest, P-6 Uprisal hoody, Nano Puff jacket, Iron Forge jacshirt, Fjord flannel shirt, Houdini jacket, Down Sweater). Directory also lists Taiwan, Indonesia, India, Japan, US, Thailand, Jordan, Colombia, Peru among supplier countries.",
+  "heritage": "dated and placed",
+  "repair": "yes",
+  "process": "some",
+  "urls": [
+   "https://www.patagonia.com/our-footprint/working-with-factories.html",
+   "https://www.patagonia.com/factories-farms-material-suppliers/"
+  ],
+  "conf": "high",
+  "read": "2026-10-03"
+ }
 }

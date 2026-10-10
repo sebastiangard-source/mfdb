@@ -368,7 +368,9 @@ with sync_playwright() as p:
       return {addressed:a, count_only:b, wrongly_silent:c};}''')
     ck('no brand with regional stores renders nothing',
        not _cov['wrongly_silent'], _cov['wrongly_silent'][:4])
-    ck('brands with counts but no addresses say so', _cov['count_only'] > 0, _cov['count_only'])
+    # Before the 10 October recapture some brands carried a count and no addresses and the
+    # page had to say so. Every brand is addressed now; the pending line must not appear.
+    ck('no brand carries a count without addresses', _cov['count_only'] == 0, _cov['count_only'])
     # Canali had 11 stockist addresses and an empty own-door list, so the record existed
     # and the fallback never fired: it read 0 own stores while the map held two of its shops.
     ck('an empty own-door list is not treated as no stores', pg.evaluate('''()=>

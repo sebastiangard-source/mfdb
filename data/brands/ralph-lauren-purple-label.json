@@ -1,216 +1,390 @@
 {
-  "name": "Ralph Lauren Purple Label",
-  "band": "trueLux",
-  "seat": 179,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 3,
-    "craft": 2,
-    "style": 4
-  },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 3,
-    "linen": 1,
-    "cotton": 2,
-    "wool": 4,
-    "synth": 1
-  },
-  "dials": {
-    "dur": 3,
-    "forg": 3,
-    "fuss": 3,
-    "status": 3,
-    "finbro": 3,
-    "ivy": 3,
-    "murica": 3,
-    "ital": 3,
-    "prep": 2,
-    "racquet": 5,
-    "whitet": 2,
-    "logo": 1,
-    "western": 3,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
-  },
-  "why": "Ralph Lauren's top line — tailoring, cashmere and shoes made in Italy.",
-  "origin": "Launched in 1994.",
-  "chan": ["O", "D"],
-  "conf": "M",
-  "forgc": [2, 3, 4],
-  "shop": "https://www.ralphlauren.com/search?q=",
-  "onething": {
-    "p": "Cashmere polo coat",
-    "u": "https://www.ralphlauren.com/search?q=Purple%20Label%20cashmere",
-    "n": "Works"
-  },
-  "prices": [
-    [250, 595],
-    [395, 795],
-    [395, 895],
-    [795, 1495],
-    [595, 795],
-    [995, 2295],
-    [2795, 5295],
-    [995, 1095]
+ "name": "Ralph Lauren Purple Label",
+ "band": "trueLux",
+ "seat": 179,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 3,
+  "craft": 2,
+  "style": 4
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 3,
+  "linen": 1,
+  "cotton": 2,
+  "wool": 4,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 3,
+  "fuss": 3,
+  "status": 3,
+  "finbro": 3,
+  "ivy": 3,
+  "murica": 3,
+  "ital": 3,
+  "prep": 2,
+  "racquet": 5,
+  "whitet": 2,
+  "logo": 1,
+  "western": 3,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Ralph Lauren's top line — tailoring, cashmere and shoes made in Italy.",
+ "origin": "Launched in 1994.",
+ "chan": [
+  "O",
+  "D"
+ ],
+ "conf": "M",
+ "forgc": [
+  2,
+  3,
+  4
+ ],
+ "shop": "https://www.ralphlauren.com/search?q=",
+ "onething": {
+  "p": "Cashmere polo coat",
+  "u": "https://www.ralphlauren.com/search?q=Purple%20Label%20cashmere",
+  "n": "Works"
+ },
+ "prices": [
+  [
+   250,
+   595
   ],
-  "price_checked": true,
-  "notes": {
-    "wool": "Italian tailoring with house-of-Kiton ambitions",
-    "ital": "American dream, Italian make — the Todd Snyder pattern at the summit",
-    "racquet": "The club version of the club — the highest room in the building, in the softest cloth available. Where Polo dresses the tournament, Purple Label dresses the committee.",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 2; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "All 6 Purple Label PDPs sampled say Made in Italy, and the tailoring PDPs say 'hand-tailored' with construction detail. None names a factory or workshop. Mills are alluded to but not named ('a renowned English mill'), and nothing shows owned making."
+  [
+   395,
+   795
+  ],
+  [
+   395,
+   895
+  ],
+  [
+   795,
+   1495
+  ],
+  [
+   595,
+   795
+  ],
+  [
+   995,
+   2295
+  ],
+  [
+   2795,
+   5295
+  ],
+  [
+   995,
+   1095
+  ]
+ ],
+ "price_checked": true,
+ "notes": {
+  "wool": "Italian tailoring with house-of-Kiton ambitions",
+  "ital": "American dream, Italian make — the Todd Snyder pattern at the summit",
+  "racquet": "The club version of the club — the highest room in the building, in the softest cloth available. Where Polo dresses the tournament, Purple Label dresses the committee.",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 2; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "All 6 Purple Label PDPs sampled say Made in Italy, and the tailoring PDPs say 'hand-tailored' with construction detail. None names a factory or workshop. Mills are alluded to but not named ('a renowned English mill'), and nothing shows owned making."
+ },
+ "doors": {
+  "c": "full",
+  "n": 23,
+  "cities": [
+   [
+    "Aspen",
+    "CO",
+    1
+   ],
+   [
+    "Bal Harbour",
+    "FL",
+    1
+   ],
+   [
+    "Beverly Hills",
+    "CA",
+    1
+   ],
+   [
+    "Boston",
+    "MA",
+    1
+   ],
+   [
+    "Charlotte",
+    "NC",
+    1
+   ],
+   [
+    "Chicago",
+    "IL",
+    1
+   ],
+   [
+    "Costa Mesa",
+    "CA",
+    1
+   ],
+   [
+    "East Hampton",
+    "NY",
+    1
+   ],
+   [
+    "Houston",
+    "TX",
+    1
+   ],
+   [
+    "King of Prussia",
+    "PA",
+    1
+   ],
+   [
+    "La Jolla",
+    "CA",
+    1
+   ],
+   [
+    "Los Angeles",
+    "CA",
+    1
+   ],
+   [
+    "Manhasset",
+    "NY",
+    1
+   ],
+   [
+    "Miami",
+    "FL",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    1
+   ],
+   [
+    "Oak Brook",
+    "IL",
+    1
+   ],
+   [
+    "Palm Beach",
+    "FL",
+    1
+   ],
+   [
+    "Palm Desert",
+    "CA",
+    1
+   ],
+   [
+    "Palo Alto",
+    "CA",
+    1
+   ],
+   [
+    "Phoenix",
+    "AZ",
+    1
+   ],
+   [
+    "Plano",
+    "TX",
+    1
+   ],
+   [
+    "Southampton",
+    "NY",
+    1
+   ],
+   [
+    "Troy",
+    "MI",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 0,
+  "con": 0
+ },
+ "cities": "No store of its own · sold in 23 Ralph Lauren flagships across the US, and on ralphlauren.com",
+ "site": {
+  "domain": "www.ralphlauren.com",
+  "platform": "salesforce_commerce",
+  "feed": "none_found",
+  "feed_count": 0,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "licensed",
+  "marks": [
+   "Ventile"
+  ],
+  "source": "screen_36",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 272,
+  "w": 270,
+  "n": 97,
+  "s": 2,
+  "c": 0,
+  "x": 10,
+  "xh": 1,
+  "sp": "one",
+  "sc": [
+   "swimwear"
+  ],
+  "nc": [
+   "sportcoats",
+   "pants",
+   "sweaters"
+  ],
+  "st": "complete"
+ },
+ "garment_links": {
+  "T-shirt": "https://www.ralphlauren.com/men-clothing-t-shirts/r/purple-label",
+  "Polo": "https://www.ralphlauren.com/men-clothing-polo-shirts/r/purple-label",
+  "Dress shirt": "https://www.ralphlauren.com/men-clothing-dress-shirts/r/purple-label",
+  "Jeans": "https://www.ralphlauren.com/men-clothing-jeans/r/purple-label",
+  "Dress pants": "https://www.ralphlauren.com/men-clothing-pants",
+  "Sweater": "https://www.ralphlauren.com/men-clothing-sweaters/r/purple-label",
+  "Outerwear": "https://www.ralphlauren.com/purple-label-outerwear-cg",
+  "Shoes": "https://www.ralphlauren.com/men-footwear-shoes/r/purple-label"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Lisle Crewneck T-Shirt",
+   "lu": "https://www.ralphlauren.com/men-clothing-t-shirts/lisle-crewneck-t-shirt/281670.html",
+   "hp": "Relaxed Fit Polo Bear T-Shirt",
+   "hu": "https://www.ralphlauren.com/men-clothing-t-shirts/relaxed-fit-polo-bear-t-shirt/100090830.html",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 0,
-    "cities": [],
-    "basis": "positive zero 2026-09-23"
+  "Polo": {
+   "lp": "Custom Slim Fit Washed Piqué Polo Shirt",
+   "lu": "https://www.ralphlauren.com/men-clothing-polo-shirts/custom-slim-fit-washed-piqu%C3%A9-polo-shirt/100098719.html",
+   "hp": "Linen Jersey Polo Shirt",
+   "hu": "https://www.ralphlauren.com/men-clothing-polo-shirts/linen-jersey-polo-shirt/100090816.html",
+   "b": "range"
   },
-  "cities": "No store of its own · sold inside Ralph Lauren flagships and on ralphlauren.com",
-  "site": {
-    "domain": "www.ralphlauren.com",
-    "platform": "salesforce_commerce",
-    "feed": "none_found",
-    "feed_count": 0,
-    "status": "live_store",
-    "checked": "2026-09-13"
+  "Dress shirt": {
+   "lp": "Washed Oxford Shirt",
+   "lu": "https://www.ralphlauren.com/men-clothing-dress-shirts/washed-oxford-shirt/637855.html",
+   "hp": "Handmade End-on-End Shirt",
+   "hu": "https://www.ralphlauren.com/men-clothing-dress-shirts/handmade-end-on-end-shirt/100063926.html",
+   "b": "range"
   },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "licensed",
-    "marks": ["Ventile"],
-    "source": "screen_36",
-    "checked": "2026-09-12"
+  "Jeans": {
+   "lp": "Slim Fit Indigo Jean",
+   "lu": "https://www.ralphlauren.com/men-clothing-jeans/slim-fit-indigo-jean/100084660.html",
+   "hp": "Straight Fit Stretch Selvedge Jean",
+   "hu": "https://www.ralphlauren.com/men-clothing-jeans/straight-fit-stretch-selvedge-jean/100033517.html",
+   "b": "range"
   },
-  "fibre": {
-    "t": 272,
-    "w": 270,
-    "n": 97,
-    "s": 2,
-    "c": 0,
-    "x": 10,
-    "xh": 1,
-    "sp": "one",
-    "sc": ["swimwear"],
-    "nc": ["sportcoats", "pants", "sweaters"],
-    "st": "complete"
+  "Dress pants": {
+   "lp": "Gregory Hand-Tailored Flannel Trouser",
+   "lu": "https://www.ralphlauren.com/men-clothing-pants/gregory-hand-tailored-flannel-trouser/100047670.html",
+   "hp": "Hand-Tailored Silk Suit Trouser",
+   "hu": "https://www.ralphlauren.com/men-clothing-pants/hand-tailored-silk-suit-trouser/100090876.html",
+   "b": "pair"
   },
-  "garment_links": {
-    "T-shirt": "https://www.ralphlauren.com/men-clothing-t-shirts/r/purple-label",
-    "Polo": "https://www.ralphlauren.com/men-clothing-polo-shirts/r/purple-label",
-    "Dress shirt": "https://www.ralphlauren.com/men-clothing-dress-shirts/r/purple-label",
-    "Jeans": "https://www.ralphlauren.com/men-clothing-jeans/r/purple-label",
-    "Dress pants": "https://www.ralphlauren.com/men-clothing-pants",
-    "Sweater": "https://www.ralphlauren.com/men-clothing-sweaters/r/purple-label",
-    "Outerwear": "https://www.ralphlauren.com/purple-label-outerwear-cg",
-    "Shoes": "https://www.ralphlauren.com/men-footwear-shoes/r/purple-label"
+  "Sweater": {
+   "lp": "Cashmere Crewneck Sweater",
+   "lu": "https://www.ralphlauren.com/men-clothing-sweaters/cashmere-crewneck-sweater/303232.html",
+   "hp": "Relaxed Fit Plaid Cashmere-Blend Sweater",
+   "hu": "https://www.ralphlauren.com/men-clothing-sweaters/relaxed-fit-plaid-cashmere-blend-sweater/100105276.html",
+   "b": "pair"
   },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Lisle Crewneck T-Shirt",
-      "lu": "https://www.ralphlauren.com/men-clothing-t-shirts/lisle-crewneck-t-shirt/281670.html",
-      "hp": "Relaxed Fit Polo Bear T-Shirt",
-      "hu": "https://www.ralphlauren.com/men-clothing-t-shirts/relaxed-fit-polo-bear-t-shirt/100090830.html",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Custom Slim Fit Washed Piqué Polo Shirt",
-      "lu": "https://www.ralphlauren.com/men-clothing-polo-shirts/custom-slim-fit-washed-piqu%C3%A9-polo-shirt/100098719.html",
-      "hp": "Linen Jersey Polo Shirt",
-      "hu": "https://www.ralphlauren.com/men-clothing-polo-shirts/linen-jersey-polo-shirt/100090816.html",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Washed Oxford Shirt",
-      "lu": "https://www.ralphlauren.com/men-clothing-dress-shirts/washed-oxford-shirt/637855.html",
-      "hp": "Handmade End-on-End Shirt",
-      "hu": "https://www.ralphlauren.com/men-clothing-dress-shirts/handmade-end-on-end-shirt/100063926.html",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Slim Fit Indigo Jean",
-      "lu": "https://www.ralphlauren.com/men-clothing-jeans/slim-fit-indigo-jean/100084660.html",
-      "hp": "Straight Fit Stretch Selvedge Jean",
-      "hu": "https://www.ralphlauren.com/men-clothing-jeans/straight-fit-stretch-selvedge-jean/100033517.html",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Gregory Hand-Tailored Flannel Trouser",
-      "lu": "https://www.ralphlauren.com/men-clothing-pants/gregory-hand-tailored-flannel-trouser/100047670.html",
-      "hp": "Hand-Tailored Silk Suit Trouser",
-      "hu": "https://www.ralphlauren.com/men-clothing-pants/hand-tailored-silk-suit-trouser/100090876.html",
-      "b": "pair"
-    },
-    "Sweater": {
-      "lp": "Cashmere Crewneck Sweater",
-      "lu": "https://www.ralphlauren.com/men-clothing-sweaters/cashmere-crewneck-sweater/303232.html",
-      "hp": "Relaxed Fit Plaid Cashmere-Blend Sweater",
-      "hu": "https://www.ralphlauren.com/men-clothing-sweaters/relaxed-fit-plaid-cashmere-blend-sweater/100105276.html",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "Thompson Jacket",
-      "lu": "https://www.ralphlauren.com/men-clothing-jackets-coats-vests/thompson-jacket/100098460.html",
-      "hp": "Felton Cashmere-Silk Flight Jacket",
-      "hu": "https://www.ralphlauren.com/men-clothing-jackets-coats-vests/felton-cashmere-silk-flight-jacket/100098429.html",
-      "b": "range"
-    },
-    "Shoes": {
-      "lp": "Chalmers Burnished Calfskin Penny Loafer",
-      "lu": "https://www.ralphlauren.com/men-footwear-shoes/chalmers-burnished-calfskin-penny-loafer/614669.html",
-      "hp": "Bolden Calf-Suede Penny Loafer",
-      "hu": "https://www.ralphlauren.com/men-footwear-shoes/bolden-calf-suede-penny-loafer/100007798.html",
-      "b": "pair"
-    }
+  "Outerwear": {
+   "lp": "Thompson Jacket",
+   "lu": "https://www.ralphlauren.com/men-clothing-jackets-coats-vests/thompson-jacket/100098460.html",
+   "hp": "Felton Cashmere-Silk Flight Jacket",
+   "hu": "https://www.ralphlauren.com/men-clothing-jackets-coats-vests/felton-cashmere-silk-flight-jacket/100098429.html",
+   "b": "range"
   },
-  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Outerwear"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.ralphlauren.com/brands-purple-label-men-shop-all-cg",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=2847834",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "season": {
-    "l": "Fall/Holiday 2026",
-    "t": "collection page",
-    "u": "https://www.ralphlauren.com/brands-purple-label-fall-cg",
-    "m": "yes"
-  },
-  "craft_evidence": {
-    "owned": "NC",
-    "owned_d": "Purple Label PDPs claim no owned workshop. Ralph Lauren Corp filings (10-K) were not checked within the fetch budget.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "every product",
-    "countries": "Italy 6/6 (sample of 6 Purple Label PDPs: suit, trousers, 2 cashmere sweaters, cashmere shirt jacket, suede parka)",
-    "heritage": "NC",
-    "repair": "NC",
-    "process": "some",
-    "urls": [
-      "https://www.ralphlauren.com/men-clothing-suits/glenn-hand-tailored-plaid-cashmere-suit/100107642.html",
-      "https://www.ralphlauren.com/brands-purple-label-men"
-    ],
-    "conf": "medium",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Chalmers Burnished Calfskin Penny Loafer",
+   "lu": "https://www.ralphlauren.com/men-footwear-shoes/chalmers-burnished-calfskin-penny-loafer/614669.html",
+   "hp": "Bolden Calf-Suede Penny Loafer",
+   "hu": "https://www.ralphlauren.com/men-footwear-shoes/bolden-calf-suede-penny-loafer/100007798.html",
+   "b": "pair"
   }
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Jeans",
+  "Outerwear"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.ralphlauren.com/brands-purple-label-men-shop-all-cg",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=2847834",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "season": {
+  "l": "Fall/Holiday 2026",
+  "t": "collection page",
+  "u": "https://www.ralphlauren.com/brands-purple-label-fall-cg",
+  "m": "yes"
+ },
+ "craft_evidence": {
+  "owned": "NC",
+  "owned_d": "Purple Label PDPs claim no owned workshop. Ralph Lauren Corp filings (10-K) were not checked within the fetch budget.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "every product",
+  "countries": "Italy 6/6 (sample of 6 Purple Label PDPs: suit, trousers, 2 cashmere sweaters, cashmere shirt jacket, suede parka)",
+  "heritage": "NC",
+  "repair": "NC",
+  "process": "some",
+  "urls": [
+   "https://www.ralphlauren.com/men-clothing-suits/glenn-hand-tailored-plaid-cashmere-suit/100107642.html",
+   "https://www.ralphlauren.com/brands-purple-label-men"
+  ],
+  "conf": "medium",
+  "read": "2026-10-03"
+ },
+ "region": {
+  "o": [
+   2939,
+   2942,
+   2943,
+   2948,
+   2949,
+   2961
+  ],
+  "s": []
+ }
 }

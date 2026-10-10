@@ -1,211 +1,266 @@
 {
-  "name": "Fear of God",
-  "band": "trueLux",
-  "seat": 174,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 3,
-    "craft": 2,
-    "style": 5
+ "name": "Fear of God",
+ "band": "trueLux",
+ "seat": 174,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 3,
+  "craft": 2,
+  "style": 5
+ },
+ "fabric": {
+  "denim": 3,
+  "cashmere": 3,
+  "linen": 1,
+  "cotton": 3,
+  "wool": 3,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 2,
+  "forg": 3,
+  "fuss": 1,
+  "bruv": 3,
+  "shoes": 3,
+  "status": 3,
+  "murica": 4,
+  "ital": 2,
+  "street": 5,
+  "avant": 2,
+  "whitet": 2,
+  "logo": 1,
+  "western": 1,
+  "rock": 2,
+  "workwear": 2,
+  "outdoor": 2,
+  "surf": 1
+ },
+ "why": "Loose, long-proportioned casual clothing and tailoring; made with Zegna under a partnership.",
+ "origin": "Founded in Los Angeles in 2013 by Jerry Lorenzo.",
+ "chan": [
+  "O",
+  "D"
+ ],
+ "conf": "L",
+ "forgc": [
+  5,
+  3,
+  1
+ ],
+ "shop": "https://fearofgod.com/search?q=",
+ "onething": {
+  "p": "Essentials hoodie",
+  "u": "https://fearofgod.com/search?q=Essentials%20hoodie",
+  "n": "verified ✓"
+ },
+ "prices": [
+  [
+   65,
+   850
+  ],
+  [
+   115,
+   165
+  ],
+  [
+   135,
+   875
+  ],
+  [
+   175,
+   695
+  ],
+  [
+   880,
+   1300
+  ],
+  [
+   175,
+   990
+  ],
+  [
+   230,
+   3850
+  ],
+  [
+   150,
+   1250
+  ]
+ ],
+ "shoelink": {
+  "t": "shoes",
+  "u": "https://fearofgod.com/search?q=shoes"
+ },
+ "notes": {
+  "style": "the elongated American-luxury silhouette, endlessly imitated",
+  "murica": "names its project American luxury, outright",
+  "street": "the Essentials hoodie — the street uniform of the decade",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 2; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "Fear of God's mainline product copy states only a country ('crafted in the USA', 'crafted in Italy') and names no factory, maker or mill; the Essentials product data states no origin at all. The supply-chain disclosure refers only to external suppliers it audits, and the site has no craft or factory page. Country-of-make for part of the range = 2."
+ },
+ "doors": {
+  "c": "full",
+  "n": 0,
+  "cities": [],
+  "basis": "master 2026-08-29, pre-recapture"
+ },
+ "cities": "No store of its own in the US · department stores, and its own site",
+ "addmen": true,
+ "site": {
+  "domain": "fearofgod.com",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 735,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "no",
+  "origin": "none",
+  "marks": [
+   "none"
+  ],
+  "source": "flag_sample",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 118,
+  "w": 117,
+  "n": 92,
+  "s": 7,
+  "c": 0,
+  "x": 8,
+  "xh": 2,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "tops",
+   "bottoms",
+   "outerwear"
+  ],
+  "st": "complete"
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants",
+  "Sweater",
+  "Outerwear",
+  "Shoes"
+ ],
+ "garment_links": {
+  "T-shirt": "https://fearofgod.com/collections/mens-tees",
+  "Polo": "https://fearofgod.com/collections/mens-shirts",
+  "Dress shirt": "https://fearofgod.com/collections/mens-shirts",
+  "Jeans": "https://fearofgod.com/collections/mens-denim",
+  "Dress pants": "https://fearofgod.com/collections/fearofgod-suiting",
+  "Sweater": "https://fearofgod.com/collections/mens-knitwear-sweaters",
+  "Outerwear": "https://fearofgod.com/collections/mens-outerwear"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Signature Essential Tee (ESSENTIALS)",
+   "lu": "https://fearofgod.com/products/essentials-signature-essential-tee-125sp264223f-ivory",
+   "hp": "Merino Milano Knit Tee",
+   "hu": "https://fearofgod.com/products/knit-t-shirt-fg9m20-203lms-dusty-beige",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 3,
-    "cashmere": 3,
-    "linen": 1,
-    "cotton": 3,
-    "wool": 3,
-    "synth": 1
+  "Polo": {
+   "lp": "Heavy Jersey Cropped Polo (ESSENTIALS)",
+   "lu": "https://fearofgod.com/products/essentials-cropped-polo-rw00276-washed-seal",
+   "hp": "Signature 3/4 Sleeve 90s Knit Polo (ESSENTIALS)",
+   "hu": "https://fearofgod.com/products/essentials-signature-3-4-sleeve-90s-knit-polo-192sp266961f-vintage-black",
+   "b": "range"
   },
-  "dials": {
-    "dur": 2,
-    "forg": 3,
-    "fuss": 1,
-    "bruv": 3,
-    "shoes": 3,
-    "status": 3,
-    "murica": 4,
-    "ital": 2,
-    "street": 5,
-    "avant": 2,
-    "whitet": 2,
-    "logo": 1,
-    "western": 1,
-    "rock": 2,
-    "workwear": 2,
-    "outdoor": 2,
-    "surf": 1
+  "Dress shirt": {
+   "lp": "Flannel Button Up Shirt (ESSENTIALS)",
+   "lu": "https://fearofgod.com/products/essentials-button-up-shirt-rw00308-vintage-black-plaid",
+   "hp": "Cotton Wool Oxford Classic Shirt",
+   "hu": "https://fearofgod.com/products/classic-shirt-ls-fg9m60-602oxf-white",
+   "b": "range"
   },
-  "why": "Loose, long-proportioned casual clothing and tailoring; made with Zegna under a partnership.",
-  "origin": "Founded in Los Angeles in 2013 by Jerry Lorenzo.",
-  "chan": ["O", "D"],
-  "conf": "L",
-  "forgc": [5, 3, 1],
-  "shop": "https://fearofgod.com/search?q=",
-  "onething": {
-    "p": "Essentials hoodie",
-    "u": "https://fearofgod.com/search?q=Essentials%20hoodie",
-    "n": "verified ✓"
+  "Jeans": {
+   "lp": "Denim 5-Pocket Jeans (ESSENTIALS)",
+   "lu": "https://fearofgod.com/products/essentials-denim-5-pocket-jeans-rw00310-overdyed-black",
+   "hp": "Straight 5 Pocket",
+   "hu": "https://fearofgod.com/products/straight-5-pkt-fg9m45-9906dnmmi-medium-indigo",
+   "b": "range"
   },
-  "prices": [[65, 850], [115, 165], [135, 875], [175, 695], [880, 1300], [175, 990], [230, 3850], [150, 1250]],
-  "shoelink": {
-    "t": "shoes",
-    "u": "https://fearofgod.com/search?q=shoes"
+  "Dress pants": {
+   "lp": "Wool Ripstop Wide Leg Drawstring Pants",
+   "lu": "https://fearofgod.com/products/wide-leg-drawstring-pants-fg9m65-652twr-black",
+   "hp": "Double Face Wool Cashmere Flared Pants",
+   "hu": "https://fearofgod.com/products/flared-pants-double-face-fg9m65-650cdfh-black",
+   "b": "range"
   },
-  "notes": {
-    "style": "the elongated American-luxury silhouette, endlessly imitated",
-    "murica": "names its project American luxury, outright",
-    "street": "the Essentials hoodie — the street uniform of the decade",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 2; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Fear of God's mainline product copy states only a country ('crafted in the USA', 'crafted in Italy') and names no factory, maker or mill; the Essentials product data states no origin at all. The supply-chain disclosure refers only to external suppliers it audits, and the site has no craft or factory page. Country-of-make for part of the range = 2."
+  "Sweater": {
+   "lp": "Signature Waffle 90s Crewneck Sweater (ESSENTIALS)",
+   "lu": "https://fearofgod.com/products/essentials-signature-waffle-90s-crewneck-sweater-192sp266131f-vintage-black",
+   "hp": "Wool Cotton Sport Mesh Knit Sweater",
+   "hu": "https://fearofgod.com/products/crew-neck-sweater-fg9m20-211dkms-cream",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 0,
-    "cities": [],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Outerwear": {
+   "lp": "Cotton Twill Work Jacket (ESSENTIALS)",
+   "lu": "https://fearofgod.com/products/essentials-work-jacket-rw00303-moss",
+   "hp": "Leather Raglan Bomber Jacket",
+   "hu": "https://fearofgod.com/products/raglan-bomber-jacket-fg9m50-500lth-black",
+   "b": "range"
   },
-  "cities": "No store of its own in the US · department stores, and its own site",
-  "addmen": true,
-  "site": {
-    "domain": "fearofgod.com",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 735,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "no",
-    "origin": "none",
-    "marks": ["none"],
-    "source": "flag_sample",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 118,
-    "w": 117,
-    "n": 92,
-    "s": 7,
-    "c": 0,
-    "x": 8,
-    "xh": 2,
-    "sp": "one",
-    "sc": [],
-    "nc": ["tops", "bottoms", "outerwear"],
-    "st": "complete"
-  },
-  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants", "Sweater", "Outerwear", "Shoes"],
-  "garment_links": {
-    "T-shirt": "https://fearofgod.com/collections/mens-tees",
-    "Polo": "https://fearofgod.com/collections/mens-shirts",
-    "Dress shirt": "https://fearofgod.com/collections/mens-shirts",
-    "Jeans": "https://fearofgod.com/collections/mens-denim",
-    "Dress pants": "https://fearofgod.com/collections/fearofgod-suiting",
-    "Sweater": "https://fearofgod.com/collections/mens-knitwear-sweaters",
-    "Outerwear": "https://fearofgod.com/collections/mens-outerwear"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Signature Essential Tee (ESSENTIALS)",
-      "lu": "https://fearofgod.com/products/essentials-signature-essential-tee-125sp264223f-ivory",
-      "hp": "Merino Milano Knit Tee",
-      "hu": "https://fearofgod.com/products/knit-t-shirt-fg9m20-203lms-dusty-beige",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Heavy Jersey Cropped Polo (ESSENTIALS)",
-      "lu": "https://fearofgod.com/products/essentials-cropped-polo-rw00276-washed-seal",
-      "hp": "Signature 3/4 Sleeve 90s Knit Polo (ESSENTIALS)",
-      "hu": "https://fearofgod.com/products/essentials-signature-3-4-sleeve-90s-knit-polo-192sp266961f-vintage-black",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Flannel Button Up Shirt (ESSENTIALS)",
-      "lu": "https://fearofgod.com/products/essentials-button-up-shirt-rw00308-vintage-black-plaid",
-      "hp": "Cotton Wool Oxford Classic Shirt",
-      "hu": "https://fearofgod.com/products/classic-shirt-ls-fg9m60-602oxf-white",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Denim 5-Pocket Jeans (ESSENTIALS)",
-      "lu": "https://fearofgod.com/products/essentials-denim-5-pocket-jeans-rw00310-overdyed-black",
-      "hp": "Straight 5 Pocket",
-      "hu": "https://fearofgod.com/products/straight-5-pkt-fg9m45-9906dnmmi-medium-indigo",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Wool Ripstop Wide Leg Drawstring Pants",
-      "lu": "https://fearofgod.com/products/wide-leg-drawstring-pants-fg9m65-652twr-black",
-      "hp": "Double Face Wool Cashmere Flared Pants",
-      "hu": "https://fearofgod.com/products/flared-pants-double-face-fg9m65-650cdfh-black",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Signature Waffle 90s Crewneck Sweater (ESSENTIALS)",
-      "lu": "https://fearofgod.com/products/essentials-signature-waffle-90s-crewneck-sweater-192sp266131f-vintage-black",
-      "hp": "Wool Cotton Sport Mesh Knit Sweater",
-      "hu": "https://fearofgod.com/products/crew-neck-sweater-fg9m20-211dkms-cream",
-      "b": "range"
-    },
-    "Outerwear": {
-      "lp": "Cotton Twill Work Jacket (ESSENTIALS)",
-      "lu": "https://fearofgod.com/products/essentials-work-jacket-rw00303-moss",
-      "hp": "Leather Raglan Bomber Jacket",
-      "hu": "https://fearofgod.com/products/raglan-bomber-jacket-fg9m50-500lth-black",
-      "b": "range"
-    },
-    "Shoes": {
-      "lp": "Essentials California 1.0 (ESSENTIALS)",
-      "lu": "https://fearofgod.com/products/essentials-california-1-0-ess80a-100eva-almond",
-      "hp": "Croc Printed Ankle Boot",
-      "hu": "https://fearofgod.com/products/ankle-boot-fg981-9000clp-midnight-blue",
-      "b": "range"
-    }
-  },
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://fearofgod.com",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "ESSENTIALS"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=277314",
-      "m": "brand filter",
-      "n": "ESSENTIALS has no Vinted brand entry"
-    }
-  },
-  "season": {
-    "l": "Winter 2026 ('The Eternal Order coming winter 2026')",
-    "t": "lookbook",
-    "u": "https://fearofgod.com/pages/fear-of-god-the-eternal-order-lookbook",
-    "m": "yes"
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "No owned factory, workshop or mill named anywhere on fearofgod.com. The California Transparency in Supply Chains disclosure speaks only of external 'suppliers' that Fear of God audits ('Audits may consist of site visits, interviews, and/or a review of the supplier's records'); no owned production is mentioned. The pages sitemap has no about/craft/factory page.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "some",
-    "countries": "Mainline (collection 'fearofgod', 9 products in products.json): USA 7/9 ('crafted in the USA' fleece/jersey), Italy 2/9 (raglan leather bomber 'crafted in Italy'; classic shirt 'tailored in Italy' / PDP 'Made in Italy'). Essentials (33 products across 2 products.json pages): 0/33 state origin in body_html (origin may sit in a PDP tab the JSON does not carry - not checked per-PDP). Mainline knitwear, denim and suiting collections returned empty product lists.",
-    "heritage": "dated and placed",
-    "repair": "no",
-    "process": "no",
-    "urls": [
-      "https://fearofgod.com/collections/fearofgod/products.json?limit=250",
-      "https://fearofgod.com/pages/california-transparency-in-supply-chains-act-disclosure"
-    ],
-    "conf": "medium",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Essentials California 1.0 (ESSENTIALS)",
+   "lu": "https://fearofgod.com/products/essentials-california-1-0-ess80a-100eva-almond",
+   "hp": "Croc Printed Ankle Boot",
+   "hu": "https://fearofgod.com/products/ankle-boot-fg981-9000clp-midnight-blue",
+   "b": "range"
   }
+ },
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://fearofgod.com",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "ESSENTIALS"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=277314",
+   "m": "brand filter",
+   "n": "ESSENTIALS has no Vinted brand entry"
+  }
+ },
+ "season": {
+  "l": "Winter 2026 ('The Eternal Order coming winter 2026')",
+  "t": "lookbook",
+  "u": "https://fearofgod.com/pages/fear-of-god-the-eternal-order-lookbook",
+  "m": "yes"
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "No owned factory, workshop or mill named anywhere on fearofgod.com. The California Transparency in Supply Chains disclosure speaks only of external 'suppliers' that Fear of God audits ('Audits may consist of site visits, interviews, and/or a review of the supplier's records'); no owned production is mentioned. The pages sitemap has no about/craft/factory page.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "some",
+  "countries": "Mainline (collection 'fearofgod', 9 products in products.json): USA 7/9 ('crafted in the USA' fleece/jersey), Italy 2/9 (raglan leather bomber 'crafted in Italy'; classic shirt 'tailored in Italy' / PDP 'Made in Italy'). Essentials (33 products across 2 products.json pages): 0/33 state origin in body_html (origin may sit in a PDP tab the JSON does not carry - not checked per-PDP). Mainline knitwear, denim and suiting collections returned empty product lists.",
+  "heritage": "dated and placed",
+  "repair": "no",
+  "process": "no",
+  "urls": [
+   "https://fearofgod.com/collections/fearofgod/products.json?limit=250",
+   "https://fearofgod.com/pages/california-transparency-in-supply-chains-act-disclosure"
+  ],
+  "conf": "medium",
+  "read": "2026-10-03"
+ }
 }

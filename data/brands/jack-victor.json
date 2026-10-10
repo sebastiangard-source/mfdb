@@ -1,223 +1,269 @@
 {
-  "name": "Jack Victor",
-  "band": "accessible",
-  "seat": 98,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 2,
-    "craft": 4,
-    "style": 2
+ "name": "Jack Victor",
+ "band": "accessible",
+ "seat": 98,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 2,
+  "craft": 4,
+  "style": 2
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 2,
+  "linen": 2,
+  "cotton": 2,
+  "wool": 4,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 3,
+  "fuss": 2,
+  "golffice": -3,
+  "shoes": 0,
+  "ital": 2,
+  "whitet": 3,
+  "logo": 1,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Suits and tailoring made in the company's own factory in Montreal.",
+ "origin": "Founded in Montreal in 1913 as Royal Brand Clothing; renamed for Jack Victor in 1947.",
+ "chan": [
+  "D",
+  "I"
+ ],
+ "conf": "S",
+ "forgc": [
+  2,
+  4,
+  4
+ ],
+ "shop": "https://jackvictor.com/search?q=",
+ "onething": {
+  "p": "The blazer",
+  "u": "https://www.jackvictor.com/search?q=blazer",
+  "n": "their nomenclature is blazers, not sport coats — per site"
+ },
+ "prices": [
+  [
+   178,
+   228
+  ],
+  [
+   248,
+   248
+  ],
+  [
+   198,
+   298
+  ],
+  null,
+  [
+   278,
+   348
+  ],
+  [
+   248,
+   278
+  ],
+  [
+   698,
+   1198
+  ],
+  null
+ ],
+ "price_checked": true,
+ "notes": {
+  "wool": "Italian cloth cut in its own Montreal factory since 1913",
+  "whitet": "a named tee in the range — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 3; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "Jack Victor's own timeline puts its factory on Saint Alexander Street in Montreal from 1951, expanded to 150,000 sq ft in 1998. Its sustainability page says its unionised Montreal facilities make the core tailoring. Knitwear and some other lines are Italian-made by unnamed partners (one blazer names Loro Piana cloth), so owned making covers tailoring, not the whole range: a 4. [audit proposed 4 at low confidence; held at 4 pending a second read]"
+ },
+ "doors": {
+  "c": "full",
+  "n": 0,
+  "cities": [],
+  "basis": "master 2026-08-29, pre-recapture"
+ },
+ "cities": "No store of its own in the US · department stores and independent menswear shops, and its own site",
+ "region": {
+  "o": [],
+  "s": [
+   2,
+   9,
+   10,
+   11,
+   24,
+   29,
+   30,
+   35,
+   41,
+   49,
+   50,
+   51,
+   55,
+   58,
+   66,
+   85,
+   89,
+   95,
+   96,
+   118,
+   130,
+   135,
+   136,
+   138,
+   140,
+   143,
+   151,
+   152
+  ]
+ },
+ "site": {
+  "domain": "jackvictor.com",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 400,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "both",
+  "marks": [
+   "DREAM(tm) [house]",
+   "COMFORTWEAR(tm) [house]",
+   "Loro Piana [licensed]",
+   "Storm System [licensed, Loro Piana]",
+   "Lycra",
+   "elastane",
+   "water-repellent"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 178,
+  "w": 177,
+  "n": 98,
+  "s": 1,
+  "c": 1,
+  "x": 25,
+  "xh": 2,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "blazers & dinner jackets",
+   "trousers",
+   "suits"
+  ],
+  "st": "complete"
+ },
+ "garment_links": {
+  "T-shirt": "https://www.jackvictor.com/collections/t-shirts",
+  "Polo": "https://www.jackvictor.com/collections/polos",
+  "Dress shirt": "https://www.jackvictor.com/collections/shirts",
+  "Dress pants": "https://www.jackvictor.com/collections/pants",
+  "Sweater": "https://www.jackvictor.com/collections/sweaters",
+  "Outerwear": "https://www.jackvictor.com/collections/outerwear"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Hingston Black Short Sleeve T-Shirt",
+   "lu": "https://jackvictor.com/products/hingston-ss-crew-neck-black-v252038-blk",
+   "hp": "Wellington Dark Aviator SetiCo Crew (short-sleeve, cotton-silk knit)",
+   "hu": "https://jackvictor.com/products/wellington-crew-neck-dark-aviator-v251000-dkavtr",
+   "b": "pair"
   },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 2,
-    "linen": 2,
-    "cotton": 2,
-    "wool": 4,
-    "synth": 1
+  "Polo": {
+   "lp": "Tupper Blue SetiCo Polo",
+   "lu": "https://jackvictor.com/products/setico-cotton-and-silk-knit-polo-in-blue-v231017",
+   "hp": "Classic Merino Johnny Collar Navy Polo",
+   "hu": "https://jackvictor.com/products/classic-merino-johnny-collar-navy-polo",
+   "b": "range"
   },
-  "dials": {
-    "dur": 3,
-    "forg": 3,
-    "fuss": 2,
-    "golffice": -3,
-    "shoes": 0,
-    "ital": 2,
-    "whitet": 3,
-    "logo": 1,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
+  "Dress shirt": {
+   "lp": "Hoffman Blue Stripe Dress Shirt",
+   "lu": "https://jackvictor.com/products/hoffman-blue-stripe-dress-shirt",
+   "hp": "White Tuxedo Shirt",
+   "hu": "https://jackvictor.com/products/white-tuxedo-shirt",
+   "b": "range"
   },
-  "why": "Suits and tailoring made in the company's own factory in Montreal.",
-  "origin": "Founded in Montreal in 1913 as Royal Brand Clothing; renamed for Jack Victor in 1947.",
-  "chan": ["D", "I"],
-  "conf": "S",
-  "forgc": [2, 4, 4],
-  "shop": "https://jackvictor.com/search?q=",
-  "onething": {
-    "p": "The blazer",
-    "u": "https://www.jackvictor.com/search?q=blazer",
-    "n": "their nomenclature is blazers, not sport coats — per site"
+  "Dress pants": {
+   "lp": "Patrick Charcoal Solid Stretch TEMPO Trouser",
+   "lu": "https://jackvictor.com/products/patrick-ct-pant-reg-pant-jt214245-782-tr",
+   "hp": "Yardley Grey Mini Houndstooth Trouser (Super 120s wool flannel)",
+   "hu": "https://jackvictor.com/products/yardley-grey-mini-houndstooth-trouser",
+   "b": "range"
   },
-  "prices": [[178, 228], [248, 248], [198, 298], null, [278, 348], [248, 278], [698, 1198], null],
-  "price_checked": true,
-  "notes": {
-    "wool": "Italian cloth cut in its own Montreal factory since 1913",
-    "whitet": "a named tee in the range — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 3; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Jack Victor's own timeline puts its factory on Saint Alexander Street in Montreal from 1951, expanded to 150,000 sq ft in 1998. Its sustainability page says its unionised Montreal facilities make the core tailoring. Knitwear and some other lines are Italian-made by unnamed partners (one blazer names Loro Piana cloth), so owned making covers tailoring, not the whole range: a 4. [audit proposed 4 at low confidence; held at 4 pending a second read]"
+  "Sweater": {
+   "lp": "Dan Washed Navy Crew Neck Sweater",
+   "lu": "https://jackvictor.com/products/dan-ls-crew-neck-washed-navy-v261028-wasnv",
+   "hp": "Charcoal Long Sleeve Crew Neck (Evening Wool, extrafine merino and silk)",
+   "hu": "https://jackvictor.com/products/charcoal-long-sleeve-crew-neck",
+   "b": "pair"
   },
-  "doors": {
-    "c": "full",
-    "n": 0,
-    "cities": [],
-    "basis": "master 2026-08-29, pre-recapture"
-  },
-  "cities": "No store of its own in the US · department stores and independent menswear shops, and its own site",
-  "region": {
-    "o": [],
-    "s": [
-      2,
-      9,
-      10,
-      11,
-      24,
-      29,
-      30,
-      35,
-      41,
-      49,
-      50,
-      51,
-      55,
-      58,
-      66,
-      85,
-      89,
-      95,
-      96,
-      118,
-      130,
-      135,
-      136,
-      138,
-      140,
-      143,
-      151,
-      152
-    ]
-  },
-  "site": {
-    "domain": "jackvictor.com",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 400,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "both",
-    "marks": [
-      "DREAM(tm) [house]",
-      "COMFORTWEAR(tm) [house]",
-      "Loro Piana [licensed]",
-      "Storm System [licensed, Loro Piana]",
-      "Lycra",
-      "elastane",
-      "water-repellent"
-    ],
-    "source": "census",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 178,
-    "w": 177,
-    "n": 98,
-    "s": 1,
-    "c": 1,
-    "x": 25,
-    "xh": 2,
-    "sp": "one",
-    "sc": [],
-    "nc": ["blazers & dinner jackets", "trousers", "suits"],
-    "st": "complete"
-  },
-  "garment_links": {
-    "T-shirt": "https://www.jackvictor.com/collections/t-shirts",
-    "Polo": "https://www.jackvictor.com/collections/polos",
-    "Dress shirt": "https://www.jackvictor.com/collections/shirts",
-    "Dress pants": "https://www.jackvictor.com/collections/pants",
-    "Sweater": "https://www.jackvictor.com/collections/sweaters",
-    "Outerwear": "https://www.jackvictor.com/collections/outerwear"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Hingston Black Short Sleeve T-Shirt",
-      "lu": "https://jackvictor.com/products/hingston-ss-crew-neck-black-v252038-blk",
-      "hp": "Wellington Dark Aviator SetiCo Crew (short-sleeve, cotton-silk knit)",
-      "hu": "https://jackvictor.com/products/wellington-crew-neck-dark-aviator-v251000-dkavtr",
-      "b": "pair"
-    },
-    "Polo": {
-      "lp": "Tupper Blue SetiCo Polo",
-      "lu": "https://jackvictor.com/products/setico-cotton-and-silk-knit-polo-in-blue-v231017",
-      "hp": "Classic Merino Johnny Collar Navy Polo",
-      "hu": "https://jackvictor.com/products/classic-merino-johnny-collar-navy-polo",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Hoffman Blue Stripe Dress Shirt",
-      "lu": "https://jackvictor.com/products/hoffman-blue-stripe-dress-shirt",
-      "hp": "White Tuxedo Shirt",
-      "hu": "https://jackvictor.com/products/white-tuxedo-shirt",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Patrick Charcoal Solid Stretch TEMPO Trouser",
-      "lu": "https://jackvictor.com/products/patrick-ct-pant-reg-pant-jt214245-782-tr",
-      "hp": "Yardley Grey Mini Houndstooth Trouser (Super 120s wool flannel)",
-      "hu": "https://jackvictor.com/products/yardley-grey-mini-houndstooth-trouser",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Dan Washed Navy Crew Neck Sweater",
-      "lu": "https://jackvictor.com/products/dan-ls-crew-neck-washed-navy-v261028-wasnv",
-      "hp": "Charcoal Long Sleeve Crew Neck (Evening Wool, extrafine merino and silk)",
-      "hu": "https://jackvictor.com/products/charcoal-long-sleeve-crew-neck",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "Jonte Navy Field Jacket",
-      "lu": "https://jackvictor.com/products/jonte-sml-oc81101-1569-ww",
-      "hp": "Camel Double Breasted Coat (wool-cashmere)",
-      "hu": "https://jackvictor.com/products/harvard-regular-oc82503-1595-er",
-      "b": "range"
-    }
-  },
-  "price_range_only": ["Polo", "Dress shirt", "Dress pants", "Outerwear"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://jackvictor.com/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?search_text=Jack%20Victor&catalog[]=5",
-      "m": "text search",
-      "n": "No Vinted brand entry; keyword search in Men"
-    }
-  },
-  "season": {
-    "l": "Fall Winter 2026 Preview",
-    "t": "lookbook",
-    "u": "https://www.jackvictor.com/pages/fall-2026-collection-preview",
-    "m": "yes"
-  },
-  "craft_evidence": {
-    "owned": "yes",
-    "owned_d": "Brand's own pages describe its own making in Montreal. 'Our World' timeline: Royal Brand Clothing 1913; 1951 'a new Montréal headquarters and factory building on Saint Alexander Street is completed'; 1998 manufacturing facilities expanded to 150,000 sq ft. Sustainability page: 'Our Montreal facilities operate using 95% renewable energy … and employ a unionized workforce'; 'core men's tailoring collection is manufactured in North America using unionized labor'. Site has a 'Made in Montreal' collection alongside 'Made in Italy'. Current street address of the factory not confirmed on the pages read. Covers tailoring, not the whole range.",
-    "makers": "no",
-    "mills": "some",
-    "madein": "most",
-    "countries": "Blazers: collection page origin filter shows Canada for all 42 blazers; Midland blazer PDP 'Made in Montreal' (1 rendered PDP). Non-tailoring sample of 16 from product feed: Italy-related wording 9/16 ('crafted in Italy', 'woven in Italy'; some only 'Italian merino wool', which is fibre), no origin 6/16 (sport shirts), 1 knit only refers to Canadian textile history. Suits not sampled (429).",
-    "heritage": "dated and placed",
-    "repair": "NC",
-    "process": "some",
-    "urls": ["https://www.jackvictor.com/pages/our-world", "https://www.jackvictor.com/collections/blazers"],
-    "conf": "low",
-    "read": "2026-10-03"
+  "Outerwear": {
+   "lp": "Jonte Navy Field Jacket",
+   "lu": "https://jackvictor.com/products/jonte-sml-oc81101-1569-ww",
+   "hp": "Camel Double Breasted Coat (wool-cashmere)",
+   "hu": "https://jackvictor.com/products/harvard-regular-oc82503-1595-er",
+   "b": "range"
   }
+ },
+ "price_range_only": [
+  "Polo",
+  "Dress shirt",
+  "Dress pants",
+  "Outerwear"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://jackvictor.com/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?search_text=Jack%20Victor&catalog[]=5",
+   "m": "text search",
+   "n": "No Vinted brand entry; keyword search in Men"
+  }
+ },
+ "season": {
+  "l": "Fall Winter 2026 Preview",
+  "t": "lookbook",
+  "u": "https://www.jackvictor.com/pages/fall-2026-collection-preview",
+  "m": "yes"
+ },
+ "craft_evidence": {
+  "owned": "yes",
+  "owned_d": "Brand's own pages describe its own making in Montreal. 'Our World' timeline: Royal Brand Clothing 1913; 1951 'a new Montréal headquarters and factory building on Saint Alexander Street is completed'; 1998 manufacturing facilities expanded to 150,000 sq ft. Sustainability page: 'Our Montreal facilities operate using 95% renewable energy … and employ a unionized workforce'; 'core men's tailoring collection is manufactured in North America using unionized labor'. Site has a 'Made in Montreal' collection alongside 'Made in Italy'. Current street address of the factory not confirmed on the pages read. Covers tailoring, not the whole range.",
+  "makers": "no",
+  "mills": "some",
+  "madein": "most",
+  "countries": "Blazers: collection page origin filter shows Canada for all 42 blazers; Midland blazer PDP 'Made in Montreal' (1 rendered PDP). Non-tailoring sample of 16 from product feed: Italy-related wording 9/16 ('crafted in Italy', 'woven in Italy'; some only 'Italian merino wool', which is fibre), no origin 6/16 (sport shirts), 1 knit only refers to Canadian textile history. Suits not sampled (429).",
+  "heritage": "dated and placed",
+  "repair": "NC",
+  "process": "some",
+  "urls": [
+   "https://www.jackvictor.com/pages/our-world",
+   "https://www.jackvictor.com/collections/blazers"
+  ],
+  "conf": "low",
+  "read": "2026-10-03"
+ }
 }

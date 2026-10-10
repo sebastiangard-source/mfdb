@@ -1,231 +1,320 @@
 {
-  "name": "Giorgio Armani",
-  "band": "trueLux",
-  "seat": 145,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 3,
-    "craft": 4,
-    "style": 4
-  },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 3,
-    "linen": 3,
-    "cotton": 2,
-    "wool": 4,
-    "synth": 1
-  },
-  "dials": {
-    "dur": 3,
-    "forg": 3,
-    "fuss": 3,
-    "golffice": -2,
-    "status": 3,
-    "ital": 4,
-    "whitet": 2,
-    "logo": 1,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
-  },
-  "why": "Soft, unstructured tailoring — the cut Armani introduced in the 1970s — and clothing around it.",
-  "origin": "Founded in Milan in 1975 by Giorgio Armani and Sergio Galeotti.",
-  "opview": "“Elegance is not about being noticed, it's about being remembered.”",
-  "chan": ["O", "D", "X"],
-  "conf": "S",
-  "forgc": [3, 3, 3],
-  "onething": {
-    "p": "Deconstructed blazer",
-    "u": "https://www.neimanmarcus.com/p/giorgio-armani-mens-wool-viscose-deconstructed-blazer-prod272460286",
-    "n": "direct via Neiman Marcus — titled deconstructed blazer on the page itself"
-  },
-  "prices": [
-    [345, 775],
-    [425, 1995],
-    [495, 3295],
-    [675, 1095],
-    [875, 4095],
-    [975, 4195],
-    [1195, 6200],
-    [745, 1395]
+ "name": "Giorgio Armani",
+ "band": "trueLux",
+ "seat": 145,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 3,
+  "craft": 4,
+  "style": 4
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 3,
+  "linen": 3,
+  "cotton": 2,
+  "wool": 4,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 3,
+  "fuss": 3,
+  "golffice": -2,
+  "status": 3,
+  "ital": 4,
+  "whitet": 2,
+  "logo": 1,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Soft, unstructured tailoring — the cut Armani introduced in the 1970s — and clothing around it.",
+ "origin": "Founded in Milan in 1975 by Giorgio Armani and Sergio Galeotti.",
+ "opview": "“Elegance is not about being noticed, it's about being remembered.”",
+ "chan": [
+  "O",
+  "D",
+  "X"
+ ],
+ "conf": "S",
+ "forgc": [
+  3,
+  3,
+  3
+ ],
+ "onething": {
+  "p": "Deconstructed blazer",
+  "u": "https://www.neimanmarcus.com/p/giorgio-armani-mens-wool-viscose-deconstructed-blazer-prod272460286",
+  "n": "direct via Neiman Marcus — titled deconstructed blazer on the page itself"
+ },
+ "prices": [
+  [
+   345,
+   775
   ],
-  "notes": {
-    "wool": "the unstructured jacket that changed tailoring",
-    "ital": "Armani took the structure out of the jacket in 1975 and defined what postwar Milan looked like. The Italianness is proportion and drape, not ornament.",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 4; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "The Armani Group's 2024 sustainability report says its production company GAO runs nine owned production sites in Italy (Settimo Torinese, Mattarello, Matelica, Trissino and others) and also uses outside manufacturers in Italy and abroad, including a supplier network in Asia. Real owned making that does not cover the whole range: a 4."
+  [
+   425,
+   1995
+  ],
+  [
+   495,
+   3295
+  ],
+  [
+   675,
+   1095
+  ],
+  [
+   875,
+   4095
+  ],
+  [
+   975,
+   4195
+  ],
+  [
+   1195,
+   6200
+  ],
+  [
+   745,
+   1395
+  ]
+ ],
+ "notes": {
+  "wool": "the unstructured jacket that changed tailoring",
+  "ital": "Armani took the structure out of the jacket in 1975 and defined what postwar Milan looked like. The Italianness is proportion and drape, not ornament.",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 4; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "The Armani Group's 2024 sustainability report says its production company GAO runs nine owned production sites in Italy (Settimo Torinese, Mattarello, Matelica, Trissino and others) and also uses outside manufacturers in Italy and abroad, including a supplier network in Asia. Real owned making that does not cover the whole range: a 4."
+ },
+ "doors": {
+  "c": "full",
+  "n": 12,
+  "cities": [
+   [
+    "Beverly Hills",
+    "CA",
+    1
+   ],
+   [
+    "Boston",
+    "MA",
+    1
+   ],
+   [
+    "Chicago",
+    "IL",
+    1
+   ],
+   [
+    "Costa Mesa",
+    "CA",
+    1
+   ],
+   [
+    "Honolulu",
+    "HI",
+    1
+   ],
+   [
+    "Houston",
+    "TX",
+    1
+   ],
+   [
+    "Las Vegas",
+    "NV",
+    2
+   ],
+   [
+    "Miami",
+    "FL",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    1
+   ],
+   [
+    "San Francisco",
+    "CA",
+    1
+   ],
+   [
+    "Washington",
+    "DC",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 19,
+  "con": 30
+ },
+ "cities": "12 stores, including Las Vegas, Beverly Hills, Boston · department stores, and its own site",
+ "region": {
+  "o": [
+   1348,
+   1352
+  ],
+  "s": []
+ },
+ "addmen": true,
+ "addcloth": true,
+ "site": {
+  "domain": "armani.com",
+  "platform": "custom",
+  "feed": "sitemap_products",
+  "feed_count": 3134,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "no",
+  "origin": "none",
+  "marks": [
+   "No named fabric or membrane technology, licensed or house, on the Giorgio Armani men's line. The only term-list matches are unnamed generic descriptors: 'technical fabric' (18 PDPs) and 'water-repellent' (11 PDPs). Zero mill, membrane, insulation or branded-fibre marks",
+   "zero house fabric names."
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 584,
+  "w": 576,
+  "n": 71,
+  "s": 7,
+  "c": 20,
+  "x": 21,
+  "xh": 8,
+  "sp": "one",
+  "sc": [
+   "Sweatshirts"
+  ],
+  "nc": [
+   "Shirts",
+   "Trousers",
+   "Knitwear"
+  ],
+  "st": "complete"
+ },
+ "garment_links": {
+  "T-shirt": "https://www.armani.com/en-us/giorgio-armani/man/clothing/t-shirts/",
+  "Polo": "https://www.armani.com/en-us/giorgio-armani/man/clothing/polo-shirts/",
+  "Dress shirt": "https://www.armani.com/en-us/giorgio-armani/man/clothing/shirts/",
+  "Jeans": "https://www.armani.com/en-us/giorgio-armani/man/clothing/jeans/",
+  "Dress pants": "https://www.armani.com/en-us/giorgio-armani/man/clothing/trousers/",
+  "Sweater": "https://www.armani.com/en-us/giorgio-armani/man/clothing/knitwear/",
+  "Outerwear": "https://www.armani.com/en-us/giorgio-armani/man/clothing/outerwear/",
+  "Shoes": "https://www.armani.com/en-us/giorgio-armani/man/shoes/"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Jersey T-shirt in Pima cotton with a front print",
+   "lu": "https://www.armani.com/en-us/giorgio-armani/jersey-t-shirt-in-pima-cotton-with-a-front-print-cod-3GST57-SJMCZ-U090/",
+   "hp": "Plain-knit jersey T-shirt in a silk-and-cotton blend",
+   "hu": "https://www.armani.com/en-us/giorgio-armani/plain-knit-jersey-t-shirt-in-a-silk-and-cotton-blend-cod-3KSM77-SJZHZ-UB100/",
+   "b": "pair"
   },
-  "doors": {
-    "c": "full",
-    "n": 12,
-    "cities": [
-      ["Beverly Hills", "CA", 1],
-      ["Boston", "MA", 1],
-      ["Chicago", "IL", 1],
-      ["Costa Mesa", "CA", 1],
-      ["Honolulu", "HI", 1],
-      ["Houston", "TX", 1],
-      ["Las Vegas", "NV", 2],
-      ["Miami", "FL", 1],
-      ["New York", "NY", 1],
-      ["San Francisco", "CA", 1],
-      ["Washington", "DC", 1]
-    ],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Polo": {
+   "lp": "Stretch polo in viscose jersey with buttonless collar",
+   "lu": "https://www.armani.com/en-us/giorgio-armani/stretch-polo-in-viscose-jersey-with-buttonless-collar-cod-3GSF51-SJP4Z-UC99/",
+   "hp": "Polo shirt Cashmere pure interlock",
+   "hu": "https://www.armani.com/en-us/giorgio-armani/polo-shirt-cashmere-pure-interlock-cod-GM000262-TE10555-U6031/",
+   "b": "pair"
   },
-  "cities": "12 stores, including Las Vegas, Beverly Hills, Boston · department stores, and its own site",
-  "region": {
-    "o": [1039, 1042],
-    "s": []
+  "Dress shirt": {
+   "lp": "Classic shirt in cotton twill",
+   "lu": "https://www.armani.com/en-us/giorgio-armani/classic-shirt-in-cotton-twill-cod-8WGCCZMC-TZ064-UAMC/",
+   "hp": "Shirt regular fit in lightweight cashmere twill",
+   "hu": "https://www.armani.com/en-us/giorgio-armani/shirt-regular-fit-in-lightweight-cashmere-twill-cod-GM000080-TE20771-U8136/",
+   "b": "pair"
   },
-  "addmen": true,
-  "addcloth": true,
-  "site": {
-    "domain": "armani.com",
-    "platform": "custom",
-    "feed": "sitemap_products",
-    "feed_count": 3134,
-    "status": "live_store",
-    "checked": "2026-09-13"
+  "Jeans": {
+   "lp": "Five-pocket, regular fit, stretch cotton-denim trousers",
+   "lu": "https://www.armani.com/en-us/giorgio-armani/five-pocket-regular-fit-stretch-cotton-denim-trousers-cod-6KSJ15-SD2BZ-UBUL/",
+   "hp": "Stretch cotton denim twill jeans",
+   "hu": "https://www.armani.com/en-us/giorgio-armani/stretch-cotton-denim-twill-jeans-cod-GM000250-AF24650-MB001/",
+   "b": "range"
   },
-  "tech_evidence": {
-    "names": "no",
-    "origin": "none",
-    "marks": [
-      "No named fabric or membrane technology, licensed or house, on the Giorgio Armani men's line. The only term-list matches are unnamed generic descriptors: 'technical fabric' (18 PDPs) and 'water-repellent' (11 PDPs). Zero mill, membrane, insulation or branded-fibre marks",
-      "zero house fabric names."
-    ],
-    "source": "census",
-    "checked": "2026-09-12"
+  "Dress pants": {
+   "lp": "Wool flannel trousers",
+   "lu": "https://www.armani.com/en-us/giorgio-armani/wool-flannel-trousers-cod-8WGPP03D-T004K-U6UG/",
+   "hp": "Trousers regular fit in lightweight cashmere twill",
+   "hu": "https://www.armani.com/en-us/giorgio-armani/trousers-regular-fit-in-lightweight-cashmere-twill-cod-GM002253-TE20771-U8136/",
+   "b": "pair"
   },
-  "fibre": {
-    "t": 584,
-    "w": 576,
-    "n": 71,
-    "s": 7,
-    "c": 20,
-    "x": 21,
-    "xh": 8,
-    "sp": "one",
-    "sc": ["Sweatshirts"],
-    "nc": ["Shirts", "Trousers", "Knitwear"],
-    "st": "complete"
+  "Sweater": {
+   "lp": "Crewneck sweater in virgin wool with a textured pattern",
+   "lu": "https://www.armani.com/en-us/giorgio-armani/crewneck-sweater-in-virgin-wool-with-a-textured-pattern-cod-GM003907-AF28282-UC001/",
+   "hp": "Sweater oversized in silk with ribbed stitch",
+   "hu": "https://www.armani.com/en-us/giorgio-armani/sweater-oversized-in-silk-with-ribbed-stitch-cod-GM004093-AF28811-U1020/",
+   "b": "pair"
   },
-  "garment_links": {
-    "T-shirt": "https://www.armani.com/en-us/giorgio-armani/man/clothing/t-shirts/",
-    "Polo": "https://www.armani.com/en-us/giorgio-armani/man/clothing/polo-shirts/",
-    "Dress shirt": "https://www.armani.com/en-us/giorgio-armani/man/clothing/shirts/",
-    "Jeans": "https://www.armani.com/en-us/giorgio-armani/man/clothing/jeans/",
-    "Dress pants": "https://www.armani.com/en-us/giorgio-armani/man/clothing/trousers/",
-    "Sweater": "https://www.armani.com/en-us/giorgio-armani/man/clothing/knitwear/",
-    "Outerwear": "https://www.armani.com/en-us/giorgio-armani/man/clothing/outerwear/",
-    "Shoes": "https://www.armani.com/en-us/giorgio-armani/man/shoes/"
+  "Outerwear": {
+   "lp": "Stretch jersey blouson",
+   "lu": "https://www.armani.com/en-us/giorgio-armani/stretch-jersey-blouson-cod-3DSB72-SJFJZ-UBUV/",
+   "hp": "Blouson jacket regular fit in double cashmere",
+   "hu": "https://www.armani.com/en-us/giorgio-armani/blouson-jacket-regular-fit-in-double-cashmere-cod-GM004473-TE10068-UB109/",
+   "b": "pair"
   },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Jersey T-shirt in Pima cotton with a front print",
-      "lu": "https://www.armani.com/en-us/giorgio-armani/jersey-t-shirt-in-pima-cotton-with-a-front-print-cod-3GST57-SJMCZ-U090/",
-      "hp": "Plain-knit jersey T-shirt in a silk-and-cotton blend",
-      "hu": "https://www.armani.com/en-us/giorgio-armani/plain-knit-jersey-t-shirt-in-a-silk-and-cotton-blend-cod-3KSM77-SJZHZ-UB100/",
-      "b": "pair"
-    },
-    "Polo": {
-      "lp": "Stretch polo in viscose jersey with buttonless collar",
-      "lu": "https://www.armani.com/en-us/giorgio-armani/stretch-polo-in-viscose-jersey-with-buttonless-collar-cod-3GSF51-SJP4Z-UC99/",
-      "hp": "Polo shirt Cashmere pure interlock",
-      "hu": "https://www.armani.com/en-us/giorgio-armani/polo-shirt-cashmere-pure-interlock-cod-GM000262-TE10555-U6031/",
-      "b": "pair"
-    },
-    "Dress shirt": {
-      "lp": "Classic shirt in cotton twill",
-      "lu": "https://www.armani.com/en-us/giorgio-armani/classic-shirt-in-cotton-twill-cod-8WGCCZMC-TZ064-UAMC/",
-      "hp": "Shirt regular fit in lightweight cashmere twill",
-      "hu": "https://www.armani.com/en-us/giorgio-armani/shirt-regular-fit-in-lightweight-cashmere-twill-cod-GM000080-TE20771-U8136/",
-      "b": "pair"
-    },
-    "Jeans": {
-      "lp": "Five-pocket, regular fit, stretch cotton-denim trousers",
-      "lu": "https://www.armani.com/en-us/giorgio-armani/five-pocket-regular-fit-stretch-cotton-denim-trousers-cod-6KSJ15-SD2BZ-UBUL/",
-      "hp": "Stretch cotton denim twill jeans",
-      "hu": "https://www.armani.com/en-us/giorgio-armani/stretch-cotton-denim-twill-jeans-cod-GM000250-AF24650-MB001/",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Wool flannel trousers",
-      "lu": "https://www.armani.com/en-us/giorgio-armani/wool-flannel-trousers-cod-8WGPP03D-T004K-U6UG/",
-      "hp": "Trousers regular fit in lightweight cashmere twill",
-      "hu": "https://www.armani.com/en-us/giorgio-armani/trousers-regular-fit-in-lightweight-cashmere-twill-cod-GM002253-TE20771-U8136/",
-      "b": "pair"
-    },
-    "Sweater": {
-      "lp": "Crewneck sweater in virgin wool with a textured pattern",
-      "lu": "https://www.armani.com/en-us/giorgio-armani/crewneck-sweater-in-virgin-wool-with-a-textured-pattern-cod-GM003907-AF28282-UC001/",
-      "hp": "Sweater oversized in silk with ribbed stitch",
-      "hu": "https://www.armani.com/en-us/giorgio-armani/sweater-oversized-in-silk-with-ribbed-stitch-cod-GM004093-AF28811-U1020/",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "Stretch jersey blouson",
-      "lu": "https://www.armani.com/en-us/giorgio-armani/stretch-jersey-blouson-cod-3DSB72-SJFJZ-UBUV/",
-      "hp": "Blouson jacket regular fit in double cashmere",
-      "hu": "https://www.armani.com/en-us/giorgio-armani/blouson-jacket-regular-fit-in-double-cashmere-cod-GM004473-TE10068-UB109/",
-      "b": "pair"
-    },
-    "Shoes": {
-      "lp": "Patent leather loafers",
-      "lu": "https://www.armani.com/en-us/giorgio-armani/patent-leather-loafers-cod-X2J138-XL580-A083/",
-      "hp": "Loafer in suede with leather insole",
-      "hu": "https://www.armani.com/en-us/giorgio-armani/loafer-in-suede-with-leather-insole-cod-GM003257-AF24809-U6326/",
-      "b": "pair"
-    }
-  },
-  "price_range_only": ["Jeans"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.armani.com/en-us/giorgio-armani/man/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "Icon, ASV, Neve (Giorgio Armani-labelled lines in the GA men's categories; none sets a figure)"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=15447534",
-      "m": "brand filter",
-      "n": "Giorgio Armani only; Vinted's generic 'Armani' (5930015) mixes all Armani lines"
-    }
-  },
-  "season": {
-    "l": "Autumn/Winter 2026/27 (FW26)",
-    "t": "lookbook",
-    "u": "https://www.armani.com/en-us/giorgio-armani/experience/shop-by-look-fw-catalog/",
-    "m": "unisex"
-  },
-  "craft_evidence": {
-    "owned": "yes",
-    "owned_d": "Armani Group Sustainability Report 2024 p.13-15: subsidiary G.A. Operations S.p.A. (GAO, 1,275 employees in Italy) 'relies on nine owned production sites in Italy and works with external manufacturers and packagers': Baggiovara (MO), Trissino (VI), Fossò (VE), Mattarello (TN), Settimo Torinese (TO), Matelica (MC), Carrè (VI), Inzago (MI), Vertemate (CO). Production also via 'manufacturers and partners outside the company, in Italy and abroad'; G.A. Operations Hong Kong coordinates an Asian supplier network. Report does not say which categories each plant makes. Owned by the Armani Group (the brand's own group), not an outside parent.",
-    "makers": "no",
-    "mills": "NC",
-    "madein": "NC",
-    "countries": "NC on PDPs. Report: owned plants in Italy; external makers 'in Italy and abroad' incl. an Asian supplier network (coordinated from Hong Kong). No share by country given.",
-    "heritage": "NC",
-    "repair": "NC",
-    "process": "some",
-    "urls": [
-      "https://ddf95m9s3iunr.cloudfront.net/wp-content/uploads/2025/12/Armani-Group-Sustainability-Report-2024.pdf"
-    ],
-    "conf": "high",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Patent leather loafers",
+   "lu": "https://www.armani.com/en-us/giorgio-armani/patent-leather-loafers-cod-X2J138-XL580-A083/",
+   "hp": "Loafer in suede with leather insole",
+   "hu": "https://www.armani.com/en-us/giorgio-armani/loafer-in-suede-with-leather-insole-cod-GM003257-AF24809-U6326/",
+   "b": "pair"
   }
+ },
+ "price_range_only": [
+  "Jeans"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.armani.com/en-us/giorgio-armani/man/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "Icon, ASV, Neve (Giorgio Armani-labelled lines in the GA men's categories; none sets a figure)"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=15447534",
+   "m": "brand filter",
+   "n": "Giorgio Armani only; Vinted's generic 'Armani' (5930015) mixes all Armani lines"
+  }
+ },
+ "season": {
+  "l": "Autumn/Winter 2026/27 (FW26)",
+  "t": "lookbook",
+  "u": "https://www.armani.com/en-us/giorgio-armani/experience/shop-by-look-fw-catalog/",
+  "m": "unisex"
+ },
+ "craft_evidence": {
+  "owned": "yes",
+  "owned_d": "Armani Group Sustainability Report 2024 p.13-15: subsidiary G.A. Operations S.p.A. (GAO, 1,275 employees in Italy) 'relies on nine owned production sites in Italy and works with external manufacturers and packagers': Baggiovara (MO), Trissino (VI), Fossò (VE), Mattarello (TN), Settimo Torinese (TO), Matelica (MC), Carrè (VI), Inzago (MI), Vertemate (CO). Production also via 'manufacturers and partners outside the company, in Italy and abroad'; G.A. Operations Hong Kong coordinates an Asian supplier network. Report does not say which categories each plant makes. Owned by the Armani Group (the brand's own group), not an outside parent.",
+  "makers": "no",
+  "mills": "NC",
+  "madein": "NC",
+  "countries": "NC on PDPs. Report: owned plants in Italy; external makers 'in Italy and abroad' incl. an Asian supplier network (coordinated from Hong Kong). No share by country given.",
+  "heritage": "NC",
+  "repair": "NC",
+  "process": "some",
+  "urls": [
+   "https://ddf95m9s3iunr.cloudfront.net/wp-content/uploads/2025/12/Armani-Group-Sustainability-Report-2024.pdf"
+  ],
+  "conf": "high",
+  "read": "2026-10-03"
+ }
 }

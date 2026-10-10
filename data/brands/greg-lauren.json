@@ -1,181 +1,225 @@
 {
-  "name": "Greg Lauren",
-  "band": "trueLux",
-  "seat": 176,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 1,
-    "craft": 2,
-    "style": 4
+ "name": "Greg Lauren",
+ "band": "trueLux",
+ "seat": 176,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 1,
+  "craft": 2,
+  "style": 4
+ },
+ "fabric": {
+  "denim": 3,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 2,
+  "wool": 2,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 2,
+  "forg": 3,
+  "fuss": -1,
+  "bruv": 1,
+  "status": 2,
+  "murica": 4,
+  "street": 2,
+  "avant": 4,
+  "weird": 3,
+  "whitet": 2,
+  "logo": 1,
+  "western": 3,
+  "rock": 2,
+  "workwear": 3,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "One-of-a-kind garments rebuilt from vintage military cloth, tents and denim in a Los Angeles studio.",
+ "origin": "Founded in 2011 by Greg Lauren, a painter and Ralph Lauren's nephew.",
+ "chan": [
+  "D",
+  "I"
+ ],
+ "conf": "M",
+ "forgc": [
+  5,
+  2,
+  1
+ ],
+ "onething": {
+  "p": "One-of-one patchwork jacket",
+  "u": "https://greglauren.com/search?q=patchwork%20jacket",
+  "n": "verified — no www"
+ },
+ "prices": [
+  [
+   245,
+   450
+  ],
+  null,
+  [
+   625,
+   1375
+  ],
+  [
+   1250,
+   1950
+  ],
+  [
+   1050,
+   1295
+  ],
+  [
+   2000,
+   2000
+  ],
+  [
+   995,
+   3150
+  ],
+  null
+ ],
+ "notes": {
+  "craft": "Every apparel PDP says 'Constructed in Los Angeles', and the brand overview PDF describes the process: vintage garments and army tents are deconstructed, and scraps are pieced into 'Scrapwork' yardage. Nothing on the site names or shows an owned LA studio or any maker or mill, so the making claim is a city of make plus a process description.",
+  "murica": "Americana literally recut — the flag frayed on purpose",
+  "avant": "deconstruction as family argument",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 1; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+ },
+ "doors": {
+  "c": "full",
+  "n": 0,
+  "cities": [],
+  "basis": "master 2026-08-29, pre-recapture"
+ },
+ "cities": "No store of its own in the US · department stores and independent menswear shops, and its own site",
+ "site": {
+  "domain": "greglauren.com",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 168,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "no",
+  "origin": "none",
+  "marks": [],
+  "source": "screen_36",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 126,
+  "w": 123,
+  "n": 91,
+  "s": 7,
+  "c": 0,
+  "x": 1,
+  "xh": 1,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "shirt",
+   "jacket",
+   "pant"
+  ],
+  "st": "complete"
+ },
+ "shop": "https://greglauren.com/search?q=",
+ "garment_links": {
+  "T-shirt": "https://greglauren.com/collections/mens-tees",
+  "Dress shirt": "https://greglauren.com/collections/mens-shirts",
+  "Dress pants": "https://greglauren.com/collections/mens-pants",
+  "Outerwear": "https://greglauren.com/collections/mens-jackets"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "SS Henley Faded Army",
+   "lu": "https://greglauren.com/products/ss-henley-faded-army",
+   "hp": "Split Striped Tee Multi",
+   "hu": "https://greglauren.com/products/split-striped-tee-multi",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 3,
-    "cashmere": 1,
-    "linen": 1,
-    "cotton": 2,
-    "wool": 2,
-    "synth": 1
+  "Dress shirt": {
+   "lp": "Oxford Studio Shirt Medium Blue",
+   "lu": "https://greglauren.com/products/oxford-studio-shirt-medium-blue",
+   "hp": "Buffalo Plaid Shawl Collar Boxy Red Plaid",
+   "hu": "https://greglauren.com/products/buffalo-plaid-shawl-collar-box-red-plaid",
+   "b": "range"
   },
-  "dials": {
-    "dur": 2,
-    "forg": 3,
-    "fuss": -1,
-    "bruv": 1,
-    "status": 2,
-    "murica": 4,
-    "street": 2,
-    "avant": 4,
-    "weird": 3,
-    "whitet": 2,
-    "logo": 1,
-    "western": 3,
-    "rock": 2,
-    "workwear": 3,
-    "outdoor": 1,
-    "surf": 1
+  "Jeans": {
+   "lp": "34 Tux Denim Lounge Medium Blue",
+   "lu": "https://greglauren.com/products/34-tux-denim-lounge-medium-blue",
+   "hp": "Mixed Denim 34 Lounge",
+   "hu": "https://greglauren.com/products/mixed-denim-34-lounge-denim-blue",
+   "b": "range"
   },
-  "why": "One-of-a-kind garments rebuilt from vintage military cloth, tents and denim in a Los Angeles studio.",
-  "origin": "Founded in 2011 by Greg Lauren, a painter and Ralph Lauren's nephew.",
-  "chan": ["D", "I"],
-  "conf": "M",
-  "forgc": [5, 2, 1],
-  "onething": {
-    "p": "One-of-one patchwork jacket",
-    "u": "https://greglauren.com/search?q=patchwork%20jacket",
-    "n": "verified — no www"
+  "Dress pants": {
+   "lp": "Wide-Leg Pant Navy (pinstripe wool)",
+   "lu": "https://greglauren.com/products/wide-leg-pant-navy",
+   "hp": "Wide Leg Pant Black (wool)",
+   "hu": "https://greglauren.com/products/wide-leg-pant-black",
+   "b": "range"
   },
-  "prices": [[245, 450], null, [625, 1375], [1250, 1950], [1050, 1295], [2000, 2000], [995, 3150], null],
-  "notes": {
-    "craft": "Every apparel PDP says 'Constructed in Los Angeles', and the brand overview PDF describes the process: vintage garments and army tents are deconstructed, and scraps are pieced into 'Scrapwork' yardage. Nothing on the site names or shows an owned LA studio or any maker or mill, so the making claim is a city of make plus a process description.",
-    "murica": "Americana literally recut — the flag frayed on purpose",
-    "avant": "deconstruction as family argument",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 1; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+  "Sweater": {
+   "lp": "Fisherman Sweater Black",
+   "lu": "https://greglauren.com/products/fisherman-sweater-black",
+   "hp": "Fisherman Sweater Black",
+   "hu": "https://greglauren.com/products/fisherman-sweater-black",
+   "b": "single"
   },
-  "doors": {
-    "c": "full",
-    "n": 0,
-    "cities": [],
-    "basis": "master 2026-08-29, pre-recapture"
-  },
-  "cities": "No store of its own in the US · department stores and independent menswear shops, and its own site",
-  "site": {
-    "domain": "greglauren.com",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 168,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "no",
-    "origin": "none",
-    "marks": [],
-    "source": "screen_36",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 126,
-    "w": 123,
-    "n": 91,
-    "s": 7,
-    "c": 0,
-    "x": 1,
-    "xh": 1,
-    "sp": "one",
-    "sc": [],
-    "nc": ["shirt", "jacket", "pant"],
-    "st": "complete"
-  },
-  "shop": "https://greglauren.com/search?q=",
-  "garment_links": {
-    "T-shirt": "https://greglauren.com/collections/mens-tees",
-    "Dress shirt": "https://greglauren.com/collections/mens-shirts",
-    "Dress pants": "https://greglauren.com/collections/mens-pants",
-    "Outerwear": "https://greglauren.com/collections/mens-jackets"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "SS Henley Faded Army",
-      "lu": "https://greglauren.com/products/ss-henley-faded-army",
-      "hp": "Split Striped Tee Multi",
-      "hu": "https://greglauren.com/products/split-striped-tee-multi",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Oxford Studio Shirt Medium Blue",
-      "lu": "https://greglauren.com/products/oxford-studio-shirt-medium-blue",
-      "hp": "Buffalo Plaid Shawl Collar Boxy Red Plaid",
-      "hu": "https://greglauren.com/products/buffalo-plaid-shawl-collar-box-red-plaid",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "34 Tux Denim Lounge Medium Blue",
-      "lu": "https://greglauren.com/products/34-tux-denim-lounge-medium-blue",
-      "hp": "Mixed Denim 34 Lounge",
-      "hu": "https://greglauren.com/products/mixed-denim-34-lounge-denim-blue",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Wide-Leg Pant Navy (pinstripe wool)",
-      "lu": "https://greglauren.com/products/wide-leg-pant-navy",
-      "hp": "Wide Leg Pant Black (wool)",
-      "hu": "https://greglauren.com/products/wide-leg-pant-black",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Fisherman Sweater Black",
-      "lu": "https://greglauren.com/products/fisherman-sweater-black",
-      "hp": "Fisherman Sweater Black",
-      "hu": "https://greglauren.com/products/fisherman-sweater-black",
-      "b": "single"
-    },
-    "Outerwear": {
-      "lp": "Army Boxy Jacket Army",
-      "lu": "https://greglauren.com/products/army-boxy-jacket-army",
-      "hp": "Navy Wool Button Spine",
-      "hu": "https://greglauren.com/products/navy-wool-button-spine-navy",
-      "b": "range"
-    }
-  },
-  "price_range_only": ["T-shirt", "Dress shirt", "Jeans", "Dress pants", "Outerwear"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://greglauren.com/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=2134258",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "craft_evidence": {
-    "owned": "unclear",
-    "owned_d": "Not verified. The brand overview PDF says 'Since 2011, from downtown LA' and lists 'Made in America'; PDPs say 'Constructed in Los Angeles'. No studio address, ownership statement or in-house workforce is given on any page read (no about page exists; pages sitemap has only scrapwork, press and policies).",
-    "makers": "no",
-    "mills": "no",
-    "madein": "every product",
-    "countries": "USA (Los Angeles) 14/14 apparel (sample of 15 products via products.json: jackets, shirts, hoodies, trousers; the 15th is a fragrance with no origin).",
-    "heritage": "dated and placed",
-    "repair": "no",
-    "process": "some",
-    "urls": [
-      "https://cdn.shopify.com/s/files/1/1069/0562/files/GL_OVERVIEW_2024.pdf?v=1723310579",
-      "https://greglauren.com/products.json?limit=50"
-    ],
-    "conf": "medium",
-    "read": "2026-10-03"
+  "Outerwear": {
+   "lp": "Army Boxy Jacket Army",
+   "lu": "https://greglauren.com/products/army-boxy-jacket-army",
+   "hp": "Navy Wool Button Spine",
+   "hu": "https://greglauren.com/products/navy-wool-button-spine-navy",
+   "b": "range"
   }
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants",
+  "Outerwear"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://greglauren.com/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=2134258",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "craft_evidence": {
+  "owned": "unclear",
+  "owned_d": "Not verified. The brand overview PDF says 'Since 2011, from downtown LA' and lists 'Made in America'; PDPs say 'Constructed in Los Angeles'. No studio address, ownership statement or in-house workforce is given on any page read (no about page exists; pages sitemap has only scrapwork, press and policies).",
+  "makers": "no",
+  "mills": "no",
+  "madein": "every product",
+  "countries": "USA (Los Angeles) 14/14 apparel (sample of 15 products via products.json: jackets, shirts, hoodies, trousers; the 15th is a fragrance with no origin).",
+  "heritage": "dated and placed",
+  "repair": "no",
+  "process": "some",
+  "urls": [
+   "https://cdn.shopify.com/s/files/1/1069/0562/files/GL_OVERVIEW_2024.pdf?v=1723310579",
+   "https://greglauren.com/products.json?limit=50"
+  ],
+  "conf": "medium",
+  "read": "2026-10-03"
+ }
 }

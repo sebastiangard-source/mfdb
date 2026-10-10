@@ -1,219 +1,317 @@
 {
-  "name": "Rodd & Gunn",
-  "band": "premium",
-  "seat": 28,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 3,
-    "craft": 2,
-    "style": 2
+ "name": "Rodd & Gunn",
+ "band": "premium",
+ "seat": 28,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 3,
+  "craft": 2,
+  "style": 2
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 2,
+  "cotton": 3,
+  "wool": 2,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 3,
+  "fuss": -1,
+  "prep": 2,
+  "boat": 2,
+  "briish": 2,
+  "whitet": 2,
+  "logo": 2,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 2,
+  "surf": 2
+ },
+ "why": "New Zealand casual clothing — merino knits, washed shirts, outerwear — with the pointer-dog logo.",
+ "origin": "The pointer-dog shirt label dates from 1946; the present company was established in Auckland in 1987.",
+ "chan": [
+  "O",
+  "D"
+ ],
+ "conf": "M",
+ "forgc": [
+  4,
+  3,
+  1
+ ],
+ "shop": "https://www.roddandgunn.com/us/search?q=",
+ "onething": {
+  "p": "Merino crewneck",
+  "u": "https://www.roddandgunn.com/search?q=merino",
+  "n": "Use this: https://www.roddandgunn.com/us/Search-Show?q=merino&lang=en_US"
+ },
+ "prices": [
+  [
+   50,
+   89
+  ],
+  [
+   75,
+   148
+  ],
+  [
+   128,
+   248
+  ],
+  [
+   128,
+   178
+  ],
+  [
+   148,
+   178
+  ],
+  [
+   128,
+   348
+  ],
+  [
+   199,
+   798
+  ],
+  [
+   148,
+   348
+  ]
+ ],
+ "notes": {
+  "wool": "NZ merino as the home-turf fiber",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 3; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "PDPs state 'Made in Vietnam' and fiber origin but no maker or mill; the sustainability page names Italian mills (Albini, Lanerossi, Pontetorto) as a directory. Nothing is owned, and the 1946 date is heritage of a shirt label, not current making."
+ },
+ "doors": {
+  "c": "full",
+  "n": 9,
+  "cities": [
+   [
+    "Bellevue",
+    "WA",
+    1
+   ],
+   [
+    "Dallas",
+    "TX",
+    1
+   ],
+   [
+    "Greenwich",
+    "CT",
+    1
+   ],
+   [
+    "Mclean",
+    "VA",
+    1
+   ],
+   [
+    "Newport Beach",
+    "CA",
+    1
+   ],
+   [
+    "Palo Alto",
+    "CA",
+    1
+   ],
+   [
+    "San Diego",
+    "CA",
+    1
+   ],
+   [
+    "Santa Clara",
+    "CA",
+    1
+   ],
+   [
+    "Skokie, Chicago",
+    "IL",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 2,
+  "con": 76
+ },
+ "cities": "9 stores, including Bellevue, Dallas, Greenwich · department stores and independent menswear shops, and its own site",
+ "region": {
+  "o": [
+   3003
+  ],
+  "s": [
+   10,
+   41,
+   52,
+   136,
+   150
+  ]
+ },
+ "site": {
+  "domain": "roddandgunn.com",
+  "platform": "salesforce_commerce",
+  "feed": "sitemap_products",
+  "feed_count": 791,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "licensed",
+  "marks": [
+   "Good Earth Cotton(R)",
+   "FibreTrace(R)",
+   "EcoVerde(R)",
+   "3M Thinsulate(R)",
+   "Vibram(R)",
+   "Teflon(R)",
+   "Supima(R)",
+   "TENCEL",
+   "LYCRA"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 249,
+  "w": 247,
+  "n": 97,
+  "s": 2,
+  "c": 0,
+  "x": 15,
+  "xh": 1,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "clothing/shirts",
+   "clothing/jackets-coats",
+   "clothing/sweaters"
+  ],
+  "st": "complete"
+ },
+ "garment_links": {
+  "T-shirt": "https://www.roddandgunn.com/us/clothing/t-shirts",
+  "Polo": "https://www.roddandgunn.com/us/clothing/polos",
+  "Dress shirt": "https://www.roddandgunn.com/us/clothing/shirts",
+  "Jeans": "https://www.roddandgunn.com/us/clothing/jeans",
+  "Dress pants": "https://www.roddandgunn.com/us/clothing/pants",
+  "Sweater": "https://www.roddandgunn.com/us/clothing/sweaters",
+  "Outerwear": "https://www.roddandgunn.com/us/clothing/jackets-coats",
+  "Shoes": "https://www.roddandgunn.com/us/footwear"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "The Gunn T-Shirt",
+   "lu": "https://www.roddandgunn.com/us/clothing/t-shirts/the-gunn-t-shirt-/004120-39.html",
+   "hp": "Leith Valley Sports Fit T-Shirt",
+   "hu": "https://www.roddandgunn.com/us/clothing/t-shirts/leith-valley-sports-fit-t-shirt-/008890-03.html",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 1,
-    "linen": 2,
-    "cotton": 3,
-    "wool": 2,
-    "synth": 1
+  "Polo": {
+   "lp": "The Gunn Sports Fit Polo",
+   "lu": "https://www.roddandgunn.com/us/clothing/polos/the-gunn-sports-fit-polo/003396-73.html",
+   "hp": "Robinson Bay Polo",
+   "hu": "https://www.roddandgunn.com/us/clothing/polos/robinson-bay-polo/009418-01.html",
+   "b": "range"
   },
-  "dials": {
-    "dur": 3,
-    "forg": 3,
-    "fuss": -1,
-    "prep": 2,
-    "boat": 2,
-    "briish": 2,
-    "whitet": 2,
-    "logo": 2,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 2,
-    "surf": 2
+  "Dress shirt": {
+   "lp": "Oxford Shirt",
+   "lu": "https://www.roddandgunn.com/us/clothing/shirts/oxford-shirt/006582-21.html",
+   "hp": "Powell Bay Shirt",
+   "hu": "https://www.roddandgunn.com/us/clothing/shirts/powell-bay-shirt/010021-01.html",
+   "b": "range"
   },
-  "why": "New Zealand casual clothing — merino knits, washed shirts, outerwear — with the pointer-dog logo.",
-  "origin": "The pointer-dog shirt label dates from 1946; the present company was established in Auckland in 1987.",
-  "chan": ["O", "D"],
-  "conf": "M",
-  "forgc": [4, 3, 1],
-  "shop": "https://www.roddandgunn.com/us/search?q=",
-  "onething": {
-    "p": "Merino crewneck",
-    "u": "https://www.roddandgunn.com/search?q=merino",
-    "n": "Use this: https://www.roddandgunn.com/us/Search-Show?q=merino&lang=en_US"
+  "Jeans": {
+   "lp": "Gunn Straight Fit Jean",
+   "lu": "https://www.roddandgunn.com/us/clothing/jeans/gunn-straight-fit-jean/007297-03.html",
+   "hp": "Ashhurst Straight Fit Jean",
+   "hu": "https://www.roddandgunn.com/us/clothing/jeans/ashhurst-straight-fit-jean/009622-04.html",
+   "b": "range"
   },
-  "prices": [[50, 89], [75, 148], [128, 248], [128, 178], [148, 178], [128, 348], [199, 798], [148, 348]],
-  "notes": {
-    "wool": "NZ merino as the home-turf fiber",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 3; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "PDPs state 'Made in Vietnam' and fiber origin but no maker or mill; the sustainability page names Italian mills (Albini, Lanerossi, Pontetorto) as a directory. Nothing is owned, and the 1946 date is heritage of a shirt label, not current making."
+  "Dress pants": {
+   "lp": "Thomas Road 2.0 Chino Pant",
+   "lu": "https://www.roddandgunn.com/us/clothing/pants/thomas-road-2.0-chino-pant/009940-11.html",
+   "hp": "Motion Pant Straight",
+   "hu": "https://www.roddandgunn.com/us/clothing/pants/motion-pant-straight/009979-01.html",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 9,
-    "cities": [
-      ["Bellevue", "WA", 1],
-      ["Dallas", "TX", 1],
-      ["Greenwich", "CT", 1],
-      ["Mclean", "VA", 1],
-      ["Newport Beach", "CA", 1],
-      ["Palo Alto", "CA", 1],
-      ["San Diego", "CA", 1],
-      ["Santa Clara", "CA", 1],
-      ["Skokie", "IL", 1]
-    ],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Sweater": {
+   "lp": "Gunn Crew Sweater",
+   "lu": "https://www.roddandgunn.com/us/clothing/sweaters/gunn-crew-sweater/006620-20.html",
+   "hp": "Newall Knit",
+   "hu": "https://www.roddandgunn.com/us/clothing/sweaters/newall-knit/009610-01.html",
+   "b": "range"
   },
-  "cities": "9 stores, including Bellevue, Dallas, Greenwich · department stores and independent menswear shops, and its own site",
-  "region": {
-    "o": [2375],
-    "s": [10, 41, 52, 136, 150]
+  "Outerwear": {
+   "lp": "Armitage Jacket",
+   "lu": "https://www.roddandgunn.com/us/clothing/jackets-coats/casual/armitage-jacket/002737-11.html",
+   "hp": "Canvastown Leather Jacket",
+   "hu": "https://www.roddandgunn.com/us/clothing/jackets-coats/leather-jackets/canvastown-leather-jacket/009934-01.html",
+   "b": "range"
   },
-  "site": {
-    "domain": "roddandgunn.com",
-    "platform": "salesforce_commerce",
-    "feed": "sitemap_products",
-    "feed_count": 791,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "licensed",
-    "marks": [
-      "Good Earth Cotton(R)",
-      "FibreTrace(R)",
-      "EcoVerde(R)",
-      "3M Thinsulate(R)",
-      "Vibram(R)",
-      "Teflon(R)",
-      "Supima(R)",
-      "TENCEL",
-      "LYCRA"
-    ],
-    "source": "census",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 249,
-    "w": 247,
-    "n": 97,
-    "s": 2,
-    "c": 0,
-    "x": 15,
-    "xh": 1,
-    "sp": "one",
-    "sc": [],
-    "nc": ["clothing/shirts", "clothing/jackets-coats", "clothing/sweaters"],
-    "st": "complete"
-  },
-  "garment_links": {
-    "T-shirt": "https://www.roddandgunn.com/us/clothing/t-shirts",
-    "Polo": "https://www.roddandgunn.com/us/clothing/polos",
-    "Dress shirt": "https://www.roddandgunn.com/us/clothing/shirts",
-    "Jeans": "https://www.roddandgunn.com/us/clothing/jeans",
-    "Dress pants": "https://www.roddandgunn.com/us/clothing/pants",
-    "Sweater": "https://www.roddandgunn.com/us/clothing/sweaters",
-    "Outerwear": "https://www.roddandgunn.com/us/clothing/jackets-coats",
-    "Shoes": "https://www.roddandgunn.com/us/footwear"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "The Gunn T-Shirt",
-      "lu": "https://www.roddandgunn.com/us/clothing/t-shirts/the-gunn-t-shirt-/004120-39.html",
-      "hp": "Leith Valley Sports Fit T-Shirt",
-      "hu": "https://www.roddandgunn.com/us/clothing/t-shirts/leith-valley-sports-fit-t-shirt-/008890-03.html",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "The Gunn Sports Fit Polo",
-      "lu": "https://www.roddandgunn.com/us/clothing/polos/the-gunn-sports-fit-polo/003396-73.html",
-      "hp": "Robinson Bay Polo",
-      "hu": "https://www.roddandgunn.com/us/clothing/polos/robinson-bay-polo/009418-01.html",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Oxford Shirt",
-      "lu": "https://www.roddandgunn.com/us/clothing/shirts/oxford-shirt/006582-21.html",
-      "hp": "Powell Bay Shirt",
-      "hu": "https://www.roddandgunn.com/us/clothing/shirts/powell-bay-shirt/010021-01.html",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Gunn Straight Fit Jean",
-      "lu": "https://www.roddandgunn.com/us/clothing/jeans/gunn-straight-fit-jean/007297-03.html",
-      "hp": "Ashhurst Straight Fit Jean",
-      "hu": "https://www.roddandgunn.com/us/clothing/jeans/ashhurst-straight-fit-jean/009622-04.html",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Thomas Road 2.0 Chino Pant",
-      "lu": "https://www.roddandgunn.com/us/clothing/pants/thomas-road-2.0-chino-pant/009940-11.html",
-      "hp": "Motion Pant Straight",
-      "hu": "https://www.roddandgunn.com/us/clothing/pants/motion-pant-straight/009979-01.html",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Gunn Crew Sweater",
-      "lu": "https://www.roddandgunn.com/us/clothing/sweaters/gunn-crew-sweater/006620-20.html",
-      "hp": "Newall Knit",
-      "hu": "https://www.roddandgunn.com/us/clothing/sweaters/newall-knit/009610-01.html",
-      "b": "range"
-    },
-    "Outerwear": {
-      "lp": "Armitage Jacket",
-      "lu": "https://www.roddandgunn.com/us/clothing/jackets-coats/casual/armitage-jacket/002737-11.html",
-      "hp": "Canvastown Leather Jacket",
-      "hu": "https://www.roddandgunn.com/us/clothing/jackets-coats/leather-jackets/canvastown-leather-jacket/009934-01.html",
-      "b": "range"
-    },
-    "Shoes": {
-      "lp": "Marsden Bay Loafer",
-      "lu": "https://www.roddandgunn.com/us/footwear/shoes/marsden-bay-loafer/009579-03.html",
-      "hp": "Spiga Loafer",
-      "hu": "https://www.roddandgunn.com/us/footwear/shoes/spiga-loafer/009229-04.html",
-      "b": "pair"
-    }
-  },
-  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants", "Sweater", "Outerwear"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.roddandgunn.com/us/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=356748",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "About page: brand sources from external suppliers (Italian family mills, Hungarian Szaalardi family for leather bags); sustainability page says NZ luggage is 'handcrafted in rural Waiuku' and hats/belts/scarves by 'family-owned and operated businesses' - partners, not owned.",
-    "makers": "some",
-    "mills": "some",
-    "madein": "every product",
-    "countries": "Vietnam 3/3 (sample of 3 PDPs: 2 shirts, 1 knit)",
-    "heritage": "dated and placed",
-    "repair": "yes",
-    "process": "some",
-    "urls": [
-      "https://www.roddandgunn.com/us/brand-story/sustainability",
-      "https://www.roddandgunn.com/us/clothing/shirts/salt-lake-shirt/009980-02.html"
-    ],
-    "conf": "medium",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Marsden Bay Loafer",
+   "lu": "https://www.roddandgunn.com/us/footwear/shoes/marsden-bay-loafer/009579-03.html",
+   "hp": "Spiga Loafer",
+   "hu": "https://www.roddandgunn.com/us/footwear/shoes/spiga-loafer/009229-04.html",
+   "b": "pair"
   }
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants",
+  "Sweater",
+  "Outerwear"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.roddandgunn.com/us/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=356748",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "About page: brand sources from external suppliers (Italian family mills, Hungarian Szaalardi family for leather bags); sustainability page says NZ luggage is 'handcrafted in rural Waiuku' and hats/belts/scarves by 'family-owned and operated businesses' - partners, not owned.",
+  "makers": "some",
+  "mills": "some",
+  "madein": "every product",
+  "countries": "Vietnam 3/3 (sample of 3 PDPs: 2 shirts, 1 knit)",
+  "heritage": "dated and placed",
+  "repair": "yes",
+  "process": "some",
+  "urls": [
+   "https://www.roddandgunn.com/us/brand-story/sustainability",
+   "https://www.roddandgunn.com/us/clothing/shirts/salt-lake-shirt/009980-02.html"
+  ],
+  "conf": "medium",
+  "read": "2026-10-03"
+ }
 }

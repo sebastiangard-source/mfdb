@@ -1,192 +1,257 @@
 {
-  "name": "Purple",
-  "band": "accessible",
-  "seat": 84,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 2,
-    "craft": 1,
-    "style": 4
+ "name": "Purple",
+ "band": "accessible",
+ "seat": 84,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 2,
+  "craft": 1,
+  "style": 4
+ },
+ "fabric": {
+  "denim": 5,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 1,
+  "wool": 1,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 2,
+  "forg": 1,
+  "fuss": -2,
+  "bruv": 2,
+  "status": 3,
+  "murica": 2,
+  "street": 4,
+  "whitet": 2,
+  "logo": 3,
+  "western": 1,
+  "rock": 4,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Jeans with heavy washes and paint-splatter finishes, popular with musicians.",
+ "origin": "Founded in Los Angeles in 2018.",
+ "chan": [
+  "O",
+  "D"
+ ],
+ "conf": "L",
+ "forgc": [
+  1,
+  2,
+  1
+ ],
+ "shop": "https://purple-brand.com/search?q=",
+ "onething": {
+  "p": "P001 jean",
+  "u": "https://purple-brand.com/search?q=P001%20jean%20men",
+  "n": "works"
+ },
+ "prices": [
+  [
+   108,
+   595
+  ],
+  null,
+  [
+   250,
+   895
+  ],
+  [
+   188,
+   795
+  ],
+  null,
+  [
+   350,
+   395
+  ],
+  [
+   395,
+   1295
+  ],
+  [
+   345,
+   345
+  ]
+ ],
+ "notes": {
+  "street": "denim for the culture, adopted fast by hip-hop",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 2; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "denim": "A denim brand; the jeans with their painted and distressed finishes are the whole business.",
+  "craft": "Purple's about page and FAQ say nothing about where or by whom its clothes are made. Four PDPs list fiber or leather composition only, with no country, mill or factory."
+ },
+ "doors": {
+  "c": "full",
+  "n": 2,
+  "cities": [
+   [
+    "Houston",
+    "TX",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 0,
+  "con": 0
+ },
+ "cities": "2 stores — Houston, New York · department stores and independent menswear shops, and its own site",
+ "region": {
+  "o": [
+   2857
+  ],
+  "s": [
+   124
+  ]
+ },
+ "site": {
+  "domain": "purple-brand.com",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 1347,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "licensed",
+  "marks": [
+   "Primaloft",
+   "Lycra (composition_only)",
+   "Tencel / Carbon Zero Tencel (composition_only)",
+   "\"Water Repellent\" finish descriptor"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 768,
+  "w": 745,
+  "n": 86,
+  "s": 10,
+  "c": 1,
+  "x": 21,
+  "xh": 1,
+  "sp": "one",
+  "sc": [
+   "Swimwear"
+  ],
+  "nc": [
+   "Denim",
+   "Tees",
+   "Shorts"
+  ],
+  "st": "complete"
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Dress shirt",
+  "Jeans",
+  "Sweater"
+ ],
+ "garment_links": {
+  "T-shirt": "https://purple-brand.com/collections/tees-t-shirts",
+  "Dress shirt": "https://purple-brand.com/collections/shirts",
+  "Jeans": "https://purple-brand.com/collections/denim",
+  "Sweater": "https://purple-brand.com/collections/sweaters",
+  "Outerwear": "https://purple-brand.com/collections/outerwear"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Basic Tee",
+   "lu": "https://purple-brand.com/products/basic-tee",
+   "hp": "Leather Mesh Tee",
+   "hu": "https://purple-brand.com/products/leather-mesh-tee",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 5,
-    "cashmere": 1,
-    "linen": 1,
-    "cotton": 1,
-    "wool": 1,
-    "synth": 1
+  "Dress shirt": {
+   "lp": "Wordmark Outline Shirt",
+   "lu": "https://purple-brand.com/products/wordmark-outline-shirt",
+   "hp": "Leather Shirt",
+   "hu": "https://purple-brand.com/products/leather-shirt-beige",
+   "b": "range"
   },
-  "dials": {
-    "dur": 2,
-    "forg": 1,
-    "fuss": -2,
-    "bruv": 2,
-    "status": 3,
-    "murica": 2,
-    "street": 4,
-    "whitet": 2,
-    "logo": 3,
-    "western": 1,
-    "rock": 4,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
+  "Jeans": {
+   "lp": "P001 Black Resin 3/D",
+   "lu": "https://purple-brand.com/products/p001-low-rise-skinny-jean-black-resin",
+   "hp": "P018 Trompe L'oeil",
+   "hu": "https://purple-brand.com/products/p018-trompe-loeil",
+   "b": "range"
   },
-  "why": "Jeans with heavy washes and paint-splatter finishes, popular with musicians.",
-  "origin": "Founded in Los Angeles in 2018.",
-  "chan": ["O", "D"],
-  "conf": "L",
-  "forgc": [1, 2, 1],
-  "shop": "https://purple-brand.com/search?q=",
-  "onething": {
-    "p": "P001 jean",
-    "u": "https://purple-brand.com/search?q=P001%20jean%20men",
-    "n": "works"
+  "Sweater": {
+   "lp": "Inked Gothic P Sweater",
+   "lu": "https://purple-brand.com/products/inked-gothic-p-sweater",
+   "hp": "Gothic Oversized Crew Sweater",
+   "hu": "https://purple-brand.com/products/gothic-oversized-crew-sweater",
+   "b": "range"
   },
-  "prices": [[108, 595], null, [250, 895], [188, 795], null, [350, 395], [395, 1295], [345, 345]],
-  "notes": {
-    "street": "denim for the culture, adopted fast by hip-hop",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 2; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "denim": "A denim brand; the jeans with their painted and distressed finishes are the whole business.",
-    "craft": "Purple's about page and FAQ say nothing about where or by whom its clothes are made. Four PDPs list fiber or leather composition only, with no country, mill or factory."
+  "Outerwear": {
+   "lp": "Black Raw Carpenter Jacket",
+   "lu": "https://purple-brand.com/products/black-raw-carpenter-jacket",
+   "hp": "Suede Carpenter Jacket",
+   "hu": "https://purple-brand.com/products/suede-carpenter-jacket",
+   "b": "pair"
   },
-  "doors": {
-    "c": "full",
-    "n": 2,
-    "cities": [["Houston", "TX", 1], ["New York", "NY", 1]],
-    "basis": "master 2026-08-29, pre-recapture"
-  },
-  "cities": "2 stores — Houston, New York · department stores and independent menswear shops, and its own site",
-  "region": {
-    "o": [],
-    "s": [124]
-  },
-  "site": {
-    "domain": "purple-brand.com",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 1347,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "licensed",
-    "marks": [
-      "Primaloft",
-      "Lycra (composition_only)",
-      "Tencel / Carbon Zero Tencel (composition_only)",
-      "\"Water Repellent\" finish descriptor"
-    ],
-    "source": "census",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 768,
-    "w": 745,
-    "n": 86,
-    "s": 10,
-    "c": 1,
-    "x": 21,
-    "xh": 1,
-    "sp": "one",
-    "sc": ["Swimwear"],
-    "nc": ["Denim", "Tees", "Shorts"],
-    "st": "complete"
-  },
-  "price_range_only": ["T-shirt", "Dress shirt", "Jeans", "Sweater"],
-  "garment_links": {
-    "T-shirt": "https://purple-brand.com/collections/tees-t-shirts",
-    "Dress shirt": "https://purple-brand.com/collections/shirts",
-    "Jeans": "https://purple-brand.com/collections/denim",
-    "Sweater": "https://purple-brand.com/collections/sweaters",
-    "Outerwear": "https://purple-brand.com/collections/outerwear"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Basic Tee",
-      "lu": "https://purple-brand.com/products/basic-tee",
-      "hp": "Leather Mesh Tee",
-      "hu": "https://purple-brand.com/products/leather-mesh-tee",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Wordmark Outline Shirt",
-      "lu": "https://purple-brand.com/products/wordmark-outline-shirt",
-      "hp": "Leather Shirt",
-      "hu": "https://purple-brand.com/products/leather-shirt-beige",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "P001 Black Resin 3/D",
-      "lu": "https://purple-brand.com/products/p001-low-rise-skinny-jean-black-resin",
-      "hp": "P018 Trompe L'oeil",
-      "hu": "https://purple-brand.com/products/p018-trompe-loeil",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Inked Gothic P Sweater",
-      "lu": "https://purple-brand.com/products/inked-gothic-p-sweater",
-      "hp": "Gothic Oversized Crew Sweater",
-      "hu": "https://purple-brand.com/products/gothic-oversized-crew-sweater",
-      "b": "range"
-    },
-    "Outerwear": {
-      "lp": "Black Raw Carpenter Jacket",
-      "lu": "https://purple-brand.com/products/black-raw-carpenter-jacket",
-      "hp": "Suede Carpenter Jacket",
-      "hu": "https://purple-brand.com/products/suede-carpenter-jacket",
-      "b": "pair"
-    },
-    "Shoes": {
-      "lp": "S001 Court Low",
-      "lu": "https://purple-brand.com/products/s001-court-low-noir",
-      "hp": "S001 Court Low",
-      "hu": "https://purple-brand.com/products/s001-court-low-noir",
-      "b": "single"
-    }
-  },
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://purple-brand.com/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "White Label, Black Label (both PURPLE BRAND)"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=3820378",
-      "m": "brand filter",
-      "n": "PURPLE BRAND only; generic 'Purple' excluded"
-    }
-  },
-  "season": {
-    "l": "FALL / WINTER '26 (FW26)",
-    "t": "lookbook",
-    "u": "https://www.purple-brand.com/pages/fw26-lookbook",
-    "m": "yes"
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "About page states only 'Founded in 2018'; no facility claimed or named.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "none",
-    "countries": "No country of make on 4 PDPs (P004 and P001 jeans, leather bomber, leather hoodie); none on about or FAQ.",
-    "heritage": "vague",
-    "repair": "no",
-    "process": "no",
-    "urls": ["https://purple-brand.com/pages/about", "https://purple-brand.com/products/p004-rip-and-repair"],
-    "conf": "medium",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "S001 Court Low",
+   "lu": "https://purple-brand.com/products/s001-court-low-noir",
+   "hp": "S001 Court Low",
+   "hu": "https://purple-brand.com/products/s001-court-low-noir",
+   "b": "single"
   }
+ },
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://purple-brand.com/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "White Label, Black Label (both PURPLE BRAND)"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=3820378",
+   "m": "brand filter",
+   "n": "PURPLE BRAND only; generic 'Purple' excluded"
+  }
+ },
+ "season": {
+  "l": "FALL / WINTER '26 (FW26)",
+  "t": "lookbook",
+  "u": "https://www.purple-brand.com/pages/fw26-lookbook",
+  "m": "yes"
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "About page states only 'Founded in 2018'; no facility claimed or named.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "none",
+  "countries": "No country of make on 4 PDPs (P004 and P001 jeans, leather bomber, leather hoodie); none on about or FAQ.",
+  "heritage": "vague",
+  "repair": "no",
+  "process": "no",
+  "urls": [
+   "https://purple-brand.com/pages/about",
+   "https://purple-brand.com/products/p004-rip-and-repair"
+  ],
+  "conf": "medium",
+  "read": "2026-10-03"
+ }
 }

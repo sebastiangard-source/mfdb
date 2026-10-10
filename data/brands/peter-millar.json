@@ -1,278 +1,440 @@
 {
-  "name": "Peter Millar",
-  "band": "accessible",
-  "seat": 67,
-  "dagger": 0,
-  "focus": {
-    "tech": 4,
-    "comfort": 4,
-    "craft": 2,
-    "style": 2
+ "name": "Peter Millar",
+ "band": "accessible",
+ "seat": 67,
+ "dagger": 0,
+ "focus": {
+  "tech": 4,
+  "comfort": 4,
+  "craft": 2,
+  "style": 2
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 3,
+  "linen": 2,
+  "cotton": 2,
+  "wool": 2,
+  "synth": 4
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 3,
+  "fuss": -1,
+  "golffice": 0,
+  "golf": 5,
+  "status": 3,
+  "finbro": 4,
+  "ivy": 2,
+  "murica": 2,
+  "ital": 2,
+  "prep": 4,
+  "boat": 3,
+  "racquet": 3,
+  "whitet": 2,
+  "logo": 2,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 2
+ },
+ "why": "Golf and country-club clothing — polos, quarter-zips, trousers — sold through pro shops and its own stores; owned by Richemont.",
+ "origin": "Founded in Raleigh, North Carolina, in 2001; bought by Richemont in 2012.",
+ "chan": [
+  "D",
+  "I",
+  "O"
+ ],
+ "conf": "S",
+ "forgc": [
+  2,
+  4,
+  2
+ ],
+ "shop": "https://www.petermillar.com/search?q=",
+ "onething": {
+  "p": "Perth pullover",
+  "u": "https://www.petermillar.com/search?q=Perth%20pullover%20men",
+  "n": "verified ✓"
+ },
+ "prices": [
+  [
+   68,
+   98
+  ],
+  [
+   105,
+   175
+  ],
+  [
+   165,
+   698
+  ],
+  [
+   198,
+   228
+  ],
+  [
+   188,
+   448
+  ],
+  [
+   235,
+   998
+  ],
+  [
+   278,
+   2995
+  ],
+  [
+   275,
+   395
+  ]
+ ],
+ "notes": {
+  "golf": "Crown Sport in every pro shop in America",
+  "finbro": "standard issue from the client golf outing to the office Friday",
+  "prep": "Country-club prep arriving by way of the golf shop, which is now the main channel through which the register reaches most American men.",
+  "tech": "a performance house with a tailoring business beside it: 197 of 352 men’s styles are synthetic and 199 carry spandex, and its own filter counts — 82 stretch, 82 wicking, 76 odor, 65 UPF of 103 polos — match the fiber content rather than overstating it. The named fabrics are all its own and all stock blends: Summer Comfort, across 51 products, is 92–94% polyester. No licensed technology anywhere in 581 product pages",
+  "wool": "the other half of the house — 18 of 30 sweaters and 11 of 19 sport coats are wool or cashmere, with 45 men’s products sourced as Italian",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 4; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "NC [not researched: site unreadable]"
+ },
+ "fibre": {
+  "t": 473,
+  "w": 430,
+  "n": 46,
+  "s": 45,
+  "c": 0,
+  "x": 42,
+  "xh": null,
+  "sp": "split",
+  "sc": [
+   "Polos & shirts",
+   "Pullovers & quarter-zips",
+   "Shorts"
+  ],
+  "nc": [
+   "Sweaters",
+   "Sport coats & suits",
+   "Accessories"
+  ],
+  "st": "complete"
+ },
+ "doors": {
+  "c": "full",
+  "n": 25,
+  "cities": [
+   [
+    "Alpharetta",
+    "GA",
+    1
+   ],
+   [
+    "Austin",
+    "TX",
+    1
+   ],
+   [
+    "Birmingham",
+    "AL",
+    1
+   ],
+   [
+    "Boston",
+    "MA",
+    1
+   ],
+   [
+    "Brentwood",
+    "TN",
+    1
+   ],
+   [
+    "Charlotte",
+    "NC",
+    1
+   ],
+   [
+    "Chicago",
+    "IL",
+    1
+   ],
+   [
+    "Colorado Springs",
+    "CO",
+    1
+   ],
+   [
+    "Columbus",
+    "OH",
+    1
+   ],
+   [
+    "Dallas",
+    "TX",
+    1
+   ],
+   [
+    "Denver",
+    "CO",
+    1
+   ],
+   [
+    "Houston",
+    "TX",
+    1
+   ],
+   [
+    "McLean",
+    "VA",
+    1
+   ],
+   [
+    "Millburn",
+    "NJ",
+    1
+   ],
+   [
+    "Miramar Beach",
+    "FL",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    1
+   ],
+   [
+    "Newport Beach",
+    "CA",
+    1
+   ],
+   [
+    "Palm Beach",
+    "FL",
+    1
+   ],
+   [
+    "Plano",
+    "TX",
+    1
+   ],
+   [
+    "Raleigh",
+    "NC",
+    1
+   ],
+   [
+    "San Diego",
+    "CA",
+    1
+   ],
+   [
+    "Scottsdale",
+    "AZ",
+    1
+   ],
+   [
+    "Southampton",
+    "NY",
+    1
+   ],
+   [
+    "Tampa",
+    "FL",
+    1
+   ],
+   [
+    "Wilmette",
+    "IL",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 0,
+  "con": 0
+ },
+ "cities": "25 stores across the US · department stores and independent menswear shops, and its own site",
+ "region": {
+  "o": [
+   2750,
+   2762,
+   2768,
+   2769
+  ],
+  "s": [
+   6,
+   9,
+   10,
+   11,
+   21,
+   24,
+   41,
+   44,
+   49,
+   50,
+   54,
+   60,
+   64,
+   66,
+   70,
+   73,
+   85,
+   89,
+   91,
+   95,
+   96,
+   117,
+   128,
+   133,
+   135,
+   136,
+   137,
+   138,
+   145,
+   149,
+   151,
+   152
+  ]
+ },
+ "addmen": true,
+ "site": {
+  "domain": "petermillar.com",
+  "platform": "salesforce_commerce",
+  "feed": "sitemap_products",
+  "feed_count": 2099,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "both",
+  "marks": [
+   "Summer Comfort",
+   "Crown Sport",
+   "Crown Crafted",
+   "Crown Comfort",
+   "Excursionist",
+   "Perth",
+   "Seaside",
+   "Hyperlight",
+   "four-way stretch",
+   "UPF",
+   "TENCEL"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "garment_links": {
+  "T-shirt": "https://www.petermillar.com/c/men/tops/t-shirts",
+  "Polo": "https://www.petermillar.com/c/men/tops/polos-shirts",
+  "Dress shirt": "https://www.petermillar.com/c/men/tops/button-up-shirts",
+  "Jeans": "https://www.petermillar.com/c/men/bottoms/denim",
+  "Dress pants": "https://www.petermillar.com/c/men/bottoms/pants",
+  "Sweater": "https://www.petermillar.com/c/men/tops/sweaters",
+  "Outerwear": "https://www.petermillar.com/c/men/outerwear/jackets-and-coats",
+  "Shoes": "https://www.petermillar.com/c/men/shoes"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Crown Comfort Short-Sleeve Pocket Tee",
+   "lu": "https://www.petermillar.com/p/crown-comfort-short-sleeve-pocket-tee/ma26k41.html",
+   "hp": "Pursuit Piqué Tee",
+   "hu": "https://www.petermillar.com/p/pursuit-pique-tee/mf26xk94.html",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 3,
-    "linen": 2,
-    "cotton": 2,
-    "wool": 2,
-    "synth": 4
+  "Polo": {
+   "lp": "Solid Performance Mesh Polo",
+   "lu": "https://www.petermillar.com/p/solid-performance-mesh-polo/me0ek50s.html",
+   "hp": "Barnes Short-Sleeve Knit Polo",
+   "hu": "https://www.petermillar.com/p/barnes-short-sleeve-knit-polo/mf26xk30.html",
+   "b": "range"
   },
-  "dials": {
-    "dur": 3,
-    "forg": 3,
-    "fuss": -1,
-    "golffice": 0,
-    "golf": 5,
-    "status": 3,
-    "finbro": 4,
-    "ivy": 2,
-    "murica": 2,
-    "ital": 2,
-    "prep": 4,
-    "boat": 3,
-    "racquet": 3,
-    "whitet": 2,
-    "logo": 2,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 2
+  "Dress shirt": {
+   "lp": "Devonport Chambray Cotton-Stretch Sport Shirt",
+   "lu": "https://www.petermillar.com/p/devonport-chambray-cotton-stretch-sport-shirt/ma26w70ltb.html",
+   "hp": "Artisan Crafted Cashmere Sport Shirt",
+   "hu": "https://www.petermillar.com/p/artisan-crafted-cashmere-sport-shirt/mf26xw50ltx.html",
+   "b": "pair"
   },
-  "why": "Golf and country-club clothing — polos, quarter-zips, trousers — sold through pro shops and its own stores; owned by Richemont.",
-  "origin": "Founded in Raleigh, North Carolina, in 2001; bought by Richemont in 2012.",
-  "chan": ["D", "I", "O"],
-  "conf": "S",
-  "forgc": [2, 4, 2],
-  "shop": "https://www.petermillar.com/search?q=",
-  "onething": {
-    "p": "Perth pullover",
-    "u": "https://www.petermillar.com/search?q=Perth%20pullover%20men",
-    "n": "verified ✓"
+  "Jeans": {
+   "lp": "Crown Heritage Five Pocket Denim",
+   "lu": "https://www.petermillar.com/p/crown-heritage-five-pocket-denim/ma26b22fb.html",
+   "hp": "Vintage Washed Five-Pocket Denim",
+   "hu": "https://www.petermillar.com/p/vintage-washed-five-pocket-denim/me0xb90fb.html",
+   "b": "range"
   },
-  "prices": [[68, 98], [105, 175], [165, 698], [198, 228], [188, 448], [235, 998], [278, 2995], [275, 395]],
-  "notes": {
-    "golf": "Crown Sport in every pro shop in America",
-    "finbro": "standard issue from the client golf outing to the office Friday",
-    "prep": "Country-club prep arriving by way of the golf shop, which is now the main channel through which the register reaches most American men.",
-    "tech": "a performance house with a tailoring business beside it: 197 of 352 men’s styles are synthetic and 199 carry spandex, and its own filter counts — 82 stretch, 82 wicking, 76 odor, 65 UPF of 103 polos — match the fiber content rather than overstating it. The named fabrics are all its own and all stock blends: Summer Comfort, across 51 products, is 92–94% polyester. No licensed technology anywhere in 581 product pages",
-    "wool": "the other half of the house — 18 of 30 sweaters and 11 of 19 sport coats are wool or cashmere, with 45 men’s products sourced as Italian",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 4; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "NC [not researched: site unreadable]"
+  "Dress pants": {
+   "lp": "Charlotte Performance Trouser",
+   "lu": "https://www.petermillar.com/p/charlotte-performance-trouser/me0eb55fb.html",
+   "hp": "Byron Cashmere-Merino Flat Front Trouser",
+   "hu": "https://www.petermillar.com/p/byron-cashmere-merino-flat-front-trouser/mf26xb73.html",
+   "b": "range"
   },
-  "fibre": {
-    "t": 473,
-    "w": 430,
-    "n": 46,
-    "s": 45,
-    "c": 0,
-    "x": 42,
-    "xh": null,
-    "sp": "split",
-    "sc": ["Polos & shirts", "Pullovers & quarter-zips", "Shorts"],
-    "nc": ["Sweaters", "Sport coats & suits", "Accessories"],
-    "st": "complete"
+  "Sweater": {
+   "lp": "Autumn Crest Honeycomb Crewneck Sweater",
+   "lu": "https://www.petermillar.com/p/autumn-crest-honeycomb-crewneck-sweater/mf26s44.html",
+   "hp": "First Fleece Cashmere Crewneck Sweater",
+   "hu": "https://www.petermillar.com/p/first-fleece-cashmere-crewneck-sweater/mf26xs60.html",
+   "b": "pair"
   },
-  "doors": {
-    "c": "full",
-    "n": 24,
-    "cities": [
-      ["Alpharetta", "GA", 1],
-      ["Austin", "TX", 1],
-      ["Birmingham", "AL", 1],
-      ["Boston", "MA", 1],
-      ["Brentwood", "TN", 1],
-      ["Charlotte", "NC", 1],
-      ["Chicago", "IL", 1],
-      ["Colorado Springs", "CO", 1],
-      ["Columbus", "OH", 1],
-      ["Dallas", "TX", 1],
-      ["Denver", "CO", 1],
-      ["Houston", "TX", 1],
-      ["McLean", "VA", 1],
-      ["Miramar Beach", "FL", 1],
-      ["New York", "NY", 1],
-      ["Newport Beach", "CA", 1],
-      ["Palm Beach", "FL", 1],
-      ["Plano", "TX", 1],
-      ["Raleigh", "NC", 1],
-      ["San Diego", "CA", 1],
-      ["Scottsdale", "AZ", 1],
-      ["Southampton", "NY", 1],
-      ["Tampa", "FL", 1],
-      ["Wilmette", "IL", 1]
-    ],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Outerwear": {
+   "lp": "Suffolk Coat",
+   "lu": "https://www.petermillar.com/p/suffolk-coat/me0z02.html",
+   "hp": "Italian Double-Faced Cashmere Coat",
+   "hu": "https://www.petermillar.com/p/italian-double-faced-cashmere-coat/mf26xz80.html",
+   "b": "pair"
   },
-  "cities": "24 stores across the US · department stores and independent menswear shops, and its own site",
-  "region": {
-    "o": [2193, 2196, 2197],
-    "s": [
-      6,
-      9,
-      10,
-      11,
-      21,
-      24,
-      41,
-      44,
-      49,
-      50,
-      54,
-      60,
-      64,
-      66,
-      70,
-      73,
-      85,
-      89,
-      91,
-      95,
-      96,
-      117,
-      128,
-      133,
-      135,
-      136,
-      137,
-      138,
-      145,
-      149,
-      151,
-      152
-    ]
-  },
-  "addmen": true,
-  "site": {
-    "domain": "petermillar.com",
-    "platform": "salesforce_commerce",
-    "feed": "sitemap_products",
-    "feed_count": 2099,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "both",
-    "marks": [
-      "Summer Comfort",
-      "Crown Sport",
-      "Crown Crafted",
-      "Crown Comfort",
-      "Excursionist",
-      "Perth",
-      "Seaside",
-      "Hyperlight",
-      "four-way stretch",
-      "UPF",
-      "TENCEL"
-    ],
-    "source": "census",
-    "checked": "2026-09-12"
-  },
-  "garment_links": {
-    "T-shirt": "https://www.petermillar.com/c/men/tops/t-shirts",
-    "Polo": "https://www.petermillar.com/c/men/tops/polos-shirts",
-    "Dress shirt": "https://www.petermillar.com/c/men/tops/button-up-shirts",
-    "Jeans": "https://www.petermillar.com/c/men/bottoms/denim",
-    "Dress pants": "https://www.petermillar.com/c/men/bottoms/pants",
-    "Sweater": "https://www.petermillar.com/c/men/tops/sweaters",
-    "Outerwear": "https://www.petermillar.com/c/men/outerwear/jackets-and-coats",
-    "Shoes": "https://www.petermillar.com/c/men/shoes"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Crown Comfort Short-Sleeve Pocket Tee",
-      "lu": "https://www.petermillar.com/p/crown-comfort-short-sleeve-pocket-tee/ma26k41.html",
-      "hp": "Pursuit Piqué Tee",
-      "hu": "https://www.petermillar.com/p/pursuit-pique-tee/mf26xk94.html",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Solid Performance Mesh Polo",
-      "lu": "https://www.petermillar.com/p/solid-performance-mesh-polo/me0ek50s.html",
-      "hp": "Barnes Short-Sleeve Knit Polo",
-      "hu": "https://www.petermillar.com/p/barnes-short-sleeve-knit-polo/mf26xk30.html",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Devonport Chambray Cotton-Stretch Sport Shirt",
-      "lu": "https://www.petermillar.com/p/devonport-chambray-cotton-stretch-sport-shirt/ma26w70ltb.html",
-      "hp": "Artisan Crafted Cashmere Sport Shirt",
-      "hu": "https://www.petermillar.com/p/artisan-crafted-cashmere-sport-shirt/mf26xw50ltx.html",
-      "b": "pair"
-    },
-    "Jeans": {
-      "lp": "Crown Heritage Five Pocket Denim",
-      "lu": "https://www.petermillar.com/p/crown-heritage-five-pocket-denim/ma26b22fb.html",
-      "hp": "Vintage Washed Five-Pocket Denim",
-      "hu": "https://www.petermillar.com/p/vintage-washed-five-pocket-denim/me0xb90fb.html",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Charlotte Performance Trouser",
-      "lu": "https://www.petermillar.com/p/charlotte-performance-trouser/me0eb55fb.html",
-      "hp": "Byron Cashmere-Merino Flat Front Trouser",
-      "hu": "https://www.petermillar.com/p/byron-cashmere-merino-flat-front-trouser/mf26xb73.html",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Autumn Crest Honeycomb Crewneck Sweater",
-      "lu": "https://www.petermillar.com/p/autumn-crest-honeycomb-crewneck-sweater/mf26s44.html",
-      "hp": "First Fleece Cashmere Crewneck Sweater",
-      "hu": "https://www.petermillar.com/p/first-fleece-cashmere-crewneck-sweater/mf26xs60.html",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "Suffolk Coat",
-      "lu": "https://www.petermillar.com/p/suffolk-coat/me0z02.html",
-      "hp": "Italian Double-Faced Cashmere Coat",
-      "hu": "https://www.petermillar.com/p/italian-double-faced-cashmere-coat/mf26xz80.html",
-      "b": "pair"
-    },
-    "Shoes": {
-      "lp": "Excursionist Penny Loafer",
-      "lu": "https://www.petermillar.com/p/excursionist-penny-loafer/ma26xf09.html",
-      "hp": "Oxford Tassel Loafer",
-      "hu": "https://www.petermillar.com/p/oxford-tassel-loafer/ma27xf102.html",
-      "b": "pair"
-    }
-  },
-  "price_range_only": ["T-shirt", "Polo", "Jeans", "Dress pants"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.petermillar.com/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "Crown, Crown Sport, Crown Crafted (incl. its Artisan Crafted cashmere pieces), Pursuit Series"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=454955",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "craft_evidence": {
-    "owned": "NC",
-    "owned_d": "NC",
-    "makers": "NC",
-    "mills": "NC",
-    "madein": "NC",
-    "countries": "NC",
-    "heritage": "NC",
-    "repair": "NC",
-    "process": "NC",
-    "urls": [],
-    "conf": "medium",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Excursionist Penny Loafer",
+   "lu": "https://www.petermillar.com/p/excursionist-penny-loafer/ma26xf09.html",
+   "hp": "Oxford Tassel Loafer",
+   "hu": "https://www.petermillar.com/p/oxford-tassel-loafer/ma27xf102.html",
+   "b": "pair"
   }
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Jeans",
+  "Dress pants"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.petermillar.com/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "Crown, Crown Sport, Crown Crafted (incl. its Artisan Crafted cashmere pieces), Pursuit Series"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=454955",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "craft_evidence": {
+  "owned": "NC",
+  "owned_d": "NC",
+  "makers": "NC",
+  "mills": "NC",
+  "madein": "NC",
+  "countries": "NC",
+  "heritage": "NC",
+  "repair": "NC",
+  "process": "NC",
+  "urls": [],
+  "conf": "medium",
+  "read": "2026-10-03"
+ }
 }

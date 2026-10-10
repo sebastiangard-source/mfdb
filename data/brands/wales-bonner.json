@@ -1,213 +1,268 @@
 {
-  "name": "Wales Bonner",
-  "band": "trueLux",
-  "seat": 192,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 2,
-    "craft": 2,
-    "style": 5
-  },
-  "fabric": {
-    "denim": 2,
-    "cashmere": 1,
-    "linen": 1,
-    "cotton": 2,
-    "wool": 3,
-    "synth": 1
-  },
-  "dials": {
-    "dur": 2,
-    "forg": 3,
-    "fuss": 1,
-    "bruv": -2,
-    "shoes": 3,
-    "status": 3,
-    "street": 4,
-    "avant": 3,
-    "weird": 2,
-    "briish": 3,
-    "whitet": 2,
-    "logo": 1,
-    "western": 1,
-    "rock": 2,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
-  },
-  "why": "Tailoring and sportswear drawing on Black Atlantic style history; the Adidas collaboration revived the Samba.",
-  "origin": "Founded in London in 2014 by Grace Wales Bonner.",
-  "chan": ["D", "X"],
-  "conf": "M",
-  "forgc": [4, 2, 1],
-  "onething": {
-    "p": "Adidas Samba collab",
-    "u": "https://www.walesbonner.net/",
-    "n": "Use this: https://walesbonner.com/search?q=Adidas+Samba+collab&type=product&options%5Bprefix%5D=last"
-  },
-  "prices": [
-    [259, 259, "USD_landed"],
-    [523, 523, "USD_landed"],
-    [523, 861, "USD_landed"],
-    [656, 656, "USD_landed"],
-    [728, 1080, "USD_landed"],
-    [523, 788, "USD_landed"],
-    [920, 2581, "USD_landed"],
-    [642, 728, "USD_landed"]
+ "name": "Wales Bonner",
+ "band": "trueLux",
+ "seat": 192,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 2,
+  "craft": 2,
+  "style": 5
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 2,
+  "wool": 3,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 2,
+  "forg": 3,
+  "fuss": 1,
+  "bruv": -2,
+  "shoes": 3,
+  "status": 3,
+  "street": 4,
+  "avant": 3,
+  "weird": 2,
+  "briish": 3,
+  "whitet": 2,
+  "logo": 1,
+  "western": 1,
+  "rock": 2,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Tailoring and sportswear drawing on Black Atlantic style history; the Adidas collaboration revived the Samba.",
+ "origin": "Founded in London in 2014 by Grace Wales Bonner.",
+ "chan": [
+  "D",
+  "X"
+ ],
+ "conf": "M",
+ "forgc": [
+  4,
+  2,
+  1
+ ],
+ "onething": {
+  "p": "Adidas Samba collab",
+  "u": "https://www.walesbonner.net/",
+  "n": "Use this: https://walesbonner.com/search?q=Adidas+Samba+collab&type=product&options%5Bprefix%5D=last"
+ },
+ "prices": [
+  [
+   259,
+   259,
+   "USD_landed"
   ],
-  "notes": {
-    "street": "the Adidas Samba revival is her doing — the decade's sneaker, from a scholar's label",
-    "wool": "crochet and knit as archive work",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 1; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "style": "Tailoring and sportswear built on a scholarly design idea about Black Atlantic style.",
-    "craft": "Wales Bonner states a country of make on only some products (the Italian tailoring and loafers). Most shirts, trousers and knits read on the site give no origin. One knit is described as made in England with John Smedley; otherwise no maker or mill is named, and the about and tailoring pages say nothing about making. That is a 2 at best, not a 3."
+  [
+   523,
+   523,
+   "USD_landed"
+  ],
+  [
+   523,
+   861,
+   "USD_landed"
+  ],
+  [
+   656,
+   656,
+   "USD_landed"
+  ],
+  [
+   728,
+   1080,
+   "USD_landed"
+  ],
+  [
+   523,
+   788,
+   "USD_landed"
+  ],
+  [
+   920,
+   2581,
+   "USD_landed"
+  ],
+  [
+   642,
+   728,
+   "USD_landed"
+  ]
+ ],
+ "notes": {
+  "street": "the Adidas Samba revival is her doing — the decade's sneaker, from a scholar's label",
+  "wool": "crochet and knit as archive work",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 1; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "style": "Tailoring and sportswear built on a scholarly design idea about Black Atlantic style.",
+  "craft": "Wales Bonner states a country of make on only some products (the Italian tailoring and loafers). Most shirts, trousers and knits read on the site give no origin. One knit is described as made in England with John Smedley; otherwise no maker or mill is named, and the about and tailoring pages say nothing about making. That is a 2 at best, not a 3."
+ },
+ "doors": {
+  "c": "full",
+  "n": 0,
+  "cities": [],
+  "basis": "master 2026-08-29, pre-recapture"
+ },
+ "cities": "No store of its own in the US · department stores, and its own site",
+ "site": {
+  "domain": "walesbonner.com",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 225,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "licensed",
+  "marks": [
+   "Ecco(R) Leather",
+   "Loro Piana doeskin wool (licensed by standing rule)",
+   "Vibram sole"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 88,
+  "w": 83,
+  "n": 70,
+  "s": 15,
+  "c": 9,
+  "x": 8,
+  "xh": 1,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "Tops",
+   "Outerwear",
+   "Trousers"
+  ],
+  "st": "complete"
+ },
+ "shop": "https://walesbonner.com/search?q=",
+ "price_range_only": [
+  "Dress shirt",
+  "Dress pants",
+  "Sweater",
+  "Outerwear"
+ ],
+ "garment_links": {
+  "T-shirt": "https://walesbonner.com/collections/menswear-tops",
+  "Polo": "https://walesbonner.com/collections/menswear-tops",
+  "Dress shirt": "https://walesbonner.com/collections/menswear-tops",
+  "Jeans": "https://walesbonner.com/collections/menswear-trousers",
+  "Dress pants": "https://walesbonner.com/collections/menswear-trousers",
+  "Sweater": "https://walesbonner.com/collections/menswear-knitwear",
+  "Outerwear": "https://walesbonner.com/collections/menswear-outerwear",
+  "Shoes": "https://walesbonner.com/collections/footwear-menswear"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Raga T-Shirt",
+   "lu": "https://walesbonner.com/products/raga-t-shirt",
+   "hp": "Raga T-Shirt",
+   "hu": "https://walesbonner.com/products/raga-t-shirt",
+   "b": "single"
   },
-  "doors": {
-    "c": "full",
-    "n": 0,
-    "cities": [],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Polo": {
+   "lp": "Roots Polo Shirt (viscose silk knit)",
+   "lu": "https://walesbonner.com/products/roots-polo-shirt",
+   "hp": "Roots Polo Shirt (viscose silk knit)",
+   "hu": "https://walesbonner.com/products/roots-polo-shirt",
+   "b": "single"
   },
-  "cities": "No store of its own in the US · department stores, and its own site",
-  "site": {
-    "domain": "walesbonner.com",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 225,
-    "status": "live_store",
-    "checked": "2026-09-13"
+  "Dress shirt": {
+   "lp": "Atlantic Shirt",
+   "lu": "https://walesbonner.com/products/atlantic-shirt-ss26",
+   "hp": "Tone Dress Shirt (cotton poplin)",
+   "hu": "https://walesbonner.com/products/tone-dress-shirt-1",
+   "b": "range"
   },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "licensed",
-    "marks": ["Ecco(R) Leather", "Loro Piana doeskin wool (licensed by standing rule)", "Vibram sole"],
-    "source": "census",
-    "checked": "2026-09-12"
+  "Jeans": {
+   "lp": "Studio Jean",
+   "lu": "https://walesbonner.com/products/studio-jean",
+   "hp": "Studio Jean",
+   "hu": "https://walesbonner.com/products/studio-jean",
+   "b": "single"
   },
-  "fibre": {
-    "t": 88,
-    "w": 83,
-    "n": 70,
-    "s": 15,
-    "c": 9,
-    "x": 8,
-    "xh": 1,
-    "sp": "one",
-    "sc": [],
-    "nc": ["Tops", "Outerwear", "Trousers"],
-    "st": "complete"
+  "Dress pants": {
+   "lp": "Mudra Trouser (jacquard)",
+   "lu": "https://walesbonner.com/products/mudra-trouser",
+   "hp": "Alto Trouser (mouline wool)",
+   "hu": "https://walesbonner.com/products/alto-trouser-black-and-brown-ss26",
+   "b": "range"
   },
-  "shop": "https://walesbonner.com/search?q=",
-  "price_range_only": ["Dress shirt", "Dress pants", "Sweater", "Outerwear"],
-  "garment_links": {
-    "T-shirt": "https://walesbonner.com/collections/menswear-tops",
-    "Polo": "https://walesbonner.com/collections/menswear-tops",
-    "Dress shirt": "https://walesbonner.com/collections/menswear-tops",
-    "Jeans": "https://walesbonner.com/collections/menswear-trousers",
-    "Dress pants": "https://walesbonner.com/collections/menswear-trousers",
-    "Sweater": "https://walesbonner.com/collections/menswear-knitwear",
-    "Outerwear": "https://walesbonner.com/collections/menswear-outerwear",
-    "Shoes": "https://walesbonner.com/collections/footwear-menswear"
+  "Sweater": {
+   "lp": "Nile Henley (merino rib knit)",
+   "lu": "https://walesbonner.com/products/nile-henley",
+   "hp": "Acoustic Jumper (wool cable knit)",
+   "hu": "https://walesbonner.com/products/acoustic-jumper",
+   "b": "range"
   },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Raga T-Shirt",
-      "lu": "https://walesbonner.com/products/raga-t-shirt",
-      "hp": "Raga T-Shirt",
-      "hu": "https://walesbonner.com/products/raga-t-shirt",
-      "b": "single"
-    },
-    "Polo": {
-      "lp": "Roots Polo Shirt (viscose silk knit)",
-      "lu": "https://walesbonner.com/products/roots-polo-shirt",
-      "hp": "Roots Polo Shirt (viscose silk knit)",
-      "hu": "https://walesbonner.com/products/roots-polo-shirt",
-      "b": "single"
-    },
-    "Dress shirt": {
-      "lp": "Atlantic Shirt",
-      "lu": "https://walesbonner.com/products/atlantic-shirt-ss26",
-      "hp": "Tone Dress Shirt (cotton poplin)",
-      "hu": "https://walesbonner.com/products/tone-dress-shirt-1",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Studio Jean",
-      "lu": "https://walesbonner.com/products/studio-jean",
-      "hp": "Studio Jean",
-      "hu": "https://walesbonner.com/products/studio-jean",
-      "b": "single"
-    },
-    "Dress pants": {
-      "lp": "Mudra Trouser (jacquard)",
-      "lu": "https://walesbonner.com/products/mudra-trouser",
-      "hp": "Alto Trouser (mouline wool)",
-      "hu": "https://walesbonner.com/products/alto-trouser-black-and-brown-ss26",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Nile Henley (merino rib knit)",
-      "lu": "https://walesbonner.com/products/nile-henley",
-      "hp": "Acoustic Jumper (wool cable knit)",
-      "hu": "https://walesbonner.com/products/acoustic-jumper",
-      "b": "range"
-    },
-    "Outerwear": {
-      "lp": "Drew Jacket (corduroy)",
-      "lu": "https://walesbonner.com/products/drew-jacket",
-      "hp": "Linear Coat (virgin wool)",
-      "hu": "https://walesbonner.com/products/linear-coat",
-      "b": "range"
-    },
-    "Shoes": {
-      "lp": "Dakar Loafer (nappa, dark brown)",
-      "lu": "https://walesbonner.com/products/dakar-loafer-dark-brown",
-      "hp": "Dakar Loafer (black calf hair)",
-      "hu": "https://walesbonner.com/products/dakar-loafer-black-calf",
-      "b": "pair"
-    }
+  "Outerwear": {
+   "lp": "Drew Jacket (corduroy)",
+   "lu": "https://walesbonner.com/products/drew-jacket",
+   "hp": "Linear Coat (virgin wool)",
+   "hu": "https://walesbonner.com/products/linear-coat",
+   "b": "range"
   },
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://walesbonner.com/ (US market, set via the site's country localization)",
-    "currency": "USD_landed",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=2692677",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "season": {
-    "l": "Autumn Winter 2026 ('Morning Raga')",
-    "t": "campaign",
-    "u": "https://walesbonner.com/pages/morning-raga-autumn-winter-2026-collection",
-    "m": "yes"
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "About page: label 'launched by Grace Wales Bonner following her graduation from Central Saint Martins in 2014'; names no studio workshop, atelier or factory where products are made. Tailoring page names no maker.",
-    "makers": "some",
-    "mills": "no",
-    "madein": "some",
-    "countries": "Italy 2/4 PDPs read (Alto blazer Italy; Beam polo, Sierra trouser, Soul T-shirt no origin shown). In 35 Shopify product descriptions (products.json + menswear collection): Italy 4 (Alto & Harmony blazers, 2 Dakar loafers), England 1 (Beam polo / John Smedley); the remaining ~30 (shirts, trousers, polos, T-shirts, knits, other loafers, collab items) stated no origin. The tailoring page says the SS26 wrap tuxedo is 'Made in Italy'.",
-    "heritage": "dated and placed",
-    "repair": "no",
-    "process": "no",
-    "urls": ["https://walesbonner.com/pages/about", "https://walesbonner.com/products/alto-blazer-3"],
-    "conf": "medium",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Dakar Loafer (nappa, dark brown)",
+   "lu": "https://walesbonner.com/products/dakar-loafer-dark-brown",
+   "hp": "Dakar Loafer (black calf hair)",
+   "hu": "https://walesbonner.com/products/dakar-loafer-black-calf",
+   "b": "pair"
   }
+ },
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://walesbonner.com/ (US market, set via the site's country localization)",
+  "currency": "USD_landed",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=2692677",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "season": {
+  "l": "Autumn Winter 2026 ('Morning Raga')",
+  "t": "campaign",
+  "u": "https://walesbonner.com/pages/morning-raga-autumn-winter-2026-collection",
+  "m": "yes"
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "About page: label 'launched by Grace Wales Bonner following her graduation from Central Saint Martins in 2014'; names no studio workshop, atelier or factory where products are made. Tailoring page names no maker.",
+  "makers": "some",
+  "mills": "no",
+  "madein": "some",
+  "countries": "Italy 2/4 PDPs read (Alto blazer Italy; Beam polo, Sierra trouser, Soul T-shirt no origin shown). In 35 Shopify product descriptions (products.json + menswear collection): Italy 4 (Alto & Harmony blazers, 2 Dakar loafers), England 1 (Beam polo / John Smedley); the remaining ~30 (shirts, trousers, polos, T-shirts, knits, other loafers, collab items) stated no origin. The tailoring page says the SS26 wrap tuxedo is 'Made in Italy'.",
+  "heritage": "dated and placed",
+  "repair": "no",
+  "process": "no",
+  "urls": [
+   "https://walesbonner.com/pages/about",
+   "https://walesbonner.com/products/alto-blazer-3"
+  ],
+  "conf": "medium",
+  "read": "2026-10-03"
+ }
 }

@@ -1,123 +1,167 @@
 {
-  "name": "Cesare Attolini",
-  "band": "trueLux",
-  "seat": 201,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 3,
-    "craft": 5,
-    "style": 4
-  },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 3,
-    "linen": 3,
-    "cotton": 3,
-    "wool": 4,
-    "synth": 1
-  },
-  "dials": {
-    "dur": 4,
-    "forg": 3,
-    "fuss": 3,
-    "golffice": -3,
-    "status": 2,
-    "ital": 5,
-    "boat": 4,
-    "whitet": 1,
-    "logo": 1,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
-  },
-  "why": "Neapolitan tailoring from the family credited with the unpadded Neapolitan shoulder.",
-  "origin": "Vincenzo Attolini developed the soft shoulder at Rubinacci in the 1930s; the house carries his son's name.",
-  "say": "CHEH-zah-reh at-toh-LEE-nee",
-  "chan": ["O", "I", "D"],
-  "conf": "L",
-  "forgc": [2, 2, 5],
-  "onething": {
-    "p": "Cashmere sport coat",
-    "u": "https://www.neimanmarcus.com/p/cesare-attolini-mens-plaid-cashmere-two-button-jacket-prod284650155",
-    "n": "via Neiman Marcus — a live cashmere jacket; the house names no products, so the piece is the category"
-  },
-  "prices": [null, null, [900, 1250], null, [2150, 2200], "?", "?", "?"],
-  "notes": {
-    "wool": "the soft shoulder its family invented",
-    "ital": "Naples, and the family is widely credited with the modern soft jacket — the unpadded shoulder and the light canvas that let a jacket move with a body rather than around it.",
-    "boat": "Neapolitan soft tailoring on the Amalfi register, where the coast and the tailoring tradition are the same geography.",
-    "whitet": "sells no plain tee (price pass: NONE) — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 1; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Attolini's own Manufacturing page says each garment is made entirely by hand by 130 tailors in its Casalnuovo tailor's shop outside Naples, and describes the jacket-making steps and hours. That is owned, named making for the core tailoring range. Whether shirts and knitwear are made there too is not stated."
-  },
-  "doors": {
-    "c": "full",
-    "n": 2,
-    "cities": [["Bal Harbour", "FL", 1], ["New York", "NY", 1]],
-    "basis": "master 2026-08-29, pre-recapture"
-  },
-  "cities": "No store of its own in the US · a handful of the top specialists; its own site is under maintenance",
-  "region": {
-    "o": [781],
-    "s": [44, 60, 27]
-  },
-  "site": {
-    "domain": "www.cesareattolini.com",
-    "platform": "custom",
-    "feed": "none_found",
-    "feed_count": 0,
-    "status": "brand_site_no_shop",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "no",
-    "origin": "none",
-    "marks": ["none"],
-    "source": "screen_36",
-    "checked": "2026-09-12"
-  },
-  "price_read": {
-    "date": "2026-09-23",
-    "status": "no_store",
-    "note": "NC - no store to read. On 2026-09-23 the e-boutique page read exactly 'E-boutique under maintenance.' / 'WE WILL BE BACK SOON' (same state the brief recorded on 18 Sep). No priced product pages reacha"
-  },
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=1042745",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "season": {
-    "l": "Fall Winter 2026/27",
-    "t": "collection page",
-    "u": "https://www.cesareattolini.com/collection-fw-26-27",
-    "m": "yes"
-  },
-  "craft_evidence": {
-    "owned": "yes",
-    "owned_d": "Brand Manufacturing page: 'Each garment is made entirely by hand in the Casalnuovo tailor's shop, on the outskirts of Naples'; '130 tailors work every day, each dedicated to performing a single step'; 'It takes 25 to 30 hours to make a suit'. Owned by the brand (family house). The process text describes jackets/suits; it does not say whether shirts, knitwear, ties and caps on the e-boutique are also made at Casalnuovo.",
-    "makers": "some",
-    "mills": "no",
-    "madein": "NC",
-    "countries": "No PDPs reached: sitemap.xml lists no product URLs and e-boutique/category pages render products client-side.",
-    "heritage": "dated and placed",
-    "repair": "no",
-    "process": "yes",
-    "urls": [
-      "https://www.cesareattolini.com/pages/manufacturing",
-      "https://www.cesareattolini.com/pages/origins"
-    ],
-    "conf": "medium",
-    "read": "2026-10-03"
+ "name": "Cesare Attolini",
+ "band": "trueLux",
+ "seat": 201,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 3,
+  "craft": 5,
+  "style": 4
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 3,
+  "linen": 3,
+  "cotton": 3,
+  "wool": 4,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 4,
+  "forg": 3,
+  "fuss": 3,
+  "golffice": -3,
+  "status": 2,
+  "ital": 5,
+  "boat": 4,
+  "whitet": 1,
+  "logo": 1,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Neapolitan tailoring from the family credited with the unpadded Neapolitan shoulder.",
+ "origin": "Vincenzo Attolini developed the soft shoulder at Rubinacci in the 1930s; the house carries his son's name.",
+ "say": "CHEH-zah-reh at-toh-LEE-nee",
+ "chan": [
+  "O",
+  "I",
+  "D"
+ ],
+ "conf": "L",
+ "forgc": [
+  2,
+  2,
+  5
+ ],
+ "onething": {
+  "p": "Cashmere sport coat",
+  "u": "https://www.neimanmarcus.com/p/cesare-attolini-mens-plaid-cashmere-two-button-jacket-prod284650155",
+  "n": "via Neiman Marcus — a live cashmere jacket; the house names no products, so the piece is the category"
+ },
+ "prices": [
+  null,
+  null,
+  [
+   900,
+   1250
+  ],
+  null,
+  [
+   2150,
+   2200
+  ],
+  "?",
+  "?",
+  "?"
+ ],
+ "notes": {
+  "wool": "the soft shoulder its family invented",
+  "ital": "Naples, and the family is widely credited with the modern soft jacket — the unpadded shoulder and the light canvas that let a jacket move with a body rather than around it.",
+  "boat": "Neapolitan soft tailoring on the Amalfi register, where the coast and the tailoring tradition are the same geography.",
+  "whitet": "sells no plain tee (price pass: NONE) — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 1; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "Attolini's own Manufacturing page says each garment is made entirely by hand by 130 tailors in its Casalnuovo tailor's shop outside Naples, and describes the jacket-making steps and hours. That is owned, named making for the core tailoring range. Whether shirts and knitwear are made there too is not stated."
+ },
+ "doors": {
+  "c": "full",
+  "n": 2,
+  "cities": [
+   [
+    "Bal Harbour",
+    "FL",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 0,
+  "con": 0
+ },
+ "cities": "2 stores, on Madison Avenue and in Bal Harbour · a handful of the top specialists; its own site is under maintenance",
+ "region": {
+  "o": [
+   1041
+  ],
+  "s": [
+   44,
+   60,
+   27
+  ]
+ },
+ "site": {
+  "domain": "www.cesareattolini.com",
+  "platform": "custom",
+  "feed": "none_found",
+  "feed_count": 0,
+  "status": "brand_site_no_shop",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "no",
+  "origin": "none",
+  "marks": [
+   "none"
+  ],
+  "source": "screen_36",
+  "checked": "2026-09-12"
+ },
+ "price_read": {
+  "date": "2026-09-23",
+  "status": "no_store",
+  "note": "NC - no store to read. On 2026-09-23 the e-boutique page read exactly 'E-boutique under maintenance.' / 'WE WILL BE BACK SOON' (same state the brief recorded on 18 Sep). No priced product pages reacha"
+ },
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=1042745",
+   "m": "brand filter",
+   "n": ""
   }
+ },
+ "season": {
+  "l": "Fall Winter 2026/27",
+  "t": "collection page",
+  "u": "https://www.cesareattolini.com/collection-fw-26-27",
+  "m": "yes"
+ },
+ "craft_evidence": {
+  "owned": "yes",
+  "owned_d": "Brand Manufacturing page: 'Each garment is made entirely by hand in the Casalnuovo tailor's shop, on the outskirts of Naples'; '130 tailors work every day, each dedicated to performing a single step'; 'It takes 25 to 30 hours to make a suit'. Owned by the brand (family house). The process text describes jackets/suits; it does not say whether shirts, knitwear, ties and caps on the e-boutique are also made at Casalnuovo.",
+  "makers": "some",
+  "mills": "no",
+  "madein": "NC",
+  "countries": "No PDPs reached: sitemap.xml lists no product URLs and e-boutique/category pages render products client-side.",
+  "heritage": "dated and placed",
+  "repair": "no",
+  "process": "yes",
+  "urls": [
+   "https://www.cesareattolini.com/pages/manufacturing",
+   "https://www.cesareattolini.com/pages/origins"
+  ],
+  "conf": "medium",
+  "read": "2026-10-03"
+ }
 }

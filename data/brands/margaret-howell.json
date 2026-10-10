@@ -1,193 +1,239 @@
 {
-  "name": "Margaret Howell",
-  "band": "accessible",
-  "seat": 104,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 3,
-    "craft": 4,
-    "style": 4
+ "name": "Margaret Howell",
+ "band": "accessible",
+ "seat": 104,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 3,
+  "craft": 4,
+  "style": 4
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 2,
+  "linen": 3,
+  "cotton": 3,
+  "wool": 3,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 3,
+  "fuss": 1,
+  "scandi": 2,
+  "briish": 5,
+  "whitet": 2,
+  "logo": 1,
+  "western": 1,
+  "rock": 1,
+  "workwear": 2,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Plain, well-made clothing in British and Irish cloth — shirts, knitwear, trousers — designed to last and be repaired.",
+ "origin": "Founded in London in 1970 by Margaret Howell.",
+ "chan": [
+  "I",
+  "X"
+ ],
+ "conf": "M",
+ "forgc": [
+  5,
+  2,
+  1
+ ],
+ "shop": "https://www.margarethowell.co.uk/search?q=",
+ "onething": {
+  "p": "Irish linen shirt",
+  "u": "https://www.margarethowell.co.uk/search?q=linen+shirt",
+  "n": "best-guess link — verify"
+ },
+ "prices": [
+  [
+   125,
+   190
+  ],
+  [
+   295,
+   295
+  ],
+  [
+   265,
+   790
+  ],
+  null,
+  [
+   380,
+   980
+  ],
+  [
+   415,
+   640
+  ],
+  [
+   640,
+   1900
+  ],
+  null
+ ],
+ "notes": {
+  "linen": "the Irish linen champion — her signature cloth, celebrated seam by seam",
+  "craft": "Margaret Howell makes shirts in its own 'London Workroom' in North London, and the shirt pages say so. The rest of the range comes from outside makers, some named off the product page (Mackintosh raincoats, Scottish knitters) and one mill named on a product page (Fox Brothers). Owned making for one core category: a 4.",
+  "style": "minimalism with warmth — the design world's uniform",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 2; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "briish": "British and Irish cloth, British making, and a design language rooted in English work and school clothing."
+ },
+ "doors": {
+  "c": "full",
+  "n": 0,
+  "cities": [],
+  "basis": "master 2026-08-29, pre-recapture"
+ },
+ "cities": "No store of its own in the US · independent menswear shops, and its own site",
+ "region": {
+  "o": [],
+  "s": [
+   148
+  ]
+ },
+ "site": {
+  "domain": "margarethowell.co.uk",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 363,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "licensed",
+  "marks": [
+   "GORE-TEX [licensed]",
+   "Tencel [licensed]. Zero trademark symbols anywhere in the catalogue. MHL. and London Workroom are NOT fabric names"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 66,
+  "w": 66,
+  "n": 100,
+  "s": 0,
+  "c": 0,
+  "x": 0,
+  "xh": 0,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "Trousers",
+   "Knitwear",
+   "Shirts"
+  ],
+  "st": "complete"
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Dress shirt",
+  "Dress pants",
+  "Sweater",
+  "Outerwear"
+ ],
+ "garment_links": {
+  "T-shirt": "https://www.margarethowell.co.uk/collections/men-jersey",
+  "Dress shirt": "https://www.margarethowell.co.uk/collections/men-shirts-tops",
+  "Jeans": "https://www.margarethowell.co.uk/search?q=jeans&filter.p.m.custom.gender=Men",
+  "Dress pants": "https://www.margarethowell.co.uk/collections/men-trousers",
+  "Sweater": "https://www.margarethowell.co.uk/collections/men-knitwear",
+  "Outerwear": "https://www.margarethowell.co.uk/collections/men-jackets-coats"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "MHL. Simple T Shirt | Cotton Linen Jersey | White",
+   "lu": "https://www.margarethowell.co.uk/products/men-mhl-simple-t-shirt-organic-cotton-linen-jersey-white",
+   "hp": "Short Sleeve T Shirt | Fine Cotton Jersey | Black",
+   "hu": "https://www.margarethowell.co.uk/products/men-short-sleeve-t-shirt-fine-cotton-jersey-black",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 2,
-    "linen": 3,
-    "cotton": 3,
-    "wool": 3,
-    "synth": 1
+  "Polo": {
+   "lp": "MHL. Long Sleeve Offset Placket Polo Shirt | Japanese Cotton Linen Denim | Indigo",
+   "lu": "https://www.margarethowell.co.uk/products/mhl-long-sleeve-offset-placket-polo-shirt-japanese-cotton-linen-denim-indigo",
+   "hp": "MHL. Long Sleeve Offset Placket Polo Shirt | Japanese Cotton Linen Denim | Indigo",
+   "hu": "https://www.margarethowell.co.uk/products/mhl-long-sleeve-offset-placket-polo-shirt-japanese-cotton-linen-denim-indigo",
+   "b": "single"
   },
-  "dials": {
-    "dur": 3,
-    "forg": 3,
-    "fuss": 1,
-    "scandi": 2,
-    "briish": 5,
-    "whitet": 2,
-    "logo": 1,
-    "western": 1,
-    "rock": 1,
-    "workwear": 2,
-    "outdoor": 1,
-    "surf": 1
+  "Dress shirt": {
+   "lp": "MHL. Basic Shirt | Sanded Cotton Poplin | Storm",
+   "lu": "https://www.margarethowell.co.uk/products/mhl-basic-shirt-sanded-cotton-poplin-storm",
+   "hp": "Half Lined Shirt | Brushed Fluid Wool Twill | Navy",
+   "hu": "https://www.margarethowell.co.uk/products/half-lined-shirt-brushed-fluid-wool-twill-navy",
+   "b": "range"
   },
-  "why": "Plain, well-made clothing in British and Irish cloth — shirts, knitwear, trousers — designed to last and be repaired.",
-  "origin": "Founded in London in 1970 by Margaret Howell.",
-  "chan": ["I", "X"],
-  "conf": "M",
-  "forgc": [5, 2, 1],
-  "shop": "https://www.margarethowell.co.uk/search?q=",
-  "onething": {
-    "p": "Irish linen shirt",
-    "u": "https://www.margarethowell.co.uk/search?q=linen+shirt",
-    "n": "best-guess link — verify"
+  "Dress pants": {
+   "lp": "MHL. Simple Trousers | Raised Cotton Drill | Black",
+   "lu": "https://www.margarethowell.co.uk/products/mhl-simple-trousers-raised-cotton-drill-black",
+   "hp": "Tailors Trousers | Dry Wool Plainweave | Black",
+   "hu": "https://www.margarethowell.co.uk/products/tailors-trousers-dry-wool-plainweave-black",
+   "b": "range"
   },
-  "prices": [[125, 190], [295, 295], [265, 790], null, [380, 980], [415, 640], [640, 1900], null],
-  "notes": {
-    "linen": "the Irish linen champion — her signature cloth, celebrated seam by seam",
-    "craft": "Margaret Howell makes shirts in its own 'London Workroom' in North London, and the shirt pages say so. The rest of the range comes from outside makers, some named off the product page (Mackintosh raincoats, Scottish knitters) and one mill named on a product page (Fox Brothers). Owned making for one core category: a 4.",
-    "style": "minimalism with warmth — the design world's uniform",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 2; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "briish": "British and Irish cloth, British making, and a design language rooted in English work and school clothing."
+  "Sweater": {
+   "lp": "MHL. Crew Neck Jumper | Virgin Wool | Dark Olive",
+   "lu": "https://www.margarethowell.co.uk/products/mhl-crew-neck-jumper-virgin-wool-dark-olive",
+   "hp": "Seamless Crew Neck Jumper | Merino Cashmere | Black",
+   "hu": "https://www.margarethowell.co.uk/products/seamless-crew-neck-jumper-merino-cashmere-black",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 0,
-    "cities": [],
-    "basis": "master 2026-08-29, pre-recapture"
-  },
-  "cities": "No store of its own in the US · independent menswear shops, and its own site",
-  "region": {
-    "o": [],
-    "s": [148]
-  },
-  "site": {
-    "domain": "margarethowell.co.uk",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 363,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "licensed",
-    "marks": [
-      "GORE-TEX [licensed]",
-      "Tencel [licensed]. Zero trademark symbols anywhere in the catalogue. MHL. and London Workroom are NOT fabric names"
-    ],
-    "source": "census",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 66,
-    "w": 66,
-    "n": 100,
-    "s": 0,
-    "c": 0,
-    "x": 0,
-    "xh": 0,
-    "sp": "one",
-    "sc": [],
-    "nc": ["Trousers", "Knitwear", "Shirts"],
-    "st": "complete"
-  },
-  "price_range_only": ["T-shirt", "Dress shirt", "Dress pants", "Sweater", "Outerwear"],
-  "garment_links": {
-    "T-shirt": "https://www.margarethowell.co.uk/collections/men-jersey",
-    "Dress shirt": "https://www.margarethowell.co.uk/collections/men-shirts-tops",
-    "Jeans": "https://www.margarethowell.co.uk/search?q=jeans&filter.p.m.custom.gender=Men",
-    "Dress pants": "https://www.margarethowell.co.uk/collections/men-trousers",
-    "Sweater": "https://www.margarethowell.co.uk/collections/men-knitwear",
-    "Outerwear": "https://www.margarethowell.co.uk/collections/men-jackets-coats"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "MHL. Simple T Shirt | Cotton Linen Jersey | White",
-      "lu": "https://www.margarethowell.co.uk/products/men-mhl-simple-t-shirt-organic-cotton-linen-jersey-white",
-      "hp": "Short Sleeve T Shirt | Fine Cotton Jersey | Black",
-      "hu": "https://www.margarethowell.co.uk/products/men-short-sleeve-t-shirt-fine-cotton-jersey-black",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "MHL. Long Sleeve Offset Placket Polo Shirt | Japanese Cotton Linen Denim | Indigo",
-      "lu": "https://www.margarethowell.co.uk/products/mhl-long-sleeve-offset-placket-polo-shirt-japanese-cotton-linen-denim-indigo",
-      "hp": "MHL. Long Sleeve Offset Placket Polo Shirt | Japanese Cotton Linen Denim | Indigo",
-      "hu": "https://www.margarethowell.co.uk/products/mhl-long-sleeve-offset-placket-polo-shirt-japanese-cotton-linen-denim-indigo",
-      "b": "single"
-    },
-    "Dress shirt": {
-      "lp": "MHL. Basic Shirt | Sanded Cotton Poplin | Storm",
-      "lu": "https://www.margarethowell.co.uk/products/mhl-basic-shirt-sanded-cotton-poplin-storm",
-      "hp": "Half Lined Shirt | Brushed Fluid Wool Twill | Navy",
-      "hu": "https://www.margarethowell.co.uk/products/half-lined-shirt-brushed-fluid-wool-twill-navy",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "MHL. Simple Trousers | Raised Cotton Drill | Black",
-      "lu": "https://www.margarethowell.co.uk/products/mhl-simple-trousers-raised-cotton-drill-black",
-      "hp": "Tailors Trousers | Dry Wool Plainweave | Black",
-      "hu": "https://www.margarethowell.co.uk/products/tailors-trousers-dry-wool-plainweave-black",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "MHL. Crew Neck Jumper | Virgin Wool | Dark Olive",
-      "lu": "https://www.margarethowell.co.uk/products/mhl-crew-neck-jumper-virgin-wool-dark-olive",
-      "hp": "Seamless Crew Neck Jumper | Merino Cashmere | Black",
-      "hu": "https://www.margarethowell.co.uk/products/seamless-crew-neck-jumper-merino-cashmere-black",
-      "b": "range"
-    },
-    "Outerwear": {
-      "lp": "MHL. Track Jacket | Crisp Cotton Poplin | Black",
-      "lu": "https://www.margarethowell.co.uk/products/mhl-track-jacket-crisp-cotton-poplin-black",
-      "hp": "Double Collar Coat | Firm Wool Melton | Khaki",
-      "hu": "https://www.margarethowell.co.uk/products/double-collar-coat-firm-wool-melton-khaki",
-      "b": "range"
-    }
-  },
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.margarethowell.co.uk/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "MHL."
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=352089",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "season": {
-    "l": "Autumn Winter 2026",
-    "t": "lookbook",
-    "u": "https://www.margarethowell.co.uk/pages/margaret-howell-aw26-lookbook",
-    "m": "unisex"
-  },
-  "craft_evidence": {
-    "owned": "yes",
-    "owned_d": "Shirts only. 'Making of a Shirt' page: 'Each shirt made in our new dedicated space in North London, is testament to our skilled team'; new 'London Workroom' label (AW26). Shirt and scarf PDPs say 'Made in the London Workroom'. No street address or headcount given. Rest of range from suppliers: about page names 'specialists such as Mackintosh' (raincoats) and 'Scottish knitting factories'; sustainability page: 'the majority of our suppliers based in Europe'.",
-    "makers": "some",
-    "mills": "some",
-    "madein": "some",
-    "countries": "Product descriptions: London/England 3/22 (2 'Made in the London Workroom', 1 Fox Brothers cloth); 19/22 state nothing in the description. Rendered blazer and fisherman's jumper PDPs show origin in a collapsed 'Details & Care' tab the fetch could not read, so the true share is likely higher than recorded — not 'none' with confidence.",
-    "heritage": "dated and placed",
-    "repair": "yes",
-    "process": "some",
-    "urls": [
-      "https://www.margarethowell.co.uk/collections/making-of-a-shirt",
-      "https://www.margarethowell.co.uk/pages/care-repair"
-    ],
-    "conf": "medium",
-    "read": "2026-10-03"
+  "Outerwear": {
+   "lp": "MHL. Track Jacket | Crisp Cotton Poplin | Black",
+   "lu": "https://www.margarethowell.co.uk/products/mhl-track-jacket-crisp-cotton-poplin-black",
+   "hp": "Double Collar Coat | Firm Wool Melton | Khaki",
+   "hu": "https://www.margarethowell.co.uk/products/double-collar-coat-firm-wool-melton-khaki",
+   "b": "range"
   }
+ },
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.margarethowell.co.uk/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "MHL."
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=352089",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "season": {
+  "l": "Autumn Winter 2026",
+  "t": "lookbook",
+  "u": "https://www.margarethowell.co.uk/pages/margaret-howell-aw26-lookbook",
+  "m": "unisex"
+ },
+ "craft_evidence": {
+  "owned": "yes",
+  "owned_d": "Shirts only. 'Making of a Shirt' page: 'Each shirt made in our new dedicated space in North London, is testament to our skilled team'; new 'London Workroom' label (AW26). Shirt and scarf PDPs say 'Made in the London Workroom'. No street address or headcount given. Rest of range from suppliers: about page names 'specialists such as Mackintosh' (raincoats) and 'Scottish knitting factories'; sustainability page: 'the majority of our suppliers based in Europe'.",
+  "makers": "some",
+  "mills": "some",
+  "madein": "some",
+  "countries": "Product descriptions: London/England 3/22 (2 'Made in the London Workroom', 1 Fox Brothers cloth); 19/22 state nothing in the description. Rendered blazer and fisherman's jumper PDPs show origin in a collapsed 'Details & Care' tab the fetch could not read, so the true share is likely higher than recorded — not 'none' with confidence.",
+  "heritage": "dated and placed",
+  "repair": "yes",
+  "process": "some",
+  "urls": [
+   "https://www.margarethowell.co.uk/collections/making-of-a-shirt",
+   "https://www.margarethowell.co.uk/pages/care-repair"
+  ],
+  "conf": "medium",
+  "read": "2026-10-03"
+ }
 }

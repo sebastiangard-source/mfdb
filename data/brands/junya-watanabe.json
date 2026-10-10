@@ -1,122 +1,155 @@
 {
-  "name": "Junya Watanabe",
-  "band": "trueLux",
-  "seat": 162,
-  "dagger": 1,
-  "focus": {
-    "tech": 2,
-    "comfort": 1,
-    "craft": 2,
-    "style": 5
-  },
-  "fabric": {
-    "denim": 4,
-    "cashmere": 1,
-    "linen": 1,
-    "cotton": 2,
-    "wool": 2,
-    "synth": 2
-  },
-  "dials": {
-    "dur": 2,
-    "forg": 3,
-    "fuss": -2,
-    "shoes": 3,
-    "status": 3,
-    "street": 3,
-    "avant": 5,
-    "weird": 4,
-    "whitet": 2,
-    "logo": 1,
-    "western": 2,
-    "rock": 2,
-    "workwear": 3,
-    "outdoor": 3,
-    "surf": 1
-  },
-  "why": "Reworked workwear and denim — patchwork, hybrid pieces, collaborations with Levi's, Carhartt and The North Face — from a Comme des Garçons designer.",
-  "origin": "Junya Watanabe has had his own line within Comme des Garçons since 1992.",
-  "say": "JOON-ya wah-tah-NAH-beh",
-  "chan": ["D", "X"],
-  "conf": "M",
-  "forgc": [4, 2, 1],
-  "onething": {
-    "p": "Patchwork Levi's rework",
-    "u": "https://www.ssense.com/en-us/men/designers/junya-watanabe",
-    "n": "SSENSE designer page; via Mr Porter"
-  },
-  "prices": [[310, 422], [394, 740], [937, 1134], [1030, 1273], [713, 937], "?", "?", "?"],
-  "notes": {
-    "denim": "patchwork denim and sanctioned Levi's rebuilds — the collaboration as art form",
-    "style": "the remix as a design philosophy — familiar icons made strange",
-    "street": "grail-tier for the menswear-obsessed",
-    "avant": "the remix as formal invention — familiar icons made strange",
-    "weird": "Spliced garments and seams that should not close. The weirdness is engineering — a technical problem set and then solved in public.",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 1; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Junya Watanabe is made under Comme des Garçons Co., Ltd., whose recruitment page shows an in-house Tokyo pattern and sewing department but names no owned factory. The five Junya pieces read on the group-owned Dover Street Market shop are all 'Made in Japan' with no maker or mill named. Evidence is thin; current 3 kept. [ruled by Sebastian 4 Oct 2026]"
-  },
-  "doors": {
-    "c": "full",
-    "n": 0,
-    "cities": [],
-    "basis": "master 2026-08-29, pre-recapture"
-  },
-  "cities": "Dover Street Market, New York and Los Angeles · a few independent shops",
-  "region": {
-    "o": [],
-    "s": [125]
-  },
-  "site": {
-    "domain": "www.comme-des-garcons.com/junyawatanabeman.html",
-    "platform": "custom",
-    "feed": "none_found",
-    "feed_count": 0,
-    "status": "brand_site_no_shop",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "unclear",
-    "origin": "licensed",
-    "marks": [
-      "No own store exists, so nothing can be credited to an own site. On the channel where the goods actually sell - the Dover Street Market E-Shop - the Junya Watanabe assortment does name technology, all of it LICENSED and all of it arriving through collaborations: DryVent(TM) (The North Face's propriet"
-    ],
-    "source": "census",
-    "checked": "2026-09-12"
-  },
-  "price_read": {
-    "date": "2026-09-23",
-    "status": "no_store",
-    "note": "NC - no online store to read, per the brief (September pass finding). The store's absence was not re-verified in this pass. Map held current_prices [[310, 422], [394, 740], [937, 1134], [1030, 1273], "
-  },
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=235040",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "craft_evidence": {
-    "owned": "unclear",
-    "owned_d": "Junya Watanabe is a line of Comme des Garçons Co., Ltd. (site_domain is the CDG site's Junya Watanabe MAN page). Same as CDG: brand-owned company recruitment page describes an in-house Tokyo production department (pattern makers, sample and production sewing technicians, production managers who manage factories) but names no owned factory. Not established which Junya pieces are made in-house.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "every product",
-    "countries": "Japan 5/5 - sample of 5 Junya Watanabe women's coats/jackets on the Dover Street Market London e-shop (group-owned retailer, not the brand's own site; products.json body text). No men's (Junya Watanabe MAN) PDPs read. Share is of a small, women's-only, outerwear-only sample.",
-    "heritage": "NC",
-    "repair": "no",
-    "process": "no",
-    "urls": [
-      "https://www.comme-des-garcons.com/recruitment/2.html",
-      "https://shop.doverstreetmarket.com/products.json?limit=250"
-    ],
-    "conf": "low",
-    "read": "2026-10-03"
+ "name": "Junya Watanabe",
+ "band": "trueLux",
+ "seat": 162,
+ "dagger": 1,
+ "focus": {
+  "tech": 2,
+  "comfort": 1,
+  "craft": 2,
+  "style": 5
+ },
+ "fabric": {
+  "denim": 4,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 2,
+  "wool": 2,
+  "synth": 2
+ },
+ "dials": {
+  "dur": 2,
+  "forg": 3,
+  "fuss": -2,
+  "shoes": 3,
+  "status": 3,
+  "street": 3,
+  "avant": 5,
+  "weird": 4,
+  "whitet": 2,
+  "logo": 1,
+  "western": 2,
+  "rock": 2,
+  "workwear": 3,
+  "outdoor": 3,
+  "surf": 1
+ },
+ "why": "Reworked workwear and denim — patchwork, hybrid pieces, collaborations with Levi's, Carhartt and The North Face — from a Comme des Garçons designer.",
+ "origin": "Junya Watanabe has had his own line within Comme des Garçons since 1992.",
+ "say": "JOON-ya wah-tah-NAH-beh",
+ "chan": [
+  "D",
+  "X"
+ ],
+ "conf": "M",
+ "forgc": [
+  4,
+  2,
+  1
+ ],
+ "onething": {
+  "p": "Patchwork Levi's rework",
+  "u": "https://www.ssense.com/en-us/men/designers/junya-watanabe",
+  "n": "SSENSE designer page; via Mr Porter"
+ },
+ "prices": [
+  [
+   310,
+   422
+  ],
+  [
+   394,
+   740
+  ],
+  [
+   937,
+   1134
+  ],
+  [
+   1030,
+   1273
+  ],
+  [
+   713,
+   937
+  ],
+  "?",
+  "?",
+  "?"
+ ],
+ "notes": {
+  "denim": "patchwork denim and sanctioned Levi's rebuilds — the collaboration as art form",
+  "style": "the remix as a design philosophy — familiar icons made strange",
+  "street": "grail-tier for the menswear-obsessed",
+  "avant": "the remix as formal invention — familiar icons made strange",
+  "weird": "Spliced garments and seams that should not close. The weirdness is engineering — a technical problem set and then solved in public.",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 1; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "Junya Watanabe is made under Comme des Garçons Co., Ltd., whose recruitment page shows an in-house Tokyo pattern and sewing department but names no owned factory. The five Junya pieces read on the group-owned Dover Street Market shop are all 'Made in Japan' with no maker or mill named. Evidence is thin; current 3 kept. [ruled by Sebastian 4 Oct 2026]"
+ },
+ "doors": {
+  "c": "full",
+  "n": 0,
+  "cities": [],
+  "basis": "master 2026-08-29, pre-recapture"
+ },
+ "cities": "Dover Street Market, New York and Los Angeles · a few independent shops",
+ "region": {
+  "o": [],
+  "s": [
+   125
+  ]
+ },
+ "site": {
+  "domain": "www.comme-des-garcons.com/junyawatanabeman.html",
+  "platform": "custom",
+  "feed": "none_found",
+  "feed_count": 0,
+  "status": "brand_site_no_shop",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "unclear",
+  "origin": "licensed",
+  "marks": [
+   "No own store exists, so nothing can be credited to an own site. On the channel where the goods actually sell - the Dover Street Market E-Shop - the Junya Watanabe assortment does name technology, all of it LICENSED and all of it arriving through collaborations: DryVent(TM) (The North Face's propriet"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "price_read": {
+  "date": "2026-09-23",
+  "status": "no_store",
+  "note": "NC - no online store to read, per the brief (September pass finding). The store's absence was not re-verified in this pass. Map held current_prices [[310, 422], [394, 740], [937, 1134], [1030, 1273], "
+ },
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=235040",
+   "m": "brand filter",
+   "n": ""
   }
+ },
+ "craft_evidence": {
+  "owned": "unclear",
+  "owned_d": "Junya Watanabe is a line of Comme des Garçons Co., Ltd. (site_domain is the CDG site's Junya Watanabe MAN page). Same as CDG: brand-owned company recruitment page describes an in-house Tokyo production department (pattern makers, sample and production sewing technicians, production managers who manage factories) but names no owned factory. Not established which Junya pieces are made in-house.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "every product",
+  "countries": "Japan 5/5 - sample of 5 Junya Watanabe women's coats/jackets on the Dover Street Market London e-shop (group-owned retailer, not the brand's own site; products.json body text). No men's (Junya Watanabe MAN) PDPs read. Share is of a small, women's-only, outerwear-only sample.",
+  "heritage": "NC",
+  "repair": "no",
+  "process": "no",
+  "urls": [
+   "https://www.comme-des-garcons.com/recruitment/2.html",
+   "https://shop.doverstreetmarket.com/products.json?limit=250"
+  ],
+  "conf": "low",
+  "read": "2026-10-03"
+ }
 }

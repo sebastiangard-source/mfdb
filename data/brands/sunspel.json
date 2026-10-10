@@ -1,218 +1,298 @@
 {
-  "name": "Sunspel",
-  "band": "accessible",
-  "seat": 101,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 4,
-    "craft": 4,
-    "style": 3
+ "name": "Sunspel",
+ "band": "accessible",
+ "seat": 101,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 4,
+  "craft": 4,
+  "style": 3
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 2,
+  "linen": 2,
+  "cotton": 5,
+  "wool": 2,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 3,
+  "fuss": -2,
+  "golffice": -1,
+  "status": 2,
+  "ivy": 2,
+  "boat": 2,
+  "racquet": 4,
+  "briish": 5,
+  "whitet": 5,
+  "logo": 2,
+  "western": 1,
+  "rock": 1,
+  "workwear": 2,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Fine-cotton tees, underwear and knitwear, including the Riviera mesh polo, made in England.",
+ "origin": "Founded in Nottingham in 1860 by Thomas Hill.",
+ "chan": [
+  "O",
+  "D",
+  "I"
+ ],
+ "conf": "L",
+ "forgc": [
+  4,
+  3,
+  1
+ ],
+ "shop": "https://us.sunspel.com/search?q=",
+ "onething": {
+  "p": "Riviera polo",
+  "u": "https://us.sunspel.com/search?q=Riviera%20polo%20men",
+  "n": "works"
+ },
+ "prices": [
+  [
+   98,
+   395
+  ],
+  [
+   125,
+   595
+  ],
+  [
+   185,
+   375
+  ],
+  [
+   270,
+   280
+  ],
+  [
+   355,
+   445
+  ],
+  [
+   275,
+   1295
+  ],
+  [
+   415,
+   1595
+  ],
+  [
+   300,
+   365
+  ]
+ ],
+ "notes": {
+  "cotton": "Supima traceable to a single California farm, knitted into the 1950s Riviera mesh",
+  "racquet": "The Riviera mesh and a long British club lineage rather than any tennis program. It reads courtside through association and cloth, not through kit.",
+  "whitet": "The Riviera and the classic tee are the house; loopback and long-staple cotton since 1860.",
+  "reach": "[authored findability score was 2; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "briish": "Made in Long Eaton since 1860; the Riviera polo and the English tee are the brand.",
+  "craft": "Sunspel genuinely owns and documents its Long Eaton factory (since 1937), and the Classic T-shirt PDP says it is made there. But its own Factories page lists Long Eaton as making T-shirts only, with every other category made by partner factories, and 7 of 8 sampled PDPs say Made in Portugal. Owned making of a core category, not the whole range: a 4 on the rubric."
+ },
+ "doors": {
+  "c": "full",
+  "n": 5,
+  "cities": [
+   [
+    "Larkspur",
+    "CA",
+    1
+   ],
+   [
+    "Los Angeles",
+    "CA",
+    1
+   ],
+   [
+    "Montecito",
+    "CA",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    2
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 0,
+  "con": 0
+ },
+ "cities": "5 stores — New York, Larkspur, Los Angeles, Montecito · department stores and independent menswear shops, and its own site",
+ "region": {
+  "o": [
+   3260,
+   3261
+  ],
+  "s": [
+   68,
+   150
+  ]
+ },
+ "addmen": true,
+ "site": {
+  "domain": "sunspel.com",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 1015,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "both",
+  "marks": [
+   "HOUSE: Q82",
+   "Riviera. LICENSED: Supima",
+   "TENCEL(tm)",
+   "SEAQUAL(R)",
+   "Ventile(R)",
+   "Loro Piana. APPELLATION: Sea Island Cotton",
+   "Sea Island Cashmere"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 224,
+  "w": 224,
+  "n": 95,
+  "s": 3,
+  "c": 2,
+  "x": 16,
+  "xh": 5,
+  "sp": "one",
+  "sc": [
+   "Swimwear"
+  ],
+  "nc": [
+   "Underwear",
+   "T-shirts",
+   "Knitwear"
+  ],
+  "st": "complete"
+ },
+ "garment_links": {
+  "T-shirt": "https://us.sunspel.com/collections/mens-tshirts",
+  "Polo": "https://us.sunspel.com/collections/mens-polo-shirts",
+  "Dress shirt": "https://us.sunspel.com/collections/mens-formal-shirts",
+  "Dress pants": "https://us.sunspel.com/collections/mens-trousers",
+  "Sweater": "https://us.sunspel.com/collections/mens-knitwear",
+  "Outerwear": "https://us.sunspel.com/collections/mens-outerwear",
+  "Shoes": "https://us.sunspel.com/collections/mens-accessories-shoes"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Men's Classic T-shirt in White",
+   "lu": "https://us.sunspel.com/products/mens-short-sleeve-crew-neck-t-shirt-white",
+   "hp": "Men's Silk Cotton T-shirt (62% silk, 38% organic cotton)",
+   "hu": "https://us.sunspel.com/products/mens-silk-cotton-tshirt-in-navy-mtsh0214-buaa",
+   "b": "pair"
   },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 2,
-    "linen": 2,
-    "cotton": 5,
-    "wool": 2,
-    "synth": 1
+  "Polo": {
+   "lp": "Men's Classic Jersey Polo Shirt",
+   "lu": "https://us.sunspel.com/products/mens-classic-jersey-polo-shirt-in-anthracite-mpol1052-gyfm",
+   "hp": "Men's Silk Linen Honeycomb Polo",
+   "hu": "https://us.sunspel.com/products/mens-silk-linen-honeycomb-polo-in-light-navy-mpol8312-buaf",
+   "b": "pair"
   },
-  "dials": {
-    "dur": 3,
-    "forg": 3,
-    "fuss": -2,
-    "golffice": -1,
-    "status": 2,
-    "ivy": 2,
-    "boat": 2,
-    "racquet": 4,
-    "briish": 5,
-    "whitet": 5,
-    "logo": 2,
-    "western": 1,
-    "rock": 1,
-    "workwear": 2,
-    "outdoor": 1,
-    "surf": 1
+  "Dress shirt": {
+   "lp": "Men's Oxford Shirt",
+   "lu": "https://us.sunspel.com/products/mens-oxford-shirt-in-white-navy-msht2128-stkt",
+   "hp": "Men's Sea Island Cotton Shirt",
+   "hu": "https://us.sunspel.com/products/mens-sea-island-cotton-shirt-in-light-blue-msht2122-bugz",
+   "b": "range"
   },
-  "why": "Fine-cotton tees, underwear and knitwear, including the Riviera mesh polo, made in England.",
-  "origin": "Founded in Nottingham in 1860 by Thomas Hill.",
-  "chan": ["O", "D", "I"],
-  "conf": "L",
-  "forgc": [4, 3, 1],
-  "shop": "https://us.sunspel.com/search?q=",
-  "onething": {
-    "p": "Riviera polo",
-    "u": "https://us.sunspel.com/search?q=Riviera%20polo%20men",
-    "n": "works"
+  "Jeans": {
+   "lp": "Men's Regular Fit Jeans in Rinse Wash Denim",
+   "lu": "https://us.sunspel.com/products/mens-regular-fit-jean-denim-rinse-wash",
+   "hp": "Men's Japanese Denim Jeans in Rinse Wash Denim",
+   "hu": "https://us.sunspel.com/products/mens-japanese-denim-jeans-in-rinse-wash-denim-mjea3907-bupc",
+   "b": "range"
   },
-  "prices": [[98, 395], [125, 595], [185, 375], [270, 280], [355, 445], [275, 1295], [415, 1595], [300, 365]],
-  "notes": {
-    "cotton": "Supima traceable to a single California farm, knitted into the 1950s Riviera mesh",
-    "racquet": "The Riviera mesh and a long British club lineage rather than any tennis program. It reads courtside through association and cloth, not through kit.",
-    "whitet": "The Riviera and the classic tee are the house; loopback and long-staple cotton since 1860.",
-    "reach": "[authored findability score was 2; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "briish": "Made in Long Eaton since 1860; the Riviera polo and the English tee are the brand.",
-    "craft": "Sunspel genuinely owns and documents its Long Eaton factory (since 1937), and the Classic T-shirt PDP says it is made there. But its own Factories page lists Long Eaton as making T-shirts only, with every other category made by partner factories, and 7 of 8 sampled PDPs say Made in Portugal. Owned making of a core category, not the whole range: a 4 on the rubric."
+  "Dress pants": {
+   "lp": "Men's Textured Wool Trouser",
+   "lu": "https://us.sunspel.com/products/mens-textured-wool-trouser-in-navy-mtrs3116-buaa",
+   "hp": "Men's Wool Cashmere Flannel Trouser",
+   "hu": "https://us.sunspel.com/products/mens-wool-cashmere-flannel-trouser-in-navy-mtrs3142-buaa",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 5,
-    "cities": [["Larkspur", "CA", 1], ["Los Angeles", "CA", 1], ["Montecito", "CA", 1], ["New York", "NY", 2]],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Sweater": {
+   "lp": "Men's Extra-Fine Merino Jumper (crew neck)",
+   "lu": "https://us.sunspel.com/products/mens-extra-fine-merino-crew-neck-jumper-in-chestnut-mjum8332-brhn",
+   "hp": "Men's Roxburgh Cashmere Jumper",
+   "hu": "https://us.sunspel.com/products/mens-roxburgh-cashmere-jumper-in-navy-mjum8217-buaa",
+   "b": "pair"
   },
-  "cities": "5 stores — New York, Larkspur, Los Angeles, Montecito · department stores and independent menswear shops, and its own site",
-  "region": {
-    "o": [2628, 2629],
-    "s": [68, 150]
+  "Outerwear": {
+   "lp": "Men's Corduroy Harrington Jacket in Dark Green",
+   "lu": "https://us.sunspel.com/products/mens-corduroy-harrington-jacket-in-dark-green-mjac7195-gnin",
+   "hp": "Men's Suede Harrington Jacket",
+   "hu": "https://us.sunspel.com/products/mens-suede-harrington-jacket-in-black-mjac7196-bkaa",
+   "b": "pair"
   },
-  "addmen": true,
-  "site": {
-    "domain": "sunspel.com",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 1015,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "both",
-    "marks": [
-      "HOUSE: Q82",
-      "Riviera. LICENSED: Supima",
-      "TENCEL(tm)",
-      "SEAQUAL(R)",
-      "Ventile(R)",
-      "Loro Piana. APPELLATION: Sea Island Cotton",
-      "Sea Island Cashmere"
-    ],
-    "source": "census",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 224,
-    "w": 224,
-    "n": 95,
-    "s": 3,
-    "c": 2,
-    "x": 16,
-    "xh": 5,
-    "sp": "one",
-    "sc": ["Swimwear"],
-    "nc": ["Underwear", "T-shirts", "Knitwear"],
-    "st": "complete"
-  },
-  "garment_links": {
-    "T-shirt": "https://us.sunspel.com/collections/mens-tshirts",
-    "Polo": "https://us.sunspel.com/collections/mens-polo-shirts",
-    "Dress shirt": "https://us.sunspel.com/collections/mens-formal-shirts",
-    "Dress pants": "https://us.sunspel.com/collections/mens-trousers",
-    "Sweater": "https://us.sunspel.com/collections/mens-knitwear",
-    "Outerwear": "https://us.sunspel.com/collections/mens-outerwear",
-    "Shoes": "https://us.sunspel.com/collections/mens-accessories-shoes"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Men's Classic T-shirt in White",
-      "lu": "https://us.sunspel.com/products/mens-short-sleeve-crew-neck-t-shirt-white",
-      "hp": "Men's Silk Cotton T-shirt (62% silk, 38% organic cotton)",
-      "hu": "https://us.sunspel.com/products/mens-silk-cotton-tshirt-in-navy-mtsh0214-buaa",
-      "b": "pair"
-    },
-    "Polo": {
-      "lp": "Men's Classic Jersey Polo Shirt",
-      "lu": "https://us.sunspel.com/products/mens-classic-jersey-polo-shirt-in-anthracite-mpol1052-gyfm",
-      "hp": "Men's Silk Linen Honeycomb Polo",
-      "hu": "https://us.sunspel.com/products/mens-silk-linen-honeycomb-polo-in-light-navy-mpol8312-buaf",
-      "b": "pair"
-    },
-    "Dress shirt": {
-      "lp": "Men's Oxford Shirt",
-      "lu": "https://us.sunspel.com/products/mens-oxford-shirt-in-white-navy-msht2128-stkt",
-      "hp": "Men's Sea Island Cotton Shirt",
-      "hu": "https://us.sunspel.com/products/mens-sea-island-cotton-shirt-in-light-blue-msht2122-bugz",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Men's Regular Fit Jeans in Rinse Wash Denim",
-      "lu": "https://us.sunspel.com/products/mens-regular-fit-jean-denim-rinse-wash",
-      "hp": "Men's Japanese Denim Jeans in Rinse Wash Denim",
-      "hu": "https://us.sunspel.com/products/mens-japanese-denim-jeans-in-rinse-wash-denim-mjea3907-bupc",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Men's Textured Wool Trouser",
-      "lu": "https://us.sunspel.com/products/mens-textured-wool-trouser-in-navy-mtrs3116-buaa",
-      "hp": "Men's Wool Cashmere Flannel Trouser",
-      "hu": "https://us.sunspel.com/products/mens-wool-cashmere-flannel-trouser-in-navy-mtrs3142-buaa",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Men's Extra-Fine Merino Jumper (crew neck)",
-      "lu": "https://us.sunspel.com/products/mens-extra-fine-merino-crew-neck-jumper-in-chestnut-mjum8332-brhn",
-      "hp": "Men's Roxburgh Cashmere Jumper",
-      "hu": "https://us.sunspel.com/products/mens-roxburgh-cashmere-jumper-in-navy-mjum8217-buaa",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "Men's Corduroy Harrington Jacket in Dark Green",
-      "lu": "https://us.sunspel.com/products/mens-corduroy-harrington-jacket-in-dark-green-mjac7195-gnin",
-      "hp": "Men's Suede Harrington Jacket",
-      "hu": "https://us.sunspel.com/products/mens-suede-harrington-jacket-in-black-mjac7196-bkaa",
-      "b": "pair"
-    },
-    "Shoes": {
-      "lp": "Men's Sunspel Suede Loafer",
-      "lu": "https://us.sunspel.com/products/mens-sunspel-suede-loafer-in-navy-mftw9502-buaa",
-      "hp": "Men's Moccasin",
-      "hu": "https://us.sunspel.com/products/mens-moccasin-in-navy-mftw9492-buaa",
-      "b": "pair"
-    }
-  },
-  "price_range_only": ["Dress shirt", "Jeans", "Dress pants"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://us.sunspel.com/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=459780",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "season": {
-    "l": "2026 Autumn Collection",
-    "t": "lookbook",
-    "u": "https://www.sunspel.com/pages/shop-by-look-2026-autumn-collection",
-    "m": "yes"
-  },
-  "craft_evidence": {
-    "owned": "yes",
-    "owned_d": "Own factory at Long Eaton, England, on site since 1937 (a converted lace mill); brand's Factories page lists it as the one Sunspel-owned factory and says it makes luxury T-shirts; journal article describes the 12-step handmaking of the Classic T-shirt there, with photographs. All other categories (polos, sweats, knitwear, shirts, jackets, underwear, shoes) are listed as made by partner factories, mostly in Portugal.",
-    "makers": "some",
-    "mills": "no",
-    "madein": "every product",
-    "countries": "Portugal 7/8, England 1/8 (sample of 8 PDPs on us.sunspel.com: Classic T-shirt, Riviera T-shirt, Riviera polo, merino crew, cashmere polo, loopback sweatshirt, flannel shirt, suede Harrington). Only the Classic T-shirt was England; even the Riviera T-shirt is Portugal. A 'Made in Britain' collection exists (Classic T-shirts, some Scottish knitwear, accessories).",
-    "heritage": "dated and placed",
-    "repair": "no",
-    "process": "yes",
-    "urls": [
-      "https://us.sunspel.com/pages/factories",
-      "https://www.sunspel.com/blogs/the-journal/long-eaton-factory"
-    ],
-    "conf": "high",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Men's Sunspel Suede Loafer",
+   "lu": "https://us.sunspel.com/products/mens-sunspel-suede-loafer-in-navy-mftw9502-buaa",
+   "hp": "Men's Moccasin",
+   "hu": "https://us.sunspel.com/products/mens-moccasin-in-navy-mftw9492-buaa",
+   "b": "pair"
   }
+ },
+ "price_range_only": [
+  "Dress shirt",
+  "Jeans",
+  "Dress pants"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://us.sunspel.com/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=459780",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "season": {
+  "l": "2026 Autumn Collection",
+  "t": "lookbook",
+  "u": "https://www.sunspel.com/pages/shop-by-look-2026-autumn-collection",
+  "m": "yes"
+ },
+ "craft_evidence": {
+  "owned": "yes",
+  "owned_d": "Own factory at Long Eaton, England, on site since 1937 (a converted lace mill); brand's Factories page lists it as the one Sunspel-owned factory and says it makes luxury T-shirts; journal article describes the 12-step handmaking of the Classic T-shirt there, with photographs. All other categories (polos, sweats, knitwear, shirts, jackets, underwear, shoes) are listed as made by partner factories, mostly in Portugal.",
+  "makers": "some",
+  "mills": "no",
+  "madein": "every product",
+  "countries": "Portugal 7/8, England 1/8 (sample of 8 PDPs on us.sunspel.com: Classic T-shirt, Riviera T-shirt, Riviera polo, merino crew, cashmere polo, loopback sweatshirt, flannel shirt, suede Harrington). Only the Classic T-shirt was England; even the Riviera T-shirt is Portugal. A 'Made in Britain' collection exists (Classic T-shirts, some Scottish knitwear, accessories).",
+  "heritage": "dated and placed",
+  "repair": "no",
+  "process": "yes",
+  "urls": [
+   "https://us.sunspel.com/pages/factories",
+   "https://www.sunspel.com/blogs/the-journal/long-eaton-factory"
+  ],
+  "conf": "high",
+  "read": "2026-10-03"
+ }
 }

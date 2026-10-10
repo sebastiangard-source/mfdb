@@ -1,181 +1,236 @@
 {
-  "name": "Y.Chroma",
-  "band": "premium",
-  "seat": 58,
-  "dagger": 1,
-  "focus": {
-    "tech": 2,
-    "comfort": 3,
-    "craft": 2,
-    "style": 3
+ "name": "Y.Chroma",
+ "band": "premium",
+ "seat": 58,
+ "dagger": 1,
+ "focus": {
+  "tech": 2,
+  "comfort": 3,
+  "craft": 2,
+  "style": 3
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 2,
+  "wool": 1,
+  "synth": 2
+ },
+ "dials": {
+  "dur": 2,
+  "forg": 3,
+  "fuss": 0,
+  "bruv": 1,
+  "weird": 3,
+  "whitet": 2,
+  "logo": 1,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Colorful casual clothing and tailoring for men over 45, designed in Lisbon and made in Europe.",
+ "origin": "Founded in Lisbon in 2023 by Max Israel, an American technology founder.",
+ "chan": [
+  "O"
+ ],
+ "conf": "M",
+ "forgc": [
+  4,
+  2,
+  1
+ ],
+ "shop": "https://www.ychroma.com/search?q=",
+ "onething": {
+  "p": "Varial Shirt-Cut Jacket",
+  "u": "https://www.ychroma.com/products/varial-shirt-cut-jacket",
+  "n": "named best-selling in the brand’s own release; \"the replacement for a tired blazer\""
+ },
+ "prices": [
+  [
+   175,
+   199
+  ],
+  [
+   299,
+   325
+  ],
+  [
+   249,
+   425
+  ],
+  [
+   349,
+   349
+  ],
+  [
+   349,
+   399
+  ],
+  [
+   299,
+   499
+  ],
+  [
+   399,
+   1249
+  ],
+  null
+ ],
+ "doors": {
+  "c": "full",
+  "n": 0,
+  "cities": [],
+  "basis": "master 2026-08-29, pre-recapture"
+ },
+ "cities": "Sold direct, through its own site only",
+ "site": {
+  "domain": "ychroma.com",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 45,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "licensed",
+  "marks": [
+   "Thindown"
+  ],
+  "source": "screen_36",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 37,
+  "w": 36,
+  "n": 65,
+  "s": 32,
+  "c": 0,
+  "x": 57,
+  "xh": 32,
+  "sp": "split",
+  "sc": [
+   "Outerwear",
+   "Shorts"
+  ],
+  "nc": [
+   "Shirts",
+   "Pants",
+   "Knitwear"
+  ],
+  "st": "complete"
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Dress pants",
+  "Sweater",
+  "Outerwear"
+ ],
+ "garment_links": {
+  "Polo": "https://www.ychroma.com/collections/polo-shirts",
+  "Dress shirt": "https://www.ychroma.com/collections/shirts",
+  "Jeans": "https://www.ychroma.com/collections/denim-pants",
+  "Dress pants": "https://www.ychroma.com/collections/pants",
+  "Sweater": "https://www.ychroma.com/collections/sweaters",
+  "Outerwear": "https://www.ychroma.com/collections/jackets"
+ },
+ "notes": {
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 1; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "Product text states where things are sewn (Tarnovo, Bulgaria) or 'crafted in Japan and Italy', and a credits page names the seamstresses, but no factory, workshop or mill is named and no ownership claimed. A lifetime repair guarantee is offered. [audit proposed 2 at low confidence; held at 2 pending a second read]"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Buffed Cotton V-Neck",
+   "lu": "https://www.ychroma.com/products/buffed-cotton-v-neck-short-sleeve",
+   "hp": "French Linen Short Sleeve Henley",
+   "hu": "https://www.ychroma.com/products/french-linen-short-sleeve-henley",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 2,
-    "cashmere": 1,
-    "linen": 1,
-    "cotton": 2,
-    "wool": 1,
-    "synth": 2
+  "Polo": {
+   "lp": "Madeira Polo Aeroweave",
+   "lu": "https://www.ychroma.com/products/madeira-polo-aeroweave",
+   "hp": "Madeira French Linen Short Sleeve Polo",
+   "hu": "https://www.ychroma.com/products/madeira-french-linen-short-sleeve-polo",
+   "b": "range"
   },
-  "dials": {
-    "dur": 2,
-    "forg": 3,
-    "fuss": 0,
-    "bruv": 1,
-    "weird": 3,
-    "whitet": 2,
-    "logo": 1,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
+  "Dress shirt": {
+   "lp": "Organic Cotton Work Shirt",
+   "lu": "https://www.ychroma.com/products/basic-workshirt",
+   "hp": "Cognac Pocket Denim Shirt",
+   "hu": "https://www.ychroma.com/products/cognac-pocket-denim-shirt",
+   "b": "range"
   },
-  "why": "Colorful casual clothing and tailoring for men over 45, designed in Lisbon and made in Europe.",
-  "origin": "Founded in Lisbon in 2023 by Max Israel, an American technology founder.",
-  "chan": ["O"],
-  "conf": "M",
-  "forgc": [4, 2, 1],
-  "shop": "https://www.ychroma.com/search?q=",
-  "onething": {
-    "p": "Varial Shirt-Cut Jacket",
-    "u": "https://www.ychroma.com/products/varial-shirt-cut-jacket",
-    "n": "named best-selling in the brand’s own release; \"the replacement for a tired blazer\""
+  "Jeans": {
+   "lp": "Enduro Jean Button Fly",
+   "lu": "https://www.ychroma.com/products/enduro-jean-button-fly",
+   "hp": "Enduro Jean Button Fly",
+   "hu": "https://www.ychroma.com/products/enduro-jean-button-fly",
+   "b": "single"
   },
-  "prices": [[175, 199], [299, 325], [249, 425], [349, 349], [349, 399], [299, 499], [399, 1249], null],
-  "doors": {
-    "c": "full",
-    "n": 0,
-    "cities": [],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Dress pants": {
+   "lp": "Drücken Pant",
+   "lu": "https://www.ychroma.com/products/drucken-pant",
+   "hp": "Skyline Pant",
+   "hu": "https://www.ychroma.com/products/skyline-pant",
+   "b": "range"
   },
-  "cities": "Sold direct, through its own site only",
-  "site": {
-    "domain": "ychroma.com",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 45,
-    "status": "live_store",
-    "checked": "2026-09-13"
+  "Sweater": {
+   "lp": "Dwayne V-Neck Cashmere",
+   "lu": "https://www.ychroma.com/products/dwayne-v-neck-cashmere",
+   "hp": "Power Cable Sweater 2026 Edition",
+   "hu": "https://www.ychroma.com/products/power-cable-sweater-2026-edition",
+   "b": "range"
   },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "licensed",
-    "marks": ["Thindown"],
-    "source": "screen_36",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 37,
-    "w": 36,
-    "n": 65,
-    "s": 32,
-    "c": 0,
-    "x": 57,
-    "xh": 32,
-    "sp": "split",
-    "sc": ["Outerwear", "Shorts"],
-    "nc": ["Shirts", "Pants", "Knitwear"],
-    "st": "complete"
-  },
-  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Dress pants", "Sweater", "Outerwear"],
-  "garment_links": {
-    "Polo": "https://www.ychroma.com/collections/polo-shirts",
-    "Dress shirt": "https://www.ychroma.com/collections/shirts",
-    "Jeans": "https://www.ychroma.com/collections/denim-pants",
-    "Dress pants": "https://www.ychroma.com/collections/pants",
-    "Sweater": "https://www.ychroma.com/collections/sweaters",
-    "Outerwear": "https://www.ychroma.com/collections/jackets"
-  },
-  "notes": {
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 1; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Product text states where things are sewn (Tarnovo, Bulgaria) or 'crafted in Japan and Italy', and a credits page names the seamstresses, but no factory, workshop or mill is named and no ownership claimed. A lifetime repair guarantee is offered. [audit proposed 2 at low confidence; held at 2 pending a second read]"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Buffed Cotton V-Neck",
-      "lu": "https://www.ychroma.com/products/buffed-cotton-v-neck-short-sleeve",
-      "hp": "French Linen Short Sleeve Henley",
-      "hu": "https://www.ychroma.com/products/french-linen-short-sleeve-henley",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Madeira Polo Aeroweave",
-      "lu": "https://www.ychroma.com/products/madeira-polo-aeroweave",
-      "hp": "Madeira French Linen Short Sleeve Polo",
-      "hu": "https://www.ychroma.com/products/madeira-french-linen-short-sleeve-polo",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Organic Cotton Work Shirt",
-      "lu": "https://www.ychroma.com/products/basic-workshirt",
-      "hp": "Cognac Pocket Denim Shirt",
-      "hu": "https://www.ychroma.com/products/cognac-pocket-denim-shirt",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Enduro Jean Button Fly",
-      "lu": "https://www.ychroma.com/products/enduro-jean-button-fly",
-      "hp": "Enduro Jean Button Fly",
-      "hu": "https://www.ychroma.com/products/enduro-jean-button-fly",
-      "b": "single"
-    },
-    "Dress pants": {
-      "lp": "Drücken Pant",
-      "lu": "https://www.ychroma.com/products/drucken-pant",
-      "hp": "Skyline Pant",
-      "hu": "https://www.ychroma.com/products/skyline-pant",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Dwayne V-Neck Cashmere",
-      "lu": "https://www.ychroma.com/products/dwayne-v-neck-cashmere",
-      "hp": "Power Cable Sweater 2026 Edition",
-      "hu": "https://www.ychroma.com/products/power-cable-sweater-2026-edition",
-      "b": "range"
-    },
-    "Outerwear": {
-      "lp": "Drücken Track Jacket",
-      "lu": "https://www.ychroma.com/products/drucken-track-jacket",
-      "hp": "Mazarin Cut-Down Jacket",
-      "hu": "https://www.ychroma.com/products/mazarin-cut-down-jacket",
-      "b": "range"
-    }
-  },
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.ychroma.com/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?search_text=Y.Chroma&catalog[]=5",
-      "m": "text search",
-      "n": "No Vinted brand entry; keyword search in Men"
-    }
-  },
-  "craft_evidence": {
-    "owned": "unclear",
-    "owned_d": "Portuguese entity Y.Chroma Unipessoal Lda in footer; 'Les Mains' page credits a Sourcing & Supply Chain Director and dozens of named seamstresses/technicians, but no workshop, place or ownership stated.",
-    "makers": "some",
-    "mills": "no",
-    "madein": "some",
-    "countries": "Becker Pant: EU, stitched in Tarnovo, Bulgaria; Mazarin Cut Shell: 'joint-crafted in Japan and Italy'; Retinol Pant: none (sample of 3 products; 2 further PDPs failed on budget). About page: 'crafted right here in Europe'.",
-    "heritage": "vague",
-    "repair": "yes",
-    "process": "no",
-    "urls": ["https://www.ychroma.com/pages/les-mains", "https://www.ychroma.com/products/becker-pant"],
-    "conf": "low",
-    "read": "2026-10-03"
+  "Outerwear": {
+   "lp": "Drücken Track Jacket",
+   "lu": "https://www.ychroma.com/products/drucken-track-jacket",
+   "hp": "Mazarin Cut-Down Jacket",
+   "hu": "https://www.ychroma.com/products/mazarin-cut-down-jacket",
+   "b": "range"
   }
+ },
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.ychroma.com/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?search_text=Y.Chroma&catalog[]=5",
+   "m": "text search",
+   "n": "No Vinted brand entry; keyword search in Men"
+  }
+ },
+ "craft_evidence": {
+  "owned": "unclear",
+  "owned_d": "Portuguese entity Y.Chroma Unipessoal Lda in footer; 'Les Mains' page credits a Sourcing & Supply Chain Director and dozens of named seamstresses/technicians, but no workshop, place or ownership stated.",
+  "makers": "some",
+  "mills": "no",
+  "madein": "some",
+  "countries": "Becker Pant: EU, stitched in Tarnovo, Bulgaria; Mazarin Cut Shell: 'joint-crafted in Japan and Italy'; Retinol Pant: none (sample of 3 products; 2 further PDPs failed on budget). About page: 'crafted right here in Europe'.",
+  "heritage": "vague",
+  "repair": "yes",
+  "process": "no",
+  "urls": [
+   "https://www.ychroma.com/pages/les-mains",
+   "https://www.ychroma.com/products/becker-pant"
+  ],
+  "conf": "low",
+  "read": "2026-10-03"
+ }
 }

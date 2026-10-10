@@ -1,191 +1,249 @@
 {
-  "name": "Aspesi",
-  "band": "trueLux",
-  "seat": 140,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 3,
-    "craft": 3,
-    "style": 3
+ "name": "Aspesi",
+ "band": "trueLux",
+ "seat": 140,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 3,
+  "craft": 3,
+  "style": 3
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 2,
+  "cotton": 3,
+  "wool": 2,
+  "synth": 3
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 3,
+  "fuss": 0,
+  "ital": 4,
+  "boat": 3,
+  "whitet": 2,
+  "logo": 1,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 3,
+  "surf": 1
+ },
+ "why": "Nylon field jackets and garment-dyed cotton clothing with no logos, from Milan.",
+ "origin": "Founded in Milan in 1969 by Alberto Aspesi as a shirtmaker.",
+ "say": "ah-SPEH-zee",
+ "chan": [
+  "D",
+  "I"
+ ],
+ "conf": "M",
+ "forgc": [
+  4,
+  2,
+  1
+ ],
+ "shop": "https://aspesi.com/en-us/search?q=",
+ "onething": {
+  "p": "Minifield jacket",
+  "u": "https://www.aspesi.com/search?q=minifield",
+  "n": "best-guess link — verify"
+ },
+ "prices": [
+  [
+   140,
+   300
+  ],
+  [
+   215,
+   300
+  ],
+  [
+   240,
+   390
+  ],
+  [
+   440,
+   525
+  ],
+  [
+   450,
+   540
+  ],
+  [
+   265,
+   775
+  ],
+  [
+   475,
+   1365
+  ],
+  null
+ ],
+ "notes": {
+  "synth": "the nylon field jackets — technical cloth in civilian silhouettes",
+  "ital": "the Milanese bourgeois uniform, unbranded",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 2; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "Aspesi's history page says it was founded in 1969 by Alberto Aspesi as a shirt producer, but the site names no factory, workshop or mill, and the two product pages read state no country of make. Nothing seen supports a 3; the current score is kept only because the sample was too small to overturn it. [audit proposed 3 at low confidence; held at 3 pending a second read]"
+ },
+ "doors": {
+  "c": "full",
+  "n": 0,
+  "cities": [],
+  "basis": "master 2026-08-29, pre-recapture"
+ },
+ "cities": "No store of its own in the US · department stores and independent menswear shops, and its own site",
+ "site": {
+  "domain": "aspesi.com",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 975,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "licensed",
+  "marks": [
+   "Thermore"
+  ],
+  "source": "screen_36",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 218,
+  "w": 215,
+  "n": 75,
+  "s": 23,
+  "c": 1,
+  "x": 12,
+  "xh": 4,
+  "sp": "one",
+  "sc": [
+   "giubbotti",
+   "impermeabili",
+   "gilet",
+   "costumi da bagno"
+  ],
+  "nc": [
+   "camicie",
+   "pantaloni",
+   "maglie"
+  ],
+  "st": "complete"
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants",
+  "Outerwear"
+ ],
+ "garment_links": {
+  "T-shirt": "https://aspesi.com/en-us/collections/new-mens-polo-shirts-and-t-shirts-collection",
+  "Polo": "https://aspesi.com/en-us/collections/new-mens-polo-shirts-and-t-shirts-collection",
+  "Dress shirt": "https://aspesi.com/en-us/collections/new-mens-shirt-collection",
+  "Jeans": "https://aspesi.com/en-us/collections/mens-denim",
+  "Dress pants": "https://aspesi.com/en-us/collections/new-mens-trousers-collection",
+  "Sweater": "https://aspesi.com/en-us/collections/new-mens-knitwear-collection",
+  "Outerwear": "https://aspesi.com/en-us/collections/new-mens-outerwear-collection"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Cotton Jersey T-Shirt (Black)",
+   "lu": "https://aspesi.com/en-us/products/cotton-jersey-t-shirt-cn-a-3107-a335-01241-en",
+   "hp": "Terry Cloth Effect Jersey T-Shirt with Breast Pocket (White)",
+   "hu": "https://aspesi.com/en-us/products/terry-cloth-effect-jersey-t-shirt-with-breast-pocket-s6-a-ay70-p057-85072-en",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 1,
-    "linen": 2,
-    "cotton": 3,
-    "wool": 2,
-    "synth": 3
+  "Polo": {
+   "lp": "Cotton Jersey Polo Shirt (Black, SS26)",
+   "lu": "https://aspesi.com/en-us/products/cotton-jersey-polo-shirt-s6-a-ay78-a335-01241-en",
+   "hp": "Knitted Polo Shirt in Cotton, Silk and Linen (Navy)",
+   "hu": "https://aspesi.com/en-us/products/knitted-polo-shirt-in-cotton-silk-and-linen-s6-q-m812-m127-01098-en",
+   "b": "range"
   },
-  "dials": {
-    "dur": 3,
-    "forg": 3,
-    "fuss": 0,
-    "ital": 4,
-    "boat": 3,
-    "whitet": 2,
-    "logo": 1,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 3,
-    "surf": 1
+  "Dress shirt": {
+   "lp": "Striped Shirt with French Collar (Light Blue Stripe)",
+   "lu": "https://aspesi.com/en-us/products/striped-shirt-with-french-collar-s6-a-ce33-d100-20070-en",
+   "hp": "Garment-Dyed Cotton Poplin Shirt (White)",
+   "hu": "https://aspesi.com/en-us/products/garment-dyed-cotton-poplin-shirt-s6-a-ce26-e030-sd-85072-en",
+   "b": "range"
   },
-  "why": "Nylon field jackets and garment-dyed cotton clothing with no logos, from Milan.",
-  "origin": "Founded in Milan in 1969 by Alberto Aspesi as a shirtmaker.",
-  "say": "ah-SPEH-zee",
-  "chan": ["D", "I"],
-  "conf": "M",
-  "forgc": [4, 2, 1],
-  "shop": "https://aspesi.com/en-us/search?q=",
-  "onething": {
-    "p": "Minifield jacket",
-    "u": "https://www.aspesi.com/search?q=minifield",
-    "n": "best-guess link — verify"
+  "Jeans": {
+   "lp": "Denim Trousers (five-pocket, Stone)",
+   "lu": "https://aspesi.com/en-us/products/denim-trousers-s6-a-cp23-d043-85134-en",
+   "hp": "Cotton Denim Jeans (15.5 oz selvedge)",
+   "hu": "https://aspesi.com/en-us/products/cotton-denim-jeans-w6-a-cp92-e845-c3-10998-en",
+   "b": "range"
   },
-  "prices": [[140, 300], [215, 300], [240, 390], [440, 525], [450, 540], [265, 775], [475, 1365], null],
-  "notes": {
-    "synth": "the nylon field jackets — technical cloth in civilian silhouettes",
-    "ital": "the Milanese bourgeois uniform, unbranded",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 2; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Aspesi's history page says it was founded in 1969 by Alberto Aspesi as a shirt producer, but the site names no factory, workshop or mill, and the two product pages read state no country of make. Nothing seen supports a 3; the current score is kept only because the sample was too small to overturn it. [audit proposed 3 at low confidence; held at 3 pending a second read]"
+  "Dress pants": {
+   "lp": "Double Pleated Trousers in Micro Cotton Twill (Light Blue)",
+   "lu": "https://aspesi.com/en-us/products/double-pleated-trousers-in-micro-cotton-twill-s6-a-cp28-d063-85096-en",
+   "hp": "Slim Banana Trousers in Cotton Gabardine (Navy)",
+   "hu": "https://aspesi.com/en-us/products/slim-banana-trousers-in-cotton-gabardine-cn-a-cp63-d569-10098-en",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 0,
-    "cities": [],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Sweater": {
+   "lp": "Cotton Crewneck Sweater (Navy)",
+   "lu": "https://aspesi.com/en-us/products/cotton-crewneck-sweater-s6-q-m829-3371-01098-en",
+   "hp": "Cashmere Crew-Neck Jumper (Charcoal)",
+   "hu": "https://aspesi.com/en-us/products/cashmere-crew-neck-jumper-w6-q-m100-4567-01200-en",
+   "b": "pair"
   },
-  "cities": "No store of its own in the US · department stores and independent menswear shops, and its own site",
-  "site": {
-    "domain": "aspesi.com",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 975,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "licensed",
-    "marks": ["Thermore"],
-    "source": "screen_36",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 218,
-    "w": 215,
-    "n": 75,
-    "s": 23,
-    "c": 1,
-    "x": 12,
-    "xh": 4,
-    "sp": "one",
-    "sc": ["giubbotti", "impermeabili", "gilet", "costumi da bagno"],
-    "nc": ["camicie", "pantaloni", "maglie"],
-    "st": "complete"
-  },
-  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants", "Outerwear"],
-  "garment_links": {
-    "T-shirt": "https://aspesi.com/en-us/collections/new-mens-polo-shirts-and-t-shirts-collection",
-    "Polo": "https://aspesi.com/en-us/collections/new-mens-polo-shirts-and-t-shirts-collection",
-    "Dress shirt": "https://aspesi.com/en-us/collections/new-mens-shirt-collection",
-    "Jeans": "https://aspesi.com/en-us/collections/mens-denim",
-    "Dress pants": "https://aspesi.com/en-us/collections/new-mens-trousers-collection",
-    "Sweater": "https://aspesi.com/en-us/collections/new-mens-knitwear-collection",
-    "Outerwear": "https://aspesi.com/en-us/collections/new-mens-outerwear-collection"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Cotton Jersey T-Shirt (Black)",
-      "lu": "https://aspesi.com/en-us/products/cotton-jersey-t-shirt-cn-a-3107-a335-01241-en",
-      "hp": "Terry Cloth Effect Jersey T-Shirt with Breast Pocket (White)",
-      "hu": "https://aspesi.com/en-us/products/terry-cloth-effect-jersey-t-shirt-with-breast-pocket-s6-a-ay70-p057-85072-en",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Cotton Jersey Polo Shirt (Black, SS26)",
-      "lu": "https://aspesi.com/en-us/products/cotton-jersey-polo-shirt-s6-a-ay78-a335-01241-en",
-      "hp": "Knitted Polo Shirt in Cotton, Silk and Linen (Navy)",
-      "hu": "https://aspesi.com/en-us/products/knitted-polo-shirt-in-cotton-silk-and-linen-s6-q-m812-m127-01098-en",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Striped Shirt with French Collar (Light Blue Stripe)",
-      "lu": "https://aspesi.com/en-us/products/striped-shirt-with-french-collar-s6-a-ce33-d100-20070-en",
-      "hp": "Garment-Dyed Cotton Poplin Shirt (White)",
-      "hu": "https://aspesi.com/en-us/products/garment-dyed-cotton-poplin-shirt-s6-a-ce26-e030-sd-85072-en",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Denim Trousers (five-pocket, Stone)",
-      "lu": "https://aspesi.com/en-us/products/denim-trousers-s6-a-cp23-d043-85134-en",
-      "hp": "Cotton Denim Jeans (15.5 oz selvedge)",
-      "hu": "https://aspesi.com/en-us/products/cotton-denim-jeans-w6-a-cp92-e845-c3-10998-en",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Double Pleated Trousers in Micro Cotton Twill (Light Blue)",
-      "lu": "https://aspesi.com/en-us/products/double-pleated-trousers-in-micro-cotton-twill-s6-a-cp28-d063-85096-en",
-      "hp": "Slim Banana Trousers in Cotton Gabardine (Navy)",
-      "hu": "https://aspesi.com/en-us/products/slim-banana-trousers-in-cotton-gabardine-cn-a-cp63-d569-10098-en",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Cotton Crewneck Sweater (Navy)",
-      "lu": "https://aspesi.com/en-us/products/cotton-crewneck-sweater-s6-q-m829-3371-01098-en",
-      "hp": "Cashmere Crew-Neck Jumper (Charcoal)",
-      "hu": "https://aspesi.com/en-us/products/cashmere-crew-neck-jumper-w6-q-m100-4567-01200-en",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "Piece-Dyed Canvas Jacket (Ink)",
-      "lu": "https://aspesi.com/en-us/products/piece-dyed-canvas-jacket-s6-a-cg59-d048-10096-en",
-      "hp": "Vodka II Raincoat in Nylon Blend with Thermore Wadding (Beige)",
-      "hu": "https://aspesi.com/en-us/products/vodka-ii-raincoat-in-nylon-blend-with-thermore-wadding-w6-i-2i31-1024-lr-85119-en",
-      "b": "range"
-    }
-  },
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://aspesi.com/en-us",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=188208&brand_ids[]=367271",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "season": {
-    "l": "Fall/Winter 2026 (FW26; 'Fall/Winter 2026/2027 Collection')",
-    "t": "lookbook",
-    "u": "https://aspesi.com/en-us/pages/fall-winter-2026",
-    "m": "yes"
-  },
-  "craft_evidence": {
-    "owned": "unclear",
-    "owned_d": "Site names a registered office (Via Solferino 56, Milan) and an 'operative headquarters' at Via Salvatore Quasimodo 55, Legnano (/pages/headquarters), with no mention of production, factory or workshop there. No owned making claimed.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "none",
-    "countries": "Not stated on 2/2 PDPs read (pant-selvedge-denim, camicia-ut-shirt-denim). Small sample; origin may sit in a tab the fetcher cannot see — low confidence.",
-    "heritage": "dated and placed",
-    "repair": "NC",
-    "process": "no",
-    "urls": ["https://aspesi.com/pages/storia", "https://aspesi.com/products/pant-selvedge-denim"],
-    "conf": "low",
-    "read": "2026-10-03"
+  "Outerwear": {
+   "lp": "Piece-Dyed Canvas Jacket (Ink)",
+   "lu": "https://aspesi.com/en-us/products/piece-dyed-canvas-jacket-s6-a-cg59-d048-10096-en",
+   "hp": "Vodka II Raincoat in Nylon Blend with Thermore Wadding (Beige)",
+   "hu": "https://aspesi.com/en-us/products/vodka-ii-raincoat-in-nylon-blend-with-thermore-wadding-w6-i-2i31-1024-lr-85119-en",
+   "b": "range"
   }
+ },
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://aspesi.com/en-us",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=188208&brand_ids[]=367271",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "season": {
+  "l": "Fall/Winter 2026 (FW26; 'Fall/Winter 2026/2027 Collection')",
+  "t": "lookbook",
+  "u": "https://aspesi.com/en-us/pages/fall-winter-2026",
+  "m": "yes"
+ },
+ "craft_evidence": {
+  "owned": "unclear",
+  "owned_d": "Site names a registered office (Via Solferino 56, Milan) and an 'operative headquarters' at Via Salvatore Quasimodo 55, Legnano (/pages/headquarters), with no mention of production, factory or workshop there. No owned making claimed.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "none",
+  "countries": "Not stated on 2/2 PDPs read (pant-selvedge-denim, camicia-ut-shirt-denim). Small sample; origin may sit in a tab the fetcher cannot see — low confidence.",
+  "heritage": "dated and placed",
+  "repair": "NC",
+  "process": "no",
+  "urls": [
+   "https://aspesi.com/pages/storia",
+   "https://aspesi.com/products/pant-selvedge-denim"
+  ],
+  "conf": "low",
+  "read": "2026-10-03"
+ }
 }

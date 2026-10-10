@@ -1,272 +1,506 @@
 {
-  "name": "Polo Ralph Lauren",
-  "band": "accessible",
-  "seat": 64,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 3,
-    "craft": 2,
-    "style": 4
+ "name": "Polo Ralph Lauren",
+ "band": "accessible",
+ "seat": 64,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 3,
+  "craft": 2,
+  "style": 4
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 2,
+  "linen": 2,
+  "cotton": 3,
+  "wool": 2,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 4,
+  "fuss": -1,
+  "golffice": 0,
+  "bruv": 2,
+  "golf": 2,
+  "status": 3,
+  "finbro": 3,
+  "ivy": 5,
+  "murica": 5,
+  "street": 3,
+  "prep": 5,
+  "boat": 3,
+  "racquet": 4,
+  "ski": 1,
+  "whitet": 2,
+  "logo": 4,
+  "western": 3,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 2
+ },
+ "why": "Ralph Lauren's main line — the polo shirt, oxford shirts, chinos, knitwear and tailoring — sold everywhere from outlets to flagship stores.",
+ "origin": "Ralph Lauren began selling ties in New York in 1967; the Polo label launched in 1968.",
+ "opview": "“I don't design clothes, I design dreams.”",
+ "chan": [
+  "O",
+  "D",
+  "W",
+  "X"
+ ],
+ "conf": "H",
+ "forgc": [
+  4,
+  5,
+  2
+ ],
+ "shop": "https://www.ralphlauren.com/search?q=",
+ "onething": {
+  "p": "The Polo shirt",
+  "u": "https://www.ralphlauren.com/search?q=polo%20shirt%20men",
+  "n": "best-guess link — verify"
+ },
+ "prices": [
+  [
+   55,
+   110
+  ],
+  [
+   118,
+   198
+  ],
+  [
+   125,
+   198
+  ],
+  [
+   125,
+   398
+  ],
+  [
+   175,
+   1098
+  ],
+  [
+   130,
+   498
+  ],
+  [
+   185,
+   798
+  ],
+  [
+   298,
+   548
+  ]
+ ],
+ "notes": {
+  "murica": "knitted the actual flag into a sweater and made it luxury",
+  "ivy": "the Bronx kid who bought the dream whole and sold it back to the colleges",
+  "street": "the Lo-Head phenomenon — Polo collected like grails since the '80s",
+  "prep": "sold the entire lifestyle as a dream anyone could buy",
+  "racquet": "An actual Wimbledon outfitting program, so the whites are a real garment rather than a reference. The house has been dressing the sport for long enough that the association runs both ways.",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 5; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "The Polo Ralph Lauren PDPs whose details could be read say only 'Imported' with fiber and care, naming no country, maker or mill. Only the separate Purple Label line states 'Made in Italy', which does not belong to Polo. [audit proposed 1 at low confidence; held at 2 pending a second read]"
+ },
+ "doors": {
+  "c": "full",
+  "n": 47,
+  "cities": [
+   [
+    "Aspen",
+    "CO",
+    1
+   ],
+   [
+    "Atlanta",
+    "GA",
+    1
+   ],
+   [
+    "Austin",
+    "TX",
+    1
+   ],
+   [
+    "Aventura",
+    "FL",
+    1
+   ],
+   [
+    "Bal Harbour",
+    "FL",
+    1
+   ],
+   [
+    "Beverly Hills",
+    "CA",
+    1
+   ],
+   [
+    "Boston",
+    "MA",
+    3
+   ],
+   [
+    "Charlotte",
+    "NC",
+    1
+   ],
+   [
+    "Chicago",
+    "IL",
+    1
+   ],
+   [
+    "Costa Mesa",
+    "CA",
+    1
+   ],
+   [
+    "Dallas",
+    "TX",
+    1
+   ],
+   [
+    "East Hampton",
+    "NY",
+    1
+   ],
+   [
+    "Edina",
+    "MN",
+    1
+   ],
+   [
+    "Houston",
+    "TX",
+    1
+   ],
+   [
+    "King of Prussia",
+    "PA",
+    1
+   ],
+   [
+    "La Jolla",
+    "CA",
+    1
+   ],
+   [
+    "Las Vegas",
+    "NV",
+    1
+   ],
+   [
+    "Los Angeles",
+    "CA",
+    3
+   ],
+   [
+    "Manhasset",
+    "NY",
+    1
+   ],
+   [
+    "McLean",
+    "VA",
+    1
+   ],
+   [
+    "Nantucket",
+    "MA",
+    1
+   ],
+   [
+    "Naples",
+    "FL",
+    1
+   ],
+   [
+    "New Canaan",
+    "CT",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    5
+   ],
+   [
+    "Newport Beach",
+    "CA",
+    1
+   ],
+   [
+    "Oak Brook",
+    "IL",
+    1
+   ],
+   [
+    "Palm Beach",
+    "FL",
+    1
+   ],
+   [
+    "Palm Desert",
+    "CA",
+    1
+   ],
+   [
+    "Palo Alto",
+    "CA",
+    1
+   ],
+   [
+    "Phoenix",
+    "AZ",
+    1
+   ],
+   [
+    "Plano",
+    "TX",
+    1
+   ],
+   [
+    "Princeton",
+    "NJ",
+    1
+   ],
+   [
+    "San Francisco",
+    "CA",
+    1
+   ],
+   [
+    "Santa Clara",
+    "CA",
+    1
+   ],
+   [
+    "Short Hills",
+    "NJ",
+    1
+   ],
+   [
+    "Southampton",
+    "NY",
+    1
+   ],
+   [
+    "Tampa",
+    "FL",
+    1
+   ],
+   [
+    "Troy",
+    "MI",
+    1
+   ],
+   [
+    "Washington",
+    "DC",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 160,
+  "con": 0
+ },
+ "cities": "47 stores across the US · department stores and independent menswear shops, and its own site",
+ "region": {
+  "o": [
+   2775,
+   2776,
+   2778,
+   2780,
+   2782,
+   2784,
+   2785,
+   2788,
+   2793,
+   2794,
+   2795,
+   2796,
+   2797,
+   2815,
+   2818,
+   2819
+  ],
+  "s": [
+   126,
+   127,
+   150
+  ]
+ },
+ "addmen": true,
+ "site": {
+  "domain": "ralphlauren.com",
+  "platform": "salesforce_commerce",
+  "feed": "sitemap_products",
+  "feed_count": 9894,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "both",
+  "marks": [
+   "PUREPRESS(R)",
+   "Better Cotton(R)",
+   "3M Thinsulate(R)",
+   "CORDURA(R)",
+   "COOLMAX(R)",
+   "Vibram(R)",
+   "Super-LumiNova(R)",
+   "British Millerain(R)",
+   "Alsavel(R)",
+   "water-repellent",
+   "four-way stretch",
+   "moisture-wicking"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 997,
+  "w": 980,
+  "n": 89,
+  "s": 9,
+  "c": 0,
+  "x": 9,
+  "xh": 4,
+  "sp": "one",
+  "sc": [
+   "swimwear"
+  ],
+  "nc": [
+   "button-down-shirts",
+   "sweaters",
+   "sweatshirts"
+  ],
+  "st": "complete"
+ },
+ "garment_links": {
+  "T-shirt": "https://www.ralphlauren.com/men-clothing-t-shirts",
+  "Polo": "https://www.ralphlauren.com/men-clothing-polo-shirts",
+  "Dress shirt": "https://www.ralphlauren.com/men-clothing-dress-shirts",
+  "Jeans": "https://www.ralphlauren.com/men-clothing-jeans",
+  "Dress pants": "https://www.ralphlauren.com/men-clothing-pants",
+  "Sweater": "https://www.ralphlauren.com/men-clothing-sweaters",
+  "Outerwear": "https://www.ralphlauren.com/men-clothing-jackets-coats-vests",
+  "Shoes": "https://www.ralphlauren.com/men-footwear-shoes"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Jersey Crewneck T-Shirt - All Fits",
+   "lu": "https://www.ralphlauren.com/men-clothing-t-shirts/jersey-crewneck-t-shirt---all-fits/440903-T.html",
+   "hp": "Relaxed Fit Sueded Jersey T-Shirt",
+   "hu": "https://www.ralphlauren.com/men-clothing-t-shirts/relaxed-fit-sueded-jersey-t-shirt/100083462.html",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 2,
-    "cashmere": 2,
-    "linen": 2,
-    "cotton": 3,
-    "wool": 2,
-    "synth": 1
+  "Polo": {
+   "lp": "Soft Cotton Polo Shirt - All Fits",
+   "lu": "https://www.ralphlauren.com/men-clothing-polo-shirts/soft-cotton-polo-shirt---all-fits/401482-P.html",
+   "hp": "American Icons Stamp Polo Shirt",
+   "hu": "https://www.ralphlauren.com/men-clothing-polo-shirts/american-icons-stamp-polo-shirt/100097290.html",
+   "b": "range"
   },
-  "dials": {
-    "dur": 3,
-    "forg": 4,
-    "fuss": -1,
-    "golffice": 0,
-    "bruv": 2,
-    "golf": 2,
-    "status": 3,
-    "finbro": 3,
-    "ivy": 5,
-    "murica": 5,
-    "street": 3,
-    "prep": 5,
-    "boat": 3,
-    "racquet": 4,
-    "ski": 1,
-    "whitet": 2,
-    "logo": 4,
-    "western": 3,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 2
+  "Dress shirt": {
+   "lp": "Custom Fit Checked Poplin Shirt",
+   "lu": "https://www.ralphlauren.com/men-clothing-dress-shirts/custom-fit-checked-poplin-shirt/100080650.html",
+   "hp": "Custom Fit Poplin Shirt",
+   "hu": "https://www.ralphlauren.com/men-clothing-dress-shirts/custom-fit-poplin-shirt/656261.html",
+   "b": "range"
   },
-  "why": "Ralph Lauren's main line — the polo shirt, oxford shirts, chinos, knitwear and tailoring — sold everywhere from outlets to flagship stores.",
-  "origin": "Ralph Lauren began selling ties in New York in 1967; the Polo label launched in 1968.",
-  "opview": "“I don't design clothes, I design dreams.”",
-  "chan": ["O", "D", "W", "X"],
-  "conf": "H",
-  "forgc": [4, 5, 2],
-  "shop": "https://www.ralphlauren.com/search?q=",
-  "onething": {
-    "p": "The Polo shirt",
-    "u": "https://www.ralphlauren.com/search?q=polo%20shirt%20men",
-    "n": "best-guess link — verify"
+  "Jeans": {
+   "lp": "Hampton Straight Jean",
+   "lu": "https://www.ralphlauren.com/men-clothing-jeans/hampton-straight-jean/100092814.html",
+   "hp": "Vintage Classic Distressed Jean",
+   "hu": "https://www.ralphlauren.com/men-clothing-jeans/vintage-classic-distressed-jean/100104621.html",
+   "b": "range"
   },
-  "prices": [[55, 110], [118, 198], [125, 198], [125, 398], [175, 1098], [130, 498], [185, 798], [298, 548]],
-  "notes": {
-    "murica": "knitted the actual flag into a sweater and made it luxury",
-    "ivy": "the Bronx kid who bought the dream whole and sold it back to the colleges",
-    "street": "the Lo-Head phenomenon — Polo collected like grails since the '80s",
-    "prep": "sold the entire lifestyle as a dream anyone could buy",
-    "racquet": "An actual Wimbledon outfitting program, so the whites are a real garment rather than a reference. The house has been dressing the sport for long enough that the association runs both ways.",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 5; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "The Polo Ralph Lauren PDPs whose details could be read say only 'Imported' with fiber and care, naming no country, maker or mill. Only the separate Purple Label line states 'Made in Italy', which does not belong to Polo. [audit proposed 1 at low confidence; held at 2 pending a second read]"
+  "Dress pants": {
+   "lp": "Double-Knit Suit Trouser",
+   "lu": "https://www.ralphlauren.com/men-clothing-pants/double-knit-suit-trouser/100058580.html",
+   "hp": "Suede Suit Trouser",
+   "hu": "https://www.ralphlauren.com/men-clothing-pants/suede-suit-trouser/100058546.html",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 44,
-    "cities": [
-      ["Aspen", "CO", 1],
-      ["Atlanta", "GA", 1],
-      ["Aventura", "FL", 1],
-      ["Bal Harbour", "FL", 1],
-      ["Beverly Hills", "CA", 1],
-      ["Boston", "MA", 3],
-      ["Charlotte", "NC", 1],
-      ["Chicago", "IL", 1],
-      ["Costa Mesa", "CA", 1],
-      ["Dallas", "TX", 1],
-      ["East Hampton", "NY", 2],
-      ["Edina", "MN", 1],
-      ["Houston", "TX", 1],
-      ["King of Prussia", "PA", 1],
-      ["La Jolla", "CA", 1],
-      ["Las Vegas", "NV", 1],
-      ["Los Angeles", "CA", 3],
-      ["Manhasset", "NY", 1],
-      ["McLean", "VA", 1],
-      ["Miami", "FL", 1],
-      ["Nantucket", "MA", 1],
-      ["Naples", "FL", 1],
-      ["New Canaan", "CT", 1],
-      ["New York", "NY", 2],
-      ["Newport Beach", "CA", 1],
-      ["Oak Brook", "IL", 1],
-      ["Palm Beach", "FL", 1],
-      ["Palm Desert", "CA", 1],
-      ["Palo Alto", "CA", 1],
-      ["Phoenix", "AZ", 1],
-      ["Plano", "TX", 1],
-      ["Princeton", "NJ", 1],
-      ["San Francisco", "CA", 1],
-      ["Short Hills", "NJ", 1],
-      ["Southampton", "NY", 1],
-      ["Tampa", "FL", 1],
-      ["Troy", "MI", 1],
-      ["Washington", "DC", 1]
-    ],
-    "basis": "recapture 2026-09"
+  "Sweater": {
+   "lp": "Mesh-Knit Cotton Crewneck Sweater",
+   "lu": "https://www.ralphlauren.com/men-clothing-sweaters/mesh-knit-cotton-crewneck-sweater/646124.html",
+   "hp": "The Iconic Cable-Knit Cashmere Sweater",
+   "hu": "https://www.ralphlauren.com/men-clothing-sweaters/the-iconic-cable-knit-cashmere-sweater/625238.html",
+   "b": "pair"
   },
-  "cities": "44 stores across the US · department stores and independent menswear shops, and its own site",
-  "region": {
-    "o": [2308, 2319, 2320, 2321, 2322, 2326, 2327, 2329, 2330, 2331, 2332, 2333, 2334, 2335],
-    "s": [126, 127, 150]
+  "Outerwear": {
+   "lp": "The Bayport Poplin Jacket",
+   "lu": "https://www.ralphlauren.com/men-clothing-jackets-coats-vests/the-bayport-poplin-jacket/100083247.html",
+   "hp": "The Bayport Suede Jacket",
+   "hu": "https://www.ralphlauren.com/men-clothing-jackets-coats-vests/the-bayport-suede-jacket/100097286.html",
+   "b": "pair"
   },
-  "addmen": true,
-  "site": {
-    "domain": "ralphlauren.com",
-    "platform": "salesforce_commerce",
-    "feed": "sitemap_products",
-    "feed_count": 9894,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "both",
-    "marks": [
-      "PUREPRESS(R)",
-      "Better Cotton(R)",
-      "3M Thinsulate(R)",
-      "CORDURA(R)",
-      "COOLMAX(R)",
-      "Vibram(R)",
-      "Super-LumiNova(R)",
-      "British Millerain(R)",
-      "Alsavel(R)",
-      "water-repellent",
-      "four-way stretch",
-      "moisture-wicking"
-    ],
-    "source": "census",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 997,
-    "w": 980,
-    "n": 89,
-    "s": 9,
-    "c": 0,
-    "x": 9,
-    "xh": 4,
-    "sp": "one",
-    "sc": ["swimwear"],
-    "nc": ["button-down-shirts", "sweaters", "sweatshirts"],
-    "st": "complete"
-  },
-  "garment_links": {
-    "T-shirt": "https://www.ralphlauren.com/men-clothing-t-shirts",
-    "Polo": "https://www.ralphlauren.com/men-clothing-polo-shirts",
-    "Dress shirt": "https://www.ralphlauren.com/men-clothing-dress-shirts",
-    "Jeans": "https://www.ralphlauren.com/men-clothing-jeans",
-    "Dress pants": "https://www.ralphlauren.com/men-clothing-pants",
-    "Sweater": "https://www.ralphlauren.com/men-clothing-sweaters",
-    "Outerwear": "https://www.ralphlauren.com/men-clothing-jackets-coats-vests",
-    "Shoes": "https://www.ralphlauren.com/men-footwear-shoes"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Jersey Crewneck T-Shirt - All Fits",
-      "lu": "https://www.ralphlauren.com/men-clothing-t-shirts/jersey-crewneck-t-shirt---all-fits/440903-T.html",
-      "hp": "Relaxed Fit Sueded Jersey T-Shirt",
-      "hu": "https://www.ralphlauren.com/men-clothing-t-shirts/relaxed-fit-sueded-jersey-t-shirt/100083462.html",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Soft Cotton Polo Shirt - All Fits",
-      "lu": "https://www.ralphlauren.com/men-clothing-polo-shirts/soft-cotton-polo-shirt---all-fits/401482-P.html",
-      "hp": "American Icons Stamp Polo Shirt",
-      "hu": "https://www.ralphlauren.com/men-clothing-polo-shirts/american-icons-stamp-polo-shirt/100097290.html",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Custom Fit Checked Poplin Shirt",
-      "lu": "https://www.ralphlauren.com/men-clothing-dress-shirts/custom-fit-checked-poplin-shirt/100080650.html",
-      "hp": "Custom Fit Poplin Shirt",
-      "hu": "https://www.ralphlauren.com/men-clothing-dress-shirts/custom-fit-poplin-shirt/656261.html",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Hampton Straight Jean",
-      "lu": "https://www.ralphlauren.com/men-clothing-jeans/hampton-straight-jean/100092814.html",
-      "hp": "Vintage Classic Distressed Jean",
-      "hu": "https://www.ralphlauren.com/men-clothing-jeans/vintage-classic-distressed-jean/100104621.html",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Double-Knit Suit Trouser",
-      "lu": "https://www.ralphlauren.com/men-clothing-pants/double-knit-suit-trouser/100058580.html",
-      "hp": "Suede Suit Trouser",
-      "hu": "https://www.ralphlauren.com/men-clothing-pants/suede-suit-trouser/100058546.html",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Mesh-Knit Cotton Crewneck Sweater",
-      "lu": "https://www.ralphlauren.com/men-clothing-sweaters/mesh-knit-cotton-crewneck-sweater/646124.html",
-      "hp": "The Iconic Cable-Knit Cashmere Sweater",
-      "hu": "https://www.ralphlauren.com/men-clothing-sweaters/the-iconic-cable-knit-cashmere-sweater/625238.html",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "The Bayport Poplin Jacket",
-      "lu": "https://www.ralphlauren.com/men-clothing-jackets-coats-vests/the-bayport-poplin-jacket/100083247.html",
-      "hp": "The Bayport Suede Jacket",
-      "hu": "https://www.ralphlauren.com/men-clothing-jackets-coats-vests/the-bayport-suede-jacket/100097286.html",
-      "b": "pair"
-    },
-    "Shoes": {
-      "lp": "Edric Leather Penny Loafer",
-      "lu": "https://www.ralphlauren.com/men-footwear-shoes/edric-leather-penny-loafer/523256.html",
-      "hp": "Maestra Calfskin Penny Loafer",
-      "hu": "https://www.ralphlauren.com/men-footwear-shoes/maestra-calfskin-penny-loafer/100041418.html",
-      "b": "pair"
-    }
-  },
-  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.ralphlauren.com/brands-polo-ralph-lauren-men-shop-all-cg",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=4273",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "season": {
-    "l": "Fall/Holiday 2026",
-    "t": "campaign",
-    "u": "https://www.ralphlauren.com/campaign-feat",
-    "m": "unisex"
-  },
-  "craft_evidence": {
-    "owned": "NC",
-    "owned_d": "Not established: no Polo or corporate page reached that addresses ownership of factories (corporate.ralphlauren.com/our-company is a navigation hub; history page redirects to ralphlauren.com/rl-heritage-timeline-feature, not fetched - cap). 10-K not read.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "none",
-    "countries": "Polo label: 'Imported' on 2/2 PDPs whose details were readable (classic-fit striped linen shirt, Polo Bear rugby); no country named. 3 Polo PDPs (checked twill shirt, Bedford chino short, iconic cable-knit cashmere sweater) showed no composition/origin to the fetch - likely collapsed tabs. Out of scope: 3 Purple Label PDPs fetched by mistake from the sitemap, 2 readable say 'Made in Italy' (linen jersey polo, cotton-silk cable polo sweater).",
-    "heritage": "NC",
-    "repair": "NC",
-    "process": "no",
-    "urls": [
-      "https://www.ralphlauren.com/men-clothing-button-down-shirts/classic-fit-striped-linen-shirt/100055198.html",
-      "https://www.ralphlauren.com/men-clothing-rugby-shirts/classic-fit-polo-bear-rugby-shirt/100084749.html"
-    ],
-    "conf": "low",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Edric Leather Penny Loafer",
+   "lu": "https://www.ralphlauren.com/men-footwear-shoes/edric-leather-penny-loafer/523256.html",
+   "hp": "Maestra Calfskin Penny Loafer",
+   "hu": "https://www.ralphlauren.com/men-footwear-shoes/maestra-calfskin-penny-loafer/100041418.html",
+   "b": "pair"
   }
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.ralphlauren.com/brands-polo-ralph-lauren-men-shop-all-cg",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=4273",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "season": {
+  "l": "Fall/Holiday 2026",
+  "t": "campaign",
+  "u": "https://www.ralphlauren.com/campaign-feat",
+  "m": "unisex"
+ },
+ "craft_evidence": {
+  "owned": "NC",
+  "owned_d": "Not established: no Polo or corporate page reached that addresses ownership of factories (corporate.ralphlauren.com/our-company is a navigation hub; history page redirects to ralphlauren.com/rl-heritage-timeline-feature, not fetched - cap). 10-K not read.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "none",
+  "countries": "Polo label: 'Imported' on 2/2 PDPs whose details were readable (classic-fit striped linen shirt, Polo Bear rugby); no country named. 3 Polo PDPs (checked twill shirt, Bedford chino short, iconic cable-knit cashmere sweater) showed no composition/origin to the fetch - likely collapsed tabs. Out of scope: 3 Purple Label PDPs fetched by mistake from the sitemap, 2 readable say 'Made in Italy' (linen jersey polo, cotton-silk cable polo sweater).",
+  "heritage": "NC",
+  "repair": "NC",
+  "process": "no",
+  "urls": [
+   "https://www.ralphlauren.com/men-clothing-button-down-shirts/classic-fit-striped-linen-shirt/100055198.html",
+   "https://www.ralphlauren.com/men-clothing-rugby-shirts/classic-fit-polo-bear-rugby-shirt/100084749.html"
+  ],
+  "conf": "low",
+  "read": "2026-10-03"
+ }
 }

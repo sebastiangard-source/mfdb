@@ -1,206 +1,253 @@
 {
-  "name": "Sease",
-  "band": "trueLux",
-  "seat": 142,
-  "dagger": 1,
-  "focus": {
-    "tech": 4,
-    "comfort": 4,
-    "craft": 2,
-    "style": 3
+ "name": "Sease",
+ "band": "trueLux",
+ "seat": 142,
+ "dagger": 1,
+ "focus": {
+  "tech": 4,
+  "comfort": 4,
+  "craft": 2,
+  "style": 3
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 3,
+  "linen": 2,
+  "cotton": 2,
+  "wool": 3,
+  "synth": 5
+ },
+ "dials": {
+  "dur": 4,
+  "forg": 2,
+  "fuss": 1,
+  "sail": -3,
+  "status": 3,
+  "ital": 5,
+  "boat": 4,
+  "ski": 5,
+  "whitet": 2,
+  "logo": 1,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 3,
+  "surf": 1
+ },
+ "why": "Sailing and skiing clothing and tailoring in technical and bio-based fabrics.",
+ "origin": "Founded in Milan in 2016 by Franco and Giacomo Loro Piana.",
+ "say": "SEEZ",
+ "chan": [
+  "W"
+ ],
+ "conf": "S",
+ "forgc": [
+  2,
+  3,
+  1
+ ],
+ "shop": "https://sease.it/en-us/search?q=",
+ "onething": {
+  "p": "Low Pressure Spray Top",
+  "u": "",
+  "n": "signature piece — Sunrise fabric, a bio-nylon reworking of Solaro; link best-guess, verify"
+ },
+ "prices": [
+  [
+   270,
+   580
+  ],
+  [
+   460,
+   1400
+  ],
+  [
+   615,
+   985
+  ],
+  [
+   755,
+   755
+  ],
+  [
+   815,
+   1400
+  ],
+  [
+   1050,
+   2300
+  ],
+  [
+   1700,
+   7850
+  ],
+  null
+ ],
+ "notes": {
+  "ski": "Founded on two kits, sailing and skiing, so the mountain is half the brief rather than a seasonal excursion. The stores follow the Alpine circuit.",
+  "boat": "Sea is half the name. Technical sailing kit built to be used rather than resort wear that references it, which separates it from everything else at this end of the dial.",
+  "ital": "Milan, founded by two Loro Piana sons after the family mill was sold. Italian cloth pointed at sport rather than at tailoring, which is a genuinely new position for an Italian house.",
+  "tech": "serious technical outerwear, and all of it Loro Piana’s Storm System, confirmed against the trademark register. As technical as the houses above it and not its own, which is what separates a 4 from a 5",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 1; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "synth": "Technical and bio-based synthetics throughout, built for sailing and skiing.",
+  "craft": "Every PDP sampled says 'Made in Italy' and gives composition plus construction notes (gauge 12 cashmere, yarn-dyed WISH wool, 3-layer heat-taped membrane), but no product names a maker or mill. The site names no owned factory and no story page; the FAQ only says 'Italian craftsmanship'. Country of make plus little else = 2."
+ },
+ "doors": {
+  "c": "full",
+  "n": 0,
+  "cities": [],
+  "basis": "master 2026-08-29, pre-recapture"
+ },
+ "cities": "Sold direct, through its own site only",
+ "site": {
+  "domain": "sease.it",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 784,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "both",
+  "marks": [
+   "LICENSED: WISH(R) and WOOLWISH(R) (Loro Piana wool marks)",
+   "Rain System(R) (Loro Piana finish)",
+   "Thermore(R) and Thermore Ecodown(R)",
+   "Alcantara(R)",
+   "Cordura(R)",
+   "Dyneema(R)",
+   "Dermizax(R)",
+   "Thindown(R)",
+   "RECCO(R)",
+   "YKK(R) and YKK Aquaguard(R)",
+   "Velcro(R)",
+   "Supima. HOUSE: Solaro, sold as \"SEASE's iconic Solaro("
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 327,
+  "w": 326,
+  "n": 92,
+  "s": 8,
+  "c": 0,
+  "x": 12,
+  "xh": 6,
+  "sp": "one",
+  "sc": [
+   "Swimwear"
+  ],
+  "nc": [
+   "Pants",
+   "Knitwear",
+   "Shirt"
+  ],
+  "st": "complete"
+ },
+ "price_checked": true,
+ "garment_links": {
+  "T-shirt": "https://sease.it/en-us/collections/polo-e-t-shirt",
+  "Polo": "https://sease.it/en-us/collections/polo-e-t-shirt",
+  "Dress shirt": "https://sease.it/en-us/collections/shirts",
+  "Dress pants": "https://sease.it/en-us/collections/pants",
+  "Sweater": "https://sease.it/en-us/collections/maglieria",
+  "Outerwear": "https://sease.it/en-us/collections/outerwear-uomo"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Ts Titus (White)",
+   "lu": "https://sease.it/en-us/products/ts-titus-white-ts035tj149x33",
+   "hp": "Runner T-Shirt (extra-fine virgin wool jersey, Midnight Blue)",
+   "hu": "https://sease.it/en-us/products/runner-t-shirt-midnight-blue-ts039tj014b62",
+   "b": "pair"
   },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 3,
-    "linen": 2,
-    "cotton": 2,
-    "wool": 3,
-    "synth": 5
+  "Polo": {
+   "lp": "T-Shirt Crew Gd (short-sleeve polo, White)",
+   "lu": "https://sease.it/en-us/products/t-shirt-crew-gd-white-tp033tj197n14",
+   "hp": "Zipped Polo Woven (extra-fine raw virgin wool, short sleeve)",
+   "hu": "https://sease.it/en-us/products/zipped-polo-woven-driftwood-tp034tn517x34",
+   "b": "range"
   },
-  "dials": {
-    "dur": 4,
-    "forg": 2,
-    "fuss": 1,
-    "sail": -3,
-    "status": 3,
-    "ital": 5,
-    "boat": 4,
-    "ski": 5,
-    "whitet": 2,
-    "logo": 1,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 3,
-    "surf": 1
+  "Dress shirt": {
+   "lp": "Camicia Classica Bd 2.0 (Sage Green)",
+   "lu": "https://sease.it/en-us/products/camicia-classica-bd-2-0-sage-green-si033tn466g53",
+   "hp": "Saharan Shirt (silk)",
+   "hu": "https://sease.it/en-us/products/saharan-shirt-military-green-si046tn542g34",
+   "b": "range"
   },
-  "why": "Sailing and skiing clothing and tailoring in technical and bio-based fabrics.",
-  "origin": "Founded in Milan in 2016 by Franco and Giacomo Loro Piana.",
-  "say": "SEEZ",
-  "chan": ["W"],
-  "conf": "S",
-  "forgc": [2, 3, 1],
-  "shop": "https://sease.it/en-us/search?q=",
-  "onething": {
-    "p": "Low Pressure Spray Top",
-    "u": "",
-    "n": "signature piece — Sunrise fabric, a bio-nylon reworking of Solaro; link best-guess, verify"
+  "Jeans": {
+   "lp": "Urban Denim Pants",
+   "lu": "https://sease.it/en-us/products/urban-denim-pants-denim-blue-pd001tn708b82",
+   "hp": "Urban Denim Pants",
+   "hu": "https://sease.it/en-us/products/urban-denim-pants-denim-blue-pd001tn708b82",
+   "b": "single"
   },
-  "prices": [[270, 580], [460, 1400], [615, 985], [755, 755], [815, 1400], [1050, 2300], [1700, 7850], null],
-  "notes": {
-    "ski": "Founded on two kits, sailing and skiing, so the mountain is half the brief rather than a seasonal excursion. The stores follow the Alpine circuit.",
-    "boat": "Sea is half the name. Technical sailing kit built to be used rather than resort wear that references it, which separates it from everything else at this end of the dial.",
-    "ital": "Milan, founded by two Loro Piana sons after the family mill was sold. Italian cloth pointed at sport rather than at tailoring, which is a genuinely new position for an Italian house.",
-    "tech": "serious technical outerwear, and all of it Loro Piana’s Storm System, confirmed against the trademark register. As technical as the houses above it and not its own, which is what separates a 4 from a 5",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 1; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "synth": "Technical and bio-based synthetics throughout, built for sailing and skiing.",
-    "craft": "Every PDP sampled says 'Made in Italy' and gives composition plus construction notes (gauge 12 cashmere, yarn-dyed WISH wool, 3-layer heat-taped membrane), but no product names a maker or mill. The site names no owned factory and no story page; the FAQ only says 'Italian craftsmanship'. Country of make plus little else = 2."
+  "Dress pants": {
+   "lp": "High Life 2.0 (stretch cotton, Warm White)",
+   "lu": "https://sease.it/en-us/products/high-life-2-0-warm-white-pt047tn548x33",
+   "hp": "High Life 2.0 (100% linen, Mid Blue)",
+   "hu": "https://sease.it/en-us/products/high-life-2-0-mid-blue-pt047tn052b15",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 0,
-    "cities": [],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Sweater": {
+   "lp": "Round Neck Pocket (boucle cotton, Navy Blue)",
+   "lu": "https://sease.it/en-us/products/round-neck-pocket-navy-blue-kr078xg104b13",
+   "hp": "Dinghy Crew (100% cashmere, reversible)",
+   "hu": "https://sease.it/en-us/products/dinghy-crew-camel-kr081xg006x02",
+   "b": "pair"
   },
-  "cities": "Sold direct, through its own site only",
-  "site": {
-    "domain": "sease.it",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 784,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "both",
-    "marks": [
-      "LICENSED: WISH(R) and WOOLWISH(R) (Loro Piana wool marks)",
-      "Rain System(R) (Loro Piana finish)",
-      "Thermore(R) and Thermore Ecodown(R)",
-      "Alcantara(R)",
-      "Cordura(R)",
-      "Dyneema(R)",
-      "Dermizax(R)",
-      "Thindown(R)",
-      "RECCO(R)",
-      "YKK(R) and YKK Aquaguard(R)",
-      "Velcro(R)",
-      "Supima. HOUSE: Solaro, sold as \"SEASE's iconic Solaro("
-    ],
-    "source": "census",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 327,
-    "w": 326,
-    "n": 92,
-    "s": 8,
-    "c": 0,
-    "x": 12,
-    "xh": 6,
-    "sp": "one",
-    "sc": ["Swimwear"],
-    "nc": ["Pants", "Knitwear", "Shirt"],
-    "st": "complete"
-  },
-  "price_checked": true,
-  "garment_links": {
-    "T-shirt": "https://sease.it/en-us/collections/polo-e-t-shirt",
-    "Polo": "https://sease.it/en-us/collections/polo-e-t-shirt",
-    "Dress shirt": "https://sease.it/en-us/collections/shirts",
-    "Dress pants": "https://sease.it/en-us/collections/pants",
-    "Sweater": "https://sease.it/en-us/collections/maglieria",
-    "Outerwear": "https://sease.it/en-us/collections/outerwear-uomo"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Ts Titus (White)",
-      "lu": "https://sease.it/en-us/products/ts-titus-white-ts035tj149x33",
-      "hp": "Runner T-Shirt (extra-fine virgin wool jersey, Midnight Blue)",
-      "hu": "https://sease.it/en-us/products/runner-t-shirt-midnight-blue-ts039tj014b62",
-      "b": "pair"
-    },
-    "Polo": {
-      "lp": "T-Shirt Crew Gd (short-sleeve polo, White)",
-      "lu": "https://sease.it/en-us/products/t-shirt-crew-gd-white-tp033tj197n14",
-      "hp": "Zipped Polo Woven (extra-fine raw virgin wool, short sleeve)",
-      "hu": "https://sease.it/en-us/products/zipped-polo-woven-driftwood-tp034tn517x34",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Camicia Classica Bd 2.0 (Sage Green)",
-      "lu": "https://sease.it/en-us/products/camicia-classica-bd-2-0-sage-green-si033tn466g53",
-      "hp": "Saharan Shirt (silk)",
-      "hu": "https://sease.it/en-us/products/saharan-shirt-military-green-si046tn542g34",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Urban Denim Pants",
-      "lu": "https://sease.it/en-us/products/urban-denim-pants-denim-blue-pd001tn708b82",
-      "hp": "Urban Denim Pants",
-      "hu": "https://sease.it/en-us/products/urban-denim-pants-denim-blue-pd001tn708b82",
-      "b": "single"
-    },
-    "Dress pants": {
-      "lp": "High Life 2.0 (stretch cotton, Warm White)",
-      "lu": "https://sease.it/en-us/products/high-life-2-0-warm-white-pt047tn548x33",
-      "hp": "High Life 2.0 (100% linen, Mid Blue)",
-      "hu": "https://sease.it/en-us/products/high-life-2-0-mid-blue-pt047tn052b15",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Round Neck Pocket (boucle cotton, Navy Blue)",
-      "lu": "https://sease.it/en-us/products/round-neck-pocket-navy-blue-kr078xg104b13",
-      "hp": "Dinghy Crew (100% cashmere, reversible)",
-      "hu": "https://sease.it/en-us/products/dinghy-crew-camel-kr081xg006x02",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "Jib Set (reversible full-zip jacket)",
-      "lu": "https://sease.it/en-us/products/jib-set-mud-brown-oj040tn286x74",
-      "hp": "Leather Biker",
-      "hu": "https://sease.it/en-us/products/leather-biker-dark-brown-oj058tn547x65",
-      "b": "range"
-    }
-  },
-  "price_range_only": ["Polo", "Dress shirt", "Dress pants", "Outerwear"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://sease.it/en-us",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=2016478",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "No owned factory, mill or workshop named anywhere seen on sease.it (homepage, FAQ, 6 PDPs). FAQ refers only generically to 'Italian craftsmanship'. No link to any Loro Piana family mill is made on the site.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "every product",
-    "countries": "Italy 6/6 (sample of 6 PDPs: blazer, cashmere knit, wool overshirt, wool jogger, field jacket, down vest)",
-    "heritage": "none",
-    "repair": "no",
-    "process": "some",
-    "urls": [
-      "https://www.sease.it/products/ellen-blazer-2-0-wombat-jb033tn575x61",
-      "https://sease.it/products/field-jacket-wombat-op048tn729x61"
-    ],
-    "conf": "high",
-    "read": "2026-10-03"
+  "Outerwear": {
+   "lp": "Jib Set (reversible full-zip jacket)",
+   "lu": "https://sease.it/en-us/products/jib-set-mud-brown-oj040tn286x74",
+   "hp": "Leather Biker",
+   "hu": "https://sease.it/en-us/products/leather-biker-dark-brown-oj058tn547x65",
+   "b": "range"
   }
+ },
+ "price_range_only": [
+  "Polo",
+  "Dress shirt",
+  "Dress pants",
+  "Outerwear"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://sease.it/en-us",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=2016478",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "No owned factory, mill or workshop named anywhere seen on sease.it (homepage, FAQ, 6 PDPs). FAQ refers only generically to 'Italian craftsmanship'. No link to any Loro Piana family mill is made on the site.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "every product",
+  "countries": "Italy 6/6 (sample of 6 PDPs: blazer, cashmere knit, wool overshirt, wool jogger, field jacket, down vest)",
+  "heritage": "none",
+  "repair": "no",
+  "process": "some",
+  "urls": [
+   "https://www.sease.it/products/ellen-blazer-2-0-wombat-jb033tn575x61",
+   "https://sease.it/products/field-jacket-wombat-op048tn729x61"
+  ],
+  "conf": "high",
+  "read": "2026-10-03"
+ }
 }

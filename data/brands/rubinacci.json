@@ -1,201 +1,248 @@
 {
-  "name": "Rubinacci",
-  "band": "trueLux",
-  "seat": 199,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 3,
-    "craft": 5,
-    "style": 5
+ "name": "Rubinacci",
+ "band": "trueLux",
+ "seat": 199,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 3,
+  "craft": 5,
+  "style": 5
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 3,
+  "linen": 3,
+  "cotton": 2,
+  "wool": 4,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 4,
+  "forg": 3,
+  "fuss": 3,
+  "golffice": -3,
+  "status": 2,
+  "ital": 5,
+  "boat": 4,
+  "briish": 1,
+  "whitet": 2,
+  "logo": 1,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Neapolitan tailoring from the house that developed the soft Neapolitan cut.",
+ "origin": "Founded in Naples in 1932 by Gennaro Rubinacci as London House.",
+ "chan": [
+  "O"
+ ],
+ "conf": "L",
+ "forgc": [
+  2,
+  2,
+  5
+ ],
+ "onething": {
+  "p": "Gurkha trouser",
+  "u": "https://www.mrporter.com/en-us/mens/designer/rubinacci",
+  "n": "Use; https://www.marianorubinacci.com/en/collection/trousers/green-linen-manny-trousers-MANNYL-A2566/ and call them manny trousers"
+ },
+ "prices": [
+  [
+   432,
+   432
+  ],
+  [
+   216,
+   720
+  ],
+  [
+   576,
+   576
+  ],
+  [
+   696,
+   696
+  ],
+  [
+   576,
+   1080
+  ],
+  [
+   648,
+   648
+  ],
+  [
+   1896,
+   3120
+  ],
+  [
+   660,
+   696
+  ]
+ ],
+ "notes": {
+  "wool": "Neapolitan drape from the London House lineage",
+  "ital": "London House in Naples, and the family's claim to have shaped the Neapolitan shoulder. The archive of vintage cloth is the house's real inheritance.",
+  "boat": "Coastal by geography rather than by design intent. The Neapolitan house sits on the water and always has.",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 1; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "A 2016 Bloomberg feature describes Rubinacci's own atelier above its Naples store, where about 20 people cut and make bespoke suits. Nothing seen shows where the ready-to-wear and accessories are made, and the brand site could not be read beyond its homepage. Owned making is shown for bespoke only: a 4. [held at 5: the bespoke atelier is shown; where ready-to-wear is made is not]",
+  "style": "The Neapolitan cut as a design position, held since 1932."
+ },
+ "doors": {
+  "c": "full",
+  "n": 0,
+  "cities": [],
+  "basis": "master 2026-08-29, pre-recapture"
+ },
+ "cities": "Sold direct, through its own site only",
+ "site": {
+  "domain": "www.marianorubinacci.com",
+  "platform": "custom",
+  "feed": "sitemap_products",
+  "feed_count": 2472,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "unclear",
+  "marks": [
+   "Loro Piana Storm System (spelled \"\"Storm Sistem\"\" on site) - LICENSED (standing rule: Loro Piana mark on a house that is not Loro Piana)"
+  ],
+  "source": "flag_sample",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 557,
+  "w": 490,
+  "n": 82,
+  "s": 2,
+  "c": 4,
+  "x": 2,
+  "xh": 0,
+  "sp": "one",
+  "sc": [
+   "Beachwear"
+  ],
+  "nc": [
+   "Trousers",
+   "Knitwear",
+   "Blazers"
+  ],
+  "st": "complete"
+ },
+ "shop": "https://www.marianorubinacci.com/en/search-results?searchterm=",
+ "garment_links": {
+  "T-shirt": "https://www.marianorubinacci.com/en/search-results?searchterm=t-shirt",
+  "Polo": "https://www.marianorubinacci.com/en/search-results?searchterm=polo",
+  "Dress shirt": "https://www.marianorubinacci.com/en/collection/shirts/",
+  "Dress pants": "https://www.marianorubinacci.com/en/collection/trousers/",
+  "Sweater": "https://www.marianorubinacci.com/en/collection/knitwear/",
+  "Outerwear": "https://www.marianorubinacci.com/en/collection/outerwear/",
+  "Shoes": "https://www.marianorubinacci.com/en/collection/shoes/"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Blue short-sleeve knitted t-shirt (Sea Island cotton)",
+   "lu": "https://www.marianorubinacci.com/en/collection/knitwear/blue-short-sleeve-knitted-t-shirt-SORRENTO-544/",
+   "hp": "Blue short-sleeve knitted t-shirt (Sea Island cotton)",
+   "hu": "https://www.marianorubinacci.com/en/collection/knitwear/blue-short-sleeve-knitted-t-shirt-SORRENTO-544/",
+   "b": "single"
   },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 3,
-    "linen": 3,
-    "cotton": 2,
-    "wool": 4,
-    "synth": 1
+  "Polo": {
+   "lp": "Light blue short sleeves piquet polo",
+   "lu": "https://www.marianorubinacci.com/en/collection/shirts/light-blue-short-sleeves-piquet-polo-RU001-04/",
+   "hp": "Blue cashmere polo (100% cashmere, short sleeves)",
+   "hu": "https://www.marianorubinacci.com/en/collection/knitwear/blue-cashmere-polo-RU08-21034/",
+   "b": "pair"
   },
-  "dials": {
-    "dur": 4,
-    "forg": 3,
-    "fuss": 3,
-    "golffice": -3,
-    "status": 2,
-    "ital": 5,
-    "boat": 4,
-    "briish": 1,
-    "whitet": 2,
-    "logo": 1,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
+  "Dress shirt": {
+   "lp": "White cotton shirt (cotton twill, Luca collar)",
+   "lu": "https://www.marianorubinacci.com/en/collection/shirts/white-cotton-shirt-SHT-CA2025/",
+   "hp": "White cotton shirt (cotton twill, Luca collar)",
+   "hu": "https://www.marianorubinacci.com/en/collection/shirts/white-cotton-shirt-SHT-CA2025/",
+   "b": "single"
   },
-  "why": "Neapolitan tailoring from the house that developed the soft Neapolitan cut.",
-  "origin": "Founded in Naples in 1932 by Gennaro Rubinacci as London House.",
-  "chan": ["O"],
-  "conf": "L",
-  "forgc": [2, 2, 5],
-  "onething": {
-    "p": "Gurkha trouser",
-    "u": "https://www.mrporter.com/en-us/mens/designer/rubinacci",
-    "n": "Use; https://www.marianorubinacci.com/en/collection/trousers/green-linen-manny-trousers-MANNYL-A2566/ and call them manny trousers"
+  "Jeans": {
+   "lp": "Blue 5-pocket trousers in Japanese Selvedge Denim with Red Selvage Edge",
+   "lu": "https://www.marianorubinacci.com/en/collection/trousers/blue-denim-5-pockets-pant-2696/",
+   "hp": "Blue 5-pocket trousers in Japanese Selvedge Denim with Red Selvage Edge",
+   "hu": "https://www.marianorubinacci.com/en/collection/trousers/blue-denim-5-pockets-pant-2696/",
+   "b": "single"
   },
-  "prices": [[432, 432], [216, 720], [576, 576], [696, 696], [576, 1080], [648, 648], [1896, 3120], [660, 696]],
-  "notes": {
-    "wool": "Neapolitan drape from the London House lineage",
-    "ital": "London House in Naples, and the family's claim to have shaped the Neapolitan shoulder. The archive of vintage cloth is the house's real inheritance.",
-    "boat": "Coastal by geography rather than by design intent. The Neapolitan house sits on the water and always has.",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 1; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "A 2016 Bloomberg feature describes Rubinacci's own atelier above its Naples store, where about 20 people cut and make bespoke suits. Nothing seen shows where the ready-to-wear and accessories are made, and the brand site could not be read beyond its homepage. Owned making is shown for bespoke only: a 4. [held at 5: the bespoke atelier is shown; where ready-to-wear is made is not]",
-    "style": "The Neapolitan cut as a design position, held since 1932."
+  "Dress pants": {
+   "lp": "Navy blue cotton manny trousers",
+   "lu": "https://www.marianorubinacci.com/en/collection/trousers/navy-blue-cotton-manny-trousers-MANNYL-06/",
+   "hp": "Black tasmanian wool manny tuxedo trousers",
+   "hu": "https://www.marianorubinacci.com/en/collection/trousers/black-tasmanian-wool-manny-tuxedo-trousers-MANNYL-A2678/",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 0,
-    "cities": [],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Sweater": {
+   "lp": "Blue cashmere crew-neck sweater",
+   "lu": "https://www.marianorubinacci.com/en/collection/knitwear/blue-cashmere-crew-neck-sweater-GIROCOLLO-21034/",
+   "hp": "Blue cashmere crew-neck sweater",
+   "hu": "https://www.marianorubinacci.com/en/collection/knitwear/blue-cashmere-crew-neck-sweater-GIROCOLLO-21034/",
+   "b": "single"
   },
-  "cities": "Sold direct, through its own site only",
-  "site": {
-    "domain": "www.marianorubinacci.com",
-    "platform": "custom",
-    "feed": "sitemap_products",
-    "feed_count": 2472,
-    "status": "live_store",
-    "checked": "2026-09-13"
+  "Outerwear": {
+   "lp": "Single-breasted Raglan coat in blue linen blend",
+   "lu": "https://www.marianorubinacci.com/en/collection/outerwear/single-breasted-raglan-coat-in-blue-linen-blend-RB-C8-A2724/",
+   "hp": "Blue cashmere coat (100% cashmere, single-breasted)",
+   "hu": "https://www.marianorubinacci.com/en/collection/outerwear/blue-cashmere-coat-CAPRUB310-A2245/",
+   "b": "pair"
   },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "unclear",
-    "marks": [
-      "Loro Piana Storm System (spelled \"\"Storm Sistem\"\" on site) - LICENSED (standing rule: Loro Piana mark on a house that is not Loro Piana)"
-    ],
-    "source": "flag_sample",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 557,
-    "w": 490,
-    "n": 82,
-    "s": 2,
-    "c": 4,
-    "x": 2,
-    "xh": 0,
-    "sp": "one",
-    "sc": ["Beachwear"],
-    "nc": ["Trousers", "Knitwear", "Blazers"],
-    "st": "complete"
-  },
-  "shop": "https://www.marianorubinacci.com/en/search-results?searchterm=",
-  "garment_links": {
-    "T-shirt": "https://www.marianorubinacci.com/en/search-results?searchterm=t-shirt",
-    "Polo": "https://www.marianorubinacci.com/en/search-results?searchterm=polo",
-    "Dress shirt": "https://www.marianorubinacci.com/en/collection/shirts/",
-    "Dress pants": "https://www.marianorubinacci.com/en/collection/trousers/",
-    "Sweater": "https://www.marianorubinacci.com/en/collection/knitwear/",
-    "Outerwear": "https://www.marianorubinacci.com/en/collection/outerwear/",
-    "Shoes": "https://www.marianorubinacci.com/en/collection/shoes/"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Blue short-sleeve knitted t-shirt (Sea Island cotton)",
-      "lu": "https://www.marianorubinacci.com/en/collection/knitwear/blue-short-sleeve-knitted-t-shirt-SORRENTO-544/",
-      "hp": "Blue short-sleeve knitted t-shirt (Sea Island cotton)",
-      "hu": "https://www.marianorubinacci.com/en/collection/knitwear/blue-short-sleeve-knitted-t-shirt-SORRENTO-544/",
-      "b": "single"
-    },
-    "Polo": {
-      "lp": "Light blue short sleeves piquet polo",
-      "lu": "https://www.marianorubinacci.com/en/collection/shirts/light-blue-short-sleeves-piquet-polo-RU001-04/",
-      "hp": "Blue cashmere polo (100% cashmere, short sleeves)",
-      "hu": "https://www.marianorubinacci.com/en/collection/knitwear/blue-cashmere-polo-RU08-21034/",
-      "b": "pair"
-    },
-    "Dress shirt": {
-      "lp": "White cotton shirt (cotton twill, Luca collar)",
-      "lu": "https://www.marianorubinacci.com/en/collection/shirts/white-cotton-shirt-SHT-CA2025/",
-      "hp": "White cotton shirt (cotton twill, Luca collar)",
-      "hu": "https://www.marianorubinacci.com/en/collection/shirts/white-cotton-shirt-SHT-CA2025/",
-      "b": "single"
-    },
-    "Jeans": {
-      "lp": "Blue 5-pocket trousers in Japanese Selvedge Denim with Red Selvage Edge",
-      "lu": "https://www.marianorubinacci.com/en/collection/trousers/blue-denim-5-pockets-pant-2696/",
-      "hp": "Blue 5-pocket trousers in Japanese Selvedge Denim with Red Selvage Edge",
-      "hu": "https://www.marianorubinacci.com/en/collection/trousers/blue-denim-5-pockets-pant-2696/",
-      "b": "single"
-    },
-    "Dress pants": {
-      "lp": "Navy blue cotton manny trousers",
-      "lu": "https://www.marianorubinacci.com/en/collection/trousers/navy-blue-cotton-manny-trousers-MANNYL-06/",
-      "hp": "Black tasmanian wool manny tuxedo trousers",
-      "hu": "https://www.marianorubinacci.com/en/collection/trousers/black-tasmanian-wool-manny-tuxedo-trousers-MANNYL-A2678/",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Blue cashmere crew-neck sweater",
-      "lu": "https://www.marianorubinacci.com/en/collection/knitwear/blue-cashmere-crew-neck-sweater-GIROCOLLO-21034/",
-      "hp": "Blue cashmere crew-neck sweater",
-      "hu": "https://www.marianorubinacci.com/en/collection/knitwear/blue-cashmere-crew-neck-sweater-GIROCOLLO-21034/",
-      "b": "single"
-    },
-    "Outerwear": {
-      "lp": "Single-breasted Raglan coat in blue linen blend",
-      "lu": "https://www.marianorubinacci.com/en/collection/outerwear/single-breasted-raglan-coat-in-blue-linen-blend-RB-C8-A2724/",
-      "hp": "Blue cashmere coat (100% cashmere, single-breasted)",
-      "hu": "https://www.marianorubinacci.com/en/collection/outerwear/blue-cashmere-coat-CAPRUB310-A2245/",
-      "b": "pair"
-    },
-    "Shoes": {
-      "lp": "Marphy in blue Suede",
-      "lu": "https://www.marianorubinacci.com/en/collection/shoes/marphy-in-blue-Suede-MARFY1-139BLU/",
-      "hp": "Brown leather loafer",
-      "hu": "https://www.marianorubinacci.com/en/collection/shoes/brown-leather-loafer-XX79RU-TMORO/",
-      "b": "pair"
-    }
-  },
-  "price_range_only": ["Dress pants"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.marianorubinacci.com/en/ (US site-switcher market, prices in $)",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=1961524",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "craft_evidence": {
-    "owned": "yes",
-    "owned_d": "Press, not brand: Bloomberg (2016) describes the Naples building that 'holds the store and atelier', with '20 people' working at cutting tables upstairs. Wikipedia (context) gives the house at Via Gaetano Filangieri 25, Naples. This covers bespoke; nothing seen on where ready-to-wear (shirts, ties, knitwear, RTW tailoring) is made.",
-    "makers": "NC",
-    "mills": "NC",
-    "madein": "NC",
-    "countries": "Brand site blocked; PDPs not read. Homepage text mentions 'Made in Italy' generically.",
-    "heritage": "dated and placed",
-    "repair": "NC",
-    "process": "NC",
-    "urls": [
-      "https://www.bloomberg.com/features/2016-rubinacci-bespoke-suit/",
-      "https://www.marianorubinacci.com/"
-    ],
-    "conf": "low",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Marphy in blue Suede",
+   "lu": "https://www.marianorubinacci.com/en/collection/shoes/marphy-in-blue-Suede-MARFY1-139BLU/",
+   "hp": "Brown leather loafer",
+   "hu": "https://www.marianorubinacci.com/en/collection/shoes/brown-leather-loafer-XX79RU-TMORO/",
+   "b": "pair"
   }
+ },
+ "price_range_only": [
+  "Dress pants"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.marianorubinacci.com/en/ (US site-switcher market, prices in $)",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=1961524",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "craft_evidence": {
+  "owned": "yes",
+  "owned_d": "Press, not brand: Bloomberg (2016) describes the Naples building that 'holds the store and atelier', with '20 people' working at cutting tables upstairs. Wikipedia (context) gives the house at Via Gaetano Filangieri 25, Naples. This covers bespoke; nothing seen on where ready-to-wear (shirts, ties, knitwear, RTW tailoring) is made.",
+  "makers": "NC",
+  "mills": "NC",
+  "madein": "NC",
+  "countries": "Brand site blocked; PDPs not read. Homepage text mentions 'Made in Italy' generically.",
+  "heritage": "dated and placed",
+  "repair": "NC",
+  "process": "NC",
+  "urls": [
+   "https://www.bloomberg.com/features/2016-rubinacci-bespoke-suit/",
+   "https://www.marianorubinacci.com/"
+  ],
+  "conf": "low",
+  "read": "2026-10-03"
+ }
 }

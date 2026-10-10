@@ -1,196 +1,240 @@
 {
-  "name": "Finisterre",
-  "band": "premium",
-  "seat": 26,
-  "dagger": 1,
-  "focus": {
-    "tech": 4,
-    "comfort": 3,
-    "craft": 3,
-    "style": 3
+ "name": "Finisterre",
+ "band": "premium",
+ "seat": 26,
+ "dagger": 1,
+ "focus": {
+  "tech": 4,
+  "comfort": 3,
+  "craft": 3,
+  "style": 3
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 2,
+  "wool": 3,
+  "synth": 3
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 3,
+  "fuss": 2,
+  "briish": 4,
+  "whitet": 2,
+  "logo": 2,
+  "western": 1,
+  "rock": 1,
+  "workwear": 2,
+  "outdoor": 4,
+  "surf": 4
+ },
+ "why": "Clothing for cold-water surfing and the coast — wool knits, recycled-fiber shells — from Cornwall.",
+ "origin": "Founded in 2003 by Tom Kay in a workshop in St Agnes, Cornwall; a certified B Corporation.",
+ "say": "fin-i-STAIR",
+ "chan": [
+  "W"
+ ],
+ "conf": "L",
+ "forgc": [
+  4,
+  3,
+  1
+ ],
+ "shop": "https://finisterre.com/en-us/search?q=",
+ "onething": {
+  "p": "Rainbird jacket",
+  "u": "https://finisterre.com/search?q=Rainbird%20jacket",
+  "n": "verified ✓"
+ },
+ "prices": [
+  [
+   40,
+   72
+  ],
+  null,
+  [
+   110,
+   145
+  ],
+  null,
+  [
+   125,
+   125
+  ],
+  [
+   155,
+   205
+  ],
+  [
+   120,
+   385
+  ],
+  null
+ ],
+ "doors": {
+  "c": "full",
+  "n": 0,
+  "cities": [],
+  "basis": "master 2026-08-29, pre-recapture"
+ },
+ "cities": "No store of its own in the US · independent menswear shops, and its own site",
+ "region": {
+  "o": [],
+  "s": [
+   83
+  ]
+ },
+ "addmen": true,
+ "site": {
+  "domain": "finisterre.com",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 3696,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "licensed",
+  "marks": [
+   "Yulex(R)",
+   "REPREVE(R)",
+   "NetPlus(R)",
+   "ECONYL(R)",
+   "SEAQUAL(R)",
+   "Seawool(R)",
+   "CORDURA(R)",
+   "COOLMAX(R)",
+   "TENCEL",
+   "LYCRA"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 113,
+  "w": 108,
+  "n": 70,
+  "s": 26,
+  "c": 0,
+  "x": 12,
+  "xh": 10,
+  "sp": "split",
+  "sc": [
+   "Jackets",
+   "Wetsuits & Swimwear"
+  ],
+  "nc": [
+   "T-Shirts",
+   "Knitwear",
+   "Shirts"
+  ],
+  "st": "complete"
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Dress shirt",
+  "Sweater",
+  "Outerwear"
+ ],
+ "garment_links": {
+  "T-shirt": "https://finisterre.com/en-us/collections/mens-t-shirts",
+  "Dress shirt": "https://finisterre.com/en-us/collections/mens-shirts-polos",
+  "Dress pants": "https://finisterre.com/en-us/collections/mens-trousers-and-jeans",
+  "Sweater": "https://finisterre.com/en-us/collections/mens-knitwear",
+  "Outerwear": "https://finisterre.com/en-us/collections/mens-outerwear-jackets"
+ },
+ "notes": {
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 1; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "Every Finisterre product page sampled names the making factory and town, e.g. SC Angar Prod (Romania) for knitwear, Kaynak Tekstil in Denizli for trousers, and Sheico in Rayong for wetsuits. Finisterre owns no making (St Agnes is its workshop/HQ) and names no cloth mills. It runs a Lived & Loved repair service and Reskinned take-back/resale."
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Men's Harlyn T-shirt",
+   "lu": "https://finisterre.com/en-us/products/mens-organic-cotton-harlyn-tee-navy",
+   "hp": "Men's Solar UPF T-shirt",
+   "hu": "https://finisterre.com/en-us/products/mens-recycled-solar-upf-top-navy-marl",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 1,
-    "linen": 1,
-    "cotton": 2,
-    "wool": 3,
-    "synth": 3
+  "Dress shirt": {
+   "lp": "Men's Portside Shirt",
+   "lu": "https://finisterre.com/en-us/products/mens-organic-cotton-portside-shirt-navy",
+   "hp": "Men's Upland Check Shirt",
+   "hu": "https://finisterre.com/en-us/products/mens-organic-upland-check-shirt-deep-sea-check",
+   "b": "range"
   },
-  "dials": {
-    "dur": 3,
-    "forg": 3,
-    "fuss": 2,
-    "briish": 4,
-    "whitet": 2,
-    "logo": 2,
-    "western": 1,
-    "rock": 1,
-    "workwear": 2,
-    "outdoor": 4,
-    "surf": 4
+  "Dress pants": {
+   "lp": "Men's Rincon Straight Fit Chino",
+   "lu": "https://finisterre.com/en-us/products/mens-organic-cotton-rincon-straight-fit-chino-burnt-umber",
+   "hp": "Men's Rincon Straight Fit Chino",
+   "hu": "https://finisterre.com/en-us/products/mens-organic-cotton-rincon-straight-fit-chino-burnt-umber",
+   "b": "single"
   },
-  "why": "Clothing for cold-water surfing and the coast — wool knits, recycled-fiber shells — from Cornwall.",
-  "origin": "Founded in 2003 by Tom Kay in a workshop in St Agnes, Cornwall; a certified B Corporation.",
-  "say": "fin-i-STAIR",
-  "chan": ["W"],
-  "conf": "L",
-  "forgc": [4, 3, 1],
-  "shop": "https://finisterre.com/en-us/search?q=",
-  "onething": {
-    "p": "Rainbird jacket",
-    "u": "https://finisterre.com/search?q=Rainbird%20jacket",
-    "n": "verified ✓"
+  "Sweater": {
+   "lp": "Men's Escall Crew Neck Knit Sweater",
+   "lu": "https://finisterre.com/en-us/products/mens-recycled-escall-crew-neck-knit-jumper-indigo",
+   "hp": "Men's Finisterre Mora 1/4 Zip Knit Jumper",
+   "hu": "https://finisterre.com/en-us/products/mens-wool-mora-quarter-zip-knit-jumper-earth",
+   "b": "range"
   },
-  "prices": [[40, 72], null, [110, 145], null, [125, 125], [155, 205], [120, 385], null],
-  "doors": {
-    "c": "full",
-    "n": 0,
-    "cities": [],
-    "basis": "master 2026-08-29, pre-recapture"
-  },
-  "cities": "No store of its own in the US · independent menswear shops, and its own site",
-  "region": {
-    "o": [],
-    "s": [83]
-  },
-  "addmen": true,
-  "site": {
-    "domain": "finisterre.com",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 3696,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "licensed",
-    "marks": [
-      "Yulex(R)",
-      "REPREVE(R)",
-      "NetPlus(R)",
-      "ECONYL(R)",
-      "SEAQUAL(R)",
-      "Seawool(R)",
-      "CORDURA(R)",
-      "COOLMAX(R)",
-      "TENCEL",
-      "LYCRA"
-    ],
-    "source": "census",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 113,
-    "w": 108,
-    "n": 70,
-    "s": 26,
-    "c": 0,
-    "x": 12,
-    "xh": 10,
-    "sp": "split",
-    "sc": ["Jackets", "Wetsuits & Swimwear"],
-    "nc": ["T-Shirts", "Knitwear", "Shirts"],
-    "st": "complete"
-  },
-  "price_range_only": ["T-shirt", "Dress shirt", "Sweater", "Outerwear"],
-  "garment_links": {
-    "T-shirt": "https://finisterre.com/en-us/collections/mens-t-shirts",
-    "Dress shirt": "https://finisterre.com/en-us/collections/mens-shirts-polos",
-    "Dress pants": "https://finisterre.com/en-us/collections/mens-trousers-and-jeans",
-    "Sweater": "https://finisterre.com/en-us/collections/mens-knitwear",
-    "Outerwear": "https://finisterre.com/en-us/collections/mens-outerwear-jackets"
-  },
-  "notes": {
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 1; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Every Finisterre product page sampled names the making factory and town, e.g. SC Angar Prod (Romania) for knitwear, Kaynak Tekstil in Denizli for trousers, and Sheico in Rayong for wetsuits. Finisterre owns no making (St Agnes is its workshop/HQ) and names no cloth mills. It runs a Lived & Loved repair service and Reskinned take-back/resale."
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Men's Harlyn T-shirt",
-      "lu": "https://finisterre.com/en-us/products/mens-organic-cotton-harlyn-tee-navy",
-      "hp": "Men's Solar UPF T-shirt",
-      "hu": "https://finisterre.com/en-us/products/mens-recycled-solar-upf-top-navy-marl",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Men's Portside Shirt",
-      "lu": "https://finisterre.com/en-us/products/mens-organic-cotton-portside-shirt-navy",
-      "hp": "Men's Upland Check Shirt",
-      "hu": "https://finisterre.com/en-us/products/mens-organic-upland-check-shirt-deep-sea-check",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Men's Rincon Straight Fit Chino",
-      "lu": "https://finisterre.com/en-us/products/mens-organic-cotton-rincon-straight-fit-chino-burnt-umber",
-      "hp": "Men's Rincon Straight Fit Chino",
-      "hu": "https://finisterre.com/en-us/products/mens-organic-cotton-rincon-straight-fit-chino-burnt-umber",
-      "b": "single"
-    },
-    "Sweater": {
-      "lp": "Men's Escall Crew Neck Knit Sweater",
-      "lu": "https://finisterre.com/en-us/products/mens-recycled-escall-crew-neck-knit-jumper-indigo",
-      "hp": "Men's Finisterre Mora 1/4 Zip Knit Jumper",
-      "hu": "https://finisterre.com/en-us/products/mens-wool-mora-quarter-zip-knit-jumper-earth",
-      "b": "range"
-    },
-    "Outerwear": {
-      "lp": "Men's Forecast Windbreaker Jacket",
-      "lu": "https://finisterre.com/en-us/products/mens-recycled-forecast-windbreaker-jacket-olive",
-      "hp": "Men's Surge Field Jacket",
-      "hu": "https://finisterre.com/en-us/products/mens-organic-cotton-surge-field-jacket-black",
-      "b": "range"
-    }
-  },
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://finisterre.com/en-us",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=314684",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "certs": {
-    "bcorp": {
-      "e": "Finisterre UK Limited"
-    }
-  },
-  "season": {
-    "l": "Autumn 2026",
-    "t": "campaign",
-    "u": "https://finisterre.com/en-us/blogs/broadcast/autumn-2026-embrace-the-elements",
-    "m": "unisex"
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "History page: founded 2003 by Tom Kay above a surf shop; now based in a St Agnes cliff-top workshop (design/HQ). No owned factory claimed; every sampled PDP names a third-party maker.",
-    "makers": "yes",
-    "mills": "no",
-    "madein": "every product",
-    "countries": "Turkey 3/6, Romania 1/6, China 1/6, Thailand 1/6 (sample of 6 men's PDPs: knit, shirt, trouser, waterproof jacket, tee, wetsuit). Wool page also cites jumpers knitted in England (not in sample).",
-    "heritage": "dated and placed",
-    "repair": "yes",
-    "process": "some",
-    "urls": [
-      "https://finisterre.com/products/mens-barents-jumper-wool-indigo",
-      "https://finisterre.com/pages/reskinned"
-    ],
-    "conf": "high",
-    "read": "2026-10-03"
+  "Outerwear": {
+   "lp": "Men's Forecast Windbreaker Jacket",
+   "lu": "https://finisterre.com/en-us/products/mens-recycled-forecast-windbreaker-jacket-olive",
+   "hp": "Men's Surge Field Jacket",
+   "hu": "https://finisterre.com/en-us/products/mens-organic-cotton-surge-field-jacket-black",
+   "b": "range"
   }
+ },
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://finisterre.com/en-us",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=314684",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "certs": {
+  "bcorp": {
+   "e": "Finisterre UK Limited"
+  }
+ },
+ "season": {
+  "l": "Autumn 2026",
+  "t": "campaign",
+  "u": "https://finisterre.com/en-us/blogs/broadcast/autumn-2026-embrace-the-elements",
+  "m": "unisex"
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "History page: founded 2003 by Tom Kay above a surf shop; now based in a St Agnes cliff-top workshop (design/HQ). No owned factory claimed; every sampled PDP names a third-party maker.",
+  "makers": "yes",
+  "mills": "no",
+  "madein": "every product",
+  "countries": "Turkey 3/6, Romania 1/6, China 1/6, Thailand 1/6 (sample of 6 men's PDPs: knit, shirt, trouser, waterproof jacket, tee, wetsuit). Wool page also cites jumpers knitted in England (not in sample).",
+  "heritage": "dated and placed",
+  "repair": "yes",
+  "process": "some",
+  "urls": [
+   "https://finisterre.com/products/mens-barents-jumper-wool-indigo",
+   "https://finisterre.com/pages/reskinned"
+  ],
+  "conf": "high",
+  "read": "2026-10-03"
+ }
 }

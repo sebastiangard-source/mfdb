@@ -1,211 +1,306 @@
 {
-  "name": "Peserico",
-  "band": "accessible",
-  "seat": 126,
-  "dagger": 0,
-  "focus": {
-    "tech": 2,
-    "comfort": 3,
-    "craft": 4,
-    "style": 4
+ "name": "Peserico",
+ "band": "accessible",
+ "seat": 126,
+ "dagger": 0,
+ "focus": {
+  "tech": 2,
+  "comfort": 3,
+  "craft": 4,
+  "style": 4
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 3,
+  "linen": 4,
+  "cotton": 4,
+  "wool": 5,
+  "synth": 2
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 3,
+  "fuss": 1,
+  "status": 2,
+  "ital": 5,
+  "avant": 0,
+  "whitet": 2,
+  "logo": 1,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Trousers and tailoring from the Veneto, with the Italian mills named; the men's line is recent.",
+ "origin": "Founded in 1962 by Maria Peserico near Vicenza; men's collection since 2021.",
+ "say": "peh-ZEH-ree-ko",
+ "chan": [
+  "D",
+  "I",
+  "X"
+ ],
+ "conf": "L",
+ "forgc": [
+  3,
+  3,
+  1
+ ],
+ "onething": {
+  "p": "Wool gabardine trouser",
+  "u": "https://us.peserico.com/collections/mens-trousers",
+  "n": "verified — the house was founded on trousers in 1962 and still leads with them; the men’s versions run in Loro Piana wool with a Rain System finish. Category page rather than a SKU so it survives the season"
+ },
+ "prices": [
+  [
+   385,
+   405
+  ],
+  null,
+  [
+   475,
+   635
+  ],
+  [
+   575,
+   635
+  ],
+  [
+   659,
+   845
+  ],
+  [
+   505,
+   669
+  ],
+  [
+   815,
+   4935
+  ],
+  [
+   815,
+   959
+  ]
+ ],
+ "price_checked": true,
+ "notes": {
+  "wool": "names its mills, which few houses do: Loro Piana, Vitale Barberis Canonico, Reda and Zegna Baruffa Lane Borgosesia among them",
+  "ital": "Veneto by origin and Italian end to end — Cornedo Vicentino, the Riviera del Brenta, Modena and Puglia",
+  "craft": "Peserico's own site names a headquarters in Cornedo Vicentino, a 'proprietary workshop' for knitwear in Novi (Modena), and a couture workshop near Vicenza bought in 2023. It describes embroidery and footwear as entrusted to districts, not owned. Product pages say Made in Italy on every item and name the mill on some (Zegna, Lanificio di Pray) but never the workshop. That is real owned making that does not clearly cover the whole range: a 4, though on different grounds from the current reason.",
+  "style": "quiet-luxury register: no logo, the cloth doing the talking",
+  "reach": "eleven of its nineteen US locations are concessions inside Bloomingdale’s and Saks. The map counts the eight own boutiques and not the concessions, on the rule that closed Paul & Shark [authored findability score was 3; retired 28 Sep 2026]",
+  "tech": "named weather finishes — Rain System and Green Storm System — on a line of technical wool outerwear. A real technical business sitting under a cloth-and-tailoring argument",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+ },
+ "doors": {
+  "c": "full",
+  "n": 9,
+  "cities": [
+   [
+    "Charleston",
+    "SC",
+    1
+   ],
+   [
+    "East Hampton",
+    "NY",
+    1
+   ],
+   [
+    "Greenwich",
+    "CT",
+    1
+   ],
+   [
+    "Hackensack",
+    "NJ",
+    1
+   ],
+   [
+    "Naples",
+    "FL",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    1
+   ],
+   [
+    "Newport Beach",
+    "CA",
+    1
+   ],
+   [
+    "Palm Beach",
+    "FL",
+    1
+   ],
+   [
+    "Palo Alto",
+    "CA",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 5,
+  "con": 13
+ },
+ "cities": "9 stores, including Boston, East Hampton, Greenwich · department stores and independent menswear shops, and its own site",
+ "region": {
+  "o": [
+   2739,
+   2740,
+   2745,
+   2747
+  ],
+  "s": []
+ },
+ "site": {
+  "domain": "us.peserico.com",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 1905,
+  "status": "live_store",
+  "checked": "2026-09-21"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "unclear",
+  "marks": [
+   "Loro Piana Storm System(R) (licensed)",
+   "internal membrane"
+  ],
+  "source": "flag_sample",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 210,
+  "w": 203,
+  "n": 92,
+  "s": 4,
+  "c": 1,
+  "x": 21,
+  "xh": 2,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "TROUSERS",
+   "KNITWEAR",
+   "OUTERWEAR"
+  ],
+  "st": "complete"
+ },
+ "shop": "https://us.peserico.com/search?q=",
+ "garment_links": {
+  "T-shirt": "https://us.peserico.com/collections/mens-t-shirts-polos",
+  "Dress shirt": "https://us.peserico.com/collections/mens-shirts",
+  "Jeans": "https://us.peserico.com/collections/denim-man",
+  "Dress pants": "https://us.peserico.com/collections/mens-trousers",
+  "Sweater": "https://us.peserico.com/collections/mens-knitwear",
+  "Outerwear": "https://us.peserico.com/collections/mens-outerwear",
+  "Shoes": "https://us.peserico.com/collections/mens-shoes"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Pure Cotton Jersey T-shirt",
+   "lu": "https://us.peserico.com/products/72-r55044j0q4-02358-500",
+   "hp": "Cotton jersey T-shirt",
+   "hu": "https://us.peserico.com/products/72-r55558j0q2-a0089-a00",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 2,
-    "cashmere": 3,
-    "linen": 4,
-    "cotton": 4,
-    "wool": 5,
-    "synth": 2
+  "Dress shirt": {
+   "lp": "Shirt in Pure Cotton Flannel Twill",
+   "lu": "https://us.peserico.com/products/72-r56060-00148-971",
+   "hp": "Pure cotton shirt",
+   "hu": "https://us.peserico.com/products/72-r56061-03507-987",
+   "b": "range"
   },
-  "dials": {
-    "dur": 3,
-    "forg": 3,
-    "fuss": 1,
-    "status": 2,
-    "ital": 5,
-    "avant": 0,
-    "whitet": 2,
-    "logo": 1,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
+  "Jeans": {
+   "lp": "Bull cotton jeans",
+   "lu": "https://us.peserico.com/products/72-r54717tsq-03644-203",
+   "hp": "Cotton twill jeans",
+   "hu": "https://us.peserico.com/products/72-r54717l86q-04291-962",
+   "b": "range"
   },
-  "why": "Trousers and tailoring from the Veneto, with the Italian mills named; the men's line is recent.",
-  "origin": "Founded in 1962 by Maria Peserico near Vicenza; men's collection since 2021.",
-  "say": "peh-ZEH-ree-ko",
-  "chan": ["D", "I", "X"],
-  "conf": "L",
-  "forgc": [3, 3, 1],
-  "onething": {
-    "p": "Wool gabardine trouser",
-    "u": "https://us.peserico.com/collections/mens-trousers",
-    "n": "verified — the house was founded on trousers in 1962 and still leads with them; the men’s versions run in Loro Piana wool with a Rain System finish. Category page rather than a SKU so it survives the season"
+  "Dress pants": {
+   "lp": "Pure wool gabardine trousers",
+   "lu": "https://us.peserico.com/products/72-r54236-02445-272",
+   "hp": "Technical pure wool gabardine trousers",
+   "hu": "https://us.peserico.com/products/72-r54220d-02566-061",
+   "b": "range"
   },
-  "prices": [[385, 405], null, [475, 635], [575, 635], [659, 845], [505, 669], [815, 4935], [815, 959]],
-  "price_checked": true,
-  "notes": {
-    "wool": "names its mills, which few houses do: Loro Piana, Vitale Barberis Canonico, Reda and Zegna Baruffa Lane Borgosesia among them",
-    "ital": "Veneto by origin and Italian end to end — Cornedo Vicentino, the Riviera del Brenta, Modena and Puglia",
-    "craft": "Peserico's own site names a headquarters in Cornedo Vicentino, a 'proprietary workshop' for knitwear in Novi (Modena), and a couture workshop near Vicenza bought in 2023. It describes embroidery and footwear as entrusted to districts, not owned. Product pages say Made in Italy on every item and name the mill on some (Zegna, Lanificio di Pray) but never the workshop. That is real owned making that does not clearly cover the whole range: a 4, though on different grounds from the current reason.",
-    "style": "quiet-luxury register: no logo, the cloth doing the talking",
-    "reach": "eleven of its nineteen US locations are concessions inside Bloomingdale’s and Saks. The map counts the eight own boutiques and not the concessions, on the rule that closed Paul & Shark [authored findability score was 3; retired 28 Sep 2026]",
-    "tech": "named weather finishes — Rain System and Green Storm System — on a line of technical wool outerwear. A real technical business sitting under a cloth-and-tailoring argument",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+  "Sweater": {
+   "lp": "Wool and cashmere sweater",
+   "lu": "https://us.peserico.com/products/72-r59526f12-9v470-v40",
+   "hp": "Alpaca, wool and cotton-blend sweater",
+   "hu": "https://us.peserico.com/products/72-r59608f05-p9249-p46",
+   "b": "pair"
   },
-  "doors": {
-    "c": "full",
-    "n": 8,
-    "cities": [
-      ["Boston", "MA", 1],
-      ["East Hampton", "NY", 1],
-      ["Greenwich", "CT", 1],
-      ["Naples", "FL", 1],
-      ["New York", "NY", 1],
-      ["Newport Beach", "CA", 1],
-      ["Palm Beach", "FL", 1],
-      ["Palo Alto", "CA", 1]
-    ],
-    "basis": "master 2026-08-29, pre-recapture",
-    "addressed": 4
+  "Outerwear": {
+   "lp": "Cotton twill denim jacket",
+   "lu": "https://us.peserico.com/products/72-r52780l85-04291-962",
+   "hp": "Genuine nappa leather bomber jacket",
+   "hu": "https://us.peserico.com/products/72-r52307c03-cc585-952",
+   "b": "range"
   },
-  "cities": "8 stores, including Boston, East Hampton, Greenwich · department stores and independent menswear shops, and its own site",
-  "region": {
-    "o": [3115, 3116, 3117, 3118],
-    "s": []
-  },
-  "site": {
-    "domain": "us.peserico.com",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 1905,
-    "status": "live_store",
-    "checked": "2026-09-21"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "unclear",
-    "marks": ["Loro Piana Storm System(R) (licensed)", "internal membrane"],
-    "source": "flag_sample",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 210,
-    "w": 203,
-    "n": 92,
-    "s": 4,
-    "c": 1,
-    "x": 21,
-    "xh": 2,
-    "sp": "one",
-    "sc": [],
-    "nc": ["TROUSERS", "KNITWEAR", "OUTERWEAR"],
-    "st": "complete"
-  },
-  "shop": "https://us.peserico.com/search?q=",
-  "garment_links": {
-    "T-shirt": "https://us.peserico.com/collections/mens-t-shirts-polos",
-    "Dress shirt": "https://us.peserico.com/collections/mens-shirts",
-    "Jeans": "https://us.peserico.com/collections/denim-man",
-    "Dress pants": "https://us.peserico.com/collections/mens-trousers",
-    "Sweater": "https://us.peserico.com/collections/mens-knitwear",
-    "Outerwear": "https://us.peserico.com/collections/mens-outerwear",
-    "Shoes": "https://us.peserico.com/collections/mens-shoes"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Pure Cotton Jersey T-shirt",
-      "lu": "https://us.peserico.com/products/72-r55044j0q4-02358-500",
-      "hp": "Cotton jersey T-shirt",
-      "hu": "https://us.peserico.com/products/72-r55558j0q2-a0089-a00",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Shirt in Pure Cotton Flannel Twill",
-      "lu": "https://us.peserico.com/products/72-r56060-00148-971",
-      "hp": "Pure cotton shirt",
-      "hu": "https://us.peserico.com/products/72-r56061-03507-987",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Bull cotton jeans",
-      "lu": "https://us.peserico.com/products/72-r54717tsq-03644-203",
-      "hp": "Cotton twill jeans",
-      "hu": "https://us.peserico.com/products/72-r54717l86q-04291-962",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Pure wool gabardine trousers",
-      "lu": "https://us.peserico.com/products/72-r54236-02445-272",
-      "hp": "Technical pure wool gabardine trousers",
-      "hu": "https://us.peserico.com/products/72-r54220d-02566-061",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Wool and cashmere sweater",
-      "lu": "https://us.peserico.com/products/72-r59526f12-9v470-v40",
-      "hp": "Alpaca, wool and cotton-blend sweater",
-      "hu": "https://us.peserico.com/products/72-r59608f05-p9249-p46",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "Cotton twill denim jacket",
-      "lu": "https://us.peserico.com/products/72-r52780l85-04291-962",
-      "hp": "Genuine nappa leather bomber jacket",
-      "hu": "https://us.peserico.com/products/72-r52307c03-cc585-952",
-      "b": "range"
-    },
-    "Shoes": {
-      "lp": "Knit and suede sneakers",
-      "lu": "https://us.peserico.com/products/72-r79082c0-cc913-945",
-      "hp": "Genuine leather boots",
-      "hu": "https://us.peserico.com/products/72-r79089c0-cc927-952",
-      "b": "range"
-    }
-  },
-  "price_range_only": ["T-shirt", "Dress shirt", "Jeans", "Dress pants", "Outerwear", "Shoes"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://us.peserico.com/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=278586",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "season": {
-    "l": "FW26 ('Observers of the Infinite')",
-    "t": "campaign",
-    "u": "https://us.peserico.com/pages/observers-of-the-infinite-the-new-fw26-campaign",
-    "m": "unisex"
-  },
-  "craft_evidence": {
-    "owned": "yes",
-    "owned_d": "Brand's philosophy page names: headquarters in Cornedo Vicentino (Vicenza) with 'more than 100 professionals' on garment making; 'Novi, in the district of Modena, is home to the proprietary workshop entirely dedicated to knitwear'; 'In 2023 Peserico acquired a new haute couture workshop in the Vicenza area' for skirts, shirts and dresses (women's). Embroidery (Puglia workshops) and footwear/leather (Riviera del Brenta) are described as 'entrusted'/'carried out' there, not as owned. Evidence type: brand's own statements with places named; no photographs, filings or factory tour checked.",
-    "makers": "no",
-    "mills": "some",
-    "madein": "every product",
-    "countries": "Italy 10/10 (sample of 10 PDPs on us.peserico.com: coat, blazer, overshirt, jacket, sweatshirt, vest, 2 trousers, 2 knits). Brand states products are 'made entirely in Italy'.",
-    "heritage": "dated and placed",
-    "repair": "NC",
-    "process": "some",
-    "urls": [
-      "https://us.peserico.com/pages/our-philosophy-the-quality-of-caring-the-details",
-      "https://us.peserico.com/pages/sixty-years-of-italian-tradition-since-1962-peserico-is-synonymous-of-italian-tailoring"
-    ],
-    "conf": "medium",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Knit and suede sneakers",
+   "lu": "https://us.peserico.com/products/72-r79082c0-cc913-945",
+   "hp": "Genuine leather boots",
+   "hu": "https://us.peserico.com/products/72-r79089c0-cc927-952",
+   "b": "range"
   }
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants",
+  "Outerwear",
+  "Shoes"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://us.peserico.com/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=278586",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "season": {
+  "l": "FW26 ('Observers of the Infinite')",
+  "t": "campaign",
+  "u": "https://us.peserico.com/pages/observers-of-the-infinite-the-new-fw26-campaign",
+  "m": "unisex"
+ },
+ "craft_evidence": {
+  "owned": "yes",
+  "owned_d": "Brand's philosophy page names: headquarters in Cornedo Vicentino (Vicenza) with 'more than 100 professionals' on garment making; 'Novi, in the district of Modena, is home to the proprietary workshop entirely dedicated to knitwear'; 'In 2023 Peserico acquired a new haute couture workshop in the Vicenza area' for skirts, shirts and dresses (women's). Embroidery (Puglia workshops) and footwear/leather (Riviera del Brenta) are described as 'entrusted'/'carried out' there, not as owned. Evidence type: brand's own statements with places named; no photographs, filings or factory tour checked.",
+  "makers": "no",
+  "mills": "some",
+  "madein": "every product",
+  "countries": "Italy 10/10 (sample of 10 PDPs on us.peserico.com: coat, blazer, overshirt, jacket, sweatshirt, vest, 2 trousers, 2 knits). Brand states products are 'made entirely in Italy'.",
+  "heritage": "dated and placed",
+  "repair": "NC",
+  "process": "some",
+  "urls": [
+   "https://us.peserico.com/pages/our-philosophy-the-quality-of-caring-the-details",
+   "https://us.peserico.com/pages/sixty-years-of-italian-tradition-since-1962-peserico-is-synonymous-of-italian-tailoring"
+  ],
+  "conf": "medium",
+  "read": "2026-10-03"
+ }
 }

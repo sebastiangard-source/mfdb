@@ -1,199 +1,255 @@
 {
-  "name": "Citizens of Humanity",
-  "band": "accessible",
-  "seat": 86,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 3,
-    "craft": 4,
-    "style": 3
+ "name": "Citizens of Humanity",
+ "band": "accessible",
+ "seat": 86,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 3,
+  "craft": 4,
+  "style": 3
+ },
+ "fabric": {
+  "denim": 5,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 1,
+  "wool": 1,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 2,
+  "fuss": -2,
+  "murica": 2,
+  "whitet": 2,
+  "logo": 1,
+  "western": 1,
+  "rock": 2,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Premium jeans made in Los Angeles; the company owns its own laundries, so the wash is done in-house.",
+ "origin": "Founded in Los Angeles in 2003 by Jérôme Dahan.",
+ "chan": [
+  "D",
+  "I"
+ ],
+ "conf": "L",
+ "forgc": [
+  2,
+  3,
+  1
+ ],
+ "shop": "https://citizensofhumanity.com/search?q=",
+ "onething": {
+  "p": "London jean",
+  "u": "https://citizensofhumanity.com/search?q=London+jean+men",
+  "n": ""
+ },
+ "prices": [
+  [
+   98,
+   108
+  ],
+  [
+   148,
+   148
+  ],
+  [
+   258,
+   468
+  ],
+  [
+   198,
+   328
+  ],
+  [
+   248,
+   248
+  ],
+  null,
+  [
+   328,
+   798
+  ],
+  null
+ ],
+ "notes": {
+  "denim": "owns its LA laundries — the wash is the craft",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 3; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "Citizens of Humanity's how-we-are-made page says its jeans are made in company-owned sewing and laundry facilities in Los Angeles (and Turkey), and its denim, trouser, sweatshirt and denim-jacket pages say Made in USA. It names no mill and no factory on product pages, and some categories (shirts from Turkey, suede from India) are made elsewhere with partners. Owned making for the core denim category, not the whole range: a 4."
+ },
+ "doors": {
+  "c": "full",
+  "n": 1,
+  "cities": [
+   [
+    "Aspend",
+    "CO",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 0,
+  "con": 0
+ },
+ "cities": "One store, in Aspen · department stores and independent menswear shops, and its own site",
+ "region": {
+  "o": [],
+  "s": [
+   41,
+   52,
+   96,
+   131
+  ]
+ },
+ "addmen": true,
+ "site": {
+  "domain": "citizensofhumanity.com",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 985,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "both",
+  "marks": [
+   "House fabric-facet names: Perform Denim",
+   "Cashmere Denim",
+   "Archive Denim",
+   "Luxury Cotton Twill",
+   "Soft Weft",
+   "Comfort Stretch",
+   "Sueded Fleece",
+   "French Terry. Licensed/fibre: Tencel Lyocell (composition_only)",
+   "Supima (composition_only)",
+   "Lycra (composition_only). Also \"technical fabric\" 1"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 74,
+  "w": 74,
+  "n": 93,
+  "s": 0,
+  "c": 7,
+  "x": 64,
+  "xh": 0,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "Pants",
+   "Tops",
+   "Jackets"
+  ],
+  "st": "complete"
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Dress shirt",
+  "Jeans",
+  "Outerwear"
+ ],
+ "garment_links": {
+  "T-shirt": "https://citizensofhumanity.com/collections/mens-tees",
+  "Polo": "https://citizensofhumanity.com/collections/mens-tops-collection",
+  "Dress shirt": "https://citizensofhumanity.com/collections/mens-shirting",
+  "Jeans": "https://citizensofhumanity.com/collections/mens-denim-collection",
+  "Dress pants": "https://citizensofhumanity.com/collections/mens-pants",
+  "Outerwear": "https://citizensofhumanity.com/collections/mens-jackets"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Everyday Short Sleeve Tee in White",
+   "lu": "https://citizensofhumanity.com/products/everyday-short-sleeve-tee-white",
+   "hp": "Everyday Short Sleeve Tee in Indigo",
+   "hu": "https://citizensofhumanity.com/products/everyday-short-sleeve-tee-indigo",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 5,
-    "cashmere": 1,
-    "linen": 1,
-    "cotton": 1,
-    "wool": 1,
-    "synth": 1
+  "Polo": {
+   "lp": "Banded Polo in Navy",
+   "lu": "https://citizensofhumanity.com/products/banded-polo-navy",
+   "hp": "Banded Polo in Navy",
+   "hu": "https://citizensofhumanity.com/products/banded-polo-navy",
+   "b": "single"
   },
-  "dials": {
-    "dur": 3,
-    "forg": 2,
-    "fuss": -2,
-    "murica": 2,
-    "whitet": 2,
-    "logo": 1,
-    "western": 1,
-    "rock": 2,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
+  "Dress shirt": {
+   "lp": "Cairo Utility Shirt in Tempo",
+   "lu": "https://citizensofhumanity.com/products/cairo-utility-shirt-tempo",
+   "hp": "Shigoto Shirt in Rambler Plaid",
+   "hu": "https://citizensofhumanity.com/products/shigoto-shirt-rambler-plaid",
+   "b": "range"
   },
-  "why": "Premium jeans made in Los Angeles; the company owns its own laundries, so the wash is done in-house.",
-  "origin": "Founded in Los Angeles in 2003 by Jérôme Dahan.",
-  "chan": ["D", "I"],
-  "conf": "L",
-  "forgc": [2, 3, 1],
-  "shop": "https://citizensofhumanity.com/search?q=",
-  "onething": {
-    "p": "London jean",
-    "u": "https://citizensofhumanity.com/search?q=London+jean+men",
-    "n": ""
+  "Jeans": {
+   "lp": "Sid Regular Straight Perform in Raven",
+   "lu": "https://citizensofhumanity.com/products/sid-regular-straight-raven",
+   "hp": "Beau Straight Premium Vintage in Solace",
+   "hu": "https://citizensofhumanity.com/products/beau-straight-premium-vintage-solace",
+   "b": "range"
   },
-  "prices": [[98, 108], [148, 148], [258, 468], [198, 328], [248, 248], null, [328, 798], null],
-  "notes": {
-    "denim": "owns its LA laundries — the wash is the craft",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 3; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Citizens of Humanity's how-we-are-made page says its jeans are made in company-owned sewing and laundry facilities in Los Angeles (and Turkey), and its denim, trouser, sweatshirt and denim-jacket pages say Made in USA. It names no mill and no factory on product pages, and some categories (shirts from Turkey, suede from India) are made elsewhere with partners. Owned making for the core denim category, not the whole range: a 4."
+  "Dress pants": {
+   "lp": "Belgian Chino in Tan",
+   "lu": "https://citizensofhumanity.com/products/belgian-chino-herringbone-tan",
+   "hp": "Belgian Chino in Tan",
+   "hu": "https://citizensofhumanity.com/products/belgian-chino-herringbone-tan",
+   "b": "single"
   },
-  "doors": {
-    "c": "full",
-    "n": 1,
-    "cities": [["Aspen", "CO", 1]],
-    "basis": "master 2026-08-29, pre-recapture"
-  },
-  "cities": "One store, in Aspen · department stores and independent menswear shops, and its own site",
-  "region": {
-    "o": [],
-    "s": [41, 52, 96, 131]
-  },
-  "addmen": true,
-  "site": {
-    "domain": "citizensofhumanity.com",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 985,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "both",
-    "marks": [
-      "House fabric-facet names: Perform Denim",
-      "Cashmere Denim",
-      "Archive Denim",
-      "Luxury Cotton Twill",
-      "Soft Weft",
-      "Comfort Stretch",
-      "Sueded Fleece",
-      "French Terry. Licensed/fibre: Tencel Lyocell (composition_only)",
-      "Supima (composition_only)",
-      "Lycra (composition_only). Also \"technical fabric\" 1"
-    ],
-    "source": "census",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 74,
-    "w": 74,
-    "n": 93,
-    "s": 0,
-    "c": 7,
-    "x": 64,
-    "xh": 0,
-    "sp": "one",
-    "sc": [],
-    "nc": ["Pants", "Tops", "Jackets"],
-    "st": "complete"
-  },
-  "price_range_only": ["T-shirt", "Dress shirt", "Jeans", "Outerwear"],
-  "garment_links": {
-    "T-shirt": "https://citizensofhumanity.com/collections/mens-tees",
-    "Polo": "https://citizensofhumanity.com/collections/mens-tops-collection",
-    "Dress shirt": "https://citizensofhumanity.com/collections/mens-shirting",
-    "Jeans": "https://citizensofhumanity.com/collections/mens-denim-collection",
-    "Dress pants": "https://citizensofhumanity.com/collections/mens-pants",
-    "Outerwear": "https://citizensofhumanity.com/collections/mens-jackets"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Everyday Short Sleeve Tee in White",
-      "lu": "https://citizensofhumanity.com/products/everyday-short-sleeve-tee-white",
-      "hp": "Everyday Short Sleeve Tee in Indigo",
-      "hu": "https://citizensofhumanity.com/products/everyday-short-sleeve-tee-indigo",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Banded Polo in Navy",
-      "lu": "https://citizensofhumanity.com/products/banded-polo-navy",
-      "hp": "Banded Polo in Navy",
-      "hu": "https://citizensofhumanity.com/products/banded-polo-navy",
-      "b": "single"
-    },
-    "Dress shirt": {
-      "lp": "Cairo Utility Shirt in Tempo",
-      "lu": "https://citizensofhumanity.com/products/cairo-utility-shirt-tempo",
-      "hp": "Shigoto Shirt in Rambler Plaid",
-      "hu": "https://citizensofhumanity.com/products/shigoto-shirt-rambler-plaid",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Sid Regular Straight Perform in Raven",
-      "lu": "https://citizensofhumanity.com/products/sid-regular-straight-raven",
-      "hp": "Beau Straight Premium Vintage in Solace",
-      "hu": "https://citizensofhumanity.com/products/beau-straight-premium-vintage-solace",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Belgian Chino in Tan",
-      "lu": "https://citizensofhumanity.com/products/belgian-chino-herringbone-tan",
-      "hp": "Belgian Chino in Tan",
-      "hu": "https://citizensofhumanity.com/products/belgian-chino-herringbone-tan",
-      "b": "single"
-    },
-    "Outerwear": {
-      "lp": "Box Denim Jacket in Crosshatch",
-      "lu": "https://citizensofhumanity.com/products/box-denim-jacket-crosshatch",
-      "hp": "Hopper Denim Jacket in Corbin",
-      "hu": "https://citizensofhumanity.com/products/hopper-denim-jacket-corbin",
-      "b": "range"
-    }
-  },
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://citizensofhumanity.com/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=67850",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "season": {
-    "l": "Fall '26",
-    "t": "lookbook",
-    "u": "https://citizensofhumanity.com/pages/mens-shop-the-look",
-    "m": "yes"
-  },
-  "craft_evidence": {
-    "owned": "yes",
-    "owned_d": "Brand page /pages/how-we-are-made: jeans 'manufactured in our company-owned facilities as well as with select production partners', with 'sewing and laundry facilities in Los Angeles and Turkey'; 250 sewers, ~5,000 pieces/week, own ozone process. Facility named by city only (no address/facility name on the brand site). Corroborated by Fashionista factory tour (Dec 2017): vertically integrated downtown-LA operation (cutting, sewing, washing, distribution) that also makes AGOLDE and Goldsign; facility president quoted. Whether the Turkey facility is owned or a partner is not stated clearly.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "every product",
-    "countries": "USA 6/8 (jeans x2, 4-way-stretch twill trouser, denim shirt, sweatshirt, denim jacket), Turkey 1/8 (Cairo utility shirt), India 1/8 (Deck suede jacket). Sample of 8 PDPs: jeans, non-denim trousers, shirts, sweatshirt, jackets. All read 'Made in X with imported materials'.",
-    "heritage": "dated and placed",
-    "repair": "no",
-    "process": "some",
-    "urls": [
-      "https://citizensofhumanity.com/pages/how-we-are-made",
-      "https://fashionista.com/2017/12/citizens-of-humanity-jeans-denim-factory-tour"
-    ],
-    "conf": "high",
-    "read": "2026-10-03"
+  "Outerwear": {
+   "lp": "Box Denim Jacket in Crosshatch",
+   "lu": "https://citizensofhumanity.com/products/box-denim-jacket-crosshatch",
+   "hp": "Hopper Denim Jacket in Corbin",
+   "hu": "https://citizensofhumanity.com/products/hopper-denim-jacket-corbin",
+   "b": "range"
   }
+ },
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://citizensofhumanity.com/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=67850",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "season": {
+  "l": "Fall '26",
+  "t": "lookbook",
+  "u": "https://citizensofhumanity.com/pages/mens-shop-the-look",
+  "m": "yes"
+ },
+ "craft_evidence": {
+  "owned": "yes",
+  "owned_d": "Brand page /pages/how-we-are-made: jeans 'manufactured in our company-owned facilities as well as with select production partners', with 'sewing and laundry facilities in Los Angeles and Turkey'; 250 sewers, ~5,000 pieces/week, own ozone process. Facility named by city only (no address/facility name on the brand site). Corroborated by Fashionista factory tour (Dec 2017): vertically integrated downtown-LA operation (cutting, sewing, washing, distribution) that also makes AGOLDE and Goldsign; facility president quoted. Whether the Turkey facility is owned or a partner is not stated clearly.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "every product",
+  "countries": "USA 6/8 (jeans x2, 4-way-stretch twill trouser, denim shirt, sweatshirt, denim jacket), Turkey 1/8 (Cairo utility shirt), India 1/8 (Deck suede jacket). Sample of 8 PDPs: jeans, non-denim trousers, shirts, sweatshirt, jackets. All read 'Made in X with imported materials'.",
+  "heritage": "dated and placed",
+  "repair": "no",
+  "process": "some",
+  "urls": [
+   "https://citizensofhumanity.com/pages/how-we-are-made",
+   "https://fashionista.com/2017/12/citizens-of-humanity-jeans-denim-factory-tour"
+  ],
+  "conf": "high",
+  "read": "2026-10-03"
+ }
 }

@@ -1,207 +1,291 @@
 {
-  "name": "Ami Paris",
-  "band": "accessible",
-  "seat": 123,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 3,
-    "craft": 2,
-    "style": 4
+ "name": "Ami Paris",
+ "band": "accessible",
+ "seat": 123,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 3,
+  "craft": 2,
+  "style": 4
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 2,
+  "linen": 2,
+  "cotton": 2,
+  "wool": 2,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 3,
+  "fuss": 0,
+  "fren": 5,
+  "whitet": 2,
+  "logo": 2,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 2,
+  "surf": 1
+ },
+ "why": "Parisian casual clothing and tailoring, easy and wearable, with a heart-and-A logo.",
+ "origin": "Founded in 2011 by Alexandre Mattiussi; AMI is his initials and the French word for friend.",
+ "say": "ah-MEE pa-REE",
+ "chan": [
+  "O",
+  "D"
+ ],
+ "conf": "L",
+ "forgc": [
+  3,
+  3,
+  1
+ ],
+ "onething": {
+  "p": "Ami de Coeur crewneck sweater",
+  "u": "https://www.amiparis.com/en-us/products/grey-wool-ami-de-coeur-crewneck-sweater-uks838018084",
+  "n": "verified product page — the gray/red intarsia classic; site is /en-us/ not /us/"
+ },
+ "prices": [
+  [
+   190,
+   320
+  ],
+  [
+   250,
+   450
+  ],
+  [
+   380,
+   680
+  ],
+  [
+   390,
+   550
+  ],
+  [
+   640,
+   970
+  ],
+  [
+   430,
+   690
+  ],
+  [
+   680,
+   2650
+  ],
+  [
+   730,
+   730
+  ]
+ ],
+ "notes": {
+  "fren": "Alexandre Mattiussi built the house on an idea of the Paris everyman, and the ami de cœur heart is a friendship mark rather than a logo. Approachable French rather than couture French.",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 3; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "Ami's product data states a country of make on most items (Romania for tailoring and outerwear, Turkey for leather, Portugal for knits and shirts, Italy for accessories, plus Bulgaria, Spain, Morocco and China). It names no makers, mills or owned ateliers. That is a stated country and little else, which is a 2."
+ },
+ "doors": {
+  "c": "full",
+  "n": 5,
+  "cities": [
+   [
+    "Aventura",
+    "FL",
+    1
+   ],
+   [
+    "Costa Mesa",
+    "CA",
+    1
+   ],
+   [
+    "Miami",
+    "FL",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    1
+   ],
+   [
+    "West Hollywood",
+    "CA",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 0,
+  "con": 0
+ },
+ "cities": "5 stores — Aventura, Miami, New York, West Hollywood · department stores, and its own site",
+ "region": {
+  "o": [
+   361
+  ],
+  "s": []
+ },
+ "addmen": true,
+ "site": {
+  "domain": "amiparis.com",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 656,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "no",
+  "origin": "none",
+  "marks": [],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 177,
+  "w": 177,
+  "n": 96,
+  "s": 1,
+  "c": 3,
+  "x": 3,
+  "xh": 1,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "tailoring",
+   "sweaters-and-cardigans",
+   "jackets-and-coats"
+  ],
+  "st": "complete"
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants",
+  "Outerwear"
+ ],
+ "garment_links": {
+  "T-shirt": "https://www.amiparis.com/en-us/collections/men-t-shirts-and-polos",
+  "Polo": "https://www.amiparis.com/en-us/collections/men-t-shirts-and-polos",
+  "Dress shirt": "https://www.amiparis.com/en-us/collections/men-shirts",
+  "Jeans": "https://www.amiparis.com/en-us/collections/men-pants",
+  "Dress pants": "https://www.amiparis.com/en-us/collections/men-pants",
+  "Sweater": "https://www.amiparis.com/en-us/collections/men-sweaters-and-cardigans",
+  "Outerwear": "https://www.amiparis.com/en-us/collections/men-jackets-and-coats",
+  "Shoes": "https://www.amiparis.com/en-us/collections/men-sneakers"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "White cotton t-shirt with Ami de Coeur",
+   "lu": "https://www.amiparis.com/en-us/products/white-cotton-ami-de-coeur-t-shirt-hts346724100",
+   "hp": "Red cotton t-shirt with Ami Paris embroidery",
+   "hu": "https://www.amiparis.com/en-us/products/red-cotton-t-shirt-with-ami-paris-embroidery-uts418je0272a202",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 2,
-    "cashmere": 2,
-    "linen": 2,
-    "cotton": 2,
-    "wool": 2,
-    "synth": 1
+  "Polo": {
+   "lp": "White Cotton Short Sleeves Ami De Coeur Polo Shirt",
+   "lu": "https://www.amiparis.com/en-us/products/white-cotton-short-sleeves-ami-de-coeur-polo-shirt-hpl411760100",
+   "hp": "Black Wool Short Sleeves Ami De Coeur Polo (merino)",
+   "hu": "https://www.amiparis.com/en-us/products/black-wool-short-sleeves-ami-de-coeur-polo-hpl438kn00390180",
+   "b": "range"
   },
-  "dials": {
-    "dur": 3,
-    "forg": 3,
-    "fuss": 0,
-    "fren": 5,
-    "whitet": 2,
-    "logo": 2,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 2,
-    "surf": 1
+  "Dress shirt": {
+   "lp": "White cotton shirt with Ami de Coeur",
+   "lu": "https://www.amiparis.com/en-us/products/white-cotton-shirt-with-ami-de-coeur-hsh764co0045100",
+   "hp": "Black wool shirt",
+   "hu": "https://www.amiparis.com/en-us/products/black-wool-shirt-hsh871wv0211001",
+   "b": "range"
   },
-  "why": "Parisian casual clothing and tailoring, easy and wearable, with a heart-and-A logo.",
-  "origin": "Founded in 2011 by Alexandre Mattiussi; AMI is his initials and the French word for friend.",
-  "say": "ah-MEE pa-REE",
-  "chan": ["O", "D"],
-  "conf": "L",
-  "forgc": [3, 3, 1],
-  "onething": {
-    "p": "Ami de Coeur crewneck sweater",
-    "u": "https://www.amiparis.com/en-us/products/grey-wool-ami-de-coeur-crewneck-sweater-uks838018084",
-    "n": "verified product page — the gray/red intarsia classic; site is /en-us/ not /us/"
+  "Jeans": {
+   "lp": "Black tapered-fit cotton jeans",
+   "lu": "https://www.amiparis.com/en-us/products/black-tapered-fit-cotton-jeans-htr103de0131001",
+   "hp": "Blue baggy-fit cotton jeans (striped denim)",
+   "hu": "https://www.amiparis.com/en-us/products/blue-baggy-fit-cotton-jeans-htr919de0136a227",
+   "b": "range"
   },
-  "prices": [[190, 320], [250, 450], [380, 680], [390, 550], [640, 970], [430, 690], [680, 2650], [730, 730]],
-  "notes": {
-    "fren": "Alexandre Mattiussi built the house on an idea of the Paris everyman, and the ami de cœur heart is a friendship mark rather than a logo. Approachable French rather than couture French.",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 3; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Ami's product data states a country of make on most items (Romania for tailoring and outerwear, Turkey for leather, Portugal for knits and shirts, Italy for accessories, plus Bulgaria, Spain, Morocco and China). It names no makers, mills or owned ateliers. That is a stated country and little else, which is a 2."
+  "Dress pants": {
+   "lp": "Black straight-fit wool trousers",
+   "lu": "https://www.amiparis.com/en-us/products/black-straight-fit-wool-trousers-htr506wv0211001",
+   "hp": "Brown houndstooth balloon-fit wool trousers",
+   "hu": "https://www.amiparis.com/en-us/products/brown-houndstooth-balloon-fit-wool-trousers-htr912wv0219a256",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 4,
-    "cities": [["Aventura", "FL", 1], ["Miami", "FL", 1], ["New York", "NY", 1], ["West Hollywood", "CA", 1]],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Sweater": {
+   "lp": "Grey Wool Crewneck Ami De Coeur Sweater",
+   "lu": "https://www.amiparis.com/en-us/products/grey-wool-crewneck-ami-de-coeur-sweater-hks866kn00390504",
+   "hp": "Grey crewneck alpaca sweater with Ami de Coeur (50% alpaca)",
+   "hu": "https://www.amiparis.com/en-us/products/grey-crewneck-alpaca-sweater-with-ami-de-coeur-uks836kn0135a338",
+   "b": "pair"
   },
-  "cities": "4 stores — Aventura, Miami, New York, West Hollywood · department stores, and its own site",
-  "region": {
-    "o": [194],
-    "s": []
+  "Outerwear": {
+   "lp": "Black Cotton Ami De Coeur Zipped Jacket",
+   "lu": "https://www.amiparis.com/en-us/products/black-cotton-ami-de-coeur-zipped-jacket-hjk884co0132001",
+   "hp": "Burgundy crocodile embossed cowhide leather zipped jacket",
+   "hu": "https://www.amiparis.com/en-us/products/burgundy-crocodile-embossed-cowhide-leather-zipped-jacket-ujk954lh0070a235",
+   "b": "range"
   },
-  "addmen": true,
-  "site": {
-    "domain": "amiparis.com",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 656,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "no",
-    "origin": "none",
-    "marks": [],
-    "source": "census",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 177,
-    "w": 177,
-    "n": 96,
-    "s": 1,
-    "c": 3,
-    "x": 3,
-    "xh": 1,
-    "sp": "one",
-    "sc": [],
-    "nc": ["tailoring", "sweaters-and-cardigans", "jackets-and-coats"],
-    "st": "complete"
-  },
-  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants", "Outerwear"],
-  "garment_links": {
-    "T-shirt": "https://www.amiparis.com/en-us/collections/men-t-shirts-and-polos",
-    "Polo": "https://www.amiparis.com/en-us/collections/men-t-shirts-and-polos",
-    "Dress shirt": "https://www.amiparis.com/en-us/collections/men-shirts",
-    "Jeans": "https://www.amiparis.com/en-us/collections/men-pants",
-    "Dress pants": "https://www.amiparis.com/en-us/collections/men-pants",
-    "Sweater": "https://www.amiparis.com/en-us/collections/men-sweaters-and-cardigans",
-    "Outerwear": "https://www.amiparis.com/en-us/collections/men-jackets-and-coats",
-    "Shoes": "https://www.amiparis.com/en-us/collections/men-sneakers"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "White cotton t-shirt with Ami de Coeur",
-      "lu": "https://www.amiparis.com/en-us/products/white-cotton-ami-de-coeur-t-shirt-hts346724100",
-      "hp": "Red cotton t-shirt with Ami Paris embroidery",
-      "hu": "https://www.amiparis.com/en-us/products/red-cotton-t-shirt-with-ami-paris-embroidery-uts418je0272a202",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "White Cotton Short Sleeves Ami De Coeur Polo Shirt",
-      "lu": "https://www.amiparis.com/en-us/products/white-cotton-short-sleeves-ami-de-coeur-polo-shirt-hpl411760100",
-      "hp": "Black Wool Short Sleeves Ami De Coeur Polo (merino)",
-      "hu": "https://www.amiparis.com/en-us/products/black-wool-short-sleeves-ami-de-coeur-polo-hpl438kn00390180",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "White cotton shirt with Ami de Coeur",
-      "lu": "https://www.amiparis.com/en-us/products/white-cotton-shirt-with-ami-de-coeur-hsh764co0045100",
-      "hp": "Black wool shirt",
-      "hu": "https://www.amiparis.com/en-us/products/black-wool-shirt-hsh871wv0211001",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Black tapered-fit cotton jeans",
-      "lu": "https://www.amiparis.com/en-us/products/black-tapered-fit-cotton-jeans-htr103de0131001",
-      "hp": "Blue baggy-fit cotton jeans (striped denim)",
-      "hu": "https://www.amiparis.com/en-us/products/blue-baggy-fit-cotton-jeans-htr919de0136a227",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Black straight-fit wool trousers",
-      "lu": "https://www.amiparis.com/en-us/products/black-straight-fit-wool-trousers-htr506wv0211001",
-      "hp": "Brown houndstooth balloon-fit wool trousers",
-      "hu": "https://www.amiparis.com/en-us/products/brown-houndstooth-balloon-fit-wool-trousers-htr912wv0219a256",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Grey Wool Crewneck Ami De Coeur Sweater",
-      "lu": "https://www.amiparis.com/en-us/products/grey-wool-crewneck-ami-de-coeur-sweater-hks866kn00390504",
-      "hp": "Grey crewneck alpaca sweater with Ami de Coeur (50% alpaca)",
-      "hu": "https://www.amiparis.com/en-us/products/grey-crewneck-alpaca-sweater-with-ami-de-coeur-uks836kn0135a338",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "Black Cotton Ami De Coeur Zipped Jacket",
-      "lu": "https://www.amiparis.com/en-us/products/black-cotton-ami-de-coeur-zipped-jacket-hjk884co0132001",
-      "hp": "Burgundy crocodile embossed cowhide leather zipped jacket",
-      "hu": "https://www.amiparis.com/en-us/products/burgundy-crocodile-embossed-cowhide-leather-zipped-jacket-ujk954lh0070a235",
-      "b": "range"
-    },
-    "Shoes": {
-      "lp": "Black cow leather loafers",
-      "lu": "https://www.amiparis.com/en-us/products/black-cow-leather-loafers-usv845al0122001",
-      "hp": "Black cow leather loafers",
-      "hu": "https://www.amiparis.com/en-us/products/black-cow-leather-loafers-usv845al0122001",
-      "b": "single"
-    }
-  },
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.amiparis.com/en-us",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "shop": "https://www.amiparis.com/en-us/search?q=",
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=7228770",
-      "m": "brand filter",
-      "n": "Vinted also has an 'AMI' entry (4615783) that may hold Ami Paris listings"
-    }
-  },
-  "certs": {
-    "gots": {
-      "e": "AMI PARIS SASU (France)"
-    }
-  },
-  "season": {
-    "l": "Fall-Winter 2026",
-    "t": "lookbook",
-    "u": "https://www.amiparis.com/en-us/pages/fall-winter-2026-keylooks",
-    "m": "yes"
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "None claimed. The about-us ('La Maison') page cites 'l'excellence du savoir-faire sartorial français' but names no atelier, workshop or factory. Products are stated as made in Romania, Turkey, Portugal, Italy, Bulgaria, Spain, Morocco and China.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "most",
-    "countries": "About 22 of 25 products in amiparis.com products.json state a country ('Fabriqué en ...'). Page 1: 12/12 (Romania 3: Harrington jacket and 2 wool-cashmere jackets; Turkey 3: leather and shearling; Italy 3: scarves and tie; Portugal 2: sweater and tee; Bulgaria 1: cap). Page 2: Bulgaria 2, Portugal 2 (incl. a shirt), China 2, Spain 2, Morocco 2, none 3. The rendered PDP for the wool-cashmere jacket did not show the origin line, so it likely sits in an accordion; the product data carries it.",
-    "heritage": "dated and placed",
-    "repair": "no",
-    "process": "no",
-    "urls": ["https://www.amiparis.com/products.json?limit=60", "https://www.amiparis.com/pages/about-us"],
-    "conf": "high",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Black cow leather loafers",
+   "lu": "https://www.amiparis.com/en-us/products/black-cow-leather-loafers-usv845al0122001",
+   "hp": "Black cow leather loafers",
+   "hu": "https://www.amiparis.com/en-us/products/black-cow-leather-loafers-usv845al0122001",
+   "b": "single"
   }
+ },
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.amiparis.com/en-us",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "shop": "https://www.amiparis.com/en-us/search?q=",
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=7228770",
+   "m": "brand filter",
+   "n": "Vinted also has an 'AMI' entry (4615783) that may hold Ami Paris listings"
+  }
+ },
+ "certs": {
+  "gots": {
+   "e": "AMI PARIS SASU (France)"
+  }
+ },
+ "season": {
+  "l": "Fall-Winter 2026",
+  "t": "lookbook",
+  "u": "https://www.amiparis.com/en-us/pages/fall-winter-2026-keylooks",
+  "m": "yes"
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "None claimed. The about-us ('La Maison') page cites 'l'excellence du savoir-faire sartorial français' but names no atelier, workshop or factory. Products are stated as made in Romania, Turkey, Portugal, Italy, Bulgaria, Spain, Morocco and China.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "most",
+  "countries": "About 22 of 25 products in amiparis.com products.json state a country ('Fabriqué en ...'). Page 1: 12/12 (Romania 3: Harrington jacket and 2 wool-cashmere jackets; Turkey 3: leather and shearling; Italy 3: scarves and tie; Portugal 2: sweater and tee; Bulgaria 1: cap). Page 2: Bulgaria 2, Portugal 2 (incl. a shirt), China 2, Spain 2, Morocco 2, none 3. The rendered PDP for the wool-cashmere jacket did not show the origin line, so it likely sits in an accordion; the product data carries it.",
+  "heritage": "dated and placed",
+  "repair": "no",
+  "process": "no",
+  "urls": [
+   "https://www.amiparis.com/products.json?limit=60",
+   "https://www.amiparis.com/pages/about-us"
+  ],
+  "conf": "high",
+  "read": "2026-10-03"
+ }
 }

@@ -1,257 +1,472 @@
 {
-  "name": "Burberry",
-  "band": "trueLux",
-  "seat": 137,
-  "dagger": 0,
-  "focus": {
-    "tech": 2,
-    "comfort": 2,
-    "craft": 4,
-    "style": 4
-  },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 3,
-    "linen": 1,
-    "cotton": 3,
-    "wool": 2,
-    "synth": 2
-  },
-  "dials": {
-    "dur": 3,
-    "forg": 2,
-    "fuss": 1,
-    "bruv": -2,
-    "status": 4,
-    "briish": 5,
-    "whitet": 2,
-    "logo": 3,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
-  },
-  "why": "Trench coats and outerwear in gabardine, the fabric the company patented, with a full fashion range around them.",
-  "origin": "Founded in Basingstoke, England, in 1856 by Thomas Burberry, who patented gabardine in 1888.",
-  "chan": ["O", "D", "X"],
-  "conf": "S",
-  "forgc": [2, 3, 2],
-  "onething": {
-    "p": "Heritage trench",
-    "u": "https://us.burberry.com/search/?query=heritage%20trench%20men",
-    "n": ""
-  },
-  "prices": [
-    [395, 1150],
-    [395, 1050],
-    [495, 1395],
-    [725, 725],
-    [1050, 1450],
-    [885, 1395],
-    [1495, 4450],
-    [920, 995]
+ "name": "Burberry",
+ "band": "trueLux",
+ "seat": 137,
+ "dagger": 0,
+ "focus": {
+  "tech": 2,
+  "comfort": 2,
+  "craft": 4,
+  "style": 4
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 3,
+  "linen": 1,
+  "cotton": 3,
+  "wool": 2,
+  "synth": 2
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 2,
+  "fuss": 1,
+  "bruv": -2,
+  "status": 4,
+  "briish": 5,
+  "whitet": 2,
+  "logo": 3,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Trench coats and outerwear in gabardine, the fabric the company patented, with a full fashion range around them.",
+ "origin": "Founded in Basingstoke, England, in 1856 by Thomas Burberry, who patented gabardine in 1888.",
+ "chan": [
+  "O",
+  "D",
+  "X"
+ ],
+ "conf": "S",
+ "forgc": [
+  2,
+  3,
+  2
+ ],
+ "onething": {
+  "p": "Heritage trench",
+  "u": "https://us.burberry.com/search/?query=heritage%20trench%20men",
+  "n": ""
+ },
+ "prices": [
+  [
+   395,
+   1150
   ],
-  "notes": {
-    "craft": "Burberry really does own its making for its signature product. Its annual report says it makes the Heritage trench at its own Castleford factory, weaves the gabardine at its own Keighley mill, and runs wholly owned leather-goods and technical-outerwear sites in Italy. But that owned making covers the Heritage outerwear and leather, not the range: the polo, puffer and cashmere sweater PDPs on us.burberry.com say only 'Imported', and the annual report credits 'a network of global suppliers'. Owned making for a core category, not the whole house: a 4.",
-    "status": "The check is legible at fifty paces, which is the entire mechanism and also the house's recurring problem. Status that broad is hard to control once it escapes.",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 4; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "briish": "The trench coat, gabardine and the check; a British house by any measure."
+  [
+   395,
+   1050
+  ],
+  [
+   495,
+   1395
+  ],
+  [
+   725,
+   725
+  ],
+  [
+   1050,
+   1450
+  ],
+  [
+   885,
+   1395
+  ],
+  [
+   1495,
+   4450
+  ],
+  [
+   920,
+   995
+  ]
+ ],
+ "notes": {
+  "craft": "Burberry really does own its making for its signature product. Its annual report says it makes the Heritage trench at its own Castleford factory, weaves the gabardine at its own Keighley mill, and runs wholly owned leather-goods and technical-outerwear sites in Italy. But that owned making covers the Heritage outerwear and leather, not the range: the polo, puffer and cashmere sweater PDPs on us.burberry.com say only 'Imported', and the annual report credits 'a network of global suppliers'. Owned making for a core category, not the whole house: a 4.",
+  "status": "The check is legible at fifty paces, which is the entire mechanism and also the house's recurring problem. Status that broad is hard to control once it escapes.",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 4; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "briish": "The trench coat, gabardine and the check; a British house by any measure."
+ },
+ "doors": {
+  "c": "full",
+  "n": 43,
+  "cities": [
+   [
+    "Atlanta",
+    "GA",
+    1
+   ],
+   [
+    "Austin",
+    "TX",
+    1
+   ],
+   [
+    "Aventura",
+    "FL",
+    1
+   ],
+   [
+    "Bellevue",
+    "WA",
+    1
+   ],
+   [
+    "Beverly Hills",
+    "CA",
+    1
+   ],
+   [
+    "Boston",
+    "MA",
+    1
+   ],
+   [
+    "Charlotte",
+    "NC",
+    1
+   ],
+   [
+    "Chicago",
+    "IL",
+    1
+   ],
+   [
+    "Costa Mesa",
+    "CA",
+    1
+   ],
+   [
+    "Dallas",
+    "TX",
+    1
+   ],
+   [
+    "Denver",
+    "CO",
+    1
+   ],
+   [
+    "Edina",
+    "MN",
+    1
+   ],
+   [
+    "Fort Worth",
+    "TX",
+    1
+   ],
+   [
+    "Garden City",
+    "NY",
+    1
+   ],
+   [
+    "Honolulu",
+    "HI",
+    2
+   ],
+   [
+    "Houston",
+    "TX",
+    1
+   ],
+   [
+    "King of Prussia",
+    "PA",
+    1
+   ],
+   [
+    "Las Vegas",
+    "NV",
+    3
+   ],
+   [
+    "Los Angeles",
+    "CA",
+    2
+   ],
+   [
+    "Manhasset",
+    "NY",
+    1
+   ],
+   [
+    "Miami",
+    "FL",
+    1
+   ],
+   [
+    "Nashville",
+    "TN",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    2
+   ],
+   [
+    "Oak Brook",
+    "IL",
+    1
+   ],
+   [
+    "Orlando",
+    "FL",
+    1
+   ],
+   [
+    "Paramus",
+    "NJ",
+    1
+   ],
+   [
+    "Pittsburgh",
+    "PA",
+    1
+   ],
+   [
+    "Queens",
+    "NY",
+    1
+   ],
+   [
+    "San Diego",
+    "CA",
+    1
+   ],
+   [
+    "San Francisco",
+    "CA",
+    1
+   ],
+   [
+    "Santa Clara",
+    "CA",
+    1
+   ],
+   [
+    "Scottsdale",
+    "AZ",
+    1
+   ],
+   [
+    "Short Hills",
+    "NJ",
+    1
+   ],
+   [
+    "Tampa",
+    "FL",
+    1
+   ],
+   [
+    "Troy",
+    "MI",
+    1
+   ],
+   [
+    "Tysons",
+    "VA",
+    1
+   ],
+   [
+    "Washington",
+    "DC",
+    1
+   ],
+   [
+    "White Plains",
+    "NY",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 13,
+  "con": 3
+ },
+ "cities": "43 stores across the US · department stores, and its own site",
+ "region": {
+  "o": [
+   890,
+   896,
+   898,
+   900,
+   901,
+   903,
+   913,
+   923,
+   924,
+   928,
+   929
+  ],
+  "s": []
+ },
+ "addmen": true,
+ "site": {
+  "domain": "us.burberry.com",
+  "platform": "custom",
+  "feed": "sitemap_products",
+  "feed_count": 3647,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "unclear",
+  "marks": [
+   "Burberry cotton gabardine (house, shower-resistant)"
+  ],
+  "source": "flag_sample",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 332,
+  "w": 332,
+  "n": 80,
+  "s": 19,
+  "c": 1,
+  "x": 6,
+  "xh": 1,
+  "sp": "one",
+  "sc": [
+   "puffers",
+   "quilts",
+   "activewear",
+   "swimwear"
+  ],
+  "nc": [
+   "polos-t-shirts",
+   "trousers-shorts",
+   "blazers-tailored-trousers"
+  ],
+  "st": "complete"
+ },
+ "garment_links": {
+  "T-shirt": "https://us.burberry.com/l/mens-clothing/polos-t-shirts/t-shirts/",
+  "Polo": "https://us.burberry.com/l/mens-clothing/polos-t-shirts/polos/",
+  "Dress shirt": "https://us.burberry.com/l/mens-clothing/shirts/",
+  "Jeans": "https://us.burberry.com/l/mens-clothing/denim/",
+  "Dress pants": "https://us.burberry.com/l/mens-clothing/pants-shorts/",
+  "Sweater": "https://us.burberry.com/l/mens-clothing/knitwear/",
+  "Outerwear": "https://us.burberry.com/l/mens-coats-jackets/",
+  "Shoes": "https://us.burberry.com/l/mens-shoes/"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Check Piping Cotton T-shirt",
+   "lu": "https://us.burberry.com/check-piping-cotton-t-shirt-p81275901",
+   "hp": "Striped Wool Blend T-shirt (knitted, short sleeves, crew neck, 95% wool)",
+   "hu": "https://us.burberry.com/striped-wool-blend-t-shirt-p81250451",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 43,
-    "cities": [
-      ["Atlanta", "GA", 1],
-      ["Austin", "TX", 1],
-      ["Aventura", "FL", 1],
-      ["Bellevue", "WA", 1],
-      ["Beverly Hills", "CA", 1],
-      ["Boston", "MA", 1],
-      ["Charlotte", "NC", 1],
-      ["Chicago", "IL", 2],
-      ["Costa Mesa", "CA", 1],
-      ["Dallas", "TX", 1],
-      ["Denver", "CO", 1],
-      ["Edina", "MN", 1],
-      ["Fort Worth", "TX", 1],
-      ["Garden City", "NY", 1],
-      ["Honolulu", "HI", 2],
-      ["Houston", "TX", 1],
-      ["King Of Prussia", "PA", 1],
-      ["Las Vegas", "NV", 3],
-      ["Los Angeles", "CA", 2],
-      ["Manhasset", "NY", 1],
-      ["Miami", "FL", 1],
-      ["Nashville", "TN", 1],
-      ["New York", "NY", 3],
-      ["Orlando", "FL", 1],
-      ["Paramus", "NJ", 1],
-      ["Pittsburgh", "PA", 1],
-      ["San Diego", "CA", 1],
-      ["San Francisco", "CA", 1],
-      ["Santa Clara", "CA", 1],
-      ["Scottsdale", "AZ", 1],
-      ["Short Hills", "NJ", 1],
-      ["Tampa", "FL", 1],
-      ["Troy", "MI", 1],
-      ["Tysons", "VA", 1],
-      ["Washington", "DC", 1],
-      ["White Plains", "NY", 1]
-    ],
-    "basis": "recapture 2026-09"
+  "Polo": {
+   "lp": "Cotton Polo Shirt",
+   "lu": "https://us.burberry.com/cotton-polo-shirt-p81324251",
+   "hp": "Cashmere Polo Shirt (100% cashmere fine knit)",
+   "hu": "https://us.burberry.com/cashmere-polo-shirt-p81235541",
+   "b": "pair"
   },
-  "cities": "43 stores across the US · department stores, and its own site",
-  "region": {
-    "o": [647, 651, 652, 656, 657, 658, 659, 660, 661, 662, 663],
-    "s": []
+  "Dress shirt": {
+   "lp": "Classic Fit Gingham Cotton Shirt (long sleeves, button-down collar)",
+   "lu": "https://us.burberry.com/classic-fit-gingham-cotton-shirt-p81335271",
+   "hp": "Oversized Check Silk Shirt (100% silk, camp collar)",
+   "hu": "https://us.burberry.com/oversized-check-silk-shirt-p80912021",
+   "b": "pair"
   },
-  "addmen": true,
-  "site": {
-    "domain": "us.burberry.com",
-    "platform": "custom",
-    "feed": "sitemap_products",
-    "feed_count": 3647,
-    "status": "live_store",
-    "checked": "2026-09-13"
+  "Jeans": {
+   "lp": "Slim Jeans",
+   "lu": "https://us.burberry.com/slim-jeans-p81248011",
+   "hp": "Loose Jeans",
+   "hu": "https://us.burberry.com/loose-jeans-p81111031",
+   "b": "range"
   },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "unclear",
-    "marks": ["Burberry cotton gabardine (house, shower-resistant)"],
-    "source": "flag_sample",
-    "checked": "2026-09-12"
+  "Dress pants": {
+   "lp": "Wool Tailored Trousers",
+   "lu": "https://us.burberry.com/wool-tailored-trousers-p80926661",
+   "hp": "Grain de Poudre Wool Tuxedo Trousers",
+   "hu": "https://us.burberry.com/grain-de-poudre-wool-tuxedo-trousers-p81180641",
+   "b": "range"
   },
-  "fibre": {
-    "t": 332,
-    "w": 332,
-    "n": 80,
-    "s": 19,
-    "c": 1,
-    "x": 6,
-    "xh": 1,
-    "sp": "one",
-    "sc": ["puffers", "quilts", "activewear", "swimwear"],
-    "nc": ["polos-t-shirts", "trousers-shorts", "blazers-tailored-trousers"],
-    "st": "complete"
+  "Sweater": {
+   "lp": "Wool Sweater (crew neck, wool)",
+   "lu": "https://us.burberry.com/wool-sweater-p81275861",
+   "hp": "Check Cashmere Sweater (cashmere, crew neck)",
+   "hu": "https://us.burberry.com/check-cashmere-sweater-p81317811",
+   "b": "pair"
   },
-  "garment_links": {
-    "T-shirt": "https://us.burberry.com/l/mens-clothing/polos-t-shirts/t-shirts/",
-    "Polo": "https://us.burberry.com/l/mens-clothing/polos-t-shirts/polos/",
-    "Dress shirt": "https://us.burberry.com/l/mens-clothing/shirts/",
-    "Jeans": "https://us.burberry.com/l/mens-clothing/denim/",
-    "Dress pants": "https://us.burberry.com/l/mens-clothing/pants-shorts/",
-    "Sweater": "https://us.burberry.com/l/mens-clothing/knitwear/",
-    "Outerwear": "https://us.burberry.com/l/mens-coats-jackets/",
-    "Shoes": "https://us.burberry.com/l/mens-shoes/"
+  "Outerwear": {
+   "lp": "Nylon Clapton Hooded Jacket (100% polyamide)",
+   "lu": "https://us.burberry.com/nylon-clapton-hooded-jacket-p81229011",
+   "hp": "Leather Clapton Hooded Jacket (100% lambskin)",
+   "hu": "https://us.burberry.com/leather-clapton-hooded-jacket-p81301901",
+   "b": "pair"
   },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Check Piping Cotton T-shirt",
-      "lu": "https://us.burberry.com/check-piping-cotton-t-shirt-p81275901",
-      "hp": "Striped Wool Blend T-shirt (knitted, short sleeves, crew neck, 95% wool)",
-      "hu": "https://us.burberry.com/striped-wool-blend-t-shirt-p81250451",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Cotton Polo Shirt",
-      "lu": "https://us.burberry.com/cotton-polo-shirt-p81324251",
-      "hp": "Cashmere Polo Shirt (100% cashmere fine knit)",
-      "hu": "https://us.burberry.com/cashmere-polo-shirt-p81235541",
-      "b": "pair"
-    },
-    "Dress shirt": {
-      "lp": "Classic Fit Gingham Cotton Shirt (long sleeves, button-down collar)",
-      "lu": "https://us.burberry.com/classic-fit-gingham-cotton-shirt-p81335271",
-      "hp": "Oversized Check Silk Shirt (100% silk, camp collar)",
-      "hu": "https://us.burberry.com/oversized-check-silk-shirt-p80912021",
-      "b": "pair"
-    },
-    "Jeans": {
-      "lp": "Slim Jeans",
-      "lu": "https://us.burberry.com/slim-jeans-p81248011",
-      "hp": "Loose Jeans",
-      "hu": "https://us.burberry.com/loose-jeans-p81111031",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Wool Tailored Trousers",
-      "lu": "https://us.burberry.com/wool-tailored-trousers-p80926661",
-      "hp": "Grain de Poudre Wool Tuxedo Trousers",
-      "hu": "https://us.burberry.com/grain-de-poudre-wool-tuxedo-trousers-p81180641",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Wool Sweater (crew neck, wool)",
-      "lu": "https://us.burberry.com/wool-sweater-p81275861",
-      "hp": "Check Cashmere Sweater (cashmere, crew neck)",
-      "hu": "https://us.burberry.com/check-cashmere-sweater-p81317811",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "Nylon Clapton Hooded Jacket (100% polyamide)",
-      "lu": "https://us.burberry.com/nylon-clapton-hooded-jacket-p81229011",
-      "hp": "Leather Clapton Hooded Jacket (100% lambskin)",
-      "hu": "https://us.burberry.com/leather-clapton-hooded-jacket-p81301901",
-      "b": "pair"
-    },
-    "Shoes": {
-      "lp": "Check and Leather Pembroke Loafers",
-      "lu": "https://us.burberry.com/check-and-leather-pembroke-loafers-p81353651",
-      "hp": "Leather Pembroke Loafers",
-      "hu": "https://us.burberry.com/leather-pembroke-loafers-p81279541",
-      "b": "pair"
-    }
-  },
-  "price_range_only": ["T-shirt", "Jeans", "Dress pants"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://us.burberry.com/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=364&brand_ids[]=1755472&brand_ids[]=4989633&brand_ids[]=10067593&brand_ids[]=1866716",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "certs": {
-    "gots": {
-      "e": "Burberry Limited (UK)"
-    }
-  },
-  "season": {
-    "l": "Winter 2026",
-    "t": "runway",
-    "u": "https://us.burberry.com/c/burberry-world/collections/winter-2026-show/",
-    "m": "unisex"
-  },
-  "craft_evidence": {
-    "owned": "yes",
-    "owned_d": "Burberry plc Annual Report 2025/26 (p.12): 'make our iconic Heritage Trench Coats at our factory in Castleford' and 'We weave gabardine at our Burberry Mill in Keighley, Yorkshire'; p.5 describes a two-year renovation of the 'historic Castleford factory'. Same page: 'We operate wholly owned leather goods and technical outerwear centres of excellence in Italy' (towns not named in the report text read). Burberry plc 'Made in the UK' release (2024): Castleford makes the Heritage Trench and Car Coats (four styles: Chelsea, Kensington, Waterloo trench, Camden car coat), 50+ years on site, with a training school; Keighley mill weaves the cotton gabardine for those coats and the Burberry Check cotton. These are the brand's own (Burberry plc) facilities. Coverage: Heritage trench/car coats and some gabardine outerwear (Yorkshire), plus Italian leather goods and technical outerwear. The rest of the RTW range (polos, knitwear, puffers) is supplied by 'a network of global suppliers' (AR p.12).",
-    "makers": "some",
-    "mills": "some",
-    "madein": "some",
-    "countries": "England (Yorkshire) 3/8, Scotland 1/8, Italy 1/8, 'Imported' with no country 3/8. US-site sample of 8 PDPs: Kensington Heritage trench, Mid-length Camden car coat, gabardine Harrington, check cashmere scarf, Hampstead leather tote, cotton polo, hooded nylon puffer, cashmere sweater. A 9th PDP, the wool Snowdon puffer, showed no origin text. It may be in an accordion the fetch could not see, so it is not counted.",
-    "heritage": "dated and placed",
-    "repair": "yes",
-    "process": "some",
-    "urls": [
-      "https://www.burberryplc.com/content/dam/burberryplc/corporate/oar/oar-2025-2026/annual-report-2025-26.pdf",
-      "https://www.burberryplc.com/news/brand/2024/burberry-launches-made-in-the-uk-series"
-    ],
-    "conf": "high",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Check and Leather Pembroke Loafers",
+   "lu": "https://us.burberry.com/check-and-leather-pembroke-loafers-p81353651",
+   "hp": "Leather Pembroke Loafers",
+   "hu": "https://us.burberry.com/leather-pembroke-loafers-p81279541",
+   "b": "pair"
   }
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Jeans",
+  "Dress pants"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://us.burberry.com/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=364&brand_ids[]=1755472&brand_ids[]=4989633&brand_ids[]=10067593&brand_ids[]=1866716",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "certs": {
+  "gots": {
+   "e": "Burberry Limited (UK)"
+  }
+ },
+ "season": {
+  "l": "Winter 2026",
+  "t": "runway",
+  "u": "https://us.burberry.com/c/burberry-world/collections/winter-2026-show/",
+  "m": "unisex"
+ },
+ "craft_evidence": {
+  "owned": "yes",
+  "owned_d": "Burberry plc Annual Report 2025/26 (p.12): 'make our iconic Heritage Trench Coats at our factory in Castleford' and 'We weave gabardine at our Burberry Mill in Keighley, Yorkshire'; p.5 describes a two-year renovation of the 'historic Castleford factory'. Same page: 'We operate wholly owned leather goods and technical outerwear centres of excellence in Italy' (towns not named in the report text read). Burberry plc 'Made in the UK' release (2024): Castleford makes the Heritage Trench and Car Coats (four styles: Chelsea, Kensington, Waterloo trench, Camden car coat), 50+ years on site, with a training school; Keighley mill weaves the cotton gabardine for those coats and the Burberry Check cotton. These are the brand's own (Burberry plc) facilities. Coverage: Heritage trench/car coats and some gabardine outerwear (Yorkshire), plus Italian leather goods and technical outerwear. The rest of the RTW range (polos, knitwear, puffers) is supplied by 'a network of global suppliers' (AR p.12).",
+  "makers": "some",
+  "mills": "some",
+  "madein": "some",
+  "countries": "England (Yorkshire) 3/8, Scotland 1/8, Italy 1/8, 'Imported' with no country 3/8. US-site sample of 8 PDPs: Kensington Heritage trench, Mid-length Camden car coat, gabardine Harrington, check cashmere scarf, Hampstead leather tote, cotton polo, hooded nylon puffer, cashmere sweater. A 9th PDP, the wool Snowdon puffer, showed no origin text. It may be in an accordion the fetch could not see, so it is not counted.",
+  "heritage": "dated and placed",
+  "repair": "yes",
+  "process": "some",
+  "urls": [
+   "https://www.burberryplc.com/content/dam/burberryplc/corporate/oar/oar-2025-2026/annual-report-2025-26.pdf",
+   "https://www.burberryplc.com/news/brand/2024/burberry-launches-made-in-the-uk-series"
+  ],
+  "conf": "high",
+  "read": "2026-10-03"
+ }
 }

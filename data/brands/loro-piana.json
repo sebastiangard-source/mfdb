@@ -1,265 +1,393 @@
 {
-  "name": "Loro Piana",
-  "band": "trueLux",
-  "seat": 198,
-  "dagger": 0,
-  "focus": {
-    "tech": 2,
-    "comfort": 5,
-    "craft": 5,
-    "style": 4
-  },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 5,
-    "linen": 4,
-    "cotton": 3,
-    "wool": 5,
-    "synth": 1
-  },
-  "dials": {
-    "dur": 3,
-    "forg": 3,
-    "fuss": 3,
-    "sail": -2,
-    "shoes": 4,
-    "golf": 2,
-    "status": 5,
-    "finbro": 5,
-    "ital": 5,
-    "boat": 5,
-    "racquet": 4,
-    "ski": 3,
-    "whitet": 2,
-    "logo": 1,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 2
-  },
-  "why": "Cashmere, vicuña and fine-wool clothing from a company that controls its raw materials; owned by LVMH.",
-  "origin": "The Loro Piana family have traded wool in Piedmont since the early 1800s; the company dates from 1924.",
-  "say": "LOR-o pee-AH-na",
-  "chan": ["O", "D"],
-  "conf": "L",
-  "forgc": [4, 3, 3],
-  "shop": "https://us.loropiana.com/en/search?q=",
-  "onething": {
-    "p": "Summer Walk loafer",
-    "u": "https://us.loropiana.com/en/search?q=Summer%20Walk%20loafer%20men",
-    "n": "verified ✓"
-  },
-  "prices": [
-    [650, 2750],
-    [690, 5900],
-    [705, 11900],
-    [815, 1650],
-    [1570, 13100],
-    [1000, 10800],
-    [2770, 11900],
-    [950, 2150]
+ "name": "Loro Piana",
+ "band": "trueLux",
+ "seat": 198,
+ "dagger": 0,
+ "focus": {
+  "tech": 2,
+  "comfort": 5,
+  "craft": 5,
+  "style": 4
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 5,
+  "linen": 4,
+  "cotton": 3,
+  "wool": 5,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 3,
+  "fuss": 3,
+  "sail": -2,
+  "shoes": 4,
+  "golf": 2,
+  "status": 5,
+  "finbro": 5,
+  "ital": 5,
+  "boat": 5,
+  "racquet": 4,
+  "ski": 3,
+  "whitet": 2,
+  "logo": 1,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 2
+ },
+ "why": "Cashmere, vicuña and fine-wool clothing from a company that controls its raw materials; owned by LVMH.",
+ "origin": "The Loro Piana family have traded wool in Piedmont since the early 1800s; the company dates from 1924.",
+ "say": "LOR-o pee-AH-na",
+ "chan": [
+  "O",
+  "D"
+ ],
+ "conf": "L",
+ "forgc": [
+  4,
+  3,
+  3
+ ],
+ "shop": "https://us.loropiana.com/en/search?q=",
+ "onething": {
+  "p": "Summer Walk loafer",
+  "u": "https://us.loropiana.com/en/search?q=Summer%20Walk%20loafer%20men",
+  "n": "verified ✓"
+ },
+ "prices": [
+  [
+   650,
+   2750
   ],
-  "shoelink": {
-    "t": "Summer Walk",
-    "u": "https://us.loropiana.com/en/search?q=Summer%20Walk"
+  [
+   690,
+   5900
+  ],
+  [
+   705,
+   11900
+  ],
+  [
+   815,
+   1650
+  ],
+  [
+   1570,
+   13100
+  ],
+  [
+   1000,
+   10800
+  ],
+  [
+   2770,
+   11900
+  ],
+  [
+   950,
+   2150
+  ]
+ ],
+ "shoelink": {
+  "t": "Summer Walk",
+  "u": "https://us.loropiana.com/en/search?q=Summer%20Walk"
+ },
+ "notes": {
+  "cashmere": "vicuña and baby cashmere — it owns the scarcity itself",
+  "wool": "record-bale merino programs",
+  "linen": "top-grade European flax in its summer canon",
+  "golf": "the quiet-luxury golf capsule — cashmere on the back nine",
+  "status": "the post-Succession cap: quiet luxury made deafening",
+  "finbro": "the senior private-equity uniform: the quarter-zip, the Summer Walk loafers, the cap",
+  "boat": "The Superyacht Regatta carries the house name, and the sailing line is a standing part of the collection rather than a summer capsule. The nautical claim is earned rather than borrowed.",
+  "racquet": "A grass-court register cut in mill-owned cloth. Sport as setting rather than as exertion.",
+  "ital": "Six generations of the family at the Quarona mill before LVMH bought control in 2013. The house buys its own fiber at source, which is why the Italianness runs further back than the garment.",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 3; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "comfort": "Cashmere, vicuña and baby cashmere in soft, unstructured shapes; the fiber is chosen for feel.",
+  "craft": "LVMH's page for Loro Piana says the company owns 9 production sites, all in Italy, produces 5 million meters of fabric a year and 'controls every stage of production' from fiber to finished product. Product pages say Made in Italy and use the house's own named cloths. The 5 holds on the owned mills, though garment-making sites are not named."
+ },
+ "fibre": {
+  "t": 675,
+  "w": 580,
+  "n": 86,
+  "s": 0,
+  "c": 0,
+  "x": 0,
+  "xh": null,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "Knitwear",
+   "Outerwear & coats",
+   "Trousers / denim / bermudas"
+  ],
+  "st": "complete"
+ },
+ "doors": {
+  "c": "full",
+  "n": 21,
+  "cities": [
+   [
+    "Aspen",
+    "CO",
+    1
+   ],
+   [
+    "Bal Harbour",
+    "FL",
+    1
+   ],
+   [
+    "Beverly Hills",
+    "CA",
+    1
+   ],
+   [
+    "Boston",
+    "MA",
+    1
+   ],
+   [
+    "Chicago",
+    "IL",
+    1
+   ],
+   [
+    "Costa Mesa",
+    "CA",
+    1
+   ],
+   [
+    "Dallas",
+    "TX",
+    1
+   ],
+   [
+    "East Hampton",
+    "NY",
+    1
+   ],
+   [
+    "Houston",
+    "TX",
+    1
+   ],
+   [
+    "Las Vegas",
+    "NV",
+    1
+   ],
+   [
+    "Manhasset",
+    "NY",
+    1
+   ],
+   [
+    "Miami",
+    "FL",
+    1
+   ],
+   [
+    "Montecito",
+    "CA",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    2
+   ],
+   [
+    "Palm Beach",
+    "FL",
+    1
+   ],
+   [
+    "Palo Alto",
+    "CA",
+    1
+   ],
+   [
+    "San Francisco",
+    "CA",
+    1
+   ],
+   [
+    "Scottsdale",
+    "AZ",
+    1
+   ],
+   [
+    "Vail",
+    "CO",
+    1
+   ],
+   [
+    "Washington Dc",
+    "DC",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 0,
+  "con": 1
+ },
+ "cities": "21 stores across the US · department stores and independent menswear shops, and its own site",
+ "region": {
+  "o": [
+   2119,
+   2123,
+   2127,
+   2132,
+   2133
+  ],
+  "s": [
+   44,
+   51,
+   60
+  ]
+ },
+ "addmen": true,
+ "addcloth": true,
+ "site": {
+  "domain": "us.loropiana.com",
+  "platform": "custom",
+  "feed": "sitemap_products",
+  "feed_count": 6408,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "both",
+  "marks": [
+   "ON THE CURRENT MEN'S CATALOGUE (house, in the PLP material field, 1,755 men's variants): Storm System(R) 175 | The Gift of Kings(R) 139 | Wish(R) 108 | Rain System(R) 52 | Windmate(R) 15 | Pecora Nera(R) 9 | CashDenim(R) 8 (4 written with (R), 4 without) | Zelander(R) 4 | Clima System(R) 3 | Austral"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "garment_links": {
+  "T-shirt": "https://us.loropiana.com/en/c/man/polo-and-t-shirts",
+  "Polo": "https://us.loropiana.com/en/c/man/polo-and-t-shirts",
+  "Dress shirt": "https://us.loropiana.com/en/c/man/shirts",
+  "Jeans": "https://us.loropiana.com/en/c/man/denim",
+  "Dress pants": "https://us.loropiana.com/en/c/man/trousers-and-bermudas",
+  "Sweater": "https://us.loropiana.com/en/c/man/knitwear",
+  "Outerwear": "https://us.loropiana.com/en/man/coats-and-outerwear",
+  "Shoes": "https://us.loropiana.com/en/c/shoes/man"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Ray T-Shirt (cotton)",
+   "lu": "https://us.loropiana.com/en/man/polo-and-t-shirts/ray-t-shirt-FAM8924_515Q.html",
+   "hp": "Como The Gift of Kings® T-Shirt",
+   "hu": "https://us.loropiana.com/en/man/polo-and-t-shirts/como-the-gift-of-kings-t-shirt-FAF6689_H0B4.html",
+   "b": "pair"
   },
-  "notes": {
-    "cashmere": "vicuña and baby cashmere — it owns the scarcity itself",
-    "wool": "record-bale merino programs",
-    "linen": "top-grade European flax in its summer canon",
-    "golf": "the quiet-luxury golf capsule — cashmere on the back nine",
-    "status": "the post-Succession cap: quiet luxury made deafening",
-    "finbro": "the senior private-equity uniform: the quarter-zip, the Summer Walk loafers, the cap",
-    "boat": "The Superyacht Regatta carries the house name, and the sailing line is a standing part of the collection rather than a summer capsule. The nautical claim is earned rather than borrowed.",
-    "racquet": "A grass-court register cut in mill-owned cloth. Sport as setting rather than as exertion.",
-    "ital": "Six generations of the family at the Quarona mill before LVMH bought control in 2013. The house buys its own fiber at source, which is why the Italianness runs further back than the garment.",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 3; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "comfort": "Cashmere, vicuña and baby cashmere in soft, unstructured shapes; the fiber is chosen for feel.",
-    "craft": "LVMH's page for Loro Piana says the company owns 9 production sites, all in Italy, produces 5 million meters of fabric a year and 'controls every stage of production' from fiber to finished product. Product pages say Made in Italy and use the house's own named cloths. The 5 holds on the owned mills, though garment-making sites are not named."
+  "Polo": {
+   "lp": "Brenna Polo Shirt (cotton)",
+   "lu": "https://us.loropiana.com/en/man/polo-and-t-shirts/brenna-polo-shirt-FAP9959_P0B2.html",
+   "hp": "Iconic Polo Shirt (Vicuña)",
+   "hu": "https://us.loropiana.com/en/man/vicuna/iconic-polo-shirt-FRM2281_E09Y.html",
+   "b": "pair"
   },
-  "fibre": {
-    "t": 675,
-    "w": 580,
-    "n": 86,
-    "s": 0,
-    "c": 0,
-    "x": 0,
-    "xh": null,
-    "sp": "one",
-    "sc": [],
-    "nc": ["Knitwear", "Outerwear & coats", "Trousers / denim / bermudas"],
-    "st": "complete"
+  "Dress shirt": {
+   "lp": "André Shirt (cotton)",
+   "lu": "https://us.loropiana.com/en/spring-summer/man/andre-shirt-FAP3314_F6NY.html",
+   "hp": "André Shirt (vicuña, silk)",
+   "hu": "https://us.loropiana.com/en/man/vicuna/andre-shirt-FRM1747_W000.html",
+   "b": "pair"
   },
-  "doors": {
-    "c": "full",
-    "n": 22,
-    "cities": [
-      ["Aspen", "CO", 1],
-      ["Bal Harbour", "FL", 1],
-      ["Beverly Hills", "CA", 1],
-      ["Boston", "MA", 1],
-      ["Chicago", "IL", 1],
-      ["Costa Mesa", "CA", 1],
-      ["Dallas", "TX", 1],
-      ["East Hampton", "NY", 1],
-      ["Houston", "TX", 1],
-      ["Las Vegas", "NV", 1],
-      ["Manhasset", "NY", 1],
-      ["Miami", "FL", 1],
-      ["Montecito", "CA", 1],
-      ["New York", "NY", 2],
-      ["Palm Beach", "FL", 1],
-      ["Palo Alto", "CA", 1],
-      ["San Diego", "CA", 1],
-      ["San Francisco", "CA", 1],
-      ["Scottsdale", "AZ", 1],
-      ["Vail", "CO", 1],
-      ["Washington", "DC", 1]
-    ],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Jeans": {
+   "lp": "Quarona Jeans (linen, cotton)",
+   "lu": "https://us.loropiana.com/en/man/trousers-and-bermudas/quarona-jeans-FAP3992_D09Q.html",
+   "hp": "Kleve Jeans (CashDenim®)",
+   "hu": "https://us.loropiana.com/en/man/trousers-and-bermudas/kleve-jeans-FRM2105_W151.html",
+   "b": "range"
   },
-  "cities": "22 stores across the US · department stores and independent menswear shops, and its own site",
-  "region": {
-    "o": [1607, 1609, 1610, 1611, 1612],
-    "s": [44, 51, 60]
+  "Dress pants": {
+   "lp": "Stafford Pants (linen, silk - Rain System®)",
+   "lu": "https://us.loropiana.com/en/spring-summer/man/stafford-pants-FAQ9917_W000.html",
+   "hp": "Reinga Pants (vicuña, silk)",
+   "hu": "https://us.loropiana.com/en/man/vicuna/reinga-pants-FAO7706_W000.html",
+   "b": "pair"
   },
-  "addmen": true,
-  "addcloth": true,
-  "site": {
-    "domain": "us.loropiana.com",
-    "platform": "custom",
-    "feed": "sitemap_products",
-    "feed_count": 6408,
-    "status": "live_store",
-    "checked": "2026-09-13"
+  "Sweater": {
+   "lp": "Walkery Crewneck (cotton, silk)",
+   "lu": "https://us.loropiana.com/en/spring-summer/man/walkery-crewneck-FAM1818_A0PI.html",
+   "hp": "Coste Crewneck (vicuña)",
+   "hu": "https://us.loropiana.com/en/man/vicuna/knitwear/coste-crewneck-FAQ4336_E09Y.html",
+   "b": "pair"
   },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "both",
-    "marks": [
-      "ON THE CURRENT MEN'S CATALOGUE (house, in the PLP material field, 1,755 men's variants): Storm System(R) 175 | The Gift of Kings(R) 139 | Wish(R) 108 | Rain System(R) 52 | Windmate(R) 15 | Pecora Nera(R) 9 | CashDenim(R) 8 (4 written with (R), 4 without) | Zelander(R) 4 | Clima System(R) 3 | Austral"
-    ],
-    "source": "census",
-    "checked": "2026-09-12"
+  "Outerwear": {
+   "lp": "Bomber Jacket (linen)",
+   "lu": "https://us.loropiana.com/en/spring-summer/man/bomber-jacket-FRM1334_B656.html",
+   "hp": "The Gift of Kings® Bomber Jacket",
+   "hu": "https://us.loropiana.com/en/man/outerwear-jackets/the-gift-of-kings-bomber-jacket-FAO7629_H337.html",
+   "b": "pair"
   },
-  "garment_links": {
-    "T-shirt": "https://us.loropiana.com/en/c/man/polo-and-t-shirts",
-    "Polo": "https://us.loropiana.com/en/c/man/polo-and-t-shirts",
-    "Dress shirt": "https://us.loropiana.com/en/c/man/shirts",
-    "Jeans": "https://us.loropiana.com/en/c/man/denim",
-    "Dress pants": "https://us.loropiana.com/en/c/man/trousers-and-bermudas",
-    "Sweater": "https://us.loropiana.com/en/c/man/knitwear",
-    "Outerwear": "https://us.loropiana.com/en/man/coats-and-outerwear",
-    "Shoes": "https://us.loropiana.com/en/c/shoes/man"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Ray T-Shirt (cotton)",
-      "lu": "https://us.loropiana.com/en/man/polo-and-t-shirts/ray-t-shirt-FAM8924_515Q.html",
-      "hp": "Como The Gift of Kings® T-Shirt",
-      "hu": "https://us.loropiana.com/en/man/polo-and-t-shirts/como-the-gift-of-kings-t-shirt-FAF6689_H0B4.html",
-      "b": "pair"
-    },
-    "Polo": {
-      "lp": "Brenna Polo Shirt (cotton)",
-      "lu": "https://us.loropiana.com/en/man/polo-and-t-shirts/brenna-polo-shirt-FAP9959_P0B2.html",
-      "hp": "Iconic Polo Shirt (Vicuña)",
-      "hu": "https://us.loropiana.com/en/man/vicuna/iconic-polo-shirt-FRM2281_E09Y.html",
-      "b": "pair"
-    },
-    "Dress shirt": {
-      "lp": "André Shirt (cotton)",
-      "lu": "https://us.loropiana.com/en/spring-summer/man/andre-shirt-FAP3314_F6NY.html",
-      "hp": "André Shirt (vicuña, silk)",
-      "hu": "https://us.loropiana.com/en/man/vicuna/andre-shirt-FRM1747_W000.html",
-      "b": "pair"
-    },
-    "Jeans": {
-      "lp": "Quarona Jeans (linen, cotton)",
-      "lu": "https://us.loropiana.com/en/man/trousers-and-bermudas/quarona-jeans-FAP3992_D09Q.html",
-      "hp": "Kleve Jeans (CashDenim®)",
-      "hu": "https://us.loropiana.com/en/man/trousers-and-bermudas/kleve-jeans-FRM2105_W151.html",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Stafford Pants (linen, silk - Rain System®)",
-      "lu": "https://us.loropiana.com/en/spring-summer/man/stafford-pants-FAQ9917_W000.html",
-      "hp": "Reinga Pants (vicuña, silk)",
-      "hu": "https://us.loropiana.com/en/man/vicuna/reinga-pants-FAO7706_W000.html",
-      "b": "pair"
-    },
-    "Sweater": {
-      "lp": "Walkery Crewneck (cotton, silk)",
-      "lu": "https://us.loropiana.com/en/spring-summer/man/walkery-crewneck-FAM1818_A0PI.html",
-      "hp": "Coste Crewneck (vicuña)",
-      "hu": "https://us.loropiana.com/en/man/vicuna/knitwear/coste-crewneck-FAQ4336_E09Y.html",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "Bomber Jacket (linen)",
-      "lu": "https://us.loropiana.com/en/spring-summer/man/bomber-jacket-FRM1334_B656.html",
-      "hp": "The Gift of Kings® Bomber Jacket",
-      "hu": "https://us.loropiana.com/en/man/outerwear-jackets/the-gift-of-kings-bomber-jacket-FAO7629_H337.html",
-      "b": "pair"
-    },
-    "Shoes": {
-      "lp": "Venice Walk Loafer (suede)",
-      "lu": "https://us.loropiana.com/en/shoes/man/loafers/venice-walk-loafer-FAN1318_H1MY.html",
-      "hp": "Summer Walk The Gift of Kings® Loafer",
-      "hu": "https://us.loropiana.com/en/shoes/man/white-sole/summer-walk-the-gift-of-kings-loafer-FAP3479_Q0BJ.html",
-      "b": "pair"
-    }
-  },
-  "price_range_only": ["Jeans"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://us.loropiana.com/en/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=219848",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "certs": {
-    "gots": {
-      "e": "LORO PIANA SPA (Italy)"
-    }
-  },
-  "season": {
-    "l": "Fall/Winter 2026-2027",
-    "t": "lookbook",
-    "u": "https://us.loropiana.com/en/menswear-fall-winter-2026-2027",
-    "m": "yes"
-  },
-  "craft_evidence": {
-    "owned": "yes",
-    "owned_d": "LVMH maison page: '9 PRODUCTION SITES OWNED BY LORO PIANA, ALL LOCATED IN ITALY'; 'The company controls every stage of production... from the collection of the natural fibers, right down to the delivery of the finished products'; '5 MILLION METERS OF FABRIC PRODUCED EACH YEAR'. Sites are owned by Loro Piana (an LVMH maison). The page read does not name the sites (Quarona, Roccapietra not seen) or say which garment categories are sewn in them.",
-    "makers": "no",
-    "mills": "some",
-    "madein": "every product",
-    "countries": "Italy 3/3 (sample of 3 men's PDPs: Sourwood cardigan FRM1645, Fuji pants FRM1632, Spagna leather jacket FRM1683). LVMH page: all RTW and accessories 'made in Italy'.",
-    "heritage": "dated and placed",
-    "repair": "no",
-    "process": "some",
-    "urls": [
-      "https://www.lvmh.com/houses/fashion-leather-goods/loro-piana/",
-      "https://us.loropiana.com/en/man/office-refinement/sourwood-cardigan-FRM1645_F8SF.html"
-    ],
-    "conf": "medium",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Venice Walk Loafer (suede)",
+   "lu": "https://us.loropiana.com/en/shoes/man/loafers/venice-walk-loafer-FAN1318_H1MY.html",
+   "hp": "Summer Walk The Gift of Kings® Loafer",
+   "hu": "https://us.loropiana.com/en/shoes/man/white-sole/summer-walk-the-gift-of-kings-loafer-FAP3479_Q0BJ.html",
+   "b": "pair"
   }
+ },
+ "price_range_only": [
+  "Jeans"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://us.loropiana.com/en/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=219848",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "certs": {
+  "gots": {
+   "e": "LORO PIANA SPA (Italy)"
+  }
+ },
+ "season": {
+  "l": "Fall/Winter 2026-2027",
+  "t": "lookbook",
+  "u": "https://us.loropiana.com/en/menswear-fall-winter-2026-2027",
+  "m": "yes"
+ },
+ "craft_evidence": {
+  "owned": "yes",
+  "owned_d": "LVMH maison page: '9 PRODUCTION SITES OWNED BY LORO PIANA, ALL LOCATED IN ITALY'; 'The company controls every stage of production... from the collection of the natural fibers, right down to the delivery of the finished products'; '5 MILLION METERS OF FABRIC PRODUCED EACH YEAR'. Sites are owned by Loro Piana (an LVMH maison). The page read does not name the sites (Quarona, Roccapietra not seen) or say which garment categories are sewn in them.",
+  "makers": "no",
+  "mills": "some",
+  "madein": "every product",
+  "countries": "Italy 3/3 (sample of 3 men's PDPs: Sourwood cardigan FRM1645, Fuji pants FRM1632, Spagna leather jacket FRM1683). LVMH page: all RTW and accessories 'made in Italy'.",
+  "heritage": "dated and placed",
+  "repair": "no",
+  "process": "some",
+  "urls": [
+   "https://www.lvmh.com/houses/fashion-leather-goods/loro-piana/",
+   "https://us.loropiana.com/en/man/office-refinement/sourwood-cardigan-FRM1645_F8SF.html"
+  ],
+  "conf": "medium",
+  "read": "2026-10-03"
+ }
 }

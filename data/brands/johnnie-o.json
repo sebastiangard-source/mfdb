@@ -1,289 +1,442 @@
 {
-  "name": "johnnie-O",
-  "band": "premium",
-  "seat": 38,
-  "dagger": 1,
-  "focus": {
-    "tech": 3,
-    "comfort": 4,
-    "craft": 1,
-    "style": 2
+ "name": "johnnie-O",
+ "band": "premium",
+ "seat": 38,
+ "dagger": 1,
+ "focus": {
+  "tech": 3,
+  "comfort": 4,
+  "craft": 1,
+  "style": 2
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 2,
+  "linen": 2,
+  "cotton": 2,
+  "wool": 1,
+  "synth": 3
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 4,
+  "fuss": 1,
+  "golffice": 1,
+  "golf": 4,
+  "finbro": 3,
+  "ivy": 3,
+  "murica": 3,
+  "prep": 4,
+  "racquet": 2,
+  "whitet": 2,
+  "logo": 3,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 3
+ },
+ "why": "Polos, shirts and shorts in a West Coast preppy style, with a surfer logo and quiet stretch fabrics.",
+ "origin": "Founded in Los Angeles in 2005 by John O'Donnell.",
+ "chan": [
+  "D",
+  "I",
+  "O"
+ ],
+ "conf": "L",
+ "forgc": [
+  4,
+  4,
+  1
+ ],
+ "shop": "https://www.johnnie-o.com/search?q=",
+ "onething": {
+  "p": "The 4-button polo",
+  "u": "https://www.johnnie-o.com/search?q=The%204-button%20polo",
+  "n": ""
+ },
+ "prices": [
+  [
+   55,
+   88
+  ],
+  [
+   89,
+   118
+  ],
+  [
+   138,
+   208
+  ],
+  [
+   148,
+   148
+  ],
+  [
+   158,
+   228
+  ],
+  [
+   178,
+   598
+  ],
+  [
+   248,
+   998
+  ],
+  [
+   228,
+   248
+  ]
+ ],
+ "notes": {
+  "golf": "Prep-formance polos under the surfer logo",
+  "prep": "West Coast prep: the same signals, relaxed, and stripped of the East Coast institutional claim. Prep as a temperament rather than a lineage.",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 3; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "Product pages say only 'Imported' with fiber content; no country, factory or mill is named. The supply-chain disclosure is boilerplate with no supplier list. Nothing checkable about making."
+ },
+ "doors": {
+  "c": "full",
+  "n": 24,
+  "cities": [
+   [
+    "Alpharetta",
+    "GA",
+    1
+   ],
+   [
+    "Bethesda",
+    "MD",
+    1
+   ],
+   [
+    "Charleston",
+    "SC",
+    1
+   ],
+   [
+    "Charlotte",
+    "NC",
+    1
+   ],
+   [
+    "Dallas",
+    "TX",
+    1
+   ],
+   [
+    "Denver",
+    "CO",
+    1
+   ],
+   [
+    "Fort Worth",
+    "TX",
+    1
+   ],
+   [
+    "Franklin",
+    "TN",
+    1
+   ],
+   [
+    "Hingham",
+    "MA",
+    1
+   ],
+   [
+    "Houston",
+    "TX",
+    1
+   ],
+   [
+    "Miramar Beach",
+    "FL",
+    1
+   ],
+   [
+    "Mountain Brook",
+    "AL",
+    1
+   ],
+   [
+    "Naples",
+    "FL",
+    1
+   ],
+   [
+    "Nashville",
+    "TN",
+    1
+   ],
+   [
+    "Newport Beach",
+    "CA",
+    1
+   ],
+   [
+    "Raleigh",
+    "NC",
+    1
+   ],
+   [
+    "Scottsdale",
+    "AZ",
+    1
+   ],
+   [
+    "Southlake",
+    "TX",
+    1
+   ],
+   [
+    "Tysons",
+    "VA",
+    1
+   ],
+   [
+    "Virginia Beach",
+    "VA",
+    1
+   ],
+   [
+    "Watersound",
+    "FL",
+    1
+   ],
+   [
+    "West Palm Beach",
+    "FL",
+    1
+   ],
+   [
+    "Westport",
+    "CT",
+    1
+   ],
+   [
+    "Wilmette",
+    "IL",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 0,
+  "con": 0
+ },
+ "cities": "24 stores across the US · department stores and independent menswear shops, and its own site",
+ "region": {
+  "o": [
+   3760,
+   3768
+  ],
+  "s": [
+   6,
+   9,
+   10,
+   11,
+   16,
+   21,
+   25,
+   31,
+   41,
+   43,
+   49,
+   55,
+   59,
+   61,
+   73,
+   75,
+   85,
+   91,
+   95,
+   96,
+   118,
+   122,
+   126,
+   128,
+   134,
+   136,
+   137,
+   138,
+   140,
+   142,
+   143,
+   145,
+   151,
+   152
+  ]
+ },
+ "site": {
+  "domain": "johnnie-o.com",
+  "platform": "shopify",
+  "feed": "sitemap_products",
+  "feed_count": 13421,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "both",
+  "marks": [
+   "PREP-FORMANCE (house)",
+   "Featherweight (house)",
+   "Linxter (house)",
+   "PrimaLoft",
+   "Alcantara",
+   "COOLMAX",
+   "TENCEL"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 450,
+  "w": 428,
+  "n": 24,
+  "s": 70,
+  "c": 1,
+  "x": 76,
+  "xh": 64,
+  "sp": "one",
+  "sc": [
+   "Polos",
+   "Hoodies & Sweatshirts",
+   "Quarter-Zips & Pullovers",
+   "T-Shirts & Layering Tees",
+   "Vests",
+   "Jackets",
+   "Pants",
+   "Shorts",
+   "Sport Coats",
+   "Swim",
+   "Underwear"
+  ],
+  "nc": [
+   "Button-Down Shirts",
+   "Sweaters"
+  ],
+  "st": "complete"
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants",
+  "Sweater"
+ ],
+ "garment_links": {
+  "T-shirt": "https://www.johnnie-o.com/collections/mens-t-shirts",
+  "Polo": "https://www.johnnie-o.com/collections/mens-polos",
+  "Dress shirt": "https://www.johnnie-o.com/collections/mens-button-up-shirts",
+  "Jeans": "https://www.johnnie-o.com/collections/mens-pants",
+  "Dress pants": "https://www.johnnie-o.com/collections/dress-pants",
+  "Sweater": "https://www.johnnie-o.com/collections/mens-sweaters",
+  "Outerwear": "https://www.johnnie-o.com/collections/mens-jackets",
+  "Shoes": "https://www.johnnie-o.com/collections/footwear-2"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Dale Cotton Blend T-Shirt",
+   "lu": "https://www.johnnie-o.com/products/jmst3180-dale-2-0-haze",
+   "hp": "The Course Performance T-Shirt - Short Sleeve",
+   "hu": "https://www.johnnie-o.com/products/jmst3010_26fa_zest_course-tee",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 2,
-    "cashmere": 2,
-    "linen": 2,
-    "cotton": 2,
-    "wool": 1,
-    "synth": 3
+  "Polo": {
+   "lp": "Original 4-Button Polo - Solid",
+   "lu": "https://www.johnnie-o.com/products/jmpo3000_26fa_bronco_the-original",
+   "hp": "Performance Mesh Polo - Solid",
+   "hu": "https://www.johnnie-o.com/products/jmpo103340_26fa_sailor_mesh-solid",
+   "b": "range"
   },
-  "dials": {
-    "dur": 3,
-    "forg": 4,
-    "fuss": 1,
-    "golffice": 1,
-    "golf": 4,
-    "finbro": 3,
-    "ivy": 3,
-    "murica": 3,
-    "prep": 4,
-    "racquet": 2,
-    "whitet": 2,
-    "logo": 3,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 3
+  "Dress shirt": {
+   "lp": "Everyday Performance Button Down Shirt - Travis Solid",
+   "lu": "https://www.johnnie-o.com/products/travis-jmwl101080-sp25-lagunablue",
+   "hp": "Top Shelf Cotton Button Down Shirt - Umstead Plaid",
+   "hu": "https://www.johnnie-o.com/products/jmwl101950-umstead-sage",
+   "b": "range"
   },
-  "why": "Polos, shirts and shorts in a West Coast preppy style, with a surfer logo and quiet stretch fabrics.",
-  "origin": "Founded in Los Angeles in 2005 by John O'Donnell.",
-  "chan": ["D", "I", "O"],
-  "conf": "L",
-  "forgc": [4, 4, 1],
-  "shop": "https://www.johnnie-o.com/search?q=",
-  "onething": {
-    "p": "The 4-button polo",
-    "u": "https://www.johnnie-o.com/search?q=The%204-button%20polo",
-    "n": ""
+  "Jeans": {
+   "lp": "Laguna Jean",
+   "lu": "https://www.johnnie-o.com/products/jmpa100300_26fa_ocean-wash_laguna-jean",
+   "hp": "Atlas Lightweight Stretch 5-Pocket Jeans",
+   "hu": "https://www.johnnie-o.com/products/atlas-lightweight-stretch-5-pocket-jeans",
+   "b": "range"
   },
-  "prices": [[55, 88], [89, 118], [138, 208], [148, 148], [158, 228], [178, 598], [248, 998], [228, 248]],
-  "notes": {
-    "golf": "Prep-formance polos under the surfer logo",
-    "prep": "West Coast prep: the same signals, relaxed, and stripped of the East Coast institutional claim. Prep as a temperament rather than a lineage.",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 3; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Product pages say only 'Imported' with fiber content; no country, factory or mill is named. The supply-chain disclosure is boilerplate with no supplier list. Nothing checkable about making."
+  "Dress pants": {
+   "lp": "Cross Country Trouser",
+   "lu": "https://www.johnnie-o.com/products/jmpa100310_26fa_stone_cc-trouser",
+   "hp": "Monterey Trouser",
+   "hu": "https://www.johnnie-o.com/products/jmpa100350_26fa_blue-moon_monterey-trouser",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 23,
-    "cities": [
-      ["Alpharetta", "GA", 1],
-      ["Bethesda", "MD", 1],
-      ["Charleston", "SC", 1],
-      ["Charlotte", "NC", 1],
-      ["Dallas", "TX", 1],
-      ["Denver", "CO", 1],
-      ["Fort Worth", "TX", 1],
-      ["Franklin", "TN", 1],
-      ["Hingham", "MA", 1],
-      ["Houston", "TX", 1],
-      ["Miramar Beach", "FL", 1],
-      ["Mountain Brook", "AL", 1],
-      ["Nashville", "TN", 1],
-      ["Newport Beach", "CA", 1],
-      ["Raleigh", "NC", 1],
-      ["Scottsdale", "AZ", 1],
-      ["Southlake", "TX", 1],
-      ["Tysons", "VA", 1],
-      ["Virginia Beach", "VA", 1],
-      ["Watersound", "FL", 1],
-      ["West Palm Beach", "FL", 1],
-      ["Westport", "CT", 1],
-      ["Wilmette", "IL", 1]
-    ],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Sweater": {
+   "lp": "Desmond Plaited Cotton Blend 1/4 Zip Sweater",
+   "lu": "https://www.johnnie-o.com/products/desmond-jmsw100100-sp25-infinity",
+   "hp": "Jamisons Top Shelf Cashmere Hooded Sweater",
+   "hu": "https://www.johnnie-o.com/products/jmsw100140_jamisons_25fa-coffee",
+   "b": "range"
   },
-  "cities": "23 stores across the US · department stores and independent menswear shops, and its own site",
-  "region": {
-    "o": [1471, 1477],
-    "s": [
-      6,
-      9,
-      10,
-      11,
-      16,
-      21,
-      25,
-      31,
-      41,
-      43,
-      49,
-      55,
-      59,
-      61,
-      73,
-      75,
-      85,
-      91,
-      95,
-      96,
-      118,
-      122,
-      126,
-      128,
-      134,
-      136,
-      137,
-      138,
-      140,
-      142,
-      143,
-      145,
-      151,
-      152
-    ]
+  "Outerwear": {
+   "lp": "Mixed Media Jacket",
+   "lu": "https://www.johnnie-o.com/products/jmjk100630_26fa_light-gray_mixed-media-jacket",
+   "hp": "Agnelli Suede Mixed Media Jacket",
+   "hu": "https://www.johnnie-o.com/products/agnelli-jmjk100240-sp25",
+   "b": "pair"
   },
-  "site": {
-    "domain": "johnnie-o.com",
-    "platform": "shopify",
-    "feed": "sitemap_products",
-    "feed_count": 13421,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "both",
-    "marks": [
-      "PREP-FORMANCE (house)",
-      "Featherweight (house)",
-      "Linxter (house)",
-      "PrimaLoft",
-      "Alcantara",
-      "COOLMAX",
-      "TENCEL"
-    ],
-    "source": "census",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 450,
-    "w": 428,
-    "n": 24,
-    "s": 70,
-    "c": 1,
-    "x": 76,
-    "xh": 64,
-    "sp": "one",
-    "sc": [
-      "Polos",
-      "Hoodies & Sweatshirts",
-      "Quarter-Zips & Pullovers",
-      "T-Shirts & Layering Tees",
-      "Vests",
-      "Jackets",
-      "Pants",
-      "Shorts",
-      "Sport Coats",
-      "Swim",
-      "Underwear"
-    ],
-    "nc": ["Button-Down Shirts", "Sweaters"],
-    "st": "complete"
-  },
-  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants", "Sweater"],
-  "garment_links": {
-    "T-shirt": "https://www.johnnie-o.com/collections/mens-t-shirts",
-    "Polo": "https://www.johnnie-o.com/collections/mens-polos",
-    "Dress shirt": "https://www.johnnie-o.com/collections/mens-button-up-shirts",
-    "Jeans": "https://www.johnnie-o.com/collections/mens-pants",
-    "Dress pants": "https://www.johnnie-o.com/collections/dress-pants",
-    "Sweater": "https://www.johnnie-o.com/collections/mens-sweaters",
-    "Outerwear": "https://www.johnnie-o.com/collections/mens-jackets",
-    "Shoes": "https://www.johnnie-o.com/collections/footwear-2"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Dale Cotton Blend T-Shirt",
-      "lu": "https://www.johnnie-o.com/products/jmst3180-dale-2-0-haze",
-      "hp": "The Course Performance T-Shirt - Short Sleeve",
-      "hu": "https://www.johnnie-o.com/products/jmst3010_26fa_zest_course-tee",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Original 4-Button Polo - Solid",
-      "lu": "https://www.johnnie-o.com/products/jmpo3000_26fa_bronco_the-original",
-      "hp": "Performance Mesh Polo - Solid",
-      "hu": "https://www.johnnie-o.com/products/jmpo103340_26fa_sailor_mesh-solid",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Everyday Performance Button Down Shirt - Travis Solid",
-      "lu": "https://www.johnnie-o.com/products/travis-jmwl101080-sp25-lagunablue",
-      "hp": "Top Shelf Cotton Button Down Shirt - Umstead Plaid",
-      "hu": "https://www.johnnie-o.com/products/jmwl101950-umstead-sage",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Laguna Jean",
-      "lu": "https://www.johnnie-o.com/products/jmpa100300_26fa_ocean-wash_laguna-jean",
-      "hp": "Atlas Lightweight Stretch 5-Pocket Jeans",
-      "hu": "https://www.johnnie-o.com/products/atlas-lightweight-stretch-5-pocket-jeans",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Cross Country Trouser",
-      "lu": "https://www.johnnie-o.com/products/jmpa100310_26fa_stone_cc-trouser",
-      "hp": "Monterey Trouser",
-      "hu": "https://www.johnnie-o.com/products/jmpa100350_26fa_blue-moon_monterey-trouser",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Desmond Plaited Cotton Blend 1/4 Zip Sweater",
-      "lu": "https://www.johnnie-o.com/products/desmond-jmsw100100-sp25-infinity",
-      "hp": "Jamisons Top Shelf Cashmere Hooded Sweater",
-      "hu": "https://www.johnnie-o.com/products/jmsw100140_jamisons_25fa-coffee",
-      "b": "range"
-    },
-    "Outerwear": {
-      "lp": "Mixed Media Jacket",
-      "lu": "https://www.johnnie-o.com/products/jmjk100630_26fa_light-gray_mixed-media-jacket",
-      "hp": "Agnelli Suede Mixed Media Jacket",
-      "hu": "https://www.johnnie-o.com/products/agnelli-jmjk100240-sp25",
-      "b": "pair"
-    },
-    "Shoes": {
-      "lp": "Baja Penny Loafer",
-      "lu": "https://www.johnnie-o.com/products/baja-penny-loafer",
-      "hp": "J Flex Penny Loafer - Leather",
-      "hu": "https://www.johnnie-o.com/products/j-flex-penny-loafer-leather-copy",
-      "b": "pair"
-    }
-  },
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.johnnie-o.com/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "Top Shelf"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=4385447",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "season": {
-    "l": "FA26 / Fall 26 (URL labels)",
-    "t": "lookbook",
-    "u": "https://www.johnnie-o.com/pages/fa26-game-day",
-    "m": "unisex"
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "Our-story and California Supply Chain Act page describe vendors/factories only generically; no owned or named facility.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "none",
-    "countries": "'Imported' 4/4, no country named (sample of 4 PDPs: Original polo, Sully 1/4-zip, Belfry puffer vest, Juno quilted jacket)",
-    "heritage": "dated and placed",
-    "repair": "no",
-    "process": "no",
-    "urls": [
-      "https://www.johnnie-o.com/products/jmpo3000_26fa_buoy_the-original",
-      "https://www.johnnie-o.com/pages/california-supply-chain-act"
-    ],
-    "conf": "high",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Baja Penny Loafer",
+   "lu": "https://www.johnnie-o.com/products/baja-penny-loafer",
+   "hp": "J Flex Penny Loafer - Leather",
+   "hu": "https://www.johnnie-o.com/products/j-flex-penny-loafer-leather-copy",
+   "b": "pair"
   }
+ },
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.johnnie-o.com/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "Top Shelf"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=4385447",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "season": {
+  "l": "FA26 / Fall 26 (URL labels)",
+  "t": "lookbook",
+  "u": "https://www.johnnie-o.com/pages/fa26-game-day",
+  "m": "unisex"
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "Our-story and California Supply Chain Act page describe vendors/factories only generically; no owned or named facility.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "none",
+  "countries": "'Imported' 4/4, no country named (sample of 4 PDPs: Original polo, Sully 1/4-zip, Belfry puffer vest, Juno quilted jacket)",
+  "heritage": "dated and placed",
+  "repair": "no",
+  "process": "no",
+  "urls": [
+   "https://www.johnnie-o.com/products/jmpo3000_26fa_buoy_the-original",
+   "https://www.johnnie-o.com/pages/california-supply-chain-act"
+  ],
+  "conf": "high",
+  "read": "2026-10-03"
+ }
 }

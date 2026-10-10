@@ -1,322 +1,682 @@
 {
-  "name": "Vineyard Vines",
-  "band": "accessible",
-  "seat": 63,
-  "dagger": 0,
-  "focus": {
-    "tech": 3,
-    "comfort": 4,
-    "craft": 2,
-    "style": 2
+ "name": "Vineyard Vines",
+ "band": "accessible",
+ "seat": 63,
+ "dagger": 0,
+ "focus": {
+  "tech": 3,
+  "comfort": 4,
+  "craft": 2,
+  "style": 2
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 2,
+  "linen": 2,
+  "cotton": 2,
+  "wool": 1,
+  "synth": 3
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 4,
+  "fuss": 1,
+  "golffice": 1,
+  "golf": 4,
+  "status": 3,
+  "finbro": 4,
+  "ivy": 3,
+  "murica": 4,
+  "prep": 5,
+  "boat": 2,
+  "racquet": 3,
+  "whitet": 2,
+  "logo": 4,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 3
+ },
+ "why": "Preppy casual clothing — polos, shorts, ties — with a whale logo, sold through its own stores and department stores.",
+ "origin": "Founded in 1998 by the brothers Shep and Ian Murray, who left Manhattan office jobs to sell ties on Martha's Vineyard.",
+ "chan": [
+  "O",
+  "D",
+  "X"
+ ],
+ "conf": "S",
+ "forgc": [
+  4,
+  4,
+  1
+ ],
+ "shop": "https://www.vineyardvines.com/search?q=",
+ "onething": {
+  "p": "Shep Shirt",
+  "u": "https://www.vineyardvines.com/search?q=Shep%20Shirt%20men",
+  "n": "works"
+ },
+ "prices": [
+  [
+   40,
+   65
+  ],
+  [
+   80,
+   108
+  ],
+  [
+   99,
+   138
+  ],
+  [
+   138,
+   138
+  ],
+  [
+   108,
+   138
+  ],
+  [
+   108,
+   328
+  ],
+  [
+   168,
+   178
+  ],
+  [
+   43,
+   99
+  ]
+ ],
+ "notes": {
+  "golf": "the bestselling polo is named after a golf club; the performance line is course wear in madras colors",
+  "finbro": "the Murray Hill starter kit — whale on Saturdays, spreadsheets by Monday",
+  "murica": "the whale flies red, white, and blue every July",
+  "prep": "the whale made prep a lifestyle-brand category",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 4; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "NC [not researched: site unreadable]"
+ },
+ "doors": {
+  "c": "full",
+  "n": 74,
+  "cities": [
+   [
+    "Albany",
+    "NY",
+    1
+   ],
+   [
+    "Alpharetta",
+    "GA",
+    1
+   ],
+   [
+    "Arlington",
+    "VA",
+    1
+   ],
+   [
+    "Avalon",
+    "NJ",
+    1
+   ],
+   [
+    "Bethesda",
+    "MD",
+    1
+   ],
+   [
+    "Boca Raton",
+    "FL",
+    1
+   ],
+   [
+    "Boston",
+    "MA",
+    1
+   ],
+   [
+    "Burlington",
+    "MA",
+    1
+   ],
+   [
+    "Charleston",
+    "SC",
+    1
+   ],
+   [
+    "Charlotte",
+    "NC",
+    1
+   ],
+   [
+    "Chestnut Hill",
+    "MA",
+    1
+   ],
+   [
+    "Cincinnati",
+    "OH",
+    1
+   ],
+   [
+    "Columbus",
+    "OH",
+    1
+   ],
+   [
+    "Coral Gables",
+    "FL",
+    1
+   ],
+   [
+    "Cranston",
+    "RI",
+    1
+   ],
+   [
+    "Dallas",
+    "TX",
+    1
+   ],
+   [
+    "Dedham",
+    "MA",
+    1
+   ],
+   [
+    "Denver",
+    "CO",
+    1
+   ],
+   [
+    "Dulles",
+    "VA",
+    1
+   ],
+   [
+    "Edgartown",
+    "MA",
+    1
+   ],
+   [
+    "Edina",
+    "MN",
+    2
+   ],
+   [
+    "Foxborough",
+    "MA",
+    1
+   ],
+   [
+    "Frisco",
+    "TX",
+    1
+   ],
+   [
+    "Germantown",
+    "TN",
+    1
+   ],
+   [
+    "Greenwich",
+    "CT",
+    1
+   ],
+   [
+    "Hingham",
+    "MA",
+    1
+   ],
+   [
+    "Houston",
+    "TX",
+    1
+   ],
+   [
+    "Huntington Station",
+    "NY",
+    1
+   ],
+   [
+    "Indianapolis",
+    "IN",
+    1
+   ],
+   [
+    "Jacksonville",
+    "FL",
+    1
+   ],
+   [
+    "Kansas City",
+    "MO",
+    1
+   ],
+   [
+    "Kiawah Island",
+    "SC",
+    1
+   ],
+   [
+    "King of Prussia",
+    "PA",
+    1
+   ],
+   [
+    "Lake Buena Vista",
+    "FL",
+    1
+   ],
+   [
+    "Leawood",
+    "KS",
+    1
+   ],
+   [
+    "Lexington",
+    "KY",
+    1
+   ],
+   [
+    "Los Angeles",
+    "CA",
+    1
+   ],
+   [
+    "Louisville",
+    "KY",
+    1
+   ],
+   [
+    "Lynnfield",
+    "MA",
+    1
+   ],
+   [
+    "Marlton",
+    "NJ",
+    1
+   ],
+   [
+    "Mashpee",
+    "MA",
+    1
+   ],
+   [
+    "McLean",
+    "VA",
+    1
+   ],
+   [
+    "Miramar Beach",
+    "FL",
+    1
+   ],
+   [
+    "Nantucket",
+    "MA",
+    1
+   ],
+   [
+    "Naples",
+    "FL",
+    2
+   ],
+   [
+    "Nashville",
+    "TN",
+    1
+   ],
+   [
+    "New Canaan",
+    "CT",
+    1
+   ],
+   [
+    "Newport",
+    "RI",
+    1
+   ],
+   [
+    "Oak Bluffs",
+    "MA",
+    1
+   ],
+   [
+    "Orange Village",
+    "OH",
+    1
+   ],
+   [
+    "Orlando",
+    "FL",
+    1
+   ],
+   [
+    "Palm Beach Gardens",
+    "FL",
+    1
+   ],
+   [
+    "Paramus",
+    "NJ",
+    1
+   ],
+   [
+    "Pittsburgh",
+    "PA",
+    1
+   ],
+   [
+    "Raleigh",
+    "NC",
+    1
+   ],
+   [
+    "Richmond",
+    "VA",
+    1
+   ],
+   [
+    "San Diego",
+    "CA",
+    1
+   ],
+   [
+    "Sarasota",
+    "FL",
+    1
+   ],
+   [
+    "Savannah",
+    "GA",
+    1
+   ],
+   [
+    "Scottsdale",
+    "AZ",
+    1
+   ],
+   [
+    "Short Hills",
+    "NJ",
+    1
+   ],
+   [
+    "Shrewsbury",
+    "NJ",
+    1
+   ],
+   [
+    "Skokie",
+    "IL",
+    1
+   ],
+   [
+    "Southlake",
+    "TX",
+    1
+   ],
+   [
+    "St. Louis",
+    "MO",
+    1
+   ],
+   [
+    "St. Simons Island",
+    "GA",
+    1
+   ],
+   [
+    "Tampa",
+    "FL",
+    1
+   ],
+   [
+    "Troy",
+    "MI",
+    1
+   ],
+   [
+    "Vineyard Haven",
+    "MA",
+    1
+   ],
+   [
+    "Washington",
+    "DC",
+    1
+   ],
+   [
+    "West Hartford",
+    "CT",
+    1
+   ],
+   [
+    "Westport",
+    "CT",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 55,
+  "con": 0
+ },
+ "cities": "74 stores across the US · department stores and independent menswear shops, and its own site",
+ "region": {
+  "o": [
+   3542,
+   3543,
+   3544,
+   3545,
+   3566,
+   3567,
+   3568,
+   3569,
+   3570,
+   3571,
+   3572,
+   3573,
+   3574,
+   3575,
+   3576,
+   3577,
+   3586,
+   3587,
+   3588,
+   3589,
+   3590,
+   3591,
+   3592,
+   3596,
+   3597,
+   3598,
+   3599
+  ],
+  "s": [
+   6,
+   8,
+   9,
+   13,
+   41,
+   54,
+   70,
+   138,
+   141,
+   146,
+   147,
+   151,
+   152
+  ]
+ },
+ "addmen": true,
+ "site": {
+  "domain": "vineyardvines.com",
+  "platform": "salesforce_commerce",
+  "feed": "sitemap_products",
+  "feed_count": 1513,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "both",
+  "marks": [
+   "Sankaty",
+   "On-The-Go",
+   "Saltwater",
+   "brrr",
+   "Dreamcloth(R)",
+   "Shep Shirt(R)",
+   "Edgartown",
+   "Harbor Shirt",
+   "THERMOLITE(R)",
+   "COOLMAX(R)",
+   "REPREVE(R)",
+   "Basolan",
+   "TENCEL"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 669,
+  "w": 669,
+  "n": 65,
+  "s": 35,
+  "c": 0,
+  "x": 28,
+  "xh": 24,
+  "sp": "split",
+  "sc": [
+   "mens-polos",
+   "mens-headwear",
+   "mens-outerwear",
+   "mens-loungewear"
+  ],
+  "nc": [
+   "mens-t-shirts",
+   "mens-fashion-knits",
+   "mens-belts"
+  ],
+  "st": "complete"
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Dress pants",
+  "Sweater",
+  "Outerwear",
+  "Shoes"
+ ],
+ "garment_links": {
+  "T-shirt": "https://www.vineyardvines.com/category/Mens-Tee-Shirts",
+  "Polo": "https://www.vineyardvines.com/category/mens-polos",
+  "Dress shirt": "https://www.vineyardvines.com/category/mens-casual-button-down-shirts",
+  "Jeans": "https://www.vineyardvines.com/category/mens-pants-denim",
+  "Dress pants": "https://www.vineyardvines.com/category/mens-pants-chino",
+  "Sweater": "https://www.vineyardvines.com/category/mens-sweaters",
+  "Outerwear": "https://www.vineyardvines.com/category/Mens-Blazers"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Surf Pocket Tee",
+   "lu": "https://www.vineyardvines.com/product/mens-t-shirts/surf-short-sleeve-pocket-tee/1V023064.html",
+   "hp": "Sun Tech Short-Sleeve Tee",
+   "hu": "https://www.vineyardvines.com/product/mens-t-shirts/sun-tech-short-sleeve-tee/1V024557.html",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 2,
-    "linen": 2,
-    "cotton": 2,
-    "wool": 1,
-    "synth": 3
+  "Polo": {
+   "lp": "Surf Polo",
+   "lu": "https://www.vineyardvines.com/product/mens-polos/surf-polo/1G013191.html",
+   "hp": "Performance Air Tech Polo",
+   "hu": "https://www.vineyardvines.com/product/mens-polos/air-tech-mesh-polo/1G013892.html",
+   "b": "range"
   },
-  "dials": {
-    "dur": 3,
-    "forg": 4,
-    "fuss": 1,
-    "golffice": 1,
-    "golf": 4,
-    "status": 3,
-    "finbro": 4,
-    "ivy": 3,
-    "murica": 4,
-    "prep": 5,
-    "boat": 2,
-    "racquet": 3,
-    "whitet": 2,
-    "logo": 4,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 3
+  "Dress shirt": {
+   "lp": "Shoreline Solid Perfect Wash Poplin Shirt",
+   "lu": "https://www.vineyardvines.com/product/mens-classic-fit/shoreline-solid-perfect-wash-poplin-shirt/1W012688.html",
+   "hp": "Performance Tech Twill Solid Shirt",
+   "hu": "https://www.vineyardvines.com/product/mens-classic-fit/performance-tech-twill-solid-shirt/1W013374.html",
+   "b": "range"
   },
-  "why": "Preppy casual clothing — polos, shorts, ties — with a whale logo, sold through its own stores and department stores.",
-  "origin": "Founded in 1998 by the brothers Shep and Ian Murray, who left Manhattan office jobs to sell ties on Martha's Vineyard.",
-  "chan": ["O", "D", "X"],
-  "conf": "S",
-  "forgc": [4, 4, 1],
-  "shop": "https://www.vineyardvines.com/search?q=",
-  "onething": {
-    "p": "Shep Shirt",
-    "u": "https://www.vineyardvines.com/search?q=Shep%20Shirt%20men",
-    "n": "works"
+  "Jeans": {
+   "lp": "Slim Straight Indigo Jeans",
+   "lu": "https://www.vineyardvines.com/product/mens-pants/slim-straight-indigo-denim/1P001363.html",
+   "hp": "Slim Straight Indigo Jeans",
+   "hu": "https://www.vineyardvines.com/product/mens-pants/slim-straight-indigo-denim/1P001363.html",
+   "b": "single"
   },
-  "prices": [[40, 65], [80, 108], [99, 138], [138, 138], [108, 138], [108, 328], [168, 178], [43, 99]],
-  "notes": {
-    "golf": "the bestselling polo is named after a golf club; the performance line is course wear in madras colors",
-    "finbro": "the Murray Hill starter kit — whale on Saturdays, spreadsheets by Monday",
-    "murica": "the whale flies red, white, and blue every July",
-    "prep": "the whale made prep a lifestyle-brand category",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 4; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "NC [not researched: site unreadable]"
+  "Dress pants": {
+   "lp": "Chilmark Chinos",
+   "lu": "https://www.vineyardvines.com/product/mens-pants/chilmark-chinos/1P001366.html",
+   "hp": "Performance On-The-Go Pants",
+   "hu": "https://www.vineyardvines.com/product/mens-pants/on-the-go-pant/1P000005.html",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 76,
-    "cities": [
-      ["Albany", "NY", 1],
-      ["Alpharetta", "GA", 1],
-      ["Arlington", "VA", 1],
-      ["Avalon", "NJ", 1],
-      ["Bethesda", "MD", 1],
-      ["Boca Raton", "FL", 1],
-      ["Boston", "MA", 1],
-      ["Burlingame", "CA", 1],
-      ["Burlington", "MA", 1],
-      ["Charleston", "SC", 1],
-      ["Charlotte", "NC", 1],
-      ["Chestnut Hill", "MA", 1],
-      ["Cincinnati", "OH", 1],
-      ["Columbus", "OH", 1],
-      ["Coral Gables", "FL", 1],
-      ["Cranston", "RI", 1],
-      ["Dallas", "TX", 1],
-      ["Dedham", "MA", 1],
-      ["Denver", "CO", 1],
-      ["Dulles", "VA", 1],
-      ["Edgartown", "MA", 1],
-      ["Edina", "MN", 2],
-      ["Foxborough", "MA", 1],
-      ["Frisco", "TX", 1],
-      ["Germantown", "TN", 1],
-      ["Greenwich", "CT", 1],
-      ["Hingham", "MA", 1],
-      ["Houston", "TX", 1],
-      ["Huntington Station", "NY", 1],
-      ["Indianapolis", "IN", 1],
-      ["Jacksonville", "FL", 1],
-      ["Kansas City", "MO", 1],
-      ["Kiawah Island", "SC", 1],
-      ["King of Prussia", "PA", 1],
-      ["Lake Buena Vista", "FL", 1],
-      ["Leawood", "KS", 1],
-      ["Lexington", "KY", 1],
-      ["Los Angeles", "CA", 1],
-      ["Louisville", "KY", 1],
-      ["Lynnfield", "MA", 1],
-      ["Marlton", "NJ", 1],
-      ["Mashpee", "MA", 1],
-      ["McLean", "VA", 1],
-      ["Miramar Beach", "FL", 1],
-      ["Nantucket", "MA", 1],
-      ["Naples", "FL", 2],
-      ["Nashville", "TN", 1],
-      ["New Canaan", "CT", 1],
-      ["Newport", "RI", 1],
-      ["Oak Bluffs", "MA", 1],
-      ["Orange Village", "OH", 1],
-      ["Orlando", "FL", 1],
-      ["Palm Beach", "FL", 1],
-      ["Palm Beach Gardens", "FL", 1],
-      ["Paramus", "NJ", 1],
-      ["Pittsburgh", "PA", 1],
-      ["Raleigh", "NC", 1],
-      ["Richmond", "VA", 1],
-      ["San Diego", "CA", 1],
-      ["Sarasota", "FL", 1],
-      ["Savannah", "GA", 1],
-      ["Scottsdale", "AZ", 1],
-      ["Short Hills", "NJ", 1],
-      ["Shrewsbury", "NJ", 1],
-      ["Skokie", "IL", 1],
-      ["Southlake", "TX", 1],
-      ["St. Louis", "MO", 1],
-      ["St. Simons Island", "GA", 1],
-      ["Tampa", "FL", 1],
-      ["Troy", "MI", 1],
-      ["Vineyard Haven", "MA", 1],
-      ["Washington", "DC", 1],
-      ["West Hartford", "CT", 1],
-      ["Westport", "CT", 1]
-    ],
-    "basis": "recapture 2026-09"
+  "Sweater": {
+   "lp": "Folly Beach Garment-Dyed Crewneck",
+   "lu": "https://www.vineyardvines.com/product/mens-sweaters/folly-beach-crewneck/1E001947.html",
+   "hp": "Cashmere Quarter-Zip",
+   "hu": "https://www.vineyardvines.com/product/mens-sweaters/cashmere-quarter-zip/1E001991.html",
+   "b": "range"
   },
-  "cities": "76 stores across the US · department stores and independent menswear shops, and its own site",
-  "region": {
-    "o": [
-      2904,
-      2905,
-      2906,
-      2907,
-      2929,
-      2930,
-      2931,
-      2932,
-      2933,
-      2934,
-      2935,
-      2936,
-      2937,
-      2938,
-      2939,
-      2940,
-      2949,
-      2950,
-      2951,
-      2952,
-      2953,
-      2954,
-      2955,
-      2959,
-      2960,
-      2961,
-      2962
-    ],
-    "s": [6, 8, 9, 13, 41, 54, 70, 138, 141, 146, 147, 151, 152]
+  "Outerwear": {
+   "lp": "Stow & Go Shep Jacket",
+   "lu": "https://www.vineyardvines.com/product/mens-outerwear/stow-go-shep-jacket/1O001886.html",
+   "hp": "Skyward Anorak",
+   "hu": "https://www.vineyardvines.com/product/mens-outerwear/technical-anorak/1O002029.html",
+   "b": "range"
   },
-  "addmen": true,
-  "site": {
-    "domain": "vineyardvines.com",
-    "platform": "salesforce_commerce",
-    "feed": "sitemap_products",
-    "feed_count": 1513,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "both",
-    "marks": [
-      "Sankaty",
-      "On-The-Go",
-      "Saltwater",
-      "brrr",
-      "Dreamcloth(R)",
-      "Shep Shirt(R)",
-      "Edgartown",
-      "Harbor Shirt",
-      "THERMOLITE(R)",
-      "COOLMAX(R)",
-      "REPREVE(R)",
-      "Basolan",
-      "TENCEL"
-    ],
-    "source": "census",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 669,
-    "w": 669,
-    "n": 65,
-    "s": 35,
-    "c": 0,
-    "x": 28,
-    "xh": 24,
-    "sp": "split",
-    "sc": ["mens-polos", "mens-headwear", "mens-outerwear", "mens-loungewear"],
-    "nc": ["mens-t-shirts", "mens-fashion-knits", "mens-belts"],
-    "st": "complete"
-  },
-  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Dress pants", "Sweater", "Outerwear", "Shoes"],
-  "garment_links": {
-    "T-shirt": "https://www.vineyardvines.com/category/Mens-Tee-Shirts",
-    "Polo": "https://www.vineyardvines.com/category/mens-polos",
-    "Dress shirt": "https://www.vineyardvines.com/category/mens-casual-button-down-shirts",
-    "Jeans": "https://www.vineyardvines.com/category/mens-pants-denim",
-    "Dress pants": "https://www.vineyardvines.com/category/mens-pants-chino",
-    "Sweater": "https://www.vineyardvines.com/category/mens-sweaters",
-    "Outerwear": "https://www.vineyardvines.com/category/Mens-Blazers"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Surf Pocket Tee",
-      "lu": "https://www.vineyardvines.com/product/mens-t-shirts/surf-short-sleeve-pocket-tee/1V023064.html",
-      "hp": "Sun Tech Short-Sleeve Tee",
-      "hu": "https://www.vineyardvines.com/product/mens-t-shirts/sun-tech-short-sleeve-tee/1V024557.html",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Surf Polo",
-      "lu": "https://www.vineyardvines.com/product/mens-polos/surf-polo/1G013191.html",
-      "hp": "Performance Air Tech Polo",
-      "hu": "https://www.vineyardvines.com/product/mens-polos/air-tech-mesh-polo/1G013892.html",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Shoreline Solid Perfect Wash Poplin Shirt",
-      "lu": "https://www.vineyardvines.com/product/mens-classic-fit/shoreline-solid-perfect-wash-poplin-shirt/1W012688.html",
-      "hp": "Performance Tech Twill Solid Shirt",
-      "hu": "https://www.vineyardvines.com/product/mens-classic-fit/performance-tech-twill-solid-shirt/1W013374.html",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Slim Straight Indigo Jeans",
-      "lu": "https://www.vineyardvines.com/product/mens-pants/slim-straight-indigo-denim/1P001363.html",
-      "hp": "Slim Straight Indigo Jeans",
-      "hu": "https://www.vineyardvines.com/product/mens-pants/slim-straight-indigo-denim/1P001363.html",
-      "b": "single"
-    },
-    "Dress pants": {
-      "lp": "Chilmark Chinos",
-      "lu": "https://www.vineyardvines.com/product/mens-pants/chilmark-chinos/1P001366.html",
-      "hp": "Performance On-The-Go Pants",
-      "hu": "https://www.vineyardvines.com/product/mens-pants/on-the-go-pant/1P000005.html",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Folly Beach Garment-Dyed Crewneck",
-      "lu": "https://www.vineyardvines.com/product/mens-sweaters/folly-beach-crewneck/1E001947.html",
-      "hp": "Cashmere Quarter-Zip",
-      "hu": "https://www.vineyardvines.com/product/mens-sweaters/cashmere-quarter-zip/1E001991.html",
-      "b": "range"
-    },
-    "Outerwear": {
-      "lp": "Stow & Go Shep Jacket",
-      "lu": "https://www.vineyardvines.com/product/mens-outerwear/stow-go-shep-jacket/1O001886.html",
-      "hp": "Skyward Anorak",
-      "hu": "https://www.vineyardvines.com/product/mens-outerwear/technical-anorak/1O002029.html",
-      "b": "range"
-    },
-    "Shoes": {
-      "lp": "Classic Whale Foam Flip Flops",
-      "lu": "https://www.vineyardvines.com/product/mens-shoes/classic-whale-foam-flip-flop/1Z001043.html",
-      "hp": "Contoured Leather Flip Flops",
-      "hu": "https://www.vineyardvines.com/product/mens-shoes/contoured-leather-flip-flops/1Z001064.html",
-      "b": "range"
-    }
-  },
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.vineyardvines.com/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=397363",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "craft_evidence": {
-    "owned": "NC",
-    "owned_d": "NC",
-    "makers": "NC",
-    "mills": "NC",
-    "madein": "NC",
-    "countries": "NC",
-    "heritage": "NC",
-    "repair": "NC",
-    "process": "NC",
-    "urls": [],
-    "conf": "medium",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Classic Whale Foam Flip Flops",
+   "lu": "https://www.vineyardvines.com/product/mens-shoes/classic-whale-foam-flip-flop/1Z001043.html",
+   "hp": "Contoured Leather Flip Flops",
+   "hu": "https://www.vineyardvines.com/product/mens-shoes/contoured-leather-flip-flops/1Z001064.html",
+   "b": "range"
   }
+ },
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.vineyardvines.com/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=397363",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "craft_evidence": {
+  "owned": "NC",
+  "owned_d": "NC",
+  "makers": "NC",
+  "mills": "NC",
+  "madein": "NC",
+  "countries": "NC",
+  "heritage": "NC",
+  "repair": "NC",
+  "process": "NC",
+  "urls": [],
+  "conf": "medium",
+  "read": "2026-10-03"
+ }
 }

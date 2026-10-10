@@ -1,218 +1,401 @@
 {
-  "name": "Buck Mason",
-  "band": "premium",
-  "seat": 43,
-  "dagger": 0,
-  "focus": {
-    "tech": 2,
-    "comfort": 4,
-    "craft": 4,
-    "style": 4
+ "name": "Buck Mason",
+ "band": "premium",
+ "seat": 43,
+ "dagger": 0,
+ "focus": {
+  "tech": 2,
+  "comfort": 4,
+  "craft": 4,
+  "style": 4
+ },
+ "fabric": {
+  "denim": 3,
+  "cashmere": 1,
+  "linen": 2,
+  "cotton": 4,
+  "wool": 2,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 4,
+  "forg": 3,
+  "fuss": -2,
+  "golffice": 0,
+  "murica": 4,
+  "whitet": 4,
+  "logo": 1,
+  "western": 2,
+  "rock": 1,
+  "workwear": 3,
+  "outdoor": 1,
+  "surf": 2
+ },
+ "why": "Tees, shirts, denim and knitwear in an American casual style; the company bought and restarted an 1873 knitting mill in Pennsylvania.",
+ "origin": "Founded in Venice, California, in 2013 by Sasha Koehn and Erik Allen Ford.",
+ "chan": [
+  "O",
+  "W"
+ ],
+ "conf": "L",
+ "forgc": [
+  5,
+  3,
+  1
+ ],
+ "onething": {
+  "p": "Pima curved-hem tee",
+  "u": "https://www.buckmason.com/search?q=Pima%20curved-hem%20tee",
+  "n": "verified ✓"
+ },
+ "prices": [
+  [
+   48,
+   148
+  ],
+  [
+   88,
+   88
+  ],
+  [
+   98,
+   228
+  ],
+  [
+   168,
+   278
+  ],
+  [
+   228,
+   298
+  ],
+  [
+   168,
+   368
+  ],
+  [
+   298,
+   798
+  ],
+  null
+ ],
+ "doors": {
+  "c": "full",
+  "n": 43,
+  "cities": [
+   [
+    "Atlanta",
+    "GA",
+    1
+   ],
+   [
+    "Austin",
+    "TX",
+    2
+   ],
+   [
+    "Berkeley",
+    "CA",
+    1
+   ],
+   [
+    "Boston",
+    "MA",
+    2
+   ],
+   [
+    "Brooklyn",
+    "NY",
+    1
+   ],
+   [
+    "Century City",
+    "CA",
+    1
+   ],
+   [
+    "Charleston",
+    "SC",
+    1
+   ],
+   [
+    "Chicago",
+    "IL",
+    2
+   ],
+   [
+    "Columbus",
+    "OH",
+    1
+   ],
+   [
+    "Dallas",
+    "TX",
+    1
+   ],
+   [
+    "Denver",
+    "CO",
+    1
+   ],
+   [
+    "Greenwich",
+    "CT",
+    1
+   ],
+   [
+    "Houston",
+    "TX",
+    1
+   ],
+   [
+    "Los Angeles",
+    "CA",
+    2
+   ],
+   [
+    "McLean",
+    "VA",
+    1
+   ],
+   [
+    "Miami",
+    "FL",
+    1
+   ],
+   [
+    "Nashville",
+    "TN",
+    2
+   ],
+   [
+    "New York",
+    "NY",
+    7
+   ],
+   [
+    "Newport Beach",
+    "CA",
+    1
+   ],
+   [
+    "Oakbrook",
+    "IL",
+    1
+   ],
+   [
+    "Pacific Palisades",
+    "CA",
+    2
+   ],
+   [
+    "San Francisco",
+    "CA",
+    1
+   ],
+   [
+    "Scottsdale",
+    "AZ",
+    1
+   ],
+   [
+    "Seattle",
+    "WA",
+    2
+   ],
+   [
+    "Sewickley",
+    "PA",
+    1
+   ],
+   [
+    "Studio City",
+    "CA",
+    1
+   ],
+   [
+    "Troy",
+    "MI",
+    1
+   ],
+   [
+    "Venice",
+    "CA",
+    2
+   ],
+   [
+    "Washington",
+    "DC",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 1,
+  "con": 5
+ },
+ "cities": "43 stores across the US, and its own site",
+ "region": {
+  "o": [
+   847,
+   848,
+   849,
+   850,
+   851,
+   852,
+   853,
+   854,
+   855,
+   856,
+   857,
+   860
+  ],
+  "s": []
+ },
+ "addmen": true,
+ "site": {
+  "domain": "buckmason.com",
+  "platform": "shopify",
+  "feed": "sitemap_products",
+  "feed_count": 994,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "both",
+  "marks": [
+   "Toughknit(TM) (house)",
+   "PrimaLoft(R), Supima, TENCEL, Bemberg(R) (licensed)"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 179,
+  "w": 126,
+  "n": 66,
+  "s": 2,
+  "c": 2,
+  "x": 3,
+  "xh": 1,
+  "sp": "one",
+  "sc": [
+   "Swim"
+  ],
+  "nc": [
+   "Tees",
+   "Sweaters",
+   "Shirts"
+  ],
+  "st": "complete"
+ },
+ "garment_links": {
+  "T-shirt": "https://www.buckmason.com/collections/mens-tees",
+  "Polo": "https://www.buckmason.com/collections/mens-polos",
+  "Dress shirt": "https://www.buckmason.com/collections/mens-shirts",
+  "Jeans": "https://www.buckmason.com/collections/mens-jeans",
+  "Dress pants": "https://www.buckmason.com/collections/dress-trousers",
+  "Sweater": "https://www.buckmason.com/collections/mens-sweaters",
+  "Outerwear": "https://www.buckmason.com/collections/mens-outerwear"
+ },
+ "notes": {
+  "whitet": "Founded on a better tee, the Pima curved-hem; still the entry to the brand.",
+  "reach": "[authored findability score was 3; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "Buck Mason owns Buck Mason Knitting Mills in Mohnton, PA (founded 1873), and its tee pages say 'Made at BM Knitting Mills in Mohnton, PA'. The rest of the range is made by partners; most shirt, outerwear and knitwear pages state no country and no maker. Owned making for a core category, not the range: a 4."
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "White Pima Classic Tee",
+   "lu": "https://www.buckmason.com/products/white-pima-classic-tee",
+   "hp": "White Como Cashmere Tee",
+   "hu": "https://www.buckmason.com/products/white-como-cashmere-tee",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 3,
-    "cashmere": 1,
-    "linen": 2,
-    "cotton": 4,
-    "wool": 2,
-    "synth": 1
+  "Polo": {
+   "lp": "White Sueded Cotton Polo",
+   "lu": "https://www.buckmason.com/products/white-sueded-cotton-ss-polo",
+   "hp": "White Sueded Cotton Polo",
+   "hu": "https://www.buckmason.com/products/white-sueded-cotton-ss-polo",
+   "b": "single"
   },
-  "dials": {
-    "dur": 4,
-    "forg": 3,
-    "fuss": -2,
-    "golffice": 0,
-    "murica": 4,
-    "whitet": 4,
-    "logo": 1,
-    "western": 2,
-    "rock": 1,
-    "workwear": 3,
-    "outdoor": 1,
-    "surf": 2
+  "Dress shirt": {
+   "lp": "Double Deuce Chambray Big Shirt (D055)",
+   "lu": "https://www.buckmason.com/products/d055-double-deuce-chambray-big-shirt",
+   "hp": "Light Blue Sunset Rayon Western Shirt",
+   "hu": "https://www.buckmason.com/products/light-blue-sunset-rayon-western-shirt",
+   "b": "range"
   },
-  "why": "Tees, shirts, denim and knitwear in an American casual style; the company bought and restarted an 1873 knitting mill in Pennsylvania.",
-  "origin": "Founded in Venice, California, in 2013 by Sasha Koehn and Erik Allen Ford.",
-  "chan": ["O", "W"],
-  "conf": "L",
-  "forgc": [5, 3, 1],
-  "onething": {
-    "p": "Pima curved-hem tee",
-    "u": "https://www.buckmason.com/search?q=Pima%20curved-hem%20tee",
-    "n": "verified ✓"
+  "Jeans": {
+   "lp": "Rinse Hardware Store Big Jean",
+   "lu": "https://www.buckmason.com/products/rinse-hardware-store-big-jean",
+   "hp": "D018 Japanese Loomstate Selvedge Full Saddle Jean",
+   "hu": "https://www.buckmason.com/products/d018-japanese-loomstate-selvedge-full-saddle-jean",
+   "b": "range"
   },
-  "prices": [[48, 148], [88, 88], [98, 228], [168, 278], [228, 298], [168, 368], [298, 798], null],
-  "doors": {
-    "c": "full",
-    "n": 42,
-    "cities": [
-      ["Atlanta", "GA", 1],
-      ["Austin", "TX", 2],
-      ["Berkeley", "CA", 1],
-      ["Boston", "MA", 2],
-      ["Brooklyn", "NY", 1],
-      ["Charleston", "SC", 1],
-      ["Chicago", "IL", 2],
-      ["Columbus", "OH", 1],
-      ["Dallas", "TX", 1],
-      ["Denver", "CO", 1],
-      ["Greenwich", "CT", 1],
-      ["Houston", "TX", 1],
-      ["Los Angeles", "CA", 3],
-      ["McLean", "VA", 1],
-      ["Miami", "FL", 1],
-      ["Nashville", "TN", 2],
-      ["New York", "NY", 7],
-      ["Newport Beach", "CA", 1],
-      ["Oak Brook", "IL", 1],
-      ["Pacific Palisades", "CA", 1],
-      ["San Francisco", "CA", 1],
-      ["Scottsdale", "AZ", 1],
-      ["Seattle", "WA", 2],
-      ["Sewickley", "PA", 1],
-      ["Studio City", "CA", 1],
-      ["Troy", "MI", 1],
-      ["Venice", "CA", 2],
-      ["Washington", "DC", 1]
-    ],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Dress pants": {
+   "lp": "Natural Hollywood Pleated Trouser",
+   "lu": "https://www.buckmason.com/products/natural-hollywood-pleated-trouser",
+   "hp": "Charcoal Heather Angelino Wool Graduate Trouser",
+   "hu": "https://www.buckmason.com/products/charcoal-heather-angelino-wool-graduate-trouser",
+   "b": "range"
   },
-  "cities": "42 stores across the US, and its own site",
-  "region": {
-    "o": [598, 605, 606, 608, 609, 610, 611, 612, 613, 614, 615, 617],
-    "s": []
+  "Sweater": {
+   "lp": "Fatigue Wool Hemp Traveler Crew",
+   "lu": "https://www.buckmason.com/products/fatigue-wool-hemp-traveler-crew",
+   "hp": "Black California Cashmere Cable Crew",
+   "hu": "https://www.buckmason.com/products/black-california-cashmere-cable-crew",
+   "b": "pair"
   },
-  "addmen": true,
-  "site": {
-    "domain": "buckmason.com",
-    "platform": "shopify",
-    "feed": "sitemap_products",
-    "feed_count": 994,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "both",
-    "marks": ["Toughknit(TM) (house)", "PrimaLoft(R), Supima, TENCEL, Bemberg(R) (licensed)"],
-    "source": "census",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 179,
-    "w": 126,
-    "n": 66,
-    "s": 2,
-    "c": 2,
-    "x": 3,
-    "xh": 1,
-    "sp": "one",
-    "sc": ["Swim"],
-    "nc": ["Tees", "Sweaters", "Shirts"],
-    "st": "complete"
-  },
-  "garment_links": {
-    "T-shirt": "https://www.buckmason.com/collections/mens-tees",
-    "Polo": "https://www.buckmason.com/collections/mens-polos",
-    "Dress shirt": "https://www.buckmason.com/collections/mens-shirts",
-    "Jeans": "https://www.buckmason.com/collections/mens-jeans",
-    "Dress pants": "https://www.buckmason.com/collections/dress-trousers",
-    "Sweater": "https://www.buckmason.com/collections/mens-sweaters",
-    "Outerwear": "https://www.buckmason.com/collections/mens-outerwear"
-  },
-  "notes": {
-    "whitet": "Founded on a better tee, the Pima curved-hem; still the entry to the brand.",
-    "reach": "[authored findability score was 3; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Buck Mason owns Buck Mason Knitting Mills in Mohnton, PA (founded 1873), and its tee pages say 'Made at BM Knitting Mills in Mohnton, PA'. The rest of the range is made by partners; most shirt, outerwear and knitwear pages state no country and no maker. Owned making for a core category, not the range: a 4."
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "White Pima Classic Tee",
-      "lu": "https://www.buckmason.com/products/white-pima-classic-tee",
-      "hp": "White Como Cashmere Tee",
-      "hu": "https://www.buckmason.com/products/white-como-cashmere-tee",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "White Sueded Cotton Polo",
-      "lu": "https://www.buckmason.com/products/white-sueded-cotton-ss-polo",
-      "hp": "White Sueded Cotton Polo",
-      "hu": "https://www.buckmason.com/products/white-sueded-cotton-ss-polo",
-      "b": "single"
-    },
-    "Dress shirt": {
-      "lp": "Double Deuce Chambray Big Shirt (D055)",
-      "lu": "https://www.buckmason.com/products/d055-double-deuce-chambray-big-shirt",
-      "hp": "Light Blue Sunset Rayon Western Shirt",
-      "hu": "https://www.buckmason.com/products/light-blue-sunset-rayon-western-shirt",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Rinse Hardware Store Big Jean",
-      "lu": "https://www.buckmason.com/products/rinse-hardware-store-big-jean",
-      "hp": "D018 Japanese Loomstate Selvedge Full Saddle Jean",
-      "hu": "https://www.buckmason.com/products/d018-japanese-loomstate-selvedge-full-saddle-jean",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Natural Hollywood Pleated Trouser",
-      "lu": "https://www.buckmason.com/products/natural-hollywood-pleated-trouser",
-      "hp": "Charcoal Heather Angelino Wool Graduate Trouser",
-      "hu": "https://www.buckmason.com/products/charcoal-heather-angelino-wool-graduate-trouser",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Fatigue Wool Hemp Traveler Crew",
-      "lu": "https://www.buckmason.com/products/fatigue-wool-hemp-traveler-crew",
-      "hp": "Black California Cashmere Cable Crew",
-      "hu": "https://www.buckmason.com/products/black-california-cashmere-cable-crew",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "Black Italian Doeskin Station Jacket",
-      "lu": "https://www.buckmason.com/products/black-italian-doeskin-station-jacket",
-      "hp": "Prairie Mojave Suede Station Jacket",
-      "hu": "https://www.buckmason.com/products/prairie-mojave-suede-station-jacket",
-      "b": "pair"
-    }
-  },
-  "price_range_only": ["T-shirt", "Dress shirt", "Jeans", "Dress pants"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.buckmason.com/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=3295217",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "craft_evidence": {
-    "owned": "yes",
-    "owned_d": "Buck Mason Knitting Mills (formerly Mohnton Knitting Mills), Mohnton, Pennsylvania — brand's own page /pages/buck-mason-knitting-mills: mill founded 1873, bought by founders when it was about to close, team rehired; has knitting machines to 'develop our proprietary fabrics from scratch' and sews tees. Corroborated by press (Robb Report, InsideHook, Primer 2023, montco.today Oct 2023).",
-    "makers": "some",
-    "mills": "some",
-    "madein": "some",
-    "countries": "USA 3/9 (2 tees at Mohnton PA, 1 jean cut and sewn in LA); not stated 6/9 (Big Oxford shirt, Craftsman corduroy workshirt, Felted chore coat, Italian Doeskin Station Jacket, Anatomica sweater, Anatomica chino). Sample of 9 PDPs: tees, jeans, shirts, outerwear, knitwear, trousers. 'Made in USA' collection = tees (Mohnton) and jeans (LA).",
-    "heritage": "dated and placed",
-    "repair": "NC",
-    "process": "some",
-    "urls": [
-      "https://www.buckmason.com/pages/buck-mason-knitting-mills",
-      "https://www.buckmason.com/products/white-slub-classic-tee"
-    ],
-    "conf": "high",
-    "read": "2026-10-03"
+  "Outerwear": {
+   "lp": "Black Italian Doeskin Station Jacket",
+   "lu": "https://www.buckmason.com/products/black-italian-doeskin-station-jacket",
+   "hp": "Prairie Mojave Suede Station Jacket",
+   "hu": "https://www.buckmason.com/products/prairie-mojave-suede-station-jacket",
+   "b": "pair"
   }
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.buckmason.com/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=3295217",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "craft_evidence": {
+  "owned": "yes",
+  "owned_d": "Buck Mason Knitting Mills (formerly Mohnton Knitting Mills), Mohnton, Pennsylvania — brand's own page /pages/buck-mason-knitting-mills: mill founded 1873, bought by founders when it was about to close, team rehired; has knitting machines to 'develop our proprietary fabrics from scratch' and sews tees. Corroborated by press (Robb Report, InsideHook, Primer 2023, montco.today Oct 2023).",
+  "makers": "some",
+  "mills": "some",
+  "madein": "some",
+  "countries": "USA 3/9 (2 tees at Mohnton PA, 1 jean cut and sewn in LA); not stated 6/9 (Big Oxford shirt, Craftsman corduroy workshirt, Felted chore coat, Italian Doeskin Station Jacket, Anatomica sweater, Anatomica chino). Sample of 9 PDPs: tees, jeans, shirts, outerwear, knitwear, trousers. 'Made in USA' collection = tees (Mohnton) and jeans (LA).",
+  "heritage": "dated and placed",
+  "repair": "NC",
+  "process": "some",
+  "urls": [
+   "https://www.buckmason.com/pages/buck-mason-knitting-mills",
+   "https://www.buckmason.com/products/white-slub-classic-tee"
+  ],
+  "conf": "high",
+  "read": "2026-10-03"
+ }
 }

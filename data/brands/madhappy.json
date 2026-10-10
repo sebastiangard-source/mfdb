@@ -1,175 +1,237 @@
 {
-  "name": "Madhappy",
-  "band": "premium",
-  "seat": 59,
-  "dagger": 0,
-  "focus": {
-    "tech": 2,
-    "comfort": 4,
-    "craft": 2,
-    "style": 4
+ "name": "Madhappy",
+ "band": "premium",
+ "seat": 59,
+ "dagger": 0,
+ "focus": {
+  "tech": 2,
+  "comfort": 4,
+  "craft": 2,
+  "style": 4
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 2,
+  "linen": 1,
+  "cotton": 3,
+  "wool": 1,
+  "synth": 2
+ },
+ "dials": {
+  "dur": 2,
+  "forg": 3,
+  "fuss": -1,
+  "bruv": 2,
+  "status": 2,
+  "murica": 2,
+  "street": 4,
+  "weird": 2,
+  "whitet": 2,
+  "logo": 3,
+  "western": 1,
+  "rock": 2,
+  "workwear": 1,
+  "outdoor": 2,
+  "surf": 3
+ },
+ "why": "Hoodies, sweatpants and tees in heavyweight fleece, released in limited drops and sold through its own stores.",
+ "origin": "Founded in Los Angeles in 2017 by four founders.",
+ "chan": [
+  "O",
+  "W"
+ ],
+ "conf": "L",
+ "forgc": [
+  5,
+  3,
+  1
+ ],
+ "shop": "https://www.madhappy.com/search?q=",
+ "onething": {
+  "p": "Local Optimist hoodie",
+  "u": "https://www.madhappy.com/search?q=Local%20Optimist%20hoodie%20men",
+  "n": "verified ✓"
+ },
+ "prices": [
+  [
+   70,
+   80
+  ],
+  null,
+  null,
+  null,
+  null,
+  [
+   225,
+   225
+  ],
+  [
+   295,
+   295
+  ],
+  null
+ ],
+ "notes": {
+  "street": "drop-calendar optimism — hoodies as scarce goods",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 2; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "Madhappy's product pages state a country or city of make on most items (core fleece 'Made In Los Angeles', midweight hoodie Canada, knits China), and its fabric guide says where each fabric is knit and garment-dyed (Los Angeles or Canada). It names no factory, mill or owned facility, so it is a 2, not a 3."
+ },
+ "doors": {
+  "c": "full",
+  "n": 6,
+  "cities": [
+   [
+    "Aspen",
+    "CO",
+    1
+   ],
+   [
+    "Costa Mesa",
+    "CA",
+    1
+   ],
+   [
+    "East Hampton",
+    "NY",
+    1
+   ],
+   [
+    "Malibu",
+    "CA",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    1
+   ],
+   [
+    "West Hollywood",
+    "CA",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 0,
+  "con": 0
+ },
+ "cities": "6 stores, including Aspen, Costa Mesa, East Hampton, and its own site",
+ "region": {
+  "o": [
+   2527,
+   2529
+  ],
+  "s": []
+ },
+ "addmen": true,
+ "site": {
+  "domain": "madhappy.com",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 1055,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "no",
+  "origin": "none",
+  "marks": [
+   "none on the house label. TENCEL recorded, composition_only (2 products)"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 383,
+  "w": 380,
+  "n": 97,
+  "s": 1,
+  "c": 1,
+  "x": 1,
+  "xh": 1,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "Hoodie",
+   "Sweatpant",
+   "Zip Up Hoodie"
+  ],
+  "st": "complete"
+ },
+ "garment_links": {
+  "T-shirt": "https://www.madhappy.com/collections/mens-t-shirts",
+  "Outerwear": "https://www.madhappy.com/collections/mens-outerwear",
+  "Shoes": "https://www.madhappy.com/collections/mens-footwear"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Classics Heavyweight Tee",
+   "lu": "https://www.madhappy.com/products/classics-heavyweight-tee-tar",
+   "hp": "Madhappy California Lightweight Pocket Tee",
+   "hu": "https://www.madhappy.com/products/madhappy-california-pocket-tee-deer",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 2,
-    "linen": 1,
-    "cotton": 3,
-    "wool": 1,
-    "synth": 2
+  "Sweater": {
+   "lp": "Polo Sweater",
+   "lu": "https://www.madhappy.com/products/polo-sweater-opal",
+   "hp": "Polo Sweater",
+   "hu": "https://www.madhappy.com/products/polo-sweater-opal",
+   "b": "single"
   },
-  "dials": {
-    "dur": 2,
-    "forg": 3,
-    "fuss": -1,
-    "bruv": 2,
-    "status": 2,
-    "murica": 2,
-    "street": 4,
-    "weird": 2,
-    "whitet": 2,
-    "logo": 3,
-    "western": 1,
-    "rock": 2,
-    "workwear": 1,
-    "outdoor": 2,
-    "surf": 3
-  },
-  "why": "Hoodies, sweatpants and tees in heavyweight fleece, released in limited drops and sold through its own stores.",
-  "origin": "Founded in Los Angeles in 2017 by four founders.",
-  "chan": ["O", "W"],
-  "conf": "L",
-  "forgc": [5, 3, 1],
-  "shop": "https://www.madhappy.com/search?q=",
-  "onething": {
-    "p": "Local Optimist hoodie",
-    "u": "https://www.madhappy.com/search?q=Local%20Optimist%20hoodie%20men",
-    "n": "verified ✓"
-  },
-  "prices": [[70, 80], null, null, null, null, [225, 225], [295, 295], null],
-  "notes": {
-    "street": "drop-calendar optimism — hoodies as scarce goods",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 2; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Madhappy's product pages state a country or city of make on most items (core fleece 'Made In Los Angeles', midweight hoodie Canada, knits China), and its fabric guide says where each fabric is knit and garment-dyed (Los Angeles or Canada). It names no factory, mill or owned facility, so it is a 2, not a 3."
-  },
-  "doors": {
-    "c": "full",
-    "n": 6,
-    "cities": [
-      ["Aspen", "CO", 1],
-      ["Costa Mesa", "CA", 1],
-      ["East Hampton", "NY", 1],
-      ["Malibu", "CA", 1],
-      ["New York", "NY", 1],
-      ["West Hollywood", "CA", 1]
-    ],
-    "basis": "recapture 2026-09"
-  },
-  "cities": "6 stores, including Aspen, Costa Mesa, East Hampton, and its own site",
-  "region": {
-    "o": [2002, 2003],
-    "s": []
-  },
-  "addmen": true,
-  "site": {
-    "domain": "madhappy.com",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 1055,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "no",
-    "origin": "none",
-    "marks": ["none on the house label. TENCEL recorded, composition_only (2 products)"],
-    "source": "census",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 383,
-    "w": 380,
-    "n": 97,
-    "s": 1,
-    "c": 1,
-    "x": 1,
-    "xh": 1,
-    "sp": "one",
-    "sc": [],
-    "nc": ["Hoodie", "Sweatpant", "Zip Up Hoodie"],
-    "st": "complete"
-  },
-  "garment_links": {
-    "T-shirt": "https://www.madhappy.com/collections/mens-t-shirts",
-    "Outerwear": "https://www.madhappy.com/collections/mens-outerwear",
-    "Shoes": "https://www.madhappy.com/collections/mens-footwear"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Classics Heavyweight Tee",
-      "lu": "https://www.madhappy.com/products/classics-heavyweight-tee-tar",
-      "hp": "Madhappy California Lightweight Pocket Tee",
-      "hu": "https://www.madhappy.com/products/madhappy-california-pocket-tee-deer",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Polo Sweater",
-      "lu": "https://www.madhappy.com/products/polo-sweater-opal",
-      "hp": "Polo Sweater",
-      "hu": "https://www.madhappy.com/products/polo-sweater-opal",
-      "b": "single"
-    },
-    "Outerwear": {
-      "lp": "Washed Hooded Jacket",
-      "lu": "https://www.madhappy.com/products/washed-hooded-jacket-dusty",
-      "hp": "Washed Hooded Jacket",
-      "hu": "https://www.madhappy.com/products/washed-hooded-jacket-dusty",
-      "b": "single"
-    }
-  },
-  "price_range_only": ["T-shirt"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.madhappy.com/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=5100236",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "season": {
-    "l": "Fall Classics 2026",
-    "t": "lookbook",
-    "u": "https://www.madhappy.com/blogs/news/fall-classics-2026-lookbook",
-    "m": "unisex"
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "About page (born Los Angeles 2017) names no factory or workshop of its own; only production partner named is FREECITY (2025 collaboration, 'made by hand in Hollywood, California'). Fabric guide says fleece/jersey is knit and garment-dyed 'in Los Angeles' or knit in Canada, without naming who does it. No owned facility found.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "most",
-    "countries": "Los Angeles/USA 3/6 (Classics fleece hoodie, lightweight fleece sweatpant, Ditsy Cooper hoodie), Canada 1/6 (Classic midweight hoodie), China 1/6 (Dodgers cardigan), none 1/6 ('47 Yankees hat, licensed). Sample of 6 PDPs: fleece hoodies, sweatpant, knit cardigan, headwear; tees not reached.",
-    "heritage": "dated and placed",
-    "repair": "no",
-    "process": "some",
-    "urls": [
-      "https://www.madhappy.com/pages/fabric-guide",
-      "https://www.madhappy.com/products/classics-fleece-hoodie-core"
-    ],
-    "conf": "high",
-    "read": "2026-10-03"
+  "Outerwear": {
+   "lp": "Washed Hooded Jacket",
+   "lu": "https://www.madhappy.com/products/washed-hooded-jacket-dusty",
+   "hp": "Washed Hooded Jacket",
+   "hu": "https://www.madhappy.com/products/washed-hooded-jacket-dusty",
+   "b": "single"
   }
+ },
+ "price_range_only": [
+  "T-shirt"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.madhappy.com/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=5100236",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "season": {
+  "l": "Fall Classics 2026",
+  "t": "lookbook",
+  "u": "https://www.madhappy.com/blogs/news/fall-classics-2026-lookbook",
+  "m": "unisex"
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "About page (born Los Angeles 2017) names no factory or workshop of its own; only production partner named is FREECITY (2025 collaboration, 'made by hand in Hollywood, California'). Fabric guide says fleece/jersey is knit and garment-dyed 'in Los Angeles' or knit in Canada, without naming who does it. No owned facility found.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "most",
+  "countries": "Los Angeles/USA 3/6 (Classics fleece hoodie, lightweight fleece sweatpant, Ditsy Cooper hoodie), Canada 1/6 (Classic midweight hoodie), China 1/6 (Dodgers cardigan), none 1/6 ('47 Yankees hat, licensed). Sample of 6 PDPs: fleece hoodies, sweatpant, knit cardigan, headwear; tees not reached.",
+  "heritage": "dated and placed",
+  "repair": "no",
+  "process": "some",
+  "urls": [
+   "https://www.madhappy.com/pages/fabric-guide",
+   "https://www.madhappy.com/products/classics-fleece-hoodie-core"
+  ],
+  "conf": "high",
+  "read": "2026-10-03"
+ }
 }

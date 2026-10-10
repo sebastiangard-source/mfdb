@@ -1,214 +1,337 @@
 {
-  "name": "Billy Reid",
-  "band": "accessible",
-  "seat": 113,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 3,
-    "craft": 2,
-    "style": 4
+ "name": "Billy Reid",
+ "band": "accessible",
+ "seat": 113,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 3,
+  "craft": 2,
+  "style": 4
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 2,
+  "linen": 3,
+  "cotton": 3,
+  "wool": 2,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 4,
+  "forg": 3,
+  "fuss": 0,
+  "golffice": -1,
+  "status": 2,
+  "murica": 5,
+  "boat": 1,
+  "whitet": 2,
+  "logo": 1,
+  "western": 2,
+  "rock": 1,
+  "workwear": 2,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Southern casual clothing and tailoring in worn-in fabrics, from Florence, Alabama.",
+ "origin": "Relaunched in Florence, Alabama, in 2004 after the designer's first label closed.",
+ "chan": [
+  "O",
+  "I",
+  "D",
+  "X"
+ ],
+ "conf": "S",
+ "forgc": [
+  3,
+  3,
+  2
+ ],
+ "shop": "https://www.billyreid.com/search?q=",
+ "onething": {
+  "p": "Tuscumbia shirt",
+  "u": "https://www.billyreid.com/search?q=Tuscumbia%20shirt",
+  "n": "verified ✓"
+ },
+ "prices": [
+  [
+   88,
+   88
+  ],
+  [
+   108,
+   328
+  ],
+  [
+   198,
+   198
+  ],
+  null,
+  [
+   348,
+   368
+  ],
+  [
+   198,
+   448
+  ],
+  [
+   598,
+   1598
+  ],
+  [
+   448,
+   448
+  ]
+ ],
+ "notes": {
+  "murica": "the South as its own America — Florence, Alabama, sweet-tea manners, and a festival in the hometown",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 2; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "Billy Reid states a country on every product page sampled: Turkey, Peru, Italy, China. It names no factory or mill there or on its about page, which presents Florence, Alabama as home, not a place of making. A country of make and little else: 2, not 4."
+ },
+ "doors": {
+  "c": "full",
+  "n": 15,
+  "cities": [
+   [
+    "Atlanta",
+    "GA",
+    1
+   ],
+   [
+    "Austin",
+    "TX",
+    1
+   ],
+   [
+    "Beverly Hills",
+    "CA",
+    1
+   ],
+   [
+    "Birmingham",
+    "AL",
+    1
+   ],
+   [
+    "Charleston",
+    "SC",
+    1
+   ],
+   [
+    "Chicago",
+    "IL",
+    1
+   ],
+   [
+    "Dallas",
+    "TX",
+    1
+   ],
+   [
+    "Edina",
+    "MN",
+    1
+   ],
+   [
+    "Florence",
+    "AL",
+    1
+   ],
+   [
+    "Nashville",
+    "TN",
+    1
+   ],
+   [
+    "New Orleans",
+    "LA",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    2
+   ],
+   [
+    "San Francisco",
+    "CA",
+    1
+   ],
+   [
+    "Washington",
+    "DC",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 1,
+  "con": 0
+ },
+ "cities": "15 stores, including New York, Atlanta, Austin · department stores and independent menswear shops, and its own site",
+ "region": {
+  "o": [
+   658,
+   659
+  ],
+  "s": [
+   9,
+   21,
+   49,
+   52,
+   54,
+   86,
+   90,
+   96,
+   124,
+   126,
+   136,
+   151,
+   152
+  ]
+ },
+ "addmen": true,
+ "site": {
+  "domain": "billyreid.com",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 481,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "licensed",
+  "marks": [
+   "Loro Piana",
+   "Dormeuil",
+   "Stylbiella (named as 'Our Go-To Fabric Mills')",
+   "'water-repellent' (descriptive)"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 209,
+  "w": 176,
+  "n": 83,
+  "s": 1,
+  "c": 0,
+  "x": 5,
+  "xh": 0,
+  "sp": "one",
+  "sc": [
+   "M SWIM"
+  ],
+  "nc": [
+   "M L/S CASUAL SHIRTS",
+   "M SWEATERS",
+   "M S/S CASUAL SHIRTS"
+  ],
+  "st": "complete"
+ },
+ "garment_links": {
+  "T-shirt": "https://www.billyreid.com/collections/tees",
+  "Polo": "https://www.billyreid.com/collections/all-polos",
+  "Dress shirt": "https://www.billyreid.com/collections/dress-shirts-1",
+  "Jeans": "https://www.billyreid.com/collections/denim-jeans",
+  "Dress pants": "https://www.billyreid.com/collections/dress-pants",
+  "Sweater": "https://www.billyreid.com/collections/mens-sweaters-knits",
+  "Outerwear": "https://www.billyreid.com/collections/mens-jackets-outerwear",
+  "Shoes": "https://www.billyreid.com/collections/mens-footwear"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Washed Tee - Black",
+   "lu": "https://www.billyreid.com/products/washed-tee-black",
+   "hp": "Washed Tee - Black",
+   "hu": "https://www.billyreid.com/products/washed-tee-black",
+   "b": "single"
   },
-  "fabric": {
-    "denim": 2,
-    "cashmere": 2,
-    "linen": 3,
-    "cotton": 3,
-    "wool": 2,
-    "synth": 1
+  "Polo": {
+   "lp": "Pensacola Polo - Blush",
+   "lu": "https://www.billyreid.com/products/pensacola-polo-blush",
+   "hp": "Numajiri Archive Peacock Polo",
+   "hu": "https://www.billyreid.com/products/numajiri-archive-peacock-polo-sycamore-multi",
+   "b": "range"
   },
-  "dials": {
-    "dur": 4,
-    "forg": 3,
-    "fuss": 0,
-    "golffice": -1,
-    "status": 2,
-    "murica": 5,
-    "boat": 1,
-    "whitet": 2,
-    "logo": 1,
-    "western": 2,
-    "rock": 1,
-    "workwear": 2,
-    "outdoor": 1,
-    "surf": 1
+  "Dress shirt": {
+   "lp": "Coupe Holt Dress Shirt - White",
+   "lu": "https://www.billyreid.com/products/coupe-holt-dress-shirt-white",
+   "hp": "Oxford Hutcheson Dress Shirt - White",
+   "hu": "https://www.billyreid.com/products/oxford-hutcheson-dress-shirt-white",
+   "b": "range"
   },
-  "why": "Southern casual clothing and tailoring in worn-in fabrics, from Florence, Alabama.",
-  "origin": "Relaunched in Florence, Alabama, in 2004 after the designer's first label closed.",
-  "chan": ["O", "I", "D", "X"],
-  "conf": "S",
-  "forgc": [3, 3, 2],
-  "shop": "https://www.billyreid.com/search?q=",
-  "onething": {
-    "p": "Tuscumbia shirt",
-    "u": "https://www.billyreid.com/search?q=Tuscumbia%20shirt",
-    "n": "verified ✓"
+  "Dress pants": {
+   "lp": "Flannel Flat Front Trouser - Grey Heather",
+   "lu": "https://www.billyreid.com/products/flannel-flat-front-trouser-grey-heather",
+   "hp": "Flat Front Trouser - Charcoal (silk/virgin wool)",
+   "hu": "https://www.billyreid.com/products/flat-front-trouser-charcoal",
+   "b": "pair"
   },
-  "prices": [[88, 88], [108, 328], [198, 198], null, [348, 368], [198, 448], [598, 1598], [448, 448]],
-  "notes": {
-    "murica": "the South as its own America — Florence, Alabama, sweet-tea manners, and a festival in the hometown",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 2; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Billy Reid states a country on every product page sampled: Turkey, Peru, Italy, China. It names no factory or mill there or on its about page, which presents Florence, Alabama as home, not a place of making. A country of make and little else: 2, not 4."
+  "Sweater": {
+   "lp": "Tuck Stripe Crew",
+   "lu": "https://www.billyreid.com/products/tuck-stripe-crew-black-1",
+   "hp": "Textured Cashmere Crew - Navy",
+   "hu": "https://www.billyreid.com/products/textured-cashmere-crew-navy",
+   "b": "pair"
   },
-  "doors": {
-    "c": "full",
-    "n": 15,
-    "cities": [
-      ["Atlanta", "GA", 1],
-      ["Austin", "TX", 1],
-      ["Beverly Hills", "CA", 1],
-      ["Birmingham", "AL", 1],
-      ["Charleston", "SC", 1],
-      ["Chicago", "IL", 1],
-      ["Dallas", "TX", 1],
-      ["Edina", "MN", 1],
-      ["Florence", "AL", 1],
-      ["Nashville", "TN", 1],
-      ["New Orleans", "LA", 1],
-      ["New York", "NY", 2],
-      ["San Francisco", "CA", 1],
-      ["Washington", "DC", 1]
-    ],
-    "basis": "recapture 2026-09"
+  "Outerwear": {
+   "lp": "Waxed Denim Harrington Jacket",
+   "lu": "https://www.billyreid.com/products/waxed-denim-harrington-jacket-indigo",
+   "hp": "Suede Harrington Jacket - Black",
+   "hu": "https://www.billyreid.com/products/suede-harrington-jacket-black",
+   "b": "pair"
   },
-  "cities": "15 stores, including New York, Atlanta, Austin · department stores and independent menswear shops, and its own site",
-  "region": {
-    "o": [428, 429],
-    "s": [9, 21, 49, 52, 54, 86, 90, 96, 124, 126, 136, 151, 152]
-  },
-  "addmen": true,
-  "site": {
-    "domain": "billyreid.com",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 481,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "licensed",
-    "marks": [
-      "Loro Piana",
-      "Dormeuil",
-      "Stylbiella (named as 'Our Go-To Fabric Mills')",
-      "'water-repellent' (descriptive)"
-    ],
-    "source": "census",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 209,
-    "w": 176,
-    "n": 83,
-    "s": 1,
-    "c": 0,
-    "x": 5,
-    "xh": 0,
-    "sp": "one",
-    "sc": ["M SWIM"],
-    "nc": ["M L/S CASUAL SHIRTS", "M SWEATERS", "M S/S CASUAL SHIRTS"],
-    "st": "complete"
-  },
-  "garment_links": {
-    "T-shirt": "https://www.billyreid.com/collections/tees",
-    "Polo": "https://www.billyreid.com/collections/all-polos",
-    "Dress shirt": "https://www.billyreid.com/collections/dress-shirts-1",
-    "Jeans": "https://www.billyreid.com/collections/denim-jeans",
-    "Dress pants": "https://www.billyreid.com/collections/dress-pants",
-    "Sweater": "https://www.billyreid.com/collections/mens-sweaters-knits",
-    "Outerwear": "https://www.billyreid.com/collections/mens-jackets-outerwear",
-    "Shoes": "https://www.billyreid.com/collections/mens-footwear"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Washed Tee - Black",
-      "lu": "https://www.billyreid.com/products/washed-tee-black",
-      "hp": "Washed Tee - Black",
-      "hu": "https://www.billyreid.com/products/washed-tee-black",
-      "b": "single"
-    },
-    "Polo": {
-      "lp": "Pensacola Polo - Blush",
-      "lu": "https://www.billyreid.com/products/pensacola-polo-blush",
-      "hp": "Numajiri Archive Peacock Polo",
-      "hu": "https://www.billyreid.com/products/numajiri-archive-peacock-polo-sycamore-multi",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Coupe Holt Dress Shirt - White",
-      "lu": "https://www.billyreid.com/products/coupe-holt-dress-shirt-white",
-      "hp": "Oxford Hutcheson Dress Shirt - White",
-      "hu": "https://www.billyreid.com/products/oxford-hutcheson-dress-shirt-white",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Flannel Flat Front Trouser - Grey Heather",
-      "lu": "https://www.billyreid.com/products/flannel-flat-front-trouser-grey-heather",
-      "hp": "Flat Front Trouser - Charcoal (silk/virgin wool)",
-      "hu": "https://www.billyreid.com/products/flat-front-trouser-charcoal",
-      "b": "pair"
-    },
-    "Sweater": {
-      "lp": "Tuck Stripe Crew",
-      "lu": "https://www.billyreid.com/products/tuck-stripe-crew-black-1",
-      "hp": "Textured Cashmere Crew - Navy",
-      "hu": "https://www.billyreid.com/products/textured-cashmere-crew-navy",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "Waxed Denim Harrington Jacket",
-      "lu": "https://www.billyreid.com/products/waxed-denim-harrington-jacket-indigo",
-      "hp": "Suede Harrington Jacket - Black",
-      "hu": "https://www.billyreid.com/products/suede-harrington-jacket-black",
-      "b": "pair"
-    },
-    "Shoes": {
-      "lp": "D-Ring Loafer",
-      "lu": "https://www.billyreid.com/products/d-ring-loafer-olive-brown",
-      "hp": "D-Ring Loafer",
-      "hu": "https://www.billyreid.com/products/d-ring-loafer-olive-brown",
-      "b": "single"
-    }
-  },
-  "price_range_only": ["Polo", "Dress shirt"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.billyreid.com/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=381841",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "About page: 'From our home in Florence, Alabama' (design HQ/store) and 'over 20 years'; names no factory, workshop or making partner. Sampled PDPs are made in Italy, Turkey, Peru and China, by unnamed makers. No owned making found.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "every product",
-    "countries": "Turkey 3/7 (chambray camp shirt, chino, moleskin jean), Peru 2/7 (quilted half-zip, Pensacola polo), Italy 1/7 (Archie jacket), China 1/7 (Hunting jacket). Sample of 7 PDPs: tailoring, shirt, knit, polo, trousers, jean, outerwear; every one stated a country.",
-    "heritage": "vague",
-    "repair": "no",
-    "process": "no",
-    "urls": [
-      "https://www.billyreid.com/pages/about-us",
-      "https://www.billyreid.com/products/hunting-jacket-black"
-    ],
-    "conf": "high",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "D-Ring Loafer",
+   "lu": "https://www.billyreid.com/products/d-ring-loafer-olive-brown",
+   "hp": "D-Ring Loafer",
+   "hu": "https://www.billyreid.com/products/d-ring-loafer-olive-brown",
+   "b": "single"
   }
+ },
+ "price_range_only": [
+  "Polo",
+  "Dress shirt"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.billyreid.com/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=381841",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "About page: 'From our home in Florence, Alabama' (design HQ/store) and 'over 20 years'; names no factory, workshop or making partner. Sampled PDPs are made in Italy, Turkey, Peru and China, by unnamed makers. No owned making found.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "every product",
+  "countries": "Turkey 3/7 (chambray camp shirt, chino, moleskin jean), Peru 2/7 (quilted half-zip, Pensacola polo), Italy 1/7 (Archie jacket), China 1/7 (Hunting jacket). Sample of 7 PDPs: tailoring, shirt, knit, polo, trousers, jean, outerwear; every one stated a country.",
+  "heritage": "vague",
+  "repair": "no",
+  "process": "no",
+  "urls": [
+   "https://www.billyreid.com/pages/about-us",
+   "https://www.billyreid.com/products/hunting-jacket-black"
+  ],
+  "conf": "high",
+  "read": "2026-10-03"
+ }
 }

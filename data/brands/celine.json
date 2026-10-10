@@ -1,231 +1,347 @@
 {
-  "name": "Celine",
-  "band": "trueLux",
-  "seat": 153,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 2,
-    "craft": 4,
-    "style": 5
-  },
-  "fabric": {
-    "denim": 3,
-    "cashmere": 2,
-    "linen": 1,
-    "cotton": 2,
-    "wool": 3,
-    "synth": 1
-  },
-  "dials": {
-    "dur": 3,
-    "forg": 1,
-    "fuss": 0,
-    "shoes": 3,
-    "status": 4,
-    "fren": 5,
-    "street": 2,
-    "avant": 2,
-    "whitet": 2,
-    "logo": 2,
-    "western": 1,
-    "rock": 3,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
-  },
-  "why": "Sharp Parisian tailoring and casual clothing with a youth-culture edge.",
-  "origin": "Founded in Paris in 1945 by Céline Vipiana as a children's shoe shop.",
-  "say": "seh-LEEN",
-  "chan": ["O", "D"],
-  "conf": "L",
-  "forgc": [1, 2, 1],
-  "shop": "https://www.celine.com/en-us/search?q=",
-  "onething": {
-    "p": "Teddy jacket",
-    "u": "https://www.celine.com/en-us/search?q=Teddy%20jacket",
-    "n": "verified ✓"
-  },
-  "prices": [
-    [570, 990],
-    [610, 1400],
-    [790, 1400],
-    [990, 1400],
-    [1150, 1600],
-    [1050, 1950],
-    [1500, 6300],
-    [950, 1300]
+ "name": "Celine",
+ "band": "trueLux",
+ "seat": 153,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 2,
+  "craft": 4,
+  "style": 5
+ },
+ "fabric": {
+  "denim": 3,
+  "cashmere": 2,
+  "linen": 1,
+  "cotton": 2,
+  "wool": 3,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 1,
+  "fuss": 0,
+  "shoes": 3,
+  "status": 4,
+  "fren": 5,
+  "street": 2,
+  "avant": 2,
+  "whitet": 2,
+  "logo": 2,
+  "western": 1,
+  "rock": 3,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Sharp Parisian tailoring and casual clothing with a youth-culture edge.",
+ "origin": "Founded in Paris in 1945 by Céline Vipiana as a children's shoe shop.",
+ "say": "seh-LEEN",
+ "chan": [
+  "O",
+  "D"
+ ],
+ "conf": "L",
+ "forgc": [
+  1,
+  2,
+  1
+ ],
+ "shop": "https://www.celine.com/en-us/search?q=",
+ "onething": {
+  "p": "Teddy jacket",
+  "u": "https://www.celine.com/en-us/search?q=Teddy%20jacket",
+  "n": "verified ✓"
+ },
+ "prices": [
+  [
+   570,
+   990
   ],
-  "shoelink": {
-    "t": "shoes",
-    "u": "https://www.celine.com/en-us/search?q=shoes"
+  [
+   610,
+   1400
+  ],
+  [
+   790,
+   1400
+  ],
+  [
+   990,
+   1400
+  ],
+  [
+   1150,
+   1600
+  ],
+  [
+   1050,
+   1950
+  ],
+  [
+   1500,
+   6300
+  ],
+  [
+   950,
+   1300
+  ]
+ ],
+ "shoelink": {
+  "t": "shoes",
+  "u": "https://www.celine.com/en-us/search?q=shoes"
+ },
+ "notes": {
+  "fren": "Paris, and the silhouette is French minimalism read through youth culture — narrow, sharp, and deliberately unornamented.",
+  "status": "Quiet-luxury status — nothing on the outside, but the silhouette reads instantly to anyone who already knows. It signals to a specific room rather than to the street.",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 3; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "style": "Tailoring and casual clothing cut to a precise, youthful design idea.",
+  "craft": "Celine owns two leather goods workshops in Tuscany, at Strada in Chianti (acquired 1994) and Radda in Chianti (opened 2019), run as Celine Production. Leather goods are more than half of sales. Nothing shows owned making for ready-to-wear, so this is owned making for a core category, not the range: a 4 if leather-goods-only owned making is allowed to lift a clothing score, otherwise it stays at 3."
+ },
+ "doors": {
+  "c": "full",
+  "n": 19,
+  "cities": [
+   [
+    "Atlanta",
+    "GA",
+    1
+   ],
+   [
+    "Beverly Hills",
+    "CA",
+    1
+   ],
+   [
+    "Boston",
+    "MA",
+    1
+   ],
+   [
+    "Canoga Park",
+    "CA",
+    1
+   ],
+   [
+    "Chicago",
+    "IL",
+    1
+   ],
+   [
+    "Costa Mesa",
+    "CA",
+    1
+   ],
+   [
+    "Dallas",
+    "TX",
+    1
+   ],
+   [
+    "Honolulu",
+    "HI",
+    1
+   ],
+   [
+    "Houston",
+    "TX",
+    1
+   ],
+   [
+    "Las Vegas",
+    "NV",
+    2
+   ],
+   [
+    "Mclean",
+    "VA",
+    1
+   ],
+   [
+    "Miami",
+    "FL",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    2
+   ],
+   [
+    "San Diego",
+    "CA",
+    1
+   ],
+   [
+    "Santa Clara",
+    "CA",
+    1
+   ],
+   [
+    "Scottsdale",
+    "AZ",
+    1
+   ],
+   [
+    "Short Hills",
+    "NJ",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 2,
+  "con": 17
+ },
+ "cities": "19 stores, including Las Vegas, New York, Atlanta · department stores, and its own site",
+ "region": {
+  "o": [
+   1024,
+   1034,
+   1035,
+   1039
+  ],
+  "s": []
+ },
+ "addmen": true,
+ "site": {
+  "domain": "celine.com",
+  "platform": "custom",
+  "feed": "sitemap_products",
+  "feed_count": 500,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "no",
+  "origin": "none",
+  "marks": [],
+  "source": "screen_36",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 196,
+  "w": 194,
+  "n": 93,
+  "s": 4,
+  "c": 2,
+  "x": 4,
+  "xh": 1,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "t-shirts and tops",
+   "denim",
+   "shirts"
+  ],
+  "st": "complete"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "t-shirt IN cotton jersey",
+   "lu": "https://www.celine.com/en-us/men/ready-to-wear/t-shirts-and-sweatshirts/t-shirt-in-cotton-jersey-RX0HU1242.38AW.html",
+   "hp": "double layered t-shirt IN FINE COTTON JERSEY",
+   "hu": "https://www.celine.com/en-us/men/ready-to-wear/t-shirts-and-sweatshirts/double-layered-t-shirt-in-fine-cotton-jersey-RX0DT0F17.01OB.html",
+   "b": "range"
   },
-  "notes": {
-    "fren": "Paris, and the silhouette is French minimalism read through youth culture — narrow, sharp, and deliberately unornamented.",
-    "status": "Quiet-luxury status — nothing on the outside, but the silhouette reads instantly to anyone who already knows. It signals to a specific room rather than to the street.",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 3; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "style": "Tailoring and casual clothing cut to a precise, youthful design idea.",
-    "craft": "Celine owns two leather goods workshops in Tuscany, at Strada in Chianti (acquired 1994) and Radda in Chianti (opened 2019), run as Celine Production. Leather goods are more than half of sales. Nothing shows owned making for ready-to-wear, so this is owned making for a core category, not the range: a 4 if leather-goods-only owned making is allowed to lift a clothing score, otherwise it stays at 3."
+  "Polo": {
+   "lp": "polo shirt IN PIQUE COTTON JERSEY",
+   "lu": "https://www.celine.com/en-us/men/ready-to-wear/t-shirts-and-sweatshirts/polo-shirt-in-pique-cotton-jersey-RX0LF2L55.GHV2.html",
+   "hp": "POLO SWEATER IN FINE SILK AND COTTON",
+   "hu": "https://www.celine.com/en-us/men/ready-to-wear/t-shirts-and-sweatshirts/polo-sweater-in-fine-silk-and-cotton-RY0Y53B59.38NO.html",
+   "b": "pair"
   },
-  "doors": {
-    "c": "full",
-    "n": 18,
-    "cities": [
-      ["Atlanta", "GA", 1],
-      ["Beverly Hills", "CA", 1],
-      ["Boston", "MA", 1],
-      ["Canoga Park", "CA", 1],
-      ["Chicago", "IL", 1],
-      ["Costa Mesa", "CA", 1],
-      ["Dallas", "TX", 1],
-      ["Honolulu", "HI", 1],
-      ["Houston", "TX", 1],
-      ["Las Vegas", "NV", 2],
-      ["McLean", "VA", 1],
-      ["Miami", "FL", 1],
-      ["New York", "NY", 2],
-      ["San Diego", "CA", 1],
-      ["Santa Clara", "CA", 1],
-      ["Scottsdale", "AZ", 1]
-    ],
-    "basis": "recapture 2026-09"
+  "Dress shirt": {
+   "lp": "shirt IN COTTON POPLIN",
+   "lu": "https://www.celine.com/en-us/men/ready-to-wear/shirts/shirt-in-cotton-poplin-RC0AZ0T01.01BC.html",
+   "hp": "shirt IN WOOL",
+   "hu": "https://www.celine.com/en-us/men/ready-to-wear/shirts/shirt-in-wool-RC0BW0Y81.38NO.html",
+   "b": "range"
   },
-  "cities": "18 stores, including Las Vegas, New York, Atlanta · department stores, and its own site",
-  "region": {
-    "o": [772, 775, 776],
-    "s": []
+  "Jeans": {
+   "lp": "skinny jeans in vintage pure black denim",
+   "lu": "https://www.celine.com/en-us/men/ready-to-wear/denim/skinny-jeans-in-vintage-pure-black-denim-2N354082T.38TK.html",
+   "hp": "WIDE LEG JEANS 001 IN cotton denim",
+   "hu": "https://www.celine.com/en-us/men/ready-to-wear/denim/wide-leg-jeans-001-in-cotton-denim-RP0H8930F.GDO5.html",
+   "b": "range"
   },
-  "addmen": true,
-  "site": {
-    "domain": "celine.com",
-    "platform": "custom",
-    "feed": "sitemap_products",
-    "feed_count": 500,
-    "status": "live_store",
-    "checked": "2026-09-13"
+  "Dress pants": {
+   "lp": "classic trousers IN wool gabardine",
+   "lu": "https://www.celine.com/en-us/men/ready-to-wear/pants-and-shorts/classic-trousers-in-wool-gabardine-RP0VD650D.38NO.html",
+   "hp": "docks long trousers IN wool and mohair gabardine",
+   "hu": "https://www.celine.com/en-us/men/ready-to-wear/pants-and-shorts/docks-long-trousers-in-wool-and-mohair-gabardine-RP0D6701T.38NO.html",
+   "b": "range"
   },
-  "tech_evidence": {
-    "names": "no",
-    "origin": "none",
-    "marks": [],
-    "source": "screen_36",
-    "checked": "2026-09-12"
+  "Sweater": {
+   "lp": "crewneck sweater IN fine wool",
+   "lu": "https://www.celine.com/en-us/men/ready-to-wear/knitwear/crewneck-sweater-in-fine-wool-RY05K3G77.18CC.html",
+   "hp": "crewneck sweater IN FINE CASHMERE",
+   "hu": "https://www.celine.com/en-us/men/ready-to-wear/knitwear/crewneck-sweater-in-fine-cashmere-RY0X14G47.09GM.html",
+   "b": "pair"
   },
-  "fibre": {
-    "t": 196,
-    "w": 194,
-    "n": 93,
-    "s": 4,
-    "c": 2,
-    "x": 4,
-    "xh": 1,
-    "sp": "one",
-    "sc": [],
-    "nc": ["t-shirts and tops", "denim", "shirts"],
-    "st": "complete"
+  "Outerwear": {
+   "lp": "teddy jacket IN cotton fleece",
+   "lu": "https://www.celine.com/en-us/men/ready-to-wear/suiting/teddy-jacket-in-cotton-fleece-RV17R1233.38NO.html",
+   "hp": "teddy jacket IN calfskin",
+   "hu": "https://www.celine.com/en-us/men/ready-to-wear/suiting/teddy-jacket-in-calfskin-RV14D599E.19CO.html",
+   "b": "pair"
   },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "t-shirt IN cotton jersey",
-      "lu": "https://www.celine.com/en-us/men/ready-to-wear/t-shirts-and-sweatshirts/t-shirt-in-cotton-jersey-RX0HU1242.38AW.html",
-      "hp": "double layered t-shirt IN FINE COTTON JERSEY",
-      "hu": "https://www.celine.com/en-us/men/ready-to-wear/t-shirts-and-sweatshirts/double-layered-t-shirt-in-fine-cotton-jersey-RX0DT0F17.01OB.html",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "polo shirt IN PIQUE COTTON JERSEY",
-      "lu": "https://www.celine.com/en-us/men/ready-to-wear/t-shirts-and-sweatshirts/polo-shirt-in-pique-cotton-jersey-RX0LF2L55.GHV2.html",
-      "hp": "POLO SWEATER IN FINE SILK AND COTTON",
-      "hu": "https://www.celine.com/en-us/men/ready-to-wear/t-shirts-and-sweatshirts/polo-sweater-in-fine-silk-and-cotton-RY0Y53B59.38NO.html",
-      "b": "pair"
-    },
-    "Dress shirt": {
-      "lp": "shirt IN COTTON POPLIN",
-      "lu": "https://www.celine.com/en-us/men/ready-to-wear/shirts/shirt-in-cotton-poplin-RC0AZ0T01.01BC.html",
-      "hp": "shirt IN WOOL",
-      "hu": "https://www.celine.com/en-us/men/ready-to-wear/shirts/shirt-in-wool-RC0BW0Y81.38NO.html",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "skinny jeans in vintage pure black denim",
-      "lu": "https://www.celine.com/en-us/men/ready-to-wear/denim/skinny-jeans-in-vintage-pure-black-denim-2N354082T.38TK.html",
-      "hp": "WIDE LEG JEANS 001 IN cotton denim",
-      "hu": "https://www.celine.com/en-us/men/ready-to-wear/denim/wide-leg-jeans-001-in-cotton-denim-RP0H8930F.GDO5.html",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "classic trousers IN wool gabardine",
-      "lu": "https://www.celine.com/en-us/men/ready-to-wear/pants-and-shorts/classic-trousers-in-wool-gabardine-RP0VD650D.38NO.html",
-      "hp": "docks long trousers IN wool and mohair gabardine",
-      "hu": "https://www.celine.com/en-us/men/ready-to-wear/pants-and-shorts/docks-long-trousers-in-wool-and-mohair-gabardine-RP0D6701T.38NO.html",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "crewneck sweater IN fine wool",
-      "lu": "https://www.celine.com/en-us/men/ready-to-wear/knitwear/crewneck-sweater-in-fine-wool-RY05K3G77.18CC.html",
-      "hp": "crewneck sweater IN FINE CASHMERE",
-      "hu": "https://www.celine.com/en-us/men/ready-to-wear/knitwear/crewneck-sweater-in-fine-cashmere-RY0X14G47.09GM.html",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "teddy jacket IN cotton fleece",
-      "lu": "https://www.celine.com/en-us/men/ready-to-wear/suiting/teddy-jacket-in-cotton-fleece-RV17R1233.38NO.html",
-      "hp": "teddy jacket IN calfskin",
-      "hu": "https://www.celine.com/en-us/men/ready-to-wear/suiting/teddy-jacket-in-calfskin-RV14D599E.19CO.html",
-      "b": "pair"
-    },
-    "Shoes": {
-      "lp": "LOAFER IN SUEDE",
-      "lu": "https://www.celine.com/en-us/men/shoes/loafers/loafer-in-suede-364707029C.19DK.html",
-      "hp": "MILES LOAFER IN SUPPLE CALFSKIN",
-      "hu": "https://www.celine.com/en-us/men/shoes/loafers/miles-loafer-in-supple-calfskin-365875523C.38NO.html",
-      "b": "pair"
-    }
-  },
-  "price_range_only": ["T-shirt", "Dress shirt", "Jeans", "Dress pants"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.celine.com/en-us/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=1443",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "season": {
-    "l": "Winter 2026",
-    "t": "campaign",
-    "u": "https://www.celine.com/en-us/cm/now/campaigns/hiver-2026-campaign",
-    "m": "unisex"
-  },
-  "craft_evidence": {
-    "owned": "yes",
-    "owned_d": "LEATHER GOODS ONLY, owned by Celine (LVMH house), not by LVMH group directly. Two Tuscan workshops per FashionNetwork and Carnets du Luxe (both 18 Oct 2019, reporting the inauguration): Strada in Chianti (production from 1979, acquired by Celine 1994, ~300 staff, leather goods prototyping, production and repairs, training centre) and 'La Manufacture', Radda in Chianti (opened 2019, 5,200 m2, 129 staff at opening, handbags and SLGs incl. Trio, Triomphe). Architizer names the operating company 'CELINE Production', which handles 'production and prototyping of leather goods'. No owned ready-to-wear or footwear facility found. Not seen on celine.com (not fetched).",
-    "makers": "NC",
-    "mills": "NC",
-    "madein": "NC",
-    "countries": "NC - no PDPs read.",
-    "heritage": "dated and placed",
-    "repair": "NC",
-    "process": "NC",
-    "urls": [
-      "https://us.fashionnetwork.com/news/Celine-stakes-success-more-than-ever-on-leather-goods-growth,1149062.html",
-      "https://www.carnetsduluxe.com/industries/maroquinerie/marque-montante-de-lvmh-celine-renforce-sa-production-en-italie/"
-    ],
-    "conf": "medium",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "LOAFER IN SUEDE",
+   "lu": "https://www.celine.com/en-us/men/shoes/loafers/loafer-in-suede-364707029C.19DK.html",
+   "hp": "MILES LOAFER IN SUPPLE CALFSKIN",
+   "hu": "https://www.celine.com/en-us/men/shoes/loafers/miles-loafer-in-supple-calfskin-365875523C.38NO.html",
+   "b": "pair"
   }
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.celine.com/en-us/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=1443",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "season": {
+  "l": "Winter 2026",
+  "t": "campaign",
+  "u": "https://www.celine.com/en-us/cm/now/campaigns/hiver-2026-campaign",
+  "m": "unisex"
+ },
+ "craft_evidence": {
+  "owned": "yes",
+  "owned_d": "LEATHER GOODS ONLY, owned by Celine (LVMH house), not by LVMH group directly. Two Tuscan workshops per FashionNetwork and Carnets du Luxe (both 18 Oct 2019, reporting the inauguration): Strada in Chianti (production from 1979, acquired by Celine 1994, ~300 staff, leather goods prototyping, production and repairs, training centre) and 'La Manufacture', Radda in Chianti (opened 2019, 5,200 m2, 129 staff at opening, handbags and SLGs incl. Trio, Triomphe). Architizer names the operating company 'CELINE Production', which handles 'production and prototyping of leather goods'. No owned ready-to-wear or footwear facility found. Not seen on celine.com (not fetched).",
+  "makers": "NC",
+  "mills": "NC",
+  "madein": "NC",
+  "countries": "NC - no PDPs read.",
+  "heritage": "dated and placed",
+  "repair": "NC",
+  "process": "NC",
+  "urls": [
+   "https://us.fashionnetwork.com/news/Celine-stakes-success-more-than-ever-on-leather-goods-growth,1149062.html",
+   "https://www.carnetsduluxe.com/industries/maroquinerie/marque-montante-de-lvmh-celine-renforce-sa-production-en-italie/"
+  ],
+  "conf": "medium",
+  "read": "2026-10-03"
+ }
 }

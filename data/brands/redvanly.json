@@ -1,236 +1,309 @@
 {
-  "name": "Redvanly",
-  "band": "premium",
-  "seat": 36,
-  "dagger": 0,
-  "focus": {
-    "tech": 3,
-    "comfort": 5,
-    "craft": 1,
-    "style": 2
+ "name": "Redvanly",
+ "band": "premium",
+ "seat": 36,
+ "dagger": 0,
+ "focus": {
+  "tech": 3,
+  "comfort": 5,
+  "craft": 1,
+  "style": 2
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 2,
+  "linen": 1,
+  "cotton": 2,
+  "wool": 3,
+  "synth": 5
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 4,
+  "fuss": 2,
+  "golffice": 2,
+  "shoes": 3,
+  "golf": 5,
+  "status": 1,
+  "finbro": 3,
+  "murica": 2,
+  "prep": 2,
+  "racquet": 2,
+  "whitet": 2,
+  "logo": 2,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Golf and tennis clothing built around a pull-on waistband, sold through its own shops and pro shops.",
+ "origin": "Founded in New York in 2013 by Andrew Redvanly; a family business.",
+ "chan": [
+  "O",
+  "W",
+  "I"
+ ],
+ "conf": "L",
+ "forgc": [
+  3,
+  3,
+  4
+ ],
+ "forgv": "S–XXL only · waist 30–40in",
+ "onething": {
+  "p": "Kent Pull-On Trouser",
+  "u": "https://www.redvanly.com/collections/mens-pull-on-pants",
+  "n": "verified — collection page opened; the house calls itself the originator of the pull-on trouser. Collection rather than a single SKU, because the model runs across fabrics. Kent lists at $150"
+ },
+ "prices": [
+  [
+   70,
+   75
+  ],
+  [
+   95,
+   110
+  ],
+  null,
+  [
+   185,
+   185
+  ],
+  [
+   150,
+   185
+  ],
+  [
+   225,
+   225
+  ],
+  [
+   150,
+   325
+  ],
+  [
+   175,
+   200
+  ]
+ ],
+ "notes": {
+  "synth": "named fabric platforms throughout — PUREpoly, GLYDINGnylon, STRETCHknit, CLIMATEcomfort",
+  "golf": "golf is the house register, with a separate racquet and athletics book beside it",
+  "forg": "the pull-on waistband is the whole proposition, not a feature",
+  "racquet": "a real racquet collection, but public-court technical rather than the club end this dial's upper reaches measure",
+  "tech": "thirty house-named fabrics for ordinary cloths: PUREpoly is polyester, ComfortChino is chino, Activedenim is denim. Naming is not technology",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 2; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "comfort": "Built around a pull-on, no-button waistband in four-way stretch; comfort is the stated reason the company exists.",
+  "craft": "Redvanly's PDPs give composition and care but no country of make. Its fabric pages use proprietary trade names, with Lenzing Modal the only outside name, and no mills or factories. The family-business page is a founders' story with nothing about making."
+ },
+ "doors": {
+  "c": "full",
+  "n": 5,
+  "cities": [
+   [
+    "Birmingham",
+    "MI",
+    1
+   ],
+   [
+    "Harbor Springs",
+    "MI",
+    1
+   ],
+   [
+    "Highland Park",
+    "IL",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    1
+   ],
+   [
+    "West Palm Beach",
+    "FL",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 0,
+  "con": 0
+ },
+ "cities": "5 stores — Birmingham, Harbor Springs, Highland Park, New York, West Palm Beach · independent menswear shops, and its own site",
+ "region": {
+  "o": [
+   2962
+  ],
+  "s": [
+   137,
+   149
+  ]
+ },
+ "site": {
+  "domain": "redvanly.com",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 1050,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "unclear",
+  "marks": [
+   "ElementPROOF",
+   "ActiveSCUBA",
+   "PurePoly",
+   "MatchlessMerino",
+   "LuxThermal",
+   "ComfortSport",
+   "StretchKnit",
+   "ComfortChino",
+   "ActiveRib",
+   "TotalWool",
+   "LuxWOOL",
+   "MarineGrade",
+   "LightWARM"
+  ],
+  "source": "flag_sample",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 163,
+  "w": 161,
+  "n": 21,
+  "s": 77,
+  "c": 1,
+  "x": 89,
+  "xh": 87,
+  "sp": "one",
+  "sc": [
+   "Polos",
+   "Shorts",
+   "Quarter Zips",
+   "Hoodies & Crews",
+   "Outerwear",
+   "Pants & Joggers",
+   "Tees & Shirts",
+   "Swim"
+  ],
+  "nc": [
+   "Sweaters"
+  ],
+  "st": "complete"
+ },
+ "shop": "https://www.redvanly.com/search?q=",
+ "garment_links": {
+  "T-shirt": "https://www.redvanly.com/collections/crews-and-tanks",
+  "Polo": "https://www.redvanly.com/collections/polos",
+  "Jeans": "https://www.redvanly.com/collections/denim",
+  "Dress pants": "https://www.redvanly.com/collections/mens-pull-on-pants",
+  "Sweater": "https://www.redvanly.com/collections/sweaters",
+  "Outerwear": "https://www.redvanly.com/collections/outerwear"
+ },
+ "price_checked": true,
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Minna Crew in Harbor Blue",
+   "lu": "https://www.redvanly.com/products/minna-tee-in-harbor-blue",
+   "hp": "Sussex Tee in Harbor Blue",
+   "hu": "https://www.redvanly.com/products/sussex-tee-in-harbor-blue",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 2,
-    "cashmere": 2,
-    "linen": 1,
-    "cotton": 2,
-    "wool": 3,
-    "synth": 5
+  "Polo": {
+   "lp": "Alpine Polo in Violet Ice",
+   "lu": "https://www.redvanly.com/products/alpine-polo-in-violet-ice",
+   "hp": "Kendall Jacquard Polo in Bordeaux",
+   "hu": "https://www.redvanly.com/products/kendall-jacquard-polo-in-bordeaux",
+   "b": "range"
   },
-  "dials": {
-    "dur": 3,
-    "forg": 4,
-    "fuss": 2,
-    "golffice": 2,
-    "shoes": 3,
-    "golf": 5,
-    "status": 1,
-    "finbro": 3,
-    "murica": 2,
-    "prep": 2,
-    "racquet": 2,
-    "whitet": 2,
-    "logo": 2,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
+  "Jeans": {
+   "lp": "Ranstead Pull-On Jean in Oil",
+   "lu": "https://www.redvanly.com/products/ranstead-pull-on-jean-in-oil",
+   "hp": "Ranstead Pull-On Jean in Oil",
+   "hu": "https://www.redvanly.com/products/ranstead-pull-on-jean-in-oil",
+   "b": "single"
   },
-  "why": "Golf and tennis clothing built around a pull-on waistband, sold through its own shops and pro shops.",
-  "origin": "Founded in New York in 2013 by Andrew Redvanly; a family business.",
-  "chan": ["O", "W", "I"],
-  "conf": "L",
-  "forgc": [3, 3, 4],
-  "forgv": "S–XXL only · waist 30–40in",
-  "onething": {
-    "p": "Kent Pull-On Trouser",
-    "u": "https://www.redvanly.com/collections/mens-pull-on-pants",
-    "n": "verified — collection page opened; the house calls itself the originator of the pull-on trouser. Collection rather than a single SKU, because the model runs across fabrics. Kent lists at $150"
+  "Dress pants": {
+   "lp": "Kent Pull-On Trouser in Maplewood",
+   "lu": "https://www.redvanly.com/products/kent-pull-on-trouser-in-maplewood",
+   "hp": "Desmond Pull-On Trouser in Charcoal",
+   "hu": "https://www.redvanly.com/products/desmond-pull-on-trouser-in-charcoal",
+   "b": "range"
   },
-  "prices": [[70, 75], [95, 110], null, [185, 185], [150, 185], [225, 225], [150, 325], [175, 200]],
-  "notes": {
-    "synth": "named fabric platforms throughout — PUREpoly, GLYDINGnylon, STRETCHknit, CLIMATEcomfort",
-    "golf": "golf is the house register, with a separate racquet and athletics book beside it",
-    "forg": "the pull-on waistband is the whole proposition, not a feature",
-    "racquet": "a real racquet collection, but public-court technical rather than the club end this dial's upper reaches measure",
-    "tech": "thirty house-named fabrics for ordinary cloths: PUREpoly is polyester, ComfortChino is chino, Activedenim is denim. Naming is not technology",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 2; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "comfort": "Built around a pull-on, no-button waistband in four-way stretch; comfort is the stated reason the company exists.",
-    "craft": "Redvanly's PDPs give composition and care but no country of make. Its fabric pages use proprietary trade names, with Lenzing Modal the only outside name, and no mills or factories. The family-business page is a founders' story with nothing about making."
+  "Sweater": {
+   "lp": "Robinson Crewneck Sweater in Cream",
+   "lu": "https://www.redvanly.com/products/robinson-sweater-in-cream",
+   "hp": "Robinson Crewneck Sweater in Cream",
+   "hu": "https://www.redvanly.com/products/robinson-sweater-in-cream",
+   "b": "single"
   },
-  "doors": {
-    "c": "full",
-    "n": 5,
-    "cities": [
-      ["Birmingham", "MI", 1],
-      ["Harbor Springs", "MI", 1],
-      ["Highland Park", "IL", 1],
-      ["New York", "NY", 1],
-      ["West Palm Beach", "FL", 1]
-    ],
-    "basis": "recapture 2026-09"
+  "Outerwear": {
+   "lp": "Wilder Jacket in Mist",
+   "lu": "https://www.redvanly.com/products/wilder-jacket-in-mist",
+   "hp": "Cliff Jacket in Blue Horizon",
+   "hu": "https://www.redvanly.com/products/cliff-jacket-in-blue-horizon",
+   "b": "range"
   },
-  "cities": "5 stores — Birmingham, Harbor Springs, Highland Park, New York, West Palm Beach · independent menswear shops, and its own site",
-  "region": {
-    "o": [2344],
-    "s": [137, 149]
-  },
-  "site": {
-    "domain": "redvanly.com",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 1050,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "unclear",
-    "marks": [
-      "ElementPROOF",
-      "ActiveSCUBA",
-      "PurePoly",
-      "MatchlessMerino",
-      "LuxThermal",
-      "ComfortSport",
-      "StretchKnit",
-      "ComfortChino",
-      "ActiveRib",
-      "TotalWool",
-      "LuxWOOL",
-      "MarineGrade",
-      "LightWARM"
-    ],
-    "source": "flag_sample",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 163,
-    "w": 161,
-    "n": 21,
-    "s": 77,
-    "c": 1,
-    "x": 89,
-    "xh": 87,
-    "sp": "one",
-    "sc": [
-      "Polos",
-      "Shorts",
-      "Quarter Zips",
-      "Hoodies & Crews",
-      "Outerwear",
-      "Pants & Joggers",
-      "Tees & Shirts",
-      "Swim"
-    ],
-    "nc": ["Sweaters"],
-    "st": "complete"
-  },
-  "shop": "https://www.redvanly.com/search?q=",
-  "garment_links": {
-    "T-shirt": "https://www.redvanly.com/collections/crews-and-tanks",
-    "Polo": "https://www.redvanly.com/collections/polos",
-    "Jeans": "https://www.redvanly.com/collections/denim",
-    "Dress pants": "https://www.redvanly.com/collections/mens-pull-on-pants",
-    "Sweater": "https://www.redvanly.com/collections/sweaters",
-    "Outerwear": "https://www.redvanly.com/collections/outerwear"
-  },
-  "price_checked": true,
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Minna Crew in Harbor Blue",
-      "lu": "https://www.redvanly.com/products/minna-tee-in-harbor-blue",
-      "hp": "Sussex Tee in Harbor Blue",
-      "hu": "https://www.redvanly.com/products/sussex-tee-in-harbor-blue",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Alpine Polo in Violet Ice",
-      "lu": "https://www.redvanly.com/products/alpine-polo-in-violet-ice",
-      "hp": "Kendall Jacquard Polo in Bordeaux",
-      "hu": "https://www.redvanly.com/products/kendall-jacquard-polo-in-bordeaux",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Ranstead Pull-On Jean in Oil",
-      "lu": "https://www.redvanly.com/products/ranstead-pull-on-jean-in-oil",
-      "hp": "Ranstead Pull-On Jean in Oil",
-      "hu": "https://www.redvanly.com/products/ranstead-pull-on-jean-in-oil",
-      "b": "single"
-    },
-    "Dress pants": {
-      "lp": "Kent Pull-On Trouser in Maplewood",
-      "lu": "https://www.redvanly.com/products/kent-pull-on-trouser-in-maplewood",
-      "hp": "Desmond Pull-On Trouser in Charcoal",
-      "hu": "https://www.redvanly.com/products/desmond-pull-on-trouser-in-charcoal",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Robinson Crewneck Sweater in Cream",
-      "lu": "https://www.redvanly.com/products/robinson-sweater-in-cream",
-      "hp": "Robinson Crewneck Sweater in Cream",
-      "hu": "https://www.redvanly.com/products/robinson-sweater-in-cream",
-      "b": "single"
-    },
-    "Outerwear": {
-      "lp": "Wilder Jacket in Mist",
-      "lu": "https://www.redvanly.com/products/wilder-jacket-in-mist",
-      "hp": "Cliff Jacket in Blue Horizon",
-      "hu": "https://www.redvanly.com/products/cliff-jacket-in-blue-horizon",
-      "b": "range"
-    },
-    "Shoes": {
-      "lp": "Challenger 2.0 Shoe in Tuxedo",
-      "lu": "https://www.redvanly.com/products/challenger-2-0-shoe-in-tuxedo",
-      "hp": "Contender 2.0 Shoe in Sky Blue",
-      "hu": "https://www.redvanly.com/products/contender-2-0-shoe-in-sky-blue",
-      "b": "range"
-    }
-  },
-  "price_range_only": ["T-shirt", "Polo", "Dress pants", "Outerwear", "Shoes"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.redvanly.com/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "REDVANLY Cashmere (vendor field; only the Quincy cashmere hoodie, not counted in any garment)"
-  },
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=2546195",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "season": {
-    "l": "AW26",
-    "t": "lookbook",
-    "u": "https://www.redvanly.com/pages/aw26",
-    "m": "yes"
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "None claimed. The 'A Family Business' page tells the founders' story (Andrew, cousin David, brother Eric) and says nothing on manufacturing.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "none",
-    "countries": "None stated: 0 of 12 products in products.json (flannel shirts, boxer briefs, jogger, hoodie, corduroy trouser) and 0 of 1 PDP read (Sutton Flannel Shirt).",
-    "heritage": "vague",
-    "repair": "no",
-    "process": "no",
-    "urls": [
-      "https://www.redvanly.com/pages/fabric-technology",
-      "https://redvanly.com/products/sutton-flannel-shirt-in-oat"
-    ],
-    "conf": "high",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Challenger 2.0 Shoe in Tuxedo",
+   "lu": "https://www.redvanly.com/products/challenger-2-0-shoe-in-tuxedo",
+   "hp": "Contender 2.0 Shoe in Sky Blue",
+   "hu": "https://www.redvanly.com/products/contender-2-0-shoe-in-sky-blue",
+   "b": "range"
   }
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress pants",
+  "Outerwear",
+  "Shoes"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.redvanly.com/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "REDVANLY Cashmere (vendor field; only the Quincy cashmere hoodie, not counted in any garment)"
+ },
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=2546195",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "season": {
+  "l": "AW26",
+  "t": "lookbook",
+  "u": "https://www.redvanly.com/pages/aw26",
+  "m": "yes"
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "None claimed. The 'A Family Business' page tells the founders' story (Andrew, cousin David, brother Eric) and says nothing on manufacturing.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "none",
+  "countries": "None stated: 0 of 12 products in products.json (flannel shirts, boxer briefs, jogger, hoodie, corduroy trouser) and 0 of 1 PDP read (Sutton Flannel Shirt).",
+  "heritage": "vague",
+  "repair": "no",
+  "process": "no",
+  "urls": [
+   "https://www.redvanly.com/pages/fabric-technology",
+   "https://redvanly.com/products/sutton-flannel-shirt-in-oat"
+  ],
+  "conf": "high",
+  "read": "2026-10-03"
+ }
 }

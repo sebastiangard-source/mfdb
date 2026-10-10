@@ -1,320 +1,912 @@
 {
-  "name": "Alo",
-  "band": "premium",
-  "seat": 19,
-  "dagger": 1,
-  "focus": {
-    "tech": 3,
-    "comfort": 4,
-    "craft": 1,
-    "style": 4
+ "name": "Alo",
+ "band": "premium",
+ "seat": 19,
+ "dagger": 1,
+ "focus": {
+  "tech": 3,
+  "comfort": 4,
+  "craft": 1,
+  "style": 4
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 2,
+  "wool": 1,
+  "synth": 4
+ },
+ "dials": {
+  "dur": 2,
+  "forg": 2,
+  "fuss": 1,
+  "golffice": 1,
+  "status": 4,
+  "racquet": 1,
+  "whitet": 2,
+  "logo": 2,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 2,
+  "surf": 2
+ },
+ "why": "Activewear that doubles as everyday clothing — leggings, sweats, outerwear — sold largely through its own stores and social media.",
+ "origin": "Founded in Los Angeles in 2007 by Danny Harris and Marco DeGeorge; the name stands for Air, Land, Ocean.",
+ "chan": [
+  "O"
+ ],
+ "conf": "H",
+ "forgc": [
+  2,
+  3,
+  1
+ ],
+ "shop": "https://www.aloyoga.com/search?q=",
+ "onething": {
+  "p": "Accolade hoodie",
+  "u": "https://www.aloyoga.com/search?q=Accolade%20hoodie%20men",
+  "n": "men-filtered"
+ },
+ "prices": [
+  [
+   58,
+   188
+  ],
+  [
+   128,
+   168
+  ],
+  [
+   188,
+   198
+  ],
+  null,
+  [
+   148,
+   148
+  ],
+  [
+   188,
+   388
+  ],
+  [
+   138,
+   398
+  ],
+  [
+   150,
+   295
+  ]
+ ],
+ "notes": {
+  "status": "celebrity seeding as distribution — the paparazzi uniform; the wordmark signals membership",
+  "style": "athleisure styled as fashion — sets, monochrome, runway staging",
+  "comfort": "buttery-soft as the core product promise",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 3; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "aloyoga.com has no about, sustainability or supply-chain page, and the men's product descriptions name no factory, mill or country of make. Nothing checkable about making: a 1."
+ },
+ "doors": {
+  "c": "full",
+  "n": 147,
+  "cities": [
+   [
+    "Albuquerque",
+    "NM",
+    1
+   ],
+   [
+    "Alexandria",
+    "VA",
+    1
+   ],
+   [
+    "Alpharetta",
+    "GA",
+    1
+   ],
+   [
+    "Alys Beach",
+    "FL",
+    1
+   ],
+   [
+    "Ardmore",
+    "PA",
+    1
+   ],
+   [
+    "Ashburn",
+    "VA",
+    1
+   ],
+   [
+    "Aspen",
+    "CO",
+    1
+   ],
+   [
+    "Atlanta",
+    "GA",
+    2
+   ],
+   [
+    "Austin",
+    "TX",
+    2
+   ],
+   [
+    "Aventura",
+    "FL",
+    1
+   ],
+   [
+    "Baltimore",
+    "MD",
+    1
+   ],
+   [
+    "Bellevue",
+    "WA",
+    1
+   ],
+   [
+    "Bethesda",
+    "MD",
+    1
+   ],
+   [
+    "Beverly Hills",
+    "CA",
+    1
+   ],
+   [
+    "Birmingham",
+    "AL",
+    1
+   ],
+   [
+    "Bloomington",
+    "MN",
+    1
+   ],
+   [
+    "Boca Raton",
+    "FL",
+    1
+   ],
+   [
+    "Boston",
+    "MA",
+    3
+   ],
+   [
+    "Boulder",
+    "CO",
+    1
+   ],
+   [
+    "Brea",
+    "CA",
+    1
+   ],
+   [
+    "Bridgewater",
+    "NJ",
+    1
+   ],
+   [
+    "Brookfield",
+    "WI",
+    1
+   ],
+   [
+    "Brooklyn",
+    "NY",
+    2
+   ],
+   [
+    "Burlingame",
+    "CA",
+    1
+   ],
+   [
+    "Canoga Park",
+    "CA",
+    1
+   ],
+   [
+    "Carlsbad",
+    "CA",
+    1
+   ],
+   [
+    "Cerritos",
+    "CA",
+    1
+   ],
+   [
+    "Charleston",
+    "SC",
+    1
+   ],
+   [
+    "Charlotte",
+    "NC",
+    1
+   ],
+   [
+    "Cherry Hill",
+    "NJ",
+    1
+   ],
+   [
+    "Chestnut Hill",
+    "MA",
+    1
+   ],
+   [
+    "Chicago",
+    "IL",
+    1
+   ],
+   [
+    "Cincinnati",
+    "OH",
+    1
+   ],
+   [
+    "Columbus",
+    "OH",
+    1
+   ],
+   [
+    "Coral Gables",
+    "FL",
+    1
+   ],
+   [
+    "Costa Mesa",
+    "CA",
+    1
+   ],
+   [
+    "Dallas",
+    "TX",
+    2
+   ],
+   [
+    "Denver",
+    "CO",
+    1
+   ],
+   [
+    "Detroit",
+    "MI",
+    1
+   ],
+   [
+    "Durham",
+    "NC",
+    1
+   ],
+   [
+    "East Rutherford",
+    "NJ",
+    1
+   ],
+   [
+    "Edina",
+    "MN",
+    1
+   ],
+   [
+    "Farmington",
+    "CT",
+    1
+   ],
+   [
+    "Fort Worth",
+    "TX",
+    1
+   ],
+   [
+    "Frisco",
+    "TX",
+    1
+   ],
+   [
+    "Garden City",
+    "NY",
+    1
+   ],
+   [
+    "Germantown",
+    "TN",
+    1
+   ],
+   [
+    "Gilbert",
+    "AZ",
+    1
+   ],
+   [
+    "Glendale",
+    "CA",
+    1
+   ],
+   [
+    "Honolulu",
+    "HI",
+    2
+   ],
+   [
+    "Houston",
+    "TX",
+    2
+   ],
+   [
+    "Huntington Station",
+    "NY",
+    1
+   ],
+   [
+    "Indianapolis",
+    "IN",
+    1
+   ],
+   [
+    "Jacksonville",
+    "FL",
+    1
+   ],
+   [
+    "Kansas City",
+    "MO",
+    1
+   ],
+   [
+    "King of Prussia",
+    "PA",
+    1
+   ],
+   [
+    "Las Vegas",
+    "NV",
+    4
+   ],
+   [
+    "Leawood",
+    "KS",
+    1
+   ],
+   [
+    "Lexington",
+    "KY",
+    1
+   ],
+   [
+    "Lone Tree",
+    "CO",
+    1
+   ],
+   [
+    "Los Angeles",
+    "CA",
+    2
+   ],
+   [
+    "Lynnfield",
+    "MA",
+    1
+   ],
+   [
+    "Manhasset",
+    "NY",
+    1
+   ],
+   [
+    "Manhattan Beach",
+    "CA",
+    1
+   ],
+   [
+    "Meridian",
+    "ID",
+    1
+   ],
+   [
+    "Metairie",
+    "LA",
+    1
+   ],
+   [
+    "Miami",
+    "FL",
+    3
+   ],
+   [
+    "Minnetonka",
+    "MN",
+    1
+   ],
+   [
+    "Murray",
+    "UT",
+    1
+   ],
+   [
+    "Naperville",
+    "IL",
+    1
+   ],
+   [
+    "Naples",
+    "FL",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    8
+   ],
+   [
+    "Newport Beach",
+    "CA",
+    1
+   ],
+   [
+    "Oak Brook",
+    "IL",
+    1
+   ],
+   [
+    "Oklahoma City",
+    "OK",
+    1
+   ],
+   [
+    "Orange Village",
+    "OH",
+    1
+   ],
+   [
+    "Orlando",
+    "FL",
+    1
+   ],
+   [
+    "Pacific Palisades",
+    "CA",
+    1
+   ],
+   [
+    "Palm Beach Gardens",
+    "FL",
+    1
+   ],
+   [
+    "Palm Desert",
+    "CA",
+    1
+   ],
+   [
+    "Palo Alto",
+    "CA",
+    1
+   ],
+   [
+    "Paramus",
+    "NJ",
+    1
+   ],
+   [
+    "Pasadena",
+    "CA",
+    1
+   ],
+   [
+    "Philadelphia",
+    "PA",
+    1
+   ],
+   [
+    "Phoenix",
+    "AZ",
+    1
+   ],
+   [
+    "Pittsburgh",
+    "PA",
+    1
+   ],
+   [
+    "Portland",
+    "OR",
+    1
+   ],
+   [
+    "Princeton",
+    "NJ",
+    1
+   ],
+   [
+    "Raleigh",
+    "NC",
+    1
+   ],
+   [
+    "Richmond",
+    "VA",
+    1
+   ],
+   [
+    "Rochester Hills",
+    "MI",
+    1
+   ],
+   [
+    "Roseville",
+    "CA",
+    1
+   ],
+   [
+    "Salt Lake City",
+    "UT",
+    1
+   ],
+   [
+    "San Antonio",
+    "TX",
+    1
+   ],
+   [
+    "San Diego",
+    "CA",
+    2
+   ],
+   [
+    "Santa Barbara",
+    "CA",
+    1
+   ],
+   [
+    "Santa Clara",
+    "CA",
+    1
+   ],
+   [
+    "Santa Monica",
+    "CA",
+    1
+   ],
+   [
+    "Sarasota",
+    "FL",
+    1
+   ],
+   [
+    "Schaumburg",
+    "IL",
+    1
+   ],
+   [
+    "Scottsdale",
+    "AZ",
+    2
+   ],
+   [
+    "Short Hills",
+    "NJ",
+    1
+   ],
+   [
+    "Shrewsbury",
+    "NJ",
+    1
+   ],
+   [
+    "Skokie",
+    "IL",
+    1
+   ],
+   [
+    "Southlake",
+    "TX",
+    1
+   ],
+   [
+    "St. Louis",
+    "MO",
+    1
+   ],
+   [
+    "Studio City",
+    "CA",
+    1
+   ],
+   [
+    "Tampa",
+    "FL",
+    1
+   ],
+   [
+    "The Woodlands",
+    "TX",
+    1
+   ],
+   [
+    "Thousand Oaks",
+    "CA",
+    1
+   ],
+   [
+    "Torrance",
+    "CA",
+    1
+   ],
+   [
+    "Troy",
+    "MI",
+    1
+   ],
+   [
+    "Tucson",
+    "AZ",
+    1
+   ],
+   [
+    "Tulsa",
+    "OK",
+    1
+   ],
+   [
+    "Tysons",
+    "VA",
+    1
+   ],
+   [
+    "Vail",
+    "CO",
+    1
+   ],
+   [
+    "Venice",
+    "CA",
+    1
+   ],
+   [
+    "Walnut Creek",
+    "CA",
+    1
+   ],
+   [
+    "Washington",
+    "DC",
+    1
+   ],
+   [
+    "Wayne",
+    "NJ",
+    1
+   ],
+   [
+    "West Des Moines",
+    "IA",
+    1
+   ],
+   [
+    "West Palm Beach",
+    "FL",
+    1
+   ],
+   [
+    "Westport",
+    "CT",
+    1
+   ],
+   [
+    "White Plains",
+    "NY",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 0,
+  "con": 0
+ },
+ "cities": "147 stores across the US, and its own site",
+ "addmen": true,
+ "site": {
+  "domain": "aloyoga.com",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 14643,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "unclear",
+  "marks": [
+   "Airbrush (house)",
+   "Airlift (house)",
+   "Alosoft (house)"
+  ],
+  "source": "flag_sample",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 196,
+  "w": 161,
+  "n": 39,
+  "s": 36,
+  "c": 7,
+  "x": 30,
+  "xh": 26,
+  "sp": "split",
+  "sc": [
+   "Outerwear:Jackets",
+   "Bottoms:Shorts",
+   "Bottoms:Pants",
+   "Tops:Long Sleeves",
+   "Tops:Tanks"
+  ],
+  "nc": [
+   "Outerwear:Coverups:Hoodies",
+   "Tops:Short Sleeves",
+   "Bottoms:Sweatpants"
+  ],
+  "st": "complete"
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Sweater",
+  "Outerwear",
+  "Shoes"
+ ],
+ "garment_links": {
+  "T-shirt": "https://www.aloyoga.com/collections/tees-tanks",
+  "Polo": "https://www.aloyoga.com/search?q=polo&Gender=Men",
+  "Dress pants": "https://www.aloyoga.com/collections/mens-pants",
+  "Sweater": "https://www.aloyoga.com/collections/mens-sweaters",
+  "Outerwear": "https://www.aloyoga.com/collections/mens-jackets"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Triumph Tee - Black",
+   "lu": "https://www.aloyoga.com/products/m1257r-triumph-tee-black",
+   "hp": "Cotton Cashmere Ever Soft Short Sleeve Crew - Black",
+   "hu": "https://www.aloyoga.com/products/m1288r-cotton-cashmere-ever-soft-short-sleeve-crew-black",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 1,
-    "linen": 1,
-    "cotton": 2,
-    "wool": 1,
-    "synth": 4
+  "Polo": {
+   "lp": "Coastline Knit Short Sleeve Polo - Black",
+   "lu": "https://www.aloyoga.com/products/m1275r-coastline-knit-short-sleeve-polo-black",
+   "hp": "Sports Club Sweater Knit Polo - Black",
+   "hu": "https://www.aloyoga.com/products/m1250r-sports-club-sweater-knit-polo-black",
+   "b": "range"
   },
-  "dials": {
-    "dur": 2,
-    "forg": 2,
-    "fuss": 1,
-    "golffice": 1,
-    "status": 4,
-    "racquet": 1,
-    "whitet": 2,
-    "logo": 2,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 2,
-    "surf": 2
+  "Dress shirt": {
+   "lp": "Shift Knit Button Up Long Sleeve - Black",
+   "lu": "https://www.aloyoga.com/products/m3324r-shift-knit-button-up-long-sleeve-black",
+   "hp": "Linen Jersey Coastal Long Sleeve Button Up - Black",
+   "hu": "https://www.aloyoga.com/products/m3357p-linen-jersey-coastal-long-sleeve-button-up-black",
+   "b": "range"
   },
-  "why": "Activewear that doubles as everyday clothing — leggings, sweats, outerwear — sold largely through its own stores and social media.",
-  "origin": "Founded in Los Angeles in 2007 by Danny Harris and Marco DeGeorge; the name stands for Air, Land, Ocean.",
-  "chan": ["O"],
-  "conf": "H",
-  "forgc": [2, 3, 1],
-  "shop": "https://www.aloyoga.com/search?q=",
-  "onething": {
-    "p": "Accolade hoodie",
-    "u": "https://www.aloyoga.com/search?q=Accolade%20hoodie%20men",
-    "n": "men-filtered"
+  "Dress pants": {
+   "lp": "Suited Trouser - Black",
+   "lu": "https://www.aloyoga.com/products/m5016r-suited-trouser-black",
+   "hp": "Suited Trouser - Black",
+   "hu": "https://www.aloyoga.com/products/m5016r-suited-trouser-black",
+   "b": "single"
   },
-  "prices": [[58, 188], [128, 168], [188, 198], null, [148, 148], [188, 388], [138, 398], [150, 295]],
-  "notes": {
-    "status": "celebrity seeding as distribution — the paparazzi uniform; the wordmark signals membership",
-    "style": "athleisure styled as fashion — sets, monochrome, runway staging",
-    "comfort": "buttery-soft as the core product promise",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 3; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "aloyoga.com has no about, sustainability or supply-chain page, and the men's product descriptions name no factory, mill or country of make. Nothing checkable about making: a 1."
+  "Sweater": {
+   "lp": "Domain Rib Knit Crew Sweater - Black",
+   "lu": "https://www.aloyoga.com/products/m3271r-domain-rib-knit-crew-sweater-black",
+   "hp": "Wool Cashmere New Class 1/4 Zip Pullover - Black (men's)",
+   "hu": "https://www.aloyoga.com/products/u3056r-new-class-cashmere-1-4-zip-pullover-black-mens",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 144,
-    "cities": [
-      ["A Boca Raton", "FL", 1],
-      ["A Summerlin", "NV", 1],
-      ["Albuquerque", "NM", 1],
-      ["Alexandria", "VA", 1],
-      ["Alpharetta", "GA", 1],
-      ["Alys Beach", "FL", 1],
-      ["Ardmore", "PA", 1],
-      ["Ashburn", "VA", 1],
-      ["Aspen", "CO", 1],
-      ["Atlanta", "GA", 1],
-      ["Austin", "TX", 1],
-      ["Aventura", "FL", 1],
-      ["Baltimore", "MD", 1],
-      ["Bethesda", "MD", 1],
-      ["Beverly Hills", "CA", 1],
-      ["Birmingham", "AL", 1],
-      ["Bloomington", "MN", 1],
-      ["Boston", "MA", 2],
-      ["Boulder", "CO", 1],
-      ["Boylston St. Boston", "MA", 1],
-      ["Brea", "CA", 1],
-      ["Bridgewater", "NJ", 1],
-      ["Brookfield", "WI", 1],
-      ["Brooklyn", "NY", 2],
-      ["Burlingame", "CA", 1],
-      ["C Indianapolis", "IN", 1],
-      ["C White Plains", "NY", 1],
-      ["Canoga Park", "CA", 1],
-      ["Carlsbad", "CA", 1],
-      ["Century Oaks Terrace Austin", "TX", 1],
-      ["Charleston", "SC", 1],
-      ["Charlotte", "NC", 1],
-      ["Cherry Hill", "NJ", 1],
-      ["Chestnut Hill", "MA", 1],
-      ["Chicago", "IL", 1],
-      ["Cincinnati", "OH", 1],
-      ["Columbus", "OH", 1],
-      ["Coral Gables", "FL", 1],
-      ["Costa Mesa", "CA", 1],
-      ["Dallas", "TX", 2],
-      ["Denver", "CO", 1],
-      ["Des Moines", "IA", 1],
-      ["Detroit", "MI", 1],
-      ["Durham", "NC", 1],
-      ["East Rutherford", "NJ", 1],
-      ["Fort Worth", "TX", 1],
-      ["Frisco", "TX", 1],
-      ["Galleria Edina", "MN", 1],
-      ["Garden City", "NY", 1],
-      ["Germantown", "TN", 1],
-      ["Gilbert", "AZ", 1],
-      ["Glendale", "CA", 1],
-      ["Honolulu", "HI", 2],
-      ["Houston", "TX", 2],
-      ["Huntington Station", "NY", 1],
-      ["Jacksonville", "FL", 1],
-      ["Kansas City", "MO", 1],
-      ["King of Prussia", "PA", 1],
-      ["Las Vegas", "NV", 2],
-      ["Lexington", "KY", 1],
-      ["Lone Tree", "CO", 1],
-      ["Los Angeles", "CA", 1],
-      ["Los Cerritos", "CA", 1],
-      ["Lynnfield", "MA", 1],
-      ["M St. NW Washington", "DC", 1],
-      ["Manhasset", "NY", 1],
-      ["Manhattan Beach", "CA", 1],
-      ["Metairie", "LA", 1],
-      ["Miami", "FL", 3],
-      ["Miami Beach", "FL", 1],
-      ["Minnetonka", "MN", 1],
-      ["Murray", "UT", 1],
-      ["Naperville", "IL", 1],
-      ["Naples", "FL", 1],
-      ["New York", "NY", 8],
-      ["Newport Beach", "CA", 1],
-      ["Oakbrook Center Oakbrook", "IL", 1],
-      ["Oklahoma City", "OK", 1],
-      ["Orange Village", "OH", 1],
-      ["Orlando", "FL", 1],
-      ["Pacific Palisades", "CA", 1],
-      ["Palm Beach Gardens", "FL", 1],
-      ["Palm Desert", "CA", 2],
-      ["Palo Alto", "CA", 1],
-      ["Paramus", "NJ", 1],
-      ["Pasadena", "CA", 1],
-      ["Philadelphia", "PA", 1],
-      ["Phoenix", "AZ", 1],
-      ["Pittsburgh", "PA", 1],
-      ["Portland", "OR", 1],
-      ["Princeton", "NJ", 1],
-      ["Raleigh", "NC", 1],
-      ["Rochester Hills", "MI", 1],
-      ["Roseville", "CA", 1],
-      ["Salt Lake City", "UT", 1],
-      ["San Antonio", "TX", 1],
-      ["San Diego", "CA", 2],
-      ["Santa Barbara", "CA", 1],
-      ["Santa Clara", "CA", 1],
-      ["Santa Monica", "CA", 2],
-      ["Sarasota", "FL", 1],
-      ["Schaumburg", "IL", 1],
-      ["Scottsdale", "AZ", 2],
-      ["Short Hills", "NJ", 1],
-      ["Shrewsbury", "NJ", 1],
-      ["Skokie", "IL", 1],
-      ["Southlake", "TX", 1],
-      ["St. Louis", "MO", 1],
-      ["Studio City", "CA", 1],
-      ["Tampa", "FL", 1],
-      ["The Woodlands", "TX", 1],
-      ["Thousand Oaks", "CA", 1],
-      ["Torrance", "CA", 1],
-      ["Troy", "MI", 1],
-      ["Tucson", "AZ", 1],
-      ["Tulsa", "OK", 1],
-      ["Tysons", "VA", 1],
-      ["Vail", "CO", 1],
-      ["Venice", "CA", 1],
-      ["Walnut Creek", "CA", 1],
-      ["West Des Moines", "IA", 1],
-      ["West Hartford", "CT", 1],
-      ["West Palm Beach", "FL", 1],
-      ["Westport", "CT", 1],
-      ["Willowbrook Blvd. Wayne", "NJ", 1]
-    ],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Outerwear": {
+   "lp": "Vantage Nylon Ripstop Track Jacket - Navy",
+   "lu": "https://www.aloyoga.com/products/m4166r-vantage-nylon-ripstop-track-jacket-navy",
+   "hp": "Stage Sweater Puffer - Black",
+   "hu": "https://www.aloyoga.com/products/m4182r-stage-sweater-puffer-black",
+   "b": "range"
   },
-  "cities": "144 stores across the US, and its own site",
-  "addmen": true,
-  "site": {
-    "domain": "aloyoga.com",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 14643,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "unclear",
-    "marks": ["Airbrush (house)", "Airlift (house)", "Alosoft (house)"],
-    "source": "flag_sample",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 196,
-    "w": 161,
-    "n": 39,
-    "s": 36,
-    "c": 7,
-    "x": 30,
-    "xh": 26,
-    "sp": "split",
-    "sc": ["Outerwear:Jackets", "Bottoms:Shorts", "Bottoms:Pants", "Tops:Long Sleeves", "Tops:Tanks"],
-    "nc": ["Outerwear:Coverups:Hoodies", "Tops:Short Sleeves", "Bottoms:Sweatpants"],
-    "st": "complete"
-  },
-  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Sweater", "Outerwear", "Shoes"],
-  "garment_links": {
-    "T-shirt": "https://www.aloyoga.com/collections/tees-tanks",
-    "Polo": "https://www.aloyoga.com/search?q=polo&Gender=Men",
-    "Dress pants": "https://www.aloyoga.com/collections/mens-pants",
-    "Sweater": "https://www.aloyoga.com/collections/mens-sweaters",
-    "Outerwear": "https://www.aloyoga.com/collections/mens-jackets"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Triumph Tee - Black",
-      "lu": "https://www.aloyoga.com/products/m1257r-triumph-tee-black",
-      "hp": "Cotton Cashmere Ever Soft Short Sleeve Crew - Black",
-      "hu": "https://www.aloyoga.com/products/m1288r-cotton-cashmere-ever-soft-short-sleeve-crew-black",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Coastline Knit Short Sleeve Polo - Black",
-      "lu": "https://www.aloyoga.com/products/m1275r-coastline-knit-short-sleeve-polo-black",
-      "hp": "Sports Club Sweater Knit Polo - Black",
-      "hu": "https://www.aloyoga.com/products/m1250r-sports-club-sweater-knit-polo-black",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Shift Knit Button Up Long Sleeve - Black",
-      "lu": "https://www.aloyoga.com/products/m3324r-shift-knit-button-up-long-sleeve-black",
-      "hp": "Linen Jersey Coastal Long Sleeve Button Up - Black",
-      "hu": "https://www.aloyoga.com/products/m3357p-linen-jersey-coastal-long-sleeve-button-up-black",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Suited Trouser - Black",
-      "lu": "https://www.aloyoga.com/products/m5016r-suited-trouser-black",
-      "hp": "Suited Trouser - Black",
-      "hu": "https://www.aloyoga.com/products/m5016r-suited-trouser-black",
-      "b": "single"
-    },
-    "Sweater": {
-      "lp": "Domain Rib Knit Crew Sweater - Black",
-      "lu": "https://www.aloyoga.com/products/m3271r-domain-rib-knit-crew-sweater-black",
-      "hp": "Wool Cashmere New Class 1/4 Zip Pullover - Black (men's)",
-      "hu": "https://www.aloyoga.com/products/u3056r-new-class-cashmere-1-4-zip-pullover-black-mens",
-      "b": "range"
-    },
-    "Outerwear": {
-      "lp": "Vantage Nylon Ripstop Track Jacket - Navy",
-      "lu": "https://www.aloyoga.com/products/m4166r-vantage-nylon-ripstop-track-jacket-navy",
-      "hp": "Stage Sweater Puffer - Black",
-      "hu": "https://www.aloyoga.com/products/m4182r-stage-sweater-puffer-black",
-      "b": "range"
-    },
-    "Shoes": {
-      "lp": "Unisex It Slide - Black",
-      "lu": "https://www.aloyoga.com/products/a0669u-unisex-it-slide-black",
-      "hp": "ALO Trail - Black",
-      "hu": "https://www.aloyoga.com/products/a0892u-alo-trail-black",
-      "b": "range"
-    }
-  },
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.aloyoga.com/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=334335&brand_ids[]=476444",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "season": {
-    "l": "Fall '26 (nav label; page heading 'The Fall Collection')",
-    "t": "collection page",
-    "u": "https://www.aloyoga.com/collections/fall-collection",
-    "m": "unisex"
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "No owned factory, mill or workshop found on aloyoga.com; no about/sustainability/supply-chain page exists (aloyoga.com/pages/about-us and /pages/sustainability both 404) and the homepage nav carries none. Third-party 'where is Alo made' blogs found in search are not evidence and were not used.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "none",
-    "countries": "None seen: 0/16 product descriptions in mens-shop-all products.json state a country; 3 PDPs fetched showed no origin text, but PDP detail/fabric accordions did not render in the fetch (items out of stock), so origin may be hidden there. Product .js tags 'ChinaCatalog'/'TurkeyCatalog' look like market catalogues, not origin; not scored.",
-    "heritage": "none",
-    "repair": "no",
-    "process": "no",
-    "urls": [
-      "https://www.aloyoga.com/collections/mens-shop-all/products.json?limit=30",
-      "https://www.aloyoga.com/products/m1205r-conquer-reform-crewneck-short-sleeve-black"
-    ],
-    "conf": "high",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Unisex It Slide - Black",
+   "lu": "https://www.aloyoga.com/products/a0669u-unisex-it-slide-black",
+   "hp": "ALO Trail - Black",
+   "hu": "https://www.aloyoga.com/products/a0892u-alo-trail-black",
+   "b": "range"
   }
+ },
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.aloyoga.com/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=334335&brand_ids[]=476444",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "season": {
+  "l": "Fall '26 (nav label; page heading 'The Fall Collection')",
+  "t": "collection page",
+  "u": "https://www.aloyoga.com/collections/fall-collection",
+  "m": "unisex"
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "No owned factory, mill or workshop found on aloyoga.com; no about/sustainability/supply-chain page exists (aloyoga.com/pages/about-us and /pages/sustainability both 404) and the homepage nav carries none. Third-party 'where is Alo made' blogs found in search are not evidence and were not used.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "none",
+  "countries": "None seen: 0/16 product descriptions in mens-shop-all products.json state a country; 3 PDPs fetched showed no origin text, but PDP detail/fabric accordions did not render in the fetch (items out of stock), so origin may be hidden there. Product .js tags 'ChinaCatalog'/'TurkeyCatalog' look like market catalogues, not origin; not scored.",
+  "heritage": "none",
+  "repair": "no",
+  "process": "no",
+  "urls": [
+   "https://www.aloyoga.com/collections/mens-shop-all/products.json?limit=30",
+   "https://www.aloyoga.com/products/m1205r-conquer-reform-crewneck-short-sleeve-black"
+  ],
+  "conf": "high",
+  "read": "2026-10-03"
+ },
+ "region": {
+  "o": [
+   253,
+   254,
+   286,
+   287,
+   288,
+   289,
+   290,
+   299,
+   300,
+   301,
+   302,
+   303,
+   304,
+   305,
+   306,
+   308,
+   309,
+   310,
+   311,
+   312,
+   313,
+   314,
+   315,
+   316,
+   317,
+   318,
+   319,
+   320,
+   321,
+   335,
+   336,
+   337,
+   338
+  ],
+  "s": []
+ }
 }

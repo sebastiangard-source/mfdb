@@ -1,209 +1,300 @@
 {
-  "name": "A Bathing Ape",
-  "band": "accessible",
-  "seat": 76,
-  "dagger": 0,
-  "focus": {
-    "tech": 2,
-    "comfort": 3,
-    "craft": 1,
-    "style": 5
+ "name": "A Bathing Ape",
+ "band": "accessible",
+ "seat": 76,
+ "dagger": 0,
+ "focus": {
+  "tech": 2,
+  "comfort": 3,
+  "craft": 1,
+  "style": 5
+ },
+ "fabric": {
+  "denim": 3,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 5,
+  "wool": 2,
+  "synth": 3
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 3,
+  "fuss": 1,
+  "shoes": 5,
+  "status": 4,
+  "street": 5,
+  "weird": 3,
+  "whitet": 2,
+  "logo": 5,
+  "western": 1,
+  "rock": 3,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 2
+ },
+ "why": "Streetwear — hoodies, tees, sneakers — with camouflage prints and an ape logo, sold in its own stores.",
+ "origin": "Founded in Tokyo in 1993 by Nigo; sold to I.T Group of Hong Kong in 2011.",
+ "chan": [
+  "O",
+  "W",
+  "X"
+ ],
+ "conf": "L",
+ "forgc": [
+  4,
+  3,
+  1
+ ],
+ "onething": {
+  "p": "Shark full-zip hoodie",
+  "u": "https://us.bape.com/products/1k70-115-006",
+  "n": "verified — direct product page, $569. The full-face zip hood is the brand's whole signature; the BAPE STA sits in the shoe slot rather than competing here"
+ },
+ "prices": [
+  [
+   99,
+   285
+  ],
+  [
+   239,
+   239
+  ],
+  [
+   275,
+   535
+  ],
+  [
+   369,
+   655
+  ],
+  null,
+  [
+   475,
+   655
+  ],
+  [
+   475,
+   1905
+  ],
+  [
+   299,
+   359
+  ]
+ ],
+ "shoelink": {
+  "t": "BAPE STA",
+  "u": "https://us.bape.com/collections/bape-sta-collection"
+ },
+ "notes": {
+  "street": "one of the founding houses of the register rather than a participant in it",
+  "status": "logo and camo are the point; the garment is a carrier for both",
+  "shoes": "the BAPE STA is a core line, not an accessory to the clothing",
+  "cotton": "heavy cotton fleece and jersey carry almost the whole range",
+  "reach": "Eight own stores in seven cities, no independent stockists on the register, no department-store presence: selective distribution, found by people who already know where to look. Was a 4 on an inherited guess; reset 23 Sep 2026. [authored findability score was 2; retired 28 Sep 2026]",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "logo": "Camouflage, the ape head and the shark hood; the marks are the garments.",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "style": "Camouflage prints and the ape head are a design statement first; the clothes are the canvas.",
+  "craft": "BAPE's US site gives a founding year and Harajuku origin but names no factory, maker or mill and states no country of make on any sampled product, including in the raw product data. Nothing about making is checkable: a 1."
+ },
+ "doors": {
+  "c": "full",
+  "n": 8,
+  "cities": [
+   [
+    "Chicago",
+    "IL",
+    1
+   ],
+   [
+    "East Rutherford",
+    "NJ",
+    1
+   ],
+   [
+    "Las Vegas",
+    "NV",
+    1
+   ],
+   [
+    "Miami",
+    "FL",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    2
+   ],
+   [
+    "San Francisco",
+    "CA",
+    1
+   ],
+   [
+    "West Hollywood",
+    "CA",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 1,
+  "con": 0
+ },
+ "cities": "8 stores, including New York, Chicago, East Rutherford, and its own site",
+ "region": {
+  "o": [
+   182,
+   184,
+   186
+  ],
+  "s": []
+ },
+ "site": {
+  "domain": "us.bape.com",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 927,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "licensed",
+  "marks": [
+   "GORE-TEX",
+   "WINDSTOPPER (GORE-TEX Labs)"
+  ],
+  "source": "screen_36",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 489,
+  "w": 272,
+  "n": 48,
+  "s": 8,
+  "c": 0,
+  "x": 0,
+  "xh": 0,
+  "sp": "one",
+  "sc": [
+   "JACKETS"
+  ],
+  "nc": [
+   "T-SHIRTS",
+   "CUT AND SEWN",
+   "PANTS"
+  ],
+  "st": "partial"
+ },
+ "shop": "https://us.bape.com/search?q=",
+ "garment_links": {
+  "T-shirt": "https://us.bape.com/collections/mens-t-shirts",
+  "Dress shirt": "https://us.bape.com/collections/category-clothing-shirt/gender-men",
+  "Jeans": "https://us.bape.com/search?q=denim+pants&filter.p.m.product_ext.gender=MEN",
+  "Outerwear": "https://us.bape.com/collections/category-clothing-jacket/gender-men",
+  "Shoes": "https://us.bape.com/collections/category-clothing-footwear/gender-men"
+ },
+ "price_checked": true,
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "ONE POINT TEE MENS",
+   "lu": "https://us.bape.com/products/1l80-110-004",
+   "hp": "COLOR CAMO REVERSIBLE TEE MENS",
+   "hu": "https://us.bape.com/products/1m30-109-008",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 3,
-    "cashmere": 1,
-    "linen": 1,
-    "cotton": 5,
-    "wool": 2,
-    "synth": 3
+  "Polo": {
+   "lp": "1ST CAMO JACQUARD LOGO RELAXED FIT POLO SHIRT MENS",
+   "lu": "https://us.bape.com/products/1l80-112-302",
+   "hp": "1ST CAMO JACQUARD LOGO RELAXED FIT POLO SHIRT MENS",
+   "hu": "https://us.bape.com/products/1l80-112-302",
+   "b": "single"
   },
-  "dials": {
-    "dur": 3,
-    "forg": 3,
-    "fuss": 1,
-    "shoes": 5,
-    "status": 4,
-    "street": 5,
-    "weird": 3,
-    "whitet": 2,
-    "logo": 5,
-    "western": 1,
-    "rock": 3,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 2
+  "Dress shirt": {
+   "lp": "ONE POINT OXFORD LS SHIRT MENS",
+   "lu": "https://us.bape.com/products/1l80-131-002",
+   "hp": "SOLID 1ST CAMO WORK LS SHIRT MENS",
+   "hu": "https://us.bape.com/products/1m30-131-305",
+   "b": "range"
   },
-  "why": "Streetwear — hoodies, tees, sneakers — with camouflage prints and an ape logo, sold in its own stores.",
-  "origin": "Founded in Tokyo in 1993 by Nigo; sold to I.T Group of Hong Kong in 2011.",
-  "chan": ["O", "W", "X"],
-  "conf": "L",
-  "forgc": [4, 3, 1],
-  "onething": {
-    "p": "Shark full-zip hoodie",
-    "u": "https://us.bape.com/products/1k70-115-006",
-    "n": "verified — direct product page, $569. The full-face zip hood is the brand's whole signature; the BAPE STA sits in the shoe slot rather than competing here"
+  "Jeans": {
+   "lp": "STA REGULAR FIT 13 OZ DENIM PANTS MENS",
+   "lu": "https://us.bape.com/products/1l80-150-004",
+   "hp": "COLOR STONE 13 OZ DENIM PANTS MENS",
+   "hu": "https://us.bape.com/products/1l80-150-002",
+   "b": "range"
   },
-  "prices": [[99, 285], [239, 239], [275, 535], [369, 655], null, [475, 655], [475, 1905], [299, 359]],
-  "shoelink": {
-    "t": "BAPE STA",
-    "u": "https://us.bape.com/collections/bape-sta-collection"
+  "Sweater": {
+   "lp": "ONE POINT CABLE KNIT CREWNECK SWEATSHIRT MENS",
+   "lu": "https://us.bape.com/products/1m80-120-302",
+   "hp": "CABLE KNIT SHARK RELAXED FIT FULL ZIP HOODIE MENS",
+   "hu": "https://us.bape.com/products/1m80-120-303",
+   "b": "range"
   },
-  "notes": {
-    "street": "one of the founding houses of the register rather than a participant in it",
-    "status": "logo and camo are the point; the garment is a carrier for both",
-    "shoes": "the BAPE STA is a core line, not an accessory to the clothing",
-    "cotton": "heavy cotton fleece and jersey carry almost the whole range",
-    "reach": "Eight own stores in seven cities, no independent stockists on the register, no department-store presence: selective distribution, found by people who already know where to look. Was a 4 on an inherited guess; reset 23 Sep 2026. [authored findability score was 2; retired 28 Sep 2026]",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "logo": "Camouflage, the ape head and the shark hood; the marks are the garments.",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "style": "Camouflage prints and the ape head are a design statement first; the clothes are the canvas.",
-    "craft": "BAPE's US site gives a founding year and Harajuku origin but names no factory, maker or mill and states no country of make on any sampled product, including in the raw product data. Nothing about making is checkable: a 1."
+  "Outerwear": {
+   "lp": "SOCCER TRACK JACKET MENS",
+   "lu": "https://us.bape.com/products/1m80-140-310",
+   "hp": "MULTI LOGO QUILTED LEATHER BOMBER JACKET MENS",
+   "hu": "https://us.bape.com/products/1l80-141-303",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 8,
-    "cities": [
-      ["Chicago", "IL", 1],
-      ["East Rutherford", "NJ", 1],
-      ["Las Vegas", "NV", 1],
-      ["Miami", "FL", 1],
-      ["New York", "NY", 2],
-      ["San Francisco", "CA", 1],
-      ["West Hollywood", "CA", 1]
-    ],
-    "basis": "recapture 2026-09"
-  },
-  "cities": "8 stores, including New York, Chicago, East Rutherford, and its own site",
-  "region": {
-    "o": [168, 170, 171],
-    "s": []
-  },
-  "site": {
-    "domain": "us.bape.com",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 927,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "licensed",
-    "marks": ["GORE-TEX", "WINDSTOPPER (GORE-TEX Labs)"],
-    "source": "screen_36",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 489,
-    "w": 272,
-    "n": 48,
-    "s": 8,
-    "c": 0,
-    "x": 0,
-    "xh": 0,
-    "sp": "one",
-    "sc": ["JACKETS"],
-    "nc": ["T-SHIRTS", "CUT AND SEWN", "PANTS"],
-    "st": "partial"
-  },
-  "shop": "https://us.bape.com/search?q=",
-  "garment_links": {
-    "T-shirt": "https://us.bape.com/collections/mens-t-shirts",
-    "Dress shirt": "https://us.bape.com/collections/category-clothing-shirt/gender-men",
-    "Jeans": "https://us.bape.com/search?q=denim+pants&filter.p.m.product_ext.gender=MEN",
-    "Outerwear": "https://us.bape.com/collections/category-clothing-jacket/gender-men",
-    "Shoes": "https://us.bape.com/collections/category-clothing-footwear/gender-men"
-  },
-  "price_checked": true,
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "ONE POINT TEE MENS",
-      "lu": "https://us.bape.com/products/1l80-110-004",
-      "hp": "COLOR CAMO REVERSIBLE TEE MENS",
-      "hu": "https://us.bape.com/products/1m30-109-008",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "1ST CAMO JACQUARD LOGO RELAXED FIT POLO SHIRT MENS",
-      "lu": "https://us.bape.com/products/1l80-112-302",
-      "hp": "1ST CAMO JACQUARD LOGO RELAXED FIT POLO SHIRT MENS",
-      "hu": "https://us.bape.com/products/1l80-112-302",
-      "b": "single"
-    },
-    "Dress shirt": {
-      "lp": "ONE POINT OXFORD LS SHIRT MENS",
-      "lu": "https://us.bape.com/products/1l80-131-002",
-      "hp": "SOLID 1ST CAMO WORK LS SHIRT MENS",
-      "hu": "https://us.bape.com/products/1m30-131-305",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "STA REGULAR FIT 13 OZ DENIM PANTS MENS",
-      "lu": "https://us.bape.com/products/1l80-150-004",
-      "hp": "COLOR STONE 13 OZ DENIM PANTS MENS",
-      "hu": "https://us.bape.com/products/1l80-150-002",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "ONE POINT CABLE KNIT CREWNECK SWEATSHIRT MENS",
-      "lu": "https://us.bape.com/products/1m80-120-302",
-      "hp": "CABLE KNIT SHARK RELAXED FIT FULL ZIP HOODIE MENS",
-      "hu": "https://us.bape.com/products/1m80-120-303",
-      "b": "range"
-    },
-    "Outerwear": {
-      "lp": "SOCCER TRACK JACKET MENS",
-      "lu": "https://us.bape.com/products/1m80-140-310",
-      "hp": "MULTI LOGO QUILTED LEATHER BOMBER JACKET MENS",
-      "hu": "https://us.bape.com/products/1l80-141-303",
-      "b": "range"
-    },
-    "Shoes": {
-      "lp": "BAPE STA #1 MENS",
-      "lu": "https://us.bape.com/products/1k80-191-301",
-      "hp": "BAPE SHARK STA #1 MENS",
-      "hu": "https://us.bape.com/products/1l80-191-313",
-      "b": "range"
-    }
-  },
-  "price_range_only": ["T-shirt", "Dress shirt", "Jeans", "Sweater", "Outerwear", "Shoes"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://us.bape.com/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=4691320",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "season": {
-    "l": "FALL/WINTER 2026 (FW26 'Timeless Culture')",
-    "t": "lookbook",
-    "u": "https://en.jp.bape.com/pages/lookbook-2026fw-mens",
-    "m": "yes"
-  },
-  "craft_evidence": {
-    "owned": "NC",
-    "owned_d": "Brand site (us.bape.com about page, FAQ) says nothing about factories or ownership; I.T Group ownership in current_reason not checked (no corporate source fetched).",
-    "makers": "no",
-    "mills": "no",
-    "madein": "none",
-    "countries": "None stated on 4 PDPs (full-zip hoodie 1k80-115-305, tee 1k80-110-053, sweatpants 1k80-252-002, sweatshirt 1k80-113-305) or in the Shopify product JSON body/tags for 1k80-115-308 and 1k80-113-305.",
-    "heritage": "vague",
-    "repair": "no",
-    "process": "no",
-    "urls": ["https://us.bape.com/pages/about", "https://us.bape.com/products/1k80-115-305"],
-    "conf": "medium",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "BAPE STA #1 MENS",
+   "lu": "https://us.bape.com/products/1k80-191-301",
+   "hp": "BAPE SHARK STA #1 MENS",
+   "hu": "https://us.bape.com/products/1l80-191-313",
+   "b": "range"
   }
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Dress shirt",
+  "Jeans",
+  "Sweater",
+  "Outerwear",
+  "Shoes"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://us.bape.com/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=4691320",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "season": {
+  "l": "FALL/WINTER 2026 (FW26 'Timeless Culture')",
+  "t": "lookbook",
+  "u": "https://en.jp.bape.com/pages/lookbook-2026fw-mens",
+  "m": "yes"
+ },
+ "craft_evidence": {
+  "owned": "NC",
+  "owned_d": "Brand site (us.bape.com about page, FAQ) says nothing about factories or ownership; I.T Group ownership in current_reason not checked (no corporate source fetched).",
+  "makers": "no",
+  "mills": "no",
+  "madein": "none",
+  "countries": "None stated on 4 PDPs (full-zip hoodie 1k80-115-305, tee 1k80-110-053, sweatpants 1k80-252-002, sweatshirt 1k80-113-305) or in the Shopify product JSON body/tags for 1k80-115-308 and 1k80-113-305.",
+  "heritage": "vague",
+  "repair": "no",
+  "process": "no",
+  "urls": [
+   "https://us.bape.com/pages/about",
+   "https://us.bape.com/products/1k80-115-305"
+  ],
+  "conf": "medium",
+  "read": "2026-10-03"
+ }
 }

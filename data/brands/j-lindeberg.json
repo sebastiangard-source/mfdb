@@ -1,216 +1,273 @@
 {
-  "name": "J.Lindeberg",
-  "band": "premium",
-  "seat": 33,
-  "dagger": 0,
-  "focus": {
-    "tech": 4,
-    "comfort": 3,
-    "craft": 1,
-    "style": 3
+ "name": "J.Lindeberg",
+ "band": "premium",
+ "seat": 33,
+ "dagger": 0,
+ "focus": {
+  "tech": 4,
+  "comfort": 3,
+  "craft": 1,
+  "style": 3
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 2,
+  "linen": 1,
+  "cotton": 3,
+  "wool": 3,
+  "synth": 5
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 3,
+  "fuss": 1,
+  "golf": 4,
+  "status": 2,
+  "ski": 3,
+  "scandi": 2,
+  "whitet": 2,
+  "logo": 2,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 3,
+  "surf": 1
+ },
+ "why": "Golf and ski clothing cut like fashion — slim, colorful, logo-forward — with a casual line alongside.",
+ "origin": "Founded in Stockholm in 1996 by Johan Lindeberg.",
+ "say": "jay LIN-deh-berg",
+ "chan": [
+  "W",
+  "I",
+  "D"
+ ],
+ "conf": "L",
+ "forgc": [
+  3,
+  3,
+  2
+ ],
+ "onething": {
+  "p": "Tour-fit golf polo",
+  "u": "",
+  "n": "the garment the house made its name on, cut narrow when the rest of the category was not. NO LINK — no US-facing product page verified in this pass"
+ },
+ "prices": [
+  [
+   60,
+   130
+  ],
+  [
+   90,
+   180
+  ],
+  [
+   215,
+   215
+  ],
+  [
+   215,
+   215
+  ],
+  [
+   130,
+   230
+  ],
+  [
+   155,
+   325
+  ],
+  [
+   175,
+   830
+  ],
+  [
+   180,
+   265
+  ]
+ ],
+ "notes": {
+  "scandi": "Swedish by origin, but the register it trades in is golf rather than Nordic minimalism — a passport without the accent",
+  "golf": "the tour was the launch strategy, and the pro shop is still the native channel",
+  "ski": "a real winter line beside the golf book rather than a capsule",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 2; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "synth": "Golf and ski ranges in technical synthetics throughout; natural fibers are the exception.",
+  "craft": "J.Lindeberg's own 2025 sustainability report calls it a finished-goods retailer without manufacturing operations, and it names no suppliers or mills. Product data on jlindebergusa.com gives no country of make. The only checkable claim is the 1996 Stockholm founding."
+ },
+ "doors": {
+  "c": "full",
+  "n": 0,
+  "cities": [],
+  "basis": "positive zero 2026-09-23"
+ },
+ "cities": "No store of its own in the US · department stores and independent menswear shops, and its own site",
+ "site": {
+  "domain": "www.jlindebergusa.com",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 14757,
+  "status": "live_store",
+  "checked": "2026-09-21"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "both",
+  "marks": [
+   "PrimaLoft Silver",
+   "Polartec Power Stretch",
+   "Schoeller",
+   "Coolmax",
+   "Thermore",
+   "Solarcore",
+   "Lycra",
+   "TENCEL",
+   "TX Jersey (house)",
+   "VX RE:SKI (house)"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 1467,
+  "w": 1462,
+  "n": 34,
+  "s": 59,
+  "c": 7,
+  "x": 33,
+  "xh": 22,
+  "sp": "split",
+  "sc": [
+   "Jersey Tops & Polos",
+   "Pants",
+   "Outerwear",
+   "Sweats & Hoodies"
+  ],
+  "nc": [
+   "Knitwear",
+   "Shirts",
+   "Tailoring"
+  ],
+  "st": "complete"
+ },
+ "shop": "https://www.jlindebergusa.com/search?q=",
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress pants",
+  "Sweater",
+  "Outerwear",
+  "Shoes"
+ ],
+ "garment_links": {
+  "T-shirt": "https://www.jlindebergusa.com/collections/mens-fashion-tops-1",
+  "Polo": "https://www.jlindebergusa.com/collections/mens-golf-polos-tops",
+  "Dress shirt": "https://www.jlindebergusa.com/collections/mens-fashion-shirts-1",
+  "Jeans": "https://www.jlindebergusa.com/collections/mens-fashion-jeans-1",
+  "Dress pants": "https://www.jlindebergusa.com/collections/mens-fashion-pants-1",
+  "Sweater": "https://www.jlindebergusa.com/collections/mens-fashion-sweaters",
+  "Outerwear": "https://www.jlindebergusa.com/collections/mens-fashion-outerwear-1"
+ },
+ "price_checked": true,
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Alpha T-shirt / JL Navy",
+   "lu": "https://www.jlindebergusa.com/products/alpha-t-shirt-jl-navy-ss26",
+   "hp": "Hale Heavy Logo T-shirt / Black",
+   "hu": "https://www.jlindebergusa.com/products/hale-heavy-logo-t-shirt-black-ss26",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 2,
-    "cashmere": 2,
-    "linen": 1,
-    "cotton": 3,
-    "wool": 3,
-    "synth": 5
+  "Polo": {
+   "lp": "Bridge Polo / Subtle Green",
+   "lu": "https://www.jlindebergusa.com/products/bridge-polo-subtle-green",
+   "hp": "Bergman Jacquard Oversize Polo / Garrett Polo Stripe Navy",
+   "hu": "https://www.jlindebergusa.com/products/bergman-jacquard-oversize-polo-garrett-polo-stripe-navy",
+   "b": "range"
   },
-  "dials": {
-    "dur": 3,
-    "forg": 3,
-    "fuss": 1,
-    "golf": 4,
-    "status": 2,
-    "ski": 3,
-    "scandi": 2,
-    "whitet": 2,
-    "logo": 2,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 3,
-    "surf": 1
+  "Dress shirt": {
+   "lp": "Coen Mouline Structure Shirt / Winetasting",
+   "lu": "https://www.jlindebergusa.com/products/coen-mouline-structure-shirt-winetasting",
+   "hp": "Coen Mouline Structure Shirt / Winetasting",
+   "hu": "https://www.jlindebergusa.com/products/coen-mouline-structure-shirt-winetasting",
+   "b": "single"
   },
-  "why": "Golf and ski clothing cut like fashion — slim, colorful, logo-forward — with a casual line alongside.",
-  "origin": "Founded in Stockholm in 1996 by Johan Lindeberg.",
-  "say": "jay LIN-deh-berg",
-  "chan": ["W", "I", "D"],
-  "conf": "L",
-  "forgc": [3, 3, 2],
-  "onething": {
-    "p": "Tour-fit golf polo",
-    "u": "",
-    "n": "the garment the house made its name on, cut narrow when the rest of the category was not. NO LINK — no US-facing product page verified in this pass"
+  "Jeans": {
+   "lp": "Jax LHT Slim Jeans / Brindle",
+   "lu": "https://www.jlindebergusa.com/products/jax-lht-slim-jeans-brindle-ss26",
+   "hp": "Jax LHT Slim Jeans / Brindle",
+   "hu": "https://www.jlindebergusa.com/products/jax-lht-slim-jeans-brindle-ss26",
+   "b": "single"
   },
-  "prices": [[60, 130], [90, 180], [215, 215], [215, 215], [130, 230], [155, 325], [175, 830], [180, 265]],
-  "notes": {
-    "scandi": "Swedish by origin, but the register it trades in is golf rather than Nordic minimalism — a passport without the accent",
-    "golf": "the tour was the launch strategy, and the pro shop is still the native channel",
-    "ski": "a real winter line beside the golf book rather than a capsule",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 2; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "synth": "Golf and ski ranges in technical synthetics throughout; natural fibers are the exception.",
-    "craft": "J.Lindeberg's own 2025 sustainability report calls it a finished-goods retailer without manufacturing operations, and it names no suppliers or mills. Product data on jlindebergusa.com gives no country of make. The only checkable claim is the 1996 Stockholm founding."
+  "Dress pants": {
+   "lp": "Mitch Pant Light Poly / JL Navy",
+   "lu": "https://www.jlindebergusa.com/products/mitch-pant-light-poly-jl-navy",
+   "hp": "Ellott Fleece Twill Pant / JL Navy",
+   "hu": "https://www.jlindebergusa.com/products/ellott-fleece-twill-pant-jl-navy",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 0,
-    "cities": [],
-    "basis": "positive zero 2026-09-23"
+  "Sweater": {
+   "lp": "Henry Knitted Sweater / Black",
+   "lu": "https://www.jlindebergusa.com/products/henry-knitted-sweater-black-fw26",
+   "hp": "Savio Cable Knit Hoodie / Winetasting",
+   "hu": "https://www.jlindebergusa.com/products/savio-cable-knit-hoodie-winetasting",
+   "b": "range"
   },
-  "cities": "No store of its own in the US · department stores and independent menswear shops, and its own site",
-  "site": {
-    "domain": "www.jlindebergusa.com",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 14757,
-    "status": "live_store",
-    "checked": "2026-09-21"
+  "Outerwear": {
+   "lp": "Ash Light Packable Jacket / White",
+   "lu": "https://www.jlindebergusa.com/products/ash-light-packable-jacket-white-ss26",
+   "hp": "Alon Down Parka / Black",
+   "hu": "https://www.jlindebergusa.com/products/alon-down-parka-black-fw26",
+   "b": "range"
   },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "both",
-    "marks": [
-      "PrimaLoft Silver",
-      "Polartec Power Stretch",
-      "Schoeller",
-      "Coolmax",
-      "Thermore",
-      "Solarcore",
-      "Lycra",
-      "TENCEL",
-      "TX Jersey (house)",
-      "VX RE:SKI (house)"
-    ],
-    "source": "census",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 1467,
-    "w": 1462,
-    "n": 34,
-    "s": 59,
-    "c": 7,
-    "x": 33,
-    "xh": 22,
-    "sp": "split",
-    "sc": ["Jersey Tops & Polos", "Pants", "Outerwear", "Sweats & Hoodies"],
-    "nc": ["Knitwear", "Shirts", "Tailoring"],
-    "st": "complete"
-  },
-  "shop": "https://www.jlindebergusa.com/search?q=",
-  "price_range_only": ["T-shirt", "Polo", "Dress pants", "Sweater", "Outerwear", "Shoes"],
-  "garment_links": {
-    "T-shirt": "https://www.jlindebergusa.com/collections/mens-fashion-tops-1",
-    "Polo": "https://www.jlindebergusa.com/collections/mens-golf-polos-tops",
-    "Dress shirt": "https://www.jlindebergusa.com/collections/mens-fashion-shirts-1",
-    "Jeans": "https://www.jlindebergusa.com/collections/mens-fashion-jeans-1",
-    "Dress pants": "https://www.jlindebergusa.com/collections/mens-fashion-pants-1",
-    "Sweater": "https://www.jlindebergusa.com/collections/mens-fashion-sweaters",
-    "Outerwear": "https://www.jlindebergusa.com/collections/mens-fashion-outerwear-1"
-  },
-  "price_checked": true,
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Alpha T-shirt / JL Navy",
-      "lu": "https://www.jlindebergusa.com/products/alpha-t-shirt-jl-navy-ss26",
-      "hp": "Hale Heavy Logo T-shirt / Black",
-      "hu": "https://www.jlindebergusa.com/products/hale-heavy-logo-t-shirt-black-ss26",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Bridge Polo / Subtle Green",
-      "lu": "https://www.jlindebergusa.com/products/bridge-polo-subtle-green",
-      "hp": "Bergman Jacquard Oversize Polo / Garrett Polo Stripe Navy",
-      "hu": "https://www.jlindebergusa.com/products/bergman-jacquard-oversize-polo-garrett-polo-stripe-navy",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Coen Mouline Structure Shirt / Winetasting",
-      "lu": "https://www.jlindebergusa.com/products/coen-mouline-structure-shirt-winetasting",
-      "hp": "Coen Mouline Structure Shirt / Winetasting",
-      "hu": "https://www.jlindebergusa.com/products/coen-mouline-structure-shirt-winetasting",
-      "b": "single"
-    },
-    "Jeans": {
-      "lp": "Jax LHT Slim Jeans / Brindle",
-      "lu": "https://www.jlindebergusa.com/products/jax-lht-slim-jeans-brindle-ss26",
-      "hp": "Jax LHT Slim Jeans / Brindle",
-      "hu": "https://www.jlindebergusa.com/products/jax-lht-slim-jeans-brindle-ss26",
-      "b": "single"
-    },
-    "Dress pants": {
-      "lp": "Mitch Pant Light Poly / JL Navy",
-      "lu": "https://www.jlindebergusa.com/products/mitch-pant-light-poly-jl-navy",
-      "hp": "Ellott Fleece Twill Pant / JL Navy",
-      "hu": "https://www.jlindebergusa.com/products/ellott-fleece-twill-pant-jl-navy",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Henry Knitted Sweater / Black",
-      "lu": "https://www.jlindebergusa.com/products/henry-knitted-sweater-black-fw26",
-      "hp": "Savio Cable Knit Hoodie / Winetasting",
-      "hu": "https://www.jlindebergusa.com/products/savio-cable-knit-hoodie-winetasting",
-      "b": "range"
-    },
-    "Outerwear": {
-      "lp": "Ash Light Packable Jacket / White",
-      "lu": "https://www.jlindebergusa.com/products/ash-light-packable-jacket-white-ss26",
-      "hp": "Alon Down Parka / Black",
-      "hu": "https://www.jlindebergusa.com/products/alon-down-parka-black-fw26",
-      "b": "range"
-    },
-    "Shoes": {
-      "lp": "Bridge Golf Sneaker / White",
-      "lu": "https://www.jlindebergusa.com/products/bridge-golf-sneaker-white",
-      "hp": "Vent 500 SE Golf Sneaker / Black",
-      "hu": "https://www.jlindebergusa.com/products/vent-500-se-golf-sneaker-black",
-      "b": "range"
-    }
-  },
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.jlindebergusa.com/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "Golf (the brand's golf line, sold under J.Lindeberg in the same store)"
-  },
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=176096",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "season": {
-    "l": "FW2026 / Fall/Winter 2026 (FW26)",
-    "t": "collection page",
-    "u": "https://www.jlindebergusa.com/collections/fw2026",
-    "m": "yes"
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "The brand's Sustainability Report 2025 describes J.Lindeberg as a finished-goods retailer without manufacturing operations; no owned factory is named anywhere on the site.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "none",
-    "countries": "None stated: 0 of 20 products in the jlindebergusa.com products.json (outerwear, polos, knit hats, shoes, bags) give a country or 'Imported'. 1 PDP (Harold Padded Jacket) was read and shows no origin, but it has collapsed tabs the fetch may not have seen.",
-    "heritage": "dated and placed",
-    "repair": "no",
-    "process": "no",
-    "urls": [
-      "https://cdn.shopify.com/s/files/1/0674/3336/5782/files/Sustainability_Report_2025_1.pdf?v=1786356131",
-      "https://www.jlindebergusa.com/pages/about-us"
-    ],
-    "conf": "high",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Bridge Golf Sneaker / White",
+   "lu": "https://www.jlindebergusa.com/products/bridge-golf-sneaker-white",
+   "hp": "Vent 500 SE Golf Sneaker / Black",
+   "hu": "https://www.jlindebergusa.com/products/vent-500-se-golf-sneaker-black",
+   "b": "range"
   }
+ },
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.jlindebergusa.com/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "Golf (the brand's golf line, sold under J.Lindeberg in the same store)"
+ },
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=176096",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "season": {
+  "l": "FW2026 / Fall/Winter 2026 (FW26)",
+  "t": "collection page",
+  "u": "https://www.jlindebergusa.com/collections/fw2026",
+  "m": "yes"
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "The brand's Sustainability Report 2025 describes J.Lindeberg as a finished-goods retailer without manufacturing operations; no owned factory is named anywhere on the site.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "none",
+  "countries": "None stated: 0 of 20 products in the jlindebergusa.com products.json (outerwear, polos, knit hats, shoes, bags) give a country or 'Imported'. 1 PDP (Harold Padded Jacket) was read and shows no origin, but it has collapsed tabs the fetch may not have seen.",
+  "heritage": "dated and placed",
+  "repair": "no",
+  "process": "no",
+  "urls": [
+   "https://cdn.shopify.com/s/files/1/0674/3336/5782/files/Sustainability_Report_2025_1.pdf?v=1786356131",
+   "https://www.jlindebergusa.com/pages/about-us"
+  ],
+  "conf": "high",
+  "read": "2026-10-03"
+ }
 }

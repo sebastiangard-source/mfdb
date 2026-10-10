@@ -1,217 +1,277 @@
 {
-  "name": "Merz b. Schwanen",
-  "band": "accessible",
-  "seat": 103,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 4,
-    "craft": 4,
-    "style": 2
+ "name": "Merz b. Schwanen",
+ "band": "accessible",
+ "seat": 103,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 4,
+  "craft": 4,
+  "style": 2
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 2,
+  "cotton": 5,
+  "wool": 2,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 4,
+  "forg": 2,
+  "fuss": 0,
+  "status": 2,
+  "ital": 0,
+  "street": 1,
+  "avant": 0,
+  "whitet": 5,
+  "logo": 1,
+  "western": 1,
+  "rock": 1,
+  "workwear": 3,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Tees, henleys and sweatshirts knitted on original loopwheel machines in Albstadt, Germany.",
+ "origin": "Founded in 1911 by Balthasar Merz; revived in 2011 by Gitta and Peter Plotnicki, who restored the machines.",
+ "chan": [
+  "O",
+  "I",
+  "X"
+ ],
+ "conf": "L",
+ "forgc": [
+  2,
+  3,
+  1
+ ],
+ "onething": {
+  "p": "The 215 loopwheeled T-shirt",
+  "u": "https://www.merzbschwanen.com/collections/made-in-germany",
+  "n": "verified — 100% organic cotton, 2-thread loopwheeled jersey at 245g, made in Albstadt, $120. The house has no 215-only collection, so the ORIGINALS page is linked; the 215 sits first on it"
+ },
+ "prices": [
+  [
+   70,
+   175
+  ],
+  [
+   120,
+   165
+  ],
+  [
+   190,
+   260
+  ],
+  null,
+  [
+   225,
+   310
+  ],
+  [
+   150,
+   325
+  ],
+  [
+   265,
+   495
+  ],
+  null
+ ],
+ "notes": {
+  "cotton": "100 of 119 clothing styles are mainly cotton, and every German-made piece is jersey or fleece knit on loopwheelers or 1960s machines",
+  "craft": "Merz b. Schwanen runs its own loopwheeler floor in Albstadt (130 m², machines from 1889 to the 1960s) and its Originals and 2M15 pages say they are knitted there. But its about page says it has worked with a family-run Portuguese manufacturer since 2016, and sampled tees and thermals say 'Made in Portugal'. Owned making covers a core line, not the whole range: a 4.",
+  "tech": "nothing licensed and no elastane in any clothing style. The only stretch in the range is a swim lining and one sock",
+  "briish": "German end to end on the ORIGINALS side; the rest is made in Portugal",
+  "dur": "the German line is 2-thread and 2-thread heavy loopwheeled jersey at up to 245g, which is roughly double a standard tee",
+  "whitet": "Loopwheeled tees are the whole business.",
+  "reach": "[authored findability score was 3; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+ },
+ "fibre": {
+  "t": 119,
+  "w": 117,
+  "n": 97,
+  "s": 1,
+  "c": 0,
+  "x": null,
+  "xh": null,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "T-shirts and tanks",
+   "Henleys",
+   "Sweatshirts and hoodies"
+  ],
+  "st": "complete"
+ },
+ "doors": {
+  "c": "full",
+  "n": 2,
+  "cities": [
+   [
+    "New York",
+    "NY",
+    1
+   ],
+   [
+    "Venice",
+    "CA",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 0,
+  "con": 0
+ },
+ "cities": "2 stores — New York, Venice · independent menswear shops, and its own site",
+ "region": {
+  "o": [
+   2619
+  ],
+  "s": [
+   100,
+   101,
+   102,
+   103,
+   104,
+   105,
+   106,
+   107,
+   108,
+   109,
+   110,
+   111,
+   112,
+   113,
+   114,
+   115,
+   119,
+   120,
+   127,
+   132,
+   150
+  ]
+ },
+ "site": {
+  "domain": "www.merzbschwanen.com",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 657,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "house",
+  "marks": [
+   "A complete HOUSE fabric-naming system, stated on a dedicated /pages/fabrics page and carried onto the PDPs, with NOT ONE (R) or (TM) glyph anywhere. Made-in-Germany originals, each named with a weight: 'Cotton 1-Thread' (100% organic cotton, 4.6oz/sq.yd, 155g/sqm, loopwheeled, no side seams), 'Cotto"
+  ],
+  "source": "census_204",
+  "checked": "2026-09-12"
+ },
+ "shop": "https://www.merzbschwanen.com/search?q=",
+ "garment_links": {
+  "T-shirt": "https://www.merzbschwanen.com/collections/mens-t-shirts",
+  "Polo": "https://www.merzbschwanen.com/collections/mens-polo-shirts",
+  "Dress pants": "https://www.merzbschwanen.com/collections/mens-pants",
+  "Sweater": "https://www.merzbschwanen.com/collections/mens-knitwear-1",
+  "Outerwear": "https://www.merzbschwanen.com/collections/mens-jackets"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Vintage Pima Cotton T-Shirt",
+   "lu": "https://www.merzbschwanen.com/products/vintage-pima-cotton-t-shirt",
+   "hp": "2S14 Loopwheeled Relaxed Fit Heavyweight T-Shirt",
+   "hu": "https://www.merzbschwanen.com/products/2s14-loopwheeled-relaxed-fit-heavyweight-t-shirt-2",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 1,
-    "linen": 2,
-    "cotton": 5,
-    "wool": 2,
-    "synth": 1
+  "Polo": {
+   "lp": "Classic Cotton Jersey Short Sleeve Polo Shirt",
+   "lu": "https://www.merzbschwanen.com/products/classic-cotton-jersey-short-sleeve-polo-shirt-1",
+   "hp": "2PKPL Loopwheeled Relaxed Fit Pikée Short Sleeve Polo Shirt",
+   "hu": "https://www.merzbschwanen.com/products/mens-polo-shirt-with-pocket-7-2oz-sq-yd-relaxed-fit",
+   "b": "range"
   },
-  "dials": {
-    "dur": 4,
-    "forg": 2,
-    "fuss": 0,
-    "status": 2,
-    "ital": 0,
-    "street": 1,
-    "avant": 0,
-    "whitet": 5,
-    "logo": 1,
-    "western": 1,
-    "rock": 1,
-    "workwear": 3,
-    "outdoor": 1,
-    "surf": 1
+  "Dress shirt": {
+   "lp": "Button-Down Cotton Oxford Long Sleeve Shirt",
+   "lu": "https://www.merzbschwanen.com/products/button-down-cotton-oxford-long-sleeve-shirt",
+   "hp": "Merino Wool-Cashmere-Silk Long Sleeve Shirt",
+   "hu": "https://www.merzbschwanen.com/products/merino-wool-cashmere-silk-long-sleeve-shirt-1",
+   "b": "range"
   },
-  "why": "Tees, henleys and sweatshirts knitted on original loopwheel machines in Albstadt, Germany.",
-  "origin": "Founded in 1911 by Balthasar Merz; revived in 2011 by Gitta and Peter Plotnicki, who restored the machines.",
-  "chan": ["O", "I", "X"],
-  "conf": "L",
-  "forgc": [2, 3, 1],
-  "onething": {
-    "p": "The 215 loopwheeled T-shirt",
-    "u": "https://www.merzbschwanen.com/collections/made-in-germany",
-    "n": "verified — 100% organic cotton, 2-thread loopwheeled jersey at 245g, made in Albstadt, $120. The house has no 215-only collection, so the ORIGINALS page is linked; the 215 sits first on it"
+  "Dress pants": {
+   "lp": "Pleated Twill Pants",
+   "lu": "https://www.merzbschwanen.com/products/pleated-twill-pants",
+   "hp": "1920s Cotton Twill Worker Chino",
+   "hu": "https://www.merzbschwanen.com/products/chino-organic-cotton-twill-8-8oz-sq-yd-relaxed-fit",
+   "b": "range"
   },
-  "prices": [[70, 175], [120, 165], [190, 260], null, [225, 310], [150, 325], [265, 495], null],
-  "notes": {
-    "cotton": "100 of 119 clothing styles are mainly cotton, and every German-made piece is jersey or fleece knit on loopwheelers or 1960s machines",
-    "craft": "Merz b. Schwanen runs its own loopwheeler floor in Albstadt (130 m², machines from 1889 to the 1960s) and its Originals and 2M15 pages say they are knitted there. But its about page says it has worked with a family-run Portuguese manufacturer since 2016, and sampled tees and thermals say 'Made in Portugal'. Owned making covers a core line, not the whole range: a 4.",
-    "tech": "nothing licensed and no elastane in any clothing style. The only stretch in the range is a swim lining and one sock",
-    "briish": "German end to end on the ORIGINALS side; the rest is made in Portugal",
-    "dur": "the German line is 2-thread and 2-thread heavy loopwheeled jersey at up to 245g, which is roughly double a standard tee",
-    "whitet": "Loopwheeled tees are the whole business.",
-    "reach": "[authored findability score was 3; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+  "Sweater": {
+   "lp": "Lightweight Waffle Knit Sweater",
+   "lu": "https://www.merzbschwanen.com/products/lightweight-waffle-knit-sweater-1",
+   "hp": "Sturdy Ribbed Merino Wool-Cashmere Cardigan",
+   "hu": "https://www.merzbschwanen.com/products/sturdy-ribbed-merino-wool-cashmere-cardigan",
+   "b": "range"
   },
-  "fibre": {
-    "t": 119,
-    "w": 117,
-    "n": 97,
-    "s": 1,
-    "c": 0,
-    "x": null,
-    "xh": null,
-    "sp": "one",
-    "sc": [],
-    "nc": ["T-shirts and tanks", "Henleys", "Sweatshirts and hoodies"],
-    "st": "complete"
-  },
-  "doors": {
-    "c": "full",
-    "n": 2,
-    "cities": [["New York", "NY", 1], ["Venice", "CA", 1]],
-    "basis": "master 2026-08-29, pre-recapture",
-    "addressed": 1
-  },
-  "cities": "2 stores — New York, Venice · independent menswear shops, and its own site",
-  "region": {
-    "o": [3120],
-    "s": [
-      100,
-      101,
-      102,
-      103,
-      104,
-      105,
-      106,
-      107,
-      108,
-      109,
-      110,
-      111,
-      112,
-      113,
-      114,
-      115,
-      119,
-      120,
-      127,
-      132,
-      150
-    ]
-  },
-  "site": {
-    "domain": "www.merzbschwanen.com",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 657,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "house",
-    "marks": [
-      "A complete HOUSE fabric-naming system, stated on a dedicated /pages/fabrics page and carried onto the PDPs, with NOT ONE (R) or (TM) glyph anywhere. Made-in-Germany originals, each named with a weight: 'Cotton 1-Thread' (100% organic cotton, 4.6oz/sq.yd, 155g/sqm, loopwheeled, no side seams), 'Cotto"
-    ],
-    "source": "census_204",
-    "checked": "2026-09-12"
-  },
-  "shop": "https://www.merzbschwanen.com/search?q=",
-  "garment_links": {
-    "T-shirt": "https://www.merzbschwanen.com/collections/mens-t-shirts",
-    "Polo": "https://www.merzbschwanen.com/collections/mens-polo-shirts",
-    "Dress pants": "https://www.merzbschwanen.com/collections/mens-pants",
-    "Sweater": "https://www.merzbschwanen.com/collections/mens-knitwear-1",
-    "Outerwear": "https://www.merzbschwanen.com/collections/mens-jackets"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Vintage Pima Cotton T-Shirt",
-      "lu": "https://www.merzbschwanen.com/products/vintage-pima-cotton-t-shirt",
-      "hp": "2S14 Loopwheeled Relaxed Fit Heavyweight T-Shirt",
-      "hu": "https://www.merzbschwanen.com/products/2s14-loopwheeled-relaxed-fit-heavyweight-t-shirt-2",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Classic Cotton Jersey Short Sleeve Polo Shirt",
-      "lu": "https://www.merzbschwanen.com/products/classic-cotton-jersey-short-sleeve-polo-shirt-1",
-      "hp": "2PKPL Loopwheeled Relaxed Fit Pikée Short Sleeve Polo Shirt",
-      "hu": "https://www.merzbschwanen.com/products/mens-polo-shirt-with-pocket-7-2oz-sq-yd-relaxed-fit",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Button-Down Cotton Oxford Long Sleeve Shirt",
-      "lu": "https://www.merzbschwanen.com/products/button-down-cotton-oxford-long-sleeve-shirt",
-      "hp": "Merino Wool-Cashmere-Silk Long Sleeve Shirt",
-      "hu": "https://www.merzbschwanen.com/products/merino-wool-cashmere-silk-long-sleeve-shirt-1",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Pleated Twill Pants",
-      "lu": "https://www.merzbschwanen.com/products/pleated-twill-pants",
-      "hp": "1920s Cotton Twill Worker Chino",
-      "hu": "https://www.merzbschwanen.com/products/chino-organic-cotton-twill-8-8oz-sq-yd-relaxed-fit",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Lightweight Waffle Knit Sweater",
-      "lu": "https://www.merzbschwanen.com/products/lightweight-waffle-knit-sweater-1",
-      "hp": "Sturdy Ribbed Merino Wool-Cashmere Cardigan",
-      "hu": "https://www.merzbschwanen.com/products/sturdy-ribbed-merino-wool-cashmere-cardigan",
-      "b": "range"
-    },
-    "Outerwear": {
-      "lp": "Cropped Worker's Cotton Twill Jacket",
-      "lu": "https://www.merzbschwanen.com/products/jacket-organic-cotton-broken-twill-11-2oz-sq-yd-cropped-fit",
-      "hp": "Traditionally Woven Burel Wool Worker's Jacket",
-      "hu": "https://www.merzbschwanen.com/products/tradiotionally-woven-burel-wool-worker-jacket",
-      "b": "range"
-    }
-  },
-  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Dress pants", "Sweater", "Outerwear"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.merzbschwanen.com/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=345609",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "season": {
-    "l": "Autumn/Winter 2026",
-    "t": "lookbook",
-    "u": "https://www.merzbschwanen.com/pages/lookbook-autumn-winter-2026",
-    "m": "yes"
-  },
-  "craft_evidence": {
-    "owned": "yes",
-    "owned_d": "Brand's 'Originals – Made in Germany' page: 'Still running in our German production site in Albstadt'; loopwheelers 'some over 100 years old … The newest machine was built in the 1960s, the oldest in 1889'; 'The machines live on a 130-square-metre floor'; founders restored the machines in 2011. Covers the ORIGINALS loopwheeled line and the 2M15 mid-century-machine jersey only. Other lines (TEE02, TEE03, thermals, tanks) come from 'a family-run manufacturer in Portugal' (partner since 2016, unnamed).",
-    "makers": "some",
-    "mills": "no",
-    "madein": "most",
-    "countries": "Rendered PDPs 4/4 state country: Germany 2/4 (215 loopwheeled tee, 2M15 tee), Portugal 2/4 (TEE02 tee, thermal henley). Product feed (21 records) carries no origin in description text, so origin lives in a separate PDP section; small sample, share of Germany vs Portugal across the full range unknown.",
-    "heritage": "dated and placed",
-    "repair": "no",
-    "process": "yes",
-    "urls": [
-      "https://www.merzbschwanen.com/pages/the-originals-made-in-germany",
-      "https://www.merzbschwanen.com/products/diamond-patterned-cotton-thermal-henley"
-    ],
-    "conf": "high",
-    "read": "2026-10-03"
+  "Outerwear": {
+   "lp": "Cropped Worker's Cotton Twill Jacket",
+   "lu": "https://www.merzbschwanen.com/products/jacket-organic-cotton-broken-twill-11-2oz-sq-yd-cropped-fit",
+   "hp": "Traditionally Woven Burel Wool Worker's Jacket",
+   "hu": "https://www.merzbschwanen.com/products/tradiotionally-woven-burel-wool-worker-jacket",
+   "b": "range"
   }
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Dress pants",
+  "Sweater",
+  "Outerwear"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.merzbschwanen.com/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=345609",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "season": {
+  "l": "Autumn/Winter 2026",
+  "t": "lookbook",
+  "u": "https://www.merzbschwanen.com/pages/lookbook-autumn-winter-2026",
+  "m": "yes"
+ },
+ "craft_evidence": {
+  "owned": "yes",
+  "owned_d": "Brand's 'Originals – Made in Germany' page: 'Still running in our German production site in Albstadt'; loopwheelers 'some over 100 years old … The newest machine was built in the 1960s, the oldest in 1889'; 'The machines live on a 130-square-metre floor'; founders restored the machines in 2011. Covers the ORIGINALS loopwheeled line and the 2M15 mid-century-machine jersey only. Other lines (TEE02, TEE03, thermals, tanks) come from 'a family-run manufacturer in Portugal' (partner since 2016, unnamed).",
+  "makers": "some",
+  "mills": "no",
+  "madein": "most",
+  "countries": "Rendered PDPs 4/4 state country: Germany 2/4 (215 loopwheeled tee, 2M15 tee), Portugal 2/4 (TEE02 tee, thermal henley). Product feed (21 records) carries no origin in description text, so origin lives in a separate PDP section; small sample, share of Germany vs Portugal across the full range unknown.",
+  "heritage": "dated and placed",
+  "repair": "no",
+  "process": "yes",
+  "urls": [
+   "https://www.merzbschwanen.com/pages/the-originals-made-in-germany",
+   "https://www.merzbschwanen.com/products/diamond-patterned-cotton-thermal-henley"
+  ],
+  "conf": "high",
+  "read": "2026-10-03"
+ }
 }

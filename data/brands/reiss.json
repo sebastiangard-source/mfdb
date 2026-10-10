@@ -1,212 +1,291 @@
 {
-  "name": "Reiss",
-  "band": "accessible",
-  "seat": 105,
-  "dagger": 0,
-  "focus": {
-    "tech": 1,
-    "comfort": 2,
-    "craft": 2,
-    "style": 4
-  },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 2,
-    "linen": 2,
-    "cotton": 2,
-    "wool": 3,
-    "synth": 1
-  },
-  "dials": {
-    "dur": 3,
-    "forg": 2,
-    "fuss": 1,
-    "golffice": -2,
-    "finbro": 3,
-    "prep": 2,
-    "racquet": 2,
-    "briish": 3,
-    "whitet": 2,
-    "logo": 1,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
-  },
-  "why": "British tailoring and casual clothing at prices above the high street, sold through its own stores and department stores.",
-  "origin": "Founded in London in 1971 by David Reiss.",
-  "say": "REESS",
-  "chan": ["O", "D"],
-  "conf": "L",
-  "forgc": [2, 3, 1],
-  "shop": "https://www.reiss.com/us/en/search?q=",
-  "onething": {
-    "p": "Merino polo",
-    "u": "https://www.reiss.com/us/en/search?q=Merino%20polo%20men",
-    "n": "Use this: https://www.reiss.com/us/en/search?w=merino%20polo"
-  },
-  "prices": [
-    [48, 138, "USD_landed"],
-    [125, 230, "USD_landed"],
-    [138, 398, "USD_landed"],
-    [175, 265, "USD_landed"],
-    [195, 460, "USD_landed"],
-    [175, 440, "USD_landed"],
-    [298, 698, "USD_landed"],
-    [298, 355, "USD_landed"]
+ "name": "Reiss",
+ "band": "accessible",
+ "seat": 105,
+ "dagger": 0,
+ "focus": {
+  "tech": 1,
+  "comfort": 2,
+  "craft": 2,
+  "style": 4
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 2,
+  "linen": 2,
+  "cotton": 2,
+  "wool": 3,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 2,
+  "fuss": 1,
+  "golffice": -2,
+  "finbro": 3,
+  "prep": 2,
+  "racquet": 2,
+  "briish": 3,
+  "whitet": 2,
+  "logo": 1,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "British tailoring and casual clothing at prices above the high street, sold through its own stores and department stores.",
+ "origin": "Founded in London in 1971 by David Reiss.",
+ "say": "REESS",
+ "chan": [
+  "O",
+  "D"
+ ],
+ "conf": "L",
+ "forgc": [
+  2,
+  3,
+  1
+ ],
+ "shop": "https://www.reiss.com/us/en/search?q=",
+ "onething": {
+  "p": "Merino polo",
+  "u": "https://www.reiss.com/us/en/search?q=Merino%20polo%20men",
+  "n": "Use this: https://www.reiss.com/us/en/search?w=merino%20polo"
+ },
+ "prices": [
+  [
+   48,
+   138,
+   "USD_landed"
   ],
-  "doors": {
-    "c": "full",
-    "n": 4,
-    "cities": [["Los Angeles", "CA", 1], ["Miami", "FL", 1], ["New York", "NY", 2]],
-    "basis": "master 2026-08-29, pre-recapture"
+  [
+   125,
+   230,
+   "USD_landed"
+  ],
+  [
+   138,
+   398,
+   "USD_landed"
+  ],
+  [
+   175,
+   265,
+   "USD_landed"
+  ],
+  [
+   195,
+   460,
+   "USD_landed"
+  ],
+  [
+   175,
+   440,
+   "USD_landed"
+  ],
+  [
+   298,
+   698,
+   "USD_landed"
+  ],
+  [
+   298,
+   355,
+   "USD_landed"
+  ]
+ ],
+ "doors": {
+  "c": "full",
+  "n": 4,
+  "cities": [
+   [
+    "Los Angeles",
+    "CA",
+    1
+   ],
+   [
+    "Miami",
+    "FL",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    2
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 2,
+  "con": 0
+ },
+ "cities": "4 stores — New York, Los Angeles, Miami · department stores, and its own site",
+ "addmen": true,
+ "site": {
+  "domain": "reiss.com",
+  "platform": "custom",
+  "feed": "sitemap_products",
+  "feed_count": 5591,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "both",
+  "marks": [
+   "HOUSE: Air-Water finish. LICENSED: TENCEL(tm). Generic/unbranded: technical fabric, water-repellent, elastane"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 1431,
+  "w": 1431,
+  "n": 66,
+  "s": 27,
+  "c": 7,
+  "x": 33,
+  "xh": 12,
+  "sp": "one",
+  "sc": [
+   "Swimwear"
+  ],
+  "nc": [
+   "Shirts",
+   "Jackets",
+   "Suiting"
+  ],
+  "st": "complete"
+ },
+ "garment_links": {
+  "T-shirt": "https://www.reiss.com/us/en/shop/gender-men-productaffiliation-topssweats/category-tshirts",
+  "Polo": "https://www.reiss.com/us/en/shop/gender-men-productaffiliation-topssweats/category-poloshirts",
+  "Dress shirt": "https://www.reiss.com/us/en/shop/gender-men-category-shirts/use-formal",
+  "Jeans": "https://www.reiss.com/us/en/shop/gender-men-category-jeans-0",
+  "Dress pants": "https://www.reiss.com/us/en/shop/gender-men-productaffiliation-suitsandtailoring/category-suittrousers",
+  "Sweater": "https://www.reiss.com/us/en/shop/gender-men-productaffiliation-knitwear",
+  "Outerwear": "https://www.reiss.com/us/en/shop/gender-men-productaffiliation-coatsandjackets-0",
+  "Shoes": "https://www.reiss.com/us/en/shop/gender-men-productaffiliation-footwear-0"
+ },
+ "notes": {
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 3; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "Reiss clothing pages give composition but no country of make, no mill and no factory; only some footwear says 'handmade in Italy'. Its sustainability pages say tier-1 factories are published on Open Supply Hub and audited under the Next plc code. That checkable list, with no owned making, holds a 2."
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Cotton-Blend Tailored-Fit T-Shirt",
+   "lu": "https://www.reiss.com/us/en/style/su044728/d50927",
+   "hp": "Sueded Interlock Jersey Relaxed-Fit T-Shirt",
+   "hu": "https://www.reiss.com/us/en/style/sv164020/d35822",
+   "b": "range"
   },
-  "cities": "4 stores — New York, Los Angeles, Miami · department stores, and its own site",
-  "addmen": true,
-  "site": {
-    "domain": "reiss.com",
-    "platform": "custom",
-    "feed": "sitemap_products",
-    "feed_count": 5591,
-    "status": "live_store",
-    "checked": "2026-09-13"
+  "Polo": {
+   "lp": "Air-Water Cotton Polo Shirt",
+   "lu": "https://www.reiss.com/us/en/style/su777336/an4963",
+   "hp": "Rib-Knit Open-Collar Polo Shirt",
+   "hu": "https://www.reiss.com/us/en/style/sv089072/g31374",
+   "b": "range"
   },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "both",
-    "marks": [
-      "HOUSE: Air-Water finish. LICENSED: TENCEL(tm). Generic/unbranded: technical fabric, water-repellent, elastane"
-    ],
-    "source": "census",
-    "checked": "2026-09-12"
+  "Dress shirt": {
+   "lp": "Slim Fit Cotton-Satin Cutaway-Collar Shirt",
+   "lu": "https://www.reiss.com/us/en/style/su615998/f78991",
+   "hp": "Atelier Wool Long-Sleeve Slim-Fit Shirt (Duke, 100% virgin wool by Reda)",
+   "hu": "https://www.reiss.com/us/en/style/sv110933/g41083",
+   "b": "range"
   },
-  "fibre": {
-    "t": 1431,
-    "w": 1431,
-    "n": 66,
-    "s": 27,
-    "c": 7,
-    "x": 33,
-    "xh": 12,
-    "sp": "one",
-    "sc": ["Swimwear"],
-    "nc": ["Shirts", "Jackets", "Suiting"],
-    "st": "complete"
+  "Jeans": {
+   "lp": "Cotton-Blend Slim-Fit Jeans",
+   "lu": "https://www.reiss.com/us/en/style/su424140/au6761",
+   "hp": "Relaxed Straight-Leg Jeans",
+   "hu": "https://www.reiss.com/us/en/style/sv204989/r19173",
+   "b": "range"
   },
-  "garment_links": {
-    "T-shirt": "https://www.reiss.com/us/en/shop/gender-men-productaffiliation-topssweats/category-tshirts",
-    "Polo": "https://www.reiss.com/us/en/shop/gender-men-productaffiliation-topssweats/category-poloshirts",
-    "Dress shirt": "https://www.reiss.com/us/en/shop/gender-men-category-shirts/use-formal",
-    "Jeans": "https://www.reiss.com/us/en/shop/gender-men-category-jeans-0",
-    "Dress pants": "https://www.reiss.com/us/en/shop/gender-men-productaffiliation-suitsandtailoring/category-suittrousers",
-    "Sweater": "https://www.reiss.com/us/en/shop/gender-men-productaffiliation-knitwear",
-    "Outerwear": "https://www.reiss.com/us/en/shop/gender-men-productaffiliation-coatsandjackets-0",
-    "Shoes": "https://www.reiss.com/us/en/shop/gender-men-productaffiliation-footwear-0"
+  "Dress pants": {
+   "lp": "Garment-Dyed Piqué Suit Trousers Tailored-Fit",
+   "lu": "https://www.reiss.com/us/en/style/sv063377/y52007",
+   "hp": "Atelier Wool Pinstripe Suit Trousers Tailored-Fit",
+   "hu": "https://www.reiss.com/us/en/style/su846448/h98110",
+   "b": "range"
   },
-  "notes": {
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 3; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Reiss clothing pages give composition but no country of make, no mill and no factory; only some footwear says 'handmade in Italy'. Its sustainability pages say tier-1 factories are published on Open Supply Hub and audited under the Next plc code. That checkable list, with no owned making, holds a 2."
+  "Sweater": {
+   "lp": "Merino Wool Crew-Neck Jumper",
+   "lu": "https://www.reiss.com/us/en/style/sv076125/t44994",
+   "hp": "100% Cashmere Cable Knit-Detail Jumper (Rosedale, crew neck)",
+   "hu": "https://www.reiss.com/us/en/style/sv131266/v98836",
+   "b": "pair"
   },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Cotton-Blend Tailored-Fit T-Shirt",
-      "lu": "https://www.reiss.com/us/en/style/su044728/d50927",
-      "hp": "Sueded Interlock Jersey Relaxed-Fit T-Shirt",
-      "hu": "https://www.reiss.com/us/en/style/sv164020/d35822",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Air-Water Cotton Polo Shirt",
-      "lu": "https://www.reiss.com/us/en/style/su777336/an4963",
-      "hp": "Rib-Knit Open-Collar Polo Shirt",
-      "hu": "https://www.reiss.com/us/en/style/sv089072/g31374",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Slim Fit Cotton-Satin Cutaway-Collar Shirt",
-      "lu": "https://www.reiss.com/us/en/style/su615998/f78991",
-      "hp": "Atelier Wool Long-Sleeve Slim-Fit Shirt (Duke, 100% virgin wool by Reda)",
-      "hu": "https://www.reiss.com/us/en/style/sv110933/g41083",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Cotton-Blend Slim-Fit Jeans",
-      "lu": "https://www.reiss.com/us/en/style/su424140/au6761",
-      "hp": "Relaxed Straight-Leg Jeans",
-      "hu": "https://www.reiss.com/us/en/style/sv204989/r19173",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Garment-Dyed Piqué Suit Trousers Tailored-Fit",
-      "lu": "https://www.reiss.com/us/en/style/sv063377/y52007",
-      "hp": "Atelier Wool Pinstripe Suit Trousers Tailored-Fit",
-      "hu": "https://www.reiss.com/us/en/style/su846448/h98110",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Merino Wool Crew-Neck Jumper",
-      "lu": "https://www.reiss.com/us/en/style/sv076125/t44994",
-      "hp": "100% Cashmere Cable Knit-Detail Jumper (Rosedale, crew neck)",
-      "hu": "https://www.reiss.com/us/en/style/sv131266/v98836",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "Denim Trucker Jacket",
-      "lu": "https://www.reiss.com/us/en/style/sv156150/y93553",
-      "hp": "Suede Button-Through Trucker Jacket",
-      "hu": "https://www.reiss.com/us/en/style/sv263945/w49649",
-      "b": "pair"
-    },
-    "Shoes": {
-      "lp": "Leather Saddle Loafers",
-      "lu": "https://www.reiss.com/us/en/style/su948775/w08161",
-      "hp": "Leather Penny Loafers",
-      "hu": "https://www.reiss.com/us/en/style/sv143157/y84076",
-      "b": "pair"
-    }
+  "Outerwear": {
+   "lp": "Denim Trucker Jacket",
+   "lu": "https://www.reiss.com/us/en/style/sv156150/y93553",
+   "hp": "Suede Button-Through Trucker Jacket",
+   "hu": "https://www.reiss.com/us/en/style/sv263945/w49649",
+   "b": "pair"
   },
-  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.reiss.com/us/en/",
-    "currency": "USD_landed",
-    "status": "read",
-    "sublines": "Atelier"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=2579",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "season": {
-    "l": "Fall 26 Collection",
-    "t": "collection page",
-    "u": "https://www.reiss.com/us/en/shop/gender-men-promotion-reissautumncollection-0",
-    "m": "yes"
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "Our-story page says pieces are designed at Reiss's 'London atelier' (design studio, not a factory). Sustainability pages speak only of approved third-party factories audited under the Next plc Code of Practice (Next plc is the majority owner); no owned factory named.",
-    "makers": "some",
-    "mills": "no",
-    "madein": "some",
-    "countries": "Clothing PDPs: none stated 6/6 (2 shirts, 2 suit blazers, 2 knits) as fetched; possible collapsed tab. Footwear PDP (Unseen Spartan Tech Trainers) says 'handmade in Italy'. So country appears on some footwear only.",
-    "heritage": "dated and placed",
-    "repair": "yes",
-    "process": "no",
-    "urls": ["https://www.reiss.com/sustainability/social", "https://www.reiss.com/us/en/style/su670501/f77520"],
-    "conf": "medium",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Leather Saddle Loafers",
+   "lu": "https://www.reiss.com/us/en/style/su948775/w08161",
+   "hp": "Leather Penny Loafers",
+   "hu": "https://www.reiss.com/us/en/style/sv143157/y84076",
+   "b": "pair"
   }
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.reiss.com/us/en/",
+  "currency": "USD_landed",
+  "status": "read",
+  "sublines": "Atelier"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=2579",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "season": {
+  "l": "Fall 26 Collection",
+  "t": "collection page",
+  "u": "https://www.reiss.com/us/en/shop/gender-men-promotion-reissautumncollection-0",
+  "m": "yes"
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "Our-story page says pieces are designed at Reiss's 'London atelier' (design studio, not a factory). Sustainability pages speak only of approved third-party factories audited under the Next plc Code of Practice (Next plc is the majority owner); no owned factory named.",
+  "makers": "some",
+  "mills": "no",
+  "madein": "some",
+  "countries": "Clothing PDPs: none stated 6/6 (2 shirts, 2 suit blazers, 2 knits) as fetched; possible collapsed tab. Footwear PDP (Unseen Spartan Tech Trainers) says 'handmade in Italy'. So country appears on some footwear only.",
+  "heritage": "dated and placed",
+  "repair": "yes",
+  "process": "no",
+  "urls": [
+   "https://www.reiss.com/sustainability/social",
+   "https://www.reiss.com/us/en/style/su670501/f77520"
+  ],
+  "conf": "medium",
+  "read": "2026-10-03"
+ },
+ "region": {
+  "o": [
+   2969,
+   2970
+  ],
+  "s": []
+ }
 }

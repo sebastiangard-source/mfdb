@@ -117,11 +117,6 @@
     1
    ],
    [
-    "Beverly Hills",
-    "CA",
-    1
-   ],
-   [
     "Dallas",
     "TX",
     1
@@ -137,6 +132,11 @@
     1
    ],
    [
+    "Los Angeles",
+    "CA",
+    1
+   ],
+   [
     "New York",
     "NY",
     1
@@ -147,19 +147,21 @@
     1
    ]
   ],
-  "basis": "master 2026-08-29, pre-recapture"
+  "basis": "recapture 2026-10-10",
+  "out": 0,
+  "con": 0
  },
  "cities": "7 stores, including Bal Harbour, Beverly Hills, Dallas · department stores and independent menswear shops, and its own site",
  "region": {
   "o": [
-   528
+   759
   ],
   "s": [
    11,
    27,
    44,
    60,
-   3208
+   160
   ]
  },
  "site": {

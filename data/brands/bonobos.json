@@ -1,248 +1,468 @@
 {
-  "name": "Bonobos",
-  "band": "premium",
-  "seat": 15,
-  "dagger": 0,
-  "focus": {
-    "tech": 2,
-    "comfort": 3,
-    "craft": 2,
-    "style": 3
+ "name": "Bonobos",
+ "band": "premium",
+ "seat": 15,
+ "dagger": 0,
+ "focus": {
+  "tech": 2,
+  "comfort": 3,
+  "craft": 2,
+  "style": 3
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 1,
+  "linen": 2,
+  "cotton": 2,
+  "wool": 3,
+  "synth": 2
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 3,
+  "fuss": 1,
+  "golffice": 0,
+  "golf": 2,
+  "finbro": 2,
+  "ivy": 2,
+  "murica": 2,
+  "prep": 2,
+  "whitet": 2,
+  "logo": 1,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Chinos, dress pants and shirts in a range of fits, sold online and through showrooms that carry no stock.",
+ "origin": "Founded in 2007 by Andy Dunn and Brian Spaly with better-fitting pants; the showroom format followed.",
+ "chan": [
+  "O",
+  "D"
+ ],
+ "conf": "L",
+ "forgc": [
+  3,
+  4,
+  2
+ ],
+ "shop": "https://bonobos.com/search?q=",
+ "onething": {
+  "p": "The chino",
+  "u": "https://bonobos.com/search?q=chinos",
+  "n": "site search needs the plain word"
+ },
+ "prices": [
+  [
+   35,
+   89
+  ],
+  [
+   75,
+   129
+  ],
+  [
+   99,
+   189
+  ],
+  [
+   129,
+   229
+  ],
+  [
+   119,
+   400
+  ],
+  [
+   99,
+   189
+  ],
+  [
+   199,
+   699
+  ],
+  null
+ ],
+ "doors": {
+  "c": "full",
+  "n": 47,
+  "cities": [
+   [
+    "Alpharetta",
+    "GA",
+    1
+   ],
+   [
+    "Arlington",
+    "VA",
+    1
+   ],
+   [
+    "Atlanta",
+    "GA",
+    1
+   ],
+   [
+    "Austin",
+    "TX",
+    2
+   ],
+   [
+    "Baltimore",
+    "MD",
+    1
+   ],
+   [
+    "Bethesda",
+    "MD",
+    1
+   ],
+   [
+    "Boston",
+    "MA",
+    2
+   ],
+   [
+    "Boulder",
+    "CO",
+    1
+   ],
+   [
+    "Brooklyn",
+    "NY",
+    1
+   ],
+   [
+    "Charlotte",
+    "NC",
+    1
+   ],
+   [
+    "Chicago",
+    "IL",
+    3
+   ],
+   [
+    "Corte Madera",
+    "CA",
+    1
+   ],
+   [
+    "Dallas",
+    "TX",
+    1
+   ],
+   [
+    "Denver",
+    "CO",
+    1
+   ],
+   [
+    "Detroit",
+    "MI",
+    1
+   ],
+   [
+    "Greenwich",
+    "CT",
+    1
+   ],
+   [
+    "Hingham",
+    "MA",
+    1
+   ],
+   [
+    "Houston",
+    "TX",
+    1
+   ],
+   [
+    "Indianapolis",
+    "IN",
+    1
+   ],
+   [
+    "King of Prussia",
+    "PA",
+    1
+   ],
+   [
+    "Los Angeles",
+    "CA",
+    1
+   ],
+   [
+    "McLean",
+    "VA",
+    1
+   ],
+   [
+    "Minneapolis",
+    "MN",
+    1
+   ],
+   [
+    "Nashville",
+    "TN",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    3
+   ],
+   [
+    "Plano",
+    "TX",
+    1
+   ],
+   [
+    "Portland",
+    "OR",
+    1
+   ],
+   [
+    "Raleigh",
+    "NC",
+    1
+   ],
+   [
+    "Sacramento",
+    "CA",
+    1
+   ],
+   [
+    "San Francisco",
+    "CA",
+    2
+   ],
+   [
+    "San Jose",
+    "CA",
+    1
+   ],
+   [
+    "Schaumburg",
+    "IL",
+    1
+   ],
+   [
+    "Scottsdale",
+    "AZ",
+    1
+   ],
+   [
+    "Seattle",
+    "WA",
+    1
+   ],
+   [
+    "St Louis",
+    "MO",
+    1
+   ],
+   [
+    "Tampa",
+    "FL",
+    1
+   ],
+   [
+    "Walnut Creek",
+    "CA",
+    1
+   ],
+   [
+    "Washington",
+    "DC",
+    2
+   ],
+   [
+    "White Plains",
+    "NY",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 0,
+  "con": 0
+ },
+ "cities": "47 stores across the US · department stores and independent menswear shops, and its own site",
+ "region": {
+  "o": [
+   677,
+   682,
+   684,
+   685,
+   689,
+   693,
+   698,
+   701,
+   702,
+   710
+  ],
+  "s": [
+   21
+  ]
+ },
+ "addmen": true,
+ "site": {
+  "domain": "bonobos.com",
+  "platform": "custom",
+  "feed": "sitemap_products",
+  "feed_count": 2821,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "licensed",
+  "marks": [
+   "Schoeller",
+   "COOLMAX",
+   "PrimaLoft",
+   "Thinsulate",
+   "Loro Piana",
+   "Marzotto",
+   "Cone Denim / White Oak",
+   "Horween",
+   "Sebago",
+   "Lycra",
+   "TENCEL/Lyocell",
+   "Sorona",
+   "Liberty Fabric"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 2821,
+  "w": 2490,
+  "n": 73,
+  "s": 13,
+  "c": 2,
+  "x": 20,
+  "xh": 5,
+  "sp": "one",
+  "sc": [
+   "Golf"
+  ],
+  "nc": [
+   "Sweaters & Sweatshirts",
+   "Pants & Jeans",
+   "Outerwear"
+  ],
+  "st": "complete"
+ },
+ "garment_links": {
+  "T-shirt": "https://bonobos.com/collections/tees",
+  "Polo": "https://bonobos.com/collections/polos",
+  "Dress shirt": "https://bonobos.com/collections/dress-shirts",
+  "Jeans": "https://bonobos.com/collections/jeans",
+  "Dress pants": "https://bonobos.com/collections/dress-pants",
+  "Sweater": "https://bonobos.com/collections/sweaters",
+  "Outerwear": "https://bonobos.com/collections/outerwear"
+ },
+ "notes": {
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 3; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "Bonobos product pages give fiber content and 'Imported' with no country, but a few tailoring items name the cloth mill (Abraham Moon on the Alma Mater blazer, Marzotto on a stretch Italian wool tuxedo). No factory is named and nothing is owned."
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Soft Everyday Tee",
+   "lu": "https://bonobos.com/products/soft-everyday-tee-coffee-brown-0",
+   "hp": "Sweater Pocket Tee",
+   "hu": "https://bonobos.com/products/sweater-pocket-tee",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 2,
-    "cashmere": 1,
-    "linen": 2,
-    "cotton": 2,
-    "wool": 3,
-    "synth": 2
+  "Polo": {
+   "lp": "Pima Performance Polo",
+   "lu": "https://bonobos.com/products/jetsetter-performance-polo-white",
+   "hp": "Hudson Linen Cotton Cabana Sweater Polo",
+   "hu": "https://bonobos.com/products/hudson-linen-cotton-cabana-sweater-polo",
+   "b": "range"
   },
-  "dials": {
-    "dur": 3,
-    "forg": 3,
-    "fuss": 1,
-    "golffice": 0,
-    "golf": 2,
-    "finbro": 2,
-    "ivy": 2,
-    "murica": 2,
-    "prep": 2,
-    "whitet": 2,
-    "logo": 1,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
+  "Dress shirt": {
+   "lp": "Tech Button Down Shirt",
+   "lu": "https://bonobos.com/products/tech-button-down-shirt-white",
+   "hp": "Empire Stretch Tuxedo Shirt (White with Studs, Spread)",
+   "hu": "https://bonobos.com/products/stretch-tuxedo-shirt-white-with-studs-spread",
+   "b": "range"
   },
-  "why": "Chinos, dress pants and shirts in a range of fits, sold online and through showrooms that carry no stock.",
-  "origin": "Founded in 2007 by Andy Dunn and Brian Spaly with better-fitting pants; the showroom format followed.",
-  "chan": ["O", "D"],
-  "conf": "L",
-  "forgc": [3, 4, 2],
-  "shop": "https://bonobos.com/search?q=",
-  "onething": {
-    "p": "The chino",
-    "u": "https://bonobos.com/search?q=chinos",
-    "n": "site search needs the plain word"
+  "Jeans": {
+   "lp": "Travel Jeans",
+   "lu": "https://bonobos.com/products/extra-stretch-travel-jeans-greensville-gray",
+   "hp": "Japanese Stretch Selvedge Jeans",
+   "hu": "https://bonobos.com/products/japanese-stretch-selvedge-jeans-rinse-wash-0",
+   "b": "range"
   },
-  "prices": [[35, 89], [75, 129], [99, 189], [129, 229], [119, 400], [99, 189], [199, 699], null],
-  "doors": {
-    "c": "full",
-    "n": 47,
-    "cities": [
-      ["Alpharetta", "GA", 1],
-      ["Arlington", "VA", 1],
-      ["Atlanta", "GA", 1],
-      ["Austin", "TX", 2],
-      ["Baltimore", "MD", 1],
-      ["Bethesda", "MD", 1],
-      ["Boston", "MA", 2],
-      ["Boulder", "CO", 1],
-      ["Brooklyn", "NY", 1],
-      ["Charlotte", "NC", 1],
-      ["Chicago", "IL", 3],
-      ["Corte Madera", "CA", 1],
-      ["Dallas", "TX", 1],
-      ["Denver", "CO", 1],
-      ["Detroit", "MI", 1],
-      ["Greenwich", "CT", 1],
-      ["Hingham", "MA", 1],
-      ["Houston", "TX", 1],
-      ["Indianapolis", "IN", 1],
-      ["King of Prussia", "PA", 1],
-      ["Los Angeles", "CA", 1],
-      ["McLean", "VA", 1],
-      ["Minneapolis", "MN", 1],
-      ["Nashville", "TN", 1],
-      ["New York", "NY", 3],
-      ["Plano", "TX", 1],
-      ["Portland", "OR", 1],
-      ["Raleigh", "NC", 1],
-      ["Sacramento", "CA", 1],
-      ["San Francisco", "CA", 2],
-      ["San Jose", "CA", 1],
-      ["Schaumburg", "IL", 1],
-      ["Scottsdale", "AZ", 1],
-      ["Seattle", "WA", 1],
-      ["St. Louis", "MO", 1],
-      ["Tampa", "FL", 1],
-      ["Walnut Creek", "CA", 1],
-      ["Washington", "DC", 2],
-      ["White Plains", "NY", 1]
-    ],
-    "basis": "recapture 2026-09"
+  "Dress pants": {
+   "lp": "Weekday Warrior Dress Pants",
+   "lu": "https://bonobos.com/products/stretch-weekday-warrior-dress-pants-monday-blue",
+   "hp": "Empire Super 150s Dress Pant",
+   "hu": "https://bonobos.com/products/empire-super-150s-dress-pant-navy-blue-0",
+   "b": "pair"
   },
-  "cities": "47 stores across the US · department stores and independent menswear shops, and its own site",
-  "region": {
-    "o": [451, 462, 463, 464, 472, 473, 474, 475, 476, 478],
-    "s": [21]
+  "Sweater": {
+   "lp": "Washable Merino Crew Neck Sweater",
+   "lu": "https://bonobos.com/products/washable-merino-crew-neck-sweater",
+   "hp": "Wool Blend Sweater Bomber",
+   "hu": "https://bonobos.com/products/wool-blend-sweater-bomber",
+   "b": "range"
   },
-  "addmen": true,
-  "site": {
-    "domain": "bonobos.com",
-    "platform": "custom",
-    "feed": "sitemap_products",
-    "feed_count": 2821,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "licensed",
-    "marks": [
-      "Schoeller",
-      "COOLMAX",
-      "PrimaLoft",
-      "Thinsulate",
-      "Loro Piana",
-      "Marzotto",
-      "Cone Denim / White Oak",
-      "Horween",
-      "Sebago",
-      "Lycra",
-      "TENCEL/Lyocell",
-      "Sorona",
-      "Liberty Fabric"
-    ],
-    "source": "census",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 2821,
-    "w": 2490,
-    "n": 73,
-    "s": 13,
-    "c": 2,
-    "x": 20,
-    "xh": 5,
-    "sp": "one",
-    "sc": ["Golf"],
-    "nc": ["Sweaters & Sweatshirts", "Pants & Jeans", "Outerwear"],
-    "st": "complete"
-  },
-  "garment_links": {
-    "T-shirt": "https://bonobos.com/collections/tees",
-    "Polo": "https://bonobos.com/collections/polos",
-    "Dress shirt": "https://bonobos.com/collections/dress-shirts",
-    "Jeans": "https://bonobos.com/collections/jeans",
-    "Dress pants": "https://bonobos.com/collections/dress-pants",
-    "Sweater": "https://bonobos.com/collections/sweaters",
-    "Outerwear": "https://bonobos.com/collections/outerwear"
-  },
-  "notes": {
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 3; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Bonobos product pages give fiber content and 'Imported' with no country, but a few tailoring items name the cloth mill (Abraham Moon on the Alma Mater blazer, Marzotto on a stretch Italian wool tuxedo). No factory is named and nothing is owned."
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Soft Everyday Tee",
-      "lu": "https://bonobos.com/products/soft-everyday-tee-coffee-brown-0",
-      "hp": "Sweater Pocket Tee",
-      "hu": "https://bonobos.com/products/sweater-pocket-tee",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Pima Performance Polo",
-      "lu": "https://bonobos.com/products/jetsetter-performance-polo-white",
-      "hp": "Hudson Linen Cotton Cabana Sweater Polo",
-      "hu": "https://bonobos.com/products/hudson-linen-cotton-cabana-sweater-polo",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Tech Button Down Shirt",
-      "lu": "https://bonobos.com/products/tech-button-down-shirt-white",
-      "hp": "Empire Stretch Tuxedo Shirt (White with Studs, Spread)",
-      "hu": "https://bonobos.com/products/stretch-tuxedo-shirt-white-with-studs-spread",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Travel Jeans",
-      "lu": "https://bonobos.com/products/extra-stretch-travel-jeans-greensville-gray",
-      "hp": "Japanese Stretch Selvedge Jeans",
-      "hu": "https://bonobos.com/products/japanese-stretch-selvedge-jeans-rinse-wash-0",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Weekday Warrior Dress Pants",
-      "lu": "https://bonobos.com/products/stretch-weekday-warrior-dress-pants-monday-blue",
-      "hp": "Empire Super 150s Dress Pant",
-      "hu": "https://bonobos.com/products/empire-super-150s-dress-pant-navy-blue-0",
-      "b": "pair"
-    },
-    "Sweater": {
-      "lp": "Washable Merino Crew Neck Sweater",
-      "lu": "https://bonobos.com/products/washable-merino-crew-neck-sweater",
-      "hp": "Wool Blend Sweater Bomber",
-      "hu": "https://bonobos.com/products/wool-blend-sweater-bomber",
-      "b": "range"
-    },
-    "Outerwear": {
-      "lp": "Boulevard Bomber 2.0",
-      "lu": "https://bonobos.com/products/boulevard-bomber-2-0",
-      "hp": "The Bowery Leather Bomber",
-      "hu": "https://bonobos.com/products/the-bowery-leather-bomber",
-      "b": "pair"
-    }
-  },
-  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Sweater"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://bonobos.com/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=5806268",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "No owned factory claimed on anything read; PDPs say only 'Imported'. /about and /pages/faq returned 404, so no brand statement on making was seen.",
-    "makers": "no",
-    "mills": "some",
-    "madein": "none",
-    "countries": "No country of make: 3/4 rendered PDPs say only 'Imported' (wool blazer, 5-pocket pant, linen shirt); 1/4 (Jetsetter Italian wool suit) showed no origin line at all. Sample of 4 PDPs + body text of ~11 more in collection JSON (suits, shirts).",
-    "heritage": "NC",
-    "repair": "NC",
-    "process": "no",
-    "urls": [
-      "https://bonobos.com/products/alma-mater-wool-blazer-blackwatch-plaid-0",
-      "https://bonobos.com/collections/suits/products.json"
-    ],
-    "conf": "medium",
-    "read": "2026-10-03"
+  "Outerwear": {
+   "lp": "Boulevard Bomber 2.0",
+   "lu": "https://bonobos.com/products/boulevard-bomber-2-0",
+   "hp": "The Bowery Leather Bomber",
+   "hu": "https://bonobos.com/products/the-bowery-leather-bomber",
+   "b": "pair"
   }
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Jeans",
+  "Sweater"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://bonobos.com/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=5806268",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "No owned factory claimed on anything read; PDPs say only 'Imported'. /about and /pages/faq returned 404, so no brand statement on making was seen.",
+  "makers": "no",
+  "mills": "some",
+  "madein": "none",
+  "countries": "No country of make: 3/4 rendered PDPs say only 'Imported' (wool blazer, 5-pocket pant, linen shirt); 1/4 (Jetsetter Italian wool suit) showed no origin line at all. Sample of 4 PDPs + body text of ~11 more in collection JSON (suits, shirts).",
+  "heritage": "NC",
+  "repair": "NC",
+  "process": "no",
+  "urls": [
+   "https://bonobos.com/products/alma-mater-wool-blazer-blackwatch-plaid-0",
+   "https://bonobos.com/collections/suits/products.json"
+  ],
+  "conf": "medium",
+  "read": "2026-10-03"
+ }
 }

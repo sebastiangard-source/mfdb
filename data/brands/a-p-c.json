@@ -1,214 +1,308 @@
 {
-  "name": "A.P.C.",
-  "band": "accessible",
-  "seat": 114,
-  "dagger": 0,
-  "focus": {
-    "tech": 1,
-    "comfort": 3,
-    "craft": 3,
-    "style": 5
+ "name": "A.P.C.",
+ "band": "accessible",
+ "seat": 114,
+ "dagger": 0,
+ "focus": {
+  "tech": 1,
+  "comfort": 3,
+  "craft": 3,
+  "style": 5
+ },
+ "fabric": {
+  "denim": 5,
+  "cashmere": 1,
+  "linen": 2,
+  "cotton": 2,
+  "wool": 2,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 2,
+  "fuss": -2,
+  "golffice": -1,
+  "status": 2,
+  "fren": 5,
+  "whitet": 2,
+  "logo": 2,
+  "western": 1,
+  "rock": 1,
+  "workwear": 2,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Plain Parisian clothing — raw denim, shirts, knitwear — with the Petit Standard jean as its best-known piece.",
+ "origin": "Founded in Paris in 1987 by Jean Touitou; the name stands for Atelier de Production et de Création.",
+ "chan": [
+  "O",
+  "D",
+  "I"
+ ],
+ "conf": "L",
+ "forgc": [
+  2,
+  3,
+  1
+ ],
+ "shop": "https://www.apc-us.com/search?q=",
+ "onething": {
+  "p": "Petit Standard jean",
+  "u": "https://www.apc-us.com/search?q=Petit%20Standard%20jean%20men",
+  "n": "men-filtered"
+ },
+ "prices": [
+  [
+   125,
+   250
+  ],
+  [
+   210,
+   350
+  ],
+  [
+   275,
+   350
+  ],
+  [
+   265,
+   395
+  ],
+  [
+   370,
+   520
+  ],
+  [
+   350,
+   420
+  ],
+  [
+   440,
+   1750
+  ],
+  [
+   490,
+   490
+  ]
+ ],
+ "notes": {
+  "denim": "the Petit Standard — modern raw denim's reference cut",
+  "fren": "the doctrine of effortlessness — clothes that refuse to try",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 3; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "style": "Jean Touitou's plain Parisian look, unchanged since 1987, is the brand.",
+  "craft": "A.P.C. owns no making: its 2025 CSR report says 70% of products go through a trading model and Tier 1 suppliers are mainly in Portugal, Morocco and Tunisia, all unnamed. The denim page describes an exclusive Japanese weaver near Hiroshima on shuttle looms but never names it. Countries and an unnamed mill: a 2, not a 3. [audit proposed 2 at low confidence; held at 3 pending a second read]"
+ },
+ "doors": {
+  "c": "full",
+  "n": 9,
+  "cities": [
+   [
+    "Brooklyn",
+    "NY",
+    1
+   ],
+   [
+    "Costa Mesa",
+    "CA",
+    1
+   ],
+   [
+    "Elmont",
+    "NY",
+    1
+   ],
+   [
+    "Los Angeles",
+    "CA",
+    2
+   ],
+   [
+    "New York",
+    "NY",
+    2
+   ],
+   [
+    "Portland",
+    "OR",
+    1
+   ],
+   [
+    "San Francisco",
+    "CA",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 1,
+  "con": 0
+ },
+ "cities": "9 stores, including Los Angeles, New York, Brooklyn · department stores and independent menswear shops, and its own site",
+ "region": {
+  "o": [
+   187,
+   188,
+   189,
+   195
+  ],
+  "s": [
+   129
+  ]
+ },
+ "addmen": true,
+ "site": {
+  "domain": "apc-us.com",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 1290,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "no",
+  "origin": "none",
+  "marks": [
+   "none",
+   "'water-repellent' appears 9 times as a plain descriptive adjective and is not a mark"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 106,
+  "w": 104,
+  "n": 90,
+  "s": 8,
+  "c": 0,
+  "x": 1,
+  "xh": 0,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "T-shirts",
+   "Jackets",
+   "Knitwear"
+  ],
+  "st": "complete"
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants",
+  "Outerwear"
+ ],
+ "garment_links": {
+  "T-shirt": "https://www.apc-us.com/collections/men-t-shirts-polos",
+  "Polo": "https://www.apc-us.com/collections/men-t-shirts-polos",
+  "Dress shirt": "https://www.apc-us.com/collections/men-shirts-overshirts",
+  "Jeans": "https://www.apc-us.com/collections/men-jeans",
+  "Dress pants": "https://www.apc-us.com/collections/men-pants-shorts",
+  "Sweater": "https://www.apc-us.com/collections/men-knitwear-cardigans",
+  "Outerwear": "https://www.apc-us.com/collections/men-coats-jackets",
+  "Shoes": "https://www.apc-us.com/collections/men-shoes"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "A.P.C. Autumn 26 T-Shirt (M)",
+   "lu": "https://www.apc-us.com/products/a-p-c-autumn-26-t-shirt",
+   "hp": "Ray T-shirt (100% linen)",
+   "hu": "https://www.apc-us.com/products/ray-t-shirt-liaez-h26566_iaa",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 5,
-    "cashmere": 1,
-    "linen": 2,
-    "cotton": 2,
-    "wool": 2,
-    "synth": 1
+  "Polo": {
+   "lp": "Henry Polo shirt",
+   "lu": "https://www.apc-us.com/products/polo-henry-gots-cohpb-h26552_iaj",
+   "hp": "Fitted Striped Polo",
+   "hu": "https://www.apc-us.com/products/fitted-striped-polo-cohlp-h23481_alj",
+   "b": "range"
   },
-  "dials": {
-    "dur": 3,
-    "forg": 2,
-    "fuss": -2,
-    "golffice": -1,
-    "status": 2,
-    "fren": 5,
-    "whitet": 2,
-    "logo": 2,
-    "western": 1,
-    "rock": 1,
-    "workwear": 2,
-    "outdoor": 1,
-    "surf": 1
+  "Dress shirt": {
+   "lp": "Greg shirt",
+   "lu": "https://www.apc-us.com/products/chemise-greg-coeck-h12499",
+   "hp": "Malo Logo Shirt",
+   "hu": "https://www.apc-us.com/products/striped-shirt-cohra-h12553_iac",
+   "b": "range"
   },
-  "why": "Plain Parisian clothing — raw denim, shirts, knitwear — with the Petit Standard jean as its best-known piece.",
-  "origin": "Founded in Paris in 1987 by Jean Touitou; the name stands for Atelier de Production et de Création.",
-  "chan": ["O", "D", "I"],
-  "conf": "L",
-  "forgc": [2, 3, 1],
-  "shop": "https://www.apc-us.com/search?q=",
-  "onething": {
-    "p": "Petit Standard jean",
-    "u": "https://www.apc-us.com/search?q=Petit%20Standard%20jean%20men",
-    "n": "men-filtered"
+  "Jeans": {
+   "lp": "Martin jeans",
+   "lu": "https://www.apc-us.com/products/martin-jeans-coeug-h09121",
+   "hp": "Fairfax Jeans",
+   "hu": "https://www.apc-us.com/products/fairfax-jeans-cohad-m09156_ial",
+   "b": "range"
   },
-  "prices": [[125, 250], [210, 350], [275, 350], [265, 395], [370, 520], [350, 420], [440, 1750], [490, 490]],
-  "notes": {
-    "denim": "the Petit Standard — modern raw denim's reference cut",
-    "fren": "the doctrine of effortlessness — clothes that refuse to try",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 3; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "style": "Jean Touitou's plain Parisian look, unchanged since 1987, is the brand.",
-    "craft": "A.P.C. owns no making: its 2025 CSR report says 70% of products go through a trading model and Tier 1 suppliers are mainly in Portugal, Morocco and Tunisia, all unnamed. The denim page describes an exclusive Japanese weaver near Hiroshima on shuttle looms but never names it. Countries and an unnamed mill: a 2, not a 3. [audit proposed 2 at low confidence; held at 3 pending a second read]"
+  "Dress pants": {
+   "lp": "Dylan Pants (organic cotton)",
+   "lu": "https://www.apc-us.com/products/organic-cotton-pants-cohtf-h08024_lzz",
+   "hp": "Dylan Pants (45% wool)",
+   "hu": "https://www.apc-us.com/products/organic-cotton-pants-psanf-h08024_iak",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 7,
-    "cities": [
-      ["Brooklyn", "NY", 1],
-      ["Costa Mesa", "CA", 1],
-      ["Los Angeles", "CA", 2],
-      ["New York", "NY", 2],
-      ["San Francisco", "CA", 1]
-    ],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Sweater": {
+   "lp": "Pascal Sweater (100% merino wool crew)",
+   "lu": "https://www.apc-us.com/products/pull-pascal-wvbep-h23527_plb",
+   "hp": "Striped Alpaca Sweater (35% mohair, 35% alpaca)",
+   "hu": "https://www.apc-us.com/products/striped-alpaca-sweater-wpabg-h23504_laa",
+   "b": "pair"
   },
-  "cities": "7 stores, including Los Angeles, New York, Brooklyn · department stores and independent menswear shops, and its own site",
-  "region": {
-    "o": [217, 218, 219],
-    "s": [129]
+  "Outerwear": {
+   "lp": "Regis jacket",
+   "lu": "https://www.apc-us.com/products/regis-jacket-psajb-h02960_baa",
+   "hp": "Gael Jacket (cowhide leather)",
+   "hu": "https://www.apc-us.com/products/short-leather-jacket-pxcdg-h32089_lzz",
+   "b": "range"
   },
-  "addmen": true,
-  "site": {
-    "domain": "apc-us.com",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 1290,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "no",
-    "origin": "none",
-    "marks": ["none", "'water-repellent' appears 9 times as a plain descriptive adjective and is not a mark"],
-    "source": "census",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 106,
-    "w": 104,
-    "n": 90,
-    "s": 8,
-    "c": 0,
-    "x": 1,
-    "xh": 0,
-    "sp": "one",
-    "sc": [],
-    "nc": ["T-shirts", "Jackets", "Knitwear"],
-    "st": "complete"
-  },
-  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants", "Outerwear"],
-  "garment_links": {
-    "T-shirt": "https://www.apc-us.com/collections/men-t-shirts-polos",
-    "Polo": "https://www.apc-us.com/collections/men-t-shirts-polos",
-    "Dress shirt": "https://www.apc-us.com/collections/men-shirts-overshirts",
-    "Jeans": "https://www.apc-us.com/collections/men-jeans",
-    "Dress pants": "https://www.apc-us.com/collections/men-pants-shorts",
-    "Sweater": "https://www.apc-us.com/collections/men-knitwear-cardigans",
-    "Outerwear": "https://www.apc-us.com/collections/men-coats-jackets",
-    "Shoes": "https://www.apc-us.com/collections/men-shoes"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "A.P.C. Autumn 26 T-Shirt (M)",
-      "lu": "https://www.apc-us.com/products/a-p-c-autumn-26-t-shirt",
-      "hp": "Ray T-shirt (100% linen)",
-      "hu": "https://www.apc-us.com/products/ray-t-shirt-liaez-h26566_iaa",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Henry Polo shirt",
-      "lu": "https://www.apc-us.com/products/polo-henry-gots-cohpb-h26552_iaj",
-      "hp": "Fitted Striped Polo",
-      "hu": "https://www.apc-us.com/products/fitted-striped-polo-cohlp-h23481_alj",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Greg shirt",
-      "lu": "https://www.apc-us.com/products/chemise-greg-coeck-h12499",
-      "hp": "Malo Logo Shirt",
-      "hu": "https://www.apc-us.com/products/striped-shirt-cohra-h12553_iac",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Martin jeans",
-      "lu": "https://www.apc-us.com/products/martin-jeans-coeug-h09121",
-      "hp": "Fairfax Jeans",
-      "hu": "https://www.apc-us.com/products/fairfax-jeans-cohad-m09156_ial",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Dylan Pants (organic cotton)",
-      "lu": "https://www.apc-us.com/products/organic-cotton-pants-cohtf-h08024_lzz",
-      "hp": "Dylan Pants (45% wool)",
-      "hu": "https://www.apc-us.com/products/organic-cotton-pants-psanf-h08024_iak",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Pascal Sweater (100% merino wool crew)",
-      "lu": "https://www.apc-us.com/products/pull-pascal-wvbep-h23527_plb",
-      "hp": "Striped Alpaca Sweater (35% mohair, 35% alpaca)",
-      "hu": "https://www.apc-us.com/products/striped-alpaca-sweater-wpabg-h23504_laa",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "Regis jacket",
-      "lu": "https://www.apc-us.com/products/regis-jacket-psajb-h02960_baa",
-      "hp": "Gael Jacket (cowhide leather)",
-      "hu": "https://www.apc-us.com/products/short-leather-jacket-pxcdg-h32089_lzz",
-      "b": "range"
-    },
-    "Shoes": {
-      "lp": "Les Mocassins",
-      "lu": "https://www.apc-us.com/products/les-mocassins-pxcdf-h53336_lzz",
-      "hp": "Les Mocassins",
-      "hu": "https://www.apc-us.com/products/les-mocassins-pxcdf-h53336_lzz",
-      "b": "single"
-    }
-  },
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.apc-us.com/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "A.P.C. Golf"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=251",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "season": {
-    "l": "FALL WINTER 26",
-    "t": "collection page",
-    "u": "https://www.apc-us.com/pages/fall-winter-2026",
-    "m": "unisex"
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "None found. The name stands for 'Atelier de Production et de Création', but the brand page names no factory. The CSR Report (Dec 2025, p.23) describes outsourced production: '70% of our products are developed through a trading model' (supplier runs production), 30% made-to-order with A.P.C. sourcing components; '76% of our Tier 1 suppliers ... are near-shore, led by Portugal, Morocco, and Tunisia'.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "NC",
-    "countries": "NC on PDPs: 6 PDPs plus one product .json showed fit/feature bullets and sometimes composition, but no 'Made in' line. It probably sits in a collapsed tab the fetcher cannot render, so not recorded as 'none'. Brand-level (CSR report p.23): Tier 1 suppliers led by Portugal, Morocco, Tunisia; denim cloth Japan (Jean Genie page).",
-    "heritage": "dated and placed",
-    "repair": "yes",
-    "process": "some",
-    "urls": [
-      "https://www.apc-us.com/pages/jean-genie",
-      "https://cdn.shopify.com/s/files/1/0900/0973/1459/files/A.P.C._BILAN_RSE_2025_EN.pdf?v=1765548817"
-    ],
-    "conf": "low",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Les Mocassins",
+   "lu": "https://www.apc-us.com/products/les-mocassins-pxcdf-h53336_lzz",
+   "hp": "Les Mocassins",
+   "hu": "https://www.apc-us.com/products/les-mocassins-pxcdf-h53336_lzz",
+   "b": "single"
   }
+ },
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.apc-us.com/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "A.P.C. Golf"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=251",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "season": {
+  "l": "FALL WINTER 26",
+  "t": "collection page",
+  "u": "https://www.apc-us.com/pages/fall-winter-2026",
+  "m": "unisex"
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "None found. The name stands for 'Atelier de Production et de Création', but the brand page names no factory. The CSR Report (Dec 2025, p.23) describes outsourced production: '70% of our products are developed through a trading model' (supplier runs production), 30% made-to-order with A.P.C. sourcing components; '76% of our Tier 1 suppliers ... are near-shore, led by Portugal, Morocco, and Tunisia'.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "NC",
+  "countries": "NC on PDPs: 6 PDPs plus one product .json showed fit/feature bullets and sometimes composition, but no 'Made in' line. It probably sits in a collapsed tab the fetcher cannot render, so not recorded as 'none'. Brand-level (CSR report p.23): Tier 1 suppliers led by Portugal, Morocco, Tunisia; denim cloth Japan (Jean Genie page).",
+  "heritage": "dated and placed",
+  "repair": "yes",
+  "process": "some",
+  "urls": [
+   "https://www.apc-us.com/pages/jean-genie",
+   "https://cdn.shopify.com/s/files/1/0900/0973/1459/files/A.P.C._BILAN_RSE_2025_EN.pdf?v=1765548817"
+  ],
+  "conf": "low",
+  "read": "2026-10-03"
+ }
 }

@@ -1,212 +1,264 @@
 {
-  "name": "Zilli",
-  "band": "trueLux",
-  "seat": 202,
-  "dagger": 1,
-  "focus": {
-    "tech": 2,
-    "comfort": 2,
-    "craft": 4,
-    "style": 3
-  },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 4,
-    "linen": 2,
-    "cotton": 2,
-    "wool": 3,
-    "synth": 1
-  },
-  "dials": {
-    "dur": 2,
-    "forg": 2,
-    "fuss": 3,
-    "sail": 3,
-    "shoes": 3,
-    "status": 2,
-    "finbro": 2,
-    "ital": 4,
-    "fren": 4,
-    "boat": 5,
-    "whitet": 2,
-    "logo": 1,
-    "western": 1,
-    "rock": 3,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 2
-  },
-  "why": "Leather, cashmere and silk clothing at the very top of the market, from Lyon.",
-  "origin": "Founded in Lyon in 1965.",
-  "say": "ZEE-lee",
-  "chan": ["O", "I"],
-  "conf": "L",
-  "forgc": [2, 2, 4],
-  "onething": {
-    "p": "Leather blouson",
-    "u": "https://www.zilli.com",
-    "n": "Use this: https://en.zilli.com/outerwear-and-blousons"
-  },
-  "prices": [
-    [390, 825, "EUR"],
-    [810, 1050, "EUR"],
-    [630, 1710, "EUR"],
-    [840, 1635, "EUR"],
-    [795, 2145, "EUR"],
-    [600, 1860, "EUR"],
-    [1470, 8500, "EUR"],
-    [870, 1380, "EUR"]
+ "name": "Zilli",
+ "band": "trueLux",
+ "seat": 202,
+ "dagger": 1,
+ "focus": {
+  "tech": 2,
+  "comfort": 2,
+  "craft": 4,
+  "style": 3
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 4,
+  "linen": 2,
+  "cotton": 2,
+  "wool": 3,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 2,
+  "forg": 2,
+  "fuss": 3,
+  "sail": 3,
+  "shoes": 3,
+  "status": 2,
+  "finbro": 2,
+  "ital": 4,
+  "fren": 4,
+  "boat": 5,
+  "whitet": 2,
+  "logo": 1,
+  "western": 1,
+  "rock": 3,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 2
+ },
+ "why": "Leather, cashmere and silk clothing at the very top of the market, from Lyon.",
+ "origin": "Founded in Lyon in 1965.",
+ "say": "ZEE-lee",
+ "chan": [
+  "O",
+  "I"
+ ],
+ "conf": "L",
+ "forgc": [
+  2,
+  2,
+  4
+ ],
+ "onething": {
+  "p": "Leather blouson",
+  "u": "https://www.zilli.com",
+  "n": "Use this: https://en.zilli.com/outerwear-and-blousons"
+ },
+ "prices": [
+  [
+   390,
+   825,
+   "EUR"
   ],
-  "notes": {
-    "boat": "Maximal luxury for a deck with staff on it. Nothing about the register suggests the wearer handles a line.",
-    "fren": "A Lyon house that calls itself a French luxury menswear maison — founded 1965 by a French family in partnership with Teofilo Zilli, an Italian tailor working in the city. Raised from 3 on 2026-08-09: the map had it more Italian than French, which its base and its own description contradict.",
-    "ital": "Genuinely half the story rather than the whole of it. The co-founder was an Italian tailor and two of the three ateliers are Italian — Bergamo and Pescara — but Lyon is the house. Lowered from 5 on 2026-08-09 to sit level with Frenchness, which is what a French-Italian house should look like on two dials. Note the founding date is given variously as 1965 and 1970; the house's own pages say 1965.",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 1; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Zilli names its own ateliers in Lyon, Bergamo and Pescara, and its PDPs tie leather outerwear to the Lyon atelier and shirts to the Bergamo atelier. Knitwear and trousers state only 'Made in Italy', with no atelier named, so owned making is not shown for the whole range. That is a strong 4."
+  [
+   810,
+   1050,
+   "EUR"
+  ],
+  [
+   630,
+   1710,
+   "EUR"
+  ],
+  [
+   840,
+   1635,
+   "EUR"
+  ],
+  [
+   795,
+   2145,
+   "EUR"
+  ],
+  [
+   600,
+   1860,
+   "EUR"
+  ],
+  [
+   1470,
+   8500,
+   "EUR"
+  ],
+  [
+   870,
+   1380,
+   "EUR"
+  ]
+ ],
+ "notes": {
+  "boat": "Maximal luxury for a deck with staff on it. Nothing about the register suggests the wearer handles a line.",
+  "fren": "A Lyon house that calls itself a French luxury menswear maison — founded 1965 by a French family in partnership with Teofilo Zilli, an Italian tailor working in the city. Raised from 3 on 2026-08-09: the map had it more Italian than French, which its base and its own description contradict.",
+  "ital": "Genuinely half the story rather than the whole of it. The co-founder was an Italian tailor and two of the three ateliers are Italian — Bergamo and Pescara — but Lyon is the house. Lowered from 5 on 2026-08-09 to sit level with Frenchness, which is what a French-Italian house should look like on two dials. Note the founding date is given variously as 1965 and 1970; the house's own pages say 1965.",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 1; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "Zilli names its own ateliers in Lyon, Bergamo and Pescara, and its PDPs tie leather outerwear to the Lyon atelier and shirts to the Bergamo atelier. Knitwear and trousers state only 'Made in Italy', with no atelier named, so owned making is not shown for the whole range. That is a strong 4."
+ },
+ "doors": {
+  "c": "full",
+  "n": 0,
+  "cities": [],
+  "basis": "positive zero 2026-09-23"
+ },
+ "cities": "No store of its own in the US · no US site; its own site ships from Europe · also through independent menswear shops",
+ "site": {
+  "domain": "en.zilli.com",
+  "platform": "custom",
+  "feed": "category_crawl",
+  "feed_count": 76,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "licensed",
+  "marks": [
+   "ZEISS(R) 9 products - LICENSED (sunglass lenses: 'fitted with exclusive ZEISS(R) lenses')",
+   "Brewed Protein(TM) 1 product - LICENSED (Spiber fibre, composition line '70% cashmere 30% Brewed Protein(TM) fiber', composition_only)",
+   "Alcantara 1 product - LICENSED (down jacket lining)",
+   "Goodyear 2 products"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 257,
+  "w": 256,
+  "n": 97,
+  "s": 2,
+  "c": 0,
+  "x": 15,
+  "xh": 0,
+  "sp": "one",
+  "sc": [
+   "swimwear"
+  ],
+  "nc": [
+   "knitwear",
+   "outerwear and blousons",
+   "shirts"
+  ],
+  "st": "complete"
+ },
+ "shop": "https://en.zilli.com/search.php?search_query=",
+ "garment_links": {
+  "T-shirt": "https://en.zilli.com/t-shirts-and-polos",
+  "Dress shirt": "https://en.zilli.com/shirts",
+  "Jeans": "https://en.zilli.com/denim",
+  "Dress pants": "https://en.zilli.com/trousers-and-bermudas",
+  "Sweater": "https://en.zilli.com/knitwear",
+  "Outerwear": "https://en.zilli.com/outerwear-and-blousons",
+  "Shoes": "https://en.zilli.com/shoes"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Midnight blue T-shirt, \"Micro Griffon\" embroidery (mercerized cotton)",
+   "lu": "https://en.zilli.com/midnight-blue-t-shirt-micro-griffon-embroidery/",
+   "hp": "Blue \"Zig Zag Mini Griffon\" T-shirt (100% silk)",
+   "hu": "https://en.zilli.com/blue-zig-zag-mini-griffon-t-shirt/",
+   "b": "pair"
   },
-  "doors": {
-    "c": "full",
-    "n": 0,
-    "cities": [],
-    "basis": "positive zero 2026-09-23"
+  "Polo": {
+   "lp": "Navy blue zipped polo \"ZILLI Golf\" (100% cotton, short sleeves)",
+   "lu": "https://en.zilli.com/navy-blue-zipped-polo-ZILLI-Golf/",
+   "hp": "Navy blue zipped polo, \"3D Chevron\" (100% silk, short sleeves)",
+   "hu": "https://en.zilli.com/navy-blue-zipped-polo-3d-chevron/",
+   "b": "pair"
   },
-  "cities": "No store of its own in the US · no US site; its own site ships from Europe · also through independent menswear shops",
-  "site": {
-    "domain": "en.zilli.com",
-    "platform": "custom",
-    "feed": "category_crawl",
-    "feed_count": 76,
-    "status": "live_store",
-    "checked": "2026-09-13"
+  "Dress shirt": {
+   "lp": "White formal shirt, triple stitching (cotton)",
+   "lu": "https://en.zilli.com/white-formal-shirt-triple-stitching/",
+   "hp": "Sage green shirt, ZILLI all-over pattern (100% silk)",
+   "hu": "https://en.zilli.com/sage-green-shirt-zilli-all-over-pattern/",
+   "b": "range"
   },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "licensed",
-    "marks": [
-      "ZEISS(R) 9 products - LICENSED (sunglass lenses: 'fitted with exclusive ZEISS(R) lenses')",
-      "Brewed Protein(TM) 1 product - LICENSED (Spiber fibre, composition line '70% cashmere 30% Brewed Protein(TM) fiber', composition_only)",
-      "Alcantara 1 product - LICENSED (down jacket lining)",
-      "Goodyear 2 products"
-    ],
-    "source": "census",
-    "checked": "2026-09-12"
+  "Jeans": {
+   "lp": "Blue raw denim, large fit",
+   "lu": "https://en.zilli.com/blue-raw-denim-large-fit/",
+   "hp": "Dark navy \"HERITAGE\" jeans",
+   "hu": "https://en.zilli.com/dark-navy-heritage-jeans/",
+   "b": "range"
   },
-  "fibre": {
-    "t": 257,
-    "w": 256,
-    "n": 97,
-    "s": 2,
-    "c": 0,
-    "x": 15,
-    "xh": 0,
-    "sp": "one",
-    "sc": ["swimwear"],
-    "nc": ["knitwear", "outerwear and blousons", "shirts"],
-    "st": "complete"
+  "Dress pants": {
+   "lp": "Navy blue clip-on pants (83% cotton 17% silk)",
+   "lu": "https://en.zilli.com/navy-blue-clip-on-pants/",
+   "hp": "Black trousers for tuxedo, herringbone pattern (70% wool 30% mohair)",
+   "hu": "https://en.zilli.com/black-trousers-for-tuxedo-herringbone-pattern/",
+   "b": "range"
   },
-  "shop": "https://en.zilli.com/search.php?search_query=",
-  "garment_links": {
-    "T-shirt": "https://en.zilli.com/t-shirts-and-polos",
-    "Dress shirt": "https://en.zilli.com/shirts",
-    "Jeans": "https://en.zilli.com/denim",
-    "Dress pants": "https://en.zilli.com/trousers-and-bermudas",
-    "Sweater": "https://en.zilli.com/knitwear",
-    "Outerwear": "https://en.zilli.com/outerwear-and-blousons",
-    "Shoes": "https://en.zilli.com/shoes"
+  "Sweater": {
+   "lp": "Navy blue round neck sweater, \"Big Lion\" embroidery (100% cotton, short sleeves)",
+   "lu": "https://en.zilli.com/navy-blue-round-neck-sweater-big-lion-embroidery/",
+   "hp": "Pale fawn round neck \"Tart stitch\" sweater (100% cashmere)",
+   "hu": "https://en.zilli.com/pale-fawn-round-neck-tart-stitch-sweater/",
+   "b": "pair"
   },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Midnight blue T-shirt, \"Micro Griffon\" embroidery (mercerized cotton)",
-      "lu": "https://en.zilli.com/midnight-blue-t-shirt-micro-griffon-embroidery/",
-      "hp": "Blue \"Zig Zag Mini Griffon\" T-shirt (100% silk)",
-      "hu": "https://en.zilli.com/blue-zig-zag-mini-griffon-t-shirt/",
-      "b": "pair"
-    },
-    "Polo": {
-      "lp": "Navy blue zipped polo \"ZILLI Golf\" (100% cotton, short sleeves)",
-      "lu": "https://en.zilli.com/navy-blue-zipped-polo-ZILLI-Golf/",
-      "hp": "Navy blue zipped polo, \"3D Chevron\" (100% silk, short sleeves)",
-      "hu": "https://en.zilli.com/navy-blue-zipped-polo-3d-chevron/",
-      "b": "pair"
-    },
-    "Dress shirt": {
-      "lp": "White formal shirt, triple stitching (cotton)",
-      "lu": "https://en.zilli.com/white-formal-shirt-triple-stitching/",
-      "hp": "Sage green shirt, ZILLI all-over pattern (100% silk)",
-      "hu": "https://en.zilli.com/sage-green-shirt-zilli-all-over-pattern/",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Blue raw denim, large fit",
-      "lu": "https://en.zilli.com/blue-raw-denim-large-fit/",
-      "hp": "Dark navy \"HERITAGE\" jeans",
-      "hu": "https://en.zilli.com/dark-navy-heritage-jeans/",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Navy blue clip-on pants (83% cotton 17% silk)",
-      "lu": "https://en.zilli.com/navy-blue-clip-on-pants/",
-      "hp": "Black trousers for tuxedo, herringbone pattern (70% wool 30% mohair)",
-      "hu": "https://en.zilli.com/black-trousers-for-tuxedo-herringbone-pattern/",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Navy blue round neck sweater, \"Big Lion\" embroidery (100% cotton, short sleeves)",
-      "lu": "https://en.zilli.com/navy-blue-round-neck-sweater-big-lion-embroidery/",
-      "hp": "Pale fawn round neck \"Tart stitch\" sweater (100% cashmere)",
-      "hu": "https://en.zilli.com/pale-fawn-round-neck-tart-stitch-sweater/",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "Pale caramel \"ZILLI Letters\" bomber jacket (100% linen)",
-      "lu": "https://en.zilli.com/pale-caramel-zilli-letters-bomber-jacket/",
-      "hp": "Deep military and blue reversible ROBS bomber jacket (50% silk 50% lambskin)",
-      "hu": "https://en.zilli.com/deep-military-and-blue-reversible-robs-bomber-jacket/",
-      "b": "pair"
-    },
-    "Shoes": {
-      "lp": "Dark navy hand stitched moccasins, beige sole",
-      "lu": "https://en.zilli.com/dark-navy-hand-stitched-mocassins-beige-sole/",
-      "hp": "\"Laser Z\" light brown moccasins, white outsole (100% suede kidskin)",
-      "hu": "https://en.zilli.com/laser-z-light-brown-moccassin/",
-      "b": "pair"
-    }
+  "Outerwear": {
+   "lp": "Pale caramel \"ZILLI Letters\" bomber jacket (100% linen)",
+   "lu": "https://en.zilli.com/pale-caramel-zilli-letters-bomber-jacket/",
+   "hp": "Deep military and blue reversible ROBS bomber jacket (50% silk 50% lambskin)",
+   "hu": "https://en.zilli.com/deep-military-and-blue-reversible-robs-bomber-jacket/",
+   "b": "pair"
   },
-  "price_range_only": ["Dress shirt", "Jeans", "Dress pants"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://en.zilli.com/ (location switcher: delivery country USA, English; prices shown in EUR)",
-    "currency": "EUR",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=203600",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "craft_evidence": {
-    "owned": "yes",
-    "owned_d": "Maison page: 'all ZILLI's ateliers in Lyon – France, Bergamo and Pescara – Italy'. PDPs name 'Les Ateliers ZILLI in Lyon' (leather blouson) and 'our atelier in Bergamo, Italy' (shirts). Pescara is named but no category is assigned to it on the pages read.",
-    "makers": "some",
-    "mills": "no",
-    "madein": "every product",
-    "countries": "France 2/5 (leather blouson, silk/lambskin parka), Italy 3/5 (silk shirt, silk/cotton knit polo, wool trousers). Sample of 5 PDPs; a 6th (coat) returned 404.",
-    "heritage": "dated and placed",
-    "repair": "no",
-    "process": "some",
-    "urls": ["https://en.zilli.com/maison-zilli/", "https://en.zilli.com/navy-blue-ougar-blouson/"],
-    "conf": "high",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Dark navy hand stitched moccasins, beige sole",
+   "lu": "https://en.zilli.com/dark-navy-hand-stitched-mocassins-beige-sole/",
+   "hp": "\"Laser Z\" light brown moccasins, white outsole (100% suede kidskin)",
+   "hu": "https://en.zilli.com/laser-z-light-brown-moccassin/",
+   "b": "pair"
   }
+ },
+ "price_range_only": [
+  "Dress shirt",
+  "Jeans",
+  "Dress pants"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://en.zilli.com/ (location switcher: delivery country USA, English; prices shown in EUR)",
+  "currency": "EUR",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=203600",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "craft_evidence": {
+  "owned": "yes",
+  "owned_d": "Maison page: 'all ZILLI's ateliers in Lyon – France, Bergamo and Pescara – Italy'. PDPs name 'Les Ateliers ZILLI in Lyon' (leather blouson) and 'our atelier in Bergamo, Italy' (shirts). Pescara is named but no category is assigned to it on the pages read.",
+  "makers": "some",
+  "mills": "no",
+  "madein": "every product",
+  "countries": "France 2/5 (leather blouson, silk/lambskin parka), Italy 3/5 (silk shirt, silk/cotton knit polo, wool trousers). Sample of 5 PDPs; a 6th (coat) returned 404.",
+  "heritage": "dated and placed",
+  "repair": "no",
+  "process": "some",
+  "urls": [
+   "https://en.zilli.com/maison-zilli/",
+   "https://en.zilli.com/navy-blue-ougar-blouson/"
+  ],
+  "conf": "high",
+  "read": "2026-10-03"
+ }
 }

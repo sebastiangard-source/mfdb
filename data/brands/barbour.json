@@ -1,198 +1,302 @@
 {
-  "name": "Barbour",
-  "band": "premium",
-  "seat": 54,
-  "dagger": 1,
-  "focus": {
-    "tech": 3,
-    "comfort": 3,
-    "craft": 4,
-    "style": 3
+ "name": "Barbour",
+ "band": "premium",
+ "seat": 54,
+ "dagger": 1,
+ "focus": {
+  "tech": 3,
+  "comfort": 3,
+  "craft": 4,
+  "style": 3
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 3,
+  "wool": 2,
+  "synth": 2
+ },
+ "dials": {
+  "dur": 5,
+  "forg": 4,
+  "fuss": 3,
+  "status": 3,
+  "finbro": 3,
+  "ivy": 3,
+  "prep": 3,
+  "briish": 5,
+  "whitet": 2,
+  "logo": 3,
+  "western": 1,
+  "rock": 1,
+  "workwear": 3,
+  "outdoor": 2,
+  "surf": 1
+ },
+ "why": "Waxed-cotton jackets, quilted jackets and country clothing; the company still rewaxes and repairs its jackets.",
+ "origin": "Founded in South Shields, England, in 1894 by John Barbour, making oilcloth for sailors and dockworkers.",
+ "chan": [
+  "D",
+  "I",
+  "O"
+ ],
+ "conf": "S",
+ "forgc": [
+  4,
+  4,
+  1
+ ],
+ "shop": "https://www.barbour.com/us/search?q=",
+ "onething": {
+  "p": "Bedale",
+  "u": "https://www.barbour.com/us/search?q=Bedale",
+  "n": "own-site search, not opened from this environment. Bedale over Beaufort: the shorter cut is the one that left the moor, where Beaufort's length and game pocket still read as costume in a city"
+ },
+ "prices": [
+  [
+   50,
+   70
+  ],
+  [
+   85,
+   115
+  ],
+  [
+   100,
+   160
+  ],
+  null,
+  [
+   270,
+   270
+  ],
+  [
+   120,
+   330
+  ],
+  [
+   180,
+   745
+  ],
+  [
+   195,
+   245
+  ]
+ ],
+ "notes": {
+  "craft": "Barbour does own its South Shields factory: its history page says the Bedale and Beaufort wax jackets are still made there by hand, and rewaxing and repairs are done there. But its own supply-chain page says it makes 'in the UK, Europe and Asia', and its October 2025 Tier 1 list puts South Shields as one of about 136 finished-goods factories in about 16 countries. Owned making covers the classic wax jackets only, not the range, so it is a 4.",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 4; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "dur": "Waxed cotton that the company will rewax and repair for the life of the jacket.",
+  "briish": "A South Shields company holding royal warrants, dressing the British countryside since 1894."
+ },
+ "doors": {
+  "c": "full",
+  "n": 3,
+  "cities": [
+   [
+    "New York",
+    "NY",
+    1
+   ],
+   [
+    "Princeton",
+    "NJ",
+    1
+   ],
+   [
+    "Washington",
+    "DC",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 1,
+  "con": 0
+ },
+ "cities": "3 stores — New York, Princeton, Washington · department stores and independent menswear shops, and its own site",
+ "region": {
+  "o": [
+   641,
+   642
+  ],
+  "s": [
+   6,
+   9,
+   12,
+   13,
+   21,
+   29,
+   33,
+   36,
+   53,
+   64,
+   69,
+   82,
+   86,
+   96,
+   126,
+   127,
+   128,
+   137,
+   138,
+   147,
+   150,
+   151,
+   152
+  ]
+ },
+ "addmen": true,
+ "addcloth": true,
+ "site": {
+  "domain": "barbour.com",
+  "platform": "salesforce_commerce",
+  "feed": "sitemap_products",
+  "feed_count": 757,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "house",
+  "marks": [
+   "HOUSE: Sylkoil (waxed cotton)",
+   "Thornproof (waxed cotton)",
+   "Thermo Weave. LICENSED: none found"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 148,
+  "w": 148,
+  "n": 73,
+  "s": 26,
+  "c": 1,
+  "x": 12,
+  "xh": 2,
+  "sp": "split",
+  "sc": [
+   "Outerwear"
+  ],
+  "nc": [
+   "Shirts & Overshirts",
+   "Knitwear",
+   "Tailoring"
+  ],
+  "st": "complete"
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Dress pants",
+  "Sweater",
+  "Outerwear",
+  "Shoes"
+ ],
+ "garment_links": {
+  "T-shirt": "https://www.barbour.com/us/mens/mens-clothing/mens-t-shirts",
+  "Polo": "https://www.barbour.com/us/mens/mens-clothing/mens-polo-shirts",
+  "Dress shirt": "https://www.barbour.com/us/mens/mens-clothing/mens-shirts",
+  "Dress pants": "https://www.barbour.com/us/mens/mens-clothing/mens-pants-trousers",
+  "Sweater": "https://www.barbour.com/us/mens/mens-clothing/mens-knitwear",
+  "Outerwear": "https://www.barbour.com/us/mens/mens-jackets"
+ },
+ "price_checked": true,
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Script Graphic T-Shirt",
+   "lu": "https://www.barbour.com/us/script-graphic-t-shirt-MTS1347NY91.html",
+   "hp": "Washington Overdyed Logo Tailored T-Shirt",
+   "hu": "https://www.barbour.com/us/washington-overdyed-logo-tailored-t-shirt-MTS1619OL56.html",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 1,
-    "linen": 1,
-    "cotton": 3,
-    "wool": 2,
-    "synth": 2
+  "Polo": {
+   "lp": "Tartan Pique Polo Shirt",
+   "lu": "https://www.barbour.com/us/tartan-pique-polo-shirt-MML0012TE13.html",
+   "hp": "Stately Polo Shirt",
+   "hu": "https://www.barbour.com/us/stately-polo-shirt-MML1583GY97.html",
+   "b": "range"
   },
-  "dials": {
-    "dur": 5,
-    "forg": 4,
-    "fuss": 3,
-    "status": 3,
-    "finbro": 3,
-    "ivy": 3,
-    "prep": 3,
-    "briish": 5,
-    "whitet": 2,
-    "logo": 3,
-    "western": 1,
-    "rock": 1,
-    "workwear": 3,
-    "outdoor": 2,
-    "surf": 1
+  "Dress shirt": {
+   "lp": "Turner Tailored Long-Sleeved Shirt",
+   "lu": "https://www.barbour.com/us/turner-tailored-long-sleeved-shirt-MSH5367NY91.html",
+   "hp": "Dunoon Tartan Authentic-Fit Long-Sleeved Shirt",
+   "hu": "https://www.barbour.com/us/dunoon-tartan-authentic-fit-long-sleeved-shirt-MSH5901TN43.html",
+   "b": "range"
   },
-  "why": "Waxed-cotton jackets, quilted jackets and country clothing; the company still rewaxes and repairs its jackets.",
-  "origin": "Founded in South Shields, England, in 1894 by John Barbour, making oilcloth for sailors and dockworkers.",
-  "chan": ["D", "I", "O"],
-  "conf": "S",
-  "forgc": [4, 4, 1],
-  "shop": "https://www.barbour.com/us/search?q=",
-  "onething": {
-    "p": "Bedale",
-    "u": "https://www.barbour.com/us/search?q=Bedale",
-    "n": "own-site search, not opened from this environment. Bedale over Beaufort: the shorter cut is the one that left the moor, where Beaufort's length and game pocket still read as costume in a city"
+  "Dress pants": {
+   "lp": "Fairford Herringbone Tailored Trousers",
+   "lu": "https://www.barbour.com/us/fairford-herringbone-tailored-trousers-MTR0809NY91.html",
+   "hp": "Carlton Wool-Cashmere Tailored Trousers",
+   "hu": "https://www.barbour.com/us/carlton-wool-cashmere-tailored-trousers-MTR0810BR76.html",
+   "b": "range"
   },
-  "prices": [[50, 70], [85, 115], [100, 160], null, [270, 270], [120, 330], [180, 745], [195, 245]],
-  "notes": {
-    "craft": "Barbour does own its South Shields factory: its history page says the Bedale and Beaufort wax jackets are still made there by hand, and rewaxing and repairs are done there. But its own supply-chain page says it makes 'in the UK, Europe and Asia', and its October 2025 Tier 1 list puts South Shields as one of about 136 finished-goods factories in about 16 countries. Owned making covers the classic wax jackets only, not the range, so it is a 4.",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 4; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "dur": "Waxed cotton that the company will rewax and repair for the life of the jacket.",
-    "briish": "A South Shields company holding royal warrants, dressing the British countryside since 1894."
+  "Sweater": {
+   "lp": "Pima Cotton Crew Neck Jumper",
+   "lu": "https://www.barbour.com/us/pima-cotton-crew-neck-jumper-MKN0932GN13.html",
+   "hp": "Scottish Made Cable-Knit Wool Crew Neck Jumper",
+   "hu": "https://www.barbour.com/us/scottish-made-cable-knit-wool-crew-neck-jumper-MKN1769BL91.html",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 3,
-    "cities": [["New York", "NY", 1], ["Princeton", "NJ", 1], ["Washington", "DC", 1]],
-    "basis": "recapture 2026-09"
+  "Outerwear": {
+   "lp": "Langdale Fleece Jacket",
+   "lu": "https://www.barbour.com/us/langdale-fleece-jacket-MFL0192OL72.html",
+   "hp": "Beacon Sports Waxed Jacket",
+   "hu": "https://www.barbour.com/us/beacon-sports-waxed-jacket-MWX0007OL71.html",
+   "b": "range"
   },
-  "cities": "3 stores — New York, Princeton, Washington · department stores and independent menswear shops, and its own site",
-  "region": {
-    "o": [413, 414],
-    "s": [6, 9, 12, 13, 21, 29, 33, 36, 53, 64, 69, 82, 86, 96, 126, 127, 128, 137, 138, 147, 150, 151, 152]
-  },
-  "addmen": true,
-  "addcloth": true,
-  "site": {
-    "domain": "barbour.com",
-    "platform": "salesforce_commerce",
-    "feed": "sitemap_products",
-    "feed_count": 757,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "house",
-    "marks": ["HOUSE: Sylkoil (waxed cotton)", "Thornproof (waxed cotton)", "Thermo Weave. LICENSED: none found"],
-    "source": "census",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 148,
-    "w": 148,
-    "n": 73,
-    "s": 26,
-    "c": 1,
-    "x": 12,
-    "xh": 2,
-    "sp": "split",
-    "sc": ["Outerwear"],
-    "nc": ["Shirts & Overshirts", "Knitwear", "Tailoring"],
-    "st": "complete"
-  },
-  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Dress pants", "Sweater", "Outerwear", "Shoes"],
-  "garment_links": {
-    "T-shirt": "https://www.barbour.com/us/mens/mens-clothing/mens-t-shirts",
-    "Polo": "https://www.barbour.com/us/mens/mens-clothing/mens-polo-shirts",
-    "Dress shirt": "https://www.barbour.com/us/mens/mens-clothing/mens-shirts",
-    "Dress pants": "https://www.barbour.com/us/mens/mens-clothing/mens-pants-trousers",
-    "Sweater": "https://www.barbour.com/us/mens/mens-clothing/mens-knitwear",
-    "Outerwear": "https://www.barbour.com/us/mens/mens-jackets"
-  },
-  "price_checked": true,
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Script Graphic T-Shirt",
-      "lu": "https://www.barbour.com/us/script-graphic-t-shirt-MTS1347NY91.html",
-      "hp": "Washington Overdyed Logo Tailored T-Shirt",
-      "hu": "https://www.barbour.com/us/washington-overdyed-logo-tailored-t-shirt-MTS1619OL56.html",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Tartan Pique Polo Shirt",
-      "lu": "https://www.barbour.com/us/tartan-pique-polo-shirt-MML0012TE13.html",
-      "hp": "Stately Polo Shirt",
-      "hu": "https://www.barbour.com/us/stately-polo-shirt-MML1583GY97.html",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Turner Tailored Long-Sleeved Shirt",
-      "lu": "https://www.barbour.com/us/turner-tailored-long-sleeved-shirt-MSH5367NY91.html",
-      "hp": "Dunoon Tartan Authentic-Fit Long-Sleeved Shirt",
-      "hu": "https://www.barbour.com/us/dunoon-tartan-authentic-fit-long-sleeved-shirt-MSH5901TN43.html",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Fairford Herringbone Tailored Trousers",
-      "lu": "https://www.barbour.com/us/fairford-herringbone-tailored-trousers-MTR0809NY91.html",
-      "hp": "Carlton Wool-Cashmere Tailored Trousers",
-      "hu": "https://www.barbour.com/us/carlton-wool-cashmere-tailored-trousers-MTR0810BR76.html",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Pima Cotton Crew Neck Jumper",
-      "lu": "https://www.barbour.com/us/pima-cotton-crew-neck-jumper-MKN0932GN13.html",
-      "hp": "Scottish Made Cable-Knit Wool Crew Neck Jumper",
-      "hu": "https://www.barbour.com/us/scottish-made-cable-knit-wool-crew-neck-jumper-MKN1769BL91.html",
-      "b": "range"
-    },
-    "Outerwear": {
-      "lp": "Langdale Fleece Jacket",
-      "lu": "https://www.barbour.com/us/langdale-fleece-jacket-MFL0192OL72.html",
-      "hp": "Beacon Sports Waxed Jacket",
-      "hu": "https://www.barbour.com/us/beacon-sports-waxed-jacket-MWX0007OL71.html",
-      "b": "range"
-    },
-    "Shoes": {
-      "lp": "Re-Engineered Deck Boat Shoes",
-      "lu": "https://www.barbour.com/us/re-engineered-deck-boat-shoes-MFO0795BR74.html",
-      "hp": "Shawdon Chukka Boots",
-      "hu": "https://www.barbour.com/us/shawdon-chukka-boots-MFO0851BR79.html",
-      "b": "range"
-    }
-  },
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.barbour.com/us/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=46805&brand_ids[]=959088&brand_ids[]=4734513",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "season": {
-    "l": "AW26",
-    "t": "campaign",
-    "u": "https://www.barbour.com/us/original-authentic-tartans.html",
-    "m": "unisex"
-  },
-  "craft_evidence": {
-    "owned": "yes",
-    "owned_d": "J. Barbour & Sons' own factory at Simonside, South Shields (on site since 1981). Barbour's history page says it makes the Bedale and Beaufort wax jackets there 'by hand' and does rewax, repair and quilt repair there too. That is a narrow slice of the range: the October 2025 Tier 1 finished-goods list (linked from barbour.com/supply-chain.html) lists J. Barbour and Sons Ltd, South Shields, as one of about 136 finished-goods factories (WebFetch summary). The others include about 9 more UK sites (LS Manufacturing in Wolverhampton; Harley of Scotland and Eskvalley Knitwear for knits; British Millerain and Abraham Moon among the accessories makers) plus many in Portugal, India, China, Vietnam, Bulgaria, Turkey and other countries. The supply-chain page says 'we now make our products in the UK, Europe and Asia'. Press (Shields Gazette, Aug 2019, quoting supply-chain director Ian Sime): about 650 jackets a day, 'traditional wax jackets' made in South Shields.",
-    "makers": "some",
-    "mills": "no",
-    "madein": "NC",
-    "countries": "No country of make appeared on 5 waxed-jacket PDPs (4 on barbour.com/us, 1 on /gb). Origin may sit in a collapsed tab the fetch could not see, so I did not record 'none'. Non-wax categories were not sampled. At company level: UK, Europe and Asia (supply-chain page). The Tier 1 list covers about 16 countries, including the UK, Portugal, India, China, Vietnam, Bulgaria, Turkey, Moldova, Mauritius and Indonesia.",
-    "heritage": "dated and placed",
-    "repair": "yes",
-    "process": "some",
-    "urls": ["https://www.barbour.com/us/our-history.html", "https://www.barbour.com/supply-chain.html"],
-    "conf": "high",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Re-Engineered Deck Boat Shoes",
+   "lu": "https://www.barbour.com/us/re-engineered-deck-boat-shoes-MFO0795BR74.html",
+   "hp": "Shawdon Chukka Boots",
+   "hu": "https://www.barbour.com/us/shawdon-chukka-boots-MFO0851BR79.html",
+   "b": "range"
   }
+ },
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.barbour.com/us/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=46805&brand_ids[]=959088&brand_ids[]=4734513",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "season": {
+  "l": "AW26",
+  "t": "campaign",
+  "u": "https://www.barbour.com/us/original-authentic-tartans.html",
+  "m": "unisex"
+ },
+ "craft_evidence": {
+  "owned": "yes",
+  "owned_d": "J. Barbour & Sons' own factory at Simonside, South Shields (on site since 1981). Barbour's history page says it makes the Bedale and Beaufort wax jackets there 'by hand' and does rewax, repair and quilt repair there too. That is a narrow slice of the range: the October 2025 Tier 1 finished-goods list (linked from barbour.com/supply-chain.html) lists J. Barbour and Sons Ltd, South Shields, as one of about 136 finished-goods factories (WebFetch summary). The others include about 9 more UK sites (LS Manufacturing in Wolverhampton; Harley of Scotland and Eskvalley Knitwear for knits; British Millerain and Abraham Moon among the accessories makers) plus many in Portugal, India, China, Vietnam, Bulgaria, Turkey and other countries. The supply-chain page says 'we now make our products in the UK, Europe and Asia'. Press (Shields Gazette, Aug 2019, quoting supply-chain director Ian Sime): about 650 jackets a day, 'traditional wax jackets' made in South Shields.",
+  "makers": "some",
+  "mills": "no",
+  "madein": "NC",
+  "countries": "No country of make appeared on 5 waxed-jacket PDPs (4 on barbour.com/us, 1 on /gb). Origin may sit in a collapsed tab the fetch could not see, so I did not record 'none'. Non-wax categories were not sampled. At company level: UK, Europe and Asia (supply-chain page). The Tier 1 list covers about 16 countries, including the UK, Portugal, India, China, Vietnam, Bulgaria, Turkey, Moldova, Mauritius and Indonesia.",
+  "heritage": "dated and placed",
+  "repair": "yes",
+  "process": "some",
+  "urls": [
+   "https://www.barbour.com/us/our-history.html",
+   "https://www.barbour.com/supply-chain.html"
+  ],
+  "conf": "high",
+  "read": "2026-10-03"
+ }
 }

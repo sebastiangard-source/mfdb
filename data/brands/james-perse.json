@@ -1,223 +1,376 @@
 {
-  "name": "James Perse",
-  "band": "premium",
-  "seat": 57,
-  "dagger": 0,
-  "focus": {
-    "tech": 1,
-    "comfort": 5,
-    "craft": 2,
-    "style": 4
+ "name": "James Perse",
+ "band": "premium",
+ "seat": 57,
+ "dagger": 0,
+ "focus": {
+  "tech": 1,
+  "comfort": 5,
+  "craft": 2,
+  "style": 4
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 3,
+  "linen": 2,
+  "cotton": 4,
+  "wool": 1,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 2,
+  "forg": 3,
+  "fuss": 0,
+  "status": 2,
+  "finbro": 2,
+  "murica": 3,
+  "whitet": 5,
+  "logo": 1,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 2
+ },
+ "why": "Soft jersey tees, sweats and casual clothing in muted colors, made largely in Los Angeles.",
+ "origin": "Founded in Los Angeles in 1994 by James Perse, whose father founded the store Maxfield.",
+ "chan": [
+  "O",
+  "D"
+ ],
+ "conf": "L",
+ "forgc": [
+  4,
+  3,
+  1
+ ],
+ "shop": "https://www.jamesperse.com/search?q=",
+ "onething": {
+  "p": "Short Sleeve Crew Neck",
+  "u": "https://www.jamesperse.com/products/short-sleeve-crew-neck-mlj3311-white",
+  "n": "direct product page — style MLJ3311, the house names it without the word tee"
+ },
+ "prices": [
+  [
+   80,
+   250
+  ],
+  [
+   135,
+   425
+  ],
+  [
+   145,
+   625
+  ],
+  [
+   495,
+   595
+  ],
+  [
+   325,
+   750
+  ],
+  [
+   325,
+   595
+  ],
+  [
+   425,
+   1995
+  ],
+  [
+   450,
+   1095
+  ]
+ ],
+ "notes": {
+  "cotton": "luxe Supima jersey as the whole brand",
+  "comfort": "hand-first basics",
+  "whitet": "Built on the soft jersey tee; everything else followed.",
+  "reach": "[authored findability score was 4; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "The brand's own pages say nothing checkable about where clothes are made: PDPs give fabric origin (USA cotton, Italian corduroy) but no country of make, and the only manufacturing text refers to inspected outside 'Suppliers'. The reported owned LA factory is not stated anywhere on jamesperse.com. [audit proposed 1 at low confidence; held at 2 pending a second read]"
+ },
+ "doors": {
+  "c": "full",
+  "n": 24,
+  "cities": [
+   [
+    "Aspen",
+    "CO",
+    1
+   ],
+   [
+    "Bal Harbour",
+    "FL",
+    1
+   ],
+   [
+    "Beverly Hills",
+    "CA",
+    1
+   ],
+   [
+    "Dallas",
+    "TX",
+    1
+   ],
+   [
+    "East Hampton",
+    "NY",
+    1
+   ],
+   [
+    "Greenwich",
+    "CT",
+    1
+   ],
+   [
+    "Larkspur",
+    "CA",
+    1
+   ],
+   [
+    "Las Vegas",
+    "NV",
+    1
+   ],
+   [
+    "Los Angeles",
+    "CA",
+    1
+   ],
+   [
+    "Malibu",
+    "CA",
+    1
+   ],
+   [
+    "Miami",
+    "FL",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    4
+   ],
+   [
+    "Newport Beach",
+    "CA",
+    1
+   ],
+   [
+    "Palm Beach",
+    "FL",
+    1
+   ],
+   [
+    "San Diego",
+    "CA",
+    1
+   ],
+   [
+    "Santa Barbara",
+    "CA",
+    1
+   ],
+   [
+    "Santa Monica",
+    "CA",
+    1
+   ],
+   [
+    "Scottsdale",
+    "AZ",
+    1
+   ],
+   [
+    "Studio City",
+    "CA",
+    1
+   ],
+   [
+    "West Hollywood",
+    "CA",
+    1
+   ],
+   [
+    "Wilmette",
+    "IL",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 0,
+  "con": 10
+ },
+ "cities": "24 stores across the US · department stores and independent menswear shops, and its own site",
+ "region": {
+  "o": [
+   1914,
+   1915,
+   1917,
+   1925,
+   1927,
+   1929
+  ],
+  "s": [
+   44,
+   53,
+   60,
+   124
+  ]
+ },
+ "addmen": true,
+ "site": {
+  "domain": "jamesperse.com",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 1856,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "unclear",
+  "marks": [
+   "PrimaLoft (R)",
+   "Supima (R)",
+   "Lycra (R)",
+   "TENCEL"
+  ],
+  "source": "flag_sample",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 278,
+  "w": 278,
+  "n": 91,
+  "s": 9,
+  "c": 0,
+  "x": 22,
+  "xh": 6,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "Sweater Knits",
+   "Pants",
+   "Shorts"
+  ],
+  "st": "complete"
+ },
+ "garment_links": {
+  "T-shirt": "https://www.jamesperse.com/collections/mens-t-shirts",
+  "Polo": "https://www.jamesperse.com/collections/mens-polos",
+  "Dress shirt": "https://www.jamesperse.com/collections/mens-shirting",
+  "Jeans": "https://www.jamesperse.com/collections/mens-denim-pants",
+  "Dress pants": "https://www.jamesperse.com/collections/mens-pants-trousers",
+  "Sweater": "https://www.jamesperse.com/collections/mens-sweaters-cashmere",
+  "Outerwear": "https://www.jamesperse.com/collections/mens-jackets-outerwear",
+  "Shoes": "https://www.jamesperse.com/collections/mens-all-shoes"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Short Sleeve Crew Neck",
+   "lu": "https://www.jamesperse.com/products/short-sleeve-crew-neck-azure-pigment-mlj3311",
+   "hp": "Cotton Cashmere Short Sleeve Tee",
+   "hu": "https://www.jamesperse.com/products/cotton-cashmere-short-sleeve-tee-fog-mcch3825",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 3,
-    "linen": 2,
-    "cotton": 4,
-    "wool": 1,
-    "synth": 1
+  "Polo": {
+   "lp": "Sueded Jersey Polo",
+   "lu": "https://www.jamesperse.com/products/sueded-jersey-polo-heat-msx3337",
+   "hp": "Palm Print Performance Pique Polo",
+   "hu": "https://www.jamesperse.com/products/palm-print-performance-pique-polo-navy-print-mdpp3804",
+   "b": "range"
   },
-  "dials": {
-    "dur": 2,
-    "forg": 3,
-    "fuss": 0,
-    "status": 2,
-    "finbro": 2,
-    "murica": 3,
-    "whitet": 5,
-    "logo": 1,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 2
+  "Dress shirt": {
+   "lp": "Standard Shirt",
+   "lu": "https://www.jamesperse.com/products/standard-shirt-light-olive-pigment-mlc3408",
+   "hp": "Cotton Cashmere Shirt",
+   "hu": "https://www.jamesperse.com/products/cotton-cashmere-shirt-coyote-mfcw3927",
+   "b": "range"
   },
-  "why": "Soft jersey tees, sweats and casual clothing in muted colors, made largely in Los Angeles.",
-  "origin": "Founded in Los Angeles in 1994 by James Perse, whose father founded the store Maxfield.",
-  "chan": ["O", "D"],
-  "conf": "L",
-  "forgc": [4, 3, 1],
-  "shop": "https://www.jamesperse.com/search?q=",
-  "onething": {
-    "p": "Short Sleeve Crew Neck",
-    "u": "https://www.jamesperse.com/products/short-sleeve-crew-neck-mlj3311-white",
-    "n": "direct product page — style MLJ3311, the house names it without the word tee"
+  "Jeans": {
+   "lp": "Black Denim 5 Pocket Pant",
+   "lu": "https://www.jamesperse.com/products/black-denim-5-pocket-pant-black-mvbd1416",
+   "hp": "Classic Selvedge Denim Pant",
+   "hu": "https://www.jamesperse.com/products/classic-selvedge-denim-pant-blue-pacific-mrsd1452",
+   "b": "range"
   },
-  "prices": [[80, 250], [135, 425], [145, 625], [495, 595], [325, 750], [325, 595], [425, 1995], [450, 1095]],
-  "notes": {
-    "cotton": "luxe Supima jersey as the whole brand",
-    "comfort": "hand-first basics",
-    "whitet": "Built on the soft jersey tee; everything else followed.",
-    "reach": "[authored findability score was 4; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "The brand's own pages say nothing checkable about where clothes are made: PDPs give fabric origin (USA cotton, Italian corduroy) but no country of make, and the only manufacturing text refers to inspected outside 'Suppliers'. The reported owned LA factory is not stated anywhere on jamesperse.com. [audit proposed 1 at low confidence; held at 2 pending a second read]"
+  "Dress pants": {
+   "lp": "Herringbone Twill Trouser",
+   "lu": "https://www.jamesperse.com/products/herringbone-twill-trouser-blue-noir-pigment-mmht1357",
+   "hp": "Suede Trim Wool Drawstring Trouser",
+   "hu": "https://www.jamesperse.com/products/suede-trim-wool-drawstring-trouser-heather-grey-mfcz1494",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 24,
-    "cities": [
-      ["Aspen", "CO", 1],
-      ["Bal Harbour", "FL", 1],
-      ["Beverly Hills", "CA", 1],
-      ["Dallas", "TX", 1],
-      ["East Hampton", "NY", 1],
-      ["Greenwich", "CT", 1],
-      ["Larkspur", "CA", 1],
-      ["Las Vegas", "NV", 1],
-      ["Los Angeles", "CA", 1],
-      ["Malibu", "CA", 1],
-      ["Miami", "FL", 1],
-      ["New York", "NY", 4],
-      ["Newport Beach", "CA", 1],
-      ["Palm Beach", "FL", 1],
-      ["San Diego", "CA", 1],
-      ["Santa Barbara", "CA", 1],
-      ["Santa Monica", "CA", 1],
-      ["Scottsdale", "AZ", 1],
-      ["Studio City", "CA", 1],
-      ["West Hollywood", "CA", 1],
-      ["Wilmette", "IL", 1]
-    ],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Sweater": {
+   "lp": "Cotton Cashmere Raglan Crew",
+   "lu": "https://www.jamesperse.com/products/cotton-cashmere-raglan-crew-admiral-mocc3887",
+   "hp": "Marled Cashmere Linen Crew",
+   "hu": "https://www.jamesperse.com/products/marled-cashmere-linen-crew-pearl-mcal3842",
+   "b": "pair"
   },
-  "cities": "24 stores across the US · department stores and independent menswear shops, and its own site",
-  "region": {
-    "o": [1289, 1295, 1296, 1297, 1298, 1299],
-    "s": [44, 53, 60, 124]
+  "Outerwear": {
+   "lp": "Cotton Linen Twill Trucker Jacket",
+   "lu": "https://www.jamesperse.com/products/cotton-linen-twill-trucker-jacket-magma-pigment-mrht2245",
+   "hp": "Suede Trucker Jacket",
+   "hu": "https://www.jamesperse.com/products/suede-trucker-jacket-caribou-mmws2199",
+   "b": "pair"
   },
-  "addmen": true,
-  "site": {
-    "domain": "jamesperse.com",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 1856,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "unclear",
-    "marks": ["PrimaLoft (R)", "Supima (R)", "Lycra (R)", "TENCEL"],
-    "source": "flag_sample",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 278,
-    "w": 278,
-    "n": 91,
-    "s": 9,
-    "c": 0,
-    "x": 22,
-    "xh": 6,
-    "sp": "one",
-    "sc": [],
-    "nc": ["Sweater Knits", "Pants", "Shorts"],
-    "st": "complete"
-  },
-  "garment_links": {
-    "T-shirt": "https://www.jamesperse.com/collections/mens-t-shirts",
-    "Polo": "https://www.jamesperse.com/collections/mens-polos",
-    "Dress shirt": "https://www.jamesperse.com/collections/mens-shirting",
-    "Jeans": "https://www.jamesperse.com/collections/mens-denim-pants",
-    "Dress pants": "https://www.jamesperse.com/collections/mens-pants-trousers",
-    "Sweater": "https://www.jamesperse.com/collections/mens-sweaters-cashmere",
-    "Outerwear": "https://www.jamesperse.com/collections/mens-jackets-outerwear",
-    "Shoes": "https://www.jamesperse.com/collections/mens-all-shoes"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Short Sleeve Crew Neck",
-      "lu": "https://www.jamesperse.com/products/short-sleeve-crew-neck-azure-pigment-mlj3311",
-      "hp": "Cotton Cashmere Short Sleeve Tee",
-      "hu": "https://www.jamesperse.com/products/cotton-cashmere-short-sleeve-tee-fog-mcch3825",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Sueded Jersey Polo",
-      "lu": "https://www.jamesperse.com/products/sueded-jersey-polo-heat-msx3337",
-      "hp": "Palm Print Performance Pique Polo",
-      "hu": "https://www.jamesperse.com/products/palm-print-performance-pique-polo-navy-print-mdpp3804",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Standard Shirt",
-      "lu": "https://www.jamesperse.com/products/standard-shirt-light-olive-pigment-mlc3408",
-      "hp": "Cotton Cashmere Shirt",
-      "hu": "https://www.jamesperse.com/products/cotton-cashmere-shirt-coyote-mfcw3927",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Black Denim 5 Pocket Pant",
-      "lu": "https://www.jamesperse.com/products/black-denim-5-pocket-pant-black-mvbd1416",
-      "hp": "Classic Selvedge Denim Pant",
-      "hu": "https://www.jamesperse.com/products/classic-selvedge-denim-pant-blue-pacific-mrsd1452",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Herringbone Twill Trouser",
-      "lu": "https://www.jamesperse.com/products/herringbone-twill-trouser-blue-noir-pigment-mmht1357",
-      "hp": "Suede Trim Wool Drawstring Trouser",
-      "hu": "https://www.jamesperse.com/products/suede-trim-wool-drawstring-trouser-heather-grey-mfcz1494",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Cotton Cashmere Raglan Crew",
-      "lu": "https://www.jamesperse.com/products/cotton-cashmere-raglan-crew-admiral-mocc3887",
-      "hp": "Marled Cashmere Linen Crew",
-      "hu": "https://www.jamesperse.com/products/marled-cashmere-linen-crew-pearl-mcal3842",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "Cotton Linen Twill Trucker Jacket",
-      "lu": "https://www.jamesperse.com/products/cotton-linen-twill-trucker-jacket-magma-pigment-mrht2245",
-      "hp": "Suede Trucker Jacket",
-      "hu": "https://www.jamesperse.com/products/suede-trucker-jacket-caribou-mmws2199",
-      "b": "pair"
-    },
-    "Shoes": {
-      "lp": "Men's Suede Slip On Loafer",
-      "lu": "https://www.jamesperse.com/products/mens-suede-slip-on-loafer-cafe-smtsu8430",
-      "hp": "Men's Soft Suede Loafer",
-      "hu": "https://www.jamesperse.com/products/mens-soft-suede-loafer-black-smsfy8501",
-      "b": "pair"
-    }
-  },
-  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.jamesperse.com/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "Y/OSEMITE (sold under James Perse, counted where it falls in a garment)"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=114134",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "craft_evidence": {
-    "owned": "unclear",
-    "owned_d": "Reported own LA factory NOT verified: headquarters and operations-center pages are photo galleries with no text; social-responsibility page speaks only of 'Suppliers who manufacture our products' inspected by independent firms; careers page mentions no production. No brand statement of an owned factory found.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "none",
-    "countries": "No country of make on 4 rendered PDPs (polo, suede bomber, tee, plus corduroy pant text via products.json); fabric origins Italy/USA only. Possible hidden accordion not excluded.",
-    "heritage": "vague",
-    "repair": "no",
-    "process": "no",
-    "urls": [
-      "https://www.jamesperse.com/pages/social-responsibility",
-      "https://www.jamesperse.com/products/sueded-jersey-polo-azure-pigment-msx3337"
-    ],
-    "conf": "low",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Men's Suede Slip On Loafer",
+   "lu": "https://www.jamesperse.com/products/mens-suede-slip-on-loafer-cafe-smtsu8430",
+   "hp": "Men's Soft Suede Loafer",
+   "hu": "https://www.jamesperse.com/products/mens-soft-suede-loafer-black-smsfy8501",
+   "b": "pair"
   }
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.jamesperse.com/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "Y/OSEMITE (sold under James Perse, counted where it falls in a garment)"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=114134",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "craft_evidence": {
+  "owned": "unclear",
+  "owned_d": "Reported own LA factory NOT verified: headquarters and operations-center pages are photo galleries with no text; social-responsibility page speaks only of 'Suppliers who manufacture our products' inspected by independent firms; careers page mentions no production. No brand statement of an owned factory found.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "none",
+  "countries": "No country of make on 4 rendered PDPs (polo, suede bomber, tee, plus corduroy pant text via products.json); fabric origins Italy/USA only. Possible hidden accordion not excluded.",
+  "heritage": "vague",
+  "repair": "no",
+  "process": "no",
+  "urls": [
+   "https://www.jamesperse.com/pages/social-responsibility",
+   "https://www.jamesperse.com/products/sueded-jersey-polo-azure-pigment-msx3337"
+  ],
+  "conf": "low",
+  "read": "2026-10-03"
+ }
 }

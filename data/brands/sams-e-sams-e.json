@@ -1,218 +1,269 @@
 {
-  "name": "Samsøe Samsøe",
-  "band": "accessible",
-  "seat": 71,
-  "dagger": 0,
-  "focus": {
-    "tech": 2,
-    "comfort": 3,
-    "craft": 2,
-    "style": 4
+ "name": "Samsøe Samsøe",
+ "band": "accessible",
+ "seat": 71,
+ "dagger": 0,
+ "focus": {
+  "tech": 2,
+  "comfort": 3,
+  "craft": 2,
+  "style": 4
+ },
+ "fabric": {
+  "denim": 3,
+  "cashmere": 2,
+  "linen": 2,
+  "cotton": 4,
+  "wool": 3,
+  "synth": 2
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 3,
+  "fuss": 1,
+  "scandi": 5,
+  "whitet": 2,
+  "logo": 1,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Casual clothing in muted colors at mid prices, in a Scandinavian style.",
+ "origin": "Founded in Copenhagen in 1993 by Klaus and Preben Samsøe as a jewelry shop; sold in 2000 and built into a clothing company.",
+ "say": "SAM-suh SAM-suh",
+ "chan": [
+  "W",
+  "I"
+ ],
+ "conf": "L",
+ "forgc": [
+  3,
+  3,
+  1
+ ],
+ "onething": {
+  "p": "Merino crew knit",
+  "u": "",
+  "n": "the category the house grew out of jewelry to make, and still the clearest statement of the register. NO LINK — no US-facing product page verified in this pass"
+ },
+ "prices": [
+  [
+   55,
+   135
+  ],
+  [
+   145,
+   210
+  ],
+  [
+   130,
+   255
+  ],
+  [
+   225,
+   300
+  ],
+  [
+   150,
+   280
+  ],
+  [
+   170,
+   380
+  ],
+  [
+   180,
+   975
+  ],
+  [
+   330,
+   450
+  ]
+ ],
+ "price_checked": true,
+ "notes": {
+  "scandi": "the register is the entire proposition, and the house says so in its own words rather than leaving it to be read",
+  "style": "muted palette and utilitarian silhouettes carried consistently rather than reinvented seasonally",
+  "reach": "large in Northern Europe, thin in the US, where it arrives through specialty shops [authored findability score was 2; retired 28 Sep 2026]",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "Samsøe Samsøe owns no production and names no factories; its CSR Report 2025 gives only country shares (China ~40%, Turkey ~25%) across 94 independent manufacturers. Product pages read show composition and certifications but no factory, mill or visible country. Country-level disclosure only, so 2."
+ },
+ "doors": {
+  "c": "full",
+  "n": 0,
+  "cities": [],
+  "basis": "positive zero 2026-09-23"
+ },
+ "cities": "No store of its own in the US · independent menswear shops, and its own site",
+ "site": {
+  "domain": "samsoe.com",
+  "platform": "custom",
+  "feed": "sitemap_products",
+  "feed_count": 1133,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "licensed",
+  "marks": [
+   "GORE-TEX",
+   "WINDSTOPPER",
+   "PrimaLoft",
+   "Thermore (EVOdown, ThermoPlume)",
+   "TENCEL",
+   "LENZING ECOVERO",
+   "Naia",
+   "CIRCULOSE",
+   "European Flax",
+   "Manteco MWool",
+   "Oleatex"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 123,
+  "w": 118,
+  "n": 74,
+  "s": 15,
+  "c": 7,
+  "x": 15,
+  "xh": 3,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "Shirts",
+   "Tops & T-shirts",
+   "Jackets & Coats"
+  ],
+  "st": "complete"
+ },
+ "shop": "https://www.samsoe.com/en-US/search?q=",
+ "garment_links": {
+  "T-shirt": "https://www.samsoe.com/en-US/category/men/clothing/tops-t-shirts/short-sleeved-tops",
+  "Polo": "https://www.samsoe.com/en-US/category/men/clothing/tops-t-shirts/polos",
+  "Dress shirt": "https://www.samsoe.com/en-US/category/men/clothing/shirts/long-sleeved-shirts",
+  "Jeans": "https://www.samsoe.com/en-US/category/men/clothing/jeans",
+  "Dress pants": "https://www.samsoe.com/en-US/category/men/clothing/trousers",
+  "Sweater": "https://www.samsoe.com/en-US/category/men/clothing/knitwear",
+  "Outerwear": "https://www.samsoe.com/en-US/category/men/clothing/jackets-coats",
+  "Shoes": "https://www.samsoe.com/en-US/category/men/accessories/shoes"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Sakronos t-shirt 16373 White",
+   "lu": "https://www.samsoe.com/en-US/product/sakronos-t-shirt-16373-white",
+   "hp": "Sathomas t-shirt 15489 Black",
+   "hu": "https://www.samsoe.com/en-US/product/sathomas-t-shirt-15489-black",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 3,
-    "cashmere": 2,
-    "linen": 2,
-    "cotton": 4,
-    "wool": 3,
-    "synth": 2
+  "Polo": {
+   "lp": "Sakvistbro polo 11600 Salute (short-sleeved)",
+   "lu": "https://www.samsoe.com/en-US/product/sakvistbro-polo-11600-salute",
+   "hp": "Sapedro polo 15628 Desert Sage St. (short-sleeved knit)",
+   "hu": "https://www.samsoe.com/en-US/product/sapedro-polo-15628-desert-sage-st",
+   "b": "range"
   },
-  "dials": {
-    "dur": 3,
-    "forg": 3,
-    "fuss": 1,
-    "scandi": 5,
-    "whitet": 2,
-    "logo": 1,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
+  "Dress shirt": {
+   "lp": "Liam BX 8111 Light Blue",
+   "lu": "https://www.samsoe.com/en-US/product/liam-bx-8111-light-blue",
+   "hp": "Saluan AJ shirt 16197 Cream Floor",
+   "hu": "https://www.samsoe.com/en-US/product/saluan-aj-shirt-16197-cream-floor",
+   "b": "range"
   },
-  "why": "Casual clothing in muted colors at mid prices, in a Scandinavian style.",
-  "origin": "Founded in Copenhagen in 1993 by Klaus and Preben Samsøe as a jewelry shop; sold in 2000 and built into a clothing company.",
-  "say": "SAM-suh SAM-suh",
-  "chan": ["W", "I"],
-  "conf": "L",
-  "forgc": [3, 3, 1],
-  "onething": {
-    "p": "Merino crew knit",
-    "u": "",
-    "n": "the category the house grew out of jewelry to make, and still the clearest statement of the register. NO LINK — no US-facing product page verified in this pass"
+  "Jeans": {
+   "lp": "Eddie jeans 14605 Black rinse",
+   "lu": "https://www.samsoe.com/en-US/product/eddie-jeans-14605-black-rinse",
+   "hp": "Satimo jeans 16140 Mud wash",
+   "hu": "https://www.samsoe.com/en-US/product/satimo-jeans-16140-mud-wash",
+   "b": "range"
   },
-  "prices": [[55, 135], [145, 210], [130, 255], [225, 300], [150, 280], [170, 380], [180, 975], [330, 450]],
-  "price_checked": true,
-  "notes": {
-    "scandi": "the register is the entire proposition, and the house says so in its own words rather than leaving it to be read",
-    "style": "muted palette and utilitarian silhouettes carried consistently rather than reinvented seasonally",
-    "reach": "large in Northern Europe, thin in the US, where it arrives through specialty shops [authored findability score was 2; retired 28 Sep 2026]",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Samsøe Samsøe owns no production and names no factories; its CSR Report 2025 gives only country shares (China ~40%, Turkey ~25%) across 94 independent manufacturers. Product pages read show composition and certifications but no factory, mill or visible country. Country-level disclosure only, so 2."
+  "Dress pants": {
+   "lp": "Frankie pants 11686 Dark Grey Mel.",
+   "lu": "https://www.samsoe.com/en-US/product/frankie-pants-11686-dark-grey-mel",
+   "hp": "Sabertil trousers 15860 Dark Grey Mel.",
+   "hu": "https://www.samsoe.com/en-US/product/sabertil-trousers-15860-dark-grey-mel",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 0,
-    "cities": [],
-    "basis": "positive zero 2026-09-23"
+  "Sweater": {
+   "lp": "Sapatrik sweater 132 FOREST NIGHT",
+   "lu": "https://www.samsoe.com/en-US/product/sapatrik-sweater-132-forest-night",
+   "hp": "Nobis crew neck 6304 Salute (100% cashmere)",
+   "hu": "https://www.samsoe.com/en-US/product/nobis-crew-neck-6304-salute",
+   "b": "pair"
   },
-  "cities": "No store of its own in the US · independent menswear shops, and its own site",
-  "site": {
-    "domain": "samsoe.com",
-    "platform": "custom",
-    "feed": "sitemap_products",
-    "feed_count": 1133,
-    "status": "live_store",
-    "checked": "2026-09-13"
+  "Outerwear": {
+   "lp": "Sasteely jacket 15213 Black (rain jacket)",
+   "lu": "https://www.samsoe.com/en-US/product/sasteely-jacket-15213-black",
+   "hp": "Savince coat 16188 Dark Grey Mel.",
+   "hu": "https://www.samsoe.com/en-US/product/savince-coat-16188-dark-grey-mel",
+   "b": "range"
   },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "licensed",
-    "marks": [
-      "GORE-TEX",
-      "WINDSTOPPER",
-      "PrimaLoft",
-      "Thermore (EVOdown, ThermoPlume)",
-      "TENCEL",
-      "LENZING ECOVERO",
-      "Naia",
-      "CIRCULOSE",
-      "European Flax",
-      "Manteco MWool",
-      "Oleatex"
-    ],
-    "source": "census",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 123,
-    "w": 118,
-    "n": 74,
-    "s": 15,
-    "c": 7,
-    "x": 15,
-    "xh": 3,
-    "sp": "one",
-    "sc": [],
-    "nc": ["Shirts", "Tops & T-shirts", "Jackets & Coats"],
-    "st": "complete"
-  },
-  "shop": "https://www.samsoe.com/en-US/search?q=",
-  "garment_links": {
-    "T-shirt": "https://www.samsoe.com/en-US/category/men/clothing/tops-t-shirts/short-sleeved-tops",
-    "Polo": "https://www.samsoe.com/en-US/category/men/clothing/tops-t-shirts/polos",
-    "Dress shirt": "https://www.samsoe.com/en-US/category/men/clothing/shirts/long-sleeved-shirts",
-    "Jeans": "https://www.samsoe.com/en-US/category/men/clothing/jeans",
-    "Dress pants": "https://www.samsoe.com/en-US/category/men/clothing/trousers",
-    "Sweater": "https://www.samsoe.com/en-US/category/men/clothing/knitwear",
-    "Outerwear": "https://www.samsoe.com/en-US/category/men/clothing/jackets-coats",
-    "Shoes": "https://www.samsoe.com/en-US/category/men/accessories/shoes"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Sakronos t-shirt 16373 White",
-      "lu": "https://www.samsoe.com/en-US/product/sakronos-t-shirt-16373-white",
-      "hp": "Sathomas t-shirt 15489 Black",
-      "hu": "https://www.samsoe.com/en-US/product/sathomas-t-shirt-15489-black",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Sakvistbro polo 11600 Salute (short-sleeved)",
-      "lu": "https://www.samsoe.com/en-US/product/sakvistbro-polo-11600-salute",
-      "hp": "Sapedro polo 15628 Desert Sage St. (short-sleeved knit)",
-      "hu": "https://www.samsoe.com/en-US/product/sapedro-polo-15628-desert-sage-st",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Liam BX 8111 Light Blue",
-      "lu": "https://www.samsoe.com/en-US/product/liam-bx-8111-light-blue",
-      "hp": "Saluan AJ shirt 16197 Cream Floor",
-      "hu": "https://www.samsoe.com/en-US/product/saluan-aj-shirt-16197-cream-floor",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Eddie jeans 14605 Black rinse",
-      "lu": "https://www.samsoe.com/en-US/product/eddie-jeans-14605-black-rinse",
-      "hp": "Satimo jeans 16140 Mud wash",
-      "hu": "https://www.samsoe.com/en-US/product/satimo-jeans-16140-mud-wash",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Frankie pants 11686 Dark Grey Mel.",
-      "lu": "https://www.samsoe.com/en-US/product/frankie-pants-11686-dark-grey-mel",
-      "hp": "Sabertil trousers 15860 Dark Grey Mel.",
-      "hu": "https://www.samsoe.com/en-US/product/sabertil-trousers-15860-dark-grey-mel",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Sapatrik sweater 132 FOREST NIGHT",
-      "lu": "https://www.samsoe.com/en-US/product/sapatrik-sweater-132-forest-night",
-      "hp": "Nobis crew neck 6304 Salute (100% cashmere)",
-      "hu": "https://www.samsoe.com/en-US/product/nobis-crew-neck-6304-salute",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "Sasteely jacket 15213 Black (rain jacket)",
-      "lu": "https://www.samsoe.com/en-US/product/sasteely-jacket-15213-black",
-      "hp": "Savince coat 16188 Dark Grey Mel.",
-      "hu": "https://www.samsoe.com/en-US/product/savince-coat-16188-dark-grey-mel",
-      "b": "range"
-    },
-    "Shoes": {
-      "lp": "Firo loafers 14859 Black",
-      "lu": "https://www.samsoe.com/en-US/product/firo-loafers-14859-black",
-      "hp": "Saalfreds loafer 15976 Black",
-      "hu": "https://www.samsoe.com/en-US/product/saalfreds-loafer-15976-black",
-      "b": "pair"
-    }
-  },
-  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants", "Outerwear"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.samsoe.com/en-US/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=87414",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "certs": {
-    "gots": {
-      "e": "SAMSØE SAMSØE WHOLESALES ApS (Denmark)"
-    }
-  },
-  "season": {
-    "l": "Autumn-Winter 2026 (AW26)",
-    "t": "campaign",
-    "u": "https://www.samsoe.com/en-US/our-space/collections/aw26-campaign",
-    "m": "yes"
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "CSR Report 2025 describes production with 'independent manufacturers' (94 manufacturers across 11 countries); no owned factory.",
-    "makers": "no",
-    "mills": "some",
-    "madein": "NC",
-    "countries": "No country visible on 5 PDPs (shirt, knit, trousers, coat, jeans); a collapsed 'Details & Care' tab may hold origin and could not be seen. CSR Report 2025 by order volume: China ~40%, Turkey ~25%, plus India, Portugal, Vietnam, Morocco and others (11 countries).",
-    "heritage": "dated and placed",
-    "repair": "no",
-    "process": "no",
-    "urls": [
-      "https://a.storyblok.com/f/274250/x/dd189d3db0/samsoe_samsoe_csr_report_2025.pdf",
-      "https://www.samsoe.com/our-space/how-we-care/our-people"
-    ],
-    "conf": "medium",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Firo loafers 14859 Black",
+   "lu": "https://www.samsoe.com/en-US/product/firo-loafers-14859-black",
+   "hp": "Saalfreds loafer 15976 Black",
+   "hu": "https://www.samsoe.com/en-US/product/saalfreds-loafer-15976-black",
+   "b": "pair"
   }
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants",
+  "Outerwear"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.samsoe.com/en-US/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=87414",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "certs": {
+  "gots": {
+   "e": "SAMSØE SAMSØE WHOLESALES ApS (Denmark)"
+  }
+ },
+ "season": {
+  "l": "Autumn-Winter 2026 (AW26)",
+  "t": "campaign",
+  "u": "https://www.samsoe.com/en-US/our-space/collections/aw26-campaign",
+  "m": "yes"
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "CSR Report 2025 describes production with 'independent manufacturers' (94 manufacturers across 11 countries); no owned factory.",
+  "makers": "no",
+  "mills": "some",
+  "madein": "NC",
+  "countries": "No country visible on 5 PDPs (shirt, knit, trousers, coat, jeans); a collapsed 'Details & Care' tab may hold origin and could not be seen. CSR Report 2025 by order volume: China ~40%, Turkey ~25%, plus India, Portugal, Vietnam, Morocco and others (11 countries).",
+  "heritage": "dated and placed",
+  "repair": "no",
+  "process": "no",
+  "urls": [
+   "https://a.storyblok.com/f/274250/x/dd189d3db0/samsoe_samsoe_csr_report_2025.pdf",
+   "https://www.samsoe.com/our-space/how-we-care/our-people"
+  ],
+  "conf": "medium",
+  "read": "2026-10-03"
+ }
 }

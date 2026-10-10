@@ -1,185 +1,236 @@
 {
-  "name": "AYR",
-  "band": "premium",
-  "seat": 46,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 3,
-    "craft": 3,
-    "style": 3
+ "name": "AYR",
+ "band": "premium",
+ "seat": 46,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 3,
+  "craft": 3,
+  "style": 3
+ },
+ "fabric": {
+  "denim": 4,
+  "cashmere": 2,
+  "linen": 2,
+  "cotton": 3,
+  "wool": 2,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 2,
+  "forg": 3,
+  "fuss": -3,
+  "murica": 2,
+  "ital": 2,
+  "whitet": 2,
+  "logo": 1,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Jeans made in Los Angeles, linen from an Irish family mill, and the factory named on every product page; the men's line launched in 2024.",
+ "origin": "Founded in New York in 2014 by Max Bonbrest and Jac Cameron, inside Bonobos; the name means All Year Round.",
+ "say": "AIR",
+ "chan": [
+  "O"
+ ],
+ "conf": "H",
+ "forgc": [
+  3,
+  3,
+  1
+ ],
+ "shop": "https://www.ayr.com/search?q=",
+ "onething": {
+  "p": "The Everyday shirt",
+  "u": "https://www.ayr.com/search?q=The%20Everyday%20shirt",
+  "n": "verified ✓"
+ },
+ "prices": [
+  [
+   88,
+   98
+  ],
+  [
+   125,
+   125
+  ],
+  [
+   225,
+   275
+  ],
+  [
+   245,
+   375
+  ],
+  [
+   265,
+   345
+  ],
+  [
+   265,
+   595
+  ],
+  [
+   395,
+   1400
+  ],
+  null
+ ],
+ "notes": {
+  "denim": "the pillar — made in LA for over a decade",
+  "cotton": "Peruvian cotton tees — the ingredient named, farmers-market style",
+  "craft": "AYR product pages describe the sewing factory (city, founding year, specialty, audit) without naming it — e.g. The Club and BLT Sweatshirt from a Shenzhen factory established in 1987 — and its fabrics page tells mill stories without mill names; one jacket names British Millerain. Nothing owned, so not a 4; the mills still do not have names.",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 1; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+ },
+ "doors": {
+  "c": "full",
+  "n": 0,
+  "cities": [],
+  "basis": "master 2026-08-29, pre-recapture"
+ },
+ "cities": "Sold direct, through its own site only",
+ "addmen": true,
+ "site": {
+  "domain": "ayr.com",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 193,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "unclear",
+  "marks": [
+   "CORDURA"
+  ],
+  "source": "flag_sample",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 73,
+  "w": 73,
+  "n": 97,
+  "s": 3,
+  "c": 0,
+  "x": 5,
+  "xh": 0,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "Knits",
+   "Outerwear & Jackets",
+   "Woven Shirts"
+  ],
+  "st": "complete"
+ },
+ "garment_links": {
+  "T-shirt": "https://www.ayr.com/collections/tees-menswear",
+  "Dress shirt": "https://www.ayr.com/collections/tops-menswear",
+  "Jeans": "https://www.ayr.com/collections/jeans-menswear",
+  "Dress pants": "https://www.ayr.com/collections/pants-shorts-menswear",
+  "Sweater": "https://www.ayr.com/collections/sweaters-menswear",
+  "Outerwear": "https://www.ayr.com/collections/jackets-menswear"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "The Original T",
+   "lu": "https://www.ayr.com/products/the-original-t",
+   "hp": "The Heavy T",
+   "hu": "https://www.ayr.com/products/the-heavy-t",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 4,
-    "cashmere": 2,
-    "linen": 2,
-    "cotton": 3,
-    "wool": 2,
-    "synth": 1
+  "Polo": {
+   "lp": "The Slice",
+   "lu": "https://www.ayr.com/products/the-slice",
+   "hp": "The Slice",
+   "hu": "https://www.ayr.com/products/the-slice",
+   "b": "single"
   },
-  "dials": {
-    "dur": 2,
-    "forg": 3,
-    "fuss": -3,
-    "murica": 2,
-    "ital": 2,
-    "whitet": 2,
-    "logo": 1,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
+  "Dress shirt": {
+   "lp": "The Everyday (Brushed Cotton Twill)",
+   "lu": "https://www.ayr.com/products/the-everyday-in-cool-wool",
+   "hp": "The Everyday (Merino Poplin Cool Wool)",
+   "hu": "https://www.ayr.com/products/the-everyday-1",
+   "b": "range"
   },
-  "why": "Jeans made in Los Angeles, linen from an Irish family mill, and the factory named on every product page; the men's line launched in 2024.",
-  "origin": "Founded in New York in 2014 by Max Bonbrest and Jac Cameron, inside Bonobos; the name means All Year Round.",
-  "say": "AIR",
-  "chan": ["O"],
-  "conf": "H",
-  "forgc": [3, 3, 1],
-  "shop": "https://www.ayr.com/search?q=",
-  "onething": {
-    "p": "The Everyday shirt",
-    "u": "https://www.ayr.com/search?q=The%20Everyday%20shirt",
-    "n": "verified ✓"
+  "Jeans": {
+   "lp": "The Normie (Ink)",
+   "lu": "https://www.ayr.com/products/the-normie",
+   "hp": "The Normie (Selvedge Ranchero)",
+   "hu": "https://www.ayr.com/products/the-normie",
+   "b": "range"
   },
-  "prices": [[88, 98], [125, 125], [225, 275], [245, 375], [265, 345], [265, 595], [395, 1400], null],
-  "notes": {
-    "denim": "the pillar — made in LA for over a decade",
-    "cotton": "Peruvian cotton tees — the ingredient named, farmers-market style",
-    "craft": "AYR product pages describe the sewing factory (city, founding year, specialty, audit) without naming it — e.g. The Club and BLT Sweatshirt from a Shenzhen factory established in 1987 — and its fabrics page tells mill stories without mill names; one jacket names British Millerain. Nothing owned, so not a 4; the mills still do not have names.",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 1; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional"
+  "Dress pants": {
+   "lp": "The Apollo Trouser",
+   "lu": "https://www.ayr.com/products/the-apollo-trouser",
+   "hp": "The Pal (Navy Chino)",
+   "hu": "https://www.ayr.com/products/the-pal-new",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 0,
-    "cities": [],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Sweater": {
+   "lp": "The Two-a-Days",
+   "lu": "https://www.ayr.com/products/the-two-a-days",
+   "hp": "The Fancy Boy",
+   "hu": "https://www.ayr.com/products/the-fancy-boy-in-cashmere",
+   "b": "range"
   },
-  "cities": "Sold direct, through its own site only",
-  "addmen": true,
-  "site": {
-    "domain": "ayr.com",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 193,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "unclear",
-    "marks": ["CORDURA"],
-    "source": "flag_sample",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 73,
-    "w": 73,
-    "n": 97,
-    "s": 3,
-    "c": 0,
-    "x": 5,
-    "xh": 0,
-    "sp": "one",
-    "sc": [],
-    "nc": ["Knits", "Outerwear & Jackets", "Woven Shirts"],
-    "st": "complete"
-  },
-  "garment_links": {
-    "T-shirt": "https://www.ayr.com/collections/tees-menswear",
-    "Dress shirt": "https://www.ayr.com/collections/tops-menswear",
-    "Jeans": "https://www.ayr.com/collections/jeans-menswear",
-    "Dress pants": "https://www.ayr.com/collections/pants-shorts-menswear",
-    "Sweater": "https://www.ayr.com/collections/sweaters-menswear",
-    "Outerwear": "https://www.ayr.com/collections/jackets-menswear"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "The Original T",
-      "lu": "https://www.ayr.com/products/the-original-t",
-      "hp": "The Heavy T",
-      "hu": "https://www.ayr.com/products/the-heavy-t",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "The Slice",
-      "lu": "https://www.ayr.com/products/the-slice",
-      "hp": "The Slice",
-      "hu": "https://www.ayr.com/products/the-slice",
-      "b": "single"
-    },
-    "Dress shirt": {
-      "lp": "The Everyday (Brushed Cotton Twill)",
-      "lu": "https://www.ayr.com/products/the-everyday-in-cool-wool",
-      "hp": "The Everyday (Merino Poplin Cool Wool)",
-      "hu": "https://www.ayr.com/products/the-everyday-1",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "The Normie (Ink)",
-      "lu": "https://www.ayr.com/products/the-normie",
-      "hp": "The Normie (Selvedge Ranchero)",
-      "hu": "https://www.ayr.com/products/the-normie",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "The Apollo Trouser",
-      "lu": "https://www.ayr.com/products/the-apollo-trouser",
-      "hp": "The Pal (Navy Chino)",
-      "hu": "https://www.ayr.com/products/the-pal-new",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "The Two-a-Days",
-      "lu": "https://www.ayr.com/products/the-two-a-days",
-      "hp": "The Fancy Boy",
-      "hu": "https://www.ayr.com/products/the-fancy-boy-in-cashmere",
-      "b": "range"
-    },
-    "Outerwear": {
-      "lp": "The Scrambler (Khaki)",
-      "lu": "https://www.ayr.com/products/the-scrambler",
-      "hp": "The Scrambler (leather)",
-      "hu": "https://www.ayr.com/products/the-scrambler-leather",
-      "b": "pair"
-    }
-  },
-  "price_range_only": ["T-shirt", "Dress shirt", "Jeans", "Dress pants", "Sweater"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.ayr.com/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?search_text=AYR&catalog[]=5",
-      "m": "text search",
-      "n": "Short name — text search will pull noise"
-    }
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "About page: 'independent clothing brand founded in New York City in 2014'; no owned facility. Denim made by an unnamed partner factory in Los Angeles ('our denim factory was just opening its doors' early 1990s; 'a factory just down the 405') — /pages/made-in-l-a-denim.",
-    "makers": "no",
-    "mills": "some",
-    "madein": "some",
-    "countries": "Stated 4/7 men's PDPs: China 3/7 (Ginza – Guangdong; Club, BLT Sweatshirt – Shenzhen), USA 1/7 (Normie – LA); none 3/7 (Original T, Big Softie, Everyday Shirt). Plus women's The Legend: California. Sample: jeans, tee, sweater, shirt, trousers, jacket, sweatshirt.",
-    "heritage": "dated and placed",
-    "repair": "NC",
-    "process": "some",
-    "urls": ["https://www.ayr.com/products/the-ginza", "https://www.ayr.com/pages/our-fabrics"],
-    "conf": "medium",
-    "read": "2026-10-03"
+  "Outerwear": {
+   "lp": "The Scrambler (Khaki)",
+   "lu": "https://www.ayr.com/products/the-scrambler",
+   "hp": "The Scrambler (leather)",
+   "hu": "https://www.ayr.com/products/the-scrambler-leather",
+   "b": "pair"
   }
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants",
+  "Sweater"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.ayr.com/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?search_text=AYR&catalog[]=5",
+   "m": "text search",
+   "n": "Short name — text search will pull noise"
+  }
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "About page: 'independent clothing brand founded in New York City in 2014'; no owned facility. Denim made by an unnamed partner factory in Los Angeles ('our denim factory was just opening its doors' early 1990s; 'a factory just down the 405') — /pages/made-in-l-a-denim.",
+  "makers": "no",
+  "mills": "some",
+  "madein": "some",
+  "countries": "Stated 4/7 men's PDPs: China 3/7 (Ginza – Guangdong; Club, BLT Sweatshirt – Shenzhen), USA 1/7 (Normie – LA); none 3/7 (Original T, Big Softie, Everyday Shirt). Plus women's The Legend: California. Sample: jeans, tee, sweater, shirt, trousers, jacket, sweatshirt.",
+  "heritage": "dated and placed",
+  "repair": "NC",
+  "process": "some",
+  "urls": [
+   "https://www.ayr.com/products/the-ginza",
+   "https://www.ayr.com/pages/our-fabrics"
+  ],
+  "conf": "medium",
+  "read": "2026-10-03"
+ }
 }

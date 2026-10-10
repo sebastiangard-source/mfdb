@@ -115,13 +115,8 @@
  },
  "doors": {
   "c": "full",
-  "n": 34,
+  "n": 33,
   "cities": [
-   [
-    "Ala Moana",
-    "HI",
-    1
-   ],
    [
     "Aspen",
     "CO",
@@ -173,19 +168,19 @@
     1
    ],
    [
+    "Honolulu",
+    "HI",
+    1
+   ],
+   [
     "Houston",
     "TX",
     1
    ],
    [
-    "Las Vegas City Center",
+    "Las Vegas",
     "NV",
-    1
-   ],
-   [
-    "Las Vegas Wynn",
-    "NV",
-    1
+    2
    ],
    [
     "Manhasset",
@@ -195,12 +190,7 @@
    [
     "Miami",
     "FL",
-    1
-   ],
-   [
-    "Miami Design District",
-    "FL",
-    1
+    2
    ],
    [
     "Montecito",
@@ -248,11 +238,6 @@
     1
    ],
    [
-    "San Marcos",
-    "TX",
-    1
-   ],
-   [
     "Scottsdale",
     "AZ",
     1
@@ -273,23 +258,25 @@
     1
    ]
   ],
-  "basis": "recapture 2026-09"
+  "basis": "recapture 2026-10-10",
+  "out": 1,
+  "con": 31
  },
- "cities": "34 stores across the US · department stores and independent menswear shops, and its own site",
+ "cities": "33 stores across the US · department stores and independent menswear shops, and its own site",
  "region": {
   "o": [
-   3187,
-   3188,
-   3191,
-   3192,
-   3193,
-   3194,
-   3195
+   820,
+   824,
+   828,
+   834,
+   835,
+   836,
+   843
   ],
   "s": [
    44,
    60,
-   3208
+   160
   ]
  },
  "addmen": true,

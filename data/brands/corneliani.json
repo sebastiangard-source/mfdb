@@ -1,217 +1,266 @@
 {
-  "name": "Corneliani",
-  "band": "trueLux",
-  "seat": 134,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 3,
-    "craft": 4,
-    "style": 3
-  },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 3,
-    "linen": 3,
-    "cotton": 2,
-    "wool": 4,
-    "synth": 1
-  },
-  "dials": {
-    "dur": 3,
-    "forg": 3,
-    "fuss": 3,
-    "golffice": -3,
-    "status": 2,
-    "finbro": 2,
-    "ital": 5,
-    "boat": 3,
-    "whitet": 2,
-    "logo": 1,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
-  },
-  "why": "Italian tailoring made in Mantua, less common in American stores than it once was.",
-  "origin": "Founded in Mantua in the 1930s by the Corneliani family.",
-  "say": "kor-neh-lee-AH-nee",
-  "chan": ["D", "I"],
-  "conf": "L",
-  "forgc": [2, 3, 4],
-  "onething": {
-    "p": "Identity Jacket",
-    "u": "https://www.corneliani.com/en_us/identity-jacket",
-    "n": "verified — the house's own page for the model, US locale. Launched in Mantua in 2005 and now twenty years old: an unstructured four-button jacket with a removable knitted bib in 120s merino and silk, cut in a wool-cashmere-Primaloft cloth the house developed itself and treated to shed rain. The point of it is that it answers to a suit and to a bike commute without changing"
-  },
-  "prices": [
-    [250, 825],
-    [295, 1050],
-    [350, 575],
-    [595, 825],
-    [475, 1150],
-    [595, 1125],
-    [1050, 4595],
-    [595, 975]
+ "name": "Corneliani",
+ "band": "trueLux",
+ "seat": 134,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 3,
+  "craft": 4,
+  "style": 3
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 3,
+  "linen": 3,
+  "cotton": 2,
+  "wool": 4,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 3,
+  "fuss": 3,
+  "golffice": -3,
+  "status": 2,
+  "finbro": 2,
+  "ital": 5,
+  "boat": 3,
+  "whitet": 2,
+  "logo": 1,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Italian tailoring made in Mantua, less common in American stores than it once was.",
+ "origin": "Founded in Mantua in the 1930s by the Corneliani family.",
+ "say": "kor-neh-lee-AH-nee",
+ "chan": [
+  "D",
+  "I"
+ ],
+ "conf": "L",
+ "forgc": [
+  2,
+  3,
+  4
+ ],
+ "onething": {
+  "p": "Identity Jacket",
+  "u": "https://www.corneliani.com/en_us/identity-jacket",
+  "n": "verified — the house's own page for the model, US locale. Launched in Mantua in 2005 and now twenty years old: an unstructured four-button jacket with a removable knitted bib in 120s merino and silk, cut in a wool-cashmere-Primaloft cloth the house developed itself and treated to shed rain. The point of it is that it answers to a suit and to a bike commute without changing"
+ },
+ "prices": [
+  [
+   250,
+   825
   ],
-  "notes": {
-    "ital": "Mantua tailoring at industrial scale, which is the harder trick. The house makes for others as well as itself, so its Italianness is partly infrastructural.",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 2; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Corneliani's own site says its Mantova factory, at via Panizza 5, still makes its garments. It documents the tailoring made there: 164 steps, about 540 hand stitches, seven inspections. Italian press on the factory's 2022 rescue confirms it is a real plant with a few hundred workers. Product pages name no maker or mill, and the shirts, knits and denim are not shown to come from that factory. Owned making that clearly covers tailoring and outerwear but is not shown for the whole range: a 4."
+  [
+   295,
+   1050
+  ],
+  [
+   350,
+   575
+  ],
+  [
+   595,
+   825
+  ],
+  [
+   475,
+   1150
+  ],
+  [
+   595,
+   1125
+  ],
+  [
+   1050,
+   4595
+  ],
+  [
+   595,
+   975
+  ]
+ ],
+ "notes": {
+  "ital": "Mantua tailoring at industrial scale, which is the harder trick. The house makes for others as well as itself, so its Italianness is partly infrastructural.",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 2; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "Corneliani's own site says its Mantova factory, at via Panizza 5, still makes its garments. It documents the tailoring made there: 164 steps, about 540 hand stitches, seven inspections. Italian press on the factory's 2022 rescue confirms it is a real plant with a few hundred workers. Product pages name no maker or mill, and the shirts, knits and denim are not shown to come from that factory. Owned making that clearly covers tailoring and outerwear but is not shown for the whole range: a 4."
+ },
+ "doors": {
+  "c": "full",
+  "n": 0,
+  "cities": [],
+  "basis": "master 2026-08-29, pre-recapture"
+ },
+ "cities": "No store of its own in the US · department stores and independent menswear shops, and its own site",
+ "region": {
+  "o": [],
+  "s": [
+   49,
+   11,
+   27
+  ]
+ },
+ "site": {
+  "domain": "corneliani.com",
+  "platform": "magento",
+  "feed": "sitemap_products",
+  "feed_count": 2911,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "licensed",
+  "marks": [
+   "PrimaLoft (brand page only",
+   "no shoppable PDP found)"
+  ],
+  "source": "screen_36",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 334,
+  "w": 333,
+  "n": 89,
+  "s": 9,
+  "c": 2,
+  "x": 19,
+  "xh": 6,
+  "sp": "one",
+  "sc": [
+   "ceremony-and-events"
+  ],
+  "nc": [
+   "polos and t-shirts",
+   "shirts",
+   "trousers"
+  ],
+  "st": "complete"
+ },
+ "garment_links": {
+  "T-shirt": "https://www.corneliani.com/en_us/mens-clothing/polos-and-t-shirts.html",
+  "Polo": "https://www.corneliani.com/en_us/mens-clothing/polos-and-t-shirts.html",
+  "Dress shirt": "https://www.corneliani.com/en_us/mens-clothing/shirts.html",
+  "Jeans": "https://www.corneliani.com/en_us/mens-clothing/jeans-sports-pants.html",
+  "Dress pants": "https://www.corneliani.com/en_us/mens-clothing/trousers.html",
+  "Sweater": "https://www.corneliani.com/en_us/mens-clothing/knitwear.html",
+  "Outerwear": "https://www.corneliani.com/en_us/mens-clothing/outerwear-coats.html",
+  "Shoes": "https://www.corneliani.com/en_us/mens-accessories-and-shoes/shoes.html"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Beige crew neck stretch cotton jersey t-shirt",
+   "lu": "https://www.corneliani.com/en_us/beige-crew-neck-stretch-cotton-jersey-t-shirt-27g585-2725038-029.html",
+   "hp": "China blue linen and silk crew neck t-shirt",
+   "hu": "https://www.corneliani.com/en_us/china-blue-linen-and-silk-crew-neck-t-shirt-25m547-2525111-002.html",
+   "b": "pair"
   },
-  "doors": {
-    "c": "full",
-    "n": 0,
-    "cities": [],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Polo": {
+   "lp": "Grey button-up lisle thread polo shirt",
+   "lu": "https://www.corneliani.com/en_us/grey-button-up-lisle-thread-polo-shirt-25g524-2525014-018.html",
+   "hp": "Grey buttonless pure silk polo shirt",
+   "hu": "https://www.corneliani.com/en_us/grey-buttonless-pure-silk-polo-shirt-27m541-2725170-019.html",
+   "b": "pair"
   },
-  "cities": "No store of its own in the US · department stores and independent menswear shops, and its own site",
-  "region": {
-    "o": [],
-    "s": [49, 11, 27]
+  "Dress shirt": {
+   "lp": "White cotton poplin shirt",
+   "lu": "https://www.corneliani.com/en_us/white-cotton-poplin-shirt-27p100-2711045-028.html",
+   "hp": "Light grey melange cotton flannel shirt with diagonal design",
+   "hu": "https://www.corneliani.com/en_us/light-grey-melange-cotton-flannel-shirt-with-diagonal-design-28p156-2a11510-016.html",
+   "b": "range"
   },
-  "site": {
-    "domain": "corneliani.com",
-    "platform": "magento",
-    "feed": "sitemap_products",
-    "feed_count": 2911,
-    "status": "live_store",
-    "checked": "2026-09-13"
+  "Jeans": {
+   "lp": "5-pocket trousers made from navy blue stretch denim (9 oz)",
+   "lu": "https://www.corneliani.com/en_us/5-pocket-trousers-made-from-navy-blue-9-oz-stretch-denim.html",
+   "hp": "Blue 11 o.z. stretch cotton jeans",
+   "hu": "https://www.corneliani.com/en_us/blue-11-o-z-stretch-cotton-jeans-284jc2-2a20207-001.html",
+   "b": "range"
   },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "licensed",
-    "marks": ["PrimaLoft (brand page only", "no shoppable PDP found)"],
-    "source": "screen_36",
-    "checked": "2026-09-12"
+  "Dress pants": {
+   "lp": "Blue one-pleat stretch cotton gabardine trousers",
+   "lu": "https://www.corneliani.com/en_us/blue-one-pleat-stretch-cotton-gabardine-trousers-274b03-2714517-002.html",
+   "hp": "Brown pure natural stretch Extralight wool trousers",
+   "hu": "https://www.corneliani.com/en_us/brown-pure-natural-stretch-extralight-wool-trousers-284575-2a18237-038.html",
+   "b": "range"
   },
-  "fibre": {
-    "t": 334,
-    "w": 333,
-    "n": 89,
-    "s": 9,
-    "c": 2,
-    "x": 19,
-    "xh": 6,
-    "sp": "one",
-    "sc": ["ceremony-and-events"],
-    "nc": ["polos and t-shirts", "shirts", "trousers"],
-    "st": "complete"
+  "Sweater": {
+   "lp": "Melange grey crew neck extra fine pure wool jumper",
+   "lu": "https://www.corneliani.com/en_us/melange-grey-crew-neck-extra-fine-pure-wool-jumper-28m500-2a25100-014.html",
+   "hp": "Brown wool and cashmere blend jumper (97% cashmere crew neck)",
+   "hu": "https://www.corneliani.com/en_us/brown-wool-and-cashmere-blend-jumper-28m558-2a25124-032.html",
+   "b": "pair"
   },
-  "garment_links": {
-    "T-shirt": "https://www.corneliani.com/en_us/mens-clothing/polos-and-t-shirts.html",
-    "Polo": "https://www.corneliani.com/en_us/mens-clothing/polos-and-t-shirts.html",
-    "Dress shirt": "https://www.corneliani.com/en_us/mens-clothing/shirts.html",
-    "Jeans": "https://www.corneliani.com/en_us/mens-clothing/jeans-sports-pants.html",
-    "Dress pants": "https://www.corneliani.com/en_us/mens-clothing/trousers.html",
-    "Sweater": "https://www.corneliani.com/en_us/mens-clothing/knitwear.html",
-    "Outerwear": "https://www.corneliani.com/en_us/mens-clothing/outerwear-coats.html",
-    "Shoes": "https://www.corneliani.com/en_us/mens-accessories-and-shoes/shoes.html"
+  "Outerwear": {
+   "lp": "Grey jacket made from ultra light technical fabric",
+   "lu": "https://www.corneliani.com/en_us/grey-jacket-made-from-ultra-light-technical-fabric-27l5p6-2720156-025.html",
+   "hp": "Dark brown leather bomber jacket with detachable vest",
+   "hu": "https://www.corneliani.com/en_us/dark-brown-leather-bomber-jacket-with-detachable-vest-26l5d6-2620102-030.html",
+   "b": "range"
   },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Beige crew neck stretch cotton jersey t-shirt",
-      "lu": "https://www.corneliani.com/en_us/beige-crew-neck-stretch-cotton-jersey-t-shirt-27g585-2725038-029.html",
-      "hp": "China blue linen and silk crew neck t-shirt",
-      "hu": "https://www.corneliani.com/en_us/china-blue-linen-and-silk-crew-neck-t-shirt-25m547-2525111-002.html",
-      "b": "pair"
-    },
-    "Polo": {
-      "lp": "Grey button-up lisle thread polo shirt",
-      "lu": "https://www.corneliani.com/en_us/grey-button-up-lisle-thread-polo-shirt-25g524-2525014-018.html",
-      "hp": "Grey buttonless pure silk polo shirt",
-      "hu": "https://www.corneliani.com/en_us/grey-buttonless-pure-silk-polo-shirt-27m541-2725170-019.html",
-      "b": "pair"
-    },
-    "Dress shirt": {
-      "lp": "White cotton poplin shirt",
-      "lu": "https://www.corneliani.com/en_us/white-cotton-poplin-shirt-27p100-2711045-028.html",
-      "hp": "Light grey melange cotton flannel shirt with diagonal design",
-      "hu": "https://www.corneliani.com/en_us/light-grey-melange-cotton-flannel-shirt-with-diagonal-design-28p156-2a11510-016.html",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "5-pocket trousers made from navy blue stretch denim (9 oz)",
-      "lu": "https://www.corneliani.com/en_us/5-pocket-trousers-made-from-navy-blue-9-oz-stretch-denim.html",
-      "hp": "Blue 11 o.z. stretch cotton jeans",
-      "hu": "https://www.corneliani.com/en_us/blue-11-o-z-stretch-cotton-jeans-284jc2-2a20207-001.html",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Blue one-pleat stretch cotton gabardine trousers",
-      "lu": "https://www.corneliani.com/en_us/blue-one-pleat-stretch-cotton-gabardine-trousers-274b03-2714517-002.html",
-      "hp": "Brown pure natural stretch Extralight wool trousers",
-      "hu": "https://www.corneliani.com/en_us/brown-pure-natural-stretch-extralight-wool-trousers-284575-2a18237-038.html",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Melange grey crew neck extra fine pure wool jumper",
-      "lu": "https://www.corneliani.com/en_us/melange-grey-crew-neck-extra-fine-pure-wool-jumper-28m500-2a25100-014.html",
-      "hp": "Brown wool and cashmere blend jumper (97% cashmere crew neck)",
-      "hu": "https://www.corneliani.com/en_us/brown-wool-and-cashmere-blend-jumper-28m558-2a25124-032.html",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "Grey jacket made from ultra light technical fabric",
-      "lu": "https://www.corneliani.com/en_us/grey-jacket-made-from-ultra-light-technical-fabric-27l5p6-2720156-025.html",
-      "hp": "Dark brown leather bomber jacket with detachable vest",
-      "hu": "https://www.corneliani.com/en_us/dark-brown-leather-bomber-jacket-with-detachable-vest-26l5d6-2620102-030.html",
-      "b": "range"
-    },
-    "Shoes": {
-      "lp": "Blue navy leather loafers",
-      "lu": "https://www.corneliani.com/en_us/blue-navy-leather-loafers-27tm65-2720924-001.html",
-      "hp": "Brown deerskin loafers",
-      "hu": "https://www.corneliani.com/en_us/brown-deerskin-loafers-27tm77-2720917-030.html",
-      "b": "pair"
-    }
-  },
-  "price_range_only": ["Dress shirt", "Jeans", "Dress pants", "Outerwear"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.corneliani.com/en_us/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "shop": "https://www.corneliani.com/en_us/catalogsearch/result/?q=",
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=277350",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "season": {
-    "l": "Fall-Winter 2026 (FW26)",
-    "t": "campaign",
-    "u": "https://www.corneliani.com/en_us/corneliani-world/fall-winter-26",
-    "m": "yes"
-  },
-  "craft_evidence": {
-    "owned": "yes",
-    "owned_d": "The brand's history page (corneliani.com/it_it/mondo-corneliani/storia) says: 'La fabbrica mantovana è ancora oggi la fucina creativa dell'azienda'. It credits that factory with 'produzione di capi e accessori, dal ready to wear al servizio Su Misura'. The site footer gives the operating site as Via Mario Panizza 5, Mantova. The Su Misura page says each tailored jacket takes 164 steps, with about 540 hand-finishing stitches and seven inspections, before it leaves the Mantova factory. Press confirms the factory: Il Giorno (3 Nov 2022) covers the 2022 rescue of the via Panizza plant, with Invitalia holding 49% and Investcorp 51%, and earlier about 400 staff. Invitalia's case study says 'quasi 300 posti di lavoro' and 'alte competenze artigianali'. The factory belongs to the brand company, Corneliani S.p.A. The site does not show that it makes the whole range: shirts, knitwear, chinos and denim are not tied to it.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "some",
-    "countries": "Italy 2/6 ('Made in Italy' on the wool-cashmere coat and the merino crewneck). 4/6 state no origin in the fetched text: wool-cashmere stretch jacket, cotton poplin shirt, cotton gabardine chino, stretch jeans. The origin may sit in a collapsed tab, so those 4 are 'not seen', not a firm 'none'. Sample of 6 PDPs on corneliani.com/it_it.",
-    "heritage": "dated and placed",
-    "repair": "no",
-    "process": "some",
-    "urls": [
-      "https://www.corneliani.com/it_it/mondo-corneliani/storia",
-      "https://www.corneliani.com/it_it/su-misura"
-    ],
-    "conf": "high",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Blue navy leather loafers",
+   "lu": "https://www.corneliani.com/en_us/blue-navy-leather-loafers-27tm65-2720924-001.html",
+   "hp": "Brown deerskin loafers",
+   "hu": "https://www.corneliani.com/en_us/brown-deerskin-loafers-27tm77-2720917-030.html",
+   "b": "pair"
   }
+ },
+ "price_range_only": [
+  "Dress shirt",
+  "Jeans",
+  "Dress pants",
+  "Outerwear"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.corneliani.com/en_us/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "shop": "https://www.corneliani.com/en_us/catalogsearch/result/?q=",
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=277350",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "season": {
+  "l": "Fall-Winter 2026 (FW26)",
+  "t": "campaign",
+  "u": "https://www.corneliani.com/en_us/corneliani-world/fall-winter-26",
+  "m": "yes"
+ },
+ "craft_evidence": {
+  "owned": "yes",
+  "owned_d": "The brand's history page (corneliani.com/it_it/mondo-corneliani/storia) says: 'La fabbrica mantovana è ancora oggi la fucina creativa dell'azienda'. It credits that factory with 'produzione di capi e accessori, dal ready to wear al servizio Su Misura'. The site footer gives the operating site as Via Mario Panizza 5, Mantova. The Su Misura page says each tailored jacket takes 164 steps, with about 540 hand-finishing stitches and seven inspections, before it leaves the Mantova factory. Press confirms the factory: Il Giorno (3 Nov 2022) covers the 2022 rescue of the via Panizza plant, with Invitalia holding 49% and Investcorp 51%, and earlier about 400 staff. Invitalia's case study says 'quasi 300 posti di lavoro' and 'alte competenze artigianali'. The factory belongs to the brand company, Corneliani S.p.A. The site does not show that it makes the whole range: shirts, knitwear, chinos and denim are not tied to it.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "some",
+  "countries": "Italy 2/6 ('Made in Italy' on the wool-cashmere coat and the merino crewneck). 4/6 state no origin in the fetched text: wool-cashmere stretch jacket, cotton poplin shirt, cotton gabardine chino, stretch jeans. The origin may sit in a collapsed tab, so those 4 are 'not seen', not a firm 'none'. Sample of 6 PDPs on corneliani.com/it_it.",
+  "heritage": "dated and placed",
+  "repair": "no",
+  "process": "some",
+  "urls": [
+   "https://www.corneliani.com/it_it/mondo-corneliani/storia",
+   "https://www.corneliani.com/it_it/su-misura"
+  ],
+  "conf": "high",
+  "read": "2026-10-03"
+ }
 }

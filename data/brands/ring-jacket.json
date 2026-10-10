@@ -1,191 +1,227 @@
 {
-  "name": "Ring Jacket",
-  "band": "accessible",
-  "seat": 127,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 3,
-    "craft": 4,
-    "style": 4
-  },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 2,
-    "linen": 2,
-    "cotton": 2,
-    "wool": 4,
-    "synth": 1
-  },
-  "dials": {
-    "dur": 4,
-    "forg": 2,
-    "fuss": 2,
-    "golffice": -3,
-    "shoes": 0,
-    "ivy": 2,
-    "ital": 3,
-    "whitet": 2,
-    "logo": 1,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
-  },
-  "why": "Full-canvas tailoring made in Osaka, in a soft Italian-influenced cut.",
-  "origin": "Founded in Osaka in 1954.",
-  "chan": ["I"],
-  "conf": "L",
-  "forgc": [2, 2, 4],
-  "onething": {
-    "p": "Balloon travel jacket",
-    "u": "https://thearmoury.com/search?q=Ring%20Jacket%20Balloon",
-    "n": "works"
-  },
-  "prices": [
-    null,
-    null,
-    [49500, 104500, "JPY"],
-    null,
-    [60500, 165000, "JPY"],
-    [99000, 132000, "JPY"],
-    [385000, 440000, "JPY"],
-    [82500, 220000, "JPY"]
+ "name": "Ring Jacket",
+ "band": "accessible",
+ "seat": 127,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 3,
+  "craft": 4,
+  "style": 4
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 2,
+  "linen": 2,
+  "cotton": 2,
+  "wool": 4,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 4,
+  "forg": 2,
+  "fuss": 2,
+  "golffice": -3,
+  "shoes": 0,
+  "ivy": 2,
+  "ital": 3,
+  "whitet": 2,
+  "logo": 1,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Full-canvas tailoring made in Osaka, in a soft Italian-influenced cut.",
+ "origin": "Founded in Osaka in 1954.",
+ "chan": [
+  "I"
+ ],
+ "conf": "L",
+ "forgc": [
+  2,
+  2,
+  4
+ ],
+ "onething": {
+  "p": "Balloon travel jacket",
+  "u": "https://thearmoury.com/search?q=Ring%20Jacket%20Balloon",
+  "n": "works"
+ },
+ "prices": [
+  null,
+  null,
+  [
+   49500,
+   104500,
+   "JPY"
   ],
-  "notes": {
-    "wool": "Osaka full-canvas make",
-    "ital": "states it outright — Japanese hands, Italian soul",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 1; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Ring Jacket's tailoring is made in its own Kaizuka (Osaka) factory, and its jacket PDPs say Made in Japan. But the site also sells a large Ring Jacket Napoli line (about 117 items: shirts, trousers, ties, knitwear) whose PDPs say Made in Italy, with no maker named. Owned making covers the core category (tailoring), not the whole range: a 4."
+  null,
+  [
+   60500,
+   165000,
+   "JPY"
+  ],
+  [
+   99000,
+   132000,
+   "JPY"
+  ],
+  [
+   385000,
+   440000,
+   "JPY"
+  ],
+  [
+   82500,
+   220000,
+   "JPY"
+  ]
+ ],
+ "notes": {
+  "wool": "Osaka full-canvas make",
+  "ital": "states it outright — Japanese hands, Italian soul",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 1; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "Ring Jacket's tailoring is made in its own Kaizuka (Osaka) factory, and its jacket PDPs say Made in Japan. But the site also sells a large Ring Jacket Napoli line (about 117 items: shirts, trousers, ties, knitwear) whose PDPs say Made in Italy, with no maker named. Owned making covers the core category (tailoring), not the whole range: a 4."
+ },
+ "doors": {
+  "c": "full",
+  "n": 0,
+  "cities": [],
+  "basis": "master 2026-08-29, pre-recapture"
+ },
+ "cities": "No store of its own in the US · no US site; its own site ships from Japan · also through independent menswear shops",
+ "site": {
+  "domain": "ringjacket.co.jp",
+  "platform": "custom",
+  "feed": "sitemap_products",
+  "feed_count": 194,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "no",
+  "origin": "none",
+  "marks": [],
+  "source": "screen_36",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 159,
+  "w": 156,
+  "n": 97,
+  "s": 1,
+  "c": 0,
+  "x": 2,
+  "xh": 0,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "Suits",
+   "Jackets",
+   "Shirts"
+  ],
+  "st": "complete"
+ },
+ "region": {
+  "o": [],
+  "s": [
+   150
+  ]
+ },
+ "price_range_only": [
+  "Dress shirt",
+  "Dress pants",
+  "Shoes"
+ ],
+ "shop": "https://www.ringjacket.co.jp/p/search?keyword=",
+ "garment_links": {
+  "Dress shirt": "https://www.ringjacket.co.jp/c/shirt",
+  "Dress pants": "https://www.ringjacket.co.jp/c/pants",
+  "Sweater": "https://www.ringjacket.co.jp/c/knit",
+  "Outerwear": "https://www.ringjacket.co.jp/c/coat"
+ },
+ "price_evidence": {
+  "Dress shirt": {
+   "lp": "RING JACKET Napoli Twill Wide Collar Shirt",
+   "lu": "https://www.ringjacket.co.jp/c/shirt/59104S03",
+   "hp": "Hand 15-step Wide Collar Shirt, navy stripe",
+   "hu": "https://www.ringjacket.co.jp/c/ringjacketnapoli/5N106F07X",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 0,
-    "cities": [],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Dress pants": {
+   "lp": "Super 120's Flannel Slacks S-178H",
+   "lu": "https://www.ringjacket.co.jp/c/pants/RT076F20",
+   "hp": "Camel Effortless Slacks S-193 (camel 100%)",
+   "hu": "https://www.ringjacket.co.jp/c/pants/RT076F25G",
+   "b": "range"
   },
-  "cities": "No store of its own in the US · no US site; its own site ships from Japan · also through independent menswear shops",
-  "site": {
-    "domain": "ringjacket.co.jp",
-    "platform": "custom",
-    "feed": "sitemap_products",
-    "feed_count": 194,
-    "status": "live_store",
-    "checked": "2026-09-13"
+  "Sweater": {
+   "lp": "14.5 Micron Wool Crew Neck Sweater",
+   "lu": "https://www.ringjacket.co.jp/c/knit/5N356F17",
+   "hp": "Middle Gauge Crew Neck Sweater, light grey (wool 70/cashmere 30)",
+   "hu": "https://www.ringjacket.co.jp/c/ringjacketnapoli/5N355F01UP",
+   "b": "pair"
   },
-  "tech_evidence": {
-    "names": "no",
-    "origin": "none",
-    "marks": [],
-    "source": "screen_36",
-    "checked": "2026-09-12"
+  "Outerwear": {
+   "lp": "Navy Field Jacket (polyester 100%)",
+   "lu": "https://www.ringjacket.co.jp/c/ringjacketnapoli/5N086F03X",
+   "hp": "Light Grey Field Jacket (cashmere 100%)",
+   "hu": "https://www.ringjacket.co.jp/c/ringjacketnapoli/5N086F01C",
+   "b": "pair"
   },
-  "fibre": {
-    "t": 159,
-    "w": 156,
-    "n": 97,
-    "s": 1,
-    "c": 0,
-    "x": 2,
-    "xh": 0,
-    "sp": "one",
-    "sc": [],
-    "nc": ["Suits", "Jackets", "Shirts"],
-    "st": "complete"
-  },
-  "region": {
-    "o": [],
-    "s": [150]
-  },
-  "price_range_only": ["Dress shirt", "Dress pants", "Shoes"],
-  "shop": "https://www.ringjacket.co.jp/p/search?keyword=",
-  "garment_links": {
-    "Dress shirt": "https://www.ringjacket.co.jp/c/shirt",
-    "Dress pants": "https://www.ringjacket.co.jp/c/pants",
-    "Sweater": "https://www.ringjacket.co.jp/c/knit",
-    "Outerwear": "https://www.ringjacket.co.jp/c/coat"
-  },
-  "price_evidence": {
-    "Dress shirt": {
-      "lp": "RING JACKET Napoli Twill Wide Collar Shirt",
-      "lu": "https://www.ringjacket.co.jp/c/shirt/59104S03",
-      "hp": "Hand 15-step Wide Collar Shirt, navy stripe",
-      "hu": "https://www.ringjacket.co.jp/c/ringjacketnapoli/5N106F07X",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Super 120's Flannel Slacks S-178H",
-      "lu": "https://www.ringjacket.co.jp/c/pants/RT076F20",
-      "hp": "Camel Effortless Slacks S-193 (camel 100%)",
-      "hu": "https://www.ringjacket.co.jp/c/pants/RT076F25G",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "14.5 Micron Wool Crew Neck Sweater",
-      "lu": "https://www.ringjacket.co.jp/c/knit/5N356F17",
-      "hp": "Middle Gauge Crew Neck Sweater, light grey (wool 70/cashmere 30)",
-      "hu": "https://www.ringjacket.co.jp/c/ringjacketnapoli/5N355F01UP",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "Navy Field Jacket (polyester 100%)",
-      "lu": "https://www.ringjacket.co.jp/c/ringjacketnapoli/5N086F03X",
-      "hp": "Light Grey Field Jacket (cashmere 100%)",
-      "hu": "https://www.ringjacket.co.jp/c/ringjacketnapoli/5N086F01C",
-      "b": "pair"
-    },
-    "Shoes": {
-      "lp": "Sheep Suede Leather Sneaker, greige",
-      "lu": "https://www.ringjacket.co.jp/c/ringjacketnapoli/5N146S03C",
-      "hp": "Cordovan Leather Sneaker, brown",
-      "hu": "https://www.ringjacket.co.jp/c/ringjacketnapoli/5N146S01F",
-      "b": "range"
-    }
-  },
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.ringjacket.co.jp/",
-    "currency": "JPY",
-    "status": "read",
-    "sublines": "RING JACKET Napoli"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?search_text=Ring%20Jacket&catalog[]=5",
-      "m": "text search",
-      "n": "No Vinted brand entry; keyword search in Men"
-    }
-  },
-  "season": {
-    "l": "AW'26",
-    "t": "lookbook",
-    "u": "https://my.ebook5.net/ringjacket/",
-    "m": "yes"
-  },
-  "craft_evidence": {
-    "owned": "yes",
-    "owned_d": "Kaizuka factory, Osaka (Ring Jacket's own, 'directly managed', opened 1957 per Hidetoshi Sasamoto interview on lundochlund.com; expanded twice). Company page (ringjacket.co.jp/f/company) states 自社工場による一貫生産体制 (integrated production in its own factory), 103 employees, but does not name the plant. Press (imn.jp) describes the Kaizuka plant making suits with extensive hand stitching. Covers tailoring; the site gives no evidence it makes the Ring Jacket Napoli line (shirts, trousers, ties, much knitwear), which PDPs say is made in Italy.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "every product",
-    "countries": "Japan 3/8 own-brand (2 jackets, 1 camel knit); Italy 5/8 own-brand (2 Napoli shirts, Napoli trousers, wool-cashmere knit, Napoli tie). Imports also state country (Gaziano & Girling shoe: England; Moncao trousers: Romania). Sample of 10 PDPs: jackets, knits, shirts, trousers, tie, shoes.",
-    "heritage": "dated and placed",
-    "repair": "no",
-    "process": "some",
-    "urls": [
-      "https://lundochlund.com/blogs/editorial/ring-jacket",
-      "https://www.ringjacket.co.jp/c/shirt/5N106F07X"
-    ],
-    "conf": "medium",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Sheep Suede Leather Sneaker, greige",
+   "lu": "https://www.ringjacket.co.jp/c/ringjacketnapoli/5N146S03C",
+   "hp": "Cordovan Leather Sneaker, brown",
+   "hu": "https://www.ringjacket.co.jp/c/ringjacketnapoli/5N146S01F",
+   "b": "range"
   }
+ },
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.ringjacket.co.jp/",
+  "currency": "JPY",
+  "status": "read",
+  "sublines": "RING JACKET Napoli"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?search_text=Ring%20Jacket&catalog[]=5",
+   "m": "text search",
+   "n": "No Vinted brand entry; keyword search in Men"
+  }
+ },
+ "season": {
+  "l": "AW'26",
+  "t": "lookbook",
+  "u": "https://my.ebook5.net/ringjacket/",
+  "m": "yes"
+ },
+ "craft_evidence": {
+  "owned": "yes",
+  "owned_d": "Kaizuka factory, Osaka (Ring Jacket's own, 'directly managed', opened 1957 per Hidetoshi Sasamoto interview on lundochlund.com; expanded twice). Company page (ringjacket.co.jp/f/company) states 自社工場による一貫生産体制 (integrated production in its own factory), 103 employees, but does not name the plant. Press (imn.jp) describes the Kaizuka plant making suits with extensive hand stitching. Covers tailoring; the site gives no evidence it makes the Ring Jacket Napoli line (shirts, trousers, ties, much knitwear), which PDPs say is made in Italy.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "every product",
+  "countries": "Japan 3/8 own-brand (2 jackets, 1 camel knit); Italy 5/8 own-brand (2 Napoli shirts, Napoli trousers, wool-cashmere knit, Napoli tie). Imports also state country (Gaziano & Girling shoe: England; Moncao trousers: Romania). Sample of 10 PDPs: jackets, knits, shirts, trousers, tie, shoes.",
+  "heritage": "dated and placed",
+  "repair": "no",
+  "process": "some",
+  "urls": [
+   "https://lundochlund.com/blogs/editorial/ring-jacket",
+   "https://www.ringjacket.co.jp/c/shirt/5N106F07X"
+  ],
+  "conf": "medium",
+  "read": "2026-10-03"
+ }
 }

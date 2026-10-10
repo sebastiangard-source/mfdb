@@ -1,203 +1,270 @@
 {
-  "name": "Joe's Jeans",
-  "band": "accessible",
-  "seat": 89,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 3,
-    "craft": 2,
-    "style": 3
+ "name": "Joe's Jeans",
+ "band": "accessible",
+ "seat": 89,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 3,
+  "craft": 2,
+  "style": 3
+ },
+ "fabric": {
+  "denim": 4,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 2,
+  "wool": 1,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 2,
+  "forg": 2,
+  "fuss": -2,
+  "whitet": 2,
+  "logo": 3,
+  "western": 1,
+  "rock": 2,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Premium jeans from Los Angeles, sold through department stores; owned by Centric Brands.",
+ "origin": "Founded in Los Angeles in 2001 by Joe Dahan.",
+ "chan": [
+  "O",
+  "D",
+  "W"
+ ],
+ "conf": "M",
+ "forgc": [
+  2,
+  3,
+  1
+ ],
+ "shop": "https://www.joesjeans.com/search?q=",
+ "onething": {
+  "p": "The Asher jean",
+  "u": "https://www.joesjeans.com/search?q=asher",
+  "n": "best-guess link — verify"
+ },
+ "prices": [
+  [
+   78,
+   78
+  ],
+  [
+   128,
+   188
+  ],
+  [
+   148,
+   748
+  ],
+  [
+   168,
+   248
+  ],
+  [
+   198,
+   228
+  ],
+  [
+   178,
+   248
+  ],
+  [
+   218,
+   998
+  ],
+  null
+ ],
+ "notes": {
+  "denim": "LA premium denim, first wave — the Asher as the modern slim",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 3; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "Joe's Jeans' about page gives a founding date and city (2001, Los Angeles) but nothing about who makes the clothes or where; none of the four product pages read states a country of make, a factory or a mill. Its parent Centric Brands says it manufactures through contract partners. Nothing checkable about making: a 1. [audit proposed 1 at low confidence; held at 2 pending a second read]"
+ },
+ "doors": {
+  "c": "full",
+  "n": 2,
+  "cities": [
+   [
+    "Beverly Hills",
+    "CA",
+    1
+   ],
+   [
+    "Costa Mesa",
+    "CA",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 3,
+  "con": 0
+ },
+ "cities": "2 stores — Beverly Hills, Costa Mesa · department stores and independent menswear shops, and its own site",
+ "region": {
+  "o": [],
+  "s": [
+   13,
+   55,
+   72,
+   96,
+   145
+  ]
+ },
+ "site": {
+  "domain": "joesjeans.com",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 2294,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "both",
+  "marks": [
+   "House: AIRSOFT(TM) (site says \"a Joe's trademark\")",
+   "Kinetic",
+   "Kinetic Soft",
+   "Flawless",
+   "Weightless",
+   "Vintage Stretch",
+   "Heirloom Denim",
+   "Denim Comfort Stretch",
+   "Denim Super Stretch",
+   "Denim Rigid",
+   "Earth Conscious. Licensed: LYCRA(R)",
+   "\"Made with LYCRA(R)\"",
+   "dualFX(R)",
+   "T400 (composition_only)",
+   "Tencel (compositio"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 243,
+  "w": 239,
+  "n": 83,
+  "s": 9,
+  "c": 6,
+  "x": 28,
+  "xh": 2,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "shirts",
+   "sweaters",
+   "jackets"
+  ],
+  "st": "complete"
+ },
+ "garment_links": {
+  "T-shirt": "https://www.joesjeans.com/collections/men-ready-to-wear-tees",
+  "Dress shirt": "https://www.joesjeans.com/collections/mens-the-shirt-shop",
+  "Jeans": "https://www.joesjeans.com/collections/men-denim",
+  "Dress pants": "https://www.joesjeans.com/collections/men-ready-to-wear-trousers",
+  "Sweater": "https://www.joesjeans.com/collections/men-ready-to-wear-sweaters",
+  "Outerwear": "https://www.joesjeans.com/collections/men-ready-to-wear-jackets"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "BESPOKE TEE (Black)",
+   "lu": "https://www.joesjeans.com/products/bespoke-tee-black",
+   "hp": "BESPOKE TEE (Black)",
+   "hu": "https://www.joesjeans.com/products/bespoke-tee-black",
+   "b": "single"
   },
-  "fabric": {
-    "denim": 4,
-    "cashmere": 1,
-    "linen": 1,
-    "cotton": 2,
-    "wool": 1,
-    "synth": 1
+  "Polo": {
+   "lp": "CLUB POLO (Baritone Blue)",
+   "lu": "https://www.joesjeans.com/products/club-polo-baritone-blue",
+   "hp": "TENNIS POLO (White)",
+   "hu": "https://www.joesjeans.com/products/tennis-polo-white",
+   "b": "range"
   },
-  "dials": {
-    "dur": 2,
-    "forg": 2,
-    "fuss": -2,
-    "whitet": 2,
-    "logo": 3,
-    "western": 1,
-    "rock": 2,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
+  "Dress shirt": {
+   "lp": "SHORT SLEEVE SEERSUCKER STRIPE SHIRT",
+   "lu": "https://www.joesjeans.com/products/short-sleeve-seersucker-stripe-shirt-sailorwhite-j2",
+   "hp": "SUEDE SHIRT (Black)",
+   "hu": "https://www.joesjeans.com/products/suede-shirt-black",
+   "b": "range"
   },
-  "why": "Premium jeans from Los Angeles, sold through department stores; owned by Centric Brands.",
-  "origin": "Founded in Los Angeles in 2001 by Joe Dahan.",
-  "chan": ["O", "D", "W"],
-  "conf": "M",
-  "forgc": [2, 3, 1],
-  "shop": "https://www.joesjeans.com/search?q=",
-  "onething": {
-    "p": "The Asher jean",
-    "u": "https://www.joesjeans.com/search?q=asher",
-    "n": "best-guess link — verify"
+  "Jeans": {
+   "lp": "THE CLASSIC 32\" (Sterling)",
+   "lu": "https://www.joesjeans.com/products/the-classic-32-sterling",
+   "hp": "THE BRIXTON (Bluewater)",
+   "hu": "https://www.joesjeans.com/products/the-brixton-bluewater",
+   "b": "range"
   },
-  "prices": [[78, 78], [128, 188], [148, 748], [168, 248], [198, 228], [178, 248], [218, 998], null],
-  "notes": {
-    "denim": "LA premium denim, first wave — the Asher as the modern slim",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 3; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Joe's Jeans' about page gives a founding date and city (2001, Los Angeles) but nothing about who makes the clothes or where; none of the four product pages read states a country of make, a factory or a mill. Its parent Centric Brands says it manufactures through contract partners. Nothing checkable about making: a 1. [audit proposed 1 at low confidence; held at 2 pending a second read]"
+  "Dress pants": {
+   "lp": "THE BRIXTON LUXE TWILL 32\" (Tea Leaf)",
+   "lu": "https://www.joesjeans.com/products/the-brixton-luxe-twill-32-tea-leaf",
+   "hp": "CHAD CHINO (Tea Leaf)",
+   "hu": "https://www.joesjeans.com/products/chad-chino-tea-leaf",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 2,
-    "cities": [["Beverly Hills", "CA", 1], ["Costa Mesa", "CA", 1]],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Sweater": {
+   "lp": "TEXTURED HENLEY SWEATER (Flax)",
+   "lu": "https://www.joesjeans.com/products/henley-sweater-flax",
+   "hp": "MOHAIR CARDIGAN POLO (Turbulence)",
+   "hu": "https://www.joesjeans.com/products/mohair-cardigan-polo-turbulence",
+   "b": "range"
   },
-  "cities": "2 stores — Beverly Hills, Costa Mesa · department stores and independent menswear shops, and its own site",
-  "region": {
-    "o": [],
-    "s": [13, 55, 72, 96, 145]
-  },
-  "site": {
-    "domain": "joesjeans.com",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 2294,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "both",
-    "marks": [
-      "House: AIRSOFT(TM) (site says \"a Joe's trademark\")",
-      "Kinetic",
-      "Kinetic Soft",
-      "Flawless",
-      "Weightless",
-      "Vintage Stretch",
-      "Heirloom Denim",
-      "Denim Comfort Stretch",
-      "Denim Super Stretch",
-      "Denim Rigid",
-      "Earth Conscious. Licensed: LYCRA(R)",
-      "\"Made with LYCRA(R)\"",
-      "dualFX(R)",
-      "T400 (composition_only)",
-      "Tencel (compositio"
-    ],
-    "source": "census",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 243,
-    "w": 239,
-    "n": 83,
-    "s": 9,
-    "c": 6,
-    "x": 28,
-    "xh": 2,
-    "sp": "one",
-    "sc": [],
-    "nc": ["shirts", "sweaters", "jackets"],
-    "st": "complete"
-  },
-  "garment_links": {
-    "T-shirt": "https://www.joesjeans.com/collections/men-ready-to-wear-tees",
-    "Dress shirt": "https://www.joesjeans.com/collections/mens-the-shirt-shop",
-    "Jeans": "https://www.joesjeans.com/collections/men-denim",
-    "Dress pants": "https://www.joesjeans.com/collections/men-ready-to-wear-trousers",
-    "Sweater": "https://www.joesjeans.com/collections/men-ready-to-wear-sweaters",
-    "Outerwear": "https://www.joesjeans.com/collections/men-ready-to-wear-jackets"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "BESPOKE TEE (Black)",
-      "lu": "https://www.joesjeans.com/products/bespoke-tee-black",
-      "hp": "BESPOKE TEE (Black)",
-      "hu": "https://www.joesjeans.com/products/bespoke-tee-black",
-      "b": "single"
-    },
-    "Polo": {
-      "lp": "CLUB POLO (Baritone Blue)",
-      "lu": "https://www.joesjeans.com/products/club-polo-baritone-blue",
-      "hp": "TENNIS POLO (White)",
-      "hu": "https://www.joesjeans.com/products/tennis-polo-white",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "SHORT SLEEVE SEERSUCKER STRIPE SHIRT",
-      "lu": "https://www.joesjeans.com/products/short-sleeve-seersucker-stripe-shirt-sailorwhite-j2",
-      "hp": "SUEDE SHIRT (Black)",
-      "hu": "https://www.joesjeans.com/products/suede-shirt-black",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "THE CLASSIC 32\" (Sterling)",
-      "lu": "https://www.joesjeans.com/products/the-classic-32-sterling",
-      "hp": "THE BRIXTON (Bluewater)",
-      "hu": "https://www.joesjeans.com/products/the-brixton-bluewater",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "THE BRIXTON LUXE TWILL 32\" (Tea Leaf)",
-      "lu": "https://www.joesjeans.com/products/the-brixton-luxe-twill-32-tea-leaf",
-      "hp": "CHAD CHINO (Tea Leaf)",
-      "hu": "https://www.joesjeans.com/products/chad-chino-tea-leaf",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "TEXTURED HENLEY SWEATER (Flax)",
-      "lu": "https://www.joesjeans.com/products/henley-sweater-flax",
-      "hp": "MOHAIR CARDIGAN POLO (Turbulence)",
-      "hu": "https://www.joesjeans.com/products/mohair-cardigan-polo-turbulence",
-      "b": "range"
-    },
-    "Outerwear": {
-      "lp": "LINEN ZIP JACKET (Baritone Blue)",
-      "lu": "https://www.joesjeans.com/products/linen-zip-jacket-baritone-blue",
-      "hp": "SUEDE DRESS ZIP JACKET (Wren)",
-      "hu": "https://www.joesjeans.com/products/suede-dress-zip-jacket-wren",
-      "b": "pair"
-    }
-  },
-  "price_range_only": ["Polo", "Dress shirt", "Jeans", "Dress pants", "Sweater"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.joesjeans.com/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=19459",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "About page names no factory. joesjeans.com footer links the Centric Brands supply-chain statement (Centric is the parent): Centric 'manufacture[s] through contract supply chain partners', i.e. no owned factories stated.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "none",
-    "countries": "Not stated 4/4 (sample of 4 PDPs: 2 jeans, 1 sweater, 1 jacket). The fetcher did see the PDP accordions (DETAILS + FIT, FABRIC, Size Chart) and found no origin line in them. Small sample: collection grids are JS-rendered; PDP URLs taken from the product sitemap.",
-    "heritage": "dated and placed",
-    "repair": "yes",
-    "process": "no",
-    "urls": [
-      "https://www.joesjeans.com/pages/about-us",
-      "https://www.centricbrands.com/transparency-in-supply-chains-statement"
-    ],
-    "conf": "low",
-    "read": "2026-10-03"
+  "Outerwear": {
+   "lp": "LINEN ZIP JACKET (Baritone Blue)",
+   "lu": "https://www.joesjeans.com/products/linen-zip-jacket-baritone-blue",
+   "hp": "SUEDE DRESS ZIP JACKET (Wren)",
+   "hu": "https://www.joesjeans.com/products/suede-dress-zip-jacket-wren",
+   "b": "pair"
   }
+ },
+ "price_range_only": [
+  "Polo",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants",
+  "Sweater"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.joesjeans.com/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=19459",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "About page names no factory. joesjeans.com footer links the Centric Brands supply-chain statement (Centric is the parent): Centric 'manufacture[s] through contract supply chain partners', i.e. no owned factories stated.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "none",
+  "countries": "Not stated 4/4 (sample of 4 PDPs: 2 jeans, 1 sweater, 1 jacket). The fetcher did see the PDP accordions (DETAILS + FIT, FABRIC, Size Chart) and found no origin line in them. Small sample: collection grids are JS-rendered; PDP URLs taken from the product sitemap.",
+  "heritage": "dated and placed",
+  "repair": "yes",
+  "process": "no",
+  "urls": [
+   "https://www.joesjeans.com/pages/about-us",
+   "https://www.centricbrands.com/transparency-in-supply-chains-statement"
+  ],
+  "conf": "low",
+  "read": "2026-10-03"
+ }
 }

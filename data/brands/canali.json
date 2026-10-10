@@ -109,18 +109,8 @@
  },
  "doors": {
   "c": "full",
-  "n": 4,
+  "n": 2,
   "cities": [
-   [
-    "Beverly Hills",
-    "CA",
-    1
-   ],
-   [
-    "Elmont",
-    "NY",
-    1
-   ],
    [
     "Las Vegas",
     "NV",
@@ -132,13 +122,14 @@
     1
    ]
   ],
-  "basis": "recapture 2026-09"
+  "basis": "recapture 2026-10-10",
+  "out": 1,
+  "con": 0
  },
- "cities": "4 stores — Beverly Hills, Elmont, Las Vegas, New York · department stores and independent menswear shops, and its own site",
+ "cities": "2 stores — Beverly Hills, Elmont, Las Vegas, New York · department stores and independent menswear shops, and its own site",
  "region": {
   "o": [
-   691,
-   692
+   952
   ],
   "s": [
    2,
@@ -155,7 +146,7 @@
    117,
    151,
    152,
-   3208
+   160
   ]
  },
  "site": {

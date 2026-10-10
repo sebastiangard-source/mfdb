@@ -1,211 +1,273 @@
 {
-  "name": "Casablanca",
-  "band": "trueLux",
-  "seat": 164,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 2,
-    "craft": 2,
-    "style": 5
+ "name": "Casablanca",
+ "band": "trueLux",
+ "seat": 164,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 2,
+  "craft": 2,
+  "style": 5
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 2,
+  "linen": 2,
+  "cotton": 2,
+  "wool": 1,
+  "synth": 2
+ },
+ "dials": {
+  "dur": 2,
+  "forg": 3,
+  "fuss": 0,
+  "shoes": 3,
+  "status": 3,
+  "fren": 4,
+  "street": 3,
+  "avant": 2,
+  "weird": 3,
+  "whitet": 2,
+  "logo": 2,
+  "western": 1,
+  "rock": 2,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 2
+ },
+ "why": "Printed silk shirts and sport-influenced clothing in bright colors.",
+ "origin": "Founded in 2018 by Charaf Tajer.",
+ "chan": [
+  "D",
+  "O"
+ ],
+ "conf": "L",
+ "forgc": [
+  5,
+  3,
+  1
+ ],
+ "shop": "https://casablancaparis.com/en-us/search?q=",
+ "onething": {
+  "p": "Silk Grand Prix shirt",
+  "u": "https://casablancaparis.com/search?q=Silk%20Grand%20Prix%20shirt%20men",
+  "n": "men-filtered"
+ },
+ "prices": [
+  [
+   195,
+   810
+  ],
+  [
+   395,
+   845
+  ],
+  [
+   760,
+   1065
+  ],
+  [
+   725,
+   965
+  ],
+  [
+   725,
+   1135
+  ],
+  [
+   640,
+   970
+  ],
+  [
+   725,
+   2435
+  ],
+  [
+   545,
+   545
+  ]
+ ],
+ "shoelink": {
+  "t": "shoes",
+  "u": "https://casablancaparis.com/search?q=shoes"
+ },
+ "notes": {
+  "fren": "Charaf Tajer works from Paris, and the register is Franco-Moroccan leisure. The Frenchness is a base the brand departs from rather than the destination.",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 2; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "style": "Printed silk and bright color as a signature look.",
+  "craft": "Each Casablanca product description states a country of make (mostly Portugal and Italy; puffers and some knits China) and a fabric origin country with weight. No factory, atelier or mill is named, and the about page says nothing about where things are made. Clear country disclosure, nothing more: a 2."
+ },
+ "doors": {
+  "c": "full",
+  "n": 1,
+  "cities": [
+   [
+    "Los Angeles",
+    "CA",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 0,
+  "con": 0
+ },
+ "cities": "One store, in Beverly Hills · department stores, and its own site",
+ "addmen": true,
+ "site": {
+  "domain": "casablancaparis.com",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 618,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "no",
+  "origin": "none",
+  "marks": [
+   "Nothing. Zero named fabric, membrane, insulation or branded-fibre technologies, licensed or house, across the men's line, and zero trademark symbols of any kind anywhere in the catalogue. The only term-list match is the unnamed generic descriptor 'Technical fabric' on 5 men's products (6 catalogue-w"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 155,
+  "w": 155,
+  "n": 79,
+  "s": 12,
+  "c": 9,
+  "x": 11,
+  "xh": 0,
+  "sp": "one",
+  "sc": [
+   "SWIMWEAR"
+  ],
+  "nc": [
+   "KNITWEAR",
+   "JERSEY",
+   "T-SHIRTS"
+  ],
+  "st": "complete"
+ },
+ "garment_links": {
+  "T-shirt": "https://casablancaparis.com/en-us/collections/mens-t-shirts",
+  "Polo": "https://casablancaparis.com/en-us/collections/mens-polos",
+  "Dress shirt": "https://casablancaparis.com/en-us/collections/mens-classic-shirts",
+  "Jeans": "https://casablancaparis.com/en-us/collections/mens-denim",
+  "Dress pants": "https://casablancaparis.com/en-us/collections/mens-trousers",
+  "Outerwear": "https://casablancaparis.com/en-us/collections/mens-outerwear",
+  "Shoes": "https://casablancaparis.com/en-us/collections/mens-shoes"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "White Diamond Logo Short Sleeve T-Shirt",
+   "lu": "https://casablancaparis.com/en-us/products/m-jts-001-02-ex-ce-diamond-logo-short-sleeve-t-shirt",
+   "hp": "Applique Monogram Oversized Short Sleeve T-Shirt",
+   "hu": "https://casablancaparis.com/en-us/products/m-sp26-jts-044-05-applique-monogram-oversized-short-sleeve-t-shirt",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 2,
-    "linen": 2,
-    "cotton": 2,
-    "wool": 1,
-    "synth": 2
+  "Polo": {
+   "lp": "White Laurel Pique Short Sleeve Polo Shirt",
+   "lu": "https://casablancaparis.com/en-us/products/m-pf26-jtp-499-01-white-laurel-pique-short-sleeve-polo-shirt",
+   "hp": "Dark Navy Knit Collar Short Sleeve Polo Shirt",
+   "hu": "https://casablancaparis.com/en-us/products/m-pf26-sh-286-01-dark-navy-knit-collar-short-sleeve-polo-shirt",
+   "b": "range"
   },
-  "dials": {
-    "dur": 2,
-    "forg": 3,
-    "fuss": 0,
-    "shoes": 3,
-    "status": 3,
-    "fren": 4,
-    "street": 3,
-    "avant": 2,
-    "weird": 3,
-    "whitet": 2,
-    "logo": 2,
-    "western": 1,
-    "rock": 2,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 2
+  "Dress shirt": {
+   "lp": "Beige Monogram Long Sleeve Shirt",
+   "lu": "https://casablancaparis.com/en-us/products/m-pf26-sh-222-01-beige-monogram-long-sleeve-shirt",
+   "hp": "Tennis Club Long Sleeve Silk Twill Shirt",
+   "hu": "https://casablancaparis.com/en-us/products/m-aw26-sh-006-04-tennis-club-long-sleeve-silk-twill-shirt",
+   "b": "range"
   },
-  "why": "Printed silk shirts and sport-influenced clothing in bright colors.",
-  "origin": "Founded in 2018 by Charaf Tajer.",
-  "chan": ["D", "O"],
-  "conf": "L",
-  "forgc": [5, 3, 1],
-  "shop": "https://casablancaparis.com/en-us/search?q=",
-  "onething": {
-    "p": "Silk Grand Prix shirt",
-    "u": "https://casablancaparis.com/search?q=Silk%20Grand%20Prix%20shirt%20men",
-    "n": "men-filtered"
+  "Jeans": {
+   "lp": "Indigo Raw Denim Straight Leg Jeans",
+   "lu": "https://casablancaparis.com/en-us/products/m-pf26-dn-007-01-indigo-raw-denim-straight-leg-jeans",
+   "hp": "Beige Desert Canvas Denim Jeans",
+   "hu": "https://casablancaparis.com/en-us/products/m-aw26-dn-032-01-beige-desert-canvas-denim-jeans",
+   "b": "range"
   },
-  "prices": [[195, 810], [395, 845], [760, 1065], [725, 965], [725, 1135], [640, 970], [725, 2435], [545, 545]],
-  "shoelink": {
-    "t": "shoes",
-    "u": "https://casablancaparis.com/search?q=shoes"
+  "Dress pants": {
+   "lp": "Black Pleated Straight Leg Trousers",
+   "lu": "https://casablancaparis.com/en-us/products/m-aw26-tr-462-01-black-pleated-straight-leg-trousers",
+   "hp": "Blue Astrology Silk Twill Trousers",
+   "hu": "https://casablancaparis.com/en-us/products/m-pf26-tr-398-01-blue-astrology-silk-twill-trousers",
+   "b": "range"
   },
-  "notes": {
-    "fren": "Charaf Tajer works from Paris, and the register is Franco-Moroccan leisure. The Frenchness is a base the brand departs from rather than the destination.",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 2; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "style": "Printed silk and bright color as a signature look.",
-    "craft": "Each Casablanca product description states a country of make (mostly Portugal and Italy; puffers and some knits China) and a fabric origin country with weight. No factory, atelier or mill is named, and the about page says nothing about where things are made. Clear country disclosure, nothing more: a 2."
+  "Sweater": {
+   "lp": "White Pyramid of Oranges Crochet Cardigan",
+   "lu": "https://casablancaparis.com/en-us/products/m-aw26-kw-1483-01-white-pyramid-of-oranges-crochet-cardigan",
+   "hp": "Navy Hotel Emblem Embroidered Wool Cardigan",
+   "hu": "https://casablancaparis.com/en-us/products/u-pf26-kw-1429-01-navy-hotel-emblem-embroidered-wool-cardigan",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 1,
-    "cities": [["Beverly Hills", "CA", 1]],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Outerwear": {
+   "lp": "White & Green Floral Striped Sporty Windbreaker Jacket",
+   "lu": "https://casablancaparis.com/en-us/products/m-pf26-jk-033-01-white-green-floral-stripe-sporty-windbreaker-jacket",
+   "hp": "Navy & Green Suede Track Jacket",
+   "hu": "https://casablancaparis.com/en-us/products/m-pf26-jk-513-01-navy-green-suede-track-jacket",
+   "b": "range"
   },
-  "cities": "One store, in Beverly Hills · department stores, and its own site",
-  "addmen": true,
-  "site": {
-    "domain": "casablancaparis.com",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 618,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "no",
-    "origin": "none",
-    "marks": [
-      "Nothing. Zero named fabric, membrane, insulation or branded-fibre technologies, licensed or house, across the men's line, and zero trademark symbols of any kind anywhere in the catalogue. The only term-list match is the unnamed generic descriptor 'Technical fabric' on 5 men's products (6 catalogue-w"
-    ],
-    "source": "census",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 155,
-    "w": 155,
-    "n": 79,
-    "s": 12,
-    "c": 9,
-    "x": 11,
-    "xh": 0,
-    "sp": "one",
-    "sc": ["SWIMWEAR"],
-    "nc": ["KNITWEAR", "JERSEY", "T-SHIRTS"],
-    "st": "complete"
-  },
-  "garment_links": {
-    "T-shirt": "https://casablancaparis.com/en-us/collections/mens-t-shirts",
-    "Polo": "https://casablancaparis.com/en-us/collections/mens-polos",
-    "Dress shirt": "https://casablancaparis.com/en-us/collections/mens-classic-shirts",
-    "Jeans": "https://casablancaparis.com/en-us/collections/mens-denim",
-    "Dress pants": "https://casablancaparis.com/en-us/collections/mens-trousers",
-    "Outerwear": "https://casablancaparis.com/en-us/collections/mens-outerwear",
-    "Shoes": "https://casablancaparis.com/en-us/collections/mens-shoes"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "White Diamond Logo Short Sleeve T-Shirt",
-      "lu": "https://casablancaparis.com/en-us/products/m-jts-001-02-ex-ce-diamond-logo-short-sleeve-t-shirt",
-      "hp": "Applique Monogram Oversized Short Sleeve T-Shirt",
-      "hu": "https://casablancaparis.com/en-us/products/m-sp26-jts-044-05-applique-monogram-oversized-short-sleeve-t-shirt",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "White Laurel Pique Short Sleeve Polo Shirt",
-      "lu": "https://casablancaparis.com/en-us/products/m-pf26-jtp-499-01-white-laurel-pique-short-sleeve-polo-shirt",
-      "hp": "Dark Navy Knit Collar Short Sleeve Polo Shirt",
-      "hu": "https://casablancaparis.com/en-us/products/m-pf26-sh-286-01-dark-navy-knit-collar-short-sleeve-polo-shirt",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Beige Monogram Long Sleeve Shirt",
-      "lu": "https://casablancaparis.com/en-us/products/m-pf26-sh-222-01-beige-monogram-long-sleeve-shirt",
-      "hp": "Tennis Club Long Sleeve Silk Twill Shirt",
-      "hu": "https://casablancaparis.com/en-us/products/m-aw26-sh-006-04-tennis-club-long-sleeve-silk-twill-shirt",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Indigo Raw Denim Straight Leg Jeans",
-      "lu": "https://casablancaparis.com/en-us/products/m-pf26-dn-007-01-indigo-raw-denim-straight-leg-jeans",
-      "hp": "Beige Desert Canvas Denim Jeans",
-      "hu": "https://casablancaparis.com/en-us/products/m-aw26-dn-032-01-beige-desert-canvas-denim-jeans",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Black Pleated Straight Leg Trousers",
-      "lu": "https://casablancaparis.com/en-us/products/m-aw26-tr-462-01-black-pleated-straight-leg-trousers",
-      "hp": "Blue Astrology Silk Twill Trousers",
-      "hu": "https://casablancaparis.com/en-us/products/m-pf26-tr-398-01-blue-astrology-silk-twill-trousers",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "White Pyramid of Oranges Crochet Cardigan",
-      "lu": "https://casablancaparis.com/en-us/products/m-aw26-kw-1483-01-white-pyramid-of-oranges-crochet-cardigan",
-      "hp": "Navy Hotel Emblem Embroidered Wool Cardigan",
-      "hu": "https://casablancaparis.com/en-us/products/u-pf26-kw-1429-01-navy-hotel-emblem-embroidered-wool-cardigan",
-      "b": "range"
-    },
-    "Outerwear": {
-      "lp": "White & Green Floral Striped Sporty Windbreaker Jacket",
-      "lu": "https://casablancaparis.com/en-us/products/m-pf26-jk-033-01-white-green-floral-stripe-sporty-windbreaker-jacket",
-      "hp": "Navy & Green Suede Track Jacket",
-      "hu": "https://casablancaparis.com/en-us/products/m-pf26-jk-513-01-navy-green-suede-track-jacket",
-      "b": "range"
-    },
-    "Shoes": {
-      "lp": "Black Leather Loafer Mule",
-      "lu": "https://casablancaparis.com/en-us/products/a-aw26-fw-109-01-black-leather-loafer-mule",
-      "hp": "Black Leather Loafer Mule",
-      "hu": "https://casablancaparis.com/en-us/products/a-aw26-fw-109-01-black-leather-loafer-mule",
-      "b": "single"
-    }
-  },
-  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants", "Sweater", "Outerwear"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://casablancaparis.com/en-us",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=46009",
-      "m": "brand filter",
-      "n": "Vinted 'Casablanca' may mix unrelated brands"
-    }
-  },
-  "season": {
-    "l": "Autumn Winter 2026",
-    "t": "collection page",
-    "u": "https://casablancaparis.com/en-us/pages/autumn-winter-2026",
-    "m": "yes"
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "About page names no atelier or factory; mentions only 'Neapolitan tailoring techniques' applied to tennis pieces, with no maker or place. Information/terms page is silent on manufacturing.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "every product",
-    "countries": "Sample of 25 product descriptions + 1 PDP, all stating origin: Portugal 12 (T-shirts, hoodies, sweatshirts, track pants, swim, dress, tailored jacket, sneaker), Italy 6 (silk shirts, trousers, denim, women's track jacket), China 5 (puffer jackets, mohair knit hoodie, zip jacket, cap), Japan 2 (sunglasses). PDP of the wool double-breasted jacket confirms 'Made in Portugal' with Italian wool.",
-    "heritage": "none",
-    "repair": "no",
-    "process": "no",
-    "urls": [
-      "https://casablancaparis.com/products/m-aw26-jk-538-01-dark-teal-wool-double-breasted-jacket",
-      "https://casablancaparis.com/pages/about"
-    ],
-    "conf": "high",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Black Leather Loafer Mule",
+   "lu": "https://casablancaparis.com/en-us/products/a-aw26-fw-109-01-black-leather-loafer-mule",
+   "hp": "Black Leather Loafer Mule",
+   "hu": "https://casablancaparis.com/en-us/products/a-aw26-fw-109-01-black-leather-loafer-mule",
+   "b": "single"
   }
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants",
+  "Sweater",
+  "Outerwear"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://casablancaparis.com/en-us",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=46009",
+   "m": "brand filter",
+   "n": "Vinted 'Casablanca' may mix unrelated brands"
+  }
+ },
+ "season": {
+  "l": "Autumn Winter 2026",
+  "t": "collection page",
+  "u": "https://casablancaparis.com/en-us/pages/autumn-winter-2026",
+  "m": "yes"
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "About page names no atelier or factory; mentions only 'Neapolitan tailoring techniques' applied to tennis pieces, with no maker or place. Information/terms page is silent on manufacturing.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "every product",
+  "countries": "Sample of 25 product descriptions + 1 PDP, all stating origin: Portugal 12 (T-shirts, hoodies, sweatshirts, track pants, swim, dress, tailored jacket, sneaker), Italy 6 (silk shirts, trousers, denim, women's track jacket), China 5 (puffer jackets, mohair knit hoodie, zip jacket, cap), Japan 2 (sunglasses). PDP of the wool double-breasted jacket confirms 'Made in Portugal' with Italian wool.",
+  "heritage": "none",
+  "repair": "no",
+  "process": "no",
+  "urls": [
+   "https://casablancaparis.com/products/m-aw26-jk-538-01-dark-teal-wool-double-breasted-jacket",
+   "https://casablancaparis.com/pages/about"
+  ],
+  "conf": "high",
+  "read": "2026-10-03"
+ }
 }

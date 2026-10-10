@@ -1,262 +1,456 @@
 {
-  "name": "Suitsupply",
-  "band": "accessible",
-  "seat": 90,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 2,
-    "craft": 3,
-    "style": 4
+ "name": "Suitsupply",
+ "band": "accessible",
+ "seat": 90,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 2,
+  "craft": 3,
+  "style": 4
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 2,
+  "linen": 3,
+  "cotton": 2,
+  "wool": 4,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 3,
+  "fuss": 2,
+  "golffice": -2,
+  "finbro": 4,
+  "ital": 3,
+  "whitet": 2,
+  "logo": 1,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Suits with full canvas construction in Italian cloth at mid prices, sold through its own stores.",
+ "origin": "Founded in Amsterdam in 2000 by Fokke de Jong.",
+ "chan": [
+  "O"
+ ],
+ "conf": "S",
+ "forgc": [
+  2,
+  4,
+  5
+ ],
+ "shop": "https://suitsupply.com/en-us/search?q=",
+ "onething": {
+  "p": "Havana suit",
+  "u": "https://suitsupply.com/en-us/search?q=Havana%20suit",
+  "n": "works"
+ },
+ "prices": [
+  [
+   69,
+   229
+  ],
+  [
+   99,
+   229
+  ],
+  [
+   99,
+   249
+  ],
+  [
+   199,
+   199
+  ],
+  [
+   149,
+   299
+  ],
+  [
+   109,
+   269
+  ],
+  [
+   299,
+   699
+  ],
+  [
+   249,
+   299
+  ]
+ ],
+ "notes": {
+  "wool": "Vitale Barberis Canonico cloth at full-canvas value prices",
+  "finbro": "the first-year banker's first real suit",
+  "ital": "a Dutch brand whose sales pitch is Italian cloth — Vitale Barberis Canonico, by name",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 4; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "Suitsupply product pages name the cloth mill on most tailoring and shirting (Rogna, Weba, Cervotessile; the coats listing names Vitale Barberis Canonico, Thomas Mason and others), and the suit page documents half-canvas construction. It names no garment factory and claims none of its own. Names its mills, owns nothing: a 3. [audit proposed 3 at low confidence; held at 3 pending a second read]"
+ },
+ "doors": {
+  "c": "full",
+  "n": 39,
+  "cities": [
+   [
+    "Atlanta",
+    "GA",
+    1
+   ],
+   [
+    "Austin",
+    "TX",
+    1
+   ],
+   [
+    "Bellevue",
+    "WA",
+    1
+   ],
+   [
+    "Boston",
+    "MA",
+    1
+   ],
+   [
+    "Brooklyn",
+    "NY",
+    1
+   ],
+   [
+    "Chicago",
+    "IL",
+    1
+   ],
+   [
+    "Dallas",
+    "TX",
+    1
+   ],
+   [
+    "Denver",
+    "CO",
+    1
+   ],
+   [
+    "Garden City",
+    "NY",
+    1
+   ],
+   [
+    "Greenwich",
+    "CT",
+    1
+   ],
+   [
+    "Houston",
+    "TX",
+    1
+   ],
+   [
+    "King of Prussia",
+    "PA",
+    1
+   ],
+   [
+    "Las Vegas",
+    "NV",
+    2
+   ],
+   [
+    "Los Angeles",
+    "CA",
+    2
+   ],
+   [
+    "McLean",
+    "VA",
+    1
+   ],
+   [
+    "Miami",
+    "FL",
+    1
+   ],
+   [
+    "Minneapolis",
+    "MN",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    4
+   ],
+   [
+    "Newport Beach",
+    "CA",
+    1
+   ],
+   [
+    "Orlando",
+    "FL",
+    1
+   ],
+   [
+    "Philadelphia",
+    "PA",
+    1
+   ],
+   [
+    "Plano",
+    "TX",
+    1
+   ],
+   [
+    "Salt Lake City",
+    "UT",
+    1
+   ],
+   [
+    "San Diego",
+    "CA",
+    1
+   ],
+   [
+    "San Francisco",
+    "CA",
+    1
+   ],
+   [
+    "San Jose",
+    "CA",
+    1
+   ],
+   [
+    "Scottsdale",
+    "AZ",
+    1
+   ],
+   [
+    "Seattle",
+    "WA",
+    1
+   ],
+   [
+    "Short hills",
+    "NJ",
+    1
+   ],
+   [
+    "St Louis",
+    "MO",
+    1
+   ],
+   [
+    "Tampa",
+    "FL",
+    1
+   ],
+   [
+    "The Woodlands",
+    "TX",
+    1
+   ],
+   [
+    "Troy",
+    "MI",
+    1
+   ],
+   [
+    "Washington",
+    "DC",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 0,
+  "con": 0
+ },
+ "cities": "39 stores across the US, and its own site",
+ "region": {
+  "o": [
+   3223,
+   3228,
+   3230,
+   3236,
+   3237,
+   3238,
+   3239,
+   3240,
+   3241,
+   3244,
+   3246
+  ],
+  "s": []
+ },
+ "site": {
+  "domain": "suitsupply.com",
+  "platform": "shopify",
+  "feed": "sitemap_products",
+  "feed_count": 1344,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "both",
+  "marks": [
+   "LICENSED/third-party mills: Vitale Barberis Canonico",
+   "Albini",
+   "Rogna",
+   "Di Sondrio",
+   "Cervotessile",
+   "E.Thomas",
+   "Weba",
+   "Reda",
+   "Testa 1919",
+   "Ferla",
+   "Baird McNutt",
+   "Thomas Mason",
+   "Pontoglio",
+   "Beste",
+   "Candiani",
+   "Silk Pro",
+   "Sidogras",
+   "Fermo Fossati",
+   "Libeco",
+   "Colombo",
+   "Opera Piemontese",
+   "Lanificio Ermenegildo Zegna",
+   "Canepa",
+   "P"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 887,
+  "w": 887,
+  "n": 96,
+  "s": 2,
+  "c": 2,
+  "x": 7,
+  "xh": 1,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "Knitwear",
+   "Suits",
+   "Trousers"
+  ],
+  "st": "complete"
+ },
+ "garment_links": {
+  "T-shirt": "https://suitsupply.com/en-us/men/polos-t-shirts/t-shirts-tank-tops",
+  "Polo": "https://suitsupply.com/en-us/men/polos-t-shirts/short-sleeve-polos",
+  "Dress shirt": "https://suitsupply.com/en-us/men/shirts/classic-shirts",
+  "Jeans": "https://suitsupply.com/en-us/men/trousers/denim-trousers",
+  "Dress pants": "https://suitsupply.com/en-us/men/trousers/suit-trousers",
+  "Sweater": "https://suitsupply.com/en-us/men/knitwear",
+  "Outerwear": "https://suitsupply.com/en-us/men/coats",
+  "Shoes": "https://suitsupply.com/en-us/men/shoes"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Crewneck T-Shirt (off-white, 100% cotton)",
+   "lu": "https://suitsupply.com/en-us/men/knitwear/off-white-crewneck-t-shirt/SW2259.html",
+   "hp": "Short Sleeve Crewneck (light grey, 100% cashmere)",
+   "hu": "https://suitsupply.com/en-us/men/knitwear/light-grey-short-sleeve-crewneck/SW2256.html",
+   "b": "pair"
   },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 2,
-    "linen": 3,
-    "cotton": 2,
-    "wool": 4,
-    "synth": 1
+  "Polo": {
+   "lp": "Buttonless Polo (black, 100% cotton)",
+   "lu": "https://suitsupply.com/en-us/men/knitwear/black-buttonless-polo/SW2282.html",
+   "hp": "Polo (navy, 100% cashmere)",
+   "hu": "https://suitsupply.com/en-us/men/knitwear/navy-polo/SW2274.html",
+   "b": "pair"
   },
-  "dials": {
-    "dur": 3,
-    "forg": 3,
-    "fuss": 2,
-    "golffice": -2,
-    "finbro": 4,
-    "ital": 3,
-    "whitet": 2,
-    "logo": 1,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
+  "Dress shirt": {
+   "lp": "Tailored Fit Classic Collar Shirt (white, 100% cotton)",
+   "lu": "https://suitsupply.com/en-us/men/shirts/white-classic-collar-shirt/H7011.html",
+   "hp": "Tailored Fit Classic Collar Shirt (white, 76% cotton 24% silk)",
+   "hu": "https://suitsupply.com/en-us/men/shirts/white-classic-collar-shirt/H7553.html",
+   "b": "range"
   },
-  "why": "Suits with full canvas construction in Italian cloth at mid prices, sold through its own stores.",
-  "origin": "Founded in Amsterdam in 2000 by Fokke de Jong.",
-  "chan": ["O"],
-  "conf": "S",
-  "forgc": [2, 4, 5],
-  "shop": "https://suitsupply.com/en-us/search?q=",
-  "onething": {
-    "p": "Havana suit",
-    "u": "https://suitsupply.com/en-us/search?q=Havana%20suit",
-    "n": "works"
+  "Jeans": {
+   "lp": "Straight Leg Jeans (navy, 100% cotton)",
+   "lu": "https://suitsupply.com/en-us/men/trousers/navy-straight-leg-jeans/TCD10004N01.html",
+   "hp": "Straight Leg Jeans (navy, 100% cotton)",
+   "hu": "https://suitsupply.com/en-us/men/trousers/navy-straight-leg-jeans/TCD10004N01.html",
+   "b": "single"
   },
-  "prices": [[69, 229], [99, 229], [99, 249], [199, 199], [149, 299], [109, 269], [299, 699], [249, 299]],
-  "notes": {
-    "wool": "Vitale Barberis Canonico cloth at full-canvas value prices",
-    "finbro": "the first-year banker's first real suit",
-    "ital": "a Dutch brand whose sales pitch is Italian cloth — Vitale Barberis Canonico, by name",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 4; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Suitsupply product pages name the cloth mill on most tailoring and shirting (Rogna, Weba, Cervotessile; the coats listing names Vitale Barberis Canonico, Thomas Mason and others), and the suit page documents half-canvas construction. It names no garment factory and claims none of its own. Names its mills, owns nothing: a 3. [audit proposed 3 at low confidence; held at 3 pending a second read]"
+  "Dress pants": {
+   "lp": "Perennial Straight Leg Suit Pants (navy, 100% tropical wool)",
+   "lu": "https://suitsupply.com/en-us/men/trousers/navy-perennial-straight-leg-suit-pants/B9669.html",
+   "hp": "Straight Leg Suit Pants (navy birdseye, pure S130's wool)",
+   "hu": "https://suitsupply.com/en-us/men/trousers/navy-birds-eye-straight-leg-suit-pants/B7515.html",
+   "b": "pair"
   },
-  "doors": {
-    "c": "full",
-    "n": 40,
-    "cities": [
-      ["Atlanta", "GA", 1],
-      ["Austin", "TX", 1],
-      ["Bellevue", "WA", 1],
-      ["Boston", "MA", 1],
-      ["Brooklyn", "NY", 1],
-      ["Canoga Park", "CA", 1],
-      ["Chicago", "IL", 1],
-      ["Dallas", "TX", 1],
-      ["Denver", "CO", 1],
-      ["Edina", "MN", 1],
-      ["Garden City", "NY", 1],
-      ["Greenwich", "CT", 1],
-      ["Houston", "TX", 1],
-      ["King of Prussia", "PA", 1],
-      ["Las Vegas", "NV", 2],
-      ["Los Angeles", "CA", 2],
-      ["McLean", "VA", 1],
-      ["Miami", "FL", 1],
-      ["New York", "NY", 4],
-      ["Newport Beach", "CA", 1],
-      ["Orlando", "FL", 1],
-      ["Philadelphia", "PA", 1],
-      ["Plano", "TX", 1],
-      ["Salt Lake City", "UT", 1],
-      ["San Diego", "CA", 1],
-      ["San Francisco", "CA", 1],
-      ["San Jose", "CA", 1],
-      ["Scottsdale", "AZ", 1],
-      ["Seattle", "WA", 1],
-      ["Short Hills", "NJ", 1],
-      ["St. Louis", "MO", 1],
-      ["Tampa", "FL", 1],
-      ["The Woodlands", "TX", 1],
-      ["Troy", "MI", 1],
-      ["Washington", "DC", 1]
-    ],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Sweater": {
+   "lp": "Crewneck (black merino, 100% wool)",
+   "lu": "https://suitsupply.com/en-us/men/knitwear/black-merino-crewneck/KCV10002999.html",
+   "hp": "Crewneck (navy, 100% cashmere)",
+   "hu": "https://suitsupply.com/en-us/men/knitwear/navy-crewneck/KCV10001N01.html",
+   "b": "pair"
   },
-  "cities": "40 stores across the US, and its own site",
-  "region": {
-    "o": [2594, 2601, 2605, 2608, 2609, 2610, 2611, 2612, 2613, 2614, 2615],
-    "s": []
+  "Outerwear": {
+   "lp": "Reversible Bomber Jacket (black, technical fabric)",
+   "lu": "https://suitsupply.com/en-us/men/coats/black-reversible-bomber-jacket/J1130.html",
+   "hp": "Bomber Jacket (black, 100% cashmere)",
+   "hu": "https://suitsupply.com/en-us/men/coats/black-bomber-jacket/OCO10028999.html",
+   "b": "pair"
   },
-  "site": {
-    "domain": "suitsupply.com",
-    "platform": "shopify",
-    "feed": "sitemap_products",
-    "feed_count": 1344,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "both",
-    "marks": [
-      "LICENSED/third-party mills: Vitale Barberis Canonico",
-      "Albini",
-      "Rogna",
-      "Di Sondrio",
-      "Cervotessile",
-      "E.Thomas",
-      "Weba",
-      "Reda",
-      "Testa 1919",
-      "Ferla",
-      "Baird McNutt",
-      "Thomas Mason",
-      "Pontoglio",
-      "Beste",
-      "Candiani",
-      "Silk Pro",
-      "Sidogras",
-      "Fermo Fossati",
-      "Libeco",
-      "Colombo",
-      "Opera Piemontese",
-      "Lanificio Ermenegildo Zegna",
-      "Canepa",
-      "P"
-    ],
-    "source": "census",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 887,
-    "w": 887,
-    "n": 96,
-    "s": 2,
-    "c": 2,
-    "x": 7,
-    "xh": 1,
-    "sp": "one",
-    "sc": [],
-    "nc": ["Knitwear", "Suits", "Trousers"],
-    "st": "complete"
-  },
-  "garment_links": {
-    "T-shirt": "https://suitsupply.com/en-us/men/polos-t-shirts/t-shirts-tank-tops",
-    "Polo": "https://suitsupply.com/en-us/men/polos-t-shirts/short-sleeve-polos",
-    "Dress shirt": "https://suitsupply.com/en-us/men/shirts/classic-shirts",
-    "Jeans": "https://suitsupply.com/en-us/men/trousers/denim-trousers",
-    "Dress pants": "https://suitsupply.com/en-us/men/trousers/suit-trousers",
-    "Sweater": "https://suitsupply.com/en-us/men/knitwear",
-    "Outerwear": "https://suitsupply.com/en-us/men/coats",
-    "Shoes": "https://suitsupply.com/en-us/men/shoes"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Crewneck T-Shirt (off-white, 100% cotton)",
-      "lu": "https://suitsupply.com/en-us/men/knitwear/off-white-crewneck-t-shirt/SW2259.html",
-      "hp": "Short Sleeve Crewneck (light grey, 100% cashmere)",
-      "hu": "https://suitsupply.com/en-us/men/knitwear/light-grey-short-sleeve-crewneck/SW2256.html",
-      "b": "pair"
-    },
-    "Polo": {
-      "lp": "Buttonless Polo (black, 100% cotton)",
-      "lu": "https://suitsupply.com/en-us/men/knitwear/black-buttonless-polo/SW2282.html",
-      "hp": "Polo (navy, 100% cashmere)",
-      "hu": "https://suitsupply.com/en-us/men/knitwear/navy-polo/SW2274.html",
-      "b": "pair"
-    },
-    "Dress shirt": {
-      "lp": "Tailored Fit Classic Collar Shirt (white, 100% cotton)",
-      "lu": "https://suitsupply.com/en-us/men/shirts/white-classic-collar-shirt/H7011.html",
-      "hp": "Tailored Fit Classic Collar Shirt (white, 76% cotton 24% silk)",
-      "hu": "https://suitsupply.com/en-us/men/shirts/white-classic-collar-shirt/H7553.html",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Straight Leg Jeans (navy, 100% cotton)",
-      "lu": "https://suitsupply.com/en-us/men/trousers/navy-straight-leg-jeans/TCD10004N01.html",
-      "hp": "Straight Leg Jeans (navy, 100% cotton)",
-      "hu": "https://suitsupply.com/en-us/men/trousers/navy-straight-leg-jeans/TCD10004N01.html",
-      "b": "single"
-    },
-    "Dress pants": {
-      "lp": "Perennial Straight Leg Suit Pants (navy, 100% tropical wool)",
-      "lu": "https://suitsupply.com/en-us/men/trousers/navy-perennial-straight-leg-suit-pants/B9669.html",
-      "hp": "Straight Leg Suit Pants (navy birdseye, pure S130's wool)",
-      "hu": "https://suitsupply.com/en-us/men/trousers/navy-birds-eye-straight-leg-suit-pants/B7515.html",
-      "b": "pair"
-    },
-    "Sweater": {
-      "lp": "Crewneck (black merino, 100% wool)",
-      "lu": "https://suitsupply.com/en-us/men/knitwear/black-merino-crewneck/KCV10002999.html",
-      "hp": "Crewneck (navy, 100% cashmere)",
-      "hu": "https://suitsupply.com/en-us/men/knitwear/navy-crewneck/KCV10001N01.html",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "Reversible Bomber Jacket (black, technical fabric)",
-      "lu": "https://suitsupply.com/en-us/men/coats/black-reversible-bomber-jacket/J1130.html",
-      "hp": "Bomber Jacket (black, 100% cashmere)",
-      "hu": "https://suitsupply.com/en-us/men/coats/black-bomber-jacket/OCO10028999.html",
-      "b": "pair"
-    },
-    "Shoes": {
-      "lp": "Loafer (dark brown, leather)",
-      "lu": "https://suitsupply.com/en-us/men/shoes/dark-brown-loafer/FLF10008B01.html",
-      "hp": "Penny Loafer (black, leather)",
-      "hu": "https://suitsupply.com/en-us/men/shoes/black-penny-loafer/FLF10002999.html",
-      "b": "pair"
-    }
-  },
-  "price_range_only": ["Dress shirt"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://suitsupply.com/en-us/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=316774",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "No owned factory claimed on the CSR page or PDPs; CSR page cites Fair Wear Foundation 'Leader' status and links a Non-Financial Report and Brand Performance Check (not read). About page URL 404'd.",
-    "makers": "no",
-    "mills": "yes",
-    "madein": "none",
-    "countries": "Garment country of make not clearly seen on 4 PDPs: shirt and knit pages say no assembly country; suit and chinos summaries gave 'Italy' but only as the mill's country. May sit in a tab the fetch could not see - unverified.",
-    "heritage": "NC",
-    "repair": "no",
-    "process": "some",
-    "urls": [
-      "https://suitsupply.com/en-us/men/suits/navy-tailored-fit-havana-suit/C6861-S1.html",
-      "https://suitsupply.com/en-us/men/shirts/white-widespread-collar-shirt/H7000.html"
-    ],
-    "conf": "low",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Loafer (dark brown, leather)",
+   "lu": "https://suitsupply.com/en-us/men/shoes/dark-brown-loafer/FLF10008B01.html",
+   "hp": "Penny Loafer (black, leather)",
+   "hu": "https://suitsupply.com/en-us/men/shoes/black-penny-loafer/FLF10002999.html",
+   "b": "pair"
   }
+ },
+ "price_range_only": [
+  "Dress shirt"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://suitsupply.com/en-us/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=316774",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "No owned factory claimed on the CSR page or PDPs; CSR page cites Fair Wear Foundation 'Leader' status and links a Non-Financial Report and Brand Performance Check (not read). About page URL 404'd.",
+  "makers": "no",
+  "mills": "yes",
+  "madein": "none",
+  "countries": "Garment country of make not clearly seen on 4 PDPs: shirt and knit pages say no assembly country; suit and chinos summaries gave 'Italy' but only as the mill's country. May sit in a tab the fetch could not see - unverified.",
+  "heritage": "NC",
+  "repair": "no",
+  "process": "some",
+  "urls": [
+   "https://suitsupply.com/en-us/men/suits/navy-tailored-fit-havana-suit/C6861-S1.html",
+   "https://suitsupply.com/en-us/men/shirts/white-widespread-collar-shirt/H7000.html"
+  ],
+  "conf": "low",
+  "read": "2026-10-03"
+ }
 }

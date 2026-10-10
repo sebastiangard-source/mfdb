@@ -1,126 +1,154 @@
 {
-  "name": "Sugar Cane",
-  "band": "premium",
-  "seat": 42,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 2,
-    "craft": 2,
-    "style": 4
-  },
-  "fabric": {
-    "denim": 5,
-    "cashmere": 1,
-    "linen": 1,
-    "cotton": 3,
-    "wool": 2,
-    "synth": 1
-  },
-  "dials": {
-    "dur": 5,
-    "forg": 2,
-    "fuss": -3,
-    "status": 2,
-    "murica": 4,
-    "whitet": 2,
-    "logo": 1,
-    "western": 4,
-    "rock": 1,
-    "workwear": 4,
-    "outdoor": 1,
-    "surf": 1
-  },
-  "why": "Reproductions of postwar American workwear and denim, woven in Japan on vintage shuttle looms, with sugar-cane fiber blended into the cotton.",
-  "origin": "A label of Toyo Enterprise, the Japanese company founded in 1965 that also makes Buzz Rickson's and Sun Surf.",
-  "chan": ["I", "W"],
-  "conf": "S",
-  "forgc": [2, 3, 1],
-  "shop": "https://www.selfedge.com/sugar-cane?q=",
-  "onething": {
-    "p": "1947 Model Jean",
-    "u": "https://sugarcanejeans.com/search?q=1947+Model+Jean",
-    "n": "the reproduction that made the house; own-site search, not opened from this environment"
-  },
-  "prices": [
-    [8690, 15180, "JPY"],
-    null,
-    [11880, 29480, "JPY"],
-    [18480, 32780, "JPY"],
-    null,
-    null,
-    [25300, 275000, "JPY"],
-    null
+ "name": "Sugar Cane",
+ "band": "premium",
+ "seat": 42,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 2,
+  "craft": 2,
+  "style": 4
+ },
+ "fabric": {
+  "denim": 5,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 3,
+  "wool": 2,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 5,
+  "forg": 2,
+  "fuss": -3,
+  "status": 2,
+  "murica": 4,
+  "whitet": 2,
+  "logo": 1,
+  "western": 4,
+  "rock": 1,
+  "workwear": 4,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Reproductions of postwar American workwear and denim, woven in Japan on vintage shuttle looms, with sugar-cane fiber blended into the cotton.",
+ "origin": "A label of Toyo Enterprise, the Japanese company founded in 1965 that also makes Buzz Rickson's and Sun Surf.",
+ "chan": [
+  "I",
+  "W"
+ ],
+ "conf": "S",
+ "forgc": [
+  2,
+  3,
+  1
+ ],
+ "shop": "https://www.selfedge.com/sugar-cane?q=",
+ "onething": {
+  "p": "1947 Model Jean",
+  "u": "https://sugarcanejeans.com/search?q=1947+Model+Jean",
+  "n": "the reproduction that made the house; own-site search, not opened from this environment"
+ },
+ "prices": [
+  [
+   8690,
+   15180,
+   "JPY"
   ],
-  "notes": {
-    "murica": "American workwear reproduced from Japan — observed with more care than the originals received, and made on looms the Americans discarded. Americana at one remove, which is why it sits at four rather than five.",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 2; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "dur": "Heavyweight selvedge denim woven on vintage shuttle looms, made to the standards of 1940s work jeans.",
-    "craft": "Sugar Cane documents its denim process in a dated article series (cotton blending, spinning tension, dyeing, weaving on old Toyoda shuttle looms at 29-inch width), but never names a mill or factory, and parent Toyo Enterprise names no plant it owns. Product pages name no maker and showed no origin line in the fetch; the only country claim seen is 'Made in Japan' in article titles. That is a stated country plus process description, not owned or named making. [applied 4 Oct 2026: the audit found no owned making and no named maker, which is a 2 on the rubric whatever the confidence of the rest]",
-    "denim": "A denim house: jeans and denim jackets are the range."
-  },
-  "doors": {
-    "c": "full",
-    "n": 0,
-    "cities": [],
-    "basis": "master 2026-08-29, pre-recapture"
-  },
-  "cities": "No store or site of its own in the US · sold through denim specialists such as Self Edge",
-  "region": {
-    "o": [],
-    "s": [120]
-  },
-  "site": {
-    "domain": "sugarcane.jp",
-    "platform": "custom",
-    "feed": "none_found",
-    "feed_count": 0,
-    "status": "brand_site_no_shop",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "both",
-    "marks": [
-      "SUGAR CANE FIBER DENIM (Japanese: sato-kibi denim)",
-      "named variants Okinawa Lot. 301 and Hawaii Lot. 401",
-      "AWA-AI / Awa indigo (natural indigo)",
-      "licensed: TENCEL"
-    ],
-    "source": "census",
-    "checked": "2026-09-12"
-  },
-  "price_read": {
-    "date": "2026-09-23",
-    "status": "no_store",
-    "note": "NC - no online store to read, per the brief (September pass finding). The store's absence was not re-verified in this pass. Map held current_prices [[8690, 15180, \"JPY\"], null, [11880, 29480, \"JPY\"], "
-  },
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?search_text=Sugar%20Cane&catalog[]=5",
-      "m": "text search",
-      "n": "No Vinted brand entry; keyword search in Men"
-    }
-  },
-  "craft_evidence": {
-    "owned": "unclear",
-    "owned_d": "Parent Toyo Enterprise (aboutus page: founded 18 Nov 1965, Sumida, Tokyo) describes its business as '繊維製品企画製造業、卸売り、及び貿易業' (textile product planning and manufacturing, wholesale, trade), but names no factory, weaving mill or sewing plant it owns. Its history text says embroidery was commissioned to craftsmen in Kiryu and Ashikaga (outsourced). The sugarcane.jp 'Denim Factory' series (spinning, dyeing, weaving) does not name the factories or say who owns them. Whether Toyo owns weaving or sewing: not shown.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "NC",
-    "countries": "No country of origin seen on the 3 PDPs fetched (spec table may be hidden from the fetch); the sugarcane.jp article series is titled 'Sugar Cane Made in Japan Denim Factory'. Share across PDPs could not be established.",
-    "heritage": "dated and placed",
-    "repair": "no",
-    "process": "yes",
-    "urls": ["https://www.sugarcane.jp/news/80/", "https://www.toyo-enterprise.co.jp/aboutus/"],
-    "conf": "low",
-    "read": "2026-10-03"
+  null,
+  [
+   11880,
+   29480,
+   "JPY"
+  ],
+  [
+   18480,
+   32780,
+   "JPY"
+  ],
+  null,
+  null,
+  [
+   25300,
+   275000,
+   "JPY"
+  ],
+  null
+ ],
+ "notes": {
+  "murica": "American workwear reproduced from Japan — observed with more care than the originals received, and made on looms the Americans discarded. Americana at one remove, which is why it sits at four rather than five.",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 2; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "dur": "Heavyweight selvedge denim woven on vintage shuttle looms, made to the standards of 1940s work jeans.",
+  "craft": "Sugar Cane documents its denim process in a dated article series (cotton blending, spinning tension, dyeing, weaving on old Toyoda shuttle looms at 29-inch width), but never names a mill or factory, and parent Toyo Enterprise names no plant it owns. Product pages name no maker and showed no origin line in the fetch; the only country claim seen is 'Made in Japan' in article titles. That is a stated country plus process description, not owned or named making. [applied 4 Oct 2026: the audit found no owned making and no named maker, which is a 2 on the rubric whatever the confidence of the rest]",
+  "denim": "A denim house: jeans and denim jackets are the range."
+ },
+ "doors": {
+  "c": "full",
+  "n": 0,
+  "cities": [],
+  "basis": "master 2026-08-29, pre-recapture"
+ },
+ "cities": "No store or site of its own in the US · sold through denim specialists such as Self Edge",
+ "region": {
+  "o": [],
+  "s": [
+   120
+  ]
+ },
+ "site": {
+  "domain": "sugarcane.jp",
+  "platform": "custom",
+  "feed": "none_found",
+  "feed_count": 0,
+  "status": "brand_site_no_shop",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "both",
+  "marks": [
+   "SUGAR CANE FIBER DENIM (Japanese: sato-kibi denim)",
+   "named variants Okinawa Lot. 301 and Hawaii Lot. 401",
+   "AWA-AI / Awa indigo (natural indigo)",
+   "licensed: TENCEL"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "price_read": {
+  "date": "2026-09-23",
+  "status": "no_store",
+  "note": "NC - no online store to read, per the brief (September pass finding). The store's absence was not re-verified in this pass. Map held current_prices [[8690, 15180, \"JPY\"], null, [11880, 29480, \"JPY\"], "
+ },
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?search_text=Sugar%20Cane&catalog[]=5",
+   "m": "text search",
+   "n": "No Vinted brand entry; keyword search in Men"
   }
+ },
+ "craft_evidence": {
+  "owned": "unclear",
+  "owned_d": "Parent Toyo Enterprise (aboutus page: founded 18 Nov 1965, Sumida, Tokyo) describes its business as '繊維製品企画製造業、卸売り、及び貿易業' (textile product planning and manufacturing, wholesale, trade), but names no factory, weaving mill or sewing plant it owns. Its history text says embroidery was commissioned to craftsmen in Kiryu and Ashikaga (outsourced). The sugarcane.jp 'Denim Factory' series (spinning, dyeing, weaving) does not name the factories or say who owns them. Whether Toyo owns weaving or sewing: not shown.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "NC",
+  "countries": "No country of origin seen on the 3 PDPs fetched (spec table may be hidden from the fetch); the sugarcane.jp article series is titled 'Sugar Cane Made in Japan Denim Factory'. Share across PDPs could not be established.",
+  "heritage": "dated and placed",
+  "repair": "no",
+  "process": "yes",
+  "urls": [
+   "https://www.sugarcane.jp/news/80/",
+   "https://www.toyo-enterprise.co.jp/aboutus/"
+  ],
+  "conf": "low",
+  "read": "2026-10-03"
+ }
 }

@@ -1,188 +1,242 @@
 {
-  "name": "Alex Crane",
-  "band": "premium",
-  "seat": 11,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 5,
-    "craft": 2,
-    "style": 3
+ "name": "Alex Crane",
+ "band": "premium",
+ "seat": 11,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 5,
+  "craft": 2,
+  "style": 3
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 5,
+  "cotton": 2,
+  "wool": 2,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 2,
+  "forg": 3,
+  "fuss": 1,
+  "shoes": 0,
+  "boat": 1,
+  "whitet": 2,
+  "logo": 1,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 3
+ },
+ "why": "Linen shirts, trousers and shorts in relaxed cuts; the company uses no synthetic fibers.",
+ "origin": "Founded in New York by the designer Alex Crane; a certified B Corporation.",
+ "chan": [
+  "W",
+  "I",
+  "D"
+ ],
+ "conf": "S",
+ "forgc": [
+  5,
+  2,
+  1
+ ],
+ "shop": "https://www.alexcrane.co/search?q=",
+ "onething": {
+  "p": "Bo linen pant",
+  "u": "https://alexcrane.co/search?q=Bo%20linen%20pant",
+  "n": "verified ✓"
+ },
+ "prices": [
+  [
+   68,
+   78
+  ],
+  [
+   148,
+   148
+  ],
+  [
+   148,
+   168
+  ],
+  null,
+  [
+   228,
+   228
+  ],
+  [
+   118,
+   278
+  ],
+  [
+   208,
+   298
+  ],
+  null
+ ],
+ "price_checked": true,
+ "notes": {
+  "linen": "linen-founded — Normandy flax, synthetics refused",
+  "comfort": "breeze as the product",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 2; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "Alex Crane's product pages state where each piece is made down to the city ('Cut and sewn in Chennai, India', 'Knit in Antananarivo, Madagascar') and where the fiber is grown, but name no factory, maker or mill. It owns nothing. A stated country (and city) with no named maker = 2."
+ },
+ "doors": {
+  "c": "full",
+  "n": 0,
+  "cities": [],
+  "basis": "master 2026-08-29, pre-recapture"
+ },
+ "cities": "No store of its own in the US · department stores and independent menswear shops, and its own site",
+ "region": {
+  "o": [],
+  "s": [
+   15,
+   20,
+   26,
+   65,
+   77,
+   128,
+   132
+  ]
+ },
+ "site": {
+  "domain": "alexcrane.co",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 30,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "licensed",
+  "marks": [
+   "Bananatex"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 51,
+  "w": 51,
+  "n": 100,
+  "s": 0,
+  "c": 0,
+  "x": 0,
+  "xh": 0,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "Shirts",
+   "Pants",
+   "Jackets"
+  ],
+  "st": "complete"
+ },
+ "garment_links": {
+  "T-shirt": "https://www.alexcrane.co/collections/tees-1/men",
+  "Polo": "https://www.alexcrane.co/collections/polos",
+  "Dress shirt": "https://www.alexcrane.co/collections/shirts/men",
+  "Dress pants": "https://www.alexcrane.co/collections/pants/men",
+  "Sweater": "https://www.alexcrane.co/collections/sweaters",
+  "Outerwear": "https://www.alexcrane.co/collections/jackets"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Crepe Tee / Slate",
+   "lu": "https://www.alexcrane.co/products/crepe-tee-slate",
+   "hp": "Sun Tee / Night",
+   "hu": "https://www.alexcrane.co/products/sun-tee-night",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 1,
-    "linen": 5,
-    "cotton": 2,
-    "wool": 2,
-    "synth": 1
+  "Polo": {
+   "lp": "Knit Polo / Bone",
+   "lu": "https://www.alexcrane.co/products/knit-polo-bone",
+   "hp": "Knit Polo / Bone",
+   "hu": "https://www.alexcrane.co/products/knit-polo-bone",
+   "b": "single"
   },
-  "dials": {
-    "dur": 2,
-    "forg": 3,
-    "fuss": 1,
-    "shoes": 0,
-    "boat": 1,
-    "whitet": 2,
-    "logo": 1,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 3
+  "Dress shirt": {
+   "lp": "Cloud Flannel / Night Lines",
+   "lu": "https://www.alexcrane.co/products/cloud-flannel-night-lines",
+   "hp": "Playa Shirt / Night",
+   "hu": "https://www.alexcrane.co/products/playa-shirt-night-1",
+   "b": "range"
   },
-  "why": "Linen shirts, trousers and shorts in relaxed cuts; the company uses no synthetic fibers.",
-  "origin": "Founded in New York by the designer Alex Crane; a certified B Corporation.",
-  "chan": ["W", "I", "D"],
-  "conf": "S",
-  "forgc": [5, 2, 1],
-  "shop": "https://www.alexcrane.co/search?q=",
-  "onething": {
-    "p": "Bo linen pant",
-    "u": "https://alexcrane.co/search?q=Bo%20linen%20pant",
-    "n": "verified ✓"
+  "Dress pants": {
+   "lp": "Alta Trousers / Night",
+   "lu": "https://www.alexcrane.co/products/alta-trousers-night",
+   "hp": "Alta Trousers / Night",
+   "hu": "https://www.alexcrane.co/products/alta-trousers-night",
+   "b": "single"
   },
-  "prices": [[68, 78], [148, 148], [148, 168], null, [228, 228], [118, 278], [208, 298], null],
-  "price_checked": true,
-  "notes": {
-    "linen": "linen-founded — Normandy flax, synthetics refused",
-    "comfort": "breeze as the product",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 2; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Alex Crane's product pages state where each piece is made down to the city ('Cut and sewn in Chennai, India', 'Knit in Antananarivo, Madagascar') and where the fiber is grown, but name no factory, maker or mill. It owns nothing. A stated country (and city) with no named maker = 2."
+  "Sweater": {
+   "lp": "Caza Crewneck / Night",
+   "lu": "https://www.alexcrane.co/products/caza-crewneck-night",
+   "hp": "Vale Sweater / Bone",
+   "hu": "https://www.alexcrane.co/products/vale-sweater-bone",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 0,
-    "cities": [],
-    "basis": "master 2026-08-29, pre-recapture"
-  },
-  "cities": "No store of its own in the US · department stores and independent menswear shops, and its own site",
-  "region": {
-    "o": [],
-    "s": [15, 20, 26, 65, 77, 128, 132]
-  },
-  "site": {
-    "domain": "alexcrane.co",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 30,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "licensed",
-    "marks": ["Bananatex"],
-    "source": "census",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 51,
-    "w": 51,
-    "n": 100,
-    "s": 0,
-    "c": 0,
-    "x": 0,
-    "xh": 0,
-    "sp": "one",
-    "sc": [],
-    "nc": ["Shirts", "Pants", "Jackets"],
-    "st": "complete"
-  },
-  "garment_links": {
-    "T-shirt": "https://www.alexcrane.co/collections/tees-1/men",
-    "Polo": "https://www.alexcrane.co/collections/polos",
-    "Dress shirt": "https://www.alexcrane.co/collections/shirts/men",
-    "Dress pants": "https://www.alexcrane.co/collections/pants/men",
-    "Sweater": "https://www.alexcrane.co/collections/sweaters",
-    "Outerwear": "https://www.alexcrane.co/collections/jackets"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Crepe Tee / Slate",
-      "lu": "https://www.alexcrane.co/products/crepe-tee-slate",
-      "hp": "Sun Tee / Night",
-      "hu": "https://www.alexcrane.co/products/sun-tee-night",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Knit Polo / Bone",
-      "lu": "https://www.alexcrane.co/products/knit-polo-bone",
-      "hp": "Knit Polo / Bone",
-      "hu": "https://www.alexcrane.co/products/knit-polo-bone",
-      "b": "single"
-    },
-    "Dress shirt": {
-      "lp": "Cloud Flannel / Night Lines",
-      "lu": "https://www.alexcrane.co/products/cloud-flannel-night-lines",
-      "hp": "Playa Shirt / Night",
-      "hu": "https://www.alexcrane.co/products/playa-shirt-night-1",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Alta Trousers / Night",
-      "lu": "https://www.alexcrane.co/products/alta-trousers-night",
-      "hp": "Alta Trousers / Night",
-      "hu": "https://www.alexcrane.co/products/alta-trousers-night",
-      "b": "single"
-    },
-    "Sweater": {
-      "lp": "Caza Crewneck / Night",
-      "lu": "https://www.alexcrane.co/products/caza-crewneck-night",
-      "hp": "Vale Sweater / Bone",
-      "hu": "https://www.alexcrane.co/products/vale-sweater-bone",
-      "b": "range"
-    },
-    "Outerwear": {
-      "lp": "Kite Jacket / Night",
-      "lu": "https://www.alexcrane.co/products/kite-jacket-night",
-      "hp": "Pac Flannel Zip Jacket / Olive",
-      "hu": "https://www.alexcrane.co/products/pac-flannel-zip-jacket-olive",
-      "b": "range"
-    }
-  },
-  "price_range_only": ["T-shirt", "Dress shirt", "Sweater", "Outerwear"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.alexcrane.co/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?search_text=Alex%20Crane&catalog[]=5",
-      "m": "text search",
-      "n": "No Vinted brand entry; keyword search in Men"
-    }
-  },
-  "certs": {
-    "bcorp": {
-      "e": "Alex Crane"
-    }
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "No owned factory claimed on /pages/about or /pages/sustainability; neither page names any factory or production partner. About page covers founder and design only.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "most",
-    "countries": "4/4 PDPs read state city and country: India (Chennai) 1/4 (herringbone flannel shirt), Madagascar (Antananarivo) 3/4 (Tam tee, Vale sweater, Knit Kite jacket). Sample is small and knit-heavy; pants, shorts, linen and swim not read (fetch budget ran out), so 'most' is provisional.",
-    "heritage": "dated and placed",
-    "repair": "no",
-    "process": "some",
-    "urls": [
-      "https://alexcrane.co/products/herringbone-flannel-button-up-olive",
-      "https://alexcrane.co/products/vale-sweater-charcoal"
-    ],
-    "conf": "medium",
-    "read": "2026-10-03"
+  "Outerwear": {
+   "lp": "Kite Jacket / Night",
+   "lu": "https://www.alexcrane.co/products/kite-jacket-night",
+   "hp": "Pac Flannel Zip Jacket / Olive",
+   "hu": "https://www.alexcrane.co/products/pac-flannel-zip-jacket-olive",
+   "b": "range"
   }
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Dress shirt",
+  "Sweater",
+  "Outerwear"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.alexcrane.co/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?search_text=Alex%20Crane&catalog[]=5",
+   "m": "text search",
+   "n": "No Vinted brand entry; keyword search in Men"
+  }
+ },
+ "certs": {
+  "bcorp": {
+   "e": "Alex Crane"
+  }
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "No owned factory claimed on /pages/about or /pages/sustainability; neither page names any factory or production partner. About page covers founder and design only.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "most",
+  "countries": "4/4 PDPs read state city and country: India (Chennai) 1/4 (herringbone flannel shirt), Madagascar (Antananarivo) 3/4 (Tam tee, Vale sweater, Knit Kite jacket). Sample is small and knit-heavy; pants, shorts, linen and swim not read (fetch budget ran out), so 'most' is provisional.",
+  "heritage": "dated and placed",
+  "repair": "no",
+  "process": "some",
+  "urls": [
+   "https://alexcrane.co/products/herringbone-flannel-button-up-olive",
+   "https://alexcrane.co/products/vale-sweater-charcoal"
+  ],
+  "conf": "medium",
+  "read": "2026-10-03"
+ }
 }

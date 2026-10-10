@@ -1,214 +1,281 @@
 {
-  "name": "Drake's",
-  "band": "accessible",
-  "seat": 128,
-  "dagger": 1,
-  "row_class": "",
-  "row_override": "style",
-  "focus": {
-    "tech": 1,
-    "comfort": 3,
-    "craft": 4,
-    "style": 5
+ "name": "Drake's",
+ "band": "accessible",
+ "seat": 128,
+ "dagger": 1,
+ "row_class": "",
+ "row_override": "style",
+ "focus": {
+  "tech": 1,
+  "comfort": 3,
+  "craft": 4,
+  "style": 5
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 3,
+  "linen": 3,
+  "cotton": 3,
+  "wool": 3,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 4,
+  "forg": 3,
+  "fuss": 2,
+  "golffice": -2,
+  "status": 3,
+  "ivy": 4,
+  "prep": 3,
+  "boat": 2,
+  "racquet": 5,
+  "briish": 5,
+  "whitet": 2,
+  "logo": 1,
+  "western": 1,
+  "rock": 1,
+  "workwear": 2,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Ties, shirts, knitwear and tailoring in an English classical style, made in England.",
+ "origin": "Founded in East London in 1977 by Michael Drake as a tie maker; revived under Michael Hill and Mark Cho.",
+ "chan": [
+  "O",
+  "I",
+  "W"
+ ],
+ "conf": "L",
+ "forgc": [
+  3,
+  3,
+  2
+ ],
+ "shop": "https://us.drakes.com/search?q=",
+ "onething": {
+  "p": "Games Blazer",
+  "u": "https://us.drakes.com/collections/games-blazers",
+  "n": "brand calls them 'our signature Italian-made Games blazers'; collection page verified ✓"
+ },
+ "prices": [
+  [
+   115,
+   375
+  ],
+  [
+   225,
+   495
+  ],
+  [
+   345,
+   425
+  ],
+  [
+   425,
+   495
+  ],
+  [
+   450,
+   895
+  ],
+  [
+   345,
+   1065
+  ],
+  [
+   595,
+   2525
+  ],
+  [
+   575,
+   1065
+  ]
+ ],
+ "notes": {
+  "style": "haberdasher wit — the modern classical reference",
+  "ivy": "trad reborn with Italian cloth and a wink — the revival's house brand",
+  "racquet": "Haberdashery adjacent to the club rather than kit for it. The association is a way of dressing, and the sport is the setting that produced it.",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 2; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "briish": "English classical dress — ties, shirts, Shetland knits — made in England.",
+  "craft": "Drake's own pages say its ties are handmade in its East London workshop and its shirts in 'our own shirt factory in Chard, Somerset', and shirt PDPs read 'Made in Our Factory in Somerset'. The same about page says tailoring is made in Italy and knitwear in Scotland, and outerwear, denim, tees and caps are Made in Portugal. Owned making for two core categories, not the range: a 4."
+ },
+ "doors": {
+  "c": "full",
+  "n": 1,
+  "cities": [
+   [
+    "New York",
+    "NY",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 0,
+  "con": 0
+ },
+ "cities": "One store, in New York · independent menswear shops, and its own site",
+ "region": {
+  "o": [
+   1137
+  ],
+  "s": []
+ },
+ "site": {
+  "domain": "us.drakes.com",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 1719,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "licensed",
+  "marks": [
+   "Fresco(R)",
+   "Supima",
+   "Lycra"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 420,
+  "w": 415,
+  "n": 97,
+  "s": 2,
+  "c": 0,
+  "x": 1,
+  "xh": 0,
+  "sp": "one",
+  "sc": [
+   "Swim Shorts"
+  ],
+  "nc": [
+   "Casual Shirts",
+   "Chore Jackets",
+   "Coats & Jackets"
+  ],
+  "st": "complete"
+ },
+ "garment_links": {
+  "T-shirt": "https://us.drakes.com/collections/t-shirts",
+  "Polo": "https://us.drakes.com/collections/polos",
+  "Dress shirt": "https://us.drakes.com/collections/formal-shirts",
+  "Jeans": "https://us.drakes.com/collections/jeans",
+  "Dress pants": "https://us.drakes.com/collections/suit-trousers",
+  "Sweater": "https://us.drakes.com/collections/knitwear",
+  "Outerwear": "https://us.drakes.com/collections/coats-jackets",
+  "Shoes": "https://us.drakes.com/collections/footwear"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Navy Cotton Crew Neck Hiking T-Shirt",
+   "lu": "https://us.drakes.com/products/navy-cotton-crew-neck-hiking-t-shirt-1",
+   "hp": "Ecru and Charcoal Stripe Crew Neck Knitted T-Shirt",
+   "hu": "https://us.drakes.com/products/dr2a3a-26040-03-102",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 3,
-    "linen": 3,
-    "cotton": 3,
-    "wool": 3,
-    "synth": 1
+  "Polo": {
+   "lp": "Dark Navy Piqué Cotton Polo Shirt",
+   "lu": "https://us.drakes.com/products/dark-navy-pique-cotton-polo-shirt-1",
+   "hp": "Navy Knitted Silk Short-Sleeve Polo Shirt",
+   "hu": "https://us.drakes.com/products/navy-knitted-silk-short-sleeve-polo-shirt",
+   "b": "pair"
   },
-  "dials": {
-    "dur": 4,
-    "forg": 3,
-    "fuss": 2,
-    "golffice": -2,
-    "status": 3,
-    "ivy": 4,
-    "prep": 3,
-    "boat": 2,
-    "racquet": 5,
-    "briish": 5,
-    "whitet": 2,
-    "logo": 1,
-    "western": 1,
-    "rock": 1,
-    "workwear": 2,
-    "outdoor": 1,
-    "surf": 1
+  "Dress shirt": {
+   "lp": "Mid-Blue Cotton Oxford Cloth Button-Down Shirt",
+   "lu": "https://us.drakes.com/products/mid-blue-cotton-oxford-cloth-button-down-shirt-1",
+   "hp": "Blue and White Stripe Long Point Collar Flap Pocket Poplin Shirt",
+   "hu": "https://us.drakes.com/products/blue-and-white-stripe-long-point-collar-flap-pocket-poplin-shirt",
+   "b": "range"
   },
-  "why": "Ties, shirts, knitwear and tailoring in an English classical style, made in England.",
-  "origin": "Founded in East London in 1977 by Michael Drake as a tie maker; revived under Michael Hill and Mark Cho.",
-  "chan": ["O", "I", "W"],
-  "conf": "L",
-  "forgc": [3, 3, 2],
-  "shop": "https://us.drakes.com/search?q=",
-  "onething": {
-    "p": "Games Blazer",
-    "u": "https://us.drakes.com/collections/games-blazers",
-    "n": "brand calls them 'our signature Italian-made Games blazers'; collection page verified ✓"
+  "Jeans": {
+   "lp": "Ecru 13.2oz Denim Five-Pocket Jeans",
+   "lu": "https://us.drakes.com/products/ecru-13-2oz-denim-five-pocket-jeans",
+   "hp": "Indigo Rinse 15.5oz Japanese Selvedge Denim Five-Pocket Jeans",
+   "hu": "https://us.drakes.com/products/indigo-rinse-15-5oz-japanese-selvedge-denim-five-pocket-jeans",
+   "b": "range"
   },
-  "prices": [[115, 375], [225, 495], [345, 425], [425, 495], [450, 895], [345, 1065], [595, 2525], [575, 1065]],
-  "notes": {
-    "style": "haberdasher wit — the modern classical reference",
-    "ivy": "trad reborn with Italian cloth and a wink — the revival's house brand",
-    "racquet": "Haberdashery adjacent to the club rather than kit for it. The association is a way of dressing, and the sport is the setting that produced it.",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 2; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "briish": "English classical dress — ties, shirts, Shetland knits — made in England.",
-    "craft": "Drake's own pages say its ties are handmade in its East London workshop and its shirts in 'our own shirt factory in Chard, Somerset', and shirt PDPs read 'Made in Our Factory in Somerset'. The same about page says tailoring is made in Italy and knitwear in Scotland, and outerwear, denim, tees and caps are Made in Portugal. Owned making for two core categories, not the range: a 4."
+  "Dress pants": {
+   "lp": "Green Cotton Travel Games Trouser",
+   "lu": "https://us.drakes.com/products/green-cotton-travel-games-trouser",
+   "hp": "Navy Fresco® Wool Single-Pleat Trouser",
+   "hu": "https://us.drakes.com/products/navy-fresco®-wool-single-pleat-trouser-1",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 1,
-    "cities": [["New York", "NY", 1]],
-    "basis": "recapture 2026-09"
+  "Sweater": {
+   "lp": "Navy Brushed Shetland Crew Neck Jumper",
+   "lu": "https://us.drakes.com/products/navy-brushed-shetland-crew-neck-jumper-1",
+   "hp": "Navy Cashmere Crew Neck Jumper",
+   "hu": "https://us.drakes.com/products/navy-cashmere-crew-neck-jumper",
+   "b": "pair"
   },
-  "cities": "One store, in New York · independent menswear shops, and its own site",
-  "region": {
-    "o": [826],
-    "s": []
+  "Outerwear": {
+   "lp": "Ecru Cotton Tie Front Smock",
+   "lu": "https://us.drakes.com/products/ecru-cotton-tie-front-smock",
+   "hp": "Snuff Raw Suede Blouson Jacket",
+   "hu": "https://us.drakes.com/products/snuff-raw-suede-blouson-jacket",
+   "b": "range"
   },
-  "site": {
-    "domain": "us.drakes.com",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 1719,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "licensed",
-    "marks": ["Fresco(R)", "Supima", "Lycra"],
-    "source": "census",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 420,
-    "w": 415,
-    "n": 97,
-    "s": 2,
-    "c": 0,
-    "x": 1,
-    "xh": 0,
-    "sp": "one",
-    "sc": ["Swim Shorts"],
-    "nc": ["Casual Shirts", "Chore Jackets", "Coats & Jackets"],
-    "st": "complete"
-  },
-  "garment_links": {
-    "T-shirt": "https://us.drakes.com/collections/t-shirts",
-    "Polo": "https://us.drakes.com/collections/polos",
-    "Dress shirt": "https://us.drakes.com/collections/formal-shirts",
-    "Jeans": "https://us.drakes.com/collections/jeans",
-    "Dress pants": "https://us.drakes.com/collections/suit-trousers",
-    "Sweater": "https://us.drakes.com/collections/knitwear",
-    "Outerwear": "https://us.drakes.com/collections/coats-jackets",
-    "Shoes": "https://us.drakes.com/collections/footwear"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Navy Cotton Crew Neck Hiking T-Shirt",
-      "lu": "https://us.drakes.com/products/navy-cotton-crew-neck-hiking-t-shirt-1",
-      "hp": "Ecru and Charcoal Stripe Crew Neck Knitted T-Shirt",
-      "hu": "https://us.drakes.com/products/dr2a3a-26040-03-102",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Dark Navy Piqué Cotton Polo Shirt",
-      "lu": "https://us.drakes.com/products/dark-navy-pique-cotton-polo-shirt-1",
-      "hp": "Navy Knitted Silk Short-Sleeve Polo Shirt",
-      "hu": "https://us.drakes.com/products/navy-knitted-silk-short-sleeve-polo-shirt",
-      "b": "pair"
-    },
-    "Dress shirt": {
-      "lp": "Mid-Blue Cotton Oxford Cloth Button-Down Shirt",
-      "lu": "https://us.drakes.com/products/mid-blue-cotton-oxford-cloth-button-down-shirt-1",
-      "hp": "Blue and White Stripe Long Point Collar Flap Pocket Poplin Shirt",
-      "hu": "https://us.drakes.com/products/blue-and-white-stripe-long-point-collar-flap-pocket-poplin-shirt",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Ecru 13.2oz Denim Five-Pocket Jeans",
-      "lu": "https://us.drakes.com/products/ecru-13-2oz-denim-five-pocket-jeans",
-      "hp": "Indigo Rinse 15.5oz Japanese Selvedge Denim Five-Pocket Jeans",
-      "hu": "https://us.drakes.com/products/indigo-rinse-15-5oz-japanese-selvedge-denim-five-pocket-jeans",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Green Cotton Travel Games Trouser",
-      "lu": "https://us.drakes.com/products/green-cotton-travel-games-trouser",
-      "hp": "Navy Fresco® Wool Single-Pleat Trouser",
-      "hu": "https://us.drakes.com/products/navy-fresco®-wool-single-pleat-trouser-1",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Navy Brushed Shetland Crew Neck Jumper",
-      "lu": "https://us.drakes.com/products/navy-brushed-shetland-crew-neck-jumper-1",
-      "hp": "Navy Cashmere Crew Neck Jumper",
-      "hu": "https://us.drakes.com/products/navy-cashmere-crew-neck-jumper",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "Ecru Cotton Tie Front Smock",
-      "lu": "https://us.drakes.com/products/ecru-cotton-tie-front-smock",
-      "hp": "Snuff Raw Suede Blouson Jacket",
-      "hu": "https://us.drakes.com/products/snuff-raw-suede-blouson-jacket",
-      "b": "range"
-    },
-    "Shoes": {
-      "lp": "Brown Suede Henri Summer Loafer",
-      "lu": "https://us.drakes.com/products/brown-suede-henri-summer-loafer",
-      "hp": "Black Calf Leather Charles Mk II Goodyear Welted Penny Loafer",
-      "hu": "https://us.drakes.com/products/black-calf-leather-charles-mk-ii-goodyear-welted-penny-loafer",
-      "b": "pair"
-    }
-  },
-  "price_range_only": ["T-shirt", "Dress shirt", "Jeans", "Dress pants", "Outerwear"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://us.drakes.com/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=389025",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "season": {
-    "l": "The Autumn Collection (Part One/Two; dated Aug 26, 2026)",
-    "t": "lookbook",
-    "u": "https://us.drakes.com/blogs/news/the-autumn-collection-part-one-lookbook",
-    "m": "yes"
-  },
-  "craft_evidence": {
-    "owned": "yes",
-    "owned_d": "Two owned workshops, both named on the brand's own pages: tie workshop in East London (Haberdasher Street; /pages/made-to-order-craftmanship: 'Each of our ties is handmade in our dedicated workshop in the heart of East London') and 'our own shirt factory in Chard, Somerset' (/pages/about). About page says soft tailoring is made in Italy and traditional knitwear in Scotland by partners; denim and outerwear by unnamed partners. Nothing else found made in-house: sampled scarf (Italy), cap, t-shirt, chore coat, denim (Portugal), knit (Scotland), tailoring (Italy).",
-    "makers": "no",
-    "mills": "no",
-    "madein": "every product",
-    "countries": "England 3/11 (tie: London; OCBD shirt and overshirt: Somerset), Italy 3/11 (Games linen trousers, corduroy Games blazer, wool-silk scarf), Portugal 4/11 (chore coat, denim field shirt, hiking t-shirt, cap), Scotland 1/11 (cashmere crew). Sample of 11 PDPs: tie, shirts, trousers, blazer, knit, outerwear, denim, tee, scarf, cap.",
-    "heritage": "dated and placed",
-    "repair": "no",
-    "process": "some",
-    "urls": [
-      "https://us.drakes.com/pages/about",
-      "https://us.drakes.com/products/white-oxford-cotton-cloth-button-down-shirt-1"
-    ],
-    "conf": "high",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Brown Suede Henri Summer Loafer",
+   "lu": "https://us.drakes.com/products/brown-suede-henri-summer-loafer",
+   "hp": "Black Calf Leather Charles Mk II Goodyear Welted Penny Loafer",
+   "hu": "https://us.drakes.com/products/black-calf-leather-charles-mk-ii-goodyear-welted-penny-loafer",
+   "b": "pair"
   }
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants",
+  "Outerwear"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://us.drakes.com/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=389025",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "season": {
+  "l": "The Autumn Collection (Part One/Two; dated Aug 26, 2026)",
+  "t": "lookbook",
+  "u": "https://us.drakes.com/blogs/news/the-autumn-collection-part-one-lookbook",
+  "m": "yes"
+ },
+ "craft_evidence": {
+  "owned": "yes",
+  "owned_d": "Two owned workshops, both named on the brand's own pages: tie workshop in East London (Haberdasher Street; /pages/made-to-order-craftmanship: 'Each of our ties is handmade in our dedicated workshop in the heart of East London') and 'our own shirt factory in Chard, Somerset' (/pages/about). About page says soft tailoring is made in Italy and traditional knitwear in Scotland by partners; denim and outerwear by unnamed partners. Nothing else found made in-house: sampled scarf (Italy), cap, t-shirt, chore coat, denim (Portugal), knit (Scotland), tailoring (Italy).",
+  "makers": "no",
+  "mills": "no",
+  "madein": "every product",
+  "countries": "England 3/11 (tie: London; OCBD shirt and overshirt: Somerset), Italy 3/11 (Games linen trousers, corduroy Games blazer, wool-silk scarf), Portugal 4/11 (chore coat, denim field shirt, hiking t-shirt, cap), Scotland 1/11 (cashmere crew). Sample of 11 PDPs: tie, shirts, trousers, blazer, knit, outerwear, denim, tee, scarf, cap.",
+  "heritage": "dated and placed",
+  "repair": "no",
+  "process": "some",
+  "urls": [
+   "https://us.drakes.com/pages/about",
+   "https://us.drakes.com/products/white-oxford-cotton-cloth-button-down-shirt-1"
+  ],
+  "conf": "high",
+  "read": "2026-10-03"
+ }
 }

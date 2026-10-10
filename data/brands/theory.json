@@ -1,216 +1,323 @@
 {
-  "name": "Theory",
-  "band": "accessible",
-  "seat": 109,
-  "dagger": 0,
-  "focus": {
-    "tech": 2,
-    "comfort": 3,
-    "craft": 2,
-    "style": 4
+ "name": "Theory",
+ "band": "accessible",
+ "seat": 109,
+ "dagger": 0,
+ "focus": {
+  "tech": 2,
+  "comfort": 3,
+  "craft": 2,
+  "style": 4
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 2,
+  "linen": 2,
+  "cotton": 2,
+  "wool": 4,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 2,
+  "fuss": 2,
+  "golffice": -2,
+  "finbro": 3,
+  "whitet": 3,
+  "logo": 1,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Tailoring and separates in stretch wool for the office, with the wool's source published.",
+ "origin": "Founded in New York in 1997 by Andrew Rosen and Elie Tahari.",
+ "chan": [
+  "O",
+  "D",
+  "X"
+ ],
+ "conf": "S",
+ "forgc": [
+  2,
+  3,
+  2
+ ],
+ "shop": "https://www.theory.com/search?q=",
+ "onething": {
+  "p": "Sylvain shirt",
+  "u": "https://www.theory.com/search?q=Sylvain%20shirt%20men",
+  "n": "works"
+ },
+ "prices": [
+  [
+   75,
+   215
+  ],
+  [
+   95,
+   225
+  ],
+  [
+   225,
+   285
+  ],
+  [
+   225,
+   225
+  ],
+  [
+   285,
+   395
+  ],
+  [
+   225,
+   345
+  ],
+  [
+   325,
+   1695
+  ],
+  [
+   295,
+   395
+  ]
+ ],
+ "notes": {
+  "wool": "the Good Wool traceable supply chain",
+  "whitet": "a named tee in the range — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 4; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "Every Theory product page sampled lists the country of each production stage, from fabric weaving and dyeing to garment manufacturing (e.g. Mayer pant: fabric Czech Republic/Italy, garment China). It rarely names a mill (Botto Giuseppe on the Regal Wool crewneck) and never names the factory, and it owns no making. Detailed countries but few names: 2, with a case for 3."
+ },
+ "doors": {
+  "c": "full",
+  "n": 13,
+  "cities": [
+   [
+    "Atlanta",
+    "GA",
+    1
+   ],
+   [
+    "Brentwood",
+    "CA",
+    1
+   ],
+   [
+    "Greenwich",
+    "CT",
+    1
+   ],
+   [
+    "Manhasset",
+    "NY",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    5
+   ],
+   [
+    "Palm Beach",
+    "FL",
+    1
+   ],
+   [
+    "Philadelphia",
+    "PA",
+    1
+   ],
+   [
+    "San Francisco",
+    "CA",
+    1
+   ],
+   [
+    "Westport",
+    "CT",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 23,
+  "con": 0
+ },
+ "cities": "13 stores, including New York, Atlanta, Brentwood · department stores and independent menswear shops, and its own site",
+ "region": {
+  "o": [
+   3340,
+   3341,
+   3342,
+   3343,
+   3344,
+   3347,
+   3348,
+   3349,
+   3351
+  ],
+  "s": [
+   52,
+   58,
+   124
+  ]
+ },
+ "addmen": true,
+ "site": {
+  "domain": "theory.com",
+  "platform": "salesforce_commerce",
+  "feed": "sitemap_products",
+  "feed_count": 1159,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "house",
+  "marks": [
+   "House fabric names: Precision Ponte, Good Linen (Good Wool elsewhere on site), Regal Wool, Moonsoft Cotton, Light Bilen, Neoteric Twill, Motion Wool / Motion Wool Twill / Motion Nylon / Motion Poplin, Relay Jersey, Anemone Modal Jersey, Cosmos Slub Cotton, Kelso Nylon, Pacific Linen, Plush Melton, S"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 192,
+  "w": 190,
+  "n": 67,
+  "s": 14,
+  "c": 18,
+  "x": 38,
+  "xh": 14,
+  "sp": "one",
+  "sc": [
+   "shorts"
+  ],
+  "nc": [
+   "t-shirts-and-polos",
+   "pants",
+   "shirts"
+  ],
+  "st": "complete"
+ },
+ "garment_links": {
+  "T-shirt": "https://www.theory.com/men/t-shirts-and-polos/",
+  "Polo": "https://www.theory.com/men/t-shirts-and-polos/",
+  "Dress shirt": "https://www.theory.com/men/shirts/",
+  "Jeans": "https://www.theory.com/search?q=jeans&prefn1=division&prefv1=Men",
+  "Dress pants": "https://www.theory.com/men/pant-guide/formal-pant/",
+  "Sweater": "https://www.theory.com/men/sweaters-and-cardigans/",
+  "Outerwear": "https://www.theory.com/men/outerwear/"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Precise Tee in Cotton Jersey",
+   "lu": "https://www.theory.com/men/t-shirts-and-polos/precise-tee-in-cotton-jersey/P0194511_Y4I.html",
+   "hp": "Soris Tee in Regal Wool",
+   "hu": "https://www.theory.com/men/mens-sweaters-and-cardigans/soris-tee-in-regal-wool/P0381704_TXO.html",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 2,
-    "linen": 2,
-    "cotton": 2,
-    "wool": 4,
-    "synth": 1
+  "Polo": {
+   "lp": "Bron Polo Shirt in Cosmos Slub Cotton",
+   "lu": "https://www.theory.com/men/t-shirts-and-polos/bron-polo-shirt-in-cosmos-slub-cotton/M0294501_001.html",
+   "hp": "Zip Polo Shirt in Cotton",
+   "hu": "https://www.theory.com/men/t-shirts-and-polos/zip-polo-shirt-in-cotton/Q0484705_2H5.html",
+   "b": "range"
   },
-  "dials": {
-    "dur": 3,
-    "forg": 2,
-    "fuss": 2,
-    "golffice": -2,
-    "finbro": 3,
-    "whitet": 3,
-    "logo": 1,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
+  "Dress shirt": {
+   "lp": "Tailored Shirt in Superior Cotton",
+   "lu": "https://www.theory.com/men/shirts/tailored-shirt-in-superior-cotton/P0574512_XHX.html",
+   "hp": "Irving Shirt in Faded Plaid",
+   "hu": "https://www.theory.com/men/shirts/irving-shirt-in-faded-plaid/Q0874502_XFB.html",
+   "b": "range"
   },
-  "why": "Tailoring and separates in stretch wool for the office, with the wool's source published.",
-  "origin": "Founded in New York in 1997 by Andrew Rosen and Elie Tahari.",
-  "chan": ["O", "D", "X"],
-  "conf": "S",
-  "forgc": [2, 3, 2],
-  "shop": "https://www.theory.com/search?q=",
-  "onething": {
-    "p": "Sylvain shirt",
-    "u": "https://www.theory.com/search?q=Sylvain%20shirt%20men",
-    "n": "works"
+  "Jeans": {
+   "lp": "Standard Jean in Tinted Denim",
+   "lu": "https://www.theory.com/men/pants/standard-jean-in-tinted-denim/Q0774217_Q5W.html",
+   "hp": "Relaxed Jean in Denim",
+   "hu": "https://www.theory.com/men/pants/relaxed-jean-in-denim/Q0774207_G38.html",
+   "b": "range"
   },
-  "prices": [[75, 215], [95, 225], [225, 285], [225, 225], [285, 395], [225, 345], [325, 1695], [295, 395]],
-  "notes": {
-    "wool": "the Good Wool traceable supply chain",
-    "whitet": "a named tee in the range — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 4; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Every Theory product page sampled lists the country of each production stage, from fabric weaving and dyeing to garment manufacturing (e.g. Mayer pant: fabric Czech Republic/Italy, garment China). It rarely names a mill (Botto Giuseppe on the Regal Wool crewneck) and never names the factory, and it owns no making. Detailed countries but few names: 2, with a case for 3."
+  "Dress pants": {
+   "lp": "Mayer Pant in Stretch Wool",
+   "lu": "https://www.theory.com/men/pants/mayer-pant-in-stretch-wool/I0271254_G0F.html",
+   "hp": "Relaxed Pleat Pant in Studio Wool",
+   "hu": "https://www.theory.com/men/pants/relaxed-pleat-pant-in-studio-wool/Q0771201_2U4.html",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 13,
-    "cities": [
-      ["Atlanta", "GA", 1],
-      ["Brentwood", "CA", 1],
-      ["Greenwich", "CT", 1],
-      ["Manhasset", "NY", 1],
-      ["New York", "NY", 5],
-      ["Palm Beach", "FL", 1],
-      ["Philadelphia", "PA", 1],
-      ["San Francisco", "CA", 1],
-      ["Westport", "CT", 1]
-    ],
-    "basis": "recapture 2026-09"
+  "Sweater": {
+   "lp": "Crewneck Sweater in Regal Wool",
+   "lu": "https://www.theory.com/men/mens-sweaters-and-cardigans/crewneck-sweater-in-regal-wool/J0781713_2U8.html",
+   "hp": "Hilles Crewneck Sweater in Cashmere",
+   "hu": "https://www.theory.com/men/mens-sweaters-and-cardigans/hilles-crewneck-sweater-in-cashmere/P0888703_TS8.html",
+   "b": "pair"
   },
-  "cities": "13 stores, including New York, Atlanta, Brentwood · department stores and independent menswear shops, and its own site",
-  "region": {
-    "o": [2703, 2704, 2707, 2708, 2709, 2710, 2711, 2712, 2713],
-    "s": [52, 58, 124]
+  "Outerwear": {
+   "lp": "River Trucker Jacket in Neoteric Twill",
+   "lu": "https://www.theory.com/men/blazers-and-jackets/river-trucker-jacket-in-neoteric-twill/M0274406_D01.html",
+   "hp": "Two-Button Coat in Atelier Wool",
+   "hu": "https://www.theory.com/men/mens-outerwear/two-button-coat-in-atelier-wool/P0971401_2H6.html",
+   "b": "range"
   },
-  "addmen": true,
-  "site": {
-    "domain": "theory.com",
-    "platform": "salesforce_commerce",
-    "feed": "sitemap_products",
-    "feed_count": 1159,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "house",
-    "marks": [
-      "House fabric names: Precision Ponte, Good Linen (Good Wool elsewhere on site), Regal Wool, Moonsoft Cotton, Light Bilen, Neoteric Twill, Motion Wool / Motion Wool Twill / Motion Nylon / Motion Poplin, Relay Jersey, Anemone Modal Jersey, Cosmos Slub Cotton, Kelso Nylon, Pacific Linen, Plush Melton, S"
-    ],
-    "source": "census",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 192,
-    "w": 190,
-    "n": 67,
-    "s": 14,
-    "c": 18,
-    "x": 38,
-    "xh": 14,
-    "sp": "one",
-    "sc": ["shorts"],
-    "nc": ["t-shirts-and-polos", "pants", "shirts"],
-    "st": "complete"
-  },
-  "garment_links": {
-    "T-shirt": "https://www.theory.com/men/t-shirts-and-polos/",
-    "Polo": "https://www.theory.com/men/t-shirts-and-polos/",
-    "Dress shirt": "https://www.theory.com/men/shirts/",
-    "Jeans": "https://www.theory.com/search?q=jeans&prefn1=division&prefv1=Men",
-    "Dress pants": "https://www.theory.com/men/pant-guide/formal-pant/",
-    "Sweater": "https://www.theory.com/men/sweaters-and-cardigans/",
-    "Outerwear": "https://www.theory.com/men/outerwear/"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Precise Tee in Cotton Jersey",
-      "lu": "https://www.theory.com/men/t-shirts-and-polos/precise-tee-in-cotton-jersey/P0194511_Y4I.html",
-      "hp": "Soris Tee in Regal Wool",
-      "hu": "https://www.theory.com/men/mens-sweaters-and-cardigans/soris-tee-in-regal-wool/P0381704_TXO.html",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Bron Polo Shirt in Cosmos Slub Cotton",
-      "lu": "https://www.theory.com/men/t-shirts-and-polos/bron-polo-shirt-in-cosmos-slub-cotton/M0294501_001.html",
-      "hp": "Zip Polo Shirt in Cotton",
-      "hu": "https://www.theory.com/men/t-shirts-and-polos/zip-polo-shirt-in-cotton/Q0484705_2H5.html",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Tailored Shirt in Superior Cotton",
-      "lu": "https://www.theory.com/men/shirts/tailored-shirt-in-superior-cotton/P0574512_XHX.html",
-      "hp": "Irving Shirt in Faded Plaid",
-      "hu": "https://www.theory.com/men/shirts/irving-shirt-in-faded-plaid/Q0874502_XFB.html",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Standard Jean in Tinted Denim",
-      "lu": "https://www.theory.com/men/pants/standard-jean-in-tinted-denim/Q0774217_Q5W.html",
-      "hp": "Relaxed Jean in Denim",
-      "hu": "https://www.theory.com/men/pants/relaxed-jean-in-denim/Q0774207_G38.html",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Mayer Pant in Stretch Wool",
-      "lu": "https://www.theory.com/men/pants/mayer-pant-in-stretch-wool/I0271254_G0F.html",
-      "hp": "Relaxed Pleat Pant in Studio Wool",
-      "hu": "https://www.theory.com/men/pants/relaxed-pleat-pant-in-studio-wool/Q0771201_2U4.html",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Crewneck Sweater in Regal Wool",
-      "lu": "https://www.theory.com/men/mens-sweaters-and-cardigans/crewneck-sweater-in-regal-wool/J0781713_2U8.html",
-      "hp": "Hilles Crewneck Sweater in Cashmere",
-      "hu": "https://www.theory.com/men/mens-sweaters-and-cardigans/hilles-crewneck-sweater-in-cashmere/P0888703_TS8.html",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "River Trucker Jacket in Neoteric Twill",
-      "lu": "https://www.theory.com/men/blazers-and-jackets/river-trucker-jacket-in-neoteric-twill/M0274406_D01.html",
-      "hp": "Two-Button Coat in Atelier Wool",
-      "hu": "https://www.theory.com/men/mens-outerwear/two-button-coat-in-atelier-wool/P0971401_2H6.html",
-      "b": "range"
-    },
-    "Shoes": {
-      "lp": "Sneaker in Leather",
-      "lu": "https://www.theory.com/men/shoes/sneaker-in-leather/P0870001_2XC.html",
-      "hp": "Derby Shoe in Leather",
-      "hu": "https://www.theory.com/men/shoes/derby-shoe-in-leather/Q0379001_001.html",
-      "b": "range"
-    }
-  },
-  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants", "Outerwear", "Shoes"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.theory.com/men/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=69798",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "season": {
-    "l": "Fall 2026",
-    "t": "lookbook",
-    "u": "https://www.theory.com/men/fall-2026-lookbook/",
-    "m": "yes"
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "About page: garments 'crafted step-by-step inside our design and innovation center in New York City's Meatpacking District' (design/sampling) and materials sourced 'from the best mills in the world'. Sampled garments are finished in China, Vietnam, Peru and India by unnamed makers. No owned factory named. Parent (Fast Retailing) group making not checked.",
-    "makers": "no",
-    "mills": "some",
-    "madein": "every product",
-    "countries": "6/6 PDPs give a per-stage origin list (garment manufacturing; fabric production; weaving/knitting; dyeing; finishing). Garment: China 2/6 (Mayer pant, Regal Wool crewneck), Vietnam 2/6 (Sylvain shirt, Murphy bomber), Peru 1/6 (Essential tee), India 1/6 (Morvek leather jacket). Fabrics: Italy, Czech Republic, Japan, Peru, India.",
-    "heritage": "dated and placed",
-    "repair": "no",
-    "process": "some",
-    "urls": [
-      "https://www.theory.com/men/mens-sweaters-and-cardigans/crewneck-sweater-in-regal-wool/J0781713_001.html",
-      "https://www.theory.com/men/pants/mayer-pant-in-stretch-wool/I0271254_A01.html"
-    ],
-    "conf": "medium",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Sneaker in Leather",
+   "lu": "https://www.theory.com/men/shoes/sneaker-in-leather/P0870001_2XC.html",
+   "hp": "Derby Shoe in Leather",
+   "hu": "https://www.theory.com/men/shoes/derby-shoe-in-leather/Q0379001_001.html",
+   "b": "range"
   }
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants",
+  "Outerwear",
+  "Shoes"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.theory.com/men/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=69798",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "season": {
+  "l": "Fall 2026",
+  "t": "lookbook",
+  "u": "https://www.theory.com/men/fall-2026-lookbook/",
+  "m": "yes"
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "About page: garments 'crafted step-by-step inside our design and innovation center in New York City's Meatpacking District' (design/sampling) and materials sourced 'from the best mills in the world'. Sampled garments are finished in China, Vietnam, Peru and India by unnamed makers. No owned factory named. Parent (Fast Retailing) group making not checked.",
+  "makers": "no",
+  "mills": "some",
+  "madein": "every product",
+  "countries": "6/6 PDPs give a per-stage origin list (garment manufacturing; fabric production; weaving/knitting; dyeing; finishing). Garment: China 2/6 (Mayer pant, Regal Wool crewneck), Vietnam 2/6 (Sylvain shirt, Murphy bomber), Peru 1/6 (Essential tee), India 1/6 (Morvek leather jacket). Fabrics: Italy, Czech Republic, Japan, Peru, India.",
+  "heritage": "dated and placed",
+  "repair": "no",
+  "process": "some",
+  "urls": [
+   "https://www.theory.com/men/mens-sweaters-and-cardigans/crewneck-sweater-in-regal-wool/J0781713_001.html",
+   "https://www.theory.com/men/pants/mayer-pant-in-stretch-wool/I0271254_A01.html"
+  ],
+  "conf": "medium",
+  "read": "2026-10-03"
+ }
 }

@@ -968,6 +968,7 @@
   .dr-ok{background:rgba(26,61,43,.10);color:var(--lf-green)}
   .dr-part{background:transparent;color:var(--ink-faint);border:1px dashed currentColor}
   .dr-no{background:transparent;color:var(--ink-faint);border:1px dotted currentColor;opacity:.7}
+  .dr-extra{color:var(--ink-faint);font-size:12px}
   .dr-cities{color:var(--ink-soft)}
   /* Hit areas and a type floor. The slider was 14px tall against a 24px minimum,
      and six classes of label sat between 8.5px and 10.5px. Padding grows the
@@ -2253,10 +2254,14 @@ function doorsHTML(name){
     tag = "complete"; cls = "dr-ok";
     body = cities;
   }
+  // Outlets and concessions are counted apart from stores and never added in: a
+  // factory store sells a different range, and a shop inside Nordstrom is Nordstrom's door.
+  const extra = [d.out ? `${d.out} outlet${d.out===1?"":"s"}` : "", d.con ? `${d.con} concession${d.con===1?"":"s"}` : ""].filter(Boolean).join(" \u00b7 ");
   return `<p class="dv-prose"><b>US own stores`
        + ``
        + `:</b> ${head} `
        + `<span class="dr-tag ${cls}">${tag}</span>`
+       + (extra ? ` <span class="dr-extra">\u00b7 ${extra}, counted separately</span>` : "")
        + (body ? `<br><span class="dr-cities">${esc(body)}</span>` : "") + `</p>`
        + stockistRow(name);
 }

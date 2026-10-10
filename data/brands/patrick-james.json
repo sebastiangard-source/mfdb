@@ -1,204 +1,297 @@
 {
-  "name": "Patrick James",
-  "band": "premium",
-  "seat": 53,
-  "dagger": 0,
-  "focus": {
-    "tech": 1,
-    "comfort": 3,
-    "craft": 2,
-    "style": 2
+ "name": "Patrick James",
+ "band": "premium",
+ "seat": 53,
+ "dagger": 0,
+ "focus": {
+  "tech": 1,
+  "comfort": 3,
+  "craft": 2,
+  "style": 2
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 2,
+  "linen": 2,
+  "cotton": 2,
+  "wool": 3,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 3,
+  "fuss": 1,
+  "golf": 2,
+  "murica": 2,
+  "boat": 1,
+  "whitet": 2,
+  "logo": 1,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "A California chain of men's clothing stores — tailoring, sportswear, shoes — with its own label alongside others.",
+ "origin": "Founded in Fresno in 1962 by Patrick Mon Pere.",
+ "chan": [
+  "O",
+  "I"
+ ],
+ "conf": "L",
+ "forgc": [
+  3,
+  4,
+  2
+ ],
+ "shop": "https://patrickjames.com/search?q=",
+ "onething": {
+  "p": "House-label sport coat",
+  "u": "https://patrickjames.com/collections/patrick-james",
+  "n": "verified — own-site collection for the eponymous label. A clothier that sells other people's brands too, so the private label is the only thing that is actually theirs; they call the look West Coast Classic"
+ },
+ "prices": [
+  [
+   75,
+   158
+  ],
+  [
+   110,
+   185
+  ],
+  [
+   148,
+   148
+  ],
+  [
+   248,
+   248
+  ],
+  [
+   198,
+   398
+  ],
+  [
+   138,
+   428
+  ],
+  [
+   268,
+   698
+  ],
+  [
+   198,
+   248
+  ]
+ ],
+ "doors": {
+  "c": "full",
+  "n": 10,
+  "cities": [
+   [
+    "Aptos",
+    "CA",
+    1
+   ],
+   [
+    "Carmel",
+    "CA",
+    1
+   ],
+   [
+    "Danville",
+    "CA",
+    1
+   ],
+   [
+    "Del Mar",
+    "CA",
+    1
+   ],
+   [
+    "Folsom",
+    "CA",
+    1
+   ],
+   [
+    "Fresno",
+    "CA",
+    1
+   ],
+   [
+    "Healdsburg",
+    "CA",
+    1
+   ],
+   [
+    "Reno",
+    "NV",
+    1
+   ],
+   [
+    "San Luis Obispo",
+    "CA",
+    1
+   ],
+   [
+    "Santa Rosa",
+    "CA",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 0,
+  "con": 0
+ },
+ "cities": "10 stores, including Aptos, Carmel, Danville · independent menswear shops, and its own site",
+ "site": {
+  "domain": "patrickjames.com",
+  "platform": "shopify",
+  "feed": "shopify_products_json",
+  "feed_count": 1276,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "no",
+  "origin": "none",
+  "marks": [],
+  "source": "screen_36",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 268,
+  "w": 268,
+  "n": 93,
+  "s": 6,
+  "c": 1,
+  "x": 12,
+  "xh": 2,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "Shirts",
+   "Sweaters & Layers",
+   "Sport Coats"
+  ],
+  "st": "complete"
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress pants",
+  "Outerwear",
+  "Shoes"
+ ],
+ "garment_links": {
+  "T-shirt": "https://patrickjames.com/collections/tee-shirts",
+  "Polo": "https://patrickjames.com/collections/polos-knit-shirts",
+  "Dress shirt": "https://patrickjames.com/collections/dress-shirts",
+  "Jeans": "https://patrickjames.com/collections/jeans",
+  "Dress pants": "https://patrickjames.com/collections/dress-pants",
+  "Sweater": "https://patrickjames.com/collections/sweaters",
+  "Outerwear": "https://patrickjames.com/collections/outerwear",
+  "Shoes": "https://patrickjames.com/collections/footwear"
+ },
+ "notes": {
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 2; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "Patrick James is a retailer whose own about page says it began as a private-label store and sources from nine countries; it names no factory or mill. Its house-label product pages give a country only sometimes (Italy, Canada) and otherwise say 'Imported'. That is a 2."
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Patrick James Crew Neck Cotton Tee",
+   "lu": "https://patrickjames.com/products/16794-raffi-crew-neck-cotton-tee-1",
+   "hp": "Reserve Short Sleeve Solid Slub Knit Crew Tee",
+   "hu": "https://patrickjames.com/products/18773-reserve-short-sleeve-solid-slub-knit-crew-tee-1",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 2,
-    "linen": 2,
-    "cotton": 2,
-    "wool": 3,
-    "synth": 1
+  "Polo": {
+   "lp": "Patrick James Polo Shirt",
+   "lu": "https://patrickjames.com/products/17321-patrick-james-aqua-cotton-polo-1",
+   "hp": "Reserve Polo Shirt",
+   "hu": "https://patrickjames.com/products/17920-reserve-short-sleeve-polo-1",
+   "b": "range"
   },
-  "dials": {
-    "dur": 3,
-    "forg": 3,
-    "fuss": 1,
-    "golf": 2,
-    "murica": 2,
-    "boat": 1,
-    "whitet": 2,
-    "logo": 1,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
+  "Dress shirt": {
+   "lp": "Patrick James Classic Fit Easy Care Dress Shirt",
+   "lu": "https://patrickjames.com/products/91260-patrick-james-classic-fit-easy-care-dress-shirt-1",
+   "hp": "Patrick James Classic Fit Easy Care Dress Shirt",
+   "hu": "https://patrickjames.com/products/91260-patrick-james-classic-fit-easy-care-dress-shirt-1",
+   "b": "single"
   },
-  "why": "A California chain of men's clothing stores — tailoring, sportswear, shoes — with its own label alongside others.",
-  "origin": "Founded in Fresno in 1962 by Patrick Mon Pere.",
-  "chan": ["O", "I"],
-  "conf": "L",
-  "forgc": [3, 4, 2],
-  "shop": "https://patrickjames.com/search?q=",
-  "onething": {
-    "p": "House-label sport coat",
-    "u": "https://patrickjames.com/collections/patrick-james",
-    "n": "verified — own-site collection for the eponymous label. A clothier that sells other people's brands too, so the private label is the only thing that is actually theirs; they call the look West Coast Classic"
+  "Jeans": {
+   "lp": "Reserve Classic Denim Jean",
+   "lu": "https://patrickjames.com/products/16785-reserve-classic-denim-jeans-1",
+   "hp": "Reserve Classic Denim Jean",
+   "hu": "https://patrickjames.com/products/16785-reserve-classic-denim-jeans-1",
+   "b": "single"
   },
-  "prices": [[75, 158], [110, 185], [148, 148], [248, 248], [198, 398], [138, 428], [268, 698], [198, 248]],
-  "doors": {
-    "c": "full",
-    "n": 9,
-    "cities": [
-      ["Aptos", "CA", 1],
-      ["Carmel", "CA", 1],
-      ["Danville", "CA", 1],
-      ["Del Mar", "CA", 1],
-      ["Folsom", "CA", 1],
-      ["Fresno", "CA", 1],
-      ["Healdsburg", "CA", 1],
-      ["San Luis Obispo", "CA", 1],
-      ["Santa Rosa", "CA", 1]
-    ],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Dress pants": {
+   "lp": "Patrick James Riviera Wash Wool Flat Front Slacks",
+   "lu": "https://patrickjames.com/products/9311-riviera-wash-wool-flat-front-slacks-1",
+   "hp": "Reserve Pleated Flannel Stripe Pant",
+   "hu": "https://patrickjames.com/products/19199-reserve-pleated-flannel-stripe-pant-1",
+   "b": "range"
   },
-  "cities": "9 stores, including Aptos, Carmel, Danville · independent menswear shops, and its own site",
-  "site": {
-    "domain": "patrickjames.com",
-    "platform": "shopify",
-    "feed": "shopify_products_json",
-    "feed_count": 1276,
-    "status": "live_store",
-    "checked": "2026-09-13"
+  "Sweater": {
+   "lp": "Patrick James Marlow Raglan Sweater",
+   "lu": "https://patrickjames.com/products/19163-patrick-james-marlow-raglan-sweater-1",
+   "hp": "Patrick James Inked Cashmere Crewneck Sweater",
+   "hu": "https://patrickjames.com/products/19170-patrick-james-inked-cashmere-crewneck-sweater-1",
+   "b": "pair"
   },
-  "tech_evidence": {
-    "names": "no",
-    "origin": "none",
-    "marks": [],
-    "source": "screen_36",
-    "checked": "2026-09-12"
+  "Outerwear": {
+   "lp": "Patrick James Corduroy Jacket",
+   "lu": "https://patrickjames.com/products/17658-patrick-james-corduroy-jacket-1",
+   "hp": "Patrick James Glove Lambskin Jacket",
+   "hu": "https://patrickjames.com/products/18442-patrick-james-glove-lambskin-jacket-1",
+   "b": "range"
   },
-  "fibre": {
-    "t": 268,
-    "w": 268,
-    "n": 93,
-    "s": 6,
-    "c": 1,
-    "x": 12,
-    "xh": 2,
-    "sp": "one",
-    "sc": [],
-    "nc": ["Shirts", "Sweaters & Layers", "Sport Coats"],
-    "st": "complete"
-  },
-  "price_range_only": ["T-shirt", "Polo", "Dress pants", "Outerwear", "Shoes"],
-  "garment_links": {
-    "T-shirt": "https://patrickjames.com/collections/tee-shirts",
-    "Polo": "https://patrickjames.com/collections/polos-knit-shirts",
-    "Dress shirt": "https://patrickjames.com/collections/dress-shirts",
-    "Jeans": "https://patrickjames.com/collections/jeans",
-    "Dress pants": "https://patrickjames.com/collections/dress-pants",
-    "Sweater": "https://patrickjames.com/collections/sweaters",
-    "Outerwear": "https://patrickjames.com/collections/outerwear",
-    "Shoes": "https://patrickjames.com/collections/footwear"
-  },
-  "notes": {
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 2; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Patrick James is a retailer whose own about page says it began as a private-label store and sources from nine countries; it names no factory or mill. Its house-label product pages give a country only sometimes (Italy, Canada) and otherwise say 'Imported'. That is a 2."
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Patrick James Crew Neck Cotton Tee",
-      "lu": "https://patrickjames.com/products/16794-raffi-crew-neck-cotton-tee-1",
-      "hp": "Reserve Short Sleeve Solid Slub Knit Crew Tee",
-      "hu": "https://patrickjames.com/products/18773-reserve-short-sleeve-solid-slub-knit-crew-tee-1",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Patrick James Polo Shirt",
-      "lu": "https://patrickjames.com/products/17321-patrick-james-aqua-cotton-polo-1",
-      "hp": "Reserve Polo Shirt",
-      "hu": "https://patrickjames.com/products/17920-reserve-short-sleeve-polo-1",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Patrick James Classic Fit Easy Care Dress Shirt",
-      "lu": "https://patrickjames.com/products/91260-patrick-james-classic-fit-easy-care-dress-shirt-1",
-      "hp": "Patrick James Classic Fit Easy Care Dress Shirt",
-      "hu": "https://patrickjames.com/products/91260-patrick-james-classic-fit-easy-care-dress-shirt-1",
-      "b": "single"
-    },
-    "Jeans": {
-      "lp": "Reserve Classic Denim Jean",
-      "lu": "https://patrickjames.com/products/16785-reserve-classic-denim-jeans-1",
-      "hp": "Reserve Classic Denim Jean",
-      "hu": "https://patrickjames.com/products/16785-reserve-classic-denim-jeans-1",
-      "b": "single"
-    },
-    "Dress pants": {
-      "lp": "Patrick James Riviera Wash Wool Flat Front Slacks",
-      "lu": "https://patrickjames.com/products/9311-riviera-wash-wool-flat-front-slacks-1",
-      "hp": "Reserve Pleated Flannel Stripe Pant",
-      "hu": "https://patrickjames.com/products/19199-reserve-pleated-flannel-stripe-pant-1",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Patrick James Marlow Raglan Sweater",
-      "lu": "https://patrickjames.com/products/19163-patrick-james-marlow-raglan-sweater-1",
-      "hp": "Patrick James Inked Cashmere Crewneck Sweater",
-      "hu": "https://patrickjames.com/products/19170-patrick-james-inked-cashmere-crewneck-sweater-1",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "Patrick James Corduroy Jacket",
-      "lu": "https://patrickjames.com/products/17658-patrick-james-corduroy-jacket-1",
-      "hp": "Patrick James Glove Lambskin Jacket",
-      "hu": "https://patrickjames.com/products/18442-patrick-james-glove-lambskin-jacket-1",
-      "b": "range"
-    },
-    "Shoes": {
-      "lp": "Patrick James Samba Suede Sneaker",
-      "lu": "https://patrickjames.com/products/19222-patrick-james-samba-suede-sneaker-1",
-      "hp": "Patrick James Suede Slip On",
-      "hu": "https://patrickjames.com/products/19224-patrick-james-suede-slip-on-1",
-      "b": "range"
-    }
-  },
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://patrickjames.com/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "Reserve (Patrick James Reserve)"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?search_text=Patrick%20James&catalog[]=5",
-      "m": "text search",
-      "n": "No Vinted brand entry; keyword search in Men"
-    }
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "About page describes a private-label and brand retailer: 'Patrick James began primarily as a private label store'; merchandise sourced from England, Scotland, USA, Ireland, Italy, France, Germany, Canada and Japan. No factory, workroom or tailor shop named.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "some",
-    "countries": "Italy 1/5 (Reserve plaid shirt), Canada 1/5 (gabardine slacks), 'Imported' 3/5 (paisley cashmere shirt, houndstooth sport coat, inked cashmere crewneck). Sample of 5 house-label PDPs: shirts, sport coat, trousers, knit.",
-    "heritage": "dated and placed",
-    "repair": "no",
-    "process": "no",
-    "urls": [
-      "https://www.patrickjames.com/pages/about-us",
-      "https://patrickjames.com/products/9155-flat-front-wool-gabardine-slacks-1"
-    ],
-    "conf": "high",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Patrick James Samba Suede Sneaker",
+   "lu": "https://patrickjames.com/products/19222-patrick-james-samba-suede-sneaker-1",
+   "hp": "Patrick James Suede Slip On",
+   "hu": "https://patrickjames.com/products/19224-patrick-james-suede-slip-on-1",
+   "b": "range"
   }
+ },
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://patrickjames.com/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "Reserve (Patrick James Reserve)"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?search_text=Patrick%20James&catalog[]=5",
+   "m": "text search",
+   "n": "No Vinted brand entry; keyword search in Men"
+  }
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "About page describes a private-label and brand retailer: 'Patrick James began primarily as a private label store'; merchandise sourced from England, Scotland, USA, Ireland, Italy, France, Germany, Canada and Japan. No factory, workroom or tailor shop named.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "some",
+  "countries": "Italy 1/5 (Reserve plaid shirt), Canada 1/5 (gabardine slacks), 'Imported' 3/5 (paisley cashmere shirt, houndstooth sport coat, inked cashmere crewneck). Sample of 5 house-label PDPs: shirts, sport coat, trousers, knit.",
+  "heritage": "dated and placed",
+  "repair": "no",
+  "process": "no",
+  "urls": [
+   "https://www.patrickjames.com/pages/about-us",
+   "https://patrickjames.com/products/9155-flat-front-wool-gabardine-slacks-1"
+  ],
+  "conf": "high",
+  "read": "2026-10-03"
+ }
 }

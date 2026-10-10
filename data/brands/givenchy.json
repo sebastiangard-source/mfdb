@@ -1,231 +1,307 @@
 {
-  "name": "Givenchy",
-  "band": "trueLux",
-  "seat": 154,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 1,
-    "craft": 3,
-    "style": 4
-  },
-  "fabric": {
-    "denim": 2,
-    "cashmere": 2,
-    "linen": 1,
-    "cotton": 2,
-    "wool": 2,
-    "synth": 1
-  },
-  "dials": {
-    "dur": 3,
-    "forg": 1,
-    "fuss": 0,
-    "shoes": 3,
-    "status": 3,
-    "fren": 4,
-    "whitet": 2,
-    "logo": 2,
-    "western": 1,
-    "rock": 3,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
-  },
-  "why": "French fashion house with a couture history; menswear has shifted with each creative director.",
-  "origin": "Founded in Paris in 1952 by Hubert de Givenchy.",
-  "say": "zhee-VAHN-shee",
-  "chan": ["D", "O"],
-  "conf": "L",
-  "forgc": [1, 2, 1],
-  "shop": "https://www.givenchy.com/us/en-US/search?q=",
-  "onething": {
-    "p": null,
-    "u": "",
-    "n": "Shark Lock is womenswear — covered wedge, 3.5in heel. The 4G is a mark rather than a garment, and no menswear piece has survived the recent changes of creative direction"
-  },
-  "prices": [
-    [590, 990],
-    [600, 1700],
-    [720, 2250],
-    [990, 1450],
-    [1050, 1700],
-    [1100, 2800],
-    [1650, 12500],
-    [970, 1020]
+ "name": "Givenchy",
+ "band": "trueLux",
+ "seat": 154,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 1,
+  "craft": 3,
+  "style": 4
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 2,
+  "linen": 1,
+  "cotton": 2,
+  "wool": 2,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 1,
+  "fuss": 0,
+  "shoes": 3,
+  "status": 3,
+  "fren": 4,
+  "whitet": 2,
+  "logo": 2,
+  "western": 1,
+  "rock": 3,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "French fashion house with a couture history; menswear has shifted with each creative director.",
+ "origin": "Founded in Paris in 1952 by Hubert de Givenchy.",
+ "say": "zhee-VAHN-shee",
+ "chan": [
+  "D",
+  "O"
+ ],
+ "conf": "L",
+ "forgc": [
+  1,
+  2,
+  1
+ ],
+ "shop": "https://www.givenchy.com/us/en-US/search?q=",
+ "onething": {
+  "p": null,
+  "u": "",
+  "n": "Shark Lock is womenswear — covered wedge, 3.5in heel. The 4G is a mark rather than a garment, and no menswear piece has survived the recent changes of creative direction"
+ },
+ "prices": [
+  [
+   590,
+   990
   ],
-  "shoelink": {
-    "t": "shoes",
-    "u": "https://www.givenchy.com/us/en-US/search?q=shoes"
+  [
+   600,
+   1700
+  ],
+  [
+   720,
+   2250
+  ],
+  [
+   990,
+   1450
+  ],
+  [
+   1050,
+   1700
+  ],
+  [
+   1100,
+   2800
+  ],
+  [
+   1650,
+   12500
+  ],
+  [
+   970,
+   1020
+  ]
+ ],
+ "shoelink": {
+  "t": "shoes",
+  "u": "https://www.givenchy.com/us/en-US/search?q=shoes"
+ },
+ "notes": {
+  "fren": "The Paris couture lineage is real and the men's line reads more international than that inheritance would suggest, which is why it scores four rather than five.",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 2; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "Givenchy PDPs state origin on every item checked (Italy for trousers, knit shorts and a leather bag; Portugal for a polo), with a traceability block naming countries of weaving and dyeing, but never a maker or mill. No owned atelier or factory is named on the site pages read. Country-of-make (with step-level countries) = 2. [audit proposed 2 at low confidence; held at 3 pending a second read]"
+ },
+ "doors": {
+  "c": "full",
+  "n": 8,
+  "cities": [
+   [
+    "Atlanta",
+    "GA",
+    1
+   ],
+   [
+    "Beverly Hills",
+    "CA",
+    1
+   ],
+   [
+    "Costa Mesa",
+    "CA",
+    1
+   ],
+   [
+    "Dallas",
+    "TX",
+    1
+   ],
+   [
+    "Las Vegas",
+    "NV",
+    1
+   ],
+   [
+    "Miami",
+    "FL",
+    2
+   ],
+   [
+    "New York",
+    "NY",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 3,
+  "con": 0
+ },
+ "cities": "8 stores, including Atlanta, Aventura, Beverly Hills · department stores, and its own site",
+ "region": {
+  "o": [
+   1365
+  ],
+  "s": []
+ },
+ "addmen": true,
+ "site": {
+  "domain": "www.givenchy.com",
+  "platform": "salesforce_commerce",
+  "feed": "sitemap_products",
+  "feed_count": 1281,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "unclear",
+  "origin": "none",
+  "marks": [
+   "none found in 236 of 401 men's styles read. Zero named fabric or technology marks, house or licensed. Only generic lower-case descriptive prose: 'technical fabric' (5), 'water-repellent' (2). Compositions are plain fibre percentages throughout (wool, cotton, polyamide, polyester, viscose, cupro, ace"
+  ],
+  "source": "census_followup",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 258,
+  "w": 258,
+  "n": 89,
+  "s": 10,
+  "c": 1,
+  "x": 2,
+  "xh": 1,
+  "sp": "one",
+  "sc": [
+   "swimwear"
+  ],
+  "nc": [
+   "pants and shorts",
+   "shirts",
+   "bombers and blousons"
+  ],
+  "st": "complete"
+ },
+ "garment_links": {
+  "T-shirt": "https://www.givenchy.com/us/en-US/men/ready-to-wear/t-shirts-polos/",
+  "Polo": "https://www.givenchy.com/us/en-US/men/ready-to-wear/t-shirts-polos/",
+  "Dress shirt": "https://www.givenchy.com/us/en-US/men/ready-to-wear/shirts/",
+  "Jeans": "https://www.givenchy.com/us/en-US/men/ready-to-wear/denim/",
+  "Dress pants": "https://www.givenchy.com/us/en-US/men/ready-to-wear/pants-shorts/",
+  "Sweater": "https://www.givenchy.com/us/en-US/men/ready-to-wear/knitwear/",
+  "Outerwear": "https://www.givenchy.com/us/en-US/men/ready-to-wear/jackets-coats/",
+  "Shoes": "https://www.givenchy.com/us/en-US/men/shoes/"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "T-shirt in cotton with Givenchy Paris gros grain",
+   "lu": "https://www.givenchy.com/us/en-US/t-shirt-in-cotton-with-givenchy-paris-gros-grain/BM71NK3YSJ-208.html",
+   "hp": "T-shirt in cotton knit with Givenchy Paris jacquard",
+   "hu": "https://www.givenchy.com/us/en-US/t-shirt-in-cotton-knit-with-givenchy-paris-jacquard/BM90WJ4YPA-100.html",
+   "b": "range"
   },
-  "notes": {
-    "fren": "The Paris couture lineage is real and the men's line reads more international than that inheritance would suggest, which is why it scores four rather than five.",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 2; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Givenchy PDPs state origin on every item checked (Italy for trousers, knit shorts and a leather bag; Portugal for a polo), with a traceability block naming countries of weaving and dyeing, but never a maker or mill. No owned atelier or factory is named on the site pages read. Country-of-make (with step-level countries) = 2. [audit proposed 2 at low confidence; held at 3 pending a second read]"
+  "Polo": {
+   "lp": "Polo in cotton with Givenchy Paris gros grain",
+   "lu": "https://www.givenchy.com/us/en-US/polo-in-cotton-with-givenchy-paris-gros-grain/BML00G3YSG-250.html",
+   "hp": "Polo in knit with Givenchy Paris embroidery",
+   "hu": "https://www.givenchy.com/us/en-US/polo-in-knit-with-givenchy-paris-embroidery/BML0154YRA-403.html",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 8,
-    "cities": [
-      ["Atlanta", "GA", 1],
-      ["Aventura", "FL", 1],
-      ["Beverly Hills", "CA", 1],
-      ["Costa Mesa", "CA", 1],
-      ["Dallas", "TX", 1],
-      ["Las Vegas", "NV", 1],
-      ["Miami", "FL", 1],
-      ["New York", "NY", 1]
-    ],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Dress shirt": {
+   "lp": "Shirt in poplin with Givenchy Paris Paint print",
+   "lu": "https://www.givenchy.com/us/en-US/shirt-in-poplin-with-givenchy-paris-paint-print/BM617V1YMY-452.html",
+   "hp": "Trompe-l'oeil layered shirt in wool",
+   "hu": "https://www.givenchy.com/us/en-US/trompe-l%E2%80%99oeil-layered-shirt-in-wool/BM619Y16DC-403.html",
+   "b": "range"
   },
-  "cities": "8 stores, including Atlanta, Aventura, Beverly Hills · department stores, and its own site",
-  "region": {
-    "o": [1050],
-    "s": []
+  "Jeans": {
+   "lp": "Straight fit shadow washed jeans with crease effect",
+   "lu": "https://www.givenchy.com/us/en-US/straight-fit-shadow-washed-jeans-with-crease-effect/BM51NS5177-420.html",
+   "hp": "Couture Seam light blue jeans with striped reverse",
+   "hu": "https://www.givenchy.com/us/en-US/couture-seam-light-blue-jeans-with-striped-reverse/BM51MN518L-452.html",
+   "b": "range"
   },
-  "addmen": true,
-  "site": {
-    "domain": "www.givenchy.com",
-    "platform": "salesforce_commerce",
-    "feed": "sitemap_products",
-    "feed_count": 1281,
-    "status": "live_store",
-    "checked": "2026-09-13"
+  "Dress pants": {
+   "lp": "Double pleat pants in poplin",
+   "lu": "https://www.givenchy.com/us/en-US/double-pleat-pants-in-poplin/BM51NF1642-001.html",
+   "hp": "Double pleat striped pants in wool",
+   "hu": "https://www.givenchy.com/us/en-US/double-pleat-striped-pants-in-wool/BM51NF16SS-065.html",
+   "b": "range"
   },
-  "tech_evidence": {
-    "names": "unclear",
-    "origin": "none",
-    "marks": [
-      "none found in 236 of 401 men's styles read. Zero named fabric or technology marks, house or licensed. Only generic lower-case descriptive prose: 'technical fabric' (5), 'water-repellent' (2). Compositions are plain fibre percentages throughout (wool, cotton, polyamide, polyester, viscose, cupro, ace"
-    ],
-    "source": "census_followup",
-    "checked": "2026-09-12"
+  "Sweater": {
+   "lp": "Sweater in wool with Givenchy Paris gros grain",
+   "lu": "https://www.givenchy.com/us/en-US/sweater-in-wool-with-givenchy-paris-gros-grain/BM90X74YQL-403.html",
+   "hp": "Cardigan in wool with leather details",
+   "hu": "https://www.givenchy.com/us/en-US/cardigan-in-wool-with-leather-details/BMK0134YQ8-001.html",
+   "b": "range"
   },
-  "fibre": {
-    "t": 258,
-    "w": 258,
-    "n": 89,
-    "s": 10,
-    "c": 1,
-    "x": 2,
-    "xh": 1,
-    "sp": "one",
-    "sc": ["swimwear"],
-    "nc": ["pants and shorts", "shirts", "bombers and blousons"],
-    "st": "complete"
+  "Outerwear": {
+   "lp": "Jacket in medium blue denim",
+   "lu": "https://www.givenchy.com/us/en-US/jacket-in-medium-blue-denim/BM01EL5177-420.html",
+   "hp": "Trench in leather",
+   "hu": "https://www.givenchy.com/us/en-US/trench-in-leather/BM01FM6Y46-201.html",
+   "b": "range"
   },
-  "garment_links": {
-    "T-shirt": "https://www.givenchy.com/us/en-US/men/ready-to-wear/t-shirts-polos/",
-    "Polo": "https://www.givenchy.com/us/en-US/men/ready-to-wear/t-shirts-polos/",
-    "Dress shirt": "https://www.givenchy.com/us/en-US/men/ready-to-wear/shirts/",
-    "Jeans": "https://www.givenchy.com/us/en-US/men/ready-to-wear/denim/",
-    "Dress pants": "https://www.givenchy.com/us/en-US/men/ready-to-wear/pants-shorts/",
-    "Sweater": "https://www.givenchy.com/us/en-US/men/ready-to-wear/knitwear/",
-    "Outerwear": "https://www.givenchy.com/us/en-US/men/ready-to-wear/jackets-coats/",
-    "Shoes": "https://www.givenchy.com/us/en-US/men/shoes/"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "T-shirt in cotton with Givenchy Paris gros grain",
-      "lu": "https://www.givenchy.com/us/en-US/t-shirt-in-cotton-with-givenchy-paris-gros-grain/BM71NK3YSJ-208.html",
-      "hp": "T-shirt in cotton knit with Givenchy Paris jacquard",
-      "hu": "https://www.givenchy.com/us/en-US/t-shirt-in-cotton-knit-with-givenchy-paris-jacquard/BM90WJ4YPA-100.html",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Polo in cotton with Givenchy Paris gros grain",
-      "lu": "https://www.givenchy.com/us/en-US/polo-in-cotton-with-givenchy-paris-gros-grain/BML00G3YSG-250.html",
-      "hp": "Polo in knit with Givenchy Paris embroidery",
-      "hu": "https://www.givenchy.com/us/en-US/polo-in-knit-with-givenchy-paris-embroidery/BML0154YRA-403.html",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Shirt in poplin with Givenchy Paris Paint print",
-      "lu": "https://www.givenchy.com/us/en-US/shirt-in-poplin-with-givenchy-paris-paint-print/BM617V1YMY-452.html",
-      "hp": "Trompe-l'oeil layered shirt in wool",
-      "hu": "https://www.givenchy.com/us/en-US/trompe-l%E2%80%99oeil-layered-shirt-in-wool/BM619Y16DC-403.html",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Straight fit shadow washed jeans with crease effect",
-      "lu": "https://www.givenchy.com/us/en-US/straight-fit-shadow-washed-jeans-with-crease-effect/BM51NS5177-420.html",
-      "hp": "Couture Seam light blue jeans with striped reverse",
-      "hu": "https://www.givenchy.com/us/en-US/couture-seam-light-blue-jeans-with-striped-reverse/BM51MN518L-452.html",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Double pleat pants in poplin",
-      "lu": "https://www.givenchy.com/us/en-US/double-pleat-pants-in-poplin/BM51NF1642-001.html",
-      "hp": "Double pleat striped pants in wool",
-      "hu": "https://www.givenchy.com/us/en-US/double-pleat-striped-pants-in-wool/BM51NF16SS-065.html",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Sweater in wool with Givenchy Paris gros grain",
-      "lu": "https://www.givenchy.com/us/en-US/sweater-in-wool-with-givenchy-paris-gros-grain/BM90X74YQL-403.html",
-      "hp": "Cardigan in wool with leather details",
-      "hu": "https://www.givenchy.com/us/en-US/cardigan-in-wool-with-leather-details/BMK0134YQ8-001.html",
-      "b": "range"
-    },
-    "Outerwear": {
-      "lp": "Jacket in medium blue denim",
-      "lu": "https://www.givenchy.com/us/en-US/jacket-in-medium-blue-denim/BM01EL5177-420.html",
-      "hp": "Trench in leather",
-      "hu": "https://www.givenchy.com/us/en-US/trench-in-leather/BM01FM6Y46-201.html",
-      "b": "range"
-    },
-    "Shoes": {
-      "lp": "Label loafers in nappa leather",
-      "lu": "https://www.givenchy.com/us/en-US/label-loafers-in-nappa-leather/BH203UH1Y5-001.html",
-      "hp": "Label loafers in shiny leather",
-      "hu": "https://www.givenchy.com/us/en-US/label-loafers-in-shiny-leather/BH203DH1WV-001.html",
-      "b": "pair"
-    }
-  },
-  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants", "Sweater", "Outerwear"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.givenchy.com/us/en-US/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=2371",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "season": {
-    "l": "Fall Winter 2026",
-    "t": "runway",
-    "u": "https://www.givenchy.com/us/en-US/cm/explore/collections/fall-winter-2026-womenswear-show",
-    "m": "womens only"
-  },
-  "craft_evidence": {
-    "owned": "unclear",
-    "owned_d": "No owned atelier, workshop or factory named on givenchy.com pages read: careers page only redirects to LVMH recruitment; care-repair page mentions 'our repair workshop' with no place. No LVMH primary source on Givenchy-owned making was loaded (lvmh.com maison URL 404; a second LVMH URL hit the shared fetch-budget limit). So neither leather-goods nor ready-to-wear owned making is shown, and no group (LVMH) factory for Givenchy is evidenced in this run.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "every product",
-    "countries": "Italy 3/4 (cargo pants, knit bermuda shorts, Antigona leather wallet-on-chain), Portugal 1/4 (cotton polo). Sample of 4 PDPs (3 men's RTW: trousers, polo, knit shorts; 1 leather good, women's). No men's outerwear, knit sweater, shoes or tailoring sampled (sitemap excerpt did not expose those URLs).",
-    "heritage": "NC",
-    "repair": "yes",
-    "process": "no",
-    "urls": [
-      "https://www.givenchy.com/us/en-US/cargo-pants-in-cotton/BM51R315XZ-001.html",
-      "https://www.givenchy.com/us/en-US/care-repair.html"
-    ],
-    "conf": "low",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Label loafers in nappa leather",
+   "lu": "https://www.givenchy.com/us/en-US/label-loafers-in-nappa-leather/BH203UH1Y5-001.html",
+   "hp": "Label loafers in shiny leather",
+   "hu": "https://www.givenchy.com/us/en-US/label-loafers-in-shiny-leather/BH203DH1WV-001.html",
+   "b": "pair"
   }
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants",
+  "Sweater",
+  "Outerwear"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.givenchy.com/us/en-US/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=2371",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "season": {
+  "l": "Fall Winter 2026",
+  "t": "runway",
+  "u": "https://www.givenchy.com/us/en-US/cm/explore/collections/fall-winter-2026-womenswear-show",
+  "m": "womens only"
+ },
+ "craft_evidence": {
+  "owned": "unclear",
+  "owned_d": "No owned atelier, workshop or factory named on givenchy.com pages read: careers page only redirects to LVMH recruitment; care-repair page mentions 'our repair workshop' with no place. No LVMH primary source on Givenchy-owned making was loaded (lvmh.com maison URL 404; a second LVMH URL hit the shared fetch-budget limit). So neither leather-goods nor ready-to-wear owned making is shown, and no group (LVMH) factory for Givenchy is evidenced in this run.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "every product",
+  "countries": "Italy 3/4 (cargo pants, knit bermuda shorts, Antigona leather wallet-on-chain), Portugal 1/4 (cotton polo). Sample of 4 PDPs (3 men's RTW: trousers, polo, knit shorts; 1 leather good, women's). No men's outerwear, knit sweater, shoes or tailoring sampled (sitemap excerpt did not expose those URLs).",
+  "heritage": "NC",
+  "repair": "yes",
+  "process": "no",
+  "urls": [
+   "https://www.givenchy.com/us/en-US/cargo-pants-in-cotton/BM51R315XZ-001.html",
+   "https://www.givenchy.com/us/en-US/care-repair.html"
+  ],
+  "conf": "low",
+  "read": "2026-10-03"
+ }
 }

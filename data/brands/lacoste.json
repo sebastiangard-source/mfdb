@@ -1,258 +1,429 @@
 {
-  "name": "Lacoste",
-  "band": "premium",
-  "seat": 3,
-  "dagger": 1,
-  "focus": {
-    "tech": 2,
-    "comfort": 3,
-    "craft": 4,
-    "style": 3
+ "name": "Lacoste",
+ "band": "premium",
+ "seat": 3,
+ "dagger": 1,
+ "focus": {
+  "tech": 2,
+  "comfort": 3,
+  "craft": 4,
+  "style": 3
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 4,
+  "wool": 1,
+  "synth": 2
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 4,
+  "fuss": -2,
+  "shoes": 3,
+  "golf": 3,
+  "status": 3,
+  "ivy": 2,
+  "fren": 4,
+  "street": 2,
+  "prep": 4,
+  "boat": 2,
+  "racquet": 2,
+  "whitet": 2,
+  "logo": 3,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 2,
+  "surf": 2
+ },
+ "why": "Polo shirts, tennis and golf clothing, and casual wear under the crocodile logo. The L.12.12 piqué polo of 1933 is the design most other polo shirts derive from.",
+ "origin": "René Lacoste, the tennis player, and the knitter André Gillier founded the company in France in 1933.",
+ "chan": [
+  "O",
+  "D",
+  "W"
+ ],
+ "conf": "H",
+ "forgc": [
+  4,
+  4,
+  1
+ ],
+ "shop": "https://www.lacoste.com/us/search?q=",
+ "onething": {
+  "p": "L.12.12 polo",
+  "u": "https://www.lacoste.com/us/search?q=L.12.12",
+  "n": "best-guess link — verify"
+ },
+ "prices": [
+  [
+   55,
+   100
+  ],
+  [
+   90,
+   175
+  ],
+  [
+   105,
+   185
+  ],
+  [
+   150,
+   160
+  ],
+  [
+   160,
+   180
+  ],
+  [
+   98,
+   350
+  ],
+  [
+   165,
+   450
+  ],
+  [
+   125,
+   125
+  ]
+ ],
+ "shoelink": {
+  "t": "shoes",
+  "u": "https://www.lacoste.com/us/search?q=shoes"
+ },
+ "notes": {
+  "cotton": "petit piqué — the knit that made the polo breathe",
+  "fren": "French sporting royalty — tennis whites turned national uniform",
+  "golf": "a real tour presence for decades",
+  "status": "the croc — among the most legible logos alive",
+  "prep": "wrote itself into the Preppy Handbook in the Izod era, then spent thirty years walking back to France — held at 4 for the direction of travel",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 5; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "Lacoste's savoir-faire page describes its Troyes factories, with 500 staff assembling the polo, and its Made in France pieces say 'Made in France' or 'Made in Troyes' on the product page. Most of the range shows no origin on the page, and the company is reported to make over 70% of its clothing outside Europe. That is owned making for part of the range, not the whole: a 4."
+ },
+ "doors": {
+  "c": "full",
+  "n": 28,
+  "cities": [
+   [
+    "Arlington",
+    "VA",
+    1
+   ],
+   [
+    "Atlanta",
+    "GA",
+    1
+   ],
+   [
+    "Aventura",
+    "FL",
+    1
+   ],
+   [
+    "Boca Raton",
+    "FL",
+    1
+   ],
+   [
+    "Charlotte",
+    "NC",
+    1
+   ],
+   [
+    "Cherry Hill",
+    "NJ",
+    1
+   ],
+   [
+    "Chicago",
+    "IL",
+    1
+   ],
+   [
+    "Costa Mesa",
+    "CA",
+    1
+   ],
+   [
+    "Dallas",
+    "TX",
+    1
+   ],
+   [
+    "Garden City",
+    "NY",
+    1
+   ],
+   [
+    "Glendale",
+    "CA",
+    1
+   ],
+   [
+    "Honolulu",
+    "HI",
+    1
+   ],
+   [
+    "Houston",
+    "TX",
+    1
+   ],
+   [
+    "King of Prussia",
+    "PA",
+    1
+   ],
+   [
+    "Las Vegas",
+    "NV",
+    2
+   ],
+   [
+    "Los Angeles",
+    "CA",
+    1
+   ],
+   [
+    "McAllen",
+    "TX",
+    1
+   ],
+   [
+    "Miami",
+    "FL",
+    2
+   ],
+   [
+    "New York",
+    "NY",
+    1
+   ],
+   [
+    "Orlando",
+    "FL",
+    1
+   ],
+   [
+    "Paramus",
+    "NJ",
+    1
+   ],
+   [
+    "Saint Louis",
+    "MO",
+    1
+   ],
+   [
+    "Santa Clara",
+    "CA",
+    1
+   ],
+   [
+    "Schaumburg",
+    "IL",
+    1
+   ],
+   [
+    "Scottsdale",
+    "AZ",
+    1
+   ],
+   [
+    "new york",
+    "NY",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 58,
+  "con": 36
+ },
+ "cities": "28 stores across the US · department stores and independent menswear shops, and its own site",
+ "region": {
+  "o": [
+   1999,
+   2000,
+   2005,
+   2006,
+   2007,
+   2008
+  ],
+  "s": [
+   8
+  ]
+ },
+ "site": {
+  "domain": "lacoste.com",
+  "platform": "salesforce_commerce",
+  "feed": "sitemap_products",
+  "feed_count": 7117,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "both",
+  "marks": [
+   "Ultra Dry (house)",
+   "Thermore Ecodown (licensed)",
+   "COOLMAX (licensed)",
+   "technical fabric",
+   "water-repellent",
+   "waterproof",
+   "ripstop"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 894,
+  "w": 892,
+  "n": 70,
+  "s": 28,
+  "c": 2,
+  "x": 24,
+  "xh": 17,
+  "sp": "one",
+  "sc": [
+   "clothing/jackets-coats",
+   "clothing/matching-sets-1"
+  ],
+  "nc": [
+   "clothing/sweaters-sweatshirts",
+   "clothing/t-shirts",
+   "clothing/polos"
+  ],
+  "st": "complete"
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants",
+  "Sweater",
+  "Outerwear"
+ ],
+ "garment_links": {
+  "T-shirt": "https://www.lacoste.com/us/lacoste/men/clothing/t-shirts/",
+  "Polo": "https://www.lacoste.com/us/lacoste/men/clothing/polos/",
+  "Dress shirt": "https://www.lacoste.com/us/lacoste/men/clothing/button-down-shirts/",
+  "Dress pants": "https://www.lacoste.com/us/lacoste/men/clothing/pants-sweatpants/trousers/",
+  "Sweater": "https://www.lacoste.com/us/lacoste/men/clothing/sweaters/",
+  "Outerwear": "https://www.lacoste.com/us/lacoste/men/clothing/jackets-coats/",
+  "Shoes": "https://www.lacoste.com/us/lacoste/men/shoes/"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Stretch Ultra Dry Sport T-shirt",
+   "lu": "https://www.lacoste.com/us/lacoste/men/clothing/t-shirts/TH0174-51.html",
+   "hp": "Monogram T-Shirt",
+   "hu": "https://www.lacoste.com/us/lacoste/men/clothing/t-shirts/TH1197-51.html",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 1,
-    "linen": 1,
-    "cotton": 4,
-    "wool": 1,
-    "synth": 2
+  "Polo": {
+   "lp": "Regular Fit Ultra Dry Sport Polo Shirt",
+   "lu": "https://www.lacoste.com/us/lacoste/men/clothing/polos/DH0159-51.html",
+   "hp": "Made In France Classic Fit Striped Polo",
+   "hu": "https://www.lacoste.com/us/lacoste/men/clothing/polos/PH0723-51.html",
+   "b": "range"
   },
-  "dials": {
-    "dur": 3,
-    "forg": 4,
-    "fuss": -2,
-    "shoes": 3,
-    "golf": 3,
-    "status": 3,
-    "ivy": 2,
-    "fren": 4,
-    "street": 2,
-    "prep": 4,
-    "boat": 2,
-    "racquet": 2,
-    "whitet": 2,
-    "logo": 3,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 2,
-    "surf": 2
+  "Dress shirt": {
+   "lp": "Men's Regular Fit Gingham Check Shirt",
+   "lu": "https://www.lacoste.com/us/lacoste/men/clothing/button-down-shirts/CH2879-51.html",
+   "hp": "Relaxed Fit Embroidered Cotton Shirt",
+   "hu": "https://www.lacoste.com/us/lacoste/men/clothing/button-down-shirts/CH2191-51.html",
+   "b": "range"
   },
-  "why": "Polo shirts, tennis and golf clothing, and casual wear under the crocodile logo. The L.12.12 piqué polo of 1933 is the design most other polo shirts derive from.",
-  "origin": "René Lacoste, the tennis player, and the knitter André Gillier founded the company in France in 1933.",
-  "chan": ["O", "D", "W"],
-  "conf": "H",
-  "forgc": [4, 4, 1],
-  "shop": "https://www.lacoste.com/us/search?q=",
-  "onething": {
-    "p": "L.12.12 polo",
-    "u": "https://www.lacoste.com/us/search?q=L.12.12",
-    "n": "best-guess link — verify"
+  "Jeans": {
+   "lp": "5-Pocket Slim Fit Indigo Jeans",
+   "lu": "https://www.lacoste.com/us/lacoste/men/clothing/pants-sweatpants/HH5019-51.html",
+   "hp": "5 Pocket Straight Cut Denim Jeans",
+   "hu": "https://www.lacoste.com/us/lacoste/men/clothing/pants-sweatpants/HH0717-51.html",
+   "b": "range"
   },
-  "prices": [[55, 100], [90, 175], [105, 185], [150, 160], [160, 180], [98, 350], [165, 450], [125, 125]],
-  "shoelink": {
-    "t": "shoes",
-    "u": "https://www.lacoste.com/us/search?q=shoes"
+  "Dress pants": {
+   "lp": "Regular Fit Suit Pants",
+   "lu": "https://www.lacoste.com/us/lacoste/men/clothing/pants-sweatpants/HH1885-51.html",
+   "hp": "Straight Fit Striped Cotton Suit Pants",
+   "hu": "https://www.lacoste.com/us/lacoste/men/clothing/pants-sweatpants/HH1881-51.html",
+   "b": "range"
   },
-  "notes": {
-    "cotton": "petit piqué — the knit that made the polo breathe",
-    "fren": "French sporting royalty — tennis whites turned national uniform",
-    "golf": "a real tour presence for decades",
-    "status": "the croc — among the most legible logos alive",
-    "prep": "wrote itself into the Preppy Handbook in the Izod era, then spent thirty years walking back to France — held at 4 for the direction of travel",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 5; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Lacoste's savoir-faire page describes its Troyes factories, with 500 staff assembling the polo, and its Made in France pieces say 'Made in France' or 'Made in Troyes' on the product page. Most of the range shows no origin on the page, and the company is reported to make over 70% of its clothing outside Europe. That is owned making for part of the range, not the whole: a 4."
+  "Sweater": {
+   "lp": "Men's Crew Neck Cotton Sweater",
+   "lu": "https://www.lacoste.com/us/lacoste/men/clothing/sweaters/AH2193-51.html",
+   "hp": "Cashmere Polo Collar Sweater",
+   "hu": "https://www.lacoste.com/us/lacoste/men/clothing/sweaters/AH9922-51.html",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 29,
-    "cities": [
-      ["Arlington", "VA", 1],
-      ["Atlanta", "GA", 1],
-      ["Aventura", "FL", 1],
-      ["Boca Raton", "FL", 1],
-      ["Charlotte", "NC", 1],
-      ["Cherry Hill", "NJ", 1],
-      ["Chicago", "IL", 1],
-      ["Dallas", "TX", 1],
-      ["Garden City", "NY", 1],
-      ["Glendale", "CA", 1],
-      ["Honolulu", "HI", 1],
-      ["Houston", "TX", 1],
-      ["King of Prussia", "PA", 1],
-      ["Las Vegas", "NV", 2],
-      ["Los Angeles", "CA", 1],
-      ["McAllen", "TX", 1],
-      ["Miami", "FL", 2],
-      ["NEW YORK", "NY", 2],
-      ["Orlando", "FL", 1],
-      ["Paramus", "NJ", 1],
-      ["Saint Louis", "MO", 1],
-      ["San Juan", "PR", 1],
-      ["Santa Clara", "CA", 1],
-      ["Schaumburg", "IL", 1],
-      ["Scottsdale", "AZ", 1],
-      ["costa mesa", "CA", 1]
-    ],
-    "basis": "recapture 2026-09"
+  "Outerwear": {
+   "lp": "Water-Repellent Sport Track Jacket",
+   "lu": "https://www.lacoste.com/us/lacoste/men/clothing/jackets-coats/BH6808-51.html",
+   "hp": "Men's Water-Repellent Puffer Jacket",
+   "hu": "https://www.lacoste.com/us/lacoste/men/clothing/jackets-coats/BH1583-51.html",
+   "b": "range"
   },
-  "cities": "29 stores across the US · department stores and independent menswear shops, and its own site",
-  "region": {
-    "o": [1551, 1552, 1555, 1556, 1557, 1558],
-    "s": [8]
-  },
-  "site": {
-    "domain": "lacoste.com",
-    "platform": "salesforce_commerce",
-    "feed": "sitemap_products",
-    "feed_count": 7117,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "both",
-    "marks": [
-      "Ultra Dry (house)",
-      "Thermore Ecodown (licensed)",
-      "COOLMAX (licensed)",
-      "technical fabric",
-      "water-repellent",
-      "waterproof",
-      "ripstop"
-    ],
-    "source": "census",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 894,
-    "w": 892,
-    "n": 70,
-    "s": 28,
-    "c": 2,
-    "x": 24,
-    "xh": 17,
-    "sp": "one",
-    "sc": ["clothing/jackets-coats", "clothing/matching-sets-1"],
-    "nc": ["clothing/sweaters-sweatshirts", "clothing/t-shirts", "clothing/polos"],
-    "st": "complete"
-  },
-  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants", "Sweater", "Outerwear"],
-  "garment_links": {
-    "T-shirt": "https://www.lacoste.com/us/lacoste/men/clothing/t-shirts/",
-    "Polo": "https://www.lacoste.com/us/lacoste/men/clothing/polos/",
-    "Dress shirt": "https://www.lacoste.com/us/lacoste/men/clothing/button-down-shirts/",
-    "Dress pants": "https://www.lacoste.com/us/lacoste/men/clothing/pants-sweatpants/trousers/",
-    "Sweater": "https://www.lacoste.com/us/lacoste/men/clothing/sweaters/",
-    "Outerwear": "https://www.lacoste.com/us/lacoste/men/clothing/jackets-coats/",
-    "Shoes": "https://www.lacoste.com/us/lacoste/men/shoes/"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Stretch Ultra Dry Sport T-shirt",
-      "lu": "https://www.lacoste.com/us/lacoste/men/clothing/t-shirts/TH0174-51.html",
-      "hp": "Monogram T-Shirt",
-      "hu": "https://www.lacoste.com/us/lacoste/men/clothing/t-shirts/TH1197-51.html",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Regular Fit Ultra Dry Sport Polo Shirt",
-      "lu": "https://www.lacoste.com/us/lacoste/men/clothing/polos/DH0159-51.html",
-      "hp": "Made In France Classic Fit Striped Polo",
-      "hu": "https://www.lacoste.com/us/lacoste/men/clothing/polos/PH0723-51.html",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Men's Regular Fit Gingham Check Shirt",
-      "lu": "https://www.lacoste.com/us/lacoste/men/clothing/button-down-shirts/CH2879-51.html",
-      "hp": "Relaxed Fit Embroidered Cotton Shirt",
-      "hu": "https://www.lacoste.com/us/lacoste/men/clothing/button-down-shirts/CH2191-51.html",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "5-Pocket Slim Fit Indigo Jeans",
-      "lu": "https://www.lacoste.com/us/lacoste/men/clothing/pants-sweatpants/HH5019-51.html",
-      "hp": "5 Pocket Straight Cut Denim Jeans",
-      "hu": "https://www.lacoste.com/us/lacoste/men/clothing/pants-sweatpants/HH0717-51.html",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Regular Fit Suit Pants",
-      "lu": "https://www.lacoste.com/us/lacoste/men/clothing/pants-sweatpants/HH1885-51.html",
-      "hp": "Straight Fit Striped Cotton Suit Pants",
-      "hu": "https://www.lacoste.com/us/lacoste/men/clothing/pants-sweatpants/HH1881-51.html",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Men's Crew Neck Cotton Sweater",
-      "lu": "https://www.lacoste.com/us/lacoste/men/clothing/sweaters/AH2193-51.html",
-      "hp": "Cashmere Polo Collar Sweater",
-      "hu": "https://www.lacoste.com/us/lacoste/men/clothing/sweaters/AH9922-51.html",
-      "b": "range"
-    },
-    "Outerwear": {
-      "lp": "Water-Repellent Sport Track Jacket",
-      "lu": "https://www.lacoste.com/us/lacoste/men/clothing/jackets-coats/BH6808-51.html",
-      "hp": "Men's Water-Repellent Puffer Jacket",
-      "hu": "https://www.lacoste.com/us/lacoste/men/clothing/jackets-coats/BH1583-51.html",
-      "b": "range"
-    },
-    "Shoes": {
-      "lp": "Cochet Suede Loafers",
-      "lu": "https://www.lacoste.com/us/lacoste/men/shoes/slides/49CMA0045.html",
-      "hp": "Cochet Suede Loafers",
-      "hu": "https://www.lacoste.com/us/lacoste/men/shoes/slides/49CMA0045.html",
-      "b": "single"
-    }
-  },
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.lacoste.com/us/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=304&brand_ids[]=677891&brand_ids[]=268734",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "certs": {
-    "gots": {
-      "e": "Lacoste Opérations (France)"
-    }
-  },
-  "season": {
-    "l": "Fall-Winter 2026",
-    "t": "runway",
-    "u": "https://www.lacoste.com/us/news-fashion/lacoste-runway-show.html",
-    "m": "yes"
-  },
-  "craft_evidence": {
-    "owned": "yes",
-    "owned_d": "Brand savoir-faire page (lacoste.com/us/lacoste-inside/savoir-faire.html) describes 'the Troyes factories' with 500 employees (pattern makers, garment-makers), polo assembled in ~40 minutes with 25 quality checks. Ownership is group-level: French Wikipedia says Maus Freres (MF Brands) took 100% of Lacoste in 2012 and that the Troyes site, operated by group company Devanlay (worldwide Lacoste clothing licensee, now part of the same group), 'assure la fabrication du polo Lacoste, ainsi que d'autres articles textiles' since 1987; it also says more than 70% of Lacoste clothing is made outside Europe. So owned making covers part of the polo/knitwear output, not the range.",
-    "makers": "some",
-    "mills": "no",
-    "madein": "some",
-    "countries": "France 2/8 (the Made in France L.12.12 polo PH8135 and Made in France Archive cardigan AH1032); no origin visible on 6/8 (L1212 Original, PH9851, PH3598, PH9728 polos; AH1985 crew sweater; AH5170 bomber) - origin may be in an accordion the fetch could not see. Sample of 8 PDPs on lacoste.com/us: polos and knitwear/outerwear only.",
-    "heritage": "dated and placed",
-    "repair": "NC",
-    "process": "some",
-    "urls": [
-      "https://www.lacoste.com/us/lacoste-inside/savoir-faire.html",
-      "https://www.lacoste.com/us/lacoste/men/clothing/sweaters-sweatshirts/AH1032-51.html?color=3UU"
-    ],
-    "conf": "medium",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Cochet Suede Loafers",
+   "lu": "https://www.lacoste.com/us/lacoste/men/shoes/slides/49CMA0045.html",
+   "hp": "Cochet Suede Loafers",
+   "hu": "https://www.lacoste.com/us/lacoste/men/shoes/slides/49CMA0045.html",
+   "b": "single"
   }
+ },
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.lacoste.com/us/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=304&brand_ids[]=677891&brand_ids[]=268734",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "certs": {
+  "gots": {
+   "e": "Lacoste Opérations (France)"
+  }
+ },
+ "season": {
+  "l": "Fall-Winter 2026",
+  "t": "runway",
+  "u": "https://www.lacoste.com/us/news-fashion/lacoste-runway-show.html",
+  "m": "yes"
+ },
+ "craft_evidence": {
+  "owned": "yes",
+  "owned_d": "Brand savoir-faire page (lacoste.com/us/lacoste-inside/savoir-faire.html) describes 'the Troyes factories' with 500 employees (pattern makers, garment-makers), polo assembled in ~40 minutes with 25 quality checks. Ownership is group-level: French Wikipedia says Maus Freres (MF Brands) took 100% of Lacoste in 2012 and that the Troyes site, operated by group company Devanlay (worldwide Lacoste clothing licensee, now part of the same group), 'assure la fabrication du polo Lacoste, ainsi que d'autres articles textiles' since 1987; it also says more than 70% of Lacoste clothing is made outside Europe. So owned making covers part of the polo/knitwear output, not the range.",
+  "makers": "some",
+  "mills": "no",
+  "madein": "some",
+  "countries": "France 2/8 (the Made in France L.12.12 polo PH8135 and Made in France Archive cardigan AH1032); no origin visible on 6/8 (L1212 Original, PH9851, PH3598, PH9728 polos; AH1985 crew sweater; AH5170 bomber) - origin may be in an accordion the fetch could not see. Sample of 8 PDPs on lacoste.com/us: polos and knitwear/outerwear only.",
+  "heritage": "dated and placed",
+  "repair": "NC",
+  "process": "some",
+  "urls": [
+   "https://www.lacoste.com/us/lacoste-inside/savoir-faire.html",
+   "https://www.lacoste.com/us/lacoste/men/clothing/sweaters-sweatshirts/AH1032-51.html?color=3UU"
+  ],
+  "conf": "medium",
+  "read": "2026-10-03"
+ }
 }

@@ -1,252 +1,443 @@
 {
-  "name": "Ferragamo",
-  "band": "trueLux",
-  "seat": 144,
-  "dagger": 0,
-  "focus": {
-    "tech": 1,
-    "comfort": 2,
-    "craft": 2,
-    "style": 3
-  },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 2,
-    "linen": 2,
-    "cotton": 2,
-    "wool": 2,
-    "synth": 1
-  },
-  "dials": {
-    "dur": 3,
-    "forg": 2,
-    "fuss": 0,
-    "shoes": 4,
-    "status": 3,
-    "finbro": 4,
-    "ital": 4,
-    "whitet": 2,
-    "logo": 3,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
-  },
-  "why": "Shoes and leather goods from Florence, with clothing alongside.",
-  "origin": "Founded in Florence in 1927 by Salvatore Ferragamo, after years making shoes in Hollywood.",
-  "say": "fer-ra-GAH-mo",
-  "chan": ["O", "D"],
-  "conf": "S",
-  "forgc": [2, 2, 3],
-  "onething": {
-    "p": "Gancini loafer",
-    "u": "https://www.ferragamo.com/shop/us/en/men",
-    "n": "own site men’s hub; via Mr Porter"
-  },
-  "prices": [
-    [430, 560],
-    [460, 1890],
-    [630, 1250],
-    [1150, 1150],
-    [890, 1250],
-    [1250, 2400],
-    [1690, 8500],
-    [750, 1590]
+ "name": "Ferragamo",
+ "band": "trueLux",
+ "seat": 144,
+ "dagger": 0,
+ "focus": {
+  "tech": 1,
+  "comfort": 2,
+  "craft": 2,
+  "style": 3
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 2,
+  "linen": 2,
+  "cotton": 2,
+  "wool": 2,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 2,
+  "fuss": 0,
+  "shoes": 4,
+  "status": 3,
+  "finbro": 4,
+  "ital": 4,
+  "whitet": 2,
+  "logo": 3,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Shoes and leather goods from Florence, with clothing alongside.",
+ "origin": "Founded in Florence in 1927 by Salvatore Ferragamo, after years making shoes in Hollywood.",
+ "say": "fer-ra-GAH-mo",
+ "chan": [
+  "O",
+  "D"
+ ],
+ "conf": "S",
+ "forgc": [
+  2,
+  2,
+  3
+ ],
+ "onething": {
+  "p": "Gancini loafer",
+  "u": "https://www.ferragamo.com/shop/us/en/men",
+  "n": "own site men’s hub; via Mr Porter"
+ },
+ "prices": [
+  [
+   430,
+   560
   ],
-  "price_checked": true,
-  "shoelink": {
-    "t": "Gancini loafer",
-    "u": "https://www.ferragamo.com/shop/us/en/men"
+  [
+   460,
+   1890
+  ],
+  [
+   630,
+   1250
+  ],
+  [
+   1150,
+   1150
+  ],
+  [
+   890,
+   1250
+  ],
+  [
+   1250,
+   2400
+  ],
+  [
+   1690,
+   8500
+  ],
+  [
+   750,
+   1590
+  ]
+ ],
+ "price_checked": true,
+ "shoelink": {
+  "t": "Gancini loafer",
+  "u": "https://www.ferragamo.com/shop/us/en/men"
+ },
+ "notes": {
+  "finbro": "the banker loafer of record, with the tie heritage to match",
+  "ital": "Florence, and a shoemaker before a house. Tuscan leather runs through everything, and the archive in Palazzo Spini Feroni is a working reference rather than a museum.",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 4; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "craft": "Ferragamo's 2024 annual report says production is outsourced entirely to a network of Italian manufacturers, with only product development, industrialisation and quality control kept in-house; its owned Sesto Fiorentino site is a logistics hub. The sustainability site gives supplier counts and says 97% of supplier turnover is Italian but names no maker. A country of make and nothing owned or named: a 2."
+ },
+ "doors": {
+  "c": "full",
+  "n": 37,
+  "cities": [
+   [
+    "Atlanta",
+    "GA",
+    1
+   ],
+   [
+    "Aventura",
+    "FL",
+    1
+   ],
+   [
+    "Bal Harbour",
+    "FL",
+    1
+   ],
+   [
+    "Beverly Hills",
+    "CA",
+    1
+   ],
+   [
+    "Boston",
+    "MA",
+    1
+   ],
+   [
+    "Canoga Park",
+    "CA",
+    1
+   ],
+   [
+    "Chicago",
+    "IL",
+    1
+   ],
+   [
+    "Costa Mesa",
+    "CA",
+    1
+   ],
+   [
+    "Dallas",
+    "TX",
+    1
+   ],
+   [
+    "East Rutherford",
+    "NJ",
+    1
+   ],
+   [
+    "Hackensack",
+    "NJ",
+    1
+   ],
+   [
+    "Honolulu",
+    "HI",
+    1
+   ],
+   [
+    "Houston",
+    "TX",
+    1
+   ],
+   [
+    "King of Prussia",
+    "PA",
+    1
+   ],
+   [
+    "Las Vegas",
+    "NV",
+    3
+   ],
+   [
+    "Los Angeles",
+    "CA",
+    1
+   ],
+   [
+    "Manhasset",
+    "NY",
+    1
+   ],
+   [
+    "Mclean",
+    "VA",
+    1
+   ],
+   [
+    "Miami",
+    "FL",
+    2
+   ],
+   [
+    "Naples",
+    "FL",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    2
+   ],
+   [
+    "Orlando",
+    "FL",
+    1
+   ],
+   [
+    "Palm Beach",
+    "FL",
+    1
+   ],
+   [
+    "Palm Beach Gardens",
+    "FL",
+    1
+   ],
+   [
+    "Paramus",
+    "NJ",
+    1
+   ],
+   [
+    "San Diego",
+    "CA",
+    1
+   ],
+   [
+    "San Francisco",
+    "CA",
+    1
+   ],
+   [
+    "Santa Clara",
+    "CA",
+    1
+   ],
+   [
+    "Scottsdale",
+    "AZ",
+    1
+   ],
+   [
+    "Short Hills",
+    "NJ",
+    1
+   ],
+   [
+    "Troy",
+    "MI",
+    1
+   ],
+   [
+    "Washington",
+    "DC",
+    1
+   ],
+   [
+    "White Plains",
+    "NY",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 0,
+  "con": 0
+ },
+ "cities": "37 stores across the US · department stores and independent menswear shops, and its own site",
+ "region": {
+  "o": [
+   1280,
+   1281,
+   1288,
+   1292,
+   1297,
+   1303,
+   1307,
+   1308,
+   1310,
+   1311
+  ],
+  "s": [
+   58
+  ]
+ },
+ "site": {
+  "domain": "ferragamo.com",
+  "platform": "custom",
+  "feed": "sitemap_products",
+  "feed_count": 4426,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "no",
+  "origin": "none",
+  "marks": [
+   "none"
+  ],
+  "source": "flag_sample",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 90,
+  "w": 89,
+  "n": 92,
+  "s": 5,
+  "c": 2,
+  "x": 9,
+  "xh": 1,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "Shirts",
+   "Blazers and Suits",
+   "Jackets"
+  ],
+  "st": "complete"
+ },
+ "garment_links": {
+  "T-shirt": "https://www.ferragamo.com/shop/us/en/men/ready-to-wear-men/t-shirts",
+  "Polo": "https://www.ferragamo.com/shop/us/en/men/ready-to-wear-men/t-shirts",
+  "Dress shirt": "https://www.ferragamo.com/shop/us/en/men/ready-to-wear-men/shirts",
+  "Dress pants": "https://www.ferragamo.com/shop/us/en/men/ready-to-wear-men/pants-m",
+  "Sweater": "https://www.ferragamo.com/shop/us/en/men/ready-to-wear-men/knitwear",
+  "Outerwear": "https://www.ferragamo.com/shop/us/en/men/ready-to-wear-men/outerwear",
+  "Shoes": "https://www.ferragamo.com/shop/us/en/men/shoes-1"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Logo T-shirt",
+   "lu": "https://www.ferragamo.com/shop/us/en/men/ready-to-wear-men/t-shirts/h-796647",
+   "hp": "Gancini T-shirt",
+   "hu": "https://www.ferragamo.com/shop/us/en/men/ready-to-wear-men/t-shirts/h-790971",
+   "b": "range"
   },
-  "notes": {
-    "finbro": "the banker loafer of record, with the tie heritage to match",
-    "ital": "Florence, and a shoemaker before a house. Tuscan leather runs through everything, and the archive in Palazzo Spini Feroni is a working reference rather than a museum.",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 4; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "craft": "Ferragamo's 2024 annual report says production is outsourced entirely to a network of Italian manufacturers, with only product development, industrialisation and quality control kept in-house; its owned Sesto Fiorentino site is a logistics hub. The sustainability site gives supplier counts and says 97% of supplier turnover is Italian but names no maker. A country of make and nothing owned or named: a 2."
+  "Polo": {
+   "lp": "Cotton polo shirt",
+   "lu": "https://www.ferragamo.com/shop/us/en/men/ready-to-wear-men/t-shirts/h-790947",
+   "hp": "Short sleeve knitted polo",
+   "hu": "https://www.ferragamo.com/shop/us/en/men/ready-to-wear-men/t-shirts/e-793881",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 36,
-    "cities": [
-      ["Atlanta", "GA", 1],
-      ["Aventura", "FL", 1],
-      ["Bal Harbour", "FL", 1],
-      ["Beverly Hills", "CA", 1],
-      ["Boston", "MA", 1],
-      ["Canoga Park", "CA", 1],
-      ["Chicago", "IL", 1],
-      ["Costa Mesa", "CA", 1],
-      ["Dallas", "TX", 1],
-      ["Hackensack", "NJ", 1],
-      ["Honolulu", "HI", 1],
-      ["Houston", "TX", 1],
-      ["King of Prussia", "PA", 1],
-      ["Las Vegas", "NV", 3],
-      ["Los Angeles", "CA", 1],
-      ["Manhasset", "NY", 1],
-      ["McLean", "VA", 1],
-      ["Miami", "FL", 2],
-      ["Naples", "FL", 1],
-      ["New York", "NY", 2],
-      ["Orlando", "FL", 1],
-      ["Palm Beach", "FL", 1],
-      ["Palm Beach Gardens", "FL", 1],
-      ["Paramus", "NJ", 1],
-      ["San Diego", "CA", 1],
-      ["San Francisco", "CA", 1],
-      ["Santa Clara", "CA", 1],
-      ["Scottsdale", "AZ", 1],
-      ["Short Hills", "NJ", 1],
-      ["Troy", "MI", 1],
-      ["Washington", "DC", 1],
-      ["White Plains", "NY", 1]
-    ],
-    "basis": "master 2026-08-29, pre-recapture"
+  "Dress shirt": {
+   "lp": "Shirt with micro print",
+   "lu": "https://www.ferragamo.com/shop/us/en/men/ready-to-wear-men/shirts/c-791475",
+   "hp": "Button down work shirt",
+   "hu": "https://www.ferragamo.com/shop/us/en/men/ready-to-wear-men/shirts/d-795724",
+   "b": "range"
   },
-  "cities": "36 stores across the US · department stores and independent menswear shops, and its own site",
-  "region": {
-    "o": [988, 990, 991, 992, 996, 997, 998, 999, 1000],
-    "s": [58]
+  "Jeans": {
+   "lp": "Five pocket jeans",
+   "lu": "https://www.ferragamo.com/shop/us/en/men/ready-to-wear-men/pants-m/p-795640",
+   "hp": "Five pocket jeans",
+   "hu": "https://www.ferragamo.com/shop/us/en/men/ready-to-wear-men/pants-m/p-795640",
+   "b": "single"
   },
-  "site": {
-    "domain": "ferragamo.com",
-    "platform": "custom",
-    "feed": "sitemap_products",
-    "feed_count": 4426,
-    "status": "live_store",
-    "checked": "2026-09-13"
+  "Dress pants": {
+   "lp": "Tailored trousers",
+   "lu": "https://www.ferragamo.com/shop/us/en/men/ready-to-wear-men/pants-m/p-791627",
+   "hp": "Silk and wool tailored trousers",
+   "hu": "https://www.ferragamo.com/shop/us/en/men/ready-to-wear-men/pants-m/p-793722",
+   "b": "pair"
   },
-  "tech_evidence": {
-    "names": "no",
-    "origin": "none",
-    "marks": ["none"],
-    "source": "flag_sample",
-    "checked": "2026-09-12"
+  "Sweater": {
+   "lp": "V-neck sweater",
+   "lu": "https://www.ferragamo.com/shop/us/en/men/ready-to-wear-men/knitwear/e-791089",
+   "hp": "High neck cashmere pullover",
+   "hu": "https://www.ferragamo.com/shop/us/en/men/ready-to-wear-men/knitwear/e-786134",
+   "b": "range"
   },
-  "fibre": {
-    "t": 90,
-    "w": 89,
-    "n": 92,
-    "s": 5,
-    "c": 2,
-    "x": 9,
-    "xh": 1,
-    "sp": "one",
-    "sc": [],
-    "nc": ["Shirts", "Blazers and Suits", "Jackets"],
-    "st": "complete"
+  "Outerwear": {
+   "lp": "Trucker jacket",
+   "lu": "https://www.ferragamo.com/shop/us/en/men/ready-to-wear-men/jackets/b-791910",
+   "hp": "Suede blouson",
+   "hu": "https://www.ferragamo.com/shop/us/en/men/ready-to-wear-men/jackets/b-790351",
+   "b": "range"
   },
-  "garment_links": {
-    "T-shirt": "https://www.ferragamo.com/shop/us/en/men/ready-to-wear-men/t-shirts",
-    "Polo": "https://www.ferragamo.com/shop/us/en/men/ready-to-wear-men/t-shirts",
-    "Dress shirt": "https://www.ferragamo.com/shop/us/en/men/ready-to-wear-men/shirts",
-    "Dress pants": "https://www.ferragamo.com/shop/us/en/men/ready-to-wear-men/pants-m",
-    "Sweater": "https://www.ferragamo.com/shop/us/en/men/ready-to-wear-men/knitwear",
-    "Outerwear": "https://www.ferragamo.com/shop/us/en/men/ready-to-wear-men/outerwear",
-    "Shoes": "https://www.ferragamo.com/shop/us/en/men/shoes-1"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Logo T-shirt",
-      "lu": "https://www.ferragamo.com/shop/us/en/men/ready-to-wear-men/t-shirts/h-796647",
-      "hp": "Gancini T-shirt",
-      "hu": "https://www.ferragamo.com/shop/us/en/men/ready-to-wear-men/t-shirts/h-790971",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Cotton polo shirt",
-      "lu": "https://www.ferragamo.com/shop/us/en/men/ready-to-wear-men/t-shirts/h-790947",
-      "hp": "Short sleeve knitted polo",
-      "hu": "https://www.ferragamo.com/shop/us/en/men/ready-to-wear-men/t-shirts/e-793881",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Shirt with micro print",
-      "lu": "https://www.ferragamo.com/shop/us/en/men/ready-to-wear-men/shirts/c-791475",
-      "hp": "Button down work shirt",
-      "hu": "https://www.ferragamo.com/shop/us/en/men/ready-to-wear-men/shirts/d-795724",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Five pocket jeans",
-      "lu": "https://www.ferragamo.com/shop/us/en/men/ready-to-wear-men/pants-m/p-795640",
-      "hp": "Five pocket jeans",
-      "hu": "https://www.ferragamo.com/shop/us/en/men/ready-to-wear-men/pants-m/p-795640",
-      "b": "single"
-    },
-    "Dress pants": {
-      "lp": "Tailored trousers",
-      "lu": "https://www.ferragamo.com/shop/us/en/men/ready-to-wear-men/pants-m/p-791627",
-      "hp": "Silk and wool tailored trousers",
-      "hu": "https://www.ferragamo.com/shop/us/en/men/ready-to-wear-men/pants-m/p-793722",
-      "b": "pair"
-    },
-    "Sweater": {
-      "lp": "V-neck sweater",
-      "lu": "https://www.ferragamo.com/shop/us/en/men/ready-to-wear-men/knitwear/e-791089",
-      "hp": "High neck cashmere pullover",
-      "hu": "https://www.ferragamo.com/shop/us/en/men/ready-to-wear-men/knitwear/e-786134",
-      "b": "range"
-    },
-    "Outerwear": {
-      "lp": "Trucker jacket",
-      "lu": "https://www.ferragamo.com/shop/us/en/men/ready-to-wear-men/jackets/b-791910",
-      "hp": "Suede blouson",
-      "hu": "https://www.ferragamo.com/shop/us/en/men/ready-to-wear-men/jackets/b-790351",
-      "b": "range"
-    },
-    "Shoes": {
-      "lp": "Espadrilles loafer",
-      "lu": "https://www.ferragamo.com/shop/us/en/men/shoes-1/moccasins-1/sefiro-792958",
-      "hp": "Tramezza penny loafer",
-      "hu": "https://www.ferragamo.com/shop/us/en/men/shoes-1/moccasins-1/brandy-794886",
-      "b": "pair"
-    }
-  },
-  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Sweater", "Outerwear"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.ferragamo.com/shop/us/en/men",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=13437&brand_ids[]=9137093",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "season": {
-    "l": "Autumn-Winter 2026",
-    "t": "runway",
-    "u": "https://www.ferragamo.com/shop/us/en/sf/gallery-fw26-show",
-    "m": "yes"
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "Ferragamo 2024 Annual Report p.31: in-house only 'product development and industrialization' and quality control 'on almost all finished products in the footwear and leather goods categories'; production is outsourced 'entirely to specialized Italian production facilities' (a 'broad network of selected and expert Italian manufacturers'). Owned Osmannoro/Sesto Fiorentino complex is described (p.30) as a highly automated Logistics Hub (since 2018), not a factory; Palazzo Spini Feroni is the registered office. No owned production found.",
-    "makers": "no",
-    "mills": "NC",
-    "madein": "NC",
-    "countries": "NC on PDPs (not read). Corporate: Italy — '97% of supplier turnover in 2024 sourced from Italian companies'; Tuscan manufacturers '52.4% of turnover in finished product processing' (sustainability.ferragamo.com/en/value-chain).",
-    "heritage": "NC",
-    "repair": "NC",
-    "process": "some",
-    "urls": [
-      "https://cdn.ferragamo.com/cdn/investor-relations/financial-documents/2024/en/Annualreport2024.pdf",
-      "https://sustainability.ferragamo.com/en/value-chain"
-    ],
-    "conf": "medium",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Espadrilles loafer",
+   "lu": "https://www.ferragamo.com/shop/us/en/men/shoes-1/moccasins-1/sefiro-792958",
+   "hp": "Tramezza penny loafer",
+   "hu": "https://www.ferragamo.com/shop/us/en/men/shoes-1/moccasins-1/brandy-794886",
+   "b": "pair"
   }
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Sweater",
+  "Outerwear"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.ferragamo.com/shop/us/en/men",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=13437&brand_ids[]=9137093",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "season": {
+  "l": "Autumn-Winter 2026",
+  "t": "runway",
+  "u": "https://www.ferragamo.com/shop/us/en/sf/gallery-fw26-show",
+  "m": "yes"
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "Ferragamo 2024 Annual Report p.31: in-house only 'product development and industrialization' and quality control 'on almost all finished products in the footwear and leather goods categories'; production is outsourced 'entirely to specialized Italian production facilities' (a 'broad network of selected and expert Italian manufacturers'). Owned Osmannoro/Sesto Fiorentino complex is described (p.30) as a highly automated Logistics Hub (since 2018), not a factory; Palazzo Spini Feroni is the registered office. No owned production found.",
+  "makers": "no",
+  "mills": "NC",
+  "madein": "NC",
+  "countries": "NC on PDPs (not read). Corporate: Italy — '97% of supplier turnover in 2024 sourced from Italian companies'; Tuscan manufacturers '52.4% of turnover in finished product processing' (sustainability.ferragamo.com/en/value-chain).",
+  "heritage": "NC",
+  "repair": "NC",
+  "process": "some",
+  "urls": [
+   "https://cdn.ferragamo.com/cdn/investor-relations/financial-documents/2024/en/Annualreport2024.pdf",
+   "https://sustainability.ferragamo.com/en/value-chain"
+  ],
+  "conf": "medium",
+  "read": "2026-10-03"
+ }
 }

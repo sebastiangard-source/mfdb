@@ -1,252 +1,401 @@
 {
-  "name": "Dolce&Gabbana",
-  "band": "trueLux",
-  "seat": 149,
-  "dagger": 1,
-  "focus": {
-    "tech": 1,
-    "comfort": 2,
-    "craft": 4,
-    "style": 5
-  },
-  "fabric": {
-    "denim": 2,
-    "cashmere": 2,
-    "linen": 2,
-    "cotton": 2,
-    "wool": 3,
-    "synth": 1
-  },
-  "dials": {
-    "dur": 3,
-    "forg": 1,
-    "fuss": 1,
-    "shoes": 3,
-    "status": 5,
-    "ital": 5,
-    "weird": 2,
-    "whitet": 2,
-    "logo": 4,
-    "western": 1,
-    "rock": 3,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
-  },
-  "why": "Italian fashion with Sicilian references, from decorated pieces to serious tailoring.",
-  "origin": "Founded in Milan in 1985 by Domenico Dolce and Stefano Gabbana.",
-  "say": "DOL-chay and gab-BAH-na",
-  "chan": ["O", "D"],
-  "conf": "L",
-  "forgc": [1, 2, 1],
-  "shop": "https://www.dolcegabbana.com/en-us/search/?q=",
-  "onething": {
-    "p": "Martini fit suit",
-    "u": "https://www.dolcegabbana.com/en-us/search/?q=Martini%20fit",
-    "n": "own-site search, not opened from this environment. A house-named cut, and it points at the alta sartoria underneath rather than at the spectacle on top"
-  },
-  "prices": [
-    [445, 1795],
-    [645, 2795],
-    [645, 5645],
-    [775, 3295],
-    [875, 1795],
-    [995, 7045],
-    [1295, 17800],
-    [895, 1145]
+ "name": "Dolce&Gabbana",
+ "band": "trueLux",
+ "seat": 149,
+ "dagger": 1,
+ "focus": {
+  "tech": 1,
+  "comfort": 2,
+  "craft": 4,
+  "style": 5
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 2,
+  "linen": 2,
+  "cotton": 2,
+  "wool": 3,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 1,
+  "fuss": 1,
+  "shoes": 3,
+  "status": 5,
+  "ital": 5,
+  "weird": 2,
+  "whitet": 2,
+  "logo": 4,
+  "western": 1,
+  "rock": 3,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Italian fashion with Sicilian references, from decorated pieces to serious tailoring.",
+ "origin": "Founded in Milan in 1985 by Domenico Dolce and Stefano Gabbana.",
+ "say": "DOL-chay and gab-BAH-na",
+ "chan": [
+  "O",
+  "D"
+ ],
+ "conf": "L",
+ "forgc": [
+  1,
+  2,
+  1
+ ],
+ "shop": "https://www.dolcegabbana.com/en-us/search/?q=",
+ "onething": {
+  "p": "Martini fit suit",
+  "u": "https://www.dolcegabbana.com/en-us/search/?q=Martini%20fit",
+  "n": "own-site search, not opened from this environment. A house-named cut, and it points at the alta sartoria underneath rather than at the spectacle on top"
+ },
+ "prices": [
+  [
+   445,
+   1795
   ],
-  "shoelink": {
-    "t": "shoes",
-    "u": "https://www.dolcegabbana.com/en-us/search/?q=shoes"
+  [
+   645,
+   2795
+  ],
+  [
+   645,
+   5645
+  ],
+  [
+   775,
+   3295
+  ],
+  [
+   875,
+   1795
+  ],
+  [
+   995,
+   7045
+  ],
+  [
+   1295,
+   17800
+  ],
+  [
+   895,
+   1145
+  ]
+ ],
+ "shoelink": {
+  "t": "shoes",
+  "u": "https://www.dolcegabbana.com/en-us/search/?q=shoes"
+ },
+ "notes": {
+  "ital": "sells Sicily itself — the light, the baroque, the nonna",
+  "status": "Status as spectacle. Sicilian baroque worn loudly, and the house has never once suggested the wearer should be subtle about it.",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 4; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "style": "Decorated, Sicilian-referenced fashion; the look is the point.",
+  "craft": "Every men's PDP sampled (shirt, jeans, boots, sneakers) states 'Made in Italy' with composition, and none names a factory, workshop, mill or tannery. No page on how or where the clothes are made could be found on dolcegabbana.com. On the visible record this is country-of-make only = 2. [held at the current score: the audit’s evidence was thin; needs a second read]"
+ },
+ "doors": {
+  "c": "full",
+  "n": 29,
+  "cities": [
+   [
+    "Atlanta",
+    "GA",
+    1
+   ],
+   [
+    "Aventura",
+    "FL",
+    1
+   ],
+   [
+    "Bal Harbour",
+    "FL",
+    1
+   ],
+   [
+    "Beverly Hills",
+    "CA",
+    1
+   ],
+   [
+    "Boca Raton",
+    "FL",
+    1
+   ],
+   [
+    "Canoga Park",
+    "CA",
+    1
+   ],
+   [
+    "Charlotte",
+    "NC",
+    1
+   ],
+   [
+    "Chicago",
+    "IL",
+    1
+   ],
+   [
+    "Costa Mesa",
+    "CA",
+    1
+   ],
+   [
+    "Dallas",
+    "TX",
+    1
+   ],
+   [
+    "East Rutherford",
+    "NJ",
+    1
+   ],
+   [
+    "Honolulu",
+    "HI",
+    1
+   ],
+   [
+    "Houston",
+    "TX",
+    2
+   ],
+   [
+    "King of Prussia",
+    "PA",
+    1
+   ],
+   [
+    "Las Vegas",
+    "NV",
+    3
+   ],
+   [
+    "Los Angeles",
+    "CA",
+    1
+   ],
+   [
+    "McLean",
+    "VA",
+    1
+   ],
+   [
+    "Miami",
+    "FL",
+    2
+   ],
+   [
+    "Nashville",
+    "TN",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    1
+   ],
+   [
+    "San Diego",
+    "CA",
+    1
+   ],
+   [
+    "San Francisco",
+    "CA",
+    1
+   ],
+   [
+    "Santa Clara",
+    "CA",
+    1
+   ],
+   [
+    "Scottsdale",
+    "AZ",
+    1
+   ],
+   [
+    "Short Hills",
+    "NJ",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 0,
+  "con": 31
+ },
+ "cities": "29 stores across the US · department stores, and its own site",
+ "region": {
+  "o": [
+   1112,
+   1113,
+   1117,
+   1127
+  ],
+  "s": []
+ },
+ "addmen": true,
+ "addcloth": true,
+ "site": {
+  "domain": "dolcegabbana.com",
+  "platform": "salesforce_commerce",
+  "feed": "sitemap_products",
+  "feed_count": 4089,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "licensed",
+  "marks": [
+   "LICENSED, and only two, both branded fibres named in descriptive copy rather than in a composition line: Lycra(R) ('High swim briefs in eco Lycra') on 1 product, and Supima(R) ('made of fine Supima cotton') on 1 product. TENCEL appears once whole-page only and on no product slice, so it is not credi"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 1546,
+  "w": 1546,
+  "n": 88,
+  "s": 10,
+  "c": 2,
+  "x": 19,
+  "xh": 5,
+  "sp": "one",
+  "sc": [
+   "beachwear"
+  ],
+  "nc": [
+   "pants and shorts",
+   "shirts",
+   "sweaters and cardigans"
+  ],
+  "st": "complete"
+ },
+ "garment_links": {
+  "T-shirt": "https://www.dolcegabbana.com/en-us/fashion/men/clothing/t-shirts-and-polos/",
+  "Polo": "https://www.dolcegabbana.com/en-us/fashion/men/clothing/t-shirts-and-polos/",
+  "Dress shirt": "https://www.dolcegabbana.com/en-us/fashion/men/clothing/shirts/",
+  "Jeans": "https://www.dolcegabbana.com/en-us/fashion/men/clothing/denim/",
+  "Dress pants": "https://www.dolcegabbana.com/en-us/fashion/men/clothing/pants-and-shorts/",
+  "Sweater": "https://www.dolcegabbana.com/en-us/fashion/men/clothing/sweaters-and-cardigans/",
+  "Outerwear": "https://www.dolcegabbana.com/en-us/fashion/men/clothing/coats-and-jackets/",
+  "Shoes": "https://www.dolcegabbana.com/en-us/fashion/men/shoes/"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "T-shirt in cotton",
+   "lu": "https://www.dolcegabbana.com/en-us/fashion/men/clothing/t-shirts-and-polos/t-shirt-in-cotton-grey-G8JX7TFU7EQS8292.html",
+   "hp": "Marina-print silk t-shirt",
+   "hu": "https://www.dolcegabbana.com/en-us/fashion/men/clothing/t-shirts-and-polos/marina-print-silk-t-shirt-multicolor-G8TW2THI142HB6EY.html",
+   "b": "pair"
   },
-  "notes": {
-    "ital": "sells Sicily itself — the light, the baroque, the nonna",
-    "status": "Status as spectacle. Sicilian baroque worn loudly, and the house has never once suggested the wearer should be subtle about it.",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 4; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "style": "Decorated, Sicilian-referenced fashion; the look is the point.",
-    "craft": "Every men's PDP sampled (shirt, jeans, boots, sneakers) states 'Made in Italy' with composition, and none names a factory, workshop, mill or tannery. No page on how or where the clothes are made could be found on dolcegabbana.com. On the visible record this is country-of-make only = 2. [held at the current score: the audit’s evidence was thin; needs a second read]"
+  "Polo": {
+   "lp": "Cotton polo-shirt with logo tag",
+   "lu": "https://www.dolcegabbana.com/en-us/fashion/men/clothing/t-shirts-and-polos/cotton-polo-shirt-with-logo-tag-black-G8SN1TFU7ENN0000.html",
+   "hp": "Silk polo shirt with intarsia",
+   "hu": "https://www.dolcegabbana.com/en-us/fashion/men/clothing/sweaters-and-cardigans/x-GXZ02TJBSPMW8266.html",
+   "b": "pair"
   },
-  "doors": {
-    "c": "full",
-    "n": 29,
-    "cities": [
-      ["Atlanta", "GA", 1],
-      ["Aventura", "FL", 1],
-      ["Bal Harbour", "FL", 1],
-      ["Beverly Hills", "CA", 1],
-      ["Boca Raton", "FL", 1],
-      ["Canoga Park", "CA", 1],
-      ["Charlotte", "NC", 1],
-      ["Chicago", "IL", 1],
-      ["Costa Mesa", "CA", 1],
-      ["Dallas", "TX", 1],
-      ["East Rutherford", "NJ", 1],
-      ["Honolulu", "HI", 1],
-      ["Houston", "TX", 2],
-      ["King of Prussia", "PA", 1],
-      ["Las Vegas", "NV", 3],
-      ["Los Angeles", "CA", 1],
-      ["McLean", "VA", 1],
-      ["Miami", "FL", 1],
-      ["Nashville", "TN", 1],
-      ["New York", "NY", 2],
-      ["San Diego", "CA", 1],
-      ["San Francisco", "CA", 1],
-      ["Santa Clara", "CA", 1],
-      ["Scottsdale", "AZ", 1],
-      ["Short Hills", "NJ", 1]
-    ],
-    "basis": "recapture 2026-09"
+  "Dress shirt": {
+   "lp": "Stretch poplin Gold-fit shirt",
+   "lu": "https://www.dolcegabbana.com/en-us/fashion/men/clothing/shirts/x-G5EJ0TGK322W0800.html",
+   "hp": "Striped cotton martini shirt",
+   "hu": "https://www.dolcegabbana.com/en-us/fashion/men/clothing/shirts/x-G5ML1ZFR5USS8051.html",
+   "b": "range"
   },
-  "cities": "29 stores across the US · department stores, and its own site",
-  "region": {
-    "o": [813, 814, 818, 819, 820],
-    "s": []
+  "Jeans": {
+   "lp": "White regular stretch jeans",
+   "lu": "https://www.dolcegabbana.com/en-us/fashion/men/clothing/denim/x-GYJCCDG8OX2S9001.html",
+   "hp": "Denim trousers (classic shape, Maiolica Nera)",
+   "hu": "https://www.dolcegabbana.com/en-us/fashion/men/clothing/denim/x-GP02XZG8NT3S9001.html",
+   "b": "range"
   },
-  "addmen": true,
-  "addcloth": true,
-  "site": {
-    "domain": "dolcegabbana.com",
-    "platform": "salesforce_commerce",
-    "feed": "sitemap_products",
-    "feed_count": 4089,
-    "status": "live_store",
-    "checked": "2026-09-13"
+  "Dress pants": {
+   "lp": "Stretch flannel pants",
+   "lu": "https://www.dolcegabbana.com/en-us/fashion/men/clothing/pants-and-shorts/x-GY7BMTFUBF4S8292.html",
+   "hp": "Pinstripe virgin wool trousers",
+   "hu": "https://www.dolcegabbana.com/en-us/fashion/men/clothing/pants-and-shorts/x-GP13CTFR23WS8052.html",
+   "b": "range"
   },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "licensed",
-    "marks": [
-      "LICENSED, and only two, both branded fibres named in descriptive copy rather than in a composition line: Lycra(R) ('High swim briefs in eco Lycra') on 1 product, and Supima(R) ('made of fine Supima cotton') on 1 product. TENCEL appears once whole-page only and on no product slice, so it is not credi"
-    ],
-    "source": "census",
-    "checked": "2026-09-12"
+  "Sweater": {
+   "lp": "Wool round-neck sweater with branded tag",
+   "lu": "https://www.dolcegabbana.com/en-us/fashion/men/clothing/sweaters-and-cardigans/x-GXO39TJGMG9N0000.html",
+   "hp": "Micro-dot stitch silk pullover",
+   "hu": "https://www.dolcegabbana.com/en-us/fashion/men/clothing/sweaters-and-cardigans/x-GXX02ZJBSOGB1622.html",
+   "b": "pair"
   },
-  "fibre": {
-    "t": 1546,
-    "w": 1546,
-    "n": 88,
-    "s": 10,
-    "c": 2,
-    "x": 19,
-    "xh": 5,
-    "sp": "one",
-    "sc": ["beachwear"],
-    "nc": ["pants and shorts", "shirts", "sweaters and cardigans"],
-    "st": "complete"
+  "Outerwear": {
+   "lp": "Black wash stretch denim jacket",
+   "lu": "https://www.dolcegabbana.com/en-us/fashion/men/clothing/coats-and-jackets/x-G9NL5DG8GW6S9001.html",
+   "hp": "Calfskin biker jacket",
+   "hu": "https://www.dolcegabbana.com/en-us/fashion/men/clothing/coats-and-jackets/x-G9ATTLHULXRS9001.html",
+   "b": "range"
   },
-  "garment_links": {
-    "T-shirt": "https://www.dolcegabbana.com/en-us/fashion/men/clothing/t-shirts-and-polos/",
-    "Polo": "https://www.dolcegabbana.com/en-us/fashion/men/clothing/t-shirts-and-polos/",
-    "Dress shirt": "https://www.dolcegabbana.com/en-us/fashion/men/clothing/shirts/",
-    "Jeans": "https://www.dolcegabbana.com/en-us/fashion/men/clothing/denim/",
-    "Dress pants": "https://www.dolcegabbana.com/en-us/fashion/men/clothing/pants-and-shorts/",
-    "Sweater": "https://www.dolcegabbana.com/en-us/fashion/men/clothing/sweaters-and-cardigans/",
-    "Outerwear": "https://www.dolcegabbana.com/en-us/fashion/men/clothing/coats-and-jackets/",
-    "Shoes": "https://www.dolcegabbana.com/en-us/fashion/men/shoes/"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "T-shirt in cotton",
-      "lu": "https://www.dolcegabbana.com/en-us/fashion/men/clothing/t-shirts-and-polos/t-shirt-in-cotton-grey-G8JX7TFU7EQS8292.html",
-      "hp": "Marina-print silk t-shirt",
-      "hu": "https://www.dolcegabbana.com/en-us/fashion/men/clothing/t-shirts-and-polos/marina-print-silk-t-shirt-multicolor-G8TW2THI142HB6EY.html",
-      "b": "pair"
-    },
-    "Polo": {
-      "lp": "Cotton polo-shirt with logo tag",
-      "lu": "https://www.dolcegabbana.com/en-us/fashion/men/clothing/t-shirts-and-polos/cotton-polo-shirt-with-logo-tag-black-G8SN1TFU7ENN0000.html",
-      "hp": "Silk polo shirt with intarsia",
-      "hu": "https://www.dolcegabbana.com/en-us/fashion/men/clothing/sweaters-and-cardigans/x-GXZ02TJBSPMW8266.html",
-      "b": "pair"
-    },
-    "Dress shirt": {
-      "lp": "Stretch poplin Gold-fit shirt",
-      "lu": "https://www.dolcegabbana.com/en-us/fashion/men/clothing/shirts/x-G5EJ0TGK322W0800.html",
-      "hp": "Striped cotton martini shirt",
-      "hu": "https://www.dolcegabbana.com/en-us/fashion/men/clothing/shirts/x-G5ML1ZFR5USS8051.html",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "White regular stretch jeans",
-      "lu": "https://www.dolcegabbana.com/en-us/fashion/men/clothing/denim/x-GYJCCDG8OX2S9001.html",
-      "hp": "Denim trousers (classic shape, Maiolica Nera)",
-      "hu": "https://www.dolcegabbana.com/en-us/fashion/men/clothing/denim/x-GP02XZG8NT3S9001.html",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "Stretch flannel pants",
-      "lu": "https://www.dolcegabbana.com/en-us/fashion/men/clothing/pants-and-shorts/x-GY7BMTFUBF4S8292.html",
-      "hp": "Pinstripe virgin wool trousers",
-      "hu": "https://www.dolcegabbana.com/en-us/fashion/men/clothing/pants-and-shorts/x-GP13CTFR23WS8052.html",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Wool round-neck sweater with branded tag",
-      "lu": "https://www.dolcegabbana.com/en-us/fashion/men/clothing/sweaters-and-cardigans/x-GXO39TJGMG9N0000.html",
-      "hp": "Micro-dot stitch silk pullover",
-      "hu": "https://www.dolcegabbana.com/en-us/fashion/men/clothing/sweaters-and-cardigans/x-GXX02ZJBSOGB1622.html",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "Black wash stretch denim jacket",
-      "lu": "https://www.dolcegabbana.com/en-us/fashion/men/clothing/coats-and-jackets/x-G9NL5DG8GW6S9001.html",
-      "hp": "Calfskin biker jacket",
-      "hu": "https://www.dolcegabbana.com/en-us/fashion/men/clothing/coats-and-jackets/x-G9ATTLHULXRS9001.html",
-      "b": "range"
-    },
-    "Shoes": {
-      "lp": "Brushed calfskin loafers",
-      "lu": "https://www.dolcegabbana.com/en-us/fashion/men/shoes/driver-shoes-and-loafers/x-A30267A120380999.html",
-      "hp": "Calfskin loafers (Perugino, horsebit)",
-      "hu": "https://www.dolcegabbana.com/en-us/fashion/men/shoes/driver-shoes-and-loafers/x-A30291A078080999.html",
-      "b": "pair"
-    }
-  },
-  "price_range_only": ["Dress shirt", "Jeans", "Dress pants", "Outerwear"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.dolcegabbana.com/en-us/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "Sartoriale (tailoring line sold under the brand in its own store)"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=1043",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "season": {
-    "l": "Fall/Winter 2026",
-    "t": "runway",
-    "u": "https://world.dolcegabbana.com/fashion-shows/men-fall-winter-2026-fashion-show/looks",
-    "m": "yes"
-  },
-  "craft_evidence": {
-    "owned": "unclear",
-    "owned_d": "Nothing seen either way. PDPs name no maker; the men's clothing listing links no craftsmanship/factory pages; corporate pages linked from the PDP footer (/corporate, /corporate/career) and /en-us/corporate/ and /en-us/sustainability/ all returned 404 to the fetcher. Whether D&G owns tailoring, RTW, shoe or leather-goods production was not established at a primary source.",
-    "makers": "no",
-    "mills": "no",
-    "madein": "every product",
-    "countries": "Italy 4/4 (sample of 4 men's PDPs: shirt, jeans, biker boots, sneakers; a polo PDP returned 404). Fetcher reported no collapsed origin tabs.",
-    "heritage": "NC",
-    "repair": "no",
-    "process": "no",
-    "urls": [
-      "https://www.dolcegabbana.com/en-us/fashion/men/clothing/shirts/striped-poplin-vanity-shirt-multicolor-G5OI9TFR510S8051.html",
-      "https://www.dolcegabbana.com/en-us/fashion/men/shoes/boots-and-ankle-boots/horsehide-biker-boots-black-A70032AW35280999.html"
-    ],
-    "conf": "low",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Brushed calfskin loafers",
+   "lu": "https://www.dolcegabbana.com/en-us/fashion/men/shoes/driver-shoes-and-loafers/x-A30267A120380999.html",
+   "hp": "Calfskin loafers (Perugino, horsebit)",
+   "hu": "https://www.dolcegabbana.com/en-us/fashion/men/shoes/driver-shoes-and-loafers/x-A30291A078080999.html",
+   "b": "pair"
   }
+ },
+ "price_range_only": [
+  "Dress shirt",
+  "Jeans",
+  "Dress pants",
+  "Outerwear"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.dolcegabbana.com/en-us/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "Sartoriale (tailoring line sold under the brand in its own store)"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=1043",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "season": {
+  "l": "Fall/Winter 2026",
+  "t": "runway",
+  "u": "https://world.dolcegabbana.com/fashion-shows/men-fall-winter-2026-fashion-show/looks",
+  "m": "yes"
+ },
+ "craft_evidence": {
+  "owned": "unclear",
+  "owned_d": "Nothing seen either way. PDPs name no maker; the men's clothing listing links no craftsmanship/factory pages; corporate pages linked from the PDP footer (/corporate, /corporate/career) and /en-us/corporate/ and /en-us/sustainability/ all returned 404 to the fetcher. Whether D&G owns tailoring, RTW, shoe or leather-goods production was not established at a primary source.",
+  "makers": "no",
+  "mills": "no",
+  "madein": "every product",
+  "countries": "Italy 4/4 (sample of 4 men's PDPs: shirt, jeans, biker boots, sneakers; a polo PDP returned 404). Fetcher reported no collapsed origin tabs.",
+  "heritage": "NC",
+  "repair": "no",
+  "process": "no",
+  "urls": [
+   "https://www.dolcegabbana.com/en-us/fashion/men/clothing/shirts/striped-poplin-vanity-shirt-multicolor-G5OI9TFR510S8051.html",
+   "https://www.dolcegabbana.com/en-us/fashion/men/shoes/boots-and-ankle-boots/horsehide-biker-boots-black-A70032AW35280999.html"
+  ],
+  "conf": "low",
+  "read": "2026-10-03"
+ }
 }

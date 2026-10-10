@@ -1,113 +1,148 @@
 {
-  "name": "Stefan Brandt",
-  "band": "accessible",
-  "seat": 133,
-  "dagger": 0,
-  "focus": {
-    "tech": 3,
-    "comfort": 5,
-    "craft": 4,
-    "style": 2
-  },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 1,
-    "linen": 2,
-    "cotton": 5,
-    "wool": 2,
-    "synth": 1
-  },
-  "dials": {
-    "dur": 4,
-    "forg": 3,
-    "fuss": -3,
-    "golffice": -1,
-    "status": 1,
-    "ivy": 1,
-    "boat": 1,
-    "racquet": 1,
-    "briish": 1,
-    "whitet": 5,
-    "logo": 1,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
-  },
-  "why": "Tees, jersey shirts and polos in a fine Peruvian Pima jersey the company developed itself; machine washable.",
-  "origin": "Founded in Quito, Ecuador, in 2001 by Stefan Brandt, a physicist, with a German sales company in Hamburg.",
-  "chan": ["I"],
-  "conf": "L",
-  "forgc": [3, 3, 2],
-  "onething": {
-    "p": "OTIS jersey shirt",
-    "u": "https://www.breuninger.com/de/marken/stefan-brandt/",
-    "n": "A collared shirt cut from his fine Pima jersey — hand-set collar and placket, washable at 40°. Read on Breuninger; no US store."
-  },
-  "prices": [
-    [139, 169, "EUR"],
-    [199, 259, "EUR"],
-    [260, 300, "EUR"],
-    null,
-    "?",
-    [249, 349, "EUR"],
-    [320, 320, "EUR"],
-    null
+ "name": "Stefan Brandt",
+ "band": "accessible",
+ "seat": 133,
+ "dagger": 0,
+ "focus": {
+  "tech": 3,
+  "comfort": 5,
+  "craft": 4,
+  "style": 2
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 2,
+  "cotton": 5,
+  "wool": 2,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 4,
+  "forg": 3,
+  "fuss": -3,
+  "golffice": -1,
+  "status": 1,
+  "ivy": 1,
+  "boat": 1,
+  "racquet": 1,
+  "briish": 1,
+  "whitet": 5,
+  "logo": 1,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "Tees, jersey shirts and polos in a fine Peruvian Pima jersey the company developed itself; machine washable.",
+ "origin": "Founded in Quito, Ecuador, in 2001 by Stefan Brandt, a physicist, with a German sales company in Hamburg.",
+ "chan": [
+  "I"
+ ],
+ "conf": "L",
+ "forgc": [
+  3,
+  3,
+  2
+ ],
+ "onething": {
+  "p": "OTIS jersey shirt",
+  "u": "https://www.breuninger.com/de/marken/stefan-brandt/",
+  "n": "A collared shirt cut from his fine Pima jersey — hand-set collar and placket, washable at 40°. Read on Breuninger; no US store."
+ },
+ "prices": [
+  [
+   139,
+   169,
+   "EUR"
   ],
-  "notes": {
-    "reach": "Two US stockists on the register — Richards, Greenwich and Maxwell & Co., Falmouth — no US store, no US e-commerce. Seated 26 Sep 2026 on Sebastian’s sighting. [authored findability score was 1; retired 28 Sep 2026]",
-    "tech": "Names its own jersey (Urpima cotton, a Prefit finishing process) and supplies it to other houses; ownership is the house’s. Scored provisionally at 3 pending the tech re-score.",
-    "fuss": "Read on Breuninger (EUR) 26 Sep 2026; the house has no US store. Jeans and shoes: does not make. Dress pants: sweat trousers only, not read. Machine-washable at 40° and dryer-safe is the house’s own claim.",
-    "whitet": "A jersey house; the tee is the cloth in its plainest form.",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "comfort": "A jersey house; everything is cut from soft Pima jersey and made to be washed.",
-    "cotton": "Built on its own extra-long-staple Peruvian Pima jersey.",
-    "craft": "Stefan Brandt's legal notice names its production facility, Bio Urpima S.A. in Quito, Ecuador, and the cotton page says the house grows its own Pima/Sea Island cotton in Manabi, Ecuador, since 2022. But product pages state no country of make and name no mill, and the site does not show that the Quito facility makes the whole range (e.g. European-flax linen shirts)."
-  },
-  "doors": {
-    "c": "full",
-    "n": 0,
-    "cities": [],
-    "basis": "positive zero, 26 Sep 2026: no US own store"
-  },
-  "cities": "No store or site in the US · two specialists so far: Richards in Greenwich and Maxwell & Co. in Falmouth",
-  "region": {
-    "o": [],
-    "s": [44, 3200]
-  },
-  "site": {
-    "domain": "stefanbrandt.com",
-    "platform": "unknown",
-    "feed": "none",
-    "feed_count": 0,
-    "status": "unchecked",
-    "checked": "2026-09-26"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "house",
-    "marks": ["HOUSE: Urpima(R)", "Prefit"],
-    "source": "web read 26 Sep 2026",
-    "checked": "2026-09-26"
-  },
-  "craft_evidence": {
-    "owned": "yes",
-    "owned_d": "Impressum lists a 'Production Facility: Bio Urpima S.A., Chediak E5-104 y Av. Eloy Alfaro, Quito 170307, Ecuador' (Urpima is a Stefan Brandt trademark); story page: Stefan Brandt founded his own company in 2001 in Quito and claims every stage 'from seed ... to the final sartorial stitch'. Cotton-growing page: own Pima/Sea Island plantations in Manabi, Ecuador, harvesting since 19.12.2022, ginned on Platt Brothers machines. In-house 15-step 'Prefit' treatment. No photographs of the Quito facility seen; which categories it sews (e.g. the linen shirts) not stated.",
-    "makers": "some",
-    "mills": "no",
-    "madein": "none",
-    "countries": "No 'Made in' / 'hergestellt in' on 3 sampled PDPs (Edwin sweater, Lennon linen shirt, Luca polo). Brand-level: production facility in Quito, Ecuador (impressum); cotton from Peru and own plantations in Manabi, Ecuador.",
-    "heritage": "dated and placed",
-    "repair": "no",
-    "process": "some",
-    "urls": ["https://stefanbrandt.com/impressum/", "https://stefanbrandt.com/unser-baumwollanbau/"],
-    "conf": "medium",
-    "read": "2026-10-03"
-  }
+  [
+   199,
+   259,
+   "EUR"
+  ],
+  [
+   260,
+   300,
+   "EUR"
+  ],
+  null,
+  "?",
+  [
+   249,
+   349,
+   "EUR"
+  ],
+  [
+   320,
+   320,
+   "EUR"
+  ],
+  null
+ ],
+ "notes": {
+  "reach": "Two US stockists on the register — Richards, Greenwich and Maxwell & Co., Falmouth — no US store, no US e-commerce. Seated 26 Sep 2026 on Sebastian’s sighting. [authored findability score was 1; retired 28 Sep 2026]",
+  "tech": "Names its own jersey (Urpima cotton, a Prefit finishing process) and supplies it to other houses; ownership is the house’s. Scored provisionally at 3 pending the tech re-score.",
+  "fuss": "Read on Breuninger (EUR) 26 Sep 2026; the house has no US store. Jeans and shoes: does not make. Dress pants: sweat trousers only, not read. Machine-washable at 40° and dryer-safe is the house’s own claim.",
+  "whitet": "A jersey house; the tee is the cloth in its plainest form.",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "comfort": "A jersey house; everything is cut from soft Pima jersey and made to be washed.",
+  "cotton": "Built on its own extra-long-staple Peruvian Pima jersey.",
+  "craft": "Stefan Brandt's legal notice names its production facility, Bio Urpima S.A. in Quito, Ecuador, and the cotton page says the house grows its own Pima/Sea Island cotton in Manabi, Ecuador, since 2022. But product pages state no country of make and name no mill, and the site does not show that the Quito facility makes the whole range (e.g. European-flax linen shirts)."
+ },
+ "doors": {
+  "c": "full",
+  "n": 0,
+  "cities": [],
+  "basis": "positive zero, 26 Sep 2026: no US own store"
+ },
+ "cities": "No store or site in the US · two specialists so far: Richards in Greenwich and Maxwell & Co. in Falmouth",
+ "region": {
+  "o": [],
+  "s": [
+   44,
+   153
+  ]
+ },
+ "site": {
+  "domain": "stefanbrandt.com",
+  "platform": "unknown",
+  "feed": "none",
+  "feed_count": 0,
+  "status": "unchecked",
+  "checked": "2026-09-26"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "house",
+  "marks": [
+   "HOUSE: Urpima(R)",
+   "Prefit"
+  ],
+  "source": "web read 26 Sep 2026",
+  "checked": "2026-09-26"
+ },
+ "craft_evidence": {
+  "owned": "yes",
+  "owned_d": "Impressum lists a 'Production Facility: Bio Urpima S.A., Chediak E5-104 y Av. Eloy Alfaro, Quito 170307, Ecuador' (Urpima is a Stefan Brandt trademark); story page: Stefan Brandt founded his own company in 2001 in Quito and claims every stage 'from seed ... to the final sartorial stitch'. Cotton-growing page: own Pima/Sea Island plantations in Manabi, Ecuador, harvesting since 19.12.2022, ginned on Platt Brothers machines. In-house 15-step 'Prefit' treatment. No photographs of the Quito facility seen; which categories it sews (e.g. the linen shirts) not stated.",
+  "makers": "some",
+  "mills": "no",
+  "madein": "none",
+  "countries": "No 'Made in' / 'hergestellt in' on 3 sampled PDPs (Edwin sweater, Lennon linen shirt, Luca polo). Brand-level: production facility in Quito, Ecuador (impressum); cotton from Peru and own plantations in Manabi, Ecuador.",
+  "heritage": "dated and placed",
+  "repair": "no",
+  "process": "some",
+  "urls": [
+   "https://stefanbrandt.com/impressum/",
+   "https://stefanbrandt.com/unser-baumwollanbau/"
+  ],
+  "conf": "medium",
+  "read": "2026-10-03"
+ }
 }

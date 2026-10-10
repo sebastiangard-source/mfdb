@@ -1,314 +1,565 @@
 {
-  "name": "Brooks Brothers",
-  "band": "accessible",
-  "seat": 99,
-  "dagger": 0,
-  "focus": {
-    "tech": 1,
-    "comfort": 2,
-    "craft": 3,
-    "style": 2
+ "name": "Brooks Brothers",
+ "band": "accessible",
+ "seat": 99,
+ "dagger": 0,
+ "focus": {
+  "tech": 1,
+  "comfort": 2,
+  "craft": 3,
+  "style": 2
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 2,
+  "linen": 2,
+  "cotton": 3,
+  "wool": 3,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 4,
+  "forg": 5,
+  "fuss": 0,
+  "golffice": -3,
+  "golf": 2,
+  "status": 2,
+  "finbro": 4,
+  "ivy": 5,
+  "murica": 5,
+  "prep": 5,
+  "boat": 2,
+  "racquet": 4,
+  "whitet": 2,
+  "logo": 2,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1
+ },
+ "why": "America's oldest clothing company — suits, oxford shirts, casual clothing — through stores, outlets and department stores.",
+ "origin": "Founded in New York in 1818 by Henry Sands Brooks.",
+ "chan": [
+  "O",
+  "D",
+  "X"
+ ],
+ "conf": "S",
+ "forgc": [
+  4,
+  5,
+  3
+ ],
+ "forgv": "Big & Tall 1X–5X plus XLT tall sizing",
+ "shop": "https://www.brooksbrothers.com/search?q=",
+ "onething": {
+  "p": "The original polo button-down (OCBD)",
+  "u": "https://www.brooksbrothers.com/search?q=The%20original%20polo%20button-down",
+  "n": "verified ✓"
+ },
+ "prices": [
+  [
+   70,
+   80
+  ],
+  [
+   99,
+   198
+  ],
+  [
+   128,
+   248
+  ],
+  [
+   168,
+   398
+  ],
+  [
+   198,
+   348
+  ],
+  [
+   148,
+   498
+  ],
+  [
+   198,
+   1298
+  ],
+  [
+   199,
+   248
+  ]
+ ],
+ "notes": {
+  "finbro": "the ancestral uniform — every American finance dress code descends from it",
+  "ivy": "invented the button-down collar in 1896 after watching polo players' collars flap — the founding garment of the whole style",
+  "murica": "has dressed nearly every American president since Lincoln",
+  "prep": "the founding wardrobe — two centuries of the same closet",
+  "racquet": "The clubhouse rather than the court — the shirt you change into afterward. Two centuries of dressing the American establishment gives it the room without the sport.",
+  "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
+  "reach": "[authored findability score was 4; retired 28 Sep 2026]",
+  "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
+  "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
+  "forg": "Four fits across every shirt and suit, in a full run of sizes, from a company that has fitted American men for two centuries.",
+  "craft": "Brooks Brothers proposed closing its three US factories (Garland shirts, Haverhill suits, Long Island City ties) in 2020, was sold out of bankruptcy to Authentic Brands/Simon, and names no factory of its own on its site today. Its product pages mostly say 'Imported', but several name the mill (Reda, Vitale Barberis Canonico, Todd & Duncan, Tollegno). Named mills, nothing owned: a 3."
+ },
+ "doors": {
+  "c": "full",
+  "n": 53,
+  "cities": [
+   [
+    "Atlanta",
+    "GA",
+    2
+   ],
+   [
+    "Aventura",
+    "FL",
+    1
+   ],
+   [
+    "Boca Raton",
+    "FL",
+    1
+   ],
+   [
+    "Boston",
+    "MA",
+    1
+   ],
+   [
+    "Center Valley",
+    "PA",
+    1
+   ],
+   [
+    "Charleston",
+    "SC",
+    1
+   ],
+   [
+    "Charlottesville",
+    "VA",
+    1
+   ],
+   [
+    "Cherry Hill",
+    "NJ",
+    1
+   ],
+   [
+    "Chestnut Hill",
+    "MA",
+    1
+   ],
+   [
+    "Chevy Chase",
+    "MD",
+    1
+   ],
+   [
+    "Chicago",
+    "IL",
+    1
+   ],
+   [
+    "Dallas",
+    "TX",
+    1
+   ],
+   [
+    "Danbury",
+    "CT",
+    1
+   ],
+   [
+    "Estero",
+    "FL",
+    1
+   ],
+   [
+    "Farmington",
+    "CT",
+    1
+   ],
+   [
+    "Garden City",
+    "NY",
+    1
+   ],
+   [
+    "Greensboro",
+    "NC",
+    1
+   ],
+   [
+    "Hackensack",
+    "NJ",
+    1
+   ],
+   [
+    "Houston",
+    "TX",
+    1
+   ],
+   [
+    "Huntington Station",
+    "NY",
+    1
+   ],
+   [
+    "Indianapolis",
+    "IN",
+    1
+   ],
+   [
+    "King Of Prussia",
+    "PA",
+    1
+   ],
+   [
+    "Leawood",
+    "KS",
+    1
+   ],
+   [
+    "Los Angeles",
+    "CA",
+    1
+   ],
+   [
+    "Louisville",
+    "KY",
+    1
+   ],
+   [
+    "Manhasset",
+    "NY",
+    1
+   ],
+   [
+    "McLean",
+    "VA",
+    1
+   ],
+   [
+    "Miami",
+    "FL",
+    1
+   ],
+   [
+    "Natick",
+    "MA",
+    1
+   ],
+   [
+    "New Orleans",
+    "LA",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    3
+   ],
+   [
+    "Palm Beach Gardens",
+    "FL",
+    1
+   ],
+   [
+    "Palo Alto",
+    "CA",
+    1
+   ],
+   [
+    "Peabody",
+    "MA",
+    1
+   ],
+   [
+    "Pittsburgh",
+    "PA",
+    1
+   ],
+   [
+    "Plano",
+    "TX",
+    1
+   ],
+   [
+    "Providence",
+    "RI",
+    1
+   ],
+   [
+    "Raleigh",
+    "NC",
+    1
+   ],
+   [
+    "Red Bank",
+    "NJ",
+    1
+   ],
+   [
+    "Richmond",
+    "VA",
+    1
+   ],
+   [
+    "Ridgeland",
+    "MS",
+    1
+   ],
+   [
+    "Short Hills",
+    "NJ",
+    1
+   ],
+   [
+    "Skokie",
+    "IL",
+    1
+   ],
+   [
+    "Syracuse",
+    "NY",
+    1
+   ],
+   [
+    "Victor",
+    "NY",
+    1
+   ],
+   [
+    "Virginia Beach",
+    "VA",
+    1
+   ],
+   [
+    "Washington",
+    "DC",
+    1
+   ],
+   [
+    "Westport",
+    "CT",
+    1
+   ],
+   [
+    "White Plains",
+    "NY",
+    1
+   ],
+   [
+    "Woodmere",
+    "OH",
+    1
+   ]
+  ],
+  "basis": "recapture 2026-10-10",
+  "out": 88,
+  "con": 3
+ },
+ "cities": "53 stores across the US · department stores, and its own site",
+ "region": {
+  "o": [
+   763,
+   764,
+   765,
+   780,
+   781,
+   782,
+   783,
+   788,
+   789,
+   790,
+   791,
+   792,
+   793,
+   794,
+   795,
+   796,
+   797,
+   798,
+   799,
+   800,
+   802,
+   803,
+   804,
+   805
+  ],
+  "s": []
+ },
+ "addmen": true,
+ "site": {
+  "domain": "brooksbrothers.com",
+  "platform": "salesforce_commerce",
+  "feed": "sitemap_products",
+  "feed_count": 2206,
+  "status": "live_store",
+  "checked": "2026-09-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "both",
+  "marks": [
+   "HOUSE: Saxxon(tm) Wool",
+   "Non-Iron",
+   "Golden Fleece(R)",
+   "Advantage Chino(R)",
+   "Signature 6-Pleat Shirring(R)",
+   "Original Polo(R)",
+   "BrooksEase",
+   "BrooksCool. LICENSED: Supima(R)",
+   "Thomas Mason",
+   "Loro Piana(R)",
+   "Storm System",
+   "Thermore(R) EVOdown",
+   "Ecodown(R)",
+   "OrthoLite(R)",
+   "COOLMAX(R)",
+   "Vibram(R)",
+   "Lycra(R). APPELLATION"
+  ],
+  "source": "census",
+  "checked": "2026-09-12"
+ },
+ "fibre": {
+  "t": 961,
+  "w": 955,
+  "n": 93,
+  "s": 6,
+  "c": 0,
+  "x": 32,
+  "xh": 11,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "Sport Shirts",
+   "Suits",
+   "Dress Shirts"
+  ],
+  "st": "complete"
+ },
+ "garment_links": {
+  "T-shirt": "https://www.brooksbrothers.com/mens/t-shirts",
+  "Polo": "https://www.brooksbrothers.com/mens/polos-rugby?prefn1=itemType&prefv1=Polos%7CRugby%20Shirts",
+  "Dress shirt": "https://www.brooksbrothers.com/mens/dress-shirts",
+  "Jeans": "https://www.brooksbrothers.com/mens/casual-pants?prefn1=style&prefv1=Denim",
+  "Dress pants": "https://www.brooksbrothers.com/mens/dress-pants",
+  "Sweater": "https://www.brooksbrothers.com/mens/sweaters",
+  "Outerwear": "https://www.brooksbrothers.com/mens/outerwear",
+  "Shoes": "https://www.brooksbrothers.com/mens/shoes"
+ },
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Supima Cotton Jersey T-Shirt",
+   "lu": "https://www.brooksbrothers.com/supima%C2%AE-cotton-jersey-t-shirt/MP01372.html",
+   "hp": "Supima Cotton Pique T-Shirt",
+   "hu": "https://www.brooksbrothers.com/supima%C2%AE-cotton-pique-t-shirt/FP00120.html",
+   "b": "range"
   },
-  "fabric": {
-    "denim": 1,
-    "cashmere": 2,
-    "linen": 2,
-    "cotton": 3,
-    "wool": 3,
-    "synth": 1
+  "Polo": {
+   "lp": "Golden Fleece Stretch Supima Polo Shirt",
+   "lu": "https://www.brooksbrothers.com/golden-fleece%C2%AE-stretch-supima%C2%AE-polo-shirt/MP01322.html",
+   "hp": "Cable Knit Archive Tennis Polo in Supima Cotton",
+   "hu": "https://www.brooksbrothers.com/cable-knit-archive-tennis-polo-in-supima%C2%AE-cotton/MS01374.html",
+   "b": "range"
   },
-  "dials": {
-    "dur": 4,
-    "forg": 5,
-    "fuss": 0,
-    "golffice": -3,
-    "golf": 2,
-    "status": 2,
-    "finbro": 4,
-    "ivy": 5,
-    "murica": 5,
-    "prep": 5,
-    "boat": 2,
-    "racquet": 4,
-    "whitet": 2,
-    "logo": 2,
-    "western": 1,
-    "rock": 1,
-    "workwear": 1,
-    "outdoor": 1,
-    "surf": 1
+  "Dress shirt": {
+   "lp": "Stretch Supima Cotton Non-Iron Royal Oxford English Spread Collar Dress Shirt",
+   "lu": "https://www.brooksbrothers.com/stretch-supima%C2%AE-cotton-non-iron-royal-oxford-english-spread-collar-dress-shirt/ME04703.html",
+   "hp": "Linen Londoner Collar Dress Shirt",
+   "hu": "https://www.brooksbrothers.com/linen-londoner-collar-dress-shirt/ME04737.html",
+   "b": "range"
   },
-  "why": "America's oldest clothing company — suits, oxford shirts, casual clothing — through stores, outlets and department stores.",
-  "origin": "Founded in New York in 1818 by Henry Sands Brooks.",
-  "chan": ["O", "D", "X"],
-  "conf": "S",
-  "forgc": [4, 5, 3],
-  "forgv": "Big & Tall 1X–5X plus XLT tall sizing",
-  "shop": "https://www.brooksbrothers.com/search?q=",
-  "onething": {
-    "p": "The original polo button-down (OCBD)",
-    "u": "https://www.brooksbrothers.com/search?q=The%20original%20polo%20button-down",
-    "n": "verified ✓"
+  "Jeans": {
+   "lp": "Slim Fit Denim Jeans (MR00780)",
+   "lu": "https://www.brooksbrothers.com/slim-fit-denim-jeans/MR00780.html",
+   "hp": "Cherry Street Selvedge Denim Jeans",
+   "hu": "https://www.brooksbrothers.com/cherry-street-selvedge-denim-jeans/MR00721.html",
+   "b": "range"
   },
-  "prices": [[70, 80], [99, 198], [128, 248], [168, 398], [198, 348], [148, 498], [198, 1298], [199, 248]],
-  "notes": {
-    "finbro": "the ancestral uniform — every American finance dress code descends from it",
-    "ivy": "invented the button-down collar in 1896 after watching polo players' collars flap — the founding garment of the whole style",
-    "murica": "has dressed nearly every American president since Lincoln",
-    "prep": "the founding wardrobe — two centuries of the same closet",
-    "racquet": "The clubhouse rather than the court — the shirt you change into afterward. Two centuries of dressing the American establishment gives it the room without the sport.",
-    "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
-    "reach": "[authored findability score was 4; retired 28 Sep 2026]",
-    "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
-    "western": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "rock": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-    "forg": "Four fits across every shirt and suit, in a full run of sizes, from a company that has fitted American men for two centuries.",
-    "craft": "Brooks Brothers proposed closing its three US factories (Garland shirts, Haverhill suits, Long Island City ties) in 2020, was sold out of bankruptcy to Authentic Brands/Simon, and names no factory of its own on its site today. Its product pages mostly say 'Imported', but several name the mill (Reda, Vitale Barberis Canonico, Todd & Duncan, Tollegno). Named mills, nothing owned: a 3."
+  "Dress pants": {
+   "lp": "The Friday Cord Pleated Trouser",
+   "lu": "https://www.brooksbrothers.com/the-friday-cord-pleated-trouser/MJ00435.html",
+   "hp": "The Garment-Dyed Suit Pants",
+   "hu": "https://www.brooksbrothers.com/the-garment-dyed-suit-pants/MK01392.html",
+   "b": "range"
   },
-  "doors": {
-    "c": "full",
-    "n": 54,
-    "cities": [
-      ["Atlanta", "GA", 2],
-      ["Aventura", "FL", 1],
-      ["Boston", "MA", 1],
-      ["Center Valley", "PA", 1],
-      ["Charleston", "SC", 1],
-      ["Charlottesville", "VA", 1],
-      ["Cherry Hill", "NJ", 1],
-      ["Chestnut Hill", "MA", 1],
-      ["Chevy Chase", "MD", 1],
-      ["Chicago", "IL", 1],
-      ["Danbury", "CT", 1],
-      ["Estero", "FL", 1],
-      ["Farmington", "CT", 1],
-      ["Garden City", "NY", 1],
-      ["Greensboro", "NC", 1],
-      ["Hackensack", "NJ", 1],
-      ["Houston", "TX", 1],
-      ["Huntington Station", "NY", 1],
-      ["Indianapolis", "IN", 1],
-      ["King Of Prussia", "PA", 1],
-      ["Leawood", "KS", 1],
-      ["Los Angeles", "CA", 1],
-      ["Louisville", "KY", 1],
-      ["Manhasset", "NY", 1],
-      ["McLean", "VA", 1],
-      ["Miami", "FL", 1],
-      ["Natick", "MA", 1],
-      ["New Orleans", "LA", 1],
-      ["New York", "NY", 4],
-      ["Palm Beach Gardens", "FL", 1],
-      ["Palo Alto", "CA", 1],
-      ["Paramus", "NJ", 1],
-      ["Peabody", "MA", 1],
-      ["Pittsburgh", "PA", 1],
-      ["Plano", "TX", 1],
-      ["Providence", "RI", 1],
-      ["Raleigh", "NC", 1],
-      ["Red Bank", "NJ", 1],
-      ["Richmond", "VA", 1],
-      ["Ridgeland", "MS", 1],
-      ["San Francisco", "CA", 1],
-      ["Short Hills", "NJ", 1],
-      ["Skokie", "IL", 1],
-      ["Syracuse", "NY", 1],
-      ["Victor", "NY", 1],
-      ["Virginia Beach", "VA", 1],
-      ["Washington", "DC", 1],
-      ["Westport", "CT", 1],
-      ["White Plains", "NY", 1],
-      ["Woodmere", "OH", 1]
-    ],
-    "basis": "recapture 2026-09"
+  "Sweater": {
+   "lp": "Supima Cotton Pique Crewneck Sweater",
+   "lu": "https://www.brooksbrothers.com/supima%C2%AE-cotton-pique-crewneck-sweater/MS01394.html",
+   "hp": "3-Ply Cashmere Crewneck Saddle Shoulder Sweater",
+   "hu": "https://www.brooksbrothers.com/3-ply-cashmere-crewneck-saddle-shoulder-sweater/MS01261.html",
+   "b": "pair"
   },
-  "cities": "54 stores across the US · department stores, and its own site",
-  "region": {
-    "o": [
-      534,
-      535,
-      536,
-      550,
-      551,
-      552,
-      553,
-      558,
-      559,
-      560,
-      561,
-      562,
-      563,
-      564,
-      565,
-      566,
-      567,
-      568,
-      569,
-      570,
-      571,
-      572,
-      574,
-      575,
-      576,
-      577
-    ],
-    "s": []
+  "Outerwear": {
+   "lp": "Cotton Bomber Jacket",
+   "lu": "https://www.brooksbrothers.com/cotton-bomber-jacket/ML00726.html",
+   "hp": "Suede Bomber Jacket",
+   "hu": "https://www.brooksbrothers.com/suede-bomber-jacket/ML00882.html",
+   "b": "pair"
   },
-  "addmen": true,
-  "site": {
-    "domain": "brooksbrothers.com",
-    "platform": "salesforce_commerce",
-    "feed": "sitemap_products",
-    "feed_count": 2206,
-    "status": "live_store",
-    "checked": "2026-09-13"
-  },
-  "tech_evidence": {
-    "names": "yes",
-    "origin": "both",
-    "marks": [
-      "HOUSE: Saxxon(tm) Wool",
-      "Non-Iron",
-      "Golden Fleece(R)",
-      "Advantage Chino(R)",
-      "Signature 6-Pleat Shirring(R)",
-      "Original Polo(R)",
-      "BrooksEase",
-      "BrooksCool. LICENSED: Supima(R)",
-      "Thomas Mason",
-      "Loro Piana(R)",
-      "Storm System",
-      "Thermore(R) EVOdown",
-      "Ecodown(R)",
-      "OrthoLite(R)",
-      "COOLMAX(R)",
-      "Vibram(R)",
-      "Lycra(R). APPELLATION"
-    ],
-    "source": "census",
-    "checked": "2026-09-12"
-  },
-  "fibre": {
-    "t": 961,
-    "w": 955,
-    "n": 93,
-    "s": 6,
-    "c": 0,
-    "x": 32,
-    "xh": 11,
-    "sp": "one",
-    "sc": [],
-    "nc": ["Sport Shirts", "Suits", "Dress Shirts"],
-    "st": "complete"
-  },
-  "garment_links": {
-    "T-shirt": "https://www.brooksbrothers.com/mens/t-shirts",
-    "Polo": "https://www.brooksbrothers.com/mens/polos-rugby?prefn1=itemType&prefv1=Polos%7CRugby%20Shirts",
-    "Dress shirt": "https://www.brooksbrothers.com/mens/dress-shirts",
-    "Jeans": "https://www.brooksbrothers.com/mens/casual-pants?prefn1=style&prefv1=Denim",
-    "Dress pants": "https://www.brooksbrothers.com/mens/dress-pants",
-    "Sweater": "https://www.brooksbrothers.com/mens/sweaters",
-    "Outerwear": "https://www.brooksbrothers.com/mens/outerwear",
-    "Shoes": "https://www.brooksbrothers.com/mens/shoes"
-  },
-  "price_evidence": {
-    "T-shirt": {
-      "lp": "Supima Cotton Jersey T-Shirt",
-      "lu": "https://www.brooksbrothers.com/supima%C2%AE-cotton-jersey-t-shirt/MP01372.html",
-      "hp": "Supima Cotton Pique T-Shirt",
-      "hu": "https://www.brooksbrothers.com/supima%C2%AE-cotton-pique-t-shirt/FP00120.html",
-      "b": "range"
-    },
-    "Polo": {
-      "lp": "Golden Fleece Stretch Supima Polo Shirt",
-      "lu": "https://www.brooksbrothers.com/golden-fleece%C2%AE-stretch-supima%C2%AE-polo-shirt/MP01322.html",
-      "hp": "Cable Knit Archive Tennis Polo in Supima Cotton",
-      "hu": "https://www.brooksbrothers.com/cable-knit-archive-tennis-polo-in-supima%C2%AE-cotton/MS01374.html",
-      "b": "range"
-    },
-    "Dress shirt": {
-      "lp": "Stretch Supima Cotton Non-Iron Royal Oxford English Spread Collar Dress Shirt",
-      "lu": "https://www.brooksbrothers.com/stretch-supima%C2%AE-cotton-non-iron-royal-oxford-english-spread-collar-dress-shirt/ME04703.html",
-      "hp": "Linen Londoner Collar Dress Shirt",
-      "hu": "https://www.brooksbrothers.com/linen-londoner-collar-dress-shirt/ME04737.html",
-      "b": "range"
-    },
-    "Jeans": {
-      "lp": "Slim Fit Denim Jeans (MR00780)",
-      "lu": "https://www.brooksbrothers.com/slim-fit-denim-jeans/MR00780.html",
-      "hp": "Cherry Street Selvedge Denim Jeans",
-      "hu": "https://www.brooksbrothers.com/cherry-street-selvedge-denim-jeans/MR00721.html",
-      "b": "range"
-    },
-    "Dress pants": {
-      "lp": "The Friday Cord Pleated Trouser",
-      "lu": "https://www.brooksbrothers.com/the-friday-cord-pleated-trouser/MJ00435.html",
-      "hp": "The Garment-Dyed Suit Pants",
-      "hu": "https://www.brooksbrothers.com/the-garment-dyed-suit-pants/MK01392.html",
-      "b": "range"
-    },
-    "Sweater": {
-      "lp": "Supima Cotton Pique Crewneck Sweater",
-      "lu": "https://www.brooksbrothers.com/supima%C2%AE-cotton-pique-crewneck-sweater/MS01394.html",
-      "hp": "3-Ply Cashmere Crewneck Saddle Shoulder Sweater",
-      "hu": "https://www.brooksbrothers.com/3-ply-cashmere-crewneck-saddle-shoulder-sweater/MS01261.html",
-      "b": "pair"
-    },
-    "Outerwear": {
-      "lp": "Cotton Bomber Jacket",
-      "lu": "https://www.brooksbrothers.com/cotton-bomber-jacket/ML00726.html",
-      "hp": "Suede Bomber Jacket",
-      "hu": "https://www.brooksbrothers.com/suede-bomber-jacket/ML00882.html",
-      "b": "pair"
-    },
-    "Shoes": {
-      "lp": "Leather Tassel Loafers",
-      "lu": "https://www.brooksbrothers.com/leather-tassel-loafers/MH00670.html",
-      "hp": "Westport Penny Loafers",
-      "hu": "https://www.brooksbrothers.com/westport-penny-loafers/MH00618.html",
-      "b": "pair"
-    }
-  },
-  "price_range_only": ["T-shirt", "Polo", "Dress shirt", "Jeans", "Dress pants"],
-  "price_read": {
-    "date": "2026-09-23",
-    "store": "https://www.brooksbrothers.com/",
-    "currency": "USD",
-    "status": "read",
-    "sublines": "-"
-  },
-  "price_checked": true,
-  "resale": {
-    "vinted": {
-      "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=154396",
-      "m": "brand filter",
-      "n": ""
-    }
-  },
-  "season": {
-    "l": "Fall/Winter 2026",
-    "t": "lookbook",
-    "u": "https://www.brooksbrothers.com/lookbook-fall-winter-2026.html",
-    "m": "yes"
-  },
-  "craft_evidence": {
-    "owned": "no",
-    "owned_d": "No owned factory found. Wikipedia (not the brand): Brooks Brothers formerly had three US factories (Garland Shirt Company in Garland NC for oxford shirts; Southwick plant in Haverhill MA for many 1818 suits; tie factory in Long Island City NY); in June 2020 the company proposed closing its three American factories; filed Chapter 11 July 2020; bought Sept 2020 by Authentic Brands Group and Simon Property Group JV; owned by Catalyst Brands as of 2025. brooksbrothers.com names no factory; its heritage page is blocked by robots.txt. Whether the Haverhill/Southwick plant survives under other ownership was not established.",
-    "makers": "no",
-    "mills": "some",
-    "madein": "most",
-    "countries": "Sample of 7 PDPs: 'Imported' 5/7 (Supima pinpoint dress shirt, Explorer suit jacket, Cotton Advantage chino, cashmere V-neck, merino crewneck), which gives no country; Italy 1/7 (1818 windowpane suit 'Made in Italy'); USA 1/7 (Cherry Street selvedge jeans 'Made in USA'). Every PDP states an origin line but only 2/7 name a country.",
-    "heritage": "dated and placed",
-    "repair": "NC",
-    "process": "some",
-    "urls": [
-      "https://www.brooksbrothers.com/classic-fit-wool-windowpane-1818-suit/MK01416.html",
-      "https://en.wikipedia.org/wiki/Brooks_Brothers"
-    ],
-    "conf": "high",
-    "read": "2026-10-03"
+  "Shoes": {
+   "lp": "Leather Tassel Loafers",
+   "lu": "https://www.brooksbrothers.com/leather-tassel-loafers/MH00670.html",
+   "hp": "Westport Penny Loafers",
+   "hu": "https://www.brooksbrothers.com/westport-penny-loafers/MH00618.html",
+   "b": "pair"
   }
+ },
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants"
+ ],
+ "price_read": {
+  "date": "2026-09-23",
+  "store": "https://www.brooksbrothers.com/",
+  "currency": "USD",
+  "status": "read",
+  "sublines": "-"
+ },
+ "price_checked": true,
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=154396",
+   "m": "brand filter",
+   "n": ""
+  }
+ },
+ "season": {
+  "l": "Fall/Winter 2026",
+  "t": "lookbook",
+  "u": "https://www.brooksbrothers.com/lookbook-fall-winter-2026.html",
+  "m": "yes"
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "owned_d": "No owned factory found. Wikipedia (not the brand): Brooks Brothers formerly had three US factories (Garland Shirt Company in Garland NC for oxford shirts; Southwick plant in Haverhill MA for many 1818 suits; tie factory in Long Island City NY); in June 2020 the company proposed closing its three American factories; filed Chapter 11 July 2020; bought Sept 2020 by Authentic Brands Group and Simon Property Group JV; owned by Catalyst Brands as of 2025. brooksbrothers.com names no factory; its heritage page is blocked by robots.txt. Whether the Haverhill/Southwick plant survives under other ownership was not established.",
+  "makers": "no",
+  "mills": "some",
+  "madein": "most",
+  "countries": "Sample of 7 PDPs: 'Imported' 5/7 (Supima pinpoint dress shirt, Explorer suit jacket, Cotton Advantage chino, cashmere V-neck, merino crewneck), which gives no country; Italy 1/7 (1818 windowpane suit 'Made in Italy'); USA 1/7 (Cherry Street selvedge jeans 'Made in USA'). Every PDP states an origin line but only 2/7 name a country.",
+  "heritage": "dated and placed",
+  "repair": "NC",
+  "process": "some",
+  "urls": [
+   "https://www.brooksbrothers.com/classic-fit-wool-windowpane-1818-suit/MK01416.html",
+   "https://en.wikipedia.org/wiki/Brooks_Brothers"
+  ],
+  "conf": "high",
+  "read": "2026-10-03"
+ }
 }
