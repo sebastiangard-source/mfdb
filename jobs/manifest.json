@@ -1805,7 +1805,7 @@
    "id": "womens_brands_dept_stores_2026-10-10",
    "title": "Women's clothing brands carried by the big department stores",
    "kind": "capture",
-   "state": "issued",
+   "state": "merged",
    "created": "2026-10-10",
    "issued": "2026-10-10",
    "pilot": 2,
@@ -1829,8 +1829,18 @@
      "type": "str"
     }
    ],
-   "writes": {},
-   "returns": [],
+   "writes": {
+    "registers": [
+     "womens_dept_store_brands_2026-10-10.csv",
+     "womens_dept_store_brands_by_store_2026-10-10.csv",
+     "womens_universe_counted_2026-10-10.csv"
+    ]
+   },
+   "returns": [
+    "jobs/returns/womens_brands_dept_stores_2026-10-10/return_brands_by_store.csv",
+    "jobs/returns/womens_brands_dept_stores_2026-10-10/return_brands.csv",
+    "jobs/returns/womens_brands_dept_stores_2026-10-10/NOTE.md"
+   ],
    "blocked_on": "",
    "note": "Nordstrom and Saks first; builds the womens candidate universe by counting, not authoring"
   }
