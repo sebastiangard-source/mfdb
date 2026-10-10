@@ -1591,7 +1591,7 @@
    "id": "seat_wave_b_2026-10-08",
    "title": "Seating wave B — 54 brands from the gap analysis",
    "kind": "seating",
-   "state": "issued",
+   "state": "held",
    "created": "2026-10-08",
    "issued": "2026-10-08",
    "pilot": 54,
@@ -1612,9 +1612,12 @@
     }
    ],
    "writes": {},
-   "returns": [],
+   "returns": [
+    "jobs/returns/seat_wave_b_2026-10-08/own_doors.csv",
+    "jobs/returns/seat_wave_b_2026-10-08/held_door_counts.csv"
+   ],
    "blocked_on": "",
-   "note": "ruled 8 Oct: everything seats; no floor; giants, shoe houses, licenses and sub-lines in; zero US doors is positive zero"
+   "note": "ruled 8 Oct: everything seats; no floor; giants, shoe houses, licenses and sub-lines in; zero US doors is positive zero; thread stopped 10 Oct after doors for 24 brands (1,051 rows); facts_first never received; restarted as seat_wave_b_restart_2026-10-10"
   },
   {
    "id": "seat_wave_c_2026-10-08",
@@ -1716,6 +1719,35 @@
    "returns": [],
    "blocked_on": "",
    "note": "same shape as doors_recapture; Isabel Marant skipped (seated on mens); feeds the womens map and the full store list"
+  },
+  {
+   "id": "seat_wave_b_restart_2026-10-10",
+   "title": "Seating wave B, restarted — 54 brands",
+   "kind": "seating",
+   "state": "issued",
+   "created": "2026-10-10",
+   "issued": "2026-10-10",
+   "pilot": 0,
+   "nc": "NC",
+   "brands": "worklist",
+   "schema": [
+    {
+     "name": "brand",
+     "type": "key"
+    },
+    {
+     "name": "source",
+     "type": "provenance"
+    },
+    {
+     "name": "note",
+     "type": "str"
+    }
+   ],
+   "writes": {},
+   "returns": [],
+   "blocked_on": "",
+   "note": "RESUME.md says what the first thread finished; doors for 24 brands done; 30 to go, then full records"
   }
  ]
 }
