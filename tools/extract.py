@@ -61,7 +61,7 @@ if missing:
 rows = re.findall(r'\["([^"]+)",([01]),\[([\d,\s]+)\]((?:,"[^"]*")*)\]', raw['DATA'])
 band_of = {}
 bands = collections.OrderedDict()
-for key in ('premium', 'accessible', 'trueLux'):
+for key in ('basic', 'premium', 'accessible', 'trueLux'):
     seg = raw['DATA'].split(f'{key}: {{')[1].split('brands:')[0]
     name = re.search(r'name:"([^"]*)"', seg).group(1)
     rng = re.search(r'range:"([^"]*)"', seg).group(1)

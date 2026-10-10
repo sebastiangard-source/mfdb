@@ -386,6 +386,9 @@
   }
   .band{position:relative;padding:52px 34px 66px;flex:none}
   .band + .band{border-left:1px dashed rgba(43,36,30,.28)}
+  /* Basic sits below Premium on price alone (ruled 10 Oct 2026): the lightest sweep, so
+     the four bands still read as one gradient from linen to forest. */
+  .band--basic{background:linear-gradient(105deg,#FDFCF9,#F9F7F1 55%,#F2EEE2)}
   .band--premium{background:linear-gradient(105deg,#F7F4ED,#ECE5D2 55%,#DFD5B9)}
   .band--accessible{background:linear-gradient(105deg,#DFD5B9,#C4B896 50%,#9DA075)}
   /* Cream text on the old #9DA075 opening measured 2.31:1 — the most premium band
@@ -512,7 +515,7 @@
     font-size:9px;color:var(--ink-faint);
     transform:translateY(-50%);letter-spacing:.04em;line-height:1}
   .pb0{background:#5F7A63} .pb1{background:#5F7A63} .pb2{background:#5F7A63} .pb3{background:#5F7A63} .pb4{background:#5F7A63} .pb5{background:#5F7A63} .pb6{background:#5F7A63} .pb7{background:#5F7A63}
-  .pbP{background:#C9BC94} .pbA{background:#8E9A6B} .pbT{background:#2F5540}
+  .pbB{background:#E6DFCB} .pbP{background:#C9BC94} .pbA{background:#8E9A6B} .pbT{background:#2F5540}
   @media (max-width:700px){
     #pricesView{padding:20px 14px 60px}
     #pricesView .pv-row,#pricesView .pv-axis{grid-template-columns:70px 1fr;gap:42px}
@@ -1641,6 +1644,7 @@ function bandEl(key, cls){
 const strip = document.getElementById("strip");
 strip.id = "spectrum";
 strip.setAttribute("tabindex", "-1");
+strip.appendChild(bandEl("basic","band--basic"));
 strip.appendChild(bandEl("premium","band--premium"));
 strip.appendChild(bandEl("accessible","band--accessible"));
 strip.appendChild(bandEl("trueLux","band--true"));
@@ -4164,7 +4168,7 @@ const VERSION = CHANGELOG[0].v;
   const SHORT = ["Tee","Polo","Shirt","Jeans","Pants","Knit","Outer","Shoes"];
   const TICKS = [25,50,100,200,400,800,1600,3200,6400,12800];
   const pos = v => Math.min(100, Math.max(0, (Math.log(v)-Math.log(20))/(Math.log(20000)-Math.log(20))*100));
-  const BANDCLASS = {"Premium":"pbP","Accessible Luxury":"pbA","True Luxury":"pbT"};
+  const BANDCLASS = {"Basic":"pbB","Premium":"pbP","Accessible Luxury":"pbA","True Luxury":"pbT"};
   let garment = 0, sortMode = "price", built = false;
 
   function bandOf(name){
@@ -4172,7 +4176,8 @@ const VERSION = CHANGELOG[0].v;
     const b = el && el.closest(".band");
     if(!b) return "Premium";
     return b.classList.contains("band--true") ? "True Luxury"
-         : b.classList.contains("band--accessible") ? "Accessible Luxury" : "Premium";
+         : b.classList.contains("band--accessible") ? "Accessible Luxury"
+         : b.classList.contains("band--basic") ? "Basic" : "Premium";
   }
   const DATA = Object.keys(PRICES).filter(k=>PRICES[k].some(Array.isArray))
     .map(k=>({b:k, g:PRICES[k], band:bandOf(k)}));
@@ -4189,7 +4194,7 @@ const VERSION = CHANGELOG[0].v;
     if(garment>=0) rows = rows.filter(d=>Array.isArray(d.g[garment]));
     if(sortMode==="price") rows.sort((a,b)=>(keyval(a)||0)-(keyval(b)||0));
     else if(sortMode==="name") rows.sort((a,b)=>a.b.localeCompare(b.b,'en',{sensitivity:'base'}));
-    else { const o={"Premium":0,"Accessible Luxury":1,"True Luxury":2};
+    else { const o={"Basic":0,"Premium":1,"Accessible Luxury":2,"True Luxury":3};
            rows.sort((a,b)=>(o[a.band]-o[b.band])||((keyval(a)||0)-(keyval(b)||0))); }
 
     const gl = TICKS.map(t=>`<span class="pv-gl" style="left:${pos(t)}%"></span>`).join("");
@@ -4223,7 +4228,7 @@ const VERSION = CHANGELOG[0].v;
       rows.length + " brands \u00b7 " + (garment<0 ? "all five" : G[garment].toLowerCase());
     document.getElementById("pvLg").innerHTML = garment<0
       ? G.map((g,i)=>`<span><i class="pb${i}"></i>${g}</span>`).join("")
-      : `<span><i class="pbP"></i>Premium</span><span><i class="pbA"></i>Accessible Luxury</span>`
+      : `<span><i class="pbB"></i>Basic</span><span><i class="pbP"></i>Premium</span><span><i class="pbA"></i>Accessible Luxury</span>`
         + `<span><i class="pbT"></i>True Luxury</span>`;
   }
 

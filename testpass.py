@@ -97,6 +97,11 @@ with sync_playwright() as p:
     pg.goto(url); pg.reload(); pg.wait_for_timeout(400)
 
     head('map chrome')
+    # Basic (10 Oct 2026): price-only band below Premium; nine seats until waves B and C land.
+    _bb = pg.eval_on_selector_all('.band--basic .brand','e=>e.map(x=>x.textContent.trim())')
+    ck('Basic is the first band and holds the nine the rule moved',
+       pg.eval_on_selector('.band:first-child .band-name','e=>e.textContent')=='Basic' and
+       sorted(_bb)==sorted(['Uniqlo','Abercrombie & Fitch','Carhartt',"Levi's",'adidas','L.L.Bean','New Balance','Nike','Calvin Klein']), _bb)
     ck('bands show no price-and-posture line',
        pg.eval_on_selector_all('.band-range','e=>e.length')==0)
     ck('the tee bookends are gone',
