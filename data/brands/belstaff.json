@@ -1,0 +1,288 @@
+{
+ "name": "Belstaff",
+ "band": "accessible",
+ "seat": 247,
+ "dagger": 0,
+ "focus": {
+  "tech": 3,
+  "comfort": 2,
+  "craft": 3,
+  "style": 3
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 4,
+  "wool": 3,
+  "synth": 2
+ },
+ "dials": {
+  "dur": 4,
+  "forg": 3,
+  "fuss": 3,
+  "golffice": -1,
+  "whitet": 2,
+  "logo": 2,
+  "western": 1,
+  "rock": 4,
+  "workwear": 2,
+  "outdoor": 2,
+  "surf": 1,
+  "briish": 5,
+  "status": 2
+ },
+ "why": "The waxed-cotton motorcycle jacket from Staffordshire, 1924: the Trialmaster and the Roadmaster, re-waxed yearly; one New York store, owned by Castore since 2025.",
+ "origin": "Founded in 1924 in Stoke-on-Trent (Longton), Staffordshire, England by Eli Belovitch and Harry Grosberg.",
+ "chan": [
+  "O",
+  "D",
+  "I",
+  "W"
+ ],
+ "conf": "S",
+ "forgc": [
+  3,
+  3,
+  1
+ ],
+ "onething": {
+  "p": "Trialmaster jacket (waxed cotton; launched 1959 per the about page)",
+  "u": "https://belstaff.com/en-us/products/trialmaster-jacket-oxblood",
+  "n": "from the seat_wave_b_2026-10-08 return; \"Trialmaster jacket (waxed cotton; launched 1959 per the about page)\""
+ },
+ "prices": [
+  [
+   90,
+   150
+  ],
+  [
+   135,
+   295
+  ],
+  [
+   175,
+   325
+  ],
+  [
+   175,
+   425
+  ],
+  [
+   285,
+   285
+  ],
+  [
+   250,
+   395
+  ],
+  [
+   295,
+   2950
+  ],
+  [
+   225,
+   585
+  ]
+ ],
+ "price_checked": true,
+ "price_range_only": [
+  "T-shirt",
+  "Dress shirt",
+  "Jeans",
+  "Outerwear",
+  "Shoes"
+ ],
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Belstaff T-Shirt (Oxblood)",
+   "lu": "https://belstaff.com/en-us/products/belstaff-t-shirt-oxblood",
+   "hp": "Curator Pique T-Shirt (Army Olive), Supima cotton",
+   "hu": "https://belstaff.com/en-us/products/curator-pique-t-shirt-army-olive",
+   "b": "range"
+  },
+  "Polo": {
+   "lp": "Belstaff Polo (Dusk Pink)",
+   "lu": "https://belstaff.com/en-us/products/belstaff-polo-dusk-pink-1",
+   "hp": "Coast Knitted Polo (Dark Ink), 58% silk 42% cotton",
+   "hu": "https://belstaff.com/en-us/products/coast-knitted-polo-dark-ink-1",
+   "b": "pair"
+  },
+  "Dress shirt": {
+   "lp": "Street Shirt (White), button-down, 100% organic cotton",
+   "lu": "https://belstaff.com/en-us/products/street-shirt-white",
+   "hp": "Ravine Cotton Corduroy shirt (Petrol)",
+   "hu": "https://belstaff.com/en-us/products/ravine-cotton-corduroy-petrol",
+   "b": "range"
+  },
+  "Jeans": {
+   "lp": "B81 Jean (Washed Indigo)",
+   "lu": "https://belstaff.com/en-us/products/b81-jean-washed-indigo",
+   "hp": "Poplar Motorcycle Jeans (Washed Indigo), Cordura stretch denim",
+   "hu": "https://belstaff.com/en-us/products/poplar-motorcycle-jeans-washed-indigo",
+   "b": "range"
+  },
+  "Dress pants": {
+   "lp": "Route Cargo (Black)",
+   "lu": "https://belstaff.com/en-us/products/route-cargo-black",
+   "hp": "Route Cargo (Black)",
+   "hu": "https://belstaff.com/en-us/products/route-cargo-black",
+   "b": "single"
+  },
+  "Sweater": {
+   "lp": "Colden Merino Crew Neck (Dark Ink)",
+   "lu": "https://belstaff.com/en-us/products/colden-merino-crew-neck-dark-ink",
+   "hp": "Coast Knitted Jumper (Dark Ink), 58% silk 42% cotton",
+   "hu": "https://belstaff.com/en-us/products/coast-knitted-jumper-dark-ink",
+   "b": "pair"
+  },
+  "Outerwear": {
+   "lp": "Piston Trucker Jacket (Washed Black), denim",
+   "lu": "https://belstaff.com/en-us/products/piston-trucker-jacket-washed-black",
+   "hp": "Snowfield Coat (Dark Brown / Sand), dyed lambskin shearling",
+   "hu": "https://belstaff.com/en-us/products/snowfield-coat-dark-brown-sand",
+   "b": "range"
+  },
+  "Shoes": {
+   "lp": "Walton Trainer (White)",
+   "lu": "https://belstaff.com/en-us/products/walton-trainer-white",
+   "hp": "Copeland Boot (Black), Goodyear welted",
+   "hu": "https://belstaff.com/en-us/products/copeland-boot-black",
+   "b": "range"
+  }
+ },
+ "garment_links": {
+  "T-shirt": "https://belstaff.com/en-us/collections/mens-t-shirts",
+  "Polo": "https://belstaff.com/en-us/collections/mens-polo-shirts",
+  "Dress shirt": "https://belstaff.com/en-us/collections/men-shirts",
+  "Jeans": "https://belstaff.com/en-us/collections/men-jeans-and-trousers",
+  "Dress pants": "https://belstaff.com/en-us/collections/men-jeans-and-trousers",
+  "Sweater": "https://belstaff.com/en-us/collections/men-knitwear",
+  "Outerwear": "https://belstaff.com/en-us/collections/men-outerwear",
+  "Shoes": "https://belstaff.com/en-us/collections/men-footwear"
+ },
+ "price_read": {
+  "date": "2026-10-10",
+  "store": "https://belstaff.com/en-us/",
+  "currency": "USD",
+  "status": "partial",
+  "sublines": "-"
+ },
+ "notes": {
+  "tech": "Thread proposed 3 (2026-10-10): British Millerain waxed cotton (8oz technical and Ultracore); Cordura stretch denim; Armaflex 4-way stretch nylon; D3O armour (L1, Diablo); CE-certified motorcycle garments — licensed / third-party (Millerain, Cordura, D3O named as suppliers; no Belstaff-owned fabric technology); share of range 17/177 styles are CE/armour-ready motorcycle garments (~10%); waxed-cotton line . Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 3 (2026-10-10): Belstaff owns no making today (its own about page records the Longton and Silverdale factories closing in the 1990s) and names no makers. It names mills on part of the range: British Millerain on the waxed motorcycle jackets, Duca Visconti di Modrone on the Trentham trouser. About 16% of styles state a country. The dated heritage and named mills hold it at 3 rather than 2, at the low end. Seated as proposed, pending ruling.",
+  "comfort": "seeded 2026-10-10 from the seat_wave_b_2026-10-08 return; provisional",
+  "style": "seeded 2026-10-10 from the seat_wave_b_2026-10-08 return; provisional",
+  "dur": "seeded 2026-10-10 from the seat_wave_b_2026-10-08 return; provisional",
+  "forg": "seeded 2026-10-10 from the seat_wave_b_2026-10-08 return; provisional",
+  "fuss": "seeded 2026-10-10 from the seat_wave_b_2026-10-08 return; provisional",
+  "golffice": "seeded 2026-10-10 from the seat_wave_b_2026-10-08 return; provisional",
+  "whitet": "seeded 2026-10-10 from the seat_wave_b_2026-10-08 return; provisional",
+  "logo": "seeded 2026-10-10 from the seat_wave_b_2026-10-08 return; provisional",
+  "western": "seeded 2026-10-10 from the seat_wave_b_2026-10-08 return; provisional",
+  "rock": "seeded 2026-10-10 from the seat_wave_b_2026-10-08 return; provisional",
+  "workwear": "seeded 2026-10-10 from the seat_wave_b_2026-10-08 return; provisional",
+  "outdoor": "seeded 2026-10-10 from the seat_wave_b_2026-10-08 return; provisional",
+  "surf": "seeded 2026-10-10 from the seat_wave_b_2026-10-08 return; provisional",
+  "denim": "seeded 2026-10-10 from the seat_wave_b_2026-10-08 return; provisional",
+  "cashmere": "seeded 2026-10-10 from the seat_wave_b_2026-10-08 return; provisional",
+  "linen": "seeded 2026-10-10 from the seat_wave_b_2026-10-08 return; provisional",
+  "cotton": "seeded 2026-10-10 from the seat_wave_b_2026-10-08 return; provisional",
+  "wool": "seeded 2026-10-10 from the seat_wave_b_2026-10-08 return; provisional",
+  "synth": "seeded 2026-10-10 from the seat_wave_b_2026-10-08 return; provisional",
+  "briish": "seeded 2026-10-10 from the seat_wave_b_2026-10-08 return; provisional",
+  "status": "seeded 2026-10-10 from the seat_wave_b_2026-10-08 return; provisional"
+ },
+ "doors": {
+  "c": "full",
+  "n": 1,
+  "cities": [
+   [
+    "New York",
+    "NY",
+    1
+   ]
+  ],
+  "basis": "seat_wave_b_2026-10-08 2026-10-10",
+  "out": 0,
+  "con": 0
+ },
+ "cities": "One store, in New York · department stores, independent shops, and its own site",
+ "site": {
+  "domain": "belstaff.com",
+  "platform": "other",
+  "feed": "none",
+  "feed_count": 0,
+  "status": "live_store",
+  "checked": "2026-10-10"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "both",
+  "marks": [
+   "British Millerain waxed cotton (8oz technical and Ultracore)",
+   "Cordura stretch denim",
+   "Armaflex 4-way stretch nylon",
+   "D3O armour (L1, Diablo)",
+   "CE-certified motorcycle garments"
+  ],
+  "source": "seat_wave_b_2026-10-08",
+  "checked": "2026-10-10"
+ },
+ "craft_evidence": {
+  "owned": "no (about page: Longton and Silverdale factories closed in the 1990s; no current owned facility stated)",
+  "makers": "no",
+  "mills": "yes, partial: British Millerain on the waxed motorcycle jackets; Duca Visconti di Modrone on Trentham Trouser; Supima cotton named (fibre brand, not a mill)",
+  "madein": "~16% (29 of 177 styles state a country in DETAILS: Italy, Portugal, Turkey, Vietnam, Moldova)",
+  "heritage": "dated and placed: 1924 Belstaff Manufacturing Ltd, Stoke-on-Trent; 1928 factory on Caroline Street, Longton; founders named",
+  "process": "partial: hand-waxed leather with patina, 6oz waxed cotton with micro and technical waxes, resin-dyed merino; no making process beyond finishes",
+  "urls": [
+   "https://belstaff.com/en-us/pages/about-us",
+   "https://belstaff.com/en-us/products/trentham-trouser-dusty-taupe"
+  ],
+  "proposed": 3,
+  "reasoning": "Belstaff owns no making today (its own about page records the Longton and Silverdale factories closing in the 1990s) and names no makers. It names mills on part of the range: British Millerain on the waxed motorcycle jackets, Duca Visconti di Modrone on the Trentham trouser. About 16% of styles state a country. The dated heritage and named mills hold it at 3 rather than 2, at the low end.",
+  "source": "seat_wave_b_2026-10-08"
+ },
+ "ownership": {
+  "owner": "Castore (acquired 100% of Belstaff from INEOS, deal announced and stated complete 28 Aug 2025; INEOS took a strategic stake in Castore)",
+  "u": "https://www.ineos.com/news/ineos-group/castore-completes-acquisition-of-belstaff/"
+ },
+ "opview": "“One thing is at the heart of all these endeavours: an independent spirit.” — Belstaff (house voice), Belstaff, About Us (Who We Are)",
+ "resale": {
+  "grailed": {
+   "u": "https://www.grailed.com/designers/belstaff"
+  }
+ },
+ "season": {
+  "l": "Autumn/Winter 2026: Made to Layer",
+  "t": "lookbook",
+  "u": "https://belstaff.com/en-us/pages/men",
+  "m": "yes"
+ },
+ "say": "BEL-staff",
+ "fibre": {
+  "t": 177,
+  "w": 171,
+  "n": 84,
+  "s": 13,
+  "c": 0,
+  "x": 10,
+  "xh": 3,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "Outerwear",
+   "Knitwear",
+   "Polos & T-Shirts"
+  ],
+  "st": "complete"
+ },
+ "band_note": "accessible by the price rule (dress shirt $175, sweater $250)",
+ "region": {
+  "o": [
+   4604
+  ],
+  "s": []
+ }
+}

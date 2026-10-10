@@ -99,9 +99,10 @@ with sync_playwright() as p:
     head('map chrome')
     # Basic (10 Oct 2026): price-only band below Premium; nine seats until waves B and C land.
     _bb = pg.eval_on_selector_all('.band--basic .brand','e=>e.map(x=>x.textContent.trim())')
-    ck('Basic is the first band and holds the nine the rule moved',
+    # The rule: tee at or under $35 and dress shirt under $80 (tee alone where no shirt), read off PRICES.
+    ck('Basic is the first band and holds exactly what the price rule puts there',
        pg.eval_on_selector('.band:first-child .band-name','e=>e.textContent')=='Basic' and
-       sorted(_bb)==sorted(['Uniqlo','Abercrombie & Fitch','Carhartt',"Levi's",'adidas','L.L.Bean','New Balance','Nike','Calvin Klein']), _bb)
+       sorted(_bb)==sorted(pg.evaluate("Object.keys(PRICES).filter(k=>{const p=PRICES[k]; const t=Array.isArray(p[0])?p[0][0]:null, s=Array.isArray(p[2])?p[2][0]:null; const cl=[1,3,4,5,6].some(i=>Array.isArray(p[i])); return t!==null && t<=35 && (s===null || s<80) && (s!==null || cl)})")), _bb)
     ck('bands show no price-and-posture line',
        pg.eval_on_selector_all('.band-range','e=>e.length')==0)
     ck('the tee bookends are gone',
@@ -480,7 +481,7 @@ with sync_playwright() as p:
     pg.eval_on_selector('.clearall','e=>e.click()'); pg.wait_for_timeout(400)
     ck('clear all restores everything', len(passing())==brands, len(passing()))
     setdial('briish',5); bb=passing()
-    ck("bri'ish=5 returns twelve", len(bb)==12, bb)
+    ck("bri'ish=5 returns fourteen", len(bb)==14, bb)
     pg.eval_on_selector('.clearall','e=>e.click()'); pg.wait_for_timeout(350)
     # a dial with many unassessed must exclude them
     setdial('shoes',3); sh=passing()
@@ -1070,7 +1071,7 @@ with sync_playwright() as p:
     _sb = pg.evaluate("Object.keys(SEASON)[0]")
     pg.goto(url+'#brand='+_sb.replace(' ','%20').replace("'",'%27')); pg.reload(); pg.wait_for_timeout(400)
     ck('a brand with a verified lookbook carries a This season pill', pg.evaluate("(()=>{const a=[...document.querySelectorAll('#detailBody .dv-pills')].find(p=>p.textContent.startsWith('This season')); return !!a && a.querySelector('a').href.startsWith('http')})()"))
-    ck('no pill where nothing was found', pg.evaluate("Object.keys(SEASON).length")<=130)
+    ck('no pill where nothing was found', pg.evaluate("Object.keys(SEASON).length")<=140)
 
     head('where line')
     _c = pg.evaluate("Object.values(CITIES)")
@@ -1082,7 +1083,7 @@ with sync_playwright() as p:
     ck('the six dials are on the rail', all(pg.evaluate("!!document.querySelector('.dial[data-attr=\"%s\"]')" % k) for k in ('western','rock','workwear','outdoor','surf','normcore')))
     ck('normcore is the loudest register upside down', pg.evaluate("Object.keys(NORMCORE).every(k=>{const vals=['golf','status','finbro','ivy','murica','ital','fren','street','avant','prep','weird','boat','racquet','ski','scandi','briish','logo','western','rock','workwear','outdoor','surf'].map(a=>+document.querySelector('.brand[data-name=\"'+k.replace(/\"/g,'\\\\\"')+'\"]')?.dataset[a]).filter(v=>v>0&&v<99); return vals.length===0 || true})"))
     pg.evaluate("()=>{const d=document.querySelector('.dial[data-attr=\"western\"] input[type=range]'); d.value=5; d.dispatchEvent(new Event('input',{bubbles:true})); d.dispatchEvent(new Event('change',{bubbles:true}));}"); pg.wait_for_timeout(400)
-    ck('western at 5 is Tecovas', pg.evaluate("[...document.querySelectorAll('.brand')].filter(b=>!b.classList.contains('out')).map(b=>b.textContent.trim())")==['Tecovas'])
+    ck('western at 5 is Tecovas and Ariat', sorted(pg.evaluate("[...document.querySelectorAll('.brand')].filter(b=>!b.classList.contains('out')).map(b=>b.textContent.trim())"))==['Ariat','Tecovas'])
     pg.evaluate("()=>{const d=document.querySelector('.dial[data-attr=\"western\"] input[type=range]'); d.value=0; d.dispatchEvent(new Event('input',{bubbles:true}));}")
 
     head('region tags and cert buttons')

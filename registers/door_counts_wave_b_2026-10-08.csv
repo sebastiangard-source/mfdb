@@ -1,25 +1,31 @@
-brand,us_own_doors,us_outlets,us_concessions,us_popups,world_non_us,locator_url,read_how,status,prior_facts_first,note
-Asics,2,47,0,0,NC (locator US+CA only; CA 7),https://www.asics.com/us/en-us/stores/,"API (Locally widget, company_id 1682)",complete,NC,"own-doors: ASICS Meatpacking NYC; The ASICS Run Shop Boston; ~9,900 stockists skipped"
-Balmain,13,4,1,0,68,https://us.balmain.com/en-us/pages/store-locator,API (locator metaobjects),complete,NC,Bloomingdale's 59th St = concession; Beverly Hills Private Salon counted own-door (appointment salon; flag)
-Church's,0,0,0,0,23,https://www.church-footwear.com/us/en/store-locator.html,country dropdown,complete,NC,"US absent from locator country list (UK, CH, ES, JP, FR, IT, BE); re-confirmed 8 Oct. Worklist 'NYC store' not supported"
-Clarks,37,135,0,0,"406 (raw, uncleaned)",https://www.clarks.com/en-us/store-locator,API (Algolia prod_store index),complete,NC,"formats from locator RETAIL/OUTLET type; 9 Puerto Rico stores coded US included; 4 internal records, 2 PR warehouse entries, 4 Cloudsteppers-banner stores excluded"
-Columbia,21,142,0,0,NC (locator US only),https://stores.columbia.com/,directory + JSON-LD,complete,NC,own-doors incl. 1 opening; outlets = 141 Factory (1 opening) + 1 Clearance; 5 employee stores and 3 closed excluded
-Converse,2,58,0,1,NC (locator US only),https://www.converse.com/stores-all,directory (61 store pages),complete,3 (inferred),own-doors: Boston Lovejoy Wharf flagship; Americana Glendale (no description; classed own-door). Pop-up: Chicago Michigan Ave. 12 outlets inferred from venue
-Fred Perry,0,0,0,0,NC (32 countries in dropdown),https://www.fredperry.com/us/shop-finder,country select,complete,NC,"only US listing, 483 Broome St NYC, marked permanently closed; no US outlets"
-G/FORE,5,0,0,0,1 (Seoul),https://www.gfore.com/f/stores.html,Storemapper + store pages,complete,NC,"Palm Beach, Scottsdale, New York, Beverly Hills; Pebble Beach on stores page but not tagged G/FORE in locator, operator not stated (flag)"
-Greyson,10,0,0,0,1 (Seoul),https://www.greysonclothiers.com/pages/retail-locations,directory (10 store pages),complete,10 (held),operator not stated on any page
-Helmut Lang,NC,NC,NC,NC,NC,https://www.helmutlang.com/,-,NC,"1 (Wikipedia, held)","no locator on brand site: /store-locator/ HTTP 410, /stores/ redirects home, /storelocator/ redirects to /search/; footer/help have no store link"
-Hoka,14,2,0,0,16,https://stores.hoka.com/store-locator,API (Locally conversion_data),complete,"8 (press, held)",www.hoka.com/en/us/ blocked ('Access is temporarily restricted'); read stores.hoka.com instead. Orlando (8225 Vineland) and Las Vegas (855 S Grand Central) labelled HOKA Store but addresses look like outlet centres (flag)
-John Lobb,2,0,0,0,NC,https://www.johnlobb.com/en_us/storelocator,directory,complete,"3 (press, held)","700 Madison Ave NYC; 9530 Brighton Way Beverly Hills. 14 US Saks/Neiman/etc entries are stockists, not counted. No Miami boutique listed"
-Kenzo,0,3,0,0,117,https://www.kenzo.com/on/demandware.store/Sites-KENZO_US2-Site/en_US/Stores-AllStores,directory (All Stores),complete,NC,"all 3 US are outlets: Cabazon, Las Vegas North, Woodbury. No full-price US store"
-Lanvin,3,0,0,0,11,https://www.lanvin.com/en-us/stores,"API (stores-api, guest token, world grid)",complete,"7 (press, held)","Madison Ave, Las Vegas Crystals, South Coast Plaza; press figure of 7 is stale"
-Lucchese,28,4,0,0,0,https://www.lucchese.com/pages/store-locator,directory (All our stores),complete,"31 (press, held)",outlets: 2 El Paso + Las Vegas labelled; Mercedes TX inferred from venue
-Maison Kitsuné,0,0,0,0,"63 boutiques (+30 cafés, 3 archives)",https://maisonkitsune.com/us/storelocator/,directory (embedded JSON),complete,NC,no US boutique or café; two Vancouver entries miscoded US by the locator
-Marni,9,2,0,0,82,https://www.marni.com/en-us/stores,API (StoreFinder world bounds),complete,NC,Cabazon classed outlet by name though isOutlet=false
-Moose Knuckles,4,3,0,0,16,https://www.mooseknucklescanada.com/en-us/pages/store-locator,API (Stockist widget feed),complete,NC,"4 outlet rows, 3 unique (Las Vegas listed twice); ~129 US stockists skipped"
-Palace,2,0,1,0,13,https://usa.palaceskateboards.com/shops,directory,complete,"2 (Wikipedia, held)",now from brand's own shops page
-Sperry,1,3,0,0,0,https://www.sperry.com/pages/store-locator,embedded JSON,complete,NC,own-door Disney Springs; 3 Tanger outlets inferred from venue; operator The Aldo Group (site footer)
-Thursday Boot,5,0,0,0,0,https://thursdayboots.com/pages/locations,static page,complete,"5 (press, held)",no zips on page; no Denver store listed
-Timberland,21,54,0,0,NC (locator US only),https://locations.timberland.com/,directory,complete,NC,46 labelled outlets + 8 inferred from venue/id range; if those 8 are own-doors: 29/46
-True Classic,13,0,0,0,0,https://www.trueclassictees.com/pages/stores,directory,complete,13 (held),confirmed from own store list; Target/Costco widget skipped
-Vans,299,99,0,0,~571 (partial sweep),https://locations.vans.com/,API (SOCi locatorsearch),complete (US),NC,outlets from locator store-type flag 'out'; Disney Springs flagged outlet as given; 4 Puerto Rico stores coded US included
+brand,seat,band,us_own_doors,kind,us_outlets,us_concessions,basis
+Aether Apparel,243,accessible,5,full,0,0,seat_wave_b_2026-10-08 2026-10-10
+Ariat,244,basic,18,full,13,0,seat_wave_b_2026-10-08 2026-10-10
+Asics,245,basic,2,full,47,0,seat_wave_b_2026-10-08 2026-10-10
+Balmain,246,trueLux,13,full,4,1,seat_wave_b_2026-10-08 2026-10-10
+Belstaff,247,accessible,1,full,0,0,seat_wave_b_2026-10-08 2026-10-10
+Bogner,248,accessible,1,full,0,0,seat_wave_b_2026-10-08 2026-10-10
+Carhartt WIP,249,premium,3,full,0,0,seat_wave_b_2026-10-08 2026-10-10
+Chubbies,250,basic,9,full,1,0,seat_wave_b_2026-10-08 2026-10-10
+Church's,251,trueLux,0,full,0,0,positive zero 2026-10-10 (seat_wave_b_2026-10-08)
+Clarks,,,37,"held (doors read, record to come)",135,0,"formats from locator RETAIL/OUTLET type; 7 Puerto Rico stores coded US included (locator holds 9 PR records; the other 2, A296 and A297, are mallName 'Puerto Ri"
+Columbia,,,21,"held (doors read, record to come)",142,0,own-doors incl. 1 opening; outlets = 141 Factory (1 opening) + 1 Clearance; 5 employee stores and 3 closed excluded
+Converse,,,2,"held (doors read, record to come)",58,0,own-doors: Boston Lovejoy Wharf flagship; Americana Glendale (no description; classed own-door). Pop-up: Chicago Michigan Ave. 12 outlets inferred from venue
+Fred Perry,,,0,"held (doors read, record to come)",0,0,"only US listing, 483 Broome St NYC, marked permanently closed; no US outlets; worklist_conflict: worklist says 'own US stores in NYC, LA', brand's own locator s"
+G/FORE,,,4,"held (doors read, record to come)",0,0,"Palm Beach, Scottsdale, New York, Beverly Hills. Pebble Beach (on stores page, not tagged G/FORE in locator, operator not stated) held until operator known, not"
+Greyson,,,10,"held (doors read, record to come)",0,0,operator not stated on any page
+Helmut Lang,,,NC,"held (doors read, record to come)",NC,NC,"no locator on brand site: /store-locator/ HTTP 410, /stores/ redirects home, /storelocator/ redirects to /search/; footer/help have no store link"
+Hoka,,,14,"held (doors read, record to come)",2,0,www.hoka.com/en/us/ blocked ('Access is temporarily restricted'); read stores.hoka.com instead. Orlando (8225 Vineland) and Las Vegas (855 S Grand Central) labe
+John Lobb,,,2,"held (doors read, record to come)",0,0,"700 Madison Ave NYC; 9530 Brighton Way Beverly Hills. 14 US Saks/Neiman/etc entries are stockists, not counted. No Miami boutique listed"
+Kenzo,,,0,"held (doors read, record to come)",3,0,"all 3 US are outlets: Cabazon, Las Vegas North, Woodbury. No full-price US store; worklist_conflict: worklist says 'US stores', brand's own locator shows 0 US o"
+Lanvin,,,3,"held (doors read, record to come)",0,0,"Madison Ave, Las Vegas Crystals, South Coast Plaza; press figure of 7 is stale"
+Lucchese,,,28,"held (doors read, record to come)",4,0,outlets: 2 El Paso + Las Vegas labelled; Mercedes TX inferred from venue
+Maison Kitsuné,,,0,"held (doors read, record to come)",0,0,"no US boutique or café; two Vancouver entries miscoded US by the locator; worklist_conflict: worklist says 'NYC stores, café', brand's own locator shows 0 US ow"
+Marni,,,9,"held (doors read, record to come)",2,0,Cabazon classed outlet by name though isOutlet=false
+Moose Knuckles,,,4,"held (doors read, record to come)",3,0,"4 outlet rows, 3 unique (Las Vegas listed twice); ~129 US stockists skipped"
+Palace,,,2,"held (doors read, record to come)",0,1,now from brand's own shops page
+Sperry,,,1,"held (doors read, record to come)",3,0,own-door Disney Springs; 3 Tanger outlets inferred from venue; operator The Aldo Group (site footer)
+Thursday Boot,,,5,"held (doors read, record to come)",0,0,no zips on page; no Denver store listed
+Timberland,,,21,"held (doors read, record to come)",54,0,46 labelled outlets + 8 inferred from venue/id range; if those 8 are own-doors: 29/46
+True Classic,,,13,"held (doors read, record to come)",0,0,confirmed from own store list; Target/Costco widget skipped
+Vans,,,299,"held (doors read, record to come)",99,0,outlets from locator store-type flag 'out'; Disney Springs flagged outlet as given; 4 Puerto Rico stores coded US included

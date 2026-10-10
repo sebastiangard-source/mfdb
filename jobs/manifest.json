@@ -1607,7 +1607,7 @@
    "id": "seat_wave_b_2026-10-08",
    "title": "Seating wave B — 54 brands from the gap analysis",
    "kind": "seating",
-   "state": "held",
+   "state": "merging (batch 1 of 6 seated)",
    "created": "2026-10-08",
    "issued": "2026-10-08",
    "pilot": 54,
@@ -1627,10 +1627,23 @@
      "type": "str"
     }
    ],
-   "writes": {},
+   "writes": {
+    "data/brands": 9,
+    "data/places.json": "own doors (batch 1)",
+    "registers": [
+     "own_doors_wave_b_2026-10-08.csv",
+     "door_counts_wave_b_2026-10-08.csv",
+     "stockists_wave_b_2026-10-08.csv"
+    ]
+   },
    "returns": [
+    "jobs/returns/seat_wave_b_2026-10-08/return.csv",
+    "jobs/returns/seat_wave_b_2026-10-08/return_styles.csv",
     "jobs/returns/seat_wave_b_2026-10-08/own_doors.csv",
-    "jobs/returns/seat_wave_b_2026-10-08/held_door_counts.csv"
+    "jobs/returns/seat_wave_b_2026-10-08/stockists.csv",
+    "jobs/returns/seat_wave_b_2026-10-08/return_counts.csv",
+    "jobs/returns/seat_wave_b_2026-10-08/held_door_counts.csv",
+    "jobs/returns/seat_wave_b_2026-10-08/NOTE_batch1.md"
    ],
    "blocked_on": "",
    "note": "ruled 8 Oct: everything seats; no floor; giants, shoe houses, licenses and sub-lines in; zero US doors is positive zero; thread stopped 10 Oct after doors for 24 brands (1,051 rows); facts_first never received; restarted as seat_wave_b_restart_2026-10-10"
@@ -1747,7 +1760,7 @@
    "id": "seat_wave_b_restart_2026-10-10",
    "title": "Seating wave B, restarted — 54 brands",
    "kind": "seating",
-   "state": "issued",
+   "state": "running",
    "created": "2026-10-10",
    "issued": "2026-10-10",
    "pilot": 0,
@@ -1770,7 +1783,7 @@
    "writes": {},
    "returns": [],
    "blocked_on": "",
-   "note": "RESUME.md says what the first thread finished; doors for 24 brands done; 30 to go, then full records"
+   "note": "RESUME.md says what the first thread finished; doors for 24 brands done; 30 to go, then full records; batch 1 (9 brands, Aether–Church's) returned and seated 10 Oct"
   },
   {
    "id": "seat_wave_c_restart_2026-10-10",

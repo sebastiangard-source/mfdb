@@ -1,0 +1,332 @@
+{
+ "name": "Balmain",
+ "band": "trueLux",
+ "seat": 246,
+ "dagger": 0,
+ "focus": {
+  "tech": 1,
+  "comfort": 1,
+  "craft": 2,
+  "style": 5
+ },
+ "fabric": {
+  "denim": 3,
+  "cashmere": 2,
+  "linen": 1,
+  "cotton": 3,
+  "wool": 3,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 2,
+  "fuss": 2,
+  "golffice": -2,
+  "whitet": 2,
+  "logo": 4,
+  "western": 1,
+  "rock": 3,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1,
+  "fren": 5,
+  "status": 5,
+  "street": 3
+ },
+ "why": "Paris couture house from 1945 whose menswear is the ripped biker jean, the gold-button blazer and the embellished bomber; 13 US stores, Qatari-owned.",
+ "origin": "Founded in 1945 in Paris, France (rue François Ier) by Pierre Balmain.",
+ "chan": [
+  "O",
+  "D",
+  "W"
+ ],
+ "conf": "S",
+ "forgc": [
+  2,
+  3,
+  1
+ ],
+ "onething": {
+  "p": "Biker jeans",
+  "u": "https://us.balmain.com/en-us/products/biker-jeans-in-vintage-denim-blue-gh1mi105dg106aw",
+  "n": "from the seat_wave_b_2026-10-08 return; the house credits Decarnin’s 2008 menswear launch with ripped jeans and leather blousons"
+ },
+ "prices": [
+  [
+   450,
+   1390
+  ],
+  [
+   590,
+   1490
+  ],
+  [
+   850,
+   1650
+  ],
+  [
+   920,
+   1550
+  ],
+  [
+   990,
+   1290
+  ],
+  [
+   990,
+   1650
+  ],
+  [
+   2350,
+   9100
+  ],
+  [
+   1195,
+   1350
+  ]
+ ],
+ "price_checked": true,
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Jeans",
+  "Dress pants",
+  "Outerwear"
+ ],
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Embroidered Balmain Vintage T-shirt",
+   "lu": "https://us.balmain.com/en-us/products/embroidered-balmain-vintage-t-shirt-beige-hh1ef000bd59ghy",
+   "hp": "Embroidered Balmain Insect T-shirt (HH1EG280PD63, made in India)",
+   "hu": "https://us.balmain.com/en-us/products/embroidered-balmain-insect-t-shirt-black-hh1eg280pd63eah",
+   "b": "range"
+  },
+  "Polo": {
+   "lp": "Embroidered cotton polo",
+   "lu": "https://us.balmain.com/en-us/products/embroidered-cotton-polo-black-gh1gb085bc87eab",
+   "hp": "Balmain Vintage Utility ribbed knit polo (100% merino)",
+   "hu": "https://us.balmain.com/en-us/products/balmain-vintage-utility-ribbed-knit-polo-khaki-hh1gb110kk297kh",
+   "b": "range"
+  },
+  "Dress shirt": {
+   "lp": "Cotton poplin shirt (long sleeve)",
+   "lu": "https://us.balmain.com/en-us/products/cotton-poplin-shirt-white-1-gh1hs496cg390fb",
+   "hp": "Printed silk shirt (100% silk)",
+   "hu": "https://us.balmain.com/en-us/products/printed-silk-shirt-multicolor-hh1hs001sf50aaa",
+   "b": "pair"
+  },
+  "Jeans": {
+   "lp": "Loose-fit jeans in Light blue denim",
+   "lu": "https://us.balmain.com/en-us/products/loose-fit-jeans-in-light-blue-denim-blue-hh1ml138df976aw",
+   "hp": "Biker jeans in vintage denim",
+   "hu": "https://us.balmain.com/en-us/products/biker-jeans-in-vintage-denim-blue-gh1mi105dg106aw",
+   "b": "range"
+  },
+  "Dress pants": {
+   "lp": "Wool trousers",
+   "lu": "https://us.balmain.com/en-us/products/wool-trousers-black-hh1po130wd490pa",
+   "hp": "Wool twill trousers with wide knife pleats",
+   "hu": "https://us.balmain.com/en-us/products/wool-twill-trousers-with-wide-knife-pleats-black-gh0po140wd490pa",
+   "b": "range"
+  },
+  "Sweater": {
+   "lp": "Fine silk and cotton jumper (54% silk)",
+   "lu": "https://us.balmain.com/en-us/products/fine-silk-and-cotton-jumper-black-gh1kd000kj53equ",
+   "hp": "Wool Balmain Vintage Utility jumper (100% merino)",
+   "hu": "https://us.balmain.com/en-us/products/wool-balmain-vintage-utility-jumper-blue-hh1kd200kk336du",
+   "b": "pair"
+  },
+  "Outerwear": {
+   "lp": "Cotton Balmain Vintage bomber jacket",
+   "lu": "https://us.balmain.com/en-us/products/cotton-balmain-vintage-bomber-jacket-beige-hh1tfc51cg550an",
+   "hp": "Satin bomber jacket with frogging",
+   "hu": "https://us.balmain.com/en-us/products/satin-bomber-jacket-with-frogging-black-hh1tfc85pd59sqn",
+   "b": "range"
+  },
+  "Shoes": {
+   "lp": "Sync smooth leather loafers",
+   "lu": "https://us.balmain.com/en-us/products/sync-smooth-leather-loafers-black-hm1uo403lnap0pa",
+   "hp": "Anthem loafers in glazed leather",
+   "hu": "https://us.balmain.com/en-us/products/anthem-loafers-in-glazed-leather-black-hm1uu408lvit0pa",
+   "b": "pair"
+  }
+ },
+ "garment_links": {
+  "T-shirt": "https://us.balmain.com/en-us/collections/men-t-shirts",
+  "Polo": "https://us.balmain.com/en-us/collections/men-polos-shirts",
+  "Dress shirt": "https://us.balmain.com/en-us/collections/men-polos-shirts",
+  "Jeans": "https://us.balmain.com/en-us/collections/men-denim",
+  "Dress pants": "https://us.balmain.com/en-us/collections/men-pants-shorts",
+  "Sweater": "https://us.balmain.com/en-us/collections/men-knitwear",
+  "Outerwear": "https://us.balmain.com/en-us/collections/men-outerwear",
+  "Shoes": "https://us.balmain.com/en-us/collections/men-loafers"
+ },
+ "price_read": {
+  "date": "2026-10-10",
+  "store": "https://us.balmain.com/en-us",
+  "currency": "USD",
+  "status": "partial",
+  "sublines": "-"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-10):  — NONE; share of range 0. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 2 (2026-10-10): Every men's product page states a country of making, spread across seven countries, but none names a maker or mill and the house publishes no process for its ready-to-wear. The 1945 Paris founding is dated and placed; the \"Parisian ateliers\" are a claim tied to couture and made-to-order, not to the men's range. A clean 2: country stated, little else checkable. Seated as proposed, pending ruling.",
+  "comfort": "seeded 2026-10-10 from the seat_wave_b_2026-10-08 return; provisional",
+  "style": "seeded 2026-10-10 from the seat_wave_b_2026-10-08 return; provisional",
+  "dur": "seeded 2026-10-10 from the seat_wave_b_2026-10-08 return; provisional",
+  "forg": "seeded 2026-10-10 from the seat_wave_b_2026-10-08 return; provisional",
+  "fuss": "seeded 2026-10-10 from the seat_wave_b_2026-10-08 return; provisional",
+  "golffice": "seeded 2026-10-10 from the seat_wave_b_2026-10-08 return; provisional",
+  "whitet": "seeded 2026-10-10 from the seat_wave_b_2026-10-08 return; provisional",
+  "logo": "seeded 2026-10-10 from the seat_wave_b_2026-10-08 return; provisional",
+  "western": "seeded 2026-10-10 from the seat_wave_b_2026-10-08 return; provisional",
+  "rock": "seeded 2026-10-10 from the seat_wave_b_2026-10-08 return; provisional",
+  "workwear": "seeded 2026-10-10 from the seat_wave_b_2026-10-08 return; provisional",
+  "outdoor": "seeded 2026-10-10 from the seat_wave_b_2026-10-08 return; provisional",
+  "surf": "seeded 2026-10-10 from the seat_wave_b_2026-10-08 return; provisional",
+  "denim": "seeded 2026-10-10 from the seat_wave_b_2026-10-08 return; provisional",
+  "cashmere": "seeded 2026-10-10 from the seat_wave_b_2026-10-08 return; provisional",
+  "linen": "seeded 2026-10-10 from the seat_wave_b_2026-10-08 return; provisional",
+  "cotton": "seeded 2026-10-10 from the seat_wave_b_2026-10-08 return; provisional",
+  "wool": "seeded 2026-10-10 from the seat_wave_b_2026-10-08 return; provisional",
+  "synth": "seeded 2026-10-10 from the seat_wave_b_2026-10-08 return; provisional",
+  "fren": "seeded 2026-10-10 from the seat_wave_b_2026-10-08 return; provisional",
+  "status": "seeded 2026-10-10 from the seat_wave_b_2026-10-08 return; provisional",
+  "street": "seeded 2026-10-10 from the seat_wave_b_2026-10-08 return; provisional"
+ },
+ "doors": {
+  "c": "full",
+  "n": 13,
+  "cities": [
+   [
+    "Las Vegas",
+    "NV",
+    2
+   ],
+   [
+    "Atlanta",
+    "GA",
+    1
+   ],
+   [
+    "Aventura",
+    "FL",
+    1
+   ],
+   [
+    "Bal Harbour",
+    "FL",
+    1
+   ],
+   [
+    "Beverly Hills",
+    "CA",
+    1
+   ],
+   [
+    "Costa Mesa",
+    "CA",
+    1
+   ],
+   [
+    "Highland Park",
+    "TX",
+    1
+   ],
+   [
+    "Houston",
+    "TX",
+    1
+   ],
+   [
+    "Miami",
+    "FL",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    1
+   ],
+   [
+    "Palm Beach",
+    "FL",
+    1
+   ],
+   [
+    "Scottsdale",
+    "AZ",
+    1
+   ]
+  ],
+  "basis": "seat_wave_b_2026-10-08 2026-10-10",
+  "out": 4,
+  "con": 1
+ },
+ "cities": "13 stores across the US, including Las Vegas, Atlanta, Aventura · department stores, and its own site",
+ "site": {
+  "domain": "balmain.com",
+  "platform": "other",
+  "feed": "none",
+  "feed_count": 0,
+  "status": "live_store",
+  "checked": "2026-10-10"
+ },
+ "tech_evidence": {
+  "names": "no",
+  "origin": "none",
+  "marks": [],
+  "source": "seat_wave_b_2026-10-08",
+  "checked": "2026-10-10"
+ },
+ "craft_evidence": {
+  "owned": "claim only: \"our Parisian ateliers\" (made-to-order page) and the historic 44 rue François Ier address; no men's RTW facility named or shown",
+  "makers": "NONE (0 of 104 men's RTW product pages name a maker)",
+  "mills": "NONE (0 of 104 name a mill)",
+  "madein": "100% (104/104 men's RTW pages; Portugal, Italy, France, India, Turkey, Poland, Bulgaria)",
+  "heritage": "dated and placed: founded 1945, rue François Ier, Paris, by Pierre Balmain (b. 1914 Saint-Jean-de-Maurienne)",
+  "process": "no for RTW; product copy is construction bullets only; couture/made-to-order described generically",
+  "urls": [
+   "https://us.balmain.com/en-us/pages/pierre-balmain",
+   "https://us.balmain.com/en-us/pages/fall-winter-2026-collection"
+  ],
+  "proposed": 2,
+  "reasoning": "Every men's product page states a country of making, spread across seven countries, but none names a maker or mill and the house publishes no process for its ready-to-wear. The 1945 Paris founding is dated and placed; the \"Parisian ateliers\" are a claim tied to couture and made-to-order, not to the men's range. A clean 2: country stated, little else checkable.",
+  "source": "seat_wave_b_2026-10-08"
+ },
+ "ownership": {
+  "owner": "Mayhoola for Investments (Qatar), since 2016 (press; brand site does not state)",
+  "u": "https://eg.fashionnetwork.com/news/Qatar-fund-acquires-French-fashion-house-Balmain,706079.html"
+ },
+ "opview": "“I think I hold the key to a certain French elegance—an elegance that is measured, Cartesian, and scorns mere effect.” — Pierre Balmain, founder, Balmain, \"Pierre Balmain\" page (house site)",
+ "resale": {
+  "grailed": {
+   "u": "https://www.grailed.com/designers/balmain"
+  }
+ },
+ "say": "bal-MAN",
+ "fibre": {
+  "t": 94,
+  "w": 94,
+  "n": 82,
+  "s": 11,
+  "c": 7,
+  "x": 7,
+  "xh": 5,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "tees-polos",
+   "shirts",
+   "trousers"
+  ],
+  "st": "complete"
+ },
+ "band_note": "trueLux by the price rule (dress shirt $850, sweater $990)",
+ "region": {
+  "o": [
+   4592
+  ],
+  "s": []
+ }
+}

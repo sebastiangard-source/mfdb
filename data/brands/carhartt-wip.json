@@ -1,0 +1,287 @@
+{
+ "name": "Carhartt WIP",
+ "band": "premium",
+ "seat": 249,
+ "dagger": 0,
+ "focus": {
+  "tech": 1,
+  "comfort": 3,
+  "craft": 3,
+  "style": 3
+ },
+ "fabric": {
+  "denim": 3,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 5,
+  "wool": 1,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 4,
+  "forg": 3,
+  "fuss": -2,
+  "golffice": -3,
+  "whitet": 3,
+  "logo": 3,
+  "western": 1,
+  "rock": 1,
+  "workwear": 4,
+  "outdoor": 1,
+  "surf": 1,
+  "street": 4,
+  "murica": 2
+ },
+ "why": "Carhartt’s European license since 1994, cut slimmer and sold to the street: the Detroit Jacket, the Chase sweat, Dearborn canvas; three US stores, 108 US stockists.",
+ "origin": "Founded in 1994 by Edwin Faeh.",
+ "chan": [
+  "O",
+  "D",
+  "I",
+  "W"
+ ],
+ "conf": "S",
+ "forgc": [
+  3,
+  3,
+  1
+ ],
+ "onething": {
+  "p": "Detroit Jacket",
+  "u": "https://us.carhartt-wip.com/en-us/collections/men-jackets-detroit",
+  "n": "from the seat_wave_b_2026-10-08 return; \"Detroit Jacket\""
+ },
+ "prices": [
+  [
+   38,
+   108
+  ],
+  [
+   108,
+   108
+  ],
+  [
+   108,
+   198
+  ],
+  [
+   118,
+   198
+  ],
+  [
+   115,
+   178
+  ],
+  [
+   165,
+   228
+  ],
+  [
+   188,
+   428
+  ],
+  null
+ ],
+ "price_checked": true,
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants",
+  "Sweater",
+  "Outerwear"
+ ],
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Base T-Shirt",
+   "lu": "https://us.carhartt-wip.com/en-us/products/s-s-base-t-shirt-black-white-1746",
+   "hp": "Feather Tree T-Shirt",
+   "hu": "https://us.carhartt-wip.com/en-us/products/s-s-feather-tree-t-shirt-camo-feather-tree-khaki-shungite-garment-dyed-368",
+   "b": "range"
+  },
+  "Polo": {
+   "lp": "Short Sleeve Wayne Polo",
+   "lu": "https://us.carhartt-wip.com/en-us/products/s-s-wayne-polo-palisander-garment-dyed-1100",
+   "hp": "Short Sleeve Painter Polo",
+   "hu": "https://us.carhartt-wip.com/en-us/products/s-s-painter-polo-black-destroy-wash-splatter-920",
+   "b": "range"
+  },
+  "Dress shirt": {
+   "lp": "C-Logo Oxford Shirt",
+   "lu": "https://us.carhartt-wip.com/en-us/products/l-s-c-logo-shirt-hortensia-white-1377",
+   "hp": "Loyde Shirt - Corduroy",
+   "hu": "https://us.carhartt-wip.com/en-us/products/l-s-loyde-shirt-dark-navy-rinsed-597",
+   "b": "range"
+  },
+  "Jeans": {
+   "lp": "Brandon Pant (Blue, rigid)",
+   "lu": "https://us.carhartt-wip.com/en-us/products/brandon-pant-blue-rigid-60",
+   "hp": "Landon Pant (Black, destroy wash splatter)",
+   "hu": "https://us.carhartt-wip.com/en-us/products/landon-pant-black-destroy-wash-splatter-1571",
+   "b": "range"
+  },
+  "Dress pants": {
+   "lp": "Craft Pant",
+   "lu": "https://us.carhartt-wip.com/en-us/products/craft-pant-leather-rinsed-243",
+   "hp": "Evan Pant - Corduroy",
+   "hu": "https://us.carhartt-wip.com/en-us/products/evan-pant-raven-rinsed-1261",
+   "b": "range"
+  },
+  "Sweater": {
+   "lp": "Anglistic Sweater",
+   "lu": "https://us.carhartt-wip.com/en-us/products/anglistic-sweater-speckled-fleur-de-sel-9986",
+   "hp": "Firth Sweater",
+   "hu": "https://us.carhartt-wip.com/en-us/products/firth-sweater-palisander-688",
+   "b": "range"
+  },
+  "Outerwear": {
+   "lp": "Edmore Fleece Jacket",
+   "lu": "https://us.carhartt-wip.com/en-us/products/edmore-sweat-jacket-black-white-416",
+   "hp": "Boreal Parka",
+   "hu": "https://us.carhartt-wip.com/en-us/products/boreal-parka-black-stone-canvas-603",
+   "b": "range"
+  }
+ },
+ "garment_links": {
+  "T-shirt": "https://us.carhartt-wip.com/en-us/collections/men-tshirts-shortsleeve",
+  "Polo": "https://us.carhartt-wip.com/en-us/collections/men-tshirts-polos",
+  "Dress shirt": "https://us.carhartt-wip.com/en-us/collections/men-shirts",
+  "Jeans": "https://us.carhartt-wip.com/en-us/collections/men-pants-jeans",
+  "Dress pants": "https://us.carhartt-wip.com/en-us/collections/men-pants-chino",
+  "Sweater": "https://us.carhartt-wip.com/en-us/collections/men-sweaters",
+  "Outerwear": "https://us.carhartt-wip.com/en-us/collections/men-jackets-and-coats"
+ },
+ "price_read": {
+  "date": "2026-10-10",
+  "store": "https://us.carhartt-wip.com/en-us",
+  "currency": "USD",
+  "status": "complete",
+  "sublines": "-"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-10): house cloth names only: Dearborn Canvas; Smith, Camano, Maitland, Robertson, Norco, Boston Denim; Columbia Ripstop; Lenexa, Cooper, Clark, Moraga, Dunmore, Denison Twill; Coventry, Manhattan Corduroy — NONE in current men range (no licensed membrane or performance fibre named on any of 225 PDPs; history page cites a 2020 GORE-TEX INFINIUM partnership, not in current range); share of range 0 of 225 styles name a licensed or owned technology; finishes only (water repell. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 3 (2026-10-10): Carhartt WIP says it owns three production facilities in Tunisia and that almost a third of garments are made there by owned or long-term partner facilities (history and sustainability pages), which is more than a 3 usually has. But no facility is named, no product page states a country of origin, and no mill or maker is named anywhere in the range, so a reader cannot tie any garment to the owned  Seated as proposed, pending ruling.",
+  "comfort": "seeded 2026-10-10 from the seat_wave_b_2026-10-08 return; provisional",
+  "style": "seeded 2026-10-10 from the seat_wave_b_2026-10-08 return; provisional",
+  "dur": "seeded 2026-10-10 from the seat_wave_b_2026-10-08 return; provisional",
+  "forg": "seeded 2026-10-10 from the seat_wave_b_2026-10-08 return; provisional",
+  "fuss": "seeded 2026-10-10 from the seat_wave_b_2026-10-08 return; provisional",
+  "golffice": "seeded 2026-10-10 from the seat_wave_b_2026-10-08 return; provisional",
+  "whitet": "seeded 2026-10-10 from the seat_wave_b_2026-10-08 return; provisional",
+  "logo": "seeded 2026-10-10 from the seat_wave_b_2026-10-08 return; provisional",
+  "western": "seeded 2026-10-10 from the seat_wave_b_2026-10-08 return; provisional",
+  "rock": "seeded 2026-10-10 from the seat_wave_b_2026-10-08 return; provisional",
+  "workwear": "seeded 2026-10-10 from the seat_wave_b_2026-10-08 return; provisional",
+  "outdoor": "seeded 2026-10-10 from the seat_wave_b_2026-10-08 return; provisional",
+  "surf": "seeded 2026-10-10 from the seat_wave_b_2026-10-08 return; provisional",
+  "denim": "seeded 2026-10-10 from the seat_wave_b_2026-10-08 return; provisional",
+  "cashmere": "seeded 2026-10-10 from the seat_wave_b_2026-10-08 return; provisional",
+  "linen": "seeded 2026-10-10 from the seat_wave_b_2026-10-08 return; provisional",
+  "cotton": "seeded 2026-10-10 from the seat_wave_b_2026-10-08 return; provisional",
+  "wool": "seeded 2026-10-10 from the seat_wave_b_2026-10-08 return; provisional",
+  "synth": "seeded 2026-10-10 from the seat_wave_b_2026-10-08 return; provisional",
+  "street": "seeded 2026-10-10 from the seat_wave_b_2026-10-08 return; provisional",
+  "murica": "seeded 2026-10-10 from the seat_wave_b_2026-10-08 return; provisional"
+ },
+ "doors": {
+  "c": "full",
+  "n": 3,
+  "cities": [
+   [
+    "Brooklyn",
+    "NY",
+    1
+   ],
+   [
+    "Los Angeles",
+    "CA",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    1
+   ]
+  ],
+  "basis": "seat_wave_b_2026-10-08 2026-10-10",
+  "out": 0,
+  "con": 0
+ },
+ "cities": "3 stores across the US, including Brooklyn, Los Angeles, New York · department stores, independent shops, and its own site",
+ "site": {
+  "domain": "carhartt-wip.com",
+  "platform": "other",
+  "feed": "none",
+  "feed_count": 0,
+  "status": "live_store",
+  "checked": "2026-10-10"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "licensed",
+  "marks": [
+   "house cloth names only: Dearborn Canvas",
+   "Smith, Camano, Maitland, Robertson, Norco, Boston Denim",
+   "Columbia Ripstop",
+   "Lenexa, Cooper, Clark, Moraga, Dunmore, Denison Twill",
+   "Coventry, Manhattan Corduroy"
+  ],
+  "source": "seat_wave_b_2026-10-08",
+  "checked": "2026-10-10"
+ },
+ "craft_evidence": {
+  "owned": "yes, as stated by the brand: history page (2023) cites 'one of three Carhartt WIP-owned production facilities in Tunisia' and a manufacturing video; sustainability page: almost one third of garments made in Tunisia at company-owned or long-term partner facilities; facilities not named, no filing seen",
+  "makers": "none named on PDPs (225 description bullet lists read)",
+  "mills": "none; cloth names (Dearborn, Smith, Camano etc.) are house fabric names with no mill named",
+  "madein": "0 of 225 (no country of origin in PDP description bullets; two PDP payloads checked had no origin field)",
+  "heritage": "dated and placed: 1989 Edwin Faeh All American Concept importing Carhartt to Europe; 1994 Work in Progress established as exclusive Carhartt distributor in Europe; 1996 licence to manufacture Carhartt outside the USA; 1997 first store Neal Street London (history page); parent Carhartt 1889 Detroit",
+  "process": "partial: PDPs give cloth weight, fit, triple stitching and bartacks; history page cites the video Many Hands, One Double Knee Pant documenting manufacture at a WIP-owned Tunisian facility; sustainability page documents supplier audits and Retraced traceability (594 suppliers)",
+  "urls": [
+   "https://us.carhartt-wip.com/en-us/history",
+   "https://us.carhartt-wip.com/en-us/sustainability"
+  ],
+  "proposed": 3,
+  "reasoning": "Carhartt WIP says it owns three production facilities in Tunisia and that almost a third of garments are made there by owned or long-term partner facilities (history and sustainability pages), which is more than a 3 usually has. But no facility is named, no product page states a country of origin, and no mill or maker is named anywhere in the range, so a reader cannot tie any garment to the owned making. Proposed 3; 4 if Sebastian accepts the brand's own ownership statement and factory video as evidence.",
+  "source": "seat_wave_b_2026-10-08"
+ },
+ "ownership": {
+  "owner": "Work in Progress Textilhandels GmbH, Weil am Rhein (HRB 412212, Local Court Freiburg; managing directors Willem Kampert, Heinfried Schmidt-Jenne, Philipp Maiburg, Tobias Öhme), described on the imprint as Carhartt WIP authorized distributor; operates under licence from Carhartt Inc. (licence to manufacture outside the USA since 1996 per history page); US shop run by WIP ECOM LLC, 599 Broadway, New York; shareholders not read (filings not reached)",
+  "u": "https://www.carhartt-wip.com/en-de/i/imprint"
+ },
+ "opview": "“Make things well, make them last, let the product speak, that's our starting point for sustainability.” — Wilfried Atzert, CEO of Carhartt WIP, Carhartt WIP Sustainability page (US store)",
+ "season": {
+  "l": "Fall/Winter 2026",
+  "t": "lookbook",
+  "u": "https://us.carhartt-wip.com/en-us/journal/fw26-campaign-drop",
+  "m": "unisex"
+ },
+ "say": "KAR-hart W-I-P",
+ "fibre": {
+  "t": 225,
+  "w": 225,
+  "n": 90,
+  "s": 10,
+  "c": 0,
+  "x": 2,
+  "xh": 1,
+  "sp": "one",
+  "sc": [
+   "Sweaters"
+  ],
+  "nc": [
+   "T-Shirts",
+   "Jackets",
+   "Sweats"
+  ],
+  "st": "complete"
+ },
+ "band_note": "premium by the price rule (dress shirt $108, sweater $165)",
+ "region": {
+  "o": [
+   4607,
+   4608
+  ],
+  "s": []
+ }
+}
