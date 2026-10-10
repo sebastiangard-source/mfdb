@@ -1856,6 +1856,35 @@
    ],
    "blocked_on": "",
    "note": "Nordstrom and Saks first; builds the womens candidate universe by counting, not authoring"
+  },
+  {
+   "id": "seat_ruelala_2026-10-10",
+   "title": "Rue La La gap: four men's seats (Tommy Bahama, Louboutin, Zanotti, Jimmy Choo) and eleven women's door reads",
+   "kind": "seating",
+   "state": "issued",
+   "created": "2026-10-10",
+   "issued": "2026-10-10",
+   "pilot": 4,
+   "nc": "NC",
+   "brands": "worklist_seat.csv + worklist_womens_doors.csv",
+   "schema": [
+    {
+     "name": "brand",
+     "type": "key"
+    },
+    {
+     "name": "source",
+     "type": "provenance"
+    },
+    {
+     "name": "note",
+     "type": "str"
+    }
+   ],
+   "writes": {},
+   "returns": [],
+   "blocked_on": "",
+   "note": "from the 10 Oct check of Rue La La's featured list against every register; Escada and Hale Bob also a question for the dept-store index"
   }
  ]
 }
