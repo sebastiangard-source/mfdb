@@ -1,0 +1,276 @@
+{
+ "name": "Dunhill",
+ "band": "trueLux",
+ "seat": 219,
+ "dagger": 0,
+ "focus": {
+  "tech": 1,
+  "comfort": 2,
+  "craft": 3,
+  "style": 3
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 3,
+  "linen": 1,
+  "cotton": 2,
+  "wool": 4,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 4,
+  "forg": 3,
+  "fuss": 1,
+  "golffice": 2,
+  "whitet": 2,
+  "logo": 2,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1,
+  "briish": 5,
+  "status": 4,
+  "finbro": 3
+ },
+ "why": "London house for men only — tailoring, leather, lighters since 1893 — owned by Richemont; one US store at Hudson Yards, a Madison Avenue flagship due in December.",
+ "origin": "Founded in 1893 in London, England by Alfred Dunhill.",
+ "chan": [
+  "O",
+  "D",
+  "W"
+ ],
+ "conf": "S",
+ "forgc": [
+  3,
+  3,
+  2
+ ],
+ "onething": {
+  "p": "Rollagas lighter",
+  "u": "https://www.dunhill.com/en-us/product/lighters/barley-rollagas-lighter-DURLS1350.html",
+  "n": "from the seat_wave_a return; \"Rollagas lighter (introduced 1956 per the brand's lighter-history page); not clo\""
+ },
+ "prices": [
+  [
+   360,
+   730
+  ],
+  [
+   410,
+   1320
+  ],
+  [
+   570,
+   950
+  ],
+  [
+   890,
+   950
+  ],
+  [
+   920,
+   1300
+  ],
+  [
+   890,
+   1580
+  ],
+  [
+   1650,
+   2120
+  ],
+  [
+   900,
+   1200
+  ]
+ ],
+ "price_checked": true,
+ "price_range_only": [
+  "T-shirt",
+  "Dress shirt",
+  "Jeans"
+ ],
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "AD Cypher Cotton Short Sleeve T-Shirt",
+   "lu": "https://www.dunhill.com/en-us/product/t-shirts/ad-cypher-cotton-short-sleeve-t-shirt-DU25FL473DB416.html",
+   "hp": "Athluxury Wool 1/4 Zip Long Sleeve T-Shirt",
+   "hu": "https://www.dunhill.com/en-us/product/t-shirts/athluxury-wool-1%2F4-zip-long-sleeve-t-shirt-DU24FL432S7416.html",
+   "b": "range"
+  },
+  "Polo": {
+   "lp": "AD Cypher Cotton Pique Short Sleeve Polo",
+   "lu": "https://www.dunhill.com/en-us/product/polos/ad-cypher-cotton-pique-short-sleeve-polo-DU25FL471BF416.html",
+   "hp": "Superfine Cashmere Long Sleeve Polo",
+   "hu": "https://www.dunhill.com/en-us/product/knitwear/superfine-cashmere-long-sleeve-polo-DU24FK4021H035.html",
+   "b": "pair"
+  },
+  "Dress shirt": {
+   "lp": "Cotton Tattersall Check Long Sleeve Half Spread Collar Shirt",
+   "lu": "https://www.dunhill.com/en-us/product/formal-shirts/cotton-tattersall-check-long-sleeve-half-spread-collar-shirt-DU26RF401BE450.html",
+   "hp": "Cotton Chambray Pleated Bib Point Collar Evening Shirt",
+   "hu": "https://www.dunhill.com/en-us/product/formal-shirts/cotton-chambray-pleated-bib-point-collar-evening-shirt-DU24FF205LB401.html",
+   "b": "range"
+  },
+  "Jeans": {
+   "lp": "Sea Island Cotton 5 Pocket Jeans",
+   "lu": "https://www.dunhill.com/en-us/product/casual-trousers-and-chinos/sea-island-cotton-5-pocket-jeans-DU25RM936S0100.html",
+   "hp": "Wool Cotton Denim 5 Pocket Trousers",
+   "hu": "https://www.dunhill.com/en-us/product/casual-trousers-and-chinos/wool-cotton-denim-5-pocket-trousers-DU25FM930N3408.html",
+   "b": "range"
+  },
+  "Dress pants": {
+   "lp": "Belgravia Wool Super 150 Trousers",
+   "lu": "https://www.dunhill.com/en-us/product/formal-trousers/belgravia-wool-super-150-trousers-DU21RDBFB52410.html",
+   "hp": "Wool Cashmere Double Pleated Evening Trousers",
+   "hu": "https://www.dunhill.com/en-us/product/formal-trousers/wool-cashmere-double-pleated-evening-trousers-DU24FDT17KY403.html",
+   "b": "pair"
+  },
+  "Sweater": {
+   "lp": "14GG Sea Island Cotton Seed Stitch Crew Neck Jumper",
+   "lu": "https://www.dunhill.com/en-us/product/knitwear/14gg-sea-island-cotton-seed-stitch-crew-neck-jumper-DU26RK3917H123.html",
+   "hp": "Cashmere Nailhead Jacquard Crew Neck",
+   "hu": "https://www.dunhill.com/en-us/product/knitwear/cashmere-nailhead-jacquard-crew-neck-DU26FK4547C010.html",
+   "b": "pair"
+  },
+  "Outerwear": {
+   "lp": "Lightweight Harrington",
+   "lu": "https://www.dunhill.com/en-us/product/outerwear/lightweight-harrington-DU23FH022AP406.html",
+   "hp": "Lightweight Silk Harrington Jacket",
+   "hu": "https://www.dunhill.com/en-us/product/outerwear/lightweight-silk-harrington-jacket-DU23FH024S1412.html",
+   "b": "pair"
+  },
+  "Shoes": {
+   "lp": "Heddon Flex Leather Loafers",
+   "lu": "https://www.dunhill.com/en-us/product/loafers/heddon-flex-leather-loafers-DU25F1240BR001.html",
+   "hp": "Evening Leather Loafers",
+   "hu": "https://www.dunhill.com/en-us/product/formal-shoes/evening-leather-loafers-DU25F1229CA001.html",
+   "b": "pair"
+  }
+ },
+ "garment_links": {
+  "T-shirt": "https://www.dunhill.com/en-us/cat/ready-to-wear/t-shirts/",
+  "Polo": "https://www.dunhill.com/en-us/cat/ready-to-wear/polos/",
+  "Dress shirt": "https://www.dunhill.com/en-us/cat/tailoring/formal-shirts/",
+  "Jeans": "https://www.dunhill.com/en-us/cat/ready-to-wear/casual-trousers-and-chinos/",
+  "Dress pants": "https://www.dunhill.com/en-us/cat/tailoring/formal-trousers/",
+  "Sweater": "https://www.dunhill.com/en-us/cat/ready-to-wear/knitwear/",
+  "Outerwear": "https://www.dunhill.com/en-us/cat/ready-to-wear/outerwear/",
+  "Shoes": "https://www.dunhill.com/en-us/cat/footwear/loafers/"
+ },
+ "price_read": {
+  "date": "2026-10-10",
+  "store": "https://www.dunhill.com/en-us/",
+  "currency": "USD",
+  "status": "partial",
+  "sublines": "Athluxury (dunhill-labelled athleisure line sold inside Ready-to-Wear; counted)"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (10 Oct 2026): [] — NONE; share of range 0%. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 3 (10 Oct 2026): Every one of 44 clothing pages read states a country (34 Italy, 10 Portugal) and documents construction details (gauges, hand-sewn buttonholes, canvassing), but none names a maker or mill. Dunhill does run its own bespoke tailoring at Bourdon House and a London leather workshop (Walthamstow since 1936 per 2016 press), which lifts it above a bare made-in, but that making covers bespoke and leather, Seated as proposed, pending ruling.",
+  "comfort": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "style": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "dur": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "forg": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "fuss": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "golffice": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "whitet": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "logo": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "western": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "rock": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "workwear": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "outdoor": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "surf": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "briish": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "status": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "finbro": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "denim": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "cashmere": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "linen": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "cotton": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "wool": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "synth": "seeded 10 Oct 2026 from the seat_wave_a return; provisional"
+ },
+ "doors": {
+  "c": "full",
+  "n": 1,
+  "cities": [
+   [
+    "New York",
+    "NY",
+    1
+   ]
+  ],
+  "basis": "seat_wave_a 2026-10-08",
+  "out": 1,
+  "con": 1
+ },
+ "cities": "One store, in New York · department stores, and its own site",
+ "site": {
+  "domain": "dunhill.com",
+  "platform": "other",
+  "feed": "none",
+  "feed_count": 0,
+  "status": "live_store",
+  "checked": "2026-10-10"
+ },
+ "tech_evidence": {
+  "names": "no",
+  "origin": "NONE",
+  "marks": [],
+  "source": "seat_wave_a_2026-10-08",
+  "checked": "2026-10-10"
+ },
+ "craft_evidence": {
+  "owned": "Claim on brand site (read 2026-10-10): bespoke tailoring by \"master tailors at Bourdon House, London\", \"crafted by hand in Mayfair\" (Bourdon House, 2 Davies Street W1K, built 1723); bespoke leather \"delivered from our London leather workshop\" (place not named). Press evidence, not current: The Week ",
+  "makers": "NONE on 44 men's RTW/tailoring product pages and 2 shoe pages read (evidence)",
+  "mills": "NONE named (evidence, 44 RTW pages): pages cite unnamed sources only - \"a British mill\", \"woven by a century-old Italian mill\", \"a Scottish mill that has been specialising in quality tweed fabrications for 200 years\", \"a prestigious clothmaker first established in 1722\", \"Scottish cashmere\"; fibre n",
+  "madein": "100",
+  "heritage": "Dated, not placed, on the brand site (claim): \"Since our inception in 1893\"; \"the 21-year-old Alfred Dunhill inherited the enterprise\"; Unique lighter 1926, Rollagas 1956 (lighter-history page). Place",
+  "process": "Partial, product-level (evidence on PDPs): knit gauges and \"fully fashioned\" on knitwear; \"Hand sewn Milanese buttonhole using silk thread\"; Belgravia jacket \"Canvassed, roped shoulders\"; \"Half spread",
+  "urls": [
+   "https://www.dunhill.com/en-us/bespoke/bespoke-tailoring.html",
+   "https://theweek.com/75131/the-beauty-of-bespoke-at-dunhills-walthamstow-workshop"
+  ],
+  "conf": "medium",
+  "read": "2026-10-10",
+  "proposed": 3,
+  "reasoning": "Every one of 44 clothing pages read states a country (34 Italy, 10 Portugal) and documents construction details (gauges, hand-sewn buttonholes, canvassing), but none names a maker or mill. Dunhill does run its own bespoke tailoring at Bourdon House and a London leather workshop (Walthamstow since 1936 per 2016 press), which lifts it above a bare made-in, but that making covers bespoke and leather, not the ready-to-wear sold online. A 4 would need named or owned making on the range itself."
+ },
+ "ownership": {
+  "owner": "Compagnie Financière Richemont SA: FY26 Annual Report (year to 31 March 2026, published 22 May 2026) lists dunhill among its \"Other operating segments\" (Fashion",
+  "u": "https://www.richemont.com/media/045hlucv/richemont-fy26-annual-report-and-accounts.pdf"
+ },
+ "opview": "“Synonymous with British craftsmanship and design, dunhill is the foremost British men’s luxury House for today.” — dunhill, dunhill.com",
+ "region": {
+  "o": [
+   4086
+  ],
+  "s": []
+ },
+ "fibre": {
+  "t": 206,
+  "w": 44,
+  "n": 19,
+  "s": 2,
+  "c": 0,
+  "x": 2,
+  "xh": 0,
+  "sp": "one",
+  "sc": [],
+  "nc": [],
+  "st": "partial"
+ },
+ "resale": {
+  "grailed": {
+   "u": "https://www.grailed.com/designers/alfred-dunhill"
+  }
+ },
+ "season": {
+  "l": "Autumn Winter 2026 Collection",
+  "t": "lookbook",
+  "u": "https://www.dunhill.com/en-us/fashionshow/aw26-collection.html",
+  "m": "yes"
+ }
+}

@@ -1,0 +1,306 @@
+{
+ "name": "Paul Stuart",
+ "band": "accessible",
+ "seat": 231,
+ "dagger": 0,
+ "focus": {
+  "tech": 1,
+  "comfort": 2,
+  "craft": 3,
+  "style": 3
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 3,
+  "linen": 2,
+  "cotton": 3,
+  "wool": 4,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 4,
+  "forg": 4,
+  "fuss": 1,
+  "golffice": 3,
+  "whitet": 2,
+  "logo": 1,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1,
+  "ivy": 4,
+  "prep": 3,
+  "finbro": 4,
+  "status": 3,
+  "murica": 3,
+  "briish": 2,
+  "ital": 2
+ },
+ "why": "Madison Avenue at 45th since 1938: American tailoring with English and Italian cloth, made to measure upstairs; four stores, sold by Mitsui in 2025.",
+ "origin": "Founded in 1938 in New York, NY by Ralph Ostrove.",
+ "chan": [
+  "O",
+  "W"
+ ],
+ "conf": "S",
+ "forgc": [
+  3,
+  4,
+  3
+ ],
+ "onething": {
+  "p": null,
+  "u": null,
+  "n": "thread found no stated signature product (seat_wave_a, 10 Oct 2026)"
+ },
+ "prices": [
+  [
+   80,
+   80
+  ],
+  [
+   125,
+   995
+  ],
+  [
+   245,
+   495
+  ],
+  [
+   350,
+   595
+  ],
+  [
+   475,
+   995
+  ],
+  [
+   295,
+   750
+  ],
+  [
+   1295,
+   4995
+  ],
+  [
+   395,
+   895
+  ]
+ ],
+ "price_checked": true,
+ "price_range_only": [
+  "Dress shirt",
+  "Jeans",
+  "Dress pants",
+  "Outerwear"
+ ],
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Pima Interlock Logo T-Shirt",
+   "lu": "https://www.paulstuart.com/mens/sportswear/polos-and-t-shirts/pima-interlock-logo-t-shirt/201B0101-N680.html",
+   "hp": "Pima Interlock Logo T-Shirt",
+   "hu": "https://www.paulstuart.com/mens/sportswear/polos-and-t-shirts/pima-interlock-logo-t-shirt/201B0101-N680.html",
+   "b": "single"
+  },
+  "Polo": {
+   "lp": "Cotton Pique Logo Polo (compare-at; on sale $99.75)",
+   "lu": "https://www.paulstuart.com/clearancemens-clearancepolos/cotton-pique-logo-polo/20121321-N001.html",
+   "hp": "Cashmere & Silk Long Sleeve Polo, 70% cashmere / 30% silk (compare-at; on sale $599.75)",
+   "hu": "https://www.paulstuart.com/sale/mens-sale/sweaters/cashmere-and-silk-long-sleeve-polo/20165302-2564.html",
+   "b": "pair"
+  },
+  "Dress shirt": {
+   "lp": "Super 140s Cotton Button Down Collar Dress Shirt",
+   "lu": "https://www.paulstuart.com/mens/tailored-clothing/dress-shirts/super-140s-cotton-button-down-collar-dress-shirt/1049990-N100.html",
+   "hp": "Phineas Cole Cotton Stripe Dress Shirt (compare-at; on sale $299.75)",
+   "hu": "https://www.paulstuart.com/sale/mens-sale/dress-shirts/cotton-stripe-dress-shirt/80487025-N107.html",
+   "b": "range"
+  },
+  "Jeans": {
+   "lp": "Denim Five-Pocket Pant (compare-at; on sale $249.75)",
+   "lu": "https://www.paulstuart.com/sale/mens-sale/pants-and-shorts/denim-five-pocket-pant/237B3660-X025.html",
+   "hp": "Vintage Wash Five-Pocket Denim (compare-at; on sale $499.75)",
+   "hu": "https://www.paulstuart.com/sale/mens-sale/pants-and-shorts/vintage-wash-five-pocket-denim/2378487X-2282.html",
+   "b": "range"
+  },
+  "Dress pants": {
+   "lp": "All Year Wool Dress Trouser (Super 110s)",
+   "lu": "https://www.paulstuart.com/mens/tailored-clothing/dress-pants/all-year-wool-dress-trouser/721B3900-N010.html",
+   "hp": "Summer Breeze Dress Trouser, 40% wool / 35% silk / 25% linen (compare-at; on sale $599.75)",
+   "hu": "https://www.paulstuart.com/sale/mens-sale/pants-and-shorts/summer-breeze-dress-trouser/72163208-N103.html",
+   "b": "range"
+  },
+  "Sweater": {
+   "lp": "Cotton & Linen Summer Sweater, crewneck (compare-at; on sale $249.75)",
+   "lu": "https://www.paulstuart.com/sale/mens-sale/sweaters/cotton-and-linen-summer-sweater/22082592-N040.html",
+   "hp": "Cashmere Crewneck Sweater, 100% cashmere",
+   "hu": "https://www.paulstuart.com/mens/sportswear/sweaters/cashmere-crewneck-sweater/21585071-N601.html",
+   "b": "pair"
+  },
+  "Outerwear": {
+   "lp": "Quilted Jacket",
+   "lu": "https://www.paulstuart.com/mens/sportswear/outerwear/quilted-jacket/32481050-N302.html",
+   "hp": "Double Faced Cashmere Coat, 100% Loro Piana cashmere",
+   "hu": "https://www.paulstuart.com/mens/sportswear/outerwear/double-faced-cashmere-coat/32472434-1724.html",
+   "b": "range"
+  },
+  "Shoes": {
+   "lp": "Lord Suede Loafer",
+   "lu": "https://www.paulstuart.com/mens/footwear/loafers/lord-suede-loafer/4111HGSU002-N400.html",
+   "hp": "Steven Suede Tassel Loafer (compare-at; PDP sale $626.50)",
+   "hu": "https://www.paulstuart.com/mens/footwear/steven-suede-tassel-loafer/4111HHSU001-N252.html",
+   "b": "pair"
+  }
+ },
+ "garment_links": {
+  "T-shirt": "https://www.paulstuart.com/mens/sportswear/polos-and-t-shirts/",
+  "Polo": "https://www.paulstuart.com/mens/sportswear/polos-and-t-shirts/",
+  "Dress shirt": "https://www.paulstuart.com/mens/tailored-clothing/dress-shirts/",
+  "Jeans": "https://www.paulstuart.com/mens/sportswear/pants/",
+  "Dress pants": "https://www.paulstuart.com/mens/tailored-clothing/dress-pants/",
+  "Sweater": "https://www.paulstuart.com/mens/sportswear/sweaters/",
+  "Outerwear": "https://www.paulstuart.com/mens/sportswear/outerwear/",
+  "Shoes": "https://www.paulstuart.com/footwear/all-footwear/loafers/"
+ },
+ "price_read": {
+  "date": "2026-10-10",
+  "store": "https://www.paulstuart.com/",
+  "currency": "USD",
+  "status": "partial",
+  "sublines": "Phineas Cole"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (10 Oct 2026): [\"Belsetta\"] — NC; share of range 2%. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 3 (10 Oct 2026): Paul Stuart names makers and mills on product pages, but only for a minority of the range: Rochester Tailored Clothing, Hamilton Shirts with Thomas Mason cloth, Loro Piana, Somelos and Mackintosh appear on 5 of 52 sampled pages. 87% of sampled pages state a country, mainly Italy and Canada. The only owned-making statement is the in-house tailors claim on the robe page, with no evidence behind it,  Seated as proposed, pending ruling.",
+  "comfort": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "style": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "dur": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "forg": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "fuss": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "golffice": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "whitet": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "logo": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "western": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "rock": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "workwear": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "outdoor": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "surf": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "ivy": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "prep": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "finbro": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "status": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "murica": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "briish": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "ital": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "denim": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "cashmere": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "linen": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "cotton": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "wool": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "synth": "seeded 10 Oct 2026 from the seat_wave_a return; provisional"
+ },
+ "doors": {
+  "c": "full",
+  "n": 4,
+  "cities": [
+   [
+    "Chicago",
+    "IL",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    1
+   ],
+   [
+    "Southampton",
+    "NY",
+    1
+   ],
+   [
+    "Washington",
+    "DC",
+    1
+   ]
+  ],
+  "basis": "seat_wave_a 2026-10-08",
+  "out": 0,
+  "con": 0
+ },
+ "cities": "4 stores across the US, including New York, Chicago, Washington, and its own site",
+ "site": {
+  "domain": "paulstuart.com",
+  "platform": "other",
+  "feed": "none",
+  "feed_count": 0,
+  "status": "live_store",
+  "checked": "2026-10-10"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "NC",
+  "marks": [
+   "Belsetta"
+  ],
+  "source": "seat_wave_a_2026-10-08",
+  "checked": "2026-10-10"
+ },
+ "craft_evidence": {
+  "owned": "claim only: Wool Plaid Robe PDP says robes are \"handcrafted at our NYC Madison Avenue flagship store by our in-house tailors\" (no photo, place detail or filing). Meet the Makers describes partner factories, not an owned one. Co-owner since Dec 2025 is Peerless Clothing (apparel manufacturer, per pre",
+  "makers": "evidence on PDPs, small share: Rochester Tailored Clothing (Two Fifty Navy Blazer), Hamilton Shirts, Houston, \"since 1883\" (Made in America dress shirts, 5 styles), Mackintosh (Nor'easter cloth). Meet the Makers page names these plus Waterbury Button and American Woolen. 3 of 52 sampled PDPs name a ",
+  "mills": "evidence on PDPs: Loro Piana (Double Faced Cashmere Coat; Cashmere Patch Pocket Jacket), Thomas Mason (Hamilton dress shirt), Somelos (Oxford Button-Down), American Woolen Mills CT (Two Fifty Blazer): 5 of 52 sampled PDPs. Others say only \"Woven in Italy\" / Biella. Made-to-measure page names Holland",
+  "madein": "87",
+  "heritage": "claim, dated: homepage \"American, Since 1938\"; place implicit (Madison Avenue flagship, \"New York Looks Good on You\"); founder not named on site. Wikipedia (citing NYT 1981 obituary): founded 1938 by ",
+  "process": "partial: PDP construction bullets are specific (lightweight canvas, basted sleeve, felt under collar; Goodyear construction on shoes; split back yoke, single needle stitching, 2-ply yarn, handmade but",
+  "urls": [
+   "https://www.paulstuart.com/meetthemakers.html",
+   "https://www.paulstuart.com/mens/tailored-clothing/blazers-and-jackets/two-fifty-navy-blazer/711B5700-N410.html"
+  ],
+  "conf": "medium",
+  "read": "2026-10-10",
+  "proposed": 3,
+  "reasoning": "Paul Stuart names makers and mills on product pages, but only for a minority of the range: Rochester Tailored Clothing, Hamilton Shirts with Thomas Mason cloth, Loro Piana, Somelos and Mackintosh appear on 5 of 52 sampled pages. 87% of sampled pages state a country, mainly Italy and Canada. The only owned-making statement is the in-house tailors claim on the robe page, with no evidence behind it, so this is a 3 (names makers and mills, owns nothing shown) rather than a 4."
+ },
+ "ownership": {
+  "owner": "Middle West Partners (private investment group) with Peerless Clothing Inc., acquired from Mitsui & Co. (FashionNetwork, 24 Dec 2025); CEO John Hutchison (ex-Bo",
+  "u": "https://ca.fashionnetwork.com/news/Middle-west-partners-acquires-paul-stuart,1794336.html"
+ },
+ "opview": "“There is no ocean between the wool and the needle. No anonymous supply chain. These are American companies.” — John Hutchison, CEO, paulstuart.com",
+ "region": {
+  "o": [
+   4454,
+   4457
+  ],
+  "s": []
+ },
+ "fibre": {
+  "t": 324,
+  "w": 51,
+  "n": 14,
+  "s": 1,
+  "c": 0,
+  "x": 2,
+  "xh": 1,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "shirts",
+   "trousers",
+   "tailoring"
+  ],
+  "st": "partial"
+ },
+ "resale": {
+  "grailed": {
+   "u": "https://www.grailed.com/designers/paul-stuart"
+  }
+ },
+ "season": {
+  "l": "Fall 2026",
+  "t": "lookbook",
+  "u": "https://www.paulstuart.com/fall2026cataloglookbook.html",
+  "m": "yes"
+ }
+}

@@ -1,0 +1,981 @@
+{
+ "name": "Abercrombie & Fitch",
+ "band": "premium",
+ "seat": 207,
+ "dagger": 0,
+ "focus": {
+  "tech": 2,
+  "comfort": 3,
+  "craft": 1,
+  "style": 3
+ },
+ "fabric": {
+  "denim": 4,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 3,
+  "wool": 1,
+  "synth": 2
+ },
+ "dials": {
+  "dur": 2,
+  "forg": 3,
+  "fuss": -2,
+  "golffice": -2,
+  "whitet": 3,
+  "logo": 2,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 2,
+  "murica": 3,
+  "prep": 2,
+  "street": 1
+ },
+ "why": "Jeans, tees, sweaters and jackets for men and women in a clean American casual style; the mall chain remade itself around denim after 2017.",
+ "origin": "Founded in 1892 in New York, NY by David T. Abercrombie.",
+ "chan": [
+  "O",
+  "W"
+ ],
+ "conf": "S",
+ "forgc": [
+  3,
+  3,
+  1
+ ],
+ "onething": {
+  "p": "Jeans - Relaxed Straight Jean",
+  "u": "https://www.abercrombie.com/shop/us/p/relaxed-straight-jean-63718342",
+  "n": "from the seat_wave_a return; \"Jeans - Relaxed Straight Jean (denim is the house franchise: Fall 2026 \"Denim Ma\""
+ },
+ "prices": [
+  [
+   19,
+   40
+  ],
+  [
+   60,
+   95
+  ],
+  [
+   70,
+   80
+  ],
+  [
+   80,
+   110
+  ],
+  [
+   100,
+   130
+  ],
+  [
+   75,
+   200
+  ],
+  [
+   140,
+   240
+  ],
+  [
+   110,
+   130
+  ]
+ ],
+ "price_checked": true,
+ "price_range_only": [
+  "Polo",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants",
+  "Outerwear"
+ ],
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Classic Essential Tee (White)",
+   "lu": "https://www.abercrombie.com/shop/us/p/classic-essential-tee-61737319",
+   "hp": "Premium Heavyweight 2.0 Tee (Dark Brown)",
+   "hu": "https://www.abercrombie.com/shop/us/p/premium-heavyweight-20-tee-58965824",
+   "b": "pair"
+  },
+  "Polo": {
+   "lp": "100% Cotton Icon Pique Polo",
+   "lu": "https://www.abercrombie.com/shop/us/p/100-cotton-icon-pique-polo-62714819",
+   "hp": "100% Merino Wool 3-Button Collared Sweater",
+   "hu": "https://www.abercrombie.com/shop/us/p/100-merino-wool-3-button-collared-sweater-63845824",
+   "b": "range"
+  },
+  "Dress shirt": {
+   "lp": "A&F Collins Slim Stretch Suiting Shirt",
+   "lu": "https://www.abercrombie.com/shop/us/p/collins-suiting-shirt-59172942",
+   "hp": "The A&F Collins Linen-Blend Shirt",
+   "hu": "https://www.abercrombie.com/shop/us/p/the-a-and-f-collins-linen-blend-shirt-59708353",
+   "b": "range"
+  },
+  "Jeans": {
+   "lp": "Relaxed Jean (Dark Wash)",
+   "lu": "https://www.abercrombie.com/shop/us/p/relaxed-jean-63144841",
+   "hp": "Relaxed Workwear Jean (Pale Khaki, rigid 100% cotton denim)",
+   "hu": "https://www.abercrombie.com/shop/us/p/relaxed-workwear-jean-63492820",
+   "b": "range"
+  },
+  "Dress pants": {
+   "lp": "The A&F Collins Suit Pant",
+   "lu": "https://www.abercrombie.com/shop/us/p/the-a-and-f-collins-tailored-suit-pant-59111385",
+   "hp": "The A&F Collins Slim 100% Linen Suit Pant",
+   "hu": "https://www.abercrombie.com/shop/us/p/100-linen-the-a-and-f-collins-slim-suit-pant-63481018",
+   "b": "range"
+  },
+  "Sweater": {
+   "lp": "100% Cotton Rollneck Crew Sweater (Cream)",
+   "lu": "https://www.abercrombie.com/shop/us/p/100-cotton-rollneck-crew-sweater-62655822",
+   "hp": "100% Cashmere Crew Sweater (Vivid Red)",
+   "hu": "https://www.abercrombie.com/shop/us/p/100-cashmere-crew-sweater-63845822",
+   "b": "pair"
+  },
+  "Outerwear": {
+   "lp": "100% Cotton Harrington Jacket",
+   "lu": "https://www.abercrombie.com/shop/us/p/100-cotton-harrington-jacket-63885824",
+   "hp": "Wool-Blend Long Mac Coat",
+   "hu": "https://www.abercrombie.com/shop/us/p/wool-blend-long-mac-coat-63885826",
+   "b": "range"
+  },
+  "Shoes": {
+   "lp": "Woven Suede Loafers (compare-at; shown Was $110 now $88)",
+   "lu": "https://www.abercrombie.com/shop/us/p/woven-suede-loafers-63108424",
+   "hp": "Leather Loafers (compare-at; shown Was $130 now $104)",
+   "hu": "https://www.abercrombie.com/shop/us/p/leather-loafers-62825330",
+   "b": "pair"
+  }
+ },
+ "garment_links": {
+  "T-shirt": "https://www.abercrombie.com/shop/us/mens-tops-relaxed-essential-t-shirts",
+  "Polo": "https://www.abercrombie.com/shop/us/mens-polos-tops",
+  "Dress shirt": "https://www.abercrombie.com/shop/us/mens-tops-dress-shirts-button-up-shirts",
+  "Jeans": "https://www.abercrombie.com/shop/us/mens-jeans-bottoms",
+  "Dress pants": "https://www.abercrombie.com/shop/us/mens-bottoms-dress-pants-pants",
+  "Sweater": "https://www.abercrombie.com/shop/us/mens-tops-all-sweaters-sweaters",
+  "Outerwear": "https://www.abercrombie.com/shop/us/mens-view-all-coats-and-jackets",
+  "Shoes": "https://www.abercrombie.com/shop/us/mens-boat-shoes-and-loafers-shoes"
+ },
+ "price_read": {
+  "date": "2026-10-10",
+  "store": "https://www.abercrombie.com/shop/us",
+  "currency": "USD",
+  "status": "partial",
+  "sublines": "A&F Collins (suiting); YPB (active); Premium Heavyweight; A&F Essentials - all on A&F men's pages. Excluded: abercrombie kids, women's, Hollister, third-party shoes (Sperry, G.H. Bass, Frye, Puma, UGG)"
+ },
+ "notes": {
+  "tech": "Thread proposed 2 (10 Oct 2026): [\"softAF\",\"Vintage Stretch\",\"neoKNIT\",\"motionTEK\",\"powerSOFT\",\"Coolmax\"] — both; share of range 18%. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 1 (10 Oct 2026): Every one of 77 men's product pages read says only \"Imported.\" with no country, maker or mill; the 10-K describes a third-party vendor network (124 vendors, 15 countries; Vietnam ~37% and Cambodia ~26% of receipts) and no owned making. The dated 1892 New York story is retail heritage, not evidence of who makes the clothes. Nothing checkable about making on the brand's own pages. Seated as proposed, pending ruling.",
+  "comfort": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "style": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "dur": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "forg": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "fuss": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "golffice": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "whitet": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "logo": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "western": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "rock": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "workwear": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "outdoor": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "surf": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "murica": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "prep": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "street": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "denim": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "cashmere": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "linen": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "cotton": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "wool": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "synth": "seeded 10 Oct 2026 from the seat_wave_a return; provisional"
+ },
+ "doors": {
+  "c": "full",
+  "n": 154,
+  "cities": [
+   [
+    "Chicago",
+    "IL",
+    4
+   ],
+   [
+    "Las Vegas",
+    "NV",
+    4
+   ],
+   [
+    "Miami",
+    "FL",
+    3
+   ],
+   [
+    "New York",
+    "NY",
+    3
+   ],
+   [
+    "Pittsburgh",
+    "PA",
+    3
+   ],
+   [
+    "Atlanta",
+    "GA",
+    2
+   ],
+   [
+    "Austin",
+    "TX",
+    2
+   ],
+   [
+    "Boston",
+    "MA",
+    2
+   ],
+   [
+    "Columbus",
+    "OH",
+    2
+   ],
+   [
+    "Dallas",
+    "TX",
+    2
+   ],
+   [
+    "Honolulu",
+    "HI",
+    2
+   ],
+   [
+    "Houston",
+    "TX",
+    2
+   ],
+   [
+    "San Antonio",
+    "TX",
+    2
+   ],
+   [
+    "San Diego",
+    "CA",
+    2
+   ],
+   [
+    "Scottsdale",
+    "AZ",
+    2
+   ],
+   [
+    "The Woodlands",
+    "TX",
+    2
+   ],
+   [
+    "Arcadia",
+    "CA",
+    1
+   ],
+   [
+    "Aventura",
+    "FL",
+    1
+   ],
+   [
+    "Bakersfield",
+    "CA",
+    1
+   ],
+   [
+    "Baltimore",
+    "MD",
+    1
+   ],
+   [
+    "Bellevue",
+    "WA",
+    1
+   ],
+   [
+    "Bethesda",
+    "MD",
+    1
+   ],
+   [
+    "Birmingham",
+    "AL",
+    1
+   ],
+   [
+    "Bloomington",
+    "MN",
+    1
+   ],
+   [
+    "Boca Raton",
+    "FL",
+    1
+   ],
+   [
+    "Braintree",
+    "MA",
+    1
+   ],
+   [
+    "Brandon",
+    "FL",
+    1
+   ],
+   [
+    "Brea",
+    "CA",
+    1
+   ],
+   [
+    "Bridgewater",
+    "NJ",
+    1
+   ],
+   [
+    "Brooklyn",
+    "NY",
+    1
+   ],
+   [
+    "Broomfield",
+    "CO",
+    1
+   ],
+   [
+    "Buffalo",
+    "NY",
+    1
+   ],
+   [
+    "Burlingame",
+    "CA",
+    1
+   ],
+   [
+    "Burlington",
+    "MA",
+    1
+   ],
+   [
+    "Canoga Park",
+    "CA",
+    1
+   ],
+   [
+    "Carlsbad",
+    "CA",
+    1
+   ],
+   [
+    "Cerritos",
+    "CA",
+    1
+   ],
+   [
+    "Chandler",
+    "AZ",
+    1
+   ],
+   [
+    "Charleston",
+    "SC",
+    1
+   ],
+   [
+    "Charlotte",
+    "NC",
+    1
+   ],
+   [
+    "Cherry Hill",
+    "NJ",
+    1
+   ],
+   [
+    "Cincinnati",
+    "OH",
+    1
+   ],
+   [
+    "Concord",
+    "CA",
+    1
+   ],
+   [
+    "Corte Madera",
+    "CA",
+    1
+   ],
+   [
+    "Costa Mesa",
+    "CA",
+    1
+   ],
+   [
+    "Danbury",
+    "CT",
+    1
+   ],
+   [
+    "Denver",
+    "CO",
+    1
+   ],
+   [
+    "Destin",
+    "FL",
+    1
+   ],
+   [
+    "Durham",
+    "NC",
+    1
+   ],
+   [
+    "East Rutherford",
+    "NJ",
+    1
+   ],
+   [
+    "Edina",
+    "MN",
+    1
+   ],
+   [
+    "Edison",
+    "NJ",
+    1
+   ],
+   [
+    "El Paso",
+    "TX",
+    1
+   ],
+   [
+    "Farmington",
+    "CT",
+    1
+   ],
+   [
+    "Fort Lauderdale",
+    "FL",
+    1
+   ],
+   [
+    "Fort Worth",
+    "TX",
+    1
+   ],
+   [
+    "Freehold",
+    "NJ",
+    1
+   ],
+   [
+    "Fresno",
+    "CA",
+    1
+   ],
+   [
+    "Friendswood",
+    "TX",
+    1
+   ],
+   [
+    "Frisco",
+    "TX",
+    1
+   ],
+   [
+    "Garden City",
+    "NY",
+    1
+   ],
+   [
+    "Glendale",
+    "CA",
+    1
+   ],
+   [
+    "Grand Rapids",
+    "MI",
+    1
+   ],
+   [
+    "Greenwich",
+    "CT",
+    1
+   ],
+   [
+    "Hoboken",
+    "NJ",
+    1
+   ],
+   [
+    "Huntington Station",
+    "NY",
+    1
+   ],
+   [
+    "Indianapolis",
+    "IN",
+    1
+   ],
+   [
+    "Jacksonville",
+    "FL",
+    1
+   ],
+   [
+    "Kennesaw",
+    "GA",
+    1
+   ],
+   [
+    "King of Prussia",
+    "PA",
+    1
+   ],
+   [
+    "Lexington",
+    "KY",
+    1
+   ],
+   [
+    "Lone Tree",
+    "CO",
+    1
+   ],
+   [
+    "Los Angeles",
+    "CA",
+    1
+   ],
+   [
+    "Louisville",
+    "KY",
+    1
+   ],
+   [
+    "Lynnfield",
+    "MA",
+    1
+   ],
+   [
+    "Mcallen",
+    "TX",
+    1
+   ],
+   [
+    "Mclean",
+    "VA",
+    1
+   ],
+   [
+    "Meridian",
+    "ID",
+    1
+   ],
+   [
+    "Metairie",
+    "LA",
+    1
+   ],
+   [
+    "Mission Viejo",
+    "CA",
+    1
+   ],
+   [
+    "Naperville",
+    "IL",
+    1
+   ],
+   [
+    "Nashua",
+    "NH",
+    1
+   ],
+   [
+    "Nashville",
+    "TN",
+    1
+   ],
+   [
+    "Natick",
+    "MA",
+    1
+   ],
+   [
+    "Newark",
+    "DE",
+    1
+   ],
+   [
+    "Northridge",
+    "CA",
+    1
+   ],
+   [
+    "Norwalk",
+    "CT",
+    1
+   ],
+   [
+    "Novi",
+    "MI",
+    1
+   ],
+   [
+    "Oakbrook",
+    "IL",
+    1
+   ],
+   [
+    "Oklahoma City",
+    "OK",
+    1
+   ],
+   [
+    "Orange",
+    "OH",
+    1
+   ],
+   [
+    "Orlando",
+    "FL",
+    1
+   ],
+   [
+    "Overland Park",
+    "KS",
+    1
+   ],
+   [
+    "Palm Beach Gardens",
+    "FL",
+    1
+   ],
+   [
+    "Paramus",
+    "NJ",
+    1
+   ],
+   [
+    "Pasadena",
+    "CA",
+    1
+   ],
+   [
+    "Philadelphia",
+    "PA",
+    1
+   ],
+   [
+    "Providence",
+    "RI",
+    1
+   ],
+   [
+    "Raleigh",
+    "NC",
+    1
+   ],
+   [
+    "Rancho Cucamonga",
+    "CA",
+    1
+   ],
+   [
+    "Riverton",
+    "UT",
+    1
+   ],
+   [
+    "Roseville",
+    "CA",
+    1
+   ],
+   [
+    "Roseville",
+    "MN",
+    1
+   ],
+   [
+    "Sacramento",
+    "CA",
+    1
+   ],
+   [
+    "Salem",
+    "NH",
+    1
+   ],
+   [
+    "Santa Ana",
+    "CA",
+    1
+   ],
+   [
+    "Santa Clara",
+    "CA",
+    1
+   ],
+   [
+    "Santa Monica",
+    "CA",
+    1
+   ],
+   [
+    "Sarasota",
+    "FL",
+    1
+   ],
+   [
+    "Schaumburg",
+    "IL",
+    1
+   ],
+   [
+    "Short Hills",
+    "NJ",
+    1
+   ],
+   [
+    "Skokie",
+    "IL",
+    1
+   ],
+   [
+    "St. Louis",
+    "MO",
+    1
+   ],
+   [
+    "Strongsville",
+    "OH",
+    1
+   ],
+   [
+    "Tampa",
+    "FL",
+    1
+   ],
+   [
+    "Tigard",
+    "OR",
+    1
+   ],
+   [
+    "Toledo",
+    "OH",
+    1
+   ],
+   [
+    "Torrance",
+    "CA",
+    1
+   ],
+   [
+    "Troy",
+    "MI",
+    1
+   ],
+   [
+    "Tukwila",
+    "WA",
+    1
+   ],
+   [
+    "Victor",
+    "NY",
+    1
+   ],
+   [
+    "Virginia Beach",
+    "VA",
+    1
+   ],
+   [
+    "Walnut Creek",
+    "CA",
+    1
+   ],
+   [
+    "Washington",
+    "DC",
+    1
+   ],
+   [
+    "Wauwatosa",
+    "WI",
+    1
+   ],
+   [
+    "Wayne",
+    "NJ",
+    1
+   ],
+   [
+    "Wellington",
+    "FL",
+    1
+   ],
+   [
+    "West Des Moines",
+    "IA",
+    1
+   ],
+   [
+    "West Nyack",
+    "NY",
+    1
+   ],
+   [
+    "White Plains",
+    "NY",
+    1
+   ],
+   [
+    "Winston Salem",
+    "NC",
+    1
+   ]
+  ],
+  "basis": "seat_wave_a 2026-10-08 locator read: 156 A&F-banner full-price (incl. 2 opening) + 39 outlets; abercrombie kids (87 + 19) not counted",
+  "out": 39,
+  "con": 0
+ },
+ "cities": "154 stores across the US, including Las Vegas, Chicago, New York, and its own site",
+ "site": {
+  "domain": "abercrombie.com",
+  "platform": "other",
+  "feed": "none",
+  "feed_count": 0,
+  "status": "live_store",
+  "checked": "2026-10-10"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "both",
+  "marks": [
+   "softAF",
+   "Vintage Stretch",
+   "neoKNIT",
+   "motionTEK",
+   "powerSOFT",
+   "Coolmax"
+  ],
+  "source": "seat_wave_a_2026-10-08",
+  "checked": "2026-10-10"
+ },
+ "craft_evidence": {
+  "owned": "None stated (evidence): FY2025 10-K says merchandise is sourced through ~124 third-party vendors in 15 countries; no owned factory, mill or workshop named on site or in filing",
+  "makers": "None: 0 of 77 PDPs read name a factory or maker",
+  "mills": "None: 0 of 77 PDPs name a cloth or yarn mill (fabrics described generically, e.g. \"Rigid Denim\", \"suiting fabric\")",
+  "madein": "0",
+  "heritage": "Dated and placed (claim, brand + filing): about page \"1892 David Abercrombie founds Abercrombie Co.\"; 30 Jul 2026 company release \"origin in New York City dating back to 1892\"; retail heritage, not ma",
+  "process": "No making process documented; PDPs give fabric weights only (softAF 180g/275g, 350g polo, 480 GSM sweatshirt) and \"Imported.\"",
+  "urls": [
+   "https://www.sec.gov/Archives/edgar/data/1018840/000101884026000012/anf-20260131.htm",
+   "https://www.abercrombie.com/shop/us/p/classic-essential-tee-61737319"
+  ],
+  "conf": "medium",
+  "read": "2026-10-10",
+  "proposed": 1,
+  "reasoning": "Every one of 77 men's product pages read says only \"Imported.\" with no country, maker or mill; the 10-K describes a third-party vendor network (124 vendors, 15 countries; Vietnam ~37% and Cambodia ~26% of receipts) and no owned making. The dated 1892 New York story is retail heritage, not evidence of who makes the clothes. Nothing checkable about making on the brand's own pages."
+ },
+ "ownership": {
+  "owner": "Abercrombie & Fitch Co. (NYSE: ANF)",
+  "u": "https://www.sec.gov/Archives/edgar/data/1018840/000101884026000012/anf-20260131.htm"
+ },
+ "say": "AB-er-krom-bee and FITCH",
+ "opview": "“Abercrombie & Fitch is an effortless and elevated American lifestyle brand.” — Abercrombie & Fitch, abercrombie.com About Us page (set in capitals on page; undated",
+ "region": {
+  "o": [
+   3813,
+   3814,
+   3815,
+   3816,
+   3818,
+   3853,
+   3854,
+   3855,
+   3856,
+   3857,
+   3858,
+   3872,
+   3873,
+   3874,
+   3875,
+   3876,
+   3877,
+   3878,
+   3879,
+   3880,
+   3881,
+   3882,
+   3887,
+   3888,
+   3889,
+   3890,
+   3891,
+   3892,
+   3893,
+   3894,
+   3895,
+   3896,
+   3905,
+   3906,
+   3907,
+   3908,
+   3909,
+   3910
+  ],
+  "s": []
+ },
+ "fibre": {
+  "t": 116,
+  "w": 91,
+  "n": 66,
+  "s": 9,
+  "c": 3,
+  "x": 19,
+  "xh": 4,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "knitwear",
+   "shirts",
+   "tees-polos"
+  ],
+  "st": "partial"
+ },
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?brand_ids[]=93&catalog[]=5",
+   "m": "brand filter",
+   "n": ""
+  },
+  "grailed": {
+   "u": "https://www.grailed.com/designers/abercrombie-fitch"
+  }
+ },
+ "season": {
+  "l": "Denim Made Iconic (Fall 2026 campaign)",
+  "t": "lookbook",
+  "u": "https://abercrombieandfitchcompany.gcs-web.com/news-releases/news-release-details/abercrombie-fitch-returns-its-new-york-roots-fall-denim-campaign",
+  "m": "yes"
+ }
+}

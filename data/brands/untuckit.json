@@ -1,0 +1,637 @@
+{
+ "name": "UNTUCKit",
+ "band": "premium",
+ "seat": 241,
+ "dagger": 0,
+ "focus": {
+  "tech": 3,
+  "comfort": 4,
+  "craft": 2,
+  "style": 1
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 2,
+  "cotton": 4,
+  "wool": 1,
+  "synth": 2
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 4,
+  "fuss": -2,
+  "golffice": 1,
+  "whitet": 2,
+  "logo": 1,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1,
+  "murica": 2,
+  "finbro": 2
+ },
+ "why": "Button-down shirts cut to be worn untucked, from a 2010 New York start-up that opened seventy stores; sold to Randa in 2026.",
+ "origin": "Founded in 2010 in New York City by Chris Riccobono.",
+ "chan": [
+  "O",
+  "W"
+ ],
+ "conf": "S",
+ "forgc": [
+  4,
+  4,
+  1
+ ],
+ "onething": {
+  "p": "The untucked-length button-down shirt; today the Wrinkle-Fre",
+  "u": "https://www.untuckit.com/products/black-stone-wrinkle-free",
+  "n": "from the seat_wave_a return; \"The untucked-length button-down shirt; today the Wrinkle-Free shirt line (e.g. W\""
+ },
+ "prices": [
+  [
+   40,
+   50
+  ],
+  [
+   70,
+   90
+  ],
+  [
+   109,
+   115
+  ],
+  [
+   148,
+   148
+  ],
+  [
+   118,
+   118
+  ],
+  [
+   128,
+   148
+  ],
+  [
+   148,
+   188
+  ],
+  [
+   158,
+   158
+  ]
+ ],
+ "price_checked": true,
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Dress pants",
+  "Sweater",
+  "Outerwear",
+  "Shoes"
+ ],
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Ultrasoft Tee",
+   "lu": "https://www.untuckit.com/products/saxum-white",
+   "hp": "EcoSoft™ Pocket Tee",
+   "hu": "https://www.untuckit.com/products/berry-pocket-tee-vanilla-ice",
+   "b": "range"
+  },
+  "Polo": {
+   "lp": "Performance Polo",
+   "lu": "https://www.untuckit.com/products/clavidor-white",
+   "hp": "Wrinkle-Free Damaschino Long-Sleeve Polo",
+   "hu": "https://www.untuckit.com/products/damaschino-long-sleeve-hthr-sphagnum",
+   "b": "range"
+  },
+  "Dress shirt": {
+   "lp": "Wrinkle-Free Black Stone Shirt",
+   "lu": "https://www.untuckit.com/products/black-stone-wrinkle-free",
+   "hp": "Wrinkle-Free Arnold Shirt",
+   "hu": "https://www.untuckit.com/products/arnold-wf",
+   "b": "range"
+  },
+  "Jeans": {
+   "lp": "UNTUCKit Denim",
+   "lu": "https://www.untuckit.com/products/denim-pants-rinse",
+   "hp": "UNTUCKit Denim",
+   "hu": "https://www.untuckit.com/products/denim-pants-rinse",
+   "b": "single"
+  },
+  "Dress pants": {
+   "lp": "Classic Chino Pants",
+   "lu": "https://www.untuckit.com/products/chino-pant-navy",
+   "hp": "5-Pocket Chino Pants",
+   "hu": "https://www.untuckit.com/products/5-pocket-pant-light-grey",
+   "b": "range"
+  },
+  "Sweater": {
+   "lp": "Cotton Quarter-Zip Sweater",
+   "lu": "https://www.untuckit.com/products/newbury-quarter-zip-light-blue",
+   "hp": "Cable-Knit Button Neck Sweater",
+   "hu": "https://www.untuckit.com/products/castilla-red",
+   "b": "range"
+  },
+  "Outerwear": {
+   "lp": "Performance Tech Jacket",
+   "lu": "https://www.untuckit.com/products/connolly-1",
+   "hp": "Quilted City Jacket",
+   "hu": "https://www.untuckit.com/products/gardner",
+   "b": "range"
+  },
+  "Shoes": {
+   "lp": "Leather Lace-Up Sneakers",
+   "lu": "https://www.untuckit.com/products/leather-shoe-brown",
+   "hp": "Contrast Leather Lace-Up Sneakers",
+   "hu": "https://www.untuckit.com/products/contrast-shoe-white",
+   "b": "range"
+  }
+ },
+ "garment_links": {
+  "T-shirt": "https://www.untuckit.com/collections/tees-henleys",
+  "Polo": "https://www.untuckit.com/collections/polos",
+  "Dress shirt": "https://www.untuckit.com/collections/shirts",
+  "Jeans": "https://www.untuckit.com/collections/pants",
+  "Dress pants": "https://www.untuckit.com/collections/pants",
+  "Sweater": "https://www.untuckit.com/collections/sweaters-sweatshirts",
+  "Outerwear": "https://www.untuckit.com/collections/outerwear",
+  "Shoes": "https://www.untuckit.com/collections/shoes-accessories"
+ },
+ "price_read": {
+  "date": "2026-10-10",
+  "store": "https://www.untuckit.com/",
+  "currency": "USD",
+  "status": "partial",
+  "sublines": "-"
+ },
+ "notes": {
+  "tech": "Thread proposed 3 (10 Oct 2026): [\"CottonTek™\", \"EcoSoft™\", \"Traveler Tech\", \"brrr°\", \"SUPIMA®\", \"TENCEL™ Lyocell\", \"FUZE Technology\", \"LYCRA\"] — both; share of range 11%. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 2 (10 Oct 2026): UNTUCKit owns no making and names no maker; every product page read says only \"Imported\", so it does not state a country. It names three Italian mills on four sport coats and lists finishes and inspection steps, which is a little more than nothing checkable but well short of a 3. Seated as proposed, pending ruling.",
+  "comfort": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "style": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "dur": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "forg": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "fuss": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "golffice": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "whitet": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "logo": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "western": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "rock": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "workwear": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "outdoor": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "surf": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "murica": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "finbro": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "denim": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "cashmere": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "linen": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "cotton": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "wool": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "synth": "seeded 10 Oct 2026 from the seat_wave_a return; provisional"
+ },
+ "doors": {
+  "c": "full",
+  "n": 69,
+  "cities": [
+   [
+    "Albuquerque",
+    "NM",
+    1
+   ],
+   [
+    "Arlington",
+    "VA",
+    1
+   ],
+   [
+    "Atlanta",
+    "GA",
+    1
+   ],
+   [
+    "Austin",
+    "TX",
+    1
+   ],
+   [
+    "Beachwood",
+    "OH",
+    1
+   ],
+   [
+    "Bethesda",
+    "MD",
+    1
+   ],
+   [
+    "Bloomington",
+    "MN",
+    1
+   ],
+   [
+    "Boca Raton",
+    "FL",
+    1
+   ],
+   [
+    "Boston",
+    "MA",
+    1
+   ],
+   [
+    "Brea",
+    "CA",
+    1
+   ],
+   [
+    "Buford",
+    "GA",
+    1
+   ],
+   [
+    "Burlington",
+    "MA",
+    1
+   ],
+   [
+    "Charlotte",
+    "NC",
+    1
+   ],
+   [
+    "Chicago",
+    "IL",
+    1
+   ],
+   [
+    "Cincinnati",
+    "OH",
+    1
+   ],
+   [
+    "Columbus",
+    "OH",
+    1
+   ],
+   [
+    "Coral Gables",
+    "FL",
+    1
+   ],
+   [
+    "Costa Mesa",
+    "CA",
+    1
+   ],
+   [
+    "Denver",
+    "CO",
+    1
+   ],
+   [
+    "Durham",
+    "NC",
+    1
+   ],
+   [
+    "Edison",
+    "NJ",
+    1
+   ],
+   [
+    "Estero",
+    "FL",
+    1
+   ],
+   [
+    "Fort Worth",
+    "TX",
+    1
+   ],
+   [
+    "Freehold",
+    "NJ",
+    1
+   ],
+   [
+    "Friendswood",
+    "TX",
+    1
+   ],
+   [
+    "Garden City",
+    "NY",
+    1
+   ],
+   [
+    "Germantown",
+    "TN",
+    1
+   ],
+   [
+    "Houston",
+    "TX",
+    1
+   ],
+   [
+    "Huntington Station",
+    "NY",
+    1
+   ],
+   [
+    "Indianapolis",
+    "IN",
+    1
+   ],
+   [
+    "Jacksonville",
+    "FL",
+    1
+   ],
+   [
+    "Kansas City",
+    "MO",
+    1
+   ],
+   [
+    "King of Prussia",
+    "PA",
+    1
+   ],
+   [
+    "Las Vegas",
+    "NV",
+    1
+   ],
+   [
+    "Lone Tree",
+    "CO",
+    1
+   ],
+   [
+    "Long Beach",
+    "CA",
+    1
+   ],
+   [
+    "Los Angeles",
+    "CA",
+    1
+   ],
+   [
+    "Louisville",
+    "KY",
+    1
+   ],
+   [
+    "Lynnwood",
+    "WA",
+    1
+   ],
+   [
+    "Milwaukee",
+    "WI",
+    1
+   ],
+   [
+    "Mission Viejo",
+    "CA",
+    1
+   ],
+   [
+    "Nashville",
+    "TN",
+    1
+   ],
+   [
+    "Natick",
+    "MA",
+    1
+   ],
+   [
+    "New Orleans",
+    "LA",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    1
+   ],
+   [
+    "Norwalk",
+    "CT",
+    1
+   ],
+   [
+    "Oak Brook",
+    "IL",
+    1
+   ],
+   [
+    "Orlando",
+    "FL",
+    1
+   ],
+   [
+    "Palo Alto",
+    "CA",
+    1
+   ],
+   [
+    "Paramus",
+    "NJ",
+    1
+   ],
+   [
+    "Pittsburgh",
+    "PA",
+    1
+   ],
+   [
+    "Portland",
+    "OR",
+    1
+   ],
+   [
+    "Richmond",
+    "VA",
+    1
+   ],
+   [
+    "San Antonio",
+    "TX",
+    1
+   ],
+   [
+    "San Diego",
+    "CA",
+    1
+   ],
+   [
+    "Santa Clara",
+    "CA",
+    1
+   ],
+   [
+    "Sarasota",
+    "FL",
+    1
+   ],
+   [
+    "Scottsdale",
+    "AZ",
+    2
+   ],
+   [
+    "Short Hills",
+    "NJ",
+    1
+   ],
+   [
+    "Southlake",
+    "TX",
+    1
+   ],
+   [
+    "St. Louis",
+    "MO",
+    1
+   ],
+   [
+    "Tampa",
+    "FL",
+    1
+   ],
+   [
+    "Temecula",
+    "CA",
+    1
+   ],
+   [
+    "The Woodlands",
+    "TX",
+    1
+   ],
+   [
+    "Torrance",
+    "CA",
+    1
+   ],
+   [
+    "Tysons Corner",
+    "VA",
+    1
+   ],
+   [
+    "Walnut Creek",
+    "CA",
+    1
+   ],
+   [
+    "White Plains",
+    "NY",
+    1
+   ]
+  ],
+  "basis": "seat_wave_a 2026-10-08",
+  "out": 0,
+  "con": 0
+ },
+ "cities": "69 stores across the US, including Scottsdale, Chicago, Albuquerque, and its own site",
+ "site": {
+  "domain": "untuckit.com",
+  "platform": "other",
+  "feed": "none",
+  "feed_count": 0,
+  "status": "live_store",
+  "checked": "2026-10-10"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "both",
+  "marks": [
+   "CottonTek™",
+   "EcoSoft™",
+   "Traveler Tech",
+   "brrr°",
+   "SUPIMA®",
+   "TENCEL™ Lyocell",
+   "FUZE Technology",
+   "LYCRA"
+  ],
+  "source": "seat_wave_a_2026-10-08",
+  "checked": "2026-10-10"
+ },
+ "craft_evidence": {
+  "owned": "None shown. Claim only: the code of conduct mentions \"UNTUCKit factories\" but names none; the quality page says fabrics are \"made exclusively for us by top-tier manufacturers across the world\".",
+  "makers": "None. No product page read names a factory or maker (129 styles with fabric text read). Four Stretch Cotton shirts say they were made in an unnamed Fair Trade Certified factory (claim).",
+  "mills": "Evidence on 4 of 11 sport coats: Reda (Weberly, Mayhold), Lanificio TG di Fabio (Roger), Maggia (Holstein). None on shirts, knits or trousers. SUPIMA and TENCEL are fibre brands, not mills.",
+  "madein": "0",
+  "heritage": "Dated, founding place not stated: \"from 2010 when founder Chris Riccobono first created the Original Untucked Shirt\"; Aaron Sanandres joined in 2011; NYC headquarters; first store in SoHo, 2015 (about",
+  "process": "Partial and generic: heat-activated wrinkle-free finish, enzyme-washed Vintage Wash cotton, every fabric batch tested, \"every aspect of our shirts is inspected five times\", single-needle side seams (o",
+  "urls": [
+   "https://www.untuckit.com/pages/our-quality",
+   "https://www.untuckit.com/pages/fabrics"
+  ],
+  "conf": "medium",
+  "read": "2026-10-10",
+  "proposed": 2,
+  "reasoning": "UNTUCKit owns no making and names no maker; every product page read says only \"Imported\", so it does not state a country. It names three Italian mills on four sport coats and lists finishes and inspection steps, which is a little more than nothing checkable but well short of a 3."
+ },
+ "ownership": {
+  "owner": "Randa Apparel & Accessories (privately held), acquired Sept 1, 2026",
+  "u": "https://randa.net/2026/09/01/randa-to-acquire-untuckit-brand-and-operations/"
+ },
+ "say": "un-TUCK-it",
+ "opview": "“We spent 15 years proving that a shirt built to be worn untucked could become a brand people trust.” — Chris Riccobono, founder of UNTUCKit, Randa Apparel & Accessories press release",
+ "shop": "https://www.untuckit.com/search?q=",
+ "region": {
+  "o": [
+   4503,
+   4504,
+   4507,
+   4514,
+   4520,
+   4525,
+   4527,
+   4535,
+   4536,
+   4550,
+   4554,
+   4556,
+   4560,
+   4563
+  ],
+  "s": []
+ },
+ "fibre": {
+  "t": 132,
+  "w": 129,
+  "n": 70,
+  "s": 27,
+  "c": 0,
+  "x": 33,
+  "xh": 23,
+  "sp": "one",
+  "sc": [
+   "Jackets & Vests",
+   "Sweaters & Sweatshirts (sweatshirts only)"
+  ],
+  "nc": [
+   "Button-Down Shirts",
+   "Polos",
+   "Sport Coats"
+  ],
+  "st": "complete"
+ },
+ "resale": {
+  "grailed": {
+   "u": "https://www.grailed.com/designers/untuckit"
+  }
+ }
+}

@@ -1,0 +1,376 @@
+{
+ "name": "adidas",
+ "band": "premium",
+ "seat": 208,
+ "dagger": 0,
+ "focus": {
+  "tech": 3,
+  "comfort": 3,
+  "craft": 2,
+  "style": 3
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 2,
+  "wool": 1,
+  "synth": 4
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 3,
+  "fuss": 1,
+  "golffice": -3,
+  "whitet": 2,
+  "logo": 5,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 2,
+  "surf": 1,
+  "street": 4,
+  "status": 3,
+  "racquet": 2,
+  "golf": 2
+ },
+ "why": "Sportswear and sneakers from Germany; the three stripes, the Samba and the Stan Smith, and the Originals line that dresses the street.",
+ "origin": "Founded in 1949 in Herzogenaurach, Germany by Adolf \"Adi\" Dassler.",
+ "chan": [
+  "O",
+  "D",
+  "I",
+  "W"
+ ],
+ "conf": "S",
+ "forgc": [
+  3,
+  4,
+  1
+ ],
+ "onething": {
+  "p": "Samba OG Shoes",
+  "u": "https://www.adidas.com/us/samba-og-shoes/B75806.html",
+  "n": "from the seat_wave_a return; \"Samba OG Shoes (B75806) - \"Born on the pitch, the Samba is a timeless icon of st\""
+ },
+ "prices": [
+  [
+   25,
+   100
+  ],
+  [
+   30,
+   120
+  ],
+  [
+   65,
+   65
+  ],
+  [
+   110,
+   120
+  ],
+  [
+   80,
+   130
+  ],
+  [
+   80,
+   180
+  ],
+  [
+   55,
+   380
+  ],
+  [
+   25,
+   300
+  ]
+ ],
+ "price_checked": true,
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Jeans",
+  "Dress pants",
+  "Sweater",
+  "Outerwear",
+  "Shoes"
+ ],
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Train Essentials Training Tee (JN6799; model NQE20)",
+   "lu": "https://www.adidas.com/us/train-essentials-training-tee/JN6799.html",
+   "hp": "ADIDAS EQUIPMENT WAFFLE LONG SLEEVE TEE (KR4026; model BW696)",
+   "hu": "https://www.adidas.com/us/adidas-equipment-waffle-long-sleeve-tee/KR4026.html",
+   "b": "range"
+  },
+  "Polo": {
+   "lp": "ENT26 POLO (JZ6661; model MIP66)",
+   "lu": "https://www.adidas.com/us/ent26-polo/JZ6661.html",
+   "hp": "Originals Twistknit Button Up Polo Shirt (KR5432; model KS771)",
+   "hu": "https://www.adidas.com/us/originals-twistknit-button-up-polo-shirt/KR5432.html",
+   "b": "range"
+  },
+  "Dress shirt": {
+   "lp": "FS+ BUTTON UP SHIRT (KS4328; model L9541) - short-sleeve casual woven twill button-up; the only non-Y-3 non-collab button-front shirt found",
+   "lu": "https://www.adidas.com/us/fs-plus-button-up-shirt/KS4328.html",
+   "hp": "FS+ BUTTON UP SHIRT (KS4328; model L9541)",
+   "hu": "https://www.adidas.com/us/fs-plus-button-up-shirt/KS4328.html",
+   "b": "single"
+  },
+  "Jeans": {
+   "lp": "FIREBIRD ADICOLOR DENIM JEANS MID-RISE STRAIGHT LEG (KS4966; model M2271) - list $110, on sale $77; 100% cotton",
+   "lu": "https://www.adidas.com/us/firebird-adicolor-denim-jeans-mid-rise-straight-leg/KS4966.html",
+   "hp": "ADILENIUM 6 DENIM Jeans (LH3342; model KC652) - list $120, not on sale",
+   "hu": "https://www.adidas.com/us/adilenium-6-denim-jeans/LH3342.html",
+   "b": "range"
+  },
+  "Dress pants": {
+   "lp": "Adi Advantage Golf Pants (IS0541; model KOW29) - golf trouser in place of dress pants/chinos",
+   "lu": "https://www.adidas.com/us/adi-advantage-golf-pants/IS0541.html",
+   "hp": "ULTIMATE365 TOUR TWISTKNIT PANTS (KE9490; model TS011)",
+   "hu": "https://www.adidas.com/us/ultimate365-tour-twistknit-pants/KE9490.html",
+   "b": "range"
+  },
+  "Sweater": {
+   "lp": "3 STRIPES FLUFFY KNIT CREW Jumper (KE4169; model MNA94)",
+   "lu": "https://www.adidas.com/us/3-stripes-fluffy-knit-crew-jumper/KE4169.html",
+   "hp": "Originals Cashmere Sweater (KS5727; model IV093) - 66% modal/13% cashmere, NOT an elevated fibre",
+   "hu": "https://www.adidas.com/us/originals-cashmere-sweater/KS5727.html",
+   "b": "range"
+  },
+  "Outerwear": {
+   "lp": "Essentials Warm-Up 3-Stripes Track Jacket (H46100; model OO127)",
+   "lu": "https://www.adidas.com/us/essentials-warm-up-3-stripes-track-jacket/H46100.html",
+   "hp": "TERREX Xperior Hybrid PRIMEKNIT Spray Dye CLIMAPROOF+ Jacket (KT3871; model HF545)",
+   "hu": "https://www.adidas.com/us/terrex-xperior-hybrid-primeknit-spray-dye-climaproof-plus-jacket/KT3871.html",
+   "b": "range"
+  },
+  "Shoes": {
+   "lp": "Adilette Aqua Slides (IF0895; model DBF11)",
+   "lu": "https://www.adidas.com/us/adilette-aqua-slides/IF0895.html",
+   "hp": "F50 Hyperfast EVO Firm Ground Soccer Cleats (KJ6117; model OPA99)",
+   "hu": "https://www.adidas.com/us/f50-hyperfast-evo-firm-ground-soccer-cleats/KJ6117.html",
+   "b": "range"
+  }
+ },
+ "garment_links": {
+  "T-shirt": "https://www.adidas.com/us/men-t_shirts",
+  "Jeans": "https://www.adidas.com/us/men-denim",
+  "Dress pants": "https://www.adidas.com/us/men-golf-pants",
+  "Outerwear": "https://www.adidas.com/us/men-jackets",
+  "Shoes": "https://www.adidas.com/us/men-shoes"
+ },
+ "price_read": {
+  "date": "2026-10-10",
+  "store": "https://www.adidas.com/us",
+  "currency": "USD",
+  "status": "partial",
+  "sublines": "adidas divisions sold on adidas.com/us: Performance; Originals; Sportswear; TERREX (incl. adidas Golf and its Originals golf line). Y-3 excluded (seated as own key): every item with division=Y-3 / title prefix \"Y-3\" skipped. Collaborations never used as a high (Chavarria; entire studios; Hellstar; Metallica; Tyrrell Winston; Pharrell Williams; Mercedes-AMG/Audi F1 team kit; SPZL F.C. club polos)"
+ },
+ "notes": {
+  "tech": "Thread proposed 3 (10 Oct 2026): [\"PRIMEKNIT\",\"CLIMAPROOF+\",\"Climacool\",\"AEROREADY\",\"Primegreen\",\"Twistknit\",\"CLIMAWARM\",\"Techfit\",\"FEELREADY\"] — owned; share of range 25%. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 2 (10 Oct 2026): The 16 product pages checked for origin say only \"Imported\", with no country, maker or mill, and the 2025 annual report says adidas outsources almost all production to independent partners, 92% of volume in Asia. Its one checkable making disclosure is the company-level Global Factory List, and the dated 1949 Herzogenaurach heritage is about the company, not where today's clothes are made. This sit Seated as proposed, pending ruling.",
+  "comfort": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "style": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "dur": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "forg": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "fuss": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "golffice": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "whitet": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "logo": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "western": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "rock": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "workwear": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "outdoor": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "surf": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "street": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "status": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "racquet": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "golf": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "denim": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "cashmere": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "linen": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "cotton": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "wool": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "synth": "seeded 10 Oct 2026 from the seat_wave_a return; provisional"
+ },
+ "doors": {
+  "c": "full",
+  "n": 20,
+  "cities": [
+   [
+    "Arcadia",
+    "CA",
+    1
+   ],
+   [
+    "Atlanta",
+    "GA",
+    1
+   ],
+   [
+    "Aventura",
+    "FL",
+    1
+   ],
+   [
+    "Bloomington",
+    "MN",
+    1
+   ],
+   [
+    "Bronx",
+    "NY",
+    1
+   ],
+   [
+    "Canoga Park",
+    "CA",
+    1
+   ],
+   [
+    "Cherry Hill",
+    "NJ",
+    1
+   ],
+   [
+    "Chicago",
+    "IL",
+    2
+   ],
+   [
+    "Culver City",
+    "CA",
+    1
+   ],
+   [
+    "East Rutherford",
+    "NJ",
+    1
+   ],
+   [
+    "Edison",
+    "NJ",
+    1
+   ],
+   [
+    "Las Vegas",
+    "NV",
+    1
+   ],
+   [
+    "Los Angeles",
+    "CA",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    5
+   ],
+   [
+    "Orlando",
+    "FL",
+    1
+   ]
+  ],
+  "basis": "seat_wave_a 2026-10-08",
+  "out": 52,
+  "con": 0
+ },
+ "cities": "20 stores across the US, including New York, Chicago, Arcadia · department stores, independent shops, and its own site",
+ "site": {
+  "domain": "adidas.com",
+  "platform": "other",
+  "feed": "none",
+  "feed_count": 0,
+  "status": "live_store",
+  "checked": "2026-10-10"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "owned",
+  "marks": [
+   "PRIMEKNIT",
+   "CLIMAPROOF+",
+   "Climacool",
+   "AEROREADY",
+   "Primegreen",
+   "Twistknit",
+   "CLIMAWARM",
+   "Techfit",
+   "FEELREADY"
+  ],
+  "source": "seat_wave_a_2026-10-08",
+  "checked": "2026-10-10"
+ },
+ "craft_evidence": {
+  "owned": "No owned making (evidence). adidas AR 2025: \"we outsource almost 100% of our production to independent manufacturing partners\"; 92% of 2025 volume produced in Asia (Vietnam 27%, Indonesia 18%, China 16%); largest factory ~6% of volume. Only owned facilities named are distribution centres (21 of 60).",
+  "makers": "None on product pages (0 of 16 read). Company-level evidence: a Global Factory List (2026, July file) names suppliers, subcontractors and licensees by country, updated twice a year. It is not linked from products.",
+  "mills": "None on product pages (0 of 16 read).",
+  "madein": "0",
+  "heritage": "Dated and placed (evidence): \"adidas came to being on August 18, 1949\" in Herzogenaurach. 1924 Gebrueder Dassler Schuhfabrik with Rudolf (brand 75-years factsheet, Aug 2024).",
+  "process": "Fabric construction is named per product (single jersey, twistknit pique, waffle knit, PRIMEKNIT, drop-needle). No making process is documented on the pages read.",
+  "urls": [
+   "https://report.adidas-group.com/2025/en/group-management-report-our-company/description-of-business-model/sourcing-and-supply-chain.html",
+   "https://www.adidas-group.com/en/factsheet-75-years-of-adidas-from-a-franconian-crafts-business-to-a-global-player-in-the-world-of-sport"
+  ],
+  "conf": "medium",
+  "read": "2026-10-10",
+  "proposed": 2,
+  "reasoning": "The 16 product pages checked for origin say only \"Imported\", with no country, maker or mill, and the 2025 annual report says adidas outsources almost all production to independent partners, 92% of volume in Asia. Its one checkable making disclosure is the company-level Global Factory List, and the dated 1949 Herzogenaurach heritage is about the company, not where today's clothes are made. This sits between 1 and 2; 2 is proposed for the published factory list."
+ },
+ "ownership": {
+  "owner": "adidas AG (listed company, Herzogenaurach; Annual Report 2025)",
+  "u": "https://report.adidas-group.com/2025/en/group-management-report-our-company/description-of-business-model/markets-and-sales-channels.html"
+ },
+ "say": "AH-dee-dahs",
+ "opview": "“Through sport, we have the power to change lives.” — adidas, adidas Group",
+ "region": {
+  "o": [
+   3938,
+   3940,
+   3944,
+   3945,
+   3946,
+   3947,
+   3948,
+   3949,
+   3950
+  ],
+  "s": []
+ },
+ "fibre": {
+  "t": 72,
+  "w": 71,
+  "n": 42,
+  "s": 56,
+  "c": 1,
+  "x": 10,
+  "xh": 8,
+  "sp": "split",
+  "sc": [
+   "tees-polos",
+   "outerwear",
+   "shorts"
+  ],
+  "nc": [
+   "sweats",
+   "denim",
+   "shirts"
+  ],
+  "st": "partial"
+ },
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?brand_ids[]=14&catalog[]=5",
+   "m": "brand filter",
+   "n": ""
+  },
+  "grailed": {
+   "u": "https://www.grailed.com/designers/adidas"
+  }
+ }
+}

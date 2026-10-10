@@ -1,0 +1,681 @@
+{
+ "name": "New Balance",
+ "band": "premium",
+ "seat": 227,
+ "dagger": 0,
+ "focus": {
+  "tech": 4,
+  "comfort": 4,
+  "craft": 4,
+  "style": 3
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 2,
+  "wool": 1,
+  "synth": 4
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 4,
+  "fuss": 0,
+  "golffice": -3,
+  "whitet": 2,
+  "logo": 4,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1,
+  "murica": 4,
+  "street": 3,
+  "status": 2,
+  "shoes": 5
+ },
+ "why": "Boston sneaker company whose 990 is still made in Maine and Massachusetts; the dad shoe that became the street’s shoe, with sportswear beside it.",
+ "origin": "Founded in 1906 in Boston, Massachusetts, USA by William J. Riley.",
+ "chan": [
+  "O",
+  "D",
+  "I",
+  "W"
+ ],
+ "conf": "S",
+ "forgc": [
+  4,
+  5,
+  1
+ ],
+ "onething": {
+  "p": "Made in USA 990v6 - \"The designers of the first 990 were tas",
+  "u": "https://www.newbalance.com/pd/made-in-usa-990v6/M990V6-43094-PMG-NA.html",
+  "n": "from the seat_wave_a return; \"Made in USA 990v6 - \"The designers of the first 990 were tasked with creating th\""
+ },
+ "prices": [
+  [
+   30,
+   75
+  ],
+  [
+   55,
+   55
+  ],
+  "?",
+  null,
+  null,
+  null,
+  [
+   100,
+   180
+  ],
+  [
+   70,
+   300
+  ]
+ ],
+ "price_range_only": [
+  "T-shirt",
+  "Outerwear",
+  "Shoes"
+ ],
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Sport Essentials Cotton T-Shirt (MT41509), $29.99; 100% cotton",
+   "lu": "https://www.newbalance.com/pd/sport-essentials-cotton-t-shirt/MT41509.html",
+   "hp": "Made in USA Heritage Running Graphic T-Shirt (MT62N7SG), $74.99; 100% cotton, made in USA",
+   "hu": "https://www.newbalance.com/pd/made-in-usa-heritage-running-graphic-t-shirt/MT62N7SG.html",
+   "b": "range"
+  },
+  "Polo": {
+   "lp": "New Balance Performance Polo (MT41401), $54.99",
+   "lu": "https://www.newbalance.com/pd/new-balance-performance-polo/MT41401.html",
+   "hp": "New Balance Performance Polo (MT41401), $54.99",
+   "hu": "https://www.newbalance.com/pd/new-balance-performance-polo/MT41401.html",
+   "b": "single"
+  },
+  "Outerwear": {
+   "lp": "Utility Stretch Woven Jacket (MJ62S4CH), $99.99",
+   "lu": "https://www.newbalance.com/pd/utility-stretch-woven-jacket/MJ62S4CH.html",
+   "hp": "Basketball Padded Jacket (MJ62A2MC), $179.99",
+   "hu": "https://www.newbalance.com/pd/basketball-padded-jacket/MJ62A2MC.html",
+   "b": "range"
+  },
+  "Shoes": {
+   "lp": "Made in USA RX40 (RX40V1), $69.99; military-style trainer, unisex sizing",
+   "lu": "https://www.newbalance.com/pd/made-in-usa-rx40/RX40V1-52211.html",
+   "hp": "TDS Niobium C1 (Tokyo Design Studio, in-house line), $299.99",
+   "hu": "https://www.newbalance.com/pd/tds-niobium-c1/MSNB1V1_LI-FTW-841593.html",
+   "b": "range"
+  }
+ },
+ "garment_links": {
+  "T-shirt": "https://www.newbalance.com/men/clothing/shirts/",
+  "Polo": "https://www.newbalance.com/men/clothing/shirts/",
+  "Outerwear": "https://www.newbalance.com/men/clothing/jackets-and-vests/",
+  "Shoes": "https://www.newbalance.com/men/shoes/all-shoes/"
+ },
+ "price_read": {
+  "date": "2026-10-10",
+  "store": "https://www.newbalance.com/",
+  "currency": "USD",
+  "status": "partial",
+  "sublines": "NB-branded lines on newbalance.com US: Sport Essentials, Athletics, RC, Made in USA, Made in UK, NB Numeric (skate), TDS / Tokyo Design Studio (in-house). Shohei (Ohtani signature) treated as collaboration and never a high; TCS NYC Marathon event collection not used as a high."
+ },
+ "notes": {
+  "tech": "Thread proposed 4 (10 Oct 2026): [\"Fresh Foam\",\"FuelCell\",\"ENCAP\",\"NB DRY\",\"NB ICEx\",\"NB ICE\",\"NB HEAT\",\"NB Sleek\",\"Lycra\"] — both; share of range 35%. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 4 (10 Oct 2026): NB documents its own making: five owned footwear factories in New England (Lawrence, Methuen, Norway, Skowhegan, Londonderry) and Flimby in the UK, in its 2025 report and press boilerplate. That making covers only Made in USA/UK footwear, which NB itself calls \"a limited portion\" of US sales. Of 37 apparel pages read, 34 say only \"Imported\" and name no maker or mill, so this is a 4 for real owned  Seated as proposed, pending ruling.",
+  "comfort": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "style": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "dur": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "forg": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "fuss": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "golffice": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "whitet": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "logo": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "western": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "rock": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "workwear": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "outdoor": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "surf": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "murica": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "street": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "status": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "denim": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "cashmere": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "linen": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "cotton": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "wool": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "synth": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "shoes": "shoe house; the Shoes slot is the range"
+ },
+ "doors": {
+  "c": "full",
+  "n": 91,
+  "cities": [
+   [
+    "Alpharetta",
+    "GA",
+    1
+   ],
+   [
+    "Annapolis",
+    "MD",
+    1
+   ],
+   [
+    "Ardmore",
+    "PA",
+    1
+   ],
+   [
+    "Arlington",
+    "TX",
+    1
+   ],
+   [
+    "Atlanta",
+    "GA",
+    1
+   ],
+   [
+    "Austin",
+    "TX",
+    1
+   ],
+   [
+    "Aventura",
+    "FL",
+    1
+   ],
+   [
+    "Avon",
+    "CT",
+    1
+   ],
+   [
+    "Bethesda",
+    "MD",
+    1
+   ],
+   [
+    "Birmingham",
+    "AL",
+    1
+   ],
+   [
+    "Bloomington",
+    "MN",
+    1
+   ],
+   [
+    "Boston",
+    "MA",
+    1
+   ],
+   [
+    "Brighton",
+    "MA",
+    1
+   ],
+   [
+    "Buford",
+    "GA",
+    1
+   ],
+   [
+    "Carle Place",
+    "NY",
+    1
+   ],
+   [
+    "Charlotte",
+    "NC",
+    1
+   ],
+   [
+    "Chicago",
+    "IL",
+    1
+   ],
+   [
+    "Corte Madera",
+    "CA",
+    1
+   ],
+   [
+    "Costa Mesa",
+    "CA",
+    1
+   ],
+   [
+    "Cranston",
+    "RI",
+    1
+   ],
+   [
+    "Creve Coeur",
+    "MO",
+    1
+   ],
+   [
+    "Dallas",
+    "TX",
+    1
+   ],
+   [
+    "Decatur",
+    "GA",
+    1
+   ],
+   [
+    "Edina",
+    "MN",
+    1
+   ],
+   [
+    "Fairfax",
+    "VA",
+    1
+   ],
+   [
+    "Farmington Hills",
+    "MI",
+    1
+   ],
+   [
+    "Fort Worth",
+    "TX",
+    1
+   ],
+   [
+    "Franklin",
+    "TN",
+    1
+   ],
+   [
+    "Frisco",
+    "TX",
+    1
+   ],
+   [
+    "Geneva",
+    "IL",
+    1
+   ],
+   [
+    "Glen Allen",
+    "VA",
+    1
+   ],
+   [
+    "Granger",
+    "IN",
+    1
+   ],
+   [
+    "Greenville",
+    "SC",
+    1
+   ],
+   [
+    "Highland Park",
+    "IL",
+    1
+   ],
+   [
+    "Houston",
+    "TX",
+    1
+   ],
+   [
+    "King Of Prussia",
+    "PA",
+    1
+   ],
+   [
+    "Knoxville",
+    "TN",
+    1
+   ],
+   [
+    "Lake Grove",
+    "NY",
+    1
+   ],
+   [
+    "Las Vegas",
+    "NV",
+    1
+   ],
+   [
+    "Littleton",
+    "CO",
+    1
+   ],
+   [
+    "Los Angeles",
+    "CA",
+    3
+   ],
+   [
+    "Lubbock",
+    "TX",
+    1
+   ],
+   [
+    "Lynnwood",
+    "WA",
+    1
+   ],
+   [
+    "Marina Del Rey",
+    "CA",
+    1
+   ],
+   [
+    "Memphis",
+    "TN",
+    1
+   ],
+   [
+    "Merrillville",
+    "IN",
+    1
+   ],
+   [
+    "Metairie",
+    "LA",
+    1
+   ],
+   [
+    "Mount Laurel Township",
+    "NJ",
+    1
+   ],
+   [
+    "Naperville",
+    "IL",
+    1
+   ],
+   [
+    "Naples",
+    "FL",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    5
+   ],
+   [
+    "Newark",
+    "DE",
+    1
+   ],
+   [
+    "Oak Brook",
+    "IL",
+    1
+   ],
+   [
+    "Overland Park",
+    "KS",
+    1
+   ],
+   [
+    "Palo Alto",
+    "CA",
+    1
+   ],
+   [
+    "Pasadena",
+    "CA",
+    1
+   ],
+   [
+    "Philadelphia",
+    "PA",
+    1
+   ],
+   [
+    "Princeton",
+    "NJ",
+    1
+   ],
+   [
+    "Raleigh",
+    "NC",
+    1
+   ],
+   [
+    "Rancho Cucamonga",
+    "CA",
+    1
+   ],
+   [
+    "Rehoboth Beach",
+    "DE",
+    1
+   ],
+   [
+    "Richmond Heights",
+    "MO",
+    1
+   ],
+   [
+    "Rockwall",
+    "TX",
+    1
+   ],
+   [
+    "Salem",
+    "NH",
+    1
+   ],
+   [
+    "Salt Lake City",
+    "UT",
+    1
+   ],
+   [
+    "San Antonio",
+    "TX",
+    2
+   ],
+   [
+    "San Diego",
+    "CA",
+    1
+   ],
+   [
+    "San Jose",
+    "CA",
+    1
+   ],
+   [
+    "San Juan",
+    "PR",
+    1
+   ],
+   [
+    "Santa Monica",
+    "CA",
+    1
+   ],
+   [
+    "Sarasota",
+    "FL",
+    1
+   ],
+   [
+    "South Windsor",
+    "CT",
+    1
+   ],
+   [
+    "Southlake",
+    "TX",
+    1
+   ],
+   [
+    "Tampa",
+    "FL",
+    1
+   ],
+   [
+    "The Woodlands",
+    "TX",
+    1
+   ],
+   [
+    "Tigard",
+    "OR",
+    1
+   ],
+   [
+    "Torrance",
+    "CA",
+    1
+   ],
+   [
+    "Troy",
+    "MI",
+    1
+   ],
+   [
+    "Virginia Beach",
+    "VA",
+    1
+   ],
+   [
+    "Walnut Creek",
+    "CA",
+    1
+   ],
+   [
+    "Washington",
+    "DC",
+    1
+   ],
+   [
+    "White Plains",
+    "NY",
+    1
+   ],
+   [
+    "Wilmington",
+    "DE",
+    1
+   ],
+   [
+    "Winston Salem",
+    "NC",
+    1
+   ]
+  ],
+  "basis": "seat_wave_a 2026-10-08",
+  "out": 88,
+  "con": 0
+ },
+ "cities": "91 stores across the US, including New York, Los Angeles, San Antonio · department stores, independent shops, and its own site",
+ "site": {
+  "domain": "newbalance.com",
+  "platform": "other",
+  "feed": "none",
+  "feed_count": 0,
+  "status": "live_store",
+  "checked": "2026-10-10"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "both",
+  "marks": [
+   "Fresh Foam",
+   "FuelCell",
+   "ENCAP",
+   "NB DRY",
+   "NB ICEx",
+   "NB ICE",
+   "NB HEAT",
+   "NB Sleek",
+   "Lycra"
+  ],
+  "source": "seat_wave_a_2026-10-08",
+  "checked": "2026-10-10"
+ },
+ "craft_evidence": {
+  "owned": "Evidence (NB 2025 Sustainability and Impact Report pp.4-8; 18 Sep 2026 and 19 Feb 2026 NB releases): NB owns five athletic-footwear factories in New England - Lawrence and Methuen MA; Norway ME; Central Maine (Skowhegan) ME; Londonderry NH - and one in Flimby, UK; about 1,100 associates in New Engla",
+  "makers": "None on product pages (0 of 37 apparel PDPs and 0 of 2 footwear PDPs read name a factory or maker).",
+  "mills": "None on product pages. Horween leather is named in NB's own Made in USA FW26 release (U992BB), not on a product page.",
+  "madein": "8",
+  "heritage": "Dated and placed, brand's own words (2025 report p.5): \"In 1906, William J. Riley founded the New Balance Arch Support Company in Boston, Massachusetts.\" Made in UK \"Since 1982\" (Made in UK page); \"ov",
+  "process": "Claim-level only. Product pages name materials and foams (pigskin suede overlays, ENCAP, FuelCell) and the rule that Made in USA footwear has a domestic value of 70% or more. No making process is desc",
+  "urls": [
+   "https://www.newbalance.com/on/demandware.static/-/Library-Sites-NBUS-NBCA/default/dw87610e36/pdf/New_Balance_Sustainability_and_Impact_Report_2025.pdf",
+   "https://newbalance.newsmarket.com/latest-news/new-balance-awarded-contract-to-provide-the-u.s.-military-with-american-made-athletic-footwear/s/d6bba3d0-82a3-47f4-a5f3-4e8c135a40c6"
+  ],
+  "conf": "medium",
+  "read": "2026-10-10",
+  "proposed": 4,
+  "reasoning": "NB documents its own making: five owned footwear factories in New England (Lawrence, Methuen, Norway, Skowhegan, Londonderry) and Flimby in the UK, in its 2025 report and press boilerplate. That making covers only Made in USA/UK footwear, which NB itself calls \"a limited portion\" of US sales. Of 37 apparel pages read, 34 say only \"Imported\" and name no maker or mill, so this is a 4 for real owned making that does not cover the range (a 3 is arguable on share)."
+ },
+ "ownership": {
+  "owner": "Privately held, family-owned (NB 2025 report p.4); Jim Davis, Chairman, bought the company in 1972; Davis family owns an estimated 95% (Forbes estimate, updated",
+  "u": "https://www.newbalance.com/on/demandware.static/-/Library-Sites-NBUS-NBCA/default/dw87610e36/pdf/New_Balance_Sustainability_and_Impact_Report_2025.pdf"
+ },
+ "opview": "“Independent since 1906, we empower people through sport and craftsmanship to create positive change in communities around the world.” — New Balance, Our Purpose",
+ "region": {
+  "o": [
+   4358,
+   4359,
+   4360,
+   4361,
+   4362,
+   4363,
+   4364,
+   4365,
+   4373,
+   4374,
+   4375,
+   4381,
+   4382,
+   4388,
+   4389,
+   4395,
+   4396,
+   4397,
+   4398,
+   4399,
+   4407,
+   4417
+  ],
+  "s": []
+ },
+ "fibre": {
+  "t": 37,
+  "w": 37,
+  "n": 54,
+  "s": 46,
+  "c": 0,
+  "x": 32,
+  "xh": 27,
+  "sp": "split",
+  "sc": [
+   "tees-polos",
+   "shorts",
+   "trousers",
+   "outerwear"
+  ],
+  "nc": [
+   "sweats"
+  ],
+  "st": "partial"
+ },
+ "resale": {
+  "grailed": {
+   "u": "https://www.grailed.com/designers/new-balance"
+  }
+ }
+}

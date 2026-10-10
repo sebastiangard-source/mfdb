@@ -1,0 +1,201 @@
+{
+ "name": "Red Wing",
+ "band": "accessible",
+ "seat": 233,
+ "dagger": 0,
+ "focus": {
+  "tech": 3,
+  "comfort": 2,
+  "craft": 4,
+  "style": 1
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 2,
+  "wool": 1,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 5,
+  "forg": 4,
+  "fuss": 2,
+  "golffice": -3,
+  "whitet": 2,
+  "logo": 2,
+  "western": 2,
+  "rock": 2,
+  "workwear": 5,
+  "outdoor": 3,
+  "surf": 1,
+  "murica": 5,
+  "shoes": 5
+ },
+ "why": "Work boots from Red Wing, Minnesota, since 1905, made in the company’s own plants with leather from its own tannery; the Heritage line is the same boot for town.",
+ "origin": "Founded in 1905 in Red Wing, Minnesota, US by Charles Beckman.",
+ "chan": [
+  "O",
+  "I",
+  "W"
+ ],
+ "conf": "S",
+ "forgc": [
+  3,
+  5,
+  2
+ ],
+ "onething": {
+  "p": "Classic Moc 6-inch boot",
+  "u": "https://www.redwingshoes.com/mens/heritage/classic-moc/classic-moc-00875.html",
+  "n": "from the seat_wave_a return; \"Classic Moc 6-inch boot (#875 Oro Legacy): \"For over 70 years, the Classic Moc h\""
+ },
+ "prices": [
+  [
+   26,
+   45
+  ],
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  [
+   165,
+   550
+  ]
+ ],
+ "price_checked": true,
+ "price_range_only": [
+  "Shoes"
+ ],
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Short Sleeve Pocket T-Shirt #98468 (Black), 100% cotton, \"Globally Sourced\"",
+   "lu": "https://www.redwingshoes.com/apparel/mens/short-sleeve-shirts/short-sleeve-pocket-t-shirt-98468.html",
+   "hp": "Classic Logo T-Shirt #97610 (White), 100% heavy-weight cotton, Made in USA; titled Unisex but listed under Men's",
+   "hu": "https://www.redwingshoes.com/apparel/mens/short-sleeve-shirts/classic-logo-t-shirt-97610.html",
+   "b": "pair"
+  },
+  "Shoes": {
+   "lp": "Excelon Work #3093 Men's Safety Toe Oxford (regular $164.99; on sale $123.74 Oct 6-25 2026; #3094 same model at $164.99 not on sale)",
+   "lu": "https://www.redwingshoes.com/mens/work/shoes/excelon-03093.html",
+   "hp": "Engineer Heritage #2966 Men's boot, Black Klondike leather, Made in USA",
+   "hu": "https://www.redwingshoes.com/mens/heritage/engineer-02966.html",
+   "b": "range"
+  }
+ },
+ "garment_links": {
+  "T-shirt": "https://www.redwingshoes.com/apparel/mens/short-sleeve-shirts/",
+  "Shoes": "https://www.redwingshoes.com/mens/heritage/"
+ },
+ "price_read": {
+  "date": "2026-10-10",
+  "store": "https://www.redwingshoes.com/?currency=USD",
+  "currency": "USD",
+  "status": "partial",
+  "sublines": "Red Wing Heritage; Red Wing Work (WORX excluded as a separate value sub-brand, see note)"
+ },
+ "notes": {
+  "tech": "Thread proposed 3 (10 Oct 2026): [\"SuperSole\",\"Traction Tred\",\"ComfortForce\",\"GORE-TEX\",\"3M Thinsulate Ultra\",\"SWEN-FLEX\",\"BOA\",\"Lenzi\",\"BioSpring\"] — both; share of range NC%. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 4 (10 Oct 2026): Red Wing names its own plants (Red Wing MN, Potosi MO, Clarksville AR) and its own tannery, S.B. Foot in Red Wing MN, and all 56 men's Heritage styles are labelled Made in USA with S.B. Foot leather - on Heritage alone this reads as a 5. But about half of the men's Work range (114 of ~175 non-WORX tiles) states no origin and the product pages say \"Globally Sourced\", and a further 28 are \"Assembled Seated as proposed, pending ruling.",
+  "comfort": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "style": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "dur": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "forg": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "fuss": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "golffice": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "whitet": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "logo": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "western": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "rock": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "workwear": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "outdoor": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "surf": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "murica": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "denim": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "cashmere": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "linen": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "cotton": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "wool": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "synth": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "shoes": "shoe house; the Shoes slot is the range"
+ },
+ "doors": {
+  "c": "count",
+  "n": 483,
+  "out": 0,
+  "con": 0,
+  "basis": "seat_wave_a 2026-10-08: 483 Red Wing-banner stores on the locator sitemap, towns only, no streets read; brand says most are dealer-owned (company-owned count not published) — counted under the 8 Oct operator-run ruling, flagged"
+ },
+ "cities": "483 stores across the US (count only; dealer-run, addresses to come) · independent shops, and its own site",
+ "site": {
+  "domain": "redwingshoes.com",
+  "platform": "other",
+  "feed": "none",
+  "feed_count": 0,
+  "status": "live_store",
+  "checked": "2026-10-10"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "both",
+  "marks": [
+   "SuperSole",
+   "Traction Tred",
+   "ComfortForce",
+   "GORE-TEX",
+   "3M Thinsulate Ultra",
+   "SWEN-FLEX",
+   "BOA",
+   "Lenzi",
+   "BioSpring"
+  ],
+  "source": "seat_wave_a_2026-10-08",
+  "checked": "2026-10-10"
+ },
+ "craft_evidence": {
+  "owned": "evidence (brand pages): \"USA Made\" story names own plants: Potosi, Missouri \"since 1994\"; Clarksville, Arkansas \"since 2003\" (new facility); repair page and Heritage pages cite \"our Red Wing, Minnesota, manufacturing facility\"/\"our Minnesota factory\"; own tannery: \"All Red Wing leather comes from ou",
+  "makers": "brand is its own maker on Heritage (every tile Made in USA) and on US-made Work; product pages name no third-party maker; Work pages marked \"Globally Sourced\" name no maker or country",
+  "mills": "own tannery named on Heritage product pages: \"Every pair of Red Wing Heritage footwear is crafted with S.B. Foot Tanning Company leather\"; leathers named by S.B. Foot name (Oro Legacy, Black Klondike, Copper Rough & Tough, Amber Harness); Work page (#2412) says \"Red Wing Leather\", no tannery named",
+  "madein": "51",
+  "heritage": "dated and placed (brand history page): \"In 1905, Charles Beckman founded the Red Wing Shoe Company in Red Wing, Minnesota\"; first Red Wing Shoe Store Salt Lake City 1952; S.B. Foot joins 1986; \"Still ",
+  "process": "partial: Heritage product pages give construction (Goodyear Leather Welt, Puritan Triple-Stitching, No. 23 last \"Created in the 1950s\", Traction Tred sole, proprietary oil blend in Oro Legacy); USA Ma",
+  "urls": [
+   "https://www.redwingshoes.com/stories/made-in-usa/",
+   "https://www.redwingshoes.com/stories/about-us/our-history.html"
+  ],
+  "conf": "medium",
+  "read": "2026-10-10",
+  "proposed": 4,
+  "reasoning": "Red Wing names its own plants (Red Wing MN, Potosi MO, Clarksville AR) and its own tannery, S.B. Foot in Red Wing MN, and all 56 men's Heritage styles are labelled Made in USA with S.B. Foot leather - on Heritage alone this reads as a 5. But about half of the men's Work range (114 of ~175 non-WORX tiles) states no origin and the product pages say \"Globally Sourced\", and a further 28 are \"Assembled in USA w/ Imported Components\", so owned making does not cover the whole range; hence 4. Sebastian may prefer to score the Heritage line (5)."
+ },
+ "ownership": {
+  "owner": "private, family-owned (brand history: \"Still family owned\"; 2023 Allison Sweasy Gettings, \"the 4th generation Sweasy\" to serve, appointed CEO); no filings",
+  "u": "https://www.redwingshoes.com/stories/about-us/our-history.html"
+ },
+ "opview": "“All Red Wing leather comes from our own tannery, S.B. Foot Tanning Company, located in Red Wing, Minnesota.” — Red Wing Shoe Company, redwingshoes.com",
+ "fibre": {
+  "t": 6,
+  "w": 6,
+  "n": 100,
+  "s": 0,
+  "c": 0,
+  "x": 0,
+  "xh": 0,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "Short Sleeve Shirts",
+   "Long Sleeve Shirts",
+   "Hoodies & Sweatshirts"
+  ],
+  "st": "complete"
+ },
+ "resale": {
+  "grailed": {
+   "u": "https://www.grailed.com/designers/red-wing"
+  }
+ }
+}

@@ -1,0 +1,453 @@
+{
+ "name": "Orvis",
+ "band": "premium",
+ "seat": 230,
+ "dagger": 0,
+ "focus": {
+  "tech": 3,
+  "comfort": 3,
+  "craft": 2,
+  "style": 1
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 3,
+  "wool": 2,
+  "synth": 3
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 3,
+  "fuss": -1,
+  "golffice": -2,
+  "whitet": 2,
+  "logo": 2,
+  "western": 1,
+  "rock": 1,
+  "workwear": 2,
+  "outdoor": 4,
+  "surf": 1,
+  "murica": 4,
+  "prep": 2,
+  "boat": 2
+ },
+ "why": "Vermont fly-fishing company from 1856 that sells country clothing beside its rods; closing 31 of its stores and shifting to dealers.",
+ "origin": "Founded in 1856 in Manchester, Vermont, USA by Charles F. Orvis.",
+ "chan": [
+  "O",
+  "I",
+  "W"
+ ],
+ "conf": "S",
+ "forgc": [
+  3,
+  3,
+  1
+ ],
+ "onething": {
+  "p": "Helios fly rod",
+  "u": "https://www.orvis.com/product/helios-d-fly-rod/3E7Z.html",
+  "n": "from the seat_wave_a return; \"Helios fly rod (Helios D Fly Rod, $1,098-$1,198, \"Made in USA\") - not clothing; \""
+ },
+ "prices": [
+  [
+   45,
+   89
+  ],
+  [
+   79,
+   110
+  ],
+  [
+   98,
+   119
+  ],
+  null,
+  [
+   119,
+   139
+  ],
+  [
+   129,
+   179
+  ],
+  [
+   119,
+   449
+  ],
+  [
+   129,
+   149
+  ]
+ ],
+ "price_checked": true,
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Dress pants",
+  "Sweater",
+  "Outerwear",
+  "Shoes"
+ ],
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Crossed Rods T-Shirt (7 other graphic tees also $45)",
+   "lu": "https://www.orvis.com/product/crossed-rods-t-shirt/3LMS.html",
+   "hp": "Men's Outbound Merino Short-Sleeve T-Shirt (87% wool/13% nylon)",
+   "hu": "https://www.orvis.com/product/mens-outbound-merino-short-sleeve-t-shirt/3KN9.html",
+   "b": "range"
+  },
+  "Polo": {
+   "lp": "Bromley Polo (slub Pima cotton)",
+   "lu": "https://www.orvis.com/product/bromley-polo/3KN6.html",
+   "hp": "Men's Outbound Merino Polo (87% wool/13% nylon)",
+   "hu": "https://www.orvis.com/product/mens-outbound-merino-polo/3KNX.html",
+   "b": "range"
+  },
+  "Dress shirt": {
+   "lp": "Country Twill Long-Sleeve Button-Down Shirt (casual button-down; no dress shirt made)",
+   "lu": "https://www.orvis.com/product/country-twill-long-sleeve-button-down-shirt/3BC8.html",
+   "hp": "Men's River Guide Long-Sleeve Shirt (tie: Tech Chambray LS Western Shirt $119)",
+   "hu": "https://www.orvis.com/product/mens-river-guide-long-sleeve-shirt/3M7P.html",
+   "b": "range"
+  },
+  "Dress pants": {
+   "lp": "1856 Stretch Twill Regular Fit Chinos (chinos - no dress trouser)",
+   "lu": "https://www.orvis.com/product/1856-stretch-twill-regular-fit-chinos/3K7M.html",
+   "hp": "Out-Of-Office Chinos",
+   "hu": "https://www.orvis.com/product/out-of-office-chinos/3J47.html",
+   "b": "range"
+  },
+  "Sweater": {
+   "lp": "Merino Piqué Crewneck Sweater (displayed \"$129 - $149\", no sale flag)",
+   "lu": "https://www.orvis.com/product/merino-pique-crewneck-sweater/3KAX.html",
+   "hp": "Moss Stitch Crewneck Sweater (80% wool/20% nylon)",
+   "hu": "https://www.orvis.com/product/moss-stitch-crewneck-sweater/3LZT.html",
+   "b": "range"
+  },
+  "Outerwear": {
+   "lp": "Men's R65 Sweater Fleece Jacket",
+   "lu": "https://www.orvis.com/product/mens-r65-sweater-fleece-jacket/3NJ2.html",
+   "hp": "Men's PRO Fishing Jacket (tie: Men's PRO ToughShell Jacket $449)",
+   "hu": "https://www.orvis.com/product/mens-pro-fishing-jacket/3JA4.html",
+   "b": "range"
+  },
+  "Shoes": {
+   "lp": "PRO 6\" Deck Boots (no loafer made)",
+   "lu": "https://www.orvis.com/product/pro-6-deck-boots/3JB9.html",
+   "hp": "PRO Approach Shoes",
+   "hu": "https://www.orvis.com/product/pro-approach-shoes/3FTM.html",
+   "b": "range"
+  }
+ },
+ "garment_links": {
+  "T-shirt": "https://www.orvis.com/men/shirts-t-shirts/t-shirts",
+  "Polo": "https://www.orvis.com/men/shirts-t-shirts",
+  "Dress shirt": "https://www.orvis.com/men/shirts-t-shirts/button-down-shirts",
+  "Dress pants": "https://www.orvis.com/men/pants-shorts",
+  "Sweater": "https://www.orvis.com/men/sweaters",
+  "Outerwear": "https://www.orvis.com/men/jackets-vests/jackets",
+  "Shoes": "https://www.orvis.com/men/footwear"
+ },
+ "price_read": {
+  "date": "2026-10-10",
+  "store": "https://www.orvis.com",
+  "currency": "USD",
+  "status": "partial",
+  "sublines": "- (Orvis label only; PRO is a product line on orvis.com, counted; Barbour, Mavi, Danner, Lacrosse, Le Chameau resold goods excluded by label)"
+ },
+ "notes": {
+  "tech": "Thread proposed 3 (10 Oct 2026): [\"DriCast\", \"R65\", \"OutSmart Fresh\", \"CORDURA\", \"PrimaLoft Gold Active\", \"Polartec Alpha\", \"Thermore Genius\", \"LYCRA\", \" — both; share of range 33%. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 2 (10 Oct 2026): Every one of 45 men's clothing PDPs read says only \"Imported\" - no country, maker or mill - and no clothing process is documented. What lifts it off 1 is a dated, placed founding (1856, Manchester VT) and owned rod making (Orvis Rod Shop, rods \"Made in USA\"), which covers none of the clothing range. A case for 1 if heritage alone is not counted. Seated as proposed, pending ruling.",
+  "comfort": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "style": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "dur": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "forg": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "fuss": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "golffice": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "whitet": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "logo": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "western": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "rock": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "workwear": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "outdoor": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "surf": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "murica": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "prep": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "boat": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "denim": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "cashmere": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "linen": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "cotton": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "wool": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "synth": "seeded 10 Oct 2026 from the seat_wave_a return; provisional"
+ },
+ "doors": {
+  "c": "full",
+  "n": 34,
+  "cities": [
+   [
+    "Alpharetta",
+    "GA",
+    1
+   ],
+   [
+    "Asheville",
+    "NC",
+    1
+   ],
+   [
+    "Atlanta",
+    "GA",
+    1
+   ],
+   [
+    "Avon",
+    "CT",
+    1
+   ],
+   [
+    "Birmingham",
+    "AL",
+    1
+   ],
+   [
+    "Carmel",
+    "IN",
+    1
+   ],
+   [
+    "Charlotte",
+    "NC",
+    1
+   ],
+   [
+    "Charlottesville",
+    "VA",
+    1
+   ],
+   [
+    "Dallas",
+    "TX",
+    1
+   ],
+   [
+    "Darien",
+    "CT",
+    1
+   ],
+   [
+    "Fairfield",
+    "PA",
+    1
+   ],
+   [
+    "Fort Worth",
+    "TX",
+    1
+   ],
+   [
+    "Grand Rapids",
+    "MI",
+    1
+   ],
+   [
+    "Greenville",
+    "SC",
+    1
+   ],
+   [
+    "Houston",
+    "TX",
+    1
+   ],
+   [
+    "Jackson",
+    "WY",
+    1
+   ],
+   [
+    "Knoxville",
+    "TN",
+    1
+   ],
+   [
+    "Lake Oswego",
+    "OR",
+    1
+   ],
+   [
+    "Lone Tree",
+    "CO",
+    1
+   ],
+   [
+    "Manchester",
+    "VT",
+    1
+   ],
+   [
+    "Memphis",
+    "TN",
+    1
+   ],
+   [
+    "Millbrook",
+    "NY",
+    1
+   ],
+   [
+    "Nashville",
+    "TN",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    1
+   ],
+   [
+    "Pittsburgh",
+    "PA",
+    1
+   ],
+   [
+    "Raleigh",
+    "NC",
+    1
+   ],
+   [
+    "Richmond",
+    "VA",
+    1
+   ],
+   [
+    "Roanoke",
+    "VA",
+    1
+   ],
+   [
+    "Royal Oak",
+    "MI",
+    1
+   ],
+   [
+    "Saint Louis Park",
+    "MN",
+    1
+   ],
+   [
+    "Sylacauga",
+    "AL",
+    1
+   ],
+   [
+    "The Woodlands",
+    "TX",
+    1
+   ],
+   [
+    "Vienna",
+    "VA",
+    1
+   ],
+   [
+    "Woodmere",
+    "OH",
+    1
+   ]
+  ],
+  "basis": "seat_wave_a 2026-10-08",
+  "out": 2,
+  "con": 0
+ },
+ "cities": "34 stores across the US, including Birmingham, Sylacauga, Lone Tree · independent shops, and its own site",
+ "site": {
+  "domain": "orvis.com",
+  "platform": "other",
+  "feed": "none",
+  "feed_count": 0,
+  "status": "live_store",
+  "checked": "2026-10-10"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "both",
+  "marks": [
+   "DriCast",
+   "R65",
+   "OutSmart Fresh",
+   "CORDURA",
+   "PrimaLoft Gold Active",
+   "Polartec Alpha",
+   "Thermore Genius",
+   "LYCRA",
+   "Supplex",
+   "DryTouch",
+   "TurboDry",
+   "MarinoWul+"
+  ],
+  "source": "seat_wave_a_2026-10-08",
+  "checked": "2026-10-10"
+ },
+ "craft_evidence": {
+  "owned": "Rods only, claim with thin evidence: fly-rods page caption \"A worker at the Orvis Rod Shop working on a new fly rod\" and \"more than 150 years of rod building experience\"; Helios D and Superfine rod PDPs state \"Made in USA\" (12 rods in Made in USA filter). Location (Manchester VT) not stated on any b",
+  "makers": "NONE on 45 clothing PDPs read 2026-10-10",
+  "mills": "NONE on 45 clothing PDPs read; only licensed fabric/insulation brands (CORDURA, PrimaLoft, Polartec, Thermore, LYCRA, Supplex)",
+  "madein": "0",
+  "heritage": "dated and placed (brand claim): \"In 1856, Charles F. Orvis founded the Orvis Company in Manchester, Vermont\" (about-us); \"1856\" carried as a product line name (1856 Field Coat, 1856 Stretch Twill)",
+  "process": "NONE for clothing (PDPs give fabric weight/finish only, e.g. 4-oz. cotton twill, 7.8-oz. stretch twill, dry-wax facing); rods: no process page found",
+  "urls": [
+   "https://www.orvis.com/about-us.html",
+   "https://www.orvis.com/fly-fishing/rods-reels-line/fly-rods"
+  ],
+  "conf": "medium",
+  "read": "2026-10-10",
+  "proposed": 2,
+  "reasoning": "Every one of 45 men's clothing PDPs read says only \"Imported\" - no country, maker or mill - and no clothing process is documented. What lifts it off 1 is a dated, placed founding (1856, Manchester VT) and owned rod making (Orvis Rod Shop, rods \"Made in USA\"), which covers none of the clothing range. A case for 1 if heritage alone is not counted."
+ },
+ "ownership": {
+  "owner": "The Orvis Company, Inc. - privately owned by the Perkins family since 1965 (Leigh Perkins purchased the company; Simon Perkins, his grandson, is President). No ",
+  "u": "https://www.orvis.com/about-us.html"
+ },
+ "opview": "“Orvis commits 5% of pre-tax profits to protecting and sustaining the natural world, not only now, but for all who follow.” — The Orvis Company, Orvis Conservation Mission Statement page",
+ "region": {
+  "o": [
+   4423,
+   4424,
+   4431,
+   4432,
+   4438,
+   4439,
+   4453
+  ],
+  "s": []
+ },
+ "fibre": {
+  "t": 93,
+  "w": 45,
+  "n": 27,
+  "s": 22,
+  "c": 0,
+  "x": 6,
+  "xh": 2,
+  "sp": "split",
+  "sc": [
+   "Jackets & Vests"
+  ],
+  "nc": [
+   "Pants & Shorts",
+   "Button-Down Shirts",
+   "Sweaters"
+  ],
+  "st": "partial"
+ },
+ "resale": {
+  "grailed": {
+   "u": "https://www.grailed.com/designers/orvis"
+  }
+ }
+}

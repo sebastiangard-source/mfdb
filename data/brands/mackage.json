@@ -1,0 +1,277 @@
+{
+ "name": "Mackage",
+ "band": "accessible",
+ "seat": 225,
+ "dagger": 0,
+ "focus": {
+  "tech": 2,
+  "comfort": 3,
+  "craft": 2,
+  "style": 3
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 1,
+  "wool": 3,
+  "synth": 3
+ },
+ "dials": {
+  "dur": 4,
+  "forg": 3,
+  "fuss": 1,
+  "golffice": 0,
+  "whitet": 2,
+  "logo": 3,
+  "western": 1,
+  "rock": 2,
+  "workwear": 1,
+  "outdoor": 2,
+  "surf": 1,
+  "status": 3,
+  "ski": 3
+ },
+ "why": "Montreal outerwear house: down parkas, leather and shearling with a visible wordmark, sold in its own stores in New York, Boston and Short Hills.",
+ "origin": "Founded in 1999 in Montreal, Quebec, Canada by Eran Elfassy.",
+ "chan": [
+  "O",
+  "D",
+  "W"
+ ],
+ "conf": "S",
+ "forgc": [
+  3,
+  3,
+  1
+ ],
+ "onething": {
+  "p": null,
+  "u": null,
+  "n": "thread found no stated signature product (seat_wave_a, 10 Oct 2026)"
+ },
+ "prices": [
+  [
+   190,
+   195
+  ],
+  [
+   210,
+   270
+  ],
+  null,
+  null,
+  [
+   490,
+   490
+  ],
+  [
+   450,
+   450
+  ],
+  [
+   590,
+   1690
+  ],
+  [
+   495,
+   790
+  ]
+ ],
+ "price_checked": true,
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Outerwear",
+  "Shoes"
+ ],
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "TEE-R Tee-shirt with MACKAGE silicone logo",
+   "lu": "https://www.mackage.com/products/tee-r",
+   "hp": "TREY Long sleeve crew neck t-shirt",
+   "hu": "https://www.mackage.com/products/trey",
+   "b": "range"
+  },
+  "Polo": {
+   "lp": "MARCO Organic Cotton Polo",
+   "lu": "https://www.mackage.com/products/marco",
+   "hp": "ESTABAN Crochet Knit Quarter-Zip Polo Shirt",
+   "hu": "https://www.mackage.com/products/estaban",
+   "b": "range"
+  },
+  "Dress pants": {
+   "lp": "MARTIN-Z Pleated wool pants with elasticized waist",
+   "lu": "https://www.mackage.com/products/martin-z",
+   "hp": "MARTIN-Z Pleated wool pants with elasticized waist",
+   "hu": "https://www.mackage.com/products/martin-z",
+   "b": "single"
+  },
+  "Sweater": {
+   "lp": "LEGEND Knit Cotton-Blend Turtleneck Sweater",
+   "lu": "https://www.mackage.com/products/legend",
+   "hp": "LEGEND Knit Cotton-Blend Turtleneck Sweater",
+   "hu": "https://www.mackage.com/products/legend",
+   "b": "single"
+  },
+  "Outerwear": {
+   "lp": "FLETCHER Mixed-Media Down Hooded Jacket",
+   "lu": "https://www.mackage.com/products/fletcher",
+   "hp": "JUDAH-AL mixed media down jacket (wool-cashmere knit shell)",
+   "hu": "https://www.mackage.com/products/judah-al",
+   "b": "range"
+  },
+  "Shoes": {
+   "lp": "LUKA-01 Leather Sneakers",
+   "lu": "https://www.mackage.com/products/luka-01",
+   "hp": "HERO-MS Lamb suede winter boot for men",
+   "hu": "https://www.mackage.com/products/hero-ms",
+   "b": "range"
+  }
+ },
+ "garment_links": {
+  "T-shirt": "https://www.mackage.com/collections/mens-ready-to-wear",
+  "Polo": "https://www.mackage.com/collections/mens-ready-to-wear",
+  "Dress pants": "https://www.mackage.com/collections/mens-ready-to-wear",
+  "Sweater": "https://www.mackage.com/collections/mens-ready-to-wear",
+  "Outerwear": "https://www.mackage.com/collections/mens-outerwear",
+  "Shoes": "https://www.mackage.com/collections/mens-footwear"
+ },
+ "price_read": {
+  "date": "2026-10-10",
+  "store": "https://www.mackage.com/",
+  "currency": "USD",
+  "status": "partial",
+  "sublines": "-"
+ },
+ "notes": {
+  "tech": "Thread proposed 2 (10 Oct 2026): [\"Nordic Tech\", \"Agile-360\", \"PrimaLoft Silver\"] — both; share of range 12%. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 2 (10 Oct 2026): Mackage dates and places its founding (Montreal, 1999) and shows third-party supply-chain certifications (RWS, GRS, RDS, LWG Gold), which can be checked. It names no maker, mill, owned facility or country of manufacture: 0 of ~30 PDPs checked state a made-in country. A 1 is arguable since nothing about the making itself is checkable. Seated as proposed, pending ruling.",
+  "comfort": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "style": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "dur": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "forg": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "fuss": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "golffice": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "whitet": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "logo": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "western": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "rock": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "workwear": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "outdoor": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "surf": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "status": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "ski": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "denim": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "cashmere": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "linen": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "cotton": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "wool": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "synth": "seeded 10 Oct 2026 from the seat_wave_a return; provisional"
+ },
+ "doors": {
+  "c": "full",
+  "n": 4,
+  "cities": [
+   [
+    "Boston",
+    "MA",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    2
+   ],
+   [
+    "Short Hills",
+    "NJ",
+    1
+   ]
+  ],
+  "basis": "seat_wave_a 2026-10-08",
+  "out": 5,
+  "con": 0
+ },
+ "cities": "4 stores across the US, including New York, Boston, Short Hills · department stores, and its own site",
+ "site": {
+  "domain": "mackage.com",
+  "platform": "other",
+  "feed": "none",
+  "feed_count": 0,
+  "status": "live_store",
+  "checked": "2026-10-10"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "both",
+  "marks": [
+   "Nordic Tech",
+   "Agile-360",
+   "PrimaLoft Silver"
+  ],
+  "source": "seat_wave_a_2026-10-08",
+  "checked": "2026-10-10"
+ },
+ "craft_evidence": {
+  "owned": "none stated (claim or evidence) on our-history or sustainability pages; Wikipedia infobox names owner APP Group Inc., \"a leather industry company operated by members of the Elfassy family\" (uncited) - not evidence of an owned factory",
+  "makers": "none: no maker named on 86 men's PDPs read",
+  "mills": "none: no mill named on PDPs; certifications only (RWS wool on 7 styles, GRS recycled down/material); our-history shows OEKO-TEX, RDS, LWG Gold, GRS, amfori logos without text",
+  "madein": "0",
+  "heritage": "claim, dated and placed: \"Founded in Montreal in 1999\" (our-history); no founders named on that page",
+  "process": "no: generic (\"uncompromising construction\"); BECKETT PDP says \"handcrafted\" with no process detail",
+  "urls": [
+   "https://www.mackage.com/pages/our-history",
+   "https://www.mackage.com/pages/sustainability"
+  ],
+  "conf": "medium",
+  "read": "2026-10-10",
+  "proposed": 2,
+  "reasoning": "Mackage dates and places its founding (Montreal, 1999) and shows third-party supply-chain certifications (RWS, GRS, RDS, LWG Gold), which can be checked. It names no maker, mill, owned facility or country of manufacture: 0 of ~30 PDPs checked state a made-in country. A 1 is arguable since nothing about the making itself is checkable."
+ },
+ "ownership": {
+  "owner": "private (founder-led); Wikipedia infobox names APP Group Inc. (Elfassy family), uncited; InterLuxe (Gary Wassner, Lee Equity-backed) reported to take an undiscl",
+  "u": "https://sagellc.com/press/interluxe-invests-in-mackage/"
+ },
+ "say": "mak-AHZH",
+ "opview": "“Your coat has the dual role of providing not only style, but also warmth and protection from the elements.” — Eran Elfassy and Elisa Dahan, theFashionSpot interview",
+ "region": {
+  "o": [
+   4324,
+   4325,
+   4326,
+   4327
+  ],
+  "s": []
+ },
+ "fibre": {
+  "t": 119,
+  "w": 86,
+  "n": 43,
+  "s": 29,
+  "c": 0,
+  "x": 12,
+  "xh": 8,
+  "sp": "split",
+  "sc": [
+   "outerwear"
+  ],
+  "nc": [
+   "sweats",
+   "tees-polos",
+   "trousers"
+  ],
+  "st": "partial"
+ },
+ "resale": {
+  "grailed": {
+   "u": "https://www.grailed.com/designers/mackage"
+  }
+ },
+ "season": {
+  "l": "Fall-Winter 2026",
+  "t": "lookbook",
+  "u": "https://www.mackage.com/pages/fall-winter-2026",
+  "m": "yes"
+ }
+}

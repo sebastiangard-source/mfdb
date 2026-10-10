@@ -1562,7 +1562,7 @@
    "id": "seat_wave_a_2026-10-08",
    "title": "Seating wave A — 36 brands from the gap analysis",
    "kind": "seating",
-   "state": "issued",
+   "state": "merged",
    "created": "2026-10-08",
    "issued": "2026-10-08",
    "pilot": 36,
@@ -1582,10 +1582,26 @@
      "type": "str"
     }
    ],
-   "writes": {},
-   "returns": [],
+   "writes": {
+    "data/brands": 36,
+    "data/places.json": "own doors (wave A)",
+    "registers": [
+     "own_doors_wave_a_2026-10-08.csv",
+     "door_counts_wave_a_2026-10-08.csv",
+     "stockists_wave_a_2026-10-08.csv"
+    ]
+   },
+   "returns": [
+    "jobs/returns/seat_wave_a_2026-10-08/return.csv",
+    "jobs/returns/seat_wave_a_2026-10-08/return_styles.csv",
+    "jobs/returns/seat_wave_a_2026-10-08/own_doors.csv",
+    "jobs/returns/seat_wave_a_2026-10-08/stockists.csv",
+    "jobs/returns/seat_wave_a_2026-10-08/facts_first.csv",
+    "jobs/returns/seat_wave_a_2026-10-08/NOTE.md"
+   ],
    "blocked_on": "",
-   "note": "ruled 8 Oct: everything seats; no floor; giants, shoe houses, licenses and sub-lines in; zero US doors is positive zero"
+   "note": "ruled 8 Oct: everything seats; no floor; giants, shoe houses, licenses and sub-lines in; zero US doors is positive zero",
+   "merged": "2026-10-10"
   },
   {
    "id": "seat_wave_b_2026-10-08",

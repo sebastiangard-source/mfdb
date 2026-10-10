@@ -3,6 +3,7 @@
   "Boston": [
    "Allston",
    "Boston",
+   "Brighton",
    "Cambridge",
    "Chestnut Hill",
    "Somerville",
@@ -11,6 +12,8 @@
   "MetroWest": [
    "Burlington",
    "Concord",
+   "Framingham",
+   "Hudson",
    "Natick",
    "Needham Hgts",
    "Newton",
@@ -23,16 +26,21 @@
    "Manchester by the Sea",
    "Newburyport",
    "Peabody",
+   "Stoneham",
    "Wenham"
   ],
   "Merrimack Valley": [
    "Andover",
-   "Lowell"
+   "Lowell",
+   "Westford"
   ],
   "South Shore": [
    "Braintree",
+   "Brockton",
    "Foxborough",
+   "Hanover",
    "Hingham",
+   "Mansfield",
    "Norwell",
    "South Weymouth"
   ],
@@ -54,6 +62,8 @@
    "Nantucket"
   ],
   "South Coast": [
+   "North Dartmouth",
+   "Seekonk",
    "South Dartmouth",
    "Westport"
   ],
@@ -62,18 +72,24 @@
    "Lenox"
   ],
   "Pioneer Valley": [
-   "Millbury",
+   "Chicopee",
+   "Hadley",
    "Northampton",
    "Springfield"
   ],
   "Dedham": [
    "Dedham"
+  ],
+  "Worcester County": [
+   "Millbury",
+   "Shrewsbury"
   ]
  },
  "CT": {
   "Fairfield County": [
    "Bridgeport",
    "Danbury",
+   "Norwalk",
    "Ridgefield"
   ],
   "New Haven": [
@@ -84,9 +100,11 @@
   ],
   "Greater Hartford": [
    "Avon",
+   "Enfield",
    "Farmington",
    "Hartford",
    "Meriden",
+   "Newington",
    "South Windsor",
    "Vernon",
    "West Hartford"
@@ -117,6 +135,7 @@
  },
  "ME": {
   "Southern Maine": [
+   "Freeport",
    "Kennebunk",
    "Kennebunkport",
    "Kittery",
@@ -135,9 +154,13 @@
   ],
   "Upper Valley": [
    "Hanover",
-   "Lebanon"
+   "Lebanon",
+   "West Lebanon"
   ],
   "Merrimack Valley NH": [
+   "Amherst",
+   "Bedford",
+   "Nashua",
    "Salem"
   ]
  },
@@ -148,6 +171,7 @@
    "Avalon",
    "Bay Head",
    "Cape May",
+   "Eatontown",
    "Freehold",
    "Long Beach Township",
    "Red Bank",
@@ -179,19 +203,25 @@
   "Essex and Morris": [
    "Chester",
    "Denville",
+   "Morris Township",
    "Morristown",
+   "Newark",
    "Upper Montclair"
   ],
   "Central Jersey": [
    "Bridgewater",
    "Edison",
+   "Green Brook",
+   "New Brunswick",
    "Princeton",
+   "Union",
    "Westfield"
   ],
   "South Jersey": [
    "Atlantic City",
    "Cherry Hill",
-   "Marlton"
+   "Marlton",
+   "Mount Laurel"
   ],
   "Hudson Waterfront": [
    "Hoboken"
@@ -203,18 +233,25 @@
  },
  "NY": {
   "New York City": [
+   "Bronx",
    "Brooklyn",
    "New York"
   ],
   "Long Island": [
    "Bellport",
+   "Carle Place",
    "Cedarhurst",
    "Elmont",
    "Huntington",
    "Huntington Station",
+   "Lake Grove",
    "Locust Valley",
    "Lynbrook",
+   "Massapequa",
    "Ocean Beach",
+   "Oceanside",
+   "Patchogue",
+   "Westbury",
    "Woodbury"
   ],
   "Hamptons and North Fork": [
@@ -241,10 +278,12 @@
    "Kingston",
    "Millbrook",
    "Rhinebeck",
+   "Ulster",
    "Woodstock"
   ],
   "Capital Region": [
    "Albany",
+   "Clifton Park",
    "Latham",
    "Saratoga Springs"
   ],
@@ -254,10 +293,14 @@
   "Western New York": [
    "Amherst",
    "Buffalo",
+   "Depew",
    "Rochester",
    "Victor"
   ],
   "Central New York": [
+   "Cicero",
+   "Fayetteville",
+   "New Hartford",
    "Skaneateles",
    "Syracuse"
   ],
@@ -266,6 +309,9 @@
   ],
   "Garden City": [
    "Garden City"
+  ],
+  "Rockland County": [
+   "West Nyack"
   ]
  },
  "PA": {
@@ -281,6 +327,7 @@
    "Whitehall"
   ],
   "Pittsburgh": [
+   "Cranberry Township",
    "Greensburg",
    "Ligonier",
    "Mount Lebanon",
@@ -290,8 +337,12 @@
   ],
   "Central Pennsylvania": [
    "Bedford",
+   "Camp Hill",
+   "Fairfield",
+   "Harrisburg",
    "Indiana",
    "Johnstown",
+   "Mechanicsburg",
    "State College"
   ],
   "Northeast Pennsylvania": [
@@ -303,25 +354,35 @@
   "Main Line and Chester County": [
    "Ardmore",
    "Dresher",
+   "Exton",
    "Glen Mills",
    "Haverford",
    "Kennett Square",
    "Malvern",
    "Newtown Square",
    "Phoenixville",
+   "Springfield",
    "Warrington",
    "Wayne",
-   "West Chester"
+   "West Chester",
+   "Willow Grove"
   ],
   "King of Prussia": [
    "King of Prussia"
+  ],
+  "Berks County": [
+   "Reading"
+  ],
+  "Northwest Pennsylvania": [
+   "Erie"
   ]
  },
  "RI": {
   "Providence": [
    "Cranston",
    "East Greenwich",
-   "Providence"
+   "Providence",
+   "Warwick"
   ],
   "Newport County": [
    "Block Island",
@@ -344,12 +405,22 @@
   "Central Vermont": [
    "Rutland",
    "Woodstock"
+  ],
+  "Southern Vermont": [
+   "Manchester"
   ]
  },
  "DE": {
   "Northern Delaware": [
    "Greenville",
-   "Newark"
+   "Newark",
+   "Wilmington"
+  ],
+  "Central Delaware": [
+   "Dover"
+  ],
+  "Delaware Beaches": [
+   "Rehoboth Beach"
   ]
  }
 }

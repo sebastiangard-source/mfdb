@@ -1,0 +1,628 @@
+{
+ "name": "L.L.Bean",
+ "band": "premium",
+ "seat": 223,
+ "dagger": 0,
+ "focus": {
+  "tech": 3,
+  "comfort": 4,
+  "craft": 3,
+  "style": 1
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 3,
+  "wool": 3,
+  "synth": 3
+ },
+ "dials": {
+  "dur": 4,
+  "forg": 4,
+  "fuss": -2,
+  "golffice": -2,
+  "whitet": 2,
+  "logo": 2,
+  "western": 1,
+  "rock": 1,
+  "workwear": 3,
+  "outdoor": 4,
+  "surf": 1,
+  "murica": 5,
+  "prep": 3,
+  "ivy": 2
+ },
+ "why": "Freeport, Maine, since 1912: the Bean Boot, flannel shirts, the canvas tote and a guarantee, from a catalog company with sixty-odd stores.",
+ "origin": "Founded in 1912 in Freeport, Maine, USA by Leon Leonwood.",
+ "chan": [
+  "O",
+  "W"
+ ],
+ "conf": "S",
+ "forgc": [
+  4,
+  4,
+  2
+ ],
+ "onething": {
+  "p": "Bean Boot / Maine Hunting Shoe",
+  "u": "https://www.llbean.com/llb/shop/129628",
+  "n": "from the seat_wave_a return; \"Bean Boot / Maine Hunting Shoe (Men's Bean Boots, 8in) - Made in Maine since 191\""
+ },
+ "prices": [
+  [
+   27,
+   55
+  ],
+  [
+   40,
+   65
+  ],
+  [
+   65,
+   89
+  ],
+  [
+   70,
+   120
+  ],
+  [
+   70,
+   100
+  ],
+  [
+   60,
+   250
+  ],
+  [
+   70,
+   450
+  ],
+  [
+   100,
+   100
+  ]
+ ],
+ "price_checked": true,
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants",
+  "Outerwear"
+ ],
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Men's Carefree Unshrinkable Tee, Traditional Fit Short-Sleeve",
+   "lu": "https://www.llbean.com/llb/shop/40651",
+   "hp": "Men's Insect Shield Field Tee, Long-Sleeve (compare-at)",
+   "hu": "https://www.llbean.com/llb/shop/129092",
+   "b": "range"
+  },
+  "Polo": {
+   "lp": "Men's Carefree Unshrinkable Polo, Short-Sleeve, Without Pocket",
+   "lu": "https://www.llbean.com/llb/shop/5847238",
+   "hp": "Men's Comfort Stretch Performance Pima Polo, Short-Sleeve (compare-at)",
+   "hu": "https://www.llbean.com/llb/shop/5800274",
+   "b": "range"
+  },
+  "Dress shirt": {
+   "lp": "Men's Wrinkle-Free Classic Oxford Cloth Shirt, Traditional Fit",
+   "lu": "https://www.llbean.com/llb/shop/34442",
+   "hp": "Men's Signature Premium Pima Cotton Oxford Shirt, Long-Sleeve (compare-at)",
+   "hu": "https://www.llbean.com/llb/shop/129980",
+   "b": "range"
+  },
+  "Jeans": {
+   "lp": "Men's Double L Jeans, Classic Fit",
+   "lu": "https://www.llbean.com/llb/shop/32863",
+   "hp": "Men's Signature Heritage Denim, Classic Fit",
+   "hu": "https://www.llbean.com/llb/shop/128814",
+   "b": "range"
+  },
+  "Dress pants": {
+   "lp": "Men's Wrinkle-Free Double L Chinos, Classic Fit, Plain Front (chinos - no dress trouser)",
+   "lu": "https://www.llbean.com/llb/shop/22821",
+   "hp": "Men's VentureTek Chino Pants, Standard Fit",
+   "hu": "https://www.llbean.com/llb/shop/5862717",
+   "b": "range"
+  },
+  "Sweater": {
+   "lp": "Men's All Seasons Cotton Blend Sweater, Crewneck",
+   "lu": "https://www.llbean.com/llb/shop/5847832",
+   "hp": "Men's Signature Cashmere Sweater (crewneck, 100% cashmere)",
+   "hu": "https://www.llbean.com/llb/shop/5866763",
+   "b": "pair"
+  },
+  "Outerwear": {
+   "lp": "Men's Mountain Classic Anorak (compare-at)",
+   "lu": "https://www.llbean.com/llb/shop/115663",
+   "hp": "Men's Maine Warden's 3-in-1 Parka with GORE-TEX",
+   "hu": "https://www.llbean.com/llb/shop/20010412",
+   "b": "range"
+  },
+  "Shoes": {
+   "lp": "Men's Casco Bay Venetians (handsewn Venetian moccasin-loafer)",
+   "lu": "https://www.llbean.com/llb/shop/5854798",
+   "hp": "Men's Casco Bay Venetians (only loafer found)",
+   "hu": "https://www.llbean.com/llb/shop/5854798",
+   "b": "single"
+  }
+ },
+ "garment_links": {
+  "T-shirt": "https://www.llbean.com/llb/shop/504193?page=mens-t-shirts",
+  "Polo": "https://www.llbean.com/llb/shop/506786?page=mens-polos-and-rugby-shirts",
+  "Dress shirt": "https://www.llbean.com/llb/shop/504190?page=mens-dress-shirts",
+  "Jeans": "https://www.llbean.com/llb/shop/513284?page=mens-jeans",
+  "Dress pants": "https://www.llbean.com/llb/shop/502921?page=mens-pants",
+  "Sweater": "https://www.llbean.com/llb/shop/594?page=mens-sweaters",
+  "Outerwear": "https://www.llbean.com/llb/shop/593?page=mens-outerwear",
+  "Shoes": "https://www.llbean.com/llb/shop/506791"
+ },
+ "price_read": {
+  "date": "2026-10-10",
+  "store": "https://www.llbean.com",
+  "currency": "USD",
+  "status": "partial",
+  "sublines": "L.L.Bean Signature (sold on llbean.com under the L.L.Bean name; counted)"
+ },
+ "notes": {
+  "tech": "Thread proposed 3 (10 Oct 2026): [\"Comfort Stretch Performance\", \"BeanFlex\", \"Comfort Stretch\", \"SunSmart\", \"ColdShield\", \"VentureTek\", \"GORE-TEX\", \"WIND — both; share of range 30%. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 3 (10 Oct 2026): L.L.Bean owns real making - the Brunswick and Lewiston, Maine factories (400+ staff) that sew the Bean Boot, stated on the boot PDP (\"Made in Maine\") and in the company PDF - but it covers boots and totes, not the clothing. All 33 men's clothing PDPs read say only \"Imported\", name no maker or mill, and give at most a fabric country (Portugal flannel, Italian peacoat wool). A 4 is arguable on the o Seated as proposed, pending ruling.",
+  "comfort": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "style": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "dur": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "forg": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "fuss": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "golffice": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "whitet": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "logo": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "western": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "rock": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "workwear": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "outdoor": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "surf": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "murica": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "prep": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "ivy": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "denim": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "cashmere": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "linen": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "cotton": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "wool": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
+  "synth": "seeded 10 Oct 2026 from the seat_wave_a return; provisional"
+ },
+ "doors": {
+  "c": "full",
+  "n": 62,
+  "cities": [
+   [
+    "Albany",
+    "NY",
+    1
+   ],
+   [
+    "Amherst",
+    "NY",
+    1
+   ],
+   [
+    "Beavercreek",
+    "OH",
+    1
+   ],
+   [
+    "Bloomington",
+    "MN",
+    1
+   ],
+   [
+    "Boston",
+    "MA",
+    1
+   ],
+   [
+    "Bridgewater",
+    "NJ",
+    1
+   ],
+   [
+    "Brookfield",
+    "WI",
+    1
+   ],
+   [
+    "Burlington",
+    "MA",
+    1
+   ],
+   [
+    "Center Valley",
+    "PA",
+    1
+   ],
+   [
+    "Charlottesville",
+    "VA",
+    1
+   ],
+   [
+    "Cincinnati",
+    "OH",
+    1
+   ],
+   [
+    "Clinton Township",
+    "MI",
+    1
+   ],
+   [
+    "Columbus",
+    "OH",
+    1
+   ],
+   [
+    "Cranston",
+    "RI",
+    1
+   ],
+   [
+    "Danbury",
+    "CT",
+    1
+   ],
+   [
+    "Dedham",
+    "MA",
+    1
+   ],
+   [
+    "Enfield",
+    "CT",
+    1
+   ],
+   [
+    "Erie",
+    "PA",
+    1
+   ],
+   [
+    "Fayetteville",
+    "NY",
+    1
+   ],
+   [
+    "Framingham",
+    "MA",
+    1
+   ],
+   [
+    "Franklin",
+    "TN",
+    1
+   ],
+   [
+    "Freehold",
+    "NJ",
+    1
+   ],
+   [
+    "Freeport",
+    "ME",
+    3
+   ],
+   [
+    "Glen Mills",
+    "PA",
+    1
+   ],
+   [
+    "Hadley",
+    "MA",
+    1
+   ],
+   [
+    "Hanover",
+    "MA",
+    1
+   ],
+   [
+    "Hudson",
+    "MA",
+    1
+   ],
+   [
+    "Huntsville",
+    "AL",
+    1
+   ],
+   [
+    "Indianapolis",
+    "IN",
+    1
+   ],
+   [
+    "King of Prussia",
+    "PA",
+    1
+   ],
+   [
+    "Lake Grove",
+    "NY",
+    1
+   ],
+   [
+    "Lone Tree",
+    "CO",
+    1
+   ],
+   [
+    "Lyndhurst",
+    "OH",
+    1
+   ],
+   [
+    "Madison",
+    "WI",
+    1
+   ],
+   [
+    "Mansfield",
+    "MA",
+    1
+   ],
+   [
+    "Maple Grove",
+    "MN",
+    1
+   ],
+   [
+    "Marlton",
+    "NJ",
+    1
+   ],
+   [
+    "Mashpee",
+    "MA",
+    1
+   ],
+   [
+    "Mechanicsburg",
+    "PA",
+    1
+   ],
+   [
+    "Millbury",
+    "MA",
+    1
+   ],
+   [
+    "Naperville",
+    "IL",
+    1
+   ],
+   [
+    "New Hartford",
+    "NY",
+    1
+   ],
+   [
+    "North Bethesda",
+    "MD",
+    1
+   ],
+   [
+    "Oak Brook",
+    "IL",
+    1
+   ],
+   [
+    "Paramus",
+    "NJ",
+    1
+   ],
+   [
+    "Peabody",
+    "MA",
+    1
+   ],
+   [
+    "Pittsburgh",
+    "PA",
+    1
+   ],
+   [
+    "Richmond",
+    "VA",
+    1
+   ],
+   [
+    "Salem",
+    "NH",
+    1
+   ],
+   [
+    "Sarasota",
+    "FL",
+    1
+   ],
+   [
+    "Skokie",
+    "IL",
+    1
+   ],
+   [
+    "South Barrington",
+    "IL",
+    1
+   ],
+   [
+    "South Windsor",
+    "CT",
+    1
+   ],
+   [
+    "Ulster",
+    "NY",
+    1
+   ],
+   [
+    "Victor",
+    "NY",
+    1
+   ],
+   [
+    "Virginia Beach",
+    "VA",
+    1
+   ],
+   [
+    "West Lebanon",
+    "NH",
+    1
+   ],
+   [
+    "Westlake",
+    "OH",
+    1
+   ],
+   [
+    "Williston",
+    "VT",
+    1
+   ],
+   [
+    "Yonkers",
+    "NY",
+    1
+   ]
+  ],
+  "basis": "seat_wave_a 2026-10-08: 62 stores from the brand's store list; 16 with streets, 46 town-only (store pages not read) — streets to come",
+  "out": 11,
+  "con": 0
+ },
+ "cities": "62 stores across the US, including Freeport, Huntsville, Lone Tree, and its own site",
+ "site": {
+  "domain": "llbean.com",
+  "platform": "other",
+  "feed": "none",
+  "feed_count": 0,
+  "status": "live_store",
+  "checked": "2026-10-10"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "both",
+  "marks": [
+   "Comfort Stretch Performance",
+   "BeanFlex",
+   "Comfort Stretch",
+   "SunSmart",
+   "ColdShield",
+   "VentureTek",
+   "GORE-TEX",
+   "WINDSTOPPER",
+   "PrimaLoft",
+   "Thinsulate",
+   "DownTek",
+   "COOLMAX",
+   "SUPPLEX",
+   "REPREVE",
+   "TENCEL",
+   "LYCRA",
+   "Insect Shield"
+  ],
+  "source": "seat_wave_a_2026-10-08",
+  "checked": "2026-10-10"
+ },
+ "craft_evidence": {
+  "owned": "yes for boots/totes only - evidence (brand statement naming places and headcount): Brunswick and Lewiston, Maine facilities, over 400 employees, make the Maine Hunting Shoe/Bean Boot and the Boat and Tote (llbean.com Company Information PDF, undated; L.L.Bean Canada company info, 2015 figures). Bean",
+  "makers": "NONE on 33 clothing PDPs and 4 shoe PDPs read 2026-10-10",
+  "mills": "NONE named; fabric origin only: Chamois Shirt \"woven just for us in Portugal\", Scotch Plaid flannel \"Portuguese flannel... woven exclusively for L.L.Bean\", Wool Peacoat \"Fabric woven in Italy exclusively for L.L.Bean\"; Signature Heritage Denim washes made \"in partnership with our mill\" (unnamed)",
+  "madein": "0",
+  "heritage": "dated and placed (brand claim): founded 1912 by Leon Leonwood Bean; original shop Freeport, Maine 1917; Maine Hunting Shoe 1912 (company history page says invented 1911); Field Coat 1924 (\"since 1924\"",
+  "process": "Bean Boot only: triple-line stitch joining rubber and leather; stitchers trained 26 weeks; sewn in Maine one pair at a time (llbean.com Built to Last, 2020-11-25; Bean Boot PDP). Clothing: constructio",
+  "urls": [
+   "https://www.llbean.com/llb/shop/129628",
+   "https://www.llbean.com/dept_resources/shared/Company_Information.pdf"
+  ],
+  "conf": "medium",
+  "read": "2026-10-10",
+  "proposed": 3,
+  "reasoning": "L.L.Bean owns real making - the Brunswick and Lewiston, Maine factories (400+ staff) that sew the Bean Boot, stated on the boot PDP (\"Made in Maine\") and in the company PDF - but it covers boots and totes, not the clothing. All 33 men's clothing PDPs read say only \"Imported\", name no maker or mill, and give at most a fabric country (Portugal flannel, Italian peacoat wool). A 4 is arguable on the owned boot factory if the map scores footwear; on the clothing it is a 2-3."
+ },
+ "ownership": {
+  "owner": "L.L.Bean, Inc. - privately held, family-owned (Bean/Gorman family; Shawn Gorman, great-grandson of L.L., Executive Chairman). No annual report published.",
+  "u": "https://global.llbean.com/llb/shop/20010458.html"
+ },
+ "opview": "“Sell good merchandise at a reasonable profit, treat customers like human beings and they'll always come back for more.” — Leon Leonwood, L.L.Bean Canada Company Information page (Operations > Customer Service)",
+ "region": {
+  "o": [
+   4177,
+   4178,
+   4179,
+   4182,
+   4183,
+   4184,
+   4192,
+   4193,
+   4194,
+   4195,
+   4196,
+   4197,
+   4198,
+   4199,
+   4200,
+   4201,
+   4202,
+   4206,
+   4207,
+   4208,
+   4209,
+   4210,
+   4211,
+   4212,
+   4213,
+   4214,
+   4215,
+   4216,
+   4217,
+   4218,
+   4219,
+   4225,
+   4226,
+   4227,
+   4228,
+   4229,
+   4230,
+   4231,
+   4233
+  ],
+  "s": []
+ },
+ "fibre": {
+  "t": 33,
+  "w": 33,
+  "n": 79,
+  "s": 21,
+  "c": 0,
+  "x": 15,
+  "xh": 3,
+  "sp": "one",
+  "sc": [],
+  "nc": [],
+  "st": "partial"
+ },
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?brand_ids[]=82178&catalog[]=5",
+   "m": "brand filter",
+   "n": ""
+  },
+  "grailed": {
+   "u": "https://www.grailed.com/designers/l-l-bean"
+  }
+ }
+}
