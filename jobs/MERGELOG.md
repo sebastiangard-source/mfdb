@@ -1735,3 +1735,6 @@ Boyds profiled from its own site (two doors). Register row 116 (Wayne, no addres
 
 ## 2026-10-10 — doors_recapture_2026-10-10 (v3.44.0)
 Every own-door row for the 142 returned keys replaced from the brands' own locators (3,615 rows added; opening rows and the four held Ralph Lauren flagships excluded; `seen` carried over by street). doors.n = own stores, with out/con counts added to the record and shown on the brand page; department-store counters not doors. Ralph Lauren by label: Polo 47, Purple Label 23, RRL 26, RLX 2. City spellings normalised (NEW YORK, King Of Prussia, Mt. Lebanon, Evesham Township→Marlton, Dorchester→Boston, 'Long Island'→Garden City); Prada 'New York' row was East Hampton; Attolini Miami row was Bal Harbour. Region indices remapped for all brands; empty region objects removed (31). Where-lines: leading count swapped; four hand-written. Still to merge: return_shops.csv (33 shops), spot_check.csv, out_of_scope (HUGO).
+
+## 2026-10-10 — doors_womens rulings
+Lilly Pulitzer Signature Stores stay as own doors (114, operator flagged). FP Movement, OFFLINE by Aerie and Maeve set aside as candidate keys. Joie and Equipment positive zero (Newbury Street and the New York store both gone). Simon Mills centres are outlet centres (ruled: Opry Mills is an outlet); seven Aerie doors moved to outlets.
