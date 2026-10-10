@@ -1691,7 +1691,7 @@
    "id": "doors_womens_2026-10-10",
    "title": "Doors — 36 womens brands, every US store",
    "kind": "locations",
-   "state": "issued",
+   "state": "returned",
    "created": "2026-10-10",
    "issued": "2026-10-10",
    "pilot": 0,
@@ -1718,9 +1718,11 @@
    "writes": {
     "places": "append own-door rows; brands not seated on the mens map"
    },
-   "returns": [],
+   "returns": [
+    "jobs/returns/doors_womens_2026-10-10/"
+   ],
    "blocked_on": "",
-   "note": "same shape as doors_recapture; Isabel Marant skipped (seated on mens); feeds the womens map and the full store list"
+   "note": "same shape as doors_recapture; Isabel Marant skipped (seated on mens); feeds the womens map and the full store list; returned 10 Oct: 4,422 rows for 34 brands (Equipment and Joie NC); 3,681 own stores after the Mills ruling; registered, not in places until the womens map seats them"
   },
   {
    "id": "seat_wave_b_restart_2026-10-10",
