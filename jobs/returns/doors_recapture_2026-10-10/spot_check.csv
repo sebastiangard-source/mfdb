@@ -1,0 +1,21 @@
+n,helper_batch,brand_or_shop,row_as_returned,checked_at,result,what_was_seen
+1,c0,Banana Republic,"HOUSTON PREMIUM (outlet), 29300 Hempstead Road Ste 125, Cypress TX 77433",https://bananarepublic.gap.com/stores/tx/cypress/banana-republic-1041.html,pass,"store page shows the same address, typed Factory Store"
+2,g0,Rag & Bone,"Santa Clara, 2855 Stevens Creek Blvd Suite 1630, Santa Clara CA 95050",https://www.rag-bone.com/stores-list,pass,in the all-stores list as written
+3,g4,Faherty,"Faherty Palm Springs, 146-148 N Palm Canyon Drive, Palm Springs CA 92262",https://hosted.where2getit.com/fahertybrand/indexGTMclient.html,pass,locator search 92262 returns the store at that address
+4,g1,Sid Mashburn,"Sid Mashburn Los Angeles, 225 26th St Suite 34, Santa Monica CA 90402",https://shopmashburn.com/pages/store-locations,pass,as written
+5,c0,Banana Republic,"ORLANDO (VIN)PREMIUM (outlet), 8200 Vineland Ave Ste 400, Orlando FL 32821",https://bananarepublic.gap.com/stores/fl/orlando/banana-republic-6273.html,pass,Factory Store at that address
+6,c1,Celine,"CELINE BAL HARBOUR (opening), 9700 Collins Avenue, Bal Harbour FL 33154",https://stores.celine.com/fl/bal-harbour/9700-collins-avenue,pass,"page says ""opening soon on 6/11/26"" (6 Nov); row is status opening"
+7,c0,Banana Republic,"Clinton Crossing (outlet), 20a Killingworth Turnpike Ste 525, Clinton CT 06413",https://bananarepublic.gap.com/stores/ct/clinton/banana-republic-1738.html,pass,Factory Store at that address
+8,c2,Billy Reid,"Los Angeles, 190 N Canon Drive Suite 208, Beverly Hills CA 90210",https://www.billyreid.com/pages/location/los-angeles-ca,pass,as written
+9,g3,Rothy's,"University Town Center, 4307 La Jolla Village Drive, San Diego CA 92122",https://rothys.com/pages/stores/university-town-center,pass,as written
+10,g4,Lululemon,"West Acres Mall, 3902 13th Ave S Unit 507, Fargo ND 58103",https://shop.lululemon.com/stores/us/fargo/west-acres-mall,pass,as written
+11,g4,Lululemon,"Pheasant Lane Mall Pop Up (pop-up), 310 Daniel Webster Highway Unit E251, Nashua NH 03060",https://shop.lululemon.com/stores/us/nashua/pheasant-lane-mall-pop-up,pass,as written
+12,c0,Burberry,"Ala Moana Center, 1450 Ala Moana Boulevard, Honolulu HI 96814",https://stores.burberry.com/en/us/hi/honolulu/1450-ala-moana-boulevard,pass,as written (row source_url is the locator home; store page found)
+13,c2,Indochino,"Philadelphia showroom, 1519 Walnut Street, Philadelphia PA 19102",https://www.indochino.com/showroom/philadelphia-,pass,"street and city as written; page shows no ZIP (ZIP is from the showroom data). Replaces the first draw, Polo Ralph Lauren Outlet Wrentham, which could not be checked: ralphlauren.com shows a bot challenge"
+14,g2,A.P.C.,"A.P.C. NYC Surplus (outlet), 405 Broome St, New York NY 10013",https://storerocket.io/api/user/DLJyO7qpl2/locations,pass,"in the locator feed the page loads, as written"
+15,c1,Zegna,"Zegna Boutique, 1 Newbury Street, Boston MA 02116",https://www.zegna.com/us-en/store-locator/store-detail//united-states/boston/1-newbury-street.406,pass,"name, street and city as written; page shows no ZIP"
+16,g2,Versace,"Versace Las Vegas Caesar's, Forum Shops 3500 Las Vegas Blvd South Space B05, Las Vegas NV 89109",https://www.versace.com/us/en/find-a-store/united-states/las-vegas/versace-las-vegas-caesar-s-forum-shops-at-caesars-palace-3500-US0000762640.html,pass,as written
+17,c0,Banana Republic,"REHOBOTH TANGER (outlet), 36445 Seaside Outlet Drive Ste 1800, Rehoboth Beach DE 19971",https://bananarepublic.gap.com/stores/de/rehobothbeach/banana-republic-6270.html,pass,Factory Store at that address
+18,c0,Lacoste,"Lacoste Jersey Gardens Outlet, 651 Kapkowski Rd Suite 1224, Elizabeth NJ 07201",https://www.lacoste.com/us/stores/united-states/elizabeth/elizabeth-4719,pass,"as written, typed Outlet"
+19,shops,Totem Brand Co.,"535 South St, Philadelphia PA 19147",https://www.google.com/search?q=Totem+Brand+Co.+Philadelphia+PA,pass,Google panel shows the same address; own site shows no address
+20,shops,City Workshop Men's Supply Co.,"104 Baker St, Maplewood NJ 07040",https://www.cityworkshopmsc.com/,pass,shop's own site footer shows the same address

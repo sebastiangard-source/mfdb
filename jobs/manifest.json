@@ -1698,7 +1698,10 @@
     "places": "append/replace own-door rows per brand"
    },
    "returns": [
-    "jobs/returns/doors_recapture_2026-10-10/"
+    "jobs/returns/doors_recapture_2026-10-10/",
+    "jobs/returns/doors_recapture_2026-10-10/return_shops.csv",
+    "jobs/returns/doors_recapture_2026-10-10/spot_check.csv",
+    "jobs/returns/doors_recapture_2026-10-10/out_of_scope.csv"
    ],
    "blocked_on": "",
    "note": "closes the 430-door gap between claimed counts and addressed rows; priority A = Alo, Levi's, J.Crew, BOSS and nine more; returned and merged 10 Oct: 5,891 rows, 142 brands; own 3,611 / outlets 1,441 / concessions 599 / counters 137; shops file and spot_check still to come"
