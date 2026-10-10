@@ -1781,6 +1781,39 @@
    "returns": [],
    "blocked_on": "",
    "note": "RESUME.md: facts-first done and ruled; ten NC door counts first in Chrome, then full records from the top"
+  },
+  {
+   "id": "womens_brands_dept_stores_2026-10-10",
+   "title": "Women's clothing brands carried by the big department stores",
+   "kind": "capture",
+   "state": "issued",
+   "created": "2026-10-10",
+   "issued": "2026-10-10",
+   "pilot": 2,
+   "nc": "NC",
+   "brands": "n/a",
+   "schema": [
+    {
+     "name": "store",
+     "type": "str"
+    },
+    {
+     "name": "brand_as_listed",
+     "type": "str"
+    },
+    {
+     "name": "brand_url_on_store",
+     "type": "provenance"
+    },
+    {
+     "name": "note",
+     "type": "str"
+    }
+   ],
+   "writes": {},
+   "returns": [],
+   "blocked_on": "",
+   "note": "Nordstrom and Saks first; builds the womens candidate universe by counting, not authoring"
   }
  ]
 }
