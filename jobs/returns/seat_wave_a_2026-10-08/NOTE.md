@@ -18,8 +18,8 @@ no-empty-cell check pass on every file. Facts-first rows are in `facts_first.csv
 - Vinted ids and GOTS were often unreachable once the web-search budget ran out.
 - A handful of sites block fetching or browsing outright.
 
-Own US door counts are filed for 31 of 36 brands. The five still `NC` are adidas, Ministry of
-Supply, Red Wing, The North Face and Woolrich, each with the reason in `doors_basis`.
+Own US door counts are filed for 32 of 36 brands. The four still `NC` are adidas, Ministry of
+Supply, Red Wing and Woolrich, each with the reason in `doors_basis`.
 
 | brand | NC /132 | own US doors | craft | tech* |
 |---|---|---|---|---|
@@ -78,6 +78,9 @@ out of it:
 - **Uniqlo (11 October):** 93 US stores read from its store locator, 89 open plus 4 coming soon.
   `own_doors_us` stays at Fast Retailing's 87; the locator's 89 open is 2 more, and nothing explains
   the gap.
+- **The North Face (11 October):** you were standing by to pass a check, but none appeared. 126 US
+  doors were read from the store finder's own directory: 61 full-price and 65 outlets.
+  `own_doors_us` is 61.
 - **Still without a street address:** only the 26 Issey Miyake stores outside the US, which aren't
   needed.
 
@@ -3073,6 +3076,11 @@ Lines in the sample:
 - **Alternative**, from the our-story page: "Named for the most challenging side of the mountain".
 
 
+### Store locator 2026-10-11 (main thread)
+
+own_doors_us NC → 61. Browser read 2026-10-11 (no check appeared): 126 TNF-branded US doors = 61 full-price + 65 outlet (3 classed outlet by outlet-centre venue and store-number series), from the locator's own directory/sitemap (store slugs usaNNN; sitemap dated May 2026, so a newer door could be missing). ~5,700 dealer listings excluded. VF 10-K FY2026: 286 VF-operated TNF stores worldwide (no split); own_doors_world NC. Bozeman ZIP is recorded as the locator gives it (95718, probably 59718). No San Francisco store is listed.
+
+
 ## Tod's
 
 
@@ -3478,6 +3486,8 @@ Listing links:
 ### Store locator 2026-10-11 (main thread)
 
 93 US stores read: 89 open + 4 coming soon. All phones are the central customer-service line. Venue is inferred from the store name and address. own_doors_us stays 87 (Fast Retailing), with the locator's 89 open recorded in doors_basis.
+
+Correction 2026-10-11: UNIQLO Chestnut Hill (199 Boylston St) had been tagged as The Street Chestnut Hill. It is the Simon-owned Mall at Chestnut Hill, so the venue is corrected. Venues on the other rows are inferred from store names and addresses and have not been checked.
 
 
 ## UNTUCKit

@@ -175,9 +175,305 @@
   "synth": "seeded 10 Oct 2026 from the seat_wave_a return; provisional"
  },
  "doors": {
-  "c": "none"
+  "c": "full",
+  "n": 61,
+  "cities": [
+   [
+    "New York",
+    "NY",
+    3
+   ],
+   [
+    "Seattle",
+    "WA",
+    2
+   ],
+   [
+    "Albuquerque",
+    "NM",
+    1
+   ],
+   [
+    "Anchorage",
+    "AK",
+    1
+   ],
+   [
+    "Atlanta",
+    "GA",
+    1
+   ],
+   [
+    "Austin",
+    "TX",
+    1
+   ],
+   [
+    "Aventura",
+    "FL",
+    1
+   ],
+   [
+    "Bellevue",
+    "WA",
+    1
+   ],
+   [
+    "Bloomington",
+    "MN",
+    1
+   ],
+   [
+    "Boise",
+    "ID",
+    1
+   ],
+   [
+    "Boston",
+    "MA",
+    1
+   ],
+   [
+    "Boulder",
+    "CO",
+    1
+   ],
+   [
+    "Bozeman",
+    "MT",
+    1
+   ],
+   [
+    "Braintree",
+    "MA",
+    1
+   ],
+   [
+    "Brea",
+    "CA",
+    1
+   ],
+   [
+    "Brooklyn",
+    "NY",
+    1
+   ],
+   [
+    "Burlington",
+    "MA",
+    1
+   ],
+   [
+    "Charlotte",
+    "NC",
+    1
+   ],
+   [
+    "Cherry Hill",
+    "NJ",
+    1
+   ],
+   [
+    "Chicago",
+    "IL",
+    1
+   ],
+   [
+    "Columbus",
+    "OH",
+    1
+   ],
+   [
+    "Costa Mesa",
+    "CA",
+    1
+   ],
+   [
+    "Dallas",
+    "TX",
+    1
+   ],
+   [
+    "Denver",
+    "CO",
+    1
+   ],
+   [
+    "Durham",
+    "NC",
+    1
+   ],
+   [
+    "Farmington",
+    "CT",
+    1
+   ],
+   [
+    "Frisco",
+    "TX",
+    1
+   ],
+   [
+    "Garden City",
+    "NY",
+    1
+   ],
+   [
+    "Grand Rapids",
+    "MI",
+    1
+   ],
+   [
+    "Honolulu",
+    "HI",
+    1
+   ],
+   [
+    "Houston",
+    "TX",
+    1
+   ],
+   [
+    "Indianapolis",
+    "IN",
+    1
+   ],
+   [
+    "King of Prussia",
+    "PA",
+    1
+   ],
+   [
+    "Las Vegas",
+    "NV",
+    1
+   ],
+   [
+    "Lone Tree",
+    "CO",
+    1
+   ],
+   [
+    "Lynnfield",
+    "MA",
+    1
+   ],
+   [
+    "Minnetonka",
+    "MN",
+    1
+   ],
+   [
+    "Natick",
+    "MA",
+    1
+   ],
+   [
+    "Newark",
+    "DE",
+    1
+   ],
+   [
+    "Novi",
+    "MI",
+    1
+   ],
+   [
+    "Paramus",
+    "NJ",
+    1
+   ],
+   [
+    "Peabody",
+    "MA",
+    1
+   ],
+   [
+    "Portland",
+    "OR",
+    1
+   ],
+   [
+    "Providence",
+    "RI",
+    1
+   ],
+   [
+    "Raleigh",
+    "NC",
+    1
+   ],
+   [
+    "Roseville",
+    "CA",
+    1
+   ],
+   [
+    "San Diego",
+    "CA",
+    1
+   ],
+   [
+    "Santa Clara",
+    "CA",
+    1
+   ],
+   [
+    "Schaumburg",
+    "IL",
+    1
+   ],
+   [
+    "Skokie",
+    "IL",
+    1
+   ],
+   [
+    "Spokane",
+    "WA",
+    1
+   ],
+   [
+    "St. Louis",
+    "MO",
+    1
+   ],
+   [
+    "Towson",
+    "MD",
+    1
+   ],
+   [
+    "Troy",
+    "MI",
+    1
+   ],
+   [
+    "Tysons",
+    "VA",
+    1
+   ],
+   [
+    "Walnut Creek",
+    "CA",
+    1
+   ],
+   [
+    "Wauwatosa",
+    "WI",
+    1
+   ],
+   [
+    "Woodlands",
+    "TX",
+    1
+   ]
+  ],
+  "basis": "seat_wave_a 2026-10-08: store finder directory read 11 Oct — 61 full-price + 65 outlets (sitemap dated May 2026; a newer door could be missing); ~5,700 dealer listings excluded",
+  "out": 65,
+  "con": 0
  },
- "cities": "Store count not established · department stores, independent shops, its own site",
+ "cities": "61 stores across the US, including New York, Seattle, Albuquerque · department stores, independent shops, its own site",
  "site": {
   "domain": "thenorthface.com",
   "platform": "other",
@@ -251,5 +547,26 @@
    "u": "https://www.grailed.com/designers/the-north-face"
   }
  },
- "door_note": "VF 10-K: 286 VF-operated TNF stores worldwide, no US split; locator behind a human check on 10 Oct — not read"
+ "region": {
+  "o": [
+   5251,
+   5254,
+   5255,
+   5261,
+   5262,
+   5264,
+   5265,
+   5276,
+   5285,
+   5287,
+   5291,
+   5293,
+   5294,
+   5295,
+   5297,
+   5299,
+   5300
+  ],
+  "s": []
+ }
 }

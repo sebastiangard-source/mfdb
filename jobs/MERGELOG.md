@@ -1768,3 +1768,6 @@ The North Face and Woolrich were seated 10 Oct with doors n=0 from an NC return 
 
 ## 2026-10-11 — locations database v1 and the geocoding brief
 Ruled: a locations database of full-price brand-owned US stores only (no outlets, factory or clearance stores, concessions, counters, pop-ups or stockists), men's and women's together, with lat/long. tools/doors_db.py builds registers/locations_db_v1.csv from places.json own doors + the women's and wave B registers: 9,061 doors, 233 brands (5,537 men's, 3,524 women's), de-duplicated on brand + street + ZIP; 70 without a ZIP. Geocoding cannot run from this workspace (no geocoder reachable), so jobs/briefs/geocode_locations_2026-10-11 is a self-contained brief for a separate Claude project: Census batch first, Nominatim second, no centroids, NC with a reason, validate_return.py before returning. Re-run doors_db.py and re-issue the delta as wave B, wave C and the Rue La La reads land.
+
+## 2026-10-11 — seat_wave_a_2026-10-08, third address pass (v3.51.0)
+The North Face: store finder directory read (no human check appeared this time): 126 US doors = 61 full-price + 65 outlets; 61 placed, doors full. Uniqlo Chestnut Hill venue corrected to The Mall at Chestnut Hill (not The Street). Wave A rows now addressed for 35 of 36 brands; Nike remains on its 10-K count. locations_db_v1 to be rebuilt.
