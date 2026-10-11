@@ -1,0 +1,261 @@
+{
+ "name": "Eddie Bauer",
+ "band": "basic",
+ "seat": 256,
+ "dagger": 0,
+ "focus": {
+  "tech": 3,
+  "comfort": 4,
+  "craft": 2,
+  "style": 1
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 3,
+  "wool": 1,
+  "synth": 4
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 4,
+  "fuss": -1,
+  "golffice": -2,
+  "whitet": 2,
+  "logo": 2,
+  "western": 1,
+  "rock": 1,
+  "workwear": 2,
+  "outdoor": 4,
+  "surf": 1,
+  "murica": 4
+ },
+ "why": "Seattle, 1920, the patented down jacket; now an Authentic Brands label sold online and wholesale, its store operator having filed for bankruptcy in February 2026.",
+ "origin": "Founded in 1920 in Seattle, Washington by Eddie Bauer.",
+ "chan": [
+  "D",
+  "W"
+ ],
+ "conf": "S",
+ "forgc": [
+  4,
+  4,
+  2
+ ],
+ "onething": {
+  "p": "Skyliner down jacket (1936; sold today as the 1936 Skyliner Model Down Jacket)",
+  "u": "https://www.eddiebauer.com/products/mens-1936-skyliner-down-jacket-13512602",
+  "n": "from the seat_wave_b_2026-10-08 return; \"Skyliner down jacket (1936; sold today as the 1936 Skyliner Model Down Jacket)\""
+ },
+ "prices": [
+  [
+   28,
+   65
+  ],
+  [
+   45,
+   70
+  ],
+  [
+   75,
+   75
+  ],
+  [
+   75,
+   99
+  ],
+  [
+   70,
+   90
+  ],
+  [
+   75,
+   130
+  ],
+  [
+   89,
+   499
+  ],
+  null
+ ],
+ "price_checked": true,
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Jeans",
+  "Dress pants",
+  "Sweater",
+  "Outerwear"
+ ],
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Men's Legend Wash 100% Cotton Short-Sleeve Classic T-Shirt",
+   "lu": "https://www.eddiebauer.com/products/mens-ss-lw-cotton-classic-tee-11302797",
+   "hp": "Men's Plaited Waffle Thermal Crew",
+   "hu": "https://www.eddiebauer.com/products/plaited-waffle-thermal-crew-eb000979m",
+   "b": "range"
+  },
+  "Polo": {
+   "lp": "Men's Signature Piqué Short-Sleeve Polo",
+   "lu": "https://www.eddiebauer.com/products/mens-ss-signature-pique-polo-11602202",
+   "hp": "Men's Mountain Trek 2.0 Polo",
+   "hu": "https://www.eddiebauer.com/products/mens-ss-mensn-trek-polo-2-11602306",
+   "b": "range"
+  },
+  "Dress shirt": {
+   "lp": "Men's Long-Sleeve Voyager 2.0 Dress Shirt",
+   "lu": "https://www.eddiebauer.com/products/ls-voyager-dress-shirt-2-0-eb000974m",
+   "hp": "Men's Long-Sleeve Voyager 2.0 Dress Shirt",
+   "hu": "https://www.eddiebauer.com/products/ls-voyager-dress-shirt-2-0-eb000974m",
+   "b": "single"
+  },
+  "Jeans": {
+   "lp": "Men's Eddie's Flex Jean - Relaxed",
+   "lu": "https://www.eddiebauer.com/products/eddies-flex-jean-relaxed-eb001442m",
+   "hp": "Men's Eddie's Flex Flannel Lined Jean",
+   "hu": "https://www.eddiebauer.com/products/eddies-flex-flannel-lined-jean-straight-eb001452m",
+   "b": "range"
+  },
+  "Dress pants": {
+   "lp": "Men's Horizon Takeoff Stretch Chino Pants",
+   "lu": "https://www.eddiebauer.com/products/mens-horizon-takeoff-chino-11653309",
+   "hp": "Men's Getaway Flex Fleece-Lined Chinos",
+   "hu": "https://www.eddiebauer.com/products/mens-getaway-flex-lined-classic-tw-13507134",
+   "b": "range"
+  },
+  "Sweater": {
+   "lp": "Men's Classic Crew Solid Sweater",
+   "lu": "https://www.eddiebauer.com/products/classic-crew-solid-eb000911m",
+   "hp": "Men's Northwest Cable-Knit Crew Sweater",
+   "hu": "https://www.eddiebauer.com/products/nw-cable-crew-eb000976m",
+   "b": "range"
+  },
+  "Outerwear": {
+   "lp": "Men's Zephyr Wind Anorak",
+   "lu": "https://www.eddiebauer.com/products/mens-zephyr-wind-anorak-11612670",
+   "hp": "Men's Superior Arctic Down Parka",
+   "hu": "https://www.eddiebauer.com/products/superior-arctic-down-parka-eb000682m",
+   "b": "range"
+  }
+ },
+ "garment_links": {
+  "T-shirt": "https://www.eddiebauer.com/collections/mens-tops-t-shirts",
+  "Polo": "https://www.eddiebauer.com/collections/mens-tops-polos",
+  "Dress shirt": "https://www.eddiebauer.com/collections/mens-tops-shirts",
+  "Jeans": "https://www.eddiebauer.com/collections/mens-bottoms-jeans",
+  "Dress pants": "https://www.eddiebauer.com/collections/mens-bottoms-pants",
+  "Sweater": "https://www.eddiebauer.com/collections/mens-tops-sweaters",
+  "Outerwear": "https://www.eddiebauer.com/collections/mens-outerwear"
+ },
+ "price_read": {
+  "date": "2026-10-10",
+  "store": "https://www.eddiebauer.com/",
+  "currency": "USD",
+  "status": "partial",
+  "sublines": "-"
+ },
+ "notes": {
+  "tech": "Thread proposed 3 (2026-10-10): StormRepel DWR; FreeShade UPF; FreeDry; WeatherEdge; ThermaFill; AirSpace; Rainfoil; Windfoil — owned marks (Eddie Bauer registered names over unnamed supplier fabrics) plus licensed Polygiene, TENCEL and bluesign; share of range 24% (65/267 styles name a mark in PDP features or materials; StormRepel 45, Free. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 2 (2026-10-10): Eddie Bauer gives a dated and placed origin (Seattle, 1920) and a documented first: the patented down jacket. It names no factory, maker or mill on any of 267 men's PDPs, and only 15 PDPs say anything about origin, all of them just 'Imported'. That is heritage without verifiable making. It sits between 1 and 2; 2 is proposed because the history can be checked. Seated as proposed, pending ruling.",
+  "comfort": "seeded 2026-10-11 from the seat_wave_b_2026-10-08 return; provisional",
+  "style": "seeded 2026-10-11 from the seat_wave_b_2026-10-08 return; provisional",
+  "dur": "seeded 2026-10-11 from the seat_wave_b_2026-10-08 return; provisional",
+  "forg": "seeded 2026-10-11 from the seat_wave_b_2026-10-08 return; provisional",
+  "fuss": "seeded 2026-10-11 from the seat_wave_b_2026-10-08 return; provisional",
+  "golffice": "seeded 2026-10-11 from the seat_wave_b_2026-10-08 return; provisional",
+  "whitet": "seeded 2026-10-11 from the seat_wave_b_2026-10-08 return; provisional",
+  "logo": "seeded 2026-10-11 from the seat_wave_b_2026-10-08 return; provisional",
+  "western": "seeded 2026-10-11 from the seat_wave_b_2026-10-08 return; provisional",
+  "rock": "seeded 2026-10-11 from the seat_wave_b_2026-10-08 return; provisional",
+  "workwear": "seeded 2026-10-11 from the seat_wave_b_2026-10-08 return; provisional",
+  "outdoor": "seeded 2026-10-11 from the seat_wave_b_2026-10-08 return; provisional",
+  "surf": "seeded 2026-10-11 from the seat_wave_b_2026-10-08 return; provisional",
+  "denim": "seeded 2026-10-11 from the seat_wave_b_2026-10-08 return; provisional",
+  "cashmere": "seeded 2026-10-11 from the seat_wave_b_2026-10-08 return; provisional",
+  "linen": "seeded 2026-10-11 from the seat_wave_b_2026-10-08 return; provisional",
+  "cotton": "seeded 2026-10-11 from the seat_wave_b_2026-10-08 return; provisional",
+  "wool": "seeded 2026-10-11 from the seat_wave_b_2026-10-08 return; provisional",
+  "synth": "seeded 2026-10-11 from the seat_wave_b_2026-10-08 return; provisional",
+  "murica": "seeded 2026-10-11 from the seat_wave_b_2026-10-08 return; provisional"
+ },
+ "doors": {
+  "c": "full",
+  "n": 0,
+  "cities": [],
+  "basis": "positive zero 2026-10-11 (seat_wave_b_2026-10-08)",
+  "out": 0,
+  "con": 0
+ },
+ "cities": "No store of its own in the US · department stores, and its own site",
+ "site": {
+  "domain": "eddiebauer.com",
+  "platform": "other",
+  "feed": "none",
+  "feed_count": 0,
+  "status": "live_store",
+  "checked": "2026-10-10"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "both",
+  "marks": [
+   "StormRepel DWR",
+   "FreeShade UPF",
+   "FreeDry",
+   "WeatherEdge",
+   "ThermaFill",
+   "AirSpace",
+   "Rainfoil",
+   "Windfoil",
+   "MicroTherm",
+   "RipPac (EB marks)",
+   "Polygiene",
+   "TENCEL Modal",
+   "bluesign-approved fabrics (licensed/third-party)"
+  ],
+  "source": "seat_wave_b_2026-10-08",
+  "checked": "2026-10-10"
+ },
+ "craft_evidence": {
+  "owned": "no (no factory, mill or workshop named anywhere on eddiebauer.com; Our Story page gives history only)",
+  "makers": "none on the 267 PDPs read",
+  "mills": "none on the 267 PDPs read (bluesign-approved fabric is a certification, not a mill)",
+  "madein": "6% (15/267 PDPs say Imported; none names a country)",
+  "heritage": "dated and placed: Bauer's Sports Shop opened 1920, Seattle; first patented down jacket in America; outfitted first American Everest ascent (Our Story page)",
+  "process": "no; Legend Wash is called an exclusive process but is not described; nothing else on how garments are made",
+  "urls": [
+   "https://www.eddiebauer.com/pages/our-story",
+   "https://www.eddiebauer.com/products/mens-1936-skyliner-down-jacket-13512602"
+  ],
+  "proposed": 2,
+  "reasoning": "Eddie Bauer gives a dated and placed origin (Seattle, 1920) and a documented first: the patented down jacket. It names no factory, maker or mill on any of 267 men's PDPs, and only 15 PDPs say anything about origin, all of them just 'Imported'. That is heritage without verifiable making. It sits between 1 and 2; 2 is proposed because the history can be checked.",
+  "source": "seat_wave_b_2026-10-08"
+ },
+ "ownership": {
+  "owner": "Authentic Brands Group (owns the Eddie Bauer IP); US e-commerce and wholesale operated by licensee Outdoor 5, LLC since 2 Feb 2026; the former North American store operator Eddie Bauer LLC (store licence held by Catalyst Brands) filed Chapter 11 on 9 Feb 2026",
+  "u": "https://abc7ny.com/post/retail-operator-outdoor-sportswear-pioneer-eddie-bauer-files-bankruptcy/18575429/"
+ },
+ "opview": "“To inspire, enable, and empower everyone to experience the outdoors and live their adventure.” — Eddie Bauer (house vision statement), Eddie Bauer, Our Story page (Our Vision)",
+ "fibre": {
+  "t": 267,
+  "w": 267,
+  "n": 56,
+  "s": 43,
+  "c": 1,
+  "x": 20,
+  "xh": 9,
+  "sp": "split",
+  "sc": [
+   "Outerwear (Vests, Insulated, Rainwear, Softshell & Wind Jackets)",
+   "Fleece"
+  ],
+  "nc": [
+   "T-Shirts",
+   "Shirts",
+   "Pants"
+  ],
+  "st": "complete"
+ },
+ "band_note": "basic by the price rule (tee $28, dress shirt $75)"
+}

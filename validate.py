@@ -49,7 +49,7 @@ def grab(const):
         i = S.find('const %s=' % const)
     if i < 0:
         return None
-    seg = S[i:i + 400000]
+    seg = S[i:i + 4000000]
     st = seg.find('{')
     d = 0
     for j, c in enumerate(seg[st:], st):

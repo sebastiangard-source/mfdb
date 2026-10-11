@@ -35,6 +35,23 @@ CEL = {'viscose', 'lyocell', 'modal', 'triacetate', 'other-cellulosic', 'rayon',
 CHAN = {'O': None, 'D': 'department stores', 'I': 'independent shops', 'W': 'its own site', 'X': None}
 
 
+RENAME = {'King Of Prussia': 'King of Prussia', 'Manhattan': 'New York', 'Dorchester': 'Boston',
+          'Mount Laurel Township': 'Mount Laurel', 'Cherry Hill Township': 'Cherry Hill'}
+QUEENS = {'Jackson Heights', 'Elmhurst', 'Sunnyside', 'Howard Beach', 'Flushing', 'Astoria', 'Forest Hills',
+          'Long Island City', 'Staten Island', 'Queens', 'Rego Park', 'Bayside', 'Jamaica'}
+
+
+def norm_city(c):
+    """Title-case locator cities (CLARKS writes BROOKLYN), apply the standing renames, and fold the
+    outer-borough spellings into New York with the borough as the neighbourhood."""
+    c = (c or '').strip()
+    if c.isupper() or c.islower():
+        c = ' '.join(w.lower() if (w.lower() in ('of', 'de', 'la', 'du') and i) else w[:1].upper() + w[1:].lower()
+                     for i, w in enumerate(c.split(' ')))
+    c = RENAME.get(c, c)
+    return c
+
+
 def nc(v):
     return v is None or str(v).strip() in ('', 'NC', 'NONE', 'none', '-')
 
@@ -141,6 +158,12 @@ def main():
                     ronly.append(gn)
             if not nc(r[g + '_mens_listing_url']):
                 links[gn] = r[g + '_mens_listing_url']
+        # Spectrum-thread rulings on individual slots: {'T-shirt': None} drops a slot, [lo, hi] replaces it.
+        for gn, v in a.get('prices_override', {}).items():
+            i = GN.index(gn); prices[i] = v
+            if v is None:
+                ev.pop(gn, None)
+                if gn in ronly: ronly.remove(gn)
         band, bwhy = band_by_rule(prices)
         override = a.get('band')
         if override and override != band:
@@ -182,12 +205,19 @@ def main():
                  and d['status'].lower() not in ('closed', 'held', 'opening', 'coming-soon', 'temporarily closed')]
         new_places = []
         for d in drows:
-            pl = {'n': name, 'a': '' if nc(d['street']) else d['street'], 'c': d['city'], 's': d['state'],
+            city = norm_city(d['city']); hood = ''
+            if d['state'] == 'NY' and city in QUEENS:
+                hood, city = city, 'New York'
+            pl = {'n': name, 'a': '' if nc(d['street']) else d['street'], 'c': city, 's': d['state'],
                   'z': d['zip'][:5] if d['zip'].strip() and d['zip'][:5].isdigit() else '', 'k': 'o', 'src': job}
             if not nc(d.get('venue')):
                 pl['v2'] = d['venue']
+            if hood:
+                pl['h'] = hood
             if pl['s'] == 'NY' and pl['c'] in ('New York', 'Brooklyn', 'Bronx') and pl['z'] in zips:
                 pl['h'] = zips[pl['z']]
+            if pl['s'] == 'NY' and pl['c'] == 'Bronx' and not pl.get('h'):
+                pl['h'] = 'Bronx'
             new_places.append(pl)
         cc = collections.Counter((p['c'], p['s']) for p in new_places)
         cities = [[k[0], k[1], v] for k, v in sorted(cc.items(), key=lambda kv: (-kv[1], kv[0]))]
@@ -227,7 +257,8 @@ def main():
                     'madein': r['made_in_stated_share'], 'heritage': r['heritage_claim'], 'process': r['process_documented'],
                     'urls': [u for u in (r['craft_url_1'], r['craft_url_2']) if not nc(u)],
                     'proposed': num(r['proposed_craft']), 'reasoning': r['craft_reasoning'], 'source': job}
-        tech, craft = num(r['proposed_tech']) or 1, num(r['proposed_craft']) or 1
+        tech = a.get('tech') or num(r['proposed_tech']) or 1
+        craft = a.get('craft') or num(r['proposed_craft']) or 1
         founders = ' and '.join(x.strip() for x in r['founders'].split(';')) if not nc(r['founders']) else ''
         origin = f'Founded in {r["founded_year"]}' if not nc(r['founded_year']) else 'Founded'
         if not nc(r['founded_place']) and not r['founded_place'].startswith('NC'):
@@ -308,7 +339,7 @@ def main():
         rec['band_note'] = f'{band} by the price rule ({bwhy})'
         fn = os.path.join(ROOT, 'data/brands', slug(name) + '.json')
         open(fn, 'w').write(json.dumps(rec, ensure_ascii=False, indent=1))
-        report.append((seat, name, band, bwhy, doors['c'], doors['n'], out, con, fibre and fibre['st']))
+        report.append((seat, name, band, bwhy, doors['c'], doors.get('n'), out, con, fibre and fibre['st']))
 
     json.dump(places, open(os.path.join(ROOT, 'data/places.json'), 'w'), ensure_ascii=False, indent=1)
     # remap region.o for every brand

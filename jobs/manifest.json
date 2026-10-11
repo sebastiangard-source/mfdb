@@ -1608,7 +1608,7 @@
    "id": "seat_wave_b_2026-10-08",
    "title": "Seating wave B — 54 brands from the gap analysis",
    "kind": "seating",
-   "state": "merging (batch 1 of 6 seated)",
+   "state": "merging (batches 1–2 of 6 seated, 19 of 54)",
    "created": "2026-10-08",
    "issued": "2026-10-08",
    "pilot": 54,
@@ -1629,22 +1629,21 @@
     }
    ],
    "writes": {
-    "data/brands": 9,
-    "data/places.json": "own doors (batch 1)",
+    "data/brands": 19,
+    "data/places.json": "own doors (batches 1–2)",
     "registers": [
      "own_doors_wave_b_2026-10-08.csv",
      "door_counts_wave_b_2026-10-08.csv",
-     "stockists_wave_b_2026-10-08.csv"
+     "stockists_wave_b_2026-10-08.csv",
+     "stockists_wave_b_batch2_2026-10-11.csv"
     ]
    },
    "returns": [
-    "jobs/returns/seat_wave_b_2026-10-08/return.csv",
-    "jobs/returns/seat_wave_b_2026-10-08/return_styles.csv",
+    "jobs/returns/seat_wave_b_2026-10-08/batch1/",
+    "jobs/returns/seat_wave_b_2026-10-08/batch2/",
     "jobs/returns/seat_wave_b_2026-10-08/own_doors.csv",
-    "jobs/returns/seat_wave_b_2026-10-08/stockists.csv",
-    "jobs/returns/seat_wave_b_2026-10-08/return_counts.csv",
     "jobs/returns/seat_wave_b_2026-10-08/held_door_counts.csv",
-    "jobs/returns/seat_wave_b_2026-10-08/NOTE_batch1.md"
+    "jobs/returns/seat_wave_b_2026-10-08/AGENT_SPEC.md"
    ],
    "blocked_on": "",
    "note": "ruled 8 Oct: everything seats; no floor; giants, shoe houses, licenses and sub-lines in; zero US doors is positive zero; thread stopped 10 Oct after doors for 24 brands (1,051 rows); facts_first never received; restarted as seat_wave_b_restart_2026-10-10"

@@ -1,0 +1,379 @@
+{
+ "name": "Fjällräven",
+ "band": "premium",
+ "seat": 258,
+ "dagger": 0,
+ "focus": {
+  "tech": 4,
+  "comfort": 3,
+  "craft": 2,
+  "style": 2
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 2,
+  "wool": 2,
+  "synth": 4
+ },
+ "dials": {
+  "dur": 5,
+  "forg": 3,
+  "fuss": 2,
+  "golffice": -2,
+  "whitet": 2,
+  "logo": 3,
+  "western": 1,
+  "rock": 1,
+  "workwear": 2,
+  "outdoor": 5,
+  "surf": 1,
+  "scandi": 5,
+  "prep": 1
+ },
+ "why": "Swedish outdoor house from 1960: the G-1000 waxed poly-cotton, the Greenland jacket and the Kånken, with 21 US stores of its own.",
+ "origin": "Founded in 1960 in Örnsköldsvik, Sweden by Åke Nordin.",
+ "chan": [
+  "O",
+  "D",
+  "I",
+  "W"
+ ],
+ "conf": "S",
+ "forgc": [
+  3,
+  4,
+  1
+ ],
+ "onething": {
+  "p": "Greenland Jacket (G-1000, 1968); the Kånken backpack (1978) is the house's best-known product overall but is not clothing",
+  "u": "https://www.fjallraven.com/us/en-us/men/jackets/outdoor-jackets/greenland-jacket-m/",
+  "n": "from the seat_wave_b_2026-10-08 return; \"Greenland Jacket (G-1000, 1968); the Kånken backpack (1978) is the house's best-known product overall but is not clothing\""
+ },
+ "prices": [
+  [
+   40,
+   80
+  ],
+  [
+   105,
+   105
+  ],
+  [
+   105,
+   230
+  ],
+  [
+   160,
+   165
+  ],
+  [
+   145,
+   185
+  ],
+  [
+   135,
+   230
+  ],
+  [
+   165,
+   855
+  ],
+  null
+ ],
+ "price_checked": true,
+ "price_range_only": [
+  "Dress shirt",
+  "Jeans",
+  "Dress pants",
+  "Outerwear"
+ ],
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Lush Logo T-shirt M (60% organic cotton, 40% recycled polyester)",
+   "lu": "https://www.fjallraven.com/us/en-us/men/tops/t-shirts-tank-tops/lush-logo-t-shirt-m/",
+   "hp": "Abisko Wool SS M (50% wool, 50% polyester)",
+   "hu": "https://www.fjallraven.com/us/en-us/men/tops/t-shirts-tank-tops/abisko-wool-ss-m/",
+   "b": "pair"
+  },
+  "Polo": {
+   "lp": "Övik Polo Shirt M (100% organic cotton)",
+   "lu": "https://www.fjallraven.com/us/en-us/men/tops/t-shirts-tank-tops/ovik-polo-shirt-m/",
+   "hp": "Övik Polo Shirt M (100% organic cotton)",
+   "hu": "https://www.fjallraven.com/us/en-us/men/tops/t-shirts-tank-tops/ovik-polo-shirt-m/",
+   "b": "single"
+  },
+  "Dress shirt": {
+   "lp": "Övik G-1000 Shirt LS M (casual button-front; G-1000 Air Stretch)",
+   "lu": "https://www.fjallraven.com/us/en-us/men/tops/shirts/ovik-g-1000-shirt-ls-m/",
+   "hp": "Övik Wool Shirt M (55% wool, 45% recycled polyamide)",
+   "hu": "https://www.fjallraven.com/us/en-us/men/tops/shirts/ovik-wool-shirt-m/",
+   "b": "range"
+  },
+  "Jeans": {
+   "lp": "Greenland Jeans M Reg (five-pocket cut in G-1000, not denim)",
+   "lu": "https://www.fjallraven.com/us/en-us/men/trousers/outdoor-trousers/greenland-jeans-m-reg/",
+   "hp": "Övik Jeans M (G-1000, not denim)",
+   "hu": "https://www.fjallraven.com/us/en-us/men/trousers/outdoor-trousers/ovik-jeans-m/",
+   "b": "range"
+  },
+  "Dress pants": {
+   "lp": "Vardag Trousers M (casual trouser; no dress trouser sold)",
+   "lu": "https://www.fjallraven.com/us/en-us/men/trousers/outdoor-trousers/vardag-trousers-m/",
+   "hp": "Samlaren Cargo Trousers M (100% cotton)",
+   "hu": "https://www.fjallraven.com/us/en-us/men/trousers/outdoor-trousers/samlaren-cargo-trousers-m/",
+   "b": "range"
+  },
+  "Sweater": {
+   "lp": "Fjällräven Logo Knit Sweater M (100% wool, round neck)",
+   "lu": "https://www.fjallraven.com/us/en-us/men/tops/sweaters-knitwear/fjallraven-logo-knit-sweater-m/",
+   "hp": "Övik Rib Sweater M (100% wool, round neck)",
+   "hu": "https://www.fjallraven.com/us/en-us/men/tops/sweaters-knitwear/ovik-rib-sweater-m/",
+   "b": "pair"
+  },
+  "Outerwear": {
+   "lp": "Keb Lätt Wind Jacket M (100% recycled polyamide)",
+   "lu": "https://www.fjallraven.com/us/en-us/men/jackets/wind-jackets/keb-latt-wind-jacket-m/",
+   "hp": "Bergtagen GTX Pro Jacket M (GORE-TEX PRO 3-layer)",
+   "hu": "https://www.fjallraven.com/us/en-us/men/jackets/mountaineering-jackets/bergtagen-gtx-pro-jacket-m/",
+   "b": "range"
+  }
+ },
+ "garment_links": {
+  "T-shirt": "https://www.fjallraven.com/us/en-us/men/tops/t-shirts-tank-tops/",
+  "Polo": "https://www.fjallraven.com/us/en-us/men/tops/t-shirts-tank-tops/",
+  "Dress shirt": "https://www.fjallraven.com/us/en-us/men/tops/shirts/",
+  "Jeans": "https://www.fjallraven.com/us/en-us/men/trousers/outdoor-trousers/",
+  "Dress pants": "https://www.fjallraven.com/us/en-us/men/trousers/outdoor-trousers/",
+  "Sweater": "https://www.fjallraven.com/us/en-us/men/tops/sweaters-knitwear/",
+  "Outerwear": "https://www.fjallraven.com/us/en-us/men/jackets/"
+ },
+ "price_read": {
+  "date": "2026-10-10",
+  "store": "https://www.fjallraven.com/us/en-us/",
+  "currency": "USD",
+  "status": "partial",
+  "sublines": "-"
+ },
+ "notes": {
+  "tech": "Thread proposed 4 (2026-10-10): G-1000 family (Original, Lite, HeavyDuty, Silent, Stretch, Lite Stretch, Air Stretch) with Greenland Wax re-proofing; HC-Lite; Eco-Shell; Hydratic; G-Loft Supreme; Supreme Microloft (house names); GORE-TEX Performance and GORE-TEX PRO (ePE); PrimaLoft Black and Silver — owned: G-1000 (registered house fabric, since 1968 per the history timeline), Greenland Wax, HC-Lite, Eco-Shell, G-Loft; licensed: GORE-TEX, PrimaLoft; share of range G-1000 named on 69/246 men's styles (28%); GORE-TEX 8; HC-Lite 5; Eco-Shell 2; P. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 2 (2026-10-10): Fjällräven names no factories, makers or mills on its product pages and states no country of origin on any of the 246 men's styles read; its production page speaks only of a Code of Conduct, audits and FLA membership. What it does document is a dated, placed founding (1960, Åke Nordin, Örnsköldsvik) and its own fabric system (G-1000 with Greenland Wax), which is tech rather than craft. That is a 2 Seated as proposed, pending ruling.",
+  "comfort": "seeded 2026-10-11 from the seat_wave_b_2026-10-08 return; provisional",
+  "style": "seeded 2026-10-11 from the seat_wave_b_2026-10-08 return; provisional",
+  "dur": "seeded 2026-10-11 from the seat_wave_b_2026-10-08 return; provisional",
+  "forg": "seeded 2026-10-11 from the seat_wave_b_2026-10-08 return; provisional",
+  "fuss": "seeded 2026-10-11 from the seat_wave_b_2026-10-08 return; provisional",
+  "golffice": "seeded 2026-10-11 from the seat_wave_b_2026-10-08 return; provisional",
+  "whitet": "seeded 2026-10-11 from the seat_wave_b_2026-10-08 return; provisional",
+  "logo": "seeded 2026-10-11 from the seat_wave_b_2026-10-08 return; provisional",
+  "western": "seeded 2026-10-11 from the seat_wave_b_2026-10-08 return; provisional",
+  "rock": "seeded 2026-10-11 from the seat_wave_b_2026-10-08 return; provisional",
+  "workwear": "seeded 2026-10-11 from the seat_wave_b_2026-10-08 return; provisional",
+  "outdoor": "seeded 2026-10-11 from the seat_wave_b_2026-10-08 return; provisional",
+  "surf": "seeded 2026-10-11 from the seat_wave_b_2026-10-08 return; provisional",
+  "denim": "seeded 2026-10-11 from the seat_wave_b_2026-10-08 return; provisional",
+  "cashmere": "seeded 2026-10-11 from the seat_wave_b_2026-10-08 return; provisional",
+  "linen": "seeded 2026-10-11 from the seat_wave_b_2026-10-08 return; provisional",
+  "cotton": "seeded 2026-10-11 from the seat_wave_b_2026-10-08 return; provisional",
+  "wool": "seeded 2026-10-11 from the seat_wave_b_2026-10-08 return; provisional",
+  "synth": "seeded 2026-10-11 from the seat_wave_b_2026-10-08 return; provisional",
+  "scandi": "seeded 2026-10-11 from the seat_wave_b_2026-10-08 return; provisional",
+  "prep": "seeded 2026-10-11 from the seat_wave_b_2026-10-08 return; provisional"
+ },
+ "doors": {
+  "c": "full",
+  "n": 21,
+  "cities": [
+   [
+    "Boston",
+    "MA",
+    2
+   ],
+   [
+    "New York",
+    "NY",
+    2
+   ],
+   [
+    "Ann Arbor",
+    "MI",
+    1
+   ],
+   [
+    "Bellingham",
+    "WA",
+    1
+   ],
+   [
+    "Bend",
+    "OR",
+    1
+   ],
+   [
+    "Bloomington",
+    "MN",
+    1
+   ],
+   [
+    "Boulder",
+    "CO",
+    1
+   ],
+   [
+    "Bozeman",
+    "MT",
+    1
+   ],
+   [
+    "Briargate",
+    "CO",
+    1
+   ],
+   [
+    "Cambridge",
+    "MA",
+    1
+   ],
+   [
+    "Chicago",
+    "IL",
+    1
+   ],
+   [
+    "Denver",
+    "CO",
+    1
+   ],
+   [
+    "Los Angeles",
+    "CA",
+    1
+   ],
+   [
+    "Palo Alto",
+    "CA",
+    1
+   ],
+   [
+    "Portland",
+    "OR",
+    1
+   ],
+   [
+    "San Diego",
+    "CA",
+    1
+   ],
+   [
+    "San Francisco",
+    "CA",
+    1
+   ],
+   [
+    "San Jose",
+    "CA",
+    1
+   ],
+   [
+    "Seattle",
+    "WA",
+    1
+   ]
+  ],
+  "basis": "seat_wave_b_2026-10-08 2026-10-10",
+  "out": 3,
+  "con": 0
+ },
+ "cities": "21 stores across the US, including Boston, New York, Ann Arbor · department stores, independent shops, and its own site",
+ "site": {
+  "domain": "fjallraven.com",
+  "platform": "other",
+  "feed": "none",
+  "feed_count": 0,
+  "status": "live_store",
+  "checked": "2026-10-10"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "both",
+  "marks": [
+   "G-1000 family (Original, Lite, HeavyDuty, Silent, Stretch, Lite Stretch, Air Stretch) with Greenland Wax re-proofing",
+   "HC-Lite",
+   "Eco-Shell",
+   "Hydratic",
+   "G-Loft Supreme",
+   "Supreme Microloft (house names)",
+   "GORE-TEX Performance and GORE-TEX PRO (ePE)",
+   "PrimaLoft Black and Silver"
+  ],
+  "source": "seat_wave_b_2026-10-08",
+  "checked": "2026-10-10"
+ },
+ "craft_evidence": {
+  "owned": "no (nothing on the brand site or in the Fenix Outdoor 2024 annual report says Fjällräven owns apparel making; the report mentions a group partnership with Viomoda, Plovdiv, Bulgaria as a first step to European apparel production, not attributed to a Fjällräven range)",
+  "makers": "no (no maker or factory named on the 246 PDPs; sustainable-production page names none, only Code of Conduct, audits, FLA membership since 2013)",
+  "mills": "no (mills not named; trademarked fabric programmes and licensed membranes/fills only)",
+  "madein": "0% (no country of origin string on any of the 246 men's PDPs read)",
+  "heritage": "dated and placed: founded 1960 by Åke Nordin (born Örnsköldsvik 1936) in his basement; Greenland Jacket and G-1000 1968; Kånken 1978",
+  "process": "partial: G-1000 plus Greenland Wax re-proofing documented as a care process; no making process described",
+  "urls": [
+   "https://www.fjallraven.com/us/en-us/about-fjallraven/our-history/",
+   "https://www.fjallraven.com/us/en-us/about-fjallraven/sustainability/sustainable-production/"
+  ],
+  "proposed": 2,
+  "reasoning": "Fjällräven names no factories, makers or mills on its product pages and states no country of origin on any of the 246 men's styles read; its production page speaks only of a Code of Conduct, audits and FLA membership. What it does document is a dated, placed founding (1960, Åke Nordin, Örnsköldsvik) and its own fabric system (G-1000 with Greenland Wax), which is tech rather than craft. That is a 2 at most: heritage with receipts but nothing checkable about who makes the clothes or where.",
+  "source": "seat_wave_b_2026-10-08"
+ },
+ "ownership": {
+  "owner": "Fenix Outdoor International AG (Nasdaq Stockholm, FOI B); Nordin family and related companies hold 61.5% of capital value and 85.2% of votes; Martin Nordin Executive Chairman and CEO (annual report 2024)",
+  "u": "https://www.fenixoutdoor.com/wp-content/uploads/2025/04/Fenix_AR_WEB.pdf"
+ },
+ "opview": "“Enabling and inspiring more people to experience nature was Åke's vision and we now make it our mission.” — Fjällräven (house voice), Fjällräven, Our History page",
+ "resale": {
+  "grailed": {
+   "u": "https://www.grailed.com/designers/fjallraven"
+  }
+ },
+ "season": {
+  "l": "Fall/Winter 2026",
+  "t": "lookbook",
+  "u": "https://www.fjallraven.com/us/en-us/fall-winter-2026/",
+  "m": "yes"
+ },
+ "say": "FYELL-rev-en",
+ "fibre": {
+  "t": 246,
+  "w": 245,
+  "n": 27,
+  "s": 72,
+  "c": 1,
+  "x": 8,
+  "xh": 8,
+  "sp": "split",
+  "sc": [
+   "Jackets",
+   "Trousers",
+   "Shirts",
+   "Fleece",
+   "Shorts"
+  ],
+  "nc": [
+   "T-Shirts & Tank Tops",
+   "Sweaters & Knitwear",
+   "Base Layer"
+  ],
+  "st": "complete"
+ },
+ "band_note": "premium by the price rule (dress shirt $105, sweater $135)",
+ "region": {
+  "o": [
+   5369,
+   5371,
+   5373,
+   5374,
+   5386
+  ],
+  "s": []
+ }
+}
