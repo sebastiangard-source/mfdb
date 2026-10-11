@@ -1771,3 +1771,6 @@ Ruled: a locations database of full-price brand-owned US stores only (no outlets
 
 ## 2026-10-11 — seat_wave_a_2026-10-08, third address pass (v3.51.0)
 The North Face: store finder directory read (no human check appeared this time): 126 US doors = 61 full-price + 65 outlets; 61 placed, doors full. Uniqlo Chestnut Hill venue corrected to The Mall at Chestnut Hill (not The Street). Wave A rows now addressed for 35 of 36 brands; Nike remains on its 10-K count. locations_db_v1 to be rebuilt.
+
+## 2026-10-11 — seat_wave_a_2026-10-08 closed
+Ruled: Nike stays on its 10-K count (75 in-line, 212 factory) — no further locator read. Wave A closed: 36 brands seated (207–242), 35 with every store addressed, three address passes merged (L.L.Bean, New Balance, Red Wing; Allen Edmonds, Uniqlo; The North Face).
