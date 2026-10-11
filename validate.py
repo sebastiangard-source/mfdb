@@ -278,6 +278,10 @@ for b, v in D['NOTES'].items():
 gaps = []
 for b in BRANDS:
     missing = [f for f in REQUIRED if b not in D[f]]
+    # REACH is derived from the door count; a brand whose locator nobody could read
+    # (doors c = none, 11 Oct 2026) has no count and so no reach — not a gap.
+    if 'REACH' in missing and (DOORS.get(b) or {}).get('c') == 'none':
+        missing.remove('REACH')
     if missing:
         gaps.append((b, missing))
         fail('GAP', f'{b}: {", ".join(missing)}')
