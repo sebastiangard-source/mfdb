@@ -1756,3 +1756,6 @@ Return: 9 full records (Aether Apparel, Ariat, Asics, Balmain, Belstaff, Bogner,
 
 ## 2026-10-11 — seat_wave_a_2026-10-08, address pass (v3.49.0)
 Thread re-sent own_doors.csv after reading 695 store pages one at a time: L.L.Bean 46 streets (all Retail Store), New Balance 171 ZIPs and phones, Red Wing 478 streets. Rows for the three brands rebuilt from the file; Red Wing placed for the first time (478 open; 5 status NC left out; 32 pages state dealer ownership, flagged, ruling still open); Red Wing city spellings title-cased, Queens rows to New York with the neighbourhood by ZIP; Bound Brook and North Brunswick added to Central Jersey. return.csv differs only in Red Wing's doors_basis. NOTE.md replaced.
+
+## 2026-10-11 — ruling applied · Belstaff outerwear high
+Shearling is fur-on and never a high (standing). Belstaff's outerwear high moves from the $2,950 Snowfield shearling to the $2,095 Trialmaster Panther leather jacket, the alternative the thread offered. Records otherwise unchanged; ships with the next release.
