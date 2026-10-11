@@ -1930,6 +1930,51 @@
    "returns": [],
    "blocked_on": "",
    "note": "runs in a separate Claude project (the workspace cannot reach any geocoder); v1 scope ruled 11 Oct: own-door open only; built by tools/doors_db.py; re-run as waves land"
+  },
+  {
+   "id": "style_segments_2026-10-11",
+   "title": "Style and cool-factor segmentation — 261 brands",
+   "kind": "analysis",
+   "state": "issued",
+   "created": "2026-10-11",
+   "issued": "2026-10-11",
+   "pilot": 0,
+   "nc": "NC",
+   "brands": "all",
+   "schema": [
+    {
+     "name": "brand",
+     "type": "key"
+    },
+    {
+     "name": "segment",
+     "type": "str"
+    },
+    {
+     "name": "secondary_segment",
+     "type": "str"
+    },
+    {
+     "name": "confidence",
+     "type": "str"
+    },
+    {
+     "name": "rule_or_reason",
+     "type": "str"
+    },
+    {
+     "name": "moved_from_first_cut",
+     "type": "str"
+    },
+    {
+     "name": "note",
+     "type": "str"
+    }
+   ],
+   "writes": {},
+   "returns": [],
+   "blocked_on": "",
+   "note": "separate project; inputs in jobs/briefs/style_segments_2026-10-11; first cut from dials 11 Oct; return feeds a style_segment column on the proposed-universe sheet"
   }
  ]
 }
