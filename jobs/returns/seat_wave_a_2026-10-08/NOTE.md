@@ -62,6 +62,18 @@ Supply, Red Wing, The North Face and Woolrich, each with the reason in `doors_ba
 
 \*Tech is on a provisional 1–5 scale, because no tech rubric was issued.
 
+## Address pass, 10 October
+
+I read 695 individual store pages one at a time: 478 Red Wing, 46 L.L.Bean and 171 New Balance.
+Every one of those doors now has a street, ZIP, phone and status from its own page. Two things came
+out of it:
+
+- **Red Wing:** 32 store pages state local, family or dealer ownership (Herr Group runs 9 in CO/WY;
+  the Martin family runs stores in TN, MS and AR). None states company ownership. 5 pages list
+  "Closed" every day with no notice, so their status is `NC`.
+- **Still without a street address:** Allen Edmonds (59; its store pages show a Cloudflare human
+  check) and the 26 Issey Miyake flagships outside the US, which aren't needed.
+
 ## How it was read
 
 - Two web-fetch workers ran at a time, one request at a time. An early run of ten in parallel
@@ -1844,6 +1856,11 @@ Read in Chrome on us.isseymiyake.com (host checked on every page). There was no 
 - **Founding date.** The founding year is 1912 per the brand PDF and llbean.ca. The company history timeline opens with 1911, "invents the Maine Hunting Shoe", while the Bean Boot PDP and Built to Last say 1912. This is a small inconsistency on the brand's own pages.
 
 
+### Address pass 2026-10-10 (main thread)
+
+All 46 missing addresses filled from llbean.com store pages; all labelled Retail Store; phones are a central 207-552 line. New Hartford and Ulster show "coming soon" image text but post hours.
+
+
 ## Louis Vuitton
 
 
@@ -2153,6 +2170,11 @@ These appear on 10 of the 86 styles read (12%). Proposed tech score: 2.
 - Vinted id.
 - B Corp directory.
 - Dress shirt.
+
+
+### Address pass 2026-10-10 (main thread)
+
+171 store pages read on stores.newbalance.com: exact street, ZIP and phone now replace the URL-derived streets (Fashion Valley has no phone). Labels match: Store vs Factory Store. No page states franchise or independent ownership.
 
 
 ## Nike
@@ -2726,6 +2748,11 @@ No tech rubric was issued, so the scale is **provisional**.
 - **Search URL:** robots-disallowed.
 - **Lookbook:** none found. "Fall Styling" is a product listing.
 - **Possible style split:** #98455 (Long Sleeve Pocket T-Shirt, Olive) was counted as its own style. It may be a colourway of #98474.
+
+
+### Address pass 2026-10-10 (main thread)
+
+All 478 missing addresses filled from stores.redwingshoes.com store pages. 32 pages state local/family/dealer ownership; none states company ownership. 5 pages list every day "Closed" with no notice (Brockton MA, Tukwila WA, Moline IL, Middleburg Heights OH, Philadelphia PA): status NC.
 
 
 ## Stüssy
