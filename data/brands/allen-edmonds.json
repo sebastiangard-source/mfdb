@@ -103,13 +103,250 @@
   "shoes": "shoe house; the Shoes slot is the range"
  },
  "doors": {
-  "c": "count",
+  "c": "full",
   "n": 55,
+  "cities": [
+   [
+    "New York",
+    "NY",
+    4
+   ],
+   [
+    "Atlanta",
+    "GA",
+    2
+   ],
+   [
+    "Boston",
+    "MA",
+    2
+   ],
+   [
+    "Chicago",
+    "IL",
+    2
+   ],
+   [
+    "Houston",
+    "TX",
+    2
+   ],
+   [
+    "Washington",
+    "DC",
+    2
+   ],
+   [
+    "Arlington",
+    "VA",
+    1
+   ],
+   [
+    "Austin",
+    "TX",
+    1
+   ],
+   [
+    "Baltimore",
+    "MD",
+    1
+   ],
+   [
+    "Bellevue",
+    "WA",
+    1
+   ],
+   [
+    "Birmingham",
+    "AL",
+    1
+   ],
+   [
+    "Birmingham",
+    "MI",
+    1
+   ],
+   [
+    "Boca Raton",
+    "FL",
+    1
+   ],
+   [
+    "Charleston",
+    "SC",
+    1
+   ],
+   [
+    "Cincinnati",
+    "OH",
+    1
+   ],
+   [
+    "Columbus",
+    "OH",
+    1
+   ],
+   [
+    "Coral Gables",
+    "FL",
+    1
+   ],
+   [
+    "Costa Mesa",
+    "CA",
+    1
+   ],
+   [
+    "Dallas",
+    "TX",
+    1
+   ],
+   [
+    "Denver",
+    "CO",
+    1
+   ],
+   [
+    "Edina",
+    "MN",
+    1
+   ],
+   [
+    "Garden City",
+    "NY",
+    1
+   ],
+   [
+    "Indianapolis",
+    "IN",
+    1
+   ],
+   [
+    "King of Prussia",
+    "PA",
+    1
+   ],
+   [
+    "Leawood",
+    "KS",
+    1
+   ],
+   [
+    "Los Angeles",
+    "CA",
+    1
+   ],
+   [
+    "Mclean",
+    "VA",
+    1
+   ],
+   [
+    "Milwaukee",
+    "WI",
+    1
+   ],
+   [
+    "Natick",
+    "MA",
+    1
+   ],
+   [
+    "New Orleans",
+    "LA",
+    1
+   ],
+   [
+    "Oakbrook",
+    "IL",
+    1
+   ],
+   [
+    "Oklahoma City",
+    "OK",
+    1
+   ],
+   [
+    "Orange",
+    "OH",
+    1
+   ],
+   [
+    "Philadelphia",
+    "PA",
+    1
+   ],
+   [
+    "Pittsburgh",
+    "PA",
+    1
+   ],
+   [
+    "Raleigh",
+    "NC",
+    1
+   ],
+   [
+    "Roseville",
+    "CA",
+    1
+   ],
+   [
+    "Salt Lake City",
+    "UT",
+    1
+   ],
+   [
+    "San Diego",
+    "CA",
+    1
+   ],
+   [
+    "San Francisco",
+    "CA",
+    1
+   ],
+   [
+    "Scottsdale",
+    "AZ",
+    1
+   ],
+   [
+    "Short Hills",
+    "NJ",
+    1
+   ],
+   [
+    "Southlake",
+    "TX",
+    1
+   ],
+   [
+    "St. Louis",
+    "MO",
+    1
+   ],
+   [
+    "Tampa",
+    "FL",
+    1
+   ],
+   [
+    "Torrance",
+    "CA",
+    1
+   ],
+   [
+    "Walnut Creek",
+    "CA",
+    1
+   ]
+  ],
+  "basis": "seat_wave_a 2026-10-08: 58 store pages read 11 Oct after the Cloudflare check (two duplicates removed): 55 full-price + 3 outlets, matching the Caleres 10-K",
   "out": 3,
-  "con": 0,
-  "basis": "Caleres 10-K FY2025 (FYE 31 Jan 2026): 58 US Allen Edmonds stores incl. 3 outlets -> 55 full-price (incl. 18 Port Washington Studio); locator behind Cloudflare, not read"
+  "con": 0
  },
- "cities": "55 stores across the US (count only; addresses to come) · department stores, and its own site",
+ "cities": "55 stores across the US, including New York, Atlanta, Boston · department stores, and its own site",
  "site": {
   "domain": "allenedmonds.com",
   "platform": "other",
@@ -172,5 +409,22 @@
   "sc": [],
   "nc": [],
   "st": "partial"
+ },
+ "region": {
+  "o": [
+   5096,
+   5098,
+   5101,
+   5102,
+   5104,
+   5105,
+   5111,
+   5113,
+   5120,
+   5132,
+   5135,
+   5142
+  ],
+  "s": []
  }
 }

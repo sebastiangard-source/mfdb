@@ -1759,3 +1759,6 @@ Thread re-sent own_doors.csv after reading 695 store pages one at a time: L.L.Be
 
 ## 2026-10-11 — ruling applied · Belstaff outerwear high
 Shearling is fur-on and never a high (standing). Belstaff's outerwear high moves from the $2,950 Snowfield shearling to the $2,095 Trialmaster Panther leather jacket, the alternative the thread offered. Records otherwise unchanged; ships with the next release.
+
+## 2026-10-11 — seat_wave_a_2026-10-08, second address pass (v3.50.0)
+Allen Edmonds: 60 store pages read after Sebastian passed the Cloudflare check; two duplicates dropped; 55 full-price + 3 outlets placed (matches Caleres). Uniqlo: map.uniqlo.com read, 89 open + 4 coming soon; 89 placed, basis notes Fast Retailing's 87. Flushing and Staten Island rows filed as New York with the borough neighbourhood; Valley Stream, Jersey City and Elizabeth added to the region map. Wave A now has addresses for every brand but Nike (10-K count).

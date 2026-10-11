@@ -185,13 +185,385 @@
   "synth": "seeded 10 Oct 2026 from the seat_wave_a return; provisional"
  },
  "doors": {
-  "c": "count",
-  "n": 87,
-  "basis": "Fast Retailing North America page, 87 US stores as of 30 Sep 2026; no US outlet channel; locator not read",
+  "c": "full",
+  "n": 89,
+  "cities": [
+   [
+    "New York",
+    "NY",
+    8
+   ],
+   [
+    "Boston",
+    "MA",
+    2
+   ],
+   [
+    "Brooklyn",
+    "NY",
+    2
+   ],
+   [
+    "Chicago",
+    "IL",
+    2
+   ],
+   [
+    "Los Angeles",
+    "CA",
+    2
+   ],
+   [
+    "San Diego",
+    "CA",
+    2
+   ],
+   [
+    "San Francisco",
+    "CA",
+    2
+   ],
+   [
+    "Seattle",
+    "WA",
+    2
+   ],
+   [
+    "Washington",
+    "DC",
+    2
+   ],
+   [
+    "Annapolis",
+    "MD",
+    1
+   ],
+   [
+    "Arcadia",
+    "CA",
+    1
+   ],
+   [
+    "Arlington",
+    "TX",
+    1
+   ],
+   [
+    "Arlington",
+    "VA",
+    1
+   ],
+   [
+    "Bellevue",
+    "WA",
+    1
+   ],
+   [
+    "Bethesda",
+    "MD",
+    1
+   ],
+   [
+    "Braintree",
+    "MA",
+    1
+   ],
+   [
+    "Brea",
+    "CA",
+    1
+   ],
+   [
+    "Bronx",
+    "NY",
+    1
+   ],
+   [
+    "Burlington",
+    "MA",
+    1
+   ],
+   [
+    "Canoga Park",
+    "CA",
+    1
+   ],
+   [
+    "Cerritos",
+    "CA",
+    1
+   ],
+   [
+    "Cherry Hill",
+    "NJ",
+    1
+   ],
+   [
+    "Chestnut Hill",
+    "MA",
+    1
+   ],
+   [
+    "Columbia",
+    "MD",
+    1
+   ],
+   [
+    "Concord",
+    "CA",
+    1
+   ],
+   [
+    "Costa Mesa",
+    "CA",
+    1
+   ],
+   [
+    "Culver City",
+    "CA",
+    1
+   ],
+   [
+    "Dallas",
+    "TX",
+    1
+   ],
+   [
+    "Daly City",
+    "CA",
+    1
+   ],
+   [
+    "East Rutherford",
+    "NJ",
+    1
+   ],
+   [
+    "Edison",
+    "NJ",
+    1
+   ],
+   [
+    "Elizabeth",
+    "NJ",
+    1
+   ],
+   [
+    "Emeryville",
+    "CA",
+    1
+   ],
+   [
+    "Fairfax",
+    "VA",
+    1
+   ],
+   [
+    "Frisco",
+    "TX",
+    1
+   ],
+   [
+    "Garden City",
+    "NY",
+    1
+   ],
+   [
+    "Glendale",
+    "CA",
+    1
+   ],
+   [
+    "Honolulu",
+    "HI",
+    1
+   ],
+   [
+    "Houston",
+    "TX",
+    1
+   ],
+   [
+    "Huntington Station",
+    "NY",
+    1
+   ],
+   [
+    "Issaquah",
+    "WA",
+    1
+   ],
+   [
+    "Jersey City",
+    "NJ",
+    1
+   ],
+   [
+    "King of Prussia",
+    "PA",
+    1
+   ],
+   [
+    "Lake Buena Vista",
+    "FL",
+    1
+   ],
+   [
+    "Lynnwood",
+    "WA",
+    1
+   ],
+   [
+    "McLean",
+    "VA",
+    1
+   ],
+   [
+    "Milpitas",
+    "CA",
+    1
+   ],
+   [
+    "Mission Viejo",
+    "CA",
+    1
+   ],
+   [
+    "Natick",
+    "MA",
+    1
+   ],
+   [
+    "Newark",
+    "DE",
+    1
+   ],
+   [
+    "North Bethesda",
+    "MD",
+    1
+   ],
+   [
+    "Oakbrook",
+    "IL",
+    1
+   ],
+   [
+    "Ontario",
+    "CA",
+    1
+   ],
+   [
+    "Orlando",
+    "FL",
+    1
+   ],
+   [
+    "Paramus",
+    "NJ",
+    1
+   ],
+   [
+    "Philadelphia",
+    "PA",
+    1
+   ],
+   [
+    "Pleasanton",
+    "CA",
+    1
+   ],
+   [
+    "Providence",
+    "RI",
+    1
+   ],
+   [
+    "Roseville",
+    "CA",
+    1
+   ],
+   [
+    "Sacramento",
+    "CA",
+    1
+   ],
+   [
+    "San Jose",
+    "CA",
+    1
+   ],
+   [
+    "San Mateo",
+    "CA",
+    1
+   ],
+   [
+    "Santa Clara",
+    "CA",
+    1
+   ],
+   [
+    "Santa Monica",
+    "CA",
+    1
+   ],
+   [
+    "Schaumburg",
+    "IL",
+    1
+   ],
+   [
+    "Sherman Oaks",
+    "CA",
+    1
+   ],
+   [
+    "Silver Spring",
+    "MD",
+    1
+   ],
+   [
+    "Sugar Land",
+    "TX",
+    1
+   ],
+   [
+    "Tacoma",
+    "WA",
+    1
+   ],
+   [
+    "Torrance",
+    "CA",
+    1
+   ],
+   [
+    "Valley Stream",
+    "NY",
+    1
+   ],
+   [
+    "Wayne",
+    "NJ",
+    1
+   ],
+   [
+    "White Plains",
+    "NY",
+    1
+   ],
+   [
+    "Yonkers",
+    "NY",
+    1
+   ]
+  ],
+  "basis": "seat_wave_a 2026-10-08: map.uniqlo.com read 11 Oct, 89 open stores (4 coming soon excluded); Fast Retailing reports 87 as of 30 Sep 2026, the locator is the source",
   "out": 0,
   "con": 0
  },
- "cities": "87 stores across the US (count only; addresses to come) · its own site",
+ "cities": "89 stores across the US, including New York, Boston, Brooklyn · its own site",
  "site": {
   "domain": "uniqlo.com",
   "platform": "other",
@@ -263,5 +635,43 @@
    "u": "https://www.grailed.com/designers/uniqlo"
   }
  },
- "band_note": "Basic by the 10 Oct 2026 rule: tee entry $10, dress shirt entry $50 (tee at or under $35 and dress shirt under $80)"
+ "band_note": "Basic by the 10 Oct 2026 rule: tee entry $10, dress shirt entry $50 (tee at or under $35 and dress shirt under $80)",
+ "region": {
+  "o": [
+   5151,
+   5154,
+   5157,
+   5158,
+   5162,
+   5163,
+   5165,
+   5166,
+   5167,
+   5168,
+   5172,
+   5183,
+   5185,
+   5187,
+   5188,
+   5193,
+   5197,
+   5198,
+   5199,
+   5203,
+   5208,
+   5209,
+   5210,
+   5212,
+   5216,
+   5218,
+   5221,
+   5230,
+   5232,
+   5233,
+   5236,
+   5237,
+   5239
+  ],
+  "s": []
+ }
 }

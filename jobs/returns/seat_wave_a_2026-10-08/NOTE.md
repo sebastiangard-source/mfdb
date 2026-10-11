@@ -71,8 +71,15 @@ out of it:
 - **Red Wing:** 32 store pages state local, family or dealer ownership (Herr Group runs 9 in CO/WY;
   the Martin family runs stores in TN, MS and AR). None states company ownership. 5 pages list
   "Closed" every day with no notice, so their status is `NC`.
-- **Still without a street address:** Allen Edmonds (59; its store pages show a Cloudflare human
-  check) and the 26 Issey Miyake flagships outside the US, which aren't needed.
+- **Allen Edmonds (11 October):** you passed the Cloudflare check in Chrome, then all 60 store pages
+  were read. Two pages turned out to be duplicates and were removed, leaving 58 doors: 55 full-price
+  plus 3 outlets, which matches the Caleres 10-K. Only 9 pages list a "Port Washington Studio
+  Experience" service, against 18 Port Washington Studio stores in the 10-K.
+- **Uniqlo (11 October):** 93 US stores read from its store locator, 89 open plus 4 coming soon.
+  `own_doors_us` stays at Fast Retailing's 87; the locator's 89 open is 2 more, and nothing explains
+  the gap.
+- **Still without a street address:** only the 26 Issey Miyake stores outside the US, which aren't
+  needed.
 
 ## How it was read
 
@@ -492,6 +499,11 @@ About 30 WebFetch calls, one at a time, with no 429s. No Cloudflare or bot check
 - Signature: the legacy page says Park Avenue and Strand "remain best-sellers", which supports the Park Avenue proposal.
 
 **Still open:** shoe and apparel prices, which need a cart read in a browser; own-label confirmation for the 13 unbranded apparel styles; the made-in share; B Corp; Vinted id; the door street, phone and status fields (Cloudflare).
+
+
+### Store pages 2026-10-11 (main thread)
+
+All 60 sitemap pages read in Chrome after the user passed the Cloudflare check. Addresses, phones and status are filled. Two duplicates were removed: Scottsdale 39127 is a stale record of 39128, and "International Plaza" 39097 is the same address as State Street 39035. That leaves 58 doors (55 full-price + 3 outlets), which matches the Caleres 10-K. 9 pages list a "Port Washington Studio Experience" service, against the 10-K's 18 Port Washington Studio stores.
 
 
 ## AllSaints
@@ -3461,6 +3473,11 @@ Listing links:
 - **Store counts:** the FR shoplist still shows US 77 (Nov 2025) against 87 on the North America page.
 - **Brief:** "BLOCKTECH (owned, with Toray partnership)". The pages read show Toray co-development on AirSense and NANODESIGN, not on BLOCKTECH.
 - **Men's path sizing:** the men's path includes women's-sized unisex goods, so any census of `path=22211` overstates the men's range.
+
+
+### Store locator 2026-10-11 (main thread)
+
+93 US stores read: 89 open + 4 coming soon. All phones are the central customer-service line. Venue is inferred from the store name and address. own_doors_us stays 87 (Fast Retailing), with the locator's 89 open recorded in doors_basis.
 
 
 ## UNTUCKit

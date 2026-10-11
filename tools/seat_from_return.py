@@ -186,7 +186,7 @@ def main():
                   'z': d['zip'][:5] if d['zip'].strip() and d['zip'][:5].isdigit() else '', 'k': 'o', 'src': job}
             if not nc(d.get('venue')):
                 pl['v2'] = d['venue']
-            if pl['s'] == 'NY' and pl['c'] in ('New York', 'Brooklyn') and pl['z'] in zips:
+            if pl['s'] == 'NY' and pl['c'] in ('New York', 'Brooklyn', 'Bronx') and pl['z'] in zips:
                 pl['h'] = zips[pl['z']]
             new_places.append(pl)
         cc = collections.Counter((p['c'], p['s']) for p in new_places)
