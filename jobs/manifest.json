@@ -1885,6 +1885,51 @@
    "returns": [],
    "blocked_on": "",
    "note": "from the 10 Oct check of Rue La La's featured list against every register; Escada and Hale Bob also a question for the dept-store index"
+  },
+  {
+   "id": "geocode_locations_2026-10-11",
+   "title": "Latitude and longitude for 9,061 full-price brand-owned US stores (men's + women's)",
+   "kind": "geocoding",
+   "state": "issued",
+   "created": "2026-10-11",
+   "issued": "2026-10-11",
+   "pilot": 0,
+   "nc": "NC",
+   "brands": "233 (locations_db_v1.csv)",
+   "schema": [
+    {
+     "name": "door_id",
+     "type": "key"
+    },
+    {
+     "name": "lat",
+     "type": "float"
+    },
+    {
+     "name": "lon",
+     "type": "float"
+    },
+    {
+     "name": "geo_source",
+     "type": "provenance"
+    },
+    {
+     "name": "geo_match",
+     "type": "enum"
+    },
+    {
+     "name": "matched_address",
+     "type": "str"
+    },
+    {
+     "name": "geo_note",
+     "type": "str"
+    }
+   ],
+   "writes": {},
+   "returns": [],
+   "blocked_on": "",
+   "note": "runs in a separate Claude project (the workspace cannot reach any geocoder); v1 scope ruled 11 Oct: own-door open only; built by tools/doors_db.py; re-run as waves land"
   }
  ]
 }
