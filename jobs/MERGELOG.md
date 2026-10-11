@@ -1762,3 +1762,6 @@ Shearling is fur-on and never a high (standing). Belstaff's outerwear high moves
 
 ## 2026-10-11 — seat_wave_a_2026-10-08, second address pass (v3.50.0)
 Allen Edmonds: 60 store pages read after Sebastian passed the Cloudflare check; two duplicates dropped; 55 full-price + 3 outlets placed (matches Caleres). Uniqlo: map.uniqlo.com read, 89 open + 4 coming soon; 89 placed, basis notes Fast Retailing's 87. Flushing and Staten Island rows filed as New York with the borough neighbourhood; Valley Stream, Jersey City and Elizabeth added to the region map. Wave A now has addresses for every brand but Nike (10-K count).
+
+## 2026-10-11 — correction · NC doors are not zero (v3.50.1)
+The North Face and Woolrich were seated 10 Oct with doors n=0 from an NC return — a zero authored from a non-read. Both now `doors: {c: none}` with "Store count not established" on the page; `door_note` carries why. seat_from_return.py now writes `none` for an NC count and `positive zero` only for a counted 0. Ministry of Supply stays 0 (its stores page lists no location).

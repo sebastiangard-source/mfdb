@@ -1074,7 +1074,7 @@ with sync_playwright() as p:
 
     head('where line')
     _c = pg.evaluate("Object.values(CITIES)")
-    ck('every where line follows the shape', all(c.startswith(('No store','One store','Sold direct','Dover Street')) or c.split(' ')[0].isdigit() for c in _c), [c for c in _c if not (c.startswith(('No store','One store','Sold direct','Dover Street')) or c.split(' ')[0].isdigit())][:3])
+    ck('every where line follows the shape', all(c.startswith(('No store','One store','Sold direct','Dover Street','Store count not established')) or c.split(' ')[0].isdigit() for c in _c), [c for c in _c if not (c.startswith(('No store','One store','Sold direct','Dover Street','Store count not established')) or c.split(' ')[0].isdigit())][:3])
     ck('no where line mentions the Northeast', not any('Northeast' in c for c in _c))
 
     head('six new dials')

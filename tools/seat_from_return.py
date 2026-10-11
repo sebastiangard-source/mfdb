@@ -198,13 +198,17 @@ def main():
                 doors['basis'] += f' (rows {len(new_places)}; count filed {n_claim})'
         elif n_claim:
             doors = {'c': 'count', 'n': n_claim, 'basis': basis + ' (count from the return; no rows)', 'out': out, 'con': con}
-        else:
+        elif n_claim == 0:
             doors = {'c': 'full', 'n': 0, 'cities': [], 'basis': f'positive zero {today} ({job})', 'out': out, 'con': con}
+        else:
+            doors = {'c': 'none'}  # NC: nobody could read the locator; not a zero
         places.extend(new_places)
         # ---- cities line
         chan = a.get('chan', ['W'])
         tail = join_and([CHAN[x] for x in chan if CHAN.get(x)])
-        if doors['c'] == 'count':
+        if doors['c'] == 'none':
+            head = 'Store count not established'
+        elif doors['c'] == 'count':
             head = f'{doors["n"]} stores across the US (count only; addresses to come)'
         elif doors['n'] == 0:
             head = 'No store of its own in the US'
