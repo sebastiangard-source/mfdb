@@ -36,7 +36,7 @@
   "racquet": 3,
   "shoes": 5
  },
- "why": "The largest sportswear company in the world: Dri-FIT, Air, the swoosh, and the sneakers half the map’s collaborations run through; 75 full-price US stores and 212 factory stores.",
+ "why": "The largest sportswear company in the world: Dri-FIT, Air, the swoosh, and the sneakers half the map’s collaborations run through; 40 full-price US stores and 212 factory stores.",
  "origin": "Founded in 1964 in Portland, Oregon, USA by Phil Knight.",
  "chan": [
   "O",
@@ -200,13 +200,195 @@
   "shoes": "shoe house; the Shoes slot is the range"
  },
  "doors": {
-  "c": "count",
-  "n": 75,
-  "basis": "NIKE, Inc. FY2026 10-K: 75 US in-line stores (incl. employee-only), 212 factory stores counted as outlets, Converse excluded; locator not read",
+  "c": "full",
+  "n": 40,
+  "cities": [
+   [
+    "New York",
+    "NY",
+    3
+   ],
+   [
+    "Austin",
+    "TX",
+    2
+   ],
+   [
+    "Las Vegas",
+    "NV",
+    2
+   ],
+   [
+    "Atlanta",
+    "GA",
+    1
+   ],
+   [
+    "Aventura",
+    "FL",
+    1
+   ],
+   [
+    "Bellevue",
+    "WA",
+    1
+   ],
+   [
+    "Bloomington",
+    "MN",
+    1
+   ],
+   [
+    "Boston",
+    "MA",
+    1
+   ],
+   [
+    "Brooklyn",
+    "NY",
+    1
+   ],
+   [
+    "Chicago",
+    "IL",
+    1
+   ],
+   [
+    "Columbus",
+    "OH",
+    1
+   ],
+   [
+    "Costa Mesa",
+    "CA",
+    1
+   ],
+   [
+    "Dallas",
+    "TX",
+    1
+   ],
+   [
+    "Eugene",
+    "OR",
+    1
+   ],
+   [
+    "Fort Worth",
+    "TX",
+    1
+   ],
+   [
+    "Glendale",
+    "CA",
+    1
+   ],
+   [
+    "Houston",
+    "TX",
+    1
+   ],
+   [
+    "Indianapolis",
+    "IN",
+    1
+   ],
+   [
+    "Irvine",
+    "CA",
+    1
+   ],
+   [
+    "King of Prussia",
+    "PA",
+    1
+   ],
+   [
+    "Los Angeles",
+    "CA",
+    1
+   ],
+   [
+    "Miami",
+    "FL",
+    1
+   ],
+   [
+    "Miami Beach",
+    "FL",
+    1
+   ],
+   [
+    "Nashville",
+    "TN",
+    1
+   ],
+   [
+    "Palm Beach Gardens",
+    "FL",
+    1
+   ],
+   [
+    "Philadelphia",
+    "PA",
+    1
+   ],
+   [
+    "Plano",
+    "TX",
+    1
+   ],
+   [
+    "Portland",
+    "OR",
+    1
+   ],
+   [
+    "Rancho Cucamonga",
+    "CA",
+    1
+   ],
+   [
+    "Riverton",
+    "UT",
+    1
+   ],
+   [
+    "San Antonio",
+    "TX",
+    1
+   ],
+   [
+    "San Diego",
+    "CA",
+    1
+   ],
+   [
+    "San Francisco",
+    "CA",
+    1
+   ],
+   [
+    "Santa Monica",
+    "CA",
+    1
+   ],
+   [
+    "Torrance",
+    "CA",
+    1
+   ],
+   [
+    "Troy",
+    "MI",
+    1
+   ]
+  ],
+  "basis": "seat_wave_a 2026-10-08: Nike store directory read 11 Oct, all 42 state pages: 40 full-price (38 Nike, House of Innovation NYC, Jordan World of Flight Philadelphia) + 212 outlets (Factory, Clearance, Community), matching the 10-K’s 212; the 10-K’s 75 in-line includes employee-only stores the directory does not list — ruled: the directory is the source",
   "out": 212,
   "con": 0
  },
- "cities": "75 stores across the US (count only; addresses to come) · department stores, independent shops, its own site",
+ "cities": "40 stores across the US, including New York, Austin, Las Vegas · department stores, independent shops, its own site",
  "site": {
   "domain": "nike.com",
   "platform": "other",
@@ -286,5 +468,17 @@
    "u": "https://www.grailed.com/designers/nike"
   }
  },
- "band_note": "Basic by the 10 Oct 2026 rule: tee entry $32, dress shirt entry $75 (tee at or under $35 and dress shirt under $80)"
+ "band_note": "Basic by the 10 Oct 2026 rule: tee entry $32, dress shirt entry $75 (tee at or under $35 and dress shirt under $80)",
+ "region": {
+  "o": [
+   5402,
+   5403,
+   5404,
+   5405,
+   5409,
+   5410,
+   5430
+  ],
+  "s": []
+ }
 }

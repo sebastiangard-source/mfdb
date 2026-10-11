@@ -81,6 +81,10 @@ out of it:
 - **The North Face (11 October):** you were standing by to pass a check, but none appeared. 126 US
   doors were read from the store finder's own directory: 61 full-price and 65 outlets.
   `own_doors_us` is 61.
+- **Nike (11 October):** all 42 state pages of Nike's public store directory were read, 252 stores
+  in all. 40 are full-price and 212 are outlets (Factory, Clearance and Community). The outlet count
+  matches the 10-K's 212 exactly. The 10-K's 75 in-line stores include employee-only stores the
+  directory doesn't list, so `own_doors_us` is now 40 (was 75). **Ruling:** 40 or 75?
 - **Still without a street address:** only the 26 Issey Miyake stores outside the US, which aren't
   needed.
 
@@ -2319,6 +2323,11 @@ Shoes notes:
   - Facts-first's tee low ($32 Swoosh) is reproduced. Its outerwear top ($400 ACG Lava Flow Ultralight) is reproduced and is not a collaboration.
   - The Swoosh tee is "50-100% cotton/0-50% polyester". The AI review summary on the page says 100% cotton, which conflicts.
 - **worklist "own US stores everywhere":** this overstates the full-price fleet. There are 75 full-price US doors against 212 factory outlets.
+
+
+### Store directory 2026-10-11 (main thread)
+
+own_doors_us 75 → 40. Store directory read 2026-10-11, all 42 state pages (252 stores, matching the directory's own state counts): 40 full-price (38 Nike, House of Innovation NYC, Jordan World of Flight Philadelphia) + 212 outlet (180 Factory, 29 Clearance, 3 Community). Outlet count matches the FY2026 10-K's 212 factory stores exactly. The 10-K's 75 in-line stores include employee-only stores and formats the public directory does not list; own_doors_us filed as the 40 a shopper can find (was 75 from the 10-K). Converse stores not in this directory. The directory gives no phones. The Grove's venue line reads "Space Q-30", which is kept in the street field.
 
 
 ## Off-White
