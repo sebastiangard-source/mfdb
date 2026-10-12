@@ -1,0 +1,277 @@
+{
+ "name": "Kenzo",
+ "band": "trueLux",
+ "seat": 269,
+ "dagger": 0,
+ "focus": {
+  "tech": 1,
+  "comfort": 2,
+  "craft": 2,
+  "style": 4
+ },
+ "fabric": {
+  "denim": 3,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 4,
+  "wool": 2,
+  "synth": 2
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 2,
+  "fuss": 1,
+  "golffice": -2,
+  "whitet": 3,
+  "logo": 4,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1,
+  "fren": 4,
+  "status": 4,
+  "street": 4
+ },
+ "why": "LVMH's Paris house from 1970, the tiger and the Boke Flower on sweatshirts and knits, under Nigo since 2021; no full-price US store, three outlets.",
+ "origin": "Founded in 1970 in Paris, France (first boutique in Galerie Vivienne) by Kenzo Takada.",
+ "chan": [
+  "D",
+  "W"
+ ],
+ "conf": "S",
+ "forgc": [
+  2,
+  3,
+  1
+ ],
+ "onething": {
+  "p": "Tiger-motif sweatshirt (current range: 'KENZO Jumping Tiger' sweatshirts and knits); Boke Flower motif under Nigo",
+  "u": "https://www.kenzo.com/en-us/kenzo-jumping-tiger",
+  "n": "from the seat_wave_b_2026-10-08 return; \"Tiger-motif sweatshirt (current range: 'KENZO Jumping Tiger' sweatshirts and knits); Boke Flower motif under Nigo\""
+ },
+ "prices": [
+  [
+   160,
+   545
+  ],
+  [
+   225,
+   545
+  ],
+  [
+   405,
+   685
+  ],
+  [
+   490,
+   825
+  ],
+  [
+   630,
+   825
+  ],
+  [
+   490,
+   685
+  ],
+  [
+   630,
+   905
+  ],
+  [
+   605,
+   605
+  ]
+ ],
+ "price_checked": true,
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Jeans",
+  "Sweater"
+ ],
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "'KENZO Sport' T-shirt in mixed cotton (FG65OTS43401)",
+   "lu": "https://www.kenzo.com/en-us/kenzo-sport-t-shirt-in-mixed-cotton/FG65OTS43401.62.html",
+   "hp": "'KENZO Sounds' embroidered mariniere T-shirt in light cotton (FG65TO8043EF)",
+   "hu": "https://www.kenzo.com/en-us/kenzo-sounds-embroidered-mariniere-t-shirt-in-light-cotton/FG65TO8043EF.57.html",
+   "b": "range"
+  },
+  "Polo": {
+   "lp": "'KENZO Double K' slim polo in cotton (FG65PO1544PU)",
+   "lu": "https://www.kenzo.com/en-us/kenzo-double-k-slim-polo-in-cotton/FG65PO1544PU.79.html",
+   "hp": "Polo in mesh (FG65PO8023EH)",
+   "hu": "https://www.kenzo.com/en-us/polo-in-mesh/FG65PO8023EH.02.html",
+   "b": "range"
+  },
+  "Dress shirt": {
+   "lp": "Casual shirt in cotton poplin (FG65CH4619LF)",
+   "lu": "https://www.kenzo.com/en-us/casual-shirt-in-cotton-poplin/FG65CH4619LF.01.html",
+   "hp": "'KENZO Wildflower' embroidered western shirt in wool cotton (FG65CH4559LK)",
+   "hu": "https://www.kenzo.com/en-us/kenzo-wildflower-embroidered-western-shirt-in-wool-cotton/FG65CH4559LK.03.html",
+   "b": "range"
+  },
+  "Jeans": {
+   "lp": "BOTAN loose fit jeans in Japanese denim (FF65DP4306C4)",
+   "lu": "https://www.kenzo.com/en-us/botan-loose-fit-jeans-in-japanese-denim/FF65DP4306C4.BT.html",
+   "hp": "Patchwork straight fit jeans in japanese denim (FG65DP3366B8)",
+   "hu": "https://www.kenzo.com/en-us/patchwork-straight-fit-jeans-in-japanese-denim/FG65DP3366B8.DT.html",
+   "b": "range"
+  },
+  "Dress pants": {
+   "lp": "Straight tailored pants in virgin wool (FG65PA2199TV)",
+   "lu": "https://www.kenzo.com/en-us/straight-tailored-pants-in-virgin-wool/FG65PA2199TV.79.html",
+   "hp": "Pleated pants in virgin wool silk (FG55PA3849FA)",
+   "hu": "https://www.kenzo.com/en-us/pleated-pants-in-virgin-wool-silk/FG55PA3849FA.76.html",
+   "b": "pair"
+  },
+  "Sweater": {
+   "lp": "'Boke Flower' embroidered jumper in merino wool (FG55PU7713LB)",
+   "lu": "https://www.kenzo.com/en-us/boke-flower-embroidered-jumper-in-merino-wool/FG55PU7713LB.76.html",
+   "hp": "'KENZO Signature' cable knit jumper, crewneck (FG65PU8123LK)",
+   "hu": "https://www.kenzo.com/en-us/kenzo-signature-embroidered-knit-jumper/FG65PU8123LK.99J.html",
+   "b": "range"
+  },
+  "Outerwear": {
+   "lp": "'KENZO Sounds' zipped coach jacket, nylon (FG65BL0589NV)",
+   "lu": "https://www.kenzo.com/en-us/kenzo-sounds-zipped-coach-jacket/FG65BL0589NV.63.html",
+   "hp": "'KENZO Loves' zipped coach jacket in cotton and silk (FG65BL0589TP)",
+   "hu": "https://www.kenzo.com/en-us/kenzo-loves-zipped-coach-jacket-in-cotton-and-silk/FG65BL0589TP.03.html",
+   "b": "pair"
+  },
+  "Shoes": {
+   "lp": "'KENZO Citygram' loafers in leather (FG65LO410L79)",
+   "lu": "https://www.kenzo.com/en-us/kenzo-citygram-loafers-in-leather/FG65LO410L79.99.html",
+   "hp": "'KENZO Citygram' loafers in leather (FG65LO410L79)",
+   "hu": "https://www.kenzo.com/en-us/kenzo-citygram-loafers-in-leather/FG65LO410L79.99.html",
+   "b": "single"
+  }
+ },
+ "garment_links": {
+  "T-shirt": "https://www.kenzo.com/en-us/c-men/tshirts",
+  "Polo": "https://www.kenzo.com/en-us/c-men/tshirts",
+  "Dress shirt": "https://www.kenzo.com/en-us/c-men/shirts",
+  "Jeans": "https://www.kenzo.com/en-us/c-men/denim",
+  "Dress pants": "https://www.kenzo.com/en-us/c-men/pants",
+  "Sweater": "https://www.kenzo.com/en-us/c-men/knitwear",
+  "Outerwear": "https://www.kenzo.com/en-us/c-men/coats-jackets",
+  "Shoes": "https://www.kenzo.com/en-us/c-shoes/men"
+ },
+ "price_read": {
+  "date": "2026-10-11",
+  "store": "https://www.kenzo.com/en-us/men",
+  "currency": "USD",
+  "status": "complete",
+  "sublines": "-"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-11): water-repellent nylon (unbranded) on quilted jackets, gilet and windbreakers; UV-resistant nylon (Sounds coach jacket); recycled polyester (Checks windbreaker); \"technical cotton\" that is 100% polyester; Japanese denim (no mill named); no named membrane or insulation — NONE: no owned or licensed membrane, insulation or performance fibre named on any of 304 men's clothing PDPs; share of range 0 of 304 styles name an owned or licensed technology; 27 of 304 are synthetic-le. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 2 (2026-10-11): Kenzo states the country of making on every men's PDP (304 of 304, ten countries, Portugal and Tunisia leading) but names no maker, mill or owned factory, and documents no process beyond technique words in product bullets. The dated Paris heritage (1970, Galerie Vivienne) is real but is design heritage, not making. That is a 2: country stated, little else. Seated as proposed, pending ruling.",
+  "comfort": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "style": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "dur": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "forg": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "fuss": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "golffice": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "whitet": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "logo": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "western": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "rock": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "workwear": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "outdoor": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "surf": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "denim": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "cashmere": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "linen": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "cotton": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "wool": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "synth": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "fren": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "status": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "street": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional"
+ },
+ "doors": {
+  "c": "full",
+  "n": 0,
+  "cities": [],
+  "basis": "positive zero 2026-10-12 (seat_wave_b_2026-10-08)",
+  "out": 3,
+  "con": 0
+ },
+ "cities": "No store of its own in the US · department stores, and its own site",
+ "site": {
+  "domain": "kenzo.com",
+  "platform": "other",
+  "feed": "none",
+  "feed_count": 0,
+  "status": "live_store",
+  "checked": "2026-10-11"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "both",
+  "marks": [
+   "water-repellent nylon (unbranded) on quilted jackets, gilet and windbreakers",
+   "UV-resistant nylon (Sounds coach jacket)",
+   "recycled polyester (Checks windbreaker)",
+   "\"technical cotton\" that is 100% polyester",
+   "Japanese denim (no mill named)",
+   "no named membrane or insulation"
+  ],
+  "source": "seat_wave_b_2026-10-08",
+  "checked": "2026-10-11"
+ },
+ "craft_evidence": {
+  "owned": "claim only: LVMH maison page says the 18 rue Vivienne head office houses the studio, the workshop and product development; no factory claimed as owned; PDPs show garments made in 10 countries by unnamed suppliers",
+  "makers": "no: none of 304 men's clothing PDPs names a factory, workshop or maker",
+  "mills": "no: \"Japanese denim\" on the denim range and \"Prince of Wales wool\" on one jacket, but no cloth or yarn mill named on any PDP",
+  "madein": "304 of 304 men's clothing PDPs state the country (Portugal 116, Tunisia 71, China 52, Romania 28, Turkey 11, Bulgaria 10, Moldova 6, Italy 5, Madagascar 3, Vietnam 2), all read 11 Oct",
+  "heritage": "dated and placed: founded Paris 1970 by Kenzo Takada, first boutique in Galerie Vivienne (LVMH maison page); flagship at 3 Place des Victoires from 1976 (kenzo.com SS27 page)",
+  "process": "no: PDP bullets name techniques (intarsia, chainstitch embroidery, jacquard, dip dye) but the brand publishes no account of how or where its garments are made",
+  "urls": [
+   "https://www.kenzo.com/en-us/kenzo-checks-cardigan-in-wool/FG65CA8023FB.50.html",
+   "https://www.lvmh.com/en/our-maisons/fashion-leather-good/kenzo"
+  ],
+  "proposed": 2,
+  "reasoning": "Kenzo states the country of making on every men's PDP (304 of 304, ten countries, Portugal and Tunisia leading) but names no maker, mill or owned factory, and documents no process beyond technique words in product bullets. The dated Paris heritage (1970, Galerie Vivienne) is real but is design heritage, not making. That is a 2: country stated, little else.",
+  "source": "seat_wave_b_2026-10-08"
+ },
+ "ownership": {
+  "owner": "LVMH Moët Hennessy Louis Vuitton SE (Kenzo listed among LVMH Fashion & Leather Goods maisons; Nigo artistic director since September 2021)",
+  "u": "https://www.lvmh.com/en/our-maisons/fashion-leather-good/kenzo"
+ },
+ "opview": "“The style that would make me a success in Paris was born from the precious experience of this boat trip.” — Kenzo Takada, founder, kenzo.com, \"East meets West\" heritage page (quoting Kenzo Takada, 2017)",
+ "resale": {
+  "grailed": {
+   "u": "https://www.grailed.com/designers/kenzo"
+  }
+ },
+ "season": {
+  "l": "Spring-Summer 2027 Men's and Women's collection (KENZO BY NIGO)",
+  "t": "lookbook",
+  "u": "https://www.kenzo.com/en-us/ss27-collection-lookbook.html",
+  "m": "yes"
+ },
+ "say": "KEN-zoh",
+ "fibre": {
+  "t": 304,
+  "w": 304,
+  "n": 88,
+  "s": 9,
+  "c": 3,
+  "x": 1,
+  "xh": 0,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "T-shirts and Polos",
+   "Jackets and Coats",
+   "Sweaters and Cardigans"
+  ],
+  "st": "complete"
+ },
+ "band_note": "trueLux by the price rule (dress shirt $405, sweater $490)"
+}

@@ -1,0 +1,382 @@
+{
+ "name": "Timberland",
+ "band": "basic",
+ "seat": 289,
+ "dagger": 0,
+ "focus": {
+  "tech": 2,
+  "comfort": 3,
+  "craft": 2,
+  "style": 1
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 4,
+  "wool": 1,
+  "synth": 2
+ },
+ "dials": {
+  "dur": 4,
+  "forg": 4,
+  "fuss": -3,
+  "golffice": -3,
+  "whitet": 2,
+  "logo": 3,
+  "western": 1,
+  "rock": 1,
+  "workwear": 4,
+  "outdoor": 3,
+  "surf": 1,
+  "street": 3,
+  "murica": 3,
+  "shoes": 3
+ },
+ "why": "The yellow boot from New Hampshire, 1973, with a basic clothing range beside it; 21 US stores and 54 outlets, owned by VF.",
+ "origin": "Founded in 1952 in not stated on the pages read for 1952; the Abington Shoe Company later moved to Newmarket, New Hampshire, where the Timberland boot was launched in 1973 by Nathan Swartz (bought a half-interest in the Abington Shoe Company, 1952).",
+ "chan": [
+  "O",
+  "D",
+  "I",
+  "W"
+ ],
+ "conf": "S",
+ "forgc": [
+  3,
+  4,
+  2
+ ],
+ "onething": {
+  "p": "Men's Timberland Premium 6-Inch Waterproof Boot (the yellow boot, 1973)",
+  "u": "https://www.timberland.com/en-us/p/men/footwear-10039/mens-timberland-premium-6-inch-waterproof-boot-TB110061713",
+  "n": "from the seat_wave_b_2026-10-08 return; \"Men's Timberland Premium 6-Inch Waterproof Boot (the yellow boot, 1973)\""
+ },
+ "prices": [
+  [
+   30,
+   70
+  ],
+  [
+   40,
+   70
+  ],
+  [
+   75,
+   85
+  ],
+  [
+   80,
+   90
+  ],
+  [
+   60,
+   70
+  ],
+  [
+   60,
+   60
+  ],
+  [
+   85,
+   700
+  ],
+  [
+   160,
+   160
+  ]
+ ],
+ "price_checked": true,
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants",
+  "Outerwear"
+ ],
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Men's Elements Graphic T-Shirt (TBC0YHF0CM9)",
+   "lu": "https://www.timberland.com/en-us/p/clothing-0103/mens-elements-graphic-t-shirt-TBC0YHF0CM9",
+   "hp": "Men's Heavyweight Long-Sleeve Waffle T-Shirt (TBC0YHSG001)",
+   "hu": "https://www.timberland.com/en-us/p/clothing-0103/mens-heavyweight-long-sleeve-waffle-t-shirt-TBC0YHSG001",
+   "b": "range"
+  },
+  "Polo": {
+   "lp": "Men's Oyster River Regular Short-Sleeve Polo (TBC0YHA3433)",
+   "lu": "https://www.timberland.com/en-us/p/clothing/new-arrivals-0104/mens-oyster-river-regular-short-sleeve-polo-TBC0YHA3433",
+   "hp": "Men's Long-Sleeve Rugby Polo (TBC0YHBDAIN)",
+   "hu": "https://www.timberland.com/en-us/p/clothing-0103/mens-long-sleeve-rugby-polo-TBC0YHBDAIN",
+   "b": "range"
+  },
+  "Dress shirt": {
+   "lp": "Indigo Check Regular Shirt (TBC0YH82AIF)",
+   "lu": "https://www.timberland.com/en-us/p/clothing-0103/indigo-check-regular-shirt-TBC0YH82AIF",
+   "hp": "Men's Indigo Check Regular Shirt (TBC0YH81AIK)",
+   "hu": "https://www.timberland.com/en-us/p/clothing-0103/mens-indigo-check-regular-shirt-TBC0YH81AIK",
+   "b": "range"
+  },
+  "Jeans": {
+   "lp": "Men's Straight Denim Pant (TBC0YHAP455)",
+   "lu": "https://www.timberland.com/en-us/p/clothing-0103/mens-straight-denim-pant-TBC0YHAP455",
+   "hp": "Men's Relaxed Denim Pant (TBC0YHAMAO8)",
+   "hu": "https://www.timberland.com/en-us/p/clothing-0103/mens-relaxed-denim-pant-TBC0YHAMAO8",
+   "b": "range"
+  },
+  "Dress pants": {
+   "lp": "Men's Topsfield Straight Twill Chino Pant (TBC0YH93DF0)",
+   "lu": "https://www.timberland.com/en-us/p/clothing-0103/mens-topsfield-straight-twill-chino-pant-TBC0YH93DF0",
+   "hp": "Men's Sandown Cavalry Twill Pant (TBC0YH9GC35)",
+   "hu": "https://www.timberland.com/en-us/p/clothing-0103/mens-sandown-cavalry-twill-pant-TBC0YH9GC35",
+   "b": "range"
+  },
+  "Sweater": {
+   "lp": "Men's Williams River Cotton Crewneck Sweater (TBC0YHAZ052)",
+   "lu": "https://www.timberland.com/en-us/p/clothing-0103/mens-williams-river-cotton-crewneck-sweater-TBC0YHAZ052",
+   "hp": "Men's Williams River Cotton Crewneck Sweater (TBC0YHAZ052)",
+   "hu": "https://www.timberland.com/en-us/p/clothing-0103/mens-williams-river-cotton-crewneck-sweater-TBC0YHAZ052",
+   "b": "single"
+  },
+  "Outerwear": {
+   "lp": "Men's Coach Jacket (TBC0YH7HAKX)",
+   "lu": "https://www.timberland.com/en-us/p/clothing-0103/mens-coach-jacket-TBC0YH7HAKX",
+   "hp": "Men's Wenham Leather Field Coat (TBC0YH7QAKX)",
+   "hu": "https://www.timberland.com/en-us/p/clothing-0103/mens-wenham-leather-field-coat-TBC0YH7QAKX",
+   "b": "range"
+  },
+  "Shoes": {
+   "lp": "Men's Timberland® Authentic Loafer (TB0A2MSCW02)",
+   "lu": "https://www.timberland.com/en-us/p/men/footwear-10039/mens-timberland-authentic-loafer-TB0A2MSCW02",
+   "hp": "Men's Timberland® Authentic Loafer (TB0A2MSCW02)",
+   "hu": "https://www.timberland.com/en-us/p/men/footwear-10039/mens-timberland-authentic-loafer-TB0A2MSCW02",
+   "b": "single"
+  }
+ },
+ "garment_links": {
+  "T-shirt": "https://www.timberland.com/en-us/c/men/clothing/t-shirts-10052",
+  "Polo": "https://www.timberland.com/en-us/c/men/clothing-10049",
+  "Dress shirt": "https://www.timberland.com/en-us/c/men/clothing-10049",
+  "Jeans": "https://www.timberland.com/en-us/c/men/clothing/bottoms-0108",
+  "Dress pants": "https://www.timberland.com/en-us/c/men/clothing/bottoms-0108",
+  "Sweater": "https://www.timberland.com/en-us/c/men/clothing-10049",
+  "Outerwear": "https://www.timberland.com/en-us/c/men/clothing/jackets-and-vests-10050",
+  "Shoes": "https://www.timberland.com/en-us/c/men/footwear/shoes-10041"
+ },
+ "price_read": {
+  "date": "2026-10-11",
+  "store": "https://www.timberland.com/en-us (US storefront; Nuxt 3 \"nora\" front end, Bloomreach search, PerimeterX bot wall)",
+  "currency": "USD",
+  "status": "partial",
+  "sublines": "PRO (Timberland PRO), checked and changes no cell: PRO is identified by its /timberland-pro/ breadcrumb and the Timberland PRO mark on the product; the PRO men's workwear listing (/en-us/c/timberland-pro/mens-workwear-10178, 201 tiles, read 2026-10-11) carries only footwear (Boots 134, Shoes 54, Hiking 10) plus 2 product-care items and 1 hat, so PRO sells no men's clothing on the US store and no PRO style is in the clothing census; PRO shoes (4 tiles in the men's Shoes listing) are work sneakers and work shoes, no loafer, so the shoe slot is unaffected"
+ },
+ "notes": {
+  "tech": "Thread proposed 2 (2026-10-11): no house-owned fabric technology named on the 66 men's clothing PDPs read 2026-10-11; PDP bullets name generic features only (Waterproof technology with fully sealed seams, Water Repellent Technology, DWR treatment, synthetic insulation, recycled nylon/polyester) and one licensed fibre (TENCEL Lyocell in the Straight Denim Pant) — NC; share of range facet counts on 155 men's clothing tiles (tiles, not styles): Waterproof 6, Wate. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 2 (2026-10-11): VF's FY2026 10-K says its products come primarily from about 216 independent contractor factories, mainly in Asia, and names no Timberland-owned plant. The heritage is dated and placed (1952 Abington Shoe Company, Newmarket NH, 1973 boot) and the boot's injection-moulded construction and LWG tannery standard are documented, but no maker or mill is named on anything read. On the retry all 66 men's  Seated as proposed, pending ruling.",
+  "comfort": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "style": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "dur": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "forg": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "fuss": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "golffice": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "whitet": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "logo": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "western": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "rock": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "workwear": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "outdoor": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "surf": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "denim": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "cashmere": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "linen": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "cotton": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "wool": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "synth": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "street": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "murica": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "shoes": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional"
+ },
+ "doors": {
+  "c": "full",
+  "n": 21,
+  "cities": [
+   [
+    "New York",
+    "NY",
+    3
+   ],
+   [
+    "Atlanta",
+    "GA",
+    2
+   ],
+   [
+    "Arlington",
+    "VA",
+    1
+   ],
+   [
+    "Bloomington",
+    "MN",
+    1
+   ],
+   [
+    "Braintree",
+    "MA",
+    1
+   ],
+   [
+    "Cherry Hill",
+    "NJ",
+    1
+   ],
+   [
+    "Dallas",
+    "TX",
+    1
+   ],
+   [
+    "Detroit",
+    "MI",
+    1
+   ],
+   [
+    "East Rutherford",
+    "NJ",
+    1
+   ],
+   [
+    "Edison",
+    "NJ",
+    1
+   ],
+   [
+    "Garden City",
+    "NY",
+    1
+   ],
+   [
+    "Houston",
+    "TX",
+    1
+   ],
+   [
+    "Irvine",
+    "CA",
+    1
+   ],
+   [
+    "Newark",
+    "DE",
+    1
+   ],
+   [
+    "Paramus",
+    "NJ",
+    1
+   ],
+   [
+    "Raleigh",
+    "NC",
+    1
+   ],
+   [
+    "Schaumburg",
+    "IL",
+    1
+   ],
+   [
+    "Wayne",
+    "NJ",
+    1
+   ]
+  ],
+  "basis": "seat_wave_b_2026-10-08 2026-10-11",
+  "out": 54,
+  "con": 0
+ },
+ "cities": "21 stores across the US, including New York, Atlanta, Arlington · department stores, independent shops, and its own site",
+ "site": {
+  "domain": "timberland.com",
+  "platform": "other",
+  "feed": "none",
+  "feed_count": 0,
+  "status": "live_store",
+  "checked": "2026-10-11"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "none",
+  "marks": [
+   "no house-owned fabric technology named on the 66 men's clothing PDPs read 2026-10-11",
+   "PDP bullets name generic features only (Waterproof technology with fully sealed seams, Water Repellent Technology, DWR treatment, synthetic insulation, recycled nylon/polyester) and one licensed fibre (TENCEL Lyocell in the Straight Denim Pant)"
+  ],
+  "source": "seat_wave_b_2026-10-08",
+  "checked": "2026-10-11"
+ },
+ "craft_evidence": {
+  "owned": "no evidence of owned making: VF FY2026 10-K says products were \"primarily obtained from approximately 216 independent contractor manufacturing facilities\", sourced \"primarily\" in Asia; no VF-owned plant named in the parts read (Item 2 Properties not reached)",
+  "makers": "none named on the 66 men's clothing PDPs read 2026-10-11",
+  "mills": "none named on the 66 men's clothing PDPs read 2026-10-11",
+  "madein": "0 of 66 men's clothing styles state a country; PDP bullets say only \"Imported\" where anything is said (read 2026-10-11)",
+  "heritage": "dated and placed: 1952, Nathan Swartz buys a half-interest in the Abington Shoe Company; company later moves to Newmarket, New Hampshire; Timberland waterproof boot 1973; company renamed 1978 (Timberland South Africa \"Our Story\", distributor-run site; vfc.com gives Founded 1952)",
+  "process": "partial: injection-moulding of the waterproof boot named; leather only from Leather Working Group silver/gold-rated tanneries, Timberland a 2005 co-founder of the LWG (Timberland South Africa \"Our Story\"); nothing on how clothing is made",
+  "urls": [
+   "https://www.sec.gov/Archives/edgar/data/0000103379/000010337926000030/vfc-20260328.htm",
+   "https://timberland.co.za/pages/our-story"
+  ],
+  "proposed": 2,
+  "reasoning": "VF's FY2026 10-K says its products come primarily from about 216 independent contractor factories, mainly in Asia, and names no Timberland-owned plant. The heritage is dated and placed (1952 Abington Shoe Company, Newmarket NH, 1973 boot) and the boot's injection-moulded construction and LWG tannery standard are documented, but no maker or mill is named on anything read. On the retry all 66 men's clothing PDPs were read: none names a maker, mill or country (\"Imported\" only), which supports the 2.",
+  "source": "seat_wave_b_2026-10-08"
+ },
+ "ownership": {
+  "owner": "VF Corporation (NYSE: VFC); Timberland and Timberland PRO managed as one operating segment from Q1 FY2026, within Outdoor (VF 10-K for FY ended 28 March 2026)",
+  "u": "https://www.sec.gov/Archives/edgar/data/0000103379/000010337926000030/vfc-20260328.htm"
+ },
+ "opview": "“Everything Timberland makes and does is designed to move the global community forward.” — Timberland, as the house (brand statement published by its parent VF Corporation), VF Corporation brand page for Timberland, vfc.com",
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?brand_ids[]=44&catalog[]=5",
+   "m": "brand filter",
+   "n": ""
+  },
+  "grailed": {
+   "u": "https://www.grailed.com/designers/timberland"
+  }
+ },
+ "say": "TIM-ber-land",
+ "fibre": {
+  "t": 66,
+  "w": 66,
+  "n": 86,
+  "s": 14,
+  "c": 0,
+  "x": 5,
+  "xh": 0,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "sweats",
+   "tees-polos",
+   "shirts"
+  ],
+  "st": "complete"
+ },
+ "band_note": "basic by the price rule (tee $30, dress shirt $75)",
+ "region": {
+  "o": [
+   5555,
+   5559,
+   5562,
+   5563,
+   5564,
+   5565,
+   5566,
+   5567,
+   5568,
+   5569,
+   5570
+  ],
+  "s": []
+ }
+}

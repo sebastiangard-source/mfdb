@@ -70,8 +70,9 @@ def main(extra):
                 continue
             if clean(d.get('country', 'US')) not in US:
                 continue
+            # the state column is never cleaned: NC is North Carolina there, not not-counted
             add({'brand': d['brand'], 'map': which, 'store_name': clean(d.get('store_name')), 'banner': clean(d.get('banner_stated')),
-                 'street': clean(d.get('street')), 'city': clean(d.get('city')), 'state': clean(d.get('state')),
+                 'street': clean(d.get('street')), 'city': clean(d.get('city')), 'state': (d.get('state') or '').strip(),
                  'zip': clean(d.get('zip'))[:5], 'country': 'US', 'phone': clean(d.get('phone')), 'venue': clean(d.get('venue')),
                  'operator': clean(d.get('operator')), 'neighbourhood': '', 'source': os.path.basename(f),
                  'captured_on': clean(d.get('captured_on'))})

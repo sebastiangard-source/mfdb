@@ -1,0 +1,182 @@
+{
+ "name": "Carmina",
+ "band": "trueLux",
+ "seat": 308,
+ "dagger": 0,
+ "focus": {
+  "tech": 1,
+  "comfort": 2,
+  "craft": 4,
+  "style": 2
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 1,
+  "wool": 1,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 5,
+  "forg": 3,
+  "fuss": 2,
+  "golffice": 3,
+  "whitet": 1,
+  "logo": 1,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1,
+  "status": 3,
+  "finbro": 3,
+  "ital": 2,
+  "shoes": 5
+ },
+ "why": "Mallorca shoemaker, a family at it since 1866, Goodyear-welted on the island at under half the Northampton price; two US stores, New York and San Francisco.",
+ "origin": "Founded in 1997 in Mallorca by José Albaladejo Pujadas, with his wife and sons (family shoemaking since 1866).",
+ "chan": [
+  "O",
+  "W"
+ ],
+ "conf": "S",
+ "forgc": [
+  3,
+  4,
+  1
+ ],
+ "onething": {
+  "p": "Loafer Mod. 1330 (launched 1962; the history page calls it iconic)",
+  "u": "https://www.carminashoemaker.com/us/en/history",
+  "n": "from the seat_wave_c_2026-10-08 return; \"Loafer Mod. 1330 (launched 1962; the history page calls it iconic)\""
+ },
+ "prices": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  [
+   475,
+   1125
+  ]
+ ],
+ "price_checked": true,
+ "price_evidence": {
+  "Shoes": {
+   "lp": "Penny Loafers 80160 Xim (navy repello)",
+   "lu": "https://www.carminashoemaker.com/us/en/penny-loafers-navy-repello-80160",
+   "hp": "Men's Penny Loafers 793 Chelsea (burgundy cordovan)",
+   "hu": "https://www.carminashoemaker.com/us/en/cordovan-penny-loafers-burgundy-000793",
+   "b": "pair"
+  }
+ },
+ "garment_links": {
+  "Shoes": "https://www.carminashoemaker.com/us/en/mens-loafers"
+ },
+ "price_read": {
+  "date": "2026-10-11",
+  "store": "https://www.carminashoemaker.com/us/en (US/English store, USD)",
+  "currency": "USD",
+  "status": "partial",
+  "sublines": "-"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-11):  — NONE; share of range 0. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 4 (2026-10-11): Carmina states that the family makes every shoe on Mallorca and dates the line of shoemakers from 1866, with a documented 190-step process. The factory is claimed rather than shown in this read and product pages were not checked for leather sources, so 4 not 5. Seated as proposed, pending ruling.",
+  "comfort": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "style": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "dur": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "forg": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "fuss": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "golffice": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "whitet": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "logo": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "western": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "rock": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "workwear": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "outdoor": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "surf": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "denim": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "cashmere": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "linen": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "cotton": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "wool": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "synth": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "status": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "finbro": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "ital": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "shoes": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional"
+ },
+ "doors": {
+  "c": "full",
+  "n": 2,
+  "cities": [
+   [
+    "New York",
+    "NY",
+    1
+   ],
+   [
+    "San Francisco",
+    "CA",
+    1
+   ]
+  ],
+  "basis": "seat_wave_c_2026-10-08 2026-10-11",
+  "out": 0,
+  "con": 0
+ },
+ "cities": "2 stores across the US, including New York, San Francisco · its own site",
+ "site": {
+  "domain": "carminashoemaker.com",
+  "platform": "other",
+  "feed": "none",
+  "feed_count": 0,
+  "status": "live_store",
+  "checked": "2026-10-11"
+ },
+ "tech_evidence": {
+  "names": "no",
+  "origin": "none",
+  "marks": [],
+  "source": "seat_wave_c_2026-10-08",
+  "checked": "2026-10-11"
+ },
+ "craft_evidence": {
+  "owned": "claim, dated: \"Our family manufactures all shoes on the island of Mallorca since 1866\"; 1905 \"one of the first factories of Goodyear-stitched shoes in the Balearic Islands\" (/history); factory not named or pictured in this read",
+  "makers": "own manufacture claimed (Inca, Mallorca)",
+  "mills": "NC",
+  "madein": "NC",
+  "heritage": "dated and placed: 1866 Matías Pujadas workshop in Inca; 1997 Carmina Shoemaker founded by José Albaladejo; first store Madrid 1998 (/history)",
+  "process": "yes: \"The whole manufacturing process includes over 190 steps\"; Goodyear welting (/shoemaking)",
+  "urls": [
+   "https://www.carminashoemaker.com/us/en/history",
+   "https://www.carminashoemaker.com/us/en/shoemaking"
+  ],
+  "proposed": 4,
+  "reasoning": "Carmina states that the family makes every shoe on Mallorca and dates the line of shoemakers from 1866, with a documented 190-step process. The factory is claimed rather than shown in this read and product pages were not checked for leather sources, so 4 not 5.",
+  "source": "seat_wave_c_2026-10-08"
+ },
+ "ownership": {
+  "owner": "NC",
+  "u": null
+ },
+ "opview": "“Our family manufactures all shoes on the island of Mallorca since 1866.” — the house, history page, carminashoemaker.com /us/en/history",
+ "resale": {
+  "grailed": {
+   "u": "https://www.grailed.com/designers/carmina"
+  }
+ },
+ "say": "kar-MEE-nah",
+ "band_note": "trueLux by the price rule (shoe house: shoe entry $475)",
+ "region": {
+  "o": [
+   5910
+  ],
+  "s": []
+ }
+}

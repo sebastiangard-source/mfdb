@@ -1,0 +1,1370 @@
+{
+ "name": "Express",
+ "band": "basic",
+ "seat": 318,
+ "dagger": 0,
+ "focus": {
+  "tech": 1,
+  "comfort": 3,
+  "craft": 1,
+  "style": 2
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 3,
+  "wool": 1,
+  "synth": 3
+ },
+ "dials": {
+  "dur": 2,
+  "forg": 3,
+  "fuss": 0,
+  "golffice": 0,
+  "whitet": 2,
+  "logo": 1,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1,
+  "finbro": 2
+ },
+ "why": "The mall's going-out and office-casual chain, 226 US stores, bought out of bankruptcy by WHP Global with Simon and Brookfield in 2024.",
+ "origin": "Founding date and place not published by the brand.",
+ "chan": [
+  "O",
+  "W"
+ ],
+ "conf": "S",
+ "forgc": [
+  3,
+  3,
+  1
+ ],
+ "onething": {
+  "p": null,
+  "u": null,
+  "n": "no signature product named in the seat_wave_c_2026-10-08 return"
+ },
+ "prices": [
+  [
+   28,
+   74
+  ],
+  [
+   44,
+   88
+  ],
+  [
+   68,
+   78
+  ],
+  [
+   88,
+   98
+  ],
+  [
+   88,
+   148
+  ],
+  [
+   68,
+   98
+  ],
+  [
+   128,
+   298
+  ],
+  null
+ ],
+ "price_checked": true,
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants",
+  "Sweater",
+  "Outerwear"
+ ],
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Slim Supersoft Moisture-Wicking Crew Neck T-Shirt",
+   "lu": "https://www.express.com/clothing/men/slim-supersoft-moisture-wicking-crew-neck-t-shirt/pro/05051953",
+   "hp": "Relaxed Fit Johnny Collar Long Sleeve T-Shirt",
+   "hu": "https://www.express.com/clothing/men/relaxed-fit-johnny-collar-long-sleeve-t-shirt/pro/05731048",
+   "b": "range"
+  },
+  "Polo": {
+   "lp": "Mini Emblem Logo Cotton Pique Polo",
+   "lu": "https://www.express.com/clothing/men/mini-emblem-logo-cotton-pique-polo/pro/05040958",
+   "hp": "The '01 Rugby Stripe Polo",
+   "hu": "https://www.express.com/clothing/men/the-01-rugby-stripe-polo/pro/05041162",
+   "b": "range"
+  },
+  "Dress shirt": {
+   "lp": "Extra Slim Solid Cotton Stretch 1MX Dress Shirt",
+   "lu": "https://www.express.com/clothing/men/extra-slim-solid-cotton-stretch-1mx-dress-shirt/pro/00305332",
+   "hp": "Slim Solid Stretch Modern Tech 1MX Dress Shirt",
+   "hu": "https://www.express.com/clothing/men/slim-solid-stretch-modern-tech-1mx-dress-shirt/pro/06039140",
+   "b": "range"
+  },
+  "Jeans": {
+   "lp": "Straight Dark Wash Jeans",
+   "lu": "https://www.express.com/clothing/men/straight-dark-wash-jeans/pro/27508551",
+   "hp": "The '96 Bootcut Jean",
+   "hu": "https://www.express.com/clothing/men/the-96-bootcut-jean/pro/28410059",
+   "b": "range"
+  },
+  "Dress pants": {
+   "lp": "Slim Heather Belted Pant",
+   "lu": "https://www.express.com/clothing/men/slim-heather-belted-pant/pro/03040023",
+   "hp": "Slim Black Performance Stretch Wool-Blend Tuxedo Pant",
+   "hu": "https://www.express.com/clothing/men/slim-black-performance-stretch-wool-blend-tuxedo-pant/pro/03253847",
+   "b": "range"
+  },
+  "Sweater": {
+   "lp": "Crew Neck Cotton-Cashmere Sweater (95% cotton, 5% cashmere)",
+   "lu": "https://www.express.com/clothing/men/crew-neck-cotton-cashmere-sweater/pro/01770093",
+   "hp": "Oversized Cable Knit Crew Neck Sweater",
+   "hu": "https://www.express.com/clothing/men/oversized-cable-knit-crew-neck-sweater/pro/01777219",
+   "b": "range"
+  },
+  "Outerwear": {
+   "lp": "Denim Medium Wash Trucker Jacket",
+   "lu": "https://www.express.com/clothing/men/denim-medium-wash-trucker-jacket/pro/06210029",
+   "hp": "Houndstooth Wool-Blend Carcoat",
+   "hu": "https://www.express.com/clothing/men/houndstooth-wool-blend-carcoat/pro/04125691",
+   "b": "range"
+  }
+ },
+ "garment_links": {
+  "Polo": "https://www.express.com/exp/search?q=polo"
+ },
+ "price_read": {
+  "date": "2026-10-11",
+  "store": "https://www.express.com (custom React storefront; read through the site's own Apollo GraphQL client)",
+  "currency": "USD",
+  "status": "partial (large house: style table is a category-stratified sample)",
+  "sublines": "1MX (shirt line sold under Express, counted)"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-11):  — NONE; share of range 0. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 1 (2026-10-11): Product records give composition on 81% of the men's range and the word \"Imported\", with no country, maker or mill. Nothing about the making can be checked. Seated as proposed, pending ruling.",
+  "comfort": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "style": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "dur": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "forg": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "fuss": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "golffice": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "whitet": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "logo": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "western": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "rock": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "workwear": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "outdoor": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "surf": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "denim": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "cashmere": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "linen": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "cotton": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "wool": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "synth": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "finbro": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional"
+ },
+ "doors": {
+  "c": "full",
+  "n": 226,
+  "cities": [
+   [
+    "Las Vegas",
+    "NV",
+    3
+   ],
+   [
+    "Miami",
+    "FL",
+    3
+   ],
+   [
+    "San Antonio",
+    "TX",
+    3
+   ],
+   [
+    "Atlanta",
+    "GA",
+    2
+   ],
+   [
+    "Austin",
+    "TX",
+    2
+   ],
+   [
+    "Chicago",
+    "IL",
+    2
+   ],
+   [
+    "Columbus",
+    "OH",
+    2
+   ],
+   [
+    "Houston",
+    "TX",
+    2
+   ],
+   [
+    "Oklahoma City",
+    "OK",
+    2
+   ],
+   [
+    "Pittsburgh",
+    "PA",
+    2
+   ],
+   [
+    "San Diego",
+    "CA",
+    2
+   ],
+   [
+    "Akron",
+    "OH",
+    1
+   ],
+   [
+    "Albany",
+    "NY",
+    1
+   ],
+   [
+    "Albuquerque",
+    "NM",
+    1
+   ],
+   [
+    "Algonquin",
+    "IL",
+    1
+   ],
+   [
+    "Altamonte Springs",
+    "FL",
+    1
+   ],
+   [
+    "Ann Arbor",
+    "MI",
+    1
+   ],
+   [
+    "Annapolis",
+    "MD",
+    1
+   ],
+   [
+    "Appleton",
+    "WI",
+    1
+   ],
+   [
+    "Arlington",
+    "TX",
+    1
+   ],
+   [
+    "Arlington",
+    "VA",
+    1
+   ],
+   [
+    "Aurora",
+    "CO",
+    1
+   ],
+   [
+    "Aurora",
+    "IL",
+    1
+   ],
+   [
+    "Bakersfield",
+    "CA",
+    1
+   ],
+   [
+    "Baltimore",
+    "MD",
+    1
+   ],
+   [
+    "Bartlett",
+    "TN",
+    1
+   ],
+   [
+    "Baton Rouge",
+    "LA",
+    1
+   ],
+   [
+    "Beachwood",
+    "OH",
+    1
+   ],
+   [
+    "Beavercreek",
+    "OH",
+    1
+   ],
+   [
+    "Bellevue",
+    "WA",
+    1
+   ],
+   [
+    "Bloomington",
+    "MN",
+    1
+   ],
+   [
+    "Boca Raton",
+    "FL",
+    1
+   ],
+   [
+    "Boise",
+    "ID",
+    1
+   ],
+   [
+    "Braintree",
+    "MA",
+    1
+   ],
+   [
+    "Brea",
+    "CA",
+    1
+   ],
+   [
+    "Brentwood",
+    "CA",
+    1
+   ],
+   [
+    "Bridgewater",
+    "NJ",
+    1
+   ],
+   [
+    "Brookfield",
+    "WI",
+    1
+   ],
+   [
+    "Brownsville",
+    "TX",
+    1
+   ],
+   [
+    "Buffalo",
+    "NY",
+    1
+   ],
+   [
+    "Buford",
+    "GA",
+    1
+   ],
+   [
+    "Burlington",
+    "MA",
+    1
+   ],
+   [
+    "Camp Hill",
+    "PA",
+    1
+   ],
+   [
+    "Canton",
+    "OH",
+    1
+   ],
+   [
+    "Carlsbad",
+    "CA",
+    1
+   ],
+   [
+    "Cedar Park",
+    "TX",
+    1
+   ],
+   [
+    "Cerritos",
+    "CA",
+    1
+   ],
+   [
+    "Champaign",
+    "IL",
+    1
+   ],
+   [
+    "Chattanooga",
+    "TN",
+    1
+   ],
+   [
+    "Cherry Hill",
+    "NJ",
+    1
+   ],
+   [
+    "Cincinnati",
+    "OH",
+    1
+   ],
+   [
+    "Clinton Township",
+    "MI",
+    1
+   ],
+   [
+    "Columbia",
+    "MD",
+    1
+   ],
+   [
+    "Columbia",
+    "SC",
+    1
+   ],
+   [
+    "Concord",
+    "CA",
+    1
+   ],
+   [
+    "Coral Springs",
+    "FL",
+    1
+   ],
+   [
+    "Coralville",
+    "IA",
+    1
+   ],
+   [
+    "Corona",
+    "CA",
+    1
+   ],
+   [
+    "Culver City",
+    "CA",
+    1
+   ],
+   [
+    "Dallas",
+    "TX",
+    1
+   ],
+   [
+    "Denver",
+    "CO",
+    1
+   ],
+   [
+    "Downey",
+    "CA",
+    1
+   ],
+   [
+    "Dulles",
+    "VA",
+    1
+   ],
+   [
+    "Duluth",
+    "MN",
+    1
+   ],
+   [
+    "Durham",
+    "NC",
+    1
+   ],
+   [
+    "East Rutherford",
+    "NJ",
+    1
+   ],
+   [
+    "Edgewater",
+    "NJ",
+    1
+   ],
+   [
+    "Edison",
+    "NJ",
+    1
+   ],
+   [
+    "El Paso",
+    "TX",
+    1
+   ],
+   [
+    "Estero",
+    "FL",
+    1
+   ],
+   [
+    "Fairfax",
+    "VA",
+    1
+   ],
+   [
+    "Fargo",
+    "ND",
+    1
+   ],
+   [
+    "Farmington",
+    "CT",
+    1
+   ],
+   [
+    "Fort Lauderdale",
+    "FL",
+    1
+   ],
+   [
+    "Fort Myers",
+    "FL",
+    1
+   ],
+   [
+    "Fort Worth",
+    "TX",
+    1
+   ],
+   [
+    "Foxborough",
+    "MA",
+    1
+   ],
+   [
+    "Franklin",
+    "TN",
+    1
+   ],
+   [
+    "Fredericksburg",
+    "VA",
+    1
+   ],
+   [
+    "Freehold",
+    "NJ",
+    1
+   ],
+   [
+    "Fresno",
+    "CA",
+    1
+   ],
+   [
+    "Friendswood",
+    "TX",
+    1
+   ],
+   [
+    "Frisco",
+    "TX",
+    1
+   ],
+   [
+    "Garden City",
+    "NY",
+    1
+   ],
+   [
+    "Garland",
+    "TX",
+    1
+   ],
+   [
+    "Geneva",
+    "IL",
+    1
+   ],
+   [
+    "Glendale",
+    "AZ",
+    1
+   ],
+   [
+    "Glendale",
+    "CA",
+    1
+   ],
+   [
+    "Green Bay",
+    "WI",
+    1
+   ],
+   [
+    "Greensboro",
+    "NC",
+    1
+   ],
+   [
+    "Greenville",
+    "NC",
+    1
+   ],
+   [
+    "Greenville",
+    "SC",
+    1
+   ],
+   [
+    "Greenwood",
+    "IN",
+    1
+   ],
+   [
+    "Holyoke",
+    "MA",
+    1
+   ],
+   [
+    "Hoover",
+    "AL",
+    1
+   ],
+   [
+    "Humble",
+    "TX",
+    1
+   ],
+   [
+    "Huntington",
+    "NY",
+    1
+   ],
+   [
+    "Huntsville",
+    "AL",
+    1
+   ],
+   [
+    "Hurst",
+    "TX",
+    1
+   ],
+   [
+    "Hyannis",
+    "MA",
+    1
+   ],
+   [
+    "Indianapolis",
+    "IN",
+    1
+   ],
+   [
+    "Jacksonville",
+    "FL",
+    1
+   ],
+   [
+    "Jensen Beach",
+    "FL",
+    1
+   ],
+   [
+    "Jersey City",
+    "NJ",
+    1
+   ],
+   [
+    "King of Prussia",
+    "PA",
+    1
+   ],
+   [
+    "Knoxville",
+    "TN",
+    1
+   ],
+   [
+    "Lafayette",
+    "IN",
+    1
+   ],
+   [
+    "Lafayette",
+    "LA",
+    1
+   ],
+   [
+    "Lake Grove",
+    "NY",
+    1
+   ],
+   [
+    "Lancaster",
+    "PA",
+    1
+   ],
+   [
+    "Lansing",
+    "MI",
+    1
+   ],
+   [
+    "Laredo",
+    "TX",
+    1
+   ],
+   [
+    "Lawrenceville",
+    "NJ",
+    1
+   ],
+   [
+    "Lexington",
+    "KY",
+    1
+   ],
+   [
+    "Liberty Township",
+    "OH",
+    1
+   ],
+   [
+    "Littleton",
+    "CO",
+    1
+   ],
+   [
+    "Los Angeles",
+    "CA",
+    1
+   ],
+   [
+    "Louisville",
+    "KY",
+    1
+   ],
+   [
+    "Lynnwood",
+    "WA",
+    1
+   ],
+   [
+    "Macon",
+    "GA",
+    1
+   ],
+   [
+    "Madison",
+    "WI",
+    1
+   ],
+   [
+    "Manchester",
+    "NH",
+    1
+   ],
+   [
+    "McAllen",
+    "TX",
+    1
+   ],
+   [
+    "McLean",
+    "VA",
+    1
+   ],
+   [
+    "Mesquite",
+    "TX",
+    1
+   ],
+   [
+    "Metairie",
+    "LA",
+    1
+   ],
+   [
+    "Milford",
+    "CT",
+    1
+   ],
+   [
+    "Minnetonka",
+    "MN",
+    1
+   ],
+   [
+    "Mishawaka",
+    "IN",
+    1
+   ],
+   [
+    "Mission Viejo",
+    "CA",
+    1
+   ],
+   [
+    "Modesto",
+    "CA",
+    1
+   ],
+   [
+    "Montebello",
+    "CA",
+    1
+   ],
+   [
+    "Myrtle Beach",
+    "SC",
+    1
+   ],
+   [
+    "Naples",
+    "FL",
+    1
+   ],
+   [
+    "Nashua",
+    "NH",
+    1
+   ],
+   [
+    "Natick",
+    "MA",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    1
+   ],
+   [
+    "Newark",
+    "DE",
+    1
+   ],
+   [
+    "North Riverside",
+    "IL",
+    1
+   ],
+   [
+    "Northridge",
+    "CA",
+    1
+   ],
+   [
+    "Novi",
+    "MI",
+    1
+   ],
+   [
+    "Odessa",
+    "TX",
+    1
+   ],
+   [
+    "Omaha",
+    "NE",
+    1
+   ],
+   [
+    "Orland Park",
+    "IL",
+    1
+   ],
+   [
+    "Orlando",
+    "FL",
+    1
+   ],
+   [
+    "Palm Desert",
+    "CA",
+    1
+   ],
+   [
+    "Palmdale",
+    "CA",
+    1
+   ],
+   [
+    "Paramus",
+    "NJ",
+    1
+   ],
+   [
+    "Peabody",
+    "MA",
+    1
+   ],
+   [
+    "Pembroke Pines",
+    "FL",
+    1
+   ],
+   [
+    "Pensacola",
+    "FL",
+    1
+   ],
+   [
+    "Pineville",
+    "NC",
+    1
+   ],
+   [
+    "Plantation",
+    "FL",
+    1
+   ],
+   [
+    "Pleasanton",
+    "CA",
+    1
+   ],
+   [
+    "Portland",
+    "OR",
+    1
+   ],
+   [
+    "Poughkeepsie",
+    "NY",
+    1
+   ],
+   [
+    "Providence",
+    "RI",
+    1
+   ],
+   [
+    "Raleigh",
+    "NC",
+    1
+   ],
+   [
+    "Rancho Cucamonga",
+    "CA",
+    1
+   ],
+   [
+    "Reno",
+    "NV",
+    1
+   ],
+   [
+    "Richmond",
+    "VA",
+    1
+   ],
+   [
+    "Riverside",
+    "CA",
+    1
+   ],
+   [
+    "Rockaway",
+    "NJ",
+    1
+   ],
+   [
+    "Roseville",
+    "CA",
+    1
+   ],
+   [
+    "Roseville",
+    "MN",
+    1
+   ],
+   [
+    "Sacramento",
+    "CA",
+    1
+   ],
+   [
+    "Salem",
+    "NH",
+    1
+   ],
+   [
+    "Salt Lake City",
+    "UT",
+    1
+   ],
+   [
+    "San Francisco",
+    "CA",
+    1
+   ],
+   [
+    "Santa Ana",
+    "CA",
+    1
+   ],
+   [
+    "Santa Clara",
+    "CA",
+    1
+   ],
+   [
+    "Santa Rosa",
+    "CA",
+    1
+   ],
+   [
+    "Schaumburg",
+    "IL",
+    1
+   ],
+   [
+    "Scottsdale",
+    "AZ",
+    1
+   ],
+   [
+    "Scranton",
+    "PA",
+    1
+   ],
+   [
+    "Seattle",
+    "WA",
+    1
+   ],
+   [
+    "Shawnee Mission",
+    "KS",
+    1
+   ],
+   [
+    "Sherman Oaks",
+    "CA",
+    1
+   ],
+   [
+    "Sioux Falls",
+    "SD",
+    1
+   ],
+   [
+    "Skokie",
+    "IL",
+    1
+   ],
+   [
+    "South Portland",
+    "ME",
+    1
+   ],
+   [
+    "Spring",
+    "TX",
+    1
+   ],
+   [
+    "Springfield",
+    "MO",
+    1
+   ],
+   [
+    "Springfield",
+    "PA",
+    1
+   ],
+   [
+    "St. Louis",
+    "MO",
+    1
+   ],
+   [
+    "Strongsville",
+    "OH",
+    1
+   ],
+   [
+    "Sugar Land",
+    "TX",
+    1
+   ],
+   [
+    "Tacoma",
+    "WA",
+    1
+   ],
+   [
+    "Temecula",
+    "CA",
+    1
+   ],
+   [
+    "Toms River",
+    "NJ",
+    1
+   ],
+   [
+    "Torrance",
+    "CA",
+    1
+   ],
+   [
+    "Troy",
+    "MI",
+    1
+   ],
+   [
+    "Trumbull",
+    "CT",
+    1
+   ],
+   [
+    "Tucson",
+    "AZ",
+    1
+   ],
+   [
+    "Tulsa",
+    "OK",
+    1
+   ],
+   [
+    "Valley Stream",
+    "NY",
+    1
+   ],
+   [
+    "Vancouver",
+    "WA",
+    1
+   ],
+   [
+    "Victor",
+    "NY",
+    1
+   ],
+   [
+    "Virginia Beach",
+    "VA",
+    1
+   ],
+   [
+    "Wauwatosa",
+    "WI",
+    1
+   ],
+   [
+    "Wayne",
+    "NJ",
+    1
+   ],
+   [
+    "Wellington",
+    "FL",
+    1
+   ],
+   [
+    "West Covina",
+    "CA",
+    1
+   ],
+   [
+    "West Des Moines",
+    "IA",
+    1
+   ],
+   [
+    "West Nyack",
+    "NY",
+    1
+   ],
+   [
+    "Westlake",
+    "OH",
+    1
+   ],
+   [
+    "White Plains",
+    "NY",
+    1
+   ],
+   [
+    "Whitehall",
+    "PA",
+    1
+   ],
+   [
+    "Wichita",
+    "KS",
+    1
+   ],
+   [
+    "Willow Grove",
+    "PA",
+    1
+   ],
+   [
+    "Wilmington",
+    "NC",
+    1
+   ],
+   [
+    "Woodbury",
+    "MN",
+    1
+   ]
+  ],
+  "basis": "seat_wave_c_2026-10-08 2026-10-11",
+  "out": 0,
+  "con": 0
+ },
+ "cities": "226 stores across the US, including Las Vegas, Miami, San Antonio · its own site",
+ "site": {
+  "domain": "express.com",
+  "platform": "other",
+  "feed": "none",
+  "feed_count": 0,
+  "status": "live_store",
+  "checked": "2026-10-11"
+ },
+ "tech_evidence": {
+  "names": "no",
+  "origin": "none",
+  "marks": [],
+  "source": "seat_wave_c_2026-10-08",
+  "checked": "2026-10-11"
+ },
+ "craft_evidence": {
+  "owned": "no claim found",
+  "makers": "no",
+  "mills": "no",
+  "madein": "no country stated: 415 of 426 men's products say \"Imported\" (fabricCare read for the full catalogue); none names a country",
+  "heritage": "NC",
+  "process": "no",
+  "urls": [
+   "https://www.express.com/clothing/men/crew-neck-cotton-cashmere-sweater/pro/01770093",
+   "https://stores.express.com"
+  ],
+  "proposed": 1,
+  "reasoning": "Product records give composition on 81% of the men's range and the word \"Imported\", with no country, maker or mill. Nothing about the making can be checked.",
+  "source": "seat_wave_c_2026-10-08"
+ },
+ "ownership": {
+  "owner": "Phoenix, the operating platform formed by WHP Global with Simon and Brookfield (bought Express out of Chapter 11; court approval 17 June 2024; press)",
+  "u": "https://www.retaildive.com/news/express-bonobos-acquired-bankruptcy-simon-brookfield-centennial-whp-global/719103/"
+ },
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?brand_ids[]=8515&catalog[]=5",
+   "m": "brand filter",
+   "n": ""
+  },
+  "grailed": {
+   "u": "https://www.grailed.com/designers/express"
+  }
+ },
+ "say": "ex-PRESS",
+ "fibre": {
+  "t": 425,
+  "w": 114,
+  "n": 16,
+  "s": 10,
+  "c": 1,
+  "x": 12,
+  "xh": 4,
+  "sp": "split",
+  "sc": [
+   "casual-shirts",
+   "button-down",
+   "hoodies",
+   "shirts-all",
+   "suiting-all",
+   "coats"
+  ],
+  "nc": [
+   "dress-pants",
+   "jeans",
+   "polos"
+  ],
+  "st": "partial"
+ },
+ "band_note": "basic by the price rule (tee $28, dress shirt $68)",
+ "region": {
+  "o": [
+   5960,
+   5961,
+   5962,
+   5963,
+   6002,
+   6003,
+   6004,
+   6005,
+   6006,
+   6007,
+   6008,
+   6010,
+   6033,
+   6034,
+   6035,
+   6036,
+   6037,
+   6038,
+   6039,
+   6040,
+   6041,
+   6042,
+   6043,
+   6044,
+   6045,
+   6046,
+   6047,
+   6050,
+   6051,
+   6052,
+   6053,
+   6054,
+   6055,
+   6056,
+   6057,
+   6058,
+   6059,
+   6061,
+   6071,
+   6072,
+   6073,
+   6074,
+   6075,
+   6076,
+   6077,
+   6078,
+   6138,
+   6139
+  ],
+  "s": []
+ }
+}

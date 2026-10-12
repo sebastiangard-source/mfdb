@@ -1780,3 +1780,14 @@ Return: 10 full records (Clarks through G/FORE), 2,196 styles, 522 stockist rows
 
 ## 2026-10-11 — seat_wave_a_2026-10-08, Nike (v3.53.0)
 Thread read Nike's store directory after close: 252 stores = 40 full-price + 212 outlets. Ruled at merge: the directory is the source (the 10-K's 75 in-line includes employee-only stores), so own doors 40, outlets 212; the earlier count-only record replaced with 40 placed rows. Wave A complete: 36 of 36 addressed.
+
+## 12 October 2026 — wave B batches 3–6 and wave C batches 1–3 (v3.54.0)
+- Seated 33 wave B brands and 30 wave C brands from the 12 Oct drops (`seat_wave_b_2026-10-08/batch3–6`, `seat_wave_c_2026-10-08/batch1–3`, `counts`). Dials authored in `scratchpad/wave_b36_authored.py` and `wave_c13_authored.py` (tech for wave C authored, the thread proposed none).
+- Held: Hart Schaffner Marx (licence-only; every price `np`, no doors, no styles) and Kapital (every price `NC`; JPY site) — ruling needed on whether a brand with no priced staple seats at all.
+- Bad Birdie seated Premium by hand: the rule would read its Payntr-collaboration shoes as a shoe house.
+- G-Star: own-door rows carry no town (facts-first read), so the count (9) is seated and the rows held; `seat_from_return.py` now does this for any thin row set.
+- Vivienne Westwood: Guam store held off the map (covers 50 states, DC, PR); n = 2.
+- `seat_from_return.py`: outlets/concessions now counted from rows when the counts file lacks the brand; origin reads "Founding date and place not published by the brand" when the return has neither; territories excluded from placement.
+- `doors_db.py`: the state column is no longer passed through `clean()`, which read North Carolina (NC) as not-counted — 165 doors (132 women's) had been dropped from the 11 Oct geocoding file. Delta issued.
+- Registers rebuilt: stockists_wave_b (9,849 rows, one file), stockists_wave_c, own_doors_wave_c (742 incl. Zara, Jos. A. Bank, UGG, Universal Works), door_counts_wave_b/c. Locations DB 9,942 doors, 269 brands.
+- testpass: why-card region click guarded when no card carries a record; count-only allowed where rows are held; western-5 and season caps data-driven; whitet-5 cap 14.

@@ -1,0 +1,246 @@
+{
+ "name": "Kjus",
+ "band": "accessible",
+ "seat": 270,
+ "dagger": 0,
+ "focus": {
+  "tech": 4,
+  "comfort": 3,
+  "craft": 2,
+  "style": 2
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 2,
+  "wool": 2,
+  "synth": 5
+ },
+ "dials": {
+  "dur": 4,
+  "forg": 3,
+  "fuss": 1,
+  "golffice": 1,
+  "whitet": 1,
+  "logo": 2,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 3,
+  "surf": 1,
+  "ski": 5,
+  "golf": 4,
+  "status": 3
+ },
+ "why": "Swiss ski and golf clothing from 2000, founded by Lasse Kjus, owned by Acushnet; no store of its own in the US, sold through resort shops and golf retailers.",
+ "origin": "Founded in 2000 in Switzerland (brand FAQ: originally founded in Switzerland; press gives Hünenberg; the brand story describes an early office in Oslo) by Lasse Kjus and Didi Serena (press: FashionNetwork 2019 and the brand story says Lasse brought on a friend and one employee, unnamed).",
+ "chan": [
+  "D",
+  "I",
+  "W"
+ ],
+ "conf": "S",
+ "forgc": [
+  3,
+  3,
+  1
+ ],
+ "onething": {
+  "p": null,
+  "u": null,
+  "n": "no signature product named in the seat_wave_b_2026-10-08 return"
+ },
+ "prices": [
+  [
+   99,
+   99
+  ],
+  [
+   109,
+   139
+  ],
+  null,
+  null,
+  [
+   199,
+   199
+  ],
+  [
+   179,
+   229
+  ],
+  [
+   299,
+   2999
+  ],
+  null
+ ],
+ "price_checked": true,
+ "price_range_only": [
+  "Polo",
+  "Dress pants",
+  "Sweater",
+  "Outerwear"
+ ],
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Men's Hollow Pima T-Shirt",
+   "lu": "https://www.kjus.com/us/en/men/lifestyle/polos-and-shirts/mens-hollow-pima-t-shirt/K01030.html",
+   "hp": "Men's Hollow Pima T-Shirt",
+   "hu": "https://www.kjus.com/us/en/men/lifestyle/polos-and-shirts/mens-hollow-pima-t-shirt/K01030.html",
+   "b": "single"
+  },
+  "Polo": {
+   "lp": "Men's Savin Structure Polo",
+   "lu": "https://www.kjus.com/us/en/men/golf/polos/mens-savin-structure-polo/K01069.html",
+   "hp": "Men's Hollow Pima Long-Sleeve Polo",
+   "hu": "https://www.kjus.com/us/en/men/golf/polos/mens-hollow-pima-long-sleeve-polo/K01192.html",
+   "b": "range"
+  },
+  "Dress pants": {
+   "lp": "Men's Iver Pants (tailored fit)",
+   "lu": "https://www.kjus.com/us/en/men/golf/bottoms/mens-iver-pants-%28tailored-fit%29/MG20-J03.html",
+   "hp": "Men's Classic Soft Cotton Pants",
+   "hu": "https://www.kjus.com/us/en/men/golf/bottoms/mens-classic-soft-cotton-pants/K01077.html",
+   "b": "range"
+  },
+  "Sweater": {
+   "lp": "Men's Essentials Crew Neck",
+   "lu": "https://www.kjus.com/us/en/men/golf/midlayers/mens-essentials-crew-neck/K01050.html",
+   "hp": "Men's Crew Neck Sweater",
+   "hu": "https://www.kjus.com/us/en/men/golf/midlayers/mens-crew-neck-sweater/K01046.html",
+   "b": "range"
+  },
+  "Outerwear": {
+   "lp": "Men's Retention Jacket",
+   "lu": "https://www.kjus.com/us/en/men/golf/jackets-and-vests/mens-retention-jacket/K01038.html",
+   "hp": "Men's Cashmere Tech Jacket",
+   "hu": "https://www.kjus.com/us/en/men/ski/jackets/mens-cashmere-tech-jacket/K01132.html",
+   "b": "range"
+  }
+ },
+ "garment_links": {
+  "T-shirt": "https://www.kjus.com/us/en/men/lifestyle/polos-and-shirts/",
+  "Polo": "https://www.kjus.com/us/en/men/golf/polos/",
+  "Dress pants": "https://www.kjus.com/us/en/men/golf/bottoms/",
+  "Sweater": "https://www.kjus.com/us/en/men/golf/midlayers/",
+  "Outerwear": "https://www.kjus.com/us/en/men/ski/jackets/"
+ },
+ "price_read": {
+  "date": "2026-10-11",
+  "store": "https://www.kjus.com/us/en/ (Salesforce Commerce Cloud, Sites-kjus-Site, en_US US storefront; men's grid https://www.kjus.com/us/en/men/ read in full 2026-10-11 retry, 237 products)",
+  "currency": "USD",
+  "status": "partial",
+  "sublines": "Orange Label (premium ski jackets, sold under KJUS in the Men > Ski > Jackets navigation; counted for the outerwear high)"
+ },
+ "notes": {
+  "tech": "Thread proposed 4 (2026-10-11): VaporTemp Control (thermoregulating treatment); Hyper 3D Stretch (waterproof stretch panels); Hollow Pima Cotton; Collagen-infused yarn; Carbon Capture polyester; Graphene-infused fabric; Hydraulic Moisture Control; Cooling finish — house names on the brand Tech Guide; ownership of the underlying fabrics is not stated (no mill or licensor named on that page); the site footer links a Patents page (not opened before the block); share of range 19 of 37 product pages read (51%) name a house technology in Materials and Care . Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 2 (2026-10-11): KJUS owns no production: Acushnet's 10-K says KJUS finished goods are sourced from third-party vendors. On the 37 product pages read in the 2026-10-11 retry no garment states a country of origin and no maker is named; two Orange Label jackets name Loro Piana cloth made in Italy. That is a named mill on a sliver of the range and nothing else checkable, so 2 stands (not 3, which needs makers or mill Seated as proposed, pending ruling.",
+  "comfort": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "style": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "dur": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "forg": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "fuss": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "golffice": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "whitet": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "logo": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "western": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "rock": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "workwear": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "outdoor": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "surf": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "denim": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "cashmere": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "linen": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "cotton": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "wool": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "synth": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "ski": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "golf": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "status": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional"
+ },
+ "doors": {
+  "c": "full",
+  "n": 0,
+  "cities": [],
+  "basis": "positive zero 2026-10-12 (seat_wave_b_2026-10-08)",
+  "out": 0,
+  "con": 0
+ },
+ "cities": "No store of its own in the US · department stores, independent shops, and its own site",
+ "site": {
+  "domain": "kjus.com",
+  "platform": "other",
+  "feed": "none",
+  "feed_count": 0,
+  "status": "live_store",
+  "checked": "2026-10-11"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "both",
+  "marks": [
+   "VaporTemp Control (thermoregulating treatment)",
+   "Hyper 3D Stretch (waterproof stretch panels)",
+   "Hollow Pima Cotton",
+   "Collagen-infused yarn",
+   "Carbon Capture polyester",
+   "Graphene-infused fabric",
+   "Hydraulic Moisture Control",
+   "Cooling finish",
+   "Body Mapping",
+   "PRO 3L shell"
+  ],
+  "source": "seat_wave_b_2026-10-08",
+  "checked": "2026-10-11"
+ },
+ "craft_evidence": {
+  "owned": "no: Acushnet FY2019 and FY2025 10-Ks say that for KJUS apparel \"we source the finished products\" from third-party vendors; no KJUS facility in the Manufacturing section",
+  "makers": "none on the 37 product pages read 2026-10-11 (no factory or maker named)",
+  "mills": "Loro Piana: named as fabric source (\"Loro Piana wool/cashmere fabric made in Italy\") on 2 of 37 pages read, both Orange Label jackets (Verbier Luxe K01125, Cashmere Tech K01132); grid tile names also show Loro Piana on a sale Lombardi Coat and a wool cap; Toray Dermizax membrane named (licensed tech, not a mill claim)",
+  "madein": "0 of 37 product pages read state the garment country of origin (2 state fabric origin, Italy, for Loro Piana cloth); 37 = 17% of 215 men's clothing styles, ski and lifestyle only",
+  "heritage": "dated and placed, but inconsistent: brand story places the start in the mid-1990s idea and an early office in an old train station in Oslo; brand FAQ (live, 2026-10-11) says originally founded in Switzerland, HQ now Boulder, Colorado; press (FashionNetwork, 2019) gives 2000, founders Lasse Kjus and Didi Serena, HQ Hünenberg",
+  "process": "partial: the Tech Guide describes fabric treatments and constructions (sealed seams, stretch panels, hollow-core Pima yarn, graphene fabric); no making process (factories, sewing, finishing) described",
+  "urls": [
+   "https://www.sec.gov/Archives/edgar/data/1672013/000167201326000057/golf-20251231.htm",
+   "https://web.archive.org/web/20250911153724/https://www.kjus.com/us/en/explore/links-and-lifts/pronouncekjus.html"
+  ],
+  "proposed": 2,
+  "reasoning": "KJUS owns no production: Acushnet's 10-K says KJUS finished goods are sourced from third-party vendors. On the 37 product pages read in the 2026-10-11 retry no garment states a country of origin and no maker is named; two Orange Label jackets name Loro Piana cloth made in Italy. That is a named mill on a sliver of the range and nothing else checkable, so 2 stands (not 3, which needs makers or mills named across the range).",
+  "source": "seat_wave_b_2026-10-08"
+ },
+ "ownership": {
+  "owner": "Acushnet Holdings Corp. (NYSE: GOLF); acquired July 2019, price undisclosed (Acushnet FY2019 10-K); KJUS sits under Other, outside the three reportable segments (FY2025 10-K)",
+  "u": "https://www.sec.gov/Archives/edgar/data/0001672013/000167201320000008/golf12311910-kdoc.htm"
+ },
+ "opview": "“I'd ask them to find different fabrics or increase the tension in products to improve performance” — Lasse Kjus, founder (recalling sponsor meetings with the Norwegian national ski team, mid-1990s), KJUS Links & Lifts, \"How to Pronounce 'KJUS'\" (brand's own page; read from the Wayback capture of 2025-09-11 because kjus.com blocked the run)",
+ "resale": {
+  "grailed": {
+   "u": "https://www.grailed.com/designers/kjus"
+  }
+ },
+ "say": "SHOOSS",
+ "fibre": {
+  "t": 215,
+  "w": 37,
+  "n": 3,
+  "s": 14,
+  "c": 0,
+  "x": 11,
+  "xh": 10,
+  "sp": "split",
+  "sc": [
+   "outerwear",
+   "sweats",
+   "trousers",
+   "shirts",
+   "underwear-swim"
+  ],
+  "nc": [
+   "knitwear"
+  ],
+  "st": "partial"
+ },
+ "band_note": "accessible by the price rule (dress shirt none, sweater $179)"
+}

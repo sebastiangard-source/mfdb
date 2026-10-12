@@ -199,10 +199,23 @@ def main():
         # ---- doors
         c = C.get(name, {})
         n_claim = num(c.get('us_own_doors', r['own_doors_us']))
-        out = num(c.get('us_outlets', '0')) or 0
-        con = num(c.get('us_concessions', '0')) or 0
+        def rows_of(fmt):
+            return sum(1 for d in D.get(name, []) if d['format'] == fmt and d['country'] in ('US', 'USA')
+                       and d['status'].lower() not in ('closed', 'held', 'opening', 'coming-soon', 'temporarily closed'))
+        # outlets and concessions: the counts file where the brand has one, else the US rows of that format
+        out = num(c.get('us_outlets')) if c else None
+        con = num(c.get('us_concessions')) if c else None
+        out = rows_of('outlet') if out is None else out
+        con = rows_of('concession') if con is None else con
         drows = [d for d in D.get(name, []) if d['format'] == 'own-door' and d['country'] in ('US', 'USA')
-                 and d['status'].lower() not in ('closed', 'held', 'opening', 'coming-soon', 'temporarily closed')]
+                 and d['status'].lower() not in ('closed', 'held', 'opening', 'coming-soon', 'temporarily closed')
+                 and d['state'] not in ('GU', 'VI', 'AS', 'MP')]  # the map covers the 50 states, DC and PR
+        # a row without a town cannot be placed; if any row is that thin, seat the count and hold the rows
+        thin = [d for d in drows if nc(d['city']) or nc(d['state'])]
+        if thin:
+            if n_claim is None:
+                n_claim = len(drows)
+            drows = []
         new_places = []
         for d in drows:
             city = norm_city(d['city']); hood = ''
@@ -227,7 +240,7 @@ def main():
             if n_claim is not None and n_claim != len(new_places):
                 doors['basis'] += f' (rows {len(new_places)}; count filed {n_claim})'
         elif n_claim:
-            doors = {'c': 'count', 'n': n_claim, 'basis': basis + ' (count from the return; no rows)', 'out': out, 'con': con}
+            doors = {'c': 'count', 'n': n_claim, 'basis': basis + (' (rows carry no town; count seated, rows held)' if thin else ' (count from the return; no rows)'), 'out': out, 'con': con}
         elif n_claim == 0:
             doors = {'c': 'full', 'n': 0, 'cities': [], 'basis': f'positive zero {today} ({job})', 'out': out, 'con': con}
         else:
@@ -266,6 +279,8 @@ def main():
         if founders:
             origin += f' by {founders}'
         origin += '.'
+        if origin in ('Founded.',) or (origin.startswith('Founded by') and nc(r['founded_year'])):
+            origin = 'Founding date and place not published by the brand' + (f'; founded by {founders}.' if founders else '.')
         opview = None
         if not nc(r['quote']):
             q = r['quote'].strip().strip('"“”')

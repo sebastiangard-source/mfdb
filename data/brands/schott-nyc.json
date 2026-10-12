@@ -1,0 +1,292 @@
+{
+ "name": "Schott NYC",
+ "band": "premium",
+ "seat": 284,
+ "dagger": 0,
+ "focus": {
+  "tech": 1,
+  "comfort": 2,
+  "craft": 4,
+  "style": 2
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 3,
+  "wool": 3,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 5,
+  "forg": 3,
+  "fuss": 0,
+  "golffice": -3,
+  "whitet": 2,
+  "logo": 2,
+  "western": 1,
+  "rock": 5,
+  "workwear": 3,
+  "outdoor": 1,
+  "surf": 1,
+  "murica": 4
+ },
+ "why": "The Perfecto motorcycle jacket, made by the Schott family in Union, New Jersey since 1913, with the peacoats and wool shirts to go with it; three stores of its own.",
+ "origin": "Founded in 1913 in Lower East Side, New York City by Irving Schott and Jack Schott.",
+ "chan": [
+  "O",
+  "D",
+  "I",
+  "W"
+ ],
+ "conf": "S",
+ "forgc": [
+  3,
+  4,
+  2
+ ],
+ "onething": {
+  "p": "Perfecto® motorcycle jacket (first made 1928; the 618 is the classic steerhide Perfecto, the 613 the One Star worn in The Wild One)",
+  "u": "https://www.schottnyc.com/products/618-classic-perfecto-steerhide-leather-motorcycle-jacket",
+  "n": "from the seat_wave_b_2026-10-08 return; \"Perfecto® motorcycle jacket (first made 1928; the 618 is the classic steerhide Perfecto, the 613 the One Star worn in The Wild One)\""
+ },
+ "prices": [
+  [
+   45,
+   55
+  ],
+  [
+   90,
+   90
+  ],
+  [
+   80,
+   100
+  ],
+  [
+   230,
+   230
+  ],
+  [
+   120,
+   145
+  ],
+  [
+   85,
+   140
+  ],
+  [
+   130,
+   1935
+  ],
+  [
+   330,
+   330
+  ]
+ ],
+ "price_checked": true,
+ "price_range_only": [
+  "Polo",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants",
+  "Sweater",
+  "Outerwear",
+  "Shoes"
+ ],
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "TEE52 Lightweight T-Shirt (plain, Made in USA, 100% cotton)",
+   "lu": "https://www.schottnyc.com/products/tee52-schott-lightweight-t-shirt",
+   "hp": "TEE32 Heavyweight T-Shirt (plain, super-heavyweight, Made in USA, 100% cotton)",
+   "hu": "https://www.schottnyc.com/products/tee32-schott-heavyweight-t-shirt",
+   "b": "pair"
+  },
+  "Polo": {
+   "lp": "SH2409 Cotton Basket Weave Knit Pullover Polo Shirt (regular price $90; on sale at $60)",
+   "lu": "https://www.schottnyc.com/products/sh2409-cotton-basket-weave-design-knit-pullover-polo-shirt",
+   "hp": "SH2410 Cotton 1/4 Zip Pullover Knit Polo Shirt with Tipping (regular price $90; on sale at $60)",
+   "hu": "https://www.schottnyc.com/products/sh2410-cotton-1-4-zip-pullover-knit-polo-shirt-with-tipping-details",
+   "b": "range"
+  },
+  "Dress shirt": {
+   "lp": "SH2414 Long Sleeve Cotton Button-Down Oxford Shirt (casual woven button-down; no dress shirt made)",
+   "lu": "https://www.schottnyc.com/products/sh2414-long-sleeve-cotton-button-down-oxford-shirt",
+   "hp": "SH2430 Flannel Work Shirt (heavyweight brushed cavalry twill flannel)",
+   "hu": "https://www.schottnyc.com/products/sh2430-flannel-work-shirt",
+   "b": "range"
+  },
+  "Jeans": {
+   "lp": "JN2402 Schott Jeans in Selvedge Denim (Made in USA)",
+   "lu": "https://www.schottnyc.com/products/jn2402-schott-jeans-in-selvedge-denim",
+   "hp": "JN2505 Schott Jeans in Japanese Black Denim (Nihon Menpu selvedge, Made in USA)",
+   "hu": "https://www.schottnyc.com/products/jn2505-schott-jeans-in-japanese-black-denim",
+   "b": "range"
+  },
+  "Dress pants": {
+   "lp": "PT8402 Herringbone Military Straight Leg Pants (no dress trouser made; casual cotton trousers filed)",
+   "lu": "https://www.schottnyc.com/products/pt8402-herringbone-military-straight-leg-pants",
+   "hp": "PT8606 Canvas Carpenter Pant",
+   "hu": "https://www.schottnyc.com/products/pt8606-canvas-carpenter-pant",
+   "b": "range"
+  },
+  "Sweater": {
+   "lp": "SW2410 Vertical Striped Cotton Ribbed Knit Crew Neck Sweater",
+   "lu": "https://www.schottnyc.com/products/sw2410-vertical-striped-cotton-ribbed-knit-crew-neck-sweater",
+   "hp": "SW2435 Stonewashed Patchwork 100% Cotton Crewneck Sweater",
+   "hu": "https://www.schottnyc.com/products/sw2435-stonewashed-patchwork-100-cotton-sweater",
+   "b": "range"
+  },
+  "Outerwear": {
+   "lp": "8402 25\" Cotton Cavalry Twill Unlined Jacket (regular price $130; on sale at $70)",
+   "lu": "https://www.schottnyc.com/products/8402-25-cotton-cavalry-twill-unlined-jacket",
+   "hp": "P622H Horsehide Type 2 Jacket (Perfecto Brand, Horween horsehide, Made in USA)",
+   "hu": "https://www.schottnyc.com/products/p622h-horsehide-type-2-jacket",
+   "b": "range"
+  },
+  "Shoes": {
+   "lp": "BT24 Schott NYC 6\" Service Boot (no loafer made)",
+   "lu": "https://www.schottnyc.com/products/bt24-schott-nyc-6-service-boot",
+   "hp": "BT54 10\" Engineer Boot",
+   "hu": "https://www.schottnyc.com/products/bt54-10-engineer-boot",
+   "b": "range"
+  }
+ },
+ "garment_links": {
+  "T-shirt": "https://www.schottnyc.com/collections/mens-tees",
+  "Polo": "https://www.schottnyc.com/collections/mens-shirts",
+  "Dress shirt": "https://www.schottnyc.com/collections/mens-shirts",
+  "Jeans": "https://www.schottnyc.com/collections/mens-pants",
+  "Dress pants": "https://www.schottnyc.com/collections/mens-pants",
+  "Sweater": "https://www.schottnyc.com/collections/mens-sweaters",
+  "Outerwear": "https://www.schottnyc.com/collections/mens-leather-jackets",
+  "Shoes": "https://www.schottnyc.com/collections/mens-boots"
+ },
+ "price_read": {
+  "date": "2026-10-11",
+  "store": "https://www.schottnyc.com/",
+  "currency": "USD",
+  "status": "partial",
+  "sublines": "Perfecto Brand (vendor \"Perfecto® Brand\", 16 men's styles in navigation, sold in the house store)"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-11):  — NONE; share of range 0 of 277 men's clothing styles name a branded or licensed technical fabric or me. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 4 (2026-10-11): Schott makes its own leather jackets and wool coats in its factory in Union, New Jersey, which the factory tour shows step by step with photos and video, and its contact page gives the Union headquarters address. Leather pages name the Horween tannery and the jeans name Japanese and Cone Mills denim. This is not a 5 because 130 of 277 men's styles (knitwear, shirts, cotton and nylon outerwear, tro Seated as proposed, pending ruling.",
+  "comfort": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "style": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "dur": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "forg": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "fuss": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "golffice": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "whitet": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "logo": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "western": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "rock": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "workwear": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "outdoor": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "surf": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "denim": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "cashmere": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "linen": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "cotton": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "wool": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "synth": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "murica": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional"
+ },
+ "doors": {
+  "c": "full",
+  "n": 3,
+  "cities": [
+   [
+    "Los Angeles",
+    "CA",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    1
+   ],
+   [
+    "San Francisco",
+    "CA",
+    1
+   ]
+  ],
+  "basis": "seat_wave_b_2026-10-08 2026-10-11",
+  "out": 0,
+  "con": 0
+ },
+ "cities": "3 stores across the US, including Los Angeles, New York, San Francisco · department stores, independent shops, and its own site",
+ "site": {
+  "domain": "schottnyc.com",
+  "platform": "other",
+  "feed": "none",
+  "feed_count": 0,
+  "status": "live_store",
+  "checked": "2026-10-11"
+ },
+ "tech_evidence": {
+  "names": "no",
+  "origin": "none",
+  "marks": [],
+  "source": "seat_wave_b_2026-10-08",
+  "checked": "2026-10-11"
+ },
+ "craft_evidence": {
+  "owned": "yes, evidenced: factory tour page names the factory in Union, New Jersey (2012-current, 7th location since 1913), says all men's leathers and wool coats are produced there, with photos and video of each step; contact page gives Schott NYC Worldwide Headquarters, 735 Rahway Ave, Union, NJ 07083 (the factory page does not give a street address of its own)",
+  "makers": "the house itself: 141 of 277 styles carry Origin \"Made in USA\" in the product specs, and leather and wool coats are stated to be made in the Union NJ factory; some pages say \"Cut & Sewn right here in New Jersey\" (jeans JN2402) ; no third-party maker named on imported styles",
+  "mills": "yes: Horween (Chicago) tannery named in specs or description on at least 8 leather styles (e.g. P622H, P633SH, P613S, 613MO, P125H, P656H, P693, 213V); Nihon Menpu (Japanese denim) on JN2505/JN2503/JN2301; White Oak / Cone Mills canvas on JN2504; other hides by type and country only (e.g. New Zealand)",
+  "madein": "271 of 277 men's styles state Origin in the PDP spec block (141 Made in USA: nearly all leather jackets and wool coats, all tees and jeans; 3 leather flight jackets A2SM, G1TG, G1S are Imported; 130 Imported: knitwear, shirts, cotton and nylon outerwear, trousers); 6 state none",
+  "heritage": "dated and placed: founded 1913 by Irving and Jack Schott in a tenement basement on Manhattan's Lower East Side (96 East Broadway shown); factory in South Amboy NJ by 1930, Perth Amboy factories 1940s-2002, Union NJ 2012-current; first Perfecto 1928",
+  "process": "yes: factory tour documents 10 steps (raw-material colour matching, hand cutting of leather with a razor blade, machine stack-cutting of liners, a 25-ton Herman Schwabe die cutter from the Perth Amboy factory, bundling, inside-out shell assembly, turning and inspection, hardware, final inspection with individual numbering, shipping)",
+  "urls": [
+   "https://www.schottnyc.com/pages/factory-tour",
+   "https://www.schottnyc.com/pages/story"
+  ],
+  "proposed": 4,
+  "reasoning": "Schott makes its own leather jackets and wool coats in its factory in Union, New Jersey, which the factory tour shows step by step with photos and video, and its contact page gives the Union headquarters address. Leather pages name the Horween tannery and the jeans name Japanese and Cone Mills denim. This is not a 5 because 130 of 277 men's styles (knitwear, shirts, cotton and nylon outerwear, trousers) are only \"Imported\" and name no maker.",
+  "source": "seat_wave_b_2026-10-08"
+ },
+ "ownership": {
+  "owner": "Schott family (the brand's story page: \"Schott NYC remains family owned and operated\"); no filing read",
+  "u": "https://www.schottnyc.com/pages/story"
+ },
+ "opview": "“The philosophy has remained consistent: clothing should earn its wear.” — Schott NYC (the house, writing as itself), Schott NYC, The Schott Story page",
+ "resale": {
+  "grailed": {
+   "u": "https://www.grailed.com/designers/schott"
+  }
+ },
+ "season": {
+  "l": "Spring '26 (journal)",
+  "t": "lookbook",
+  "u": "https://www.schottnyc.com/blogs/journal/spring-26",
+  "m": "yes"
+ },
+ "say": "SHOT",
+ "fibre": {
+  "t": 277,
+  "w": 274,
+  "n": 91,
+  "s": 8,
+  "c": 0,
+  "x": 0,
+  "xh": 0,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "Men's Leather Jackets",
+   "Men's Sweaters",
+   "Men's Tees"
+  ],
+  "st": "complete"
+ },
+ "band_note": "premium by the price rule (dress shirt $80, sweater $85)",
+ "region": {
+  "o": [
+   5542
+  ],
+  "s": []
+ }
+}

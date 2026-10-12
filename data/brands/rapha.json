@@ -1,0 +1,260 @@
+{
+ "name": "Rapha",
+ "band": "accessible",
+ "seat": 280,
+ "dagger": 0,
+ "focus": {
+  "tech": 4,
+  "comfort": 3,
+  "craft": 2,
+  "style": 2
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 1,
+  "wool": 2,
+  "synth": 5
+ },
+ "dials": {
+  "dur": 4,
+  "forg": 3,
+  "fuss": 1,
+  "golffice": -2,
+  "whitet": 1,
+  "logo": 3,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 2,
+  "surf": 1,
+  "briish": 3,
+  "status": 2
+ },
+ "why": "London cycling-clothing house from 2004, the merino Classic Jersey and the Pro Team range, sold from clubhouses with coffee bars; four in the US, Walton-family owned.",
+ "origin": "Founded in 2004 in London, England by Simon Mottram (with Luke Scheybeler and press, not the brand).",
+ "chan": [
+  "O",
+  "I",
+  "W"
+ ],
+ "conf": "S",
+ "forgc": [
+  3,
+  3,
+  1
+ ],
+ "onething": {
+  "p": "Men's Classic Jersey (merino blend)",
+  "u": "https://www.rapha.cc/us/en/product/mens-classic-jersey/CLJ13XXBLW",
+  "n": "from the seat_wave_b_2026-10-08 return; \"Men's Classic Jersey (merino blend)\""
+ },
+ "prices": [
+  [
+   70,
+   140
+  ],
+  null,
+  null,
+  null,
+  [
+   175,
+   175
+  ],
+  null,
+  [
+   190,
+   540
+  ],
+  [
+   260,
+   580
+  ]
+ ],
+ "price_checked": true,
+ "price_range_only": [
+  "T-shirt",
+  "Outerwear",
+  "Shoes"
+ ],
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Men's Cotton T-Shirt II",
+   "lu": "https://www.rapha.cc/us/en/product/mens-regular-cotton-t-shirt/CFK01XXWBK",
+   "hp": "Men's Long Sleeve Merino Tee",
+   "hu": "https://www.rapha.cc/us/en/product/mens-long-sleeve-merino-tee/LSM01XXGRY",
+   "b": "range"
+  },
+  "Dress pants": {
+   "lp": "Men's Easy Tech Pants",
+   "lu": "https://www.rapha.cc/us/en/product/mens-easy-tech-pants/BLA01XXSCI",
+   "hp": "Men's Easy Tech Pants",
+   "hu": "https://www.rapha.cc/us/en/product/mens-easy-tech-pants/BLA01XXSCI",
+   "b": "single"
+  },
+  "Outerwear": {
+   "lp": "Men's Core Rain Jacket",
+   "lu": "https://www.rapha.cc/us/en/product/mens-core-rain-jacket-iii/BUI01XXMBW",
+   "hp": "Men's Brevet Gore-Tex Rain Jacket",
+   "hu": "https://www.rapha.cc/us/en/product/mens-brevet-gore-tex-rain-jacket/BAA02XXBLF",
+   "b": "range"
+  },
+  "Shoes": {
+   "lp": "Road Shoes",
+   "lu": "https://www.rapha.cc/us/en/product/road-shoes/BVK01XXWHB",
+   "hp": "Pro Team Powerweave Road Shoes",
+   "hu": "https://www.rapha.cc/us/en/product/pro-team-powerweave-road-shoes/BVI01XXWMC",
+   "b": "range"
+  }
+ },
+ "garment_links": {
+  "T-shirt": "https://www.rapha.cc/us/en/shop/shirts-and-tshirts",
+  "Dress pants": "https://www.rapha.cc/us/en/shop/shorts-and-trousers",
+  "Outerwear": "https://www.rapha.cc/us/en/shop/jackets",
+  "Shoes": "https://www.rapha.cc/us/en/shop/shoes"
+ },
+ "price_read": {
+  "date": "2026-10-11",
+  "store": "https://www.rapha.cc/us/en/ (US store; /us/en_US/ redirects to /us/en/; Next.js front end, Algolia index products_en_us)",
+  "currency": "USD",
+  "status": "complete",
+  "sublines": "- (Pro Team, Core, Brevet, Brevet Element, Trail/Explore, Lifestyle and RCC are lines of the main brand, all counted; collaborations and Special Editions counted in the census, never priced)"
+ },
+ "notes": {
+  "tech": "Thread proposed 4 (2026-10-11): Rapha Shadow (Pro Team Shadow jersey, gilet, jacket); Powerweave (bib shorts, shoes); GORE-TEX and GORE-TEX Windstopper (rain jackets, Trail pants, gloves); Polartec (Insulated Windblock Base Layer); PrimaLoft (Lifestyle insulated jacket and vest); OCTA lining (Brevet insulated pieces); bluesign and OEKO-TEX certified fabrics named on PDPs — mixed: GORE-TEX, Windstopper, Polartec, PrimaLoft and OCTA are licensed third-party fabrics; Shadow and Powerweave are Rapha names with no mill stated; share of range 188 of 236 styles synthetic-led (80%); 16 styles name a named technology (Gore-T. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 2 (2026-10-11): Rapha owns no making that could be found; its own Impact Report describes a supplier base across 18 countries and names only licensed fabric houses (Gore-Tex, Pertex). Product pages name no maker or mill but carry a country of origin on nearly every style, which is a 2 on the rubric. The tech story is real (Shadow, Powerweave, Gore-Tex) and belongs in tech, not craft. Seated as proposed, pending ruling.",
+  "comfort": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "style": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "dur": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "forg": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "fuss": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "golffice": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "whitet": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "logo": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "western": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "rock": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "workwear": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "outdoor": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "surf": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "denim": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "cashmere": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "linen": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "cotton": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "wool": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "synth": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "briish": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "status": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional"
+ },
+ "doors": {
+  "c": "full",
+  "n": 4,
+  "cities": [
+   [
+    "Bentonville",
+    "AR",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    1
+   ],
+   [
+    "San Francisco",
+    "CA",
+    1
+   ],
+   [
+    "Santa Monica",
+    "CA",
+    1
+   ]
+  ],
+  "basis": "seat_wave_b_2026-10-08 2026-10-11",
+  "out": 0,
+  "con": 0
+ },
+ "cities": "4 stores across the US, including Bentonville, New York, San Francisco · independent shops, and its own site",
+ "site": {
+  "domain": "rapha.cc",
+  "platform": "other",
+  "feed": "none",
+  "feed_count": 0,
+  "status": "live_store",
+  "checked": "2026-10-11"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "licensed",
+  "marks": [
+   "Rapha Shadow (Pro Team Shadow jersey, gilet, jacket)",
+   "Powerweave (bib shorts, shoes)",
+   "GORE-TEX and GORE-TEX Windstopper (rain jackets, Trail pants, gloves)",
+   "Polartec (Insulated Windblock Base Layer)",
+   "PrimaLoft (Lifestyle insulated jacket and vest)",
+   "OCTA lining (Brevet insulated pieces)",
+   "bluesign and OEKO-TEX certified fabrics named on PDPs"
+  ],
+  "source": "seat_wave_b_2026-10-08",
+  "checked": "2026-10-11"
+ },
+ "craft_evidence": {
+  "owned": "no: no owned factory found; the 2025 Impact Report speaks only of suppliers across 18 countries; PDP payload countryOfOrigin is VN, PT, CN, ID, RO",
+  "makers": "no: no product page names a factory or maker (PDP materials and details read on 234 styles)",
+  "mills": "licensed membranes only (GORE-TEX, Polartec, PrimaLoft, OCTA); ISKO denim on the Rapha + Hiut collaboration jeans; no cloth or yarn mill named on regular styles",
+  "madein": "235 of 236 styles carry a countryOfOrigin code in the PDP payload (VN 111, PT 50, CN 48, ID 24, RO 2); the jeans has none; display on the rendered page not checked",
+  "heritage": "dated and placed in press (founded 2004, London, by Simon Mottram); the brand about page now redirects to the homepage",
+  "process": "partial: PDPs describe fabric weights, membranes and certifications; free crash-repair service; no making process (factory, sewing) documented",
+  "urls": [
+   "https://media.rapha.cc/image/upload/v1764774884/graphics/Rapha_Impact_Report_2025.pdf",
+   "https://www.rapha.cc/us/en/product/mens-pro-team-shadow-winter-jacket/CGZ01XXWHR"
+  ],
+  "proposed": 2,
+  "reasoning": "Rapha owns no making that could be found; its own Impact Report describes a supplier base across 18 countries and names only licensed fabric houses (Gore-Tex, Pertex). Product pages name no maker or mill but carry a country of origin on nearly every style, which is a 2 on the rubric. The tech story is real (Shadow, Powerweave, Gore-Tex) and belongs in tech, not craft.",
+  "source": "seat_wave_b_2026-10-08"
+ },
+ "ownership": {
+  "owner": "Carpegna Ltd (UK 10898646), controlled by Thomas Layton Walton and Steuart Lawrence Walton (each 25-50%, notified Aug 2017), the Walmart heirs behind RZC Investments; Carpegna holds 75%+ of Rapha Racing Ltd (04849594). No sale since the 2017 deal found; RZC paused new investments in Feb 2026 (Fortune) but still holds the portfolio",
+  "u": "https://find-and-update.company-information.service.gov.uk/company/10898646/persons-with-significant-control"
+ },
+ "opview": "“The purpose of the business was always to make cycling the most popular sport in the world.” — Simon Mottram, founder, Cycling Weekly, interview by Anne-Marije Rook",
+ "resale": {
+  "grailed": {
+   "u": "https://www.grailed.com/designers/rapha"
+  }
+ },
+ "say": "RAFF-uh",
+ "fibre": {
+  "t": 236,
+  "w": 234,
+  "n": 19,
+  "s": 80,
+  "c": 0,
+  "x": 61,
+  "xh": 60,
+  "sp": "split",
+  "sc": [
+   "Jerseys",
+   "Bib Shorts & Shorts",
+   "Jackets",
+   "Vests",
+   "High-Performance Cycling Skinsuits",
+   "Cycling Tights",
+   "Shorts & Trousers"
+  ],
+  "nc": [
+   "Hoodies & T-shirts",
+   "Hoodies & Sweatshirts",
+   "Shorts & Trousers (denim)"
+  ],
+  "st": "complete"
+ },
+ "band_note": "accessible by the price rule (shoe house: shoe entry $260)",
+ "region": {
+  "o": [
+   5532
+  ],
+  "s": []
+ }
+}

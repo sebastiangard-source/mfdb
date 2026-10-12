@@ -1608,7 +1608,7 @@
    "id": "seat_wave_b_2026-10-08",
    "title": "Seating wave B — 54 brands from the gap analysis",
    "kind": "seating",
-   "state": "merging (batches 1–2 of 6 seated, 19 of 54)",
+   "state": "closed",
    "created": "2026-10-08",
    "issued": "2026-10-08",
    "pilot": 54,
@@ -1643,16 +1643,26 @@
     "jobs/returns/seat_wave_b_2026-10-08/batch2/",
     "jobs/returns/seat_wave_b_2026-10-08/own_doors.csv",
     "jobs/returns/seat_wave_b_2026-10-08/held_door_counts.csv",
-    "jobs/returns/seat_wave_b_2026-10-08/AGENT_SPEC.md"
+    "jobs/returns/seat_wave_b_2026-10-08/AGENT_SPEC.md",
+    {
+     "n": 6,
+     "file": "seat_wave_b_2026-10-08/batch3-6",
+     "received": "2026-10-12",
+     "rows": 35,
+     "mergeable": 33,
+     "held": 2,
+     "merged": 33,
+     "triage": ""
+    }
    ],
    "blocked_on": "",
-   "note": "ruled 8 Oct: everything seats; no floor; giants, shoe houses, licenses and sub-lines in; zero US doors is positive zero; thread stopped 10 Oct after doors for 24 brands (1,051 rows); facts_first never received; restarted as seat_wave_b_restart_2026-10-10"
+   "note": "closed 12 Oct: 52 of 54 seated; Hart Schaffner Marx (licence-only, every price np) and Kapital (every price NC, JPY site) held for ruling"
   },
   {
    "id": "seat_wave_c_2026-10-08",
    "title": "Seating wave C — 81 brands from the gap analysis",
    "kind": "seating",
-   "state": "held",
+   "state": "open",
    "created": "2026-10-08",
    "issued": "2026-10-08",
    "pilot": 81,
@@ -1674,10 +1684,20 @@
    ],
    "writes": {},
    "returns": [
-    "jobs/returns/seat_wave_c_2026-10-08/facts_first.csv"
+    "jobs/returns/seat_wave_c_2026-10-08/facts_first.csv",
+    {
+     "n": 2,
+     "file": "seat_wave_c_2026-10-08/batch1-3 + counts",
+     "received": "2026-10-12",
+     "rows": 30,
+     "mergeable": 30,
+     "held": 0,
+     "merged": 30,
+     "triage": ""
+    }
    ],
    "blocked_on": "",
-   "note": "ruled 8 Oct: everything seats; no floor; giants, shoe houses, licenses and sub-lines in; zero US doors is positive zero; facts-first returned 10 Oct (81 rows; Y-3 NC; 10 door counts NC); rulings sent; thread crashed 10 Oct during full records (Dickies); restarted as seat_wave_c_restart_2026-10-10"
+   "note": "batches 1–3 (30 of 81) seated 12 Oct; counts job merged (Zara 102, Jos. A. Bank 185, UGG 10 doors in the wave C register); batches 4–9 to come; six batch-3 questions ruled 12 Oct"
   },
   {
    "id": "doors_recapture_2026-10-10",
@@ -1929,7 +1949,7 @@
    "writes": {},
    "returns": [],
    "blocked_on": "",
-   "note": "runs in a separate Claude project (the workspace cannot reach any geocoder); v1 scope ruled 11 Oct: own-door open only; built by tools/doors_db.py; re-run as waves land"
+   "note": "runs in a separate Claude project (the workspace cannot reach any geocoder); v1 scope ruled 11 Oct: own-door open only; built by tools/doors_db.py; re-run as waves land | delta_2026-10-12.csv issued: 883 doors (165 North Carolina rows dropped by a state-code bug, the rest new reads)"
   },
   {
    "id": "style_segments_2026-10-11",

@@ -1,0 +1,262 @@
+{
+ "name": "Dickies",
+ "band": "basic",
+ "seat": 314,
+ "dagger": 0,
+ "focus": {
+  "tech": 2,
+  "comfort": 3,
+  "craft": 1,
+  "style": 1
+ },
+ "fabric": {
+  "denim": 3,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 4,
+  "wool": 1,
+  "synth": 3
+ },
+ "dials": {
+  "dur": 4,
+  "forg": 4,
+  "fuss": -3,
+  "golffice": -3,
+  "whitet": 2,
+  "logo": 3,
+  "western": 1,
+  "rock": 1,
+  "workwear": 5,
+  "outdoor": 1,
+  "surf": 1,
+  "street": 4,
+  "murica": 5
+ },
+ "why": "The 874 work pant from Texas, 1922, adopted by skaters and sold everywhere; owned by Bluestar Alliance since 2025, store locator broken.",
+ "origin": "Founded in 1922 in Texas.",
+ "chan": [
+  "D",
+  "I",
+  "W"
+ ],
+ "conf": "S",
+ "forgc": [
+  3,
+  4,
+  2
+ ],
+ "onething": {
+  "p": "Original 874® Work Pants",
+  "u": "https://www.dickies.com/en-us/products/original-874-r-work-pants-dk0008740bk",
+  "n": "from the seat_wave_c_2026-10-08 return; \"Original 874® Work Pants\""
+ },
+ "prices": [
+  [
+   15,
+   55
+  ],
+  [
+   30,
+   30
+  ],
+  [
+   28,
+   85
+  ],
+  [
+   30,
+   130
+  ],
+  [
+   30,
+   115
+  ],
+  [
+   85,
+   85
+  ],
+  [
+   55,
+   180
+  ],
+  null
+ ],
+ "price_checked": true,
+ "price_range_only": [
+  "T-shirt",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants",
+  "Outerwear"
+ ],
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Short Sleeve T-Shirt (14.99 base size)",
+   "lu": "https://www.dickies.com/en-us/products/short-sleeve-t-shirt-dk0ws4800bk",
+   "hp": "Mineral Heavyweight Short Sleeve T-Shirt (compare-at 55)",
+   "hu": "https://www.dickies.com/en-us/products/mineral-heavyweight-short-sleeve-t-shirt-dk0a87qeri2",
+   "b": "range"
+  },
+  "Polo": {
+   "lp": "Short Sleeve Performance Polo Shirt (29.99 base size)",
+   "lu": "https://www.dickies.com/en-us/products/short-sleeve-performance-polo-shirt-dkws247fin2",
+   "hp": "Short Sleeve Performance Polo Shirt",
+   "hu": "https://www.dickies.com/en-us/products/short-sleeve-performance-polo-shirt-dkws247fin2",
+   "b": "single"
+  },
+  "Dress shirt": {
+   "lp": "Short Sleeve Work Shirt (27.99 base size)",
+   "lu": "https://www.dickies.com/en-us/products/short-sleeve-work-shirt-dk0015740bk",
+   "hp": "Springdale Short Sleeve Button-Up Shirt (compare-at 85)",
+   "hu": "https://www.dickies.com/en-us/products/springdale-short-sleeve-button-up-shirt-dk0a88k5c48",
+   "b": "range"
+  },
+  "Jeans": {
+   "lp": "Regular Fit Jeans (29.99 base size)",
+   "lu": "https://www.dickies.com/en-us/products/regular-fit-jeans-dk009393rnb",
+   "hp": "Selvedge Double Knee Denim Jeans (compare-at 130)",
+   "hu": "https://www.dickies.com/en-us/products/selvedge-double-knee-denim-jeans-dk0a87nj0wh",
+   "b": "range"
+  },
+  "Dress pants": {
+   "lp": "Original 874® Work Pants (29.99 base size)",
+   "lu": "https://www.dickies.com/en-us/products/original-874-r-work-pants-dk0008740bk",
+   "hp": "Hemp Twill Work Pants (compare-at 115)",
+   "hu": "https://www.dickies.com/en-us/products/hemp-twill-work-pants-dk0a88gwl44",
+   "b": "range"
+  },
+  "Sweater": {
+   "lp": "Union Jacquard Sweater (compare-at 84.99)",
+   "lu": "https://www.dickies.com/en-us/products/union-jacquard-sweater-dk0a88gsc48",
+   "hp": "Union Jacquard Sweater",
+   "hu": "https://www.dickies.com/en-us/products/union-jacquard-sweater-dk0a88gsc48",
+   "b": "single"
+  },
+  "Outerwear": {
+   "lp": "Fleece Lined Nylon Hooded Jacket (54.99 base size)",
+   "lu": "https://www.dickies.com/en-us/products/fleece-lined-nylon-hooded-jacket-dk0332370bk",
+   "hp": "Selvedge Pleated Denim Jacket (compare-at 180)",
+   "hu": "https://www.dickies.com/en-us/products/selvedge-pleated-denim-jacket-dk0a87o90wh",
+   "b": "range"
+  }
+ },
+ "garment_links": {
+  "T-shirt": "https://www.dickies.com/en-us/collections/mens-t-shirts",
+  "Polo": "https://www.dickies.com/en-us/collections/mens-shirts",
+  "Dress shirt": "https://www.dickies.com/en-us/collections/mens-button-up-shirts",
+  "Jeans": "https://www.dickies.com/en-us/collections/mens-jeans",
+  "Dress pants": "https://www.dickies.com/en-us/collections/mens-work-pants",
+  "Sweater": "https://www.dickies.com/en-us/collections/mens-hoodies-sweatshirts",
+  "Outerwear": "https://www.dickies.com/en-us/collections/mens-coats-jackets"
+ },
+ "price_read": {
+  "date": "2026-10-11",
+  "store": "https://www.dickies.com/en-us",
+  "currency": "USD",
+  "status": "partial",
+  "sublines": "Dickies Skateboarding (sold in the men's range, counted)"
+ },
+ "notes": {
+  "tech": "Thread proposed 2 (2026-10-11): Cooling; DuraTech; FLEX; LYCRA — house-named (FLEX stretch, Cooling, DuraTech) plus licensed LYCRA® fiber; share of range 41/247 styles name one of these fabrics in title or composition. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 1 (2026-10-11): The site dates the company to 1922 in Texas but product pages say only \"Imported\", with no country, maker or mill. Nothing about present-day making can be checked. Seated as proposed, pending ruling.",
+  "comfort": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "style": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "dur": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "forg": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "fuss": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "golffice": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "whitet": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "logo": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "western": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "rock": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "workwear": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "outdoor": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "surf": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "denim": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "cashmere": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "linen": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "cotton": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "wool": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "synth": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "street": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "murica": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional"
+ },
+ "doors": {
+  "c": "none"
+ },
+ "cities": "Store count not established · department stores, independent shops, and its own site",
+ "site": {
+  "domain": "dickies.com",
+  "platform": "other",
+  "feed": "none",
+  "feed_count": 0,
+  "status": "live_store",
+  "checked": "2026-10-11"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "both",
+  "marks": [
+   "Cooling",
+   "DuraTech",
+   "FLEX",
+   "LYCRA"
+  ],
+  "source": "seat_wave_c_2026-10-08",
+  "checked": "2026-10-11"
+ },
+ "craft_evidence": {
+  "owned": "no claim found",
+  "makers": "no",
+  "mills": "no",
+  "madein": "no country stated: product pages say \"Imported\" (checked on all 247 styles)",
+  "heritage": "dated and placed: \"On the job since 1922. A century ago, we were just a small Texas company making bib overalls.\" (/pages/dickies-history)",
+  "process": "no",
+  "urls": [
+   "https://www.dickies.com/en-us/pages/dickies-history",
+   "https://www.dickies.com/en-us/products/original-874-r-work-pants-dk0008740bk"
+  ],
+  "proposed": 1,
+  "reasoning": "The site dates the company to 1922 in Texas but product pages say only \"Imported\", with no country, maker or mill. Nothing about present-day making can be checked.",
+  "source": "seat_wave_c_2026-10-08"
+ },
+ "ownership": {
+  "owner": "Bluestar Alliance (acquired from VF Corporation, about $600 million, announced September 2025; press)",
+  "u": "https://fashionunited.uk/news/business/dickies-acquired-by-bluestar-alliance-in-600-million-dollars-deal/2025091583921"
+ },
+ "opview": "“A century ago, we were just a small Texas company making bib overalls.” — the house, heritage page, dickies.com /en-us/pages/dickies-history",
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?brand_ids[]=65&catalog[]=5",
+   "m": "brand filter",
+   "n": ""
+  },
+  "grailed": {
+   "u": "https://www.grailed.com/designers/dickies"
+  }
+ },
+ "say": "DIK-eez",
+ "fibre": {
+  "t": 247,
+  "w": 222,
+  "n": 69,
+  "s": 21,
+  "c": 0,
+  "x": 17,
+  "xh": 0,
+  "sp": "one",
+  "sc": [
+   "coveralls",
+   "shorts-work",
+   "pants-skate",
+   "shorts-skate"
+  ],
+  "nc": [
+   "shirts",
+   "outerwear-coats-jackets",
+   "shirts-tshirts"
+  ],
+  "st": "complete"
+ },
+ "band_note": "basic by the price rule (tee $15, dress shirt $28)"
+}

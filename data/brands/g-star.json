@@ -1,0 +1,277 @@
+{
+ "name": "G-Star",
+ "band": "premium",
+ "seat": 323,
+ "dagger": 0,
+ "focus": {
+  "tech": 2,
+  "comfort": 3,
+  "craft": 1,
+  "style": 3
+ },
+ "fabric": {
+  "denim": 5,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 3,
+  "wool": 1,
+  "synth": 2
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 3,
+  "fuss": -1,
+  "golffice": -3,
+  "whitet": 2,
+  "logo": 3,
+  "western": 1,
+  "rock": 2,
+  "workwear": 2,
+  "outdoor": 1,
+  "surf": 1,
+  "street": 3
+ },
+ "why": "Amsterdam denim house from 1989, the 3D-cut Elwood jean, raw by name; nine mono-brand US stores and three outlets among 101 points of sale.",
+ "origin": "Founding date and place not published by the brand.",
+ "chan": [
+  "O",
+  "D",
+  "I",
+  "W"
+ ],
+ "conf": "S",
+ "forgc": [
+  3,
+  3,
+  1
+ ],
+ "onething": {
+  "p": null,
+  "u": null,
+  "n": "no signature product named in the seat_wave_c_2026-10-08 return"
+ },
+ "prices": [
+  [
+   35,
+   230
+  ],
+  [
+   55,
+   130
+  ],
+  [
+   110,
+   690
+  ],
+  [
+   130,
+   590
+  ],
+  [
+   120,
+   370
+  ],
+  [
+   110,
+   470
+  ],
+  [
+   150,
+   1850
+  ],
+  [
+   80,
+   310
+  ]
+ ],
+ "price_checked": true,
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants",
+  "Sweater",
+  "Outerwear",
+  "Shoes"
+ ],
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Slim Base T-Shirt",
+   "lu": "https://www.g-star.com/en_us/shop/men/t-shirts/d19070-c723-1260",
+   "hp": "RR Graphic Longsleeve",
+   "hu": "https://www.g-star.com/en_us/shop/men/t-shirts/d30266-e401-b564",
+   "b": "range"
+  },
+  "Polo": {
+   "lp": "Dunda Slim Polo",
+   "lu": "https://www.g-star.com/en_us/shop/men/t-shirts/d11595-5864-504",
+   "hp": "Essential Polo",
+   "hu": "https://www.g-star.com/en_us/shop/men/menpolos/d22783-d287-724",
+   "b": "range"
+  },
+  "Dress shirt": {
+   "lp": "Dressed Super Slim Shirt",
+   "lu": "https://www.g-star.com/en_us/shop/men/shirts/d17026-c271-110",
+   "hp": "RR Baked Shirt",
+   "hu": "https://www.g-star.com/en_us/shop/men/shirts/d30272-e692-b230",
+   "b": "range"
+  },
+  "Jeans": {
+   "lp": "3301 Regular Tapered Jeans",
+   "lu": "https://www.g-star.com/en_us/shop/men/jeans/51003-c922-c776",
+   "hp": "Unisex GSRR Maxi Navy Jeans",
+   "hu": "https://www.g-star.com/en_us/shop/men/jeans/d25431-d807-001",
+   "b": "range"
+  },
+  "Dress pants": {
+   "lp": "Bronson Slim Chino",
+   "lu": "https://www.g-star.com/en_us/shop/men/pants/d01794-5126-4213",
+   "hp": "G-S037 Military Chino",
+   "hu": "https://www.g-star.com/en_us/shop/men/pants/d30666-e662-2199",
+   "b": "range"
+  },
+  "Sweater": {
+   "lp": "Logo Structure Knitted Sweater",
+   "lu": "https://www.g-star.com/en_us/shop/men/knitwear/d20768-c868-1632",
+   "hp": "E Shawl Collar Knitted Sweater",
+   "hu": "https://www.g-star.com/en_us/shop/men/knitwear/d20679-5375-7293",
+   "b": "range"
+  },
+  "Outerwear": {
+   "lp": "Rackam Zip Jacket",
+   "lu": "https://www.g-star.com/en_us/shop/men/jackets_and_blazers/d06697-4753-862",
+   "hp": "GSRR Parka",
+   "hu": "https://www.g-star.com/en_us/shop/men/jackets_and_blazers/d22268-d225-d573",
+   "b": "range"
+  },
+  "Shoes": {
+   "lp": "Cadet Sneakers",
+   "lu": "https://www.g-star.com/en_us/shop/men/shoes/d16796-a940-990",
+   "hp": "Lintell Contrast Sole Hiker Leather Boots",
+   "hu": "https://www.g-star.com/en_us/shop/men/shoes/d22691-01-c844",
+   "b": "range"
+  }
+ },
+ "garment_links": {},
+ "price_read": {
+  "date": "2026-10-11",
+  "store": "https://www.g-star.com/en_us (Next.js storefront; catalogue read through the site's Algolia index)",
+  "currency": "USD",
+  "status": "partial (large house: style table is a category-stratified sample)",
+  "sublines": "G-Star RAW Research (RR / GSRR) and E (premium) lines, sold under G-Star, counted"
+ },
+ "notes": {
+  "tech": "Thread proposed 2 (2026-10-11): LYCRA; Sorona — licensed fibres named in composition: LYCRA®, Sorona®; share of range 5/176 styles name one of these in title or composition (sample rows). Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 1 (2026-10-11): Composition is published on 98% of the men's range, but country, maker and mill were not found in the catalogue data read, and no making story was read. Seated as proposed, pending ruling.",
+  "comfort": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "style": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "dur": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "forg": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "fuss": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "golffice": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "whitet": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "logo": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "western": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "rock": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "workwear": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "outdoor": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "surf": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "denim": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "cashmere": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "linen": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "cotton": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "wool": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "synth": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "street": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional"
+ },
+ "doors": {
+  "c": "count",
+  "n": 9,
+  "basis": "seat_wave_c_2026-10-08 2026-10-11 (rows carry no town; count seated, rows held)",
+  "out": 3,
+  "con": 0
+ },
+ "cities": "9 stores across the US (count only; addresses to come) · department stores, independent shops and its own site",
+ "site": {
+  "domain": "g-star.com",
+  "platform": "other",
+  "feed": "none",
+  "feed_count": 0,
+  "status": "live_store",
+  "checked": "2026-10-11"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "licensed",
+  "marks": [
+   "LYCRA",
+   "Sorona"
+  ],
+  "source": "seat_wave_c_2026-10-08",
+  "checked": "2026-10-11"
+ },
+ "craft_evidence": {
+  "owned": "no claim found",
+  "makers": "no",
+  "mills": "no",
+  "madein": "NC",
+  "heritage": "NC",
+  "process": "no",
+  "urls": [
+   "https://www.g-star.com/en_us/shop/men/jeans/51003-c922-c776",
+   "https://www.g-star.com/en_us/shop/men/jeans/d25431-d807-001"
+  ],
+  "proposed": 1,
+  "reasoning": "Composition is published on 98% of the men's range, but country, maker and mill were not found in the catalogue data read, and no making story was read.",
+  "source": "seat_wave_c_2026-10-08"
+ },
+ "ownership": {
+  "owner": "NC",
+  "u": null
+ },
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?brand_ids[]=258&brand_ids[]=2782756&catalog[]=5",
+   "m": "brand filter",
+   "n": ""
+  },
+  "grailed": {
+   "u": "https://www.grailed.com/designers/g-star"
+  }
+ },
+ "say": "JEE-star",
+ "fibre": {
+  "t": 1835,
+  "w": 174,
+  "n": 7,
+  "s": 3,
+  "c": 0,
+  "x": 1,
+  "xh": 0,
+  "sp": "one",
+  "sc": [
+   "Overshirts",
+   "Bomber jackets",
+   "Puffer",
+   "Parka",
+   "Other Jackets",
+   "Gilets & bodywarmers",
+   "Padded jackets",
+   "Lightweight jackets",
+   "Anorak",
+   "Bathrobes"
+  ],
+  "nc": [
+   "5-pocket",
+   "T-Shirt",
+   "3D"
+  ],
+  "st": "partial"
+ },
+ "band_note": "premium by the price rule (dress shirt $110, sweater $110)",
+ "region": {
+  "o": [],
+  "s": []
+ }
+}

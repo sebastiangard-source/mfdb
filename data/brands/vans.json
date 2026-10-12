@@ -1,0 +1,1658 @@
+{
+ "name": "Vans",
+ "band": "basic",
+ "seat": 292,
+ "dagger": 0,
+ "focus": {
+  "tech": 2,
+  "comfort": 4,
+  "craft": 2,
+  "style": 2
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 4,
+  "wool": 1,
+  "synth": 2
+ },
+ "dials": {
+  "dur": 2,
+  "forg": 4,
+  "fuss": -3,
+  "golffice": -3,
+  "whitet": 3,
+  "logo": 4,
+  "western": 1,
+  "rock": 2,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 3,
+  "street": 5,
+  "murica": 3,
+  "shoes": 3
+ },
+ "why": "Anaheim skate-shoe company from 1966, the Old Skool and the checkerboard slip-on, with a basic clothing range; 299 US stores and 99 outlets, owned by VF.",
+ "origin": "Founded in 1966 in Anaheim, California by Paul Van Doren, Jim Van Doren, Gordon Lee, Serge Delia (as vans.com/en-us/about names them).",
+ "chan": [
+  "O",
+  "D",
+  "I",
+  "W"
+ ],
+ "conf": "S",
+ "forgc": [
+  3,
+  4,
+  1
+ ],
+ "onething": {
+  "p": "Old Skool (Style 36, 1977; the first Vans with the Sidestripe)",
+  "u": "https://www.vans.com/en-us/about/icons/old-skool",
+  "n": "from the seat_wave_b_2026-10-08 return; \"Old Skool (Style 36, 1977; the first Vans with the Sidestripe)\""
+ },
+ "prices": [
+  [
+   30,
+   40
+  ],
+  [
+   70,
+   90
+  ],
+  [
+   60,
+   70
+  ],
+  [
+   70,
+   90
+  ],
+  [
+   65,
+   80
+  ],
+  [
+   70,
+   98
+  ],
+  [
+   70,
+   250
+  ],
+  [
+   85,
+   120
+  ]
+ ],
+ "price_checked": true,
+ "price_range_only": [
+  "Polo",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants",
+  "Sweater",
+  "Outerwear"
+ ],
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "New Left Chest T-Shirt (VN000TBXFST)",
+   "lu": "https://www.vans.com/en-us/p/clothing-00082/new-left-chest-ss-tee-VN000TBXFST",
+   "hp": "Premium Loose Fit T-Shirt (VN000TBPEMV), 100% cotton, garment washed",
+   "hu": "https://www.vans.com/en-us/p/clothing-00082/premium-loose-fit-t-shirt-VN000TBPEMV",
+   "b": "pair"
+  },
+  "Polo": {
+   "lp": "Surge Rugby Long Sleeve Shirt (VN0010HGEMU), collar and two-button placket, 100% cotton",
+   "lu": "https://www.vans.com/en-us/p/clothing-00082/surge-rugby-long-sleeve-shirt-VN0010HGEMU",
+   "hp": "Fly High Rugby Long Sleeve (VN0010KCBRD), classic collar, 100% cotton",
+   "hu": "https://www.vans.com/en-us/p/mens-0001/fly-high-rugby-ls-VN0010KCBRD",
+   "b": "range"
+  },
+  "Dress shirt": {
+   "lp": "Larkspur Solid Shirt (VN000U3Z9JC), short-sleeve button-up, 100% cotton",
+   "lu": "https://www.vans.com/en-us/p/clothing-00082/larkspur-textured-solid-ss-shirt-VN000U3Z9JC",
+   "hp": "Striped Oxford Long Sleeve Shirt (VN000UBGGRV), woven button-up, 100% cotton",
+   "hu": "https://www.vans.com/en-us/p/clothing-00082/striped-straight-hem-ls-oxford-shirt-VN000UBGGRV",
+   "b": "range"
+  },
+  "Jeans": {
+   "lp": "Skate Check-5 Loose Denim Pants (VN000KXMY7U), 100% cotton",
+   "lu": "https://www.vans.com/en-us/p/clothing-00082/skate-check-5-loose-denim-pants-VN000KXMY7U",
+   "hp": "Check-5 Baggy Printed Denim Pant (VN000U40HBL), 100% BIC cotton",
+   "hu": "https://www.vans.com/en-us/p/mens-0001/check-5-baggy-printed-denim-pant-VN000U40HBL",
+   "b": "range"
+  },
+  "Dress pants": {
+   "lp": "Authentic Chino Slim Pants (VN000HZABLK), 58% cotton 40% polyester 2% elastane (chino; no dress trouser)",
+   "lu": "https://www.vans.com/en-us/p/clothing-00082/authentic-chino-slim-pants-VN000HZABLK",
+   "hp": "Authentic Chino Loose Pants, side-panel version (VN000UD6H91), 100% cotton (chino)",
+   "hu": "https://www.vans.com/en-us/p/clothing-00082/authentic-chino-loose-side-panel-pant-VN000UD6H91",
+   "b": "range"
+  },
+  "Sweater": {
+   "lp": "Feldman Polo Sweater (VN000KUYC9F), composition not stated",
+   "lu": "https://www.vans.com/en-us/p/mens/clothing/shirts-5810/feldman-sweater-polo-VN000KUYC9F",
+   "hp": "Harmon Cardigan Sweater (VN000VG75TU), 60% nylon 40% polyester",
+   "hu": "https://www.vans.com/en-us/p/shop/promotions-5990/harmon-cardigan-sweater-VN000VG75TU",
+   "b": "range"
+  },
+  "Outerwear": {
+   "lp": "Torrey Coaches Jacket (VN000TREBLK)",
+   "lu": "https://www.vans.com/en-us/p/mens/clothing/hoodies-and-jackets-1204/torrey-nylon-coaches-jacket-20-VN000TREBLK",
+   "hp": "90's Big Block Hooded 2L Snowboarding Jacket (VN000WCSBLK), 100% polyester 2-layer",
+   "hu": "https://www.vans.com/en-us/p/mens/clothing/hoodies-and-jackets-1204/90s-bigblock-jacket-VN000WCSBLK",
+   "b": "range"
+  },
+  "Shoes": {
+   "lp": "Skate Loafer Shoe (VN000VA6BKA), suede",
+   "lu": "https://www.vans.com/en-us/p/trending/trending-for-women-5518/skate-loafer-VN000VA6BKA",
+   "hp": "Premium Harris Tweed Loafer 53 Shoe (VN000Y8MCYL)",
+   "hu": "https://www.vans.com/en-us/p/shoes/slip-on-1979/lx-loafer-53-VN000Y8MCYL",
+   "b": "pair"
+  }
+ },
+ "garment_links": {
+  "T-shirt": "https://www.vans.com/en-us/c/mens/clothing/shirts-5810",
+  "Polo": "https://www.vans.com/en-us/c/mens/clothing/shirts-5810",
+  "Dress shirt": "https://www.vans.com/en-us/c/mens/clothing/shirts-5810",
+  "Jeans": "https://www.vans.com/en-us/c/mens/clothing/pants-5585",
+  "Dress pants": "https://www.vans.com/en-us/c/mens/clothing/pants-5585",
+  "Sweater": "https://www.vans.com/en-us/c/mens/clothing-1200",
+  "Outerwear": "https://www.vans.com/en-us/c/mens/clothing/hoodies-and-jackets-1204",
+  "Shoes": "https://www.vans.com/en-us/c/mens/shoes-1100"
+ },
+ "price_read": {
+  "date": "2026-10-11",
+  "store": "https://www.vans.com/en-us (US storefront; VF Nuxt front end with server-rendered __NUXT_DATA__, Bloomreach listing service, USD)",
+  "currency": "USD",
+  "status": "partial",
+  "sublines": "Vans Premium (Premium-titled styles) and OTW by Vans where they sit in the regular men's range; collaborations (Vans X ..., OTW by Vans X ...), licensed music tees (Black Sabbath, Sex Pistols, Queens of the Stone Age, De La Soul) and Waffle Shop upcycled pieces excluded from prices"
+ },
+ "notes": {
+  "tech": "Thread proposed 2 (2026-10-11): Footwear (owned names): WaffleCup vulcanised cupsole (about page, 2012), PopCush soles, Duracap (Old Skool icon page); GORE-TEX on shoes (licensed, listing titles). Men's clothing: no named fabric technology; generic DWR coating and 2-layer 10,000mm shells on snow pieces only; \"Vans Checkerboard Globe Materials\" is a sourcing label, not a fabric — footwear: owned (WaffleCup, PopCush, Duracap) plus licensed GORE-TEX; apparel: none named; share of range men's clothing: DWR or 2-layer waterproof shell stated on a handful of the 243 s. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 2 (2026-10-11): The heritage is dated and placed (Van Doren Rubber Company, Anaheim, 16 March 1966), but VF's FY2026 10-K sources products primarily from about 216 independent contractor factories and lists no plants. No men's clothing page names a maker or mill, and none states a country. The process story is footwear construction only (vulcanised soles, WaffleCup). Heritage with no current verifiable making is  Seated as proposed, pending ruling.",
+  "comfort": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "style": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "dur": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "forg": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "fuss": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "golffice": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "whitet": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "logo": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "western": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "rock": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "workwear": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "outdoor": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "surf": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "denim": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "cashmere": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "linen": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "cotton": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "wool": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "synth": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "street": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "murica": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional",
+  "shoes": "seeded 2026-10-12 from the seat_wave_b_2026-10-08 return; provisional"
+ },
+ "doors": {
+  "c": "full",
+  "n": 299,
+  "cities": [
+   [
+    "Fresno",
+    "CA",
+    3
+   ],
+   [
+    "San Antonio",
+    "TX",
+    3
+   ],
+   [
+    "San Diego",
+    "CA",
+    3
+   ],
+   [
+    "Albuquerque",
+    "NM",
+    2
+   ],
+   [
+    "Atlanta",
+    "GA",
+    2
+   ],
+   [
+    "Austin",
+    "TX",
+    2
+   ],
+   [
+    "Bakersfield",
+    "CA",
+    2
+   ],
+   [
+    "Colorado Springs",
+    "CO",
+    2
+   ],
+   [
+    "Columbus",
+    "OH",
+    2
+   ],
+   [
+    "Dallas",
+    "TX",
+    2
+   ],
+   [
+    "Escondido",
+    "CA",
+    2
+   ],
+   [
+    "Honolulu",
+    "HI",
+    2
+   ],
+   [
+    "Houston",
+    "TX",
+    2
+   ],
+   [
+    "Huntington Beach",
+    "CA",
+    2
+   ],
+   [
+    "Jacksonville",
+    "FL",
+    2
+   ],
+   [
+    "Las Vegas",
+    "NV",
+    2
+   ],
+   [
+    "Littleton",
+    "CO",
+    2
+   ],
+   [
+    "Los Angeles",
+    "CA",
+    2
+   ],
+   [
+    "Oklahoma City",
+    "OK",
+    2
+   ],
+   [
+    "Orlando",
+    "FL",
+    2
+   ],
+   [
+    "Pittsburgh",
+    "PA",
+    2
+   ],
+   [
+    "Rancho Cucamonga",
+    "CA",
+    2
+   ],
+   [
+    "San Jose",
+    "CA",
+    2
+   ],
+   [
+    "San Juan",
+    "PR",
+    2
+   ],
+   [
+    "Santa Rosa",
+    "CA",
+    2
+   ],
+   [
+    "Scottsdale",
+    "AZ",
+    2
+   ],
+   [
+    "Torrance",
+    "CA",
+    2
+   ],
+   [
+    "Tucson",
+    "AZ",
+    2
+   ],
+   [
+    "Albany",
+    "NY",
+    1
+   ],
+   [
+    "Alhambra",
+    "CA",
+    1
+   ],
+   [
+    "Altamonte Springs",
+    "FL",
+    1
+   ],
+   [
+    "Anchorage",
+    "AK",
+    1
+   ],
+   [
+    "Ann Arbor",
+    "MI",
+    1
+   ],
+   [
+    "Annapolis",
+    "MD",
+    1
+   ],
+   [
+    "Appleton",
+    "WI",
+    1
+   ],
+   [
+    "Arcadia",
+    "CA",
+    1
+   ],
+   [
+    "Arlington",
+    "TX",
+    1
+   ],
+   [
+    "Asheville",
+    "NC",
+    1
+   ],
+   [
+    "Augusta",
+    "GA",
+    1
+   ],
+   [
+    "Aurora",
+    "CO",
+    1
+   ],
+   [
+    "Aventura",
+    "FL",
+    1
+   ],
+   [
+    "Azusa",
+    "CA",
+    1
+   ],
+   [
+    "Baton Rouge",
+    "LA",
+    1
+   ],
+   [
+    "Bayshore",
+    "NY",
+    1
+   ],
+   [
+    "Beachwood",
+    "OH",
+    1
+   ],
+   [
+    "Bellevue",
+    "WA",
+    1
+   ],
+   [
+    "Bellingham",
+    "WA",
+    1
+   ],
+   [
+    "Bloomington",
+    "MN",
+    1
+   ],
+   [
+    "Boise",
+    "ID",
+    1
+   ],
+   [
+    "Boston",
+    "MA",
+    1
+   ],
+   [
+    "Braintree",
+    "MA",
+    1
+   ],
+   [
+    "Brandon",
+    "FL",
+    1
+   ],
+   [
+    "Brea",
+    "CA",
+    1
+   ],
+   [
+    "Bridgewater",
+    "NJ",
+    1
+   ],
+   [
+    "Broomfield",
+    "CO",
+    1
+   ],
+   [
+    "Buena Park",
+    "CA",
+    1
+   ],
+   [
+    "Buford",
+    "GA",
+    1
+   ],
+   [
+    "Burbank",
+    "CA",
+    1
+   ],
+   [
+    "Burlington",
+    "MA",
+    1
+   ],
+   [
+    "Canoga Park",
+    "CA",
+    1
+   ],
+   [
+    "Capitola",
+    "CA",
+    1
+   ],
+   [
+    "Carlsbad",
+    "CA",
+    1
+   ],
+   [
+    "Cedar Park",
+    "TX",
+    1
+   ],
+   [
+    "Cerritos",
+    "CA",
+    1
+   ],
+   [
+    "Chandler",
+    "AZ",
+    1
+   ],
+   [
+    "Chattanooga",
+    "TN",
+    1
+   ],
+   [
+    "Cherry Hill",
+    "NJ",
+    1
+   ],
+   [
+    "Chico",
+    "CA",
+    1
+   ],
+   [
+    "Chino Hills",
+    "CA",
+    1
+   ],
+   [
+    "Cincinnati",
+    "OH",
+    1
+   ],
+   [
+    "Clearwater",
+    "FL",
+    1
+   ],
+   [
+    "Columbia",
+    "MD",
+    1
+   ],
+   [
+    "Columbia",
+    "SC",
+    1
+   ],
+   [
+    "Concord",
+    "CA",
+    1
+   ],
+   [
+    "Corpus Christi",
+    "TX",
+    1
+   ],
+   [
+    "Costa Mesa",
+    "CA",
+    1
+   ],
+   [
+    "Culver City",
+    "CA",
+    1
+   ],
+   [
+    "Daly City",
+    "CA",
+    1
+   ],
+   [
+    "Daytona Beach",
+    "FL",
+    1
+   ],
+   [
+    "Denver",
+    "CO",
+    1
+   ],
+   [
+    "Deptford",
+    "NJ",
+    1
+   ],
+   [
+    "Des Peres",
+    "MO",
+    1
+   ],
+   [
+    "Doral",
+    "FL",
+    1
+   ],
+   [
+    "Downey",
+    "CA",
+    1
+   ],
+   [
+    "Durham",
+    "NC",
+    1
+   ],
+   [
+    "East rutherford",
+    "NJ",
+    1
+   ],
+   [
+    "Edison",
+    "NJ",
+    1
+   ],
+   [
+    "El Cajon",
+    "CA",
+    1
+   ],
+   [
+    "El Centro",
+    "CA",
+    1
+   ],
+   [
+    "El Paso",
+    "TX",
+    1
+   ],
+   [
+    "Emeryville",
+    "CA",
+    1
+   ],
+   [
+    "Encinitas",
+    "CA",
+    1
+   ],
+   [
+    "Eugene",
+    "OR",
+    1
+   ],
+   [
+    "Fairfax",
+    "VA",
+    1
+   ],
+   [
+    "Fairlawn",
+    "OH",
+    1
+   ],
+   [
+    "Farmington",
+    "CT",
+    1
+   ],
+   [
+    "Farmington",
+    "UT",
+    1
+   ],
+   [
+    "Fayetteville",
+    "NC",
+    1
+   ],
+   [
+    "Flafstaff",
+    "AZ",
+    1
+   ],
+   [
+    "Fort Collins",
+    "CO",
+    1
+   ],
+   [
+    "Fort Wayne",
+    "IN",
+    1
+   ],
+   [
+    "Fort Worth",
+    "TX",
+    1
+   ],
+   [
+    "Franklin",
+    "TN",
+    1
+   ],
+   [
+    "Freehold",
+    "NJ",
+    1
+   ],
+   [
+    "Friendswood",
+    "TX",
+    1
+   ],
+   [
+    "Frisco",
+    "TX",
+    1
+   ],
+   [
+    "Ft. Myers",
+    "FL",
+    1
+   ],
+   [
+    "Fullerton",
+    "CA",
+    1
+   ],
+   [
+    "Garden City",
+    "NY",
+    1
+   ],
+   [
+    "Garland",
+    "TX",
+    1
+   ],
+   [
+    "Gilbert",
+    "AZ",
+    1
+   ],
+   [
+    "Glendale",
+    "AZ",
+    1
+   ],
+   [
+    "Glendale",
+    "CA",
+    1
+   ],
+   [
+    "Goleta",
+    "CA",
+    1
+   ],
+   [
+    "Greensboro",
+    "NC",
+    1
+   ],
+   [
+    "Greenville",
+    "SC",
+    1
+   ],
+   [
+    "Greenwood",
+    "IN",
+    1
+   ],
+   [
+    "Happy Valley",
+    "OR",
+    1
+   ],
+   [
+    "Henderson",
+    "NV",
+    1
+   ],
+   [
+    "Hermosa Beach",
+    "CA",
+    1
+   ],
+   [
+    "Humble",
+    "TX",
+    1
+   ],
+   [
+    "Huntsville",
+    "AL",
+    1
+   ],
+   [
+    "Hurst",
+    "TX",
+    1
+   ],
+   [
+    "Indianapolis",
+    "IN",
+    1
+   ],
+   [
+    "Irvine",
+    "CA",
+    1
+   ],
+   [
+    "Jacksonville",
+    "NC",
+    1
+   ],
+   [
+    "Kahului",
+    "HI",
+    1
+   ],
+   [
+    "Kansas City",
+    "MO",
+    1
+   ],
+   [
+    "Kennewick",
+    "WA",
+    1
+   ],
+   [
+    "Kentwood",
+    "MI",
+    1
+   ],
+   [
+    "King of Prussia",
+    "PA",
+    1
+   ],
+   [
+    "Knoxville",
+    "TN",
+    1
+   ],
+   [
+    "Laguna Hills",
+    "CA",
+    1
+   ],
+   [
+    "Lake Grove",
+    "NY",
+    1
+   ],
+   [
+    "Lakewood",
+    "CA",
+    1
+   ],
+   [
+    "Lancaster",
+    "PA",
+    1
+   ],
+   [
+    "Laredo",
+    "TX",
+    1
+   ],
+   [
+    "Layton",
+    "UT",
+    1
+   ],
+   [
+    "Lexington",
+    "KY",
+    1
+   ],
+   [
+    "Little Rock",
+    "AR",
+    1
+   ],
+   [
+    "Long Beach",
+    "CA",
+    1
+   ],
+   [
+    "Louisville",
+    "KY",
+    1
+   ],
+   [
+    "Lubbock",
+    "TX",
+    1
+   ],
+   [
+    "Lynnwood",
+    "WA",
+    1
+   ],
+   [
+    "Madison",
+    "WI",
+    1
+   ],
+   [
+    "Manchester",
+    "NH",
+    1
+   ],
+   [
+    "Manhattan Beach",
+    "CA",
+    1
+   ],
+   [
+    "McAllen",
+    "TX",
+    1
+   ],
+   [
+    "Memphis",
+    "TN",
+    1
+   ],
+   [
+    "Meridian",
+    "ID",
+    1
+   ],
+   [
+    "Merrillville",
+    "IN",
+    1
+   ],
+   [
+    "Mesa",
+    "AZ",
+    1
+   ],
+   [
+    "Mesquite",
+    "TX",
+    1
+   ],
+   [
+    "Metairie",
+    "LA",
+    1
+   ],
+   [
+    "Miami",
+    "FL",
+    1
+   ],
+   [
+    "Midland",
+    "TX",
+    1
+   ],
+   [
+    "Minnetonka",
+    "MN",
+    1
+   ],
+   [
+    "Mishawaka",
+    "IN",
+    1
+   ],
+   [
+    "Mission Viejo",
+    "CA",
+    1
+   ],
+   [
+    "Modesto",
+    "CA",
+    1
+   ],
+   [
+    "Montclair",
+    "CA",
+    1
+   ],
+   [
+    "Montebello",
+    "CA",
+    1
+   ],
+   [
+    "Monterey",
+    "CA",
+    1
+   ],
+   [
+    "Monterey Park",
+    "CA",
+    1
+   ],
+   [
+    "Moreno Valley",
+    "CA",
+    1
+   ],
+   [
+    "Murray",
+    "UT",
+    1
+   ],
+   [
+    "Naples",
+    "FL",
+    1
+   ],
+   [
+    "Nashua",
+    "NH",
+    1
+   ],
+   [
+    "Natick",
+    "MA",
+    1
+   ],
+   [
+    "National City",
+    "CA",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    1
+   ],
+   [
+    "Newark",
+    "DE",
+    1
+   ],
+   [
+    "Newport News",
+    "VA",
+    1
+   ],
+   [
+    "Norridge",
+    "IL",
+    1
+   ],
+   [
+    "Northridge",
+    "CA",
+    1
+   ],
+   [
+    "Novi",
+    "MI",
+    1
+   ],
+   [
+    "Olympia",
+    "WA",
+    1
+   ],
+   [
+    "Omaha",
+    "NE",
+    1
+   ],
+   [
+    "Orange Park",
+    "FL",
+    1
+   ],
+   [
+    "Orem",
+    "UT",
+    1
+   ],
+   [
+    "Orland Park",
+    "IL",
+    1
+   ],
+   [
+    "Overland Park",
+    "KS",
+    1
+   ],
+   [
+    "Oxnard",
+    "CA",
+    1
+   ],
+   [
+    "Palm Beach Gardens",
+    "FL",
+    1
+   ],
+   [
+    "Palm Desert",
+    "CA",
+    1
+   ],
+   [
+    "Palmdale",
+    "CA",
+    1
+   ],
+   [
+    "Paramus",
+    "NJ",
+    1
+   ],
+   [
+    "Peabody",
+    "MA",
+    1
+   ],
+   [
+    "Pensacola",
+    "FL",
+    1
+   ],
+   [
+    "Peoria",
+    "AZ",
+    1
+   ],
+   [
+    "Pineville",
+    "NC",
+    1
+   ],
+   [
+    "Pleasanton",
+    "CA",
+    1
+   ],
+   [
+    "Ponce",
+    "PR",
+    1
+   ],
+   [
+    "Portland",
+    "OR",
+    1
+   ],
+   [
+    "Raleigh",
+    "NC",
+    1
+   ],
+   [
+    "Redlands",
+    "CA",
+    1
+   ],
+   [
+    "Reno",
+    "NV",
+    1
+   ],
+   [
+    "Richmond",
+    "VA",
+    1
+   ],
+   [
+    "Riverside",
+    "CA",
+    1
+   ],
+   [
+    "Riverton",
+    "UT",
+    1
+   ],
+   [
+    "Roanoke",
+    "VA",
+    1
+   ],
+   [
+    "Rockaway",
+    "NJ",
+    1
+   ],
+   [
+    "Roseville",
+    "CA",
+    1
+   ],
+   [
+    "Roseville",
+    "MN",
+    1
+   ],
+   [
+    "Sacramento",
+    "CA",
+    1
+   ],
+   [
+    "Saint George",
+    "UT",
+    1
+   ],
+   [
+    "Saint Louis",
+    "MO",
+    1
+   ],
+   [
+    "Salem",
+    "NH",
+    1
+   ],
+   [
+    "Salinas",
+    "CA",
+    1
+   ],
+   [
+    "Salt Lake City",
+    "UT",
+    1
+   ],
+   [
+    "San Bernardino",
+    "CA",
+    1
+   ],
+   [
+    "San Francisco",
+    "CA",
+    1
+   ],
+   [
+    "San Luis Obispo",
+    "CA",
+    1
+   ],
+   [
+    "San Mateo",
+    "CA",
+    1
+   ],
+   [
+    "Sandy",
+    "UT",
+    1
+   ],
+   [
+    "Santa Ana",
+    "CA",
+    1
+   ],
+   [
+    "Santa Barbara",
+    "CA",
+    1
+   ],
+   [
+    "Santa Clara",
+    "CA",
+    1
+   ],
+   [
+    "Santa Monica",
+    "CA",
+    1
+   ],
+   [
+    "Sarasota",
+    "FL",
+    1
+   ],
+   [
+    "Savannah",
+    "GA",
+    1
+   ],
+   [
+    "Schaumburg",
+    "IL",
+    1
+   ],
+   [
+    "Sherman Oaks",
+    "CA",
+    1
+   ],
+   [
+    "Simi Valley",
+    "CA",
+    1
+   ],
+   [
+    "Sioux Falls",
+    "SD",
+    1
+   ],
+   [
+    "South Portland",
+    "ME",
+    1
+   ],
+   [
+    "Spokane",
+    "WA",
+    1
+   ],
+   [
+    "Spokane Valley",
+    "WA",
+    1
+   ],
+   [
+    "Springfield",
+    "MO",
+    1
+   ],
+   [
+    "Springfield",
+    "VA",
+    1
+   ],
+   [
+    "St. Petersburg",
+    "FL",
+    1
+   ],
+   [
+    "Stockton",
+    "CA",
+    1
+   ],
+   [
+    "Strongsville",
+    "OH",
+    1
+   ],
+   [
+    "Sugar Land",
+    "TX",
+    1
+   ],
+   [
+    "Syracuse",
+    "NY",
+    1
+   ],
+   [
+    "Tacoma",
+    "WA",
+    1
+   ],
+   [
+    "Tampa",
+    "FL",
+    1
+   ],
+   [
+    "Temecula",
+    "CA",
+    1
+   ],
+   [
+    "The Woodlands",
+    "TX",
+    1
+   ],
+   [
+    "Thousand Oaks",
+    "CA",
+    1
+   ],
+   [
+    "Tigard",
+    "OR",
+    1
+   ],
+   [
+    "Toledo",
+    "OH",
+    1
+   ],
+   [
+    "Toms River",
+    "NJ",
+    1
+   ],
+   [
+    "Towson",
+    "MD",
+    1
+   ],
+   [
+    "Trumbull",
+    "CT",
+    1
+   ],
+   [
+    "Tukwila",
+    "WA",
+    1
+   ],
+   [
+    "Tulsa",
+    "OK",
+    1
+   ],
+   [
+    "Tustin",
+    "CA",
+    1
+   ],
+   [
+    "Tyler",
+    "TX",
+    1
+   ],
+   [
+    "Valencia",
+    "CA",
+    1
+   ],
+   [
+    "Vancouver",
+    "WA",
+    1
+   ],
+   [
+    "Ventura",
+    "CA",
+    1
+   ],
+   [
+    "Victorville",
+    "CA",
+    1
+   ],
+   [
+    "Virginia Beach",
+    "VA",
+    1
+   ],
+   [
+    "Visalia",
+    "CA",
+    1
+   ],
+   [
+    "Waco",
+    "TX",
+    1
+   ],
+   [
+    "Walnut Creek",
+    "CA",
+    1
+   ],
+   [
+    "Wauwatosa",
+    "WI",
+    1
+   ],
+   [
+    "Wayne",
+    "NJ",
+    1
+   ],
+   [
+    "Wellington",
+    "FL",
+    1
+   ],
+   [
+    "West Covina",
+    "CA",
+    1
+   ],
+   [
+    "West Des Moines",
+    "IA",
+    1
+   ],
+   [
+    "Westminster",
+    "CA",
+    1
+   ],
+   [
+    "Whitehall",
+    "PA",
+    1
+   ],
+   [
+    "Whittier",
+    "CA",
+    1
+   ],
+   [
+    "Wichita",
+    "KS",
+    1
+   ],
+   [
+    "Wilmington",
+    "NC",
+    1
+   ],
+   [
+    "Winston-Salem",
+    "NC",
+    1
+   ]
+  ],
+  "basis": "seat_wave_b_2026-10-08 2026-10-11",
+  "out": 99,
+  "con": 0
+ },
+ "cities": "299 stores across the US, including Fresno, San Antonio, San Diego · department stores, independent shops, and its own site",
+ "site": {
+  "domain": "vans.com",
+  "platform": "other",
+  "feed": "none",
+  "feed_count": 0,
+  "status": "live_store",
+  "checked": "2026-10-11"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "both",
+  "marks": [
+   "Footwear (owned names): WaffleCup vulcanised cupsole (about page, 2012), PopCush soles, Duracap (Old Skool icon page)",
+   "GORE-TEX on shoes (licensed, listing titles). Men's clothing: no named fabric technology",
+   "generic DWR coating and 2-layer 10,000mm shells on snow pieces only",
+   "\"Vans Checkerboard Globe Materials\" is a sourcing label, not a fabric"
+  ],
+  "source": "seat_wave_b_2026-10-08",
+  "checked": "2026-10-11"
+ },
+ "craft_evidence": {
+  "owned": "no evidence of owned making: VF FY2026 10-K says products were \"primarily obtained from approximately 216 independent contractor manufacturing facilities in approximately 24 countries\"; Item 2 (Properties) lists headquarters, shared-service centres, sourcing hubs and distribution centres, no plants",
+  "makers": "none: 0 of 243 men's clothing product pages name a factory or maker (Details bullets and descriptions read)",
+  "mills": "none: no mill named on any of the 243 pages; \"BIC Cotton\" (Better Cotton) on one style is a sourcing scheme, not a mill",
+  "madein": "0 of 243 men's clothing product pages state a country of manufacture or \"imported\"",
+  "heritage": "dated and placed: brothers Paul and Jim Van Doren with Gordon Lee and Serge Delia open The Van Doren Rubber Company, Anaheim, Calif., on 16 March 1966; #44 deck shoe (Authentic) 1966, Old Skool 1977, Sk8-Hi 1978 (vans.com/en-us/about)",
+  "process": "partial, footwear only: vulcanised construction, WaffleCup vulcanised cupsole (2012), PopCush and Duracap named; nothing on how clothing is made",
+  "urls": [
+   "https://www.vans.com/en-us/about",
+   "https://www.sec.gov/Archives/edgar/data/0000103379/000010337926000030/vfc-20260328.htm"
+  ],
+  "proposed": 2,
+  "reasoning": "The heritage is dated and placed (Van Doren Rubber Company, Anaheim, 16 March 1966), but VF's FY2026 10-K sources products primarily from about 216 independent contractor factories and lists no plants. No men's clothing page names a maker or mill, and none states a country. The process story is footwear construction only (vulcanised soles, WaffleCup). Heritage with no current verifiable making is a 2.",
+  "source": "seat_wave_b_2026-10-08"
+ },
+ "ownership": {
+  "owner": "VF Corporation (NYSE: VFC); Vans is the largest brand in VF's Active segment (10-K for the fiscal year ended 28 March 2026)",
+  "u": "https://www.sec.gov/Archives/edgar/data/0000103379/000010337926000030/vfc-20260328.htm"
+ },
+ "opview": "“It was never about waving the brand like a flag, it was always about the people.” — Paul Van Doren, co-founder, VF Corporation brand page for Vans (Life at VF section), vfc.com",
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?search_text=vans&catalog[]=5",
+   "m": "brand filter",
+   "n": ""
+  },
+  "grailed": {
+   "u": "https://www.grailed.com/designers/vans"
+  }
+ },
+ "say": "VANZ",
+ "fibre": {
+  "t": 243,
+  "w": 153,
+  "n": 52,
+  "s": 10,
+  "c": 0,
+  "x": 5,
+  "xh": 2,
+  "sp": "one",
+  "sc": [
+   "knitwear"
+  ],
+  "nc": [
+   "tees-polos",
+   "sweats",
+   "trousers"
+  ],
+  "st": "partial"
+ },
+ "band_note": "basic by the price rule (tee $30, dress shirt $60)",
+ "region": {
+  "o": [
+   5589,
+   5590,
+   5599,
+   5600,
+   5605,
+   5622,
+   5623,
+   5625,
+   5635,
+   5636,
+   5660,
+   5662,
+   5668,
+   5675,
+   5695,
+   5705,
+   5714,
+   5718,
+   5727,
+   5736,
+   5806,
+   5807,
+   5808,
+   5809,
+   5810,
+   5816,
+   5830,
+   5844,
+   5854,
+   5861,
+   5868,
+   5877,
+   5878
+  ],
+  "s": []
+ }
+}
