@@ -11,22 +11,23 @@ Chrome job: store locators are JavaScript. If you cannot run a browser, say so a
 
 The women's universe is 523 brands, built from the women's clothing brand lists of nine department
 stores. Thirty-six have had their own locators read; forty-nine more sit on the men's map and come with
-it. That leaves **405 brands with no store count at all** — not zero, unknown. Most will own no US
+it. That leaves **407 brands with no store count at all** — not zero, unknown. Most will own no US
 store. Some own fleets (Michael Kors, Kate Spade, Steve Madden, Lucky Brand, UGG). Nobody knows which,
 and the locations database cannot carry a women's map until somebody looks.
 
 ## One worklist, two parts
 
-`worklist.csv` — 405 brands, `part` 1 or 2, with how many of the nine department stores carry each
+`worklist.csv` — 407 brands, `part` 1 or 2, with how many of the nine department stores carry each
 (`dept_stores_carrying`, a measure of wholesale reach, not of stores). `site_domain` is `NC`
-throughout: establish the brand's own US site first and record it.
+throughout: establish the brand's own US site first and record it. DÔEN and Nour Hammour carry `0` department
+stores: they were added from Net-a-Porter's featured list, not the department-store index.
 
-**Part 1 — 121 brands, full read.** Brands that, by name, are likely to own US stores. For every one:
+**Part 1 — 125 brands, full read.** Brands that, by name, are likely to own US stores. For every one:
 the brand's own US store locator in Chrome, every US location, **one row per door** in `return_doors.csv`
 (`format` = own-door, outlet, concession or pop-up; `operator` where a partner runs the door), and one
 row per brand in `return_counts.csv`. Exactly the first job.
 
-**Part 2 — 284 brands, screen.** One row per brand in `return_screen.csv`
+**Part 2 — 282 brands, screen.** One row per brand in `return_screen.csv`
 (`return_screen_template.csv`): does the brand's own US site publish any store of its own? `has_us_own_store`
 = yes / no / NC. **Where yes and the count is 25 or under, return the rows too**, in `return_doors.csv`,
 same as Part 1 — you are on the locator already. Where yes and more than 25, return the count and
