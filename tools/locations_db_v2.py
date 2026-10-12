@@ -19,6 +19,9 @@ import csv, json, os, re, glob, hashlib, collections
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BANDS = {'premium': 'Premium', 'accessible': 'Accessible', 'trueLux': 'True Luxury'}
 KEEP_KIND = {'independent', 'golf club or pro shop'}
+# Ruled 12 Oct: running-shoe houses' stockist lists are run-specialty shops, not the menswear circuit; their
+# stockists are left out of v2 (their own stores stay). Hoka and On alone were 1,849 of 3,278 shops.
+NO_STOCKISTS = {'Hoka', 'On'}
 COLS = ['row_id', 'brand', 'band', 'kind', 'shop_name', 'shop_kind', 'street', 'city', 'state', 'zip', 'venue',
         'operator', 'neighbourhood', 'source']
 
@@ -59,6 +62,8 @@ def main():
                  'venue': p.get('v2', ''), 'operator': p.get('op', ''), 'neighbourhood': p.get('h', ''), 'source': p.get('src', 'places')})
     # Northeast shop register
     for name, b in brands.items():
+        if name in NO_STOCKISTS:
+            continue
         for i in (b.get('region') or {}).get('s', []):
             p = places[i]
             add({'brand': name, 'band': BANDS[b['band']], 'kind': 'stockist', 'shop_name': p['n'], 'shop_kind': p.get('t', 'independent'),
@@ -67,7 +72,7 @@ def main():
     # wave stockist registers
     for f in sorted(glob.glob(os.path.join(ROOT, 'registers/stockists_wave_*.csv'))):
         for d in csv.DictReader(open(f, encoding='utf8')):
-            if d['brand'] not in brands or d.get('shop_kind') not in KEEP_KIND:
+            if d['brand'] not in brands or d['brand'] in NO_STOCKISTS or d.get('shop_kind') not in KEEP_KIND:
                 continue
             if d.get('country') not in ('US', 'PR') or not ok(d.get('street')) or not ok(d.get('city')):
                 continue
