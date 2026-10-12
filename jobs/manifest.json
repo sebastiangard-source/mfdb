@@ -1995,6 +1995,41 @@
    "returns": [],
    "blocked_on": "",
    "note": "separate project; inputs in jobs/briefs/style_segments_2026-10-11; first cut from dials 11 Oct; return feeds a style_segment column on the proposed-universe sheet"
+  },
+  {
+   "id": "doors_womens_2_2026-10-12",
+   "title": "Women's doors, part 2 — 405 brands (121 full reads, 284 screened)",
+   "kind": "locations",
+   "state": "issued",
+   "created": "2026-10-12",
+   "issued": "2026-10-12",
+   "pilot": 0,
+   "nc": "NC",
+   "brands": "worklist",
+   "schema": [
+    {
+     "name": "brand",
+     "type": "key"
+    },
+    {
+     "name": "street",
+     "type": "str"
+    },
+    {
+     "name": "source_url",
+     "type": "provenance"
+    },
+    {
+     "name": "note",
+     "type": "str"
+    }
+   ],
+   "writes": {
+    "places": "append own-door rows; brands not seated on the mens map"
+   },
+   "returns": [],
+   "blocked_on": "",
+   "note": "rest of the 523-brand women's universe: 36 chains read 10 Oct, 49 on the men's map, 11 in the Rue La La brief; returns merge into own_doors_womens and door_counts_womens"
   }
  ]
 }
