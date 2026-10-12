@@ -211,7 +211,7 @@ def main():
                  and d['status'].lower() not in ('closed', 'held', 'opening', 'coming-soon', 'temporarily closed')
                  and d['state'] not in ('GU', 'VI', 'AS', 'MP')]  # the map covers the 50 states, DC and PR
         # a row without a town cannot be placed; if any row is that thin, seat the count and hold the rows
-        thin = [d for d in drows if nc(d['city']) or nc(d['state'])]
+        thin = [d for d in drows if nc(d['city']) or not d['state'].strip()]  # the state column is never NC-tested: NC is North Carolina
         if thin:
             if n_claim is None:
                 n_claim = len(drows)

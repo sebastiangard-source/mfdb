@@ -1,4 +1,4 @@
-# Wave C seating job — handoff, 11 October 2026
+# Wave C seating job — handoff, 12 October 2026
 
 This file lets a new session continue the wave C full-records job without the old workspace. Everything referenced sits beside it under `wave_c/` in this project.
 
@@ -17,14 +17,24 @@ Brand names must pass `reconcile.py` against `canonical_keys.txt`. Tokens: `NC` 
 2. **Batch 1 of 9** (Alan Flusser, Anglo-Italian, Asket, Awake NY, Aztech Mountain, Bad Birdie, Beams, Berg & Berg, Birdwell, Blundstone): `wave_c/out/batch1/`. This is the revised version after the rulings below.
 
 3. **Batch 2 of 9** (Brain Dead, Budd Shirtmakers, C.P. Company, Carmina, Castaway Nantucket Island, Closed, Danner, Denim Tears, Deus Ex Machina, Dickies): `wave_c/out/batch2/`. Revised after the 11 Oct rulings below.
-4. **Batch 3 of 9** (Eastside Golf, Edward Green, Evan Kinori, Express, Flint and Tinder, Freenote Cloth, Frye, Fusalp, G-Star, Gallery Dept.): `wave_c/out/batch3/`. Its `NOTE.md` ends with 6 questions for ruling, still open.
+4. **Batch 3 of 9** (Eastside Golf, Edward Green, Evan Kinori, Express, Flint and Tinder, Freenote Cloth, Frye, Fusalp, G-Star, Gallery Dept.): `wave_c/out/batch3/`. Merged at v3.54.0 with batches 1–2; its 6 questions were ruled on 12 Oct (`wave_c/brief/RULINGS_wave_c_batch3_2026-10-12.md`).
+5. **Batch 4 of 9** (Gap, Goldwin, Golf Wang, Hender Scheme, Hickey Freeman, Holderness & Bourne, Imogene + Willie, Jos. A. Bank, Katin, Kiel James Patrick): `wave_c/out/batch4/`. It also carries the two re-reads asked for on 12 Oct: G-Star's 13 US mono-brand doors with addresses (in its `own_doors.csv`, brand G-Star) and the Blundstone craft proposal (2, in its `NOTE.md`). Its `NOTE.md` ends with 7 questions for ruling, open.
 
-## Next: batch 4 (worklist rows 31–40)
-Gap, Goldwin, Golf Wang, Hender Scheme, Hickey Freeman, Holderness & Bourne, Imogene + Willie, Jos. A. Bank, Katin, Kiel James Patrick.
-- Gap and Jos. A. Bank are large houses: stratified sample allowed. Count the full catalogue and say the sample is not proportional (see batch 3 Express / G-Star).
-- Goldwin is read on us.goldwin.global (facts-first correction). Hickey Freeman is `np` where no price is published (ruled).
-- Hender Scheme is footwear-led; check whether any clothing is sold before writing a style table (Carmina / Edward Green pattern = `NO_STYLES`).
-- Jos. A. Bank door count is in `wave_c/out/counts/`.
+## Next: batch 5 (worklist rows 41–50)
+Lady White Co., Lands' End, Lardini, Ledbury, Mango, Meermin, Mollusk, Muji, Nautica, Needles.
+- Lands' End, Mango, Muji and Nautica are large houses: a category-stratified sample is allowed; count the full catalogue and say the sample is not proportional (batch 4 Gap / Jos. A. Bank pattern, `FULL` overrides in `assemble_b4.py`).
+- Read each worklist note: several ask for a "floor ruling" (Lands' End, Mango, Muji, Nautica) or a channel ruling (Nautica, mostly outlets). Count doors, row outlets as outlets, and put the floor question in NOTE.md rather than deciding it.
+- Needles: the worklist asks "one key or two" (Nepenthes NY). Keep the worklist key `Needles` and raise the question.
+- Lardini (Italian) stays in its own currency unless the US store shows USD; Meermin is a shoe house (check for clothing before writing a style table).
+- Guam, USVI and other territories are listed but are not US doors; Puerto Rico is.
+
+## Rulings of 12 Oct (batch 3 answers; keep applying)
+- A licensee's line sold under the brand on the brand's own store is own label (Frye / Moda Piel).
+- Sub-lines like G-Star RAW Research and E stand; their highs stand.
+- Undated department-store "pop-ups" are `concession`, not counted (Fusalp Korea).
+- Posted hours a customer can use make a door (Freenote San Juan Capistrano, counted, flagged).
+- Gallery Dept.: Chateau Josué and Art That Kills excluded (confirmed). Express Boca Raton counted under the women's-only ruling (confirmed).
+- `proposed_tech` stays NC; fill `tech_named_fabrics` fully. Every own-door row needs street, city and state.
 
 ## Rulings of 11 Oct (keep applying)
 - Collaborations are out of prices and the style layer. A shoe house whose every shoe is a collaboration gets shoes = NONE; Bad Birdie's Payntr exception does not generalise.
@@ -86,8 +96,17 @@ Earlier rulings are in `wave_c/brief/RULINGS_*.md`. From this session, 10 Oct:
 - **Large custom sites:** use the site's own client. Express: `window.__APOLLO_CLIENT__` (plain fetch to /graphql gets an Akamai 400). G-Star: its Algolia index with the public key in the page. Huckberry: `/api/pages/tiles`.
 - **Long scripts:** run as a background async job that sets a flag, then poll; long single calls time out the extension.
 
+## Batch 4 method notes
+- **Builders:** `code/build_b4.py`, `meta_b4.py`, `assemble_b4.py`, `doors_stock_b4.py`; raw inputs and per-brand notes in `raw/batch4_inputs/` (`notes.md`). `code/helpers_b4.js` is the Shopify DUMP/RECON helper; paste it fresh per page load.
+- **Blocked outputs:** the extension blocks returned text containing `?`, `&` or `=`. Render into `<pre id=o>` and read with `get_page_text`, or strip those characters before rendering.
+- **Gap:** product-search API `api.gap.com/v2/product_search_cc_aggregations/v2` (cid 1127944, department 75); PDP fabric bullets in the page JSON (`"id":"fabric"`). Stores: `/stores` → state → city → store pages; address in ld+json, format in the markerData `store_type` (a text match on "Gap Factory" is useless: it is in the nav).
+- **Jos. A. Bank:** HCL Commerce search `/sr/search/resources/store/13452/productview/byCategory/<id>?catalogId=14052&responseFormat=json` and `/productview/<partNumber>`; `buyable=true` = live; `/p/<title-slug>` works for most products but some need the part-number suffix (`-5BHB`).
+- **G-Star stores:** `/en_us/find-a-store/getstores?country_iso=US&output_details=1` with headers `X-Requested-With: XMLHttpRequest` and a JSON accept.
+- **Check listing URLs:** guessed `/collections/mens` 404'd on four houses; fetch each listing and page URL for status before writing it.
+- **North Carolina:** `state` = NC on own-door rows is the state, not the token; say so in NOTE.md.
+
 ## First thing in the new session
-1. Run `curl -sS -o /dev/null -w "%{http_code}" https://www.gap.com/`.
+1. Run `curl -sS -o /dev/null -w "%{http_code}" https://www.landsend.com/`.
    - If it returns 200, fetch directly with Python.
    - Otherwise use Claude in Chrome with the batch 2 method above.
 2. Batch 2 took about four hours through Chrome.

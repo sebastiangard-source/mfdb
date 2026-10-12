@@ -1,0 +1,1200 @@
+{
+ "name": "Jos. A. Bank",
+ "band": "basic",
+ "seat": 333,
+ "dagger": 0,
+ "focus": {
+  "tech": 2,
+  "comfort": 3,
+  "craft": 1,
+  "style": 1
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 3,
+  "wool": 4,
+  "synth": 2
+ },
+ "dials": {
+  "dur": 2,
+  "forg": 3,
+  "fuss": 0,
+  "golffice": 2,
+  "whitet": 1,
+  "logo": 1,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1,
+  "finbro": 3,
+  "murica": 2
+ },
+ "why": "The suit-sale chain, 185 stores across 38 states, owned with Men's Wearhouse by Tailored Brands; Traveler, Reserve and 1905 are its lines.",
+ "origin": "Founding date and place not published by the brand.",
+ "chan": [
+  "O",
+  "W"
+ ],
+ "conf": "S",
+ "forgc": [
+  3,
+  3,
+  1
+ ],
+ "onething": {
+  "p": null,
+  "u": null,
+  "n": "no signature product named in the seat_wave_c_2026-10-08 return"
+ },
+ "prices": [
+  [
+   30,
+   30
+  ],
+  [
+   40,
+   60
+  ],
+  [
+   40,
+   90
+  ],
+  [
+   74,
+   74
+  ],
+  [
+   89,
+   129
+  ],
+  [
+   70,
+   200
+  ],
+  [
+   80,
+   595
+  ],
+  [
+   120,
+   120
+  ]
+ ],
+ "price_checked": true,
+ "price_range_only": [
+  "Polo",
+  "Dress shirt",
+  "Dress pants",
+  "Outerwear"
+ ],
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Jos. A. Bank Tailored Fit Jersey Tee",
+   "lu": "https://www.josbank.com/p/jos-a-bank-tailored-fit-jersey-tee",
+   "hp": "Jos. A. Bank Tailored Fit Jersey Tee",
+   "hu": "https://www.josbank.com/p/jos-a-bank-tailored-fit-jersey-tee",
+   "b": "single"
+  },
+  "Polo": {
+   "lp": "1905 Collection Tailored Fit Polo",
+   "lu": "https://www.josbank.com/p/1905-collection-tailored-fit-polo",
+   "hp": "Traveler® Traditional Fit Short Sleeve Performance Polo",
+   "hu": "https://www.josbank.com/p/traveler-traditional-fit-short-sleeve-performance-polo",
+   "b": "range"
+  },
+  "Dress shirt": {
+   "lp": "1905 Collection Traditional Fit Solid Dress Shirt",
+   "lu": "https://www.josbank.com/p/1905-collection-traditional-fit-solid-dress-shirt-5BHB",
+   "hp": "Reserve Collection Traditional Fit Point Collar Formal Solid Dress Shirt (100% Egyptian cotton)",
+   "hu": "https://www.josbank.com/p/reserve-collection-traditional-fit-point-collar-formal-solid-dress-shirt",
+   "b": "range"
+  },
+  "Jeans": {
+   "lp": "Jos. A. Bank Slim Fit Ultra Stretch Jean",
+   "lu": "https://www.josbank.com/p/jos-a-bank-slim-fit-ultra-stretch-jean",
+   "hp": "Jos. A. Bank Slim Fit Ultra Stretch Jean",
+   "hu": "https://www.josbank.com/p/jos-a-bank-slim-fit-ultra-stretch-jean",
+   "b": "single"
+  },
+  "Dress pants": {
+   "lp": "Jos. A. Bank Tailored Fit Comfort Stretch Dress Pants",
+   "lu": "https://www.josbank.com/p/jos-a-bank-tailored-fit-comfort-stretch-dress-pants",
+   "hp": "Reserve Tailored Fit Italian Wool Dress Pants (99% Italian wool)",
+   "hu": "https://www.josbank.com/p/reserve-tailored-fit-italian-wool-dress-pants",
+   "b": "range"
+  },
+  "Sweater": {
+   "lp": "Jos. A. Bank Tailored Fit Pima Cotton Crew Neck Sweater",
+   "lu": "https://www.josbank.com/p/jos-a-bank-tailored-fit-pima-cotton-crew-neck-sweater",
+   "hp": "Reserve Collection Tailored Crew Neck Cashmere Sweater (100% cashmere)",
+   "hu": "https://www.josbank.com/p/reserve-collection-tailored-crew-neck-cashmere-sweater",
+   "b": "pair"
+  },
+  "Outerwear": {
+   "lp": "Traveler® Collection Tailored Fit Reversible Quilted Vest",
+   "lu": "https://www.josbank.com/p/traveler-collection-tailored-fit-reversible-quilted-vest",
+   "hp": "Reserve Collection Tailored Fit Leather Bomber Jacket",
+   "hu": "https://www.josbank.com/p/reserve-collection-tailored-fit-leather-bomber-jacket",
+   "b": "range"
+  },
+  "Shoes": {
+   "lp": "Jos. A. Bank Moc Toe Loafers",
+   "lu": "https://www.josbank.com/p/jos-a-bank-moc-toe-loafers",
+   "hp": "Jos. A. Bank Moc Toe Loafers",
+   "hu": "https://www.josbank.com/p/jos-a-bank-moc-toe-loafers",
+   "b": "single"
+  }
+ },
+ "garment_links": {
+  "T-shirt": "https://www.josbank.com/c/casual-tops/polo-t-shirts",
+  "Polo": "https://www.josbank.com/c/casual-tops/polo-t-shirts",
+  "Dress shirt": "https://www.josbank.com/c/dress-shirts/all-shirts",
+  "Jeans": "https://www.josbank.com/c/pants/mens-all-pants",
+  "Dress pants": "https://www.josbank.com/c/pants/all-dress-pants",
+  "Sweater": "https://www.josbank.com/c/sweaters/crewneck-sweaters",
+  "Outerwear": "https://www.josbank.com/c/outerwear/mens-all-outerwear",
+  "Shoes": "https://www.josbank.com/c/shoes/jos-a-bank-shoes"
+ },
+ "price_read": {
+  "date": "2026-10-12",
+  "store": "https://www.josbank.com (HCL Commerce; read through the site's own search service, store 13452, catalog 14052)",
+  "currency": "USD",
+  "status": "partial (large house: full catalogue counted, fibre shares from a 123-row category-stratified sample)",
+  "sublines": "Reserve (Collection), 1905 (Collection), Traveler (incl. COOLMOTION, Traveltech), Signature, Executive: sold under Jos. A. Bank, counted"
+ },
+ "notes": {
+  "tech": "Thread proposed 2 (2026-10-12): COOLMOTION (Traveler COOLMOTION line); 37.5® Technology (polyester); TENCEL™ lyocell (jeans) — named in titles and Product Details across the full read — licensed: COOLMOTION (Traveler COOLMOTION line), 37.5® Technology polyester, TENCEL™ lyocell, named in titles and compositions; share of range 20/123 styles name one of these in title or composition (sample rows). Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 1 (2026-10-12): Most products state composition and \"Imported\"; almost none state a country and no maker, mill or making story was found. Seated as proposed, pending ruling.",
+  "comfort": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "style": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "dur": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "forg": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "fuss": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "golffice": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "whitet": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "logo": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "western": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "rock": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "workwear": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "outdoor": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "surf": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "denim": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "cashmere": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "linen": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "cotton": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "wool": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "synth": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "finbro": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "murica": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional"
+ },
+ "doors": {
+  "c": "full",
+  "n": 185,
+  "cities": [
+   [
+    "Houston",
+    "TX",
+    4
+   ],
+   [
+    "Atlanta",
+    "GA",
+    2
+   ],
+   [
+    "Austin",
+    "TX",
+    2
+   ],
+   [
+    "Charlotte",
+    "NC",
+    2
+   ],
+   [
+    "Cincinnati",
+    "OH",
+    2
+   ],
+   [
+    "Marietta",
+    "GA",
+    2
+   ],
+   [
+    "Richmond",
+    "VA",
+    2
+   ],
+   [
+    "San Antonio",
+    "TX",
+    2
+   ],
+   [
+    "Albany",
+    "NY",
+    1
+   ],
+   [
+    "Albuquerque",
+    "NM",
+    1
+   ],
+   [
+    "Alexandria",
+    "VA",
+    1
+   ],
+   [
+    "Alpharetta",
+    "GA",
+    1
+   ],
+   [
+    "Annapolis",
+    "MD",
+    1
+   ],
+   [
+    "Appleton",
+    "WI",
+    1
+   ],
+   [
+    "Arlington",
+    "VA",
+    1
+   ],
+   [
+    "Asheville",
+    "NC",
+    1
+   ],
+   [
+    "Augusta",
+    "GA",
+    1
+   ],
+   [
+    "Baton Rouge",
+    "LA",
+    1
+   ],
+   [
+    "Bel Air",
+    "MD",
+    1
+   ],
+   [
+    "Bethesda",
+    "MD",
+    1
+   ],
+   [
+    "Birmingham",
+    "AL",
+    1
+   ],
+   [
+    "Birmingham",
+    "MI",
+    1
+   ],
+   [
+    "Boston",
+    "MA",
+    1
+   ],
+   [
+    "Boynton Beach",
+    "FL",
+    1
+   ],
+   [
+    "Bridgewater",
+    "NJ",
+    1
+   ],
+   [
+    "Brookfield",
+    "WI",
+    1
+   ],
+   [
+    "Buford",
+    "GA",
+    1
+   ],
+   [
+    "Burlington",
+    "MA",
+    1
+   ],
+   [
+    "Camp Hill",
+    "PA",
+    1
+   ],
+   [
+    "Carmel",
+    "IN",
+    1
+   ],
+   [
+    "Center Valley",
+    "PA",
+    1
+   ],
+   [
+    "Charlottesville",
+    "VA",
+    1
+   ],
+   [
+    "Chattanooga",
+    "TN",
+    1
+   ],
+   [
+    "Cherry Hill",
+    "NJ",
+    1
+   ],
+   [
+    "Chesapeake",
+    "VA",
+    1
+   ],
+   [
+    "Clifton",
+    "NJ",
+    1
+   ],
+   [
+    "Collegeville",
+    "PA",
+    1
+   ],
+   [
+    "Colorado Springs",
+    "CO",
+    1
+   ],
+   [
+    "Columbia",
+    "MD",
+    1
+   ],
+   [
+    "Columbia",
+    "SC",
+    1
+   ],
+   [
+    "Columbus",
+    "OH",
+    1
+   ],
+   [
+    "Commack",
+    "NY",
+    1
+   ],
+   [
+    "Cranberry Township",
+    "PA",
+    1
+   ],
+   [
+    "Cranston",
+    "RI",
+    1
+   ],
+   [
+    "Crestview Hills",
+    "KY",
+    1
+   ],
+   [
+    "Cumming",
+    "GA",
+    1
+   ],
+   [
+    "Dallas",
+    "TX",
+    1
+   ],
+   [
+    "Danbury",
+    "CT",
+    1
+   ],
+   [
+    "Dedham",
+    "MA",
+    1
+   ],
+   [
+    "Denville",
+    "NJ",
+    1
+   ],
+   [
+    "Des Peres",
+    "MO",
+    1
+   ],
+   [
+    "Dublin",
+    "OH",
+    1
+   ],
+   [
+    "Durham",
+    "NC",
+    1
+   ],
+   [
+    "Edina",
+    "MN",
+    1
+   ],
+   [
+    "Edmond",
+    "OK",
+    1
+   ],
+   [
+    "Englewood",
+    "CO",
+    1
+   ],
+   [
+    "Fairfax",
+    "VA",
+    1
+   ],
+   [
+    "Fairfield",
+    "CT",
+    1
+   ],
+   [
+    "Fairlawn",
+    "OH",
+    1
+   ],
+   [
+    "Fairview",
+    "TX",
+    1
+   ],
+   [
+    "Fayetteville",
+    "NC",
+    1
+   ],
+   [
+    "Fayetteville",
+    "NY",
+    1
+   ],
+   [
+    "Fishkill",
+    "NY",
+    1
+   ],
+   [
+    "Fort Worth",
+    "TX",
+    1
+   ],
+   [
+    "Framingham",
+    "MA",
+    1
+   ],
+   [
+    "Franklin",
+    "TN",
+    1
+   ],
+   [
+    "Frederick",
+    "MD",
+    1
+   ],
+   [
+    "Fredericksburg",
+    "VA",
+    1
+   ],
+   [
+    "Fresno",
+    "CA",
+    1
+   ],
+   [
+    "Frisco",
+    "TX",
+    1
+   ],
+   [
+    "Gainesville",
+    "VA",
+    1
+   ],
+   [
+    "Garden City",
+    "NY",
+    1
+   ],
+   [
+    "Gastonia",
+    "NC",
+    1
+   ],
+   [
+    "Geneva",
+    "IL",
+    1
+   ],
+   [
+    "Germantown",
+    "TN",
+    1
+   ],
+   [
+    "Glastonbury",
+    "CT",
+    1
+   ],
+   [
+    "Glenview",
+    "IL",
+    1
+   ],
+   [
+    "Grand Rapids",
+    "MI",
+    1
+   ],
+   [
+    "Greenville",
+    "DE",
+    1
+   ],
+   [
+    "Greenville",
+    "SC",
+    1
+   ],
+   [
+    "Haverford",
+    "PA",
+    1
+   ],
+   [
+    "Holmdel",
+    "NJ",
+    1
+   ],
+   [
+    "Hoover",
+    "AL",
+    1
+   ],
+   [
+    "Hudson",
+    "OH",
+    1
+   ],
+   [
+    "Hunt Valley",
+    "MD",
+    1
+   ],
+   [
+    "Huntersville",
+    "NC",
+    1
+   ],
+   [
+    "Huntsville",
+    "AL",
+    1
+   ],
+   [
+    "Indianapolis",
+    "IN",
+    1
+   ],
+   [
+    "Jackson",
+    "MS",
+    1
+   ],
+   [
+    "Jacksonville",
+    "FL",
+    1
+   ],
+   [
+    "Jacksonville Beach",
+    "FL",
+    1
+   ],
+   [
+    "Johnson City",
+    "TN",
+    1
+   ],
+   [
+    "Katy",
+    "TX",
+    1
+   ],
+   [
+    "Kennett Square",
+    "PA",
+    1
+   ],
+   [
+    "Kettering",
+    "OH",
+    1
+   ],
+   [
+    "Kildeer",
+    "IL",
+    1
+   ],
+   [
+    "King of Prussia",
+    "PA",
+    1
+   ],
+   [
+    "Kingwood",
+    "TX",
+    1
+   ],
+   [
+    "Knoxville",
+    "TN",
+    1
+   ],
+   [
+    "Lakeland",
+    "FL",
+    1
+   ],
+   [
+    "Lancaster",
+    "PA",
+    1
+   ],
+   [
+    "Langhorne",
+    "PA",
+    1
+   ],
+   [
+    "Lansing",
+    "MI",
+    1
+   ],
+   [
+    "Little Rock",
+    "AR",
+    1
+   ],
+   [
+    "Livonia",
+    "MI",
+    1
+   ],
+   [
+    "Louisville",
+    "KY",
+    1
+   ],
+   [
+    "Loveland",
+    "CO",
+    1
+   ],
+   [
+    "Lyndhurst",
+    "OH",
+    1
+   ],
+   [
+    "Macomb",
+    "MI",
+    1
+   ],
+   [
+    "Mandeville",
+    "LA",
+    1
+   ],
+   [
+    "Mansfield",
+    "MA",
+    1
+   ],
+   [
+    "Marlton",
+    "NJ",
+    1
+   ],
+   [
+    "Mason",
+    "OH",
+    1
+   ],
+   [
+    "Metairie",
+    "LA",
+    1
+   ],
+   [
+    "Middleton",
+    "WI",
+    1
+   ],
+   [
+    "Midlothian",
+    "VA",
+    1
+   ],
+   [
+    "Milford",
+    "CT",
+    1
+   ],
+   [
+    "Mobile",
+    "AL",
+    1
+   ],
+   [
+    "Montgomery",
+    "AL",
+    1
+   ],
+   [
+    "Morgantown",
+    "WV",
+    1
+   ],
+   [
+    "Mount Laurel",
+    "NJ",
+    1
+   ],
+   [
+    "Mount Pleasant",
+    "SC",
+    1
+   ],
+   [
+    "Mt Lebanon",
+    "PA",
+    1
+   ],
+   [
+    "Murray",
+    "UT",
+    1
+   ],
+   [
+    "Nashville",
+    "TN",
+    1
+   ],
+   [
+    "Newark",
+    "DE",
+    1
+   ],
+   [
+    "Newport",
+    "RI",
+    1
+   ],
+   [
+    "Newport News",
+    "VA",
+    1
+   ],
+   [
+    "North Wales",
+    "PA",
+    1
+   ],
+   [
+    "Northborough",
+    "MA",
+    1
+   ],
+   [
+    "Oak Brook",
+    "IL",
+    1
+   ],
+   [
+    "Omaha",
+    "NE",
+    1
+   ],
+   [
+    "Orland Park",
+    "IL",
+    1
+   ],
+   [
+    "Overland Park",
+    "KS",
+    1
+   ],
+   [
+    "Palm Beach Gardens",
+    "FL",
+    1
+   ],
+   [
+    "Paramus",
+    "NJ",
+    1
+   ],
+   [
+    "Peachtree City",
+    "GA",
+    1
+   ],
+   [
+    "Philadelphia",
+    "PA",
+    1
+   ],
+   [
+    "Pittsburgh",
+    "PA",
+    1
+   ],
+   [
+    "Portsmouth",
+    "NH",
+    1
+   ],
+   [
+    "Princeton",
+    "NJ",
+    1
+   ],
+   [
+    "Provo",
+    "UT",
+    1
+   ],
+   [
+    "Raleigh",
+    "NC",
+    1
+   ],
+   [
+    "Reading",
+    "PA",
+    1
+   ],
+   [
+    "Roanoke",
+    "VA",
+    1
+   ],
+   [
+    "Rochester Hills",
+    "MI",
+    1
+   ],
+   [
+    "Rockwall",
+    "TX",
+    1
+   ],
+   [
+    "Rocky Mount",
+    "NC",
+    1
+   ],
+   [
+    "Sacramento",
+    "CA",
+    1
+   ],
+   [
+    "Saratoga Springs",
+    "NY",
+    1
+   ],
+   [
+    "Savannah",
+    "GA",
+    1
+   ],
+   [
+    "Scarsdale",
+    "NY",
+    1
+   ],
+   [
+    "Scottsdale",
+    "AZ",
+    1
+   ],
+   [
+    "Sea Girt",
+    "NJ",
+    1
+   ],
+   [
+    "Southlake",
+    "TX",
+    1
+   ],
+   [
+    "Sugar Land",
+    "TX",
+    1
+   ],
+   [
+    "Tallahassee",
+    "FL",
+    1
+   ],
+   [
+    "Tampa",
+    "FL",
+    1
+   ],
+   [
+    "The Woodlands",
+    "TX",
+    1
+   ],
+   [
+    "Towson",
+    "MD",
+    1
+   ],
+   [
+    "Tulsa",
+    "OK",
+    1
+   ],
+   [
+    "Virginia Beach",
+    "VA",
+    1
+   ],
+   [
+    "Walnut Creek",
+    "CA",
+    1
+   ],
+   [
+    "Warrington",
+    "PA",
+    1
+   ],
+   [
+    "Washington",
+    "DC",
+    1
+   ],
+   [
+    "Webster",
+    "TX",
+    1
+   ],
+   [
+    "West Hartford",
+    "CT",
+    1
+   ],
+   [
+    "Westfield",
+    "NJ",
+    1
+   ],
+   [
+    "Westlake",
+    "OH",
+    1
+   ],
+   [
+    "Williamsville",
+    "NY",
+    1
+   ],
+   [
+    "Wilmington",
+    "NC",
+    1
+   ],
+   [
+    "Winchester",
+    "VA",
+    1
+   ],
+   [
+    "Winston Salem",
+    "NC",
+    1
+   ],
+   [
+    "Winter Park",
+    "FL",
+    1
+   ],
+   [
+    "York",
+    "PA",
+    1
+   ]
+  ],
+  "basis": "seat_wave_c_2026-10-08 2026-10-12",
+  "out": 1,
+  "con": 0
+ },
+ "cities": "185 stores across the US, including Houston, Atlanta, Austin · its own site",
+ "site": {
+  "domain": "josbank.com",
+  "platform": "other",
+  "feed": "none",
+  "feed_count": 0,
+  "status": "live_store",
+  "checked": "2026-10-12"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "licensed",
+  "marks": [
+   "COOLMOTION (Traveler COOLMOTION line)",
+   "37.5® Technology (polyester)",
+   "TENCEL™ lyocell (jeans) — named in titles and Product Details across the full read"
+  ],
+  "source": "seat_wave_c_2026-10-08",
+  "checked": "2026-10-12"
+ },
+ "craft_evidence": {
+  "owned": "no claim found",
+  "makers": "no",
+  "mills": "in titles only as origin of cloth (\"Italian Wool\"); no mill named",
+  "madein": "2/653 own clothing products state \"Made in\"; \"Imported\" on about 549 (full catalogue)",
+  "heritage": "NC",
+  "process": "no",
+  "urls": [
+   "https://www.josbank.com/p/reserve-tailored-fit-italian-wool-dress-pants"
+  ],
+  "proposed": 1,
+  "reasoning": "Most products state composition and \"Imported\"; almost none state a country and no maker, mill or making story was found.",
+  "source": "seat_wave_c_2026-10-08"
+ },
+ "ownership": {
+  "owner": "NC",
+  "u": null
+ },
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?brand_ids[]=814037&catalog[]=5",
+   "m": "brand filter",
+   "n": ""
+  },
+  "grailed": {
+   "u": "https://www.grailed.com/designers/jos-a-bank"
+  }
+ },
+ "say": "JOSS AY BANK",
+ "fibre": {
+  "t": 653,
+  "w": 106,
+  "n": 13,
+  "s": 3,
+  "c": 0,
+  "x": 6,
+  "xh": 1,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "casual-tops",
+   "sportcoats",
+   "dress-shirts"
+  ],
+  "st": "partial"
+ },
+ "band_note": "basic by the price rule (tee $30, dress shirt $40)",
+ "region": {
+  "o": [
+   6330,
+   6331,
+   6332,
+   6333,
+   6334,
+   6336,
+   6337,
+   6369,
+   6370,
+   6371,
+   6372,
+   6373,
+   6374,
+   6403,
+   6404,
+   6405,
+   6406,
+   6407,
+   6408,
+   6409,
+   6410,
+   6411,
+   6412,
+   6413,
+   6414,
+   6416,
+   6417,
+   6418,
+   6419,
+   6420,
+   6421,
+   6422,
+   6423,
+   6436,
+   6437,
+   6438,
+   6439,
+   6440,
+   6441,
+   6442,
+   6443,
+   6444,
+   6445,
+   6446,
+   6447,
+   6448,
+   6449,
+   6450,
+   6451,
+   6452,
+   6453
+  ],
+  "s": []
+ }
+}

@@ -1,0 +1,1008 @@
+{
+ "name": "Gap",
+ "band": "basic",
+ "seat": 332,
+ "dagger": 0,
+ "focus": {
+  "tech": 1,
+  "comfort": 4,
+  "craft": 1,
+  "style": 1
+ },
+ "fabric": {
+  "denim": 4,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 5,
+  "wool": 1,
+  "synth": 2
+ },
+ "dials": {
+  "dur": 2,
+  "forg": 4,
+  "fuss": -3,
+  "golffice": -2,
+  "whitet": 4,
+  "logo": 3,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1,
+  "murica": 4,
+  "prep": 2
+ },
+ "why": "The San Francisco basics chain from 1969 — the pocket tee, the khaki, the hoodie with the arch logo — 150 full-price stores and 241 outlets in the US.",
+ "origin": "Founding date and place not published by the brand.",
+ "chan": [
+  "O",
+  "W"
+ ],
+ "conf": "S",
+ "forgc": [
+  3,
+  4,
+  1
+ ],
+ "onething": {
+  "p": null,
+  "u": null,
+  "n": "no signature product named in the seat_wave_c_2026-10-08 return"
+ },
+ "prices": [
+  [
+   20,
+   78
+  ],
+  [
+   35,
+   70
+  ],
+  [
+   50,
+   118
+  ],
+  [
+   70,
+   168
+  ],
+  [
+   60,
+   90
+  ],
+  [
+   70,
+   90
+  ],
+  [
+   90,
+   248
+  ],
+  null
+ ],
+ "price_checked": true,
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants",
+  "Sweater",
+  "Outerwear"
+ ],
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Classic T-Shirt",
+   "lu": "https://www.gap.com/browse/product.do?pid=440775002",
+   "hp": "GapStudio Extra Heavyweight Pocket T-Shirt",
+   "hu": "https://www.gap.com/browse/product.do?pid=910342002",
+   "b": "range"
+  },
+  "Polo": {
+   "lp": "Pique Polo Shirt",
+   "lu": "https://www.gap.com/browse/product.do?pid=223627012",
+   "hp": "Heavyweight Jersey Polo Shirt",
+   "hu": "https://www.gap.com/browse/product.do?pid=800317012",
+   "b": "range"
+  },
+  "Dress shirt": {
+   "lp": "Dobby Relaxed Straight-Hem Shirt",
+   "lu": "https://www.gap.com/browse/product.do?pid=886386002",
+   "hp": "GapStudio Poplin Big Shirt",
+   "hu": "https://www.gap.com/browse/product.do?pid=910343002",
+   "b": "range"
+  },
+  "Jeans": {
+   "lp": "Straight Jeans in GapFlex",
+   "lu": "https://www.gap.com/browse/product.do?pid=709159002",
+   "hp": "GapStudio Baggy Utility Jeans",
+   "hu": "https://www.gap.com/browse/product.do?pid=1182714002",
+   "b": "range"
+  },
+  "Dress pants": {
+   "lp": "Modern Slim Khakis",
+   "lu": "https://www.gap.com/browse/product.do?pid=440943002",
+   "hp": "Heavyweight Twill Baggy Khakis",
+   "hu": "https://www.gap.com/browse/product.do?pid=907827002",
+   "b": "range"
+  },
+  "Sweater": {
+   "lp": "CashSoft Crew Sweater",
+   "lu": "https://www.gap.com/browse/product.do?pid=907276002",
+   "hp": "CashSoft Crew Sweater (dearest colours)",
+   "hu": "https://www.gap.com/browse/product.do?pid=907276002",
+   "b": "range"
+  },
+  "Outerwear": {
+   "lp": "Classic Icon Denim Jacket",
+   "lu": "https://www.gap.com/browse/product.do?pid=819576002",
+   "hp": "Wool-Blend Car Coat (50% wool)",
+   "hu": "https://www.gap.com/browse/product.do?pid=1186542002",
+   "b": "range"
+  }
+ },
+ "garment_links": {
+  "T-shirt": "https://www.gap.com/browse/men/shop-all-styles?cid=1127944",
+  "Polo": "https://www.gap.com/browse/men/shop-all-styles?cid=1127944",
+  "Dress shirt": "https://www.gap.com/browse/men/shop-all-styles?cid=1127944",
+  "Jeans": "https://www.gap.com/browse/men/shop-all-styles?cid=1127944",
+  "Dress pants": "https://www.gap.com/browse/men/shop-all-styles?cid=1127944",
+  "Sweater": "https://www.gap.com/browse/men/shop-all-styles?cid=1127944",
+  "Outerwear": "https://www.gap.com/browse/men/shop-all-styles?cid=1127944",
+  "Shoes": "https://www.gap.com/browse/men/shop-all-styles?cid=1127944"
+ },
+ "price_read": {
+  "date": "2026-10-12",
+  "store": "https://www.gap.com (read through the site's own product-search API, api.gap.com product_search_cc_aggregations, cid 1127944, department 75)",
+  "currency": "USD",
+  "status": "partial (large house: full catalogue counted, fibre shares from a 152-row category-stratified sample)",
+  "sublines": "GapStudio (elevated line sold as Gap, counted); OuiGap is a capsule (in the fibre layer, never a high)"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-12): CashSoft; GapFlex; Lycra; TENCEL — own house names: GapFlex (stretch denim), CashSoft (knit yarn); licensed: TENCEL / Lenzing (lyocell, modal) and LYCRA named in compositions; share of range 6/152 styles name one of these in title or composition (sample rows). Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 1 (2026-10-12): Every own style states its composition and \"Imported\", but no country, maker or mill appears to shoppers; nothing on making was found. Seated as proposed, pending ruling.",
+  "comfort": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "style": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "dur": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "forg": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "fuss": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "golffice": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "whitet": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "logo": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "western": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "rock": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "workwear": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "outdoor": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "surf": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "denim": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "cashmere": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "linen": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "cotton": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "wool": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "synth": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "murica": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional",
+  "prep": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional"
+ },
+ "doors": {
+  "c": "full",
+  "n": 150,
+  "cities": [
+   [
+    "New York",
+    "NY",
+    5
+   ],
+   [
+    "Dallas",
+    "TX",
+    3
+   ],
+   [
+    "Ardmore",
+    "PA",
+    2
+   ],
+   [
+    "Austin",
+    "TX",
+    2
+   ],
+   [
+    "Houston",
+    "TX",
+    2
+   ],
+   [
+    "San Francisco",
+    "CA",
+    2
+   ],
+   [
+    "Sherman Oaks",
+    "CA",
+    2
+   ],
+   [
+    "Tulsa",
+    "OK",
+    2
+   ],
+   [
+    "Albany",
+    "NY",
+    1
+   ],
+   [
+    "Albuquerque",
+    "NM",
+    1
+   ],
+   [
+    "Alpharetta",
+    "GA",
+    1
+   ],
+   [
+    "Arcadia",
+    "CA",
+    1
+   ],
+   [
+    "Atlanta",
+    "GA",
+    1
+   ],
+   [
+    "Aventura",
+    "FL",
+    1
+   ],
+   [
+    "Baton Rouge",
+    "LA",
+    1
+   ],
+   [
+    "Bellevue",
+    "WA",
+    1
+   ],
+   [
+    "Bend",
+    "OR",
+    1
+   ],
+   [
+    "Braintree",
+    "MA",
+    1
+   ],
+   [
+    "Bridgehampton",
+    "NY",
+    1
+   ],
+   [
+    "Buford",
+    "GA",
+    1
+   ],
+   [
+    "Cambridge",
+    "MA",
+    1
+   ],
+   [
+    "Canoga Park",
+    "CA",
+    1
+   ],
+   [
+    "Cerritos",
+    "CA",
+    1
+   ],
+   [
+    "Chevy Chase",
+    "MD",
+    1
+   ],
+   [
+    "Chicago",
+    "IL",
+    1
+   ],
+   [
+    "Cincinnati",
+    "OH",
+    1
+   ],
+   [
+    "Columbus",
+    "OH",
+    1
+   ],
+   [
+    "Corte Madera",
+    "CA",
+    1
+   ],
+   [
+    "Costa Mesa",
+    "CA",
+    1
+   ],
+   [
+    "Cranston",
+    "RI",
+    1
+   ],
+   [
+    "Danbury",
+    "CT",
+    1
+   ],
+   [
+    "Deer Park",
+    "IL",
+    1
+   ],
+   [
+    "Denver",
+    "CO",
+    1
+   ],
+   [
+    "Denville",
+    "NJ",
+    1
+   ],
+   [
+    "Doylestown",
+    "PA",
+    1
+   ],
+   [
+    "Durham",
+    "NC",
+    1
+   ],
+   [
+    "Edgewater",
+    "NJ",
+    1
+   ],
+   [
+    "El Paso",
+    "TX",
+    1
+   ],
+   [
+    "Encinitas",
+    "CA",
+    1
+   ],
+   [
+    "Fairfield",
+    "CT",
+    1
+   ],
+   [
+    "Freehold",
+    "NJ",
+    1
+   ],
+   [
+    "Garden City",
+    "NY",
+    1
+   ],
+   [
+    "Geneva",
+    "IL",
+    1
+   ],
+   [
+    "Glen Mills",
+    "PA",
+    1
+   ],
+   [
+    "Glendale",
+    "CA",
+    1
+   ],
+   [
+    "Glendale",
+    "WI",
+    1
+   ],
+   [
+    "Greenville",
+    "SC",
+    1
+   ],
+   [
+    "Hillsboro",
+    "OR",
+    1
+   ],
+   [
+    "Honolulu",
+    "HI",
+    1
+   ],
+   [
+    "Huntington Beach",
+    "CA",
+    1
+   ],
+   [
+    "Huntington Station",
+    "NY",
+    1
+   ],
+   [
+    "Hurst",
+    "TX",
+    1
+   ],
+   [
+    "Indianapolis",
+    "IN",
+    1
+   ],
+   [
+    "Irvine",
+    "CA",
+    1
+   ],
+   [
+    "King of Prussia",
+    "PA",
+    1
+   ],
+   [
+    "Knoxville",
+    "TN",
+    1
+   ],
+   [
+    "Larchmont",
+    "NY",
+    1
+   ],
+   [
+    "Las Vegas",
+    "NV",
+    1
+   ],
+   [
+    "Leawood",
+    "KS",
+    1
+   ],
+   [
+    "Los Angeles",
+    "CA",
+    1
+   ],
+   [
+    "Louisville",
+    "KY",
+    1
+   ],
+   [
+    "Lynnfield",
+    "MA",
+    1
+   ],
+   [
+    "Mandeville",
+    "LA",
+    1
+   ],
+   [
+    "Manhattan Beach",
+    "CA",
+    1
+   ],
+   [
+    "Maple Grove",
+    "MN",
+    1
+   ],
+   [
+    "Marietta",
+    "GA",
+    1
+   ],
+   [
+    "McAllen",
+    "TX",
+    1
+   ],
+   [
+    "Merrick",
+    "NY",
+    1
+   ],
+   [
+    "Miami",
+    "FL",
+    1
+   ],
+   [
+    "Miami Beach",
+    "FL",
+    1
+   ],
+   [
+    "Minnetonka",
+    "MN",
+    1
+   ],
+   [
+    "Mission Viejo",
+    "CA",
+    1
+   ],
+   [
+    "Monterey",
+    "CA",
+    1
+   ],
+   [
+    "Mt Kisco",
+    "NY",
+    1
+   ],
+   [
+    "Murray",
+    "UT",
+    1
+   ],
+   [
+    "Nanuet",
+    "NY",
+    1
+   ],
+   [
+    "Nashville",
+    "TN",
+    1
+   ],
+   [
+    "Natick",
+    "MA",
+    1
+   ],
+   [
+    "Newark",
+    "DE",
+    1
+   ],
+   [
+    "Newport",
+    "RI",
+    1
+   ],
+   [
+    "Newport Coast",
+    "CA",
+    1
+   ],
+   [
+    "Newtown",
+    "PA",
+    1
+   ],
+   [
+    "Northbrook",
+    "IL",
+    1
+   ],
+   [
+    "Novi",
+    "MI",
+    1
+   ],
+   [
+    "Oak Brook",
+    "IL",
+    1
+   ],
+   [
+    "Oklahoma City",
+    "OK",
+    1
+   ],
+   [
+    "Omaha",
+    "NE",
+    1
+   ],
+   [
+    "Orem",
+    "UT",
+    1
+   ],
+   [
+    "Palo Alto",
+    "CA",
+    1
+   ],
+   [
+    "Paramus",
+    "NJ",
+    1
+   ],
+   [
+    "Peabody",
+    "MA",
+    1
+   ],
+   [
+    "Pittsburgh",
+    "PA",
+    1
+   ],
+   [
+    "Plano",
+    "TX",
+    1
+   ],
+   [
+    "Raleigh",
+    "NC",
+    1
+   ],
+   [
+    "Redmond",
+    "WA",
+    1
+   ],
+   [
+    "Richmond",
+    "VA",
+    1
+   ],
+   [
+    "Richmond Heights",
+    "MO",
+    1
+   ],
+   [
+    "Rockville",
+    "MD",
+    1
+   ],
+   [
+    "Rogers",
+    "AR",
+    1
+   ],
+   [
+    "Roseville",
+    "CA",
+    1
+   ],
+   [
+    "Salem",
+    "NH",
+    1
+   ],
+   [
+    "San Antonio",
+    "TX",
+    1
+   ],
+   [
+    "San Diego",
+    "CA",
+    1
+   ],
+   [
+    "San Juan",
+    "PR",
+    1
+   ],
+   [
+    "San Mateo",
+    "CA",
+    1
+   ],
+   [
+    "Santa Barbara",
+    "CA",
+    1
+   ],
+   [
+    "Santa Clara",
+    "CA",
+    1
+   ],
+   [
+    "Santa Cruz",
+    "CA",
+    1
+   ],
+   [
+    "Saratoga Springs",
+    "NY",
+    1
+   ],
+   [
+    "Scarsdale",
+    "NY",
+    1
+   ],
+   [
+    "Schaumburg",
+    "IL",
+    1
+   ],
+   [
+    "Sea Girt",
+    "NJ",
+    1
+   ],
+   [
+    "Seattle",
+    "WA",
+    1
+   ],
+   [
+    "Shrewsbury",
+    "NJ",
+    1
+   ],
+   [
+    "Spokane",
+    "WA",
+    1
+   ],
+   [
+    "St Louis",
+    "MO",
+    1
+   ],
+   [
+    "Swampscott",
+    "MA",
+    1
+   ],
+   [
+    "Tampa",
+    "FL",
+    1
+   ],
+   [
+    "Torrance",
+    "CA",
+    1
+   ],
+   [
+    "Towson",
+    "MD",
+    1
+   ],
+   [
+    "Troy",
+    "MI",
+    1
+   ],
+   [
+    "Tysons",
+    "VA",
+    1
+   ],
+   [
+    "Victor",
+    "NY",
+    1
+   ],
+   [
+    "Wauwatosa",
+    "WI",
+    1
+   ],
+   [
+    "Wayne",
+    "NJ",
+    1
+   ],
+   [
+    "West Des Moines",
+    "IA",
+    1
+   ],
+   [
+    "West Hartford",
+    "CT",
+    1
+   ],
+   [
+    "West Nyack",
+    "NY",
+    1
+   ],
+   [
+    "Westfield",
+    "NJ",
+    1
+   ],
+   [
+    "Westlake",
+    "OH",
+    1
+   ],
+   [
+    "Westport",
+    "CT",
+    1
+   ],
+   [
+    "Whitehall",
+    "PA",
+    1
+   ],
+   [
+    "Wichita",
+    "KS",
+    1
+   ],
+   [
+    "Wilmington",
+    "NC",
+    1
+   ],
+   [
+    "Winston Salem",
+    "NC",
+    1
+   ],
+   [
+    "Woodbury",
+    "MN",
+    1
+   ],
+   [
+    "Woodcliff Lake",
+    "NJ",
+    1
+   ],
+   [
+    "Yonkers",
+    "NY",
+    1
+   ]
+  ],
+  "basis": "seat_wave_c_2026-10-08 2026-10-12",
+  "out": 241,
+  "con": 0
+ },
+ "cities": "150 stores across the US, including New York, Dallas, Ardmore · its own site",
+ "site": {
+  "domain": "gap.com",
+  "platform": "other",
+  "feed": "none",
+  "feed_count": 0,
+  "status": "live_store",
+  "checked": "2026-10-12"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "both",
+  "marks": [
+   "CashSoft",
+   "GapFlex",
+   "Lycra",
+   "TENCEL"
+  ],
+  "source": "seat_wave_c_2026-10-08",
+  "checked": "2026-10-12"
+ },
+ "craft_evidence": {
+  "owned": "no claim found",
+  "makers": "no (the API names a supplier group per colour, e.g. Yakjin Trading, Makalot, Shinwon, Sae-A, Hansae, Arvind, Nien Hsing; not shown on product pages)",
+  "mills": "no",
+  "madein": "0/244 own styles name a country; \"Imported\" stated on 244/244 (full catalogue, PDP fabric bullets)",
+  "heritage": "NC (no about page read)",
+  "process": "no",
+  "urls": [
+   "https://www.gap.com/browse/product.do?pid=440775002",
+   "https://www.gap.com/stores"
+  ],
+  "proposed": 1,
+  "reasoning": "Every own style states its composition and \"Imported\", but no country, maker or mill appears to shoppers; nothing on making was found.",
+  "source": "seat_wave_c_2026-10-08"
+ },
+ "ownership": {
+  "owner": "NC",
+  "u": null
+ },
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?brand_ids[]=6&catalog[]=5",
+   "m": "brand filter",
+   "n": ""
+  },
+  "grailed": {
+   "u": "https://www.grailed.com/designers/gap"
+  }
+ },
+ "say": "GAP",
+ "fibre": {
+  "t": 244,
+  "w": 152,
+  "n": 57,
+  "s": 5,
+  "c": 1,
+  "x": 13,
+  "xh": 5,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "sweatshirts",
+   "shirts",
+   "short-sleeved tees"
+  ],
+  "st": "partial"
+ },
+ "band_note": "basic by the price rule (tee $20, dress shirt $50)",
+ "region": {
+  "o": [
+   6195,
+   6196,
+   6197,
+   6198,
+   6199,
+   6225,
+   6226,
+   6227,
+   6228,
+   6229,
+   6230,
+   6240,
+   6241,
+   6242,
+   6243,
+   6244,
+   6245,
+   6246,
+   6247,
+   6248,
+   6249,
+   6251,
+   6252,
+   6253,
+   6254,
+   6255,
+   6256,
+   6257,
+   6258,
+   6259,
+   6260,
+   6261,
+   6262,
+   6263,
+   6264,
+   6265,
+   6266,
+   6267,
+   6268,
+   6281,
+   6282,
+   6283,
+   6284,
+   6285,
+   6286,
+   6287,
+   6288,
+   6289,
+   6290
+  ],
+  "s": []
+ }
+}

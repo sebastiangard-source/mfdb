@@ -1,7 +1,7 @@
 {
  "name": "G-Star",
  "band": "premium",
- "seat": 323,
+ "seat": 324,
  "dagger": 0,
  "focus": {
   "tech": 2,
@@ -186,13 +186,60 @@
   "street": "seeded 2026-10-12 from the seat_wave_c_2026-10-08 return; provisional"
  },
  "doors": {
-  "c": "count",
+  "c": "full",
   "n": 9,
-  "basis": "seat_wave_c_2026-10-08 2026-10-11 (rows carry no town; count seated, rows held)",
+  "cities": [
+   [
+    "Arlington",
+    "VA",
+    1
+   ],
+   [
+    "Atlanta",
+    "GA",
+    1
+   ],
+   [
+    "Aventura",
+    "FL",
+    1
+   ],
+   [
+    "Chicago",
+    "IL",
+    1
+   ],
+   [
+    "Houston",
+    "TX",
+    1
+   ],
+   [
+    "King of Prussia",
+    "PA",
+    1
+   ],
+   [
+    "Los Angeles",
+    "CA",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    1
+   ],
+   [
+    "Paramus",
+    "NJ",
+    1
+   ]
+  ],
+  "basis": "seat_wave_c_2026-10-08 2026-10-11",
   "out": 3,
   "con": 0
  },
- "cities": "9 stores across the US (count only; addresses to come) · department stores, independent shops and its own site",
+ "cities": "9 stores across the US, including Arlington, Atlanta, Aventura · department stores, independent shops, and its own site",
  "site": {
   "domain": "g-star.com",
   "platform": "other",
@@ -271,7 +318,11 @@
  },
  "band_note": "premium by the price rule (dress shirt $110, sweater $110)",
  "region": {
-  "o": [],
+  "o": [
+   6156,
+   6158,
+   6160
+  ],
   "s": []
  }
 }

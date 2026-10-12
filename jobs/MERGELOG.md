@@ -1791,3 +1791,9 @@ Thread read Nike's store directory after close: 252 stores = 40 full-price + 212
 - `doors_db.py`: the state column is no longer passed through `clean()`, which read North Carolina (NC) as not-counted — 165 doors (132 women's) had been dropped from the 11 Oct geocoding file. Delta issued.
 - Registers rebuilt: stockists_wave_b (9,849 rows, one file), stockists_wave_c, own_doors_wave_c (742 incl. Zara, Jos. A. Bank, UGG, Universal Works), door_counts_wave_b/c. Locations DB 9,942 doors, 269 brands.
 - testpass: why-card region click guarded when no card carries a record; count-only allowed where rows are held; western-5 and season caps data-driven; whitet-5 cap 14.
+
+## 12 October 2026 (evening) — wave C batch 4 (v3.55.0)
+- Seated 9 (Gap, Goldwin, Golf Wang, Hender Scheme, Holderness & Bourne, Imogene + Willie, Jos. A. Bank, Katin, Kiel James Patrick); Hickey Freeman held (licence-only, with HSM). G-Star re-seated with its 9 addressed stores (batch 4 re-read). Blundstone craft 1→2 as re-read.
+- `seat_from_return.py`: thin-row check no longer treats state NC as not-counted (second North Carolina bug; 15 Gap/JAB rows). Seats renumbered densely after the re-seats.
+- Batch 4 rulings applied: Golf Wang album/tour merchandise excluded as music merchandise; Katin's shop doors `none` (unverifiable on the site); H&B collegiate versions folded, unpriced; GRAVITY shops not counted; sukima stores counted (world); Goldwin Nanjing counted.
+- Registers rebuilt; locations DB 10,106 doors, 274 brands; geocoding delta 2 issued (Gap + G-Star).
