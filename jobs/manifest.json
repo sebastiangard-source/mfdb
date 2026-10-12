@@ -2045,7 +2045,7 @@
    "id": "doors_womens_nap_2026-10-12",
    "title": "Women's doors, Net-a-Porter list — 161 brands (73 full reads, 88 screened)",
    "kind": "locations",
-   "state": "issued",
+   "state": "open",
    "created": "2026-10-12",
    "issued": "2026-10-12",
    "pilot": 0,
@@ -2072,9 +2072,20 @@
    "writes": {
     "places": "append own-door rows; brands not seated on the mens map"
    },
-   "returns": [],
+   "returns": [
+    {
+     "n": 1,
+     "file": "doors_womens_nap_2026-10-12/batch01-02",
+     "received": "2026-10-12",
+     "rows": 19,
+     "mergeable": 19,
+     "held": 0,
+     "merged": 19,
+     "triage": ""
+    }
+   ],
    "blocked_on": "",
-   "note": "Net-a-Porter US designer index checked 12 Oct: 469 names, 139 out of scope, 169 on a register, 161 on none; runs in parallel with doors_womens_2"
+   "note": "Net-a-Porter US designer index checked 12 Oct: 469 names, 139 out of scope, 169 on a register, 161 on none; runs in parallel with doors_womens_2 | batches 1–2 (19 of 161, Anna Sui left out by ruling) merged 12 Oct: 2 US doors (Elie Saab, Extreme Cashmere), 17 zeros; 208 stockist rows kept in stockists_womens_2026-10-12.csv; wrong_sites.csv carried"
   }
  ]
 }
