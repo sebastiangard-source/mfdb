@@ -2733,7 +2733,7 @@ function renderBoutiques(region, kind, view, brand){
     body = stateOrder().filter(st=>byState[st]).map(st=>{
       const regs = Object.keys(byState[st]).sort((a,b)=>a.localeCompare(b));
       let lead = "";
-      if(!NE_STATES.has(st) && firstBeyond){ firstBeyond = false; lead = `<h3 class="bo-divider">Beyond ${REGION_NAME} \u2014 brand-owned stores only; the independent-shop register has not reached these states yet</h3>`; }
+      if(!NE_STATES.has(st) && firstBeyond){ firstBeyond = false; lead = `<h3 class="bo-divider">Beyond ${REGION_NAME} \u2014 brand-owned stores only; we haven\u2019t got to the independent shops in these states yet</h3>`; }
       return lead + `<h3 class="bo-state">${esc(ST_NAME[st] || st)}</h3>` + regs.map(reg=>{
         const rows = byState[st][reg];
         const shops = rows.filter(([p])=>p.k==="s"), owns = rows.filter(([p])=>p.k==="o");
@@ -3065,8 +3065,8 @@ function renderRegion(brand){
   regionBody.innerHTML =
       `<h2>${esc(brand)} \u2014 ${REGION_NAME}</h2>`
     + `<p class="rv-lead">${lead}</p>`
-    + `<p class="rv-caveat">This region only. A store outside ${REGION_NAME} is not shown because the `
-    + `register has not reached it \u2014 not because it does not exist. Stockist lists say what a shop `
+    + `<p class="rv-caveat">This list covers ${REGION_NAME} so far. A shop elsewhere isn\u2019t missing \u2014 we just `
+    + `haven\u2019t got there yet. Stockist lists say what a shop `
     + `buys, not what is on the rack today. Every entry opens a map at its address.</p>`
     + states.map(st=>{
         const doors = all.filter(i=>PLACES[i].s===st)

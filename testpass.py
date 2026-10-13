@@ -242,7 +242,7 @@ with sync_playwright() as p:
     pg.eval_on_selector('.region-btn','e=>e.click()'); pg.wait_for_timeout(350)
     ck('both channels are labelled',
        set(pg.eval_on_selector_all('#regionView .rv-kind','e=>e.map(x=>x.textContent)'))=={'STOCKIST'})
-    ck('panel states the regional limit', 'register has not reached' in
+    ck('panel states the regional limit', 'haven\u2019t got there yet' in
        pg.eval_on_selector('#regionBody','e=>e.innerText'))
     ck('the panel counts stores, not doors',
        'brand-owned store' in pg.eval_on_selector('#regionBody .rv-lead','e=>e.textContent'))
@@ -640,7 +640,7 @@ with sync_playwright() as p:
     ck('index tags every declared sub-region', got_regions==want_regions, f'{got_regions} of {want_regions}')
     ck('index is no longer grouped by state', pg.eval_on_selector_all('#boutiquesView .rv-state','e=>e.length')==0)
     ck('index states the regional limit',
-       'register has not reached' in pg.eval_on_selector('#boBody','e=>e.innerText'))
+       'haven\u2019t got' in pg.eval_on_selector('#boBody','e=>e.innerText'))
     pg.eval_on_selector('#boutiquesView .bo-row.shop-open','e=>e.click()'); pg.wait_for_timeout(380)
     ck('a row opens its shop page over the index',
        pg.eval_on_selector('#shopView','e=>e.classList.contains("show")') and
