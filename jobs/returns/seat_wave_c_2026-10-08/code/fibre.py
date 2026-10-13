@@ -7,12 +7,12 @@ SYN = {'polyester','polyamide','elastane','acrylic','polypropylene','polyurethan
 
 # order matters: longer / more specific first
 WORDS = [
- (r'elastomultiester','elastomultiester'),(r'elastolefin|xlance','elastolefin'),
- (r'other fibres|other fibers|andere fasern','other'),(r'baumwolle|bio-baumwolle','cotton'),(r'lammleder|leder\b','leather'),(r'daune','down'),
+ (r'elastomultiester|elasterell|elastrell','elastomultiester'),(r'elastolefin|xlance','elastolefin'),
+ (r'other fibres|other fibers|other fiber|\bother\b|andere fasern','other'),(r'baumwolle|bio-baumwolle','cotton'),(r'lammleder|leder\b','leather'),(r'daune','down'),
  (r'elastane|elasthane|elasthan|elastan|elastine|spandex|lycra|\bEL\b|\bEA\b','elastane'),
  (r'polyurethane|\bPU\b|ポリウレタン','polyurethane'),
  (r'polyamide|polyamid|nylon|cordura|corudra|surfnyl|\bPA\b|ナイロン','polyamide'),
- (r'polyester|\bpoly\b|coolmax|\bPL\b|ポリエステル','polyester'),
+ (r'polyester|polyster|\bpoly\b|coolmax|\bPL\b|ポリエステル','polyester'),
  (r'acrylic|\bPC\b|アクリル','acrylic'),
  (r'lyocell|tencel','lyocell'),(r'modal','modal'),(r'cupro|キュプラ','cupro'),(r'triacetate','triacetate'),(r'acetate','acetate'),
  (r'viscose|viskose|rayon|ecovero|\bCV\b|\bVI\b|レーヨン','viscose'),

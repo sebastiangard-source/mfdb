@@ -82,3 +82,11 @@ Batch 5 first, in worklist order; then 6, 7, 8, 9. Forty minutes a brand for a f
 for a shoe house; past that, what you have, `NC` on the rest, said so. Return each batch as it is done
 with its `NOTE.md`; do not wait for the next. If you write a handoff of your own at the end, keep the
 shape of the one in this folder.
+
+## Added 13 October, midday: the previous session's code and inputs
+
+`wave_c/code/` holds every script the earlier session wrote (fibre.py, assemble_b4.py, meta_b4.py,
+helpers_b4.js, dump.js and the batch 1–3 versions), `wave_c/raw/` its per-batch inputs and notes, and
+`wave_c/out/` the four returned batches and the counts job, so you can see exactly what a finished
+batch looks like and reuse the scripts. They are tools, not rules: where a script and a rules file
+disagree, the rules file wins. Deliver your batches into `wave_c/out/batch5/` onward, beside these.
