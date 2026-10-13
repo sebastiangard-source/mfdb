@@ -12,14 +12,14 @@ is in this folder. Read this file to the end before starting.
 ## What you are given
 
 `locations_db_v1.csv` — 10,923 rows, one per door. Every row is a **full-price, brand-owned US store**
-(no outlets, concessions, department-store counters, pop-ups or stockists) for 303 menswear and
+(no outlets, concessions, department-store counters, pop-ups or stockists) for 392 menswear and
 womenswear brands, with the address as the brand's own store locator writes it. Columns:
 
 `door_id, brand, map, store_name, banner, street, city, state, zip, country, phone, venue, operator,
 neighbourhood, source, captured_on, lat, lon, geo_source, geo_match`
 
 - `door_id` is the key. Return it unchanged; never retype it.
-- `street`, `city`, `state`, `zip` are the address. 103 rows have no ZIP; the street and city are still
+- `street`, `city`, `state`, `zip` are the address. 115 rows have no ZIP; the street and city are still
   there. `venue` is the mall or center name where the locator gave one, which helps when a street is
   a mall address ("6010 Mall Walk, Suite 8080").
 - `lat`, `lon`, `geo_source`, `geo_match` are empty. They are what you fill.
