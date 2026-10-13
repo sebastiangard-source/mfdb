@@ -1,4 +1,8 @@
-# geocode_locations_2026-10-11 — latitude and longitude for 9,061 brand-owned US stores
+# geocode_locations_2026-10-11 — latitude and longitude for 10,923 brand-owned US stores
+
+**Reissued 12 October 2026, evening.** This is the complete file as of tonight; it replaces the 11 October file and the three
+deltas (`delta_2026-10-12.csv`, `delta2_…`, `delta3_…`), which are left in the folder for reference only. `door_id` is stable:
+any row already geocoded from the earlier file or a delta keeps its id here, so return what you have and add the rest.
 
 **Issued** 11 October 2026 · **Kind** geocoding · **Returns to** Sebastian, who passes it to the Spectrum thread
 
@@ -7,15 +11,15 @@ is in this folder. Read this file to the end before starting.
 
 ## What you are given
 
-`locations_db_v1.csv` — 9,061 rows, one per door. Every row is a **full-price, brand-owned US store**
-(no outlets, concessions, department-store counters, pop-ups or stockists) for 233 menswear and
+`locations_db_v1.csv` — 10,923 rows, one per door. Every row is a **full-price, brand-owned US store**
+(no outlets, concessions, department-store counters, pop-ups or stockists) for 303 menswear and
 womenswear brands, with the address as the brand's own store locator writes it. Columns:
 
 `door_id, brand, map, store_name, banner, street, city, state, zip, country, phone, venue, operator,
 neighbourhood, source, captured_on, lat, lon, geo_source, geo_match`
 
 - `door_id` is the key. Return it unchanged; never retype it.
-- `street`, `city`, `state`, `zip` are the address. 70 rows have no ZIP; the street and city are still
+- `street`, `city`, `state`, `zip` are the address. 103 rows have no ZIP; the street and city are still
   there. `venue` is the mall or center name where the locator gave one, which helps when a street is
   a mall address ("6010 Mall Walk, Suite 8080").
 - `lat`, `lon`, `geo_source`, `geo_match` are empty. They are what you fill.
@@ -26,7 +30,7 @@ neighbourhood, source, captured_on, lat, lon, geo_source, geo_match`
 
 `door_id, lat, lon, geo_source, geo_match, matched_address, geo_note`
 
-**One row for every door_id in the input, 9,061 rows, no empty cells.** A door you could not place
+**One row for every door_id in the input, 10,923 rows, no empty cells.** A door you could not place
 is a row too, with `NC` in `lat`, `lon`, `geo_source`, `geo_match` and `matched_address` and the
 reason in `geo_note`. An empty cell is an error; `NC` means nobody could place it.
 
@@ -77,7 +81,7 @@ is from the list. Return only when it passes.
 
 ## What good looks like
 
-9,061 rows; 95% or more at `rooftop` or `street`; every `NC` with a reason a reader could act on;
+10,923 rows; 95% or more at `rooftop` or `street`; every `NC` with a reason a reader could act on;
 the validator passing. Mall addresses and suite numbers are where this usually goes wrong; the
 `venue` column is there for them.
 
