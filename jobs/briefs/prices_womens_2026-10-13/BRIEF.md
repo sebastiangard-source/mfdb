@@ -57,7 +57,10 @@ what the range is. The Spectrum thread will band those by hand.
 
 ## The band rule (men's, applied as is)
 
-Basic: tee entry at or under $35 and blouse entry under $80. Otherwise the mean of the blouse entry and
+Basic: **core** tee entry at or under $35 and **core** blouse entry under $80 — the plain, year-round version of
+each, not the cheapest item that fits the word (ruled 13 Oct: Aritzia's $28 ribbed baby tee and $58 smocked top
+are not its core tee and shirt; its core tee is the $50 Essential, its core shirt $88+). Say in `note` when you
+pass over a cheaper item for this reason. Otherwise the mean of the blouse entry and
 the sweater entry: under $150 Premium, $150–400 Accessible, over $400 True Luxury. A shoe house (no
 blouse, no sweater) bands on its shoe entry on the same cuts. Where the women's staples make the rule
 read wrong for a brand (a knit house with no blouse, a dress house with no sweater), say so in `note`

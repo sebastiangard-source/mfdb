@@ -31,6 +31,11 @@ so); sweater (the crewneck pullover is the staple; not a sweatshirt); outerwear 
 not blazers, sport coats or shirt-jackets); shoes (own-label footwear; the loafer is the staple).
 
 **Low and high.** Low is the cheapest full-price version of the staple in the current main range.
+**Core garment (ruled 13 Oct 2026).** The staple is the brand's plain, year-round version of the garment —
+the tee it sells every season in solid colours, the woven shirt it sells every season — not the cheapest
+item that fits the word. A ribbed baby tee, a technical running tee, a seasonal smocked or cropped top,
+a promotional pack tee is not the entry; say in `note` when you passed over a cheaper item for this
+reason. The Basic band is decided on the core tee and core shirt.
 High is the top of the same staple\u2019s regular range: for sweaters, the dearest crewneck in an elevated
 fibre; for outerwear, the same jacket style in an elevated material; for shoes, the dearest regular
 loafer. Where no such pair exists, `basis` is `range` and the cells are the cheapest and dearest

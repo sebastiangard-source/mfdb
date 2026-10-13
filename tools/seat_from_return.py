@@ -11,8 +11,12 @@ say, shoes). Tech and craft are seated at the thread's proposals, pending ruling
 
 Writes data/brands/<slug>.json for each brand in A that has a return row, appends own-door
 rows to data/places.json (src = job_id) and remaps region.o for every brand. Bands follow
-the price rule unless A overrides: tee at or under $35 and dress shirt under $80 (tee alone
-where there is no dress shirt, provided another clothing slot is priced) = basic; else the mean of dress-shirt and sweater entry:
+the price rule unless A overrides: the brand's CORE tee at or under $35 and CORE dress shirt under $80
+(tee alone where there is no dress shirt, provided another clothing slot is priced) = basic; else the mean of dress-shirt and sweater entry:
+Core (ruled 13 Oct 2026): the plain, year-round version of the garment, not the cheapest item that fits the
+word — a ribbed baby tee, a technical running tee or a seasonal smocked top is not the core tee or shirt.
+Where the return's entry price is not the core garment, A['prices_override'] or A['band'] carries the
+core figure with a note.
 under $150 premium, $150–400 accessible, over $400 trueLux; a shoe-only house by its shoe
 entry on the same cuts. Run lint after.
 """
