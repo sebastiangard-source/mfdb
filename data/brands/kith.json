@@ -103,17 +103,27 @@
  },
  "doors": {
   "c": "full",
-  "n": 14,
+  "n": 12,
   "cities": [
+   [
+    "Brooklyn",
+    "NY",
+    2
+   ],
+   [
+    "New York",
+    "NY",
+    2
+   ],
+   [
+    "West Hollywood",
+    "CA",
+    2
+   ],
    [
     "Beverly Hills",
     "CA",
     1
-   ],
-   [
-    "Brooklyn",
-    "NY",
-    3
    ],
    [
     "Chicago",
@@ -139,31 +149,19 @@
     "Miami Beach",
     "FL",
     1
-   ],
-   [
-    "New York",
-    "NY",
-    3
-   ],
-   [
-    "West Hollywood",
-    "CA",
-    2
    ]
   ],
-  "basis": "recapture 2026-10-10",
+  "basis": "recapture 2026-10-10; 2 kids/baby/home-only door(s) removed 13 Oct (not a men's door)",
   "out": 0,
   "con": 1
  },
- "cities": "14 stores, including Brooklyn, New York, Beverly Hills, and its own site",
+ "cities": "12 stores, including Brooklyn, New York, Beverly Hills, and its own site",
  "region": {
   "o": [
    1961,
    1962,
    1963,
-   1964,
-   1965,
-   1966
+   1964
   ],
   "s": []
  },

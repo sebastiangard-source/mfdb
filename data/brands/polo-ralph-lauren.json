@@ -114,8 +114,23 @@
  },
  "doors": {
   "c": "full",
-  "n": 47,
+  "n": 44,
   "cities": [
+   [
+    "Boston",
+    "MA",
+    3
+   ],
+   [
+    "Los Angeles",
+    "CA",
+    3
+   ],
+   [
+    "New York",
+    "NY",
+    2
+   ],
    [
     "Aspen",
     "CO",
@@ -145,11 +160,6 @@
     "Beverly Hills",
     "CA",
     1
-   ],
-   [
-    "Boston",
-    "MA",
-    3
    ],
    [
     "Charlotte",
@@ -202,11 +212,6 @@
     1
    ],
    [
-    "Los Angeles",
-    "CA",
-    3
-   ],
-   [
     "Manhasset",
     "NY",
     1
@@ -230,11 +235,6 @@
     "New Canaan",
     "CT",
     1
-   ],
-   [
-    "New York",
-    "NY",
-    5
    ],
    [
     "Newport Beach",
@@ -312,29 +312,26 @@
     1
    ]
   ],
-  "basis": "recapture 2026-10-10",
+  "basis": "recapture 2026-10-10; 3 kids/baby/home-only door(s) removed 13 Oct (not a men's door)",
   "out": 160,
   "con": 0
  },
- "cities": "47 stores across the US · department stores and independent menswear shops, and its own site",
+ "cities": "44 stores across the US · department stores and independent menswear shops, and its own site",
  "region": {
   "o": [
-   2775,
+   2773,
+   2774,
    2776,
    2778,
    2780,
    2782,
-   2784,
-   2785,
-   2788,
+   2783,
+   2786,
+   2791,
+   2792,
    2793,
-   2794,
-   2795,
-   2796,
-   2797,
-   2815,
-   2818,
-   2819
+   2811,
+   2814
   ],
   "s": [
    126,

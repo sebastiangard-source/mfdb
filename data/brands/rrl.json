@@ -96,8 +96,18 @@
  },
  "doors": {
   "c": "full",
-  "n": 26,
+  "n": 25,
   "cities": [
+   [
+    "Los Angeles",
+    "CA",
+    2
+   ],
+   [
+    "New York",
+    "NY",
+    2
+   ],
    [
     "Aspen",
     "CO",
@@ -159,11 +169,6 @@
     1
    ],
    [
-    "Los Angeles",
-    "CA",
-    2
-   ],
-   [
     "Malibu",
     "CA",
     1
@@ -182,11 +187,6 @@
     "Nashville",
     "TN",
     1
-   ],
-   [
-    "New York",
-    "NY",
-    3
    ],
    [
     "Newport Beach",
@@ -214,20 +214,19 @@
     1
    ]
   ],
-  "basis": "recapture 2026-10-10",
+  "basis": "recapture 2026-10-10; 1 kids/baby/home-only door(s) removed 13 Oct (not a men's door)",
   "out": 0,
   "con": 0
  },
- "cities": "26 stores, including New York, Aspen, Nashville · also inside Ralph Lauren stores and on ralphlauren.com",
+ "cities": "25 stores, including New York, Aspen, Nashville · also inside Ralph Lauren stores and on ralphlauren.com",
  "region": {
   "o": [
-   2862,
+   2857,
+   2858,
+   2859,
    2863,
-   2864,
-   2868,
-   2871,
-   2874,
-   2886
+   2866,
+   2869
   ],
   "s": [
    150

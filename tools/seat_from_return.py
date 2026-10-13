@@ -214,6 +214,9 @@ def main():
         drows = [d for d in D.get(name, []) if d['format'] == 'own-door' and d['country'] in ('US', 'USA', 'PR')  # Puerto Rico is US (ruled)
                  and d['status'].lower() not in ('closed', 'held', 'opening', 'coming-soon', 'temporarily closed')
                  and d['state'] not in ('GU', 'VI', 'AS', 'MP')]  # the map covers the 50 states, DC and PR
+        # a kids, baby or home store is not a men's door (ruled 13 Oct: Ralph Lauren Baby/Kids, Kith Kids, L.L.Bean Home)
+        KID = re.compile(r'\b(kids?|baby|babies|children|childrens|home store|home|girls|boys)\b', re.I)
+        drows = [d for d in drows if not KID.search((d.get('store_name') or '') + ' ' + (d.get('banner_stated') or ''))]
         # a row without a town cannot be placed; if any row is that thin, seat the count and hold the rows
         thin = [d for d in drows if nc(d['city']) or not d['state'].strip()]  # the state column is never NC-tested: NC is North Carolina
         if thin:
