@@ -2066,7 +2066,7 @@
    "id": "doors_womens_nap_2026-10-12",
    "title": "Women's doors, Net-a-Porter list — 161 brands (73 full reads, 88 screened)",
    "kind": "locations",
-   "state": "open",
+   "state": "closed",
    "created": "2026-10-12",
    "issued": "2026-10-12",
    "pilot": 0,
@@ -2103,10 +2103,20 @@
      "held": 0,
      "merged": 19,
      "triage": ""
+    },
+    {
+     "n": 2,
+     "file": "doors_womens_nap_2026-10-12/ALL",
+     "received": "2026-10-13",
+     "rows": 52,
+     "mergeable": 52,
+     "held": 0,
+     "merged": 52,
+     "triage": ""
     }
    ],
    "blocked_on": "",
-   "note": "Net-a-Porter US designer index checked 12 Oct: 469 names, 139 out of scope, 169 on a register, 161 on none; runs in parallel with doors_womens_2 | batches 1–2 (19 of 161, Anna Sui left out by ruling) merged 12 Oct: 2 US doors (Elie Saab, Extreme Cashmere), 17 zeros; 208 stockist rows kept in stockists_womens_2026-10-12.csv; wrong_sites.csv carried"
+   "note": "Net-a-Porter US designer index checked 12 Oct: 469 names, 139 out of scope, 169 on a register, 161 on none; runs in parallel with doors_womens_2 | batches 1–2 (19 of 161, Anna Sui left out by ruling) merged 12 Oct: 2 US doors (Elie Saab, Extreme Cashmere), 17 zeros; 208 stockist rows kept in stockists_womens_2026-10-12.csv; wrong_sites.csv carried | closed 13 Oct: 160 of 161 read (Anna Sui out by ruling); 49 own doors across 27 brands, 2 concessions; 1,103 stockist rows; 6 NC (Sorel bot check the one to chase); wrong_sites.csv has 23 incl. 2 unsafe domains"
   },
   {
    "id": "prices_womens_2026-10-13",
