@@ -1,0 +1,290 @@
+{
+ "name": "Nautica",
+ "band": "basic",
+ "seat": 342,
+ "dagger": 0,
+ "focus": {
+  "tech": 2,
+  "comfort": 3,
+  "craft": 1,
+  "style": 1
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 4,
+  "wool": 1,
+  "synth": 3
+ },
+ "dials": {
+  "dur": 2,
+  "forg": 3,
+  "fuss": -2,
+  "golffice": -2,
+  "whitet": 2,
+  "logo": 3,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1,
+  "boat": 4,
+  "prep": 2,
+  "murica": 2
+ },
+ "why": "David Chu's 1983 sailing-jacket label, now an Authentic Brands name sold through 71 outlets and one full-price store.",
+ "origin": "Founded in 1983 in New York City by David Chu.",
+ "chan": [
+  "O",
+  "D",
+  "W"
+ ],
+ "conf": "S",
+ "forgc": [
+  3,
+  3,
+  1
+ ],
+ "onething": {
+  "p": null,
+  "u": null,
+  "n": "no signature product named in the seat_wave_c_2026-10-08 return"
+ },
+ "prices": [
+  [
+   25,
+   70
+  ],
+  [
+   55,
+   90
+  ],
+  [
+   60,
+   90
+  ],
+  [
+   70,
+   70
+  ],
+  [
+   70,
+   99
+  ],
+  [
+   80,
+   118
+  ],
+  [
+   95,
+   168
+  ],
+  [
+   30,
+   30
+  ]
+ ],
+ "price_checked": true,
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants",
+  "Sweater",
+  "Outerwear",
+  "Shoes"
+ ],
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Logo Graphic T-Shirt",
+   "lu": "https://www.nautica.com/logo-graphic-t-shirt/ST5703.html",
+   "hp": "V-Neck Performance T-Shirt",
+   "hu": "https://www.nautica.com/v-neck-performance-t-shirt/KR6638.html",
+   "b": "range"
+  },
+  "Polo": {
+   "lp": "Classic Fit Deck Polo",
+   "lu": "https://www.nautica.com/classic-fit-deck-polo/KR8100.html",
+   "hp": "Golf Fit Long-Sleeve Button-Front Performance Polo",
+   "hu": "https://www.nautica.com/golf-fit-long-sleeve-button-front-performance-polo/KR6731.html",
+   "b": "range"
+  },
+  "Dress shirt": {
+   "lp": "Short-Sleeve Oxford Shirt",
+   "lu": "https://www.nautica.com/short-sleeve-oxford-shirt/WR6614.html",
+   "hp": "Plaid Flannel Shirt",
+   "hu": "https://www.nautica.com/plaid-flannel-shirt/WR6741.html",
+   "b": "range"
+  },
+  "Jeans": {
+   "lp": "Athletic Slim Stretch Denim",
+   "lu": "https://www.nautica.com/athletic-slim-stretch-denim/RP5513.html",
+   "hp": "Baggy Stretch Denim",
+   "hu": "https://www.nautica.com/baggy-stretch-denim/RP6604.html",
+   "b": "range"
+  },
+  "Dress pants": {
+   "lp": "Straight Fit Stretch Pant",
+   "lu": "https://www.nautica.com/straight-fit-stretch-pant/PR5503.html",
+   "hp": "Plaid Pleated Linen Pant",
+   "hu": "https://www.nautica.com/plaid-pleated-linen-pant/PR6708.html",
+   "b": "range"
+  },
+  "Sweater": {
+   "lp": "Performance Crewneck Sweater",
+   "lu": "https://www.nautica.com/performance-crewneck-sweater/SR6703.html",
+   "hp": "Embroidered Cableknit Crewneck Sweater",
+   "hu": "https://www.nautica.com/embroidered-cableknit-crewneck-sweater/SR6713.html",
+   "b": "range"
+  },
+  "Outerwear": {
+   "lp": "Nautex Fleece Full-Zip Jacket",
+   "lu": "https://www.nautica.com/nautex-fleece-full-zip-jacket/KR6774.html",
+   "hp": "Sailing Jacket",
+   "hu": "https://www.nautica.com/sailing-jacket/JR6700.html",
+   "b": "range"
+  },
+  "Shoes": {
+   "lp": "Logo Flip-Flop",
+   "lu": "https://www.nautica.com/logo-flip-flop/CG6892.html",
+   "hp": "Logo Flip-Flop",
+   "hu": "https://www.nautica.com/logo-flip-flop/CG6092.html",
+   "b": "range"
+  }
+ },
+ "garment_links": {
+  "T-shirt": "https://www.nautica.com/mens-t-shirts/",
+  "Polo": "https://www.nautica.com/mens-polos/",
+  "Dress shirt": "https://www.nautica.com/mens-casual-shirts/",
+  "Jeans": "https://www.nautica.com/mens-jeans/",
+  "Dress pants": "https://www.nautica.com/mens-pants/",
+  "Sweater": "https://www.nautica.com/mens-sweaters/",
+  "Outerwear": "https://www.nautica.com/mens-outerwear/",
+  "Shoes": "https://www.nautica.com/mens-flipflop/"
+ },
+ "price_read": {
+  "date": "2026-10-13",
+  "store": "https://www.nautica.com (Salesforce Commerce Cloud, men's grid read with start/sz paging)",
+  "currency": "USD",
+  "status": "partial (large house: full men's catalogue counted, fibre shares from a 124-row category-stratified sample)",
+  "sublines": "Navtech (performance), Nautica Jeans Co. denim, Big & Tall: sold under Nautica, counted"
+ },
+ "notes": {
+  "tech": "Thread proposed 2 (2026-10-13): Nautex; Navtech; REPREVE; T-400; TENCEL — own: Navtech (performance line), Nautex (fleece); licensed: TENCEL lyocell, REPREVE recycled polyester, T-400, LYCRA; share of range 13/125 styles name one of these in title or composition (sample rows). Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 1 (2026-10-13): Product pages say only \"Imported\"; no maker, mill or country is named. The founding is dated and placed but the making is not documented, so 1. Seated as proposed, pending ruling.",
+  "comfort": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "style": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "dur": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "forg": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "fuss": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "golffice": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "whitet": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "logo": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "western": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "rock": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "workwear": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "outdoor": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "surf": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "denim": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "cashmere": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "linen": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "cotton": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "wool": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "synth": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "boat": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "prep": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "murica": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional"
+ },
+ "doors": {
+  "c": "full",
+  "n": 1,
+  "cities": [
+   [
+    "Nogales",
+    "AZ",
+    1
+   ]
+  ],
+  "basis": "seat_wave_c_2026-10-08 2026-10-13",
+  "out": 71,
+  "con": 0
+ },
+ "cities": "One store, in Nogales · department stores, and its own site",
+ "site": {
+  "domain": "nautica.com",
+  "platform": "other",
+  "feed": "none",
+  "feed_count": 0,
+  "status": "live_store",
+  "checked": "2026-10-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "licensed",
+  "marks": [
+   "Nautex",
+   "Navtech",
+   "REPREVE",
+   "T-400",
+   "TENCEL"
+  ],
+  "source": "seat_wave_c_2026-10-08",
+  "checked": "2026-10-13"
+ },
+ "craft_evidence": {
+  "owned": "no claim found",
+  "makers": "no",
+  "mills": "no",
+  "madein": "123/124 sample styles say \"Imported\"; none name a country",
+  "heritage": "dated and placed: founded 1983 in New York City by designer David Chu with six outerwear pieces (/about-us.html)",
+  "process": "no",
+  "urls": [
+   "https://www.nautica.com/about-us.html",
+   "https://www.nautica.com/sailing-jacket/JR6700.html"
+  ],
+  "proposed": 1,
+  "reasoning": "Product pages say only \"Imported\"; no maker, mill or country is named. The founding is dated and placed but the making is not documented, so 1.",
+  "source": "seat_wave_c_2026-10-08"
+ },
+ "ownership": {
+  "owner": "NC",
+  "u": "https://www.nautica.com/about-us.html"
+ },
+ "opview": "“Our story began in 1983 with one clear vision: to create nautical-inspired, quality pieces that allow people across the world to realize and experience the joy of the water.” — the house, about page, nautica.com /about-us.html",
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?brand_ids[]=52259&brand_ids[]=1649540&catalog[]=5",
+   "m": "brand filter",
+   "n": ""
+  },
+  "grailed": {
+   "u": "https://www.grailed.com/designers/nautica"
+  }
+ },
+ "say": "NAW-tih-kuh",
+ "fibre": {
+  "t": 499,
+  "w": 124,
+  "n": 20,
+  "s": 5,
+  "c": 0,
+  "x": 10,
+  "xh": 2,
+  "sp": "one",
+  "sc": [
+   "mens-big-tall-outerwear",
+   "mens-outerwear",
+   "mens-polos-navtech",
+   "sale-mens-pants-shorts"
+  ],
+  "nc": [
+   "mens-t-shirts",
+   "mens-casual-shirts",
+   "mens-big-tall-shirts"
+  ],
+  "st": "partial"
+ },
+ "band_note": "basic by the price rule (tee $25, dress shirt $60)"
+}

@@ -1,0 +1,263 @@
+{
+ "name": "Spier & Mackay",
+ "band": "basic",
+ "seat": 359,
+ "dagger": 0,
+ "focus": {
+  "tech": 1,
+  "comfort": 3,
+  "craft": 3,
+  "style": 2
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 2,
+  "cotton": 3,
+  "wool": 5,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 3,
+  "fuss": 2,
+  "golffice": 3,
+  "whitet": 1,
+  "logo": 1,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1,
+  "finbro": 3,
+  "ital": 2
+ },
+ "why": "Toronto tailoring brand selling half-canvassed suits and mill-named shirts online at a fraction of the price; one showroom in Mississauga, none in the US.",
+ "origin": "Founding date and place not published by the brand.",
+ "chan": [
+  "W"
+ ],
+ "conf": "S",
+ "forgc": [
+  3,
+  3,
+  1
+ ],
+ "onething": {
+  "p": null,
+  "u": null,
+  "n": "no signature product named in the seat_wave_c_2026-10-08 return"
+ },
+ "prices": [
+  [
+   28,
+   78
+  ],
+  [
+   55,
+   115
+  ],
+  [
+   58,
+   88
+  ],
+  [
+   98,
+   98
+  ],
+  [
+   128,
+   248
+  ],
+  [
+   88,
+   598
+  ],
+  [
+   168,
+   748
+  ],
+  [
+   178,
+   368
+  ]
+ ],
+ "price_checked": true,
+ "price_range_only": [
+  "T-shirt",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants",
+  "Sweater",
+  "Outerwear",
+  "Shoes"
+ ],
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "2-Ply Cotton Crewneck T-Shirt",
+   "lu": "https://www.spierandmackay.com/product/product-detail/burgundy-2-ply-cotton-crewneck-t-shirt",
+   "hp": "Linen-Cotton Rolled Edge T-Shirt",
+   "hu": "https://www.spierandmackay.com/product/product-detail/sage-off-white-linen-cotton-rolled-edge-t-shirt",
+   "b": "range"
+  },
+  "Polo": {
+   "lp": "Classic Polo (100% cotton pique)",
+   "lu": "https://www.spierandmackay.com/product/product-detail/blue-classic-polo",
+   "hp": "Camel Silk Linen Knit Polo (55% silk, 45% linen)",
+   "hu": "https://www.spierandmackay.com/product/product-detail/camel-silk-linen-knit-polo",
+   "b": "pair"
+  },
+  "Dress shirt": {
+   "lp": "White Pin Oxford",
+   "lu": "https://www.spierandmackay.com/product/product-detail/white-pin-oxford",
+   "hp": "Medium Blue Italian Full Spread Royal Twill 2-Ply 100s (Egyptian Giza cotton)",
+   "hu": "https://www.spierandmackay.com/product/product-detail/medium-blue-italian-full-spread-royal-twill-2-ply-100-s",
+   "b": "range"
+  },
+  "Jeans": {
+   "lp": "Rinse Wash Denim Jeans",
+   "lu": "https://www.spierandmackay.com/product/product-detail/rinse-wash-denim-jeans",
+   "hp": "Rinse Wash High Rise Denim Jeans",
+   "hu": "https://www.spierandmackay.com/product/product-detail/rinse-wash-high-rise-denim-jeans",
+   "b": "range"
+  },
+  "Dress pants": {
+   "lp": "Black Stretch Ellis Trousers (98% wool)",
+   "lu": "https://www.spierandmackay.com/product/product-detail/black-stretch-ellis-trousers",
+   "hp": "Dark Gray Neo 2 Trousers (100% merino wool)",
+   "hu": "https://www.spierandmackay.com/product/product-detail/dark-gray-neo--2-trousers",
+   "b": "range"
+  },
+  "Sweater": {
+   "lp": "Shetland Crewneck Sweater (100% Shetland wool)",
+   "lu": "https://www.spierandmackay.com/product/product-detail/burgundy-shetland-crewneck-sweater-KN-SCN1",
+   "hp": "Charcoal Chunky Shawl Cardigan (100% Inner Mongolian cashmere)",
+   "hu": "https://www.spierandmackay.com/product/product-detail/charcoal-chunky-shawl-cardigan-KN-CCDN",
+   "b": "range"
+  },
+  "Outerwear": {
+   "lp": "Natural Herringbone Teba Jacket",
+   "lu": "https://www.spierandmackay.com/product/product-detail/natural-herringbone-teba-jacket",
+   "hp": "Brown Donegal Herringbone Balmacaan (100% merino wool)",
+   "hu": "https://www.spierandmackay.com/product/product-detail/brown-donegal-herringbone-balmacaan",
+   "b": "range"
+  },
+  "Shoes": {
+   "lp": "Brown Woven Loafer",
+   "lu": "https://www.spierandmackay.com/collection/all-shoes",
+   "hp": "Black Wholecut Dress Shoes",
+   "hu": "https://www.spierandmackay.com/collection/all-shoes",
+   "b": "range"
+  }
+ },
+ "garment_links": {
+  "T-shirt": "https://www.spierandmackay.com/collection/all-t-shirts",
+  "Polo": "https://www.spierandmackay.com/collection/all-polos",
+  "Dress shirt": "https://www.spierandmackay.com/collection/all-dress-shirts",
+  "Jeans": "https://www.spierandmackay.com/collection/denim-5-pocket",
+  "Dress pants": "https://www.spierandmackay.com/collection/dress-trousers",
+  "Sweater": "https://www.spierandmackay.com/collection/all-knitwear",
+  "Outerwear": "https://www.spierandmackay.com/collection/all-outerwear",
+  "Shoes": "https://www.spierandmackay.com/collection/all-shoes"
+ },
+ "price_read": {
+  "date": "2026-10-13",
+  "store": "https://www.spierandmackay.com (custom storefront; prices shown in USD to a US visitor)",
+  "currency": "USD",
+  "status": "partial (founding not looked for; style grouping approximate)",
+  "sublines": "Emerald Label \"Sartorial\" Collection (counted)"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-13):  — NONE; share of range NONE. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 3 (2026-10-13): Mills are named product by product and construction is described, but no maker, facility or country of make is named, so 3. Seated as proposed, pending ruling.",
+  "comfort": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "style": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "dur": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "forg": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "fuss": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "golffice": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "whitet": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "logo": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "western": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "rock": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "workwear": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "outdoor": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "surf": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "denim": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "cashmere": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "linen": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "cotton": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "wool": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "synth": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "finbro": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "ital": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional"
+ },
+ "doors": {
+  "c": "full",
+  "n": 0,
+  "cities": [],
+  "basis": "positive zero 2026-10-13 (seat_wave_c_2026-10-08)",
+  "out": 0,
+  "con": 0
+ },
+ "cities": "No store of its own in the US · its own site",
+ "site": {
+  "domain": "spierandmackay.com",
+  "platform": "other",
+  "feed": "none",
+  "feed_count": 0,
+  "status": "live_store",
+  "checked": "2026-10-13"
+ },
+ "tech_evidence": {
+  "names": "no",
+  "origin": "none",
+  "marks": [],
+  "source": "seat_wave_c_2026-10-08",
+  "checked": "2026-10-13"
+ },
+ "craft_evidence": {
+  "owned": "NC",
+  "makers": "no",
+  "mills": "yes: product cards and pages name mills (Reda, Hardy Minnis, Zignone, Marling & Evans, Dino Filarte, Redaelli Velluti); the showroom page lists about 30 (Vitale Barberis Canonico, Fox Brothers, Abraham Moon and others)",
+  "madein": "3/279 styles name a country on the product page",
+  "heritage": "NC",
+  "process": "partial: canvassing (half or full canvas), cloth weights and mills given per product",
+  "urls": [
+   "https://lp.spierandmackay.com/spier-and-mackay-heartland-town-centre",
+   "https://www.spierandmackay.com/product/product-detail/heather-navy-moro-suit"
+  ],
+  "proposed": 3,
+  "reasoning": "Mills are named product by product and construction is described, but no maker, facility or country of make is named, so 3.",
+  "source": "seat_wave_c_2026-10-08"
+ },
+ "ownership": {
+  "owner": "NC",
+  "u": null
+ },
+ "opview": "“Experience menswear the way it should be: premium fabrics, precise fits, and expert-level details you can feel for yourself.” — the house, Heartland showroom page, lp.spierandmackay.com /spier-and-mackay-heartland-town-centre",
+ "resale": {
+  "grailed": {
+   "u": "https://www.grailed.com/designers/spier-mackay"
+  }
+ },
+ "say": "SPEER and muh-KAY",
+ "fibre": {
+  "t": 279,
+  "w": 262,
+  "n": 90,
+  "s": 2,
+  "c": 2,
+  "x": 4,
+  "xh": 3,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "shirts",
+   "tailoring",
+   "knitwear"
+  ],
+  "st": "complete"
+ },
+ "band_note": "basic by the price rule (tee $28, dress shirt $58)"
+}

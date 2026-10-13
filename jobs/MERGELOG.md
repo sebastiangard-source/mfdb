@@ -1803,3 +1803,11 @@ Thread read Nike's store directory after close: 252 stores = 40 full-price + 212
 - Rulings applied at merge: G by GUESS (54 rows) re-filed under its own name (GUESS outlets 184→130), format held as filed, universe inclusion open; DKNY/Karl Lagerfeld Paris shared G-III outlets flagged `shared door`, both kept; pop-ups not counted (standing); by-appointment showrooms count, flagged (Flusser/Balmain/T&A precedent) — four readers' exclusions can't be added (no rows returned); Cynthia Rowley and Adrianna Papell NC.
 - NAP job batches 1–2: 2 doors (Elie Saab, Extreme Cashmere), 19 counts, 208 stockist rows → stockists_womens_2026-10-12.csv; wrong_sites.csv carried.
 - Locations DB 10,923 doors; geocoding delta 3 issued (817 doors).
+
+## 13 October 2026 — wave C batches 5–9 (v3.56.0), wave C closed
+- Seated 37 (Lady White Co. … Études); held Oxxford, Samuelsohn (no priced staple — the HSM case), UGG (men's prices NC behind a bot check), Y-3 (unread by ruling). Wave C 77 of 81; 370 brands on the map.
+- JPY houses (Needles, Nigel Cabourn, Undercover) banded Accessible by hand at ¥150/$; native prices on the record.
+- Doors `none`: Perfect Moment, Quoddy, RVCA (store pages render nothing). Mango craft 1 by default (product pages blocked). Puma outlets 110 incl. 3 PR.
+- `seat_from_return.py`: Puerto Rico rows count as US (own doors and outlet/concession counts).
+- NYC rows: 10110 added to the zips map; Zara Queens Center filed Elmhurst; Zara Smith Haven → Lake Grove (Long Island); Lawrence Township NJ → Central Jersey.
+- Registers rebuilt; locations DB 11,052 doors; geocoding delta 4 (129 doors) issued.

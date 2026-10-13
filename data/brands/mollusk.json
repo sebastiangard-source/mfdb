@@ -1,0 +1,243 @@
+{
+ "name": "Mollusk",
+ "band": "premium",
+ "seat": 340,
+ "dagger": 0,
+ "focus": {
+  "tech": 1,
+  "comfort": 4,
+  "craft": 2,
+  "style": 3
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 2,
+  "cotton": 5,
+  "wool": 2,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 4,
+  "fuss": -2,
+  "golffice": -3,
+  "whitet": 3,
+  "logo": 2,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 2,
+  "surf": 5,
+  "murica": 2
+ },
+ "why": "Outer Sunset surf shop with its own small-batch line, family-run; three stores, San Francisco, Santa Barbara and Venice.",
+ "origin": "Founded in San Francisco (Outer Sunset; \"the original\" shop).",
+ "chan": [
+  "O",
+  "W"
+ ],
+ "conf": "S",
+ "forgc": [
+  3,
+  4,
+  1
+ ],
+ "onething": {
+  "p": null,
+  "u": null,
+  "n": "no signature product named in the seat_wave_c_2026-10-08 return"
+ },
+ "prices": [
+  [
+   37,
+   65
+  ],
+  null,
+  [
+   88,
+   120
+  ],
+  null,
+  [
+   88,
+   120
+  ],
+  [
+   130,
+   175
+  ],
+  [
+   110,
+   160
+  ],
+  null
+ ],
+ "price_checked": true,
+ "price_range_only": [
+  "T-shirt",
+  "Dress shirt",
+  "Dress pants",
+  "Sweater",
+  "Outerwear"
+ ],
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Olde Whale Tee",
+   "lu": "https://mollusksurfshop.com/products/olde-whale-tee-faded-black",
+   "hp": "Hemp Striped Long Sleeve (55% hemp, 45% cotton)",
+   "hu": "https://mollusksurfshop.com/products/hemp-striped-long-sleeve-brown-stripe",
+   "b": "range"
+  },
+  "Dress shirt": {
+   "lp": "Summer Shirt (50% cotton, 50% linen)",
+   "lu": "https://mollusksurfshop.com/products/summer-shirt-jerry-blue",
+   "hp": "Woodchuck Shirt",
+   "hu": "https://mollusksurfshop.com/products/woodchuck-shirt-mash-green",
+   "b": "range"
+  },
+  "Dress pants": {
+   "lp": "Jeffrey Pants",
+   "lu": "https://mollusksurfshop.com/products/jeffrey-pants-navy",
+   "hp": "Boat Pants (black corduroy)",
+   "hu": "https://mollusksurfshop.com/products/boat-pants-black-corduroy",
+   "b": "range"
+  },
+  "Sweater": {
+   "lp": "Hemp Cambridge Sweater (40% hemp, 60% Supima cotton)",
+   "lu": "https://mollusksurfshop.com/products/cotton-cambridge-sweater-gray-flannel",
+   "hp": "Fuzzy Cambridge Sweater (65% merino, 30% recycled nylon, 5% alpaca)",
+   "hu": "https://mollusksurfshop.com/products/fuzzy-cambridge-sweater-butterscotch",
+   "b": "range"
+  },
+  "Outerwear": {
+   "lp": "Builder Jacket (indigo denim)",
+   "lu": "https://mollusksurfshop.com/products/builder-jacket-indigo-denim",
+   "hp": "Work Jacket",
+   "hu": "https://mollusksurfshop.com/products/work-jacket-black",
+   "b": "range"
+  }
+ },
+ "garment_links": {
+  "T-shirt": "https://mollusksurfshop.com/mens",
+  "Dress shirt": "https://mollusksurfshop.com/mens",
+  "Dress pants": "https://mollusksurfshop.com/mens",
+  "Sweater": "https://mollusksurfshop.com/mens",
+  "Outerwear": "https://mollusksurfshop.com/mens"
+ },
+ "price_read": {
+  "date": "2026-10-13",
+  "store": "https://mollusksurfshop.com (headless Shopify; catalogue read through the store's own Storefront API)",
+  "currency": "USD",
+  "status": "complete",
+  "sublines": "-"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-13):  — NONE; share of range NONE. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 2 (2026-10-13): The house says its small-batch line is designed in house and a few products state California or Peru; no maker or mill is named on the page and nothing is owned, so 2. Seated as proposed, pending ruling.",
+  "comfort": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "style": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "dur": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "forg": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "fuss": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "golffice": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "whitet": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "logo": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "western": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "rock": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "workwear": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "outdoor": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "surf": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "denim": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "cashmere": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "linen": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "cotton": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "wool": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "synth": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "murica": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional"
+ },
+ "doors": {
+  "c": "full",
+  "n": 3,
+  "cities": [
+   [
+    "San Francisco",
+    "CA",
+    1
+   ],
+   [
+    "Santa Barbara",
+    "CA",
+    1
+   ],
+   [
+    "Venice",
+    "CA",
+    1
+   ]
+  ],
+  "basis": "seat_wave_c_2026-10-08 2026-10-13",
+  "out": 0,
+  "con": 0
+ },
+ "cities": "3 stores across the US, including San Francisco, Santa Barbara, Venice · its own site",
+ "site": {
+  "domain": "mollusksurfshop.com",
+  "platform": "other",
+  "feed": "none",
+  "feed_count": 0,
+  "status": "live_store",
+  "checked": "2026-10-13"
+ },
+ "tech_evidence": {
+  "names": "no",
+  "origin": "none",
+  "marks": [],
+  "source": "seat_wave_c_2026-10-08",
+  "checked": "2026-10-13"
+ },
+ "craft_evidence": {
+  "owned": "no claim found; the clothing line is \"designed in house\" (store pages)",
+  "makers": "not on the page; the store feed's vendor field names the maker on every own-label product (Beview Garments Limited, Dongguan Chaoxiang Fashion Co., Ltd., Corceli SAC, Brinell): for ruling",
+  "mills": "no",
+  "madein": "11/115 own styles state a place: \"Made in California\" or Los Angeles on 8 graphic tees, Peru on 3 alpaca-blend sweaters",
+  "heritage": "partly dated: Venice Beach \"keeping the dream alive since 2007\"; San Francisco described as \"the original\" (store pages); founding year not stated",
+  "process": "no",
+  "urls": [
+   "https://mollusksurfshop.com/san-francisco",
+   "https://mollusksurfshop.com/venice-beach"
+  ],
+  "proposed": 2,
+  "reasoning": "The house says its small-batch line is designed in house and a few products state California or Peru; no maker or mill is named on the page and nothing is owned, so 2.",
+  "source": "seat_wave_c_2026-10-08"
+ },
+ "ownership": {
+  "owner": "family owned and operated (footer)",
+  "u": "https://mollusksurfshop.com/san-francisco"
+ },
+ "opview": "“The perfect fit and feel small batch clothing line that we carry is designed in house.” — the house, San Francisco store page, mollusksurfshop.com /san-francisco",
+ "resale": {
+  "grailed": {
+   "u": "https://www.grailed.com/designers/mollusk"
+  }
+ },
+ "say": "MOLL-usk",
+ "fibre": {
+  "t": 115,
+  "w": 114,
+  "n": 92,
+  "s": 7,
+  "c": 0,
+  "x": 5,
+  "xh": 2,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "Mens Graphic Tees",
+   "Mens Pants",
+   "Mens Hooded Sweatshirts"
+  ],
+  "st": "complete"
+ },
+ "band_note": "premium by the price rule (dress shirt $88, sweater $130)"
+}

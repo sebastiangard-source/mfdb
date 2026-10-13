@@ -1,0 +1,256 @@
+{
+ "name": "Pilgrim Surf + Supply",
+ "band": "accessible",
+ "seat": 351,
+ "dagger": 0,
+ "focus": {
+  "tech": 1,
+  "comfort": 4,
+  "craft": 2,
+  "style": 4
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 1,
+  "linen": 2,
+  "cotton": 4,
+  "wool": 2,
+  "synth": 2
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 3,
+  "fuss": -1,
+  "golffice": -3,
+  "whitet": 3,
+  "logo": 2,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 2,
+  "surf": 5,
+  "street": 2,
+  "status": 2
+ },
+ "why": "Williamsburg surf shop from 2012 with its own Japanese-made line, the shop under the brand's name on Grand Street and two in Japan.",
+ "origin": "Founded in 2012 in Williamsburg, Brooklyn, New York by Chris and Erin Gentile.",
+ "chan": [
+  "O",
+  "W"
+ ],
+ "conf": "S",
+ "forgc": [
+  3,
+  3,
+  1
+ ],
+ "onething": {
+  "p": null,
+  "u": null,
+  "n": "no signature product named in the seat_wave_c_2026-10-08 return"
+ },
+ "prices": [
+  [
+   55,
+   135
+  ],
+  null,
+  [
+   225,
+   355
+  ],
+  [
+   195,
+   260
+  ],
+  [
+   235,
+   295
+  ],
+  [
+   285,
+   285
+  ],
+  [
+   285,
+   320
+  ],
+  null
+ ],
+ "price_checked": true,
+ "price_range_only": [
+  "Dress shirt",
+  "Jeans",
+  "Dress pants",
+  "Outerwear"
+ ],
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Team Tee",
+   "lu": "https://pilgrimsurfsupply.com/products/pilgrim-team-tee-2025",
+   "hp": "Super 140's Wool Jersey Tee (100% wool)",
+   "hu": "https://pilgrimsurfsupply.com/products/pilgrim-super-140s-wool-jersey-tee",
+   "b": "pair"
+  },
+  "Dress shirt": {
+   "lp": "Serra Typewriter Shirt",
+   "lu": "https://pilgrimsurfsupply.com/products/pilgrim-serra-typewriter-shirt",
+   "hp": "Serra Tropical Wool Shirt",
+   "hu": "https://pilgrimsurfsupply.com/products/pilgrim-serra-tropical-wool-shirt",
+   "b": "range"
+  },
+  "Jeans": {
+   "lp": "Robson 5-Pocket 11.5 Oz Denim Pant",
+   "lu": "https://pilgrimsurfsupply.com/products/pilgrim-robson-5-pocket-11-5-oz-denim-pant",
+   "hp": "Salathe 11oz Nep Denim Straight Pant",
+   "hu": "https://pilgrimsurfsupply.com/products/pilgrim-salathe-11oz-nep-denim-straight-pant",
+   "b": "range"
+  },
+  "Dress pants": {
+   "lp": "Wolf Baker Pant",
+   "lu": "https://pilgrimsurfsupply.com/products/pilgrim-wolf-baker-pant",
+   "hp": "Barnes Back Satin Fatigue Pant",
+   "hu": "https://pilgrimsurfsupply.com/products/pilgrim-barnes-back-satin-fatigue-pant",
+   "b": "range"
+  },
+  "Sweater": {
+   "lp": "Antonio Wool Zip Up",
+   "lu": "https://pilgrimsurfsupply.com/products/pilgrim-antonio-wool-zip-up",
+   "hp": "Antonio Wool Zip Up",
+   "hu": "https://pilgrimsurfsupply.com/products/pilgrim-antonio-wool-zip-up",
+   "b": "single"
+  },
+  "Outerwear": {
+   "lp": "Russel Zip Parka",
+   "lu": "https://pilgrimsurfsupply.com/products/pilgrim-russel-zip-parka-ss25",
+   "hp": "Finn Alpha Jacket",
+   "hu": "https://pilgrimsurfsupply.com/products/pilgrim-finn-alpha-jacket",
+   "b": "range"
+  }
+ },
+ "garment_links": {
+  "T-shirt": "https://pilgrimsurfsupply.com/collections/mens",
+  "Polo": "https://pilgrimsurfsupply.com/collections/mens",
+  "Dress shirt": "https://pilgrimsurfsupply.com/collections/mens",
+  "Jeans": "https://pilgrimsurfsupply.com/collections/mens",
+  "Dress pants": "https://pilgrimsurfsupply.com/collections/mens",
+  "Sweater": "https://pilgrimsurfsupply.com/collections/mens",
+  "Outerwear": "https://pilgrimsurfsupply.com/collections/mens"
+ },
+ "price_read": {
+  "date": "2026-10-13",
+  "store": "https://pilgrimsurfsupply.com (vendor = Pilgrim; men's = the store's mens collection)",
+  "currency": "USD",
+  "status": "partial (men's scope is the mens collection, a floor)",
+  "sublines": "-"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-13): CORDURA; SOLOTEX — licensed fibre and fabric names in titles: CORDURA, SOLOTEX, Dyneema (bags); share of range 3/55 styles name one of these in title or composition. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 2 (2026-10-13): Many product pages say made in Japan and the house describes small-batch making with small factories, but none is named, so 2. Seated as proposed, pending ruling.",
+  "comfort": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "style": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "dur": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "forg": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "fuss": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "golffice": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "whitet": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "logo": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "western": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "rock": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "workwear": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "outdoor": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "surf": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "denim": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "cashmere": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "linen": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "cotton": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "wool": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "synth": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "street": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "status": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional"
+ },
+ "doors": {
+  "c": "full",
+  "n": 1,
+  "cities": [
+   [
+    "Brooklyn",
+    "NY",
+    1
+   ]
+  ],
+  "basis": "seat_wave_c_2026-10-08 2026-10-13",
+  "out": 0,
+  "con": 0
+ },
+ "cities": "One store, in Brooklyn · its own site",
+ "site": {
+  "domain": "pilgrimsurfsupply.com",
+  "platform": "other",
+  "feed": "none",
+  "feed_count": 0,
+  "status": "live_store",
+  "checked": "2026-10-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "licensed",
+  "marks": [
+   "CORDURA",
+   "SOLOTEX"
+  ],
+  "source": "seat_wave_c_2026-10-08",
+  "checked": "2026-10-13"
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "makers": "no (\"close relationships with small-scale factories and dedicated artisans\")",
+  "mills": "no",
+  "madein": "19/55 styles name a country on the product page",
+  "heritage": "dated and placed: established in 2012 by Chris and Erin Gentile in Williamsburg, Brooklyn; own collection since 2015 (/pages/about-page)",
+  "process": "partial: low order quantities, natural, recycled and upcycled textiles",
+  "urls": [
+   "https://pilgrimsurfsupply.com/pages/about-page"
+  ],
+  "proposed": 2,
+  "reasoning": "Many product pages say made in Japan and the house describes small-batch making with small factories, but none is named, so 2.",
+  "source": "seat_wave_c_2026-10-08"
+ },
+ "ownership": {
+  "owner": "NC",
+  "u": null
+ },
+ "opview": "“At the core of Pilgrim’s practice is a deep respect for craftsmanship and sustainability.” — the house, About page, pilgrimsurfsupply.com /pages/about-page",
+ "resale": {
+  "grailed": {
+   "u": "https://www.grailed.com/designers/pilgrim-surf-supply"
+  }
+ },
+ "say": "PIL-grim",
+ "fibre": {
+  "t": 55,
+  "w": 55,
+  "n": 71,
+  "s": 27,
+  "c": 2,
+  "x": 0,
+  "xh": 0,
+  "sp": "one",
+  "sc": [
+   "outerwear"
+  ],
+  "nc": [
+   "tees-polos",
+   "trousers",
+   "shirts"
+  ],
+  "st": "complete"
+ },
+ "band_note": "accessible by the price rule (dress shirt $225, sweater $285)",
+ "region": {
+  "o": [
+   6616
+  ],
+  "s": []
+ }
+}

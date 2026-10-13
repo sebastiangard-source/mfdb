@@ -1,0 +1,550 @@
+{
+ "name": "Mango",
+ "band": "basic",
+ "seat": 338,
+ "dagger": 0,
+ "focus": {
+  "tech": 1,
+  "comfort": 3,
+  "craft": 1,
+  "style": 3
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 1,
+  "linen": 2,
+  "cotton": 3,
+  "wool": 2,
+  "synth": 3
+ },
+ "dials": {
+  "dur": 2,
+  "forg": 3,
+  "fuss": 0,
+  "golffice": -1,
+  "whitet": 2,
+  "logo": 1,
+  "western": 1,
+  "rock": 1,
+  "workwear": 1,
+  "outdoor": 1,
+  "surf": 1,
+  "status": 1
+ },
+ "why": "Barcelona fast-fashion house from 1984 with a growing US fleet: 62 stores read, 17 carrying men's; product pages blocked, so craft is unscored.",
+ "origin": "Founding date and place not published by the brand.",
+ "chan": [
+  "O",
+  "W"
+ ],
+ "conf": "S",
+ "forgc": [
+  3,
+  3,
+  1
+ ],
+ "onething": {
+  "p": null,
+  "u": null,
+  "n": "no signature product named in the seat_wave_c_2026-10-08 return"
+ },
+ "prices": [
+  [
+   26,
+   60
+  ],
+  [
+   40,
+   150
+  ],
+  [
+   70,
+   100
+  ],
+  [
+   80,
+   200
+  ],
+  [
+   100,
+   140
+  ],
+  [
+   90,
+   120
+  ],
+  [
+   120,
+   380
+  ],
+  [
+   140,
+   200
+  ]
+ ],
+ "price_checked": true,
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants",
+  "Sweater",
+  "Outerwear"
+ ],
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "V-neck T-shirt",
+   "lu": "https://shop.mango.com/us/en/p/men/t-shirts/slim-fit/v-neck-t-shirt/17051229",
+   "hp": "100% cotton striped jersey T-shirt",
+   "hu": "https://shop.mango.com/us/en/p/men/t-shirts/basics/100-cotton-striped-jersey-t-shirt/27047914",
+   "b": "range"
+  },
+  "Polo": {
+   "lp": "100% cotton pique polo",
+   "lu": "https://shop.mango.com/us/en/p/men/polos/pique/100-cotton-pique-polo/37081368",
+   "hp": "100% cotton knitted polo shirt",
+   "hu": "https://shop.mango.com/us/en/p/men/polos/100-cotton-knitted-polo-shirt/67067912",
+   "b": "range"
+  },
+  "Dress shirt": {
+   "lp": "100% cotton striped shirt",
+   "lu": "https://shop.mango.com/us/en/p/men/shirts/regular-fit/100-cotton-striped-shirt/37064437",
+   "hp": "Slim-fit Giza cotton striped formal shirt",
+   "hu": "https://shop.mango.com/us/en/p/men/shirts/slim-fit/slim-fit-giza-cotton-striped-formal-shirt/17038642",
+   "b": "range"
+  },
+  "Jeans": {
+   "lp": "Ben cropped tapered-fit jeans",
+   "lu": "https://shop.mango.com/us/en/p/men/jeans/tapered/ben-cropped-tapered-fit-jeans/17011224",
+   "hp": "Jeans made in Italy, regular fit, Candiani fabric",
+   "hu": "https://shop.mango.com/us/en/p/men/jeans/regular/jeans-made-in-italy--regular-fit--candiani-fabric/37025842",
+   "b": "range"
+  },
+  "Dress pants": {
+   "lp": "Monaco slim-fit suit trousers",
+   "lu": "https://shop.mango.com/us/en/p/men/trousers/slim-fit/monaco-slim-fit-suit-trousers/37025159",
+   "hp": "Turin 100% wool suit trousers",
+   "hu": "https://shop.mango.com/us/en/p/men/trousers/slim-fit/turin-100-wool-suit-trousers/37066322",
+   "b": "range"
+  },
+  "Sweater": {
+   "lp": "Knitted wool blend sweater",
+   "lu": "https://shop.mango.com/us/en/p/men/sweaters-and-cardigans/basics/knitted-wool-blend-sweater/17077895",
+   "hp": "100% wool fine-knit sweater",
+   "hu": "https://shop.mango.com/us/en/p/men/sweaters-and-cardigans/100-wool/100-wool-fine-knit-sweater/37027888",
+   "b": "range"
+  },
+  "Outerwear": {
+   "lp": "Flannel jacket with pockets",
+   "lu": "https://shop.mango.com/us/en/p/men/jackets/jackets/flannel-jacket-with-pockets/37007895",
+   "hp": "Leather jacket with pocket",
+   "hu": "https://shop.mango.com/us/en/p/men/jackets/field-jackets/leather-jacket-with-pocket/37074400",
+   "b": "range"
+  },
+  "Shoes": {
+   "lp": "Leather penny loafers",
+   "lu": "https://shop.mango.com/us/en/p/men/shoes/leather/leather-penny-loafers/37044433",
+   "hp": "Leather penny loafers (second style)",
+   "hu": "https://shop.mango.com/us/en/p/men/shoes/leather/leather-penny-loafers/17041282",
+   "b": "pair"
+  }
+ },
+ "garment_links": {
+  "T-shirt": "https://shop.mango.com/us/en/c/men/t-shirts",
+  "Polo": "https://shop.mango.com/us/en/c/men/polos",
+  "Dress shirt": "https://shop.mango.com/us/en/c/men/shirts",
+  "Jeans": "https://shop.mango.com/us/en/c/men/jeans",
+  "Dress pants": "https://shop.mango.com/us/en/c/men/pants",
+  "Sweater": "https://shop.mango.com/us/en/c/men/sweaters-and-cardigans",
+  "Outerwear": "https://shop.mango.com/us/en/c/men/jackets",
+  "Shoes": "https://shop.mango.com/us/en/c/men/shoes"
+ },
+ "price_read": {
+  "date": "2026-10-13",
+  "store": "https://shop.mango.com/us/en (US store; category pages + online-orchestrator product and price APIs)",
+  "currency": "USD",
+  "status": "partial (large house: product pages blocked, so no compositions; style count is a floor from category pages; prices from a 144-row sample)",
+  "sublines": "-"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-13): Candiani; Giza — mill and cotton names in product titles only (Candiani denim mill; Giza cotton); compositions not read; share of range 4/144 styles name one of these in title or composition (sample rows). Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 1 (2026-10-13): Product pages could not be read (blocked), so no craft score is proposed. Seated as proposed, pending ruling.",
+  "comfort": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "style": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "dur": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "forg": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "fuss": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "golffice": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "whitet": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "logo": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "western": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "rock": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "workwear": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "outdoor": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "surf": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "denim": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "cashmere": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "linen": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "cotton": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "wool": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "synth": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional",
+  "status": "seeded 2026-10-13 from the seat_wave_c_2026-10-08 return; provisional"
+ },
+ "doors": {
+  "c": "full",
+  "n": 62,
+  "cities": [
+   [
+    "New York",
+    "NY",
+    4
+   ],
+   [
+    "Miami",
+    "FL",
+    3
+   ],
+   [
+    "Atlanta",
+    "GA",
+    2
+   ],
+   [
+    "Houston",
+    "TX",
+    2
+   ],
+   [
+    "Portland",
+    "OR",
+    2
+   ],
+   [
+    "San Antonio",
+    "TX",
+    2
+   ],
+   [
+    "Albuquerque",
+    "NM",
+    1
+   ],
+   [
+    "Arlington",
+    "VA",
+    1
+   ],
+   [
+    "Aventura",
+    "FL",
+    1
+   ],
+   [
+    "Baton Rouge",
+    "LA",
+    1
+   ],
+   [
+    "Bellevue",
+    "WA",
+    1
+   ],
+   [
+    "Bethesda",
+    "MD",
+    1
+   ],
+   [
+    "Bloomington",
+    "MN",
+    1
+   ],
+   [
+    "Boca Raton",
+    "FL",
+    1
+   ],
+   [
+    "Brea",
+    "CA",
+    1
+   ],
+   [
+    "Cambridge",
+    "MA",
+    1
+   ],
+   [
+    "Cerritos",
+    "CA",
+    1
+   ],
+   [
+    "Cherry Hill",
+    "NJ",
+    1
+   ],
+   [
+    "Chicago",
+    "IL",
+    1
+   ],
+   [
+    "Corte Madera",
+    "CA",
+    1
+   ],
+   [
+    "Costa Mesa",
+    "CA",
+    1
+   ],
+   [
+    "Dallas",
+    "TX",
+    1
+   ],
+   [
+    "Dedham",
+    "MA",
+    1
+   ],
+   [
+    "Doral",
+    "FL",
+    1
+   ],
+   [
+    "East Rutherford",
+    "NJ",
+    1
+   ],
+   [
+    "Edina",
+    "MN",
+    1
+   ],
+   [
+    "Edison",
+    "NJ",
+    1
+   ],
+   [
+    "El Paso",
+    "TX",
+    1
+   ],
+   [
+    "Frisco",
+    "TX",
+    1
+   ],
+   [
+    "Garden City",
+    "NY",
+    1
+   ],
+   [
+    "Glendale",
+    "CA",
+    1
+   ],
+   [
+    "Huntington Station",
+    "NY",
+    1
+   ],
+   [
+    "Jacksonville",
+    "FL",
+    1
+   ],
+   [
+    "Jersey City",
+    "NJ",
+    1
+   ],
+   [
+    "King of Prussia",
+    "PA",
+    1
+   ],
+   [
+    "Lake Grove",
+    "NY",
+    1
+   ],
+   [
+    "Las Vegas",
+    "NV",
+    1
+   ],
+   [
+    "Los Angeles",
+    "CA",
+    1
+   ],
+   [
+    "Lynnwood",
+    "WA",
+    1
+   ],
+   [
+    "McAllen",
+    "TX",
+    1
+   ],
+   [
+    "McLean",
+    "VA",
+    1
+   ],
+   [
+    "Metairie",
+    "LA",
+    1
+   ],
+   [
+    "Miami Beach",
+    "FL",
+    1
+   ],
+   [
+    "Natick",
+    "MA",
+    1
+   ],
+   [
+    "Orlando",
+    "FL",
+    1
+   ],
+   [
+    "Paramus",
+    "NJ",
+    1
+   ],
+   [
+    "Rancho Cucamonga",
+    "CA",
+    1
+   ],
+   [
+    "San Diego",
+    "CA",
+    1
+   ],
+   [
+    "Santa Clara",
+    "CA",
+    1
+   ],
+   [
+    "Schaumburg",
+    "IL",
+    1
+   ],
+   [
+    "The Woodlands",
+    "TX",
+    1
+   ],
+   [
+    "Washington",
+    "DC",
+    1
+   ],
+   [
+    "Wayne",
+    "NJ",
+    1
+   ]
+  ],
+  "basis": "seat_wave_c_2026-10-08 2026-10-13",
+  "out": 0,
+  "con": 0
+ },
+ "cities": "62 stores across the US, including New York, Miami, Atlanta · its own site",
+ "site": {
+  "domain": "mango.com",
+  "platform": "other",
+  "feed": "none",
+  "feed_count": 0,
+  "status": "live_store",
+  "checked": "2026-10-13"
+ },
+ "tech_evidence": {
+  "names": "yes",
+  "origin": "unclear",
+  "marks": [
+   "Candiani",
+   "Giza"
+  ],
+  "source": "seat_wave_c_2026-10-08",
+  "checked": "2026-10-13"
+ },
+ "craft_evidence": {
+  "owned": "NC",
+  "makers": "NC",
+  "mills": "one mill named in titles: Candiani (denim, \"Made in Italy\" jeans)",
+  "madein": "NC (product pages blocked; 3/144 sample titles say \"made in Italy\")",
+  "heritage": "NC",
+  "process": "NC",
+  "urls": [],
+  "proposed": null,
+  "reasoning": "Product pages could not be read (blocked), so no craft score is proposed.",
+  "source": "seat_wave_c_2026-10-08"
+ },
+ "ownership": {
+  "owner": "NC",
+  "u": null
+ },
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?brand_ids[]=15&brand_ids[]=11679&catalog[]=5",
+   "m": "brand filter",
+   "n": ""
+  },
+  "grailed": {
+   "u": "https://www.grailed.com/designers/mango"
+  }
+ },
+ "say": "MAN-go",
+ "fibre": {
+  "t": 978,
+  "w": 0,
+  "n": 0,
+  "s": 0,
+  "c": 0,
+  "x": 0,
+  "xh": 0,
+  "sp": "one",
+  "sc": [],
+  "nc": [],
+  "st": "partial"
+ },
+ "band_note": "basic by the price rule (tee $26, dress shirt $70)",
+ "region": {
+  "o": [
+   6518,
+   6520,
+   6522,
+   6523,
+   6533,
+   6534,
+   6536,
+   6537,
+   6539,
+   6541,
+   6542,
+   6545,
+   6546,
+   6550,
+   6555,
+   6564,
+   6569
+  ],
+  "s": []
+ }
+}

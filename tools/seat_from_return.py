@@ -204,14 +204,14 @@ def main():
         c = C.get(name, {})
         n_claim = num(c.get('us_own_doors', r['own_doors_us']))
         def rows_of(fmt):
-            return sum(1 for d in D.get(name, []) if d['format'] == fmt and d['country'] in ('US', 'USA')
+            return sum(1 for d in D.get(name, []) if d['format'] == fmt and d['country'] in ('US', 'USA', 'PR')
                        and d['status'].lower() not in ('closed', 'held', 'opening', 'coming-soon', 'temporarily closed'))
         # outlets and concessions: the counts file where the brand has one, else the US rows of that format
         out = num(c.get('us_outlets')) if c else None
         con = num(c.get('us_concessions')) if c else None
         out = rows_of('outlet') if out is None else out
         con = rows_of('concession') if con is None else con
-        drows = [d for d in D.get(name, []) if d['format'] == 'own-door' and d['country'] in ('US', 'USA')
+        drows = [d for d in D.get(name, []) if d['format'] == 'own-door' and d['country'] in ('US', 'USA', 'PR')  # Puerto Rico is US (ruled)
                  and d['status'].lower() not in ('closed', 'held', 'opening', 'coming-soon', 'temporarily closed')
                  and d['state'] not in ('GU', 'VI', 'AS', 'MP')]  # the map covers the 50 states, DC and PR
         # a row without a town cannot be placed; if any row is that thin, seat the count and hold the rows

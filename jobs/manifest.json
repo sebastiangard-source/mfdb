@@ -1662,7 +1662,7 @@
    "id": "seat_wave_c_2026-10-08",
    "title": "Seating wave C — 81 brands from the gap analysis",
    "kind": "seating",
-   "state": "open",
+   "state": "closed",
    "created": "2026-10-08",
    "issued": "2026-10-08",
    "pilot": 81,
@@ -1704,10 +1704,20 @@
      "held": 1,
      "merged": 9,
      "triage": ""
+    },
+    {
+     "n": 4,
+     "file": "seat_wave_c_2026-10-08/batch5-9",
+     "received": "2026-10-13",
+     "rows": 41,
+     "mergeable": 37,
+     "held": 4,
+     "merged": 37,
+     "triage": ""
     }
    ],
    "blocked_on": "",
-   "note": "batches 1–4 (39 of 81) seated by 12 Oct (v3.55.0); Hickey Freeman held with HSM; counts job merged; batches 5–9 to come | restart brief issued 13 Oct for rows 41–81 (41 brands, batches 5–9): jobs/briefs/seat_wave_c_restart_2026-10-13"
+   "note": "closed 13 Oct: 77 of 81 seated (v3.56.0); held Hickey Freeman, Oxxford, Samuelsohn (no priced staple), UGG (prices NC behind bot check), Y-3 (unread)"
   },
   {
    "id": "doors_recapture_2026-10-10",
