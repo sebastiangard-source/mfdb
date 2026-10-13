@@ -2097,6 +2097,261 @@
    ],
    "blocked_on": "",
    "note": "Net-a-Porter US designer index checked 12 Oct: 469 names, 139 out of scope, 169 on a register, 161 on none; runs in parallel with doors_womens_2 | batches 1–2 (19 of 161, Anna Sui left out by ruling) merged 12 Oct: 2 US doors (Elie Saab, Extreme Cashmere), 17 zeros; 208 stockist rows kept in stockists_womens_2026-10-12.csv; wrong_sites.csv carried"
+  },
+  {
+   "id": "prices_womens_2026-10-13",
+   "title": "Women's prices — 156 brands with US stores, eight garments, band proposed",
+   "kind": "price",
+   "state": "issued",
+   "created": "2026-10-13",
+   "issued": "2026-10-13",
+   "pilot": 0,
+   "nc": "NC",
+   "brands": "worklist",
+   "schema": [
+    {
+     "name": "brand",
+     "type": "key"
+    },
+    {
+     "name": "tee_low",
+     "type": "str"
+    },
+    {
+     "name": "tee_low_product",
+     "type": "str"
+    },
+    {
+     "name": "tee_low_url",
+     "type": "str"
+    },
+    {
+     "name": "tee_high",
+     "type": "str"
+    },
+    {
+     "name": "tee_high_product",
+     "type": "str"
+    },
+    {
+     "name": "tee_high_url",
+     "type": "str"
+    },
+    {
+     "name": "tee_basis",
+     "type": "str"
+    },
+    {
+     "name": "blouse_low",
+     "type": "str"
+    },
+    {
+     "name": "blouse_low_product",
+     "type": "str"
+    },
+    {
+     "name": "blouse_low_url",
+     "type": "str"
+    },
+    {
+     "name": "blouse_high",
+     "type": "str"
+    },
+    {
+     "name": "blouse_high_product",
+     "type": "str"
+    },
+    {
+     "name": "blouse_high_url",
+     "type": "str"
+    },
+    {
+     "name": "blouse_basis",
+     "type": "str"
+    },
+    {
+     "name": "sweater_low",
+     "type": "str"
+    },
+    {
+     "name": "sweater_low_product",
+     "type": "str"
+    },
+    {
+     "name": "sweater_low_url",
+     "type": "str"
+    },
+    {
+     "name": "sweater_high",
+     "type": "str"
+    },
+    {
+     "name": "sweater_high_product",
+     "type": "str"
+    },
+    {
+     "name": "sweater_high_url",
+     "type": "str"
+    },
+    {
+     "name": "sweater_basis",
+     "type": "str"
+    },
+    {
+     "name": "jeans_low",
+     "type": "str"
+    },
+    {
+     "name": "jeans_low_product",
+     "type": "str"
+    },
+    {
+     "name": "jeans_low_url",
+     "type": "str"
+    },
+    {
+     "name": "jeans_high",
+     "type": "str"
+    },
+    {
+     "name": "jeans_high_product",
+     "type": "str"
+    },
+    {
+     "name": "jeans_high_url",
+     "type": "str"
+    },
+    {
+     "name": "jeans_basis",
+     "type": "str"
+    },
+    {
+     "name": "trousers_low",
+     "type": "str"
+    },
+    {
+     "name": "trousers_low_product",
+     "type": "str"
+    },
+    {
+     "name": "trousers_low_url",
+     "type": "str"
+    },
+    {
+     "name": "trousers_high",
+     "type": "str"
+    },
+    {
+     "name": "trousers_high_product",
+     "type": "str"
+    },
+    {
+     "name": "trousers_high_url",
+     "type": "str"
+    },
+    {
+     "name": "trousers_basis",
+     "type": "str"
+    },
+    {
+     "name": "dress_low",
+     "type": "str"
+    },
+    {
+     "name": "dress_low_product",
+     "type": "str"
+    },
+    {
+     "name": "dress_low_url",
+     "type": "str"
+    },
+    {
+     "name": "dress_high",
+     "type": "str"
+    },
+    {
+     "name": "dress_high_product",
+     "type": "str"
+    },
+    {
+     "name": "dress_high_url",
+     "type": "str"
+    },
+    {
+     "name": "dress_basis",
+     "type": "str"
+    },
+    {
+     "name": "outerwear_low",
+     "type": "str"
+    },
+    {
+     "name": "outerwear_low_product",
+     "type": "str"
+    },
+    {
+     "name": "outerwear_low_url",
+     "type": "str"
+    },
+    {
+     "name": "outerwear_high",
+     "type": "str"
+    },
+    {
+     "name": "outerwear_high_product",
+     "type": "str"
+    },
+    {
+     "name": "outerwear_high_url",
+     "type": "str"
+    },
+    {
+     "name": "outerwear_basis",
+     "type": "str"
+    },
+    {
+     "name": "shoes_low",
+     "type": "str"
+    },
+    {
+     "name": "shoes_low_product",
+     "type": "str"
+    },
+    {
+     "name": "shoes_low_url",
+     "type": "str"
+    },
+    {
+     "name": "shoes_high",
+     "type": "str"
+    },
+    {
+     "name": "shoes_high_product",
+     "type": "str"
+    },
+    {
+     "name": "shoes_high_url",
+     "type": "str"
+    },
+    {
+     "name": "shoes_basis",
+     "type": "str"
+    },
+    {
+     "name": "band_proposed",
+     "type": "str"
+    },
+    {
+     "name": "note",
+     "type": "str"
+    }
+   ],
+   "writes": {
+    "places": "append own-door rows; brands not seated on the mens map"
+   },
+   "returns": [],
+   "blocked_on": "",
+   "note": "women's brands with ≥1 US own store and not on the men's map; the band rule applied to tee/blouse/sweater; unlocks the Premium-and-above filter for women's"
   }
  ]
 }
