@@ -1797,3 +1797,9 @@ Thread read Nike's store directory after close: 252 stores = 40 full-price + 212
 - `seat_from_return.py`: thin-row check no longer treats state NC as not-counted (second North Carolina bug; 15 Gap/JAB rows). Seats renumbered densely after the re-seats.
 - Batch 4 rulings applied: Golf Wang album/tour merchandise excluded as music merchandise; Katin's shop doors `none` (unverifiable on the site); H&B collegiate versions folded, unpriced; GRAVITY shops not counted; sukima stores counted (world); Goldwin Nanjing counted.
 - Registers rebuilt; locations DB 10,106 doors, 274 brands; geocoding delta 2 issued (Gap + G-Star).
+
+## 12 October 2026 (night) — doors_womens_2 complete, doors_womens_nap batches 1–2
+- Women's doors part 2: 407 brands, 1,930 rows merged into own_doors_womens (now 6,358 rows) and door_counts_womens (179 brands); screen register new (screen_womens_2026-10-12.csv, 284 rows). Validator clean: no empty cells, counts match rows.
+- Rulings applied at merge: G by GUESS (54 rows) re-filed under its own name (GUESS outlets 184→130), format held as filed, universe inclusion open; DKNY/Karl Lagerfeld Paris shared G-III outlets flagged `shared door`, both kept; pop-ups not counted (standing); by-appointment showrooms count, flagged (Flusser/Balmain/T&A precedent) — four readers' exclusions can't be added (no rows returned); Cynthia Rowley and Adrianna Papell NC.
+- NAP job batches 1–2: 2 doors (Elie Saab, Extreme Cashmere), 19 counts, 208 stockist rows → stockists_womens_2026-10-12.csv; wrong_sites.csv carried.
+- Locations DB 10,923 doors; geocoding delta 3 issued (817 doors).
