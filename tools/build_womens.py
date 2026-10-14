@@ -46,9 +46,15 @@ def band_of(p):
 HAND = {'Aritzia': ('Premium', 'core-garment rule, 13 Oct: the $28 ribbed baby tee and $58 smocked top are not its core tee and shirt'),
         'Lucky Brand': ('Basic', 'everyday selling price is the price, 13 Oct: the struck "Comp. Value" is a reference, not a former price'),
         'Suzie Kondi': ('Accessible', 'for ruling, 14 Oct: its only sweater is a $2,295 made-to-order hand-knit, not a staple; seated on the $325 shirt entry beside $295 track pants (thread proposal)'),
+        'Miguelina': ('Accessible', 'ruled 14 Oct: resort house with no sweater; tops from $215 and dresses from $495, not the $423 blouse alone (thread proposal)'),
         'GUESS': ('Premium', 'core-garment rule, 13 Oct: the $69 cropped shirt is not its core shirt; the plain Cotton Shirt is $89 (thread re-read)')}
 
-NOT_WOMENS = {'Kartik Research'}  # women's menu empty on its own US store, every product menswear (price pass 2, 13 Oct)
+NOT_WOMENS = {'Kartik Research', 'Sanderlak'}  # Kartik: women's menu empty on its own US store (price pass 2); Sanderlak: menswear-led, ruled 14 Oct → men's map
+# Ruled 14 Oct: leather and suede are not an elevated material, so a leather piece is never an outerwear high.
+# Where the thread named the top non-leather piece, it is used; the rest show the entry only until re-read.
+LEATHER_RE = re.compile(r'\b(leather|suede|nappa|lambskin)\b', re.I)
+FAUX_RE = re.compile(r'faux|effect|polyurethane|vegan', re.I)
+NONLEATHER_HIGH = {'B SIDES': 1400, 'RÙADH': 3900, 'The Frankie Shop': 1150, 'Veronica de Piante': 3790}  # women's menu empty on its own US store, every product menswear (price pass 2, 13 Oct)
 
 
 def k(s):
@@ -107,17 +113,21 @@ def main():
             band, basis = band_of(p)
         else:
             band, basis = 'Pending', 'not in the women’s price pass (no own store when the worklist was cut)'
-        prices = None
+        prices = None; leather_high = False
         if p:
             G = ['tee', 'blouse', 'sweater', 'jeans', 'trousers', 'dress', 'outerwear', 'shoes']
             prices = {g: ([num(p[g + '_low']), num(p[g + '_high'])] if num(p[g + '_low']) is not None else p[g + '_low']) for g in G}
+            ohp = p['outerwear_high_product']
+            if isinstance(prices['outerwear'], list) and LEATHER_RE.search(ohp) and not FAUX_RE.search(ohp):
+                prices['outerwear'][1] = NONLEATHER_HIGH.get(name)  # None → entry shown alone, high under re-read
+                leather_high = name not in NONLEATHER_HIGH
         stores = [{'sn': d['store_name'], 'a': d['street'], 'c': d['city'], 's': d['state'], 'z': d['zip'] if d['zip'] not in ('NC', 'NONE') else '',
                    'v': d['venue'] if d['venue'].lower() not in ('nc', 'none', '', 'street', 'not stated', 'street / unknown') else '', 'op': d['operator'] if d['operator'] not in ('NC', 'NONE', '', 'none', 'not stated') else ''}
                   for d in rows]
         brands.append({'n': name, 'band': band, 'basis': basis, 'own': n, 'out': num(r.get('us_outlets')) or 0, 'con': num(r.get('us_concessions')) or 0,
                        'tier': tier(n), 'stores': stores, 'ne': sum(1 for s in stores if s['s'] in NE),
                        'locator': r.get('locator_url', ''), 'read': r.get('captured_on', ''), 'note': r.get('note', ''),
-                       'src': 'womens' if name in counts else 'screen', 'prices': prices,
+                       'src': 'womens' if name in counts else 'screen', 'prices': prices, 'lh': leather_high,
                        'depts': num(universe.get(name, {}).get('full_price_stores') or 0) or 0})
     # crossovers from the men's map
     places = json.load(open(os.path.join(ROOT, 'data/places.json')))

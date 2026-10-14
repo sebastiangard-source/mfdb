@@ -60,6 +60,7 @@ h1 .thin{color:var(--ink-faint)}
 .kv dt{color:var(--ink-faint)} .kv dd{color:var(--ink)}
 .kv a{color:var(--green)}
 .prices{display:grid;grid-template-columns:repeat(4,1fr);gap:6px 14px;font-size:13px;margin:0 0 16px}
+.muted{color:var(--ink-faint)}
 .prices div span{display:block;font-size:11px;color:var(--ink-faint);letter-spacing:.03em;text-transform:uppercase}
 h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
 .st{list-style:none}
@@ -165,7 +166,7 @@ function openBrand(n){
       ${b.locator?`<dt>Locator</dt><dd><a href="${esc(b.locator)}" target="_blank" rel="noopener">${esc(b.locator.replace(/^https?:\/\//,'').slice(0,60))}</a></dd>`:''}
       ${b.read?`<dt>Read</dt><dd>${esc(b.read)}</dd>`:''}
     </dl>
-    ${prices?'<h3>Entry and top prices</h3>'+prices:''}
+    ${prices?'<h3>Entry and top prices</h3>'+prices+(b.lh?'<p class="muted" style="font-size:12px;margin:-8px 0 16px">Outerwear high not shown: the read high was a leather piece, which is not an elevated material (ruled 14 Oct); the top non-leather piece is to be re-read.</p>':''):''}
     ${b.stores.length?'<h3>Stores</h3><ul class="st">'+states.map(st=>`<li class="hd">${ST[st]||st}${NE.has(st)?' · Northeast':''}</li>`+byState[st].sort((x,y)=>x.c.localeCompare(y.c)).map(s=>`<li><div>${esc(s.sn&&s.sn.toLowerCase()!==b.n.toLowerCase()?s.sn:(s.v||b.n))}<div class="where">${esc([s.a,s.c,s.s,s.z].filter(Boolean).join(', '))}${s.op?' · run by '+esc(s.op):''}</div></div><a href="${mapUrl(s)}" target="_blank" rel="noopener">map ↗</a></li>`).join('')).join('')+'</ul>':'<p class="note">Stores are counted but not addressed for this brand.</p>'}
     ${b.note?`<p class="note">${esc(b.note)}</p>`:''}
     <p class="cav">Full-price, brand-owned stores from the brand’s own locator. Outlets, concessions and pop-ups are held in the register but not shown. What is on the rack changes daily.</p>`;
