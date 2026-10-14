@@ -20,12 +20,17 @@ The core rule can only move a brand out of Basic, never into it. So no Premium o
 
 **True Religion** (batch 5) is the one other brand banded on a struck "Regular price". I re-checked it this evening. The tee shows $62 regular and $21.99 sale ("65% OFF"), under "LAST DAY!" and "UP TO 60% OFF SALE" banners. That reads as a dated promotion, not a standing comp-value like Lucky's. It is left at Premium on the regular price and flagged for your ruling. The site then put up a bot check, so its shirt and sweater sale prices could not be read.
 
-## Still `NC`
+## Retry list
 
-**LOFT** (batch 1) is still blocked by a PerimeterX bot check.
+- **TOTEME (batch 8): now read in full.** This evening's certificate error has cleared. It proposes **True Luxury**: blouse entry $380 (Signature cotton shirt) plus sweater entry $520 (Fine crew knit) gives a mean of $450.
+- **Still `NC`:**
+  - LOFT (batch 1) and prAna (batch 9): blocked by the same PerimeterX "press and hold" bot check on category pages.
+  - Sam Edelman (batch 9): stuck on the Cloudflare verification screen.
+
+  None of these checks was attempted.
 
 ## Files
 
 - `prices_womens_batch01/`: `return.csv` and an updated `NOTE.md`.
-- Updated rows in batches 03, 04, 05, 10 and 15.
+- Updated rows in batches 03, 04, 05, 08 (TOTEME), 10 and 15.
 - `prices_womens_ALL_return.csv`.

@@ -58,3 +58,8 @@
 ## Files
 
 - `return.csv`: 10 rows (TOTEME all `NC`)
+
+
+## Update, 13 Oct evening: TOTEME read
+
+TOTEME has now been read in full. This evening the certificate error had cleared, and toteme.com/en-us loaded as a USD storefront. The row is complete and proposes **True Luxury**: blouse entry $380 plus sweater entry $520 gives a mean of $450. The full read is in the row's `note`.
