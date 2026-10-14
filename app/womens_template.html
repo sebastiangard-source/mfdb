@@ -22,9 +22,17 @@ h1 .thin{color:var(--ink-faint)}
 .lede{max-width:620px;color:var(--ink-soft);font-family:'Playfair Display',serif;font-size:13.5px;line-height:1.45;margin-top:10px}
 .stamp{font-size:11px;letter-spacing:.03em;color:var(--ink-faint);text-align:right}
 .stamp b{display:block;font-size:13px;color:var(--ink);font-weight:600}
+/* layout: side rail on desktop */
+.layout{display:grid;grid-template-columns:250px minmax(0,1fr);gap:40px;align-items:start}
+.rail{position:sticky;top:20px;display:flex;flex-direction:column;gap:18px;padding:18px 18px 20px;background:rgba(255,255,255,.55);border:1px solid var(--hairline);border-radius:14px}
+.rail .grp{flex-direction:column;align-items:flex-start;gap:7px}
+.rail .grp .lbl{margin:0}
+.rail .grp .chips{display:flex;flex-wrap:wrap;gap:6px}
+.rail .count{margin:0;line-height:1.45}
+@media (max-width:1000px){.layout{display:block}.rail{position:static;margin-bottom:18px}.rail .grp{flex-direction:row;align-items:center}}
 /* controls */
-.controls{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:0 0 18px}
-.controls input{flex:1 1 260px;min-width:220px;padding:11px 16px;border:1px solid var(--hairline);border-radius:999px;background:#fff;font:inherit;font-size:14px;color:var(--ink)}
+.controls{display:flex;flex-direction:column;gap:14px;margin:0}
+.controls input{width:100%;padding:11px 16px;border:1px solid var(--hairline);border-radius:999px;background:#fff;font:inherit;font-size:14px;color:var(--ink)}
 .chip{padding:9px 16px;border:1px solid var(--hairline);border-radius:999px;background:transparent;font:inherit;font-size:13px;font-weight:500;color:var(--ink-soft);cursor:pointer}
 .chip.on{background:var(--green);border-color:var(--green);color:#fff}
 .chip:hover{border-color:var(--ink)}
@@ -61,11 +69,14 @@ h1 .thin{color:var(--ink-faint)}
 .kv a{color:var(--green)}
 .prices{display:grid;grid-template-columns:repeat(4,1fr);gap:6px 14px;font-size:13px;margin:0 0 16px}
 .muted{color:var(--ink-faint)}
-.cuts{display:flex;flex-wrap:wrap;align-items:center;gap:10px 18px;margin:10px 0 2px;font-size:13px}
-.cuts label{display:flex;align-items:center;gap:8px}
-.cuts input[type=range]{width:150px;accent-color:var(--green)}
-.cuts b{font-weight:600;min-width:44px;display:inline-block}
-.cuts .hint{font-size:11.5px;color:var(--ink-faint);flex-basis:100%}
+.cuts{display:flex;flex-direction:column;gap:8px;font-size:13px}
+.cuts .lbl{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint)}
+.cuts label{display:flex;flex-direction:column;gap:4px}
+.cuts label span{display:flex;justify-content:space-between}
+.cuts input[type=range]{width:100%;accent-color:var(--green)}
+.cuts b{font-weight:600}
+.cuts .hint{font-size:11.5px;color:var(--ink-faint);line-height:1.4}
+.cuts .chip{align-self:flex-start;padding:6px 12px}
 .sells{font-size:14px;line-height:1.5;margin:0 0 10px}
 .q{margin:4px 0 18px;padding:10px 14px;border-left:2px solid var(--green);font-family:'Playfair Display',Georgia,serif;font-style:italic;font-size:15px;line-height:1.5}
 .q cite{display:block;font-family:Inter,system-ui,sans-serif;font-style:normal;font-size:11.5px;color:var(--ink-faint);margin-top:6px}
@@ -99,24 +110,29 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
     <h1>The Womenswear <span class="thin">Spectrum</span></h1>
     <p class="lede">Every women’s brand with a full-price store of its own in the US, placed by price band and shown with its stores. No dials yet: this is the locations map, built from the brands’ own locators, banded by the men’s price rule on the women’s price pass of 13 October.</p>
   </div>
-  <div class="stamp"><b>v0.5 · <span id="built"></span></b>stores counted from the brands’ own locators · bands by the men’s price rule on tee, blouse and sweater</div>
+  <div class="stamp"><b>v0.6 · <span id="built"></span></b>stores counted from the brands’ own locators · bands by the men’s price rule on tee, blouse and sweater</div>
 </header>
 
+<div class="layout">
+<aside class="rail">
 <div class="controls">
   <input id="q" type="search" placeholder="Brand, town or state">
-  <div class="grp"><span class="lbl">Stores</span>
-    <button class="chip on" data-t="all">All</button><button class="chip" data-t="chain">51+</button><button class="chip" data-t="network">13–50</button><button class="chip" data-t="circuit">4–12</button><button class="chip" data-t="flagship">1–3</button></div>
-  <div class="grp"><span class="lbl">Northeast</span><button class="chip" id="neOnly">has a store here</button></div>
-  <div class="grp"><span class="lbl">Crossovers</span><button class="chip on" id="xover">include men’s-map brands</button></div>
+  <div class="grp"><span class="lbl">Stores</span><div class="chips">
+    <button class="chip on" data-t="all">All</button><button class="chip" data-t="chain">51+</button><button class="chip" data-t="network">13–50</button><button class="chip" data-t="circuit">4–12</button><button class="chip" data-t="flagship">1–3</button></div></div>
+  <div class="grp"><span class="lbl">Northeast</span><div class="chips"><button class="chip" id="neOnly">has a store here</button></div></div>
+  <div class="grp"><span class="lbl">Crossovers</span><div class="chips"><button class="chip on" id="xover">include men’s-map brands</button></div></div>
 </div>
 <div class="cuts">
   <span class="lbl">Band cuts</span>
-  <label>Premium up to <b id="c1v">$200</b><input type="range" id="c1" min="100" max="400" step="10" value="200"></label>
-  <label>Accessible up to <b id="c2v">$600</b><input type="range" id="c2" min="300" max="1200" step="25" value="600"></label>
+  <label><span>Premium up to <b id="c1v">$200</b></span><input type="range" id="c1" min="100" max="400" step="10" value="200"></label>
+  <label><span>Accessible up to <b id="c2v">$600</b></span><input type="range" id="c2" min="300" max="1200" step="25" value="600"></label>
   <button class="chip" id="creset">reset</button>
-  <span class="hint">moves every brand banded on a blouse-and-sweater mean, crossovers included; Basic, hand-set and pending brands stay put</span>
+  <span class="hint">Moves every brand banded on a blouse-and-sweater mean, crossovers included. Basic, hand-set and pending brands stay put.</span>
 </div>
 <p class="count" id="count"></p>
+</aside>
+<div class="content">
+
 
 <div id="bands"></div>
 <p class="legend">Band by price rule: <span style="background:var(--basic)"></span>Basic <span style="background:var(--premium)"></span>Premium <span style="background:var(--accessible)"></span>Accessible <span style="background:var(--trueLux)"></span>True Luxury <span style="background:var(--pending)"></span>Pending a price read. An outlined chip is a brand banded on its men’s range.</p>
@@ -127,6 +143,8 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
   <div id="idx"></div>
   <button class="more" id="more">show more</button>
 </section>
+</div>
+</div>
 </main>
 
 <div class="ov" id="ov"></div>
