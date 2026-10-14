@@ -263,6 +263,8 @@
   #detailView .dv-pill{font-size:12px;padding:4px 11px;border-radius:12px;background:rgba(18,59,43,.07);color:var(--ink);text-decoration:none}
   #detailView .dv-pill:hover{background:rgba(18,59,43,.15)}
   #detailView .dv-pill i{font-style:normal;color:var(--ink-faint);margin-left:4px;font-size:11px}
+  #detailView .dv-seg{font:inherit;font-size:inherit;color:var(--green);background:none;border:0;padding:0;cursor:pointer;text-decoration:underline dotted;text-underline-offset:3px}
+  #detailView .dv-seg2{color:var(--ink-faint)}
   #detailView .dv-cert{font-size:12px;padding:4px 11px;border-radius:12px;background:rgba(18,59,43,.07);color:var(--ink);border:0;font:inherit;font-size:12px;cursor:pointer}
   #detailView .dv-cert:hover{background:rgba(18,59,43,.15)}
   #detailView .dv-regtags{display:flex;flex-wrap:wrap;gap:6px;margin:6px 0 2px}
@@ -271,6 +273,7 @@
   #detailView .dv-regtag:hover{background:rgba(18,59,43,.12)}
   #detailView .dv-cert i{font-style:normal;color:var(--ink-faint);margin-left:6px;font-size:11px}
   .certrow{margin-top:14px}
+  .segrow{margin-top:14px}
   .chip .cn{margin-left:6px;color:var(--ink-faint);font-size:10.5px}
   .gl-link{color:inherit;text-decoration:none;border-bottom:1px dotted var(--ink-faint)}
   .gl-link:hover{border-bottom-color:var(--ink);color:var(--ink)}
@@ -1459,6 +1462,24 @@
       <div class="dial dial-bi" data-attr="sail" data-bipolar="1" style="--ac:#3E6E8E"><span class="dl" data-tip="Two-way: which kind of boating. One end is under sail, kit for working a boat; the other is under power, a deck for guests. How big the boat is, is Boat." tabindex="0">sail ↔︎ power</span><input type="range" min="-3" max="3" value="0" step="1" aria-label="Sail to power"><span class="dv">off</span></div>
     </div>
   
+    <div class="chanrow segrow" aria-label="Style segments">
+      <span class="cl">Segment</span>
+      <button class="chip" type="button" data-seg="Avant-garde designers" aria-pressed="false">Avant-garde designers <span class="cn"></span></button>
+      <button class="chip" type="button" data-seg="Hype & drop culture" aria-pressed="false">Hype & drop culture <span class="cn"></span></button>
+      <button class="chip" type="button" data-seg="Street & sport culture" aria-pressed="false">Street & sport culture <span class="cn"></span></button>
+      <button class="chip" type="button" data-seg="Loud luxury" aria-pressed="false">Loud luxury <span class="cn"></span></button>
+      <button class="chip" type="button" data-seg="Runway houses" aria-pressed="false">Runway houses <span class="cn"></span></button>
+      <button class="chip" type="button" data-seg="Quiet luxury" aria-pressed="false">Quiet luxury <span class="cn"></span></button>
+      <button class="chip" type="button" data-seg="Rock & rebel" aria-pressed="false">Rock & rebel <span class="cn"></span></button>
+      <button class="chip" type="button" data-seg="Performance & athleisure" aria-pressed="false">Performance & athleisure <span class="cn"></span></button>
+      <button class="chip" type="button" data-seg="Tailoring & craft" aria-pressed="false">Tailoring & craft <span class="cn"></span></button>
+      <button class="chip" type="button" data-seg="Outdoor & coast" aria-pressed="false">Outdoor & coast <span class="cn"></span></button>
+      <button class="chip" type="button" data-seg="Prep, club & course" aria-pressed="false">Prep, club & course <span class="cn"></span></button>
+      <button class="chip" type="button" data-seg="Heritage & workwear" aria-pressed="false">Heritage & workwear <span class="cn"></span></button>
+      <button class="chip" type="button" data-seg="Fashion insider" aria-pressed="false">Fashion insider <span class="cn"></span></button>
+      <button class="chip" type="button" data-seg="Mainstream contemporary" aria-pressed="false">Mainstream contemporary <span class="cn"></span></button>
+      <button class="chip" type="button" data-seg="Basics & essentials" aria-pressed="false">Basics & essentials <span class="cn"></span></button>
+    </div>
     <div class="chanrow certrow" aria-label="Certifications">
       <span class="cl">Certified</span>
       <button class="chip" type="button" data-cert="bcorp" aria-pressed="false" title="Certified B Corporations \u2014 the company, not the product. Eleven on the map.">B Corp <span class="cn"></span></button>
@@ -1550,6 +1571,7 @@ const STYLELINK = {
 /*@@SURF@@*/
 /*@@NORMCORE@@*/
 /*@@CERTS@@*/
+/*@@SEG@@*/
 /*@@SEASON@@*/
 // Bruv/bruh. A two-way dial for which street a brand belongs to, not which
 // country it comes from — Stone Island is Italian and lives on English terraces,
@@ -2061,8 +2083,26 @@ document.querySelectorAll('.chip[data-cert]').forEach(btn=>{
   });
   btn.querySelector('.cn').textContent = Object.values(CERTS).filter(c=>c[btn.dataset.cert]).length;
 });
+// Segments: an OR multi-select over the ruled style segment. The secondary segment shows on the card but does not filter,
+// so the chip count and the result count agree.
+let SEGSEL = new Set();
+function segPass(name){
+  if(!SEGSEL.size) return true;
+  const s = SEG[name.trim()]; if(!s) return false;
+  return SEGSEL.has(s.s);
+}
+document.querySelectorAll('.chip[data-seg]').forEach(btn=>{
+  btn.addEventListener('click', ()=>{
+    const k = btn.dataset.seg;
+    if(SEGSEL.has(k)) SEGSEL.delete(k); else SEGSEL.add(k);
+    btn.setAttribute('aria-pressed', SEGSEL.has(k) ? 'true' : 'false');
+    applyDials();
+  });
+  btn.querySelector('.cn').textContent = Object.values(SEG).filter(s=>s.s===btn.dataset.seg).length;
+});
 function chanPass(name){
   if(!certPass(name)) return false;
+  if(!segPass(name)) return false;
   if(!CHANSEL.size) return true;
   const c = CHAN[name.trim()];
   if(!c) return false;
@@ -2386,7 +2426,7 @@ function renderDetail(name){
   const p = t => t ? `<p class="dv-prose">${t}</p>` : "";
   detailBody.innerHTML = `
     <h2>${esc(name)}${sayHTML(name)}</h2>
-    <p class="dv-sub">${esc(band)}</p>
+    <p class="dv-sub">${esc(band)}${SEG[name] ? ` \u00b7 <button class="dv-seg" type="button" data-seg="${esc(SEG[name].s)}" title="${esc(SEG[name].r)}">${esc(SEG[name].s)}</button>${SEG[name].s2 ? ` <span class="dv-seg2">also ${esc(SEG[name].s2)}</span>` : ""}` : ""}</p>
     ${navHTML("brand", brandNeighbours(name), x=>x, x=>x)}
     ${p(WHY[name])}
     ${p(ORIGIN[name] ? "<b>Origin:</b> " + ORIGIN[name] : "")}
@@ -2452,6 +2492,15 @@ function closeDetail(){
   if(detailReturn){ const back = detailReturn; detailReturn = null; back(); return; }
   if(location.hash.startsWith("#brand=")) history.replaceState(null,"",location.pathname+location.search);
 }
+detailBody.addEventListener("click", e=>{
+  const sb = e.target.closest(".dv-seg");
+  if(!sb) return;
+  const k = sb.dataset.seg;
+  closeDetail();
+  const chip = document.querySelector('.chip[data-seg="' + k + '"]');
+  if(chip && chip.getAttribute("aria-pressed") !== "true") chip.click();
+  setTimeout(()=>{ const bar = document.getElementById("resultBar"); (bar && getComputedStyle(bar).display !== "none" ? bar : chip).scrollIntoView({behavior:"smooth", block:"center"}); }, 150);
+});
 detailBody.addEventListener("click", e=>{
   const cb = e.target.closest(".dv-cert-btn");
   if(!cb) return;
@@ -3313,6 +3362,8 @@ document.getElementById("clearAll").addEventListener("click", ()=>{
       document.querySelectorAll('.chip[data-ch]').forEach(c=>c.setAttribute("aria-pressed","false")); }
     d.classList.remove("on");
   });
+  if(typeof CERTSEL !== "undefined"){ CERTSEL.clear(); document.querySelectorAll('.chip[data-cert]').forEach(c=>c.setAttribute("aria-pressed","false")); }
+  if(typeof SEGSEL !== "undefined"){ SEGSEL.clear(); document.querySelectorAll('.chip[data-seg]').forEach(c=>c.setAttribute("aria-pressed","false")); }
   applyDials();
   const si = document.getElementById("brandSearch");
   si.value = "";

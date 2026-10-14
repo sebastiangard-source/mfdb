@@ -4,7 +4,7 @@
  "seat": 119,
  "dagger": 0,
  "focus": {
-  "tech": 4,
+  "tech": 2,
   "comfort": 5,
   "craft": 3,
   "style": 2
@@ -74,7 +74,8 @@
   "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
   "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
   "comfort": "Stretch fabrics and a system of fits built around how trousers feel.",
-  "craft": "Brax product pages, as fetched, show no country of make, factory or mill; origin data appears to sit in a collapsed 'Care & Material' tab. The sustainability FAQ asks where Leineweber produces but the answers were collapsed, and the corporate sustainability page was not reached. There is no evidence to score from. [not researched: site unreadable]"
+  "craft": "Brax product pages, as fetched, show no country of make, factory or mill; origin data appears to sit in a collapsed 'Care & Material' tab. The sustainability FAQ asks where Leineweber produces but the answers were collapsed, and the corporate sustainability page was not reached. There is no evidence to score from. [not researched: site unreadable]",
+  "tech": "rescored 2 on 14 Oct 2026 (style segments review: was 4)"
  },
  "doors": {
   "c": "full",
@@ -199,5 +200,11 @@
   ],
   "conf": "medium",
   "read": "2026-10-03"
+ },
+ "seg": {
+  "s": "Basics & essentials",
+  "c": "medium",
+  "r": "Override: stretch chinos and five-pockets; tech 4 is stretch, not sport",
+  "s2": "Performance & athleisure"
  }
 }

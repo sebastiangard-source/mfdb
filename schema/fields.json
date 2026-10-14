@@ -1,936 +1,944 @@
 {
-  "_about": [
-    "One entry per data field. Every tool reads this file: extract.py (build -> data),",
-    "build.py (data -> build), lint.py (legal values), job.py (brief scaffolding).",
-    "Add a dial here and it exists everywhere. Nothing else lists dials.",
-    "",
-    "scope    brand | global",
-    "const    the JS const the build emits",
-    "path     dotted path inside a brand record (brand scope only)",
-    "type     int | str | url | list | obj | bool | prices | doors | onething | fibre",
-    "range    [lo, hi] for ints",
-    "banned   int values that must never reappear (retired bands)",
-    "absent   what a missing value means: not_assessed | not_represented | required",
-    "         'required' = every brand must carry it; a GAP if missing",
-    "         'not_assessed' = the build emits nothing and the UI reads the 99 sentinel",
-    "         'not_represented' = the UI reads 0. A dial where 0 means 'no' and absence means 'no'",
-    "         are different things and the doc string says which; see the 1,491-cell migration",
-    "note     a NOTES key exists for this dial",
-    "const null = data-only: kept in the record, checked by lint, never emitted into the page"
-  ],
-  "fields": {
-    "band": {
-      "scope": "brand",
-      "const": "DATA",
-      "path": "band",
-      "type": "str",
-      "legal": [
-        "basic",
-        "premium",
-        "accessible",
-        "trueLux"
-      ],
-      "absent": "required"
-    },
-    "seat": {
-      "scope": "brand",
-      "const": "DATA",
-      "path": "seat",
-      "type": "int",
-      "absent": "required",
-      "doc": "Position in the roster. Dense 1..N across all bands; the build asserts it."
-    },
-    "dagger": {
-      "scope": "brand",
-      "const": "DATA",
-      "path": "dagger",
-      "type": "int",
-      "range": [
-        0,
-        1
-      ],
-      "absent": "required"
-    },
-    "row_class": {
-      "scope": "brand",
-      "const": "DATA",
-      "path": "row_class",
-      "type": "str",
-      "absent": "optional",
-      "doc": "Fourth DATA row slot: extra CSS class on the chip"
-    },
-    "row_override": {
-      "scope": "brand",
-      "const": "DATA",
-      "path": "row_override",
-      "type": "str",
-      "absent": "optional",
-      "doc": "Fifth DATA row slot"
-    },
-    "tech": {
-      "scope": "brand",
-      "const": "DATA",
-      "path": "focus.tech",
-      "type": "int",
-      "range": [
-        1,
-        5
-      ],
-      "absent": "required",
-      "note": true
-    },
-    "comfort": {
-      "scope": "brand",
-      "const": "DATA",
-      "path": "focus.comfort",
-      "type": "int",
-      "range": [
-        1,
-        5
-      ],
-      "absent": "required",
-      "note": true
-    },
-    "craft": {
-      "scope": "brand",
-      "const": "DATA",
-      "path": "focus.craft",
-      "type": "int",
-      "range": [
-        1,
-        5
-      ],
-      "absent": "required",
-      "note": true
-    },
-    "style": {
-      "scope": "brand",
-      "const": "DATA",
-      "path": "focus.style",
-      "type": "int",
-      "range": [
-        1,
-        5
-      ],
-      "absent": "required",
-      "note": true
-    },
-    "denim": {
-      "scope": "brand",
-      "const": "FAB",
-      "path": "fabric.denim",
-      "type": "int",
-      "range": [
-        1,
-        5
-      ],
-      "absent": "required",
-      "note": true
-    },
-    "cashmere": {
-      "scope": "brand",
-      "const": "FAB",
-      "path": "fabric.cashmere",
-      "type": "int",
-      "range": [
-        1,
-        5
-      ],
-      "absent": "required",
-      "note": true
-    },
-    "linen": {
-      "scope": "brand",
-      "const": "FAB",
-      "path": "fabric.linen",
-      "type": "int",
-      "range": [
-        1,
-        5
-      ],
-      "absent": "required",
-      "note": true
-    },
-    "cotton": {
-      "scope": "brand",
-      "const": "FAB",
-      "path": "fabric.cotton",
-      "type": "int",
-      "range": [
-        1,
-        5
-      ],
-      "absent": "required",
-      "note": true
-    },
-    "wool": {
-      "scope": "brand",
-      "const": "FAB",
-      "path": "fabric.wool",
-      "type": "int",
-      "range": [
-        1,
-        5
-      ],
-      "absent": "required",
-      "note": true
-    },
-    "synth": {
-      "scope": "brand",
-      "const": "FAB",
-      "path": "fabric.synth",
-      "type": "int",
-      "range": [
-        1,
-        5
-      ],
-      "absent": "required",
-      "note": true
-    },
-    "golf": {
-      "scope": "brand",
-      "const": "GOLF",
-      "path": "dials.golf",
-      "type": "int",
-      "range": [
-        0,
-        5
-      ],
-      "absent": "not_represented",
-      "note": true,
-      "register": true
-    },
-    "status": {
-      "scope": "brand",
-      "const": "STATUS",
-      "path": "dials.status",
-      "type": "int",
-      "range": [
-        0,
-        5
-      ],
-      "absent": "not_represented",
-      "note": true,
-      "register": true
-    },
-    "finbro": {
-      "scope": "brand",
-      "const": "FINBRO",
-      "path": "dials.finbro",
-      "type": "int",
-      "range": [
-        0,
-        5
-      ],
-      "absent": "not_represented",
-      "note": true,
-      "register": true
-    },
-    "ivy": {
-      "scope": "brand",
-      "const": "IVY",
-      "path": "dials.ivy",
-      "type": "int",
-      "range": [
-        0,
-        5
-      ],
-      "absent": "not_represented",
-      "note": true,
-      "register": true
-    },
-    "murica": {
-      "scope": "brand",
-      "const": "MURICA",
-      "path": "dials.murica",
-      "type": "int",
-      "range": [
-        0,
-        5
-      ],
-      "absent": "not_represented",
-      "note": true,
-      "register": true
-    },
-    "ital": {
-      "scope": "brand",
-      "const": "ITAL",
-      "path": "dials.ital",
-      "type": "int",
-      "range": [
-        0,
-        5
-      ],
-      "absent": "not_represented",
-      "note": true,
-      "register": true
-    },
-    "fren": {
-      "scope": "brand",
-      "const": "FREN",
-      "path": "dials.fren",
-      "type": "int",
-      "range": [
-        0,
-        5
-      ],
-      "absent": "not_represented",
-      "note": true,
-      "register": true
-    },
-    "street": {
-      "scope": "brand",
-      "const": "STREET",
-      "path": "dials.street",
-      "type": "int",
-      "range": [
-        0,
-        5
-      ],
-      "absent": "not_represented",
-      "note": true,
-      "register": true
-    },
-    "avant": {
-      "scope": "brand",
-      "const": "AVANT",
-      "path": "dials.avant",
-      "type": "int",
-      "range": [
-        0,
-        5
-      ],
-      "absent": "not_represented",
-      "note": true,
-      "register": true
-    },
-    "prep": {
-      "scope": "brand",
-      "const": "PREP",
-      "path": "dials.prep",
-      "type": "int",
-      "range": [
-        0,
-        5
-      ],
-      "absent": "not_represented",
-      "note": true,
-      "register": true
-    },
-    "weird": {
-      "scope": "brand",
-      "const": "WEIRD",
-      "path": "dials.weird",
-      "type": "int",
-      "range": [
-        0,
-        5
-      ],
-      "absent": "not_represented",
-      "note": true,
-      "register": true
-    },
-    "boat": {
-      "scope": "brand",
-      "const": "BOAT",
-      "path": "dials.boat",
-      "type": "int",
-      "range": [
-        0,
-        5
-      ],
-      "absent": "not_represented",
-      "note": true,
-      "register": true
-    },
-    "racquet": {
-      "scope": "brand",
-      "const": "RACQUET",
-      "path": "dials.racquet",
-      "type": "int",
-      "range": [
-        0,
-        5
-      ],
-      "absent": "not_represented",
-      "note": true,
-      "register": true
-    },
-    "ski": {
-      "scope": "brand",
-      "const": "SKI",
-      "path": "dials.ski",
-      "type": "int",
-      "range": [
-        0,
-        5
-      ],
-      "absent": "not_represented",
-      "note": true,
-      "register": true
-    },
-    "scandi": {
-      "scope": "brand",
-      "const": "SCANDI",
-      "path": "dials.scandi",
-      "type": "int",
-      "range": [
-        0,
-        5
-      ],
-      "absent": "not_represented",
-      "note": true,
-      "register": true
-    },
-    "briish": {
-      "scope": "brand",
-      "const": "BRIISH",
-      "path": "dials.briish",
-      "type": "int",
-      "range": [
-        0,
-        5
-      ],
-      "absent": "not_represented",
-      "note": true,
-      "register": true
-    },
-    "reach": {
-      "scope": "brand",
-      "const": "REACH",
-      "path": "dials.reach",
-      "type": "int",
-      "range": [
-        1,
-        5
-      ],
-      "absent": "derived",
-      "note": true,
-      "doc": "Own stores — derived at build from doors.n (US brand-owned stores, outlets and concessions excluded): 1 = none, 2 = 1–5, 3 = 6–20, 4 = 21–50, 5 = more than 50. Replaced the authored findability score on 28 Sep 2026. Not stored in records; lint rejects it if present. Notes may remain."
-    },
-    "dur": {
-      "scope": "brand",
-      "const": "DUR",
-      "path": "dials.dur",
-      "type": "int",
-      "range": [
-        1,
-        5
-      ],
-      "absent": "required",
-      "note": true
-    },
-    "forg": {
-      "scope": "brand",
-      "const": "FORG",
-      "path": "dials.forg",
-      "type": "int",
-      "range": [
-        1,
-        5
-      ],
-      "absent": "required",
-      "note": true
-    },
-    "fuss": {
-      "scope": "brand",
-      "const": "FUSS",
-      "path": "dials.fuss",
-      "type": "int",
-      "range": [
-        -3,
-        3
-      ],
-      "absent": "not_assessed",
-      "note": true,
-      "bipolar": true
-    },
-    "golffice": {
-      "scope": "brand",
-      "const": "GOLFFICE",
-      "path": "dials.golffice",
-      "type": "int",
-      "range": [
-        -3,
-        3
-      ],
-      "absent": "not_assessed",
-      "note": true,
-      "bipolar": true
-    },
-    "bruv": {
-      "scope": "brand",
-      "const": "BRUV",
-      "path": "dials.bruv",
-      "type": "int",
-      "range": [
-        -3,
-        3
-      ],
-      "absent": "not_assessed",
-      "bipolar": true
-    },
-    "sail": {
-      "scope": "brand",
-      "const": "SAIL",
-      "path": "dials.sail",
-      "type": "int",
-      "range": [
-        -3,
-        3
-      ],
-      "absent": "not_assessed",
-      "bipolar": true
-    },
-    "shoes": {
-      "scope": "brand",
-      "const": "SHOES",
-      "path": "dials.shoes",
-      "type": "int",
-      "range": [
-        0,
-        5
-      ],
-      "banned": [
-        1,
-        2
-      ],
-      "absent": "not_assessed",
-      "note": true,
-      "doc": "Tri-state: score, verified 0, or absent. 1 and 2 were assumed bands and are retired."
-    },
-    "natural": {
-      "scope": "brand",
-      "const": "NATURAL",
-      "path": "dials.natural",
-      "type": "int",
-      "range": [
-        0,
-        5
-      ],
-      "absent": "derived",
-      "doc": "Derived at build from fibre: band of the natural share among styles stating a composition — 5 = 100%, not one synthetic-led style; 4 = 95–99%; 3 = 85–94%; 2 = 70–84%; 1 = under 70% (re-cut 1 Oct 2026). Not stored in records; lint rejects it if present."
-    },
-    "why": {
-      "scope": "brand",
-      "const": "WHY",
-      "path": "why",
-      "type": "str",
-      "absent": "required"
-    },
-    "origin": {
-      "scope": "brand",
-      "const": "ORIGIN",
-      "path": "origin",
-      "type": "str",
-      "absent": "required"
-    },
-    "opview": {
-      "scope": "brand",
-      "const": "OPVIEW",
-      "path": "opview",
-      "type": "str",
-      "absent": "optional",
-      "doc": "A real quotation from the brand, in its own words. Absent where the brand has said nothing worth quoting; never a paraphrase (rule of 27 Sep 2026)."
-    },
-    "cities": {
-      "scope": "brand",
-      "const": "CITIES",
-      "path": "cities",
-      "type": "str",
-      "absent": "required",
-      "doc": "Where to find it, one line: [own stores in the US — how many, where] · [how else it is sold]. Rewritten 28 Sep 2026 from the door count, the channel flags and the register; no Northeast framing. Hand overrides for houses the counts misdescribe (RL lines, Dover Street Market brands, no-US-site houses)."
-    },
-    "say": {
-      "scope": "brand",
-      "const": "SAY",
-      "path": "say",
-      "type": "str",
-      "absent": "not_assessed",
-      "doc": "Respelling, stress in caps. Absent = not judged, not judged easy."
-    },
-    "shop": {
-      "scope": "brand",
-      "const": "SHOP",
-      "path": "shop",
-      "type": "url",
-      "absent": "optional"
-    },
-    "notes": {
-      "scope": "brand",
-      "const": "NOTES",
-      "path": "notes",
-      "type": "obj",
-      "absent": "optional",
-      "doc": "Keyed by dial name; every key must be a field with note: true"
-    },
-    "chan": {
-      "scope": "brand",
-      "const": "CHAN",
-      "path": "chan",
-      "type": "list",
-      "legal": [
-        "O",
-        "D",
-        "I",
-        "W",
-        "X"
-      ],
-      "absent": "required"
-    },
-    "conf": {
-      "scope": "brand",
-      "const": "CONF",
-      "path": "conf",
-      "type": "str",
-      "legal": [
-        "L",
-        "S",
-        "M",
-        "H",
-        "G"
-      ],
-      "absent": "optional"
-    },
-    "forgv": {
-      "scope": "brand",
-      "const": "FORGV",
-      "path": "forgv",
-      "type": "str",
-      "absent": "optional"
-    },
-    "forgc": {
-      "scope": "brand",
-      "const": "FORGC",
-      "path": "forgc",
-      "type": "list",
-      "len": 3,
-      "range": [
-        1,
-        5
-      ],
-      "absent": "required"
-    },
-    "shoelink": {
-      "scope": "brand",
-      "const": "SHOELINK",
-      "path": "shoelink",
-      "type": "obj",
-      "keys": [
-        "t",
-        "u"
-      ],
-      "absent": "optional"
-    },
-    "fibre": {
-      "scope": "brand",
-      "const": "FIBRE",
-      "path": "fibre",
-      "type": "fibre",
-      "absent": "not_assessed",
-      "doc": "Measured from the house's own product pages, styles not colourways, men's only. t styles counted (0 = counted, no men's clothing); w styles stating a composition; n/s/c = % of t whose main fibre is natural / synthetic / cellulosic (ruled 13 Sep: cellulosics a third figure); x = % of t with any elastane on the main fabric line; xh = % at 5%+ (0 = counted, none; absent = not counted); sp one|split; sc/nc category lists; st complete|partial. The natural dial is DERIVED at build: band of n/(n+s+c) when w/t >= 0.5, else not assessed. Never stored. cats (optional): list of {cat, house, t, w, n, s, c, x, xh} per product category, the standard set being tees-polos, shirts, knitwear, sweats, trousers, denim, shorts, tailoring, outerwear, underwear-swim, other; when present, t/n/s/c/sp/sc/nc must reconcile to it. Rounding to 100: at an exact tie the earlier column wins (natural, synthetic, cellulosic)."
-    },
-    "doors": {
-      "scope": "brand",
-      "const": "DOORS",
-      "path": "doors",
-      "type": "doors",
-      "absent": "required",
-      "doc": " basis: 'recapture 2026-09' (count is the file's rows), 'master 2026-08-29, pre-recapture' (count inherited; addressed = rows on file), or 'positive zero'."
-    },
-    "region": {
-      "scope": "brand",
-      "const": "REGION",
-      "path": "region",
-      "type": "obj",
-      "keys": [
-        "o",
-        "s"
-      ],
-      "absent": "optional",
-      "doc": "Indices into places.json. To be replaced by place ids."
-    },
-    "onething": {
-      "scope": "brand",
-      "const": "ONETHING",
-      "path": "onething",
-      "type": "onething",
-      "absent": "required"
-    },
-    "prices": {
-      "scope": "brand",
-      "const": "PRICES",
-      "path": "prices",
-      "type": "prices",
-      "absent": "required",
-      "doc": "8 slots: T-shirt, Polo, Dress shirt, Jeans, Dress pants, Sweater, Outerwear, Shoes. Each [lo, hi] in USD; [lo, hi, \"JPY\"] (or EUR, GBP, USD_landed) for a native figure that never converts and draws no bar (ruled 18 Sep); null = does not make the garment; \"?\" = not assessed; \"np\" = checked, none published (ruled 18 Sep). Elevated fibre for a high: majority cashmere, silk, alpaca, mohair, vicuña, superfine wool; never fur or exotic skin. Sub-lines under the brand's name in its own store count; capsules, reissues and collaborations do not."
-    },
-    "price_checked": {
-      "scope": "brand",
-      "const": "PRICE_PASS",
-      "path": "price_checked",
-      "type": "bool",
-      "absent": "optional",
-      "doc": "Emitted as membership of the PRICE_PASS array"
-    },
-    "addmen": {
-      "scope": "brand",
-      "const": "ADDMEN",
-      "path": "addmen",
-      "type": "bool",
-      "absent": "optional",
-      "doc": "Emitted as membership of the ADDMEN Set"
-    },
-    "addcloth": {
-      "scope": "brand",
-      "const": "ADDCLOTH",
-      "path": "addcloth",
-      "type": "bool",
-      "absent": "optional",
-      "doc": "Emitted as membership of the ADDCLOTH Set"
-    },
-    "places": {
-      "scope": "global",
-      "const": "PLACES",
-      "file": "places.json",
-      "doc": " Own-door records (k=o) may carry bn (banner as the brand states it), v2 (venue), src (capture | master-2026-08-29: provenance grade), st (status when not open). National since 23 Sep 2026; only Northeast towns need a region mapping. New York City records carry h, the neighbourhood (from ZIP, street where the ZIP is missing); the Stores page uses it as the region. A shop record may carry seen: [brand names confirmed on the floor by a visit]; the page marks those brands."
-    },
-    "changelog": {
-      "scope": "global",
-      "const": "CHANGELOG",
-      "file": "changelog.json"
-    },
-    "rubric": {
-      "scope": "global",
-      "const": "RUBRIC",
-      "file": "rubric.json"
-    },
-    "bands": {
-      "scope": "global",
-      "const": "DATA",
-      "file": "bands.json",
-      "doc": "Band name and range copy; membership comes from brand records"
-    },
-    "settings": {
-      "scope": "global",
-      "const": null,
-      "file": "settings.json",
-      "doc": "STOCKED_REGION, REGION_NAME, VISIT_FORM, GROUPOF, PRICE_PASS_DATE, NOT_ASSESSED"
-    },
-    "site": {
-      "scope": "brand",
-      "const": null,
-      "path": "site",
-      "type": "obj",
-      "keys": [
-        "domain",
-        "platform",
-        "feed",
-        "feed_count",
-        "status",
-        "checked"
-      ],
-      "absent": "optional",
-      "doc": "Where the brand's own store is and how to read it. Data-only: not emitted into the page."
-    },
-    "tech_evidence": {
-      "scope": "brand",
-      "const": null,
-      "path": "tech_evidence",
-      "type": "obj",
-      "keys": [
-        "names",
-        "origin",
-        "marks",
-        "source",
-        "checked"
-      ],
-      "absent": "not_assessed",
-      "doc": "Per-brand evidence the tech score is checked against. names: yes|no|unclear. origin: house|licensed|both|none|unclear. Not a dial, not shown. Ruling 13 Sep: a mark counts only on men's product sold under the key; supplier marks only where the house leads with them."
-    },
-    "regions": {
-      "scope": "global",
-      "const": "SUBREGION",
-      "file": "regions.json",
-      "doc": "state -> sub-region label -> cities. Emitted as SUBREGION keyed 'ST|City'. Lint: every shop's city must map; an unmapped city is a GAP, never an untagged row."
-    },
-    "price_range_only": {
-      "scope": "brand",
-      "const": "RANGEONLY",
-      "path": "price_range_only",
-      "type": "list",
-      "absent": "optional",
-      "doc": "Garment slots whose [low, high] is the plain range of the category rather than the staple pair (entry version to elevated version). Set by the 18 Sep price pass. Data-only until the UI marks it."
-    },
-    "garment_links": {
-      "scope": "brand",
-      "const": "GLINKS",
-      "path": "garment_links",
-      "type": "obj",
-      "absent": "optional",
-      "doc": "Per garment slot (T-shirt … Shoes), the URL of the brand's own men's listing for that garment; a slot absent = not found, the label falls back to site search. From garment_links_2026-09-19."
-    },
-    "whitet": {
-      "scope": "brand",
-      "const": "WHITET",
-      "path": "dials.whitet",
-      "type": "int",
-      "range": [
-        1,
-        5
-      ],
-      "absent": "not_assessed",
-      "note": true,
-      "doc": "White tee: how much the brand's plain white T-shirt is a reason to shop it. 1 = sells no plain white tee; 2 = sells one as a basic; 3 = the tee is a named, developed product; 4 = a signature, one of the things the brand is known for; 5 = a house built on it. Seeded 27 Sep 2026 from the price pass (NONE tee = 1, priced tee = 2) and a short defended list for 3-5; provisional until read."
-    },
-    "price_evidence": {
-      "scope": "brand",
-      "path": "price_evidence",
-      "type": "obj",
-      "absent": "optional",
-      "doc": "Per garment slot: {lp, lu, hp, hu, b} — the product and URL behind the low and the high, and the basis (pair | range | single). Repo only; not emitted to the page. From price_full_2026-09-23.",
-      "const": null
-    },
-    "price_read": {
-      "scope": "brand",
-      "path": "price_read",
-      "type": "obj",
-      "absent": "optional",
-      "doc": "{date, store, currency, status, sublines} for the full read. Repo only.",
-      "const": null
-    },
-    "resale": {
-      "scope": "brand",
-      "const": "RESALE",
-      "path": "resale",
-      "type": "obj",
-      "absent": "optional",
-      "doc": "Secondhand listings for the brand's men's product: {vinted: {u, m, n}} — the Vinted men's URL, the method (brand filter | text search), and what the filter includes or excludes. From vinted_mens_search 27 Sep 2026."
-    },
-    "certs": {
-      "scope": "brand",
-      "const": "CERTS",
-      "path": "certs",
-      "type": "obj",
-      "absent": "optional",
-      "doc": "Third-party certifications held, as facts: {bcorp: {e: certified entity}, gots: {e: certified entity, n: caveat}}. A GOTS entry means the company holds a GOTS scope certificate (the right to sell certified product), not that the range is organic. From certs_bcorp_gots 27 Sep 2026."
-    },
-    "season": {
-      "scope": "brand",
-      "const": "SEASON",
-      "path": "season",
-      "type": "obj",
-      "absent": "optional",
-      "doc": "The brand's current-season lookbook or campaign: {l: season label as the brand states it, t: lookbook | campaign, u: URL, m: yes | unisex}. Only where found and verified; from lookbooks_fall2026 28 Sep 2026. Seasonal: re-read each season or remove."
-    },
-    "logo": {
-      "scope": "brand",
-      "const": "LOGO",
-      "path": "dials.logo",
-      "type": "int",
-      "range": [
-        1,
-        5
-      ],
-      "absent": "not_assessed",
-      "note": true,
-      "doc": "Logo: how visibly the brand's mark appears on the clothes. 1 = no visible branding; 2 = a small mark on some pieces; 3 = a mark on most pieces, small; 4 = large or all-over on a good share; 5 = the logo is the design. Seeded 28 Sep 2026, provisional until read (share of styles with a visible mark)."
-    },
-    "western": {
-      "scope": "brand",
-      "const": "WESTERN",
-      "path": "dials.western",
-      "type": "int",
-      "range": [
-        1,
-        5
-      ],
-      "absent": "not_assessed",
-      "note": true,
-      "doc": "Western: How much the brand belongs to Western wear — boots, pearl-snap shirts, ranch denim, the rodeo — from a boot-maker down to one Western shirt in the range. Seeded by hand 28 Sep 2026; provisional."
-    },
-    "rock": {
-      "scope": "brand",
-      "const": "ROCK",
-      "path": "dials.rock",
-      "type": "int",
-      "range": [
-        1,
-        5
-      ],
-      "absent": "not_assessed",
-      "note": true,
-      "doc": "Rock: How much the brand dresses the stage and the road — leather, black, biker and greaser cuts — from a rock house down to a single leather jacket. Seeded by hand 28 Sep 2026; provisional."
-    },
-    "workwear": {
-      "scope": "brand",
-      "const": "WORKWEAR",
-      "path": "dials.workwear",
-      "type": "int",
-      "range": [
-        1,
-        5
-      ],
-      "absent": "not_assessed",
-      "note": true,
-      "doc": "Workwear: How much the clothes descend from a trade — duck canvas, riveted denim, chore coats, tin cloth — from a company still selling work clothes down to a chore jacket in the range. Seeded by hand 28 Sep 2026; provisional."
-    },
-    "outdoor": {
-      "scope": "brand",
-      "const": "OUTDOOR",
-      "path": "dials.outdoor",
-      "type": "int",
-      "range": [
-        1,
-        5
-      ],
-      "absent": "not_assessed",
-      "note": true,
-      "doc": "Outdoor: How much the brand is technical outdoor clothing worn as everyday dress — shells, fleece, trail shoes on city streets — from a mountain house down to a fleece in the range. Seeded by hand 28 Sep 2026; provisional."
-    },
-    "surf": {
-      "scope": "brand",
-      "const": "SURF",
-      "path": "dials.surf",
-      "type": "int",
-      "range": [
-        1,
-        5
-      ],
-      "absent": "not_assessed",
-      "note": true,
-      "doc": "Surf: How much the beach runs the brand — boardshorts, washed cotton, salt-water ease — from a surfer's house down to a swim short in the range. Seeded by hand 28 Sep 2026; provisional."
-    },
-    "normcore": {
-      "scope": "brand",
-      "const": "NORMCORE",
-      "path": "dials.normcore",
-      "type": "int",
-      "range": [
-        1,
-        5
-      ],
-      "absent": "derived",
-      "doc": "Derived at build: how little the brand pops on any register. Takes the highest score across every culture dial plus Logo and Style; 5 when nothing exceeds 1, 4 when nothing exceeds 2, 3 when nothing exceeds 3, 2 when something is a 4, 1 when something is a 5. Not stored; lint rejects it if present."
-    },
-    "craft_evidence": {
-      "scope": "brand",
-      "const": null,
-      "path": "craft_evidence",
-      "type": "obj",
-      "absent": "optional",
-      "doc": "What the craft audit (3 Oct 2026) found: owned facility, named makers, named mills, made-in coverage, countries, heritage claim, repair, process, evidence URLs, confidence. Repo only."
-    }
+ "_about": [
+  "One entry per data field. Every tool reads this file: extract.py (build -> data),",
+  "build.py (data -> build), lint.py (legal values), job.py (brief scaffolding).",
+  "Add a dial here and it exists everywhere. Nothing else lists dials.",
+  "",
+  "scope    brand | global",
+  "const    the JS const the build emits",
+  "path     dotted path inside a brand record (brand scope only)",
+  "type     int | str | url | list | obj | bool | prices | doors | onething | fibre",
+  "range    [lo, hi] for ints",
+  "banned   int values that must never reappear (retired bands)",
+  "absent   what a missing value means: not_assessed | not_represented | required",
+  "         'required' = every brand must carry it; a GAP if missing",
+  "         'not_assessed' = the build emits nothing and the UI reads the 99 sentinel",
+  "         'not_represented' = the UI reads 0. A dial where 0 means 'no' and absence means 'no'",
+  "         are different things and the doc string says which; see the 1,491-cell migration",
+  "note     a NOTES key exists for this dial",
+  "const null = data-only: kept in the record, checked by lint, never emitted into the page"
+ ],
+ "fields": {
+  "band": {
+   "scope": "brand",
+   "const": "DATA",
+   "path": "band",
+   "type": "str",
+   "legal": [
+    "basic",
+    "premium",
+    "accessible",
+    "trueLux"
+   ],
+   "absent": "required"
   },
-  "price_slots": [
-    "T-shirt",
-    "Polo",
-    "Dress shirt",
-    "Jeans",
-    "Dress pants",
-    "Sweater",
-    "Outerwear",
-    "Shoes"
-  ],
-  "not_assessed_sentinel": 99
+  "seat": {
+   "scope": "brand",
+   "const": "DATA",
+   "path": "seat",
+   "type": "int",
+   "absent": "required",
+   "doc": "Position in the roster. Dense 1..N across all bands; the build asserts it."
+  },
+  "dagger": {
+   "scope": "brand",
+   "const": "DATA",
+   "path": "dagger",
+   "type": "int",
+   "range": [
+    0,
+    1
+   ],
+   "absent": "required"
+  },
+  "row_class": {
+   "scope": "brand",
+   "const": "DATA",
+   "path": "row_class",
+   "type": "str",
+   "absent": "optional",
+   "doc": "Fourth DATA row slot: extra CSS class on the chip"
+  },
+  "row_override": {
+   "scope": "brand",
+   "const": "DATA",
+   "path": "row_override",
+   "type": "str",
+   "absent": "optional",
+   "doc": "Fifth DATA row slot"
+  },
+  "tech": {
+   "scope": "brand",
+   "const": "DATA",
+   "path": "focus.tech",
+   "type": "int",
+   "range": [
+    1,
+    5
+   ],
+   "absent": "required",
+   "note": true
+  },
+  "comfort": {
+   "scope": "brand",
+   "const": "DATA",
+   "path": "focus.comfort",
+   "type": "int",
+   "range": [
+    1,
+    5
+   ],
+   "absent": "required",
+   "note": true
+  },
+  "craft": {
+   "scope": "brand",
+   "const": "DATA",
+   "path": "focus.craft",
+   "type": "int",
+   "range": [
+    1,
+    5
+   ],
+   "absent": "required",
+   "note": true
+  },
+  "style": {
+   "scope": "brand",
+   "const": "DATA",
+   "path": "focus.style",
+   "type": "int",
+   "range": [
+    1,
+    5
+   ],
+   "absent": "required",
+   "note": true
+  },
+  "denim": {
+   "scope": "brand",
+   "const": "FAB",
+   "path": "fabric.denim",
+   "type": "int",
+   "range": [
+    1,
+    5
+   ],
+   "absent": "required",
+   "note": true
+  },
+  "cashmere": {
+   "scope": "brand",
+   "const": "FAB",
+   "path": "fabric.cashmere",
+   "type": "int",
+   "range": [
+    1,
+    5
+   ],
+   "absent": "required",
+   "note": true
+  },
+  "linen": {
+   "scope": "brand",
+   "const": "FAB",
+   "path": "fabric.linen",
+   "type": "int",
+   "range": [
+    1,
+    5
+   ],
+   "absent": "required",
+   "note": true
+  },
+  "cotton": {
+   "scope": "brand",
+   "const": "FAB",
+   "path": "fabric.cotton",
+   "type": "int",
+   "range": [
+    1,
+    5
+   ],
+   "absent": "required",
+   "note": true
+  },
+  "wool": {
+   "scope": "brand",
+   "const": "FAB",
+   "path": "fabric.wool",
+   "type": "int",
+   "range": [
+    1,
+    5
+   ],
+   "absent": "required",
+   "note": true
+  },
+  "synth": {
+   "scope": "brand",
+   "const": "FAB",
+   "path": "fabric.synth",
+   "type": "int",
+   "range": [
+    1,
+    5
+   ],
+   "absent": "required",
+   "note": true
+  },
+  "golf": {
+   "scope": "brand",
+   "const": "GOLF",
+   "path": "dials.golf",
+   "type": "int",
+   "range": [
+    0,
+    5
+   ],
+   "absent": "not_represented",
+   "note": true,
+   "register": true
+  },
+  "status": {
+   "scope": "brand",
+   "const": "STATUS",
+   "path": "dials.status",
+   "type": "int",
+   "range": [
+    0,
+    5
+   ],
+   "absent": "not_represented",
+   "note": true,
+   "register": true
+  },
+  "finbro": {
+   "scope": "brand",
+   "const": "FINBRO",
+   "path": "dials.finbro",
+   "type": "int",
+   "range": [
+    0,
+    5
+   ],
+   "absent": "not_represented",
+   "note": true,
+   "register": true
+  },
+  "ivy": {
+   "scope": "brand",
+   "const": "IVY",
+   "path": "dials.ivy",
+   "type": "int",
+   "range": [
+    0,
+    5
+   ],
+   "absent": "not_represented",
+   "note": true,
+   "register": true
+  },
+  "murica": {
+   "scope": "brand",
+   "const": "MURICA",
+   "path": "dials.murica",
+   "type": "int",
+   "range": [
+    0,
+    5
+   ],
+   "absent": "not_represented",
+   "note": true,
+   "register": true
+  },
+  "ital": {
+   "scope": "brand",
+   "const": "ITAL",
+   "path": "dials.ital",
+   "type": "int",
+   "range": [
+    0,
+    5
+   ],
+   "absent": "not_represented",
+   "note": true,
+   "register": true
+  },
+  "fren": {
+   "scope": "brand",
+   "const": "FREN",
+   "path": "dials.fren",
+   "type": "int",
+   "range": [
+    0,
+    5
+   ],
+   "absent": "not_represented",
+   "note": true,
+   "register": true
+  },
+  "street": {
+   "scope": "brand",
+   "const": "STREET",
+   "path": "dials.street",
+   "type": "int",
+   "range": [
+    0,
+    5
+   ],
+   "absent": "not_represented",
+   "note": true,
+   "register": true
+  },
+  "avant": {
+   "scope": "brand",
+   "const": "AVANT",
+   "path": "dials.avant",
+   "type": "int",
+   "range": [
+    0,
+    5
+   ],
+   "absent": "not_represented",
+   "note": true,
+   "register": true
+  },
+  "prep": {
+   "scope": "brand",
+   "const": "PREP",
+   "path": "dials.prep",
+   "type": "int",
+   "range": [
+    0,
+    5
+   ],
+   "absent": "not_represented",
+   "note": true,
+   "register": true
+  },
+  "weird": {
+   "scope": "brand",
+   "const": "WEIRD",
+   "path": "dials.weird",
+   "type": "int",
+   "range": [
+    0,
+    5
+   ],
+   "absent": "not_represented",
+   "note": true,
+   "register": true
+  },
+  "boat": {
+   "scope": "brand",
+   "const": "BOAT",
+   "path": "dials.boat",
+   "type": "int",
+   "range": [
+    0,
+    5
+   ],
+   "absent": "not_represented",
+   "note": true,
+   "register": true
+  },
+  "racquet": {
+   "scope": "brand",
+   "const": "RACQUET",
+   "path": "dials.racquet",
+   "type": "int",
+   "range": [
+    0,
+    5
+   ],
+   "absent": "not_represented",
+   "note": true,
+   "register": true
+  },
+  "ski": {
+   "scope": "brand",
+   "const": "SKI",
+   "path": "dials.ski",
+   "type": "int",
+   "range": [
+    0,
+    5
+   ],
+   "absent": "not_represented",
+   "note": true,
+   "register": true
+  },
+  "scandi": {
+   "scope": "brand",
+   "const": "SCANDI",
+   "path": "dials.scandi",
+   "type": "int",
+   "range": [
+    0,
+    5
+   ],
+   "absent": "not_represented",
+   "note": true,
+   "register": true
+  },
+  "briish": {
+   "scope": "brand",
+   "const": "BRIISH",
+   "path": "dials.briish",
+   "type": "int",
+   "range": [
+    0,
+    5
+   ],
+   "absent": "not_represented",
+   "note": true,
+   "register": true
+  },
+  "reach": {
+   "scope": "brand",
+   "const": "REACH",
+   "path": "dials.reach",
+   "type": "int",
+   "range": [
+    1,
+    5
+   ],
+   "absent": "derived",
+   "note": true,
+   "doc": "Own stores — derived at build from doors.n (US brand-owned stores, outlets and concessions excluded): 1 = none, 2 = 1–5, 3 = 6–20, 4 = 21–50, 5 = more than 50. Replaced the authored findability score on 28 Sep 2026. Not stored in records; lint rejects it if present. Notes may remain."
+  },
+  "dur": {
+   "scope": "brand",
+   "const": "DUR",
+   "path": "dials.dur",
+   "type": "int",
+   "range": [
+    1,
+    5
+   ],
+   "absent": "required",
+   "note": true
+  },
+  "forg": {
+   "scope": "brand",
+   "const": "FORG",
+   "path": "dials.forg",
+   "type": "int",
+   "range": [
+    1,
+    5
+   ],
+   "absent": "required",
+   "note": true
+  },
+  "fuss": {
+   "scope": "brand",
+   "const": "FUSS",
+   "path": "dials.fuss",
+   "type": "int",
+   "range": [
+    -3,
+    3
+   ],
+   "absent": "not_assessed",
+   "note": true,
+   "bipolar": true
+  },
+  "golffice": {
+   "scope": "brand",
+   "const": "GOLFFICE",
+   "path": "dials.golffice",
+   "type": "int",
+   "range": [
+    -3,
+    3
+   ],
+   "absent": "not_assessed",
+   "note": true,
+   "bipolar": true
+  },
+  "bruv": {
+   "scope": "brand",
+   "const": "BRUV",
+   "path": "dials.bruv",
+   "type": "int",
+   "range": [
+    -3,
+    3
+   ],
+   "absent": "not_assessed",
+   "bipolar": true
+  },
+  "sail": {
+   "scope": "brand",
+   "const": "SAIL",
+   "path": "dials.sail",
+   "type": "int",
+   "range": [
+    -3,
+    3
+   ],
+   "absent": "not_assessed",
+   "bipolar": true
+  },
+  "shoes": {
+   "scope": "brand",
+   "const": "SHOES",
+   "path": "dials.shoes",
+   "type": "int",
+   "range": [
+    0,
+    5
+   ],
+   "banned": [
+    1,
+    2
+   ],
+   "absent": "not_assessed",
+   "note": true,
+   "doc": "Tri-state: score, verified 0, or absent. 1 and 2 were assumed bands and are retired."
+  },
+  "natural": {
+   "scope": "brand",
+   "const": "NATURAL",
+   "path": "dials.natural",
+   "type": "int",
+   "range": [
+    0,
+    5
+   ],
+   "absent": "derived",
+   "doc": "Derived at build from fibre: band of the natural share among styles stating a composition — 5 = 100%, not one synthetic-led style; 4 = 95–99%; 3 = 85–94%; 2 = 70–84%; 1 = under 70% (re-cut 1 Oct 2026). Not stored in records; lint rejects it if present."
+  },
+  "why": {
+   "scope": "brand",
+   "const": "WHY",
+   "path": "why",
+   "type": "str",
+   "absent": "required"
+  },
+  "origin": {
+   "scope": "brand",
+   "const": "ORIGIN",
+   "path": "origin",
+   "type": "str",
+   "absent": "required"
+  },
+  "opview": {
+   "scope": "brand",
+   "const": "OPVIEW",
+   "path": "opview",
+   "type": "str",
+   "absent": "optional",
+   "doc": "A real quotation from the brand, in its own words. Absent where the brand has said nothing worth quoting; never a paraphrase (rule of 27 Sep 2026)."
+  },
+  "cities": {
+   "scope": "brand",
+   "const": "CITIES",
+   "path": "cities",
+   "type": "str",
+   "absent": "required",
+   "doc": "Where to find it, one line: [own stores in the US — how many, where] · [how else it is sold]. Rewritten 28 Sep 2026 from the door count, the channel flags and the register; no Northeast framing. Hand overrides for houses the counts misdescribe (RL lines, Dover Street Market brands, no-US-site houses)."
+  },
+  "say": {
+   "scope": "brand",
+   "const": "SAY",
+   "path": "say",
+   "type": "str",
+   "absent": "not_assessed",
+   "doc": "Respelling, stress in caps. Absent = not judged, not judged easy."
+  },
+  "shop": {
+   "scope": "brand",
+   "const": "SHOP",
+   "path": "shop",
+   "type": "url",
+   "absent": "optional"
+  },
+  "notes": {
+   "scope": "brand",
+   "const": "NOTES",
+   "path": "notes",
+   "type": "obj",
+   "absent": "optional",
+   "doc": "Keyed by dial name; every key must be a field with note: true"
+  },
+  "chan": {
+   "scope": "brand",
+   "const": "CHAN",
+   "path": "chan",
+   "type": "list",
+   "legal": [
+    "O",
+    "D",
+    "I",
+    "W",
+    "X"
+   ],
+   "absent": "required"
+  },
+  "conf": {
+   "scope": "brand",
+   "const": "CONF",
+   "path": "conf",
+   "type": "str",
+   "legal": [
+    "L",
+    "S",
+    "M",
+    "H",
+    "G"
+   ],
+   "absent": "optional"
+  },
+  "forgv": {
+   "scope": "brand",
+   "const": "FORGV",
+   "path": "forgv",
+   "type": "str",
+   "absent": "optional"
+  },
+  "forgc": {
+   "scope": "brand",
+   "const": "FORGC",
+   "path": "forgc",
+   "type": "list",
+   "len": 3,
+   "range": [
+    1,
+    5
+   ],
+   "absent": "required"
+  },
+  "shoelink": {
+   "scope": "brand",
+   "const": "SHOELINK",
+   "path": "shoelink",
+   "type": "obj",
+   "keys": [
+    "t",
+    "u"
+   ],
+   "absent": "optional"
+  },
+  "fibre": {
+   "scope": "brand",
+   "const": "FIBRE",
+   "path": "fibre",
+   "type": "fibre",
+   "absent": "not_assessed",
+   "doc": "Measured from the house's own product pages, styles not colourways, men's only. t styles counted (0 = counted, no men's clothing); w styles stating a composition; n/s/c = % of t whose main fibre is natural / synthetic / cellulosic (ruled 13 Sep: cellulosics a third figure); x = % of t with any elastane on the main fabric line; xh = % at 5%+ (0 = counted, none; absent = not counted); sp one|split; sc/nc category lists; st complete|partial. The natural dial is DERIVED at build: band of n/(n+s+c) when w/t >= 0.5, else not assessed. Never stored. cats (optional): list of {cat, house, t, w, n, s, c, x, xh} per product category, the standard set being tees-polos, shirts, knitwear, sweats, trousers, denim, shorts, tailoring, outerwear, underwear-swim, other; when present, t/n/s/c/sp/sc/nc must reconcile to it. Rounding to 100: at an exact tie the earlier column wins (natural, synthetic, cellulosic)."
+  },
+  "doors": {
+   "scope": "brand",
+   "const": "DOORS",
+   "path": "doors",
+   "type": "doors",
+   "absent": "required",
+   "doc": " basis: 'recapture 2026-09' (count is the file's rows), 'master 2026-08-29, pre-recapture' (count inherited; addressed = rows on file), or 'positive zero'."
+  },
+  "region": {
+   "scope": "brand",
+   "const": "REGION",
+   "path": "region",
+   "type": "obj",
+   "keys": [
+    "o",
+    "s"
+   ],
+   "absent": "optional",
+   "doc": "Indices into places.json. To be replaced by place ids."
+  },
+  "onething": {
+   "scope": "brand",
+   "const": "ONETHING",
+   "path": "onething",
+   "type": "onething",
+   "absent": "required"
+  },
+  "prices": {
+   "scope": "brand",
+   "const": "PRICES",
+   "path": "prices",
+   "type": "prices",
+   "absent": "required",
+   "doc": "8 slots: T-shirt, Polo, Dress shirt, Jeans, Dress pants, Sweater, Outerwear, Shoes. Each [lo, hi] in USD; [lo, hi, \"JPY\"] (or EUR, GBP, USD_landed) for a native figure that never converts and draws no bar (ruled 18 Sep); null = does not make the garment; \"?\" = not assessed; \"np\" = checked, none published (ruled 18 Sep). Elevated fibre for a high: majority cashmere, silk, alpaca, mohair, vicuña, superfine wool; never fur or exotic skin. Sub-lines under the brand's name in its own store count; capsules, reissues and collaborations do not."
+  },
+  "price_checked": {
+   "scope": "brand",
+   "const": "PRICE_PASS",
+   "path": "price_checked",
+   "type": "bool",
+   "absent": "optional",
+   "doc": "Emitted as membership of the PRICE_PASS array"
+  },
+  "addmen": {
+   "scope": "brand",
+   "const": "ADDMEN",
+   "path": "addmen",
+   "type": "bool",
+   "absent": "optional",
+   "doc": "Emitted as membership of the ADDMEN Set"
+  },
+  "addcloth": {
+   "scope": "brand",
+   "const": "ADDCLOTH",
+   "path": "addcloth",
+   "type": "bool",
+   "absent": "optional",
+   "doc": "Emitted as membership of the ADDCLOTH Set"
+  },
+  "places": {
+   "scope": "global",
+   "const": "PLACES",
+   "file": "places.json",
+   "doc": " Own-door records (k=o) may carry bn (banner as the brand states it), v2 (venue), src (capture | master-2026-08-29: provenance grade), st (status when not open). National since 23 Sep 2026; only Northeast towns need a region mapping. New York City records carry h, the neighbourhood (from ZIP, street where the ZIP is missing); the Stores page uses it as the region. A shop record may carry seen: [brand names confirmed on the floor by a visit]; the page marks those brands."
+  },
+  "changelog": {
+   "scope": "global",
+   "const": "CHANGELOG",
+   "file": "changelog.json"
+  },
+  "rubric": {
+   "scope": "global",
+   "const": "RUBRIC",
+   "file": "rubric.json"
+  },
+  "bands": {
+   "scope": "global",
+   "const": "DATA",
+   "file": "bands.json",
+   "doc": "Band name and range copy; membership comes from brand records"
+  },
+  "settings": {
+   "scope": "global",
+   "const": null,
+   "file": "settings.json",
+   "doc": "STOCKED_REGION, REGION_NAME, VISIT_FORM, GROUPOF, PRICE_PASS_DATE, NOT_ASSESSED"
+  },
+  "site": {
+   "scope": "brand",
+   "const": null,
+   "path": "site",
+   "type": "obj",
+   "keys": [
+    "domain",
+    "platform",
+    "feed",
+    "feed_count",
+    "status",
+    "checked"
+   ],
+   "absent": "optional",
+   "doc": "Where the brand's own store is and how to read it. Data-only: not emitted into the page."
+  },
+  "tech_evidence": {
+   "scope": "brand",
+   "const": null,
+   "path": "tech_evidence",
+   "type": "obj",
+   "keys": [
+    "names",
+    "origin",
+    "marks",
+    "source",
+    "checked"
+   ],
+   "absent": "not_assessed",
+   "doc": "Per-brand evidence the tech score is checked against. names: yes|no|unclear. origin: house|licensed|both|none|unclear. Not a dial, not shown. Ruling 13 Sep: a mark counts only on men's product sold under the key; supplier marks only where the house leads with them."
+  },
+  "regions": {
+   "scope": "global",
+   "const": "SUBREGION",
+   "file": "regions.json",
+   "doc": "state -> sub-region label -> cities. Emitted as SUBREGION keyed 'ST|City'. Lint: every shop's city must map; an unmapped city is a GAP, never an untagged row."
+  },
+  "price_range_only": {
+   "scope": "brand",
+   "const": "RANGEONLY",
+   "path": "price_range_only",
+   "type": "list",
+   "absent": "optional",
+   "doc": "Garment slots whose [low, high] is the plain range of the category rather than the staple pair (entry version to elevated version). Set by the 18 Sep price pass. Data-only until the UI marks it."
+  },
+  "garment_links": {
+   "scope": "brand",
+   "const": "GLINKS",
+   "path": "garment_links",
+   "type": "obj",
+   "absent": "optional",
+   "doc": "Per garment slot (T-shirt … Shoes), the URL of the brand's own men's listing for that garment; a slot absent = not found, the label falls back to site search. From garment_links_2026-09-19."
+  },
+  "whitet": {
+   "scope": "brand",
+   "const": "WHITET",
+   "path": "dials.whitet",
+   "type": "int",
+   "range": [
+    1,
+    5
+   ],
+   "absent": "not_assessed",
+   "note": true,
+   "doc": "White tee: how much the brand's plain white T-shirt is a reason to shop it. 1 = sells no plain white tee; 2 = sells one as a basic; 3 = the tee is a named, developed product; 4 = a signature, one of the things the brand is known for; 5 = a house built on it. Seeded 27 Sep 2026 from the price pass (NONE tee = 1, priced tee = 2) and a short defended list for 3-5; provisional until read."
+  },
+  "price_evidence": {
+   "scope": "brand",
+   "path": "price_evidence",
+   "type": "obj",
+   "absent": "optional",
+   "doc": "Per garment slot: {lp, lu, hp, hu, b} — the product and URL behind the low and the high, and the basis (pair | range | single). Repo only; not emitted to the page. From price_full_2026-09-23.",
+   "const": null
+  },
+  "price_read": {
+   "scope": "brand",
+   "path": "price_read",
+   "type": "obj",
+   "absent": "optional",
+   "doc": "{date, store, currency, status, sublines} for the full read. Repo only.",
+   "const": null
+  },
+  "resale": {
+   "scope": "brand",
+   "const": "RESALE",
+   "path": "resale",
+   "type": "obj",
+   "absent": "optional",
+   "doc": "Secondhand listings for the brand's men's product: {vinted: {u, m, n}} — the Vinted men's URL, the method (brand filter | text search), and what the filter includes or excludes. From vinted_mens_search 27 Sep 2026."
+  },
+  "certs": {
+   "scope": "brand",
+   "const": "CERTS",
+   "path": "certs",
+   "type": "obj",
+   "absent": "optional",
+   "doc": "Third-party certifications held, as facts: {bcorp: {e: certified entity}, gots: {e: certified entity, n: caveat}}. A GOTS entry means the company holds a GOTS scope certificate (the right to sell certified product), not that the range is organic. From certs_bcorp_gots 27 Sep 2026."
+  },
+  "season": {
+   "scope": "brand",
+   "const": "SEASON",
+   "path": "season",
+   "type": "obj",
+   "absent": "optional",
+   "doc": "The brand's current-season lookbook or campaign: {l: season label as the brand states it, t: lookbook | campaign, u: URL, m: yes | unisex}. Only where found and verified; from lookbooks_fall2026 28 Sep 2026. Seasonal: re-read each season or remove."
+  },
+  "logo": {
+   "scope": "brand",
+   "const": "LOGO",
+   "path": "dials.logo",
+   "type": "int",
+   "range": [
+    1,
+    5
+   ],
+   "absent": "not_assessed",
+   "note": true,
+   "doc": "Logo: how visibly the brand's mark appears on the clothes. 1 = no visible branding; 2 = a small mark on some pieces; 3 = a mark on most pieces, small; 4 = large or all-over on a good share; 5 = the logo is the design. Seeded 28 Sep 2026, provisional until read (share of styles with a visible mark)."
+  },
+  "western": {
+   "scope": "brand",
+   "const": "WESTERN",
+   "path": "dials.western",
+   "type": "int",
+   "range": [
+    1,
+    5
+   ],
+   "absent": "not_assessed",
+   "note": true,
+   "doc": "Western: How much the brand belongs to Western wear — boots, pearl-snap shirts, ranch denim, the rodeo — from a boot-maker down to one Western shirt in the range. Seeded by hand 28 Sep 2026; provisional."
+  },
+  "rock": {
+   "scope": "brand",
+   "const": "ROCK",
+   "path": "dials.rock",
+   "type": "int",
+   "range": [
+    1,
+    5
+   ],
+   "absent": "not_assessed",
+   "note": true,
+   "doc": "Rock: How much the brand dresses the stage and the road — leather, black, biker and greaser cuts — from a rock house down to a single leather jacket. Seeded by hand 28 Sep 2026; provisional."
+  },
+  "workwear": {
+   "scope": "brand",
+   "const": "WORKWEAR",
+   "path": "dials.workwear",
+   "type": "int",
+   "range": [
+    1,
+    5
+   ],
+   "absent": "not_assessed",
+   "note": true,
+   "doc": "Workwear: How much the clothes descend from a trade — duck canvas, riveted denim, chore coats, tin cloth — from a company still selling work clothes down to a chore jacket in the range. Seeded by hand 28 Sep 2026; provisional."
+  },
+  "outdoor": {
+   "scope": "brand",
+   "const": "OUTDOOR",
+   "path": "dials.outdoor",
+   "type": "int",
+   "range": [
+    1,
+    5
+   ],
+   "absent": "not_assessed",
+   "note": true,
+   "doc": "Outdoor: How much the brand is technical outdoor clothing worn as everyday dress — shells, fleece, trail shoes on city streets — from a mountain house down to a fleece in the range. Seeded by hand 28 Sep 2026; provisional."
+  },
+  "surf": {
+   "scope": "brand",
+   "const": "SURF",
+   "path": "dials.surf",
+   "type": "int",
+   "range": [
+    1,
+    5
+   ],
+   "absent": "not_assessed",
+   "note": true,
+   "doc": "Surf: How much the beach runs the brand — boardshorts, washed cotton, salt-water ease — from a surfer's house down to a swim short in the range. Seeded by hand 28 Sep 2026; provisional."
+  },
+  "normcore": {
+   "scope": "brand",
+   "const": "NORMCORE",
+   "path": "dials.normcore",
+   "type": "int",
+   "range": [
+    1,
+    5
+   ],
+   "absent": "derived",
+   "doc": "Derived at build: how little the brand pops on any register. Takes the highest score across every culture dial plus Logo and Style; 5 when nothing exceeds 1, 4 when nothing exceeds 2, 3 when nothing exceeds 3, 2 when something is a 4, 1 when something is a 5. Not stored; lint rejects it if present."
+  },
+  "craft_evidence": {
+   "scope": "brand",
+   "const": null,
+   "path": "craft_evidence",
+   "type": "obj",
+   "absent": "optional",
+   "doc": "What the craft audit (3 Oct 2026) found: owned facility, named makers, named mills, made-in coverage, countries, heritage claim, repair, process, evidence URLs, confidence. Repo only."
+  },
+  "seg": {
+   "scope": "brand",
+   "const": "SEG",
+   "path": "seg",
+   "type": "obj",
+   "absent": "optional",
+   "doc": "Style and cool-factor segment from style_segments_2026-10-14, ruled 14 Oct: {s: segment, s2: secondary segment or absent, c: high|medium|low, r: rule or reason}. Fifteen segments; the taxonomy is jobs/returns/style_segments_2026-10-14/taxonomy.md. Authored by the segments project and ruled, never derived."
+  }
+ },
+ "price_slots": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants",
+  "Sweater",
+  "Outerwear",
+  "Shoes"
+ ],
+ "not_assessed_sentinel": 99
 }

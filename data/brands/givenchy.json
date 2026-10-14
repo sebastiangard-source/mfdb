@@ -22,7 +22,7 @@
   "forg": 1,
   "fuss": 0,
   "shoes": 3,
-  "status": 3,
+  "status": 4,
   "fren": 4,
   "whitet": 2,
   "logo": 2,
@@ -99,7 +99,8 @@
   "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
   "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
   "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-  "craft": "Givenchy PDPs state origin on every item checked (Italy for trousers, knit shorts and a leather bag; Portugal for a polo), with a traceability block naming countries of weaving and dyeing, but never a maker or mill. No owned atelier or factory is named on the site pages read. Country-of-make (with step-level countries) = 2. [audit proposed 2 at low confidence; held at 3 pending a second read]"
+  "craft": "Givenchy PDPs state origin on every item checked (Italy for trousers, knit shorts and a leather bag; Portugal for a polo), with a traceability block naming countries of weaving and dyeing, but never a maker or mill. No owned atelier or factory is named on the site pages read. Country-of-make (with step-level countries) = 2. [audit proposed 2 at low confidence; held at 3 pending a second read]",
+  "status": "rescored 4 on 14 Oct 2026 (style segments review: was 3)"
  },
  "doors": {
   "c": "full",
@@ -303,5 +304,11 @@
   ],
   "conf": "low",
   "read": "2026-10-03"
+ },
+ "seg": {
+  "s": "Runway houses",
+  "c": "medium",
+  "r": "ruled 14 Oct, as the project placed it: Override: couture house with 8 doors; status dial reads 3, which keeps it out of R5",
+  "s2": "Fashion insider"
  }
 }

@@ -20,7 +20,7 @@
  "dials": {
   "dur": 3,
   "forg": 3,
-  "fuss": -2,
+  "fuss": 2,
   "golffice": -3,
   "shoes": 0,
   "finbro": 3,
@@ -90,7 +90,8 @@
   "workwear": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
   "outdoor": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
   "surf": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional",
-  "craft": "Eton's own 2025 sustainability report says all manufacturing is outsourced; the Gånghester site keeps a sample atelier, not production. Shirt pages name neither mill nor country, while knit pages name Tollegno yarn and Italy. Heritage is real but no longer owned making: a 2, with 3 arguable on the knit mill naming."
+  "craft": "Eton's own 2025 sustainability report says all manufacturing is outsourced; the Gånghester site keeps a sample atelier, not production. Shirt pages name neither mill nor country, while knit pages name Tollegno yarn and Italy. Heritage is real but no longer owned making: a 2, with 3 arguable on the knit mill naming.",
+  "fuss": "rescored 2 on 14 Oct 2026 (style segments review: was -2)"
  },
  "doors": {
   "c": "full",
@@ -253,5 +254,10 @@
   ],
   "conf": "medium",
   "read": "2026-10-03"
+ },
+ "seg": {
+  "s": "Tailoring & craft",
+  "c": "medium",
+  "r": "Override: dress shirts are the whole range; fuss -2 contradicts the why line (see NOTE)"
  }
 }

@@ -4,7 +4,7 @@
  "seat": 240,
  "dagger": 0,
  "focus": {
-  "tech": 4,
+  "tech": 2,
   "comfort": 4,
   "craft": 2,
   "style": 1
@@ -161,7 +161,7 @@
   "sublines": "UNIQLO mainline incl. HEATTECH, AIRism, DRY/DRY-EX, BLOCKTECH, AirSense, Linen, Sport Utility Wear; Uniqlo U (standing sub-line, counted). EXCLUDED as a high: UT graphic tees (licensed/artist collaborations, e.g. KAWS UNIVERSE), UNIQLO : C, UNIQLO and JW ANDERSON, UNIQLO F.RISSO, The Roger Federer Collection (all in Uniqlo's own \"Special Collaborations\" class, 116 men's listings). Coming-soon items not used."
  },
  "notes": {
-  "tech": "Thread proposed 4 (10 Oct 2026): [\"HEATTECH\",\"AIRism\",\"DRY-EX\",\"DRY\",\"BLOCKTECH\",\"NANODESIGN\"] — both; share of range 29%. Seated as proposed, pending ruling.",
+  "tech": "rescored 2 on 14 Oct 2026 (style segments review: was 4)",
   "craft": "Thread proposed 2 (10 Oct 2026): All 66 product-detail records give only \"Imported\" in the composition text, though each carries country codes (mostly VN, BD, KH, CN). No maker is named. Kaihara and Toray co-development appear on 3-4 pages only. Nothing owned or documented was verified, so this is a 2. A 3 would need the Fast Retailing factory list (not read) to count as named makers. Seated as proposed, pending ruling.",
   "comfort": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
   "style": "seeded 10 Oct 2026 from the seat_wave_a return; provisional",
@@ -673,5 +673,11 @@
    5231
   ],
   "s": []
+ },
+ "seg": {
+  "s": "Basics & essentials",
+  "c": "medium",
+  "r": "Override: why line is mass basics; tech 4 is HEATTECH, not sport",
+  "s2": "Performance & athleisure"
  }
 }

@@ -20,7 +20,7 @@
  "dials": {
   "dur": 3,
   "forg": 4,
-  "fuss": -3,
+  "fuss": 2,
   "golffice": -2,
   "golf": 2,
   "status": 1,
@@ -91,7 +91,7 @@
  "price_checked": true,
  "notes": {
   "cotton": "Two-ply Egyptian and long-staple cotton, and a non-iron finish applied to it",
-  "fuss": "Non-iron is the founding proposition, not a feature",
+  "fuss": "rescored 2 on 14 Oct 2026 (style segments review: was -3)",
   "whitet": "sells a tee as a basic (price pass); not read for more — seeded 27 Sep 2026, provisional",
   "reach": "[authored findability score was 4; retired 28 Sep 2026]",
   "logo": "seeded 28 Sep 2026 from the range as it reads on the brand’s site; provisional until the logo share is counted",
@@ -309,5 +309,11 @@
   ],
   "conf": "medium",
   "read": "2026-10-03"
+ },
+ "seg": {
+  "s": "Tailoring & craft",
+  "c": "medium",
+  "r": "Override: dress shirts and suits; fuss -3 contradicts the why line (see NOTE)",
+  "s2": "Basics & essentials"
  }
 }
