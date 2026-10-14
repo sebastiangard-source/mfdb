@@ -92,13 +92,17 @@ def main():
         brands.append({'n': b['name'], 'band': BAND[b['band']], 'basis': b.get('band_note', ''), 'own': d['n'], 'out': d.get('out', 0), 'con': d.get('con', 0),
                        'tier': tier(d['n']), 'stores': stores, 'ne': sum(1 for s in stores if s['s'] in NE), 'locator': d.get('locator', ''),
                        'read': (d.get('basis') or '').replace('doors_womens ', ''), 'note': d.get('note', ''), 'src': b.get('src', 'womens'),
-                       'prices': prices_of(b), 'lh': bool(b.get('leather_high_held')), 'depts': b.get('depts', 0), 'about': about_of(b)})
+                       'prices': prices_of(b), 'lh': bool(b.get('leather_high_held')), 'depts': b.get('depts', 0), 'about': about_of(b), 'm': b.get('band_mean')})
     for kk, b in men.items():
         if kk not in universe: continue
         d = b.get('doors', {}); n = d.get('n') if d.get('c') in ('full', 'count', 'partial') else None
         if not n: continue
         stores = mstores.get(b['name'], [])
-        brands.append({'n': b['name'], 'band': BAND[b['band']], 'basis': 'banded on its men’s range (the men’s map)' + ((': ' + b['band_note']) if b.get('band_note') else ''), 'own': n,
+        pr = b.get('prices') or []
+        st = [x[0] for x in (pr[2] if len(pr) > 2 else None, pr[5] if len(pr) > 5 else None) if isinstance(x, list) and len(x) < 3]
+        m = round(sum(st) / len(st)) if st and b['band'] in ('premium', 'accessible', 'trueLux') else None
+        basis = (f"men’s dress-shirt and sweater entry, mean ${m}, at the women’s cuts" if m is not None else 'banded on its men’s range (the men’s map)' + ((': ' + b['band_note']) if b.get('band_note') else ''))
+        brands.append({'n': b['name'], 'band': BAND[b['band']], 'm': m, 'basis': basis, 'own': n,
                        'out': d.get('out', 0) or 0, 'con': d.get('con', 0) or 0, 'tier': tier(n), 'stores': stores, 'ne': sum(1 for s in stores if s['s'] in NE),
                        'locator': '', 'read': (d.get('basis') or '').split(';')[0].strip(), 'note': 'Also on the men’s map; its stores sell both. Prices and facts are the men’s record.',
                        'src': 'men', 'prices': prices_of(b), 'lh': False, 'depts': 0, 'about': about_of(b)})

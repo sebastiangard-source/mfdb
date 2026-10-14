@@ -139,6 +139,17 @@ def main():
         else:
             band, basis = 'Pending', 'not in the women\u2019s price pass (no own store when the worklist was cut)'
         rec = {'name': name, 'band': BAND_KEY[band], 'band_note': basis, 'women': True, 'garments': GARMENTS}
+        # the figure the Premium/Accessible/True Luxury cuts act on, so a page can move the cuts; absent where the band is
+        # Basic by the tee-and-blouse test, hand-set, or pending
+        if p and name not in HAND and band not in ('Basic', 'Pending'):
+            bl, sw = num(p['blouse_low']), num(p['sweater_low'])
+            st = [x for x in (bl, sw) if x is not None]
+            if st:
+                rec['band_mean'] = round(sum(st) / len(st))
+            else:
+                ot = [num(p[g + '_low']) for g in ('dress', 'trousers', 'outerwear')]; ot = [x for x in ot if x is not None]
+                if ot: rec['band_mean'] = round(sum(ot) / len(ot))
+                elif num(p['shoes_low']) is not None: rec['band_mean'] = num(p['shoes_low'])
         # facts
         if fa:
             CH = {'O': 'O', 'D': 'D', 'I': 'I', 'W': 'W'}
