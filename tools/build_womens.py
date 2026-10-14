@@ -13,8 +13,39 @@ import csv, json, os, re, glob, collections, unicodedata, datetime
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 NE = ['MA', 'CT', 'ME', 'NH', 'NJ', 'NY', 'PA', 'RI', 'VT', 'DE']
 BAND = {'basic': 'Basic', 'premium': 'Premium', 'accessible': 'Accessible', 'trueLux': 'True Luxury'}
+def cut(m):
+    return 'Premium' if m < 150 else ('Accessible' if m <= 400 else 'True Luxury')
+
+
+def band_of(p):
+    """The men's price rule on the women's staples; a provisional read where the staples are missing."""
+    tee, bl, sw = num(p['tee_low']), num(p['blouse_low']), num(p['sweater_low'])
+    rd = p['read_date']
+    if p['tee_low'] == 'NC' and p['blouse_low'] == 'NC' and p['sweater_low'] == 'NC':
+        return 'Pending', 'price read blocked (' + p['status'] + '); ' + p['note'][:140]
+    if tee is not None and bl is not None and tee <= 35 and bl < 80:
+        return 'Basic', f"core tee ${tee} and core blouse ${bl} (women's price pass, {rd})"
+    if tee is not None and tee <= 35 and p['blouse_low'] == 'NONE' and any(num(p[g + '_low']) is not None for g in ('sweater', 'jeans', 'trousers', 'dress', 'outerwear')):
+        return 'Basic', f"core tee ${tee} with no woven blouse sold, another clothing slot priced (the Salomon reading; women's price pass, {rd})"
+    staples = [x for x in (bl, sw) if x is not None]
+    if staples:
+        m = sum(staples) / len(staples)
+        what = 'blouse and sweater' if len(staples) == 2 else ('blouse' if bl is not None else 'sweater')
+        flag = '; ' + p['band_proposed'] if 'hand' in p['band_proposed'].lower() else ''
+        return cut(m), f"mean of {what} entry ${m:.0f} (women's price pass, {rd}){flag}"
+    others = [num(p[g + '_low']) for g in ('dress', 'trousers', 'outerwear')]
+    others = [x for x in others if x is not None]
+    if others:
+        m = sum(others) / len(others)
+        return cut(m), f"provisional, for ruling: no blouse or sweater, mean of dress/trousers/outerwear entries ${m:.0f} (women's price pass, {rd}); {p['band_proposed']}"
+    if num(p['shoes_low']) is not None:
+        return cut(num(p['shoes_low'])), f"shoe house, banded on shoe entry ${num(p['shoes_low'])} (women's price pass, {rd})"
+    return 'Pending', 'no priced staple; ' + p['note'][:140]
+
+
 HAND = {'Aritzia': ('Premium', 'core-garment rule, 13 Oct: the $28 ribbed baby tee and $58 smocked top are not its core tee and shirt'),
-        'Lucky Brand': ('Basic', 'everyday selling price is the price, 13 Oct: the struck "Comp. Value" is a reference, not a former price')}
+        'Lucky Brand': ('Basic', 'everyday selling price is the price, 13 Oct: the struck "Comp. Value" is a reference, not a former price'),
+        'GUESS': ('Premium', 'core-garment rule, 13 Oct: the $69 cropped shirt is not its core shirt; the plain Cotton Shirt is $89 (thread re-read)')}
 
 
 def k(s):
@@ -67,10 +98,9 @@ def main():
         if name in HAND:
             band, basis = HAND[name]
         elif p:
-            band = p['band_proposed'].split(' ')[0]
-            basis = f"price rule on tee ${p['tee_low']} / blouse ${p['blouse_low']} / sweater ${p['sweater_low']} (women's price pass, {p['read_date']})"
+            band, basis = band_of(p)
         else:
-            band, basis = 'Pending', 'no price read yet; the women’s price pass bands it when it lands'
+            band, basis = 'Pending', 'not in the women’s price pass (no own store when the worklist was cut)'
         prices = None
         if p:
             G = ['tee', 'blouse', 'sweater', 'jeans', 'trousers', 'dress', 'outerwear', 'shoes']
