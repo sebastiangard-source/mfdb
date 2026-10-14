@@ -1,11 +1,19 @@
 # prices_womens_2026-10-13 — entry and top prices for 156 women's brands with US stores
 
-**Issued** 13 October 2026 · **Kind** price · **Batches of ten, each returned as done** · **Returns to** the Spectrum thread
+**Issued** 13 October 2026 · **Reissued** 13 October 2026 evening · **Kind** price · **Batches of ten, each returned as done** · **Returns to** the Spectrum thread
 
 Read `audit_protocol.md` first. This is the women's twin of the men's price pass (`price_full_2026-09-23`):
 the same idea of a price — full price, the product behind every figure, the URL it was read from — on a
 women's set of garments. It is a Chrome job on the brands' own US stores. If you cannot run a browser,
 say so and stop.
+
+## Where it stands (13 October, evening)
+
+Batch 2 is in and merged: all ten rows read cleanly, Aritzia seated Premium under the core-garment rule and
+Lucky Brand Basic on its everyday price. **Batch 1 has not reached the Spectrum thread** — if it was returned,
+send it again; if not, it is next. Batches 3–16 are open. `worklist.csv` now carries a `status` column. The
+women's map is live with 170 of 246 brands waiting on this pass for a band, so every batch returned moves
+ten brands off "Pending".
 
 ## Why
 
