@@ -102,7 +102,7 @@ def main():
                        'out': d.get('out', 0) or 0, 'con': d.get('con', 0) or 0, 'tier': tier(n), 'stores': stores, 'ne': sum(1 for s in stores if s['s'] in NE),
                        'locator': '', 'read': (d.get('basis') or '').split(';')[0].strip(), 'note': 'Also on the men’s map; its stores sell both. Prices and facts are the men’s record.',
                        'src': 'men', 'prices': prices_of(b), 'lh': False, 'depts': 0, 'about': about_of(b)})
-    brands.sort(key=lambda b: (-b['own'], b['n'].lower()))
+    brands.sort(key=lambda b: unicodedata.normalize('NFKD', b['n']).encode('ascii', 'ignore').decode().lower().lstrip('.'))  # alphabetical within each band
     nb = collections.Counter(b['band'] for b in brands)
     data = {'built': datetime.date.today().isoformat(), 'brands': brands, 'ne': NE}
     tpl = open(os.path.join(ROOT, 'app/womens_template.html'), encoding='utf8').read()
