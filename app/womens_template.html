@@ -61,6 +61,9 @@ h1 .thin{color:var(--ink-faint)}
 .kv a{color:var(--green)}
 .prices{display:grid;grid-template-columns:repeat(4,1fr);gap:6px 14px;font-size:13px;margin:0 0 16px}
 .muted{color:var(--ink-faint)}
+.sells{font-size:14px;line-height:1.5;margin:0 0 10px}
+.q{margin:4px 0 18px;padding:10px 14px;border-left:2px solid var(--green);font-family:'Playfair Display',Georgia,serif;font-style:italic;font-size:15px;line-height:1.5}
+.q cite{display:block;font-family:Inter,system-ui,sans-serif;font-style:normal;font-size:11.5px;color:var(--ink-faint);margin-top:6px}
 .prices div span{display:block;font-size:11px;color:var(--ink-faint);letter-spacing:.03em;text-transform:uppercase}
 h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
 .st{list-style:none}
@@ -91,7 +94,7 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
     <h1>The Womenswear <span class="thin">Spectrum</span></h1>
     <p class="lede">Every women’s brand with a full-price store of its own in the US, placed by price band and shown with its stores. No dials yet: this is the locations map, built from the brands’ own locators, banded by the men’s price rule on the women’s price pass of 13 October.</p>
   </div>
-  <div class="stamp"><b>v0.2 · <span id="built"></span></b>stores counted from the brands’ own locators · bands by the men’s price rule on tee, blouse and sweater</div>
+  <div class="stamp"><b>v0.3 · <span id="built"></span></b>stores counted from the brands’ own locators · bands by the men’s price rule on tee, blouse and sweater</div>
 </header>
 
 <div class="controls">
@@ -149,6 +152,21 @@ function renderBands(){
   }
   document.getElementById('count').textContent=`${shown} brands · ${stores.toLocaleString()} full-price brand-owned US stores shown`;
 }
+function aboutHtml(b){
+  const a=b.about; if(!a) return '';
+  const link=(u,t)=>u?`<a href="${esc(u)}" target="_blank" rel="noopener">${esc(t)}</a>`:esc(t);
+  const rows=[];
+  if(a.founded||a.owner) rows.push(`<dt>Origin</dt><dd>${esc(a.founded)}${a.owner?` ${a.founded?'Owned today by ':'Owned by '}${link(a.ownerurl,a.owner)}.`:''}</dd>`);
+  if(a.chan.length) rows.push(`<dt>Sells through</dt><dd>${esc(a.chan.join(', '))}</dd>`);
+  if(a.sig) rows.push(`<dt>Signature</dt><dd>${link(a.sigurl,a.sig)}</dd>`);
+  if(a.pron) rows.push(`<dt>Said</dt><dd>${esc(a.pron)}</dd>`);
+  if(a.look) rows.push(`<dt>Lookbook</dt><dd>${link(a.lookurl,a.look)}</dd>`);
+  const resale=[a.vinted?link(a.vinted,'Vinted'):'',a.trr?link(a.trr,'The RealReal'):''].filter(Boolean);
+  if(resale.length) rows.push(`<dt>Resale</dt><dd>${resale.join(' · ')}</dd>`);
+  const certs=[a.bcorp?'B Corp ('+esc(a.bcorp)+')':'',a.gots?'GOTS ('+esc(a.gots)+')':''].filter(Boolean);
+  if(certs.length) rows.push(`<dt>Certified</dt><dd>${certs.join(' · ')}</dd>`);
+  return `<h3>About</h3>${a.sells?`<p class="sells">${esc(a.sells)}</p>`:''}<dl class="kv">${rows.join('')}</dl>${a.quote?`<blockquote class="q">“${esc(a.quote)}”<cite>— ${esc(a.who)}${a.qsrc?', '+link(a.qurl,a.qsrc):''}</cite></blockquote>`:''}${a.status==='partial'?'<p class="muted" style="font-size:12px">Facts partly read; the owner or a date is still open.</p>':''}`;
+}
 function openBrand(n){
   const b=W.brands.find(x=>x.n===n); if(!b) return;
   const byState={}; for(const s of b.stores){(byState[s.s]=byState[s.s]||[]).push(s);}
@@ -166,6 +184,7 @@ function openBrand(n){
       ${b.locator?`<dt>Locator</dt><dd><a href="${esc(b.locator)}" target="_blank" rel="noopener">${esc(b.locator.replace(/^https?:\/\//,'').slice(0,60))}</a></dd>`:''}
       ${b.read?`<dt>Read</dt><dd>${esc(b.read)}</dd>`:''}
     </dl>
+    ${aboutHtml(b)}
     ${prices?'<h3>Entry and top prices</h3>'+prices+(b.lh?'<p class="muted" style="font-size:12px;margin:-8px 0 16px">Outerwear high not shown: the read high was a leather piece, which is not an elevated material (ruled 14 Oct); the top non-leather piece is to be re-read.</p>':''):''}
     ${b.stores.length?'<h3>Stores</h3><ul class="st">'+states.map(st=>`<li class="hd">${ST[st]||st}${NE.has(st)?' · Northeast':''}</li>`+byState[st].sort((x,y)=>x.c.localeCompare(y.c)).map(s=>`<li><div>${esc(s.sn&&s.sn.toLowerCase()!==b.n.toLowerCase()?s.sn:(s.v||b.n))}<div class="where">${esc([s.a,s.c,s.s,s.z].filter(Boolean).join(', '))}${s.op?' · run by '+esc(s.op):''}</div></div><a href="${mapUrl(s)}" target="_blank" rel="noopener">map ↗</a></li>`).join('')).join('')+'</ul>':'<p class="note">Stores are counted but not addressed for this brand.</p>'}
     ${b.note?`<p class="note">${esc(b.note)}</p>`:''}

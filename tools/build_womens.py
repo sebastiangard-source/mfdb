@@ -75,6 +75,27 @@ def k(s):
     return re.sub(r'[^a-z0-9]', '', unicodedata.normalize('NFKD', s).encode('ascii', 'ignore').decode().lower())
 
 
+def v(x):
+    return '' if x in ('NC', 'NONE', 'np', '', None) else x
+
+
+def about_of(f):
+    """The facts block for the brand page, from the women's facts pass; empty where unread."""
+    if not f:
+        return None
+    CH = {'O': 'its own stores', 'D': 'department stores', 'I': 'independent shops', 'W': 'its own site'}
+    founded = ' '.join(x for x in (('Founded in ' + v(f['founded_place'])) if v(f['founded_place']) else '', ('in ' + v(f['founded_year'])) if v(f['founded_year']) else '',
+                                   ('by ' + v(f['founders'])) if v(f['founders']) else '') if x).strip()
+    return {'sells': v(f['what_it_sells']), 'chan': [CH[c] for c in f['channels'].split(';') if c in CH],
+            'founded': (founded + '.') if founded else '', 'owner': v(f['owner_today']), 'ownerurl': v(f['ownership_url']),
+            'sig': v(f['signature_product']), 'sigurl': v(f['signature_product_url']), 'pron': v(f['pronunciation']),
+            'quote': v(f['quote']), 'who': v(f['quote_who']), 'qsrc': v(f['quote_source']), 'qurl': v(f['quote_url']),
+            'look': v(f['lookbook_season_label']) if f['lookbook_found'] == 'yes' else '', 'lookurl': v(f['lookbook_url']) if f['lookbook_found'] == 'yes' else '',
+            'vinted': v(f['vinted_womens_url']), 'trr': v(f['therealreal_url']),
+            'bcorp': v(f['b_corp_entity']) if f['b_corp'] == 'yes' else '', 'gots': v(f['gots_entity']) if f['gots_certified'] == 'yes' else '',
+            'status': f['status'], 'read': f['read_date']}
+
+
 def tier(n):
     if n is None: return 'NC'
     if n == 0: return 'none'
@@ -102,6 +123,10 @@ def main():
             if r['status'] == 'NC' or (r['tee_low'] == 'NC' and r['blouse_low'] == 'NC' and r['sweater_low'] == 'NC' and r['brand'] in priced):
                 continue  # a blocked retry never overwrites a read
             priced[r['brand']] = r
+    facts = {}
+    ff = os.path.join(ROOT, 'jobs/returns/facts_womens_2026-10-13/return.csv')
+    if os.path.exists(ff):
+        facts = {r['brand']: r for r in csv.DictReader(open(ff, encoding='utf8'))}
     universe = {r['brand']: r for r in csv.DictReader(open(os.path.join(ROOT, 'registers/womens_universe_counted_2026-10-10.csv'), encoding='utf8'))}
 
     brands = []
@@ -135,7 +160,7 @@ def main():
                        'tier': tier(n), 'stores': stores, 'ne': sum(1 for s in stores if s['s'] in NE),
                        'locator': r.get('locator_url', ''), 'read': r.get('captured_on', ''), 'note': r.get('note', ''),
                        'src': 'womens' if name in counts else 'screen', 'prices': prices, 'lh': leather_high,
-                       'depts': num(universe.get(name, {}).get('full_price_stores') or 0) or 0})
+                       'depts': num(universe.get(name, {}).get('full_price_stores') or 0) or 0, 'about': about_of(facts.get(name))})
     # crossovers from the men's map
     places = json.load(open(os.path.join(ROOT, 'data/places.json')))
     wu = {k(n) for n in universe}
