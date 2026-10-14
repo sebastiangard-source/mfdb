@@ -10,6 +10,14 @@ Doors from registers/own_doors_womens_2026-10-10.csv (own-door, open) and, for c
 """
 import csv, json, os, re, glob, collections, unicodedata, datetime
 
+
+def num(v):
+    try:
+        return int(float(v))
+    except Exception:
+        return None
+
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 NE = ['MA', 'CT', 'ME', 'NH', 'NJ', 'NY', 'PA', 'RI', 'VT', 'DE']
 BAND = {'basic': 'Basic', 'premium': 'Premium', 'accessible': 'Accessible', 'trueLux': 'True Luxury'}
@@ -54,18 +62,17 @@ NOT_WOMENS = {'Kartik Research', 'Sanderlak'}  # Kartik: women's menu empty on i
 # Where the thread named the top non-leather piece, it is used; the rest show the entry only until re-read.
 LEATHER_RE = re.compile(r'\b(leather|suede|nappa|lambskin)\b', re.I)
 FAUX_RE = re.compile(r'faux|effect|polyurethane|vegan', re.I)
-NONLEATHER_HIGH = {'B SIDES': 1400, 'RÙADH': 3900, 'The Frankie Shop': 1150, 'Veronica de Piante': 3790}  # women's menu empty on its own US store, every product menswear (price pass 2, 13 Oct)
+NONLEATHER_HIGH = {'B SIDES': 1400, 'RÙADH': 3900, 'The Frankie Shop': 1150, 'Veronica de Piante': 3790}
+_f = os.path.join(ROOT, 'jobs/returns/outerwear_high_womens_2026-10-14/return.csv')
+if os.path.exists(_f):
+    for _r in csv.DictReader(open(_f, encoding='utf8')):
+        if num(_r['outerwear_high']) is not None:
+            NONLEATHER_HIGH[_r['brand']] = num(_r['outerwear_high'])
+NONLEATHER_HIGH['Lucky Brand'] = 199  # everyday price ruling, 13 Oct: Comp. Value is a reference; Utility Jacket $199 is the dearest undiscounted piece  # women's menu empty on its own US store, every product menswear (price pass 2, 13 Oct)
 
 
 def k(s):
     return re.sub(r'[^a-z0-9]', '', unicodedata.normalize('NFKD', s).encode('ascii', 'ignore').decode().lower())
-
-
-def num(v):
-    try:
-        return int(float(v))
-    except Exception:
-        return None
 
 
 def tier(n):
