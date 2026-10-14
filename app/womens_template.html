@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<title>The Womenswear Spectrum</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Prata&family=Playfair+Display:wght@400;500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--cream:#F6F4EF;--ink:#1E1E1B;--ink-soft:#4E4C45;--ink-faint:#6B695F;--hairline:#DCD8CC;--green:#123B2B;--green-soft:#1E5038;
+  --basic:#F2EEE2;--premium:#E9EFE7;--accessible:#E6EAF0;--trueLux:#EFE6E8;--pending:#EDEBE6}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--cream);color:var(--ink);font-family:'Inter',sans-serif;font-size:15px;line-height:1.55;-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;opacity:.35;
+  background:repeating-linear-gradient(0deg,rgba(43,36,30,.022) 0 1px,transparent 1px 3px),repeating-linear-gradient(90deg,rgba(43,36,30,.018) 0 1px,transparent 1px 3px)}
+main{position:relative;z-index:1;max-width:1280px;margin:0 auto;padding:0 20px 96px}
+header{padding:56px 0 28px;border-bottom:1px solid var(--hairline);margin-bottom:22px;display:flex;justify-content:space-between;align-items:flex-end;gap:16px;flex-wrap:wrap}
+h1{font-family:'Prata',serif;font-weight:400;font-size:clamp(30px,4.2vw,46px);line-height:1;letter-spacing:-.01em}
+h1 .thin{color:var(--ink-faint)}
+.lede{max-width:620px;color:var(--ink-soft);font-family:'Playfair Display',serif;font-size:13.5px;line-height:1.45;margin-top:10px}
+.stamp{font-size:11px;letter-spacing:.03em;color:var(--ink-faint);text-align:right}
+.stamp b{display:block;font-size:13px;color:var(--ink);font-weight:600}
+/* controls */
+.controls{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:0 0 18px}
+.controls input{flex:1 1 260px;min-width:220px;padding:11px 16px;border:1px solid var(--hairline);border-radius:999px;background:#fff;font:inherit;font-size:14px;color:var(--ink)}
+.chip{padding:9px 16px;border:1px solid var(--hairline);border-radius:999px;background:transparent;font:inherit;font-size:13px;font-weight:500;color:var(--ink-soft);cursor:pointer}
+.chip.on{background:var(--green);border-color:var(--green);color:#fff}
+.chip:hover{border-color:var(--ink)}
+.grp{display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+.grp .lbl{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint);margin-right:4px}
+.count{font-size:12.5px;color:var(--ink-faint);margin:0 0 14px}
+/* bands */
+.band{border-top:1px solid var(--hairline);padding:18px 0 22px}
+.band h2{font-family:'Prata',serif;font-weight:400;font-size:21px;display:flex;align-items:baseline;gap:12px}
+.band h2 small{font-family:'Inter',sans-serif;font-size:12px;color:var(--ink-faint);font-weight:400}
+.band .def{font-size:12.5px;color:var(--ink-faint);margin:2px 0 12px}
+.grid{display:flex;flex-wrap:wrap;gap:8px}
+.b{display:inline-flex;align-items:baseline;gap:7px;padding:8px 13px;border-radius:999px;border:1px solid transparent;background:#fff;font-size:13.5px;cursor:pointer;line-height:1.2}
+.b:hover{border-color:var(--ink)}
+.b .n{font-weight:500}
+.b .c{font-size:11px;color:var(--ink-faint);font-variant-numeric:tabular-nums}
+.b.men{background:transparent;border-color:var(--hairline)}
+.band.Basic .b{background:var(--basic)} .band.Premium .b{background:var(--premium)} .band.Accessible .b{background:var(--accessible)} .band.True .b{background:var(--trueLux)} .band.Pending .b{background:var(--pending)}
+.b.out{display:none}
+.legend{font-size:12px;color:var(--ink-faint);margin:6px 0 0}
+.legend span{display:inline-block;width:10px;height:10px;border-radius:3px;margin:0 4px 0 10px;vertical-align:-1px;border:1px solid var(--hairline)}
+/* panel */
+.ov{position:fixed;inset:0;background:rgba(30,30,27,.28);display:none;z-index:20}
+.ov.show{display:block}
+.panel{position:fixed;top:0;right:0;height:100%;width:min(720px,100%);background:var(--cream);z-index:21;transform:translateX(100%);transition:transform .25s;overflow-y:auto;padding:36px 32px 60px;box-shadow:-10px 0 30px rgba(0,0,0,.08)}
+.panel.show{transform:none}
+.panel .close{position:absolute;top:18px;right:20px;background:var(--green);color:#fff;border:0;border-radius:999px;padding:8px 18px;font:inherit;font-size:13px;cursor:pointer}
+.panel h2{font-family:'Prata',serif;font-weight:400;font-size:30px;line-height:1.1;margin:8px 60px 4px 0}
+.pill{display:inline-block;padding:4px 11px;border-radius:999px;font-size:12px;font-weight:600;margin:6px 6px 0 0;background:var(--pending);color:var(--ink-soft)}
+.pill.Basic{background:var(--basic)}.pill.Premium{background:var(--premium)}.pill.Accessible{background:var(--accessible)}.pill.True{background:var(--trueLux)}
+.basis{font-size:12.5px;color:var(--ink-faint);margin:8px 0 14px}
+.kv{display:grid;grid-template-columns:auto 1fr;gap:4px 14px;font-size:13.5px;margin:0 0 16px}
+.kv dt{color:var(--ink-faint)} .kv dd{color:var(--ink)}
+.kv a{color:var(--green)}
+.prices{display:grid;grid-template-columns:repeat(4,1fr);gap:6px 14px;font-size:13px;margin:0 0 16px}
+.prices div span{display:block;font-size:11px;color:var(--ink-faint);letter-spacing:.03em;text-transform:uppercase}
+h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
+.st{list-style:none}
+.st li{display:flex;justify-content:space-between;gap:12px;padding:9px 0;border-bottom:1px solid var(--hairline);font-size:13.5px}
+.st li .where{color:var(--ink-faint);font-size:12.5px}
+.st li a{flex:none;color:var(--green);border:1px solid var(--hairline);border-radius:999px;padding:4px 12px;font-size:12px;text-decoration:none;align-self:center}
+.st li a:hover{border-color:var(--green)}
+.st .hd{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint);padding:14px 0 4px;border:0}
+.note{font-size:12.5px;color:var(--ink-soft);margin:14px 0 0;line-height:1.5}
+.cav{font-size:12px;color:var(--ink-faint);margin:22px 0 0;line-height:1.5;border-top:1px solid var(--hairline);padding-top:12px}
+/* index */
+.idx{border-top:1px solid var(--hairline);padding:18px 0}
+.idx h2{font-family:'Prata',serif;font-weight:400;font-size:21px;margin-bottom:6px}
+.idx .def{font-size:12.5px;color:var(--ink-faint);margin:0 0 12px}
+.idx .row{display:flex;justify-content:space-between;gap:12px;padding:9px 0;border-bottom:1px solid var(--hairline);font-size:13.5px;align-items:center}
+.idx .row .brand{font-weight:500;cursor:pointer}
+.idx .row .where{color:var(--ink-faint);font-size:12.5px}
+.idx .row a{flex:none;color:var(--green);border:1px solid var(--hairline);border-radius:999px;padding:4px 12px;font-size:12px;text-decoration:none}
+.idx .state{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint);padding:16px 0 4px}
+.more{margin:12px 0 0;background:transparent;border:1px solid var(--hairline);border-radius:999px;padding:8px 16px;font:inherit;font-size:13px;cursor:pointer;color:var(--ink-soft)}
+@media (max-width:700px){header{padding-top:36px}.stamp{text-align:left}.prices{grid-template-columns:repeat(2,1fr)}.panel{padding:28px 18px 60px}}
+</style>
+</head>
+<body>
+<main>
+<header>
+  <div>
+    <h1>The Womenswear <span class="thin">Spectrum</span></h1>
+    <p class="lede">Every women’s brand with a full-price store of its own in the US, placed by price band and shown with its stores. No dials yet: this is the locations map, built from the brands’ own locators, with bands arriving as the price pass lands.</p>
+  </div>
+  <div class="stamp"><b>v0.1 · <span id="built"></span></b>stores counted from the brands’ own locators · bands by the men’s price rule on tee, blouse and sweater</div>
+</header>
+
+<div class="controls">
+  <input id="q" type="search" placeholder="Brand, town or state">
+  <div class="grp"><span class="lbl">Stores</span>
+    <button class="chip on" data-t="all">All</button><button class="chip" data-t="chain">51+</button><button class="chip" data-t="network">13–50</button><button class="chip" data-t="circuit">4–12</button><button class="chip" data-t="flagship">1–3</button></div>
+  <div class="grp"><span class="lbl">Northeast</span><button class="chip" id="neOnly">has a store here</button></div>
+  <div class="grp"><span class="lbl">Crossovers</span><button class="chip on" id="xover">include men’s-map brands</button></div>
+</div>
+<p class="count" id="count"></p>
+
+<div id="bands"></div>
+<p class="legend">Band by price rule: <span style="background:var(--basic)"></span>Basic <span style="background:var(--premium)"></span>Premium <span style="background:var(--accessible)"></span>Accessible <span style="background:var(--trueLux)"></span>True Luxury <span style="background:var(--pending)"></span>Pending a price read. An outlined chip is a brand banded on its men’s range.</p>
+
+<section class="idx">
+  <h2>Store index</h2>
+  <p class="def">Every full-price brand-owned store on file, by state. No outlets, concessions or pop-ups. Each entry opens a map at its address.</p>
+  <div id="idx"></div>
+  <button class="more" id="more">show more</button>
+</section>
+</main>
+
+<div class="ov" id="ov"></div>
+<aside class="panel" id="panel" aria-hidden="true"><button class="close" id="close">close</button><div id="pbody"></div></aside>
+
+<script>
+/*__DATA__*/
+const NE=new Set(W.ne);
+const TIERS={mass:'250+',chain:'51–250',network:'13–50',circuit:'4–12',flagship:'1–3'};
+const ORDER=['Basic','Premium','Accessible','True Luxury','Pending'];
+const DEF={Basic:'core tee at or under $35 and core shirt under $80 · mass basics',Premium:'mean of blouse and sweater entry under $150 · contemporary, DTC, mall',Accessible:'$150–400 · designer-adjacent, contemporary luxury',"True Luxury":'over $400 · the houses',Pending:'stores counted, prices not yet read — the women’s price pass bands these as it lands'};
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const mapUrl=s=>'https://www.google.com/maps/search/?api=1&query='+encodeURIComponent([s.a,s.c,s.s,s.z].filter(Boolean).join(', '));
+const ST={AL:'Alabama',AK:'Alaska',AZ:'Arizona',AR:'Arkansas',CA:'California',CO:'Colorado',CT:'Connecticut',DE:'Delaware',DC:'District of Columbia',FL:'Florida',GA:'Georgia',HI:'Hawaii',ID:'Idaho',IL:'Illinois',IN:'Indiana',IA:'Iowa',KS:'Kansas',KY:'Kentucky',LA:'Louisiana',ME:'Maine',MD:'Maryland',MA:'Massachusetts',MI:'Michigan',MN:'Minnesota',MS:'Mississippi',MO:'Missouri',MT:'Montana',NE:'Nebraska',NV:'Nevada',NH:'New Hampshire',NJ:'New Jersey',NM:'New Mexico',NY:'New York',NC:'North Carolina',ND:'North Dakota',OH:'Ohio',OK:'Oklahoma',OR:'Oregon',PA:'Pennsylvania',PR:'Puerto Rico',RI:'Rhode Island',SC:'South Carolina',SD:'South Dakota',TN:'Tennessee',TX:'Texas',UT:'Utah',VT:'Vermont',VA:'Virginia',WA:'Washington',WV:'West Virginia',WI:'Wisconsin',WY:'Wyoming'};
+document.getElementById('built').textContent=new Date(W.built+'T12:00:00').toLocaleDateString('en-US',{day:'numeric',month:'long',year:'numeric'});
+
+let tier='all', neOnly=false, xover=true, q='';
+function matches(b){
+  if(!xover && b.src==='men') return false;
+  if(tier!=='all' && !(tier==='chain' ? (b.tier==='chain'||b.tier==='mass') : b.tier===tier)) return false;
+  if(neOnly && !b.ne) return false;
+  if(q){const s=q.toLowerCase(); if(!(b.n.toLowerCase().includes(s) || b.stores.some(x=>x.c.toLowerCase().includes(s)||x.s.toLowerCase()===s||(ST[x.s]||'').toLowerCase().includes(s)))) return false;}
+  return true;
+}
+function renderBands(){
+  const host=document.getElementById('bands'); host.innerHTML='';
+  let shown=0, stores=0;
+  for(const band of ORDER){
+    const all=W.brands.filter(b=>b.band===band); if(!all.length) continue;
+    const vis=all.filter(matches); shown+=vis.length; stores+=vis.reduce((n,b)=>n+b.own,0);
+    const sec=document.createElement('section'); sec.className='band '+band.split(' ')[0];
+    sec.innerHTML=`<h2>${band}<small>${vis.length} of ${all.length} brands · ${vis.reduce((n,b)=>n+b.own,0).toLocaleString()} stores</small></h2><p class="def">${DEF[band]}</p><div class="grid">`+
+      all.map(b=>`<button class="b${b.src==='men'?' men':''}${matches(b)?'':' out'}" data-n="${esc(b.n)}"><span class="n">${esc(b.n)}</span><span class="c">${b.own}</span></button>`).join('')+'</div>';
+    host.appendChild(sec);
+  }
+  document.getElementById('count').textContent=`${shown} brands · ${stores.toLocaleString()} full-price brand-owned US stores shown`;
+}
+function openBrand(n){
+  const b=W.brands.find(x=>x.n===n); if(!b) return;
+  const byState={}; for(const s of b.stores){(byState[s.s]=byState[s.s]||[]).push(s);}
+  const states=Object.keys(byState).sort((a,c)=>(NE.has(c)-NE.has(a))||(byState[c].length-byState[a].length)||a.localeCompare(c));
+  const prices=b.prices?`<div class="prices">${Object.entries(b.prices).map(([g,v])=>`<div><span>${g}</span>${Array.isArray(v)?('$'+v[0]+(v[1]&&v[1]!==v[0]?'–'+v[1]:'')):esc(v)}</div>`).join('')}</div>`:'';
+  document.getElementById('pbody').innerHTML=`
+    <h2>${esc(b.n)}</h2>
+    <span class="pill ${b.band.split(' ')[0]}">${b.band}</span>${b.src==='men'?'<span class="pill">also on the men’s map</span>':''}
+    <p class="basis">${esc(b.basis)}</p>
+    <dl class="kv">
+      <dt>Full-price stores</dt><dd>${b.own} in the US${b.ne?` · ${b.ne} in the Northeast`:''}</dd>
+      ${b.out?`<dt>Outlets</dt><dd>${b.out} (not shown)</dd>`:''}
+      ${b.con?`<dt>Concessions</dt><dd>${b.con} (shop-in-shops; not counted)</dd>`:''}
+      ${b.depts?`<dt>Department stores</dt><dd>carried by ${b.depts} of the nine read</dd>`:''}
+      ${b.locator?`<dt>Locator</dt><dd><a href="${esc(b.locator)}" target="_blank" rel="noopener">${esc(b.locator.replace(/^https?:\/\//,'').slice(0,60))}</a></dd>`:''}
+      ${b.read?`<dt>Read</dt><dd>${esc(b.read)}</dd>`:''}
+    </dl>
+    ${prices?'<h3>Entry and top prices</h3>'+prices:''}
+    ${b.stores.length?'<h3>Stores</h3><ul class="st">'+states.map(st=>`<li class="hd">${ST[st]||st}${NE.has(st)?' · Northeast':''}</li>`+byState[st].sort((x,y)=>x.c.localeCompare(y.c)).map(s=>`<li><div>${esc(s.sn&&s.sn.toLowerCase()!==b.n.toLowerCase()?s.sn:(s.v||b.n))}<div class="where">${esc([s.a,s.c,s.s,s.z].filter(Boolean).join(', '))}${s.op?' · run by '+esc(s.op):''}</div></div><a href="${mapUrl(s)}" target="_blank" rel="noopener">map ↗</a></li>`).join('')).join('')+'</ul>':'<p class="note">Stores are counted but not addressed for this brand.</p>'}
+    ${b.note?`<p class="note">${esc(b.note)}</p>`:''}
+    <p class="cav">Full-price, brand-owned stores from the brand’s own locator. Outlets, concessions and pop-ups are held in the register but not shown. What is on the rack changes daily.</p>`;
+  document.getElementById('panel').classList.add('show'); document.getElementById('ov').classList.add('show');
+}
+function closePanel(){document.getElementById('panel').classList.remove('show'); document.getElementById('ov').classList.remove('show');}
+document.getElementById('close').onclick=closePanel; document.getElementById('ov').onclick=closePanel;
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closePanel();});
+document.getElementById('bands').addEventListener('click',e=>{const b=e.target.closest('.b'); if(b) openBrand(b.dataset.n);});
+document.querySelectorAll('.chip[data-t]').forEach(c=>c.onclick=()=>{document.querySelectorAll('.chip[data-t]').forEach(x=>x.classList.remove('on')); c.classList.add('on'); tier=c.dataset.t; renderBands(); renderIdx();});
+document.getElementById('neOnly').onclick=e=>{neOnly=!neOnly; e.target.classList.toggle('on',neOnly); renderBands(); renderIdx();};
+document.getElementById('xover').onclick=e=>{xover=!xover; e.target.classList.toggle('on',xover); renderBands(); renderIdx();};
+document.getElementById('q').addEventListener('input',e=>{q=e.target.value.trim(); renderBands(); renderIdx();});
+
+// index
+let LIMIT=120;
+function renderIdx(){
+  const rows=[];
+  for(const b of W.brands){ if(!matches(b)) continue; for(const s of b.stores){ if(q){const t=q.toLowerCase(); if(!(b.n.toLowerCase().includes(t)||s.c.toLowerCase().includes(t)||s.s.toLowerCase()===t||(ST[s.s]||'').toLowerCase().includes(t))) continue;} rows.push({b,s}); } }
+  rows.sort((x,y)=>(NE.has(y.s.s)-NE.has(x.s.s))||(ST[x.s.s]||x.s.s).localeCompare(ST[y.s.s]||y.s.s)||x.s.c.localeCompare(y.s.c)||x.b.n.localeCompare(y.b.n));
+  const host=document.getElementById('idx'); let st=''; let out='';
+  rows.slice(0,LIMIT).forEach(({b,s})=>{ if(s.s!==st){st=s.s; out+=`<div class="state">${ST[st]||st}${NE.has(st)?' · Northeast':''} · ${rows.filter(r=>r.s.s===st).length}</div>`;}
+    out+=`<div class="row"><div><span class="brand" data-n="${esc(b.n)}">${esc(b.n)}</span>${s.sn&&s.sn.toLowerCase()!==b.n.toLowerCase()?' <span class="where">· '+esc(s.sn)+'</span>':''}<div class="where">${esc([s.a,s.c,s.s].filter(Boolean).join(', '))}${s.v?' · '+esc(s.v):''}</div></div><a href="${mapUrl(s)}" target="_blank" rel="noopener">map ↗</a></div>`; });
+  host.innerHTML=out||'<p class="def">No stores match.</p>';
+  const more=document.getElementById('more'); more.style.display=rows.length>LIMIT?'':'none'; more.textContent=`show more (${(rows.length-LIMIT).toLocaleString()} of ${rows.length.toLocaleString()} left)`;
+}
+document.getElementById('more').onclick=()=>{LIMIT+=300; renderIdx();};
+document.getElementById('idx').addEventListener('click',e=>{const b=e.target.closest('.brand'); if(b) openBrand(b.dataset.n);});
+renderBands(); renderIdx();
+</script>
+</body>
+</html>
