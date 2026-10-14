@@ -1,10 +1,10 @@
-# Cyprus locations database — 13 October 2026
+# Cyprus locations database — 13 October 2026 (evening build)
 
-Three tables. Every address in them was read from the brand's own store locator or stockist list, by a
+Four tables. Every address in them was read from the brand's own store locator or stockist list, by a
 reading thread working to written rules, and nothing was taken from Google, Yelp, mall directories or
 press. Where a brand's locator could not be read, the brand is absent or marked, never guessed.
 
-## 1. own_stores.csv — 10,923 rows, 392 brands
+## 1. own_stores.csv — 11,091 rows, 432 brands
 
 One row per **full-price, brand-owned US store**. No outlets, factory or clearance stores, concessions,
 department-store counters, pop-ups or stockists. Puerto Rico is included; Guam and other territories
@@ -14,7 +14,7 @@ are not. Operator- or licensee-run stores under the brand's name are included, w
 |---|---|
 | `door_id` | Stable 12-character id, from brand + normalized street + ZIP. Never retyped; the geocoding return keys on it. |
 | `brand` | The brand's name as the map writes it (the "canonical key"). |
-| `map` | `men` — a brand seated on the Menswear Spectrum (6,450 rows, 236 brands); `women` — a brand from the women's universe not on the men's map (4,473 rows, 156 brands). A brand that sells both is `men` once, not twice. |
+| `map` | `men` — a brand seated on the Menswear Spectrum (6,591 rows); `women` — a brand from the women's universe not on the men's map (4,500 rows). A brand that sells both is `men` once, not twice. |
 | `store_name`, `banner` | The store's name and the banner on the door as the locator gives them (e.g. "Michael Kors Collection", "GUESS Jeans", "Gap"). |
 | `street`, `city`, `state`, `zip` | The address as the locator writes it; ZIP is five digits, empty (115 rows) where the locator publishes none. State is a two-letter code — NC is North Carolina. |
 | `country` | US throughout (PR rows carry PR in `state`). |
@@ -45,15 +45,20 @@ the wave A/B/C stockist files are US-wide reads from the brand's locator; `ne_sh
 Northeast specialty-shop register built for the map's region feature.
 
 **Coverage is partial and uneven.** Only the 136 brands read in waves A–C have a national stockist list;
-the other 172 Premium-and-above men's brands have at most the Northeast register. Women's brands have
-stockists only for the 19 Net-a-Porter brands read so far (in a separate file in the registers, not
-yet merged here). This table is the practice run for the stockist layer, not the finished layer.
+the other 172 Premium-and-above men's brands have at most the Northeast register. Women's brands' stockists are in the fourth table. This table is the practice run for the stockist layer, not the finished layer.
 
 ## 3. stockist_shops.csv — 1,425 rows
 
 The same stockists as **one row per physical shop**, with `brands_on_file` (how many of our brands list
 it) and `brands` (which). Sorted by brands carried: Richards (Greenwich, 24), Mitchells (Westport, 22),
 Boyds (Philadelphia, 18), Louie, Giblees, Puritan Cape Cod, Weitzenkorn's, Raggs, Larrimor's, Moda.
+
+## 4. stockists_womens_by_brand.csv — 1,103 rows, 36 brands
+
+Stockists the Net-a-Porter women's job read from the brands' own stockist pages, as the brand writes
+them: `channel` is `store` (1,023), `online` or `NC` (name only, no address). Department
+stores are kept here but flagged in `note`; the final stockist layer drops them. Not yet folded into the
+shop table.
 
 ## Provenance and rules
 
@@ -66,7 +71,6 @@ registers in seconds, so a refresh is a re-read, not a re-build.
 
 ## Still to come
 
-Wave C batches 5–9 (41 men's brands, Mango and Zara among them); the Net-a-Porter women's job (142
-brands); the Rue La La brief (11 women's reads); coordinates from the geocoding job; a national
+The Rue La La brief (11 women's reads); coordinates from the geocoding job; a national
 stockist read for the 172 unread men's brands; the women's price pass, which bands the women's brands
 so the Premium-and-above filter applies to both sides.
