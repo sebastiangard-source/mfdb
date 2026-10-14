@@ -27,7 +27,7 @@ GARMENTS = ['T-shirt', 'Blouse', 'Sweater', 'Jeans', 'Trousers', 'Dress', 'Outer
 
 
 def cut(m):
-    return 'Premium' if m < 150 else ('Accessible' if m <= 600 else 'True Luxury')
+    return 'Premium' if m < 200 else ('Accessible' if m <= 600 else 'True Luxury')
 
 
 def band_of(p):
