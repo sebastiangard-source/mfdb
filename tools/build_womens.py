@@ -45,7 +45,10 @@ def band_of(p):
 
 HAND = {'Aritzia': ('Premium', 'core-garment rule, 13 Oct: the $28 ribbed baby tee and $58 smocked top are not its core tee and shirt'),
         'Lucky Brand': ('Basic', 'everyday selling price is the price, 13 Oct: the struck "Comp. Value" is a reference, not a former price'),
+        'Suzie Kondi': ('Accessible', 'for ruling, 14 Oct: its only sweater is a $2,295 made-to-order hand-knit, not a staple; seated on the $325 shirt entry beside $295 track pants (thread proposal)'),
         'GUESS': ('Premium', 'core-garment rule, 13 Oct: the $69 cropped shirt is not its core shirt; the plain Cotton Shirt is $89 (thread re-read)')}
+
+NOT_WOMENS = {'Kartik Research'}  # women's menu empty on its own US store, every product menswear (price pass 2, 13 Oct)
 
 
 def k(s):
@@ -80,8 +83,11 @@ def main():
         doors[r['brand']].append(r)
     # price pass
     priced = {}
-    for f in sorted(glob.glob(os.path.join(ROOT, 'jobs/returns/prices_womens_2026-10-13/batch*/return.csv'))):
+    for f in sorted(glob.glob(os.path.join(ROOT, 'jobs/returns/prices_womens_2026-10-13/batch*/return.csv'))) + \
+             sorted(glob.glob(os.path.join(ROOT, 'jobs/returns/prices_womens_2_2026-10-13/return.csv'))):
         for r in csv.DictReader(open(f, encoding='utf8')):
+            if r['status'] == 'NC' or (r['tee_low'] == 'NC' and r['blouse_low'] == 'NC' and r['sweater_low'] == 'NC' and r['brand'] in priced):
+                continue  # a blocked retry never overwrites a read
             priced[r['brand']] = r
     universe = {r['brand']: r for r in csv.DictReader(open(os.path.join(ROOT, 'registers/womens_universe_counted_2026-10-10.csv'), encoding='utf8'))}
 
@@ -90,7 +96,7 @@ def main():
     # women's register brands with stores
     for name, r in list(counts.items()) + [(n, s) for n, s in screen.items() if n not in counts]:
         n = num(r['us_own_stores'])
-        if n is None or n == 0 or k(name) in men or k(name) in seen:
+        if n is None or n == 0 or k(name) in men or k(name) in seen or name in NOT_WOMENS:
             continue
         seen.add(k(name))
         rows = [d for d in doors.get(name, []) if d['format'] == 'own-door' and d['status'] == 'open']
