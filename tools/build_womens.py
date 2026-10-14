@@ -84,8 +84,9 @@ def about_of(f):
     if not f:
         return None
     CH = {'O': 'its own stores', 'D': 'department stores', 'I': 'independent shops', 'W': 'its own site'}
-    founded = ' '.join(x for x in (('Founded in ' + v(f['founded_place'])) if v(f['founded_place']) else '', ('in ' + v(f['founded_year'])) if v(f['founded_year']) else '',
-                                   ('by ' + v(f['founders'])) if v(f['founders']) else '') if x).strip()
+    parts = [x for x in (('in ' + v(f['founded_place'])) if v(f['founded_place']) else '', ('in ' + v(f['founded_year'])) if v(f['founded_year']) else '',
+                         ('by ' + v(f['founders'])) if v(f['founders']) else '') if x]
+    founded = ('Founded ' + ' '.join(parts)) if parts else ''
     return {'sells': v(f['what_it_sells']), 'chan': [CH[c] for c in f['channels'].split(';') if c in CH],
             'founded': (founded + '.') if founded else '', 'owner': v(f['owner_today']), 'ownerurl': v(f['ownership_url']),
             'sig': v(f['signature_product']), 'sigurl': v(f['signature_product_url']), 'pron': v(f['pronunciation']),
