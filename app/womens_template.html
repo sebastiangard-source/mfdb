@@ -94,7 +94,7 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
     <h1>The Womenswear <span class="thin">Spectrum</span></h1>
     <p class="lede">Every women’s brand with a full-price store of its own in the US, placed by price band and shown with its stores. No dials yet: this is the locations map, built from the brands’ own locators, banded by the men’s price rule on the women’s price pass of 13 October.</p>
   </div>
-  <div class="stamp"><b>v0.3 · <span id="built"></span></b>stores counted from the brands’ own locators · bands by the men’s price rule on tee, blouse and sweater</div>
+  <div class="stamp"><b>v0.4 · <span id="built"></span></b>stores counted from the brands’ own locators · bands by the men’s price rule on tee, blouse and sweater</div>
 </header>
 
 <div class="controls">
@@ -161,11 +161,11 @@ function aboutHtml(b){
   if(a.sig) rows.push(`<dt>Signature</dt><dd>${link(a.sigurl,a.sig)}</dd>`);
   if(a.pron) rows.push(`<dt>Said</dt><dd>${esc(a.pron)}</dd>`);
   if(a.look) rows.push(`<dt>Lookbook</dt><dd>${link(a.lookurl,a.look)}</dd>`);
-  const resale=[a.vinted?link(a.vinted,'Vinted'):'',a.trr?link(a.trr,'The RealReal'):''].filter(Boolean);
+  const resale=[a.vinted?link(a.vinted,'Vinted'):'',a.trr?link(a.trr,'The RealReal'):'',a.grailed?link(a.grailed,'Grailed'):''].filter(Boolean);
   if(resale.length) rows.push(`<dt>Resale</dt><dd>${resale.join(' · ')}</dd>`);
   const certs=[a.bcorp?'B Corp ('+esc(a.bcorp)+')':'',a.gots?'GOTS ('+esc(a.gots)+')':''].filter(Boolean);
   if(certs.length) rows.push(`<dt>Certified</dt><dd>${certs.join(' · ')}</dd>`);
-  return `<h3>About</h3>${a.sells?`<p class="sells">${esc(a.sells)}</p>`:''}<dl class="kv">${rows.join('')}</dl>${a.quote?`<blockquote class="q">“${esc(a.quote)}”<cite>— ${esc(a.who)}${a.qsrc?', '+link(a.qurl,a.qsrc):''}</cite></blockquote>`:''}${a.status==='partial'?'<p class="muted" style="font-size:12px">Facts partly read; the owner or a date is still open.</p>':''}`;
+  return `<h3>About</h3>${a.sells?`<p class="sells">${esc(a.sells)}</p>`:''}<dl class="kv">${rows.join('')}</dl>${a.quote?`<blockquote class="q">“${esc(a.quote)}”<cite>— ${a.qurl?link(a.qurl,a.who):esc(a.who)}</cite></blockquote>`:''}${a.status==='partial'?'<p class="muted" style="font-size:12px">Facts partly read; the owner or a date is still open.</p>':''}`;
 }
 function openBrand(n){
   const b=W.brands.find(x=>x.n===n); if(!b) return;
