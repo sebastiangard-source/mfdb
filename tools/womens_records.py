@@ -107,15 +107,17 @@ def main():
             doors[r['brand']].append(r)
     priced = {}
     for f in sorted(glob.glob(os.path.join(ROOT, 'jobs/returns/prices_womens_2026-10-13/batch*/return.csv'))) + \
-             sorted(glob.glob(os.path.join(ROOT, 'jobs/returns/prices_womens_2_2026-10-13/return.csv'))):
+             sorted(glob.glob(os.path.join(ROOT, 'jobs/returns/prices_womens_2_2026-10-13/return.csv'))) + \
+             sorted(glob.glob(os.path.join(ROOT, 'jobs/returns/womens_houses_and_held_2026-10-14/part1_womens/return_b_prices.csv'))):
         for r in csv.DictReader(open(f, encoding='utf8')):
             if r['status'] == 'NC' or (r['tee_low'] == 'NC' and r['blouse_low'] == 'NC' and r['sweater_low'] == 'NC' and r['brand'] in priced):
                 continue
             priced[r['brand']] = r
     facts = {}
     ff = os.path.join(ROOT, 'jobs/returns/facts_womens_2026-10-13/return.csv')
-    if os.path.exists(ff):
-        facts = {r['brand']: r for r in csv.DictReader(open(ff, encoding='utf8'))}
+    for ff in (ff, os.path.join(ROOT, 'jobs/returns/womens_houses_and_held_2026-10-14/part1_womens/return_b_facts.csv')):
+        if os.path.exists(ff):
+            facts.update({r['brand']: r for r in csv.DictReader(open(ff, encoding='utf8'))})
     universe = {r['brand']: r for r in csv.DictReader(open(os.path.join(ROOT, 'registers/womens_universe_counted_2026-10-10.csv'), encoding='utf8'))}
     oh = {}
     of = os.path.join(ROOT, 'jobs/returns/outerwear_high_womens_2026-10-14/return.csv')

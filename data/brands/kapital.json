@@ -1,0 +1,257 @@
+{
+ "name": "Kapital",
+ "band": "accessible",
+ "seat": 371,
+ "dagger": 0,
+ "focus": {
+  "tech": 1,
+  "comfort": 3,
+  "craft": 4,
+  "style": 4
+ },
+ "fabric": {
+  "denim": 5,
+  "cashmere": 1,
+  "linen": 2,
+  "cotton": 4,
+  "wool": 2,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 4,
+  "forg": 2,
+  "fuss": 1,
+  "golffice": -3,
+  "whitet": 2,
+  "logo": 2,
+  "western": 3,
+  "rock": 2,
+  "workwear": 4,
+  "outdoor": 1,
+  "surf": 1,
+  "murica": 3,
+  "weird": 3,
+  "avant": 2,
+  "street": 2
+ },
+ "why": "Kojima denim house from 1985, boro patchwork, bandana prints and its own dye works; twelve shops in Japan, none in the US, prices in yen.",
+ "origin": "Founded in 1985 in Kojima, Kurashiki, Okayama (HQ address on the Company page; founding place not stated separately) by NC (not named on kapital.jp and representative director today 平田和宏 Kazuhiro Hirata).",
+ "chan": [
+  "I",
+  "W"
+ ],
+ "conf": "S",
+ "forgc": [
+  2,
+  3,
+  1
+ ],
+ "onething": {
+  "p": null,
+  "u": null,
+  "n": "no signature product named in the womens_houses_and_held_2026-10-14 return"
+ },
+ "prices": [
+  [
+   10780,
+   18480
+  ],
+  [
+   17380,
+   70180
+  ],
+  [
+   19580,
+   47080
+  ],
+  [
+   20680,
+   75680
+  ],
+  [
+   20680,
+   58080
+  ],
+  [
+   29480,
+   40480
+  ],
+  [
+   28380,
+   129580
+  ],
+  null
+ ],
+ "price_checked": true,
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Jeans",
+  "Dress pants",
+  "Sweater",
+  "Outerwear"
+ ],
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "ガーゼ天竺 クルーポケT (gauze jersey crew pocket tee)",
+   "lu": "https://www.kapital-webshop.jp/category/MENSALL/EK442SCA.html",
+   "hp": "20/-天竺 IDG手染めクルーT (hand-dyed indigo crew tee)",
+   "hu": "https://www.kapital-webshop.jp/category/MENSALL/K2509SC029.html",
+   "b": "range"
+  },
+  "Polo": {
+   "lp": "ドライ鹿の子 BOXポロ (dry piqué box polo)",
+   "lu": "https://www.kapital-webshop.jp/category/MENSALL/K2504SC187.html",
+   "hp": "ニット×シャンブレー ポロシャツ (knit x chambray polo)",
+   "hu": "https://www.kapital-webshop.jp/category/MENSALL/K2605KN171.html",
+   "b": "range"
+  },
+  "Dress shirt": {
+   "lp": "OX ラグランシャツ (oxford raglan shirt)",
+   "lu": "https://www.kapital-webshop.jp/category/MENSALL/K2603LS018.html",
+   "hp": "コットンキルティング豆紋pt ハスキーウエスタンシャツ (quilted western shirt)",
+   "hu": "https://www.kapital-webshop.jp/category/MENSALL/K2509LS036.html",
+   "b": "range"
+  },
+  "Jeans": {
+   "lp": "14ozデニム 5P OKABELLBO",
+   "lu": "https://www.kapital-webshop.jp/category/MENSALL/SLP108A.html",
+   "hp": "14ozデニム タイダイバギーフレアパンツ (tie-dye baggy flare)",
+   "hu": "https://www.kapital-webshop.jp/category/MENSALL/K2410LP097.html",
+   "b": "range"
+  },
+  "Dress pants": {
+   "lp": "チノ ハイウエストニームパンツ (chino high-waist pant)",
+   "lu": "https://www.kapital-webshop.jp/category/MENSALL/EK763LPA.html",
+   "hp": "ウールサージ スラックス (wool-serge slacks)",
+   "hu": "https://www.kapital-webshop.jp/category/MENSALL/K2512LP215.html",
+   "b": "range"
+  },
+  "Sweater": {
+   "lp": "8G ジャガードニット ヴィンテージクルーセーター",
+   "lu": "https://www.kapital-webshop.jp/category/MENSALL/K2509KN061.html",
+   "hp": "12G ウール クルーネックセーター (FLY GOOSE)",
+   "hu": "https://www.kapital-webshop.jp/category/MENSALL/K2509KN060.html",
+   "b": "range"
+  },
+  "Outerwear": {
+   "lp": "12ozデニム CACTUSカバーオール (denim coverall)",
+   "lu": "https://www.kapital-webshop.jp/category/MENSALL/EK1387LJB.html",
+   "hp": "YABANEキルトパッチワーク シャトーボレロ (quilt-patchwork jacket)",
+   "hu": "https://www.kapital-webshop.jp/category/MENSALL/K2411LJ129.html",
+   "b": "range"
+  }
+ },
+ "garment_links": {
+  "T-shirt": "https://www.kapital-webshop.jp/category/M_T_SHIRT/",
+  "Polo": "https://www.kapital-webshop.jp/category/M_SHORT_SLEEVE/",
+  "Dress shirt": "https://www.kapital-webshop.jp/category/M_SHIRT/",
+  "Jeans": "https://www.kapital-webshop.jp/category/M_PANTS/",
+  "Dress pants": "https://www.kapital-webshop.jp/category/M_PANTS/",
+  "Sweater": "https://www.kapital-webshop.jp/category/M_KNIT_SWEATER/",
+  "Outerwear": "https://www.kapital-webshop.jp/category/M_JACKET/",
+  "Shoes": "https://www.kapital-webshop.jp/category/SHOES/"
+ },
+ "price_read": {
+  "date": "2026-10-14",
+  "store": "https://www.kapital-webshop.jp/ (the WEB SHOP linked from kapital.jp; no US storefront or USD option)",
+  "currency": "JPY",
+  "status": "partial",
+  "sublines": "all men's categories on kapital-webshop.jp (KAPITAL incl. KOUNTRY pieces); women's excluded"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-14):  — NONE; share of range 0%. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 4 (2026-10-14): The Company page names four own sewing factories and an own dye works in Kojima, so the brand makes much of what it sells. Some pieces are stated as made in Nepal, Vietnam or China, so owned making does not cover the whole range; a case for 5 if those are ruled minor. Seated as proposed, pending ruling.",
+  "comfort": "seeded 2026-10-14 from the womens_houses_and_held_2026-10-14 return; provisional",
+  "style": "seeded 2026-10-14 from the womens_houses_and_held_2026-10-14 return; provisional",
+  "dur": "seeded 2026-10-14 from the womens_houses_and_held_2026-10-14 return; provisional",
+  "forg": "seeded 2026-10-14 from the womens_houses_and_held_2026-10-14 return; provisional",
+  "fuss": "seeded 2026-10-14 from the womens_houses_and_held_2026-10-14 return; provisional",
+  "golffice": "seeded 2026-10-14 from the womens_houses_and_held_2026-10-14 return; provisional",
+  "whitet": "seeded 2026-10-14 from the womens_houses_and_held_2026-10-14 return; provisional",
+  "logo": "seeded 2026-10-14 from the womens_houses_and_held_2026-10-14 return; provisional",
+  "western": "seeded 2026-10-14 from the womens_houses_and_held_2026-10-14 return; provisional",
+  "rock": "seeded 2026-10-14 from the womens_houses_and_held_2026-10-14 return; provisional",
+  "workwear": "seeded 2026-10-14 from the womens_houses_and_held_2026-10-14 return; provisional",
+  "outdoor": "seeded 2026-10-14 from the womens_houses_and_held_2026-10-14 return; provisional",
+  "surf": "seeded 2026-10-14 from the womens_houses_and_held_2026-10-14 return; provisional",
+  "denim": "seeded 2026-10-14 from the womens_houses_and_held_2026-10-14 return; provisional",
+  "cashmere": "seeded 2026-10-14 from the womens_houses_and_held_2026-10-14 return; provisional",
+  "linen": "seeded 2026-10-14 from the womens_houses_and_held_2026-10-14 return; provisional",
+  "cotton": "seeded 2026-10-14 from the womens_houses_and_held_2026-10-14 return; provisional",
+  "wool": "seeded 2026-10-14 from the womens_houses_and_held_2026-10-14 return; provisional",
+  "synth": "seeded 2026-10-14 from the womens_houses_and_held_2026-10-14 return; provisional",
+  "murica": "seeded 2026-10-14 from the womens_houses_and_held_2026-10-14 return; provisional",
+  "weird": "seeded 2026-10-14 from the womens_houses_and_held_2026-10-14 return; provisional",
+  "avant": "seeded 2026-10-14 from the womens_houses_and_held_2026-10-14 return; provisional",
+  "street": "seeded 2026-10-14 from the womens_houses_and_held_2026-10-14 return; provisional"
+ },
+ "doors": {
+  "c": "full",
+  "n": 0,
+  "cities": [],
+  "basis": "positive zero 2026-10-14 (womens_houses_and_held_2026-10-14)",
+  "out": 0,
+  "con": 0
+ },
+ "cities": "No store of its own in the US · independent shops, and its own site",
+ "site": {
+  "domain": "kapital.jp",
+  "platform": "other",
+  "feed": "none",
+  "feed_count": 0,
+  "status": "live_store",
+  "checked": "2026-10-14"
+ },
+ "tech_evidence": {
+  "names": "no",
+  "origin": "none",
+  "marks": [],
+  "source": "womens_houses_and_held_2026-10-14",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "yes: Company page lists own sewing factories (本社工場, 御津工場, 山城工場, 柳田工場) and a dye works (カントリー工場); SOHO in the former Kojima library is the making base since 2013",
+  "makers": "NONE (no maker named per product)",
+  "mills": "NONE",
+  "madein": "about 3% (a few pages state ネパール製 hand knits, ベトナム製, 中国製; the rest state no country)",
+  "heritage": "dated and placed: 設立 March 1985 (昭和60年3月), HQ Kojima, Kurashiki, Okayama",
+  "process": "partial: hand-dyed indigo, hand-knit and remake pieces named in product titles; no process page read",
+  "urls": [
+   "https://www.kapital.jp/contact/register/index.html",
+   "https://www.kapital.jp/pages/soho/index.html"
+  ],
+  "proposed": 4,
+  "reasoning": "The Company page names four own sewing factories and an own dye works in Kojima, so the brand makes much of what it sells. Some pieces are stated as made in Nepal, Vietnam or China, so owned making does not cover the whole range; a case for 5 if those are ruled minor.",
+  "source": "womens_houses_and_held_2026-10-14"
+ },
+ "ownership": {
+  "owner": "Kapital Co., Ltd. (株式会社キャピタル), private",
+  "u": "https://www.kapital.jp/contact/register/index.html"
+ },
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?catalog[]=5&brand_ids[]=576107",
+   "m": "brand filter",
+   "n": ""
+  },
+  "grailed": {
+   "u": "https://www.grailed.com/designers/kapital"
+  }
+ },
+ "season": {
+  "l": "2026AW 街談港説コノミナンノミ A LAND OF KAIROS TREE",
+  "t": "lookbook",
+  "u": "https://www.kapital.jp/ (COLLECTION menu; page URL not captured)",
+  "m": "yes"
+ },
+ "say": "KAP-ih-tl",
+ "band_note": "accessible by the price rule (dress shirt $19580, sweater $29480; rule said trueLux, seated accessible by hand)",
+ "seg": {
+  "s": "Heritage & workwear",
+  "s2": "Fashion insider",
+  "c": "medium",
+  "r": "authored at seat 14 Oct: Japanese denim and workwear heritage with a designer edge; the dials would read Heritage on workwear 4"
+ }
+}
