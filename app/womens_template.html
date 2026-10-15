@@ -87,6 +87,14 @@ h1 .thin{color:var(--ink-faint)}
 .dials .hint{font-size:11.5px;color:var(--ink-faint);line-height:1.4}
 .dials .chip{align-self:flex-start;padding:6px 12px}
 .dv{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 14px}
+.panel h4{font-family:'Inter',sans-serif;font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint);margin:12px 0 6px;font-weight:500}
+.notes{display:flex;flex-direction:column;gap:7px;margin:0 0 10px}
+.nr{display:grid;grid-template-columns:150px 1fr;gap:10px;font-size:12.5px;line-height:1.45;align-items:baseline}
+.nr .nk{font-weight:500}.nr .nk b{display:inline-block;min-width:16px;text-align:center;margin-left:4px;padding:1px 7px;border-radius:999px;background:rgba(18,59,43,.08);font-weight:600;font-size:11.5px}
+.nr.five .nk b{background:var(--green);color:#fff}
+.nr .why5{font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:var(--green);margin-left:6px}
+.nr .nv{color:var(--ink-soft)}
+@media (max-width:700px){.nr{grid-template-columns:1fr}}
 .dv span{font-size:12px;padding:4px 10px;border-radius:999px;background:rgba(18,59,43,.07)}
 .dv span i{font-style:normal;color:var(--ink-faint);margin-left:5px}
 .prices div a{display:block;font-size:11px;color:var(--green);text-decoration:none;margin-top:1px}
@@ -124,7 +132,7 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
     <h1>The Womenswear <span class="thin">Spectrum</span></h1>
     <p class="lede">Every women’s brand with a full-price store of its own in the US, placed by price band and shown with its stores. No dials yet: this is the locations map, built from the brands’ own locators, banded by the men’s price rule on the women’s price pass of 13 October.</p>
   </div>
-  <div class="stamp"><b>v0.7 · <span id="built"></span></b>stores counted from the brands’ own locators · bands by the men’s price rule on tee, blouse and sweater</div>
+  <div class="stamp"><b>v0.8 · <span id="built"></span></b>stores counted from the brands’ own locators · bands by the men’s price rule on tee, blouse and sweater</div>
 </header>
 
 <div class="layout">
@@ -243,7 +251,15 @@ function openBrand(n){
   const prices=b.prices?`<div class="prices">${Object.entries(b.prices).map(([g,v])=>`<div><span>${g}</span>${Array.isArray(v)?('$'+v[0]+(v[1]&&v[1]!==v[0]?'–'+v[1]:'')):esc(v)}${b.gl&&b.gl[g]?`<a href="${esc(b.gl[g])}" target="_blank" rel="noopener">see the range ↗</a>`:''}</div>`).join('')}</div>`:'';
   const FN={tech:'tech',comfort:'comfort',craft:'craft',style:'style'}, FAN={cotton:'cotton',silk:'silk',wool:'wool',cashmere:'cashmere',linen:'linen',denim:'denim',synth:'synthetic'};
   const chip=(lab,v,tip)=>`<span title="${esc(tip||'')}">${lab}<i>${v}</i></span>`;
-  const dials=(b.f||b.fa)?`<h3>Dials</h3><div class="dv">${b.f?Object.entries(FN).filter(([k])=>b.f[k]!=null).map(([k,l])=>chip(l,b.f[k],b.nt&&b.nt[k])).join(''):''}</div>${b.fa?`<div class="dv">${b.cf!=null?chip('natural or lyocell',b.cf,'share of judged styles whose every fibre is natural or lyocell, elastane ≤5%'+(b.cfl?'; '+b.cfl+' with lyocell':'')):''}${b.nat!=null?chip('natural fibres',b.nat,'share of styles led by a natural fibre, on the men’s cuts'):''}${Object.entries(FAN).map(([k,l])=>chip(l,b.fa[k])).join('')}</div>`:''}${b.fi?`<p class="muted" style="font-size:12px;margin:-6px 0 14px">${esc(b.fi)}</p>`:''}`:'';
+  const nt=b.nt||{};
+  const clean=s=>String(s||'').replace(/\s*—\s*seeded .*$/i,'').replace(/^seeded .*provisional.*$/i,'');
+  const row=(lab,v,note)=>`<div class="nr${v===5?' five':''}"><div class="nk">${esc(lab)} <b>${v}</b>${v===5?'<span class="why5">why a 5</span>':''}</div>${note?`<div class="nv">${esc(note)}</div>`:''}</div>`;
+  const focusRows=b.f?Object.entries(FN).filter(([k])=>b.f[k]!=null).map(([k,l])=>row(l,b.f[k],clean(nt[k]))).join(''):'';
+  const fabRows=b.fa?[
+      b.cf!=null?row('natural or lyocell',b.cf,'share of judged styles whose every fibre is natural or lyocell (Tencel), elastane at 5% or under'+(b.cfl?'; '+b.cfl+' of them contain lyocell':'')+'. Derived, never authored.'):'',
+      b.nat!=null?row('natural fibres',b.nat,'share of styles led by a natural fibre, on the men’s cuts (5 all natural, 4 at least 95%, 3 85%, 2 70%). Derived from the fibre read.'):'',
+      ...Object.entries(FAN).filter(([k])=>b.fa[k]!=null).map(([k,l])=>row(l,b.fa[k],clean(nt[k])))].join(''):'';
+  const dials=(b.f||b.fa)?`<h3>Dials</h3>${focusRows?`<div class="notes">${focusRows}</div>`:''}${fabRows?`<h4>Fabric</h4><div class="notes">${fabRows}</div>`:''}${b.fi?`<p class="muted" style="font-size:12px;margin:4px 0 14px">${esc(b.fi)}</p>`:''}`:'';
   document.getElementById('pbody').innerHTML=`
     <h2>${esc(b.n)}</h2>
     <span class="pill ${b.band.split(' ')[0]}">${b.band}</span>${b.src==='men'?'<span class="pill">also on the men’s map</span>':''}

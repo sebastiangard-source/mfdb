@@ -262,8 +262,23 @@ def main():
                                      'proposed': num(dl['proposed_craft']), 'reasoning': dl['craft_reasoning'][:400], 'read': dl['read_date']}
             rec['notes'] = rec.get('notes', {})
             if 'tech' in foc: rec['notes']['tech'] = 'Thread proposed ' + str(foc['tech']) + ' (' + dl['read_date'] + '): ' + (v(dl['tech_named_fabrics']) or 'no named fabric') + '. Seated as proposed, pending ruling.'
-            if 'craft' in foc: rec['notes']['craft'] = 'Thread proposed ' + str(foc['craft']) + ' (' + dl['read_date'] + '): ' + dl['craft_reasoning'][:300] + ' Seated as proposed, pending ruling.'
+            if 'craft' in foc:
+                cr = dl['craft_reasoning']
+                if len(cr) > 420:
+                    cut = cr[:420].rfind('. '); cr = cr[:cut + 1] if cut > 150 else cr[:420].rstrip() + '…'
+                rec['notes']['craft'] = 'Thread proposed ' + str(foc['craft']) + ' (' + dl['read_date'] + '): ' + cr + ' Seated as proposed, pending ruling.'
             if au: rec['notes']['comfort'] = rec['notes']['style'] = au['basis']
+            # one note per fabric dial, read off fab_basis ("denim 5%, cashmere 0%, …")
+            fb = dl['fab_basis']
+            m = re.search(r'(\d+)\s*(?:sampled )?styles', fb)
+            base = f"of {m.group(1)} sampled styles with a composition" if m else 'of the sampled styles with a composition'
+            for fk in ('denim', 'cashmere', 'linen', 'cotton', 'wool', 'synth', 'silk'):
+                mm = re.search(r'\b' + fk + r'\s*(\d+)%', fb)
+                if mm and rec.get('fabric'):
+                    what = {'synth': 'led by a synthetic', 'denim': 'in denim (the jeans category or denim cloth)', 'wool': 'led by wool (alpaca, mohair and camel counted with it)'}.get(fk, f'led by {fk}')
+                    rec['notes'][fk] = f"{mm.group(1)}% {base} are {what}; read {dl['read_date']}, a sample where the house has more than 80 styles."
+            if 'tech' in foc:
+                rec['notes']['tech'] = 'Thread proposed ' + str(foc['tech']) + ' (' + dl['read_date'] + '): ' + ('named fabrics ' + v(dl['tech_named_fabrics']) + ', ' + (v(dl['tech_share_of_range']) or 'share not stated') + ' of the range' if v(dl['tech_named_fabrics']) else 'no named technical fabric on the site') + '. Seated as proposed, pending ruling.'
         rec['src'] = 'womens' if name in counts else 'screen'
         json.dump(rec, open(os.path.join(OUT, slug(name) + '.json'), 'w', encoding='utf8'), ensure_ascii=False, indent=1)
         n_out += 1

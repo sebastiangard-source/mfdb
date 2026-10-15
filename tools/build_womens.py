@@ -158,7 +158,7 @@ def main():
                        'locator': '', 'read': (d.get('basis') or '').split(';')[0].strip(), 'note': 'Also on the men’s map; its stores sell both. Prices and facts are the men’s record.',
                        'src': 'men', 'prices': prices_of(b), 'lh': False, 'depts': 0, 'about': about_of(b),
                        'f': b.get('focus') or None, 'fa': b.get('fabric') or None, 'gl': {k.lower(): u for k, u in (b.get('garment_links') or {}).items()} or None,
-                       'fi': fibre_line(b), 'nt': {k: b['notes'][k] for k in ('tech', 'craft', 'comfort', 'style') if k in (b.get('notes') or {})}, 'nat': natural_of(b), 'cf': clean_of(b), 'cfl': (CF.get(b['name']) or {}).get('clean_with_lyocell')})
+                       'fi': fibre_line(b), 'nt': b.get('notes') or {}, 'nat': natural_of(b), 'cf': clean_of(b), 'cfl': (CF.get(b['name']) or {}).get('clean_with_lyocell')})
     brands.sort(key=lambda b: unicodedata.normalize('NFKD', b['n']).encode('ascii', 'ignore').decode().lower().lstrip('.'))  # alphabetical within each band
     nb = collections.Counter(b['band'] for b in brands)
     data = {'built': datetime.date.today().isoformat(), 'brands': brands, 'ne': NE}
