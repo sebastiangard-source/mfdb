@@ -395,5 +395,79 @@
   "domain": "veronicabeard.com"
  },
  "depts": 5,
+ "garment_links": {
+  "T-shirt": "https://veronicabeard.com/collections/tops",
+  "Blouse": "https://veronicabeard.com/collections/tops",
+  "Sweater": "https://veronicabeard.com/collections/tops-sweaters",
+  "Jeans": "https://veronicabeard.com/collections/jeans",
+  "Trousers": "https://veronicabeard.com/collections/bottoms-pants",
+  "Dress": "https://veronicabeard.com/collections/dresses",
+  "Outerwear": "https://veronicabeard.com/collections/outerwear",
+  "Shoes": "https://veronicabeard.com/collections/shoes"
+ },
+ "fabric": {
+  "denim": 3,
+  "cashmere": 2,
+  "linen": 1,
+  "cotton": 4,
+  "wool": 2,
+  "synth": 3,
+  "silk": 2
+ },
+ "fibre": {
+  "t": 80,
+  "w": 80,
+  "n_pct": 64,
+  "s_pct": 19,
+  "c_pct": 18,
+  "spandex": 36,
+  "sp": "one",
+  "sample": "stratified sample of 80 of 321 distinct titles in the Clothing collection (443 products; each colourway is its own product) by product type",
+  "st": "read",
+  "clean_pct": 43,
+  "clean_n": 79,
+  "clean_lyo": 1,
+  "ly_pct": 4,
+  "cv_pct": 14
+ },
+ "focus": {
+  "tech": 2,
+  "craft": 2,
+  "comfort": 3,
+  "style": 4
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0% (0/80 sampled styles)",
+  "u": "https://veronicabeard.com/products/beverly-skinny-flare-jean-bright-blue",
+  "checked": "2026-10-15"
+ },
+ "craft_evidence": {
+  "owned": "no — none stated",
+  "makers": "no — 0 of 80",
+  "mills": "no — fabric origin is placed, not named ('Made in LA from premium Italian/Japanese/Turkish denim', 'Fabric country of origin: Italy')",
+  "madein": "15 of 80 state where the garment is made ('Made in the USA' / 'Made in LA', mostly denim, tailoring and the cashmere dic",
+  "heritage": "dated, not placed as making: 'Sisters-in-law … cofounded the company in 2010'",
+  "process": "no",
+  "urls": [
+   "https://veronicabeard.com/pages/vb-gives-back",
+   "https://veronicabeard.com/products/dylan-patchwork-straight-leg-jean-time-lapse"
+  ],
+  "proposed": 2,
+  "reasoning": "About one page in five says the garment is made in the USA or LA, and the denim pages name the fabric's country (Italy, Japan, Turkey); no maker, mill or facility is named.",
+  "read": "2026-10-15"
+ },
+ "notes": {
+  "tech": "Thread proposed 2 (2026-10-15): no named technical fabric on the site. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 2 (2026-10-15): About one page in five says the garment is made in the USA or LA, and the denim pages name the fabric's country (Italy, Japan, Turkey); no maker, mill or facility is named. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "denim": "16% of 80 sampled styles with a composition are in denim (the jeans category or denim cloth); read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cashmere": "5% of 80 sampled styles with a composition are led by cashmere; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "linen": "0% of 80 sampled styles with a composition are led by linen; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cotton": "38% of 80 sampled styles with a composition are led by cotton; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "silk": "6% of 80 sampled styles with a composition are led by silk; read 2026-10-15, a sample where the house has more than 80 styles."
+ },
  "src": "womens"
 }

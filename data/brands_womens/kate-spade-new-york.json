@@ -329,5 +329,76 @@
   "domain": "katespade.com"
  },
  "depts": 5,
+ "garment_links": {
+  "T-shirt": "https://www.katespade.com/shop/clothing/tops/tees",
+  "Blouse": "https://www.katespade.com/shop/clothing/tops/view-all",
+  "Sweater": "https://www.katespade.com/shop/clothing/tops/sweaters",
+  "Jeans": "https://www.katespade.com/shop/clothing/skirts-pants",
+  "Trousers": "https://www.katespade.com/shop/clothing/skirts-pants",
+  "Dress": "https://www.katespade.com/shop/clothing/dresses-jumpsuits/view-all",
+  "Outerwear": "https://www.katespade.com/shop/clothing/jackets-coats",
+  "Shoes": "https://www.katespade.com/shop/shoes/view-all"
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 4,
+  "wool": 3,
+  "synth": 3,
+  "silk": 1
+ },
+ "fibre": {
+  "t": 73,
+  "w": 57,
+  "n_pct": 41,
+  "s_pct": 18,
+  "c_pct": 19,
+  "spandex": 6,
+  "sp": "one",
+  "sample": "full census, not a sample: Clothing view-all shows 144 products; loaded to the end by scrolling, 111 style numbers (colour suffix stripped), 38 swim, sleepwear ",
+  "st": "partial",
+  "ly_pct": 0,
+  "cv_pct": 25
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 1,
+  "comfort": 3,
+  "style": 3
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0% (0/73 sampled styles)",
+  "u": "https://www.katespade.com/products/twill-shift-dress/KG924-404.html",
+  "checked": "2026-10-15"
+ },
+ "craft_evidence": {
+  "owned": "no — none stated; the US store has no about page (/about-us, /our-story 410 Gone)",
+  "makers": "no — 0 of 73",
+  "mills": "no — 0 of 73",
+  "madein": "0 of 73 — every page says 'Imported'",
+  "heritage": "NC — no brand-history page on the US store; the footer links only to Tapestry's supply-chain statement",
+  "process": "no",
+  "urls": [
+   "https://www.katespade.com/products/embellished-strap-mini-dress/KP145-001.html",
+   "https://www.tapestry.com/california-transparency-act-uk-modern-slavery-act-statement/"
+  ],
+  "proposed": 1,
+  "reasoning": "Every page says only 'Imported'; no maker, mill, facility or process is named, and the store has no brand-history page.",
+  "read": "2026-10-15"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-15): no named technical fabric on the site. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 1 (2026-10-15): Every page says only 'Imported'; no maker, mill, facility or process is named, and the store has no brand-history page. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "denim": "5% of 73 sampled styles with a composition are in denim (the jeans category or denim cloth); read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cashmere": "0% of 73 sampled styles with a composition are led by cashmere; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "linen": "0% of 73 sampled styles with a composition are led by linen; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cotton": "33% of 73 sampled styles with a composition are led by cotton; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "silk": "0% of 73 sampled styles with a composition are led by silk; read 2026-10-15, a sample where the house has more than 80 styles."
+ },
  "src": "womens"
 }

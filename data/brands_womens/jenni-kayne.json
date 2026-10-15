@@ -293,5 +293,78 @@
   "domain": "jennikayne.com"
  },
  "depts": 3,
+ "garment_links": {
+  "T-shirt": "https://www.jennikayne.com/collections/clothing-womens-shop-all-tops",
+  "Blouse": "https://www.jennikayne.com/collections/clothing-womens-shop-all-tops",
+  "Sweater": "https://www.jennikayne.com/collections/clothing-womens-shop-all-sweaters",
+  "Trousers": "https://www.jennikayne.com/collections/clothing-womens-shop-all-bottoms",
+  "Dress": "https://www.jennikayne.com/collections/clothing-womens-shop-all-dresses",
+  "Outerwear": "https://www.jennikayne.com/collections/clothing-womens-shop-all-outerwear",
+  "Shoes": "https://www.jennikayne.com/collections/clothing-womens-shoes"
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 3,
+  "linen": 2,
+  "cotton": 4,
+  "wool": 4,
+  "synth": 2,
+  "silk": 1
+ },
+ "fibre": {
+  "t": 74,
+  "w": 72,
+  "n_pct": 80,
+  "s_pct": 5,
+  "c_pct": 12,
+  "spandex": 5,
+  "sp": "one",
+  "sample": "own label only: stratified sample of 80 of 170 distinct women's clothing titles in the full /products.json feed (1,174 products incl. home, beauty, men's and ki",
+  "st": "partial",
+  "clean_pct": 67,
+  "clean_n": 67,
+  "clean_lyo": 2,
+  "ly_pct": 1,
+  "cv_pct": 11
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 2,
+  "comfort": 5,
+  "style": 3
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0% (0/74 sampled styles)",
+  "u": "https://www.jennikayne.com/products/leo-trench-coat-dark-navy",
+  "checked": "2026-10-15"
+ },
+ "craft_evidence": {
+  "owned": "no — none stated; the about page covers the brand's world, not its making",
+  "makers": "no — 0 of 74",
+  "mills": "no — fabric and fibre origins are placed, not named ('Made in Turkey of Italian fabric', 'Mongolian and Inner Mongolian cashmere', 'Donegal cashmere', 'Suri alpaca')",
+  "madein": "73 of 74 state a country: China 42, Peru 9, Turkey 8, USA 6, Italy 3, Vietnam 3, Morocco 1, Mexico 1",
+  "heritage": "NC — no founding date or place found on /pages/about (Oak Essentials and the brand world only); /pages/our-story 404",
+  "process": "no — one denim line notes 'seeded denim, a minimally processed material'",
+  "urls": [
+   "https://www.jennikayne.com/products/topanga-wide-leg-jean-seeded-natural",
+   "https://www.jennikayne.com/products/cashmere-cocoon-cardigan-faded-denim"
+  ],
+  "proposed": 2,
+  "reasoning": "Nearly every page states the country, and many name the fabric's or fibre's origin (Italian fabric, Mongolian cashmere, Peruvian alpaca), but no maker, mill or facility is named.",
+  "read": "2026-10-15"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-15): no named technical fabric on the site. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 2 (2026-10-15): Nearly every page states the country, and many name the fabric's or fibre's origin (Italian fabric, Mongolian cashmere, Peruvian alpaca), but no maker, mill or facility is named. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "denim": "7% of 74 sampled styles with a composition are in denim (the jeans category or denim cloth); read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cashmere": "15% of 74 sampled styles with a composition are led by cashmere; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "linen": "4% of 74 sampled styles with a composition are led by linen; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cotton": "35% of 74 sampled styles with a composition are led by cotton; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "silk": "0% of 74 sampled styles with a composition are led by silk; read 2026-10-15, a sample where the house has more than 80 styles."
+ },
  "src": "womens"
 }

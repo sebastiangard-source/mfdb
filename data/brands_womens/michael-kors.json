@@ -430,5 +430,78 @@
   "domain": "michaelkors.com"
  },
  "depts": 6,
+ "garment_links": {
+  "Blouse": "https://www.michaelkors.com/women/clothing/tops/",
+  "Sweater": "https://www.michaelkors.com/women/clothing/sweaters/",
+  "Jeans": "https://www.michaelkors.com/women/clothing/pants-denim/",
+  "Trousers": "https://www.michaelkors.com/women/clothing/pants-denim/",
+  "Dress": "https://www.michaelkors.com/women/clothing/dresses/",
+  "Outerwear": "https://www.michaelkors.com/women/clothing/jackets-coats/",
+  "Shoes": "https://www.michaelkors.com/women/shoes/"
+ },
+ "fabric": {
+  "denim": 3,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 4,
+  "wool": 2,
+  "synth": 5,
+  "silk": 1
+ },
+ "fibre": {
+  "t": 80,
+  "w": 80,
+  "n_pct": 34,
+  "s_pct": 58,
+  "c_pct": 9,
+  "spandex": 23,
+  "sp": "split",
+  "sample": "stratified sample of 80 of 222 style numbers on the full women's clothing grid (238 items; the site's Category filter counts: dresses 77, outerwear 45, tops 33,",
+  "st": "partial",
+  "clean_pct": 28,
+  "clean_n": 80,
+  "clean_lyo": 0,
+  "ly_pct": 0,
+  "cv_pct": 9
+ },
+ "focus": {
+  "tech": 2,
+  "craft": 1,
+  "comfort": 3,
+  "style": 3
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0% (0/80 sampled styles)",
+  "u": "https://www.michaelkors.com/stretch-crepe-tuxedo-pants/MF6311P3GZ.html",
+  "checked": "2026-10-15"
+ },
+ "craft_evidence": {
+  "owned": "no — none stated; no about or story page found on the US store (/about-us/, /our-story/ 404)",
+  "makers": "no — 0 of 80",
+  "mills": "no — 0 of 80",
+  "madein": "0 of 80 — every page says 'Imported'",
+  "heritage": "NC — no brand-history page found on the US store",
+  "process": "no",
+  "urls": [
+   "https://www.michaelkors.com/belted-wool-blend-coat/77G7540M11.html",
+   "https://www.michaelkors.com/women/clothing/"
+  ],
+  "proposed": 1,
+  "reasoning": "All 80 sampled pages say only 'Imported'; no maker, mill, facility or process is named, and the US store has no brand-history page.",
+  "read": "2026-10-15"
+ },
+ "notes": {
+  "tech": "Thread proposed 2 (2026-10-15): no named technical fabric on the site. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 1 (2026-10-15): All 80 sampled pages say only 'Imported'; no maker, mill, facility or process is named, and the US store has no brand-history page. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "denim": "12% of 80 sampled styles with a composition are in denim (the jeans category or denim cloth); read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cashmere": "0% of 80 sampled styles with a composition are led by cashmere; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "linen": "0% of 80 sampled styles with a composition are led by linen; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cotton": "25% of 80 sampled styles with a composition are led by cotton; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "silk": "0% of 80 sampled styles with a composition are led by silk; read 2026-10-15, a sample where the house has more than 80 styles."
+ },
  "src": "womens"
 }

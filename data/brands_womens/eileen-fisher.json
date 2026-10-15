@@ -398,5 +398,78 @@
   "domain": "eileenfisher.com"
  },
  "depts": 7,
+ "garment_links": {
+  "T-shirt": "https://www.eileenfisher.com/shop/clothing/tops-tees",
+  "Blouse": "https://www.eileenfisher.com/shop/clothing/tops-tees",
+  "Sweater": "https://www.eileenfisher.com/shop/clothing/sweaters-cardigans",
+  "Jeans": "https://www.eileenfisher.com/shop/clothing/denim",
+  "Trousers": "https://www.eileenfisher.com/shop/clothing/pants-jumpsuits",
+  "Dress": "https://www.eileenfisher.com/shop/clothing/dresses-skirts/dresses",
+  "Outerwear": "https://www.eileenfisher.com/shop/clothing/jackets-coats-vests"
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 2,
+  "linen": 2,
+  "cotton": 4,
+  "wool": 3,
+  "synth": 2,
+  "silk": 2
+ },
+ "fibre": {
+  "t": 80,
+  "w": 80,
+  "n_pct": 71,
+  "s_pct": 4,
+  "c_pct": 25,
+  "spandex": 39,
+  "sp": "one",
+  "sample": "stratified sample of 80 of 258 style numbers (season-fabric-style, e.g. F6TJX-P0696; colour suffix stripped) on the grid tiles of 7 clothing nodes at sz=600 (si",
+  "st": "partial",
+  "clean_pct": 61,
+  "clean_n": 79,
+  "clean_lyo": 3,
+  "ly_pct": 18,
+  "cv_pct": 8
+ },
+ "focus": {
+  "tech": 3,
+  "craft": 3,
+  "comfort": 5,
+  "style": 3
+ },
+ "tech_evidence": {
+  "names": "Washable Stretch Crepe ('From France, our iconic textural knit … packs beautifully'), Washable Flex Ponte; licensed TENCEL Lyocell",
+  "owned": "house names (fabric bought in); TENCEL licensed",
+  "share": "12% (10/80 sampled styles)",
+  "u": "https://www.eileenfisher.com/washable-stretch-crepe-kick-pant/S6TKO-P4902.html",
+  "checked": "2026-10-15"
+ },
+ "craft_evidence": {
+  "owned": "for second life only — EILEEN FISHER Renew takes back and resells or remakes worn garments (eileenfisherrenew.com); no owned first-life factory stated",
+  "makers": "yes, off the product page — the journal names Fair Trade Certified cut-and-sew factories (PT Tainan, North Jakarta; PT Ungaran, Semarang) and what they make; product pages name none",
+  "mills": "no — fabric origin is placed but not named ('Spun in Italy', 'From France')",
+  "madein": "80 of 80 state a country: Vietnam 26, Indonesia 20, Peru 13, USA (of imported materials) 8, China 6, Romania 5, Cambodia",
+  "heritage": "dated: 'Reflecting the Future Since 1984' (journal); not placed on the pages read",
+  "process": "partly — garment dyeing, Fair Trade factory visits and the Renew take-back are described; first-life making is not",
+  "urls": [
+   "https://www.eileenfisher.com/a-sustainable-life/journal/community/factories-who-make-our-clothes.html",
+   "https://www.eileenfisher.com/mohair-plush-m%C3%A9lange-crew-neck-cardigan/F6VOO-K4809.html"
+  ],
+  "proposed": 3,
+  "reasoning": "Every sampled page states the country, and the brand names two of its Fair Trade cut-and-sew factories and what they make; it owns none of its first-life making. Renew is owned second-life remaking, not production of the range.",
+  "read": "2026-10-15"
+ },
+ "notes": {
+  "tech": "Thread proposed 3 (2026-10-15): named fabrics Washable Stretch Crepe ('From France, our iconic textural knit … packs beautifully'), Washable Flex Ponte; licensed TENCEL Lyocell, 12% (10/80 sampled styles) of the range. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 3 (2026-10-15): Every sampled page states the country, and the brand names two of its Fair Trade cut-and-sew factories and what they make; it owns none of its first-life making. Renew is owned second-life remaking, not production of the range. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "denim": "6% of 80 sampled styles with a composition are in denim (the jeans category or denim cloth); read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cashmere": "4% of 80 sampled styles with a composition are led by cashmere; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "linen": "8% of 80 sampled styles with a composition are led by linen; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cotton": "35% of 80 sampled styles with a composition are led by cotton; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "silk": "6% of 80 sampled styles with a composition are led by silk; read 2026-10-15, a sample where the house has more than 80 styles."
+ },
  "src": "womens"
 }

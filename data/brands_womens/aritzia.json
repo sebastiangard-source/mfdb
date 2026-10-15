@@ -518,5 +518,77 @@
   "domain": "aritzia.com"
  },
  "depts": 0,
+ "garment_links": {
+  "T-shirt": "https://www.aritzia.com/us/en/clothing/tshirts",
+  "Blouse": "https://www.aritzia.com/us/en/clothing/shirts-blouses",
+  "Sweater": "https://www.aritzia.com/us/en/clothing/sweaters",
+  "Jeans": "https://www.aritzia.com/us/en/clothing/jeans",
+  "Trousers": "https://www.aritzia.com/us/en/clothing/pants",
+  "Dress": "https://www.aritzia.com/us/en/clothing/dresses",
+  "Outerwear": "https://www.aritzia.com/us/en/clothing/coats-jackets"
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 2,
+  "linen": 2,
+  "cotton": 4,
+  "wool": 2,
+  "synth": 5,
+  "silk": 2
+ },
+ "fibre": {
+  "t": 73,
+  "w": 73,
+  "n_pct": 42,
+  "s_pct": 51,
+  "c_pct": 7,
+  "spandex": 27,
+  "sp": "split",
+  "sample": "Aritzia house labels only (Aritzia, Babaton, Wilfred, Tna, Golden, Sunday Best, Ten, The Super Puff, Denim Forum); 916 master styles in garment categories from ",
+  "st": "partial",
+  "clean_pct": 28,
+  "clean_n": 72,
+  "clean_lyo": 1,
+  "ly_pct": 3,
+  "cv_pct": 4
+ },
+ "focus": {
+  "tech": 4,
+  "craft": 1,
+  "comfort": 4,
+  "style": 3
+ },
+ "tech_evidence": {
+  "names": "house-trademarked cloths across the range: Crepette™, Eversential™, Original Contour, TnaBUTTER / PowerBUTTER™ (Golden activewear), Smooth Matter™, HomeStretch™, CruiseLinen™, Refine Shine™, Wonder Yarn; Super Puff shells cliMATTE™ and Rainstop™; licensed Polartec® Thermal Pro™ and GORE-TEX®",
+  "owned": "mostly owned trademarks; Polartec and GORE-TEX licensed",
+  "share": "47% (34/73 sampled styles)",
+  "u": "https://www.aritzia.com/us/en/product/the-super-puff%E2%84%A2/126464.html",
+  "checked": "2026-10-15"
+ },
+ "craft_evidence": {
+  "owned": "no — none stated on product pages read",
+  "makers": "no — 0 of 73",
+  "mills": "no — only Polartec, a fabric brand, is named",
+  "madein": "0% name a country — 73 of 73 Materials & Care blocks say 'Imported'",
+  "heritage": "NC — no About page read in the time box",
+  "process": "no",
+  "urls": [
+   "https://www.aritzia.com/us/en/product/the-only-coat/127559.html"
+  ],
+  "proposed": 1,
+  "reasoning": "Every sampled Materials & Care block ends 'Imported'; no maker, mill or facility is named. Named cloths are the house's own trademarks, not provenance.",
+  "read": "2026-10-15"
+ },
+ "notes": {
+  "tech": "Thread proposed 4 (2026-10-15): named fabrics house-trademarked cloths across the range: Crepette™, Eversential™, Original Contour, TnaBUTTER / PowerBUTTER™ (Golden activewear), Smooth Matter™, HomeStretch™, CruiseLinen™, Refine Shine™, Wonder Yarn; Super Puff shells cliMATTE™ and Rainstop™; licensed Polartec® Thermal Pro™ and GORE-TEX®, 47% (34/73 sampled styles) of the range. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 1 (2026-10-15): Every sampled Materials & Care block ends 'Imported'; no maker, mill or facility is named. Named cloths are the house's own trademarks, not provenance. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "denim": "4% of 73 sampled styles with a composition are in denim (the jeans category or denim cloth); read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cashmere": "1% of 73 sampled styles with a composition are led by cashmere; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "linen": "1% of 73 sampled styles with a composition are led by linen; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cotton": "30% of 73 sampled styles with a composition are led by cotton; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "silk": "4% of 73 sampled styles with a composition are led by silk; read 2026-10-15, a sample where the house has more than 80 styles."
+ },
  "src": "womens"
 }

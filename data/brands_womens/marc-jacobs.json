@@ -315,5 +315,79 @@
   "domain": "marcjacobs.com"
  },
  "depts": 4,
+ "garment_links": {
+  "T-shirt": "https://www.marcjacobs.com/us-en/the-marc-jacobs/ready-to-wear/tops/",
+  "Blouse": "https://www.marcjacobs.com/us-en/the-marc-jacobs/ready-to-wear/tops/",
+  "Sweater": "https://www.marcjacobs.com/us-en/the-marc-jacobs/ready-to-wear/tops/",
+  "Jeans": "https://www.marcjacobs.com/us-en/the-marc-jacobs/ready-to-wear/bottoms/",
+  "Trousers": "https://www.marcjacobs.com/us-en/the-marc-jacobs/ready-to-wear/bottoms/",
+  "Dress": "https://www.marcjacobs.com/us-en/the-marc-jacobs/ready-to-wear/dresses/",
+  "Outerwear": "https://www.marcjacobs.com/us-en/the-marc-jacobs/ready-to-wear/outerwear/",
+  "Shoes": "https://www.marcjacobs.com/us-en/the-marc-jacobs/shoes/view-all/"
+ },
+ "fabric": {
+  "denim": 3,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 4,
+  "wool": 2,
+  "synth": 3,
+  "silk": 2
+ },
+ "fibre": {
+  "t": 79,
+  "w": 50,
+  "n_pct": 41,
+  "s_pct": 16,
+  "c_pct": 6,
+  "spandex": 9,
+  "sp": "split",
+  "sample": "stratified sample of 80 of 152 style codes from The Marc Jacobs ready-to-wear view-all (90 tiles, 68 styles) and Heaven ready-to-wear (114 tiles, 109 styles), a",
+  "st": "read",
+  "clean_pct": 48,
+  "clean_n": 48,
+  "clean_lyo": 0,
+  "ly_pct": 4,
+  "cv_pct": 6
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 1,
+  "comfort": 3,
+  "style": 4
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0% (0/79 sampled styles)",
+  "u": "https://www.marcjacobs.com/us-en/the-marc-jacobs/ready-to-wear/view-all/",
+  "checked": "2026-10-15"
+ },
+ "craft_evidence": {
+  "owned": "no — none stated",
+  "makers": "no — 0 of 79",
+  "mills": "no — 0 of 79",
+  "madein": "0 of 79 — no product page states a country or 'Imported'",
+  "heritage": "dated and placed as a brand, not a maker: 'Marc Jacobs Brand is Founded' 1984, 'the New York founded brand'",
+  "process": "no — one coat notes a 'flocking technique for a velvet look'; nothing on making",
+  "urls": [
+   "https://www.marcjacobs.com/us-en/about-marc.html",
+   "https://www.marcjacobs.com/us-en/suede-cocoon-coat/2R6RCT003W24-860.html"
+  ],
+  "proposed": 1,
+  "reasoning": "No sampled page states a country, maker or mill. The 1984 New York founding is a designer brand's, with nothing on where or by whom the clothes are made.",
+  "read": "2026-10-15"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-15): no named technical fabric on the site. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 1 (2026-10-15): No sampled page states a country, maker or mill. The 1984 New York founding is a designer brand's, with nothing on where or by whom the clothes are made. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "denim": "10% of 79 sampled styles with a composition are in denim (the jeans category or denim cloth); read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cashmere": "0% of 79 sampled styles with a composition are led by cashmere; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "linen": "0% of 79 sampled styles with a composition are led by linen; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cotton": "34% of 79 sampled styles with a composition are led by cotton; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "silk": "1% of 79 sampled styles with a composition are led by silk; read 2026-10-15, a sample where the house has more than 80 styles."
+ },
  "src": "womens"
 }

@@ -279,5 +279,78 @@
   "domain": "loveshackfancy.com"
  },
  "depts": 5,
+ "garment_links": {
+  "T-shirt": "https://www.loveshackfancy.com/collections/tees-fleece",
+  "Blouse": "https://www.loveshackfancy.com/collections/tops",
+  "Sweater": "https://www.loveshackfancy.com/collections/sweaters",
+  "Jeans": "https://www.loveshackfancy.com/collections/bottoms",
+  "Trousers": "https://www.loveshackfancy.com/collections/bottoms",
+  "Dress": "https://www.loveshackfancy.com/collections/dresses",
+  "Outerwear": "https://www.loveshackfancy.com/collections/jackets-coats"
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 1,
+  "linen": 2,
+  "cotton": 5,
+  "wool": 2,
+  "synth": 4,
+  "silk": 3
+ },
+ "fibre": {
+  "t": 80,
+  "w": 77,
+  "n_pct": 68,
+  "s_pct": 22,
+  "c_pct": 6,
+  "spandex": 7,
+  "sp": "one",
+  "sample": "stratified sample of 80 of 778 distinct women's clothing titles in the full /products.json feed (1,689 products; girls, tween, baby, swim, sleep, intimates, PIN",
+  "st": "read",
+  "clean_pct": 47,
+  "clean_n": 72,
+  "clean_lyo": 0,
+  "ly_pct": 0,
+  "cv_pct": 6
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 1,
+  "comfort": 3,
+  "style": 4
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0% (0/80 sampled styles)",
+  "u": "https://www.loveshackfancy.com/collections/active",
+  "checked": "2026-10-15"
+ },
+ "craft_evidence": {
+  "owned": "no — none stated",
+  "makers": "no — 0 of 80",
+  "mills": "no — 0 of 80",
+  "madein": "2 of 80 state a country ('Made in India', on two hand-finished cotton pieces); the rest state none",
+  "heritage": "dated, not placed: 'founded by Rebecca Hessel Cohen in 2013'",
+  "process": "no",
+  "urls": [
+   "https://www.loveshackfancy.com/pages/about",
+   "https://www.loveshackfancy.com/products/quincy-dress-ld715-548"
+  ],
+  "proposed": 1,
+  "reasoning": "Two of 80 sampled pages state a country; no maker, mill, facility or process is named, and the 2013 founding is not placed.",
+  "read": "2026-10-15"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-15): no named technical fabric on the site. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 1 (2026-10-15): Two of 80 sampled pages state a country; no maker, mill, facility or process is named, and the 2013 founding is not placed. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "denim": "1% of 80 sampled styles with a composition are in denim (the jeans category or denim cloth); read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cashmere": "0% of 80 sampled styles with a composition are led by cashmere; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "linen": "2% of 80 sampled styles with a composition are led by linen; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cotton": "42% of 80 sampled styles with a composition are led by cotton; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "silk": "12% of 80 sampled styles with a composition are led by silk; read 2026-10-15, a sample where the house has more than 80 styles."
+ },
  "src": "womens"
 }

@@ -416,5 +416,78 @@
   "domain": "luckybrand.com"
  },
  "depts": 4,
+ "garment_links": {
+  "T-shirt": "https://www.luckybrand.com/women/clothing/shirts/tshirts-tanktops",
+  "Blouse": "https://www.luckybrand.com/women/clothing/shirts/blouses",
+  "Sweater": "https://www.luckybrand.com/women/clothing/sweaters",
+  "Jeans": "https://www.luckybrand.com/women/jeans",
+  "Trousers": "https://www.luckybrand.com/women/clothing/pants",
+  "Dress": "https://www.luckybrand.com/women/clothing/dresses",
+  "Outerwear": "https://www.luckybrand.com/women/clothing/jackets-outerwear"
+ },
+ "fabric": {
+  "denim": 4,
+  "cashmere": 1,
+  "linen": 2,
+  "cotton": 5,
+  "wool": 1,
+  "synth": 3,
+  "silk": 1
+ },
+ "fibre": {
+  "t": 80,
+  "w": 80,
+  "n_pct": 71,
+  "s_pct": 15,
+  "c_pct": 14,
+  "spandex": 20,
+  "sp": "split",
+  "sample": "stratified sample of 80 of 337 six-digit style codes read off 12 women's nodes at sz=600 (jeans 93, graphic tees 58, blouses 40, sweaters 33, dresses 31, tees &",
+  "st": "read",
+  "clean_pct": 56,
+  "clean_n": 80,
+  "clean_lyo": 3,
+  "ly_pct": 1,
+  "cv_pct": 12
+ },
+ "focus": {
+  "tech": 3,
+  "craft": 1,
+  "comfort": 4,
+  "style": 2
+ },
+ "tech_evidence": {
+  "names": "Cloud Soft (house knit, polyester/bamboo/elastane or rayon blends); Liquid Denim (lyocell/viscose); licensed LYCRA FREEF!T on the fabric glossary",
+  "owned": "Cloud Soft and Liquid Denim owned names; LYCRA FREEF!T licensed",
+  "share": "8% (6/80 sampled styles)",
+  "u": "https://www.luckybrand.com/denim.html",
+  "checked": "2026-10-15"
+ },
+ "craft_evidence": {
+  "owned": "no — none stated",
+  "makers": "no — 0 of 80",
+  "mills": "no — 0 of 80; the denim page says one selvedge line is 'woven from locally grown cotton in Louisiana, then hand-cut and sewn in Los Angeles' without naming a mill or maker",
+  "madein": "0 of 80 — product pages state no country and do not say 'Imported'",
+  "heritage": "dated, not placed: 'Lucky Brand was founded in 1990 with a spirit of reinvention'",
+  "process": "no — one selvedge capsule is placed (Louisiana cotton, sewn in LA); nothing else",
+  "urls": [
+   "https://www.luckybrand.com/our-story.html",
+   "https://www.luckybrand.com/denim.html"
+  ],
+  "proposed": 1,
+  "reasoning": "No sampled product page states a country, maker or mill. The only placed claim is one selvedge denim line on the denim page (Louisiana cotton, sewn in Los Angeles), with no mill or factory named and no style in the sample tied to it.",
+  "read": "2026-10-15"
+ },
+ "notes": {
+  "tech": "Thread proposed 3 (2026-10-15): named fabrics Cloud Soft (house knit, polyester/bamboo/elastane or rayon blends); Liquid Denim (lyocell/viscose); licensed LYCRA FREEF!T on the fabric glossary, 8% (6/80 sampled styles) of the range. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 1 (2026-10-15): No sampled product page states a country, maker or mill. The only placed claim is one selvedge denim line on the denim page (Louisiana cotton, sewn in Los Angeles), with no mill or factory named and no style in the sample tied to it. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "denim": "28% of 80 sampled styles with a composition are in denim (the jeans category or denim cloth); read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cashmere": "0% of 80 sampled styles with a composition are led by cashmere; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "linen": "1% of 80 sampled styles with a composition are led by linen; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cotton": "69% of 80 sampled styles with a composition are led by cotton; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "silk": "0% of 80 sampled styles with a composition are led by silk; read 2026-10-15, a sample where the house has more than 80 styles."
+ },
  "src": "womens"
 }

@@ -695,5 +695,78 @@
   "domain": "evereve.com"
  },
  "depts": 0,
+ "garment_links": {
+  "T-shirt": "https://evereve.com/collections/tees-tanks",
+  "Blouse": "https://evereve.com/collections/blouses",
+  "Sweater": "https://evereve.com/collections/sweaters",
+  "Jeans": "https://evereve.com/collections/jeans",
+  "Trousers": "https://evereve.com/collections/pants",
+  "Dress": "https://evereve.com/collections/dresses",
+  "Outerwear": "https://evereve.com/collections/blazers-jackets"
+ },
+ "fabric": {
+  "denim": 3,
+  "cashmere": 2,
+  "linen": 2,
+  "cotton": 4,
+  "wool": 1,
+  "synth": 4,
+  "silk": 1
+ },
+ "fibre": {
+  "t": 80,
+  "w": 80,
+  "n_pct": 42,
+  "s_pct": 34,
+  "c_pct": 24,
+  "spandex": 32,
+  "sp": "split",
+  "sample": "own label only (vendor EVEREVE), per the wave C Beams ruling applied by default: 1,108 EVEREVE products in the full /products.json feed (4,784 products, 114 ven",
+  "st": "read",
+  "clean_pct": 35,
+  "clean_n": 78,
+  "clean_lyo": 8,
+  "ly_pct": 5,
+  "cv_pct": 19
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 1,
+  "comfort": 4,
+  "style": 2
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0%",
+  "u": "https://evereve.com/products/knox-polo-sweatshirt-white",
+  "checked": "2026-10-15"
+ },
+ "craft_evidence": {
+  "owned": "no — none stated",
+  "makers": "no",
+  "mills": "no",
+  "madein": "0% — sampled own-label PDPs give material and care, no country of origin",
+  "heritage": "dated as a retailer: Our Story is signed by co-founders Megan & Mike Tamte with a timeline from 2004 — a store's origin, not a maker's",
+  "process": "no",
+  "urls": [
+   "https://evereve.com/pages/our-story",
+   "https://evereve.com/products/palmer-stripe-blazer-ivory-goldenoak"
+  ],
+  "proposed": 1,
+  "reasoning": "A multi-brand store whose own label names no maker, mill, facility or country on any sampled page.",
+  "read": "2026-10-15"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-15): no named technical fabric on the site. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 1 (2026-10-15): A multi-brand store whose own label names no maker, mill, facility or country on any sampled page. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "denim": "9% of 80 sampled styles with a composition are in denim (the jeans category or denim cloth); read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cashmere": "1% of 80 sampled styles with a composition are led by cashmere; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "linen": "4% of 80 sampled styles with a composition are led by linen; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cotton": "38% of 80 sampled styles with a composition are led by cotton; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "silk": "0% of 80 sampled styles with a composition are led by silk; read 2026-10-15, a sample where the house has more than 80 styles."
+ },
  "src": "womens"
 }

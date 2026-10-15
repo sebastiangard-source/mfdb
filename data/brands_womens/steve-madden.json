@@ -329,5 +329,76 @@
   "domain": "stevemadden.com"
  },
  "depts": 5,
+ "garment_links": {
+  "Jeans": "https://www.stevemadden.com/collections/clothing-jeans",
+  "Trousers": "https://www.stevemadden.com/collections/bottoms",
+  "Dress": "https://www.stevemadden.com/collections/dresses",
+  "Outerwear": "https://www.stevemadden.com/collections/jackets-and-coats",
+  "Shoes": "https://www.stevemadden.com/collections/womens-all-products"
+ },
+ "fabric": {
+  "denim": 3,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 4,
+  "wool": 1,
+  "synth": 5,
+  "silk": 1
+ },
+ "fibre": {
+  "t": 80,
+  "w": 79,
+  "n_pct": 36,
+  "s_pct": 54,
+  "c_pct": 9,
+  "spandex": 32,
+  "sp": "split",
+  "sample": "stratified sample of 80 of 303 distinct styles in All Clothing (411 products, all typed Women's Clothing; colour stripped from the title), grouped by the menu c",
+  "st": "partial",
+  "clean_pct": 30,
+  "clean_n": 79,
+  "clean_lyo": 2,
+  "ly_pct": 3,
+  "cv_pct": 6
+ },
+ "focus": {
+  "tech": 2,
+  "craft": 1,
+  "comfort": 3,
+  "style": 3
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0% (0/80 sampled styles)",
+  "u": "https://www.stevemadden.com/products/sc06038-imperial-blue",
+  "checked": "2026-10-15"
+ },
+ "craft_evidence": {
+  "owned": "no — none stated; no about page on the store (/pages/about-us 404)",
+  "makers": "no — 0 of 80",
+  "mills": "no — 0 of 80",
+  "madein": "0 of 80 — every description ends 'Imported'",
+  "heritage": "NC — no brand-history page found on the store",
+  "process": "no",
+  "urls": [
+   "https://www.stevemadden.com/products/bp300872-natural",
+   "https://www.stevemadden.com/collections/all-clothing"
+  ],
+  "proposed": 1,
+  "reasoning": "All 80 sampled descriptions end 'Imported'; no maker, mill, facility or process is named, and the store has no brand-history page.",
+  "read": "2026-10-15"
+ },
+ "notes": {
+  "tech": "Thread proposed 2 (2026-10-15): no named technical fabric on the site. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 1 (2026-10-15): All 80 sampled descriptions end 'Imported'; no maker, mill, facility or process is named, and the store has no brand-history page. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "denim": "10% of 80 sampled styles with a composition are in denim (the jeans category or denim cloth); read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cashmere": "0% of 80 sampled styles with a composition are led by cashmere; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "linen": "0% of 80 sampled styles with a composition are led by linen; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cotton": "36% of 80 sampled styles with a composition are led by cotton; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "silk": "0% of 80 sampled styles with a composition are led by silk; read 2026-10-15, a sample where the house has more than 80 styles."
+ },
  "src": "womens"
 }

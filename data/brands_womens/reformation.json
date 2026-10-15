@@ -419,5 +419,79 @@
   "domain": "thereformation.com"
  },
  "depts": 3,
+ "garment_links": {
+  "T-shirt": "https://www.thereformation.com/tops/tees",
+  "Blouse": "https://www.thereformation.com/tops/blouses",
+  "Sweater": "https://www.thereformation.com/sweaters",
+  "Jeans": "https://www.thereformation.com/jeans",
+  "Trousers": "https://www.thereformation.com/clothing/pants",
+  "Dress": "https://www.thereformation.com/dresses",
+  "Outerwear": "https://www.thereformation.com/clothing/outerwear",
+  "Shoes": "https://www.thereformation.com/shoes"
+ },
+ "fabric": {
+  "denim": 3,
+  "cashmere": 2,
+  "linen": 3,
+  "cotton": 4,
+  "wool": 2,
+  "synth": 3,
+  "silk": 3
+ },
+ "fibre": {
+  "t": 76,
+  "w": 73,
+  "n_pct": 55,
+  "s_pct": 12,
+  "c_pct": 29,
+  "spandex": 22,
+  "sp": "one",
+  "sample": "stratified sample of 80 of 1,108 seven-digit style codes (colour suffix stripped) read off 11 nodes at sz=1000 (dresses, tops, sweaters, pants, skirts, shorts, ",
+  "st": "read",
+  "clean_pct": 42,
+  "clean_n": 40,
+  "clean_lyo": 2,
+  "ly_pct": 14,
+  "cv_pct": 16
+ },
+ "focus": {
+  "tech": 2,
+  "craft": 4,
+  "comfort": 3,
+  "style": 4
+ },
+ "tech_evidence": {
+  "names": "NONE (performance). Licensed fibre brands are sustainability fibres, not technical cloths: TENCEL, LENZING ECOVERO x REFIBRA, Naia Renew, CIRCULOSE, NATIVA",
+  "owned": "NONE owned; fibre brands above licensed",
+  "share": "0% (0/76 sampled styles)",
+  "u": "https://www.thereformation.com/products/bex-super-stretch-high-rise-wide-leg-jeans/1315756WHE.html",
+  "checked": "2026-10-15"
+ },
+ "craft_evidence": {
+  "owned": "claimed — 'we make all of our stuff with great people at our Los Angeles factory and at our partner factories around the world' (about page); 6 of 76 sampled PDPs say 'made in Los Angeles'. No filing ",
+  "makers": "yes, as a list, not on the product page — 'we disclose 100% of Tier 1 finished goods manufacturers and subcontractors' (Tier 1 facilities list PDF, August 2026; Open Supply Hub); PDF linked, not opene",
+  "mills": "no mills named; cotton named to farm on denim ('Good Earth Cotton from the first climate positive farm in Australia')",
+  "madein": "74 of 76 state a country ('Sustainably made in Mexico'); spread: China, Vietnam, Mexico, Los Angeles/USA (10), Turkey, P",
+  "heritage": "dated, not placed: 'Since 2009, we've been on a mission to bring sustainable fashion to everyone'",
+  "process": "partly — deadstock buying, vegetable/chrome-free tanning and fibre sourcing are described; garment making is not",
+  "urls": [
+   "https://www.thereformation.com/sustainability/oh-hi.html",
+   "https://www.thereformation.com/sustainability/factories.html"
+  ],
+  "proposed": 4,
+  "reasoning": "Reformation says it makes in its own Los Angeles factory, and 6 of 76 sampled pages say 'made in Los Angeles'; it publishes its full Tier 1 factory list, and 74 of 76 pages state a country. That is named and partly owned making that covers only part of the range. The ownership rests on the brand's own statement: if the Tier 1 PDF does not list an owned LA facility, this is a 3.",
+  "read": "2026-10-15"
+ },
+ "notes": {
+  "tech": "Thread proposed 2 (2026-10-15): named fabrics NONE (performance). Licensed fibre brands are sustainability fibres, not technical cloths: TENCEL, LENZING ECOVERO x REFIBRA, Naia Renew, CIRCULOSE, NATIVA, 0% (0/76 sampled styles) of the range. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 4 (2026-10-15): Reformation says it makes in its own Los Angeles factory, and 6 of 76 sampled pages say 'made in Los Angeles'; it publishes its full Tier 1 factory list, and 74 of 76 pages state a country. That is named and partly owned making that covers only part of the range. The ownership rests on the brand's own statement: if the Tier 1 PDF does not list an owned LA facility, this is a 3. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "denim": "12% of 76 sampled styles with a composition are in denim (the jeans category or denim cloth); read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cashmere": "5% of 76 sampled styles with a composition are led by cashmere; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "linen": "9% of 76 sampled styles with a composition are led by linen; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cotton": "29% of 76 sampled styles with a composition are led by cotton; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "silk": "11% of 76 sampled styles with a composition are led by silk; read 2026-10-15, a sample where the house has more than 80 styles."
+ },
  "src": "womens"
 }

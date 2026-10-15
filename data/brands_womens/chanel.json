@@ -281,5 +281,76 @@
   "domain": "chanel.com"
  },
  "depts": 0,
+ "garment_links": {
+  "T-shirt": "https://www.chanel.com/us/fashion/ready-to-wear/",
+  "Blouse": "https://www.chanel.com/us/fashion/ready-to-wear/",
+  "Sweater": "https://www.chanel.com/us/fashion/ready-to-wear/",
+  "Jeans": "https://www.chanel.com/us/fashion/ready-to-wear/",
+  "Trousers": "https://www.chanel.com/us/fashion/ready-to-wear/",
+  "Dress": "https://www.chanel.com/us/fashion/ready-to-wear/",
+  "Outerwear": "https://www.chanel.com/us/fashion/ready-to-wear/",
+  "Shoes": "https://www.chanel.com/us/fashion/shoes/c/1x1x5/"
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 3,
+  "linen": 1,
+  "cotton": 3,
+  "wool": 4,
+  "synth": 2,
+  "silk": 3
+ },
+ "fibre": {
+  "t": 80,
+  "w": 65,
+  "n_pct": 80,
+  "s_pct": 1,
+  "c_pct": 0,
+  "spandex": 0,
+  "sp": "one",
+  "sample": "stratified sample of 80 of the 126 ready-to-wear references on the US ready-to-wear page (all loaded), strata from the garment word in the product name",
+  "st": "partial",
+  "ly_pct": 0,
+  "cv_pct": 0
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 4,
+  "comfort": 2,
+  "style": 5
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0% (0/80 sampled styles)",
+  "u": "https://www.chanel.com/us/fashion/ready-to-wear/",
+  "checked": "2026-10-15"
+ },
+ "craft_evidence": {
+  "owned": "yes, for part of the making — Chanel's Métiers d'art houses (Lesage embroidery and tweed, Lemarié, Goossens, Massaro, Atelier Montex, Maison Michel) are part of the house, gathered at le19M in Paris (",
+  "makers": "no on product pages (0 of 80); the Métiers d'art houses are named on the savoir-faire page",
+  "mills": "no on product pages; Lesage is named as a tweed maker on the savoir-faire page",
+  "madein": "0 of 80 — product pages state material and colour only",
+  "heritage": "NC — /us/about-chanel/ pages returned no founding text to a fetch (rendered in script); not read in the browser",
+  "process": "yes, for the Métiers d'art: Lunéville crochet hook and Cornely embroidery machine at Atelier Montex, Lesage embroidery and its school at le19M",
+  "urls": [
+   "https://www.chanel.com/us/fashion/collection/savoir-faire-metiers-art/",
+   "https://www.chanel.com/us/fashion/p/P83372V7473194305/jacket-wool-tweed/"
+  ],
+  "proposed": 4,
+  "reasoning": "Chanel owns and names its Métiers d'art ateliers (Lesage embroidery and tweed, Lemarié, Goossens, Montex and others at le19M) and documents their processes, but product pages name no maker or country, and the owned making covers embellishment and some tweeds rather than the whole range.",
+  "read": "2026-10-15"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-15): no named technical fabric on the site. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 4 (2026-10-15): Chanel owns and names its Métiers d'art ateliers (Lesage embroidery and tweed, Lemarié, Goossens, Montex and others at le19M) and documents their processes, but product pages name no maker or country, and the owned making covers embellishment and some tweeds rather than the whole range. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "denim": "5% of 80 sampled styles with a composition are in denim (the jeans category or denim cloth); read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cashmere": "9% of 80 sampled styles with a composition are led by cashmere; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "linen": "0% of 80 sampled styles with a composition are led by linen; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cotton": "14% of 80 sampled styles with a composition are led by cotton; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "silk": "15% of 80 sampled styles with a composition are led by silk; read 2026-10-15, a sample where the house has more than 80 styles."
+ },
  "src": "womens"
 }

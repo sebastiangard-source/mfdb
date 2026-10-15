@@ -669,5 +669,79 @@
   "domain": "lillypulitzer.com"
  },
  "depts": 0,
+ "garment_links": {
+  "T-shirt": "https://www.lillypulitzer.com/women/tops/tees/",
+  "Blouse": "https://www.lillypulitzer.com/women/tops/",
+  "Sweater": "https://www.lillypulitzer.com/women/sweaters-cardigans/",
+  "Jeans": "https://www.lillypulitzer.com/women/bottoms/denim/",
+  "Trousers": "https://www.lillypulitzer.com/women/bottoms/pants/",
+  "Dress": "https://www.lillypulitzer.com/dresses/",
+  "Outerwear": "https://www.lillypulitzer.com/women/tops/outerwear/",
+  "Shoes": "https://www.lillypulitzer.com/accessories/shoes/"
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 2,
+  "linen": 2,
+  "cotton": 5,
+  "wool": 1,
+  "synth": 4,
+  "silk": 2
+ },
+ "fibre": {
+  "t": 80,
+  "w": 80,
+  "n_pct": 62,
+  "s_pct": 25,
+  "c_pct": 12,
+  "spandex": 43,
+  "sp": "split",
+  "sample": "stratified sample of 80 of 496 six-digit product codes read off 7 women's nodes at sz=1000 (swim, pajama and sleep handles removed; Loungewear added 2 styles no",
+  "st": "read",
+  "clean_pct": 44,
+  "clean_n": 73,
+  "clean_lyo": 0,
+  "ly_pct": 0,
+  "cv_pct": 12
+ },
+ "focus": {
+  "tech": 3,
+  "craft": 1,
+  "comfort": 3,
+  "style": 3
+ },
+ "tech_evidence": {
+  "names": "Luxletic (UPF 50+ performance line: Meryl® nylon pique, 'Studio Stretch', performance twill); UPF 50+ fabrications elsewhere; licensed Meryl®, LYCRA® T400®, LENZING ECOVERO",
+  "owned": "Luxletic owned; Meryl, LYCRA, ECOVERO licensed",
+  "share": "22% (18/80 sampled styles)",
+  "u": "https://www.lillypulitzer.com/upf-50-luxletic-westley-cutout-tank/022613.html",
+  "checked": "2026-10-15"
+ },
+ "craft_evidence": {
+  "owned": "no — none stated",
+  "makers": "no — 0 of 80",
+  "mills": "no — one cashmere wrap names The Good Cashmere Standard (a certification, not a mill)",
+  "madein": "1 of 80 states a country ('Made in America from imported fabric', a short); the rest say 'Imported'",
+  "heritage": "dated and placed as a retailer: 'Creating Sunshine Since 1959', Palm Beach shop — a shop's founding, not a making heritage",
+  "process": "no — prints are named by collection, not how they are made",
+  "urls": [
+   "https://www.lillypulitzer.com/about-us/",
+   "https://www.lillypulitzer.com/5-dalisay-high-rise-stretch-short/021906.html"
+  ],
+  "proposed": 1,
+  "reasoning": "No owned facility, maker or mill is named; 79 of 80 sampled pages say only 'Imported'. The 1959 Palm Beach story is dated and placed but is about a shop and its prints, not where things are made.",
+  "read": "2026-10-15"
+ },
+ "notes": {
+  "tech": "Thread proposed 3 (2026-10-15): named fabrics Luxletic (UPF 50+ performance line: Meryl® nylon pique, 'Studio Stretch', performance twill); UPF 50+ fabrications elsewhere; licensed Meryl®, LYCRA® T400®, LENZING ECOVERO, 22% (18/80 sampled styles) of the range. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 1 (2026-10-15): No owned facility, maker or mill is named; 79 of 80 sampled pages say only 'Imported'. The 1959 Palm Beach story is dated and placed but is about a shop and its prints, not where things are made. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "denim": "4% of 80 sampled styles with a composition are in denim (the jeans category or denim cloth); read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cashmere": "1% of 80 sampled styles with a composition are led by cashmere; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "linen": "1% of 80 sampled styles with a composition are led by linen; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cotton": "59% of 80 sampled styles with a composition are led by cotton; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "silk": "1% of 80 sampled styles with a composition are led by silk; read 2026-10-15, a sample where the house has more than 80 styles."
+ },
  "src": "womens"
 }
