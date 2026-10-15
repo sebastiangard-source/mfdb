@@ -77,6 +77,10 @@ h1 .thin{color:var(--ink-faint)}
 .cuts b{font-weight:600}
 .cuts .hint{font-size:11.5px;color:var(--ink-faint);line-height:1.4}
 .cuts .chip{align-self:flex-start;padding:6px 12px}
+.pub{display:flex;flex-direction:column;gap:8px;font-size:13px;padding-top:14px;border-top:1px solid var(--hairline)}
+.pub .lbl{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint)}
+.pub input{padding:8px 12px;border:1px solid var(--hairline);border-radius:999px;background:#fff;font:inherit;font-size:13px;color:var(--ink)}
+.pub .hint{font-size:11.5px;color:var(--ink-faint);line-height:1.4}
 .dials{display:flex;flex-direction:column;gap:6px;font-size:13px}
 .dials .lbl{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint);margin-top:4px}
 .dials label{display:flex;flex-direction:column;gap:2px}
@@ -137,7 +141,7 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
     <h1>The Womenswear <span class="thin">Spectrum</span></h1>
     <p class="lede">Every women’s brand with a full-price store of its own in the US, placed by price band and shown with its stores. No dials yet: this is the locations map, built from the brands’ own locators, banded by the men’s price rule on the women’s price pass of 13 October.</p>
   </div>
-  <div class="stamp"><b>v0.9 · <span id="built"></span></b>stores counted from the brands’ own locators · bands by the men’s price rule on tee, blouse and sweater</div>
+  <div class="stamp"><b>v0.10 · <span id="built"></span></b>stores counted from the brands’ own locators · bands by the men’s price rule on tee, blouse and sweater</div>
 </header>
 
 <div class="layout">
@@ -174,6 +178,13 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
   <label data-k="fa.synth"><span class="tt" data-tip="How much of the range is led by a synthetic — polyester, polyamide, acrylic, elastane — by share of styles read: 5 over 40%, 4 20–40%, 3 8–20%, 2 under 8%, 1 none. Viscose and other cellulosics are not counted here." tabindex="0">synthetic <b>off</b></span><input type="range" min="0" max="5" value="0"></label>
   <span class="hint" id="dialhint">A brand not yet read for a dial fails that dial. <span id="dialcov"></span></span>
   <button class="chip" id="dreset">clear dials</button>
+</div>
+<div class="pub">
+  <span class="lbl tt" data-tip="Turns the brands that pass the current filters into a page of their own — a list by band with store counts, a line on each brand and the stores by state. Opens in a new tab; save it from there. Nothing about the filters is lost: the page carries them in writing." tabindex="0">Publish this view</span>
+  <input id="pubTitle" type="text" placeholder="Title for the page" maxlength="80">
+  <input id="pubNote" type="text" placeholder="One line on why (optional)" maxlength="200">
+  <div class="chips"><button class="chip on" id="pubGo">publish</button><button class="chip" id="pubLink">copy link to this view</button></div>
+  <span class="hint" id="pubHint"></span>
 </div>
 <p class="count" id="count"></p>
 </aside>
@@ -308,6 +319,63 @@ document.getElementById('dreset').onclick=()=>{document.querySelectorAll('#dials
   const hide=()=>{cur=null; tip.classList.remove('show');};
   document.querySelectorAll('.tt[data-tip]').forEach(el=>{el.addEventListener('mouseenter',()=>show(el)); el.addEventListener('mouseleave',hide); el.addEventListener('focus',()=>show(el)); el.addEventListener('blur',hide);});
   document.addEventListener('scroll',()=>{if(cur) place(cur);},true);})();
+// ---- filter state in the URL hash, so a view can be linked and restored ----
+function stateObj(){return {t:[...TIERS_ON],ne:neOnly?1:0,x:xover?1:0,q,c1:C1,c2:C2,d:Object.fromEntries(Object.entries(DIAL).filter(([k,v])=>v))};}
+function describeState(){const s=stateObj(); const parts=[];
+  const TL={mass:'251+ stores',chain:'51–250 stores',network:'13–50 stores',circuit:'4–12 stores',flagship:'1–3 stores'};
+  if(s.t.length) parts.push(s.t.map(k=>TL[k]).join(' or '));
+  if(s.ne) parts.push('has a store in the Northeast');
+  if(!s.x) parts.push('women’s-only brands (men’s-map crossovers left out)');
+  if(s.q) parts.push(`matches “${s.q}”`);
+  parts.push(`band cuts $${s.c1} / $${s.c2}`);
+  const DN={'f.tech':'tech','f.comfort':'comfort','f.craft':'craft','f.style':'style','cf':'natural or lyocell','nat':'natural fibres','fa.cotton':'cotton','fa.silk':'silk','fa.wool':'wool','fa.cashmere':'cashmere','fa.linen':'linen','fa.denim':'denim','fa.synth':'synthetic'};
+  for(const [k,v] of Object.entries(s.d)) parts.push(`${DN[k]||k} at least ${v}`);
+  return parts.join(' · ');}
+function applyState(s){try{
+  TIERS_ON=new Set(s.t||[]); document.querySelectorAll('.chip[data-t]').forEach(c=>c.classList.toggle('on',TIERS_ON.has(c.dataset.t)));
+  neOnly=!!s.ne; document.getElementById('neOnly').classList.toggle('on',neOnly);
+  xover=s.x!==0; document.getElementById('xover').classList.toggle('on',xover);
+  q=s.q||''; document.getElementById('q').value=q;
+  if(s.c1){document.getElementById('c1').value=s.c1;} if(s.c2){document.getElementById('c2').value=s.c2;}
+  C1=+document.getElementById('c1').value; C2=+document.getElementById('c2').value; document.getElementById('c1v').textContent='$'+C1; document.getElementById('c2v').textContent='$'+C2; reband();
+  for(const k in DIAL) DIAL[k]=0; document.querySelectorAll('#dials label').forEach(l=>{const v=(s.d||{})[l.dataset.k]||0; DIAL[l.dataset.k]=v; l.querySelector('input').value=v; l.querySelector('b').textContent=v?('≥ '+v):'off'; l.classList.toggle('on',!!v);});
+  renderBands(); renderIdx();}catch(e){}}
+function stateToHash(){return '#v='+encodeURIComponent(btoa(unescape(encodeURIComponent(JSON.stringify(stateObj())))));}
+function hashToState(){const m=location.hash.match(/^#v=(.+)$/); if(!m) return null; try{return JSON.parse(decodeURIComponent(escape(atob(decodeURIComponent(m[1])))));}catch(e){return null;}}
+document.getElementById('pubLink').onclick=async()=>{const url=location.href.split('#')[0]+stateToHash(); try{await navigator.clipboard.writeText(url); document.getElementById('pubHint').textContent='Link copied. Anyone opening it sees these filters set.';}catch(e){history.replaceState(null,'',stateToHash()); document.getElementById('pubHint').textContent='Link is in the address bar.';}};
+// ---- publish: a page of its own for the brands that pass ----
+function publishPage(){
+  const title=(document.getElementById('pubTitle').value||'A view of the Womenswear Spectrum').trim();
+  const note=document.getElementById('pubNote').value.trim();
+  const vis=W.brands.filter(matches); if(!vis.length){document.getElementById('pubHint').textContent='Nothing passes these filters.'; return;}
+  const byBand=ORDER.map(b=>[b,vis.filter(x=>x.band===b)]).filter(([,l])=>l.length);
+  const stores=vis.reduce((n,b)=>n+b.own,0);
+  const DN={tech:'tech',comfort:'comfort',craft:'craft',style:'style'};
+  const brandRow=b=>{const a=b.about||{}; const d=b.f?Object.entries(DN).filter(([k])=>b.f[k]!=null).map(([k,l])=>`${l} ${b.f[k]}`).join(' · '):'';
+    const fab=b.fa?[b.cf!=null?`natural or lyocell ${b.cf}`:'',b.nat!=null?`natural ${b.nat}`:'',...['cotton','silk','wool','cashmere','linen','denim','synth'].filter(k=>b.fa[k]!=null&&b.fa[k]>=3).map(k=>`${k==='synth'?'synthetic':k} ${b.fa[k]}`)].filter(Boolean).join(' · '):'';
+    return `<div class="br"><div class="bh"><b>${esc(b.n)}</b><span>${b.own} store${b.own===1?'':'s'}${b.ne?` · ${b.ne} Northeast`:''}${b.src==='men'?' · also on the men’s map':''}</span></div>${a.sells?`<p>${esc(a.sells)}</p>`:''}${d||fab?`<p class="dl">${[d,fab].filter(Boolean).join(' — ')}</p>`:''}</div>`;};
+  const byState={}; for(const b of vis) for(const s of b.stores){(byState[s.s]=byState[s.s]||[]).push({b,s});}
+  const states=Object.keys(byState).sort((a,c)=>(NE.has(c)-NE.has(a))||(byState[c].length-byState[a].length)||a.localeCompare(c));
+  const idx=states.map(st=>`<h3>${esc(ST[st]||st)}${NE.has(st)?' · Northeast':''} <small>${byState[st].length}</small></h3><ul>`+byState[st].sort((x,y)=>x.s.c.localeCompare(y.s.c)||x.b.n.localeCompare(y.b.n)).map(({b,s})=>`<li><b>${esc(b.n)}</b>${s.sn&&s.sn.toLowerCase()!==b.n.toLowerCase()?' · '+esc(s.sn):''}<span>${esc([s.a,s.c,s.s,s.z].filter(Boolean).join(', '))}</span> <a href="${mapUrl(s)}" target="_blank" rel="noopener">map ↗</a></li>`).join('')+'</ul>').join('');
+  const css=`:root{--cream:#F4F1EA;--ink:#1E1E1B;--ink-soft:#4A4944;--ink-faint:#7E7C74;--green:#123B2B;--hairline:#D9D4C8;--basic:#F2EEE3;--premium:#E8E5D6;--accessible:#D9D7C4;--trueLux:#D0CCB8}
+    *{box-sizing:border-box;margin:0;padding:0}body{background:var(--cream);color:var(--ink);font-family:Inter,system-ui,sans-serif;font-size:15px;line-height:1.55;padding:40px 20px 80px;max-width:960px;margin:0 auto}
+    h1{font-family:Prata,Georgia,serif;font-weight:400;font-size:38px;line-height:1.05;margin-bottom:8px}h2{font-family:Prata,Georgia,serif;font-weight:400;font-size:22px;margin:30px 0 4px}h2 small{font-family:Inter,sans-serif;font-size:12px;color:var(--ink-faint);margin-left:10px}
+    .lede{font-family:'Playfair Display',Georgia,serif;font-size:14px;color:var(--ink-soft);max-width:640px;margin-bottom:6px}.meta{font-size:12px;color:var(--ink-faint);margin-bottom:6px}.filt{font-size:12.5px;color:var(--ink-soft);padding:10px 14px;border:1px solid var(--hairline);border-radius:10px;background:rgba(255,255,255,.5);margin:14px 0 10px}
+    .def{font-size:12.5px;color:var(--ink-faint);margin-bottom:10px}.br{padding:10px 0;border-top:1px solid var(--hairline)}.bh{display:flex;justify-content:space-between;gap:12px;align-items:baseline}.bh span{font-size:12px;color:var(--ink-faint);text-align:right}.br p{font-size:13.5px;color:var(--ink-soft);margin-top:2px}.br .dl{font-size:12px;color:var(--ink-faint)}
+    .idx h3{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint);margin:18px 0 4px}.idx h3 small{font-weight:400}.idx ul{list-style:none}.idx li{display:flex;gap:10px;align-items:baseline;padding:7px 0;border-bottom:1px solid var(--hairline);font-size:13px}.idx li span{color:var(--ink-faint);font-size:12.5px;flex:1}.idx li a{color:var(--green);text-decoration:none;font-size:12px;border:1px solid var(--hairline);border-radius:999px;padding:2px 10px}
+    .cav{font-size:11.5px;color:var(--ink-faint);margin-top:36px;border-top:1px solid var(--hairline);padding-top:12px}@media print{body{padding:0}}`;
+  const html=`<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${esc(title)}</title><link href="https://fonts.googleapis.com/css2?family=Prata&family=Playfair+Display&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"><style>${css}</style></head><body>
+<h1>${esc(title)}</h1>${note?`<p class="lede">${esc(note)}</p>`:''}<p class="meta">${vis.length} brands · ${stores.toLocaleString()} full-price brand-owned US stores · from The Womenswear Spectrum ${esc(((document.querySelector('.stamp b')||{}).textContent||'').split(' · ')[0])}, published ${new Date().toLocaleDateString('en-US',{day:'numeric',month:'long',year:'numeric'})}</p>
+<div class="filt"><b>Filters:</b> ${esc(describeState())}</div>
+${byBand.map(([band,list])=>`<h2>${band}<small>${list.length} brand${list.length===1?'':'s'} · ${list.reduce((n,b)=>n+b.own,0).toLocaleString()} stores</small></h2><p class="def">${esc(DEF[band])}</p>${list.map(brandRow).join('')}`).join('')}
+<h2>Stores<small>${states.length} states, Northeast first</small></h2><div class="idx">${idx}</div>
+<p class="cav">Full-price, brand-owned stores from each brand’s own locator; outlets, concessions and pop-ups are not shown. Bands by the women’s price rule at the cuts above. Dials: tech and craft proposed by the reading threads, comfort and style authored at merge (provisional), fabric figures counted from the styles on each brand’s site. What is on the rack changes daily.</p>
+</body></html>`;
+  const blob=new Blob([html],{type:'text/html'}); const url=URL.createObjectURL(blob); const w=window.open(url,'_blank');
+  const a=document.createElement('a'); a.href=url; a.download=(title.replace(/[^a-z0-9]+/gi,'_').replace(/^_|_$/g,'')||'spectrum_view')+'.html'; a.textContent='download it'; a.style.color='var(--green)';
+  const hint=document.getElementById('pubHint'); hint.textContent=`Published ${vis.length} brand${vis.length===1?'':'s'} to a new tab — `; hint.appendChild(a); hint.append(w?'.':' (the tab was blocked; use the download).');
+}
+document.getElementById('pubGo').onclick=publishPage;
 document.getElementById('q').addEventListener('input',e=>{q=e.target.value.trim(); renderBands(); renderIdx();});
 
 // index
@@ -325,6 +393,7 @@ function renderIdx(){
 document.getElementById('more').onclick=()=>{LIMIT+=300; renderIdx();};
 document.getElementById('idx').addEventListener('click',e=>{const b=e.target.closest('.brand'); if(b) openBrand(b.dataset.n);});
 reband(); renderBands(); renderIdx();
+const _hs=hashToState(); if(_hs) applyState(_hs);
 </script>
 </body>
 </html>
