@@ -148,7 +148,7 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
     <h1>The Womenswear <span class="thin">Spectrum</span></h1>
     <p class="lede">Every women’s brand with a full-price store of its own in the US, placed by price band and shown with its stores. No dials yet: this is the locations map, built from the brands’ own locators, banded by the men’s price rule on the women’s price pass of 13 October.</p>
   </div>
-  <div class="stamp"><b>v0.11 · <span id="built"></span></b>stores counted from the brands’ own locators · bands by the men’s price rule on tee, blouse and sweater</div>
+  <div class="stamp"><b>v0.12 · <span id="built"></span></b>stores counted from the brands’ own locators · bands by the men’s price rule on tee, blouse and sweater</div>
 </header>
 
 <div class="layout">
@@ -395,9 +395,17 @@ let PUB={html:'',title:''};
 function showPublished(html,title,n){
   PUB={html,title};
   let v=document.getElementById('pubView');
-  if(!v){v=document.createElement('div'); v.id='pubView'; v.innerHTML=`<div class="pubbar"><button class="chip" id="pubBack">← back to the Spectrum</button><span id="pubTitleBar"></span><span class="sp"></span><button class="chip on" id="pubSave">save as a file</button><button class="chip" id="pubOpen">open in a new tab</button></div><iframe id="pubFrame" title="Published view"></iframe>`; document.body.appendChild(v);
+  if(!v){v=document.createElement('div'); v.id='pubView'; v.innerHTML=`<div class="pubbar"><button class="chip" id="pubBack">← back to the Spectrum</button><span id="pubTitleBar"></span><span class="sp"></span><button class="chip" id="pubCopy">copy</button><button class="chip" id="pubCopyHtml">copy as rich text</button><button class="chip on" id="pubSave">save as a file</button><button class="chip" id="pubOpen">open in a new tab</button></div><iframe id="pubFrame" title="Published view"></iframe>`; document.body.appendChild(v);
     document.getElementById('pubBack').onclick=()=>{v.classList.remove('show'); document.body.style.overflow='';};
     document.getElementById('pubSave').onclick=savePublished;
+    document.getElementById('pubCopy').onclick=async()=>{const bar=document.getElementById('pubTitleBar'); try{await navigator.clipboard.writeText(emailText().body); bar.textContent=PUB.title+' — copied as text';}catch(e){bar.textContent=PUB.title+' — could not reach the clipboard';}};
+    document.getElementById('pubCopyHtml').onclick=async()=>{const bar=document.getElementById('pubTitleBar');
+      const doc=document.getElementById('pubFrame').contentDocument; const body=doc&&doc.body?doc.body.cloneNode(true):null; if(!body){bar.textContent=PUB.title+' — nothing to copy'; return;}
+      body.querySelectorAll('details').forEach(d=>d.remove());  // the dense list only; detail and stores stay on the page
+      const html='<div style="font-family:Inter,Arial,sans-serif;font-size:13px;color:#1E1E1B">'+body.innerHTML+'</div>';
+      try{ if(navigator.clipboard&&window.ClipboardItem){ await navigator.clipboard.write([new ClipboardItem({'text/html':new Blob([html],{type:'text/html'}),'text/plain':new Blob([emailText().body],{type:'text/plain'})})]); bar.textContent=PUB.title+' — copied; paste into a doc or an email'; }
+        else { await navigator.clipboard.writeText(emailText().body); bar.textContent=PUB.title+' — copied as text'; } }
+      catch(e){ try{await navigator.clipboard.writeText(emailText().body); bar.textContent=PUB.title+' — copied as text';}catch(e2){bar.textContent=PUB.title+' — could not reach the clipboard';} } };
     document.getElementById('pubOpen').onclick=()=>{const u=URL.createObjectURL(new Blob([PUB.html],{type:'text/html'})); const w=window.open(u,'_blank'); if(!w) document.getElementById('pubTitleBar').textContent=PUB.title+' — the browser blocked the new tab; use save instead';};}
   document.getElementById('pubFrame').srcdoc=html; document.getElementById('pubTitleBar').textContent=`${title} · ${n} brand${n===1?'':'s'}`;
   v.classList.add('show'); document.body.style.overflow='hidden';
