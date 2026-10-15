@@ -78,6 +78,27 @@ def natural_of(b):
     return 5 if share >= 99.95 else 4 if share >= 95 else 3 if share >= 85 else 2 if share >= 70 else 1
 
 
+CF = {}
+_cff = os.path.join(ROOT, 'registers/clean_fibre.csv')
+if os.path.exists(_cff):
+    CF = {r['brand']: r for r in csv.DictReader(open(_cff, encoding='utf8'))}
+
+
+def clean_of(b):
+    """Natural-or-lyocell band on the share of judged styles whose every fibre is natural or lyocell (elastane ≤ 5%); men's cuts."""
+    if not b.get('fabric'):
+        return None
+    f = b.get('fibre') or {}
+    share, n = f.get('clean_pct'), f.get('clean_n')
+    if share is None:
+        r = CF.get(b['name'])
+        if r and num(r['styles_judged']) and num(r['styles_judged']) >= 20:
+            share, n = num(r['clean_pct']), num(r['styles_judged'])
+    if share is None:
+        return None
+    return 5 if share >= 99.95 else 4 if share >= 95 else 3 if share >= 85 else 2 if share >= 70 else 1
+
+
 def fibre_line(b):
     f = b.get('fibre')
     if not f or not f.get('t'):
@@ -122,7 +143,7 @@ def main():
                        'read': (d.get('basis') or '').replace('doors_womens ', ''), 'note': d.get('note', ''), 'src': b.get('src', 'womens'),
                        'prices': prices_of(b), 'lh': bool(b.get('leather_high_held')), 'depts': b.get('depts', 0), 'about': about_of(b), 'm': b.get('band_mean'),
                        'f': b.get('focus') or None, 'fa': b.get('fabric') or None, 'gl': {k.lower(): u for k, u in (b.get('garment_links') or {}).items()} or None,
-                       'fi': fibre_line(b), 'nt': b.get('notes') or {}, 'nat': natural_of(b)})
+                       'fi': fibre_line(b), 'nt': b.get('notes') or {}, 'nat': natural_of(b), 'cf': clean_of(b), 'cfl': (CF.get(b['name']) or {}).get('clean_with_lyocell')})
     for kk, b in men.items():
         if kk not in universe: continue
         d = b.get('doors', {}); n = d.get('n') if d.get('c') in ('full', 'count', 'partial') else None
@@ -137,7 +158,7 @@ def main():
                        'locator': '', 'read': (d.get('basis') or '').split(';')[0].strip(), 'note': 'Also on the men’s map; its stores sell both. Prices and facts are the men’s record.',
                        'src': 'men', 'prices': prices_of(b), 'lh': False, 'depts': 0, 'about': about_of(b),
                        'f': b.get('focus') or None, 'fa': b.get('fabric') or None, 'gl': {k.lower(): u for k, u in (b.get('garment_links') or {}).items()} or None,
-                       'fi': fibre_line(b), 'nt': {k: b['notes'][k] for k in ('tech', 'craft', 'comfort', 'style') if k in (b.get('notes') or {})}, 'nat': natural_of(b)})
+                       'fi': fibre_line(b), 'nt': {k: b['notes'][k] for k in ('tech', 'craft', 'comfort', 'style') if k in (b.get('notes') or {})}, 'nat': natural_of(b), 'cf': clean_of(b), 'cfl': (CF.get(b['name']) or {}).get('clean_with_lyocell')})
     brands.sort(key=lambda b: unicodedata.normalize('NFKD', b['n']).encode('ascii', 'ignore').decode().lower().lstrip('.'))  # alphabetical within each band
     nb = collections.Counter(b['band'] for b in brands)
     data = {'built': datetime.date.today().isoformat(), 'brands': brands, 'ne': NE}

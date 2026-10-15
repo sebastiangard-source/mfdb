@@ -145,6 +145,10 @@ def main():
             cel[r['brand']]['w'] += 1
             if lf in ('lyocell', 'tencel'): cel[r['brand']]['ly'] += 1
             elif lf in ('viscose', 'modal', 'cupro', 'acetate', 'triacetate', 'rayon', 'other-cellulosic'): cel[r['brand']]['cv'] += 1
+    cf = {}
+    cff = os.path.join(ROOT, 'registers/clean_fibre.csv')
+    if os.path.exists(cff):
+        cf = {r['brand']: r for r in csv.DictReader(open(cff, encoding='utf8'))}
     fa = os.path.join(ROOT, 'registers/womens_focus_authored.json')
     authored = json.load(open(fa, encoding='utf8')) if os.path.exists(fa) else {}
     os.makedirs(OUT, exist_ok=True)
@@ -241,6 +245,8 @@ def main():
             if num(dl['styles_total']) is not None and num(dl['styles_with_composition']):
                 rec['fibre'] = {'t': num(dl['styles_total']), 'w': num(dl['styles_with_composition']), 'n_pct': num(dl['natural_pct']), 's_pct': num(dl['synthetic_pct']),
                                 'c_pct': num(dl['cellulosic_pct']), 'spandex': num(dl['spandex_styles']), 'sp': dl['shape'], 'sample': dl['sample_basis'][:160], 'st': dl['status']}
+                if name in cf and num(cf[name]['styles_judged']) and num(cf[name]['styles_judged']) >= 20:
+                    rec['fibre']['clean_pct'] = num(cf[name]['clean_pct']); rec['fibre']['clean_n'] = num(cf[name]['styles_judged']); rec['fibre']['clean_lyo'] = num(cf[name]['clean_with_lyocell'])
                 cc = cel.get(name)
                 if cc and cc['w']:
                     rec['fibre']['ly_pct'] = round(100 * cc['ly'] / cc['w']); rec['fibre']['cv_pct'] = round(100 * cc['cv'] / cc['w'])
