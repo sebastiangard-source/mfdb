@@ -150,6 +150,7 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
   <label data-k="f.craft"><span>craft <b>off</b></span><input type="range" min="0" max="5" value="0"></label>
   <label data-k="f.style"><span>style <b>off</b></span><input type="range" min="0" max="5" value="0"></label>
   <span class="lbl">Fabric · at least</span>
+  <label data-k="nat" title="5 an all-natural range; 4 at least 95% of styles led by a natural fibre; 3 85%; 2 70%; 1 below"><span>natural fibres <b>off</b></span><input type="range" min="0" max="5" value="0"></label>
   <label data-k="fa.cotton"><span>cotton <b>off</b></span><input type="range" min="0" max="5" value="0"></label>
   <label data-k="fa.silk"><span>silk <b>off</b></span><input type="range" min="0" max="5" value="0"></label>
   <label data-k="fa.wool"><span>wool <b>off</b></span><input type="range" min="0" max="5" value="0"></label>
@@ -197,7 +198,7 @@ document.getElementById('built').textContent=new Date(W.built+'T12:00:00').toLoc
 
 let tier='all', neOnly=false, xover=true, q='';
 const DIAL={};  // key -> threshold
-function dialGet(b,k){const [g,a]=k.split('.'); const o=b[g]; return o&&o[a]!=null?o[a]:null;}
+function dialGet(b,k){if(!k.includes('.')) return b[k]!=null?b[k]:null; const [g,a]=k.split('.'); const o=b[g]; return o&&o[a]!=null?o[a]:null;}
 function matches(b){
   if(!xover && b.src==='men') return false;
   for(const k in DIAL){const t=DIAL[k]; if(!t) continue; const v=dialGet(b,k); if(v==null||v<t) return false;}
@@ -241,7 +242,7 @@ function openBrand(n){
   const prices=b.prices?`<div class="prices">${Object.entries(b.prices).map(([g,v])=>`<div><span>${g}</span>${Array.isArray(v)?('$'+v[0]+(v[1]&&v[1]!==v[0]?'–'+v[1]:'')):esc(v)}${b.gl&&b.gl[g]?`<a href="${esc(b.gl[g])}" target="_blank" rel="noopener">see the range ↗</a>`:''}</div>`).join('')}</div>`:'';
   const FN={tech:'tech',comfort:'comfort',craft:'craft',style:'style'}, FAN={cotton:'cotton',silk:'silk',wool:'wool',cashmere:'cashmere',linen:'linen',denim:'denim',synth:'synthetic'};
   const chip=(lab,v,tip)=>`<span title="${esc(tip||'')}">${lab}<i>${v}</i></span>`;
-  const dials=(b.f||b.fa)?`<h3>Dials</h3><div class="dv">${b.f?Object.entries(FN).filter(([k])=>b.f[k]!=null).map(([k,l])=>chip(l,b.f[k],b.nt&&b.nt[k])).join(''):''}</div>${b.fa?`<div class="dv">${Object.entries(FAN).map(([k,l])=>chip(l,b.fa[k])).join('')}</div>`:''}${b.fi?`<p class="muted" style="font-size:12px;margin:-6px 0 14px">${esc(b.fi)}</p>`:''}`:'';
+  const dials=(b.f||b.fa)?`<h3>Dials</h3><div class="dv">${b.f?Object.entries(FN).filter(([k])=>b.f[k]!=null).map(([k,l])=>chip(l,b.f[k],b.nt&&b.nt[k])).join(''):''}</div>${b.fa?`<div class="dv">${b.nat!=null?chip('natural fibres',b.nat,'share of styles led by a natural fibre, on the men’s cuts'):''}${Object.entries(FAN).map(([k,l])=>chip(l,b.fa[k])).join('')}</div>`:''}${b.fi?`<p class="muted" style="font-size:12px;margin:-6px 0 14px">${esc(b.fi)}</p>`:''}`:'';
   document.getElementById('pbody').innerHTML=`
     <h2>${esc(b.n)}</h2>
     <span class="pill ${b.band.split(' ')[0]}">${b.band}</span>${b.src==='men'?'<span class="pill">also on the men’s map</span>':''}

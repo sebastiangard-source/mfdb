@@ -63,6 +63,21 @@ def about_of(b):
     return a if any(a[x] for x in ('sells', 'founded', 'owner', 'sig', 'quote')) else None
 
 
+def natural_of(b):
+    """Natural-fibre band, the men's cuts (99.95 / 95 / 85 / 70) on the share of styles led by a natural fibre; None where unread or held."""
+    f = b.get('fibre')
+    if not f or not f.get('t') or not b.get('fabric'):
+        return None
+    if 'n_pct' in f:
+        if not f.get('w') or f['w'] < 20: return None
+        share = f['n_pct']
+    else:
+        disc = f.get('n', 0) + f.get('s', 0) + f.get('c', 0)
+        if not disc or f.get('w') is None or f['w'] / f['t'] < 0.5: return None
+        share = 100 * f['n'] / disc
+    return 5 if share >= 99.95 else 4 if share >= 95 else 3 if share >= 85 else 2 if share >= 70 else 1
+
+
 def fibre_line(b):
     f = b.get('fibre')
     if not f or not f.get('t'):
@@ -107,7 +122,7 @@ def main():
                        'read': (d.get('basis') or '').replace('doors_womens ', ''), 'note': d.get('note', ''), 'src': b.get('src', 'womens'),
                        'prices': prices_of(b), 'lh': bool(b.get('leather_high_held')), 'depts': b.get('depts', 0), 'about': about_of(b), 'm': b.get('band_mean'),
                        'f': b.get('focus') or None, 'fa': b.get('fabric') or None, 'gl': {k.lower(): u for k, u in (b.get('garment_links') or {}).items()} or None,
-                       'fi': fibre_line(b), 'nt': b.get('notes') or {}})
+                       'fi': fibre_line(b), 'nt': b.get('notes') or {}, 'nat': natural_of(b)})
     for kk, b in men.items():
         if kk not in universe: continue
         d = b.get('doors', {}); n = d.get('n') if d.get('c') in ('full', 'count', 'partial') else None
@@ -122,7 +137,7 @@ def main():
                        'locator': '', 'read': (d.get('basis') or '').split(';')[0].strip(), 'note': 'Also on the men’s map; its stores sell both. Prices and facts are the men’s record.',
                        'src': 'men', 'prices': prices_of(b), 'lh': False, 'depts': 0, 'about': about_of(b),
                        'f': b.get('focus') or None, 'fa': b.get('fabric') or None, 'gl': {k.lower(): u for k, u in (b.get('garment_links') or {}).items()} or None,
-                       'fi': fibre_line(b), 'nt': {k: b['notes'][k] for k in ('tech', 'craft', 'comfort', 'style') if k in (b.get('notes') or {})}})
+                       'fi': fibre_line(b), 'nt': {k: b['notes'][k] for k in ('tech', 'craft', 'comfort', 'style') if k in (b.get('notes') or {})}, 'nat': natural_of(b)})
     brands.sort(key=lambda b: unicodedata.normalize('NFKD', b['n']).encode('ascii', 'ignore').decode().lower().lstrip('.'))  # alphabetical within each band
     nb = collections.Counter(b['band'] for b in brands)
     data = {'built': datetime.date.today().isoformat(), 'brands': brands, 'ne': NE}
