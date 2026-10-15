@@ -194,5 +194,68 @@
   "domain": "carolinaherrera.com"
  },
  "depts": 5,
+ "garment_links": {
+  "Blouse": "https://www.carolinaherrera.com/us/en/c/rtw/tops",
+  "Sweater": "https://www.carolinaherrera.com/us/en/c/rtw/knitwear",
+  "Jeans": "https://www.carolinaherrera.com/us/en/c/rtw/pants",
+  "Trousers": "https://www.carolinaherrera.com/us/en/c/rtw/pants",
+  "Dress": "https://www.carolinaherrera.com/us/en/c/rtw/dresses",
+  "Outerwear": "https://www.carolinaherrera.com/us/en/c/rtw/coats",
+  "Shoes": "https://www.carolinaherrera.com/us/en/c/shoes"
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 2,
+  "wool": 3,
+  "synth": 4,
+  "silk": 4
+ },
+ "fibre": {
+  "t": 287,
+  "w": 27,
+  "n_pct": 20,
+  "s_pct": 12,
+  "c_pct": 1,
+  "spandex": 4,
+  "sp": "one",
+  "sample": "stratified sample of 80 of 287 ready-to-wear styles, proportional by garment word in the slug; census from /us/en/c/rtw?pageSize=400 (292 slugs; the page counte",
+  "st": "partial"
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 2,
+  "comfort": 2,
+  "style": 5
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0%",
+  "u": "https://www.carolinaherrera.com/us/en/p-ready-to-wear/rtw-f26-cigarette-pants",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "NC — no house or atelier page found on the US site (the 'story' pages are fragrance features)",
+  "makers": "none",
+  "mills": "none ('Italian bi-stretch wool' named as origin only)",
+  "madein": "59 of 80 sampled product pages (74%) state a country: Italy 24, USA 24, India 10, China 1",
+  "heritage": "NC — not found on the US site",
+  "process": "partial — product copy notes hand-draped bodices and hand-crafted rosettes on some gowns; no account of where",
+  "urls": [
+   "https://www.carolinaherrera.com/us/en/p-ready-to-wear/rtw-f26-draped-leopard-print-chiffon-dress",
+   "https://www.carolinaherrera.com/us/en/c/rtw"
+  ],
+  "proposed": 2,
+  "reasoning": "Three in four product pages state where the piece is made — Italy and the USA in equal parts, India for embroidered pieces — but no atelier, workroom, maker or mill is named, and the US site carries no house page to check heritage against. A country on most of the range and little else.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-14): no named fabric. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 2 (2026-10-14): Three in four product pages state where the piece is made — Italy and the USA in equal parts, India for embroidered pieces — but no atelier, workroom, maker or mill is named, and the US site carries no house page to check heritage against. A country on most of the range and little else. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "womens"
 }

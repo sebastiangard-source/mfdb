@@ -178,5 +178,69 @@
   "domain": "footer links: "
  },
  "depts": 3,
+ "garment_links": {
+  "T-shirt": "https://www.simonmillerusa.com/collections/tees",
+  "Blouse": "https://www.simonmillerusa.com/collections/tops",
+  "Sweater": "https://www.simonmillerusa.com/collections/sweaters",
+  "Jeans": "https://www.simonmillerusa.com/collections/pants",
+  "Trousers": "https://www.simonmillerusa.com/collections/pants",
+  "Dress": "https://www.simonmillerusa.com/collections/dresses",
+  "Outerwear": "https://www.simonmillerusa.com/collections/womens-outerwear",
+  "Shoes": "https://www.simonmillerusa.com/collections/shoes"
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 1,
+  "linen": 2,
+  "cotton": 4,
+  "wool": 2,
+  "synth": 4,
+  "silk": 1
+ },
+ "fibre": {
+  "t": 237,
+  "w": 79,
+  "n_pct": 30,
+  "s_pct": 34,
+  "c_pct": 35,
+  "spandex": 22,
+  "sp": "split",
+  "sample": "stratified sample of 80 across 12 product types, proportional; 237 styles from the clothing records in /products.json (549 total; shoes, bags, swim and accessor",
+  "st": "read"
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 1,
+  "comfort": 3,
+  "style": 4
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0",
+  "u": "https://www.simonmillerusa.com/collections/clothing-rtw",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "no — 'designed from our unique CaSa in Los Angeles'; design studio, no making claimed",
+  "makers": "no",
+  "mills": "no",
+  "madein": "0% ('Imported' on all 80 sampled)",
+  "heritage": "none — lifestyle-brand copy naming the CEO and creative director; no founding year or place on the page read",
+  "process": "no",
+  "urls": [
+   "https://www.simonmillerusa.com/pages/about-us",
+   "https://www.simonmillerusa.com/products/kini-striped-tee-in-blue-stripe"
+  ],
+  "proposed": 1,
+  "reasoning": "Every sampled product says only 'Imported'. The about page describes an LA design base and nothing about making, so there's no maker, mill, place or process to credit: 1.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-14): no named fabric. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 1 (2026-10-14): Every sampled product says only 'Imported'. The about page describes an LA design base and nothing about making, so there's no maker, mill, place or process to credit: 1. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "screen"
 }

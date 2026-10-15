@@ -143,5 +143,66 @@
   "domain": "caracaranyc.com"
  },
  "depts": 4,
+ "garment_links": {
+  "Blouse": "https://caracaranyc.com/collections/tops",
+  "Sweater": "https://caracaranyc.com/collections/knits",
+  "Trousers": "https://caracaranyc.com/collections/pants-and-shorts",
+  "Dress": "https://caracaranyc.com/collections/dresses",
+  "Outerwear": "https://caracaranyc.com/collections/jackets"
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 3,
+  "cotton": 5,
+  "wool": 3,
+  "synth": 2,
+  "silk": 2
+ },
+ "fibre": {
+  "t": 352,
+  "w": 79,
+  "n_pct": 75,
+  "s_pct": 6,
+  "c_pct": 18,
+  "spandex": 5,
+  "sp": "one",
+  "sample": "stratified sample of 80 across 6 product-type groups, proportional; 352 styles from 487 clothing listings in /products.json (496 total; accessories, gift card a",
+  "st": "read"
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 2,
+  "comfort": 3,
+  "style": 3
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0",
+  "u": "https://caracaranyc.com/collections/all",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "no — 'ethically-operated workrooms in the US, and WRAP-certified factories in India, China and Peru', none named",
+  "makers": "no",
+  "mills": "no",
+  "madein": "99% (79 of 80: China 67, India 12)",
+  "heritage": "dated and placed — founded 2019 in New York by Julia Brown, Katie Hobbs and Sasha Martin; Madison Avenue stores",
+  "process": "thin — prints designed in-house or adapted from vintage textiles; factories vetted each season and 'each piece hand sewn by small teams'",
+  "urls": [
+   "https://caracaranyc.com/pages/our-story",
+   "https://caracaranyc.com/products/asbury-top-lockwood-flora-egret"
+  ],
+  "proposed": 2,
+  "reasoning": "Every product page states its country (China or India), and the story page names the production countries and WRAP certification. No factory or maker is named, and the US workrooms it mentions don't appear on any sampled product, so it's a 2.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-14): no named fabric. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 2 (2026-10-14): Every product page states its country (China or India), and the story page names the production countries and WRAP certification. No factory or maker is named, and the US workrooms it mentions don't appear on any sampled product, so it's a 2. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "screen"
 }

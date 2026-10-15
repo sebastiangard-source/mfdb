@@ -155,5 +155,67 @@
   "domain": "patbo.com"
  },
  "depts": 4,
+ "garment_links": {
+  "Blouse": "https://patbo.com/collections/tops",
+  "Jeans": "https://patbo.com/collections/denim",
+  "Trousers": "https://patbo.com/collections/bottoms-new",
+  "Dress": "https://patbo.com/collections/dresses",
+  "Outerwear": "https://patbo.com/collections/tops",
+  "Shoes": "https://patbo.com/collections/shoes"
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 1,
+  "linen": 2,
+  "cotton": 3,
+  "wool": 1,
+  "synth": 5,
+  "silk": 1
+ },
+ "fibre": {
+  "t": 386,
+  "w": 70,
+  "n_pct": 14,
+  "s_pct": 60,
+  "c_pct": 14,
+  "spandex": 30,
+  "sp": "one",
+  "sample": "stratified sample of 80 across 7 derived categories, proportional; 386 styles from 445 records in /collections/all-ready-to-wear/products.json; bikinis, swim, c",
+  "st": "read"
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 3,
+  "comfort": 2,
+  "style": 4
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0",
+  "u": "https://patbo.com/collections/all-ready-to-wear",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "claimed and placed — 'PatBO's atelier' in Uberlândia, Brazil, alongside an embroidery school founded by Bonaldi; no address or photograph on the page read",
+  "makers": "no individual makers; the atelier and 'talented artisans in her hometown of Uberlândia' are named as a place",
+  "mills": "no",
+  "madein": "92% (74 of 80 sampled: Brazil 66, India 5, China 3)",
+  "heritage": "dated and placed — founded 2002; designer's couture label in São Paulo; Uberlândia atelier; Projeto Costurando Sonhos 2015",
+  "process": "partial — hand embroidery and beading named on PDPs (one top 'takes two days to make'); embroidery school documented",
+  "urls": [
+   "https://patbo.com/pages/about",
+   "https://patbo.com/products/hand-beaded-flower-top-2"
+  ],
+  "proposed": 3,
+  "reasoning": "Most product pages say Made in Brazil, and the about page places the making in the brand's own atelier and embroidery school in Uberlândia, with hand embroidery described on product pages. The atelier is claimed rather than shown and no mills are named, so it's a 3; documented ownership of the Uberlândia atelier would argue for 4.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-14): no named fabric. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 3 (2026-10-14): Most product pages say Made in Brazil, and the about page places the making in the brand's own atelier and embroidery school in Uberlândia, with hand embroidery described on product pages. The atelier is claimed rather than shown and no mills are named, so it's a 3; documented ownership of the Uberl Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "womens"
 }

@@ -194,5 +194,69 @@
   "domain": "mmlafleur.com"
  },
  "depts": 3,
+ "garment_links": {
+  "T-shirt": "https://mmlafleur.com/collections/t-shirts",
+  "Blouse": "https://mmlafleur.com/collections/tops",
+  "Sweater": "https://mmlafleur.com/collections/sweaters",
+  "Jeans": "https://mmlafleur.com/collections/pants",
+  "Trousers": "https://mmlafleur.com/collections/pants",
+  "Dress": "https://mmlafleur.com/collections/dresses",
+  "Outerwear": "https://mmlafleur.com/collections/jackets",
+  "Shoes": "https://mmlafleur.com/collections/shoes"
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 2,
+  "linen": 2,
+  "cotton": 4,
+  "wool": 3,
+  "synth": 3,
+  "silk": 2
+ },
+ "fibre": {
+  "t": 977,
+  "w": 73,
+  "n_pct": 51,
+  "s_pct": 17,
+  "c_pct": 29,
+  "spandex": 32,
+  "sp": "split",
+  "sample": "stratified sample of 75 of 977 clothing styles, proportional by product type; census from /products.json (2,093 products incl. jewellery, shoes, sleepwear, hosi",
+  "st": "read"
+ },
+ "focus": {
+  "tech": 3,
+  "craft": 3,
+  "comfort": 4,
+  "style": 2
+ },
+ "tech_evidence": {
+  "names": "OrigamiTech; Recycled WonderTex; PowerStretch; 365 Stretch Knit; OrigamiPlush; CloudWeave; (Eco) Better Than Denim",
+  "owned": "owned (house-named fabrics, sold by name in every product title)",
+  "share": "11% (110 of 977 styles carry one of the named fabrics; 20 of 75 sampled)",
+  "u": "https://mmlafleur.com/products/sarah-black",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "no — the brand owns no factory; it lists its makers",
+  "makers": "yes, brand-level — /pages/our-factories names 16 factories with city, founding year and certifications (e.g. Shenzhen WCX Garment Co., Kargisan Karabuk Giyim in Karabük, Tonglu Spring River Knitting i",
+  "mills": "none named on product pages ('Italian Wool Twill', 'Italian Jersey' name origins only)",
+  "madein": "0 of 75 sampled product pages state a country",
+  "heritage": "NC — /pages/our-story not read",
+  "process": "partial — the factories page gives each maker's speciality, workforce and certifications; no product-level process",
+  "urls": [
+   "https://mmlafleur.com/pages/our-factories",
+   "https://mmlafleur.com/pages/our-commitment-to-sustainability"
+  ],
+  "proposed": 3,
+  "reasoning": "M.M.LaFleur names every factory it uses — sixteen of them, each with city, founding year, workforce figures and audits — which is checkable making, though it owns none and product pages do not tie a style to a maker or state a country. Names its makers, owns nothing: a 3.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 3 (2026-10-14): OrigamiTech; Recycled WonderTex; PowerStretch; 365 Stretch Knit; OrigamiPlush; CloudWeave; (Eco) Better Than Denim. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 3 (2026-10-14): M.M.LaFleur names every factory it uses — sixteen of them, each with city, founding year, workforce figures and audits — which is checkable making, though it owns none and product pages do not tie a style to a maker or state a country. Names its makers, owns nothing: a 3. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "womens"
 }

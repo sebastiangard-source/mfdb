@@ -168,5 +168,68 @@
   "domain": "sportyandrich.com"
  },
  "depts": 0,
+ "garment_links": {
+  "T-shirt": "https://sportyandrich.com/collections/t-shirts",
+  "Blouse": "https://sportyandrich.com/collections/shirts",
+  "Sweater": "https://sportyandrich.com/collections/knitwear",
+  "Jeans": "https://sportyandrich.com/collections/denim",
+  "Trousers": "https://sportyandrich.com/collections/sweatpants",
+  "Dress": "https://sportyandrich.com/collections/skirts-dresses",
+  "Outerwear": "https://sportyandrich.com/collections/outerwear"
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 3,
+  "linen": 1,
+  "cotton": 5,
+  "wool": 2,
+  "synth": 4,
+  "silk": 1
+ },
+ "fibre": {
+  "t": 86,
+  "w": 79,
+  "n_pct": 68,
+  "s_pct": 30,
+  "c_pct": 1,
+  "spandex": 27,
+  "sp": "split",
+  "sample": "stratified sample of 80 across 12 women's collections, proportional; 86 models from 203 clothing listings in /collections/women-all (31 untyped polos, crewnecks",
+  "st": "read"
+ },
+ "focus": {
+  "tech": 3,
+  "craft": 2,
+  "comfort": 4,
+  "style": 3
+ },
+ "tech_evidence": {
+  "names": "LuxeFleece (100% cotton, 400 gsm, silicone-finished and garment-washed); UltraSoft Jersey (90% cotton / 10% spandex, carbon-finished); SportyCore (82% polyamide / 18% elastane); Cashmere (70/30, SFA + RWS)",
+  "owned": "house-named fabric programmes; mill unnamed",
+  "share": "33% of sample in a named fabric's collection (LuxeFleece 8, UltraSoft Jersey 6, SportyCore 12); 18 more sampled styles carry the SportyCore 82/18 composition outside those collections",
+  "u": "https://sportyandrich.com/pages/fabric-guide",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "makers": "no",
+  "mills": "no — 'a family-owned mill with 52 years of experience' in Portugal for fleece and jersey, unnamed",
+  "madein": "100% (79 of 79: China 41, Portugal 34, Italy 3, USA 1)",
+  "heritage": "placed — founder Emily Oberg; began as an Instagram mood board and print magazine after 2015 in New York; HQ Los Angeles and Paris",
+  "process": "partial — Fabric Guide explains weight, silicone finish and garment washing for LuxeFleece and the certifications for cashmere; no making process",
+  "urls": [
+   "https://sportyandrich.com/pages/fabric-guide",
+   "https://sportyandrich.com/products/fema-srcc-tshirt-heather-gray-fw26-equestrian"
+  ],
+  "proposed": 2,
+  "reasoning": "Every page states a country, and the Fabric Guide and tee pages credit a 52-year family-owned Portuguese mill for the fleece and jersey. The mill is never named and the China-made half of the range (cashmere, activewear, tennis) gets no maker at all, so it's a 2.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 3 (2026-10-14): LuxeFleece (100% cotton, 400 gsm, silicone-finished and garment-washed); UltraSoft Jersey (90% cotton / 10% spandex, carbon-finished); SportyCore (82% polyamide / 18% elastane); Cashmere (70/30, SFA + RWS). Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 2 (2026-10-14): Every page states a country, and the Fabric Guide and tee pages credit a 52-year family-owned Portuguese mill for the fleece and jersey. The mill is never named and the China-made half of the range (cashmere, activewear, tennis) gets no maker at all, so it's a 2. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "womens"
 }

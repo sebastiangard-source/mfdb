@@ -170,5 +170,66 @@
   "domain": "lelarose.com"
  },
  "depts": 4,
+ "garment_links": {
+  "Blouse": "https://www.lelarose.com/collections/tops-all",
+  "Sweater": "https://www.lelarose.com/collections/knits-all",
+  "Trousers": "https://www.lelarose.com/collections/bottoms-all",
+  "Dress": "https://www.lelarose.com/collections/dresses",
+  "Outerwear": "https://www.lelarose.com/collections/jackets-coats-all"
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 1,
+  "linen": 2,
+  "cotton": 4,
+  "wool": 4,
+  "synth": 4,
+  "silk": 2
+ },
+ "fibre": {
+  "t": 242,
+  "w": 55,
+  "n_pct": 41,
+  "s_pct": 14,
+  "c_pct": 14,
+  "spandex": 16,
+  "sp": "split",
+  "sample": "stratified sample of 80 of 242 RTW clothing styles, proportional by product type (types written in two cases merged); census from /products.json (474 products i",
+  "st": "read"
+ },
+ "focus": {
+  "tech": 2,
+  "craft": 2,
+  "comfort": 2,
+  "style": 4
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0%",
+  "u": "https://www.lelarose.com/products/stretch-houndstooth-pleated-pant",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "showroom/atelier at 550 7th Ave, New York — described as a by-appointment shopping space, not a workroom (/pages/ready-to-wear-new-york-atelier)",
+  "makers": "none",
+  "mills": "none",
+  "madein": "79 of 80 sampled descriptions state an origin: 51 'Made in USA' (64%), 28 'Imported'",
+  "heritage": "NC — /pages/about returned no text to a read",
+  "process": "no",
+  "urls": [
+   "https://www.lelarose.com/pages/ready-to-wear-new-york-atelier",
+   "https://www.lelarose.com/products/floral-fil-coupe-florence-dress-6"
+  ],
+  "proposed": 2,
+  "reasoning": "Nearly two thirds of the sampled range says 'Made in USA' and the brand keeps a Garment District address, but the 'atelier' page describes a showroom, and no workroom, maker or mill is named. A country on most of the range — a strong 2.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 2 (2026-10-14): no named fabric. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 2 (2026-10-14): Nearly two thirds of the sampled range says 'Made in USA' and the brand keeps a Garment District address, but the 'atelier' page describes a showroom, and no workroom, maker or mill is named. A country on most of the range — a strong 2. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "screen"
 }

@@ -179,5 +179,68 @@
   "domain": "samedelman.com"
  },
  "depts": 4,
+ "garment_links": {
+  "Blouse": "https://www.samedelman.com/browse/apparel/tops/blouses",
+  "Sweater": "https://www.samedelman.com/browse/apparel/tops/sweaters",
+  "Jeans": "https://www.samedelman.com/browse/apparel/bottoms/jeans",
+  "Trousers": "https://www.samedelman.com/browse/apparel/bottoms/pants",
+  "Dress": "https://www.samedelman.com/browse/apparel/dresses-and-jumpsuits",
+  "Outerwear": "https://www.samedelman.com/browse/apparel/outerwear",
+  "Shoes": "https://www.samedelman.com/browse/shoes/womens"
+ },
+ "fabric": {
+  "denim": 3,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 3,
+  "wool": 1,
+  "synth": 5,
+  "silk": 1
+ },
+ "fibre": {
+  "t": 46,
+  "w": 40,
+  "n_pct": 15,
+  "s_pct": 57,
+  "c_pct": 15,
+  "spandex": 15,
+  "sp": "split",
+  "sample": "census: all 46 apparel styles shown on /browse/apparel (the grid reports '76 products', counting colourways; pagination did not load more tiles); composition fr",
+  "st": "read"
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 2,
+  "comfort": 3,
+  "style": 2
+ },
+ "tech_evidence": {
+  "names": "NONE ('Alternative Leather' is PU-faced viscose)",
+  "owned": "",
+  "share": "0%",
+  "u": "https://www.samedelman.com/product/womens-barrel-leg-trouser-3034193/dark-brown-ec0211693",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "no — none claimed",
+  "makers": "none",
+  "mills": "none",
+  "madein": "32 of 46 apparel pages say 'Made in China'; the rest (mostly outerwear) state no country",
+  "heritage": "brand est. 2004 by Sam Edelman (/customer-service/about-us)",
+  "process": "no",
+  "urls": [
+   "https://www.samedelman.com/customer-service/about-us",
+   "https://www.samedelman.com/product/womens-heavy-gauge-sweater-3034207/heather-grey-ec0211717"
+  ],
+  "proposed": 2,
+  "reasoning": "Country of make on most apparel pages (China) and a dated brand, nothing more — country-on-page 2, by the same rule as Lela Rose.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-14): NONE ('Alternative Leather' is PU-faced viscose). Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 2 (2026-10-14): Country of make on most apparel pages (China) and a dated brand, nothing more — country-on-page 2, by the same rule as Lela Rose. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "womens"
 }

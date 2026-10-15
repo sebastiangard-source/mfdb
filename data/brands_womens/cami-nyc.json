@@ -174,5 +174,68 @@
   "domain": "caminyc.com"
  },
  "depts": 3,
+ "garment_links": {
+  "T-shirt": "https://www.caminyc.com/collections/knits-1",
+  "Blouse": "https://www.caminyc.com/collections/blouses-1",
+  "Sweater": "https://www.caminyc.com/collections/knits-1",
+  "Jeans": "https://www.caminyc.com/collections/bottoms",
+  "Trousers": "https://www.caminyc.com/collections/pants",
+  "Dress": "https://www.caminyc.com/collections/cami-dresses",
+  "Outerwear": "https://www.caminyc.com/collections/jackets-blazers"
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 2,
+  "linen": 2,
+  "cotton": 3,
+  "wool": 2,
+  "synth": 3,
+  "silk": 4
+ },
+ "fibre": {
+  "t": 223,
+  "w": 79,
+  "n_pct": 70,
+  "s_pct": 11,
+  "c_pct": 18,
+  "spandex": 9,
+  "sp": "one",
+  "sample": "stratified sample of 80 across 8 product types, proportional; 223 styles from 352 records in /collections/all/products.json; 3RD PARTY (18), gift card and bag f",
+  "st": "read"
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 1,
+  "comfort": 3,
+  "style": 3
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0",
+  "u": "https://www.caminyc.com/pages/fabrics-101",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "no — 'we've spent a long time finding the best factories around the world'; none named",
+  "makers": "no",
+  "mills": "no ('bluesign approved' factories claimed, none named; 'French Lace' on one cami)",
+  "madein": "0% — every sampled PDP says 'Imported', no country",
+  "heritage": "vague — founder Samantha Steen named; no date or place on the about page",
+  "process": "no",
+  "urls": [
+   "https://www.caminyc.com/pages/about-us",
+   "https://www.caminyc.com/products/crosby-blouse"
+  ],
+  "proposed": 1,
+  "reasoning": "Product pages say only 'Imported', and the about and fabrics pages speak of premium fabrics and partner factories without naming any or giving a country. Nothing about making can be checked: 1.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-14): no named fabric. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 1 (2026-10-14): Product pages say only 'Imported', and the about and fabrics pages speak of premium fabrics and partner factories without naming any or giving a country. Nothing about making can be checked: 1. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "screen"
 }

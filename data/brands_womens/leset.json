@@ -174,5 +174,68 @@
   "domain": "leset.com"
  },
  "depts": 5,
+ "garment_links": {
+  "T-shirt": "https://leset.com/collections/t-shirts",
+  "Blouse": "https://leset.com/collections/tops",
+  "Sweater": "https://leset.com/collections/sweaters-1",
+  "Trousers": "https://leset.com/collections/pants-1",
+  "Dress": "https://leset.com/collections/dresses",
+  "Outerwear": "https://leset.com/collections/outerwear",
+  "Shoes": "https://leset.com/collections/shoes"
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 2,
+  "linen": 1,
+  "cotton": 5,
+  "wool": 2,
+  "synth": 3,
+  "silk": 2
+ },
+ "fibre": {
+  "t": 236,
+  "w": 80,
+  "n_pct": 56,
+  "s_pct": 18,
+  "c_pct": 26,
+  "spandex": 18,
+  "sp": "split",
+  "sample": "stratified sample of 80 across 8 product types, proportional; 236 styles from 603 records in /collections/all/products.json (accessories, shoes, kids, packs, gi",
+  "st": "read"
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 2,
+  "comfort": 5,
+  "style": 3
+ },
+ "tech_evidence": {
+  "names": "NONE (fabric sets are house names for sourced cloths — Arielle double-woven crepe, Barb, Rio, Bo 'Technical Taffeta' — sold on hand and drape, not performance)",
+  "owned": "",
+  "share": "0",
+  "u": "https://leset.com/pages/fabric-set-guide",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "no owned facility claimed; 'Made in Los Angeles, CA' on most PDPs, maker not named",
+  "makers": "no",
+  "mills": "no — the fabric guide gives the fabric's origin by set ('crafted in Japan', 'Fabric made in Italy', 'Fabric Made in France'), but no mill",
+  "madein": "68% (54 of 80 sampled: Los Angeles 53, Italy 1; knitwear and some woven sets state none)",
+  "heritage": "dated — 'In 2019, Lili Chemla launched LESET'; stores in Palisades Village, LA and West Village, NYC",
+  "process": "partial — a published fabric-set guide gives composition, fabric origin and garment origin for each named fabric family",
+  "urls": [
+   "https://leset.com/pages/fabric-set-guide",
+   "https://leset.com/products/ari-boatneck-tie-top-black"
+  ],
+  "proposed": 2,
+  "reasoning": "Most product pages say made in Los Angeles, and the fabric guide gives each named fabric's origin (Japan, Italy, France), which is more than most houses publish. No sewing contractor or mill is named and the brand owns no making, so it's a strong 2; naming the LA makers or the mills would make it a 3.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-14): NONE (fabric sets are house names for sourced cloths — Arielle double-woven crepe, Barb, Rio, Bo 'Technical Taffeta' — sold on hand and drape, not performance). Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 2 (2026-10-14): Most product pages say made in Los Angeles, and the fabric guide gives each named fabric's origin (Japan, Italy, France), which is more than most houses publish. No sewing contractor or mill is named and the brand owns no making, so it's a strong 2; naming the LA makers or the mills would make it a  Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "screen"
 }

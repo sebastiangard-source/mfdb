@@ -140,5 +140,65 @@
   "domain": "cozyearth.com"
  },
  "depts": 3,
+ "garment_links": {
+  "T-shirt": "https://cozyearth.com/collections/womens-tanks-tees",
+  "Trousers": "https://cozyearth.com/collections/womens-bottoms",
+  "Dress": "https://cozyearth.com/collections/womens-loungewear",
+  "Outerwear": "https://cozyearth.com/collections/womens-hoodies-sweatshirts"
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 4,
+  "wool": 2,
+  "synth": 2,
+  "silk": 1
+ },
+ "fibre": {
+  "t": 136,
+  "w": 80,
+  "n_pct": 41,
+  "s_pct": 4,
+  "c_pct": 55,
+  "spandex": 46,
+  "sp": "one",
+  "sample": "stratified sample of 80 of 136 women's styles (titles beginning 'Women's'), proportional by garment group read from the title (Sleepwear 47, Bottoms 31, Sets 22",
+  "st": "read"
+ },
+ "focus": {
+  "tech": 2,
+  "craft": 1,
+  "comfort": 5,
+  "style": 1
+ },
+ "tech_evidence": {
+  "names": "NONE by name — 'viscose from bamboo… temperature regulating' is a claim, not a named fabric; Bamboo Stretch-Knit, Brushed Bamboo, First Layer are line names",
+  "owned": "",
+  "share": "cooling claim attached to the bamboo-viscose lines (~45% of sampled styles)",
+  "u": "https://cozyearth.com/pages/about-us",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "no — none claimed",
+  "makers": "none",
+  "mills": "none; OEKO-TEX certification claimed",
+  "madein": "0 of 80",
+  "heritage": "dated — 2010, founder Tyler Howells (/pages/about-us)",
+  "process": "no",
+  "urls": [
+   "https://cozyearth.com/pages/about-us",
+   "https://cozyearth.com/products/womens-bamboo-stretch-knit-pant"
+  ],
+  "proposed": 1,
+  "reasoning": "A dated founding and a fibre story; no maker, place or process, no country on any page. 1.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 2 (2026-10-14): NONE by name — 'viscose from bamboo… temperature regulating' is a claim, not a named fabric; Bamboo Stretch-Knit, Brushed Bamboo, First Layer are line names. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 1 (2026-10-14): A dated founding and a fibre story; no maker, place or process, no country on any page. 1. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "womens"
 }

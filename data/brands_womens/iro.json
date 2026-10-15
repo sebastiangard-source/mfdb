@@ -181,5 +181,69 @@
   "domain": "iroparis.com"
  },
  "depts": 4,
+ "garment_links": {
+  "T-shirt": "https://www.iroparis.com/us/women/tshirts/",
+  "Blouse": "https://www.iroparis.com/us/women/shirts-tops/",
+  "Sweater": "https://www.iroparis.com/us/women/pulls-sweats/",
+  "Jeans": "https://www.iroparis.com/us/women/jeans/",
+  "Trousers": "https://www.iroparis.com/us/women/pants/",
+  "Dress": "https://www.iroparis.com/us/c/women/clothing/dresses/",
+  "Outerwear": "https://www.iroparis.com/us/women/jackets-coats/",
+  "Shoes": "https://www.iroparis.com/us/women/shoes/"
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 2,
+  "linen": 2,
+  "cotton": 3,
+  "wool": 3,
+  "synth": 4,
+  "silk": 1
+ },
+ "fibre": {
+  "t": 251,
+  "w": 80,
+  "n_pct": 56,
+  "s_pct": 21,
+  "c_pct": 22,
+  "spandex": 19,
+  "sp": "one",
+  "sample": "stratified sample of 80 of 251 women's RTW styles, proportional by garment group read from the name; census from the SFCC women's RTW grid (Search-UpdateGrid cg",
+  "st": "read"
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 2,
+  "comfort": 3,
+  "style": 4
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0%",
+  "u": "https://www.iroparis.com/us/p/stirrup-leggings-WM23TITANIUM26W_BLA01.html",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "no — Paris studio (11th arrondissement) is design (/us/iro/iro-studio.html)",
+  "makers": "none",
+  "mills": "none; one leather dress cites an LWG-certified tannery",
+  "madein": "80 of 80 sampled pages state a country (China 27, Portugal 18, Turkey 17, Bulgaria 11, Romania 3, India 2, Tunisia 2)",
+  "heritage": "founded 2005, Paris; artistic director Nicolas Rohaut (/us/iro/iro-studio.html)",
+  "process": "no",
+  "urls": [
+   "https://www.iroparis.com/us/iro/iro-studio.html",
+   "https://www.iroparis.com/us/p/long-checked-coat-WP137KOAT26W_BRO71.html"
+  ],
+  "proposed": 2,
+  "reasoning": "Every product page states the country of make, and the house is dated and placed — but no maker, workshop or process is named. Country-on-page: 2.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-14): no named fabric. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 2 (2026-10-14): Every product page states the country of make, and the house is dated and placed — but no maker, workshop or process is named. Country-on-page: 2. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "womens"
 }

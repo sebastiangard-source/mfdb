@@ -170,5 +170,68 @@
   "domain": "dvf.com"
  },
  "depts": 4,
+ "garment_links": {
+  "T-shirt": "https://www.dvf.com/collections/shirts-tops",
+  "Blouse": "https://www.dvf.com/collections/shirts-tops",
+  "Sweater": "https://www.dvf.com/collections/sweaters-knits",
+  "Jeans": "https://www.dvf.com/collections/denim",
+  "Trousers": "https://www.dvf.com/collections/pants-shorts",
+  "Dress": "https://www.dvf.com/collections/dresses",
+  "Outerwear": "https://www.dvf.com/collections/jackets-coats"
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 3,
+  "wool": 3,
+  "synth": 3,
+  "silk": 3
+ },
+ "fibre": {
+  "t": 368,
+  "w": 76,
+  "n_pct": 32,
+  "s_pct": 13,
+  "c_pct": 52,
+  "spandex": 18,
+  "sp": "one",
+  "sample": "stratified sample of 80 across 7 product types, proportional; 368 style×fabric codes from 500 clothing listings in /products.json (578 total; scarves, belts, su",
+  "st": "read"
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 1,
+  "comfort": 3,
+  "style": 3
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "NONE (Ecovero viscose named on a few styles)",
+  "share": "0",
+  "u": "https://www.dvf.com/pages/about-the-brand",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "makers": "no",
+  "mills": "no",
+  "madein": "0% (no country on product pages)",
+  "heritage": "dated — founded 1972 by Diane von Furstenberg; wrap dress created 1974, over a million sold by 1976",
+  "process": "no — fabric philosophy ('signature jerseys and fluid silks') and a responsible-sourcing compliance statement, no making",
+  "urls": [
+   "https://www.dvf.com/pages/about-the-brand",
+   "https://www.dvf.com/products/new-abigail-wrap-dress-in-chain-link-medium-black"
+  ],
+  "proposed": 1,
+  "reasoning": "A dated design heritage (1972, the 1974 wrap dress), but product pages give no country, maker or mill, and the sourcing page is a supply-chain compliance statement. Nothing about making can be verified: 1.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-14): no named fabric. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 1 (2026-10-14): A dated design heritage (1972, the 1974 wrap dress), but product pages give no country, maker or mill, and the sourcing page is a supply-chain compliance statement. Nothing about making can be verified: 1. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "womens"
 }

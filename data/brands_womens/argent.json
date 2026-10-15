@@ -168,5 +168,68 @@
   "domain": "argentwork.com"
  },
  "depts": 3,
+ "garment_links": {
+  "T-shirt": "https://argentwork.com/collections/tops",
+  "Blouse": "https://argentwork.com/collections/tops",
+  "Sweater": "https://argentwork.com/collections/sweaters",
+  "Jeans": "https://argentwork.com/collections/denim",
+  "Trousers": "https://argentwork.com/collections/pants",
+  "Dress": "https://argentwork.com/collections/dresses",
+  "Outerwear": "https://argentwork.com/collections/outerwear"
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 1,
+  "linen": 2,
+  "cotton": 3,
+  "wool": 5,
+  "synth": 2,
+  "silk": 3
+ },
+ "fibre": {
+  "t": 348,
+  "w": 79,
+  "n_pct": 76,
+  "s_pct": 4,
+  "c_pct": 19,
+  "spandex": 32,
+  "sp": "one",
+  "sample": "stratified sample of 80 across 10 product types, proportional; 348 styles from 463 records in /collections/all/products.json (gift card and accessories excluded",
+  "st": "read"
+ },
+ "focus": {
+  "tech": 3,
+  "craft": 2,
+  "comfort": 3,
+  "style": 2
+ },
+ "tech_evidence": {
+  "names": "Seasonless Wool (house-named Italian stretch wool, sold as 'naturally temperature-regulating and odor- and wrinkle-resistant')",
+  "owned": "own name for a sourced Italian cloth (mill not named)",
+  "share": "30% (24 of 80 sampled are Seasonless Wool)",
+  "u": "https://argentwork.com/collections/seasonless-wool",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "makers": "collab only — two AGOLDE x ARGENT jeans name AGOLDE; otherwise no",
+  "mills": "no — every PDP gives the fabric's country ('Seasonless Wool from Italy', 'Silk Charmeuse from China') but no mill",
+  "madein": "28% (22 of 80 sampled carry 'Country of Origin': China 8, Portugal 7, USA 7); fabric origin is stated on 76 of 80",
+  "heritage": "vague — founder (Sali) named on the about page; no founding date or place found there",
+  "process": "no",
+  "urls": [
+   "https://argentwork.com/pages/about",
+   "https://argentwork.com/products/wide-leg-trouser-in-seasonless-wool-black"
+  ],
+  "proposed": 2,
+  "reasoning": "Each product page gives the fabric's origin country, and about a quarter give the garment's country, but no mill, maker or workshop is named apart from a collaboration with AGOLDE. Country-level statements only: 2.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 3 (2026-10-14): Seasonless Wool (house-named Italian stretch wool, sold as 'naturally temperature-regulating and odor- and wrinkle-resistant'). Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 2 (2026-10-14): Each product page gives the fabric's origin country, and about a quarter give the garment's country, but no mill, maker or workshop is named apart from a collaboration with AGOLDE. Country-level statements only: 2. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "screen"
 }

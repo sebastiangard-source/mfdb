@@ -104,5 +104,62 @@
   "domain": "wacoal-america.com"
  },
  "depts": 5,
+ "garment_links": {
+  "T-shirt": "https://wacoal-america.com/collections/all-lounge"
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 3,
+  "wool": 1,
+  "synth": 1,
+  "silk": 1
+ },
+ "fibre": {
+  "t": 7,
+  "w": 7,
+  "n_pct": 14,
+  "s_pct": 0,
+  "c_pct": 86,
+  "spandex": 7,
+  "sp": "one",
+  "sample": "all 7 Wacoal-vendor sleep and lounge styles in /collections/all-lounge (34 listings; bras and bralettes excluded as underwear; 9 Splendid-vendor Winslow and Hav",
+  "st": "read"
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 1,
+  "comfort": 4,
+  "style": 1
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0",
+  "u": "https://wacoal-america.com/collections/all-lounge",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "makers": "no",
+  "mills": "no",
+  "madein": "0% (no country on the 7 product pages)",
+  "heritage": "dated, unplaced — 'trusted for fit, quality, and comfort for more than 40 years' (US arm); no founding place on the page read",
+  "process": "thin — about page claims fabric inspection and testing, quality control and fitting every cup size on real women; bras only",
+  "urls": [
+   "https://wacoal-america.com/pages/about-us",
+   "https://wacoal-america.com/products/soft-set-short-sleeve-t-shirt-cashmere-heather"
+  ],
+  "proposed": 1,
+  "reasoning": "The about page makes general quality-control and fit-testing claims for bras, with no factory, place or maker. The lounge pages give fibre only, with no country, so it's a 1 on the evidence the store shows.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-14): no named fabric. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 1 (2026-10-14): The about page makes general quality-control and fit-testing claims for bras, with no factory, place or maker. The lounge pages give fibre only, with no country, so it's a 1 on the evidence the store shows. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "womens"
 }

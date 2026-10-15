@@ -189,5 +189,66 @@
   "domain": "wolford.com"
  },
  "depts": 3,
+ "garment_links": {
+  "T-shirt": "https://us.wolford.com/en-us/ready-to-wear/clothing/tops-and-jackets/",
+  "Blouse": "https://us.wolford.com/en-us/ready-to-wear/clothing/tops-and-jackets/",
+  "Sweater": "https://us.wolford.com/en-us/ready-to-wear/shop-by/merino-and-cashmere/",
+  "Trousers": "https://us.wolford.com/en-us/ready-to-wear/clothing/trousers-and-jumpsuits/",
+  "Dress": "https://us.wolford.com/en-us/ready-to-wear/clothing/dresses-and-skirts/"
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 3,
+  "wool": 3,
+  "synth": 5,
+  "silk": 1
+ },
+ "fibre": {
+  "t": 107,
+  "w": 75,
+  "n_pct": 22,
+  "s_pct": 53,
+  "c_pct": 22,
+  "spandex": 65,
+  "sp": "one",
+  "sample": "stratified sample of 78 of 107 styles across ready-to-wear clothing (leggings & shorts, dresses & skirts, tops & jackets, trousers & jumpsuits) and bodysuits (l",
+  "st": "read"
+ },
+ "focus": {
+  "tech": 2,
+  "craft": 4,
+  "comfort": 4,
+  "style": 3
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0%",
+  "u": "https://us.wolford.com/en-us/the-w.o.w.-perfect-fit-leggings-17611.7540.html",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "yes — company site: 'produces its creations at its headquarters in Bregenz … as well as in the Slovenian town of Murska Sobota'; 264 seamless knitting machines at Bregenz (https://company.wolford.com/",
+  "makers": "none — 0 of 79 sampled product pages name a maker",
+  "mills": "none on product pages",
+  "madein": "0 of 79 — the Materials and Care panel gives composition and care only",
+  "heritage": "dated and placed — 'Established in 1950 … in the Austrian city of Bregenz' (about page, history timeline)",
+  "process": "partial — names the seamless knitting machines (264 at Bregenz) and design in Milan; no step-by-step process",
+  "urls": [
+   "https://company.wolford.com/wolford-company/",
+   "https://us.wolford.com/en-us/about-us.html"
+  ],
+  "proposed": 4,
+  "reasoning": "Wolford's corporate site states it makes its products in its own Bregenz headquarters and a plant in Murska Sobota, Slovenia, with 264 seamless knitting machines at Bregenz, and the founding (1950, Bregenz) is dated and placed. Held below 5 because no product page states origin (0 of 78) and the ready-to-wear wovens and leathers are not shown to come from those plants.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 2 (2026-10-14): no named fabric. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 4 (2026-10-14): Wolford's corporate site states it makes its products in its own Bregenz headquarters and a plant in Murska Sobota, Slovenia, with 264 seamless knitting machines at Bregenz, and the founding (1950, Bregenz) is dated and placed. Held below 5 because no product page states origin (0 of 78) and the rea Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "womens"
 }

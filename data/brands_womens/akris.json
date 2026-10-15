@@ -210,5 +210,68 @@
   "domain": "akris.com"
  },
  "depts": 4,
+ "garment_links": {
+  "T-shirt": "https://us.akris.com/collections/top-and-shirts",
+  "Blouse": "https://us.akris.com/collections/blouses",
+  "Sweater": "https://us.akris.com/collections/knitwear",
+  "Jeans": "https://us.akris.com/collections/denim",
+  "Trousers": "https://us.akris.com/collections/pants",
+  "Dress": "https://us.akris.com/collections/dresses-for-women",
+  "Outerwear": "https://us.akris.com/collections/coats"
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 3,
+  "linen": 2,
+  "cotton": 3,
+  "wool": 4,
+  "synth": 2,
+  "silk": 3
+ },
+ "fibre": {
+  "t": 600,
+  "w": 80,
+  "n_pct": 86,
+  "s_pct": 6,
+  "c_pct": 8,
+  "spandex": 12,
+  "sp": "one",
+  "sample": "stratified sample of 80 of 600 clothing styles, proportional by product type (Jackets, Coats, Shirts, Blouses, Knitwear, Pants, Skirts, Dresses); census from /p",
+  "st": "read"
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 2,
+  "comfort": 3,
+  "style": 4
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0%",
+  "u": "https://us.akris.com/products/fw26-techno-grid-midi-dress-with-waist-draping-black",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "not stated — 'our story' describes Alice Kriemler's 1922 apron atelier and ateliers that produced for Paris couturiers in the 1970s; the company page gives only St. Gallen headquarters, subsidiaries a",
+  "makers": "none — 0 of 80 sampled product pages name a maker",
+  "mills": "none on product pages; the horsehair page names the fibre's origin (Mongolia) but no mill; 'St. Gallen cotton and embroidery' is historical",
+  "madein": "0 of 80 sampled product pages state a country",
+  "heritage": "dated and placed — 1922, St. Gallen, Alice Kriemler; named Akris in 1944 (/pages/our-story)",
+  "process": "partial — fabric pages (double-face, horsehair, cashmere) exist; double-face and cashmere render client-side and returned no text; horsehair gives provenance of the fibre, not the making",
+  "urls": [
+   "https://us.akris.com/pages/our-story",
+   "https://us.akris.com/pages/company"
+  ],
+  "proposed": 2,
+  "reasoning": "Akris's heritage is dated and placed (St. Gallen, 1922) and its site talks about ateliers in the past tense, but nothing read today says where the range is made: no country, maker or mill on 80 sampled product pages and no production site on the company page. Reputation would put it higher; the evidence on the page supports a 2 until the double-face and cashmere pages are read rendered.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-14): no named fabric. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 2 (2026-10-14): Akris's heritage is dated and placed (St. Gallen, 1922) and its site talks about ateliers in the past tense, but nothing read today says where the range is made: no country, maker or mill on 80 sampled product pages and no production site on the company page. Reputation would put it higher; the evid Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "womens"
 }

@@ -184,5 +184,69 @@
   "domain": "pucci.com"
  },
  "depts": 3,
+ "garment_links": {
+  "T-shirt": "https://www.pucci.com/en-us/collections/t-shirts-and-sweatshirts",
+  "Blouse": "https://www.pucci.com/en-us/collections/tops-and-shirts",
+  "Sweater": "https://www.pucci.com/en-us/collections/knitwear",
+  "Jeans": "https://www.pucci.com/en-us/collections/denim",
+  "Trousers": "https://www.pucci.com/en-us/collections/pants-and-shorts",
+  "Dress": "https://www.pucci.com/en-us/collections/dresses",
+  "Outerwear": "https://www.pucci.com/en-us/collections/jackets",
+  "Shoes": "https://www.pucci.com/en-us/collections/shoes"
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 1,
+  "linen": 2,
+  "cotton": 3,
+  "wool": 2,
+  "synth": 3,
+  "silk": 4
+ },
+ "fibre": {
+  "t": 371,
+  "w": 79,
+  "n_pct": 54,
+  "s_pct": 16,
+  "c_pct": 29,
+  "spandex": 23,
+  "sp": "split",
+  "sample": "stratified sample of 80 across 15 house category tags, proportional; 371 styles from 411 listings in /en-us/collections/view-all-ready-to-wear/products.json; un",
+  "st": "read"
+ },
+ "focus": {
+  "tech": 2,
+  "craft": 2,
+  "comfort": 3,
+  "style": 5
+ },
+ "tech_evidence": {
+  "names": "Tecno Poudre (house cloth name, 100% polyester; no performance claim found); Lycra named as a cloth on jersey styles",
+  "owned": "own cloth name (Tecno Poudre); Lycra licensed",
+  "share": "under 5% (1 of 80 sampled names Tecno Poudre; 'super-stretch' cady/jacquard claims on a few more)",
+  "u": "https://www.pucci.com/en-us/products/tecno-poudre-skirt-6urv556u600999",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "no — no factory or workshop named on the brand's pages",
+  "makers": "no",
+  "mills": "no — PDPs name the cloth (silk twill, cady, crêpe de Chine) but no mill",
+  "madein": "98% (78 of 80 sampled: 77 Italy, 1 India; 2 state nothing)",
+  "heritage": "dated and placed — founded 1947 by Emilio Pucci, Marquis of Barsento; first boutique Capri 1950; native Florence",
+  "process": "no — archive prints redrawn with 'a new design process that respects the imperfection of the handcrafted'; no making process published",
+  "urls": [
+   "https://www.pucci.com/en-us/pages/about",
+   "https://www.pucci.com/en-us/products/baiadera-print-halterneck-silk-dress-6urh056u819074"
+  ],
+  "proposed": 2,
+  "reasoning": "Country of make (Italy) is on nearly every product page and the founding is dated and placed (1947, Florence and Capri). The brand names no workshop, maker or silk mill, and the about page talks about print design, not how the clothes are made, so it scores 2 on the evidence.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 2 (2026-10-14): Tecno Poudre (house cloth name, 100% polyester; no performance claim found); Lycra named as a cloth on jersey styles. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 2 (2026-10-14): Country of make (Italy) is on nearly every product page and the founding is dated and placed (1947, Florence and Capri). The brand names no workshop, maker or silk mill, and the about page talks about print design, not how the clothes are made, so it scores 2 on the evidence. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "womens"
 }

@@ -168,5 +168,68 @@
   "domain": "suziekondi.com"
  },
  "depts": 0,
+ "garment_links": {
+  "T-shirt": "https://suziekondi.com/collections/tees",
+  "Blouse": "https://suziekondi.com/collections/tops",
+  "Sweater": "https://suziekondi.com/collections/cashmere",
+  "Jeans": "https://suziekondi.com/collections/denim",
+  "Trousers": "https://suziekondi.com/collections/bottoms",
+  "Dress": "https://suziekondi.com/collections/dresses",
+  "Outerwear": "https://suziekondi.com/collections/outerwear"
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 3,
+  "linen": 2,
+  "cotton": 5,
+  "wool": 2,
+  "synth": 1,
+  "silk": 2
+ },
+ "fibre": {
+  "t": 226,
+  "w": 79,
+  "n_pct": 96,
+  "s_pct": 0,
+  "c_pct": 2,
+  "spandex": 4,
+  "sp": "one",
+  "sample": "stratified sample of 80 across 5 product types (Shorts, Pants, Blouse, Tank Top, Vest folded into Bottoms/Top), proportional; 226 model-fabric styles from 789 c",
+  "st": "read"
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 2,
+  "comfort": 5,
+  "style": 3
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0",
+  "u": "https://suziekondi.com/collections/velour-sets",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "makers": "no",
+  "mills": "no ('Italian cashmere' and 'Sea Island cotton' named as cloth, no mill)",
+  "madein": "99% (79 of 80: Los Angeles 32, India 22, New York 15 incl. one 'hand knit in New York City', Italy 5, Peru 4, Portugal 1",
+  "heritage": "placed — launched 2018, New York; founder grew up in her mother's fabric store in Australia",
+  "process": "thin — 'garment dying process' on velour and terry care lines; 'hand-knitted cashmere' in some descriptions",
+  "urls": [
+   "https://suziekondi.com/pages/about",
+   "https://suziekondi.com/products/the-kadria-cardigan-in-black-ivory-marl-cashmere"
+  ],
+  "proposed": 2,
+  "reasoning": "Nearly every product page names a city or country, and the velour and terry tracksuits (40% of the sample) are made in Los Angeles while cashmere is made or hand-knit in New York City. No workshop, knitter or mill is named and there is no process page, so it's a 2.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-14): no named fabric. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 2 (2026-10-14): Nearly every product page names a city or country, and the velour and terry tracksuits (40% of the sample) are made in Los Angeles while cashmere is made or hand-knit in New York City. No workshop, knitter or mill is named and there is no process page, so it's a 2. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "screen"
 }

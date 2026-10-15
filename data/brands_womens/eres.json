@@ -150,5 +150,65 @@
   "domain": "eresparis.com"
  },
  "depts": 3,
+ "garment_links": {
+  "Blouse": "https://www.eresparis.com/us/en-US/resortwear/tops/",
+  "Trousers": "https://www.eresparis.com/us/en-US/resortwear/trousers-and-shorts/",
+  "Dress": "https://www.eresparis.com/us/en-US/resortwear/dresses-and-caftans/",
+  "Shoes": "https://www.eresparis.com/us/en-US/resortwear/accessories/"
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 3,
+  "cotton": 4,
+  "wool": 3,
+  "synth": 4,
+  "silk": 4
+ },
+ "fibre": {
+  "t": 209,
+  "w": 74,
+  "n_pct": 67,
+  "s_pct": 24,
+  "c_pct": 4,
+  "spandex": 21,
+  "sp": "split",
+  "sample": "stratified sample of 78 of 209 women's clothing styles across Resortwear (90), Loungewear (74) and Activewear (45), proportional by department; census from the ",
+  "st": "read"
+ },
+ "focus": {
+  "tech": 2,
+  "craft": 3,
+  "comfort": 4,
+  "style": 3
+ },
+ "tech_evidence": {
+  "names": "Peau Douce (house polyamide/elastane jersey, also used in swim)",
+  "owned": "house name; mill not named",
+  "share": "2 of 78 sampled (Oda, Dao); the swim range uses it widely",
+  "u": "https://www.eresparis.com/us/en-US/resortwear/202317-01564.html",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "partial — a Paris design and prototype studio at 19M (the Chanel-founded métiers d'art building) with pattern makers and technicians; production not stated (/19M.html)",
+  "makers": "none by name — 'the last lace makers of Calais-Caudry', a bobbin-lace workshop in Le Puy-en-Velay (since 1860), a northern French embroiderer (1937), a Lyon silk manufacturer (1956) (/theartofcraft.ht",
+  "mills": "none by name; fabric origin per product on ~1 in 4 sampled pages ('The fabric was made in Italy / China / Belgium / France')",
+  "madein": "0 of 78 state where the garment was made; 21 state where the fabric was made",
+  "heritage": "'For over fifty years' (/ThehouseofERES.html); lingerie line since 1998",
+  "process": "partial — studio prototyping and fit testing described; making not described",
+  "urls": [
+   "https://www.eresparis.com/us/en-US/theartofcraft.html",
+   "https://www.eresparis.com/us/en-US/19M.html"
+  ],
+  "proposed": 3,
+  "reasoning": "A 50-year house with its own Paris pattern-making and prototype studio, and long-standing French lace, embroidery and silk suppliers described by place and founding date — but none is named, and no product page says where the garment is made. More than country-on-page, less than owned making: 3.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 2 (2026-10-14): Peau Douce (house polyamide/elastane jersey, also used in swim). Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 3 (2026-10-14): A 50-year house with its own Paris pattern-making and prototype studio, and long-standing French lace, embroidery and silk suppliers described by place and founding date — but none is named, and no product page says where the garment is made. More than country-on-page, less than owned making: 3. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "womens"
 }

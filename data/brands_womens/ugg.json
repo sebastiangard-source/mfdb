@@ -203,5 +203,61 @@
   "domain": "ugg.com"
  },
  "depts": 6,
+ "garment_links": {
+  "T-shirt": "https://www.ugg.com/women-apparel-tops/",
+  "Blouse": "https://www.ugg.com/women-apparel-tops/",
+  "Trousers": "https://www.ugg.com/women-apparel-pants/",
+  "Dress": "https://www.ugg.com/women-apparel-dresses/",
+  "Outerwear": "https://www.ugg.com/women-apparel-outerwear/"
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 3,
+  "wool": 1,
+  "synth": 5,
+  "silk": 1
+ },
+ "fibre": {
+  "t": 54,
+  "w": 19,
+  "n_pct": 10,
+  "s_pct": 85,
+  "c_pct": 0,
+  "spandex": 6,
+  "sp": "one",
+  "sample": "census: 54 women's clothing styles from /women-apparel/ (168 results incl. socks, cold-weather accessories and colour tiles; de-duplicated on item number and sl",
+  "st": "partial"
+ },
+ "focus": {
+  "tech": 3,
+  "comfort": 5,
+  "style": 2
+ },
+ "tech_evidence": {
+  "names": "UGGbraid; UGGfluff; LuxeFluff",
+  "owned": "owned (house-named fabrics)",
+  "share": "15% (3 of 20 read styles name one)",
+  "u": "https://www.ugg.com/women-apparel-outerwear/renly-uggbraid-puffer-jacket/1180645.html",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "NC",
+  "makers": "none on the 20 product pages read",
+  "mills": "none on the 20 product pages read",
+  "madein": "19 of 20 read product pages say 'Imported' — no country named",
+  "heritage": "NC",
+  "process": "NC",
+  "urls": [],
+  "proposed": null,
+  "reasoning": "Not assessed: the site walled the session (DataDome, HTTP 403 on product and brand pages) after 20 product reads, and a plain retry several minutes later was still blocked. The pages read name no maker, mill or country ('Imported').",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 3 (2026-10-14): UGGbraid; UGGfluff; LuxeFluff. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "womens"
 }

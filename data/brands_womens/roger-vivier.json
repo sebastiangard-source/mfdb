@@ -119,5 +119,42 @@
   "domain": "rogervivier.com"
  },
  "depts": 0,
+ "garment_links": {
+  "Shoes": "https://www.rogervivier.com/us-en/All-Shoes/All-Shoes/c/267/"
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 2,
+  "comfort": 2,
+  "style": 4
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0",
+  "u": "https://www.rogervivier.com/us-en/All-Shoes/All-Shoes/c/267/",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "no — no factory named on the brand's pages (owner Tod's Group named in the footer only)",
+  "makers": "no",
+  "mills": "no",
+  "madein": "100% of readable (8 of 8 sampled PDPs: Made in Italy; 4 more sampled links mis-encoded and not read)",
+  "heritage": "dated and placed — Roger Vivier born 1907 in Paris (8th arrondissement); Belle Vivier launched 1965; history timeline page",
+  "process": "thin — Rose Vivier page: satin petals 'cut, folded, and stitched individually' by hand; no workshop named",
+  "urls": [
+   "https://www.rogervivier.com/us-en/history/",
+   "https://www.rogervivier.com/us-en/savoir-faire-rose-vivier-luxury-shoes-rogervivier/"
+  ],
+  "proposed": 2,
+  "reasoning": "The sampled shoes say Made in Italy and the history timeline is dated and placed (Paris, 1907; Belle Vivier 1965). No factory, maker or tannery is named; the one process passage (hand-stitched satin petals) covers a single capsule. That is a 2.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-14): no named fabric. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 2 (2026-10-14): The sampled shoes say Made in Italy and the history timeline is dated and placed (Paris, 1907; Belle Vivier 1965). No factory, maker or tannery is named; the one process passage (hand-stitched satin petals) covers a single capsule. That is a 2. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "womens"
 }

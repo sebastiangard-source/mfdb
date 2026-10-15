@@ -113,5 +113,62 @@
   "domain": "hanrousa.com"
  },
  "depts": 4,
+ "garment_links": {
+  "T-shirt": "https://shop.hanrousa.com/collections/womens-t-shirts"
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 2,
+  "cotton": 5,
+  "wool": 2,
+  "synth": 1,
+  "silk": 2
+ },
+ "fibre": {
+  "t": 389,
+  "w": 56,
+  "n_pct": 55,
+  "s_pct": 0,
+  "c_pct": 15,
+  "spandex": 2,
+  "sp": "one",
+  "sample": "stratified sample of 80 of 389 women's day, lounge and sleep styles (tops, tees and tanks, pants, shorts, dresses, knits and jackets, pyjamas, nightgowns, robes",
+  "st": "read"
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 3,
+  "comfort": 5,
+  "style": 1
+ },
+ "tech_evidence": {
+  "names": "NONE (TENCEL™, Pima and Giza cotton are licensed or named fibres, not house fabrics)",
+  "owned": "",
+  "share": "0%",
+  "u": "https://shop.hanrousa.com/pages/world-of-hanro",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "partial — 'manufactured in-house' for its mercerised cotton fabric (Belen nightgown copy); fabrics 'made / produced in Austria' on many pages; no factory named",
+  "makers": "none",
+  "mills": "none by name; Pima, Egyptian Giza cotton and Swiss cotton yarns named (/pages/world-of-hanro)",
+  "madein": "12 of 80 sampled pages give a country (Austria 10, Switzerland 2) — mostly for the fabric rather than the garment",
+  "heritage": "founded 1884 in Liestal, Switzerland by Albert Handschin and Carl Ronus (/pages/world-of-hanro)",
+  "process": "partial — mercerisation process, hand-sewn lace, fibre sourcing described",
+  "urls": [
+   "https://shop.hanrousa.com/pages/world-of-hanro",
+   "https://shop.hanrousa.com/products/belen-embroidered-cotton-short-sleeve-nightgown-white"
+  ],
+  "proposed": 3,
+  "reasoning": "A 140-year house, dated and placed, that describes its process (mercerisation, hand-sewn lace) and states in-house fabric making with Austrian production on many pages — but no factory is named and most garment pages give no country. 3.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-14): NONE (TENCEL™, Pima and Giza cotton are licensed or named fibres, not house fabrics). Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 3 (2026-10-14): A 140-year house, dated and placed, that describes its process (mercerisation, hand-sewn lace) and states in-house fabric making with Austrian production on many pages — but no factory is named and most garment pages give no country. 3. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "screen"
 }

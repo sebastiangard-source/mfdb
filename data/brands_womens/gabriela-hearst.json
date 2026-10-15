@@ -180,5 +180,68 @@
   "domain": "gabrielahearst.com"
  },
  "depts": 3,
+ "garment_links": {
+  "Blouse": "https://gabrielahearst.com/collections/tops",
+  "Sweater": "https://gabrielahearst.com/collections/sweaters",
+  "Jeans": "https://gabrielahearst.com/collections/denim",
+  "Trousers": "https://gabrielahearst.com/collections/pants",
+  "Dress": "https://gabrielahearst.com/collections/dresses",
+  "Outerwear": "https://gabrielahearst.com/collections/jackets-and-coats",
+  "Shoes": "https://gabrielahearst.com/collections/shoes"
+ },
+ "fabric": {
+  "denim": 3,
+  "cashmere": 3,
+  "linen": 3,
+  "cotton": 3,
+  "wool": 3,
+  "synth": 2,
+  "silk": 4
+ },
+ "fibre": {
+  "t": 293,
+  "w": 80,
+  "n_pct": 95,
+  "s_pct": 1,
+  "c_pct": 0,
+  "spandex": 1,
+  "sp": "one",
+  "sample": "stratified sample of 81 of 293 women's RTW styles, proportional by garment group (house product types, with 171 untyped products typed from the title); census f",
+  "st": "read"
+ },
+ "focus": {
+  "tech": 2,
+  "craft": 4,
+  "comfort": 3,
+  "style": 4
+ },
+ "tech_evidence": {
+  "names": "Aloe Linen (aloe-treated linen); a silver-thread lining against phone radiation (unnamed, 2017)",
+  "owned": "house-introduced finishes; mills not named",
+  "share": "aloe linen on ~4 of 81 sampled styles",
+  "u": "https://gabrielahearst.com/products/navi-puff-sleeve-dress-ivory-aloe-linen",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "partial — wool from 'her family's six-generation merino sheep farm in Uruguay' for some suiting (2018); garments made by third parties, mostly in Italy (/pages/sustainability)",
+  "makers": "yes — Manos del Uruguay, a women's non-profit cooperative, hand-knits the brand's hand-knits (since 2015; named on PDPs, e.g. the Lawrence sweater); a 'family-run atelier' in Italy for recycled-fur co",
+  "mills": "none by name; deadstock, GRS-recycled cashmere, Sea Island cotton from Barbados, 'woven in China, finished in Italy' on some pages",
+  "madein": "73 of 81 sampled pages state a country (Italy 69, Uruguay 2, China 2)",
+  "heritage": "dated — first womenswear collection Fall/Winter 2015; Manos del Uruguay partnership since 2015 (/pages/sustainability)",
+  "process": "yes — year-by-year sustainability timeline: deadstock shares per collection (60% SS21, 97% of wovens SS26), hand-knitting by the cooperative, own-farm merino suiting, EON digital traceability (2020), ",
+  "urls": [
+   "https://gabrielahearst.com/pages/sustainability",
+   "https://gabrielahearst.com/products/lawrence-knit-sweater-bordeaux-welfat-cashmere-new"
+  ],
+  "proposed": 4,
+  "reasoning": "Country of make on 90% of product pages, a named maker for the hand-knits (Manos del Uruguay, since 2015), wool from the founder's family farm and a dated, specific process record. The garment factories themselves are unnamed and not owned, which keeps it from a 5. 4.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 2 (2026-10-14): Aloe Linen (aloe-treated linen); a silver-thread lining against phone radiation (unnamed, 2017). Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 4 (2026-10-14): Country of make on 90% of product pages, a named maker for the hand-knits (Manos del Uruguay, since 2015), wool from the founder's family farm and a dated, specific process record. The garment factories themselves are unnamed and not owned, which keeps it from a 5. 4. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "screen"
 }

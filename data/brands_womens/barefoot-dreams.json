@@ -150,5 +150,67 @@
   "domain": "barefootdreams.com"
  },
  "depts": 6,
+ "garment_links": {
+  "T-shirt": "https://www.barefootdreams.com/collections/tees-tanks",
+  "Blouse": "https://www.barefootdreams.com/collections/tees-tanks",
+  "Sweater": "https://www.barefootdreams.com/collections/women-pullovers",
+  "Trousers": "https://www.barefootdreams.com/collections/bottoms",
+  "Dress": "https://www.barefootdreams.com/collections/dresses",
+  "Outerwear": "https://www.barefootdreams.com/collections/women-cardigans-jackets"
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 2,
+  "wool": 1,
+  "synth": 5,
+  "silk": 1
+ },
+ "fibre": {
+  "t": 308,
+  "w": 52,
+  "n_pct": 2,
+  "s_pct": 62,
+  "c_pct": 0,
+  "spandex": 0,
+  "sp": "one",
+  "sample": "stratified sample of 80 across 7 women's collections, proportional; 308 styles from 318 clothing listings in /collections/women (373; accessories, slippers and ",
+  "st": "partial"
+ },
+ "focus": {
+  "tech": 2,
+  "craft": 1,
+  "comfort": 5,
+  "style": 1
+ },
+ "tech_evidence": {
+  "names": "CozyChic®, CozyChic Lite®, CozyChic Ultra Lite®, Luxe Milk Jersey®, ButterChic, CozyChic Cotton (house trademarked knits)",
+  "owned": "owned trademarks for house knits; fibre content given per family, not per product",
+  "share": "65% of sample (52 of 80) in a CozyChic family",
+  "u": "https://www.barefootdreams.com/collections/women",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "makers": "no",
+  "mills": "no",
+  "madein": "0% ('Imported' on 79 of 80)",
+  "heritage": "dated and placed — founded 1994 in Malibu, California, as a children's line; 'over the last 30 years'",
+  "process": "no",
+  "urls": [
+   "https://www.barefootdreams.com/pages/about-us",
+   "https://www.barefootdreams.com/products/cozychic-lite-patch-pocket-long-pant"
+  ],
+  "proposed": 1,
+  "reasoning": "Every sampled product says only 'Imported'. The about page gives the founding story (1994, Malibu) and philanthropy, not making, and no maker, place or mill is named, so it's a 1.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 2 (2026-10-14): CozyChic®, CozyChic Lite®, CozyChic Ultra Lite®, Luxe Milk Jersey®, ButterChic, CozyChic Cotton (house trademarked knits). Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 1 (2026-10-14): Every sampled product says only 'Imported'. The about page gives the founding story (1994, Malibu) and philanthropy, not making, and no maker, place or mill is named, so it's a 1. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "womens"
 }

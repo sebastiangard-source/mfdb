@@ -165,5 +165,68 @@
   "domain": "kallmeyer.nyc"
  },
  "depts": 0,
+ "garment_links": {
+  "T-shirt": "https://kallmeyer.nyc/collections/tops",
+  "Blouse": "https://kallmeyer.nyc/collections/tops",
+  "Sweater": "https://kallmeyer.nyc/collections/knitwear",
+  "Jeans": "https://kallmeyer.nyc/collections/denim",
+  "Trousers": "https://kallmeyer.nyc/collections/bottoms",
+  "Dress": "https://kallmeyer.nyc/collections/dresses",
+  "Outerwear": "https://kallmeyer.nyc/collections/jacket-outerwear"
+ },
+ "fabric": {
+  "denim": 3,
+  "cashmere": 1,
+  "linen": 2,
+  "cotton": 4,
+  "wool": 3,
+  "synth": 1,
+  "silk": 2
+ },
+ "fibre": {
+  "t": 184,
+  "w": 79,
+  "n_pct": 65,
+  "s_pct": 0,
+  "c_pct": 34,
+  "spandex": 6,
+  "sp": "one",
+  "sample": "stratified sample of 80 across 10 product types, proportional; 184 styles from 335 clothing records in /collections/all/products.json (417 total; belts, bags, g",
+  "st": "read"
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 2,
+  "comfort": 3,
+  "style": 4
+ },
+ "tech_evidence": {
+  "names": "NONE (one jacket in 'Weatherproof Twill', a cloth description, no named fabric)",
+  "owned": "",
+  "share": "0",
+  "u": "https://kallmeyer.nyc/products/lottie-jacket-in-weatherproof-twill",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "no owned facility claimed; most of the range is stated 'Made in New York' (maker not named); 'responsible manufacturing' on the about page",
+  "makers": "no",
+  "mills": "no ('European Flax certified' linen on one skirt; no mill)",
+  "madein": "100% (80 of 80 sampled: New York 50, Italy 14, Portugal 9, Morocco 6, Bulgaria 1)",
+  "heritage": "dated and placed — launched 2012 by Daniella Kallmeyer; Lower East Side flagship opened 2019",
+  "process": "no",
+  "urls": [
+   "https://kallmeyer.nyc/pages/about-us-sub",
+   "https://kallmeyer.nyc/products/dkpf262042-bayla-shirt-dress-starched-poplin-ivory"
+  ],
+  "proposed": 2,
+  "reasoning": "Every product page states where it was made, and most of the range says New York, with knits from Italy, denim from Portugal and leather from Morocco. No factory, maker or mill is named and the brand owns no making. A complete, specific country-and-city statement is still a 2; naming the New York makers would make it a 3.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-14): NONE (one jacket in 'Weatherproof Twill', a cloth description, no named fabric). Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 2 (2026-10-14): Every product page states where it was made, and most of the range says New York, with knits from Italy, denim from Portugal and leather from Morocco. No factory, maker or mill is named and the brand owns no making. A complete, specific country-and-city statement is still a 2; naming the New York ma Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "screen"
 }

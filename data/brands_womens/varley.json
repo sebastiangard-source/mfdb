@@ -193,5 +193,67 @@
   "domain": "varley.com"
  },
  "depts": 6,
+ "garment_links": {
+  "T-shirt": "https://www.varley.com/collections/tees",
+  "Sweater": "https://www.varley.com/collections/knitwear-and-sweaters",
+  "Trousers": "https://www.varley.com/collections/pants-trousers",
+  "Dress": "https://www.varley.com/collections/dresses",
+  "Outerwear": "https://www.varley.com/collections/outerwear",
+  "Shoes": "https://www.varley.com/collections/shoes"
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 3,
+  "wool": 1,
+  "synth": 5,
+  "silk": 1
+ },
+ "fibre": {
+  "t": 669,
+  "w": 80,
+  "n_pct": 19,
+  "s_pct": 42,
+  "c_pct": 39,
+  "spandex": 38,
+  "sp": "split",
+  "sample": "stratified sample of 80 of 669 clothing styles, proportional by the house's cat_ tag; census from vvarley.myshopify.com/products.json (806 products; www.varley.",
+  "st": "read"
+ },
+ "focus": {
+  "tech": 3,
+  "craft": 1,
+  "comfort": 5,
+  "style": 2
+ },
+ "tech_evidence": {
+  "names": "DoubleSoft®",
+  "owned": "owned (house trademark, sold as its own collection)",
+  "share": "18% (124 of 669 styles carry the DoubleSoft collection tag; 14 of 80 sampled)",
+  "u": "https://www.varley.com/collections/double-soft",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "no — none claimed (https://www.varley.com/pages/about-us)",
+  "makers": "none — 0 of 80 sampled product pages name a maker",
+  "mills": "none — fibre brands only (Dupont Sorona fill, Lycra); no mill named",
+  "madein": "8 of 80 sampled product pages (10%) state a country, all Portugal; the rest state none",
+  "heritage": "dated, loosely placed — 'Founded by Lara and Ben Mead in 2014'; offices in London, Los Angeles and New York; no place of making",
+  "process": "no",
+  "urls": [
+   "https://www.varley.com/pages/about-us",
+   "https://www.varley.com/products/cambria-skirt"
+  ],
+  "proposed": 1,
+  "reasoning": "The about page dates the founding (2014) and names the founders but says nothing about where or by whom the clothes are made. Only 8 of 80 sampled product pages state a country (Portugal), no maker or mill is named, and the 'Our Partners' page rendered no content to a read. Nothing checkable on making.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 3 (2026-10-14): DoubleSoft®. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 1 (2026-10-14): The about page dates the founding (2014) and names the founders but says nothing about where or by whom the clothes are made. Only 8 of 80 sampled product pages state a country (Portugal), no maker or mill is named, and the 'Our Partners' page rendered no content to a read. Nothing checkable on maki Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "womens"
 }

@@ -144,5 +144,66 @@
   "domain": "guestinresidence.com"
  },
  "depts": 5,
+ "garment_links": {
+  "Sweater": "https://guestinresidence.com/collections/womens-sweaters",
+  "Jeans": "https://guestinresidence.com/pages/denim-world",
+  "Trousers": "https://guestinresidence.com/collections/bottoms-womens",
+  "Dress": "https://guestinresidence.com/collections/dresses",
+  "Outerwear": "https://guestinresidence.com/collections/outerwear-women"
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 5,
+  "linen": 2,
+  "cotton": 3,
+  "wool": 3,
+  "synth": 1,
+  "silk": 2
+ },
+ "fibre": {
+  "t": 102,
+  "w": 71,
+  "n_pct": 96,
+  "s_pct": 0,
+  "c_pct": 1,
+  "spandex": 0,
+  "sp": "one",
+  "sample": "stratified sample drawn from /products.json (397 products, unisex store; blankets, scarves, hats, socks excluded), proportional by product type; 7 sampled style",
+  "st": "read"
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 3,
+  "comfort": 5,
+  "style": 3
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0%",
+  "u": "https://guestinresidence.com/products/cozy-crew-reservoir",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "no — 'most of Guest In Residence's products are manufactured in China by Draper HK at its Dongguan Cason Knitted Company Limited factory' (/pages/our-ethics)",
+  "makers": "yes — Draper HK, Dongguan Cason Knitted Company Limited factory (Sedex member) (/pages/our-ethics); Re.Verso (Italy) for take-back recycling",
+  "mills": "none; cashmere 'sourced from Inner Mongolia', Sustainable Fibre Alliance member",
+  "madein": "39 of 73 sampled descriptions say 'manufactured in China' (100% cashmere pieces); blends and denim state none",
+  "heritage": "founded 2022 in New York by Gigi Hadid (/pages/discover-gir)",
+  "process": "partial — fibre origin (Inner Mongolia), SFA membership, supplier audits and a take-back to Re.Verso regenerated cashmere; no description of making",
+  "urls": [
+   "https://guestinresidence.com/pages/our-ethics",
+   "https://guestinresidence.com/products/cozy-crew-reservoir"
+  ],
+  "proposed": 3,
+  "reasoning": "Names the factory that makes most of the range (Draper HK's Dongguan Cason Knitted, China) and the fibre origin, and over half of sampled pages say where the piece was made. Third-party making, a four-year-old brand: 3.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-14): no named fabric. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 3 (2026-10-14): Names the factory that makes most of the range (Draper HK's Dongguan Cason Knitted, China) and the fibre origin, and over half of sampled pages say where the piece was made. Third-party making, a four-year-old brand: 3. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "screen"
 }

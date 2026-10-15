@@ -179,5 +179,68 @@
   "domain": "ullajohnson.com"
  },
  "depts": 4,
+ "garment_links": {
+  "Blouse": "https://ullajohnson.com/collections/tops",
+  "Sweater": "https://ullajohnson.com/collections/knits-and-sweatshirts",
+  "Jeans": "https://ullajohnson.com/collections/denim",
+  "Trousers": "https://ullajohnson.com/collections/pants-and-jumpsuits",
+  "Dress": "https://ullajohnson.com/collections/dresses",
+  "Outerwear": "https://ullajohnson.com/collections/coats-and-jackets",
+  "Shoes": "https://ullajohnson.com/collections/shoes"
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 1,
+  "linen": 2,
+  "cotton": 4,
+  "wool": 3,
+  "synth": 3,
+  "silk": 4
+ },
+ "fibre": {
+  "t": 456,
+  "w": 80,
+  "n_pct": 66,
+  "s_pct": 11,
+  "c_pct": 22,
+  "spandex": 8,
+  "sp": "one",
+  "sample": "stratified sample of 80 of 456 women's RTW styles, proportional by product type (upper-case legacy types merged); census from /products.json (868 products) less",
+  "st": "read"
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 1,
+  "comfort": 3,
+  "style": 4
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0%",
+  "u": "https://ullajohnson.com/products/the-stretch-lou-jean-noir",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "no — none claimed",
+  "makers": "none for clothing ('crafted by Nippon Kodo' is an incense)",
+  "mills": "none; fabric origin on some descriptions ('Italian-made lace', 'Italian-made lamé', 'Italian-made lurex jacquard')",
+  "madein": "2 of 80 clothing styles state where made (a knit skirt 'Made in Italy', a denim jacket 'handcrafted in Los Angeles'); 'M",
+  "heritage": "founded 1999 in New York by Ulla Johnson (/pages/about)",
+  "process": "no — 'attention to the details of construction', 'foundation of natural fibers' (/pages/about); no makers or places for the clothing",
+  "urls": [
+   "https://ullajohnson.com/pages/about",
+   "https://ullajohnson.com/products/the-sybil-denim-jacket-umber"
+  ],
+  "proposed": 1,
+  "reasoning": "Dated house, Italian fabric origin on a handful of pieces and LA-made denim, but under 3% of sampled clothing says where it was made and no maker is named. 1 (a 2 if fabric origin counts).",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-14): no named fabric. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 1 (2026-10-14): Dated house, Italian fabric origin on a handful of pieces and LA-made denim, but under 3% of sampled clothing says where it was made and no maker is named. 1 (a 2 if fabric origin counts). Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "womens"
 }

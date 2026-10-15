@@ -189,5 +189,69 @@
   "domain": "stellamccartney.com"
  },
  "depts": 5,
+ "garment_links": {
+  "T-shirt": "https://www.stellamccartney.com/us/en/women/ready-to-wear/sweatshirts-and-t-shirts",
+  "Blouse": "https://www.stellamccartney.com/us/en/women/ready-to-wear/shirts-and-tops",
+  "Sweater": "https://www.stellamccartney.com/us/en/women/ready-to-wear/knitwear",
+  "Jeans": "https://www.stellamccartney.com/us/en/women/ready-to-wear/denim",
+  "Trousers": "https://www.stellamccartney.com/us/en/women/ready-to-wear/pants",
+  "Dress": "https://www.stellamccartney.com/us/en/women/ready-to-wear/dresses",
+  "Outerwear": "https://www.stellamccartney.com/us/en/women/ready-to-wear/coats-and-jackets",
+  "Shoes": "https://www.stellamccartney.com/us/en/women/shoes"
+ },
+ "fabric": {
+  "denim": 3,
+  "cashmere": 2,
+  "linen": 1,
+  "cotton": 4,
+  "wool": 3,
+  "synth": 2,
+  "silk": 2
+ },
+ "fibre": {
+  "t": 348,
+  "w": 71,
+  "n_pct": 56,
+  "s_pct": 1,
+  "c_pct": 31,
+  "spandex": null,
+  "sp": "one",
+  "sample": "stratified sample of 80 across 12 derived categories, proportional; 348 styles from the 377 products the Women > Ready-to-wear grid states (all 8 pages read); 9",
+  "st": "partial"
+ },
+ "focus": {
+  "tech": 2,
+  "craft": 2,
+  "comfort": 3,
+  "style": 5
+ },
+ "tech_evidence": {
+  "names": "Brewed Protein (Spiber, licensed; one knit); 'technical polyamide blend' named on a bomber without a trademark",
+  "owned": "licensed (Spiber Brewed Protein)",
+  "share": "about 1% (1 of 80 sampled)",
+  "u": "https://www.stellamccartney.com/us/en/women/ready-to-wear/shawl-collar-spiber-knit-jumper-6K13013S26719200.html",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "no — supplier policies and an Ethical Trading Initiative membership are published, but no owned facility",
+  "makers": "no — PDPs state country only",
+  "mills": "no — PDPs name certifications (RWS, GOTS, CanopyStyle) not mills",
+  "madein": "94% (75 of 80 sampled: Italy 41, Romania 15, Portugal 9, Hungary 7, Bulgaria 3)",
+  "heritage": "dated and placed — house launched 2001, first collection shown in Paris that October",
+  "process": "materials, not making — sustainability statement and per-PDP sourcing notes; no garment-making process",
+  "urls": [
+   "https://www.stellamccartney.com/us/en/stellas-world/about-stella-mccartney.html",
+   "https://www.stellamccartney.com/us/en/sustainability/social-sustainability.html"
+  ],
+  "proposed": 2,
+  "reasoning": "Product pages state a country (mostly Italy, then Romania, Portugal, Hungary) and the founding is dated (2001, Paris). The brand documents fibre sourcing in detail but names no factory, maker or mill and owns no making, so on craft as briefed it is a 2.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 2 (2026-10-14): Brewed Protein (Spiber, licensed; one knit); 'technical polyamide blend' named on a bomber without a trademark. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 2 (2026-10-14): Product pages state a country (mostly Italy, then Romania, Portugal, Hungary) and the founding is dated (2001, Paris). The brand documents fibre sourcing in detail but names no factory, maker or mill and owns no making, so on craft as briefed it is a 2. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "womens"
 }

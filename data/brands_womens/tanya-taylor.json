@@ -170,5 +170,68 @@
   "domain": "tanyataylor.com"
  },
  "depts": 4,
+ "garment_links": {
+  "T-shirt": "https://tanyataylor.com/collections/tops",
+  "Blouse": "https://tanyataylor.com/collections/tops",
+  "Sweater": "https://tanyataylor.com/collections/knits",
+  "Jeans": "https://tanyataylor.com/collections/denim",
+  "Trousers": "https://tanyataylor.com/collections/bottoms",
+  "Dress": "https://tanyataylor.com/collections/dresses",
+  "Outerwear": "https://tanyataylor.com/collections/outerwear"
+ },
+ "fabric": {
+  "denim": 3,
+  "cashmere": 2,
+  "linen": 2,
+  "cotton": 4,
+  "wool": 2,
+  "synth": 4,
+  "silk": 2
+ },
+ "fibre": {
+  "t": 350,
+  "w": 79,
+  "n_pct": 62,
+  "s_pct": 24,
+  "c_pct": 12,
+  "spandex": 14,
+  "sp": "one",
+  "sample": "stratified sample of 80 across 7 product types (PANT and SHORTS folded into PANTS), proportional; 350 styles from 513 clothing listings in /products.json (548 t",
+  "st": "read"
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 1,
+  "comfort": 3,
+  "style": 3
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0",
+  "u": "https://tanyataylor.com/collections/all",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "makers": "no",
+  "mills": "no",
+  "madein": "0% on the page (the store's tags carry a country on 70 of 80 sampled: China 52, India 10, Portugal 8; product pages show",
+  "heritage": "placed — New York-based; flagship stores in New York City and Greenwich; founding year not on the pages read",
+  "process": "no (prints described as 'original hand-painted'; no making process)",
+  "urls": [
+   "https://www.tanyataylor.com/pages/about-tt",
+   "https://tanyataylor.com/products/brielle-top-dark-fig-swan"
+  ],
+  "proposed": 1,
+  "reasoning": "Product pages state no country and no maker; the country exists only in hidden store tags (mostly China). The about and values pages cover hand-painted prints, stores and charity partnerships, not making, so it's a 1.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-14): no named fabric. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 1 (2026-10-14): Product pages state no country and no maker; the country exists only in hidden store tags (mostly China). The about and values pages cover hand-painted prints, stores and charity partnerships, not making, so it's a 1. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "screen"
 }

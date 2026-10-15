@@ -174,5 +174,67 @@
   "domain": "oscardelarenta.com"
  },
  "depts": 5,
+ "garment_links": {
+  "Blouse": "https://www.oscardelarenta.com/collections/blouses-knits",
+  "Sweater": "https://www.oscardelarenta.com/collections/blouses-knits",
+  "Jeans": "https://www.oscardelarenta.com/collections/pants-skirts",
+  "Trousers": "https://www.oscardelarenta.com/collections/pants-skirts",
+  "Dress": "https://www.oscardelarenta.com/collections/dresses-1",
+  "Outerwear": "https://www.oscardelarenta.com/collections/jackets-coats"
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 4,
+  "wool": 4,
+  "synth": 4,
+  "silk": 4
+ },
+ "fibre": {
+  "t": 396,
+  "w": 80,
+  "n_pct": 66,
+  "s_pct": 31,
+  "c_pct": 2,
+  "spandex": 24,
+  "sp": "one",
+  "sample": "stratified sample of 80 of 396 ready-to-wear styles, proportional by product type (108 untyped clothing products included as their own stratum); census from /pr",
+  "st": "read"
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 2,
+  "comfort": 2,
+  "style": 5
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0%",
+  "u": "https://www.oscardelarenta.com/products/cotton-stretch-twill-pant-27sn320srn-wht",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "claimed — 'New York City atelier and the finest workrooms in Europe' (/pages/about-us); not named, placed beyond the city, or shown",
+  "makers": "none",
+  "mills": "none",
+  "madein": "0 of 80 sampled product pages state a country",
+  "heritage": "dated — 'Founded in 1965' (/pages/about-us)",
+  "process": "partial — 'every design begins with a detailed sketch … before passing through scores of expert hands', to 'the standards of European couture houses'; no specifics",
+  "urls": [
+   "https://www.oscardelarenta.com/pages/about-us",
+   "https://www.oscardelarenta.com/products/beaded-peony-embroidered-pullover-26fe188bdp-mlg"
+  ],
+  "proposed": 2,
+  "reasoning": "The house dates itself (1965) and claims a New York atelier and European workrooms, but names none of them, and no product page states a country, maker or mill. A dated claim of atelier making without anything to check behind it is a 2.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-14): no named fabric. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 2 (2026-10-14): The house dates itself (1965) and claims a New York atelier and European workrooms, but names none of them, and no product page states a country, maker or mill. A dated claim of atelier making without anything to check behind it is a 2. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "womens"
 }

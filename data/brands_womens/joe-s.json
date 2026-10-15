@@ -164,5 +164,68 @@
   "domain": "joesjeans.com"
  },
  "depts": 7,
+ "garment_links": {
+  "T-shirt": "https://www.joesjeans.com/collections/women-ready-to-wear-tees-tanks",
+  "Blouse": "https://www.joesjeans.com/collections/women-ready-to-wear-shirts",
+  "Sweater": "https://www.joesjeans.com/collections/women-ready-to-wear-sweaters",
+  "Jeans": "https://www.joesjeans.com/collections/women-denim",
+  "Trousers": "https://www.joesjeans.com/collections/women-ready-to-wear-pants-trousers",
+  "Dress": "https://www.joesjeans.com/collections/women-ready-to-wear-skirts-dresses",
+  "Outerwear": "https://www.joesjeans.com/collections/women-ready-to-wear-jackets"
+ },
+ "fabric": {
+  "denim": 4,
+  "cashmere": 2,
+  "linen": 2,
+  "cotton": 5,
+  "wool": 2,
+  "synth": 3,
+  "silk": 1
+ },
+ "fibre": {
+  "t": 289,
+  "w": 79,
+  "n_pct": 74,
+  "s_pct": 19,
+  "c_pct": 6,
+  "spandex": 16,
+  "sp": "one",
+  "sample": "stratified sample of 80 across 11 derived categories, proportional; 289 styles from 557 products in women-denim + women-ready-to-wear feeds; category from the h",
+  "st": "read"
+ },
+ "focus": {
+  "tech": 3,
+  "craft": 1,
+  "comfort": 4,
+  "style": 2
+ },
+ "tech_evidence": {
+  "names": "Weightless, Comfort Stretch, Super Stretch (house-named denim fabric families, each with its own collection)",
+  "owned": "own names for sourced denims",
+  "share": "about 29% (Weightless 46 + Comfort Stretch 19 + Super Stretch 19 titles of 289 styles; some overlap)",
+  "u": "https://www.joesjeans.com/collections/women-denim-fabric-weightless",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "makers": "no",
+  "mills": "no",
+  "madein": "0% (no country in the feed body or on sampled PDPs)",
+  "heritage": "dated and placed — 'Founded in 2001 by Creative Director Joe Dahan, Los Angeles-based'",
+  "process": "no (wash names and fit specs only)",
+  "urls": [
+   "https://www.joesjeans.com/pages/about-us",
+   "https://www.joesjeans.com/products/the-mia-wide-leg-32-undertow"
+  ],
+  "proposed": 1,
+  "reasoning": "Product pages give composition and fit but no country, maker or mill, and the about page says only Los Angeles-based since 2001, about design, not making. Nothing checkable about making: 1.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 3 (2026-10-14): Weightless, Comfort Stretch, Super Stretch (house-named denim fabric families, each with its own collection). Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 1 (2026-10-14): Product pages give composition and fit but no country, maker or mill, and the about page says only Los Angeles-based since 2001, about design, not making. Nothing checkable about making: 1. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "screen"
 }

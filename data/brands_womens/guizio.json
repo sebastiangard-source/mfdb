@@ -190,5 +190,69 @@
   "domain": "danielleguiziony.com"
  },
  "depts": 3,
+ "garment_links": {
+  "T-shirt": "https://danielleguiziony.com/collections/tees",
+  "Blouse": "https://danielleguiziony.com/collections/tops",
+  "Sweater": "https://danielleguiziony.com/collections/sweaters",
+  "Jeans": "https://danielleguiziony.com/collections/denim",
+  "Trousers": "https://danielleguiziony.com/collections/pants",
+  "Dress": "https://danielleguiziony.com/collections/dresses",
+  "Outerwear": "https://danielleguiziony.com/collections/outerwear",
+  "Shoes": "https://danielleguiziony.com/collections/shoes"
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 1,
+  "linen": 2,
+  "cotton": 3,
+  "wool": 2,
+  "synth": 5,
+  "silk": 1
+ },
+ "fibre": {
+  "t": 469,
+  "w": 78,
+  "n_pct": 21,
+  "s_pct": 59,
+  "c_pct": 18,
+  "spandex": 34,
+  "sp": "split",
+  "sample": "stratified sample of 80 of 469 women's clothing styles, proportional by product type (case variants merged; corset tops and tees pooled with tops, skorts with s",
+  "st": "read"
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 1,
+  "comfort": 3,
+  "style": 4
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0%",
+  "u": "https://danielleguiziony.com/products/lana-ribbed-top-gunmetal",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "no — none claimed",
+  "makers": "none",
+  "mills": "none",
+  "madein": "0 of 80 sampled (3 of 1,030 products store-wide say 'Made in')",
+  "heritage": "founded 2014 in New York by Danielle Guizio (/pages/about-us)",
+  "process": "no",
+  "urls": [
+   "https://danielleguiziony.com/pages/about-us",
+   "https://danielleguiziony.com/products/marini-corset-top-grey-pinstripe"
+  ],
+  "proposed": 1,
+  "reasoning": "Dated founder story; nothing on who makes the clothes or where. 1.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-14): no named fabric. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 1 (2026-10-14): Dated founder story; nothing on who makes the clothes or where. 1. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "screen"
 }

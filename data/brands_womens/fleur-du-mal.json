@@ -160,5 +160,67 @@
   "domain": "fleurdumal.com"
  },
  "depts": 3,
+ "garment_links": {
+  "T-shirt": "https://fleurdumal.com/collections/tops",
+  "Blouse": "https://fleurdumal.com/collections/tops",
+  "Sweater": "https://fleurdumal.com/collections/knitwear",
+  "Trousers": "https://fleurdumal.com/collections/pants",
+  "Dress": "https://fleurdumal.com/collections/dresses",
+  "Outerwear": "https://fleurdumal.com/collections/outerwear"
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 2,
+  "linen": 1,
+  "cotton": 4,
+  "wool": 1,
+  "synth": 4,
+  "silk": 3
+ },
+ "fibre": {
+  "t": 237,
+  "w": 81,
+  "n_pct": 57,
+  "s_pct": 21,
+  "c_pct": 22,
+  "spandex": 33,
+  "sp": "one",
+  "sample": "stratified sample of 81 of 237 women's clothing styles, proportional by product type (Dresses, Tops, Camis & Tanks, Skirts, pants, Shorts, Coat, Activewear, etc",
+  "st": "read"
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 1,
+  "comfort": 3,
+  "style": 4
+ },
+ "tech_evidence": {
+  "names": "NONE — 'Butter' (micro modal/elastane jersey) is a product-line name, not a technical fabric",
+  "owned": "",
+  "share": "0%",
+  "u": "https://fleurdumal.com/products/butter-long-sleeve-tee-bisou",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "no — none claimed",
+  "makers": "none",
+  "mills": "none",
+  "madein": "0 of 81 state a country",
+  "heritage": "founded 2012 by Jennifer Zuccarini (/pages/about-us)",
+  "process": "no",
+  "urls": [
+   "https://fleurdumal.com/pages/about-us",
+   "https://fleurdumal.com/products/silk-v-slip-dress-wild-pink"
+  ],
+  "proposed": 1,
+  "reasoning": "Founder and founding year are given, nothing about where or by whom anything is made; no country on product pages. 1.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-14): NONE — 'Butter' (micro modal/elastane jersey) is a product-line name, not a technical fabric. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 1 (2026-10-14): Founder and founding year are given, nothing about where or by whom anything is made; no country on product pages. 1. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "screen"
 }

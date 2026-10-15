@@ -184,5 +184,67 @@
   "domain": "cultgaia.com"
  },
  "depts": 4,
+ "garment_links": {
+  "Sweater": "https://cultgaia.com/collections/sweaters",
+  "Jeans": "https://cultgaia.com/collections/denim",
+  "Trousers": "https://cultgaia.com/collections/pants",
+  "Dress": "https://cultgaia.com/collections/dresses",
+  "Outerwear": "https://cultgaia.com/collections/outerwear",
+  "Shoes": "https://cultgaia.com/collections/shoes"
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 1,
+  "linen": 2,
+  "cotton": 3,
+  "wool": 3,
+  "synth": 4,
+  "silk": 3
+ },
+ "fibre": {
+  "t": 504,
+  "w": 73,
+  "n_pct": 36,
+  "s_pct": 20,
+  "c_pct": 34,
+  "spandex": 10,
+  "sp": "one",
+  "sample": "stratified sample of 80 of 504 women's clothing styles, proportional by garment word in the title; census from /products.json (1,451 products; product types CLO",
+  "st": "read"
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 1,
+  "comfort": 2,
+  "style": 5
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0%",
+  "u": "https://cultgaia.com/products/taraji-top-celadon",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "no — none claimed",
+  "makers": "none",
+  "mills": "none (Eastman Naia Renew™ named as a fibre on one dress)",
+  "madein": "0 of 80 sampled product pages state a country",
+  "heritage": "NC — /pages/about-us returned no founding text to a read (an inquiry form only)",
+  "process": "no",
+  "urls": [
+   "https://cultgaia.com/pages/about-us",
+   "https://cultgaia.com/products/dedee-dress-off-white"
+  ],
+  "proposed": 1,
+  "reasoning": "No product page in the sample names a country, maker or mill, and the brand pages read carry nothing about making. Nothing checkable.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-14): no named fabric. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 1 (2026-10-14): No product page in the sample names a country, maker or mill, and the brand pages read carry nothing about making. Nothing checkable. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "womens"
 }

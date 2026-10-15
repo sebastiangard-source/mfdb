@@ -206,5 +206,69 @@
   "domain": "lagence.com"
  },
  "depts": 5,
+ "garment_links": {
+  "T-shirt": "https://lagence.com/collections/tees",
+  "Blouse": "https://lagence.com/collections/blouses-tops",
+  "Sweater": "https://lagence.com/collections/knitwear",
+  "Jeans": "https://lagence.com/collections/jeans",
+  "Trousers": "https://lagence.com/collections/pants",
+  "Dress": "https://lagence.com/collections/dresses-jumpsuits",
+  "Outerwear": "https://lagence.com/collections/outerwear",
+  "Shoes": "https://lagence.com/collections/shoes"
+ },
+ "fabric": {
+  "denim": 3,
+  "cashmere": 1,
+  "linen": 2,
+  "cotton": 4,
+  "wool": 2,
+  "synth": 5,
+  "silk": 2
+ },
+ "fibre": {
+  "t": 728,
+  "w": 79,
+  "n_pct": 45,
+  "s_pct": 40,
+  "c_pct": 14,
+  "spandex": 23,
+  "sp": "one",
+  "sample": "stratified sample of 80 of 728 clothing styles, proportional by product type; census from /products.json (1,854 products incl. 176 shoes, 158 swim, belts, brale",
+  "st": "read"
+ },
+ "focus": {
+  "tech": 2,
+  "craft": 2,
+  "comfort": 3,
+  "style": 3
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0%",
+  "u": "https://lagence.com/products/selma-embellished-bootcut-jean-begonia",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "no — none claimed on /pages/about",
+  "makers": "none",
+  "mills": "none (fibre brands only: Repreve, Tencel)",
+  "madein": "80 of 80 sampled product pages state an origin: 72 'Imported', 8 'Made in Los Angeles' (denim, tees, one dress) — a city",
+  "heritage": "dated — 'Founded in 2008 by … Jeff Rudes' (/pages/about); no place of making",
+  "process": "no",
+  "urls": [
+   "https://lagence.com/pages/about",
+   "https://lagence.com/products/selma-coated-bootcut-jean-java-coated"
+  ],
+  "proposed": 2,
+  "reasoning": "Denim and jersey pages say 'Made in Los Angeles' (8 of 80 sampled) and the rest 'Imported'; the founding is dated but no factory, maker or mill is named anywhere read. A place on part of the range and little else.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 2 (2026-10-14): no named fabric. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 2 (2026-10-14): Denim and jersey pages say 'Made in Los Angeles' (8 of 80 sampled) and the rest 'Imported'; the founding is dated but no factory, maker or mill is named anywhere read. A place on part of the range and little else. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "womens"
 }

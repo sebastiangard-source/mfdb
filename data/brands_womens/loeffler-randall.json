@@ -190,5 +190,69 @@
   "domain": "loefflerrandall.com"
  },
  "depts": 0,
+ "garment_links": {
+  "T-shirt": "https://www.loefflerrandall.com/collections/tops",
+  "Blouse": "https://www.loefflerrandall.com/collections/tops",
+  "Sweater": "https://www.loefflerrandall.com/collections/sweaters-knits",
+  "Jeans": "https://www.loefflerrandall.com/collections/denim",
+  "Trousers": "https://www.loefflerrandall.com/collections/bottoms",
+  "Dress": "https://www.loefflerrandall.com/collections/dresses",
+  "Outerwear": "https://www.loefflerrandall.com/collections/outerwear",
+  "Shoes": "https://www.loefflerrandall.com/collections/footwear"
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 2,
+  "linen": 2,
+  "cotton": 5,
+  "wool": 3,
+  "synth": 2,
+  "silk": 2
+ },
+ "fibre": {
+  "t": 119,
+  "w": 79,
+  "n_pct": 91,
+  "s_pct": 6,
+  "c_pct": 1,
+  "spandex": 2,
+  "sp": "one",
+  "sample": "stratified sample of 80 of 119 women's clothing styles, proportional by product type (spelling variants merged: Top/Tops, Bottom/Bottoms, Dress/Dresses, Outerwe",
+  "st": "read"
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 1,
+  "comfort": 3,
+  "style": 3
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0%",
+  "u": "https://www.loefflerrandall.com/products/billy-butter-brown-short",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "no — SoHo design office (588 Broadway) and stores; 'factory technicians' mentioned, no factory named (/pages/about)",
+  "makers": "none",
+  "mills": "none",
+  "madein": "0 of 80 clothing pages state a country",
+  "heritage": "founded 2004 in Cobble Hill by Jessie and Brian Randall, family-owned (/pages/about)",
+  "process": "partial, for shoes only — '28 steps' and '400 pleats' in the Penny heel, 40 hand mock-ups a season, 3 fittings per style; nothing on how the clothing is made",
+  "urls": [
+   "https://www.loefflerrandall.com/pages/about",
+   "https://www.loefflerrandall.com/products/dorothy-cream-dress"
+  ],
+  "proposed": 1,
+  "reasoning": "For the clothing, nothing names a maker, place or process, and product pages state no country; the dated founding and the shoe-making steps on the about page do not reach the apparel. 1 (the shoe process would argue a 2 for the brand as a whole).",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-14): no named fabric. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 1 (2026-10-14): For the clothing, nothing names a maker, place or process, and product pages state no country; the dated founding and the shoe-making steps on the about page do not reach the apparel. 1 (the shoe process would argue a 2 for the brand as a whole). Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "womens"
 }

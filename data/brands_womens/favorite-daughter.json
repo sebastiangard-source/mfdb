@@ -185,5 +185,69 @@
   "domain": "shopfavoritedaughter.com"
  },
  "depts": 5,
+ "garment_links": {
+  "T-shirt": "https://shopfavoritedaughter.com/collections/tees-tanks",
+  "Blouse": "https://shopfavoritedaughter.com/collections/tops",
+  "Sweater": "https://shopfavoritedaughter.com/collections/sweaters",
+  "Jeans": "https://shopfavoritedaughter.com/collections/denim",
+  "Trousers": "https://shopfavoritedaughter.com/collections/bottoms",
+  "Dress": "https://shopfavoritedaughter.com/collections/dresses",
+  "Outerwear": "https://shopfavoritedaughter.com/collections/coats-1",
+  "Shoes": "https://shopfavoritedaughter.com/collections/the-shoe-collection"
+ },
+ "fabric": {
+  "denim": 3,
+  "cashmere": 2,
+  "linen": 1,
+  "cotton": 5,
+  "wool": 3,
+  "synth": 3,
+  "silk": 2
+ },
+ "fibre": {
+  "t": 394,
+  "w": 79,
+  "n_pct": 58,
+  "s_pct": 18,
+  "c_pct": 24,
+  "spandex": 32,
+  "sp": "one",
+  "sample": "stratified sample of 80 of 394 women's clothing styles, proportional by product type; census from /products.json (963 products) less shoes, belts, hats, scarves",
+  "st": "read"
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 1,
+  "comfort": 4,
+  "style": 3
+ },
+ "tech_evidence": {
+  "names": "NONE ('Stretch Suiting', 'Ponte' are cloth names)",
+  "owned": "",
+  "share": "0%",
+  "u": "https://shopfavoritedaughter.com/products/the-favorite-cigarette-pant-grey-suiting",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "no — none claimed",
+  "makers": "none",
+  "mills": "none",
+  "madein": "0 of 80 clothing pages state a country ('Imported' appears on shoes)",
+  "heritage": "NC — created by sisters Erin and Sara Foster; no date or place on /pages/about",
+  "process": "no",
+  "urls": [
+   "https://shopfavoritedaughter.com/pages/about",
+   "https://shopfavoritedaughter.com/products/the-favorite-cigarette-pant-grey-suiting"
+  ],
+  "proposed": 1,
+  "reasoning": "Founders' voice and philosophy only; no maker, place, date or process. 1.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-14): NONE ('Stretch Suiting', 'Ponte' are cloth names). Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 1 (2026-10-14): Founders' voice and philosophy only; no maker, place, date or process. 1. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "screen"
 }

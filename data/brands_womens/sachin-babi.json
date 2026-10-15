@@ -159,5 +159,67 @@
   "domain": "sachinandbabi.com"
  },
  "depts": 4,
+ "garment_links": {
+  "Blouse": "https://www.sachinandbabi.com/collections/separates",
+  "Sweater": "https://www.sachinandbabi.com/collections/separates",
+  "Trousers": "https://www.sachinandbabi.com/collections/separates",
+  "Dress": "https://www.sachinandbabi.com/collections/dresses",
+  "Outerwear": "https://www.sachinandbabi.com/collections/separates",
+  "Shoes": "https://www.sachinandbabi.com/collections/shoes"
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 1,
+  "linen": 2,
+  "cotton": 2,
+  "wool": 1,
+  "synth": 5,
+  "silk": 2
+ },
+ "fibre": {
+  "t": 382,
+  "w": 79,
+  "n_pct": 12,
+  "s_pct": 82,
+  "c_pct": 4,
+  "spandex": 21,
+  "sp": "one",
+  "sample": "stratified sample of 80 across 8 product types, proportional; 382 styles from the clothing records in /collections/all/products.json (549 total; earrings, handb",
+  "st": "read"
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 3,
+  "comfort": 2,
+  "style": 4
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0",
+  "u": "https://www.sachinandbabi.com/collections/gowns",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "claimed and placed — 'By owning a family-run factory in Mumbai, we are able to control the design and production process from start to finish'; Karigar capsule 'crafted in our Mumbai atelier by master",
+  "makers": "no",
+  "mills": "no",
+  "madein": "0% by country — every sampled PDP says 'Imported'",
+  "heritage": "dated and placed — founders met at FIT 1994; first ready-to-wear 2009; Madison Avenue flagship 2011; CFDA 2013",
+  "process": "thin — 'hand-embroidered' and 'master artisans' on Karigar pieces; no process steps",
+  "urls": [
+   "https://www.sachinandbabi.com/pages/about-us",
+   "https://www.sachinandbabi.com/collections/karigar-collection"
+  ],
+  "proposed": 3,
+  "reasoning": "The about page claims an owned, family-run factory in Mumbai and the Karigar capsule places hand embroidery in that atelier. Product pages say only 'Imported' and the factory isn't shown, so it's a claimed-and-placed 3; a shown factory and a Made-in-India statement on the PDPs would argue for 4.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-14): no named fabric. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 3 (2026-10-14): The about page claims an owned, family-run factory in Mumbai and the Karigar capsule places hand embroidery in that atelier. Product pages say only 'Imported' and the factory isn't shown, so it's a claimed-and-placed 3; a shown factory and a Made-in-India statement on the PDPs would argue for 4. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "screen"
 }

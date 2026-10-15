@@ -182,5 +182,68 @@
   "domain": "prana.com"
  },
  "depts": 3,
+ "garment_links": {
+  "T-shirt": "https://www.prana.com/women/tops/tanks-t-shirts.html",
+  "Blouse": "https://www.prana.com/women/tops/shirts-tops.html",
+  "Sweater": "https://www.prana.com/women/tops/sweaters-hoodies.html",
+  "Jeans": "https://www.prana.com/women/bottoms/denim.html",
+  "Trousers": "https://www.prana.com/women/bottoms/pants.html",
+  "Dress": "https://www.prana.com/women/dresses-skirts/dresses.html",
+  "Outerwear": "https://www.prana.com/women/jackets-outerwear.html"
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 1,
+  "linen": 2,
+  "cotton": 4,
+  "wool": 1,
+  "synth": 5,
+  "silk": 1
+ },
+ "fibre": {
+  "t": 184,
+  "w": 76,
+  "n_pct": 39,
+  "s_pct": 56,
+  "c_pct": 4,
+  "spandex": 39,
+  "sp": "split",
+  "sample": "stratified sample of 77 of ~184 women's clothing styles, proportional by garment group read from the title; census from the SFCC women's grid (Search-UpdateGrid",
+  "st": "read"
+ },
+ "focus": {
+  "tech": 4,
+  "craft": 2,
+  "comfort": 5,
+  "style": 1
+ },
+ "tech_evidence": {
+  "names": "Stretch Zion™ (recycled nylon/elastane, DWR, UPF 50+), Luxara™ (recycled nylon/LYCRA®), Heavana™ (recycled polyester/elastane), prAna Sculpt™, Koen, Shea Soft, DreamFleece / DreamTerry, Sol Searcher (UPF)",
+  "owned": "house trademarks (™); LYCRA®, TENCEL™, Liva Reviva™ licensed fibres; bluesign® approved fabrics",
+  "share": "about half of sampled styles carry a named house fabric",
+  "u": "https://www.prana.com/p/stretch-zion-high-rise-cargo-pant/2080191.html",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "no — none claimed",
+  "makers": "not on the brand pages; the supply chain list is 'published' (2019) per /sustainability.html",
+  "mills": "none",
+  "madein": "0 of 77 name a country; 76 say 'Imported'",
+  "heritage": "founded 1992 in Carlsbad, CA (/sustainability.html timeline)",
+  "process": "partial — dated timeline of material and labour commitments (Fair Labor Association 2010, first Fair Trade Certified™ apparel 2011, Canopy, RDS, RWS, Regenerative Organic Certified® cotton 2023); blue",
+  "urls": [
+   "https://www.prana.com/sustainability.html",
+   "https://www.prana.com/p/everyday-long-sleeve-tee/2127531.html"
+  ],
+  "proposed": 2,
+  "reasoning": "A dated house with a long, specific sourcing and labour record and a published supplier list, but no maker, factory or country appears on the store, and every product page says only 'Imported'. 2 — the same footing as FARM Rio's published list (3 if a published list counts).",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 4 (2026-10-14): Stretch Zion™ (recycled nylon/elastane, DWR, UPF 50+), Luxara™ (recycled nylon/LYCRA®), Heavana™ (recycled polyester/elastane), prAna Sculpt™, Koen, Shea Soft, DreamFleece / DreamTerry, Sol Searcher (UPF). Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 2 (2026-10-14): A dated house with a long, specific sourcing and labour record and a published supplier list, but no maker, factory or country appears on the store, and every product page says only 'Imported'. 2 — the same footing as FARM Rio's published list (3 if a published list counts). Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "womens"
 }

@@ -174,5 +174,68 @@
   "domain": "adamlippes.com"
  },
  "depts": 3,
+ "garment_links": {
+  "Blouse": "https://adamlippes.com/collections/tops",
+  "Sweater": "https://adamlippes.com/collections/knitwear",
+  "Jeans": "https://adamlippes.com/collections/denim",
+  "Trousers": "https://adamlippes.com/collections/pants",
+  "Dress": "https://adamlippes.com/collections/dresses",
+  "Outerwear": "https://adamlippes.com/collections/outerwear-coats",
+  "Shoes": "https://adamlippes.com/collections/shoes"
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 3,
+  "linen": 1,
+  "cotton": 4,
+  "wool": 3,
+  "synth": 2,
+  "silk": 4
+ },
+ "fibre": {
+  "t": 206,
+  "w": 79,
+  "n_pct": 82,
+  "s_pct": 3,
+  "c_pct": 15,
+  "spandex": 8,
+  "sp": "one",
+  "sample": "stratified sample of 79 of 206 women's RTW styles, proportional by product type (Coats, Jackets, Pants, Skirts, Dresses, Knits, Tops); census from /products.jso",
+  "st": "read"
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 1,
+  "comfort": 3,
+  "style": 4
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0%",
+  "u": "https://adamlippes.com/products/beaumont-blazer-in-japanese-wool-black-camel",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "no — none claimed",
+  "makers": "none",
+  "mills": "none by name; 'Italian' or 'Japanese' cloth named in the copy of about half the sampled styles",
+  "madein": "8 of 79 sampled state where made (7 'made / tailored in New York City', 1 India, 1 Italy); 57 of 396 clothing products s",
+  "heritage": "dated — first label ADAM 2004, renamed Adam Lippes 2014; designer formerly creative director at Oscar de la Renta (/pages/about-adam-lippes)",
+  "process": "no",
+  "urls": [
+   "https://adamlippes.com/pages/about-adam-lippes",
+   "https://adamlippes.com/products/brody-jacket-in-df-virgin-wool-mint"
+  ],
+  "proposed": 1,
+  "reasoning": "A dated house, with New York City making stated on a tenth of the clothing and Italian or Japanese cloth named on many pieces — but no maker, mill or workroom is named and most pages state no country. 1 on the Khaite/Ulla Johnson rule (a 2 if a minority of NYC-made pieces counts).",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-14): no named fabric. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 1 (2026-10-14): A dated house, with New York City making stated on a tenth of the clothing and Italian or Japanese cloth named on many pieces — but no maker, mill or workroom is named and most pages state no country. 1 on the Khaite/Ulla Johnson rule (a 2 if a minority of NYC-made pieces counts). Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "screen"
 }

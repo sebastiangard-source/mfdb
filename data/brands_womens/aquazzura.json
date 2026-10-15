@@ -109,5 +109,42 @@
   "domain": "aquazzura.com"
  },
  "depts": 0,
+ "garment_links": {
+  "Shoes": "https://www.aquazzura.com/us_en/shoes"
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 2,
+  "comfort": 2,
+  "style": 4
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0",
+  "u": "https://www.aquazzura.com/us_en/shoes",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "no — 'Tuscan shoemaking workshops' described but not named or claimed as owned; HQ Palazzo Corsini, Florence",
+  "makers": "no",
+  "mills": "no — PDP gives material by type (e.g. 'SUEDE LEATHER')",
+  "madein": "PDP template has a 'Made in:' field (ITALY on the one PDP opened); the field loads on click so a wider sample was not re",
+  "heritage": "placed, not dated on the pages read — headquarters in Palazzo Corsini, Florence",
+  "process": "partial — pattern makers, a mould per style, up to 30 hand-assembled components, up to six months per style, final hand check",
+  "urls": [
+   "https://www.aquazzura.com/us_en/aquazzura-world/about-aquazzura/craftsmanship",
+   "https://www.aquazzura.com/us_en/essence-pump-105-black-eenhigp0-sue-000"
+  ],
+  "proposed": 2,
+  "reasoning": "The craftsmanship page describes the making steps (pattern, mould, up to 30 hand-assembled components) and places it in Tuscan workshops, and product pages carry a Made-in field. No workshop is named or shown as owned. That is a strong 2; a named workshop would make it a 3.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-14): no named fabric. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 2 (2026-10-14): The craftsmanship page describes the making steps (pattern, mould, up to 30 hand-assembled components) and places it in Tuscan workshops, and product pages carry a Made-in field. No workshop is named or shown as owned. That is a strong 2; a named workshop would make it a 3. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "womens"
 }

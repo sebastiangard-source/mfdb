@@ -164,5 +164,67 @@
   "domain": "vixpaulahermanny.com"
  },
  "depts": 5,
+ "garment_links": {
+  "Blouse": "https://www.vixpaulahermanny.com/collections/tops",
+  "Sweater": "https://www.vixpaulahermanny.com/collections/sweaters",
+  "Trousers": "https://www.vixpaulahermanny.com/collections/pants-collection",
+  "Dress": "https://www.vixpaulahermanny.com/collections/dresses",
+  "Outerwear": "https://www.vixpaulahermanny.com/collections/jackets",
+  "Shoes": "https://www.vixpaulahermanny.com/collections/sandals"
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 4,
+  "cotton": 2,
+  "wool": 1,
+  "synth": 4,
+  "silk": 2
+ },
+ "fibre": {
+  "t": 522,
+  "w": 55,
+  "n_pct": 21,
+  "s_pct": 18,
+  "c_pct": 30,
+  "spandex": 20,
+  "sp": "split",
+  "sample": "stratified sample of 80 of 522 women's clothing styles (product types 'Clothing - Dresses/Tops/Pants/Shorts/Skirts/Jumpsuits'), proportional by type; census fro",
+  "st": "read"
+ },
+ "focus": {
+  "tech": 2,
+  "craft": 3,
+  "comfort": 4,
+  "style": 3
+ },
+ "tech_evidence": {
+  "names": "NONE — fabric names on the Material tab are generic ('Brazilian Lycra', 'Mesh Textured Lycra', 'Firenze'); the C.A.R.E. Line is a sourcing label, not a fabric",
+  "owned": "",
+  "share": "0%",
+  "u": "https://www.vixpaulahermanny.com/products/marissa-short-dress-earthline",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "implied, not stated — Casa ViX in Petrópolis, Brazil trains seamstresses 'certified to work at ViX'; no factory is named (/pages/casa-vix, /pages/esg)",
+  "makers": "none",
+  "mills": "none",
+  "madein": "50 of 80 sampled product pages say 'Made in Brazil'; the rest state no country",
+  "heritage": "brand since 'the early 2000s', founder Paula Hermanny, '20 years' (/pages/vix-brand-profile); no founding year",
+  "process": "partial — 'unique details hand-crafted in Brazil'; Casa ViX 10-week seamstress and embroidery training in Petrópolis",
+  "urls": [
+   "https://www.vixpaulahermanny.com/pages/casa-vix",
+   "https://www.vixpaulahermanny.com/pages/vix-brand-profile"
+  ],
+  "proposed": 3,
+  "reasoning": "Country of make is stated (Brazil) on two-thirds of clothing pages, and the brand runs a placed training workshop (Casa ViX, Petrópolis) that feeds its own sewing workforce — evidence of in-house making in Brazil, but no factory is named or shown and there is no founding year. 3; a 2 if implied in-house making doesn't count.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 2 (2026-10-14): NONE — fabric names on the Material tab are generic ('Brazilian Lycra', 'Mesh Textured Lycra', 'Firenze'); the C.A.R.E. Line is a sourcing label, not a fabric. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 3 (2026-10-14): Country of make is stated (Brazil) on two-thirds of clothing pages, and the brand runs a placed training workshop (Casa ViX, Petrópolis) that feeds its own sewing workforce — evidence of in-house making in Brazil, but no factory is named or shown and there is no founding year. 3; a 2 if implied in-h Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "womens"
 }

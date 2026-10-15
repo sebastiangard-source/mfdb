@@ -164,5 +164,67 @@
   "domain": "moniquelhuillier.com"
  },
  "depts": 3,
+ "garment_links": {
+  "Blouse": "https://moniquelhuillier.com/collections/tops-blouses",
+  "Sweater": "https://moniquelhuillier.com/collections/knitwear",
+  "Trousers": "https://moniquelhuillier.com/collections/skirts-pants",
+  "Dress": "https://moniquelhuillier.com/collections/dresses-1",
+  "Outerwear": "https://moniquelhuillier.com/collections/capes-coats",
+  "Shoes": "https://moniquelhuillier.com/collections/shoes"
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 2,
+  "linen": 1,
+  "cotton": 2,
+  "wool": 2,
+  "synth": 2,
+  "silk": 2
+ },
+ "fibre": {
+  "t": 334,
+  "w": 13,
+  "n_pct": 15,
+  "s_pct": 1,
+  "c_pct": 0,
+  "spandex": null,
+  "sp": "one",
+  "sample": "stratified sample of 80 across 16 product types, proportional; 334 styles from 361 clothing listings in /products.json (2 pages, all available); veils and glove",
+  "st": "partial"
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 2,
+  "comfort": 1,
+  "style": 5
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0",
+  "u": "https://moniquelhuillier.com/pages/designing-with-alchemy",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "no — no factory, workroom or atelier named on the brand's pages",
+  "makers": "no",
+  "mills": "no — PDPs give cloth names (mikado, faille, gazar) with no mill",
+  "madein": "99% (79 of 80 sampled: 57 USA, 18 Italy, 4 'Imported')",
+  "heritage": "dated, place implied — 'Established in 1996 by Monique Lhuillier and her husband Tom Bugbee'; Los Angeles named as home and flagship",
+  "process": "no — 'attention-to-detail craftsmanship', no process published",
+  "urls": [
+   "https://moniquelhuillier.com/pages/about",
+   "https://moniquelhuillier.com/products/rhubarb-silk-faille-draped-gown-with-train"
+  ],
+  "proposed": 2,
+  "reasoning": "Country of make is on almost every product page, mostly USA with an Italian share, and the founding is dated (1996). Nothing names where in the USA, who sews, or which mills weave the mikado and faille, so this is a country-of-make 2.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-14): no named fabric. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 2 (2026-10-14): Country of make is on almost every product page, mostly USA with an Italian share, and the founding is dated (1996). Nothing names where in the USA, who sews, or which mills weave the mikado and faille, so this is a country-of-make 2. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "screen"
 }

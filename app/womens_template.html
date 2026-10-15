@@ -24,7 +24,7 @@ h1 .thin{color:var(--ink-faint)}
 .stamp b{display:block;font-size:13px;color:var(--ink);font-weight:600}
 /* layout: side rail on desktop */
 .layout{display:grid;grid-template-columns:250px minmax(0,1fr);gap:40px;align-items:start}
-.rail{position:sticky;top:20px;display:flex;flex-direction:column;gap:18px;padding:18px 18px 20px;background:rgba(255,255,255,.55);border:1px solid var(--hairline);border-radius:14px}
+.rail{position:sticky;top:20px;max-height:calc(100vh - 40px);overflow-y:auto;display:flex;flex-direction:column;gap:18px;padding:18px 18px 20px;background:rgba(255,255,255,.55);border:1px solid var(--hairline);border-radius:14px}
 .rail .grp{flex-direction:column;align-items:flex-start;gap:7px}
 .rail .grp .lbl{margin:0}
 .rail .grp .chips{display:flex;flex-wrap:wrap;gap:6px}
@@ -77,6 +77,20 @@ h1 .thin{color:var(--ink-faint)}
 .cuts b{font-weight:600}
 .cuts .hint{font-size:11.5px;color:var(--ink-faint);line-height:1.4}
 .cuts .chip{align-self:flex-start;padding:6px 12px}
+.dials{display:flex;flex-direction:column;gap:6px;font-size:13px}
+.dials .lbl{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint);margin-top:4px}
+.dials label{display:flex;flex-direction:column;gap:2px}
+.dials label span{display:flex;justify-content:space-between}
+.dials label b{font-weight:600;color:var(--ink-faint)}
+.dials label.on b{color:var(--green)}
+.dials input[type=range]{width:100%;accent-color:var(--green)}
+.dials .hint{font-size:11.5px;color:var(--ink-faint);line-height:1.4}
+.dials .chip{align-self:flex-start;padding:6px 12px}
+.dv{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 14px}
+.dv span{font-size:12px;padding:4px 10px;border-radius:999px;background:rgba(18,59,43,.07)}
+.dv span i{font-style:normal;color:var(--ink-faint);margin-left:5px}
+.prices div a{display:block;font-size:11px;color:var(--green);text-decoration:none;margin-top:1px}
+.prices div a:hover{text-decoration:underline}
 .sells{font-size:14px;line-height:1.5;margin:0 0 10px}
 .q{margin:4px 0 18px;padding:10px 14px;border-left:2px solid var(--green);font-family:'Playfair Display',Georgia,serif;font-style:italic;font-size:15px;line-height:1.5}
 .q cite{display:block;font-family:Inter,system-ui,sans-serif;font-style:normal;font-size:11.5px;color:var(--ink-faint);margin-top:6px}
@@ -110,7 +124,7 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
     <h1>The Womenswear <span class="thin">Spectrum</span></h1>
     <p class="lede">Every women’s brand with a full-price store of its own in the US, placed by price band and shown with its stores. No dials yet: this is the locations map, built from the brands’ own locators, banded by the men’s price rule on the women’s price pass of 13 October.</p>
   </div>
-  <div class="stamp"><b>v0.6 · <span id="built"></span></b>stores counted from the brands’ own locators · bands by the men’s price rule on tee, blouse and sweater</div>
+  <div class="stamp"><b>v0.7 · <span id="built"></span></b>stores counted from the brands’ own locators · bands by the men’s price rule on tee, blouse and sweater</div>
 </header>
 
 <div class="layout">
@@ -128,6 +142,23 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
   <label><span>Accessible up to <b id="c2v">$600</b></span><input type="range" id="c2" min="300" max="1200" step="25" value="600"></label>
   <button class="chip" id="creset">reset</button>
   <span class="hint">Moves every brand banded on a blouse-and-sweater mean, crossovers included. Basic, hand-set and pending brands stay put.</span>
+</div>
+<div class="dials" id="dials">
+  <span class="lbl">Focus · at least</span>
+  <label data-k="f.tech"><span>tech <b>off</b></span><input type="range" min="0" max="5" value="0"></label>
+  <label data-k="f.comfort"><span>comfort <b>off</b></span><input type="range" min="0" max="5" value="0"></label>
+  <label data-k="f.craft"><span>craft <b>off</b></span><input type="range" min="0" max="5" value="0"></label>
+  <label data-k="f.style"><span>style <b>off</b></span><input type="range" min="0" max="5" value="0"></label>
+  <span class="lbl">Fabric · at least</span>
+  <label data-k="fa.cotton"><span>cotton <b>off</b></span><input type="range" min="0" max="5" value="0"></label>
+  <label data-k="fa.silk"><span>silk <b>off</b></span><input type="range" min="0" max="5" value="0"></label>
+  <label data-k="fa.wool"><span>wool <b>off</b></span><input type="range" min="0" max="5" value="0"></label>
+  <label data-k="fa.cashmere"><span>cashmere <b>off</b></span><input type="range" min="0" max="5" value="0"></label>
+  <label data-k="fa.linen"><span>linen <b>off</b></span><input type="range" min="0" max="5" value="0"></label>
+  <label data-k="fa.denim"><span>denim <b>off</b></span><input type="range" min="0" max="5" value="0"></label>
+  <label data-k="fa.synth"><span>synthetic <b>off</b></span><input type="range" min="0" max="5" value="0"></label>
+  <span class="hint" id="dialhint">A brand not yet read for a dial fails that dial. <span id="dialcov"></span></span>
+  <button class="chip" id="dreset">clear dials</button>
 </div>
 <p class="count" id="count"></p>
 </aside>
@@ -165,8 +196,11 @@ const ST={AL:'Alabama',AK:'Alaska',AZ:'Arizona',AR:'Arkansas',CA:'California',CO
 document.getElementById('built').textContent=new Date(W.built+'T12:00:00').toLocaleDateString('en-US',{day:'numeric',month:'long',year:'numeric'});
 
 let tier='all', neOnly=false, xover=true, q='';
+const DIAL={};  // key -> threshold
+function dialGet(b,k){const [g,a]=k.split('.'); const o=b[g]; return o&&o[a]!=null?o[a]:null;}
 function matches(b){
   if(!xover && b.src==='men') return false;
+  for(const k in DIAL){const t=DIAL[k]; if(!t) continue; const v=dialGet(b,k); if(v==null||v<t) return false;}
   if(tier!=='all' && !(tier==='chain' ? (b.tier==='chain'||b.tier==='mass') : b.tier===tier)) return false;
   if(neOnly && !b.ne) return false;
   if(q){const s=q.toLowerCase(); if(!(b.n.toLowerCase().includes(s) || b.stores.some(x=>x.c.toLowerCase().includes(s)||x.s.toLowerCase()===s||(ST[x.s]||'').toLowerCase().includes(s)))) return false;}
@@ -204,7 +238,10 @@ function openBrand(n){
   const b=W.brands.find(x=>x.n===n); if(!b) return;
   const byState={}; for(const s of b.stores){(byState[s.s]=byState[s.s]||[]).push(s);}
   const states=Object.keys(byState).sort((a,c)=>(NE.has(c)-NE.has(a))||(byState[c].length-byState[a].length)||a.localeCompare(c));
-  const prices=b.prices?`<div class="prices">${Object.entries(b.prices).map(([g,v])=>`<div><span>${g}</span>${Array.isArray(v)?('$'+v[0]+(v[1]&&v[1]!==v[0]?'–'+v[1]:'')):esc(v)}</div>`).join('')}</div>`:'';
+  const prices=b.prices?`<div class="prices">${Object.entries(b.prices).map(([g,v])=>`<div><span>${g}</span>${Array.isArray(v)?('$'+v[0]+(v[1]&&v[1]!==v[0]?'–'+v[1]:'')):esc(v)}${b.gl&&b.gl[g]?`<a href="${esc(b.gl[g])}" target="_blank" rel="noopener">see the range ↗</a>`:''}</div>`).join('')}</div>`:'';
+  const FN={tech:'tech',comfort:'comfort',craft:'craft',style:'style'}, FAN={cotton:'cotton',silk:'silk',wool:'wool',cashmere:'cashmere',linen:'linen',denim:'denim',synth:'synthetic'};
+  const chip=(lab,v,tip)=>`<span title="${esc(tip||'')}">${lab}<i>${v}</i></span>`;
+  const dials=(b.f||b.fa)?`<h3>Dials</h3><div class="dv">${b.f?Object.entries(FN).filter(([k])=>b.f[k]!=null).map(([k,l])=>chip(l,b.f[k],b.nt&&b.nt[k])).join(''):''}</div>${b.fa?`<div class="dv">${Object.entries(FAN).map(([k,l])=>chip(l,b.fa[k])).join('')}</div>`:''}${b.fi?`<p class="muted" style="font-size:12px;margin:-6px 0 14px">${esc(b.fi)}</p>`:''}`:'';
   document.getElementById('pbody').innerHTML=`
     <h2>${esc(b.n)}</h2>
     <span class="pill ${b.band.split(' ')[0]}">${b.band}</span>${b.src==='men'?'<span class="pill">also on the men’s map</span>':''}
@@ -218,6 +255,7 @@ function openBrand(n){
       ${b.read?`<dt>Read</dt><dd>${esc(b.read)}</dd>`:''}
     </dl>
     ${aboutHtml(b)}
+    ${dials}
     ${prices?'<h3>Entry and top prices</h3>'+prices+(b.lh?'<p class="muted" style="font-size:12px;margin:-8px 0 16px">Outerwear high not shown: the read high was a leather piece, which is not an elevated material (ruled 14 Oct); the top non-leather piece is to be re-read.</p>':''):''}
     ${b.stores.length?'<h3>Stores</h3><ul class="st">'+states.map(st=>`<li class="hd">${ST[st]||st}${NE.has(st)?' · Northeast':''}</li>`+byState[st].sort((x,y)=>x.c.localeCompare(y.c)).map(s=>`<li><div>${esc(s.sn&&s.sn.toLowerCase()!==b.n.toLowerCase()?s.sn:(s.v||b.n))}<div class="where">${esc([s.a,s.c,s.s,s.z].filter(Boolean).join(', '))}${s.op?' · run by '+esc(s.op):''}</div></div><a href="${mapUrl(s)}" target="_blank" rel="noopener">map ↗</a></li>`).join('')).join('')+'</ul>':'<p class="note">Stores are counted but not addressed for this brand.</p>'}
     ${b.note?`<p class="note">${esc(b.note)}</p>`:''}
@@ -235,6 +273,10 @@ function onCut(){C1=+document.getElementById('c1').value; C2=Math.max(+document.
   document.getElementById('c1v').textContent='$'+C1; document.getElementById('c2v').textContent='$'+C2; reband(); renderBands(); renderIdx();}
 document.getElementById('c1').addEventListener('input',onCut); document.getElementById('c2').addEventListener('input',onCut);
 document.getElementById('creset').onclick=()=>{document.getElementById('c1').value=200; document.getElementById('c2').value=600; onCut();};
+document.querySelectorAll('#dials label').forEach(l=>{const i=l.querySelector('input'),bb=l.querySelector('b');
+  i.addEventListener('input',()=>{const v=+i.value; DIAL[l.dataset.k]=v; bb.textContent=v?('≥ '+v):'off'; l.classList.toggle('on',!!v); renderBands(); renderIdx();});});
+document.getElementById('dreset').onclick=()=>{document.querySelectorAll('#dials label').forEach(l=>{l.querySelector('input').value=0; l.querySelector('b').textContent='off'; l.classList.remove('on');}); for(const k in DIAL) DIAL[k]=0; renderBands(); renderIdx();};
+(()=>{const n=W.brands.filter(b=>b.f&&b.fa).length; document.getElementById('dialcov').textContent=`Dials read for ${n} of ${W.brands.length} brands so far.`;})();
 document.getElementById('q').addEventListener('input',e=>{q=e.target.value.trim(); renderBands(); renderIdx();});
 
 // index

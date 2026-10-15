@@ -204,5 +204,69 @@
   "domain": "francesvalentine.com"
  },
  "depts": 5,
+ "garment_links": {
+  "T-shirt": "https://francesvalentine.com/collections/tops",
+  "Blouse": "https://francesvalentine.com/collections/tops",
+  "Sweater": "https://francesvalentine.com/collections/sweaters",
+  "Jeans": "https://francesvalentine.com/collections/pants",
+  "Trousers": "https://francesvalentine.com/collections/pants",
+  "Dress": "https://francesvalentine.com/collections/dresses",
+  "Outerwear": "https://francesvalentine.com/collections/coats",
+  "Shoes": "https://francesvalentine.com/collections/shoes"
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 4,
+  "wool": 3,
+  "synth": 5,
+  "silk": 1
+ },
+ "fibre": {
+  "t": 89,
+  "w": 74,
+  "n_pct": 44,
+  "s_pct": 42,
+  "c_pct": 6,
+  "spandex": 9,
+  "sp": "split",
+  "sample": "stratified sample of 80 of 89 clothing styles (all but nine), proportional by product type; census from /products.json (412 products, most of them bags, shoes a",
+  "st": "read"
+ },
+ "focus": {
+  "tech": 2,
+  "craft": 2,
+  "comfort": 3,
+  "style": 2
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0%",
+  "u": "https://francesvalentine.com/products/lucy-pant-japanese-stretch-blend-black",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "no — none claimed",
+  "makers": "none",
+  "mills": "none — 'Japanese stretch' and 'Pima cotton from Peru' name origins, not mills",
+  "madein": "48 of 80 sampled descriptions (60%) state a country: India 33, Peru 9, Turkey 6",
+  "heritage": "dated, not placed as making — 'Back in 2016, co-founders Elyce Arons and Kate Spade launched Frances Valentine' (/pages/about)",
+  "process": "no",
+  "urls": [
+   "https://francesvalentine.com/pages/about",
+   "https://francesvalentine.com/products/tabitha-mini-dress-w-sleeves-solid-dupioni-poly-dupion-black"
+  ],
+  "proposed": 2,
+  "reasoning": "Most product descriptions state a country (India for the poly-dupioni dresses, Peru for Pima knits, Turkey for denim), and the founding is dated, but no maker, mill or owned workshop is named. A country and little else.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 2 (2026-10-14): no named fabric. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 2 (2026-10-14): Most product descriptions state a country (India for the poly-dupioni dresses, Peru for Pima knits, Turkey for denim), and the founding is dated, but no maker, mill or owned workshop is named. A country and little else. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "screen"
 }

@@ -210,5 +210,69 @@
   "domain": "farmrio.com"
  },
  "depts": 4,
+ "garment_links": {
+  "T-shirt": "https://farmrio.com/collections/tops",
+  "Blouse": "https://farmrio.com/collections/blouses",
+  "Sweater": "https://farmrio.com/collections/sweaters-knits",
+  "Jeans": "https://farmrio.com/collections/denim",
+  "Trousers": "https://farmrio.com/collections/pants",
+  "Dress": "https://farmrio.com/collections/dresses",
+  "Outerwear": "https://farmrio.com/collections/outerwear",
+  "Shoes": "https://farmrio.com/collections/shoes"
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 1,
+  "linen": 4,
+  "cotton": 4,
+  "wool": 2,
+  "synth": 3,
+  "silk": 1
+ },
+ "fibre": {
+  "t": 1089,
+  "w": 67,
+  "n_pct": 54,
+  "s_pct": 9,
+  "c_pct": 21,
+  "spandex": 5,
+  "sp": "one",
+  "sample": "stratified sample of 80 of 1,089 women's clothing styles, proportional by product type; census from /products.json (1,439 products incl. 124 swimwear, 21 menswe",
+  "st": "read"
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 2,
+  "comfort": 3,
+  "style": 4
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0%",
+  "u": "https://farmrio.com/products/borbofly-multicolor-reversible-puffer",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "no — none claimed",
+  "makers": "not on product pages; the brand publishes its Tier 1 direct suppliers on Open Supply Hub, linked from /pages/transparency",
+  "mills": "none on product pages (Euroflax™ linen named in some descriptions — a fibre certification, not a mill)",
+  "madein": "0 of 80 sampled product pages state a country; the feed's hidden CG:/CI: tags carry one on 67 of 80 (China 46, India 11,",
+  "heritage": "dated and placed — 'FARM Rio's story began in 1997 … Rio de Janeiro' (/pages/about)",
+  "process": "partial — transparency page with a supplier map, sustainability policy, Leather Working Group note on leather PDPs; nothing on how a garment is made",
+  "urls": [
+   "https://farmrio.com/pages/transparency",
+   "https://farmrio.com/pages/about"
+  ],
+  "proposed": 2,
+  "reasoning": "FARM Rio dates and places its founding (Rio, 1997) and publishes a Tier 1 supplier map via Open Supply Hub, but no product page names a maker, mill or even a country. A published supplier list is checkable making at the brand level; if that counts as 'names its makers', this is a 3 — flagged for the ruling.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-14): no named fabric. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 2 (2026-10-14): FARM Rio dates and places its founding (Rio, 1997) and publishes a Tier 1 supplier map via Open Supply Hub, but no product page names a maker, mill or even a country. A published supplier list is checkable making at the brand level; if that counts as 'names its makers', this is a 3 — flagged for the Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "womens"
 }

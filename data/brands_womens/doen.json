@@ -209,5 +209,69 @@
   "domain": "shopdoen.com"
  },
  "depts": 0,
+ "garment_links": {
+  "T-shirt": "https://www.shopdoen.com/collections/tees",
+  "Blouse": "https://www.shopdoen.com/collections/tops",
+  "Sweater": "https://www.shopdoen.com/collections/knitwear",
+  "Jeans": "https://www.shopdoen.com/collections/denim",
+  "Trousers": "https://www.shopdoen.com/collections/pants-shorts",
+  "Dress": "https://www.shopdoen.com/collections/dresses",
+  "Outerwear": "https://www.shopdoen.com/collections/outerwear",
+  "Shoes": "https://www.shopdoen.com/collections/footwear"
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 2,
+  "linen": 2,
+  "cotton": 5,
+  "wool": 2,
+  "synth": 2,
+  "silk": 4
+ },
+ "fibre": {
+  "t": 416,
+  "w": 79,
+  "n_pct": 86,
+  "s_pct": 6,
+  "c_pct": 8,
+  "spandex": 2,
+  "sp": "one",
+  "sample": "stratified sample of 79 of 416 clothing styles, proportional by garment word in the title; census from /products.json (803 products; product_type holds the seas",
+  "st": "read"
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 2,
+  "comfort": 4,
+  "style": 3
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0%",
+  "u": "https://www.shopdoen.com/products/olivia-pant-black",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "part-owned — 'our story': since 2020 'a longtime vendor, and the owners of one of our most forward-thinking, progressive factories' is an equity partner; the factory is not named",
+  "makers": "none — product pages give country of origin only",
+  "mills": "none — fibre programmes only (Lenzing ECOVERO, 'Regenerative Cotton', 'Certified Cashmere')",
+  "madein": "79 of 79 sampled product pages state a 'Country of Origin': China 35, India 31, Portugal 4, Turkey 4, Vietnam 3, USA 2",
+  "heritage": "vague — founders and an ownership collective described; no founding date or place found in the story text read",
+  "process": "partial — a 2030 Roadmap and yearly impact updates (2022–2025) cover traceability and factory social/environmental work; nothing step-by-step on making",
+  "urls": [
+   "https://www.shopdoen.com/pages/our-story",
+   "https://www.shopdoen.com/pages/our-impact"
+  ],
+  "proposed": 2,
+  "reasoning": "Every product page states the country of origin, and the brand says one of its factories became an equity partner in 2020 and publishes yearly impact updates — more than most. But no factory, workshop or mill is named on the pages read, so the making is still not checkable beyond the country.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-14): no named fabric. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 2 (2026-10-14): Every product page states the country of origin, and the brand says one of its factories became an equity partner in 2020 and publishes yearly impact updates — more than most. But no factory, workshop or mill is named on the pages read, so the making is still not checkable beyond the country. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "womens"
 }

@@ -169,5 +169,68 @@
   "domain": "anothertomorrow.co"
  },
  "depts": 5,
+ "garment_links": {
+  "T-shirt": "https://anothertomorrow.co/collections/tees",
+  "Blouse": "https://anothertomorrow.co/collections/tops",
+  "Sweater": "https://anothertomorrow.co/collections/knits",
+  "Jeans": "https://anothertomorrow.co/collections/denim",
+  "Trousers": "https://anothertomorrow.co/collections/pants",
+  "Dress": "https://anothertomorrow.co/collections/dresses-and-skirts",
+  "Outerwear": "https://anothertomorrow.co/collections/outerwear"
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 2,
+  "linen": 2,
+  "cotton": 4,
+  "wool": 4,
+  "synth": 2,
+  "silk": 2
+ },
+ "fibre": {
+  "t": 195,
+  "w": 80,
+  "n_pct": 82,
+  "s_pct": 2,
+  "c_pct": 15,
+  "spandex": 25,
+  "sp": "one",
+  "sample": "stratified sample of 80 across 8 product-type groups, proportional; 195 styles from 366 new clothing listings in /products.json (492 total; Authenticated Resale",
+  "st": "read"
+ },
+ "focus": {
+  "tech": 2,
+  "craft": 3,
+  "comfort": 3,
+  "style": 4
+ },
+ "tech_evidence": {
+  "names": "licensed fibres: Tencel lyocell blends (core jersey), Seacell lyocell, Naia Renew acetate; house 'seasonless, farm-traceable' merino",
+  "owned": "licensed fibres; digital product passport per garment via EVRYTHNG (traceability, not fabric)",
+  "share": "10% of sample (8 of 80) in a licensed named fibre",
+  "u": "https://anothertomorrow.co/pages/transparency",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "no — cut-and-sew suppliers in Italy and Portugal, visited but deliberately not named",
+  "makers": "no (garment towns named per product: Messina, Bergamo, Correzzola, Torre Pallavicina, Braga and others)",
+  "mills": "yes — Candiani (denim mill); wool farms Lake Hawea Station (NZ), Py-Aguazú and La Cuchilla (Uruguay); Tier-2 mills listed on the Open Apparel Registry",
+  "madein": "69% (55 of 80: Italy 52, Portugal 3); most of the rest name the fabric's knitting or weaving town instead",
+  "heritage": "none dated — values-led founder story; Soho flagship",
+  "process": "yes — supplier pages for the denim mill and wool farms, a where-we-produce policy (living wages checked against two benchmarks, every factory visited), and a QR provenance journey per garment",
+  "urls": [
+   "https://anothertomorrow.co/pages/where-we-produce",
+   "https://anothertomorrow.co/pages/candiani"
+  ],
+  "proposed": 3,
+  "reasoning": "Mills and farms are named and documented (Candiani, Lake Hawea Station, two Uruguayan farms), and product pages place the garment in a named Italian or Portuguese town. The cut-and-sew makers are withheld by policy, so the maker is not verifiable from the store: a strong 3.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 2 (2026-10-14): licensed fibres: Tencel lyocell blends (core jersey), Seacell lyocell, Naia Renew acetate; house 'seasonless, farm-traceable' merino. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 3 (2026-10-14): Mills and farms are named and documented (Candiani, Lake Hawea Station, two Uruguayan farms), and product pages place the garment in a named Italian or Portuguese town. The cut-and-sew makers are withheld by policy, so the maker is not verifiable from the store: a strong 3. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "screen"
 }

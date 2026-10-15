@@ -124,6 +124,13 @@ def main():
     if os.path.exists(of):
         oh = {r['brand']: r for r in csv.DictReader(open(of, encoding='utf8'))}
 
+    # womens_dials_2026-10-14: listing links, fibre, fabric, tech and craft, by batch; comfort and style authored
+    dials = {}
+    for f in sorted(glob.glob(os.path.join(ROOT, 'jobs/returns/womens_dials_2026-10-14/batch*/return.csv'))):
+        for r in csv.DictReader(open(f, encoding='utf8')):
+            dials[r['brand']] = r
+    fa = os.path.join(ROOT, 'registers/womens_focus_authored.json')
+    authored = json.load(open(fa, encoding='utf8')) if os.path.exists(fa) else {}
     os.makedirs(OUT, exist_ok=True)
     for f in glob.glob(os.path.join(OUT, '*.json')):
         os.remove(f)
@@ -206,6 +213,30 @@ def main():
         dom = (fa['site_domain'] if fa else '') or re.sub(r'^https?://(www\.)?', '', r.get('locator_url', '')).split('/')[0]
         rec['site'] = {'domain': dom}
         rec['depts'] = num(universe.get(name, {}).get('full_price_stores') or 0) or 0
+        dl = dials.get(name)
+        if dl:
+            gl = {gn: dl[g + '_listing_url'] for g, gn in zip(G, GARMENTS) if dl[g + '_listing_url'].startswith('http')}
+            if gl: rec['garment_links'] = gl
+            fab = {k: num(dl['fab_' + k]) for k in ('denim', 'cashmere', 'linen', 'cotton', 'wool', 'synth', 'silk')}
+            if all(v is not None for v in fab.values()):
+                rec['fabric'] = fab
+            if num(dl['styles_total']) is not None and num(dl['styles_with_composition']):
+                rec['fibre'] = {'t': num(dl['styles_total']), 'w': num(dl['styles_with_composition']), 'n_pct': num(dl['natural_pct']), 's_pct': num(dl['synthetic_pct']),
+                                'c_pct': num(dl['cellulosic_pct']), 'spandex': num(dl['spandex_styles']), 'sp': dl['shape'], 'sample': dl['sample_basis'][:160], 'st': dl['status']}
+            foc = {}
+            if num(dl['proposed_tech']) is not None: foc['tech'] = num(dl['proposed_tech'])
+            if num(dl['proposed_craft']) is not None: foc['craft'] = num(dl['proposed_craft'])
+            au = authored.get(name)
+            if au: foc['comfort'] = au['comfort']; foc['style'] = au['style']
+            if foc: rec['focus'] = foc
+            rec['tech_evidence'] = {'names': v(dl['tech_named_fabrics']) or 'no', 'owned': v(dl['tech_owned_or_licensed']), 'share': v(dl['tech_share_of_range']), 'u': v(dl['tech_evidence_url']), 'checked': dl['read_date']}
+            rec['craft_evidence'] = {'owned': dl['owned_facility'][:200], 'makers': dl['named_makers'][:200], 'mills': dl['named_mills'][:200], 'madein': dl['made_in_stated_share'][:120],
+                                     'heritage': dl['heritage_claim'][:200], 'process': dl['process_documented'][:200], 'urls': [u for u in (dl['craft_url_1'], dl['craft_url_2']) if u.startswith('http')],
+                                     'proposed': num(dl['proposed_craft']), 'reasoning': dl['craft_reasoning'][:400], 'read': dl['read_date']}
+            rec['notes'] = rec.get('notes', {})
+            if 'tech' in foc: rec['notes']['tech'] = 'Thread proposed ' + str(foc['tech']) + ' (' + dl['read_date'] + '): ' + (v(dl['tech_named_fabrics']) or 'no named fabric') + '. Seated as proposed, pending ruling.'
+            if 'craft' in foc: rec['notes']['craft'] = 'Thread proposed ' + str(foc['craft']) + ' (' + dl['read_date'] + '): ' + dl['craft_reasoning'][:300] + ' Seated as proposed, pending ruling.'
+            if au: rec['notes']['comfort'] = rec['notes']['style'] = au['basis']
         rec['src'] = 'womens' if name in counts else 'screen'
         json.dump(rec, open(os.path.join(OUT, slug(name) + '.json'), 'w', encoding='utf8'), ensure_ascii=False, indent=1)
         n_out += 1

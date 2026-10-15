@@ -169,5 +169,68 @@
   "domain": "bsidesjeans.com"
  },
  "depts": 0,
+ "garment_links": {
+  "T-shirt": "https://bsidesjeans.com/collections/t-shirts-sweatshirts",
+  "Blouse": "https://bsidesjeans.com/collections/tops",
+  "Sweater": "https://bsidesjeans.com/collections/knitwear",
+  "Jeans": "https://bsidesjeans.com/collections/b-sides-jeans-all-fits",
+  "Trousers": "https://bsidesjeans.com/collections/chino",
+  "Dress": "https://bsidesjeans.com/collections/dresses",
+  "Outerwear": "https://bsidesjeans.com/collections/jackets"
+ },
+ "fabric": {
+  "denim": 4,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 5,
+  "wool": 3,
+  "synth": 2,
+  "silk": 1
+ },
+ "fibre": {
+  "t": 128,
+  "w": 74,
+  "n_pct": 90,
+  "s_pct": 1,
+  "c_pct": 1,
+  "spandex": 2,
+  "sp": "one",
+  "sample": "stratified sample of 80 across 7 product-type groups, proportional; 128 styles from 333 clothing listings in /products.json (342 total; belts, hats, scarves, be",
+  "st": "read"
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 2,
+  "comfort": 3,
+  "style": 4
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0",
+  "u": "https://bsidesjeans.com/collections/b-sides-jeans-all-fits",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "makers": "no ('artisans who have spent generations refining their techniques'; a Bolivian crochet community, unnamed)",
+  "mills": "partial — Shaniko wool named on hand knits; Welsh, Italian and Japanese mills referred to by country only",
+  "madein": "79% (63 of 80: USA 56, including New York City, Los Angeles, hand-knit in New York or LA and one 'hand-loomed in the USA",
+  "heritage": "dated and placed — founded 2016 in New York by vintage collectors Claire Lampert and Stacy Daily, from an archive of vintage Levi's",
+  "process": "thin — denim weights, weaves and mill countries per product; hand-knitting and reworking named, not shown",
+  "urls": [
+   "https://bsidesjeans.com/pages/about",
+   "https://bsidesjeans.com/products/evan-jean-indigo-brown-rinse-espresso-suede"
+  ],
+  "proposed": 2,
+  "reasoning": "Most product pages place the making (USA, New York City, Los Angeles, hand-knit in New York or LA, knit in Wales), and fabric origins are given per piece. No maker, workshop or mill is named apart from the Shaniko wool, so it's a strong 2.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-14): no named fabric. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 2 (2026-10-14): Most product pages place the making (USA, New York City, Los Angeles, hand-knit in New York or LA, knit in Wales), and fabric origins are given per piece. No maker, workshop or mill is named apart from the Shaniko wool, so it's a strong 2. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "screen"
 }

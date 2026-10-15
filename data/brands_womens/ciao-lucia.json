@@ -145,5 +145,66 @@
   "domain": "ciaolucia.com"
  },
  "depts": 3,
+ "garment_links": {
+  "Blouse": "https://ciaolucia.com/collections/tops",
+  "Sweater": "https://ciaolucia.com/collections/sweaters",
+  "Trousers": "https://ciaolucia.com/collections/pants",
+  "Dress": "https://ciaolucia.com/collections/dresses",
+  "Outerwear": "https://ciaolucia.com/collections/outerwear"
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 2,
+  "cotton": 5,
+  "wool": 2,
+  "synth": 2,
+  "silk": 4
+ },
+ "fibre": {
+  "t": 215,
+  "w": 79,
+  "n_pct": 86,
+  "s_pct": 6,
+  "c_pct": 6,
+  "spandex": 1,
+  "sp": "one",
+  "sample": "stratified sample of 80 across 5 product types, proportional; 215 styles from 245 clothing listings in /products.json (268 total; shoes, sandals and mules sold ",
+  "st": "read"
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 1,
+  "comfort": 3,
+  "style": 4
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0",
+  "u": "https://ciaolucia.com/collections/shop-all",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "makers": "no",
+  "mills": "no",
+  "madein": "25% (20 of 80: Los Angeles 16, Peru 4; current-season pages state no country)",
+  "heritage": "none found — the store has no about or story page (navigation pages are policies, stockists and store locator)",
+  "process": "no",
+  "urls": [
+   "https://ciaolucia.com/pages/store-locator",
+   "https://ciaolucia.com/products/ezio-top-black-cotton"
+  ],
+  "proposed": 1,
+  "reasoning": "Older styles say Made in Los Angeles or Peru, but current-season pages give no country, and the store has no page about the brand or its making. Nothing to credit beyond a quarter of pages naming a place: 1.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-14): no named fabric. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 1 (2026-10-14): Older styles say Made in Los Angeles or Peru, but current-season pages give no country, and the store has no page about the brand or its making. Nothing to credit beyond a quarter of pages naming a place: 1. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "screen"
 }

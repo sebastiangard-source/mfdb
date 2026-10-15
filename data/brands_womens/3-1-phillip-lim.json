@@ -185,5 +185,69 @@
   "domain": "31philliplim.com"
  },
  "depts": 5,
+ "garment_links": {
+  "T-shirt": "https://31philliplim.com/collections/shirts-blouses-1",
+  "Blouse": "https://31philliplim.com/collections/shirts-blouses-1",
+  "Sweater": "https://31philliplim.com/collections/shirts-blouses-1",
+  "Jeans": "https://31philliplim.com/collections/trousers-shorts-1",
+  "Trousers": "https://31philliplim.com/collections/trousers-shorts-1",
+  "Dress": "https://31philliplim.com/collections/dresses-1",
+  "Outerwear": "https://31philliplim.com/collections/jackets-coats-1",
+  "Shoes": "https://31philliplim.com/collections/women-all-shoes"
+ },
+ "fabric": {
+  "denim": 3,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 5,
+  "wool": 2,
+  "synth": 4,
+  "silk": 1
+ },
+ "fibre": {
+  "t": 120,
+  "w": 80,
+  "n_pct": 60,
+  "s_pct": 22,
+  "c_pct": 18,
+  "spandex": 8,
+  "sp": "one",
+  "sample": "stratified sample of 80 across 15 product types, proportional; 120 styles from 174 listings in /collections/ready-to-wear/products.json (all tagged Womens, all ",
+  "st": "read"
+ },
+ "focus": {
+  "tech": 2,
+  "craft": 1,
+  "comfort": 3,
+  "style": 4
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0 (2 styles titled 'Technical' are 100% polyester with no named cloth)",
+  "u": "https://31philliplim.com/products/nylon-utility-pants",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "makers": "no",
+  "mills": "no",
+  "madein": "0% on product pages (the feed tags carry a country — CHINA on 170 of 174 listings, TURKEY on 2 — but it is not shown to ",
+  "heritage": "dated and placed — debuted at New York Fashion Week in 2005; founders Phillip Lim and Wen Zhou",
+  "process": "no",
+  "urls": [
+   "https://31philliplim.com/pages/about",
+   "https://31philliplim.com/products/tweed-blouson-bomber"
+  ],
+  "proposed": 1,
+  "reasoning": "Product pages give composition and fit but no country, maker or mill, and the about page is a brand history (2005, NYFW) with nothing about making. The store's own tags show China for almost the whole range, but that is not stated to customers, so nothing on the page is checkable: 1.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 2 (2026-10-14): no named fabric. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 1 (2026-10-14): Product pages give composition and fit but no country, maker or mill, and the about page is a brand history (2005, NYFW) with nothing about making. The store's own tags show China for almost the whole range, but that is not stated to customers, so nothing on the page is checkable: 1. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "womens"
 }

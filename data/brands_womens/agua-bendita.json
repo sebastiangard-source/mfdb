@@ -165,5 +165,67 @@
   "domain": "aguabendita.com"
  },
  "depts": 5,
+ "garment_links": {
+  "T-shirt": "https://www.aguabendita.com/collections/shirts-and-t-shirts",
+  "Blouse": "https://www.aguabendita.com/collections/shirts-and-t-shirts",
+  "Sweater": "https://www.aguabendita.com/collections/hoodies-and-sweaters",
+  "Trousers": "https://www.aguabendita.com/collections/pants",
+  "Dress": "https://www.aguabendita.com/collections/dresses",
+  "Outerwear": "https://www.aguabendita.com/collections/kimonos-tunics"
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 5,
+  "wool": 1,
+  "synth": 3,
+  "silk": 1
+ },
+ "fibre": {
+  "t": 157,
+  "w": 61,
+  "n_pct": 33,
+  "s_pct": 13,
+  "c_pct": 31,
+  "spandex": 8,
+  "sp": "one",
+  "sample": "stratified sample of 78 of 157 women's clothing styles, proportional by product type (crop tops, shirts, tees, tunics and bodysuits pooled as Tops; cardigans an",
+  "st": "read"
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 2,
+  "comfort": 3,
+  "style": 4
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0%",
+  "u": "https://www.aguabendita.com/products/felina-lessa-shorts-22819",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "partial — 'in-house artists' draw the prints; embroidery by a network of Colombian artisans (#ABhearts); no workshop or factory named (/pages/sustainability-social-responsibility)",
+  "makers": "claimed, not shown — 'All AB pieces carry with pride the name of the artisan who embroidered them' (on the garment, not on the site)",
+  "mills": "none",
+  "madein": "1 of 78 sampled descriptions says 'Made in Colombia' (36 of 649 products store-wide)",
+  "heritage": "NC — 'a Colombian brand that honors handmade ancestral techniques'; no founding date on the US store",
+  "process": "partial — hand embroidery by named artisans with traceability claimed; hand-drawn prints in-house",
+  "urls": [
+   "https://www.aguabendita.com/pages/sustainability-social-responsibility",
+   "https://www.aguabendita.com/products/aura-marcia-dress-20007"
+  ],
+  "proposed": 2,
+  "reasoning": "A specific making story — Colombian artisan embroidery, a named artisan on every piece, prints drawn in-house — but none of it can be checked from the site: no artisan, workshop or date is shown and country appears on few pages. 2 (a 3 if the artisan-name label is taken on trust).",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-14): no named fabric. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 2 (2026-10-14): A specific making story — Colombian artisan embroidery, a named artisan on every piece, prints drawn in-house — but none of it can be checked from the site: no artisan, workshop or date is shown and country appears on few pages. 2 (a 3 if the artisan-name label is taken on trust). Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "womens"
 }

@@ -179,5 +179,69 @@
   "domain": "marinarinaldi.com"
  },
  "depts": 4,
+ "garment_links": {
+  "T-shirt": "https://us.marinarinaldi.com/clothing/tops-t-shirts",
+  "Blouse": "https://us.marinarinaldi.com/clothing/shirts-blouses",
+  "Sweater": "https://us.marinarinaldi.com/clothing/cardigan-jumpers-knitwear",
+  "Jeans": "https://us.marinarinaldi.com/clothing/pants-jeans",
+  "Trousers": "https://us.marinarinaldi.com/clothing/pants-jeans",
+  "Dress": "https://us.marinarinaldi.com/clothing/dresses",
+  "Outerwear": "https://us.marinarinaldi.com/clothing/coats-trenchcoats-puffer-jackets",
+  "Shoes": "https://us.marinarinaldi.com/clothing/bags-shoes-accessories"
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 2,
+  "linen": 1,
+  "cotton": 3,
+  "wool": 3,
+  "synth": 3,
+  "silk": 2
+ },
+ "fibre": {
+  "t": 516,
+  "w": 76,
+  "n_pct": 50,
+  "s_pct": 14,
+  "c_pct": 31,
+  "spandex": 15,
+  "sp": "one",
+  "sample": "stratified sample of 80 across 8 clothing categories, proportional; 516 clothing style codes from 593 under /clothing (category pages crawled with ?page=N until",
+  "st": "read"
+ },
+ "focus": {
+  "tech": 2,
+  "craft": 2,
+  "comfort": 3,
+  "style": 3
+ },
+ "tech_evidence": {
+  "names": "NONE ('water-repellent' named on two padded jackets without a named fabric)",
+  "owned": "",
+  "share": "0 named; 2 of 80 claim water repellency",
+  "u": "https://us.marinarinaldi.com/p-8486036706003-mrstalento-brown-bordeaux",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "not on the brand's pages (Max Mara group ownership is known, but the US store doesn't show a factory)",
+  "makers": "no",
+  "mills": "no",
+  "madein": "0% on product pages ('Made in Italy' appears only in the logo's title attribute and as 'Made in Italy design' on a brand",
+  "heritage": "dated and placed — 'It was 1850 … when Marina Rinaldi opened her Atelier in the heart of Reggio Emilia'; brand created 1980 by Max Mara founder Achille Maramotti",
+  "process": "thin — plus-size expertise page: 'constant research into pattern making', no specifics",
+  "urls": [
+   "https://us.marinarinaldi.com/mr-world/heritage",
+   "https://us.marinarinaldi.com/mr-world/our-universe/plus-size-expertise"
+  ],
+  "proposed": 2,
+  "reasoning": "The heritage page is dated and placed (an 1850 atelier in Reggio Emilia, the 1980 brand) and says the collections are 'Made in Italy design', but no product page states where it was made and no factory, maker or mill is named. Heritage without making evidence is a 2.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 2 (2026-10-14): NONE ('water-repellent' named on two padded jackets without a named fabric). Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 2 (2026-10-14): The heritage page is dated and placed (an 1850 atelier in Reggio Emilia, the 1980 brand) and says the collections are 'Made in Italy design', but no product page states where it was made and no factory, maker or mill is named. Heritage without making evidence is a 2. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "womens"
 }

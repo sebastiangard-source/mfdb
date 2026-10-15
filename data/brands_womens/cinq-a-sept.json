@@ -195,5 +195,69 @@
   "domain": "cinqasept.nyc"
  },
  "depts": 5,
+ "garment_links": {
+  "T-shirt": "https://cinqasept.nyc/collections/tees",
+  "Blouse": "https://cinqasept.nyc/collections/tops",
+  "Sweater": "https://cinqasept.nyc/collections/knits-for-now",
+  "Jeans": "https://cinqasept.nyc/collections/le-denim",
+  "Trousers": "https://cinqasept.nyc/collections/bottoms",
+  "Dress": "https://cinqasept.nyc/collections/dresses",
+  "Outerwear": "https://cinqasept.nyc/collections/outerwear",
+  "Shoes": "https://cinqasept.nyc/collections/shoes"
+ },
+ "fabric": {
+  "denim": 3,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 4,
+  "wool": 2,
+  "synth": 5,
+  "silk": 2
+ },
+ "fibre": {
+  "t": 1097,
+  "w": 77,
+  "n_pct": 34,
+  "s_pct": 37,
+  "c_pct": 22,
+  "spandex": 25,
+  "sp": "split",
+  "sample": "stratified sample of 83 of 1,097 women's clothing styles, proportional by product type (spelling variants merged: Dress/Dresses/Dresss etc.); census from /produ",
+  "st": "read"
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 1,
+  "comfort": 3,
+  "style": 4
+ },
+ "tech_evidence": {
+  "names": "NONE — house cloth names only ('Drapey Crepe' triacetate/polyester, 'Tumbled woven', 'Matte Jersey')",
+  "owned": "",
+  "share": "0%",
+  "u": "https://cinqasept.nyc/products/cortina-pant-in-navy-zp10131319z",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "no — none claimed (/pages/about)",
+  "makers": "none",
+  "mills": "none",
+  "madein": "1 of 83 says 'Made in USA' (a graphic tee); 21 say 'Imported'; the rest state nothing",
+  "heritage": "NC — /pages/about describes the name and aesthetic only; no founding date or founders",
+  "process": "no",
+  "urls": [
+   "https://cinqasept.nyc/pages/about",
+   "https://cinqasept.nyc/products/romilly-pant-in-black-zp13678381z"
+  ],
+  "proposed": 1,
+  "reasoning": "The about page is a mood statement; product pages say 'Imported' or nothing. No maker, place, date or process. 1.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-14): NONE — house cloth names only ('Drapey Crepe' triacetate/polyester, 'Tumbled woven', 'Matte Jersey'). Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 1 (2026-10-14): The about page is a mood statement; product pages say 'Imported' or nothing. No maker, place, date or process. 1. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "womens"
 }

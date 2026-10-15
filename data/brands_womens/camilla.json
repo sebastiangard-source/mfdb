@@ -204,5 +204,69 @@
   "domain": "camilla.com"
  },
  "depts": 5,
+ "garment_links": {
+  "T-shirt": "https://camilla.com/collections/ready-to-wear-tops",
+  "Blouse": "https://camilla.com/collections/ready-to-wear-tops",
+  "Sweater": "https://camilla.com/collections/clothing-outerwear-knitwear",
+  "Jeans": "https://camilla.com/collections/denim",
+  "Trousers": "https://camilla.com/collections/ready-to-wear-bottoms",
+  "Dress": "https://camilla.com/collections/dresses",
+  "Outerwear": "https://camilla.com/collections/ready-to-wear-outerwear",
+  "Shoes": "https://camilla.com/collections/accessories-shoes"
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 3,
+  "cotton": 3,
+  "wool": 2,
+  "synth": 2,
+  "silk": 5
+ },
+ "fibre": {
+  "t": 2037,
+  "w": 58,
+  "n_pct": 61,
+  "s_pct": 1,
+  "c_pct": 10,
+  "spandex": 3,
+  "sp": "one",
+  "sample": "stratified sample of 80 of 2,037 women's clothing styles, proportional by product type; census from /products.json (3,831 products — the feed keeps years of pas",
+  "st": "read"
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 2,
+  "comfort": 3,
+  "style": 4
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0%",
+  "u": "https://camilla.com/products/00044707-turtle-neck-jersey-dress-meet-me-at-the-met",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "claimed, not placed — 'Prints are hand-drawn and painted by in-house artists, pieces cut and sewn by hand' (/pages/the-story-of-camilla); no facility named",
+  "makers": "none — 'artisans' unnamed; 2 of 80 sampled descriptions claim hand embroidery ('Hand-Embroidered Over 48 Hours')",
+  "mills": "none",
+  "madein": "0 of 80 sampled descriptions state a country",
+  "heritage": "dated and placed as a launch — 'launched at Australian Fashion Week in 2004'",
+  "process": "partial — in-house hand-drawn prints, hand cutting and sewing, hand embellishment claimed in general terms; modern slavery statement and code of ethics published",
+  "urls": [
+   "https://camilla.com/pages/the-story-of-camilla",
+   "https://camilla.com/pages/camilla-modern-slavery-statement"
+  ],
+  "proposed": 2,
+  "reasoning": "The story page claims in-house print artists and hand-cut, hand-sewn, hand-embellished pieces, and two sampled pages put hours on hand embroidery, but no workshop, maker, mill or country is named. Claims of handwork without a place behind them are worth a 2 at most; the modern slavery statement (not read) may name supplier countries.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-14): no named fabric. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 2 (2026-10-14): The story page claims in-house print artists and hand-cut, hand-sewn, hand-embellished pieces, and two sampled pages put hours on hand embroidery, but no workshop, maker, mill or country is named. Claims of handwork without a place behind them are worth a 2 at most; the modern slavery statement (not Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "womens"
 }

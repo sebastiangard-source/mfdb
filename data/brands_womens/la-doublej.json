@@ -183,5 +183,69 @@
   "domain": "ladoublej.com"
  },
  "depts": 4,
+ "garment_links": {
+  "T-shirt": "https://www.ladoublej.com/en-us/ready-to-wear/our-categories/tshirts/",
+  "Blouse": "https://www.ladoublej.com/en-us/ready-to-wear/our-categories/shirts-and-tops/",
+  "Sweater": "https://www.ladoublej.com/en-us/ready-to-wear/our-categories/knitwear/",
+  "Jeans": "https://www.ladoublej.com/en-us/ready-to-wear/our-categories/denim/",
+  "Trousers": "https://www.ladoublej.com/en-us/ready-to-wear/our-categories/shorts-and-pants/",
+  "Dress": "https://www.ladoublej.com/en-us/ready-to-wear/our-categories/dresses/",
+  "Outerwear": "https://www.ladoublej.com/en-us/ready-to-wear/our-categories/outerwear/",
+  "Shoes": "https://www.ladoublej.com/en-us/ready-to-wear/accessories/shoes/"
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 2,
+  "linen": 1,
+  "cotton": 4,
+  "wool": 3,
+  "synth": 4,
+  "silk": 3
+ },
+ "fibre": {
+  "t": 642,
+  "w": 78,
+  "n_pct": 64,
+  "s_pct": 24,
+  "c_pct": 10,
+  "spandex": 14,
+  "sp": "one",
+  "sample": "stratified sample of 80 across 8 house categories, proportional; 642 style×fabric codes (465 style numbers) from /en-us/sitemap-product_0.xml clothing paths (89",
+  "st": "read"
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 2,
+  "comfort": 3,
+  "style": 5
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0",
+  "u": "https://www.ladoublej.com/en-us/our-story-page",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "no — no owned factory or workshop named; story page says products are 'crafted by the finest artisans and historic producers' (claim, unnamed)",
+  "makers": "no — no PDP in the 80 sampled names a maker",
+  "mills": "partial — Mantero silk archive (Lake Como) named on the story page as the origin of the prints; no PDP names a mill",
+  "madein": "98% (78 of 80 sampled PDPs state a country: 76 Italy, 2 India)",
+  "heritage": "dated and placed but short — launched 2015 in Milan by J.J. Martin; collections from 2017",
+  "process": "no — 'printed on the shores of Lake Como', 'small batches'; no specific process published",
+  "urls": [
+   "https://www.ladoublej.com/en-us/our-story-page",
+   "https://www.ladoublej.com/en-us/ready-to-wear/our-categories/dresses/swing-dress-DRE0001JCQ081TAC03YE05.html"
+  ],
+  "proposed": 2,
+  "reasoning": "Country is stated on nearly every product page (Italy, two India) and the story page names the Mantero archive in Como as the print source, but no product page names a maker or mill and the brand owns no making. A country plus one archive name is a 2, not a 3.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-14): no named fabric. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 2 (2026-10-14): Country is stated on nearly every product page (Italy, two India) and the story page names the Mantero archive in Como as the print source, but no product page names a maker or mill and the brand owns no making. A country plus one archive name is a 2, not a 3. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "screen"
 }

@@ -185,5 +185,69 @@
   "domain": "proenzaschouler.com"
  },
  "depts": 4,
+ "garment_links": {
+  "T-shirt": "https://www.proenzaschouler.com/collections/t-shirts",
+  "Blouse": "https://www.proenzaschouler.com/collections/tops",
+  "Sweater": "https://www.proenzaschouler.com/collections/knitwear",
+  "Jeans": "https://www.proenzaschouler.com/collections/denim",
+  "Trousers": "https://www.proenzaschouler.com/collections/pants-and-skirts",
+  "Dress": "https://www.proenzaschouler.com/collections/dresses",
+  "Outerwear": "https://www.proenzaschouler.com/collections/jackets-and-outerwear",
+  "Shoes": "https://www.proenzaschouler.com/collections/shoes"
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 2,
+  "linen": 2,
+  "cotton": 4,
+  "wool": 4,
+  "synth": 3,
+  "silk": 1
+ },
+ "fibre": {
+  "t": 249,
+  "w": 79,
+  "n_pct": 64,
+  "s_pct": 10,
+  "c_pct": 25,
+  "spandex": 17,
+  "sp": "one",
+  "sample": "stratified sample of 80 across 18 product types, proportional; 249 styles from 395 women's records in /collections/clothing + /collections/white-label-clothing ",
+  "st": "read"
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 1,
+  "comfort": 3,
+  "style": 5
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0",
+  "u": "https://www.proenzaschouler.com/collections/clothing",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "makers": "no",
+  "mills": "no — 'Casentino wool' (a regional cloth type) and 'Eco Cashmere upcycled yarn' named; no mill",
+  "madein": "0% (no country in the feed body or on the PDPs checked)",
+  "heritage": "dated and placed — founded 2002 in New York by Jack McCollough and Lazaro Hernandez; White Label launched 2019; flagship 153 Mercer Street",
+  "process": "no",
+  "urls": [
+   "https://www.proenzaschouler.com/pages/about",
+   "https://www.proenzaschouler.com/products/selena-dress-in-matte-double-crepe-dark-brown"
+  ],
+  "proposed": 1,
+  "reasoning": "Product pages give full compositions but no country, maker or mill, and the about page is design history (2002, New York, CFDA awards) with nothing about making. Nothing about making can be checked: 1.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-14): no named fabric. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 1 (2026-10-14): Product pages give full compositions but no country, maker or mill, and the about page is design history (2002, New York, CFDA awards) with nothing about making. Nothing about making can be checked: 1. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "womens"
 }

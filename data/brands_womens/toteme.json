@@ -197,5 +197,69 @@
   "domain": "toteme.com"
  },
  "depts": 5,
+ "garment_links": {
+  "T-shirt": "https://toteme.com/en-us/collections/tops",
+  "Blouse": "https://toteme.com/en-us/collections/shirts",
+  "Sweater": "https://toteme.com/en-us/collections/knits",
+  "Jeans": "https://toteme.com/en-us/collections/denim",
+  "Trousers": "https://toteme.com/en-us/collections/trousers",
+  "Dress": "https://toteme.com/en-us/collections/dresses",
+  "Outerwear": "https://toteme.com/en-us/collections/outerwear",
+  "Shoes": "https://toteme.com/en-us/collections/shoes"
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 2,
+  "linen": 2,
+  "cotton": 4,
+  "wool": 3,
+  "synth": 2,
+  "silk": 2
+ },
+ "fibre": {
+  "t": 384,
+  "w": 83,
+  "n_pct": 67,
+  "s_pct": 4,
+  "c_pct": 29,
+  "spandex": 10,
+  "sp": "one",
+  "sample": "stratified sample of 83 of 384 women's RTW styles, proportional by product type; census from /en-us/collections/ready-to-wear/products.json (699 products), swim",
+  "st": "read"
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 3,
+  "comfort": 3,
+  "style": 4
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0%",
+  "u": "https://toteme.com/en-us/products/compact-leggings-black",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "no — design atelier in Stockholm; making is by suppliers 'in Europe and China' (/pages/sustainability)",
+  "makers": "yes — the manufacturer is named on 71 of 83 product pages (e.g. Texmade-Têxteis Lda and Confetil, Portugal; Simiz Fashion SRL, Romania; Mergü Tekstil and Orjin Deri, Turkey; Zhejiang Langyi Clothing, ",
+  "mills": "no mill names; fabric origin stated per product ('Material woven in Italy; dyed in Italy', 'knit in Portugal', 'woven in Japan' for denim); certifications RWS/GOTS/OCS/GRS with Control Union licence n",
+  "madein": "59 of 83 product pages state a country (Portugal 21, China 15, Turkey 12, Romania 6, Lithuania 2, Hong Kong 2, Japan 1, ",
+  "heritage": "founded 2014 in Stockholm by Elin Kling and Karl Lindman (/pages/our-story)",
+  "process": "partial — fabric weave/knit and dye country per product; Fair Wear member with audited factories; LWG-certified tanneries for 98% of leather; no description of making itself",
+  "urls": [
+   "https://toteme.com/en-us/products/wool-skater-dress-black",
+   "https://toteme.com/en-us/pages/sustainability-our-approach"
+  ],
+  "proposed": 3,
+  "reasoning": "Every product page names the garment maker, the country of make and where the cloth was woven/knit and dyed — the most verifiable making disclosure in thread 2 so far, backed by a public Open Supply Hub list and Fair Wear audits. But the makers are third-party suppliers, nothing is owned, and the house is 12 years old: 3 (a 4 would need owned or exclusive making).",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-14): no named fabric. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 3 (2026-10-14): Every product page names the garment maker, the country of make and where the cloth was woven/knit and dyed — the most verifiable making disclosure in thread 2 so far, backed by a public Open Supply Hub list and Fair Wear audits. But the makers are third-party suppliers, nothing is owned, and the ho Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "womens"
 }

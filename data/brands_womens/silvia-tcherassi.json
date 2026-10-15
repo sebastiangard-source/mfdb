@@ -149,5 +149,66 @@
   "domain": "silviatcherassi.com"
  },
  "depts": 4,
+ "garment_links": {
+  "Blouse": "https://silviatcherassi.com/collections/tops",
+  "Trousers": "https://silviatcherassi.com/collections/bottoms",
+  "Dress": "https://silviatcherassi.com/collections/dresses",
+  "Outerwear": "https://silviatcherassi.com/collections/outerwear",
+  "Shoes": "https://silviatcherassi.com/collections/footwear"
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 2,
+  "cotton": 3,
+  "wool": 1,
+  "synth": 4,
+  "silk": 3
+ },
+ "fibre": {
+  "t": 669,
+  "w": 73,
+  "n_pct": 38,
+  "s_pct": 23,
+  "c_pct": 32,
+  "spandex": 30,
+  "sp": "one",
+  "sample": "stratified sample of 80 across 7 product types, proportional; 669 styles from the clothing records in /collections/all/products.json (859 total; accessories, ha",
+  "st": "read"
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 2,
+  "comfort": 2,
+  "style": 4
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0",
+  "u": "https://silviatcherassi.com/collections/all-products",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "claim with places — 'Our ateliers in Miami and Bogota' (custom and bespoke Atelier Collection; 'petit mains'); ready-to-wear factory not named",
+  "makers": "no",
+  "mills": "no ('Fabric made in Italy' on one pant)",
+  "madein": "91% (72 of 79 sampled: Colombia 57, Portugal 15)",
+  "heritage": "placed — designer born on Colombia's Caribbean coast; Tcherassi Hotel + Spa, Cartagena, 2009; founding year not found on the pages read",
+  "process": "thin — atelier page describes couture hand work for bespoke pieces, not the ready-to-wear",
+  "urls": [
+   "https://silviatcherassi.com/pages/atelier",
+   "https://silviatcherassi.com/products/tila-dress-pink-green-abstract"
+  ],
+  "proposed": 2,
+  "reasoning": "Nearly every product page states Made in Colombia or Portugal, and the brand names ateliers in Bogotá and Miami, but those are for bespoke pieces, not the ready-to-wear sold online. No factory, maker or mill is named for the range, so it's a 2.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-14): no named fabric. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 2 (2026-10-14): Nearly every product page states Made in Colombia or Portugal, and the brand names ateliers in Bogotá and Miami, but those are for bespoke pieces, not the ready-to-wear sold online. No factory, maker or mill is named for the range, so it's a 2. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "screen"
 }

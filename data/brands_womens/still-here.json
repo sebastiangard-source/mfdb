@@ -179,5 +179,68 @@
   "domain": "stillhere.nyc"
  },
  "depts": 0,
+ "garment_links": {
+  "T-shirt": "https://www.stillhere.nyc/collections/tops",
+  "Blouse": "https://www.stillhere.nyc/collections/tops",
+  "Sweater": "https://www.stillhere.nyc/collections/still-here-knits",
+  "Jeans": "https://www.stillhere.nyc/collections/jeans-1",
+  "Trousers": "https://www.stillhere.nyc/collections/all",
+  "Dress": "https://www.stillhere.nyc/collections/all",
+  "Outerwear": "https://www.stillhere.nyc/collections/jackets"
+ },
+ "fabric": {
+  "denim": 4,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 5,
+  "wool": 2,
+  "synth": 1,
+  "silk": 1
+ },
+ "fibre": {
+  "t": 75,
+  "w": 71,
+  "n_pct": 92,
+  "s_pct": 0,
+  "c_pct": 3,
+  "spandex": 1,
+  "sp": "one",
+  "sample": "census: all 75 women's clothing styles in /products.json (264 products; belts, caps, tote, calendar, gift card and coffee excluded), de-duplicated on the title ",
+  "st": "read"
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 1,
+  "comfort": 3,
+  "style": 3
+ },
+ "tech_evidence": {
+  "names": "Cloud fabric (house name for a 100% cotton denim, 'advanced weaving technology')",
+  "owned": "house name; mill not named",
+  "share": "2 of 75 styles (Sport, Walker in Cloud)",
+  "u": "https://www.stillhere.nyc/products/walker-in-cloud-indigo-indigo",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "no — none claimed; one store (Nolita, 268 Elizabeth St) (/pages/about, PDP store finder)",
+  "makers": "none",
+  "mills": "none",
+  "madein": "2 of 75 styles say 'Made in the USA' (The Henley, The Shirt); jeans state none",
+  "heritage": "NC — 'a New York denim brand'; no founding date or story on the site",
+  "process": "no — fits, rises and inseams documented in the Denim Library, not making",
+  "urls": [
+   "https://www.stillhere.nyc/pages/about",
+   "https://www.stillhere.nyc/pages/denim-library"
+  ],
+  "proposed": 1,
+  "reasoning": "A denim house that says nothing about where or by whom its jeans are made; only two tee styles carry 'Made in the USA'. No mill, maker, facility or dated heritage. 1.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-14): Cloud fabric (house name for a 100% cotton denim, 'advanced weaving technology'). Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 1 (2026-10-14): A denim house that says nothing about where or by whom its jeans are made; only two tee styles carry 'Made in the USA'. No mill, maker, facility or dated heritage. 1. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "womens"
 }

@@ -174,5 +174,66 @@
   "domain": "eberjey.com"
  },
  "depts": 3,
+ "garment_links": {
+  "T-shirt": "https://eberjey.com/collections/women-lounge",
+  "Blouse": "https://eberjey.com/collections/womens-pajamas",
+  "Sweater": "https://eberjey.com/collections/women-lounge",
+  "Trousers": "https://eberjey.com/collections/women-lounge",
+  "Dress": "https://eberjey.com/collections/womens-pajamas"
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 2,
+  "cotton": 3,
+  "wool": 1,
+  "synth": 2,
+  "silk": 4
+ },
+ "fibre": {
+  "t": 170,
+  "w": 71,
+  "n_pct": 47,
+  "s_pct": 3,
+  "c_pct": 45,
+  "spandex": 30,
+  "sp": "one",
+  "sample": "stratified sample of 75 of 170 women's sleep and lounge styles, proportional by product type (Gisele, Silk, Lounge, Other Sleepwear, Robes); census from /produc",
+  "st": "read"
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 1,
+  "comfort": 5,
+  "style": 2
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0%",
+  "u": "https://eberjey.com/products/gisele-tencel-modal-long-pj-set-bordeaux-ivory",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "no — none claimed (/pages/about-us)",
+  "makers": "none",
+  "mills": "none — fibre brands only (LENZING TENCEL™ Modal, EcoVero™, Naia™ acetate, BCI cotton)",
+  "madein": "0 of 75 name a country; 68 say 'Imported'",
+  "heritage": "dated and placed — 'founded in 1996 in Miami, Florida by Ali Mejia and Mariela Rovito' (/pages/about-us)",
+  "process": "no",
+  "urls": [
+   "https://eberjey.com/pages/about-us",
+   "https://eberjey.com/products/gisele-tencel-modal-long-pj-set-bordeaux-ivory"
+  ],
+  "proposed": 1,
+  "reasoning": "The founding is dated and placed (Miami, 1996), but nothing names a maker, mill or country of manufacture; product pages say 'Imported'. Heritage alone, nothing on making.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-14): no named fabric. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 1 (2026-10-14): The founding is dated and placed (Miami, 1996), but nothing names a maker, mill or country of manufacture; product pages say 'Imported'. Heritage alone, nothing on making. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "womens"
 }

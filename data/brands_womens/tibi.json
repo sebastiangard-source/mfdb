@@ -179,5 +179,69 @@
   "domain": "tibi.com"
  },
  "depts": 0,
+ "garment_links": {
+  "T-shirt": "https://www.tibi.com/collections/tops",
+  "Blouse": "https://www.tibi.com/collections/tops",
+  "Sweater": "https://www.tibi.com/collections/knitwear-sweatshirts",
+  "Jeans": "https://www.tibi.com/collections/denim",
+  "Trousers": "https://www.tibi.com/collections/pants-shorts",
+  "Dress": "https://www.tibi.com/collections/dresses",
+  "Outerwear": "https://www.tibi.com/collections/jackets-outerwear",
+  "Shoes": "https://www.tibi.com/collections/shoes"
+ },
+ "fabric": {
+  "denim": 3,
+  "cashmere": 2,
+  "linen": 1,
+  "cotton": 4,
+  "wool": 4,
+  "synth": 4,
+  "silk": 1
+ },
+ "fibre": {
+  "t": 276,
+  "w": 80,
+  "n_pct": 55,
+  "s_pct": 34,
+  "c_pct": 11,
+  "spandex": 23,
+  "sp": "split",
+  "sample": "stratified sample of 80 across 8 product types (plural and tank/tee types folded), proportional; 276 styles from 578 clothing listings in /collections/view-all,",
+  "st": "read"
+ },
+ "focus": {
+  "tech": 2,
+  "craft": 1,
+  "comfort": 3,
+  "style": 4
+ },
+ "tech_evidence": {
+  "names": "house fabric families named per style (Tropical Wool, Feather Weight Viscose Neoprene, Skinlike Mercerized Wool, Crispy Nylon, Active Knit, Bio Twill, Cozy Flannel, Eco Poplin and others)",
+  "owned": "house names for bought cloth; no mill, patent or process claimed",
+  "share": "61% of sample (49 of 80) carries a fabric-family tag; 46% (37) excluding the generic Cashmere, Denim and Nylon groups",
+  "u": "https://www.tibi.com/collections/fundamentals",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "makers": "no",
+  "mills": "no",
+  "madein": "0% (no country on product pages or in the feed)",
+  "heritage": "dated and placed — founded 1997 in Hong Kong by Amy Smilovic; based in New York City",
+  "process": "no",
+  "urls": [
+   "https://www.tibi.com/pages/about-us",
+   "https://www.tibi.com/products/cozy-flannel-side-drape-pant-army-green"
+  ],
+  "proposed": 1,
+  "reasoning": "Product pages give fibre and style number only, with no country, maker or mill. The about page covers the founding and the design philosophy, not making, so it's a 1.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 2 (2026-10-14): house fabric families named per style (Tropical Wool, Feather Weight Viscose Neoprene, Skinlike Mercerized Wool, Crispy Nylon, Active Knit, Bio Twill, Cozy Flannel, Eco Poplin and others). Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 1 (2026-10-14): Product pages give fibre and style number only, with no country, maker or mill. The about page covers the founding and the design philosophy, not making, so it's a 1. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "womens"
 }

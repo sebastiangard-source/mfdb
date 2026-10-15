@@ -205,5 +205,69 @@
   "domain": "alexanderwang.com"
  },
  "depts": 3,
+ "garment_links": {
+  "T-shirt": "https://www.alexanderwang.com/collections/t-shirts",
+  "Blouse": "https://www.alexanderwang.com/collections/tops-shirts",
+  "Sweater": "https://www.alexanderwang.com/collections/sweaters",
+  "Jeans": "https://www.alexanderwang.com/collections/denim",
+  "Trousers": "https://www.alexanderwang.com/collections/pants",
+  "Dress": "https://www.alexanderwang.com/collections/dresses",
+  "Outerwear": "https://www.alexanderwang.com/collections/jackets",
+  "Shoes": "https://www.alexanderwang.com/collections/view-all-shoes"
+ },
+ "fabric": {
+  "denim": 3,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 5,
+  "wool": 3,
+  "synth": 3,
+  "silk": 2
+ },
+ "fibre": {
+  "t": 206,
+  "w": 80,
+  "n_pct": 71,
+  "s_pct": 12,
+  "c_pct": 16,
+  "spandex": 23,
+  "sp": "one",
+  "sample": "stratified sample of 80 of 206 women's clothing styles, proportional by the house's category tag; census from /collections/view-all-womens-clothing/products.jso",
+  "st": "read"
+ },
+ "focus": {
+  "tech": 2,
+  "craft": 1,
+  "comfort": 3,
+  "style": 5
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0%",
+  "u": "https://www.alexanderwang.com/products/mid-rise-trackpant-w-elasticated-wb",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "no — none claimed; the store has no about or brand page",
+  "makers": "none",
+  "mills": "none",
+  "madein": "0 of 80 sampled product pages state a country",
+  "heritage": "NC — no brand history page on the store",
+  "process": "no",
+  "urls": [
+   "https://www.alexanderwang.com/pages/faq",
+   "https://www.alexanderwang.com/products/belted-blazer-dress"
+  ],
+  "proposed": 1,
+  "reasoning": "The US store carries no brand, history or production pages, and no product page in the sample names a country, maker or mill. Nothing checkable on making.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 2 (2026-10-14): no named fabric. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 1 (2026-10-14): The US store carries no brand, history or production pages, and no product page in the sample names a country, maker or mill. Nothing checkable on making. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "screen"
 }

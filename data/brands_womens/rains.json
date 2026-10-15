@@ -164,5 +164,67 @@
   "domain": "rains.com"
  },
  "depts": 5,
+ "garment_links": {
+  "T-shirt": "https://us.rains.com/collections/womens-t-shirts",
+  "Blouse": "https://us.rains.com/collections/womens-clothing",
+  "Sweater": "https://us.rains.com/collections/knitwear/kvinde",
+  "Trousers": "https://us.rains.com/collections/womens-bottoms",
+  "Outerwear": "https://us.rains.com/collections/womens-outerwear",
+  "Shoes": "https://us.rains.com/collections/womens-footwear"
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 3,
+  "wool": 1,
+  "synth": 5,
+  "silk": 1
+ },
+ "fibre": {
+  "t": 75,
+  "w": 76,
+  "n_pct": 20,
+  "s_pct": 80,
+  "c_pct": 0,
+  "spandex": 7,
+  "sp": "split",
+  "sample": "census-like read: 76 of 82 clothing styles in /products.json (287 products, mostly bags and objects); unisex styles appear as '-male' and '-female' products — t",
+  "st": "read"
+ },
+ "focus": {
+  "tech": 2,
+  "craft": 1,
+  "comfort": 3,
+  "style": 3
+ },
+ "tech_evidence": {
+  "names": "NONE by name — the 'coated waterproof fabric' is the house signature; product pages state 'Water column pressure: 5000 mm' and windproofing; Suva Hardshell/Softshell, Alta, Lohja are line names",
+  "owned": "",
+  "share": "waterproof rating stated on ~40% of sampled styles (rain jackets, parkas, rain pants)",
+  "u": "https://us.rains.com/products/long-jacket-female",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "no — none claimed",
+  "makers": "none on the store; Code of Conduct and Modern Slavery statements downloadable (/pages/company)",
+  "mills": "none",
+  "madein": "0 of 76",
+  "heritage": "NC — no founding date or place on the US store (/pages/company)",
+  "process": "no",
+  "urls": [
+   "https://us.rains.com/pages/company",
+   "https://us.rains.com/products/long-jacket-female"
+  ],
+  "proposed": 1,
+  "reasoning": "Only policy documents; no maker, place, date or process. 1.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 2 (2026-10-14): NONE by name — the 'coated waterproof fabric' is the house signature; product pages state 'Water column pressure: 5000 mm' and windproofing; Suva Hardshell/Softshell, Alta, Lohja are line names. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 1 (2026-10-14): Only policy documents; no maker, place, date or process. 1. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "womens"
 }

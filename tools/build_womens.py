@@ -63,6 +63,18 @@ def about_of(b):
     return a if any(a[x] for x in ('sells', 'founded', 'owner', 'sig', 'quote')) else None
 
 
+def fibre_line(b):
+    f = b.get('fibre')
+    if not f or not f.get('t'):
+        return ''
+    if 'n_pct' in f:  # women's record: percentages of a sample
+        return f"{f['t']} styles on the site; of {f['w']} read with a composition, {f['n_pct']}% natural-led, {f['s_pct']}% synthetic, {f['c_pct']}% cellulosic; {f['spandex']} with elastane; {'one cloth story' if f['sp']=='one' else 'two cloth stories' if f['sp']=='split' else f['sp']}."
+    disc = f.get('n', 0) + f.get('s', 0) + f.get('c', 0)
+    if not disc:
+        return ''
+    return f"{f['t']} men's styles counted; of {f['w']} stating a composition, {round(100*f['n']/disc)}% natural-led, {round(100*f['s']/disc)}% synthetic, {round(100*f.get('c',0)/disc)}% cellulosic."
+
+
 def prices_of(b):
     pr = b.get('prices')
     if not pr: return None
@@ -92,7 +104,9 @@ def main():
         brands.append({'n': b['name'], 'band': BAND[b['band']], 'basis': b.get('band_note', ''), 'own': d['n'], 'out': d.get('out', 0), 'con': d.get('con', 0),
                        'tier': tier(d['n']), 'stores': stores, 'ne': sum(1 for s in stores if s['s'] in NE), 'locator': d.get('locator', ''),
                        'read': (d.get('basis') or '').replace('doors_womens ', ''), 'note': d.get('note', ''), 'src': b.get('src', 'womens'),
-                       'prices': prices_of(b), 'lh': bool(b.get('leather_high_held')), 'depts': b.get('depts', 0), 'about': about_of(b), 'm': b.get('band_mean')})
+                       'prices': prices_of(b), 'lh': bool(b.get('leather_high_held')), 'depts': b.get('depts', 0), 'about': about_of(b), 'm': b.get('band_mean'),
+                       'f': b.get('focus') or None, 'fa': b.get('fabric') or None, 'gl': {k.lower(): u for k, u in (b.get('garment_links') or {}).items()} or None,
+                       'fi': fibre_line(b), 'nt': b.get('notes') or {}})
     for kk, b in men.items():
         if kk not in universe: continue
         d = b.get('doors', {}); n = d.get('n') if d.get('c') in ('full', 'count', 'partial') else None
@@ -105,7 +119,9 @@ def main():
         brands.append({'n': b['name'], 'band': BAND[b['band']], 'm': m, 'basis': basis, 'own': n,
                        'out': d.get('out', 0) or 0, 'con': d.get('con', 0) or 0, 'tier': tier(n), 'stores': stores, 'ne': sum(1 for s in stores if s['s'] in NE),
                        'locator': '', 'read': (d.get('basis') or '').split(';')[0].strip(), 'note': 'Also on the men’s map; its stores sell both. Prices and facts are the men’s record.',
-                       'src': 'men', 'prices': prices_of(b), 'lh': False, 'depts': 0, 'about': about_of(b)})
+                       'src': 'men', 'prices': prices_of(b), 'lh': False, 'depts': 0, 'about': about_of(b),
+                       'f': b.get('focus') or None, 'fa': b.get('fabric') or None, 'gl': {k.lower(): u for k, u in (b.get('garment_links') or {}).items()} or None,
+                       'fi': fibre_line(b), 'nt': {k: b['notes'][k] for k in ('tech', 'craft', 'comfort', 'style') if k in (b.get('notes') or {})}})
     brands.sort(key=lambda b: unicodedata.normalize('NFKD', b['n']).encode('ascii', 'ignore').decode().lower().lstrip('.'))  # alphabetical within each band
     nb = collections.Counter(b['band'] for b in brands)
     data = {'built': datetime.date.today().isoformat(), 'brands': brands, 'ne': NE}

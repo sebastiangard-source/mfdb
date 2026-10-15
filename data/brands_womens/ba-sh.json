@@ -215,5 +215,69 @@
   "domain": "ba-sh.com"
  },
  "depts": 4,
+ "garment_links": {
+  "T-shirt": "https://ba-sh.com/us/t-shirts/",
+  "Blouse": "https://ba-sh.com/us/tops-shirts/",
+  "Sweater": "https://ba-sh.com/us/sweaters-cardigans/",
+  "Jeans": "https://ba-sh.com/us/denim/",
+  "Trousers": "https://ba-sh.com/us/pants-jeans/",
+  "Dress": "https://ba-sh.com/us/dresses/",
+  "Outerwear": "https://ba-sh.com/us/jackets-coats/",
+  "Shoes": "https://ba-sh.com/us/shoes-accessories/shoes/"
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 4,
+  "wool": 4,
+  "synth": 4,
+  "silk": 1
+ },
+ "fibre": {
+  "t": 300,
+  "w": 80,
+  "n_pct": 50,
+  "s_pct": 21,
+  "c_pct": 29,
+  "spandex": 13,
+  "sp": "one",
+  "sample": "stratified sample of 80 of 300 clothing styles, proportional by product type; census from /us/clothing/ paged at start=0..480, sz=60 (511 tiles = the page's own",
+  "st": "read"
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 2,
+  "comfort": 3,
+  "style": 3
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0%",
+  "u": "https://ba-sh.com/us/p/shirt-olivio-ecru-3667436116308.html",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "no — none claimed on product pages or the brand pages read",
+  "makers": "none — 0 of 80 sampled product pages name a maker",
+  "mills": "none — fibre trademarks only (LENZING ECOVERO, TENCEL), no cloth mill named",
+  "madein": "76 of 80 sampled product pages (95%) state a country: China 34, India 12, Portugal 8, Turkey 7, Tunisia 7, Morocco 5, It",
+  "heritage": "NC — no dated founding story found; /us/story/ is a campaign page",
+  "process": "no — knit pages give gauge and stitch (e.g. '12-gauge, jersey') but nothing on who makes it",
+  "urls": [
+   "https://ba-sh.com/us/p/shirt-olivio-ecru-3667436116308.html",
+   "https://ba-sh.com/us/p/pullover-suela-fuschia-3667436120633.html"
+  ],
+  "proposed": 2,
+  "reasoning": "Nearly every product page states a country of manufacture (76 of 80), spread across China, India, Turkey, Portugal and North Africa, but no maker, mill or owned facility is named anywhere read. A country on the label and little else is a 2.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-14): no named fabric. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 2 (2026-10-14): Nearly every product page states a country of manufacture (76 of 80), spread across China, India, Turkey, Portugal and North Africa, but no maker, mill or owned facility is named anywhere read. A country on the label and little else is a 2. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "womens"
 }

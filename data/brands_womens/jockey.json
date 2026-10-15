@@ -129,5 +129,64 @@
   "domain": "jockey.com"
  },
  "depts": 3,
+ "garment_links": {
+  "T-shirt": "https://www.jockey.com/catalog/women/activewear.lifestyle-and-casualwear.scrubs/camis-and-tanks.jackets-and-vests.sweatshirts-and-hoodies.tops.cardigans-and-wraps.dresses-skirts-and-skorts.bodysuit",
+  "Trousers": "https://www.jockey.com/catalog/women/activewear.lifestyle-and-casualwear.scrubs/capris.leggings.pants-and-joggers.shorts.dresses-skirts-and-skorts",
+  "Dress": "https://www.jockey.com/catalog/women/activewear.lifestyle-and-casualwear.scrubs/camis-and-tanks.jackets-and-vests.sweatshirts-and-hoodies.tops.cardigans-and-wraps.capris.leggings.pants-and-joggers.shorts.dresses-skirts-and-skorts.bodysuit"
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 5,
+  "wool": 1,
+  "synth": 4,
+  "silk": 1
+ },
+ "fibre": {
+  "t": 127,
+  "w": 79,
+  "n_pct": 57,
+  "s_pct": 35,
+  "c_pct": 8,
+  "spandex": 65,
+  "sp": "split",
+  "sample": "stratified sample of 79 of 127 women's apparel styles (activewear, lifestyle & casual, scrubs, sleep and lounge), proportional by the API's category; census fro",
+  "st": "read"
+ },
+ "focus": {
+  "tech": 2,
+  "craft": 1,
+  "comfort": 5,
+  "style": 1
+ },
+ "tech_evidence": {
+  "names": "EverActive (activewear line; recycled-polyester/spandex and polyester/modal blends); Soft Cool and Supersoft are descriptive names",
+  "owned": "owned line name (EverActive); TENCEL™ modal licensed",
+  "share": "24% (19 of 79 sampled styles are EverActive)",
+  "u": "https://www.jockey.com/catalog/product/jockey-women-everactive-flex-7-8-legging",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "no — a 1920s Kenosha, WI underwear mill is history; 'manufactured in factories across the globe', 'beyond our own facilities' (/ourcompany/ethicalproduction)",
+  "makers": "none",
+  "mills": "none",
+  "madein": "0 of 79 sampled pages give a country; all say 'Imported'",
+  "heritage": "founded 1876 by Reverend Samuel T. Cooper as a hosiery business; Kenosha, Wisconsin mill (/ourcompany/ourstory)",
+  "process": "no — factory compliance only (WRAP co-founder 1997, code of conduct)",
+  "urls": [
+   "https://www.jockey.com/ourcompany/ourstory",
+   "https://www.jockey.com/ourcompany/ethicalproduction"
+  ],
+  "proposed": 1,
+  "reasoning": "A 150-year house, dated and placed, but every product page says only 'Imported'; no maker, mill or process is named, and the ethics page describes audited third-party factories. Heritage alone: 1.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 2 (2026-10-14): EverActive (activewear line; recycled-polyester/spandex and polyester/modal blends); Soft Cool and Supersoft are descriptive names. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 1 (2026-10-14): A 150-year house, dated and placed, but every product page says only 'Imported'; no maker, mill or process is named, and the ethics page describes audited third-party factories. Heritage alone: 1. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "womens"
 }

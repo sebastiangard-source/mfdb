@@ -94,5 +94,59 @@
   "domain": "amsale.com"
  },
  "depts": 4,
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 1,
+  "wool": 1,
+  "synth": 5,
+  "silk": 2
+ },
+ "fibre": {
+  "t": 344,
+  "w": 39,
+  "n_pct": 2,
+  "s_pct": 44,
+  "c_pct": 2,
+  "spandex": 2,
+  "sp": "one",
+  "sample": "stratified sample of 80 across the house's three lines, proportional; 344 styles from 410 listings in /collections/all-ready-to-wear (79), /collections/all-brid",
+  "st": "partial"
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 2,
+  "comfort": 1,
+  "style": 5
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0",
+  "u": "https://amsale.com/collections/all-ready-to-wear",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "claim with place — 'each design is delicately handcrafted using couture dressmaking techniques in AMSALE's New York City atelier'; custom bridal patterned there",
+  "makers": "no",
+  "mills": "no",
+  "madein": "46% (37 of 80, all 'Made in Thailand'; the other 43 pages state no country)",
+  "heritage": "dated and placed — began with the founder's own 1985 wedding dress; headquartered in New York City with a Soho salon; 'over three decades' of couture bridal",
+  "process": "partial — custom bridal page describes sketch, fabric selection, patterning at the NYC atelier and a 16-week fitting process",
+  "urls": [
+   "https://amsale.com/pages/the-designer",
+   "https://amsale.com/products/p854s"
+  ],
+  "proposed": 2,
+  "reasoning": "The house claims every design is handcrafted in its New York atelier and documents the custom-bridal process there. But every product page that states a country says Made in Thailand, evening and bridal alike, so the atelier claim does not hold for the range sold online. That conflict keeps it at 2.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-14): no named fabric. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 2 (2026-10-14): The house claims every design is handcrafted in its New York atelier and documents the custom-bridal process there. But every product page that states a country says Made in Thailand, evening and bridal alike, so the atelier claim does not hold for the range sold online. That conflict keeps it at 2. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "screen"
 }

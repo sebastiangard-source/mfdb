@@ -166,5 +166,68 @@
   "domain": "hatchcollection.com"
  },
  "depts": 3,
+ "garment_links": {
+  "T-shirt": "https://www.hatchcollection.com/collections/maternity-tops",
+  "Blouse": "https://www.hatchcollection.com/collections/maternity-tops",
+  "Sweater": "https://www.hatchcollection.com/collections/maternity-tops",
+  "Jeans": "https://www.hatchcollection.com/collections/denim",
+  "Trousers": "https://www.hatchcollection.com/collections/bottoms",
+  "Dress": "https://www.hatchcollection.com/collections/maternity-dresses",
+  "Outerwear": "https://www.hatchcollection.com/collections/maternity-outerwear"
+ },
+ "fabric": {
+  "denim": 3,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 4,
+  "wool": 2,
+  "synth": 3,
+  "silk": 1
+ },
+ "fibre": {
+  "t": 250,
+  "w": 73,
+  "n_pct": 45,
+  "s_pct": 15,
+  "c_pct": 33,
+  "spandex": 25,
+  "sp": "split",
+  "sample": "stratified sample of 80 across 10 product-type groups, proportional; 252 styles from 383 apparel records in /collections/all/products.json (503 total; beauty, b",
+  "st": "read"
+ },
+ "focus": {
+  "tech": 2,
+  "craft": 2,
+  "comfort": 5,
+  "style": 2
+ },
+ "tech_evidence": {
+  "names": "Bodyflex, Softsculpt, Cloudease, Softest Rib (house knit names; no performance claim found beyond stretch)",
+  "owned": "own names for sourced knits",
+  "share": "about 20% of sampled styles carry a named knit (Bodyflex 4, Softsculpt 4, Softest Rib 4, Cloudease 1, Seamed Stretch 3)",
+  "u": "https://www.hatchcollection.com/products/the-bodyflex-crop-perfect-pant",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "makers": "collab only — Ciao Lucia x HATCH pieces name the partner brand",
+  "mills": "no",
+  "madein": "71% (55 of 78 sampled: China 24, Turkey 14, India 13, Vietnam 3, Peru 1)",
+  "heritage": "dated — 'Founded in 2011 by Ariane Goldman'; no place given",
+  "process": "no",
+  "urls": [
+   "https://www.hatchcollection.com/pages/about",
+   "https://www.hatchcollection.com/products/the-drapey-denim-nora-jumpsuit"
+  ],
+  "proposed": 2,
+  "reasoning": "Most product pages give a country (China, Turkey, India), and the founding is dated (2011). No factory, maker or mill is named, so it's a country-level 2.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 2 (2026-10-14): Bodyflex, Softsculpt, Cloudease, Softest Rib (house knit names; no performance claim found beyond stretch). Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 2 (2026-10-14): Most product pages give a country (China, Turkey, India), and the founding is dated (2011). No factory, maker or mill is named, so it's a country-level 2. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "screen"
 }

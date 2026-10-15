@@ -144,5 +144,67 @@
   "domain": "aflalonyc.com"
  },
  "depts": 0,
+ "garment_links": {
+  "Blouse": "https://aflalonyc.com/collections/tops",
+  "Sweater": "https://aflalonyc.com/collections/sweaters",
+  "Jeans": "https://aflalonyc.com/collections/denim",
+  "Trousers": "https://aflalonyc.com/collections/bottoms",
+  "Dress": "https://aflalonyc.com/collections/dresses",
+  "Outerwear": "https://aflalonyc.com/collections/outerwear"
+ },
+ "fabric": {
+  "denim": 3,
+  "cashmere": 3,
+  "linen": 1,
+  "cotton": 3,
+  "wool": 4,
+  "synth": 2,
+  "silk": 4
+ },
+ "fibre": {
+  "t": 92,
+  "w": 74,
+  "n_pct": 79,
+  "s_pct": 4,
+  "c_pct": 10,
+  "spandex": 2,
+  "sp": "one",
+  "sample": "stratified sample of 80 across 6 product-type groups, proportional; 92 style×fabric titles from 141 clothing listings in /products.json (168 total; jewelry, acc",
+  "st": "read"
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 2,
+  "comfort": 2,
+  "style": 5
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0",
+  "u": "https://aflalonyc.com/collections/all",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "no (a Soho showroom/studio at 56 Greene St, New York; no workshop shown)",
+  "makers": "no",
+  "mills": "no ('Italian' and 'Japanese' cloth named by origin only)",
+  "madein": "89% (71 of 80: Italy 32, New York 18, Los Angeles 10, Mongolia incl. Inner Mongolia 6, China 5)",
+  "heritage": "none — 'founded by Yael Aflalo and her illustrious team'; no year or place given",
+  "process": "no",
+  "urls": [
+   "https://aflalonyc.com/pages/about",
+   "https://aflalonyc.com/products/danika-trouser-pepper"
+  ],
+  "proposed": 2,
+  "reasoning": "Nearly every product page names where it is made (Italy, New York, Los Angeles for denim, Mongolia for cashmere), and fabric lines name the cloth's origin. No workshop, maker or mill is named and the about page is two sentences, so it's a 2.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-14): no named fabric. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 2 (2026-10-14): Nearly every product page names where it is made (Italy, New York, Los Angeles for denim, Mongolia for cashmere), and fabric lines name the cloth's origin. No workshop, maker or mill is named and the about page is two sentences, so it's a 2. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "screen"
 }

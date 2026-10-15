@@ -149,5 +149,66 @@
   "domain": "wenorwegians.us"
  },
  "depts": 0,
+ "garment_links": {
+  "T-shirt": "https://wenorwegians.us/collections/tops-and-tees-women",
+  "Sweater": "https://wenorwegians.us/collections/sweaters-women",
+  "Trousers": "https://wenorwegians.us/collections/bottoms-women-1",
+  "Dress": "https://wenorwegians.us/collections/all",
+  "Outerwear": "https://wenorwegians.us/collections/outerwear-women"
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 3,
+  "linen": 1,
+  "cotton": 3,
+  "wool": 5,
+  "synth": 4,
+  "silk": 1
+ },
+ "fibre": {
+  "t": 118,
+  "w": 79,
+  "n_pct": 70,
+  "s_pct": 25,
+  "c_pct": 5,
+  "spandex": 25,
+  "sp": "split",
+  "sample": "stratified sample of 80 across 6 product-type groups, proportional; 118 styles from 122 women's clothing listings in /products.json (241 total; men's, accessori",
+  "st": "read"
+ },
+ "focus": {
+  "tech": 2,
+  "craft": 2,
+  "comfort": 4,
+  "style": 2
+ },
+ "tech_evidence": {
+  "names": "Südwolle merino yarn (17.5 micron) with Creora Eco-Soft on the Sno base layers; CoolMax blend on the Medalist piqué",
+  "owned": "licensed / bought-in (Südwolle yarn, Creora, CoolMax)",
+  "share": "8% of sample (6 of 79) uses a named licensed fibre or yarn",
+  "u": "https://wenorwegians.us/products/sno-crewneck-base-layer-women-v2",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "makers": "no ('carefully selected suppliers'; Nepal cashmere capsule by unnamed artisans)",
+  "mills": "yes — Südwolle (yarn spinner) on the Sno merino base layers",
+  "madein": "4% (3 of 79: China 2, Nepal 1); some base layers elsewhere state 'Knitted in Denmark, cut & sewn in Poland'",
+  "heritage": "dated and placed — founded 2013, launched 2014 in Norway by Tove Grane and Øyvind Lauritzen; first US store Park City 2018",
+  "process": "thin — yarn count, micron and fabric weight given for base layers; 'traditional Norwegian knitting techniques' claimed without detail",
+  "urls": [
+   "https://wenorwegians.us/pages/about",
+   "https://wenorwegians.us/products/sno-crewneck-base-layer-women-v2"
+  ],
+  "proposed": 2,
+  "reasoning": "One line names its yarn mill (Südwolle) and some base layers say where they are knitted and sewn (Denmark, Poland). The knitwear core names no maker or country, and the about page speaks only of 'carefully selected suppliers', so it's a 2.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 2 (2026-10-14): Südwolle merino yarn (17.5 micron) with Creora Eco-Soft on the Sno base layers; CoolMax blend on the Medalist piqué. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 2 (2026-10-14): One line names its yarn mill (Südwolle) and some base layers say where they are knitted and sewn (Denmark, Poland). The knitwear core names no maker or country, and the about page speaks only of 'carefully selected suppliers', so it's a 2. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "womens"
 }

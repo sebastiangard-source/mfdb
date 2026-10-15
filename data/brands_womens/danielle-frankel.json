@@ -150,5 +150,67 @@
   "domain": "daniellefrankelstudio.com"
  },
  "depts": 0,
+ "garment_links": {
+  "Blouse": "https://www.daniellefrankelstudio.com/collections/bridal",
+  "Sweater": "https://www.daniellefrankelstudio.com/collections/bridal",
+  "Trousers": "https://www.daniellefrankelstudio.com/collections/bridal",
+  "Dress": "https://www.daniellefrankelstudio.com/collections/bridal",
+  "Outerwear": "https://www.daniellefrankelstudio.com/collections/bridal",
+  "Shoes": "https://www.daniellefrankelstudio.com/collections/birkenstock-x-danielle-frankel"
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 2,
+  "cotton": 2,
+  "wool": 1,
+  "synth": 1,
+  "silk": 5
+ },
+ "fibre": {
+  "t": 275,
+  "w": 50,
+  "n_pct": 63,
+  "s_pct": 0,
+  "c_pct": 0,
+  "spandex": null,
+  "sp": "one",
+  "sample": "stratified sample of 80 across 8 product types, proportional; 275 styles from 388 records in /collections/all/products.json; veils, jewellery, shoes, alteration",
+  "st": "partial"
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 3,
+  "comfort": 1,
+  "style": 5
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0",
+  "u": "https://www.daniellefrankelstudio.com/products/adeline",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "claim with a place — PDPs say each gown is 'made to order in the Garment District of New York City' and refer to 'the Danielle Frankel New York Atelier'; no address, photograph or filing found",
+  "makers": "no (the atelier is the brand's own; no outside maker named)",
+  "mills": "no — fabrics named by type (silk wool, Lyon lace, silk organza), no mill",
+  "madein": "52% (41 of 79 sampled carry 'Made in: Garment District, New York City'; the rest have no spec table)",
+  "heritage": "not found on the pages read beyond the designer's name",
+  "process": "partial — PDPs describe hand work specifically (hand-cut and hand-applied silk wool petals, hand-painted silk wool, hand-frayed bias strips) and give lead times (24 weeks, made to order)",
+  "urls": [
+   "https://www.daniellefrankelstudio.com/products/adeline",
+   "https://www.daniellefrankelstudio.com/pages/about"
+  ],
+  "proposed": 3,
+  "reasoning": "About half the product pages state each piece is made to order in New York's Garment District at the brand's own atelier, with specific hand processes and lead times. The atelier is claimed, not shown with an address or photo, and no mills are named. Place-specific own making with documented hand work is a 3; a shown atelier would argue for 4.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-14): no named fabric. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 3 (2026-10-14): About half the product pages state each piece is made to order in New York's Garment District at the brand's own atelier, with specific hand processes and lead times. The atelier is claimed, not shown with an address or photo, and no mills are named. Place-specific own making with documented hand wo Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "screen"
 }

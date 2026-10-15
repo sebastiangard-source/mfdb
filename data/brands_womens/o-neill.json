@@ -155,5 +155,67 @@
   "domain": "oneill.com"
  },
  "depts": 4,
+ "garment_links": {
+  "T-shirt": "https://us.oneill.com/collections/womens-tees-tanks",
+  "Blouse": "https://us.oneill.com/collections/womens-tops",
+  "Sweater": "https://us.oneill.com/collections/womens-sweaters-hoodies-jackets",
+  "Trousers": "https://us.oneill.com/collections/womens-pants",
+  "Dress": "https://us.oneill.com/collections/womens-dresses-rompers-jumpsuits",
+  "Outerwear": "https://us.oneill.com/collections/womens-jackets"
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 5,
+  "wool": 1,
+  "synth": 3,
+  "silk": 1
+ },
+ "fibre": {
+  "t": 331,
+  "w": 80,
+  "n_pct": 55,
+  "s_pct": 19,
+  "c_pct": 26,
+  "spandex": 12,
+  "sp": "split",
+  "sample": "stratified sample of 80 across 13 derived categories, proportional; 331 styles from womens-clothing (599 listings) + womens-snow-jackets + womens-snow-pants fee",
+  "st": "read"
+ },
+ "focus": {
+  "tech": 3,
+  "craft": 1,
+  "comfort": 4,
+  "style": 2
+ },
+ "tech_evidence": {
+  "names": "HyperDry (water-repellent treatment, O'Neill's own); PrimaLoft insulation (licensed); FWC snow line with 20K/20K membrane and 'V-Design Body Mapping'",
+  "owned": "both — HyperDry and V-Design own names; PrimaLoft licensed",
+  "share": "4% (14 of 331 styles name FWC, TRVLR+HyperDry or PrimaLoft)",
+  "u": "https://us.oneill.com/products/fwc-peak-snow-jacket-wht-mount",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "no — nothing on making clothing",
+  "makers": "no",
+  "mills": "no (REPREVE recycled-polyester yarn named on 9 styles, which is a fibre brand, not a mill)",
+  "madein": "0% (no country of make in the feed or on the sampled PDPs)",
+  "heritage": "dated and placed — first surf shop 1952, Great Highway, San Francisco; moved to Santa Cruz in the 1960s (about the wetsuit business, not women's clothing)",
+  "process": "no for clothing — specs give fabric weight (GSM) and yarn singles, not how garments are made",
+  "urls": [
+   "https://us.oneill.com/pages/about-jack-oneill",
+   "https://us.oneill.com/products/og-scape-oversized-tee-tofu"
+  ],
+  "proposed": 1,
+  "reasoning": "The women's clothing pages state fabric and weight but never where or by whom it is made, so nothing about making can be checked. The dated San Francisco and Santa Cruz heritage is about wetsuits and does not cover this range.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 3 (2026-10-14): HyperDry (water-repellent treatment, O'Neill's own); PrimaLoft insulation (licensed); FWC snow line with 20K/20K membrane and 'V-Design Body Mapping'. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 1 (2026-10-14): The women's clothing pages state fabric and weight but never where or by whom it is made, so nothing about making can be checked. The dated San Francisco and Santa Cruz heritage is about wetsuits and does not cover this range. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "screen"
 }

@@ -190,5 +190,68 @@
   "domain": "goodamerican.com"
  },
  "depts": 6,
+ "garment_links": {
+  "T-shirt": "https://www.goodamerican.com/collections/tees-tanks",
+  "Blouse": "https://www.goodamerican.com/collections/womens-tops",
+  "Sweater": "https://www.goodamerican.com/collections/sweaters",
+  "Jeans": "https://www.goodamerican.com/collections/womens-jeans",
+  "Trousers": "https://www.goodamerican.com/collections/the-trouser-shop",
+  "Dress": "https://www.goodamerican.com/collections/dresses",
+  "Outerwear": "https://www.goodamerican.com/collections/outerwear"
+ },
+ "fabric": {
+  "denim": 4,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 5,
+  "wool": 2,
+  "synth": 4,
+  "silk": 1
+ },
+ "fibre": {
+  "t": 573,
+  "w": 76,
+  "n_pct": 61,
+  "s_pct": 23,
+  "c_pct": 9,
+  "spandex": 48,
+  "sp": "one",
+  "sample": "stratified sample of 82 of 573 women's clothing styles, proportional by product type, the ~35 jean fit types (Good Legs, Vintage, Always Fits, Good Waist…) pool",
+  "st": "read"
+ },
+ "focus": {
+  "tech": 2,
+  "craft": 1,
+  "comfort": 4,
+  "style": 3
+ },
+ "tech_evidence": {
+  "names": "Soft Tech (cotton/T400/elastane stretch denim), Compression denim (recycled-cotton/elastomultiester), Power Stretch, Better Than Leather (PU/viscose)",
+  "owned": "house names; T400 (EME) and LYCRA® licensed fibres named in compositions",
+  "share": "~7% of styles (Soft Tech 31, Compression 3, Power Stretch 4 of 573)",
+  "u": "https://www.goodamerican.com/products/soft-tech-good-petite-straight-jeans-black",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "no — none claimed",
+  "makers": "none",
+  "mills": "none",
+  "madein": "0 of 82; product pages give fabric only",
+  "heritage": "NC — no about page on the US store (/pages/about 404; /pages/sustainability redirects to a 'B Corp' product collection)",
+  "process": "no",
+  "urls": [
+   "https://www.goodamerican.com/products/good-legs-straight-jeans-pearl",
+   "https://www.goodamerican.com/collections/b-corp"
+  ],
+  "proposed": 1,
+  "reasoning": "No maker, place, date or process anywhere on the store; B Corp certification is shown but says nothing about making. 1.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 2 (2026-10-14): Soft Tech (cotton/T400/elastane stretch denim), Compression denim (recycled-cotton/elastomultiester), Power Stretch, Better Than Leather (PU/viscose). Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 1 (2026-10-14): No maker, place, date or process anywhere on the store; B Corp certification is shown but says nothing about making. 1. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "womens"
 }

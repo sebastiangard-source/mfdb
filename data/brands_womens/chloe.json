@@ -226,5 +226,69 @@
   "domain": "chloe.com"
  },
  "depts": 4,
+ "garment_links": {
+  "T-shirt": "https://www.chloe.com/en-us/c/ready-to-wear/tshirts",
+  "Blouse": "https://www.chloe.com/en-us/c/ready-to-wear/blouses",
+  "Sweater": "https://www.chloe.com/en-us/c/ready-to-wear/knitwear",
+  "Jeans": "https://www.chloe.com/en-us/c/ready-to-wear/denim",
+  "Trousers": "https://www.chloe.com/en-us/c/ready-to-wear/pants",
+  "Dress": "https://www.chloe.com/en-us/c/ready-to-wear/dresses",
+  "Outerwear": "https://www.chloe.com/en-us/c/ready-to-wear/coats-outerwear",
+  "Shoes": "https://www.chloe.com/en-us/c/shoes"
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 1,
+  "linen": 2,
+  "cotton": 4,
+  "wool": 4,
+  "synth": 2,
+  "silk": 4
+ },
+ "fibre": {
+  "t": 363,
+  "w": 83,
+  "n_pct": 96,
+  "s_pct": 2,
+  "c_pct": 1,
+  "spandex": 3,
+  "sp": "one",
+  "sample": "stratified sample of 83 of 363 ready-to-wear styles (80 proportional by category + 3 denim added after the denim path was found outside /ready-to-wear/); census",
+  "st": "read"
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 2,
+  "comfort": 3,
+  "style": 5
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0%",
+  "u": "https://www.chloe.com/en-us/p/ready-to-wear/dress/CH26WR128102001.html",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "Paris atelier stated (60 people, longest-serving petite main 30 years) — a claim with figures, no named place or photograph of a making facility; no factory ownership stated",
+  "makers": "none — 0 of 83 sampled product pages name a maker",
+  "mills": "none — 0 of 83 sampled pages name a mill",
+  "madein": "0 of 83 sampled product pages state a country",
+  "heritage": "dated and placed — Gaby Aghion, Paris, first collection in the 1950s (1952), year-by-year history page",
+  "process": "partial — atelier page gives runway-making figures (hours per bespoke dress, metres of silk); nothing on how the retail range is made",
+  "urls": [
+   "https://www.chloe.com/en-us/maison/atelier.html",
+   "https://www.chloe.com/en-us/maison/history.html"
+  ],
+  "proposed": 2,
+  "reasoning": "The heritage is dated and placed (Aghion, Paris, 1952) and the atelier page puts numbers on a Paris couture-style workroom, but nothing names where the sold range is made: no country, maker or mill appears on any of 83 sampled product pages. A house history and a runway atelier are not verifiable making for the range; 2 on the heritage alone.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-14): no named fabric. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 2 (2026-10-14): The heritage is dated and placed (Aghion, Paris, 1952) and the atelier page puts numbers on a Paris couture-style workroom, but nothing names where the sold range is made: no country, maker or mill appears on any of 83 sampled product pages. A house history and a runway atelier are not verifiable ma Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "womens"
 }

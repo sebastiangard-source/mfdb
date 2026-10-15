@@ -204,5 +204,68 @@
   "domain": "lalignenyc.com"
  },
  "depts": 3,
+ "garment_links": {
+  "T-shirt": "https://lalignenyc.com/collections/tees",
+  "Blouse": "https://lalignenyc.com/collections/shirts",
+  "Sweater": "https://lalignenyc.com/collections/sweaters",
+  "Jeans": "https://lalignenyc.com/collections/jeans",
+  "Trousers": "https://lalignenyc.com/collections/pants",
+  "Dress": "https://lalignenyc.com/collections/dresses",
+  "Outerwear": "https://lalignenyc.com/collections/outerwear"
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 3,
+  "linen": 1,
+  "cotton": 5,
+  "wool": 3,
+  "synth": 3,
+  "silk": 3
+ },
+ "fibre": {
+  "t": 611,
+  "w": 79,
+  "n_pct": 80,
+  "s_pct": 9,
+  "c_pct": 11,
+  "spandex": 11,
+  "sp": "one",
+  "sample": "stratified sample of 79 of 611 clothing styles, proportional by product type; census from lalignenyc.myshopify.com/products.json (889 products; the storefront d",
+  "st": "read"
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 1,
+  "comfort": 4,
+  "style": 3
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0%",
+  "u": "https://lalignenyc.com/products/wrap-colby-pant-black",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "no — none claimed (https://lalignenyc.com/pages/behind-the-label)",
+  "makers": "none — 0 of 79 sampled product pages name a maker",
+  "mills": "none",
+  "madein": "4 of 79 sampled product pages (5%) state 'Made in New York City'; the rest state no country",
+  "heritage": "vague — founders named (Valerie Macaulay, Meredith Melling, Molly Howard), no founding date or place on the page",
+  "process": "no",
+  "urls": [
+   "https://lalignenyc.com/pages/behind-the-label",
+   "https://lalignenyc.com/products/shelby-shirt-grey"
+  ],
+  "proposed": 1,
+  "reasoning": "The brand page is about the founders and the stripe; it names no factory, mill or date. Four of 79 sampled pages say 'Made in New York City' — a real claim on a handful of tailored pieces, not enough to lift the whole range above nothing checkable.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-14): no named fabric. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 1 (2026-10-14): The brand page is about the founders and the stripe; it names no factory, mill or date. Four of 79 sampled pages say 'Made in New York City' — a real claim on a handful of tailored pieces, not enough to lift the whole range above nothing checkable. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "womens"
 }

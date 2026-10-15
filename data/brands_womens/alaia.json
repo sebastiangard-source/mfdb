@@ -179,5 +179,69 @@
   "domain": "maison-alaia.com"
  },
  "depts": 4,
+ "garment_links": {
+  "T-shirt": "https://www.maison-alaia.com/en-us/cat/ready-to-wear/tops-shirts/",
+  "Blouse": "https://www.maison-alaia.com/en-us/cat/ready-to-wear/tops-shirts/",
+  "Sweater": "https://www.maison-alaia.com/en-us/cat/ready-to-wear/jumpers-cardigans/",
+  "Jeans": "https://www.maison-alaia.com/en-us/cat/ready-to-wear/denim/",
+  "Trousers": "https://www.maison-alaia.com/en-us/cat/ready-to-wear/pants-shorts/",
+  "Dress": "https://www.maison-alaia.com/en-us/cat/ready-to-wear/dresses/",
+  "Outerwear": "https://www.maison-alaia.com/en-us/cat/ready-to-wear/coats-jackets/",
+  "Shoes": "https://www.maison-alaia.com/en-us/cat/shoes/"
+ },
+ "fabric": {
+  "denim": 3,
+  "cashmere": 2,
+  "linen": 2,
+  "cotton": 4,
+  "wool": 3,
+  "synth": 2,
+  "silk": 2
+ },
+ "fibre": {
+  "t": 246,
+  "w": 76,
+  "n_pct": 66,
+  "s_pct": 4,
+  "c_pct": 27,
+  "spandex": 7,
+  "sp": "one",
+  "sample": "stratified sample of 80 across 9 ready-to-wear categories, proportional; 246 style×fabric codes from 321 ready-to-wear listings paged through Search-UpdateGrid ",
+  "st": "read"
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 2,
+  "comfort": 2,
+  "style": 5
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0",
+  "u": "https://www.maison-alaia.com/en-us/cat/ready-to-wear/",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "not shown on the pages read",
+  "makers": "no",
+  "mills": "no (Japanese denim named by country on some jeans)",
+  "madein": "96% (76 of 79: Italy 60, France 6, Japan 5, Portugal 4, Madagascar 1)",
+  "heritage": "not stated on the pages read (no maison-history page in the US store navigation)",
+  "process": "partial — a Homo Faber 2026 page documents a knitted gown with individually cut, hand-sewn silk feathers; the denim page says 'hand-sanded'",
+  "urls": [
+   "https://www.maison-alaia.com/en-us/homo_faber.html",
+   "https://www.maison-alaia.com/en-us/product/dresses/fluid-jersey-dress-AA9R3221J132D995.html"
+  ],
+  "proposed": 2,
+  "reasoning": "Nearly every product page states a country, mostly Italy and some France, and the Homo Faber page documents knitwear savoir-faire on a showpiece gown. No atelier, maker or mill is named for the range sold, and the store carries no house-history page, so it's a 2. I'd expect the record to know more about the Paris atelier than the store shows.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-14): no named fabric. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 2 (2026-10-14): Nearly every product page states a country, mostly Italy and some France, and the Homo Faber page documents knitwear savoir-faire on a showpiece gown. No atelier, maker or mill is named for the range sold, and the store carries no house-history page, so it's a 2. I'd expect the record to know more a Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
  "src": "womens"
 }
