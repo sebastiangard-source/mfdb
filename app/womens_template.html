@@ -155,7 +155,7 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
     <h1>The Womenswear <span class="thin">Spectrum</span></h1>
     <p class="lede">Every women’s brand with a full-price store of its own in the US, placed by price band and shown with its stores. No dials yet: this is the locations map, built from the brands’ own locators, banded by the men’s price rule on the women’s price pass of 13 October.</p>
   </div>
-  <div class="stamp"><b>v0.17 · <span id="built"></span></b>stores counted from the brands’ own locators · bands by the men’s price rule on tee, blouse and sweater</div>
+  <div class="stamp"><b>v0.18 · <span id="built"></span></b>stores counted from the brands’ own locators · bands by the men’s price rule on tee, blouse and sweater</div>
 </header>
 
 <div class="layout">
@@ -199,7 +199,7 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
 
 
 <div id="bands"></div>
-<p class="legend">Band by price rule: <span style="background:var(--basic)"></span>Basic <span style="background:var(--premium)"></span>Premium <span style="background:var(--accessible)"></span>Accessible <span style="background:var(--trueLux)"></span>True Luxury <span style="background:var(--pending)"></span>Pending a price read. An outlined chip is a brand banded on its men’s range.</p>
+<p class="legend">Band by price rule: <span style="background:var(--basic)"></span>Basic <span style="background:var(--premium)"></span>Premium <span style="background:var(--accessible)"></span>Accessible <span style="background:var(--trueLux)"></span>True Luxury. An outlined chip is a brand banded on its men’s range.</p>
 
 
 </div>
@@ -220,7 +220,7 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
 /*__DATA__*/
 const NE=new Set(W.ne);
 const TIERS={mass:'250+',chain:'51–250',network:'13–50',circuit:'4–12',flagship:'1–3'};
-const ORDER=['Basic','Premium','Accessible','True Luxury','Pending'];
+const ORDER=['Basic','Premium','Accessible','True Luxury'];  // Pending (no price read) is not shown
 const RENAME={};  // band -> the name the user gave it
 const bandName=b=>RENAME[b]||b;
 const DEF={Basic:'core tee at or under $35 and core shirt under $80 · mass basics',Premium:'mean of blouse and sweater entry under $200 · contemporary, DTC, mall',Accessible:'$200–600 · designer-adjacent, contemporary luxury',"True Luxury":'over $600 · the houses',Pending:'stores counted, prices not yet read — the women’s price pass bands these as it lands'};
@@ -236,6 +236,7 @@ let TIERS_ON=new Set(), q='';
 const DIAL={};  // key -> threshold
 function dialGet(b,k){if(!k.includes('.')) return b[k]!=null?b[k]:null; const [g,a]=k.split('.'); const o=b[g]; return o&&o[a]!=null?o[a]:null;}
 function matches(b){
+  if(b.band==='Pending') return false;
   for(const k in DIAL){const t=DIAL[k]; if(!t) continue; const v=dialGet(b,k); if(v==null||v<t) return false;}
   if(TIERS_ON.size && !TIERS_ON.has(b.tier)) return false;
   if(q){const s=q.toLowerCase(); if(!(b.n.toLowerCase().includes(s) || b.stores.some(x=>x.c.toLowerCase().includes(s)||x.s.toLowerCase()===s||(ST[x.s]||'').toLowerCase().includes(s)))) return false;}
