@@ -169,5 +169,80 @@
   "domain": "motherdenim.com"
  },
  "depts": 5,
+ "garment_links": {
+  "T-shirt": "https://www.motherdenim.com/collections/tees",
+  "Blouse": "https://www.motherdenim.com/collections/shirts",
+  "Sweater": "https://www.motherdenim.com/collections/sweaters",
+  "Jeans": "https://www.motherdenim.com/collections/denim",
+  "Trousers": "https://www.motherdenim.com/collections/pants",
+  "Dress": "https://www.motherdenim.com/collections/skirts-dresses",
+  "Outerwear": "https://www.motherdenim.com/collections/jackets"
+ },
+ "fabric": {
+  "denim": 5,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 5,
+  "wool": 2,
+  "synth": 2,
+  "silk": 2
+ },
+ "fibre": {
+  "t": 79,
+  "w": 76,
+  "n_pct": 90,
+  "s_pct": 6,
+  "c_pct": 0,
+  "spandex": 29,
+  "sp": "one",
+  "sample": "stratified sample of 79 of 281 women's styles (959 feed records; vendor 'Mother Denim' and tag 'Division: Womens' only, less bags, belts, hats, scarves, socks, ",
+  "st": "read",
+  "clean_pct": 67,
+  "clean_n": 75,
+  "clean_lyo": 8,
+  "ly_pct": 0,
+  "cv_pct": 0
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 3,
+  "comfort": 3,
+  "style": 3
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0",
+  "u": "https://www.motherdenim.com/collections/denim",
+  "checked": "2026-10-15"
+ },
+ "craft_evidence": {
+  "owned": "yes — MOTHER Maker, a Los Angeles sewing contractor acquired June 2023, 50+ employees, about 20% of total sewing capacity (house claim)",
+  "makers": "own unit named (MOTHER Maker); other LA sewing contractors and wash houses unnamed",
+  "mills": "no — 'mills the founders have worked with for over 20 years', none named",
+  "madein": "~72% (57 of 79 sampled pages say 'Made in Los Angeles'); house says 94% of denim and over 90% of all manufacturing is LA",
+  "heritage": "no dated founding on the craft page; LA denim-trade preservation argument with cited employment data",
+  "process": "partly — 1–3 year fabric development with wear-testing; QC staff placed in facilities; no step-by-step making",
+  "urls": [
+   "https://www.motherdenim.com/pages/motherland-craft",
+   "https://www.motherdenim.com/collections/denim"
+  ],
+  "proposed": 3,
+  "reasoning": "An owned sewing unit (MOTHER Maker, acquired 2023) is named and sized, and Los Angeles making is stated on about 72% of product pages and claimed for over 90% of production. But the owned unit does about a fifth of the sewing, and the mills, other contractors and wash houses go unnamed. That is a 3. The case for 4 is the owned unit plus the near-total LA production claim.",
+  "read": "2026-10-15"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-15): no named technical fabric on the site. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 3 (2026-10-15): An owned sewing unit (MOTHER Maker, acquired 2023) is named and sized, and Los Angeles making is stated on about 72% of product pages and claimed for over 90% of production. But the owned unit does about a fifth of the sewing, and the mills, other contractors and wash houses go unnamed. That is a 3. The case for 4 is the owned unit plus the near-total LA production claim. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "denim": "56% of the sampled styles with a composition are in denim (the jeans category or denim cloth); read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cashmere": "0% of the sampled styles with a composition are led by cashmere; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "linen": "0% of the sampled styles with a composition are led by linen; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cotton": "87% of the sampled styles with a composition are led by cotton; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "wool": "5% of the sampled styles with a composition are led by wool (alpaca, mohair and camel counted with it); read 2026-10-15, a sample where the house has more than 80 styles.",
+  "synth": "7% of the sampled styles with a composition are led by a synthetic; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "silk": "1% of the sampled styles with a composition are led by silk; read 2026-10-15, a sample where the house has more than 80 styles."
+ },
  "src": "womens"
 }

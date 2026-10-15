@@ -155,5 +155,79 @@
   "domain": "wiederhoeft.com"
  },
  "depts": 0,
+ "garment_links": {
+  "T-shirt": "https://www.wiederhoeft.com/collections/in-stock",
+  "Blouse": "https://www.wiederhoeft.com/collections/made-to-order",
+  "Jeans": "https://www.wiederhoeft.com/collections/made-to-order",
+  "Trousers": "https://www.wiederhoeft.com/collections/made-to-order",
+  "Dress": "https://www.wiederhoeft.com/collections/in-stock",
+  "Outerwear": "https://www.wiederhoeft.com/collections/made-to-order"
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 1,
+  "linen": 2,
+  "cotton": 3,
+  "wool": 2,
+  "synth": 5,
+  "silk": 4
+ },
+ "fibre": {
+  "t": 77,
+  "w": 76,
+  "n_pct": 48,
+  "s_pct": 43,
+  "c_pct": 6,
+  "spandex": 14,
+  "sp": "split",
+  "sample": "stratified sample of 77 of 117 women's styles (186 feed records less the menswear collection, shoes, veils, gloves, headpieces and accessories = 154 listings, c",
+  "st": "read",
+  "clean_pct": 41,
+  "clean_n": 71,
+  "clean_lyo": 0,
+  "ly_pct": 0,
+  "cv_pct": 7
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 2,
+  "comfort": 1,
+  "style": 5
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0",
+  "u": "https://www.wiederhoeft.com/collections/in-stock",
+  "checked": "2026-10-15"
+ },
+ "craft_evidence": {
+  "owned": "showroom only — New York City showroom for appointments and corset fittings; no workroom located",
+  "makers": "no",
+  "mills": "no",
+  "madein": "~98% (78 of 80 sampled pages say 'Made in New York'); 71 of 80 are made to order with a 24-week lead time",
+  "heritage": "dated — designer Jackson Wiederhoeft (Parsons 2016, then Thom Browne); debut collection October 2019; CFDA/Vogue Fashion Fund finalist 2022",
+  "process": "partly — bridal process described (appointment, corset fitting, 24-week made-to-order, alterations), not the making",
+  "urls": [
+   "https://www.wiederhoeft.com/pages/about-the-process",
+   "https://www.wiederhoeft.com/pages/about"
+  ],
+  "proposed": 2,
+  "reasoning": "Nearly every page says Made in New York and most pieces are made to order with a 24-week lead time, but no workroom, maker or mill is named. City-level making with nothing behind it is a 2, the same as Markarian. The case for 3: the made-to-order and fitting process is documented.",
+  "read": "2026-10-15"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-15): no named technical fabric on the site. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 2 (2026-10-15): Nearly every page says Made in New York and most pieces are made to order with a 24-week lead time, but no workroom, maker or mill is named. City-level making with nothing behind it is a 2, the same as Markarian. The case for 3: the made-to-order and fitting process is documented. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "denim": "3% of the sampled styles with a composition are in denim (the jeans category or denim cloth); read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cashmere": "0% of the sampled styles with a composition are led by cashmere; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "linen": "1% of the sampled styles with a composition are led by linen; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cotton": "16% of the sampled styles with a composition are led by cotton; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "wool": "1% of the sampled styles with a composition are led by wool (alpaca, mohair and camel counted with it); read 2026-10-15, a sample where the house has more than 80 styles.",
+  "synth": "43% of the sampled styles with a composition are led by a synthetic; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "silk": "30% of the sampled styles with a composition are led by silk; read 2026-10-15, a sample where the house has more than 80 styles."
+ },
  "src": "screen"
 }

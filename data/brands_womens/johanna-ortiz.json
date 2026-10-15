@@ -154,5 +154,79 @@
   "domain": "johannaortiz.com"
  },
  "depts": 5,
+ "garment_links": {
+  "Blouse": "https://www.johannaortiz.com/collections/ready-to-wear-tops",
+  "Sweater": "https://www.johannaortiz.com/collections/ready-to-wear-knits",
+  "Trousers": "https://www.johannaortiz.com/collections/ready-to-wear-pants",
+  "Dress": "https://www.johannaortiz.com/collections/ready-to-wear-dresses",
+  "Outerwear": "https://www.johannaortiz.com/collections/ready-to-wear-outerwear",
+  "Shoes": "https://www.johannaortiz.com/collections/ready-to-wear-shoes"
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 2,
+  "linen": 3,
+  "cotton": 4,
+  "wool": 2,
+  "synth": 3,
+  "silk": 4
+ },
+ "fibre": {
+  "t": 80,
+  "w": 77,
+  "n_pct": 62,
+  "s_pct": 11,
+  "c_pct": 22,
+  "spandex": 14,
+  "sp": "one",
+  "sample": "stratified sample of 80 of 372 ready-to-wear styles (913 feed records: swim, pareos, kimonos/cover-ups, shoes, bags, jewellery, belts, hats and the Home tablewa",
+  "st": "read",
+  "clean_pct": 61,
+  "clean_n": 75,
+  "clean_lyo": 0,
+  "ly_pct": 0,
+  "cv_pct": 23
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 5,
+  "comfort": 2,
+  "style": 5
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0",
+  "u": "https://www.johannaortiz.com/collections/ready-to-wear",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "yes, stated with specifics — 'over 90% of production is crafted in-house' at the brand's atelier in Cali, Colombia; on-site training school (Escuela Johanna Ortiz) since 2016",
+  "makers": "partly — product pages say 'Made in Colombia' (the in-house atelier); artisan pieces credit named communities (Iraca – Sandoná, Eperara Siapidara; 23 Colombian communities)",
+  "mills": "no",
+  "madein": "~89% (71 of 80 sampled styles state 'Made in Colombia'; 892 of 913 feed records carry a Made-in line: Colombia, India, I",
+  "heritage": "placed — Cali, Colombia; the school dated 2016; no founding year on the pages read",
+  "process": "partial — atelier, embroidery and artisanal techniques described, limited-quantity pre-order model; no step-by-step process",
+  "urls": [
+   "https://www.johannaortiz.com/pages/the-atelier",
+   "https://www.johannaortiz.com/pages/la-escuela"
+  ],
+  "proposed": 5,
+  "reasoning": "The house says over 90% of production is made in its own Cali atelier, and runs an on-site sewing and embroidery school there (since 2016) that feeds its workforce. 'Made in Colombia' appears on nearly nine in ten product pages. That is a house where the maker and the brand are the same thing. The case for 4 instead: the atelier is the brand's own claim with photographs, not a filing, and no mill ",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-14): no named technical fabric on the site. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 5 (2026-10-14): The house says over 90% of production is made in its own Cali atelier, and runs an on-site sewing and embroidery school there (since 2016) that feeds its workforce. 'Made in Colombia' appears on nearly nine in ten product pages. That is a house where the maker and the brand are the same thing. The case for 4 instead: the atelier is the brand's own claim with photographs, not a filing, and no mill is named. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "denim": "0% of the sampled styles with a composition are in denim (the jeans category or denim cloth); read 2026-10-14, a sample where the house has more than 80 styles.",
+  "cashmere": "1% of the sampled styles with a composition are led by cashmere; read 2026-10-14, a sample where the house has more than 80 styles.",
+  "linen": "10% of the sampled styles with a composition are led by linen; read 2026-10-14, a sample where the house has more than 80 styles.",
+  "cotton": "21% of the sampled styles with a composition are led by cotton; read 2026-10-14, a sample where the house has more than 80 styles.",
+  "wool": "1% of the sampled styles with a composition are led by wool (alpaca, mohair and camel counted with it); read 2026-10-14, a sample where the house has more than 80 styles.",
+  "synth": "12% of the sampled styles with a composition are led by a synthetic; read 2026-10-14, a sample where the house has more than 80 styles.",
+  "silk": "30% of the sampled styles with a composition are led by silk; read 2026-10-14, a sample where the house has more than 80 styles."
+ },
  "src": "womens"
 }

@@ -144,5 +144,75 @@
   "domain": "mestizanewyork.com"
  },
  "depts": 4,
+ "garment_links": {
+  "Blouse": "https://mestizanewyork.com/collections/top-styles",
+  "Sweater": "https://mestizanewyork.com/collections/top-styles",
+  "Trousers": "https://mestizanewyork.com/collections/skirt-styles",
+  "Dress": "https://mestizanewyork.com/collections/dress-styles",
+  "Outerwear": "https://mestizanewyork.com/collections/separates-styles"
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 4,
+  "cotton": 4,
+  "wool": 1,
+  "synth": 4,
+  "silk": 1
+ },
+ "fibre": {
+  "t": 79,
+  "w": 42,
+  "n_pct": 37,
+  "s_pct": 11,
+  "c_pct": 5,
+  "spandex": 4,
+  "sp": "one",
+  "sample": "stratified sample of 80 of 234 styles (376 feed records less swim, cover-ups, accessories, a gift card and loungewear robes = 313 listings, collapsed on title; ",
+  "st": "partial",
+  "ly_pct": 2,
+  "cv_pct": 7
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 1,
+  "comfort": 3,
+  "style": 3
+ },
+ "tech_evidence": {
+  "names": "NONE (Convertible™ is a garment-construction mark, not a fabric)",
+  "owned": "",
+  "share": "0",
+  "u": "https://mestizanewyork.com/collections/the-fashion-week-convertible-collection-2024",
+  "checked": "2026-10-15"
+ },
+ "craft_evidence": {
+  "owned": "no evidence",
+  "makers": "no",
+  "mills": "no",
+  "madein": "0% — no sampled PDP states a country",
+  "heritage": "dated and placed — founded 2015 in New York City by Alessandra Perez-Rubio and Louisa Rechter, inspired by Filipino heirloom dress (barong)",
+  "process": "no",
+  "urls": [
+   "https://mestizanewyork.com/pages/about",
+   "https://mestizanewyork.com/products/suzanna-midi-dress-ivory-41ln04406iv"
+  ],
+  "proposed": 1,
+  "reasoning": "The founding is dated and placed (New York, 2015) and the barong heritage is described, but no product page states a country, maker or mill and no making process is published.",
+  "read": "2026-10-15"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-15): named fabrics NONE (Convertible™ is a garment-construction mark, not a fabric), 0 of the range. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 1 (2026-10-15): The founding is dated and placed (New York, 2015) and the barong heritage is described, but no product page states a country, maker or mill and no making process is published. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "denim": "0% of the sampled styles with a composition are in denim (the jeans category or denim cloth); read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cashmere": "0% of the sampled styles with a composition are led by cashmere; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "linen": "33% of the sampled styles with a composition are led by linen; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cotton": "36% of the sampled styles with a composition are led by cotton; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "wool": "0% of the sampled styles with a composition are led by wool (alpaca, mohair and camel counted with it); read 2026-10-15, a sample where the house has more than 80 styles.",
+  "synth": "21% of the sampled styles with a composition are led by a synthetic; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "silk": "0% of the sampled styles with a composition are led by silk; read 2026-10-15, a sample where the house has more than 80 styles."
+ },
  "src": "screen"
 }

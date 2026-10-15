@@ -176,5 +176,80 @@
   "domain": "nydj.com"
  },
  "depts": 6,
+ "garment_links": {
+  "T-shirt": "https://nydj.com/collections/womens-knits",
+  "Blouse": "https://nydj.com/collections/womens-blouses",
+  "Sweater": "https://nydj.com/collections/womens-sweaters",
+  "Jeans": "https://nydj.com/collections/nydjs-women-jeans",
+  "Trousers": "https://nydj.com/collections/womens-pants",
+  "Dress": "https://nydj.com/collections/skirts",
+  "Outerwear": "https://nydj.com/collections/womens-jackets"
+ },
+ "fabric": {
+  "denim": 5,
+  "cashmere": 2,
+  "linen": 2,
+  "cotton": 5,
+  "wool": 1,
+  "synth": 4,
+  "silk": 2
+ },
+ "fibre": {
+  "t": 80,
+  "w": 76,
+  "n_pct": 59,
+  "s_pct": 25,
+  "c_pct": 11,
+  "spandex": 48,
+  "sp": "split",
+  "sample": "stratified sample of 80 of 218 styles (1,350 feed records less footwear, the Gibsonlook collab vendor and a gift card = 1,298 listings; Missy, Petite and Plus v",
+  "st": "read",
+  "clean_pct": 27,
+  "clean_n": 74,
+  "clean_lyo": 1,
+  "ly_pct": 1,
+  "cv_pct": 11
+ },
+ "focus": {
+  "tech": 4,
+  "craft": 2,
+  "comfort": 4,
+  "style": 1
+ },
+ "tech_evidence": {
+  "names": "Lift Tuck® Technology (patented tummy-panel construction); Sculpt-Her; Sure Stretch; Cool Embrace (Coolmax® polyester); Re-New™ Denim (ISKO Reform™); Waist-Match™; No Gapper™",
+  "owned": "owned: Lift Tuck® (patented), Sculpt-Her, Sure Stretch, Re-New, Waist-Match, No Gapper; licensed: Coolmax®, ISKO Reform™, Lycra®",
+  "share": "~55% (44 of 80 sampled styles name Lift Tuck; 628 of 1,298 listings tagged Lift Tuck)",
+  "u": "https://nydj.com/pages/lift-tuck%C2%AE-technology",
+  "checked": "2026-10-15"
+ },
+ "craft_evidence": {
+  "owned": "no evidence",
+  "makers": "no",
+  "mills": "yes, one line — Re-New denim 'created with ISKO Reform technology and recycled denim from RE&UP'",
+  "madein": "~1% (1 of 80 sampled pages states a country)",
+  "heritage": "dated — founded 2003; no place of making",
+  "process": "construction only (Lift Tuck panel and contoured seams), not making",
+  "urls": [
+   "https://nydj.com/pages/about-us",
+   "https://nydj.com/pages/sustainability"
+  ],
+  "proposed": 2,
+  "reasoning": "One mill (ISKO, plus RE&UP for recycled fibre) is named for one denim line; no factory, maker or country is stated across the range. A named mill on a single line with nothing else is a 2.",
+  "read": "2026-10-15"
+ },
+ "notes": {
+  "tech": "Thread proposed 4 (2026-10-15): named fabrics Lift Tuck® Technology (patented tummy-panel construction); Sculpt-Her; Sure Stretch; Cool Embrace (Coolmax® polyester); Re-New™ Denim (ISKO Reform™); Waist-Match™; No Gapper™, ~55% (44 of 80 sampled styles name Lift Tuck; 628 of 1,298 listings tagged Lift Tuck) of the range. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 2 (2026-10-15): One mill (ISKO, plus RE&UP for recycled fibre) is named for one denim line; no factory, maker or country is stated across the range. A named mill on a single line with nothing else is a 2. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "denim": "42% of the sampled styles with a composition are in denim (the jeans category or denim cloth); read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cashmere": "3% of the sampled styles with a composition are led by cashmere; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "linen": "4% of the sampled styles with a composition are led by linen; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cotton": "54% of the sampled styles with a composition are led by cotton; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "wool": "0% of the sampled styles with a composition are led by wool (alpaca, mohair and camel counted with it); read 2026-10-15, a sample where the house has more than 80 styles.",
+  "synth": "26% of the sampled styles with a composition are led by a synthetic; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "silk": "1% of the sampled styles with a composition are led by silk; read 2026-10-15, a sample where the house has more than 80 styles."
+ },
  "src": "womens"
 }

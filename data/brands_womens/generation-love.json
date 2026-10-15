@@ -164,5 +164,79 @@
   "domain": "generationloveclothing.com"
  },
  "depts": 4,
+ "garment_links": {
+  "Blouse": "https://generationloveclothing.com/collections/tops",
+  "Sweater": "https://generationloveclothing.com/collections/sweaters-and-sweatshirts",
+  "Jeans": "https://generationloveclothing.com/collections/jeans",
+  "Trousers": "https://generationloveclothing.com/collections/pants",
+  "Dress": "https://generationloveclothing.com/collections/dresses",
+  "Outerwear": "https://generationloveclothing.com/collections/outerwear2"
+ },
+ "fabric": {
+  "denim": 3,
+  "cashmere": 1,
+  "linen": 2,
+  "cotton": 4,
+  "wool": 1,
+  "synth": 5,
+  "silk": 2
+ },
+ "fibre": {
+  "t": 80,
+  "w": 80,
+  "n_pct": 31,
+  "s_pct": 49,
+  "c_pct": 20,
+  "spandex": 37,
+  "sp": "one",
+  "sample": "stratified sample of 80 of 363 styles (589 feed records less accessories, jewelry, gift card, pet, slippers, pajamas, wraps and 12 girls' styles = 542 listings,",
+  "st": "read",
+  "clean_pct": 15,
+  "clean_n": 80,
+  "clean_lyo": 3,
+  "ly_pct": 4,
+  "cv_pct": 16
+ },
+ "focus": {
+  "tech": 2,
+  "craft": 1,
+  "comfort": 3,
+  "style": 3
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0",
+  "u": "https://generationloveclothing.com/products/montena-crepe-blazer-black-w00891301",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "no evidence",
+  "makers": "no",
+  "mills": "no",
+  "madein": "<1% — 'Made in Thailand' on 4 of 589 feed records; 'Imported' on 11",
+  "heritage": "dated — launched 2008 by Roni Hirshberg and Audrey Bressa; 'Paris and New York' as inspiration, no place of making",
+  "process": "no",
+  "urls": [
+   "https://generationloveclothing.com/pages/about",
+   "https://generationloveclothing.com/products/brienne-heart-sweater-heather-grey-cream-heart-s00299140"
+  ],
+  "proposed": 1,
+  "reasoning": "A founding year and two founders' names are the only checkable facts. Product pages almost never state a country (4 of 589), and no maker, mill or process is named anywhere on the site.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 2 (2026-10-14): no named technical fabric on the site. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 1 (2026-10-14): A founding year and two founders' names are the only checkable facts. Product pages almost never state a country (4 of 589), and no maker, mill or process is named anywhere on the site. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "denim": "9% of the sampled styles with a composition are in denim (the jeans category or denim cloth); read 2026-10-14, a sample where the house has more than 80 styles.",
+  "cashmere": "0% of the sampled styles with a composition are led by cashmere; read 2026-10-14, a sample where the house has more than 80 styles.",
+  "linen": "8% of the sampled styles with a composition are led by linen; read 2026-10-14, a sample where the house has more than 80 styles.",
+  "cotton": "22% of the sampled styles with a composition are led by cotton; read 2026-10-14, a sample where the house has more than 80 styles.",
+  "wool": "0% of the sampled styles with a composition are led by wool (alpaca, mohair and camel counted with it); read 2026-10-14, a sample where the house has more than 80 styles.",
+  "synth": "49% of the sampled styles with a composition are led by a synthetic; read 2026-10-14, a sample where the house has more than 80 styles.",
+  "silk": "1% of the sampled styles with a composition are led by silk; read 2026-10-14, a sample where the house has more than 80 styles."
+ },
  "src": "screen"
 }

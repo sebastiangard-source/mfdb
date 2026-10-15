@@ -166,5 +166,80 @@
   "domain": "ebdenim.com"
  },
  "depts": 5,
+ "garment_links": {
+  "T-shirt": "https://www.ebdenim.com/collections/tops",
+  "Blouse": "https://www.ebdenim.com/collections/tops",
+  "Sweater": "https://www.ebdenim.com/collections/sweaters",
+  "Jeans": "https://www.ebdenim.com/collections/pants",
+  "Trousers": "https://www.ebdenim.com/collections/pants-1",
+  "Dress": "https://www.ebdenim.com/collections/dresses",
+  "Outerwear": "https://www.ebdenim.com/collections/outerwear"
+ },
+ "fabric": {
+  "denim": 4,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 5,
+  "wool": 2,
+  "synth": 2,
+  "silk": 1
+ },
+ "fibre": {
+  "t": 60,
+  "w": 60,
+  "n_pct": 70,
+  "s_pct": 5,
+  "c_pct": 25,
+  "spandex": 18,
+  "sp": "one",
+  "sample": "all styles read: /products.json 139 listings (1 shipping-insurance record dropped) -> 60 styles by title stem; colourway_ratio 138/60",
+  "st": "read",
+  "clean_pct": 73,
+  "clean_n": 55,
+  "clean_lyo": 10,
+  "ly_pct": 12,
+  "cv_pct": 13
+ },
+ "focus": {
+  "tech": 2,
+  "craft": 2,
+  "comfort": 3,
+  "style": 3
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0",
+  "u": "https://www.ebdenim.com/collections/stretch",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "no evidence — LA flagship store only (217 S La Brea Ave); no factory or workshop named",
+  "makers": "no — no PDP names a maker",
+  "mills": "no — no mill named on any of 139 listings",
+  "madein": "~55% (11 of 20 sampled PDPs carry a 'MADE IN LA' badge; jeans, jackets and knits mostly carry none)",
+  "heritage": "vague — 'Designed in Los Angeles'; no founding date or place on the brand's own story page",
+  "process": "no — 'unparalleled attention to wash technique' only",
+  "urls": [
+   "https://www.ebdenim.com/pages/our-story-1",
+   "https://www.ebdenim.com/products/eero-tee-bone"
+  ],
+  "proposed": 2,
+  "reasoning": "States a place (a 'MADE IN LA' badge) on about half of product pages and nothing else checkable: no owned facility, maker or mill is named, and the story page offers adjectives, not dates or process. Country-only stating is a 2.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 2 (2026-10-14): no named technical fabric on the site. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 2 (2026-10-14): States a place (a 'MADE IN LA' badge) on about half of product pages and nothing else checkable: no owned facility, maker or mill is named, and the story page offers adjectives, not dates or process. Country-only stating is a 2. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "denim": "38% of the sampled styles with a composition are in denim (the jeans category or denim cloth); read 2026-10-14, a sample where the house has more than 80 styles.",
+  "cashmere": "0% of the sampled styles with a composition are led by cashmere; read 2026-10-14, a sample where the house has more than 80 styles.",
+  "linen": "0% of the sampled styles with a composition are led by linen; read 2026-10-14, a sample where the house has more than 80 styles.",
+  "cotton": "63% of the sampled styles with a composition are led by cotton; read 2026-10-14, a sample where the house has more than 80 styles.",
+  "wool": "3% of the sampled styles with a composition are led by wool (alpaca, mohair and camel counted with it); read 2026-10-14, a sample where the house has more than 80 styles.",
+  "synth": "5% of the sampled styles with a composition are led by a synthetic; read 2026-10-14, a sample where the house has more than 80 styles.",
+  "silk": "0% of the sampled styles with a composition are led by silk; read 2026-10-14, a sample where the house has more than 80 styles."
+ },
  "src": "screen"
 }

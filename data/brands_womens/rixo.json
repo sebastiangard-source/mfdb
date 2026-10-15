@@ -163,5 +163,80 @@
   "domain": "rixolondon.com"
  },
  "depts": 0,
+ "garment_links": {
+  "T-shirt": "https://www.rixolondon.com/en-us/collections/tops",
+  "Blouse": "https://www.rixolondon.com/en-us/collections/tops",
+  "Sweater": "https://www.rixolondon.com/en-us/collections/knitwear",
+  "Trousers": "https://www.rixolondon.com/en-us/collections/trousers",
+  "Dress": "https://www.rixolondon.com/en-us/collections/dresses",
+  "Outerwear": "https://www.rixolondon.com/en-us/collections/outerwear",
+  "Shoes": "https://www.rixolondon.com/en-us/collections/rixo-shoes"
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 2,
+  "cotton": 3,
+  "wool": 2,
+  "synth": 3,
+  "silk": 3
+ },
+ "fibre": {
+  "t": 81,
+  "w": 80,
+  "n_pct": 41,
+  "s_pct": 9,
+  "c_pct": 49,
+  "spandex": 8,
+  "sp": "one",
+  "sample": "stratified sample of 81 of 383 clothing styles (806 feed records less jewellery, bags, belts, scarves, shoes, homeware, gift cards = 601 listings, collapsed on ",
+  "st": "read",
+  "clean_pct": 34,
+  "clean_n": 80,
+  "clean_lyo": 0,
+  "ly_pct": 0,
+  "cv_pct": 50
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 1,
+  "comfort": 3,
+  "style": 4
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0",
+  "u": "https://www.rixolondon.com/en-us/collections/clothing",
+  "checked": "2026-10-15"
+ },
+ "craft_evidence": {
+  "owned": "no evidence",
+  "makers": "anecdotal only — 'Mr King', an early London factory owner, in the World of RIXO founding story; no current maker",
+  "mills": "no",
+  "madein": "0% (no sampled product page states a country)",
+  "heritage": "founding story told (two founders, London, first factory, pop-ups) without a date on the page",
+  "process": "no",
+  "urls": [
+   "https://www.rixolondon.com/en-us/pages/world-of-rixo",
+   "https://www.rixolondon.com/en-us/collections/dresses"
+  ],
+  "proposed": 1,
+  "reasoning": "No product page states where it is made, and the only maker named is a London factory from the founding story, not shown as a current supplier. Nothing about current making can be checked: 1.",
+  "read": "2026-10-15"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-15): no named technical fabric on the site. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 1 (2026-10-15): No product page states where it is made, and the only maker named is a London factory from the founding story, not shown as a current supplier. Nothing about current making can be checked: 1. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "denim": "0% of the sampled styles with a composition are in denim (the jeans category or denim cloth); read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cashmere": "0% of the sampled styles with a composition are led by cashmere; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "linen": "1% of the sampled styles with a composition are led by linen; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cotton": "18% of the sampled styles with a composition are led by cotton; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "wool": "8% of the sampled styles with a composition are led by wool (alpaca, mohair and camel counted with it); read 2026-10-15, a sample where the house has more than 80 styles.",
+  "synth": "9% of the sampled styles with a composition are led by a synthetic; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "silk": "9% of the sampled styles with a composition are led by silk; read 2026-10-15, a sample where the house has more than 80 styles."
+ },
  "src": "womens"
 }

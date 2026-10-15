@@ -165,5 +165,80 @@
   "domain": "eliesaab.com"
  },
  "depts": 0,
+ "garment_links": {
+  "Blouse": "https://eliesaab.com/collections/ready-to-wear-all?filter.p.product_type=Tops+and+Blouses",
+  "Sweater": "https://eliesaab.com/collections/ready-to-wear-all?filter.p.product_type=Tops+and+Blouses",
+  "Jeans": "https://eliesaab.com/collections/ready-to-wear-all?filter.p.product_type=Pants+and+Shorts",
+  "Trousers": "https://eliesaab.com/collections/ready-to-wear-all?filter.p.product_type=Pants+and+Shorts",
+  "Dress": "https://eliesaab.com/collections/ready-to-wear-all?filter.p.product_type=Dresses",
+  "Outerwear": "https://eliesaab.com/collections/ready-to-wear-all?filter.p.product_type=Jackets+and+Blazers",
+  "Shoes": "https://eliesaab.com/collections/accessories?filter.p.product_type=Shoes"
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 3,
+  "wool": 2,
+  "synth": 4,
+  "silk": 4
+ },
+ "fibre": {
+  "t": 80,
+  "w": 78,
+  "n_pct": 58,
+  "s_pct": 30,
+  "c_pct": 10,
+  "spandex": 16,
+  "sp": "one",
+  "sample": "stratified sample of 80 of 442 styles (460 RTW listings in /collections/ready-to-wear-all/products.json; style = model number in the handle code + title, so one",
+  "st": "read",
+  "clean_pct": 24,
+  "clean_n": 78,
+  "clean_lyo": 0,
+  "ly_pct": 0,
+  "cv_pct": 10
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 3,
+  "comfort": 1,
+  "style": 5
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0",
+  "u": "https://eliesaab.com/collections/ready-to-wear-all",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "claim with third-party record — a Beirut workshop opened 1982 (15 staff) and Beirut Down Town headquarters from 2005 with couture production and ~220 staff, per a WIPO IP-Advantage case study; nothing",
+  "makers": "no — no PDP names a maker",
+  "mills": "no",
+  "madein": "~22% (18 of 80 sampled PDPs state 'Made in Italy': leather, outerwear, knit, denim; none of 37 dresses)",
+  "heritage": "not on the brand's own site; dated and placed in third-party record (Beirut, 1982)",
+  "process": "no — the site carries show pages and an event page, no making content",
+  "urls": [
+   "https://www.wipo.int/en/web/ip-advantage/w/stories/a-genuis-s-guide-to-cutting-to-the-curve",
+   "https://eliesaab.com/products/gabardine-jacket_grey_j0286nf26po036"
+  ],
+  "proposed": 3,
+  "reasoning": "An owned Beirut atelier is on record (WIPO case study: workshop from 1982, couture production at the Beirut headquarters), but it makes couture, not the ready-to-wear sold on the US store. That ready-to-wear names no maker or mill and states 'Made in Italy' on about a fifth of pages. Between 2 and 4; filed as 3 pending a ruling on whether couture making counts for an RTW row.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-14): no named technical fabric on the site. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 3 (2026-10-14): An owned Beirut atelier is on record (WIPO case study: workshop from 1982, couture production at the Beirut headquarters), but it makes couture, not the ready-to-wear sold on the US store. That ready-to-wear names no maker or mill and states 'Made in Italy' on about a fifth of pages. Between 2 and 4; filed as 3 pending a ruling on whether couture making counts for an RTW row. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "denim": "4% of the sampled styles with a composition are in denim (the jeans category or denim cloth); read 2026-10-14, a sample where the house has more than 80 styles.",
+  "cashmere": "0% of the sampled styles with a composition are led by cashmere; read 2026-10-14, a sample where the house has more than 80 styles.",
+  "linen": "0% of the sampled styles with a composition are led by linen; read 2026-10-14, a sample where the house has more than 80 styles.",
+  "cotton": "12% of the sampled styles with a composition are led by cotton; read 2026-10-14, a sample where the house has more than 80 styles.",
+  "wool": "6% of the sampled styles with a composition are led by wool (alpaca, mohair and camel counted with it); read 2026-10-14, a sample where the house has more than 80 styles.",
+  "synth": "31% of the sampled styles with a composition are led by a synthetic; read 2026-10-14, a sample where the house has more than 80 styles.",
+  "silk": "35% of the sampled styles with a composition are led by silk; read 2026-10-14, a sample where the house has more than 80 styles."
+ },
  "src": "womens"
 }

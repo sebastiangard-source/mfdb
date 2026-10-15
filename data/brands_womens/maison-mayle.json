@@ -173,5 +173,81 @@
   "domain": "maisonmayle.com"
  },
  "depts": 0,
+ "garment_links": {
+  "T-shirt": "https://maisonmayle.com/collections/camis-sleeveless-tops",
+  "Blouse": "https://maisonmayle.com/collections/frontpage",
+  "Sweater": "https://maisonmayle.com/collections/knitwear",
+  "Jeans": "https://maisonmayle.com/collections/pants-bottoms",
+  "Trousers": "https://maisonmayle.com/collections/pants-bottoms",
+  "Dress": "https://maisonmayle.com/collections/dresses",
+  "Outerwear": "https://maisonmayle.com/collections/coats-outerwear",
+  "Shoes": "https://maisonmayle.com/collections/shoes"
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 3,
+  "wool": 3,
+  "synth": 2,
+  "silk": 5
+ },
+ "fibre": {
+  "t": 80,
+  "w": 75,
+  "n_pct": 86,
+  "s_pct": 2,
+  "c_pct": 5,
+  "spandex": 1,
+  "sp": "one",
+  "sample": "stratified sample of 80 of 106 clothing styles (403 feed records less jewelry, bags, accessories, shoes, a gift card = 236 listings, collapsed on title); compos",
+  "st": "read",
+  "clean_pct": 90,
+  "clean_n": 69,
+  "clean_lyo": 0,
+  "ly_pct": 0,
+  "cv_pct": 5
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 2,
+  "comfort": 3,
+  "style": 4
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0",
+  "u": "https://maisonmayle.com/collections/shop-all",
+  "checked": "2026-10-15"
+ },
+ "craft_evidence": {
+  "owned": "no evidence — own NoLita boutique since 1999; no workroom named",
+  "makers": "no",
+  "mills": "no — cloth origins given ('Italian cotton', 'imported Japanese cotton', 'Italian lambskin'), no mill",
+  "madein": "~78% (62 of 80 sampled styles say 'Made in New York' / 'Made in NYC')",
+  "heritage": "dated and placed — label founded Fall 1999 with a NoLita boutique; designer Jane Mayle (born London); paused 2009–2015",
+  "process": "no",
+  "urls": [
+   "https://maisonmayle.com/pages/about-maison-mayle",
+   "https://maisonmayle.com/products/val-d-isere-blouse-13"
+  ],
+  "proposed": 2,
+  "reasoning": "About four in five product pages say 'Made in New York', and the founding is dated and placed (NoLita, 1999), but no workroom, factory or mill is named. A city of making stated across most of the range, with nothing behind it, is a 2.",
+  "read": "2026-10-15"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-15): no named technical fabric on the site. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 2 (2026-10-15): About four in five product pages say 'Made in New York', and the founding is dated and placed (NoLita, 1999), but no workroom, factory or mill is named. A city of making stated across most of the range, with nothing behind it, is a 2. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "denim": "2% of the sampled styles with a composition are in denim (the jeans category or denim cloth); read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cashmere": "0% of the sampled styles with a composition are led by cashmere; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "linen": "0% of the sampled styles with a composition are led by linen; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cotton": "17% of the sampled styles with a composition are led by cotton; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "wool": "12% of the sampled styles with a composition are led by wool (alpaca, mohair and camel counted with it); read 2026-10-15, a sample where the house has more than 80 styles.",
+  "synth": "3% of the sampled styles with a composition are led by a synthetic; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "silk": "60% of the sampled styles with a composition are led by silk; read 2026-10-15, a sample where the house has more than 80 styles."
+ },
  "src": "screen"
 }

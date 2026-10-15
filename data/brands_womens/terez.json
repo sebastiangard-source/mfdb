@@ -138,5 +138,78 @@
   "domain": "terez.com"
  },
  "depts": 4,
+ "garment_links": {
+  "T-shirt": "https://www.terez.com/collections/lounge-tanks-and-tees",
+  "Sweater": "https://www.terez.com/collections/sweaters",
+  "Trousers": "https://www.terez.com/collections/ready-to-wear-bottoms",
+  "Dress": "https://www.terez.com/collections/ready-to-wear-dresses",
+  "Outerwear": "https://www.terez.com/collections/bomber-jackets"
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 5,
+  "wool": 2,
+  "synth": 4,
+  "silk": 1
+ },
+ "fibre": {
+  "t": 80,
+  "w": 70,
+  "n_pct": 60,
+  "s_pct": 24,
+  "c_pct": 4,
+  "spandex": 0,
+  "sp": "split",
+  "sample": "stratified sample of 80 of 125 women's styles (803 feed records; tag 'womens' less girls, kids, bras, swim, sleep, accessories, gift card = 405 listings, one pe",
+  "st": "read",
+  "clean_pct": 100,
+  "clean_n": 27,
+  "clean_lyo": 0,
+  "ly_pct": 0,
+  "cv_pct": 4
+ },
+ "focus": {
+  "tech": 3,
+  "craft": 1,
+  "comfort": 5,
+  "style": 2
+ },
+ "tech_evidence": {
+  "names": "TLC (legging and booty-short knit), Flex, Hi-Shine, DuoKnit, Action; KUYU cotton (Pima fleece used across the licensed crews)",
+  "owned": "owned house names; no fibre maker named",
+  "share": "~19% (15 of 80 sampled styles carry TLC/Flex/Hi-Shine/DuoKnit/Action); KUYU cotton on 137 of 441 women's listings",
+  "u": "https://www.terez.com/collections/all-leggings",
+  "checked": "2026-10-15"
+ },
+ "craft_evidence": {
+  "owned": "no evidence",
+  "makers": "no",
+  "mills": "no",
+  "madein": "0% ('Made in our … fabric' only; no country)",
+  "heritage": "dated — founded 2008 by Zara Terez Tisch; no place of making",
+  "process": "no",
+  "urls": [
+   "https://www.terez.com/pages/about",
+   "https://www.terez.com/collections/ready-to-wear"
+  ],
+  "proposed": 1,
+  "reasoning": "Founding year and founder are stated; no country, maker or mill appears on any page read. 1.",
+  "read": "2026-10-15"
+ },
+ "notes": {
+  "tech": "Thread proposed 3 (2026-10-15): named fabrics TLC (legging and booty-short knit), Flex, Hi-Shine, DuoKnit, Action; KUYU cotton (Pima fleece used across the licensed crews), ~19% (15 of 80 sampled styles carry TLC/Flex/Hi-Shine/DuoKnit/Action); KUYU cotton on 137 of 441 women's listings of the range. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 1 (2026-10-15): Founding year and founder are stated; no country, maker or mill appears on any page read. 1. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "denim": "1% of the sampled styles with a composition are in denim (the jeans category or denim cloth); read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cashmere": "0% of the sampled styles with a composition are led by cashmere; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "linen": "0% of the sampled styles with a composition are led by linen; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cotton": "66% of the sampled styles with a composition are led by cotton; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "wool": "3% of the sampled styles with a composition are led by wool (alpaca, mohair and camel counted with it); read 2026-10-15, a sample where the house has more than 80 styles.",
+  "synth": "27% of the sampled styles with a composition are led by a synthetic; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "silk": "0% of the sampled styles with a composition are led by silk; read 2026-10-15, a sample where the house has more than 80 styles."
+ },
  "src": "screen"
 }

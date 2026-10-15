@@ -131,5 +131,74 @@
   "domain": "misscircle.com"
  },
  "depts": 3,
+ "garment_links": {
+  "Blouse": "https://misscircle.com/collections/tops",
+  "Trousers": "https://misscircle.com/collections/bottoms",
+  "Dress": "https://misscircle.com/collections/all-dresses",
+  "Outerwear": "https://misscircle.com/collections/outerwear"
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 5,
+  "wool": 2,
+  "synth": 1,
+  "silk": 1
+ },
+ "fibre": {
+  "t": 80,
+  "w": 19,
+  "n_pct": 22,
+  "s_pct": 0,
+  "c_pct": 1,
+  "spandex": 2,
+  "sp": "one",
+  "sample": "stratified sample of 80 of ~496 styles (677 feed records less accessories, gloves, jewelry, scarves, socks, swim and underwear = 607 listings; one product per c",
+  "st": "partial",
+  "ly_pct": 5,
+  "cv_pct": 0
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 1,
+  "comfort": 2,
+  "style": 3
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0",
+  "u": "https://misscircle.com/collections/all-dresses",
+  "checked": "2026-10-15"
+ },
+ "craft_evidence": {
+  "owned": "no evidence — a SoHo store and a New York warehouse",
+  "makers": "no",
+  "mills": "no",
+  "madein": "0% — no sampled page states a country",
+  "heritage": "dated and placed — founded in SoHo, New York in 2016 by designer Isabel Deng",
+  "process": "no",
+  "urls": [
+   "https://misscircle.com/pages/about-us",
+   "https://misscircle.com/products/olea-sky-blue-striped-cotton-poplin-ruched-midi-dress"
+  ],
+  "proposed": 1,
+  "reasoning": "The founding is dated and placed (SoHo, 2016), but no product page states a country, maker or mill, and nothing is published about how the clothes are made.",
+  "read": "2026-10-15"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-15): no named technical fabric on the site. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 1 (2026-10-15): The founding is dated and placed (SoHo, 2016), but no product page states a country, maker or mill, and nothing is published about how the clothes are made. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "denim": "1% of the sampled styles with a composition are in denim (the jeans category or denim cloth); read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cashmere": "0% of the sampled styles with a composition are led by cashmere; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "linen": "0% of the sampled styles with a composition are led by linen; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cotton": "89% of the sampled styles with a composition are led by cotton; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "wool": "5% of the sampled styles with a composition are led by wool (alpaca, mohair and camel counted with it); read 2026-10-15, a sample where the house has more than 80 styles.",
+  "synth": "0% of the sampled styles with a composition are led by a synthetic; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "silk": "0% of the sampled styles with a composition are led by silk; read 2026-10-15, a sample where the house has more than 80 styles."
+ },
  "src": "screen"
 }

@@ -164,5 +164,80 @@
   "domain": "monse.com"
  },
  "depts": 3,
+ "garment_links": {
+  "T-shirt": "https://monse.com/collections/tops",
+  "Blouse": "https://monse.com/collections/tops",
+  "Sweater": "https://monse.com/collections/knitwear",
+  "Jeans": "https://monse.com/collections/pants",
+  "Trousers": "https://monse.com/collections/pants",
+  "Dress": "https://monse.com/collections/dresses",
+  "Outerwear": "https://monse.com/collections/jackets-outerwear"
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 3,
+  "wool": 4,
+  "synth": 3,
+  "silk": 3
+ },
+ "fibre": {
+  "t": 80,
+  "w": 66,
+  "n_pct": 60,
+  "s_pct": 14,
+  "c_pct": 9,
+  "spandex": 25,
+  "sp": "one",
+  "sample": "stratified sample of 80 of 141 clothing styles (197 feed records less accessories, handbags, shoes, gift card = 153 listings, collapsed on title); composition f",
+  "st": "read",
+  "clean_pct": 73,
+  "clean_n": 66,
+  "clean_lyo": 1,
+  "ly_pct": 2,
+  "cv_pct": 9
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 2,
+  "comfort": 2,
+  "style": 5
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0",
+  "u": "https://monse.com/collections/dresses",
+  "checked": "2026-10-15"
+ },
+ "craft_evidence": {
+  "owned": "claimed, not located — one PDP (Tie Dress) says 'Crafted in our in-house atelier'; no address or city",
+  "makers": "no",
+  "mills": "no",
+  "madein": "~95% state a country (76 of 80): USA 38, China 34, Turkey 3",
+  "heritage": "founders named (Laura Kim, Fernando Garcia); 'Designed in New York'; no making place",
+  "process": "no",
+  "urls": [
+   "https://monse.com/pages/our-story",
+   "https://monse.com/products/tie-dress"
+  ],
+  "proposed": 2,
+  "reasoning": "Country of making is stated on nearly every product page, split about half USA and half China, and one page claims an in-house atelier without saying where. No maker, mill or process is named. A stated country across the range with an unlocated atelier claim is a 2.",
+  "read": "2026-10-15"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-15): no named technical fabric on the site. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 2 (2026-10-15): Country of making is stated on nearly every product page, split about half USA and half China, and one page claims an in-house atelier without saying where. No maker, mill or process is named. A stated country across the range with an unlocated atelier claim is a 2. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "denim": "1% of the sampled styles with a composition are in denim (the jeans category or denim cloth); read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cashmere": "0% of the sampled styles with a composition are led by cashmere; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "linen": "0% of the sampled styles with a composition are led by linen; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cotton": "20% of the sampled styles with a composition are led by cotton; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "wool": "39% of the sampled styles with a composition are led by wool (alpaca, mohair and camel counted with it); read 2026-10-15, a sample where the house has more than 80 styles.",
+  "synth": "17% of the sampled styles with a composition are led by a synthetic; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "silk": "14% of the sampled styles with a composition are led by silk; read 2026-10-15, a sample where the house has more than 80 styles."
+ },
  "src": "screen"
 }

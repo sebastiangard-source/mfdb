@@ -166,5 +166,80 @@
   "domain": "ruadh.com"
  },
  "depts": 0,
+ "garment_links": {
+  "T-shirt": "https://www.ruadh.com/collections/tops",
+  "Blouse": "https://www.ruadh.com/collections/tops",
+  "Sweater": "https://www.ruadh.com/collections/knits-sweaters",
+  "Jeans": "https://www.ruadh.com/collections/denim",
+  "Trousers": "https://www.ruadh.com/collections/bottoms",
+  "Dress": "https://www.ruadh.com/collections/dresses",
+  "Outerwear": "https://www.ruadh.com/collections/outerwear"
+ },
+ "fabric": {
+  "denim": 4,
+  "cashmere": 2,
+  "linen": 1,
+  "cotton": 5,
+  "wool": 3,
+  "synth": 1,
+  "silk": 1
+ },
+ "fibre": {
+  "t": 70,
+  "w": 69,
+  "n_pct": 96,
+  "s_pct": 0,
+  "c_pct": 3,
+  "spandex": 1,
+  "sp": "one",
+  "sample": "all 70 clothing styles read (114 feed records less the RÙADH x Dévé jewelry, scarves and one untyped record = 101 listings, collapsed on title); composition fro",
+  "st": "read",
+  "clean_pct": 87,
+  "clean_n": 47,
+  "clean_lyo": 0,
+  "ly_pct": 0,
+  "cv_pct": 3
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 4,
+  "comfort": 3,
+  "style": 4
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0",
+  "u": "https://www.ruadh.com/collections/all",
+  "checked": "2026-10-15"
+ },
+ "craft_evidence": {
+  "owned": "no — all making is with named partner factories",
+  "makers": "yes, on nearly every PDP: SAITEX (USA, denim and canvas), Texmade Têxteis (Portugal, jersey), So.Pam Logistica Moda (Cerratina, Italy, shirting, est. 1986), Artigiana (Italy, cashmere), Sacchetti (Ita",
+  "mills": "yes: Lanificio Luigi Ricceri (wool, since 1848), Canclini (shirting, since 1925), Cariaggi (cashmere and merino); leather via Range Revolution (USA)",
+  "madein": "~100% (70 of 70 styles state country and factory)",
+  "heritage": "no dated founding read; B Corp certified",
+  "process": "partly — factory and mill described per product (laundry, water recycling, hardware origin), not step-by-step",
+  "urls": [
+   "https://www.ruadh.com/products/the-dean-pant",
+   "https://www.ruadh.com/products/olympia-jean-andrews"
+  ],
+  "proposed": 4,
+  "reasoning": "Every product page names the factory that made it and where (SAITEX USA, Texmade Portugal, So.Pam Italy, a Hawick knitter), and most name the mill (Ricceri, Canclini, Cariaggi). That is the most verifiable making in the batch. It stops at 4 because the house owns none of it: the makers are partners, not the brand.",
+  "read": "2026-10-15"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-15): no named technical fabric on the site. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 4 (2026-10-15): Every product page names the factory that made it and where (SAITEX USA, Texmade Portugal, So.Pam Italy, a Hawick knitter), and most name the mill (Ricceri, Canclini, Cariaggi). That is the most verifiable making in the batch. It stops at 4 because the house owns none of it: the makers are partners, not the brand. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "denim": "29% of the sampled styles with a composition are in denim (the jeans category or denim cloth); read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cashmere": "4% of the sampled styles with a composition are led by cashmere; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "linen": "0% of the sampled styles with a composition are led by linen; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cotton": "67% of the sampled styles with a composition are led by cotton; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "wool": "16% of the sampled styles with a composition are led by wool (alpaca, mohair and camel counted with it); read 2026-10-15, a sample where the house has more than 80 styles.",
+  "synth": "0% of the sampled styles with a composition are led by a synthetic; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "silk": "0% of the sampled styles with a composition are led by silk; read 2026-10-15, a sample where the house has more than 80 styles."
+ },
  "src": "screen"
 }

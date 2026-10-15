@@ -133,5 +133,78 @@
   "domain": "hurley.com"
  },
  "depts": 4,
+ "garment_links": {
+  "T-shirt": "https://www.hurley.com/collections/womens-t-shirts",
+  "Blouse": "https://www.hurley.com/collections/womens-tops-t-shirts",
+  "Sweater": "https://www.hurley.com/collections/womens-sweatshirts",
+  "Trousers": "https://www.hurley.com/collections/womens-pants-bottoms",
+  "Dress": "https://www.hurley.com/collections/womens-dresses"
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 5,
+  "wool": 1,
+  "synth": 2,
+  "silk": 1
+ },
+ "fibre": {
+  "t": 80,
+  "w": 38,
+  "n_pct": 35,
+  "s_pct": 1,
+  "c_pct": 11,
+  "spandex": 7,
+  "sp": "one",
+  "sample": "stratified sample of 80 of 132 women's clothing styles (482 women's records less 252 swim and boardshorts, 2 wetsuits, 6 rashguards, 22 cover-ups, 15 accessorie",
+  "st": "partial",
+  "clean_pct": 58,
+  "clean_n": 38,
+  "clean_lyo": 0,
+  "ly_pct": 0,
+  "cv_pct": 24
+ },
+ "focus": {
+  "tech": 3,
+  "craft": 1,
+  "comfort": 4,
+  "style": 1
+ },
+ "tech_evidence": {
+  "names": "Phantom (four-way-stretch boardshort cloth, recycled PET, DWR)",
+  "owned": "owned",
+  "share": "0% of women's clothing in scope; Phantom sits on the 15 women's boardshorts, which this job's scope puts with swim",
+  "u": "https://www.hurley.com/pages/phantom-technology",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "no evidence",
+  "makers": "no",
+  "mills": "no",
+  "madein": "0% — no sampled PDP states a country",
+  "heritage": "dated and placed — founded in Southern California in 1999",
+  "process": "no (only the Phantom boardshort spec)",
+  "urls": [
+   "https://www.hurley.com/pages/about",
+   "https://www.hurley.com/products/wavy-days-pant-tfh00062m-white"
+  ],
+  "proposed": 1,
+  "reasoning": "A founding year and region are the only checkable craft facts; no product page in the sample states a country, maker or mill, and nothing on how the clothes are made is published.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 3 (2026-10-14): named fabrics Phantom (four-way-stretch boardshort cloth, recycled PET, DWR), 0% of women's clothing in scope; Phantom sits on the 15 women's boardshorts, which this job's scope puts with swim of the range. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 1 (2026-10-14): A founding year and region are the only checkable craft facts; no product page in the sample states a country, maker or mill, and nothing on how the clothes are made is published. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "denim": "0% of the sampled styles with a composition are in denim (the jeans category or denim cloth); read 2026-10-14, a sample where the house has more than 80 styles.",
+  "cashmere": "0% of the sampled styles with a composition are led by cashmere; read 2026-10-14, a sample where the house has more than 80 styles.",
+  "linen": "0% of the sampled styles with a composition are led by linen; read 2026-10-14, a sample where the house has more than 80 styles.",
+  "cotton": "74% of the sampled styles with a composition are led by cotton; read 2026-10-14, a sample where the house has more than 80 styles.",
+  "wool": "0% of the sampled styles with a composition are led by wool (alpaca, mohair and camel counted with it); read 2026-10-14, a sample where the house has more than 80 styles.",
+  "synth": "3% of the sampled styles with a composition are led by a synthetic; read 2026-10-14, a sample where the house has more than 80 styles.",
+  "silk": "0% of the sampled styles with a composition are led by silk; read 2026-10-14, a sample where the house has more than 80 styles."
+ },
  "src": "screen"
 }

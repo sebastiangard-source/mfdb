@@ -164,5 +164,77 @@
   "domain": "laurenmanoogian.com"
  },
  "depts": 0,
+ "garment_links": {
+  "T-shirt": "https://laurenmanoogian.com/collections/top",
+  "Blouse": "https://laurenmanoogian.com/collections/top",
+  "Sweater": "https://laurenmanoogian.com/collections/top",
+  "Trousers": "https://laurenmanoogian.com/collections/bottom",
+  "Dress": "https://laurenmanoogian.com/collections/dress",
+  "Outerwear": "https://laurenmanoogian.com/collections/outer",
+  "Shoes": "https://laurenmanoogian.com/collections/shoe"
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 2,
+  "cotton": 5,
+  "wool": 5,
+  "synth": 1,
+  "silk": 1
+ },
+ "fibre": {
+  "t": 80,
+  "w": 77,
+  "n_pct": 92,
+  "s_pct": 0,
+  "c_pct": 4,
+  "spandex": 8,
+  "sp": "one",
+  "sample": "stratified sample of 80 of 169 women's clothing styles (481 feed records; range = clothing product types that sit in the women's Outer/Top/Bottom/Dress collecti",
+  "st": "read",
+  "ly_pct": 1,
+  "cv_pct": 3
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 2,
+  "comfort": 5,
+  "style": 4
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0",
+  "u": "https://laurenmanoogian.com/collections/shop",
+  "checked": "2026-10-15"
+ },
+ "craft_evidence": {
+  "owned": "claim, not shown — 'the brand operates between New York and Peru'; no workshop named or photographed on the pages read",
+  "makers": "no",
+  "mills": "no — fibre grades named (Super Baby Alpaca, Suri Alpaca, Pima cotton, Mulberry silk), no spinner or mill",
+  "madein": "~83% (66 of 80 sampled PDPs: 'MADE IN PERU' on most knits, 'MADE IN JAPAN' on wovens)",
+  "heritage": "dated — 'Since 2008', led by Lauren Manoogian and partner Chris Fireoved, New York and Peru",
+  "process": "partial — a HANDKNIT line by name; 'a perceptible hand is maintained, where irregularities are honored'; no process page",
+  "urls": [
+   "https://laurenmanoogian.com/pages/about",
+   "https://laurenmanoogian.com/products/handknit-manta-pullover"
+  ],
+  "proposed": 2,
+  "reasoning": "Over four in five product pages state the country (Peru for knits, Japan for wovens), the about page dates the house to 2008 and says it operates between New York and Peru, and a hand-knit line is named. But no maker, mill or workshop is named or shown, so it sits on the 2/3 line; 3 if the Peru operation can be shown to be the brand's own.",
+  "read": "2026-10-15"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-15): no named technical fabric on the site. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 2 (2026-10-15): Over four in five product pages state the country (Peru for knits, Japan for wovens), the about page dates the house to 2008 and says it operates between New York and Peru, and a hand-knit line is named. But no maker, mill or workshop is named or shown, so it sits on the 2/3 line; 3 if the Peru operation can be shown to be the brand's own. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "denim": "0% of the sampled styles with a composition are in denim (the jeans category or denim cloth); read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cashmere": "0% of the sampled styles with a composition are led by cashmere; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "linen": "1% of the sampled styles with a composition are led by linen; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cotton": "47% of the sampled styles with a composition are led by cotton; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "wool": "42% of the sampled styles with a composition are led by wool (alpaca, mohair and camel counted with it); read 2026-10-15, a sample where the house has more than 80 styles.",
+  "synth": "0% of the sampled styles with a composition are led by a synthetic; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "silk": "0% of the sampled styles with a composition are led by silk; read 2026-10-15, a sample where the house has more than 80 styles."
+ },
  "src": "womens"
 }

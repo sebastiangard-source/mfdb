@@ -160,5 +160,79 @@
   "domain": "simonerocha.com"
  },
  "depts": 5,
+ "garment_links": {
+  "T-shirt": "https://shop-us.simonerocha.com/collections/graphic",
+  "Blouse": "https://shop-us.simonerocha.com/collections/tops",
+  "Sweater": "https://shop-us.simonerocha.com/collections/knits",
+  "Dress": "https://shop-us.simonerocha.com/collections/dresses",
+  "Outerwear": "https://shop-us.simonerocha.com/collections/coats-jackets",
+  "Shoes": "https://shop-us.simonerocha.com/collections/shoes"
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 2,
+  "linen": 1,
+  "cotton": 4,
+  "wool": 3,
+  "synth": 4,
+  "silk": 1
+ },
+ "fibre": {
+  "t": 76,
+  "w": 70,
+  "n_pct": 46,
+  "s_pct": 36,
+  "c_pct": 11,
+  "spandex": 9,
+  "sp": "split",
+  "sample": "stratified sample of 76 of 93 women's styles (363 feed records; vendor Simone Rocha and women's product types only — less men's, bags, jewellery, accessories, s",
+  "st": "read",
+  "clean_pct": 51,
+  "clean_n": 69,
+  "clean_lyo": 3,
+  "ly_pct": 4,
+  "cv_pct": 7
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 1,
+  "comfort": 2,
+  "style": 5
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0",
+  "u": "https://shop-us.simonerocha.com/collections/womenswear",
+  "checked": "2026-10-15"
+ },
+ "craft_evidence": {
+  "owned": "no evidence on the US store",
+  "makers": "no",
+  "mills": "no",
+  "madein": "0% (no sampled page states a country)",
+  "heritage": "none on the store — no about page; collection archive back to 2016 and collaboration stories only",
+  "process": "no",
+  "urls": [
+   "https://shop-us.simonerocha.com/blogs/collections",
+   "https://shop-us.simonerocha.com/collections/womenswear"
+  ],
+  "proposed": 1,
+  "reasoning": "The US store states no country, maker, mill or process anywhere read; embellishment is shown, not documented. On this store's evidence, 1 (a famous name earns nothing).",
+  "read": "2026-10-15"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-15): no named technical fabric on the site. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 1 (2026-10-15): The US store states no country, maker, mill or process anywhere read; embellishment is shown, not documented. On this store's evidence, 1 (a famous name earns nothing). Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "denim": "0% of the sampled styles with a composition are in denim (the jeans category or denim cloth); read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cashmere": "6% of the sampled styles with a composition are led by cashmere; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "linen": "0% of the sampled styles with a composition are led by linen; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cotton": "33% of the sampled styles with a composition are led by cotton; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "wool": "10% of the sampled styles with a composition are led by wool (alpaca, mohair and camel counted with it); read 2026-10-15, a sample where the house has more than 80 styles.",
+  "synth": "39% of the sampled styles with a composition are led by a synthetic; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "silk": "0% of the sampled styles with a composition are led by silk; read 2026-10-15, a sample where the house has more than 80 styles."
+ },
  "src": "womens"
 }

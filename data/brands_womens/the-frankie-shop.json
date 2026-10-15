@@ -169,5 +169,80 @@
   "domain": "thefrankieshop.com"
  },
  "depts": 0,
+ "garment_links": {
+  "T-shirt": "https://thefrankieshop.com/collections/womens-tops",
+  "Blouse": "https://thefrankieshop.com/collections/womens-tops",
+  "Sweater": "https://thefrankieshop.com/collections/womens-knitwear",
+  "Jeans": "https://thefrankieshop.com/collections/womens-denim-clothing",
+  "Trousers": "https://thefrankieshop.com/collections/womens-bottoms",
+  "Dress": "https://thefrankieshop.com/collections/womens-dresses",
+  "Outerwear": "https://thefrankieshop.com/collections/womens-outerwear"
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 1,
+  "linen": 2,
+  "cotton": 4,
+  "wool": 3,
+  "synth": 5,
+  "silk": 1
+ },
+ "fibre": {
+  "t": 80,
+  "w": 80,
+  "n_pct": 38,
+  "s_pct": 49,
+  "c_pct": 12,
+  "spandex": 21,
+  "sp": "one",
+  "sample": "stratified sample of 80 of 934 women's styles (/collections/womens-clothing: 1,993 records, vendor 'The Frankie Shop' only, less swim, bralettes, pyjamas, bathr",
+  "st": "read",
+  "clean_pct": 18,
+  "clean_n": 77,
+  "clean_lyo": 0,
+  "ly_pct": 4,
+  "cv_pct": 9
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 2,
+  "comfort": 3,
+  "style": 4
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0",
+  "u": "https://thefrankieshop.com/collections/womens-clothing",
+  "checked": "2026-10-15"
+ },
+ "craft_evidence": {
+  "owned": "no evidence",
+  "makers": "no",
+  "mills": "no",
+  "madein": "~99% (79 of 80 sampled pages state a country): South Korea 50, China 13, Serbia 4, France, Morocco, Portugal 2 each, oth",
+  "heritage": "none read on the store",
+  "process": "no",
+  "urls": [
+   "https://thefrankieshop.com/collections/womens-clothing",
+   "https://thefrankieshop.com/products/gaia-double-breasted-coat-black"
+  ],
+  "proposed": 2,
+  "reasoning": "Nearly every product page states a country (mostly South Korea), but no maker, mill, factory or process is named. A stated country across the range with nothing behind it is a 2.",
+  "read": "2026-10-15"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-15): no named technical fabric on the site. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 2 (2026-10-15): Nearly every product page states a country (mostly South Korea), but no maker, mill, factory or process is named. A stated country across the range with nothing behind it is a 2. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "denim": "2% of the sampled styles with a composition are in denim (the jeans category or denim cloth); read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cashmere": "0% of the sampled styles with a composition are led by cashmere; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "linen": "1% of the sampled styles with a composition are led by linen; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cotton": "21% of the sampled styles with a composition are led by cotton; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "wool": "12% of the sampled styles with a composition are led by wool (alpaca, mohair and camel counted with it); read 2026-10-15, a sample where the house has more than 80 styles.",
+  "synth": "49% of the sampled styles with a composition are led by a synthetic; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "silk": "0% of the sampled styles with a composition are led by silk; read 2026-10-15, a sample where the house has more than 80 styles."
+ },
  "src": "womens"
 }

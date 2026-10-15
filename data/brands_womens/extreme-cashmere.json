@@ -137,5 +137,78 @@
   "domain": "extreme-cashmere.com"
  },
  "depts": 0,
+ "garment_links": {
+  "T-shirt": "https://www.extreme-cashmere.com/collections/cashmere-t-shirts",
+  "Sweater": "https://www.extreme-cashmere.com/collections/cashmere-sweaters",
+  "Trousers": "https://www.extreme-cashmere.com/collections/cashmere-pants",
+  "Dress": "https://www.extreme-cashmere.com/collections/cashmere-dresses",
+  "Outerwear": "https://www.extreme-cashmere.com/collections/jackets"
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 5,
+  "linen": 1,
+  "cotton": 4,
+  "wool": 3,
+  "synth": 1,
+  "silk": 1
+ },
+ "fibre": {
+  "t": 80,
+  "w": 80,
+  "n_pct": 100,
+  "s_pct": 0,
+  "c_pct": 0,
+  "spandex": 28,
+  "sp": "one",
+  "sample": "stratified sample of 80 of 129 clothing styles (138 feed records less 8 accessories and a comb; one product per style, colours are variants); composition read f",
+  "st": "read",
+  "clean_pct": 62,
+  "clean_n": 78,
+  "clean_lyo": 0,
+  "ly_pct": 0,
+  "cv_pct": 0
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 2,
+  "comfort": 5,
+  "style": 3
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0",
+  "u": "https://www.extreme-cashmere.com/pages/cashmere-quality",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "no — 'production is handled in china'; own team 'on location' with makers, design studio in Amsterdam; no factory owned or named",
+  "makers": "no",
+  "mills": "no — fibre origin stated as Inner Mongolia, no spinner named",
+  "madein": "brand-level only: the quality page says production is in China; 0 of 80 sampled PDPs state a country",
+  "heritage": "dated — founded 2016 by Saskia Dijkstra; Amsterdam studio",
+  "process": "partial — hand-embroidered flag detail on cuff/hem; fibre from neck and abdomen at moulting; no making process",
+  "urls": [
+   "https://www.extreme-cashmere.com/pages/cashmere-quality",
+   "https://www.extreme-cashmere.com/pages/how-extreme-cashmere-began"
+  ],
+  "proposed": 2,
+  "reasoning": "The quality page states the production country (China), the fibre region (Inner Mongolia) and that the brand keeps its own team on location, but names no maker, mill or spinner and owns nothing. Founding is dated (2016, Saskia Dijkstra). A country and a fibre origin and little else is a 2.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-14): no named technical fabric on the site. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 2 (2026-10-14): The quality page states the production country (China), the fibre region (Inner Mongolia) and that the brand keeps its own team on location, but names no maker, mill or spinner and owns nothing. Founding is dated (2016, Saskia Dijkstra). A country and a fibre origin and little else is a 2. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "denim": "0% of the sampled styles with a composition are in denim (the jeans category or denim cloth); read 2026-10-14, a sample where the house has more than 80 styles.",
+  "cashmere": "62% of the sampled styles with a composition are led by cashmere; read 2026-10-14, a sample where the house has more than 80 styles.",
+  "linen": "0% of the sampled styles with a composition are led by linen; read 2026-10-14, a sample where the house has more than 80 styles.",
+  "cotton": "25% of the sampled styles with a composition are led by cotton; read 2026-10-14, a sample where the house has more than 80 styles.",
+  "wool": "12% of the sampled styles with a composition are led by wool (alpaca, mohair and camel counted with it); read 2026-10-14, a sample where the house has more than 80 styles.",
+  "synth": "0% of the sampled styles with a composition are led by a synthetic; read 2026-10-14, a sample where the house has more than 80 styles.",
+  "silk": "0% of the sampled styles with a composition are led by silk; read 2026-10-14, a sample where the house has more than 80 styles."
+ },
  "src": "womens"
 }

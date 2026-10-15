@@ -143,5 +143,78 @@
   "domain": "gracelingofficial.com"
  },
  "depts": 3,
+ "garment_links": {
+  "Blouse": "https://gracelingofficial.com/collections/tops",
+  "Sweater": "https://gracelingofficial.com/collections/tops",
+  "Trousers": "https://gracelingofficial.com/collections/bottoms",
+  "Dress": "https://gracelingofficial.com/collections/dresses",
+  "Outerwear": "https://gracelingofficial.com/collections/outerwear"
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 2,
+  "wool": 3,
+  "synth": 3,
+  "silk": 4
+ },
+ "fibre": {
+  "t": 80,
+  "w": 41,
+  "n_pct": 31,
+  "s_pct": 5,
+  "c_pct": 15,
+  "spandex": 4,
+  "sp": "split",
+  "sample": "stratified sample of 80 of 127 styles (244 feed records less 20 bags, 9 jewelry, 3 accessories and a home object = 211 listings, collapsed on the title before '",
+  "st": "partial",
+  "clean_pct": 67,
+  "clean_n": 30,
+  "clean_lyo": 0,
+  "ly_pct": 0,
+  "cv_pct": 29
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 2,
+  "comfort": 2,
+  "style": 5
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0",
+  "u": "https://gracelingofficial.com/pages/about",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "claim only — 'a fashion label founded on 3D-printing and CGI technology'; no workshop named or shown; one NYC store",
+  "makers": "no",
+  "mills": "no — 'Italian viscose', 'Italian lux viscose' and 'Italian calf' are origin words, no mill",
+  "madein": "~4% (3 of 80 sampled styles state 'MADE IN NEW YORK'; 51 'made/crafted in' hits across the feed are mostly cloth descrip",
+  "heritage": "vague — no founding date or place on the about page",
+  "process": "partial — 3D-printed metal trims and CGI pattern work for zero-waste cutting are described, not shown",
+  "urls": [
+   "https://gracelingofficial.com/pages/about",
+   "https://gracelingofficial.com/products/ss26-pre-order-belt-collar-cocoon-coat"
+  ],
+  "proposed": 2,
+  "reasoning": "A few pages state 'Made in New York', and the about page describes a 3D-printing and CGI method for the metal hardware and patterns. No workshop, maker or mill is named and nothing is dated. A place on a few pages plus an undocumented method is a 2.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-14): no named technical fabric on the site. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 2 (2026-10-14): A few pages state 'Made in New York', and the about page describes a 3D-printing and CGI method for the metal hardware and patterns. No workshop, maker or mill is named and nothing is dated. A place on a few pages plus an undocumented method is a 2. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "denim": "0% of the sampled styles with a composition are in denim (the jeans category or denim cloth); read 2026-10-14, a sample where the house has more than 80 styles.",
+  "cashmere": "0% of the sampled styles with a composition are led by cashmere; read 2026-10-14, a sample where the house has more than 80 styles.",
+  "linen": "0% of the sampled styles with a composition are led by linen; read 2026-10-14, a sample where the house has more than 80 styles.",
+  "cotton": "7% of the sampled styles with a composition are led by cotton; read 2026-10-14, a sample where the house has more than 80 styles.",
+  "wool": "17% of the sampled styles with a composition are led by wool (alpaca, mohair and camel counted with it); read 2026-10-14, a sample where the house has more than 80 styles.",
+  "synth": "10% of the sampled styles with a composition are led by a synthetic; read 2026-10-14, a sample where the house has more than 80 styles.",
+  "silk": "29% of the sampled styles with a composition are led by silk; read 2026-10-14, a sample where the house has more than 80 styles."
+ },
  "src": "screen"
 }

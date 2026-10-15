@@ -142,5 +142,77 @@
   "domain": "nike.com"
  },
  "depts": 3,
+ "garment_links": {
+  "T-shirt": "https://www.nike.com/w/womens-jordan-tops-t-shirts-37eefz5e1x6z9om13",
+  "Trousers": "https://www.nike.com/w/womens-jordan-pants-and-tights-2kq19z37eefz5e1x6",
+  "Dress": "https://www.nike.com/w/womens-jordan-skirts-and-dresses-37eefz5e1x6z8y3qp",
+  "Outerwear": "https://www.nike.com/w/womens-jordan-jackets-vests-37eefz50r7yz5e1x6"
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 5,
+  "wool": 1,
+  "synth": 4,
+  "silk": 1
+ },
+ "fibre": {
+  "t": 79,
+  "w": 79,
+  "n_pct": 62,
+  "s_pct": 32,
+  "c_pct": 6,
+  "spandex": 20,
+  "sp": "one",
+  "sample": "stratified sample of 80 of 224 styles (242 wall tiles / 487 colourway records collapsed on the style prefix of the product code, e.g. IQ4019; socks, sports bras",
+  "st": "read",
+  "clean_pct": 30,
+  "clean_n": 79,
+  "clean_lyo": 0,
+  "ly_pct": 0,
+  "cv_pct": 6
+ },
+ "focus": {
+  "tech": 4,
+  "craft": 1,
+  "comfort": 4,
+  "style": 2
+ },
+ "tech_evidence": {
+  "names": "Dri-FIT; Therma-FIT; Aero-FIT (Nike)",
+  "owned": "owned (by parent Nike)",
+  "share": "~20% (45 of 223 styles name Dri-FIT, Therma-FIT or Aero-FIT; 17 of the 79 sampled)",
+  "u": "https://www.nike.com/t/jordan-sport-womens-dri-fit-tank-top-PVCFs8/HQ8905-631",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "no — PDPs say 'Imported'; no factory named on the brand's pages",
+  "makers": "no",
+  "mills": "no",
+  "madein": "0% by country — every sampled PDP says only 'Imported'",
+  "heritage": "not stated on the women's pages read",
+  "process": "no",
+  "urls": [
+   "https://www.nike.com/t/jordan-brooklyn-womens-long-sleeve-jersey-5TvMeywQ/IQ4019-100",
+   "https://www.nike.com/w/womens-jordan-clothing-37eefz5e1x6z6ymx6"
+  ],
+  "proposed": 1,
+  "reasoning": "Every sampled product page says 'Imported' and nothing else about where or by whom it is made; no maker, mill, facility or process is published for the women's clothing. A famous name earns nothing.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 4 (2026-10-14): named fabrics Dri-FIT; Therma-FIT; Aero-FIT (Nike), ~20% (45 of 223 styles name Dri-FIT, Therma-FIT or Aero-FIT; 17 of the 79 sampled) of the range. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 1 (2026-10-14): Every sampled product page says 'Imported' and nothing else about where or by whom it is made; no maker, mill, facility or process is published for the women's clothing. A famous name earns nothing. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "denim": "0% of the sampled styles with a composition are in denim (the jeans category or denim cloth); read 2026-10-14, a sample where the house has more than 80 styles.",
+  "cashmere": "0% of the sampled styles with a composition are led by cashmere; read 2026-10-14, a sample where the house has more than 80 styles.",
+  "linen": "0% of the sampled styles with a composition are led by linen; read 2026-10-14, a sample where the house has more than 80 styles.",
+  "cotton": "62% of the sampled styles with a composition are led by cotton; read 2026-10-14, a sample where the house has more than 80 styles.",
+  "wool": "0% of the sampled styles with a composition are led by wool (alpaca, mohair and camel counted with it); read 2026-10-14, a sample where the house has more than 80 styles.",
+  "synth": "32% of the sampled styles with a composition are led by a synthetic; read 2026-10-14, a sample where the house has more than 80 styles.",
+  "silk": "0% of the sampled styles with a composition are led by silk; read 2026-10-14, a sample where the house has more than 80 styles."
+ },
  "src": "screen"
 }

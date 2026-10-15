@@ -160,5 +160,79 @@
   "domain": "shoplapointe.com"
  },
  "depts": 4,
+ "garment_links": {
+  "Blouse": "https://shoplapointe.com/collections/tops",
+  "Sweater": "https://shoplapointe.com/collections/knitwear",
+  "Jeans": "https://shoplapointe.com/collections/bottoms",
+  "Trousers": "https://shoplapointe.com/collections/bottoms",
+  "Dress": "https://shoplapointe.com/collections/dresses",
+  "Outerwear": "https://shoplapointe.com/collections/outerwear"
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 2,
+  "linen": 1,
+  "cotton": 2,
+  "wool": 2,
+  "synth": 5,
+  "silk": 2
+ },
+ "fibre": {
+  "t": 80,
+  "w": 66,
+  "n_pct": 19,
+  "s_pct": 39,
+  "c_pct": 25,
+  "spandex": 24,
+  "sp": "one",
+  "sample": "stratified sample of 80 of 184 styles (343 feed records less 25 accessories and a gift card = 307 listings, collapsed on title); composition from body_html (286",
+  "st": "read",
+  "clean_pct": 21,
+  "clean_n": 62,
+  "clean_lyo": 0,
+  "ly_pct": 0,
+  "cv_pct": 30
+ },
+ "focus": {
+  "tech": 2,
+  "craft": 1,
+  "comfort": 2,
+  "style": 5
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0",
+  "u": "https://shoplapointe.com/collections/all",
+  "checked": "2026-10-15"
+ },
+ "craft_evidence": {
+  "owned": "no — a Soho showroom for appointments; no workshop or factory named",
+  "makers": "no",
+  "mills": "no",
+  "madein": "0% — no sampled page states a country",
+  "heritage": "dated and placed — begun in downtown New York City in 2010 by Sally LaPointe and her business partner Sarah",
+  "process": "no",
+  "urls": [
+   "https://shoplapointe.com/pages/about",
+   "https://shoplapointe.com/products/cashmere-silk-turtleneck-poppy"
+  ],
+  "proposed": 1,
+  "reasoning": "The founding story is dated and placed (New York, 2010), but no product page in the sample states a country, maker or mill, and no making process is published.",
+  "read": "2026-10-15"
+ },
+ "notes": {
+  "tech": "Thread proposed 2 (2026-10-15): no named technical fabric on the site. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 1 (2026-10-15): The founding story is dated and placed (New York, 2010), but no product page in the sample states a country, maker or mill, and no making process is published. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "denim": "2% of the sampled styles with a composition are in denim (the jeans category or denim cloth); read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cashmere": "6% of the sampled styles with a composition are led by cashmere; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "linen": "0% of the sampled styles with a composition are led by linen; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cotton": "6% of the sampled styles with a composition are led by cotton; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "wool": "6% of the sampled styles with a composition are led by wool (alpaca, mohair and camel counted with it); read 2026-10-15, a sample where the house has more than 80 styles.",
+  "synth": "47% of the sampled styles with a composition are led by a synthetic; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "silk": "3% of the sampled styles with a composition are led by silk; read 2026-10-15, a sample where the house has more than 80 styles."
+ },
  "src": "screen"
 }

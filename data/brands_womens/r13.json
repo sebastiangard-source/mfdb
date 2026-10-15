@@ -174,5 +174,81 @@
   "domain": "r13.com"
  },
  "depts": 5,
+ "garment_links": {
+  "T-shirt": "https://www.r13.com/collections/tees-tanks",
+  "Blouse": "https://www.r13.com/collections/tops-and-sweatshirts",
+  "Sweater": "https://www.r13.com/collections/sweaters",
+  "Jeans": "https://www.r13.com/collections/womens-denim",
+  "Trousers": "https://www.r13.com/collections/pants-shorts",
+  "Dress": "https://www.r13.com/collections/dresses-skirts",
+  "Outerwear": "https://www.r13.com/collections/jackets-and-coats",
+  "Shoes": "https://www.r13.com/collections/womens-shoes"
+ },
+ "fabric": {
+  "denim": 3,
+  "cashmere": 2,
+  "linen": 2,
+  "cotton": 5,
+  "wool": 4,
+  "synth": 1,
+  "silk": 2
+ },
+ "fibre": {
+  "t": 80,
+  "w": 80,
+  "n_pct": 94,
+  "s_pct": 0,
+  "c_pct": 6,
+  "spandex": 4,
+  "sp": "one",
+  "sample": "stratified sample of 80 of 214 women's styles (419 feed records; product types RTW-WOMENS and DENIM-WOMENS = 336 listings, collapsed on the style name before th",
+  "st": "read",
+  "clean_pct": 73,
+  "clean_n": 75,
+  "clean_lyo": 1,
+  "ly_pct": 0,
+  "cv_pct": 6
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 1,
+  "comfort": 3,
+  "style": 4
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0",
+  "u": "https://www.r13.com/collections/ready-to-wear-womens",
+  "checked": "2026-10-15"
+ },
+ "craft_evidence": {
+  "owned": "no evidence",
+  "makers": "no",
+  "mills": "no — cloth origins only ('Italian cupro', 'Italian virgin wool blend', 'Japanese' denim)",
+  "madein": "0% on the page; country sits only in hidden product tags (sample: China 42, US 17, Italy 15, none 6 of 80)",
+  "heritage": "no about page on the store",
+  "process": "no",
+  "urls": [
+   "https://www.r13.com/pages/r13-flagship",
+   "https://www.r13.com/collections/womens-denim"
+  ],
+  "proposed": 1,
+  "reasoning": "The store has no about or making page and no product page states where it is made; country codes exist only as feed tags shoppers do not see. Cloth origins are named but no mill. Nothing verifiable about making: 1.",
+  "read": "2026-10-15"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-15): no named technical fabric on the site. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 1 (2026-10-15): The store has no about or making page and no product page states where it is made; country codes exist only as feed tags shoppers do not see. Cloth origins are named but no mill. Nothing verifiable about making: 1. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "denim": "12% of the sampled styles with a composition are in denim (the jeans category or denim cloth); read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cashmere": "5% of the sampled styles with a composition are led by cashmere; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "linen": "5% of the sampled styles with a composition are led by linen; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cotton": "50% of the sampled styles with a composition are led by cotton; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "wool": "26% of the sampled styles with a composition are led by wool (alpaca, mohair and camel counted with it); read 2026-10-15, a sample where the house has more than 80 styles.",
+  "synth": "0% of the sampled styles with a composition are led by a synthetic; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "silk": "1% of the sampled styles with a composition are led by silk; read 2026-10-15, a sample where the house has more than 80 styles."
+ },
  "src": "screen"
 }

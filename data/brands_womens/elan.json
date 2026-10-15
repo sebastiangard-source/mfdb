@@ -154,5 +154,79 @@
   "domain": "shopelan.com"
  },
  "depts": 4,
+ "garment_links": {
+  "Blouse": "https://shopelan.com/collections/tops",
+  "Sweater": "https://shopelan.com/collections/sweaters",
+  "Jeans": "https://shopelan.com/collections/bottoms",
+  "Trousers": "https://shopelan.com/collections/bottoms",
+  "Dress": "https://shopelan.com/collections/dresses-rompers",
+  "Outerwear": "https://shopelan.com/collections/jackets"
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 1,
+  "linen": 2,
+  "cotton": 4,
+  "wool": 1,
+  "synth": 4,
+  "silk": 1
+ },
+ "fibre": {
+  "t": 80,
+  "w": 73,
+  "n_pct": 36,
+  "s_pct": 21,
+  "c_pct": 34,
+  "spandex": 7,
+  "sp": "one",
+  "sample": "stratified sample of 80 of 205 styles (304 listings in /products.json, grouped on the house style-code tag, e.g. SWB11714); composition read from each sampled P",
+  "st": "read",
+  "clean_pct": 32,
+  "clean_n": 71,
+  "clean_lyo": 6,
+  "ly_pct": 11,
+  "cv_pct": 26
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 1,
+  "comfort": 4,
+  "style": 2
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0",
+  "u": "https://shopelan.com/collections/all",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "no evidence — one owned store (Aventura, FL); no factory or workshop named",
+  "makers": "no",
+  "mills": "no",
+  "madein": "0% — none of 80 sampled PDPs states a country",
+  "heritage": "dated, not placed — 'Since 1991', founder Elan Savir and Galit named; no place of founding or making",
+  "process": "no",
+  "urls": [
+   "https://shopelan.com/pages/about-elan",
+   "https://shopelan.com/products/solly-sweater-cardigan"
+  ],
+  "proposed": 1,
+  "reasoning": "The only checkable facts are a founding year and the founders' names. No product page in an 80-style sample states a country, maker or mill, and nothing is said about how or where the clothes are made.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-14): no named technical fabric on the site. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 1 (2026-10-14): The only checkable facts are a founding year and the founders' names. No product page in an 80-style sample states a country, maker or mill, and nothing is said about how or where the clothes are made. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "denim": "4% of the sampled styles with a composition are in denim (the jeans category or denim cloth); read 2026-10-14, a sample where the house has more than 80 styles.",
+  "cashmere": "0% of the sampled styles with a composition are led by cashmere; read 2026-10-14, a sample where the house has more than 80 styles.",
+  "linen": "1% of the sampled styles with a composition are led by linen; read 2026-10-14, a sample where the house has more than 80 styles.",
+  "cotton": "38% of the sampled styles with a composition are led by cotton; read 2026-10-14, a sample where the house has more than 80 styles.",
+  "wool": "0% of the sampled styles with a composition are led by wool (alpaca, mohair and camel counted with it); read 2026-10-14, a sample where the house has more than 80 styles.",
+  "synth": "23% of the sampled styles with a composition are led by a synthetic; read 2026-10-14, a sample where the house has more than 80 styles.",
+  "silk": "0% of the sampled styles with a composition are led by silk; read 2026-10-14, a sample where the house has more than 80 styles."
+ },
  "src": "screen"
 }

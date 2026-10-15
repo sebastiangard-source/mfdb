@@ -109,5 +109,43 @@
   "domain": "lemondeberyl.com"
  },
  "depts": 0,
+ "garment_links": {
+  "Shoes": "https://lemondeberyl.com/collections/footwear"
+ },
+ "notes": {
+  "fabric": "no fabric dials (ruled 15 Oct): shoe house",
+  "tech": "Thread proposed 1 (2026-10-15): no named technical fabric on the site. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 2 (2026-10-15): Nearly every product states 'Made in Italy' and the house says its shoes are hand-finished by Italian artisans, but no workshop or maker is named and nothing is owned. A country, consistently stated, is a 2. Read on shoes; the house makes no clothing. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 2,
+  "comfort": 3,
+  "style": 4
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0",
+  "u": "https://lemondeberyl.com/collections/footwear",
+  "checked": "2026-10-15"
+ },
+ "craft_evidence": {
+  "owned": "no — 'handcrafted in Italy', 'hand-finished in Italy by artisans'; no workshop named or owned",
+  "makers": "no",
+  "mills": "no",
+  "madein": "~99% (179 of 180 feed records say 'Made in Italy')",
+  "heritage": "dated — founded 2016 by Lily Atherton Hanbury and Katya Shyfrin with the Venetian slipper",
+  "process": "no — 'hand-finished by artisans' only",
+  "urls": [
+   "https://lemondeberyl.com/pages/brand",
+   "https://lemondeberyl.com/pages/mission-statement"
+  ],
+  "proposed": 2,
+  "reasoning": "Nearly every product states 'Made in Italy' and the house says its shoes are hand-finished by Italian artisans, but no workshop or maker is named and nothing is owned. A country, consistently stated, is a 2. Read on shoes; the house makes no clothing.",
+  "read": "2026-10-15"
+ },
  "src": "womens"
 }

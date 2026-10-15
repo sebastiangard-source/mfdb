@@ -154,5 +154,79 @@
   "domain": "yves-salomon.com"
  },
  "depts": 3,
+ "garment_links": {
+  "Blouse": "https://us.yves-salomon.com/collections/shirts-tops",
+  "Sweater": "https://us.yves-salomon.com/collections/knitwear-women",
+  "Trousers": "https://us.yves-salomon.com/collections/pants-women",
+  "Dress": "https://us.yves-salomon.com/collections/dresses-skirts-blouses",
+  "Outerwear": "https://us.yves-salomon.com/collections/view-all-coats-and-jackets-women",
+  "Shoes": "https://us.yves-salomon.com/collections/shoes"
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 2,
+  "linen": 1,
+  "cotton": 2,
+  "wool": 4,
+  "synth": 3,
+  "silk": 2
+ },
+ "fibre": {
+  "t": 80,
+  "w": 79,
+  "n_pct": 85,
+  "s_pct": 12,
+  "c_pct": 1,
+  "spandex": 1,
+  "sp": "one",
+  "sample": "stratified sample of 80 of 322 women's styles (census of the women's 'Coats & jackets' and 'Ready to wear' collections = 693 records, French product types mappe",
+  "st": "read",
+  "clean_pct": 61,
+  "clean_n": 44,
+  "clean_lyo": 0,
+  "ly_pct": 0,
+  "cv_pct": 1
+ },
+ "focus": {
+  "tech": 2,
+  "craft": 3,
+  "comfort": 2,
+  "style": 4
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0",
+  "u": "https://us.yves-salomon.com/collections/iconics-womens-technical-parkas-and-down-jackets",
+  "checked": "2026-10-15"
+ },
+ "craft_evidence": {
+  "owned": "claimed, not located — 'Parisian ateliers shape noble materials'; 'our workshops create custom-made pieces' (made-to-measure by appointment at 36 rue du Faubourg Saint-Honoré and London)",
+  "makers": "own workshops only (unlocated)",
+  "mills": "yes, one: Loro Piana cloth on some down jackets and suit trousers (nav 'Loro Piana Fabric' collection)",
+  "madein": "0% (no sampled page states a country)",
+  "heritage": "dated with detail — family furriers since 1910–20 (Grégory Salomon, Paris from 1920; Boris; Yves; four generations)",
+  "process": "no — skins and care described, not the making",
+  "urls": [
+   "https://us.yves-salomon.com/pages/la-maison",
+   "https://us.yves-salomon.com/pages/craftsmanship"
+  ],
+  "proposed": 3,
+  "reasoning": "There is a dated four-generation furrier heritage, a named mill (Loro Piana) on part of the range, and claimed Paris workshops doing made-to-measure. No product page states a country and the workshops are not located, so it stops at 3. The case for 2: on the product pages themselves nothing about making is stated.",
+  "read": "2026-10-15"
+ },
+ "notes": {
+  "tech": "Thread proposed 2 (2026-10-15): no named technical fabric on the site. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 3 (2026-10-15): There is a dated four-generation furrier heritage, a named mill (Loro Piana) on part of the range, and claimed Paris workshops doing made-to-measure. No product page states a country and the workshops are not located, so it stops at 3. The case for 2: on the product pages themselves nothing about making is stated. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "denim": "0% of the sampled styles with a composition are in denim (the jeans category or denim cloth); read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cashmere": "4% of the sampled styles with a composition are led by cashmere; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "linen": "0% of the sampled styles with a composition are led by linen; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cotton": "6% of the sampled styles with a composition are led by cotton; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "wool": "30% of the sampled styles with a composition are led by wool (alpaca, mohair and camel counted with it); read 2026-10-15, a sample where the house has more than 80 styles.",
+  "synth": "13% of the sampled styles with a composition are led by a synthetic; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "silk": "1% of the sampled styles with a composition are led by silk; read 2026-10-15, a sample where the house has more than 80 styles."
+ },
  "src": "screen"
 }

@@ -164,5 +164,80 @@
   "domain": "roheframes.com"
  },
  "depts": 5,
+ "garment_links": {
+  "T-shirt": "https://us.roheframes.com/collections/tops-1",
+  "Blouse": "https://us.roheframes.com/collections/shirts-1",
+  "Sweater": "https://us.roheframes.com/collections/knitwear",
+  "Jeans": "https://us.roheframes.com/collections/denim",
+  "Trousers": "https://us.roheframes.com/collections/pants-denim",
+  "Dress": "https://us.roheframes.com/collections/dresses",
+  "Outerwear": "https://us.roheframes.com/collections/coats-jackets"
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 4,
+  "wool": 5,
+  "synth": 3,
+  "silk": 2
+ },
+ "fibre": {
+  "t": 80,
+  "w": 77,
+  "n_pct": 74,
+  "s_pct": 10,
+  "c_pct": 12,
+  "spandex": 10,
+  "sp": "one",
+  "sample": "stratified sample of 80 of 208 clothing styles (344 feed records less home, objects, accessories, hats, scarves = 292 listings, collapsed on the style name befo",
+  "st": "read",
+  "clean_pct": 71,
+  "clean_n": 69,
+  "clean_lyo": 2,
+  "ly_pct": 3,
+  "cv_pct": 10
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 2,
+  "comfort": 3,
+  "style": 5
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0",
+  "u": "https://us.roheframes.com/collections/shop",
+  "checked": "2026-10-15"
+ },
+ "craft_evidence": {
+  "owned": "design atelier only — in-house atelier in the Herengracht house, Amsterdam (draping, in-house pattern making); production is outsourced",
+  "makers": "no — 'smaller family businesses … mainly based in Europe', unnamed",
+  "mills": "no",
+  "madein": "~1% (1 of 80 sampled pages: Bulgaria)",
+  "heritage": "founder named (Marieke Meulendijks); Amsterdam house described; no founding date read",
+  "process": "design process only (sourcing, draping, pattern making), not making",
+  "urls": [
+   "https://us.roheframes.com/pages/the-house",
+   "https://us.roheframes.com/pages/responsbility"
+  ],
+  "proposed": 2,
+  "reasoning": "An in-house atelier is located (Amsterdam), but it does pattern making and fit, not production. Production is said to be with European family businesses, none named, and product pages almost never state a country. Located design work with unnamed makers is a 2.",
+  "read": "2026-10-15"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-15): no named technical fabric on the site. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 2 (2026-10-15): An in-house atelier is located (Amsterdam), but it does pattern making and fit, not production. Production is said to be with European family businesses, none named, and product pages almost never state a country. Located design work with unnamed makers is a 2. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "denim": "4% of the sampled styles with a composition are in denim (the jeans category or denim cloth); read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cashmere": "0% of the sampled styles with a composition are led by cashmere; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "linen": "0% of the sampled styles with a composition are led by linen; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cotton": "21% of the sampled styles with a composition are led by cotton; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "wool": "44% of the sampled styles with a composition are led by wool (alpaca, mohair and camel counted with it); read 2026-10-15, a sample where the house has more than 80 styles.",
+  "synth": "10% of the sampled styles with a composition are led by a synthetic; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "silk": "5% of the sampled styles with a composition are led by silk; read 2026-10-15, a sample where the house has more than 80 styles."
+ },
  "src": "screen"
 }

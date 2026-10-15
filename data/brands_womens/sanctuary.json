@@ -180,5 +180,81 @@
   "domain": "sanctuaryclothing.com"
  },
  "depts": 5,
+ "garment_links": {
+  "T-shirt": "https://www.sanctuaryclothing.com/collections/tees-tanks",
+  "Blouse": "https://www.sanctuaryclothing.com/collections/tops",
+  "Sweater": "https://www.sanctuaryclothing.com/collections/sweater",
+  "Jeans": "https://www.sanctuaryclothing.com/collections/denim",
+  "Trousers": "https://www.sanctuaryclothing.com/collections/pant",
+  "Dress": "https://www.sanctuaryclothing.com/collections/dress",
+  "Outerwear": "https://www.sanctuaryclothing.com/collections/jackets-and-outerwear",
+  "Shoes": "https://www.sanctuaryclothing.com/collections/footwear"
+ },
+ "fabric": {
+  "denim": 3,
+  "cashmere": 1,
+  "linen": 2,
+  "cotton": 5,
+  "wool": 1,
+  "synth": 4,
+  "silk": 1
+ },
+ "fibre": {
+  "t": 80,
+  "w": 80,
+  "n_pct": 66,
+  "s_pct": 25,
+  "c_pct": 9,
+  "spandex": 29,
+  "sp": "one",
+  "sample": "stratified sample of 80 of 263 styles (600 feed records less accessories, belts, footwear, swim, eyewear, gift card = 509 listings, one per colour and size rang",
+  "st": "read",
+  "clean_pct": 36,
+  "clean_n": 78,
+  "clean_lyo": 1,
+  "ly_pct": 0,
+  "cv_pct": 9
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 1,
+  "comfort": 4,
+  "style": 2
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0",
+  "u": "https://www.sanctuaryclothing.com/pages/our-sustainability",
+  "checked": "2026-10-15"
+ },
+ "craft_evidence": {
+  "owned": "no evidence",
+  "makers": "no",
+  "mills": "no",
+  "madein": "0% (no sampled page states a country)",
+  "heritage": "dated and placed — founded 1997 in Los Angeles by Ken and Deb Polanco, 'master pant makers'",
+  "process": "no — sustainability statement on fibres only",
+  "urls": [
+   "https://www.sanctuaryclothing.com/pages/our-story",
+   "https://www.sanctuaryclothing.com/pages/our-sustainability"
+  ],
+  "proposed": 1,
+  "reasoning": "A dated, placed founding (LA, 1997) is the only fact; no maker, mill, factory or country of making is stated on any page read. 1.",
+  "read": "2026-10-15"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-15): no named technical fabric on the site. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 1 (2026-10-15): A dated, placed founding (LA, 1997) is the only fact; no maker, mill, factory or country of making is stated on any page read. 1. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "denim": "11% of the sampled styles with a composition are in denim (the jeans category or denim cloth); read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cashmere": "0% of the sampled styles with a composition are led by cashmere; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "linen": "2% of the sampled styles with a composition are led by linen; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cotton": "62% of the sampled styles with a composition are led by cotton; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "wool": "0% of the sampled styles with a composition are led by wool (alpaca, mohair and camel counted with it); read 2026-10-15, a sample where the house has more than 80 styles.",
+  "synth": "25% of the sampled styles with a composition are led by a synthetic; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "silk": "0% of the sampled styles with a composition are led by silk; read 2026-10-15, a sample where the house has more than 80 styles."
+ },
  "src": "womens"
 }

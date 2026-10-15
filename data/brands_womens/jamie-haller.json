@@ -170,5 +170,80 @@
   "domain": "shop-jamiehaller.com"
  },
  "depts": 3,
+ "garment_links": {
+  "T-shirt": "https://shop-jamiehaller.com/collections/tee-shirts",
+  "Blouse": "https://shop-jamiehaller.com/collections/blouses",
+  "Sweater": "https://shop-jamiehaller.com/collections/sweaters",
+  "Jeans": "https://shop-jamiehaller.com/collections/denim",
+  "Trousers": "https://shop-jamiehaller.com/collections/pants",
+  "Outerwear": "https://shop-jamiehaller.com/collections/coats",
+  "Shoes": "https://shop-jamiehaller.com/collections/womens-shoes"
+ },
+ "fabric": {
+  "denim": 4,
+  "cashmere": 3,
+  "linen": 1,
+  "cotton": 5,
+  "wool": 2,
+  "synth": 3,
+  "silk": 2
+ },
+ "fibre": {
+  "t": 67,
+  "w": 65,
+  "n_pct": 84,
+  "s_pct": 9,
+  "c_pct": 4,
+  "spandex": 21,
+  "sp": "one",
+  "sample": "all 67 styles read (154 'Womenswear' feed records collapsed on the title before ' in <colour>'); shoes, bags and accessories out of scope; 6 styles without a fe",
+  "st": "read",
+  "clean_pct": 79,
+  "clean_n": 58,
+  "clean_lyo": 3,
+  "ly_pct": 5,
+  "cv_pct": 0
+ },
+ "focus": {
+  "tech": 2,
+  "craft": 2,
+  "comfort": 3,
+  "style": 4
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0",
+  "u": "https://shop-jamiehaller.com/collections/ready-to-wear",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "no — makers described but not named or owned: 'a B corp certified denim factory and laundry' in Los Angeles, 'a generational family factory' in Italy, 'a boutique designer knitting factory' in Hong Ko",
+  "makers": "no — described by type and place, never by name",
+  "mills": "no — cloth origin given ('Japanese cotton poplin', 'Italian stretch denim', 'Italian lamb'), no mill named",
+  "madein": "~25% (about 17 of 67 styles state where they are made or tailored: USA / Los Angeles, Italy, Hong Kong)",
+  "heritage": "dated — collection launched 2020 by a '22 year veteran in the Los Angeles fashion landscape'",
+  "process": "partial — denim laundering and finishing described per style (whiskers, sanding, fading; raw rinse); no process page",
+  "urls": [
+   "https://shop-jamiehaller.com/products/the-anorak-jacket-in-brown",
+   "https://shop-jamiehaller.com/products/the-crease-jean-in-worn-indigo"
+  ],
+  "proposed": 2,
+  "reasoning": "About a quarter of product pages say where the piece is made and describe the kind of factory (an LA B-corp denim factory, a family leather factory in Italy, a Hong Kong knitter), and cloth origins are given, but no maker or mill is named. That is more than a country label but short of the named makers a 3 needs.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 2 (2026-10-14): no named technical fabric on the site. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 2 (2026-10-14): About a quarter of product pages say where the piece is made and describe the kind of factory (an LA B-corp denim factory, a family leather factory in Italy, a Hong Kong knitter), and cloth origins are given, but no maker or mill is named. That is more than a country label but short of the named makers a 3 needs. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "denim": "21% of the sampled styles with a composition are in denim (the jeans category or denim cloth); read 2026-10-14, a sample where the house has more than 80 styles.",
+  "cashmere": "11% of the sampled styles with a composition are led by cashmere; read 2026-10-14, a sample where the house has more than 80 styles.",
+  "linen": "0% of the sampled styles with a composition are led by linen; read 2026-10-14, a sample where the house has more than 80 styles.",
+  "cotton": "63% of the sampled styles with a composition are led by cotton; read 2026-10-14, a sample where the house has more than 80 styles.",
+  "wool": "3% of the sampled styles with a composition are led by wool (alpaca, mohair and camel counted with it); read 2026-10-14, a sample where the house has more than 80 styles.",
+  "synth": "9% of the sampled styles with a composition are led by a synthetic; read 2026-10-14, a sample where the house has more than 80 styles.",
+  "silk": "3% of the sampled styles with a composition are led by silk; read 2026-10-14, a sample where the house has more than 80 styles."
+ },
  "src": "screen"
 }
