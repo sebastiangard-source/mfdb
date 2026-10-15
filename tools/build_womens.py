@@ -125,6 +125,11 @@ def main():
     womens = [json.load(open(f, encoding='utf8')) for f in sorted(glob.glob(os.path.join(ROOT, 'data/brands_womens/*.json')))]
     men = {k(b['name']): b for b in (json.load(open(f, encoding='utf8')) for f in glob.glob(os.path.join(ROOT, 'data/brands/*.json')))}
     universe = {k(r['brand']) for r in csv.DictReader(open(os.path.join(ROOT, 'registers/womens_universe_counted_2026-10-10.csv'), encoding='utf8'))}
+    # Crossover Part A (15 Oct 2026): men's-map brands whose own US site sells a women's clothing range join as crossovers.
+    # Only `yes` joins; `partial` and `NC` wait for a ruling.
+    xa = os.path.join(ROOT, 'jobs/returns/womens_crossover_a_2026-10-15/return_a.csv')
+    if os.path.exists(xa):
+        universe |= {k(r['brand']) for r in csv.DictReader(open(xa, encoding='utf8')) if r['womens_clothing'].strip() == 'yes'}
     doors = collections.defaultdict(list)
     for r in csv.DictReader(open(os.path.join(ROOT, 'registers/own_doors_womens_2026-10-10.csv'), encoding='utf8')):
         if r['format'] == 'own-door' and r['status'] == 'open':
