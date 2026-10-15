@@ -130,6 +130,11 @@ def main():
     xa = os.path.join(ROOT, 'jobs/returns/womens_crossover_a_2026-10-15/return_a.csv')
     if os.path.exists(xa):
         universe |= {k(r['brand']) for r in csv.DictReader(open(xa, encoding='utf8')) if r['womens_clothing'].strip() == 'yes'}
+    # Follow-up of 15 Oct: re-reads of brands Part A left open. Dover Street Market counts as a Comme des Garçons door
+    # (ruled 15 Oct 2026), so CDG's DSM evidence makes it a crossover.
+    xf = os.path.join(ROOT, 'jobs/returns/followup_2026-10-15/part1/return_a.csv')
+    if os.path.exists(xf):
+        universe |= {k(r['brand']) for r in csv.DictReader(open(xf, encoding='utf8')) if r['womens_clothing'].strip() == 'yes'}
     doors = collections.defaultdict(list)
     for r in csv.DictReader(open(os.path.join(ROOT, 'registers/own_doors_womens_2026-10-10.csv'), encoding='utf8')):
         if r['format'] == 'own-door' and r['status'] == 'open':
