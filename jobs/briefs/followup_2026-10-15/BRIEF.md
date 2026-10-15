@@ -65,7 +65,7 @@ The column `what_to_settle` says what each row needs:
 True Religion was held at a PerimeterX ("px-captcha") wall in the dials pass. Its jeans link was filed before the
 wall. Everything else is `NC`.
 
-- Read the rules in `rules_garment_links.md`, `rules_fibre.md`, `rules_craft.md` and
+- Read `DIALS_BRIEF.md` (sections A–E: links, styles, fabric scale, tech scale, craft), then `rules_garment_links.md`, `rules_fibre.md`, `rules_craft.md` and
   `rubric_craft.txt`, and return `return.csv` and `return_styles.csv` in the template columns.
 - The read: the seven other listing links, an 80-style women's sample with composition, fabric dials, proposed
   tech and proposed craft.
