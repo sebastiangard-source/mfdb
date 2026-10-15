@@ -172,14 +172,12 @@
   "Outerwear": "https://moniquelhuillier.com/collections/capes-coats",
   "Shoes": "https://moniquelhuillier.com/collections/shoes"
  },
- "fabric": {
-  "denim": 1,
-  "cashmere": 2,
-  "linen": 1,
-  "cotton": 2,
-  "wool": 2,
-  "synth": 2,
-  "silk": 2
+ "notes": {
+  "fabric": "no fabric dials (ruled 15 Oct): held: only 13 of 80 sampled styles publish a composition",
+  "tech": "Thread proposed 1 (2026-10-14): no named fabric. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 2 (2026-10-14): Country of make is on almost every product page, mostly USA with an Italian share, and the founding is dated (1996). Nothing names where in the USA, who sews, or which mills weave the mikado and faille, so this is a country-of-make 2. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
  },
  "fibre": {
   "t": 334,
@@ -190,7 +188,9 @@
   "spandex": null,
   "sp": "one",
   "sample": "stratified sample of 80 across 16 product types, proportional; 334 styles from 361 clothing listings in /products.json (2 pages, all available); veils and glove",
-  "st": "partial"
+  "st": "partial",
+  "ly_pct": 0,
+  "cv_pct": 0
  },
  "focus": {
   "tech": 1,
@@ -219,12 +219,6 @@
   "proposed": 2,
   "reasoning": "Country of make is on almost every product page, mostly USA with an Italian share, and the founding is dated (1996). Nothing names where in the USA, who sews, or which mills weave the mikado and faille, so this is a country-of-make 2.",
   "read": "2026-10-14"
- },
- "notes": {
-  "tech": "Thread proposed 1 (2026-10-14): no named fabric. Seated as proposed, pending ruling.",
-  "craft": "Thread proposed 2 (2026-10-14): Country of make is on almost every product page, mostly USA with an Italian share, and the founding is dated (1996). Nothing names where in the USA, who sews, or which mills weave the mikado and faille, so this is a country-of-make 2. Seated as proposed, pending ruling.",
-  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
-  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
  },
  "src": "screen"
 }

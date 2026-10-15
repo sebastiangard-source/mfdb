@@ -134,14 +134,12 @@
   "Trousers": "https://www.jockey.com/catalog/women/activewear.lifestyle-and-casualwear.scrubs/capris.leggings.pants-and-joggers.shorts.dresses-skirts-and-skorts",
   "Dress": "https://www.jockey.com/catalog/women/activewear.lifestyle-and-casualwear.scrubs/camis-and-tanks.jackets-and-vests.sweatshirts-and-hoodies.tops.cardigans-and-wraps.capris.leggings.pants-and-joggers.shorts.dresses-skirts-and-skorts.bodysuit"
  },
- "fabric": {
-  "denim": 1,
-  "cashmere": 1,
-  "linen": 1,
-  "cotton": 5,
-  "wool": 1,
-  "synth": 4,
-  "silk": 1
+ "notes": {
+  "fabric": "no fabric dials (ruled 15 Oct): underwear house",
+  "tech": "Thread proposed 2 (2026-10-14): EverActive (activewear line; recycled-polyester/spandex and polyester/modal blends); Soft Cool and Supersoft are descriptive names. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 1 (2026-10-14): A 150-year house, dated and placed, but every product page says only 'Imported'; no maker, mill or process is named, and the ethics page describes audited third-party factories. Heritage alone: 1. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
  },
  "fibre": {
   "t": 127,
@@ -152,7 +150,9 @@
   "spandex": 65,
   "sp": "split",
   "sample": "stratified sample of 79 of 127 women's apparel styles (activewear, lifestyle & casual, scrubs, sleep and lounge), proportional by the API's category; census fro",
-  "st": "read"
+  "st": "read",
+  "ly_pct": 0,
+  "cv_pct": 8
  },
  "focus": {
   "tech": 2,
@@ -181,12 +181,6 @@
   "proposed": 1,
   "reasoning": "A 150-year house, dated and placed, but every product page says only 'Imported'; no maker, mill or process is named, and the ethics page describes audited third-party factories. Heritage alone: 1.",
   "read": "2026-10-14"
- },
- "notes": {
-  "tech": "Thread proposed 2 (2026-10-14): EverActive (activewear line; recycled-polyester/spandex and polyester/modal blends); Soft Cool and Supersoft are descriptive names. Seated as proposed, pending ruling.",
-  "craft": "Thread proposed 1 (2026-10-14): A 150-year house, dated and placed, but every product page says only 'Imported'; no maker, mill or process is named, and the ethics page describes audited third-party factories. Heritage alone: 1. Seated as proposed, pending ruling.",
-  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
-  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
  },
  "src": "womens"
 }

@@ -172,14 +172,12 @@
   "Outerwear": "https://www.vixpaulahermanny.com/collections/jackets",
   "Shoes": "https://www.vixpaulahermanny.com/collections/sandals"
  },
- "fabric": {
-  "denim": 1,
-  "cashmere": 1,
-  "linen": 4,
-  "cotton": 2,
-  "wool": 1,
-  "synth": 4,
-  "silk": 2
+ "notes": {
+  "fabric": "no fabric dials (ruled 15 Oct): swim house",
+  "tech": "Thread proposed 2 (2026-10-14): NONE — fabric names on the Material tab are generic ('Brazilian Lycra', 'Mesh Textured Lycra', 'Firenze'); the C.A.R.E. Line is a sourcing label, not a fabric. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 3 (2026-10-14): Country of make is stated (Brazil) on two-thirds of clothing pages, and the brand runs a placed training workshop (Casa ViX, Petrópolis) that feeds its own sewing workforce — evidence of in-house making in Brazil, but no factory is named or shown and there is no founding year. 3; a 2 if implied in-h Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
  },
  "fibre": {
   "t": 522,
@@ -190,7 +188,9 @@
   "spandex": 20,
   "sp": "split",
   "sample": "stratified sample of 80 of 522 women's clothing styles (product types 'Clothing - Dresses/Tops/Pants/Shorts/Skirts/Jumpsuits'), proportional by type; census fro",
-  "st": "read"
+  "st": "read",
+  "ly_pct": 4,
+  "cv_pct": 40
  },
  "focus": {
   "tech": 2,
@@ -219,12 +219,6 @@
   "proposed": 3,
   "reasoning": "Country of make is stated (Brazil) on two-thirds of clothing pages, and the brand runs a placed training workshop (Casa ViX, Petrópolis) that feeds its own sewing workforce — evidence of in-house making in Brazil, but no factory is named or shown and there is no founding year. 3; a 2 if implied in-house making doesn't count.",
   "read": "2026-10-14"
- },
- "notes": {
-  "tech": "Thread proposed 2 (2026-10-14): NONE — fabric names on the Material tab are generic ('Brazilian Lycra', 'Mesh Textured Lycra', 'Firenze'); the C.A.R.E. Line is a sourcing label, not a fabric. Seated as proposed, pending ruling.",
-  "craft": "Thread proposed 3 (2026-10-14): Country of make is stated (Brazil) on two-thirds of clothing pages, and the brand runs a placed training workshop (Casa ViX, Petrópolis) that feeds its own sewing workforce — evidence of in-house making in Brazil, but no factory is named or shown and there is no founding year. 3; a 2 if implied in-h Seated as proposed, pending ruling.",
-  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
-  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
  },
  "src": "womens"
 }

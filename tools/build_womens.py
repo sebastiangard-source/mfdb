@@ -68,7 +68,8 @@ def fibre_line(b):
     if not f or not f.get('t'):
         return ''
     if 'n_pct' in f:  # women's record: percentages of a sample
-        return f"{f['t']} styles on the site; of {f['w']} read with a composition, {f['n_pct']}% natural-led, {f['s_pct']}% synthetic, {f['c_pct']}% cellulosic; {f['spandex']} with elastane; {'one cloth story' if f['sp']=='one' else 'two cloth stories' if f['sp']=='split' else f['sp']}."
+        cel = f"{f['c_pct']}% cellulosic" + (f" (lyocell {f['ly_pct']}%, viscose and other {f['cv_pct']}%)" if f.get('ly_pct') is not None and f['c_pct'] else '')
+        return f"{f['t']} styles on the site; of {f['w']} read with a composition, {f['n_pct']}% natural-led, {f['s_pct']}% synthetic, {cel}; {f['spandex']} with elastane; {'one cloth story' if f['sp']=='one' else 'two cloth stories' if f['sp']=='split' else f['sp']}."
     disc = f.get('n', 0) + f.get('s', 0) + f.get('c', 0)
     if not disc:
         return ''

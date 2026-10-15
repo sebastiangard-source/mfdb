@@ -173,14 +173,12 @@
   "Dress": "https://www.aguabendita.com/collections/dresses",
   "Outerwear": "https://www.aguabendita.com/collections/kimonos-tunics"
  },
- "fabric": {
-  "denim": 1,
-  "cashmere": 1,
-  "linen": 1,
-  "cotton": 5,
-  "wool": 1,
-  "synth": 3,
-  "silk": 1
+ "notes": {
+  "fabric": "no fabric dials (ruled 15 Oct): swim house",
+  "tech": "Thread proposed 1 (2026-10-14): no named fabric. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 2 (2026-10-14): A specific making story — Colombian artisan embroidery, a named artisan on every piece, prints drawn in-house — but none of it can be checked from the site: no artisan, workshop or date is shown and country appears on few pages. 2 (a 3 if the artisan-name label is taken on trust). Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
  },
  "fibre": {
   "t": 157,
@@ -191,7 +189,9 @@
   "spandex": 8,
   "sp": "one",
   "sample": "stratified sample of 78 of 157 women's clothing styles, proportional by product type (crop tops, shirts, tees, tunics and bodysuits pooled as Tops; cardigans an",
-  "st": "read"
+  "st": "read",
+  "ly_pct": 0,
+  "cv_pct": 39
  },
  "focus": {
   "tech": 1,
@@ -220,12 +220,6 @@
   "proposed": 2,
   "reasoning": "A specific making story — Colombian artisan embroidery, a named artisan on every piece, prints drawn in-house — but none of it can be checked from the site: no artisan, workshop or date is shown and country appears on few pages. 2 (a 3 if the artisan-name label is taken on trust).",
   "read": "2026-10-14"
- },
- "notes": {
-  "tech": "Thread proposed 1 (2026-10-14): no named fabric. Seated as proposed, pending ruling.",
-  "craft": "Thread proposed 2 (2026-10-14): A specific making story — Colombian artisan embroidery, a named artisan on every piece, prints drawn in-house — but none of it can be checked from the site: no artisan, workshop or date is shown and country appears on few pages. 2 (a 3 if the artisan-name label is taken on trust). Seated as proposed, pending ruling.",
-  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
-  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional"
  },
  "src": "womens"
 }

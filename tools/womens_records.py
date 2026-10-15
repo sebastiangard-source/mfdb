@@ -62,6 +62,13 @@ HAND = {'Aritzia': ('Premium', 'core-garment rule, 13 Oct: the $28 ribbed baby t
         'Miguelina': ('Accessible', 'ruled 14 Oct: resort house with no sweater; tops from $215 and dresses from $495, not the $423 blouse alone (thread proposal)'),
         'GUESS': ('Premium', 'core-garment rule, 13 Oct: the $69 cropped shirt is not its core shirt; the plain Cotton Shirt is $89 (thread re-read)')}
 
+# Ruled 15 Oct: a house whose range is not clothing carries no fabric dials; the figures stay in the return.
+NO_FABRIC = {n: 'no fabric dials (ruled 15 Oct): ' + why for n, why in [
+    ('Gianvito Rossi', 'shoe house'), ('Manolo Blahnik', 'shoe house'), ('Roger Vivier', 'shoe house'), ('Aquazzura', 'shoe house'), ('Le Monde Béryl', 'shoe house'),
+    ('ERES', 'swim and lingerie house'), ('ViX Paula Hermanny', 'swim house'), ('Agua Bendita', 'swim house'),
+    ('Eberjey', 'sleepwear house'), ('HANRO', 'underwear and sleepwear house'), ('Jockey', 'underwear house'), ('Wacoal', 'lingerie house'),
+    ('Cozy Earth', 'bedding and loungewear house'), ('Barefoot Dreams®', 'blankets and loungewear house'),
+    ('Monique Lhuillier', 'held: only 13 of 80 sampled styles publish a composition')]}
 NOT_WOMENS = {'Kartik Research', 'Sanderlak'}  # Kartik: women's menu empty on its own US store (price pass 2); Sanderlak: menswear-led, ruled 14 Oct → men's map
 # Ruled 14 Oct: leather and suede are not an elevated material, so a leather piece is never an outerwear high.
 # Where the thread named the top non-leather piece, it is used; the rest show the entry only until re-read.
@@ -129,6 +136,15 @@ def main():
     for f in sorted(glob.glob(os.path.join(ROOT, 'jobs/returns/womens_dials_2026-10-14/batch*/return.csv'))):
         for r in csv.DictReader(open(f, encoding='utf8')):
             dials[r['brand']] = r
+    # lyocell apart from the other cellulosics (ruled 15 Oct): shares of the sampled styles with a composition, from the style rows
+    cel = collections.defaultdict(lambda: collections.Counter())
+    for f in sorted(glob.glob(os.path.join(ROOT, 'jobs/returns/womens_dials_2026-10-14/batch*/return_styles.csv'))):
+        for r in csv.DictReader(open(f, encoding='utf8')):
+            lf = r['lead_fibre'].strip().lower()
+            if lf in ('nc', 'nd', '', 'none'): continue
+            cel[r['brand']]['w'] += 1
+            if lf in ('lyocell', 'tencel'): cel[r['brand']]['ly'] += 1
+            elif lf in ('viscose', 'modal', 'cupro', 'acetate', 'triacetate', 'rayon', 'other-cellulosic'): cel[r['brand']]['cv'] += 1
     fa = os.path.join(ROOT, 'registers/womens_focus_authored.json')
     authored = json.load(open(fa, encoding='utf8')) if os.path.exists(fa) else {}
     os.makedirs(OUT, exist_ok=True)
@@ -218,11 +234,16 @@ def main():
             gl = {gn: dl[g + '_listing_url'] for g, gn in zip(G, GARMENTS) if dl[g + '_listing_url'].startswith('http')}
             if gl: rec['garment_links'] = gl
             fab = {k: num(dl['fab_' + k]) for k in ('denim', 'cashmere', 'linen', 'cotton', 'wool', 'synth', 'silk')}
-            if all(v is not None for v in fab.values()):
+            if all(v is not None for v in fab.values()) and name not in NO_FABRIC:
                 rec['fabric'] = fab
+            elif name in NO_FABRIC:
+                rec['notes'] = rec.get('notes', {}); rec['notes']['fabric'] = NO_FABRIC[name]
             if num(dl['styles_total']) is not None and num(dl['styles_with_composition']):
                 rec['fibre'] = {'t': num(dl['styles_total']), 'w': num(dl['styles_with_composition']), 'n_pct': num(dl['natural_pct']), 's_pct': num(dl['synthetic_pct']),
                                 'c_pct': num(dl['cellulosic_pct']), 'spandex': num(dl['spandex_styles']), 'sp': dl['shape'], 'sample': dl['sample_basis'][:160], 'st': dl['status']}
+                cc = cel.get(name)
+                if cc and cc['w']:
+                    rec['fibre']['ly_pct'] = round(100 * cc['ly'] / cc['w']); rec['fibre']['cv_pct'] = round(100 * cc['cv'] / cc['w'])
             foc = {}
             if num(dl['proposed_tech']) is not None: foc['tech'] = num(dl['proposed_tech'])
             if num(dl['proposed_craft']) is not None: foc['craft'] = num(dl['proposed_craft'])
