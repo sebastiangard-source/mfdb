@@ -86,8 +86,11 @@ h1 .thin{color:var(--ink-faint)}
 .pub .lbl{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint)}
 .pub input{padding:8px 12px;border:1px solid var(--hairline);border-radius:999px;background:#fff;font:inherit;font-size:13px;color:var(--ink)}
 .pub .hint{font-size:11.5px;color:var(--ink-faint);line-height:1.4}
-.renames{display:grid;grid-template-columns:1fr 1fr;gap:6px}
-.renames input{padding:6px 10px;font-size:12px;border-radius:8px}
+.renames{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:6px}
+.renames input{padding:6px 10px;font-size:12px;border-radius:8px;width:100%;min-width:0}
+.pub .chips{display:flex;flex-direction:column;gap:6px;align-items:stretch}
+.pub .chips .chip{width:100%;text-align:center}
+.pub input{width:100%;min-width:0}
 .dials{display:flex;flex-direction:column;gap:6px;font-size:13px}
 .dials .lbl{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint);margin-top:4px}
 .dials label{display:flex;flex-direction:column;gap:2px}
@@ -148,7 +151,7 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
     <h1>The Womenswear <span class="thin">Spectrum</span></h1>
     <p class="lede">Every women’s brand with a full-price store of its own in the US, placed by price band and shown with its stores. No dials yet: this is the locations map, built from the brands’ own locators, banded by the men’s price rule on the women’s price pass of 13 October.</p>
   </div>
-  <div class="stamp"><b>v0.12 · <span id="built"></span></b>stores counted from the brands’ own locators · bands by the men’s price rule on tee, blouse and sweater</div>
+  <div class="stamp"><b>v0.13 · <span id="built"></span></b>stores counted from the brands’ own locators · bands by the men’s price rule on tee, blouse and sweater</div>
 </header>
 
 <div class="layout">
