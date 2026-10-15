@@ -80,6 +80,10 @@ h1 .thin{color:var(--ink-faint)}
 .pub{display:flex;flex-direction:column;gap:8px;font-size:13px;padding-top:14px;border-top:1px solid var(--hairline)}
 #pubView{position:fixed;inset:0;z-index:50;background:var(--cream);display:none;flex-direction:column}
 #pubView.show{display:flex}
+#idxView{position:fixed;inset:0;z-index:40;background:var(--cream);display:none;flex-direction:column}
+#idxView.show{display:flex}
+#idxView .idxpage{overflow-y:auto;flex:1;padding:20px 24px 60px;max-width:960px;width:100%;margin:0 auto}
+.idxlink{display:inline-block;margin:0 0 10px;color:var(--green);cursor:pointer;background:none;border:0;padding:0;font:inherit;font-size:12.5px;text-decoration:underline;text-underline-offset:3px}
 .pubbar{display:flex;align-items:center;gap:10px;padding:10px 16px;border-bottom:1px solid var(--hairline);font-size:13px;color:var(--ink-soft);background:rgba(255,255,255,.6)}
 .pubbar .sp{flex:1}
 #pubFrame{flex:1;border:0;width:100%;background:var(--cream)}
@@ -151,7 +155,7 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
     <h1>The Womenswear <span class="thin">Spectrum</span></h1>
     <p class="lede">Every women’s brand with a full-price store of its own in the US, placed by price band and shown with its stores. No dials yet: this is the locations map, built from the brands’ own locators, banded by the men’s price rule on the women’s price pass of 13 October.</p>
   </div>
-  <div class="stamp"><b>v0.13 · <span id="built"></span></b>stores counted from the brands’ own locators · bands by the men’s price rule on tee, blouse and sweater</div>
+  <div class="stamp"><b>v0.14 · <span id="built"></span></b>stores counted from the brands’ own locators · bands by the men’s price rule on tee, blouse and sweater</div>
 </header>
 
 <div class="layout">
@@ -160,8 +164,6 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
   <input id="q" type="search" placeholder="Brand, town or state">
   <div class="grp"><span class="lbl tt" data-tip="Full-price, brand-owned US stores counted from the brand’s own locator. Outlets, concessions and pop-ups are held in the register and not counted." tabindex="0">Stores</span><div class="chips">
     <button class="chip" data-t="mass">251+</button><button class="chip" data-t="chain">51–250</button><button class="chip" data-t="network">13–50</button><button class="chip" data-t="circuit">4–12</button><button class="chip" data-t="flagship">1–3</button></div><span class="hint" style="font-size:11.5px;color:var(--ink-faint)">Pick any; none picked means all.</span></div>
-  <div class="grp"><span class="lbl">Northeast</span><div class="chips"><button class="chip" id="neOnly">has a store here</button></div></div>
-  <div class="grp"><span class="lbl">Crossovers</span><div class="chips"><button class="chip on" id="xover">include men’s-map brands</button></div></div>
 </div>
 <div class="cuts">
   <span class="lbl">Band cuts</span>
@@ -176,29 +178,19 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
   <label data-k="f.comfort"><span class="tt" data-tip="How central softness and physical ease are to what the brand sells — fiber, stretch, drape, wash. Authored at merge from the range, prices and fibre evidence; provisional." tabindex="0">comfort <b>off</b></span><input type="range" min="0" max="5" value="0"></label>
   <label data-k="f.craft"><span class="tt" data-tip="How much of the making can be verified — who makes it, where, and for how long. Owned factories, named mills and documented process score; a hangtag does not. Proposed by the reading thread under the craft rubric." tabindex="0">craft <b>off</b></span><input type="range" min="0" max="5" value="0"></label>
   <label data-k="f.style"><span class="tt" data-tip="How much the brand trades on a design point of view and fashion influence rather than perfected basics. 1 a plain chino, 5 the runway. Authored at merge; provisional." tabindex="0">style <b>off</b></span><input type="range" min="0" max="5" value="0"></label>
-  <span class="lbl tt" data-tip="Fabric figures are read off the styles on the brand’s site — a count of what it sells, not a judgment." tabindex="0">Fabric · at least</span>
-  <label data-k="cf"><span class="tt" data-tip="The share of the brand's styles whose every fibre is natural or lyocell (Tencel), with elastane at 5% or under — nothing else in the cloth. Counted from the styles read, not judged: 5 all of them, 4 at least 95%, 3 85%, 2 70%, 1 below. Tencel Modal does not count as lyocell." tabindex="0">natural or lyocell <b>off</b></span><input type="range" min="0" max="5" value="0"></label>
-  <label data-k="nat"><span class="tt" data-tip="The share of styles whose main fibre is natural — cotton, wool, linen, silk, cashmere — counted on the brand's own product pages, not judged. 5 all natural, 4 at least 95%, 3 85%, 2 70%, 1 below. A sample of 80 styles where the house has more." tabindex="0">natural fibres <b>off</b></span><input type="range" min="0" max="5" value="0"></label>
-  <label data-k="fa.cotton"><span class="tt" data-tip="How much of the range is led by cotton, by share of styles read: 5 over 40%, 4 20–40%, 3 8–20%, 2 under 8%, 1 none." tabindex="0">cotton <b>off</b></span><input type="range" min="0" max="5" value="0"></label>
-  <label data-k="fa.silk"><span class="tt" data-tip="How much of the range is led by silk, by share of styles read: 5 over 40%, 4 20–40%, 3 8–20%, 2 under 8%, 1 none. Women's ranges run on silk in a way men's do not, so it is a dial here." tabindex="0">silk <b>off</b></span><input type="range" min="0" max="5" value="0"></label>
-  <label data-k="fa.wool"><span class="tt" data-tip="How much of the range is led by wool (alpaca, mohair and camel counted with it), by share of styles read: 5 over 40%, 4 20–40%, 3 8–20%, 2 under 8%, 1 none." tabindex="0">wool <b>off</b></span><input type="range" min="0" max="5" value="0"></label>
-  <label data-k="fa.cashmere"><span class="tt" data-tip="How much of the range is led by cashmere, by share of styles read: 5 over 40%, 4 20–40%, 3 8–20%, 2 under 8%, 1 none." tabindex="0">cashmere <b>off</b></span><input type="range" min="0" max="5" value="0"></label>
-  <label data-k="fa.linen"><span class="tt" data-tip="How much of the range is led by linen, by share of styles read: 5 over 40%, 4 20–40%, 3 8–20%, 2 under 8%, 1 none." tabindex="0">linen <b>off</b></span><input type="range" min="0" max="5" value="0"></label>
-  <label data-k="fa.denim"><span class="tt" data-tip="How much of the range is denim — the jeans category or denim cloth in the title — by share of styles read: 5 over 40%, 4 20–40%, 3 8–20%, 2 under 8%, 1 none." tabindex="0">denim <b>off</b></span><input type="range" min="0" max="5" value="0"></label>
-  <label data-k="fa.synth"><span class="tt" data-tip="How much of the range is led by a synthetic — polyester, polyamide, acrylic, elastane — by share of styles read: 5 over 40%, 4 20–40%, 3 8–20%, 2 under 8%, 1 none. Viscose and other cellulosics are not counted here." tabindex="0">synthetic <b>off</b></span><input type="range" min="0" max="5" value="0"></label>
   <span class="hint" id="dialhint">A brand not yet read for a dial fails that dial. <span id="dialcov"></span></span>
   <button class="chip" id="dreset">clear dials</button>
 </div>
 <div class="pub">
-  <span class="lbl tt" data-tip="Turns the brands that pass the current filters into a page of their own — a list by band with store counts, a line on each brand and the stores by state. Opens in a new tab; save it from there. Nothing about the filters is lost: the page carries them in writing." tabindex="0">Publish this view</span>
+  <span class="lbl tt" data-tip="Turns the brands that pass the current filters into a page of their own — a list by band with store counts, a line on each brand and the stores by state. Nothing about the filters is lost: the page carries them in writing." tabindex="0">Publish this view</span>
   <input id="pubTitle" type="text" placeholder="Title for the page" maxlength="80">
   <input id="pubNote" type="text" placeholder="One line on why (optional)" maxlength="200">
-  <span class="lbl tt" data-tip="Call the price bands what you like — on this page, on the published page and in the email. The rule behind each band does not change. Leave blank for the standard name." tabindex="0">Band names</span>
+  <span class="lbl tt" data-tip="Call the price bands what you like — on this page and on the published page. The rule behind each band does not change. Leave blank for the standard name." tabindex="0">Band names</span>
   <div class="renames">
     <input data-band="Basic" type="text" placeholder="Basic" maxlength="40"><input data-band="Premium" type="text" placeholder="Premium" maxlength="40">
     <input data-band="Accessible" type="text" placeholder="Accessible" maxlength="40"><input data-band="True Luxury" type="text" placeholder="True Luxury" maxlength="40">
   </div>
-  <div class="chips"><button class="chip on" id="pubGo">publish</button><button class="chip" id="pubMail">draft an email</button><button class="chip" id="pubLink">copy link to this view</button></div>
+  <div class="chips"><button class="chip on" id="pubGo">publish</button></div>
   <span class="hint" id="pubHint"></span>
 </div>
 <p class="count" id="count"></p>
@@ -209,16 +201,17 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
 <div id="bands"></div>
 <p class="legend">Band by price rule: <span style="background:var(--basic)"></span>Basic <span style="background:var(--premium)"></span>Premium <span style="background:var(--accessible)"></span>Accessible <span style="background:var(--trueLux)"></span>True Luxury <span style="background:var(--pending)"></span>Pending a price read. An outlined chip is a brand banded on its men’s range.</p>
 
-<section class="idx">
-  <h2>Store index</h2>
-  <p class="def">Every full-price brand-owned store on file, by state. No outlets, concessions or pop-ups. Each entry opens a map at its address.</p>
-  <div id="idx"></div>
-  <button class="more" id="more">show more</button>
-</section>
+
 </div>
 </div>
 </main>
 
+<div id="idxView"><div class="pubbar"><button class="chip" id="idxBack">← back to the Spectrum</button><span>Store index</span></div>
+<section class="idx idxpage">
+  <p class="def">Every full-price brand-owned store for the brands that pass the current filters, by state. No outlets, concessions or pop-ups. Each entry opens a map at its address.</p>
+  <div id="idx"></div>
+  <button class="more" id="more">show more</button>
+</section></div>
 <div id="tip" role="tooltip"></div>
 <div class="ov" id="ov"></div>
 <aside class="panel" id="panel" aria-hidden="true"><button class="close" id="close">close</button><div id="pbody"></div></aside>
@@ -239,14 +232,12 @@ const mapUrl=s=>'https://www.google.com/maps/search/?api=1&query='+encodeURIComp
 const ST={AL:'Alabama',AK:'Alaska',AZ:'Arizona',AR:'Arkansas',CA:'California',CO:'Colorado',CT:'Connecticut',DE:'Delaware',DC:'District of Columbia',FL:'Florida',GA:'Georgia',HI:'Hawaii',ID:'Idaho',IL:'Illinois',IN:'Indiana',IA:'Iowa',KS:'Kansas',KY:'Kentucky',LA:'Louisiana',ME:'Maine',MD:'Maryland',MA:'Massachusetts',MI:'Michigan',MN:'Minnesota',MS:'Mississippi',MO:'Missouri',MT:'Montana',NE:'Nebraska',NV:'Nevada',NH:'New Hampshire',NJ:'New Jersey',NM:'New Mexico',NY:'New York',NC:'North Carolina',ND:'North Dakota',OH:'Ohio',OK:'Oklahoma',OR:'Oregon',PA:'Pennsylvania',PR:'Puerto Rico',RI:'Rhode Island',SC:'South Carolina',SD:'South Dakota',TN:'Tennessee',TX:'Texas',UT:'Utah',VT:'Vermont',VA:'Virginia',WA:'Washington',WV:'West Virginia',WI:'Wisconsin',WY:'Wyoming'};
 document.getElementById('built').textContent=new Date(W.built+'T12:00:00').toLocaleDateString('en-US',{day:'numeric',month:'long',year:'numeric'});
 
-let TIERS_ON=new Set(), neOnly=false, xover=true, q='';
+let TIERS_ON=new Set(), q='';
 const DIAL={};  // key -> threshold
 function dialGet(b,k){if(!k.includes('.')) return b[k]!=null?b[k]:null; const [g,a]=k.split('.'); const o=b[g]; return o&&o[a]!=null?o[a]:null;}
 function matches(b){
-  if(!xover && b.src==='men') return false;
   for(const k in DIAL){const t=DIAL[k]; if(!t) continue; const v=dialGet(b,k); if(v==null||v<t) return false;}
   if(TIERS_ON.size && !TIERS_ON.has(b.tier)) return false;
-  if(neOnly && !b.ne) return false;
   if(q){const s=q.toLowerCase(); if(!(b.n.toLowerCase().includes(s) || b.stores.some(x=>x.c.toLowerCase().includes(s)||x.s.toLowerCase()===s||(ST[x.s]||'').toLowerCase().includes(s)))) return false;}
   return true;
 }
@@ -309,7 +300,7 @@ function openBrand(n){
     ${aboutHtml(b)}
     ${dials}
     ${prices?'<h3>Entry and top prices</h3>'+prices+(b.lh?'<p class="muted" style="font-size:12px;margin:-8px 0 16px">Outerwear high not shown: the read high was a leather piece, which is not an elevated material (ruled 14 Oct); the top non-leather piece is to be re-read.</p>':''):''}
-    ${b.stores.length?'<h3>Stores</h3><ul class="st">'+states.map(st=>`<li class="hd">${ST[st]||st}${NE.has(st)?' · Northeast':''}</li>`+byState[st].sort((x,y)=>x.c.localeCompare(y.c)).map(s=>`<li><div>${esc(s.sn&&s.sn.toLowerCase()!==b.n.toLowerCase()?s.sn:(s.v||b.n))}<div class="where">${esc([s.a,s.c,s.s,s.z].filter(Boolean).join(', '))}${s.op?' · run by '+esc(s.op):''}</div></div><a href="${mapUrl(s)}" target="_blank" rel="noopener">map ↗</a></li>`).join('')).join('')+'</ul>':'<p class="note">Stores are counted but not addressed for this brand.</p>'}
+    ${b.stores.length?'<h3>Stores</h3><button class="idxlink">store index: every brand’s stores, by state →</button><ul class="st">'+states.map(st=>`<li class="hd">${ST[st]||st}${NE.has(st)?' · Northeast':''}</li>`+byState[st].sort((x,y)=>x.c.localeCompare(y.c)).map(s=>`<li><div>${esc(s.sn&&s.sn.toLowerCase()!==b.n.toLowerCase()?s.sn:(s.v||b.n))}<div class="where">${esc([s.a,s.c,s.s,s.z].filter(Boolean).join(', '))}${s.op?' · run by '+esc(s.op):''}</div></div><a href="${mapUrl(s)}" target="_blank" rel="noopener">map ↗</a></li>`).join('')).join('')+'</ul>':'<p class="note">Stores are counted but not addressed for this brand.</p>'}
     ${b.note?`<p class="note">${esc(b.note)}</p>`:''}
     <p class="cav">Full-price, brand-owned stores from the brand’s own locator. Outlets, concessions and pop-ups are held in the register but not shown. What is on the rack changes daily.</p>`;
   document.getElementById('panel').classList.add('show'); document.getElementById('ov').classList.add('show');
@@ -319,8 +310,6 @@ document.getElementById('close').onclick=closePanel; document.getElementById('ov
 document.addEventListener('keydown',e=>{if(e.key==='Escape')closePanel();});
 document.getElementById('bands').addEventListener('click',e=>{const b=e.target.closest('.b'); if(b) openBrand(b.dataset.n);});
 document.querySelectorAll('.chip[data-t]').forEach(c=>c.onclick=()=>{const k=c.dataset.t; if(TIERS_ON.has(k)) TIERS_ON.delete(k); else TIERS_ON.add(k); c.classList.toggle('on',TIERS_ON.has(k)); renderBands(); renderIdx();});
-document.getElementById('neOnly').onclick=e=>{neOnly=!neOnly; e.target.classList.toggle('on',neOnly); renderBands(); renderIdx();};
-document.getElementById('xover').onclick=e=>{xover=!xover; e.target.classList.toggle('on',xover); renderBands(); renderIdx();};
 function onCut(){C1=+document.getElementById('c1').value; C2=Math.max(+document.getElementById('c2').value,C1+50); document.getElementById('c2').value=C2;
   document.getElementById('c1v').textContent='$'+C1; document.getElementById('c2v').textContent='$'+C2; reband(); renderBands(); renderIdx();}
 document.getElementById('c1').addEventListener('input',onCut); document.getElementById('c2').addEventListener('input',onCut);
@@ -328,7 +317,7 @@ document.getElementById('creset').onclick=()=>{document.getElementById('c1').val
 document.querySelectorAll('#dials label').forEach(l=>{const i=l.querySelector('input'),bb=l.querySelector('b');
   i.addEventListener('input',()=>{const v=+i.value; DIAL[l.dataset.k]=v; bb.textContent=v?('≥ '+v):'off'; l.classList.toggle('on',!!v); renderBands(); renderIdx();});});
 document.getElementById('dreset').onclick=()=>{document.querySelectorAll('#dials label').forEach(l=>{l.querySelector('input').value=0; l.querySelector('b').textContent='off'; l.classList.remove('on');}); for(const k in DIAL) DIAL[k]=0; renderBands(); renderIdx();};
-(()=>{const n=W.brands.filter(b=>b.f&&b.fa).length; document.getElementById('dialcov').textContent=`Dials read for ${n} of ${W.brands.length} brands so far.`;})();
+(()=>{const n=W.brands.filter(b=>b.f).length; document.getElementById('dialcov').textContent=`Dials read for ${n} of ${W.brands.length} brands so far.`;})();
 (()=>{const tip=document.getElementById('tip'); let cur=null;
   const show=el=>{cur=el; tip.textContent=el.dataset.tip; tip.classList.add('show'); place(el);};
   const place=el=>{const r=el.getBoundingClientRect(); tip.style.left='0px'; tip.style.top='0px'; const w=tip.offsetWidth,hh=tip.offsetHeight;
@@ -337,12 +326,10 @@ document.getElementById('dreset').onclick=()=>{document.querySelectorAll('#dials
   document.querySelectorAll('.tt[data-tip]').forEach(el=>{el.addEventListener('mouseenter',()=>show(el)); el.addEventListener('mouseleave',hide); el.addEventListener('focus',()=>show(el)); el.addEventListener('blur',hide);});
   document.addEventListener('scroll',()=>{if(cur) place(cur);},true);})();
 // ---- filter state in the URL hash, so a view can be linked and restored ----
-function stateObj(){return {t:[...TIERS_ON],ne:neOnly?1:0,x:xover?1:0,q,c1:C1,c2:C2,d:Object.fromEntries(Object.entries(DIAL).filter(([k,v])=>v)),r:RENAME};}
+function stateObj(){return {t:[...TIERS_ON],q,c1:C1,c2:C2,d:Object.fromEntries(Object.entries(DIAL).filter(([k,v])=>v)),r:RENAME};}
 function describeState(){const s=stateObj(); const parts=[];
   const TL={mass:'251+ stores',chain:'51–250 stores',network:'13–50 stores',circuit:'4–12 stores',flagship:'1–3 stores'};
   if(s.t.length) parts.push(s.t.map(k=>TL[k]).join(' or '));
-  if(s.ne) parts.push('has a store in the Northeast');
-  if(!s.x) parts.push('women’s-only brands (men’s-map crossovers left out)');
   if(s.q) parts.push(`matches “${s.q}”`);
   parts.push(`band cuts $${s.c1} / $${s.c2}`);
   const DN={'f.tech':'tech','f.comfort':'comfort','f.craft':'craft','f.style':'style','cf':'natural or lyocell','nat':'natural fibres','fa.cotton':'cotton','fa.silk':'silk','fa.wool':'wool','fa.cashmere':'cashmere','fa.linen':'linen','fa.denim':'denim','fa.synth':'synthetic'};
@@ -350,8 +337,6 @@ function describeState(){const s=stateObj(); const parts=[];
   return parts.join(' · ');}
 function applyState(s){try{
   TIERS_ON=new Set(s.t||[]); document.querySelectorAll('.chip[data-t]').forEach(c=>c.classList.toggle('on',TIERS_ON.has(c.dataset.t)));
-  neOnly=!!s.ne; document.getElementById('neOnly').classList.toggle('on',neOnly);
-  xover=s.x!==0; document.getElementById('xover').classList.toggle('on',xover);
   q=s.q||''; document.getElementById('q').value=q;
   if(s.c1){document.getElementById('c1').value=s.c1;} if(s.c2){document.getElementById('c2').value=s.c2;}
   C1=+document.getElementById('c1').value; C2=+document.getElementById('c2').value; document.getElementById('c1v').textContent='$'+C1; document.getElementById('c2v').textContent='$'+C2; reband();
@@ -360,7 +345,6 @@ function applyState(s){try{
   renderBands(); renderIdx();}catch(e){}}
 function stateToHash(){return '#v='+encodeURIComponent(btoa(unescape(encodeURIComponent(JSON.stringify(stateObj())))));}
 function hashToState(){const m=location.hash.match(/^#v=(.+)$/); if(!m) return null; try{return JSON.parse(decodeURIComponent(escape(atob(decodeURIComponent(m[1])))));}catch(e){return null;}}
-document.getElementById('pubLink').onclick=async()=>{const url=location.href.split('#')[0]+stateToHash(); try{await navigator.clipboard.writeText(url); document.getElementById('pubHint').textContent='Link copied. Anyone opening it sees these filters set.';}catch(e){history.replaceState(null,'',stateToHash()); document.getElementById('pubHint').textContent='Link is in the address bar.';}};
 // ---- publish: a page of its own for the brands that pass ----
 function publishPage(){
   const title=(document.getElementById('pubTitle').value||'A view of the Womenswear Spectrum').trim();
@@ -376,12 +360,12 @@ function publishPage(){
   const states=Object.keys(byState).sort((a,c)=>(NE.has(c)-NE.has(a))||(byState[c].length-byState[a].length)||a.localeCompare(c));
   const idx=states.map(st=>`<h3>${esc(ST[st]||st)}${NE.has(st)?' · Northeast':''} <small>${byState[st].length}</small></h3><ul>`+byState[st].sort((x,y)=>x.s.c.localeCompare(y.s.c)||x.b.n.localeCompare(y.b.n)).map(({b,s})=>`<li><b>${esc(b.n)}</b>${s.sn&&s.sn.toLowerCase()!==b.n.toLowerCase()?' · '+esc(s.sn):''}<span>${esc([s.a,s.c,s.s,s.z].filter(Boolean).join(', '))}</span> <a href="${mapUrl(s)}" target="_blank" rel="noopener">map ↗</a></li>`).join('')+'</ul>').join('');
   const css=`:root{--cream:#F4F1EA;--ink:#1E1E1B;--ink-soft:#4A4944;--ink-faint:#7E7C74;--green:#123B2B;--hairline:#D9D4C8;--basic:#F2EEE3;--premium:#E8E5D6;--accessible:#D9D7C4;--trueLux:#D0CCB8}
-    *{box-sizing:border-box;margin:0;padding:0}body{background:var(--cream);color:var(--ink);font-family:Inter,system-ui,sans-serif;font-size:15px;line-height:1.55;padding:40px 20px 80px;max-width:960px;margin:0 auto}
+    *{box-sizing:border-box;margin:0;padding:0}body{background:var(--cream);color:var(--ink);font-family:Inter,system-ui,sans-serif;font-size:15px;line-height:1.75;padding:40px 20px 80px;max-width:960px;margin:0 auto}
     h1{font-family:Prata,Georgia,serif;font-weight:400;font-size:38px;line-height:1.05;margin-bottom:8px}h2{font-family:Prata,Georgia,serif;font-weight:400;font-size:22px;margin:30px 0 4px}h2 small{font-family:Inter,sans-serif;font-size:12px;color:var(--ink-faint);margin-left:10px}
     .lede{font-family:'Playfair Display',Georgia,serif;font-size:14px;color:var(--ink-soft);max-width:640px;margin-bottom:6px}.meta{font-size:12px;color:var(--ink-faint);margin-bottom:6px}.filt{font-size:12.5px;color:var(--ink-soft);padding:10px 14px;border:1px solid var(--hairline);border-radius:10px;background:rgba(255,255,255,.5);margin:14px 0 10px}
-    .def{font-size:12.5px;color:var(--ink-faint);margin-bottom:8px}.run{display:flex;flex-wrap:wrap;gap:4px 10px;font-size:13px;line-height:1.5}.run .bn{white-space:nowrap}.run .bn b{font-weight:500}.run .bn.men b{font-weight:400;font-style:italic}.run .bn{color:var(--ink-faint)}.run .bn b{color:var(--ink)}
-    details.more{margin-top:26px}details.more summary{cursor:pointer;font-size:13px;color:var(--green)}details.more h2{font-size:17px;margin-top:18px}.br{padding:10px 0;border-top:1px solid var(--hairline)}.bh{display:flex;justify-content:space-between;gap:12px;align-items:baseline}.bh span{font-size:12px;color:var(--ink-faint);text-align:right}.br p{font-size:13.5px;color:var(--ink-soft);margin-top:2px}.br .dl{font-size:12px;color:var(--ink-faint)}
-    .idx h3{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint);margin:18px 0 4px}.idx h3 small{font-weight:400}.idx ul{list-style:none}.idx li{display:flex;gap:10px;align-items:baseline;padding:7px 0;border-bottom:1px solid var(--hairline);font-size:13px}.idx li span{color:var(--ink-faint);font-size:12.5px;flex:1}.idx li a{color:var(--green);text-decoration:none;font-size:12px;border:1px solid var(--hairline);border-radius:999px;padding:2px 10px}
+    .def{font-size:12.5px;color:var(--ink-faint);margin-bottom:8px}.run{display:flex;flex-wrap:wrap;gap:7px 12px;font-size:13px;line-height:1.7}.run .bn{white-space:nowrap}.run .bn b{font-weight:500}.run .bn.men b{font-weight:400;font-style:italic}.run .bn{color:var(--ink-faint)}.run .bn b{color:var(--ink)}
+    details.more{margin-top:26px}details.more summary{cursor:pointer;font-size:13px;color:var(--green)}details.more h2{font-size:17px;margin-top:18px}.br{padding:13px 0;border-top:1px solid var(--hairline)}.bh{display:flex;justify-content:space-between;gap:12px;align-items:baseline}.bh span{font-size:12px;color:var(--ink-faint);text-align:right}.br p{font-size:13.5px;line-height:1.7;color:var(--ink-soft);margin-top:4px}.br .dl{font-size:12px;color:var(--ink-faint)}
+    .idx h3{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint);margin:18px 0 4px}.idx h3 small{font-weight:400}.idx ul{list-style:none}.idx li{display:flex;gap:10px;align-items:baseline;padding:9px 0;line-height:1.6;border-bottom:1px solid var(--hairline);font-size:13px}.idx li span{color:var(--ink-faint);font-size:12.5px;flex:1}.idx li a{color:var(--green);text-decoration:none;font-size:12px;border:1px solid var(--hairline);border-radius:999px;padding:2px 10px}
     .cav{font-size:11.5px;color:var(--ink-faint);margin-top:36px;border-top:1px solid var(--hairline);padding-top:12px}@media print{body{padding:0}}`;
   const html=`<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${esc(title)}</title><link href="https://fonts.googleapis.com/css2?family=Prata&family=Playfair+Display&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"><style>${css}</style></head><body>
 <h1>${esc(title)}</h1>${note?`<p class="lede">${esc(note)}</p>`:''}<p class="meta">${vis.length} brands · ${stores.toLocaleString()} full-price brand-owned US stores · from The Womenswear Spectrum ${esc(((document.querySelector('.stamp b')||{}).textContent||'').split(' · ')[0])}, published ${new Date().toLocaleDateString('en-US',{day:'numeric',month:'long',year:'numeric'})}</p>
@@ -398,10 +382,8 @@ let PUB={html:'',title:''};
 function showPublished(html,title,n){
   PUB={html,title};
   let v=document.getElementById('pubView');
-  if(!v){v=document.createElement('div'); v.id='pubView'; v.innerHTML=`<div class="pubbar"><button class="chip" id="pubBack">← back to the Spectrum</button><span id="pubTitleBar"></span><span class="sp"></span><button class="chip" id="pubCopy">copy</button><button class="chip" id="pubCopyHtml">copy as rich text</button><button class="chip on" id="pubSave">save as a file</button><button class="chip" id="pubOpen">open in a new tab</button></div><iframe id="pubFrame" title="Published view"></iframe>`; document.body.appendChild(v);
+  if(!v){v=document.createElement('div'); v.id='pubView'; v.innerHTML=`<div class="pubbar"><button class="chip" id="pubBack">← back to the Spectrum</button><span id="pubTitleBar"></span><span class="sp"></span><button class="chip on" id="pubCopyHtml">copy</button></div><iframe id="pubFrame" title="Published view"></iframe>`; document.body.appendChild(v);
     document.getElementById('pubBack').onclick=()=>{v.classList.remove('show'); document.body.style.overflow='';};
-    document.getElementById('pubSave').onclick=savePublished;
-    document.getElementById('pubCopy').onclick=async()=>{const bar=document.getElementById('pubTitleBar'); try{await navigator.clipboard.writeText(emailText().body); bar.textContent=PUB.title+' — copied as text';}catch(e){bar.textContent=PUB.title+' — could not reach the clipboard';}};
     document.getElementById('pubCopyHtml').onclick=async()=>{const bar=document.getElementById('pubTitleBar');
       const doc=document.getElementById('pubFrame').contentDocument; const body=doc&&doc.body?doc.body.cloneNode(true):null; if(!body){bar.textContent=PUB.title+' — nothing to copy'; return;}
       body.querySelectorAll('details').forEach(d=>d.remove());  // the dense list only; detail and stores stay on the page
@@ -409,17 +391,10 @@ function showPublished(html,title,n){
       try{ if(navigator.clipboard&&window.ClipboardItem){ await navigator.clipboard.write([new ClipboardItem({'text/html':new Blob([html],{type:'text/html'}),'text/plain':new Blob([emailText().body],{type:'text/plain'})})]); bar.textContent=PUB.title+' — copied; paste into a doc or an email'; }
         else { await navigator.clipboard.writeText(emailText().body); bar.textContent=PUB.title+' — copied as text'; } }
       catch(e){ try{await navigator.clipboard.writeText(emailText().body); bar.textContent=PUB.title+' — copied as text';}catch(e2){bar.textContent=PUB.title+' — could not reach the clipboard';} } };
-    document.getElementById('pubOpen').onclick=()=>{const u=URL.createObjectURL(new Blob([PUB.html],{type:'text/html'})); const w=window.open(u,'_blank'); if(!w) document.getElementById('pubTitleBar').textContent=PUB.title+' — the browser blocked the new tab; use save instead';};}
+  }
   document.getElementById('pubFrame').srcdoc=html; document.getElementById('pubTitleBar').textContent=`${title} · ${n} brand${n===1?'':'s'}`;
   v.classList.add('show'); document.body.style.overflow='hidden';
   document.getElementById('pubHint').textContent='Published. Use “back” to return to the filters; the page is kept until you publish again.';
-}
-async function savePublished(){
-  const fn=(PUB.title.replace(/[^a-z0-9]+/gi,'_').replace(/^_|_$/g,'')||'spectrum_view')+'.html';
-  const bar=document.getElementById('pubTitleBar');
-  let dl=null; try{ if(window.claude&&claude.use) dl=await claude.use('downloads'); }catch(e){}
-  if(dl){ try{ await dl.save({filename:fn,data:PUB.html}); bar.textContent=PUB.title+' — saved'; }catch(e){ bar.textContent=PUB.title+(e&&e.code==='declined'?' — not saved':' — could not save here ('+((e&&e.code)||'unavailable')+')'); } return; }
-  const a=document.createElement('a'); a.href=URL.createObjectURL(new Blob([PUB.html],{type:'text/html'})); a.download=fn; document.body.appendChild(a); a.click(); a.remove(); bar.textContent=PUB.title+' — download started';
 }
 document.getElementById('pubGo').onclick=publishPage;
 document.querySelectorAll('.renames input').forEach(i=>i.addEventListener('input',()=>{const v=i.value.trim(); if(v) RENAME[i.dataset.band]=v; else delete RENAME[i.dataset.band]; renderBands();}));
@@ -435,11 +410,6 @@ function emailText(){
   lines.push('Store counts are full-price, brand-owned US stores from each brand’s own locator. From The Womenswear Spectrum, '+new Date().toLocaleDateString('en-US',{day:'numeric',month:'long',year:'numeric'})+'.');
   return {subject:title,body:lines.filter(x=>x!==null).join('\n')};
 }
-document.getElementById('pubMail').onclick=async()=>{const {subject,body}=emailText(); const hint=document.getElementById('pubHint');
-  let copied=false; try{await navigator.clipboard.writeText(body); copied=true;}catch(e){}
-  const m='mailto:?subject='+encodeURIComponent(subject)+'&body='+encodeURIComponent(body.length>1800?body.slice(0,1800)+'\n\n[…list continues; the full text is on your clipboard]':body);
-  window.location.href=m;
-  hint.textContent=copied?'Email draft opened in your mail app; the full text is also on your clipboard in case the draft is cut short.':'Email draft opened in your mail app.';};
 document.getElementById('q').addEventListener('input',e=>{q=e.target.value.trim(); renderBands(); renderIdx();});
 
 // index
@@ -455,7 +425,10 @@ function renderIdx(){
   const more=document.getElementById('more'); more.style.display=rows.length>LIMIT?'':'none'; more.textContent=`show more (${(rows.length-LIMIT).toLocaleString()} of ${rows.length.toLocaleString()} left)`;
 }
 document.getElementById('more').onclick=()=>{LIMIT+=300; renderIdx();};
-document.getElementById('idx').addEventListener('click',e=>{const b=e.target.closest('.brand'); if(b) openBrand(b.dataset.n);});
+function openIdx(){renderIdx(); document.getElementById('idxView').classList.add('show'); document.body.style.overflow='hidden'; if(document.getElementById('panel').classList.contains('show')) document.getElementById('close').click(); document.body.style.overflow='hidden';}
+document.getElementById('idxBack').onclick=()=>{document.getElementById('idxView').classList.remove('show'); document.body.style.overflow='';};
+document.getElementById('pbody').addEventListener('click',e=>{if(e.target.closest('.idxlink')) openIdx();});
+document.getElementById('idx').addEventListener('click',e=>{const b=e.target.closest('.brand'); if(b){document.getElementById('idxBack').click(); openBrand(b.dataset.n);}});
 reband(); renderBands(); renderIdx();
 const _hs=hashToState(); if(_hs) applyState(_hs);
 </script>
