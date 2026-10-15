@@ -153,7 +153,16 @@
    "b": "range"
   }
  },
- "garment_links": {},
+ "garment_links": {
+  "T-shirt": "https://www.g-star.com/en_us/shop/men/t-shirts",
+  "Polo": "https://www.g-star.com/en_us/shop/men/menpolos",
+  "Dress shirt": "https://www.g-star.com/en_us/shop/men/shirts",
+  "Jeans": "https://www.g-star.com/en_us/shop/men/jeans",
+  "Dress pants": "https://www.g-star.com/en_us/shop/men/pants",
+  "Sweater": "https://www.g-star.com/en_us/shop/men/knitwear",
+  "Outerwear": "https://www.g-star.com/en_us/shop/men/jackets_and_blazers",
+  "Shoes": "https://www.g-star.com/en_us/shop/men/shoes"
+ },
  "price_read": {
   "date": "2026-10-11",
   "store": "https://www.g-star.com/en_us (Next.js storefront; catalogue read through the site's Algolia index)",
