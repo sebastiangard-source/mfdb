@@ -132,7 +132,7 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
     <h1>The Womenswear <span class="thin">Spectrum</span></h1>
     <p class="lede">Every women’s brand with a full-price store of its own in the US, placed by price band and shown with its stores. No dials yet: this is the locations map, built from the brands’ own locators, banded by the men’s price rule on the women’s price pass of 13 October.</p>
   </div>
-  <div class="stamp"><b>v0.8 · <span id="built"></span></b>stores counted from the brands’ own locators · bands by the men’s price rule on tee, blouse and sweater</div>
+  <div class="stamp"><b>v0.9 · <span id="built"></span></b>stores counted from the brands’ own locators · bands by the men’s price rule on tee, blouse and sweater</div>
 </header>
 
 <div class="layout">
@@ -140,7 +140,7 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
 <div class="controls">
   <input id="q" type="search" placeholder="Brand, town or state">
   <div class="grp"><span class="lbl">Stores</span><div class="chips">
-    <button class="chip on" data-t="all">All</button><button class="chip" data-t="chain">51+</button><button class="chip" data-t="network">13–50</button><button class="chip" data-t="circuit">4–12</button><button class="chip" data-t="flagship">1–3</button></div></div>
+    <button class="chip" data-t="mass">251+</button><button class="chip" data-t="chain">51–250</button><button class="chip" data-t="network">13–50</button><button class="chip" data-t="circuit">4–12</button><button class="chip" data-t="flagship">1–3</button></div><span class="hint" style="font-size:11.5px;color:var(--ink-faint)">Pick any; none picked means all.</span></div>
   <div class="grp"><span class="lbl">Northeast</span><div class="chips"><button class="chip" id="neOnly">has a store here</button></div></div>
   <div class="grp"><span class="lbl">Crossovers</span><div class="chips"><button class="chip on" id="xover">include men’s-map brands</button></div></div>
 </div>
@@ -205,13 +205,13 @@ const mapUrl=s=>'https://www.google.com/maps/search/?api=1&query='+encodeURIComp
 const ST={AL:'Alabama',AK:'Alaska',AZ:'Arizona',AR:'Arkansas',CA:'California',CO:'Colorado',CT:'Connecticut',DE:'Delaware',DC:'District of Columbia',FL:'Florida',GA:'Georgia',HI:'Hawaii',ID:'Idaho',IL:'Illinois',IN:'Indiana',IA:'Iowa',KS:'Kansas',KY:'Kentucky',LA:'Louisiana',ME:'Maine',MD:'Maryland',MA:'Massachusetts',MI:'Michigan',MN:'Minnesota',MS:'Mississippi',MO:'Missouri',MT:'Montana',NE:'Nebraska',NV:'Nevada',NH:'New Hampshire',NJ:'New Jersey',NM:'New Mexico',NY:'New York',NC:'North Carolina',ND:'North Dakota',OH:'Ohio',OK:'Oklahoma',OR:'Oregon',PA:'Pennsylvania',PR:'Puerto Rico',RI:'Rhode Island',SC:'South Carolina',SD:'South Dakota',TN:'Tennessee',TX:'Texas',UT:'Utah',VT:'Vermont',VA:'Virginia',WA:'Washington',WV:'West Virginia',WI:'Wisconsin',WY:'Wyoming'};
 document.getElementById('built').textContent=new Date(W.built+'T12:00:00').toLocaleDateString('en-US',{day:'numeric',month:'long',year:'numeric'});
 
-let tier='all', neOnly=false, xover=true, q='';
+let TIERS_ON=new Set(), neOnly=false, xover=true, q='';
 const DIAL={};  // key -> threshold
 function dialGet(b,k){if(!k.includes('.')) return b[k]!=null?b[k]:null; const [g,a]=k.split('.'); const o=b[g]; return o&&o[a]!=null?o[a]:null;}
 function matches(b){
   if(!xover && b.src==='men') return false;
   for(const k in DIAL){const t=DIAL[k]; if(!t) continue; const v=dialGet(b,k); if(v==null||v<t) return false;}
-  if(tier!=='all' && !(tier==='chain' ? (b.tier==='chain'||b.tier==='mass') : b.tier===tier)) return false;
+  if(TIERS_ON.size && !TIERS_ON.has(b.tier)) return false;
   if(neOnly && !b.ne) return false;
   if(q){const s=q.toLowerCase(); if(!(b.n.toLowerCase().includes(s) || b.stores.some(x=>x.c.toLowerCase().includes(s)||x.s.toLowerCase()===s||(ST[x.s]||'').toLowerCase().includes(s)))) return false;}
   return true;
@@ -284,7 +284,7 @@ function closePanel(){document.getElementById('panel').classList.remove('show');
 document.getElementById('close').onclick=closePanel; document.getElementById('ov').onclick=closePanel;
 document.addEventListener('keydown',e=>{if(e.key==='Escape')closePanel();});
 document.getElementById('bands').addEventListener('click',e=>{const b=e.target.closest('.b'); if(b) openBrand(b.dataset.n);});
-document.querySelectorAll('.chip[data-t]').forEach(c=>c.onclick=()=>{document.querySelectorAll('.chip[data-t]').forEach(x=>x.classList.remove('on')); c.classList.add('on'); tier=c.dataset.t; renderBands(); renderIdx();});
+document.querySelectorAll('.chip[data-t]').forEach(c=>c.onclick=()=>{const k=c.dataset.t; if(TIERS_ON.has(k)) TIERS_ON.delete(k); else TIERS_ON.add(k); c.classList.toggle('on',TIERS_ON.has(k)); renderBands(); renderIdx();});
 document.getElementById('neOnly').onclick=e=>{neOnly=!neOnly; e.target.classList.toggle('on',neOnly); renderBands(); renderIdx();};
 document.getElementById('xover').onclick=e=>{xover=!xover; e.target.classList.toggle('on',xover); renderBands(); renderIdx();};
 function onCut(){C1=+document.getElementById('c1').value; C2=Math.max(+document.getElementById('c2').value,C1+50); document.getElementById('c2').value=C2;
