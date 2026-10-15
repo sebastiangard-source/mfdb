@@ -8,7 +8,7 @@ One record shape, two folders: data/brands_womens/ (women's-only brands) and dat
 the crossovers — men's-map brands in the women's universe). Stores: registers/own_doors_womens_2026-10-10.csv for
 the women's records, data/places.json for the men's.
 """
-import csv, json, os, re, glob, collections, unicodedata, datetime
+import csv, json, os, re, sys, glob, collections, unicodedata, datetime
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 NE = ['MA', 'CT', 'ME', 'NH', 'NJ', 'NY', 'PA', 'RI', 'VT', 'DE']
@@ -168,6 +168,20 @@ def main():
     out = os.path.join(ROOT, 'dist/womens_spectrum.html')
     open(out, 'w', encoding='utf8').write(html)
     print(f'{len(brands)} brands ({sum(1 for b in brands if b["src"]=="men")} crossovers), {sum(len(b["stores"]) for b in brands)} stores, bands {dict(nb)} -> {out} {os.path.getsize(out):,} bytes')
+    if '--deploy' in sys.argv:
+        # Same route as the men's map: the deploy branch, which the host copies into public_html/mfdb.
+        import shutil, subprocess, tempfile
+        wt = tempfile.mkdtemp()
+        subprocess.run(['git', 'fetch', '-q', 'origin', 'deploy'], cwd=ROOT, check=True)
+        subprocess.run(['git', 'worktree', 'add', '-q', wt, 'deploy'], cwd=ROOT, check=True)
+        subprocess.run(['git', 'merge', '-q', '--ff-only', 'origin/deploy'], cwd=wt)
+        shutil.copy(out, os.path.join(wt, 'womens.html'))
+        subprocess.run(['git', 'add', 'womens.html'], cwd=wt, check=True)
+        ver = (re.search(r'<b>(v[\d.]+) ·', tpl) or [None, '?'])[1]
+        subprocess.run(['git', '-c', 'user.name=mfdb', '-c', 'user.email=mfdb@local', 'commit', '-qm', f'deploy womens {ver}'], cwd=wt)
+        subprocess.run(['git', 'push', '-q', 'origin', 'HEAD:deploy'], cwd=wt, check=True)
+        subprocess.run(['git', 'worktree', 'remove', '--force', wt], cwd=ROOT)
+        print(f'deploy branch updated: womens {ver} -> womens.html')
 
 
 if __name__ == '__main__':
