@@ -1447,5 +1447,79 @@
   "domain": "whitehouseblackmarket.com"
  },
  "depts": 0,
+ "garment_links": {
+  "T-shirt": "https://www.whitehouseblackmarket.com/store/category/tees/cat4769286",
+  "Blouse": "https://www.whitehouseblackmarket.com/store/category/blouses-shirts/cat4769287",
+  "Sweater": "https://www.whitehouseblackmarket.com/store/category/sweaters/cat7029280",
+  "Jeans": "https://www.whitehouseblackmarket.com/store/category/denim/cat19579275",
+  "Trousers": "https://www.whitehouseblackmarket.com/store/category/pants/cat210003",
+  "Dress": "https://www.whitehouseblackmarket.com/store/category/dresses/cat210002",
+  "Outerwear": "https://www.whitehouseblackmarket.com/store/category/jackets-blazers/cat210004",
+  "Shoes": "https://www.whitehouseblackmarket.com/store/category/shoes/cat7299308"
+ },
+ "fabric": {
+  "denim": 3,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 4,
+  "wool": 1,
+  "synth": 5,
+  "silk": 1
+ },
+ "fibre": {
+  "t": 80,
+  "w": 80,
+  "n_pct": 22,
+  "s_pct": 59,
+  "c_pct": 19,
+  "spandex": 60,
+  "sp": "split",
+  "sample": "stratified sample of 80 of 751 distinct product ids (equals the Clothing node's own '751 Items'); read off 9 nav categories, leftover tops and skirts under Tops",
+  "st": "read",
+  "clean_pct": 9,
+  "clean_n": 79,
+  "clean_lyo": 1,
+  "ly_pct": 1,
+  "cv_pct": 18
+ },
+ "focus": {
+  "tech": 3,
+  "craft": 1,
+  "comfort": 3,
+  "style": 3
+ },
+ "tech_evidence": {
+  "names": "WHBM FORME™ All Ways Stretch; Luxe Stretch (suiting knit); licensed LYCRA® / LYCRA® T400®, UNIFI Repreve®",
+  "owned": "FORME and Luxe Stretch house names; LYCRA, T400, Repreve licensed",
+  "share": "16% (13/80 sampled styles)",
+  "u": "https://www.whitehouseblackmarket.com/store/product/whbm-forme-all-ways-stretch-v-neck-cami/570334745",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "no — none stated anywhere read",
+  "makers": "no — 0 of 80 sampled PDPs",
+  "mills": "no — fibre brands only (LYCRA, Repreve)",
+  "madein": "0% name a country — 80 of 80 sampled PDPs say only 'Imported'",
+  "heritage": "none — the 'Our Story' page (about-us/24) renders no story text on 2026-10-14",
+  "process": "no",
+  "urls": [
+   "https://www.whitehouseblackmarket.com/store/page/about-us/24",
+   "https://www.whitehouseblackmarket.com/store/product/whbm-one-button-blazer/570377562"
+  ],
+  "proposed": 1,
+  "reasoning": "Nothing checkable: no facility, maker or mill named, every sampled page says only 'Imported', and the Our Story page is empty.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 3 (2026-10-14): named fabrics WHBM FORME™ All Ways Stretch; Luxe Stretch (suiting knit); licensed LYCRA® / LYCRA® T400®, UNIFI Repreve®, 16% (13/80 sampled styles) of the range. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 1 (2026-10-14): Nothing checkable: no facility, maker or mill named, every sampled page says only 'Imported', and the Our Story page is empty. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "denim": "14% of 80 sampled styles with a composition are in denim (the jeans category or denim cloth); read 2026-10-14, a sample where the house has more than 80 styles.",
+  "cashmere": "0% of 80 sampled styles with a composition are led by cashmere; read 2026-10-14, a sample where the house has more than 80 styles.",
+  "linen": "0% of 80 sampled styles with a composition are led by linen; read 2026-10-14, a sample where the house has more than 80 styles.",
+  "cotton": "22% of 80 sampled styles with a composition are led by cotton; read 2026-10-14, a sample where the house has more than 80 styles.",
+  "silk": "0% of 80 sampled styles with a composition are led by silk; read 2026-10-14, a sample where the house has more than 80 styles."
+ },
  "src": "womens"
 }

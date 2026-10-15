@@ -1178,5 +1178,79 @@
   "domain": "anthropologie.com"
  },
  "depts": 0,
+ "garment_links": {
+  "T-shirt": "https://www.anthropologie.com/tees",
+  "Blouse": "https://www.anthropologie.com/tops",
+  "Sweater": "https://www.anthropologie.com/tops-sweaters",
+  "Jeans": "https://www.anthropologie.com/bottoms-jeans",
+  "Trousers": "https://www.anthropologie.com/bottoms-pants",
+  "Dress": "https://www.anthropologie.com/dresses",
+  "Outerwear": "https://www.anthropologie.com/jackets-coats",
+  "Shoes": "https://www.anthropologie.com/shoes"
+ },
+ "fabric": {
+  "denim": 3,
+  "cashmere": 2,
+  "linen": 2,
+  "cotton": 5,
+  "wool": 2,
+  "synth": 4,
+  "silk": 1
+ },
+ "fibre": {
+  "t": 80,
+  "w": 79,
+  "n_pct": 56,
+  "s_pct": 26,
+  "c_pct": 16,
+  "spandex": 28,
+  "sp": "split",
+  "sample": "stratified sample of 80 across 8 nav categories in proportion to the counts the site shows (Tees 935, Tops 896, Sweaters 650, Jeans 852, Pants 674, Dresses 2,00",
+  "st": "partial",
+  "clean_pct": 36,
+  "clean_n": 75,
+  "clean_lyo": 2,
+  "ly_pct": 4,
+  "cv_pct": 13
+ },
+ "focus": {
+  "tech": 2,
+  "craft": 1,
+  "comfort": 4,
+  "style": 3
+ },
+ "tech_evidence": {
+  "names": "NONE owned — third-party performance goods only (e.g. Sweaty Betty, Barbour waterproof); own label Maeve uses a 'Magic Fabric' name without a technical claim",
+  "owned": "",
+  "share": "2% (2/80 sampled styles)",
+  "u": "https://www.anthropologie.com/shop/sweaty-betty-power-cropped-workout-leggings",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "no — none stated on product pages; not checked beyond them",
+  "makers": "no — product pages name the selling brand (Maeve, Pilcro, Varley, AGOLDE…) but no factory or workshop",
+  "mills": "no",
+  "madein": "2 of 80 name a country (both 'USA': Pilcro Niki sweatshirt and Citizens of Humanity henley); 58 say 'Imported'; 20 give ",
+  "heritage": "NC — no About page read in the time box",
+  "process": "no",
+  "urls": [
+   "https://www.anthropologie.com/shop/pilcro-niki-long-sleeve-bubble-sweatshirt",
+   "https://www.anthropologie.com/shop/maeve-mabel-boxy-oxford-shirt"
+  ],
+  "proposed": 1,
+  "reasoning": "A multi-brand store: its own labels (Maeve, Pilcro, By Anthropologie) name no maker, mill or facility, and only 2 of 80 sampled pages state a country. Nothing checkable about making belongs to the house.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 2 (2026-10-14): named fabrics NONE owned — third-party performance goods only (e.g. Sweaty Betty, Barbour waterproof); own label Maeve uses a 'Magic Fabric' name without a technical claim, 2% (2/80 sampled styles) of the range. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 1 (2026-10-14): A multi-brand store: its own labels (Maeve, Pilcro, By Anthropologie) name no maker, mill or facility, and only 2 of 80 sampled pages state a country. Nothing checkable about making belongs to the house. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "denim": "14% of 80 sampled styles with a composition are in denim (the jeans category or denim cloth); read 2026-10-14, a sample where the house has more than 80 styles.",
+  "cashmere": "2% of 80 sampled styles with a composition are led by cashmere; read 2026-10-14, a sample where the house has more than 80 styles.",
+  "linen": "2% of 80 sampled styles with a composition are led by linen; read 2026-10-14, a sample where the house has more than 80 styles.",
+  "cotton": "45% of 80 sampled styles with a composition are led by cotton; read 2026-10-14, a sample where the house has more than 80 styles.",
+  "silk": "0% of 80 sampled styles with a composition are led by silk; read 2026-10-14, a sample where the house has more than 80 styles."
+ },
  "src": "womens"
 }

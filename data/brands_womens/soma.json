@@ -1340,5 +1340,76 @@
   "domain": "soma.com"
  },
  "depts": 0,
+ "garment_links": {
+  "T-shirt": "https://www.soma.com/store/category/lounge-tops/cat11849328",
+  "Blouse": "https://www.soma.com/store/category/lounge-tops/cat11849328",
+  "Sweater": "https://www.soma.com/store/category/sweaters/cat38959277",
+  "Trousers": "https://www.soma.com/store/category/lounge-bottoms/cat15059294",
+  "Dress": "https://www.soma.com/store/category/dresses/cat8739276"
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 4,
+  "wool": 1,
+  "synth": 4,
+  "silk": 1
+ },
+ "fibre": {
+  "t": 79,
+  "w": 79,
+  "n_pct": 32,
+  "s_pct": 22,
+  "c_pct": 47,
+  "spandex": 58,
+  "sp": "one",
+  "sample": "stratified sample of 80 of 206 distinct product ids in Apparel (node shows 431 items incl. colour tiles); bras, panties, lingerie, shapewear, swim and the Sleep",
+  "st": "read",
+  "clean_pct": 10,
+  "clean_n": 79,
+  "clean_lyo": 3,
+  "ly_pct": 3,
+  "cv_pct": 44
+ },
+ "focus": {
+  "tech": 2,
+  "craft": 1,
+  "comfort": 5,
+  "style": 1
+ },
+ "tech_evidence": {
+  "names": "NONE technical in apparel — comfort-fabric names only (Modern Modal, Ultra Soft, Soft Jersey, Essential Terry, CozyLuxe, 24/7 leggings); TENCEL licensed",
+  "owned": "house comfort-fabric names; TENCEL licensed",
+  "share": "0%",
+  "u": "https://www.soma.com/store/product/24-7-high-waist-legging/570394173",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "no — none stated",
+  "makers": "no — 0 of 80 sampled PDPs",
+  "mills": "no",
+  "madein": "0% name a country — 1 of 80 sampled PDPs says 'Imported', 79 say nothing about origin",
+  "heritage": "none — the Our Story page (about-us) renders only promotions and navigation on 2026-10-14",
+  "process": "no",
+  "urls": [
+   "https://www.soma.com/store/page/about-us",
+   "https://www.soma.com/store/product/essential-terry-jogger/570403502"
+  ],
+  "proposed": 1,
+  "reasoning": "Nothing checkable: no facility, maker, mill or country of origin on the sampled apparel pages, and the Our Story page carries no story.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 2 (2026-10-14): named fabrics NONE technical in apparel — comfort-fabric names only (Modern Modal, Ultra Soft, Soft Jersey, Essential Terry, CozyLuxe, 24/7 leggings); TENCEL licensed, 0% of the range. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 1 (2026-10-14): Nothing checkable: no facility, maker, mill or country of origin on the sampled apparel pages, and the Our Story page carries no story. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "denim": "0% of 79 sampled styles with a composition are in denim (the jeans category or denim cloth); read 2026-10-14, a sample where the house has more than 80 styles.",
+  "cashmere": "0% of 79 sampled styles with a composition are led by cashmere; read 2026-10-14, a sample where the house has more than 80 styles.",
+  "linen": "0% of 79 sampled styles with a composition are led by linen; read 2026-10-14, a sample where the house has more than 80 styles.",
+  "cotton": "32% of 79 sampled styles with a composition are led by cotton; read 2026-10-14, a sample where the house has more than 80 styles.",
+  "silk": "0% of 79 sampled styles with a composition are led by silk; read 2026-10-14, a sample where the house has more than 80 styles."
+ },
  "src": "womens"
 }

@@ -927,5 +927,79 @@
   "domain": "freepeople.com"
  },
  "depts": 5,
+ "garment_links": {
+  "T-shirt": "https://www.freepeople.com/tees/",
+  "Blouse": "https://www.freepeople.com/blouses/",
+  "Sweater": "https://www.freepeople.com/sweaters/",
+  "Jeans": "https://www.freepeople.com/jeans/",
+  "Trousers": "https://www.freepeople.com/pants/",
+  "Dress": "https://www.freepeople.com/dresses/",
+  "Outerwear": "https://www.freepeople.com/jackets/",
+  "Shoes": "https://www.freepeople.com/shoes/"
+ },
+ "fabric": {
+  "denim": 3,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 5,
+  "wool": 1,
+  "synth": 3,
+  "silk": 2
+ },
+ "fibre": {
+  "t": 80,
+  "w": 79,
+  "n_pct": 69,
+  "s_pct": 16,
+  "c_pct": 14,
+  "spandex": 19,
+  "sp": "one",
+  "sample": "stratified sample of 80 across 8 nav categories in proportion to the site's own counts (Tops 1,090, Dresses 481, Jeans 437, Jackets 406, Pants 303, Sweaters 182",
+  "st": "partial",
+  "clean_pct": 53,
+  "clean_n": 77,
+  "clean_lyo": 2,
+  "ly_pct": 1,
+  "cv_pct": 13
+ },
+ "focus": {
+  "tech": 2,
+  "craft": 1,
+  "comfort": 4,
+  "style": 3
+ },
+ "tech_evidence": {
+  "names": "NONE in the sampled clothing range (FP Movement activewear was not read)",
+  "owned": "",
+  "share": "0%",
+  "u": "https://www.freepeople.com/shop/sweet-point-seamless-long-sleeve-henley/",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "no — none stated on product pages; not checked beyond them",
+  "makers": "no — PDPs name the label (We The Free is called 'an in-house label') but no factory",
+  "mills": "no",
+  "madein": "4 of 80 give a made-in origin rather than 'Import' (one reads 'Made in Europe'; three begin 'Made…', country not capture",
+  "heritage": "NC — no About page read in the time box",
+  "process": "no",
+  "urls": [
+   "https://www.freepeople.com/shop/we-the-free-easy-does-it-striped-long-sleeve-tee/",
+   "https://www.freepeople.com/shop/agolde-nate-leather-pants/"
+  ],
+  "proposed": 1,
+  "reasoning": "Product pages carry a 'Care + Contents' block ending 'Origin: Import' on 74 of 80 sampled styles; no maker, mill or facility is named for the house's own labels. Heritage not checked.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 2 (2026-10-14): named fabrics NONE in the sampled clothing range (FP Movement activewear was not read), 0% of the range. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 1 (2026-10-14): Product pages carry a 'Care + Contents' block ending 'Origin: Import' on 74 of 80 sampled styles; no maker, mill or facility is named for the house's own labels. Heritage not checked. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "denim": "12% of 80 sampled styles with a composition are in denim (the jeans category or denim cloth); read 2026-10-14, a sample where the house has more than 80 styles.",
+  "cashmere": "0% of 80 sampled styles with a composition are led by cashmere; read 2026-10-14, a sample where the house has more than 80 styles.",
+  "linen": "0% of 80 sampled styles with a composition are led by linen; read 2026-10-14, a sample where the house has more than 80 styles.",
+  "cotton": "64% of 80 sampled styles with a composition are led by cotton; read 2026-10-14, a sample where the house has more than 80 styles.",
+  "silk": "2% of 80 sampled styles with a composition are led by silk; read 2026-10-14, a sample where the house has more than 80 styles."
+ },
  "src": "womens"
 }

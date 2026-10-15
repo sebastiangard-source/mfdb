@@ -1843,5 +1843,79 @@
   "domain": "talbots.com"
  },
  "depts": 0,
+ "garment_links": {
+  "T-shirt": "https://www.talbots.com/clothing/tees-and-knits",
+  "Blouse": "https://www.talbots.com/clothing/blouses-and-shirts",
+  "Sweater": "https://www.talbots.com/clothing/sweaters",
+  "Jeans": "https://www.talbots.com/clothing/jeans",
+  "Trousers": "https://www.talbots.com/clothing/pants",
+  "Dress": "https://www.talbots.com/clothing/dresses",
+  "Outerwear": "https://www.talbots.com/clothing/jackets-and-coats",
+  "Shoes": "https://www.talbots.com/shoes"
+ },
+ "fabric": {
+  "denim": 3,
+  "cashmere": 2,
+  "linen": 1,
+  "cotton": 5,
+  "wool": 2,
+  "synth": 4,
+  "silk": 1
+ },
+ "fibre": {
+  "t": 79,
+  "w": 79,
+  "n_pct": 67,
+  "s_pct": 24,
+  "c_pct": 9,
+  "spandex": 34,
+  "sp": "one",
+  "sample": "stratified sample of 80 of 1,278 distinct P-codes read off 11 clothing categories at sz=500 (category counters sum to 1,525; overlap removed); 1 sampled PDP was",
+  "st": "read",
+  "clean_pct": 34,
+  "clean_n": 73,
+  "clean_lyo": 2,
+  "ly_pct": 4,
+  "cv_pct": 5
+ },
+ "focus": {
+  "tech": 3,
+  "craft": 1,
+  "comfort": 4,
+  "style": 2
+ },
+ "tech_evidence": {
+  "names": "AirKnit Stretch (T by Talbots); Out & About and Balance (activewear lines); Coolmax® (licensed); Chatham bi-stretch (a named pant cloth, not technical)",
+  "owned": "AirKnit, Out & About, Balance house names; Coolmax and LYCRA licensed",
+  "share": "8% (6/79 sampled styles)",
+  "u": "https://www.talbots.com/t-by-talbots/collections/airknit-stretch",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "no — About Us names the Hingham, MA main campus (offices: merchandising, marketing, finance) and stores; no factory, mill or workshop",
+  "makers": "no — 0 of 79 sampled PDPs name a maker",
+  "mills": "no — none named on sampled PDPs",
+  "madein": "0% name a country — 79 of 79 live PDPs say only 'Imported'",
+  "heritage": "dated and placed as a retailer: 'In 1947, Nancy and Rudy Talbot ... created a clothing catalog', then a house in Hingham, Massachusetts — a catalogue's origin, not a maker's",
+  "process": "no",
+  "urls": [
+   "https://www.talbots.com/clothing/about-us/about-us",
+   "https://www.talbots.com/soft-cable-knit-crewneck-sweater/P264121600.html"
+  ],
+  "proposed": 1,
+  "reasoning": "No owned making, no makers or mills named on any sampled product page, and every live page says only 'Imported'. The 1947 Hingham founding is dated and placed but describes a catalogue and a shop, not a place where anything is made.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 3 (2026-10-14): named fabrics AirKnit Stretch (T by Talbots); Out & About and Balance (activewear lines); Coolmax® (licensed); Chatham bi-stretch (a named pant cloth, not technical), 8% (6/79 sampled styles) of the range. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 1 (2026-10-14): No owned making, no makers or mills named on any sampled product page, and every live page says only 'Imported'. The 1947 Hingham founding is dated and placed but describes a catalogue and a shop, not a place where anything is made. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "denim": "10% of 79 sampled styles with a composition are in denim (the jeans category or denim cloth); read 2026-10-14, a sample where the house has more than 80 styles.",
+  "cashmere": "8% of 79 sampled styles with a composition are led by cashmere; read 2026-10-14, a sample where the house has more than 80 styles.",
+  "linen": "0% of 79 sampled styles with a composition are led by linen; read 2026-10-14, a sample where the house has more than 80 styles.",
+  "cotton": "56% of 79 sampled styles with a composition are led by cotton; read 2026-10-14, a sample where the house has more than 80 styles.",
+  "silk": "0% of 79 sampled styles with a composition are led by silk; read 2026-10-14, a sample where the house has more than 80 styles."
+ },
  "src": "womens"
 }

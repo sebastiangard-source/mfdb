@@ -1240,5 +1240,77 @@
   "domain": "athleta.gap.com"
  },
  "depts": 0,
+ "garment_links": {
+  "T-shirt": "https://athleta.gap.com/browse/tops/short-sleeve-tops?cid=1011679",
+  "Blouse": "https://athleta.gap.com/browse/tops/all-tops?cid=1032080",
+  "Sweater": "https://athleta.gap.com/browse/tops/sweatshirts-and-wraps?cid=1005761",
+  "Trousers": "https://athleta.gap.com/browse/bottoms/pants?cid=1059471",
+  "Dress": "https://athleta.gap.com/browse/dresses-and-jumpsuits/dresses?cid=3038728",
+  "Outerwear": "https://athleta.gap.com/browse/jackets/all-jackets?cid=1017102"
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 3,
+  "wool": 1,
+  "synth": 5,
+  "silk": 1
+ },
+ "fibre": {
+  "t": 80,
+  "w": 80,
+  "n_pct": 9,
+  "s_pct": 74,
+  "c_pct": 18,
+  "spandex": 67,
+  "sp": "split",
+  "sample": "stratified sample of 80 of 248 distinct styleIds from the site's own product-search API across 13 nav categories (All Tops 333 colours, All Bottoms 250, Jackets",
+  "st": "partial",
+  "clean_pct": 0,
+  "clean_n": 78,
+  "clean_lyo": 0,
+  "ly_pct": 2,
+  "cv_pct": 15
+ },
+ "focus": {
+  "tech": 4,
+  "craft": 1,
+  "comfort": 5,
+  "style": 2
+ },
+ "tech_evidence": {
+  "names": "house fabric families named in titles: Salutation, Elation, Seasoft, Brooklyn, Featherweight, RainOut, Dream Drape, Coaster Luxe, TrainKnit, Momentum, Form Knit; licensed LYCRA®, TENCEL™, SUPIMA®",
+  "owned": "family names owned; LYCRA, TENCEL, SUPIMA licensed",
+  "share": "50% (40/80 sampled styles)",
+  "u": "https://athleta.gap.com/browse/product.do?pid=531321002",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "no — none stated on product pages; no About page reachable from the US store's navigation or footer",
+  "makers": "no — 0 of 80",
+  "mills": "no — fibre brands only",
+  "madein": "0% name a country — 80 of 80 fabric blocks end 'Imported.'",
+  "heritage": "NC — no About or story page linked from athleta.gap.com navigation or rendered footer on 2026-10-14; not looked for off-site",
+  "process": "no",
+  "urls": [
+   "https://athleta.gap.com/browse/product.do?pid=531321002",
+   "https://athleta.gap.com/browse/product.do?pid=842888002"
+  ],
+  "proposed": 1,
+  "reasoning": "Every sampled product page gives a fibre line, performance claims and 'Imported.' — no maker, mill, country or facility. Heritage was not reachable on the brand's own store, so this rests on product pages alone.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 4 (2026-10-14): named fabrics house fabric families named in titles: Salutation, Elation, Seasoft, Brooklyn, Featherweight, RainOut, Dream Drape, Coaster Luxe, TrainKnit, Momentum, Form Knit; licensed LYCRA®, TENCEL™, SUPIMA®, 50% (40/80 sampled styles) of the range. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 1 (2026-10-14): Every sampled product page gives a fibre line, performance claims and 'Imported.' — no maker, mill, country or facility. Heritage was not reachable on the brand's own store, so this rests on product pages alone. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "denim": "0% of 80 sampled styles with a composition are in denim (the jeans category or denim cloth); read 2026-10-14, a sample where the house has more than 80 styles.",
+  "cashmere": "0% of 80 sampled styles with a composition are led by cashmere; read 2026-10-14, a sample where the house has more than 80 styles.",
+  "linen": "0% of 80 sampled styles with a composition are led by linen; read 2026-10-14, a sample where the house has more than 80 styles.",
+  "cotton": "9% of 80 sampled styles with a composition are led by cotton; read 2026-10-14, a sample where the house has more than 80 styles.",
+  "silk": "0% of 80 sampled styles with a composition are led by silk; read 2026-10-14, a sample where the house has more than 80 styles."
+ },
  "src": "womens"
 }

@@ -1380,5 +1380,79 @@
   "domain": "jjill.com"
  },
  "depts": 0,
+ "garment_links": {
+  "T-shirt": "https://www.jjill.com/shop/womens-clothing/knit-tops-tees",
+  "Blouse": "https://www.jjill.com/shop/womens-clothing/shirts-blouses",
+  "Sweater": "https://www.jjill.com/shop/womens-clothing/sweaters",
+  "Jeans": "https://www.jjill.com/shop/womens-clothing/pants-jeans/jeans",
+  "Trousers": "https://www.jjill.com/shop/womens-clothing/pants-jeans/pants",
+  "Dress": "https://www.jjill.com/shop/womens-clothing/dresses",
+  "Outerwear": "https://www.jjill.com/shop/womens-clothing/jackets-outerwear",
+  "Shoes": "https://www.jjill.com/shop/shoes-accessories-/shoes"
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 4,
+  "wool": 2,
+  "synth": 2,
+  "silk": 1
+ },
+ "fibre": {
+  "t": 80,
+  "w": 42,
+  "n_pct": 31,
+  "s_pct": 5,
+  "c_pct": 16,
+  "spandex": 20,
+  "sp": "one",
+  "sample": "stratified sample of 80 of 628 distinct product handles read off every grid page of 12 nav nodes (All Clothing counter 606; 27 shoes, bags, scarves and sleepwea",
+  "st": "partial",
+  "clean_pct": 24,
+  "clean_n": 37,
+  "clean_lyo": 0,
+  "ly_pct": 0,
+  "cv_pct": 31
+ },
+ "focus": {
+  "tech": 3,
+  "craft": 1,
+  "comfort": 5,
+  "style": 1
+ },
+ "tech_evidence": {
+  "names": "Wearever (travel knit collection, LENZING ECOVERO viscose/LYCRA); Fit performance knits; Elevation Knit; licensed LENZING™ ECOVERO™, TENCEL™ Modal, REPREVE®, LYCRA",
+  "owned": "Wearever, Fit, Elevation are house names; ECOVERO, TENCEL, REPREVE, LYCRA licensed",
+  "share": "11% (9/80 sampled styles)",
+  "u": "https://www.jjill.com/product/we-ballet-sleeve-crew-neck-top-288691s-1",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "no — Who We Are and Corporate Responsibility pages describe values, a Vendor Code of Conduct and an impact report; no owned making",
+  "makers": "no — 0 of 80 sampled PDPs",
+  "mills": "no — fibre brands only (LENZING, TENCEL, REPREVE)",
+  "madein": "0% name a country — 42 of 42 PDPs that carry a fabric block say only 'Imported'; the other 38 carry neither",
+  "heritage": "none dated on the brand's own About page (a belief statement only)",
+  "process": "no — fabric-feel copy on the Iconic Fall Fabrics page only",
+  "urls": [
+   "https://www.jjill.com/about-us",
+   "https://www.jjill.com/corporate-responsibility"
+  ],
+  "proposed": 1,
+  "reasoning": "No owned facility, no named makers or mills, and no country of origin beyond 'Imported'. The About page carries no dated or placed founding, and the responsibility page covers vendor codes, not making.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 3 (2026-10-14): named fabrics Wearever (travel knit collection, LENZING ECOVERO viscose/LYCRA); Fit performance knits; Elevation Knit; licensed LENZING™ ECOVERO™, TENCEL™ Modal, REPREVE®, LYCRA, 11% (9/80 sampled styles) of the range. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 1 (2026-10-14): No owned facility, no named makers or mills, and no country of origin beyond 'Imported'. The About page carries no dated or placed founding, and the responsibility page covers vendor codes, not making. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "denim": "4% of 80 sampled styles with a composition are in denim (the jeans category or denim cloth); read 2026-10-14, a sample where the house has more than 80 styles.",
+  "cashmere": "0% of 80 sampled styles with a composition are led by cashmere; read 2026-10-14, a sample where the house has more than 80 styles.",
+  "linen": "0% of 80 sampled styles with a composition are led by linen; read 2026-10-14, a sample where the house has more than 80 styles.",
+  "cotton": "30% of 80 sampled styles with a composition are led by cotton; read 2026-10-14, a sample where the house has more than 80 styles.",
+  "silk": "0% of 80 sampled styles with a composition are led by silk; read 2026-10-14, a sample where the house has more than 80 styles."
+ },
  "src": "womens"
 }

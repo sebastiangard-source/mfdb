@@ -1812,5 +1812,79 @@
   "domain": "loft.com"
  },
  "depts": 0,
+ "garment_links": {
+  "T-shirt": "https://www.loft.com/clothing/tees/cat2860023/",
+  "Blouse": "https://www.loft.com/clothing/shirts-blouses/cat640046/",
+  "Sweater": "https://www.loft.com/clothing/sweaters/catl000012/",
+  "Jeans": "https://www.loft.com/clothing/jeans/catl000015/",
+  "Trousers": "https://www.loft.com/clothing/pants/catl000014/",
+  "Dress": "https://www.loft.com/clothing/dresses/catl000013/",
+  "Outerwear": "https://www.loft.com/clothing/jackets-outerwear/catl000018/",
+  "Shoes": "https://www.loft.com/accessories-shoes/shoes/catl000022/"
+ },
+ "fabric": {
+  "denim": 3,
+  "cashmere": 2,
+  "linen": 3,
+  "cotton": 5,
+  "wool": 1,
+  "synth": 4,
+  "silk": 1
+ },
+ "fibre": {
+  "t": 76,
+  "w": 76,
+  "n_pct": 58,
+  "s_pct": 30,
+  "c_pct": 12,
+  "spandex": 20,
+  "sp": "split",
+  "sample": "stratified sample of 80 of 2,258 styles: 2,699 distinct product handles read off 9 nav categories at sz=500 (Tops capped at 500 of its '1,594 Items'), petite/ta",
+  "st": "read",
+  "clean_pct": 40,
+  "clean_n": 73,
+  "clean_lyo": 5,
+  "ly_pct": 0,
+  "cv_pct": 12
+ },
+ "focus": {
+  "tech": 2,
+  "craft": 1,
+  "comfort": 4,
+  "style": 2
+ },
+ "tech_evidence": {
+  "names": "NONE technical — comfort/handle names only: LOFT Versa (crepe drape), Lou & Grey Terrysoft, Scubasoft, Wanderweave",
+  "owned": "house names",
+  "share": "8% (6/76 sampled styles)",
+  "u": "https://www.loft.com/clothing/pants/catl000014/loft-versa-crepe-drape-culottes/772813.html",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "no — none stated; the store links only to a Knitwell Group careers page",
+  "makers": "no — 0 of 80 sampled PDPs",
+  "mills": "no",
+  "madein": "0% name a country — 80 of 80 sampled 'Fabric & Care' blocks say 'Imported'",
+  "heritage": "none on the store — no About or story page linked from loft.com",
+  "process": "no — 'garment dyed' appears in a few Lou & Grey titles, nothing on how",
+  "urls": [
+   "https://www.loft.com/clothing/tops/catl000011/jersey-relaxed-tee/711113.html",
+   "https://jobs.knitwellgroup.com/about-loft"
+  ],
+  "proposed": 1,
+  "reasoning": "Every sampled product page says 'Imported' and names no maker or mill; the store carries no About page, and the only 'about' link goes to the parent group's careers site.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 2 (2026-10-14): named fabrics NONE technical — comfort/handle names only: LOFT Versa (crepe drape), Lou & Grey Terrysoft, Scubasoft, Wanderweave, 8% (6/76 sampled styles) of the range. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 1 (2026-10-14): Every sampled product page says 'Imported' and names no maker or mill; the store carries no About page, and the only 'about' link goes to the parent group's careers site. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "denim": "13% of 76 sampled styles with a composition are in denim (the jeans category or denim cloth); read 2026-10-14, a sample where the house has more than 80 styles.",
+  "cashmere": "1% of 76 sampled styles with a composition are led by cashmere; read 2026-10-14, a sample where the house has more than 80 styles.",
+  "linen": "11% of 76 sampled styles with a composition are led by linen; read 2026-10-14, a sample where the house has more than 80 styles.",
+  "cotton": "45% of 76 sampled styles with a composition are led by cotton; read 2026-10-14, a sample where the house has more than 80 styles.",
+  "silk": "0% of 76 sampled styles with a composition are led by silk; read 2026-10-14, a sample where the house has more than 80 styles."
+ },
  "src": "womens"
 }

@@ -1003,5 +1003,75 @@
   "domain": "ae.com"
  },
  "depts": 0,
+ "garment_links": {
+  "T-shirt": "https://www.ae.com/us/en/c/aerie/tops/long-sleeve-t-shirts/cat3140009",
+  "Blouse": "https://www.ae.com/us/en/c/aerie/tops/shirts-blouses/cat7780002",
+  "Sweater": "https://www.ae.com/us/en/c/aerie/tops/sweaters-cardigans/cat5090139",
+  "Trousers": "https://www.ae.com/us/en/c/aerie/apparel/bottoms/cat4130033",
+  "Dress": "https://www.ae.com/us/en/c/aerie/apparel/dresses-skirts/cat7350015"
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 5,
+  "wool": 1,
+  "synth": 4,
+  "silk": 1
+ },
+ "fibre": {
+  "t": 80,
+  "w": 80,
+  "n_pct": 59,
+  "s_pct": 38,
+  "c_pct": 4,
+  "spandex": 56,
+  "sp": "split",
+  "sample": "stratified sample of 80 of 278 styles (style = first two parts of the AE id, e.g. 0743_3982) from 980 colour tiles on the fully scrolled 'View All Clothing + Ac",
+  "st": "partial",
+  "clean_pct": 18,
+  "clean_n": 80,
+  "clean_lyo": 2,
+  "ly_pct": 0,
+  "cv_pct": 4
+ },
+ "focus": {
+  "tech": 4,
+  "craft": 1,
+  "comfort": 5,
+  "style": 2
+ },
+ "tech_evidence": {
+  "names": "OFFLINE By Aerie activewear sub-line: Real Me, Real Me XTRA, The Hugger, Cloud Fleece; lounge: Superchill Modal, Sunday Soft",
+  "owned": "owned house names (AEO); TENCEL licensed",
+  "share": "55% (44/80 sampled styles)",
+  "u": "https://www.ae.com/us/en/p/aerie/bottoms/leggings-yoga-pants/offline-by-aerie-real-me-xtra-high-waisted-legging/1701_6018_479",
+  "checked": "2026-10-14"
+ },
+ "craft_evidence": {
+  "owned": "no — none stated",
+  "makers": "no — 0 of 80",
+  "mills": "no",
+  "madein": "0% name a country — the one Materials & Care block that rendered says 'Imported'; the rest were read from JSON-LD materi",
+  "heritage": "NC — no About page read in the time box",
+  "process": "no",
+  "urls": [
+   "https://www.ae.com/us/en/p/aerie/tops/sweatshirts-hoodies/aerie-oh-zip-sweatshirt/0743_3982_752"
+  ],
+  "proposed": 1,
+  "reasoning": "Product pages name no maker, mill or country beyond 'Imported'; nothing on the pages read documents how anything is made. Heritage not checked.",
+  "read": "2026-10-14"
+ },
+ "notes": {
+  "tech": "Thread proposed 4 (2026-10-14): named fabrics OFFLINE By Aerie activewear sub-line: Real Me, Real Me XTRA, The Hugger, Cloud Fleece; lounge: Superchill Modal, Sunday Soft, 55% (44/80 sampled styles) of the range. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 1 (2026-10-14): Product pages name no maker, mill or country beyond 'Imported'; nothing on the pages read documents how anything is made. Heritage not checked. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "denim": "2% of 80 sampled styles with a composition are in denim (the jeans category or denim cloth); read 2026-10-14, a sample where the house has more than 80 styles.",
+  "cashmere": "0% of 80 sampled styles with a composition are led by cashmere; read 2026-10-14, a sample where the house has more than 80 styles.",
+  "linen": "0% of 80 sampled styles with a composition are led by linen; read 2026-10-14, a sample where the house has more than 80 styles.",
+  "cotton": "59% of 80 sampled styles with a composition are led by cotton; read 2026-10-14, a sample where the house has more than 80 styles.",
+  "silk": "0% of 80 sampled styles with a composition are led by silk; read 2026-10-14, a sample where the house has more than 80 styles."
+ },
  "src": "womens"
 }
