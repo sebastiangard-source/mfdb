@@ -214,5 +214,80 @@
   "domain": "lafayette148ny.com"
  },
  "depts": 0,
+ "garment_links": {
+  "T-shirt": "https://www.lafayette148ny.com/women/tops-tees",
+  "Blouse": "https://www.lafayette148ny.com/women/blouses-shirts",
+  "Sweater": "https://www.lafayette148ny.com/women/sweaters",
+  "Jeans": "https://www.lafayette148ny.com/women/denim",
+  "Trousers": "https://www.lafayette148ny.com/women/pants",
+  "Dress": "https://www.lafayette148ny.com/women/dresses",
+  "Outerwear": "https://www.lafayette148ny.com/women/coats"
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 3,
+  "linen": 2,
+  "cotton": 3,
+  "wool": 3,
+  "synth": 3,
+  "silk": 3
+ },
+ "fibre": {
+  "t": 80,
+  "w": 80,
+  "n_pct": 70,
+  "s_pct": 10,
+  "c_pct": 20,
+  "spandex": 18,
+  "sp": "one",
+  "sample": "stratified sample of 80 from 450 women's clothing styles (style code from 'SKU: XXXXXX-colour' on the PDP; colourways collapse on the code) across tees 23, shir",
+  "st": "read",
+  "clean_pct": 55,
+  "clean_n": 74,
+  "clean_lyo": 1,
+  "ly_pct": 0,
+  "cv_pct": 20
+ },
+ "focus": {
+  "tech": 2,
+  "craft": 4,
+  "comfort": 3,
+  "style": 3
+ },
+ "tech_evidence": {
+  "names": "NONE (house fabric names such as Finesse Crepe, Punto Milano and Techno Stretch Twill are cloth names, not technical claims; one shirt cites LYCRA elastane)",
+  "owned": "",
+  "share": "0% named technical; 18 of 80 sampled styles contain elastane",
+  "u": "https://www.lafayette148ny.com/stretch-cotton-button-front-slim-shirt",
+  "checked": "2026-10-15"
+ },
+ "craft_evidence": {
+  "owned": "yes — 'our very own workshop and production facility in China', 'a truly vertical company' (our-path page); the facility is not named or located beyond the country",
+  "makers": "no (the owned facility is the maker; no other maker named)",
+  "mills": "no — fabric origin by country only (e.g. '; Italy', '; France', '; Japan' after the composition) and 'a pioneering Italian mill' unnamed",
+  "madein": "0% — product pages say 'Imported'; fabric origin is stated on about half the sampled pages",
+  "heritage": "dated and placed: founded 1996 at 148 Lafayette Street, SoHo, as a garment factory specialising in tailoring (our-path and craftsmanship pages)",
+  "process": "yes — craftsmanship pages describe patternmaking, interior construction, hand pick-stitching and hand-finished double-face outerwear",
+  "urls": [
+   "https://www.lafayette148ny.com/our-path",
+   "https://www.lafayette148ny.com/craftsmanship-double-face"
+  ],
+  "proposed": 4,
+  "reasoning": "The house states it owns its own workshop and production facility in China and calls itself vertical, its 1996 SoHo factory origin is dated and placed, and the craftsmanship pages document how blazers and double-face coats are built. Against a 5: the facility is unnamed beyond the country, product pages say only 'Imported' so no piece is tied to it, and the mills are unnamed. A 4, or a 5 if the ve",
+  "read": "2026-10-15"
+ },
+ "notes": {
+  "tech": "Thread proposed 2 (2026-10-15): named fabrics NONE (house fabric names such as Finesse Crepe, Punto Milano and Techno Stretch Twill are cloth names, not technical claims; one shirt cites LYCRA elastane), 0% named technical; 18 of 80 sampled styles contain elastane of the range. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 4 (2026-10-15): The house states it owns its own workshop and production facility in China and calls itself vertical, its 1996 SoHo factory origin is dated and placed, and the craftsmanship pages document how blazers and double-face coats are built. Against a 5: the facility is unnamed beyond the country, product pages say only 'Imported' so no piece is tied to it, and the mills are unnamed. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "denim": "1% of 80 sampled styles with a composition are in denim (the jeans category or denim cloth); read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cashmere": "15% of 80 sampled styles with a composition are led by cashmere; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "linen": "5% of 80 sampled styles with a composition are led by linen; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cotton": "16% of 80 sampled styles with a composition are led by cotton; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "wool": "14% of 80 sampled styles with a composition are led by wool (alpaca, mohair and camel counted with it); read 2026-10-15, a sample where the house has more than 80 styles.",
+  "synth": "10% of 80 sampled styles with a composition are led by a synthetic; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "silk": "14% of 80 sampled styles with a composition are led by silk; read 2026-10-15, a sample where the house has more than 80 styles."
+ },
  "src": "womens"
 }

@@ -219,5 +219,81 @@
   "domain": "staud.clothing"
  },
  "depts": 5,
+ "garment_links": {
+  "T-shirt": "https://staud.clothing/search?q=tee",
+  "Blouse": "https://staud.clothing/collections/tops",
+  "Sweater": "https://staud.clothing/collections/knits",
+  "Jeans": "https://staud.clothing/collections/denim",
+  "Trousers": "https://staud.clothing/collections/bottoms",
+  "Dress": "https://staud.clothing/collections/dresses",
+  "Outerwear": "https://staud.clothing/collections/outerwear",
+  "Shoes": "https://staud.clothing/collections/shoes"
+ },
+ "fabric": {
+  "denim": 3,
+  "cashmere": 2,
+  "linen": 1,
+  "cotton": 4,
+  "wool": 2,
+  "synth": 4,
+  "silk": 3
+ },
+ "fibre": {
+  "t": 80,
+  "w": 79,
+  "n_pct": 59,
+  "s_pct": 21,
+  "c_pct": 19,
+  "spandex": 21,
+  "sp": "one",
+  "sample": "stratified sample of 80 from 503 in-stock women's clothing styles (SKU stem before the colour code, e.g. R26F2247BD; colourways collapse) across the TOPS, SWEAT",
+  "st": "read",
+  "clean_pct": 52,
+  "clean_n": 40,
+  "clean_lyo": 0,
+  "ly_pct": 0,
+  "cv_pct": 19
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 1,
+  "comfort": 2,
+  "style": 4
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0%",
+  "u": "https://staud.clothing/collections/clothing-all",
+  "checked": "2026-10-15"
+ },
+ "craft_evidence": {
+  "owned": "no evidence",
+  "makers": "no",
+  "mills": "no",
+  "madein": "0% — 80 of 80 sampled product pages state fibre and care only, no country",
+  "heritage": "not stated: the about-us page renders empty (navigation and footer only); stores page lists Los Angeles locations",
+  "process": "no",
+  "urls": [
+   "https://staud.clothing/pages/about-us",
+   "https://staud.clothing/products/cassie-dress-black"
+  ],
+  "proposed": 1,
+  "reasoning": "Nothing on the site is checkable about making: the about page is empty, product pages give no country, and no maker, mill or facility is named. A 1.",
+  "read": "2026-10-15"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-15): no named technical fabric on the site. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 1 (2026-10-15): Nothing on the site is checkable about making: the about page is empty, product pages give no country, and no maker, mill or facility is named. A 1. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "denim": "8% of 80 sampled styles with a composition are in denim (the jeans category or denim cloth); read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cashmere": "6% of 80 sampled styles with a composition are led by cashmere; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "linen": "0% of 80 sampled styles with a composition are led by linen; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cotton": "30% of 80 sampled styles with a composition are led by cotton; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "wool": "1% of 80 sampled styles with a composition are led by wool (alpaca, mohair and camel counted with it); read 2026-10-15, a sample where the house has more than 80 styles.",
+  "synth": "21% of 80 sampled styles with a composition are led by a synthetic; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "silk": "15% of 80 sampled styles with a composition are led by silk; read 2026-10-15, a sample where the house has more than 80 styles."
+ },
  "src": "womens"
 }

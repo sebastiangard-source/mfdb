@@ -255,5 +255,77 @@
   "domain": "edikted.com"
  },
  "depts": 3,
+ "garment_links": {
+  "T-shirt": "https://edikted.com/collections/t-shirts",
+  "Blouse": "https://edikted.com/collections/tops",
+  "Sweater": "https://edikted.com/collections/sweaters",
+  "Jeans": "https://edikted.com/collections/jeans",
+  "Trousers": "https://edikted.com/collections/pants",
+  "Dress": "https://edikted.com/collections/dresses",
+  "Outerwear": "https://edikted.com/collections/jackets-and-coats"
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 4,
+  "wool": 1,
+  "synth": 5,
+  "silk": 1
+ },
+ "fibre": {
+  "t": 80,
+  "w": 79,
+  "n_pct": 30,
+  "s_pct": 52,
+  "c_pct": 16,
+  "spandex": 42,
+  "sp": "split",
+  "sample": "stratified sample of 80 from 6,298 in-stock women's clothing styles (handle stem before the colour suffix, e.g. s27099); /products.json carries 11,245 products ",
+  "st": "read",
+  "ly_pct": 0,
+  "cv_pct": 16
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 1,
+  "comfort": 2,
+  "style": 4
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0%",
+  "u": "https://edikted.com/products/s27099_silver",
+  "checked": "2026-10-15"
+ },
+ "craft_evidence": {
+  "owned": "no evidence",
+  "makers": "no",
+  "mills": "no",
+  "madein": "0% — 0 of 80 sampled product detail lists state a country",
+  "heritage": "vague: 'Headquartered in Los Angeles', created by founders of a previous brand; no date",
+  "process": "no",
+  "urls": [
+   "https://edikted.com/pages/our-story",
+   "https://edikted.com/products/s27099_silver"
+  ],
+  "proposed": 1,
+  "reasoning": "The our-story page gives an LA headquarters and trend positioning only, with no date, factory, maker or mill. Product detail lists name fibres without percentages and no country of origin.",
+  "read": "2026-10-15"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-15): no named technical fabric on the site. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 1 (2026-10-15): The our-story page gives an LA headquarters and trend positioning only, with no date, factory, maker or mill. Product detail lists name fibres without percentages and no country of origin. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "denim": "6% of 80 sampled styles with a composition are in denim (the jeans category or denim cloth); read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cashmere": "0% of 80 sampled styles with a composition are led by cashmere; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "linen": "0% of 80 sampled styles with a composition are led by linen; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cotton": "30% of 80 sampled styles with a composition are led by cotton; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "wool": "0% of 80 sampled styles with a composition are led by wool (alpaca, mohair and camel counted with it); read 2026-10-15, a sample where the house has more than 80 styles.",
+  "synth": "52% of 80 sampled styles with a composition are led by a synthetic; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "silk": "0% of 80 sampled styles with a composition are led by silk; read 2026-10-15, a sample where the house has more than 80 styles."
+ },
  "src": "screen"
 }

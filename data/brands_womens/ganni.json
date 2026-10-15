@@ -240,5 +240,81 @@
   "domain": "ganni.com"
  },
  "depts": 4,
+ "garment_links": {
+  "T-shirt": "https://www.ganni.com/us/t-shirts/",
+  "Blouse": "https://www.ganni.com/us/blouses/",
+  "Sweater": "https://www.ganni.com/us/knitwear/",
+  "Jeans": "https://www.ganni.com/us/denim/",
+  "Trousers": "https://www.ganni.com/us/pants/",
+  "Dress": "https://www.ganni.com/us/dresses/",
+  "Outerwear": "https://www.ganni.com/us/coats-and-jackets/",
+  "Shoes": "https://www.ganni.com/us/shoes/"
+ },
+ "fabric": {
+  "denim": 3,
+  "cashmere": 1,
+  "linen": 2,
+  "cotton": 5,
+  "wool": 3,
+  "synth": 4,
+  "silk": 1
+ },
+ "fibre": {
+  "t": 80,
+  "w": 80,
+  "n_pct": 65,
+  "s_pct": 30,
+  "c_pct": 5,
+  "spandex": 20,
+  "sp": "split",
+  "sample": "stratified sample of 80 from 340 women's clothing styles (style code at the end of the PDP URL, e.g. A1010271) on /us/clothing/?sz=400 (counter: 367 products); ",
+  "st": "read",
+  "clean_pct": 58,
+  "clean_n": 78,
+  "clean_lyo": 1,
+  "ly_pct": 0,
+  "cv_pct": 5
+ },
+ "focus": {
+  "tech": 2,
+  "craft": 1,
+  "comfort": 2,
+  "style": 4
+ },
+ "tech_evidence": {
+  "names": "NONE (one '10K Waterproof Shell' poncho; no named fabric)",
+  "owned": "",
+  "share": "0% named; 1 of 80 sampled has a waterproof rating",
+  "u": "https://www.ganni.com/us/poncho-in-10k-waterproof-shell-A1010271.html",
+  "checked": "2026-10-15"
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "makers": "no (responsibility report mentions a Living Wage Programme with 'eight suppliers', unnamed in the text read)",
+  "mills": "no (fibre certifications only: RWS, FSC, TENCEL, organic and recycled content)",
+  "madein": "0% in product page text read",
+  "heritage": "not stated on the pages read (responsibility and B Corp pages)",
+  "process": "partial — recycled/organic/certified fibre content stated on every product; making not described",
+  "urls": [
+   "https://www.ganni.com/us/responsibility/2025-responsibility-report-introduction.html",
+   "https://www.ganni.com/us/dress-in-white-cotton-A1030644.html"
+  ],
+  "proposed": 1,
+  "reasoning": "Ganni's product pages are detailed on fibre provenance and certification (organic, recycled, RWS, FSC) but name no maker, mill or country. The responsibility report speaks of suppliers in aggregate. Materials transparency is not making, so a 1, or a 2 if the Spectrum thread credits certified-fibre disclosure.",
+  "read": "2026-10-15"
+ },
+ "notes": {
+  "tech": "Thread proposed 2 (2026-10-15): named fabrics NONE (one '10K Waterproof Shell' poncho; no named fabric), 0% named; 1 of 80 sampled has a waterproof rating of the range. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 1 (2026-10-15): Ganni's product pages are detailed on fibre provenance and certification (organic, recycled, RWS, FSC) but name no maker, mill or country. The responsibility report speaks of suppliers in aggregate. Materials transparency is not making, so a 1, or a 2 if the Spectrum thread credits certified-fibre disclosure. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "denim": "9% of 80 sampled styles with a composition are in denim (the jeans category or denim cloth); read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cashmere": "0% of 80 sampled styles with a composition are led by cashmere; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "linen": "1% of 80 sampled styles with a composition are led by linen; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cotton": "54% of 80 sampled styles with a composition are led by cotton; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "wool": "10% of 80 sampled styles with a composition are led by wool (alpaca, mohair and camel counted with it); read 2026-10-15, a sample where the house has more than 80 styles.",
+  "synth": "30% of 80 sampled styles with a composition are led by a synthetic; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "silk": "0% of 80 sampled styles with a composition are led by silk; read 2026-10-15, a sample where the house has more than 80 styles."
+ },
  "src": "womens"
 }

@@ -250,5 +250,80 @@
   "domain": "stjohnknits.com"
  },
  "depts": 0,
+ "garment_links": {
+  "T-shirt": "https://stjohnknits.com/collections/tops",
+  "Blouse": "https://stjohnknits.com/collections/tops",
+  "Sweater": "https://stjohnknits.com/collections/sweaters",
+  "Jeans": "https://stjohnknits.com/search?q=jean",
+  "Trousers": "https://stjohnknits.com/collections/pants",
+  "Dress": "https://stjohnknits.com/collections/dresses",
+  "Outerwear": "https://stjohnknits.com/collections/jackets-coats"
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 2,
+  "linen": 1,
+  "cotton": 3,
+  "wool": 3,
+  "synth": 4,
+  "silk": 2
+ },
+ "fibre": {
+  "t": 80,
+  "w": 78,
+  "n_pct": 32,
+  "s_pct": 25,
+  "c_pct": 40,
+  "spandex": 9,
+  "sp": "split",
+  "sample": "stratified sample of 80 from 302 in-stock women's clothing styles (style code = handle prefix, e.g. K61S0E3); /products.json 468 products incl. jewellery, scarv",
+  "st": "read",
+  "clean_pct": 7,
+  "clean_n": 74,
+  "clean_lyo": 1,
+  "ly_pct": 3,
+  "cv_pct": 38
+ },
+ "focus": {
+  "tech": 2,
+  "craft": 2,
+  "comfort": 3,
+  "style": 3
+ },
+ "tech_evidence": {
+  "names": "NONE (house-named knit cloths Santa Roma Knit, Legacy Crepe Knit, Riviera Crepe Knit are not technical fabrics)",
+  "owned": "",
+  "share": "0% named technical; 'Stretch Suiting', 'Stretch Cady' claims on a few styles",
+  "u": "https://stjohnknits.com/products/k81sc81-pant-in-stretch-suiting-ec00",
+  "checked": "2026-10-15"
+ },
+ "craft_evidence": {
+  "owned": "claim only: craftsmanship page says yarns, buttons and trims are 'created by brand artisans'; no named facility or place on the site",
+  "makers": "no",
+  "mills": "no (Harris Tweed named on one style as a cloth; no mill)",
+  "madein": "0% — none of 80 sampled product-detail blocks states a country",
+  "heritage": "dated and loosely placed: founded in Southern California in 1962 by Marie Gray (our-story page)",
+  "process": "no (knit technique asserted, not described)",
+  "urls": [
+   "https://stjohnknits.com/pages/craftsmanship",
+   "https://stjohnknits.com/pages/our-story"
+  ],
+  "proposed": 2,
+  "reasoning": "The our-story page dates the founding to 1962 in Southern California. The craftsmanship page claims that brand artisans make yarns, buttons and trims but names no factory or place. Product pages state no country of origin. The house's reputation for in-house knitting is not shown on its own site, so it earns nothing here.",
+  "read": "2026-10-15"
+ },
+ "notes": {
+  "tech": "Thread proposed 2 (2026-10-15): named fabrics NONE (house-named knit cloths Santa Roma Knit, Legacy Crepe Knit, Riviera Crepe Knit are not technical fabrics), 0% named technical; 'Stretch Suiting', 'Stretch Cady' claims on a few styles of the range. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 2 (2026-10-15): The our-story page dates the founding to 1962 in Southern California. The craftsmanship page claims that brand artisans make yarns, buttons and trims but names no factory or place. Product pages state no country of origin. The house's reputation for in-house knitting is not shown on its own site, so it earns nothing here. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "denim": "1% of 80 sampled styles with a composition are in denim (the jeans category or denim cloth); read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cashmere": "1% of 80 sampled styles with a composition are led by cashmere; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "linen": "0% of 80 sampled styles with a composition are led by linen; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cotton": "16% of 80 sampled styles with a composition are led by cotton; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "wool": "14% of 80 sampled styles with a composition are led by wool (alpaca, mohair and camel counted with it); read 2026-10-15, a sample where the house has more than 80 styles.",
+  "synth": "25% of 80 sampled styles with a composition are led by a synthetic; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "silk": "1% of 80 sampled styles with a composition are led by silk; read 2026-10-15, a sample where the house has more than 80 styles."
+ },
  "src": "womens"
 }

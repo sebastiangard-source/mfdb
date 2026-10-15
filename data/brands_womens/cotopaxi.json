@@ -229,5 +229,76 @@
   "domain": "cotopaxi.com"
  },
  "depts": 3,
+ "garment_links": {
+  "T-shirt": "https://www.cotopaxi.com/collections/womens-tops",
+  "Blouse": "https://www.cotopaxi.com/collections/womens-tops",
+  "Sweater": "https://www.cotopaxi.com/collections/womens-tops",
+  "Trousers": "https://www.cotopaxi.com/collections/womens-pants",
+  "Dress": "https://www.cotopaxi.com/collections/womens-apparel",
+  "Outerwear": "https://www.cotopaxi.com/collections/womens-outerwear"
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 3,
+  "wool": 1,
+  "synth": 5,
+  "silk": 1
+ },
+ "fibre": {
+  "t": 72,
+  "w": 65,
+  "n_pct": 19,
+  "s_pct": 71,
+  "c_pct": 0,
+  "spandex": 20,
+  "sp": "split",
+  "sample": "stratified sample of 80 drawn from 112 in-stock women's apparel + outerwear styles (titles deduped across colour/print products); 8 sampled rows were men's-name",
+  "st": "read",
+  "ly_pct": 0,
+  "cv_pct": 0
+ },
+ "focus": {
+  "tech": 3,
+  "craft": 2,
+  "comfort": 3,
+  "style": 2
+ },
+ "tech_evidence": {
+  "names": "PrimaLoft Gold P.U.R.E. insulation; Polygiene anti-odor; C0 (PFC-free) DWR; 800-fill responsibly sourced down",
+  "owned": "licensed (PrimaLoft, Polygiene); no house-owned fabric names",
+  "share": "about 20% of sampled styles name PrimaLoft or Polygiene; DWR stated on most shells",
+  "u": "https://www.cotopaxi.com/products/sombra-long-sleeve-sun-shirt-womens-3",
+  "checked": "2026-10-15"
+ },
+ "craft_evidence": {
+  "owned": "no",
+  "makers": "partial — a per-product 'Factory Information' tab describes the factory and links to a profile, but does not name it in the tab text; elsewhere generic Fair Trade Certified factories",
+  "mills": "no",
+  "madein": "about 10% — 7 of 72 sampled factory tabs state a country (Cambodia); the rest carry a generic Fair Trade statement or no",
+  "heritage": "vague: founder Davis Smith named, Utah-based foundation, impact reports since 2015; no founding date or place stated on the about-us page",
+  "process": "partial — fabric weight (gsm), recycled content and finish chemistry stated per product; no making process",
+  "urls": [
+   "https://www.cotopaxi.com/products/sombra-long-sleeve-sun-shirt-womens-3",
+   "https://www.cotopaxi.com/pages/about-us"
+  ],
+  "proposed": 2,
+  "reasoning": "Cotopaxi owns nothing and names no maker in its product text. It does publish a per-product factory tab that sometimes states the country (Cambodia) and links to a factory profile, which is more than most houses publish. Sourcing transparency, not making, so a 2.",
+  "read": "2026-10-15"
+ },
+ "notes": {
+  "tech": "Thread proposed 3 (2026-10-15): named fabrics PrimaLoft Gold P.U.R.E. insulation; Polygiene anti-odor; C0 (PFC-free) DWR; 800-fill responsibly sourced down, about 20% of sampled styles name PrimaLoft or Polygiene; DWR stated on most shells of the range. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 2 (2026-10-15): Cotopaxi owns nothing and names no maker in its product text. It does publish a per-product factory tab that sometimes states the country (Cambodia) and links to a factory profile, which is more than most houses publish. Sourcing transparency, not making, so a 2. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "denim": "0% of 72 sampled styles with a composition are in denim (the jeans category or denim cloth); read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cashmere": "0% of 72 sampled styles with a composition are led by cashmere; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "linen": "0% of 72 sampled styles with a composition are led by linen; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cotton": "19% of 72 sampled styles with a composition are led by cotton; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "wool": "0% of 72 sampled styles with a composition are led by wool (alpaca, mohair and camel counted with it); read 2026-10-15, a sample where the house has more than 80 styles.",
+  "synth": "71% of 72 sampled styles with a composition are led by a synthetic; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "silk": "0% of 72 sampled styles with a composition are led by silk; read 2026-10-15, a sample where the house has more than 80 styles."
+ },
  "src": "womens"
 }

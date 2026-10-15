@@ -209,5 +209,78 @@
   "domain": "hillhousehome.com"
  },
  "depts": 3,
+ "garment_links": {
+  "Blouse": "https://www.hillhousehome.com/collections/tops",
+  "Sweater": "https://www.hillhousehome.com/collections/knitwear",
+  "Trousers": "https://www.hillhousehome.com/collections/bottoms",
+  "Dress": "https://www.hillhousehome.com/collections/all-dresses",
+  "Outerwear": "https://www.hillhousehome.com/collections/jackets-coats"
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 5,
+  "wool": 2,
+  "synth": 4,
+  "silk": 1
+ },
+ "fibre": {
+  "t": 78,
+  "w": 75,
+  "n_pct": 58,
+  "s_pct": 26,
+  "c_pct": 13,
+  "spandex": 11,
+  "sp": "one",
+  "sample": "stratified sample of 80 from 240 in-stock women's clothing styles (the feed's product_type is the style name; colourways collapse on it); kids (Tiny/Baby), slee",
+  "st": "read",
+  "clean_pct": 59,
+  "clean_n": 75,
+  "clean_lyo": 1,
+  "ly_pct": 1,
+  "cv_pct": 12
+ },
+ "focus": {
+  "tech": 1,
+  "craft": 2,
+  "comfort": 4,
+  "style": 3
+ },
+ "tech_evidence": {
+  "names": "no",
+  "owned": "",
+  "share": "0%",
+  "u": "https://www.hillhousehome.com/products/the-ellie-maxi-nap-dress-gem-plaid-navy-multi",
+  "checked": "2026-10-15"
+ },
+ "craft_evidence": {
+  "owned": "no evidence",
+  "makers": "no",
+  "mills": "no",
+  "madein": "about 90% — 73 of 80 read PDPs state a country (China 28, Vietnam 25, India 14, Bangladesh 3, Cambodia, Turkey, Portugal",
+  "heritage": "founder named (Nell Diamond, about-us page); no founding date or place in the text read",
+  "process": "no",
+  "urls": [
+   "https://www.hillhousehome.com/pages/about-us",
+   "https://www.hillhousehome.com/products/the-anjuli-nap-dress-navy-cotton"
+  ],
+  "proposed": 2,
+  "reasoning": "Most product pages state a country of manufacture (mainly China, Vietnam and India), but no maker, mill or owned site is named, and the about page names the founder without a date. A country on most pages and nothing behind it is a 2.",
+  "read": "2026-10-15"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-10-15): no named technical fabric on the site. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 2 (2026-10-15): Most product pages state a country of manufacture (mainly China, Vietnam and India), but no maker, mill or owned site is named, and the about page names the founder without a date. A country on most pages and nothing behind it is a 2. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "denim": "0% of 78 sampled styles with a composition are in denim (the jeans category or denim cloth); read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cashmere": "0% of 78 sampled styles with a composition are led by cashmere; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "linen": "0% of 78 sampled styles with a composition are led by linen; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cotton": "56% of 78 sampled styles with a composition are led by cotton; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "wool": "1% of 78 sampled styles with a composition are led by wool (alpaca, mohair and camel counted with it); read 2026-10-15, a sample where the house has more than 80 styles.",
+  "synth": "26% of 78 sampled styles with a composition are led by a synthetic; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "silk": "0% of 78 sampled styles with a composition are led by silk; read 2026-10-15, a sample where the house has more than 80 styles."
+ },
  "src": "womens"
 }

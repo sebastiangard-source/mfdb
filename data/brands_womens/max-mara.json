@@ -249,5 +249,81 @@
   "domain": "maxmara.com"
  },
  "depts": 5,
+ "garment_links": {
+  "T-shirt": "https://us.maxmara.com/clothing/womens-tops-and-t-shirts",
+  "Blouse": "https://us.maxmara.com/clothing/womens-blouses-and-shirts",
+  "Sweater": "https://us.maxmara.com/clothing/womens-knitwear-sweaters",
+  "Jeans": "https://us.maxmara.com/clothing/womens-trousers-and-jeans",
+  "Trousers": "https://us.maxmara.com/clothing/womens-trousers-and-jeans",
+  "Dress": "https://us.maxmara.com/clothing/womens-dresses",
+  "Outerwear": "https://us.maxmara.com/coats-and-jackets/womens-coats",
+  "Shoes": "https://us.maxmara.com/bags-and-shoes/womens-shoes"
+ },
+ "fabric": {
+  "denim": 2,
+  "cashmere": 2,
+  "linen": 1,
+  "cotton": 3,
+  "wool": 5,
+  "synth": 4,
+  "silk": 2
+ },
+ "fibre": {
+  "t": 80,
+  "w": 80,
+  "n_pct": 71,
+  "s_pct": 21,
+  "c_pct": 8,
+  "spandex": 11,
+  "sp": "one",
+  "sample": "stratified sample of 80 from 304 women's clothing styles (10-digit model stem of the 13-digit product code, colour collapsed), collected by scrolling 13 categor",
+  "st": "read",
+  "clean_pct": 66,
+  "clean_n": 41,
+  "clean_lyo": 0,
+  "ly_pct": 0,
+  "cv_pct": 8
+ },
+ "focus": {
+  "tech": 2,
+  "craft": 4,
+  "comfort": 3,
+  "style": 4
+ },
+ "tech_evidence": {
+  "names": "NONE (water-repellent plain-weave and canvas claims without a named fabric; camel-wool padding on some puffers)",
+  "owned": "",
+  "share": "0% named; about 12% of sampled styles carry a water-repellent claim",
+  "u": "https://us.maxmara.com/p-9486206506006-mtcariete-medium-grey",
+  "checked": "2026-10-15"
+ },
+ "craft_evidence": {
+  "owned": "yes, stated by the house: Manifatture di San Maurizio, 'a manufacturing plant located just outside Reggio Emilia, where over 100,000 coats and jackets are produced annually' (mm-world page); no photo ",
+  "makers": "the coat plant is named on the house's editorial page; product pages name no maker",
+  "mills": "no",
+  "madein": "0% in product page text read (none of 80 sampled PDPs states a country)",
+  "heritage": "dated: archival prints 'from 1951'; Reggio Emilia (Collezione Maramotti) named on the mm-world page",
+  "process": "partial — the coat plant's savoir-faire is celebrated, not described step by step",
+  "urls": [
+   "https://us.maxmara.com/mm-world",
+   "https://us.maxmara.com/p-1016056106032-ludmilla-sand"
+  ],
+  "proposed": 4,
+  "reasoning": "The house's own pages name a manufacturing plant, Manifatture di San Maurizio outside Reggio Emilia, and give an annual output of over 100,000 coats and jackets. That is owned, named and placed making, but it covers coats and jackets, not the whole range, and the product pages state no country or maker. A 4, not a 5.",
+  "read": "2026-10-15"
+ },
+ "notes": {
+  "tech": "Thread proposed 2 (2026-10-15): named fabrics NONE (water-repellent plain-weave and canvas claims without a named fabric; camel-wool padding on some puffers), 0% named; about 12% of sampled styles carry a water-repellent claim of the range. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 4 (2026-10-15): The house's own pages name a manufacturing plant, Manifatture di San Maurizio outside Reggio Emilia, and give an annual output of over 100,000 coats and jackets. That is owned, named and placed making, but it covers coats and jackets, not the whole range, and the product pages state no country or maker. A 4, not a 5. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "denim": "1% of 80 sampled styles with a composition are in denim (the jeans category or denim cloth); read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cashmere": "5% of 80 sampled styles with a composition are led by cashmere; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "linen": "0% of 80 sampled styles with a composition are led by linen; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cotton": "11% of 80 sampled styles with a composition are led by cotton; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "wool": "49% of 80 sampled styles with a composition are led by wool (alpaca, mohair and camel counted with it); read 2026-10-15, a sample where the house has more than 80 styles.",
+  "synth": "21% of 80 sampled styles with a composition are led by a synthetic; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "silk": "6% of 80 sampled styles with a composition are led by silk; read 2026-10-15, a sample where the house has more than 80 styles."
+ },
  "src": "womens"
 }

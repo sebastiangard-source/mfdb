@@ -246,5 +246,81 @@
   "domain": "splendid.com"
  },
  "depts": 5,
+ "garment_links": {
+  "T-shirt": "https://splendid.com/collections/women-categories-tops",
+  "Blouse": "https://splendid.com/collections/women-categories-tops",
+  "Sweater": "https://splendid.com/collections/women-categories-sweaters",
+  "Jeans": "https://splendid.com/collections/women-categories-bottoms-denim",
+  "Trousers": "https://splendid.com/collections/women-categories-bottoms-denim",
+  "Dress": "https://splendid.com/collections/women-categories-dresses",
+  "Outerwear": "https://splendid.com/collections/women-categories-outerwear",
+  "Shoes": "https://splendid.com/collections/women-categories-shoes"
+ },
+ "fabric": {
+  "denim": 3,
+  "cashmere": 2,
+  "linen": 2,
+  "cotton": 4,
+  "wool": 1,
+  "synth": 4,
+  "silk": 1
+ },
+ "fibre": {
+  "t": 80,
+  "w": 78,
+  "n_pct": 42,
+  "s_pct": 21,
+  "c_pct": 34,
+  "spandex": 20,
+  "sp": "one",
+  "sample": "stratified sample of 80 from 530 in-stock women's clothing styles (title dedup; products tagged category::Women and not Kids/Girls/Boys/Baby/Toddler/Youth/Sleep",
+  "st": "read",
+  "clean_pct": 32,
+  "clean_n": 66,
+  "clean_lyo": 8,
+  "ly_pct": 9,
+  "cv_pct": 26
+ },
+ "focus": {
+  "tech": 2,
+  "craft": 1,
+  "comfort": 5,
+  "style": 2
+ },
+ "tech_evidence": {
+  "names": "SunSoft (UPF 50+); house-named soft fabrics Supersoft and Scubasoft are not technical",
+  "owned": "owned name (SunSoft)",
+  "share": "1% (1 of 80 sampled styles names SunSoft UPF 50+)",
+  "u": "https://splendid.com/products/sunsoft-midi-skirt",
+  "checked": "2026-10-15"
+ },
+ "craft_evidence": {
+  "owned": "no evidence",
+  "makers": "no",
+  "mills": "no (fibre brands only: Lenzing Ecovero, TENCEL)",
+  "madein": "0% by country — 78 of 80 sampled PDPs say 'Imported'",
+  "heritage": "vague: 'It all started with the quest for the ultimate t-shirt'; no date or place (our-story page)",
+  "process": "no",
+  "urls": [
+   "https://splendid.com/pages/our-story",
+   "https://splendid.com/products/tori-cashmere-cable-knit-sweater"
+  ],
+  "proposed": 1,
+  "reasoning": "The our-story page is a softness narrative with no date, place, factory or maker. Product care blocks say 'Imported' without a country. Nothing checkable.",
+  "read": "2026-10-15"
+ },
+ "notes": {
+  "tech": "Thread proposed 2 (2026-10-15): named fabrics SunSoft (UPF 50+); house-named soft fabrics Supersoft and Scubasoft are not technical, 1% (1 of 80 sampled styles names SunSoft UPF 50+) of the range. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 1 (2026-10-15): The our-story page is a softness narrative with no date, place, factory or maker. Product care blocks say 'Imported' without a country. Nothing checkable. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "denim": "8% of 80 sampled styles with a composition are in denim (the jeans category or denim cloth); read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cashmere": "1% of 80 sampled styles with a composition are led by cashmere; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "linen": "4% of 80 sampled styles with a composition are led by linen; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cotton": "38% of 80 sampled styles with a composition are led by cotton; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "wool": "0% of 80 sampled styles with a composition are led by wool (alpaca, mohair and camel counted with it); read 2026-10-15, a sample where the house has more than 80 styles.",
+  "synth": "21% of 80 sampled styles with a composition are led by a synthetic; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "silk": "0% of 80 sampled styles with a composition are led by silk; read 2026-10-15, a sample where the house has more than 80 styles."
+ },
  "src": "womens"
 }

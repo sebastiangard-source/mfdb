@@ -234,5 +234,80 @@
   "domain": "7forallmankind.com"
  },
  "depts": 7,
+ "garment_links": {
+  "T-shirt": "https://7forallmankind.com/collections/women-categories-tops",
+  "Blouse": "https://7forallmankind.com/collections/women-categories-shirts-sweaters",
+  "Sweater": "https://7forallmankind.com/collections/women-categories-shirts-sweaters",
+  "Jeans": "https://7forallmankind.com/collections/womens-premium-jeans",
+  "Trousers": "https://7forallmankind.com/collections/women-categories-pants",
+  "Dress": "https://7forallmankind.com/collections/women-categories-dresses-jumpsuits",
+  "Outerwear": "https://7forallmankind.com/collections/women-categories-outerwear"
+ },
+ "fabric": {
+  "denim": 5,
+  "cashmere": 2,
+  "linen": 1,
+  "cotton": 5,
+  "wool": 2,
+  "synth": 2,
+  "silk": 1
+ },
+ "fibre": {
+  "t": 80,
+  "w": 79,
+  "n_pct": 92,
+  "s_pct": 1,
+  "c_pct": 5,
+  "spandex": 28,
+  "sp": "one",
+  "sample": "stratified sample of 80 from 445 women's clothing styles in stock (SKU stem, e.g. 7U300C49; 1,127 women's clothing products in /products.json, 581 with no avail",
+  "st": "read",
+  "clean_pct": 68,
+  "clean_n": 73,
+  "clean_lyo": 2,
+  "ly_pct": 3,
+  "cv_pct": 3
+ },
+ "focus": {
+  "tech": 3,
+  "craft": 2,
+  "comfort": 3,
+  "style": 3
+ },
+ "tech_evidence": {
+  "names": "Slim Illusion; Luxe Vintage; B(air); Weightless Denim; Airweft; Left Hand",
+  "owned": "owned names (house-named denim fabric families; mill not named)",
+  "share": "31% (139 of 445 in-stock styles carry one of these fabric:: tags)",
+  "u": "https://7forallmankind.com/pages/luxe-vintage",
+  "checked": "2026-10-15"
+ },
+ "craft_evidence": {
+  "owned": "no evidence",
+  "makers": "no",
+  "mills": "no ('Japanese denim' only, no mill)",
+  "madein": "4% — 3 of 80 sampled PDPs state Made in Italy, 77 say Imported; 37 of 1,157 women's feed products carry 'Made in Italy'",
+  "heritage": "dated and placed: founded Fall 2000 in Los Angeles by Michael Glasse, Peter Koral and Jerome Dahan (our-story page)",
+  "process": "no (fabric-family marketing only, no making process)",
+  "urls": [
+   "https://7forallmankind.com/pages/our-story",
+   "https://7forallmankind.com/products/dojo-in-denim-roam"
+  ],
+  "proposed": 2,
+  "reasoning": "The our-story page dates and places the founding (Los Angeles, 2000) and names the founders. No owned factory, maker or mill is named anywhere; 'Japanese denim' carries no mill name. Product pages say 'Imported' except a few Made in Italy styles.",
+  "read": "2026-10-15"
+ },
+ "notes": {
+  "tech": "Thread proposed 3 (2026-10-15): named fabrics Slim Illusion; Luxe Vintage; B(air); Weightless Denim; Airweft; Left Hand, 31% (139 of 445 in-stock styles carry one of these fabric:: tags) of the range. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 2 (2026-10-15): The our-story page dates and places the founding (Los Angeles, 2000) and names the founders. No owned factory, maker or mill is named anywhere; 'Japanese denim' carries no mill name. Product pages say 'Imported' except a few Made in Italy styles. Seated as proposed, pending ruling.",
+  "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional",
+  "denim": "52% of 80 sampled styles with a composition are in denim (the jeans category or denim cloth); read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cashmere": "2% of 80 sampled styles with a composition are led by cashmere; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "linen": "0% of 80 sampled styles with a composition are led by linen; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "cotton": "80% of 80 sampled styles with a composition are led by cotton; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "wool": "5% of 80 sampled styles with a composition are led by wool (alpaca, mohair and camel counted with it); read 2026-10-15, a sample where the house has more than 80 styles.",
+  "synth": "1% of 80 sampled styles with a composition are led by a synthetic; read 2026-10-15, a sample where the house has more than 80 styles.",
+  "silk": "0% of 80 sampled styles with a composition are led by silk; read 2026-10-15, a sample where the house has more than 80 styles."
+ },
  "src": "womens"
 }
