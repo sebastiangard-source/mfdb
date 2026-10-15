@@ -80,6 +80,8 @@ h1 .thin{color:var(--ink-faint)}
 .dials{display:flex;flex-direction:column;gap:6px;font-size:13px}
 .dials .lbl{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint);margin-top:4px}
 .dials label{display:flex;flex-direction:column;gap:2px}
+.dials label[title] span:first-child{cursor:help}
+.dials label[title] span:first-child{text-decoration:underline dotted rgba(0,0,0,.25);text-underline-offset:3px}
 .dials label span{display:flex;justify-content:space-between}
 .dials label b{font-weight:600;color:var(--ink-faint)}
 .dials label.on b{color:var(--green)}
@@ -139,34 +141,34 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
 <aside class="rail">
 <div class="controls">
   <input id="q" type="search" placeholder="Brand, town or state">
-  <div class="grp"><span class="lbl">Stores</span><div class="chips">
+  <div class="grp"><span class="lbl" title="Full-price, brand-owned US stores counted from the brand’s own locator. Outlets, concessions and pop-ups are held in the register and not counted.">Stores</span><div class="chips">
     <button class="chip" data-t="mass">251+</button><button class="chip" data-t="chain">51–250</button><button class="chip" data-t="network">13–50</button><button class="chip" data-t="circuit">4–12</button><button class="chip" data-t="flagship">1–3</button></div><span class="hint" style="font-size:11.5px;color:var(--ink-faint)">Pick any; none picked means all.</span></div>
   <div class="grp"><span class="lbl">Northeast</span><div class="chips"><button class="chip" id="neOnly">has a store here</button></div></div>
   <div class="grp"><span class="lbl">Crossovers</span><div class="chips"><button class="chip on" id="xover">include men’s-map brands</button></div></div>
 </div>
 <div class="cuts">
   <span class="lbl">Band cuts</span>
-  <label><span>Premium up to <b id="c1v">$200</b></span><input type="range" id="c1" min="100" max="400" step="10" value="200"></label>
-  <label><span>Accessible up to <b id="c2v">$600</b></span><input type="range" id="c2" min="300" max="1200" step="25" value="600"></label>
+  <label title="Brands whose blouse-and-sweater entry mean is under this figure read Premium. Basic is set separately, by the core tee and blouse test."><span>Premium up to <b id="c1v">$200</b></span><input type="range" id="c1" min="100" max="400" step="10" value="200"></label>
+  <label title="Brands whose blouse-and-sweater entry mean is at or under this figure read Accessible; above it, True Luxury."><span>Accessible up to <b id="c2v">$600</b></span><input type="range" id="c2" min="300" max="1200" step="25" value="600"></label>
   <button class="chip" id="creset">reset</button>
   <span class="hint">Moves every brand banded on a blouse-and-sweater mean, crossovers included. Basic, hand-set and pending brands stay put.</span>
 </div>
 <div class="dials" id="dials">
-  <span class="lbl">Focus · at least</span>
-  <label data-k="f.tech"><span>tech <b>off</b></span><input type="range" min="0" max="5" value="0"></label>
-  <label data-k="f.comfort"><span>comfort <b>off</b></span><input type="range" min="0" max="5" value="0"></label>
-  <label data-k="f.craft"><span>craft <b>off</b></span><input type="range" min="0" max="5" value="0"></label>
-  <label data-k="f.style"><span>style <b>off</b></span><input type="range" min="0" max="5" value="0"></label>
-  <span class="lbl">Fabric · at least</span>
-  <label data-k="cf" title="Share of styles whose every fibre is natural or lyocell (Tencel), elastane at 5% or under: 5 all of them; 4 at least 95%; 3 85%; 2 70%; 1 below. Judged on the styles read, which is a sample for most houses."><span>natural or lyocell <b>off</b></span><input type="range" min="0" max="5" value="0"></label>
-  <label data-k="nat" title="5 an all-natural range; 4 at least 95% of styles led by a natural fibre; 3 85%; 2 70%; 1 below"><span>natural fibres <b>off</b></span><input type="range" min="0" max="5" value="0"></label>
-  <label data-k="fa.cotton"><span>cotton <b>off</b></span><input type="range" min="0" max="5" value="0"></label>
-  <label data-k="fa.silk"><span>silk <b>off</b></span><input type="range" min="0" max="5" value="0"></label>
-  <label data-k="fa.wool"><span>wool <b>off</b></span><input type="range" min="0" max="5" value="0"></label>
-  <label data-k="fa.cashmere"><span>cashmere <b>off</b></span><input type="range" min="0" max="5" value="0"></label>
-  <label data-k="fa.linen"><span>linen <b>off</b></span><input type="range" min="0" max="5" value="0"></label>
-  <label data-k="fa.denim"><span>denim <b>off</b></span><input type="range" min="0" max="5" value="0"></label>
-  <label data-k="fa.synth"><span>synthetic <b>off</b></span><input type="range" min="0" max="5" value="0"></label>
+  <span class="lbl" title="Show only brands scoring at least the set figure. A brand not yet read for a dial fails that dial.">Focus · at least</span>
+  <label data-k="f.tech" title="How technical the clothes are — performance fabrics, engineered construction, measurable function. Scored on what the brand sells, not on who invented it. Read from the brand's named fabrics and their share of the range."><span>tech <b>off</b></span><input type="range" min="0" max="5" value="0"></label>
+  <label data-k="f.comfort" title="How central softness and physical ease are to what the brand sells — fiber, stretch, drape, wash. Authored at merge from the range, prices and fibre evidence; provisional."><span>comfort <b>off</b></span><input type="range" min="0" max="5" value="0"></label>
+  <label data-k="f.craft" title="How much of the making can be verified — who makes it, where, and for how long. Owned factories, named mills and documented process score; a hangtag does not. Proposed by the reading thread under the craft rubric."><span>craft <b>off</b></span><input type="range" min="0" max="5" value="0"></label>
+  <label data-k="f.style" title="How much the brand trades on a design point of view and fashion influence rather than perfected basics. 1 a plain chino, 5 the runway. Authored at merge; provisional."><span>style <b>off</b></span><input type="range" min="0" max="5" value="0"></label>
+  <span class="lbl" title="Fabric figures are read off the styles on the brand’s site — a count of what it sells, not a judgment.">Fabric · at least</span>
+  <label data-k="cf" title="The share of the brand's styles whose every fibre is natural or lyocell (Tencel), with elastane at 5% or under — nothing else in the cloth. Counted from the styles read, not judged: 5 all of them, 4 at least 95%, 3 85%, 2 70%, 1 below. Tencel Modal does not count as lyocell."><span>natural or lyocell <b>off</b></span><input type="range" min="0" max="5" value="0"></label>
+  <label data-k="nat" title="The share of styles whose main fibre is natural — cotton, wool, linen, silk, cashmere — counted on the brand's own product pages, not judged. 5 all natural, 4 at least 95%, 3 85%, 2 70%, 1 below. A sample of 80 styles where the house has more."><span>natural fibres <b>off</b></span><input type="range" min="0" max="5" value="0"></label>
+  <label data-k="fa.cotton" title="How much of the range is led by cotton, by share of styles read: 5 over 40%, 4 20–40%, 3 8–20%, 2 under 8%, 1 none."><span>cotton <b>off</b></span><input type="range" min="0" max="5" value="0"></label>
+  <label data-k="fa.silk" title="How much of the range is led by silk, by share of styles read: 5 over 40%, 4 20–40%, 3 8–20%, 2 under 8%, 1 none. Women's ranges run on silk in a way men's do not, so it is a dial here."><span>silk <b>off</b></span><input type="range" min="0" max="5" value="0"></label>
+  <label data-k="fa.wool" title="How much of the range is led by wool (alpaca, mohair and camel counted with it), by share of styles read: 5 over 40%, 4 20–40%, 3 8–20%, 2 under 8%, 1 none."><span>wool <b>off</b></span><input type="range" min="0" max="5" value="0"></label>
+  <label data-k="fa.cashmere" title="How much of the range is led by cashmere, by share of styles read: 5 over 40%, 4 20–40%, 3 8–20%, 2 under 8%, 1 none."><span>cashmere <b>off</b></span><input type="range" min="0" max="5" value="0"></label>
+  <label data-k="fa.linen" title="How much of the range is led by linen, by share of styles read: 5 over 40%, 4 20–40%, 3 8–20%, 2 under 8%, 1 none."><span>linen <b>off</b></span><input type="range" min="0" max="5" value="0"></label>
+  <label data-k="fa.denim" title="How much of the range is denim — the jeans category or denim cloth in the title — by share of styles read: 5 over 40%, 4 20–40%, 3 8–20%, 2 under 8%, 1 none."><span>denim <b>off</b></span><input type="range" min="0" max="5" value="0"></label>
+  <label data-k="fa.synth" title="How much of the range is led by a synthetic — polyester, polyamide, acrylic, elastane — by share of styles read: 5 over 40%, 4 20–40%, 3 8–20%, 2 under 8%, 1 none. Viscose and other cellulosics are not counted here."><span>synthetic <b>off</b></span><input type="range" min="0" max="5" value="0"></label>
   <span class="hint" id="dialhint">A brand not yet read for a dial fails that dial. <span id="dialcov"></span></span>
   <button class="chip" id="dreset">clear dials</button>
 </div>
