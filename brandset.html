@@ -124,6 +124,22 @@ h1 .thin{color:var(--ink-faint)}
 .improw{display:flex;align-items:center;justify-content:space-between;gap:10px}
 .improw .chip{padding:6px 16px;font-size:12.5px}.improw .chip:disabled{opacity:.35;cursor:default}
 #breset:disabled{opacity:.4;cursor:default}
+#hc{position:fixed;z-index:55;width:340px;max-width:calc(100vw - 24px);background:#fff;border:1px solid var(--hairline);border-radius:14px;box-shadow:0 14px 34px rgba(30,30,27,.16);padding:16px 18px 14px;font-size:12.5px;line-height:1.45;color:var(--ink);pointer-events:none;opacity:0;transform:translateY(4px);transition:opacity .12s,transform .12s}
+#hc.show{opacity:1;transform:none}
+#hc h4{font-family:'Prata',serif;font-weight:400;font-size:19px;line-height:1.15;margin:0 0 6px}
+#hc .hm{display:flex;flex-wrap:wrap;gap:4px 10px;font-size:11.5px;color:var(--ink-faint);margin:0 0 8px}
+#hc .hm .pill{margin:0;font-size:11px;padding:2px 9px}
+#hc .hs{color:var(--ink-soft);margin:0 0 10px}
+#hc .hr{display:grid;grid-template-columns:70px 1fr 46px;align-items:center;gap:8px;margin:3px 0;font-size:11.5px}
+#hc .hr span:first-child{color:var(--ink-faint)}
+#hc .tk{position:relative;height:6px;border-radius:3px;background:var(--hairline)}
+#hc .tk i{position:absolute;top:0;height:6px;border-radius:3px;background:var(--green);min-width:6px}
+#hc .hr b{font-weight:500;text-align:right;font-variant-numeric:tabular-nums;color:var(--ink-soft)}
+#hc .hf{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:10px 0 4px}
+#hc .hf div{font-size:10.5px;color:var(--ink-faint);text-transform:uppercase;letter-spacing:.04em}
+#hc .hf .mt{display:flex;gap:2px;margin-top:3px}#hc .hf .mt i{flex:1;height:5px;border-radius:2px;background:var(--hairline)}#hc .hf .mt i.on{background:var(--green)}
+#hc .hx{font-size:11px;color:var(--ink-faint);margin-top:10px;border-top:1px solid var(--hairline);padding-top:8px}
+@media (hover:none){#hc{display:none}}
 .sortrow{display:flex;align-items:center;gap:6px}.sortrow .chip{padding:5px 12px;font-size:12px}.sortrow .hint{margin-right:2px}
 .impfile{cursor:pointer;font-size:12px;color:var(--green);text-decoration:underline;text-underline-offset:3px}
 .pub .hint{font-size:11.5px;color:var(--ink-faint);line-height:1.4}
@@ -210,7 +226,7 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
     <h1>The Cyprus <span class="thin">Brand Set</span></h1>
     <p class="lede">Every fashion brand with its own full-price stores in the US, sorted into four price tiers, with every store listed.</p>
   </div>
-  <div class="stamp"><b>v0.36 · <span id="built"></span></b>Store lists from each brand’s own website. Tiers set by the starting price of a blouse and a sweater.</div>
+  <div class="stamp"><b>v0.37 · <span id="built"></span></b>Store lists from each brand’s own website. Tiers set by the starting price of a blouse and a sweater.</div>
 </header>
 
 <div class="layout">
@@ -275,6 +291,7 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
   <button class="more" id="more">show more</button>
 </section></div>
 <div id="tip" role="tooltip"></div>
+<div id="hc" aria-hidden="true"></div>
 <div class="ov" id="ov"></div>
 <aside class="panel" id="panel" aria-hidden="true"><button class="close" id="close">close</button><div id="pbody"></div></aside>
 
@@ -433,6 +450,32 @@ document.addEventListener('keydown',e=>{if(e.key==='Escape')closePanel();});
 document.getElementById('bands').addEventListener('click',e=>{const b=e.target.closest('.b'); if(!b) return;
   if(e.target.closest('.x')){e.stopPropagation(); HIDE.add(b.dataset.n||b.dataset.o); saveHide(); renderBands(); renderIdx(); return;}
   if(b.dataset.o) openOther(b.dataset.o); else openBrand(b.dataset.n);});
+// Hover card: a quick read of a brand without opening its panel. Desktop only; a click still opens the panel.
+(()=>{const hc=document.getElementById('hc'); let t=null, cur=null;
+  const LO=Math.log(15), HI=Math.log(5000), pos=v=>Math.max(0,Math.min(100,(Math.log(Math.max(v,15))-LO)/(HI-LO)*100));
+  const regions=b=>{const c={}; for(const s of b.stores){const r=REG_OF[s.s]||'Other'; c[r]=(c[r]||0)+1;} return ['Northeast','South','Midwest','West'].filter(r=>c[r]).map(r=>`${r} ${c[r]}`).join(' · ');};
+  const card=el=>{const n=el.dataset.n, o=el.dataset.o;
+    if(o){const x=OTHER.find(y=>y.n===o); if(!x) return '';
+      return `<h4>${esc(x.n)}</h4><div class="hm"><span class="pill">${esc(CATN[x.cat]||'')}</span></div><p class="hs">${x.own==null?'Store count coming.':`${x.own} stores in the US${x.stores.length?' · '+regions(x):''}`}</p><div class="hx">Click for the store list</div>`;}
+    const b=W.brands.find(y=>y.n===n); if(!b) return '';
+    const a=b.about||{};
+    const pr=Object.entries(b.prices||{}).filter(([,v])=>Array.isArray(v)&&v[0]).slice(0,8).map(([g,v])=>{const lo=v[0], hi=v[1]||v[0];
+      return `<div class="hr"><span>${esc(g)}</span><span class="tk"><i style="left:${pos(lo)}%;width:${Math.max(pos(hi)-pos(lo),2)}%"></i></span><b>$${lo.toLocaleString()}${hi!==lo?'+':''}</b></div>`;}).join('');
+    const f=b.f||{}; const dial=(k,l)=>f[k]!=null?`<div>${l}<span class="mt">${[1,2,3,4,5].map(i=>`<i class="${i<=f[k]?'on':''}"></i>`).join('')}</span></div>`:'';
+    const dials=['tech','comfort','craft','style'].some(k=>f[k]!=null)?`<div class="hf">${dial('tech','tech')}${dial('comfort','comfort')}${dial('craft','craft')}${dial('style','style')}</div>`:'';
+    return `<h4>${esc(b.n)}</h4><div class="hm"><span class="pill ${b.band.split(' ')[0]}">${esc(bandName(b.band))}</span>${b.sg?`<span>${esc(b.sg)}</span>`:''}</div>
+      ${a.sells?`<p class="hs">${esc(a.sells)}</p>`:''}
+      <p class="hs" style="margin-bottom:8px"><b style="font-weight:600;color:var(--ink)">${b.own} stores</b>${b.stores.length?' · '+regions(b):''}</p>
+      ${pr}${dials}<div class="hx">${esc(b.basis)} Click for the full card.</div>`;};
+  const place=el=>{const r=el.getBoundingClientRect(); const w=hc.offsetWidth, h=hc.offsetHeight; let x=r.left, y=r.bottom+8;
+    if(x+w>innerWidth-12) x=innerWidth-12-w; if(x<12) x=12; if(y+h>innerHeight-12) y=Math.max(12,r.top-8-h); hc.style.left=x+'px'; hc.style.top=y+'px';};
+  const show=el=>{const html=card(el); if(!html) return; hc.innerHTML=html; hc.classList.add('show'); place(el); cur=el;};
+  const hide=()=>{clearTimeout(t); t=null; cur=null; hc.classList.remove('show');};
+  const host=document.getElementById('bands');
+  host.addEventListener('mouseover',e=>{const el=e.target.closest('.b'); if(!el||el===cur) return; if(e.target.closest('.x')){hide(); return;} clearTimeout(t); t=setTimeout(()=>show(el),cur?60:350);});
+  host.addEventListener('mouseout',e=>{const el=e.target.closest('.b'); if(el&&!el.contains(e.relatedTarget)) hide();});
+  host.addEventListener('mousedown',hide); host.addEventListener('dragstart',hide);
+  document.addEventListener('scroll',hide,true);})();
 function openOther(n){const o=OTHER.find(x=>x.n===n); if(!o) return;
   document.getElementById('pbody').innerHTML=`<h2>${esc(o.n)}</h2><span class="pill">${esc(CATN[o.cat]||o.cat)}</span>
     <dl class="kv" style="margin-top:14px"><dt>Full-price stores</dt><dd>${o.own==null?'Count coming':o.own+' in the US'}</dd>
