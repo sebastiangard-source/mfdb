@@ -45,6 +45,8 @@ h1 .thin{color:var(--ink-faint)}
 /* bands */
 .band{border-top:1px solid var(--hairline);padding:18px 0 22px}
 .band h2{font-family:'Prata',serif;font-weight:400;font-size:21px;display:flex;align-items:baseline;gap:12px}
+.band h2 .rmall{margin-left:auto;font:inherit;font-family:'Inter',sans-serif;font-size:12px;color:var(--ink-faint);background:none;border:0;padding:2px 0;cursor:pointer;text-decoration:underline;text-underline-offset:3px;text-decoration-color:var(--hairline)}
+.band h2 .rmall:hover{color:var(--ink)}
 .band h2 small{font-family:'Inter',sans-serif;font-size:12px;color:var(--ink-faint);font-weight:400}
 .band .def{font-size:12.5px;color:var(--ink-faint);margin:2px 0 12px}
 .grid{display:flex;flex-wrap:wrap;gap:8px}
@@ -229,7 +231,7 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
     <h1>The Cyprus <span class="thin">Brand Set</span></h1>
     <p class="lede">Every fashion brand with its own full-price stores in the US, sorted into four price tiers, with every store listed.</p>
   </div>
-  <div class="stamp"><b>v0.47 · <span id="built"></span></b>Store lists from each brand’s own website. Tiers set by the starting price of a blouse and a sweater.</div>
+  <div class="stamp"><b>v0.48 · <span id="built"></span></b>Store lists from each brand’s own website. Tiers set by the starting price of a blouse and a sweater.</div>
 </header>
 
 <div class="layout">
@@ -361,7 +363,7 @@ function renderBands(){
     const all=W.brands.filter(b=>b.band===band).sort(byOrder); if(!all.length) continue;
     const vis=all.filter(matches); shown+=vis.length; stores+=vis.reduce((n,b)=>n+b.own,0);
     const sec=document.createElement('section'); sec.className='band '+band.split(' ')[0]; sec.dataset.band=band;
-    sec.innerHTML=`<h2>${esc(bandName(band))}<small>${vis.length} of ${all.length} brands · ${vis.reduce((n,b)=>n+b.own,0).toLocaleString()} stores</small></h2><p class="def">${DEF[band]}</p><div class="grid">`+
+    sec.innerHTML=`<h2>${esc(bandName(band))}<small>${vis.length} of ${all.length} brands · ${vis.reduce((n,b)=>n+b.own,0).toLocaleString()} stores</small>${vis.length?`<button class="rmall" data-band="${esc(band)}" title="Remove the brands showing in this tier from your view">remove ${vis.length===all.length?'all':'these '+vis.length}</button>`:''}</h2><p class="def">${DEF[band]}</p><div class="grid">`+
       all.map(b=>`<button class="b${b.moved?' moved':''}${matches(b)?'':' out'}" draggable="true" data-n="${esc(b.n)}"${b.moved?` title="moved by hand; the price rule says ${esc(bandName(b.rule))}"`:''}><span class="n">${esc(b.n)}</span><span class="c">${b.own}</span><span class="x" role="button" aria-label="Remove ${esc(b.n)} from this view" title="remove from my view">×</span></button>`).join('')+'</div>';
     host.appendChild(sec);
   }
@@ -370,7 +372,7 @@ function renderBands(){
     const vis=OTHER.filter(matchesO); shown+=vis.length; const ost=vis.reduce((n,o)=>n+(o.own||0),0); stores+=ost;
     const counted=OTHER.filter(o=>o.own!=null).length;
     const sec=document.createElement('section'); sec.className='band Other';
-    sec.innerHTML=`<h2>Other brands<small>${vis.length} of ${OTHER.length} brands · ${ost.toLocaleString()} stores</small></h2><p class="def">Jewelry, bags, eyewear, travel, home and beauty brands with their own stores.${counted<OTHER.length?' Store counts are coming in.':''}${clothingOnly()?' Hidden while a segment or Fashion focus filter is on.':''}</p>`+
+    sec.innerHTML=`<h2>Other brands<small>${vis.length} of ${OTHER.length} brands · ${ost.toLocaleString()} stores</small>${vis.length?`<button class="rmall" data-band="Other" title="Remove the brands showing in this section from your view">remove ${vis.length===OTHER.length?'all':'these '+vis.length}</button>`:''}</h2><p class="def">Jewelry, bags, eyewear, travel, home and beauty brands with their own stores.${counted<OTHER.length?' Store counts are coming in.':''}${clothingOnly()?' Hidden while a segment or Fashion focus filter is on.':''}</p>`+
       CATS.map(c=>{const l=OTHER.filter(o=>o.cat===c).sort(byOrder); if(!l.length) return ''; return `<h4>${CATN[c]}</h4><div class="grid">`+l.map(o=>`<button class="b${matchesO(o)?'':' out'}" data-o="${esc(o.n)}"><span class="n">${esc(o.n)}</span><span class="c${o.own==null||o.none?' p':''}">${o.own==null?'counting':o.none?'no US stores':o.own}</span><span class="x" role="button" aria-label="Remove ${esc(o.n)} from this view" title="remove from my view">×</span></button>`).join('')+'</div>';}).join('');
     host.appendChild(sec);}
   const br=document.getElementById('breset'); if(br){const m=W.brands.filter(b=>b.moved).length, n=m+HIDE.size; br.textContent=n?`reset brands (${[m?m+' moved':'',HIDE.size?HIDE.size+' removed':''].filter(Boolean).join(', ')})`:'reset brands'; br.disabled=!n;}
@@ -453,7 +455,9 @@ function openBrand(n){
 function closePanel(){document.getElementById('panel').classList.remove('show'); document.getElementById('ov').classList.remove('show');}
 document.getElementById('close').onclick=closePanel; document.getElementById('ov').onclick=closePanel;
 document.addEventListener('keydown',e=>{if(e.key==='Escape')closePanel();});
-document.getElementById('bands').addEventListener('click',e=>{const b=e.target.closest('.b'); if(!b) return;
+document.getElementById('bands').addEventListener('click',e=>{
+  const ra=e.target.closest('.rmall'); if(ra){const band=ra.dataset.band; const list=band==='Other'?OTHER.filter(matchesO):W.brands.filter(b=>b.band===band&&matches(b)); list.forEach(x=>HIDE.add(x.n)); saveHide(); renderBands(); renderIdx(); return;}
+  const b=e.target.closest('.b'); if(!b) return;
   if(e.target.closest('.x')){e.stopPropagation(); HIDE.add(b.dataset.n||b.dataset.o); saveHide(); renderBands(); renderIdx(); return;}
   if(b.dataset.o) openOther(b.dataset.o); else openBrand(b.dataset.n);});
 // Hover card: a quick read of a brand without opening its panel. Desktop only; a click still opens the panel.
