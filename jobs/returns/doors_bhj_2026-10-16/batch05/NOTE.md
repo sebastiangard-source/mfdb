@@ -10,12 +10,12 @@ Batch 5 is the beauty and fragrance stores: Sephora, Ulta Beauty, Bluemercury, S
 | Ulta Beauty | 1,558 | 0 | 0 | 0 | 1,558 |
 | Bluemercury | 168 | 0 | 0 | 0 | 168 |
 | Space NK | **NONE** | 0 | 0 | 0 | 0 |
-| Le Labo | **NC** | NC | NC | NC | NC |
+| Le Labo | 47 | 0 | 0 | 77 | 124 |
 | Diptyque | 36 | 0 | 0 | NC | 36 |
 | Byredo | 12 | 0 | 73 | 18 | 103 |
 | Jo Malone London | 55 rows (about 35 stores) | 0 | 0 | 896 | 989 |
 | Maison Francis Kurkdjian | 1 | 0 | 0 | 93 | 94 |
-| **Total rows** | | | | | 3,716 |
+| **Total rows** | | | | | 3,763 |
 
 ## Pace and walls
 
@@ -46,7 +46,7 @@ Batch 5 is the beauty and fragrance stores: Sephora, Ulta Beauty, Bluemercury, S
   - **`us_own_stores` is 55, to match the rows.** The distinct count is in the note.
 - **Maison Francis Kurkdjian:** only one US store carries the brand's name, the Tysons Galleria Boutique in McLean. Everything else on its locator is a retailer.
 - **Space NK is `NONE`.** Its US site's store page lists only UK and Ireland stores.
-- **Le Labo is `NC`.** I opened the locator three times (the last later in the day, as you asked) and it stayed on "loading", with no error and no wall. It may be waiting for a location permission, which I didn't grant. If you can open it in your browser and it loads, I'll read it.
+- **Le Labo (added after your link).** The locator waits for the browser's location before it loads anything, which is why it sat on "loading". Without a location it falls back to one request that lists every store, and I read that. It has 124 US entries: 47 Le Labo stores (own doors, including the Nolita Annex) and 77 retailers under their own names (stockists). Le Labo Boston Seaport (70 Pier 4 Blvd) is among the own doors.
 
 ## Weak spots
 

@@ -275,6 +275,7 @@ def main():
             n = r['brand']; c = counted.get(n)
             seen_addr = set(); st = []
             for x in od.get(n, []):
+                if re.search(r'\bspa\b', x['sn'], re.I): continue  # a hotel spa is not a store, like a restaurant (ruled 16 Oct)
                 # One door per store: the same street and ZIP (Catbird's Wedding Annex is upstairs in Williamsburg), or the
                 # same ZIP and phone (Jo Malone lists stores two or three times). Rows with no street or phone are never merged.
                 keys = set()
