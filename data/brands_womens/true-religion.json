@@ -235,32 +235,70 @@
  },
  "depts": 3,
  "garment_links": {
-  "Jeans": "https://www.truereligion.com/denim-view-all-womens"
+  "T-shirt": "https://www.truereligion.com/womens-designer-t-shirts",
+  "Blouse": "https://www.truereligion.com/womens-apparel-tops",
+  "Sweater": "https://www.truereligion.com/womens-apparel-sweaters",
+  "Jeans": "https://www.truereligion.com/womens-jeans-by-fit-2",
+  "Trousers": "https://www.truereligion.com/womens-bottoms",
+  "Dress": "https://www.truereligion.com/womens-designer-dresses",
+  "Outerwear": "https://www.truereligion.com/womens-designer-jackets"
+ },
+ "fabric": {
+  "denim": 4,
+  "cashmere": 1,
+  "linen": 1,
+  "cotton": 5,
+  "wool": 1,
+  "synth": 4,
+  "silk": 1
+ },
+ "fibre": {
+  "t": 80,
+  "w": 79,
+  "n_pct": 68,
+  "s_pct": 30,
+  "c_pct": 1,
+  "spandex": 55,
+  "sp": "split",
+  "sample": "80 styles drawn evenly in listing order from 827 distinct style codes across the seven women's listings, quota per listing: Tees & Tank Tops 18, Shirts Knits & ",
+  "st": "complete",
+  "clean_pct": 28,
+  "clean_n": 78,
+  "clean_lyo": 0,
+  "ly_pct": 0,
+  "cv_pct": 1
  },
  "focus": {
+  "tech": 2,
+  "craft": 1,
   "comfort": 3,
   "style": 3
  },
  "tech_evidence": {
-  "names": "no",
-  "owned": "",
-  "share": "",
-  "u": "",
+  "names": "LYCRA on 1 of 80 (206126 becca mid rise bootcut jean, \"2% LYCRA\"); no other named fabric technology on any page read",
+  "owned": "licensed (LYCRA); nothing owned",
+  "share": "1/80",
+  "u": "https://www.truereligion.com/becca-mid-rise-bootcut-jean/206126.html",
   "checked": "2026-10-15"
  },
  "craft_evidence": {
-  "owned": "NC",
-  "makers": "NC",
-  "mills": "NC",
-  "madein": "NC",
-  "heritage": "NC",
-  "process": "NC",
-  "urls": [],
-  "proposed": null,
-  "reasoning": "NC — site not readable past the PerimeterX wall; the women's worklist carries no current craft score to return in its place.",
+  "owned": "no (none claimed on /company-about.html)",
+  "makers": "no (0/80 PDPs name a maker)",
+  "mills": "no (0/80 PDPs name a mill)",
+  "madein": "0/80 state a country: every PDP reads \"Country of Origin: Imported\"",
+  "heritage": "dated and placed: \"founded in 2002 in Los Angeles, CA\" (/company-about.html)",
+  "process": "no: about page speaks of \"signature stitching\" and the \"Super T stitch\" without describing how product is made or where",
+  "urls": [
+   "https://www.truereligion.com/company-about.html",
+   "https://www.truereligion.com/becca-mid-rise-bootcut-jean/206126.html"
+  ],
+  "proposed": 1,
+  "reasoning": "No product page of 80 names a country of origin (all \"Imported\"), a maker or a mill, and the about page claims no owned facility. The only checkable claim is the founding date and city (2002, Los Angeles), which does not reach the rubric's step 2 (states a country for the product). Proposed 1; Sebastian rules.",
   "read": "2026-10-15"
  },
  "notes": {
+  "tech": "Thread proposed 2 (2026-10-15): named fabrics LYCRA on 1 of 80 (206126 becca mid rise bootcut jean, \"2% LYCRA\"); no other named fabric technology on any page read, 1/80 of the range. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 1 (2026-10-15): No product page of 80 names a country of origin (all \"Imported\"), a maker or a mill, and the about page claims no owned facility. The only checkable claim is the founding date and city (2002, Los Angeles), which does not reach the rubric's step 2 (states a country for the product). Proposed 1; Sebastian rules. Seated as proposed, pending ruling.",
   "comfort": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional; fibre not read (held at a bot wall)",
   "style": "authored by the Spectrum thread at merge, 15 Oct 2026, from the why line, prices and fibre evidence; provisional; fibre not read (held at a bot wall)"
  },
