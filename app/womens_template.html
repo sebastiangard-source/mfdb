@@ -53,6 +53,11 @@ h1 .thin{color:var(--ink-faint)}
 .b.moved{border-style:dashed;border-color:var(--green)}
 .b.moved .n::after{content:"moved";margin-left:6px;font-size:9.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--green);font-weight:600}
 .b.dragging{opacity:.4}
+.b .x{margin-left:2px;width:16px;height:16px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;font-size:12px;line-height:1;color:var(--ink-faint);opacity:.55}
+.b .x:hover{background:var(--ink);color:#fff;opacity:1}
+.band.Other .b{background:#fff;border-color:var(--hairline)}
+.band.Other h4{font-family:'Inter',sans-serif;font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint);margin:14px 0 8px;font-weight:500}
+.band.Other .b .c.p{font-style:italic}
 .tree summary{display:flex;justify-content:space-between;align-items:baseline;cursor:pointer;list-style:none;padding:9px 0;border-bottom:1px solid var(--hairline)}
 .tree summary::-webkit-details-marker{display:none}
 .tree summary span::before{content:"▸";display:inline-block;width:14px;color:var(--ink-faint);transition:transform .15s}
@@ -196,7 +201,7 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
     <h1>The Cyprus <span class="thin">Brand Set</span></h1>
     <p class="lede">Every brand with a full-price store of its own in the US: the women’s brands, the brands that sell to both, and the men’s-only houses. Placed in four price tiers and shown with their stores, counted from the brands’ own locators.</p>
   </div>
-  <div class="stamp"><b>v0.27 · <span id="built"></span></b>stores counted from the brands’ own locators · tiers on blouse and sweater (shirt and sweater where the women’s price is not yet read)</div>
+  <div class="stamp"><b>v0.28 · <span id="built"></span></b>stores counted from the brands’ own locators · tiers on blouse and sweater (shirt and sweater where the women’s price is not yet read)</div>
 </header>
 
 <div class="layout">
@@ -225,6 +230,7 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
   <label><span class="tt" data-tip="Brands whose blouse-and-sweater entry mean is at or under this figure read Tier 3; above it, Tier 4." tabindex="0"><span><span id="c2l">Tier 3</span> up to</span> <b id="c2v">$600</b></span><input type="range" id="c2" min="300" max="1200" step="25" value="600"></label>
   <button class="chip" id="creset">reset tiers</button>
   <button class="chip" id="mreset">no brands moved</button>
+  <button class="chip" id="hreset">no brands removed</button>
   <span class="hint">Moves every brand tiered on a blouse-and-sweater mean, crossovers included. Tier 1 and hand-set brands stay put. Drag a brand into another tier to place it by hand (or use “Move to” in its panel); moved brands are marked and stay put when the cuts change.</span>
 </div>
 <div class="dials" id="dials">
@@ -285,9 +291,23 @@ const ST={AL:'Alabama',AK:'Alaska',AZ:'Arizona',AR:'Arkansas',CA:'California',CO
 document.getElementById('built').textContent=new Date(W.built+'T12:00:00').toLocaleDateString('en-US',{day:'numeric',month:'long',year:'numeric'});
 
 let TIERS_ON=new Set(), SG_ON=new Set(), q='';
+// Brands a viewer removed from their own view (the × on a pill). Kept in this browser and carried in published pages.
+const HIDE=new Set(); try{JSON.parse(localStorage.getItem('wspec_hidden')||'[]').forEach(n=>HIDE.add(n));}catch(e){}
+function saveHide(){try{localStorage.setItem('wspec_hidden',JSON.stringify([...HIDE]));}catch(e){}}
+const OTHER=W.other||[];
+const CATN={jewelry_high:'High jewelry and watches',jewelry_fine:'Fine and demi-fine jewelry',home:'Home',beauty_retailer:'Beauty stores',fragrance:'Fragrance',skin_body:'Skin and body',makeup:'Makeup'};
+const CATS=Object.keys(CATN);
+// Segment and dial filters describe clothing; while one is on, the other brands step aside.
+function clothingOnly(){return SG_ON.size>0||Object.values(DIAL).some(v=>v);}
+function matchesO(o){
+  if(HIDE.has(o.n)||clothingOnly()) return false;
+  if(TIERS_ON.size && !(o.own&&TIERS_ON.has(o.tier))) return false;
+  if(q){const t=q.toLowerCase(); if(!(o.n.toLowerCase().includes(t)||(CATN[o.cat]||'').toLowerCase().includes(t)||o.stores.some(x=>x.c.toLowerCase().includes(t)||x.s.toLowerCase()===t||(ST[x.s]||'').toLowerCase().includes(t)))) return false;}
+  return true;}
 const DIAL={};  // key -> threshold
 function dialGet(b,k){if(!k.includes('.')) return b[k]!=null?b[k]:null; const [g,a]=k.split('.'); const o=b[g]; return o&&o[a]!=null?o[a]:null;}
 function matches(b){
+  if(HIDE.has(b.n)) return false;
   if(b.band==='Pending') return false;
   for(const k in DIAL){const t=DIAL[k]; if(!t) continue; const v=dialGet(b,k); if(v==null||v<t) return false;}
   if(TIERS_ON.size && !TIERS_ON.has(b.tier)) return false;
@@ -305,9 +325,17 @@ function renderBands(){
     const vis=all.filter(matches); shown+=vis.length; stores+=vis.reduce((n,b)=>n+b.own,0);
     const sec=document.createElement('section'); sec.className='band '+band.split(' ')[0]; sec.dataset.band=band;
     sec.innerHTML=`<h2>${esc(bandName(band))}<small>${vis.length} of ${all.length} brands · ${vis.reduce((n,b)=>n+b.own,0).toLocaleString()} stores</small></h2><p class="def">${DEF[band]}</p><div class="grid">`+
-      all.map(b=>`<button class="b${b.moved?' moved':''}${matches(b)?'':' out'}" draggable="true" data-n="${esc(b.n)}"${b.moved?` title="moved by hand; the price rule says ${esc(bandName(b.rule))}"`:''}><span class="n">${esc(b.n)}</span><span class="c">${b.own}</span></button>`).join('')+'</div>';
+      all.map(b=>`<button class="b${b.moved?' moved':''}${matches(b)?'':' out'}" draggable="true" data-n="${esc(b.n)}"${b.moved?` title="moved by hand; the price rule says ${esc(bandName(b.rule))}"`:''}><span class="n">${esc(b.n)}</span><span class="c">${b.own}</span><span class="x" role="button" aria-label="Remove ${esc(b.n)} from this view" title="remove from my view">×</span></button>`).join('')+'</div>';
     host.appendChild(sec);
   }
+  if(OTHER.length){
+    const vis=OTHER.filter(matchesO); shown+=vis.length; const ost=vis.reduce((n,o)=>n+(o.own||0),0); stores+=ost;
+    const counted=OTHER.filter(o=>o.own!=null).length;
+    const sec=document.createElement('section'); sec.className='band Other';
+    sec.innerHTML=`<h2>Other brands<small>${vis.length} of ${OTHER.length} brands · ${ost.toLocaleString()} stores</small></h2><p class="def">Beauty, home and jewelry houses with stores of their own: store lists only, not placed in tiers.${counted<OTHER.length?` Stores counted for ${counted} of ${OTHER.length} so far.`:''}${clothingOnly()?' Hidden while a segment or dial filter is on.':''}</p>`+
+      CATS.map(c=>{const l=OTHER.filter(o=>o.cat===c); if(!l.length) return ''; return `<h4>${CATN[c]}</h4><div class="grid">`+l.map(o=>`<button class="b${matchesO(o)?'':' out'}" data-o="${esc(o.n)}"><span class="n">${esc(o.n)}</span><span class="c${o.own==null?' p':''}">${o.own==null?'counting':o.own}</span><span class="x" role="button" aria-label="Remove ${esc(o.n)} from this view" title="remove from my view">×</span></button>`).join('')+'</div>';}).join('');
+    host.appendChild(sec);}
+  const hr=document.getElementById('hreset'); if(hr){hr.textContent=HIDE.size?`restore removed brands (${HIDE.size})`:'no brands removed'; hr.disabled=!HIDE.size;}
   document.querySelectorAll('.segchips .chip').forEach(c=>{const k=c.dataset.sg; const keep=SG_ON; SG_ON=new Set(); const n=W.brands.filter(b=>b.sg===k&&matches(b)).length; SG_ON=keep; c.querySelector('.cn').textContent=n;});
   document.getElementById('count').textContent=`${shown} brands · ${stores.toLocaleString()} full-price brand-owned US stores shown`;
 }
@@ -345,7 +373,7 @@ function storeTree(b){
         return `<div class="ds"><div class="dh"><span>${lab}</span><b>${l.length}</b></div><ul class="st">`+l.map(s=>{const nm=s.sn&&s.sn.toLowerCase()!==b.n.toLowerCase()&&s.sn!==d&&!/^\d/.test(s.sn)?s.sn:''; return `<li><div>${esc(nm||s.a||b.n)}<div class="where">${esc((nm?[s.a,s.c,s.z]:[s.c,s.z]).filter(Boolean).join(', '))}${s.op&&s.op!=='brand'?' · run by '+esc(s.op):''}</div></div><a href="${mapUrl(s)}" target="_blank" rel="noopener">map ↗</a></li>`;}).join('')+'</ul></div>';}).join('')+'</details>').join('')+'</details>').join('')+'</div>';
 }
 function openBrand(n){
-  const b=W.brands.find(x=>x.n===n); if(!b) return;
+  const b=W.brands.find(x=>x.n===n); if(!b){ if(OTHER.some(o=>o.n===n)) openOther(n); return; }
   const byState={}; for(const s of b.stores){(byState[s.s]=byState[s.s]||[]).push(s);}
   const states=Object.keys(byState).sort((a,c)=>(NE.has(c)-NE.has(a))||(byState[c].length-byState[a].length)||a.localeCompare(c));
   const prices=b.prices?`<div class="prices">${Object.entries(b.prices).map(([g,v])=>`<div><span>${g}</span>${Array.isArray(v)?('$'+v[0]+(v[1]&&v[1]!==v[0]?'–'+v[1]:'')):esc(v)}${b.gl&&b.gl[g]?`<a href="${esc(b.gl[g])}" target="_blank" rel="noopener">see the range ↗</a>`:''}</div>`).join('')}</div>`:'';
@@ -386,17 +414,27 @@ function openBrand(n){
 function closePanel(){document.getElementById('panel').classList.remove('show'); document.getElementById('ov').classList.remove('show');}
 document.getElementById('close').onclick=closePanel; document.getElementById('ov').onclick=closePanel;
 document.addEventListener('keydown',e=>{if(e.key==='Escape')closePanel();});
-document.getElementById('bands').addEventListener('click',e=>{const b=e.target.closest('.b'); if(b) openBrand(b.dataset.n);});
+document.getElementById('bands').addEventListener('click',e=>{const b=e.target.closest('.b'); if(!b) return;
+  if(e.target.closest('.x')){e.stopPropagation(); HIDE.add(b.dataset.n||b.dataset.o); saveHide(); renderBands(); renderIdx(); return;}
+  if(b.dataset.o) openOther(b.dataset.o); else openBrand(b.dataset.n);});
+function openOther(n){const o=OTHER.find(x=>x.n===n); if(!o) return;
+  document.getElementById('pbody').innerHTML=`<h2>${esc(o.n)}</h2><span class="pill">${esc(CATN[o.cat]||o.cat)}</span>
+    <dl class="kv" style="margin-top:14px"><dt>Full-price stores</dt><dd>${o.own==null?'being counted from the brand’s own locator':o.own+' in the US'}</dd>
+    ${o.locator?`<dt>Locator</dt><dd><a href="${esc(o.locator)}" target="_blank" rel="noopener">${esc(o.locator.replace(/^https?:\/\//,'').slice(0,60))}</a></dd>`:''}${o.read?`<dt>Read</dt><dd>${esc(o.read)}</dd>`:''}</dl>
+    ${o.stores.length?'<h3>Stores</h3>'+storeTree(o):''}${o.note?`<p class="note">${esc(o.note)}</p>`:''}
+    <p class="cav">Brand-named US stores from the brand’s own locator. Counters and shop-in-shops inside department stores and other retailers are not counted.</p>`;
+  document.getElementById('panel').classList.add('show'); document.getElementById('ov').classList.add('show');}
 function setMove(n,band){const b=W.brands.find(x=>x.n===n); if(!b||b.rule==='Pending') return;
   if(!band||band===b.rule) delete MOVES[n]; else MOVES[n]=band; saveMoves(); reband(); renderBands(); renderIdx();}
 (()=>{const host=document.getElementById('bands'); let dragN=null;
   host.addEventListener('dragstart',e=>{const b=e.target.closest('.b'); if(!b) return; dragN=b.dataset.n; b.classList.add('dragging'); try{e.dataTransfer.setData('text/plain',dragN); e.dataTransfer.effectAllowed='move';}catch(x){}});
   host.addEventListener('dragend',e=>{const b=e.target.closest('.b'); if(b) b.classList.remove('dragging'); host.querySelectorAll('.band.drop').forEach(x=>x.classList.remove('drop')); dragN=null;});
-  host.addEventListener('dragover',e=>{const sec=e.target.closest('.band'); if(!sec||!dragN) return; e.preventDefault(); host.querySelectorAll('.band.drop').forEach(x=>{if(x!==sec) x.classList.remove('drop');}); sec.classList.add('drop');});
+  host.addEventListener('dragover',e=>{const sec=e.target.closest('.band'); if(!sec||!dragN||!sec.dataset.band) return; e.preventDefault(); host.querySelectorAll('.band.drop').forEach(x=>{if(x!==sec) x.classList.remove('drop');}); sec.classList.add('drop');});
   host.addEventListener('dragleave',e=>{const sec=e.target.closest('.band'); if(sec&&!sec.contains(e.relatedTarget)) sec.classList.remove('drop');});
-  host.addEventListener('drop',e=>{const sec=e.target.closest('.band'); if(!sec||!dragN) return; e.preventDefault(); const n=dragN; dragN=null; setMove(n,sec.dataset.band);});})();
+  host.addEventListener('drop',e=>{const sec=e.target.closest('.band'); if(!sec||!dragN||!sec.dataset.band) return; e.preventDefault(); const n=dragN; dragN=null; setMove(n,sec.dataset.band);});})();
 document.getElementById('pbody').addEventListener('click',e=>{const m=e.target.closest('[data-move]'); if(!m) return; const n=document.querySelector('#pbody h2').textContent; setMove(n,m.dataset.move); openBrand(n);});
 document.querySelectorAll('.segchips .chip').forEach(c=>c.onclick=()=>{const k=c.dataset.sg; if(SG_ON.has(k)) SG_ON.delete(k); else SG_ON.add(k); c.classList.toggle('on',SG_ON.has(k)); renderBands(); renderIdx();});
+document.getElementById('hreset').onclick=()=>{HIDE.clear(); saveHide(); renderBands(); renderIdx();};
 document.getElementById('mreset').onclick=()=>{for(const k in MOVES) delete MOVES[k]; saveMoves(); reband(); renderBands(); renderIdx();};
 document.querySelectorAll('.chip[data-t]').forEach(c=>c.onclick=()=>{const k=c.dataset.t; if(TIERS_ON.has(k)) TIERS_ON.delete(k); else TIERS_ON.add(k); c.classList.toggle('on',TIERS_ON.has(k)); renderBands(); renderIdx();});
 function onCut(){C1=+document.getElementById('c1').value; C2=Math.max(+document.getElementById('c2').value,C1+50); document.getElementById('c2').value=C2;
@@ -421,7 +459,7 @@ document.getElementById('dreset').onclick=()=>{document.querySelectorAll('#dials
   document.addEventListener('keydown',e=>{if(e.key==='Escape') hide();});
   document.addEventListener('scroll',()=>{if(cur) place(cur);},true);})();
 // ---- filter state in the URL hash, so a view can be linked and restored ----
-function stateObj(){return {t:[...TIERS_ON],sg:[...SG_ON],q,c1:C1,c2:C2,mv:Object.fromEntries(W.brands.filter(b=>b.moved).map(b=>[b.n,b.band])),d:Object.fromEntries(Object.entries(DIAL).filter(([k,v])=>v)),r:RENAME};}
+function stateObj(){return {t:[...TIERS_ON],sg:[...SG_ON],hd:[...HIDE],q,c1:C1,c2:C2,mv:Object.fromEntries(W.brands.filter(b=>b.moved).map(b=>[b.n,b.band])),d:Object.fromEntries(Object.entries(DIAL).filter(([k,v])=>v)),r:RENAME};}
 function describeState(){const s=stateObj(); const parts=[];
   const TL={mass:'251+ stores',chain:'51–250 stores',network:'13–50 stores',circuit:'4–12 stores',flagship:'1–3 stores'};
   if(s.t.length) parts.push(s.t.map(k=>TL[k]).join(' or '));
@@ -430,10 +468,12 @@ function describeState(){const s=stateObj(); const parts=[];
   parts.push(`band cuts $${s.c1} / $${s.c2}`);
   const DN={'f.tech':'tech','f.comfort':'comfort','f.craft':'craft','f.style':'style','cf':'natural or lyocell','nat':'natural fibres','fa.cotton':'cotton','fa.silk':'silk','fa.wool':'wool','fa.cashmere':'cashmere','fa.linen':'linen','fa.denim':'denim','fa.synth':'synthetic'};
   for(const [k,v] of Object.entries(s.d)) parts.push(`${DN[k]||k} at least ${v}`);
+  if(s.hd&&s.hd.length) parts.push(`${s.hd.length} brand${s.hd.length===1?'':'s'} removed by hand: ${s.hd.join(', ')}`);
   const mv=W.brands.filter(b=>b.moved); if(mv.length) parts.push(`${mv.length} brand${mv.length===1?'':'s'} placed by hand: `+mv.map(b=>`${b.n} (${bandName(b.rule)} → ${bandName(b.band)})`).join(', '));
   return parts.join(' · ');}
 function applyState(s){try{
   TIERS_ON=new Set(s.t||[]); document.querySelectorAll('.chip[data-t]').forEach(c=>c.classList.toggle('on',TIERS_ON.has(c.dataset.t)));
+  if(s.hd){HIDE.clear(); s.hd.forEach(n=>HIDE.add(n)); saveHide();}
   SG_ON=new Set(s.sg||[]); document.querySelectorAll('.segchips .chip').forEach(c=>c.classList.toggle('on',SG_ON.has(c.dataset.sg)));
   q=s.q||''; document.getElementById('q').value=q;
   if(s.c1){document.getElementById('c1').value=s.c1;} if(s.c2){document.getElementById('c2').value=s.c2;}
@@ -470,6 +510,7 @@ function publishPage(){
 <h1>${esc(title)}</h1>${note?`<p class="lede">${esc(note)}</p>`:''}<p class="meta">${vis.length} brands · ${stores.toLocaleString()} full-price brand-owned US stores · from The Cyprus Brand Set ${esc(((document.querySelector('.stamp b')||{}).textContent||'').split(' · ')[0])}, published ${new Date().toLocaleDateString('en-US',{day:'numeric',month:'long',year:'numeric'})}</p>
 <div class="filt"><b>Filters:</b> ${esc(describeState())}</div>
 ${byBand.map(([band,list])=>`<h2>${esc(bandName(band))}<small>${list.length} brand${list.length===1?'':'s'} · ${list.reduce((n,b)=>n+b.own,0).toLocaleString()} stores</small></h2><p class="def">${esc(DEF[band])}</p><p class="run">${list.map(b=>`<span class="bn"><b>${esc(b.n)}</b>${b.moved?'<sup title="placed by hand">✱</sup>':''} ${b.own}</span>`).join('')}</p>`).join('')}
+${(()=>{const ov=OTHER.filter(o=>matchesO(o)&&o.own); if(!ov.length) return ''; return `<h2>Other brands<small>${ov.length} brand${ov.length===1?'':'s'} · ${ov.reduce((n,o)=>n+o.own,0).toLocaleString()} stores</small></h2><p class="def">Beauty, home and jewelry houses with stores of their own, not placed in tiers.</p>`+CATS.map(c=>{const l=ov.filter(o=>o.cat===c); return l.length?`<p class="def" style="margin:10px 0 2px;text-transform:uppercase;letter-spacing:.05em;font-size:11px">${CATN[c]}</p><p class="run">${l.map(o=>`<span class="bn"><b>${esc(o.n)}</b> ${o.own}</span>`).join('')}</p>`:'';}).join('');})()}
 <details class="more"><summary>Brand by brand — what each sells, with its dials</summary>${byBand.map(([band,list])=>`<h2>${esc(bandName(band))}</h2>${list.map(brandRow).join('')}`).join('')}</details>
 <details class="more"><summary>Stores — ${stores.toLocaleString()} across ${states.length} states, Northeast first</summary><div class="idx">${idx}</div></details>
 <p class="cav">Full-price, brand-owned stores from each brand’s own locator; outlets, concessions and pop-ups are not shown. ${W.brands.some(b=>b.moved)?' ✱ marks a brand the author placed by hand, outside the price rule.':''} Bands by the women’s price rule at the cuts above${Object.keys(RENAME).length?' (band names as given by the author)':''}. Dials: tech and craft proposed by the reading threads, comfort and style authored at merge (provisional), fabric figures counted from the styles on each brand’s site. What is on the rack changes daily.</p>
@@ -515,7 +556,7 @@ document.getElementById('q').addEventListener('input',e=>{q=e.target.value.trim(
 let LIMIT=120;
 function renderIdx(){
   const rows=[];
-  for(const b of W.brands){ if(!matches(b)) continue; for(const s of b.stores){ if(q){const t=q.toLowerCase(); if(!(b.n.toLowerCase().includes(t)||s.c.toLowerCase().includes(t)||s.s.toLowerCase()===t||(ST[s.s]||'').toLowerCase().includes(t))) continue;} rows.push({b,s}); } }
+  for(const b of [...W.brands.filter(matches),...OTHER.filter(matchesO)]){ for(const s of b.stores){ if(q){const t=q.toLowerCase(); if(!(b.n.toLowerCase().includes(t)||s.c.toLowerCase().includes(t)||s.s.toLowerCase()===t||(ST[s.s]||'').toLowerCase().includes(t))) continue;} rows.push({b,s}); } }
   rows.sort((x,y)=>(NE.has(y.s.s)-NE.has(x.s.s))||(ST[x.s.s]||x.s.s).localeCompare(ST[y.s.s]||y.s.s)||x.s.c.localeCompare(y.s.c)||x.b.n.localeCompare(y.b.n));
   const host=document.getElementById('idx'); let st=''; let out='';
   rows.slice(0,LIMIT).forEach(({b,s})=>{ if(s.s!==st){st=s.s; out+=`<div class="state">${ST[st]||st}${NE.has(st)?' · Northeast':''} · ${rows.filter(r=>r.s.s===st).length}</div>`;}

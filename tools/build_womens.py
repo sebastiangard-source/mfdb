@@ -188,7 +188,25 @@ def main():
                 b['sg'] = r['segment']; b['sg2'] = '' if r['secondary'] == '-' else r['secondary']; b['sgc'] = r['confidence']; b['sgb'] = r['basis']
     brands.sort(key=lambda b: unicodedata.normalize('NFKD', b['n']).encode('ascii', 'ignore').decode().lower().lstrip('.'))  # alphabetical within each band
     nb = collections.Counter(b['band'] for b in brands)
-    data = {'built': datetime.date.today().isoformat(), 'brands': brands, 'ne': NE}
+    # Other brands (beauty, home, jewelry): store lists only, no tiers (Sebastian, 16 Oct 2026). Read by doors_bhj_2026-10-16.
+    other = []
+    wl = os.path.join(ROOT, 'jobs/briefs/doors_bhj_2026-10-16/worklist_brands.csv')
+    if os.path.exists(wl):
+        od = collections.defaultdict(list); counted = {}
+        for f in sorted(glob.glob(os.path.join(ROOT, 'jobs/returns/doors_bhj_2026-10-16/batch*/return_doors.csv'))):
+            for r in csv.DictReader(open(f, encoding='utf8')):
+                if r.get('format') == 'own-door' and r.get('status', 'open') == 'open':
+                    od[r['brand']].append({'sn': r.get('store_name', ''), 'a': r.get('street', ''), 'c': r.get('city', ''), 's': r.get('state', ''), 'z': clean(r.get('zip', '')), 'v': clean(r.get('venue', '')), 'op': clean(r.get('operator', ''))})
+        for f in sorted(glob.glob(os.path.join(ROOT, 'jobs/returns/doors_bhj_2026-10-16/batch*/return_counts.csv'))):
+            for r in csv.DictReader(open(f, encoding='utf8')):
+                counted[r['brand']] = r
+        for r in csv.DictReader(open(wl, encoding='utf8')):
+            n = r['brand']; st = od.get(n, []); c = counted.get(n)
+            own = len(st) if c else None
+            other.append({'n': n, 'cat': r['category'], 'own': own, 'stores': st, 'tier': tier(own) if own else '',
+                          'ne': sum(1 for x in st if x['s'] in NE), 'locator': (c or {}).get('locator_url', '') or '', 'read': (c or {}).get('captured_on', '') or '',
+                          'note': (c or {}).get('note', '') or ''})
+    data = {'built': datetime.date.today().isoformat(), 'brands': brands, 'other': other, 'ne': NE}
     tpl = open(os.path.join(ROOT, 'app/womens_template.html'), encoding='utf8').read()
     html = tpl.replace('/*__DATA__*/', 'const W = ' + json.dumps(data, ensure_ascii=False) + ';')
     os.makedirs(os.path.join(ROOT, 'dist'), exist_ok=True)
