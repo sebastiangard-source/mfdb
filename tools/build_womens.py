@@ -271,9 +271,14 @@ def main():
             for r in csv.DictReader(open(f, encoding='utf8')):
                 counted[r['brand']] = r
         for r in csv.DictReader(open(wl, encoding='utf8')):
-            n = r['brand']; st = od.get(n, []); c = counted.get(n)
+            n = r['brand']; c = counted.get(n)
+            seen_addr = set(); st = []
+            for x in od.get(n, []):                       # one door per address (Catbird's Wedding Annex is upstairs in Williamsburg)
+                key = (re.sub(r'\s*\(.*?\)', '', x['a'].lower().split(',')[0]).strip(), x['z'], x['c'].lower())
+                if key in seen_addr: continue
+                seen_addr.add(key); st.append(x)
             own = len(st) if c else None
-            other.append({'n': n, 'cat': r['category'], 'own': own, 'stores': st, 'tier': tier(own) if own else '',
+            other.append({'n': n, 'cat': r['category'], 'own': own, 'none': bool(c and (c.get('us_own_stores') or '').strip().upper() == 'NONE'), 'stores': st, 'tier': tier(own) if own else '',
                           'ne': sum(1 for x in st if x['s'] in NE), 'locator': (c or {}).get('locator_url', '') or '', 'read': (c or {}).get('captured_on', '') or '',
                           'note': (c or {}).get('note', '') or ''})
     for b in brands:

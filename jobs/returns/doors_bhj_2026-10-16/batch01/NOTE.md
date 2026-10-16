@@ -1,4 +1,6 @@
-# doors_bhj_2026-10-16 · batch 1 (pilot) · 16 Oct 2026
+# doors_bhj_2026-10-16 · batch 1 (pilot, revised) · 16 Oct 2026
+
+**Revised after review.** `return_counts.csv` now has `us_stockists`. Boucheron was re-read: the boutique count goes from 3 to 4, and 4 Boucheron-named Saks shops are added as concessions. Everything else is unchanged.
 
 Batch 1 is the ten high-jewelry houses. All ten locators were read in Chrome. `reconcile.py` returned 10 exact matches, 0 rewrites and 0 unmatched. For every brand, the rows in `return_doors.csv` match the counts in `return_counts.csv` (own, outlet and concession), and no cell is empty.
 
@@ -12,9 +14,9 @@ Batch 1 is the ten high-jewelry houses. All ten locators were read in Chrome. `r
 | Graff | 7 | 0 | 4 | 11 |
 | Chopard | 3 | 0 | 0 | 58 |
 | David Yurman | 49 | 4 | 7 | 60 |
-| Boucheron | 3 | 0 | 0 | 3 |
+| Boucheron | 4 | 0 | 4 | 14 |
 | Piaget | 5 | 0 | 2 | 26 |
-| **Total** | **246** | **4** | **20** | 270 door rows |
+| **Total** | **247** | **4** | **24** | 275 door rows |
 
 ## What was checked
 
@@ -22,11 +24,11 @@ Only the brand's own US locator was used for each brand; `return_counts.csv` giv
 
 ## What was not reached, or is weak
 
-- **Boucheron**: the count of 3 is what the locator returned with the "Boucheron boutique" filter while the map showed the whole US. No country list page exists, because the "All stores" link loops back to the same locator. Phone numbers sit on detail pages and were not read, so they are `NC`.
+- **Boucheron** (rechecked on review): the default map view hid the New York Madison Avenue boutique. The page carries every US store record, so all 14 were read from that and checked against searches centred on New York, Los Angeles and Miami. The result is 4 boutiques, 4 'Boucheron Saks' shops (concessions) and 6 stockists. The Bal Harbour boutique has no phone in its record.
 - **Van Cleef & Arpels, Aspen**: the store is listed, but its detail page renders empty. The row has the street name from the store name, with zip and phone `NC`.
 - **Bulgari, address line 2 dropped.** Bulgari's pages carry a "nearby stores" panel that uses the same CSS classes. Line 2 values repeated across unrelated stores (for example "Suite 2220" and "Suite 131A"), so they were not trustworthy. Line 1, which usually holds the suite, was kept.
 - **Bulgari phones**: two rows have phones that the locator itself duplicates (Palm Beach shares a number with two retailers, and Aventura shares Bal Harbour's). Both are flagged in `note`.
-- **Stockist counts** for the retailer layers of Harry Winston and David Yurman were not counted.
+- **Stockists** are now in `us_stockists`. Harry Winston and David Yurman are `NC`, because their retailer layers were not counted.
 
 ## What contradicts the existing record or the brief
 
@@ -39,7 +41,7 @@ Only the brand's own US locator was used for each brand; `return_counts.csv` giv
 
 ## What the brief got wrong, or should change before batch 2
 
-1. **There is no stockist column.** The brief asks for Rolex, Omega, TAG Heuer and the European furniture houses to count stockists "in `return_counts.csv`", but the template has no column for them. In this batch they are in `note`. Suggest adding `us_stockists` (with `NC` allowed) before batch 2, where Rolex and Omega will have hundreds.
+1. **Stockist column**: resolved. `us_stockists` has been added.
 2. **"Empty cell is an error" clashes with optional columns.** For street stores, `venue` is set to `street`. Where the brand runs the door, `operator` is `brand`. Where there is nothing to say, `note` is `none`. If you'd rather have these blank, they are easy to strip.
 3. **"Flagship"** appears in `note` only where the locator itself says "Flagship" (Tiffany, 6 rows). Nothing is inferred.
 4. **Phones** are normalised to `NNN-NNN-NNNN`.
