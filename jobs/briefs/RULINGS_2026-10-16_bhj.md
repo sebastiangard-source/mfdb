@@ -17,6 +17,7 @@
 ## Batch 7 and Le Labo (merged 16 October, v0.47)
 
 - **MAC and Charlotte Tilbury counters** ("MAC Cosmetics at Macy's", "CHARLOTTE TILBURY - SEPHORA") are concessions, counted and not returned as rows (MAC 2,978; Charlotte Tilbury 1,266). Own doors: MAC 84, Charlotte Tilbury 2.
-- **A hotel spa is not a store**, like a restaurant. Sisley Spa at The Dominick is dropped at merge. Proposed; Sebastian to confirm.
+- **A hotel spa is not a store**, like a restaurant. Sisley Spa at The Dominick is dropped at merge. Ruled by Sebastian, 16 October.
 - La Mer and Augustinus Bader `NONE`; Fresh `NC` (locator returns nothing, script error, no wall).
 - Le Labo read after Sebastian's link: 47 own doors.
+- **Counters are never rows, department stores included** (ruled by Sebastian, 16 October). A counter or shop-in-shop inside another store, even one the locator names as the brand's, is not returned as a row. Give its count in `us_concessions` only if the locator makes that easy; otherwise `NC`. Applies to doors_bhj and doors_tel from here on.

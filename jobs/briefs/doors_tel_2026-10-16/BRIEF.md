@@ -34,7 +34,7 @@ The same files as `doors_bhj`.
 
 - **The brand's own locator is the only source.** If it can't be read, the brand is `NC` and the block is named.
 - **An own door has the brand's name on the door.**
-  - A counter or shop-in-shop that the locator names as the brand's is a `concession`.
+  - A counter or shop-in-shop inside another store is never a row, even inside a department store and even when the locator names it as the brand's. Put its count in `us_concessions` if the locator makes that easy; otherwise `NC`.
   - A department-store or retailer door listed under the store's own name is a stockist, counted only.
   - Outlets are `outlet`.
   - A store marked opening or coming soon gets `status` = opening.
@@ -67,10 +67,10 @@ The same files as `doors_bhj`.
 **Bags and leather goods**
 
 - **Coach** has hundreds of full-price stores and many outlets: separate them. Coach Outlet is an outlet.
-- **Longchamp** has boutiques plus many department-store shops. Shops the locator names as Longchamp's own are concessions.
+- **Longchamp** has boutiques plus many department-store shops. Only the boutiques are rows; count the shops.
 - **Goyard and Moynat** have a few boutiques each. Goyard's US locations may be listed only on a boutiques page.
 - **Cuyana, Senreve and Polène** have a few showrooms or stores each.
-- **Mulberry, Strathberry and Smythson** are UK houses. Scope to US stores. Shops inside Bloomingdale's, Saks or Nordstrom are concessions if the locator names them as the brand's, otherwise stockists.
+- **Mulberry, Strathberry and Smythson** are UK houses. Scope to US stores. Shops inside Bloomingdale's, Saks or Nordstrom are not rows; count them.
 
 ## Order and time box
 
