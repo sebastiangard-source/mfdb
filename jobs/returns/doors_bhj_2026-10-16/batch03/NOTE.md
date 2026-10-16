@@ -1,4 +1,6 @@
-# doors_bhj_2026-10-16 · batch 3 · 16 Oct 2026
+# doors_bhj_2026-10-16 · batch 3 · 16 Oct 2026 (revised)
+
+**Rulings applied (16 Oct).** The Arhaus Loft stores stay own-door. RH Interior Design Palm Desert is own-door. Aurate stays `NC`, with the note saying the site has no store finder. RH is still held; see batch 4 NOTE.
 
 Batch 3 is the last five fine-jewelry brands and the first five home brands. `reconcile.py` returned 10 exact matches, 0 rewrites and 0 unmatched. For every brand except RH (held, see below), the rows in `return_doors.csv` match its counts in `return_counts.csv`. No cell is empty, and no two stores of the same brand share a street and ZIP.
 

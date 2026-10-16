@@ -9,3 +9,4 @@
 - visvim craft 5 (Sebastian, 16 Oct): the construction is the product; the Dissertation pages document the brand's own making and name its mills. Men's map v3.58.3.
 - Batch 3 merged (fine jewelry, first five home brands). RH held at a slider check (7 of 66 galleries filed; shown as still counting). Aurate has no locator on its own site: NC, still counting.
 - Open for ruling: RH Interior Design (Palm Desert) as an own door; Arhaus "The Loft" (9) own-door or outlet.
+- Batch 4 merged (rest of home, B&B Italia pulled forward). Poltrona Frau "Branded Space" areas inside dealers' showrooms: concessions, as filed. Design Within Reach's Herman Miller and Knoll partner stores: stockists. RH still held.
