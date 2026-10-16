@@ -166,7 +166,7 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
     <h1>The Cyprus <span class="thin">Brand Set</span></h1>
     <p class="lede">Every brand with a full-price store of its own in the US: the women’s brands, the brands that sell to both, and the men’s-only houses. Placed by price band and shown with their stores, counted from the brands’ own locators.</p>
   </div>
-  <div class="stamp"><b>v0.22 · <span id="built"></span></b>stores counted from the brands’ own locators · bands on blouse and sweater (shirt and sweater for men’s-only and crossover brands)</div>
+  <div class="stamp"><b>v0.23 · <span id="built"></span></b>stores counted from the brands’ own locators · bands on blouse and sweater (shirt and sweater for men’s-only and crossover brands)</div>
 </header>
 
 <div class="layout">
@@ -212,7 +212,7 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
 
 
 <div id="bands"></div>
-<p class="legend">Band by price rule: <span style="background:var(--basic)"></span>Basic <span style="background:var(--premium)"></span>Premium <span style="background:var(--accessible)"></span>Accessible <span style="background:var(--trueLux)"></span>True Luxury. An outlined chip is a brand from the men’s map, banded on its men’s range; one tagged MEN’S sells no women’s clothing.</p>
+<p class="legend">Band by price rule: <span style="background:var(--basic)"></span>Basic <span style="background:var(--premium)"></span>Premium <span style="background:var(--accessible)"></span>Accessible <span style="background:var(--trueLux)"></span>True Luxury.</p>
 
 
 </div>
@@ -272,7 +272,7 @@ function renderBands(){
     const vis=all.filter(matches); shown+=vis.length; stores+=vis.reduce((n,b)=>n+b.own,0);
     const sec=document.createElement('section'); sec.className='band '+band.split(' ')[0]; sec.dataset.band=band;
     sec.innerHTML=`<h2>${esc(bandName(band))}<small>${vis.length} of ${all.length} brands · ${vis.reduce((n,b)=>n+b.own,0).toLocaleString()} stores</small></h2><p class="def">${DEF[band]}</p><div class="grid">`+
-      all.map(b=>`<button class="b${b.src==='men'?' men':''}${b.moved?' moved':''}${matches(b)?'':' out'}" draggable="true" data-n="${esc(b.n)}"${b.moved?` title="moved by hand; the price rule says ${esc(bandName(b.rule))}"`:''}><span class="n">${esc(b.n)}</span>${b.mo?'<span class="mtag">men’s</span>':''}<span class="c">${b.own}</span></button>`).join('')+'</div>';
+      all.map(b=>`<button class="b${b.moved?' moved':''}${matches(b)?'':' out'}" draggable="true" data-n="${esc(b.n)}"${b.moved?` title="moved by hand; the price rule says ${esc(bandName(b.rule))}"`:''}><span class="n">${esc(b.n)}</span><span class="c">${b.own}</span></button>`).join('')+'</div>';
     host.appendChild(sec);
   }
   document.querySelectorAll('.segchips .chip').forEach(c=>{const k=c.dataset.sg; const keep=SG_ON; SG_ON=new Set(); const n=W.brands.filter(b=>b.sg===k&&matches(b)).length; SG_ON=keep; c.querySelector('.cn').textContent=n;});
@@ -311,7 +311,7 @@ function openBrand(n){
   const dials=(b.f||b.fa)?`<h3>Dials</h3>${focusRows?`<div class="notes">${focusRows}</div>`:''}${fabRows?`<h4>Fabric</h4><div class="notes">${fabRows}</div>`:''}${b.fi?`<p class="muted" style="font-size:12px;margin:4px 0 14px">${esc(b.fi)}</p>`:''}`:'';
   document.getElementById('pbody').innerHTML=`
     <h2>${esc(b.n)}</h2>
-    <span class="pill ${b.band.split(' ')[0]}">${esc(bandName(b.band))}${b.moved?' · moved':''}</span>${b.mo?'<span class="pill">men’s only</span>':(b.src==='men'?'<span class="pill">men’s and women’s</span>':'')}
+    <span class="pill ${b.band.split(' ')[0]}">${esc(bandName(b.band))}${b.moved?' · moved':''}</span>
     ${b.sg?`<p class="basis" style="margin-bottom:4px"><b style="color:var(--ink)">${esc(b.sg)}</b>${b.sg2?` · also ${esc(b.sg2)}`:''}${b.sgc&&b.sgc!=='high'?` <span class="muted">(${esc(b.sgc)} confidence, provisional)</span>`:''}</p>`:''}
     <p class="basis">${esc(b.basis)}</p>
     ${b.moved?`<p class="movenote">Moved by hand to ${esc(bandName(b.band))} on this page. The price rule puts it in ${esc(bandName(b.rule))}.</p>`:''}
@@ -397,7 +397,7 @@ function publishPage(){
   const DN={tech:'tech',comfort:'comfort',craft:'craft',style:'style'};
   const brandRow=b=>{const a=b.about||{}; const d=b.f?Object.entries(DN).filter(([k])=>b.f[k]!=null).map(([k,l])=>`${l} ${b.f[k]}`).join(' · '):'';
     const fab=b.fa?[b.cf!=null?`natural or lyocell ${b.cf}`:'',b.nat!=null?`natural ${b.nat}`:'',...['cotton','silk','wool','cashmere','linen','denim','synth'].filter(k=>b.fa[k]!=null&&b.fa[k]>=3).map(k=>`${k==='synth'?'synthetic':k} ${b.fa[k]}`)].filter(Boolean).join(' · '):'';
-    return `<div class="br"><div class="bh"><b>${esc(b.n)}${b.moved?` <sup>✱ moved from ${esc(bandName(b.rule))}</sup>`:''}</b><span>${b.own} store${b.own===1?'':'s'}${b.ne?` · ${b.ne} Northeast`:''}${b.mo?' · men’s only':(b.src==='men'?' · men’s and women’s':'')}</span></div>${b.sg?`<p class="dl">${esc(b.sg)}${b.sg2?' · also '+esc(b.sg2):''}</p>`:''}${a.sells?`<p>${esc(a.sells)}</p>`:''}${d||fab?`<p class="dl">${[d,fab].filter(Boolean).join(' — ')}</p>`:''}</div>`;};
+    return `<div class="br"><div class="bh"><b>${esc(b.n)}${b.moved?` <sup>✱ moved from ${esc(bandName(b.rule))}</sup>`:''}</b><span>${b.own} store${b.own===1?'':'s'}${b.ne?` · ${b.ne} Northeast`:''}</span></div>${b.sg?`<p class="dl">${esc(b.sg)}${b.sg2?' · also '+esc(b.sg2):''}</p>`:''}${a.sells?`<p>${esc(a.sells)}</p>`:''}${d||fab?`<p class="dl">${[d,fab].filter(Boolean).join(' — ')}</p>`:''}</div>`;};
   const byState={}; for(const b of vis) for(const s of b.stores){(byState[s.s]=byState[s.s]||[]).push({b,s});}
   const states=Object.keys(byState).sort((a,c)=>(NE.has(c)-NE.has(a))||(byState[c].length-byState[a].length)||a.localeCompare(c));
   const idx=states.map(st=>`<h3>${esc(ST[st]||st)}${NE.has(st)?' · Northeast':''} <small>${byState[st].length}</small></h3><ul>`+byState[st].sort((x,y)=>x.s.c.localeCompare(y.s.c)||x.b.n.localeCompare(y.b.n)).map(({b,s})=>`<li><b>${esc(b.n)}</b>${s.sn&&s.sn.toLowerCase()!==b.n.toLowerCase()?' · '+esc(s.sn):''}<span>${esc([s.a,s.c,s.s,s.z].filter(Boolean).join(', '))}</span> <a href="${mapUrl(s)}" target="_blank" rel="noopener">map ↗</a></li>`).join('')+'</ul>').join('');
@@ -412,10 +412,10 @@ function publishPage(){
   const html=`<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${esc(title)}</title><link href="https://fonts.googleapis.com/css2?family=Prata&family=Playfair+Display&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"><style>${css}</style></head><body>
 <h1>${esc(title)}</h1>${note?`<p class="lede">${esc(note)}</p>`:''}<p class="meta">${vis.length} brands · ${stores.toLocaleString()} full-price brand-owned US stores · from The Cyprus Brand Set ${esc(((document.querySelector('.stamp b')||{}).textContent||'').split(' · ')[0])}, published ${new Date().toLocaleDateString('en-US',{day:'numeric',month:'long',year:'numeric'})}</p>
 <div class="filt"><b>Filters:</b> ${esc(describeState())}</div>
-${byBand.map(([band,list])=>`<h2>${esc(bandName(band))}<small>${list.length} brand${list.length===1?'':'s'} · ${list.reduce((n,b)=>n+b.own,0).toLocaleString()} stores</small></h2><p class="def">${esc(DEF[band])}</p><p class="run">${list.map(b=>`<span class="bn${b.src==='men'?' men':''}"><b>${esc(b.n)}</b>${b.mo?' (m)':''}${b.moved?'<sup title="placed by hand">✱</sup>':''} ${b.own}</span>`).join('')}</p>`).join('')}
+${byBand.map(([band,list])=>`<h2>${esc(bandName(band))}<small>${list.length} brand${list.length===1?'':'s'} · ${list.reduce((n,b)=>n+b.own,0).toLocaleString()} stores</small></h2><p class="def">${esc(DEF[band])}</p><p class="run">${list.map(b=>`<span class="bn"><b>${esc(b.n)}</b>${b.moved?'<sup title="placed by hand">✱</sup>':''} ${b.own}</span>`).join('')}</p>`).join('')}
 <details class="more"><summary>Brand by brand — what each sells, with its dials</summary>${byBand.map(([band,list])=>`<h2>${esc(bandName(band))}</h2>${list.map(brandRow).join('')}`).join('')}</details>
 <details class="more"><summary>Stores — ${stores.toLocaleString()} across ${states.length} states, Northeast first</summary><div class="idx">${idx}</div></details>
-<p class="cav">Full-price, brand-owned stores from each brand’s own locator; outlets, concessions and pop-ups are not shown. An italic name sells men’s (men’s only or both); a name marked (m) is men’s only.${W.brands.some(b=>b.moved)?' ✱ marks a brand the author placed by hand, outside the price rule.':''} Bands by the women’s price rule at the cuts above${Object.keys(RENAME).length?' (band names as given by the author)':''}. Dials: tech and craft proposed by the reading threads, comfort and style authored at merge (provisional), fabric figures counted from the styles on each brand’s site. What is on the rack changes daily.</p>
+<p class="cav">Full-price, brand-owned stores from each brand’s own locator; outlets, concessions and pop-ups are not shown. ${W.brands.some(b=>b.moved)?' ✱ marks a brand the author placed by hand, outside the price rule.':''} Bands by the women’s price rule at the cuts above${Object.keys(RENAME).length?' (band names as given by the author)':''}. Dials: tech and craft proposed by the reading threads, comfort and style authored at merge (provisional), fabric figures counted from the styles on each brand’s site. What is on the rack changes daily.</p>
 </body></html>`;
   showPublished(html,title,vis.length);
 }
