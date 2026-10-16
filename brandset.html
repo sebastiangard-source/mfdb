@@ -201,7 +201,7 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
     <h1>The Cyprus <span class="thin">Brand Set</span></h1>
     <p class="lede">Every brand with a full-price store of its own in the US: the women’s brands, the brands that sell to both, and the men’s-only houses. Placed in four price tiers and shown with their stores, counted from the brands’ own locators.</p>
   </div>
-  <div class="stamp"><b>v0.30 · <span id="built"></span></b>stores counted from the brands’ own locators · tiers on blouse and sweater (shirt and sweater where the women’s price is not yet read)</div>
+  <div class="stamp"><b>v0.31 · <span id="built"></span></b>stores counted from the brands’ own locators · tiers on blouse and sweater (shirt and sweater where the women’s price is not yet read)</div>
 </header>
 
 <div class="layout">
@@ -234,12 +234,11 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
   <span class="hint">Moves every brand tiered on a blouse-and-sweater mean, crossovers included. Tier 1 and hand-set brands stay put. Drag a brand into another tier to place it by hand (or use “Move to” in its panel); moved brands are marked and stay put when the cuts change.</span>
 </div>
 <div class="dials" id="dials">
-  <span class="lbl tt" data-tip="Show only brands scoring at least the set figure. A brand not yet read for a dial fails that dial." tabindex="0">Fashion focus</span>
+  <span class="lbl tt" data-tip="Show only brands scoring at least the set figure." tabindex="0">Fashion focus</span>
   <label data-k="f.tech"><span class="tt" data-tip="How technical the clothes are — performance fabrics, engineered construction, measurable function. Scored on what the brand sells, not on who invented it. Read from the brand's named fabrics and their share of the range." tabindex="0">tech <b>off</b></span><input type="range" min="0" max="5" value="0"></label>
   <label data-k="f.comfort"><span class="tt" data-tip="How central softness and physical ease are to what the brand sells — fiber, stretch, drape, wash. Authored at merge from the range, prices and fibre evidence; provisional." tabindex="0">comfort <b>off</b></span><input type="range" min="0" max="5" value="0"></label>
   <label data-k="f.craft"><span class="tt" data-tip="How much of the making can be verified — who makes it, where, and for how long. Owned factories, named mills and documented process score; a hangtag does not. Proposed by the reading thread under the craft rubric." tabindex="0">craft <b>off</b></span><input type="range" min="0" max="5" value="0"></label>
   <label data-k="f.style"><span class="tt" data-tip="How much the brand trades on a design point of view and fashion influence rather than perfected basics. 1 a plain chino, 5 the runway. Authored at merge; provisional." tabindex="0">style <b>off</b></span><input type="range" min="0" max="5" value="0"></label>
-  <span class="hint" id="dialhint">A brand not yet read for a dial fails that dial. <span id="dialcov"></span></span>
   <button class="chip" id="dreset">clear dials</button>
 </div>
 <p class="count" id="count"></p>
@@ -444,7 +443,6 @@ document.getElementById('creset').onclick=()=>{document.getElementById('c1').val
 document.querySelectorAll('#dials label').forEach(l=>{const i=l.querySelector('input'),bb=l.querySelector('b');
   i.addEventListener('input',()=>{const v=+i.value; DIAL[l.dataset.k]=v; bb.textContent=v?('≥ '+v):'off'; l.classList.toggle('on',!!v); renderBands(); renderIdx();});});
 document.getElementById('dreset').onclick=()=>{document.querySelectorAll('#dials label').forEach(l=>{l.querySelector('input').value=0; l.querySelector('b').textContent='off'; l.classList.remove('on');}); for(const k in DIAL) DIAL[k]=0; renderBands(); renderIdx();};
-(()=>{const n=W.brands.filter(b=>b.f).length; document.getElementById('dialcov').textContent=`Dials read for ${n} of ${W.brands.length} brands so far.`;})();
 // Help: each labelled control carries a small "?" that opens its explanation on click (not on hover).
 (()=>{const tip=document.getElementById('tip'); let cur=null, pinned=false;
   const place=el=>{const r=el.getBoundingClientRect(); tip.style.left='0px'; tip.style.top='0px'; const w=tip.offsetWidth,hh=tip.offsetHeight;
