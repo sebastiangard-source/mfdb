@@ -117,6 +117,11 @@ h1 .thin{color:var(--ink-faint)}
 #pubFrame{flex:1;border:0;width:100%;background:var(--cream)}
 .pub .lbl{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint)}
 .pub input{padding:8px 12px;border:1px solid var(--hairline);border-radius:999px;background:#fff;font:inherit;font-size:13px;color:var(--ink)}
+.imp{display:flex;flex-direction:column;gap:8px}
+.imp summary{cursor:pointer;list-style:none}.imp summary::-webkit-details-marker{display:none}
+.imp summary::after{content:" ›"}.imp[open] summary::after{content:" ⌄"}
+.imp[open]{display:flex}.imp textarea{width:100%;min-width:0;padding:8px 12px;border:1px solid var(--hairline);border-radius:10px;background:#fff;font:inherit;font-size:12.5px;color:var(--ink);resize:vertical}
+.imp .chip{width:100%;text-align:center}.impfile{cursor:pointer;display:block}
 .pub .hint{font-size:11.5px;color:var(--ink-faint);line-height:1.4}
 .renames{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:6px}
 .renames input{padding:6px 10px;font-size:12px;border-radius:8px;width:100%;min-width:0}
@@ -201,7 +206,7 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
     <h1>The Cyprus <span class="thin">Brand Set</span></h1>
     <p class="lede">Every fashion brand with its own full-price stores in the US, sorted into four price tiers, with every store listed.</p>
   </div>
-  <div class="stamp"><b>v0.32 · <span id="built"></span></b>Store lists from each brand’s own website. Tiers set by the starting price of a blouse and a sweater.</div>
+  <div class="stamp"><b>v0.33 · <span id="built"></span></b>Store lists from each brand’s own website. Tiers set by the starting price of a blouse and a sweater.</div>
 </header>
 
 <div class="layout">
@@ -217,6 +222,13 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
   </div>
   <div class="chips"><button class="chip on" id="pubGo">publish</button></div>
   <span class="hint" id="pubHint"></span>
+  <details class="imp"><summary class="lbl">Import a view</summary>
+    <span class="hint">Paste a published page or its text, or open a saved page. You’ll see the same brands, tiers and filters.</span>
+    <textarea id="impText" rows="4" placeholder="Paste here"></textarea>
+    <label class="chip impfile">choose a file<input id="impFile" type="file" accept=".html,.htm,.txt,text/html,text/plain" hidden></label>
+    <button class="chip on" id="impGo">import</button>
+    <span class="hint" id="impHint"></span>
+  </details>
 </div>
 <div class="controls">
   <input id="q" type="search" placeholder="Brand, town or state">
@@ -483,6 +495,22 @@ function applyState(s){try{
   for(const k in RENAME) delete RENAME[k]; Object.assign(RENAME,s.r||{}); document.querySelectorAll('.renames input').forEach(i=>i.value=RENAME[i.dataset.band]||'');
   for(const k in DIAL) DIAL[k]=0; document.querySelectorAll('#dials label').forEach(l=>{const v=(s.d||{})[l.dataset.k]||0; DIAL[l.dataset.k]=v; l.querySelector('input').value=v; l.querySelector('b').textContent=v?('≥ '+v):'off'; l.classList.toggle('on',!!v);});
   renderBands(); renderIdx();}catch(e){}}
+// A view travels as a code: CBSVIEW: plus the view as base64 JSON. Published pages carry it twice,
+// as a data block for files and as a line of text for anything pasted.
+const encView=()=>'CBSVIEW:'+btoa(unescape(encodeURIComponent(JSON.stringify(Object.assign(stateObj(),{ti:document.getElementById('pubTitle').value,no:document.getElementById('pubNote').value})))));
+function decView(txt){txt=String(txt||'');
+  let m=txt.match(/<script[^>]*id=["']cbs-view["'][^>]*>([\s\S]*?)<\/script>/i); if(m){try{return JSON.parse(m[1]);}catch(e){}}
+  m=txt.match(/CBSVIEW:([A-Za-z0-9+\/=]+)/); if(m){try{return JSON.parse(decodeURIComponent(escape(atob(m[1]))));}catch(e){}}
+  m=txt.match(/#v=([A-Za-z0-9%+\/=]+)/); if(m){try{return JSON.parse(decodeURIComponent(escape(atob(decodeURIComponent(m[1])))));}catch(e){}}
+  return null;}
+function importView(txt){const v=decView(txt); const h=document.getElementById('impHint');
+  if(!v||typeof v!=='object'){h.textContent='No view found in that. Paste a whole published page, or the text copied from one.'; return;}
+  applyState(Object.assign({t:[],sg:[],hd:[],q:'',d:{},r:{},mv:{}},v));
+  document.getElementById('pubTitle').value=v.ti||''; document.getElementById('pubNote').value=v.no||'';
+  const bits=[]; if((v.hd||[]).length) bits.push(`${v.hd.length} removed`); if(Object.keys(v.mv||{}).length) bits.push(`${Object.keys(v.mv).length} moved`);
+  h.textContent=`Imported${v.ti?` “${v.ti}”`:''}${bits.length?` (${bits.join(', ')})`:''}.`; document.getElementById('impText').value='';}
+document.getElementById('impGo').onclick=()=>importView(document.getElementById('impText').value);
+document.getElementById('impFile').onchange=e=>{const f=e.target.files&&e.target.files[0]; if(!f) return; const r=new FileReader(); r.onload=()=>importView(r.result); r.readAsText(f); e.target.value='';};
 function stateToHash(){return '#v='+encodeURIComponent(btoa(unescape(encodeURIComponent(JSON.stringify(stateObj())))));}
 function hashToState(){const m=location.hash.match(/^#v=(.+)$/); if(!m) return null; try{return JSON.parse(decodeURIComponent(escape(atob(decodeURIComponent(m[1])))));}catch(e){return null;}}
 // ---- publish: a page of its own for the brands that pass ----
@@ -515,6 +543,7 @@ ${(()=>{const ov=OTHER.filter(o=>matchesO(o)&&o.own); if(!ov.length) return ''; 
 <details class="more"><summary>Brand by brand</summary>${byBand.map(([band,list])=>`<h2>${esc(bandName(band))}</h2>${list.map(brandRow).join('')}`).join('')}</details>
 <details class="more"><summary>${stores.toLocaleString()} stores in ${states.length} states</summary><div class="idx">${idx}</div></details>
 <p class="cav">Store lists from each brand’s own website. Tiers set by the starting price of a blouse and a sweater.${W.brands.some(b=>b.moved)?' ✱ marks a brand placed by hand.':''}${Object.keys(RENAME).length?' Tier names chosen by the author.':''}</p>
+<p class="cav" style="margin-top:10px;word-break:break-all;font-size:10px;opacity:.7">To open this view in the Brand Set, use Import a view and paste this page. ${encView()}</p><script type="application/json" id="cbs-view">${JSON.stringify(Object.assign(stateObj(),{ti:title,no:note})).replace(/</g,'\\u003c')}<\/script>
 </body></html>`;
   showPublished(html,title,vis.length);
 }
@@ -549,6 +578,7 @@ function emailText(){
     lines.push(`${bandName(band).toUpperCase()}: ${l.length} brand${l.length===1?'':'s'}, ${l.reduce((n,b)=>n+b.own,0).toLocaleString()} stores`);
     lines.push(l.map(b=>`${b.n} (${b.own})`).join(', ')); lines.push('');}
   lines.push('Store lists from each brand’s own website. From The Cyprus Brand Set, '+new Date().toLocaleDateString('en-US',{day:'numeric',month:'long',year:'numeric'})+'.');
+  lines.push('', encView());
   return {subject:title,body:lines.filter(x=>x!==null).join('\n')};
 }
 document.getElementById('q').addEventListener('input',e=>{q=e.target.value.trim(); renderBands(); renderIdx();});
