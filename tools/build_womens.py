@@ -260,14 +260,15 @@ def main():
     nb = collections.Counter(b['band'] for b in brands)
     # Other brands (beauty, home, jewelry): store lists only, no tiers (Sebastian, 16 Oct 2026). Read by doors_bhj_2026-10-16.
     other = []
-    wl = os.path.join(ROOT, 'jobs/briefs/doors_bhj_2026-10-16/worklist_brands.csv')
-    if os.path.exists(wl):
+    for job in ('doors_bhj_2026-10-16', 'doors_tel_2026-10-16'):
+      wl = os.path.join(ROOT, f'jobs/briefs/{job}/worklist_brands.csv')
+      if os.path.exists(wl):
         od = collections.defaultdict(list); counted = {}
-        for f in sorted(glob.glob(os.path.join(ROOT, 'jobs/returns/doors_bhj_2026-10-16/batch*/return_doors.csv'))):
+        for f in sorted(glob.glob(os.path.join(ROOT, f'jobs/returns/{job}/batch*/return_doors.csv'))):
             for r in csv.DictReader(open(f, encoding='utf8')):
                 if r.get('format') == 'own-door' and r.get('status', 'open') == 'open':
                     od[r['brand']].append({'sn': r.get('store_name', ''), 'a': clean(r.get('street', '')), 'c': r.get('city', ''), 's': r.get('state', ''), 'z': clean(r.get('zip', '')), 'v': clean(r.get('venue', '')), 'op': clean(r.get('operator', '')), 'ph': re.sub(r'\D', '', r.get('phone', '') or '')})
-        for f in sorted(glob.glob(os.path.join(ROOT, 'jobs/returns/doors_bhj_2026-10-16/batch*/return_counts.csv'))):
+        for f in sorted(glob.glob(os.path.join(ROOT, f'jobs/returns/{job}/batch*/return_counts.csv'))):
             for r in csv.DictReader(open(f, encoding='utf8')):
                 counted[r['brand']] = r
         for r in csv.DictReader(open(wl, encoding='utf8')):
