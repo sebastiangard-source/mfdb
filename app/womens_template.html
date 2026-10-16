@@ -231,7 +231,7 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
     <h1>The Cyprus <span class="thin">Brand Set</span></h1>
     <p class="lede">Every fashion brand with its own full-price stores in the US, sorted into four price tiers, with every store listed.</p>
   </div>
-  <div class="stamp"><b>v0.48 · <span id="built"></span></b>Store lists from each brand’s own website. Tiers set by the starting price of a blouse and a sweater.</div>
+  <div class="stamp"><b>v0.49 · <span id="built"></span></b>Store lists from each brand’s own website. Tiers set by the starting price of a blouse and a sweater.</div>
 </header>
 
 <div class="layout">
@@ -245,7 +245,7 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
     <input data-band="Basic" type="text" placeholder="Tier 1" maxlength="40"><input data-band="Premium" type="text" placeholder="Tier 2" maxlength="40">
     <input data-band="Accessible" type="text" placeholder="Tier 3" maxlength="40"><input data-band="True Luxury" type="text" placeholder="Tier 4" maxlength="40">
   </div>
-  <div class="chips"><button class="chip on" id="pubGo">publish</button></div>
+  <div class="chips"><button class="chip on" id="pubGo">publish</button><button class="chip" id="xlsGo" title="Download the brands and stores in this view as an Excel workbook">Excel</button></div>
   <span class="hint" id="pubHint"></span>
   <details class="imp"><summary class="lbl">Import a view</summary>
     <textarea id="impText" rows="2" placeholder="Paste a published page or its text"></textarea>
@@ -613,8 +613,9 @@ let PUB={html:'',title:''};
 function showPublished(html,title,n){
   PUB={html,title};
   let v=document.getElementById('pubView');
-  if(!v){v=document.createElement('div'); v.id='pubView'; v.innerHTML=`<div class="pubbar"><button class="chip" id="pubBack">← back to the Brand Set</button><span id="pubTitleBar"></span><span class="sp"></span><button class="chip on" id="pubCopyHtml">copy</button></div><iframe id="pubFrame" title="Published view"></iframe>`; document.body.appendChild(v);
+  if(!v){v=document.createElement('div'); v.id='pubView'; v.innerHTML=`<div class="pubbar"><button class="chip" id="pubBack">← back to the Brand Set</button><span id="pubTitleBar"></span><span class="sp"></span><button class="chip" id="pubXls">Excel</button><button class="chip on" id="pubCopyHtml">copy</button></div><iframe id="pubFrame" title="Published view"></iframe>`; document.body.appendChild(v);
     document.getElementById('pubBack').onclick=()=>{v.classList.remove('show'); document.body.style.overflow='';};
+    document.getElementById('pubXls').onclick=e=>exportXlsx(e.currentTarget,m=>{document.getElementById('pubTitleBar').textContent=PUB.title+' · '+m;});
     document.getElementById('pubCopyHtml').onclick=async()=>{const bar=document.getElementById('pubTitleBar');
       const doc=document.getElementById('pubFrame').contentDocument; const body=doc&&doc.body?doc.body.cloneNode(true):null; if(!body){bar.textContent=PUB.title+' · nothing to copy'; return;}
       body.querySelectorAll('details').forEach(d=>d.remove());  // the dense list only; detail and stores stay on the page
@@ -631,6 +632,37 @@ function showPublished(html,title,n){
   document.getElementById('pubHint').textContent='Done. Use Back to return.';
 }
 document.getElementById('pubGo').onclick=publishPage;
+// ---- Excel: the brands and stores in this view, as a workbook ----
+let XLSX_P=null;
+function loadXlsx(){ if(window.XLSX) return Promise.resolve(window.XLSX);
+  return XLSX_P||(XLSX_P=new Promise((ok,no)=>{const sc=document.createElement('script'); sc.src='https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js'; sc.onload=()=>ok(window.XLSX); sc.onerror=()=>{XLSX_P=null; no(new Error('load'));}; document.head.appendChild(sc);}));}
+function xlsxBook(X){
+  const title=(document.getElementById('pubTitle').value||'A view of the Cyprus Brand Set').trim();
+  const vis=W.brands.filter(matches), ov=OTHER.filter(o=>matchesO(o));
+  const bandsSorted=ORDER.flatMap(band=>vis.filter(b=>b.band===band).sort(byOrder));
+  const brands=[['Tier','Brand','US stores','Segment','Placed by hand']].concat(bandsSorted.map(b=>[bandName(b.band),b.n,b.own,b.sg||'',b.moved?'yes':'']));
+  ov.forEach(o=>brands.push(['Other brands: '+(CATN[o.cat]||o.cat),o.n,o.own==null?'counting':o.none?0:o.own,'','']));
+  const rows=[['Brand','Tier','Store','Street','City','State','ZIP','Region','Shopping district']];
+  const add=(name,tier,st)=>st.forEach(x=>rows.push([name,tier,x.sn||'',x.a||'',x.c||'',x.s||'',x.z||'',REG_OF[x.s]||'',district(x)]));
+  bandsSorted.forEach(b=>add(b.n,bandName(b.band),b.stores)); ov.forEach(o=>add(o.n,'Other brands',o.stores||[]));
+  const nStores=bandsSorted.reduce((n,b)=>n+b.own,0)+ov.reduce((n,o)=>n+(o.own||0),0);
+  const about=[[title],[],['Brands',bandsSorted.length+ov.length],['US stores',nStores],['Filters',describeState()],['From','The Cyprus Brand Set '+(((document.querySelector('.stamp b')||{}).textContent||'').split(' · ')[0])],['Exported',new Date().toLocaleDateString('en-US',{day:'numeric',month:'long',year:'numeric'})],[],['Store lists from each brand’s own website. Tiers set by the starting price of a blouse and a sweater.']];
+  const wb=X.utils.book_new();
+  const sh=(aoa,w)=>{const ws=X.utils.aoa_to_sheet(aoa); ws['!cols']=w.map(n=>({wch:n})); return ws;};
+  const wsB=sh(brands,[26,28,10,26,14]); wsB['!autofilter']={ref:'A1:E'+brands.length};
+  const wsS=sh(rows,[26,10,34,36,18,7,8,10,30]); wsS['!autofilter']={ref:'A1:I'+rows.length};
+  X.utils.book_append_sheet(wb,sh(about,[14,90]),'View'); X.utils.book_append_sheet(wb,wsB,'Brands'); X.utils.book_append_sheet(wb,wsS,'Stores');
+  const fn=(title.replace(/[^\w\- ]+/g,'').trim().replace(/\s+/g,' ')||'Cyprus Brand Set')+'.xlsx';
+  return {data:new Uint8Array(X.write(wb,{bookType:'xlsx',type:'array'})),fn};}
+async function exportXlsx(btn,say){
+  const lab=btn.textContent; btn.disabled=true; btn.textContent='preparing…';
+  try{ const X=await loadXlsx(); const {data,fn}=xlsxBook(X);
+    let dl=null; try{ if(window.claude&&claude.use) dl=await claude.use('downloads'); }catch(e){}
+    if(dl){ try{ await dl.save({filename:fn,data:new Blob([data],{type:'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'})}); say(fn+' saved'); }catch(e){ say(e&&e.code==='declined'?'Download cancelled':'Couldn’t save the file here'); } }
+    else { const u=URL.createObjectURL(new Blob([data],{type:'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'})); const a=document.createElement('a'); a.href=u; a.download=fn; document.body.appendChild(a); a.click(); a.remove(); setTimeout(()=>URL.revokeObjectURL(u),4000); say(fn+' downloaded'); } }
+  catch(e){ say('Couldn’t build the Excel file. Check your connection and try again.'); }
+  finally{ btn.disabled=false; btn.textContent=lab; } }
+document.getElementById('xlsGo').onclick=e=>exportXlsx(e.currentTarget,m=>{document.getElementById('pubHint').textContent=m;});
 document.querySelectorAll('.renames input').forEach(i=>i.addEventListener('input',()=>{const v=i.value.trim(); if(v) RENAME[i.dataset.band]=v; else delete RENAME[i.dataset.band]; renderBands();}));
 // ---- email: a compact plain-text draft of the same view ----
 function emailText(){
