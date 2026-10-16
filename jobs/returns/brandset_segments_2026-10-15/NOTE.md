@@ -35,7 +35,7 @@ A proposal, not on the map. Written by the Spectrum thread from the records; not
    - Classic & career (11) into Mainstream contemporary.
    - Modern minimal (19) and Fashion insider (28) are close, but they are different markets for women. Modern minimal is the plain end: The Row, Khaite, TOTEME, Theory. Fashion insider is the designer-with-a-view end: Ganni, A.P.C., Acne.
 2. **Category segments.** Intimates, lounge & swim and Shoes & accessories houses are categories, not styles. They are kept because a style label would be wrong for SKIMS or Manolo Blahnik. Swim sold as resort fashion (Agua Bendita, ViX, Vilebrequin) went to Resort & boho, not Intimates.
-3. **Chanel is Loud luxury,** on the interlocking CC, with Runway houses as the secondary. Gucci and Louis Vuitton are in Loud luxury on the men's map. Runway would also be defensible.
+3. **Chanel is Signature luxury,** on the interlocking CC, with Runway houses as the secondary. Gucci and Louis Vuitton are in Signature luxury on the men's map. Runway would also be defensible.
 4. **Runway houses vs Occasion & evening:**
    - Carolina Herrera and Oscar de la Renta went to Runway houses, with Occasion & evening as the secondary.
    - Elie Saab and Monique Lhuillier went to Occasion & evening.

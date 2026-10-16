@@ -7,7 +7,7 @@ Twenty-three segments for 420 brands. The first fifteen are the men's map's segm
 | 1 | Avant-garde designers | Conceptual designer clothes: odd shapes, deliberate strangeness |  | 14 | Prada, Balenciaga, Loewe, Thom Browne, Marni, Maison Margiela |
 | 2 | Hype & drop culture | Streetwear with heat: limited drops, lines, resale |  | 18 | Golden Goose, Amiri, Kith, A Bathing Ape, Madhappy, Supreme |
 | 3 | Street & sport culture | Sneakers, skate and sportswear worn as street clothes |  | 10 | Vans, Nike, adidas, Undefeated, Carhartt WIP, Puma |
-| 4 | Loud luxury | Luxury you can recognize across a room: logos, monograms |  | 8 | Louis Vuitton, Gucci, Moncler, Chanel, Dolce&Gabbana, Versace |
+| 4 | Signature luxury | Luxury known by its signature: the monogram, the logo, the print you know across a room |  | 8 | Louis Vuitton, Gucci, Moncler, Chanel, Dolce&Gabbana, Versace |
 | 5 | Runway houses | The big fashion houses that show each season |  | 23 | Saint Laurent, Burberry, Ferragamo, Dior, Fendi, Celine |
 | 6 | Quiet luxury | Top-end make with nothing on it |  | 17 | Hermès, Bottega Veneta, Brunello Cucinelli, Loro Piana, Max Mara, Akris |
 | 7 | Rock & rebel | Leather jackets, boots, dark denim with attitude |  | 9 | Dr. Martens, Zadig & Voltaire, AllSaints, Diesel, John Varvatos, IRO |
