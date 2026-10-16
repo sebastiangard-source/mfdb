@@ -119,9 +119,11 @@ h1 .thin{color:var(--ink-faint)}
 .pub input{padding:8px 12px;border:1px solid var(--hairline);border-radius:999px;background:#fff;font:inherit;font-size:13px;color:var(--ink)}
 .imp{display:flex;flex-direction:column;gap:8px}
 .imp summary{cursor:pointer;list-style:none}.imp summary::-webkit-details-marker{display:none}
-.imp summary::after{content:" ›"}.imp[open] summary::after{content:" ⌄"}
+.imp summary::after{content:"+";margin-left:6px;font-size:13px}.imp[open] summary::after{content:"−"}
 .imp[open]{display:flex}.imp textarea{width:100%;min-width:0;padding:8px 12px;border:1px solid var(--hairline);border-radius:10px;background:#fff;font:inherit;font-size:12.5px;color:var(--ink);resize:vertical}
-.imp .chip{width:100%;text-align:center}.impfile{cursor:pointer;display:block}
+.improw{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.improw .chip{padding:6px 16px;font-size:12.5px}.improw .chip:disabled{opacity:.35;cursor:default}
+.impfile{cursor:pointer;font-size:12px;color:var(--green);text-decoration:underline;text-underline-offset:3px}
 .pub .hint{font-size:11.5px;color:var(--ink-faint);line-height:1.4}
 .renames{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:6px}
 .renames input{padding:6px 10px;font-size:12px;border-radius:8px;width:100%;min-width:0}
@@ -206,7 +208,7 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
     <h1>The Cyprus <span class="thin">Brand Set</span></h1>
     <p class="lede">Every fashion brand with its own full-price stores in the US, sorted into four price tiers, with every store listed.</p>
   </div>
-  <div class="stamp"><b>v0.33 · <span id="built"></span></b>Store lists from each brand’s own website. Tiers set by the starting price of a blouse and a sweater.</div>
+  <div class="stamp"><b>v0.34 · <span id="built"></span></b>Store lists from each brand’s own website. Tiers set by the starting price of a blouse and a sweater.</div>
 </header>
 
 <div class="layout">
@@ -223,10 +225,8 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
   <div class="chips"><button class="chip on" id="pubGo">publish</button></div>
   <span class="hint" id="pubHint"></span>
   <details class="imp"><summary class="lbl">Import a view</summary>
-    <span class="hint">Paste a published page or its text, or open a saved page. You’ll see the same brands, tiers and filters.</span>
-    <textarea id="impText" rows="4" placeholder="Paste here"></textarea>
-    <label class="chip impfile">choose a file<input id="impFile" type="file" accept=".html,.htm,.txt,text/html,text/plain" hidden></label>
-    <button class="chip on" id="impGo">import</button>
+    <textarea id="impText" rows="2" placeholder="Paste a published page or its text"></textarea>
+    <div class="improw"><label class="impfile">or open a saved page<input id="impFile" type="file" accept=".html,.htm,.txt,text/html,text/plain" hidden></label><button class="chip on" id="impGo" disabled>import</button></div>
     <span class="hint" id="impHint"></span>
   </details>
 </div>
@@ -508,8 +508,9 @@ function importView(txt){const v=decView(txt); const h=document.getElementById('
   applyState(Object.assign({t:[],sg:[],hd:[],q:'',d:{},r:{},mv:{}},v));
   document.getElementById('pubTitle').value=v.ti||''; document.getElementById('pubNote').value=v.no||'';
   const bits=[]; if((v.hd||[]).length) bits.push(`${v.hd.length} removed`); if(Object.keys(v.mv||{}).length) bits.push(`${Object.keys(v.mv).length} moved`);
-  h.textContent=`Imported${v.ti?` “${v.ti}”`:''}${bits.length?` (${bits.join(', ')})`:''}.`; document.getElementById('impText').value='';}
+  h.textContent=`Imported${v.ti?` “${v.ti}”`:''}${bits.length?` (${bits.join(', ')})`:''}.`; document.getElementById('impText').value=''; document.getElementById('impGo').disabled=true;}
 document.getElementById('impGo').onclick=()=>importView(document.getElementById('impText').value);
+document.getElementById('impText').addEventListener('input',e=>{document.getElementById('impGo').disabled=!e.target.value.trim();});
 document.getElementById('impFile').onchange=e=>{const f=e.target.files&&e.target.files[0]; if(!f) return; const r=new FileReader(); r.onload=()=>importView(r.result); r.readAsText(f); e.target.value='';};
 function stateToHash(){return '#v='+encodeURIComponent(btoa(unescape(encodeURIComponent(JSON.stringify(stateObj())))));}
 function hashToState(){const m=location.hash.match(/^#v=(.+)$/); if(!m) return null; try{return JSON.parse(decodeURIComponent(escape(atob(decodeURIComponent(m[1])))));}catch(e){return null;}}
