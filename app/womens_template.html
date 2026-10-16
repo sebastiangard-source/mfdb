@@ -226,7 +226,7 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
     <h1>The Cyprus <span class="thin">Brand Set</span></h1>
     <p class="lede">Every fashion brand with its own full-price stores in the US, sorted into four price tiers, with every store listed.</p>
   </div>
-  <div class="stamp"><b>v0.37 · <span id="built"></span></b>Store lists from each brand’s own website. Tiers set by the starting price of a blouse and a sweater.</div>
+  <div class="stamp"><b>v0.38 · <span id="built"></span></b>Store lists from each brand’s own website. Tiers set by the starting price of a blouse and a sweater.</div>
 </header>
 
 <div class="layout">
@@ -480,7 +480,7 @@ function openOther(n){const o=OTHER.find(x=>x.n===n); if(!o) return;
   document.getElementById('pbody').innerHTML=`<h2>${esc(o.n)}</h2><span class="pill">${esc(CATN[o.cat]||o.cat)}</span>
     <dl class="kv" style="margin-top:14px"><dt>Full-price stores</dt><dd>${o.own==null?'Count coming':o.own+' in the US'}</dd>
     ${o.locator?`<dt>Store finder</dt><dd><a href="${esc(o.locator)}" target="_blank" rel="noopener">${esc(o.locator.replace(/^https?:\/\//,'').slice(0,60))}</a></dd>`:''}${o.read?`<dt>Checked</dt><dd>${esc(fmtDate(o.read))}</dd>`:''}</dl>
-    ${o.stores.length?'<h3>Stores</h3>'+storeTree(o):''}${o.note?`<p class="note">${esc(o.note)}</p>`:''}
+    ${o.stores.length?'<h3>Stores</h3>'+storeTree(o):''}
     <p class="cav">Stores under the brand’s own name, from its website. Counters inside department stores aren’t included.</p>`;
   document.getElementById('panel').classList.add('show'); document.getElementById('ov').classList.add('show');}
 function setMove(n,band){const b=W.brands.find(x=>x.n===n); if(!b||b.rule==='Pending') return;
