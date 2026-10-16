@@ -75,6 +75,7 @@ h1 .thin{color:var(--ink-faint)}
 .band.Basic .b{background:var(--basic)} .band.Premium .b{background:var(--premium)} .band.Accessible .b{background:var(--accessible)} .band.True .b{background:var(--trueLux)} .band.Pending .b{background:var(--pending)}
 .b.out{display:none}
 .legend{font-size:12px;color:var(--ink-faint);margin:6px 0 0}
+.legend span.lg{display:inline;width:auto;height:auto;border:0;margin:0;background:none!important}
 .legend span{display:inline-block;width:10px;height:10px;border-radius:3px;margin:0 4px 0 10px;vertical-align:-1px;border:1px solid var(--hairline)}
 /* panel */
 .ov{position:fixed;inset:0;background:rgba(30,30,27,.28);display:none;z-index:20}
@@ -99,7 +100,7 @@ h1 .thin{color:var(--ink-faint)}
 .cuts b{font-weight:600}
 .cuts .hint{font-size:11.5px;color:var(--ink-faint);line-height:1.4}
 .cuts .chip{align-self:flex-start;padding:6px 12px}
-.pub{display:flex;flex-direction:column;gap:8px;font-size:13px;padding-top:14px;border-top:1px solid var(--hairline)}
+.pub{display:flex;flex-direction:column;gap:8px;font-size:13px;padding-bottom:16px;border-bottom:1px solid var(--hairline)}
 #pubView{position:fixed;inset:0;z-index:50;background:var(--cream);display:none;flex-direction:column}
 #pubView.show{display:flex}
 #idxView{position:fixed;inset:0;z-index:40;background:var(--cream);display:none;flex-direction:column}
@@ -175,13 +176,25 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
 <header>
   <div>
     <h1>The Cyprus <span class="thin">Brand Set</span></h1>
-    <p class="lede">Every brand with a full-price store of its own in the US: the women’s brands, the brands that sell to both, and the men’s-only houses. Placed by price band and shown with their stores, counted from the brands’ own locators.</p>
+    <p class="lede">Every brand with a full-price store of its own in the US: the women’s brands, the brands that sell to both, and the men’s-only houses. Placed in four price tiers and shown with their stores, counted from the brands’ own locators.</p>
   </div>
-  <div class="stamp"><b>v0.24 · <span id="built"></span></b>stores counted from the brands’ own locators · bands on blouse and sweater (shirt and sweater for men’s-only and crossover brands)</div>
+  <div class="stamp"><b>v0.25 · <span id="built"></span></b>stores counted from the brands’ own locators · tiers on blouse and sweater (shirt and sweater where the women’s price is not yet read)</div>
 </header>
 
 <div class="layout">
 <aside class="rail">
+<div class="pub">
+  <span class="lbl tt" data-tip="Turns the brands that pass the current filters into a page of their own — a list by band with store counts, a line on each brand and the stores by state. Nothing about the filters is lost: the page carries them in writing." tabindex="0">Publish this view</span>
+  <input id="pubTitle" type="text" placeholder="Title for the page" maxlength="80">
+  <input id="pubNote" type="text" placeholder="One line on why (optional)" maxlength="200">
+  <span class="lbl tt" data-tip="Call the tiers what you like — on this page and on the published page. The rule behind each band does not change. Leave blank for Tier 1–4." tabindex="0">Tier names</span>
+  <div class="renames">
+    <input data-band="Basic" type="text" placeholder="Tier 1" maxlength="40"><input data-band="Premium" type="text" placeholder="Tier 2" maxlength="40">
+    <input data-band="Accessible" type="text" placeholder="Tier 3" maxlength="40"><input data-band="True Luxury" type="text" placeholder="Tier 4" maxlength="40">
+  </div>
+  <div class="chips"><button class="chip on" id="pubGo">publish</button></div>
+  <span class="hint" id="pubHint"></span>
+</div>
 <div class="controls">
   <input id="q" type="search" placeholder="Brand, town or state">
   <div class="grp"><span class="lbl tt" data-tip="Full-price, brand-owned US stores counted from the brand’s own locator. Outlets, concessions and pop-ups are held in the register and not counted." tabindex="0">Stores</span><div class="chips">
@@ -189,15 +202,15 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
   <div class="grp"><span class="lbl tt" data-tip="The style segment each brand sits in: the men’s map’s fifteen plus eight for women’s markets (ruled 15 Oct). Placements below high confidence are provisional. Pick any; none picked means all." tabindex="0">Segment</span><div class="chips segchips"><button class="chip sgc" data-sg="Avant-garde designers">Avant-garde designers <span class="cn"></span></button><button class="chip sgc" data-sg="Hype &amp; drop culture">Hype &amp; drop culture <span class="cn"></span></button><button class="chip sgc" data-sg="Street &amp; sport culture">Street &amp; sport culture <span class="cn"></span></button><button class="chip sgc" data-sg="Signature luxury">Signature luxury <span class="cn"></span></button><button class="chip sgc" data-sg="Runway houses">Runway houses <span class="cn"></span></button><button class="chip sgc" data-sg="Quiet luxury">Quiet luxury <span class="cn"></span></button><button class="chip sgc" data-sg="Rock &amp; rebel">Rock &amp; rebel <span class="cn"></span></button><button class="chip sgc" data-sg="Performance &amp; athleisure">Performance &amp; athleisure <span class="cn"></span></button><button class="chip sgc" data-sg="Tailoring &amp; craft">Tailoring &amp; craft <span class="cn"></span></button><button class="chip sgc" data-sg="Outdoor &amp; coast">Outdoor &amp; coast <span class="cn"></span></button><button class="chip sgc" data-sg="Prep, club &amp; course">Prep, club &amp; course <span class="cn"></span></button><button class="chip sgc" data-sg="Heritage &amp; workwear">Heritage &amp; workwear <span class="cn"></span></button><button class="chip sgc" data-sg="Fashion insider">Fashion insider <span class="cn"></span></button><button class="chip sgc" data-sg="Mainstream contemporary">Mainstream contemporary <span class="cn"></span></button><button class="chip sgc" data-sg="Basics &amp; essentials">Basics &amp; essentials <span class="cn"></span></button><button class="chip sgc" data-sg="Modern minimal">Modern minimal <span class="cn"></span></button><button class="chip sgc" data-sg="Romantic &amp; feminine">Romantic &amp; feminine <span class="cn"></span></button><button class="chip sgc" data-sg="Resort &amp; boho">Resort &amp; boho <span class="cn"></span></button><button class="chip sgc" data-sg="Occasion &amp; evening">Occasion &amp; evening <span class="cn"></span></button><button class="chip sgc" data-sg="Classic &amp; career">Classic &amp; career <span class="cn"></span></button><button class="chip sgc" data-sg="Denim houses">Denim houses <span class="cn"></span></button><button class="chip sgc" data-sg="Intimates, lounge &amp; swim">Intimates, lounge &amp; swim <span class="cn"></span></button><button class="chip sgc" data-sg="Shoes &amp; accessories houses">Shoes &amp; accessories houses <span class="cn"></span></button></div></div>
 </div>
 <div class="cuts">
-  <span class="lbl">Band cuts</span>
-  <label><span class="tt" data-tip="Brands whose blouse-and-sweater entry mean is under this figure read Premium. Basic is set separately, by the core tee and blouse test." tabindex="0">Premium up to <b id="c1v">$200</b></span><input type="range" id="c1" min="100" max="400" step="10" value="200"></label>
-  <label><span class="tt" data-tip="Brands whose blouse-and-sweater entry mean is at or under this figure read Accessible; above it, True Luxury." tabindex="0">Accessible up to <b id="c2v">$600</b></span><input type="range" id="c2" min="300" max="1200" step="25" value="600"></label>
-  <button class="chip" id="creset">reset</button>
+  <span class="lbl">Tiers</span>
+  <label><span class="tt" data-tip="Brands whose blouse-and-sweater entry mean is under this figure read Tier 2. Tier 1 is set separately, by the core tee and blouse test." tabindex="0"><span id="c1l">Tier 2</span> up to <b id="c1v">$200</b></span><input type="range" id="c1" min="100" max="400" step="10" value="200"></label>
+  <label><span class="tt" data-tip="Brands whose blouse-and-sweater entry mean is at or under this figure read Tier 3; above it, Tier 4." tabindex="0"><span id="c2l">Tier 3</span> up to <b id="c2v">$600</b></span><input type="range" id="c2" min="300" max="1200" step="25" value="600"></label>
+  <button class="chip" id="creset">reset tiers</button>
   <button class="chip" id="mreset">no brands moved</button>
-  <span class="hint">Moves every brand banded on a blouse-and-sweater mean, crossovers included. Basic and hand-set brands stay put. Drag a brand into another band to place it by hand (or use “Move to” in its panel); moved brands are marked and stay put when the cuts change.</span>
+  <span class="hint">Moves every brand tiered on a blouse-and-sweater mean, crossovers included. Tier 1 and hand-set brands stay put. Drag a brand into another tier to place it by hand (or use “Move to” in its panel); moved brands are marked and stay put when the cuts change.</span>
 </div>
 <div class="dials" id="dials">
-  <span class="lbl tt" data-tip="Show only brands scoring at least the set figure. A brand not yet read for a dial fails that dial." tabindex="0">Focus · at least</span>
+  <span class="lbl tt" data-tip="Show only brands scoring at least the set figure. A brand not yet read for a dial fails that dial." tabindex="0">Focus</span>
   <label data-k="f.tech"><span class="tt" data-tip="How technical the clothes are — performance fabrics, engineered construction, measurable function. Scored on what the brand sells, not on who invented it. Read from the brand's named fabrics and their share of the range." tabindex="0">tech <b>off</b></span><input type="range" min="0" max="5" value="0"></label>
   <label data-k="f.comfort"><span class="tt" data-tip="How central softness and physical ease are to what the brand sells — fiber, stretch, drape, wash. Authored at merge from the range, prices and fibre evidence; provisional." tabindex="0">comfort <b>off</b></span><input type="range" min="0" max="5" value="0"></label>
   <label data-k="f.craft"><span class="tt" data-tip="How much of the making can be verified — who makes it, where, and for how long. Owned factories, named mills and documented process score; a hangtag does not. Proposed by the reading thread under the craft rubric." tabindex="0">craft <b>off</b></span><input type="range" min="0" max="5" value="0"></label>
@@ -205,25 +218,13 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
   <span class="hint" id="dialhint">A brand not yet read for a dial fails that dial. <span id="dialcov"></span></span>
   <button class="chip" id="dreset">clear dials</button>
 </div>
-<div class="pub">
-  <span class="lbl tt" data-tip="Turns the brands that pass the current filters into a page of their own — a list by band with store counts, a line on each brand and the stores by state. Nothing about the filters is lost: the page carries them in writing." tabindex="0">Publish this view</span>
-  <input id="pubTitle" type="text" placeholder="Title for the page" maxlength="80">
-  <input id="pubNote" type="text" placeholder="One line on why (optional)" maxlength="200">
-  <span class="lbl tt" data-tip="Call the price bands what you like — on this page and on the published page. The rule behind each band does not change. Leave blank for the standard name." tabindex="0">Band names</span>
-  <div class="renames">
-    <input data-band="Basic" type="text" placeholder="Basic" maxlength="40"><input data-band="Premium" type="text" placeholder="Premium" maxlength="40">
-    <input data-band="Accessible" type="text" placeholder="Accessible" maxlength="40"><input data-band="True Luxury" type="text" placeholder="True Luxury" maxlength="40">
-  </div>
-  <div class="chips"><button class="chip on" id="pubGo">publish</button></div>
-  <span class="hint" id="pubHint"></span>
-</div>
 <p class="count" id="count"></p>
 </aside>
 <div class="content">
 
 
 <div id="bands"></div>
-<p class="legend">Band by price rule: <span style="background:var(--basic)"></span>Basic <span style="background:var(--premium)"></span>Premium <span style="background:var(--accessible)"></span>Accessible <span style="background:var(--trueLux)"></span>True Luxury.</p>
+<p class="legend">Tiers by price rule, lowest first: <span style="background:var(--basic)"></span><span class="lg" data-b="Basic">Tier 1</span> <span style="background:var(--premium)"></span><span class="lg" data-b="Premium">Tier 2</span> <span style="background:var(--accessible)"></span><span class="lg" data-b="Accessible">Tier 3</span> <span style="background:var(--trueLux)"></span><span class="lg" data-b="True Luxury">Tier 4</span>.</p>
 
 
 </div>
@@ -246,7 +247,8 @@ const NE=new Set(W.ne);
 const TIERS={mass:'250+',chain:'51–250',network:'13–50',circuit:'4–12',flagship:'1–3'};
 const ORDER=['Basic','Premium','Accessible','True Luxury'];  // Pending (no price read) is not shown
 const RENAME={};  // band -> the name the user gave it
-const bandName=b=>RENAME[b]||b;
+const TIERNAME={Basic:'Tier 1',Premium:'Tier 2',Accessible:'Tier 3','True Luxury':'Tier 4'};
+const bandName=b=>RENAME[b]||TIERNAME[b]||b;
 const DEF={Basic:'core tee at or under $35 and core shirt under $80 · mass basics',Premium:'mean of blouse and sweater entry under $200 · contemporary, DTC, mall',Accessible:'$200–600 · designer-adjacent, contemporary luxury',"True Luxury":'over $600 · the houses',Pending:'stores counted, prices not yet read — the women’s price pass bands these as it lands'};
 let C1=200,C2=600;
 // Moves: a viewer may drag a brand into another band. Kept in this browser and carried in links and published
@@ -276,6 +278,8 @@ function matches(b){
   return true;
 }
 function renderBands(){
+  const l1=document.getElementById('c1l'),l2=document.getElementById('c2l'); if(l1){l1.textContent=bandName('Premium'); l2.textContent=bandName('Accessible');}
+  document.querySelectorAll('.legend .lg').forEach(e=>e.textContent=bandName(e.dataset.b));
   const host=document.getElementById('bands'); host.innerHTML='';
   let shown=0, stores=0;
   for(const band of ORDER){
