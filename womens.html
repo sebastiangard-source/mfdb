@@ -95,7 +95,7 @@ h1 .thin{color:var(--ink-faint)}
 .cuts{display:flex;flex-direction:column;gap:8px;font-size:13px}
 .cuts .lbl{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint)}
 .cuts label{display:flex;flex-direction:column;gap:4px}
-.cuts label span{display:flex;justify-content:space-between}
+.cuts label>span{display:flex;justify-content:space-between;align-items:center}
 .cuts input[type=range]{width:100%;accent-color:var(--green)}
 .cuts b{font-weight:600}
 .cuts .hint{font-size:11.5px;color:var(--ink-faint);line-height:1.4}
@@ -121,8 +121,9 @@ h1 .thin{color:var(--ink-faint)}
 .dials{display:flex;flex-direction:column;gap:6px;font-size:13px}
 .dials .lbl{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint);margin-top:4px}
 .dials label{display:flex;flex-direction:column;gap:2px}
-.tt[data-tip]{position:relative;cursor:help}
-.tt[data-tip]{text-decoration:underline dotted rgba(0,0,0,.3);text-underline-offset:3px}
+.tt[data-tip]{position:relative}
+.qm{display:inline-flex;align-items:center;justify-content:center;width:15px;height:15px;margin:0 auto 0 6px;padding:0;border:1px solid var(--hairline);border-radius:50%;background:transparent;color:var(--ink-faint);font:600 9.5px/1 'Inter',sans-serif;cursor:pointer;vertical-align:1px;letter-spacing:0;text-transform:none}
+.qm:hover,.qm[aria-expanded="true"]{border-color:var(--green);color:var(--green)}
 .tt[data-tip] b{display:inline-block}
 #tip{position:fixed;z-index:60;max-width:280px;padding:9px 12px;border-radius:8px;background:var(--ink);color:#fff;font-size:12px;line-height:1.45;font-weight:400;text-transform:none;letter-spacing:0;pointer-events:none;opacity:0;transition:opacity .1s;box-shadow:0 8px 22px rgba(0,0,0,.2)}
 #tip.show{opacity:1}
@@ -178,7 +179,7 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
     <h1>The Cyprus <span class="thin">Brand Set</span></h1>
     <p class="lede">Every brand with a full-price store of its own in the US: the women’s brands, the brands that sell to both, and the men’s-only houses. Placed in four price tiers and shown with their stores, counted from the brands’ own locators.</p>
   </div>
-  <div class="stamp"><b>v0.25 · <span id="built"></span></b>stores counted from the brands’ own locators · tiers on blouse and sweater (shirt and sweater where the women’s price is not yet read)</div>
+  <div class="stamp"><b>v0.26 · <span id="built"></span></b>stores counted from the brands’ own locators · tiers on blouse and sweater (shirt and sweater where the women’s price is not yet read)</div>
 </header>
 
 <div class="layout">
@@ -203,8 +204,8 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
 </div>
 <div class="cuts">
   <span class="lbl">Tiers</span>
-  <label><span class="tt" data-tip="Brands whose blouse-and-sweater entry mean is under this figure read Tier 2. Tier 1 is set separately, by the core tee and blouse test." tabindex="0"><span id="c1l">Tier 2</span> up to <b id="c1v">$200</b></span><input type="range" id="c1" min="100" max="400" step="10" value="200"></label>
-  <label><span class="tt" data-tip="Brands whose blouse-and-sweater entry mean is at or under this figure read Tier 3; above it, Tier 4." tabindex="0"><span id="c2l">Tier 3</span> up to <b id="c2v">$600</b></span><input type="range" id="c2" min="300" max="1200" step="25" value="600"></label>
+  <label><span class="tt" data-tip="Brands whose blouse-and-sweater entry mean is under this figure read Tier 2. Tier 1 is set separately, by the core tee and blouse test." tabindex="0"><span><span id="c1l">Tier 2</span> up to</span> <b id="c1v">$200</b></span><input type="range" id="c1" min="100" max="400" step="10" value="200"></label>
+  <label><span class="tt" data-tip="Brands whose blouse-and-sweater entry mean is at or under this figure read Tier 3; above it, Tier 4." tabindex="0"><span><span id="c2l">Tier 3</span> up to</span> <b id="c2v">$600</b></span><input type="range" id="c2" min="300" max="1200" step="25" value="600"></label>
   <button class="chip" id="creset">reset tiers</button>
   <button class="chip" id="mreset">no brands moved</button>
   <span class="hint">Moves every brand tiered on a blouse-and-sweater mean, crossovers included. Tier 1 and hand-set brands stay put. Drag a brand into another tier to place it by hand (or use “Move to” in its panel); moved brands are marked and stay put when the cuts change.</span>
@@ -389,12 +390,18 @@ document.querySelectorAll('#dials label').forEach(l=>{const i=l.querySelector('i
   i.addEventListener('input',()=>{const v=+i.value; DIAL[l.dataset.k]=v; bb.textContent=v?('≥ '+v):'off'; l.classList.toggle('on',!!v); renderBands(); renderIdx();});});
 document.getElementById('dreset').onclick=()=>{document.querySelectorAll('#dials label').forEach(l=>{l.querySelector('input').value=0; l.querySelector('b').textContent='off'; l.classList.remove('on');}); for(const k in DIAL) DIAL[k]=0; renderBands(); renderIdx();};
 (()=>{const n=W.brands.filter(b=>b.f).length; document.getElementById('dialcov').textContent=`Dials read for ${n} of ${W.brands.length} brands so far.`;})();
+// Help: each labelled control carries a small "?" that opens its explanation on click (not on hover).
 (()=>{const tip=document.getElementById('tip'); let cur=null;
-  const show=el=>{cur=el; tip.textContent=el.dataset.tip; tip.classList.add('show'); place(el);};
   const place=el=>{const r=el.getBoundingClientRect(); tip.style.left='0px'; tip.style.top='0px'; const w=tip.offsetWidth,hh=tip.offsetHeight;
-    let x=r.left, y=r.bottom+8; if(x+w>window.innerWidth-8) x=window.innerWidth-8-w; if(y+hh>window.innerHeight-8) y=r.top-8-hh; tip.style.left=x+'px'; tip.style.top=y+'px';};
-  const hide=()=>{cur=null; tip.classList.remove('show');};
-  document.querySelectorAll('.tt[data-tip]').forEach(el=>{el.addEventListener('mouseenter',()=>show(el)); el.addEventListener('mouseleave',hide); el.addEventListener('focus',()=>show(el)); el.addEventListener('blur',hide);});
+    let x=r.left-6, y=r.bottom+8; if(x+w>window.innerWidth-8) x=window.innerWidth-8-w; if(x<8) x=8; if(y+hh>window.innerHeight-8) y=r.top-8-hh; tip.style.left=x+'px'; tip.style.top=y+'px';};
+  const hide=()=>{if(cur) cur.setAttribute('aria-expanded','false'); cur=null; tip.classList.remove('show');};
+  const show=(btn,text)=>{if(cur===btn){hide(); return;} hide(); cur=btn; btn.setAttribute('aria-expanded','true'); tip.textContent=text; tip.classList.add('show'); place(btn);};
+  document.querySelectorAll('.tt[data-tip]').forEach(el=>{el.removeAttribute('tabindex');
+    const q=document.createElement('button'); q.type='button'; q.className='qm'; q.textContent='?'; q.setAttribute('aria-label','What is this?'); q.setAttribute('aria-expanded','false');
+    q.addEventListener('click',e=>{e.preventDefault(); e.stopPropagation(); show(q,el.dataset.tip);});
+    const b=el.querySelector(':scope > b'); if(b) el.insertBefore(q,b); else el.appendChild(q);});
+  document.addEventListener('click',e=>{if(cur&&!e.target.closest('.qm')) hide();});
+  document.addEventListener('keydown',e=>{if(e.key==='Escape') hide();});
   document.addEventListener('scroll',()=>{if(cur) place(cur);},true);})();
 // ---- filter state in the URL hash, so a view can be linked and restored ----
 function stateObj(){return {t:[...TIERS_ON],sg:[...SG_ON],q,c1:C1,c2:C2,mv:Object.fromEntries(W.brands.filter(b=>b.moved).map(b=>[b.n,b.band])),d:Object.fromEntries(Object.entries(DIAL).filter(([k,v])=>v)),r:RENAME};}
