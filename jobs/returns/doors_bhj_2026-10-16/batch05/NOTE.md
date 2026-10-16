@@ -46,7 +46,7 @@ Batch 5 is the beauty and fragrance stores: Sephora, Ulta Beauty, Bluemercury, S
   - **`us_own_stores` is 55, to match the rows.** The distinct count is in the note.
 - **Maison Francis Kurkdjian:** only one US store carries the brand's name, the Tysons Galleria Boutique in McLean. Everything else on its locator is a retailer.
 - **Space NK is `NONE`.** Its US site's store page lists only UK and Ireland stores.
-- **Le Labo is `NC`.** I opened the locator twice and it stayed on "loading", with no error and no wall. It may be waiting for a location permission, which I didn't grant. If you can open it in your browser and it loads, I'll read it.
+- **Le Labo is `NC`.** I opened the locator three times (the last later in the day, as you asked) and it stayed on "loading", with no error and no wall. It may be waiting for a location permission, which I didn't grant. If you can open it in your browser and it loads, I'll read it.
 
 ## Weak spots
 
