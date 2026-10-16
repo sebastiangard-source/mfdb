@@ -135,6 +135,14 @@ def main():
     xf = os.path.join(ROOT, 'jobs/returns/followup_2026-10-15/part1/return_a.csv')
     if os.path.exists(xf):
         universe |= {k(r['brand']) for r in csv.DictReader(open(xf, encoding='utf8')) if r['womens_clothing'].strip() == 'yes'}
+    # The Cyprus Brand Set (15 Oct 2026, Sebastian): the men's-map brands read as selling no women's clothing join too,
+    # marked men's only. Later answers win (the follow-up re-read Allen Edmonds).
+    ans = {}
+    for f in (xa, xf):
+        if os.path.exists(f):
+            ans.update({k(r['brand']): r['womens_clothing'].strip() for r in csv.DictReader(open(f, encoding='utf8'))})
+    menonly = {kk for kk, v in ans.items() if v == 'no'}
+    universe |= menonly
     doors = collections.defaultdict(list)
     for r in csv.DictReader(open(os.path.join(ROOT, 'registers/own_doors_womens_2026-10-10.csv'), encoding='utf8')):
         if r['format'] == 'own-door' and r['status'] == 'open':
@@ -165,7 +173,8 @@ def main():
         basis = (f"men’s dress-shirt and sweater entry, mean ${m}, at the women’s cuts" if m is not None else 'banded on its men’s range (the men’s map)' + ((': ' + b['band_note']) if b.get('band_note') else ''))
         brands.append({'n': b['name'], 'band': BAND[b['band']], 'm': m, 'basis': basis, 'own': n,
                        'out': d.get('out', 0) or 0, 'con': d.get('con', 0) or 0, 'tier': tier(n), 'stores': stores, 'ne': sum(1 for s in stores if s['s'] in NE),
-                       'locator': '', 'read': (d.get('basis') or '').split(';')[0].strip(), 'note': 'Also on the men’s map; its stores sell both. Prices and facts are the men’s record.',
+                       'locator': '', 'read': (d.get('basis') or '').split(';')[0].strip(), 'mo': kk in menonly,
+                       'note': ('Men’s only: its own US site sells no women’s clothing (crossover pass, 15 Oct 2026). Prices and facts are the men’s record.' if kk in menonly else 'Also on the men’s map; its stores sell both. Prices and facts are the men’s record.'),
                        'src': 'men', 'prices': prices_of(b), 'lh': False, 'depts': 0, 'about': about_of(b),
                        'f': b.get('focus') or None, 'fa': b.get('fabric') or None, 'gl': {k.lower(): u for k, u in (b.get('garment_links') or {}).items()} or None,
                        'fi': fibre_line(b), 'nt': b.get('notes') or {}, 'nat': natural_of(b), 'cf': clean_of(b), 'cfl': (CF.get(b['name']) or {}).get('clean_with_lyocell')})
@@ -177,7 +186,7 @@ def main():
     os.makedirs(os.path.join(ROOT, 'dist'), exist_ok=True)
     out = os.path.join(ROOT, 'dist/womens_spectrum.html')
     open(out, 'w', encoding='utf8').write(html)
-    print(f'{len(brands)} brands ({sum(1 for b in brands if b["src"]=="men")} crossovers), {sum(len(b["stores"]) for b in brands)} stores, bands {dict(nb)} -> {out} {os.path.getsize(out):,} bytes')
+    print(f'{len(brands)} brands ({sum(1 for b in brands if b["src"]=="men" and not b.get("mo"))} crossovers, {sum(1 for b in brands if b.get("mo"))} men’s only), {sum(len(b["stores"]) for b in brands)} stores, bands {dict(nb)} -> {out} {os.path.getsize(out):,} bytes')
     if '--deploy' in sys.argv:
         # Same route as the men's map: the deploy branch, which the host copies into public_html/mfdb.
         import shutil, subprocess, tempfile
