@@ -127,12 +127,12 @@ h1 .thin{color:var(--ink-faint)}
 .dials .lbl{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint);margin-top:4px}
 .dials label{display:flex;flex-direction:column;gap:2px}
 .tt[data-tip]{position:relative}
-.qm{display:inline-flex;align-items:center;justify-content:center;width:15px;height:15px;margin:0 auto 0 6px;padding:0;border:1px solid var(--hairline);border-radius:50%;background:transparent;color:var(--ink-faint);font:600 9.5px/1 'Inter',sans-serif;cursor:pointer;vertical-align:1px;letter-spacing:0;text-transform:none}
+.qm{display:inline-flex;align-items:center;justify-content:center;width:15px;height:15px;margin:0 auto 0 6px;padding:0;border:1px solid var(--hairline);border-radius:50%;background:transparent;color:var(--ink-faint);font:600 9.5px/1 'Inter',sans-serif;cursor:pointer;vertical-align:middle;position:relative;top:-1px;letter-spacing:0;text-transform:none;flex:none}
 .qm:hover,.qm[aria-expanded="true"]{border-color:var(--green);color:var(--green)}
 .tt[data-tip] b{display:inline-block}
 #tip{position:fixed;z-index:60;max-width:280px;padding:9px 12px;border-radius:8px;background:var(--ink);color:#fff;font-size:12px;line-height:1.45;font-weight:400;text-transform:none;letter-spacing:0;pointer-events:none;opacity:0;transition:opacity .1s;box-shadow:0 8px 22px rgba(0,0,0,.2)}
 #tip.show{opacity:1}
-.dials label span{display:flex;justify-content:space-between}
+.dials label>span{display:flex;justify-content:space-between;align-items:center}
 .dials label b{font-weight:600;color:var(--ink-faint)}
 .dials label.on b{color:var(--green)}
 .dials input[type=range]{width:100%;accent-color:var(--green)}
@@ -201,7 +201,7 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
     <h1>The Cyprus <span class="thin">Brand Set</span></h1>
     <p class="lede">Every brand with a full-price store of its own in the US: the women’s brands, the brands that sell to both, and the men’s-only houses. Placed in four price tiers and shown with their stores, counted from the brands’ own locators.</p>
   </div>
-  <div class="stamp"><b>v0.28 · <span id="built"></span></b>stores counted from the brands’ own locators · tiers on blouse and sweater (shirt and sweater where the women’s price is not yet read)</div>
+  <div class="stamp"><b>v0.29 · <span id="built"></span></b>stores counted from the brands’ own locators · tiers on blouse and sweater (shirt and sweater where the women’s price is not yet read)</div>
 </header>
 
 <div class="layout">
@@ -234,7 +234,7 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
   <span class="hint">Moves every brand tiered on a blouse-and-sweater mean, crossovers included. Tier 1 and hand-set brands stay put. Drag a brand into another tier to place it by hand (or use “Move to” in its panel); moved brands are marked and stay put when the cuts change.</span>
 </div>
 <div class="dials" id="dials">
-  <span class="lbl tt" data-tip="Show only brands scoring at least the set figure. A brand not yet read for a dial fails that dial." tabindex="0">Focus</span>
+  <span class="lbl tt" data-tip="Show only brands scoring at least the set figure. A brand not yet read for a dial fails that dial." tabindex="0">Fashion focus</span>
   <label data-k="f.tech"><span class="tt" data-tip="How technical the clothes are — performance fabrics, engineered construction, measurable function. Scored on what the brand sells, not on who invented it. Read from the brand's named fabrics and their share of the range." tabindex="0">tech <b>off</b></span><input type="range" min="0" max="5" value="0"></label>
   <label data-k="f.comfort"><span class="tt" data-tip="How central softness and physical ease are to what the brand sells — fiber, stretch, drape, wash. Authored at merge from the range, prices and fibre evidence; provisional." tabindex="0">comfort <b>off</b></span><input type="range" min="0" max="5" value="0"></label>
   <label data-k="f.craft"><span class="tt" data-tip="How much of the making can be verified — who makes it, where, and for how long. Owned factories, named mills and documented process score; a hangtag does not. Proposed by the reading thread under the craft rubric." tabindex="0">craft <b>off</b></span><input type="range" min="0" max="5" value="0"></label>
