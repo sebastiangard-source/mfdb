@@ -121,6 +121,76 @@ def prices_of(b):
     return out
 
 
+
+# ---- reader-facing wording (copy review, 16 Oct 2026): the panel shows evidence, not how we worked ----
+FIB = {'cotton': 'cotton', 'cashmere': 'cashmere', 'linen': 'linen', 'silk': 'silk', 'a synthetic': 'synthetic',
+       'wool (alpaca, mohair and camel counted with it)': 'wool (alpaca, mohair and camel included)', 'wool': 'wool'}
+
+
+def tidy_note(v):
+    v = (v or '').strip()
+    if not v or 'NC; share of range NC' in v or re.match(r'(?i)^(NC\b|seeded|authored|\[authored|rescored|no fabric dials|shoe house;|sells a tee as a basic|a named tee in the range)', v):
+        return ''
+    v = re.sub(r'\s*—\s*seeded .*$', '', v)
+    m = re.match(r'^(\d+)% of (?:\d+ )?(?:the )?sampled styles with a composition are (?:led by (.+?)|in denim \(the jeans category or denim cloth\));', v)
+    if m:
+        pct, f = m.group(1), m.group(2)
+        what = 'denim' if f is None else 'mostly ' + FIB.get(f, f)
+        return f'None of the styles checked are {what}.' if pct == '0' else f'{pct}% of styles checked are {what}.'
+    v = re.sub(r'^Thread proposed \d \([^)]*\):\s*', '', v)
+    v = re.sub(r'\s*Seated as proposed, pending ruling\.?\s*$', '', v)
+    if re.match(r'^(\[\]\s*)?—\s*NONE; share of range 0%?\.?$', v.strip()) or v.strip().startswith('— NONE'):
+        return 'No named performance fabric.'
+    v = re.sub(r'^no named technical fabric on the site\.?$', 'No named performance fabric.', v)
+    v = re.sub(r'^named fabrics NONE\b\s*', 'No named performance fabric ', v)
+    v = re.sub(r'^named fabrics\s+', 'Named fabrics: ', v)
+    v = re.sub(r'^\[(.*?)\]\s*—\s*owned; share of range (\d+)%\.?$', lambda m: 'Its own fabrics (' + ', '.join(x.strip().strip('"') for x in m.group(1).split(',')) + f') on {m.group(2)}% of the range.', v)
+    v = v.replace(' — ', ': ').replace('—', ', ')
+    v = re.sub(r'\bfibre', 'fiber', v)
+    # Scoring talk is ours, not the reader's. Drop the clauses and sentences that argue the number.
+    v = re.sub(r'\s*\[[^\]]*\]', '', v)
+    v = re.sub(r",? so (?:it(?:'|’)s|this is|it sits at) (?:a )?\d\b", '', v)
+    SCORE = re.compile(r"(?i)\bis a \d\b|\b(?:a|an) \d\b|^\d\b|\b\d (?:on|if|until)\b|pending|held at|proposed|rubric|\brule\b|not read|read rendered|\bscor|lifts it|would need")
+    sents = [x for x in re.split(r'(?<=[.!?])\s+', v) if x and not SCORE.search(x)]
+    return ' '.join(sents).strip()
+
+
+def tidy_basis(v):
+    v = (v or '').strip(); hand = 'hand-' in v
+    v = re.sub(r'\s*\((?:women.s price pass|the men.s map)[^)]*\)', '', v)
+    m = re.match(r'^men.s dress-shirt and sweater entry, mean \$(\d+)', v)
+    if m: return f'Men’s shirt and sweater start at ${m.group(1)} on average.'
+    m = re.match(r'^mean of blouse and sweater entry \$(\d+)', v)
+    if m: return f'Blouse and sweater start at ${m.group(1)} on average.' + (' Placed by hand.' if hand else '')
+    m = re.match(r'^mean of blouse entry \$(\d+)', v)
+    if m: return f'Blouse starts at ${m.group(1)}.' + (' Placed by hand.' if hand else '')
+    m = re.match(r'^mean of sweater entry \$(\d+)', v)
+    if m: return f'Sweater starts at ${m.group(1)}.' + (' Placed by hand.' if hand else '')
+    m = re.match(r'^core tee \$(\d+) and core blouse \$(\d+)', v)
+    if m: return f'Basic tee ${m.group(1)}, blouse ${m.group(2)}.'
+    m = re.match(r'^core tee \$(\d+) with no woven blouse', v)
+    if m: return f'Basic tee ${m.group(1)}; no blouse sold.'
+    m = re.match(r'^shoe house, banded on shoe entry \$(\d+)', v)
+    if m: return f'Shoes start at ${m.group(1)}.'
+    if v.startswith('banded on its men'): return 'Placed on its men’s prices.'
+    v = re.sub(r'(?i)\s*\((?:thread proposal|thread re-read)\)', '', v)
+    v = re.sub(r'(?i)^(?:provisional, )?for ruling(?:, \d+ Oct)?:\s*|^ruled \d+ Oct:\s*|^core-garment rule, \d+ Oct:\s*|^everyday selling price is the price, \d+ Oct:\s*', '', v)
+    v = re.sub(r'(?i)^price read blocked \(complete\);\s*', '', v)
+    v = re.sub(r'(?i)^no priced staple;\s*', 'No staple garment priced. ', v)
+    v = re.sub(r'(?i);?\s*hand-band\w*', '. Placed by hand', v)
+    v = re.sub(r'(?i)Exact figures are whole dollars\.\s*', '', v)
+    v = re.sub(r'\bseated on\b', 'placed on', v)
+    v = v.replace(' — ', ': ').strip()
+    return (v[:1].upper() + v[1:]).rstrip('.') + '.' if v else v
+
+
+def tidy_fi(v):
+    m = re.search(r'of (\d+) (?:read with a composition|stating a composition), (\d+)% natural-led, (\d+)% synthetic, (\d+)% cellulosic(?: \(lyocell (\d+)%)?', v or '')
+    if not m: return (v or '').replace('fibre', 'fiber')
+    n, nat, syn, cel, ly = m.groups()
+    out = f'Of {n} styles checked, {nat}% are mostly natural fibers, {syn}% synthetic and {cel}% rayon-type fibers'
+    return out + (f' ({ly}% lyocell).' if ly and ly != '0' else '.')
+
 def main():
     womens = [json.load(open(f, encoding='utf8')) for f in sorted(glob.glob(os.path.join(ROOT, 'data/brands_womens/*.json')))]
     men = {k(b['name']): b for b in (json.load(open(f, encoding='utf8')) for f in glob.glob(os.path.join(ROOT, 'data/brands/*.json')))}
@@ -206,6 +276,10 @@ def main():
             other.append({'n': n, 'cat': r['category'], 'own': own, 'stores': st, 'tier': tier(own) if own else '',
                           'ne': sum(1 for x in st if x['s'] in NE), 'locator': (c or {}).get('locator_url', '') or '', 'read': (c or {}).get('captured_on', '') or '',
                           'note': (c or {}).get('note', '') or ''})
+    for b in brands:
+        b['nt'] = {k: t for k, t in ((k, tidy_note(v)) for k, v in (b.get('nt') or {}).items()) if t}
+        b['basis'] = tidy_basis(b.get('basis', ''))
+        b['fi'] = tidy_fi(b.get('fi', ''))
     data = {'built': datetime.date.today().isoformat(), 'brands': brands, 'other': other, 'ne': NE}
     tpl = open(os.path.join(ROOT, 'app/womens_template.html'), encoding='utf8').read()
     html = tpl.replace('/*__DATA__*/', 'const W = ' + json.dumps(data, ensure_ascii=False) + ';')

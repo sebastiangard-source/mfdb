@@ -199,18 +199,18 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
 <header>
   <div>
     <h1>The Cyprus <span class="thin">Brand Set</span></h1>
-    <p class="lede">Every brand with a full-price store of its own in the US: the women’s brands, the brands that sell to both, and the men’s-only houses. Placed in four price tiers and shown with their stores, counted from the brands’ own locators.</p>
+    <p class="lede">Every fashion brand with its own full-price stores in the US, sorted into four price tiers, with every store listed.</p>
   </div>
-  <div class="stamp"><b>v0.31 · <span id="built"></span></b>stores counted from the brands’ own locators · tiers on blouse and sweater (shirt and sweater where the women’s price is not yet read)</div>
+  <div class="stamp"><b>v0.32 · <span id="built"></span></b>Store lists from each brand’s own website. Tiers set by the starting price of a blouse and a sweater.</div>
 </header>
 
 <div class="layout">
 <aside class="rail">
 <div class="pub">
-  <span class="lbl tt" data-tip="Turns the brands that pass the current filters into a page of their own — a list by band with store counts, a line on each brand and the stores by state. Nothing about the filters is lost: the page carries them in writing." tabindex="0">Publish this view</span>
+  <span class="lbl tt" data-tip="Makes a shareable page of the brands you’re looking at, with their stores and the filters you used." tabindex="0">Publish this view</span>
   <input id="pubTitle" type="text" placeholder="Title for the page" maxlength="80">
-  <input id="pubNote" type="text" placeholder="One line on why (optional)" maxlength="200">
-  <span class="lbl tt" data-tip="Call the tiers what you like — on this page and on the published page. The rule behind each band does not change. Leave blank for Tier 1–4." tabindex="0">Tier names</span>
+  <input id="pubNote" type="text" placeholder="A short note (optional)" maxlength="200">
+  <span class="lbl tt" data-tip="Rename the tiers for your page. Brands stay where they are." tabindex="0">Tier names</span>
   <div class="renames">
     <input data-band="Basic" type="text" placeholder="Tier 1" maxlength="40"><input data-band="Premium" type="text" placeholder="Tier 2" maxlength="40">
     <input data-band="Accessible" type="text" placeholder="Tier 3" maxlength="40"><input data-band="True Luxury" type="text" placeholder="Tier 4" maxlength="40">
@@ -220,25 +220,25 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
 </div>
 <div class="controls">
   <input id="q" type="search" placeholder="Brand, town or state">
-  <div class="grp"><span class="lbl tt" data-tip="Full-price, brand-owned US stores counted from the brand’s own locator. Outlets, concessions and pop-ups are held in the register and not counted." tabindex="0">Stores</span><div class="chips">
-    <button class="chip" data-t="mass">251+</button><button class="chip" data-t="chain">51–250</button><button class="chip" data-t="network">13–50</button><button class="chip" data-t="circuit">4–12</button><button class="chip" data-t="flagship">1–3</button></div><span class="hint" style="font-size:11.5px;color:var(--ink-faint)">Pick any; none picked means all.</span></div>
-  <div class="grp"><span class="lbl tt" data-tip="The style segment each brand sits in: the men’s map’s fifteen plus eight for women’s markets (ruled 15 Oct). Placements below high confidence are provisional. Pick any; none picked means all." tabindex="0">Segment</span><div class="chips segchips"><button class="chip sgc" data-sg="Avant-garde designers">Avant-garde designers <span class="cn"></span></button><button class="chip sgc" data-sg="Hype &amp; drop culture">Hype &amp; drop culture <span class="cn"></span></button><button class="chip sgc" data-sg="Street &amp; sport culture">Street &amp; sport culture <span class="cn"></span></button><button class="chip sgc" data-sg="Signature luxury">Signature luxury <span class="cn"></span></button><button class="chip sgc" data-sg="Runway houses">Runway houses <span class="cn"></span></button><button class="chip sgc" data-sg="Quiet luxury">Quiet luxury <span class="cn"></span></button><button class="chip sgc" data-sg="Rock &amp; rebel">Rock &amp; rebel <span class="cn"></span></button><button class="chip sgc" data-sg="Performance &amp; athleisure">Performance &amp; athleisure <span class="cn"></span></button><button class="chip sgc" data-sg="Tailoring &amp; craft">Tailoring &amp; craft <span class="cn"></span></button><button class="chip sgc" data-sg="Outdoor &amp; coast">Outdoor &amp; coast <span class="cn"></span></button><button class="chip sgc" data-sg="Prep, club &amp; course">Prep, club &amp; course <span class="cn"></span></button><button class="chip sgc" data-sg="Heritage &amp; workwear">Heritage &amp; workwear <span class="cn"></span></button><button class="chip sgc" data-sg="Fashion insider">Fashion insider <span class="cn"></span></button><button class="chip sgc" data-sg="Mainstream contemporary">Mainstream contemporary <span class="cn"></span></button><button class="chip sgc" data-sg="Basics &amp; essentials">Basics &amp; essentials <span class="cn"></span></button><button class="chip sgc" data-sg="Modern minimal">Modern minimal <span class="cn"></span></button><button class="chip sgc" data-sg="Romantic &amp; feminine">Romantic &amp; feminine <span class="cn"></span></button><button class="chip sgc" data-sg="Resort &amp; boho">Resort &amp; boho <span class="cn"></span></button><button class="chip sgc" data-sg="Occasion &amp; evening">Occasion &amp; evening <span class="cn"></span></button><button class="chip sgc" data-sg="Classic &amp; career">Classic &amp; career <span class="cn"></span></button><button class="chip sgc" data-sg="Denim houses">Denim houses <span class="cn"></span></button><button class="chip sgc" data-sg="Intimates, lounge &amp; swim">Intimates, lounge &amp; swim <span class="cn"></span></button><button class="chip sgc" data-sg="Shoes &amp; accessories houses">Shoes &amp; accessories houses <span class="cn"></span></button></div></div>
+  <div class="grp"><span class="lbl tt" data-tip="How many full-price stores the brand runs in the US. Outlets, pop-ups and shops inside department stores don’t count." tabindex="0">Stores</span><div class="chips">
+    <button class="chip" data-t="mass">251+</button><button class="chip" data-t="chain">51–250</button><button class="chip" data-t="network">13–50</button><button class="chip" data-t="circuit">4–12</button><button class="chip" data-t="flagship">1–3</button></div></div>
+  <div class="grp"><span class="lbl tt" data-tip="The style a brand is known for. Pick one or more." tabindex="0">Segment</span><div class="chips segchips"><button class="chip sgc" data-sg="Avant-garde designers">Avant-garde designers <span class="cn"></span></button><button class="chip sgc" data-sg="Hype &amp; drop culture">Hype &amp; drop culture <span class="cn"></span></button><button class="chip sgc" data-sg="Street &amp; sport culture">Street &amp; sport culture <span class="cn"></span></button><button class="chip sgc" data-sg="Signature luxury">Signature luxury <span class="cn"></span></button><button class="chip sgc" data-sg="Runway houses">Runway houses <span class="cn"></span></button><button class="chip sgc" data-sg="Quiet luxury">Quiet luxury <span class="cn"></span></button><button class="chip sgc" data-sg="Rock &amp; rebel">Rock &amp; rebel <span class="cn"></span></button><button class="chip sgc" data-sg="Performance &amp; athleisure">Performance &amp; athleisure <span class="cn"></span></button><button class="chip sgc" data-sg="Tailoring &amp; craft">Tailoring &amp; craft <span class="cn"></span></button><button class="chip sgc" data-sg="Outdoor &amp; coast">Outdoor &amp; coast <span class="cn"></span></button><button class="chip sgc" data-sg="Prep, club &amp; course">Prep, club &amp; course <span class="cn"></span></button><button class="chip sgc" data-sg="Heritage &amp; workwear">Heritage &amp; workwear <span class="cn"></span></button><button class="chip sgc" data-sg="Fashion insider">Fashion insider <span class="cn"></span></button><button class="chip sgc" data-sg="Mainstream contemporary">Mainstream contemporary <span class="cn"></span></button><button class="chip sgc" data-sg="Basics &amp; essentials">Basics &amp; essentials <span class="cn"></span></button><button class="chip sgc" data-sg="Modern minimal">Modern minimal <span class="cn"></span></button><button class="chip sgc" data-sg="Romantic &amp; feminine">Romantic &amp; feminine <span class="cn"></span></button><button class="chip sgc" data-sg="Resort &amp; boho">Resort &amp; boho <span class="cn"></span></button><button class="chip sgc" data-sg="Occasion &amp; evening">Occasion &amp; evening <span class="cn"></span></button><button class="chip sgc" data-sg="Classic &amp; career">Classic &amp; career <span class="cn"></span></button><button class="chip sgc" data-sg="Denim houses">Denim houses <span class="cn"></span></button><button class="chip sgc" data-sg="Intimates, lounge &amp; swim">Intimates, lounge &amp; swim <span class="cn"></span></button><button class="chip sgc" data-sg="Shoes &amp; accessories houses">Shoes &amp; accessories houses <span class="cn"></span></button></div></div>
 </div>
 <div class="cuts">
   <span class="lbl">Tiers</span>
-  <label><span class="tt" data-tip="Brands whose blouse-and-sweater entry mean is under this figure read Tier 2. Tier 1 is set separately, by the core tee and blouse test." tabindex="0"><span><span id="c1l">Tier 2</span> up to</span> <b id="c1v">$200</b></span><input type="range" id="c1" min="100" max="400" step="10" value="200"></label>
-  <label><span class="tt" data-tip="Brands whose blouse-and-sweater entry mean is at or under this figure read Tier 3; above it, Tier 4." tabindex="0"><span><span id="c2l">Tier 3</span> up to</span> <b id="c2v">$600</b></span><input type="range" id="c2" min="300" max="1200" step="25" value="600"></label>
+  <label><span class="tt" data-tip="Brands whose blouse and sweater start below this price, on average, are Tier 2. Tier 1 is the mass-market brands: a basic tee at $35 or less and a shirt under $80." tabindex="0"><span><span id="c1l">Tier 2</span> up to</span> <b id="c1v">$200</b></span><input type="range" id="c1" min="100" max="400" step="10" value="200"></label>
+  <label><span class="tt" data-tip="Up to this price is Tier 3. Above it is Tier 4." tabindex="0"><span><span id="c2l">Tier 3</span> up to</span> <b id="c2v">$600</b></span><input type="range" id="c2" min="300" max="1200" step="25" value="600"></label>
   <button class="chip" id="creset">reset tiers</button>
   <button class="chip" id="mreset">no brands moved</button>
   <button class="chip" id="hreset">no brands removed</button>
-  <span class="hint">Moves every brand tiered on a blouse-and-sweater mean, crossovers included. Tier 1 and hand-set brands stay put. Drag a brand into another tier to place it by hand (or use “Move to” in its panel); moved brands are marked and stay put when the cuts change.</span>
+  <span class="hint">Drag the sliders to redraw the tiers. To place a brand yourself, drag it to another tier.</span>
 </div>
 <div class="dials" id="dials">
-  <span class="lbl tt" data-tip="Show only brands scoring at least the set figure." tabindex="0">Fashion focus</span>
-  <label data-k="f.tech"><span class="tt" data-tip="How technical the clothes are — performance fabrics, engineered construction, measurable function. Scored on what the brand sells, not on who invented it. Read from the brand's named fabrics and their share of the range." tabindex="0">tech <b>off</b></span><input type="range" min="0" max="5" value="0"></label>
-  <label data-k="f.comfort"><span class="tt" data-tip="How central softness and physical ease are to what the brand sells — fiber, stretch, drape, wash. Authored at merge from the range, prices and fibre evidence; provisional." tabindex="0">comfort <b>off</b></span><input type="range" min="0" max="5" value="0"></label>
-  <label data-k="f.craft"><span class="tt" data-tip="How much of the making can be verified — who makes it, where, and for how long. Owned factories, named mills and documented process score; a hangtag does not. Proposed by the reading thread under the craft rubric." tabindex="0">craft <b>off</b></span><input type="range" min="0" max="5" value="0"></label>
-  <label data-k="f.style"><span class="tt" data-tip="How much the brand trades on a design point of view and fashion influence rather than perfected basics. 1 a plain chino, 5 the runway. Authored at merge; provisional." tabindex="0">style <b>off</b></span><input type="range" min="0" max="5" value="0"></label>
+  <span class="lbl tt" data-tip="Show brands that score at least this high." tabindex="0">Fashion focus</span>
+  <label data-k="f.tech"><span class="tt" data-tip="How much of the range uses performance fabrics or engineered construction." tabindex="0">tech <b>off</b></span><input type="range" min="0" max="5" value="0"></label>
+  <label data-k="f.comfort"><span class="tt" data-tip="How much the brand is about softness and ease: soft fibers, stretch, drape." tabindex="0">comfort <b>off</b></span><input type="range" min="0" max="5" value="0"></label>
+  <label data-k="f.craft"><span class="tt" data-tip="How much the brand shows about who makes its clothes and where: its own factories, named mills, a documented process." tabindex="0">craft <b>off</b></span><input type="range" min="0" max="5" value="0"></label>
+  <label data-k="f.style"><span class="tt" data-tip="How much the brand is about design and trend rather than basics. 1 is a plain chino, 5 is the runway." tabindex="0">style <b>off</b></span><input type="range" min="0" max="5" value="0"></label>
   <button class="chip" id="dreset">clear dials</button>
 </div>
 <p class="count" id="count"></p>
@@ -247,7 +247,7 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
 
 
 <div id="bands"></div>
-<p class="legend">Tiers by price rule, lowest first: <span style="background:var(--basic)"></span><span class="lg" data-b="Basic">Tier 1</span> <span style="background:var(--premium)"></span><span class="lg" data-b="Premium">Tier 2</span> <span style="background:var(--accessible)"></span><span class="lg" data-b="Accessible">Tier 3</span> <span style="background:var(--trueLux)"></span><span class="lg" data-b="True Luxury">Tier 4</span>.</p>
+<p class="legend">Lowest price first: <span style="background:var(--basic)"></span><span class="lg" data-b="Basic">Tier 1</span> <span style="background:var(--premium)"></span><span class="lg" data-b="Premium">Tier 2</span> <span style="background:var(--accessible)"></span><span class="lg" data-b="Accessible">Tier 3</span> <span style="background:var(--trueLux)"></span><span class="lg" data-b="True Luxury">Tier 4</span>.</p>
 
 
 </div>
@@ -256,7 +256,7 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
 
 <div id="idxView"><div class="pubbar"><button class="chip" id="idxBack">← back to the Brand Set</button><span>Store index</span></div>
 <section class="idx idxpage">
-  <p class="def">Every full-price brand-owned store for the brands that pass the current filters, by state. No outlets, concessions or pop-ups. Each entry opens a map at its address.</p>
+  <p class="def">Every full-price store for the brands you’re looking at, by state.</p>
   <div id="idx"></div>
   <button class="more" id="more">show more</button>
 </section></div>
@@ -272,7 +272,7 @@ const ORDER=['Basic','Premium','Accessible','True Luxury'];  // Pending (no pric
 const RENAME={};  // band -> the name the user gave it
 const TIERNAME={Basic:'Tier 1',Premium:'Tier 2',Accessible:'Tier 3','True Luxury':'Tier 4'};
 const bandName=b=>RENAME[b]||TIERNAME[b]||b;
-const DEF={Basic:'core tee at or under $35 and core shirt under $80 · mass basics',Premium:'mean of blouse and sweater entry under $200 · contemporary, DTC, mall',Accessible:'$200–600 · designer-adjacent, contemporary luxury',"True Luxury":'over $600 · the houses',Pending:'stores counted, prices not yet read — the women’s price pass bands these as it lands'};
+const DEF={Basic:'Tee $35 or less, shirt under $80 · mass market',Premium:'Blouse and sweater from under $200 · contemporary and mall brands',Accessible:'$200 to $600 · advanced contemporary',"True Luxury":'Over $600 · luxury and designer houses',Pending:'Prices to come'};
 let C1=200,C2=600;
 // Moves: a viewer may drag a brand into another band. Kept in this browser and carried in links and published
 // pages; a move always shows as a move, never as the price rule's answer.
@@ -282,8 +282,9 @@ function saveMoves(){try{localStorage.setItem('wspec_moves',JSON.stringify(MOVES
 for(const b of W.brands) b.band0=b.band;
 function reband(){for(const b of W.brands){b.rule=b.m==null?b.band0:(b.m<C1?'Premium':(b.m<=C2?'Accessible':'True Luxury'));
     b.moved=!!(MOVES[b.n]&&b.rule!=='Pending'&&MOVES[b.n]!==b.rule); b.band=b.moved?MOVES[b.n]:b.rule;}
-  const mr=document.getElementById('mreset'); if(mr){const n=W.brands.filter(b=>b.moved).length; mr.textContent=n?`reset moves (${n})`:'no brands moved'; mr.disabled=!n;}
-  DEF.Premium=`mean of blouse and sweater entry under $${C1} · contemporary, DTC, mall`; DEF.Accessible=`$${C1}–${C2} · designer-adjacent, contemporary luxury`; DEF["True Luxury"]=`over $${C2} · the houses`;}
+  const mr=document.getElementById('mreset'); if(mr){const n=W.brands.filter(b=>b.moved).length; mr.textContent=`undo moves (${n})`; mr.style.display=n?'':'none';}
+  DEF.Premium=`Blouse and sweater from under $${C1} · contemporary and mall brands`; DEF.Accessible=`$${C1} to $${C2} · advanced contemporary`; DEF["True Luxury"]=`Over $${C2} · luxury and designer houses`;}
+const fmtDate=d=>{const m=String(d||'').match(/(\d{4})-(\d{2})-(\d{2})/); return m?new Date(+m[1],+m[2]-1,+m[3]).toLocaleDateString('en-US',{day:'numeric',month:'short',year:'numeric'}):d;};
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const mapUrl=s=>'https://www.google.com/maps/search/?api=1&query='+encodeURIComponent([s.a,s.c,s.s,s.z].filter(Boolean).join(', '));
 const ST={AL:'Alabama',AK:'Alaska',AZ:'Arizona',AR:'Arkansas',CA:'California',CO:'Colorado',CT:'Connecticut',DE:'Delaware',DC:'District of Columbia',FL:'Florida',GA:'Georgia',HI:'Hawaii',ID:'Idaho',IL:'Illinois',IN:'Indiana',IA:'Iowa',KS:'Kansas',KY:'Kentucky',LA:'Louisiana',ME:'Maine',MD:'Maryland',MA:'Massachusetts',MI:'Michigan',MN:'Minnesota',MS:'Mississippi',MO:'Missouri',MT:'Montana',NE:'Nebraska',NV:'Nevada',NH:'New Hampshire',NJ:'New Jersey',NM:'New Mexico',NY:'New York',NC:'North Carolina',ND:'North Dakota',OH:'Ohio',OK:'Oklahoma',OR:'Oregon',PA:'Pennsylvania',PR:'Puerto Rico',RI:'Rhode Island',SC:'South Carolina',SD:'South Dakota',TN:'Tennessee',TX:'Texas',UT:'Utah',VT:'Vermont',VA:'Virginia',WA:'Washington',WV:'West Virginia',WI:'Wisconsin',WY:'Wyoming'};
@@ -331,12 +332,12 @@ function renderBands(){
     const vis=OTHER.filter(matchesO); shown+=vis.length; const ost=vis.reduce((n,o)=>n+(o.own||0),0); stores+=ost;
     const counted=OTHER.filter(o=>o.own!=null).length;
     const sec=document.createElement('section'); sec.className='band Other';
-    sec.innerHTML=`<h2>Other brands<small>${vis.length} of ${OTHER.length} brands · ${ost.toLocaleString()} stores</small></h2><p class="def">Beauty, home and jewelry houses with stores of their own: store lists only, not placed in tiers.${counted<OTHER.length?` Stores counted for ${counted} of ${OTHER.length} so far.`:''}${clothingOnly()?' Hidden while a segment or dial filter is on.':''}</p>`+
+    sec.innerHTML=`<h2>Other brands<small>${vis.length} of ${OTHER.length} brands · ${ost.toLocaleString()} stores</small></h2><p class="def">Beauty, home and jewelry brands with their own stores.${counted<OTHER.length?' Store counts are coming in.':''}${clothingOnly()?' Hidden while a segment or Fashion focus filter is on.':''}</p>`+
       CATS.map(c=>{const l=OTHER.filter(o=>o.cat===c); if(!l.length) return ''; return `<h4>${CATN[c]}</h4><div class="grid">`+l.map(o=>`<button class="b${matchesO(o)?'':' out'}" data-o="${esc(o.n)}"><span class="n">${esc(o.n)}</span><span class="c${o.own==null?' p':''}">${o.own==null?'counting':o.own}</span><span class="x" role="button" aria-label="Remove ${esc(o.n)} from this view" title="remove from my view">×</span></button>`).join('')+'</div>';}).join('');
     host.appendChild(sec);}
-  const hr=document.getElementById('hreset'); if(hr){hr.textContent=HIDE.size?`restore removed brands (${HIDE.size})`:'no brands removed'; hr.disabled=!HIDE.size;}
+  const hr=document.getElementById('hreset'); if(hr){hr.textContent=`restore removed brands (${HIDE.size})`; hr.style.display=HIDE.size?'':'none';}
   document.querySelectorAll('.segchips .chip').forEach(c=>{const k=c.dataset.sg; const keep=SG_ON; SG_ON=new Set(); const n=W.brands.filter(b=>b.sg===k&&matches(b)).length; SG_ON=keep; c.querySelector('.cn').textContent=n;});
-  document.getElementById('count').textContent=`${shown} brands · ${stores.toLocaleString()} full-price brand-owned US stores shown`;
+  document.getElementById('count').textContent=`${shown} brands · ${stores.toLocaleString()} US stores`;
 }
 function aboutHtml(b){
   const a=b.about; if(!a) return '';
@@ -345,13 +346,13 @@ function aboutHtml(b){
   if(a.founded||a.owner) rows.push(`<dt>Origin</dt><dd>${esc(a.founded)}${a.owner?` ${a.founded?'Owned today by ':'Owned by '}${link(a.ownerurl,a.owner)}.`:''}</dd>`);
   if(a.chan.length) rows.push(`<dt>Sells through</dt><dd>${esc(a.chan.join(', '))}</dd>`);
   if(a.sig) rows.push(`<dt>Signature</dt><dd>${link(a.sigurl,a.sig)}</dd>`);
-  if(a.pron) rows.push(`<dt>Said</dt><dd>${esc(a.pron)}</dd>`);
+  if(a.pron) rows.push(`<dt>Say it</dt><dd>${esc(a.pron)}</dd>`);
   if(a.look) rows.push(`<dt>Lookbook</dt><dd>${link(a.lookurl,a.look)}</dd>`);
   const resale=[a.vinted?link(a.vinted,'Vinted'):'',a.trr?link(a.trr,'The RealReal'):'',a.grailed?link(a.grailed,'Grailed'):''].filter(Boolean);
   if(resale.length) rows.push(`<dt>Resale</dt><dd>${resale.join(' · ')}</dd>`);
   const certs=[a.bcorp?'B Corp ('+esc(a.bcorp)+')':'',a.gots?'GOTS ('+esc(a.gots)+')':''].filter(Boolean);
   if(certs.length) rows.push(`<dt>Certified</dt><dd>${certs.join(' · ')}</dd>`);
-  return `<h3>About</h3>${a.sells?`<p class="sells">${esc(a.sells)}</p>`:''}<dl class="kv">${rows.join('')}</dl>${a.quote?`<blockquote class="q">“${esc(a.quote)}”<cite>— ${a.qurl?link(a.qurl,a.who):esc(a.who)}</cite></blockquote>`:''}${a.status==='partial'?'<p class="muted" style="font-size:12px">Facts partly read; the owner or a date is still open.</p>':''}`;
+  return `<h3>About</h3>${a.sells?`<p class="sells">${esc(a.sells)}</p>`:''}<dl class="kv">${rows.join('')}</dl>${a.quote?`<blockquote class="q">“${esc(a.quote)}”<cite>— ${a.qurl?link(a.qurl,a.who):esc(a.who)}</cite></blockquote>`:''}`;
 }
 // Stores on the brand panel: region, then state, then shopping district, with totals at each level.
 const REGION={Northeast:['CT','ME','MA','NH','RI','VT','NJ','NY','PA'],South:['DE','DC','FL','GA','MD','NC','SC','VA','WV','AL','KY','MS','TN','AR','LA','OK','TX','PR'],
@@ -383,31 +384,31 @@ function openBrand(n){
   const row=(lab,v,note)=>`<details class="dm${v===5?' five':''}"${note?'':' data-empty'}><summary><span class="dk">${esc(lab)}</span><span class="mt">${[1,2,3,4,5].map(x=>`<i class="${x<=v?'on':''}"></i>`).join('')}</span><b>${v}</b></summary>${note?`<p>${esc(note)}</p>`:''}</details>`;
   const focusRows=b.f?Object.entries(FN).filter(([k])=>b.f[k]!=null).map(([k,l])=>row(l,b.f[k],clean(nt[k]))).join(''):'';
   const fabRows=b.fa?[
-      b.cf!=null?row('natural or lyocell',b.cf,'share of judged styles whose every fibre is natural or lyocell (Tencel), elastane at 5% or under'+(b.cfl?'; '+b.cfl+' of them contain lyocell':'')+'. Derived, never authored.'):'',
-      b.nat!=null?row('natural fibres',b.nat,'share of styles led by a natural fibre, on the men’s cuts (5 all natural, 4 at least 95%, 3 85%, 2 70%). Derived from the fibre read.'):'',
+      b.cf!=null?row('natural or lyocell',b.cf,'Share of styles made only of natural fibers or lyocell (Tencel), with no more than 5% stretch'+(b.cfl&&b.cfl!=='0'?'; '+b.cfl+' contain lyocell':'')+'.'):'',
+      b.nat!=null?row('natural fibers',b.nat,'Share of styles that are mostly a natural fiber: 5 is all of them, 4 at least 95%, 3 at least 85%, 2 at least 70%.'):'',
       ...Object.entries(FAN).filter(([k])=>b.fa[k]!=null).map(([k,l])=>row(l,b.fa[k],clean(nt[k])))].join(''):'';
-  const dials=(b.f||b.fa)?`<h3>Dials</h3>${focusRows?`<div class="dg">${focusRows}</div>`:''}${fabRows?`<h4>Fabric</h4><div class="dg">${fabRows}</div>`:''}<p class="muted dh">Tap a dial for the reason behind it.${b.fi?' '+esc(b.fi):''}</p>`:'';
+  const dials=(b.f||b.fa)?`<h3>Dials</h3>${focusRows?`<div class="dg">${focusRows}</div>`:''}${fabRows?`<h4>Fabric</h4><div class="dg">${fabRows}</div>`:''}<p class="muted dh">Tap a dial to see why.${b.fi?' '+esc(b.fi):''}</p>`:'';
   document.getElementById('pbody').innerHTML=`
     <h2>${esc(b.n)}</h2>
     <span class="pill ${b.band.split(' ')[0]}">${esc(bandName(b.band))}${b.moved?' · moved':''}</span>
-    ${b.sg?`<p class="basis" style="margin-bottom:4px"><b style="color:var(--ink)">${esc(b.sg)}</b>${b.sg2?` · also ${esc(b.sg2)}`:''}${b.sgc&&b.sgc!=='high'?` <span class="muted">(${esc(b.sgc)} confidence, provisional)</span>`:''}</p>`:''}
+    ${b.sg?`<p class="basis" style="margin-bottom:4px"><b style="color:var(--ink)">${esc(b.sg)}</b>${b.sg2?` · also ${esc(b.sg2)}`:''}</p>`:''}
     <p class="basis">${esc(b.basis)}</p>
-    ${b.moved?`<p class="movenote">Moved by hand to ${esc(bandName(b.band))} on this page. The price rule puts it in ${esc(bandName(b.rule))}.</p>`:''}
-    ${b.rule!=='Pending'?`<div class="moveto"><span class="muted" style="font-size:12px;align-self:center">Move to</span>${ORDER.filter(x=>x!==b.band).map(x=>`<button class="chip" data-move="${esc(x)}">${esc(bandName(x))}</button>`).join('')}${b.moved?'<button class="chip" data-move="">back to the price rule</button>':''}</div>`:''}
+    ${b.moved?`<p class="movenote">You moved this to ${esc(bandName(b.band))}. By price it’s ${esc(bandName(b.rule))}.</p>`:''}
+    ${b.rule!=='Pending'?`<div class="moveto"><span class="muted" style="font-size:12px;align-self:center">Move to</span>${ORDER.filter(x=>x!==b.band).map(x=>`<button class="chip" data-move="${esc(x)}">${esc(bandName(x))}</button>`).join('')}${b.moved?'<button class="chip" data-move="">put back</button>':''}</div>`:''}
     <dl class="kv">
       <dt>Full-price stores</dt><dd>${b.own} in the US${b.ne?` · ${b.ne} in the Northeast`:''}</dd>
-      ${b.out?`<dt>Outlets</dt><dd>${b.out} (not shown)</dd>`:''}
-      ${b.con?`<dt>Concessions</dt><dd>${b.con} (shop-in-shops; not counted)</dd>`:''}
-      ${b.depts?`<dt>Department stores</dt><dd>carried by ${b.depts} of the nine read</dd>`:''}
-      ${b.locator?`<dt>Locator</dt><dd><a href="${esc(b.locator)}" target="_blank" rel="noopener">${esc(b.locator.replace(/^https?:\/\//,'').slice(0,60))}</a></dd>`:''}
-      ${b.read?`<dt>Read</dt><dd>${esc(b.read)}</dd>`:''}
+      ${b.out?`<dt>Outlets</dt><dd>${b.out}</dd>`:''}
+      ${b.con?`<dt>Shops in department stores</dt><dd>${b.con}</dd>`:''}
+      ${b.depts?`<dt>Department stores</dt><dd>Sold at ${b.depts} of 9 checked</dd>`:''}
+      ${b.locator?`<dt>Store finder</dt><dd><a href="${esc(b.locator)}" target="_blank" rel="noopener">${esc(b.locator.replace(/^https?:\/\//,'').slice(0,60))}</a></dd>`:''}
+      ${b.read?`<dt>Checked</dt><dd>${esc(fmtDate(b.read))}</dd>`:''}
     </dl>
     ${aboutHtml(b)}
     ${dials}
-    ${prices?'<h3>Entry and top prices</h3>'+prices+(b.lh?'<p class="muted" style="font-size:12px;margin:-8px 0 16px">Outerwear high not shown: the read high was a leather piece, which is not an elevated material (ruled 14 Oct); the top non-leather piece is to be re-read.</p>':''):''}
-    ${b.stores.length?'<h3>Stores</h3><button class="idxlink">store index: every brand’s stores, by state →</button>'+storeTree(b):'<p class="note">Stores are counted but not addressed for this brand.</p>'}
+    ${prices?'<h3>Starting and top prices</h3>'+prices+(b.lh?'<p class="muted" style="font-size:12px;margin:-8px 0 16px">Top outerwear price to come.</p>':''):''}
+    ${b.stores.length?'<h3>Stores</h3><button class="idxlink">All brands’ stores by state →</button>'+storeTree(b):'<p class="note">Stores are counted but not addressed for this brand.</p>'}
     ${b.note?`<p class="note">${esc(b.note)}</p>`:''}
-    <p class="cav">Full-price, brand-owned stores from the brand’s own locator. Outlets, concessions and pop-ups are held in the register but not shown. What is on the rack changes daily.</p>`;
+    <p class="cav">Full-price stores from the brand’s own website. Outlets and pop-ups aren’t included.</p>`;
   document.getElementById('panel').classList.add('show'); document.getElementById('ov').classList.add('show');
 }
 function closePanel(){document.getElementById('panel').classList.remove('show'); document.getElementById('ov').classList.remove('show');}
@@ -418,10 +419,10 @@ document.getElementById('bands').addEventListener('click',e=>{const b=e.target.c
   if(b.dataset.o) openOther(b.dataset.o); else openBrand(b.dataset.n);});
 function openOther(n){const o=OTHER.find(x=>x.n===n); if(!o) return;
   document.getElementById('pbody').innerHTML=`<h2>${esc(o.n)}</h2><span class="pill">${esc(CATN[o.cat]||o.cat)}</span>
-    <dl class="kv" style="margin-top:14px"><dt>Full-price stores</dt><dd>${o.own==null?'being counted from the brand’s own locator':o.own+' in the US'}</dd>
-    ${o.locator?`<dt>Locator</dt><dd><a href="${esc(o.locator)}" target="_blank" rel="noopener">${esc(o.locator.replace(/^https?:\/\//,'').slice(0,60))}</a></dd>`:''}${o.read?`<dt>Read</dt><dd>${esc(o.read)}</dd>`:''}</dl>
+    <dl class="kv" style="margin-top:14px"><dt>Full-price stores</dt><dd>${o.own==null?'Count coming':o.own+' in the US'}</dd>
+    ${o.locator?`<dt>Store finder</dt><dd><a href="${esc(o.locator)}" target="_blank" rel="noopener">${esc(o.locator.replace(/^https?:\/\//,'').slice(0,60))}</a></dd>`:''}${o.read?`<dt>Checked</dt><dd>${esc(fmtDate(o.read))}</dd>`:''}</dl>
     ${o.stores.length?'<h3>Stores</h3>'+storeTree(o):''}${o.note?`<p class="note">${esc(o.note)}</p>`:''}
-    <p class="cav">Brand-named US stores from the brand’s own locator. Counters and shop-in-shops inside department stores and other retailers are not counted.</p>`;
+    <p class="cav">Stores under the brand’s own name, from its website. Counters inside department stores aren’t included.</p>`;
   document.getElementById('panel').classList.add('show'); document.getElementById('ov').classList.add('show');}
 function setMove(n,band){const b=W.brands.find(x=>x.n===n); if(!b||b.rule==='Pending') return;
   if(!band||band===b.rule) delete MOVES[n]; else MOVES[n]=band; saveMoves(); reband(); renderBands(); renderIdx();}
@@ -466,7 +467,7 @@ function describeState(){const s=stateObj(); const parts=[];
   if(s.sg&&s.sg.length) parts.push(s.sg.join(' or '));
   if(s.q) parts.push(`matches “${s.q}”`);
   parts.push(`band cuts $${s.c1} / $${s.c2}`);
-  const DN={'f.tech':'tech','f.comfort':'comfort','f.craft':'craft','f.style':'style','cf':'natural or lyocell','nat':'natural fibres','fa.cotton':'cotton','fa.silk':'silk','fa.wool':'wool','fa.cashmere':'cashmere','fa.linen':'linen','fa.denim':'denim','fa.synth':'synthetic'};
+  const DN={'f.tech':'tech','f.comfort':'comfort','f.craft':'craft','f.style':'style','cf':'natural or lyocell','nat':'natural fibers','fa.cotton':'cotton','fa.silk':'silk','fa.wool':'wool','fa.cashmere':'cashmere','fa.linen':'linen','fa.denim':'denim','fa.synth':'synthetic'};
   for(const [k,v] of Object.entries(s.d)) parts.push(`${DN[k]||k} at least ${v}`);
   if(s.hd&&s.hd.length) parts.push(`${s.hd.length} brand${s.hd.length===1?'':'s'} removed by hand: ${s.hd.join(', ')}`);
   const mv=W.brands.filter(b=>b.moved); if(mv.length) parts.push(`${mv.length} brand${mv.length===1?'':'s'} placed by hand: `+mv.map(b=>`${b.n} (${bandName(b.rule)} → ${bandName(b.band)})`).join(', '));
@@ -488,13 +489,13 @@ function hashToState(){const m=location.hash.match(/^#v=(.+)$/); if(!m) return n
 function publishPage(){
   const title=(document.getElementById('pubTitle').value||'A view of the Cyprus Brand Set').trim();
   const note=document.getElementById('pubNote').value.trim();
-  const vis=W.brands.filter(matches); if(!vis.length){document.getElementById('pubHint').textContent='Nothing passes these filters.'; return;}
+  const vis=W.brands.filter(matches); if(!vis.length){document.getElementById('pubHint').textContent='No brands match these filters.'; return;}
   const byBand=ORDER.map(b=>[b,vis.filter(x=>x.band===b)]).filter(([,l])=>l.length);
   const stores=vis.reduce((n,b)=>n+b.own,0);
   const DN={tech:'tech',comfort:'comfort',craft:'craft',style:'style'};
   const brandRow=b=>{const a=b.about||{}; const d=b.f?Object.entries(DN).filter(([k])=>b.f[k]!=null).map(([k,l])=>`${l} ${b.f[k]}`).join(' · '):'';
     const fab=b.fa?[b.cf!=null?`natural or lyocell ${b.cf}`:'',b.nat!=null?`natural ${b.nat}`:'',...['cotton','silk','wool','cashmere','linen','denim','synth'].filter(k=>b.fa[k]!=null&&b.fa[k]>=3).map(k=>`${k==='synth'?'synthetic':k} ${b.fa[k]}`)].filter(Boolean).join(' · '):'';
-    return `<div class="br"><div class="bh"><b>${esc(b.n)}${b.moved?` <sup>✱ moved from ${esc(bandName(b.rule))}</sup>`:''}</b><span>${b.own} store${b.own===1?'':'s'}${b.ne?` · ${b.ne} Northeast`:''}</span></div>${b.sg?`<p class="dl">${esc(b.sg)}${b.sg2?' · also '+esc(b.sg2):''}</p>`:''}${a.sells?`<p>${esc(a.sells)}</p>`:''}${d||fab?`<p class="dl">${[d,fab].filter(Boolean).join(' — ')}</p>`:''}</div>`;};
+    return `<div class="br"><div class="bh"><b>${esc(b.n)}${b.moved?` <sup>✱ by price, ${esc(bandName(b.rule))}</sup>`:''}</b><span>${b.own} store${b.own===1?'':'s'}${b.ne?` · ${b.ne} Northeast`:''}</span></div>${b.sg?`<p class="dl">${esc(b.sg)}${b.sg2?' · also '+esc(b.sg2):''}</p>`:''}${a.sells?`<p>${esc(a.sells)}</p>`:''}${d||fab?`<p class="dl">${[d,fab].filter(Boolean).join(' · ')}</p>`:''}</div>`;};
   const byState={}; for(const b of vis) for(const s of b.stores){(byState[s.s]=byState[s.s]||[]).push({b,s});}
   const states=Object.keys(byState).sort((a,c)=>(NE.has(c)-NE.has(a))||(byState[c].length-byState[a].length)||a.localeCompare(c));
   const idx=states.map(st=>`<h3>${esc(ST[st]||st)}${NE.has(st)?' · Northeast':''} <small>${byState[st].length}</small></h3><ul>`+byState[st].sort((x,y)=>x.s.c.localeCompare(y.s.c)||x.b.n.localeCompare(y.b.n)).map(({b,s})=>`<li><b>${esc(b.n)}</b>${s.sn&&s.sn.toLowerCase()!==b.n.toLowerCase()?' · '+esc(s.sn):''}<span>${esc([s.a,s.c,s.s,s.z].filter(Boolean).join(', '))}</span> <a href="${mapUrl(s)}" target="_blank" rel="noopener">map ↗</a></li>`).join('')+'</ul>').join('');
@@ -507,13 +508,13 @@ function publishPage(){
     .idx h3{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint);margin:18px 0 4px}.idx h3 small{font-weight:400}.idx ul{list-style:none}.idx li{display:flex;gap:10px;align-items:baseline;padding:9px 0;line-height:1.6;border-bottom:1px solid var(--hairline);font-size:13px}.idx li span{color:var(--ink-faint);font-size:12.5px;flex:1}.idx li a{color:var(--green);text-decoration:none;font-size:12px;border:1px solid var(--hairline);border-radius:999px;padding:2px 10px}
     sup{color:var(--green);font-size:9px;margin-left:2px}.cav{font-size:11.5px;color:var(--ink-faint);margin-top:36px;border-top:1px solid var(--hairline);padding-top:12px}@media print{body{padding:0}}`;
   const html=`<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${esc(title)}</title><link href="https://fonts.googleapis.com/css2?family=Prata&family=Playfair+Display&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"><style>${css}</style></head><body>
-<h1>${esc(title)}</h1>${note?`<p class="lede">${esc(note)}</p>`:''}<p class="meta">${vis.length} brands · ${stores.toLocaleString()} full-price brand-owned US stores · from The Cyprus Brand Set ${esc(((document.querySelector('.stamp b')||{}).textContent||'').split(' · ')[0])}, published ${new Date().toLocaleDateString('en-US',{day:'numeric',month:'long',year:'numeric'})}</p>
+<h1>${esc(title)}</h1>${note?`<p class="lede">${esc(note)}</p>`:''}<p class="meta">${vis.length} brands · ${stores.toLocaleString()} US stores · from The Cyprus Brand Set ${esc(((document.querySelector('.stamp b')||{}).textContent||'').split(' · ')[0])}, published ${new Date().toLocaleDateString('en-US',{day:'numeric',month:'long',year:'numeric'})}</p>
 <div class="filt"><b>Filters:</b> ${esc(describeState())}</div>
 ${byBand.map(([band,list])=>`<h2>${esc(bandName(band))}<small>${list.length} brand${list.length===1?'':'s'} · ${list.reduce((n,b)=>n+b.own,0).toLocaleString()} stores</small></h2><p class="def">${esc(DEF[band])}</p><p class="run">${list.map(b=>`<span class="bn"><b>${esc(b.n)}</b>${b.moved?'<sup title="placed by hand">✱</sup>':''} ${b.own}</span>`).join('')}</p>`).join('')}
-${(()=>{const ov=OTHER.filter(o=>matchesO(o)&&o.own); if(!ov.length) return ''; return `<h2>Other brands<small>${ov.length} brand${ov.length===1?'':'s'} · ${ov.reduce((n,o)=>n+o.own,0).toLocaleString()} stores</small></h2><p class="def">Beauty, home and jewelry houses with stores of their own, not placed in tiers.</p>`+CATS.map(c=>{const l=ov.filter(o=>o.cat===c); return l.length?`<p class="def" style="margin:10px 0 2px;text-transform:uppercase;letter-spacing:.05em;font-size:11px">${CATN[c]}</p><p class="run">${l.map(o=>`<span class="bn"><b>${esc(o.n)}</b> ${o.own}</span>`).join('')}</p>`:'';}).join('');})()}
-<details class="more"><summary>Brand by brand — what each sells, with its dials</summary>${byBand.map(([band,list])=>`<h2>${esc(bandName(band))}</h2>${list.map(brandRow).join('')}`).join('')}</details>
-<details class="more"><summary>Stores — ${stores.toLocaleString()} across ${states.length} states, Northeast first</summary><div class="idx">${idx}</div></details>
-<p class="cav">Full-price, brand-owned stores from each brand’s own locator; outlets, concessions and pop-ups are not shown. ${W.brands.some(b=>b.moved)?' ✱ marks a brand the author placed by hand, outside the price rule.':''} Bands by the women’s price rule at the cuts above${Object.keys(RENAME).length?' (band names as given by the author)':''}. Dials: tech and craft proposed by the reading threads, comfort and style authored at merge (provisional), fabric figures counted from the styles on each brand’s site. What is on the rack changes daily.</p>
+${(()=>{const ov=OTHER.filter(o=>matchesO(o)&&o.own); if(!ov.length) return ''; return `<h2>Other brands<small>${ov.length} brand${ov.length===1?'':'s'} · ${ov.reduce((n,o)=>n+o.own,0).toLocaleString()} stores</small></h2><p class="def">Beauty, home and jewelry brands with their own stores.</p>`+CATS.map(c=>{const l=ov.filter(o=>o.cat===c); return l.length?`<p class="def" style="margin:10px 0 2px;text-transform:uppercase;letter-spacing:.05em;font-size:11px">${CATN[c]}</p><p class="run">${l.map(o=>`<span class="bn"><b>${esc(o.n)}</b> ${o.own}</span>`).join('')}</p>`:'';}).join('');})()}
+<details class="more"><summary>Brand by brand</summary>${byBand.map(([band,list])=>`<h2>${esc(bandName(band))}</h2>${list.map(brandRow).join('')}`).join('')}</details>
+<details class="more"><summary>${stores.toLocaleString()} stores in ${states.length} states</summary><div class="idx">${idx}</div></details>
+<p class="cav">Store lists from each brand’s own website. Tiers set by the starting price of a blouse and a sweater.${W.brands.some(b=>b.moved)?' ✱ marks a brand placed by hand.':''}${Object.keys(RENAME).length?' Tier names chosen by the author.':''}</p>
 </body></html>`;
   showPublished(html,title,vis.length);
 }
@@ -525,16 +526,16 @@ function showPublished(html,title,n){
   if(!v){v=document.createElement('div'); v.id='pubView'; v.innerHTML=`<div class="pubbar"><button class="chip" id="pubBack">← back to the Brand Set</button><span id="pubTitleBar"></span><span class="sp"></span><button class="chip on" id="pubCopyHtml">copy</button></div><iframe id="pubFrame" title="Published view"></iframe>`; document.body.appendChild(v);
     document.getElementById('pubBack').onclick=()=>{v.classList.remove('show'); document.body.style.overflow='';};
     document.getElementById('pubCopyHtml').onclick=async()=>{const bar=document.getElementById('pubTitleBar');
-      const doc=document.getElementById('pubFrame').contentDocument; const body=doc&&doc.body?doc.body.cloneNode(true):null; if(!body){bar.textContent=PUB.title+' — nothing to copy'; return;}
+      const doc=document.getElementById('pubFrame').contentDocument; const body=doc&&doc.body?doc.body.cloneNode(true):null; if(!body){bar.textContent=PUB.title+' · nothing to copy'; return;}
       body.querySelectorAll('details').forEach(d=>d.remove());  // the dense list only; detail and stores stay on the page
       const html='<div style="font-family:Inter,Arial,sans-serif;font-size:13px;color:#1E1E1B">'+body.innerHTML+'</div>';
-      try{ if(navigator.clipboard&&window.ClipboardItem){ await navigator.clipboard.write([new ClipboardItem({'text/html':new Blob([html],{type:'text/html'}),'text/plain':new Blob([emailText().body],{type:'text/plain'})})]); bar.textContent=PUB.title+' — copied; paste into a doc or an email'; }
-        else { await navigator.clipboard.writeText(emailText().body); bar.textContent=PUB.title+' — copied as text'; } }
-      catch(e){ try{await navigator.clipboard.writeText(emailText().body); bar.textContent=PUB.title+' — copied as text';}catch(e2){bar.textContent=PUB.title+' — could not reach the clipboard';} } };
+      try{ if(navigator.clipboard&&window.ClipboardItem){ await navigator.clipboard.write([new ClipboardItem({'text/html':new Blob([html],{type:'text/html'}),'text/plain':new Blob([emailText().body],{type:'text/plain'})})]); bar.textContent=PUB.title+' · copied. Paste it into a doc or an email.'; }
+        else { await navigator.clipboard.writeText(emailText().body); bar.textContent=PUB.title+' · copied as text'; } }
+      catch(e){ try{await navigator.clipboard.writeText(emailText().body); bar.textContent=PUB.title+' · copied as text';}catch(e2){bar.textContent=PUB.title+' · couldn’t copy';} } };
   }
   document.getElementById('pubFrame').srcdoc=html; document.getElementById('pubTitleBar').textContent=`${title} · ${n} brand${n===1?'':'s'}`;
   v.classList.add('show'); document.body.style.overflow='hidden';
-  document.getElementById('pubHint').textContent='Published. Use “back” to return to the filters; the page is kept until you publish again.';
+  document.getElementById('pubHint').textContent='Done. Use Back to return.';
 }
 document.getElementById('pubGo').onclick=publishPage;
 document.querySelectorAll('.renames input').forEach(i=>i.addEventListener('input',()=>{const v=i.value.trim(); if(v) RENAME[i.dataset.band]=v; else delete RENAME[i.dataset.band]; renderBands();}));
@@ -543,11 +544,11 @@ function emailText(){
   const title=(document.getElementById('pubTitle').value||'A view of the Cyprus Brand Set').trim();
   const note=document.getElementById('pubNote').value.trim();
   const vis=W.brands.filter(matches);
-  const lines=[title,'',note?note+'\n':'',`${vis.length} brands · ${vis.reduce((n,b)=>n+b.own,0).toLocaleString()} full-price brand-owned US stores`,`Filters: ${describeState()}`,''];
+  const lines=[title,'',note?note+'\n':'',`${vis.length} brands · ${vis.reduce((n,b)=>n+b.own,0).toLocaleString()} US stores`,`Filters: ${describeState()}`,''];
   for(const band of ORDER){const l=vis.filter(x=>x.band===band); if(!l.length) continue;
-    lines.push(`${bandName(band).toUpperCase()} — ${l.length} brand${l.length===1?'':'s'}, ${l.reduce((n,b)=>n+b.own,0).toLocaleString()} stores`);
+    lines.push(`${bandName(band).toUpperCase()}: ${l.length} brand${l.length===1?'':'s'}, ${l.reduce((n,b)=>n+b.own,0).toLocaleString()} stores`);
     lines.push(l.map(b=>`${b.n} (${b.own})`).join(', ')); lines.push('');}
-  lines.push('Store counts are full-price, brand-owned US stores from each brand’s own locator. From The Cyprus Brand Set, '+new Date().toLocaleDateString('en-US',{day:'numeric',month:'long',year:'numeric'})+'.');
+  lines.push('Store lists from each brand’s own website. From The Cyprus Brand Set, '+new Date().toLocaleDateString('en-US',{day:'numeric',month:'long',year:'numeric'})+'.');
   return {subject:title,body:lines.filter(x=>x!==null).join('\n')};
 }
 document.getElementById('q').addEventListener('input',e=>{q=e.target.value.trim(); renderBands(); renderIdx();});
