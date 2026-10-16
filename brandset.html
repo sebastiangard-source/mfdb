@@ -39,6 +39,9 @@ h1 .thin{color:var(--ink-faint)}
 .grp{display:flex;gap:6px;flex-wrap:wrap;align-items:center}
 .grp .lbl{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint);margin-right:4px}
 .count{font-size:12.5px;color:var(--ink-faint);margin:0 0 14px}
+.total{font-size:14px;color:var(--ink-soft,var(--ink));margin:0 0 4px}
+.total b{font-family:'Prata',serif;font-weight:400;font-size:24px;color:var(--ink);margin-right:6px}
+.total small{color:var(--ink-faint);font-size:12.5px}
 /* bands */
 .band{border-top:1px solid var(--hairline);padding:18px 0 22px}
 .band h2{font-family:'Prata',serif;font-weight:400;font-size:21px;display:flex;align-items:baseline;gap:12px}
@@ -226,7 +229,7 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
     <h1>The Cyprus <span class="thin">Brand Set</span></h1>
     <p class="lede">Every fashion brand with its own full-price stores in the US, sorted into four price tiers, with every store listed.</p>
   </div>
-  <div class="stamp"><b>v0.44 · <span id="built"></span></b>Store lists from each brand’s own website. Tiers set by the starting price of a blouse and a sweater.</div>
+  <div class="stamp"><b>v0.45 · <span id="built"></span></b>Store lists from each brand’s own website. Tiers set by the starting price of a blouse and a sweater.</div>
 </header>
 
 <div class="layout">
@@ -276,6 +279,7 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
 <div class="content">
 
 
+<p class="total" id="total" aria-live="polite"></p>
 <div id="bands"></div>
 <p class="legend">Lowest price first: <span style="background:var(--basic)"></span><span class="lg" data-b="Basic">Tier 1</span> <span style="background:var(--premium)"></span><span class="lg" data-b="Premium">Tier 2</span> <span style="background:var(--accessible)"></span><span class="lg" data-b="Accessible">Tier 3</span> <span style="background:var(--trueLux)"></span><span class="lg" data-b="True Luxury">Tier 4</span>.</p>
 
@@ -361,6 +365,7 @@ function renderBands(){
       all.map(b=>`<button class="b${b.moved?' moved':''}${matches(b)?'':' out'}" draggable="true" data-n="${esc(b.n)}"${b.moved?` title="moved by hand; the price rule says ${esc(bandName(b.rule))}"`:''}><span class="n">${esc(b.n)}</span><span class="c">${b.own}</span><span class="x" role="button" aria-label="Remove ${esc(b.n)} from this view" title="remove from my view">×</span></button>`).join('')+'</div>';
     host.appendChild(sec);
   }
+  const tShown=shown, tStores=stores, tAll=W.brands.filter(b=>b.band!=='Pending').length;
   if(OTHER.length){
     const vis=OTHER.filter(matchesO); shown+=vis.length; const ost=vis.reduce((n,o)=>n+(o.own||0),0); stores+=ost;
     const counted=OTHER.filter(o=>o.own!=null).length;
@@ -370,6 +375,7 @@ function renderBands(){
     host.appendChild(sec);}
   const br=document.getElementById('breset'); if(br){const m=W.brands.filter(b=>b.moved).length, n=m+HIDE.size; br.textContent=n?`reset brands (${[m?m+' moved':'',HIDE.size?HIDE.size+' removed':''].filter(Boolean).join(', ')})`:'reset brands'; br.disabled=!n;}
   document.querySelectorAll('.segchips .chip').forEach(c=>{const k=c.dataset.sg; const keep=SG_ON; SG_ON=new Set(); const n=W.brands.filter(b=>b.sg===k&&matches(b)).length; SG_ON=keep; c.querySelector('.cn').textContent=n;});
+  {const t=document.getElementById('total'); if(t){const oV=OTHER.filter(matchesO).length; t.innerHTML=`<b>${tShown.toLocaleString()}</b> ${tShown===tAll?'brands':'of '+tAll.toLocaleString()+' brands'} across all tiers · ${tStores.toLocaleString()} US stores`+(oV?` <small>plus ${oV} other brands</small>`:'');}}
   document.getElementById('count').textContent=`${shown} brands · ${stores.toLocaleString()} US stores`;
 }
 function aboutHtml(b){
