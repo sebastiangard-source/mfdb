@@ -266,17 +266,22 @@ def main():
         for f in sorted(glob.glob(os.path.join(ROOT, 'jobs/returns/doors_bhj_2026-10-16/batch*/return_doors.csv'))):
             for r in csv.DictReader(open(f, encoding='utf8')):
                 if r.get('format') == 'own-door' and r.get('status', 'open') == 'open':
-                    od[r['brand']].append({'sn': r.get('store_name', ''), 'a': r.get('street', ''), 'c': r.get('city', ''), 's': r.get('state', ''), 'z': clean(r.get('zip', '')), 'v': clean(r.get('venue', '')), 'op': clean(r.get('operator', ''))})
+                    od[r['brand']].append({'sn': r.get('store_name', ''), 'a': clean(r.get('street', '')), 'c': r.get('city', ''), 's': r.get('state', ''), 'z': clean(r.get('zip', '')), 'v': clean(r.get('venue', '')), 'op': clean(r.get('operator', '')), 'ph': re.sub(r'\D', '', r.get('phone', '') or '')})
         for f in sorted(glob.glob(os.path.join(ROOT, 'jobs/returns/doors_bhj_2026-10-16/batch*/return_counts.csv'))):
             for r in csv.DictReader(open(f, encoding='utf8')):
                 counted[r['brand']] = r
         for r in csv.DictReader(open(wl, encoding='utf8')):
             n = r['brand']; c = counted.get(n)
             seen_addr = set(); st = []
-            for x in od.get(n, []):                       # one door per address (Catbird's Wedding Annex is upstairs in Williamsburg)
-                key = (re.sub(r'\s*\(.*?\)', '', x['a'].lower().split(',')[0]).strip(), x['z'], x['c'].lower())
-                if key in seen_addr: continue
-                seen_addr.add(key); st.append(x)
+            for x in od.get(n, []):
+                # One door per store: the same street and ZIP (Catbird's Wedding Annex is upstairs in Williamsburg), or the
+                # same ZIP and phone (Jo Malone lists stores two or three times). Rows with no street or phone are never merged.
+                keys = set()
+                street = re.sub(r'\s*\(.*?\)', '', (x['a'] or '').lower().split(',')[0]).strip()
+                if street: keys.add(('a', street, x['z'] or x['c'].lower()))
+                if len(x['ph']) >= 10 and x['z']: keys.add(('p', x['ph'][-10:], x['z'][:5]))
+                if keys & seen_addr: continue
+                seen_addr |= keys; x = {k: v for k, v in x.items() if k != 'ph'}; st.append(x)
             own = len(st) if c and (c.get('us_own_stores') or '').strip().upper() not in ('NC', 'HELD', '') else None   # held or unread: still counting
             other.append({'n': n, 'cat': r['category'], 'own': own, 'none': bool(c and (c.get('us_own_stores') or '').strip().upper() == 'NONE'), 'stores': st, 'tier': tier(own) if own else '',
                           'ne': sum(1 for x in st if x['s'] in NE), 'locator': (c or {}).get('locator_url', '') or '', 'read': (c or {}).get('captured_on', '') or '',

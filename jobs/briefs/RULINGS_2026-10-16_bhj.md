@@ -10,3 +10,5 @@
 - Batch 3 merged (fine jewelry, first five home brands). RH held at a slider check (7 of 66 galleries filed; shown as still counting). Aurate has no locator on its own site: NC, still counting.
 - Open for ruling: RH Interior Design (Palm Desert) as an own door; Arhaus "The Loft" (9) own-door or outlet.
 - Batch 4 merged (rest of home, B&B Italia pulled forward). Poltrona Frau "Branded Space" areas inside dealers' showrooms: concessions, as filed. Design Within Reach's Herman Miller and Knoll partner stores: stockists. RH still held.
+- Batch 5 merged (beauty stores and the first fragrance houses). Sephora inside Kohl's: concessions (1,146), not counted. Ulta Beauty inside Target: none on Ulta's directory. Jo Malone London department-store doors under the store's own name: stockists, as ruled in batch 1. Space NK: no US store. Le Labo: locator would not load, NC.
+- One store per door at build: rows are merged when they share a street (and ZIP, or city where no ZIP) or a ZIP and phone. Rows with no street and no phone are never merged (Ulta's directory gives neither).
