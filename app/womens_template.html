@@ -53,6 +53,17 @@ h1 .thin{color:var(--ink-faint)}
 .b.moved{border-style:dashed;border-color:var(--green)}
 .b.moved .n::after{content:"moved";margin-left:6px;font-size:9.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--green);font-weight:600}
 .b.dragging{opacity:.4}
+.tree summary{display:flex;justify-content:space-between;align-items:baseline;cursor:pointer;list-style:none;padding:9px 0;border-bottom:1px solid var(--hairline)}
+.tree summary::-webkit-details-marker{display:none}
+.tree summary span::before{content:"▸";display:inline-block;width:14px;color:var(--ink-faint);transition:transform .15s}
+.tree details[open]>summary span::before{transform:rotate(90deg)}
+.tree summary b,.tree .dh b{font-weight:600;font-variant-numeric:tabular-nums;font-size:12.5px;color:var(--ink-soft)}
+.tree .rg>summary{font-family:'Prata',serif;font-size:16px}
+.tree .stt{margin-left:14px}.tree .stt>summary{font-size:13.5px;font-weight:500}
+.tree .ds{margin:6px 0 10px 28px}
+.tree .dh{display:flex;justify-content:space-between;font-size:12px;letter-spacing:.04em;text-transform:uppercase;color:var(--ink-faint);padding:4px 0}
+.tree .dh .muted{text-transform:none;letter-spacing:0}
+.tree .st li{padding:7px 0}
 .segchips .chip{padding:5px 10px;font-size:12px}
 .segchips .cn{color:var(--ink-faint);font-weight:400;margin-left:2px}
 .segchips .chip.on .cn{color:rgba(255,255,255,.75)}
@@ -166,7 +177,7 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
     <h1>The Cyprus <span class="thin">Brand Set</span></h1>
     <p class="lede">Every brand with a full-price store of its own in the US: the women’s brands, the brands that sell to both, and the men’s-only houses. Placed by price band and shown with their stores, counted from the brands’ own locators.</p>
   </div>
-  <div class="stamp"><b>v0.23 · <span id="built"></span></b>stores counted from the brands’ own locators · bands on blouse and sweater (shirt and sweater for men’s-only and crossover brands)</div>
+  <div class="stamp"><b>v0.24 · <span id="built"></span></b>stores counted from the brands’ own locators · bands on blouse and sweater (shirt and sweater for men’s-only and crossover brands)</div>
 </header>
 
 <div class="layout">
@@ -293,6 +304,24 @@ function aboutHtml(b){
   if(certs.length) rows.push(`<dt>Certified</dt><dd>${certs.join(' · ')}</dd>`);
   return `<h3>About</h3>${a.sells?`<p class="sells">${esc(a.sells)}</p>`:''}<dl class="kv">${rows.join('')}</dl>${a.quote?`<blockquote class="q">“${esc(a.quote)}”<cite>— ${a.qurl?link(a.qurl,a.who):esc(a.who)}</cite></blockquote>`:''}${a.status==='partial'?'<p class="muted" style="font-size:12px">Facts partly read; the owner or a date is still open.</p>':''}`;
 }
+// Stores on the brand panel: region, then state, then shopping district, with totals at each level.
+const REGION={Northeast:['CT','ME','MA','NH','RI','VT','NJ','NY','PA'],South:['DE','DC','FL','GA','MD','NC','SC','VA','WV','AL','KY','MS','TN','AR','LA','OK','TX','PR'],
+  Midwest:['IL','IN','MI','OH','WI','IA','KS','MN','MO','NE','ND','SD'],West:['AZ','CO','ID','MT','NV','NM','UT','WY','AK','CA','HI','OR','WA']};
+const REG_OF={}; for(const [r,l] of Object.entries(REGION)) for(const x of l) REG_OF[x]=r;
+const NOT_VENUE=/^(-|street|not named.*|n\/a|none|nd|nc)$/i;
+function district(s){const v=(s.v||'').trim(); return v&&!NOT_VENUE.test(v)?v:s.c;}
+function storeTree(b){
+  const T={}; for(const s of b.stores){const r=REG_OF[s.s]||'Other'; const d=district(s);
+    ((T[r]=T[r]||{})[s.s]=T[r][s.s]||{})[d]=(T[r][s.s][d]||[]); T[r][s.s][d].push(s);}
+  const n=o=>Array.isArray(o)?o.length:Object.values(o).reduce((a,x)=>a+n(x),0);
+  const byN=o=>Object.keys(o).sort((x,y)=>n(o[y])-n(o[x])||x.localeCompare(y));
+  const order=['Northeast','South','Midwest','West','Other'].filter(r=>T[r]);
+  const one=b.stores.length<=6;
+  return '<div class="tree">'+order.map(r=>`<details class="rg"${one||order.length===1||r==='Northeast'?' open':''}><summary><span>${r}</span><b>${n(T[r])}</b></summary>`+
+    byN(T[r]).map(st=>`<details class="stt"${one?' open':''}><summary><span>${esc(ST[st]||st)}</span><b>${n(T[r][st])}</b></summary>`+
+      byN(T[r][st]).map(d=>{const l=T[r][st][d]; const city=l[0].c; const lab=d===city?esc(d):`${esc(d)} <span class="muted">· ${esc(city)}</span>`;
+        return `<div class="ds"><div class="dh"><span>${lab}</span><b>${l.length}</b></div><ul class="st">`+l.map(s=>{const nm=s.sn&&s.sn.toLowerCase()!==b.n.toLowerCase()&&s.sn!==d&&!/^\d/.test(s.sn)?s.sn:''; return `<li><div>${esc(nm||s.a||b.n)}<div class="where">${esc((nm?[s.a,s.c,s.z]:[s.c,s.z]).filter(Boolean).join(', '))}${s.op&&s.op!=='brand'?' · run by '+esc(s.op):''}</div></div><a href="${mapUrl(s)}" target="_blank" rel="noopener">map ↗</a></li>`;}).join('')+'</ul></div>';}).join('')+'</details>').join('')+'</details>').join('')+'</div>';
+}
 function openBrand(n){
   const b=W.brands.find(x=>x.n===n); if(!b) return;
   const byState={}; for(const s of b.stores){(byState[s.s]=byState[s.s]||[]).push(s);}
@@ -327,7 +356,7 @@ function openBrand(n){
     ${aboutHtml(b)}
     ${dials}
     ${prices?'<h3>Entry and top prices</h3>'+prices+(b.lh?'<p class="muted" style="font-size:12px;margin:-8px 0 16px">Outerwear high not shown: the read high was a leather piece, which is not an elevated material (ruled 14 Oct); the top non-leather piece is to be re-read.</p>':''):''}
-    ${b.stores.length?'<h3>Stores</h3><button class="idxlink">store index: every brand’s stores, by state →</button><ul class="st">'+states.map(st=>`<li class="hd">${ST[st]||st}${NE.has(st)?' · Northeast':''}</li>`+byState[st].sort((x,y)=>x.c.localeCompare(y.c)).map(s=>`<li><div>${esc(s.sn&&s.sn.toLowerCase()!==b.n.toLowerCase()?s.sn:(s.v||b.n))}<div class="where">${esc([s.a,s.c,s.s,s.z].filter(Boolean).join(', '))}${s.op?' · run by '+esc(s.op):''}</div></div><a href="${mapUrl(s)}" target="_blank" rel="noopener">map ↗</a></li>`).join('')).join('')+'</ul>':'<p class="note">Stores are counted but not addressed for this brand.</p>'}
+    ${b.stores.length?'<h3>Stores</h3><button class="idxlink">store index: every brand’s stores, by state →</button>'+storeTree(b):'<p class="note">Stores are counted but not addressed for this brand.</p>'}
     ${b.note?`<p class="note">${esc(b.note)}</p>`:''}
     <p class="cav">Full-price, brand-owned stores from the brand’s own locator. Outlets, concessions and pop-ups are held in the register but not shown. What is on the rack changes daily.</p>`;
   document.getElementById('panel').classList.add('show'); document.getElementById('ov').classList.add('show');

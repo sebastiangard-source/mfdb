@@ -174,7 +174,7 @@ def main():
         brands.append({'n': b['name'], 'band': BAND[b['band']], 'm': m, 'basis': basis, 'own': n,
                        'out': d.get('out', 0) or 0, 'con': d.get('con', 0) or 0, 'tier': tier(n), 'stores': stores, 'ne': sum(1 for s in stores if s['s'] in NE),
                        'locator': '', 'read': (d.get('basis') or '').split(';')[0].strip(), 'mo': kk in menonly,
-                       'note': ('Men’s only: its own US site sells no women’s clothing (crossover pass, 15 Oct 2026). Prices and facts are the men’s record.' if kk in menonly else 'Also on the men’s map; its stores sell both. Prices and facts are the men’s record.'),
+                       'note': 'Prices and facts are from the brand’s men’s record until its women’s prices are read.',
                        'src': 'men', 'prices': prices_of(b), 'lh': False, 'depts': 0, 'about': about_of(b),
                        'f': b.get('focus') or None, 'fa': b.get('fabric') or None, 'gl': {k.lower(): u for k, u in (b.get('garment_links') or {}).items()} or None,
                        'fi': fibre_line(b), 'nt': b.get('notes') or {}, 'nat': natural_of(b), 'cf': clean_of(b), 'cfl': (CF.get(b['name']) or {}).get('clean_with_lyocell')})
