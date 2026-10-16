@@ -201,7 +201,7 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
     <h1>The Cyprus <span class="thin">Brand Set</span></h1>
     <p class="lede">Every brand with a full-price store of its own in the US: the women’s brands, the brands that sell to both, and the men’s-only houses. Placed in four price tiers and shown with their stores, counted from the brands’ own locators.</p>
   </div>
-  <div class="stamp"><b>v0.29 · <span id="built"></span></b>stores counted from the brands’ own locators · tiers on blouse and sweater (shirt and sweater where the women’s price is not yet read)</div>
+  <div class="stamp"><b>v0.30 · <span id="built"></span></b>stores counted from the brands’ own locators · tiers on blouse and sweater (shirt and sweater where the women’s price is not yet read)</div>
 </header>
 
 <div class="layout">
@@ -446,14 +446,16 @@ document.querySelectorAll('#dials label').forEach(l=>{const i=l.querySelector('i
 document.getElementById('dreset').onclick=()=>{document.querySelectorAll('#dials label').forEach(l=>{l.querySelector('input').value=0; l.querySelector('b').textContent='off'; l.classList.remove('on');}); for(const k in DIAL) DIAL[k]=0; renderBands(); renderIdx();};
 (()=>{const n=W.brands.filter(b=>b.f).length; document.getElementById('dialcov').textContent=`Dials read for ${n} of ${W.brands.length} brands so far.`;})();
 // Help: each labelled control carries a small "?" that opens its explanation on click (not on hover).
-(()=>{const tip=document.getElementById('tip'); let cur=null;
+(()=>{const tip=document.getElementById('tip'); let cur=null, pinned=false;
   const place=el=>{const r=el.getBoundingClientRect(); tip.style.left='0px'; tip.style.top='0px'; const w=tip.offsetWidth,hh=tip.offsetHeight;
     let x=r.left-6, y=r.bottom+8; if(x+w>window.innerWidth-8) x=window.innerWidth-8-w; if(x<8) x=8; if(y+hh>window.innerHeight-8) y=r.top-8-hh; tip.style.left=x+'px'; tip.style.top=y+'px';};
-  const hide=()=>{if(cur) cur.setAttribute('aria-expanded','false'); cur=null; tip.classList.remove('show');};
+  const hide=()=>{if(cur) cur.setAttribute('aria-expanded','false'); cur=null; pinned=false; tip.classList.remove('show');};
   const show=(btn,text)=>{if(cur===btn){hide(); return;} hide(); cur=btn; btn.setAttribute('aria-expanded','true'); tip.textContent=text; tip.classList.add('show'); place(btn);};
   document.querySelectorAll('.tt[data-tip]').forEach(el=>{el.removeAttribute('tabindex');
     const q=document.createElement('button'); q.type='button'; q.className='qm'; q.textContent='?'; q.setAttribute('aria-label','What is this?'); q.setAttribute('aria-expanded','false');
-    q.addEventListener('click',e=>{e.preventDefault(); e.stopPropagation(); show(q,el.dataset.tip);});
+    q.addEventListener('click',e=>{e.preventDefault(); e.stopPropagation(); if(cur===q&&!pinned){pinned=true; return;} pinned=true; show(q,el.dataset.tip);});
+    q.addEventListener('mouseenter',()=>{if(!pinned||cur!==q){pinned=false; if(cur!==q) show(q,el.dataset.tip);}});
+    q.addEventListener('mouseleave',()=>{if(!pinned&&cur===q) hide();});
     const b=el.querySelector(':scope > b'); if(b) el.insertBefore(q,b); else el.appendChild(q);});
   document.addEventListener('click',e=>{if(cur&&!e.target.closest('.qm')) hide();});
   document.addEventListener('keydown',e=>{if(e.key==='Escape') hide();});
