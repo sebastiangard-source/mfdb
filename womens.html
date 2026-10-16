@@ -149,6 +149,23 @@ h1 .thin{color:var(--ink-faint)}
 .sells{font-size:14px;line-height:1.5;margin:0 0 10px}
 .q{margin:4px 0 18px;padding:10px 14px;border-left:2px solid var(--green);font-family:'Playfair Display',Georgia,serif;font-style:italic;font-size:15px;line-height:1.5}
 .q cite{display:block;font-family:Inter,system-ui,sans-serif;font-style:normal;font-size:11.5px;color:var(--ink-faint);margin-top:6px}
+.q cite a{color:var(--green)}
+.dg{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:2px 24px;margin:0 0 6px}
+@media (max-width:520px){.dg{grid-template-columns:1fr}}
+.dm summary{display:grid;grid-template-columns:minmax(0,1fr) auto 18px;align-items:center;gap:10px;padding:7px 0;border-bottom:1px solid var(--hairline);cursor:pointer;list-style:none;font-size:13px}
+.dm summary::-webkit-details-marker{display:none}
+.dm[data-empty] summary{cursor:default}
+.dm .dk{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.dm .mt{display:flex;gap:3px}
+.dm .mt i{display:block;width:16px;height:6px;border-radius:3px;background:var(--hairline)}
+.dm .mt i.on{background:var(--green)}
+.dm.five .mt i.on{background:#B9962F}
+.dm b{font-weight:600;font-size:12.5px;text-align:right;font-variant-numeric:tabular-nums;color:var(--ink-soft)}
+.dm[open] summary{border-bottom-color:transparent}
+.dm p{font-size:12px;line-height:1.5;color:var(--ink-soft);margin:0 0 8px;padding:0 0 10px;border-bottom:1px solid var(--hairline)}
+.dm:not([data-empty]) .dk::after{content:" ›";color:var(--ink-faint)}
+.dm[open] .dk::after{content:" ⌄"}
+.dh{font-size:11.5px!important;margin:8px 0 16px!important;line-height:1.5}
 .prices div span{display:block;font-size:11px;color:var(--ink-faint);letter-spacing:.03em;text-transform:uppercase}
 h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
 .st{list-style:none}
@@ -179,7 +196,7 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
     <h1>The Cyprus <span class="thin">Brand Set</span></h1>
     <p class="lede">Every brand with a full-price store of its own in the US: the women’s brands, the brands that sell to both, and the men’s-only houses. Placed in four price tiers and shown with their stores, counted from the brands’ own locators.</p>
   </div>
-  <div class="stamp"><b>v0.26 · <span id="built"></span></b>stores counted from the brands’ own locators · tiers on blouse and sweater (shirt and sweater where the women’s price is not yet read)</div>
+  <div class="stamp"><b>v0.27 · <span id="built"></span></b>stores counted from the brands’ own locators · tiers on blouse and sweater (shirt and sweater where the women’s price is not yet read)</div>
 </header>
 
 <div class="layout">
@@ -336,13 +353,13 @@ function openBrand(n){
   const chip=(lab,v,tip)=>`<span title="${esc(tip||'')}">${lab}<i>${v}</i></span>`;
   const nt=b.nt||{};
   const clean=s=>String(s||'').replace(/\s*—\s*seeded .*$/i,'').replace(/^seeded .*provisional.*$/i,'');
-  const row=(lab,v,note)=>`<div class="nr${v===5?' five':''}"><div class="nk">${esc(lab)} <b>${v}</b>${v===5?'<span class="why5">why a 5</span>':''}</div>${note?`<div class="nv">${esc(note)}</div>`:''}</div>`;
+  const row=(lab,v,note)=>`<details class="dm${v===5?' five':''}"${note?'':' data-empty'}><summary><span class="dk">${esc(lab)}</span><span class="mt">${[1,2,3,4,5].map(x=>`<i class="${x<=v?'on':''}"></i>`).join('')}</span><b>${v}</b></summary>${note?`<p>${esc(note)}</p>`:''}</details>`;
   const focusRows=b.f?Object.entries(FN).filter(([k])=>b.f[k]!=null).map(([k,l])=>row(l,b.f[k],clean(nt[k]))).join(''):'';
   const fabRows=b.fa?[
       b.cf!=null?row('natural or lyocell',b.cf,'share of judged styles whose every fibre is natural or lyocell (Tencel), elastane at 5% or under'+(b.cfl?'; '+b.cfl+' of them contain lyocell':'')+'. Derived, never authored.'):'',
       b.nat!=null?row('natural fibres',b.nat,'share of styles led by a natural fibre, on the men’s cuts (5 all natural, 4 at least 95%, 3 85%, 2 70%). Derived from the fibre read.'):'',
       ...Object.entries(FAN).filter(([k])=>b.fa[k]!=null).map(([k,l])=>row(l,b.fa[k],clean(nt[k])))].join(''):'';
-  const dials=(b.f||b.fa)?`<h3>Dials</h3>${focusRows?`<div class="notes">${focusRows}</div>`:''}${fabRows?`<h4>Fabric</h4><div class="notes">${fabRows}</div>`:''}${b.fi?`<p class="muted" style="font-size:12px;margin:4px 0 14px">${esc(b.fi)}</p>`:''}`:'';
+  const dials=(b.f||b.fa)?`<h3>Dials</h3>${focusRows?`<div class="dg">${focusRows}</div>`:''}${fabRows?`<h4>Fabric</h4><div class="dg">${fabRows}</div>`:''}<p class="muted dh">Tap a dial for the reason behind it.${b.fi?' '+esc(b.fi):''}</p>`:'';
   document.getElementById('pbody').innerHTML=`
     <h2>${esc(b.n)}</h2>
     <span class="pill ${b.band.split(' ')[0]}">${esc(bandName(b.band))}${b.moved?' · moved':''}</span>
