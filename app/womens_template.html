@@ -53,6 +53,9 @@ h1 .thin{color:var(--ink-faint)}
 .b.moved{border-style:dashed;border-color:var(--green)}
 .b.moved .n::after{content:"moved";margin-left:6px;font-size:9.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--green);font-weight:600}
 .b.dragging{opacity:.4}
+.segchips .chip{padding:5px 10px;font-size:12px}
+.segchips .cn{color:var(--ink-faint);font-weight:400;margin-left:2px}
+.segchips .chip.on .cn{color:rgba(255,255,255,.75)}
 .b .mtag{font-size:9.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint);font-weight:600}
 .band.drop{background:rgba(18,59,43,.05);outline:2px dashed var(--green);outline-offset:4px;border-radius:12px}
 .moveto{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 14px}
@@ -163,7 +166,7 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
     <h1>The Cyprus <span class="thin">Brand Set</span></h1>
     <p class="lede">Every brand with a full-price store of its own in the US: the women’s brands, the brands that sell to both, and the men’s-only houses. Placed by price band and shown with their stores, counted from the brands’ own locators.</p>
   </div>
-  <div class="stamp"><b>v0.21 · <span id="built"></span></b>stores counted from the brands’ own locators · bands on blouse and sweater (shirt and sweater for men’s-only and crossover brands)</div>
+  <div class="stamp"><b>v0.22 · <span id="built"></span></b>stores counted from the brands’ own locators · bands on blouse and sweater (shirt and sweater for men’s-only and crossover brands)</div>
 </header>
 
 <div class="layout">
@@ -172,6 +175,7 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
   <input id="q" type="search" placeholder="Brand, town or state">
   <div class="grp"><span class="lbl tt" data-tip="Full-price, brand-owned US stores counted from the brand’s own locator. Outlets, concessions and pop-ups are held in the register and not counted." tabindex="0">Stores</span><div class="chips">
     <button class="chip" data-t="mass">251+</button><button class="chip" data-t="chain">51–250</button><button class="chip" data-t="network">13–50</button><button class="chip" data-t="circuit">4–12</button><button class="chip" data-t="flagship">1–3</button></div><span class="hint" style="font-size:11.5px;color:var(--ink-faint)">Pick any; none picked means all.</span></div>
+  <div class="grp"><span class="lbl tt" data-tip="The style segment each brand sits in: the men’s map’s fifteen plus eight for women’s markets (ruled 15 Oct). Placements below high confidence are provisional. Pick any; none picked means all." tabindex="0">Segment</span><div class="chips segchips"><button class="chip sgc" data-sg="Avant-garde designers">Avant-garde designers <span class="cn"></span></button><button class="chip sgc" data-sg="Hype &amp; drop culture">Hype &amp; drop culture <span class="cn"></span></button><button class="chip sgc" data-sg="Street &amp; sport culture">Street &amp; sport culture <span class="cn"></span></button><button class="chip sgc" data-sg="Signature luxury">Signature luxury <span class="cn"></span></button><button class="chip sgc" data-sg="Runway houses">Runway houses <span class="cn"></span></button><button class="chip sgc" data-sg="Quiet luxury">Quiet luxury <span class="cn"></span></button><button class="chip sgc" data-sg="Rock &amp; rebel">Rock &amp; rebel <span class="cn"></span></button><button class="chip sgc" data-sg="Performance &amp; athleisure">Performance &amp; athleisure <span class="cn"></span></button><button class="chip sgc" data-sg="Tailoring &amp; craft">Tailoring &amp; craft <span class="cn"></span></button><button class="chip sgc" data-sg="Outdoor &amp; coast">Outdoor &amp; coast <span class="cn"></span></button><button class="chip sgc" data-sg="Prep, club &amp; course">Prep, club &amp; course <span class="cn"></span></button><button class="chip sgc" data-sg="Heritage &amp; workwear">Heritage &amp; workwear <span class="cn"></span></button><button class="chip sgc" data-sg="Fashion insider">Fashion insider <span class="cn"></span></button><button class="chip sgc" data-sg="Mainstream contemporary">Mainstream contemporary <span class="cn"></span></button><button class="chip sgc" data-sg="Basics &amp; essentials">Basics &amp; essentials <span class="cn"></span></button><button class="chip sgc" data-sg="Modern minimal">Modern minimal <span class="cn"></span></button><button class="chip sgc" data-sg="Romantic &amp; feminine">Romantic &amp; feminine <span class="cn"></span></button><button class="chip sgc" data-sg="Resort &amp; boho">Resort &amp; boho <span class="cn"></span></button><button class="chip sgc" data-sg="Occasion &amp; evening">Occasion &amp; evening <span class="cn"></span></button><button class="chip sgc" data-sg="Classic &amp; career">Classic &amp; career <span class="cn"></span></button><button class="chip sgc" data-sg="Denim houses">Denim houses <span class="cn"></span></button><button class="chip sgc" data-sg="Intimates, lounge &amp; swim">Intimates, lounge &amp; swim <span class="cn"></span></button><button class="chip sgc" data-sg="Shoes &amp; accessories houses">Shoes &amp; accessories houses <span class="cn"></span></button></div></div>
 </div>
 <div class="cuts">
   <span class="lbl">Band cuts</span>
@@ -249,13 +253,14 @@ const mapUrl=s=>'https://www.google.com/maps/search/?api=1&query='+encodeURIComp
 const ST={AL:'Alabama',AK:'Alaska',AZ:'Arizona',AR:'Arkansas',CA:'California',CO:'Colorado',CT:'Connecticut',DE:'Delaware',DC:'District of Columbia',FL:'Florida',GA:'Georgia',HI:'Hawaii',ID:'Idaho',IL:'Illinois',IN:'Indiana',IA:'Iowa',KS:'Kansas',KY:'Kentucky',LA:'Louisiana',ME:'Maine',MD:'Maryland',MA:'Massachusetts',MI:'Michigan',MN:'Minnesota',MS:'Mississippi',MO:'Missouri',MT:'Montana',NE:'Nebraska',NV:'Nevada',NH:'New Hampshire',NJ:'New Jersey',NM:'New Mexico',NY:'New York',NC:'North Carolina',ND:'North Dakota',OH:'Ohio',OK:'Oklahoma',OR:'Oregon',PA:'Pennsylvania',PR:'Puerto Rico',RI:'Rhode Island',SC:'South Carolina',SD:'South Dakota',TN:'Tennessee',TX:'Texas',UT:'Utah',VT:'Vermont',VA:'Virginia',WA:'Washington',WV:'West Virginia',WI:'Wisconsin',WY:'Wyoming'};
 document.getElementById('built').textContent=new Date(W.built+'T12:00:00').toLocaleDateString('en-US',{day:'numeric',month:'long',year:'numeric'});
 
-let TIERS_ON=new Set(), q='';
+let TIERS_ON=new Set(), SG_ON=new Set(), q='';
 const DIAL={};  // key -> threshold
 function dialGet(b,k){if(!k.includes('.')) return b[k]!=null?b[k]:null; const [g,a]=k.split('.'); const o=b[g]; return o&&o[a]!=null?o[a]:null;}
 function matches(b){
   if(b.band==='Pending') return false;
   for(const k in DIAL){const t=DIAL[k]; if(!t) continue; const v=dialGet(b,k); if(v==null||v<t) return false;}
   if(TIERS_ON.size && !TIERS_ON.has(b.tier)) return false;
+  if(SG_ON.size && !SG_ON.has(b.sg)) return false;
   if(q){const s=q.toLowerCase(); if(!(b.n.toLowerCase().includes(s) || b.stores.some(x=>x.c.toLowerCase().includes(s)||x.s.toLowerCase()===s||(ST[x.s]||'').toLowerCase().includes(s)))) return false;}
   return true;
 }
@@ -270,6 +275,7 @@ function renderBands(){
       all.map(b=>`<button class="b${b.src==='men'?' men':''}${b.moved?' moved':''}${matches(b)?'':' out'}" draggable="true" data-n="${esc(b.n)}"${b.moved?` title="moved by hand; the price rule says ${esc(bandName(b.rule))}"`:''}><span class="n">${esc(b.n)}</span>${b.mo?'<span class="mtag">men’s</span>':''}<span class="c">${b.own}</span></button>`).join('')+'</div>';
     host.appendChild(sec);
   }
+  document.querySelectorAll('.segchips .chip').forEach(c=>{const k=c.dataset.sg; const keep=SG_ON; SG_ON=new Set(); const n=W.brands.filter(b=>b.sg===k&&matches(b)).length; SG_ON=keep; c.querySelector('.cn').textContent=n;});
   document.getElementById('count').textContent=`${shown} brands · ${stores.toLocaleString()} full-price brand-owned US stores shown`;
 }
 function aboutHtml(b){
@@ -306,6 +312,7 @@ function openBrand(n){
   document.getElementById('pbody').innerHTML=`
     <h2>${esc(b.n)}</h2>
     <span class="pill ${b.band.split(' ')[0]}">${esc(bandName(b.band))}${b.moved?' · moved':''}</span>${b.mo?'<span class="pill">men’s only</span>':(b.src==='men'?'<span class="pill">men’s and women’s</span>':'')}
+    ${b.sg?`<p class="basis" style="margin-bottom:4px"><b style="color:var(--ink)">${esc(b.sg)}</b>${b.sg2?` · also ${esc(b.sg2)}`:''}${b.sgc&&b.sgc!=='high'?` <span class="muted">(${esc(b.sgc)} confidence, provisional)</span>`:''}</p>`:''}
     <p class="basis">${esc(b.basis)}</p>
     ${b.moved?`<p class="movenote">Moved by hand to ${esc(bandName(b.band))} on this page. The price rule puts it in ${esc(bandName(b.rule))}.</p>`:''}
     ${b.rule!=='Pending'?`<div class="moveto"><span class="muted" style="font-size:12px;align-self:center">Move to</span>${ORDER.filter(x=>x!==b.band).map(x=>`<button class="chip" data-move="${esc(x)}">${esc(bandName(x))}</button>`).join('')}${b.moved?'<button class="chip" data-move="">back to the price rule</button>':''}</div>`:''}
@@ -338,6 +345,7 @@ function setMove(n,band){const b=W.brands.find(x=>x.n===n); if(!b||b.rule==='Pen
   host.addEventListener('dragleave',e=>{const sec=e.target.closest('.band'); if(sec&&!sec.contains(e.relatedTarget)) sec.classList.remove('drop');});
   host.addEventListener('drop',e=>{const sec=e.target.closest('.band'); if(!sec||!dragN) return; e.preventDefault(); const n=dragN; dragN=null; setMove(n,sec.dataset.band);});})();
 document.getElementById('pbody').addEventListener('click',e=>{const m=e.target.closest('[data-move]'); if(!m) return; const n=document.querySelector('#pbody h2').textContent; setMove(n,m.dataset.move); openBrand(n);});
+document.querySelectorAll('.segchips .chip').forEach(c=>c.onclick=()=>{const k=c.dataset.sg; if(SG_ON.has(k)) SG_ON.delete(k); else SG_ON.add(k); c.classList.toggle('on',SG_ON.has(k)); renderBands(); renderIdx();});
 document.getElementById('mreset').onclick=()=>{for(const k in MOVES) delete MOVES[k]; saveMoves(); reband(); renderBands(); renderIdx();};
 document.querySelectorAll('.chip[data-t]').forEach(c=>c.onclick=()=>{const k=c.dataset.t; if(TIERS_ON.has(k)) TIERS_ON.delete(k); else TIERS_ON.add(k); c.classList.toggle('on',TIERS_ON.has(k)); renderBands(); renderIdx();});
 function onCut(){C1=+document.getElementById('c1').value; C2=Math.max(+document.getElementById('c2').value,C1+50); document.getElementById('c2').value=C2;
@@ -356,10 +364,11 @@ document.getElementById('dreset').onclick=()=>{document.querySelectorAll('#dials
   document.querySelectorAll('.tt[data-tip]').forEach(el=>{el.addEventListener('mouseenter',()=>show(el)); el.addEventListener('mouseleave',hide); el.addEventListener('focus',()=>show(el)); el.addEventListener('blur',hide);});
   document.addEventListener('scroll',()=>{if(cur) place(cur);},true);})();
 // ---- filter state in the URL hash, so a view can be linked and restored ----
-function stateObj(){return {t:[...TIERS_ON],q,c1:C1,c2:C2,mv:Object.fromEntries(W.brands.filter(b=>b.moved).map(b=>[b.n,b.band])),d:Object.fromEntries(Object.entries(DIAL).filter(([k,v])=>v)),r:RENAME};}
+function stateObj(){return {t:[...TIERS_ON],sg:[...SG_ON],q,c1:C1,c2:C2,mv:Object.fromEntries(W.brands.filter(b=>b.moved).map(b=>[b.n,b.band])),d:Object.fromEntries(Object.entries(DIAL).filter(([k,v])=>v)),r:RENAME};}
 function describeState(){const s=stateObj(); const parts=[];
   const TL={mass:'251+ stores',chain:'51–250 stores',network:'13–50 stores',circuit:'4–12 stores',flagship:'1–3 stores'};
   if(s.t.length) parts.push(s.t.map(k=>TL[k]).join(' or '));
+  if(s.sg&&s.sg.length) parts.push(s.sg.join(' or '));
   if(s.q) parts.push(`matches “${s.q}”`);
   parts.push(`band cuts $${s.c1} / $${s.c2}`);
   const DN={'f.tech':'tech','f.comfort':'comfort','f.craft':'craft','f.style':'style','cf':'natural or lyocell','nat':'natural fibres','fa.cotton':'cotton','fa.silk':'silk','fa.wool':'wool','fa.cashmere':'cashmere','fa.linen':'linen','fa.denim':'denim','fa.synth':'synthetic'};
@@ -368,6 +377,7 @@ function describeState(){const s=stateObj(); const parts=[];
   return parts.join(' · ');}
 function applyState(s){try{
   TIERS_ON=new Set(s.t||[]); document.querySelectorAll('.chip[data-t]').forEach(c=>c.classList.toggle('on',TIERS_ON.has(c.dataset.t)));
+  SG_ON=new Set(s.sg||[]); document.querySelectorAll('.segchips .chip').forEach(c=>c.classList.toggle('on',SG_ON.has(c.dataset.sg)));
   q=s.q||''; document.getElementById('q').value=q;
   if(s.c1){document.getElementById('c1').value=s.c1;} if(s.c2){document.getElementById('c2').value=s.c2;}
   C1=+document.getElementById('c1').value; C2=+document.getElementById('c2').value; document.getElementById('c1v').textContent='$'+C1; document.getElementById('c2v').textContent='$'+C2;
@@ -387,7 +397,7 @@ function publishPage(){
   const DN={tech:'tech',comfort:'comfort',craft:'craft',style:'style'};
   const brandRow=b=>{const a=b.about||{}; const d=b.f?Object.entries(DN).filter(([k])=>b.f[k]!=null).map(([k,l])=>`${l} ${b.f[k]}`).join(' · '):'';
     const fab=b.fa?[b.cf!=null?`natural or lyocell ${b.cf}`:'',b.nat!=null?`natural ${b.nat}`:'',...['cotton','silk','wool','cashmere','linen','denim','synth'].filter(k=>b.fa[k]!=null&&b.fa[k]>=3).map(k=>`${k==='synth'?'synthetic':k} ${b.fa[k]}`)].filter(Boolean).join(' · '):'';
-    return `<div class="br"><div class="bh"><b>${esc(b.n)}${b.moved?` <sup>✱ moved from ${esc(bandName(b.rule))}</sup>`:''}</b><span>${b.own} store${b.own===1?'':'s'}${b.ne?` · ${b.ne} Northeast`:''}${b.mo?' · men’s only':(b.src==='men'?' · men’s and women’s':'')}</span></div>${a.sells?`<p>${esc(a.sells)}</p>`:''}${d||fab?`<p class="dl">${[d,fab].filter(Boolean).join(' — ')}</p>`:''}</div>`;};
+    return `<div class="br"><div class="bh"><b>${esc(b.n)}${b.moved?` <sup>✱ moved from ${esc(bandName(b.rule))}</sup>`:''}</b><span>${b.own} store${b.own===1?'':'s'}${b.ne?` · ${b.ne} Northeast`:''}${b.mo?' · men’s only':(b.src==='men'?' · men’s and women’s':'')}</span></div>${b.sg?`<p class="dl">${esc(b.sg)}${b.sg2?' · also '+esc(b.sg2):''}</p>`:''}${a.sells?`<p>${esc(a.sells)}</p>`:''}${d||fab?`<p class="dl">${[d,fab].filter(Boolean).join(' — ')}</p>`:''}</div>`;};
   const byState={}; for(const b of vis) for(const s of b.stores){(byState[s.s]=byState[s.s]||[]).push({b,s});}
   const states=Object.keys(byState).sort((a,c)=>(NE.has(c)-NE.has(a))||(byState[c].length-byState[a].length)||a.localeCompare(c));
   const idx=states.map(st=>`<h3>${esc(ST[st]||st)}${NE.has(st)?' · Northeast':''} <small>${byState[st].length}</small></h3><ul>`+byState[st].sort((x,y)=>x.s.c.localeCompare(y.s.c)||x.b.n.localeCompare(y.b.n)).map(({b,s})=>`<li><b>${esc(b.n)}</b>${s.sn&&s.sn.toLowerCase()!==b.n.toLowerCase()?' · '+esc(s.sn):''}<span>${esc([s.a,s.c,s.s,s.z].filter(Boolean).join(', '))}</span> <a href="${mapUrl(s)}" target="_blank" rel="noopener">map ↗</a></li>`).join('')+'</ul>').join('');
