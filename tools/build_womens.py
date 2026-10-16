@@ -150,7 +150,7 @@ def tidy_note(v):
     # Scoring talk is ours, not the reader's. Drop the clauses and sentences that argue the number.
     v = re.sub(r'\s*\[[^\]]*\]', '', v)
     v = re.sub(r",? so (?:it(?:'|’)s|this is|it sits at) (?:a )?\d\b", '', v)
-    SCORE = re.compile(r"(?i)\bis a \d\b|\b(?:a|an) \d\b|^\d\b|\b\d (?:on|if|until)\b|pending|held at|proposed|rubric|\brule\b|not read|read rendered|\bscor|lifts it|would need")
+    SCORE = re.compile(r"(?i)\bis a \d\b|\b(?:a|an) \d\b|^\d\b|\b\d (?:on|if|until)\b|pending|\bruled\b|held at|proposed|rubric|\brule\b|not read|read rendered|\bscor|lifts it|would need")
     sents = [x for x in re.split(r'(?<=[.!?])\s+', v) if x and not SCORE.search(x)]
     return ' '.join(sents).strip()
 
@@ -277,7 +277,7 @@ def main():
                 key = (re.sub(r'\s*\(.*?\)', '', x['a'].lower().split(',')[0]).strip(), x['z'], x['c'].lower())
                 if key in seen_addr: continue
                 seen_addr.add(key); st.append(x)
-            own = len(st) if c else None
+            own = len(st) if c and (c.get('us_own_stores') or '').strip().upper() not in ('NC', 'HELD', '') else None   # held or unread: still counting
             other.append({'n': n, 'cat': r['category'], 'own': own, 'none': bool(c and (c.get('us_own_stores') or '').strip().upper() == 'NONE'), 'stores': st, 'tier': tier(own) if own else '',
                           'ne': sum(1 for x in st if x['s'] in NE), 'locator': (c or {}).get('locator_url', '') or '', 'read': (c or {}).get('captured_on', '') or '',
                           'note': (c or {}).get('note', '') or ''})

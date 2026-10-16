@@ -55,6 +55,11 @@ Batch 2 is the three watch brands and seven fine/demi-fine jewelry brands. All t
   - Kendra Scott lists Legacy Place and Market Street Lynnfield.
   - Mejuri lists Seaport and Chestnut Hill (27 Boylston St).
 
+## Revisions after review
+
+- **Rolex:** every row's `note` now carries the locator's own name, for example "Locator name: ROLEX BOUTIQUE / LONDON EAST HAMPTON", next to the expanded dealer name in `operator`. Venues now use the locator's wording, for example "Galleria at Tysons II" and "Fashion Valley Mall". The Luxury Swiss Miami and Bachendorf's Dallas venues were reset to `street`, because the locator names no centre for them.
+- **Ana Luisa Upper East Side:** ZIP 11232 is filed as given, and `note` flags it as a Brooklyn ZIP.
+
 ## Batch 1 follow-ups (done)
 
 - `us_stockists` has been added to batch 1. The revised `return_counts.csv`, `return_doors.csv` and `NOTE.md` are in `doors_bhj_batch1`.

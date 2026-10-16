@@ -1,5 +1,7 @@
 # doors_bhj_2026-10-16 · batch 1 (pilot, revised) · 16 Oct 2026
 
+**Second revision (venues and same-address flags).** `venue` now comes only from the locator. Venues I had worked out from street addresses were reset to `street` for Cartier, Bulgari, Van Cleef, Graff, David Yurman, Chopard, Piaget and Boucheron (84 rows changed in total). Where a store name has the form "City - Label", `venue` now holds the label exactly as written. For concessions, `venue` is the host store as named on the locator, for example "Neiman Marcus" or "Saks Fifth Avenue". Boucheron Miami Bal Harbour and Boucheron Saks Bal Harbour share a street address and ZIP, and both rows now say so in `note`.
+
 **Revised after review.** `return_counts.csv` now has `us_stockists`. Boucheron was re-read: the boutique count goes from 3 to 4, and 4 Boucheron-named Saks shops are added as concessions. Everything else is unchanged.
 
 Batch 1 is the ten high-jewelry houses. All ten locators were read in Chrome. `reconcile.py` returned 10 exact matches, 0 rewrites and 0 unmatched. For every brand, the rows in `return_doors.csv` match the counts in `return_counts.csv` (own, outlet and concession), and no cell is empty.
