@@ -44,6 +44,10 @@ SELLER_TAGGED = {'Depop', 'Poshmark', 'Vinted'}
 GENERIC = {'On', 'Sea', 'Purple', 'Represent', 'Elan', 'Rowan', 'Jordan', 'Express', 'Soma', 'Camilla', 'Bode',
            'Still Here', 'CO', 'Eton', 'Greyson', 'ARGENT', 'Palace', 'TWP', 'Toccin', 'Frame', 'HATCH Collection', 'Aether Apparel'}
 LINK_SKIP = {('The RealReal', 'Bulgari')}  # slug not captured before the wall; page never opened
+# Vinted brand families trimmed to the main line (Sebastian, 20 Oct 2026). Alternate spellings of one label stay
+# (Burberrys; Hugo Boss / Boss / BOSS Hugo Boss); sub-lines go. The count is dropped: it was read on the whole family.
+VINTED_MAIN = {'Burberry': ['364', '1755472'], 'Barbour': ['46805'], 'BOSS': ['120', '25383', '6039857'],
+               "Levi's": ['10'], 'Lacoste': ['304'], 'Moncler': ['6539']}
 
 
 def load_links():
@@ -57,7 +61,10 @@ def load_links():
             if site in SELLER_TAGGED and n in GENERIC: continue
             ls = (r.get('listings') or '').strip()
             if ls in ('0',): continue
-            out[n][site] = [r['url'], ls if ls and ls not in ('ND', 'NC', 'NONE') else '']
+            u = r['url']
+            if site == 'Vinted' and n in VINTED_MAIN:
+                u = 'https://www.vinted.com/catalog?catalog[]=1904' + ''.join('&brand_ids[]=' + i for i in VINTED_MAIN[n]); ls = ''
+            out[n][site] = [u, ls if ls and ls not in ('ND', 'NC', 'NONE') else '']
     return {n: [[s] + d[s] for s in LINK_SITES if s in d] for n, d in out.items()}
 
 
