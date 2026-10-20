@@ -101,7 +101,7 @@ def about_of(b):
         m = re.match(r'^[“"](.+?)[”"]\s*[—–-]\s*(.*)$', b['opview'].strip(), re.S)
         if m: quote, who = m.group(1), m.group(2)
     a = {'sells': b.get('why', ''), 'chan': [CH[x] for x in b.get('chan', []) if x in CH], 'founded': origin,
-         'owner': o.get('owner', ''), 'ownerurl': o.get('u', ''), 'sig': one.get('p', ''), 'sigurl': one.get('u', ''), 'pron': b.get('say', ''),
+         'owner': o.get('owner', ''), 'ownerurl': o.get('u', ''), 'sig': one.get('p', ''), 'sigurl': one.get('u', ''), 'pron': '' if (b.get('say') or '').strip() in ('ND', 'NC', 'NONE') else b.get('say', ''),
          'quote': quote, 'who': who, 'qurl': (q or {}).get('u', ''),
          'look': s.get('l', '') if s.get('u') else '', 'lookurl': s.get('u', ''),
          'vinted': (r.get('vinted') or {}).get('u', ''), 'trr': (r.get('therealreal') or {}).get('u', ''), 'grailed': (r.get('grailed') or {}).get('u', ''),

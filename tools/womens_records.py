@@ -115,14 +115,16 @@ def main():
     priced = {}
     for f in sorted(glob.glob(os.path.join(ROOT, 'jobs/returns/prices_womens_2026-10-13/batch*/return.csv'))) + \
              sorted(glob.glob(os.path.join(ROOT, 'jobs/returns/prices_womens_2_2026-10-13/return.csv'))) + \
-             sorted(glob.glob(os.path.join(ROOT, 'jobs/returns/womens_houses_and_held_2026-10-14/part1_womens/return_b_prices.csv'))):
+             sorted(glob.glob(os.path.join(ROOT, 'jobs/returns/womens_houses_and_held_2026-10-14/part1_womens/return_b_prices.csv'))) + \
+             sorted(glob.glob(os.path.join(ROOT, 'jobs/returns/add_*/womens/return_prices.csv'))):  # single-brand adds (Ruti, 20 Oct)
         for r in csv.DictReader(open(f, encoding='utf8')):
             if r['status'] == 'NC' or (r['tee_low'] == 'NC' and r['blouse_low'] == 'NC' and r['sweater_low'] == 'NC' and r['brand'] in priced):
                 continue
             priced[r['brand']] = r
     facts = {}
     ff = os.path.join(ROOT, 'jobs/returns/facts_womens_2026-10-13/return.csv')
-    for ff in (ff, os.path.join(ROOT, 'jobs/returns/womens_houses_and_held_2026-10-14/part1_womens/return_b_facts.csv')):
+    for ff in (ff, os.path.join(ROOT, 'jobs/returns/womens_houses_and_held_2026-10-14/part1_womens/return_b_facts.csv'),
+               *sorted(glob.glob(os.path.join(ROOT, 'jobs/returns/add_*/womens/return_facts.csv')))):
         if os.path.exists(ff):
             facts.update({r['brand']: r for r in csv.DictReader(open(ff, encoding='utf8'))})
     universe = {r['brand']: r for r in csv.DictReader(open(os.path.join(ROOT, 'registers/womens_universe_counted_2026-10-10.csv'), encoding='utf8'))}
@@ -133,12 +135,14 @@ def main():
 
     # womens_dials_2026-10-14: listing links, fibre, fabric, tech and craft, by batch; comfort and style authored
     dials = {}
-    for f in sorted(glob.glob(os.path.join(ROOT, 'jobs/returns/womens_dials_2026-10-14/batch*/return.csv'))):
+    for f in sorted(glob.glob(os.path.join(ROOT, 'jobs/returns/womens_dials_2026-10-14/batch*/return.csv'))) + \
+             sorted(glob.glob(os.path.join(ROOT, 'jobs/returns/add_*/womens/return_dials.csv'))):
         for r in csv.DictReader(open(f, encoding='utf8')):
             dials[r['brand']] = r
     # lyocell apart from the other cellulosics (ruled 15 Oct): shares of the sampled styles with a composition, from the style rows
     cel = collections.defaultdict(lambda: collections.Counter())
-    for f in sorted(glob.glob(os.path.join(ROOT, 'jobs/returns/womens_dials_2026-10-14/batch*/return_styles.csv'))):
+    for f in sorted(glob.glob(os.path.join(ROOT, 'jobs/returns/womens_dials_2026-10-14/batch*/return_styles.csv'))) + \
+             sorted(glob.glob(os.path.join(ROOT, 'jobs/returns/add_*/womens/return_styles.csv'))):
         for r in csv.DictReader(open(f, encoding='utf8')):
             lf = r['lead_fibre'].strip().lower()
             if lf in ('nc', 'nd', '', 'none'): continue
