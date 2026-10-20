@@ -29,7 +29,9 @@ def k(s):
 
 
 # Brands taken off the Other brands list by Sebastian. Paravel: its site is gone, reported shut in 2025 (ruled 20 Oct 2026).
-DROP_OTHER = {'Paravel'}
+DROP_OTHER = {'Paravel', 'Senreve'}  # Senreve: site shows Shopify's 'store unavailable' (ruled 20 Oct)
+# Stores left out by ruling: RH Interior Design and RH Estates are not RH stores (Sebastian, 20 Oct 2026).
+DROP_STORE = [('RH', r'^RH (Interior Design|Estates)\b')]
 
 
 def tier(n):
@@ -335,7 +337,8 @@ def main():
             if n in DROP_OTHER: continue
             seen_addr = set(); st = []
             for x in od.get(n, []):
-                if re.search(r'\bspa at\b', x['sn'], re.I): continue  # a hotel spa is not a store, like a restaurant (ruled 16 Oct)
+                if re.search(r'\bspa at\b', x['sn'], re.I): continue
+                if any(n == bn and re.search(rx, x['sn']) for bn, rx in DROP_STORE): continue  # a hotel spa is not a store, like a restaurant (ruled 16 Oct)
                 # One door per store: the same street and ZIP (Catbird's Wedding Annex is upstairs in Williamsburg), or the
                 # same ZIP and phone (Jo Malone lists stores two or three times). Rows with no street or phone are never merged.
                 keys = set()
