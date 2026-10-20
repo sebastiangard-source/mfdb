@@ -211,6 +211,22 @@ def main():
     for f in (xa, xf):
         if os.path.exists(f):
             ans.update({k(r['brand']): r['womens_clothing'].strip() for r in csv.DictReader(open(f, encoding='utf8'))})
+    # Brands added to the men's map with their women's read in the same job (20 Oct 2026: Stio and Roark).
+    WXP = {}; WXL = {}
+    for job in ('add_stio_cuts_roark_2026-10-19',):
+        xc = os.path.join(ROOT, f'jobs/returns/{job}/part2_womens/return_crossover.csv')
+        if os.path.exists(xc):
+            for r in csv.DictReader(open(xc, encoding='utf8')):
+                ans[k(r['brand'])] = r['womens_clothing'].strip()
+                if r['womens_clothing'].strip() == 'yes': universe.add(k(r['brand']))
+        xd = os.path.join(ROOT, f'jobs/returns/{job}/part2_womens/return_dials.csv')
+        if os.path.exists(xd):
+            for r in csv.DictReader(open(xd, encoding='utf8')):
+                WXL[k(r['brand'])] = {gn.lower(): r[g + '_listing_url'] for gn, g in zip(['T-shirt', 'Blouse', 'Sweater', 'Jeans', 'Trousers', 'Dress', 'Outerwear', 'Shoes'], ['tee', 'blouse', 'sweater', 'jeans', 'trousers', 'dress', 'outerwear', 'shoes']) if r.get(g + '_listing_url', '').startswith('http')}
+        xp = os.path.join(ROOT, f'jobs/returns/{job}/part2_womens/return_prices.csv')
+        if os.path.exists(xp):
+            for r in csv.DictReader(open(xp, encoding='utf8')):
+                WXP[k(r['brand'])] = r
     menonly = {kk for kk, v in ans.items() if v == 'no'}
     universe |= menonly
     doors = collections.defaultdict(list)
@@ -241,12 +257,32 @@ def main():
         st = [x[0] for x in (pr[2] if len(pr) > 2 else None, pr[5] if len(pr) > 5 else None) if isinstance(x, list) and len(x) < 3]
         m = round(sum(st) / len(st)) if st and b['band'] in ('premium', 'accessible', 'trueLux') else None
         basis = (f"men’s dress-shirt and sweater entry, mean ${m}, at the women’s cuts" if m is not None else 'banded on its men’s range (the men’s map)' + ((': ' + b['band_note']) if b.get('band_note') else ''))
-        brands.append({'n': b['name'], 'band': BAND[b['band']], 'm': m, 'basis': basis, 'own': n,
+        note = 'Prices and facts are from the brand’s men’s record until its women’s prices are read.'
+        wp = WXP.get(kk); bandv = BAND[b['band']]; prices = prices_of(b)
+        if wp:
+            # Women's prices read: band on the women's rule as proposed by the thread, prices from the women's range.
+            def cell(g):
+                lo, hi = wp.get(g + '_low', ''), wp.get(g + '_high', '')
+                if lo in ('NONE', '') or wp.get(g + '_basis') == 'NONE': return 'NONE'
+                if lo in ('NC', 'np', 'ND'): return lo
+                try: return [int(round(float(lo))), int(round(float(hi if hi not in ('NC', 'np', 'ND', '') else lo)))]
+                except ValueError: return 'NC'
+            WG = ['tee', 'blouse', 'sweater', 'jeans', 'trousers', 'dress', 'outerwear', 'shoes']
+            prices = {g.lower(): cell(w) for g, w in zip(['T-shirt', 'Blouse', 'Sweater', 'Jeans', 'Trousers', 'Dress', 'Outerwear', 'Shoes'], WG)}
+            tp = {'Tier 1': 'Basic', 'Tier 2': 'Premium', 'Tier 3': 'Accessible', 'Tier 4': 'True Luxury'}
+            bp = re.match(r'Tier [1-4]', wp.get('band_proposed', '').strip())
+            if bp: bandv = tp[bp.group(0)]
+            ent = [prices[g][0] for g in ('blouse', 'sweater') if isinstance(prices.get(g), list)]
+            m = round(sum(ent) / len(ent)) if ent else None
+            basis = (f"women’s blouse and sweater entry, mean ${m}" if m is not None else 'its women’s range') + (', with no sweater' if prices.get('sweater') == 'NONE' else '')
+            note = 'Prices are from the brand’s women’s range; facts are from its men’s record.'
+        gl = WXL.get(kk) if wp else ({k.lower(): u for k, u in (b.get('garment_links') or {}).items()} or None)
+        brands.append({'n': b['name'], 'band': bandv, 'm': m, 'basis': basis, 'own': n,
                        'out': d.get('out', 0) or 0, 'con': d.get('con', 0) or 0, 'tier': tier(n), 'stores': stores, 'ne': sum(1 for s in stores if s['s'] in NE),
                        'locator': '', 'read': (d.get('basis') or '').split(';')[0].strip(), 'mo': kk in menonly,
-                       'note': 'Prices and facts are from the brand’s men’s record until its women’s prices are read.',
-                       'src': 'men', 'prices': prices_of(b), 'lh': False, 'depts': 0, 'about': about_of(b),
-                       'f': b.get('focus') or None, 'fa': b.get('fabric') or None, 'gl': {k.lower(): u for k, u in (b.get('garment_links') or {}).items()} or None,
+                       'note': note,
+                       'src': 'men', 'prices': prices, 'lh': False, 'depts': 0, 'about': about_of(b),
+                       'f': b.get('focus') or None, 'fa': b.get('fabric') or None, 'gl': gl or None,
                        'fi': fibre_line(b), 'nt': b.get('notes') or {}, 'nat': natural_of(b), 'cf': clean_of(b), 'cfl': (CF.get(b['name']) or {}).get('clean_with_lyocell')})
     # Segments (taxonomy ruled 15 Oct 2026: the men's fifteen plus eight new; placements provisional where not high)
     sf = os.path.join(ROOT, 'jobs/returns/brandset_segments_2026-10-15/segments.csv')
