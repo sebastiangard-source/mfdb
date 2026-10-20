@@ -422,9 +422,10 @@ def main():
         subprocess.run(['git', 'worktree', 'add', '-q', wt, 'deploy'], cwd=ROOT, check=True)
         subprocess.run(['git', 'merge', '-q', '--ff-only', 'origin/deploy'], cwd=wt)
         shutil.copy(out, os.path.join(wt, 'womens.html'))
-        shutil.copy(out, os.path.join(wt, 'brandset.html'))       # GitHub Pages address for The Cyprus Brand Set
+        shutil.copy(out, os.path.join(wt, 'brandset.html'))       # earlier GitHub Pages address, kept working
+        shutil.copy(out, os.path.join(wt, 'explorer.html'))       # The Cyprus Brand Explorer (renamed 20 Oct 2026)
         open(os.path.join(wt, '.nojekyll'), 'w').close()           # serve the files as they are, no Jekyll pass
-        subprocess.run(['git', 'add', 'womens.html', 'brandset.html', '.nojekyll'], cwd=wt, check=True)
+        subprocess.run(['git', 'add', 'womens.html', 'brandset.html', 'explorer.html', '.nojekyll'], cwd=wt, check=True)
         ver = (re.search(r'<b>(v[\d.]+) ·', tpl) or [None, '?'])[1]
         subprocess.run(['git', '-c', 'user.name=mfdb', '-c', 'user.email=mfdb@local', 'commit', '-qm', f'deploy womens {ver}'], cwd=wt)
         subprocess.run(['git', 'push', '-q', 'origin', 'HEAD:deploy'], cwd=wt, check=True)
