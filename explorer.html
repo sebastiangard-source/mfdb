@@ -239,8 +239,9 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
 #tour .tx{position:absolute;top:8px;right:10px;border:0;background:none;font-size:22px;line-height:1;color:var(--ink-faint);cursor:pointer;padding:4px}
 #tour .tx:hover{color:var(--ink)}
 #tour .tip h3{padding-right:24px}
-.morelinks{font-size:13px;color:var(--ink-faint);margin:8px 0 0}
-.morelinks a{color:var(--green);text-underline-offset:3px}
+.morelinks{display:flex;flex-wrap:wrap;align-items:center;gap:8px;font-size:13px;color:var(--ink-faint);margin:12px 0 0}
+.morelinks a{display:inline-block;padding:5px 12px;border:1px solid var(--green);border-radius:999px;color:var(--green);text-decoration:none;font-weight:500}
+.morelinks a:hover{background:var(--green);color:#fff}
 .tourlink{display:inline-block;margin-top:8px;background:transparent;border:1px solid var(--green);border-radius:999px;padding:5px 12px;font:inherit;font-size:12px;font-weight:500;color:var(--green);cursor:pointer}
 .tourlink:hover{background:var(--green);color:#fff}
 </style>
@@ -251,9 +252,9 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
   <div>
     <h1>The Cyprus <span class="thin">Brand Explorer</span></h1>
     <p class="lede">Every fashion brand with its own full-price stores in the US, sorted into four price tiers, with every store listed.</p>
-    <p class="morelinks" id="moreLinks">More views: <a href="overlaps.html">How the brand lists overlap</a> · <a href="cake-croissant.html">Brands on CAKE and Croissant</a></p>
+    <p class="morelinks" id="moreLinks"><span>More views</span><a href="overlaps.html">How the brand lists overlap →</a><a href="cake-croissant.html">Brands on CAKE and Croissant →</a></p>
   </div>
-  <div class="stamp"><b>v0.73 · <span id="built"></span></b>Store lists from each brand’s own website. Tiers set by the starting price of a blouse and a sweater.<br><button class="tourlink" id="tourGo">Take the tour</button></div>
+  <div class="stamp"><b>v0.74 · <span id="built"></span></b>Store lists from each brand’s own website. Tiers set by the starting price of a blouse and a sweater.<br><button class="tourlink" id="tourGo">Take the tour</button></div>
 </header>
 
 <div class="layout">
