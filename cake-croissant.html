@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Brands on CAKE and Croissant</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600&family=Fraunces:opsz,wght@9..144,500;9..144,600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#F5F7F7;
+  --ink:#1B2530;
+  --muted:#5A6672;
+  --plum:#7A2E6E;
+  --teal:#1C7C74;
+  --hit:#FFE08A;
+  --rule:#D5DBDD;
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--paper);color:var(--ink);font-family:"Figtree",system-ui,-apple-system,"Segoe UI",sans-serif}
+header{padding:24px 28px 12px;display:flex;flex-wrap:wrap;gap:16px 40px;align-items:flex-end;justify-content:space-between}
+h1{font-family:"Fraunces",Georgia,serif;font-weight:600;font-size:30px;line-height:1.15;margin:0 0 6px;letter-spacing:-0.01em}
+.sub{margin:0;color:var(--muted);font-size:15px;max-width:62ch;line-height:1.5}
+.controls{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+input[type=search]{font:inherit;font-size:15px;padding:8px 12px;border:1px solid var(--rule);border-radius:6px;background:#fff;color:var(--ink);width:220px}
+input[type=search]:focus-visible,button:focus-visible{outline:2px solid var(--teal);outline-offset:2px}
+button{font:inherit;font-size:14px;padding:8px 12px;border:1px solid var(--rule);border-radius:6px;background:#fff;color:var(--ink);cursor:pointer}
+button:hover{border-color:#9AA6AD}
+button[aria-pressed=true]{border-color:var(--teal);box-shadow:inset 0 0 0 1px var(--teal)}
+#status{font-size:14px;color:var(--muted);min-width:90px}
+.legend{padding:0 28px 12px;font-size:14px;color:var(--muted)}
+.legend i{color:var(--ink)}
+#viewport{overflow:auto;border-top:1px solid var(--rule);height:calc(100vh - 150px);min-height:520px}
+#sizer{position:relative}
+#stage{position:absolute;left:0;top:0;width:2100px;height:1370px;transform-origin:0 0}
+#stage svg{position:absolute;left:0;top:0}
+.title{position:absolute;width:600px;text-align:center;top:22px}
+.title b{display:block;font-family:"Fraunces",Georgia,serif;font-weight:600;font-size:44px;line-height:1.1}
+.title span{display:block;font-size:18px;color:var(--muted);margin-top:4px}
+.block{position:absolute;display:flex;align-items:center;justify-content:center}
+ul{list-style:none;margin:0;padding:0}
+.cols{column-count:3;column-gap:20px;width:100%}
+.cols li{break-inside:avoid}
+li{font-size:15px;line-height:21px;font-weight:450;white-space:nowrap;padding:0 4px;border-radius:3px}
+li.r{font-style:italic}
+li a{color:inherit;text-decoration:none}
+li a:hover{text-decoration:underline}
+li a.tt{font-size:10px;font-weight:600;font-style:normal;color:var(--muted);border:1px solid var(--rule);border-radius:3px;padding:0 3px;margin-left:5px;vertical-align:middle;line-height:14px;display:inline-block}
+li a.tt:hover{text-decoration:none;border-color:var(--teal);color:var(--teal)}
+.lens{text-align:center}
+.lens li{line-height:24px;font-size:16px}
+.lenshead{position:absolute;left:920px;width:260px;top:486px;text-align:center}
+.lenshead b{display:block;font-family:"Fraunces",Georgia,serif;font-weight:600;font-size:24px;line-height:1.1}
+.lenshead span{display:block;font-size:15px;color:var(--muted);margin-top:2px}
+li.hit{background:var(--hit)}
+#stage.searching li:not(.hit){opacity:.22}
+@media print{#viewport{height:auto;overflow:visible}.controls{display:none}}
+</style>
+</head>
+<body>
+<nav style="font:500 14px Figtree,system-ui,sans-serif;padding:12px 24px;border-bottom:1px solid #D5DBDD;background:#fff"><a href="explorer.html" onclick="if(document.referrer&&history.length>1){history.back();return false}" style="color:#1C7C74;text-decoration:none">← The Cyprus Brand Explorer</a></nav>
+<header>
+  <div>
+    <h1>Brands on CAKE and Croissant</h1>
+    <p class="sub">Every brand from the CAKE offers page and the Croissant shop page, sorted into the program it appears on. Brands on both sit in the overlap.</p>
+  </div>
+  <div class="controls">
+    <input id="q" type="search" placeholder="Find a brand" aria-label="Find a brand">
+    <span id="status" role="status" aria-live="polite"></span>
+    <button id="fit" type="button" aria-pressed="true">Fit to window</button>
+    <button id="full" type="button" aria-pressed="false">Actual size</button>
+  </div>
+</header>
+<p class="legend">Click a brand name to open its Instagram. <b style="font-weight:600">TT</b> opens its TikTok; no TT means no TikTok account was confirmed. <i>Italic</i> marks multi-brand retailers and marketplaces, which is my judgment, not something either page states. Nine brands marked not relevant are left out.</p>
+<div id="viewport">
+  <div id="sizer">
+    <div id="stage">
+      <svg width="2100" height="1370" viewBox="0 0 2100 1370" role="img" aria-label="Two overlapping circles: CAKE on the left, Croissant on the right">
+        <circle cx="600" cy="730" r="600" fill="#7A2E6E" fill-opacity="0.13" stroke="#7A2E6E" stroke-width="2.5"/>
+        <circle cx="1500" cy="730" r="600" fill="#1C7C74" fill-opacity="0.13" stroke="#1C7C74" stroke-width="2.5"/>
+      </svg>
+      <div class="title" style="left:300px"><b style="color:var(--plum)">CAKE</b><span>114 brands, 101 only on CAKE</span></div>
+      <div class="title" style="left:1200px"><b style="color:var(--teal)">Croissant</b><span>87 brands, 74 only on Croissant</span></div>
+      <div class="block" style="left:190px;top:340px;width:670px;height:780px"><ul id="cake" class="cols"></ul></div>
+      <div class="block" style="left:1240px;top:340px;width:670px;height:780px"><ul id="croi" class="cols"></ul></div>
+      <div class="lenshead"><b>On both</b><span>13 brands</span></div>
+      <div class="block lens" style="left:920px;top:560px;width:260px;height:340px;align-items:flex-start"><ul id="both"></ul></div>
+    </div>
+  </div>
+</div>
+<script>
+var both=["Alice + Olivia","3.1 Phillip Lim","Apparis","For Love & Lemons","Frank & Eileen","Hill House Home","Hunter Bell","Johanna Ortiz","Kirna Zabête","L'AGENCE","Maje","Mansur Gavriel","Veronica Beard"];
+
+var cake=["111 Skin", "Adina Reyter", "Agua Bendita", "Alice Walk", "Alison Lou", "Alix of Bohemia", "Amanda Uprichard", "Another Tomorrow", "Apartment387", "Artless Forever", "Aureum Collective", "Barefaced", "Bessette", "Brooklinen", "Cara Cara", "Casalina", "Cesta Collective", "Ciao Lucia", "Contessa Mills", "Couper", "Cynthia Rowley", "Dr. Diamond's Metacine", "DONNI", "ELEVEN SIX", "Emi Jay", "Favorite Daughter", "Fiametta", "Flabelus", "Fleur du Mal", "Freda Salvador", "Grown Alchemist", "Guizio", "Hart", "Heaven Mayhem", "Herve Leger", "higherdose", "Janessa Leoné", "Jennifer Behr", "Jenny Bird", "Kat Burki", "La Ligne", "Lake and Skye", "Larroudé", "Laura Mercier", "LDMA", "Left On Friday", "Lela Rose", "Leman Mercer", "Leret Leret", "LESET", "Lunya", "M.Gemi", "Manebi", "Marina Moscone", "Market", "Markarian", "Marlo Laz", "Marmalade", "Mignonne Gavigan", "Minnow", "Muse", "Natalie Martin", "Neous", "Nicholas the Label", "Oak Essentials", "Olivela", "PAIGE", "Parachute", "Parke", "PatBO", "R13", "Renggli", "Retrouve", "Ricki Beach Club", "Ring Concierge", "RIXO", "Roller Rabbit", "Ronny Kobo", "Rose Room", "Rosewater House", "Sea NY", "Side Eye", "SIMONMILLER", "soldout.nyc", "Solid and Striped", "Spence", "Splits59", "STAUD", "Stephanie Gottlieb", "Tanya Taylor", "Theory", "Triarchy", "True Botanicals", "U Beauty", "Vee Collective", "Violet Grey", "Vivrelle", "WashWise", "Wonder Valley", "YSE Beauty", "Zadig & Voltaire"];
+
+var croi=["A.L.C.", "A.P.C.", "Abrand Jeans", "Acler", "Aimee Kestenberg", "Alexander McQueen", "Altuzarra", "Amanu", "Anine Bing", "Anthropologie", "AREA", "ASTR The Label", "Bardot", "Bergdorf Goodman", "Bernardelli", "Bloomingdales", "Bogner", "Burberry", "BY FAR", "Câllas Milano", "Cambridge Satchel", "Carl Friedrik", "COS", "Derek Lam", "Diesel", "Dolce Vita", "Eileen Fisher", "Faithfull the Brand", "Farm Rio", "Frame", "FWRD", "Gilt", "Hampden", "Hatch", "Haus of Brilliance", "Isabel Marant", "Jomashop", "Kanuk", "Kate Spade", "Ksubi", "LAPOINTE", "Lee Mathews", "Lole", "Lulus", "Maison Rogue", "Missoni", "Moda Operandi", "myGemma", "Mytheresa", "Naadam", "Neiman Marcus", "Nili Lotan", "Nordstrom", "Posse", "Primm's", "Rag & Bone", "Rboutique", "Reformation", "Revolve", "Robert Barakett", "Rue La La", "Saks Fifth Avenue", "Sandro", "Shop Olivia", "Shopbop", "Significant Other", "Simkhai", "SSENSE", "St. Agni", "Terez", "Tessabit", "Tony Bianco", "White + Warren", "Zappos"];
+
+var retail=["Kirna Zabête", "Olivela", "Market", "Violet Grey", "Bessette", "Bergdorf Goodman", "Bloomingdales", "FWRD", "Gilt", "Jomashop", "Moda Operandi", "Mytheresa", "Neiman Marcus", "Nordstrom", "Rboutique", "Revolve", "Rue La La", "Saks Fifth Avenue", "Shop Olivia", "Shopbop", "SSENSE", "Tessabit", "Zappos"];
+
+var LINKS={"111 Skin": {"ig": "111skin", "tt": "111skin"}, "3.1 Phillip Lim": {"ig": "31philliplim", "tt": "3.1philliplim"}, "A.L.C.": {"ig": "alc_ltd", "tt": "alc_ltd"}, "A.P.C.": {"ig": "apc_paris", "tt": "apc_paris"}, "AREA": {"ig": "area"}, "ASTR The Label": {"ig": "astrthelabel", "tt": "astrthelabel"}, "Abrand Jeans": {"ig": "abrandjeans", "tt": "abrandjeans"}, "Acler": {"ig": "acler"}, "Adina Reyter": {"ig": "adinareyter"}, "Agua Bendita": {"ig": "aguabenditasw"}, "Aimee Kestenberg": {"ig": "aimeekestenberg", "tt": "aimeekestenberg"}, "Alexander McQueen": {"ig": "alexandermcqueen", "tt": "mcqueen"}, "Alice + Olivia": {"ig": "aliceandolivia", "tt": "aliceandolivia"}, "Alice Walk": {"ig": "alice_walk"}, "Alison Lou": {"ig": "alisonlou"}, "Alix of Bohemia": {"ig": "alixofbohemia"}, "Altuzarra": {"ig": "altuzarra"}, "Amanda Uprichard": {"ig": "amandauprichard", "tt": "amandauprichard"}, "Amanu": {"ig": "amanustudio"}, "Anine Bing": {"ig": "aninebingofficial", "tt": "aninebingofficial"}, "Another Tomorrow": {"ig": "anothertomorrow___"}, "Anthropologie": {"ig": "anthropologie", "tt": "anthropologieofficial"}, "Apartment387": {"ig": "apartment.387", "tt": "apartment387"}, "Apparis": {"ig": "apparis"}, "Artless Forever": {"ig": "artlessforever"}, "Aureum Collective": {"ig": "aureum.collective", "tt": "aureumcollective"}, "BY FAR": {"ig": "byfar_official"}, "Bardot": {"ig": "bardot", "tt": "bardot_australia"}, "Barefaced": {"ig": "barefaced", "tt": "barefacedskin"}, "Bergdorf Goodman": {"ig": "bergdorfs"}, "Bernardelli": {"ig": "bernardellistores", "tt": "bernardellistores"}, "Bessette": {"ig": "shopbessette"}, "Bloomingdales": {"ig": "bloomingdales"}, "Bogner": {"ig": "bogner.official"}, "Brooklinen": {"ig": "brooklinen", "tt": "brooklinen"}, "Burberry": {"ig": "burberry", "tt": "burberry"}, "COS": {"ig": "cosstores", "tt": "cos"}, "Cambridge Satchel": {"ig": "cambridge_satchel", "tt": "cambridge_satchel"}, "Cara Cara": {"ig": "caracara_nyc"}, "Carl Friedrik": {"ig": "carlfriedrik"}, "Casalina": {"ig": "shopcasalina"}, "Cesta Collective": {"ig": "cestacollective"}, "Ciao Lucia": {"ig": "ciao__lucia", "tt": "ciao__lucia"}, "Contessa Mills": {"ig": "contessamillsnyc"}, "Couper": {"ig": "couper"}, "Cynthia Rowley": {"ig": "cynthiarowley", "tt": "cynthia_rowley"}, "Câllas Milano": {"ig": "callasmilano"}, "DONNI": {"ig": "donni"}, "Derek Lam": {"ig": "dereklam"}, "Diesel": {"ig": "diesel", "tt": "diesel"}, "Dolce Vita": {"ig": "dolcevita", "tt": "dolcevitaofficial"}, "Dr. Diamond's Metacine": {"ig": "drdiamondsmetacine", "tt": "drdiamondsmetacine"}, "ELEVEN SIX": {"ig": "eleven.six"}, "Eileen Fisher": {"ig": "eileenfisherny", "tt": "eileenfisherny"}, "Emi Jay": {"ig": "emijayinc", "tt": "emijayinc"}, "FWRD": {"ig": "fwrd", "tt": "fwrd"}, "Faithfull the Brand": {"ig": "faithfullthebrand", "tt": "faithfullthebrand"}, "Farm Rio": {"ig": "farmrio", "tt": "farmrio"}, "Favorite Daughter": {"ig": "erinfoster", "tt": "favorite.daughter"}, "Fiametta": {"ig": "fiamettaofficial", "tt": "fiamettaofficial"}, "Flabelus": {"ig": "flabelus", "tt": "flabelus"}, "Fleur du Mal": {"ig": "fleurdumalnyc", "tt": "fleurdumalnyc"}, "For Love & Lemons": {"ig": "forloveandlemons", "tt": "forloveandlemons"}, "Frame": {"ig": "frame", "tt": "frame"}, "Frank & Eileen": {"ig": "frankandeileen"}, "Freda Salvador": {"ig": "fredasalvador", "tt": "fredasalvadorofficial"}, "Gilt": {"ig": "gilt", "tt": "gilt"}, "Grown Alchemist": {"ig": "grownalchemist"}, "Guizio": {"ig": "danielleguizio", "tt": "danielle.guizio"}, "Hampden": {"ig": "hampdenclothing", "tt": "hampdenclothing"}, "Hart": {"ig": "hart_ny"}, "Hatch": {"ig": "hatch.global"}, "Haus of Brilliance": {"ig": "hausofbrilliance"}, "Heaven Mayhem": {"ig": "heavenmayhem_", "tt": "heavenmayhem"}, "Herve Leger": {"ig": "herveleger", "tt": "herveleger"}, "Hill House Home": {"ig": "hillhouse", "tt": "hillhouse"}, "Hunter Bell": {"ig": "hunterbellnyc", "tt": "hunterbellnyc"}, "Isabel Marant": {"ig": "isabelmarant", "tt": "isabelmarant"}, "Janessa Leoné": {"ig": "janessaleone"}, "Jennifer Behr": {"ig": "jenniferbehr"}, "Jenny Bird": {"ig": "_jennybird", "tt": "_jennybird"}, "Johanna Ortiz": {"ig": "johannaortizofficial", "tt": "johannaortizofficial"}, "Jomashop": {"ig": "jomashop"}, "Kanuk": {"ig": "kanuk.official", "tt": "kanuk.official"}, "Kat Burki": {"ig": "katburkiskincare", "tt": "katburki"}, "Kate Spade": {"ig": "katespadeny", "tt": "katespade"}, "Kirna Zabête": {"ig": "kirnazabete"}, "Ksubi": {"ig": "ksubi", "tt": "ksubi_official"}, "L'AGENCE": {"ig": "lagencefashion", "tt": "lagencefashion"}, "LAPOINTE": {"ig": "lapointe", "tt": "lapointe"}, "LDMA": {"ig": "ldmabrand", "tt": "ldmabrand"}, "LESET": {"ig": "leset"}, "La Ligne": {"ig": "lalignenyc", "tt": "lalignenyc"}, "Lake and Skye": {"ig": "lakeandskye", "tt": "lakeandskye"}, "Larroudé": {"ig": "larroude", "tt": "larroude.com"}, "Laura Mercier": {"ig": "lauramercier", "tt": "lauramercier"}, "Lee Mathews": {"ig": "leemathewsau"}, "Left On Friday": {"ig": "leftonfriday", "tt": "leftonfriday"}, "Lela Rose": {"ig": "lelarose"}, "Leman Mercer": {"ig": "lemanmercer", "tt": "lemanmercer"}, "Leret Leret": {"ig": "leretleret", "tt": "leretleret"}, "Lole": {"ig": "lole"}, "Lulus": {"ig": "lulus", "tt": "lulus"}, "Lunya": {"ig": "lunya", "tt": "lunyaofficial"}, "M.Gemi": {"ig": "mgemi", "tt": "mgemiitalia"}, "Maison Rogue": {"ig": "maisonrogue", "tt": "maisonrogue"}, "Maje": {"ig": "majeparis", "tt": "majeparis"}, "Manebi": {"ig": "manebi", "tt": "manebi"}, "Mansur Gavriel": {"ig": "mansurgavriel", "tt": "mansurgavriel"}, "Marina Moscone": {"ig": "marinamoscone"}, "Markarian": {"ig": "markarian_nyc", "tt": "markarian_nyc"}, "Market": {"ig": "mooselimited", "tt": "mltd.com"}, "Marlo Laz": {"ig": "marlolazjewelry"}, "Marmalade": {"ig": "marmaladefreshclothing", "tt": "marmaladefreshclothing"}, "Mignonne Gavigan": {"ig": "mignonnegavigan", "tt": "mignonnegavigan"}, "Minnow": {"ig": "minnow"}, "Missoni": {"ig": "missoni", "tt": "missoniofficial"}, "Moda Operandi": {"ig": "modaoperandi"}, "Muse": {"ig": "muse_apparel", "tt": "shopatmuse"}, "Mytheresa": {"ig": "mytheresa.com"}, "Naadam": {"ig": "naadam.co", "tt": "naadam.co"}, "Natalie Martin": {"ig": "nataliemartincollection", "tt": "nataliemartincollection"}, "Neiman Marcus": {"ig": "neimanmarcus", "tt": "neimanmarcus"}, "Neous": {"ig": "neous"}, "Nicholas the Label": {"ig": "nicholasthelabel"}, "Nili Lotan": {"ig": "nililotan"}, "Nordstrom": {"ig": "nordstrom", "tt": "nordstrom"}, "Oak Essentials": {"ig": "oakessentials", "tt": "oakessentials"}, "Olivela": {"ig": "olivela", "tt": "olivela"}, "PAIGE": {"ig": "paige", "tt": "paige"}, "Parachute": {"ig": "parachutehome", "tt": "parachutehome"}, "Parke": {"ig": "parke", "tt": "parkeofficial"}, "PatBO": {"ig": "patbo", "tt": "patbo"}, "Posse": {"ig": "posse"}, "Primm's": {"ig": "primmsstyle", "tt": "primmsstyle"}, "R13": {"ig": "r13", "tt": "r13.new.york"}, "RIXO": {"ig": "rixo"}, "Rag & Bone": {"ig": "ragandbone", "tt": "ragandbone"}, "Rboutique": {"ig": "rboutique_official"}, "Reformation": {"ig": "reformation", "tt": "reformation"}, "Renggli": {"ig": "rengglistudio", "tt": "rengglistudio"}, "Retrouve": {"ig": "retrouveskin", "tt": "officialretrouve"}, "Revolve": {"ig": "revolve", "tt": "revolve"}, "Ricki Beach Club": {"ig": "rickibeachclub", "tt": "rickibeachclub"}, "Ring Concierge": {"ig": "ringconcierge", "tt": "ringconcierge"}, "Robert Barakett": {"ig": "robertbarakett"}, "Roller Rabbit": {"ig": "rollerrabbitofficial", "tt": "rollerrabbitofficial"}, "Ronny Kobo": {"ig": "ronnykobo"}, "Rose Room": {"ig": "roseroomcollection"}, "Rosewater House": {"ig": "rosewaterhouse_official"}, "Rue La La": {"ig": "ruelala"}, "SIMONMILLER": {"ig": "simonmillerusa", "tt": "simonmillerusa"}, "SSENSE": {"ig": "ssense", "tt": "ssense"}, "STAUD": {"ig": "staud.clothing", "tt": "staud.clothing"}, "Saks Fifth Avenue": {"ig": "saks", "tt": "saks"}, "Sandro": {"ig": "sandroparis", "tt": "sandroparis"}, "Sea NY": {"ig": "seanewyork"}, "Shop Olivia": {"ig": "oliviaboutique", "tt": "shop.oliviabtq"}, "Shopbop": {"ig": "shopbop", "tt": "shopbop"}, "Side Eye": {"ig": "sideeye.nyc"}, "Significant Other": {"ig": "the.significant.other", "tt": "the.significant.other"}, "Simkhai": {"ig": "simkhai"}, "Solid and Striped": {"ig": "solidandstriped"}, "Spence": {"ig": "spence.us"}, "Splits59": {"ig": "splits59"}, "St. Agni": {"ig": "stagnistudio", "tt": "stagnistudio"}, "Stephanie Gottlieb": {"ig": "stephaniegottlieb", "tt": "thestephaniegottlieb"}, "Tanya Taylor": {"ig": "tanyataylor"}, "Terez": {"ig": "terez", "tt": "terez.nyc"}, "Tessabit": {"ig": "tessabit", "tt": "tessabit"}, "Theory": {"ig": "theory__"}, "Tony Bianco": {"ig": "tonybianco", "tt": "tonybianco"}, "Triarchy": {"ig": "triarchy"}, "True Botanicals": {"ig": "truebotanicals", "tt": "truebotanicals"}, "U Beauty": {"ig": "ubeauty", "tt": "ubeauty"}, "Vee Collective": {"ig": "veecollective"}, "Veronica Beard": {"ig": "veronicabeard"}, "Violet Grey": {"ig": "violetgrey", "tt": "violetgrey"}, "Vivrelle": {"ig": "v", "tt": "vivrelle"}, "WashWise": {"ig": "getwashwise", "tt": "washwise"}, "White + Warren": {"ig": "whiteandwarren"}, "Wonder Valley": {"ig": "wondervalley", "tt": "wonder_valley"}, "YSE Beauty": {"ig": "yisebeauty", "tt": "yisebeauty"}, "Zadig & Voltaire": {"ig": "zadigvoltaire", "tt": "zadigvoltaire"}, "Zappos": {"ig": "zappos", "tt": "zappos"}, "higherdose": {"ig": "higherdose", "tt": "higherdose"}, "myGemma": {"ig": "shopmygemma", "tt": "shopmygemma"}, "soldout.nyc": {"ig": "soldout.nyc", "tt": "soldout.nyc"}};
+function srt(a){return a.slice().sort(function(x,y){return x.localeCompare(y,"en",{sensitivity:"base",numeric:true})})}
+function fill(id,arr){
+  var ul=document.getElementById(id);
+  srt(arr).forEach(function(n){
+    var li=document.createElement("li");
+    li.setAttribute("data-n",n);
+    if(retail.indexOf(n)>-1)li.className="r";
+    var l=LINKS[n]||{};
+    var a=document.createElement("a");
+    a.textContent=n;
+    if(l.ig){a.href="https://www.instagram.com/"+l.ig+"/";a.target="_blank";a.rel="noopener";a.title=n+" on Instagram"}
+    li.appendChild(a);
+    if(l.tt){var t=document.createElement("a");t.className="tt";t.textContent="TT";t.href="https://www.tiktok.com/@"+l.tt;t.target="_blank";t.rel="noopener";t.title=n+" on TikTok";t.setAttribute("aria-label",n+" on TikTok");li.appendChild(t)}
+    ul.appendChild(li);
+  });
+}
+fill("both",both);fill("cake",cake);fill("croi",croi);
+
+var W=2100,H=1370,mode="fit";
+var vp=document.getElementById("viewport"),stage=document.getElementById("stage"),sizer=document.getElementById("sizer");
+function apply(){
+  var s=mode==="fit"?Math.min(1.5,(vp.clientWidth-2)/W):1;
+  stage.style.transform="scale("+s+")";
+  sizer.style.width=Math.round(W*s)+"px";
+  sizer.style.height=Math.round(H*s)+"px";
+  document.getElementById("fit").setAttribute("aria-pressed",mode==="fit");
+  document.getElementById("full").setAttribute("aria-pressed",mode==="full");
+}
+document.getElementById("fit").onclick=function(){mode="fit";apply()};
+document.getElementById("full").onclick=function(){mode="full";apply();vp.scrollLeft=0};
+window.addEventListener("resize",apply);
+apply();
+
+function norm(s){return s.normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase()}
+document.getElementById("q").addEventListener("input",function(e){
+  var v=norm(e.target.value.trim()),n=0,first=null;
+  var lis=stage.querySelectorAll("li");
+  lis.forEach(function(li){
+    var m=v&&norm(li.getAttribute("data-n")||"").indexOf(v)>-1;
+    li.classList.toggle("hit",!!m);
+    if(m){n++;if(!first)first=li}
+  });
+  stage.classList.toggle("searching",!!v);
+  document.getElementById("status").textContent=v?(n+(n===1?" match":" matches")):"";
+  if(first&&mode==="full"){first.scrollIntoView({block:"center",inline:"center"})}
+});
+</script>
+</body>
+</html>
