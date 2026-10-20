@@ -16,6 +16,8 @@ The Cyprus Brand Explorer will show each brand's Instagram and TikTok accounts, 
 
 `brand_site` is the brand's own site, the starting point for every brand.
 
+`ig_on_file` and `tt_on_file` hold handles found in earlier work for 29 brands (`NONE` there means that work found no account; `NC` means it never looked). **Treat them as leads, not answers.** Confirm each one against the brand's own site, or by the verified badge and bio link, exactly as for a new find. Where the handle is wrong or has changed, return the right one and say so in `note`. The earlier work took at least one founder's personal account for a brand's, so check.
+
 ## How to find the right account
 
 1. **Start on the brand's own site.** Most sites link their Instagram and TikTok in the footer or header. A link from the brand's own site makes the account official. Record `found_on` = `brand_site`.
