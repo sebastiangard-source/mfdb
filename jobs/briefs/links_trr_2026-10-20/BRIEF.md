@@ -6,7 +6,7 @@ Read `audit_protocol.md` first. This is a Chrome job. If you cannot run a browse
 
 ## Why
 
-Each Brand Set card links to the brand's page on The RealReal. The last pass read TRR's **Women** designer directory and matched 287 brands. Then a press-and-hold check appeared on the **Men** directory, and the pass stopped. That left 178 brands not checked: they weren't in the Women directory, and the other directories went unread. `worklist.csv` lists them, along with Bulgari, whose link was never opened.
+Each Brand Set card links to the brand's page on The RealReal. The last pass read TRR's **Women** designer directory and matched 287 brands. Then a press-and-hold check appeared on the **Men** directory, and the pass stopped. That left 177 brands not checked: they weren't in the Women directory, and the other directories went unread. `worklist.csv` lists them, along with Bulgari, whose link was never opened.
 
 Wrong is worse than missing: a card shows only a link that is right.
 
@@ -50,7 +50,7 @@ Then:
 
 ## Return
 
-- `return.csv` in the columns of `return_template.csv`, one row per worklist brand (179 rows). `site` = `The RealReal`.
+- `return.csv` in the columns of `return_template.csv`, one row per worklist brand (178 rows). `site` = `The RealReal`.
   - `url_kind` is `designer_page` wherever possible.
   - `match` is `exact`, `alias` (with `name_on_site`), `NONE` or `NC`.
 - `NOTE.md`: the pages you read, any wall, and anything doubtful.
