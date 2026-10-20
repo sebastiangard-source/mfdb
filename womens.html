@@ -235,6 +235,10 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
 #tour .tnav .n{font-size:12px;color:var(--ink-faint);margin-right:auto}
 #tour .tnav button{font:inherit;font-size:13px;border-radius:999px;padding:7px 14px;cursor:pointer;border:1px solid var(--hairline);background:transparent;color:var(--ink-soft)}
 #tour .tnav button.go{background:var(--green);border-color:var(--green);color:#fff}
+#tour .tnav button.end{border:0;padding:7px 6px;text-decoration:underline;text-underline-offset:3px;color:var(--ink-faint)}
+#tour .tx{position:absolute;top:8px;right:10px;border:0;background:none;font-size:22px;line-height:1;color:var(--ink-faint);cursor:pointer;padding:4px}
+#tour .tx:hover{color:var(--ink)}
+#tour .tip h3{padding-right:24px}
 .tourlink{display:inline-block;margin-top:8px;background:transparent;border:1px solid var(--green);border-radius:999px;padding:5px 12px;font:inherit;font-size:12px;font-weight:500;color:var(--green);cursor:pointer}
 .tourlink:hover{background:var(--green);color:#fff}
 </style>
@@ -246,7 +250,7 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
     <h1>The Cyprus <span class="thin">Brand Explorer</span></h1>
     <p class="lede">Every fashion brand with its own full-price stores in the US, sorted into four price tiers, with every store listed.</p>
   </div>
-  <div class="stamp"><b>v0.71 · <span id="built"></span></b>Store lists from each brand’s own website. Tiers set by the starting price of a blouse and a sweater.<br><button class="tourlink" id="tourGo">Take the tour</button></div>
+  <div class="stamp"><b>v0.72 · <span id="built"></span></b>Store lists from each brand’s own website. Tiers set by the starting price of a blouse and a sweater.<br><button class="tourlink" id="tourGo">Take the tour</button></div>
 </header>
 
 <div class="layout">
@@ -757,7 +761,7 @@ const TOUR=[
 let TI=0;
 function tourShow(i){TI=i; const st=TOUR[i]; let el=st.t&&st.t(); const T=document.getElementById('tour');
   const spot=T.querySelector('.spot'), tip=T.querySelector('.tip');
-  tip.innerHTML=`<h3>${st.h}</h3><p>${st.p}</p><div class="tnav"><span class="n">${i+1} of ${TOUR.length}</span>${i?'<button data-a="back">Back</button>':'<button data-a="skip">Skip</button>'}<button class="go" data-a="next">${i===TOUR.length-1?'Done':'Next'}</button></div>`;
+  tip.innerHTML=`<button class="tx" data-a="skip" aria-label="End tour" title="End tour">×</button><h3>${st.h}</h3><p>${st.p}</p><div class="tnav"><span class="n">${i+1} of ${TOUR.length}</span>${i<TOUR.length-1?'<button class="end" data-a="skip">End tour</button>':''}${i?'<button data-a="back">Back</button>':''}<button class="go" data-a="next">${i===TOUR.length-1?'Done':'Next'}</button></div>`;
   const place=()=>{const vw=innerWidth, vh=innerHeight, tw=tip.offsetWidth, th=tip.offsetHeight;
     if(!el){spot.style.cssText='left:50%;top:50%;width:0;height:0'; tip.style.left=Math.max(16,(vw-tw)/2)+'px'; tip.style.top=Math.max(16,(vh-th)/2)+'px'; return;}
     const r=el.getBoundingClientRect(), pad=8, h=Math.min(r.height,vh*0.55);
