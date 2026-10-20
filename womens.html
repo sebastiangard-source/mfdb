@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="robots" content="noindex, nofollow, noarchive">
-<title>The Cyprus Brand Set</title>
+<title>The Cyprus Brand Explorer</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Prata&family=Playfair+Display:wght@400;500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -242,10 +242,10 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
 <main>
 <header>
   <div>
-    <h1>The Cyprus <span class="thin">Brand Set</span></h1>
+    <h1>The Cyprus <span class="thin">Brand Explorer</span></h1>
     <p class="lede">Every fashion brand with its own full-price stores in the US, sorted into four price tiers, with every store listed.</p>
   </div>
-  <div class="stamp"><b>v0.68 · <span id="built"></span></b>Store lists from each brand’s own website. Tiers set by the starting price of a blouse and a sweater. <button class="tourlink" id="tourGo">Take the tour</button></div>
+  <div class="stamp"><b>v0.69 · <span id="built"></span></b>Store lists from each brand’s own website. Tiers set by the starting price of a blouse and a sweater. <button class="tourlink" id="tourGo">Take the tour</button></div>
 </header>
 
 <div class="layout">
@@ -305,7 +305,7 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
 </div>
 </main>
 
-<div id="idxView"><div class="pubbar"><button class="chip" id="idxBack">← back to the Brand Set</button><span>Store index</span></div>
+<div id="idxView"><div class="pubbar"><button class="chip" id="idxBack">← back to the Brand Explorer</button><span>Store index</span></div>
 <section class="idx idxpage">
   <p class="def">Every full-price store for the brands you’re looking at, by state.</p>
   <div id="idx"></div>
@@ -619,7 +619,7 @@ function stateToHash(){return '#v='+encodeURIComponent(btoa(unescape(encodeURICo
 function hashToState(){const m=location.hash.match(/^#v=(.+)$/); if(!m) return null; try{return JSON.parse(decodeURIComponent(escape(atob(decodeURIComponent(m[1])))));}catch(e){return null;}}
 // ---- publish: a page of its own for the brands that pass ----
 function publishPage(){
-  const title=(document.getElementById('pubTitle').value||'A view of the Cyprus Brand Set').trim();
+  const title=(document.getElementById('pubTitle').value||'A view of the Cyprus Brand Explorer').trim();
   const note=document.getElementById('pubNote').value.trim();
   const vis=W.brands.filter(matches); if(!vis.length){document.getElementById('pubHint').textContent='No brands match these filters.'; return;}
   const byBand=ORDER.map(b=>[b,vis.filter(x=>x.band===b).sort(byOrder)]).filter(([,l])=>l.length);
@@ -640,14 +640,14 @@ function publishPage(){
     .idx h3{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint);margin:18px 0 4px}.idx h3 small{font-weight:400}.idx ul{list-style:none}.idx li{display:flex;gap:10px;align-items:baseline;padding:9px 0;line-height:1.6;border-bottom:1px solid var(--hairline);font-size:13px}.idx li span{color:var(--ink-faint);font-size:12.5px;flex:1}.idx li a{color:var(--green);text-decoration:none;font-size:12px;border:1px solid var(--hairline);border-radius:999px;padding:2px 10px}
     sup{color:var(--green);font-size:9px;margin-left:2px}.cav{font-size:11.5px;color:var(--ink-faint);margin-top:36px;border-top:1px solid var(--hairline);padding-top:12px}@media print{body{padding:0}}`;
   const html=`<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${esc(title)}</title><link href="https://fonts.googleapis.com/css2?family=Prata&family=Playfair+Display&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"><style>${css}</style></head><body>
-<h1>${esc(title)}</h1>${note?`<p class="lede">${esc(note)}</p>`:''}<p class="meta">${vis.length} brands · ${stores.toLocaleString()} US stores · from The Cyprus Brand Set ${esc(((document.querySelector('.stamp b')||{}).textContent||'').split(' · ')[0])}, published ${new Date().toLocaleDateString('en-US',{day:'numeric',month:'long',year:'numeric'})}</p>
+<h1>${esc(title)}</h1>${note?`<p class="lede">${esc(note)}</p>`:''}<p class="meta">${vis.length} brands · ${stores.toLocaleString()} US stores · from The Cyprus Brand Explorer ${esc(((document.querySelector('.stamp b')||{}).textContent||'').split(' · ')[0])}, published ${new Date().toLocaleDateString('en-US',{day:'numeric',month:'long',year:'numeric'})}</p>
 <div class="filt"><b>Filters:</b> ${esc(describeState())}</div>
 ${byBand.map(([band,list])=>`<h2>${esc(bandName(band))}<small>${list.length} brand${list.length===1?'':'s'} · ${list.reduce((n,b)=>n+b.own,0).toLocaleString()} stores</small></h2><p class="def">${esc(DEF[band])}</p><p class="run">${list.map(b=>`<span class="bn"><b>${esc(b.n)}</b>${b.moved?'<sup title="placed by hand">✱</sup>':''} ${b.own}</span>`).join('')}</p>`).join('')}
 ${(()=>{const ov=OTHER.filter(o=>matchesO(o)&&o.own); if(!ov.length) return ''; return `<h2>Other brands<small>${ov.length} brand${ov.length===1?'':'s'} · ${ov.reduce((n,o)=>n+o.own,0).toLocaleString()} stores</small></h2><p class="def">Jewelry, bags, eyewear, travel, home and beauty brands with their own stores.</p>`+CATS.map(c=>{const l=ov.filter(o=>o.cat===c).sort(byOrder); return l.length?`<p class="def" style="margin:10px 0 2px;text-transform:uppercase;letter-spacing:.05em;font-size:11px">${CATN[c]}</p><p class="run">${l.map(o=>`<span class="bn"><b>${esc(o.n)}</b> ${o.own}</span>`).join('')}</p>`:'';}).join('');})()}
 <details class="more"><summary>Brand by brand</summary>${byBand.map(([band,list])=>`<h2>${esc(bandName(band))}</h2>${list.map(brandRow).join('')}`).join('')}</details>
 <details class="more"><summary>${stores.toLocaleString()} stores in ${states.length} states</summary><div class="idx">${idx}</div></details>
 <p class="cav">Store lists from each brand’s own website. Tiers set by the starting price of a blouse and a sweater.${W.brands.some(b=>b.moved)?' ✱ marks a brand placed by hand.':''}${Object.keys(RENAME).length?' Tier names chosen by the author.':''}</p>
-<p class="cav" style="margin-top:10px;word-break:break-all;font-size:10px;opacity:.7">To open this view in the Brand Set, use Import a view and paste this page. ${encView()}</p><script type="application/json" id="cbs-view">${JSON.stringify(Object.assign(stateObj(),{ti:title,no:note})).replace(/</g,'\\u003c')}<\/script>
+<p class="cav" style="margin-top:10px;word-break:break-all;font-size:10px;opacity:.7">To open this view in the Brand Explorer, use Import a view and paste this page. ${encView()}</p><script type="application/json" id="cbs-view">${JSON.stringify(Object.assign(stateObj(),{ti:title,no:note})).replace(/</g,'\\u003c')}<\/script>
 </body></html>`;
   showPublished(html,title,vis.length);
 }
@@ -656,7 +656,7 @@ let PUB={html:'',title:''};
 function showPublished(html,title,n){
   PUB={html,title};
   let v=document.getElementById('pubView');
-  if(!v){v=document.createElement('div'); v.id='pubView'; v.innerHTML=`<div class="pubbar"><button class="chip" id="pubBack">← back to the Brand Set</button><span id="pubTitleBar"></span><span class="sp"></span><button class="chip" id="pubXls">Excel</button><button class="chip on" id="pubCopyHtml">copy</button></div><iframe id="pubFrame" title="Published view"></iframe>`; document.body.appendChild(v);
+  if(!v){v=document.createElement('div'); v.id='pubView'; v.innerHTML=`<div class="pubbar"><button class="chip" id="pubBack">← back to the Brand Explorer</button><span id="pubTitleBar"></span><span class="sp"></span><button class="chip" id="pubXls">Excel</button><button class="chip on" id="pubCopyHtml">copy</button></div><iframe id="pubFrame" title="Published view"></iframe>`; document.body.appendChild(v);
     document.getElementById('pubBack').onclick=()=>{v.classList.remove('show'); document.body.style.overflow='';};
     document.getElementById('pubXls').onclick=e=>exportXlsx(e.currentTarget,m=>{document.getElementById('pubTitleBar').textContent=PUB.title+' · '+m;});
     document.getElementById('pubCopyHtml').onclick=async()=>{const bar=document.getElementById('pubTitleBar');
@@ -680,7 +680,7 @@ let XLSX_P=null;
 function loadXlsx(){ if(window.XLSX) return Promise.resolve(window.XLSX);
   return XLSX_P||(XLSX_P=new Promise((ok,no)=>{const sc=document.createElement('script'); sc.src='https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js'; sc.onload=()=>ok(window.XLSX); sc.onerror=()=>{XLSX_P=null; no(new Error('load'));}; document.head.appendChild(sc);}));}
 function xlsxBook(X){
-  const title=(document.getElementById('pubTitle').value||'A view of the Cyprus Brand Set').trim();
+  const title=(document.getElementById('pubTitle').value||'A view of the Cyprus Brand Explorer').trim();
   const vis=W.brands.filter(matches), ov=OTHER.filter(o=>matchesO(o));
   const bandsSorted=ORDER.flatMap(band=>vis.filter(b=>b.band===band).sort(byOrder));
   const brands=[['Tier','Brand','US stores','Segment','Placed by hand']].concat(bandsSorted.map(b=>[bandName(b.band),b.n,b.own,b.sg||'',b.moved?'yes':'']));
@@ -689,13 +689,13 @@ function xlsxBook(X){
   const add=(name,tier,st)=>st.forEach(x=>rows.push([name,tier,x.sn||'',x.a||'',x.c||'',x.s||'',x.z||'',REG_OF[x.s]||'',district(x)]));
   bandsSorted.forEach(b=>add(b.n,bandName(b.band),b.stores)); ov.forEach(o=>add(o.n,'Other brands',o.stores||[]));
   const nStores=bandsSorted.reduce((n,b)=>n+b.own,0)+ov.reduce((n,o)=>n+(o.own||0),0);
-  const about=[[title],[],['Brands',bandsSorted.length+ov.length],['US stores',nStores],['Filters',describeState()],['From','The Cyprus Brand Set '+(((document.querySelector('.stamp b')||{}).textContent||'').split(' · ')[0])],['Exported',new Date().toLocaleDateString('en-US',{day:'numeric',month:'long',year:'numeric'})],[],['Store lists from each brand’s own website. Tiers set by the starting price of a blouse and a sweater.']];
+  const about=[[title],[],['Brands',bandsSorted.length+ov.length],['US stores',nStores],['Filters',describeState()],['From','The Cyprus Brand Explorer '+(((document.querySelector('.stamp b')||{}).textContent||'').split(' · ')[0])],['Exported',new Date().toLocaleDateString('en-US',{day:'numeric',month:'long',year:'numeric'})],[],['Store lists from each brand’s own website. Tiers set by the starting price of a blouse and a sweater.']];
   const wb=X.utils.book_new();
   const sh=(aoa,w)=>{const ws=X.utils.aoa_to_sheet(aoa); ws['!cols']=w.map(n=>({wch:n})); return ws;};
   const wsB=sh(brands,[26,28,10,26,14]); wsB['!autofilter']={ref:'A1:E'+brands.length};
   const wsS=sh(rows,[26,10,34,36,18,7,8,10,30]); wsS['!autofilter']={ref:'A1:I'+rows.length};
   X.utils.book_append_sheet(wb,sh(about,[14,90]),'View'); X.utils.book_append_sheet(wb,wsB,'Brands'); X.utils.book_append_sheet(wb,wsS,'Stores');
-  const fn=(title.replace(/[^\w\- ]+/g,'').trim().replace(/\s+/g,' ')||'Cyprus Brand Set')+'.xlsx';
+  const fn=(title.replace(/[^\w\- ]+/g,'').trim().replace(/\s+/g,' ')||'Cyprus Brand Explorer')+'.xlsx';
   return {data:new Uint8Array(X.write(wb,{bookType:'xlsx',type:'array'})),fn};}
 async function exportXlsx(btn,say){
   const lab=btn.textContent; btn.disabled=true; btn.textContent='preparing…';
@@ -709,14 +709,14 @@ document.getElementById('xlsGo').onclick=e=>exportXlsx(e.currentTarget,m=>{docum
 document.querySelectorAll('.renames input').forEach(i=>i.addEventListener('input',()=>{const v=i.value.trim(); if(v) RENAME[i.dataset.band]=v; else delete RENAME[i.dataset.band]; renderBands();}));
 // ---- email: a compact plain-text draft of the same view ----
 function emailText(){
-  const title=(document.getElementById('pubTitle').value||'A view of the Cyprus Brand Set').trim();
+  const title=(document.getElementById('pubTitle').value||'A view of the Cyprus Brand Explorer').trim();
   const note=document.getElementById('pubNote').value.trim();
   const vis=W.brands.filter(matches);
   const lines=[title,'',note?note+'\n':'',`${vis.length} brands · ${vis.reduce((n,b)=>n+b.own,0).toLocaleString()} US stores`,`Filters: ${describeState()}`,''];
   for(const band of ORDER){const l=vis.filter(x=>x.band===band).sort(byOrder); if(!l.length) continue;
     lines.push(`${bandName(band).toUpperCase()}: ${l.length} brand${l.length===1?'':'s'}, ${l.reduce((n,b)=>n+b.own,0).toLocaleString()} stores`);
     lines.push(l.map(b=>`${b.n} (${b.own})`).join(', ')); lines.push('');}
-  lines.push('Store lists from each brand’s own website. From The Cyprus Brand Set, '+new Date().toLocaleDateString('en-US',{day:'numeric',month:'long',year:'numeric'})+'.');
+  lines.push('Store lists from each brand’s own website. From The Cyprus Brand Explorer, '+new Date().toLocaleDateString('en-US',{day:'numeric',month:'long',year:'numeric'})+'.');
   lines.push('', encView());
   return {subject:title,body:lines.filter(x=>x!==null).join('\n')};
 }
@@ -742,7 +742,7 @@ document.getElementById('idx').addEventListener('click',e=>{const b=e.target.clo
 
 // ---- First-load tour of the controls (Sebastian, 20 Oct 2026). Shown once per browser; "Take the tour" reopens it. ----
 const TOUR=[
- {t:null,h:'The Cyprus Brand Set',p:'Every fashion brand with full-price stores of its own in the US, sorted by price into four tiers, with every store listed. This short tour shows the controls. It takes about a minute.'},
+ {t:null,h:'The Cyprus Brand Explorer',p:'Every fashion brand with full-price stores of its own in the US, sorted by price into four tiers, with every store listed. This short tour shows the controls. It takes about a minute.'},
  {t:()=>document.querySelector('#bands .band'),h:'Four price tiers',p:'Each brand sits in a tier set by what its women’s blouse and sweater start at. Tier 1 is mass market and Tier 4 is the luxury houses. The number on each brand is its count of full-price US stores.'},
  {t:()=>document.querySelector('#total'),h:'What you’re looking at',p:'This line counts the brands and stores that pass your filters. It changes as you filter.'},
  {t:()=>document.querySelectorAll('.controls .grp')[0],h:'Store count',p:'Filter by how many full-price stores a brand runs. The page opens on brands with five or more. Tap 1–4 to add the smallest brands, which are nearly all in New York and Los Angeles.'},
