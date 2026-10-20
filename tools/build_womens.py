@@ -28,6 +28,10 @@ def k(s):
     return re.sub(r'[^a-z0-9]', '', unicodedata.normalize('NFKD', s).encode('ascii', 'ignore').decode().lower())
 
 
+# Brands taken off the Other brands list by Sebastian. Paravel: its site is gone, reported shut in 2025 (ruled 20 Oct 2026).
+DROP_OTHER = {'Paravel'}
+
+
 def tier(n):
     if n is None: return 'NC'
     if n == 0: return 'none'
@@ -323,6 +327,7 @@ def main():
                 counted[r['brand']] = r
         for r in csv.DictReader(open(wl, encoding='utf8')):
             n = r['brand']; c = counted.get(n)
+            if n in DROP_OTHER: continue
             seen_addr = set(); st = []
             for x in od.get(n, []):
                 if re.search(r'\bspa\b', x['sn'], re.I): continue  # a hotel spa is not a store, like a restaurant (ruled 16 Oct)
