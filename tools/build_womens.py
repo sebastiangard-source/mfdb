@@ -212,7 +212,7 @@ def main():
         if os.path.exists(f):
             ans.update({k(r['brand']): r['womens_clothing'].strip() for r in csv.DictReader(open(f, encoding='utf8'))})
     # Brands added to the men's map with their women's read in the same job (20 Oct 2026: Stio and Roark).
-    WXP = {}; WXL = {}
+    WXP = {}; WXL = {}; XOFF = []
     for job in ('add_stio_cuts_roark_2026-10-19',):
         xc = os.path.join(ROOT, f'jobs/returns/{job}/part2_womens/return_crossover.csv')
         if os.path.exists(xc):
@@ -226,6 +226,13 @@ def main():
         xp = os.path.join(ROOT, f'jobs/returns/{job}/part2_womens/return_prices.csv')
         if os.path.exists(xp):
             for r in csv.DictReader(open(xp, encoding='utf8')):
+                WXP[k(r['brand'])] = r
+    # Crossover women's price pass (prices_crossovers_2026-10-15, merged 20 Oct 2026): crossovers band on what they
+    # charge women. Held rows with no band stay on their men's prices.
+    xcp = os.path.join(ROOT, 'jobs/returns/prices_crossovers_2026-10-15/return.csv')
+    if os.path.exists(xcp):
+        for r in csv.DictReader(open(xcp, encoding='utf8')):
+            if r['band_proposed'].strip() in ('Basic', 'Premium', 'Accessible', 'True Luxury') and k(r['brand']) not in WXP:
                 WXP[k(r['brand'])] = r
     menonly = {kk for kk, v in ans.items() if v == 'no'}
     universe |= menonly
@@ -270,12 +277,18 @@ def main():
             WG = ['tee', 'blouse', 'sweater', 'jeans', 'trousers', 'dress', 'outerwear', 'shoes']
             prices = {g.lower(): cell(w) for g, w in zip(['T-shirt', 'Blouse', 'Sweater', 'Jeans', 'Trousers', 'Dress', 'Outerwear', 'Shoes'], WG)}
             tp = {'Tier 1': 'Basic', 'Tier 2': 'Premium', 'Tier 3': 'Accessible', 'Tier 4': 'True Luxury'}
-            bp = re.match(r'Tier [1-4]', wp.get('band_proposed', '').strip())
-            if bp: bandv = tp[bp.group(0)]
+            bp = wp.get('band_proposed', '').strip()
+            mt = re.match(r'Tier [1-4]', bp)
+            if mt: bandv = tp[mt.group(0)]
+            elif bp in ('Basic', 'Premium', 'Accessible', 'True Luxury'): bandv = bp
             ent = [prices[g][0] for g in ('blouse', 'sweater') if isinstance(prices.get(g), list)]
             m = round(sum(ent) / len(ent)) if ent else None
-            basis = (f"women’s blouse and sweater entry, mean ${m}" if m is not None else 'its women’s range') + (', with no sweater' if prices.get('sweater') == 'NONE' else '')
-            note = 'Prices are from the brand’s women’s range; facts are from its men’s record.'
+            mband = None if m is None else ('Premium' if m < 200 else 'Accessible' if m <= 600 else 'True Luxury')
+            if bandv == 'Basic' or (mband and mband != bandv):
+                if bandv != 'Basic': XOFF.append((b['name'], bandv, m))
+                m = None  # the band is the proposal, not the mean at the cuts; the tier sliders leave it where it is
+            basis = (f"women’s blouse and sweater entry, mean ${m}" if m is not None else ('a women’s tee at $35 or less and a blouse under $80' if bandv == 'Basic' else 'its women’s range')) + (', with no sweater' if prices.get('sweater') == 'NONE' else '')
+            note = 'Prices are from the brand’s women’s range.'
         gl = WXL.get(kk) if wp else ({k.lower(): u for k, u in (b.get('garment_links') or {}).items()} or None)
         brands.append({'n': b['name'], 'band': bandv, 'm': m, 'basis': basis, 'own': n,
                        'out': d.get('out', 0) or 0, 'con': d.get('con', 0) or 0, 'tier': tier(n), 'stores': stores, 'ne': sum(1 for s in stores if s['s'] in NE),
@@ -284,6 +297,7 @@ def main():
                        'src': 'men', 'prices': prices, 'lh': False, 'depts': 0, 'about': about_of(b),
                        'f': b.get('focus') or None, 'fa': b.get('fabric') or None, 'gl': gl or None,
                        'fi': fibre_line(b), 'nt': b.get('notes') or {}, 'nat': natural_of(b), 'cf': clean_of(b), 'cfl': (CF.get(b['name']) or {}).get('clean_with_lyocell')})
+    if XOFF: print('women\'s band differs from the blouse-and-sweater mean:', XOFF)
     # Segments (taxonomy ruled 15 Oct 2026: the men's fifteen plus eight new; placements provisional where not high)
     sf = os.path.join(ROOT, 'jobs/returns/brandset_segments_2026-10-15/segments.csv')
     if os.path.exists(sf):
