@@ -330,11 +330,14 @@ def main():
             if n in DROP_OTHER: continue
             seen_addr = set(); st = []
             for x in od.get(n, []):
-                if re.search(r'\bspa\b', x['sn'], re.I): continue  # a hotel spa is not a store, like a restaurant (ruled 16 Oct)
+                if re.search(r'\bspa at\b', x['sn'], re.I): continue  # a hotel spa is not a store, like a restaurant (ruled 16 Oct)
                 # One door per store: the same street and ZIP (Catbird's Wedding Annex is upstairs in Williamsburg), or the
                 # same ZIP and phone (Jo Malone lists stores two or three times). Rows with no street or phone are never merged.
                 keys = set()
                 street = re.sub(r'\s*\(.*?\)', '', (x['a'] or '').lower().split(',')[0]).strip()
+                # Airport stores share the airport's street address; the concourse or terminal tells them apart (Tumi at ATL, 20 Oct).
+                if re.search(r'\b(concourse|terminal [a-z0-9]|gate|connector|headhouse)\b', (x['a'] or '').lower()):
+                    street = (x['a'] or '').lower().strip()
                 if street: keys.add(('a', street, x['z'] or x['c'].lower()))
                 if len(x['ph']) >= 10 and x['z']: keys.add(('p', x['ph'][-10:], x['z'][:5]))
                 if keys & seen_addr: continue
