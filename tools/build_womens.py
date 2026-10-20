@@ -31,7 +31,7 @@ def k(s):
 def tier(n):
     if n is None: return 'NC'
     if n == 0: return 'none'
-    if n <= 3: return 'flagship'
+    if n <= 4: return 'flagship'
     if n <= 12: return 'circuit'
     if n <= 50: return 'network'
     if n <= 250: return 'chain'

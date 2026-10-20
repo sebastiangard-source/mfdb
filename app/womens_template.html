@@ -231,7 +231,7 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
     <h1>The Cyprus <span class="thin">Brand Set</span></h1>
     <p class="lede">Every fashion brand with its own full-price stores in the US, sorted into four price tiers, with every store listed.</p>
   </div>
-  <div class="stamp"><b>v0.53 · <span id="built"></span></b>Store lists from each brand’s own website. Tiers set by the starting price of a blouse and a sweater.</div>
+  <div class="stamp"><b>v0.54 · <span id="built"></span></b>Store lists from each brand’s own website. Tiers set by the starting price of a blouse and a sweater.</div>
 </header>
 
 <div class="layout">
@@ -256,7 +256,7 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
 <div class="controls">
   <input id="q" type="search" placeholder="Brand, town or state">
   <div class="grp"><span class="lbl tt" data-tip="How many full-price stores the brand runs in the US. Outlets, pop-ups and shops inside department stores don’t count." tabindex="0">Stores</span><div class="chips">
-    <button class="chip" data-t="mass">251+</button><button class="chip" data-t="chain">51–250</button><button class="chip" data-t="network">13–50</button><button class="chip" data-t="circuit">4–12</button><button class="chip" data-t="flagship">1–3</button></div></div>
+    <button class="chip" data-t="mass">251+</button><button class="chip" data-t="chain">51–250</button><button class="chip" data-t="network">13–50</button><button class="chip" data-t="circuit">5–12</button><button class="chip" data-t="flagship">1–4</button></div></div>
   <div class="grp"><span class="lbl tt" data-tip="Brands whose US stores are all in these cities and their suburbs. New York takes in Long Island, Westchester, northern New Jersey and Fairfield County; Los Angeles takes in Orange County; Miami is Miami-Dade." tabindex="0">Where</span><div class="chips"><button class="chip" data-w="nyla">only NY and LA <span class="cn"></span></button><button class="chip" data-w="nylam">only NY, LA and Miami <span class="cn"></span></button></div></div>
   <div class="grp"><span class="lbl tt" data-tip="The style a brand is known for. Pick one or more." tabindex="0">Segment</span><div class="chips segchips"><button class="chip sgc" data-sg="Avant-garde designers">Avant-garde designers <span class="cn"></span></button><button class="chip sgc" data-sg="Hype &amp; drop culture">Hype &amp; drop culture <span class="cn"></span></button><button class="chip sgc" data-sg="Street &amp; sport culture">Street &amp; sport culture <span class="cn"></span></button><button class="chip sgc" data-sg="Signature luxury">Signature luxury <span class="cn"></span></button><button class="chip sgc" data-sg="Runway houses">Runway houses <span class="cn"></span></button><button class="chip sgc" data-sg="Quiet luxury">Quiet luxury <span class="cn"></span></button><button class="chip sgc" data-sg="Rock &amp; rebel">Rock &amp; rebel <span class="cn"></span></button><button class="chip sgc" data-sg="Performance &amp; athleisure">Performance &amp; athleisure <span class="cn"></span></button><button class="chip sgc" data-sg="Tailoring &amp; craft">Tailoring &amp; craft <span class="cn"></span></button><button class="chip sgc" data-sg="Outdoor &amp; coast">Outdoor &amp; coast <span class="cn"></span></button><button class="chip sgc" data-sg="Prep, club &amp; course">Prep, club &amp; course <span class="cn"></span></button><button class="chip sgc" data-sg="Heritage &amp; workwear">Heritage &amp; workwear <span class="cn"></span></button><button class="chip sgc" data-sg="Fashion insider">Fashion insider <span class="cn"></span></button><button class="chip sgc" data-sg="Mainstream contemporary">Mainstream contemporary <span class="cn"></span></button><button class="chip sgc" data-sg="Basics &amp; essentials">Basics &amp; essentials <span class="cn"></span></button><button class="chip sgc" data-sg="Modern minimal">Modern minimal <span class="cn"></span></button><button class="chip sgc" data-sg="Romantic &amp; feminine">Romantic &amp; feminine <span class="cn"></span></button><button class="chip sgc" data-sg="Resort &amp; boho">Resort &amp; boho <span class="cn"></span></button><button class="chip sgc" data-sg="Occasion &amp; evening">Occasion &amp; evening <span class="cn"></span></button><button class="chip sgc" data-sg="Classic &amp; career">Classic &amp; career <span class="cn"></span></button><button class="chip sgc" data-sg="Denim houses">Denim houses <span class="cn"></span></button><button class="chip sgc" data-sg="Intimates, lounge &amp; swim">Intimates, lounge &amp; swim <span class="cn"></span></button><button class="chip sgc" data-sg="Shoes &amp; accessories houses">Shoes &amp; accessories houses <span class="cn"></span></button></div></div>
 </div>
@@ -305,7 +305,7 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
 <script>
 /*__DATA__*/
 const NE=new Set(W.ne);
-const TIERS={mass:'250+',chain:'51–250',network:'13–50',circuit:'4–12',flagship:'1–3'};
+const TIERS={mass:'250+',chain:'51–250',network:'13–50',circuit:'5–12',flagship:'1–4'};
 const ORDER=['Basic','Premium','Accessible','True Luxury'];  // Pending (no price read) is not shown
 const RENAME={};  // band -> the name the user gave it
 const TIERNAME={Basic:'Tier 1',Premium:'Tier 2',Accessible:'Tier 3','True Luxury':'Tier 4'};
@@ -551,7 +551,7 @@ document.getElementById('dreset').onclick=()=>{document.querySelectorAll('#dials
 // ---- filter state in the URL hash, so a view can be linked and restored ----
 function stateObj(){return {o:SORT,t:[...TIERS_ON],w:WHERE,sg:[...SG_ON],hd:[...HIDE],q,c1:C1,c2:C2,mv:Object.fromEntries(W.brands.filter(b=>b.moved).map(b=>[b.n,b.band])),d:Object.fromEntries(Object.entries(DIAL).filter(([k,v])=>v)),r:RENAME};}
 function describeState(){const s=stateObj(); const parts=[];
-  const TL={mass:'251+ stores',chain:'51–250 stores',network:'13–50 stores',circuit:'4–12 stores',flagship:'1–3 stores'};
+  const TL={mass:'251+ stores',chain:'51–250 stores',network:'13–50 stores',circuit:'5–12 stores',flagship:'1–4 stores'};
   if(s.t.length) parts.push(s.t.map(k=>TL[k]).join(' or '));
   if(s.w) parts.push(s.w==='nyla'?'stores only in New York and Los Angeles':'stores only in New York, Los Angeles and Miami');
   if(s.sg&&s.sg.length) parts.push(s.sg.join(' or '));
