@@ -34,6 +34,33 @@ DROP_OTHER = {'Paravel', 'Senreve'}  # Senreve: site shows Shopify's 'store unav
 DROP_STORE = [('RH', r'^RH (Interior Design|Estates)\b')]
 
 
+# ---- Retail and resale links (links_brandset_2026-10-20). Only links a reader can trust are shown: a matched brand
+# page, never one with no listings, and on the seller-tagged sites (Depop, Poshmark, Vinted) never a generic name that
+# other labels share. Order is the card's order.
+LINK_SITES = ['SSENSE', 'Net-a-Porter', 'Mytheresa', 'Saks Fifth Avenue', 'Nordstrom', 'Shopbop', 'Farfetch',
+              'The RealReal', 'Vestiaire Collective', 'Depop', 'Poshmark', 'Vinted']
+RESALE_SITES = {'The RealReal', 'Vestiaire Collective', 'Depop', 'Poshmark', 'Vinted'}
+SELLER_TAGGED = {'Depop', 'Poshmark', 'Vinted'}
+GENERIC = {'On', 'Sea', 'Purple', 'Represent', 'Elan', 'Rowan', 'Jordan', 'Express', 'Soma', 'Camilla', 'Bode',
+           'Still Here', 'CO', 'Eton', 'Greyson', 'ARGENT', 'Palace', 'TWP', 'Toccin', 'Frame', 'HATCH Collection', 'Aether Apparel'}
+LINK_SKIP = {('The RealReal', 'Bulgari')}  # slug not captured before the wall; page never opened
+
+
+def load_links():
+    out = collections.defaultdict(dict)
+    for f in sorted(glob.glob(os.path.join(ROOT, 'jobs/returns/links_brandset_2026-10-20/part*/return_*.csv'))):
+        for r in csv.DictReader(open(f, encoding='utf8')):
+            site = r['site'].strip(); n = r['brand']
+            site = {'Saks': 'Saks Fifth Avenue', 'NAP': 'Net-a-Porter', 'Vestiaire': 'Vestiaire Collective'}.get(site, site)
+            if r['match'].strip() not in ('exact', 'alias') or not r['url'].startswith('http'): continue
+            if (site, n) in LINK_SKIP: continue
+            if site in SELLER_TAGGED and n in GENERIC: continue
+            ls = (r.get('listings') or '').strip()
+            if ls in ('0',): continue
+            out[n][site] = [r['url'], ls if ls and ls not in ('ND', 'NC', 'NONE') else '']
+    return {n: [[s] + d[s] for s in LINK_SITES if s in d] for n, d in out.items()}
+
+
 def tier(n):
     if n is None: return 'NC'
     if n == 0: return 'none'
@@ -320,6 +347,9 @@ def main():
             r = seg.get(b['n'])
             if r:
                 b['sg'] = r['segment']; b['sg2'] = '' if r['secondary'] == '-' else r['secondary']; b['sgc'] = r['confidence']; b['sgb'] = r['basis']
+    LK = load_links()
+    for b in brands:
+        if LK.get(b['n']): b['lk'] = LK[b['n']]
     brands.sort(key=lambda b: unicodedata.normalize('NFKD', b['n']).encode('ascii', 'ignore').decode().lower().lstrip('.'))  # alphabetical within each band
     nb = collections.Counter(b['band'] for b in brands)
     # Other brands (beauty, home, jewelry): store lists only, no tiers (Sebastian, 16 Oct 2026). Read by doors_bhj_2026-10-16.
@@ -356,7 +386,7 @@ def main():
                 if keys & seen_addr: continue
                 seen_addr |= keys; x = {k: v for k, v in x.items() if k != 'ph'}; st.append(x)
             own = len(st) if c and (c.get('us_own_stores') or '').strip().upper() not in ('NC', 'HELD', '') else None   # held or unread: still counting
-            other.append({'n': n, 'cat': r['category'], 'own': own, 'none': bool(c and (c.get('us_own_stores') or '').strip().upper() == 'NONE'), 'stores': st, 'tier': tier(own) if own else '',
+            other.append({'lk': LK.get(n) or None, 'n': n, 'cat': r['category'], 'own': own, 'none': bool(c and (c.get('us_own_stores') or '').strip().upper() == 'NONE'), 'stores': st, 'tier': tier(own) if own else '',
                           'ne': sum(1 for x in st if x['s'] in NE), 'locator': (c or {}).get('locator_url', '') or '', 'read': (c or {}).get('captured_on', '') or '',
                           'note': (c or {}).get('note', '') or ''})
     for b in brands:

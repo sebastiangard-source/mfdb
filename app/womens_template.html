@@ -38,6 +38,8 @@ h1 .thin{color:var(--ink-faint)}
 .chip:hover{border-color:var(--ink)}
 .grp{display:flex;gap:6px;flex-wrap:wrap;align-items:center}
 .grp .lbl{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint);margin-right:4px}
+.lkc{font-size:11.5px;color:var(--ink-faint)}
+dd.lk .sep{color:var(--ink-faint)}
 .count{font-size:12.5px;color:var(--ink-faint);margin:0 0 14px}
 .total{font-size:14px;color:var(--ink-soft,var(--ink));margin:0 0 4px}
 .total b{font-family:'Prata',serif;font-weight:400;font-size:24px;color:var(--ink);margin-right:6px}
@@ -231,7 +233,7 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
     <h1>The Cyprus <span class="thin">Brand Set</span></h1>
     <p class="lede">Every fashion brand with its own full-price stores in the US, sorted into four price tiers, with every store listed.</p>
   </div>
-  <div class="stamp"><b>v0.62 · <span id="built"></span></b>Store lists from each brand’s own website. Tiers set by the starting price of a blouse and a sweater.</div>
+  <div class="stamp"><b>v0.63 · <span id="built"></span></b>Store lists from each brand’s own website. Tiers set by the starting price of a blouse and a sweater.</div>
 </header>
 
 <div class="layout">
@@ -405,8 +407,9 @@ function aboutHtml(b){
   if(a.sig) rows.push(`<dt>Signature</dt><dd>${link(a.sigurl,a.sig)}</dd>`);
   if(a.pron) rows.push(`<dt>Say it</dt><dd>${esc(a.pron)}</dd>`);
   if(a.look) rows.push(`<dt>Lookbook</dt><dd>${link(a.lookurl,a.look)}</dd>`);
-  const resale=[a.vinted?link(a.vinted,'Vinted'):'',a.trr?link(a.trr,'The RealReal'):'',a.grailed?link(a.grailed,'Grailed'):''].filter(Boolean);
-  if(resale.length) rows.push(`<dt>Resale</dt><dd>${resale.join(' · ')}</dd>`);
+  if(b.lk&&b.lk.length) rows.push(...lkRows(b.lk));
+  else{const resale=[a.vinted?link(a.vinted,'Vinted'):'',a.trr?link(a.trr,'The RealReal'):'',a.grailed?link(a.grailed,'Grailed'):''].filter(Boolean);
+  if(resale.length) rows.push(`<dt>Resale</dt><dd>${resale.join(' · ')}</dd>`);}
   const certs=[a.bcorp?'B Corp ('+esc(a.bcorp)+')':'',a.gots?'GOTS ('+esc(a.gots)+')':''].filter(Boolean);
   if(certs.length) rows.push(`<dt>Certified</dt><dd>${certs.join(' · ')}</dd>`);
   return `<h3>About</h3>${a.sells?`<p class="sells">${esc(a.sells)}</p>`:''}<dl class="kv">${rows.join('')}</dl>${a.quote?`<blockquote class="q">“${esc(a.quote)}”<cite>— ${a.qurl?link(a.qurl,a.who):esc(a.who)}</cite></blockquote>`:''}`;
@@ -502,10 +505,16 @@ document.getElementById('bands').addEventListener('click',e=>{
   host.addEventListener('mouseout',e=>{const el=e.target.closest('.b'); if(el&&!el.contains(e.relatedTarget)) hide();});
   host.addEventListener('mousedown',hide); host.addEventListener('dragstart',hide);
   document.addEventListener('scroll',hide,true);})();
+const RESALE_SITES=new Set(['The RealReal','Vestiaire Collective','Depop','Poshmark','Vinted']);
+function lkRows(lk){const f=([s,u,c])=>`<a href="${esc(u)}" target="_blank" rel="noopener">${esc(s)}</a>${c?` <span class="lkc">${esc(c)}</span>`:''}`;
+  const shop=lk.filter(x=>!RESALE_SITES.has(x[0])), re=lk.filter(x=>RESALE_SITES.has(x[0])), out=[];
+  if(shop.length) out.push(`<dt>Also sold at</dt><dd class="lk">${shop.map(f).join('<span class="sep"> · </span>')}</dd>`);
+  if(re.length) out.push(`<dt><span class="tt" data-tip="Brand pages on resale sites. The number is how many items the site shows for the brand, where it shows one." tabindex="0">Resale</span></dt><dd class="lk">${re.map(f).join('<span class="sep"> · </span>')}</dd>`);
+  return out;}
 function openOther(n){const o=OTHER.find(x=>x.n===n); if(!o) return;
   document.getElementById('pbody').innerHTML=`<h2>${esc(o.n)}</h2><span class="pill">${esc(CATN[o.cat]||o.cat)}</span>
     <dl class="kv" style="margin-top:14px"><dt>Full-price stores</dt><dd>${o.own==null?'Count coming':o.none?'None of its own in the US; sold through other stores':o.own+' in the US'}</dd>
-    ${o.locator?`<dt>Store finder</dt><dd><a href="${esc(o.locator)}" target="_blank" rel="noopener">${esc(o.locator.replace(/^https?:\/\//,'').slice(0,60))}</a></dd>`:''}${o.read?`<dt>Checked</dt><dd>${esc(fmtDate(o.read))}</dd>`:''}</dl>
+    ${o.locator?`<dt>Store finder</dt><dd><a href="${esc(o.locator)}" target="_blank" rel="noopener">${esc(o.locator.replace(/^https?:\/\//,'').slice(0,60))}</a></dd>`:''}${o.read?`<dt>Checked</dt><dd>${esc(fmtDate(o.read))}</dd>`:''}${o.lk?lkRows(o.lk).join(''):''}</dl>
     ${o.stores.length?'<h3>Stores</h3>'+storeTree(o):''}
     <p class="cav">Stores under the brand’s own name, from its website. Counters inside department stores aren’t included.</p>`;
   document.getElementById('panel').classList.add('show'); document.getElementById('ov').classList.add('show');}
