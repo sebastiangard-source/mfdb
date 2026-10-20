@@ -235,7 +235,8 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
 #tour .tnav .n{font-size:12px;color:var(--ink-faint);margin-right:auto}
 #tour .tnav button{font:inherit;font-size:13px;border-radius:999px;padding:7px 14px;cursor:pointer;border:1px solid var(--hairline);background:transparent;color:var(--ink-soft)}
 #tour .tnav button.go{background:var(--green);border-color:var(--green);color:#fff}
-.tourlink{background:none;border:0;padding:0;font:inherit;color:var(--green);text-decoration:underline;text-underline-offset:3px;cursor:pointer}
+.tourlink{display:inline-block;margin-top:8px;background:transparent;border:1px solid var(--green);border-radius:999px;padding:5px 12px;font:inherit;font-size:12px;font-weight:500;color:var(--green);cursor:pointer}
+.tourlink:hover{background:var(--green);color:#fff}
 </style>
 </head>
 <body>
@@ -245,7 +246,7 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
     <h1>The Cyprus <span class="thin">Brand Explorer</span></h1>
     <p class="lede">Every fashion brand with its own full-price stores in the US, sorted into four price tiers, with every store listed.</p>
   </div>
-  <div class="stamp"><b>v0.70 · <span id="built"></span></b>Store lists from each brand’s own website. Tiers set by the starting price of a blouse and a sweater. <button class="tourlink" id="tourGo">Take the tour</button></div>
+  <div class="stamp"><b>v0.71 · <span id="built"></span></b>Store lists from each brand’s own website. Tiers set by the starting price of a blouse and a sweater.<br><button class="tourlink" id="tourGo">Take the tour</button></div>
 </header>
 
 <div class="layout">
