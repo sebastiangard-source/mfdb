@@ -21,3 +21,4 @@
 - La Mer and Augustinus Bader `NONE`; Fresh `NC` (locator returns nothing, script error, no wall).
 - Le Labo read after Sebastian's link: 47 own doors.
 - **Counters are never rows, department stores included** (ruled by Sebastian, 16 October). A counter or shop-in-shop inside another store, even one the locator names as the brand's, is not returned as a row. Give its count in `us_concessions` only if the locator makes that easy; otherwise `NC`. Applies to doors_bhj and doors_tel from here on.
+- Batch 8 merged 20 October (v0.51): NARS 2 own doors (Houston, Paramus Garden State Plaza); Fenty Beauty `NONE`. The worklist is complete; RH held, Le Labo read, Aurate and Fresh `NC`.

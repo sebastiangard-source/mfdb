@@ -57,4 +57,4 @@ Batch 6 covers the rest of fragrance (Creed, Frédéric Malle, Kilian Paris, Pen
 
 ## Le Labo (batch 5)
 
-I tried it a third time, later in the day, and it was still stuck on "loading". It stays `NC`, and batch 5's note now says it was tried three times.
+Now read from the link you sent: 47 own doors and 77 stockists. Batch 5's files are updated.
