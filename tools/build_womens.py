@@ -238,6 +238,9 @@ def main():
     xcp = os.path.join(ROOT, 'jobs/returns/prices_crossovers_2026-10-15/return.csv')
     if os.path.exists(xcp):
         for r in csv.DictReader(open(xcp, encoding='utf8')):
+            # Polo Ralph Lauren: only the first 12 tiles per listing could be read, its mean $12 under the line; the thread
+            # calls the band unconfirmed, so it stays on its men's prices until the full range is read (20 Oct).
+            if r['brand'] in ('Polo Ralph Lauren',): continue
             if r['band_proposed'].strip() in ('Basic', 'Premium', 'Accessible', 'True Luxury') and k(r['brand']) not in WXP:
                 WXP[k(r['brand'])] = r
     menonly = {kk for kk, v in ans.items() if v == 'no'}
@@ -298,7 +301,7 @@ def main():
             if bandv == 'Basic':
                 m = None  # Basic is the tee-and-blouse test, not a mean; the tier sliders leave it where it is
             weak = bool(XOFF and XOFF[-1][0] == b['name'])
-            basis = basis_men if weak else ((f"women’s blouse and sweater entry, mean ${m}" if m is not None else ('a women’s tee at $35 or less and a blouse under $80' if bandv == 'Basic' else 'its women’s range')) + (', with no sweater' if prices.get('sweater') == 'NONE' else ''))
+            basis = basis_men if weak else ((f"women’s blouse and sweater entry, mean ${m:,}" if m is not None else (('a women’s tee at $35 or less' + (' and a blouse under $80' if isinstance(prices.get('blouse'), list) else '')) if bandv == 'Basic' else 'its women’s range')) + (', with no sweater' if prices.get('sweater') == 'NONE' else ''))
             note = 'Prices are from the brand’s women’s range.'
         gl = WXL.get(kk) if wp else ({k.lower(): u for k, u in (b.get('garment_links') or {}).items()} or None)
         brands.append({'n': b['name'], 'band': bandv, 'm': m, 'basis': basis, 'own': n,
