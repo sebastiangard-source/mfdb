@@ -269,7 +269,7 @@ def main():
         m = round(sum(st) / len(st)) if st and b['band'] in ('premium', 'accessible', 'trueLux') else None
         basis = (f"men’s dress-shirt and sweater entry, mean ${m}, at the women’s cuts" if m is not None else 'banded on its men’s range (the men’s map)' + ((': ' + b['band_note']) if b.get('band_note') else ''))
         note = 'Prices and facts are from the brand’s men’s record until its women’s prices are read.'
-        wp = WXP.get(kk); bandv = BAND[b['band']]; prices = prices_of(b)
+        wp = WXP.get(kk); bandv = BAND[b['band']]; prices = prices_of(b); m_men, basis_men = m, basis
         if wp:
             # Women's prices read: band on the women's rule as proposed by the thread, prices from the women's range.
             def cell(g):
@@ -288,10 +288,15 @@ def main():
             ent = [prices[g][0] for g in ('blouse', 'sweater') if isinstance(prices.get(g), list)]
             m = round(sum(ent) / len(ent)) if ent else None
             mband = None if m is None else ('Premium' if m < 200 else 'Accessible' if m <= 600 else 'True Luxury')
-            if bandv == 'Basic' or (mband and mband != bandv):
-                if bandv != 'Basic': XOFF.append((b['name'], bandv, m))
-                m = None  # the band is the proposal, not the mean at the cuts; the tier sliders leave it where it is
-            basis = (f"women’s blouse and sweater entry, mean ${m}" if m is not None else ('a women’s tee at $35 or less and a blouse under $80' if bandv == 'Basic' else 'its women’s range')) + (', with no sweater' if prices.get('sweater') == 'NONE' else '')
+            if mband and bandv != 'Basic' and mband != bandv:
+                # The thread proposed a band against its own blouse-and-sweater mean (a weak garment read: Off-White's
+                # pajama shirts, CDG's unisex line), pending Sebastian's ruling (20 Oct 2026).
+                # Until then the brand stays where its men's prices put it: a weak read does not move it.
+                XOFF.append((b['name'], bandv, m)); bandv = BAND[b['band']]; m = m_men
+            if bandv == 'Basic':
+                m = None  # Basic is the tee-and-blouse test, not a mean; the tier sliders leave it where it is
+            weak = bool(XOFF and XOFF[-1][0] == b['name'])
+            basis = basis_men if weak else ((f"women’s blouse and sweater entry, mean ${m}" if m is not None else ('a women’s tee at $35 or less and a blouse under $80' if bandv == 'Basic' else 'its women’s range')) + (', with no sweater' if prices.get('sweater') == 'NONE' else ''))
             note = 'Prices are from the brand’s women’s range.'
         gl = WXL.get(kk) if wp else ({k.lower(): u for k, u in (b.get('garment_links') or {}).items()} or None)
         brands.append({'n': b['name'], 'band': bandv, 'm': m, 'basis': basis, 'own': n,
