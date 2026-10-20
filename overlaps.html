@@ -52,12 +52,7 @@ mark{background:var(--hit);padding:0 1px}
 <nav style="font:500 14px Figtree,system-ui,sans-serif;padding:12px 24px;border-bottom:1px solid #D5DBDD;background:#fff;display:flex;flex-wrap:wrap;gap:6px 18px"><a href="explorer.html" onclick="if(document.referrer.indexOf('explorer')>-1&&history.length>1){history.back();return false}" style="color:#1C7C74;text-decoration:none">← The Cyprus Brand Explorer</a><b style="font-weight:600;color:#1B2530">How the brand lists overlap</b><a href="cake-croissant.html" style="color:#1C7C74;text-decoration:none">Brands on CAKE and Croissant</a></nav>
 <div class="wrap">
 <h1>How the eight brand lists overlap</h1>
-<p class="sub">The Cyprus Set (v0.49 export, October 18, 2026, with its US store counts and segments), CAKE, Croissant, Net-a-Porter, Nordstrom's designer list, Bloomingdale's, Saks, and Neiman Marcus. Names are matched across lists (case, accents, and "&amp;" ignored; known variants merged by hand). Bloomingdale's list is limited to apparel and accessories brands; its toys, baby, home, beauty and other brands were taken out. The Saks list is partial: it holds the Saks brands that match names in the other lists, plus about 170 confirmed through Neiman, and leaves out roughly 280 Saks-only designers that I couldn't separate reliably.</p>
-<div class="card" style="padding-bottom:10px">
-  <h2>Which brands to include</h2>
-  <p class="sub" style="margin-bottom:8px">The page starts with apparel and accessories only. Bloomingdale's other categories have been removed, so its brands appear only here. Categories are my own classification from the brand names, so some are wrong; "Unclear" holds the ones I wasn't sure about.</p>
-  <div class="ctl" id="cats"></div>
-</div>
+<p class="sub">The Cyprus Set (v0.49 export, October 18, 2026, with its US store counts and segments), CAKE, Croissant, Net-a-Porter, Nordstrom's designer list, Bloomingdale's, Saks, and Neiman Marcus. The page shows apparel and accessories brands only. Names are matched across lists (case, accents, and "&amp;" ignored; known variants merged by hand). Bloomingdale's list is limited to apparel and accessories brands; its toys, baby, home, beauty and other brands were taken out. The Saks list is partial: it holds the Saks brands that match names in the other lists, plus about 170 confirmed through Neiman, and leaves out roughly 280 Saks-only designers that I couldn't separate reliably.</p>
 <div class="stats" id="stats"></div>
 
 <div class="card">
@@ -83,7 +78,7 @@ mark{background:var(--hit);padding:0 1px}
     <button id="csv" type="button">Download CSV</button>
   </div>
   <div class="tablewrap"><table id="tbl"><thead></thead><tbody></tbody></table></div>
-  <p class="note">Stio, Stuart Weitzman, Equipment, and Joie were added to the Cyprus Set from Appendix A; their tiers and store counts are not set yet. US stores and segments come from the Cyprus Set's Brands tab; "counting" means that brand's stores haven't been counted yet. The Cyprus Set now also includes 99 "Other brands" (jewelry, home, beauty, travel, eyewear, bags) alongside the four tiers. The set buttons require a brand to be in every list you switch on. The "Include brands that appear in only one list" box above applies here too. The category checkboxes at the top apply to everything on the page.</p>
+  <p class="note">Stio, Stuart Weitzman, Equipment, and Joie were added to the Cyprus Set from Appendix A; their tiers and store counts are not set yet. US stores and segments come from the Cyprus Set's Brands tab; "counting" means that brand's stores haven't been counted yet. The Cyprus Set now also includes 99 "Other brands" (jewelry, home, beauty, travel, eyewear, bags) alongside the four tiers. The set buttons require a brand to be in every list you switch on. The "Include brands that appear in only one list" box above applies here too.</p>
 </div>
 </div>
 <script>
@@ -248,7 +243,7 @@ $('csv').onclick=function(){
   var a=document.createElement('a');a.href=URL.createObjectURL(new Blob(['\ufeff'+csv],{type:'text/csv'}));a.download='brand-overlaps.csv';a.click();
 };
 (function(){
-  var box=$('cats');
+  var box=$('cats'); if(!box) return;  // category filter removed (20 Oct 2026): apparel and accessories only
   CATS.forEach(function(name,i){
     var n=ALL.filter(function(r){return r.c===i}).length;
     var l=document.createElement('label');
