@@ -43,7 +43,7 @@ RESALE_SITES = {'The RealReal', 'Vestiaire Collective', 'Depop', 'Poshmark', 'Vi
 SELLER_TAGGED = {'Depop', 'Poshmark', 'Vinted'}
 GENERIC = {'On', 'Sea', 'Purple', 'Represent', 'Elan', 'Rowan', 'Jordan', 'Express', 'Soma', 'Camilla', 'Bode',
            'Still Here', 'CO', 'Eton', 'Greyson', 'ARGENT', 'Palace', 'TWP', 'Toccin', 'Frame', 'HATCH Collection', 'Aether Apparel'}
-LINK_SKIP = {('The RealReal', 'Bulgari')}  # slug not captured before the wall; page never opened
+LINK_SKIP = {('The RealReal', 'Bulgari'), ('Shopbop', 'CO')}  # slug not captured before the wall; page never opened
 # Vinted brand families trimmed to the main line (Sebastian, 20 Oct 2026). Alternate spellings of one label stay
 # (Burberrys; Hugo Boss / Boss / BOSS Hugo Boss); sub-lines go. The count is dropped: it was read on the whole family.
 VINTED_MAIN = {'Burberry': ['364', '1755472'], 'Barbour': ['46805'], 'BOSS': ['120', '25383', '6039857'],
@@ -52,12 +52,17 @@ VINTED_MAIN = {'Burberry': ['364', '1755472'], 'Barbour': ['46805'], 'BOSS': ['1
 
 def load_links():
     out = collections.defaultdict(dict)
-    for f in sorted(glob.glob(os.path.join(ROOT, 'jobs/returns/links_brandset_2026-10-20/part*/return_*.csv'))):
+    files = sorted(glob.glob(os.path.join(ROOT, 'jobs/returns/links_brandset_2026-10-20/partB/return_*.csv'))) + \
+        sorted(glob.glob(os.path.join(ROOT, 'jobs/returns/links_brandset_2026-10-20/partA/*/return.csv')))
+    for f in files:
         for r in csv.DictReader(open(f, encoding='utf8')):
             site = r['site'].strip(); n = r['brand']
             site = {'Saks': 'Saks Fifth Avenue', 'NAP': 'Net-a-Porter', 'Vestiaire': 'Vestiaire Collective'}.get(site, site)
             if r['match'].strip() not in ('exact', 'alias') or not r['url'].startswith('http'): continue
             if (site, n) in LINK_SKIP: continue
+            if site == 'Farfetch' and 'redirects to the sale' in r['note']: continue  # the link lands on a sale page
+            if site not in SELLER_TAGGED and n == 'Elan': continue  # category not checked; another Elan sells swim
+            if site == 'Net-a-Porter': r['listings'] = 'ND'  # counts overlapped between pages before the wall (NOTE)
             if site in SELLER_TAGGED and n in GENERIC: continue
             ls = (r.get('listings') or '').strip()
             if ls in ('0',): continue
