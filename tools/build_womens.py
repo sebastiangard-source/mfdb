@@ -344,7 +344,9 @@ def main():
                 if re.search(r'\b(concourse|terminal [a-z0-9]|gate|connector|headhouse)\b', (x['a'] or '').lower()):
                     street = (x['a'] or '').lower().strip()
                 if street: keys.add(('a', street, x['z'] or x['c'].lower()))
-                if len(x['ph']) >= 10 and x['z']: keys.add(('p', x['ph'][-10:], x['z'][:5]))
+                # Same phone and ZIP is one store only at the same house number: RH's three Greenwich buildings share one phone (20 Oct).
+                hn = (re.match(r'\s*(\d+)', x['a'] or '') or [None, ''])[1]
+                if len(x['ph']) >= 10 and x['z']: keys.add(('p', x['ph'][-10:], x['z'][:5], hn))
                 if keys & seen_addr: continue
                 seen_addr |= keys; x = {k: v for k, v in x.items() if k != 'ph'}; st.append(x)
             own = len(st) if c and (c.get('us_own_stores') or '').strip().upper() not in ('NC', 'HELD', '') else None   # held or unread: still counting
