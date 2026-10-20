@@ -224,6 +224,18 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
 .idx .state{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint);padding:16px 0 4px}
 .more{margin:12px 0 0;background:transparent;border:1px solid var(--hairline);border-radius:999px;padding:8px 16px;font:inherit;font-size:13px;cursor:pointer;color:var(--ink-soft)}
 @media (max-width:700px){header{padding-top:36px}.stamp{text-align:left}.prices{grid-template-columns:repeat(2,1fr)}.panel{padding:28px 18px 60px}}
+
+/* ---- first-load tour ---- */
+#tour{position:fixed;inset:0;z-index:200;pointer-events:none}
+#tour .spot{position:absolute;border-radius:14px;box-shadow:0 0 0 9999px rgba(30,30,27,.45);transition:all .25s ease;pointer-events:none}
+#tour .tip{position:absolute;width:min(360px,calc(100vw - 32px));background:var(--cream);color:var(--ink);border-radius:14px;padding:18px 18px 14px;box-shadow:0 12px 40px rgba(0,0,0,.25);pointer-events:auto;font-size:14px;line-height:1.5}
+#tour .tip h3{font-family:'Prata',serif;font-weight:400;font-size:19px;margin:0 0 6px}
+#tour .tip p{margin:0 0 12px;color:var(--ink-soft)}
+#tour .tnav{display:flex;align-items:center;gap:8px}
+#tour .tnav .n{font-size:12px;color:var(--ink-faint);margin-right:auto}
+#tour .tnav button{font:inherit;font-size:13px;border-radius:999px;padding:7px 14px;cursor:pointer;border:1px solid var(--hairline);background:transparent;color:var(--ink-soft)}
+#tour .tnav button.go{background:var(--green);border-color:var(--green);color:#fff}
+.tourlink{background:none;border:0;padding:0;font:inherit;color:var(--green);text-decoration:underline;text-underline-offset:3px;cursor:pointer}
 </style>
 </head>
 <body>
@@ -233,7 +245,7 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
     <h1>The Cyprus <span class="thin">Brand Set</span></h1>
     <p class="lede">Every fashion brand with its own full-price stores in the US, sorted into four price tiers, with every store listed.</p>
   </div>
-  <div class="stamp"><b>v0.67 · <span id="built"></span></b>Store lists from each brand’s own website. Tiers set by the starting price of a blouse and a sweater.</div>
+  <div class="stamp"><b>v0.68 · <span id="built"></span></b>Store lists from each brand’s own website. Tiers set by the starting price of a blouse and a sweater. <button class="tourlink" id="tourGo">Take the tour</button></div>
 </header>
 
 <div class="layout">
@@ -727,8 +739,43 @@ function openIdx(){renderIdx(); document.getElementById('idxView').classList.add
 document.getElementById('idxBack').onclick=()=>{document.getElementById('idxView').classList.remove('show'); document.body.style.overflow='';};
 document.getElementById('pbody').addEventListener('click',e=>{if(e.target.closest('.idxlink')) openIdx();});
 document.getElementById('idx').addEventListener('click',e=>{const b=e.target.closest('.brand'); if(b){document.getElementById('idxBack').click(); openBrand(b.dataset.n);}});
+
+// ---- First-load tour of the controls (Sebastian, 20 Oct 2026). Shown once per browser; "Take the tour" reopens it. ----
+const TOUR=[
+ {t:null,h:'The Cyprus Brand Set',p:'Every fashion brand with full-price stores of its own in the US, sorted by price into four tiers, with every store listed. This short tour shows the controls. It takes about a minute.'},
+ {t:()=>document.querySelector('#bands .band'),h:'Four price tiers',p:'Each brand sits in a tier set by what its women’s blouse and sweater start at. Tier 1 is mass market and Tier 4 is the luxury houses. The number on each brand is its count of full-price US stores.'},
+ {t:()=>document.querySelector('#total'),h:'What you’re looking at',p:'This line counts the brands and stores that pass your filters. It changes as you filter.'},
+ {t:()=>document.querySelectorAll('.controls .grp')[0],h:'Store count',p:'Filter by how many full-price stores a brand runs. The page opens on brands with five or more. Tap 1–4 to add the smallest brands, which are nearly all in New York and Los Angeles.'},
+ {t:()=>document.querySelectorAll('.controls .grp')[1],h:'Where',p:'Keep only the brands whose stores are all in New York and Los Angeles, or in those two and Miami. Suburbs count, so Short Hills and South Coast Plaza are in.'},
+ {t:()=>document.querySelectorAll('.controls .grp')[2],h:'Segment',p:'The style a brand is known for, from Quiet luxury to Denim houses. Pick one or several.'},
+ {t:()=>document.querySelector('.cuts'),h:'Redraw the tiers',p:'Drag the sliders to move the price lines between tiers. Reset tiers puts them back.'},
+ {t:()=>document.querySelector('#dials'),h:'Fashion focus',p:'Keep brands that score at least so high on tech, comfort, craft or style, or on a fabric. Tap a question mark for what each one means.'},
+ {t:()=>document.querySelector('#bands .b:not(.out)'),h:'Each brand',p:'Tap a brand for its card: prices, stores by region and shopping district, where else it’s sold and where it resells. Drag a brand to another tier to place it yourself, or tap × to take it out of your view. Reset brands brings them all back.'},
+ {t:()=>document.querySelector('.pub'),h:'Share what you’ve built',p:'Publish turns your view into a page you can copy into an email or a doc. Excel downloads the brands and their stores. Import a view opens a page someone else published, with their filters.'},
+ {t:null,h:'That’s it',p:'You can take this tour again from the link at the top of the page.'}];
+let TI=0;
+function tourShow(i){TI=i; const st=TOUR[i]; let el=st.t&&st.t(); const T=document.getElementById('tour');
+  const spot=T.querySelector('.spot'), tip=T.querySelector('.tip');
+  tip.innerHTML=`<h3>${st.h}</h3><p>${st.p}</p><div class="tnav"><span class="n">${i+1} of ${TOUR.length}</span>${i?'<button data-a="back">Back</button>':'<button data-a="skip">Skip</button>'}<button class="go" data-a="next">${i===TOUR.length-1?'Done':'Next'}</button></div>`;
+  const place=()=>{const vw=innerWidth, vh=innerHeight, tw=tip.offsetWidth, th=tip.offsetHeight;
+    if(!el){spot.style.cssText='left:50%;top:50%;width:0;height:0'; tip.style.left=Math.max(16,(vw-tw)/2)+'px'; tip.style.top=Math.max(16,(vh-th)/2)+'px'; return;}
+    const r=el.getBoundingClientRect(), pad=8, h=Math.min(r.height,vh*0.55);
+    spot.style.cssText=`left:${r.left-pad}px;top:${r.top-pad}px;width:${r.width+2*pad}px;height:${h+2*pad}px`;
+    let left=r.right+16, top=r.top;
+    if(left+tw>vw-16){left=Math.min(Math.max(16,r.left),vw-tw-16); top=r.top+h+pad+12; if(top+th>vh-16) top=Math.max(16,r.top-th-pad-12);}
+    tip.style.left=left+'px'; tip.style.top=Math.max(16,Math.min(top,vh-th-16))+'px';};
+  if(el){el.scrollIntoView({block:'center',behavior:'instant'}); requestAnimationFrame(place);} else place();}
+function tourOpen(){let T=document.getElementById('tour'); if(!T){T=document.createElement('div'); T.id='tour'; T.innerHTML='<div class="spot"></div><div class="tip" role="dialog" aria-label="Tour"></div>'; document.body.appendChild(T);
+    T.addEventListener('click',e=>{const a=e.target.closest('button[data-a]'); if(!a) return; const k=a.dataset.a;
+      if(k==='next'){ if(TI<TOUR.length-1) tourShow(TI+1); else tourClose(); } else if(k==='back') tourShow(Math.max(0,TI-1)); else tourClose();});
+    addEventListener('resize',()=>{if(document.getElementById('tour')) tourShow(TI);});}
+  closePanel(); tourShow(0);}
+function tourClose(){const T=document.getElementById('tour'); if(T) T.remove(); try{localStorage.setItem('wspec_tour','1');}catch(e){} scrollTo({top:0});}
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&document.getElementById('tour')) tourClose();});
+document.getElementById('tourGo').onclick=tourOpen;
 reband(); renderBands(); renderIdx();
 const _hs=hashToState(); if(_hs) applyState(_hs);
+(()=>{let seen=false; try{seen=!!localStorage.getItem('wspec_tour');}catch(e){seen=true;} if(!seen&&!_hs&&!/[?&]notour\b/.test(location.search)) setTimeout(tourOpen,600);})();
 </script>
 </body>
 </html>
