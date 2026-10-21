@@ -77,6 +77,11 @@ def load_links():
 
 # ---- Instagram and TikTok (social_2026-10-20): handle and followers as the profile showed them, read 20 Oct 2026.
 SOCIAL_EXTRA = {'Ruti': {'ig': ['ruti', '104K', 104000], 'tt': ['shopruti', '2.4K', 2426]}}  # read in add_ruti_2026-10-20
+# Unverified TikTok accounts that are probably the brand's, added for Sebastian to check (20 Oct 2026).
+for _b, _h, _s, _n in (('White House Black Market', 'whitehouseblackmarket', '4K', 4005), ('Still Here', 'stillherenewyork', '10.1K', 10100),
+                       ('Indochino', 'indochino', '1.6K', 1616), ('State & Liberty', 'stateandliberty', '961', 961),
+                       ('Veronica Beard', 'veronicabeard', '79.3K', 79300), ('TOTEME', 'toteme', '364', 364), ('Malin+Goetz', 'malinandgoetz', '4.5K', 4494)):
+    SOCIAL_EXTRA.setdefault(_b, {})['tt'] = [_h, _s, _n]
 
 
 def load_social():
