@@ -75,6 +75,23 @@ def load_links():
     return {n: [[s] + d[s] for s in LINK_SITES if s in d] for n, d in out.items()}
 
 
+# ---- Instagram and TikTok (social_2026-10-20): handle and followers as the profile showed them, read 20 Oct 2026.
+SOCIAL_EXTRA = {'Ruti': {'ig': ['ruti', '104K', 104000], 'tt': ['shopruti', '2.4K', 2426]}}  # read in add_ruti_2026-10-20
+
+
+def load_social():
+    out = collections.defaultdict(dict)
+    f = os.path.join(ROOT, 'jobs/returns/social_2026-10-20/return_all.csv')
+    if os.path.exists(f):
+        for r in csv.DictReader(open(f, encoding='utf8')):
+            if r['status'] not in ('done', 'handle_only') or not r['handle'] or r['handle'] in ('NONE', 'NC'): continue
+            try: n = int(float(r['followers']))
+            except ValueError: n = None
+            out[r['brand']][{'instagram': 'ig', 'tiktok': 'tt'}[r['platform']]] = [r['handle'], r['followers_shown'] if n is not None else '', n]
+    for b, d in SOCIAL_EXTRA.items(): out[b].update(d)
+    return out
+
+
 def tier(n):
     if n is None: return 'NC'
     if n == 0: return 'none'
@@ -361,9 +378,10 @@ def main():
             r = seg.get(b['n'])
             if r:
                 b['sg'] = r['segment']; b['sg2'] = '' if r['secondary'] == '-' else r['secondary']; b['sgc'] = r['confidence']; b['sgb'] = r['basis']
-    LK = load_links()
+    LK = load_links(); SO = load_social()
     for b in brands:
         if LK.get(b['n']): b['lk'] = LK[b['n']]
+        if SO.get(b['n']): b['so'] = SO[b['n']]
     brands.sort(key=lambda b: unicodedata.normalize('NFKD', b['n']).encode('ascii', 'ignore').decode().lower().lstrip('.'))  # alphabetical within each band
     nb = collections.Counter(b['band'] for b in brands)
     # Other brands (beauty, home, jewelry): store lists only, no tiers (Sebastian, 16 Oct 2026). Read by doors_bhj_2026-10-16.
@@ -400,7 +418,7 @@ def main():
                 if keys & seen_addr: continue
                 seen_addr |= keys; x = {k: v for k, v in x.items() if k != 'ph'}; st.append(x)
             own = len(st) if c and (c.get('us_own_stores') or '').strip().upper() not in ('NC', 'HELD', '') else None   # held or unread: still counting
-            other.append({'lk': LK.get(n) or None, 'n': n, 'cat': r['category'], 'own': own, 'none': bool(c and (c.get('us_own_stores') or '').strip().upper() == 'NONE'), 'stores': st, 'tier': tier(own) if own else '',
+            other.append({'so': SO.get(n) or None, 'lk': LK.get(n) or None, 'n': n, 'cat': r['category'], 'own': own, 'none': bool(c and (c.get('us_own_stores') or '').strip().upper() == 'NONE'), 'stores': st, 'tier': tier(own) if own else '',
                           'ne': sum(1 for x in st if x['s'] in NE), 'locator': (c or {}).get('locator_url', '') or '', 'read': (c or {}).get('captured_on', '') or '',
                           'note': (c or {}).get('note', '') or ''})
     for b in brands:

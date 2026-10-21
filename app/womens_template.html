@@ -254,7 +254,7 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
     <p class="lede">Every fashion brand with its own full-price stores in the US, sorted into four price tiers, with every store listed.</p>
     <p class="morelinks" id="moreLinks"><span>More views</span><a href="overlaps.html">How the brand lists overlap →</a><a href="cake-croissant.html">Brands on CAKE and Croissant →</a></p>
   </div>
-  <div class="stamp"><b>v0.75 · <span id="built"></span></b>Store lists from each brand’s own website. Tiers set by the starting price of a blouse and a sweater.<br><button class="tourlink" id="tourGo">Take the tour</button></div>
+  <div class="stamp"><b>v0.76 · <span id="built"></span></b>Store lists from each brand’s own website. Tiers set by the starting price of a blouse and a sweater.<br><button class="tourlink" id="tourGo">Take the tour</button></div>
 </header>
 
 <div class="layout">
@@ -285,7 +285,7 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
 </div>
 <div class="cuts">
   <span class="lbl">Tiers</span>
-  <div class="sortrow"><span class="hint">Order</span><button class="chip on" data-sort="az">A–Z</button><button class="chip" data-sort="stores">most stores</button></div>
+  <div class="sortrow"><span class="hint">Order</span><button class="chip on" data-sort="az">A–Z</button><button class="chip" data-sort="stores">most stores</button><button class="chip" data-sort="followers">most followers</button></div>
   <label><span class="tt" data-tip="Brands whose blouse and sweater start below this price, on average, are Tier 2. Tier 1 is the mass-market brands: a basic tee at $35 or less and a shirt under $80." tabindex="0"><span><span id="c1l">Tier 2</span> up to</span> <b id="c1v">$200</b></span><input type="range" id="c1" min="100" max="400" step="10" value="200"></label>
   <label><span class="tt" data-tip="Up to this price is Tier 3. Above it is Tier 4." tabindex="0"><span><span id="c2l">Tier 3</span> up to</span> <b id="c2v">$600</b></span><input type="range" id="c2" min="300" max="1200" step="25" value="600"></label>
   <button class="chip" id="creset">reset tiers</button>
@@ -355,7 +355,7 @@ document.getElementById('built').textContent=new Date(W.built+'T12:00:00').toLoc
 const TIERS_DEFAULT=['mass','chain','network','circuit'];
 let TIERS_ON=new Set(TIERS_DEFAULT), SG_ON=new Set(), q='';
 let SORT='az'; try{SORT=localStorage.getItem('wspec_sort')||'az';}catch(e){}
-const byOrder=(a,b)=>SORT==='stores'?((b.own||0)-(a.own||0))||a.n.localeCompare(b.n):a.n.localeCompare(b.n,'en',{sensitivity:'base'});
+const byOrder=(a,b)=>SORT==='stores'?((b.own||0)-(a.own||0))||a.n.localeCompare(b.n):SORT==='followers'?(fol(b)-fol(a))||a.n.localeCompare(b.n):a.n.localeCompare(b.n,'en',{sensitivity:'base'});
 // Brands a viewer removed from their own view (the × on a pill). Kept in this browser and carried in published pages.
 const HIDE=new Set(); try{JSON.parse(localStorage.getItem('wspec_hidden')||'[]').forEach(n=>HIDE.add(n));}catch(e){}
 function saveHide(){try{localStorage.setItem('wspec_hidden',JSON.stringify([...HIDE]));}catch(e){}}
@@ -430,6 +430,7 @@ function aboutHtml(b){
   if(a.sig) rows.push(`<dt>Signature</dt><dd>${link(a.sigurl,a.sig)}</dd>`);
   if(a.pron) rows.push(`<dt>Say it</dt><dd>${esc(a.pron)}</dd>`);
   if(a.look) rows.push(`<dt>Lookbook</dt><dd>${link(a.lookurl,a.look)}</dd>`);
+  if(b.so) rows.push(soRow(b.so));
   if(b.lk&&b.lk.length) rows.push(...lkRows(b.lk));
   else{const resale=[a.vinted?link(a.vinted,'Vinted'):'',a.trr?link(a.trr,'The RealReal'):'',a.grailed?link(a.grailed,'Grailed'):''].filter(Boolean);
   if(resale.length) rows.push(`<dt>Resale</dt><dd>${resale.join(' · ')}</dd>`);}
@@ -528,6 +529,10 @@ document.getElementById('bands').addEventListener('click',e=>{
   host.addEventListener('mouseout',e=>{const el=e.target.closest('.b'); if(el&&!el.contains(e.relatedTarget)) hide();});
   host.addEventListener('mousedown',hide); host.addEventListener('dragstart',hide);
   document.addEventListener('scroll',hide,true);})();
+function soRow(so){const p=[]; if(so.ig) p.push(`<a href="https://www.instagram.com/${encodeURIComponent(so.ig[0])}/" target="_blank" rel="noopener">Instagram</a>${so.ig[1]?` <span class="lkc">${esc(so.ig[1])}</span>`:''}`);
+  if(so.tt) p.push(`<a href="https://www.tiktok.com/@${encodeURIComponent(so.tt[0])}" target="_blank" rel="noopener">TikTok</a>${so.tt[1]?` <span class="lkc">${esc(so.tt[1])}</span>`:''}`);
+  return `<dt><span class="tt" data-tip="Followers as each profile showed them on October 20, 2026." tabindex="0">Social</span></dt><dd class="lk">${p.join('<span class="sep"> · </span>')}</dd>`;}
+function fol(b){const s=b.so; return s?((s.ig&&s.ig[2])||0)+((s.tt&&s.tt[2])||0):0;}
 const RESALE_SITES=new Set(['The RealReal','Vestiaire Collective','Depop','Poshmark','Vinted']);
 function lkRows(lk){const f=([s,u,c,m])=>`<a href="${esc(u)}" target="_blank" rel="noopener">${esc(s)}${m?' (men’s)':''}</a>${c?` <span class="lkc">${esc(c)}</span>`:''}`;
   const shop=lk.filter(x=>!RESALE_SITES.has(x[0])), re=lk.filter(x=>RESALE_SITES.has(x[0])), out=[];
@@ -537,7 +542,7 @@ function lkRows(lk){const f=([s,u,c,m])=>`<a href="${esc(u)}" target="_blank" re
 function openOther(n){const o=OTHER.find(x=>x.n===n); if(!o) return;
   document.getElementById('pbody').innerHTML=`<h2>${esc(o.n)}</h2><span class="pill">${esc(CATN[o.cat]||o.cat)}</span>
     <dl class="kv" style="margin-top:14px"><dt>Full-price stores</dt><dd>${o.own==null?'Count coming':o.none?'None of its own in the US; sold through other stores':o.own+' in the US'}</dd>
-    ${o.locator?`<dt>Store finder</dt><dd><a href="${esc(o.locator)}" target="_blank" rel="noopener">${esc(o.locator.replace(/^https?:\/\//,'').slice(0,60))}</a></dd>`:''}${o.read?`<dt>Checked</dt><dd>${esc(fmtDate(o.read))}</dd>`:''}${o.lk?lkRows(o.lk).join(''):''}</dl>
+    ${o.locator?`<dt>Store finder</dt><dd><a href="${esc(o.locator)}" target="_blank" rel="noopener">${esc(o.locator.replace(/^https?:\/\//,'').slice(0,60))}</a></dd>`:''}${o.read?`<dt>Checked</dt><dd>${esc(fmtDate(o.read))}</dd>`:''}${o.so?soRow(o.so):''}${o.lk?lkRows(o.lk).join(''):''}</dl>
     ${o.stores.length?'<h3>Stores</h3>'+storeTree(o):''}
     <p class="cav">Stores under the brand’s own name, from its website. Counters inside department stores aren’t included.</p>`;
   document.getElementById('panel').classList.add('show'); document.getElementById('ov').classList.add('show');}
@@ -551,7 +556,7 @@ function setMove(n,band){const b=W.brands.find(x=>x.n===n); if(!b||b.rule==='Pen
   host.addEventListener('drop',e=>{const sec=e.target.closest('.band'); if(!sec||!dragN||!sec.dataset.band) return; e.preventDefault(); const n=dragN; dragN=null; setMove(n,sec.dataset.band);});})();
 document.getElementById('pbody').addEventListener('click',e=>{const m=e.target.closest('[data-move]'); if(!m) return; const n=document.querySelector('#pbody h2').textContent; setMove(n,m.dataset.move); openBrand(n);});
 document.querySelectorAll('.segchips .chip').forEach(c=>c.onclick=()=>{const k=c.dataset.sg; if(SG_ON.has(k)) SG_ON.delete(k); else SG_ON.add(k); c.classList.toggle('on',SG_ON.has(k)); renderBands(); renderIdx();});
-function setSort(v){SORT=v==='stores'?'stores':'az'; try{localStorage.setItem('wspec_sort',SORT);}catch(e){} document.querySelectorAll('.sortrow .chip').forEach(c=>c.classList.toggle('on',c.dataset.sort===SORT));}
+function setSort(v){SORT=['stores','followers'].includes(v)?v:'az'; try{localStorage.setItem('wspec_sort',SORT);}catch(e){} document.querySelectorAll('.sortrow .chip').forEach(c=>c.classList.toggle('on',c.dataset.sort===SORT));}
 document.querySelectorAll('.sortrow .chip').forEach(c=>c.onclick=()=>{setSort(c.dataset.sort); renderBands();});
 setSort(SORT);
 document.getElementById('breset').onclick=()=>{HIDE.clear(); saveHide(); for(const k in MOVES) delete MOVES[k]; saveMoves(); reband(); renderBands(); renderIdx();};
