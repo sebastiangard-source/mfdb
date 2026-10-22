@@ -73,7 +73,7 @@ nav a:hover{background:#1C7C74!important;color:#fff!important}
     <button id="full" type="button" aria-pressed="false">Actual size</button>
   </div>
 </header>
-<p class="legend">Click a brand name to open its Instagram. <b style="font-weight:600">TT</b> opens its TikTok; no TT means no TikTok account was confirmed. <i>Italic</i> marks multi-brand retailers and marketplaces, which is my judgment, not something either page states. Nine brands marked not relevant are left out.</p>
+<p class="legend">Click a brand name to open its card. <b style="font-weight:600">TT</b> opens its TikTok; no TT means no TikTok account was confirmed. <i>Italic</i> marks multi-brand retailers and marketplaces, which is my judgment, not something either page states. Nine brands marked not relevant are left out.</p>
 <div id="viewport">
   <div id="sizer">
     <div id="stage">
@@ -109,14 +109,14 @@ function fill(id,arr){
     if(retail.indexOf(n)>-1)li.className="r";
     var l=LINKS[n]||{};
     var a=document.createElement("a");
-    a.textContent=n;
-    if(l.ig){a.href="https://www.instagram.com/"+l.ig+"/";a.target="_blank";a.rel="noopener";a.title=n+" on Instagram"}
+    a.textContent=n;a.setAttribute("data-brand",n);a.tabIndex=0;a.title="Open the brand card";
     li.appendChild(a);
     if(l.tt){var t=document.createElement("a");t.className="tt";t.textContent="TT";t.href="https://www.tiktok.com/@"+l.tt;t.target="_blank";t.rel="noopener";t.title=n+" on TikTok";t.setAttribute("aria-label",n+" on TikTok");li.appendChild(t)}
     ul.appendChild(li);
   });
 }
 fill("both",both);fill("cake",cake);fill("croi",croi);
+window.cardCtx=function(n){var l=LINKS[n]||{};return {lists:both.indexOf(n)>-1?["CAKE","Croissant"]:cake.indexOf(n)>-1?["CAKE"]:croi.indexOf(n)>-1?["Croissant"]:[],ig:l.ig,tt:l.tt}};
 
 var W=2100,H=1370,mode="fit";
 var vp=document.getElementById("viewport"),stage=document.getElementById("stage"),sizer=document.getElementById("sizer");
@@ -147,5 +147,6 @@ document.getElementById("q").addEventListener("input",function(e){
   if(first&&mode==="full"){first.scrollIntoView({block:"center",inline:"center"})}
 });
 </script>
+<script src="cards.js"></script>
 </body>
 </html>

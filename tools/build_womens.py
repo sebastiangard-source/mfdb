@@ -97,6 +97,38 @@ def load_social():
     return out
 
 
+CARD_SHARED = ['const esc=', 'const fmtDate=', 'const mapUrl=', 'const ST=', 'const REGION=', 'const REG_OF=', 'const NOT_VENUE=', 'function district(',
+               'function storeTree(', 'function aboutHtml(', 'function soRow(', 'const RESALE_SITES=', 'function lkRows(', 'const CATN=']
+
+
+def js_piece(src, start):
+    """One top-level statement from the Explorer's script, from its first line to where its brackets close."""
+    i = src.find('\n' + start)
+    if i < 0: raise SystemExit(f'cards: {start} not found in the template')
+    i += 1; d = 0; j = i
+    while j < len(src):
+        ch = src[j]
+        if ch in '{([': d += 1
+        elif ch in '})]': d -= 1
+        elif ch == '\n' and d == 0: break
+        j += 1
+    return src[i:j]
+
+
+def write_cards(data, tpl):
+    """Brand cards for the companion pages: app/sub/cards.js (code, with the Explorer's own pieces copied in) and
+    app/sub/cards_data.js (the brand data, loaded on the first click). Social handles for brands off the Explorer too."""
+    sys.path.insert(0, os.path.join(ROOT, 'tools'))
+    from build_ws_venn import ALIAS, fold
+    code = open(os.path.join(ROOT, 'app/sub/cards.tpl.js'), encoding='utf8').read()
+    code = code.replace('/*__SHARED__*/', '\n'.join(js_piece(tpl, s) for s in CARD_SHARED))
+    open(os.path.join(ROOT, 'app/sub/cards.js'), 'w', encoding='utf8').write(code)
+    soc = {fold(n): d for n, d in load_social().items()}
+    cx = {'built': data['built'], 'ne': data['ne'], 'alias': ALIAS, 'soc': soc,
+          'brands': data['brands'], 'other': data['other']}
+    open(os.path.join(ROOT, 'app/sub/cards_data.js'), 'w', encoding='utf8').write('window.CX_DATA=' + json.dumps(cx, ensure_ascii=False, separators=(',', ':')) + ';')
+
+
 def tier(n):
     if n is None: return 'NC'
     if n == 0: return 'none'
@@ -437,6 +469,7 @@ def main():
     out = os.path.join(ROOT, 'dist/womens_spectrum.html')
     open(out, 'w', encoding='utf8').write(html)
     print(f'{len(brands)} brands ({sum(1 for b in brands if b["src"]=="men" and not b.get("mo"))} crossovers, {sum(1 for b in brands if b.get("mo"))} men’s only), {sum(len(b["stores"]) for b in brands)} stores, bands {dict(nb)} -> {out} {os.path.getsize(out):,} bytes')
+    write_cards(data, tpl)
     if '--deploy' in sys.argv:
         # Same route as the men's map: the deploy branch, which the host copies into public_html/mfdb.
         import shutil, subprocess, tempfile
@@ -447,10 +480,10 @@ def main():
         shutil.copy(out, os.path.join(wt, 'womens.html'))
         shutil.copy(out, os.path.join(wt, 'brandset.html'))       # earlier GitHub Pages address, kept working
         shutil.copy(out, os.path.join(wt, 'explorer.html'))       # The Cyprus Brand Explorer (renamed 20 Oct 2026)
-        for sub in ('overlaps.html', 'cake-croissant.html', 'ws-cake-croissant.html'):         # companion pages linked from the header (20 Oct 2026)
+        for sub in ('overlaps.html', 'cake-croissant.html', 'ws-cake-croissant.html', 'cards.js', 'cards_data.js'):         # companion pages linked from the header (20 Oct 2026)
             shutil.copy(os.path.join(ROOT, 'app/sub', sub), os.path.join(wt, sub))
         open(os.path.join(wt, '.nojekyll'), 'w').close()           # serve the files as they are, no Jekyll pass
-        subprocess.run(['git', 'add', 'womens.html', 'brandset.html', 'explorer.html', 'overlaps.html', 'cake-croissant.html', 'ws-cake-croissant.html', '.nojekyll'], cwd=wt, check=True)
+        subprocess.run(['git', 'add', 'womens.html', 'brandset.html', 'explorer.html', 'overlaps.html', 'cake-croissant.html', 'ws-cake-croissant.html', 'cards.js', 'cards_data.js', '.nojekyll'], cwd=wt, check=True)
         ver = (re.search(r'<b>(v[\d.]+) ·', tpl) or [None, '?'])[1]
         subprocess.run(['git', '-c', 'user.name=mfdb', '-c', 'user.email=mfdb@local', 'commit', '-qm', f'deploy womens {ver}'], cwd=wt)
         subprocess.run(['git', 'push', '-q', 'origin', 'HEAD:deploy'], cwd=wt, check=True)
