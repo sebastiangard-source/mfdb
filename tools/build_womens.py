@@ -447,10 +447,10 @@ def main():
         shutil.copy(out, os.path.join(wt, 'womens.html'))
         shutil.copy(out, os.path.join(wt, 'brandset.html'))       # earlier GitHub Pages address, kept working
         shutil.copy(out, os.path.join(wt, 'explorer.html'))       # The Cyprus Brand Explorer (renamed 20 Oct 2026)
-        for sub in ('overlaps.html', 'cake-croissant.html'):         # companion pages linked from the header (20 Oct 2026)
+        for sub in ('overlaps.html', 'cake-croissant.html', 'ws-cake-croissant.html'):         # companion pages linked from the header (20 Oct 2026)
             shutil.copy(os.path.join(ROOT, 'app/sub', sub), os.path.join(wt, sub))
         open(os.path.join(wt, '.nojekyll'), 'w').close()           # serve the files as they are, no Jekyll pass
-        subprocess.run(['git', 'add', 'womens.html', 'brandset.html', 'explorer.html', 'overlaps.html', 'cake-croissant.html', '.nojekyll'], cwd=wt, check=True)
+        subprocess.run(['git', 'add', 'womens.html', 'brandset.html', 'explorer.html', 'overlaps.html', 'cake-croissant.html', 'ws-cake-croissant.html', '.nojekyll'], cwd=wt, check=True)
         ver = (re.search(r'<b>(v[\d.]+) ·', tpl) or [None, '?'])[1]
         subprocess.run(['git', '-c', 'user.name=mfdb', '-c', 'user.email=mfdb@local', 'commit', '-qm', f'deploy womens {ver}'], cwd=wt)
         subprocess.run(['git', 'push', '-q', 'origin', 'HEAD:deploy'], cwd=wt, check=True)
