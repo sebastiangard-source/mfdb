@@ -16,11 +16,11 @@ body{background:var(--cream);color:var(--ink);font-family:'Inter',sans-serif;fon
 body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;opacity:.35;
   background:repeating-linear-gradient(0deg,rgba(43,36,30,.022) 0 1px,transparent 1px 3px),repeating-linear-gradient(90deg,rgba(43,36,30,.018) 0 1px,transparent 1px 3px)}
 main{position:relative;z-index:1;max-width:1280px;margin:0 auto;padding:0 20px 96px}
-header{padding:56px 0 28px;border-bottom:1px solid var(--hairline);margin-bottom:22px;display:flex;justify-content:space-between;align-items:flex-end;gap:16px;flex-wrap:wrap}
+header{padding:56px 0 22px;border-bottom:1px solid var(--hairline);margin-bottom:22px;display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:end;column-gap:32px;row-gap:18px}
 h1{font-family:'Prata',serif;font-weight:400;font-size:clamp(30px,4.2vw,46px);line-height:1;letter-spacing:-.01em}
 h1 .thin{color:var(--ink-faint)}
 .lede{max-width:620px;color:var(--ink-soft);font-family:'Playfair Display',serif;font-size:13.5px;line-height:1.45;margin-top:10px}
-.stamp{font-size:11px;letter-spacing:.03em;color:var(--ink-faint);text-align:right}
+.stamp{font-size:11px;letter-spacing:.03em;line-height:1.55;color:var(--ink-faint);text-align:right;padding-bottom:4px}
 .stamp b{display:block;font-size:13px;color:var(--ink);font-weight:600}
 /* layout: side rail on desktop */
 .layout{display:grid;grid-template-columns:250px minmax(0,1fr);gap:40px;align-items:start}
@@ -223,7 +223,7 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
 .idx .row a{flex:none;color:var(--green);border:1px solid var(--hairline);border-radius:999px;padding:4px 12px;font-size:12px;text-decoration:none}
 .idx .state{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint);padding:16px 0 4px}
 .more{margin:12px 0 0;background:transparent;border:1px solid var(--hairline);border-radius:999px;padding:8px 16px;font:inherit;font-size:13px;cursor:pointer;color:var(--ink-soft)}
-@media (max-width:700px){header{padding-top:36px}.stamp{text-align:left}.prices{grid-template-columns:repeat(2,1fr)}.panel{padding:28px 18px 60px}}
+@media (max-width:700px){header{padding-top:36px;grid-template-columns:1fr}.stamp{text-align:left}.tourlink{margin-left:0}.prices{grid-template-columns:repeat(2,1fr)}.panel{padding:28px 18px 60px}}
 
 /* ---- first-load tour ---- */
 #tour{position:fixed;inset:0;z-index:200;pointer-events:none}
@@ -239,22 +239,23 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
 #tour .tx{position:absolute;top:8px;right:10px;border:0;background:none;font-size:22px;line-height:1;color:var(--ink-faint);cursor:pointer;padding:4px}
 #tour .tx:hover{color:var(--ink)}
 #tour .tip h3{padding-right:24px}
-.morelinks{display:flex;flex-wrap:wrap;align-items:center;gap:8px;font-size:13px;color:var(--ink-faint);margin:12px 0 0}
+.morelinks{grid-column:1/-1;display:flex;flex-wrap:wrap;align-items:center;gap:8px;font-size:12.5px;color:var(--ink-faint);margin:0;padding-top:14px;border-top:1px dashed var(--hairline)}.morelinks>span{margin-right:2px;text-transform:uppercase;letter-spacing:.08em;font-size:10.5px;font-weight:600}
 .morelinks a{display:inline-block;padding:5px 12px;border:1px solid var(--green);border-radius:999px;color:var(--green);text-decoration:none;font-weight:500}
 .morelinks a:hover{background:var(--green);color:#fff}
-.tourlink{display:inline-block;margin-top:8px;background:transparent;border:1px solid var(--green);border-radius:999px;padding:5px 12px;font:inherit;font-size:12px;font-weight:500;color:var(--green);cursor:pointer}
-.tourlink:hover{background:var(--green);color:#fff}
+.tourlink{display:inline-block;margin-left:auto;background:var(--green);border:1px solid var(--green);border-radius:999px;padding:5px 14px;font:inherit;font-size:12.5px;font-weight:500;color:#fff;cursor:pointer}
+.tourlink:hover{opacity:.88}
+@media (max-width:700px){.tourlink{margin-left:0}}
 </style>
 </head>
 <body>
 <main>
 <header>
-  <div>
+  <div class="hd-title">
     <h1>The Cyprus <span class="thin">Brand Explorer</span></h1>
     <p class="lede">Every fashion brand with its own full-price stores in the US, sorted into four price tiers, with every store listed.</p>
-    <p class="morelinks" id="moreLinks"><span>More views</span><a href="overlaps.html">How the brand lists overlap →</a><a href="cake-croissant.html">Brands on CAKE and Croissant →</a><a href="ws-cake-croissant.html">WS centers, CAKE and Croissant →</a></p>
   </div>
-  <div class="stamp"><b>v0.79 · <span id="built"></span></b>Store lists from each brand’s own website. Tiers set by the starting price of a blouse and a sweater.<br><button class="tourlink" id="tourGo">Take the tour</button></div>
+  <div class="stamp"><b>v0.80 · <span id="built"></span></b>Store lists from each brand’s own website.<br>Tiers set by the starting price of a blouse and a sweater.</div>
+  <nav class="morelinks" id="moreLinks"><span>More views</span><a href="overlaps.html">How the brand lists overlap →</a><a href="cake-croissant.html">Brands on CAKE and Croissant →</a><a href="ws-cake-croissant.html">WS centers, CAKE and Croissant →</a><button class="tourlink" id="tourGo">Take the tour</button></nav>
 </header>
 
 <div class="layout">
