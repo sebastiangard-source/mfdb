@@ -18,10 +18,16 @@ NOT_RETAIL = re.compile(r"\b(bank|chase|capital one|salon|spa|nail|tan|fitness|y
                         r"olives|wonder\b|hippo|mandarin|mercato|jacob|oliva|acquavella|galleries|toys|kids|tots|dogs|woof|grooming|optical|opticians|"
                         r"site for sore eyes|tempur|shade store|apple barrel|ross dress|kohl|dick|old navy|apple\b|golf lounge|top shelf|"
                         r"atria|alley, maass|design studio|public studio|made local|marketplace|floral|candle pour|pottery place|color me mine|"
-                        r"paul labrecque|francis conroy|visage|élan|sweat spot|justfoodfordogs|angel tips|face foundri)", re.I)
+                        r"paul labrecque|francis conroy|visage|élan|sweat spot|justfoodfordogs|angel tips|face foundri|"
+                        r"hospital|swim school|vet\\b|fifth third|schwab|boot camp|club studio|escape|at&t|verizon|walgreens|whole foods|"
+                        r"trader joe|star market|greenacres|office depot|rivian|urban air|sport clips|smile doctors|laser|skin laundry|skinmd|"
+                        r"skinkind|skinlab|skin & body|wax|drybar|miniluxe|glowbar|heyday|the tox|restore hyper|next health|madison reed|"
+                        r"lucid studio|seaport brand|one seaport|summer market|snowport|the green|the point|summer street steps|sirocco|showcase|"
+                        r"restaurant|apizza|chocolates|it.sugar|lahey|ob-gyn|clevens|pure glow|wellness|levitate|nourish|glow & grow|mane & mani|"
+                        r"sachetta|pet supplies|natural pet|sample sale|hallmark|lenscrafters|sunglass hut|trudy)", re.I)
 ALIAS = {'aliceandoliviabystaceybendet': 'aliceandolivia', 'beachbyeverythingbutwater': 'beach', 'theloft': 'loft', 'jjill': 'jjill',
          'josabankclothiers': 'josabank', 'williamssonoma': 'williamssonoma', 'seany': 'sea', 'katespade': 'katespadenewyork',
-         'greysonclothiers': 'greyson', 'stretchlab': 'stretchlab'}
+         'greysonclothiers': 'greyson', 'lushhandmadecosmetics': 'lushcosmetics', 'sleepnumberbyselectcomfort': 'sleepnumber', 'somaintimates': 'soma', 'crewcutsbyjcrew': 'crewcuts', 'stretchlab': 'stretchlab'}
 
 
 def fold(x):
@@ -47,7 +53,7 @@ def main():
     cats = collections.Counter()
     for t in rows:
         c = t['category_on_site'].lower(); n = t['tenant_name'].strip()
-        if not (any(k in c for k in ('fashion', 'specialty', 'beauty', 'home')) or c == 'nd'): continue
+        if not (any(k in c for k in ('fashion', 'specialty', 'beauty', 'home', 'shopping')) or c == 'nd'): continue
         if NOT_RETAIL.search(n): continue
         f = add(n, 'W'); centers[f].add(t['center'] + (' (coming soon)' if t['status'] == 'coming_soon' else ''))
     ctrs = sorted({t['center'] for t in rows})
