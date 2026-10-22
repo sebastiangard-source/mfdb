@@ -36,13 +36,15 @@ svg text{font-family:"Figtree",system-ui,sans-serif}
 #chips{display:flex;flex-wrap:wrap;gap:6px;max-height:420px;overflow:auto}
 .chip{background:#F0F3F4;border:1px solid var(--rule);border-radius:6px;padding:3px 9px;font-size:14px;white-space:nowrap}
 .chip small{color:var(--muted);margin-left:5px;font-size:12px}
-.chip .star{color:#2F4B8F}
+.chip .star{color:#2F4B8F;opacity:.6}
 .tablewrap{max-height:640px;overflow:auto;border:1px solid var(--rule);border-radius:8px}
 table{border-collapse:collapse;width:100%;font-size:14px}
 th,td{padding:6px 12px;text-align:left;border-bottom:1px solid #E8ECED;white-space:nowrap}
 th{position:sticky;top:0;background:#EEF2F3;font-weight:600;cursor:pointer;user-select:none}
 td.c,th.c{text-align:center}
-.dot{display:inline-block;width:12px;height:12px;border-radius:50%}
+.dot{display:inline-block;width:12px;height:12px;border-radius:50%;vertical-align:middle}
+.dw{position:relative;display:inline-block;line-height:0}
+.dw .ex{position:absolute;left:100%;top:50%;transform:translateY(-50%);margin-left:5px;white-space:nowrap;line-height:1}
 tr:hover td{background:#FAFBFB}
 mark{background:var(--hit);padding:0 1px}
 .note{color:var(--muted);font-size:13px;margin:10px 0 0}
@@ -230,8 +232,8 @@ function drawTable(){
       var extra='';
       if(s.k==='BS'&&r.t) extra=' <span style="color:#5A6672;font-size:12px">T'+r.t+'</span>'; else if(s.k==='BS'&&r.o) extra=' <span style="color:#5A6672;font-size:12px">Other</span>'; else if(s.k==='BS'&&r.a) extra=' <span style="color:#5A6672;font-size:12px">Added</span>';
       if(s.k==='WS'&&r.wc) extra=' <span style="color:#5A6672;font-size:12px" title="'+esc(r.wc.join(', '))+'">'+r.wc.length+'</span>';
-      if(s.k==='NAP'&&r.f) extra=' <span style="color:#2F4B8F" title="'+esc(r.f)+'">★</span>';
-      return '<td class="c"><span class="dot" style="background:'+s.color+'"></span>'+extra+'</td>';
+      if(s.k==='NAP'&&r.f) extra='<span style="color:#2F4B8F;opacity:.45;font-size:10px" title="Featured on Net-a-Porter: '+esc(r.f)+'">★</span>';
+      return '<td class="c"><span class="dw"><span class="dot" style="background:'+s.color+'"></span>'+(extra?'<span class="ex">'+extra+'</span>':'')+'</span></td>';
     }).join('');
     return '<tr><td>'+nm+'</td>'+cells+'<td class="c">'+deg(r.m)+'</td><td style="color:#5A6672">'+esc(CATS[r.c])+'</td><td class="c">'+(r.s>0?r.s.toLocaleString():(r.s===-1?'<span style="color:#5A6672">counting</span>':''))+'</td><td style="color:#5A6672">'+esc(r.g||(r.a?'Appendix A: '+r.a:''))+'</td></tr>';
   }).join('');
