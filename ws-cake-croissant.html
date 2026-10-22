@@ -97,7 +97,7 @@ function panel(){
   var a=sel[0],b=sel[1],part=sel[2],l=members(a,b,part);
   var title=part==='both'?(SETS[a].name+' and '+SETS[b].name):(SETS[part].name+', not '+SETS[part===a?b:a].name);
   $('panelhead').innerHTML='<b>'+esc(title)+'</b> &nbsp;'+l.length+(l.length===1?' brand':' brands');
-  $('chips').innerHTML=l.map(function(d){var x=d.x.length?'<small>'+d.x.length+(d.x.length===1?' center':' centers')+'</small>':'';return '<span class="chip'+(d.rt?' r':'')+'" title="'+esc(d.x.join(', '))+'">'+esc(d.n)+x+'</span>'}).join('');
+  $('chips').innerHTML=l.map(function(d){var x=d.x.length?'<small>'+d.x.length+(d.x.length===1?' center':' centers')+'</small>':'';return '<span class="chip'+(d.rt?' r':'')+'" title="'+esc(d.x.join(', '))+'" data-brand="'+esc(d.n)+'" tabindex="0">'+esc(d.n)+x+'</span>'}).join('');
 }
 function table(){
   var q=$('q').value.trim().toLowerCase();
@@ -106,12 +106,15 @@ function table(){
   $('count').textContent=l.length+' brands';
   var dot=function(on,col){return on?'<span class="dot" style="background:'+col+'"></span>':''};
   $('tbl').tBodies[0].innerHTML=l.map(function(d){
-    var nm=d.ig?'<a href="https://www.instagram.com/'+encodeURIComponent(d.ig)+'/" target="_blank" rel="noopener">'+esc(d.n)+'</a>':esc(d.n);
+    var nm='<span class="bn" data-brand="'+esc(d.n)+'" tabindex="0">'+esc(d.n)+'</span>';
     return '<tr><td'+(d.rt?' style="font-style:italic"':'')+'>'+nm+'</td><td class="c">'+dot(d.w,'#B7791F')+'</td><td class="c">'+dot(d.c,'#7A2E6E')+'</td><td class="c">'+dot(d.r,'#1C7C74')+'</td><td class="x">'+esc(d.x.join(', '))+'</td></tr>';
   }).join('');
 }
 $('q').addEventListener('input',table);
+window.cardCtx=function(n){var d=D.find(function(x){return x.n===n});if(!d)return {};
+  return {lists:[d.w?'WS centers':'',d.c?'CAKE':'',d.r?'Croissant':''].filter(Boolean),centers:d.x,ig:d.ig,tt:d.tt}};
 draw();panel();table();
 </script>
+<script src="cards.js"></script>
 </body>
 </html>

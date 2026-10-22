@@ -179,7 +179,7 @@ function showPanel(){
     if(r.c) extra+='<small>'+esc(CATS[r.c])+'</small>';
     if(r.wc) extra+='<small title="'+esc(r.wc.join(', '))+'">WS: '+r.wc.length+'</small>';
     if(r.f) extra+='<small class="star" title="Net-a-Porter: '+esc(r.f)+'">★ '+esc(r.f)+'</small>';
-    return '<span class="chip">'+esc(r.n)+extra+'</span>';
+    return '<span class="chip" data-brand="'+esc(r.n)+'" tabindex="0">'+esc(r.n)+extra+'</span>';
   }).join('');
 }
 
@@ -235,7 +235,7 @@ function drawTable(){
       if(s.k==='NAP'&&r.f) extra='<span style="color:#2F4B8F;opacity:.45;font-size:10px" title="Featured on Net-a-Porter: '+esc(r.f)+'">★</span>';
       return '<td class="c"><span class="dw"><span class="dot" style="background:'+s.color+'"></span>'+(extra?'<span class="ex">'+extra+'</span>':'')+'</span></td>';
     }).join('');
-    return '<tr><td>'+nm+'</td>'+cells+'<td class="c">'+deg(r.m)+'</td><td style="color:#5A6672">'+esc(CATS[r.c])+'</td><td class="c">'+(r.s>0?r.s.toLocaleString():(r.s===-1?'<span style="color:#5A6672">counting</span>':''))+'</td><td style="color:#5A6672">'+esc(r.g||(r.a?'Appendix A: '+r.a:''))+'</td></tr>';
+    return '<tr><td><span class="bn" data-brand="'+esc(r.n)+'" tabindex="0">'+nm+'</span></td>'+cells+'<td class="c">'+deg(r.m)+'</td><td style="color:#5A6672">'+esc(CATS[r.c])+'</td><td class="c">'+(r.s>0?r.s.toLocaleString():(r.s===-1?'<span style="color:#5A6672">counting</span>':''))+'</td><td style="color:#5A6672">'+esc(r.g||(r.a?'Appendix A: '+r.a:''))+'</td></tr>';
   }).join('');
 }
 $('q').addEventListener('input',drawTable);
@@ -259,5 +259,11 @@ $('csv').onclick=function(){
 })();
 setRows();drawUpset();showPanel();drawTable();
 </script>
+
+<script>
+window.cardCtx=function(n){var r=ALL.find(function(x){return x.n===n});if(!r)return {};
+  return {lists:SETS.map(function(s,i){return s.k!=='BS'&&has(r.m,i)?s.name:''}).filter(Boolean),centers:r.wc||[]}};
+</script>
+<script src="cards.js"></script>
 </body>
 </html>
