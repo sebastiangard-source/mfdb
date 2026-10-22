@@ -50,11 +50,12 @@ def main():
     rows = []
     for f in sorted(glob.glob(os.path.join(ROOT, 'jobs/returns/ws_centers_2026-10-22/return_tenants*.csv'))):
         rows += list(csv.DictReader(open(f, encoding='utf8')))
+    drops = {fold(r['tenant']) for r in csv.DictReader(open(os.path.join(ROOT, 'registers/ws_tenant_drops_2026-10-22.csv'), encoding='utf8'))}
     cats = collections.Counter()
     for t in rows:
         c = t['category_on_site'].lower(); n = t['tenant_name'].strip()
         if not (any(k in c for k in ('fashion', 'specialty', 'beauty', 'home', 'shopping')) or c == 'nd'): continue
-        if NOT_RETAIL.search(n): continue
+        if NOT_RETAIL.search(n) or fold(n) in drops: continue  # drops: stores, local boutiques, non-brands (ruled 22 Oct)
         f = add(n, 'W'); centers[f].add(t['center'] + (' (coming soon)' if t['status'] == 'coming_soon' else ''))
     ctrs = sorted({t['center'] for t in rows})
     data = [{'n': names[f], 'w': 'W' in v, 'c': 'C' in v, 'r': 'R' in v, 'x': sorted(centers.get(f, [])), 'rt': names[f] in retail,
