@@ -268,13 +268,13 @@ def tidy_basis(v):
     m = re.match(r'^mean of blouse and sweater entry \$(\d+)', v)
     if m: return f'Blouse and sweater start at ${m.group(1)} on average.' + (' Placed by hand.' if hand else '')
     m = re.match(r'^mean of blouse entry \$(\d+)', v)
-    if m: return f'Blouse starts at ${m.group(1)}.' + (' Placed by hand.' if hand else '')
+    if m: return f'Blouse starts at ${m.group(1)}; no sweater priced.' + (' Placed by hand.' if hand else '')
     m = re.match(r'^mean of sweater entry \$(\d+)', v)
-    if m: return f'Sweater starts at ${m.group(1)}.' + (' Placed by hand.' if hand else '')
-    m = re.match(r'^core tee \$(\d+) and core blouse \$(\d+)', v)
-    if m: return f'Basic tee ${m.group(1)}, blouse ${m.group(2)}.'
-    m = re.match(r'^core tee \$(\d+) with no woven blouse', v)
-    if m: return f'Basic tee ${m.group(1)}; no blouse sold.'
+    if m: return f'Sweater starts at ${m.group(1)}; no blouse priced.' + (' Placed by hand.' if hand else '')
+    m = re.match(r'^core tee \$([\d.]+) and core blouse \$([\d.]+)', v)
+    if m: return f'Basic tee {money(m.group(1))}, blouse {money(m.group(2))}.'
+    m = re.match(r'^core tee \$([\d.]+) with no woven blouse', v)
+    if m: return f'Basic tee {money(m.group(1))}; no blouse priced.'
     m = re.match(r'^shoe house, banded on shoe entry \$(\d+)', v)
     if m: return f'Shoes start at ${m.group(1)}.'
     if v.startswith('banded on its men'): return 'Placed on its men’s prices.'
@@ -287,6 +287,32 @@ def tidy_basis(v):
     v = re.sub(r'\bseated on\b', 'placed on', v)
     v = v.replace(' — ', ': ').strip()
     return (v[:1].upper() + v[1:]).rstrip('.') + '.' if v else v
+
+
+# One-off placements, worded by hand so the method reads first (23 Oct 2026)
+BASIS_HAND = {
+    'Cozy Earth': 'No blouse or sweater priced. Placed by hand on its dress, trouser and outerwear prices, which start at $127 on average; it is mainly a bedding and loungewear brand.',
+    'Miguelina': 'Blouse starts at $423; no sweater priced. Placed on its tops from $215 and dresses from $495, not the blouse alone.',
+    'Suzie Kondi': 'Placed on its $325 shirt and $295 track pants. Its only sweater is a $2,295 made-to-order hand-knit, not a staple.',
+}
+
+
+def money(x):
+    x = float(x); return f'${x:,.0f}' if x == int(x) else f'${x:,.2f}'
+
+
+def xbasis(prices, bandv, m):
+    """One wording per method, the same as the women's-only brands (23 Oct 2026)."""
+    lo = lambda g: prices[g][0] if isinstance(prices.get(g), list) else None
+    t, bl, sw = lo('t-shirt') if lo('t-shirt') is not None else lo('tee'), lo('blouse'), lo('sweater')
+    if bandv == 'Basic':
+        if t is not None and bl is not None: return f'Basic tee {money(t)}, blouse {money(bl)}.'
+        if t is not None: return f'Basic tee {money(t)}; no blouse priced.'
+        return 'Placed on its women’s range.'
+    if bl is not None and sw is not None: return f'Blouse and sweater start at {money(m)} on average.'
+    if bl is not None: return f'Blouse starts at {money(bl)}; no sweater priced.'
+    if sw is not None: return f'Sweater starts at {money(sw)}; no blouse priced.'
+    return 'No blouse or sweater priced; placed on the rest of its women’s range.'
 
 
 def tidy_fi(v):
@@ -400,7 +426,7 @@ def main():
             if bandv == 'Basic':
                 m = None  # Basic is the tee-and-blouse test, not a mean; the tier sliders leave it where it is
             weak = bool(XOFF and XOFF[-1][0] == b['name'])
-            basis = basis_men if weak else ((f"women’s blouse and sweater entry, mean ${m:,}" if m is not None else (('a women’s tee at $35 or less' + (' and a blouse under $80' if isinstance(prices.get('blouse'), list) else '')) if bandv == 'Basic' else 'its women’s range')) + (', with no sweater' if prices.get('sweater') == 'NONE' else ''))
+            basis = basis_men if weak else xbasis(prices, bandv, m)
             note = 'Prices are from the brand’s women’s range.'
         gl = WXL.get(kk) if wp else ({k.lower(): u for k, u in (b.get('garment_links') or {}).items()} or None)
         brands.append({'n': b['name'], 'band': bandv, 'm': m, 'basis': basis, 'own': n,
@@ -465,6 +491,12 @@ def main():
     for b in brands:
         b['nt'] = {k: t for k, t in ((k, tidy_note(v)) for k, v in (b.get('nt') or {}).items()) if t}
         b['basis'] = tidy_basis(b.get('basis', ''))
+        if b['n'] in BASIS_HAND: b['basis'] = BASIS_HAND[b['n']]
+        elif not re.match(r'^(Blouse|Sweater|Basic tee|Men’s shirt|Placed on|No blouse|Shoes start)', b['basis']) and b.get('prices') and b['band'] != 'Pending':
+            # a one-off note (Aritzia, GUESS...): lead with the method, keep the note after it (23 Oct 2026)
+            ent = [b['prices'][g][0] for g in ('blouse', 'sweater') if isinstance(b['prices'].get(g), list)]
+            lead = xbasis(b['prices'], b['band'], round(sum(ent) / len(ent)) if ent else None)
+            b['basis'] = lead + ' ' + re.sub(r'(?i)^no blouse or sweater, mean of dress/trousers/outerwear entries \$(\d+)\.? placed by hand \((.*)\)\.?$', r'Placed by hand on its dress, trouser and outerwear prices (\2).', b['basis'])
         b['fi'] = tidy_fi(b.get('fi', ''))
     data = {'built': datetime.date.today().isoformat(), 'brands': brands, 'other': other, 'ne': NE}
     tpl = open(os.path.join(ROOT, 'app/womens_template.html'), encoding='utf8').read()
