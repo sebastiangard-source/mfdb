@@ -76,7 +76,11 @@ def load_links():
 
 
 # ---- Instagram and TikTok (social_2026-10-20): handle and followers as the profile showed them, read 20 Oct 2026.
-SOCIAL_EXTRA = {'Ruti': {'ig': ['ruti', '104K', 104000], 'tt': ['shopruti', '2.4K', 2426]}}  # read in add_ruti_2026-10-20
+SOCIAL_EXTRA = {'Ruti': {'ig': ['ruti', '104K', 104000], 'tt': ['shopruti', '2.4K', 2426]},  # read in add_ruti_2026-10-20
+                'Madewell': {'ig': ['madewell', '1.6M', 1600000], 'tt': ['madewell', '75.1K', 75100]},  # read in add_madewell_ae_uo_choo_2026-10-22
+                'American Eagle': {'ig': ['americaneagle', '3.8M', 3800000], 'tt': ['americaneagle', '785.7K', 785700]},
+                'Urban Outfitters': {'ig': ['urbanoutfitters', '8.5M', 8500000], 'tt': ['urbanoutfitters', '450.5K', 450500]},
+                'Jimmy Choo': {'ig': ['jimmychoo', '13.3M', 13300000], 'tt': ['jimmychoo', '699.4K', 699400]}}  # read in add_ruti_2026-10-20
 # Unverified TikTok accounts that are probably the brand's, added for Sebastian to check (20 Oct 2026).
 for _b, _h, _s, _n in (('White House Black Market', 'whitehouseblackmarket', '4K', 4005), ('Still Here', 'stillherenewyork', '10.1K', 10100),
                        ('Indochino', 'indochino', '1.6K', 1616), ('State & Liberty', 'stateandliberty', '961', 961),

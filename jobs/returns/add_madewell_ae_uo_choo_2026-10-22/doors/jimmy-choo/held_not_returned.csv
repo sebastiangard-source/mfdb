@@ -1,0 +1,4 @@
+brand,locator_type,store_name,street,city,state,zip,country,phone,source_url,why_held
+Jimmy Choo,Department,The Forum Shops At Caesar's Palace,"3500 Las Vegas Blvd. South, Suite H03B",Las Vegas,NV,89109,US,+1 702 691 2097,https://us.jimmychoo.com/en/store-details?StoreID=8416,"locator type is Department but the address is a mall, not a department store"
+Jimmy Choo,Department,The Shoppes At The Palazzo,"3327 Las Vegas Boulevard South, Suite 2740",Las Vegas,NV,89109,US,+1 702 733 1802,https://us.jimmychoo.com/en/store-details?StoreID=8403,"locator type is Department but the address is a mall (Grand Canal Shoppes), not a department store"
+Jimmy Choo,Department,Jimmy Choo Americana Manhasset,2110E Northern Boulevard,New York,NY,11030,US,+1516 888 3199,https://us.jimmychoo.com/en/store-details?StoreID=8409,locator type is Department but the name is Jimmy Choo and the address is a shopping centre; locator city field says New York
