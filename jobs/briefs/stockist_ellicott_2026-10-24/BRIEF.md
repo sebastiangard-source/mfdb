@@ -68,7 +68,7 @@ Six other names on that list are already on the map: Red Wing (listed by the sho
 - **Names.** Match `canonical_keys.txt` exactly where a match exists. Otherwise use the brand's own mark, written as it writes it.
 - **No empty cells.** `NC` means nobody looked; an empty cell is an error.
 - **A stockist's price never becomes a brand's price.** If the only figure is Ellicott & Co.'s, label the basis as such. That can bench a brand but can't seat it.
-- **A search result carrying the brand's name is not the brand** until product, price band and country agree with what the shop sells. Check the shop's product against the site you find. Watch the generic names: Power Goods, Soft Goods and Peregrine all have namesakes.
+- **A search result carrying the brand's name is not the brand** until product, price band and country agree with what the shop sells. Check the shop's product against the site you find. Watch the generic names: Power Goods and Peregrine have namesakes. Soft Goods is confirmed by Sebastian: it is softgoodsmfg.com (shop at https://softgoodsmfg.com/collections/shop); use that site.
 - **Bot walls.** One plain try. If a check box appears, ask Sebastian once whether he'll clear it himself.
 - **Read only.** Don't sign in, add to cart or sign up for anything.
 - **Don't touch the map.** Don't rebuild anything. Return the two CSVs and `NOTE.md`, nothing else.
