@@ -1,0 +1,75 @@
+{
+  "not_checked": "NC",
+  "columns": [
+    {
+      "name": "brand_as_listed",
+      "type": "str"
+    },
+    {
+      "name": "canonical_key",
+      "type": "str",
+      "doc": "the exact key if reconcile matches; else NEW"
+    },
+    {
+      "name": "gender_at_shop",
+      "type": "enum",
+      "values": [
+        "mens",
+        "womens",
+        "both",
+        "unclear"
+      ]
+    },
+    {
+      "name": "verdict",
+      "type": "enum",
+      "values": [
+        "seated",
+        "seat",
+        "bench",
+        "reject",
+        "NC"
+      ],
+      "doc": "seated = already on the map; seat/bench/reject per the sift test below"
+    },
+    {
+      "name": "origin_country",
+      "type": "str"
+    },
+    {
+      "name": "origin_city",
+      "type": "str"
+    },
+    {
+      "name": "founded",
+      "type": "str"
+    },
+    {
+      "name": "own_store",
+      "type": "url",
+      "doc": "the brand's own US-facing store, or NONE"
+    },
+    {
+      "name": "price_basis",
+      "type": "str",
+      "doc": "e.g. USD own store \u00b7 EUR own store \u00b7 USD at The Great Put On (retailer)"
+    },
+    {
+      "name": "tee_or_knit_price",
+      "type": "str"
+    },
+    {
+      "name": "one_line",
+      "type": "str",
+      "doc": "what the brand is, in one sentence, from its own self-description"
+    },
+    {
+      "name": "source",
+      "type": "provenance"
+    },
+    {
+      "name": "note",
+      "type": "str"
+    }
+  ]
+}

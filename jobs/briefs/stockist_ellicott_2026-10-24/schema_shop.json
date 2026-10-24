@@ -1,0 +1,95 @@
+{
+  "not_checked": "NC",
+  "columns": [
+    {
+      "name": "shop",
+      "type": "str"
+    },
+    {
+      "name": "address",
+      "type": "str"
+    },
+    {
+      "name": "city",
+      "type": "str"
+    },
+    {
+      "name": "state",
+      "type": "str"
+    },
+    {
+      "name": "zip",
+      "type": "str"
+    },
+    {
+      "name": "type",
+      "type": "enum",
+      "values": [
+        "menswear specialist",
+        "boutique",
+        "department-like",
+        "other"
+      ]
+    },
+    {
+      "name": "gender",
+      "type": "enum",
+      "values": [
+        "mens_only",
+        "multigender",
+        "womens_with_mens_tail"
+      ]
+    },
+    {
+      "name": "founded",
+      "type": "str"
+    },
+    {
+      "name": "owners",
+      "type": "str"
+    },
+    {
+      "name": "ownership",
+      "type": "str"
+    },
+    {
+      "name": "hours",
+      "type": "str"
+    },
+    {
+      "name": "website",
+      "type": "url"
+    },
+    {
+      "name": "brand_list_source",
+      "type": "str",
+      "doc": "where the brand list was read: site Brands menu / collections feed / in store / press"
+    },
+    {
+      "name": "brand_count",
+      "type": "int"
+    },
+    {
+      "name": "story",
+      "type": "str",
+      "doc": "3\u20136 sentences, factual, in the register the seven examples in shop_example.json use"
+    },
+    {
+      "name": "source",
+      "type": "provenance"
+    },
+    {
+      "name": "confidence",
+      "type": "enum",
+      "values": [
+        "High",
+        "Medium",
+        "Low"
+      ]
+    },
+    {
+      "name": "note",
+      "type": "str"
+    }
+  ]
+}
