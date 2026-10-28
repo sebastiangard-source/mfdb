@@ -147,7 +147,7 @@ dd.lk .sep{color:var(--ink-faint)}
 #hc .hf .mt{display:flex;gap:2px;margin-top:3px}#hc .hf .mt i{flex:1;height:5px;border-radius:2px;background:var(--hairline)}#hc .hf .mt i.on{background:var(--green)}
 #hc .hx{font-size:11px;color:var(--ink-faint);margin-top:10px;border-top:1px solid var(--hairline);padding-top:8px}
 @media (hover:none){#hc{display:none}}
-.sortrow{display:flex;align-items:center;gap:6px}.sortrow .chip{padding:5px 12px;font-size:12px}.sortrow .hint{margin-right:2px}
+.sortrow{display:flex;align-items:center;gap:8px;flex-wrap:wrap}.sortrow .hint{margin-right:0}.sortrow .seg{display:inline-flex;border:1px solid var(--hairline);border-radius:999px;padding:2px;background:#fff}.sortrow .chip{padding:4px 11px;font-size:12px;border:0;white-space:nowrap;line-height:1.3}.sortrow .chip.on{background:var(--green);color:#fff}
 .impfile{cursor:pointer;font-size:12px;color:var(--green);text-decoration:underline;text-underline-offset:3px}
 .pub .hint{font-size:11.5px;color:var(--ink-faint);line-height:1.4}
 .renames{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:6px}
@@ -254,7 +254,7 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
     <h1>The Cyprus <span class="thin">Brand Explorer</span></h1>
     <p class="lede">Every fashion brand with its own full-price stores in the US, sorted into four price tiers, with every store listed.</p>
   </div>
-  <div class="stamp"><b>v0.84 · <span id="built"></span></b>Store lists from each brand’s own website.<br>Tiers set by the starting price of a blouse and a sweater.</div>
+  <div class="stamp"><b>v0.85 · <span id="built"></span></b>Store lists from each brand’s own website.<br>Tiers set by the starting price of a blouse and a sweater.</div>
   <nav class="morelinks" id="moreLinks"><span>More views</span><a href="overlaps.html">How the brand lists overlap →</a><a href="cake-croissant.html">Brands on CAKE and Croissant →</a><a href="ws-cake-croissant.html">WS centers, CAKE and Croissant →</a><a href="maggies-list.html">Maggie’s list →</a><button class="tourlink" id="tourGo">Take the tour</button></nav>
 </header>
 
@@ -286,7 +286,7 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
 </div>
 <div class="cuts">
   <span class="lbl">Tiers</span>
-  <div class="sortrow"><span class="hint">Order</span><button class="chip on" data-sort="az">A–Z</button><button class="chip" data-sort="stores">most stores</button><button class="chip" data-sort="followers">most followers</button></div>
+  <div class="sortrow"><span class="hint">Order</span><span class="seg"><button class="chip on" data-sort="az">A–Z</button><button class="chip" data-sort="stores">Stores</button><button class="chip" data-sort="followers">Followers</button></span></div>
   <label><span class="tt" data-tip="Brands whose blouse and sweater start below this price, on average, are Tier 2. Tier 1 is the mass-market brands: a basic tee at $35 or less and a shirt under $80." tabindex="0"><span><span id="c1l">Tier 2</span> up to</span> <b id="c1v">$200</b></span><input type="range" id="c1" min="100" max="400" step="10" value="200"></label>
   <label><span class="tt" data-tip="Up to this price is Tier 3. Above it is Tier 4." tabindex="0"><span><span id="c2l">Tier 3</span> up to</span> <b id="c2v">$600</b></span><input type="range" id="c2" min="300" max="1200" step="25" value="600"></label>
   <button class="chip" id="creset">reset tiers</button>
