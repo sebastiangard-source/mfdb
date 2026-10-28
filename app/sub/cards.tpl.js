@@ -9,6 +9,8 @@ const SRC=(document.currentScript&&document.currentScript.src)||location.href;
 /*__SHARED__*/
 const TIERNAME={Basic:'Tier 1',Premium:'Tier 2',Accessible:'Tier 3','True Luxury':'Tier 4',Pending:'Prices to come'};
 const bandName=b=>TIERNAME[b]||b;
+// The tier as the Explorer shows it at its default cuts ($200 / $600): brands with a mean are re-banded on it, as the Explorer's reband() does.
+const tierOf=b=>b.m==null?b.band:(b.m<200?'Premium':b.m<=600?'Accessible':'True Luxury');
 let NE=new Set(), DATA=null, IDX=null, ALIAS={}, loading=null;
 function fold(x){
   x=String(x||'').normalize('NFKD').replace(/[̀-ͯ]/g,'').replace(/[^\x00-\x7f]/g,'').toLowerCase().replace(/&/g,'and').replace(/\+/g,'and');
@@ -103,7 +105,7 @@ function brandCard(b,c){
   const dials=(b.f||b.fa)?`<h3>Dials</h3>${focusRows?`<div class="dg">${focusRows}</div>`:''}${fabRows?`<h4>Fabric</h4><div class="dg">${fabRows}</div>`:''}<p class="dhint">Tap a dial to see why.${b.fi?' '+esc(b.fi):''}</p>`:'';
   if(!b.so&&!(b.about)) b={...b,so:socFrom(c)};
   return `<h2>${esc(b.n)}</h2>
-    <span class="pill ${b.band.split(' ')[0]}">${esc(bandName(b.band))}</span>
+    <span class="pill ${tierOf(b).split(' ')[0]}">${esc(bandName(tierOf(b)))}</span>
     ${b.sg?`<p class="basis" style="margin-bottom:4px"><b style="color:var(--ink)">${esc(b.sg)}</b>${b.sg2?` · also ${esc(b.sg2)}`:''}</p>`:''}
     <p class="basis">${esc(b.basis)}</p>
     <dl class="kv">

@@ -133,6 +133,32 @@ def write_cards(data, tpl):
     open(os.path.join(ROOT, 'app/sub/cards_data.js'), 'w', encoding='utf8').write('window.CX_DATA=' + json.dumps(cx, ensure_ascii=False, separators=(',', ':')) + ';')
 
 
+def write_maggie(data):
+    """Maggie's List (app/sub/maggies-list.html): the brands Maggie picked from an Explorer export (22 Oct 2026),
+    shown with the Explorer's current tiers and store counts. Tier as the Explorer shows it at its default cuts."""
+    TN = {'Basic': 'Tier 1', 'Premium': 'Tier 2', 'Accessible': 'Tier 3', 'True Luxury': 'Tier 4'}
+    def shown(b):
+        m = b.get('m')
+        return b['band'] if m is None else ('Premium' if m < 200 else 'Accessible' if m <= 600 else 'True Luxury')
+    B = {b['n']: b for b in data['brands']}; O = {o['n']: o for o in data['other']}
+    CATN = {'jewelry_high': 'High jewelry and watches', 'jewelry_fine': 'Fine and demi-fine jewelry', 'bags': 'Bags and leather goods', 'eyewear': 'Eyewear',
+            'travel': 'Travel', 'home': 'Home', 'beauty_retailer': 'Beauty stores', 'fragrance': 'Fragrance', 'skin_body': 'Skin and body', 'makeup': 'Makeup'}
+    L, missing = [], []
+    for r in csv.DictReader(open(os.path.join(ROOT, 'registers/maggies_list_2026-10-22.csv'), encoding='utf8')):
+        n = r['brand']
+        if n in B:
+            b = B[n]; t = TN.get(shown(b), shown(b))
+            L.append({'n': n, 't': t, 's': b['own'], 'seg': b.get('sg') or '', 'was': r['tier_at_export'] if t != r['tier_at_export'] else ''})
+        elif n in O:
+            o = O[n]; L.append({'n': n, 't': '', 'cat': CATN.get(o['cat'], o['cat']), 's': o['own']})
+        else:
+            missing.append(n)
+    L.sort(key=lambda x: (x.get('cat') or '', x['n'].lower()))
+    tpl = open(os.path.join(ROOT, 'app/sub/maggies-list.tpl.html'), encoding='utf8').read()
+    html = tpl.replace('/*DATA*/', 'var L=' + json.dumps(L, ensure_ascii=False) + ';var MISSING=' + json.dumps(missing, ensure_ascii=False) + ';var PICKED="22 October 2026";')
+    open(os.path.join(ROOT, 'app/sub/maggies-list.html'), 'w', encoding='utf8').write(html)
+
+
 def tier(n):
     if n is None: return 'NC'
     if n == 0: return 'none'
@@ -506,6 +532,7 @@ def main():
     open(out, 'w', encoding='utf8').write(html)
     print(f'{len(brands)} brands ({sum(1 for b in brands if b["src"]=="men" and not b.get("mo"))} crossovers, {sum(1 for b in brands if b.get("mo"))} men’s only), {sum(len(b["stores"]) for b in brands)} stores, bands {dict(nb)} -> {out} {os.path.getsize(out):,} bytes')
     write_cards(data, tpl)
+    write_maggie(data)
     if '--deploy' in sys.argv:
         # Same route as the men's map: the deploy branch, which the host copies into public_html/mfdb.
         import shutil, subprocess, tempfile
@@ -516,10 +543,10 @@ def main():
         shutil.copy(out, os.path.join(wt, 'womens.html'))
         shutil.copy(out, os.path.join(wt, 'brandset.html'))       # earlier GitHub Pages address, kept working
         shutil.copy(out, os.path.join(wt, 'explorer.html'))       # The Cyprus Brand Explorer (renamed 20 Oct 2026)
-        for sub in ('overlaps.html', 'cake-croissant.html', 'ws-cake-croissant.html', 'cards.js', 'cards_data.js'):         # companion pages linked from the header (20 Oct 2026)
+        for sub in ('overlaps.html', 'cake-croissant.html', 'ws-cake-croissant.html', 'cards.js', 'cards_data.js', 'maggies-list.html'):         # companion pages linked from the header (20 Oct 2026)
             shutil.copy(os.path.join(ROOT, 'app/sub', sub), os.path.join(wt, sub))
         open(os.path.join(wt, '.nojekyll'), 'w').close()           # serve the files as they are, no Jekyll pass
-        subprocess.run(['git', 'add', 'womens.html', 'brandset.html', 'explorer.html', 'overlaps.html', 'cake-croissant.html', 'ws-cake-croissant.html', 'cards.js', 'cards_data.js', '.nojekyll'], cwd=wt, check=True)
+        subprocess.run(['git', 'add', 'womens.html', 'brandset.html', 'explorer.html', 'overlaps.html', 'cake-croissant.html', 'ws-cake-croissant.html', 'cards.js', 'cards_data.js', 'maggies-list.html', '.nojekyll'], cwd=wt, check=True)
         ver = (re.search(r'<b>(v[\d.]+) ·', tpl) or [None, '?'])[1]
         subprocess.run(['git', '-c', 'user.name=mfdb', '-c', 'user.email=mfdb@local', 'commit', '-qm', f'deploy womens {ver}'], cwd=wt)
         subprocess.run(['git', 'push', '-q', 'origin', 'HEAD:deploy'], cwd=wt, check=True)
