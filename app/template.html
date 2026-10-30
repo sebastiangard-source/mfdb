@@ -1408,7 +1408,7 @@
          sticky dial strip instead and never shows this rail. -->
     <button class="clearall" id="clearAll">Clear all</button>
     <div id="resultSlot"></div>
-    <div class="reachsolo"><div class="dial" data-attr="reach" style="--ac:#3E6B7A"><span class="dl" data-tip="How many stores of its own the brand runs in the US, outlets and concessions excluded — from none up to more than fifty. Counted, not judged." tabindex="0">has stores</span><input type="range" min="0" max="5" value="0" step="1" aria-label="Has stores"><span class="dv">off</span></div></div>
+    <div class="reachsolo"><div class="dial" data-attr="reach" style="--ac:#3E6B7A"><span class="dl" data-tip="How many stores of its own the brand runs in the US, outlets and concessions excluded, in the Brand Explorer’s groups: 1 to 4, 5 to 12, 13 to 50, 51 to 250 and more than 250. Counted, not judged." tabindex="0">has stores</span><input type="range" min="0" max="5" value="0" step="1" aria-label="Has stores"><span class="dv">off</span></div></div>
 
         <details class="grp" open><summary class="lab">Focus<span class="gn">9</span><span class="gchev">&#8250;</span></summary><div class="gbody"><div class="dial" data-attr="tech" style="--ac:var(--tech)"><span class="dl" data-tip="How technical the clothes are — performance fabrics, engineered construction, measurable function. Scored on what the brand sells, not on who invented it." tabindex="0">tech</span><input type="range" min="0" max="5" value="0" step="1" aria-label="Tech focus"><span class="dv">off</span></div>
     <div class="dial" data-attr="comfort" style="--ac:var(--comfort)"><span class="dl" data-tip="How central softness and physical ease are to what the brand sells — fiber, stretch, drape, wash." tabindex="0">comfort</span><input type="range" min="0" max="5" value="0" step="1" aria-label="Comfort focus"><span class="dv">off</span></div>
@@ -1741,7 +1741,7 @@ function traitLine(el){
     ["outdoor",{5:"a mountain house"}], ["surf",{5:"a surfer\u2019s house"}], ["normcore",{5:"pops on no register"}],
     ["dur",    {5:"built to outlive you"}],
     ["forg",   {5:"fits a wide range of bodies"}],
-    ["reach",  {5:"more than fifty stores of its own", 1:"no store of its own"}],
+    ["reach",  {5:"more than 250 stores of its own", 0:"no store of its own"}],
   ];
   let best = null, bestScore = -1;
   for(const [k, words] of R){
@@ -1788,7 +1788,7 @@ function traitLineFull(el){
     ["briish", {5:"British to the core", 4:"deeply British"}],
     ["dur", {5:"built to outlive you", 4:"built heavy"}],
     ["forg", {5:"fits a wide range of bodies", 4:"accommodating"}],
-    ["reach", {5:"more than fifty stores of its own", 4:"more than twenty stores of its own", 1:"no store of its own"}],
+    ["reach", {5:"more than 250 stores of its own", 4:"more than fifty stores of its own", 0:"no store of its own"}],
     ["shoes", {5:"a shoemaker first", 4:"a shoe you would know by name"}],
     ["whitet", {5:"built on the white tee", 4:"a white tee you would buy it for"}],
     ["logo", {5:"the logo is the design", 4:"big or all-over logos", 1:"no visible branding"}],
@@ -2191,7 +2191,7 @@ function esc(t){ return String(t).replace(/&/g,"&amp;").replace(/</g,"&lt;").rep
 
 function derivedReason(name, k, v){
   if(k === "natural" && v === 5){ const f = FIBRE[name]; return f ? `every style that states a composition (${f.w} of ${f.t} read) is natural-led; nothing in the range is synthetic-led` : ""; }
-  if(k === "reach" && v === 5){ const d = DOORS[name]; return d ? `${d.n} stores of its own in the US` : ""; }
+  if(k === "reach" && v >= 4){ const d = DOORS[name]; return d ? `${d.n} stores of its own in the US` : ""; }
   if(k === "normcore" && v === 5) return "no culture dial, nor Logo nor Style, scores above 1";
   return "";
 }
@@ -3413,6 +3413,7 @@ DIALS.forEach(dial=>{
     };
     dv.textContent = t === 0 ? "off"
       : dial.dataset.bipolar === "1" ? (BIWORD[dial.dataset.attr]||{})[String(t)]
+      : dial.dataset.attr === "reach" ? (["","1+","5+","13+","51+","250+"][t] + " stores")
       : "\u2265 " + t;
     dial.classList.toggle("on", t > 0);
     queueDials();

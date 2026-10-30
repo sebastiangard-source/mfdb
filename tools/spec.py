@@ -182,13 +182,15 @@ def consts(data):
         # Re-cut again 1 Oct 2026: the top step is absolute — not one synthetic-led style.
         nat[rec['name']] = 5 if share >= 99.95 else 4 if share >= 95 else 3 if share >= 85 else 2 if share >= 70 else 1
     by_const['NATURAL'] = nat
-    # REACH is "own stores", derived from the verified US door count, never authored (28 Sep 2026).
+    # REACH is "has stores", derived from the verified US door count, never authored (28 Sep 2026).
+    # Re-cut 30 Oct 2026 to the Brand Explorer's store groups: 1 = 1-4, 2 = 5-12, 3 = 13-50, 4 = 51-250,
+    # 5 = more than 250; 0 = no store of its own (passes no setting of the dial).
     reach = collections.OrderedDict()
     for rec in data.brands:
         n = (rec.get('doors') or {}).get('n')
         if n is None:
             continue
-        reach[rec['name']] = 5 if n > 50 else 4 if n > 20 else 3 if n > 5 else 2 if n > 0 else 1
+        reach[rec['name']] = 5 if n > 250 else 4 if n > 50 else 3 if n > 12 else 2 if n > 4 else 1 if n > 0 else 0
     by_const['REACH'] = reach
     # NORMCORE: derived — the brand's loudest register, upside down (28 Sep 2026).
     CULT = ['golf','status','finbro','ivy','murica','ital','fren','street','avant','prep','weird','boat',

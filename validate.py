@@ -139,7 +139,7 @@ for c in REGISTERS:
     # 0 means not represented, not unassessed. See the 1,491-cell migration.
     scalars(c, 0, 5)
 
-scalars('REACH', 1, 5)
+scalars('REACH', 0, 5)  # 0 = no store of its own (re-cut to the Brand Explorer's groups, 30 Oct 2026)
 scalars('DUR', 1, 5)
 scalars('FORG', 1, 5)
 scalars('FUSS', -3, 3)       # bipolar, centre = off

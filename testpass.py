@@ -894,7 +894,7 @@ with sync_playwright() as p:
     pg.mouse.move(5,5); pg.wait_for_timeout(200); pg.hover('.brand:has-text("Stefan Brandt")'); pg.wait_for_timeout(600)
     ck('an all-euro brand shows no dollar axis or gridlines on the card', pg.evaluate("document.querySelectorAll('#hoverCard .hp-gl').length")==0 and 'euros' in pg.evaluate("document.querySelector('#hoverCard .hp-ax').textContent"))
     ck('reach describes no zero', '0 =' not in pg.evaluate("document.querySelector('.dial[data-attr=\"reach\"] .dl').dataset.tip"))
-    ck('own stores is derived from the door count', pg.evaluate("Object.keys(REACH).every(k=>{const n=DOORS[k]?.n; if(n==null) return false; const v=n>50?5:n>20?4:n>5?3:n>0?2:1; return REACH[k]===v})"))
+    ck('has stores is derived from the door count, in the Explorer groups', pg.evaluate("Object.keys(REACH).every(k=>{const n=DOORS[k]?.n; if(n==null) return false; const v=n>250?5:n>50?4:n>12?3:n>4?2:n>0?1:0; return REACH[k]===v})"))
     ck('the dial is labelled has stores', 'has stores' in pg.evaluate("document.querySelector('.dial[data-attr=\"reach\"] .dl').textContent"))
     pg.goto(url+'#brand=Faherty'); pg.reload(); pg.wait_for_timeout(400)
     ck('a brand with every garment linked to its own pages says so in the note', 'every label opens' in pg.evaluate("document.querySelector('#detailBody .pv-note').textContent"))
