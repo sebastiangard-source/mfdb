@@ -147,8 +147,9 @@ with sync_playwright() as p:
        [x for x in labs if any(c.isupper() for c in x)])
     gn = pg.eval_on_selector_all('.gn','e=>e.map(x=>+x.textContent)')
     bi = pg.eval_on_selector_all('.birow .dial','e=>e.length')
-    ck('grouped badges plus the two-way row account for every dial',
-       sum(gn)+bi==len(dials), f'{gn} + {bi} vs {len(dials)}')
+    solo = pg.eval_on_selector_all('.reachsolo .dial','e=>e.length')  # "has stores" sits on its own above Focus (30 Oct 2026)
+    ck('grouped badges, the two-way row and the standalone dial account for every dial',
+       sum(gn)+bi+solo==len(dials), f'{gn} + {bi} + {solo} vs {len(dials)}')
     print(f'    dials {len(dials)}  brands {brands}  groups {gn}')
 
     head('every dial explainer opens and is clean')
@@ -894,7 +895,7 @@ with sync_playwright() as p:
     ck('an all-euro brand shows no dollar axis or gridlines on the card', pg.evaluate("document.querySelectorAll('#hoverCard .hp-gl').length")==0 and 'euros' in pg.evaluate("document.querySelector('#hoverCard .hp-ax').textContent"))
     ck('reach describes no zero', '0 =' not in pg.evaluate("document.querySelector('.dial[data-attr=\"reach\"] .dl').dataset.tip"))
     ck('own stores is derived from the door count', pg.evaluate("Object.keys(REACH).every(k=>{const n=DOORS[k]?.n; if(n==null) return false; const v=n>50?5:n>20?4:n>5?3:n>0?2:1; return REACH[k]===v})"))
-    ck('the dial is labelled own stores', 'own stores' in pg.evaluate("document.querySelector('.dial[data-attr=\"reach\"] .dl').textContent"))
+    ck('the dial is labelled has stores', 'has stores' in pg.evaluate("document.querySelector('.dial[data-attr=\"reach\"] .dl').textContent"))
     pg.goto(url+'#brand=Faherty'); pg.reload(); pg.wait_for_timeout(400)
     ck('a brand with every garment linked to its own pages says so in the note', 'every label opens' in pg.evaluate("document.querySelector('#detailBody .pv-note').textContent"))
     pg.goto(url); pg.reload(); pg.wait_for_timeout(400); pg.mouse.move(5,5); pg.wait_for_timeout(200); pg.hover('.brand:has-text("Faherty")'); pg.wait_for_timeout(600)
@@ -942,7 +943,7 @@ with sync_playwright() as p:
     ck('the axis sits over the track, not the figures', pg.evaluate("(()=>{const a=document.querySelector('#detailBody .pr-axis').getBoundingClientRect(), t=document.querySelector('#detailBody .pr-track').getBoundingClientRect(); return Math.abs(a.left-t.left)<2 && Math.abs(a.right-t.right)<2})()"))
     ck('the axis reaches past the dearest cell', pg.evaluate("document.querySelector('#detailBody .pr-axis')?.textContent.includes('12800') || document.querySelector('#detailBody .pr-wrap').textContent.includes('12800')"))
     ck('no diagnostic-view subtitle', 'diagnostic view' not in pg.evaluate("document.getElementById('detailBody').innerText"))
-    ck('registers fold away by default', pg.evaluate("(()=>{const d=document.querySelector('#detailBody details.dv-fold'); return d && !d.open})()"))
+    ck('registers open by default (30 Oct 2026)', pg.evaluate("(()=>{const d=document.querySelector('#detailBody details.dv-fold'); return d && d.open})()"))
     txt = pg.evaluate("document.body.innerText")
     ck('no beta marks anywhere', 'β' not in txt)
     ck('the word rubric appears nowhere on the page', 'rubric' not in txt.lower())
@@ -1011,7 +1012,7 @@ with sync_playwright() as p:
     pg.goto(url+'#brand=Todd%20Snyder'); pg.reload(); pg.wait_for_timeout(400)
     pg.click('#detailBody .chipd[data-k="craft"]'); pg.wait_for_timeout(200)
     _ex = pg.evaluate("document.querySelector('#detailBody .rub-inline[data-for=\"craft\"]').textContent")
-    ck('the Registers fold shows a caret, not an escape', pg.evaluate("getComputedStyle(document.querySelector('#detailBody .dv-fold summary h3'),'::before').content") in ('"\u25b8"','"▸"'))
+    ck('the Registers fold shows a caret, not an escape', pg.evaluate("getComputedStyle(document.querySelector('#detailBody .dv-fold summary h3'),'::before').content") in ('"\u25b8"','"▸"','"\u25be"','"▾"'))
     ck('a chip explainer names its dial and uses the plain text', _ex.lower().startswith('craft') and '5 =' not in _ex, _ex[:70])
 
     head('stores nationally')

@@ -916,6 +916,7 @@
   .dv-fold summary h3::before{content:"\25B8";display:inline-block;width:14px;font-size:11px;color:var(--ink-faint)}
   .dv-fold[open] summary h3::before{content:"\25BE"}
   .dv-fold-hint{font-size:11px;color:var(--ink-faint)}
+  .reachsolo{margin:4px 0 14px;padding:0 0 12px;border-bottom:1px solid var(--hairline, #ddd)}
   .dv-fold[open] .dv-fold-hint{display:none}
   #detailView tr.rubric-row{display:none}
   #detailView tr.rubric-row.open{display:table-row}
@@ -1407,15 +1408,15 @@
          sticky dial strip instead and never shows this rail. -->
     <button class="clearall" id="clearAll">Clear all</button>
     <div id="resultSlot"></div>
+    <div class="reachsolo"><div class="dial" data-attr="reach" style="--ac:#3E6B7A"><span class="dl" data-tip="How many stores of its own the brand runs in the US, outlets and concessions excluded — from none up to more than fifty. Counted, not judged." tabindex="0">has stores</span><input type="range" min="0" max="5" value="0" step="1" aria-label="Has stores"><span class="dv">off</span></div></div>
 
-        <details class="grp" open><summary class="lab">Focus<span class="gn">10</span><span class="gchev">&#8250;</span></summary><div class="gbody"><div class="dial" data-attr="tech" style="--ac:var(--tech)"><span class="dl" data-tip="How technical the clothes are — performance fabrics, engineered construction, measurable function. Scored on what the brand sells, not on who invented it." tabindex="0">tech</span><input type="range" min="0" max="5" value="0" step="1" aria-label="Tech focus"><span class="dv">off</span></div>
+        <details class="grp" open><summary class="lab">Focus<span class="gn">9</span><span class="gchev">&#8250;</span></summary><div class="gbody"><div class="dial" data-attr="tech" style="--ac:var(--tech)"><span class="dl" data-tip="How technical the clothes are — performance fabrics, engineered construction, measurable function. Scored on what the brand sells, not on who invented it." tabindex="0">tech</span><input type="range" min="0" max="5" value="0" step="1" aria-label="Tech focus"><span class="dv">off</span></div>
     <div class="dial" data-attr="comfort" style="--ac:var(--comfort)"><span class="dl" data-tip="How central softness and physical ease are to what the brand sells — fiber, stretch, drape, wash." tabindex="0">comfort</span><input type="range" min="0" max="5" value="0" step="1" aria-label="Comfort focus"><span class="dv">off</span></div>
     <div class="dial" data-attr="craft" style="--ac:var(--craft)"><span class="dl" data-tip="How much of the making can be verified — who makes it, where, and for how long. Owned factories, named mills and documented process score; a hangtag does not." tabindex="0">craft</span><input type="range" min="0" max="5" value="0" step="1" aria-label="Craft focus"><span class="dv">off</span></div>
     <div class="dial" data-attr="style" style="--ac:var(--style)"><span class="dl" data-tip="How much the brand trades on a design point of view and fashion influence rather than perfected basics." tabindex="0">style</span><input type="range" min="0" max="5" value="0" step="1" aria-label="Style focus"><span class="dv">off</span></div>
     
     <div class="dial" data-attr="dur" style="--ac:#7A5C3E"><span class="dl" data-tip="How long a garment survives being worn. Independent of price and of care — heavy cotton outlasts fine wool whatever either costs." tabindex="0">durability</span><input type="range" min="0" max="5" value="0" step="1" aria-label="Durability focus"><span class="dv">off</span></div>
     <div class="dial" data-attr="forg" style="--ac:#5C8A72"><span class="dl" data-tip="How easily you land on a fit that suits your own body — whether the cut forgives a body that is not the fit model's, and how precisely sizes run." tabindex="0">fit flexibility</span><input type="range" min="0" max="5" value="0" step="1" aria-label="Fit flexibility focus"><span class="dv">off</span></div>
-    <div class="dial" data-attr="reach" style="--ac:#3E6B7A"><span class="dl" data-tip="How many stores of its own the brand runs in the US, outlets and concessions excluded — from none up to more than fifty. Counted, not judged." tabindex="0">own stores</span><input type="range" min="0" max="5" value="0" step="1" aria-label="Reach focus"><span class="dv">off</span></div>
     <div class="dial" data-attr="shoes" style="--ac:#6B4A34"><span class="dl" data-tip="How central footwear is to the brand — not how good the shoes are. From a shoemaker first down to no shoes at all." tabindex="0">shoes</span><input type="range" min="0" max="5" value="0" step="1" aria-label="Shoes focus"><span class="dv">off</span></div>
     <div class="dial" data-attr="whitet" style="--ac:#7A7A6E"><span class="dl" data-tip="How much the brand’s plain white T-shirt is a reason to shop it — from no plain tee at all up to a house built on one." tabindex="0">white tee</span><input type="range" min="0" max="5" value="0" step="1" aria-label="White tee"><span class="dv">off</span></div>
     <div class="dial" data-attr="logo" style="--ac:#5C5C6E"><span class="dl" data-tip="How visibly the brand’s mark appears on the clothes — from no visible branding, through a badge on every piece, up to the logo being the design." tabindex="0">logo</span><input type="range" min="0" max="5" value="0" step="1" aria-label="Logo"><span class="dv">off</span></div>
@@ -1688,7 +1689,7 @@ const FABTERM = {denim:"denim",cashmere:"cashmere",linen:"linen",cotton:"cotton"
 /*@@DOORS@@*/
 
   /*@@CITIES@@*/
-const DIMLABEL = {sail:"sail \u2194 power",bruv:"bruv \u2194 bruh",tech:"tech",comfort:"comfort",craft:"craft & heritage",style:"style",denim:"denim",cashmere:"cashmere",linen:"linen",cotton:"fine cotton",wool:"wool",synth:"synthetics",golf:"golfiness",status:"status",finbro:"finance bro",ivy:"ivy league",murica:"’murica",ital:"italianness",fren:"frenchness",street:"street",avant:"avant-garde",prep:"prep",weird:"weird",boat:"boat",racquet:"racquet",ski:"ski",scandi:"scandi man",briish:"bri\u2019ish",fuss:"ease of care",dur:"durability",forg:"fit flexibility",reach:"own stores",shoes:"shoes",natural:"natural fiber",whitet:"white tee",logo:"logo",western:"western",rock:"rock",workwear:"workwear",outdoor:"outdoor",surf:"surf",normcore:"normcore",golffice:"golffice"};
+const DIMLABEL = {sail:"sail \u2194 power",bruv:"bruv \u2194 bruh",tech:"tech",comfort:"comfort",craft:"craft & heritage",style:"style",denim:"denim",cashmere:"cashmere",linen:"linen",cotton:"fine cotton",wool:"wool",synth:"synthetics",golf:"golfiness",status:"status",finbro:"finance bro",ivy:"ivy league",murica:"’murica",ital:"italianness",fren:"frenchness",street:"street",avant:"avant-garde",prep:"prep",weird:"weird",boat:"boat",racquet:"racquet",ski:"ski",scandi:"scandi man",briish:"bri\u2019ish",fuss:"ease of care",dur:"durability",forg:"fit flexibility",reach:"has stores",shoes:"shoes",natural:"natural fiber",whitet:"white tee",logo:"logo",western:"western",rock:"rock",workwear:"workwear",outdoor:"outdoor",surf:"surf",normcore:"normcore",golffice:"golffice"};
 
 // ---------- hover dossier popup ----------
 const hoverCard = document.createElement("div");
@@ -2439,7 +2440,7 @@ function renderDetail(name){
     <h3>Attributes</h3>${chipsFor(el, ATTRKEYS, attrScored)}${notesFor(el, ATTRKEYS)}
     <h3>Fabrics</h3>${chipsFor(el, FKEYS, fabScored)}${notesFor(el, FKEYS.concat(["natural"]))}${fibreLineHTML(name)}
     ${notesFor(el, REGKEYS.filter(k=>+el.dataset[k]===5))}
-    <details class="dv-fold"><summary><h3>Registers</h3><span class="dv-fold-hint">${REGKEYS.filter(k=>+el.dataset[k]>0 && +el.dataset[k]<99).length} represented \u00b7 tap to show</span></summary>${chipsFor(el, REGKEYS, regScored)}${notesFor(el, REGKEYS.filter(k=>+el.dataset[k]!==5))}</details>
+    <details class="dv-fold" open><summary><h3>Registers</h3><span class="dv-fold-hint">${REGKEYS.filter(k=>+el.dataset[k]>0 && +el.dataset[k]<99).length} represented \u00b7 tap to show</span></summary>${chipsFor(el, REGKEYS, regScored)}${notesFor(el, REGKEYS.filter(k=>+el.dataset[k]!==5))}</details>
     ${(()=>{const sl=SHOELINK[name.trim()], sv=+(SHOES[name.trim()]||0);
         if(!sl) return "";
         const words = {5:"shoes are the business", 4:"a shoe you would know by name",
@@ -3213,7 +3214,7 @@ function renderDial(k){
   const sl = STYLELINK[k];
   dialBody.innerHTML =
       `<h2>${esc(DIMLABEL[k])}</h2>`
-    + `<p class="dv-sub">${esc(GROUPOF[k]||"")} dial${bipolar?" \u00b7 two-way":""} \u00b7 `
+    + `<p class="dv-sub">${esc(GROUPOF[k]||(k==="reach"?"Stores":""))} dial${bipolar?" \u00b7 two-way":""} \u00b7 `
     + `${placed} brand${placed===1?"":"s"} placed \u00b7 ${zero} at zero`
     + (unassessed ? ` \u00b7 ${unassessed} not assessed` : "") + `</p>`
     + `<h3>What it measures</h3>`
