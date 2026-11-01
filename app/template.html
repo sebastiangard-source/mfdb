@@ -1574,6 +1574,7 @@ const STYLELINK = {
 /*@@CERTS@@*/
 /*@@SEG@@*/
 /*@@SEASON@@*/
+/*@@TELL@@*/
 // Bruv/bruh. A two-way dial for which street a brand belongs to, not which
 // country it comes from — Stone Island is Italian and lives on English terraces,
 // Polo is American and was taken up by the Lo Lifes. Scored only where there is
@@ -2432,6 +2433,8 @@ function renderDetail(name){
     ${p(WHY[name])}
     ${p(ORIGIN[name] ? "<b>Origin:</b> " + ORIGIN[name] : "")}
     ${p(OPVIEW[name] ? "<b>In their words:</b> " + OPVIEW[name] : "")}
+    ${(()=>{const t=TELL[name]; if(!t) return "";
+        return p(`<b>The tell:</b> ${esc(t.t)}. ${esc(t.d)}${t.y?` Since ${esc(t.y)}.`:""}${t.u?` <a href="${esc(t.u)}" target="_blank" rel="noopener">See it \u2197</a>`:""}`);})()}
     ${seasonHTML(name)}
     ${certsHTML(name)}
     ${resaleHTML(name)}

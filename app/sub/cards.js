@@ -34,6 +34,7 @@ function aboutHtml(b){
   if(a.founded||a.owner) rows.push(`<dt>Origin</dt><dd>${esc(a.founded)}${a.owner?` ${a.founded?'Owned today by ':'Owned by '}${link(a.ownerurl,a.owner)}.`:''}</dd>`);
   if(a.chan.length) rows.push(`<dt>Sells through</dt><dd>${esc(a.chan.join(', '))}</dd>`);
   if(a.sig) rows.push(`<dt>Signature</dt><dd>${link(a.sigurl,a.sig)}</dd>`);
+  if(b.tell) rows.push(`<dt>The tell</dt><dd>${esc(b.tell.t)}. ${esc(b.tell.d)}${b.tell.y?` Since ${esc(b.tell.y)}.`:''}${b.tell.u?` <a href="${esc(b.tell.u)}" target="_blank" rel="noopener">See it ↗</a>`:''}</dd>`);
   if(a.pron) rows.push(`<dt>Say it</dt><dd>${esc(a.pron)}</dd>`);
   if(a.look) rows.push(`<dt>Lookbook</dt><dd>${link(a.lookurl,a.look)}</dd>`);
   if(b.so) rows.push(soRow(b.so));

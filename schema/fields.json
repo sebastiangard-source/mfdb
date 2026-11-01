@@ -928,6 +928,14 @@
    "type": "obj",
    "absent": "optional",
    "doc": "Style and cool-factor segment from style_segments_2026-10-14, ruled 14 Oct: {s: segment, s2: secondary segment or absent, c: high|medium|low, r: rule or reason}. Fifteen segments; the taxonomy is jobs/returns/style_segments_2026-10-14/taxonomy.md. Authored by the segments project and ruled, never derived."
+  },
+  "tell": {
+   "scope": "brand",
+   "const": "TELL",
+   "path": "tell",
+   "type": "obj",
+   "absent": "optional",
+   "doc": "The brand's tell: the detail on the garment that identifies it without reading a name. {t: short name, d: one sentence, k: kind, v: overt|subtle|insider, y: since or absent, u: product page where it shows, s: source URL, c: high|medium}. Only yes rows at high or medium confidence; from tells_2026-11-01 (merged by tools/merge_tells.py)."
   }
  },
  "price_slots": [

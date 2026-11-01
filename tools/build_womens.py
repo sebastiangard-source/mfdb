@@ -514,7 +514,15 @@ def main():
             other.append({'so': SO.get(n) or None, 'lk': LK.get(n) or None, 'n': n, 'cat': r['category'], 'own': own, 'none': bool(c and (c.get('us_own_stores') or '').strip().upper() == 'NONE'), 'stores': st, 'tier': tier(own) if own else '',
                           'ne': sum(1 for x in st if x['s'] in NE), 'locator': (c or {}).get('locator_url', '') or '', 'read': (c or {}).get('captured_on', '') or '',
                           'note': (c or {}).get('note', '') or ''})
+    TELLS = {}
+    tf = os.path.join(ROOT, 'registers/tells.csv')  # tells_2026-11-01, merged by tools/merge_tells.py
+    if os.path.exists(tf):
+        for r in csv.DictReader(open(tf, encoding='utf8')):
+            if r['has_tell'] == 'yes' and r['confidence'] in ('high', 'medium'):
+                TELLS[r['brand']] = {'t': r['tell'], 'd': r['description'], 'y': '' if r['since'] in ('ND', 'NC', '') else r['since'],
+                                     'u': '' if r['example_product_url'] in ('NC', 'ND', '') else r['example_product_url']}
     for b in brands:
+        if b['n'] in TELLS: b['tell'] = TELLS[b['n']]
         b['nt'] = {k: t for k, t in ((k, tidy_note(v)) for k, v in (b.get('nt') or {}).items()) if t}
         b['basis'] = tidy_basis(b.get('basis', ''))
         if b['n'] in BASIS_HAND: b['basis'] = BASIS_HAND[b['n']]
