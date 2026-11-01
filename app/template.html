@@ -977,6 +977,8 @@
   .dr-no{background:transparent;color:var(--ink-faint);border:1px dotted currentColor;opacity:.7}
   .dr-extra{color:var(--ink-faint);font-size:12px}
   .dr-cities{color:var(--ink-soft)}
+  .dr-all{margin-top:6px}.dr-all summary{cursor:pointer;color:var(--green, #123B2B);font-size:13px;text-decoration:underline;text-underline-offset:3px;list-style:none}.dr-all summary::-webkit-details-marker{display:none}.dr-all[open] summary{margin-bottom:6px}
+  .dr-st{font-size:13px;line-height:1.5;margin:2px 0}.dr-st .dr-n{color:var(--ink-faint);font-size:12px;margin-right:4px}
   /* Hit areas and a type floor. The slider was 14px tall against a 24px minimum,
      and six classes of label sat between 8.5px and 10.5px. Padding grows the
      target without moving the visual weight of the rail. */
@@ -1887,10 +1889,11 @@ function hoverCardHTML(el, withClose){
   const where = CITIES[name] ? `<p class="whycity">${CITIES[name]}</p>` : "";
   const origin = ORIGIN[name] ? `<p class="hc-note"><b>Origin:</b> ${ORIGIN[name]}</p>` : "";
   const opv = OPVIEW[name] ? `<p class="hc-note"><b>In their words:</b> ${OPVIEW[name]}</p>` : "";
+  const tell = TELL[name] ? `<p class="hc-note"><b>The tell:</b> ${esc(TELL[name].t)}. ${esc(TELL[name].d)}</p>` : "";
   return `<div class="hc-head">${detailLink(name)}${withClose ? '<button class="hc-close" aria-label="Close">\u00d7</button>' : ''}</div>
     <h4>${name}${sayHTML(name)}</h4>
     <div class="hc-scores">${sc}</div>
-    <p>${WHY[name] || ""}</p>${origin}${opv}${shop}${where}${regionLineHTML(name, true)}${pricesStripHTML(name)}${oneThingHTML(name)}`;
+    <p>${WHY[name] || ""}</p>${tell}${origin}${opv}${shop}${where}${regionLineHTML(name, true)}${pricesStripHTML(name)}${oneThingHTML(name)}`;
 }
 // Remembered so the card can be put back against its brand after a scroll or a
 // resize. Placed once and left, it floated over the footer while its row moved on.
@@ -2275,6 +2278,23 @@ function pricesHTML(name){
        + `dearest of the category, because the brand sells no such pair. A figure in another currency is shown as `
        + `read and never converted. Log scale \u2014 each gridline doubles. Prices move; the note on file names the product.</p></div>`;
 }
+// A long city list folds (30 Oct 2026): a brand with many cities shows how many states and its
+// busiest cities, and opens to every city grouped by state. Short lists show in full, as before.
+function citiesBlock(d, flat){
+  const cs = d.cities || [];
+  if(cs.length <= 12) return `<br><span class="dr-cities">${esc(flat)}</span>`;
+  const byState = {};
+  for(const [c, st, n] of cs){ (byState[st] = byState[st] || []).push([c, n]); }
+  const states = Object.keys(byState).sort((a,b)=>{
+    const na = byState[a].reduce((x,y)=>x+y[1],0), nb = byState[b].reduce((x,y)=>x+y[1],0);
+    return nb - na || (ST_NAME[a]||a).localeCompare(ST_NAME[b]||b);});
+  const top = cs.slice(0, 6).map(c=>c[0] + (c[2]>1 ? ` (${c[2]})` : "")).join(", ");
+  const rows = states.map(st=>{
+    const l = byState[st], n = l.reduce((x,y)=>x+y[1],0);
+    return `<div class="dr-st"><b>${esc(ST_NAME[st]||st)}</b> <span class="dr-n">${n}</span> <span class="dr-cities">${esc(l.map(([c,k])=>c + (k>1?` (${k})`:"")).join(", "))}</span></div>`;}).join("");
+  return `<br><span class="dr-cities">In ${states.length} state${states.length===1?"":"s"} \u00b7 most in ${esc(top)}</span>`
+       + `<details class="dr-all"><summary>Show all ${cs.length} cities by state</summary>${rows}</details>`;
+}
 function doorsHTML(name){
   const d = DOORS[name.trim()] || {c:"none"};
   const cities = (d.cities||[]).map(c=>c[0] + (c[2]>1 ? ` (${c[2]})` : "")).join(", ");
@@ -2308,7 +2328,7 @@ function doorsHTML(name){
        + `:</b> ${head} `
        + `<span class="dr-tag ${cls}">${tag}</span>`
        + (extra ? ` <span class="dr-extra">\u00b7 ${extra}, counted separately</span>` : "")
-       + (body ? `<br><span class="dr-cities">${esc(body)}</span>` : "") + `</p>`
+       + (body ? citiesBlock(d, body) : "") + `</p>`
        + stockistRow(name);
 }
 // A brand with no own doors is not a brand you cannot buy. Jack Victor has no US
