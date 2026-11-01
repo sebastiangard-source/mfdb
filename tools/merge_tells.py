@@ -11,12 +11,7 @@ sys.path.insert(0, os.path.join(ROOT, 'tools'))
 from spec import slug  # noqa: E402
 
 COLS = ['brand', 'has_tell', 'tell', 'description', 'kind', 'placement', 'visibility', 'since', 'source_url', 'example_product_url', 'confidence', 'read_date', 'origin', 'note']
-OVERRIDE = {
-    # Ruled by Sebastian, 1 Nov 2026: a distinctive wordmark is a tell.
-    'A.P.C.': dict(has_tell='yes', tell='The A.P.C. wordmark', description='The house name in its own block capitals, on tees, sweatshirts and labels.',
-                   kind='logo_mark', placement='chest; labels', visibility='overt', since='ND', source_url='https://www.apc-us.com/', example_product_url='NC',
-                   confidence='high', origin='ruled by Sebastian, 1 Nov 2026'),
-}
+OVERRIDE = {}  # Sebastian's rulings on single rows, if a return gets one wrong (A.P.C. came back a yes on 1 Nov, so none needed)
 
 
 def nc(v):

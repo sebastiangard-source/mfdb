@@ -1,5 +1,7 @@
 # Batch 1: partial return at a checkpoint (1 Nov 2026)
 
+**Updated after the rulings:** A.P.C. is now a `yes` (`logo_mark`, the block-letter wordmark), medium. The wordmark was seen on the Axel tote; garment placement is unconfirmed.
+
 **11 of 97 brands read. 86 are `NC`: nobody looked.** I stopped to hand back what I have rather than run on; the rest need further passes. Every `NC` row says so in `note`.
 
 ## Low-confidence and unclear rows (read this first)
@@ -14,7 +16,7 @@
 - **A Bathing Ape: ABC Camo, medium.** The brand's product names ABC Camo, but I saw it on a collab sandal, not on a garment. Also the Ape Head logo.
 - **Baracuta: Fraser Tartan lining, medium.** One brand page; a pop-up hid the photo.
 - **Canada Goose: sleeve disc patch, medium.** Seen on the Snow Mantra Parka photo; tell name is provisional. No left or right given.
-- **120% Lino and A.P.C.: none, medium.** Three or four products each; listed in `note`.
+- **120% Lino: none, medium.** Three products; listed in `note`.
 
 ## High rows
 
