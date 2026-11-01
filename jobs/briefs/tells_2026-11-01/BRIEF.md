@@ -80,3 +80,10 @@ Return one row in `return.csv`, with the columns of `return_template.csv`; the e
 2. **Batches 1 to 6:** `batch<N>/return.csv` and `batch<N>/NOTE.md`, each returned as it finishes. List the low-confidence and `unclear` rows at the top of each note.
 
 Allow about three minutes a brand. Well-known houses go fast and obscure ones quickly come back `none`, so a batch is about five hours. Past the box, return what you have and put `NC` on the rest.
+
+## Rulings after the pilot (1 November 2026)
+
+- **Order changed.** Work from `worklist_priority.csv`, not by batch: priority A first (luxury houses and brands with a visible logo), then B, then C. Return every 25 brands as `run<N>/return.csv` and `run<N>/NOTE.md`. The pilot and the 11 batch-1 brands already read are left out of it.
+- **Distinctive wordmarks count.** A.P.C. is a `yes` (Sebastian). Where the brand's name in its own lettering is the recognized mark (the A.P.C. block letters, the Supreme box logo, the Off-White quotation marks), it is a tell, `kind` = `logo_mark`. A plain name printed in an ordinary font is still not a tell.
+- **`none` checks.** Two current products on the brand's own site is enough for a `none`, at medium confidence. List them in `note`.
+- **`source_url_2`.** Fill it only when it comes easily.
