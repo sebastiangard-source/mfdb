@@ -11,7 +11,11 @@ sys.path.insert(0, os.path.join(ROOT, 'tools'))
 from spec import slug  # noqa: E402
 
 COLS = ['brand', 'has_tell', 'tell', 'description', 'kind', 'placement', 'visibility', 'since', 'source_url', 'example_product_url', 'confidence', 'read_date', 'origin', 'note']
-OVERRIDE = {}  # Sebastian's rulings on single rows, if a return gets one wrong (A.P.C. came back a yes on 1 Nov, so none needed)
+OVERRIDE = {  # rulings on single rows where a return held back
+    # Construction details count (the brief lists `construction` as a kind); the brand's own page names the facing
+    # as its signature, 1 Nov 2026.
+    'Edward Green': dict(has_tell='yes', confidence='medium', description="A swan's-neck shaped eyelet facing on its lace-ups, which the brand calls a signature detail."),
+}
 
 
 def nc(v):

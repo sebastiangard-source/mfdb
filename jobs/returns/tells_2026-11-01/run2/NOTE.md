@@ -6,14 +6,11 @@ Same method as run 1: three parallel Chrome tabs, one brand at a time per tab, s
 
 - **NC (3):** Cesare Attolini (E-Boutique under maintenance), Charvet (certificate error on the official site), Corneliani (country pop-up blocked the site).
 - **Unclear, low (4):** Carolina Herrera (gold Matryoshka lock, not seen on a product), Casablanca (printed silk shirts vary by season), Chloé (Marcie bag features are one line, not brand-wide), Deus Ex Machina (graphics only).
-- **Yes, low (3):**
-  - **Calvin Klein:** repeated name on the waistband; borderline under the wordmark ruling because the lettering is a plain sans.
-  - **Comme des Garçons:** the PLAY heart, a sub-line mark; the only source is AnOther (not on the approved list) and the brand site has no product pages.
-  - **Dickies:** the oval logo; placement unconfirmed.
+- **Yes, low (1):** Dickies, the oval logo; placement unconfirmed.
 
 ## Medium rows to firm up
 
-Carhartt (square C label seen on thumbnails, not named in the text), Carhartt WIP (C logo, seen on the German storefront), Celine (Triomphe clasp, bags only), Chrome Hearts (scroll lettering on waistbands).
+Calvin Klein (waistband name) and Comme des Garçons (PLAY heart, sub-line mark; AnOther added to the approved press list) were raised to medium on Sebastian's rulings. Carhartt (square C label seen on thumbnails, not named in the text), Carhartt WIP (C logo, seen on the German storefront), Celine (Triomphe clasp, bags only), Chrome Hearts (scroll lettering on waistbands).
 
 ## High rows
 
@@ -24,6 +21,10 @@ Carhartt (square C label seen on thumbnails, not named in the text), Carhartt WI
 - **Dior:** Oblique motif, 1969 per the brand's text.
 
 High rests on the brand's own page naming the tell; no press was opened for any of these.
+
+## Rulings applied after this run
+
+Calvin Klein and Comme des Garçons are `yes`, medium. Crockett & Jones stays `none`. Danielle Frankel uses daniellefrankelstudio.com.
 
 ## `none` calls (medium, two products each)
 
