@@ -244,6 +244,7 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
 .morelinks a:hover{background:var(--green);color:#fff}
 .tourlink{display:inline-block;margin-left:auto;background:var(--green);border:1px solid var(--green);border-radius:999px;padding:5px 14px;font:inherit;font-size:12.5px;font-weight:500;color:#fff;cursor:pointer}
 .tourlink:hover{opacity:.88}
+.shotlink{display:inline-block;margin-left:auto;background:#fff;border:1px solid var(--green);border-radius:999px;padding:5px 14px;font:inherit;font-size:12.5px;font-weight:500;color:var(--green);cursor:pointer}.shotlink:hover{background:var(--green);color:#fff}.shotlink+.tourlink{margin-left:0}
 @media (max-width:700px){.tourlink{margin-left:0}}
 
 /* ---- 16:9 screenshot view (2 Nov 2026): the brands in this view, every tier side by side, dense pills ---- */
@@ -275,8 +276,8 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
     <h1>The Cyprus <span class="thin">Brand Explorer</span></h1>
     <p class="lede">Every fashion brand with its own full-price stores in the US, sorted into four price tiers, with every store listed.</p>
   </div>
-  <div class="stamp"><b>v0.89 · <span id="built"></span></b>Store lists from each brand’s own website.<br>Tiers set by the starting price of a blouse and a sweater.</div>
-  <nav class="morelinks" id="moreLinks"><span>More views</span><a href="maggies-list.html">Maggie’s list →</a><a href="overlaps.html">How the brand lists overlap →</a><a href="cake-croissant.html">Brands on CAKE and Croissant →</a><a href="ws-cake-croissant.html">WS centers, CAKE and Croissant →</a><button class="tourlink" id="tourGo">Take the tour</button></nav>
+  <div class="stamp"><b>v0.90 · <span id="built"></span></b>Store lists from each brand’s own website.<br>Tiers set by the starting price of a blouse and a sweater.</div>
+  <nav class="morelinks" id="moreLinks"><span>More views</span><a href="maggies-list.html">Maggie’s list →</a><a href="overlaps.html">How the brand lists overlap →</a><a href="cake-croissant.html">Brands on CAKE and Croissant →</a><a href="ws-cake-croissant.html">WS centers, CAKE and Croissant →</a><button class="shotlink" id="shotGo2" title="A wide 16:9 layout of the brands in this view, sized for a screenshot">16:9 view</button><button class="tourlink" id="tourGo">Take the tour</button></nav>
 </header>
 
 <div class="layout">
@@ -848,7 +849,7 @@ const _hs=hashToState(); if(_hs) applyState(_hs);
       document.addEventListener('keydown',e=>{if(e.key==='Escape'&&v.classList.contains('show')) v.classList.remove('show');});}
     v.classList.add('show'); build();
   };
-  document.getElementById('shotGo').onclick=open;
+  document.getElementById('shotGo').onclick=open; document.getElementById('shotGo2').onclick=open;
   if(/[?&]shot\b/.test(location.search)) setTimeout(open,300);
 })();
 </script>
