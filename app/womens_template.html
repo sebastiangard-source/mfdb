@@ -245,6 +245,27 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
 .tourlink{display:inline-block;margin-left:auto;background:var(--green);border:1px solid var(--green);border-radius:999px;padding:5px 14px;font:inherit;font-size:12.5px;font-weight:500;color:#fff;cursor:pointer}
 .tourlink:hover{opacity:.88}
 @media (max-width:700px){.tourlink{margin-left:0}}
+
+/* ---- 16:9 screenshot view (2 Nov 2026): the brands in this view, every tier side by side, dense pills ---- */
+#shotView{position:fixed;inset:0;z-index:70;background:#1E1E1B;display:none;align-items:center;justify-content:center;flex-direction:column;gap:10px}
+#shotView.show{display:flex}
+#shotView .shotbar{display:flex;gap:8px;align-items:center;color:#cfcac0;font-size:12px}
+#shotView .shotbar button{font:inherit;font-size:12px;border-radius:999px;padding:5px 12px;border:1px solid #6B695F;background:transparent;color:#F6F4EF;cursor:pointer}
+#shot{aspect-ratio:16/9;width:min(96vw,calc((100vh - 70px)*16/9));background:var(--cream);color:var(--ink);overflow:hidden;display:flex;flex-direction:column;padding:2.2% 2.4% 1.6%;box-sizing:border-box;font-size:var(--fs,11px)}
+#shot .sh-head{display:flex;align-items:baseline;gap:1.2em;margin-bottom:.9em;flex:none}
+#shot .sh-head h2{font-family:'Prata',serif;font-weight:400;font-size:2.3em;line-height:1;margin:0}
+#shot .sh-head .sh-sub{color:var(--ink-faint);font-size:1em}
+#shot .sh-head .sh-src{margin-left:auto;color:var(--ink-faint);font-size:.9em;white-space:nowrap}
+#shot .sh-cols{flex:1;display:grid;gap:1.1em;min-height:0}
+#shot .sh-col{display:flex;flex-direction:column;min-height:0}
+#shot .sh-col h3{font-family:'Prata',serif;font-weight:400;font-size:1.45em;margin:0 0 .15em;display:flex;align-items:baseline;gap:.5em}
+#shot .sh-col h3 small{font-family:'Inter',sans-serif;font-size:.62em;color:var(--ink-faint)}
+#shot .sh-def{color:var(--ink-faint);font-size:.82em;margin:0 0 .6em;line-height:1.3}
+#shot .sh-pills{display:flex;flex-wrap:wrap;gap:.3em;align-content:flex-start}
+#shot .sh-pills span{display:inline-flex;align-items:baseline;gap:.35em;padding:.18em .6em;border-radius:999px;line-height:1.35;white-space:nowrap}
+#shot .sh-pills span i{font-style:normal;font-size:.78em;color:var(--ink-faint)}
+#shot .Basic span{background:var(--basic)}#shot .Premium span{background:var(--premium)}#shot .Accessible span{background:var(--accessible)}#shot .True span{background:var(--trueLux)}#shot .Other span{background:#fff;border:1px solid var(--hairline)}
+#shot .sh-cat{font-size:.72em;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint);margin:.5em 0 .25em;width:100%}
 </style>
 </head>
 <body>
@@ -254,7 +275,7 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
     <h1>The Cyprus <span class="thin">Brand Explorer</span></h1>
     <p class="lede">Every fashion brand with its own full-price stores in the US, sorted into four price tiers, with every store listed.</p>
   </div>
-  <div class="stamp"><b>v0.88 · <span id="built"></span></b>Store lists from each brand’s own website.<br>Tiers set by the starting price of a blouse and a sweater.</div>
+  <div class="stamp"><b>v0.89 · <span id="built"></span></b>Store lists from each brand’s own website.<br>Tiers set by the starting price of a blouse and a sweater.</div>
   <nav class="morelinks" id="moreLinks"><span>More views</span><a href="maggies-list.html">Maggie’s list →</a><a href="overlaps.html">How the brand lists overlap →</a><a href="cake-croissant.html">Brands on CAKE and Croissant →</a><a href="ws-cake-croissant.html">WS centers, CAKE and Croissant →</a><button class="tourlink" id="tourGo">Take the tour</button></nav>
 </header>
 
@@ -269,7 +290,7 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
     <input data-band="Basic" type="text" placeholder="Tier 1" maxlength="40"><input data-band="Premium" type="text" placeholder="Tier 2" maxlength="40">
     <input data-band="Accessible" type="text" placeholder="Tier 3" maxlength="40"><input data-band="True Luxury" type="text" placeholder="Tier 4" maxlength="40">
   </div>
-  <div class="chips"><button class="chip on" id="pubGo">publish</button><button class="chip" id="xlsGo" title="Download the brands and stores in this view as an Excel workbook">Excel</button></div>
+  <div class="chips"><button class="chip on" id="pubGo">publish</button><button class="chip" id="xlsGo" title="Download the brands and stores in this view as an Excel workbook">Excel</button><button class="chip" id="shotGo" title="A wide 16:9 layout of the brands in this view, sized for a screenshot">16:9</button></div>
   <span class="hint" id="pubHint"></span>
   <details class="imp"><summary class="lbl">Import a view</summary>
     <textarea id="impText" rows="2" placeholder="Paste a published page or its text"></textarea>
@@ -794,6 +815,42 @@ document.getElementById('tourGo').onclick=tourOpen;
 reband(); renderBands(); renderIdx();
 const _hs=hashToState(); if(_hs) applyState(_hs);
 (()=>{let seen=false; try{seen=!!localStorage.getItem('wspec_tour');}catch(e){seen=true;} if(!seen&&!_hs&&!/[?&]notour\b/.test(location.search)) setTimeout(tourOpen,600);})();
+
+// ---- 16:9 screenshot view: the brands this view shows, the four tiers (and other brands) side by side ----
+(()=>{
+  let v=null;
+  const build=()=>{
+    const cols=ORDER.map(band=>({band,cls:band.split(' ')[0],name:bandName(band),def:DEF[band],list:W.brands.filter(b=>b.band===band&&matches(b)).sort(byOrder)})).filter(c=>c.list.length);
+    const oth=OTHER.filter(matchesO).sort(byOrder);
+    const n=cols.reduce((a,c)=>a+c.list.length,0)+oth.length, st=cols.reduce((a,c)=>a+c.list.reduce((x,b)=>x+(b.own||0),0),0)+oth.reduce((x,o)=>x+(o.own||0),0);
+    const title=(document.getElementById('pubTitle').value||'The Cyprus Brand Explorer').trim();
+    const pill=b=>`<span>${esc(b.n)}${b.own?`<i>${b.own}</i>`:''}</span>`;
+    const colHtml=c=>`<div class="sh-col ${c.cls}"><h3>${esc(c.name)}<small>${c.list.length} brands</small></h3><p class="sh-def">${esc(c.def)}</p><div class="sh-pills">${c.list.map(pill).join('')}</div></div>`;
+    let othHtml='';
+    if(oth.length){const cats=CATS.filter(k=>oth.some(o=>o.cat===k));
+      othHtml=`<div class="sh-col Other"><h3>Other brands<small>${oth.length} brands</small></h3><p class="sh-def">Jewelry, bags, eyewear, travel, home and beauty</p><div class="sh-pills">${cats.map(k=>`<div class="sh-cat">${esc(CATN[k])}</div>`+oth.filter(o=>o.cat===k).map(pill).join('')).join('')}</div></div>`;}
+    // columns sized by how many brands they hold, so the tallest tier doesn't set the type size for all
+    const fr=cols.map(c=>Math.max(c.list.length,22)).concat(oth.length?[Math.max(oth.length*1.25,22)]:[]).map(x=>x.toFixed(1)+'fr').join(' ');
+    const shot=v.querySelector('#shot');
+    shot.innerHTML=`<div class="sh-head"><h2>${esc(title)}</h2><span class="sh-sub">${n} brands · ${st.toLocaleString()} US stores</span><span class="sh-src">${esc(((document.querySelector('.stamp b')||{}).textContent||'').split(' · ')[0])} · ${esc(describeState())}</span></div><div class="sh-cols" style="grid-template-columns:${fr}">${cols.map(colHtml).join('')}${othHtml}</div>`;
+    // shrink the type until every column fits the frame
+    let fs=Math.max(9,Math.round(shot.clientWidth/55)); shot.style.setProperty('--fs',fs+'px');
+    const over=()=>[...shot.querySelectorAll('.sh-col')].some(c=>c.scrollHeight>c.clientHeight+1);
+    while(fs>5 && over()){fs-=0.5; shot.style.setProperty('--fs',fs+'px');}
+  };
+  const open=()=>{
+    if(!v){v=document.createElement('div'); v.id='shotView';
+      v.innerHTML='<div class="shotbar"><span>16:9 · take a screenshot of the frame</span><button id="shotRe">refit</button><button id="shotX">close</button></div><div id="shot"></div>';
+      document.body.appendChild(v);
+      v.querySelector('#shotX').onclick=()=>v.classList.remove('show');
+      v.querySelector('#shotRe').onclick=build;
+      addEventListener('resize',()=>{if(v.classList.contains('show')) build();});
+      document.addEventListener('keydown',e=>{if(e.key==='Escape'&&v.classList.contains('show')) v.classList.remove('show');});}
+    v.classList.add('show'); build();
+  };
+  document.getElementById('shotGo').onclick=open;
+  if(/[?&]shot\b/.test(location.search)) setTimeout(open,300);
+})();
 </script>
 </body>
 </html>
