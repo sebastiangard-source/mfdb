@@ -47,6 +47,11 @@ def main():
         f = fold(n); names.setdefault(f, n); sets[f].add(k); return f
     for n in cake + both: add(n, 'C')
     for n in croi + both: add(n, 'R')
+    # Rakuten+ brands, as Sebastian listed them (2 Nov 2026); company names cleaned to the brand in `brand`
+    kretail = set()
+    for r in csv.DictReader(open(os.path.join(ROOT, 'registers/rakuten_plus_2026-11-02.csv'), encoding='utf8')):
+        add(r['brand'], 'K')
+        if r['retailer'] == 'yes': kretail.add(r['brand'])
     rows = []
     for f in sorted(glob.glob(os.path.join(ROOT, 'jobs/returns/ws_centers_2026-10-22/return_tenants*.csv'))):
         rows += list(csv.DictReader(open(f, encoding='utf8')))
@@ -58,13 +63,13 @@ def main():
         if NOT_RETAIL.search(n) or fold(n) in drops: continue  # drops: stores, local boutiques, non-brands (ruled 22 Oct)
         f = add(n, 'W'); centers[f].add(t['center'] + (' (coming soon)' if t['status'] == 'coming_soon' else ''))
     ctrs = sorted({t['center'] for t in rows})
-    data = [{'n': names[f], 'w': 'W' in v, 'c': 'C' in v, 'r': 'R' in v, 'x': sorted(centers.get(f, [])), 'rt': names[f] in retail,
+    data = [{'n': names[f], 'w': 'W' in v, 'c': 'C' in v, 'r': 'R' in v, 'k': 'K' in v, 'x': sorted(centers.get(f, [])), 'rt': names[f] in retail or names[f] in kretail,
              'ig': (links.get(names[f]) or {}).get('ig', ''), 'tt': (links.get(names[f]) or {}).get('tt', '')} for f, v in sets.items()]
     data.sort(key=lambda d: d['n'].lower())
     tpl = open(os.path.join(SUB, 'ws-cake-croissant.tpl.html'), encoding='utf8').read()
     html = tpl.replace('/*DATA*/', 'var D=' + json.dumps(data, ensure_ascii=False) + ';var CENTERS=' + json.dumps(ctrs) + ';')
     open(os.path.join(SUB, 'ws-cake-croissant.html'), 'w', encoding='utf8').write(html)
-    reg = collections.Counter(('W' if d['w'] else '') + ('C' if d['c'] else '') + ('R' if d['r'] else '') for d in data)
+    reg = collections.Counter(('W' if d['w'] else '') + ('C' if d['c'] else '') + ('R' if d['r'] else '') + ('K' if d['k'] else '') for d in data)
     print(len(data), 'brands;', dict(reg), ';', len(ctrs), 'centers:', ', '.join(ctrs))
 
 
