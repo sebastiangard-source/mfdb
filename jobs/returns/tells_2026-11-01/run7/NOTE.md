@@ -6,7 +6,6 @@ Same method as earlier runs: three parallel Chrome tabs, one brand at a time per
 
 - **Rick Owens:** Opened rickowens.eu homepage only (EU store). Cookie banner blocked menu navigation; clicks on shoes/men links did not load collection pages, so no product page was...
 - **Rubinacci:** Opened marianorubinacci.com homepage and trousers collection listing (Manny, Genny, Ciro, Leisure trousers; plain tailored styles in screenshot). A newsletter pop-up...
-- **Stefano Ricci:** Not reached: the research agent did not return a row for this brand.
 
 ## Unclear rows
 
@@ -36,12 +35,9 @@ Same method as earlier runs: three parallel Chrome tabs, one brand at a time per
 
 - **Roger Vivier:** Chrome square buckle on Belle Vivier | Brand campaign page (AU store) says Belle Vivier was created in 1965 and the chrome square buckle remains its signature; product page for Belle Vivier Pumps in patent...
 - **Southern Tide:** Embroidered skipjack fish chest logo | Brand's 20-years blog says the Skipjack Polo began in 2006 and that an embroidered Skipjack logo sits at the chest. Opened homepage, men's polo listing (screenshot shows...
+- **Stefano Ricci:** Eagle head emblem | One search (results were reseller/eBay listings, none opened). Brand's own T-shirt page (MNH3102160-803, US store) describes the iconic eagle head and founder's...
 - **Stella McCartney:** Falabella diamond-cut chain with logo medallion | Opened Falabella collection page (brand text names chain and medallion) and Falabella Chain Belt page (signature chain, engraved logo medallion); located the Fold-Over...
 
 ## None calls (medium, two products each)
 
 Saturdays NYC, Sease, Studio Nicholson, The Row.
-
-## Missing from the agent output
-
-Stefano Ricci

@@ -24,8 +24,12 @@ def nc(v):
 
 def main():
     rows = collections.OrderedDict()
-    for f in sorted(glob.glob(os.path.join(ROOT, 'jobs/returns/tells_2026-11-01/**/return.csv'), recursive=True)):
-        run = os.path.basename(os.path.dirname(f))
+    files = sorted(glob.glob(os.path.join(ROOT, 'jobs/returns/tells_2026-11-01/**/return.csv'), recursive=True))
+    master = os.path.join(ROOT, 'jobs/returns/tells_2026-11-01/master_return.csv')
+    if os.path.exists(master):
+        files.append(master)  # the thread's one-row-per-brand roll-up wins over the per-run files
+    for f in files:
+        run = 'master' if f.endswith('master_return.csv') else os.path.basename(os.path.dirname(f))
         for r in csv.DictReader(open(f, encoding='utf8')):
             if r['has_tell'] == 'NC':
                 continue

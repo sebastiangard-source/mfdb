@@ -5,7 +5,6 @@ Same method as earlier runs: three parallel Chrome tabs, one brand at a time per
 ## NC rows (read first)
 
 - **Allen Edmonds:** allenedmonds.com homepage loaded once, but product pages and then the homepage returned server 'document/layout not found' errors, so no product was read. Web search...
-- **B SIDES:** Not reached: the research agent did not return a row for this brand.
 
 ## Unclear rows
 
@@ -34,8 +33,4 @@ Same method as earlier runs: three parallel Chrome tabs, one brand at a time per
 
 ## None calls (medium, two products each)
 
-A.L.C., AFLALO, Alice + Olivia, American Trench, Anglo-Italian, Another Tomorrow, ARGENT, Auralee, ba&sh, Beams.
-
-## Missing from the agent output
-
-B SIDES
+A.L.C., AFLALO, Alice + Olivia, American Trench, Anglo-Italian, Another Tomorrow, ARGENT, Auralee, B SIDES, ba&sh, Beams.

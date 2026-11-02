@@ -2,10 +2,6 @@
 
 Same method as earlier runs: three parallel Chrome tabs, one brand at a time per tab, search first, then confirmed on the brand's own site. Written without a live reader; read the notes on each row before relying on it. No sign-ins or sign-ups; pop-ups left alone.
 
-## NC rows (read first)
-
-- **3.1 Phillip Lim:** Not reached: the research agent did not return a row for this brand.
-
 ## Unclear rows
 
 - **TravisMathew:** TM monogram mark, not confirmed on garment | Opened travismathew.com (a discount pop-up covered the page, left alone) and the Heater Series Jersey Polo page. Text names a signature double-needle collar...
@@ -15,6 +11,7 @@ Same method as earlier runs: three parallel Chrome tabs, one brand at a time per
 - **Yohji Yamamoto:** unclear | Opened theshopyohjiyamamoto.com (US store). Both products opened were S'YTE sub-line (utility blouson, herringbone hooded coat): plain, no mark visible. Could not open a...
 - **Zadig & Voltaire:** wings motif on bags/charms (unconfirmed) | Opened homepage (US), women's sweaters and cardigans list, Markuz Cashmere Sweater page (striped, no mark seen), and EU Swing Your Wings page (skull, heart, feather...
 - **Zilli:** unclear | en.zilli.com (US/EN). Opened homepage and T-shirts and Polos listing only; a sign-up pop-up blocked opening a product page and was left alone. Listing shows small chest...
+- **3.1 Phillip Lim:** Pashli fan-shaped zipper gussets, gold lock | One search (Fashionista Pashli article not opened). Found 31philliplim.com by search; opened Medium Pashli Satchel (text: double top handles, zipper gussets that unzip...
 
 ## None, low confidence
 
@@ -42,7 +39,3 @@ Same method as earlier runs: three parallel Chrome tabs, one brand at a time per
 ## None calls (medium, two products each)
 
 Valstar, Veronica de Piante, Wiederhoeft.
-
-## Missing from the agent output
-
-3.1 Phillip Lim

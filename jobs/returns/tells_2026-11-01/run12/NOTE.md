@@ -2,24 +2,10 @@
 
 Same method as earlier runs: three parallel Chrome tabs, one brand at a time per tab, search first, then confirmed on the brand's own site. Written without a live reader; read the notes on each row before relying on it. No sign-ins or sign-ups; pop-ups left alone.
 
-## NC rows (read first)
-
-- **Incotex:** Not researched: WebSearch budget for the turn was exhausted (limit reached), so the tell could not be identified or sourced.
-- **IRO:** Not researched: WebSearch budget for the turn was exhausted (limit reached), so the tell could not be identified or sourced.
-- **Isabel Marant:** Not researched: WebSearch budget for the turn was exhausted (limit reached), so the tell could not be identified or sourced.
-- **J.Crew:** Not researched: WebSearch budget for the turn was exhausted (limit reached), so the tell could not be identified or sourced.
-- **J.Lindeberg:** Not researched: WebSearch budget for the turn was exhausted (limit reached), so the tell could not be identified or sourced.
-- **J.McLaughlin:** Not researched: WebSearch budget for the turn was exhausted (limit reached), so the tell could not be identified or sourced.
-- **J.Press:** Opened jpress.com homepage, Shaggy Dog collection and navy Shaggy Dog sweater page; product text describes the sweater (the signature product) but names no on-garment...
-- **Jack Victor:** Not researched: WebSearch budget for the turn was exhausted (limit reached), so the tell could not be identified or sourced.
-- **James Perse:** Not reached: the research agent did not return a row for this brand.
-- **Jenni Kayne:** Not researched: WebSearch unavailable and site not given; did not guess the domain.
-- **KALLMEYER:** Site not given and WebSearch unavailable; kallmeyer.com is an unrelated personal portfolio, so nothing read for the brand.
-
 ## Unclear rows
 
-- **John Smedley:** NC | Opened johnsmedley.com (UK store). Products read: Lorca knitted T-shirt (no mark in text), two Maximilian Raynor collab polos (pattern is the collab, not house). Adrian...
-- **Kapital:** NC | Opened kapital.jp (lookbook, no product pages; catalogue page rendered blank; web shop is on a separate domain, not opened). Homepage shows KAPITAL block lettering and...
+- **Isabel Marant:** Marant logo with figure (Etoile line) | US store. Saw Moby sweatshirt on brand site (Etoile line mark, text says sweatshirt with logo) and the Iconics page. Two searches, no press source confirming it as a...
+- **Kapital:** Smiley face motif (recurring print) | Brand's web shop is www.kapital-webshop.jp (linked from kapital.jp, Japanese-language JP store, yen prices). Opened the 12oz denim cropped WINDY chore jacket page: no...
 - **Kiel James Patrick:** anchor logo; no garment tell confirmed | WebSearch budget was exhausted before any search ran, so no press source was read. Opened kieljamespatrick.com, men's new arrivals, Salty Dog Sweater (screenshot shows...
 - **Kjus:** orange logo; no garment tell confirmed | WebSearch budget was exhausted before any search ran, so no press source was read. Opened kjus.com (served US store /us/en/), men's ski jackets, Men's Cirque Jacket:...
 - **Koio:** none confirmed | WebSearch budget was exhausted before any search ran, so no press source was read. Opened koio.co bestsellers, Capri Triple White (a discount pop-up blocked the page,...
@@ -36,9 +22,10 @@ Same method as earlier runs: three parallel Chrome tabs, one brand at a time per
 
 ## Yes, medium confidence
 
+- **J.Lindeberg:** Small 'Bridge' logo on polo chest | Two searches; no press source opened. Brand's own text for the Bridge Polo (women's golf) names signature Bridge logos on chest and centre back; Pip Polo (men's) text...
 - **Katin:** K-Man Katin patch on trunks | WebSearch budget was exhausted before any search ran, so no press source was read. Opened katinusa.com, Waterman Trunk page (details list 'Original K-Man Katin patch';...
 - **Kith:** Kith script embroidery at chest | WebSearch budget was exhausted before any search ran, so no press source was read. Opened kith.com, Kith Classics collection, Williams III Hoodie (text: 'Kith Script...
 
-## Missing from the agent output
+## None calls (medium, two products each)
 
-James Perse
+Incotex, IRO, J.Crew, J.McLaughlin, J.Press, Jack Victor, James Perse, Jenni Kayne, John Smedley, KALLMEYER.

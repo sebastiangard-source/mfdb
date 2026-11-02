@@ -2,10 +2,6 @@
 
 Same method as earlier runs: three parallel Chrome tabs, one brand at a time per tab, search first, then confirmed on the brand's own site. Written without a live reader; read the notes on each row before relying on it. No sign-ins or sign-ups; pop-ups left alone.
 
-## NC rows (read first)
-
-- **Prada:** Not reached: the research agent did not return a row for this brand.
-
 ## Unclear rows
 
 - **Perfect Moment:** Large MOMENT lettering on jacket back? | Opened perfectmoment.com (US store) homepage, men's new-in listing, Puffer Down Ski Jacket (black; red and cream contrast bands on the sleeves, no name mark visible from...
@@ -25,6 +21,7 @@ Same method as earlier runs: three parallel Chrome tabs, one brand at a time per
 - **Nike:** Swoosh | Opened nike.com (US), men's clothing list, Nike Tech Windrunner Fleece Full-Zip Jacket: screenshot shows swoosh on the chest; text extraction failed so no page wording...
 - **Oscar de la Renta:** Signature "O" clasp on handbags | Opened oscardelarenta.com (US store) homepage, Signature Handbags collection and The Topaz page (cookie pop-up left alone, so the clasp itself was not seen in a clear...
 - **Palace:** Tri-Ferg triangle logo | Opened palaceskateboards.com homepage, Web Shop and T-Shirts category, then Tri-Freaky T-Shirt Black (sold out, still listed), where the triangle logo with italic Palace...
+- **Prada:** Enamel triangle Prada plaque | prada.com US store, loaded without a wall. Zoomed photo of men's Re-Nylon jacket (SGC833) clearly shows the triangular metal plaque on the pocket; the product text does...
 - **Pucci:** Swirling psychedelic archival prints | Opened pucci.com US store (location pop-up and cookie banner left alone), then Labirinto Print High-Neck Jersey Top: brand text calls the print a reinterpretation of an...
 - **Puma:** Leaping puma cat logo | Opened us.puma.com (US store; cookie banner left alone), FUTURE.PUMA.ARCHIVE track pants (small tonal mark visible at pocket in photo) and T7 PrimaLoft puffer (text...
 - **Rapha:** Rapha wordmark, vertical on jersey back | Opened rapha.cc (US store) jerseys list, Men's Core Jersey (tonal script logo at chest in photo; text mentions debossed stripe detailing to armband and striped silicone...
@@ -41,7 +38,3 @@ Same method as earlier runs: three parallel Chrome tabs, one brand at a time per
 ## None calls (medium, two products each)
 
 MONSE, Peserico, Private White V.C., Proenza Schouler.
-
-## Missing from the agent output
-
-Prada
