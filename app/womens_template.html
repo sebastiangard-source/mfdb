@@ -253,10 +253,11 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
 #shotView .shotbar{display:flex;gap:8px;align-items:center;color:#cfcac0;font-size:12px}
 #shotView .shotbar button{font:inherit;font-size:12px;border-radius:999px;padding:5px 12px;border:1px solid #6B695F;background:transparent;color:#F6F4EF;cursor:pointer}
 #shot{aspect-ratio:16/9;width:min(96vw,calc((100vh - 70px)*16/9));background:var(--cream);color:var(--ink);overflow:hidden;display:flex;flex-direction:column;padding:2.2% 2.4% 1.6%;box-sizing:border-box;font-size:var(--fs,11px)}
-#shot .sh-head{display:flex;align-items:baseline;gap:1.2em;margin-bottom:.9em;flex:none}
+#shot .sh-head{display:flex;align-items:baseline;gap:1.2em;margin-bottom:.9em;flex:none;min-width:0;white-space:nowrap}
 #shot .sh-head h2{font-family:'Prata',serif;font-weight:400;font-size:2.3em;line-height:1;margin:0}
 #shot .sh-head .sh-sub{color:var(--ink-faint);font-size:1em}
-#shot .sh-head .sh-src{margin-left:auto;color:var(--ink-faint);font-size:.9em;white-space:nowrap}
+#shot .sh-head .sh-src{margin-left:auto;color:var(--ink-faint);font-size:.9em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
+#shot .sh-empty{margin:auto;color:var(--ink-faint);font-size:1.4em;text-align:center}
 #shot .sh-cols{flex:1;display:grid;gap:1.1em;min-height:0}
 #shot .sh-col{display:flex;flex-direction:column;min-height:0}
 #shot .sh-col h3{font-family:'Prata',serif;font-weight:400;font-size:1.45em;margin:0 0 .15em;display:flex;align-items:baseline;gap:.5em}
@@ -276,7 +277,7 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
     <h1>The Cyprus <span class="thin">Brand Explorer</span></h1>
     <p class="lede">Every fashion brand with its own full-price stores in the US, sorted into four price tiers, with every store listed.</p>
   </div>
-  <div class="stamp"><b>v0.90 · <span id="built"></span></b>Store lists from each brand’s own website.<br>Tiers set by the starting price of a blouse and a sweater.</div>
+  <div class="stamp"><b>v0.91 · <span id="built"></span></b>Store lists from each brand’s own website.<br>Tiers set by the starting price of a blouse and a sweater.</div>
   <nav class="morelinks" id="moreLinks"><span>More views</span><a href="maggies-list.html">Maggie’s list →</a><a href="overlaps.html">How the brand lists overlap →</a><a href="cake-croissant.html">Brands on CAKE and Croissant →</a><a href="ws-cake-croissant.html">WS centers, CAKE and Croissant →</a><button class="shotlink" id="shotGo2" title="A wide 16:9 layout of the brands in this view, sized for a screenshot">16:9 view</button><button class="tourlink" id="tourGo">Take the tour</button></nav>
 </header>
 
@@ -833,10 +834,10 @@ const _hs=hashToState(); if(_hs) applyState(_hs);
     // columns sized by how many brands they hold, so the tallest tier doesn't set the type size for all
     const fr=cols.map(c=>Math.max(c.list.length,22)).concat(oth.length?[Math.max(oth.length*1.25,22)]:[]).map(x=>x.toFixed(1)+'fr').join(' ');
     const shot=v.querySelector('#shot');
-    shot.innerHTML=`<div class="sh-head"><h2>${esc(title)}</h2><span class="sh-sub">${n} brands · ${st.toLocaleString()} US stores</span><span class="sh-src">${esc(((document.querySelector('.stamp b')||{}).textContent||'').split(' · ')[0])} · ${esc(describeState())}</span></div><div class="sh-cols" style="grid-template-columns:${fr}">${cols.map(colHtml).join('')}${othHtml}</div>`;
+    shot.innerHTML=`<div class="sh-head"><h2>${esc(title)}</h2><span class="sh-sub">${n} brands · ${st.toLocaleString()} US stores</span><span class="sh-src">${esc(((document.querySelector('.stamp b')||{}).textContent||'').split(' · ')[0])} · ${esc(describeState())}</span></div>${n?`<div class="sh-cols" style="grid-template-columns:${fr}">${cols.map(colHtml).join('')}${othHtml}</div>`:'<p class="sh-empty">No brands in this view. Clear the search or loosen the filters, then open the 16:9 view again.</p>'}`;
     // shrink the type until every column fits the frame
-    let fs=Math.max(9,Math.round(shot.clientWidth/55)); shot.style.setProperty('--fs',fs+'px');
-    const over=()=>[...shot.querySelectorAll('.sh-col')].some(c=>c.scrollHeight>c.clientHeight+1);
+    let fs=Math.max(9,Math.min(Math.round(shot.clientWidth/55), n<40?Math.round(shot.clientWidth/70):99)); shot.style.setProperty('--fs',fs+'px');
+    const over=()=>[...shot.querySelectorAll('.sh-col')].some(c=>c.scrollHeight>c.clientHeight+1)||shot.scrollHeight>shot.clientHeight+1;
     while(fs>5 && over()){fs-=0.5; shot.style.setProperty('--fs',fs+'px');}
   };
   const open=()=>{
