@@ -2261,6 +2261,13 @@ function pricesHTML(name){
     if(r === "np") return `<div class="pr-row"><div class="pr-lab">${garmentLabel(name, i, PRGARMENTS[i], false)}</div>`
                 + `<div class="pr-track">${gl}</div>`
                 + `<div class="pr-val pr-unk" title="checked: the brand publishes no price">none published</div></div>`;
+    const fx = fxBar(r);
+    if(fx){ const mid = Math.round((fx[0]+fx[1])/2), rng = isRangeCell(name, i);
+      return `<div class="pr-row"><div class="pr-lab">${garmentLabel(name, i, PRGARMENTS[i], true)}</div>`
+         + `<div class="pr-track">${gl}`
+         + `<span class="pr-bar pg${i}${rng?" pr-range":""}" style="left:${prPos(fx[0])}%;width:${prPos(fx[1])-prPos(fx[0])}%"></span>`
+         + `<span class="pr-dot" style="left:${prPos(mid)}%"></span></div>`
+         + `<div class="pr-val pr-native" title="read on the brand's own store in its currency; the bar is placed at ${FXNOTE[r[2]]}">${priceText(r)}${rng?` <span class="pr-tag" title="the category's plain range, not the entry-to-elevated pair">range</span>`:""}</div></div>`; }
     if(r.length === 3) return `<div class="pr-row"><div class="pr-lab">${garmentLabel(name, i, PRGARMENTS[i], false)}</div>`
                 + `<div class="pr-track">${gl}</div>`
                 + `<div class="pr-val pr-native" title="read on the brand's own store in its currency; never converted">${priceText(r)}</div></div>`;
@@ -2272,11 +2279,12 @@ function pricesHTML(name){
          + `<span class="pr-dot" style="left:${prPos(mid)}%"></span></div>`
          + `<div class="pr-val">${priceText(r)}${rng?` <span class="pr-tag" title="the category's plain range, not the entry-to-elevated pair">range</span>`:""}</div></div>`;
   }).join("");
-  return `<h3>Prices</h3>${priceNoteHTML(name)}${noAxis ? `<p class="pv-note">${nativeNote(p)}.</p>` : ""}<div class="pr-wrap${noAxis?" pr-noaxis":""}"><div class="pr-axis">${axis}</div>${rows}`
+  const fxNote = !noAxis && p.some(r=>Array.isArray(r) && fxBar(r)) ? `<p class="pv-note">${nativeNote(p)}.</p>` : "";
+  return `<h3>Prices</h3>${priceNoteHTML(name)}${noAxis ? `<p class="pv-note">${nativeNote(p)}.</p>` : fxNote}<div class="pr-wrap${noAxis?" pr-noaxis":""}"><div class="pr-axis">${axis}</div>${rows}`
        + `<p class="pr-note">US full-price retail, read on the brand\u2019s own store in September 2026. A bar runs from the `
        + `entry version to the elevated-fiber version of one staple; a bar marked <i>range</i> is the cheapest to `
        + `dearest of the category, because the brand sells no such pair. A figure in another currency is shown as `
-       + `read and never converted. Log scale \u2014 each gridline doubles. Prices move; the note on file names the product.</p></div>`;
+       + `read; its bar is placed at a fixed rate (\u00a5150, \u00a31 = $1.30, \u20ac1 = $1.10). Log scale \u2014 each gridline doubles. Prices move; the note on file names the product.</p></div>`;
 }
 // A long city list folds (30 Oct 2026): a brand with many cities shows how many states and its
 // busiest cities, and opens to every city grouped by state. Short lists show in full, as before.
@@ -3746,14 +3754,21 @@ function garmentLabel(name, i, text, priced){
   return `<a class="gl-link${own?" gl-own":""}" href="${url}" target="_blank" rel="noopener" title="${title}">${text}</a>`;
 }
 const CURNAME = {EUR:"euros", GBP:"pounds", JPY:"yen", CAD:"Canadian dollars", USD_landed:"duties-paid US dollars"};
+// Fixed rates for placing a native-currency bar on the dollar axis (3 Nov 2026). The figure stays as read;
+// only the bar is placed. Yen at the rate the tiers were set on; pounds and euros rounded, early November 2026.
+const FXUSD = {JPY:1/150, GBP:1.30, EUR:1.10};
+const FXNOTE = {JPY:"\u00a5150 to $1", GBP:"\u00a31 to $1.30", EUR:"\u20ac1 to $1.10"};
+const fxBar = r => (r.length === 3 && FXUSD[r[2]]) ? [Math.round(r[0]*FXUSD[r[2]]), Math.round(r[1]*FXUSD[r[2]])] : null;
 // True when every priced garment is in another currency: the dollar axis has nothing to show.
 function allNative(p){
   const priced = p.filter(Array.isArray);
-  return priced.length > 0 && priced.every(r => r.length === 3 && r[2] !== "USD_landed");
+  return priced.length > 0 && priced.every(r => r.length === 3 && r[2] !== "USD_landed" && !FXUSD[r[2]]);
 }
 function nativeNote(p){
   const cur = (p.find(r=>Array.isArray(r) && r.length===3) || [])[2];
-  return cur ? `read in ${CURNAME[cur] || cur} on the brand\u2019s own site; not converted` : "";
+  if(!cur || cur === "USD_landed") return "";
+  return FXUSD[cur] ? `read in ${CURNAME[cur] || cur} on the brand\u2019s own site; bars placed at ${FXNOTE[cur]}, figures as read`
+                    : `read in ${CURNAME[cur] || cur} on the brand\u2019s own site; not converted`;
 }
 function pricesStripHTML(name){
   const p = PRICES[name.trim()];
@@ -3770,6 +3785,10 @@ function pricesStripHTML(name){
       track = `<span class="hp-bar hp${i}${rng?" hp-range":""}" title="${PRGARMENTS[i]}: ${priceText(r)}${rng?" \u2014 range of the category, not one staple":""}"`
             + ` style="left:${prPos(r[0])}%;width:${prPos(r[1])-prPos(r[0])}%"></span>`
             ;  // the range state on the card is the lighter bar and its tooltip; the tag lives on the page
+    } else if(native && fxBar(r)){
+      const fx = fxBar(r);
+      track = `<span class="hp-bar hp${i}${rng?" hp-range":""}" title="${PRGARMENTS[i]}: ${priceText(r)} (bar at ${FXNOTE[r[2]]})"`
+            + ` style="left:${prPos(fx[0])}%;width:${prPos(fx[1])-prPos(fx[0])}%"></span>`;
     } else if(native){
       // A native figure draws no bar: it cannot share the dollar axis and is never converted.
       track = `<span class="hp-native" title="read on the brand's own store in its currency, not converted">${priceText(r)}</span>`;
