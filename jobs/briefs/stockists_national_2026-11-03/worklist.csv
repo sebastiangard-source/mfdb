@@ -1,0 +1,58 @@
+row,brand,site,status,rows_on_file,ne_rows_on_file,locator_on_file,what_to_do
+1,Alden,aldenshop.com,read,0,0,https://www.aldenshoe.com/DrawStoreSearch.aspx?PageID=3,"on file but not read. Note on file: Locator ""Alden Authorized Retailers"" lists US states, Canada, Europe, Asia/Pacific, Australia but state names carry no href in fetched markup and ?State= return"
+2,Ariat,ariat.com,verify_count,2129,146,https://www.ariat.com/retailers,"2,129 rows on file (146 in the Northeast). Do not re-key. Check the locator still works and count by state for the ten Northeast states only"
+3,Aspesi,aspesi.com,read,0,0,none,never read; full read
+4,Bad Birdie,badbirdiegolf.com,second_look,0,0,NONE,"on file as no stockist list. Note on file: about page says ""we were in pro shops, major retailers"" but no list; /pages/stockists, /retailers, /find-a-retailer 404"
+5,Baracuta,us.baracuta.com,read,0,0,none,never read; full read
+6,Birdwell,birdwell.com,verify,94,22,https://www.birdwell.com/pages/authorized-dealers,"check the on-file rows against the locator today; add shops missing from the file, drop shops gone from it"
+7,C.P. Company,cpcompany.com,second_look,0,0,https://www.cpcompany.com/en-us/stores/,on file as own stores only. Note on file: locator returns own stores only; no stockist list published
+8,Castaway Nantucket Island,castawayclothing.com,verify,139,9,https://www.castawayclothing.com/apps/store-locator,"check the on-file rows against the locator today; add shops missing from the file, drop shops gone from it"
+9,Closed,closed.com,read,0,0,NC,on file as not looked for within the time box; full read
+10,Danner,danner.com,read,0,0,https://www.danner.com/store-finder,"on file but not read. Note on file: Locally widget carries about 6,200 retailer markers mixed with the 6 Danner doors; not rowed in the time box"
+11,Deus Ex Machina,deuscustoms.com,verify,66,10,https://deuscustoms.com/pages/store-locator,"check the on-file rows against the locator today; add shops missing from the file, drop shops gone from it"
+12,Dickies,dickies.com,read,0,0,https://www.dickies.com/en-us/pages/stores,"on file but not read. Note on file: locator broken (where2getit iframe 404, counts return 10 Oct); no stockist list read"
+13,Duck Head,duckhead.com,read,0,0,none,never read; full read
+14,Eastside Golf,eastsidegolf.com,verify,112,19,https://eastsidegolf.com/pages/store-locator,"check the on-file rows against the locator today; add shops missing from the file, drop shops gone from it"
+15,Edward Green,edwardgreen.com,verify,10,2,https://www.edwardgreen.com/stockists,"check the on-file rows against the locator today; add shops missing from the file, drop shops gone from it"
+16,Études,etudes-studio.com,second_look,0,0,NONE,on file as no stockist list. Note on file: no stockist page published
+17,Evan Kinori,evankinori.com,verify,8,3,https://evankinori.com/pages/about,"check the on-file rows against the locator today; add shops missing from the file, drop shops gone from it"
+18,Fidelity Denim,fidelitydenim.com,read,0,0,none,never read; full read
+19,Flint and Tinder,huckberry.com,skip,3,0,https://huckberry.com/explore/stores,"ruled 10 Oct: Huckberry house label, sold in Huckberry stores. Skip."
+20,Fred Perry,fredperry.com,second_look,0,0,NONE,"on file as no stockist list. Note on file: Brand lists no US stockists of other shops: shop-finder lists Fred Perry own shops only and its single US entry (483 Broome St) is closed (section 4 read, carri"
+21,Freenote Cloth,freenotecloth.com,second_look,0,0,NONE,on file as no stockist list. Note on file: no stockist list published
+22,Frye,thefryecompany.com,read,0,0,NC,on file but not read. Note on file: store locator redirects to contact (counts return 10 Oct); no stockist list read
+23,Greg Lauren,greglauren.com,read,0,0,none,never read; full read
+24,Helmut Lang,helmutlang.com,second_look,0,0,NONE,"on file as no stockist list. Note on file: Brand lists no stockists of other shops: footer links only help, gift card, account, about, contact, legal pages; FAQ never mentions a stockist, retailer or sto"
+25,Hender Scheme,online.henderscheme.com,reread,14,0,"https://henderscheme.com (stockists, North America)","14 rows on file, names and links only; get addresses"
+26,Holderness & Bourne,holdernessandbourne.com,read,0,0,NC,"on file but not read. Note on file: sold through golf-club pro shops (2,000+ club pages in the sitemap) and named shops in blog posts (Murray's Toggery; ""our new Scottish stockists""); no stockist "
+27,Human Made,humanmade.jp,reread,13,3,https://www.humanmade.jp/en/dealers.html,13 rows on file with city only; get streets
+28,J.Lindeberg,jlindebergusa.com,read,0,0,none,never read; full read
+29,JiyongKim,intl.jiyongkim.net,read,0,0,none,never read; full read
+30,Johnstons of Elgin,johnstonsofelgin.com,read,0,0,none,never read; full read
+31,Kapital,kapital-webshop.jp,second_look,0,0,NONE,on file as no stockist list. Note on file: looked 2026-10-11: the brand lists only its own Japanese shops; no stockist or dealer page on kapital.jp or the webshop. US accounts seen only on third-party si
+32,Katin,katinusa.com,second_look,0,0,NONE,on file as no stockist list. Note on file: no stockist page published
+33,Kjus,kjus.com,read,1,0,https://www.kjus.com/on/demandware.store/Sites-kjus-Site/en_US/Stores-Find,on file with one golf pro shop only; full read of the locator
+34,Lady White Co.,ladywhiteco.com,reread,25,6,https://ladywhiteco.com/pages/stockists,25 rows on file with state only; get towns and streets
+35,Lardini,lardini.com,second_look,0,0,https://www.lardini.com/en-us/pages/store-locator,on file as own stores only. Note on file: the locator lists Lardini shops and shop-in-shops only; no US points and no third-party stockist list
+36,Lucchese,lucchese.com,second_look,0,0,NONE,on file as no stockist list. Note on file: The brand lists no stockists on its own site. Two stockist-named pages exist but carry no content; the store locator lists only Lucchese stores. Wholesale accou
+37,Maison Kitsuné,maisonkitsune.com,second_look,0,0,NONE,"on file as no stockist list. Note on file: Brand lists no stockists of other shops: its locator carries Maison Kitsuné boutiques, Café Kitsuné cafés and archive stores only (per the section 4 read); /us/"
+38,Needles,onlinestore.nepenthes.co.jp,verify,2,1,https://nepenthesamerica.com,"check the on-file rows against the locator today; add shops missing from the file, drop shops gone from it"
+39,Nigel Cabourn,outerlimits.co.jp,reread,0,0,https://www.cabourn.com/en-us/pages/shop-list,page has a North America table but no rows were taken; read it
+40,Oliver Spencer,oliverspencer.co.uk,second_look,0,0,https://oliverspencer.co.uk/pages/our-stores,"on file as own stores only. Note on file: no stockist list; the about page names Selfridges, Liberty and Mr Porter as stockists (not US); US not looked for"
+41,Patrick James,patrickjames.com,read,0,0,none,never read; full read
+42,Private White V.C.,privatewhitevc.com,second_look,0,0,NONE,on file as no stockist list. Note on file: no stockist page found in the site page list
+43,Quoddy,quoddy.com,read,0,0,https://www.quoddy.com/pages/find-a-store,on file but not read. Note on file: renders no list (client-side); not read
+44,Rakho,rakho.nyc,read,0,0,none,never read; full read
+45,Rancourt & Co.,rancourtandcompany.com,second_look,0,0,NONE,on file as no stockist list. Note on file: no stockist list (the /pages/stockists URL serves the home page)
+46,Roark,roark.com,read,0,0,none,never read; full read
+47,RVCA,rvca.com,second_look,0,0,NONE,on file as no stockist list. Note on file: no stockist page on the site
+48,Sacai,sacai.jp,read,0,0,none,never read; full read
+49,Samsøe Samsøe,samsoe.com,read,0,0,none,never read; full read
+50,Saturdays NYC,saturdaysnyc.com,second_look,0,0,NONE,"on file as no stockist list. Note on file: Looked 2026-10-11: footer (Shipping, Returns, Wholesale, Privacy, Terms, Contact), nav, /pages/stockists, /pages/stockist, /blogs/stockists, /pages/retailers (a"
+51,Sperry,sperry.com,second_look,0,0,NONE,"on file as no stockist list. Note on file: Looked 2026-10-11: footer, pages sitemap (no stockist, retailer or where-to-buy page), /pages/store-locator and /pages/store-information (both list only the 4 S"
+52,Stan Ray,stanray.com,read,0,0,https://www.stanray.com/pages/stockists,on file but not read. Note on file: store-finder app loads client-side; not read
+53,Studio Nicholson,studionicholson.com,second_look,0,0,https://www.studionicholson.com/pages/stores,on file as own stores only. Note on file: own stores and shop-in-shops only; no stockist list
+54,Tellason,tellason.com,second_look,0,0,NONE,on file as no stockist list. Note on file: no stockist page (/stockists/ serves the home page)
+55,Universal Works,universalworks.com,read,0,0,https://universalworks.com/en-us/pages/stores,on file but not read. Note on file: stockist list not looked for
+56,Velva Sheen,velvasheen.com,verify,26,4,https://www.velvasheen.com/pages/where-to-buy-test,"check the on-file rows against the locator today; add shops missing from the file, drop shops gone from it"
+57,Zilli,en.zilli.com,read,0,0,none,never read; full read
