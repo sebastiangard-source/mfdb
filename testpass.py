@@ -1171,8 +1171,8 @@ with sync_playwright() as p:
     pg.goto(url+'#stores=south-shore+shop'); pg.reload(); pg.wait_for_timeout(400)
     ck('the route carries every shop in the region as a stop', rl and rl[0].count('/')-4==pg.evaluate("document.querySelectorAll('#boBody .bo-line').length"), rl and rl[0].count('/')-4)
     # Derived: the largest region by shop count, whatever it is this build.
-    big = pg.evaluate("()=>{const c={}; PLACES.filter(p=>p.k==='s').forEach(p=>{const r=SUBREGION[p.s+'|'+p.c]; c[r]=(c[r]||0)+1}); const e=Object.entries(c).sort((a,b)=>b[1]-a[1])[0]; return [e[0], e[1]]}")
-    pg.goto(url+'#stores='+big[0].lower().replace(' ','-')+'+shop'); pg.reload(); pg.wait_for_timeout(500)
+    big = pg.evaluate("()=>{const c={}, named=new Set(Object.values(SUBREGION)); PLACES.filter(p=>p.k==='s').forEach(p=>{const r=subregionOf(p); if(named.has(r)) c[r]=(c[r]||0)+1}); const e=Object.entries(c).sort((a,b)=>b[1]-a[1])[0]; return [regionSlug(e[0]), e[1]]}")
+    pg.goto(url+'#stores='+big[0]+'+shop'); pg.reload(); pg.wait_for_timeout(500)
     rl2 = pg.evaluate("[...document.querySelectorAll('#boBody a.bo-route')].map(a=>a.href)")
     ck('the largest region splits into legs of at most ten', len(rl2)==-(-big[1]//10) and all(0 < h.count('/')-4 <= 10 for h in rl2), [h.count('/')-4 for h in rl2])
     pg.goto(url+'#stores=south-shore+shop'); pg.reload(); pg.wait_for_timeout(500)
