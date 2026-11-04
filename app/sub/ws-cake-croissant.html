@@ -83,13 +83,13 @@ function draw(){
   $('pairs').innerHTML=PAIRS.map(function(p){var a=p[0],b=p[1],A=SETS[a],B=SETS[b];
     var na=members(a,b,a).length,nb=members(a,b,b).length,nab=members(a,b,'both').length;
     var tot=function(k){return D.filter(function(d){return d[SETS[k].k]}).length};
-    var lab=function(a,b,S,x,n){var on=sel[0]===a&&sel[1]===b&&sel[2]==='all:'+S.k;return '<g class="lab'+(on?' on':'')+'" data-p="'+a+b+'" data-part="all:'+S.k+'" tabindex="0" role="button" aria-label="All '+n+' '+S.name+' brands"><text x="'+x+'" y="242" text-anchor="middle" font-size="14" font-weight="600" fill="'+S.col+'">'+S.name+' <tspan font-weight="400" fill="#5A6672">'+n+'</tspan></text></g>'};
+    var lab=function(a,b,key,x,n){var S=SETS[key];var on=sel[0]===a&&sel[1]===b&&sel[2]==='all:'+key;return '<g class="lab'+(on?' on':'')+'" data-p="'+a+b+'" data-part="all:'+key+'" tabindex="0" role="button" aria-label="All '+n+' '+S.name+' brands"><text x="'+x+'" y="242" text-anchor="middle" font-size="14" font-weight="600" fill="'+S.col+'">'+S.name+' <tspan font-weight="400" fill="#5A6672">'+n+'</tspan></text></g>'};
     var g=function(part,x,n){var on=sel[0]===a&&sel[1]===b&&sel[2]===part;return '<g class="rg'+(on?' on':'')+'" data-p="'+a+b+'" data-part="'+part+'" tabindex="0" role="button" aria-label="'+(part==='both'?A.name+' and '+B.name:'Only '+SETS[part].name)+', '+n+' brands"><circle cx="'+x+'" cy="113" r="24" fill="'+(on?'#fff':'transparent')+'" stroke="'+(on?'#1B2530':'none')+'"/><text class="n" x="'+x+'" y="120" text-anchor="middle">'+n+'</text></g>'};
     return '<div class="pair"><h3>'+A.name+' and '+B.name+'</h3><svg viewBox="0 0 340 250" role="img" aria-label="'+A.name+' and '+B.name+'">'+
       '<circle cx="125" cy="120" r="95" fill="'+A.col+'" fill-opacity="0.13" stroke="'+A.col+'" stroke-width="2.5"/>'+
       '<circle cx="215" cy="120" r="95" fill="'+B.col+'" fill-opacity="0.13" stroke="'+B.col+'" stroke-width="2.5"/>'+
       g(a,82,na)+g('both',170,nab)+g(b,258,nb)+
-      lab(a,b,A,95,tot(a))+lab(a,b,B,245,tot(b))+'</svg></div>';
+      lab(a,b,a,95,tot(a))+lab(a,b,b,245,tot(b))+'</svg></div>';
   }).join('');
   $('pairs').querySelectorAll('.rg,.lab').forEach(function(el){var pick=function(){var pr=el.getAttribute('data-p');sel=[pr[0],pr[1],el.getAttribute('data-part')];draw();panel()};
     el.addEventListener('click',pick);el.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();pick()}})});
