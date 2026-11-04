@@ -21,6 +21,7 @@ h2{font-family:"Fraunces",Georgia,serif;font-weight:600;font-size:21px;margin:0 
 .pair h3{font-family:"Avenir Next","Avenir","Figtree",system-ui,sans-serif;font-weight:600;font-size:17px;margin:0 0 4px;text-align:center}
 svg{width:100%;height:auto;display:block}
 svg text{font-family:"Avenir Next","Avenir","Figtree",system-ui,sans-serif}
+.lab{cursor:pointer}.lab:hover text,.lab.on text{text-decoration:underline}.lab:focus-visible{outline:none}
 .rg{cursor:pointer}
 .rg text.n{font-size:22px;font-weight:600;fill:var(--ink)}
 .rg:hover text.n,.rg.on text.n{text-decoration:underline}
@@ -55,7 +56,7 @@ nav a:hover{background:#1C7C74!important;color:#fff!important}
 <div class="warn" id="cov"></div>
 <div class="card">
   <div class="pairs" id="pairs"></div>
-  <p class="sub" style="margin:6px 0 12px">Click a number to list its brands.</p>
+  <p class="sub" style="margin:6px 0 12px">Click a number to list its brands, or a name to list every brand in that set.</p>
   <div id="panelhead"></div><div id="chips"></div>
 </div>
 <div class="card">
@@ -82,20 +83,21 @@ function draw(){
   $('pairs').innerHTML=PAIRS.map(function(p){var a=p[0],b=p[1],A=SETS[a],B=SETS[b];
     var na=members(a,b,a).length,nb=members(a,b,b).length,nab=members(a,b,'both').length;
     var tot=function(k){return D.filter(function(d){return d[SETS[k].k]}).length};
+    var lab=function(a,b,S,x,n){var on=sel[0]===a&&sel[1]===b&&sel[2]==='all:'+S.k;return '<g class="lab'+(on?' on':'')+'" data-p="'+a+b+'" data-part="all:'+S.k+'" tabindex="0" role="button" aria-label="All '+n+' '+S.name+' brands"><text x="'+x+'" y="242" text-anchor="middle" font-size="14" font-weight="600" fill="'+S.col+'">'+S.name+' <tspan font-weight="400" fill="#5A6672">'+n+'</tspan></text></g>'};
     var g=function(part,x,n){var on=sel[0]===a&&sel[1]===b&&sel[2]===part;return '<g class="rg'+(on?' on':'')+'" data-p="'+a+b+'" data-part="'+part+'" tabindex="0" role="button" aria-label="'+(part==='both'?A.name+' and '+B.name:'Only '+SETS[part].name)+', '+n+' brands"><circle cx="'+x+'" cy="113" r="24" fill="'+(on?'#fff':'transparent')+'" stroke="'+(on?'#1B2530':'none')+'"/><text class="n" x="'+x+'" y="120" text-anchor="middle">'+n+'</text></g>'};
     return '<div class="pair"><h3>'+A.name+' and '+B.name+'</h3><svg viewBox="0 0 340 250" role="img" aria-label="'+A.name+' and '+B.name+'">'+
       '<circle cx="125" cy="120" r="95" fill="'+A.col+'" fill-opacity="0.13" stroke="'+A.col+'" stroke-width="2.5"/>'+
       '<circle cx="215" cy="120" r="95" fill="'+B.col+'" fill-opacity="0.13" stroke="'+B.col+'" stroke-width="2.5"/>'+
       g(a,82,na)+g('both',170,nab)+g(b,258,nb)+
-      '<text x="95" y="242" text-anchor="middle" font-size="14" font-weight="600" fill="'+A.col+'">'+A.name+' <tspan font-weight="400" fill="#5A6672">'+tot(a)+'</tspan></text>'+
-      '<text x="245" y="242" text-anchor="middle" font-size="14" font-weight="600" fill="'+B.col+'">'+B.name+' <tspan font-weight="400" fill="#5A6672">'+tot(b)+'</tspan></text></svg></div>';
+      lab(a,b,A,95,tot(a))+lab(a,b,B,245,tot(b))+'</svg></div>';
   }).join('');
-  $('pairs').querySelectorAll('.rg').forEach(function(el){var pick=function(){var pr=el.getAttribute('data-p');sel=[pr[0],pr[1],el.getAttribute('data-part')];draw();panel()};
+  $('pairs').querySelectorAll('.rg,.lab').forEach(function(el){var pick=function(){var pr=el.getAttribute('data-p');sel=[pr[0],pr[1],el.getAttribute('data-part')];draw();panel()};
     el.addEventListener('click',pick);el.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();pick()}})});
 }
 function panel(){
-  var a=sel[0],b=sel[1],part=sel[2],l=members(a,b,part);
-  var title=part==='both'?(SETS[a].name+' and '+SETS[b].name):(SETS[part].name+', not '+SETS[part===a?b:a].name);
+  var a=sel[0],b=sel[1],part=sel[2],all=part.indexOf('all:')===0,l,title;
+  if(all){var K=part.slice(4);l=D.filter(function(d){return d[SETS[K].k]});title='All '+SETS[K].name}
+  else{l=members(a,b,part);title=part==='both'?(SETS[a].name+' and '+SETS[b].name):(SETS[part].name+', not '+SETS[part===a?b:a].name)}
   $('panelhead').innerHTML='<b>'+esc(title)+'</b> &nbsp;'+l.length+(l.length===1?' brand':' brands');
   $('chips').innerHTML=l.map(function(d){var x=d.x.length?'<small>'+d.x.length+(d.x.length===1?' center':' centers')+'</small>':'';return '<span class="chip'+(d.rt?' r':'')+'" title="'+esc(d.x.join(', '))+'" data-brand="'+esc(d.n)+'" tabindex="0">'+esc(d.n)+x+'</span>'}).join('');
 }
