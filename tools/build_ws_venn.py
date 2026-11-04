@@ -63,7 +63,12 @@ def main():
         if NOT_RETAIL.search(n) or fold(n) in drops: continue  # drops: stores, local boutiques, non-brands (ruled 22 Oct)
         f = add(n, 'W'); centers[f].add(t['center'] + (' (coming soon)' if t['status'] == 'coming_soon' else ''))
     ctrs = sorted({t['center'] for t in rows})
-    data = [{'n': names[f], 'w': 'W' in v, 'c': 'C' in v, 'r': 'R' in v, 'k': 'K' in v, 'x': sorted(centers.get(f, [])), 'rt': names[f] in retail or names[f] in kretail,
+    # Store counts: own full-price US stores, from the Explorer's counted brand set (cards_data.js, built from the locators). Brands outside it are not counted (None), never zero.
+    cx = open(os.path.join(SUB, 'cards_data.js'), encoding='utf8').read()
+    cx = json.loads(cx[cx.index('=') + 1:].rstrip().rstrip(';'))
+    own = {fold(b['n']): b['own'] for b in cx['brands']}
+    own.update({k: own[v] for k, v in cx['alias'].items() if v in own})
+    data = [{'n': names[f], 'w': 'W' in v, 'c': 'C' in v, 'r': 'R' in v, 'k': 'K' in v, 'x': sorted(centers.get(f, [])), 'rt': names[f] in retail or names[f] in kretail, 's': own.get(f),
              'ig': (links.get(names[f]) or {}).get('ig', ''), 'tt': (links.get(names[f]) or {}).get('tt', '')} for f, v in sets.items()]
     data.sort(key=lambda d: d['n'].lower())
     tpl = open(os.path.join(SUB, 'ws-cake-croissant.tpl.html'), encoding='utf8').read()
