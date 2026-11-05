@@ -1374,6 +1374,21 @@
   .dial:not(.dial-bi) input[type=range]::-moz-range-thumb,
   .dial-bi input[type=range]::-moz-range-thumb{width:var(--th);height:var(--th);border:0}
   #dsRange::-moz-range-thumb{width:var(--th);height:var(--th);border:0}
+
+  /* ---- tour (v3.68.0): a spotlight walk through the controls; first visit once, then from "Take the tour" ---- */
+  #tour{position:fixed;inset:0;z-index:1000;pointer-events:none}
+  #tour .shield{position:absolute;inset:0;pointer-events:auto}
+  #tour .spot{position:absolute;border-radius:14px;box-shadow:0 0 0 9999px rgba(30,30,27,.45);transition:all .25s ease;pointer-events:none}
+  #tour .tip{position:absolute;width:min(360px,calc(100vw - 32px));background:var(--cream);color:var(--ink);border-radius:14px;padding:18px 18px 14px;box-shadow:0 12px 40px rgba(0,0,0,.25);pointer-events:auto;font-size:14px;line-height:1.5;font-family:'Inter',sans-serif}
+  #tour .tip h3{font-family:'Prata',serif;font-weight:400;font-size:19px;margin:0 0 6px;padding-right:24px;color:var(--ink)}
+  #tour .tip p{margin:0 0 12px;color:var(--ink-soft)}
+  #tour .tnav{display:flex;align-items:center;gap:8px}
+  #tour .tnav .n{font-size:12px;color:var(--ink-faint);margin-right:auto}
+  #tour .tnav button{font:inherit;font-size:13px;border-radius:999px;padding:7px 14px;cursor:pointer;border:1px solid var(--hairline);background:transparent;color:var(--ink-soft)}
+  #tour .tnav button.go{background:var(--lf-green);border-color:var(--lf-green);color:#fff}
+  #tour .tnav button.end{border:0;padding:7px 6px;text-decoration:underline;text-underline-offset:3px;color:var(--ink-faint)}
+  #tour .tx{position:absolute;top:8px;right:10px;border:0;background:none;font-size:22px;line-height:1;color:var(--ink-faint);cursor:pointer;padding:4px}
+  #tour .tx:hover{color:var(--ink)}
 </style>
 <!-- The wobbegong is a type of carpet shark -->
 </head>
@@ -1384,6 +1399,7 @@
   <header class="masthead">
     <h1>The Menswear Spectrum<span class="thin">.</span></h1>
     <div class="mast-side">
+    <button class="mastbtn" id="tourGo">Take the tour</button>
       <button class="mastbtn" id="pricesBtn3">Prices</button>
       <button class="mastbtn" id="boutiquesBtn">Stores</button>
     </div>
@@ -4373,6 +4389,76 @@ const VERSION = CHANGELOG[0].v;
     if(e.key==="Escape" && box.classList.contains("show")) close(); });
   if(location.hash === "#prices") open();
   addEventListener("hashchange", ()=>{ if(location.hash === "#prices") open(); });
+})();
+</script>
+
+<script>
+// ---- Product tour (v3.68.0). Walks the controls one at a time; nothing it does changes a filter.
+// Opens once on a first visit (not when the link carries a #hash, ?notour, or an automated browser);
+// "Take the tour" in the masthead opens it again. w: 'desk' steps are skipped on a phone, 'phone'
+// steps only show there (the filter rail is behind the "Filters & dials" button at 700px and under).
+(function(){
+  var KEY='mfdb_tour', Q=function(s){return document.querySelector(s)}, QA=function(s){return document.querySelectorAll(s)};
+  var phone=function(){return matchMedia('(max-width:700px)').matches};
+  var grp=function(i){return function(){return QA('.legend details.grp')[i]}};
+  var STEPS=[
+   {t:null,h:'The Menswear Spectrum',p:function(){return QA('.brand').length+' menswear brands, from mass-market basics to designer houses, placed by what their staples cost and how each brand presents itself. This short tour shows the controls. It takes about a minute.'}},
+   {t:function(){return Q('.mapcol')},h:'Four bands',p:'Brands sit in four bands: Basic, Premium, Accessible Luxury and True Luxury. A brand sits where the price of its core staples and the way it presents itself put it.'},
+   {w:'phone',t:function(){return Q('#legendToggle')},h:'Filters & dials',p:'This opens every filter: has stores, the dials, segments and certifications. Move a dial and brands that score lower fade out, so you can watch the map change.'},
+   {w:'desk',t:function(){return Q('#clearAll')},h:'Clear all',p:'Resets every dial and chip at once. Once a filter is on, a line under this button counts how many brands are left.'},
+   {w:'desk',t:function(){return Q('.reachsolo')},h:'Has stores',p:'Keep brands by how many US stores of their own they run. The slider steps through 1+, 5+, 13+, 51+ and 250+. Counts come from each brand’s own store locator, and outlets and concessions are left out.'},
+   {w:'desk',t:grp(0),h:'Focus dials',p:'Each dial scores what a brand sells from 0 to 5: tech, comfort, craft, style, durability, fit flexibility, shoes, white tee and logo. Move one up and brands that score lower fade out. Hover or tap a dial’s name for what it measures.'},
+   {w:'desk',t:grp(1),h:'Fabric dials',p:'How central a fiber is to a brand: denim, cashmere, linen, fine cotton, wool and synthetics. Natural fiber works differently. It is counted from the brand’s own product pages, as the share of styles whose main fiber is natural.'},
+   {w:'desk',t:grp(2),h:'Culture dials',p:'How strongly a brand belongs to a world: golf, ivy league, prep, street, western, workwear, outdoor, surf, ski, boat and more, along with national styles such as italianness and frenchness. They work like the dials above.'},
+   {w:'desk',t:function(){return Q('.birow')},h:'Two-way dials',p:'These have a middle and two ends. Ease of care runs from machine wash to cold wash and hang dry. Golffice runs from office to course. Bruv to bruh runs from British to American. Sail to power runs from working a boat to a deck for guests. Move left or right of center.'},
+   {w:'desk',t:function(){return Q('.segrow')},h:'Segments',p:'The style a brand is known for, from Avant-garde designers to Basics & essentials. Pick one or several. The number on each chip is how many brands it holds.'},
+   {w:'desk',t:function(){return Q('.certrow')},h:'Certified',p:'B Corp marks companies certified as B Corporations. GOTS entity marks brands that hold a GOTS scope certificate, the right to sell certified organic textiles. It says nothing about how much of the range is organic.'},
+   {t:function(){return Q('.brand:not(.out)')},h:'Each brand',p:'Hover a brand for a quick card, or tap it to pin the card. The card has what the brand sells, its tell, where it started, its own words and how many stores it has. Full brand details opens the whole page: prices for eight garments, its stores, Northeast stockists and where it resells.'},
+   {t:function(){return Q('.search-float')},h:'Find a brand',p:'Type a name and pick it from the list. The map jumps to that brand and opens its card.'},
+   {t:function(){return Q('#pricesBtn3')},h:'Prices',p:'The price of eight staples for every brand, from the entry version to the elevated-fabric version, on a log scale where each gridline doubles. Switch garments, and sort by price, by band or A to Z. These are calibrated estimates for comparison, not quotes.'},
+   {t:function(){return Q('#boutiquesBtn')},h:'Stores',p:'Every store on the map. Brand-owned stores are listed nationwide. Independent shops that stock several brands are listed for the Northeast, where the register has been walked so far. Search by name, town or region, filter by type, or switch between region and A to Z.'},
+   {t:function(){return Q('footer')},h:'What’s changed',p:'The link in the footer opens the changelog, which lists each version of the map and what changed in it.'},
+   {t:null,h:'That’s it',p:'You can take this tour again from the Take the tour button at the top of the page.'}
+  ];
+  var list=[], TI=0;
+  function build(){ var ph=phone(); list=STEPS.filter(function(s){return !s.w||(s.w==='phone')===ph}); }
+  function show(i){
+    TI=Math.max(0,Math.min(i,list.length-1));
+    var st=list[TI], T=document.getElementById('tour'); if(!T) return;
+    var el=st.t&&st.t(); if(el&&!el.getClientRects().length) el=null;
+    var spot=T.querySelector('.spot'), tip=T.querySelector('.tip'), last=TI===list.length-1;
+    var body=typeof st.p==='function'?st.p():st.p;
+    tip.innerHTML='<button class="tx" data-a="skip" aria-label="End tour" title="End tour">×</button><h3>'+st.h+'</h3><p>'+body+'</p><div class="tnav"><span class="n">'+(TI+1)+' of '+list.length+'</span>'+(last?'':'<button class="end" data-a="skip">End tour</button>')+(TI?'<button data-a="back">Back</button>':'')+'<button class="go" data-a="next">'+(last?'Done':'Next')+'</button></div>';
+    function place(){
+      var vw=innerWidth, vh=innerHeight, tw=tip.offsetWidth, th=tip.offsetHeight;
+      if(!el){spot.style.cssText='left:50%;top:50%;width:0;height:0'; tip.style.left=Math.max(16,(vw-tw)/2)+'px'; tip.style.top=Math.max(16,(vh-th)/2)+'px'; return;}
+      var r=el.getBoundingClientRect(), pad=8, h=Math.min(r.height,vh*0.55);
+      spot.style.cssText='left:'+(r.left-pad)+'px;top:'+(r.top-pad)+'px;width:'+(r.width+2*pad)+'px;height:'+(h+2*pad)+'px';
+      var left=r.right+16, top=r.top;
+      if(left+tw>vw-16){left=Math.min(Math.max(16,r.left),vw-tw-16); top=r.top+h+pad+12; if(top+th>vh-16) top=Math.max(16,r.top-th-pad-12);}
+      tip.style.left=left+'px'; tip.style.top=Math.max(16,Math.min(top,vh-th-16))+'px';
+    }
+    if(el){ var tall=el.getBoundingClientRect().height>innerHeight*0.55; el.style.scrollMarginTop='24px'; el.scrollIntoView({block:tall?'start':'center',behavior:'instant'}); requestAnimationFrame(function(){requestAnimationFrame(place)}); } else place();
+    var go=tip.querySelector('.go'); if(go) go.focus({preventScroll:true});
+  }
+  function open(){
+    var hc=document.getElementById('hoverCard'); if(hc) hc.classList.remove('pinned','show'); document.body.classList.remove('card-open');
+    document.dispatchEvent(new KeyboardEvent('keydown',{key:'Escape',bubbles:true}));   // closes any open view before the tour starts
+    var T=document.getElementById('tour');
+    if(!T){
+      T=document.createElement('div'); T.id='tour'; T.innerHTML='<div class="shield"></div><div class="spot"></div><div class="tip" role="dialog" aria-label="Tour"></div>'; document.body.appendChild(T);
+      T.addEventListener('click',function(e){var a=e.target.closest('button[data-a]'); if(!a) return; var k=a.dataset.a;
+        if(k==='next'){ if(TI<list.length-1) show(TI+1); else close(); } else if(k==='back') show(TI-1); else close(); });
+    }
+    build(); show(0);
+  }
+  function close(){ var T=document.getElementById('tour'); if(T) T.remove(); try{localStorage.setItem(KEY,'1')}catch(e){} scrollTo({top:0}); }
+  addEventListener('resize',function(){ if(document.getElementById('tour')){ var cur=list[TI]; build(); var j=list.indexOf(cur); show(j<0?0:j); } });
+  document.addEventListener('keydown',function(e){ if(e.key==='Escape'&&document.getElementById('tour')) close(); });
+  document.getElementById('tourGo').addEventListener('click',open);
+  var seen=false; try{seen=!!localStorage.getItem(KEY)}catch(e){seen=true}
+  if(!seen&&!location.hash&&!/[?&]notour\b/.test(location.search)&&!navigator.webdriver) setTimeout(open,800);
+  window.mfdbTour={open:open};
 })();
 </script>
 </body>

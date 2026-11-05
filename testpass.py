@@ -619,8 +619,18 @@ with sync_playwright() as p:
 
     head('boutiques index')
     pg.goto(url); pg.reload(); pg.wait_for_timeout(450)
-    ck('masthead reads Prices and Stores',
-       pg.eval_on_selector_all('.mastbtn','e=>e.map(x=>x.textContent)')==['Prices','Stores'])
+    ck('masthead reads Take the tour, Prices and Stores',
+       pg.eval_on_selector_all('.mastbtn','e=>e.map(x=>x.textContent)')==['Take the tour','Prices','Stores'])
+    head('tour')
+    pg.eval_on_selector('#tourGo','e=>e.click()'); pg.wait_for_timeout(350)
+    ck('tour opens from the masthead button and starts on the intro',
+       pg.eval_on_selector('#tour h3','e=>e.textContent')=='The Menswear Spectrum'
+       and pg.eval_on_selector('#tour .n','e=>e.textContent').startswith('1 of '))
+    pg.eval_on_selector('#tour .go','e=>e.click()'); pg.wait_for_timeout(250)
+    ck('Next moves to the second step', pg.eval_on_selector('#tour h3','e=>e.textContent')=='Four bands')
+    pg.keyboard.press('Escape'); pg.wait_for_timeout(250)
+    ck('Escape ends the tour and it is remembered',
+       pg.locator('#tour').count()==0 and pg.evaluate("localStorage.getItem('mfdb_tour')")=='1')
     pg.eval_on_selector('#boutiquesBtn','e=>e.click()'); pg.wait_for_timeout(430)
     # by region: every independent shop is a row and every brand door is inside a chip's count
     ck('index opens with every store of both kinds',
