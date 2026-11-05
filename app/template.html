@@ -4402,7 +4402,7 @@ const VERSION = CHANGELOG[0].v;
   var phone=function(){return matchMedia('(max-width:700px)').matches};
   var grp=function(i){return function(){return QA('.legend details.grp')[i]}};
   var STEPS=[
-   {t:null,h:'The Menswear Spectrum',p:function(){return QA('.brand').length+' menswear brands, from mass-market basics to designer houses, placed by what their staples cost and how each brand presents itself. This short tour shows the controls. It takes about a minute.'}},
+   {t:null,h:'What this map does',p:'You can browse menswear brands and narrow them by price band, craft, fabric and the world a brand belongs to. Open any brand to see its prices, where it has stores and which shops carry it. Follow the tour for a minute to see how.'},
    {t:function(){return Q('.mapcol')},h:'Four bands',p:'Brands sit in four bands: Basic, Premium, Accessible Luxury and True Luxury. A brand sits where the price of its core staples and the way it presents itself put it.'},
    {w:'phone',t:function(){return Q('#legendToggle')},h:'Filters & dials',p:'This opens every filter: has stores, the dials, segments and certifications. Move a dial and brands that score lower fade out, so you can watch the map change.'},
    {w:'desk',t:function(){return Q('#clearAll')},h:'Clear all',p:'Resets every dial and chip at once. Once a filter is on, a line under this button counts how many brands are left.'},

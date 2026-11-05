@@ -624,7 +624,7 @@ with sync_playwright() as p:
     head('tour')
     pg.eval_on_selector('#tourGo','e=>e.click()'); pg.wait_for_timeout(350)
     ck('tour opens from the masthead button and starts on the intro',
-       pg.eval_on_selector('#tour h3','e=>e.textContent')=='The Menswear Spectrum'
+       pg.eval_on_selector('#tour h3','e=>e.textContent')=='What this map does'
        and pg.eval_on_selector('#tour .n','e=>e.textContent').startswith('1 of '))
     pg.eval_on_selector('#tour .go','e=>e.click()'); pg.wait_for_timeout(250)
     ck('Next moves to the second step', pg.eval_on_selector('#tour h3','e=>e.textContent')=='Four bands')
