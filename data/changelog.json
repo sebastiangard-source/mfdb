@@ -1,5 +1,13 @@
 [
  {
+  "v": "3.74.1",
+  "d": "5 November 2026",
+  "lede": "The tour now opens on the first load in a preview that blocks browser storage.",
+  "items": [
+   "Where a page cannot remember that you have seen the tour, as in some embedded previews, the tour opens on load. Everywhere else it still opens once on a first visit and stays closed after that."
+  ]
+ },
+ {
   "v": "3.74.0",
   "d": "5 November 2026",
   "lede": "The tour keeps Back and Next in one place, and drops the last step about the changelog.",

@@ -4466,7 +4466,7 @@ const VERSION = CHANGELOG[0].v;
   addEventListener('resize',function(){ if(document.getElementById('tour')){ var cur=list[TI]; build(); var j=list.indexOf(cur); show(j<0?0:j); } });
   document.addEventListener('keydown',function(e){ if(e.key==='Escape'&&document.getElementById('tour')){ e.stopImmediatePropagation(); close(); } },true);   // capture: the page's own Escape handlers must not also run
   document.getElementById('tourGo').addEventListener('click',open);
-  var seen=false; try{seen=!!localStorage.getItem(KEY)}catch(e){seen=true}
+  var seen=false; try{seen=!!localStorage.getItem(KEY)}catch(e){seen=false}   // storage blocked (a sandboxed preview): show it on every load, which is the first load there
   if(!seen&&!location.hash&&!/[?&]notour\b/.test(location.search)&&!navigator.webdriver) setTimeout(open,800);
   window.mfdbTour={open:open};
 })();
