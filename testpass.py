@@ -628,6 +628,18 @@ with sync_playwright() as p:
        and pg.eval_on_selector('#tour .n','e=>e.textContent').startswith('1 of '))
     pg.eval_on_selector('#tour .go','e=>e.click()'); pg.wait_for_timeout(250)
     ck('Next moves to the second step', pg.eval_on_selector('#tour h3','e=>e.textContent')=='Four bands')
+    for _ in range(40):
+        if pg.eval_on_selector('#tour h3','e=>e.textContent')=='The brand card': break
+        pg.eval_on_selector('#tour .go','e=>e.click()'); pg.wait_for_timeout(150)
+    pg.wait_for_timeout(250)
+    ck('tour step "The brand card" pins a brand card', pg.evaluate("document.getElementById('hoverCard').classList.contains('show')"))
+    pg.eval_on_selector('#tour .go','e=>e.click()'); pg.wait_for_timeout(350)
+    ck('tour step "Full brand details" opens the brand page and closes the card',
+       pg.eval_on_selector('#tour h3','e=>e.textContent')=='Full brand details'
+       and pg.evaluate("document.getElementById('detailView').classList.contains('show')")
+       and not pg.evaluate("document.getElementById('hoverCard').classList.contains('show')"))
+    pg.eval_on_selector('#tour .go','e=>e.click()'); pg.wait_for_timeout(300)
+    ck('the step after the brand page closes it', not pg.evaluate("document.getElementById('detailView').classList.contains('show')"))
     pg.keyboard.press('Escape'); pg.wait_for_timeout(250)
     ck('Escape ends the tour and it is remembered',
        pg.locator('#tour').count()==0 and pg.evaluate("localStorage.getItem('mfdb_tour')")=='1')
@@ -1175,7 +1187,7 @@ with sync_playwright() as p:
     ck('a Faherty chip carries its door count', pg.evaluate("[...document.querySelectorAll('#boBody button.bo-chip-multi')].some(c=>c.textContent.startsWith('Faherty') && /×\\d/.test(c.textContent))"))
     ck('an independent row leads with carried brands', pg.evaluate("[...document.querySelectorAll('#boBody .bo-line .bo-meta')].some(m=>m.textContent.includes('Barbour'))"))
     pg.fill('#boSearch','hingham'); pg.wait_for_timeout(300)
-    ck('the filter box narrows the page', pg.evaluate("document.querySelectorAll('#boBody .bo-line').length")==2 and pg.evaluate("document.querySelectorAll('#boBody .bo-sec').length")==1)
+    ck('the filter box narrows the page', pg.evaluate("document.querySelectorAll('#boBody .bo-line').length")==3 and pg.evaluate("document.querySelectorAll('#boBody .bo-sec').length")==1)
     ck('typing keeps focus in the box', pg.evaluate("document.activeElement && document.activeElement.id==='boSearch'"))
     pg.fill('#boSearch',''); pg.wait_for_timeout(300)
     pg.goto(url+'#stores=south-shore+shop'); pg.reload(); pg.wait_for_timeout(400)
