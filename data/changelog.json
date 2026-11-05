@@ -1,5 +1,14 @@
 [
  {
+  "v": "3.74.0",
+  "d": "5 November 2026",
+  "lede": "The tour keeps Back and Next in one place, and drops the last step about the changelog.",
+  "items": [
+   "The tour's text now sits in a panel at the bottom of the window, so Next is always under the same spot and a click-through needs no hunting. The spotlight still marks what each step is about, and the page scrolls it into view above the panel.",
+   "The step that pointed at the changelog link is gone. The Find a brand step also highlights the search pill, which the previous step's open brand page had been hiding."
+  ]
+ },
+ {
   "v": "3.73.0",
   "d": "5 November 2026",
   "lede": "The tour’s first step now says what you can do with the map.",

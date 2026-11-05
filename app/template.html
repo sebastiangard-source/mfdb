@@ -1379,14 +1379,15 @@
   #tour{position:fixed;inset:0;z-index:1000;pointer-events:none}
   #tour .shield{position:absolute;inset:0;pointer-events:auto}
   #tour .spot{position:absolute;border-radius:14px;box-shadow:0 0 0 9999px rgba(30,30,27,.45);transition:all .25s ease;pointer-events:none}
-  #tour .tip{position:absolute;width:min(360px,calc(100vw - 32px));background:var(--cream);color:var(--ink);border-radius:14px;padding:18px 18px 14px;box-shadow:0 12px 40px rgba(0,0,0,.25);pointer-events:auto;font-size:14px;line-height:1.5;font-family:'Inter',sans-serif}
+  #tour .tip{position:absolute;left:50%;bottom:16px;transform:translateX(-50%);width:min(440px,calc(100vw - 32px));background:var(--cream);color:var(--ink);border-radius:14px;padding:18px 18px 14px;box-shadow:0 12px 40px rgba(0,0,0,.25);pointer-events:auto;font-size:14px;line-height:1.5;font-family:'Inter',sans-serif}
   #tour .tip h3{font-family:'Prata',serif;font-weight:400;font-size:19px;margin:0 0 6px;padding-right:24px;color:var(--ink)}
   #tour .tip p{margin:0 0 12px;color:var(--ink-soft)}
   #tour .tnav{display:flex;align-items:center;gap:8px}
   #tour .tnav .n{font-size:12px;color:var(--ink-faint);margin-right:auto}
   #tour .tnav button{font:inherit;font-size:13px;border-radius:999px;padding:7px 14px;cursor:pointer;border:1px solid var(--hairline);background:transparent;color:var(--ink-soft)}
-  #tour .tnav button.go{background:var(--lf-green);border-color:var(--lf-green);color:#fff}
+  #tour .tnav button.go{min-width:68px;background:var(--lf-green);border-color:var(--lf-green);color:#fff}
   #tour .tnav button.end{border:0;padding:7px 6px;text-decoration:underline;text-underline-offset:3px;color:var(--ink-faint)}
+  body.tour-lift .search-float{bottom:calc(var(--tourdock,200px) + 12px) !important}
   #tour .tx{position:absolute;top:8px;right:10px;border:0;background:none;font-size:22px;line-height:1;color:var(--ink-faint);cursor:pointer;padding:4px}
   #tour .tx:hover{color:var(--ink)}
 </style>
@@ -4419,13 +4420,12 @@ const VERSION = CHANGELOG[0].v;
    {t:function(){return Q('.search-float')},h:'Find a brand',p:'Type a name and pick it from the list. The map jumps to that brand and opens its card.'},
    {t:function(){return Q('#pricesBtn3')},h:'Prices',p:'The price of eight staples for every brand, from the entry version to the elevated-fabric version, on a log scale where each gridline doubles. Switch garments, and sort by price, by band or A to Z. These are calibrated estimates for comparison, not quotes.'},
    {t:function(){return Q('#boutiquesBtn')},h:'Stores',p:'Every store on the map. Brand-owned stores are listed nationwide. Independent shops that stock several brands are listed for the Northeast, where the register has been walked so far. Search by name, town or region, filter by type, or switch between region and A to Z.'},
-   {t:function(){return Q('footer')},h:'What’s changed',p:'The link in the footer opens the changelog, which lists each version of the map and what changed in it.'},
    {t:null,h:'That’s it',p:'You can take this tour again from the Take the tour button at the top of the page.'}
   ];
   var list=[], TI=0;
   function reset(){   // the card and the brand page are opened by steps; every step starts with both closed
     var dv=document.getElementById('detailView'); if(dv) dv.classList.remove('show');
-    var hc=document.getElementById('hoverCard'); if(hc) hc.classList.remove('pinned','show'); document.body.classList.remove('card-open');
+    var hc=document.getElementById('hoverCard'); if(hc){ hc.classList.remove('pinned','show'); hc.style.bottom=''; hc.style.maxHeight=''; } document.body.classList.remove('card-open','overlay-open','tour-lift');   // the page derives both classes later; the next step measures now
     QA('.brand[aria-selected="true"]').forEach(function(x){x.setAttribute('aria-selected','false')});
   }
   function build(){ var ph=phone(); list=STEPS.filter(function(s){return !s.w||(s.w==='phone')===ph}); }
@@ -4437,16 +4437,18 @@ const VERSION = CHANGELOG[0].v;
     var spot=T.querySelector('.spot'), tip=T.querySelector('.tip'), last=TI===list.length-1;
     var body=typeof st.p==='function'?st.p():st.p;
     tip.innerHTML='<button class="tx" data-a="skip" aria-label="End tour" title="End tour">×</button><h3>'+st.h+'</h3><p>'+body+'</p><div class="tnav"><span class="n">'+(TI+1)+' of '+list.length+'</span>'+(last?'':'<button class="end" data-a="skip">End tour</button>')+(TI?'<button data-a="back">Back</button>':'')+'<button class="go" data-a="next">'+(last?'Done':'Next')+'</button></div>';
-    function place(){
-      var vw=innerWidth, vh=innerHeight, tw=tip.offsetWidth, th=tip.offsetHeight;
-      if(!el){spot.style.cssText='left:50%;top:50%;width:0;height:0'; tip.style.left=Math.max(16,(vw-tw)/2)+'px'; tip.style.top=Math.max(16,(vh-th)/2)+'px'; return;}
-      var r=el.getBoundingClientRect(), pad=8, h=Math.min(r.height,vh*0.55);
+    function place(){   // the panel is docked at the bottom of the window, so Back and Next never move; only the spotlight does
+      var vw=innerWidth, vh=innerHeight, dockTop=tip.getBoundingClientRect().top;
+      if(!el){spot.style.cssText='left:50%;top:50%;width:0;height:0'; return;}
+      if(el.id==='hoverCard'){   // keep the pinned card clear of the panel
+        if(phone()){ el.style.top='auto'; el.style.bottom=(vh-dockTop+12)+'px'; el.style.maxHeight=Math.max(140,dockTop-12-70)+'px'; }
+        else { el.style.maxHeight=Math.max(140,dockTop-12-el.getBoundingClientRect().top)+'px'; el.style.overflowY='auto'; }
+      }
+      if(phone()&&el.classList.contains('search-float')){ document.body.style.setProperty('--tourdock',(vh-dockTop)+'px'); document.body.classList.add('tour-lift'); }   // the pill sits where the panel is on a phone
+      var r=el.getBoundingClientRect(), pad=8, h=Math.min(r.height,Math.max(60,dockTop-16-r.top));
       spot.style.cssText='left:'+(r.left-pad)+'px;top:'+(r.top-pad)+'px;width:'+(r.width+2*pad)+'px;height:'+(h+2*pad)+'px';
-      var left=r.right+16, top=r.top;
-      if(left+tw>vw-16){left=Math.min(Math.max(16,r.left),vw-tw-16); top=r.top+h+pad+12; if(top+th>vh-16) top=Math.max(16,r.top-th-pad-12);}
-      tip.style.left=left+'px'; tip.style.top=Math.max(16,Math.min(top,vh-th-16))+'px';
     }
-    if(el){ var tall=el.getBoundingClientRect().height>innerHeight*0.55; el.style.scrollMarginTop='24px'; el.scrollIntoView({block:tall?'start':'center',behavior:'instant'}); requestAnimationFrame(function(){requestAnimationFrame(place)}); } else place();
+    if(el){ el.style.scrollMarginTop='24px'; el.scrollIntoView({block:'start',behavior:'instant'}); requestAnimationFrame(function(){requestAnimationFrame(place)}); } else place();
     var go=tip.querySelector('.go'); if(go) go.focus({preventScroll:true});
   }
   function open(){

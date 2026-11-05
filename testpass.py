@@ -628,6 +628,11 @@ with sync_playwright() as p:
        and pg.eval_on_selector('#tour .n','e=>e.textContent').startswith('1 of '))
     pg.eval_on_selector('#tour .go','e=>e.click()'); pg.wait_for_timeout(250)
     ck('Next moves to the second step', pg.eval_on_selector('#tour h3','e=>e.textContent')=='Four bands')
+    nb=lambda: pg.eval_on_selector('#tour .go','e=>{const r=e.getBoundingClientRect();return [Math.round(r.left),Math.round(r.top)]}')
+    p0=nb()
+    for _ in range(5):
+        pg.eval_on_selector('#tour .go','e=>e.click()'); pg.wait_for_timeout(120)
+    ck('the Next button stays in the same place from step to step', nb()==p0)
     for _ in range(40):
         if pg.eval_on_selector('#tour h3','e=>e.textContent')=='The brand card': break
         pg.eval_on_selector('#tour .go','e=>e.click()'); pg.wait_for_timeout(150)
