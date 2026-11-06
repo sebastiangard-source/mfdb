@@ -1,6 +1,6 @@
 # NOTE: seat_withered_fig_b_2026-11-06
 
-Read date 6 November 2026. Facts-first rows for all six brands are in `facts_first.csv`. Full records for the four apparel brands are in `return.csv`, `own_doors.csv`, `stockists.csv`, `return_styles.csv` and `dials.csv`, one row or section a brand. All four are **partial**.
+Read date 6 November 2026. Facts-first rows for all six brands are in `facts_first.csv`. Full records for the four apparel brands are in `return.csv`, `own_doors.csv`, `stockists.csv`, `return_styles.csv` and `dials.csv`, one row or section a brand. All four are **partial** (under 60% of styles state a composition, and Vinted/Grailed pages refused to load). A second pass on 6 Nov closed every dial and wrote `return_styles.csv` in full (TCB 73/73, Omoto Denim 28/28, Seuvas 49/49, orSlow 68/68 after collapsing 98 listings).
 
 ## Brands stopped on, per the brief
 
@@ -21,6 +21,15 @@ Read date 6 November 2026. Facts-first rows for all six brands are in `facts_fir
 
 Composition percentages and full style censuses (fetch tools truncate product feeds); B Corp and GOTS directories (client error or robots-disallowed, so `NC`, not `NONE`); Instagram; Vinted and Grailed search pages; care text and logo counts on most brands, so `fuss`, `logo` and several others are `NC`. The time box was kept; nothing here is a full ten-product page read for every dial.
 
+## Second pass: rulings and flags for Sebastian
+
+- **orSlow and orslow.jp.** orslow.jp's /company/ page names the same operator as the directory (Base Denim Products Inc., Nishinomiya), so it is the same brand. It does not name Nakatsu, does not link to orslow.clothing and does not list orslow.clothing among its stockists, so it does **not** corroborate your ruling on orslow.clothing. It lists 361 stockists (43 US) and none labelled brand-owned, so own doors are recorded as 0; a brand-run shop under a listed name cannot be excluded.
+- **Dials.** All 38 filled for each brand. Many are scored from the garments at low confidence, as you directed; `sail` is `NA` for all four.
+- **Seuvas prices.** A US browser gets a USD store (tee $41, alpaca coach $410); the price cells are still JPY with the USD figures in the note. Please say which basis to file.
+- **TCB cotton with no percentage.** 22 styles name cotton or linen without a percentage and were scored as composition at 100%; `ND` is the alternative.
+- **Omoto Denim quote** is a Japanese founder line from a newspaper (press).
+- **Still open:** Vinted brand ids and Grailed URLs (pages returned client errors or exposed no id); B Corp and GOTS (left for a person, as you said); RoToTo and Nishiguchi Kutsushita (stopped on the hosiery rule).
+
 # Brand sections
 
 ## orSlow (status: partial, read 2026-11-06)
@@ -39,6 +48,18 @@ Composition percentages and full style censuses (fetch tools truncate product fe
 **Not reached.** Heddels 2020 profile (bot check, one try, not pursued); Instagram (robots_disallowed); orslow.com/.co/.store/.online/.site/.org and orslowclothing.com not opened. Search also surfaced orslow.jp/store/ (Japanese stockist list), not opened because it is outside the brief: Sebastian may want to rule on it. Composition, care, logo, B Corp and GOTS, Vinted brand IDs, pronunciation: NC. Dials: 8 product pages read, under the 10 asked; most dials low confidence or NC.
 
 **Not on the store:** polo, knitwear sweater, shoes (NONE). Dress pants are substituted by fatigue/work trousers.
+
+### Follow-up 6 Nov (second pass)
+
+**Closed.**
+- Dials: 38 rows, no NC left. Pages: 19 distinct product pages (10 opened in the browser; 9 more read in full as body text from the same pages' product feed, read in-page), plus the 8 from the first pass. Scored from evidence: comfort 3 (12 of 12 pages with copy), cotton 2, synth 1, logo 2 (small labels only, thumbnail view, low), fuss 0, golffice 0 (quoted "casual and smart-casual"), status 3 (low). Ending (b) used for fuss, cotton, synth, logo, status, all low confidence. sail = NA (no boating register; pages named in the row).
+- Fibre by style: return_styles.csv has 68 rows for 68 styles (rows written = styles total). 98 listings collapsed to 68: colourway and finish variants of one lot or fit merged (105 Standard Denim 5 listings to 1; Relax Fit Flannel Shirt 4 to 1; Oxford coverall 3 to 1; Super Dad's blouson, French work pant, painter pants, sweatshirts, waffle tee etc.); different lot codes or cloths kept apart (e.g. 1050xx vs Lot 1050 105 Standard; 6034 Harris Tweed vs 6034 coverall). Judgement calls: 40 "Super Dad's Denim Pants" and 76 "100 Super Dad Fit" kept apart, may be one style. colourway_ratio 98/68. 86 of 98 listings have no body text. Only 3 styles state a fibre in body text (Model 66 "100% cotton"; Oxford coverall and sateen-twill fatigue pants name cotton with no percentage): coverage 3 of 68 = 4.4%, natural 4.4%, synthetic 0, cellulosic 0, spandex 0 counted, shape one. Status partial. Title-only fibre names (linen poplin shirt, cotton-linen shirt, cotton-linen moleskin pants, ripstop cotton shorts, organic cotton lining on a denim jacket, Harris Tweed) are not counted, because the task takes body text; if Sebastian wants them counted, coverage would be 8 of 68.
+- Other: care text (none on any page), tech (none, 0), signature product (NONE, nothing called signature/standard/best seller), pronunciation (オアスロウ from orslow.jp/company/), vinted url, grailed url.
+- Doors: see judgement below.
+
+**Open, and why.** B Corp and GOTS (left for a person). vinted_brand_ids: Vinted catalog page fetched but exposes no brand id. grailed_url: WebFetch of grailed.com/designers/orslow refused (client_error); URL taken from a search result, unconfirmed. Composition stays at 4.4% because the store publishes none for 95% of styles, not for lack of reading. Refusals: WebFetch of orslow.clothing/wp-json/... refused (robots_disallowed; the same feed was read in-page in the browser); Instagram earlier.
+
+**orslow.jp judgement: same brand (operator and products match), but it does not vouch for orslow.clothing.** Evidence: orslow.jp/company/ names the operator 有限会社ベースデニムプロダクツ, English "base denim products Inc.", 6-13 Wakamatsucho, Nishinomiya, Hyogo, tel +81 798 74 8106, which matches the made-in-japan.jp directory (Base Denim Products Co., Ltd., Nishinomiya); the site title is "orSlow official Site"; the copy describes classic workwear and military clothes under a "slow" concept, matching the range. Not confirmed: founder Ichiro Nakatsu and founding year are not named on orslow.jp (About, Company); the English suffix reads Inc. on the Japanese site against Co., Ltd. in the directory. orslow.jp has no link to or mention of orslow.clothing, and orslow.clothing is not among the US online stockists it lists (MR.PORTER, WITHERED FIG, BLACK ESSENTIALS). So Sebastian's ruling that orslow.clothing is the brand's own site is not corroborated by orslow.jp. Doors: orslow.jp/store/ lists 361 shops (43 in the US, 22 in the UK) with names and city or prefecture only, none labelled own, so own_doors_us 0, own_doors_world 0, all entries in stockists.csv as stockists; no street addresses, so a brand-run shop under a listed name cannot be ruled out. Read by WebFetch summary, not verbatim; counts are from that summary.
 
 ## Omoto Denim
 
@@ -64,6 +85,14 @@ Composition percentages and full style censuses (fetch tools truncate product fe
 
 **Status: partial.**
 
+### Follow-up 6 Nov (second pass)
+
+**Closed.** Census: /products.json has 40 products and the sitemap 40 unique handles (200 URLs = 5 locale prefixes); store is JPY with country US showing USD (Shopify.currency.rate 0.0064347618). 28 men's/unisex clothing styles by code (belt and cap out; two women's editions of 3115 and 3215 collapse into the men's codes). return_styles.csv has 28 rows of 28. Composition is stated on 12 of 28 (cotton blends, 65% Memphis or Texas / 35% Zimbabwe, or 100% Zimbabwean); the other 16 are ND. Row filled: natural 42.9, synthetic 0, cellulosic 0, spandex 0, shape one, colourway_ratio 38/28, status partial (coverage 43%). Tee, polo, sweater, dress pants and shoes NONE confirmed against the full feed (press says tees are sold only in the Kojima shop). Dials: fuss +2, golffice -1, status 3 (all basis (b), low), logo 3 (3 pages viewed, small tabs and labels), sail NA (8 pages and 40 products named); whitet, shoes and denim re-counted on the census; 38 rows. Store address: 1-10-17 Ajino, Kojima (press, matches the brand's legal notice). Tech: NONE across 40 bodies. Signature product: the brand calls the 13.5oz fabric "signature". Pronunciation from kana in press. Feed tags name SHINYA MILL (2 listings), factory-tochigi (belt) and factory-mie (5180): added to named_mills/named_makers; craft stays 2. Stockists re-verified: 59 of 59 match the partners page; own doors: 1 (Kojima), US 0. Quote: a Japanese founder line from Kurashiki Keizai Shimbun, press, for Sebastian to rule on.
+
+**Still open, and why.** (1) Men's listing URLs: the site has no men's collection and no gender field (only 2 listings tagged womens); unisex tag pages given, /jacket includes those 2. (2) Vinted ids and Grailed designer URL: vinted.com/catalog, vinted.com/brands, grailed.com/designers/omoto-denim and a Grailed listing all refused (client_error). (3) B Corp and GOTS left for a person. (4) 16 styles with no stated composition (ND by rule). (5) Care text exists on only 2 of 40 pages. (6) Store hours conflict in press (10:00 vs 11:00 open). Instagram and X not read.
+
+**Rows written / styles total: 28 / 28.**
+
 ## TCB
 
 **Brand and scope.** TCB (TCB JEANS, "Two Cats Brand" / "Taking Care of Business"), Kojima, Kurashiki, Okayama. Own site tcbjeans.com; English shop tcbjeans.myshopify.com (JPY only, no country selector, confirmed in brief); Japanese shop tcbjeans.stores.jp (home page read only). The brand writes its mark "TCB JEANS" on shop pages and "TCB" in the name story; used "TCB" per brief. Status: **partial**.
@@ -84,6 +113,12 @@ Composition percentages and full style censuses (fetch tools truncate product fe
 
 **Out of scope noticed.** Dates on tcbjeans.com news posts run to 2026/11/07, a day after the read date (probably site time zone). Brand calls the 50's jeans its "flagship" (Reebok product page) and Handyman Pants "one of its flagship models"; it never says signature, standard or best seller, so `signature_product` is NONE for Sebastian to rule. Quote used is the About-us tagline; a founder line is on /crews ("I'd like to be Colonel Sanders in the denim world", Japanese original given there, page dated 2020).
 
+### Follow-up 6 Nov (second pass)
+
+**Closed.** Feed census: tcbjeans.myshopify.com/products.json returned 90 unique products in one page (Shopify.currency.rate 0.00644 JPY to USD display rate; prices are yen). Removed 17 (gift card, suspenders, kids x2, Reebok shoe, towel, 6 hats, bandana, apron, bag, Youth Jacket and Norma Jeans as women's), leaving **73 men's/unisex clothing styles** (earlier estimate 69 was low). return_styles.csv now has **73 rows written of 73 styles**. Composition: 38 state a fibre (16 with a percentage, 22 name cotton or linen with no percentage, treated as composition per the fibre rules, lead_pct 100 with a note), 35 are ND (cloth name only). Natural 50.7%, synthetic 1.4% (one T/C polyester-cotton lounge jacket, no ratio so lead_pct ND), cellulosic 0, spandex 0, shape one, colourway ratio 73/73 (every colour or cloth variant is its own product). Dials: 38 rows, no NC. fuss +1, golffice +1, status 3 (all basis (b), low); sail NA (pages named in the row); comfort, logo, denim, workwear, western refreshed with counts. Dial pages: 73 descriptions plus 12 product pages opened. Signature product: the brand's own page says "Our most popular model : TCB 50's Jackets", so the 50's Jacket is proposed. Pronunciation: brand gives none; the two meanings of the name are quoted. Care text: none on any page (0 of 73); only FAQ advice is six months unwashed. Tech: no named or owned fabric on 73 descriptions, NONE. Own doors (1 factory shop) and stockists (1 + 42 Japan + 29 overseas rows after the PTC-MART duplicate) re-verified on tcbjeans.com/shop; nothing to add.
+
+**Still open, and why.** Status stays partial: 38 of 73 (52%) state a fibre, under the 60% bar; the rest are truly silent. vinted_brand_ids NC: vinted.com/catalog refused (client_error) and no brand id turned up in search. Grailed: grailed.com/search refused (client_error); the designer URL grailed.com/designers/tcb-jeans comes from a web search result and was not opened. B Corp and GOTS left as they were (need a person). Styles that "name cotton without a percentage" rest on my reading of narrative copy; Sebastian may prefer ND there.
+
 ## Seuvas
 
 **Status: partial.** Written 2026-11-06 from seuvas.jp/en only (WebFetch/WebSearch; no browser).
@@ -99,4 +134,22 @@ Composition percentages and full style censuses (fetch tools truncate product fe
 **Prices.** JPY only, not converted; no US storefront. Tee low (5,390) is a limited deadstock item. No polo, jeans, knit sweater (crew sweatshirts only) or shoes in the listing, so NONE. Dress shirt is single (only BD shirt); pants are chinos; outerwear excludes shirt-jackets.
 
 **Out of scope noticed.** Retailers stocking Seuvas (Flaneurs, Self Edge, Blue Owl, Franklin & Poe, Haku, Kafka Mercantile) are retailers, not brand-listed stockists. Homepage lists "Coming soon" page for the waffle-check trucker. Natural-dye partner HOWA CO. (Okayama) and +botao buttons (Amakusa) are named in the journal.
+
+### Follow-up 6 Nov (second pass)
+
+**Method.** Browser tab read of seuvas.jp only, plus WebFetch. /products.json now reads in full (66 records: 65 garments plus a "Shipping cost" record; earlier "truncated" was wrong). 65 listing handles match /collections/all. Collapsing colourway, length and dye listings by style code gives **49 styles**.
+
+**Closed.**
+- Dials: all 38 have a score or NA. fuss +1 (garments, low), whitet 3 (CREW NECK T-SHIRT seen: white, deadstock cloth, one-side seam; medium), logo 1 (images of 16 products and 30 lookbook shots show no outer mark; medium), golffice 0 (garments, low), status 2 (marks and price, low), sail NA (65 titles/bodies, Concept, home, lookbook, journal read). synth raised 0 to 1 (ZEUVAS JACKET is cotton-nylon ripstop). Product pages: 32 (16 text + 16 images) plus all 65 bodies.
+- return_styles.csv: **49 rows written of 49 styles**; 26 state a fibre (53%, so status stays partial). Natural 53.1%, synthetic 0, cellulosic 0, spandex 0, shape one. Fibre percentages appear on only 3 styles (wool shirt, alpaca coach, linen shirt, each 100%).
+- Pronunciation ソウバス (sōbasu); signature_product = LINEN OPEN COLLAR SHIRT ("SEUVAS standard", 定番); lookbook men's: yes; tech proposed 1; men's listing URLs: gender not separable, unisex collection URLs given; feed_currency_rate set.
+- Care text: none exists on any listing body or checked page (so none to quote).
+- Own doors and stockists: none listed anywhere the brand controls; kept NONE with pages named.
+
+**Open and why.**
+- vinted_mens_url / vinted_brand_ids: vinted.com/catalog?search_text=seuvas refused (client_error). grailed_url: grailed.com/shop?query=seuvas refused (client_error).
+- B Corp and GOTS: left as instructed (need a person).
+- Price basis: US-located browser gets a USD store (tee $41, coverall natural $251, alpaca coach $410); price cells are still pass-1 JPY. Caller to decide.
+- Lead fibre for L/C and C/W styles taken from the title order; percentages unstated on 23 of 26 compositions.
+- Founding year conflict (2001 own journal vs 2017 disco) unchanged.
 
