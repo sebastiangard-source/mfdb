@@ -143,24 +143,26 @@
  },
  {
   "n": "Drinkwater's",
-  "a": "2067 Massachusetts Ave",
+  "a": "2067 Massachusetts Avenue",
   "c": "Cambridge",
   "s": "MA",
   "z": "02140",
   "k": "s",
   "t": "menswear specialist",
-  "ub": 2,
+  "ub": 4,
   "bt": 30,
   "o": {
-   "s": "Gary Drinkwater came up through visual merchandising and then spent formative years at Louis Boston under Murray Pearlstein, traveling with him on buying trips; he also met his wife Teresa Borges there. When he told a mentor in 2003 that he wanted to open a tailored menswear store, the reply was that he must be out of his mind, because menswear was weak and tailoring weaker. They shook hands on it anyway, and by August 2004 Drinkwater and Borges had opened in Porter Square, in the Henderson Carriage Repository, a five-storey brick building the Henderson brothers rebuilt in 1892 to store and show carriages. During the 2008 downturn and again through the Covid closures, customers bought large gift certificates simply to keep the shop trading.",
+   "s": "Gary Drinkwater opened Drinkwater's in Porter Square, Cambridge, in August 2004 and runs it with his wife Teresa, who is his business partner. The shop sells men's clothing, from contemporary sportswear to suits, with made-to-measure suits, sport coats and custom shirts. Its About page names Paraboot as the shoe maker it carries and says the shop has been a Boston Magazine Best of Boston and Improper Bostonian Boston's Best winner almost since it opened. Its online store lists 47 brand names, among them its own Drinkwater's labels. Gary has said he wants to keep a single location.",
    "f": "2004",
-   "w": "Gary Drinkwater and Teresa Borges",
-   "ot": "Independent, family-owned",
-   "d": "It is the only store in America authorised to repair Paraboot shoes, and its made-to-measure shirt program has ranked sixth worldwide by units.",
-   "u": "https://www.cambridgeday.com/2025/10/07/how-porter-squares-drinkwaters-built-a-community-one-suit-at-a-time/",
-   "sn": "Cambridge Day",
+   "w": "Gary Drinkwater; Teresa Drinkwater",
+   "ot": "Independent, single-door, owner-run",
+   "d": "Brand list read from the online store's Brands page (47 names, three of them its own labels). Single door; the owner has said he wants to keep one location. Hours: Mon–Fri 10–7, Sat 10–6. 'Kato' on the list may be Hiroshi Kato but the shop gives only 'Kato', so it is not linked.",
+   "u": "https://www.drinkwaterscambridge.com/about-us",
+   "sn": "www.drinkwaterscambridge.com (shop pages)",
    "c": "High"
-  }
+  },
+  "v": "mens_only",
+  "tot": 47
  },
  {
   "n": "Island Pursuit",
@@ -1788,7 +1790,7 @@
   "z": "12205",
   "k": "s",
   "t": "menswear specialist",
-  "ub": 3,
+  "ub": 4,
   "bt": 5,
   "o": {
    "s": "Mark Goldfarb and Tom Fagan were colleagues with decades in the menswear trade between them when they founded Mark Thomas in Albany in 2004, taking the name from their own first names. The store sells traditional and contemporary tailored clothing with Canali from Italy and Jack Victor from Montreal at its center, alongside sportswear, shoes and formalwear, and runs made-to-measure programs through Canali, Jack Victor, Mel Gambert and Individualized Shirts with fitting and tailoring done on site. Its core trade is men who wear suits for work, and long-standing customers who bring their sons in for a first suit. A second store has since opened on Broadway in Saratoga Springs.",
@@ -2308,16 +2310,25 @@
  },
  {
   "n": "City Workshop Men's Supply Co.",
-  "a": "104 Baker St",
+  "a": "104 Baker Street",
   "c": "Maplewood",
   "s": "NJ",
   "z": "07040",
   "k": "s",
   "t": "menswear specialist",
-  "ub": 6,
-  "tot": 74,
-  "v": "https://www.cityworkshopmsc.com/",
-  "src2": "recapture-2026-10-10 shops"
+  "ub": 18,
+  "tot": 77,
+  "v": "mens_only",
+  "o": {
+   "s": "Roger and Josefina Stevens left corporate jobs to open City Workshop Men's Supply Co., starting with denim and American-made brands before adding global ones. Stadium Goods dates the shop to 2015 in West Orange, New Jersey; New Jersey Monthly, in March 2017, described the owners' first year. The shop moved to 104 Baker Street in Maplewood in July 2019. Its Brands menu lists 77 names, including its own City Workshop line. The shop also runs Chain Stitch Hemming, a hemming service, and a women's section called City W.",
+   "f": "2015",
+   "w": "Roger Stevens; Josefina Stevens",
+   "ot": "Independent, husband-and-wife owned",
+   "d": "Brand list read from the shop's Brands menu (77 names, its own label included). The shop opened in West Orange in 2015 and moved to Maplewood in July 2019. Press differs on the opening year (2015 or 2016) and on Josefina's surname. Hours: Tue–Sat 12–5, Sun 12–4. Double RL is counted as RRL and Beams Plus as Beams.",
+   "u": "https://cityworkshopmsc.com/pages/about-us",
+   "sn": "cityworkshopmsc.com (shop pages)",
+   "c": "Medium"
+  }
  },
  {
   "n": "John Hyatt Clothing",
@@ -2418,7 +2429,7 @@
   "z": "19073",
   "k": "s",
   "t": "menswear specialist",
-  "ub": 7,
+  "ub": 8,
   "tot": 40,
   "v": "mens_only",
   "o": {
@@ -2506,7 +2517,7 @@
   "z": "19355",
   "k": "s",
   "t": "menswear specialist",
-  "ub": 3,
+  "ub": 4,
   "tot": 14,
   "v": "http://www.englundsapparel.com/",
   "src2": "recapture-2026-10-10 shops"
@@ -66556,7 +66567,8 @@
    "u": "https://www.britchesconcord.com/about",
    "sn": "www.britchesconcord.com (shop pages)",
    "c": "Medium"
-  }
+  },
+  "ub": 1
  },
  {
   "n": "Charles Men's Shop",
@@ -66569,7 +66581,7 @@
   "src": "stockists_ne_a_2026-11-06",
   "v": "mens_only",
   "tot": 7,
-  "ub": 0,
+  "ub": 1,
   "o": {
    "s": "Charles Anzalone started Charles Men's Shop in Batavia, New York in 1947, and the shop has been family owned and operated since. David Howe and Donald Brown run it today. A full tailor shop is on the premises, fitting sizes from 38 Regular to 56XL. The shop also rents tuxedos. Its Menswear page names seven lines: 34 Heritage, Bench Craft, Ballin Slacks, Grand River, Enro, Robert Graham and Wigens Caps.",
    "f": "1947",
@@ -66592,7 +66604,7 @@
   "src": "stockists_ne_a_2026-11-06",
   "v": "mens_only",
   "tot": 16,
-  "ub": 6,
+  "ub": 7,
   "o": {
    "s": "Mark Goldfarb and Tom Fagan founded Mark Thomas Men's Apparel in Albany in 2004; between them they have over forty-five years in men's clothing. The shop is locally owned and described on its site as a family business. A second shop, at 385 Broadway in Saratoga Springs, was announced in August 2021 (Saratoga TODAY). Made-to-measure programs come from Canali and Jack Victor, and tailoring is done in house at the Albany shop at 155 Wolf Road. The Brands page lists 16 lines, including Canali, Brioni, Jack Victor and Robert Graham.",
    "f": "2004",
@@ -66615,7 +66627,7 @@
   "src": "stockists_ne_a_2026-11-06",
   "v": "multigender",
   "tot": 34,
-  "ub": 5,
+  "ub": 6,
   "o": {
    "s": "O'Connell's was established in 1959 and is a family-owned and -operated traditional clothier in Buffalo. The site's About page is signed by Bernhard John Huber, John Huber and Ethan A. Huber. It offers men's, women's and young men's clothing made in the USA, Canada and the UK, including three-button natural-shouldered sport coats and suits. The shop offers free alterations and custom suits, sport coats, topcoats and dress shirts, and is an agent for Barbour jacket restoration. Its Brands page lists 34 lines, including Alden, Barbour, Allen Edmonds, Quoddy and Schott NYC.",
    "f": "1959",
@@ -66638,7 +66650,7 @@
   "src": "stockists_ne_a_2026-11-06",
   "v": "mens_only",
   "tot": 14,
-  "ub": 1,
+  "ub": 2,
   "o": {
    "s": "Valentin's Clothiers & Custom Tailoring is at 3400 Monroe Avenue, Suite 4, in Rochester. Valentin trained in Europe at a tailoring college in Ukraine, earning a five-year degree as Clothing Designer and Master Tailor, and the site cites more than 30 years as a custom tailor. His specialties are shirts, slacks, topcoats, sport jackets and classic European-styled suits. The Suppliers page shows 14 brands, including Hickey Freeman, Allen Edmonds and Bresciani.",
    "f": "Not stated by the shop",
@@ -66649,5 +66661,165 @@
    "sn": "valentinsclothiers.com (shop pages)",
    "c": "Medium"
   }
+ },
+ {
+  "n": "Alter",
+  "a": "140 Franklin Street",
+  "c": "Brooklyn",
+  "s": "NY",
+  "z": "11222",
+  "k": "s",
+  "t": "boutique",
+  "v": "multigender",
+  "o": {
+   "s": "Tommy Cole and Roy Caires opened Alter on Franklin Street in Greenpoint, Brooklyn, in February 2007, with a small selection of vintage and indie designer goods. The shop has since moved to a larger space on the same block, at 140 Franklin Street on the corner of Greenpoint Avenue. Its About page says the stock comes from nearly 100 brands and makers, for men and women, and calls it an independent, LGBTQ, family owned business. Before the shop, Cole and Caires designed reconstructed vintage pieces from 2004, according to New York Magazine. Alter opened a second store in Silver Lake, Los Angeles, in 2018, according to Uncover LA.",
+   "f": "2007",
+   "w": "Tommy Cole; Roy Caires",
+   "ot": "Independent; the About page calls it an independent, LGBTQ, family owned business",
+   "d": "The shop publishes no brand list, only 'nearly 100 brands and makers', so no brands are linked from its own list. Its Brooklyn page says 'Since 2017'; the About page and press say 2007. Opened a second store in Silver Lake, Los Angeles, in 2018 per press; not confirmed. Hours: daily 11–6.",
+   "u": "https://alter-brooklyn.myshopify.com/pages/about-us",
+   "sn": "alterbrooklyn.com (shop pages)",
+   "c": "Medium"
+  },
+  "src": "stockists_ne_b_2026-11-06",
+  "ub": 1,
+  "h": "Greenpoint"
+ },
+ {
+  "n": "Bank + Main",
+  "a": "585 Route 28",
+  "c": "Harwich Port",
+  "s": "MA",
+  "z": "02646",
+  "k": "s",
+  "t": "boutique",
+  "v": "multigender",
+  "o": {
+   "s": "Bank + Main is a clothing shop at 585 Route 28 in Harwich Port, Massachusetts, selling clothing for men, women and children. It is one of three shops run by the group that began as Chatham T Co. in 1979. The other two, Chatham Clothing Bar at 534 Main Street and Chatham Kids at 584 Main Street, are both in Chatham. The group's About page names Sandy Wycoff as owner and credits her with more than 40 years in retail. The shop's page says it is open daily.",
+   "f": "1979 (parent group, Chatham T Co.)",
+   "w": "Sandy Wycoff",
+   "ot": "Part of a group: Chatham T Co. runs three shops (Chatham Clothing Bar, Chatham Kids, Bank + Main)",
+   "d": "The shop has no site of its own; its page sits on the Chatham Clothing Bar site, with no brand list, hours or opening year. Farafield writes the name 'Bank + Maine'. Sister shops Chatham Clothing Bar (534 Main Street) and Chatham Kids (584 Main Street) are in Chatham. Sandy Wycoff also co-owns The Woolen Mill Clothier in Meadville, Pennsylvania.",
+   "u": "https://chathamclothingbar.com/pages/about-us",
+   "sn": "chathamclothingbar.com/pages/bank-main (shop pages)",
+   "c": "Medium"
+  },
+  "src": "stockists_ne_b_2026-11-06",
+  "ub": 1
+ },
+ {
+  "n": "Dune + Salt",
+  "a": "92 Bridge Avenue",
+  "c": "Bay Head",
+  "s": "NJ",
+  "z": "08742",
+  "k": "s",
+  "t": "boutique",
+  "v": "multigender",
+  "o": {
+   "s": "Dune + Salt describes itself as owned and run by a family with more than 50 years in apparel and retail. It opened its first store, 'the GIRT', in Sea Girt, New Jersey, in 2019 and has since opened stores in Spring Lake, Bay Head and Fair Haven. The Bay Head shop is at 92 Bridge Avenue and carries men's and women's apparel and accessories. The shop's Brands page lists 73 names, drawn from the USA, Europe and Japan according to its Our Story page.",
+   "f": "2019",
+   "w": "A family (not named on the shop's site)",
+   "ot": "Family-owned and run group of NJ stores (shop's own description)",
+   "d": "Brand list read from the shop's Brands page, 73 brands after collapsing men's and women's entries. The Bay Head opening year and the family's name are not on the shop's site. Sister doors: Spring Lake, Fair Haven and the first store, the GIRT, in Sea Girt. A Dune + Salt in Hoboken is not tied to this group by the shop's site.",
+   "u": "https://www.duneandsalt.com/pages/our-story",
+   "sn": "www.duneandsalt.com (shop pages)",
+   "c": "Medium"
+  },
+  "tot": 73,
+  "src": "stockists_ne_b_2026-11-06",
+  "ub": 16
+ },
+ {
+  "n": "Edit Style Lounge",
+  "a": "47 State Street",
+  "c": "Newburyport",
+  "s": "MA",
+  "z": "01950",
+  "k": "s",
+  "t": "boutique",
+  "v": "multigender",
+  "o": {
+   "s": "The home page of Edit Style Lounge names Kim Lively as its owner and curator. The shop sells clothing, shoes and accessories for women and men from 47 State Street in Newburyport, Massachusetts. Its home page says the stock is a curated set of style edits, and it features handmade shoes from around the world. Its online store carries 211 vendor names, one of them its own Edit Style Lounge label.",
+   "f": "Not stated by the shop",
+   "w": "Kim Lively",
+   "ot": "Owner-run; structure not stated (home page names Kim Lively as owner and curator)",
+   "d": "Thin record: the shop's site gives no address, hours or About page, so the street address comes from Google, Yelp and MapQuest. The list is the online store's product vendor field (211 names with duplicates and non-brands), a snapshot, not a roster. Mostly women's.",
+   "u": "https://editstylelounge.vip/",
+   "sn": "editstylelounge.vip (shop pages)",
+   "c": "Low"
+  },
+  "tot": 211,
+  "src": "stockists_ne_b_2026-11-06",
+  "ub": 8
+ },
+ {
+  "n": "North Fork Apothecary",
+  "a": "37070 Main Road",
+  "c": "Cutchogue",
+  "s": "NY",
+  "z": "11935",
+  "k": "s",
+  "t": "boutique",
+  "v": "multigender",
+  "o": {
+   "s": "Stephanie, who signs the About page, writes that her father, an architect, made the North Fork his place and that the shop sits at the gateway to the family home on Nassau Point. The shop occupies a building she says has brought the community together for the past century. It sells women's and men's clothing, accessories and apothecary goods, and describes itself on Google as a modern general store. James Lane Post named Stephanie Sack in a July 2023 profile of the shop.",
+   "f": "Not stated by the shop",
+   "w": "Stephanie Sack",
+   "ot": "Owner-run; family-linked building (structure not stated)",
+   "d": "The shop calls itself a modern general store, with apothecary goods and home goods beside clothing. No hours on its site. The list is the online store's vendor field (41 names with non-brands), a snapshot, not a roster.",
+   "u": "https://northforkapothecary.com/pages/about-us-1",
+   "sn": "northforkapothecary.com (shop pages)",
+   "c": "Medium"
+  },
+  "tot": 41,
+  "src": "stockists_ne_b_2026-11-06",
+  "ub": 6
+ },
+ {
+  "n": "ONS Clothing",
+  "a": "201 Mulberry Street",
+  "c": "New York",
+  "s": "NY",
+  "z": "10012",
+  "k": "s",
+  "t": "boutique",
+  "v": "multigender",
+  "o": {
+   "s": "ONS began in 2016 as One Nice Shirt, a menswear brand, according to its About page. It has since added women's wear and home goods, and opened One Nice Shop, a concept store at 201 Mulberry Street in New York that shows brands the company chose to fit its approach. The shop's Locations page also lists stores in Hong Kong. Its online store carries 101 vendor names, among them its own ONS label.",
+   "f": "2016",
+   "w": "Not stated by the shop",
+   "ot": "Not stated by the shop",
+   "d": "Both an own label (began in 2016 as One Nice Shirt) and a multi-brand shop. The list is the online store's vendor field (101 raw names with case duplicates), a snapshot, not a roster. Three further doors in Hong Kong. Hours: Mon–Sat 11–7, Sun 12–6.",
+   "u": "https://onsclothing.com/pages/about-ons",
+   "sn": "onsclothing.com (shop pages)",
+   "c": "Medium"
+  },
+  "tot": 101,
+  "h": "SoHo and NoLIta",
+  "src": "stockists_ne_b_2026-11-06",
+  "ub": 9
+ },
+ {
+  "n": "The Woolen Mill Clothier",
+  "a": "257 Chestnut Street",
+  "c": "Meadville",
+  "s": "PA",
+  "z": "16335",
+  "k": "s",
+  "t": "boutique",
+  "v": "multigender",
+  "o": {
+   "s": "Sisters Sue and Sandy Wycoff grew up in Meadville and as children helped their mother, Dorothy Wycoff, run the Tik Tok Shop, a women's clothing store. Sandy later moved to Cape Cod and opened Chatham T Co., which became three shops, and Sue returned to Meadville in late 2009. The sisters bought 257 Chestnut Street in June 2016, a building put up in 1867 by the Huidekoper Bros as sales and office space for the Meadville Woolen Mills. The Woolen Mill Clothier opened there in summer 2017, selling women's and men's clothing, accessories, shoes and gifts for young children.",
+   "f": "2017",
+   "w": "Sue Wycoff; Sandy Wycoff",
+   "ot": "Independent, family-owned (sisters)",
+   "d": "The shop shows 'just some' of its brands as unlabeled logo images, so no brands are linked from its own list. Hours: Mon–Sat 10–5. Sandy Wycoff also owns Bank + Main in Harwich Port.",
+   "u": "https://www.woolenmillclothing.com/new-index",
+   "sn": "www.woolenmillclothing.com (shop pages)",
+   "c": "High"
+  },
+  "src": "stockists_ne_b_2026-11-06",
+  "ub": 1
  }
 ]

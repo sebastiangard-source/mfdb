@@ -1,0 +1,654 @@
+# NOTE — stockists_ne_b_2026-11-06, full return (rows 1–10)
+
+Rows 1–3 were the pilot you approved; rulings applied. Rows 4–10 researched 6 Nov 2026 in the browser, read only. `return.csv` has all 10 rows, no empty cells, and every name in `matched_brands` checked against `canonical_keys.txt`.
+
+## What was checked
+Each shop's own site (About, Contact/Locations, Brands page or online-store vendor field), plus a small amount of press for owners and dates. `reconcile.py` run on every list.
+
+## What was not reached
+- **No brand list at all:** Alter (row 1), Bank + Main (row 2), The Woolen Mill Clothier (row 10; its Look Book says "just some" brands and shows them as unlabeled logo images). NC on count, ub and matched.
+- **No hours on the shop's own pages:** Bank + Main, Dune + Salt, Edit Style Lounge, North Fork Apothecary. NC; third-party hours are in each row's note.
+- **No owner named:** ONS Clothing (NC). Dune + Salt names only "a family".
+- **Opening year not found:** Bank + Main, Dune + Salt (Bay Head), Edit Style Lounge, North Fork Apothecary.
+- One Business Journals article (Marcus Blaque) was blocked here; I did not work around it. Several press facts were read through page summaries, not full articles; each row's note says which.
+
+## Rows that need your ruling
+- **Marcus Blaque (row 7), Low confidence:** the Troy door is marked "LAST CALL" on the shop's own home page, and an Albany Business Journal headline (20 Sep 2026) says the owner is scaling back. It may be closing or closed. It is also a women's boutique, with a men's shop (Britches of Latham) at its Latham door.
+- **Edit Style Lounge (row 6), Low confidence:** its site gives no address, hours or About. Address from Google, Yelp and MapQuest, matching Farafield.
+- **Vendor-field brand lists (rows 6, 7, 8, 9):** these shops have no Brands page, so the list is the online store's product vendor field. It contains duplicates, spelling variants, own labels and non-brands. Kept unsifted, raw count given. Tell me if a vendor field should count as the shop's own list or go back to NC.
+- **Matches made by hand** (reconcile.py missed them): Polo RL → Polo Ralph Lauren (row 5); Peregrine → Peregrine Clothing (row 9, please confirm). Script-suggested rewrites accepted: Merz b. SHWANEN, Samsoe Samsoe, Johnston and Murphy, and case-only changes.
+- **Not matched, for you:** "Kato" at Drinkwater's (may be Hiroshi Kato; the shop gives only "Kato"). "Far Afield" (Farafield itself) is stocked by Drinkwater's, City Workshop, Dune + Salt, Edit Style Lounge and ONS and is not in `canonical_keys.txt`.
+- **North Fork Apothecary (row 8)** is typed `other`: it calls itself a modern general store; clothing is one part.
+
+## Contradicted or corrected
+- Row 1: shop's Brooklyn page says "Since 2017"; About and press say 2007. Used 2007.
+- Row 2: Farafield "Bank + Maine"; shop writes "Bank + Main". ZIP 02646.
+- Row 3: opening 2015 (Stadium Goods) vs first year 2016 (NJ Monthly); Josefina's surname Stevens vs Ruiz.
+- Row 5: Spring Lake address 1311 3rd Ave on the shop's site, 1309 on Google.
+- Row 7: shop and Downtown Troy BID say 2008; a Business Journals snippet says "nine years ago".
+- Row 10: Farafield "The Woolen Mill"; masthead "Woolen Mill Clothier". Used "The Woolen Mill Clothier".
+
+## Cross-shop findings
+- Sandy Wycoff owns Bank + Main (row 2) and co-owns The Woolen Mill Clothier (row 10) with her sister Sue.
+- ONS has three Hong Kong doors. Dune + Salt has three NJ doors plus the Sea Girt GIRT; a Hoboken Dune + Salt may or may not be the same company.
+
+## What the brief got wrong
+- `return_template.csv` and `schema.json` differ on columns and type values; followed your rulings.
+- The brief says to take hours from the shop's own pages; four shops publish none, so NC is common.
+- The brief's `brand_list_source` options do not cover "online store vendor field"; I wrote it out in full.
+
+## Full brand lists (unsifted)
+
+### Alter
+No list published.
+
+### Bank + Main
+No list published.
+
+### City Workshop Men's Supply Co.
+Source: site Brands menu, 77 entries; 17 matched (reconcile lines plus your two rulings).
+
+- (MALIN+GOETZ)
+- 3sixteen
+- Alden  → matched as Alden
+- Alpha Industries
+- Anonymous Ism
+- Barbour  → matched as Barbour
+- Beams Plus  → matched as Beams (ruled)
+- Birkenstock  → matched as Birkenstock
+- Blackthorn Denim
+- Bleu de Chauffe
+- Blundstone  → matched as Blundstone
+- CHUP Socks
+- City Workshop
+- C.O.F. Studio - Circle of Friends
+- Dehen 1920
+- Double RL  → matched as RRL (ruled)
+- druthers NYC
+- Duke Cannon Supply Co.
+- East Harbour Surplus
+- Edwin Japan
+- Engineered Garments
+- Far Afield
+- Filson  → matched as Filson
+- FITTED UNDERGROUND
+- Freenote Cloth  → matched as Freenote Cloth
+- Full Count
+- Fulton & Roark
+- HEIMAT
+- Hidden Forts
+- Hiroshi Kato  → matched as Hiroshi Kato
+- HOWLIN'
+- Imogene + Willie  → matched as Imogene + Willie
+- Iron Heart
+- Jackman
+- Jane Motorcycles
+- Knickerbocker
+- Lee Denim
+- Left Field NYC
+- Levi's  → matched as Levi's
+- Merz b. Schwanen  → matched as Merz b. Schwanen
+- MOMOTARO JEANS
+- Mr. Fatman
+- Naked & Famous Denim
+- Nudie Jeans Co  → matched as Nudie Jeans
+- OBBI Good Label
+- Orgueil
+- orSlow
+- Outclass
+- Outdoor Fellow
+- Padmore & Barnes
+- Pig & Hen
+- Polo Ralph Lauren  → matched as Polo Ralph Lauren
+- Porter-Yoshida & Co.
+- Power Goods
+- Pure Blue Japan
+- Red Wing Shoes  → matched as Red Wing
+- Relwen
+- Road To Nowhere
+- Rogue Territory
+- RoToTo
+- Sable
+- Samurai Jeans
+- SECRID Wallets
+- Service Works
+- Shinola
+- Shoes Like Pottery
+- Stevenson Overall Co.
+- Studio D'Artisan
+- TAION
+- Tellason  → matched as Tellason
+- The Flat Head
+- The James Brand
+- UES
+- Universal Works  → matched as Universal Works
+- Ursa Major
+- Veja
+- WESN
+
+### Drinkwater's Cambridge
+Source: shop.drinkwaterscambridge.com/brands/, 47 entries; 2 matched.
+
+- Acca Kappa
+- Alan Paine
+- Barnstormer
+- Calabrese
+- Desoto
+- Dion
+- Drinkwater's
+- Drinkwater's X Sartorial
+- Drinkwaters
+- Empire
+- Engineered Garments
+- Eucalan
+- Far Afield
+- Gallia
+- GarbStore
+- Gherardi
+- Handvaerk
+- Harley
+- Hestra
+- Hiltl
+- Imperial Embroiderer
+- Ireland's Eye
+- Joshua Ellis
+- Kamakura
+- Kardo
+- Kato
+- Kestin
+- L'Impermeabile
+- london
+- Lucky Bastard
+- Majestic International USA
+- masons
+- Moon
+- New England Shirt Co.
+- Paraboot
+- Pietra Salata
+- Porto
+- Portuguese Flannel
+- Raffi  → matched as Raffi
+- Raleigh Denim Workshop
+- Samuelsohn
+- Sartoria Partenopea
+- Schneider's
+- Southwick
+- Unfeigned
+- Universal Works  → matched as Universal Works
+- W. Kleinberg
+
+### DUNE + SALT
+Source: duneandsalt.com/pages/brands, 73 brands after collapsing men's/women's entries (shop writes them in capitals; MEN'S/WOMEN'S tags removed); 15 matched.
+
+- 04651/
+- ACARIA STUDIOS
+- ACE RIVINGTON
+- ALEX CRANE  → matched as Alex Crane
+- ALEX MILL  → matched as Alex Mill
+- AMERICAN OPTICAL
+- AMUNDSEN
+- ANNABO
+- ASPESI  → matched as Aspesi
+- BARBOUR  → matched as Barbour
+- BARE KNITWEAR
+- BARTON PERREIRA
+- BIG ROCK CANDY MOUNTAINEERING
+- BRAZEAU TRICOT
+- CHIMALA
+- CLOSED  → matched as Closed
+- DEAR FRANCES
+- DIEMME FOOTWEAR
+- DOFFER BOYS
+- EAST HARBOUR SURPLUS
+- EDWIN JAPAN
+- ELEVEN SIX
+- FAR AFIELD
+- FILSON  → matched as Filson
+- FLOWER MOUNTAIN
+- FREECITY
+- FREENOTE CLOTH  → matched as Freenote Cloth
+- FUJITO
+- G1 GOODS
+- GALLIA KNITWEAR
+- GIRLS OF DUST
+- GOOD & WELL SUPPLY CO
+- H-UNIT
+- HARTFORD  → matched as Hartford
+- HEIMAT
+- HESTRA
+- HOPE FOR FLOWERS
+- IL BISONTE
+- IMOGENE + WILLIE  → matched as Imogene + Willie
+- JULIE ROFMAN
+- KALASTYLE
+- KEPANI
+- KUNSTEN CLOGS
+- LA PAZ
+- LAMARQUE
+- LE BONNET
+- M.PATMOS
+- MAJESTIC FILATURES
+- MERZ b. SHWANEN  → matched as Merz b. Schwanen
+- MONOSTEREO
+- MOUSSY
+- MYSTIC KNOTWORKS
+- N.B. GOODS
+- NANAMICA  → matched as Nanamica
+- NN07  → matched as NN07
+- ONCEPT
+- PAS DE CALAIS
+- POLO RL  → matched as Polo Ralph Lauren (hand)
+- PRESIDENTS
+- RELWEN
+- ROTOTO
+- SAGE DE CRET
+- SAVE KHAKI UNITED  → matched as Save Khaki United
+- SAVE THE DUCK
+- SECULAR
+- SLOPPY SECONDS
+- SUNDEK
+- SURFERS JOURNAL
+- SURFSIDE SUPPLY CO.
+- UTZON
+- V::ROOM
+- W. KLEINBERG
+- WYTHE  → matched as Wythe
+
+### Edit Style Lounge
+Source: online store vendor field, 211 entries; 7 matched.
+
+- 0039 Italy
+- 11 Uptown
+- 209 West 38
+- 7 Diamonds
+- A Fish Named Fred
+- A Pocket of Posies
+- AMB Designs
+- Abroad Modern
+- Accity
+- Adore
+- Alex Crane  → matched as Alex Crane
+- Amanda Maria
+- American Dreams
+- Amy Lynn
+- Anna Kaci
+- Anna-Kaci
+- Aratta
+- Astrid
+- Atom Label
+- Badgley Mischka
+- Bags 2 Slay
+- Bed Stu
+- Bellroy
+- Bernie Mev
+- Beulah Style
+- Beyond Apparel
+- Bighit
+- Billy Reid  → matched as Billy Reid
+- Billybelt
+- Bl-nk
+- Bourbon Cousins
+- Boyfriend Perfume
+- Brunn & Stengade
+- Bucket List
+- Bugatchi
+- Bugatti
+- CRWTH
+- Caballero
+- Cadelle Leather
+- Cala
+- Calleen Cordero
+- Calling June
+- Campomaggi
+- Caterina Lucchi
+- Central Park West
+- Charleston Shoe Co
+- Cherry Paris
+- Chie Mihara
+- Chloe & Lex
+- Choklate Paris
+- Clara Sunwoo
+- Clara The Label
+- Cotelac
+- Crescent
+- Crystalinx
+- Curated Basics
+- DIBA TRUE
+- Dario Beltran
+- Day & Mood
+- Dolce Vita
+- Donna Morgan
+- Dress Forum
+- Dress the Population
+- Drew
+- Edit Style Lounge
+- Elana Kattan
+- Eva Rose Clothing
+- Eva franco
+- Exquise
+- FLYING TOMATO
+- Far Afield
+- Fif
+- Fifteen Twenty
+- Flag & Anthem
+- Flora Bea
+- Frank Lyman
+- Frye  → matched as Frye
+- Fundamental Coast
+- G.D.S
+- Good Man
+- Gracia
+- Guadalupe Designs
+- Hampton Wash
+- Handbag Express
+- Handbag Factory Corp
+- Hope For Flowers
+- Hutch
+- INA
+- ITALIAN'S LEATHER
+- Ilse Jacobsen
+- Intentionally Blank
+- JIJOU CAPRI
+- JS71
+- Jenny Krauss
+- Jessie Liu
+- Johnston and Murphy  → matched as Johnston & Murphy
+- Josh V
+- Joyfolie
+- KOMPANERO
+- Kim White
+- Krisa
+- La Miel
+- La Plage
+- Latico Leathers
+- Lavender Brown
+- Lilla Lane
+- Liverpool
+- London TImes
+- Looks Like Summer
+- Love Rio
+- Lula Natura
+- Luxely
+- MAC
+- MAC Mens
+- MILANO AMOUR
+- MKS America
+- MLO
+- MLV Portuguese Shoes
+- Maggy
+- Maggy London
+- Majestic Filatures
+- Malej
+- Mandum Mallorca
+- Maria Pavan
+- Marie Laure Chamorel
+- Market of Stars
+- Mason Cruz
+- Mauritius
+- Mauritius Mens
+- Maven
+- Maven West
+- Mccolin
+- Melchior & Balthazar
+- Melie Bianco
+- Melissa Nepton
+- Mes Demoiselles
+- Milio Milano
+- Mirto
+- Moda Luxe
+- Monica Nera
+- Moqette
+- Multitudes
+- Muse
+- NIBI MTK
+- NU Denmark
+- Nano
+- Nary
+- New Society
+- New Yorker's Apparel
+- Nuvula
+- Oky
+- One33 Social
+- Otra
+- Pact  → matched as Pact
+- Patricia Nash
+- Peter Grimm
+- Pistil Designs
+- Productseeker
+- Rails  → matched as Rails
+- Regency
+- Renee C.
+- Ricki designs
+- River +Sky
+- STREET LEVEL
+- Seajure
+- Shebobo
+- Shoto
+- Sondra Roberts
+- Spitfire Girl
+- St Armands Designs of Sarasota
+- Stark X
+- Stateside
+- Steel and Barnett
+- Stellah
+- Stone Rose
+- Suhkasana
+- Summum
+- Surfside Supply
+- Surfsidesupply
+- Susan Monaco
+- THOMAS & VINE
+- TINA Stephens Italy/Tees By Tina
+- Tanavana
+- Tart Collections
+- Tasc
+- The Good Journey
+- The Normal Brand
+- The Sustainable Watch Company
+- The Winding Road
+- The vintage shop
+- Tiana Designs
+- Twinset
+- UPPDOO
+- Urban Expressions
+- VENTI6
+- Vanilla Monkey
+- Vary
+- Vava by Joy Han
+- Velvet
+- Viereck
+- Volair
+- WASH LAB
+- Wax London  → matched as Wax London
+- We Are All Smith
+- We are all Smith
+- Wildwood Oyster Co
+- Willa Story
+- YedOmi Jewelry
+- Zero Degrees Celsius
+- Zibi London
+- c
+
+### Marcus Blaque
+Source: online store vendor field, 27 entries; 5 matched.
+
+- AG DENIM
+- Amanda Uprichard
+- Bella Dahl
+- Brochu Walker
+- Brodie
+- Cami NYC
+- Central Park West New York
+- French Connection
+- Hutch
+- Jumper 1234
+- L'AGENCE
+- LEN BELTS
+- Love Token
+- MAC Denim
+- Mac Duggal
+- Marcus Blaque
+- Nation Los Angeles
+- Paige  → matched as PAIGE
+- Rails  → matched as Rails
+- Robert Graham
+- Susana Monaco
+- Tommy Bahama
+- Trina Turk
+- Vince  → matched as Vince
+- Zadig & Voltaire  → matched as Zadig & Voltaire
+- [BLANKNYC]
+- johnston & murphy  → matched as Johnston & Murphy
+
+### North Fork Apothecary
+Source: online store vendor field, 41 entries; 5 matched.
+
+- Andie Swim
+- Augie Haas
+- BARBOUR  → matched as Barbour
+- Bembien
+- By James
+- CADDIS
+- Canvas
+- Child Perfume
+- Christian Louboutin
+- Citizens of Humanity  → matched as Citizens of Humanity
+- Clare V
+- Deborah Feingold
+- Eau d'Italie
+- FACE Stockholm
+- Fair Trade
+- Guaxs
+- Intelligentsia
+- Kara Hoblin
+- Le Bon Shoppe
+- Ligne St. Barth
+- Marine Layer  → matched as Marine Layer
+- Nambe
+- Nassau Point Honey
+- North Fork Apothecary
+- Ophelia & Indigo
+- Pengallan
+- Practical Magic Apothecary
+- Relwen
+- SHED Textile
+- SOKO
+- Sugarfina
+- TROVATA Birds of Paradise
+- Tensira
+- VELVET
+- Vince  → matched as Vince
+- XIRENA
+- Yves Durif
+- Zadig & Voltaire  → matched as Zadig & Voltaire
+- ba&sh
+- blinc
+- zestard-easy-donation
+
+### ONS Clothing
+Source: online store vendor field, 101 entries; 8 matched.
+
+- ARTICLE ONE
+- Ahnu
+- Alienina
+- Almina Concept
+- Alohas
+- American Dreams
+- American Trench  → matched as American Trench
+- Areaware
+- Assouline
+- Astorflex
+- Bellroy
+- Bembien
+- Block Design
+- Blundstone  → matched as Blundstone
+- Bobo Choses
+- Brooklyn Candle
+- Brooklyn Candle Studio
+- CLAE
+- Cahu
+- Castart
+- Clae
+- Craighill
+- Cubitts
+- DRUTHERS
+- Diarte
+- East Pacific Trade
+- Edmmond Studio
+- Edmmond Studios
+- Eledera
+- Eleven Six
+- Escuyer
+- Far Afield
+- Future Classics
+- HIBI MATCH
+- HOWLIN
+- Herskind
+- Hestra
+- Howlin
+- Inoui Editions
+- Intentionally Blank
+- Jumper 1234
+- KLEMAN
+- Kappy
+- Kardo
+- Karhu
+- Kestin
+- Krost
+- Laagam
+- Le Mont St Michel
+- Les Deux  → matched as Les Deux
+- Literie
+- MAKR
+- MENU
+- MIDDLE KINGDOM
+- Mackie
+- Maison Deux
+- Marle
+- Mikoh
+- Munthe
+- Naomi Nomi
+- Norse Projects  → matched as Norse Projects
+- Noyoco
+- O.N.S CLOTHING
+- O.N.S Clothing
+- OAS
+- ONS
+- Olend
+- Olow
+- Oscar Deen
+- Osmology
+- Oswen
+- Our Sister
+- P448
+- PRINTWORKS
+- Percival  → matched as Percival
+- Peregrine  → matched as Peregrine Clothing (hand, confirm)
+- Piecework
+- Printworks
+- Raen
+- Rains
+- Rivedroite
+- Samsoe Samsoe  → matched as Samsøe Samsøe
+- Sandqvist
+- Sessun
+- Sheyn
+- Skall Studio
+- Slowdown Studio
+- Soeur
+- Solid & Striped
+- Spencer Devine
+- Status Anxiety
+- Stella Nova
+- Taion
+- The Jacksons
+- The New Society
+- Topologie
+- Ucon Acrobatics
+- Universal Works  → matched as Universal Works
+- Vagabond
+- Vibi Venezia
+- Wolfum
+
+### The Woolen Mill Clothier
+No full list published (Look Book shows "just some", as logo images).
