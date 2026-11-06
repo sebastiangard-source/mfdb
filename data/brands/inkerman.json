@@ -1,0 +1,284 @@
+{
+ "name": "Inkerman",
+ "band": "accessible",
+ "seat": 384,
+ "dagger": 0,
+ "focus": {
+  "tech": 1,
+  "comfort": 3,
+  "craft": 2,
+  "style": 3
+ },
+ "fabric": {
+  "denim": 1,
+  "cashmere": 1,
+  "linen": 4,
+  "cotton": 3,
+  "wool": 1,
+  "synth": 1
+ },
+ "dials": {
+  "dur": 3,
+  "forg": 3,
+  "fuss": 0,
+  "golffice": 0,
+  "whitet": 1,
+  "logo": 2,
+  "western": 1,
+  "rock": 1,
+  "workwear": 2,
+  "outdoor": 1,
+  "surf": 1,
+  "murica": 1,
+  "ivy": 2,
+  "prep": 4,
+  "shoes": 3
+ },
+ "why": "Footwear and clothing from Nantucket and New York, with loafers, linen jackets and cotton knits made in Portugal, and two stores of its own, in New York and Nantucket.",
+ "origin": "Founded around 2018 in Nantucket, Massachusetts, by Thomas and Will (the brand gives no surnames). The brand dates its first jacket to 2018 and says it started “with a Vespa” eight years ago.",
+ "chan": [
+  "O",
+  "W"
+ ],
+ "conf": "S",
+ "forgc": [
+  3,
+  3,
+  1
+ ],
+ "onething": {
+  "p": "Railway WV Men's Jacket",
+  "u": "https://www.inkermannyc.com/products/railway-wv-mens-jacket-in-french-blue",
+  "n": "The brand calls it “our best selling product ever,” first introduced in 2018, an unlined 520gsm Irish linen chore jacket made by jacket specialists in Porto."
+ },
+ "prices": [
+  [
+   75,
+   75
+  ],
+  [
+   145,
+   195
+  ],
+  [
+   185,
+   195
+  ],
+  null,
+  [
+   145,
+   225
+  ],
+  [
+   225,
+   285
+  ],
+  [
+   495,
+   525
+  ],
+  [
+   275,
+   385
+  ]
+ ],
+ "price_checked": true,
+ "price_range_only": [
+  "T-shirt",
+  "Polo",
+  "Dress shirt",
+  "Dress pants",
+  "Sweater",
+  "Shoes"
+ ],
+ "price_evidence": {
+  "T-shirt": {
+   "lp": "Lobster Picnic Tee",
+   "lu": "https://www.inkermannyc.com/products/lobster-picnic-tee",
+   "hp": "Sailboat American Flag Tee / Whale Skeleton Tee (same $75; only graphic tees sold)",
+   "hu": "https://www.inkermannyc.com/collections/clothing?page=3",
+   "b": "range"
+  },
+  "Polo": {
+   "lp": "Cotton Knit Polo Shirt in Cream",
+   "lu": "https://www.inkermannyc.com/collections/clothing",
+   "hp": "Long Sleeve Knit Polo in Navy Stripe",
+   "hu": "https://www.inkermannyc.com/collections/clothing",
+   "b": "range"
+  },
+  "Dress shirt": {
+   "lp": "The Oxford Shirt in White (casual button-down; brand makes no dress shirt)",
+   "lu": "https://www.inkermannyc.com/products/the-oxford-shirt-in-white",
+   "hp": "The Linen Shirt in Navy",
+   "hu": "https://www.inkermannyc.com/collections/clothing",
+   "b": "range"
+  },
+  "Dress pants": {
+   "lp": "Drawstring Cotton Trousers in Cream (chinos/trousers; no dress trouser)",
+   "lu": "https://www.inkermannyc.com/collections/clothing?page=2",
+   "hp": "5-Pocket Cotton Trouser in Navy",
+   "hu": "https://www.inkermannyc.com/collections/clothing",
+   "b": "range"
+  },
+  "Sweater": {
+   "lp": "Cotton Crewneck Sweater in Navy (100% organic cotton)",
+   "lu": "https://www.inkermannyc.com/collections/clothing/products/cotton-crewneck-sweater-in-navy",
+   "hp": "Nantucket Whale Cotton Crewneck (cotton; no elevated fibre seen)",
+   "hu": "https://www.inkermannyc.com/collections/clothing",
+   "b": "range"
+  },
+  "Outerwear": {
+   "lp": "The Linen Blazer in Navy (blazer; 100% Italian linen) - NB blazers normally excluded from outerwear",
+   "lu": "https://www.inkermannyc.com/products/the-linen-blazer-in-beige",
+   "hp": "Railway WV Men's Jacket in French Blue (unlined 520gsm Irish linen chore jacket)",
+   "hu": "https://www.inkermannyc.com/products/railway-wv-mens-jacket-in-french-blue",
+   "b": "single"
+  },
+  "Shoes": {
+   "lp": "The Hugo Sneaker (loafer is the staple; cheapest loafer is Madaket/Charlie $285)",
+   "lu": "https://www.inkermannyc.com/collections/footwear",
+   "hp": "Clay Loafer in Black Leather (pre-order)",
+   "hu": "https://www.inkermannyc.com/collections/footwear",
+   "b": "range"
+  }
+ },
+ "garment_links": {
+  "T-shirt": "https://www.inkermannyc.com/collections/clothing?page=3",
+  "Polo": "https://www.inkermannyc.com/collections/clothing",
+  "Dress shirt": "https://www.inkermannyc.com/collections/clothing",
+  "Dress pants": "https://www.inkermannyc.com/collections/clothing",
+  "Sweater": "https://www.inkermannyc.com/collections/clothing",
+  "Outerwear": "https://www.inkermannyc.com/search?q=jacket",
+  "Shoes": "https://www.inkermannyc.com/collections/footwear"
+ },
+ "price_read": {
+  "date": "2026-11-06",
+  "store": "https://www.inkermannyc.com/collections/clothing",
+  "currency": "USD",
+  "status": "partial",
+  "sublines": "-"
+ },
+ "notes": {
+  "tech": "Thread proposed 1 (2026-11-06):  — NONE; share of range 0%. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 2 (2026-11-06): Says where things are made (Portugal, 'jacket specialists in Porto', 'handmade in Portugal') and where fabric comes from (Irish and Italian linen, Italian organic cotton), and dates its first jacket to 2018, but names no factory, mill or tannery and owns no facility. Closer to a 2 than a 3; Sebastian may rule a 3 if 'jacket specialists in Porto' counts as a named maker type. Seated as proposed, pending ruling.",
+  "comfort": "seeded 2026-11-06 from the seat_inkerman_2026-11-06 return; provisional",
+  "style": "seeded 2026-11-06 from the seat_inkerman_2026-11-06 return; provisional",
+  "dur": "seeded 2026-11-06 from the seat_inkerman_2026-11-06 return; provisional",
+  "forg": "seeded 2026-11-06 from the seat_inkerman_2026-11-06 return; provisional",
+  "fuss": "seeded 2026-11-06 from the seat_inkerman_2026-11-06 return; provisional",
+  "golffice": "seeded 2026-11-06 from the seat_inkerman_2026-11-06 return; provisional",
+  "whitet": "seeded 2026-11-06 from the seat_inkerman_2026-11-06 return; provisional",
+  "logo": "seeded 2026-11-06 from the seat_inkerman_2026-11-06 return; provisional",
+  "western": "seeded 2026-11-06 from the seat_inkerman_2026-11-06 return; provisional",
+  "rock": "seeded 2026-11-06 from the seat_inkerman_2026-11-06 return; provisional",
+  "workwear": "seeded 2026-11-06 from the seat_inkerman_2026-11-06 return; provisional",
+  "outdoor": "seeded 2026-11-06 from the seat_inkerman_2026-11-06 return; provisional",
+  "surf": "seeded 2026-11-06 from the seat_inkerman_2026-11-06 return; provisional",
+  "denim": "seeded 2026-11-06 from the seat_inkerman_2026-11-06 return; provisional",
+  "cashmere": "seeded 2026-11-06 from the seat_inkerman_2026-11-06 return; provisional",
+  "linen": "seeded 2026-11-06 from the seat_inkerman_2026-11-06 return; provisional",
+  "cotton": "seeded 2026-11-06 from the seat_inkerman_2026-11-06 return; provisional",
+  "wool": "seeded 2026-11-06 from the seat_inkerman_2026-11-06 return; provisional",
+  "synth": "seeded 2026-11-06 from the seat_inkerman_2026-11-06 return; provisional",
+  "murica": "seeded 2026-11-06 from the seat_inkerman_2026-11-06 return; provisional",
+  "ivy": "seeded 2026-11-06 from the seat_inkerman_2026-11-06 return; provisional",
+  "prep": "seeded 2026-11-06 from the seat_inkerman_2026-11-06 return; provisional",
+  "shoes": "seeded 2026-11-06 from the seat_inkerman_2026-11-06 return; provisional"
+ },
+ "doors": {
+  "c": "full",
+  "n": 2,
+  "cities": [
+   [
+    "Nantucket",
+    "MA",
+    1
+   ],
+   [
+    "New York",
+    "NY",
+    1
+   ]
+  ],
+  "basis": "seat_inkerman_2026-11-06 2026-11-06",
+  "out": 0,
+  "con": 0
+ },
+ "cities": "2 stores across the US, including Nantucket, New York · its own site",
+ "site": {
+  "domain": "inkermannyc.com",
+  "platform": "other",
+  "feed": "none",
+  "feed_count": 0,
+  "status": "live_store",
+  "checked": "2026-11-06"
+ },
+ "tech_evidence": {
+  "names": "no",
+  "origin": "none",
+  "marks": [],
+  "source": "seat_inkerman_2026-11-06",
+  "checked": "2026-11-06"
+ },
+ "craft_evidence": {
+  "owned": "NONE seen",
+  "makers": "Generic only: 'jacket specialists in Porto' (Railway jacket); no firm named",
+  "mills": "NONE named; fabric origin stated only by country (Italian organic cotton, Irish linen, Italian linen)",
+  "madein": "Portugal on 5 of 6 pages read (sweater, Oxford shirt, Railway jacket, linen blazer, shoes via Standard page); tee page states none",
+  "heritage": "loosely dated and placed: began c.2018 in Nantucket; no precise year",
+  "process": "thin: shoes 'made by hand in Portugal'; flexible rubber sole on Modern Loafer",
+  "urls": [
+   "https://www.inkermannyc.com/pages/the-inkerman-standard",
+   "https://www.inkermannyc.com/products/railway-wv-mens-jacket-in-french-blue"
+  ],
+  "proposed": 2,
+  "reasoning": "Says where things are made (Portugal, 'jacket specialists in Porto', 'handmade in Portugal') and where fabric comes from (Irish and Italian linen, Italian organic cotton), and dates its first jacket to 2018, but names no factory, mill or tannery and owns no facility. Closer to a 2 than a 3; Sebastian may rule a 3 if 'jacket specialists in Porto' counts as a named maker type.",
+  "source": "seat_inkerman_2026-11-06"
+ },
+ "ownership": {
+  "owner": "Not stated by the brand; its Where to Next page invites partners and investor inquiries.",
+  "u": "https://www.inkermannyc.com/pages/where-to-next"
+ },
+ "opview": "“We believe in simplicity and in doing things well.” — Inkerman, The Inkerman Standard",
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?search_text=Inkerman",
+   "m": "brand filter",
+   "n": ""
+  },
+  "grailed": {
+   "u": "https://www.grailed.com/shop?query=Inkerman"
+  }
+ },
+ "season": {
+  "l": "Fall 2026 (Nantucket campaign, Journal 21 Oct 2026)",
+  "t": "lookbook",
+  "u": "https://www.inkermannyc.com/blogs/stories",
+  "m": "unisex"
+ },
+ "fibre": {
+  "t": 23,
+  "w": 21,
+  "n": 87,
+  "s": 4,
+  "c": 0,
+  "x": 13,
+  "xh": 0,
+  "sp": "one",
+  "sc": [],
+  "nc": [
+   "tees-polos",
+   "shirts",
+   "knitwear"
+  ],
+  "st": "complete"
+ },
+ "band_note": "accessible by the price rule (dress shirt $185, sweater $225)",
+ "region": {
+  "o": [
+   6787,
+   6788
+  ],
+  "s": []
+ }
+}
