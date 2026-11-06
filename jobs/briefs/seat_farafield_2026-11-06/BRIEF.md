@@ -60,6 +60,9 @@ Things to settle on the way:
 12. **One real quotation** (`rules_quotes.md`).
 13. **Signature product and pronunciation.** Propose a signature product only if the brand's own pages call something its signature, its standard or its best seller. The Far Afield pages (About Us, Manufacturing & Sustainability) may be the place.
 
+14. **Dial evidence** (`rules_dials.md`, `dials_template.csv`): one row for each of the 38 dials, for Farafield. Each row carries a proposed score, a quotation or a counted fact from the brand's own pages, the URL and a confidence. Write `NC` where the pages give too little to judge. Read at least ten men's product pages for logo, forgiveness, care and comfort.
+15. **Store neighbourhood.** For every own door, name the neighbourhood as the brand or a local guide uses it (West Village, Back Bay), in the `note` column of `own_doors.csv`.
+
 ## Rules
 
 - **Name** must match `canonical_keys.txt` where it can. Save Khaki United is new, so `reconcile.py` will report no match. That is expected.

@@ -5,6 +5,13 @@ Read 6 November 2026. Status: **partial only because GOTS could not be read** an
 ## Files returned
 `return.csv` (132 columns, one row), `return_styles.csv` (171 styles), `return_categories.csv`, `return_fibres.csv`, `return_lines.csv`, `own_doors.csv`, `stockists.csv`, `facts_first.csv` (the early row), this note.
 
+## Added for the updated brief (dials and neighbourhood)
+- `dials.csv`: 38 rows, one per dial, each with a proposed score, a counted or quoted fact, a URL and a confidence. Scope: men's feed (210 records; 171 clothing styles), all 171 descriptions read via the feed, 13 men's product pages read with photos, plus FAQs, About, Sourcing, the home page and two collection pages.
+- Two dials are `NC`: `golffice` (no occasion copy at all) and `sail` (no boating register).
+- Lower-confidence calls Sebastian may want to look at first: `finbro` (1 by the brand's pages, but 19 quarter-zips and 9 vests are 16% of the range), `ital` (3: half the clothing is Italian-made, but the brand frames it as complementary), `dur` (4, with the lifetime-repair promise arguing for 5), `bruv`, `status`, `prep`, `outdoor`.
+- Scale floors: where a dial's floor is 1 and the brand has nothing (denim, fren, briish, scandi, street, avant, weird, ivy) I scored 1 and said "none found"; where the dial has a 0 tier or says "down to a single item" (boat, racquet, ski, western, rock, workwear, surf, shoes) I scored 0.
+- Neighbourhood for the Chicago door: Magnificent Mile, in `own_doors.csv` `note`. The Chicago store's brand-run status is still unconfirmed (see below).
+
 ## What was read
 - **Store/currency:** saintcroix.com, Shopify US storefront (`Shopify.country` US, currency USD, rate 1.0). Two displayed prices matched the feed: Tattersall Cotton Shirt $295, Boiled Wool Jacket $1,800. The site also has en-gb and en-ca markets (not read).
 - **Men's scope:** the seven `/collections/mens-*` feeds. Their union is 210 records and equals `mens-ready-to-wear`. The other 46 store products are women's and excluded. In scope = **171 clothing styles**; out of scope = 38 socks and 1 golf head cover. (My first-pass figure of 168 was a filter error.)
