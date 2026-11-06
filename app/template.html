@@ -3928,8 +3928,11 @@ function oneThingHTML(name){
 const hcEl = document.getElementById('hoverCard');
 document.querySelectorAll('.brand').forEach(b=>{
   b.addEventListener('click', (e)=>{
-    if(b.classList.contains('out')) return;
+    // a brand the filter excludes stays dead to a stray click, but not when the reader just searched for it
+    if(b.classList.contains('out') && !b.classList.contains('hit')) return;
+    const wasHit = b.classList.contains('hit');
     document.querySelectorAll(".brand.hit").forEach(x=>x.classList.remove("hit"));
+    if(wasHit && b.classList.contains('out')) b.classList.add('hit'); // keep it legible and clickable while its card is open
     hcEl.innerHTML = hoverCardHTML(b, true);
     hcEl.dataset.brand = b.textContent.trim();
     document.querySelectorAll('.brand[aria-selected="true"]')

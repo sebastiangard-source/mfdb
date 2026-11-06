@@ -1009,6 +1009,22 @@ with sync_playwright() as p:
     _f = pg.evaluate("(()=>{const a=document.activeElement; return [a&&a.tagName, a&&a.className, a&&a.textContent.trim().slice(0,30), hoverCard.classList.contains('pinned')]})()")
     ck('and focus is on the brand or inside its card, not the page body', _f[0] and (('brand' in (_f[1] or '')) or pg.evaluate("hoverCard.contains(document.activeElement)")), _f)
     ck('a keyboard-opened card takes focus so Tab lands inside', pg.evaluate("hoverCard.contains(document.activeElement) || (document.activeElement && document.activeElement.classList.contains('brand'))"))
+    # a search hit the filter excludes still opens its card, and stays clickable
+    pg.evaluate("()=>{const d=document.querySelector('.dial input[type=range]'); }")
+    _ex = pg.evaluate('''async ()=>{
+      const sleep=ms=>new Promise(r=>setTimeout(r,ms));
+      const el=[...document.querySelectorAll('.brand')].find(b=>b.textContent.trim()==='Patrick James');
+      if(!el) return null;
+      el.classList.add('out'); el.classList.add('hit'); await sleep(20);
+      el.click(); await sleep(60);
+      const first=hoverCard.classList.contains('pinned') && hoverCard.dataset.brand==='Patrick James';
+      hoverCard.classList.remove('pinned','show'); await sleep(20);
+      el.click(); await sleep(60);
+      const second=hoverCard.classList.contains('pinned');
+      const kept=el.classList.contains('hit');
+      el.classList.remove('out','hit'); hoverCard.classList.remove('pinned','show');
+      return [first,second,kept];}''')
+    ck('a searched brand outside the filter opens its card and stays clickable', _ex==[True,True,True], _ex)
     pg.goto(url); pg.reload(); pg.wait_for_timeout(500)
     pg.click('.brand:has-text("Barbour")'); pg.wait_for_timeout(300); pg.click('#hoverCard a.detail-link'); pg.wait_for_timeout(500)
     pg.click('#detailClose'); pg.wait_for_timeout(300)
