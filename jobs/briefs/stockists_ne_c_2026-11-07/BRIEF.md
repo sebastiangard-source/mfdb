@@ -6,7 +6,7 @@ Read `audit_protocol.md` first. Everything below assumes it. **You gather and pr
 
 ## Why
 
-Seventeen brands have just joined the map (listed in `new_brands.txt`). Dehen 1920 and Gitman Vintage name New England shops on their own stockist lists that are not on the map, and the shops already on the map may carry the new brands without saying so on a brand locator. A shop links to a brand only where the shop's own list names it. This brief brings four missing shops to the map's record standard and reads the brand list of nine shops that are already there.
+Nineteen brands have just joined the map (listed in `new_brands.txt`). Dehen 1920 and Gitman Vintage name New England shops on their own stockist lists that are not on the map, and the shops already on the map may carry the new brands without saying so on a brand locator. A shop links to a brand only where the shop's own list names it. This brief brings four missing shops to the map's record standard and reads the brand list of nine shops that are already there.
 
 ## The job, once for each row of `worklist.csv`
 
