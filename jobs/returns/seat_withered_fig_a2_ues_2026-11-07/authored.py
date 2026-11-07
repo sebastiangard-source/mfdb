@@ -1,0 +1,4 @@
+# UES authored dials, 7 Nov 2026. Shoes 0 and slot None: the one shoe is third-party Thorogood stock.
+F = lambda d=1, ca=1, li=1, co=1, wo=1, sy=1: dict(denim=d, cashmere=ca, linen=li, cotton=co, wool=wo, synth=sy)
+A = {}
+A['UES'] = dict(tech=1, craft=3, comfort=3, style=2, fabric=F(4,1,2,5,1,1), dur=4, forg=4, forgc=[3, 3, 2], fuss=1, golffice=0, reg={'murica': 4, 'ivy': 2, 'prep': 2, 'golf': 1, 'status': 2, 'finbro': 1, 'ital': 1, 'fren': 1, 'briish': 1, 'scandi': 1, 'street': 2, 'avant': 1, 'weird': 2, 'boat': 2, 'racquet': 0, 'ski': 0}, whitet=4, logo=3, western=2, rock=3, workwear=4, outdoor=2, surf=2, shoes=0, prices_override={'Shoes': None}, why='Osaka denim and workwear house that began in 1967 as a baby-clothing maker, and says it has never run a discount sale.', chan=['O','W','I'])
