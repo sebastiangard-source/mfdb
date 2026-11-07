@@ -581,9 +581,10 @@ with sync_playwright() as p:
     ck('no mask fades the card content',
        pg.eval_on_selector('#hoverCard',"e=>getComputedStyle(e).maskImage")=='none')
     # the hint says there is more; at the end of the card there is not
-    pg.eval_on_selector('#hoverCard',"e=>{e.scrollTop=e.scrollHeight; e.dispatchEvent(new Event('scroll'))}")
-    try: pg.wait_for_function("()=>getComputedStyle(document.getElementById('hoverCard'),'::after').display==='none'",timeout=4000)
-    except Exception: pass
+    pg.evaluate('''async()=>{const e=document.getElementById('hoverCard');
+      for(let i=0;i<30;i++){e.scrollTop=e.scrollHeight; e.dispatchEvent(new Event('scroll'));
+        await new Promise(r=>setTimeout(r,100));
+        if(getComputedStyle(e,'::after').display==='none') return;}}''')
     ck('the scroll hint goes when the card is scrolled to its end',
        pg.eval_on_selector('#hoverCard',"e=>getComputedStyle(e,'::after').display")=='none',
        pg.eval_on_selector('#hoverCard',"e=>JSON.stringify([e.scrollTop,e.scrollHeight,e.clientHeight,e.className,getComputedStyle(e,'::after').display])")+' '+str(tall))
