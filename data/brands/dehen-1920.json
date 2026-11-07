@@ -20,6 +20,8 @@
  "dials": {
   "dur": 4,
   "forg": 2,
+  "fuss": 1,
+  "golffice": 0,
   "whitet": 3,
   "logo": 2,
   "western": 1,
@@ -59,9 +61,9 @@
   1
  ],
  "onething": {
-  "p": null,
+  "p": "NONE: no page names a signature product",
   "u": null,
-  "n": "no signature product named in the seat_withered_fig_c_2026-11-06 return"
+  "n": "from the seat_withered_fig_c_final_2026-11-07 return; \"NONE: no page names a signature product\""
  },
  "prices": [
   [
@@ -69,7 +71,7 @@
    145
   ],
   null,
-  "?",
+  null,
   null,
   null,
   [
@@ -82,6 +84,7 @@
   ],
   null
  ],
+ "price_checked": true,
  "price_range_only": [
   "T-shirt",
   "Sweater",
@@ -116,49 +119,51 @@
   "Outerwear": "https://dehen1920.com/collections/jackets"
  },
  "price_read": {
-  "date": "2026-11-06",
+  "date": "2026-11-07",
   "store": "https://dehen1920.com/collections/all",
   "currency": "USD (men's collection pages only; Dehen also sells women's, excluded per Sebastian's ruling)",
   "status": "partial",
   "sublines": "-"
  },
  "notes": {
-  "tech": "Thread proposed 1 (2026-11-06):  — NONE; share of range 0%. Seated as proposed, pending ruling.",
-  "craft": "Thread proposed 4 (2026-11-06): Real, dated, placed heritage and own knitting on vintage machines for the knitwear that is the brand's core, with named UK mills on woven pieces. Held at 4 not 5: tees and rugby shirts are made at Columbia Knit (a named third party), woven jackets are cut-and-sewn with no stated ownership of that floor, and the current factory site and ownership of the building are not shown. Confidence medium. Seated as proposed, pending ruling.",
-  "comfort": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "style": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "dur": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "forg": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "whitet": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "logo": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "western": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "rock": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "workwear": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "outdoor": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "surf": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "denim": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "cashmere": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "linen": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "cotton": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "wool": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "synth": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "murica": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "ivy": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "prep": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "golf": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "status": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "finbro": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "ital": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "fren": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "briish": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "scandi": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "street": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "avant": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "weird": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "boat": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "racquet": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "ski": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "shoes": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional"
+  "tech": "Thread proposed 1 (2026-11-07):  — NONE; share of range 0%. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 4 (2026-11-07): Real, dated, placed heritage and own knitting on vintage machines for the knitwear that is the brand's core, with named UK mills on woven pieces. Held at 4 not 5: tees and rugby shirts are made at Columbia Knit (a named third party), woven jackets are cut-and-sewn with no stated ownership of that floor, and the current factory site and ownership of the building are not shown. Confidence medium. Seated as proposed, pending ruling.",
+  "comfort": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "style": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "dur": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "forg": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "fuss": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "golffice": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "whitet": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "logo": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "western": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "rock": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "workwear": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "outdoor": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "surf": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "denim": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "cashmere": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "linen": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "cotton": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "wool": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "synth": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "murica": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "ivy": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "prep": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "golf": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "status": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "finbro": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "ital": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "fren": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "briish": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "scandi": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "street": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "avant": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "weird": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "boat": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "racquet": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "ski": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "shoes": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional"
  },
  "doors": {
   "c": "full",
@@ -181,14 +186,14 @@
   "feed": "none",
   "feed_count": 0,
   "status": "live_store",
-  "checked": "2026-11-06"
+  "checked": "2026-11-07"
  },
  "tech_evidence": {
   "names": "no",
   "origin": "none",
   "marks": [],
-  "source": "seat_withered_fig_c_2026-11-06",
-  "checked": "2026-11-06"
+  "source": "seat_withered_fig_c_final_2026-11-07",
+  "checked": "2026-11-07"
  },
  "craft_evidence": {
   "owned": "Probable, claim-level: knits its own worsted wool \"on 1940's knitting machines\" (Full-Throttle Moto-Sweater page); trim \"knit at Dehen factory\" (All-City Leather Jacket, N-1 Deck Jacket pages); factory page narrates a Dehen-built mill and apparel factory at Flanders & 10th, NW Portland (1960-80) but does not state the current site; Heddels (press, 17 Dec 2020) quotes president Jim Artaiz: knits its own 100% wool fabric on 1950s flatbed machines. No filing, photo-of-site or tour read.",
@@ -203,13 +208,23 @@
   ],
   "proposed": 4,
   "reasoning": "Real, dated, placed heritage and own knitting on vintage machines for the knitwear that is the brand's core, with named UK mills on woven pieces. Held at 4 not 5: tees and rugby shirts are made at Columbia Knit (a named third party), woven jackets are cut-and-sewn with no stated ownership of that floor, and the current factory site and ownership of the building are not shown. Confidence medium.",
-  "source": "seat_withered_fig_c_2026-11-06"
+  "source": "seat_withered_fig_c_final_2026-11-07"
  },
  "ownership": {
   "owner": "Brand says family-owned, \"well into our fourth generation\" (History page, no owner named). Heddels (press, 17 Dec 2020) names Jim Artaiz as president and owner. Not reconciled.",
   "u": "https://dehen1920.com/pages/history"
  },
  "opview": "“We are a family business known for long-lasting quality, workmanship and rugged styling.” — Dehen Knitting Co. (the house, writing as itself), Dehen 1920, History page",
+ "resale": {
+  "vinted": {
+   "u": "https://www.vinted.com/catalog?search_text=dehen%201920",
+   "m": "brand filter",
+   "n": ""
+  },
+  "grailed": {
+   "u": "https://www.grailed.com/designers/dehen-1920 (loaded 7 Nov 2026: 92 listings)"
+  }
+ },
  "season": {
   "l": "Autumn/Winter 2025",
   "t": "lookbook",
@@ -217,17 +232,21 @@
   "m": "unisex"
  },
  "fibre": {
-  "t": 15,
-  "w": 13,
-  "n": 87,
+  "t": 37,
+  "w": 36,
+  "n": 97,
   "s": 0,
   "c": 0,
   "x": 0,
   "xh": 0,
   "sp": "one",
   "sc": [],
-  "nc": [],
-  "st": "partial"
+  "nc": [
+   "Jacket",
+   "Sweater",
+   "T-Shirt"
+  ],
+  "st": "complete"
  },
  "band_note": "accessible by the price rule (dress shirt none, sweater $325)"
 }

@@ -585,7 +585,8 @@ with sync_playwright() as p:
     try: pg.wait_for_function("()=>getComputedStyle(document.getElementById('hoverCard'),'::after').display==='none'",timeout=4000)
     except Exception: pass
     ck('the scroll hint goes when the card is scrolled to its end',
-       pg.eval_on_selector('#hoverCard',"e=>getComputedStyle(e,'::after').display")=='none')
+       pg.eval_on_selector('#hoverCard',"e=>getComputedStyle(e,'::after').display")=='none',
+       pg.eval_on_selector('#hoverCard',"e=>JSON.stringify([e.scrollTop,e.scrollHeight,e.clientHeight,e.className,getComputedStyle(e,'::after').display])")+' '+str(tall))
     pg.eval_on_selector('#hoverCard',"e=>{e.scrollTop=0; e.dispatchEvent(new Event('scroll'))}")
     try: pg.wait_for_function("()=>getComputedStyle(document.getElementById('hoverCard'),'::after').display!=='none'",timeout=4000)
     except Exception: pass

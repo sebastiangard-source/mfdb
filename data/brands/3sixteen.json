@@ -4,7 +4,7 @@
  "seat": 387,
  "dagger": 0,
  "focus": {
-  "tech": 1,
+  "tech": 2,
   "comfort": 3,
   "craft": 3,
   "style": 3
@@ -15,18 +15,19 @@
   "linen": 2,
   "cotton": 3,
   "wool": 2,
-  "synth": 1
+  "synth": 2
  },
  "dials": {
   "dur": 4,
   "forg": 2,
   "fuss": 1,
+  "golffice": 0,
   "whitet": 3,
   "logo": 2,
-  "western": 1,
+  "western": 2,
   "rock": 2,
   "workwear": 4,
-  "outdoor": 2,
+  "outdoor": 3,
   "surf": 1,
   "murica": 3,
   "ivy": 2,
@@ -60,9 +61,9 @@
   1
  ],
  "onething": {
-  "p": "Heavyweight T-shirt (brand calls it 'our best-selling Heavyweight T-shirts' on the Boxy page; proposal only, the brand does not use the word signature)",
-  "u": "https://www.3sixteen.com/products/heavyweight-boxy-t-shirt-white",
-  "n": "from the seat_withered_fig_c_2026-11-06 return; \"Heavyweight T-shirt (brand calls it 'our best-selling Heavyweight T-shirts' on the Boxy page; proposal only, the brand does not use the word signature)\""
+  "p": "Flagship denim: \"Our flagship 100x denim\" (About page); the CS/CT/RS-100x jeans. Prior proposal Heavyweight T-shirt kept as a second option (brand: \"our best-selling Heavyweight T-shirts\")",
+  "u": "https://www.3sixteen.com/pages/about",
+  "n": "from the seat_withered_fig_c_final_2026-11-07 return; \"Flagship denim: \"Our flagship 100x denim\" (About page); the CS/CT/RS-100x jeans. Prior proposal Heavyweight T-shirt kept as a second option (brand: \"our best-selling Heavyweight T-shirts\")\""
  },
  "prices": [
   [
@@ -176,50 +177,51 @@
   "Shoes": "https://www.3sixteen.com/collections/footwear"
  },
  "price_read": {
-  "date": "2026-11-06",
+  "date": "2026-11-07",
   "store": "https://www.3sixteen.com/",
   "currency": "USD",
   "status": "partial",
   "sublines": "-"
  },
  "notes": {
-  "tech": "Thread proposed 1 (2026-11-06):  — NC; share of range NC. Seated as proposed, pending ruling.",
-  "craft": "Thread proposed 3 (2026-11-06): Names its cloth mills (Nihon Menpu, Kuroki, Albano Morgado) and its shoe maker (Sanders & Sanders, Northampton) and states a country on every page read, but owns no facility and names no clothing factory; process is documented for denim only. Fits a 3 (names makers and mills, owns nothing); an owned facility would be needed for a 4. Seated as proposed, pending ruling.",
-  "comfort": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "style": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "dur": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "forg": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "fuss": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "whitet": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "logo": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "western": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "rock": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "workwear": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "outdoor": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "surf": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "denim": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "cashmere": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "linen": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "cotton": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "wool": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "synth": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "murica": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "ivy": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "prep": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "golf": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "status": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "finbro": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "ital": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "fren": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "briish": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "scandi": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "street": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "avant": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "weird": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "boat": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "racquet": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "ski": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "shoes": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional"
+  "tech": "Thread proposed 2 (2026-11-07): Aqua-X (Pace Tee); COOLEVER yarn (Half Zip Jacket, Training Cutoff Tee); other Active styles claim quick-dry, moisture-wicking, ripstop, water resistance without naming a fabric — NONE: branded third-party fibres named; no owned or licensed fabric stated; share of range 11% (18 Active-collection styles of 163 clothing styles). Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 3 (2026-11-07): Names its cloth mills (Nihon Menpu, Kuroki, Albano Morgado) and its shoe maker (Sanders & Sanders, Northampton) and states a country on every page read, but owns no facility and names no clothing factory; process is documented for denim only. Fits a 3 (names makers and mills, owns nothing); an owned facility would be needed for a 4. Seated as proposed, pending ruling.",
+  "comfort": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "style": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "dur": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "forg": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "fuss": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "golffice": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "whitet": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "logo": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "western": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "rock": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "workwear": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "outdoor": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "surf": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "denim": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "cashmere": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "linen": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "cotton": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "wool": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "synth": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "murica": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "ivy": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "prep": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "golf": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "status": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "finbro": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "ital": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "fren": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "briish": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "scandi": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "street": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "avant": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "weird": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "boat": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "racquet": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "ski": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "shoes": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional"
  },
  "doors": {
   "c": "full",
@@ -247,14 +249,18 @@
   "feed": "none",
   "feed_count": 0,
   "status": "live_store",
-  "checked": "2026-11-06"
+  "checked": "2026-11-07"
  },
  "tech_evidence": {
-  "names": "no",
-  "origin": "none",
-  "marks": [],
-  "source": "seat_withered_fig_c_2026-11-06",
-  "checked": "2026-11-06"
+  "names": "yes",
+  "origin": "both",
+  "marks": [
+   "Aqua-X (Pace Tee)",
+   "COOLEVER yarn (Half Zip Jacket, Training Cutoff Tee)",
+   "other Active styles claim quick-dry, moisture-wicking, ripstop, water resistance without naming a fabric"
+  ],
+  "source": "seat_withered_fig_c_final_2026-11-07",
+  "checked": "2026-11-07"
  },
  "craft_evidence": {
   "owned": "None found: About page and Hobbyist interview describe outside factories; no owned factory, mill or workshop stated",
@@ -269,7 +275,7 @@
   ],
   "proposed": 3,
   "reasoning": "Names its cloth mills (Nihon Menpu, Kuroki, Albano Morgado) and its shoe maker (Sanders & Sanders, Northampton) and states a country on every page read, but owns no facility and names no clothing factory; process is documented for denim only. Fits a 3 (names makers and mills, owns nothing); an owned facility would be needed for a 4.",
-  "source": "seat_withered_fig_c_2026-11-06"
+  "source": "seat_withered_fig_c_final_2026-11-07"
  },
  "ownership": {
   "owner": "Private; co-owned by Andrew Chen and Johan Lam (press: Wikipedia, The Hobbyist); brand does not state ownership",
@@ -278,12 +284,12 @@
  "opview": "“We just wanted to try and add our voice to the mix and see if we could make something that people would want to buy.” — Andrew Chen, co-owner, The Hobbyist #7: An Interview with 3sixteen Co-Owner Andrew Chen (Will Schube, The Hobbyist, Substack)",
  "resale": {
   "vinted": {
-   "u": "https://www.vinted.com/brand/623847-3sixteen (URL from search result; page fetch returned client_error; men's filter not verified)",
+   "u": "https://www.vinted.com/brand/623847",
    "m": "brand filter",
    "n": ""
   },
   "grailed": {
-   "u": "https://www.grailed.com/designers/3sixteen (URL from search result; page fetch returned client_error)"
+   "u": "https://www.grailed.com/designers/3sixteen (loaded 7 Nov 2026: 464 listings)"
   }
  },
  "season": {
@@ -293,22 +299,27 @@
   "m": "yes"
  },
  "fibre": {
-  "t": 27,
-  "w": 27,
-  "n": 89,
-  "s": 4,
-  "c": 7,
-  "x": 0,
-  "xh": 0,
+  "t": 171,
+  "w": 132,
+  "n": 64,
+  "s": 13,
+  "c": 1,
+  "x": 4,
+  "xh": 4,
   "sp": "one",
   "sc": [],
-  "nc": [],
+  "nc": [
+   "Denim",
+   "Outerwear",
+   "Shirts"
+  ],
   "st": "partial"
  },
  "band_note": "accessible by the price rule (dress shirt $175, sweater $245)",
  "region": {
   "o": [
-   6802
+   6802,
+   6803
   ],
   "s": []
  }

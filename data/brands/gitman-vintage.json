@@ -21,6 +21,7 @@
   "dur": 3,
   "forg": 3,
   "fuss": 0,
+  "golffice": -1,
   "whitet": 1,
   "logo": 1,
   "western": 1,
@@ -31,6 +32,7 @@
   "murica": 4,
   "ivy": 4,
   "prep": 3,
+  "golf": 1,
   "status": 3,
   "finbro": 2,
   "ital": 1,
@@ -40,6 +42,9 @@
   "street": 1,
   "avant": 1,
   "weird": 2,
+  "boat": 0,
+  "racquet": 0,
+  "ski": 1,
   "shoes": 0
  },
  "why": "Oxford shirts and knits from the vintage line of Gitman Bros., launched in 2008 and made in the USA.",
@@ -55,9 +60,9 @@
   1
  ],
  "onething": {
-  "p": null,
-  "u": null,
-  "n": "no signature product named in the seat_withered_fig_c_2026-11-06 return"
+  "p": "NONE as a product. The brand calls Chalk Buttons \"a signature detail used across all our shirts\" (About page)",
+  "u": "https://gitmanvintage.com/pages/about",
+  "n": "from the seat_withered_fig_c_final_2026-11-07 return; \"NONE as a product. The brand calls Chalk Buttons \"a signature detail used across all our shirts\" (About page)\""
  },
  "prices": [
   null,
@@ -106,46 +111,51 @@
   "Dress shirt": "https://gitmanvintage.com/collections/oxfords"
  },
  "price_read": {
-  "date": "2026-11-06",
+  "date": "2026-11-07",
   "store": "https://gitmanvintage.com/",
   "currency": "USD",
   "status": "partial",
   "sublines": "-"
  },
  "notes": {
-  "tech": "Thread proposed 1 (2026-11-06):  — NONE; share of range NONE. Seated as proposed, pending ruling.",
-  "craft": "Thread proposed 4 (2026-11-06): Real, placeable making on the shirt core: USA-made, factory address published (Lafayette TN), parent group owns the plant and the 1932 Ashland lineage is dated and placed. Held at 4 not 5 because the brand itself owns nothing (it is a division of Gitman Bros./IAG), knits are made in Peru, jackets/suit in a sister Rochester factory, and mills are mostly unnamed. If Sebastian rules group ownership d Seated as proposed, pending ruling.",
-  "comfort": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "style": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "dur": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "forg": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "fuss": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "whitet": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "logo": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "western": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "rock": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "workwear": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "outdoor": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "surf": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "denim": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "cashmere": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "linen": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "cotton": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "wool": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "synth": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "murica": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "ivy": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "prep": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "status": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "finbro": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "ital": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "fren": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "briish": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "scandi": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "street": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "avant": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "weird": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional",
-  "shoes": "seeded 2026-11-06 from the seat_withered_fig_c_2026-11-06 return; provisional"
+  "tech": "Thread proposed 1 (2026-11-07): NONE: no performance fabric named; \"wrinkle resistant\" and \"water repellency\" appear on a jacket and a collaboration nylon vest only — NONE; share of range 0%. Seated as proposed, pending ruling.",
+  "craft": "Thread proposed 4 (2026-11-07): Real, placeable making on the shirt core: USA-made, factory address published (Lafayette TN), parent group owns the plant and the 1932 Ashland lineage is dated and placed. Held at 4 not 5 because the brand itself owns nothing (it is a division of Gitman Bros./IAG), knits are made in Peru, jackets/suit in a sister Rochester factory, and mills are mostly unnamed. If Sebastian rules group ownership d Seated as proposed, pending ruling.",
+  "comfort": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "style": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "dur": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "forg": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "fuss": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "golffice": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "whitet": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "logo": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "western": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "rock": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "workwear": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "outdoor": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "surf": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "denim": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "cashmere": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "linen": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "cotton": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "wool": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "synth": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "murica": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "ivy": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "prep": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "golf": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "status": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "finbro": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "ital": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "fren": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "briish": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "scandi": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "street": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "avant": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "weird": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "boat": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "racquet": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "ski": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional",
+  "shoes": "seeded 2026-11-07 from the seat_withered_fig_c_final_2026-11-07 return; provisional"
  },
  "doors": {
   "c": "full",
@@ -162,14 +172,17 @@
   "feed": "none",
   "feed_count": 0,
   "status": "live_store",
-  "checked": "2026-11-06"
+  "checked": "2026-11-07"
  },
  "tech_evidence": {
-  "names": "no",
+  "names": "yes",
   "origin": "none",
-  "marks": [],
-  "source": "seat_withered_fig_c_2026-11-06",
-  "checked": "2026-11-06"
+  "marks": [
+   "NONE: no performance fabric named",
+   "\"wrinkle resistant\" and \"water repellency\" appear on a jacket and a collaboration nylon vest only"
+  ],
+  "source": "seat_withered_fig_c_final_2026-11-07",
+  "checked": "2026-11-07"
  },
  "craft_evidence": {
   "owned": "Group-owned, not brand-owned: shirt factory at 700 Freeman St, Lafayette TN (address on brand's contact page; IAG About lists Measure Up Shirt Makers, Lafayette TN as its Tennessee factory). Sack suit/jackets cut and sewn at a 'sister factory' / tailoring house in Rochester NY (product pages). Gitman Vintage is a division of Gitman Bros., which Wikipedia says IAG owns. No photograph or filing seen.",
@@ -184,7 +197,7 @@
   ],
   "proposed": 4,
   "reasoning": "Real, placeable making on the shirt core: USA-made, factory address published (Lafayette TN), parent group owns the plant and the 1932 Ashland lineage is dated and placed. Held at 4 not 5 because the brand itself owns nothing (it is a division of Gitman Bros./IAG), knits are made in Peru, jackets/suit in a sister Rochester factory, and mills are mostly unnamed. If Sebastian rules group ownership does not count, 3. Confidence medium.",
-  "source": "seat_withered_fig_c_2026-11-06"
+  "source": "seat_withered_fig_c_final_2026-11-07"
  },
  "ownership": {
   "owner": "Division of Gitman Bros. (gitmanvintage.com FAQ/lookbook); Gitman Bros. owned by Individualized Apparel Group (IAG lists Gitman Bros. among its brands). Current Gitman Bros. president named in press (2020): Chris Olberding. No Gitman Vintage-specific owner statement.",
@@ -193,9 +206,12 @@
  "opview": "“Launched in 2008, Gitman Vintage pays tribute to the brand’s rich heritage with a unique interpretation of the past.” — Gitman Vintage (house voice, about page), Gitman Vintage About page",
  "resale": {
   "vinted": {
-   "u": "https://www.vinted.com/brand/6128480-gitman-vintage",
+   "u": "https://www.vinted.com/brand/6128480",
    "m": "brand filter",
    "n": ""
+  },
+  "grailed": {
+   "u": "https://www.grailed.com/designers/gitman-bros-vintage (loaded 7 Nov 2026: designer \"Gitman Bros. Vintage\", 127 listings)"
   }
  },
  "season": {
@@ -205,16 +221,20 @@
   "m": "unisex"
  },
  "fibre": {
-  "t": 14,
-  "w": 14,
-  "n": 100,
+  "t": 373,
+  "w": 241,
+  "n": 64,
   "s": 0,
   "c": 0,
   "x": 0,
   "xh": 0,
   "sp": "one",
   "sc": [],
-  "nc": [],
+  "nc": [
+   "Mens Shirts",
+   "Formals",
+   "Knitwear"
+  ],
   "st": "partial"
  },
  "band_note": "accessible by the price rule (dress shirt $235, sweater $335)"
