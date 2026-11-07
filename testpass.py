@@ -582,11 +582,13 @@ with sync_playwright() as p:
        pg.eval_on_selector('#hoverCard',"e=>getComputedStyle(e).maskImage")=='none')
     # the hint says there is more; at the end of the card there is not
     pg.eval_on_selector('#hoverCard',"e=>{e.scrollTop=e.scrollHeight; e.dispatchEvent(new Event('scroll'))}")
-    pg.wait_for_timeout(300)
+    try: pg.wait_for_function("()=>getComputedStyle(document.getElementById('hoverCard'),'::after').display==='none'",timeout=4000)
+    except Exception: pass
     ck('the scroll hint goes when the card is scrolled to its end',
        pg.eval_on_selector('#hoverCard',"e=>getComputedStyle(e,'::after').display")=='none')
     pg.eval_on_selector('#hoverCard',"e=>{e.scrollTop=0; e.dispatchEvent(new Event('scroll'))}")
-    pg.wait_for_timeout(300)
+    try: pg.wait_for_function("()=>getComputedStyle(document.getElementById('hoverCard'),'::after').display!=='none'",timeout=4000)
+    except Exception: pass
     ck('and comes back when the reader scrolls up',
        pg.eval_on_selector('#hoverCard',"e=>getComputedStyle(e,'::after').display")!='none')
     # a hidden card measures 0; open one before asking how wide it is
