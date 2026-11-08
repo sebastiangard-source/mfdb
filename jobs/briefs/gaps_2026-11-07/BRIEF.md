@@ -11,7 +11,6 @@ Read `audit_protocol.md` first. The map holds 402 brands. Every brand was checke
 | `PRICE` | One or more of the eight garment prices is `?`, or prices were never checked | Low and high full price, product, URL, basis, for each missing garment, per `rules_prices.md`; `np` if no price is published |
 | `DOORS` | Store count is not established (a count only, or none) | Every US own store in `own_doors.csv`: street, city, state, ZIP, phone, neighbourhood (New York) |
 | `SITE` | The site is not a working US store (no shop, no US store, or unchecked) | Say what is true today: a working US shop URL, or the exact reason there is none (brand-site-only, closed, geo-blocked). If there is no US shop, say whether the brand sells in the US at all and where |
-| `PLACES` | The map says the brand has US own stores but none are linked to places | Check each door against the map's own places by name and city; list doors that are missing, in `own_doors.csv`. Do not add duplicates: say "already on the map" with the place name |
 | `FIBRE_PARTIAL` | A composition census exists but covers under 80% of styles, or is marked partial | A full census in `return_styles.csv` (format in `schema_styles.json`, rules in `rules_fibre.md`): every men's clothing style, composition from the product page |
 | `FIBRE_NONE` | No census at all, and the brand makes clothing | Same as above |
 | `FIBRE_NONE_SHOE` | No census; probably a shoe-only house | Say whether the brand sells any clothing. If not, write `SHOE_ONLY` with the page; no census needed |
@@ -24,7 +23,7 @@ Read `audit_protocol.md` first. The map holds 402 brands. Every brand was checke
 
 `worklist.csv` is sorted by `tier`. Return each tier as it is done, so rulings can be made early.
 
-1. **Tier 1 (44 brands): the map shows something wrong or missing.** Prices `?`, store counts not established, dead or no-shop sites, doors not linked to places. Return as one batch, or two if it is slow.
+1. **Tier 1: the map shows something wrong or missing.** Prices `?`, store counts not established, dead or no-shop sites. Return as one batch, or two if it is slow.
 2. **Tier 2 (56 brands): fibre census.** Partial or absent composition counts. About fifteen brands per batch. This is the heaviest tier; if time runs short, stop at a clean batch boundary and say where you stopped.
 3. **Tier 3 (33 brands):** origin, garment links, resale only.
 4. **Tier 4 (194 brands):** ownership only. This is fast desk research (business press, the brand's About page, a company filing). Return in batches of about forty.
