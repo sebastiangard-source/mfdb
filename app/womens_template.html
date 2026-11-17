@@ -278,7 +278,7 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
     <h1>The Cyprus <span class="thin">Brand Explorer</span></h1>
     <p class="lede">Every fashion brand with its own full-price stores in the US, sorted into four price tiers, with every store listed.</p>
   </div>
-  <div class="stamp"><b>v0.99 · <span id="built"></span></b>Store lists from each brand’s own website.<br>Tiers set by the starting price of a blouse and a sweater.</div>
+  <div class="stamp"><b>v0.99.1 · <span id="built"></span></b>Store lists from each brand’s own website.<br>Tiers set by the starting price of a blouse and a sweater.</div>
   <nav class="morelinks" id="moreLinks"><span>More views</span><a href="maggies-list.html">Maggie’s list →</a><a href="overlaps.html">How the brand lists overlap →</a><a href="cake-croissant.html">Brands on CAKE and Croissant →</a><a href="ws-cake-croissant.html">WS centers, CAKE, Croissant and Rakuten+ →</a><button class="shotlink" id="shotGo2" title="A wide 16:9 layout of the brands in this view, sized for a screenshot">16:9 view</button><button class="tourlink" id="tourGo">Take the tour</button></nav>
 </header>
 
@@ -574,7 +574,7 @@ function lkRows(lk){const f=([s,u,c,m])=>`<a href="${esc(u)}" target="_blank" re
   if(re.length) out.push(`<dt><span class="tt" data-tip="Brand pages on resale sites. The number is how many items the site shows for the brand, where it shows one." tabindex="0">Resale</span></dt><dd class="lk">${re.map(f).join('<span class="sep"> · </span>')}</dd>`);
   return out;}
 function openOther(n){const o=OTHER_ALL.find(x=>x.n===n); if(!o) return; const placed=MOVES[o.n]&&ORDER.includes(MOVES[o.n])?MOVES[o.n]:'';
-  document.getElementById('pbody').innerHTML=`<h2>${esc(o.n)}</h2><span class="pill">${esc(CATN[o.cat]||o.cat)}</span>${placed?`<p class="movenote">You placed this in ${esc(bandName(placed))}. It has no price tier of its own.</p>`:''}
+  document.getElementById('pbody').innerHTML=`<h2>${esc(o.n)}</h2><span class="pill">${esc(CATN[o.cat]||o.cat)}</span>${placed?`<p class="movenote" style="margin:12px 0 12px">You placed this in ${esc(bandName(placed))}. It has no price tier of its own.</p>`:''}
     <div class="moveto"><span class="muted" style="font-size:12px;align-self:center">Move to</span>${ORDER.filter(x=>x!==placed).map(x=>`<button class="chip" data-move="${esc(x)}">${esc(bandName(x))}</button>`).join('')}${placed?'<button class="chip" data-move="">put back</button>':''}</div>
     <dl class="kv" style="margin-top:14px"><dt>Full-price stores</dt><dd>${o.own==null?'Count coming':o.none?'None of its own in the US; sold through other stores':o.own+' in the US'}</dd>
     ${o.locator?`<dt>Store finder</dt><dd><a href="${esc(o.locator)}" target="_blank" rel="noopener">${esc(o.locator.replace(/^https?:\/\//,'').slice(0,60))}</a></dd>`:''}${o.read?`<dt>Checked</dt><dd>${esc(fmtDate(o.read))}</dd>`:''}${o.so?soRow(o.so):''}${o.lk?lkRows(o.lk).join(''):''}</dl>
