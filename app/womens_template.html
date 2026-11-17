@@ -278,7 +278,7 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
     <h1>The Cyprus <span class="thin">Brand Explorer</span></h1>
     <p class="lede">Every fashion brand with its own full-price stores in the US, sorted into four price tiers, with every store listed.</p>
   </div>
-  <div class="stamp"><b>v0.98 · <span id="built"></span></b>Store lists from each brand’s own website.<br>Tiers set by the starting price of a blouse and a sweater.</div>
+  <div class="stamp"><b>v0.99 · <span id="built"></span></b>Store lists from each brand’s own website.<br>Tiers set by the starting price of a blouse and a sweater.</div>
   <nav class="morelinks" id="moreLinks"><span>More views</span><a href="maggies-list.html">Maggie’s list →</a><a href="overlaps.html">How the brand lists overlap →</a><a href="cake-croissant.html">Brands on CAKE and Croissant →</a><a href="ws-cake-croissant.html">WS centers, CAKE, Croissant and Rakuten+ →</a><button class="shotlink" id="shotGo2" title="A wide 16:9 layout of the brands in this view, sized for a screenshot">16:9 view</button><button class="tourlink" id="tourGo">Take the tour</button></nav>
 </header>
 
@@ -304,7 +304,7 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
 <div class="controls">
   <input id="q" type="search" placeholder="Brand, town or state">
   <div class="grp"><span class="lbl tt" data-tip="How many full-price stores the brand runs in the US. Outlets, pop-ups and shops inside department stores don’t count." tabindex="0">Stores</span><div class="chips">
-    <button class="chip on" data-t="mass">251+</button><button class="chip on" data-t="chain">51–250</button><button class="chip on" data-t="network">13–50</button><button class="chip on" data-t="circuit">5–12</button><button class="chip" data-t="flagship">1–4</button></div></div>
+    <button class="chip on" data-t="mass">251+</button><button class="chip on" data-t="chain">51–250</button><button class="chip on" data-t="network">20–50</button><button class="chip on" data-t="circuit">5–19</button><button class="chip" data-t="flagship">1–4</button></div></div>
   <div class="grp"><span class="lbl tt" data-tip="Brands whose US stores are all in these cities and their suburbs. New York takes in Long Island, Westchester, northern New Jersey and Fairfield County; Los Angeles takes in Orange County; Miami is Miami-Dade." tabindex="0">Where</span><div class="chips"><button class="chip" data-w="nyla">only NY and LA <span class="cn"></span></button><button class="chip" data-w="nylam">only NY, LA and Miami <span class="cn"></span></button></div></div>
   <div class="grp"><span class="lbl tt" data-tip="The style a brand is known for. Pick one or more." tabindex="0">Segment</span><div class="chips segchips"><button class="chip sgc" data-sg="Avant-garde designers">Avant-garde designers <span class="cn"></span></button><button class="chip sgc" data-sg="Hype &amp; drop culture">Hype &amp; drop culture <span class="cn"></span></button><button class="chip sgc" data-sg="Street &amp; sport culture">Street &amp; sport culture <span class="cn"></span></button><button class="chip sgc" data-sg="Signature luxury">Signature luxury <span class="cn"></span></button><button class="chip sgc" data-sg="Runway houses">Runway houses <span class="cn"></span></button><button class="chip sgc" data-sg="Quiet luxury">Quiet luxury <span class="cn"></span></button><button class="chip sgc" data-sg="Rock &amp; rebel">Rock &amp; rebel <span class="cn"></span></button><button class="chip sgc" data-sg="Performance &amp; athleisure">Performance &amp; athleisure <span class="cn"></span></button><button class="chip sgc" data-sg="Tailoring &amp; craft">Tailoring &amp; craft <span class="cn"></span></button><button class="chip sgc" data-sg="Outdoor &amp; coast">Outdoor &amp; coast <span class="cn"></span></button><button class="chip sgc" data-sg="Prep, club &amp; course">Prep, club &amp; course <span class="cn"></span></button><button class="chip sgc" data-sg="Heritage &amp; workwear">Heritage &amp; workwear <span class="cn"></span></button><button class="chip sgc" data-sg="Fashion insider">Fashion insider <span class="cn"></span></button><button class="chip sgc" data-sg="Mainstream contemporary">Mainstream contemporary <span class="cn"></span></button><button class="chip sgc" data-sg="Basics &amp; essentials">Basics &amp; essentials <span class="cn"></span></button><button class="chip sgc" data-sg="Modern minimal">Modern minimal <span class="cn"></span></button><button class="chip sgc" data-sg="Romantic &amp; feminine">Romantic &amp; feminine <span class="cn"></span></button><button class="chip sgc" data-sg="Resort &amp; boho">Resort &amp; boho <span class="cn"></span></button><button class="chip sgc" data-sg="Occasion &amp; evening">Occasion &amp; evening <span class="cn"></span></button><button class="chip sgc" data-sg="Classic &amp; career">Classic &amp; career <span class="cn"></span></button><button class="chip sgc" data-sg="Denim houses">Denim houses <span class="cn"></span></button><button class="chip sgc" data-sg="Intimates, lounge &amp; swim">Intimates, lounge &amp; swim <span class="cn"></span></button><button class="chip sgc" data-sg="Shoes &amp; accessories houses">Shoes &amp; accessories houses <span class="cn"></span></button></div></div>
 </div>
@@ -353,7 +353,7 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
 <script>
 /*__DATA__*/
 const NE=new Set(W.ne);
-const TIERS={mass:'250+',chain:'51–250',network:'13–50',circuit:'5–12',flagship:'1–4'};
+const TIERS={mass:'250+',chain:'51–250',network:'20–50',circuit:'5–19',flagship:'1–4'};
 const ORDER=['Basic','Premium','Accessible','True Luxury'];  // Pending (no price read) is not shown
 const RENAME={};  // band -> the name the user gave it
 const TIERNAME={Basic:'Tier 1',Premium:'Tier 2',Accessible:'Tier 3','True Luxury':'Tier 4'};
@@ -366,8 +366,9 @@ const MOVES={};
 try{Object.assign(MOVES,JSON.parse(localStorage.getItem('wspec_moves')||'{}'));}catch(e){}
 function saveMoves(){try{localStorage.setItem('wspec_moves',JSON.stringify(MOVES));}catch(e){}}
 for(const b of W.brands) b.band0=b.band;
-function reband(){for(const b of W.brands){b.rule=b.m==null?b.band0:(b.m<C1?'Premium':(b.m<=C2?'Accessible':'True Luxury'));
-    b.moved=!!(MOVES[b.n]&&b.rule!=='Pending'&&MOVES[b.n]!==b.rule); b.band=b.moved?MOVES[b.n]:b.rule;}
+function reband(){placeOthers(); for(const b of W.brands){b.rule=b.m==null?b.band0:(b.m<C1?'Premium':(b.m<=C2?'Accessible':'True Luxury'));
+    b.moved=!!(MOVES[b.n]&&b.rule!=='Pending'&&MOVES[b.n]!==b.rule); b.band=b.moved?MOVES[b.n]:b.rule;
+    if(b._o){b.rule='Other brands'; b.moved=true; b.band=MOVES[b.n];}}
 
   DEF.Premium=`Blouse and sweater from under $${C1} · contemporary and mall brands`; DEF.Accessible=`$${C1} to $${C2} · advanced contemporary`; DEF["True Luxury"]=`Over $${C2} · luxury and designer houses`;}
 const fmtDate=d=>{const m=String(d||'').match(/(\d{4})-(\d{2})-(\d{2})/); return m?new Date(+m[1],+m[2]-1,+m[3]).toLocaleDateString('en-US',{day:'numeric',month:'short',year:'numeric'}):d;};
@@ -384,7 +385,12 @@ const byOrder=(a,b)=>SORT==='stores'?((b.own||0)-(a.own||0))||a.n.localeCompare(
 // Brands a viewer removed from their own view (the × on a pill). Kept in this browser and carried in published pages.
 const HIDE=new Set(); try{JSON.parse(localStorage.getItem('wspec_hidden')||'[]').forEach(n=>HIDE.add(n));}catch(e){}
 function saveHide(){try{localStorage.setItem('wspec_hidden',JSON.stringify([...HIDE]));}catch(e){}}
-const OTHER=W.other||[];
+const OTHER_ALL=W.other||[]; const OTHER=OTHER_ALL.slice();
+// An Other brand a viewer drags into a price tier becomes a placed brand in W.brands (always shown as placed by hand,
+// since no price rule applies to it); one not placed stays in OTHER.
+function placeOthers(){W.brands=W.brands.filter(b=>!b._o); OTHER.length=0;
+  for(const o of OTHER_ALL){const to=MOVES[o.n]; if(to&&ORDER.includes(to)&&to!=='Pending') W.brands.push(Object.assign({},o,{_o:1,band:to,band0:to,m:null})); else OTHER.push(o);}}
+const ownTxt=b=>b.own==null?'counting':b.none?'no US stores':b.own;
 // ---- Where: brands whose every US store is in the New York, Los Angeles (and Miami) metro areas ----
 const METRO={
   NY:{NY:'new york|new york city|brooklyn|bronx|staten island|queens|elmhurst|bayside|williamsburg|long island city|garden city|manhasset|huntington|huntington station|lake grove|elmont|oceanside|bay shore|woodbury|merrick|commack|plainview|carle place|valley stream|stony brook|saint james|locust valley|west babylon|east hampton|southampton|sag harbor|amagansett|bridgehampton|westhampton beach|montauk|water mill|southold|white plains|yonkers|scarsdale|larchmont|mount kisco|mt kisco|irvington|bronxville|bedford|chappaqua|yorktown heights|rye|nanuet|west nyack',
@@ -410,6 +416,7 @@ function matchesO(o){
 const DIAL={};  // key -> threshold
 function dialGet(b,k){if(!k.includes('.')) return b[k]!=null?b[k]:null; const [g,a]=k.split('.'); const o=b[g]; return o&&o[a]!=null?o[a]:null;}
 function matches(b){
+  if(b._o) return matchesO(b);
   if(HIDE.has(b.n)) return false;
   if(b.band==='Pending') return false;
   for(const k in DIAL){const t=DIAL[k]; if(!t) continue; const v=dialGet(b,k); if(v==null||v<t) return false;}
@@ -429,16 +436,16 @@ function renderBands(){
     const vis=all.filter(matches); shown+=vis.length; stores+=vis.reduce((n,b)=>n+b.own,0);
     const sec=document.createElement('section'); sec.className='band '+band.split(' ')[0]; sec.dataset.band=band;
     sec.innerHTML=`<h2>${esc(bandName(band))}<small>${vis.length} of ${all.length} brands · ${vis.reduce((n,b)=>n+b.own,0).toLocaleString()} stores</small>${vis.length?`<button class="rmall" data-band="${esc(band)}" title="Remove the brands showing in this tier from your view">remove ${vis.length===all.length?'all':'these '+vis.length}</button>`:''}</h2><p class="def">${DEF[band]}</p><div class="grid">`+
-      all.map(b=>`<button class="b${b.moved?' moved':''}${matches(b)?'':' out'}" draggable="true" data-n="${esc(b.n)}"${b.moved?` title="moved by hand; the price rule says ${esc(bandName(b.rule))}"`:''}><span class="n">${esc(b.n)}</span><span class="c">${b.own}</span><span class="x" role="button" aria-label="Remove ${esc(b.n)} from this view" title="remove from my view">×</span></button>`).join('')+'</div>';
+      all.map(b=>`<button class="b${b.moved?' moved':''}${matches(b)?'':' out'}" draggable="true" data-n="${esc(b.n)}"${b.moved?` title="${b._o?'placed by hand; this brand has no price tier of its own':'moved by hand; the price rule says '+esc(bandName(b.rule))}"`:''}><span class="n">${esc(b.n)}</span><span class="c${b._o&&(b.own==null||b.none)?' p':''}">${ownTxt(b)}</span><span class="x" role="button" aria-label="Remove ${esc(b.n)} from this view" title="remove from my view">×</span></button>`).join('')+'</div>';
     host.appendChild(sec);
   }
   const tShown=shown, tStores=stores, tAll=W.brands.filter(b=>b.band!=='Pending').length;
   if(OTHER.length){
     const vis=OTHER.filter(matchesO); shown+=vis.length; const ost=vis.reduce((n,o)=>n+(o.own||0),0); stores+=ost;
     const counted=OTHER.filter(o=>o.own!=null).length;
-    const sec=document.createElement('section'); sec.className='band Other';
+    const sec=document.createElement('section'); sec.className='band Other'; sec.dataset.band='Other';
     sec.innerHTML=`<h2>Other brands<small>${vis.length} of ${OTHER.length} brands · ${ost.toLocaleString()} stores</small>${vis.length?`<button class="rmall" data-band="Other" title="Remove the brands showing in this section from your view">remove ${vis.length===OTHER.length?'all':'these '+vis.length}</button>`:''}</h2><p class="def">Jewelry, bags, eyewear, travel, home and beauty brands with their own stores.${counted<OTHER.length?' Store counts are coming in.':''}${clothingOnly()?' Hidden while a segment or Fashion focus filter is on.':''}</p>`+
-      CATS.map(c=>{const l=OTHER.filter(o=>o.cat===c).sort(byOrder); if(!l.length) return ''; return `<h4>${CATN[c]}</h4><div class="grid">`+l.map(o=>`<button class="b${matchesO(o)?'':' out'}" data-o="${esc(o.n)}"><span class="n">${esc(o.n)}</span><span class="c${o.own==null||o.none?' p':''}">${o.own==null?'counting':o.none?'no US stores':o.own}</span><span class="x" role="button" aria-label="Remove ${esc(o.n)} from this view" title="remove from my view">×</span></button>`).join('')+'</div>';}).join('');
+      CATS.map(c=>{const l=OTHER.filter(o=>o.cat===c).sort(byOrder); if(!l.length) return ''; return `<h4>${CATN[c]}</h4><div class="grid">`+l.map(o=>`<button class="b${matchesO(o)?'':' out'}" draggable="true" data-o="${esc(o.n)}"><span class="n">${esc(o.n)}</span><span class="c${o.own==null||o.none?' p':''}">${o.own==null?'counting':o.none?'no US stores':o.own}</span><span class="x" role="button" aria-label="Remove ${esc(o.n)} from this view" title="remove from my view">×</span></button>`).join('')+'</div>';}).join('');
     host.appendChild(sec);}
   const br=document.getElementById('breset'); if(br){const m=W.brands.filter(b=>b.moved).length, n=m+HIDE.size; br.textContent=n?`reset brands (${[m?m+' moved':'',HIDE.size?HIDE.size+' removed':''].filter(Boolean).join(', ')})`:'reset brands'; br.disabled=!n;}
   document.querySelectorAll('.chip[data-w]').forEach(c=>{const keep=WHERE; WHERE=c.dataset.w; const n=W.brands.filter(matches).length+OTHER.filter(matchesO).length; WHERE=keep; c.querySelector('.cn').textContent=n;});
@@ -483,7 +490,7 @@ function storeTree(b){
         return `<div class="ds"><div class="dh"><span>${lab}</span><b>${l.length}</b></div><ul class="st">`+l.map(s=>{const nm=s.sn&&s.sn.toLowerCase()!==b.n.toLowerCase()&&s.sn!==d&&!/^\d/.test(s.sn)?s.sn:''; return `<li><div>${esc(nm||s.a||b.n)}<div class="where">${esc((nm?[s.a,s.c,s.z]:[s.c,s.z]).filter(Boolean).join(', '))}${s.op&&s.op!=='brand'?' · run by '+esc(s.op):''}</div></div><a href="${mapUrl(s)}" target="_blank" rel="noopener">map ↗</a></li>`;}).join('')+'</ul></div>';}).join('')+'</details>').join('')+'</details>').join('')+'</div>';
 }
 function openBrand(n){
-  const b=W.brands.find(x=>x.n===n); if(!b){ if(OTHER.some(o=>o.n===n)) openOther(n); return; }
+  const b=W.brands.find(x=>x.n===n); if(!b||b._o){ if(OTHER_ALL.some(o=>o.n===n)) openOther(n); return; }
   const byState={}; for(const s of b.stores){(byState[s.s]=byState[s.s]||[]).push(s);}
   const states=Object.keys(byState).sort((a,c)=>(NE.has(c)-NE.has(a))||(byState[c].length-byState[a].length)||a.localeCompare(c));
   const prices=b.prices?`<div class="prices">${Object.entries(b.prices).map(([g,v])=>`<div><span>${g}</span>${Array.isArray(v)?('$'+v[0]+(v[1]&&v[1]!==v[0]?'–'+v[1]:'')):esc(v)}${b.gl&&b.gl[g]?`<a href="${esc(b.gl[g])}" target="_blank" rel="noopener">see the range ↗</a>`:''}</div>`).join('')}</div>`:'';
@@ -533,8 +540,8 @@ document.getElementById('bands').addEventListener('click',e=>{
 (()=>{const hc=document.getElementById('hc'); let t=null, cur=null;
   const LO=Math.log(15), HI=Math.log(5000), pos=v=>Math.max(0,Math.min(100,(Math.log(Math.max(v,15))-LO)/(HI-LO)*100));
   const regions=b=>{const c={}; for(const s of b.stores){const r=REG_OF[s.s]||'Other'; c[r]=(c[r]||0)+1;} return ['Northeast','South','Midwest','West'].filter(r=>c[r]).map(r=>`${r} ${c[r]}`).join(' · ');};
-  const card=el=>{const n=el.dataset.n, o=el.dataset.o;
-    if(o){const x=OTHER.find(y=>y.n===o); if(!x) return '';
+  const card=el=>{const n=el.dataset.n, o=el.dataset.o||(((W.brands.find(y=>y.n===el.dataset.n))||{})._o?el.dataset.n:'');
+    if(o){const x=OTHER_ALL.find(y=>y.n===o); if(!x) return '';
       return `<h4>${esc(x.n)}</h4><div class="hm"><span class="pill">${esc(CATN[x.cat]||'')}</span></div><p class="hs">${x.own==null?'Store count coming.':x.none?'No stores of its own in the US.':`${x.own} stores in the US${x.stores.length?' · '+regions(x):''}`}</p><div class="hx">Click for the store list</div>`;}
     const b=W.brands.find(y=>y.n===n); if(!b) return '';
     const a=b.about||{};
@@ -566,28 +573,30 @@ function lkRows(lk){const f=([s,u,c,m])=>`<a href="${esc(u)}" target="_blank" re
   if(shop.length) out.push(`<dt>Also sold at</dt><dd class="lk">${shop.map(f).join('<span class="sep"> · </span>')}</dd>`);
   if(re.length) out.push(`<dt><span class="tt" data-tip="Brand pages on resale sites. The number is how many items the site shows for the brand, where it shows one." tabindex="0">Resale</span></dt><dd class="lk">${re.map(f).join('<span class="sep"> · </span>')}</dd>`);
   return out;}
-function openOther(n){const o=OTHER.find(x=>x.n===n); if(!o) return;
-  document.getElementById('pbody').innerHTML=`<h2>${esc(o.n)}</h2><span class="pill">${esc(CATN[o.cat]||o.cat)}</span>
+function openOther(n){const o=OTHER_ALL.find(x=>x.n===n); if(!o) return; const placed=MOVES[o.n]&&ORDER.includes(MOVES[o.n])?MOVES[o.n]:'';
+  document.getElementById('pbody').innerHTML=`<h2>${esc(o.n)}</h2><span class="pill">${esc(CATN[o.cat]||o.cat)}</span>${placed?`<p class="movenote">You placed this in ${esc(bandName(placed))}. It has no price tier of its own.</p>`:''}
+    <div class="moveto"><span class="muted" style="font-size:12px;align-self:center">Move to</span>${ORDER.filter(x=>x!==placed).map(x=>`<button class="chip" data-move="${esc(x)}">${esc(bandName(x))}</button>`).join('')}${placed?'<button class="chip" data-move="">put back</button>':''}</div>
     <dl class="kv" style="margin-top:14px"><dt>Full-price stores</dt><dd>${o.own==null?'Count coming':o.none?'None of its own in the US; sold through other stores':o.own+' in the US'}</dd>
     ${o.locator?`<dt>Store finder</dt><dd><a href="${esc(o.locator)}" target="_blank" rel="noopener">${esc(o.locator.replace(/^https?:\/\//,'').slice(0,60))}</a></dd>`:''}${o.read?`<dt>Checked</dt><dd>${esc(fmtDate(o.read))}</dd>`:''}${o.so?soRow(o.so):''}${o.lk?lkRows(o.lk).join(''):''}</dl>
     ${o.stores.length?'<h3>Stores</h3>'+storeTree(o):''}
     <p class="cav">Stores under the brand’s own name, from its website. Counters inside department stores aren’t included.</p>`;
   document.getElementById('panel').classList.add('show'); document.getElementById('ov').classList.add('show');}
-function setMove(n,band){const b=W.brands.find(x=>x.n===n); if(!b||b.rule==='Pending') return;
+function setMove(n,band){if(OTHER_ALL.some(o=>o.n===n)){ if(!band||band==='Other'||!ORDER.includes(band)) delete MOVES[n]; else MOVES[n]=band; saveMoves(); reband(); renderBands(); renderIdx(); return;}
+  if(band==='Other') return; const b=W.brands.find(x=>x.n===n); if(!b||b.rule==='Pending') return;
   if(!band||band===b.rule) delete MOVES[n]; else MOVES[n]=band; saveMoves(); reband(); renderBands(); renderIdx();}
 (()=>{const host=document.getElementById('bands'); let dragN=null;
-  host.addEventListener('dragstart',e=>{const b=e.target.closest('.b'); if(!b) return; dragN=b.dataset.n; b.classList.add('dragging'); try{e.dataTransfer.setData('text/plain',dragN); e.dataTransfer.effectAllowed='move';}catch(x){}});
+  host.addEventListener('dragstart',e=>{const b=e.target.closest('.b'); if(!b) return; dragN=b.dataset.n||b.dataset.o; b.classList.add('dragging'); try{e.dataTransfer.setData('text/plain',dragN); e.dataTransfer.effectAllowed='move';}catch(x){}});
   host.addEventListener('dragend',e=>{const b=e.target.closest('.b'); if(b) b.classList.remove('dragging'); host.querySelectorAll('.band.drop').forEach(x=>x.classList.remove('drop')); dragN=null;});
   host.addEventListener('dragover',e=>{const sec=e.target.closest('.band'); if(!sec||!dragN||!sec.dataset.band) return; e.preventDefault(); host.querySelectorAll('.band.drop').forEach(x=>{if(x!==sec) x.classList.remove('drop');}); sec.classList.add('drop');});
   host.addEventListener('dragleave',e=>{const sec=e.target.closest('.band'); if(sec&&!sec.contains(e.relatedTarget)) sec.classList.remove('drop');});
   host.addEventListener('drop',e=>{const sec=e.target.closest('.band'); if(!sec||!dragN||!sec.dataset.band) return; e.preventDefault(); const n=dragN; dragN=null; setMove(n,sec.dataset.band);});})();
-document.getElementById('pbody').addEventListener('click',e=>{const m=e.target.closest('[data-move]'); if(!m) return; const n=document.querySelector('#pbody h2').textContent; setMove(n,m.dataset.move); openBrand(n);});
+document.getElementById('pbody').addEventListener('click',e=>{const m=e.target.closest('[data-move]'); if(!m) return; const n=document.querySelector('#pbody h2').textContent; setMove(n,m.dataset.move); if(OTHER_ALL.some(o=>o.n===n)) openOther(n); else openBrand(n);});
 document.querySelectorAll('.segchips .chip').forEach(c=>c.onclick=()=>{const k=c.dataset.sg; if(SG_ON.has(k)) SG_ON.delete(k); else SG_ON.add(k); c.classList.toggle('on',SG_ON.has(k)); renderBands(); renderIdx();});
 function setSort(v){SORT=['stores','followers'].includes(v)?v:'az'; try{localStorage.setItem('wspec_sort',SORT);}catch(e){} document.querySelectorAll('.sortrow .chip').forEach(c=>c.classList.toggle('on',c.dataset.sort===SORT));}
 document.querySelectorAll('.sortrow .chip').forEach(c=>c.onclick=()=>{setSort(c.dataset.sort); renderBands();});
 setSort(SORT);
 document.getElementById('breset').onclick=()=>{HIDE.clear(); saveHide(); for(const k in MOVES) delete MOVES[k]; saveMoves(); reband(); renderBands(); renderIdx();};
-for(const x of W.brands) x._w=whereOf(x); for(const o of OTHER) o._w=whereOf(o);
+for(const x of W.brands) x._w=whereOf(x); for(const o of OTHER_ALL) o._w=whereOf(o);
 document.querySelectorAll('.chip[data-w]').forEach(c=>c.onclick=()=>{WHERE=WHERE===c.dataset.w?'':c.dataset.w; document.querySelectorAll('.chip[data-w]').forEach(e=>e.classList.toggle('on',e.dataset.w===WHERE)); renderBands(); renderIdx();});
 document.querySelectorAll('.chip[data-t]').forEach(c=>c.onclick=()=>{const k=c.dataset.t; if(TIERS_ON.has(k)) TIERS_ON.delete(k); else TIERS_ON.add(k); c.classList.toggle('on',TIERS_ON.has(k)); renderBands(); renderIdx();});
 function onCut(){C1=+document.getElementById('c1').value; C2=Math.max(+document.getElementById('c2').value,C1+50); document.getElementById('c2').value=C2;
@@ -615,7 +624,7 @@ document.getElementById('dreset').onclick=()=>{document.querySelectorAll('#dials
 // ---- filter state in the URL hash, so a view can be linked and restored ----
 function stateObj(){return {o:SORT,t:[...TIERS_ON],w:WHERE,sg:[...SG_ON],hd:[...HIDE],q,c1:C1,c2:C2,mv:Object.fromEntries(W.brands.filter(b=>b.moved).map(b=>[b.n,b.band])),d:Object.fromEntries(Object.entries(DIAL).filter(([k,v])=>v)),r:RENAME};}
 function describeState(){const s=stateObj(); const parts=[];
-  const TL={mass:'251+ stores',chain:'51–250 stores',network:'13–50 stores',circuit:'5–12 stores',flagship:'1–4 stores'};
+  const TL={mass:'251+ stores',chain:'51–250 stores',network:'20–50 stores',circuit:'5–19 stores',flagship:'1–4 stores'};
   if(s.t.length===4&&!s.t.includes('flagship')) parts.push('5 or more stores'); else if(s.t.length) parts.push(s.t.map(k=>TL[k]).join(' or '));
   if(s.w) parts.push(s.w==='nyla'?'stores only in New York and Los Angeles':'stores only in New York, Los Angeles and Miami');
   if(s.sg&&s.sg.length) parts.push(s.sg.join(' or '));
@@ -668,7 +677,7 @@ function publishPage(){
   const DN={tech:'tech',comfort:'comfort',craft:'craft',style:'style'};
   const brandRow=b=>{const a=b.about||{}; const d=b.f?Object.entries(DN).filter(([k])=>b.f[k]!=null).map(([k,l])=>`${l} ${b.f[k]}`).join(' · '):'';
     const fab=b.fa?[b.cf!=null?`natural or lyocell ${b.cf}`:'',b.nat!=null?`natural ${b.nat}`:'',...['cotton','silk','wool','cashmere','linen','denim','synth'].filter(k=>b.fa[k]!=null&&b.fa[k]>=3).map(k=>`${k==='synth'?'synthetic':k} ${b.fa[k]}`)].filter(Boolean).join(' · '):'';
-    return `<div class="br"><div class="bh"><b>${esc(b.n)}${b.moved?` <sup>✱ by price, ${esc(bandName(b.rule))}</sup>`:''}</b><span>${b.own} store${b.own===1?'':'s'}${b.ne?` · ${b.ne} Northeast`:''}</span></div>${b.sg?`<p class="dl">${esc(b.sg)}${b.sg2?' · also '+esc(b.sg2):''}</p>`:''}${a.sells?`<p>${esc(a.sells)}</p>`:''}${d||fab?`<p class="dl">${[d,fab].filter(Boolean).join(' · ')}</p>`:''}</div>`;};
+    return `<div class="br"><div class="bh"><b>${esc(b.n)}${b.moved?` <sup>✱ by price, ${esc(bandName(b.rule))}</sup>`:''}</b><span>${b.own==null?'store count coming':b.own+' store'+(b.own===1?'':'s')}${b.ne?` · ${b.ne} Northeast`:''}</span></div>${b.sg?`<p class="dl">${esc(b.sg)}${b.sg2?' · also '+esc(b.sg2):''}</p>`:''}${a.sells?`<p>${esc(a.sells)}</p>`:''}${d||fab?`<p class="dl">${[d,fab].filter(Boolean).join(' · ')}</p>`:''}</div>`;};
   const byState={}; for(const b of vis) for(const s of b.stores){(byState[s.s]=byState[s.s]||[]).push({b,s});}
   const states=Object.keys(byState).sort((a,c)=>(NE.has(c)-NE.has(a))||(byState[c].length-byState[a].length)||a.localeCompare(c));
   const idx=states.map(st=>`<h3>${esc(ST[st]||st)}${NE.has(st)?' · Northeast':''} <small>${byState[st].length}</small></h3><ul>`+byState[st].sort((x,y)=>x.s.c.localeCompare(y.s.c)||x.b.n.localeCompare(y.b.n)).map(({b,s})=>`<li><b>${esc(b.n)}</b>${s.sn&&s.sn.toLowerCase()!==b.n.toLowerCase()?' · '+esc(s.sn):''}<span>${esc([s.a,s.c,s.s,s.z].filter(Boolean).join(', '))}</span> <a href="${mapUrl(s)}" target="_blank" rel="noopener">map ↗</a></li>`).join('')+'</ul>').join('');
@@ -683,7 +692,7 @@ function publishPage(){
   const html=`<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${esc(title)}</title><link href="https://fonts.googleapis.com/css2?family=Prata&family=Playfair+Display&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"><style>${css}</style></head><body>
 <h1>${esc(title)}</h1>${note?`<p class="lede">${esc(note)}</p>`:''}<p class="meta">${vis.length} brands · ${stores.toLocaleString()} US stores · from The Cyprus Brand Explorer ${esc(((document.querySelector('.stamp b')||{}).textContent||'').split(' · ')[0])}, published ${new Date().toLocaleDateString('en-US',{day:'numeric',month:'long',year:'numeric'})}</p>
 <div class="filt"><b>Filters:</b> ${esc(describeState())}</div>
-${byBand.map(([band,list])=>`<h2>${esc(bandName(band))}<small>${list.length} brand${list.length===1?'':'s'} · ${list.reduce((n,b)=>n+b.own,0).toLocaleString()} stores</small></h2><p class="def">${esc(DEF[band])}</p><p class="run">${list.map(b=>`<span class="bn"><b>${esc(b.n)}</b>${b.moved?'<sup title="placed by hand">✱</sup>':''} ${b.own}</span>`).join('')}</p>`).join('')}
+${byBand.map(([band,list])=>`<h2>${esc(bandName(band))}<small>${list.length} brand${list.length===1?'':'s'} · ${list.reduce((n,b)=>n+b.own,0).toLocaleString()} stores</small></h2><p class="def">${esc(DEF[band])}</p><p class="run">${list.map(b=>`<span class="bn"><b>${esc(b.n)}</b>${b.moved?'<sup title="placed by hand">✱</sup>':''} ${ownTxt(b)}</span>`).join('')}</p>`).join('')}
 ${(()=>{const ov=OTHER.filter(o=>matchesO(o)&&o.own); if(!ov.length) return ''; return `<h2>Other brands<small>${ov.length} brand${ov.length===1?'':'s'} · ${ov.reduce((n,o)=>n+o.own,0).toLocaleString()} stores</small></h2><p class="def">Jewelry, bags, eyewear, travel, home and beauty brands with their own stores.</p>`+CATS.map(c=>{const l=ov.filter(o=>o.cat===c).sort(byOrder); return l.length?`<p class="def" style="margin:10px 0 2px;text-transform:uppercase;letter-spacing:.05em;font-size:11px">${CATN[c]}</p><p class="run">${l.map(o=>`<span class="bn"><b>${esc(o.n)}</b> ${o.own}</span>`).join('')}</p>`:'';}).join('');})()}
 <details class="more"><summary>Brand by brand</summary>${byBand.map(([band,list])=>`<h2>${esc(bandName(band))}</h2>${list.map(brandRow).join('')}`).join('')}</details>
 <details class="more"><summary>${stores.toLocaleString()} stores in ${states.length} states</summary><div class="idx">${idx}</div></details>
@@ -756,7 +765,7 @@ function emailText(){
   const lines=[title,'',note?note+'\n':'',`${vis.length} brands · ${vis.reduce((n,b)=>n+b.own,0).toLocaleString()} US stores`,`Filters: ${describeState()}`,''];
   for(const band of ORDER){const l=vis.filter(x=>x.band===band).sort(byOrder); if(!l.length) continue;
     lines.push(`${bandName(band).toUpperCase()}: ${l.length} brand${l.length===1?'':'s'}, ${l.reduce((n,b)=>n+b.own,0).toLocaleString()} stores`);
-    lines.push(l.map(b=>`${b.n} (${b.own})`).join(', ')); lines.push('');}
+    lines.push(l.map(b=>`${b.n} (${ownTxt(b)})`).join(', ')); lines.push('');}
   lines.push('Store lists from each brand’s own website. From The Cyprus Brand Explorer, '+new Date().toLocaleDateString('en-US',{day:'numeric',month:'long',year:'numeric'})+'.');
   lines.push('', encView());
   return {subject:title,body:lines.filter(x=>x!==null).join('\n')};
