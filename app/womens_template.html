@@ -278,7 +278,7 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
     <h1>The Cyprus <span class="thin">Brand Explorer</span></h1>
     <p class="lede">Every fashion brand with its own full-price stores in the US, sorted into four price tiers, with every store listed.</p>
   </div>
-  <div class="stamp"><b>v0.99.1 · <span id="built"></span></b>Store lists from each brand’s own website.<br>Tiers set by the starting price of a blouse and a sweater.</div>
+  <div class="stamp"><b>v1.00 · <span id="built"></span></b>Store lists from each brand’s own website.<br>Tiers set by the starting price of a blouse and a sweater.</div>
   <nav class="morelinks" id="moreLinks"><span>More views</span><a href="maggies-list.html">Maggie’s list →</a><a href="overlaps.html">How the brand lists overlap →</a><a href="cake-croissant.html">Brands on CAKE and Croissant →</a><a href="ws-cake-croissant.html">WS centers, CAKE, Croissant and Rakuten+ →</a><button class="shotlink" id="shotGo2" title="A wide 16:9 layout of the brands in this view, sized for a screenshot">16:9 view</button><button class="tourlink" id="tourGo">Take the tour</button></nav>
 </header>
 
@@ -295,9 +295,9 @@ h3{font-family:'Prata',serif;font-weight:400;font-size:17px;margin:18px 0 8px}
   </div>
   <div class="chips"><button class="chip on" id="pubGo">publish</button><button class="chip" id="xlsGo" title="Download the brands and stores in this view as an Excel workbook">Excel</button><button class="chip" id="shotGo" title="A wide 16:9 layout of the brands in this view, sized for a screenshot">16:9</button></div>
   <span class="hint" id="pubHint"></span>
-  <details class="imp"><summary class="lbl">Import a view</summary>
+  <details class="imp"><summary class="lbl">Import a view or a list</summary>
     <textarea id="impText" rows="2" placeholder="Paste a published page or its text"></textarea>
-    <div class="improw"><label class="impfile">or open a saved page<input id="impFile" type="file" accept=".html,.htm,.txt,text/html,text/plain" hidden></label><button class="chip on" id="impGo" disabled>import</button></div>
+    <div class="improw"><label class="impfile">or open a saved page<input id="impFile" type="file" accept=".html,.htm,.txt,text/html,text/plain" hidden></label><label class="impfile" title="Open an Excel file saved from this explorer, or any sheet with a Brand column, and show just those brands">or an Excel list<input id="impXls" type="file" accept=".xlsx,.xls,.csv" hidden></label><button class="chip on" id="impGo" disabled>import</button></div>
     <span class="hint" id="impHint"></span>
   </details>
 </div>
@@ -665,6 +665,43 @@ function importView(txt){const v=decView(txt); const h=document.getElementById('
 document.getElementById('impGo').onclick=()=>importView(document.getElementById('impText').value);
 document.getElementById('impText').addEventListener('input',e=>{document.getElementById('impGo').disabled=!e.target.value.trim();});
 document.getElementById('impFile').onchange=e=>{const f=e.target.files&&e.target.files[0]; if(!f) return; const r=new FileReader(); r.onload=()=>importView(r.result); r.readAsText(f); e.target.value='';};
+
+// A list from Excel: an export from this explorer (or any sheet with a Brand column, and optionally a Tier column).
+// The view becomes exactly those brands, with filters cleared and any tier in the file applied as a hand placement.
+const nameKey=x=>String(x==null?'':x).normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase().replace(/&/g,'and').replace(/[^a-z0-9]+/g,'');
+async function importList(file){
+  const h=document.getElementById('impHint'); h.textContent='Reading '+file.name+'…';
+  try{
+    const X=await loadXlsx(); const wb=X.read(new Uint8Array(await file.arrayBuffer()),{type:'array'});
+    let pick=null;
+    for(const nm of (wb.SheetNames.includes('Brands')?['Brands']:[]).concat(wb.SheetNames)){
+      const rows=X.utils.sheet_to_json(wb.Sheets[nm],{header:1,defval:''});
+      const hi=rows.findIndex(r=>r.some(c=>nameKey(c)==='brand'));
+      if(hi>=0){pick={rows,hi,bc:rows[hi].findIndex(c=>nameKey(c)==='brand'),tc:rows[hi].findIndex(c=>nameKey(c)==='tier')}; break;}
+    }
+    if(!pick){const rows=X.utils.sheet_to_json(wb.Sheets[wb.SheetNames[0]],{header:1,defval:''}); pick={rows,hi:0,bc:0,tc:-1};}
+    const byKey={}; for(const b of W.brands){ if(!b._o) byKey[nameKey(b.n)]={n:b.n,main:true}; } for(const o of OTHER_ALL) byKey[nameKey(o.n)]={n:o.n,main:false};
+    const tierKey={}; for(const b of ORDER){ if(b==='Pending') continue; [b,TIERNAME[b],RENAME[b],bandName(b)].forEach(t=>{ if(t) tierKey[nameKey(t)]=b; }); }
+    const keep=new Set(), mv={}, miss=[]; let badTier=0;
+    for(const r of pick.rows.slice(pick.hi+1)){
+      const raw=String(r[pick.bc]||'').trim(); if(!raw) continue;
+      const hit=byKey[nameKey(raw)]; if(!hit){ if(!miss.includes(raw)) miss.push(raw); continue; }
+      keep.add(hit.n);
+      const tv=pick.tc>=0?String(r[pick.tc]||'').trim():''; if(!tv||/^other brands/i.test(tv)) continue;
+      const band=tierKey[nameKey(tv)]; if(band) mv[hit.n]=band; else badTier++;
+    }
+    if(!keep.size){h.textContent='No brands from this explorer were found in '+file.name+'. It needs a column headed Brand.'; return;}
+    const all=W.brands.filter(b=>!b._o&&b.band!=='Pending').map(b=>b.n).concat(OTHER_ALL.map(o=>o.n));
+    // brands already in their price tier need no placement; only differences from the price rule are kept as moves
+    const mvKeep={}; for(const n in mv){ const b=W.brands.find(x=>x.n===n&&!x._o); if(!b||b.rule!==mv[n]) mvKeep[n]=mv[n]; }
+    applyState(Object.assign(stateObj(),{t:[],w:'',sg:[],q:'',d:{},hd:all.filter(n=>!keep.has(n)),mv:mvKeep}));
+    document.getElementById('pubTitle').value=file.name.replace(/\.[^.]+$/,''); document.getElementById('pubNote').value='';
+    const placed=Object.keys(mvKeep).length;
+    h.textContent=`Opened “${file.name.replace(/\.[^.]+$/,'')}”: ${keep.size} brand${keep.size===1?'':'s'}${placed?`, ${placed} placed in the tier the file gives`:''}.`
+      +(miss.length?` Not found (${miss.length}): ${miss.slice(0,6).join(', ')}${miss.length>6?'…':''}.`:'')+(badTier?` ${badTier} tier name${badTier===1?'':'s'} not recognised.`:'')+' Reset brands brings everything back.';
+  }catch(e){ h.textContent='Couldn’t read that file. Check your connection and try again.'; }
+}
+document.getElementById('impXls').onchange=e=>{const f=e.target.files&&e.target.files[0]; if(f) importList(f); e.target.value='';};
 function stateToHash(){return '#v='+encodeURIComponent(btoa(unescape(encodeURIComponent(JSON.stringify(stateObj())))));}
 function hashToState(){const m=location.hash.match(/^#v=(.+)$/); if(!m) return null; try{return JSON.parse(decodeURIComponent(escape(atob(decodeURIComponent(m[1])))));}catch(e){return null;}}
 // ---- publish: a page of its own for the brands that pass ----
