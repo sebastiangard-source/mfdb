@@ -1,0 +1,5 @@
+# Authored dials for The Normal Brand, 18 November 2026, from the thread's dials.csv (bruv dropped: not a dial). Prices are USD as read, no override.
+# Tech 2 (thread proposed NC): one owned, trademarked fabric family (Puremeso, 13 of 165 styles) plus licensed COOLMAX; comfort-engineered jersey is the pitch but not the whole range.
+F = lambda d=1, ca=1, li=1, co=1, wo=1, sy=1: dict(denim=d, cashmere=ca, linen=li, cotton=co, wool=wo, synth=sy)
+A = {}
+A['The Normal Brand'] = dict(tech=2, craft=1, comfort=5, style=2, fabric=F(1,1,1,2,1,2), dur=3, forg=2, forgc=[3, 2, 1], fuss=-1, golffice=0, reg={'murica': 2, 'ivy': 1, 'prep': 1, 'golf': 1, 'status': 1, 'finbro': 1, 'ital': 1, 'fren': 1, 'briish': 1, 'scandi': 1, 'street': 1, 'avant': 1, 'weird': 1, 'boat': 0, 'racquet': 0, 'ski': 1}, whitet=2, logo=2, western=1, rock=1, workwear=2, outdoor=2, surf=1, shoes=0, why='Brothers from St. Louis making comfort-first casual clothing in its own stretch jersey, sold through 11 stores of its own, its website and several hundred retailers.', chan=['O', 'W', 'I'])
