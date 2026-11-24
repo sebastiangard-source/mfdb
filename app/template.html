@@ -679,6 +679,8 @@
   .bo-scope-name{font-family:'Inter',system-ui,sans-serif;font-size:15px;font-weight:400;color:var(--ink-faint)}
   .bo-tools{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center;margin:8px 0 10px}
   #boSearch{font:inherit;font-size:13px;padding:6px 10px;border:1px solid var(--hairline);border-radius:14px;background:transparent;color:var(--ink);min-width:220px}
+  /* iPhone Safari zooms the whole page in when a field under 16px is tapped, and leaves it zoomed: the right edge then clips. */
+  @media (hover:none),(max-width:820px){#boSearch{font-size:16px}}
   .bo-kinds{display:flex;gap:8px;margin:0}
   .bo-view{font:inherit;font-size:12px;padding:5px 12px;border-radius:14px;border:1px solid var(--hairline);background:transparent;color:var(--ink);cursor:pointer}
   .bo-view.on{background:var(--ink);color:var(--cream,#F2ECDD);border-color:var(--ink)}
